@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_sustainable_energy_microgrid_deployment"
+  title: "Sustainable Energy Microgrid Deployment"
+  department: "Operations"
+  complexity: "complex"
+  participants: ["Energy Operations Director", "Electrical Engineer", "Regulatory Compliance Manager", "IT Systems Specialist", "Community Relations Manager"]
+  trigger: "Community request for resilient energy infrastructure"
+  steps:
+    - step: 1
+      actor: "Energy Operations Director"
+      action: "Assess community energy needs and site feasibility"
+      tools: ["Energy demand analysis software", "Site assessment tools"]
+      duration: "4 weeks"
+      outputs: ["Feasibility study report", "Energy needs assessment"]
+    - step: 2
+      actor: "Electrical Engineer"
+      action: "Design microgrid architecture including solar, battery storage, and controls"
+      tools: ["Electrical design software", "Microgrid simulation tools"]
+      duration: "8 weeks"
+      outputs: ["System design specifications", "Technical drawings"]
+    - step: 3
+      actor: "Regulatory Compliance Manager"
+      action: "Obtain necessary permits and interconnection approvals"
+      tools: ["Regulatory filing systems", "Grid interconnection standards"]
+      duration: "6 weeks"
+      outputs: ["Permit approvals", "Interconnection agreements"]
+    - step: 4
+      actor: "IT Systems Specialist"
+      action: "Implement monitoring and control systems"
+      tools: ["SCADA systems", "IoT monitoring platforms"]
+      duration: "4 weeks"
+      outputs: ["Control system implementation", "Monitoring dashboard"]
+    - step: 5
+      actor: "Community Relations Manager"
+      action: "Engage community stakeholders and address concerns"
+      tools: ["Community engagement platforms", "Stakeholder feedback systems"]
+      duration: "3 weeks"
+      outputs: ["Stakeholder engagement report", "Community support documentation"]
+    - step: 6
+      actor: "Energy Operations Director"
+      action: "Oversee system installation and testing"
+      tools: ["Installation checklists", "Testing protocols"]
+      duration: "6 weeks"
+      outputs: ["Installation completion report", "System testing results"]
+    - step: 7
+      actor: "Cross-functional team"
+      action: "Commission system and provide training"
+      tools: ["Training materials", "Operations manuals"]
+      duration: "2 weeks"
+      outputs: ["Commissioning report", "Training completion records"]
+  success_criteria: "Microgrid operational with 99% uptime, community energy needs met, regulatory compliance achieved"
+  failure_modes: ["Technical integration issues", "Regulatory delays", "Community opposition", "Budget overruns"]
+  metrics:
+    - "System uptime: 99%"
+    - "Energy reliability: 99.9%"
+    - "Community satisfaction: 4.5/5"
+    - "Cost per kWh: Within budget"

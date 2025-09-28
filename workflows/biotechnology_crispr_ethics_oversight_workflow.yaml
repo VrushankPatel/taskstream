@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_biotechnology_crispr_ethics_oversight"
+  title: "Biotechnology CRISPR Ethics Oversight"
+  department: "R&D"
+  complexity: "complex"
+  participants: ["Ethics Committee Chair", "Lead Scientist", "Bioethics Consultant", "Regulatory Affairs Manager", "Patient Advocate"]
+  trigger: "New CRISPR-based therapy entering preclinical development"
+  steps:
+    - step: 1
+      actor: "Ethics Committee Chair"
+      action: "Form ethics review committee and define oversight scope"
+      tools: ["Ethics committee charters", "Regulatory guidelines"]
+      duration: "1 week"
+      outputs: ["Ethics committee charter", "Oversight framework document"]
+    - step: 2
+      actor: "Lead Scientist"
+      action: "Prepare scientific background and potential off-target effects analysis"
+      tools: ["Scientific literature databases", "CRISPR analysis software"]
+      duration: "3 weeks"
+      outputs: ["Scientific background report", "Off-target effects assessment"]
+    - step: 3
+      actor: "Bioethics Consultant"
+      action: "Conduct ethical impact assessment including germline editing concerns"
+      tools: ["Ethical assessment frameworks", "Stakeholder impact analysis tools"]
+      duration: "4 weeks"
+      outputs: ["Ethical impact assessment", "Risk-benefit analysis"]
+    - step: 4
+      actor: "Regulatory Affairs Manager"
+      action: "Review regulatory requirements for CRISPR applications"
+      tools: ["Regulatory databases", "Compliance tracking systems"]
+      duration: "2 weeks"
+      outputs: ["Regulatory requirements summary", "Compliance roadmap"]
+    - step: 5
+      actor: "Patient Advocate"
+      action: "Gather patient and community perspectives on CRISPR therapies"
+      tools: ["Survey tools", "Community engagement platforms"]
+      duration: "3 weeks"
+      outputs: ["Patient perspectives report", "Community feedback summary"]
+    - step: 6
+      actor: "Ethics Committee"
+      action: "Review all assessments and make ethical approval recommendation"
+      tools: ["Ethics review protocols", "Decision documentation systems"]
+      duration: "2 weeks"
+      outputs: ["Ethics review report", "Approval recommendation"]
+    - step: 7
+      actor: "Ethics Committee Chair"
+      action: "Implement ongoing monitoring and periodic ethics reviews"
+      tools: ["Monitoring frameworks", "Audit scheduling systems"]
+      duration: "Ongoing"
+      outputs: ["Monitoring plan", "Review schedule"]
+  success_criteria: "Ethical approval obtained, comprehensive oversight framework established, stakeholder concerns addressed"
+  failure_modes: ["Ethical concerns not adequately addressed", "Regulatory requirements missed", "Stakeholder opposition", "Scientific uncertainties"]
+  metrics:
+    - "Ethics review completion rate: 100%"
+    - "Stakeholder satisfaction: 4.5/5"
+    - "Regulatory compliance: 100%"
+    - "Monitoring incident rate: 0 adverse events"

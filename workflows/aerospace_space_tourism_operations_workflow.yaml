@@ -1,8 +1,8 @@
 workflow:
-  id: "workflow_aerospace_space_tourism"
+  id: "workflow_aerospace_space_tourism_operations"
   title: "Space Tourism Operations Workflow"
   department: "Space Operations"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Operations Director", "Flight Safety Officer", "Mission Control Lead", "Passenger Experience Manager", "Regulatory Compliance Manager"]
   trigger: "Commercial space tourism mission scheduled"
   steps:
@@ -44,3 +44,4 @@ workflow:
       outputs: ["Mission execution report", "Performance metrics", "Lessons learned analysis"]
   success_criteria: "Successful mission completion with passenger safety and positive experience"
   failure_modes: ["Regulatory delays", "Safety concerns", "Technical failures", "Passenger experience issues"]
+  metrics: ["Mission success rate: Target 100%", "Passenger safety incidents: Target 0", "Passenger satisfaction score: Target 4.8/5", "On-time departure rate: Target 95%", "Regulatory compliance audit: Target 100% pass"]

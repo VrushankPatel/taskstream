@@ -1,0 +1,43 @@
+{
+  "scenario_id": "crisis_data_breach_response_2025",
+  "context": "Major data breach affecting customer information requiring comprehensive response",
+  "stakeholders": {
+    "requester": "CISO",
+    "approvers": ["CEO", "Board Chair", "Legal Counsel"],
+    "influencers": ["Customer Success VP", "PR Director", "Affected Customers"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Data breach response, forensic investigation, and customer notification",
+    "urgency": "critical",
+    "justification": "Comply with regulations, protect customers, minimize reputational damage"
+  },
+  "decision_process": [
+    {
+      "stage": "breach_detection",
+      "duration": "4 hours",
+      "activities": ["Security monitoring alert", "Initial impact assessment", "Containment measures"],
+      "outcome": "Breach contained, scope determined"
+    },
+    {
+      "stage": "forensic_investigation",
+      "duration": "48 hours",
+      "activities": ["External forensic experts engaged", "Root cause analysis", "Data exposure assessment"],
+      "outcome": "Attack vector identified, affected data quantified"
+    },
+    {
+      "stage": "response_planning",
+      "duration": "24 hours",
+      "activities": ["Legal consultation", "Regulatory notification planning", "Customer communication strategy"],
+      "outcome": "Comprehensive response plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Regulatory compliance maintained, customer trust preserved, security improvements implemented",
+    "projected_value": "$3M in prevented losses from swift response",
+    "risk_factors": ["Regulatory fines", "Customer churn", "Lawsuits", "Reputational damage"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Customer impact minimization", "Cost effectiveness", "Reputational protection"],
+  "outcome": "Approved",
+  "lessons_learned": "Enhanced monitoring and incident response capabilities critical for data protection"
+}

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "government_digital_democracy_platform_2025",
+  "context": "Government agency planning implementation of digital democracy platform for citizen engagement and voting",
+  "stakeholders": {
+    "requester": "Digital Services Director",
+    "approvers": ["Agency Director", "IT Security Chief", "Legal Counsel"],
+    "influencers": ["Citizen Services Manager", "Privacy Commissioner", "Election Officials"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Digital democracy platform development and deployment",
+    "urgency": "high",
+    "justification": "Enhance citizen participation and modernize democratic processes"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "4 weeks",
+      "activities": ["Stakeholder interviews", "Security requirements analysis", "Accessibility assessments"],
+      "outcome": "Comprehensive requirements document completed"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["RFP development", "Vendor proposals review", "Security audits"],
+      "outcome": "Three vendors shortlisted for final evaluation"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Pilot platform development", "User testing", "Security validation"],
+      "outcome": "Pilot successful with minor security enhancements needed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increased citizen engagement by 40%, reduced voting costs by 30%, enhanced accessibility",
+    "projected_value": "$5M in efficiency savings over 5 years",
+    "risk_factors": ["Security vulnerabilities", "Privacy concerns", "Low adoption rates", "Technical failures"]
+  },
+  "decision_criteria": ["Security standards compliance", "Accessibility requirements", "Scalability", "Cost effectiveness", "User adoption potential"],
+  "outcome": "Approved with conditions",
+  "lessons_learned": "Early stakeholder engagement critical for democratic technology adoption"
+}

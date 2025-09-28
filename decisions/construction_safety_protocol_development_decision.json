@@ -1,0 +1,55 @@
+{
+  "scenario_id": "construction_safety_protocol_development_q1_2026",
+  "context": "Large construction firm responding to industry safety incident increase and new OSHA regulations",
+  "stakeholders": {
+    "requester": "Safety Director",
+    "approvers": ["CEO", "COO", "Legal Counsel"],
+    "influencers": ["Project Managers", "Union Representatives", "Insurance Provider"]
+  },
+  "request": {
+    "amount": "$800,000",
+    "purpose": "Development of comprehensive safety protocols, training programs, and technology implementation for enhanced site safety",
+    "urgency": "high",
+    "justification": "Reduce workplace incidents by 40%, comply with new regulations, lower insurance premiums"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_analysis",
+      "duration": "1 week",
+      "activities": ["Safety incident review", "Root cause analysis", "Regulatory compliance assessment"],
+      "outcome": "Identified critical safety gaps"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Technology vendor evaluation", "Protocol development", "Training program design"],
+      "outcome": "Selected comprehensive safety management platform"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "1 week",
+      "activities": ["ROI calculation", "Insurance premium analysis", "Productivity impact assessment"],
+      "outcome": "Projected $2.1M annual savings"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 weeks",
+      "activities": ["Phased rollout plan", "Training schedule", "Change management strategy"],
+      "outcome": "Approved for immediate implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in safety incidents, improved regulatory compliance, enhanced company reputation",
+    "projected_value": "$2.1M annual savings from reduced incidents and insurance costs",
+    "risk_factors": ["Implementation disruption", "Worker resistance to new protocols", "Technology integration challenges"]
+  },
+  "decision_criteria": [
+    "Safety incident reduction potential",
+    "Regulatory compliance requirements",
+    "Financial impact and ROI",
+    "Stakeholder acceptance and adoption",
+    "Scalability across project portfolio"
+  ],
+  "outcome": "Approved",
+  "lessons_learned": "Safety investments pay dividends in reduced costs and improved morale, early union involvement ensures successful adoption, comprehensive training critical for protocol effectiveness"
+}

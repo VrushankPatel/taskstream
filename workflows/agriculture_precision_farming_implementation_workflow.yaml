@@ -1,8 +1,8 @@
 workflow:
-  id: "workflow_agriculture_precision_farming"
+  id: "workflow_agriculture_precision_farming_implementation"
   title: "Agriculture Precision Farming Implementation"
   department: "Agriculture Operations"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Farm Manager", "Agronomist", "IT Specialist", "Equipment Supplier", "Data Analyst"]
   trigger: "Need to optimize crop yields and reduce input costs"
   steps:
@@ -50,3 +50,4 @@ workflow:
       outputs: ["Performance reports", "Optimization recommendations"]
   success_criteria: "Achieved 15% increase in crop yields and 20% reduction in input costs"
   failure_modes: ["Equipment malfunction", "Data quality issues", "Staff resistance to change"]
+  metrics: ["Crop yield improvement: Target 15%", "Input cost reduction: Target 20%", "ROI: Target >25%", "Data accuracy: Target 95%", "Equipment utilization rate: Target 90%"]

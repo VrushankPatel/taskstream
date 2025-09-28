@@ -1,0 +1,55 @@
+{
+  "scenario_id": "education_vr_implementation_investment_q4_2025",
+  "context": "Mid-size university seeking to enhance STEM education through VR technology implementation across science and engineering departments",
+  "stakeholders": {
+    "requester": "Dean of Engineering",
+    "approvers": ["Provost", "VP Finance", "IT Director"],
+    "influencers": ["Department Chairs", "Student Council", "Alumni Association"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "VR laboratory equipment, software licenses, faculty training, and content development for immersive STEM education",
+    "urgency": "medium",
+    "justification": "Competitive advantage in student recruitment, improved learning outcomes, and alignment with industry 4.0 skills requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "duration": "2 weeks",
+      "activities": ["Technical feasibility assessment", "Vendor demonstrations", "ROI analysis"],
+      "outcome": "Approved for detailed evaluation"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "3 weeks",
+      "activities": ["Department chair interviews", "Student focus groups", "Alumni survey"],
+      "outcome": "Strong support from STEM departments"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "Funding source identification", "Budget impact assessment"],
+      "outcome": "Positive ROI projected within 3 years"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Executive committee review", "Contract negotiation", "Implementation planning"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Enhanced student engagement, improved learning retention, increased STEM enrollment",
+    "projected_value": "$750,000 annual savings in lab equipment costs, $1.2M in research grants",
+    "risk_factors": ["Technology obsolescence", "Faculty training requirements", "Student VR accessibility concerns"]
+  },
+  "decision_criteria": [
+    "Educational impact and learning outcomes improvement",
+    "Financial viability and ROI timeline",
+    "Technical feasibility and infrastructure compatibility",
+    "Stakeholder support and adoption readiness",
+    "Competitive advantage in student recruitment"
+  ],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for technology adoption, phased implementation reduces risk, comprehensive training essential for faculty buy-in"
+}

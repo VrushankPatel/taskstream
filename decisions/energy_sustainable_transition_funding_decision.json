@@ -1,0 +1,46 @@
+{
+  "scenario_id": "energy_sustainable_transition_funding_q2_2026",
+  "context": "Energy utility company planning transition from coal to renewable energy sources over 10 years",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors", "State Regulatory Commission"],
+    "influencers": ["Environmental Groups", "Local Communities", "Investor Relations"]
+  },
+  "request": {
+    "amount": "$2,800,000,000",
+    "purpose": "10-year capital investment program for renewable energy infrastructure and grid modernization",
+    "urgency": "high",
+    "justification": "Comply with state decarbonization mandates, reduce carbon emissions by 80%, ensure long-term operational viability"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_compliance",
+      "duration": "16 weeks",
+      "activities": ["State mandate analysis", "Regulatory roadmap development", "Compliance cost modeling"],
+      "outcome": "Clear regulatory pathway established with state-approved transition plan"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "12 weeks",
+      "activities": ["Grid modernization assessment", "Renewable energy resource mapping", "Technology vendor evaluation"],
+      "outcome": "Technically feasible transition plan with identified technology partners"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "10 weeks",
+      "activities": ["Capital structure optimization", "Rate case preparation", "Investor impact analysis"],
+      "outcome": "Sustainable financing model with acceptable rate increases and investor returns"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "20 weeks",
+      "activities": ["Community consultation programs", "Environmental impact studies", "Job transition planning"],
+      "outcome": "Broad stakeholder support secured with community benefit agreements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["80% carbon emission reduction", "Grid reliability improvement", "New renewable energy jobs creation", "Long-term cost stability"],
+    "projected_revenue": "$500,000,000 annual savings from avoided fuel costs",
+    "risk_factors": ["Regulatory changes during transition", "Technology cost overruns", "Community opposition to infrastructure", "Stranded asset liabilities"]
+  }
+}

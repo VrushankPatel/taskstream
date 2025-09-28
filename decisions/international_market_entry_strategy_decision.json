@@ -1,0 +1,46 @@
+{
+  "scenario_id": "international_market_entry_strategy_q4_2025",
+  "context": "Technology SaaS company expanding from North America to European market",
+  "stakeholders": {
+    "requester": "VP International Expansion",
+    "approvers": ["CEO", "Board of Directors", "CFO"],
+    "influencers": ["Country Managers", "Legal Counsel", "Product Teams"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Establish European market presence with localized product, compliance infrastructure, and sales operations",
+    "urgency": "high",
+    "justification": "Capture 25% of addressable European market, diversify revenue streams, establish competitive position before major competitors"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "8 weeks",
+      "activities": ["Market size and growth assessment", "Competitive landscape analysis", "Customer segmentation studies"],
+      "outcome": "Identified €2.5B addressable market with clear differentiation opportunities"
+    },
+    {
+      "stage": "regulatory_assessment",
+      "duration": "12 weeks",
+      "activities": ["GDPR compliance requirements", "Data localization needs", "Industry-specific regulations"],
+      "outcome": "Comprehensive compliance roadmap developed with acceptable implementation timelines"
+    },
+    {
+      "stage": "go_to_market_strategy",
+      "duration": "6 weeks",
+      "activities": ["Pricing strategy development", "Channel partner identification", "Marketing localization planning"],
+      "outcome": "Phased market entry strategy with initial focus on Germany, France, and UK"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Revenue projection modeling", "Cost structure analysis", "ROI and payback calculations"],
+      "outcome": "Projected 4-year payback with 35% IRR and €50M Year 3 revenue target"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["25% European market share within 5 years", "Geographic revenue diversification", "Enhanced global brand recognition"],
+    "projected_revenue": "€150,000,000 annual recurring revenue by Year 5",
+    "risk_factors": ["Currency fluctuation impacts", "Regulatory changes post-Brexit", "Local competition intensity", "Cultural adaptation challenges"]
+  }
+}

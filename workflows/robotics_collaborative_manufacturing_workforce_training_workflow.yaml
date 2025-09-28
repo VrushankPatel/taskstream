@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_003"
+  title: "Robotics Collaborative Manufacturing Workforce Training"
+  department: "Manufacturing Operations"
+  complexity: "medium"
+  participants: ["Training Coordinators", "Safety Engineers", "Production Supervisors", "HR Business Partners", "Robotics Technicians"]
+  trigger: "New collaborative robot installation requiring workforce skill development and safety training"
+  steps:
+    - step: 1
+      actor: "Training Coordinators"
+      action: "Assess current workforce skills and identify training requirements for collaborative robotics"
+      tools: ["Skills assessment surveys", "Training needs analysis software"]
+      duration: "1 week"
+      outputs: ["Workforce skills gap analysis", "Training curriculum outline"]
+    - step: 2
+      actor: "Safety Engineers"
+      action: "Develop safety protocols and emergency procedures for human-robot collaboration"
+      decision_points: ["Risk assessment levels", "Safety system requirements"]
+      tools: ["Safety risk assessment tools", "ISO safety standards", "Emergency response protocols"]
+      duration: "2 weeks"
+      outputs: ["Safety operating procedures", "Emergency response training materials"]
+    - step: 3
+      actor: "Robotics Technicians"
+      action: "Provide technical training on robot operation, programming, and maintenance"
+      tools: ["Robot programming software", "Simulation training systems", "Maintenance manuals"]
+      duration: "3 weeks"
+      outputs: ["Certified operators list", "Technical competency assessments"]
+    - step: 4
+      actor: "Production Supervisors"
+      action: "Integrate trained workforce into production schedules with supervision protocols"
+      tools: ["Production scheduling software", "Supervision checklists", "Performance monitoring systems"]
+      duration: "1 week"
+      outputs: ["Updated production schedules", "Supervision guidelines"]
+    - step: 5
+      actor: "HR Business Partners"
+      action: "Monitor training effectiveness and provide ongoing support for workforce transition"
+      tools: ["Employee feedback systems", "Retention tracking tools", "Career development plans"]
+      duration: "Ongoing"
+      outputs: ["Training effectiveness reports", "Workforce transition support plan"]
+  success_criteria: "100% of affected workforce certified for collaborative robotics operation with documented safety compliance"
+  failure_modes: ["Training completion delays", "Safety incident during transition", "Resistance to technology adoption"]

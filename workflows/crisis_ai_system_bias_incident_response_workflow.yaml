@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_006"
+  title: "Crisis AI System Bias Incident Response"
+  department: "AI Ethics & Crisis Management"
+  complexity: "high"
+  participants: ["AI Ethics Officers", "Data Scientists", "Legal Counsel", "Communications Team", "Technical Support Teams"]
+  trigger: "Detection of algorithmic bias in AI system affecting customer outcomes or regulatory compliance"
+  steps:
+    - step: 1
+      actor: "AI Ethics Officers"
+      action: "Investigate bias incident, document affected populations, and assess immediate risk levels"
+      tools: ["Bias detection tools", "Incident reporting systems", "Risk assessment frameworks"]
+      duration: "24 hours"
+      outputs: ["Bias incident report", "Immediate risk assessment", "Affected stakeholder notification"]
+    - step: 2
+      actor: "Data Scientists"
+      action: "Analyze root causes of bias and develop mitigation strategies for immediate containment"
+      decision_points: ["Bias severity levels", "Containment vs. shutdown decision"]
+      tools: ["Statistical analysis software", "Bias mitigation algorithms", "Model validation tools"]
+      duration: "48 hours"
+      outputs: ["Root cause analysis", "Bias mitigation plan", "System containment measures"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Assess legal and regulatory implications and prepare required notifications and disclosures"
+      tools: ["Regulatory compliance databases", "Legal research platforms", "Disclosure templates"]
+      duration: "72 hours"
+      outputs: ["Legal risk assessment", "Regulatory notification requirements", "Disclosure documentation"]
+    - step: 4
+      actor: "Communications Team"
+      action: "Develop and execute communication strategy for affected stakeholders and public relations"
+      tools: ["Crisis communication templates", "Stakeholder mapping tools", "Media monitoring systems"]
+      duration: "48 hours"
+      outputs: ["Stakeholder communication plan", "Public statements", "Media response protocols"]
+    - step: 5
+      actor: "Technical Support Teams"
+      action: "Implement bias corrections and establish monitoring for ongoing system performance"
+      tools: ["Model retraining systems", "Continuous monitoring tools", "Performance dashboards"]
+      duration: "1 week"
+      outputs: ["Corrected AI system", "Bias monitoring framework", "Performance validation reports"]
+  success_criteria: "Bias incident contained, affected parties compensated where appropriate, and system restored with enhanced monitoring"
+  failure_modes: ["Bias incident escalation during response", "Regulatory penalties for delayed disclosure", "Loss of stakeholder trust requiring extended recovery"]

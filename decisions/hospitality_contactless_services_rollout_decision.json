@@ -1,0 +1,43 @@
+{
+  "scenario_id": "hospitality_contactless_services_rollout_decision",
+  "context": "Hotel chain post-pandemic seeking to enhance guest experience with contactless services",
+  "stakeholders": {
+    "requester": "Director of Guest Experience",
+    "approvers": ["COO", "CIO"],
+    "influencers": ["Property Managers", "IT Security Officer", "Guest Services Team"]
+  },
+  "request": {
+    "amount": "$450K",
+    "purpose": "Deploy mobile check-in, keyless entry, and contactless payments across 20 properties",
+    "urgency": "high",
+    "justification": "Competitors offering contactless services gaining market share"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "2 weeks",
+      "activities": ["Technology assessment", "Guest surveys", "Competitor analysis"],
+      "outcome": "Contactless services identified as competitive advantage"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "1 month",
+      "activities": ["Single property pilot", "Guest feedback collection", "Technical validation"],
+      "outcome": "85% guest satisfaction with contactless features"
+    },
+    {
+      "stage": "rollout_planning",
+      "duration": "2 weeks",
+      "activities": ["Timeline development", "Training program", "Budget allocation"],
+      "outcome": "6-month phased rollout approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "20% improvement in guest satisfaction, 15% increase in direct bookings",
+    "projected_value": "$2.1M additional revenue",
+    "risk_factors": ["Technology reliability", "Staff training challenges", "Security concerns"]
+  },
+  "decision_criteria": ["Guest experience impact", "Implementation cost", "Security compliance", "Competitive advantage"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for validating guest technology preferences. Phased rollout minimizes operational disruption. Staff training critical for successful adoption."
+}

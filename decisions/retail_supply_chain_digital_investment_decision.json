@@ -1,0 +1,43 @@
+{
+  "scenario_id": "retail_supply_chain_digital_investment_decision",
+  "context": "Large retail chain facing supply chain disruptions, seeking to invest in digital supply chain technologies",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": ["COO", "CFO"],
+    "influencers": ["IT Director", "Procurement Head", "Store Operations Manager"]
+  },
+  "request": {
+    "amount": "$1.8M",
+    "purpose": "Implement AI-powered demand forecasting and automated inventory management",
+    "urgency": "medium",
+    "justification": "Current manual processes causing 20% stockouts and 15% overstock"
+  },
+  "decision_process": [
+    {
+      "stage": "needs_assessment",
+      "duration": "1 week",
+      "activities": ["Current state analysis", "Vendor research", "ROI modeling"],
+      "outcome": "Digital transformation identified as critical"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Technology demos", "Pilot testing", "Cost analysis"],
+      "outcome": "AI platform selected with proven retail results"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 week",
+      "activities": ["Timeline development", "Resource allocation", "Risk mitigation"],
+      "outcome": "Phased rollout plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in stockouts, 25% improvement in inventory turnover",
+    "projected_value": "$4.2M annual savings",
+    "risk_factors": ["Data quality issues", "Staff resistance", "Integration complexity"]
+  },
+  "decision_criteria": ["Cost savings potential", "Implementation complexity", "Vendor track record", "Scalability"],
+  "outcome": "Approved",
+  "lessons_learned": "Digital supply chain investments require strong data foundation. Pilot programs essential for validating technology fit. Change management critical for operational staff adoption."
+}

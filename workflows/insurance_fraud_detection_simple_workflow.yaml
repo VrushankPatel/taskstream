@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_insurance_fraud_001"
+  title: "Insurance Fraud Detection Process"
+  department: "Claims"
+  complexity: "simple"
+  participants: ["Claims Processor", "Fraud Analyst"]
+  trigger: "Claim submission with suspicious indicators"
+  steps:
+    - step: 1
+      actor: "Claims Processor"
+      action: "Review claim for red flags using automated screening"
+      tools: ["Claims System", "Fraud Detection Software"]
+      duration: "10 minutes"
+      outputs: ["Initial risk assessment"]
+    - step: 2
+      actor: "Fraud Analyst"
+      action: "Investigate flagged claims with manual review"
+      tools: ["Investigation Database", "External Data Sources"]
+      duration: "30 minutes"
+      outputs: ["Fraud determination"]
+  success_criteria: "Fraudulent claims identified with 95% accuracy"
+  failure_modes: ["False positives", "Missed fraudulent claims"]
+  metrics:
+    - "Detection accuracy: Target >95%"
+    - "False positive rate: Target <5%"
+    - "Processing time: Target <1 hour"

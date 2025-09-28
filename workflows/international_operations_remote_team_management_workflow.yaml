@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_international_remote_team_management"
+  title: "International Operations Remote Team Management Workflow"
+  department: "Global Operations/HR"
+  complexity: "medium"
+  participants: ["Global Operations Director", "Regional Managers", "HR Business Partners", "IT Support Teams", "Communication Coordinators", "Cultural Advisors"]
+  trigger: "Expansion of remote international teams requiring enhanced management capabilities"
+  steps:
+    - step: 1
+      actor: "Global Operations Director"
+      action: "Assess remote team management needs and develop global operating model"
+      tools: ["Workforce analytics", "Operating model frameworks", "Remote work assessment tools"]
+      duration: "3 weeks"
+      outputs: ["Remote team assessment", "Global operating model", "Management capability gaps"]
+    - step: 2
+      actor: "HR Business Partners"
+      action: "Develop location-specific employment policies and compliance frameworks"
+      tools: ["International HR systems", "Compliance databases", "Policy development frameworks"]
+      duration: "4 weeks"
+      outputs: ["Location-specific policies", "Compliance frameworks", "Employment guidelines"]
+    - step: 3
+      actor: "IT Support Teams"
+      action: "Implement global collaboration tools and ensure secure remote access"
+      tools: ["Collaboration platforms", "Security frameworks", "Remote access systems"]
+      duration: "3 weeks"
+      outputs: ["Collaboration infrastructure", "Security protocols", "Remote access systems"]
+    - step: 4
+      actor: "Communication Coordinators"
+      action: "Establish communication protocols and cultural adaptation strategies"
+      tools: ["Communication planning tools", "Cultural intelligence frameworks", "Language support systems"]
+      duration: "3 weeks"
+      outputs: ["Communication protocols", "Cultural adaptation strategies", "Language support plans"]
+    - step: 5
+      actor: "Regional Managers"
+      action: "Develop team building and engagement programs for distributed teams"
+      tools: ["Team building frameworks", "Engagement survey tools", "Virtual event platforms"]
+      duration: "4 weeks"
+      outputs: ["Team building programs", "Engagement initiatives", "Virtual collaboration guidelines"]
+    - step: 6
+      actor: "Cultural Advisors"
+      action: "Provide cultural training and conflict resolution frameworks for international teams"
+      tools: ["Cultural training platforms", "Conflict resolution frameworks", "Diversity education tools"]
+      duration: "2 weeks"
+      outputs: ["Cultural training programs", "Conflict resolution protocols", "Diversity guidelines"]
+  success_criteria: "High-performing remote international teams with effective collaboration, cultural integration, and operational efficiency"
+  failure_modes: ["Communication breakdowns", "Cultural misunderstandings", "Technical connectivity issues", "Engagement and retention challenges"]

@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_genomics_clinical_integration"
+  title: "Healthcare Genomics Clinical Integration Workflow"
+  department: "Healthcare IT/Clinical Operations"
+  complexity: "high"
+  participants: ["Clinical Informatics Specialists", "Genetic Counselors", "Physicians", "IT Integration Teams", "Patient Experience Teams", "Compliance Officers"]
+  trigger: "Genomic testing results available requiring clinical decision support integration"
+  steps:
+    - step: 1
+      actor: "Clinical Informatics Specialists"
+      action: "Design integration of genomic data with electronic health records"
+      tools: ["EHR integration platforms", "HL7 FHIR standards", "Data mapping tools"]
+      duration: "4 weeks"
+      outputs: ["Integration specifications", "Data flow diagrams"]
+    - step: 2
+      actor: "Genetic Counselors"
+      action: "Develop clinical decision support rules for genomic findings"
+      tools: ["Clinical decision support systems", "Medical knowledge bases"]
+      duration: "3 weeks"
+      outputs: ["Decision support rules", "Clinical guidelines"]
+    - step: 3
+      actor: "Physicians"
+      action: "Validate clinical utility and workflow integration of genomic information"
+      tools: ["Clinical validation frameworks", "Workflow analysis tools"]
+      duration: "4 weeks"
+      outputs: ["Clinical validation reports", "Workflow impact assessments"]
+      decision_points: ["Clinical relevance confirmation", "Workflow disruption assessment"]
+    - step: 4
+      actor: "IT Integration Teams"
+      action: "Implement and test genomic data integration with clinical systems"
+      tools: ["Integration testing platforms", "Quality assurance tools"]
+      duration: "6 weeks"
+      outputs: ["Integrated systems", "Testing reports"]
+    - step: 5
+      actor: "Patient Experience Teams"
+      action: "Design patient communication and education materials for genomic results"
+      tools: ["Patient education platforms", "Communication design tools"]
+      duration: "3 weeks"
+      outputs: ["Patient materials", "Communication protocols"]
+    - step: 6
+      actor: "Compliance Officers"
+      action: "Ensure HIPAA compliance and patient privacy in genomic data handling"
+      tools: ["Compliance assessment tools", "Privacy audit frameworks"]
+      duration: "2 weeks"
+      outputs: ["Compliance certifications", "Privacy safeguards"]
+  success_criteria: "Seamless integration of genomic information into clinical workflows enhancing patient care decisions"
+  failure_modes: ["Clinical workflow disruption", "Patient privacy breaches", "Integration technical failures", "Clinical utility limitations"]

@@ -1,0 +1,48 @@
+{
+  "scenario_id": "healthcare_genomics_research_investment_2025",
+  "context": "Academic medical center seeking to establish leadership in genomic medicine through major research investment",
+  "stakeholders": {
+    "requester": "Chief Academic Officer",
+    "approvers": ["Board of Directors", "CEO", "Chief Research Officer"],
+    "influencers": ["Department Chairs", "Research Faculty", "Development Office"],
+    "advisors": ["Genomics Research Experts", "Philanthropic Advisors", "Industry Partners"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Establish comprehensive genomic research center with advanced sequencing capabilities, bioinformatics infrastructure, and clinical translation programs",
+    "urgency": "medium",
+    "justification": "Position institution as leader in genomic medicine, attract top talent, and accelerate translation of genomic discoveries to clinical practice"
+  },
+  "decision_process": [
+    {
+      "stage": "strategic_alignment",
+      "duration": "8 weeks",
+      "activities": ["Institutional strategy review", "Competitive landscape analysis", "Stakeholder engagement"],
+      "outcome": "Strong alignment with institutional mission and market opportunity in genomic medicine"
+    },
+    {
+      "stage": "scientific_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Research program design", "Scientific advisory board formation", "Pilot study planning"],
+      "outcome": "Comprehensive research program with clear path to scientific and clinical impact"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Funding strategy development", "Financial projections", "ROI analysis"],
+      "outcome": "Sustainable funding model with projected 25% annual return on research investment"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Facility design", "Talent recruitment", "Program launch planning"],
+      "outcome": "Detailed implementation roadmap with key milestones and success metrics"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Leadership in genomic medicine", "Increased research funding", "Enhanced clinical capabilities", "Talent attraction and retention"],
+    "projected_revenue": "$120,000,000 in research grants and clinical revenue over 10 years",
+    "risk_factors": ["Scientific uncertainty in genomic applications", "Regulatory changes in genetic testing", "Competition from other institutions", "Technology obsolescence"],
+    "mitigation_strategies": ["Diversified research portfolio", "Regulatory monitoring and adaptation", "Strategic partnerships", "Technology refresh planning"]
+  }
+}

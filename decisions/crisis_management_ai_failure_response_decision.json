@@ -1,0 +1,54 @@
+{
+  "scenario_id": "crisis_ai_failure_response_2025",
+  "context": "Technology company experiencing critical AI system failure affecting customer service and operations, requiring immediate crisis response",
+  "stakeholders": {
+    "requester": "Chief Information Officer",
+    "approvers": ["CEO", "Crisis Management Committee", "Board of Directors"],
+    "influencers": ["Chief Technology Officer", "Head of Customer Success", "General Counsel"],
+    "advisors": ["Crisis Management Consultants", "AI System Experts", "Communications Specialists"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Execute comprehensive crisis response to AI system failure including technical recovery, customer communication, and preventive measures",
+    "urgency": "critical",
+    "justification": "Minimize business impact from AI system failure and restore customer trust while implementing robust preventive measures"
+  },
+  "decision_process": [
+    {
+      "stage": "immediate_response",
+      "duration": "4 hours",
+      "activities": ["Crisis team activation", "Technical assessment", "Customer communication initiation"],
+      "outcome": "Crisis protocols activated, impact contained to non-critical systems"
+    },
+    {
+      "stage": "root_cause_analysis",
+      "duration": "48 hours",
+      "activities": ["Technical investigation", "System log analysis", "Expert consultation"],
+      "outcome": "Identified software update conflict as root cause with data corruption"
+    },
+    {
+      "stage": "recovery_planning",
+      "duration": "24 hours",
+      "activities": ["Recovery strategy development", "Resource allocation", "Timeline establishment"],
+      "outcome": "Comprehensive recovery plan with 72-hour restoration target"
+    },
+    {
+      "stage": "stakeholder_communication",
+      "duration": "12 hours",
+      "activities": ["Customer notification", "Investor communication", "Regulatory reporting"],
+      "outcome": "Transparent communication strategy implemented with regular updates"
+    },
+    {
+      "stage": "preventive_measures",
+      "duration": "1 week",
+      "activities": ["System hardening", "Testing protocol enhancement", "Monitoring improvement"],
+      "outcome": "Comprehensive preventive measures implemented to prevent recurrence"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Rapid system restoration", "Maintained customer trust", "Improved system resilience", "Enhanced crisis response capabilities"],
+    "projected_revenue": "$20,000,000 in prevented revenue loss",
+    "risk_factors": ["Prolonged downtime", "Customer attrition", "Regulatory penalties", "Reputational damage"],
+    "mitigation_strategies": ["Accelerated recovery efforts", "Customer compensation programs", "Transparent communication", "Comprehensive preventive measures"]
+  }
+}

@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_manufacturing_sustainable_sourcing"
+  title: "Manufacturing Sustainable Material Sourcing Workflow"
+  department: "Procurement/Sustainability"
+  complexity: "medium"
+  participants: ["Sustainable Procurement Manager", "Supplier Development Specialists", "Material Scientists", "Sustainability Analysts", "Legal Compliance", "Finance Teams"]
+  trigger: "Corporate sustainability mandate requiring transition to sustainable material sourcing"
+  steps:
+    - step: 1
+      actor: "Sustainability Analysts"
+      action: "Assess current material sourcing practices and identify sustainability gaps"
+      tools: ["Material flow analysis", "Sustainability assessment frameworks", "Supplier evaluation systems"]
+      duration: "4 weeks"
+      outputs: ["Current state assessment", "Sustainability gap analysis", "Priority material categories"]
+    - step: 2
+      actor: "Material Scientists"
+      action: "Evaluate alternative sustainable materials and assess technical compatibility"
+      tools: ["Material testing laboratories", "Compatibility assessment tools", "Performance benchmarking systems"]
+      duration: "6 weeks"
+      outputs: ["Material alternatives evaluation", "Compatibility reports", "Performance comparisons"]
+      decision_points: ["Technical feasibility", "Performance requirements"]
+    - step: 3
+      actor: "Supplier Development Specialists"
+      action: "Identify and qualify sustainable material suppliers with required certifications"
+      tools: ["Supplier discovery platforms", "Certification verification systems", "Supplier qualification frameworks"]
+      duration: "5 weeks"
+      outputs: ["Qualified supplier database", "Supplier capability assessments", "Certification verification"]
+    - step: 4
+      actor: "Legal Compliance"
+      action: "Review supplier contracts and ensure compliance with sustainability regulations"
+      tools: ["Contract review systems", "Regulatory compliance databases", "Sustainability law frameworks"]
+      duration: "3 weeks"
+      outputs: ["Contract compliance reviews", "Regulatory compliance reports"]
+    - step: 5
+      actor: "Sustainable Procurement Manager"
+      action: "Develop transition plan with phased implementation and risk mitigation"
+      tools: ["Transition planning frameworks", "Risk assessment tools", "Implementation roadmaps"]
+      duration: "4 weeks"
+      outputs: ["Transition plan", "Implementation roadmap", "Risk mitigation strategies"]
+    - step: 6
+      actor: "Finance Teams"
+      action: "Model cost impacts and develop economic incentives for sustainable sourcing"
+      tools: ["Cost modeling software", "ROI analysis tools", "Incentive design frameworks"]
+      duration: "3 weeks"
+      outputs: ["Cost impact analysis", "Economic incentives", "Financial projections"]
+  success_criteria: "Successful transition to sustainable material sourcing with maintained product quality and competitive costs"
+  failure_modes: ["Material performance issues", "Supplier availability constraints", "Cost overruns", "Regulatory non-compliance"]

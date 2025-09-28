@@ -1,0 +1,48 @@
+{
+  "scenario_id": "autonomous_urban_deployment_2025",
+  "context": "Logistics company seeking to deploy autonomous delivery vehicles in major metropolitan area, requiring comprehensive urban adaptation and community acceptance",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "Board of Directors", "City Transportation Authority"],
+    "influencers": ["Urban Planning Department", "Community Leaders", "Insurance Partners"],
+    "advisors": ["Urban Mobility Experts", "Safety Researchers", "Legal Specialists"]
+  },
+  "request": {
+    "amount": "$18,000,000",
+    "purpose": "Implement autonomous vehicle urban deployment program including vehicle modifications, infrastructure integration, community education, and regulatory compliance",
+    "urgency": "high",
+    "justification": "Competitive advantage in last-mile delivery while addressing urban mobility challenges and demonstrating leadership in autonomous technology"
+  },
+  "decision_process": [
+    {
+      "stage": "urban_feasibility_study",
+      "duration": "10 weeks",
+      "activities": ["Urban route analysis", "Infrastructure assessment", "Community impact evaluation"],
+      "outcome": "Identified viable urban corridors with acceptable risk profiles"
+    },
+    {
+      "stage": "technical_adaptation",
+      "duration": "8 weeks",
+      "activities": ["Vehicle urban modification", "V2I system integration", "Safety system enhancement"],
+      "outcome": "Urban-adapted vehicles meeting all technical requirements"
+    },
+    {
+      "stage": "community_engagement",
+      "duration": "6 weeks",
+      "activities": ["Public education campaigns", "Stakeholder consultations", "Community pilot programs"],
+      "outcome": "Strong community support with 75% positive sentiment"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "12 weeks",
+      "activities": ["Permit applications", "Safety demonstrations", "Insurance arrangements"],
+      "outcome": "Full regulatory approval for urban deployment"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["35% reduction in delivery costs", "Improved delivery reliability", "Enhanced brand reputation", "Urban mobility contribution"],
+    "projected_revenue": "$45,000,000 in efficiency gains over 3 years",
+    "risk_factors": ["Community resistance", "Regulatory changes", "Technical failures in urban environment", "Insurance challenges"],
+    "mitigation_strategies": ["Comprehensive community engagement", "Conservative deployment approach", "Robust technical safeguards", "Flexible regulatory monitoring"]
+  }
+}

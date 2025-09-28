@@ -1,0 +1,49 @@
+{
+  "scenario_id": "aerospace_space_traffic_management_investment",
+  "context": "Commercial space company with 15 satellites in orbit facing increasing collision risks from space debris and other operators. Need to invest in space traffic management technology to ensure operational safety and regulatory compliance.",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Chief Operating Officer"],
+    "influencers": ["Head of Satellite Operations", "Regulatory Compliance Director", "Insurance Risk Manager"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Implement comprehensive space traffic management system including radar tracking, AI collision prediction, and automated maneuver planning",
+    "urgency": "high",
+    "justification": "Prevent potential satellite loss valued at $50M+ and ensure compliance with emerging international space traffic regulations"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Vendor technology assessment", "System integration analysis", "Regulatory requirement review"],
+      "outcome": "Identified 3 qualified vendors with proven space situational awareness capabilities"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Funding source identification"],
+      "outcome": "Projected 300% ROI over 5 years through prevented losses and insurance premium reductions"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "2 weeks",
+      "activities": ["Collision risk modeling", "Regulatory compliance analysis", "Operational impact evaluation"],
+      "outcome": "High-risk scenario identified: 15% annual collision probability without system"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Executive team presentations", "Board member consultations", "Insurance provider discussions"],
+      "outcome": "Full executive team support secured with conditional approval"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Zero collision incidents over 5-year period, 40% reduction in insurance costs",
+    "projected_value": "$25,000,000 in prevented losses and cost savings",
+    "risk_factors": ["Technology integration challenges", "Regulatory changes", "Vendor reliability concerns"]
+  },
+  "decision_criteria": ["Collision prevention effectiveness", "Regulatory compliance assurance", "Financial ROI justification", "Technical implementation feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early investment in emerging space regulations prevents future compliance costs; comprehensive risk modeling essential for executive buy-in"
+}

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "automotive_battery_lifecycle_management",
+  "context": "Electric vehicle manufacturer with 50,000 annual production capacity facing battery disposal and recycling challenges. Current landfill approach is environmentally unsustainable and increasingly regulated.",
+  "stakeholders": {
+    "requester": "VP Sustainability",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Head of Manufacturing", "Regulatory Affairs Director", "Supply Chain Director"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Build comprehensive battery lifecycle management system including collection network, recycling facility, and second-life battery repurposing program",
+    "urgency": "medium",
+    "justification": "Address growing regulatory pressure and create new revenue stream from battery materials recovery while reducing environmental impact"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "4 weeks",
+      "activities": ["Battery recycling technology assessment", "Regulatory landscape analysis", "Competitor strategy review"],
+      "outcome": "Identified viable recycling technologies with 85% material recovery rates"
+    },
+    {
+      "stage": "feasibility_study",
+      "duration": "6 weeks",
+      "activities": ["Facility design and location analysis", "Cost modeling", "Revenue projection development"],
+      "outcome": "Projected $12M annual revenue from recycled materials with $8M operational costs"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 weeks",
+      "activities": ["Dealer network consultation", "Customer survey deployment", "Environmental NGO partnerships"],
+      "outcome": "Strong dealer support and positive customer sentiment for take-back program"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 weeks",
+      "activities": ["NPV analysis", "Sensitivity testing", "Funding strategy development"],
+      "outcome": "5-year NPV of $35M with 18% IRR and 3-year payback period"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Establish industry leadership in sustainable battery management, create new revenue stream, comply with emerging regulations",
+    "projected_value": "$150,000,000 in cumulative benefits over 10 years",
+    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Collection network challenges", "Material price volatility"]
+  },
+  "decision_criteria": ["Environmental impact reduction", "Financial viability", "Regulatory compliance", "Operational feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early investment in circular economy creates competitive advantage; comprehensive stakeholder engagement essential for program success"
+}

@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_construction_modular_building"
+  title: "Modular Construction Adoption"
+  department: "Construction Operations"
+  complexity: "complex"
+  participants: ["Project Manager", "Design Engineer", "Procurement Specialist", "Site Supervisor", "Quality Control Inspector"]
+  trigger: "Client requests faster project delivery with cost predictability"
+  steps:
+    - step: 1
+      actor: "Project Manager"
+      action: "Evaluate project suitability for modular construction approach"
+      tools: ["Project assessment templates", "Cost comparison models", "Timeline analysis tools"]
+      duration: "1 week"
+      outputs: ["Modular feasibility report", "Project modification recommendations"]
+    - step: 2
+      actor: "Design Engineer"
+      action: "Redesign building components for modular manufacturing standards"
+      tools: ["CAD software", "Modular design standards", "Structural analysis tools"]
+      duration: "4 weeks"
+      outputs: ["Modular component designs", "Manufacturing specifications", "Assembly instructions"]
+    - step: 3
+      actor: "Procurement Specialist"
+      action: "Identify and qualify modular component manufacturers"
+      tools: ["Supplier qualification system", "Contract templates", "Quality certification databases"]
+      duration: "3 weeks"
+      outputs: ["Approved manufacturer list", "Supply agreements", "Quality assurance protocols"]
+    - step: 4
+      actor: "Site Supervisor"
+      action: "Prepare construction site for modular component integration"
+      tools: ["Site preparation checklists", "Foundation specifications", "Logistics coordination tools"]
+      duration: "2 weeks"
+      outputs: ["Site readiness assessment", "Foundation completion", "Component delivery schedule"]
+    - step: 5
+      actor: "Quality Control Inspector"
+      action: "Conduct factory and site quality inspections throughout process"
+      tools: ["Quality inspection checklists", "Measurement equipment", "Defect tracking system"]
+      duration: "Ongoing"
+      outputs: ["Quality control reports", "Defect remediation plans", "Compliance certificates"]
+    - step: 6
+      actor: "Project Manager"
+      action: "Coordinate final assembly and system integration on-site"
+      tools: ["Project management software", "Assembly checklists", "Commissioning protocols"]
+      duration: "4 weeks"
+      outputs: ["Final assembly completion", "System integration verification", "Project handover documentation"]
+  success_criteria: "30% reduction in construction timeline with 95% cost predictability"
+  failure_modes: ["Transportation damage to modules", "Site integration challenges", "Design coordination issues", "Regulatory approval delays"]
+  metrics:
+    - "Construction timeline reduction: Target 30% faster completion"
+    - "Cost predictability index: Target 95% accuracy"
+    - "Quality defect rate: Target <2% of components"
+    - "On-time delivery rate: Target 98% of milestones"

@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_finance_001"
+  title: "Annual Budget Planning and Approval Process"
+  department: "Finance"
+  complexity: "high"
+  participants: ["CFO", "Department Heads", "Finance Team", "Executive Committee"]
+  trigger: "Annual budget cycle initiation (Q3)"
+  steps:
+    - step: 1
+      actor: "Finance Team"
+      action: "Gather historical data and market intelligence"
+      tools: ["Financial planning software", "Market analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Historical performance data", "Market forecasts"]
+    - step: 2
+      actor: "Department Heads"
+      action: "Submit departmental budget requests with justifications"
+      tools: ["Budget templates", "ROI calculators"]
+      duration: "4 weeks"
+      outputs: ["Departmental budget proposals"]
+    - step: 3
+      actor: "Finance Team"
+      action: "Consolidate and analyze budget requests"
+      tools: ["Budget modeling software", "Scenario planning tools"]
+      duration: "2 weeks"
+      outputs: ["Consolidated budget draft", "Variance analysis"]
+    - step: 4
+      actor: "CFO"
+      action: "Review and negotiate budget allocations"
+      tools: ["Budget review dashboards", "Negotiation tracking"]
+      duration: "3 weeks"
+      outputs: ["Negotiated budget allocations"]
+    - step: 5
+      actor: "Executive Committee"
+      action: "Strategic budget review and approval"
+      tools: ["Executive dashboards", "Approval workflows"]
+      duration: "2 weeks"
+      outputs: ["Approved annual budget"]
+    - step: 6
+      actor: "Finance Team"
+      action: "Implement budget controls and monitoring systems"
+      tools: ["Budget control software", "Reporting dashboards"]
+      duration: "2 weeks"
+      outputs: ["Budget monitoring framework", "Control procedures"]
+  success_criteria: "Budget approved on time with realistic allocations and effective controls"
+  failure_modes: ["Budget overruns", "Delayed approvals", "Inaccurate forecasting"]

@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_education_002"
+  title: "University Admissions Processing and Enrollment Workflow"
+  department: "Admissions"
+  complexity: "medium"
+  participants: ["Admissions Director", "Admissions Counselors", "Enrollment Services", "Academic Departments", "Financial Aid"]
+  trigger: "Student application submission"
+  steps:
+    - step: 1
+      actor: "Admissions Counselors"
+      action: "Initial application review and completeness check"
+      tools: ["Application management system", "Document verification tools"]
+      duration: "5 business days"
+      outputs: ["Application completeness report", "Initial eligibility assessment"]
+    - step: 2
+      actor: "Academic Departments"
+      action: "Academic credential evaluation and course placement"
+      tools: ["Transcript evaluation system", "Academic standards database"]
+      duration: "10 business days"
+      outputs: ["Academic evaluation report", "Prerequisite requirements"]
+    - step: 3
+      actor: "Admissions Committee"
+      action: "Holistic admissions review and decision"
+      tools: ["Admissions review platform", "Decision matrix"]
+      duration: "15 business days"
+      outputs: ["Admissions decision", "Admission letter"]
+    - step: 4
+      actor: "Enrollment Services"
+      action: "Enrollment processing and registration"
+      tools: ["Student information system", "Registration platform"]
+      duration: "30 days"
+      outputs: ["Enrollment confirmation", "Student ID", "Course schedule"]
+    - step: 5
+      actor: "Financial Aid"
+      action: "Financial aid packaging and award letters"
+      tools: ["Financial aid management system", "Award calculation tools"]
+      duration: "10 business days"
+      outputs: ["Financial aid package", "Award letter"]
+    - step: 6
+      actor: "Enrollment Services"
+      action: "Orientation and onboarding coordination"
+      tools: ["Orientation management system", "Communication templates"]
+      duration: "Ongoing"
+      outputs: ["Orientation schedule", "Welcome materials", "Student success plan"]
+  success_criteria: "Student successfully enrolled with complete financial aid package and orientation completed"
+  failure_modes: ["Incomplete applications", "Academic ineligibility", "Capacity constraints", "Financial aid delays"]

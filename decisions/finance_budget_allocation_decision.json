@@ -1,0 +1,34 @@
+{
+  "scenario_id": "finance_budget_q4_2025",
+  "context": "Technology SaaS company, 500 employees, Q4 budget allocation for growth initiatives",
+  "stakeholders": {
+    "requester": "VP Marketing",
+    "approvers": ["CFO", "CEO"],
+    "influencers": ["Sales VP", "Product VP", "Engineering VP"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Q4 marketing campaigns and lead generation",
+    "urgency": "high",
+    "justification": "Pipeline coverage at 60% of target, market opportunity in AI sector"
+  },
+  "decision_process": [
+    {
+      "stage": "budget_request_review",
+      "duration": "2 weeks",
+      "activities": ["ROI modeling", "Competitive analysis", "Sales pipeline review"],
+      "outcome": "Approved with conditions - focus on high-converting channels"
+    },
+    {
+      "stage": "allocation_optimization",
+      "duration": "1 week",
+      "activities": ["Channel performance analysis", "A/B testing results review", "Customer acquisition cost analysis"],
+      "outcome": "60% digital advertising, 25% content marketing, 15% events"
+    }
+  ],
+  "business_impact": {
+    "expected_leads": "5,000 qualified leads",
+    "projected_revenue": "$25M additional pipeline",
+    "risk_factors": ["Market saturation", "Ad platform algorithm changes", "Economic uncertainty"]
+  }
+}

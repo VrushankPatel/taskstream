@@ -1,0 +1,58 @@
+workflow:
+  id: "workflow_crisis_001"
+  title: "Cybersecurity Incident Response and Recovery Process"
+  department: "IT Security"
+  complexity: "high"
+  participants: ["CISO", "Incident Response Team", "IT Operations", "Legal", "Communications", "Executive Leadership"]
+  trigger: "Security alert or breach detection"
+  steps:
+    - step: 1
+      actor: "Incident Response Team"
+      action: "Incident detection and initial assessment"
+      tools: ["SIEM system", "Threat detection tools"]
+      duration: "30 minutes"
+      outputs: ["Incident classification", "Initial impact assessment"]
+    - step: 2
+      actor: "CISO"
+      action: "Activate incident response plan and assemble team"
+      tools: ["Incident response playbook", "Communication tools"]
+      duration: "1 hour"
+      outputs: ["Activated response team", "Initial communications"]
+    - step: 3
+      actor: "Incident Response Team"
+      action: "Containment and evidence preservation"
+      tools: ["Forensic tools", "Containment procedures"]
+      duration: "4 hours"
+      outputs: ["Contained systems", "Preserved evidence"]
+    - step: 4
+      actor: "IT Operations"
+      action: "System recovery and restoration planning"
+      tools: ["Backup systems", "Recovery procedures"]
+      duration: "8 hours"
+      outputs: ["Recovery plan", "System restoration timeline"]
+    - step: 5
+      actor: "Legal"
+      action: "Legal assessment and notification requirements"
+      tools: ["Legal compliance checklists", "Regulatory databases"]
+      duration: "4 hours"
+      outputs: ["Legal obligations", "Notification plan"]
+    - step: 6
+      actor: "Communications"
+      action: "Stakeholder communication and reputation management"
+      tools: ["Communication templates", "Media monitoring tools"]
+      duration: "Ongoing"
+      outputs: ["Stakeholder notifications", "Public statements"]
+    - step: 7
+      actor: "Incident Response Team"
+      action: "Root cause analysis and lessons learned"
+      tools: ["Analysis frameworks", "Post-incident review tools"]
+      duration: "2 weeks"
+      outputs: ["Root cause report", "Improvement recommendations"]
+    - step: 8
+      actor: "CISO"
+      action: "Update security controls and report to board"
+      tools: ["Security control frameworks", "Board reporting tools"]
+      duration: "4 weeks"
+      outputs: ["Enhanced controls", "Board report", "Updated procedures"]
+  success_criteria: "Incident contained within 24 hours with minimal data loss and full recovery"
+  failure_modes: ["Prolonged downtime", "Data breaches", "Regulatory penalties", "Reputational damage"]

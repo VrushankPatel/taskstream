@@ -1,0 +1,97 @@
+name: Retail Supply Chain Disruption Workflow
+description: Process for managing supply chain disruptions in retail operations, including assessment, alternative sourcing, and customer communication
+version: 1.0
+industry: Retail
+region: Global
+complexity: Medium
+actors:
+  - Supply Chain Manager
+  - Operations Director
+  - Procurement Lead
+  - Communications Manager
+  - Customer Service Lead
+steps:
+  - id: disruption_detection
+    name: Disruption Detection and Initial Assessment
+    description: Identify supply chain issues and assess immediate impact
+    actor: Supply Chain Manager
+    inputs:
+      - Supplier notifications
+      - Inventory monitoring alerts
+      - Market intelligence reports
+    outputs:
+      - Disruption impact assessment
+      - Affected product categories
+    duration: 1 hour
+    decision_points:
+      - condition: Critical product shortage
+        next_step: activate_emergency_procurement
+      - condition: Minor delay
+        next_step: monitor_supplier_updates
+  - id: activate_emergency_procurement
+    name: Emergency Procurement Activation
+    description: Initiate alternative sourcing and supplier negotiations
+    actor: Procurement Lead
+    inputs:
+      - Alternative supplier database
+      - Procurement budget
+      - Product specifications
+    outputs:
+      - Procurement action plan
+      - Supplier contracts
+    duration: 4 hours
+    tools:
+      - Procurement management system
+      - Supplier portal
+  - id: inventory_reallocation
+    name: Inventory Reallocation
+    description: Redistribute existing inventory to minimize customer impact
+    actor: Operations Director
+    inputs:
+      - Current inventory levels
+      - Store demand forecasts
+      - Transportation availability
+    outputs:
+      - Inventory redistribution plan
+      - Shipping schedules
+    duration: 6 hours
+  - id: customer_communication
+    name: Customer Communication
+    description: Inform customers about potential delays and alternatives
+    actor: Communications Manager
+    inputs:
+      - Customer database
+      - Communication templates
+      - Product availability updates
+    outputs:
+      - Customer notification campaigns
+      - FAQ updates
+    duration: 3 hours
+  - id: monitor_resolution
+    name: Monitor and Resolution Tracking
+    description: Track disruption resolution and adjust operations
+    actor: Supply Chain Manager
+    inputs:
+      - Supplier updates
+      - Inventory replenishment status
+      - Customer feedback
+    outputs:
+      - Resolution timeline
+      - Contingency plan updates
+    duration: Ongoing
+success_criteria:
+  - Supply chain restored within 7 days
+  - Customer satisfaction maintained above 90%
+  - Alternative sourcing secured within 24 hours
+  - Transparent communication with stakeholders
+failure_modes:
+  - Prolonged product unavailability
+  - Inadequate customer communication
+  - Cost overruns in emergency procurement
+  - Operational inefficiencies
+metrics:
+  - Time to disruption detection
+  - Alternative sourcing success rate
+  - Customer complaint volume
+  - Inventory turnover impact
+  - Procurement cost variance

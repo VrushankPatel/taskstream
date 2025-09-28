@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_crisis_ai_failure_006"
+  title: "AI System Failure Crisis Management and Recovery Workflow"
+  department: "Crisis Management & Technology Operations"
+  complexity: "high"
+  participants: ["Crisis Management Director", "Chief Technology Officer", "AI Ethics Lead", "Communications Director", "Legal Counsel", "Customer Success Director"]
+  trigger: "Critical AI system failure detected affecting operations or customers"
+  steps:
+    - step: 1
+      actor: "Crisis Management Director"
+      action: "Activate crisis response team and assess incident scope"
+      tools: ["Incident response platforms", "Crisis management frameworks", "Communication escalation systems"]
+      duration: "1 hour"
+      outputs: ["Crisis response activation", "Initial impact assessment", "Stakeholder notification plan"]
+      decision_points: ["Response team composition", "Escalation level determination", "Communication strategy initiation"]
+    - step: 2
+      actor: "Chief Technology Officer"
+      action: "Conduct technical investigation and implement containment measures"
+      tools: ["System monitoring platforms", "Incident analysis tools", "Backup recovery systems"]
+      duration: "4 hours"
+      outputs: ["Technical investigation report", "Containment measures", "Recovery timeline estimate"]
+      decision_points: ["Containment strategy selection", "System isolation decisions", "Recovery priority assessment"]
+    - step: 3
+      actor: "AI Ethics Lead"
+      action: "Evaluate ethical implications and bias concerns from failure"
+      tools: ["Ethics assessment frameworks", "Bias detection tools", "Stakeholder impact analysis"]
+      duration: "6 hours"
+      outputs: ["Ethics impact assessment", "Bias analysis report", "Ethical response recommendations"]
+      decision_points: ["Ethical concern prioritization", "Transparency requirements", "Stakeholder communication approach"]
+    - step: 4
+      actor: "Communications Director"
+      action: "Manage internal and external communications"
+      tools: ["Crisis communication platforms", "Stakeholder databases", "Media monitoring systems"]
+      duration: "Ongoing"
+      outputs: ["Communication plans", "Stakeholder updates", "Media response protocols"]
+      decision_points: ["Communication channel selection", "Message consistency", "Transparency level determination"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Assess legal implications and regulatory reporting requirements"
+      tools: ["Legal compliance platforms", "Regulatory reporting systems", "Contract review tools"]
+      duration: "12 hours"
+      outputs: ["Legal risk assessment", "Regulatory reporting plan", "Contractual obligation analysis"]
+      decision_points: ["Regulatory notification requirements", "Legal liability assessment", "Disclosure strategy"]
+    - step: 6
+      actor: "Customer Success Director"
+      action: "Support affected customers and manage expectations"
+      tools: ["Customer support platforms", "Service level agreement systems", "Customer communication tools"]
+      duration: "Ongoing"
+      outputs: ["Customer support plans", "Service restoration updates", "Compensation frameworks"]
+      decision_points: ["Customer impact prioritization", "Support resource allocation", "Compensation strategy"]
+  success_criteria: "Rapid system recovery, transparent communication, minimal customer impact, and organizational learning"
+  failure_modes: ["Prolonged system downtime", "Poor communication", "Regulatory penalties", "Customer churn"]

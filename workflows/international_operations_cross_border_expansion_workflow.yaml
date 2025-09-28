@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_intl_cross_border_005"
+  title: "Cross-Border Market Expansion and Compliance Workflow"
+  department: "International Operations"
+  complexity: "high"
+  participants: ["International Expansion Director", "Legal Compliance Lead", "Market Entry Manager", "Cultural Integration Specialist", "Regulatory Affairs Director", "Financial Operations Lead"]
+  trigger: "Strategic decision to enter new international market"
+  steps:
+    - step: 1
+      actor: "International Expansion Director"
+      action: "Conduct market analysis and entry strategy development"
+      tools: ["Market research platforms", "Competitive analysis tools", "Entry strategy frameworks"]
+      duration: "3 months"
+      outputs: ["Market entry strategy", "Competitive analysis report", "Risk assessment"]
+      decision_points: ["Market selection criteria", "Entry mode selection", "Resource allocation strategy"]
+    - step: 2
+      actor: "Legal Compliance Lead"
+      action: "Establish legal entity and corporate structure in target market"
+      tools: ["Legal entity formation platforms", "Corporate governance systems", "Compliance monitoring tools"]
+      duration: "6 months"
+      outputs: ["Legal entity documentation", "Corporate structure design", "Compliance framework"]
+      decision_points: ["Entity type selection", "Governance structure design", "Compliance requirements assessment"]
+    - step: 3
+      actor: "Regulatory Affairs Director"
+      action: "Navigate regulatory requirements and obtain necessary licenses"
+      tools: ["Regulatory intelligence platforms", "Licensing application systems", "Compliance tracking tools"]
+      duration: "9 months"
+      outputs: ["Regulatory compliance plan", "License applications", "Regulatory approval documentation"]
+      decision_points: ["Regulatory pathway optimization", "Licensing strategy", "Timeline management"]
+    - step: 4
+      actor: "Market Entry Manager"
+      action: "Establish local operations and supply chain"
+      tools: ["Supply chain management platforms", "Local partner networks", "Operations planning tools"]
+      duration: "12 months"
+      outputs: ["Local operations setup", "Supply chain establishment", "Partner agreements"]
+      decision_points: ["Local partner selection", "Operations scaling strategy", "Supply chain optimization"]
+    - step: 5
+      actor: "Cultural Integration Specialist"
+      action: "Develop cultural adaptation and employee integration programs"
+      tools: ["Cultural assessment frameworks", "Employee integration platforms", "Training management systems"]
+      duration: "6 months"
+      outputs: ["Cultural adaptation strategy", "Employee integration plan", "Training programs"]
+      decision_points: ["Cultural assessment methodology", "Integration program design", "Change management approach"]
+    - step: 6
+      actor: "Financial Operations Lead"
+      action: "Establish financial operations and transfer pricing compliance"
+      tools: ["Financial management platforms", "Transfer pricing systems", "Tax compliance tools"]
+      duration: "8 months"
+      outputs: ["Financial operations setup", "Transfer pricing documentation", "Tax compliance framework"]
+      decision_points: ["Financial structure optimization", "Transfer pricing strategy", "Tax efficiency assessment"]
+  success_criteria: "Successful market entry, regulatory compliance, operational stability, and positive financial performance"
+  failure_modes: ["Regulatory hurdles", "Cultural integration challenges", "Supply chain disruptions", "Financial compliance issues"]

@@ -103,6 +103,11 @@
 - Coordinates AI joint research projects and student training
 - Facilitates AI knowledge exchange and publication efforts
 
+**AI Regulatory Compliance Specialist**
+- Ensures AI compliance with genomic research regulations
+- Manages AI ethical review boards and institutional oversight
+- Coordinates AI data sharing agreements with regulatory bodies
+
 ## Quality, AI Validation, and Training
 **AI Quality Assurance Specialist**
 - Ensures AI research quality and data integrity

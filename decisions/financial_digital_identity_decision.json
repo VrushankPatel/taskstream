@@ -1,0 +1,40 @@
+{
+  "scenario_id": "digital_identity_platform_2025",
+  "context": "Mid-size bank, 800 employees, implementing digital identity verification for online services",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["Chief Risk Officer", "CEO"],
+    "influencers": ["Compliance Director", "IT Security Lead", "Customer Experience Manager"]
+  },
+  "request": {
+    "investment": "$3.2 million",
+    "purpose": "Implement biometric and document verification platform for account opening",
+    "urgency": "high",
+    "justification": "Reduce fraud losses by 60% and improve customer onboarding experience"
+  },
+  "decision_process": [
+    {
+      "stage": "security_assessment",
+      "duration": "3 weeks",
+      "activities": ["Vendor security audits", "Data privacy reviews", "Compliance gap analysis"],
+      "outcome": "Security requirements satisfied"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Limited user testing", "Fraud detection validation", "Customer feedback collection"],
+      "outcome": "Pilot successful with minor adjustments"
+    },
+    {
+      "stage": "business_case_review",
+      "duration": "2 weeks",
+      "activities": ["ROI analysis", "Risk-benefit assessment", "Implementation timeline planning"],
+      "outcome": "Approved for full deployment"
+    }
+  ],
+  "business_impact": {
+    "fraud_reduction": "$2.1 million annual savings",
+    "customer_satisfaction": "25% improvement in onboarding completion",
+    "risk_factors": ["Technology integration challenges", "Regulatory changes", "Customer privacy concerns"]
+  }
+}

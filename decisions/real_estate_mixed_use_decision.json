@@ -1,0 +1,40 @@
+{
+  "scenario_id": "mixed_use_development_2025",
+  "context": "Real estate development firm, 150 employees, planning urban mixed-use project",
+  "stakeholders": {
+    "requester": "Development Director",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Urban Planning Consultant", "Financial Advisor", "Community Relations Manager"]
+  },
+  "request": {
+    "investment": "$85 million",
+    "purpose": "Develop 250-unit residential, 50,000 sq ft commercial, and 20,000 sq ft retail space",
+    "urgency": "medium",
+    "justification": "Address housing shortage and create economic development in underserved district"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Demand forecasting", "Competitive analysis", "Economic impact assessment"],
+      "outcome": "Strong market demand confirmed"
+    },
+    {
+      "stage": "feasibility_study",
+      "duration": "8 weeks",
+      "activities": ["Site analysis", "Zoning review", "Cost estimation", "Environmental assessment"],
+      "outcome": "Project feasible with zoning variance needed"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cash flow projections", "Risk analysis", "Funding strategy development"],
+      "outcome": "Approved with joint venture partnership"
+    }
+  ],
+  "business_impact": {
+    "projected_returns": "$120 million over 10 years",
+    "community_benefits": "300 jobs created, affordable housing units",
+    "risk_factors": ["Construction delays", "Market fluctuations", "Regulatory approvals"]
+  }
+}

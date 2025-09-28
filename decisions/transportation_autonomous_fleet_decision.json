@@ -1,0 +1,40 @@
+{
+  "scenario_id": "autonomous_fleet_deployment_2025",
+  "context": "Regional transportation company, 500 employees, expanding autonomous vehicle operations",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Operations Director", "Legal Counsel", "Insurance Manager"]
+  },
+  "request": {
+    "investment": "$25 million",
+    "purpose": "Deploy 200 autonomous delivery vehicles across metropolitan area",
+    "urgency": "medium",
+    "justification": "Reduce delivery costs by 35% and improve service reliability"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "4 weeks",
+      "activities": ["Vehicle testing", "Infrastructure assessment", "Safety validation"],
+      "outcome": "Technical requirements met with modifications"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "6 weeks",
+      "activities": ["Permit applications", "Insurance negotiations", "Public safety consultations"],
+      "outcome": "Regulatory approval granted with conditions"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "3 weeks",
+      "activities": ["ROI modeling", "Risk assessment", "Funding strategy development"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "cost_savings": "$8.5 million annually",
+    "service_improvements": "40% faster delivery times",
+    "risk_factors": ["Regulatory changes", "Technology failures", "Public acceptance"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "interactive_content_platform_2025",
+  "context": "Entertainment production company, 200 employees, developing interactive storytelling platform",
+  "stakeholders": {
+    "requester": "Chief Creative Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Technology Director", "Marketing VP", "Content Strategy Lead"]
+  },
+  "request": {
+    "investment": "$12 million",
+    "purpose": "Build interactive storytelling platform with branching narratives and user choice integration",
+    "urgency": "high",
+    "justification": "Differentiate from streaming competitors and increase viewer engagement by 300%"
+  },
+  "decision_process": [
+    {
+      "stage": "creative_development",
+      "duration": "4 weeks",
+      "activities": ["Story concept development", "User experience design", "Technical feasibility assessment"],
+      "outcome": "Creative vision aligned with technical capabilities"
+    },
+    {
+      "stage": "market_research",
+      "duration": "3 weeks",
+      "activities": ["Audience surveys", "Competitor analysis", "Monetization model testing"],
+      "outcome": "Strong market opportunity identified"
+    },
+    {
+      "stage": "business_planning",
+      "duration": "3 weeks",
+      "activities": ["Financial projections", "Resource planning", "Risk assessment"],
+      "outcome": "Approved with pilot project first"
+    }
+  ],
+  "business_impact": {
+    "engagement_increase": "300% viewer interaction",
+    "revenue_potential": "$45 million in first 3 years",
+    "risk_factors": ["Technology complexity", "Content production costs", "Platform adoption"]
+  }
+}

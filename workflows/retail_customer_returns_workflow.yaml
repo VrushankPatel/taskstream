@@ -1,0 +1,40 @@
+workflow:
+  id: "retail_customer_returns_001"
+  title: "Customer Returns and Refund Processing"
+  department: "Customer Service"
+  complexity: "medium"
+  participants: ["Customer Service Representatives", "Store Managers", "Inventory Specialists", "Customers"]
+  trigger: "Customer presents item for return at store or initiates online return"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Verify return eligibility and receipt validation"
+      tools: ["POS System", "Return Policy Database"]
+      duration: "5 minutes"
+      outputs: ["Return eligibility assessment"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Inspect item condition and assess damage"
+      decision_points: ["Item condition acceptable", "Return timeframe valid"]
+      duration: "3 minutes"
+      outputs: ["Item inspection report"]
+    - step: 3
+      actor: "Store Manager"
+      action: "Approve exceptions for policy violations"
+      tools: ["Manager Override System"]
+      duration: "2 minutes"
+      outputs: ["Exception approval or denial"]
+    - step: 4
+      actor: "Customer Service Representative"
+      action: "Process refund or exchange transaction"
+      tools: ["POS System", "Payment Processing"]
+      duration: "5 minutes"
+      outputs: ["Refund confirmation", "Updated inventory"]
+    - step: 5
+      actor: "Inventory Specialist"
+      action: "Restock returned items or process for disposal"
+      tools: ["Inventory Management System"]
+      duration: "10 minutes"
+      outputs: ["Inventory adjustment", "Restocking record"]
+  success_criteria: "Customer receives refund/exchange within 5 minutes of approval"
+  failure_modes: ["Invalid return attempts", "Damaged item disputes", "System processing errors"]

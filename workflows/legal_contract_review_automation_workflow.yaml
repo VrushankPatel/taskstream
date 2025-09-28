@@ -32,8 +32,12 @@ workflow:
       outputs: ["Business approval", "Final contract terms"]
   success_criteria: "Contract reviewed and approved within SLA with all legal risks mitigated"
   failure_modes: ["AI false positives requiring excessive manual review", "Complex clauses missed by automation", "Stakeholder delays in review process"]
-  metrics:
-    - "Review cycle time: <24 hours for standard contracts"
-    - "AI accuracy rate: >90% risk identification"
-    - "Cost savings: >60% reduction in legal review hours"
-    - "Compliance rate: 100% regulatory requirement coverage"
+   metrics:
+     - "Review cycle time: <24 hours for standard contracts"
+     - "AI accuracy rate: >90% risk identification"
+     - "Cost savings: >60% reduction in legal review hours"
+     - "Compliance rate: 100% regulatory requirement coverage"
+     - "False positive rate: <5% for AI recommendations"
+     - "Attorney review time reduction: >70%"
+     - "Contract approval satisfaction: >4.5/5 from business stakeholders"
+     - "Audit trail completeness: 100%"

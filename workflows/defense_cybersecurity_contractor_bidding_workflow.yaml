@@ -38,8 +38,12 @@ workflow:
       outputs: ["Security clearance verification", "Final contract authorization"]
   success_criteria: "Award contract to qualified vendor meeting all defense cybersecurity and procurement requirements"
   failure_modes: ["Insufficient bidder pool", "Technical proposal weaknesses", "Security clearance delays", "Budget overruns"]
-  metrics:
-    - "Bidder response rate: >70% qualified responses"
-    - "Contract award timeline: <8 weeks from RFP"
-    - "Cost savings vs budget: >5% under target"
-    - "Vendor performance history: 100% compliance check"
+   metrics:
+     - "Bidder response rate: >70% qualified responses"
+     - "Contract award timeline: <8 weeks from RFP"
+     - "Cost savings vs budget: >5% under target"
+     - "Vendor performance history: 100% compliance check"
+     - "Security clearance processing time: <4 weeks"
+     - "Technical evaluation completion rate: 100%"
+     - "Contract compliance monitoring: >95% adherence rate"
+     - "Vendor satisfaction score: >4.0/5"

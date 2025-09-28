@@ -6,10 +6,10 @@
 
 ## Operations Division
 ### Terminal Operations Department
-- **Terminal Operations Manager**: Oversees cargo handling, vessel berthing, and equipment utilization
-  - **Berthing Supervisors** (3): Manage vessel arrival/departure scheduling and berth allocation
-  - **Cargo Supervisors** (4): Coordinate loading/unloading operations across different cargo types
-  - **Equipment Operators** (12): Operate cranes, forklifts, and automated cargo systems
+- **Terminal Operations Manager**: Oversees cargo handling, vessel berthing, and equipment utilization. Responsible for operational efficiency, safety compliance, and coordination with shipping lines. Manages $50M annual operations budget and 50+ staff members.
+  - **Berthing Supervisors** (3): Manage vessel arrival/departure scheduling and berth allocation. Coordinate with vessel agents, pilots, and tugboat operators. Ensure optimal berth utilization and minimize vessel waiting times. Each supervisor handles 8-10 berths and manages 15-20 staff.
+  - **Cargo Supervisors** (4): Coordinate loading/unloading operations across different cargo types including containers, bulk cargo, and breakbulk. Oversee stevedoring gangs, ensure proper cargo handling procedures, and maintain productivity targets. Each supervisor manages 2-3 cargo terminals with teams of 20-30 workers.
+  - **Equipment Operators** (12): Operate cranes, forklifts, and automated cargo systems. Certified in multiple equipment types with safety training. Responsible for equipment maintenance checks and reporting mechanical issues. Work 12-hour shifts with rotation schedules.
 
 ### Vessel Traffic Services
 - **VTS Manager**: Manages vessel traffic control and navigation safety

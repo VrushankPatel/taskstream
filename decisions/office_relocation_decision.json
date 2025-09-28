@@ -1,0 +1,48 @@
+{
+  "scenario_id": "office_relocation_q1_2026",
+  "context": "Growing tech startup (200 employees) evaluating move from current office to larger facility",
+  "stakeholders": {
+    "requester": "Operations Manager",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["HR Director", "IT Manager", "Employee representatives"],
+    "vendors": ["Real estate broker", "Moving company", "Interior designer"]
+  },
+  "request": {
+    "amount": "$1.8M",
+    "purpose": "Lease new 50,000 sq ft office space for 3 years with buildout",
+    "urgency": "medium",
+    "justification": "Current space at 95% capacity with 40% employee growth projected"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_assessment",
+      "duration": "3 weeks",
+      "activities": ["Space planning", "Employee surveys", "Growth projections"],
+      "outcome": "Need for 40% more space with flexible design"
+    },
+    {
+      "stage": "market_analysis",
+      "duration": "4 weeks",
+      "activities": ["Property tours", "Lease negotiations", "Location analysis"],
+      "outcome": "3 suitable properties identified with competitive terms"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "2 weeks",
+      "activities": ["ROI analysis", "Budget impact", "Funding options"],
+      "outcome": "Positive NPV with 3.2-year payback period"
+    },
+    {
+      "stage": "employee_engagement",
+      "duration": "2 weeks",
+      "activities": ["Town halls", "Feedback sessions", "Transition planning"],
+      "outcome": "75% employee support with concerns addressed"
+    }
+  ],
+  "business_impact": {
+    "productivity_gain": "15% improvement",
+    "attraction_retention": "Better talent acquisition",
+    "risk_factors": ["Moving disruption", "Cost overruns", "Location dissatisfaction"],
+    "success_factors": ["Phased transition", "Employee involvement", "Change management"]
+  }
+}

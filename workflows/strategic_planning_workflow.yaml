@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_strategy_planning_001"
+  title: "Annual Strategic Planning Process"
+  department: "Executive Leadership"
+  complexity: "high"
+  participants: ["CEO", "Executive Team", "Department Heads", "Board Members", "Strategy Consultant"]
+  trigger: "Fiscal year begins (October 1st)"
+  steps:
+    - step: 1
+      actor: "CEO"
+      action: "Define strategic planning objectives and timeline"
+      tools: ["Strategic planning framework", "Industry reports", "Executive calendar"]
+      duration: "1 week"
+      outputs: ["Planning charter", "Timeline and milestones", "Stakeholder list"]
+    - step: 2
+      actor: "Executive Team"
+      action: "Conduct environmental scan and SWOT analysis"
+      tools: ["Market research tools", "Competitive intelligence", "Internal data analysis"]
+      duration: "2 weeks"
+      outputs: ["SWOT analysis", "Market opportunity assessment", "Risk evaluation"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Develop departmental strategic initiatives and goals"
+      tools: ["Strategic planning templates", "Performance data", "Resource requirements"]
+      duration: "3 weeks"
+      outputs: ["Department plans", "Resource requests", "Success metrics"]
+    - step: 4
+      actor: "Strategy Consultant"
+      action: "Facilitate strategy workshops and scenario planning"
+      tools: ["Strategy workshop materials", "Scenario planning models", "Facilitation techniques"]
+      duration: "1 week"
+      outputs: ["Strategy options", "Scenario analysis", "Strategic themes"]
+    - step: 5
+      actor: "Executive Team"
+      action: "Develop strategic priorities and resource allocation"
+      tools: ["Portfolio analysis", "Financial modeling", "Prioritization matrix"]
+      duration: "2 weeks"
+      outputs: ["Strategic priorities", "Resource allocation plan", "Implementation roadmap"]
+    - step: 6
+      actor: "Board Members"
+      action: "Review and provide input on strategic plan"
+      tools: ["Board materials", "Strategic plan presentation", "Board portal"]
+      duration: "1 week"
+      outputs: ["Board feedback", "Strategic adjustments", "Approval recommendations"]
+    - step: 7
+      actor: "CEO"
+      action: "Finalize and communicate strategic plan organization-wide"
+      tools: ["Internal communications", "Strategy presentation", "Implementation tracking"]
+      duration: "1 week"
+      outputs: ["Strategic plan document", "Communication plan", "Monitoring framework"]
+  success_criteria: "Strategic plan approved by board with 80%+ employee awareness"
+  failure_modes: ["Poor data quality", "Stakeholder misalignment", "Resource constraints", "Market changes"]

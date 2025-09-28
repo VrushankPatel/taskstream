@@ -1,0 +1,48 @@
+{
+  "scenario_id": "technology_upgrade_q1_2025",
+  "context": "Manufacturing company (500 employees) evaluating legacy ERP system replacement",
+  "stakeholders": {
+    "requester": "CIO",
+    "approvers": ["CEO", "CFO", "COO"],
+    "influencers": ["Department Heads", "IT Team", "External Consultants"],
+    "end_users": ["Operations staff", "Finance team"]
+  },
+  "request": {
+    "amount": "$4.2M",
+    "purpose": "Replace 15-year-old ERP system with cloud-based solution",
+    "urgency": "medium",
+    "justification": "Current system causing 20% productivity loss and increasing support costs by 30%"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "6 weeks",
+      "activities": ["User interviews", "Process mapping", "Vendor evaluation"],
+      "outcome": "Clear requirements defined, 3 vendors shortlisted"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "4 weeks",
+      "activities": ["RFI/RFP process", "Demo sessions", "Reference checks"],
+      "outcome": "Leading vendor selected with 85% user satisfaction"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "3 weeks",
+      "activities": ["Total cost of ownership", "ROI modeling", "Funding options"],
+      "outcome": "5-year ROI of 180% with 2-year payback"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["Project plan development", "Change management", "Risk mitigation"],
+      "outcome": "18-month implementation plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$1.8M annually",
+    "productivity_gain": "25% improvement",
+    "risk_factors": ["Implementation delays", "User adoption challenges", "Data migration issues"],
+    "success_factors": ["Executive sponsorship", "Change management program", "Phased rollout"]
+  }
+}

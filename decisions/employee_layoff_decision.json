@@ -1,0 +1,48 @@
+{
+  "scenario_id": "workforce_reduction_q2_2025",
+  "context": "Retail company (800 employees) facing 30% revenue decline due to market changes",
+  "stakeholders": {
+    "requester": "CHRO",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Department Heads", "Legal Counsel", "Union Representatives"],
+    "affected_parties": ["Employees", "Remaining staff"]
+  },
+  "request": {
+    "amount": "$2.1M",
+    "purpose": "Severance packages and outplacement services for 120 employee reduction",
+    "urgency": "high",
+    "justification": "Market contraction requires 15% workforce reduction to maintain profitability"
+  },
+  "decision_process": [
+    {
+      "stage": "business_case_development",
+      "duration": "2 weeks",
+      "activities": ["Financial analysis", "Market assessment", "Alternative scenarios"],
+      "outcome": "Reduction identified as necessary for survival"
+    },
+    {
+      "stage": "legal_review",
+      "duration": "3 weeks",
+      "activities": ["WARN Act compliance", "Severance requirements", "Union consultation"],
+      "outcome": "Legal framework established for fair process"
+    },
+    {
+      "stage": "impact_analysis",
+      "duration": "2 weeks",
+      "activities": ["Workforce planning", "Skills assessment", "Retention strategy"],
+      "outcome": "Minimal critical skill loss, retention incentives planned"
+    },
+    {
+      "stage": "communication_planning",
+      "duration": "1 week",
+      "activities": ["Messaging development", "Timeline planning", "Support services"],
+      "outcome": "Compassionate communication plan with support resources"
+    }
+  ],
+  "business_impact": {
+    "cost_savings": "$4.5M annually",
+    "expected_outcomes": "Return to profitability within 18 months",
+    "risk_factors": ["Morale impact", "Knowledge loss", "Legal challenges", "Brand reputation damage"],
+    "success_factors": ["Transparent communication", "Generous severance", "Outplacement support", "Leadership visibility"]
+  }
+}

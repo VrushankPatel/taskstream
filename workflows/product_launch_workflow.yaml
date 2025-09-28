@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_marketing_launch_001"
+  title: "New Product Launch Campaign"
+  department: "Marketing"
+  complexity: "high"
+  participants: ["Product Manager", "Marketing Manager", "Creative Director", "Sales Director", "PR Manager"]
+  trigger: "Product development reaches beta testing phase"
+  steps:
+    - step: 1
+      actor: "Product Manager"
+      action: "Define target audience, positioning, and key messaging"
+      tools: ["Market research reports", "Customer personas", "Competitive analysis"]
+      duration: "4 hours"
+      outputs: ["Product positioning document", "Target audience profiles"]
+    - step: 2
+      actor: "Creative Director"
+      action: "Develop creative assets and campaign materials"
+      tools: ["Design software", "Brand guidelines", "Content management system"]
+      duration: "16 hours"
+      outputs: ["Marketing collateral", "Website updates", "Social media assets"]
+    - step: 3
+      actor: "Marketing Manager"
+      action: "Create integrated marketing campaign plan across channels"
+      tools: ["Marketing automation platform", "Campaign planning templates"]
+      duration: "6 hours"
+      outputs: ["Campaign timeline", "Channel strategy", "Budget allocation"]
+    - step: 4
+      actor: "PR Manager"
+      action: "Prepare press release and media outreach plan"
+      tools: ["PR database", "Press release templates", "Media list"]
+      duration: "3 hours"
+      outputs: ["Press release", "Media pitch", "Press kit"]
+    - step: 5
+      actor: "Sales Director"
+      action: "Develop sales enablement materials and training"
+      tools: ["Sales training platform", "Product demo scripts"]
+      duration: "4 hours"
+      outputs: ["Sales playbooks", "Demo scripts", "Training materials"]
+    - step: 6
+      actor: "Marketing Manager"
+      action: "Execute pre-launch teaser campaign"
+      tools: ["Social media platforms", "Email marketing", "Paid advertising"]
+      duration: "1 week"
+      outputs: ["Campaign analytics", "Lead generation metrics"]
+    - step: 7
+      actor: "Product Manager"
+      action: "Coordinate launch event and go-live activities"
+      tools: ["Event management platform", "Launch checklist"]
+      duration: "2 days"
+      outputs: ["Launch event execution", "Go-live confirmation"]
+  success_criteria: "Achieve 150% of sales target in first 90 days post-launch"
+  failure_modes: ["Poor product-market fit", "Inadequate marketing budget", "Channel conflicts", "Timing delays"]

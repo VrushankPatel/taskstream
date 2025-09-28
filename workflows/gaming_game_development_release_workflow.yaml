@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_gaming_game_development_release"
+  title: "Game Development Release Management Process"
+  department: "Game Development"
+  complexity: "complex"
+  participants: ["Product Manager", "Lead Developer", "QA Lead", "DevOps Engineer", "Marketing Manager"]
+  trigger: "Feature complete milestone reached"
+  steps:
+    - step: 1
+      actor: "Product Manager"
+      action: "Define release scope and create release plan"
+      tools: ["Project Management Software", "Release Planning Template"]
+      duration: "1 week"
+      outputs: ["Release plan document", "Feature list"]
+    - step: 2
+      actor: "Lead Developer"
+      action: "Code freeze and final development integration"
+      tools: ["Version Control System", "CI/CD Pipeline"]
+      duration: "3 days"
+      outputs: ["Release branch", "Build artifacts"]
+    - step: 3
+      actor: "QA Lead"
+      action: "Execute comprehensive testing cycle"
+      tools: ["Test Management Platform", "Bug Tracking System"]
+      duration: "1 week"
+      outputs: ["Test reports", "Bug fix list"]
+    - step: 4
+      actor: "DevOps Engineer"
+      action: "Deploy to staging environment and performance testing"
+      tools: ["Deployment Automation", "Performance Monitoring Tools"]
+      duration: "2 days"
+      outputs: ["Staging deployment", "Performance benchmarks"]
+    - step: 5
+      actor: "Marketing Manager"
+      action: "Prepare launch materials and coordinate go-live"
+      tools: ["Marketing Automation Platform", "Launch Checklist"]
+      duration: "3 days"
+      outputs: ["Launch announcement", "User communication"]
+  success_criteria: "On-time release with <5% critical bugs post-launch"
+  failure_modes: ["Scope creep", "Testing delays", "Performance issues"]
+  metrics:
+    - "Release Velocity: 2 major releases per quarter"
+    - "Bug Escape Rate: < 0.1%"
+    - "User Satisfaction Score: > 4.5/5"
+    - "Time to Market: < 8 weeks from feature complete"

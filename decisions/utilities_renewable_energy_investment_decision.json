@@ -1,0 +1,43 @@
+{
+  "scenario_id": "utilities_renewable_energy_2025",
+  "context": "Mid-sized utility company evaluating $50M investment in solar/wind infrastructure to meet 2030 renewable targets",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Sustainability Officer", "VP Regulatory Affairs", "External Consultants"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Solar and wind farm development and grid integration",
+    "urgency": "high",
+    "justification": "Regulatory compliance and long-term cost savings through reduced fossil fuel dependency"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "3 months",
+      "activities": ["Site selection studies", "Environmental impact assessments", "Financial modeling", "Regulatory compliance review"],
+      "outcome": "Feasibility confirmed with 15% IRR projected"
+    },
+    {
+      "stage": "stakeholder_reviews",
+      "duration": "2 months",
+      "activities": ["Board presentations", "Shareholder communications", "Community consultations", "Regulatory approvals"],
+      "outcome": "Board approval granted with conditions"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 month",
+      "activities": ["Contractor selection", "Timeline development", "Risk mitigation planning"],
+      "outcome": "Phased implementation plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% reduction in carbon emissions, 20% decrease in energy costs by 2030",
+    "projected_value": "$75,000,000 in cost savings over 20 years",
+    "risk_factors": ["Weather dependency", "Grid integration challenges", "Regulatory changes", "Higher initial capital costs"]
+  },
+  "decision_criteria": ["Financial return on investment", "Regulatory compliance alignment", "Environmental impact", "Grid reliability improvement", "Community support"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for regulatory approvals, comprehensive risk assessment prevented delays, modular implementation reduced financial exposure"
+}

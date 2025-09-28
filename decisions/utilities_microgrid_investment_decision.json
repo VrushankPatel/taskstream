@@ -1,0 +1,43 @@
+{
+  "scenario_id": "utilities_microgrid_investment_2025",
+  "context": "Utility company evaluating $120M investment in microgrid development for critical infrastructure resilience and renewable integration",
+  "stakeholders": {
+    "requester": "VP Grid Modernization",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Regulatory Affairs", "Community Leaders", "Technology Partners"]
+  },
+  "request": {
+    "amount": "$120,000,000",
+    "purpose": "Microgrid infrastructure for hospitals, data centers, and critical facilities with battery storage and solar integration",
+    "urgency": "high",
+    "justification": "Climate resilience and regulatory compliance for critical infrastructure protection"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "4 months",
+      "activities": ["Site selection for critical facilities", "Load analysis and microgrid design", "Regulatory approval mapping", "Cost-benefit modeling"],
+      "outcome": "Identified 25 high-priority sites with combined load of 500MW"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 months",
+      "activities": ["Facility owner negotiations", "Community impact assessments", "Regulatory filings", "Technology partner selection"],
+      "outcome": "Secured agreements with 20 facilities and regulatory approval framework"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "2 months",
+      "activities": ["Detailed ROI analysis", "Funding structure development", "Risk assessment", "Incentive program evaluation"],
+      "outcome": "Projected 15% IRR with 8-year payback and substantial resilience benefits"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "85% reduction in outage duration for critical facilities, 40% increase in renewable energy utilization",
+    "projected_value": "$200,000,000 in avoided economic losses over 15 years",
+    "risk_factors": ["Technology integration challenges", "Regulatory approval delays", "Higher-than-expected costs", "Community opposition"]
+  },
+  "decision_criteria": ["Critical infrastructure protection", "Financial return", "Regulatory alignment", "Technology readiness", "Community impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Early engagement with facility owners crucial for project success, comprehensive regulatory strategy prevented delays, modular design allowed for phased implementation reducing financial risk"
+}

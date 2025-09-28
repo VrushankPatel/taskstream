@@ -1,0 +1,43 @@
+{
+  "scenario_id": "agriculture_vertical_farming_2025",
+  "context": "Agricultural cooperative evaluating $45M investment in vertical farming technology for urban food production",
+  "stakeholders": {
+    "requester": "Innovation Director",
+    "approvers": ["Board of Directors", "CEO"],
+    "influencers": ["Production Manager", "Technology Partners", "Urban Development Partners", "Environmental Groups"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Construction of 500,000 sq ft vertical farm facility with hydroponic systems and AI-driven cultivation",
+    "urgency": "medium",
+    "justification": "Year-round production in urban areas, 90% water savings, and local food supply resilience"
+  },
+  "decision_process": [
+    {
+      "stage": "market_feasibility",
+      "duration": "4 months",
+      "activities": ["Urban market analysis", "Competitor assessment", "Consumer demand research", "Location scouting"],
+      "outcome": "Identified strong demand in 3 major metropolitan areas with premium pricing potential"
+    },
+    {
+      "stage": "technical_validation",
+      "duration": "3 months",
+      "activities": ["Technology partner evaluation", "Pilot facility testing", "Yield optimization studies", "Energy efficiency analysis"],
+      "outcome": "Validated 20x higher yield per square foot with 95% water reduction"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 months",
+      "activities": ["Detailed cost projections", "Revenue forecasting", "Funding strategy development", "Risk analysis"],
+      "outcome": "Projected 18% IRR with 6-year payback and scalable growth potential"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Revolutionary urban agriculture model, enhanced food security, significant environmental benefits",
+    "projected_value": "$80,000,000 in revenue over 10 years with expansion potential",
+    "risk_factors": ["High initial capital requirements", "Technology learning curve", "Market acceptance", "Energy cost volatility"]
+  },
+  "decision_criteria": ["Market opportunity", "Environmental impact", "Financial viability", "Technology readiness", "Scalability"],
+  "outcome": "Approved",
+  "lessons_learned": "Urban location partnerships crucial for success, comprehensive pilot testing essential for technology validation, premium pricing strategy justified by quality and freshness advantages"
+}

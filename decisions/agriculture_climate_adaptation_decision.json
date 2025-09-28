@@ -1,0 +1,43 @@
+{
+  "scenario_id": "agriculture_climate_adaptation_2025",
+  "context": "Agricultural cooperative considering $15M investment in climate-resilient farming technologies across 100,000 acres",
+  "stakeholders": {
+    "requester": "Director of Agricultural Services",
+    "approvers": ["Board of Directors", "CEO"],
+    "influencers": ["Agronomy Team", "Farmer Members", "Climate Scientists", "Equipment Suppliers"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Drought-resistant crop varieties, precision irrigation systems, and weather monitoring networks",
+    "urgency": "medium",
+    "justification": "Adapt to increasing climate variability and maintain yield stability"
+  },
+  "decision_process": [
+    {
+      "stage": "climate_risk_assessment",
+      "duration": "3 months",
+      "activities": ["Historical weather analysis", "Climate model projections", "Vulnerability mapping", "Farmer impact surveys"],
+      "outcome": "Identified 40% yield risk increase by 2030 without adaptation measures"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "2 months",
+      "activities": ["Pilot program implementation", "Yield monitoring", "Cost-benefit analysis", "Farmer training programs"],
+      "outcome": "15% yield improvement and 25% water savings in pilot areas"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 month",
+      "activities": ["Phased rollout strategy", "Funding allocation", "Training program development", "Monitoring framework"],
+      "outcome": "3-year implementation plan with measurable milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Stable yields despite climate change, reduced input costs, enhanced member profitability",
+    "projected_value": "$50,000,000 in additional revenue over 10 years",
+    "risk_factors": ["Adoption resistance", "Technology reliability", "Funding availability", "Weather extremes"]
+  },
+  "decision_criteria": ["Climate resilience improvement", "Economic viability", "Member acceptance", "Scalability", "Environmental benefits"],
+  "outcome": "Approved",
+  "lessons_learned": "Farmer involvement in pilot programs critical for adoption, comprehensive training essential for technology utilization, flexible implementation allows for local adaptation"
+}

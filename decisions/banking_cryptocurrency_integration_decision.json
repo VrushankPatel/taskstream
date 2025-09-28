@@ -1,0 +1,43 @@
+{
+  "scenario_id": "banking_cryptocurrency_integration_2025",
+  "context": "Major bank evaluating $50M investment in cryptocurrency services to meet growing customer demand and competitive pressure",
+  "stakeholders": {
+    "requester": "Head of Digital Innovation",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer", "Board of Directors"],
+    "influencers": ["Chief Technology Officer", "Compliance Officer", "Retail Banking Head", "Fintech Partners"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Develop cryptocurrency custody, trading, and payment services for retail and institutional clients",
+    "urgency": "high",
+    "justification": "Customer demand for crypto services growing 300% annually, competitors capturing market share"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 months",
+      "activities": ["Customer demand research", "Competitive landscape assessment", "Regulatory environment analysis", "Technology vendor evaluation"],
+      "outcome": "Identified $25B addressable market with 15% potential market share"
+    },
+    {
+      "stage": "regulatory_compliance",
+      "duration": "4 months",
+      "activities": ["FinCEN and SEC coordination", "AML/KYC framework development", "Insurance requirements assessment", "International regulatory alignment"],
+      "outcome": "Comprehensive compliance framework established with regulatory approvals secured"
+    },
+    {
+      "stage": "technical_implementation",
+      "duration": "6 months",
+      "activities": ["Custody infrastructure development", "Trading platform integration", "Security system implementation", "API development for partners"],
+      "outcome": "Secure, scalable crypto platform with institutional-grade custody capabilities"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Launch comprehensive crypto services capturing 10% market share within 3 years, 25% increase in digital customer acquisition",
+    "projected_value": "$200,000,000 in revenue over 5 years",
+    "risk_factors": ["Regulatory changes", "Market volatility", "Security breaches", "Technology obsolescence", "Reputational risk"]
+  },
+  "decision_criteria": ["Market opportunity", "Regulatory compliance", "Financial return", "Risk management", "Technology readiness", "Customer demand"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for complex financial innovations, comprehensive risk assessment essential for board approval, phased market entry allows for learning and adaptation"
+}

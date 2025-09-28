@@ -44,3 +44,9 @@ workflow:
       outputs: ["Performance improvement metrics"]
   success_criteria: "20% improvement in EHR response times and 95% user satisfaction"
   failure_modes: ["Insufficient stakeholder buy-in", "Data migration errors", "Regulatory non-compliance"]
+  metrics:
+    - "EHR response time improvement: Target 20% faster"
+    - "User satisfaction score: Target >4.5/5"
+    - "System uptime: Target >99.9%"
+    - "Data accuracy rate: Target >99%"
+    - "Compliance audit pass rate: Target 100%"

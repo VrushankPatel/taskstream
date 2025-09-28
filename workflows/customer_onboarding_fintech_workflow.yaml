@@ -23,8 +23,8 @@ workflow:
       action: "Set up customer account and configure platform access"
       tools: ["User management system", "API keys", "Security settings"]
       duration: "2-3 days"
-       outputs: ["Account activated", "Login credentials provided"]
-     - step: 4
+      outputs: ["Account activated", "Login credentials provided"]
+    - step: 4
       actor: "Customer Success Manager"
       action: "Conduct training session and provide ongoing support"
       tools: ["Training platform", "Knowledge base", "Support ticketing"]

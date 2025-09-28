@@ -1,0 +1,43 @@
+{
+  "scenario_id": "manufacturing_industry_4_0_transformation_2025",
+  "context": "Traditional manufacturing company with 50-year history evaluating Industry 4.0 digital transformation to remain competitive",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Chief Information Officer"],
+    "influencers": ["Plant Managers", "Union Representatives", "Technology Vendors", "Industry Consultants"]
+  },
+  "request": {
+    "amount": "$120,000,000",
+    "purpose": "Implement Industry 4.0 technologies including IoT sensors, AI-driven predictive maintenance, digital twins, and automated production lines",
+    "urgency": "high",
+    "justification": "Address declining market share, improve operational efficiency by 40%, reduce production costs by 25%"
+  },
+  "decision_process": [
+    {
+      "stage": "digital_readiness_assessment",
+      "duration": "10 weeks",
+      "activities": ["Current state analysis", "Technology gap assessment", "ROI modeling", "Change management planning"],
+      "outcome": "Identified $45M annual savings opportunity with 3-year payback"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "20 weeks",
+      "activities": ["Select pilot production line", "Implement IoT sensors and AI systems", "Train workforce", "Monitor results"],
+      "outcome": "30% efficiency improvement in pilot line, validated technology approach"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "36 weeks",
+      "activities": ["Scale to all production facilities", "Integrate ERP with IoT systems", "Implement digital twin platform", "Establish continuous improvement processes"],
+      "outcome": "Approved for phased rollout starting Q1 2026"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% improvement in operational efficiency, 25% reduction in production costs, 50% reduction in downtime, enhanced product quality",
+    "projected_value": "$180,000,000 annual cost savings, $300,000,000 revenue increase from improved delivery times",
+    "risk_factors": ["Workforce resistance to automation", "Technology integration complexity", "Cybersecurity vulnerabilities", "High initial investment"]
+  },
+  "decision_criteria": ["Financial ROI and payback period", "Operational efficiency gains", "Workforce impact and training", "Technology maturity and vendor support", "Competitive positioning"],
+  "outcome": "Approved with phased implementation",
+  "lessons_learned": "Early union engagement critical for success, pilot programs essential for risk mitigation, comprehensive training programs required, cybersecurity must be integrated from day one"
+}

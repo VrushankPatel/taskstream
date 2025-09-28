@@ -38,3 +38,9 @@ workflow:
       outputs: ["Approved governance framework", "Implementation roadmap"]
   success_criteria: "AI system deployed with comprehensive ethics oversight and monitoring"
   failure_modes: ["Unacceptable bias levels", "Regulatory non-compliance", "Stakeholder objections"]
+  metrics:
+    - "Bias detection accuracy: Target >95%"
+    - "Regulatory compliance rate: Target 100%"
+    - "Ethics audit completion: Target quarterly"
+    - "Stakeholder satisfaction: Target >4/5"
+    - "Training completion rate: Target >90%"

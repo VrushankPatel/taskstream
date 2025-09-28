@@ -48,11 +48,11 @@ workflow:
       duration: "Ongoing"
       outputs: ["Joint workforce agreements", "Training partnership programs", "Ongoing monitoring protocols"]
       decision_points: ["Bargaining priorities", "Training program collaboration", "Monitoring framework design"]
-   success_criteria: "Successful robotics integration, maintained workforce productivity, positive employee relations, and regulatory compliance"
-   failure_modes: ["Safety incidents", "Workforce resistance", "Integration technical failures", "Productivity declines"]
-   metrics:
-     - "Integration completion rate: Target 100% of planned processes automated"
-     - "Workforce productivity: Target >95% of pre-integration levels"
-     - "Safety incident rate: Target zero incidents during integration"
-     - "Employee satisfaction: Target >75% positive feedback"
-     - "ROI realization: Target 20% efficiency improvement within 12 months"
+  success_criteria: "Successful robotics integration, maintained workforce productivity, positive employee relations, and regulatory compliance"
+  failure_modes: ["Safety incidents", "Workforce resistance", "Integration technical failures", "Productivity declines"]
+  metrics:
+    - "Integration completion rate: Target 100% of planned processes automated"
+    - "Workforce productivity: Target >95% of pre-integration levels"
+    - "Safety incident rate: Target zero incidents during integration"
+    - "Employee satisfaction: Target >75% positive feedback"
+    - "ROI realization: Target 20% efficiency improvement within 12 months"

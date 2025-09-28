@@ -50,7 +50,7 @@ workflow:
       outputs: ["AI-enhanced pilot results report", "Advanced scalability assessment", "Full deployment strategy"]
   success_criteria: "Successful implementation of advanced genomic screening program with 85% participation rate, AI-driven clinical outcomes improvement, and full regulatory compliance"
   failure_modes: ["Advanced technology integration failures", "AI algorithm biases", "Complex regulatory delays", "Patient privacy concerns with genomic data", "Resource constraints for advanced infrastructure"]
-   metrics:
+  metrics:
     - "Advanced screening participation rate: Target 85%"
     - "AI-driven clinical outcome improvement: Target 20% reduction in preventable diseases"
     - "Regulatory compliance score: Target 100%"

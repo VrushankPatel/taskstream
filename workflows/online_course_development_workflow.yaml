@@ -32,3 +32,9 @@ workflow:
       outputs: ["Quality Review Report", "Approved Course Package"]
   success_criteria: "Course achieves 85% student satisfaction rating"
   failure_modes: ["Content accuracy issues", "Technical production delays", "Accessibility compliance gaps"]
+  metrics:
+    - "Student satisfaction rating: Target >4.5/5"
+    - "Course completion rate: Target >80%"
+    - "Content accuracy score: Target 100%"
+    - "Accessibility compliance: Target WCAG 2.1 AA"
+    - "Development timeline adherence: Target 100%"

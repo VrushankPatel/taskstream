@@ -1,0 +1,43 @@
+{
+  "scenario_id": "ai_ethics_bias_mitigation_implementation_2025",
+  "context": "Global technology company implementing comprehensive AI ethics framework across all products and services",
+  "stakeholders": {
+    "requester": "Chief Ethics Officer",
+    "approvers": ["CEO", "Chief Technology Officer", "Chief Legal Officer"],
+    "influencers": ["Head of AI Research", "Product Managers", "Data Science Teams"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "Implement automated bias detection and mitigation systems across all AI models and datasets",
+    "urgency": "high",
+    "justification": "Regulatory compliance requirements and ethical responsibility to prevent algorithmic discrimination"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "6 weeks",
+      "activities": ["Technical feasibility study", "Vendor evaluation", "Cost-benefit analysis"],
+      "outcome": "Approved for pilot implementation"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "12 weeks",
+      "activities": ["Deploy bias detection tools", "Train data science teams", "Monitor pilot results"],
+      "outcome": "Successful pilot with 85% bias reduction"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "24 weeks",
+      "activities": ["Scale to all AI systems", "Establish monitoring dashboards", "Develop training programs"],
+      "outcome": "Full enterprise implementation completed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduced algorithmic bias by 90%, improved regulatory compliance, enhanced brand reputation",
+    "projected_value": "$50,000,000 in avoided regulatory fines and reputational damage",
+    "risk_factors": ["Technical implementation challenges", "Performance impact on AI systems", "Training overhead for teams"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Ethical responsibility", "Technical feasibility", "Business impact", "Cost justification"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical, automated tools more effective than manual processes, continuous monitoring essential"
+}

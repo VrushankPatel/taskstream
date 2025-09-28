@@ -33,7 +33,7 @@
     },
     {
       "stage": "executive_decision",
-      "duration: "1 day",
+       "duration": "1 day",
       "activities": ["Executive crisis committee meeting with AI dashboards", "Final strategy approval", "Resource allocation with predictive modeling", "Implementation timeline with AI monitoring"],
       "outcome": "Approved with accelerated AI and blockchain implementation plan"
     }

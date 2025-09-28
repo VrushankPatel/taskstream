@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_healthcare_telemedicine_scalability"
+  title: "Healthcare Telemedicine Scalability Workflow"
+  department: "Digital Health"
+  complexity: "complex"
+  participants: ["Chief Medical Information Officer", "Telemedicine Program Director", "IT Infrastructure Lead", "Clinical Operations Manager", "Patient Experience Lead", "Regulatory Compliance Officer"]
+  trigger: "Demand surge requiring telemedicine capacity expansion from 10K to 50K daily visits"
+  steps:
+    - step: 1
+      actor: "Chief Medical Information Officer"
+      action: "Assess current telemedicine infrastructure and identify scalability gaps"
+      tools: ["Infrastructure monitoring tools", "Capacity planning software"]
+      duration: "2 weeks"
+      outputs: ["Infrastructure assessment report", "Scalability requirements document"]
+    - step: 2
+      actor: "Telemedicine Program Director"
+      action: "Develop clinical protocols for scaled telemedicine operations"
+      tools: ["Clinical workflow tools", "Provider scheduling systems"]
+      duration: "3 weeks"
+      outputs: ["Updated clinical protocols", "Provider training curriculum"]
+    - step: 3
+      actor: "IT Infrastructure Lead"
+      action: "Scale technical infrastructure including cloud resources and network capacity"
+      tools: ["Cloud management platforms", "Network monitoring tools", "Load balancing systems"]
+      duration: "6 weeks"
+      outputs: ["Scaled infrastructure architecture", "Performance monitoring dashboards"]
+    - step: 4
+      actor: "Clinical Operations Manager"
+      action: "Expand provider network and implement triage systems for telemedicine visits"
+      tools: ["Provider management systems", "Triage algorithms", "Appointment scheduling platforms"]
+      duration: "4 weeks"
+      outputs: ["Expanded provider network", "Automated triage system"]
+    - step: 5
+      actor: "Patient Experience Lead"
+      action: "Optimize patient onboarding and support systems for scaled operations"
+      tools: ["Patient portal platforms", "Chatbot systems", "Feedback collection tools"]
+      duration: "3 weeks"
+      outputs: ["Enhanced patient experience workflows", "Support automation systems"]
+    - step: 6
+      actor: "Regulatory Compliance Officer"
+      action: "Ensure compliance with telemedicine regulations across expanded operations"
+      tools: ["Compliance management software", "Regulatory tracking systems"]
+      duration: "Ongoing"
+      outputs: ["Compliance documentation", "Audit preparation materials"]
+  success_criteria: "50K daily telemedicine visits with <5% technical failure rate, >95% patient satisfaction, full regulatory compliance"
+  failure_modes: ["Infrastructure overload", "Provider burnout", "Regulatory violations", "Poor patient experience"]
+  metrics:
+    - "Daily visit capacity: Target 50K visits"
+    - "Technical reliability: Target >95% uptime"
+    - "Patient satisfaction: Target >4.5/5"
+    - "Provider utilization: Target <80% capacity"
+    - "Regulatory compliance: Target 100%"

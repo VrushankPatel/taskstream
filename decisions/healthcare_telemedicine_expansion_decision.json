@@ -1,0 +1,40 @@
+{
+  "scenario_id": "healthcare_telemedicine_expansion_2025",
+  "context": "Regional hospital system, 500 beds, post-pandemic telemedicine adoption",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["Hospital Board", "CEO"],
+    "influencers": ["Clinical staff", "IT department", "Patient advocacy groups"]
+  },
+  "request": {
+    "amount": "$3 million",
+    "purpose": "Expand telemedicine capabilities across specialties",
+    "urgency": "high",
+    "justification": "Improve access to care and reduce patient wait times"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_assessment",
+      "duration": "8 weeks",
+      "activities": ["Specialty telemedicine feasibility", "Patient satisfaction surveys", "Clinical outcome analysis"],
+      "outcome": "Identify high-impact specialties"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Platform vendor assessment", "Integration requirements", "Security compliance review"],
+      "outcome": "Select telemedicine platform"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["Staff training programs", "Workflow redesign", "Patient communication strategy"],
+      "outcome": "Approved phased rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Reduced patient wait times, improved access to specialists",
+    "projected_roi": "25% increase in patient volume",
+    "risk_factors": ["Technology adoption resistance", "Reimbursement changes", "Privacy concerns"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "construction_safety_investment_2025",
+  "context": "Construction company experiencing rising insurance premiums due to safety incidents",
+  "stakeholders": {
+    "requester": "Safety Manager",
+    "approvers": ["Operations Director", "CFO"],
+    "influencers": ["Project Managers", "Insurance Broker", "Workers' Compensation Representative"]
+  },
+  "request": {
+    "amount": "$200,000",
+    "purpose": "Advanced safety equipment, training programs, and monitoring systems",
+    "urgency": "medium",
+    "justification": "Reduce incident rates, lower insurance costs, improve OSHA compliance scores"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_analysis",
+      "duration": "1 week",
+      "activities": ["Review incident reports", "Cost analysis of past incidents", "Benchmarking against industry standards"],
+      "outcome": "Identified key safety gaps"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Equipment vendor evaluations", "Training program assessment", "Technology solution review"],
+      "outcome": "Selected comprehensive safety improvement package"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "1 week",
+      "activities": ["ROI calculations", "Insurance premium projections", "Productivity impact assessment"],
+      "outcome": "Approved investment with 2-year payback period"
+    }
+  ],
+  "business_impact": {
+    "expected_incident_reduction": "40%",
+    "insurance_premium_savings": "$150,000 annually",
+    "risk_factors": ["Worker resistance to new equipment", "Training time impact on productivity", "Equipment maintenance costs"]
+  }
+}

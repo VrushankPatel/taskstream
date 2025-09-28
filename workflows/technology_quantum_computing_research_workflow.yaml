@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_tech_quantum_001"
+  title: "Quantum Computing Research Center Establishment"
+  department: "R&D"
+  complexity: "high"
+  participants: ["Chief Technology Officer", "Research Director", "IT Infrastructure Lead", "Legal Counsel", "Finance Director"]
+  trigger: "Strategic investment in emerging quantum technologies"
+  steps:
+    - step: 1
+      actor: "Research Director"
+      action: "Define research focus areas and quantum computing applications"
+      tools: ["Technology roadmapping tools", "Expert consultations", "Market analysis reports"]
+      duration: "8 weeks"
+      outputs: ["Research strategy document", "Application roadmap"]
+    - step: 2
+      actor: "Chief Technology Officer"
+      action: "Select quantum computing hardware and software platforms"
+      decision_points: ["Hardware vendor selection", "Cloud vs. on-premises", "Development tools"]
+      tools: ["Vendor evaluation frameworks", "Technical specifications", "Cost-benefit analysis"]
+      duration: "10 weeks"
+      outputs: ["Platform selection report", "Procurement recommendations"]
+    - step: 3
+      actor: "IT Infrastructure Lead"
+      action: "Design and implement quantum-safe infrastructure"
+      tools: ["Infrastructure design tools", "Security frameworks", "Cooling systems"]
+      duration: "16 weeks"
+      outputs: ["Infrastructure design specifications", "Implementation timeline"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Address intellectual property and export control requirements"
+      tools: ["IP protection frameworks", "Export control regulations", "Legal consultation processes"]
+      duration: "6 weeks"
+      outputs: ["IP protection strategy", "Compliance framework"]
+    - step: 5
+      actor: "Finance Director"
+      action: "Develop funding model and ROI projections"
+      tools: ["Financial modeling software", "Grant application templates", "Partnership frameworks"]
+      duration: "8 weeks"
+      outputs: ["Funding strategy", "Financial projections report"]
+    - step: 6
+      actor: "Research Director"
+      action: "Recruit and onboard quantum research team"
+      tools: ["Talent acquisition platforms", "Onboarding programs", "Training curricula"]
+      duration: "12 weeks"
+      outputs: ["Team hiring plan", "Research team assembled"]
+  success_criteria: "Functional quantum research environment, initial research publications, partnerships with academic institutions"
+  failure_modes: ["High infrastructure costs", "Talent acquisition challenges", "Technology obsolescence"]

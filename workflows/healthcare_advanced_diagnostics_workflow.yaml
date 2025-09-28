@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_016_001"
+  title: "Advanced Medical Diagnostics Workflow"
+  department: "Medical Diagnostics"
+  complexity: "high"
+  participants: ["Radiologist", "AI Specialist", "Primary Care Physician", "Patient", "Quality Assurance Lead"]
+  trigger: "Patient presents with complex symptoms requiring advanced imaging and AI analysis"
+  steps:
+    - step: 1
+      actor: "Primary Care Physician"
+      action: "Initial patient assessment and test ordering"
+      tools: ["EHR System", "Diagnostic Protocols"]
+      duration: "45 minutes"
+      outputs: ["Diagnostic order", "Patient consent forms"]
+    - step: 2
+      actor: "Medical Technician"
+      action: "Perform advanced imaging (MRI/CT/PET)"
+      tools: ["Imaging Equipment", "Patient Monitoring Systems"]
+      duration: "90 minutes"
+      outputs: ["Raw imaging data", "Initial quality check"]
+    - step: 3
+      actor: "AI Specialist"
+      action: "AI analysis of imaging data and preliminary report generation"
+      tools: ["AI Diagnostic Platform", "Medical Imaging Software"]
+      duration: "30 minutes"
+      outputs: ["AI-generated diagnostic report", "Confidence scores", "Anomaly flags"]
+    - step: 4
+      actor: "Radiologist"
+      action: "Review AI findings, correlate with patient history, and final diagnosis"
+      tools: ["PACS System", "Medical Literature Database"]
+      duration: "60 minutes"
+      outputs: ["Final diagnostic report", "Treatment recommendations"]
+    - step: 5
+      actor: "Quality Assurance Lead"
+      action: "Audit diagnostic accuracy and system performance"
+      tools: ["Quality Metrics Dashboard", "Audit Logs"]
+      duration: "20 minutes"
+      outputs: ["Quality assurance report", "System improvement recommendations"]
+  success_criteria: "Accurate diagnosis delivered within 24 hours with >95% confidence"
+  failure_modes: ["AI false positives requiring extensive review", "Equipment malfunction delaying diagnosis", "Incomplete patient data affecting accuracy"]

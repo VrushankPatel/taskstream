@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_016_005"
+  title: "Digital Government Service Delivery Workflow"
+  department: "Digital Services"
+  complexity: "high"
+  participants: ["Service Manager", "IT Security Officer", "User Experience Designer", "Backend Developer", "Compliance Officer"]
+  trigger: "New digital service requirement or existing service update"
+  steps:
+    - step: 1
+      actor: "Service Manager"
+      action: "Requirements gathering and stakeholder consultation"
+      tools: ["Requirements Management System", "Stakeholder Survey Tools"]
+      duration: "120 minutes"
+      outputs: ["Service requirements document", "User journey maps", "Success metrics definition"]
+    - step: 2
+      actor: "User Experience Designer"
+      action: "Design user interface and accessibility compliance"
+      tools: ["Design Software", "Accessibility Testing Tools"]
+      duration: "240 minutes"
+      outputs: ["UI/UX wireframes", "Accessibility audit report", "User testing plan"]
+    - step: 3
+      actor: "Backend Developer"
+      action: "Implement secure backend systems and APIs"
+      tools: ["Development Framework", "API Management Platform"]
+      duration: "480 minutes"
+      outputs: ["Functional backend system", "API documentation", "Security testing results"]
+    - step: 4
+      actor: "IT Security Officer"
+      action: "Conduct security assessment and penetration testing"
+      tools: ["Security Scanning Tools", "Vulnerability Assessment Platform"]
+      duration: "180 minutes"
+      outputs: ["Security audit report", "Risk mitigation plan", "Compliance certification"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Final compliance review and service launch approval"
+      tools: ["Compliance Management System", "Regulatory Database"]
+      duration: "90 minutes"
+      outputs: ["Compliance certification", "Launch authorization", "Monitoring plan"]
+  success_criteria: "Service launched within budget and timeline with zero security incidents in first 90 days"
+  failure_modes: ["Regulatory compliance failures delaying launch", "Poor user adoption due to complex design", "Security vulnerabilities discovered post-launch"]

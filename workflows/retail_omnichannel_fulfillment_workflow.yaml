@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_016_003"
+  title: "Omnichannel Retail Fulfillment Workflow"
+  department: "Retail Operations"
+  complexity: "medium"
+  participants: ["Order Management Specialist", "Warehouse Associate", "Store Manager", "Delivery Driver", "Customer Service Rep"]
+  trigger: "Customer places order through any channel (online, in-store, mobile app)"
+  steps:
+    - step: 1
+      actor: "Order Management Specialist"
+      action: "Order validation and inventory allocation"
+      tools: ["OMS System", "Inventory Database"]
+      duration: "10 minutes"
+      outputs: ["Validated order", "Fulfillment strategy", "Inventory reservation"]
+    - step: 2
+      actor: "Warehouse Associate"
+      action: "Pick and pack items using automated systems"
+      tools: ["Warehouse Management System", "Automated Picking Robots"]
+      duration: "25 minutes"
+      outputs: ["Packed order", "Shipping manifest", "Quality check results"]
+    - step: 3
+      actor: "Store Manager"
+      action: "Coordinate in-store pickup or BOPIS fulfillment"
+      tools: ["Store POS System", "Customer Notification App"]
+      duration: "15 minutes"
+      outputs: ["Pickup ready notification", "Store inventory adjustment"]
+    - step: 4
+      actor: "Delivery Driver"
+      action: "Last-mile delivery with real-time tracking"
+      tools: ["Delivery Management App", "GPS Tracking System"]
+      duration: "90 minutes"
+      outputs: ["Delivery confirmation", "Customer signature", "Delivery feedback"]
+    - step: 5
+      actor: "Customer Service Rep"
+      action: "Handle post-delivery support and returns"
+      tools: ["CRM System", "Returns Management Portal"]
+      duration: "30 minutes"
+      outputs: ["Resolution report", "Return processing", "Customer satisfaction survey"]
+  success_criteria: "Order fulfilled within 2 hours for local delivery, 95% customer satisfaction"
+  failure_modes: ["Inventory discrepancies causing order delays", "Last-mile delivery issues from traffic or weather", "Channel integration failures leading to duplicate orders"]

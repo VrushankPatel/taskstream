@@ -1,0 +1,47 @@
+{
+  "scenario_id": "digital_transformation_engagement_q4_2025",
+  "context": "Traditional manufacturing company, 3000 employees, implementing major digital transformation initiative",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "Chief Human Resources Officer"],
+    "influencers": ["Department Heads", "Employee Representatives", "Change Management Team"]
+  },
+  "request": {
+    "amount": "$1.2M",
+    "purpose": "Implement comprehensive employee engagement program for digital transformation",
+    "urgency": "high",
+    "justification": "Ensure successful adoption of new digital tools and processes"
+  },
+  "decision_process": [
+    {
+      "stage": "readiness_assessment",
+      "duration": "3 weeks",
+      "activities": ["Employee surveys", "Skills gap analysis", "Change readiness evaluation"],
+      "outcome": "Identified significant resistance and training needs"
+    },
+    {
+      "stage": "program_design",
+      "duration": "4 weeks",
+      "activities": ["Engagement strategy development", "Training program design", "Communication plan creation"],
+      "outcome": "Comprehensive engagement program designed with multiple touchpoints"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "2 weeks",
+      "activities": ["Pilot program implementation", "Feedback collection", "Program refinement"],
+      "outcome": "Pilot successful with 85% employee satisfaction"
+    },
+    {
+      "stage": "full_rollout",
+      "duration": "8 weeks",
+      "activities": ["Company-wide implementation", "Ongoing support", "Success metrics tracking"],
+      "outcome": "Full program deployed with established monitoring framework"
+    }
+  ],
+  "business_impact": {
+    "adoption_rate": "75% digital tool adoption target",
+    "productivity_gain": "20% efficiency improvement projected",
+    "employee_satisfaction": "15% increase in engagement scores",
+    "risk_factors": ["Resistance to change", "Skills gaps", "Insufficient training resources"]
+  }
+}

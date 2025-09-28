@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_crisis_global_incident"
+  title: "Crisis Management Global Incident Response Workflow"
+  department: "Crisis Management"
+  complexity: "high"
+  participants: ["Crisis Management Director", "Communications Lead", "Legal Counsel", "Operations Teams", "International Partners"]
+  trigger: "Global incident affecting multiple regions or international operations"
+  steps:
+    - step: 1
+      actor: "Crisis Management Director"
+      action: "Activate crisis response team and assess incident scope"
+      tools: ["Crisis Management Platform", "Incident Assessment Tools"]
+      duration: "1 hour"
+      outputs: ["Crisis Activation Notice", "Initial Incident Assessment"]
+    - step: 2
+      actor: "Operations Teams"
+      action: "Implement immediate containment and mitigation measures"
+      tools: ["Operational Response Protocols", "Technical Mitigation Tools"]
+      duration: "4 hours"
+      outputs: ["Containment Actions", "Mitigation Report"]
+      decision_points: ["Containment Strategy", "Resource Allocation"]
+    - step: 3
+      actor: "Communications Lead"
+      action: "Develop and coordinate global communications strategy"
+      tools: ["Communications Platforms", "Stakeholder Databases", "Media Monitoring Tools"]
+      duration: "6 hours"
+      outputs: ["Communications Strategy", "Stakeholder Communications Plan"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Assess legal implications and regulatory reporting requirements"
+      tools: ["Legal Research Tools", "Regulatory Databases", "Contract Review Systems"]
+      duration: "12 hours"
+      outputs: ["Legal Assessment", "Regulatory Reporting Plan"]
+    - step: 5
+      actor: "International Partners"
+      action: "Coordinate with local authorities and international stakeholders"
+      tools: ["International Communication Channels", "Translation Services", "Cultural Adaptation Tools"]
+      duration: "24 hours"
+      outputs: ["International Coordination Report", "Local Authority Communications"]
+    - step: 6
+      actor: "Crisis Management Director"
+      action: "Conduct post-incident review and implement lessons learned"
+      tools: ["Incident Review Frameworks", "Process Improvement Tools"]
+      duration: "1 week"
+      outputs: ["Post-Incident Report", "Process Improvement Recommendations"]
+  success_criteria: "Effective global incident response with minimized impact and comprehensive stakeholder communication"
+  failure_modes: ["Delayed response activation", "Inadequate communication", "Regulatory non-compliance", "Insufficient international coordination"]

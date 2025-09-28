@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_004"
+  title: "Competency-Based Assessment System Implementation"
+  department: "Academic Affairs"
+  complexity: "high"
+  participants: ["Dean of Education", "Assessment Director", "Faculty Leads", "IT Administrator", "Student Affairs Representative"]
+  trigger: "Shift to competency-based education model for improved student outcomes"
+  steps:
+    - step: 1
+      actor: "Assessment Director"
+      action: "Define competency frameworks for each program and course"
+      tools: ["Curriculum mapping software", "Industry standards databases"]
+      duration: "4 weeks"
+      outputs: ["Competency framework documents"]
+    - step: 2
+      actor: "Faculty Leads"
+      action: "Design assessment rubrics and learning activities aligned to competencies"
+      decision_points: ["Assessment types (projects vs. exams)", "Competency progression levels"]
+      duration: "6 weeks"
+      outputs: ["Assessment design templates"]
+    - step: 3
+      actor: "IT Administrator"
+      action: "Develop digital assessment platform with progress tracking"
+      tools: ["Learning management system", "Assessment software", "Database systems"]
+      duration: "8 weeks"
+      outputs: ["Digital assessment platform"]
+    - step: 4
+      actor: "Student Affairs Representative"
+      action: "Create student support resources and progress monitoring procedures"
+      tools: ["Student success software", "Advising tools"]
+      duration: "3 weeks"
+      outputs: ["Student support framework"]
+    - step: 5
+      actor: "Faculty Leads"
+      action: "Pilot assessment system in select courses and gather feedback"
+      tools: ["Survey tools", "Focus group facilitation"]
+      duration: "1 semester"
+      outputs: ["Pilot evaluation report"]
+    - step: 6
+      actor: "Dean of Education"
+      action: "Review pilot results and approve full implementation rollout"
+      tools: ["Data analytics dashboard", "Stakeholder feedback reports"]
+      duration: "2 weeks"
+      outputs: ["Implementation rollout plan"]
+  success_criteria: "80% student competency mastery rates and positive faculty/staff feedback"
+  failure_modes: ["Inadequate faculty training", "Technology adoption challenges", "Assessment validity concerns"]

@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_002"
+  title: "Industrial IoT Implementation Process"
+  department: "Manufacturing Operations"
+  complexity: "high"
+  participants: ["Operations Director", "IT Manager", "Equipment Engineers", "IoT Solution Provider", "Safety Officer"]
+  trigger: "Identified opportunity for predictive maintenance and process optimization"
+  steps:
+    - step: 1
+      actor: "Operations Director"
+      action: "Assess current equipment and identify IoT integration candidates"
+      tools: ["Equipment inventory database", "Process flow diagrams"]
+      duration: "2 weeks"
+      outputs: ["IoT readiness assessment"]
+    - step: 2
+      actor: "IT Manager"
+      action: "Evaluate network infrastructure and security requirements"
+      decision_points: ["Edge computing vs. cloud deployment", "Data transmission protocols"]
+      duration: "1 week"
+      outputs: ["Technical architecture plan"]
+    - step: 3
+      actor: "Equipment Engineers"
+      action: "Select and install IoT sensors on pilot equipment"
+      tools: ["Sensor installation kits", "Calibration tools"]
+      duration: "3 weeks"
+      outputs: ["Pilot installation report"]
+    - step: 4
+      actor: "IoT Solution Provider"
+      action: "Configure data collection platform and analytics dashboard"
+      tools: ["IoT platform software", "Data visualization tools"]
+      duration: "4 weeks"
+      outputs: ["Configured IoT platform"]
+    - step: 5
+      actor: "Safety Officer"
+      action: "Conduct safety review and update procedures for IoT-enabled equipment"
+      tools: ["Safety assessment checklists", "Procedure documentation"]
+      duration: "1 week"
+      outputs: ["Updated safety procedures"]
+    - step: 6
+      actor: "Operations Director"
+      action: "Roll out to additional equipment and monitor performance improvements"
+      tools: ["Performance monitoring dashboard", "ROI tracking tools"]
+      duration: "Ongoing"
+      outputs: ["Implementation expansion plan"]
+  success_criteria: "15% reduction in unplanned downtime and 25% improvement in OEE"
+  failure_modes: ["Network connectivity issues", "Sensor reliability problems", "Integration with legacy systems"]

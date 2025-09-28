@@ -32,6 +32,22 @@ workflow:
       outputs: ["Settlement approval", "Payment confirmation"]
   success_criteria: "Claims processed within 48 hours, Automation rate >70%, Customer satisfaction >90%"
   failure_modes: ["System integration issues", "Manual override requirements", "Data quality problems", "Regulatory compliance gaps"]
+  performance_metrics:
+    - "Processing time: Average <24 hours for standard claims, <72 hours for complex claims"
+    - "Automation rate: >75% of claims fully automated, >90% partially automated"
+    - "Accuracy rate: >98% automated decision accuracy, <2% error rate requiring manual correction"
+    - "Customer satisfaction: >92% satisfaction score, <48 hour first notification"
+    - "Cost efficiency: 40% reduction in claims processing costs, $15 per claim average"
+    - "Fraud detection: >85% suspicious claims flagged, <1% false positive rate"
+    - "Regulatory compliance: 100% audit compliance, <0.1% regulatory violations"
+    - "System uptime: >99.9% platform availability, <4 hours monthly downtime"
+  kpis:
+    - "Monthly claims volume capacity: 50,000 claims processed"
+    - "Average cost per claim: <$18 (target <$15)"
+    - "Straight-through processing rate: >70%"
+    - "Customer communication timeliness: 95% within 1 hour of filing"
+    - "Claims leakage reduction: >25% from manual processes"
+    - "Underwriting data quality improvement: >90% complete records"
   metrics:
     - "Average processing time: Target <48 hours"
     - "Automation success rate: Target >70%"

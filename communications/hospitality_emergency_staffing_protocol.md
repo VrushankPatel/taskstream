@@ -117,7 +117,154 @@ Downtown property team is prepared. We've identified 25 essential staff members 
 
 Ready for the 4 PM call.
 
-Robert Kim  
-General Manager  
-Downtown Grand Hotel  
+Robert Kim
+General Manager
+Downtown Grand Hotel
 robert.kim@hospitalitygroup.com
+
+---
+
+**From:** Operations Director
+**To:** Human Resources Director, All Hotel General Managers
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
+
+Team,
+
+Following our 4 PM conference call, here are the finalized emergency staffing assignments and procedures:
+
+**Emergency Command Structure:**
+- Incident Commander: Jennifer Walsh (HR Director)
+- Operations Lead: Mark Thompson (Operations Director)
+- Communications Coordinator: Sarah Chen (Marketing Director)
+
+**Property-Specific Staffing Levels:**
+- Downtown Grand: 25 essential staff (security enhanced due to urban risks)
+- Airport Plaza: 18 essential staff (transportation focus)
+- Resort Gardens: 22 essential staff (guest activity coordination)
+- Suburban Suites: 15 essential staff (minimal weather impact expected)
+
+**Communication Protocols:**
+1. Status updates every 4 hours via dedicated Slack channel
+2. Emergency alerts via text messaging system
+3. Guest notifications through mobile app and email
+4. Media relations handled centrally by corporate communications
+
+**Resource Allocation:**
+- Emergency generators tested and fueled at all locations
+- Backup water and food supplies stocked for 72 hours
+- Medical supplies and first aid kits verified
+- Transportation coordination with local emergency services
+
+**Post-Event Procedures:**
+1. Staff debriefing sessions within 24 hours
+2. Guest satisfaction surveys sent automatically
+3. Equipment and facility damage assessments
+4. Recognition program for outstanding performance
+
+Please acknowledge receipt and confirm your property's emergency contact roster is updated. Stay vigilant and prioritize safety.
+
+Mark Thompson
+Operations Director
+mark.thompson@hospitalitygroup.com
+
+---
+
+**From:** Human Resources Director
+**To:** Operations Director, All Hotel General Managers, Department Heads
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
+
+Mark,
+
+Excellent coordination on the command structure. I've updated the emergency contact database with all assignments.
+
+**Additional Support Measures Activated:**
+- Employee assistance hotline: 1-800-555-0123 (24/7)
+- Family communication support for stranded staff
+- Flexible scheduling for post-event recovery
+- Mental health resources through our EAP partner
+
+**Weather Monitoring Update:**
+- Storm track confirmed, landfall expected 2 AM
+- Wind speeds: 45-65 mph sustained
+- Precipitation: 6-10 inches expected
+- Power outage probability: 40% in urban areas
+
+**Guest Safety Protocols:**
+- Early check-outs encouraged for at-risk guests
+- Emergency shelter designation for guests unable to depart
+- Medical emergency coordination with local hospitals
+- Pet-friendly emergency accommodations identified
+
+Let's maintain close communication throughout the event. Our priority is the safety and well-being of our guests and team members.
+
+Jennifer Walsh
+Human Resources Director
+jennifer.walsh@hospitalitygroup.com
+
+---
+
+**From:** General Manager - Resort Gardens
+**To:** Human Resources Director, Operations Director, All General Managers
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
+
+Jennifer and Mark,
+
+Resort Gardens team is fully prepared. We've implemented additional measures for our guest-centric operations:
+
+**Guest Experience During Event:**
+- Indoor activity programming for confined guests
+- Special meal service arrangements
+- Wellness center converted to emergency relaxation space
+- Pet care services for guest animals
+
+**Staff Welfare Measures:**
+- On-site childcare arrangements for staff with families
+- Entertainment systems set up in staff quarters
+- Recognition points program for emergency duty
+- Post-event spa treatments as recovery benefit
+
+**Environmental Considerations:**
+- Generator power management to minimize fuel consumption
+- Water conservation protocols activated
+- Waste management during limited service hours
+
+Our 22 essential staff members are in position and ready. Resort operations will continue with modified service levels to ensure guest comfort.
+
+Maria Rodriguez
+General Manager
+Resort Gardens Hotel
+maria.rodriguez@hospitalitygroup.com
+
+---
+
+**From:** Corporate Communications
+**To:** Human Resources Director, Operations Director, All General Managers
+**Subject:** Media and Guest Communications Plan - Emergency Staffing Protocol
+
+Team,
+
+As communications coordinator for this event, I've prepared the following messaging framework:
+
+**Guest Communications:**
+- Proactive email notifications sent to all reservations
+- Mobile app alerts with real-time updates
+- Website banner with emergency information
+- Social media posts with safety tips and status updates
+
+**Media Relations:**
+- Press release prepared for distribution if needed
+- Designated spokespeople identified (Jennifer, Mark, Robert)
+- Media monitoring system activated
+- Crisis communication training refreshed for key personnel
+
+**Internal Communications:**
+- Staff newsletter with safety reminders
+- Family communication templates for staff
+- Vendor notification protocols activated
+- Emergency contact cards distributed to all staff
+
+Please ensure your teams are following the approved messaging templates. Consistency is crucial during crisis situations.
+
+Sarah Chen
+Director of Corporate Communications
+sarah.chen@hospitalitygroup.com

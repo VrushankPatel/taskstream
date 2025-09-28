@@ -86,16 +86,114 @@
 - Geographic distribution: 20 hotels across 4 areas
 - Service hours: 24/7 coverage at all properties
 
-## Key Performance Indicators
-- Guest satisfaction score: >90%
-- Check-in time: <3 minutes
-- Room readiness: >98%
-- Service recovery success: >95%
-- Staff retention: >85%
+## Detailed Role Responsibilities
 
-## Decision-Making Authority
-- Service decisions: Front line staff ($0-$100 impact)
-- Operational decisions: Supervisors/Managers ($100-$1,000 impact)
-- Policy decisions: Area Directors ($1,000-$10,000 impact)
-- Strategic decisions: Executive level ($10,000+ impact)
-- Emergency decisions: Designated incident response team
+### Executive Leadership
+**Director of Guest Services Operations**
+- Strategic planning for guest experience enhancement
+- Budget management for service operations ($25M annual)
+- Technology roadmap development for service automation
+- Cross-functional collaboration with marketing and operations
+- Crisis management coordination for service disruptions
+- Performance benchmarking against industry standards
+- Staff development and succession planning
+
+### Area Management
+**Area Guest Services Manager**
+- Multi-property performance optimization
+- Staff recruitment and development programs
+- Quality assurance program implementation
+- Budget allocation across properties ($2-3M per area)
+- Emergency response coordination
+- Vendor relationship management for service providers
+- Monthly performance reviews and improvement planning
+
+### Hotel Operations
+**Hotel Operations Manager**
+- Daily service delivery coordination
+- Guest feedback analysis and action planning
+- Staff scheduling and labor cost management
+- Service quality incident management
+- Maintenance coordination with engineering
+- Inventory management for service supplies
+- Monthly financial performance reporting
+
+## Key Performance Indicators
+
+### Service Quality Metrics
+- Guest satisfaction score: >90% (measured via post-stay surveys)
+- Net Promoter Score: >40 (industry benchmark)
+- Service recovery success rate: >95%
+- First contact resolution: >85%
+- Response time to guest requests: <5 minutes
+
+### Operational Efficiency
+- Check-in time: <3 minutes average
+- Room readiness rate: >98%
+- Housekeeping efficiency: <25 minutes per room
+- Front desk occupancy: >85% utilization
+- Lost and found recovery: >90%
+
+### Financial Performance
+- Revenue per available room contribution: $15-25
+- Labor cost as % of revenue: <25%
+- Service upgrade revenue: $2-3 per occupied room
+- Guest retention rate: >35%
+- Repeat guest revenue premium: >15%
+
+### Staff Performance
+- Staff retention rate: >85%
+- Training completion rate: >95%
+- Performance review completion: 100%
+- Employee satisfaction score: >80%
+- Safety incident rate: <0.5 per 100,000 hours
+
+## Decision-Making Authority Matrix
+
+### Service Recovery Decisions
+- **Front Line Staff**: $0-$250 impact (immediate service corrections)
+- **Supervisors**: $250-$1,000 impact (service upgrades, compensation)
+- **Managers**: $1,000-$5,000 impact (policy exceptions, major recoveries)
+- **Area Directors**: $5,000-$25,000 impact (systemic service improvements)
+- **Executive Level**: $25,000+ impact (policy changes, major investments)
+
+### Operational Decisions
+- **Daily Operations**: Hotel managers ($0-$500/hourly adjustments)
+- **Staffing Changes**: Area managers ($500-$2,000 permanent changes)
+- **Equipment Purchases**: Area managers ($2,000-$10,000 service equipment)
+- **Process Changes**: Executive level ($10,000+ operational redesign)
+
+### Strategic Decisions
+- **Service Standards**: Executive level (brand positioning, quality frameworks)
+- **Technology Investments**: Executive level ($50K+ service automation)
+- **Market Expansion**: Executive level (new property service models)
+- **Partnership Agreements**: Executive level (vendor contracts, alliances)
+
+## Escalation Procedures
+
+### Service Incident Response
+1. **Immediate Response** (0-5 minutes): Front line resolution attempt
+2. **Supervisor Involvement** (5-15 minutes): Quality assurance review
+3. **Manager Escalation** (15-60 minutes): Guest compensation decisions
+4. **Executive Notification** (1-4 hours): Major incident management
+5. **Post-Incident Review** (24-48 hours): Root cause analysis and prevention
+
+### Emergency Decision Framework
+- **Code Red**: Immediate executive activation (life safety, property damage)
+- **Code Orange**: Area manager response (service disruption, guest safety)
+- **Code Yellow**: Hotel manager handling (operational issues, minor incidents)
+- **Code Green**: Standard operations (routine service delivery)
+
+## Technology Integration
+
+### Digital Tools
+- **Guest Experience Platform**: Centralized feedback and service request management
+- **Mobile Staff App**: Real-time task assignment and communication
+- **Service Automation**: Chatbots, automated check-in, smart room controls
+- **Analytics Dashboard**: Real-time KPI monitoring and trend analysis
+
+### Training and Development
+- **Certification Programs**: Service excellence, leadership development
+- **Cross-Training Matrix**: Multi-skill development for flexibility
+- **Performance Coaching**: Individual development plans
+- **Succession Planning**: Leadership pipeline development

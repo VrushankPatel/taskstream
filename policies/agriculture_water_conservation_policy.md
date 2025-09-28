@@ -122,6 +122,25 @@ Applies to all agricultural operations including crop farming, livestock operati
 - Groundwater management district regulations
 - Endangered Species Act considerations
 
+### Enforcement Mechanisms
+1. **Internal Audits**
+   - Quarterly water use compliance reviews
+   - Annual comprehensive water management audits
+   - Random sampling of irrigation system efficiency
+   - Third-party verification for large operations (>500 acres)
+
+2. **Corrective Actions**
+   - Immediate shutdown of non-compliant irrigation systems
+   - Mandatory training for violations
+   - Equipment upgrades required within 30 days of identified issues
+   - Financial penalties for repeated non-compliance ($500-$5,000 per incident)
+
+3. **Monitoring Technology**
+   - Real-time flow meters on all major irrigation lines
+   - Automated alerts for unusual water usage patterns
+   - Satellite imagery for irrigation uniformity assessment
+   - IoT sensors for soil moisture and weather monitoring
+
 ### Certification Programs
 1. **Voluntary Standards**
    - USDA Natural Resources Conservation Service standards
@@ -134,6 +153,25 @@ Applies to all agricultural operations including crop farming, livestock operati
    - Annual compliance reporting
    - Corrective action documentation
    - Continuous improvement requirements
+
+### Performance Metrics and Targets
+1. **Water Use Efficiency**
+   - Irrigation efficiency: >85% (measured by distribution uniformity)
+   - Water use per acre: <2 acre-feet per acre annually
+   - Groundwater level decline: <0.5 feet per year
+   - Return flow quality: <10 mg/L nitrates
+
+2. **Compliance Rates**
+   - Audit compliance: >98% pass rate
+   - Regulatory reporting accuracy: >99%
+   - Equipment maintenance completion: >95%
+   - Staff training completion: >90%
+
+3. **Environmental Impact**
+   - Agricultural runoff reduction: >70% from baseline
+   - Wetland health improvement: >20% biodiversity increase
+   - Riparian zone vegetation cover: >80% native species
+   - Wildlife habitat preservation: >95% protected areas maintained
 
 ## Roles and Responsibilities
 

@@ -2,9 +2,58 @@
   "scenario_id": "insurance_cyber_liability_coverage_expansion_2025",
   "context": "Property and casualty insurance company expanding into cyber liability coverage amid rising cyber threats and regulatory requirements",
   "stakeholders": {
-    "requester": "VP Underwriting",
-    "approvers": ["Chief Underwriter", "CFO", "CEO"],
-    "influencers": ["Risk Manager", "Product Development Director", "Claims Manager"]
+    "requester": {
+      "title": "VP Underwriting",
+      "position": "Supports expansion to diversify product portfolio and capture growing cyber market",
+      "concerns": "Underwriting expertise development, claims handling capacity",
+      "influence_level": "high"
+    },
+    "approvers": [
+      {
+        "title": "Chief Underwriter",
+        "position": "Approves underwriting guidelines and risk acceptance criteria",
+        "concerns": "Loss ratio projections, reinsurance arrangements",
+        "decision_weight": "critical"
+      },
+      {
+        "title": "CFO",
+        "position": "Evaluates financial viability and capital allocation",
+        "concerns": "ROI timeline, capital requirements, earnings impact",
+        "decision_weight": "critical"
+      },
+      {
+        "title": "CEO",
+        "position": "Strategic alignment with company growth objectives",
+        "concerns": "Market positioning, competitive advantage, regulatory compliance",
+        "decision_weight": "final"
+      }
+    ],
+    "influencers": [
+      {
+        "title": "Risk Manager",
+        "position": "Assesses enterprise risk exposure and mitigation strategies",
+        "input": "Cyber risk modeling, catastrophe scenarios, risk appetite alignment",
+        "influence_level": "high"
+      },
+      {
+        "title": "Product Development Director",
+        "position": "Designs product features and market positioning",
+        "input": "Customer needs analysis, competitive benchmarking, pricing strategy",
+        "influence_level": "high"
+      },
+      {
+        "title": "Claims Manager",
+        "position": "Evaluates claims handling requirements and costs",
+        "input": "Claims process design, vendor partnerships, loss adjustment expenses",
+        "influence_level": "medium"
+      },
+      {
+        "title": "Compliance Officer",
+        "position": "Ensures regulatory compliance and reporting requirements",
+        "input": "Insurance regulation compliance, data privacy laws, reporting frameworks",
+        "influence_level": "medium"
+      }
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -33,9 +82,60 @@
     }
   ],
   "business_impact": {
-    "expected_outcome": "New revenue stream generating $25M annually within 3 years, expanded market share in commercial lines",
-    "projected_value": "$75,000,000 cumulative revenue over 5 years",
-    "risk_factors": ["Underwriting losses from new risk class", "Regulatory changes", "Competitive market entry", "Claims handling complexity"]
+    "financial_projections": {
+      "year_1_revenue": "$3,500,000",
+      "year_2_revenue": "$12,000,000",
+      "year_3_revenue": "$25,000,000",
+      "cumulative_5_year": "$85,000,000",
+      "profit_margin": "18-22%",
+      "roi_timeline": "24 months",
+      "capital_investment": "$1,200,000 initial + $800,000 annual"
+    },
+    "market_impact": {
+      "market_share_gain": "3.2% in cyber liability segment",
+      "customer_acquisition": "450 new commercial clients",
+      "cross_sell_opportunities": "25% increase in multi-line policies",
+      "brand_positioning": "Technology-forward insurer reputation"
+    },
+    "operational_impact": {
+      "staffing_requirements": "12 new underwriters, 8 claims specialists",
+      "technology_investments": "$2.1M in cyber risk modeling platform",
+      "training_programs": "200 staff members certified in cyber underwriting",
+      "vendor_partnerships": "3 cybersecurity firms for risk assessment"
+    },
+    "strategic_benefits": {
+      "diversification": "Reduced correlation with traditional P&C lines",
+      "growth_platform": "Foundation for additional cyber products",
+      "data_assets": "Enhanced cyber risk intelligence capabilities",
+      "partnerships": "Strategic alliances with cybersecurity providers"
+    },
+    "risk_assessment": {
+      "underwriting_risk": {
+        "severity": "high",
+        "probability": "medium",
+        "mitigation": "Conservative pricing, reinsurance treaties, loss control programs"
+      },
+      "regulatory_risk": {
+        "severity": "medium",
+        "probability": "low",
+        "mitigation": "Compliance framework, legal review, industry association participation"
+      },
+      "market_risk": {
+        "severity": "medium",
+        "probability": "high",
+        "mitigation": "Pilot testing, phased rollout, competitive monitoring"
+      },
+      "operational_risk": {
+        "severity": "medium",
+        "probability": "medium",
+        "mitigation": "Staff training, process documentation, technology safeguards"
+      }
+    },
+    "success_metrics": {
+      "financial": ["20% profit margin achievement", "Positive ROI within 2 years"],
+      "operational": ["<5% claims leakage", ">90% customer satisfaction"],
+      "strategic": ["3% market share gain", "Cross-sell ratio >25%"]
+    }
   },
   "decision_criteria": ["Market demand validation", "Risk assessment accuracy", "Regulatory compliance", "Competitive differentiation", "Profitability projections"],
   "outcome": "Approved",

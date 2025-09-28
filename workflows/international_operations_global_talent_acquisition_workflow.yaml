@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_international_operations_global_talent_acquisition"
+  title: "International Operations Global Talent Acquisition"
+  department: "HR"
+  complexity: "medium"
+  participants: ["Global HR Director", "Talent Acquisition Managers", "Regional HR Partners", "Legal Counsel", "Diversity Officer"]
+  trigger: "Global expansion requiring skilled workforce in multiple markets"
+  steps:
+    - step: 1
+      actor: "Global HR Director"
+      action: "Define talent requirements and market analysis for target regions"
+      tools: ["Talent market research tools", "Skills gap analysis software"]
+      duration: "4 weeks"
+      outputs: ["Talent requirements document", "Market analysis report"]
+    - step: 2
+      actor: "Talent Acquisition Managers"
+      action: "Develop global recruitment strategy and employer branding"
+      tools: ["Recruitment platform management", "Employer branding tools"]
+      duration: "6 weeks"
+      outputs: ["Global recruitment strategy", "Employer branding materials"]
+    - step: 3
+      actor: "Regional HR Partners"
+      action: "Establish local recruitment processes and partnerships"
+      tools: ["Local recruitment databases", "University partnership programs"]
+      duration: "8 weeks"
+      outputs: ["Local recruitment processes", "Partnership agreements"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Ensure compliance with international employment laws"
+      tools: ["Legal compliance databases", "Employment law resources"]
+      duration: "4 weeks"
+      outputs: ["Compliance checklists", "Legal risk assessments"]
+    - step: 5
+      actor: "Diversity Officer"
+      action: "Implement inclusive hiring practices and diversity goals"
+      tools: ["Diversity tracking systems", "Inclusive hiring training"]
+      duration: "3 weeks"
+      outputs: ["Diversity hiring guidelines", "Inclusion training programs"]
+    - step: 6
+      actor: "Talent Acquisition Managers"
+      action: "Execute recruitment campaigns and candidate assessment"
+      tools: ["Applicant tracking systems", "Assessment tools"]
+      duration: "Ongoing"
+      outputs: ["Candidate pipelines", "Assessment results"]
+    - step: 7
+      actor: "Global HR Director"
+      action: "Monitor recruitment effectiveness and adjust strategies"
+      tools: ["Recruitment analytics", "Performance dashboards"]
+      duration: "Ongoing"
+      outputs: ["Recruitment metrics reports", "Strategy adjustments"]
+  success_criteria: "Key positions filled within target timelines, diverse talent pool established, compliance maintained"
+  failure_modes: ["Talent shortages in key markets", "Regulatory compliance issues", "Cultural adaptation challenges", "High turnover rates"]
+  metrics:
+    - "Time to fill positions: <60 days average"
+    - "Offer acceptance rate: 70%+"
+    - "Diversity hiring rate: 40%+"
+    - "Compliance audit score: 100%"

@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_advanced_robotics_human_robot_safety_integration"
+  title: "Advanced Robotics Human-Robot Safety Integration"
+  department: "Manufacturing"
+  complexity: "complex"
+  participants: ["Safety Director", "Robotics Engineer", "HR Manager", "Production Manager", "Compliance Officer"]
+  trigger: "New robotics deployment requiring human-robot collaboration"
+  steps:
+    - step: 1
+      actor: "Safety Director"
+      action: "Conduct comprehensive safety risk assessment for human-robot interaction"
+      tools: ["Risk assessment frameworks", "Safety standards databases"]
+      duration: "3 weeks"
+      outputs: ["Safety risk assessment report", "Risk mitigation plan"]
+    - step: 2
+      actor: "Robotics Engineer"
+      action: "Design safety systems including sensors, barriers, and emergency stops"
+      tools: ["CAD design software", "Safety system simulation tools"]
+      duration: "4 weeks"
+      outputs: ["Safety system specifications", "Integration design documents"]
+    - step: 3
+      actor: "HR Manager"
+      action: "Develop training programs for human-robot collaboration"
+      tools: ["Training curriculum development tools", "Safety training modules"]
+      duration: "2 weeks"
+      outputs: ["Training program materials", "Certification requirements"]
+    - step: 4
+      actor: "Production Manager"
+      action: "Modify production layouts for safe human-robot interaction zones"
+      tools: ["Facility layout software", "Ergonomics assessment tools"]
+      duration: "3 weeks"
+      outputs: ["Modified layout plans", "Zone demarcation specifications"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Ensure compliance with OSHA and ISO safety standards"
+      tools: ["Regulatory compliance databases", "Audit preparation tools"]
+      duration: "2 weeks"
+      outputs: ["Compliance documentation", "Audit preparation reports"]
+    - step: 6
+      actor: "Safety Director"
+      action: "Implement and test safety systems in pilot areas"
+      tools: ["Safety testing equipment", "Performance monitoring systems"]
+      duration: "2 weeks"
+      outputs: ["Pilot test results", "Safety system validation reports"]
+    - step: 7
+      actor: "Cross-functional team"
+      action: "Roll out safety protocols across all robotics installations"
+      tools: ["Change management frameworks", "Training tracking systems"]
+      duration: "4 weeks"
+      outputs: ["Implementation completion report", "Ongoing monitoring plan"]
+  success_criteria: "Zero safety incidents during implementation, 100% staff training completion, full regulatory compliance"
+  failure_modes: ["Technical safety system failures", "Training non-compliance", "Layout integration issues", "Regulatory non-compliance"]
+  metrics:
+    - "Safety incident rate: 0 during implementation"
+    - "Training completion rate: 100%"
+    - "System uptime: 95%"
+    - "Compliance audit score: 100%"

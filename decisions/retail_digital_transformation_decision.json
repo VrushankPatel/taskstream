@@ -1,0 +1,43 @@
+{
+  "scenario_id": "retail_digital_transformation_decision",
+  "context": "Mid-sized retail chain evaluating comprehensive digital transformation to compete with e-commerce giants",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Marketing Officer", "Chief Technology Officer", "Store Operations Director"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Omnichannel platform implementation, mobile app development, and data analytics infrastructure",
+    "urgency": "high",
+    "justification": "Market share erosion to online competitors, customer experience expectations"
+  },
+  "decision_process": [
+    {
+      "stage": "digital_audit",
+      "duration": "2 months",
+      "activities": ["Current state assessment", "Competitive analysis", "Technology gap identification"],
+      "outcome": "Identified critical gaps in mobile and data capabilities"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "1 month",
+      "activities": ["Vendor evaluations", "ROI modeling", "Implementation planning"],
+      "outcome": "Selected integrated omnichannel platform with 3-year payback"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "3 months",
+      "activities": ["Limited rollout in 5 stores", "User acceptance testing", "Performance monitoring"],
+      "outcome": "Successful pilot with 40% increase in digital sales"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% increase in online sales, 15% improvement in customer satisfaction, 30% reduction in operational costs",
+    "projected_value": "$45 million NPV over 5 years",
+    "risk_factors": ["Implementation delays", "Employee resistance", "Technology integration challenges"]
+  },
+  "decision_criteria": ["Financial return", "Customer experience improvement", "Operational efficiency", "Competitive positioning"],
+  "outcome": "Approved with phased implementation",
+  "lessons_learned": "Employee training and change management critical for retail digital transformation success"
+}

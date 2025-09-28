@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_retail_customer_service_simple"
+  title: "Retail Customer Service Inquiry Process"
+  department: "Customer Service"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Customer"]
+  trigger: "Customer contacts store or calls support line"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Greet customer and identify inquiry type"
+      tools: ["CRM System", "Product Database"]
+      duration: "2 minutes"
+      outputs: ["Inquiry classification", "Customer information"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Provide information or resolve issue"
+      tools: ["Knowledge Base", "Inventory System"]
+      duration: "5 minutes"
+      outputs: ["Resolution provided", "Follow-up actions if needed"]
+  success_criteria: "Customer inquiry resolved within 10 minutes"
+  failure_modes: ["System outage", "Complex issues requiring escalation"]
+  metrics:
+    - "Average resolution time: Target <7 minutes"
+    - "First contact resolution rate: Target >85%"
+    - "Customer satisfaction score: Target >4.5/5"

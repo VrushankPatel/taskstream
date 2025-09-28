@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_insurance_policy_quote"
+  title: "Insurance Policy Quote Generation Process"
+  department: "Underwriting"
+  complexity: "medium"
+  participants: ["Insurance Agent", "Underwriter", "Customer"]
+  trigger: "Customer requests insurance quote"
+  steps:
+    - step: 1
+      actor: "Insurance Agent"
+      action: "Gather customer information and coverage needs"
+      tools: ["Customer Portal", "Application Form"]
+      duration: "10 minutes"
+      outputs: ["Customer profile completed", "Coverage requirements documented"]
+    - step: 2
+      actor: "Insurance Agent"
+      action: "Input data into rating system and generate preliminary quote"
+      tools: ["Rating Engine", "Underwriting Guidelines"]
+      duration: "5 minutes"
+      outputs: ["Preliminary quote generated", "Risk assessment initiated"]
+    - step: 3
+      actor: "Underwriter"
+      action: "Review quote for accuracy and risk acceptability"
+      decision_points: ["Risk classification", "Premium adjustments"]
+      duration: "15 minutes"
+      outputs: ["Quote approved or adjusted", "Underwriting notes"]
+    - step: 4
+      actor: "Insurance Agent"
+      action: "Present final quote to customer and answer questions"
+      tools: ["Quote Presentation Tool"]
+      duration: "10 minutes"
+      outputs: ["Quote delivered", "Customer feedback recorded"]
+  success_criteria: "Quote delivered within 24 hours with competitive pricing"
+  failure_modes: ["Incomplete customer information", "System technical issues", "Complex risk scenarios"]
+  metrics:
+    - "Quote turnaround time: Target <24 hours"
+    - "Quote acceptance rate: Target >25%"
+    - "Quote accuracy: Target >98%"

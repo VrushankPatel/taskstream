@@ -1,0 +1,54 @@
+{
+  "scenario_id": "healthcare_genomics_gene_therapy_investment_implementation_2025",
+  "context": "Global pharmaceutical company, 15000 employees, evaluating major investment in gene therapy platform for rare diseases",
+  "stakeholders": {
+    "requester": "VP Research & Development",
+    "approvers": ["CEO", "CFO", "Chief Medical Officer", "Board of Directors"],
+    "influencers": ["Head of Regulatory Affairs", "VP Commercial", "Patient Advocacy Groups", "Key Opinion Leaders"]
+  },
+  "request": {
+    "amount": "$750M",
+    "purpose": "Build integrated gene therapy platform including R&D, manufacturing, and commercialization capabilities",
+    "urgency": "high",
+    "justification": "Gene therapy represents transformative opportunity in rare disease treatment with $50B+ market potential and first-mover advantage"
+  },
+  "decision_process": [
+    {
+      "stage": "strategic_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Market analysis", "Competitive landscape assessment", "Technology feasibility review"],
+      "outcome": "Confirmed strong strategic fit with significant market opportunity"
+    },
+    {
+      "stage": "technical_due_diligence",
+      "duration": "6 weeks",
+      "activities": ["Scientific validation", "IP landscape analysis", "Technical risk assessment"],
+      "outcome": "Technology validated with manageable risks and strong IP position"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Sensitivity analysis"],
+      "outcome": "Projected 15% IRR with break-even in 7 years"
+    },
+    {
+      "stage": "regulatory_pathway",
+      "duration": "6 weeks",
+      "activities": ["Regulatory strategy development", "Clinical trial design", "Approval pathway mapping"],
+      "outcome": "Clear regulatory pathway with accelerated approval potential"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "3 weeks",
+      "activities": ["Board presentation", "Stakeholder alignment", "Final stakeholder alignment"],
+      "outcome": "Approved with phased investment approach and key performance milestones"
+    }
+  ],
+  "business_impact": {
+    "financial_impact": "Expected $2B revenue contribution by 2030 with significant R&D tax credits",
+    "market_position": "First-mover advantage in gene therapy with potential for 15% market share",
+    "capability_building": "Advanced genomic medicine capabilities and specialized manufacturing expertise",
+    "risk_factors": ["Clinical trial failures", "Regulatory delays", "Manufacturing scalability challenges", "Market adoption uncertainty"]
+  },
+  "decision_outcome": "Approved $750M investment with phased rollout: $300M initial platform development, $250M clinical programs, $200M manufacturing capabilities; additional $50M allocated for regulatory and market access strategies"
+}

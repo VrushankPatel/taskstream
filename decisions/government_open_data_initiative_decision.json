@@ -1,0 +1,43 @@
+{
+  "scenario_id": "government_open_data_initiative",
+  "context": "Federal government agency evaluating implementation of comprehensive open data initiative for public transparency and innovation",
+  "stakeholders": {
+    "requester": "Chief Data Officer",
+    "approvers": ["Agency Secretary", "Chief Information Officer", "Chief Privacy Officer"],
+    "influencers": ["Public Affairs Director", "Legal Counsel", "IT Director"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Development and deployment of open data platform and data publishing infrastructure",
+    "urgency": "high",
+    "justification": "Enhance government transparency and enable public sector innovation through data accessibility"
+  },
+  "decision_process": [
+    {
+      "stage": "data_inventory",
+      "duration": "10 weeks",
+      "activities": ["Data asset cataloging", "Privacy impact assessment", "Public value evaluation"],
+      "outcome": "Identified high-value datasets suitable for public release"
+    },
+    {
+      "stage": "platform_design",
+      "duration: "8 weeks",
+      "activities": ["Technical architecture design", "API development planning", "Security framework establishment"],
+      "outcome": "Comprehensive platform design balancing accessibility with security"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "6 weeks",
+      "activities": ["Limited dataset publication", "User feedback collection", "Performance monitoring"],
+      "outcome": "Successful pilot demonstrating platform viability and public interest"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Publish 80% of eligible government datasets and achieve 40% increase in public engagement",
+    "projected_value": "$12,000,000 in economic value through innovation and efficiency gains",
+    "risk_factors": ["Privacy breaches from data release", "Technical implementation challenges", "Limited public adoption", "Resource constraints"]
+  },
+  "decision_criteria": ["Privacy and security compliance", "Technical scalability", "Public value creation", "Cost-benefit analysis", "Stakeholder support"],
+  "outcome": "Approved",
+  "lessons_learned": "Importance of comprehensive privacy reviews and phased implementation for government data initiatives"
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "biotech_gene_editing_regulatory_approval_q1_2026",
+  "context": "Biotechnology company developing CRISPR-based therapy for genetic blood disorder, preparing for regulatory submission",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Chief Regulatory Officer", "Board of Directors"],
+    "influencers": ["Lead Clinical Investigators", "Patient Advocacy Groups", "Key Opinion Leaders"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Complete regulatory submission package for CRISPR gene editing therapy including manufacturing validation and clinical data compilation",
+    "urgency": "critical",
+    "justification": "Address unmet medical need for patients with severe genetic blood disorder, potential $2B market opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_review",
+      "duration": "6 weeks",
+      "activities": ["Preclinical data compilation", "Clinical trial results analysis", "Manufacturing process validation"],
+      "outcome": "Scientific data package complete with compelling efficacy and safety profile"
+    },
+    {
+      "stage": "regulatory_strategy",
+      "duration": "8 weeks",
+      "activities": ["Regulatory pathway analysis", "FDA/EMA consultation meetings", "Submission timeline development"],
+      "outcome": "Accelerated approval pathway identified with clear regulatory requirements"
+    },
+    {
+      "stage": "risk_benefit_analysis",
+      "duration": "4 weeks",
+      "activities": ["Patient population assessment", "Unmet medical need evaluation", "Competitive landscape analysis"],
+      "outcome": "Strong risk-benefit profile established with clear patient benefit justification"
+    },
+    {
+      "stage": "investment_commitment",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling review", "Market access strategy", "Go-to-market planning"],
+      "outcome": "Full investment approved with conditional funding based on regulatory milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["First CRISPR therapy approval in genetic blood disorders", "Establish company as gene editing leader", "Address 50,000 patient population"],
+    "projected_revenue": "$1,200,000,000 in peak annual sales",
+    "risk_factors": ["Regulatory approval uncertainty", "Manufacturing scalability challenges", "Off-target editing safety concerns", "Competitor advancement in space"]
+  }
+}

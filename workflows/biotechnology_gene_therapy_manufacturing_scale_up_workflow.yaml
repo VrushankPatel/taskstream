@@ -1,0 +1,42 @@
+workflow:
+  id: "workflow_002"
+  title: "Biotechnology Gene Therapy Manufacturing Scale-Up"
+  department: "Biomanufacturing"
+  complexity: "high"
+  participants: ["Process Engineers", "Quality Control Scientists", "Regulatory Affairs Specialists", "Supply Chain Managers", "Clinical Operations Team"]
+  trigger: "Phase 2 clinical trial data supports advancement to Phase 3 requiring increased production capacity"
+  steps:
+    - step: 1
+      actor: "Process Engineers"
+      action: "Scale production process from clinical to commercial manufacturing parameters"
+      tools: ["Process simulation software", "Scale-up modeling tools", "Equipment specification documents"]
+      duration: "2 weeks"
+      outputs: ["Scaled process parameters", "Equipment procurement requirements"]
+    - step: 2
+      actor: "Quality Control Scientists"
+      action: "Develop and validate analytical methods for commercial-scale quality testing"
+      decision_points: ["Method sensitivity requirements", "Regulatory acceptance criteria"]
+      tools: ["Analytical instrumentation", "Validation protocols", "Statistical analysis software"]
+      duration: "3 weeks"
+      outputs: ["Validated analytical methods", "Quality control specifications"]
+    - step: 3
+      actor: "Supply Chain Managers"
+      action: "Secure raw material suppliers and establish supply chain for commercial production"
+      tools: ["Supplier qualification system", "Contract manufacturing databases", "Risk assessment tools"]
+      duration: "4 weeks"
+      outputs: ["Qualified supplier agreements", "Supply chain risk mitigation plan"]
+    - step: 4
+      actor: "Regulatory Affairs Specialists"
+      action: "Prepare and submit regulatory filings for commercial manufacturing changes"
+      decision_points: ["Regulatory pathway requirements", "Data package completeness"]
+      tools: ["Regulatory submission software", "CMC documentation systems"]
+      duration: "6 weeks"
+      outputs: ["Regulatory submission package", "Manufacturing authorization updates"]
+    - step: 5
+      actor: "Clinical Operations Team"
+      action: "Coordinate manufacturing timeline with clinical trial supply requirements"
+      tools: ["Clinical supply planning software", "Inventory management systems"]
+      duration: "2 weeks"
+      outputs: ["Integrated supply timeline", "Contingency planning documentation"]
+  success_criteria: "Commercial-scale manufacturing process validated and regulatory approved for Phase 3 clinical supply"
+  failure_modes: ["Process scale-up technical challenges", "Supplier qualification delays", "Regulatory review timeline extensions"]

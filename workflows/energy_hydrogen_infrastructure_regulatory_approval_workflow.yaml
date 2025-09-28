@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_004"
+  title: "Energy Hydrogen Infrastructure Regulatory Approval"
+  department: "Regulatory Affairs"
+  complexity: "high"
+  participants: ["Regulatory Specialists", "Environmental Engineers", "Legal Counsel", "Community Relations Managers", "Technical Experts"]
+  trigger: "Proposal for hydrogen production and distribution infrastructure requiring multi-agency approvals"
+  steps:
+    - step: 1
+      actor: "Regulatory Specialists"
+      action: "Compile comprehensive regulatory requirements across federal, state, and local jurisdictions"
+      tools: ["Regulatory databases", "Permit tracking systems", "Compliance checklists"]
+      duration: "4 weeks"
+      outputs: ["Regulatory requirements matrix", "Permit application strategy"]
+    - step: 2
+      actor: "Environmental Engineers"
+      action: "Conduct environmental impact assessments and develop mitigation strategies"
+      decision_points: ["Impact significance levels", "Mitigation feasibility"]
+      tools: ["Environmental modeling software", "Impact assessment frameworks", "Mitigation planning tools"]
+      duration: "8 weeks"
+      outputs: ["Environmental impact statement", "Mitigation plan documentation"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Review legal requirements and prepare permit applications with supporting documentation"
+      tools: ["Legal research databases", "Permit application software", "Contract templates"]
+      duration: "6 weeks"
+      outputs: ["Permit applications package", "Legal compliance documentation"]
+    - step: 4
+      actor: "Community Relations Managers"
+      action: "Conduct public engagement and address community concerns regarding infrastructure development"
+      tools: ["Community engagement platforms", "Stakeholder mapping tools", "Public meeting facilitation"]
+      duration: "6 weeks"
+      outputs: ["Community impact assessment", "Public engagement reports"]
+    - step: 5
+      actor: "Technical Experts"
+      action: "Provide technical justification and respond to regulatory agency questions during review process"
+      tools: ["Technical specification documents", "Safety analysis reports", "Expert witness preparation"]
+      duration: "4 weeks"
+      outputs: ["Technical responses to agencies", "Safety certification documentation"]
+  success_criteria: "All required regulatory permits obtained with conditions acceptable for project implementation"
+  failure_modes: ["Environmental impact concerns delaying approval", "Community opposition requiring project redesign", "Regulatory interpretation disputes requiring legal resolution"]

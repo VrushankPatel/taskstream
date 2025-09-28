@@ -1,0 +1,46 @@
+{
+  "scenario_id": "healthcare_ai_diagnostics_investment_q4_2025",
+  "context": "Large hospital system with 5000 beds, implementing AI diagnostics across radiology and pathology departments",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Department Chairs", "IT Director", "Patient Safety Officer"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "AI-powered diagnostic imaging and pathology analysis system implementation",
+    "urgency": "high",
+    "justification": "Reduce diagnostic errors by 30%, decrease reporting time by 50%, support physician workload in aging population"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor capability assessments", "Clinical validation studies review", "Integration feasibility analysis"],
+      "outcome": "Approved for pilot with 3 vendors selected"
+    },
+    {
+      "stage": "clinical_validation",
+      "duration": "8 weeks",
+      "activities": ["Physician training programs", "Clinical workflow integration testing", "Patient safety impact assessment"],
+      "outcome": "Clinical validation successful with 95% physician acceptance rate"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Total cost of ownership calculation", "ROI projections over 7 years", "Funding source allocation"],
+      "outcome": "3.2 year payback period with 280% ROI over 7 years"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "2 weeks",
+      "activities": ["Regulatory compliance review", "Data privacy impact assessment", "Change management planning"],
+      "outcome": "All major risks identified with mitigation strategies developed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["30% reduction in diagnostic errors", "50% faster reporting times", "20% increase in physician satisfaction"],
+    "projected_revenue": "$25,000,000 in operational savings over 5 years",
+    "risk_factors": ["Regulatory approval delays", "Physician resistance to technology", "Data privacy concerns", "Integration complexity with legacy systems"]
+  }
+}

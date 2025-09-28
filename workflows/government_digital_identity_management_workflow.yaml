@@ -42,5 +42,12 @@ workflow:
       tools: ["Usage analytics", "Security monitoring dashboards"]
       duration: "Ongoing"
       outputs: ["Pilot evaluation and scaling plan"]
-  success_criteria: "90% service completion rate and zero security breaches"
-  failure_modes: ["Privacy concerns blocking adoption", "Technical integration challenges", "User accessibility issues"]
+   success_criteria: "90% service completion rate and zero security breaches"
+   failure_modes: ["Privacy concerns blocking adoption", "Technical integration challenges", "User accessibility issues"]
+   metrics:
+     - "User adoption rate: Target 85% of eligible citizens"
+     - "Service completion rate: Target 95% online completion"
+     - "Identity verification accuracy: Target 99.5% accuracy"
+     - "Security incidents: Target 0 breaches per year"
+     - "User satisfaction: Target 4.2/5.0 rating"
+     - "System uptime: Target 99.9% availability"

@@ -10,9 +10,10 @@ We have an escalated complaint from Mr. Davis regarding his online order #ORD-20
 
 **Customer Details:**
 - Order value: $285
-- Items received: Wrong size shoes and missing accessories
-- Communication history: Multiple emails and calls over 5 days
-- Current status: Threatening PayPal chargeback
+- Order date: September 15, 2025
+- Items received: Wrong size shoes (size 10 instead of 9) and missing accessories
+- Communication history: 3 emails and 2 calls over 5 days, escalating from inquiry to complaint
+- Current status: Threatening PayPal chargeback, posted negative review on social media
 
 **Issue Summary:**
 Customer placed order on our website, payment processed successfully, but fulfillment error occurred. Warehouse sent wrong items despite correct picking confirmation.

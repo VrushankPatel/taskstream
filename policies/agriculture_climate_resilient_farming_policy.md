@@ -61,10 +61,11 @@ Applies to all agricultural operations, including crop production, livestock man
 - **Remote Sensing**: Utilize satellite imagery for crop health and moisture monitoring
 
 ### Capacity Building
-- **Farmer Training**: Annual climate adaptation training for all personnel
-- **Extension Services**: Partner with agricultural extension for technical support
-- **Research Collaboration**: Work with universities on climate adaptation research
-- **Knowledge Sharing**: Participate in climate-resilient farming networks
+- **Farmer Training**: Annual climate adaptation training for all personnel, with specialized modules for different crop types
+- **Extension Services**: Partner with agricultural extension services and NGOs for ongoing technical support
+- **Research Collaboration**: Work with universities and research institutions on climate adaptation research and field trials
+- **Knowledge Sharing**: Participate in climate-resilient farming networks and share best practices through internal knowledge base
+- **Certification Programs**: Implement climate-smart agriculture certification for farms and personnel
 
 ## Monitoring and Evaluation
 

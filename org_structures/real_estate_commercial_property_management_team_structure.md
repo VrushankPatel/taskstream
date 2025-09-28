@@ -104,10 +104,11 @@
 - Community relations
 
 ## Governance and Decision Making
-- **Executive Committee**: Monthly strategic reviews
-- **Regional Leadership Team**: Weekly operations reviews
-- **Asset Management Committee**: Quarterly portfolio decisions
-- **Safety Committee**: Monthly safety and compliance reviews
+- **Executive Committee**: Monthly strategic reviews, quarterly business planning, annual budget approval
+- **Regional Leadership Team**: Weekly operations reviews, monthly performance dashboards, crisis management coordination
+- **Asset Management Committee**: Quarterly portfolio decisions, annual capital planning, investment committee oversight
+- **Safety Committee**: Monthly safety and compliance reviews, incident response coordination, regulatory compliance monitoring
+- **Technology Committee**: Bi-monthly digital transformation reviews, IT investment decisions, cybersecurity oversight
 
 ## Key Performance Metrics
 - NOI growth: 3-5% annual target

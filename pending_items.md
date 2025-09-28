@@ -119,56 +119,59 @@
 ### Strategic Objectives for Next 6 Sessions
 
 #### Industry Expansion Priorities (High Priority - Immediate Focus)
-- **Retail**: Expand from current 3.7% (66 files) to 10%+ (target 179+ files) - e-commerce, customer experience, supply chain
-- **Hospitality**: Expand from current 2.4% (43 files) to 10%+ (target 179+ files) - revenue management, guest experience, health safety
-- **Insurance**: Expand from current 2.4% (43 files) to 10%+ (target 179+ files) - claims automation, underwriting, parametric products
-- **Pharmaceutical**: Expand from current 2.2% (40 files) to 10%+ (target 179+ files) - regulatory compliance, gene therapy, manufacturing
-- **Real Estate**: Expand from current 2.4% (43 files) to 10%+ (target 179+ files) - proptech, smart buildings, property management
-- **Transportation**: Expand from current 2% (36 files) to 10%+ (target 179+ files) - urban mobility, hyperloop, autonomous fleets
-- **Healthcare**: Expand from current 7.1% (128 files) to 15%+ (target 269+ files) - patient care, medical devices, compliance
-- **Finance**: Expand from current 0.9% (17 files) to 8%+ (target 143+ files) - banking operations, investment management
-- **Manufacturing**: Expand from current 6.6% (118 files) to 10%+ (target 179+ files) - supply chain, quality control
-- **Agriculture**: Expand from current 1.9% (34 files) to 8%+ (target 143+ files) - sustainable farming, precision agriculture
-- **Aerospace**: Expand from current 1.8% (33 files) to 8%+ (target 143+ files) - safety certification, unmanned systems
-- **Automotive**: Expand from current 1.7% (30 files) to 8%+ (target 143+ files) - supply chain, autonomous integration
-- **Construction**: Expand from current 2.3% (42 files) to 8%+ (target 143+ files) - BIM implementation, safety protocols
-- **Education**: Expand from current 2.6% (47 files) to 8%+ (target 143+ files) - digital learning, adaptive technology
-- **Energy**: Expand from current 4.1% (74 files) to 8%+ (target 143+ files) - renewable energy, grid management
-- **Biotechnology**: Expand from current 3.5% (62 files) to 8%+ (target 143+ files) - gene editing, drug development
-- **Banking**: Expand from current 2.3% (42 files) to 8%+ (target 143+ files) - digital banking, compliance
-- **Technology**: Reduce from current 42.5% (763 files) to <20% (target <359 files) - focus on cross-industry applications
+- **Retail**: Expand from current 5.1% (92 files) to 10%+ (target 181+ files) - e-commerce, customer experience, supply chain
+- **Hospitality**: Expand from current 3.1% (56 files) to 10%+ (target 181+ files) - revenue management, guest experience, health safety
+- **Insurance**: Expand from current 3.2% (58 files) to 10%+ (target 181+ files) - claims automation, underwriting, parametric products
+- **Real Estate**: Expand from current 2.8% (51 files) to 10%+ (target 181+ files) - proptech, smart buildings, property management
+- **Utilities**: Expand from current 0.4% (8 files) to 8%+ (target 145+ files) - infrastructure management, renewable integration
+- **Mining**: Expand from current 1.7% (31 files) to 8%+ (target 145+ files) - safety protocols, environmental compliance
+- **Healthcare**: Expand from current 9.8% (177 files) to 15%+ (target 271+ files) - patient care, medical devices, compliance
+- **Manufacturing**: Expand from current 7.1% (129 files) to 10%+ (target 181+ files) - supply chain, quality control
+- **Agriculture**: Expand from current 1.9% (35 files) to 8%+ (target 145+ files) - sustainable farming, precision agriculture
+- **Aerospace**: Expand from current 1.9% (35 files) to 8%+ (target 145+ files) - safety certification, unmanned systems
+- **Construction**: Expand from current 4.4% (80 files) to 8%+ (target 145+ files) - BIM implementation, safety protocols
+- **Education**: Expand from current 2.6% (47 files) to 8%+ (target 145+ files) - digital learning, adaptive technology
+- **Energy**: Expand from current 4.1% (74 files) to 8%+ (target 145+ files) - renewable energy, grid management
+- **Biotechnology**: Expand from current 5.7% (103 files) to 8%+ (target 145+ files) - gene editing, drug development
+- **Government**: Expand from current 4.6% (83 files) to 8%+ (target 145+ files) - public services, regulatory compliance
+- **Technology**: Reduce from current 42.6% (771 files) to <20% (target <362 files) - focus on cross-industry applications
 
 #### Content Type Rebalancing Objectives
-- **Workflows**: Reduce from 29% (511 files) to 25% (440 files) - focus on complexity standardization
-- **Decisions**: Maintain 23.3% (410 files) - continue stakeholder analysis depth
-- **Communications**: Maintain 21.4% (377 files) - enhance diversity in traditional industries
-- **Org Structures**: Increase from 11.4% (200 files) to 15% (264 files) - expand governance models
-- **Metrics**: Maintain 11.6% (204 files) - align with workflow coverage
-- **Policies**: Increase from 9.5% (168 files) to 15% (264 files) - develop operational procedures
+- **Workflows**: Reduce from 28.7% (520 files) to 25% (453 files) - introduce simple/medium complexity
+- **Decisions**: Maintain 23.2% (420 files) - continue stakeholder analysis depth
+- **Communications**: Maintain 21.3% (385 files) - enhance diversity in traditional industries
+- **Org Structures**: Increase from 11.4% (207 files) to 15% (271 files) - expand governance models
+- **Metrics**: Maintain 11.6% (210 files) - align with workflow coverage
+- **Policies**: Increase from 9.7% (175 files) to 15% (271 files) - develop operational procedures
 
 #### Quality Benchmarking Goals
 - **Overall Quality Score**: Maintain 97%+ enterprise-grade authenticity (current: 97%)
 - **Format Compliance**: 100% YAML/JSON validation across all files (current: 100%)
-- **Content Authenticity**: 96%+ business terminology accuracy in traditional industries (current: 96%)
-- **Complexity Distribution**: Standardize to 20% simple, 50% medium, 30% complex/high (current: 0.8/33/51/14.5)
-- **Industry Balance**: Achieve <20% technology dominance by end of 2025 (current: 43%)
+- **Content Authenticity**: 96%+ business terminology accuracy in traditional industries (current: 97%)
+- **Complexity Distribution**: Standardize to 20% simple, 50% medium, 30% complex (current: 0/0/100)
+- **Industry Balance**: Achieve <20% technology dominance by end of 2025 (current: 42.6%)
+- **Geographic Diversity**: Increase EU/Asia content from 2%/0% to 10%+ each
 
 ### Industry-Specific Research Areas
 - **Retail**: Omnichannel strategies, customer journey optimization, supply chain resilience, data privacy compliance
 - **Hospitality**: Contactless services, health safety protocols, revenue optimization, crisis response
 - **Insurance**: Parametric products, climate risk modeling, cyber insurance, specialty underwriting
-- **Pharmaceutical**: Personalized medicine, companion diagnostics, biotechnology ethics, clinical trials
 - **Real Estate**: Proptech integration, smart buildings, sustainable certification, portfolio management
-- **Transportation**: Urban mobility, hyperloop systems, autonomous fleets, logistics KPIs
+- **Utilities**: Grid modernization, renewable energy integration, infrastructure resilience, regulatory compliance
+- **Mining**: Environmental impact assessment, safety automation, resource optimization, community relations
+- **Healthcare**: Telemedicine adoption, patient data privacy, medical device integration, clinical workflows
+- **Manufacturing**: Industry 4.0 implementation, supply chain digitization, quality automation, workforce transition
 - **Agriculture**: Climate-resilient farming, carbon credits, sustainable transitions, supply chain traceability
 - **Aerospace**: Space traffic management, orbital debris, unmanned systems, safety certification
-- **Automotive**: Battery lifecycle, autonomous cybersecurity, circular economy, supply chain
 - **Construction**: Modular methods, prefabrication, BIM success metrics, safety technology
 - **Education**: Competency assessment, micro-credentials, adaptive platforms, digital learning
+- **Energy**: Renewable energy transition, grid cybersecurity, carbon capture, energy storage
+- **Biotechnology**: Gene editing ethics, personalized medicine, clinical trial optimization, regulatory pathways
+- **Government**: Digital public services, cybersecurity frameworks, regulatory harmonization, public-private partnerships
 - **Technology**: Cross-industry applications, AI ethics, digital transformation, enterprise integration
 
 ### Competitive Analysis Tasks
-- **Market Gap Assessment**: Identify underserved traditional industry workflows (retail, hospitality, insurance)
+- **Market Gap Assessment**: Identify underserved traditional industry workflows (retail, hospitality, insurance, utilities, mining)
 - **Competitive Positioning**: Compare vs. generic business process libraries and enterprise software documentation
 - **Integration Opportunities**: Compatibility with BPM tools, enterprise systems, and AI training datasets
 - **Ecosystem Development**: Complementary resources for process automation and business intelligence
@@ -177,9 +180,10 @@
 ### Strategic Research Priorities
 - **Cross-Industry Scenarios**: Tech integration in manufacturing, healthcare AI, retail automation, financial technology
 - **Emerging Technologies**: Quantum computing adoption, carbon capture, biotech ethics, sustainable energy
-- **Global Operations**: International compliance, cross-border supply chains, cultural adaptation
+- **Global Operations**: International compliance, cross-border supply chains, cultural adaptation, EU/Asia expansion
 - **Crisis Management**: Supply chain disruptions, cybersecurity, regulatory changes, revenue crises
 - **Digital Transformation**: Success metrics for non-tech sectors, employee experience, organizational change
+- **Geographic Expansion**: EU regulatory frameworks, Asian market adaptation, global compliance standards
 
 ### Long-Term Strategic Direction (2026 Targets)
 - **Dataset Scale**: 2000+ files with balanced industry distribution (no industry >20% or <2%)
@@ -187,6 +191,7 @@
 - **Market Leadership**: Definitive enterprise workflow documentation database for business process automation
 - **Quality Excellence**: 98%+ authenticity with standardized complexity and industry balance
 - **Ecosystem Integration**: Ready for enterprise systems, AI training, automation platforms, and business intelligence tools
+- **Global Reach**: 20%+ content covering EU/Asia markets with localized business practices
 
 **Successful Patterns to Replicate:**
 - Medium-complexity workflows with realistic timelines and failure modes in underrepresented industries

@@ -1,5 +1,17 @@
 # Pending Research Items for TaskStream Dataset
 
+## Completed in Session 36
+- Transportation: Autonomous vehicle fleet management workflows, smart infrastructure company structures, smart infrastructure performance metrics, autonomous vehicle safety policies
+- Entertainment: Content production pipeline optimization workflows, virtual production division structures, virtual production performance metrics, virtual production safety policies
+- Construction: Advanced project management systems implementation workflows
+- Energy: Hydrogen economy infrastructure development workflows
+- Education: Lifelong learning platform development workflows
+- Manufacturing: Circular economy business model implementation workflows
+- Retail: Metaverse commerce platform development decisions, last-mile delivery innovation meeting notes
+- Healthcare: Mental health crisis intervention systems decisions, patient data interoperability email threads
+- Technology: Quantum computing research center operations decisions, AI ethics governance announcements
+- Communications: Social media crisis management automation decisions, influencer relationship management meeting notes
+
 ## Completed in Session 35
 - Education: Student success prediction workflows, adaptive learning implementation meetings, academic analytics and intervention systems
 - Manufacturing: Workforce automation transition processes, supply chain resilience planning, employee retraining programs, change management strategies
@@ -431,16 +443,13 @@
 - Real Estate: Smart building automation, tenant experience management, property valuation analytics
 
 ## High Priority Research Areas - Next Session
-- Transportation: Autonomous vehicle fleet management, smart infrastructure deployment, mobility-as-a-service platforms, EV charging network expansion
-- Entertainment: Content production pipeline optimization, streaming platform competition strategies, AI-generated content workflows, interactive storytelling platforms
-- Construction: Advanced project management systems, BIM implementation at scale, safety compliance automation, subcontractor performance optimization
-- Energy: Hydrogen economy infrastructure development, carbon capture and storage deployment, smart grid modernization, renewable energy integration challenges
-- Education: Lifelong learning platform development, competency-based assessment automation, VR/AR educational technology integration, academic advising AI systems
-- Manufacturing: Circular economy business model implementation, advanced robotics integration, supply chain digital twin deployment, sustainable manufacturing practices
-- Retail: Metaverse commerce platform development, sustainable retail practices implementation, customer experience personalization at scale, last-mile delivery innovation
-- Healthcare: Mental health crisis intervention systems, patient data interoperability at scale, telemedicine platform scalability, clinical decision support implementation
-- Technology: Quantum computing research center operations, edge computing infrastructure deployment, AI ethics governance frameworks, blockchain enterprise adoption
-- Communications: Social media crisis management automation, content personalization engine scaling, influencer relationship management systems, stakeholder engagement analytics
+- Agriculture: Advanced farming technology adoption, supply chain traceability systems, sustainable agriculture certification processes, crop yield optimization through AI
+- Mining: Digital transformation in mining operations, environmental monitoring automation, worker safety technology implementation, mineral processing optimization
+- Hospitality: Revenue management system integration, guest experience personalization at scale, sustainable hospitality practices, crisis recovery protocols
+- International Business: Cross-cultural team management, international regulatory compliance, global supply chain coordination, multicultural marketing strategies
+- Crisis Management: AI system failure response protocols, cybersecurity incident management for IoT networks, autonomous system malfunction procedures, emergency communication frameworks
+- Emerging Technologies: Blockchain supply chain implementation, IoT ecosystem management, AR/VR enterprise adoption, 5G infrastructure deployment
+- Sustainability: Circular economy performance measurement, carbon footprint tracking systems, ESG reporting automation, sustainable procurement frameworks
 
 ## Industry-Specific Workflows to Research
 - Healthcare: Patient intake, medical billing

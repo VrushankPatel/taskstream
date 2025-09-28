@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_mining_environmental_compliance"
+  title: "Mining Environmental Compliance and Monitoring Process"
+  department: "Environmental Health & Safety"
+  complexity: "high"
+  participants: ["Environmental Manager", "Operations Manager", "Compliance Officer", "External Consultants", "Regulatory Agency"]
+  trigger: "Scheduled quarterly audits or environmental incident reports"
+  steps:
+    - step: 1
+      actor: "Environmental Manager"
+      action: "Conduct environmental impact assessments and monitoring"
+      tools: ["Environmental monitoring equipment", "GIS mapping software", "Water quality testing kits"]
+      duration: "40 hours"
+      outputs: ["Environmental monitoring report", "Impact assessment documentation"]
+    - step: 2
+      actor: "Compliance Officer"
+      action: "Review regulatory requirements and permit conditions"
+      tools: ["Regulatory database", "Permit management system", "Legal compliance software"]
+      duration: "16 hours"
+      outputs: ["Compliance gap analysis", "Permit renewal recommendations"]
+    - step: 3
+      actor: "Environmental Manager"
+      action: "Develop remediation plans for identified issues"
+      decision_points: ["Severity of environmental impact", "Cost-benefit analysis", "Regulatory deadlines"]
+      tools: ["Environmental modeling software", "Cost estimation tools"]
+      duration: "24 hours"
+      outputs: ["Remediation action plan", "Budget estimates"]
+    - step: 4
+      actor: "Operations Manager"
+      action: "Implement approved remediation measures"
+      tools: ["Project management software", "Equipment scheduling system"]
+      duration: "80 hours"
+      outputs: ["Implementation progress reports", "Quality assurance documentation"]
+    - step: 5
+      actor: "External Consultants"
+      action: "Conduct independent environmental audits"
+      tools: ["Audit checklists", "Sampling equipment", "Data analysis software"]
+      duration: "32 hours"
+      outputs: ["Independent audit report", "Certification recommendations"]
+    - step: 6
+      actor: "Compliance Officer"
+      action: "Prepare regulatory reports and submissions"
+      tools: ["Regulatory reporting software", "Document management system"]
+      duration: "20 hours"
+      outputs: ["Regulatory compliance reports", "Permit applications"]
+  success_criteria: "Zero environmental violations and successful permit renewals"
+  failure_modes: ["Regulatory fines from non-compliance", "Operational shutdowns due to permit issues", "Reputational damage from environmental incidents"]

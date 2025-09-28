@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_agriculture_supply_chain_management"
+  title: "Agriculture Supply Chain Management and Optimization Process"
+  department: "Supply Chain Operations"
+  complexity: "high"
+  participants: ["Supply Chain Manager", "Farm Operations Manager", "Logistics Coordinator", "Quality Assurance Manager", "Procurement Specialist"]
+  trigger: "Seasonal harvest planning or supply disruption alerts"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Forecast demand and plan production schedules"
+      tools: ["Demand forecasting software", "Weather data systems", "Market intelligence platforms"]
+      duration: "20 hours"
+      outputs: ["Production forecast report", "Resource allocation plan"]
+    - step: 2
+      actor: "Procurement Specialist"
+      action: "Source and procure inputs (seeds, fertilizers, equipment)"
+      decision_points: ["Supplier reliability", "Cost optimization", "Quality standards"]
+      tools: ["Supplier management system", "Contract management software"]
+      duration: "40 hours"
+      outputs: ["Supplier contracts", "Procurement orders"]
+    - step: 3
+      actor: "Farm Operations Manager"
+      action: "Monitor crop growth and adjust cultivation practices"
+      tools: ["IoT sensors", "Drone monitoring systems", "Agricultural management software"]
+      duration: "80 hours"
+      outputs: ["Growth monitoring reports", "Cultivation adjustment plans"]
+    - step: 4
+      actor: "Quality Assurance Manager"
+      action: "Conduct quality testing and compliance checks"
+      tools: ["Quality testing equipment", "Compliance tracking software"]
+      duration: "24 hours"
+      outputs: ["Quality test results", "Compliance certificates"]
+    - step: 5
+      actor: "Logistics Coordinator"
+      action: "Coordinate harvest and transportation logistics"
+      tools: ["Transportation management system", "GPS tracking", "Warehouse management software"]
+      duration: "60 hours"
+      outputs: ["Harvest schedules", "Transportation plans", "Storage assignments"]
+    - step: 6
+      actor: "Supply Chain Manager"
+      action: "Monitor distribution and manage inventory levels"
+      tools: ["Inventory management system", "Sales forecasting tools"]
+      duration: "30 hours"
+      outputs: ["Distribution reports", "Inventory optimization recommendations"]
+  success_criteria: "95% on-time delivery rate and <2% product waste"
+  failure_modes: ["Weather-related crop failures", "Logistics bottlenecks", "Quality control issues", "Market price volatility"]

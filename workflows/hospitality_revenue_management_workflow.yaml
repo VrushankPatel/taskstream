@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_hospitality_revenue_management"
+  title: "Hospitality Revenue Management Process"
+  department: "Revenue Management"
+  complexity: "high"
+  participants: ["Revenue Manager", "Operations Manager", "Marketing Director", "IT Analyst"]
+  trigger: "Monthly revenue review or market demand changes"
+  steps:
+    - step: 1
+      actor: "Revenue Manager"
+      action: "Analyze historical booking data and market trends"
+      tools: ["Revenue management software", "Market intelligence platforms", "Historical booking database"]
+      duration: "4 hours"
+      outputs: ["Demand forecast report", "Competitive analysis"]
+    - step: 2
+      actor: "Revenue Manager"
+      action: "Set dynamic pricing strategies for room rates and packages"
+      decision_points: ["Seasonal demand", "Competitor pricing", "Event calendar", "Occupancy targets"]
+      tools: ["Pricing optimization software", "Yield management system"]
+      duration: "6 hours"
+      outputs: ["Pricing strategy document", "Rate adjustments"]
+    - step: 3
+      actor: "Operations Manager"
+      action: "Review inventory availability and maintenance schedules"
+      tools: ["Property management system", "Maintenance scheduling software"]
+      duration: "2 hours"
+      outputs: ["Inventory availability report", "Maintenance impact assessment"]
+    - step: 4
+      actor: "Revenue Manager"
+      action: "Implement pricing changes and promotional campaigns"
+      tools: ["Booking engine", "Marketing automation platform"]
+      duration: "3 hours"
+      outputs: ["Updated pricing in systems", "Campaign activation"]
+    - step: 5
+      actor: "IT Analyst"
+      action: "Monitor system performance and booking conversion rates"
+      tools: ["Analytics dashboard", "Conversion tracking tools"]
+      duration: "2 hours"
+      outputs: ["Performance metrics report", "System optimization recommendations"]
+    - step: 6
+      actor: "Revenue Manager"
+      action: "Generate weekly revenue reports and forecast updates"
+      tools: ["Business intelligence tools", "Financial reporting software"]
+      duration: "4 hours"
+      outputs: ["Weekly revenue report", "Updated forecasts"]
+  success_criteria: "Achieved target revenue per available room (RevPAR) within 5% of forecast"
+  failure_modes: ["Overbooking due to poor inventory management", "Revenue leakage from manual pricing errors", "Missed market opportunities from delayed pricing updates"]

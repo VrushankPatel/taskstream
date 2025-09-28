@@ -17,18 +17,27 @@ workflow:
       action: "Redesign building components for modular manufacturing standards"
       tools: ["CAD software", "Modular design standards", "Structural analysis tools"]
       duration: "4 weeks"
+      decision_points:
+        - "Approve modular component designs for manufacturability"
+        - "Confirm compliance with building codes and standards"
       outputs: ["Modular component designs", "Manufacturing specifications", "Assembly instructions"]
     - step: 3
       actor: "Procurement Specialist"
       action: "Identify and qualify modular component manufacturers"
       tools: ["Supplier qualification system", "Contract templates", "Quality certification databases"]
       duration: "3 weeks"
+      decision_points:
+        - "Select primary and backup manufacturers"
+        - "Negotiate contract terms and pricing"
       outputs: ["Approved manufacturer list", "Supply agreements", "Quality assurance protocols"]
     - step: 4
       actor: "Site Supervisor"
       action: "Prepare construction site for modular component integration"
       tools: ["Site preparation checklists", "Foundation specifications", "Logistics coordination tools"]
       duration: "2 weeks"
+      decision_points:
+        - "Approve site preparation completion"
+        - "Confirm foundation specifications meet modular requirements"
       outputs: ["Site readiness assessment", "Foundation completion", "Component delivery schedule"]
     - step: 5
       actor: "Quality Control Inspector"
@@ -41,6 +50,9 @@ workflow:
       action: "Coordinate final assembly and system integration on-site"
       tools: ["Project management software", "Assembly checklists", "Commissioning protocols"]
       duration: "4 weeks"
+      decision_points:
+        - "Authorize final handover to client"
+        - "Approve project completion documentation"
       outputs: ["Final assembly completion", "System integration verification", "Project handover documentation"]
   success_criteria: "30% reduction in construction timeline with 95% cost predictability"
   failure_modes: ["Transportation damage to modules", "Site integration challenges", "Design coordination issues", "Regulatory approval delays"]

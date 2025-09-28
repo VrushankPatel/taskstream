@@ -1,0 +1,53 @@
+{
+  "scenario_id": "mining_environmental_compliance_upgrade_q4_2024",
+  "context": "Large mining corporation facing new environmental regulations requiring upgraded water treatment facilities at multiple sites",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board Environmental Committee"],
+    "influencers": ["Chief Operating Officer", "Environmental Manager", "Finance Director", "Legal Counsel", "Local Community Representatives"]
+  },
+  "request": {
+    "amount": "$45 million",
+    "purpose": "Upgrade water treatment infrastructure across 5 mining sites to meet new EPA discharge standards",
+    "urgency": "high",
+    "justification": "Regulatory deadline in 18 months, current facilities non-compliant, potential fines up to $10M annually"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "6 weeks",
+      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Legal consultation on penalties"],
+      "outcome": "Clear compliance requirements identified, upgrade necessary to avoid $8M annual fines"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Technology vendor evaluations", "Site-specific engineering assessments", "Pilot testing at one location"],
+      "outcome": "Advanced membrane filtration technology selected, 40% more effective than current systems"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "Cash flow projections", "ROI calculations over 10-year horizon"],
+      "outcome": "NPV $15M positive, 12% IRR, payback period 7 years"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "6 weeks",
+      "activities": ["Community consultation meetings", "Environmental NGO partnerships", "Employee impact assessments"],
+      "outcome": "Community support secured with enhanced monitoring commitments"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive presentation", "Board discussion", "Final approval vote"],
+      "outcome": "Approved with phased implementation and community benefit fund"
+    }
+  ],
+  "business_impact": {
+    "expected_compliance_improvement": "100% regulatory compliance",
+    "projected_cost_savings": "$8M annual fine avoidance",
+    "risk_factors": ["Construction delays", "Technology performance issues", "Cost overruns"],
+    "timeline": "24 months for full implementation across all sites"
+  }
+}

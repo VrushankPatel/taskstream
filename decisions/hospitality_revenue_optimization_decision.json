@@ -1,0 +1,37 @@
+{
+  "scenario_id": "hospitality_revenue_crisis_2025",
+  "context": "Luxury hotel group facing revenue decline due to economic downturn and travel restrictions",
+  "stakeholders": {
+    "requester": "Revenue Manager",
+    "approvers": ["General Manager", "Regional Director"],
+    "influencers": ["Sales Director", "Operations Manager", "Finance Controller"]
+  },
+  "request": {
+    "amount": "$500K",
+    "purpose": "Dynamic pricing system implementation and revenue management training",
+    "urgency": "high",
+    "justification": "Revenue per available room down 25%, need to optimize yield"
+  },
+  "decision_process": [
+    {
+      "stage": "crisis_assessment",
+      "duration": "1 week",
+      "activities": ["Revenue analysis", "Competitor benchmarking", "Cost reduction review"],
+      "outcome": "Urgent action required"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Vendor demos", "ROI calculations", "Implementation planning"],
+      "outcome": "Approved with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% revenue improvement",
+    "projected_value": "$2M annual savings",
+    "risk_factors": ["Staff resistance to new systems", "Initial revenue dip during transition", "Technology integration challenges"]
+  },
+  "decision_criteria": ["Payback period <12 months", "Minimal operational disruption", "Scalable across properties"],
+  "outcome": "Approved",
+  "lessons_learned": "Revenue optimization requires both technology and cultural change management"
+}

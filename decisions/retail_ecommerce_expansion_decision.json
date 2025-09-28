@@ -1,0 +1,37 @@
+{
+  "scenario_id": "retail_ecommerce_expansion_2025",
+  "context": "Mid-sized retail chain expanding online presence amid increased digital competition",
+  "stakeholders": {
+    "requester": "VP of Digital Commerce",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Head of Marketing", "IT Director", "Operations Manager"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "E-commerce platform upgrade and omnichannel integration",
+    "urgency": "medium",
+    "justification": "Competitive pressure from online-only retailers, current platform outdated"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "3 weeks",
+      "activities": ["Market research", "Vendor evaluation", "ROI modeling"],
+      "outcome": "Proceed with pilot"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "2 months",
+      "activities": ["Platform migration", "Staff training", "Process testing"],
+      "outcome": "Full rollout approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in online sales",
+    "projected_value": "$8M annual revenue uplift",
+    "risk_factors": ["Implementation delays", "Customer migration challenges", "Integration issues"]
+  },
+  "decision_criteria": ["ROI >200%", "Implementation timeline <6 months", "Minimal disruption to operations"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement crucial for complex digital transformations"
+}

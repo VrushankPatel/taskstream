@@ -1,0 +1,49 @@
+{
+  "scenario_id": "mining_digital_transformation_decision",
+  "context": "Large mining operation seeking to modernize operations through digital technologies to improve safety, efficiency, and sustainability",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "Board of Directors", "Safety Committee"],
+    "influencers": ["Operations Managers", "IT Director", "Safety Officers", "Union Representatives", "Environmental Compliance Manager"]
+  },
+  "request": {
+    "amount": "$45M",
+    "purpose": "Implement comprehensive digital transformation including autonomous equipment, IoT monitoring, and AI-driven optimization",
+    "urgency": "medium",
+    "justification": "Address aging infrastructure, improve safety metrics, and enhance operational efficiency in competitive market"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "8 weeks",
+      "activities": ["Technology capability assessment", "Infrastructure evaluation", "Safety impact analysis", "Financial modeling"],
+      "outcome": "Confirmed technical feasibility with significant safety and efficiency benefits"
+    },
+    {
+      "stage": "stakeholder_assessment",
+      "duration": "4 weeks",
+      "activities": ["Employee impact assessment", "Union consultation", "Safety committee review", "Environmental impact evaluation"],
+      "outcome": "Identified workforce transition needs and safety enhancement opportunities"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Technology vendor assessment", "Integration capability review", "Cost-benefit analysis", "Implementation timeline development"],
+      "outcome": "Selected comprehensive technology solution with proven mining applications"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive committee presentation", "Board approval process", "Final budget authorization", "Implementation oversight assignment"],
+      "outcome": "Approved with phased implementation and workforce transition support"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% improvement in operational efficiency, 50% reduction in safety incidents, 25% decrease in operational costs",
+    "projected_value": "$120M in cost savings and productivity gains over 5 years",
+    "risk_factors": ["Technology integration challenges", "Workforce adaptation difficulties", "Cybersecurity vulnerabilities", "Equipment reliability in harsh environments"]
+  },
+  "decision_criteria": ["Safety improvement potential", "Operational efficiency gains", "Financial ROI and payback period", "Workforce impact and transition support", "Technology reliability and vendor support"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive stakeholder engagement essential for mining digital transformation, safety benefits drive executive support, phased implementation reduces operational disruption"
+}

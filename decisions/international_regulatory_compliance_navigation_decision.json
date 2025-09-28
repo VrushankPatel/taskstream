@@ -1,0 +1,49 @@
+{
+  "scenario_id": "international_regulatory_compliance_navigation_decision",
+  "context": "Global technology company expanding operations across 30 countries, requiring advanced regulatory navigation strategy including AI regulations, data sovereignty, and emerging technology compliance",
+  "stakeholders": {
+    "requester": "Chief Compliance Officer",
+    "approvers": ["CEO", "General Counsel", "Chief Operating Officer", "Chief AI Ethics Officer"],
+    "influencers": ["Regional Directors", "Legal Department", "AI Ethics Board", "External Regulatory Consultants", "Industry Associations", "Data Protection Authorities"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "Implement advanced global regulatory navigation platform with AI-driven compliance monitoring and automated reporting for international expansion",
+    "urgency": "critical",
+    "justification": "Ensure compliance with evolving international regulations including GDPR, CCPA, PIPL, AI Act, and emerging data sovereignty laws across 30 countries"
+  },
+  "decision_process": [
+    {
+      "stage": "advanced_regulatory_assessment",
+      "duration": "8 weeks",
+      "activities": ["AI-powered global regulatory landscape mapping", "Compliance gap analysis with predictive modeling", "Risk prioritization using machine learning", "Advanced resource requirement assessment"],
+      "outcome": "Identified 62 critical regulatory requirements across target markets including emerging AI and data sovereignty regulations"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Advanced technology platform evaluation with AI capabilities", "Vendor capability assessment for global compliance", "AI-driven integration feasibility analysis", "Enhanced cost-benefit modeling with predictive analytics"],
+      "outcome": "Selected comprehensive AI-enhanced regulatory technology platform with global coverage and predictive compliance features"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "5 weeks",
+      "activities": ["AI-optimized project timeline development", "Advanced resource allocation planning", "AI-enhanced change management strategy", "Automated training program design"],
+      "outcome": "Developed accelerated implementation plan with AI-driven milestones and predictive risk monitoring"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "3 weeks",
+      "activities": ["Executive committee presentation with AI demonstrations", "Board review of AI compliance capabilities", "Final budget authorization", "AI governance framework establishment"],
+      "outcome": "Approved with enhanced AI governance framework and automated implementation monitoring"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Streamlined international expansion with 40% faster market entry, reduced compliance costs by 35%, minimized regulatory risk exposure through AI-driven monitoring",
+    "projected_value": "$110M in avoided fines and accelerated market entry over 5 years, plus $25M in efficiency gains from AI automation",
+    "risk_factors": ["Rapidly evolving AI regulatory landscape", "Advanced technology integration challenges", "Resource constraints for global AI implementation", "Cultural adaptation requirements for AI ethics", "Data sovereignty conflicts across jurisdictions"]
+  },
+  "decision_criteria": ["Advanced regulatory compliance coverage including AI regulations", "AI-enhanced technology scalability and predictive capabilities", "Cost efficiency and ROI with AI automation benefits", "Implementation timeline with AI acceleration", "Stakeholder adoption and AI training effectiveness"],
+  "outcome": "Approved",
+  "lessons_learned": "AI-powered regulatory assessment provides significant advantage in complex global landscapes, early AI ethics integration critical for international compliance, automated monitoring reduces manual compliance workload by 60%, comprehensive AI training essential for global team adoption"
+}

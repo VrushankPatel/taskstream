@@ -1,0 +1,49 @@
+{
+  "scenario_id": "crisis_supply_chain_disruption_mitigation_decision",
+  "context": "Global manufacturing company facing critical supply chain disruption due to cyber attacks, natural disasters, and geopolitical tensions affecting 60% of key suppliers",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "CFO", "Chief Operations Officer", "Chief Risk Officer"],
+    "influencers": ["Procurement Director", "Operations Managers", "Risk Management Team", "Cybersecurity Team", "Key Suppliers", "Insurance Partners"]
+  },
+  "request": {
+    "amount": "$35M",
+    "purpose": "Implement advanced supply chain resilience measures including AI-driven diversification, blockchain traceability, and cyber-physical security systems",
+    "urgency": "critical",
+    "justification": "Current multi-factor disruption threatens 60% of production capacity and $600M in quarterly revenue from cyber attacks and geopolitical issues"
+  },
+  "decision_process": [
+    {
+      "stage": "advanced_impact_assessment",
+      "duration": "36 hours",
+      "activities": ["AI-powered supply chain mapping", "Multi-factor impact quantification", "Predictive risk scenario modeling", "Blockchain traceability assessment"],
+      "outcome": "Identified critical vulnerabilities affecting 60% of supply chain with cyber-physical threats"
+    },
+    {
+      "stage": "solution_development",
+      "duration": "4 days",
+      "activities": ["AI-driven supplier diversification analysis", "Blockchain implementation evaluation", "Cyber-physical security system assessment", "Advanced inventory buffer strategies"],
+      "outcome": "Developed comprehensive AI and blockchain-enhanced diversification and resilience strategy"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "3 days",
+      "activities": ["Supplier negotiations with AI insights", "Internal stakeholder alignment sessions", "Cybersecurity integration planning", "Insurance partner coordination"],
+      "outcome": "Secured commitments from alternative suppliers and cyber-physical security partners"
+    },
+    {
+      "stage": "executive_decision",
+      "duration: "1 day",
+      "activities": ["Executive crisis committee meeting with AI dashboards", "Final strategy approval", "Resource allocation with predictive modeling", "Implementation timeline with AI monitoring"],
+      "outcome": "Approved with accelerated AI and blockchain implementation plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Restore 95% of production capacity within 45 days, reduce future disruption risk by 70%, establish AI-monitored and blockchain-traced supply base",
+    "projected_value": "$400M in protected revenue and $80M in efficiency gains from AI and blockchain automation over 5 years",
+    "risk_factors": ["Advanced cyber threat evolution", "Geopolitical uncertainty escalation", "Supplier digital transformation delays", "AI implementation complexity", "Blockchain integration challenges"]
+  },
+  "decision_criteria": ["Production capacity restoration speed with AI acceleration", "Financial impact mitigation through predictive analytics", "Long-term risk reduction with cyber-physical security", "Implementation feasibility with blockchain integration", "Supplier collaboration and AI adoption capability"],
+  "outcome": "Approved",
+  "lessons_learned": "AI-powered supply chain visibility critical for crisis response, blockchain traceability enables rapid disruption identification, cyber-physical security integration prevents advanced threats, regular AI-driven risk assessments prevent crisis escalation, supplier diversification requires ongoing AI monitoring"
+}

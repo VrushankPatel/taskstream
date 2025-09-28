@@ -1,0 +1,43 @@
+{
+  "scenario_id": "banking_digital_transformation_investment_decision",
+  "context": "Traditional bank facing declining branch traffic and increasing competition from fintech companies, requiring comprehensive digital transformation to modernize customer experience and operational efficiency",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Chief Risk Officer"],
+    "influencers": ["Chief Information Officer", "Customer Experience Director", "Compliance Officer"]
+  },
+  "request": {
+    "amount": "$35,000,000",
+    "purpose": "Three-year digital transformation program including mobile banking platform, AI-powered customer service, cloud migration, and legacy system modernization",
+    "urgency": "high",
+    "justification": "Customer digital adoption at 70% while bank digital capabilities at 30%; risk of losing market share to digital-native competitors"
+  },
+  "decision_process": [
+    {
+      "stage": "digital_maturity_assessment",
+      "duration": "3 weeks",
+      "activities": ["Current state analysis", "Competitive benchmarking", "Customer digital adoption surveys"],
+      "outcome": "Identified 3-year gap in digital capabilities vs. market leaders"
+    },
+    {
+      "stage": "transformation_strategy",
+      "duration": "4 weeks",
+      "activities": ["Digital roadmap development", "Technology vendor selection", "Change management planning"],
+      "outcome": "Comprehensive transformation strategy with phased implementation"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Risk assessment"],
+      "outcome": "Projected 25% improvement in customer satisfaction and 30% cost reduction"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Digital customer adoption increase to 85%, 40% reduction in operational costs, improved competitive positioning",
+    "projected_value": "$120,000,000 in additional revenue and cost savings over 5 years",
+    "risk_factors": ["Implementation complexity", "Regulatory compliance challenges", "Employee resistance to change"]
+  },
+  "decision_criteria": ["Customer experience improvement", "Competitive positioning", "Financial ROI", "Regulatory compliance", "Implementation risk"],
+  "outcome": "Approved",
+  "lessons_learned": "Digital transformation requires comprehensive change management and employee engagement, phased implementation reduces risk while maintaining business continuity, customer-centric design critical for adoption success"
+}

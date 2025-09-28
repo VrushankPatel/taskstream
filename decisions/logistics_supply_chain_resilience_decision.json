@@ -1,0 +1,43 @@
+{
+  "scenario_id": "logistics_supply_chain_resilience_decision",
+  "context": "Global logistics company experiencing repeated supply chain disruptions from geopolitical events, natural disasters, and capacity constraints, requiring strategic investment in resilience infrastructure",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Chief Risk Officer"],
+    "influencers": ["Supply Chain Director", "Risk Management Lead", "Sustainability Officer"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Multi-year investment in supply chain resilience including diversified sourcing, regional distribution centers, and advanced risk monitoring systems",
+    "urgency": "high",
+    "justification": "Recent disruptions cost $50M in lost revenue and damaged customer relationships; increasing frequency of global supply chain shocks"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_analysis",
+      "duration": "2 weeks",
+      "activities": ["Historical disruption analysis", "Financial impact assessment", "Customer satisfaction surveys"],
+      "outcome": "Quantified $75M annual risk exposure from supply chain disruptions"
+    },
+    {
+      "stage": "resilience_strategy",
+      "duration": "3 weeks",
+      "activities": ["Resilience framework development", "Technology vendor evaluation", "Regional expansion planning"],
+      "outcome": "Comprehensive resilience strategy with 40% risk reduction target"
+    },
+    {
+      "stage": "investment_prioritization",
+      "duration": "2 weeks",
+      "activities": ["ROI modeling", "Risk-adjusted return analysis", "Implementation timeline planning"],
+      "outcome": "Prioritized investments with 3-year payback period"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in supply chain disruption frequency, 25% improvement in on-time delivery, enhanced customer trust",
+    "projected_value": "$100,000,000 in avoided disruption costs over 5 years",
+    "risk_factors": ["Geopolitical instability", "Implementation complexity", "Regional regulatory challenges"]
+  },
+  "decision_criteria": ["Risk reduction potential", "Financial ROI", "Implementation feasibility", "Regulatory compliance", "Stakeholder impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Proactive resilience investments significantly more cost-effective than reactive responses, regional diversification requires careful local market understanding, advanced analytics crucial for early disruption detection"
+}

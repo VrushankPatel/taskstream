@@ -1,0 +1,46 @@
+workflow:
+  id: "automotive_supply_chain_optimization_workflow"
+  title: "Automotive Supply Chain Optimization Process"
+  department: "Supply Chain Operations"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Procurement Specialist", "Logistics Coordinator", "Quality Assurance Lead", "Supplier Relationship Manager"]
+  trigger: "Supply chain disruption detected or efficiency improvement opportunity identified"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Analyze current supply chain performance and identify optimization opportunities"
+      tools: ["Supply Chain Analytics Platforms", "Performance Dashboards", "Demand Forecasting Tools"]
+      duration: "4 hours"
+      outputs: ["Supply Chain Performance Analysis", "Optimization Opportunity Assessment"]
+    - step: 2
+      actor: "Procurement Specialist"
+      action: "Evaluate supplier performance and identify alternative sourcing options"
+      tools: ["Supplier Performance Databases", "Cost Analysis Tools", "Risk Assessment Frameworks"]
+      duration: "6 hours"
+      outputs: ["Supplier Performance Report", "Sourcing Strategy Recommendations"]
+    - step: 3
+      actor: "Logistics Coordinator"
+      action: "Optimize transportation and warehousing operations for cost and efficiency"
+      decision_points: ["Transportation Mode Selection", "Warehouse Location Optimization", "Inventory Strategy"]
+      duration: "8 hours"
+      outputs: ["Logistics Optimization Plan", "Cost-Benefit Analysis"]
+    - step: 4
+      actor: "Quality Assurance Lead"
+      action: "Ensure optimization initiatives maintain product quality and compliance standards"
+      tools: ["Quality Management Systems", "Compliance Databases", "Risk Assessment Tools"]
+      duration: "4 hours"
+      outputs: ["Quality Impact Assessment", "Compliance Verification Report"]
+    - step: 5
+      actor: "Supplier Relationship Manager"
+      action: "Negotiate improved terms with suppliers and implement collaborative optimization programs"
+      tools: ["Contract Management Systems", "Supplier Collaboration Platforms", "Negotiation Tools"]
+      duration: "10 hours"
+      outputs: ["Supplier Agreement Updates", "Collaboration Program Implementation Plan"]
+  success_criteria: "Supply chain costs reduced by 15% while maintaining 99% on-time delivery and product quality standards"
+  failure_modes: ["Supplier resistance to optimization initiatives", "Quality compromises from cost-cutting measures", "Logistics disruptions from implementation changes"]
+  metrics:
+    - "Supply Chain Cost Reduction: > 15%"
+    - "On-Time Delivery Rate: > 99%"
+    - "Inventory Turnover Ratio: > 8"
+    - "Supplier Performance Score: > 85/100"
+    - "Quality Defect Rate: < 0.1%"

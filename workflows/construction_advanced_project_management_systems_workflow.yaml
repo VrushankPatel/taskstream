@@ -42,25 +42,20 @@ workflow:
       tools: ["Learning management systems", "Training materials", "Certification programs"]
       duration: "2 weeks"
       outputs: ["Training program documentation", "User adoption plan"]
-    - step: 7
-      actor: "Project Director"
-      action: "Execute pilot implementation and monitor adoption"
-<<<<<<< HEAD
+     - step: 7
+       actor: "Project Director"
+       action: "Execute pilot implementation and monitor adoption"
        tools: ["Implementation tracking dashboards", "User feedback systems"]
-      duration: "6 weeks"
-=======
-      tools: ["Implementation tracking dashboards", "User feedback systems"]
        duration: "6 weeks"
->>>>>>> origin/master
-      outputs: ["Pilot results analysis", "Full rollout plan"]
+       outputs: ["Pilot results analysis", "Full rollout plan"]
   success_criteria: "Project delivery time reduced by 20%, cost overruns decreased by 30%, safety compliance improved by 40%"
   failure_modes: ["User adoption resistance", "Technical integration issues", "Data migration problems", "Insufficient training"]
-  metrics:
-     - "Project delivery time reduction: Target 20%"
-     - "Cost overruns decrease: Target 30%"
-     - "Safety compliance improvement: Target 40%"
-     - "User adoption rate: Target >80%"
-     - "System uptime: Target 99.5%"
-     - "Training completion rate: Target 95%"
-     - "Data accuracy improvement: Target 25%"
-     - "Stakeholder satisfaction: Target 4.5/5"
+   metrics:
+    - "Project delivery time reduction: Target 20%"
+    - "Cost overruns decrease: Target 30%"
+    - "Safety compliance improvement: Target 40%"
+    - "User adoption rate: Target >80%"
+    - "System uptime: Target 99.5%"
+    - "Training completion rate: Target 95%"
+    - "Data accuracy improvement: Target 25%"
+    - "Stakeholder satisfaction: Target 4.5/5"

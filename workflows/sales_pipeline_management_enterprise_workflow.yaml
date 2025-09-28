@@ -42,25 +42,20 @@ workflow:
       tools: ["E-signature platform"]
       duration: "3 days"
       outputs: ["Signed contract", "Closed deal"]
-    - step: 7
-      actor: "Customer Success"
-      action: "Handover to customer success team"
-<<<<<<< HEAD
+     - step: 7
+       actor: "Customer Success"
+       action: "Handover to customer success team"
        tools: ["CRM", "Onboarding checklist"]
-      duration: "1 day"
-=======
-      tools: ["CRM", "Onboarding checklist"]
        duration: "1 day"
->>>>>>> origin/master
-      outputs: ["Customer success plan"]
+       outputs: ["Customer success plan"]
   success_criteria: "Deal closed within 90 days, customer satisfaction score >8/10"
   failure_modes: ["Lead disqualification", "Competitor win", "Budget constraints", "Internal approval delays"]
-  metrics:
-     - "Sales cycle length: Target <90 days"
-     - "Win rate: Target >25%"
-     - "Lead conversion rate: Target >15%"
-     - "Customer satisfaction: Target >8/10"
-     - "Proposal acceptance rate: Target >60%"
-     - "Contract execution time: Target <7 days"
-     - "Revenue per deal: Target >$500K"
-     - "Customer retention rate: Target >90%"
+   metrics:
+    - "Sales cycle length: Target <90 days"
+    - "Win rate: Target >25%"
+    - "Lead conversion rate: Target >15%"
+    - "Customer satisfaction: Target >8/10"
+    - "Proposal acceptance rate: Target >60%"
+    - "Contract execution time: Target <7 days"
+    - "Revenue per deal: Target >$500K"
+    - "Customer retention rate: Target >90%"

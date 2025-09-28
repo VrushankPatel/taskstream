@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_digital_legacy_migration"
+  title: "Legacy System Migration Workflow"
+  department: "IT Operations"
+  complexity: "high"
+  participants: ["IT Director", "Migration Architect", "Data Migration Specialist", "Change Management Lead", "Business Process Owner"]
+  trigger: "Legacy system end-of-life or performance degradation"
+  steps:
+    - step: 1
+      actor: "IT Director"
+      action: "Assess legacy system dependencies and migration scope"
+      tools: ["System dependency mapping tools", "Migration assessment frameworks", "Risk analysis software"]
+      duration: "4 weeks"
+      outputs: ["System assessment report", "Migration scope document", "Risk mitigation plan"]
+    - step: 2
+      actor: "Migration Architect"
+      action: "Design target architecture and migration strategy"
+      tools: ["Architecture design platforms", "Migration planning templates", "Cloud migration tools"]
+      duration: "6 weeks"
+      outputs: ["Target architecture design", "Migration strategy document", "Technical roadmap"]
+    - step: 3
+      actor: "Data Migration Specialist"
+      action: "Plan and execute data migration processes"
+      tools: ["Data profiling tools", "ETL platforms", "Data validation frameworks"]
+      duration: "8 weeks"
+      outputs: ["Data migration plan", "Data quality reports", "Migration execution logs"]
+    - step: 4
+      actor: "Change Management Lead"
+      action: "Develop training and communication plans"
+      tools: ["Change management frameworks", "Training development platforms", "Communication planning tools"]
+      duration: "5 weeks"
+      outputs: ["Training curriculum", "Communication plan", "User adoption strategy"]
+    - step: 5
+      actor: "Business Process Owner"
+      action: "Validate business processes in new system"
+      tools: ["Process validation checklists", "User acceptance testing tools", "Business continuity plans"]
+      duration: "4 weeks"
+      outputs: ["Process validation report", "User acceptance test results", "Go-live readiness assessment"]
+    - step: 6
+      actor: "Cross-functional Team"
+      action: "Execute go-live and post-migration support"
+      tools: ["Go-live checklists", "Monitoring dashboards", "Support ticketing systems"]
+      duration: "6 weeks"
+      outputs: ["Go-live execution report", "Post-migration support metrics", "Lessons learned document"]
+  success_criteria: "Successful migration with 99.9% data integrity and minimal business disruption"
+  failure_modes: ["Data loss or corruption", "Extended downtime", "User adoption failures", "Cost overruns"]

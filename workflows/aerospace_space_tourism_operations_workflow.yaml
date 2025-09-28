@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_aerospace_space_tourism"
+  title: "Space Tourism Operations Workflow"
+  department: "Space Operations"
+  complexity: "high"
+  participants: ["Operations Director", "Flight Safety Officer", "Mission Control Lead", "Passenger Experience Manager", "Regulatory Compliance Manager"]
+  trigger: "Commercial space tourism mission scheduled"
+  steps:
+    - step: 1
+      actor: "Operations Director"
+      action: "Develop comprehensive mission plan and timeline"
+      tools: ["Mission planning software", "Timeline management tools", "Resource allocation systems"]
+      duration: "8 weeks"
+      outputs: ["Mission execution plan", "Timeline and milestones", "Resource requirements document"]
+    - step: 2
+      actor: "Flight Safety Officer"
+      action: "Conduct safety assessments and emergency preparedness"
+      tools: ["Safety analysis frameworks", "Emergency response systems", "Risk assessment matrices"]
+      duration: "6 weeks"
+      outputs: ["Safety assessment report", "Emergency procedures manual", "Risk mitigation strategies"]
+    - step: 3
+      actor: "Regulatory Compliance Manager"
+      action: "Ensure regulatory compliance and obtain certifications"
+      tools: ["Regulatory compliance databases", "Certification tracking systems", "Legal consultation platforms"]
+      duration: "10 weeks"
+      outputs: ["Regulatory compliance documentation", "Certification approvals", "Legal compliance reports"]
+    - step: 4
+      actor: "Passenger Experience Manager"
+      action: "Design passenger preparation and experience programs"
+      tools: ["Experience design frameworks", "Training program development tools", "Customer feedback systems"]
+      duration: "6 weeks"
+      outputs: ["Passenger preparation curriculum", "Experience design specifications", "Customer service protocols"]
+    - step: 5
+      actor: "Mission Control Lead"
+      action: "Establish mission control operations and monitoring"
+      tools: ["Mission control systems", "Real-time monitoring platforms", "Communication protocols"]
+      duration: "4 weeks"
+      outputs: ["Mission control procedures", "Monitoring protocols", "Communication plans"]
+    - step: 6
+      actor: "Cross-functional Team"
+      action: "Execute mission and conduct post-mission review"
+      tools: ["Mission execution tracking", "Data analysis platforms", "Debriefing frameworks"]
+      duration: "2 weeks + post-mission"
+      outputs: ["Mission execution report", "Performance metrics", "Lessons learned analysis"]
+  success_criteria: "Successful mission completion with passenger safety and positive experience"
+  failure_modes: ["Regulatory delays", "Safety concerns", "Technical failures", "Passenger experience issues"]

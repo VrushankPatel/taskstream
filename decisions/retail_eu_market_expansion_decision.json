@@ -1,0 +1,37 @@
+{
+  "scenario_id": "retail_eu_market_expansion_2025",
+  "context": "European retail expansion opportunity for North American fashion retailer",
+  "stakeholders": {
+    "requester": "VP International Expansion",
+    "approvers": ["CEO", "CFO", "Board"],
+    "influencers": ["EU Market Analyst", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "EU market entry and store network establishment",
+    "urgency": "medium",
+    "justification": "Growing EU luxury market and brand recognition"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "2 months",
+      "activities": ["EU market research", "Competitive analysis", "Regulatory review"],
+      "outcome": "Positive market opportunity identified"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "1 month",
+      "activities": ["ROI modeling", "Cash flow projections", "Risk assessment"],
+      "outcome": "Approved for pilot phase"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "5-year revenue growth of €50M",
+    "projected_value": "$25M NPV",
+    "risk_factors": ["Currency fluctuations", "EU regulatory changes", "Local competition"]
+  },
+  "decision_criteria": ["Market potential >€100M", "ROI >15%", "Regulatory compliance feasible"],
+  "outcome": "Approved",
+  "lessons_learned": "Early local partner engagement critical for EU success"
+}

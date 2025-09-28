@@ -1,0 +1,25 @@
+workflow:
+  id: "workflow_retail_customer_complaint_resolution"
+  title: "Retail Customer Complaint Resolution Process"
+  department: "Customer Service"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Store Manager", "Customer"]
+  trigger: "Customer submits complaint via app, phone, or in-store"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Acknowledge complaint and gather details"
+      tools: ["CRM system", "Complaint form"]
+      duration: "15 minutes"
+      outputs: ["Complaint record"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Determine resolution and communicate to customer"
+      tools: ["CRM system", "Store credit system"]
+      duration: "30 minutes"
+      outputs: ["Resolution confirmation"]
+  success_criteria: "Customer satisfaction rating above 4/5"
+  failure_modes: ["Delayed response", "Inadequate resolution"]
+  metrics:
+    - "Average resolution time: <24 hours"
+    - "Customer satisfaction rate: >90%"

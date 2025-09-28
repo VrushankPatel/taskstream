@@ -1,0 +1,25 @@
+workflow:
+  id: "workflow_retail_simple_inventory_check"
+  title: "Retail Simple Inventory Check Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Associate", "Inventory Manager"]
+  trigger: "Daily inventory verification"
+  steps:
+    - step: 1
+      actor: "Store Associate"
+      action: "Scan shelf items with handheld device"
+      tools: ["Inventory scanner", "Mobile app"]
+      duration: "30 minutes"
+      outputs: ["Inventory count data"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Review discrepancies and update system"
+      tools: ["Inventory management system"]
+      duration: "15 minutes"
+      outputs: ["Updated inventory records"]
+  success_criteria: "Inventory accuracy within 2% variance"
+  failure_modes: ["Scanner malfunction", "Manual counting errors"]
+  metrics:
+    - "Inventory accuracy rate: >98%"
+    - "Time per check: <45 minutes"

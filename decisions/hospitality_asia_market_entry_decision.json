@@ -1,0 +1,31 @@
+{
+  "scenario_id": "hospitality_asia_market_entry_2025",
+  "context": "Asian market expansion for international hotel chain",
+  "stakeholders": {
+    "requester": "VP Asia Operations",
+    "approvers": ["CEO", "Regional President"],
+    "influencers": ["Asia Market Director", "Finance Controller"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Hotel development in Southeast Asia",
+    "urgency": "high",
+    "justification": "Rapid tourism growth in Asia Pacific"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "3 months",
+      "activities": ["Site selection", "Local partnerships", "Financial modeling"],
+      "outcome": "Strong growth potential confirmed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15 new hotels in 5 years",
+    "projected_value": "$40M annual revenue",
+    "risk_factors": ["Political instability", "Currency volatility", "Cultural adaptation"]
+  },
+  "decision_criteria": ["Market growth >8%", "Local partner availability", "Financial returns >12%"],
+  "outcome": "Approved",
+  "lessons_learned": "Cultural adaptation and local partnerships essential"
+}

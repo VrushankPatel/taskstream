@@ -1,0 +1,31 @@
+{
+  "scenario_id": "utilities_sustainable_energy_investment_2025",
+  "context": "Utility company evaluating renewable energy portfolio expansion",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Finance Director"]
+  },
+  "request": {
+    "amount": "$200M",
+    "purpose": "Solar and wind farm development",
+    "urgency": "high",
+    "justification": "Regulatory requirements and market demand for clean energy"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "4 months",
+      "activities": ["Site assessments", "Grid integration studies", "Environmental impact"],
+      "outcome": "Feasible with government incentives"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% renewable energy portfolio by 2030",
+    "projected_value": "$50M annual savings",
+    "risk_factors": ["Weather dependency", "Technology costs", "Regulatory changes"]
+  },
+  "decision_criteria": ["Payback period <10 years", "Carbon reduction >50%", "Grid stability maintained"],
+  "outcome": "Approved",
+  "lessons_learned": "Government incentives crucial for renewable economics"
+}

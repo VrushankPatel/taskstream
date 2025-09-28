@@ -1,0 +1,25 @@
+workflow:
+  id: "workflow_insurance_simple_claim_intake"
+  title: "Insurance Simple Claim Intake Process"
+  department: "Claims"
+  complexity: "simple"
+  participants: ["Claims Representative", "Policyholder"]
+  trigger: "Policyholder reports incident"
+  steps:
+    - step: 1
+      actor: "Claims Representative"
+      action: "Collect basic incident details and policy information"
+      tools: ["Claims intake system", "Phone/email"]
+      duration: "10 minutes"
+      outputs: ["Initial claim record"]
+    - step: 2
+      actor: "Claims Representative"
+      action: "Verify coverage and provide claim number"
+      tools: ["Policy database", "Claims system"]
+      duration: "5 minutes"
+      outputs: ["Claim confirmation", "Next steps"]
+  success_criteria: "Claim recorded within 15 minutes"
+  failure_modes: ["Incomplete information", "System access issues"]
+  metrics:
+    - "Intake completion rate: >95%"
+    - "Average intake time: <12 minutes"

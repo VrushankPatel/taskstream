@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_inventory_optimization"
+  title: "Retail Inventory Optimization Process"
+  department: "Inventory Management"
+  complexity: "medium"
+  participants: ["Inventory Manager", "Data Analyst", "Store Operations", "Procurement Team", "Sales Team"]
+  trigger: "Monthly inventory review or demand signal change"
+  steps:
+    - step: 1
+      actor: "Data Analyst"
+      action: "Analyze sales data, seasonality patterns, and market trends"
+      tools: ["POS System", "Inventory Management Software", "Business Intelligence Tools"]
+      duration: "Weekly"
+      outputs: ["Demand forecast report"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Calculate optimal inventory levels using ABC analysis and safety stock formulas"
+      decision_points: ["Reorder points", "Economic order quantities"]
+      duration: "Bi-weekly"
+      outputs: ["Inventory optimization plan"]
+    - step: 3
+      actor: "Procurement Team"
+      action: "Place orders based on optimization recommendations and supplier lead times"
+      tools: ["Procurement System", "Supplier Portals"]
+      duration: "As needed"
+      outputs: ["Purchase orders"]
+    - step: 4
+      actor: "Store Operations"
+      action: "Implement planogram changes and product placement optimizations"
+      tools: ["Store Layout Software", "Inventory Tracking System"]
+      duration: "Monthly"
+      outputs: ["Store layout updates"]
+    - step: 5
+      actor: "Sales Team"
+      action: "Monitor sell-through rates and provide feedback on product performance"
+      tools: ["Sales Dashboard", "Customer Feedback System"]
+      duration: "Ongoing"
+      outputs: ["Performance insights"]
+  success_criteria: "Reduce stockouts by 50%, minimize excess inventory by 30%"
+  failure_modes: ["Inaccurate demand forecasting", "Supplier delivery delays", "Poor data quality"]

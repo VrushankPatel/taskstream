@@ -1,0 +1,40 @@
+{
+  "scenario_id": "environmental_risk_management",
+  "context": "Energy company, 8,000 employees, facing increasing regulatory pressure on carbon emissions",
+  "stakeholders": {
+    "requester": "VP Sustainability",
+    "approvers": ["CEO", "Board ESG Committee"],
+    "influencers": ["Chief Risk Officer", "Operations Directors", "Environmental Consultants"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Environmental risk management system including carbon tracking, regulatory compliance automation, and ESG reporting",
+    "urgency": "high",
+    "justification": "New regulations require detailed emissions reporting by 2026, current manual processes insufficient"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment",
+      "duration": "4 weeks",
+      "activities": ["Regulatory analysis", "Current capability audit", "Gap analysis"],
+      "outcome": "Critical gaps identified, immediate action required"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Vendor selection", "Technology assessment", "Integration planning"],
+      "outcome": "Preferred solution selected with customization requirements"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "3 weeks",
+      "activities": ["Budget approval", "Timeline confirmation", "Resource allocation"],
+      "outcome": "Approved with priority implementation for high-risk areas"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Regulatory compliance assurance, reduced carbon emissions, improved ESG ratings",
+    "projected_roi": "Cost avoidance through fines prevention, potential revenue from carbon credits",
+    "risk_factors": ["Technology implementation challenges", "Data accuracy issues", "Regulatory changes"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "medical_billing_automation_q4_2025",
+  "context": "Large hospital system, 5,000 employees, implementing AI-driven medical billing automation",
+  "stakeholders": {
+    "requester": "CFO",
+    "approvers": ["CEO", "Chief Medical Officer", "Compliance Officer"],
+    "influencers": ["Revenue Cycle Director", "IT Director", "Patient Experience Team"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "Implement AI-powered medical billing and claims processing system",
+    "urgency": "high",
+    "justification": "Reduce claim denials by 40%, improve cash flow, comply with new billing regulations"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "3 weeks",
+      "activities": ["Vendor evaluation", "ROI modeling", "Regulatory compliance review"],
+      "outcome": "Proceed with pilot program"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "8 weeks",
+      "activities": ["System integration", "Staff training", "Process optimization"],
+      "outcome": "Pilot successful, 35% efficiency improvement"
+    },
+    {
+      "stage": "full_rollout_decision",
+      "duration": "2 weeks",
+      "activities": ["Risk assessment", "Budget approval", "Timeline planning"],
+      "outcome": "Approved for enterprise-wide implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$8M annually",
+    "projected_claim_accuracy": "98%",
+    "risk_factors": ["HIPAA compliance challenges", "Staff resistance to automation", "Integration complexity"]
+  }
+}

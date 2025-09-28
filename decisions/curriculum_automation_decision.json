@@ -1,0 +1,40 @@
+{
+  "scenario_id": "education_curriculum_automation_q3_2026",
+  "context": "State university system, 50,000 students, adopting AI curriculum development tools",
+  "stakeholders": {
+    "requester": "Provost",
+    "approvers": ["President", "Academic Senate", "IT Director"],
+    "influencers": ["Department Chairs", "Faculty Representatives", "Student Government"]
+  },
+  "request": {
+    "amount": "$1.8M",
+    "purpose": "Implement AI-powered curriculum development and assessment automation",
+    "urgency": "medium",
+    "justification": "Accelerate course development, improve learning outcomes, reduce faculty workload"
+  },
+  "decision_process": [
+    {
+      "stage": "faculty_consultation",
+      "duration": "6 weeks",
+      "activities": ["Faculty surveys", "Focus groups", "Pilot course development"],
+      "outcome": "Mixed faculty feedback, concerns about academic quality"
+    },
+    {
+      "stage": "quality_assurance_framework",
+      "duration": "8 weeks",
+      "activities": ["Develop quality standards", "Create review processes", "Test automation tools"],
+      "outcome": "Quality framework established, faculty concerns addressed"
+    },
+    {
+      "stage": "phased_implementation",
+      "duration": "12 weeks",
+      "activities": ["Pilot programs", "Training sessions", "Feedback collection"],
+      "outcome": "Approved for gradual rollout with human oversight"
+    }
+  ],
+  "business_impact": {
+    "expected_time_savings": "50%",
+    "projected_learning_improvement": "20%",
+    "risk_factors": ["Faculty resistance", "Quality control challenges", "Technology limitations"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "scenario_id": "iot_industrial_deployment",
+  "context": "Industrial manufacturing firm, 2,000 employees, deploying IoT sensors across production facilities",
+  "stakeholders": {
+    "requester": "Director of Operations",
+    "approvers": ["COO", "CTO"],
+    "influencers": ["Plant Managers", "IT Infrastructure Team", "Safety Officer"]
+  },
+  "request": {
+    "amount": "$1,800,000",
+    "purpose": "IoT sensor network deployment for predictive maintenance and process optimization",
+    "urgency": "high",
+    "justification": "Current maintenance costs are 15% of revenue, predictive maintenance could reduce by 30%"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Single facility pilot", "Performance monitoring", "Cost analysis"],
+      "outcome": "Pilot successful, expand to 3 facilities"
+    },
+    {
+      "stage": "scalability_assessment",
+      "duration": "4 weeks",
+      "activities": ["Network capacity planning", "Data management strategy", "Integration testing"],
+      "outcome": "Approved for full deployment with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "30% reduction in maintenance costs, 20% improvement in equipment uptime",
+    "projected_roi": "18 months payback period",
+    "risk_factors": ["Network security vulnerabilities", "Data overload", "Employee training requirements"]
+  }
+}

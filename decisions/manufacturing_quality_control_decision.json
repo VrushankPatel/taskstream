@@ -1,0 +1,46 @@
+{
+  "scenario_id": "manufacturing_quality_investigation_2025",
+  "context": "Automotive parts manufacturer, 800 employees, investigating quality defects in brake components",
+  "stakeholders": {
+    "requester": "Quality Control Manager",
+    "approvers": ["Plant Manager", "VP Operations", "CEO"],
+    "influencers": ["Engineering Team", "Supplier Quality", "Customer Service", "Legal"]
+  },
+  "request": {
+    "amount": "$500,000",
+    "purpose": "Quality improvement initiative and recall preparation",
+    "urgency": "critical",
+    "justification": "Safety-critical defect discovered, potential liability and brand damage"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_assessment",
+      "duration": "1 day",
+      "activities": ["Defect root cause analysis", "Impact scope determination", "Safety risk evaluation"],
+      "outcome": "Critical safety defect identified"
+    },
+    {
+      "stage": "containment_actions",
+      "duration": "2 days",
+      "activities": ["Production halt", "Inventory quarantine", "Customer notification"],
+      "outcome": "All affected products contained"
+    },
+    {
+      "stage": "corrective_action_planning",
+      "duration": "1 week",
+      "activities": ["Process improvement design", "Supplier evaluation", "Quality system updates"],
+      "outcome": "Comprehensive improvement plan"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "2 days",
+      "activities": ["Financial impact assessment", "Legal risk review", "Strategic implications"],
+      "outcome": "Approved with enhanced oversight"
+    }
+  ],
+  "business_impact": {
+    "expected_costs": "$750,000",
+    "revenue_impact": "$2M lost sales",
+    "risk_factors": ["Product liability lawsuits", "Regulatory fines", "Customer loss"]
+  }
+}

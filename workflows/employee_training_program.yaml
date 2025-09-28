@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_008"
+  title: "Employee Training Program"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Manager", "Department Heads", "Employees", "Training Coordinators", "External Trainers"]
+  trigger: "New hire onboarding or skill gap identified"
+  steps:
+    - step: 1
+      actor: "HR Manager"
+      action: "Assess training needs and develop training plan"
+      tools: ["Skills assessment", "Performance reviews"]
+      duration: "2 weeks"
+      outputs: ["Training needs analysis", "Training calendar"]
+    - step: 2
+      actor: "Training Coordinators"
+      action: "Design training content and materials"
+      tools: ["Learning management system", "Content creation tools"]
+      duration: "3 weeks"
+      outputs: ["Training modules", "Learning resources"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Approve training schedules and assign participants"
+      decision_points: ["Business impact", "Resource availability"]
+      duration: "1 week"
+      outputs: ["Training assignments", "Schedule approvals"]
+    - step: 4
+      actor: "External Trainers"
+      action: "Deliver training sessions"
+      tools: ["Virtual training platform", "Assessment tools"]
+      duration: "1-4 weeks"
+      outputs: ["Training sessions", "Participant feedback"]
+    - step: 5
+      actor: "Employees"
+      action: "Complete training and assessments"
+      tools: ["Online learning platform", "Knowledge checks"]
+      duration: "Ongoing"
+      outputs: ["Completion certificates", "Assessment results"]
+    - step: 6
+      actor: "HR Manager"
+      action: "Evaluate training effectiveness and gather feedback"
+      tools: ["Survey tools", "Performance metrics"]
+      duration: "2 weeks"
+      outputs: ["Training evaluation report", "Improvement recommendations"]
+    - step: 7
+      actor: "Training Coordinators"
+      action: "Update training materials and programs"
+      tools: ["Content management", "Version control"]
+      duration: "Ongoing"
+      outputs: ["Updated training content", "Program enhancements"]
+  success_criteria: "Employees demonstrate improved skills and performance"
+  failure_modes: ["Low participation rates", "Outdated content", "Lack of follow-up"]

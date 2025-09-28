@@ -1,0 +1,46 @@
+{
+  "scenario_id": "saas_feature_prioritization_q1_2025",
+  "context": "B2B SaaS company, 150 employees, prioritizing features for next product release",
+  "stakeholders": {
+    "requester": "Product Manager",
+    "approvers": ["VP Product", "Chief Product Officer"],
+    "influencers": ["Engineering Lead", "Customer Success", "Sales Team", "Marketing"]
+  },
+  "request": {
+    "amount": "$300,000",
+    "purpose": "Develop advanced reporting dashboard feature",
+    "urgency": "medium",
+    "justification": "Top customer request, competitive advantage, high ROI potential"
+  },
+  "decision_process": [
+    {
+      "stage": "feature_evaluation",
+      "duration": "1 week",
+      "activities": ["Customer feedback analysis", "Competitive research", "Technical feasibility assessment"],
+      "outcome": "High customer demand confirmed"
+    },
+    {
+      "stage": "prioritization_scoring",
+      "duration": "3 days",
+      "activities": ["RICE scoring methodology", "Resource capacity analysis", "Dependency mapping"],
+      "outcome": "Feature ranked #2 priority"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "1 week",
+      "activities": ["ROI calculations", "Market opportunity analysis", "Risk assessment"],
+      "outcome": "Strong business case with 300% ROI"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "2 days",
+      "activities": ["Portfolio review", "Resource allocation", "Timeline approval"],
+      "outcome": "Approved for Q1 development"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$1.2M",
+    "customer_satisfaction": "15% improvement",
+    "risk_factors": ["Development delays", "Scope creep", "Competitor response"]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scenario_id": "cryptocurrency_compliance_q3_2025",
+  "context": "Regional bank, $50B assets, evaluating cryptocurrency custody and trading services for high-net-worth clients",
+  "stakeholders": {
+    "requester": "Head of Wealth Management",
+    "approvers": ["Chief Compliance Officer", "Chief Risk Officer", "Board Risk Committee"],
+    "influencers": ["Head of Technology", "External Regulatory Consultants", "Client Advisory Board"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Implement institutional-grade cryptocurrency custody and compliance infrastructure",
+    "urgency": "medium",
+    "justification": "Client demand for crypto services increasing 150% YoY, competitive pressure from fintechs"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "4 weeks",
+      "activities": ["Regulatory landscape analysis", "Compliance framework development", "Legal opinion procurement"],
+      "outcome": "Regulatory pathway identified with acceptable risk profile"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Custody solution assessment", "Integration with existing systems", "Security architecture review"],
+      "outcome": "Technology stack selected with SOC 2 compliance"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "3 weeks",
+      "activities": ["Operational risk analysis", "Cybersecurity threat modeling", "Insurance requirements"],
+      "outcome": "Comprehensive risk mitigation plan developed"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Executive committee review", "Final risk approval"],
+      "outcome": "Approved with enhanced monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["New revenue from crypto services", "Retention of high-net-worth clients", "Modernization of service offerings"],
+    "projected_roi": "35% annual return through service fees and client retention",
+    "risk_factors": ["Regulatory changes", "Cybersecurity threats", "Market volatility impact on client assets"],
+    "success_metrics": ["$2B crypto assets under management", "Zero compliance violations", "Client retention rate >98%"]
+  }
+}

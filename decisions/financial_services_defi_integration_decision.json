@@ -1,0 +1,47 @@
+{
+  "scenario_id": "defi_integration_q1_2025",
+  "context": "Mid-size fintech company, 500 employees, evaluating DeFi protocol integration for institutional clients",
+  "stakeholders": {
+    "requester": "Head of Digital Assets",
+    "approvers": ["CTO", "Chief Compliance Officer", "CEO"],
+    "influencers": ["Head of Institutional Sales", "Blockchain Engineering Lead", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "Develop DeFi integration platform for yield farming and liquidity provision services",
+    "urgency": "medium",
+    "justification": "Institutional demand for DeFi exposure growing 300% YoY, competitive advantage opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 weeks",
+      "activities": ["Competitive landscape analysis", "Client demand surveys", "Regulatory environment assessment"],
+      "outcome": "Strong market opportunity identified"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "4 weeks",
+      "activities": ["Protocol integration testing", "Security audits", "Scalability assessments"],
+      "outcome": "Technical feasibility confirmed with acceptable risks"
+    },
+    {
+      "stage": "compliance_review",
+      "duration": "3 weeks",
+      "activities": ["Regulatory compliance framework", "AML/KYC integration", "Insurance requirements"],
+      "outcome": "Compliance framework developed"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "8 weeks",
+      "activities": ["Limited client pilot", "Performance monitoring", "Risk management testing"],
+      "outcome": "Pilot successful, full implementation approved"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["New revenue stream from DeFi services", "Expanded institutional client base", "Technology leadership position"],
+    "projected_roi": "40% annual return through new service fees",
+    "risk_factors": ["Smart contract vulnerabilities", "Regulatory uncertainty", "Market volatility"],
+    "success_metrics": ["$50M AUM in DeFi products", "Zero security incidents", "Client satisfaction >95%"]
+  }
+}

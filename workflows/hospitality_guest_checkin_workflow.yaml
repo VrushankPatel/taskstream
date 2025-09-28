@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_hospitality_checkin_001"
+  title: "Hotel Guest Check-in Process"
+  department: "Front Office"
+  complexity: "simple"
+  participants: ["Front Desk Agent", "Guest", "Housekeeping Supervisor"]
+  trigger: "Guest arrival at hotel"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Verify reservation and collect guest identification"
+      tools: ["PMS System", "ID Scanner"]
+      duration: "5 minutes"
+      outputs: ["Verified guest profile"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Process payment and issue room key"
+      tools: ["Credit Card Terminal", "Key Management System"]
+      duration: "3 minutes"
+      outputs: ["Room assignment", "Key card"]
+    - step: 3
+      actor: "Housekeeping Supervisor"
+      action: "Confirm room readiness and update status"
+      tools: ["Housekeeping Management App"]
+      duration: "2 minutes"
+      outputs: ["Room status update"]
+  success_criteria: "Check-in completed within 10 minutes, 100% room readiness"
+  failure_modes: ["System outages", "Room not ready", "Payment issues"]
+  metrics:
+    - "Average check-in time: Target <8 minutes"
+    - "Guest satisfaction score: Target >4.5/5"
+    - "Room readiness rate: Target >98%"

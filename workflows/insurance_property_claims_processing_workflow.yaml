@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_insurance_property_claims_001"
+  title: "Insurance Property Claims Processing Workflow"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Underwriter", "Claims Manager", "Policyholder"]
+  trigger: "Property damage claim submission"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim documentation and verify policy coverage"
+      tools: ["Claims Management System", "Policy Database"]
+      duration: "2 hours"
+      outputs: ["Initial claim assessment"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Investigate claim details and gather evidence"
+      tools: ["Document Management System", "External Database Access"]
+      duration: "4 hours"
+      outputs: ["Investigation report"]
+    - step: 3
+      actor: "Underwriter"
+      action: "Assess claim validity and calculate settlement amount"
+      tools: ["Claims Calculation Software", "Fraud Detection Tools"]
+      duration: "3 hours"
+      outputs: ["Settlement recommendation"]
+    - step: 4
+      actor: "Claims Manager"
+      action: "Review and approve settlement, communicate with policyholder"
+      tools: ["Approval Workflow System"]
+      duration: "1 hour"
+      outputs: ["Approved settlement", "Payment processing"]
+  success_criteria: "Claims processed within 30 days, accuracy >95%"
+  failure_modes: ["Incomplete documentation", "Fraud detection flags", "Coverage disputes"]
+  metrics:
+    - "Average processing time: Target <21 days"
+    - "Claims accuracy rate: Target >95%"
+    - "Customer satisfaction: Target >4.0/5"

@@ -1,0 +1,37 @@
+{
+  "scenario_id": "hospitality_dynamic_pricing_2025",
+  "context": "Hotel chain (20 properties, $150M revenue) evaluating dynamic pricing system",
+  "stakeholders": {
+    "requester": "Director of Revenue Management",
+    "approvers": ["COO", "CFO"],
+    "influencers": ["IT Director", "Operations Manager", "Marketing VP"]
+  },
+  "request": {
+    "amount": "$800,000",
+    "purpose": "Dynamic pricing system implementation",
+    "urgency": "medium",
+    "justification": "Current manual processes inefficient, missing revenue optimization opportunities"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "2 weeks",
+      "activities": ["Stakeholder interviews", "Current process analysis", "Vendor research"],
+      "outcome": "Defined system requirements"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "4 weeks",
+      "activities": ["RFPs issued", "Vendor presentations", "Reference checks"],
+      "outcome": "Selected vendor with 18-month ROI"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% increase in revenue per available room",
+    "projected_value": "$2,250,000 annual benefit",
+    "risk_factors": ["Implementation complexity", "Staff training needs", "System integration challenges"]
+  },
+  "decision_criteria": ["Revenue optimization capabilities", "Ease of use", "Integration with PMS", "Vendor support"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive requirements gathering prevents scope creep"
+}

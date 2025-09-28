@@ -1,0 +1,37 @@
+{
+  "scenario_id": "insurance_parametric_products_2025",
+  "context": "Property insurance company ($500M premium) considering parametric insurance products",
+  "stakeholders": {
+    "requester": "VP Product Development",
+    "approvers": ["Chief Underwriter", "CFO", "CEO"],
+    "influencers": ["Head of Actuarial", "IT Director", "Marketing Director"]
+  },
+  "request": {
+    "amount": "$1,200,000",
+    "purpose": "Development and launch of parametric insurance products",
+    "urgency": "medium",
+    "justification": "Market demand for faster claims settlement, competitive advantage"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "6 weeks",
+      "activities": ["Competitor analysis", "Customer surveys", "Regulatory review"],
+      "outcome": "Identified viable product lines"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "3 months",
+      "activities": ["Product design", "Actuarial modeling", "Technology development"],
+      "outcome": "Successful pilot with 25% faster claims"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream, improved customer satisfaction",
+    "projected_value": "$3,000,000 annual premium growth",
+    "risk_factors": ["Regulatory uncertainty", "Technology complexity", "Market acceptance"]
+  },
+  "decision_criteria": ["Market demand", "Technical feasibility", "Regulatory compliance", "Profitability"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for validating innovative products"
+}

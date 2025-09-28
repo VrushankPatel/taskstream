@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_inventory_001"
+  title: "Retail Inventory Management Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Inventory Manager", "Store Manager", "Procurement Specialist", "Warehouse Staff"]
+  trigger: "Weekly inventory cycle or stock level alerts"
+  steps:
+    - step: 1
+      actor: "Inventory Manager"
+      action: "Review automated inventory reports and identify discrepancies"
+      tools: ["Inventory Management System", "Barcode Scanner"]
+      duration: "2 hours"
+      outputs: ["Inventory discrepancy report"]
+    - step: 2
+      actor: "Procurement Specialist"
+      action: "Analyze stock levels and forecast demand for next 4 weeks"
+      tools: ["ERP System", "Sales Analytics Dashboard"]
+      duration: "4 hours"
+      outputs: ["Procurement recommendations", "Reorder quantities"]
+    - step: 3
+      actor: "Warehouse Staff"
+      action: "Conduct physical inventory count for high-value items"
+      tools: ["RFID Scanners", "Inventory Counting Software"]
+      duration: "8 hours"
+      outputs: ["Physical count verification"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Approve procurement orders and adjust pricing for slow-moving items"
+      tools: ["POS System", "Pricing Optimization Tool"]
+      duration: "1 hour"
+      outputs: ["Approved purchase orders", "Price adjustment notifications"]
+  success_criteria: "Inventory accuracy >98%, stockouts <2%, overstock <5%"
+  failure_modes: ["System data errors", "Manual counting mistakes", "Supplier delays"]
+  metrics:
+    - "Inventory turnover ratio: Target 6-8 times per year"
+    - "Stockout rate: Target <2%"
+    - "Inventory carrying cost: Target <15% of COGS"

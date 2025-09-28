@@ -35,7 +35,9 @@
   "business_impact": {
     "expected_outcome": "15% revenue increase through optimized pricing and occupancy",
     "projected_value": "$4.2M additional annual revenue",
-    "risk_factors": ["Staff resistance to AI recommendations", "System integration complexity", "Training requirements"]
+    "timeline": "18 months implementation",
+    "resources_required": ["IT integration team", "Revenue management training", "Change management support"],
+    "risk_factors": ["Staff resistance to AI recommendations", "System integration complexity", "Training requirements", "Data privacy concerns"]
   },
   "decision_criteria": ["Revenue optimization capability", "Ease of integration", "User adoption potential", "Total cost of ownership"],
   "outcome": "Approved",

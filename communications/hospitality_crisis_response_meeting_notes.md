@@ -55,10 +55,12 @@
 - Daily rate monitoring  
 - Guest satisfaction scores  
 
-**Risk Mitigation:**  
-- Monitor cash flow weekly  
-- Prepare contingency staffing plans  
-- Maintain relationships with key suppliers  
+**Risk Mitigation:**
+- Monitor cash flow weekly
+- Prepare contingency staffing plans
+- Maintain relationships with key suppliers
+- Develop emergency budget scenarios
+- Establish communication protocols for stakeholders  
 
 **Next Meeting:** Weekly revenue review calls every Monday at 8:00 AM  
 

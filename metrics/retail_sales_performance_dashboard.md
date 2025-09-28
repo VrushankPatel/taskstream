@@ -18,6 +18,8 @@ Monthly performance metrics for Q3 2025 across 45 retail locations. Overall sale
 - **Online Sessions**: 4,200,000 (+28.9% YoY)
 - **Customer Acquisition Cost**: $45 (-12.3% YoY)
 - **Repeat Purchase Rate**: 34.2% (+2.1% YoY)
+- **Customer Satisfaction Score**: 4.2/5 (+0.1 YoY)
+- **Net Promoter Score**: 42 (+3 YoY)
 
 ### Operational Metrics
 - **Inventory Turnover**: 4.8x (+0.3x YoY)

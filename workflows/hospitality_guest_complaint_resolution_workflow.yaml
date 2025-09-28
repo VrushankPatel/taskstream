@@ -12,16 +12,18 @@ workflow:
       tools: ["Guest feedback form", "Property amenities list"]
       duration: "10 minutes"
       outputs: ["Complaint documentation", "Immediate action taken"]
-     - step: 2
-       actor: "Guest Services Manager"
-       action: "Follow up within 24 hours and provide compensation if appropriate"
-       tools: ["Guest feedback system", "Compensation policy", "Property management software"]
-       decision_points: ["Complaint validity", "Compensation level"]
-       duration: "1 hour"
-       outputs: ["Resolution letter", "Compensation details"]
+    - step: 2
+      actor: "Guest Services Manager"
+      action: "Follow up within 24 hours and provide compensation if appropriate"
+      tools: ["Guest feedback system", "Compensation policy", "Property management software"]
+      decision_points: ["Complaint validity", "Compensation level"]
+      duration: "1 hour"
+      outputs: ["Resolution letter", "Compensation details"]
   success_criteria: "Guest satisfaction improved, positive review received"
   failure_modes: ["No follow-up", "Inadequate compensation", "Poor attitude"]
   metrics:
     - "Resolution rate: 95% within 24 hours"
     - "Guest satisfaction: >80% improvement"
     - "Repeat visit rate: >70% for resolved complaints"
+    - "Escalation rate: <5% of complaints"
+    - "Average resolution time: <4 hours"

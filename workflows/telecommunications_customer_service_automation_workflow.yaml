@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_telecom_service_001"
+  title: "Telecommunications Customer Service Automation Process"
+  department: "Customer Service"
+  complexity: "medium"
+  participants: ["Customer Service Manager", "Technical Support Engineer", "Automation Specialist", "Quality Assurance Lead", "IT Developer"]
+  trigger: "High call volume or service quality issues identified"
+  steps:
+    - step: 1
+      actor: "Customer Service Manager"
+      action: "Analyze customer service data and identify automation opportunities"
+      tools: ["Customer service analytics", "Call center software"]
+      duration: "1 week"
+      outputs: ["Automation opportunity report", "Priority matrix"]
+    - step: 2
+      actor: "Technical Support Engineer"
+      action: "Document common issue resolution processes"
+      tools: ["Knowledge base system", "Process mapping software"]
+      duration: "2 weeks"
+      outputs: ["Process documentation", "Issue resolution workflows"]
+    - step: 3
+      actor: "Automation Specialist"
+      action: "Design automated solutions and chatbots"
+      tools: ["Automation platforms", "AI development tools"]
+      duration: "3 weeks"
+      outputs: ["Automation design specifications", "Bot conversation flows"]
+    - step: 4
+      actor: "IT Developer"
+      action: "Develop and integrate automation systems"
+      tools: ["Development environment", "API integration tools"]
+      duration: "4 weeks"
+      outputs: ["Automated systems", "Integration test results"]
+    - step: 5
+      actor: "Quality Assurance Lead"
+      action: "Test automation accuracy and user experience"
+      tools: ["Testing frameworks", "User feedback systems"]
+      duration: "2 weeks"
+      outputs: ["Quality assurance report", "Performance metrics"]
+    - step: 6
+      actor: "Customer Service Manager"
+      action: "Deploy automation and train staff"
+      tools: ["Training platforms", "Change management tools"]
+      duration: "1 week"
+      outputs: ["Deployment report", "Training completion records"]
+    - step: 7
+      actor: "Automation Specialist"
+      action: "Monitor performance and optimize automation"
+      tools: ["Analytics dashboards", "Performance monitoring tools"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Optimization recommendations"]
+  success_criteria: "30% reduction in call volume, customer satisfaction maintained >90%"
+  failure_modes: ["Poor automation design", "Technical integration issues", "Staff resistance to change", "Inadequate testing"]

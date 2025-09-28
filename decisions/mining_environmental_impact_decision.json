@@ -1,0 +1,47 @@
+{
+  "scenario_id": "mining_environmental_impact_2025",
+  "context": "Large-scale mining operation, 500 employees, facing new environmental regulations",
+  "stakeholders": {
+    "requester": "Environmental Manager",
+    "approvers": ["CEO", "Chief Operating Officer", "Board Environmental Committee"],
+    "influencers": ["Government Regulators", "Local Community Leaders", "Environmental NGOs"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Environmental remediation and monitoring systems upgrade",
+    "urgency": "high",
+    "justification": "Compliance with new EPA regulations and community pressure"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "6 weeks",
+      "activities": ["Environmental impact study", "Regulatory compliance review", "Community consultation"],
+      "outcome": "Significant environmental impact identified requiring immediate action"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Technology vendor evaluation", "Cost-benefit analysis", "Risk assessment"],
+      "outcome": "Selected comprehensive remediation package with advanced monitoring"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 weeks",
+      "activities": ["Community meetings", "NGO consultations", "Regulatory negotiations"],
+      "outcome": "Gained community support and regulatory approval"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Executive review", "Contract finalization"],
+      "outcome": "Approved with enhanced monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_environmental_improvement": "40% reduction in emissions",
+    "projected_cost_savings": "$5 million annually through efficiency gains",
+    "risk_factors": ["Regulatory fines", "Community opposition", "Technology implementation challenges"],
+    "timeline": "18 months to full compliance"
+  }
+}

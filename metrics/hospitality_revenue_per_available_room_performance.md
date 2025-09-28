@@ -84,10 +84,24 @@ RevPAR performance tracking for luxury hotel chain with 15 properties across maj
 3. **Customer Segmentation:** Develop personalized pricing for loyalty program members
 
 ## Risk Factors
-- Economic downturn impact on business travel
-- Competitive new hotel openings
-- Fuel price fluctuations affecting leisure travel
-- Weather events impacting resort performance
+- Economic downturn impact on business travel (-15% potential revenue loss)
+- Competitive new hotel openings in downtown market
+- Fuel price fluctuations affecting leisure travel patterns
+- Weather events impacting resort performance (hurricane season exposure)
+- Supply chain disruptions affecting room amenities and maintenance
 
-## Dashboard Refresh: Daily
-## Data Sources: PMS System, Revenue Management Platform, Competitive Intelligence
+## Alerts & Thresholds
+- RevPAR below $250: Immediate revenue management review
+- Occupancy below 80%: Activate marketing campaigns
+- ADR variance >10%: Pricing strategy adjustment required
+- Customer satisfaction below 4.5/5: Service quality intervention
+
+## Data Quality Metrics
+- Data completeness: 99.8%
+- Update frequency: Real-time integration
+- Accuracy validation: Monthly audit vs. manual counts
+- Historical data retention: 5 years for trend analysis
+
+## Dashboard Refresh: Daily at 6 AM
+## Data Sources: PMS System, Revenue Management Platform, Competitive Intelligence, Customer Feedback System
+## Stakeholder Distribution: Executive Team (daily), Property Managers (weekly), Revenue Managers (real-time access)

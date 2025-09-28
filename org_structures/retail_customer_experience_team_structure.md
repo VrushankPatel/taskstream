@@ -51,10 +51,25 @@
 
 ## Key Performance Indicators
 - Customer satisfaction score: Target >90%
-- Response time: Target <24 hours
-- Resolution rate: Target >95%
+- Response time: Target <24 hours for email, <2 hours for urgent issues
+- Resolution rate: Target >95% on first contact
 - Net Promoter Score: Target >50
+- Customer retention rate: Target >85%
+- Online review rating: Target >4.2/5 stars
+
+## Communication Protocols
+- Weekly team meetings for cross-functional alignment
+- Daily stand-ups for urgent issue escalation
+- Monthly customer insights reports to executive leadership
+- Crisis communication plan for major customer incidents
+
+## Decision-Making Authority
+- Individual contributors: Handle routine customer inquiries up to $100 resolution
+- Managers: Approve resolutions up to $500 and policy exceptions
+- Directors: Strategic initiative approvals and budget decisions
+- Escalation path: Customer Service → Manager → Director → VP within 4 hours for critical issues
 
 ## Team Size: 45 employees
-## Budget: $4.2M annually
+## Budget: $4.2M annually (60% personnel, 25% technology, 15% training)
 ## Reporting Structure: Matrix organization with dotted lines to regional store managers
+## Change Management: Quarterly reviews of customer experience metrics and process improvements

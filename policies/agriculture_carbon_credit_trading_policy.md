@@ -124,8 +124,27 @@ Applies to all agricultural lands, livestock operations, and farming practices t
 - Adaptation to regulatory changes
 - Integration of stakeholder feedback
 
+## Implementation Timeline
+- **Phase 1 (Q4 2025):** Pilot program with 5 farms, establish baseline measurements
+- **Phase 2 (2026):** Scale to 50 farms, implement monitoring systems
+- **Phase 3 (2027):** Full portfolio launch, market trading commencement
+- **Phase 4 (2028):** Optimization and international market expansion
+
+## Accountability and Governance
+- **Oversight Committee:** Chief Sustainability Officer, CFO, General Counsel
+- **Program Manager:** Dedicated carbon trading specialist reporting to CSO
+- **Farmer Liaison:** Regional coordinators for farmer engagement and support
+- **Audit Committee:** Independent review of carbon accounting and trading activities
+
+## Training and Capacity Building
+- Mandatory training for all participating farmers on carbon farming practices
+- Annual certification requirements for verification teams
+- Ongoing education on market developments and regulatory changes
+- Technology training for monitoring and reporting systems
+
 ## Enforcement
-Carbon credit activities must maintain the highest standards of integrity and transparency. Any misrepresentation of carbon sequestration or emission reductions will result in immediate suspension of trading activities and potential legal action.
+Carbon credit activities must maintain the highest standards of integrity and transparency. Any misrepresentation of carbon sequestration or emission reductions will result in immediate suspension of trading activities and potential legal action. Violations will be investigated by the Audit Committee with findings reported to executive leadership.
 
 *Effective Date: October 1, 2025*
 *Approved By: Chief Sustainability Officer*
+*Review Date: September 30, 2026*

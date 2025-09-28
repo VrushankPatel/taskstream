@@ -1,0 +1,49 @@
+{
+  "scenario_id": "hospitality_dynamic_pricing_system_investment_2025",
+  "context": "Luxury hotel chain experiencing revenue leakage from static pricing strategy, considering investment in AI-driven dynamic pricing system to optimize occupancy and rates",
+  "stakeholders": {
+    "requester": "Revenue Management Director",
+    "approvers": ["CEO", "CFO", "COO"],
+    "influencers": ["Marketing Director", "Operations Manager", "IT Manager"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Implementation of AI-powered dynamic pricing platform with real-time market analysis and automated rate optimization",
+    "urgency": "medium",
+    "justification": "Competitor adoption of dynamic pricing, 15% revenue opportunity identified through manual analysis, need to capture market share"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 weeks",
+      "activities": ["Competitor pricing analysis", "Market demand forecasting", "Revenue management audit"],
+      "outcome": "Identified $2M annual revenue opportunity"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor evaluation", "Technical integration assessment", "Data privacy compliance review"],
+      "outcome": "Selected leading AI pricing platform with strong hospitality track record"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Pilot implementation in 3 properties", "Performance monitoring", "Stakeholder feedback collection"],
+      "outcome": "15% revenue increase in pilot properties with positive guest feedback"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "2 weeks",
+      "activities": ["Budget approval", "Implementation planning", "Change management strategy"],
+      "outcome": "Approved for full enterprise deployment"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "12-15% increase in total revenue, improved occupancy rates, enhanced competitive positioning",
+    "projected_value": "$3,000,000 annual revenue increase",
+    "risk_factors": ["Guest perception of unfair pricing", "Technical system failures", "Regulatory compliance issues"]
+  },
+  "decision_criteria": ["Revenue uplift potential", "Implementation complexity", "Guest experience impact", "Competitive advantage", "ROI timeline"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot testing essential for AI pricing systems, transparent communication with guests about dynamic pricing, comprehensive training required for revenue teams"
+}

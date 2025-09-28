@@ -1,0 +1,49 @@
+{
+  "scenario_id": "education_digital_learning_platform_investment_2025",
+  "context": "Mid-sized university facing declining enrollment and need for modernization, considering major investment in digital learning platform to enhance student experience and operational efficiency",
+  "stakeholders": {
+    "requester": "VP Academic Affairs",
+    "approvers": ["President", "Provost", "CFO"],
+    "influencers": ["IT Director", "Student Affairs Dean", "Faculty Senate Chair"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Implementation of comprehensive digital learning platform including LMS upgrade, adaptive learning tools, and analytics dashboard",
+    "urgency": "high",
+    "justification": "Competitive pressure from online education providers, declining traditional enrollment, need for personalized learning experiences"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "4 weeks",
+      "activities": ["Market research on digital learning platforms", "ROI analysis", "Technical feasibility assessment"],
+      "outcome": "Positive feasibility with projected 25% enrollment increase"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "3 weeks",
+      "activities": ["Faculty focus groups", "Student surveys", "Administrative review"],
+      "outcome": "Strong faculty support with concerns about training requirements"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["RFP process", "Vendor demonstrations", "Reference checks"],
+      "outcome": "Three finalist vendors selected with detailed proposals"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive committee review", "Board presentation", "Contract negotiation"],
+      "outcome": "Approved with phased implementation plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increased enrollment by 25%, improved student retention by 15%, enhanced learning outcomes",
+    "projected_value": "$1,200,000 annual revenue increase",
+    "risk_factors": ["Faculty adoption resistance", "Technical integration challenges", "Student technology access disparities"]
+  },
+  "decision_criteria": ["Financial ROI (3-year payback)", "Student experience improvement", "Faculty support level", "Technical scalability", "Vendor reputation"],
+  "outcome": "Approved",
+  "lessons_learned": "Early faculty engagement critical for technology adoption, comprehensive training program essential, phased rollout reduces implementation risk"
+}

@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_agriculture_supply_chain_traceability"
+  title: "Agriculture Supply Chain Traceability Implementation"
+  department: "Operations"
+  complexity: "complex"
+  participants: ["Supply Chain Manager", "Farm Operations Lead", "IT Manager", "Quality Assurance Specialist", "Regulatory Compliance Officer"]
+  trigger: "Regulatory requirement for food safety traceability or customer demand for transparency"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Assess current traceability gaps and define traceability requirements"
+      tools: ["Supply chain management software", "Regulatory compliance checklists"]
+      duration: "2 weeks"
+      outputs: ["Traceability requirements document", "Gap analysis report"]
+    - step: 2
+      actor: "IT Manager"
+      action: "Select and implement traceability technology platform"
+      tools: ["Blockchain/IoT traceability platforms", "Integration APIs"]
+      duration: "4 weeks"
+      outputs: ["Technology platform selection", "System architecture design"]
+    - step: 3
+      actor: "Farm Operations Lead"
+      action: "Train farm staff on data collection and traceability procedures"
+      tools: ["Training materials", "Mobile data collection apps"]
+      duration: "3 weeks"
+      outputs: ["Staff training records", "Standard operating procedures"]
+    - step: 4
+      actor: "Quality Assurance Specialist"
+      action: "Establish quality checkpoints and validation processes"
+      tools: ["Quality management system", "Testing protocols"]
+      duration: "2 weeks"
+      outputs: ["Quality control procedures", "Validation test results"]
+    - step: 5
+      actor: "Regulatory Compliance Officer"
+      action: "Conduct regulatory audit and obtain certifications"
+      tools: ["Compliance documentation", "Audit checklists"]
+      duration: "3 weeks"
+      outputs: ["Compliance certificates", "Audit reports"]
+  success_criteria: "100% traceability from farm to consumer with regulatory compliance"
+  failure_modes: ["Technology integration failures", "Staff adoption resistance", "Data accuracy issues", "Regulatory non-compliance"]
+  metrics:
+    - "Traceability coverage: 95%+ of products"
+    - "Data accuracy rate: 98%+"
+    - "Audit compliance score: 100%"
+    - "Implementation timeline: Within 6 months"

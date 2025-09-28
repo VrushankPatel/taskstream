@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_construction_modular_construction"
+  title: "Construction Modular Construction Implementation"
+  department: "Operations"
+  complexity: "complex"
+  participants: ["Project Director", "Design Manager", "Manufacturing Coordinator", "Site Manager", "Quality Control Lead"]
+  trigger: "Efficiency improvement initiative or client demand for faster delivery"
+  steps:
+    - step: 1
+      actor: "Project Director"
+      action: "Evaluate project suitability for modular construction and select pilot projects"
+      tools: ["Project evaluation framework", "Cost-benefit analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Project suitability assessment", "Pilot project selection"]
+    - step: 2
+      actor: "Design Manager"
+      action: "Adapt designs for modular manufacturing and assembly"
+      tools: ["BIM software", "Modular design templates"]
+      duration: "4 weeks"
+      outputs: ["Modular design specifications", "Manufacturing drawings"]
+    - step: 3
+      actor: "Manufacturing Coordinator"
+      action: "Coordinate with off-site manufacturing partners and quality assurance"
+      tools: ["Manufacturing management system", "Quality control protocols"]
+      duration: "6 weeks"
+      outputs: ["Manufacturing schedule", "Quality assurance reports"]
+    - step: 4
+      actor: "Site Manager"
+      action: "Plan site preparation and modular unit installation"
+      tools: ["Site planning software", "Installation checklists"]
+      duration: "2 weeks"
+      outputs: ["Site preparation plan", "Installation procedures"]
+    - step: 5
+      actor: "Quality Control Lead"
+      action: "Conduct final inspections and system integration testing"
+      tools: ["Quality inspection tools", "Testing protocols"]
+      duration: "1 week"
+      outputs: ["Final inspection reports", "System integration verification"]
+  success_criteria: "20% reduction in construction time with maintained quality standards"
+  failure_modes: ["Design adaptation challenges", "Manufacturing coordination issues", "Transportation logistics problems", "On-site integration failures"]
+  metrics:
+    - "Construction time reduction: 20%+"
+    - "Quality defect rate: <2%"
+    - "Cost per square foot: Competitive"
+    - "Client satisfaction score: 90%+"

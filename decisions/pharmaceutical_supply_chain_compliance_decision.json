@@ -1,0 +1,49 @@
+{
+  "scenario_id": "pharmaceutical_supply_chain_compliance_investment_2025",
+  "context": "Global pharmaceutical company facing increasing regulatory scrutiny on supply chain transparency, considering major investment in blockchain-based supply chain tracking system",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "Chief Compliance Officer", "CFO"],
+    "influencers": ["Head of Regulatory Affairs", "Quality Director", "IT Director"]
+  },
+  "request": {
+    "amount": "$1,800,000",
+    "purpose": "Implementation of blockchain-based supply chain traceability platform for raw materials and finished products",
+    "urgency": "high",
+    "justification": "Upcoming EU FMD regulation requirements, recent FDA warning letters, counterfeit drug concerns in supply chain"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "4 weeks",
+      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Industry benchmarking"],
+      "outcome": "Identified critical compliance gaps requiring immediate action"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Blockchain platform evaluation", "Pilot testing with suppliers", "Integration feasibility study"],
+      "outcome": "Selected enterprise blockchain solution with pharmaceutical validation"
+    },
+    {
+      "stage": "supplier_engagement",
+      "duration": "8 weeks",
+      "activities": ["Supplier capability assessment", "Contract amendments", "Training programs"],
+      "outcome": "80% supplier commitment with phased adoption plan"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "3 weeks",
+      "activities": ["Risk assessment review", "Financial impact analysis", "Board presentation"],
+      "outcome": "Approved with conditional implementation milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "100% supply chain traceability, reduced regulatory risk, enhanced product authenticity verification",
+    "projected_value": "$500,000 annual cost savings from compliance efficiency",
+    "risk_factors": ["Supplier adoption resistance", "Technology integration complexity", "Data privacy concerns", "Implementation timeline delays"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Technology maturity", "Supplier adoption feasibility", "Total cost of ownership", "Risk mitigation effectiveness"],
+  "outcome": "Approved",
+  "lessons_learned": "Early supplier engagement critical for blockchain adoption, comprehensive training programs essential, phased implementation reduces operational disruption"
+}

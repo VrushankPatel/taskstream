@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_automotive_supply_chain_resilience"
+  title: "Automotive Supply Chain Resilience Enhancement"
+  department: "Supply Chain"
+  complexity: "complex"
+  participants: ["Supply Chain Director", "Procurement Manager", "Risk Manager", "Operations Manager", "Supplier Relationship Manager"]
+  trigger: "Supply chain disruption (e.g., semiconductor shortage, natural disaster)"
+  steps:
+    - step: 1
+      actor: "Supply Chain Director"
+      action: "Conduct supply chain risk assessment and identify vulnerabilities"
+      tools: ["Risk assessment frameworks", "Supply chain mapping tools"]
+      duration: "1 week"
+      outputs: ["Risk assessment report", "Vulnerability analysis"]
+    - step: 2
+      actor: "Procurement Manager"
+      action: "Diversify supplier base and establish backup suppliers"
+      tools: ["Supplier evaluation system", "Contract management platform"]
+      duration: "4 weeks"
+      outputs: ["Supplier diversification plan", "Backup supplier contracts"]
+    - step: 3
+      actor: "Risk Manager"
+      action: "Develop contingency plans and business continuity strategies"
+      tools: ["Business continuity planning software", "Scenario planning tools"]
+      duration: "3 weeks"
+      outputs: ["Contingency plans", "Business continuity strategy"]
+    - step: 4
+      actor: "Operations Manager"
+      action: "Implement inventory optimization and safety stock strategies"
+      tools: ["Inventory management system", "Demand forecasting tools"]
+      duration: "2 weeks"
+      outputs: ["Inventory optimization plan", "Safety stock levels"]
+    - step: 5
+      actor: "Supplier Relationship Manager"
+      action: "Strengthen supplier relationships and monitoring processes"
+      tools: ["Supplier performance dashboards", "Relationship management platform"]
+      duration: "Ongoing"
+      outputs: ["Supplier performance metrics", "Relationship improvement plans"]
+  success_criteria: "Reduced supply chain disruption impact by 50% with maintained production levels"
+  failure_modes: ["Insufficient supplier diversification", "Inadequate risk monitoring", "Poor contingency execution", "Cost overruns"]
+  metrics:
+    - "Supply chain disruption frequency: <2 per year"
+    - "Recovery time from disruptions: <48 hours"
+    - "Supplier diversification index: 70%+"
+    - "Inventory carrying cost: Optimized within budget"

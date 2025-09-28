@@ -37,8 +37,13 @@ workflow:
       duration: "15 minutes"
       outputs: ["Retention campaign delivery", "Follow-up schedule"]
   success_criteria: "Customer retained with improved satisfaction and usage"
-  failure_modes: ["Inadequate intervention", "Poor timing", "Uncompetitive offers", "Communication failures"]
+   failure_modes: ["Inadequate intervention", "Poor timing", "Uncompetitive offers", "Communication failures"]
   metrics:
-    - "Churn prevention rate: 40% target"
-    - "Customer lifetime value retention: $500 average"
-    - "Response time to churn signal: 24 hours"
+    - "Churn prevention rate: Target 40% of at-risk customers retained"
+    - "Customer lifetime value retention: Target $500 average increase per retained customer"
+    - "Response time to churn signal: Target <24 hours from detection to first contact"
+    - "Retention offer acceptance rate: Target >30%"
+    - "Post-retention satisfaction score: Target >4.2/5"
+    - "Net promoter score improvement: Target +15 points for retained customers"
+    - "Cost per retained customer: Target <$50"
+    - "Long-term retention rate: Target >85% after 12 months"

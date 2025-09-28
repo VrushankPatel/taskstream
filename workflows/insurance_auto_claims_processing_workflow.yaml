@@ -37,8 +37,13 @@ workflow:
       duration: "30 minutes"
       outputs: ["Approved settlement", "Payment authorization"]
   success_criteria: "Claim settled within 14 days with accurate assessment"
-  failure_modes: ["Disputed liability", "Underestimated damages", "Fraudulent claim", "Delayed documentation"]
+   failure_modes: ["Disputed liability", "Underestimated damages", "Fraudulent claim", "Delayed documentation"]
   metrics:
-    - "Average settlement time: 10 days"
-    - "Claim accuracy rate: 98%"
-    - "Fraud detection rate: 85%"
+    - "Average settlement time: Target <10 days from claim submission"
+    - "Claim accuracy rate: Target >98% (no rework required)"
+    - "Fraud detection rate: Target >85% of fraudulent claims identified"
+    - "Customer satisfaction with claims process: Target >4.0/5"
+    - "First contact resolution rate: Target >75%"
+    - "Claims processing cost per claim: Target <$25"
+    - "Rejection rate due to insufficient documentation: Target <5%"
+    - "Average settlement amount accuracy: Target ±2% of final assessment"

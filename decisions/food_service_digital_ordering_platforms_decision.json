@@ -1,0 +1,40 @@
+{
+  "scenario_id": "food_digital_platforms_2025",
+  "context": "Restaurant chain with 200 locations, 5,000 employees, adopting digital ordering platforms",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "COO", "CFO"],
+    "influencers": ["VP Marketing", "IT Director", "Supply Chain Manager"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Implement comprehensive digital ordering and delivery platform across all locations",
+    "urgency": "high",
+    "justification": "Competitive response to 40% increase in digital ordering market share over past 2 years"
+  },
+  "decision_process": [
+    {
+      "stage": "platform_evaluation",
+      "duration": "2 months",
+      "activities": ["Vendor assessment", "Integration capability review", "Cost-benefit analysis"],
+      "outcome": "Selected integrated platform with delivery and POS capabilities"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "3 months",
+      "activities": ["10-location pilot", "Staff training", "Customer feedback collection"],
+      "outcome": "Pilot successful with 25% increase in digital orders"
+    },
+    {
+      "stage": "full_rollout",
+      "duration": "9 months",
+      "activities": ["Phased deployment", "Change management", "Performance monitoring"],
+      "outcome": "Platform deployed across all locations with positive ROI"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$50,000,000 annually",
+    "projected_order_increase": "35% digital orders",
+    "risk_factors": ["Technology integration issues", "Staff training challenges", "Customer adoption resistance", "Platform vendor stability"]
+  }
+}

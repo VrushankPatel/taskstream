@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_gov_001"
+  title: "Public Sector Digital Transformation Process"
+  department: "Digital Services"
+  complexity: "high"
+  participants: ["Chief Digital Officer", "IT Director", "Department Heads", "Change Management", "Security", "Vendor Management"]
+  trigger: "Government modernization initiative or citizen service improvement mandate"
+  steps:
+    - step: 1
+      actor: "Chief Digital Officer"
+      action: "Assess current digital capabilities and identify transformation priorities"
+      tools: ["Digital maturity assessment framework", "Stakeholder surveys"]
+      duration: "4 weeks"
+      outputs: ["Digital transformation roadmap", "Priority project list"]
+    - step: 2
+      actor: "IT Director"
+      action: "Evaluate technology infrastructure and integration requirements"
+      tools: ["IT assessment tools", "Architecture planning software"]
+      duration: "6 weeks"
+      outputs: ["Technology modernization plan", "Infrastructure upgrade specifications"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Map citizen service processes and identify digitization opportunities"
+      tools: ["Process mapping software", "Service design workshops"]
+      duration: "8 weeks"
+      outputs: ["Service digitization blueprints", "Process optimization recommendations"]
+    - step: 4
+      actor: "Vendor Management"
+      action: "Procure digital solutions and establish vendor partnerships"
+      tools: ["Procurement system", "Vendor evaluation framework"]
+      duration: "10 weeks"
+      outputs: ["Vendor contracts", "Solution implementation agreements"]
+    - step: 5
+      actor: "Change Management"
+      action: "Develop training programs and communication strategies"
+      tools: ["Change management toolkit", "Training platform"]
+      duration: "6 weeks"
+      outputs: ["Training materials", "Change communication plan"]
+    - step: 6
+      actor: "Security"
+      action: "Implement cybersecurity measures and compliance frameworks"
+      tools: ["Security assessment tools", "Compliance management system"]
+      duration: "8 weeks"
+      outputs: ["Security implementation plan", "Compliance documentation"]
+  success_criteria: "Successful deployment of digital services with improved citizen satisfaction and operational efficiency"
+  failure_modes: ["Resistance to change", "Technical integration challenges", "Security vulnerabilities"]

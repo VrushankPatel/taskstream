@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_pharma_001"
+  title: "Drug Development Acceleration Process"
+  department: "Research & Development"
+  complexity: "high"
+  participants: ["Research Director", "Clinical Scientists", "Regulatory Affairs", "Manufacturing", "Quality Control", "Legal"]
+  trigger: "New compound identification with therapeutic potential"
+  steps:
+    - step: 1
+      actor: "Research Director"
+      action: "Evaluate compound viability and prioritize development candidates"
+      tools: ["Research database", "Computational modeling software"]
+      duration: "1 week"
+      outputs: ["Development candidate selection", "Initial research plan"]
+    - step: 2
+      actor: "Clinical Scientists"
+      action: "Design preclinical studies and toxicology assessments"
+      tools: ["Study design software", "Laboratory management systems"]
+      duration: "4 weeks"
+      outputs: ["Preclinical study protocols", "Safety assessment reports"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Prepare and submit IND application to FDA"
+      tools: ["Regulatory submission software", "Compliance databases"]
+      duration: "6 weeks"
+      outputs: ["IND submission package", "Regulatory correspondence"]
+    - step: 4
+      actor: "Clinical Scientists"
+      action: "Conduct Phase 1 clinical trials"
+      tools: ["Clinical trial management system", "Patient recruitment platforms"]
+      duration: "12 weeks"
+      outputs: ["Phase 1 trial results", "Safety and dosing data"]
+    - step: 5
+      actor: "Manufacturing"
+      action: "Scale up production for Phase 2 trials"
+      tools: ["Process development systems", "Quality control equipment"]
+      duration: "8 weeks"
+      outputs: ["Clinical trial material batches", "Manufacturing validation reports"]
+    - step: 6
+      actor: "Quality Control"
+      action: "Conduct stability testing and quality assurance"
+      tools: ["Analytical instruments", "Quality management software"]
+      duration: "4 weeks"
+      outputs: ["Stability data", "Quality release certificates"]
+  success_criteria: "Successful completion of Phase 2 trials with positive efficacy data"
+  failure_modes: ["Adverse safety findings", "Manufacturing scalability issues", "Regulatory approval delays"]

@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_nonprofit_001"
+  title: "Nonprofit Fundraising Optimization Process"
+  department: "Development"
+  complexity: "medium"
+  participants: ["Development Director", "Fundraising Coordinators", "Marketing", "Donor Relations", "Finance", "Program Staff"]
+  trigger: "Annual fundraising campaign planning or funding gap identification"
+  steps:
+    - step: 1
+      actor: "Development Director"
+      action: "Analyze fundraising goals and donor database insights"
+      tools: ["CRM system", "Fundraising analytics dashboard"]
+      duration: "1 week"
+      outputs: ["Fundraising strategy document", "Campaign objectives"]
+    - step: 2
+      actor: "Fundraising Coordinators"
+      action: "Segment donor database and develop outreach plans"
+      tools: ["Donor management software", "Segmentation tools"]
+      duration: "2 weeks"
+      outputs: ["Donor segmentation reports", "Outreach campaign plans"]
+    - step: 3
+      actor: "Marketing"
+      action: "Create campaign materials and digital content"
+      tools: ["Design software", "Content management system"]
+      duration: "3 weeks"
+      outputs: ["Campaign materials", "Digital content calendar"]
+    - step: 4
+      actor: "Fundraising Coordinators"
+      action: "Execute multi-channel fundraising campaigns"
+      tools: ["Email marketing platform", "Social media tools", "Event management software"]
+      duration: "8 weeks"
+      outputs: ["Campaign performance metrics", "Donor engagement data"]
+    - step: 5
+      actor: "Donor Relations"
+      action: "Manage donor communications and stewardship activities"
+      tools: ["CRM system", "Donor acknowledgment templates"]
+      duration: "Ongoing"
+      outputs: ["Donor communications log", "Stewardship activity reports"]
+    - step: 6
+      actor: "Finance"
+      action: "Track fundraising revenue and provide financial reporting"
+      tools: ["Accounting software", "Fundraising tracking system"]
+      duration: "Weekly"
+      outputs: ["Revenue reports", "Budget vs. actual analysis"]
+  success_criteria: "Fundraising goals met with increased donor retention and engagement"
+  failure_modes: ["Low donor response rates", "Campaign execution issues", "Economic downturns affecting giving"]

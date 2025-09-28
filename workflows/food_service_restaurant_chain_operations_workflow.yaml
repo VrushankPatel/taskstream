@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_food_001"
+  title: "Restaurant Chain Operations Management Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Regional Manager", "Store Managers", "Supply Chain", "Quality Assurance", "HR", "Finance"]
+  trigger: "Daily operations monitoring or performance alerts"
+  steps:
+    - step: 1
+      actor: "Store Managers"
+      action: "Conduct daily pre-opening checklist and inventory count"
+      tools: ["Operations checklist app", "Inventory management system"]
+      duration: "1 hour"
+      outputs: ["Opening readiness report", "Inventory discrepancy log"]
+    - step: 2
+      actor: "Regional Manager"
+      action: "Review daily sales data and operational metrics"
+      tools: ["POS analytics dashboard", "Performance monitoring system"]
+      duration: "2 hours"
+      outputs: ["Performance analysis report", "Action items for improvement"]
+    - step: 3
+      actor: "Supply Chain"
+      action: "Manage inventory replenishment and supplier coordination"
+      tools: ["Supply chain management software", "Supplier portal"]
+      duration: "4 hours"
+      outputs: ["Purchase orders", "Delivery schedules"]
+    - step: 4
+      actor: "HR"
+      action: "Monitor staffing levels and schedule adjustments"
+      tools: ["Staff scheduling software", "Time tracking system"]
+      duration: "2 hours"
+      outputs: ["Updated shift schedules", "Staffing reports"]
+    - step: 5
+      actor: "Quality Assurance"
+      action: "Conduct food safety inspections and compliance checks"
+      tools: ["Food safety checklist", "Temperature monitoring devices"]
+      duration: "3 hours"
+      outputs: ["Quality inspection reports", "Compliance documentation"]
+    - step: 6
+      actor: "Finance"
+      action: "Review daily financials and cost control measures"
+      tools: ["Accounting software", "Budget tracking dashboard"]
+      duration: "2 hours"
+      outputs: ["Financial performance summary", "Cost optimization recommendations"]
+  success_criteria: "All stores operating within quality, safety, and financial targets"
+  failure_modes: ["Staff shortages", "Supply chain disruptions", "Food safety violations"]

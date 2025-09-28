@@ -36,13 +36,17 @@ For patient inquiries: [Contact Information]
 Media inquiries: [Communications Contact]
 
 ### Stakeholder Notifications (First 24 hours)
-- Regulatory agencies (as required by law)
-- Patient families (personal calls from care team)
-- Referring physicians (secure messaging)
-- Community partners (situation updates)
+- Regulatory agencies (as required by law) - Immediate reporting to state health department and accrediting bodies
+- Patient families (personal calls from care team) - Dedicated family liaison team for support and updates
+- Referring physicians (secure messaging) - Clinical updates and care coordination information
+- Community partners (situation updates) - Local emergency services and advocacy groups
+- Insurance providers (secure notification) - Claims and coverage coordination
+- Media outlets (prepared statement) - Proactive communication to prevent misinformation
 
 ### Ongoing Communications
-- Daily updates to staff during incident
-- Regular media briefings if requested
-- Patient family support calls
-- Post-incident lessons learned communication
+- Daily updates to staff during incident via secure internal channels
+- Regular media briefings if requested, with clinical leadership participation
+- Patient family support calls twice daily with clinical updates
+- Post-incident lessons learned communication and process improvements
+- Employee assistance program activation for staff support
+- Community town hall meetings for transparency and trust-building

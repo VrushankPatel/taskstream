@@ -1,40 +1,58 @@
 workflow:
-  id: "workflow_autonomous_vehicle_safety_certification"
-  title: "Autonomous Vehicle Safety Certification Process"
-  department: "Transportation Safety"
+  id: "workflow_autonomous_vehicle_safety_cert"
+  title: "Autonomous Vehicle Safety Certification Workflow"
+  department: "Safety & Compliance"
   complexity: "high"
-  participants: ["Safety Engineering Lead", "Regulatory Affairs", "Testing Team", "Legal Counsel", "Insurance Underwriters"]
-  trigger: "New autonomous vehicle model ready for deployment"
+  participants: ["Safety Engineer", "Systems Engineer", "Testing Specialist", "Regulatory Affairs", "Legal Counsel", "Domain Expert"]
+  trigger: "New autonomous vehicle system ready for certification or major system update"
   steps:
     - step: 1
-      actor: "Safety Engineering Lead"
-      action: "Compile safety case documentation and system architecture"
-      tools: ["Safety Case Templates", "System Documentation Tools"]
-      duration: "4 weeks"
-      outputs: ["Preliminary Safety Case"]
-    - step: 2
-      actor: "Testing Team"
-      action: "Execute comprehensive safety testing scenarios"
-      tools: ["Simulation Software", "Test Track Facilities", "Data Logging Systems"]
-      duration: "8 weeks"
-      outputs: ["Safety Test Results", "Failure Mode Analysis"]
-    - step: 3
-      actor: "Regulatory Affairs"
-      action: "Prepare and submit regulatory certification application"
-      tools: ["Regulatory Submission Templates", "Compliance Databases"]
+      actor: "Safety Engineer"
+      action: "Conduct preliminary hazard analysis and safety requirements definition"
+      tools: ["HAZOP analysis tools", "Safety standards databases", "Risk assessment frameworks"]
       duration: "3 weeks"
-      outputs: ["Certification Application Package"]
+      outputs: ["Preliminary hazard analysis", "Safety requirements specification", "Risk mitigation plan"]
+    - step: 2
+      actor: "Systems Engineer"
+      action: "Design and implement safety-critical systems and fail-safe mechanisms"
+      tools: ["Safety-critical design tools", "Redundancy analysis software", "Fault tree analysis"]
+      duration: "8 weeks"
+      outputs: ["Safety architecture design", "Fail-safe system specifications", "Redundancy implementation"]
+    - step: 3
+      actor: "Testing Specialist"
+      action: "Execute comprehensive testing including simulation, track testing, and real-world validation"
+      tools: ["Simulation platforms", "Test track facilities", "Data logging systems", "Performance metrics tools"]
+      duration: "12 weeks"
+      outputs: ["Test results database", "Performance validation report", "Safety metrics analysis"]
     - step: 4
-      actor: "Legal Counsel"
-      action: "Review liability frameworks and insurance requirements"
-      tools: ["Legal Research Databases", "Contract Templates"]
-      duration: "2 weeks"
-      outputs: ["Liability Assessment Report"]
+      actor: "Safety Engineer"
+      action: "Perform safety case development and argumentation"
+      tools: ["Safety case tools", "Evidence collection systems", "Certification documentation templates"]
+      duration: "4 weeks"
+      outputs: ["Safety case document", "Evidence compilation", "Certification dossier"]
     - step: 5
-      actor: "Insurance Underwriters"
-      action: "Assess and approve insurance coverage for autonomous operations"
-      tools: ["Risk Assessment Models", "Insurance Policy Templates"]
+      actor: "Regulatory Affairs"
+      action: "Prepare and submit certification application to relevant authorities"
+      tools: ["Regulatory submission platforms", "Compliance checklists", "International standards databases"]
       duration: "2 weeks"
-      outputs: ["Insurance Coverage Approval"]
-  success_criteria: "Regulatory certification granted and insurance coverage secured"
-  failure_modes: ["Safety test failures", "Regulatory rejection", "Insurance coverage denial"]
+      outputs: ["Certification application", "Regulatory compliance matrix", "Submission documentation"]
+    - step: 6
+      actor: "Legal Counsel"
+      action: "Review legal and liability implications of certification outcomes"
+      tools: ["Legal research databases", "Liability assessment frameworks", "Contract review tools"]
+      duration: "2 weeks"
+      outputs: ["Legal risk assessment", "Liability analysis", "Insurance requirements"]
+    - step: 7
+      actor: "Domain Expert"
+      action: "Conduct peer review and independent validation of safety claims"
+      tools: ["Peer review frameworks", "Independent testing protocols", "Expert consultation networks"]
+      duration: "3 weeks"
+      outputs: ["Peer review report", "Validation findings", "Recommendations for improvement"]
+    - step: 8
+      actor: "Regulatory Affairs"
+      action: "Address certification feedback and prepare for re-submission if needed"
+      tools: ["Regulatory communication platforms", "Deficiency tracking systems", "Corrective action planning"]
+      duration: "4 weeks"
+      outputs: ["Response to deficiencies", "Corrective action plan", "Updated certification dossier"]
+  success_criteria: "Full regulatory certification achieved with no critical safety findings"
+  failure_modes: ["Safety system failures", "Insufficient testing coverage", "Regulatory non-compliance", "Legal liability concerns"]

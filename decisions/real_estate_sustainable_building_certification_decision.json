@@ -38,11 +38,12 @@
       "outcome": "Strong stakeholder support with 85% tenant approval"
     }
   ],
-  "business_impact": {
-    "expected_outcome": "Certified sustainable portfolio commanding 15% rental premium and enhanced asset values",
-    "projected_value": "$180M NPV with improved tenant retention and attraction",
-    "risk_factors": ["Implementation cost overruns", "Tenant resistance to upgrades", "Regulatory changes"]
-  },
+   "business_impact": {
+     "expected_outcome": "Certified sustainable portfolio commanding 15% rental premium and enhanced asset values",
+     "projected_value": "$180M NPV with improved tenant retention and attraction",
+     "risk_factors": ["Implementation cost overruns", "Tenant resistance to upgrades", "Regulatory changes"],
+     "mitigation_strategies": ["Phased implementation with budget controls", "Comprehensive tenant communication and incentives", "Flexible certification approach adaptable to regulatory changes"]
+   },
   "decision_criteria": ["Financial returns", "Market demand alignment", "Implementation feasibility", "Stakeholder impact", "Regulatory compliance"],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive stakeholder engagement essential for sustainable building initiatives"

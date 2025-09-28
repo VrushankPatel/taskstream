@@ -12,19 +12,19 @@ workflow:
     - "Compliance Officer"
   trigger: "Executive approval for claims automation initiative"
   steps:
-     - step: 1
-       actor: "Claims Director"
-       action: "Define automation scope and success criteria"
-       tools:
-         - "Process mapping software"
-         - "Claims data analytics"
-       duration: "4 weeks"
-       decision_points:
-         - "Approve automation scope based on ROI analysis"
-         - "Select pilot claim types (auto, property, liability)"
-       outputs:
-         - "Automation roadmap"
-         - "Pilot program criteria"
+    - step: 1
+      actor: "Claims Director"
+      action: "Define automation scope and success criteria"
+      tools:
+        - "Process mapping software"
+        - "Claims data analytics"
+      duration: "4 weeks"
+      decision_points:
+        - "Approve automation scope based on ROI analysis"
+        - "Select pilot claim types (auto, property, liability)"
+      outputs:
+        - "Automation roadmap"
+        - "Pilot program criteria"
     - step: 2
       actor: "IT Project Manager"
       action: "Assess current claims processing systems and integration requirements"
@@ -35,19 +35,19 @@ workflow:
       outputs:
         - "Technical requirements"
         - "Integration specifications"
-     - step: 3
-       actor: "Data Scientist"
-       action: "Develop AI models for claim triage and fraud detection"
-       tools:
-         - "Machine learning platforms"
-         - "Claims database"
-       duration: "8 weeks"
-       decision_points:
-         - "Approve AI model accuracy thresholds (>85% for fraud detection)"
-         - "Select model deployment approach (cloud vs on-premise)"
-       outputs:
-         - "AI model prototypes"
-         - "Validation test results"
+    - step: 3
+      actor: "Data Scientist"
+      action: "Develop AI models for claim triage and fraud detection"
+      tools:
+        - "Machine learning platforms"
+        - "Claims database"
+      duration: "8 weeks"
+      decision_points:
+        - "Approve AI model accuracy thresholds (>85% for fraud detection)"
+        - "Select model deployment approach (cloud vs on-premise)"
+      outputs:
+        - "AI model prototypes"
+        - "Validation test results"
     - step: 4
       actor: "Claims Adjusters"
       action: "Participate in user acceptance testing and provide feedback"
@@ -78,19 +78,19 @@ workflow:
       outputs:
         - "Compliance assessment"
         - "Risk mitigation plan"
-     - step: 7
-       actor: "Claims Director"
-       action: "Launch pilot program and monitor performance"
-       tools:
-         - "Performance dashboards"
-         - "Feedback systems"
-       duration: "8 weeks"
-       decision_points:
-         - "Approve full rollout based on pilot metrics (>40% efficiency gain)"
-         - "Authorize additional training budget if adoption <80%"
-       outputs:
-         - "Pilot results"
-         - "Optimization recommendations"
+    - step: 7
+      actor: "Claims Director"
+      action: "Launch pilot program and monitor performance"
+      tools:
+        - "Performance dashboards"
+        - "Feedback systems"
+      duration: "8 weeks"
+      decision_points:
+        - "Approve full rollout based on pilot metrics (>40% efficiency gain)"
+        - "Authorize additional training budget if adoption <80%"
+      outputs:
+        - "Pilot results"
+        - "Optimization recommendations"
     - step: 8
       actor: "IT Project Manager"
       action: "Scale automation across all claim types and regions"

@@ -6,12 +6,15 @@ workflow:
   participants: ["EdTech Director", "Curriculum Specialist", "Data Analyst", "Faculty Training Coordinator", "Student Success Manager"]
   trigger: "Institutional goal to improve student outcomes through personalized learning pathways"
   steps:
-    - step: 1
-      actor: "EdTech Director"
-      action: "Select and procure adaptive learning platform with analytics capabilities"
-      tools: ["Platform evaluation frameworks", "Vendor assessment tools", "Contract negotiation templates"]
-      duration: "6 weeks"
-      outputs: ["Platform selection report", "Implementation roadmap"]
+     - step: 1
+       actor: "EdTech Director"
+       action: "Select and procure adaptive learning platform with analytics capabilities"
+       tools: ["Platform evaluation frameworks", "Vendor assessment tools", "Contract negotiation templates"]
+       duration: "6 weeks"
+       decision_points:
+         - "Approve platform selection based on feature compatibility and cost analysis"
+         - "Confirm vendor partnership agreements and data security compliance"
+       outputs: ["Platform selection report", "Implementation roadmap"]
     - step: 2
       actor: "Curriculum Specialist"
       action: "Map curriculum to adaptive learning modules and learning objectives"

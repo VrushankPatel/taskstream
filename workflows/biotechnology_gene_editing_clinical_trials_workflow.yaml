@@ -1,40 +1,59 @@
 workflow:
-  id: "workflow_biotech_gene_editing_clinical_trials"
+  id: "biotech_gene_editing_clinical_trials"
   title: "Biotechnology Gene Editing Clinical Trials Workflow"
   department: "Biotechnology R&D"
   complexity: "high"
-  participants: ["Principal Investigator", "Regulatory Affairs", "Clinical Operations", "Ethics Committee", "Data Safety Monitoring Board"]
-  trigger: "Gene editing therapeutic candidate identified for clinical development"
+  participants: ["Principal Investigator", "Clinical Research Coordinator", "Regulatory Affairs Specialist", "Ethics Committee Member", "Data Manager", "Patient Recruitment Team", "Safety Monitoring Board"]
+  trigger: "Preclinical gene editing therapy shows promising results requiring human trials"
   steps:
     - step: 1
       actor: "Principal Investigator"
       action: "Develop clinical trial protocol including gene editing methodology, patient selection criteria, and safety endpoints"
-      tools: ["Clinical trial management software", "Regulatory databases", "Genetic analysis tools"]
-      duration: "3 months"
-      outputs: ["Clinical trial protocol document", "Investigational new drug application draft"]
+      tools: ["Clinical trial management software", "Regulatory databases", "Gene editing protocols"]
+      duration: "4 weeks"
+      outputs: ["IND application draft", "Trial protocol document"]
+      decision_points: ["Target disease selection", "Gene editing technique validation"]
     - step: 2
-      actor: "Regulatory Affairs"
-      action: "Prepare and submit IND application to FDA/EMA including preclinical data, manufacturing details, and risk assessments"
-      tools: ["Regulatory submission platforms", "Compliance databases", "Quality management systems"]
-      duration: "2 months"
-      outputs: ["IND submission package", "Regulatory correspondence log"]
+      actor: "Regulatory Affairs Specialist"
+      action: "Prepare and submit Investigational New Drug (IND) application to FDA including preclinical data and trial design"
+      tools: ["FDA eCTD system", "Regulatory submission software"]
+      duration: "6 weeks"
+      outputs: ["IND submission package", "Regulatory correspondence"]
+      decision_points: ["IND acceptance criteria", "Fast track designation eligibility"]
     - step: 3
-      actor: "Ethics Committee"
-      action: "Review protocol for ethical considerations including informed consent, risk-benefit analysis, and vulnerable population protections"
-      tools: ["Ethics review software", "Institutional review board guidelines", "Patient advocacy resources"]
-      duration: "1 month"
-      outputs: ["Ethics committee approval letter", "Informed consent document"]
+      actor: "Ethics Committee Member"
+      action: "Review trial protocol for ethical considerations including informed consent, risk-benefit analysis, and gene editing implications"
+      tools: ["IRB submission system", "Ethics review frameworks"]
+      duration: "3 weeks"
+      outputs: ["Ethics committee approval", "Informed consent templates"]
+      decision_points: ["Ethical acceptability of germline editing", "Patient vulnerability assessment"]
     - step: 4
-      actor: "Clinical Operations"
-      action: "Site selection, investigator training, and patient recruitment planning"
-      tools: ["Clinical trial management systems", "Patient recruitment databases", "Site management platforms"]
-      duration: "2 months"
-      outputs: ["Site initiation packages", "Patient recruitment strategy"]
+      actor: "Patient Recruitment Team"
+      action: "Execute patient recruitment strategy including screening, informed consent, and enrollment procedures"
+      tools: ["Patient registry databases", "Recruitment tracking software"]
+      duration: "8 weeks"
+      outputs: ["Enrolled patient cohort", "Screening failure reports"]
+      decision_points: ["Recruitment target achievement", "Patient diversity requirements"]
     - step: 5
-      actor: "Data Safety Monitoring Board"
-      action: "Ongoing safety monitoring and interim data analysis for trial continuation decisions"
-      tools: ["Statistical analysis software", "Adverse event reporting systems", "Risk assessment frameworks"]
-      duration: "Trial duration (6-24 months)"
-      outputs: ["Safety reports", "Trial continuation recommendations"]
-  success_criteria: "Successful completion of clinical trial phases with acceptable safety profile and preliminary efficacy data"
-  failure_modes: ["Regulatory rejection", "Safety concerns halting trial", "Recruitment challenges", "Manufacturing issues"]
+      actor: "Clinical Research Coordinator"
+      action: "Conduct trial execution including treatment administration, monitoring, and data collection"
+      tools: ["Electronic data capture systems", "Gene sequencing equipment"]
+      duration: "24 weeks"
+      outputs: ["Trial data sets", "Adverse event reports"]
+      decision_points: ["Safety monitoring triggers", "Protocol deviation handling"]
+    - step: 6
+      actor: "Safety Monitoring Board"
+      action: "Review safety data and make recommendations for trial continuation, modification, or termination"
+      tools: ["Safety database systems", "Statistical analysis software"]
+      duration: "Ongoing bi-weekly reviews"
+      outputs: ["Safety recommendations", "Trial modification protocols"]
+      decision_points: ["Unacceptable safety signals", "Efficacy futility analysis"]
+    - step: 7
+      actor: "Data Manager"
+      action: "Perform data analysis, statistical evaluation, and prepare clinical study report"
+      tools: ["Statistical software", "Data visualization tools"]
+      duration: "8 weeks"
+      outputs: ["Clinical study report", "Publication manuscripts"]
+      decision_points: ["Primary endpoint achievement", "Subgroup analysis requirements"]
+  success_criteria: "Successful demonstration of gene editing safety and efficacy with regulatory approval pathway established"
+  failure_modes: ["Unexpected adverse events leading to trial halt", "Regulatory rejection of IND", "Poor patient recruitment", "Ethical concerns blocking approval"]

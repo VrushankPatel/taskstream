@@ -1,0 +1,47 @@
+{
+  "scenario_id": "quantum_computing_adoption_implementation_2025",
+  "context": "Financial services company with complex optimization problems in portfolio management and risk modeling",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Quantitative Research Team", "IT Infrastructure Team", "Regulators"]
+  },
+  "request": {
+    "amount": "$35,000,000",
+    "purpose": "Quantum computing infrastructure and algorithm development for financial optimization problems",
+    "urgency": "medium",
+    "justification": "Quantum advantage could provide significant competitive edge in portfolio optimization and risk modeling"
+  },
+  "decision_process": [
+    {
+      "stage": "quantum_readiness_assessment",
+      "duration": "8 weeks",
+      "activities": ["Current problem analysis", "Quantum advantage evaluation", "Technology maturity assessment"],
+      "outcome": "Identified high-value use cases in portfolio optimization with 100x+ speedup potential"
+    },
+    {
+      "stage": "vendor_and_platform_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Quantum hardware vendor assessment", "Cloud quantum platform evaluation", "Integration capability testing"],
+      "outcome": "Selected hybrid quantum-classical platform with proven financial applications"
+    },
+    {
+      "stage": "talent_and_skills_gap_analysis",
+      "duration": "4 weeks",
+      "activities": ["Quantum expertise assessment", "Training program design", "Hiring strategy development"],
+      "outcome": "Comprehensive talent development plan with university partnerships"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "6 weeks",
+      "activities": ["ROI modeling", "Competitive advantage analysis", "Risk assessment"],
+      "outcome": "4-year payback with $75M NPV and first-mover advantage in quantum finance"
+    }
+  ],
+  "business_impact": {
+    "expected_performance_improvement": "100x speedup in complex portfolio optimizations",
+    "projected_competitive_advantage": "Industry leadership in algorithmic trading and risk management",
+    "risk_factors": ["Technology immaturity", "High development costs", "Skills shortage", "Regulatory uncertainty"],
+    "strategic_alignment": "Establishes company as technology leader in financial services and enables next-generation quantitative strategies"
+  }
+}

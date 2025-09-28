@@ -1,0 +1,47 @@
+{
+  "scenario_id": "genomics_gene_therapy_investment_2025",
+  "context": "Biopharmaceutical company with $500M annual R&D budget, focusing on rare genetic diseases",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Chief Medical Officer", "CFO"],
+    "influencers": ["Head of Regulatory Affairs", "VP Clinical Development", "Patient Advocacy Groups"]
+  },
+  "request": {
+    "amount": "$150,000,000",
+    "purpose": "Phase 1/2 clinical development of novel gene therapy for rare metabolic disorder",
+    "urgency": "high",
+    "justification": "Market opportunity in orphan drug space with potential $500M+ annual revenue; addresses unmet medical need with no current treatments"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_review",
+      "duration": "4 weeks",
+      "activities": ["Preclinical data review", "Target validation assessment", "Competitive landscape analysis"],
+      "outcome": "Strong scientific rationale supported by preclinical data"
+    },
+    {
+      "stage": "clinical_development_plan",
+      "duration": "6 weeks",
+      "activities": ["Trial design development", "Regulatory strategy planning", "Manufacturing feasibility assessment"],
+      "outcome": "Comprehensive development plan with clear milestones"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "3 weeks",
+      "activities": ["NPV analysis", "Risk-adjusted ROI modeling", "Portfolio impact assessment"],
+      "outcome": "Positive NPV of $200M with 35% IRR over 10-year horizon"
+    },
+    {
+      "stage": "regulatory_and_ethical_review",
+      "duration": "4 weeks",
+      "activities": ["FDA consultation", "Ethics committee review", "Patient community engagement"],
+      "outcome": "Regulatory pathway clear with strong ethical justification"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$750,000,000",
+    "projected_market_share": "70% of addressable orphan drug market",
+    "risk_factors": ["Clinical trial delays", "Manufacturing scalability challenges", "Regulatory approval uncertainties", "Competitor gene therapy entries"],
+    "strategic_alignment": "Advances company's leadership in genetic medicine and expands rare disease portfolio"
+  }
+}

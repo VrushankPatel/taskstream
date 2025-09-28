@@ -61,11 +61,11 @@ steps:
     tools: ["Production Monitoring Software", "Quality Control Systems", "Data Analytics Tools"]
     duration: "2 weeks"
     outputs: ["Pilot Run Report", "Performance Metrics", "Optimization Recommendations"]
-success_criteria: "Robotic system achieves target cycle time, quality standards, and ROI within 6 months"
-failure_modes: ["Integration delays due to software compatibility issues", "Safety system failures requiring redesign", "Operator resistance leading to low utilization", "Unexpected maintenance requirements impacting production"]
-metrics:
-  - "Cycle time reduction: Target 30% improvement"
-  - "System uptime: Target 95% availability"
-  - "Quality defect rate: Target <1%"
-  - "ROI payback period: Target <6 months"
-  - "Operator utilization: Target 90% adoption"
+  success_criteria: "Robotic system achieves target cycle time, quality standards, and ROI within 6 months"
+  failure_modes: ["Integration delays due to software compatibility issues", "Safety system failures requiring redesign", "Operator resistance leading to low utilization", "Unexpected maintenance requirements impacting production"]
+  metrics:
+    - "Cycle time reduction: Target 30% improvement"
+    - "System uptime: Target 95% availability"
+    - "Quality defect rate: Target <1%"
+    - "ROI payback period: Target <6 months"
+    - "Operator utilization: Target 90% adoption"

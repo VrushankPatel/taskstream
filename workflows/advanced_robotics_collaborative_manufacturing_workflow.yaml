@@ -1,0 +1,54 @@
+workflow:
+  id: "advanced_robotics_collaborative_manufacturing_workflow"
+  title: "Advanced Robotics Collaborative Manufacturing Integration Workflow"
+  department: "Manufacturing Operations"
+  complexity: "high"
+  participants: ["Manufacturing Engineering Lead", "Safety Officer", "HR Training Manager", "IT Infrastructure Manager", "Production Manager", "Quality Assurance Lead", "Vendor Relations Manager"]
+  trigger: "Decision to implement collaborative robots (cobots) in production line"
+  steps:
+    - step: 1
+      actor: "Manufacturing Engineering Lead"
+      action: "Assess production processes and identify cobot integration opportunities"
+      tools: ["Process mapping software", "Ergonomics assessment tools", "ROI calculators"]
+      duration: "2 months"
+      outputs: ["Process assessment report", "Integration feasibility study"]
+      decision_points: ["High-risk vs. low-risk process selection", "ROI thresholds"]
+    - step: 2
+      actor: "Safety Officer"
+      action: "Conduct comprehensive safety risk assessment and design safety protocols"
+      tools: ["Risk assessment frameworks", "ISO 45001 standards", "Safety simulation software"]
+      duration: "3 months"
+      outputs: ["Safety risk assessment", "Safety protocols", "Emergency stop procedures"]
+    - step: 3
+      actor: "Vendor Relations Manager"
+      action: "Evaluate cobot vendors and negotiate procurement contracts"
+      tools: ["Vendor evaluation matrices", "Contract management software", "Technical specification documents"]
+      duration: "2 months"
+      outputs: ["Vendor selection report", "Procurement contracts", "Technical specifications"]
+      decision_points: ["Domestic vs. international vendors", "Lease vs. purchase options"]
+    - step: 4
+      actor: "IT Infrastructure Manager"
+      action: "Design network infrastructure and cybersecurity measures for cobot systems"
+      tools: ["Network design software", "Cybersecurity assessment tools", "IoT security frameworks"]
+      duration: "1 month"
+      outputs: ["Network architecture plan", "Cybersecurity protocols", "Data management policies"]
+    - step: 5
+      actor: "HR Training Manager"
+      action: "Develop comprehensive training program for operators and maintenance staff"
+      tools: ["Learning management systems", "Training curriculum templates", "Certification tracking software"]
+      duration: "2 months"
+      outputs: ["Training program materials", "Certification requirements", "Change management plan"]
+    - step: 6
+      actor: "Production Manager"
+      action: "Oversee cobot installation and initial production integration testing"
+      tools: ["Project management software", "Production monitoring systems", "Quality control checklists"]
+      duration: "3 months"
+      outputs: ["Installation completion report", "Integration test results", "Production readiness assessment"]
+    - step: 7
+      actor: "Quality Assurance Lead"
+      action: "Validate product quality consistency and establish monitoring protocols"
+      tools: ["Statistical process control software", "Quality management systems", "Defect tracking databases"]
+      duration: "1 month"
+      outputs: ["Quality validation report", "Monitoring protocols", "Continuous improvement plan"]
+  success_criteria: "Successful cobot integration with maintained safety standards and improved productivity"
+  failure_modes: ["Safety incidents during integration", "Production downtime", "Operator resistance", "Technical compatibility issues"]

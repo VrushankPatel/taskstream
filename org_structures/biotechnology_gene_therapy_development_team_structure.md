@@ -1,12 +1,12 @@
 # Biotechnology Gene Therapy Development Team Structure
 
 ## Overview
-The Gene Therapy Development Team is a specialized cross-functional organization within our biotechnology division, focused on advancing CRISPR-based and viral vector gene therapies from preclinical research through clinical development and commercialization.
+The Gene Therapy Development Team is a specialized cross-functional organization focused on advancing viral vector and CRISPR-based therapies for rare genetic disorders. The team integrates scientific expertise with clinical development and manufacturing capabilities.
 
-**Team Size:** 85 members  
-**Reporting Structure:** Reports to Chief Scientific Officer  
-**Budget:** $45 million annually  
-**Location:** Primary R&D campus with clinical trial sites globally  
+**Team Size:** 150 members
+**Reporting Structure:** Reports to Chief Executive Officer
+**Budget:** $75 million annually
+**Location:** Integrated R&D and manufacturing campus with global clinical operations  
 
 ## Leadership Structure
 

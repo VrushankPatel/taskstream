@@ -1,7 +1,7 @@
 # Advanced Robotics Manufacturing Integration Team Structure
 
 ## Overview
-Cross-functional team responsible for implementing collaborative robotics across manufacturing operations. Combines technical expertise with change management and workforce development capabilities.
+Specialized organization focused on deploying collaborative robotics (cobots) across manufacturing facilities to address labor shortages and improve operational efficiency. Integrates engineering, safety, and human factors expertise.
 
 ## Leadership Structure
 

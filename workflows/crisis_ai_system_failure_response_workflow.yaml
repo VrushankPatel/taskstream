@@ -1,0 +1,59 @@
+workflow:
+  id: "workflow_crisis_ai_failure_response"
+  title: "Crisis Management AI System Failure Response Workflow"
+  department: "IT Operations/Crisis Management"
+  complexity: "high"
+  participants: ["Crisis Management Team", "AI Engineers", "IT Operations", "Communications Team", "Legal Counsel", "Business Continuity"]
+  trigger: "Critical AI system failure impacting operations"
+  steps:
+    - step: 1
+      actor: "IT Operations"
+      action: "Detect and assess AI system failure scope and impact"
+      tools: ["Monitoring systems", "Incident detection tools"]
+      duration: "30 minutes"
+      outputs: ["Incident assessment report", "Impact analysis"]
+    - step: 2
+      actor: "Crisis Management Team"
+      action: "Activate crisis response protocol and assemble response team"
+      tools: ["Crisis management frameworks", "Communication systems"]
+      duration: "1 hour"
+      outputs: ["Crisis team activation", "Initial response plan"]
+    - step: 3
+      actor: "AI Engineers"
+      action: "Diagnose root cause and implement immediate containment measures"
+      tools: ["AI diagnostic tools", "System rollback procedures"]
+      duration: "4 hours"
+      outputs: ["Root cause analysis", "Containment measures"]
+      decision_points: ["Containment effectiveness", "System restoration timeline"]
+    - step: 4
+      actor: "Business Continuity"
+      action: "Implement backup systems and manual processes"
+      tools: ["Business continuity plans", "Backup system activation"]
+      duration: "2 hours"
+      outputs: ["Backup system activation", "Manual process documentation"]
+    - step: 5
+      actor: "Communications Team"
+      action: "Develop and execute stakeholder communication plan"
+      tools: ["Communication templates", "Stakeholder databases"]
+      duration: "2 hours"
+      outputs: ["Communication plan", "Stakeholder notifications"]
+    - step: 6
+      actor: "Legal Counsel"
+      action: "Assess legal and regulatory notification requirements"
+      tools: ["Regulatory databases", "Legal assessment frameworks"]
+      duration: "4 hours"
+      outputs: ["Legal assessment", "Notification requirements"]
+    - step: 7
+      actor: "AI Engineers"
+      action: "Develop and implement permanent fix with testing"
+      tools: ["AI development tools", "Testing frameworks"]
+      duration: "48 hours"
+      outputs: ["Permanent fix implementation", "Testing results"]
+    - step: 8
+      actor: "Crisis Management Team"
+      action: "Conduct post-incident review and implement preventive measures"
+      tools: ["Incident review frameworks", "Preventive action planning"]
+      duration: "1 week"
+      outputs: ["Post-incident report", "Preventive measures"]
+  success_criteria: "AI system restored with minimal business impact and comprehensive preventive measures implemented"
+  failure_modes: ["Prolonged system downtime", "Data loss or corruption", "Inadequate stakeholder communication", "Regulatory non-compliance"]

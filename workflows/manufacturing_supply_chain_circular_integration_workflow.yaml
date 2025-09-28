@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_manufacturing_circular_supply_chain"
+  title: "Manufacturing Circular Supply Chain Integration Workflow"
+  department: "Operations/Supply Chain"
+  complexity: "high"
+  participants: ["Supply Chain Managers", "Sustainability Specialists", "Procurement Teams", "Supplier Development Managers", "Logistics Coordinators", "Finance Teams"]
+  trigger: "Corporate commitment to circular economy requiring supply chain transformation"
+  steps:
+    - step: 1
+      actor: "Sustainability Specialists"
+      action: "Assess current supply chain for circular opportunities and gaps"
+      tools: ["Supply chain analysis tools", "Circularity assessment frameworks"]
+      duration: "4 weeks"
+      outputs: ["Circularity assessment report", "Opportunity identification"]
+    - step: 2
+      actor: "Procurement Teams"
+      action: "Identify and qualify suppliers with circular capabilities"
+      tools: ["Supplier qualification systems", "Sustainability rating platforms"]
+      duration: "6 weeks"
+      outputs: ["Supplier qualification database", "Circular supplier agreements"]
+    - step: 3
+      actor: "Supply Chain Managers"
+      action: "Design closed-loop supply chain processes and material flows"
+      tools: ["Supply chain design software", "Process mapping tools"]
+      duration: "5 weeks"
+      outputs: ["Closed-loop process designs", "Material flow models"]
+      decision_points: ["Technical feasibility", "Economic viability"]
+    - step: 4
+      actor: "Supplier Development Managers"
+      action: "Implement supplier development programs for circular capabilities"
+      tools: ["Supplier development frameworks", "Training programs"]
+      duration: "8 weeks"
+      outputs: ["Supplier development plans", "Capability improvement programs"]
+    - step: 5
+      actor: "Logistics Coordinators"
+      action: "Optimize reverse logistics for product return and material recovery"
+      tools: ["Logistics optimization software", "Reverse logistics platforms"]
+      duration: "4 weeks"
+      outputs: ["Reverse logistics networks", "Recovery process optimization"]
+    - step: 6
+      actor: "Finance Teams"
+      action: "Model economic impact and develop circular procurement incentives"
+      tools: ["Financial modeling tools", "Incentive design frameworks"]
+      duration: "3 weeks"
+      outputs: ["Economic impact analysis", "Incentive programs"]
+  success_criteria: "Integrated circular supply chain reducing waste and material costs while maintaining operational efficiency"
+  failure_modes: ["Supplier resistance to circular requirements", "Economic disadvantages vs linear supply chains", "Logistics complexity overwhelming operations"]

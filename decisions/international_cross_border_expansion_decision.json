@@ -1,0 +1,53 @@
+{
+  "scenario_id": "decision_international_cross_border_expansion_2025",
+  "context": "Technology SaaS company expanding from North America into European and Asian markets, requiring multi-jurisdictional compliance and localization strategies",
+  "stakeholders": {
+    "requester": "Chief Executive Officer",
+    "approvers": ["Board of Directors", "Chief Financial Officer", "Chief Legal Officer"],
+    "influencers": ["Regional General Managers", "Local Regulatory Experts", "Customer Success Teams", "Technology Partners"]
+  },
+  "request": {
+    "amount": "$85 million",
+    "purpose": "Establish regional headquarters and operations in 8 new countries across Europe and Asia",
+    "urgency": "high",
+    "justification": "Capitalize on 300% market growth opportunity in international segments with established product-market fit"
+  },
+  "decision_process": [
+    {
+      "stage": "market_assessment",
+      "duration": "10 weeks",
+      "activities": ["Market sizing analysis", "Competitive landscape review", "Customer demand validation"],
+      "outcome": "Identified $2.5 billion addressable market with 40% year-over-year growth in target regions"
+    },
+    {
+      "stage": "regulatory_compliance",
+      "duration": "12 weeks",
+      "activities": ["GDPR compliance framework", "Data localization requirements", "Industry-specific regulations"],
+      "outcome": "Developed comprehensive compliance strategy with local legal partnerships"
+    },
+    {
+      "stage": "operational_modeling",
+      "duration": "6 weeks",
+      "activities": ["Go-to-market strategy development", "Talent acquisition planning", "Technology infrastructure design"],
+      "outcome": "Hybrid operational model balancing global efficiency with local market adaptation"
+    },
+    {
+      "stage": "financial_projection",
+      "duration": "4 weeks",
+      "activities": ["Revenue modeling", "Cost structure analysis", "Cash flow projections"],
+      "outcome": "Projected 5-year ROI of 280% with break-even in 18 months"
+    },
+    {
+      "stage": "risk_mitigation",
+      "duration": "5 weeks",
+      "activities": ["Geopolitical risk assessment", "Currency fluctuation analysis", "Exit strategy planning"],
+      "outcome": "Comprehensive risk framework with phased entry strategy and contingency plans"
+    }
+  ],
+  "business_impact": {
+    "revenue_growth": "$450 million additional annual revenue within 3 years",
+    "market_expansion": "35% increase in global market share",
+    "operational_complexity": "Moderate increase with standardized processes and local autonomy",
+    "risk_factors": ["Regulatory changes in target markets", "Currency volatility affecting profitability", "Cultural adaptation challenges for global teams"]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scenario_id": "finance_quantum_computing_q2_2026",
+  "context": "Global investment bank, 80,000 employees, evaluating quantum computing for trading algorithms",
+  "stakeholders": {
+    "requester": "Head of Quantitative Research",
+    "approvers": ["Chief Information Officer", "Chief Financial Officer", "Chief Risk Officer"],
+    "influencers": ["Head of Trading", "Chief Data Officer", "Compliance Officer"]
+  },
+  "request": {
+    "amount": "$150 million",
+    "purpose": "Develop quantum-accelerated trading and risk modeling systems",
+    "urgency": "medium",
+    "justification": "Gain competitive edge in high-frequency trading, improve portfolio optimization, enhance risk management"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_assessment",
+      "duration": "4 months",
+      "activities": ["Quantum hardware evaluation", "Algorithm development proof-of-concept", "Performance benchmarking"],
+      "outcome": "Quantum advantage demonstrated for portfolio optimization problems, 100x speedup potential"
+    },
+    {
+      "stage": "regulatory_and_ethical_review",
+      "duration": "2 months",
+      "activities": ["Market manipulation risk assessment", "Algorithm transparency requirements", "Data privacy implications"],
+      "outcome": "Regulatory framework supportive, ethical guidelines established for responsible deployment"
+    },
+    {
+      "stage": "integration_planning",
+      "duration": "3 months",
+      "activities": ["System architecture design", "Data pipeline assessment", "Change management planning"],
+      "outcome": "Hybrid classical-quantum architecture recommended, phased implementation approach"
+    },
+    {
+      "stage": "investment_committee_review",
+      "duration": "1 month",
+      "activities": ["Financial modeling", "ROI projections", "Risk assessment"],
+      "outcome": "Approved with $75M initial investment, additional $75M contingent on milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["15% improvement in trading performance", "Enhanced risk modeling capabilities", "First-mover advantage in quantum finance"],
+    "projected_revenue": "$500 million additional annual profits",
+    "risk_factors": ["Technology immaturity", "Talent acquisition challenges", "Regulatory scrutiny", "System integration complexity"],
+    "strategic_alignment": "Advances quantitative capabilities, maintains competitive edge, positions for future market changes"
+  }
+}

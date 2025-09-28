@@ -1,0 +1,47 @@
+{
+  "scenario_id": "real_estate_vertical_farming_q3_2026",
+  "context": "Commercial real estate developer, 5,000 employees, considering vertical farming facility development",
+  "stakeholders": {
+    "requester": "VP of Innovation",
+    "approvers": ["CEO", "Chief Development Officer", "Chief Financial Officer"],
+    "influencers": ["Head of Sustainability", "Agricultural Technology Partner", "Local Government Relations"]
+  },
+  "request": {
+    "amount": "$75 million",
+    "purpose": "Develop 500,000 sq ft vertical farming facility in urban location",
+    "urgency": "low",
+    "justification": "Capitalize on food security trends, diversify portfolio, achieve sustainability goals"
+  },
+  "decision_process": [
+    {
+      "stage": "market_and_technical_analysis",
+      "duration": "3 months",
+      "activities": ["Demand forecasting", "Technology partner evaluation", "Site selection analysis"],
+      "outcome": "Strong market demand identified, technology proven at scale, optimal urban site selected"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 months",
+      "activities": ["Revenue projections", "Operating cost analysis", "Return on investment calculations"],
+      "outcome": "15-year payback period, 12% IRR projected, government incentives available"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "1 month",
+      "activities": ["Community consultation", "Environmental impact assessment", "Regulatory approval process"],
+      "outcome": "Strong community support, environmental benefits quantified, zoning approvals secured"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Investment committee presentation", "Due diligence review", "Final approval vote"],
+      "outcome": "Approved with development partnership structure, 70/30 equity split with agricultural technology firm"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["$50M annual revenue from produce sales", "Portfolio diversification achieved", "Sustainability leadership position"],
+    "projected_revenue": "$750 million cumulative over 20 years",
+    "risk_factors": ["Technology obsolescence", "Commodity price volatility", "Energy cost fluctuations", "Regulatory changes"],
+    "strategic_alignment": "Advances sustainability agenda, creates new revenue streams, enhances brand reputation"
+  }
+}

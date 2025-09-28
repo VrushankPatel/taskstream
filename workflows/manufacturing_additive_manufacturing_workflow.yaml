@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_002"
+  title: "Additive Manufacturing Production Workflow"
+  department: "Advanced Manufacturing"
+  complexity: "medium"
+  participants: ["Design Engineer", "Production Manager", "Quality Control Specialist", "Materials Scientist", "Maintenance Technician"]
+  trigger: "New part design approved for 3D printing production"
+  steps:
+    - step: 1
+      actor: "Design Engineer"
+      action: "Optimize CAD model for additive manufacturing constraints"
+      tools: ["CAD software", "Simulation tools", "Material databases"]
+      duration: "4 hours"
+      outputs: ["Optimized STL file", "Print parameter recommendations"]
+    - step: 2
+      actor: "Materials Scientist"
+      action: "Select appropriate material and verify compatibility"
+      decision_points: ["Material properties", "Cost considerations", "Regulatory requirements"]
+      duration: "2 hours"
+      outputs: ["Material specification", "Quality control parameters"]
+    - step: 3
+      actor: "Production Manager"
+      action: "Schedule production run and allocate printer resources"
+      tools: ["Production scheduling system", "Printer management software"]
+      duration: "1 hour"
+      outputs: ["Production schedule", "Resource allocation plan"]
+    - step: 4
+      actor: "Maintenance Technician"
+      action: "Perform pre-print equipment calibration and maintenance"
+      tools: ["Calibration equipment", "Maintenance checklists"]
+      duration: "30 minutes"
+      outputs: ["Equipment readiness report", "Calibration records"]
+    - step: 5
+      actor: "Quality Control Specialist"
+      action: "Monitor print process and conduct post-print inspections"
+      tools: ["Quality inspection tools", "Metrology equipment"]
+      duration: "Variable (based on part complexity)"
+      outputs: ["Quality inspection report", "Defect analysis"]
+  success_criteria: "Parts meet dimensional accuracy within ±0.1mm, material properties verified"
+  failure_modes: ["Print failures due to material issues", "Equipment malfunctions", "Design optimization gaps"]

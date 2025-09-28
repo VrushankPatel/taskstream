@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_001"
+  title: "Healthcare Emergency Response Coordination"
+  department: "Emergency Medicine"
+  complexity: "high"
+  participants: ["ER Physician", "Nurse Coordinator", "Hospital Administrator", "EMS Liaison", "IT Support"]
+  trigger: "Mass casualty incident or natural disaster declaration"
+  steps:
+    - step: 1
+      actor: "EMS Liaison"
+      action: "Receive initial incident report and assess severity"
+      tools: ["Emergency notification system", "Patient tracking software"]
+      duration: "5 minutes"
+      outputs: ["Incident severity assessment", "Initial patient count"]
+    - step: 2
+      actor: "Hospital Administrator"
+      action: "Activate emergency response protocol and notify leadership"
+      decision_points: ["Hospital capacity", "Resource availability", "External support needs"]
+      duration: "15 minutes"
+      outputs: ["Emergency response plan activation", "Leadership notification"]
+    - step: 3
+      actor: "Nurse Coordinator"
+      action: "Coordinate bed allocation and staff deployment"
+      tools: ["Hospital management system", "Staff scheduling software"]
+      duration: "30 minutes"
+      outputs: ["Bed assignment plan", "Staff deployment schedule"]
+    - step: 4
+      actor: "ER Physician"
+      action: "Establish triage protocols and treatment priorities"
+      decision_points: ["Patient acuity levels", "Resource constraints", "Transfer protocols"]
+      duration: "20 minutes"
+      outputs: ["Triage guidelines", "Treatment priority matrix"]
+    - step: 5
+      actor: "IT Support"
+      action: "Ensure communication systems and data access for external agencies"
+      tools: ["Network monitoring", "Emergency communication platforms"]
+      duration: "10 minutes"
+      outputs: ["System readiness confirmation", "External access credentials"]
+  success_criteria: "All critical patients treated within golden hour, hospital capacity maintained"
+  failure_modes: ["Communication breakdown", "Resource exhaustion", "Staff fatigue"]

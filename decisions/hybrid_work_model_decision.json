@@ -1,0 +1,47 @@
+{
+  "scenario_id": "hybrid_work_model_decision",
+  "context": "Growing tech startup, 150 employees, post-pandemic evaluation of remote work policies",
+  "stakeholders": {
+    "requester": "Chief People Officer",
+    "approvers": ["CEO", "Department Heads"],
+    "influencers": ["Employee representatives", "IT Director", "Facilities Manager", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$150,000",
+    "purpose": "Implement hybrid work model with office redesign and technology upgrades",
+    "urgency": "medium",
+    "justification": "Improve employee satisfaction and retention while maintaining collaboration"
+  },
+  "decision_process": [
+    {
+      "stage": "employee_survey",
+      "duration": "2 weeks",
+      "activities": ["Work preference surveys", "Focus group discussions", "Productivity impact analysis"],
+      "outcome": "75% preference for hybrid model, clear guidelines needed"
+    },
+    {
+      "stage": "policy_development",
+      "duration": "3 weeks",
+      "activities": ["Legal compliance review", "Department-specific requirements", "Technology needs assessment"],
+      "outcome": "Draft hybrid policy developed with flexible scheduling options"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "2 months",
+      "activities": ["Select pilot departments", "Implement tracking metrics", "Regular feedback collection"],
+      "outcome": "Pilot successful with 90% satisfaction rate"
+    },
+    {
+      "stage": "company_wide_rollout",
+      "duration": "1 month",
+      "activities": ["Office space reconfiguration", "Technology distribution", "Training sessions"],
+      "outcome": "Hybrid model implemented across all departments"
+    }
+  ],
+  "business_impact": {
+    "expected_attrition_reduction": "25% decrease in voluntary turnover",
+    "projected_productivity_impact": "5% increase in output metrics",
+    "cost_savings": "$200,000 annually in real estate",
+    "risk_factors": ["Collaboration challenges", "Equity concerns", "Security vulnerabilities", "Cultural impact"]
+  }
+}

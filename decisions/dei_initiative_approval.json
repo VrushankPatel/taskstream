@@ -1,0 +1,47 @@
+{
+  "scenario_id": "dei_initiative_approval",
+  "context": "Large financial services firm, 2,000 employees, responding to industry diversity trends and regulatory expectations",
+  "stakeholders": {
+    "requester": "Chief Diversity Officer",
+    "approvers": ["CEO", "Board Diversity Committee", "Executive Team"],
+    "influencers": ["HR Director", "Legal Department", "Employee Resource Groups", "External DEI Consultants"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Comprehensive DEI initiative including recruitment, training, and culture transformation",
+    "urgency": "high",
+    "justification": "Address representation gaps and improve organizational performance"
+  },
+  "decision_process": [
+    {
+      "stage": "diversity_audit",
+      "duration": "1 month",
+      "activities": ["Workforce demographics analysis", "Pay equity review", "Inclusion climate survey"],
+      "outcome": "Identified key gaps in representation and inclusion metrics"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "2 months",
+      "activities": ["Stakeholder interviews", "Best practices research", "ROI modeling", "Regulatory compliance review"],
+      "outcome": "Comprehensive 3-year DEI strategy developed"
+    },
+    {
+      "stage": "budget_prioritization",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "Resource allocation planning", "Timeline development"],
+      "outcome": "Prioritized initiatives with phased implementation"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Executive team review", "Final budget approval"],
+      "outcome": "Approved with $2.2 million budget and executive sponsorship"
+    }
+  ],
+  "business_impact": {
+    "expected_representation_improvements": "30% increase in diverse hires",
+    "projected_employee_engagement": "15% improvement in engagement scores",
+    "anticipated_revenue_impact": "$50 million from expanded market reach",
+    "risk_factors": ["Implementation resistance", "Measurement challenges", "Resource constraints", "Regulatory scrutiny"]
+  }
+}

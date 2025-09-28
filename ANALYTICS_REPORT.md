@@ -1,10 +1,10 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 1983 files (1.4% growth from previous analysis of 1969 files)
+- **Total Dataset Size**: 1997 files (0.7% growth from previous analysis of 1983 files)
 - **Quality Score**: 97% (stable trend)
-- **Industry Coverage**: Technology overrepresented at 43% (target <20%), traditional industries underrepresented
-- **Content Complexity**: Simple 2%, Medium 37%, High 48%, Complex 14% (target: 20/50/30)
+- **Industry Coverage**: Technology overrepresented at ~40% (target <20%), traditional industries underrepresented
+- **Content Complexity**: Simple ~2%, Medium ~35%, High ~50%, Complex ~13% (target: 20/50/30)
 - **Business Authenticity**: 97% enterprise-grade
 
 ## Key Findings

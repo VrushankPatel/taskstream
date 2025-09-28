@@ -1,0 +1,48 @@
+{
+  "scenario_id": "crisis_management_data_breach_2024",
+  "context": "E-commerce company, 500 employees, experiencing customer data breach",
+  "stakeholders": {
+    "requester": "CISO",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Legal Counsel", "PR Firm", "Customer Success"]
+  },
+  "request": {
+    "incident": "Customer payment data compromised",
+    "scope": "50,000 customer records",
+    "urgency": "critical",
+    "justification": "Regulatory compliance and reputation protection"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_assessment",
+      "duration": "4 hours",
+      "activities": ["Forensic analysis", "Impact assessment", "Legal consultation"],
+      "outcome": "Breach confirmed, scope defined"
+    },
+    {
+      "stage": "response_planning",
+      "duration": "12 hours",
+      "activities": ["Stakeholder notification plan", "Customer communication strategy", "Technical remediation"],
+      "outcome": "Comprehensive response plan approved"
+    },
+    {
+      "stage": "execution_and_communication",
+      "duration": "48 hours",
+      "activities": ["Customer notifications", "Regulatory filings", "PR management"],
+      "outcome": "All required actions completed"
+    }
+  ],
+  "business_impact": {
+    "financial_loss": "$2.5M",
+    "customer_impact": "50,000 affected customers",
+    "reputation_risk": "High - potential brand damage"
+  },
+  "decision_criteria": [
+    "Regulatory compliance requirements",
+    "Customer trust preservation",
+    "Financial impact minimization",
+    "Legal liability reduction"
+  ],
+  "outcome": "Full disclosure and remediation implemented",
+  "lessons_learned": "Preparedness and transparency crucial for crisis management"
+}

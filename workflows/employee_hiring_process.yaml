@@ -1,0 +1,56 @@
+workflow:
+  id: "workflow_003"
+  title: "Employee Hiring Process"
+  department: "Human Resources"
+  complexity: "high"
+  participants: ["Hiring Manager", "HR Recruiter", "Interview Panel", "Executive Team"]
+  trigger: "Open position approved"
+  steps:
+    - step: 1
+      actor: "HR Recruiter"
+      action: "Create job description and post to job boards"
+      tools: ["ATS system", "Job posting platforms"]
+      duration: "1-2 days"
+      outputs: ["Job posting", "Sourcing plan"]
+    - step: 2
+      actor: "HR Recruiter"
+      action: "Screen resumes and conduct initial interviews"
+      tools: ["Resume database", "Phone screening"]
+      duration: "1-2 weeks"
+      outputs: ["Shortlisted candidates", "Initial interview notes"]
+    - step: 3
+      actor: "Hiring Manager"
+      action: "Review shortlisted candidates and schedule interviews"
+      tools: ["Interview scheduling tool"]
+      duration: "3-5 days"
+      outputs: ["Interview schedule", "Candidate feedback forms"]
+    - step: 4
+      actor: "Interview Panel"
+      action: "Conduct technical and behavioral interviews"
+      tools: ["Interview guides", "Assessment tools"]
+      duration: "1 week"
+      outputs: ["Interview scores", "Panel feedback"]
+    - step: 5
+      actor: "Hiring Manager"
+      action: "Select final candidate and make offer"
+      tools: ["Offer letter template", "Compensation calculator"]
+      duration: "2-3 days"
+      outputs: ["Offer letter", "Background check request"]
+    - step: 6
+      actor: "HR Recruiter"
+      action: "Conduct reference and background checks"
+      tools: ["Background check service", "Reference check forms"]
+      duration: "3-5 days"
+      outputs: ["Clearance report", "Reference feedback"]
+    - step: 7
+      actor: "Executive Team"
+      action: "Approve final hire (for leadership positions)"
+      tools: ["Approval workflow"]
+      duration: "1-2 days"
+      outputs: ["Executive approval"]
+  success_criteria: "Candidate accepts offer and starts employment"
+  failure_modes: ["No qualified candidates", "Offer rejected", "Background issues"]
+  metrics:
+    - "Time to hire: 30 days"
+    - "Offer acceptance rate: 80%"
+    - "Quality of hire score: 4.2/5"

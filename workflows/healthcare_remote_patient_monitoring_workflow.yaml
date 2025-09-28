@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_021_001"
+  title: "Remote Patient Monitoring Program Implementation"
+  department: "Healthcare Operations"
+  complexity: "high"
+  participants: ["Clinical Director", "IT Manager", "Patient Care Coordinator", "Compliance Officer", "Device Vendor"]
+  trigger: "Hospital readmission rates exceed 15% for chronic conditions"
+  steps:
+    - step: 1
+      actor: "Clinical Director"
+      action: "Assess patient population and identify monitoring candidates"
+      tools: ["EHR System", "Patient Registry"]
+      duration: "1 week"
+      outputs: ["Patient eligibility criteria", "Clinical protocols"]
+    - step: 2
+      actor: "IT Manager"
+      action: "Evaluate and select remote monitoring technology platform"
+      decision_points: ["Integration capabilities", "Data security", "Scalability"]
+      tools: ["Vendor evaluation framework", "Security assessment tools"]
+      duration: "2 weeks"
+      outputs: ["Technology selection report", "Implementation roadmap"]
+    - step: 3
+      actor: "Patient Care Coordinator"
+      action: "Develop patient enrollment and training procedures"
+      tools: ["Patient education materials", "Training documentation"]
+      duration: "1 week"
+      outputs: ["Patient onboarding workflow", "Training materials"]
+    - step: 4
+      actor: "Compliance Officer"
+      action: "Ensure HIPAA compliance and data privacy safeguards"
+      tools: ["Compliance checklists", "Legal review templates"]
+      duration: "3 days"
+      outputs: ["Compliance documentation", "Data handling protocols"]
+    - step: 5
+      actor: "Clinical Director"
+      action: "Pilot program with 50 patients and evaluate outcomes"
+      tools: ["Monitoring dashboard", "Clinical outcome metrics"]
+      duration: "8 weeks"
+      outputs: ["Pilot results report", "Process improvements"]
+  success_criteria: "30% reduction in hospital readmissions, 85% patient compliance rate"
+  failure_modes: ["Poor patient adoption", "Technical integration issues", "Compliance violations"]

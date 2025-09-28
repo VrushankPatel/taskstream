@@ -1,0 +1,46 @@
+{
+  "scenario_id": "supply_chain_sustainability_2025",
+  "context": "Global electronics manufacturer, 50,000 employees, implementing sustainable supply chain practices across Asia-Pacific operations",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Chief Procurement Officer"],
+    "influencers": ["Supply Chain VP", "ESG Reporting Director", "Supplier Relations Manager"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Transform supply chain sustainability across 200+ suppliers and 15 manufacturing facilities",
+    "urgency": "medium",
+    "justification": "Regulatory compliance, brand reputation, and cost reduction through efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_assessment",
+      "duration": "3 months",
+      "activities": ["Supplier audits", "Carbon footprint analysis", "Risk assessments"],
+      "outcome": "Identified 40% of suppliers with sustainability gaps"
+    },
+    {
+      "stage": "supplier_engagement_strategy",
+      "duration": "2 months",
+      "activities": ["Supplier capability mapping", "Incentive program design", "Training program development"],
+      "outcome": "Comprehensive engagement strategy with tiered requirements"
+    },
+    {
+      "stage": "technology_solution_evaluation",
+      "duration": "3 months",
+      "activities": ["Platform vendor evaluation", "Integration requirements", "Pilot testing"],
+      "outcome": "Selected blockchain-based traceability platform with proven supplier adoption"
+    },
+    {
+      "stage": "roi_modeling",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "ESG impact modeling", "Competitive advantage assessment"],
+      "outcome": "Strong ROI with 25% cost reduction and enhanced brand value"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["50% reduction in supply chain carbon emissions", "Improved supplier compliance", "Enhanced brand reputation"],
+    "projected_revenue": "$30,000,000 in cost savings and premium pricing",
+    "risk_factors": ["Supplier resistance", "Implementation complexity", "Regulatory changes"]
+  }
+}

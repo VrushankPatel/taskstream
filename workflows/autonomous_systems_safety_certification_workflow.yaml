@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_049_003"
+  title: "Autonomous Systems Safety Certification Workflow"
+  department: "Safety & Compliance"
+  complexity: "high"
+  participants: ["Safety Engineers", "Regulatory Affairs", "Testing Teams", "Domain Experts", "External Auditors"]
+  trigger: "New autonomous system ready for deployment"
+  steps:
+    - step: 1
+      actor: "Safety Engineers"
+      action: "Develop safety case and hazard analysis"
+      tools: ["Safety analysis tools", "Risk assessment frameworks"]
+      duration: "4 weeks"
+      outputs: ["Safety case document", "Hazard analysis report"]
+    - step: 2
+      actor: "Testing Teams"
+      action: "Execute comprehensive testing scenarios"
+      tools: ["Simulation platforms", "Physical test facilities", "Data logging systems"]
+      duration: "8 weeks"
+      outputs: ["Test results", "Failure mode analysis"]
+    - step: 3
+      actor: "Domain Experts"
+      action: "Validate system performance in edge cases"
+      tools: ["Expert review frameworks", "Scenario analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Expert validation report", "Edge case assessments"]
+    - step: 4
+      actor: "Regulatory Affairs"
+      action: "Prepare and submit certification documentation"
+      tools: ["Regulatory submission systems", "Compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Certification package", "Regulatory correspondence"]
+    - step: 5
+      actor: "External Auditors"
+      action: "Conduct independent safety audit"
+      tools: ["Audit protocols", "Safety verification tools"]
+      duration: "2 weeks"
+      outputs: ["Audit report", "Certification recommendations"]
+    - step: 6
+      actor: "Safety Engineers"
+      action: "Address audit findings and obtain final certification"
+      tools: ["Corrective action tracking", "Certification management systems"]
+      duration: "2 weeks"
+      outputs: ["Final certification", "Safety monitoring plan"]
+  success_criteria: "Regulatory certification obtained with acceptable risk levels"
+  failure_modes: ["Safety test failures", "Regulatory rejection", "Unresolved audit findings"]

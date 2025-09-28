@@ -1,0 +1,46 @@
+{
+  "scenario_id": "autonomous_safety_testing_expansion_2025",
+  "context": "Autonomous vehicle technology company, 2,000 employees, expanding safety testing capabilities for Level 4 autonomy",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Safety Officer", "Board Safety Committee"],
+    "influencers": ["Head of Testing", "Regulatory Affairs Director", "Insurance Partners"]
+  },
+  "request": {
+    "amount": "$80,000,000",
+    "purpose": "Build advanced safety testing facility and expand testing operations for autonomous systems",
+    "urgency": "high",
+    "justification": "Accelerate regulatory approval and demonstrate safety superiority"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_requirements_analysis",
+      "duration": "3 months",
+      "activities": ["Regulatory requirements review", "Safety standard analysis", "Gap assessment"],
+      "outcome": "Identified comprehensive testing requirements exceeding current capabilities"
+    },
+    {
+      "stage": "facility_design",
+      "duration": "4 months",
+      "activities": ["Site selection", "Facility design", "Equipment specification"],
+      "outcome": "Designed 50-acre testing facility with urban and highway simulation capabilities"
+    },
+    {
+      "stage": "technology_integration",
+      "duration": "3 months",
+      "activities": ["Testing platform evaluation", "Data analytics systems", "Simulation software"],
+      "outcome": "Selected integrated testing platform with AI-driven scenario generation"
+    },
+    {
+      "stage": "partnership_development",
+      "duration": "2 months",
+      "activities": ["Insurance partnerships", "Regulatory collaborations", "Technology alliances"],
+      "outcome": "Established key partnerships for comprehensive testing ecosystem"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Accelerated regulatory approval timeline", "Enhanced safety record", "Competitive advantage"],
+    "projected_revenue": "$150,000,000 in partnerships and accelerated deployment",
+    "risk_factors": ["Facility construction delays", "Technology integration challenges", "Regulatory changes"]
+  }
+}

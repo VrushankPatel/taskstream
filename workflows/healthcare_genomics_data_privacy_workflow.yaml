@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_049_004"
+  title: "Healthcare Genomics Data Privacy Workflow"
+  department: "Healthcare Compliance"
+  complexity: "high"
+  participants: ["Privacy Officers", "Bioinformatics Teams", "Legal Counsel", "Patient Advocates", "IT Security"]
+  trigger: "New genomics dataset acquisition or analysis project"
+  steps:
+    - step: 1
+      actor: "Privacy Officers"
+      action: "Assess data sensitivity and privacy requirements"
+      tools: ["Privacy impact assessment tools", "Regulatory compliance frameworks"]
+      duration: "2 weeks"
+      outputs: ["Privacy assessment report", "Risk classification"]
+    - step: 2
+      actor: "Legal Counsel"
+      action: "Review consent forms and data usage agreements"
+      tools: ["Legal review systems", "Contract analysis tools"]
+      duration: "3 weeks"
+      outputs: ["Legal compliance review", "Updated consent documents"]
+    - step: 3
+      actor: "Bioinformatics Teams"
+      action: "Implement data de-identification and security controls"
+      tools: ["Data anonymization tools", "Encryption frameworks", "Access control systems"]
+      duration: "4 weeks"
+      outputs: ["De-identified datasets", "Security implementation report"]
+    - step: 4
+      actor: "Patient Advocates"
+      action: "Validate patient consent and communication processes"
+      tools: ["Patient communication tools", "Consent tracking systems"]
+      duration: "2 weeks"
+      outputs: ["Patient consent validation", "Communication protocols"]
+    - step: 5
+      actor: "IT Security"
+      action: "Deploy monitoring and breach response systems"
+      tools: ["Security monitoring platforms", "Incident response frameworks"]
+      duration: "2 weeks"
+      outputs: ["Monitoring setup", "Breach response plan"]
+    - step: 6
+      actor: "Privacy Officers"
+      action: "Conduct final audit and approve data usage"
+      tools: ["Compliance audit tools", "Approval workflows"]
+      duration: "1 week"
+      outputs: ["Final audit report", "Data usage authorization"]
+  success_criteria: "Data privacy compliant with HIPAA/GDPR, patient consent obtained"
+  failure_modes: ["Privacy violations", "Inadequate consent", "Security breaches"]

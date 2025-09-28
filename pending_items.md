@@ -260,7 +260,7 @@
 ### Updated Strategic Objectives for Next 6 Sessions
 
 #### Industry Expansion Priorities (High Priority - Immediate Focus)
-- **Retail**: Expand from current 5.7% (107 files) to 10%+ (target 196+ files) - e-commerce, customer experience, supply chain
+- **Retail**: Expand from current 5.7% (113 files) to 10%+ (target 196+ files) - e-commerce, customer experience, supply chain
 - **Hospitality**: Expand from current ~3% to 10%+ (target 196+ files) - revenue management, guest experience, health safety
 - **Insurance**: Expand from current ~3% to 10%+ (target 196+ files) - claims automation, underwriting, parametric products
 - **Real Estate**: Expand from current ~3% to 10%+ (target 196+ files) - proptech, smart buildings, property management
@@ -268,9 +268,9 @@
 - **Mining**: Expand from current ~1.7% to 8%+ (target 145+ files) - safety protocols, environmental compliance
 - **Agriculture**: Expand from current ~1.9% to 8%+ (target 145+ files) - sustainable farming, precision agriculture
 - **Aerospace**: Expand from current ~1.9% to 8%+ (target 145+ files) - safety certification, unmanned systems
-- **Healthcare**: Expand from current 10.1% (191 files) to 12%+ (target 220+ files) - patient care, medical devices, compliance
-- **Manufacturing**: Expand from current 6.9% (131 files) to 10%+ (target 196+ files) - supply chain, quality control
-- **Technology**: Reduce from current 42.7% (807 files) to <20% (target <365 files) - focus on cross-industry applications
+- **Healthcare**: Expand from current 10.2% (202 files) to 12%+ (target 220+ files) - patient care, medical devices, compliance
+- **Manufacturing**: Expand from current 6.9% (136 files) to 10%+ (target 196+ files) - supply chain, quality control
+- **Technology**: Reduce from current 42.7% (840 files) to <20% (target <365 files) - focus on cross-industry applications
 
 #### Content Type Rebalancing Objectives
 - **Workflows**: Reduce from 28.3% (534 files) to 25% (456 files) - introduce simple/medium complexity

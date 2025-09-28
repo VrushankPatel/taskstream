@@ -1,0 +1,49 @@
+{
+  "scenario_id": "nonprofit_funding_strategy_reallocation_decision",
+  "context": "Large international environmental nonprofit facing funding shortfalls and shifting donor priorities, requiring strategic reallocation of $20M annual budget toward AI-driven climate solutions and youth environmental education",
+  "stakeholders": {
+    "requester": "Executive Director",
+    "approvers": ["Board of Directors", "Finance Committee", "Program Committee"],
+    "influencers": ["Program Directors", "Development Director", "Major Donors", "Program Beneficiaries", "AI Ethics Consultant", "Youth Education Experts"]
+  },
+  "request": {
+    "amount": "$20M budget reallocation",
+    "purpose": "Reallocate resources from traditional conservation to AI-enhanced climate adaptation programs and youth environmental education with predictive analytics",
+    "urgency": "high",
+    "justification": "Adapt to climate crisis acceleration and donor interest in technology-driven solutions while maintaining mission impact and youth engagement"
+  },
+  "decision_process": [
+    {
+      "stage": "advanced_impact_assessment",
+      "duration": "6 weeks",
+      "activities": ["AI-powered program impact evaluation", "Predictive stakeholder needs assessment", "Climate trend analysis with AI modeling", "Advanced financial sustainability modeling"],
+      "outcome": "Identified shifting environmental priorities with AI-driven solutions showing 40% higher impact potential"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "5 weeks",
+      "activities": ["Board member AI impact presentations", "Staff feedback sessions with predictive analytics", "Donor surveys on technology preferences", "Youth beneficiary AI education consultations"],
+      "outcome": "Strong support for AI-driven climate focus with concerns about technology accessibility for traditional programs"
+    },
+    {
+      "stage": "strategic_options",
+      "duration": "3 weeks",
+      "activities": ["AI-enhanced program prioritization framework", "Predictive resource allocation modeling", "Technology accessibility risk-benefit analysis", "Youth engagement impact projections"],
+      "outcome": "Developed phased AI-integrated reallocation strategy balancing technology innovation with accessibility"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation with AI impact demonstrations", "Strategy debate on technology ethics", "Vote on AI-enhanced reallocation plan", "Technology oversight committee assignment"],
+      "outcome": "Approved with AI ethics oversight and accessibility safeguards"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Strengthened AI-driven climate programs with 50% higher impact prediction, increased youth engagement by 80%, improved donor satisfaction through technology alignment",
+    "projected_value": "$35M in additional funding potential and expanded program reach over 3 years through AI-enhanced outcomes",
+    "risk_factors": ["AI technology accessibility barriers for underserved communities", "Staff adaptation to AI-driven program changes", "Donor trust in AI ethics and transparency", "Youth education technology equity concerns"]
+  },
+  "decision_criteria": ["AI-enhanced mission alignment and environmental impact", "Financial sustainability with technology-driven fundraising", "Stakeholder acceptance including technology accessibility", "Implementation feasibility with AI integration", "Long-term organizational capacity for technology adoption"],
+  "outcome": "Approved",
+  "lessons_learned": "AI-powered program evaluation provides data-driven reallocation insights, early technology accessibility assessment prevents equity issues, comprehensive AI ethics framework builds donor trust, phased AI integration minimizes disruption to beneficiaries"
+}

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "nonprofit_sector_funding_reallocation_decision",
+  "context": "Large environmental nonprofit facing funding shortfalls and shifting donor priorities, requiring strategic reallocation of $15M annual budget",
+  "stakeholders": {
+    "requester": "Executive Director",
+    "approvers": ["Board of Directors", "Finance Committee"],
+    "influencers": ["Program Directors", "Development Director", "Major Donors", "Program Beneficiaries"]
+  },
+  "request": {
+    "amount": "$15M budget reallocation",
+    "purpose": "Reallocate resources from traditional conservation programs to climate change adaptation and youth environmental education",
+    "urgency": "high",
+    "justification": "Adapt to changing environmental threats and donor interests while maintaining organizational mission impact"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "4 weeks",
+      "activities": ["Program impact evaluation", "Stakeholder needs assessment", "Environmental trend analysis", "Financial sustainability modeling"],
+      "outcome": "Identified shifting environmental priorities and funding gaps"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 weeks",
+      "activities": ["Board member consultations", "Staff feedback sessions", "Donor surveys", "Beneficiary input gathering"],
+      "outcome": "Strong support for climate focus with concerns about program disruption"
+    },
+    {
+      "stage": "strategic_options",
+      "duration": "2 weeks",
+      "activities": ["Program prioritization framework", "Resource allocation modeling", "Risk-benefit analysis", "Transition planning"],
+      "outcome": "Developed phased reallocation strategy balancing mission and operations"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Strategy debate", "Vote on reallocation plan", "Implementation oversight assignment"],
+      "outcome": "Approved with conditions for stakeholder communication and transition support"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Strengthened climate change programs, increased youth engagement, improved donor satisfaction, maintained operational stability",
+    "projected_value": "$25M in additional funding potential and expanded program reach over 3 years",
+    "risk_factors": ["Staff resistance to change", "Program beneficiary disruption", "Donor relationship challenges", "Implementation execution risks"]
+  },
+  "decision_criteria": ["Mission alignment and environmental impact", "Financial sustainability and fundraising potential", "Stakeholder acceptance and support", "Implementation feasibility and risk management", "Long-term organizational capacity"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for nonprofit transitions, clear communication of mission alignment reduces resistance, phased implementation minimizes disruption to beneficiaries"
+}

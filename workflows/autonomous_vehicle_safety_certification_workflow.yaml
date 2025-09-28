@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_autonomous_vehicle_safety_certification"
+  title: "Autonomous Vehicle Safety Certification Process"
+  department: "Transportation Safety"
+  complexity: "high"
+  participants: ["Safety Engineering Lead", "Regulatory Affairs", "Testing Team", "Legal Counsel", "Insurance Underwriters"]
+  trigger: "New autonomous vehicle model ready for deployment"
+  steps:
+    - step: 1
+      actor: "Safety Engineering Lead"
+      action: "Compile safety case documentation and system architecture"
+      tools: ["Safety Case Templates", "System Documentation Tools"]
+      duration: "4 weeks"
+      outputs: ["Preliminary Safety Case"]
+    - step: 2
+      actor: "Testing Team"
+      action: "Execute comprehensive safety testing scenarios"
+      tools: ["Simulation Software", "Test Track Facilities", "Data Logging Systems"]
+      duration: "8 weeks"
+      outputs: ["Safety Test Results", "Failure Mode Analysis"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Prepare and submit regulatory certification application"
+      tools: ["Regulatory Submission Templates", "Compliance Databases"]
+      duration: "3 weeks"
+      outputs: ["Certification Application Package"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Review liability frameworks and insurance requirements"
+      tools: ["Legal Research Databases", "Contract Templates"]
+      duration: "2 weeks"
+      outputs: ["Liability Assessment Report"]
+    - step: 5
+      actor: "Insurance Underwriters"
+      action: "Assess and approve insurance coverage for autonomous operations"
+      tools: ["Risk Assessment Models", "Insurance Policy Templates"]
+      duration: "2 weeks"
+      outputs: ["Insurance Coverage Approval"]
+  success_criteria: "Regulatory certification granted and insurance coverage secured"
+  failure_modes: ["Safety test failures", "Regulatory rejection", "Insurance coverage denial"]

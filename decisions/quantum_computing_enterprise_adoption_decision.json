@@ -1,0 +1,40 @@
+{
+  "scenario_id": "quantum_computing_enterprise_adoption_2025",
+  "context": "Financial services company, 40,000 employees, evaluating quantum computing adoption for risk modeling and portfolio optimization",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Risk Officer", "Board Technology Committee"],
+    "influencers": ["Head of Quantitative Research", "Infrastructure Director", "External Quantum Experts"]
+  },
+  "request": {
+    "amount": "$85,000,000",
+    "purpose": "Establish quantum computing capabilities for advanced financial modeling",
+    "urgency": "medium",
+    "justification": "Competitive advantage in complex financial calculations and risk assessment"
+  },
+  "decision_process": [
+    {
+      "stage": "quantum_readiness_assessment",
+      "duration": "8 weeks",
+      "activities": ["Evaluate quantum advantage for financial applications", "Assess current computational limitations", "Technology maturity evaluation"],
+      "outcome": "Clear quantum advantage identified for specific use cases"
+    },
+    {
+      "stage": "infrastructure_planning",
+      "duration": "10 weeks",
+      "activities": ["Select quantum hardware providers", "Design hybrid classical-quantum architecture", "Develop talent acquisition strategy"],
+      "outcome": "Comprehensive infrastructure plan approved"
+    },
+    {
+      "stage": "pilot_development",
+      "duration": "16 weeks",
+      "activities": ["Build quantum algorithms for portfolio optimization", "Integrate with existing systems", "Validate results against classical methods"],
+      "outcome": "Successful pilot demonstrating quantum advantage"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["50x faster complex calculations", "Improved risk modeling accuracy", "New quantitative strategies"],
+    "projected_roi": "400% over 7 years through enhanced trading performance",
+    "risk_factors": ["Technology immaturity", "High infrastructure costs", "Talent availability challenges"]
+  }
+}

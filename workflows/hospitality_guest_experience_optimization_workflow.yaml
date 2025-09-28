@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_hospitality_guest_experience_optimization"
+  title: "Hospitality Guest Experience Optimization Process"
+  department: "Guest Services"
+  complexity: "medium"
+  participants: ["Guest Experience Manager", "Operations Manager", "Front Desk Staff", "Housekeeping Supervisor"]
+  trigger: "Guest satisfaction survey results below target or competitive analysis"
+  steps:
+    - step: 1
+      actor: "Guest Experience Manager"
+      action: "Analyze guest feedback and identify improvement opportunities"
+      tools: ["Survey analysis software", "Guest feedback database"]
+      duration: "1 week"
+      outputs: ["Experience gap analysis", "Improvement priority list"]
+    - step: 2
+      actor: "Operations Manager"
+      action: "Develop and test process improvements"
+      tools: ["Process mapping tools", "Pilot testing protocols"]
+      duration: "2 weeks"
+      outputs: ["Improved service protocols", "Pilot test results"]
+    - step: 3
+      actor: "Front Desk Staff"
+      action: "Implement new guest interaction procedures"
+      tools: ["Training manuals", "Role-playing scenarios"]
+      duration: "1 week"
+      outputs: ["Staff training records", "Implementation checklists"]
+    - step: 4
+      actor: "Housekeeping Supervisor"
+      action: "Update room preparation and maintenance standards"
+      tools: ["Quality checklists", "Maintenance scheduling system"]
+      duration: "2 weeks"
+      outputs: ["Updated standards documentation", "Quality monitoring reports"]
+  success_criteria: "Guest satisfaction scores improve by 15% within 3 months"
+  failure_modes: ["Staff training gaps", "Process complexity issues", "Resource constraints"]
+  metrics:
+    - "Guest satisfaction improvement: Target >10%"
+    - "Staff training completion: Target >95%"
+    - "Process compliance rate: Target >90%"
+    - "Repeat guest retention: Target >75%"

@@ -1,46 +1,58 @@
 workflow:
-  id: "workflow_gov_001"
+  id: "government_public_sector_digital_transformation"
   title: "Public Sector Digital Transformation Process"
-  department: "Digital Services"
-  complexity: "high"
-  participants: ["Chief Digital Officer", "IT Director", "Department Heads", "Change Management", "Security", "Vendor Management"]
-  trigger: "Government modernization initiative or citizen service improvement mandate"
+  department: "Digital Government Services"
+  complexity: "critical"
+  participants: ["Chief Digital Officer", "Chief Information Officer", "Department Agency Heads", "Chief Data Officer", "Change Management Director", "Cybersecurity Director", "Procurement Director", "Citizen Experience Lead"]
+  trigger: "Federal/state modernization mandate, citizen service improvement directive, or technology infrastructure upgrade requirement"
   steps:
     - step: 1
       actor: "Chief Digital Officer"
-      action: "Assess current digital capabilities and identify transformation priorities"
-      tools: ["Digital maturity assessment framework", "Stakeholder surveys"]
-      duration: "4 weeks"
-      outputs: ["Digital transformation roadmap", "Priority project list"]
+      action: "Conduct comprehensive digital maturity assessment and stakeholder engagement across all agencies"
+      tools: ["Digital Government Maturity Model", "Stakeholder interviews", "Service usage analytics", "Technology capability surveys"]
+      duration: "12 weeks"
+      outputs: ["Digital transformation strategy document", "Prioritized initiative roadmap", "Resource allocation framework", "Success metrics baseline"]
     - step: 2
-      actor: "IT Director"
-      action: "Evaluate technology infrastructure and integration requirements"
-      tools: ["IT assessment tools", "Architecture planning software"]
-      duration: "6 weeks"
-      outputs: ["Technology modernization plan", "Infrastructure upgrade specifications"]
+      actor: "Chief Information Officer"
+      action: "Evaluate legacy systems, cloud migration strategy, and enterprise architecture modernization"
+      tools: ["IT portfolio analysis tools", "Cloud readiness assessment", "API integration frameworks", "Data migration planning software"]
+      duration: "16 weeks"
+      outputs: ["Enterprise architecture blueprint", "Cloud migration roadmap", "Legacy system decommissioning plan", "Integration standards documentation"]
     - step: 3
-      actor: "Department Heads"
-      action: "Map citizen service processes and identify digitization opportunities"
-      tools: ["Process mapping software", "Service design workshops"]
-      duration: "8 weeks"
-      outputs: ["Service digitization blueprints", "Process optimization recommendations"]
+      actor: "Department Agency Heads"
+      action: "Map citizen journeys, identify service digitization opportunities, and design user-centric digital services"
+      tools: ["Service design workshops", "User journey mapping tools", "Digital service prototyping platforms", "Accessibility compliance tools"]
+      duration: "20 weeks"
+      outputs: ["Digital service catalog", "User experience design specifications", "Service integration requirements", "Accessibility compliance reports"]
     - step: 4
-      actor: "Vendor Management"
-      action: "Procure digital solutions and establish vendor partnerships"
-      tools: ["Procurement system", "Vendor evaluation framework"]
-      duration: "10 weeks"
-      outputs: ["Vendor contracts", "Solution implementation agreements"]
+      actor: "Procurement Director"
+      action: "Execute competitive procurement process for digital platforms, cloud services, and vendor partnerships"
+      tools: ["Government procurement system", "Vendor evaluation framework", "Contract management platform", "Cost-benefit analysis models"]
+      duration: "14 weeks"
+      outputs: ["Vendor selection decisions", "Service level agreements", "Implementation contracts", "Vendor performance metrics"]
     - step: 5
-      actor: "Change Management"
-      action: "Develop training programs and communication strategies"
-      tools: ["Change management toolkit", "Training platform"]
-      duration: "6 weeks"
-      outputs: ["Training materials", "Change communication plan"]
+      actor: "Change Management Director"
+      action: "Develop comprehensive change management strategy including training, communication, and stakeholder engagement"
+      tools: ["Change impact assessment tools", "Training management platform", "Internal communications platform", "Resistance management framework"]
+      duration: "18 weeks"
+      outputs: ["Change management plan", "Training curriculum", "Communication strategy", "Stakeholder engagement roadmap"]
     - step: 6
-      actor: "Security"
-      action: "Implement cybersecurity measures and compliance frameworks"
-      tools: ["Security assessment tools", "Compliance management system"]
-      duration: "8 weeks"
-      outputs: ["Security implementation plan", "Compliance documentation"]
-  success_criteria: "Successful deployment of digital services with improved citizen satisfaction and operational efficiency"
-  failure_modes: ["Resistance to change", "Technical integration challenges", "Security vulnerabilities"]
+      actor: "Cybersecurity Director"
+      action: "Implement comprehensive security framework, compliance requirements, and data protection measures"
+      tools: ["Security assessment tools", "Compliance management system", "Data classification framework", "Incident response planning tools"]
+      duration: "15 weeks"
+      outputs: ["Security architecture design", "Compliance certification roadmap", "Data governance policies", "Incident response procedures"]
+    - step: 7
+      actor: "Chief Data Officer"
+      action: "Establish data governance, analytics capabilities, and open data initiatives"
+      tools: ["Data governance platform", "Analytics infrastructure", "Open data portal", "Data quality management tools"]
+      duration: "12 weeks"
+      outputs: ["Data governance framework", "Analytics capability roadmap", "Open data strategy", "Data sharing agreements"]
+    - step: 8
+      actor: "Citizen Experience Lead"
+      action: "Launch digital services, monitor adoption, and iterate based on user feedback"
+      tools: ["Service adoption analytics", "User feedback platforms", "A/B testing frameworks", "Performance monitoring dashboards"]
+      duration: "Ongoing"
+      outputs: ["Service launch reports", "User adoption metrics", "Service improvement recommendations", "Digital inclusion assessments"]
+  success_criteria: "50%+ citizen services digitized, 30%+ operational cost reduction, 4.5+ citizen satisfaction rating, 95%+ service availability, full regulatory compliance maintained"
+  failure_modes: ["Stakeholder resistance and change fatigue", "Legacy system integration failures", "Security breaches during transition", "Procurement delays and vendor issues", "Insufficient training and user adoption", "Budget overruns and scope creep", "Regulatory compliance gaps"]

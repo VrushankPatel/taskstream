@@ -1,0 +1,64 @@
+workflow:
+  id: "crisis_ai_system_failure_response"
+  title: "AI System Failure Crisis Response Process"
+  department: "Crisis Management & Technology Operations"
+  complexity: "critical"
+  participants: ["Chief Technology Officer", "Crisis Management Director", "AI Ethics Officer", "Data Science Lead", "Security Operations Center", "Communications Director", "Legal Counsel", "Business Continuity Team"]
+  trigger: "AI system anomaly detected, biased outputs identified, security breach occurred, or system unavailability impacting operations"
+  steps:
+    - step: 1
+      actor: "Security Operations Center"
+      action: "Detect and initially assess AI system failure through monitoring alerts and anomaly detection"
+      tools: ["AI monitoring dashboards", "Automated alert systems", "System health diagnostics", "Performance anomaly detectors"]
+      duration: "15 minutes"
+      outputs: ["Initial incident classification", "System isolation protocols activated", "Crisis response team notification", "Preliminary impact assessment"]
+    - step: 2
+      actor: "Crisis Management Director"
+      action: "Activate crisis response protocols and assemble cross-functional response team"
+      tools: ["Crisis management platform", "Emergency communication systems", "Stakeholder notification templates", "Escalation matrices"]
+      duration: "30 minutes"
+      outputs: ["Crisis response team assembled", "Stakeholder notifications sent", "Initial communication protocols established", "Command center activated"]
+    - step: 3
+      actor: "Chief Technology Officer"
+      action: "Conduct technical assessment of AI failure and implement immediate containment measures"
+      tools: ["System diagnostic tools", "AI model validation frameworks", "Containment procedures", "Backup system activation protocols"]
+      duration: "2 hours"
+      outputs: ["Root cause preliminary analysis", "Containment measures implemented", "System rollback or failover executed", "Technical recovery timeline established"]
+    - step: 4
+      actor: "AI Ethics Officer"
+      action: "Evaluate ethical implications and potential harm from AI failure, including bias or privacy concerns"
+      tools: ["Ethics assessment frameworks", "Impact analysis tools", "Bias detection algorithms", "Privacy impact assessment templates"]
+      duration: "4 hours"
+      outputs: ["Ethical impact assessment", "Affected stakeholder identification", "Remediation recommendations", "Regulatory notification requirements"]
+    - step: 5
+      actor: "Data Science Lead"
+      action: "Analyze AI model performance, data quality issues, and develop corrective actions"
+      tools: ["Model validation platforms", "Data quality assessment tools", "Performance analysis frameworks", "Model retraining protocols"]
+      duration: "8 hours"
+      outputs: ["Model performance analysis", "Data quality assessment", "Corrective action plan", "Model improvement recommendations"]
+    - step: 6
+      actor: "Communications Director"
+      action: "Develop and execute internal and external communication strategy"
+      tools: ["Crisis communication templates", "Stakeholder mapping tools", "Media monitoring systems", "Customer notification platforms"]
+      duration: "6 hours"
+      outputs: ["Communication strategy document", "Stakeholder messaging prepared", "Media responses coordinated", "Customer support protocols activated"]
+    - step: 7
+      actor: "Legal Counsel"
+      action: "Assess legal liabilities, regulatory reporting requirements, and compliance implications"
+      tools: ["Legal risk assessment frameworks", "Regulatory reporting systems", "Contract review tools", "Liability analysis templates"]
+      duration: "12 hours"
+      outputs: ["Legal risk assessment", "Regulatory notification plan", "Contractual obligation review", "Liability mitigation strategies"]
+    - step: 8
+      actor: "Business Continuity Team"
+      action: "Implement business continuity measures and monitor recovery progress"
+      tools: ["Business continuity plans", "Recovery time objective tracking", "Alternative process activation", "Performance monitoring dashboards"]
+      duration: "Ongoing"
+      outputs: ["Business continuity measures activated", "Recovery progress monitoring", "Alternative process documentation", "Business impact assessments"]
+    - step: 9
+      actor: "Crisis Management Director"
+      action: "Conduct post-incident review, implement lessons learned, and update prevention measures"
+      tools: ["After-action review frameworks", "Root cause analysis tools", "Prevention measure development", "Process improvement tracking"]
+      duration: "1 week"
+      outputs: ["After-action report", "Lessons learned documentation", "Prevention measures implemented", "Process improvement recommendations"]
+  success_criteria: "AI system restored within defined recovery time objectives, no lasting harm to customers or stakeholders, transparent communication maintained, regulatory compliance preserved, preventive measures implemented to reduce future risk"
+  failure_modes: ["Delayed detection leading to widespread impact", "Inadequate containment causing further damage", "Poor communication causing reputational harm", "Regulatory non-compliance resulting in penalties", "Incomplete root cause analysis leading to recurring failures", "Insufficient preventive measures allowing future incidents"]

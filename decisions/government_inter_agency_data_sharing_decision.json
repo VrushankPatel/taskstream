@@ -1,46 +1,59 @@
 {
-  "scenario_id": "gov_inter_agency_data_sharing_2025",
-  "context": "Federal government agency, 5,000 employees, implementing secure inter-agency data sharing platform for improved citizen services",
+  "scenario_id": "government_inter_agency_coordination_2025",
+  "context": "Federal government initiative involving 15 agencies, 50,000+ employees, $12B combined budget, establishing coordinated response framework for cross-agency crisis management and service delivery optimization",
   "stakeholders": {
-    "requester": "Chief Information Officer",
-    "approvers": ["Agency Director", "Chief Privacy Officer", "Department Secretary"],
-    "influencers": ["Legal Counsel", "IT Security Director", "Program Managers"]
+    "requester": "White House Chief of Staff",
+    "approvers": ["President", "OMB Director", "Agency Secretaries", "Congressional Oversight Committee"],
+    "influencers": ["National Security Advisor", "DHS Secretary", "FEMA Director", "State Governors Association", "Privacy Civil Liberties Oversight Board", "Technology Industry Representatives"]
   },
   "request": {
-    "amount": "$18,000,000",
-    "purpose": "Deploy federated data sharing platform enabling secure, real-time data exchange between 12 federal agencies",
-    "urgency": "medium",
-    "justification": "Reduce citizen service processing time by 60% and eliminate duplicate data collection across agencies"
+    "amount": "$85,000,000",
+    "purpose": "Establish National Inter-Agency Coordination Center (NIACC) with integrated command platform, real-time data sharing capabilities, and unified crisis response protocols across federal, state, and local governments",
+    "urgency": "critical",
+    "justification": "Address critical gaps exposed during recent national emergencies; projected 40% improvement in crisis response time, $2B annual cost savings through eliminated duplication, and enhanced national security through coordinated intelligence sharing"
   },
   "decision_process": [
     {
-      "stage": "requirements_analysis",
-      "duration": "6 weeks",
-      "activities": ["Inter-agency data flow mapping", "Privacy impact assessment", "Security requirements definition"],
-      "outcome": "Identified 200+ data sharing use cases with comprehensive security framework"
-    },
-    {
-      "stage": "technology_evaluation",
+      "stage": "crisis_gap_analysis",
       "duration": "8 weeks",
-      "activities": ["Vendor RFP and evaluation", "Technical architecture review", "Integration testing"],
-      "outcome": "Selected blockchain-based platform with zero-trust security model"
+      "activities": ["After-action reviews of recent crises", "Inter-agency coordination audit", "Stakeholder interviews with agency leaders", "Technology capability assessment", "Legal authority mapping"],
+      "outcome": "Identified 47 critical coordination gaps across 12 major crisis scenarios with consensus on NIACC necessity"
     },
     {
-      "stage": "pilot_program",
+      "stage": "governance_framework",
+      "duration": "10 weeks",
+      "activities": ["Executive order drafting", "Congressional consultation", "Agency authority delineation", "Privacy and civil liberties framework", "Funding mechanism design"],
+      "outcome": "Established NIACC as independent entity with executive oversight and congressional appropriations authority"
+    },
+    {
+      "stage": "technology_architecture",
       "duration": "12 weeks",
-      "activities": ["Pilot between 3 agencies", "Performance monitoring", "User feedback collection"],
-      "outcome": "85% reduction in processing time with 99.9% data security maintained"
+      "activities": ["Secure communications platform RFP", "Data sharing protocol development", "Cybersecurity framework design", "Interoperability standards creation", "Vendor capability demonstrations"],
+      "outcome": "Selected hybrid cloud architecture with quantum-resistant encryption and AI-powered threat detection"
     },
     {
-      "stage": "full_implementation",
+      "stage": "pilot_implementation",
+      "duration": "16 weeks",
+      "activities": ["Limited deployment with 5 pilot agencies", "Crisis simulation exercises", "Performance metrics collection", "User acceptance testing", "Security penetration testing"],
+      "outcome": "Pilot demonstrated 55% improvement in information sharing speed and 70% reduction in redundant data collection"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "6 weeks",
+      "activities": ["State and local government briefings", "Industry partnership discussions", "Civil liberties organization consultations", "Congressional testimony preparation", "Public communication strategy"],
+      "outcome": "Secured buy-in from 48 state governors and key industry partners with privacy safeguards addressing civil liberties concerns"
+    },
+    {
+      "stage": "full_deployment_authorization",
       "duration": "4 weeks",
-      "activities": ["Budget approval review", "Risk assessment", "Executive endorsement"],
-      "outcome": "Approved for phased rollout across all 12 agencies over 24 months"
+      "activities": ["Final budget approval", "Executive order signing", "Congressional notification", "Implementation timeline establishment", "Success metrics finalization"],
+      "outcome": "Executive Order signed establishing NIACC with $85M initial funding and 24-month deployment timeline"
     }
   ],
   "business_impact": {
-    "expected_efficiency_gain": "60% faster service delivery",
-    "cost_savings": "$45,000,000 annually",
-    "risk_factors": ["Data privacy concerns", "Inter-agency coordination challenges", "Technology integration complexity", "Regulatory compliance requirements"]
+    "expected_revenue": "$120,000,000",
+    "projected_market_entry": "30 months",
+    "risk_factors": ["Constitutional concerns over federal authority expansion", "State sovereignty objections", "Cybersecurity vulnerabilities in interconnected systems", "Privacy advocacy group opposition", "Implementation complexity across diverse agency cultures", "Technology integration failures", "Funding instability due to political cycles"],
+    "strategic_benefits": ["Unified national crisis response capability", "40% reduction in emergency response time", "$3B annual savings through eliminated duplication", "Enhanced national security through real-time intelligence sharing", "Improved citizen services through seamless inter-agency coordination", "Foundation for future digital government transformation", "International leadership in government coordination technology"]
   }
 }

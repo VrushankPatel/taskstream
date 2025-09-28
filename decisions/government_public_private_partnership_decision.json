@@ -1,0 +1,47 @@
+{
+  "scenario_id": "government_public_private_partnership_2025",
+  "context": "State government pursuing PPP for smart city infrastructure development, $50B economy, facing aging infrastructure and budget constraints",
+  "stakeholders": {
+    "requester": "Director Infrastructure Development",
+    "approvers": ["Governor", "State Treasurer", "Attorney General"],
+    "influencers": ["City Mayors", "Private Sector Partners", "Environmental Groups", "Taxpayer Advocates"]
+  },
+  "request": {
+    "amount": "$2B",
+    "purpose": "Smart city infrastructure PPP including IoT sensors, data centers, and renewable energy systems",
+    "urgency": "medium",
+    "justification": "Accelerate infrastructure modernization with private sector innovation and efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "12 weeks",
+      "activities": ["Infrastructure assessment", "PPP model evaluation", "Value for money analysis"],
+      "outcome": "PPP model viable with 15% cost savings over traditional procurement"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "16 weeks",
+      "activities": ["Public consultations", "Private sector RFPs", "Environmental impact assessments"],
+      "outcome": "Broad stakeholder support with environmental safeguards"
+    },
+    {
+      "stage": "legal_framework",
+      "duration": "10 weeks",
+      "activities": ["Contract development", "Risk allocation framework", "Regulatory approvals"],
+      "outcome": "Comprehensive PPP agreement with clear risk mitigation"
+    },
+    {
+      "stage": "financial_structuring",
+      "duration": "8 weeks",
+      "activities": ["Financial modeling", "Credit enhancement", "Revenue projections"],
+      "outcome": "Bankable project with attractive risk-adjusted returns"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$300M",
+    "projected_completion": "5 years",
+    "risk_factors": ["Political changes", "Private sector default", "Technology obsolescence"],
+    "strategic_alignment": "Modernizes critical infrastructure while maintaining fiscal responsibility"
+  }
+}

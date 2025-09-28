@@ -1,0 +1,34 @@
+{
+  "scenario_id": "non_profit_funding_allocation",
+  "context": "Environmental non-profit deciding program investments",
+  "stakeholders": {
+    "requester": "Program Director",
+    "approvers": ["Executive Director", "Board Chair", "Finance Committee"],
+    "influencers": ["Field Operations", "Development Director"]
+  },
+  "request": {
+    "amount": "$300,000",
+    "purpose": "Expand community education programs",
+    "urgency": "medium",
+    "justification": "Measurable impact on environmental awareness"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "3 weeks",
+      "activities": ["Program evaluation", "Stakeholder surveys", "Impact metrics review"],
+      "outcome": "Strong evidence of program effectiveness"
+    },
+    {
+      "stage": "board_review",
+      "duration": "1 week",
+      "activities": ["Strategic alignment review", "Budget impact analysis"],
+      "outcome": "Approved with performance milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_participants": "10,000",
+    "projected_funding_growth": "$100,000",
+    "risk_factors": ["Donor expectations", "Program scalability"]
+  }
+}

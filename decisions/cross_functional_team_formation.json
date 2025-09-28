@@ -1,0 +1,34 @@
+{
+  "scenario_id": "cross_functional_team_formation",
+  "context": "Enterprise software company launching new product line",
+  "stakeholders": {
+    "requester": "Chief Product Officer",
+    "approvers": ["CEO", "VP Engineering", "VP Sales"],
+    "influencers": ["HR Director", "Marketing VP"]
+  },
+  "request": {
+    "amount": "$500,000",
+    "purpose": "Form cross-functional team for 6-month product development",
+    "urgency": "high",
+    "justification": "Market opportunity in emerging segment"
+  },
+  "decision_process": [
+    {
+      "stage": "team_design",
+      "duration": "2 weeks",
+      "activities": ["Skill gap analysis", "Resource allocation planning"],
+      "outcome": "Team structure defined with 12 members"
+    },
+    {
+      "stage": "budget_approval",
+      "duration": "1 week",
+      "activities": ["Cost-benefit analysis", "ROI projections"],
+      "outcome": "Approved $500K budget for team formation"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$5,000,000",
+    "projected_market_share": "15%",
+    "risk_factors": ["Team integration challenges", "Timeline slippage"]
+  }
+}

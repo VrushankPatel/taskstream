@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_saas_001"
+  title: "SaaS User Feedback Collection and Implementation"
+  department: "Product Management"
+  complexity: "medium"
+  participants: ["Product Manager", "UX Researcher", "Engineering Lead", "Customer Success"]
+  trigger: "User feedback threshold reached or feature request"
+  steps:
+    - step: 1
+      actor: "Customer Success"
+      action: "Collect and categorize user feedback"
+      tools: ["Feedback forms", "Support tickets", "User interviews"]
+      duration: "Weekly"
+      outputs: ["Feedback summary", "Priority matrix"]
+    - step: 2
+      actor: "UX Researcher"
+      action: "Analyze feedback patterns and user needs"
+      tools: ["Analytics platform", "User research tools"]
+      duration: "1 week"
+      outputs: ["User insights report", "Feature recommendations"]
+    - step: 3
+      actor: "Product Manager"
+      action: "Prioritize features and create roadmap"
+      decision_points: ["Business value", "Technical feasibility", "User impact"]
+      duration: "2 days"
+      outputs: ["Product roadmap update", "Feature specifications"]
+    - step: 4
+      actor: "Engineering Lead"
+      action: "Estimate development effort and plan implementation"
+      tools: ["Project management software", "Development tracking"]
+      duration: "3 days"
+      outputs: ["Development plan", "Release timeline"]
+  success_criteria: "User satisfaction improved, feature adoption increased"
+  failure_modes: ["Feature delays", "Scope creep", "Low adoption rates"]

@@ -1,0 +1,37 @@
+{
+  "scenario_id": "shipping_fleet_expansion_decision",
+  "context": "Global shipping company facing capacity constraints due to increased trade volumes",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Head of Operations", "Procurement Director", "Environmental Officer"]
+  },
+  "request": {
+    "amount": "$500 million",
+    "purpose": "Purchase 20 new container vessels",
+    "urgency": "high",
+    "justification": "Meet 25% increase in demand, maintain market share"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "duration": "2 weeks",
+      "activities": ["Market analysis", "Financial modeling", "Environmental impact assessment"],
+      "outcome": "Proceed to detailed evaluation"
+    },
+    {
+      "stage": "due_diligence",
+      "duration": "4 weeks",
+      "activities": ["Shipyard negotiations", "Fuel efficiency analysis", "Regulatory compliance review"],
+      "outcome": "Approved with modifications"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increased capacity by 30%, improved delivery times",
+    "projected_value": "$200 million annual revenue increase",
+    "risk_factors": ["Fuel price volatility", "Regulatory changes", "Market downturn"]
+  },
+  "decision_criteria": ["ROI > 15%", "Environmental compliance", "Strategic alignment", "Financial feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early environmental assessment crucial for approval timelines"
+}

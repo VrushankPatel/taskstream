@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_hr_employee_performance_review"
+  title: "Employee Performance Review Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["Employee", "Manager", "HR Business Partner", "Skip-level Manager"]
+  trigger: "Quarterly performance review cycle begins"
+  steps:
+    - step: 1
+      actor: "Employee"
+      action: "Self-assessment and goal setting"
+      tools: ["Performance Management System", "Goal Tracking Template"]
+      duration: "1 week"
+      outputs: ["Self-review document", "Updated goals"]
+    - step: 2
+      actor: "Manager"
+      action: "Manager assessment and feedback preparation"
+      tools: ["Performance Review Form", "Feedback Collection Tool"]
+      duration: "1 week"
+      outputs: ["Manager review", "Development plan draft"]
+    - step: 3
+      actor: "HR Business Partner"
+      action: "Facilitate calibration session and ensure consistency"
+      tools: ["Calibration Dashboard", "Performance Standards"]
+      duration: "2 days"
+      outputs: ["Calibrated ratings", "Feedback on process"]
+    - step: 4
+      actor: "Manager"
+      action: "Conduct performance discussion with employee"
+      tools: ["Meeting Scheduling Tool", "Discussion Guide"]
+      duration: "1 hour"
+      outputs: ["Meeting notes", "Agreed action items"]
+    - step: 5
+      actor: "Skip-level Manager"
+      action: "Review high-potential employees and provide additional feedback"
+      tools: ["Talent Review System", "Succession Planning Tool"]
+      duration: "30 minutes"
+      outputs: ["Additional insights", "Career development recommendations"]
+  success_criteria: "All reviews completed on time with employee engagement scores >80%"
+  failure_modes: ["Incomplete self-assessments", "Biased evaluations", "Lack of follow-through"]
+  metrics:
+    - "Review Completion Rate: 100%"
+    - "Employee Engagement Score: > 4.0/5"
+    - "Promotion Rate: 15% annually"
+    - "Retention Rate: > 90%"

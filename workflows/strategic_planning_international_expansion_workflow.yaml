@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_068_005"
+  title: "Strategic Planning International Expansion Workflow"
+  department: "Strategy/Corporate Development"
+  complexity: "high"
+  participants: ["Chief Executive Officer", "Chief Strategy Officer", "Country Managers", "Finance Director", "Legal Counsel", "Market Research Team"]
+  trigger: "Strategic opportunity for international market expansion identified"
+  steps:
+    - step: 1
+      actor: "Market Research Team"
+      action: "Conduct market analysis, competitive assessment, and opportunity evaluation"
+      tools: ["Market research databases", "Competitive intelligence tools"]
+      duration: "4 weeks"
+      outputs: ["Market opportunity analysis", "Competitive landscape report"]
+    - step: 2
+      actor: "Country Managers"
+      action: "Assess local market conditions, regulatory environment, and operational feasibility"
+      tools: ["Local market databases", "Regulatory compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Local market assessment", "Regulatory compliance analysis"]
+    - step: 3
+      actor: "Finance Director"
+      action: "Develop financial projections, investment requirements, and ROI analysis"
+      tools: ["Financial modeling software", "Investment analysis templates"]
+      duration: "3 weeks"
+      outputs: ["Financial projections", "Investment analysis report"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Evaluate legal structures, compliance requirements, and risk mitigation strategies"
+      tools: ["Legal research databases", "International law resources"]
+      duration: "3 weeks"
+      outputs: ["Legal structure assessment", "Risk mitigation plan"]
+    - step: 5
+      actor: "Chief Strategy Officer"
+      action: "Synthesize all analyses and present expansion recommendation to executive leadership"
+      tools: ["Strategy presentation templates", "Decision analysis frameworks"]
+      duration: "2 weeks"
+      outputs: ["Expansion strategy recommendation", "Implementation roadmap"]
+    - step: 6
+      actor: "Chief Executive Officer"
+      action: "Review strategy recommendation and approve expansion with defined milestones"
+      decision_points: ["Strategic alignment", "Risk-return profile", "Resource availability"]
+      duration: "1 week"
+      outputs: ["Expansion approval decision", "Strategic milestones"]
+  success_criteria: "Expansion strategy approved with clear implementation plan and success metrics"
+  failure_modes: ["Insufficient market opportunity", "Unacceptable risk profile", "Resource constraints"]

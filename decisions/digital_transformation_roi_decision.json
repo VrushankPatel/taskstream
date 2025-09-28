@@ -1,0 +1,46 @@
+{
+  "scenario_id": "decision_068_004",
+  "context": "Traditional retail company, 3000 employees, evaluating comprehensive digital transformation investment",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Department Heads", "Customer Experience Team", "External Digital Consultants"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "3-year digital transformation program including e-commerce platform, data analytics, and omnichannel integration",
+    "urgency": "high",
+    "justification": "Address declining market share and improve customer experience in competitive digital landscape"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "6 weeks",
+      "activities": ["Digital maturity assessment", "Competitive analysis", "Customer journey mapping"],
+      "outcome": "Significant digital gap identified with clear competitive disadvantage"
+    },
+    {
+      "stage": "transformation_design",
+      "duration": "8 weeks",
+      "activities": ["Technology roadmap development", "Change management planning", "ROI modeling"],
+      "outcome": "Comprehensive transformation plan with phased implementation and measurable outcomes"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "Cash flow projections", "Risk-adjusted returns"],
+      "outcome": "Projected 25% revenue increase and 30% cost reduction over 5 years"
+    },
+    {
+      "stage": "executive_decision",
+      "duration": "3 weeks",
+      "activities": ["Board presentation", "Stakeholder alignment", "Implementation planning"],
+      "outcome": "Approved with conditional funding based on milestone achievements"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue_increase": "25% over 5 years",
+    "projected_cost_reduction": "30% operational efficiency",
+    "risk_factors": ["Implementation complexity", "Employee resistance", "Technology integration challenges"]
+  }
+}

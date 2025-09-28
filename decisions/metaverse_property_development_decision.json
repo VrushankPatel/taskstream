@@ -1,0 +1,59 @@
+{
+  "scenario_id": "metaverse_property_development_2025",
+  "context": "Commercial real estate developer, 500 employees, evaluating entry into metaverse property development and virtual real estate",
+  "stakeholders": {
+    "requester": "VP of Innovation",
+    "approvers": ["CEO", "Chief Financial Officer", "Board of Directors"],
+    "influencers": ["Head of Technology", "VP of Marketing", "Legal Counsel", "Metaverse Platform Partners"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Develop virtual real estate portfolio and metaverse development capabilities",
+    "urgency": "medium",
+    "justification": "Capitalize on $800 billion projected metaverse market, diversify portfolio, attract younger demographic"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "3 months",
+      "activities": ["Metaverse market analysis", "Virtual real estate trends", "Platform ecosystem evaluation", "User adoption studies"],
+      "outcome": "Identified high-growth opportunities in virtual commercial spaces and gaming metaverse properties"
+    },
+    {
+      "stage": "platform_partnerships",
+      "duration": "2 months",
+      "activities": ["Metaverse platform selection", "Partnership negotiations", "Technology integration planning", "IP rights discussions"],
+      "outcome": "Secured partnerships with 3 major metaverse platforms and development tools provider"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 months",
+      "activities": ["Virtual property valuation models", "Revenue projection analysis", "Cost structure development", "Risk assessment"],
+      "outcome": "Projected $15 million annual revenue with 40% profit margins on virtual property development"
+    },
+    {
+      "stage": "legal_framework",
+      "duration": "2 months",
+      "activities": ["Virtual property ownership laws", "IP protection strategies", "Regulatory compliance review", "Contract templates development"],
+      "outcome": "Established legal framework for virtual property transactions and ownership rights"
+    },
+    {
+      "stage": "pilot_development",
+      "duration": "3 months",
+      "activities": ["Virtual property design", "Platform integration testing", "Marketing campaign planning", "User experience optimization"],
+      "outcome": "Developed pilot virtual shopping mall and office complex with positive user feedback"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 month",
+      "activities": ["Business case presentation", "Board discussion", "Risk mitigation review", "Investment approval"],
+      "outcome": "Approved $25 million investment with focus on commercial virtual spaces and quarterly performance reviews"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$15 million annually from virtual property leasing",
+    "projected_user_engagement": "500,000 monthly active users in virtual properties",
+    "risk_factors": ["Technology platform instability", "Regulatory uncertainty for virtual assets", "User adoption slower than expected", "Competition from tech giants"],
+    "strategic_benefits": ["Diversified revenue streams", "Access to younger demographics", "Technology leadership in real estate", "Brand extension into digital economy"]
+  }
+}

@@ -1,0 +1,65 @@
+workflow:
+  id: "workflow_oncology_treatment"
+  title: "Oncology Treatment Coordination Process"
+  department: "Oncology Care Team"
+  complexity: "high"
+  participants: ["Oncologist", "Nurse Navigator", "Radiation Therapist", "Medical Oncologist", "Patient Care Coordinator", "Social Worker", "Nutritionist"]
+  trigger: "New cancer diagnosis confirmed"
+  steps:
+    - step: 1
+      actor: "Patient Care Coordinator"
+      action: "Conduct initial patient assessment and gather medical history"
+      tools: ["EHR System", "Patient Intake Forms"]
+      duration: "2 hours"
+      outputs: ["Comprehensive Patient Profile", "Initial Treatment Plan Outline"]
+    - step: 2
+      actor: "Oncologist"
+      action: "Review pathology results and determine treatment approach"
+      decision_points: ["Tumor stage", "Patient comorbidities", "Molecular markers"]
+      tools: ["Pathology Reports", "Imaging Studies", "Genetic Testing Results"]
+      duration: "4 hours"
+      outputs: ["Staging Report", "Treatment Recommendations"]
+    - step: 3
+      actor: "Multidisciplinary Team"
+      action: "Hold tumor board meeting to discuss complex cases"
+      tools: ["Tumor Board Software", "Case Presentation Slides"]
+      duration: "1 hour"
+      outputs: ["Consensus Treatment Plan", "Contingency Plans"]
+    - step: 4
+      actor: "Nurse Navigator"
+      action: "Coordinate scheduling of diagnostic tests and consultations"
+      tools: ["Appointment Scheduling System", "Patient Portal"]
+      duration: "3 hours"
+      outputs: ["Coordinated Care Calendar", "Patient Education Materials"]
+    - step: 5
+      actor: "Medical Oncologist"
+      action: "Administer chemotherapy and monitor side effects"
+      tools: ["Chemotherapy Administration System", "Vital Signs Monitoring"]
+      duration: "Ongoing - 3-6 months"
+      outputs: ["Treatment Progress Reports", "Side Effect Management Plans"]
+    - step: 6
+      actor: "Radiation Therapist"
+      action: "Deliver radiation therapy with precise targeting"
+      tools: ["Linear Accelerator", "Treatment Planning Software"]
+      duration: "6-8 weeks"
+      outputs: ["Radiation Treatment Logs", "Dosimetry Reports"]
+    - step: 7
+      actor: "Social Worker"
+      action: "Assess psychosocial needs and provide support services"
+      tools: ["Psychosocial Assessment Tools", "Community Resource Database"]
+      duration: "Ongoing"
+      outputs: ["Support Care Plan", "Referral Documentation"]
+    - step: 8
+      actor: "Nutritionist"
+      action: "Develop nutritional plan to support treatment and recovery"
+      tools: ["Nutritional Assessment Software", "Diet Planning Tools"]
+      duration: "Initial + follow-ups"
+      outputs: ["Personalized Nutrition Plan", "Supplement Recommendations"]
+    - step: 9
+      actor: "Patient Care Coordinator"
+      action: "Monitor treatment progress and coordinate follow-up care"
+      tools: ["Care Coordination Dashboard", "Patient Tracking System"]
+      duration: "Ongoing"
+      outputs: ["Progress Reports", "Survivorship Care Plans"]
+  success_criteria: "Patient completes treatment regimen with optimal outcomes and quality of life maintained"
+  failure_modes: ["Treatment delays due to scheduling conflicts", "Adverse reactions requiring treatment modification", "Patient non-compliance with treatment plan", "Insufficient psychosocial support leading to treatment interruption"]

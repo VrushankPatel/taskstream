@@ -1,0 +1,47 @@
+{
+  "scenario_id": "transportation_autonomous_trucking_q1_2026",
+  "context": "Major logistics company, 100,000 employees, planning autonomous trucking fleet deployment",
+  "stakeholders": {
+    "requester": "VP of Fleet Operations",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "Chief Risk Officer"],
+    "influencers": ["Head of Technology", "Regulatory Affairs Director", "Insurance Manager"]
+  },
+  "request": {
+    "amount": "$500 million",
+    "purpose": "Deploy 1,000 autonomous trucks across North American network",
+    "urgency": "medium",
+    "justification": "Reduce operating costs by 30%, improve safety metrics, address driver shortage"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_program_evaluation",
+      "duration": "6 months",
+      "activities": ["Review existing pilot data", "Safety performance analysis", "Cost-benefit assessment"],
+      "outcome": "Pilot successful: 25% cost reduction, zero accidents, 98% uptime"
+    },
+    {
+      "stage": "regulatory_compliance_review",
+      "duration": "3 months",
+      "activities": ["State-by-state regulatory assessment", "Federal guideline review", "International shipping implications"],
+      "outcome": "Regulatory framework evolving, conditional approvals available in key markets"
+    },
+    {
+      "stage": "infrastructure_assessment",
+      "duration": "2 months",
+      "activities": ["Network mapping for autonomous operations", "Technology infrastructure audit", "Cybersecurity evaluation"],
+      "outcome": "85% of network suitable, infrastructure upgrades required for remaining 15%"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "2 weeks",
+      "activities": ["Business case presentation", "Risk mitigation planning", "Implementation timeline development"],
+      "outcome": "Approved with phased rollout: Start with 200 trucks in regulated corridors, scale based on performance"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["30% reduction in transportation costs", "50% decrease in accident rates", "Solution to driver shortage crisis"],
+    "projected_revenue": "$200 million annual savings",
+    "risk_factors": ["Regulatory changes", "Technology failures", "Cybersecurity threats", "Public acceptance issues"],
+    "strategic_alignment": "Modernizes fleet operations, enhances competitive advantage, supports sustainability goals"
+  }
+}

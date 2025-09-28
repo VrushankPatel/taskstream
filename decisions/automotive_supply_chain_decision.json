@@ -1,0 +1,40 @@
+{
+  "scenario_id": "automotive_supply_chain_q3_2025",
+  "context": "Automotive manufacturer, 8000 employees, addressing semiconductor chip shortage impacts",
+  "stakeholders": {
+    "requester": "Chief Procurement Officer",
+    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
+    "influencers": ["Supply Chain Team", "Engineering", "Sales & Marketing"]
+  },
+  "request": {
+    "amount": "$50M investment",
+    "purpose": "Diversify semiconductor suppliers and implement vertical integration",
+    "urgency": "critical",
+    "justification": "Current shortage causing 30% production loss, $200M quarterly revenue impact"
+  },
+  "decision_process": [
+    {
+      "stage": "crisis_assessment",
+      "duration": "1 week",
+      "activities": ["Supply chain mapping", "Impact analysis", "Alternative supplier identification"],
+      "outcome": "Immediate diversification required"
+    },
+    {
+      "stage": "supplier_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Supplier audits", "Capacity assessments", "Contract negotiations"],
+      "outcome": "Three new suppliers qualified"
+    },
+    {
+      "stage": "strategic_investment",
+      "duration": "4 weeks",
+      "activities": ["Vertical integration feasibility", "Partnership development", "ROI modeling"],
+      "outcome": "Approved phased approach: supplier diversification + strategic partnerships"
+    }
+  ],
+  "business_impact": {
+    "production_recovery": "90% capacity",
+    "cost_impact": "$15M quarterly savings",
+    "risk_factors": ["Supplier reliability", "Technology transfer challenges", "Integration complexity"]
+  }
+}

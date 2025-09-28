@@ -1,0 +1,40 @@
+{
+  "scenario_id": "legal_case_management_q2_2026",
+  "context": "Law firm, 250 attorneys, evaluating AI-powered case management and document analysis platform",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["Managing Partner", "Executive Committee"],
+    "influencers": ["Practice Group Leaders", "IT Department", "Knowledge Management"]
+  },
+  "request": {
+    "amount": "$1.8M implementation budget",
+    "purpose": "Deploy AI platform for case analysis, document review, and predictive case outcomes",
+    "urgency": "high",
+    "justification": "Competitors adopting AI, current manual processes limit scalability"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor assessment", "Security review", "Integration testing"],
+      "outcome": "Leading platform identified"
+    },
+    {
+      "stage": "ethical_legal_review",
+      "duration": "3 weeks",
+      "activities": ["Bar association guidelines review", "Data privacy assessment", "Ethical implications analysis"],
+      "outcome": "Compliant with professional standards"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "3 weeks",
+      "activities": ["Change management plan", "Training program development", "ROI modeling"],
+      "outcome": "Approved with phased rollout and extensive training"
+    }
+  ],
+  "business_impact": {
+    "case_processing_efficiency": "40% improvement",
+    "revenue_per_attorney_increase": "20%",
+    "risk_factors": ["Data security concerns", "Attorney acceptance", "Regulatory compliance changes"]
+  }
+}

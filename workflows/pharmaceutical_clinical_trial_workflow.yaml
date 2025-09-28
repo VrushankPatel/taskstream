@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_pharma_trial_001"
+  title: "Pharmaceutical Clinical Trial Management"
+  department: "Clinical Operations"
+  complexity: "high"
+  participants: ["Clinical Trial Manager", "Regulatory Affairs", "Principal Investigator", "Data Manager", "Safety Monitor", "Ethics Committee"]
+  trigger: "IND application approved by FDA"
+  steps:
+    - step: 1
+      actor: "Clinical Trial Manager"
+      action: "Develop trial protocol and obtain ethics approval"
+      tools: ["Protocol Template", "IRB Submission System"]
+      duration: "8 weeks"
+      outputs: ["Approved Protocol", "Ethics Approval"]
+    - step: 2
+      actor: "Clinical Trial Manager"
+      action: "Select and contract clinical sites and investigators"
+      tools: ["Site Selection Database", "Contract Templates"]
+      duration: "6 weeks"
+      outputs: ["Site Contracts", "Investigator Agreements"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "File regulatory submissions and obtain approvals"
+      tools: ["Regulatory Submission Software", "FDA Portal"]
+      duration: "4 weeks"
+      outputs: ["Regulatory Approvals"]
+    - step: 4
+      actor: "Data Manager"
+      action: "Set up data collection systems and monitoring"
+      tools: ["EDC System", "Data Validation Rules"]
+      duration: "3 weeks"
+      outputs: ["Data Collection Setup", "Monitoring Plan"]
+    - step: 5
+      actor: "Principal Investigator"
+      action: "Recruit patients and conduct trial procedures"
+      tools: ["Patient Recruitment Tools", "Trial Management Software"]
+      duration: "12-24 months"
+      outputs: ["Patient Data", "Adverse Event Reports"]
+    - step: 6
+      actor: "Safety Monitor"
+      action: "Monitor safety data and manage adverse events"
+      tools: ["Safety Database", "Reporting Systems"]
+      duration: "Ongoing"
+      outputs: ["Safety Reports", "Risk Assessments"]
+    - step: 7
+      actor: "Data Manager"
+      action: "Analyze trial data and prepare final report"
+      tools: ["Statistical Software", "Reporting Tools"]
+      duration: "8 weeks"
+      outputs: ["Clinical Study Report", "Data Package"]
+  success_criteria: "Trial completes on time, meets regulatory standards, demonstrates safety and efficacy"
+  failure_modes: ["Patient recruitment delays", "Regulatory holds", "Safety issues", "Data integrity problems"]

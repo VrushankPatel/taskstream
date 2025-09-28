@@ -1,0 +1,41 @@
+{
+  "scenario_id": "environmental_risk_2026_decision",
+  "context": "Manufacturing company, 2000 employees, facing increasing regulatory pressure and supply chain disruptions from climate change",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board ESG Committee"],
+    "influencers": ["Operations Director", "Supply Chain Manager", "Environmental Consultants"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Comprehensive environmental risk management program including climate scenario planning and carbon reduction initiatives",
+    "urgency": "medium",
+    "justification": "Regulatory compliance requirements and investor pressure for ESG reporting"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment",
+      "duration": "3 months",
+      "activities": ["Climate impact modeling", "Supply chain vulnerability analysis", "Regulatory compliance review"],
+      "outcome": "Identified critical environmental risks and exposure levels"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "2 months",
+      "activities": ["Carbon reduction roadmap", "Resilience planning", "Stakeholder engagement"],
+      "outcome": "Developed integrated environmental risk management strategy"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 month",
+      "activities": ["Resource allocation", "Timeline development", "Success metrics definition"],
+      "outcome": "Approved phased implementation plan"
+    }
+  ],
+  "business_impact": {
+    "expected_carbon_reduction": "25% by 2030",
+    "projected_cost_savings": "$500,000 annually",
+    "regulatory_compliance_score": "100% achievement",
+    "risk_factors": ["Technology implementation challenges", "Supplier cooperation requirements", "Measurement and reporting complexity"]
+  }
+}

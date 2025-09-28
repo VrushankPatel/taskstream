@@ -1,16 +1,13 @@
 # Pending Research Items for TaskStream Dataset
 
-## Completed in Session 36
-- Transportation: Autonomous vehicle fleet management workflows, smart infrastructure company structures, smart infrastructure performance metrics, autonomous vehicle safety policies
-- Entertainment: Content production pipeline optimization workflows, virtual production division structures, virtual production performance metrics, virtual production safety policies
-- Construction: Advanced project management systems implementation workflows
-- Energy: Hydrogen economy infrastructure development workflows
-- Education: Lifelong learning platform development workflows
-- Manufacturing: Circular economy business model implementation workflows
-- Retail: Metaverse commerce platform development decisions, last-mile delivery innovation meeting notes
-- Healthcare: Mental health crisis intervention systems decisions, patient data interoperability email threads
-- Technology: Quantum computing research center operations decisions, AI ethics governance announcements
-- Communications: Social media crisis management automation decisions, influencer relationship management meeting notes
+## Completed in Session 37
+- Agriculture: Precision farming implementation workflows, sustainable farming transition decisions, supply chain traceability communications, smart farming operations structures, sustainability yield optimization metrics, regenerative farming policies
+- Mining: Environmental monitoring automation workflows, worker safety technology decisions, safety incident response communications, automation safety team structures, automation safety performance metrics, autonomous equipment safety policies
+- Hospitality: Guest experience personalization workflows, crisis recovery protocol decisions, sustainable practices initiative communications
+- International Operations: Compliance monitoring workflows, cultural adaptation strategy communications
+- Crisis Management: AI system failure response workflows
+- Sustainability: Circular economy implementation workflows
+- Emerging Technologies: Blockchain supply chain traceability decisions
 
 ## Completed in Session 35
 - Education: Student success prediction workflows, adaptive learning implementation meetings, academic analytics and intervention systems
@@ -443,13 +440,13 @@
 - Real Estate: Smart building automation, tenant experience management, property valuation analytics
 
 ## High Priority Research Areas - Next Session
-- Agriculture: Advanced farming technology adoption, supply chain traceability systems, sustainable agriculture certification processes, crop yield optimization through AI
-- Mining: Digital transformation in mining operations, environmental monitoring automation, worker safety technology implementation, mineral processing optimization
-- Hospitality: Revenue management system integration, guest experience personalization at scale, sustainable hospitality practices, crisis recovery protocols
-- International Business: Cross-cultural team management, international regulatory compliance, global supply chain coordination, multicultural marketing strategies
-- Crisis Management: AI system failure response protocols, cybersecurity incident management for IoT networks, autonomous system malfunction procedures, emergency communication frameworks
-- Emerging Technologies: Blockchain supply chain implementation, IoT ecosystem management, AR/VR enterprise adoption, 5G infrastructure deployment
-- Sustainability: Circular economy performance measurement, carbon footprint tracking systems, ESG reporting automation, sustainable procurement frameworks
+- Aerospace: Aircraft maintenance optimization, aviation safety management systems, space tourism operations, unmanned aerial systems integration
+- Pharmaceuticals: Drug development acceleration, clinical trial management systems, regulatory compliance automation, personalized medicine implementation
+- Food Service: Restaurant chain operations, food safety management, supply chain optimization, digital ordering platforms
+- Government: Public sector digital transformation, citizen service automation, regulatory policy development, inter-agency coordination
+- Nonprofit: Fundraising optimization, program impact measurement, volunteer management systems, social impact reporting
+- Emerging Technologies: Quantum computing applications, AR/VR enterprise solutions, 6G network infrastructure, autonomous systems integration
+- Digital Transformation: Legacy system migration strategies, cloud adoption frameworks, data analytics implementation, change management methodologies
 
 ## Industry-Specific Workflows to Research
 - Healthcare: Patient intake, medical billing

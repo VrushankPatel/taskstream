@@ -1,0 +1,41 @@
+{
+  "scenario_id": "agriculture_sustainable_farming_transition",
+  "context": "Mid-size agricultural cooperative with 50 farms, facing increasing regulatory pressure and market demand for sustainable practices",
+  "stakeholders": {
+    "requester": "Operations Director",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Farm Managers", "Sustainability Consultant", "Financial Advisor"]
+  },
+  "request": {
+    "amount": "$2.5 million",
+    "purpose": "Transition to sustainable farming practices including organic certification, precision irrigation, and regenerative agriculture",
+    "urgency": "high",
+    "justification": "Regulatory compliance requirements and premium pricing opportunities in sustainable markets"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "6 weeks",
+      "activities": ["Cost-benefit analysis", "Regulatory compliance review", "Market opportunity assessment"],
+      "outcome": "Proceed with detailed implementation planning"
+    },
+    {
+      "stage": "pilot_program_design",
+      "duration": "8 weeks",
+      "activities": ["Pilot farm selection", "Technology vendor evaluation", "Training program development"],
+      "outcome": "Approved pilot program for 10 farms"
+    },
+    {
+      "stage": "full_implementation_planning",
+      "duration": "12 weeks",
+      "activities": ["Scaling strategy development", "Financial modeling", "Risk assessment"],
+      "outcome": "Approved with phased implementation over 3 years"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["15% premium pricing", "20% reduction in input costs", "Improved regulatory compliance"],
+    "projected_roi": "18 months",
+    "risk_factors": ["Technology adoption challenges", "Weather dependency", "Market volatility"],
+    "success_metrics": ["Certification achievement rate", "Cost savings realization", "Market premium capture"]
+  }
+}

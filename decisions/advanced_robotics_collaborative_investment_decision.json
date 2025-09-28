@@ -1,0 +1,46 @@
+{
+  "scenario_id": "advanced_robotics_collaborative_investment_2025",
+  "context": "Manufacturing enterprise evaluating investment in human-robot collaborative systems for flexible production lines",
+  "stakeholders": {
+    "requester": "VP of Manufacturing",
+    "approvers": ["CEO", "CFO", "Operations Committee"],
+    "influencers": ["Safety Committee", "Workforce Development Team", "Technology Partners", "Quality Assurance"]
+  },
+  "request": {
+    "amount": "$12 million",
+    "purpose": "Implement collaborative robotics systems for mixed-model assembly operations",
+    "urgency": "high",
+    "justification": "Enable flexible production capabilities and address skilled labor shortages while maintaining product quality"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "8 weeks",
+      "activities": ["Process mapping and analysis", "Collaborative robot technology assessment", "Integration requirements evaluation"],
+      "outcome": "Identified optimal collaborative robot applications with clear technical specifications"
+    },
+    {
+      "stage": "safety_and_ergonomics",
+      "duration": "6 weeks",
+      "activities": ["Safety risk assessment", "Ergonomic impact studies", "Regulatory compliance review"],
+      "outcome": "Comprehensive safety framework developed with ISO standards compliance"
+    },
+    {
+      "stage": "workforce_transition_planning",
+      "duration": "10 weeks",
+      "activities": ["Skills gap analysis", "Training program development", "Change management strategy"],
+      "outcome": "Workforce transition plan with upskilling programs and job role evolution"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Total cost of ownership analysis", "ROI projections", "Risk-adjusted financial modeling"],
+      "outcome": "3-year payback period confirmed with 35% productivity improvement projected"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gain": "40%",
+    "projected_cost_savings": "$4.8 million annually",
+    "risk_factors": ["Safety certification delays", "Workforce adaptation challenges", "Technical integration complexities", "Higher maintenance costs"]
+  }
+}

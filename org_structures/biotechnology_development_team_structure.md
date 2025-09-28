@@ -1,7 +1,7 @@
 # Biotechnology Development Team Structure
 
 ## Overview
-Specialized cross-functional team focused on developing and commercializing cell and gene therapies for rare genetic disorders. Structure emphasizes scientific excellence, regulatory compliance, and translational research capabilities.
+Specialized cross-functional team focused on developing and commercializing CRISPR-based gene editing therapies for genetic disorders. Structure emphasizes scientific excellence, regulatory compliance, ethical oversight, and translational research capabilities for emerging biotechnologies.
 
 ## Leadership Structure
 

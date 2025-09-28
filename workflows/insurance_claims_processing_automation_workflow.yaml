@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_insurance_claims_automation_001"
+  title: "Insurance Claims Processing Automation"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Automation Specialist"]
+  trigger: "Policyholder submits claim via digital portal or mobile app"
+  steps:
+    - step: 1
+      actor: "Automation Specialist"
+      action: "Validate claim submission and perform initial automated checks"
+      tools: ["Claims automation platform", "AI document processing", "Fraud detection algorithms"]
+      duration: "30 minutes"
+      outputs: ["Automated validation report", "Fraud risk score"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Review automated assessment and gather additional information if needed"
+      decision_points: ["Coverage verification", "Damage assessment requirements"]
+      duration: "2 hours"
+      outputs: ["Claim assessment summary", "Information request list"]
+    - step: 3
+      actor: "Underwriter"
+      action: "Evaluate claim validity and determine settlement parameters"
+      tools: ["Underwriting guidelines database", "Historical claims data"]
+      duration: "3 hours"
+      outputs: ["Settlement recommendation", "Reserve adjustment"]
+    - step: 4
+      actor: "Claims Supervisor"
+      action: "Approve automated settlement and initiate payment processing"
+      tools: ["Digital signature platform", "Automated payment system"]
+      duration: "1 hour"
+      outputs: ["Settlement approval", "Payment confirmation"]
+  success_criteria: "Claims processed within 48 hours, Automation rate >70%, Customer satisfaction >90%"
+  failure_modes: ["System integration issues", "Manual override requirements", "Data quality problems", "Regulatory compliance gaps"]
+  metrics:
+    - "Average processing time: Target <48 hours"
+    - "Automation success rate: Target >70%"
+    - "Customer satisfaction score: Target >90%"
+    - "Fraud detection accuracy: Target >95%"

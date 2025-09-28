@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_cyber_liability_coverage_expansion_2025",
+  "context": "Property and casualty insurance company expanding into cyber liability coverage amid rising cyber threats and regulatory requirements",
+  "stakeholders": {
+    "requester": "VP Underwriting",
+    "approvers": ["Chief Underwriter", "CFO", "CEO"],
+    "influencers": ["Risk Manager", "Product Development Director", "Claims Manager"]
+  },
+  "request": {
+    "amount": "$1,200,000",
+    "purpose": "Development and launch of comprehensive cyber liability insurance product line",
+    "urgency": "high",
+    "justification": "Cyber attacks costing businesses $8M annually on average, regulatory pressure increasing, market opportunity estimated at $15B globally"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "6 weeks",
+      "activities": ["Competitive analysis", "Customer needs assessment", "Regulatory review"],
+      "outcome": "Identified gaps in current cyber offerings, validated market demand"
+    },
+    {
+      "stage": "product_design",
+      "duration": "8 weeks",
+      "activities": ["Coverage development", "Pricing modeling", "Underwriting guidelines creation"],
+      "outcome": "Designed three-tier cyber liability product with coverage limits from $500K to $10M"
+    },
+    {
+      "stage": "pilot_launch",
+      "duration": "3 months",
+      "activities": ["Limited market testing", "Claims experience monitoring", "Feedback collection"],
+      "outcome": "Successful pilot with 85% customer satisfaction, validated pricing assumptions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream generating $25M annually within 3 years, expanded market share in commercial lines",
+    "projected_value": "$75,000,000 cumulative revenue over 5 years",
+    "risk_factors": ["Underwriting losses from new risk class", "Regulatory changes", "Competitive market entry", "Claims handling complexity"]
+  },
+  "decision_criteria": ["Market demand validation", "Risk assessment accuracy", "Regulatory compliance", "Competitive differentiation", "Profitability projections"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot testing provided critical validation before full launch, cross-functional collaboration ensured comprehensive risk assessment, phased market entry minimized exposure to new risk class"
+}

@@ -1,0 +1,34 @@
+{
+  "scenario_id": "real_estate_development_mixed_use_2024",
+  "context": "Real estate developer, 300 employees, planning mixed-use development",
+  "stakeholders": {
+    "requester": "Development Director",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["City Planning Department", "Environmental Consultants", "Financial Partners"]
+  },
+  "request": {
+    "amount": "$150 million",
+    "purpose": "Mixed-use development with retail, office, and residential components",
+    "urgency": "medium",
+    "justification": "High-demand urban location with strong ROI potential"
+  },
+  "decision_process": [
+    {
+      "stage": "site_evaluation",
+      "duration": "3 months",
+      "activities": ["Zoning analysis", "Market feasibility study", "Financial projections"],
+      "outcome": "Site approved for development"
+    },
+    {
+      "stage": "partnership_negotiation",
+      "duration": "2 months",
+      "activities": ["Investor presentations", "Joint venture discussions", "Legal due diligence"],
+      "outcome": "Approved with 40% equity partner"
+    }
+  ],
+  "business_impact": {
+    "expected_roi": "12%",
+    "project_completion": "3 years",
+    "risk_factors": ["Construction delays", "Market downturn", "Regulatory approvals"]
+  }
+}

@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_clinical_trial_management"
+  title: "Clinical Trial Management Workflow"
+  department: "Research and Development"
+  complexity: "high"
+  participants: ["Principal Investigator", "Clinical Research Coordinator", "Regulatory Affairs Specialist", "Data Manager", "Ethics Committee", "Sponsor Representative"]
+  trigger: "New drug or treatment protocol requires clinical validation"
+  steps:
+    - step: 1
+      actor: "Principal Investigator"
+      action: "Develop trial protocol and study design"
+      tools: ["Protocol writing templates", "Statistical analysis plans", "Regulatory guidelines"]
+      duration: "4-8 weeks"
+      outputs: ["Clinical trial protocol", "Study design document"]
+    - step: 2
+      actor: "Regulatory Affairs Specialist"
+      action: "Obtain regulatory approvals and ethics committee review"
+      tools: ["Regulatory submission systems", "Ethics review applications", "Compliance checklists"]
+      duration: "6-12 weeks"
+      outputs: ["Regulatory approvals", "Ethics committee approval"]
+      decision_points: ["Phase I vs Phase II vs Phase III?", "Single-center vs multi-center?"]
+    - step: 3
+      actor: "Clinical Research Coordinator"
+      action: "Recruit patients and manage trial execution"
+      tools: ["Patient recruitment databases", "Informed consent forms", "Trial management software"]
+      duration: "Ongoing (months to years)"
+      outputs: ["Patient enrollment records", "Trial progress reports"]
+    - step: 4
+      actor: "Data Manager"
+      action: "Monitor data quality and perform interim analyses"
+      tools: ["Clinical data management systems", "Statistical software", "Data validation protocols"]
+      duration: "Ongoing"
+      outputs: ["Data quality reports", "Interim analysis results"]
+    - step: 5
+      actor: "Principal Investigator and Sponsor Representative"
+      action: "Review final results and prepare regulatory submissions"
+      tools: ["Statistical analysis software", "Regulatory submission templates", "Publication guidelines"]
+      duration: "8-16 weeks"
+      outputs: ["Final study report", "Regulatory submission package"]
+  success_criteria: "Trial completes on time and budget with positive safety and efficacy results leading to regulatory approval"
+  failure_modes: ["Patient recruitment challenges", "Protocol deviations", "Adverse events", "Data integrity issues", "Regulatory delays"]

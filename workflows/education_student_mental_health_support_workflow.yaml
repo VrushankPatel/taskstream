@@ -1,0 +1,54 @@
+workflow:
+  id: "workflow_education_mental_health_support"
+  title: "Student Mental Health Support Program"
+  department: "Student Affairs"
+  complexity: "high"
+  participants: ["Counseling Director", "Mental Health Counselors", "Academic Advisors", "Faculty Members", "Student Services Coordinator", "IT Support"]
+  trigger: "Student exhibits signs of mental health distress or proactive wellness initiative"
+  steps:
+    - step: 1
+      actor: "Student Services Coordinator"
+      action: "Identify at-risk students through academic performance monitoring and referral systems"
+      tools: ["Student Information System", "Early Alert System", "Academic Performance Dashboard"]
+      duration: "Ongoing"
+      outputs: ["At-Risk Student List", "Initial Assessment Referrals"]
+      decision_points: ["Severity of Indicators", "Student Consent for Intervention"]
+    - step: 2
+      actor: "Mental Health Counselors"
+      action: "Conduct initial mental health screening and assessment"
+      tools: ["Mental Health Assessment Tools", "Telehealth Platform", "Confidential Counseling Software"]
+      duration: "45-60 minutes"
+      outputs: ["Mental Health Assessment Report", "Risk Level Classification"]
+    - step: 3
+      actor: "Counseling Director"
+      action: "Develop individualized support plan with appropriate interventions"
+      tools: ["Case Management System", "Treatment Planning Templates"]
+      duration: "1-2 days"
+      outputs: ["Individualized Support Plan", "Resource Allocation Recommendations"]
+      decision_points: ["Counseling vs Psychiatry Referral", "Academic Accommodations Needed"]
+    - step: 4
+      actor: "Mental Health Counselors"
+      action: "Provide ongoing counseling services and monitor progress"
+      tools: ["Counseling Session Management", "Progress Tracking Tools", "Crisis Intervention Protocols"]
+      duration: "Weekly sessions"
+      outputs: ["Session Notes", "Progress Reports", "Crisis Intervention Records"]
+    - step: 5
+      actor: "Academic Advisors"
+      action: "Implement academic accommodations and support academic success"
+      tools: ["Academic Accommodation System", "Study Skills Resources", "Faculty Communication Tools"]
+      duration: "As needed"
+      outputs: ["Academic Support Plan", "Grade Adjustments", "Extended Deadlines"]
+    - step: 6
+      actor: "Faculty Members"
+      action: "Monitor student engagement and provide classroom support"
+      tools: ["Learning Management System", "Attendance Tracking", "Communication Platforms"]
+      duration: "Ongoing"
+      outputs: ["Engagement Reports", "Faculty Observations", "Support Referrals"]
+    - step: 7
+      actor: "Counseling Director"
+      action: "Coordinate with external mental health providers and track outcomes"
+      tools: ["Referral Management System", "Outcome Measurement Tools"]
+      duration: "Monthly reviews"
+      outputs: ["Outcome Reports", "Program Effectiveness Metrics"]
+  success_criteria: "80% student retention rate for supported students, positive mental health outcome scores, reduced crisis incidents"
+  failure_modes: ["Privacy breaches in data handling", "Insufficient counselor capacity", "Delayed intervention response"]

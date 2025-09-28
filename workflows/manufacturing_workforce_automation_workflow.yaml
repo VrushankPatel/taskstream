@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_workforce_automation"
+  title: "Workforce Automation Transition Workflow"
+  department: "Operations and Human Resources"
+  complexity: "high"
+  participants: ["Operations Manager", "HR Business Partner", "Automation Engineer", "Training Coordinator", "Union Representative", "Employee"]
+  trigger: "Technology upgrade or efficiency initiative requires automation implementation"
+  steps:
+    - step: 1
+      actor: "Operations Manager"
+      action: "Assess automation opportunities and develop implementation plan"
+      tools: ["Process analysis tools", "ROI calculators", "Automation feasibility studies"]
+      duration: "4-6 weeks"
+      outputs: ["Automation implementation plan", "Impact assessment report"]
+    - step: 2
+      actor: "Automation Engineer"
+      action: "Design and install automated systems and robotics"
+      tools: ["CAD design software", "Robotics programming tools", "Integration testing protocols"]
+      duration: "8-16 weeks"
+      outputs: ["Automated system designs", "Installation documentation"]
+      decision_points: ["Full automation vs human-robot collaboration?", "Vendor selection criteria"]
+    - step: 3
+      actor: "HR Business Partner"
+      action: "Develop workforce transition plan including retraining and redeployment"
+      tools: ["Skills assessment tools", "Retraining program frameworks", "Career transition planning"]
+      duration: "6-10 weeks"
+      outputs: ["Workforce transition plan", "Retraining curriculum"]
+    - step: 4
+      actor: "Training Coordinator"
+      action: "Deliver training programs for affected employees"
+      tools: ["Training management systems", "Skills certification programs", "E-learning platforms"]
+      duration: "4-12 weeks"
+      outputs: ["Training completion records", "Skills assessment results"]
+    - step: 5
+      actor: "Union Representative"
+      action: "Negotiate terms for workforce changes and monitor compliance"
+      tools: ["Collective bargaining agreements", "Labor law compliance tools", "Employee feedback systems"]
+      duration: "Ongoing"
+      outputs: ["Negotiation agreements", "Compliance monitoring reports"]
+    - step: 6
+      actor: "Employee"
+      action: "Participate in retraining and adapt to new roles"
+      tools: ["Training materials", "Mentorship programs", "Performance support tools"]
+      duration: "Ongoing"
+      outputs: ["Retraining completion certificates", "Performance evaluations"]
+  success_criteria: "Successful automation implementation with minimal disruption, improved productivity, and positive employee outcomes"
+  failure_modes: ["Resistance to change", "Skills gaps", "Technical integration issues", "Cost overruns", "Union disputes"]

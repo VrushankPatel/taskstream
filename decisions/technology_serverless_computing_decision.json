@@ -1,0 +1,47 @@
+{
+  "scenario_id": "serverless_computing_adoption_2025",
+  "context": "Tech startup with 50 employees developing SaaS platform, facing scaling challenges with traditional server infrastructure",
+  "stakeholders": {
+    "requester": "CTO",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Development Team Lead", "DevOps Engineer", "Product Manager"]
+  },
+  "request": {
+    "amount": "$150,000",
+    "purpose": "Migrate core application to serverless architecture",
+    "urgency": "high",
+    "justification": "Reduce infrastructure costs by 40% and improve scalability for user growth"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Architecture review", "Cost modeling", "Performance benchmarking"],
+      "outcome": "Serverless architecture recommended for API layer and background processing"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "1 week",
+      "activities": ["ROI analysis", "Migration cost estimation", "Operational cost projections"],
+      "outcome": "Projected 35% cost reduction with 6-month payback period"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "1 week",
+      "activities": ["Vendor lock-in analysis", "Security review", "Compliance check"],
+      "outcome": "Acceptable risk profile with mitigation strategies identified"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "4 weeks",
+      "activities": ["Migrate non-critical service", "Performance monitoring", "Team training"],
+      "outcome": "Successful pilot with 45% cost reduction achieved"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$80,000 annually",
+    "projected_user_capacity": "3x current load",
+    "risk_factors": ["Cold start latency", "Debugging complexity", "Monitoring challenges"],
+    "success_metrics": ["Cost reduction achieved", "System uptime maintained", "Development velocity improved"]
+  }
+}

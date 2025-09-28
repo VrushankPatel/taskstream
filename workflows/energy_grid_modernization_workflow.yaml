@@ -1,40 +1,54 @@
 workflow:
-  id: "workflow_grid_modernization"
-  title: "Smart Grid Modernization Program"
-  department: "Grid Operations"
+  id: "workflow_energy_grid_modernization"
+  title: "Grid Modernization Planning and Implementation"
+  department: "Grid Operations & Planning"
   complexity: "high"
-  participants: ["Grid Modernization Director", "Engineering Lead", "Regulatory Affairs Manager", "IT Integration Team", "Field Operations Manager"]
-  trigger: "Regulatory mandate for grid modernization and renewable integration"
+  participants: ["Grid Modernization Director", "Engineering Lead", "Regulatory Affairs Manager", "IT Integration Team", "Field Operations Manager", "Financial Analyst", "Stakeholder Engagement Coordinator"]
+  trigger: "Regulatory mandate for grid modernization, renewable energy integration, or infrastructure resilience requirements"
   steps:
     - step: 1
       actor: "Grid Modernization Director"
-      action: "Develop modernization roadmap and prioritize initiatives"
-      tools: ["Grid Assessment Tools", "Strategic Planning Framework"]
-      duration: "3-6 months"
-      outputs: ["Modernization Roadmap", "Priority Matrix"]
+      action: "Conduct comprehensive grid assessment and develop modernization strategy"
+      tools: ["Grid Assessment Tools", "Load Flow Analysis Software", "Strategic Planning Framework"]
+      duration: "3 months"
+      outputs: ["Grid Assessment Report", "Modernization Strategy Document", "Business Case Analysis"]
+      decision_points: ["AMI vs AMI-lite deployment", "Distribution vs Transmission focus", "Public-private partnership models"]
     - step: 2
-      actor: "Engineering Lead"
-      action: "Design smart grid infrastructure and component specifications"
-      decision_points: ["AMI deployment scope?", "Distribution automation level?", "Microgrid integration needed?"]
-      duration: "6-12 months"
-      outputs: ["Infrastructure Design Specifications", "Component Procurement Plan"]
+      actor: "Financial Analyst"
+      action: "Develop detailed cost-benefit analysis and funding strategy"
+      tools: ["Financial Modeling Software", "ROI Analysis Tools", "Grant Application Systems"]
+      duration: "2 months"
+      outputs: ["Cost-Benefit Analysis", "Funding Strategy Plan", "Budget Projections"]
     - step: 3
       actor: "Regulatory Affairs Manager"
-      action: "Navigate regulatory approvals and compliance requirements"
-      tools: ["Regulatory Tracking System", "Compliance Documentation Platform"]
-      duration: "6-18 months"
-      outputs: ["Regulatory Approval Package", "Compliance Framework"]
+      action: "Secure regulatory approvals and navigate compliance requirements"
+      tools: ["Regulatory Tracking System", "Compliance Documentation Platform", "Stakeholder Engagement Tools"]
+      duration: "4-6 months"
+      outputs: ["Regulatory Approval Package", "Compliance Framework", "Permit Applications"]
     - step: 4
-      actor: "IT Integration Team"
-      action: "Implement data management and cybersecurity systems"
-      tools: ["SCADA Systems", "Cybersecurity Framework"]
-      duration: "9-15 months"
-      outputs: ["Data Architecture Plan", "Security Implementation Report"]
+      actor: "Engineering Lead"
+      action: "Design smart grid infrastructure including sensors, automation, and renewable integration"
+      tools: ["Grid Design Software", "Simulation Tools", "Standards Compliance Checkers"]
+      duration: "6 months"
+      outputs: ["Infrastructure Design Specifications", "Component Procurement Plan", "Integration Architecture"]
+      decision_points: ["Centralized vs Distributed Control", "Legacy System Retirement Timeline", "Cybersecurity Integration Level"]
     - step: 5
+      actor: "IT Integration Team"
+      action: "Implement data management, cybersecurity systems, and operational technology integration"
+      tools: ["SCADA Systems", "Cybersecurity Framework", "Data Analytics Platform"]
+      duration: "8 months"
+      outputs: ["Data Architecture Plan", "Security Implementation Report", "System Integration Testing Results"]
+    - step: 6
+      actor: "Stakeholder Engagement Coordinator"
+      action: "Manage community outreach, landowner negotiations, and public communications"
+      tools: ["Community Engagement Platform", "GIS Mapping Tools", "Public Relations Software"]
+      duration: "Ongoing throughout project"
+      outputs: ["Stakeholder Engagement Plan", "Community Impact Assessments", "Communication Materials"]
+    - step: 7
       actor: "Field Operations Manager"
-      action: "Execute phased deployment and staff training"
-      tools: ["Deployment Management System", "Training Platform"]
-      duration: "12-24 months"
-      outputs: ["Deployment Timeline", "Training Program"]
-  success_criteria: "Modernized grid with improved reliability, renewable integration capability, enhanced monitoring and control"
-  failure_modes: ["Regulatory delays", "Technical integration issues", "Cost overruns"]
+      action: "Execute phased deployment, conduct staff training, and manage change management"
+      tools: ["Deployment Management System", "Training Platform", "Change Management Framework"]
+      duration: "12-18 months"
+      outputs: ["Deployment Timeline", "Training Program", "Operational Readiness Assessment"]
+  success_criteria: "Achieve target reliability metrics (SAIDI/SAIFI reduction), successful renewable energy integration (20%+ capacity), full regulatory compliance, positive stakeholder feedback"
+  failure_modes: ["Regulatory approval delays", "Cost overruns from scope creep", "Technical integration failures", "Community opposition", "Cybersecurity vulnerabilities"]

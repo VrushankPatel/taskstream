@@ -1,0 +1,53 @@
+{
+  "scenario_id": "real_estate_tokenization_2025",
+  "context": "Commercial real estate investment firm with $2B portfolio, exploring tokenization to democratize property investment",
+  "stakeholders": {
+    "requester": "Chief Investment Officer",
+    "approvers": ["CEO", "Chief Legal Officer", "Chief Technology Officer"],
+    "influencers": ["Portfolio Manager", "Compliance Director", "Blockchain Consultant"]
+  },
+  "request": {
+    "amount": "$3,000,000",
+    "purpose": "Pilot tokenization of $100M commercial property portfolio",
+    "urgency": "medium",
+    "justification": "Access new capital sources and increase liquidity for institutional investors"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "6 weeks",
+      "activities": ["Legal structure analysis", "Technology platform evaluation", "Market demand assessment"],
+      "outcome": "Confirmed technical and legal feasibility with strong institutional investor interest"
+    },
+    {
+      "stage": "regulatory_framework",
+      "duration": "8 weeks",
+      "activities": ["SEC Regulation D exemption", "State securities law compliance", "AML/KYC procedures"],
+      "outcome": "Established compliant tokenization framework with legal opinions obtained"
+    },
+    {
+      "stage": "platform_development",
+      "duration": "12 weeks",
+      "activities": ["Smart contract development", "Platform integration", "Security testing"],
+      "outcome": "Deployed secure tokenization platform with institutional-grade custody"
+    },
+    {
+      "stage": "property_selection",
+      "duration": "4 weeks",
+      "activities": ["Portfolio analysis", "Token structure design", "Investor prospectus development"],
+      "outcome": "Selected prime office building for initial tokenization with $50M target raise"
+    },
+    {
+      "stage": "token_launch",
+      "duration": "6 weeks",
+      "activities": ["Marketing campaign", "Investor onboarding", "Token distribution"],
+      "outcome": "Successfully tokenized property with 100% capital raised from 25 institutional investors"
+    }
+  ],
+  "business_impact": {
+    "expected_liquidity_improvement": "300%",
+    "projected_capital_access": "$500M additional",
+    "risk_factors": ["Regulatory changes", "Technology risks", "Market acceptance", "Legal challenges"],
+    "success_metrics": ["Capital raised", "Trading volume", "Investor satisfaction", "Compliance status"]
+  }
+}

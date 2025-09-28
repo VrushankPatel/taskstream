@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_agriculture_precision_farming"
+  title: "Agriculture Precision Farming Implementation"
+  department: "Agriculture Operations"
+  complexity: "high"
+  participants: ["Farm Manager", "Agronomist", "IT Specialist", "Equipment Supplier", "Data Analyst"]
+  trigger: "Need to optimize crop yields and reduce input costs"
+  steps:
+    - step: 1
+      actor: "Farm Manager"
+      action: "Assess current farming practices and identify optimization opportunities"
+      tools: ["Farm management software", "Historical yield data"]
+      duration: "2 weeks"
+      outputs: ["Current state assessment report"]
+    - step: 2
+      actor: "Agronomist"
+      action: "Design precision farming zones based on soil analysis and historical data"
+      tools: ["GIS mapping software", "Soil sensors", "Satellite imagery"]
+      duration: "3 weeks"
+      outputs: ["Precision farming zone maps", "Variable rate application plans"]
+    - step: 3
+      actor: "IT Specialist"
+      action: "Set up IoT sensor network and data collection infrastructure"
+      tools: ["IoT platform", "Wireless sensors", "Data storage systems"]
+      duration: "4 weeks"
+      outputs: ["Sensor network deployment", "Data pipeline configuration"]
+    - step: 4
+      actor: "Equipment Supplier"
+      action: "Install and calibrate precision farming equipment"
+      tools: ["GPS-guided tractors", "Variable rate applicators", "Yield monitors"]
+      duration: "2 weeks"
+      outputs: ["Equipment installation report", "Calibration certificates"]
+    - step: 5
+      actor: "Data Analyst"
+      action: "Develop analytics models for real-time decision making"
+      tools: ["Data analytics platform", "Machine learning algorithms", "Dashboard tools"]
+      duration: "3 weeks"
+      outputs: ["Predictive analytics models", "Real-time monitoring dashboard"]
+    - step: 6
+      actor: "Farm Manager"
+      action: "Train farm staff on precision farming technologies and procedures"
+      tools: ["Training manuals", "Hands-on equipment sessions", "Online learning modules"]
+      duration: "1 week"
+      outputs: ["Staff training records", "Standard operating procedures"]
+    - step: 7
+      actor: "Agronomist"
+      action: "Monitor initial implementation and adjust based on performance data"
+      tools: ["Real-time monitoring dashboard", "Performance analytics"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Optimization recommendations"]
+  success_criteria: "Achieved 15% increase in crop yields and 20% reduction in input costs"
+  failure_modes: ["Equipment malfunction", "Data quality issues", "Staff resistance to change"]

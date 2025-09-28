@@ -1,0 +1,46 @@
+{
+  "scenario_id": "hospitality_market_expansion_strategy_2025",
+  "context": "Luxury hotel chain with 50 properties, considering expansion into emerging Asian markets amid post-pandemic recovery",
+  "stakeholders": {
+    "requester": "Chief Development Officer",
+    "approvers": ["CEO", "Board of Directors", "CFO"],
+    "influencers": ["Regional GM Asia", "Brand Marketing Director", "Real Estate Director"]
+  },
+  "request": {
+    "amount": "$150 million",
+    "purpose": "Open 8 new luxury properties in Southeast Asia over 3 years",
+    "urgency": "medium",
+    "justification": "Capitalize on tourism recovery and emerging luxury market in Asia"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "8 weeks",
+      "activities": ["Competitive landscape analysis", "Customer demand research", "Economic impact assessment"],
+      "outcome": "Identified high-potential markets in Thailand, Vietnam, and Indonesia"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "6 weeks",
+      "activities": ["Detailed financial projections", "ROI analysis", "Funding strategy development"],
+      "outcome": "Projected 18% IRR over 10 years with manageable risk profile"
+    },
+    {
+      "stage": "operational_feasibility",
+      "duration": "4 weeks",
+      "activities": ["Local partnership identification", "Regulatory compliance review", "Talent acquisition planning"],
+      "outcome": "Feasible with strategic local partnerships and phased approach"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Due diligence completion", "Final investment committee review"],
+      "outcome": "Approved for Phase 1 (3 properties) with performance milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["25% revenue growth from Asia Pacific", "Enhanced global brand presence", "Diversified revenue streams"],
+    "projected_benefits": "$400 million additional revenue over 10 years",
+    "risk_factors": ["Geopolitical instability", "Currency fluctuations", "Local competition emergence"]
+  }
+}

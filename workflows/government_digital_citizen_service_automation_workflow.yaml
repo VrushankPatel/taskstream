@@ -1,0 +1,58 @@
+workflow:
+  id: "workflow_government_digital_citizen_service_automation"
+  title: "Government Digital Citizen Service Automation"
+  department: "Digital Government Services"
+  complexity: "high"
+  participants: ["Digital Transformation Director", "IT Project Manager", "Service Designers", "Legal Counsel", "Citizen Experience Manager"]
+  trigger: "Directive to improve citizen service delivery and reduce processing times"
+  steps:
+    - step: 1
+      actor: "Digital Transformation Director"
+      action: "Conduct citizen journey mapping and identify high-impact automation opportunities"
+      tools: ["User research tools", "Service analytics", "Process mapping software"]
+      duration: "4 weeks"
+      outputs: ["Citizen journey maps", "Prioritized automation roadmap"]
+    - step: 2
+      actor: "Service Designers"
+      action: "Design user-centered digital service interfaces and workflows"
+      tools: ["UX design tools", "Prototyping software", "Accessibility guidelines"]
+      duration: "6 weeks"
+      outputs: ["Service blueprints", "User interface designs", "Interaction flows"]
+    - step: 3
+      actor: "IT Project Manager"
+      action: "Develop technical architecture for automated service delivery"
+      tools: ["System architecture diagrams", "API specifications", "Integration planning"]
+      duration: "4 weeks"
+      outputs: ["Technical specifications", "System integration plans", "Security requirements"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Review legal and regulatory requirements for automated services"
+      tools: ["Privacy regulations", "Data protection laws", "Service level agreements"]
+      duration: "3 weeks"
+      outputs: ["Compliance framework", "Data handling policies", "Legal risk assessments"]
+    - step: 5
+      actor: "Citizen Experience Manager"
+      action: "Develop communication and change management strategy for citizens"
+      tools: ["Communication planning templates", "Stakeholder analysis", "Training materials"]
+      duration: "2 weeks"
+      outputs: ["Citizen communication plan", "Support resources", "Feedback mechanisms"]
+    - step: 6
+      actor: "IT Project Manager"
+      action: "Implement automated service platform with phased rollout"
+      tools: ["Agile development methodology", "Testing frameworks", "Deployment automation"]
+      duration: "12 weeks"
+      outputs: ["Automated service platform", "Integration testing results", "Deployment documentation"]
+    - step: 7
+      actor: "Digital Transformation Director"
+      action: "Conduct pilot testing with representative citizen groups"
+      tools: ["User testing protocols", "Feedback collection systems", "Performance monitoring"]
+      duration: "4 weeks"
+      outputs: ["Pilot test results", "User feedback analysis", "System optimization recommendations"]
+    - step: 8
+      actor: "Service Designers"
+      action: "Launch full service automation with monitoring and continuous improvement"
+      tools: ["Analytics dashboards", "User feedback systems", "Performance metrics"]
+      duration: "Ongoing"
+      outputs: ["Service performance reports", "Improvement recommendations", "Updated service designs"]
+  success_criteria: "50% reduction in service processing time and 90% citizen satisfaction with automated services"
+  failure_modes: ["Technical integration failures", "Low citizen adoption rates", "Regulatory compliance issues"]

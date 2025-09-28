@@ -1,0 +1,46 @@
+{
+  "scenario_id": "re_proptech_integration_platform_2025",
+  "context": "Large real estate investment firm (300 employees) managing $5B portfolio seeking operational efficiency",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "CIO"],
+    "influencers": ["Portfolio Managers", "Property Managers", "IT Director"]
+  },
+  "request": {
+    "amount": "$800,000",
+    "purpose": "Implement integrated proptech platform across portfolio",
+    "urgency": "medium",
+    "justification": "Fragmented systems causing inefficiencies and poor tenant experience"
+  },
+  "decision_process": [
+    {
+      "stage": "portfolio_assessment",
+      "duration": "4 weeks",
+      "activities": ["Current technology audit", "Property type analysis", "Tenant satisfaction surveys"],
+      "outcome": "Identified 15 different systems across 200 properties with 60% overlap"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "5 weeks",
+      "activities": ["Proptech vendor analysis", "Integration capability testing", "Scalability assessments"],
+      "outcome": "Selected unified platform with strong IoT integration and mobile tenant apps"
+    },
+    {
+      "stage": "change_management_planning",
+      "duration": "2 weeks",
+      "activities": ["Stakeholder impact analysis", "Training program design", "Communication strategy development"],
+      "outcome": "Comprehensive change management plan with phased rollout approach"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Funding strategy"],
+      "outcome": "3-year payback period with 25% operational cost reduction"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["30% reduction in maintenance response time", "20% increase in tenant satisfaction", "Improved portfolio valuation through data-driven insights"],
+    "projected_roi": "220% over 5 years",
+    "risk_factors": ["Property manager resistance to change", "Integration challenges with legacy systems", "Data security and privacy concerns"]
+  }
+}

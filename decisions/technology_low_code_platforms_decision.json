@@ -1,0 +1,46 @@
+{
+  "scenario_id": "tech_low_code_platform_adoption_2025",
+  "context": "Mid-size SaaS company (150 employees) facing development backlog and needing to accelerate application delivery",
+  "stakeholders": {
+    "requester": "VP of Engineering",
+    "approvers": ["CTO", "CFO"],
+    "influencers": ["Development Team Leads", "Product Managers", "Security Officer"]
+  },
+  "request": {
+    "amount": "$500,000",
+    "purpose": "Adopt low-code platform for rapid application development",
+    "urgency": "high",
+    "justification": "Reduce development time by 40% and address critical feature backlog"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Platform demos and POCs", "Security and compliance assessment", "Integration testing with existing stack"],
+      "outcome": "Three platforms shortlisted: OutSystems, Microsoft Power Apps, Mendix"
+    },
+    {
+      "stage": "business_case_analysis",
+      "duration": "2 weeks",
+      "activities": ["ROI modeling", "Total cost of ownership analysis", "Skill gap assessment"],
+      "outcome": "Projected 35% development cost reduction and 6-month payback period"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "1 week",
+      "activities": ["Vendor stability review", "Data security evaluation", "Scalability testing"],
+      "outcome": "Low risk profile with strong vendor support and enterprise features"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Executive presentations", "Team feedback sessions", "Change management planning"],
+      "outcome": "Strong support from engineering, concerns from security team addressed"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["40% faster feature delivery", "Reduced technical debt", "Improved developer satisfaction"],
+    "projected_roi": "250% over 3 years",
+    "risk_factors": ["Learning curve for existing developers", "Platform vendor lock-in", "Integration complexity with legacy systems"]
+  }
+}

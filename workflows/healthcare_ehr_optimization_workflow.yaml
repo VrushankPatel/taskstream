@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_001"
+  title: "Electronic Health Record Optimization Process"
+  department: "Healthcare IT"
+  complexity: "high"
+  participants: ["Chief Medical Information Officer", "IT Director", "Clinical Department Heads", "EHR Vendor", "Compliance Officer"]
+  trigger: "Performance degradation in EHR system affecting clinical workflows"
+  steps:
+    - step: 1
+      actor: "IT Director"
+      action: "Conduct system performance audit and identify bottlenecks"
+      tools: ["EHR monitoring tools", "Database query analyzers"]
+      duration: "1 week"
+      outputs: ["Performance audit report"]
+    - step: 2
+      actor: "Clinical Department Heads"
+      action: "Review audit findings and prioritize optimization opportunities"
+      decision_points: ["Clinical impact vs. implementation effort", "Regulatory compliance requirements"]
+      duration: "3 days"
+      outputs: ["Prioritized optimization roadmap"]
+    - step: 3
+      actor: "EHR Vendor"
+      action: "Provide technical recommendations and system configuration changes"
+      tools: ["Vendor support portal", "Configuration management tools"]
+      duration: "2 weeks"
+      outputs: ["Technical implementation plan"]
+    - step: 4
+      actor: "IT Director"
+      action: "Implement approved optimizations with phased rollout"
+      tools: ["Change management system", "Testing environments"]
+      duration: "4 weeks"
+      outputs: ["Optimized EHR system"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Validate HIPAA compliance of all changes"
+      tools: ["Compliance checklists", "Audit logs"]
+      duration: "1 week"
+      outputs: ["Compliance certification"]
+    - step: 6
+      actor: "Chief Medical Information Officer"
+      action: "Monitor post-implementation performance and user adoption"
+      tools: ["User feedback surveys", "Performance dashboards"]
+      duration: "Ongoing"
+      outputs: ["Performance improvement metrics"]
+  success_criteria: "20% improvement in EHR response times and 95% user satisfaction"
+  failure_modes: ["Insufficient stakeholder buy-in", "Data migration errors", "Regulatory non-compliance"]

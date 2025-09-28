@@ -1,0 +1,37 @@
+workflow:
+  id: "workflow_retail_customer_service_escalation"
+  title: "Retail Customer Service Escalation Process"
+  department: "Customer Service"
+  complexity: "medium"
+  participants: ["Customer Service Rep", "Supervisor", "Manager", "Regional Director"]
+  trigger: "Customer complaint unresolved after initial contact"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Document complaint details and attempt resolution"
+      tools: ["CRM system", "Product knowledge base"]
+      duration: "15 minutes"
+      outputs: ["Complaint ticket", "Initial response"]
+    - step: 2
+      actor: "Supervisor"
+      action: "Review ticket and provide guidance or escalate"
+      decision_points: ["Severity level", "Customer value"]
+      duration: "30 minutes"
+      outputs: ["Escalation decision", "Action plan"]
+    - step: 3
+      actor: "Manager"
+      action: "Investigate complex issues and coordinate resolution"
+      tools: ["Inventory system", "Vendor contacts"]
+      duration: "2 hours"
+      outputs: ["Resolution plan", "Compensation offer"]
+    - step: 4
+      actor: "Regional Director"
+      action: "Approve major compensation and review process"
+      duration: "1 day"
+      outputs: ["Final approval", "Process feedback"]
+  success_criteria: "Customer satisfaction restored, complaint resolved within SLA"
+  failure_modes: ["Delayed response", "Inadequate compensation", "Poor communication"]
+  metrics:
+    - "Resolution time: <24 hours for 90% of cases"
+    - "Customer satisfaction: >85% post-resolution"
+    - "Escalation rate: <5% of total complaints"

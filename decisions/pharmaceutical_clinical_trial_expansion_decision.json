@@ -1,0 +1,43 @@
+{
+  "scenario_id": "pharmaceutical_clinical_trial_expansion_decision",
+  "context": "Biotech company with promising oncology drug in Phase 2 trials, seeking to expand to international sites for faster recruitment",
+  "stakeholders": {
+    "requester": "VP of Clinical Development",
+    "approvers": ["Chief Medical Officer", "CEO", "Board of Directors"],
+    "influencers": ["Regulatory Affairs Director", "Head of Biostatistics", "Global Operations VP"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "Expand Phase 2 clinical trial to 50 additional international sites",
+    "urgency": "high",
+    "justification": "Current recruitment rate delaying Phase 3 timeline by 9 months, risking patent expiration"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "4 weeks",
+      "activities": ["Regulatory landscape review", "Site selection analysis", "Budget modeling"],
+      "outcome": "Expansion plan developed with risk mitigation"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "6 weeks",
+      "activities": ["Ethics committee consultations", "Regulatory submissions", "Compliance audits"],
+      "outcome": "Regulatory pathway confirmed"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "2 weeks",
+      "activities": ["Risk-benefit analysis", "Financial impact assessment", "Strategic alignment review"],
+      "outcome": "Approved with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Accelerate trial completion by 6 months, maintain patent protection",
+    "projected_value": "$120M in additional drug revenue through earlier market entry",
+    "risk_factors": ["Regulatory delays in new countries", "Cultural differences in patient recruitment", "Currency fluctuations"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Recruitment acceleration potential", "Cost-effectiveness", "Risk mitigation plan"],
+  "outcome": "Approved",
+  "lessons_learned": "International expansion requires comprehensive regulatory planning, local partnerships crucial for success"
+}

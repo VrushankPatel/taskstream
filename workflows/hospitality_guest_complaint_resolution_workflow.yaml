@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_hospitality_guest_complaint_resolution"
+  title: "Hospitality Guest Complaint Resolution Process"
+  department: "Guest Services"
+  complexity: "simple"
+  participants: ["Front Desk Agent", "Guest Services Manager"]
+  trigger: "Guest reports dissatisfaction with service or facilities"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Listen to complaint, apologize, and offer immediate solution"
+      tools: ["Guest feedback form", "Property amenities list"]
+      duration: "10 minutes"
+      outputs: ["Complaint documentation", "Immediate action taken"]
+    - step: 2
+      actor: "Guest Services Manager"
+      action: "Follow up within 24 hours and provide compensation if appropriate"
+      decision_points: ["Complaint validity", "Compensation level"]
+      duration: "1 hour"
+      outputs: ["Resolution letter", "Compensation details"]
+  success_criteria: "Guest satisfaction improved, positive review received"
+  failure_modes: ["No follow-up", "Inadequate compensation", "Poor attitude"]
+  metrics:
+    - "Resolution rate: 95% within 24 hours"
+    - "Guest satisfaction: >80% improvement"
+    - "Repeat visit rate: >70% for resolved complaints"

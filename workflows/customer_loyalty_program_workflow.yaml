@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_009_03"
+  title: "Customer Loyalty Program Management"
+  department: "Customer Experience"
+  complexity: "medium"
+  participants: ["Loyalty Program Manager", "Marketing Director", "Data Analyst", "IT Developer"]
+  trigger: "Customer retention rate drops below 85%"
+  steps:
+    - step: 1
+      actor: "Data Analyst"
+      action: "Analyze customer behavior and segment loyalty tiers"
+      tools: ["CRM Analytics", "Customer Database"]
+      duration: "2 weeks"
+      outputs: ["Customer segmentation report"]
+    - step: 2
+      actor: "Loyalty Program Manager"
+      action: "Design reward structure and redemption options"
+      decision_points: ["Budget allocation", "Reward value propositions"]
+      duration: "3 weeks"
+      outputs: ["Program design document"]
+    - step: 3
+      actor: "Marketing Director"
+      action: "Develop communication strategy for program launch"
+      tools: ["Marketing Automation", "Email Platform"]
+      duration: "2 weeks"
+      outputs: ["Launch campaign plan"]
+    - step: 4
+      actor: "IT Developer"
+      action: "Build loyalty platform with mobile app integration"
+      tools: ["Development Framework", "API Integration"]
+      duration: "4 weeks"
+      outputs: ["Loyalty platform"]
+    - step: 5
+      actor: "Loyalty Program Manager"
+      action: "Launch pilot program and monitor engagement metrics"
+      tools: ["Analytics Dashboard", "Feedback System"]
+      duration: "4 weeks"
+      outputs: ["Pilot results report"]
+  success_criteria: "20% increase in repeat purchase rate within 6 months"
+  failure_modes: ["Low program awareness", "Complex redemption process", "Insufficient reward value"]

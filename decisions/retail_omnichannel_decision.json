@@ -1,0 +1,41 @@
+{
+  "scenario_id": "retail_omnichannel_transformation_q1_2026",
+  "context": "Regional retail chain with 150 stores, $200M revenue, facing e-commerce competition",
+  "stakeholders": {
+    "requester": "Chief Marketing Officer",
+    "approvers": ["CEO", "CFO", "Chief Digital Officer"],
+    "influencers": ["Store Managers", "E-commerce Director", "Customer Experience Manager", "IT Director"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Omnichannel platform integration enabling seamless online/offline shopping experience",
+    "urgency": "high",
+    "justification": "Increase online sales by 50%, improve customer satisfaction, reduce operational costs"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "4 weeks",
+      "activities": ["Competitive analysis", "Customer behavior research", "Technology assessment", "Financial modeling"],
+      "outcome": "Clear market opportunity identified, proceed to vendor selection"
+    },
+    {
+      "stage": "proof_of_concept",
+      "duration": "8 weeks",
+      "activities": ["Pilot store implementation", "Customer testing", "Performance metrics collection", "Feedback analysis"],
+      "outcome": "POC successful, full implementation recommended"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Project timeline development", "Resource planning", "Training program design", "Risk mitigation strategy"],
+      "outcome": "Implementation approved with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_online_sales_growth": "40-60%",
+    "projected_customer_satisfaction_improvement": "25%",
+    "implementation_timeline": "15 months",
+    "risk_factors": ["Integration complexity", "Staff training challenges", "Customer adoption resistance", "Technology vendor performance"]
+  }
+}

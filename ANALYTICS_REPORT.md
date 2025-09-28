@@ -1,7 +1,7 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 1865 files (2.7% growth from last analysis)
+- **Total Dataset Size**: 1902 files (1.1% growth from last analysis)
 - **Quality Score**: 97% (stable trend)
 - **Industry Coverage**: 16+ industries with 42.7% technology dominance (target <20%)
 - **Content Complexity**: Predominantly complex workflows (minimal simple/medium)
@@ -18,9 +18,9 @@
 
 ### Strategic Gaps
 1. **Industry Imbalance**: Technology overrepresented at 42.7% vs real-world 10-15%
-2. **Content Type Weighting**: Policies (9.8%) and org structures (11.5%) underweighted vs target 15% each
+2. **Content Type Weighting**: Policies (9.9%) and org structures (11.6%) underweighted vs target 15% each
 3. **Complexity Distribution**: 100% complex workflows, lack of simple/medium complexity for accessibility
-4. **Traditional Industry Underrepresentation**: Retail (106 files), hospitality, insurance, utilities, mining, agriculture, aerospace significantly underrepresented
+4. **Traditional Industry Underrepresentation**: Retail (108 files), hospitality, insurance, utilities, mining, agriculture, aerospace significantly underrepresented
 5. **Geographic Diversity**: Minimal EU/Asia content (target 10%+ each)
 
 ### Competitive Positioning
@@ -34,7 +34,7 @@
 
 ### Immediate Actions (Next 3 Generation Cycles):
 1. **Industry Focus**: Prioritize retail, hospitality, insurance, real estate expansion with simple/medium complexity workflows
-2. **Content Type Rebalancing**: Increase policies (182→271 files) and org structures (215→271 files), reduce workflows (530→453 files)
+2. **Content Type Rebalancing**: Increase policies (189→271 files) and org structures (220→271 files), reduce workflows (537→453 files)
 3. **Quality Enhancements**: Introduce simple/medium complexity workflows, enhance traditional industry terminology
 4. **Complexity Optimization**: Target 20% simple, 50% medium, 30% complex distribution
 
@@ -54,7 +54,7 @@
 ## Specific Recommendations for Next Sessions
 
 ### Generation Session Priorities:
-1. **Must-Cover Industries**: Retail (106→196 files), hospitality (expand to 196), insurance (expand to 196), real estate (expand to 196), utilities (expand to 145), mining (expand to 145), agriculture (expand to 145), aerospace (expand to 145)
+1. **Must-Cover Industries**: Retail (108→196 files), hospitality (expand to 196), insurance (expand to 196), real estate (expand to 196), utilities (expand to 145), mining (expand to 145), agriculture (expand to 145), aerospace (expand to 145)
 2. **Essential Business Functions**: Customer service, supply chain, crisis management, digital transformation in traditional industries
 3. **Target Complexity Levels**: Introduce 20% simple workflows, 50% medium workflows, maintain 30% complex
 4. **Quality Focus Areas**: Industry terminology validation, business authenticity enhancement, geographic diversity
@@ -97,8 +97,8 @@
 - Balanced content types with detailed metrics and policies
 
 ### Industry Coverage vs. Competitors:
-- Superior depth in technology/advanced sectors (796 files)
-- Significant gaps in traditional industries (retail: 106, hospitality: ~50, insurance: ~50)
+- Superior depth in technology/advanced sectors (813 files)
+- Significant gaps in traditional industries (retail: 108, hospitality: ~50, insurance: ~50)
 - Opportunity for market leadership in balanced enterprise documentation
 
 ### Quality Benchmarking:
@@ -107,7 +107,7 @@
 - Enterprise terminology accuracy in advanced sectors
 
 ### Growth Trajectory:
-- Current: 1865 files with 42.7% technology dominance
+- Current: 1902 files with 42.7% technology dominance
 - Target 2026: 2000+ files with <20% technology, balanced industry distribution
 - Focus: Traditional industry expansion, complexity standardization, geographic diversity
 

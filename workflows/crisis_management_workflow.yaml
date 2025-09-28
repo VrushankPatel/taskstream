@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_crisis_management_001"
+  title: "Corporate Crisis Management Response"
+  department: "Crisis Management Team"
+  complexity: "high"
+  participants: ["Crisis Coordinator", "Executive Leadership", "Communications Lead", "Legal Counsel", "Department Heads"]
+  trigger: "Crisis event detected (data breach, product recall, executive scandal)"
+  steps:
+    - step: 1
+      actor: "Crisis Coordinator"
+      action: "Assess situation and activate crisis response team"
+      tools: ["Crisis management plan", "Communication tree", "Incident tracking system"]
+      duration: "30 minutes"
+      outputs: ["Situation assessment", "Team activation", "Initial response plan"]
+    - step: 2
+      actor: "Executive Leadership"
+      action: "Evaluate crisis severity and potential impact"
+      tools: ["Risk assessment matrix", "Business impact analysis", "Stakeholder mapping"]
+      duration: "1 hour"
+      outputs: ["Severity rating", "Impact assessment", "Stakeholder prioritization"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Assess legal implications and regulatory requirements"
+      tools: ["Legal research databases", "Regulatory guidelines", "Contract review"]
+      duration: "2 hours"
+      outputs: ["Legal assessment", "Regulatory obligations", "Communication boundaries"]
+    - step: 4
+      actor: "Communications Lead"
+      action: "Develop key messages and communication strategy"
+      tools: ["Crisis communication templates", "Media monitoring", "Stakeholder database"]
+      duration: "2 hours"
+      outputs: ["Key messages", "Communication plan", "Media response protocol"]
+    - step: 5
+      actor: "Department Heads"
+      action: "Execute operational response and containment measures"
+      tools: ["Department playbooks", "Resource allocation system", "Progress tracking"]
+      duration: "4 hours"
+      outputs: ["Containment actions", "Resource deployment", "Progress updates"]
+    - step: 6
+      actor: "Communications Lead"
+      action: "Execute external and internal communications"
+      tools: ["Press release templates", "Social media platforms", "Internal communication channels"]
+      duration: "6 hours"
+      outputs: ["Press releases", "Social media updates", "Employee communications"]
+    - step: 7
+      actor: "Crisis Coordinator"
+      action: "Monitor response effectiveness and adjust strategy"
+      tools: ["Crisis dashboard", "Feedback collection", "Performance metrics"]
+      duration: "Ongoing"
+      outputs: ["Response evaluation", "Strategy adjustments", "Lessons learned"]
+  success_criteria: "Crisis contained within 48 hours with minimal reputational damage"
+  failure_modes: ["Delayed response", "Poor communication", "Legal complications", "Stakeholder misalignment"]

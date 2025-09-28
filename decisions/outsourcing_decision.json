@@ -1,0 +1,48 @@
+{
+  "scenario_id": "it_outsourcing_q2_2026",
+  "context": "Manufacturing company considering outsourcing IT operations to reduce costs and improve service",
+  "stakeholders": {
+    "requester": "CIO",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Department Heads", "IT Staff", "Legal Counsel"],
+    "vendors": ["Outsourcing providers", "Consulting firm"]
+  },
+  "request": {
+    "amount": "$3.2M annually",
+    "purpose": "Outsource IT infrastructure management, help desk, and application support",
+    "urgency": "medium",
+    "justification": "Current IT costs 25% above industry average with service quality issues"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "4 weeks",
+      "activities": ["IT assessment", "Cost analysis", "Service level evaluation"],
+      "outcome": "Identified $2M annual savings opportunity with service improvements"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["RFP process", "Vendor presentations", "Reference checks"],
+      "outcome": "Two qualified vendors selected for detailed evaluation"
+    },
+    {
+      "stage": "transition_planning",
+      "duration": "4 weeks",
+      "activities": ["Knowledge transfer", "Staff transition", "Service level agreements"],
+      "outcome": "12-month transition plan with minimal disruption"
+    },
+    {
+      "stage": "risk_mitigation",
+      "duration": "2 weeks",
+      "activities": ["Security review", "Contract negotiation", "Contingency planning"],
+      "outcome": "Comprehensive risk mitigation with strong SLAs"
+    }
+  ],
+  "business_impact": {
+    "cost_savings": "$1.8M annually",
+    "service_improvement": "99.5% uptime target",
+    "risk_factors": ["Data security", "Knowledge loss", "Vendor dependency", "Transition disruption"],
+    "success_factors": ["Detailed transition plan", "Retained key staff", "Strong governance", "Performance monitoring"]
+  }
+}

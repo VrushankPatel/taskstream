@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_support_escalation_001"
+  title: "Customer Support Escalation Process"
+  department: "Customer Success"
+  complexity: "medium"
+  participants: ["Support Agent", "Support Team Lead", "Customer Success Manager", "Technical Specialist", "VP Customer Success"]
+  trigger: "Customer reports unresolved issue after 3 attempts"
+  steps:
+    - step: 1
+      actor: "Support Agent"
+      action: "Document issue details and attempt initial resolution"
+      tools: ["Support ticketing system", "Knowledge base", "Customer profile"]
+      duration: "30 minutes"
+      outputs: ["Issue summary", "Resolution attempts log"]
+    - step: 2
+      actor: "Support Team Lead"
+      action: "Review case and assign priority level"
+      tools: ["Escalation matrix", "Customer value assessment", "Historical data"]
+      duration: "15 minutes"
+      outputs: ["Priority assignment", "Escalation decision"]
+    - step: 3
+      actor: "Support Team Lead"
+      action: "Attempt advanced troubleshooting or workaround"
+      tools: ["Technical documentation", "Internal chat systems", "Expert consultation"]
+      duration: "45 minutes"
+      outputs: ["Troubleshooting results", "Workaround options"]
+    - step: 4
+      actor: "Customer Success Manager"
+      action: "Engage customer directly and assess account health"
+      tools: ["CRM system", "Account dashboard", "Relationship mapping"]
+      duration: "30 minutes"
+      outputs: ["Account assessment", "Customer sentiment analysis"]
+    - step: 5
+      actor: "Technical Specialist"
+      action: "Provide deep technical analysis and solution"
+      tools: ["System logs", "Debugging tools", "Engineering consultation"]
+      duration: "2 hours"
+      outputs: ["Technical diagnosis", "Solution implementation plan"]
+    - step: 6
+      actor: "Customer Success Manager"
+      action: "Communicate resolution and follow-up plan to customer"
+      tools: ["Email templates", "CRM updates", "Satisfaction survey"]
+      duration: "30 minutes"
+      outputs: ["Resolution communication", "Follow-up schedule"]
+    - step: 7
+      actor: "VP Customer Success"
+      action: "Review high-priority escalations and approve compensation if needed"
+      tools: ["Executive dashboard", "Escalation reports", "Financial approval system"]
+      duration: "30 minutes"
+      outputs: ["Executive decision", "Compensation approval"]
+  success_criteria: "Issue resolved within SLA with customer satisfaction score >8/10"
+  failure_modes: ["Technical complexity", "Resource unavailability", "Poor communication", "Scope creep"]

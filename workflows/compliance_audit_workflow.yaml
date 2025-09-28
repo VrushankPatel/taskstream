@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_compliance_audit_001"
+  title: "Annual Compliance Audit Process"
+  department: "Compliance"
+  complexity: "high"
+  participants: ["Compliance Officer", "Department Heads", "External Auditors", "Legal Counsel", "Executive Leadership"]
+  trigger: "Annual audit cycle begins (January 1st)"
+  steps:
+    - step: 1
+      actor: "Compliance Officer"
+      action: "Develop audit plan and schedule with department stakeholders"
+      tools: ["Audit management software", "Regulatory calendar", "Risk assessment matrix"]
+      duration: "2 weeks"
+      outputs: ["Audit plan document", "Department assignments", "Timeline schedule"]
+    - step: 2
+      actor: "Department Heads"
+      action: "Gather and organize required documentation and evidence"
+      tools: ["Document management system", "Compliance checklists", "Process documentation"]
+      duration: "3 weeks"
+      outputs: ["Evidence packages", "Process maps", "Control documentation"]
+    - step: 3
+      actor: "Compliance Officer"
+      action: "Conduct internal control testing and gap analysis"
+      tools: ["Audit workpapers", "Testing scripts", "Sampling methodology"]
+      duration: "4 weeks"
+      outputs: ["Control testing results", "Gap analysis report", "Remediation plans"]
+    - step: 4
+      actor: "External Auditors"
+      action: "Perform independent testing and validation"
+      tools: ["Audit software", "Sampling tools", "Industry benchmarks"]
+      duration: "6 weeks"
+      outputs: ["Audit findings", "Material weakness reports", "Compliance ratings"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review audit findings and assess legal implications"
+      tools: ["Legal research databases", "Regulatory guidance", "Contract review"]
+      duration: "1 week"
+      outputs: ["Legal assessment", "Regulatory interpretation", "Remediation recommendations"]
+    - step: 6
+      actor: "Compliance Officer"
+      action: "Develop corrective action plan and implementation timeline"
+      tools: ["CAPA system", "Project management tools", "Stakeholder analysis"]
+      duration: "2 weeks"
+      outputs: ["Corrective action plan", "Implementation roadmap", "Resource requirements"]
+    - step: 7
+      actor: "Executive Leadership"
+      action: "Review final audit report and approve remediation plan"
+      tools: ["Board portal", "Executive dashboard", "Risk committee materials"]
+      duration: "1 week"
+      outputs: ["Audit report approval", "Remediation authorization", "Board communication"]
+  success_criteria: "Achieve clean audit opinion with no material weaknesses"
+  failure_modes: ["Inadequate documentation", "Control failures", "Regulatory changes", "Resource constraints"]

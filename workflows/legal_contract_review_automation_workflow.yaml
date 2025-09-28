@@ -1,43 +1,71 @@
+---
+
 workflow:
   id: "legal_contract_review_automation"
   title: "Legal Contract Review Automation Process"
   department: "Legal Operations"
   complexity: "medium"
-  participants: ["Contract Administrators", "Legal Technology Team", "Senior Legal Counsel", "Business Stakeholders"]
+  participants:
+    - "Contract Administrators"
+    - "Legal Technology Team"
+    - "Senior Legal Counsel"
+    - "Business Stakeholders"
   trigger: "New contract received for review or existing contract requiring amendment"
   steps:
     - step: 1
       actor: "Contract Administrators"
       action: "Upload contract to automated review platform and initiate AI analysis"
-      tools: ["Contract management system", "AI contract analysis tool", "Document scanning software"]
+      tools:
+        - "Contract management system"
+        - "AI contract analysis tool"
+        - "Document scanning software"
       duration: "30 minutes"
-      outputs: ["AI risk assessment report", "Contract classification"]
+      outputs:
+        - "AI risk assessment report"
+        - "Contract classification"
     - step: 2
       actor: "Legal Technology Team"
       action: "Review AI findings and validate automated risk assessments"
-      tools: ["Legal research databases", "Contract analysis dashboard", "Risk scoring algorithms"]
+      tools:
+        - "Legal research databases"
+        - "Contract analysis dashboard"
+        - "Risk scoring algorithms"
       duration: "2 hours"
-      outputs: ["Validated risk assessment", "Escalation recommendations"]
+      outputs:
+        - "Validated risk assessment"
+        - "Escalation recommendations"
     - step: 3
       actor: "Senior Legal Counsel"
       action: "Review high-risk clauses and complex legal issues identified by automation"
-      decision_points: ["Risk severity", "Precedent requirements", "Business impact"]
+      decision_points:
+        - "Risk severity"
+        - "Precedent requirements"
+        - "Business impact"
       duration: "4 hours"
-      outputs: ["Legal review comments", "Negotiation recommendations"]
+      outputs:
+        - "Legal review comments"
+        - "Negotiation recommendations"
     - step: 4
       actor: "Business Stakeholders"
       action: "Review business terms and provide feedback on contract terms"
-      tools: ["Contract negotiation platform", "Business case analysis tools"]
+      tools:
+        - "Contract negotiation platform"
+        - "Business case analysis tools"
       duration: "2 hours"
-      outputs: ["Business approval", "Final contract terms"]
+      outputs:
+        - "Business approval"
+        - "Final contract terms"
   success_criteria: "Contract reviewed and approved within SLA with all legal risks mitigated"
-  failure_modes: ["AI false positives requiring excessive manual review", "Complex clauses missed by automation", "Stakeholder delays in review process"]
-   metrics:
-     - "Review cycle time: <24 hours for standard contracts"
-     - "AI accuracy rate: >90% risk identification"
-     - "Cost savings: >60% reduction in legal review hours"
-     - "Compliance rate: 100% regulatory requirement coverage"
-     - "False positive rate: <5% for AI recommendations"
-     - "Attorney review time reduction: >70%"
-     - "Contract approval satisfaction: >4.5/5 from business stakeholders"
-     - "Audit trail completeness: 100%"
+  failure_modes:
+    - "AI false positives requiring excessive manual review"
+    - "Complex clauses missed by automation"
+    - "Stakeholder delays in review process"
+  metrics:
+    - "Review cycle time: <24 hours for standard contracts"
+    - "AI accuracy rate: >90% risk identification"
+    - "Cost savings: >60% reduction in legal review hours"
+    - "Compliance rate: 100% regulatory requirement coverage"
+    - "False positive rate: <5% for AI recommendations"
+    - "Attorney review time reduction: >70%"
+    - "Contract approval satisfaction: >4.5/5 from business stakeholders"
+    - "Audit trail completeness: 100%"

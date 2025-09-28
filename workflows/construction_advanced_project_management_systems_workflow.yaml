@@ -48,5 +48,14 @@ workflow:
       tools: ["Implementation tracking dashboards", "User feedback systems"]
       duration: "6 weeks"
       outputs: ["Pilot results analysis", "Full rollout plan"]
-  success_criteria: "Project delivery time reduced by 20%, cost overruns decreased by 30%, safety compliance improved by 40%"
-  failure_modes: ["User adoption resistance", "Technical integration issues", "Data migration problems", "Insufficient training"]
+   success_criteria: "Project delivery time reduced by 20%, cost overruns decreased by 30%, safety compliance improved by 40%"
+   failure_modes: ["User adoption resistance", "Technical integration issues", "Data migration problems", "Insufficient training"]
+   metrics:
+     - "Project delivery time reduction: Target 20%"
+     - "Cost overruns decrease: Target 30%"
+     - "Safety compliance improvement: Target 40%"
+     - "User adoption rate: Target >80%"
+     - "System uptime: Target 99.5%"
+     - "Training completion rate: Target 95%"
+     - "Data accuracy improvement: Target 25%"
+     - "Stakeholder satisfaction: Target 4.5/5"

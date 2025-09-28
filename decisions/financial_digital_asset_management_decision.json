@@ -1,0 +1,47 @@
+{
+  "scenario_id": "digital_asset_management_2025",
+  "context": "Mid-size investment firm managing $10B AUM, seeking to offer digital asset services to high-net-worth clients",
+  "stakeholders": {
+    "requester": "Head of Wealth Management",
+    "approvers": ["CEO", "Chief Risk Officer", "Chief Compliance Officer"],
+    "influencers": ["Technology Director", "Legal Counsel", "Client Advisors"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Develop institutional-grade digital asset custody and trading platform",
+    "urgency": "high",
+    "justification": "Capitalize on $2.5T digital asset market opportunity while meeting client demand"
+  },
+  "decision_process": [
+    {
+      "stage": "market_opportunity",
+      "duration": "4 weeks",
+      "activities": ["Client demand survey", "Competitive landscape analysis", "Regulatory environment assessment"],
+      "outcome": "Confirmed strong client interest with 40% expressing digital asset allocation desire"
+    },
+    {
+      "stage": "regulatory_compliance",
+      "duration": "6 weeks",
+      "activities": ["SEC registration process", "AML/KYC framework development", "Insurance requirements"],
+      "outcome": "Achieved Series 65 RIA status and established compliance framework"
+    },
+    {
+      "stage": "technology_selection",
+      "duration": "3 weeks",
+      "activities": ["Custody solution evaluation", "Trading platform assessment", "Security audit"],
+      "outcome": "Selected institutional custody partner with SOC 2 Type II compliance"
+    },
+    {
+      "stage": "pilot_launch",
+      "duration": "8 weeks",
+      "activities": ["Limited client onboarding", "Transaction processing", "Performance monitoring"],
+      "outcome": "Successful pilot with $50M AUM in digital assets and zero security incidents"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$15,000,000 annually",
+    "projected_aum_growth": "25%",
+    "risk_factors": ["Regulatory uncertainty", "Security threats", "Market volatility", "Technology complexity"],
+    "success_metrics": ["Client adoption rate", "AUM growth", "Compliance audit results", "Security incident rate"]
+  }
+}

@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_energy_storage"
+  title: "Energy Storage Optimization Workflow"
+  department: "Grid Operations and Planning"
+  complexity: "high"
+  participants: ["Energy Storage Engineer", "Grid Operations Manager", "Financial Analyst", "Regulatory Compliance Officer", "Environmental Impact Assessor"]
+  trigger: "Grid reliability needs or renewable energy integration requirements"
+  steps:
+    - step: 1
+      actor: "Grid Operations Manager"
+      action: "Assess grid storage needs and technology options"
+      tools: ["Grid analysis software", "Storage technology databases", "Load forecasting models"]
+      duration: "4-6 weeks"
+      outputs: ["Storage needs assessment", "Technology evaluation report"]
+    - step: 2
+      actor: "Energy Storage Engineer"
+      action: "Design storage system architecture and integration plan"
+      tools: ["Storage system design software", "Grid integration protocols", "Safety engineering standards"]
+      duration: "6-10 weeks"
+      outputs: ["System design specifications", "Integration plan"]
+      decision_points: ["Battery vs pumped hydro vs compressed air?", "Grid-tied vs off-grid?"]
+    - step: 3
+      actor: "Financial Analyst"
+      action: "Develop financial model and funding strategy"
+      tools: ["Financial modeling tools", "Cost-benefit analysis frameworks", "Funding application templates"]
+      duration: "4-6 weeks"
+      outputs: ["Financial model", "Funding strategy plan"]
+    - step: 4
+      actor: "Regulatory Compliance Officer"
+      action: "Obtain permits and ensure regulatory compliance"
+      tools: ["Regulatory filing systems", "Environmental compliance checklists", "Permitting workflows"]
+      duration: "8-16 weeks"
+      outputs: ["Regulatory approvals", "Compliance documentation"]
+    - step: 5
+      actor: "Environmental Impact Assessor"
+      action: "Conduct environmental impact assessment and mitigation planning"
+      tools: ["Environmental assessment frameworks", "Impact modeling software", "Mitigation strategy templates"]
+      duration: "6-8 weeks"
+      outputs: ["Environmental impact report", "Mitigation plan"]
+    - step: 6
+      actor: "Energy Storage Engineer"
+      action: "Implement and commission storage system"
+      tools: ["Commissioning protocols", "Performance testing tools", "Monitoring systems"]
+      duration: "8-12 weeks"
+      outputs: ["Commissioning report", "Performance baseline data"]
+  success_criteria: "Storage system operational with target performance metrics and grid reliability improvements"
+  failure_modes: ["Technology performance issues", "Cost overruns", "Regulatory delays", "Environmental concerns", "Grid integration challenges"]

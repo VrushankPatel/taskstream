@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_last_mile_delivery"
+  title: "Last-Mile Delivery Optimization Workflow"
+  department: "Logistics and Operations"
+  complexity: "medium"
+  participants: ["Logistics Manager", "Route Optimization Specialist", "Warehouse Manager", "Delivery Driver", "Customer Service Representative"]
+  trigger: "Customer demand for faster delivery or cost reduction initiative"
+  steps:
+    - step: 1
+      actor: "Logistics Manager"
+      action: "Analyze current delivery performance and identify optimization opportunities"
+      tools: ["Delivery analytics dashboards", "Customer feedback systems", "Cost analysis tools"]
+      duration: "2-4 weeks"
+      outputs: ["Delivery performance report", "Optimization opportunity assessment"]
+    - step: 2
+      actor: "Route Optimization Specialist"
+      action: "Design optimized delivery routes and schedules"
+      tools: ["Route optimization software", "Traffic data APIs", "Delivery scheduling algorithms"]
+      duration: "3-5 weeks"
+      outputs: ["Optimized route plans", "Delivery schedule templates"]
+      decision_points: ["Same-day vs next-day delivery?", "Centralized vs distributed fulfillment?"]
+    - step: 3
+      actor: "Warehouse Manager"
+      action: "Implement warehouse processes to support optimized delivery"
+      tools: ["Warehouse management systems", "Inventory tracking tools", "Order picking optimization"]
+      duration: "4-6 weeks"
+      outputs: ["Warehouse process improvements", "Order fulfillment protocols"]
+    - step: 4
+      actor: "Delivery Driver"
+      action: "Execute optimized delivery routes with real-time adjustments"
+      tools: ["Mobile delivery apps", "GPS tracking systems", "Customer communication tools"]
+      duration: "Ongoing"
+      outputs: ["Delivery completion records", "Route performance data"]
+    - step: 5
+      actor: "Customer Service Representative"
+      action: "Manage delivery communications and handle exceptions"
+      tools: ["Customer service platforms", "Delivery tracking systems", "Exception handling protocols"]
+      duration: "Ongoing"
+      outputs: ["Customer communication logs", "Exception resolution reports"]
+  success_criteria: "Achieved target delivery times and costs with improved customer satisfaction scores"
+  failure_modes: ["Traffic and weather disruptions", "Inventory availability issues", "Customer no-show rates", "Driver shortages", "Technology integration challenges"]

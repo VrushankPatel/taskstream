@@ -44,3 +44,9 @@ workflow:
       outputs: ["Implementation rollout plan"]
   success_criteria: "80% student competency mastery rates and positive faculty/staff feedback"
   failure_modes: ["Inadequate faculty training", "Technology adoption challenges", "Assessment validity concerns"]
+  metrics:
+    - "Student competency mastery rate: Target >80%"
+    - "Assessment completion rate: Target >90%"
+    - "Faculty adoption rate: Target >75%"
+    - "Student satisfaction score: Target >4.0/5"
+    - "Assessment validity reliability: Target >0.85"

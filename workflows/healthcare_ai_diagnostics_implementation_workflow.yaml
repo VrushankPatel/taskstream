@@ -44,3 +44,9 @@ workflow:
       outputs: ["Safety monitoring plan", "Incident response protocol"]
   success_criteria: "AI diagnostics system improving clinical outcomes with regulatory compliance"
   failure_modes: ["Poor model performance", "Integration failures", "Regulatory rejection"]
+  metrics:
+    - "Diagnostic accuracy improvement: Target >10%"
+    - "Time to diagnosis: Target <50% reduction"
+    - "Regulatory compliance rate: Target 100%"
+    - "Clinician adoption rate: Target >80%"
+    - "Patient safety incidents: Target 0"

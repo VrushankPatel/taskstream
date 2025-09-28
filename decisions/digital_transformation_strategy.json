@@ -1,0 +1,47 @@
+{
+  "scenario_id": "digital_transformation_strategy",
+  "context": "Traditional retail chain, 50 stores, facing e-commerce disruption and need for operational modernization",
+  "stakeholders": {
+    "requester": "CIO",
+    "approvers": ["CEO", "CFO", "Board Technology Committee"],
+    "influencers": ["Store Managers", "IT Team", "Operations Director", "External Digital Consultants"]
+  },
+  "request": {
+    "amount": "$4,000,000",
+    "purpose": "Enterprise digital transformation including e-commerce platform, POS modernization, and data analytics",
+    "urgency": "critical",
+    "justification": "Compete with digital-native competitors and improve operational efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "digital_readiness_assessment",
+      "duration": "3 weeks",
+      "activities": ["Current state analysis", "Competitive benchmarking", "Technology gap identification"],
+      "outcome": "Critical gaps in e-commerce, data analytics, and customer experience"
+    },
+    {
+      "stage": "transformation_roadmap",
+      "duration": "2 months",
+      "activities": ["Vendor selection process", "Architecture design", "Change management planning", "ROI projections"],
+      "outcome": "Phased 18-month transformation roadmap developed"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "3 months",
+      "activities": ["Select pilot store", "System integration", "Employee training", "Performance monitoring"],
+      "outcome": "Pilot successful with 25% sales increase in test location"
+    },
+    {
+      "stage": "full_rollout_approval",
+      "duration": "2 weeks",
+      "activities": ["Financial review", "Risk assessment", "Executive approval", "Timeline finalization"],
+      "outcome": "Approved with adjusted budget of $3.8 million"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue_growth": "$15 million annually",
+    "projected_cost_reductions": "$2 million in operational savings",
+    "customer_experience_improvements": "40% increase in customer satisfaction",
+    "risk_factors": ["Legacy system migration challenges", "Employee resistance", "Cybersecurity vulnerabilities", "Integration complexities"]
+  }
+}

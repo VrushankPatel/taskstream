@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_nonprofit_fundraising"
+  title: "Nonprofit Fundraising Campaign Management"
+  department: "Development"
+  complexity: "medium"
+  participants: ["Executive Director", "Development Director", "Fundraising Coordinator", "Grant Writer", "Donor Relations Manager"]
+  trigger: "Annual budget planning cycle or funding gap identified"
+  steps:
+    - step: 1
+      actor: "Executive Director"
+      action: "Set fundraising goals and campaign strategy"
+      tools: ["Financial planning software", "Donor database", "Market research tools"]
+      duration: "2 weeks"
+      outputs: ["Fundraising goals", "Campaign strategy", "Budget allocation"]
+    - step: 2
+      actor: "Development Director"
+      action: "Develop comprehensive fundraising plan"
+      decision_points: ["Channel mix (individual, corporate, foundation)", "Campaign timeline", "Resource requirements"]
+      duration: "3 weeks"
+      outputs: ["Fundraising plan", "Campaign calendar", "Team assignments"]
+    - step: 3
+      actor: "Grant Writer"
+      action: "Research and apply for foundation and government grants"
+      tools: ["Grant research databases", "Proposal writing software", "Compliance tracking"]
+      duration: "Ongoing throughout year"
+      outputs: ["Grant proposals", "Award notifications", "Reporting requirements"]
+    - step: 4
+      actor: "Fundraising Coordinator"
+      action: "Execute direct mail, email, and event campaigns"
+      tools: ["CRM system", "Email marketing platform", "Event management software"]
+      duration: "Monthly cycles"
+      outputs: ["Campaign materials", "Donor communications", "Event attendance data"]
+    - step: 5
+      actor: "Donor Relations Manager"
+      action: "Cultivate major donors and manage stewardship activities"
+      tools: ["Donor management system", "Personalized communication tools"]
+      duration: "Ongoing"
+      outputs: ["Donor cultivation plans", "Stewardship reports", "Retention metrics"]
+    - step: 6
+      actor: "Development Director"
+      action: "Monitor campaign performance and adjust strategy"
+      decision_points: ["Performance vs goals", "Market conditions", "Resource reallocation"]
+      duration: "Monthly reviews"
+      outputs: ["Performance reports", "Strategy adjustments", "Forecast updates"]
+  success_criteria: "Fundraising goals achieved within 10%, donor retention rate >85%, cost per dollar raised <0.20"
+  failure_modes: ["Economic downturns", "Competitive funding landscape", "Staff turnover", "Regulatory changes", "Program outcome measurement challenges", "Donor fatigue"]

@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_finance_001"
+  title: "Financial Wealth Management Process"
+  department: "Wealth Management"
+  complexity: "high"
+  participants: ["Wealth Advisor", "Portfolio Manager", "Risk Analyst", "Client Relations Manager"]
+  trigger: "New client onboarding or portfolio review request"
+  steps:
+    - step: 1
+      actor: "Client Relations Manager"
+      action: "Conduct client discovery and risk assessment interviews"
+      tools: ["Client Onboarding System", "Risk Profiling Questionnaire"]
+      duration: "1-2 weeks"
+      outputs: ["Client profile", "Risk tolerance assessment"]
+    - step: 2
+      actor: "Wealth Advisor"
+      action: "Develop investment strategy and portfolio recommendations"
+      decision_points: ["Client goals", "Risk tolerance", "Market conditions"]
+      duration: "2-4 weeks"
+      outputs: ["Investment strategy document", "Portfolio proposal"]
+    - step: 3
+      actor: "Portfolio Manager"
+      action: "Implement portfolio construction and execute trades"
+      tools: ["Trading Platform", "Portfolio Management Software"]
+      duration: "1 week"
+      outputs: ["Portfolio implementation report", "Trade confirmations"]
+    - step: 4
+      actor: "Risk Analyst"
+      action: "Monitor portfolio performance and conduct periodic reviews"
+      tools: ["Risk Analytics Software", "Performance Reporting"]
+      duration: "Quarterly"
+      outputs: ["Performance reports", "Rebalancing recommendations"]
+  success_criteria: "Client satisfaction >90%, portfolio returns meet benchmarks"
+  failure_modes: ["Poor risk management", "Client complaints", "Regulatory non-compliance"]

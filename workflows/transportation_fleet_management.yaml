@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_transport_001"
+  title: "Transportation Fleet Management Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Fleet Manager", "Maintenance Supervisor", "Driver Coordinator", "Safety Officer"]
+  trigger: "Daily operations or vehicle maintenance alerts"
+  steps:
+    - step: 1
+      actor: "Fleet Manager"
+      action: "Review fleet utilization and route efficiency"
+      tools: ["Fleet Management Software", "GPS Tracking", "Fuel Monitoring"]
+      duration: "Daily"
+      outputs: ["Utilization reports", "Route optimization recommendations"]
+    - step: 2
+      actor: "Maintenance Supervisor"
+      action: "Schedule preventive maintenance and handle repairs"
+      decision_points: ["Vehicle mileage", "Maintenance history", "Safety inspections"]
+      duration: "Weekly scheduling"
+      outputs: ["Maintenance calendar", "Parts procurement requests"]
+    - step: 3
+      actor: "Driver Coordinator"
+      action: "Assign drivers to routes and manage scheduling"
+      tools: ["Dispatch System", "Driver Management Database"]
+      duration: "Daily"
+      outputs: ["Driver assignments", "Schedule updates"]
+    - step: 4
+      actor: "Safety Officer"
+      action: "Conduct safety audits and training sessions"
+      tools: ["Safety Checklist", "Training Records"]
+      duration: "Monthly"
+      outputs: ["Safety reports", "Training completion certificates"]
+  success_criteria: "On-time delivery >95%, vehicle downtime <5%"
+  failure_modes: ["Route delays", "Maintenance breakdowns", "Safety violations"]

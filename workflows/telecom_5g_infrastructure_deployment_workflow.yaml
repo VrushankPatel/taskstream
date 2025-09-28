@@ -29,6 +29,7 @@ workflow:
       action: "Coordinate equipment procurement and installation scheduling"
       tools: ["Project management software", "Vendor management system", "Supply chain tracking"]
       duration: "3 weeks"
+<<<<<<< HEAD
        outputs: ["Procurement orders", "Installation schedule", "Resource allocation plan"]
     - step: 5
       actor: "Regulatory Affairs Specialist"
@@ -47,6 +48,26 @@ workflow:
       action: "Execute phased rollout and monitor network performance"
       tools: ["Network management system", "Real-time monitoring dashboards"]
       duration: "4 weeks"
+=======
+      outputs: ["Procurement orders", "Installation schedule", "Resource allocation plan"]
+     - step: 5
+       actor: "Regulatory Affairs Specialist"
+       action: "Ensure compliance with FCC regulations and safety standards"
+       tools: ["Regulatory compliance database", "Safety certification tools"]
+       duration: "Ongoing"
+       outputs: ["Compliance documentation", "Safety certifications"]
+     - step: 6
+       actor: "Project Manager"
+       action: "Conduct system testing and performance validation"
+       tools: ["Network testing equipment", "Performance monitoring systems"]
+       duration: "2 weeks"
+       outputs: ["Test results", "Performance validation report"]
+     - step: 7
+       actor: "Network Deployment Manager"
+       action: "Execute phased rollout and monitor network performance"
+       tools: ["Network management system", "Real-time monitoring dashboards"]
+       duration: "4 weeks"
+>>>>>>> origin/master
        outputs: ["Rollout completion report", "Performance monitoring setup"]
   success_criteria: "5G coverage deployed with >95% uptime and meeting speed targets, achieving 25% increase in network capacity and 40% improvement in user experience"
   failure_modes: ["Permit delays", "Equipment supply issues", "Technical integration problems", "Right-of-way disputes", "Spectrum interference", "Backhaul capacity limitations"]

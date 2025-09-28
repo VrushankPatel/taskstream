@@ -45,8 +45,13 @@ workflow:
     - step: 7
       actor: "Compliance Officers"
       action: "Implement compliance monitoring and reporting systems"
+<<<<<<< HEAD
        tools: ["Compliance management systems", "Reporting dashboards"]
       duration: "2 weeks"
+=======
+      tools: ["Compliance management systems", "Reporting dashboards"]
+       duration: "2 weeks"
+>>>>>>> origin/master
       outputs: ["Monitoring systems", "Compliance reporting framework"]
   success_criteria: "Comprehensive compliance framework enabling safe cross-border operations"
   failure_modes: ["Regulatory oversights", "Tax compliance issues", "Data privacy breaches", "Cultural adaptation failures"]

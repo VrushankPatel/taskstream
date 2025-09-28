@@ -45,8 +45,13 @@ workflow:
     - step: 7
       actor: "Customer Success"
       action: "Handover to customer success team"
+<<<<<<< HEAD
        tools: ["CRM", "Onboarding checklist"]
       duration: "1 day"
+=======
+      tools: ["CRM", "Onboarding checklist"]
+       duration: "1 day"
+>>>>>>> origin/master
       outputs: ["Customer success plan"]
   success_criteria: "Deal closed within 90 days, customer satisfaction score >8/10"
   failure_modes: ["Lead disqualification", "Competitor win", "Budget constraints", "Internal approval delays"]

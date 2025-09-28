@@ -54,5 +54,12 @@ workflow:
       tools: ["Analytics platforms", "Survey tools"]
       duration: "2-4 weeks after campaign"
       outputs: ["Campaign evaluation report", "Stewardship plan"]
-  success_criteria: "Fundraising goals met or exceeded by 10%, donor retention rate maintained above 80%, new donor acquisition targets achieved"
-  failure_modes: ["Campaign goals not met due to economic conditions", "Donor fatigue from over-communication", "Program impact stories not compelling enough", "Internal coordination breakdowns"]
+   success_criteria: "Fundraising goals met or exceeded by 10%, donor retention rate maintained above 80%, new donor acquisition targets achieved"
+   failure_modes: ["Campaign goals not met due to economic conditions", "Donor fatigue from over-communication", "Program impact stories not compelling enough", "Internal coordination breakdowns"]
+   metrics:
+     - "Fundraising goal achievement: Target 110% of goal"
+     - "Donor retention rate: Target 85% retention"
+     - "New donor acquisition: Target 20% increase"
+     - "Cost per dollar raised: Target $0.15 or lower"
+     - "Donor satisfaction: Target 4.5/5.0 rating"
+     - "Campaign ROI: Target 5:1 return on investment"

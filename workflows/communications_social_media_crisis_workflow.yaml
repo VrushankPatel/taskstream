@@ -43,5 +43,12 @@ workflow:
       tools: ["Executive communication templates", "Stakeholder engagement plans", "Recovery monitoring"]
       duration: "24-48 hours"
       outputs: ["Executive statements", "Recovery action plan"]
-  success_criteria: "Crisis contained within 24 hours, sentiment improvement by 50%, no legal escalation"
-  failure_modes: ["Delayed response", "Inconsistent messaging", "Executive disengagement"]
+   success_criteria: "Crisis contained within 24 hours, sentiment improvement by 50%, no legal escalation"
+   failure_modes: ["Delayed response", "Inconsistent messaging", "Executive disengagement"]
+   metrics:
+     - "Response time: Target <2 hours for initial response"
+     - "Sentiment improvement: Target 50% positive shift"
+     - "Engagement rate: Target 80% of affected audience reached"
+     - "Resolution rate: Target 95% of complaints resolved"
+     - "Brand reputation impact: Target <5% negative change"
+     - "Follow-up satisfaction: Target 4.0/5.0 rating"

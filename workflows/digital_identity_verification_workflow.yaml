@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_009_05"
+  title: "Digital Identity Verification System"
+  department: "Government Services"
+  complexity: "high"
+  participants: ["Digital Services Director", "Security Architect", "Legal Counsel", "Privacy Officer", "IT Operations"]
+  trigger: "New digital service requiring identity verification"
+  steps:
+    - step: 1
+      actor: "Digital Services Director"
+      action: "Define identity verification requirements and user journey"
+      tools: ["User Research Tools", "Requirements Analysis"]
+      duration: "4 weeks"
+      outputs: ["Requirements specification"]
+    - step: 2
+      actor: "Security Architect"
+      action: "Design multi-factor authentication and biometric verification"
+      decision_points: ["Security levels", "Privacy implications"]
+      duration: "6 weeks"
+      outputs: ["Security architecture document"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Review compliance with identity protection regulations"
+      tools: ["Legal Database", "Compliance Framework"]
+      duration: "3 weeks"
+      outputs: ["Legal compliance assessment"]
+    - step: 4
+      actor: "Privacy Officer"
+      action: "Implement data minimization and consent management"
+      tools: ["Privacy Tools", "Consent Platform"]
+      duration: "2 weeks"
+      outputs: ["Privacy impact assessment"]
+    - step: 5
+      actor: "IT Operations"
+      action: "Deploy verification system with monitoring and failover"
+      tools: ["Cloud Platform", "Monitoring Tools"]
+      duration: "4 weeks"
+      outputs: ["Live verification system"]
+  success_criteria: "99.9% system uptime with <0.1% false rejection rate"
+  failure_modes: ["Biometric accuracy issues", "Privacy regulation violations", "Integration complexity"]

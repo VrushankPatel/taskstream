@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_retail_loyalty_program"
+  title: "Customer Loyalty Program Management"
+  department: "Customer Experience"
+  complexity: "medium"
+  participants: ["Loyalty Program Manager", "Marketing Analyst", "Customer Service Rep", "Data Analyst"]
+  trigger: "New customer enrollment or transaction completion"
+  steps:
+    - step: 1
+      actor: "Loyalty System"
+      action: "Automatically track purchases and award points based on transaction value"
+      tools: ["POS Integration", "Loyalty Platform", "Customer Database"]
+      duration: "Real-time"
+      outputs: ["Points credited", "Tier status updates", "Personalized offers triggered"]
+    - step: 2
+      actor: "Marketing Analyst"
+      action: "Analyze customer behavior and segment loyalty members"
+      tools: ["Customer Analytics Platform", "Segmentation Tools"]
+      duration: "Weekly"
+      outputs: ["Customer segments", "Personalization recommendations", "Campaign performance reports"]
+    - step: 3
+      actor: "Loyalty Program Manager"
+      action: "Design and execute loyalty campaigns and rewards"
+      decision_points: ["Campaign ROI targets met?", "Redemption rates acceptable?", "Program engagement improving?"]
+      duration: "Monthly planning"
+      outputs: ["Campaign briefs", "Reward catalog updates", "Program enhancement roadmap"]
+    - step: 4
+      actor: "Customer Service Rep"
+      action: "Handle loyalty inquiries and redemption requests"
+      tools: ["CRM System", "Loyalty Support Portal"]
+      duration: "As needed"
+      outputs: ["Issue resolution logs", "Customer feedback", "Program improvement suggestions"]
+  success_criteria: "Customer retention increase 15%, average order value up 10%, program participation >40% of customers"
+  failure_modes: ["Points system technical issues", "Low redemption rates indicating poor reward value", "Customer dissatisfaction from complex redemption processes"]

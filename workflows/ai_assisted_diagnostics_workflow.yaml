@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_009_01"
+  title: "AI-Assisted Medical Diagnostics Workflow"
+  department: "Medical Diagnostics"
+  complexity: "high"
+  participants: ["Radiologist", "AI Specialist", "Chief of Medicine", "IT Security", "Compliance Officer"]
+  trigger: "New AI diagnostic tool approved for clinical use"
+  steps:
+    - step: 1
+      actor: "AI Specialist"
+      action: "Configure AI model parameters and validation datasets"
+      tools: ["ML Platform", "Medical Imaging Database"]
+      duration: "2 weeks"
+      outputs: ["Validated AI model", "Performance benchmarks"]
+    - step: 2
+      actor: "Radiologist"
+      action: "Conduct parallel reading study comparing AI vs human diagnosis"
+      decision_points: ["Accuracy thresholds", "False positive rates"]
+      duration: "4 weeks"
+      outputs: ["Clinical validation report"]
+    - step: 3
+      actor: "Chief of Medicine"
+      action: "Review validation results and approve clinical deployment"
+      tools: ["Medical Review Board"]
+      duration: "1 week"
+      outputs: ["Deployment authorization"]
+    - step: 4
+      actor: "IT Security"
+      action: "Implement HIPAA-compliant data handling and audit logging"
+      tools: ["Security Framework", "Compliance Tools"]
+      duration: "3 days"
+      outputs: ["Security assessment report"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Verify regulatory compliance and obtain FDA clearance updates"
+      tools: ["Regulatory Database", "Legal Review System"]
+      duration: "1 week"
+      outputs: ["Compliance certification"]
+    - step: 6
+      actor: "AI Specialist"
+      action: "Deploy AI system in clinical workflow with monitoring"
+      tools: ["Integration Platform", "Monitoring Dashboard"]
+      duration: "1 week"
+      outputs: ["Live AI diagnostic system"]
+  success_criteria: "AI system achieves 95% diagnostic accuracy with physician oversight"
+  failure_modes: ["Inadequate training data", "Regulatory non-compliance", "Clinical resistance to AI recommendations"]

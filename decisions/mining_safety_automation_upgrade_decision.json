@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_safety_automation_2025",
+  "context": "Underground mining operation evaluating investment in automated safety monitoring systems to reduce workplace accidents and improve compliance",
+  "stakeholders": {
+    "requester": "Safety Director",
+    "approvers": ["CEO", "COO", "Chief Engineer"],
+    "influencers": ["Mine Manager", "Union Representative", "Environmental Health Officer"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Deployment of IoT sensors and AI monitoring systems across mining operations",
+    "urgency": "high",
+    "justification": "Reduce accident rate by 30% and ensure compliance with new safety regulations"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_assessment",
+      "duration": "2 months",
+      "activities": ["Current safety audit", "Technology evaluation", "Worker consultation"],
+      "outcome": "Critical safety gaps identified"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "3 months",
+      "activities": ["System installation in one mine", "Performance monitoring", "Worker training"],
+      "outcome": "25% improvement in safety metrics"
+    },
+    {
+      "stage": "full_deployment_planning",
+      "duration": "1 month",
+      "activities": ["Scalability assessment", "Budget refinement", "Timeline development"],
+      "outcome": "Approved for phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in accidents, improved regulatory compliance, enhanced worker confidence",
+    "projected_value": "$3,000,000 annual savings in insurance and lost productivity",
+    "risk_factors": ["Technology reliability in harsh environments", "Worker resistance to automation", "Integration with existing systems"]
+  },
+  "decision_criteria": ["Safety improvement metrics", "ROI within 5 years", "Regulatory compliance", "Worker acceptance"],
+  "outcome": "Approved",
+  "lessons_learned": "Worker involvement in technology selection improves adoption rates, pilot testing validates safety benefits"
+}

@@ -146,8 +146,85 @@ This metrics dashboard evaluates the effectiveness of revenue management strateg
 - **ADR Index:** 108 (8% above competitive set)
 - **Occupancy Index:** 104 (4% above competitive set)
 
+## Market and Competitive Intelligence Metrics
+
+### Competitive Rate Index
+- **Definition:** Hotel rates compared to competitive set
+- **Target:** 105% of competitive average
+- **Current:** 108.2%
+- **Trend:** Maintaining premium positioning
+- **Calculation:** (Hotel ADR / Competitive Set ADR) × 100
+
+### Market Share by Segment
+- **Definition:** Percentage of market captured in different customer segments
+- **Target:** 15% in business travel, 12% in leisure
+- **Current:** 16.2% business, 11.8% leisure
+- **Trend:** Strong business segment performance
+- **Calculation:** (Segment bookings / Total market segment bookings) × 100
+
+### Online Reputation Score
+- **Definition:** Average rating across review platforms
+- **Target:** 4.6/5.0
+- **Current:** 4.5/5.0
+- **Trend:** Stable with active review management
+- **Calculation:** Average of TripAdvisor, Google, Booking.com ratings
+
+## Sustainability and ESG Metrics
+
+### Carbon Footprint per Guest Night
+- **Definition:** CO2 emissions per occupied room night
+- **Target:** <15 kg CO2/guest night
+- **Current:** 13.2 kg CO2/guest night
+- **Trend:** Improving with energy efficiency initiatives
+- **Calculation:** Total emissions / Occupied room nights
+
+### Sustainable Procurement Rate
+- **Definition:** Percentage of spend on sustainable suppliers
+- **Target:** 75%
+- **Current:** 68.2%
+- **Trend:** Increasing with supplier diversification
+- **Calculation:** (Sustainable supplier spend / Total procurement spend) × 100
+
+### Water Usage Efficiency
+- **Definition:** Gallons of water per occupied room night
+- **Target:** <120 gallons/night
+- **Current:** 115 gallons/night
+- **Trend:** Below target with conservation programs
+- **Calculation:** Total water usage / Occupied room nights
+
+## Technology and Digital Transformation Metrics
+
+### Mobile App Adoption
+- **Definition:** Percentage of bookings through mobile app
+- **Target:** 45%
+- **Current:** 38.7%
+- **Trend:** Growing with enhanced app features
+- **Calculation:** (App bookings / Total bookings) × 100
+
+### AI-Powered Recommendations Usage
+- **Definition:** Percentage of guests using AI concierge recommendations
+- **Target:** 60%
+- **Current:** 52.1%
+- **Trend:** Increasing engagement with personalization
+- **Calculation:** (AI recommendation usage / Total guest interactions) × 100
+
+### Digital Check-in Rate
+- **Definition:** Percentage of guests using mobile check-in
+- **Target:** 85%
+- **Current:** 78.3%
+- **Trend:** Improving with user education
+- **Calculation:** (Mobile check-ins / Total check-ins) × 100
+
 ## Reporting Structure
 - Daily revenue flash report for tactical decisions
 - Weekly performance dashboard for strategy adjustment
 - Monthly executive summary with trend analysis
 - Quarterly deep-dive reviews with optimization recommendations
+- Annual ESG and sustainability report for stakeholder communication
+
+## Data Sources and Validation
+- Primary data from PMS (Property Management System)
+- Revenue data validated against general ledger
+- Competitive intelligence from STR Global and local market analysis
+- Guest feedback collected through post-stay surveys and review platforms
+- Sustainability metrics tracked via energy management systems and procurement databases

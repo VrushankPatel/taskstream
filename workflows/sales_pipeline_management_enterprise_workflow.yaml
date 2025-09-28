@@ -46,11 +46,11 @@ workflow:
       actor: "Customer Success"
       action: "Handover to customer success team"
       tools: ["CRM", "Onboarding checklist"]
-      duration: "1 day"
+       duration: "1 day"
       outputs: ["Customer success plan"]
-   success_criteria: "Deal closed within 90 days, customer satisfaction score >8/10"
-   failure_modes: ["Lead disqualification", "Competitor win", "Budget constraints", "Internal approval delays"]
-   metrics:
+  success_criteria: "Deal closed within 90 days, customer satisfaction score >8/10"
+  failure_modes: ["Lead disqualification", "Competitor win", "Budget constraints", "Internal approval delays"]
+  metrics:
      - "Sales cycle length: Target <90 days"
      - "Win rate: Target >25%"
      - "Lead conversion rate: Target >15%"

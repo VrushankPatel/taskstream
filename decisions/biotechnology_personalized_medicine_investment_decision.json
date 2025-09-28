@@ -1,0 +1,43 @@
+{
+  "scenario_id": "biotech_personalized_medicine_investment_2025",
+  "context": "Mid-sized biotechnology company evaluating investment in personalized medicine platform using genomic sequencing and AI-driven treatment recommendations. Company has $50M in available capital and seeks to expand from traditional drug development into precision medicine.",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Head of R&D", "Chief Medical Officer", "VP of Business Development", "Regulatory Affairs Director"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Development and launch of personalized medicine platform including genomic sequencing capabilities, AI analytics engine, and clinical decision support tools",
+    "urgency": "high",
+    "justification": "Market opportunity in precision medicine estimated at $200B by 2030, with our platform addressing unmet needs in oncology and rare diseases. Expected 300% ROI within 5 years through subscription revenue and partnership deals."
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "duration": "2 weeks",
+      "activities": ["Technical feasibility assessment", "Market opportunity analysis", "Competitive landscape review"],
+      "outcome": "Advanced to detailed evaluation phase"
+    },
+    {
+      "stage": "due_diligence",
+      "duration": "6 weeks",
+      "activities": ["Financial modeling and ROI analysis", "Regulatory pathway assessment", "Technology partner evaluation", "Clinical trial design review"],
+      "outcome": "Positive recommendation with conditions"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Risk assessment discussion", "Strategic alignment evaluation"],
+      "outcome": "Approved with $20M allocation and milestone-based funding"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Establish company as leader in precision medicine, expand addressable market from $500M to $2B, create 150 new high-tech jobs",
+    "projected_value": "$75,000,000 in cumulative revenue over 5 years",
+    "risk_factors": ["Regulatory uncertainty in genomic data privacy", "Technology integration challenges with existing EHR systems", "Competition from tech giants entering healthcare", "Clinical validation timelines"]
+  },
+  "decision_criteria": ["Strategic alignment with precision medicine trend", "Financial ROI potential", "Technical feasibility", "Regulatory compliance pathway", "Market timing and competitive advantage", "Resource availability and execution capability"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for complex platform investments. Milestone-based funding reduces risk while maintaining momentum. Regulatory affairs involvement from project inception essential for precision medicine initiatives."
+}

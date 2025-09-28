@@ -1,0 +1,49 @@
+{
+  "scenario_id": "robotics_manufacturing_automation_investment_q4_2025",
+  "context": "Manufacturing company facing labor shortages and increasing competition. Evaluating investment in collaborative robotics to automate repetitive assembly tasks in automotive parts production line.",
+  "stakeholders": {
+    "requester": "VP of Operations",
+    "approvers": ["CEO", "CFO", "COO"],
+    "influencers": ["Plant Manager", "HR Director", "IT Director", "Union Representative", "Quality Manager"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Purchase and installation of 25 collaborative robotic arms, safety systems, and employee training programs for automotive parts assembly line",
+    "urgency": "medium",
+    "justification": "Address 15% labor shortage in assembly operations, reduce defect rates by 40%, improve production capacity by 35%. Payback period of 2.5 years through labor cost savings and efficiency gains."
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Robot vendor demonstrations", "Integration feasibility study", "Safety system assessment"],
+      "outcome": "Three vendor shortlist with technical recommendations"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "2 weeks",
+      "activities": ["ROI modeling", "Cost-benefit analysis", "Cash flow projections", "Risk assessment"],
+      "outcome": "Positive financial case with 2.3 year payback"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "3 weeks",
+      "activities": ["Union consultation", "Employee impact assessment", "Training program design", "Change management planning"],
+      "outcome": "Union agreement with job security provisions"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Executive presentation", "Board discussion", "Final approval"],
+      "outcome": "Approved with phased implementation plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "35% increase in production capacity, 40% reduction in defect rates, improved worker safety, enhanced competitiveness in automotive supply chain",
+    "projected_value": "$12,000,000 in annual cost savings and revenue growth",
+    "risk_factors": ["Employee resistance to automation", "Integration challenges with existing systems", "Safety certification delays", "Higher than expected maintenance costs"]
+  },
+  "decision_criteria": ["Financial ROI and payback period", "Technical feasibility and integration", "Workforce impact and union relations", "Safety and regulatory compliance", "Strategic alignment with Industry 4.0 goals", "Vendor support and long-term maintenance"],
+  "outcome": "Approved",
+  "lessons_learned": "Early union engagement prevents implementation delays. Comprehensive change management planning essential for automation projects. Pilot testing with small-scale implementation reduces overall project risk."
+}

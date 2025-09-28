@@ -1,0 +1,63 @@
+workflow:
+  id: "workflow_biotech_gene_therapy_trials_impl"
+  title: "Biotechnology Gene Therapy Clinical Trials Implementation Process"
+  department: "Biotechnology R&D"
+  complexity: "complex"
+  participants: ["Principal Investigator", "Clinical Operations Lead", "Regulatory Affairs Manager", "Data Safety Monitoring Board", "Ethics Committee", "Patient Recruitment Team", "Manufacturing Team", "Quality Control Lead"]
+  trigger: "Preclinical data demonstrates therapeutic efficacy and safety in animal models"
+  steps:
+    - step: 1
+      actor: "Principal Investigator"
+      action: "Develop clinical trial protocol including patient selection criteria, dosing regimen, and endpoints"
+      tools: ["Clinical trial management software", "Statistical analysis tools", "Regulatory databases"]
+      duration: "3 months"
+      outputs: ["Clinical trial protocol document", "Investigator's brochure"]
+    - step: 2
+      actor: "Regulatory Affairs Manager"
+      action: "Submit IND application to FDA/EMA with preclinical data and trial protocol"
+      tools: ["Regulatory submission platforms", "Document management systems"]
+      duration: "2 months"
+      outputs: ["IND submission package", "Regulatory correspondence"]
+    - step: 3
+      actor: "Ethics Committee"
+      action: "Review trial protocol for ethical compliance and patient protection"
+      tools: ["Ethics review systems", "Patient consent templates"]
+      duration: "1 month"
+      outputs: ["Ethics committee approval", "Patient informed consent forms"]
+    - step: 4
+      actor: "Clinical Operations Lead"
+      action: "Establish trial sites, train investigators, and set up data collection systems"
+      tools: ["EDC systems", "Site management platforms", "Training materials"]
+      duration: "4 months"
+      outputs: ["Site initiation visit reports", "Training records", "Data collection setup"]
+    - step: 5
+      actor: "Patient Recruitment Team"
+      action: "Recruit and screen eligible patients according to inclusion/exclusion criteria"
+      tools: ["Patient recruitment databases", "Screening tools", "Patient communication systems"]
+      duration: "6 months"
+      outputs: ["Patient enrollment logs", "Screening failure reports"]
+    - step: 6
+      actor: "Manufacturing Team"
+      action: "Produce clinical-grade gene therapy product under GMP conditions"
+      tools: ["Bioreactors", "Purification systems", "Quality control labs"]
+      duration: "Ongoing throughout trial"
+      outputs: ["Drug product batches", "Certificate of analysis", "Stability data"]
+    - step: 7
+      actor: "Data Safety Monitoring Board"
+      action: "Monitor trial safety data and recommend continuation, modification, or termination"
+      tools: ["Safety databases", "Statistical monitoring tools"]
+      duration: "Monthly throughout trial"
+      outputs: ["Safety reports", "DSMB recommendations"]
+    - step: 8
+      actor: "Quality Control Lead"
+      action: "Conduct ongoing quality oversight of trial conduct and data integrity"
+      tools: ["Quality management systems", "Audit tools"]
+      duration: "Ongoing throughout trial"
+      outputs: ["Quality audit reports", "Data quality assessments"]
+  success_criteria: "Trial completes on time with primary endpoints met, no major safety issues, and data suitable for regulatory submission"
+  failure_modes: ["Protocol violations", "Patient recruitment delays", "Manufacturing issues", "Unexpected safety signals", "Regulatory non-compliance"]
+  metrics:
+    - "Patient recruitment rate: Target 80% of planned enrollment within 6 months"
+    - "Protocol deviation rate: Target <5% of enrolled patients"
+    - "Data completeness: Target >95% of required data points collected"
+    - "Trial timeline adherence: Target completion within 12 months of first patient enrolled"

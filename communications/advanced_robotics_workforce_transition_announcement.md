@@ -54,11 +54,15 @@ We are committed to ensuring that no employee is adversely affected by this tech
 - Department-specific information sessions
 - One-on-one meetings with transition coaches
 - Anonymous feedback channels for concerns and suggestions
+- 24/7 support hotline for transition-related questions
+- Monthly progress updates via company intranet
 
 **Next Steps:**
 - Individual skills assessments will begin next month
 - Training program enrollment opens in two weeks
 - Department heads will meet with their teams this week to discuss local implementation plans
+- Union consultation sessions scheduled for next week
+- Pilot program volunteers needed by end of month
 
 We believe this program not only protects our workforce but enhances our competitive position through technological leadership and human capital development. Your dedication and adaptability have always been our greatest strength, and this initiative will ensure that strength continues to drive our success.
 

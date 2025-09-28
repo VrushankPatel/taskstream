@@ -1,0 +1,40 @@
+{
+  "scenario_id": "hg_screening_2025",
+  "context": "Healthcare provider network, 100 hospitals, evaluating population genomics screening",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Board Medical Committee"],
+    "influencers": ["VP Clinical Operations", "Genetics Experts", "Patient Advocacy Groups"]
+  },
+  "request": {
+    "amount": "$40,000,000",
+    "purpose": "Population-scale genomics screening program implementation",
+    "urgency": "high",
+    "justification": "Preventive care improvement and personalized medicine advancement"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_evaluation",
+      "duration": "12 weeks",
+      "activities": ["Clinical evidence review", "Cost-effectiveness analysis", "Ethical considerations"],
+      "outcome": "Strong clinical evidence for preventive screening benefits"
+    },
+    {
+      "stage": "operational_planning",
+      "duration": "8 weeks",
+      "activities": ["Program design", "Resource requirements", "Integration planning"],
+      "outcome": "Comprehensive implementation plan with phased rollout"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "6 weeks",
+      "activities": ["Physician engagement", "Patient communication", "Regulatory approval"],
+      "outcome": "Approved with strong clinical and patient support"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Improved patient outcomes, reduced long-term costs, medical leadership position",
+    "projected_revenue": "$150M in new preventive care services",
+    "risk_factors": ["Data privacy concerns", "Clinical implementation complexity", "Reimbursement challenges"]
+  }
+}

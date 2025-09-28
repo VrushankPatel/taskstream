@@ -1,40 +1,40 @@
 {
-  "scenario_id": "biotech_gene_therapy_investment_2025",
-  "context": "Biotechnology startup seeking Series B funding for gene therapy platform development",
+  "scenario_id": "biotechnology_gene_therapy_investment_decision_2025",
+  "context": "Mid-sized biotechnology company with 150 employees, developing gene therapy for rare genetic disorders, seeking $50M Series C funding",
   "stakeholders": {
     "requester": "CEO",
-    "approvers": ["Board of Directors", "Lead Investors", "Scientific Advisory Board"],
-    "influencers": ["FDA Reviewers", "Key Opinion Leaders", "Patient Advocacy Groups"]
+    "approvers": ["Board of Directors", "Lead Investors"],
+    "influencers": ["Chief Scientific Officer", "Chief Medical Officer", "Regulatory Affairs Head", "IP Counsel"]
   },
   "request": {
-    "amount": "$75 million",
-    "purpose": "Accelerate gene therapy platform from preclinical to clinical development",
+    "amount": "$50,000,000",
+    "purpose": "Fund Phase 2 clinical trials and manufacturing scale-up for gene therapy platform",
     "urgency": "high",
-    "justification": "Competitive landscape heating up; first-mover advantage critical in rare disease gene therapies"
+    "justification": "Strong preclinical data showing 80% efficacy in animal models, orphan drug designation secured, potential $2B market opportunity"
   },
   "decision_process": [
     {
       "stage": "due_diligence",
-      "duration": "4 weeks",
-      "activities": ["Scientific validation", "IP assessment", "Market analysis"],
-      "outcome": "Strong scientific foundation confirmed with defensible IP position"
+      "duration": "6 weeks",
+      "activities": ["Scientific data review", "Regulatory pathway assessment", "IP portfolio evaluation", "Market analysis"],
+      "outcome": "Positive due diligence results"
     },
     {
-      "stage": "valuation_negotiation",
-      "duration": "3 weeks",
-      "activities": ["Financial modeling", "Term sheet negotiation", "Investor due diligence"],
-      "outcome": "Series B funding secured at $65 million with favorable terms"
+      "stage": "board_review",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling review", "Risk assessment", "Strategic alignment evaluation"],
+      "outcome": "Approved for investor presentations"
     },
     {
-      "stage": "platform_acceleration",
-      "duration": "12 weeks",
-      "activities": ["IND-enabling studies", "Manufacturing scale-up", "Regulatory strategy"],
-      "outcome": "Platform advanced to clinical readiness with multiple IND candidates"
+      "stage": "investor_negotiations",
+      "duration": "8 weeks",
+      "activities": ["Term sheet negotiations", "Valuation discussions", "Due diligence defense", "Legal documentation"],
+      "outcome": "Funding secured with favorable terms"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["Accelerated clinical timeline", "Expanded therapeutic pipeline", "Strategic partnerships"],
-    "projected_revenue": "$500 million in future product sales",
-    "risk_factors": ["Clinical trial outcomes", "Regulatory hurdles", "Manufacturing scalability"]
+    "expected_patients_treated": 5000,
+    "projected_revenue": "$500,000,000",
+    "risk_factors": ["Clinical trial failures", "Regulatory setbacks", "Manufacturing challenges", "Competitive landscape changes"]
   }
 }

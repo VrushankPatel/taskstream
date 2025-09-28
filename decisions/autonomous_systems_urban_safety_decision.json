@@ -1,0 +1,40 @@
+{
+  "scenario_id": "as_urban_safety_2025",
+  "context": "Autonomous vehicle manufacturer, 5,000 employees, preparing for urban deployment",
+  "stakeholders": {
+    "requester": "Chief Safety Officer",
+    "approvers": ["CEO", "Chief Operating Officer", "Board Safety Committee"],
+    "influencers": ["VP Engineering", "City Transportation Officials", "Insurance Partners"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Enhanced safety systems and urban deployment preparation",
+    "urgency": "critical",
+    "justification": "Meeting regulatory requirements for urban autonomous vehicle operations"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_assessment",
+      "duration": "10 weeks",
+      "activities": ["Urban safety analysis", "Regulatory requirement review", "Technology gap assessment"],
+      "outcome": "Critical safety enhancements required for urban deployment"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Safety technology review", "Vendor evaluation", "Integration planning"],
+      "outcome": "Comprehensive safety system upgrade plan developed"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "6 weeks",
+      "activities": ["Regulatory submission", "City partnership development", "Public consultation"],
+      "outcome": "Approved with conditional urban deployment authorization"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Urban market access, enhanced safety reputation, regulatory compliance",
+    "projected_revenue": "$1B in urban mobility market opportunity",
+    "risk_factors": ["Technical implementation challenges", "Regulatory delays", "Public acceptance issues"]
+  }
+}

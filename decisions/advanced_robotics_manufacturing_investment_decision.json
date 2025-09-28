@@ -1,0 +1,40 @@
+{
+  "scenario_id": "advanced_robotics_manufacturing_investment_decision",
+  "context": "Large manufacturing company with 5000 employees, facing labor shortages and seeking to automate assembly lines with collaborative robots",
+  "stakeholders": {
+    "requester": "VP Manufacturing",
+    "approvers": ["CFO", "CEO", "Board of Directors"],
+    "influencers": ["Union Representatives", "HR Director", "IT Director", "Safety Manager"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Deploy collaborative robotics across 5 production facilities to address labor shortages and improve efficiency",
+    "urgency": "medium",
+    "justification": "30% labor shortage in skilled assembly roles, 40% productivity increase potential, 3-year ROI expected"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "8 weeks",
+      "activities": ["Process analysis", "Vendor evaluations", "ROI modeling", "Union consultations"],
+      "outcome": "Feasible with strong ROI projections"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "12 weeks",
+      "activities": ["Pilot implementation", "Employee training", "Safety validation", "Performance monitoring"],
+      "outcome": "Pilot successful with 35% efficiency improvement"
+    },
+    {
+      "stage": "full_rollout_approval",
+      "duration": "4 weeks",
+      "activities": ["Budget approval", "Timeline planning", "Resource allocation", "Risk mitigation planning"],
+      "outcome": "Full investment approved with phased rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gain": "35%",
+    "projected_cost_savings": "$15,000,000",
+    "risk_factors": ["Worker displacement concerns", "Integration challenges", "Safety incidents", "Technology obsolescence"]
+  }
+}

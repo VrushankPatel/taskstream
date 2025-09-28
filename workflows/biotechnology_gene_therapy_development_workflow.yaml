@@ -1,0 +1,54 @@
+workflow:
+  id: "biotechnology_gene_therapy_development_workflow"
+  title: "Biotechnology Gene Therapy Development Workflow"
+  department: "Biotechnology R&D"
+  complexity: "high"
+  participants: ["Principal Scientist", "Regulatory Affairs Lead", "Clinical Operations Manager", "Manufacturing Lead", "Quality Control Manager", "Legal Counsel", "Ethics Committee"]
+  trigger: "New gene therapy target identified through genomic research"
+  steps:
+    - step: 1
+      actor: "Principal Scientist"
+      action: "Conduct preclinical research and target validation studies"
+      tools: ["CRISPR/Cas9 systems", "Animal models", "Genomic sequencing platforms"]
+      duration: "6 months"
+      outputs: ["Preclinical data package", "Target validation report"]
+    - step: 2
+      actor: "Regulatory Affairs Lead"
+      action: "Prepare IND application and regulatory strategy"
+      tools: ["FDA guidelines", "EMA regulations", "Regulatory submission software"]
+      duration: "3 months"
+      outputs: ["IND application", "Regulatory roadmap"]
+      decision_points: ["Regulatory pathway selection", "Fast track eligibility"]
+    - step: 3
+      actor: "Clinical Operations Manager"
+      action: "Design Phase 1 clinical trial protocol and patient recruitment strategy"
+      tools: ["Clinical trial management systems", "Patient registry databases", "IRB submission tools"]
+      duration: "4 months"
+      outputs: ["Phase 1 protocol", "Patient recruitment plan"]
+    - step: 4
+      actor: "Manufacturing Lead"
+      action: "Develop GMP manufacturing process for gene therapy vector"
+      tools: ["Bioreactor systems", "Purification equipment", "Quality control assays"]
+      duration: "8 months"
+      outputs: ["Master cell bank", "Manufacturing SOPs", "Stability data"]
+      decision_points: ["In-house vs. CMO manufacturing", "Scalability requirements"]
+    - step: 5
+      actor: "Quality Control Manager"
+      action: "Establish QC release criteria and validation protocols"
+      tools: ["Analytical instruments", "QC software systems", "Stability chambers"]
+      duration: "3 months"
+      outputs: ["QC specifications", "Validation protocols"]
+    - step: 6
+      actor: "Ethics Committee"
+      action: "Review ethical considerations and patient consent forms"
+      tools: ["Ethics review frameworks", "Patient consent templates", "Risk-benefit analysis tools"]
+      duration: "2 months"
+      outputs: ["Ethics approval", "Patient consent documents"]
+    - step: 7
+      actor: "Legal Counsel"
+      action: "Conduct IP assessment and patent filing strategy"
+      tools: ["Patent databases", "IP management software", "Legal research platforms"]
+      duration: "3 months"
+      outputs: ["Patent applications", "IP strategy document"]
+  success_criteria: "Successful IND approval and Phase 1 trial initiation"
+  failure_modes: ["Preclinical safety concerns", "Manufacturing scalability issues", "Regulatory rejection", "IP conflicts"]

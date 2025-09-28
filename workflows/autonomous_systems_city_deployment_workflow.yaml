@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_as_003"
+  title: "Autonomous Systems City Deployment Workflow"
+  department: "Autonomous Operations"
+  complexity: "high"
+  participants: ["Safety Engineers", "City Planners", "Regulatory Compliance", "Operations Teams", "Community Relations"]
+  trigger: "Regulatory approval for autonomous vehicle city testing"
+  steps:
+    - step: 1
+      actor: "City Planners"
+      action: "Assess urban infrastructure and identify deployment zones"
+      tools: ["GIS mapping systems", "Traffic simulation software"]
+      duration: "4 weeks"
+      outputs: ["Infrastructure assessment", "Deployment zone map"]
+    - step: 2
+      actor: "Safety Engineers"
+      action: "Develop comprehensive safety protocols and emergency procedures"
+      tools: ["Safety analysis frameworks", "Risk assessment tools"]
+      duration: "6 weeks"
+      outputs: ["Safety protocol manual", "Emergency response procedures"]
+    - step: 3
+      actor: "Regulatory Compliance"
+      action: "Secure all necessary permits and regulatory approvals"
+      tools: ["Permit management systems", "Regulatory tracking tools"]
+      duration: "8 weeks"
+      outputs: ["Permit package", "Regulatory compliance documentation"]
+    - step: 4
+      actor: "Community Relations"
+      action: "Conduct public engagement and address community concerns"
+      tools: ["Community outreach platforms", "Stakeholder engagement tools"]
+      duration: "3 weeks"
+      outputs: ["Community engagement report", "Public feedback summary"]
+    - step: 5
+      actor: "Operations Teams"
+      action: "Execute phased deployment and establish monitoring systems"
+      tools: ["Fleet management platforms", "Real-time monitoring systems"]
+      duration: "12 weeks"
+      outputs: ["Deployment execution report", "Performance monitoring dashboard"]
+  success_criteria: "Successful city deployment with zero safety incidents and community acceptance"
+  failure_modes: ["Community resistance", "Technical malfunctions", "Regulatory delays"]

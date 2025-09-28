@@ -1,0 +1,40 @@
+{
+  "scenario_id": "healthcare_genomics_pharmacogenomics_adoption_decision",
+  "context": "Large hospital system with 3000 beds, implementing pharmacogenomic testing to reduce adverse drug reactions",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "Board of Directors", "Pharmacy & Therapeutics Committee"],
+    "influencers": ["IT Director", "Compliance Officer", "Patient Safety Officer", "Medical Staff Leadership"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Implement pharmacogenomic testing program across inpatient and outpatient services",
+    "urgency": "medium",
+    "justification": "Potential 30% reduction in adverse drug reactions, improved patient outcomes, CMS reimbursement incentives available"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Evidence review", "Clinical workflow assessment", "Cost-benefit analysis", "Pilot program design"],
+      "outcome": "Strong clinical evidence and workflow integration plan developed"
+    },
+    {
+      "stage": "technical_assessment",
+      "duration": "6 weeks",
+      "activities": ["EHR integration analysis", "Laboratory capacity evaluation", "Data privacy assessment", "Vendor selection"],
+      "outcome": "Technical feasibility confirmed with scalable solution"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "4 weeks",
+      "activities": ["Budget review", "Timeline approval", "Resource allocation", "Risk mitigation planning"],
+      "outcome": "Full implementation approved with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_adr_reduction": "30%",
+    "projected_cost_savings": "$10,000,000",
+    "risk_factors": ["EHR integration challenges", "Staff training requirements", "Test reimbursement issues", "Patient consent complexity"]
+  }
+}

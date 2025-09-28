@@ -1,0 +1,50 @@
+{
+  "scenario_id": "gaming_user_engagement_platform_investment_2025",
+  "context": "Major gaming company evaluating investment in advanced user engagement platform to improve player retention and monetization in competitive market",
+  "stakeholders": {
+    "requester": "VP of Player Experience",
+    "approvers": ["CEO", "CFO", "Chief Product Officer"],
+    "influencers": ["Head of Marketing", "Data Analytics Lead", "Community Management Director"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "Development and implementation of AI-driven user engagement platform with personalized content delivery and social features",
+    "urgency": "high",
+    "justification": "Industry data shows 40% of players churn within 3 months; platform projected to increase retention by 25% and ARPU by 15%"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "duration": "2 weeks",
+      "activities": ["Market analysis of engagement platforms", "Competitive benchmarking", "Technical feasibility assessment"],
+      "outcome": "Advanced to detailed analysis phase"
+    },
+    {
+      "stage": "detailed_analysis",
+      "duration": "3 weeks",
+      "activities": ["ROI modeling with multiple scenarios", "Integration planning with existing systems", "User experience prototyping"],
+      "outcome": "Approved with phased implementation"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Executive committee review", "Budget allocation approval", "Timeline and milestone setting"],
+      "outcome": "Approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% increase in player retention, 15% increase in average revenue per user, enhanced competitive positioning",
+    "projected_value": "$45,000,000 annual revenue increase",
+    "risk_factors": ["Technical integration challenges", "User adoption resistance", "Competitor platform responses"]
+  },
+  "decision_criteria": ["Projected ROI >300%", "Technical feasibility confirmed", "Alignment with player experience strategy", "Scalability for 50M+ users"],
+  "outcome": "Approved",
+  "action_items": [
+    "Form cross-functional implementation team by Q1 2026",
+    "Complete vendor selection and contract negotiation by Q2 2026",
+    "Launch beta testing with 10% of user base by Q3 2026",
+    "Full platform rollout by Q4 2026 with comprehensive user training",
+    "Establish ongoing platform optimization and A/B testing processes"
+  ],
+  "lessons_learned": "Early stakeholder engagement critical for complex platform decisions, comprehensive ROI modeling essential for executive buy-in"
+}

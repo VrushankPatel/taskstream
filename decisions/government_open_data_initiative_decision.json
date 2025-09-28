@@ -19,12 +19,12 @@
       "activities": ["Data asset cataloging", "Privacy impact assessment", "Public value evaluation"],
       "outcome": "Identified high-value datasets suitable for public release"
     },
-    {
-      "stage": "platform_design",
-      "duration: "8 weeks",
-      "activities": ["Technical architecture design", "API development planning", "Security framework establishment"],
-      "outcome": "Comprehensive platform design balancing accessibility with security"
-    },
+     {
+       "stage": "platform_design",
+       "duration": "8 weeks",
+       "activities": ["Technical architecture design", "API development planning", "Security framework establishment"],
+       "outcome": "Comprehensive platform design balancing accessibility with security"
+     },
     {
       "stage": "pilot_implementation",
       "duration": "6 weeks",

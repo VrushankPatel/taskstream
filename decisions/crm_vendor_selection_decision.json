@@ -1,0 +1,49 @@
+{
+  "scenario_id": "crm_vendor_selection_enterprise_2026",
+  "context": "Growing enterprise software company (300 employees) replacing legacy CRM with AI-powered platform to support global expansion and improve sales effectiveness",
+  "stakeholders": {
+    "requester": "VP Sales Operations",
+    "approvers": ["CEO", "CFO", "VP Sales", "CTO"],
+    "influencers": ["Sales Directors", "IT Infrastructure Lead", "Customer Success VP", "Data Analytics Manager"]
+  },
+  "request": {
+    "amount": "$1.2M total cost (3-year contract + implementation)",
+    "purpose": "Replace outdated CRM with AI-driven sales platform supporting 500+ users globally",
+    "urgency": "high",
+    "justification": "Current system causing 20% sales productivity loss, limiting international growth with poor mobile access"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_analysis",
+      "duration": "3 weeks",
+      "activities": ["User interviews with global sales teams", "Technical requirements for integrations", "Mobile and offline capabilities assessment", "Data migration complexity evaluation"],
+      "outcome": "Defined 30 critical requirements, prioritized AI features and global scalability"
+    },
+    {
+      "stage": "vendor_shortlisting",
+      "duration": "4 weeks",
+      "activities": ["RFP distributed to 12 vendors", "Initial demos and capability presentations", "Reference calls with similar-sized companies", "Pricing and contract structure discussions"],
+      "outcome": "Shortlisted Salesforce, Microsoft Dynamics, and HubSpot for final evaluation"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 weeks",
+      "activities": ["API integration testing", "Data migration pilots", "Security and compliance reviews", "Mobile app functionality testing", "AI feature demonstrations"],
+      "outcome": "Salesforce selected for superior AI capabilities, global infrastructure, and integration ecosystem"
+    },
+    {
+      "stage": "business_case_finalization",
+      "duration": "2 weeks",
+      "activities": ["Total cost of ownership analysis", "ROI projections over 5 years", "Implementation timeline development", "Change management planning"],
+      "outcome": "Approved $1.15M contract with 8-month implementation, projected 35% productivity improvement"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "35% increase in sales productivity, 50% faster reporting, improved global team collaboration, enhanced customer insights",
+    "projected_value": "$4.2M NPV over 5 years (productivity gains + revenue uplift)",
+    "risk_factors": ["Complex data migration", "User adoption challenges", "Integration dependencies", "Cost overruns during implementation"]
+  },
+  "decision_criteria": ["AI and automation capabilities (30%)", "Global scalability and mobile access (25%)", "Integration capabilities (20%)", "Total cost of ownership (15%)", "Vendor stability and support (10%)"],
+  "outcome": "Approved - Salesforce selected",
+  "lessons_learned": "Early involvement of global sales teams prevented regional requirements being overlooked, comprehensive technical testing revealed integration challenges, negotiated implementation costs saved 12% vs initial proposals"
+}

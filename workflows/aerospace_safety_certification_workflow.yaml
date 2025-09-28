@@ -1,8 +1,8 @@
 workflow:
-   id: "workflow_aerospace_safety_certification"
+  id: "workflow_aerospace_safety_certification"
   title: "Aerospace Safety Certification and Compliance Process"
   department: "Quality & Regulatory Affairs"
-   complexity: "complex"
+  complexity: "complex"
   participants: ["Chief Engineer", "Certification Manager", "Quality Assurance Team", "Regulatory Affairs", "Design Engineering", "Test Engineering", "External Auditors"]
   trigger: "New aircraft design completion or major system modification requiring certification"
   steps:
@@ -55,11 +55,11 @@ workflow:
       decision_points: ["Certification approval", "Additional requirements"]
       duration: "2-4 weeks"
       outputs: ["Type certificate", "Certification limitations"]
-   success_criteria: "Regulatory certification obtained with no major findings, aircraft approved for commercial operation"
-   failure_modes: ["Certification delays exceeding 6 months", "Major design changes required", "Regulatory non-compliance findings", "Test facility unavailability"]
-   metrics:
-     - "Certification timeline adherence: Target 100%"
-     - "First-time certification pass rate: Target 90%"
-     - "Regulatory compliance score: Target 100%"
-     - "Test success rate: Target 95%"
-     - "Documentation accuracy: Target 99%"
+  success_criteria: "Regulatory certification obtained with no major findings, aircraft approved for commercial operation"
+  failure_modes: ["Certification delays exceeding 6 months", "Major design changes required", "Regulatory non-compliance findings", "Test facility unavailability"]
+  metrics:
+    - "Certification timeline adherence: Target 100%"
+    - "First-time certification pass rate: Target 90%"
+    - "Regulatory compliance score: Target 100%"
+    - "Test success rate: Target 95%"
+    - "Documentation accuracy: Target 99%"

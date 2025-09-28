@@ -25,8 +25,50 @@ We need immediate authorization for:
 Please advise on next steps - this will impact our Q4 occupancy rates significantly.
 
 Regards,  
-Marcus Thompson  
-Regional Property Manager  
+Marcus Thompson
+Regional Property Manager
+
+---
+
+**From:** Tenant Relations Manager
+**To:** Regional Property Manager, Executive Leadership, Legal Team
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
+
+Marcus,
+
+Tenant feedback from initial communications:
+
+- 85% expressed appreciation for quick response and relocation assistance
+- 3 tenants requested additional support for displaced pets
+- 2 commercial tenants concerned about business interruption insurance coordination
+- Several residential tenants asking about temporary storage for belongings
+
+I've arranged pet boarding services for affected tenants and am coordinating with insurance for business interruption claims.
+
+Also, local news crews are requesting interviews - should we prepare a statement?
+
+Lisa Chen
+Tenant Relations Manager
+
+---
+
+**From:** CEO
+**To:** Executive Leadership, Legal Team, Insurance Claims Department, Regional Property Manager, Tenant Relations Manager
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
+
+Good progress on immediate response. Board briefing scheduled for 9 AM tomorrow.
+
+Key updates needed for briefing:
+1. Detailed damage assessment (Marcus)
+2. Insurance coverage confirmation (Jennifer)
+3. Legal exposure assessment (Sarah)
+4. Tenant communication status (Lisa)
+5. Recovery timeline and cost projections
+
+No media statements until we have full assessment. Crisis team meeting at 7 AM to prepare.
+
+David Chen
+CEO
 
 ---
 

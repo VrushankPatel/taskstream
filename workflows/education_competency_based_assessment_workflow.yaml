@@ -2,7 +2,7 @@ workflow:
   id: "workflow_education_competency_based_assessment"
   title: "Competency-Based Assessment System"
   department: "Academic Affairs"
-   complexity: "complex"
+  complexity: "complex"
   participants: ["Assessment Director", "Faculty Committee", "Curriculum Designers", "IT Development Team"]
   trigger: "Shift to competency-based education model"
   steps:
@@ -30,10 +30,10 @@ workflow:
       tools: ["Learning management systems", "Assessment software"]
       duration: "5 weeks"
       outputs: ["Digital assessment platform"]
-   success_criteria: "80% of courses using competency-based assessments within 18 months"
-   failure_modes: ["Faculty resistance to new evaluation methods", "Assessment validity concerns with subjective rubrics", "Technology adoption challenges in legacy systems", "Student adaptation to self-paced learning"]
-   metrics:
-     - "Assessment completion rate: 95% of enrolled students"
-     - "Faculty training completion: 100% of teaching staff"
-     - "Assessment reliability: Inter-rater agreement >85%"
-     - "Student satisfaction: 4.2/5.0 average rating"
+  success_criteria: "80% of courses using competency-based assessments within 18 months"
+  failure_modes: ["Faculty resistance to new evaluation methods", "Assessment validity concerns with subjective rubrics", "Technology adoption challenges in legacy systems", "Student adaptation to self-paced learning"]
+  metrics:
+    - "Assessment completion rate: 95% of enrolled students"
+    - "Faculty training completion: 100% of teaching staff"
+    - "Assessment reliability: Inter-rater agreement >85%"
+    - "Student satisfaction: 4.2/5.0 average rating"

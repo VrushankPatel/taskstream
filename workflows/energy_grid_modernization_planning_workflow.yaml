@@ -2,7 +2,7 @@ workflow:
   id: "workflow_energy_grid_modernization_planning"
   title: "Grid Modernization Planning and Execution"
   department: "Grid Operations"
-   complexity: "complex"
+  complexity: "complex"
   participants: ["Grid Modernization Director", "Engineering Team", "Regulatory Affairs", "Community Relations"]
   trigger: "Aging infrastructure and renewable energy integration needs"
   steps:
@@ -30,10 +30,10 @@ workflow:
       tools: ["Stakeholder engagement platforms", "Communication tools"]
       duration: "Ongoing"
       outputs: ["Stakeholder engagement plan"]
-   success_criteria: "Successful integration of 30% renewable energy capacity with 99.5% grid reliability"
-   failure_modes: ["Regulatory delays in permitting processes", "Technical integration issues with legacy systems", "Community opposition to infrastructure changes", "Cybersecurity vulnerabilities in smart grid components"]
-   metrics:
-     - "Renewable energy integration: 30% of total capacity"
-     - "Grid reliability: 99.5% uptime maintained"
-     - "Cost savings: $50M annual operational efficiency"
-     - "Carbon reduction: 25% decrease in emissions"
+  success_criteria: "Successful integration of 30% renewable energy capacity with 99.5% grid reliability"
+  failure_modes: ["Regulatory delays in permitting processes", "Technical integration issues with legacy systems", "Community opposition to infrastructure changes", "Cybersecurity vulnerabilities in smart grid components"]
+  metrics:
+    - "Renewable energy integration: 30% of total capacity"
+    - "Grid reliability: 99.5% uptime maintained"
+    - "Cost savings: $50M annual operational efficiency"
+    - "Carbon reduction: 25% decrease in emissions"

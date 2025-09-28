@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_005"
+  title: "International Market Expansion Strategy"
+  department: "Strategy"
+  complexity: "high"
+  participants: ["Strategy Director", "Market Research Analyst", "Financial Analyst", "Legal Counsel", "Operations Lead"]
+  trigger: "Growth opportunity identified in international market"
+  steps:
+    - step: 1
+      actor: "Market Research Analyst"
+      action: "Conduct comprehensive market analysis and opportunity assessment"
+      tools: ["Market research databases", "Competitive intelligence tools"]
+      duration: "6 weeks"
+      outputs: ["Market analysis report", "Opportunity assessment"]
+    - step: 2
+      actor: "Financial Analyst"
+      action: "Perform financial modeling and ROI analysis"
+      tools: ["Financial modeling software", "ROI calculators"]
+      duration: "4 weeks"
+      outputs: ["Financial model", "ROI analysis"]
+      decision_points: ["Market size", "Profitability projections", "Investment requirements"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Assess regulatory environment and compliance requirements"
+      tools: ["Regulatory databases", "Legal research platforms"]
+      duration: "3 weeks"
+      outputs: ["Regulatory assessment", "Compliance framework"]
+    - step: 4
+      actor: "Operations Lead"
+      action: "Evaluate operational feasibility and resource requirements"
+      tools: ["Operations planning tools", "Resource allocation models"]
+      duration: "3 weeks"
+      outputs: ["Operations plan", "Resource requirements"]
+    - step: 5
+      actor: "Strategy Director"
+      action: "Develop entry strategy and risk mitigation plan"
+      tools: ["Strategy frameworks", "Risk assessment tools"]
+      duration: "2 weeks"
+      outputs: ["Entry strategy", "Risk mitigation plan"]
+    - step: 6
+      actor: "Strategy Director"
+      action: "Present strategy to executive team for approval"
+      tools: ["Presentation tools", "Executive review processes"]
+      duration: "1 week"
+      outputs: ["Strategy presentation", "Executive approval"]
+  success_criteria: "Comprehensive expansion strategy approved with clear market entry plan and risk mitigation"
+  failure_modes: ["Insufficient market opportunity", "Regulatory barriers", "Financial unviability", "Operational complexity"]

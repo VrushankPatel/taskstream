@@ -1,0 +1,96 @@
+{
+  "decision_id": "IME-EI-2025-002",
+  "title": "International Market Expansion Enterprise Implementation Decision",
+  "date": "2025-09-28",
+  "context": "Following successful pilot expansions in 3 markets, the executive team must decide on full enterprise-wide implementation of international market expansion framework to capitalize on global growth opportunities.",
+  "options": [
+    {
+      "option": "Accelerated Global Expansion",
+      "description": "Aggressively expand to 10 new markets simultaneously with standardized processes and dedicated global expansion team",
+      "pros": [
+        "Rapid market share gains and first-mover advantage",
+        "Economies of scale in expansion processes",
+        "Accelerated global brand recognition"
+      ],
+      "cons": [
+        "High resource strain and execution risk",
+        "Potential quality compromises in rapid rollout",
+        "Increased exposure to geopolitical risks"
+      ],
+      "estimated_cost": "$200M initial investment",
+      "timeline": "24 months"
+    },
+    {
+      "option": "Phased Regional Expansion",
+      "description": "Expand systematically by region with 2-3 markets per region, allowing learning and resource optimization",
+      "pros": [
+        "Lower risk through controlled expansion",
+        "Ability to refine processes based on early learnings",
+        "More manageable resource allocation"
+      ],
+      "cons": [
+        "Slower overall market penetration",
+        "Competitive disadvantage in fast-moving markets",
+        "Delayed realization of global synergies"
+      ],
+      "estimated_cost": "$120M initial investment",
+      "timeline": "36 months"
+    },
+    {
+      "option": "Selective High-Potential Market Focus",
+      "description": "Focus expansion efforts on 3-5 highest potential markets with deep, sustainable entry strategies",
+      "pros": [
+        "Higher success rate through focused execution",
+        "Deeper market penetration and customer relationships",
+        "Optimized resource utilization"
+      ],
+      "cons": [
+        "Missed opportunities in secondary markets",
+        "Limited geographic diversification",
+        "Slower overall revenue growth"
+      ],
+      "estimated_cost": "$80M initial investment",
+      "timeline": "30 months"
+    }
+  ],
+  "recommendation": "Phased Regional Expansion",
+  "rationale": "Phased approach balances growth ambition with execution risk, allowing the company to build capabilities and processes while maintaining quality and financial discipline. This strategy enables learning from early expansions to inform subsequent market entries.",
+  "implementation_plan": [
+    "Launch expansion in Asia-Pacific region (3 markets) within 6 months",
+    "Establish Global Expansion Center of Excellence within 3 months",
+    "Develop standardized market entry playbook within 6 months",
+    "Achieve 15% international revenue contribution within 36 months"
+  ],
+  "risks_and_mitigations": [
+    {
+      "risk": "Geopolitical instability in target markets",
+      "mitigation": "Diversify across regions and maintain flexible exit strategies"
+    },
+    {
+      "risk": "Talent acquisition and retention challenges",
+      "mitigation": "Develop comprehensive global talent strategy and competitive compensation packages"
+    },
+    {
+      "risk": "Regulatory and compliance complexities",
+      "mitigation": "Build dedicated compliance team and engage local legal experts"
+    },
+    {
+      "risk": "Cultural integration and local adaptation issues",
+      "mitigation": "Implement cultural training programs and hire local leadership"
+    }
+  ],
+  "success_metrics": [
+    "Number of successful market entries (target: 8 within 3 years)",
+    "International revenue growth (target: 25% CAGR)",
+    "Market share in entered markets (target: top 3 positions)",
+    "Employee satisfaction in international operations (target: >4.0/5.0)",
+    "ROI on expansion investments (target: >15% IRR)"
+  ],
+  "approvers": [
+    "CEO",
+    "CFO",
+    "Chief Strategy Officer",
+    "Chief Operating Officer",
+    "Board of Directors"
+  ]
+}

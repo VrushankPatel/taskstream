@@ -1,0 +1,55 @@
+{
+  "scenario_id": "employee_engagement_digital_transformation_implementation_2025",
+  "context": "Global financial services company, 35000 employees, implementing digital transformation requiring workforce adaptation",
+  "stakeholders": {
+    "requester": "Chief Human Resources Officer",
+    "approvers": ["CEO", "Chief Digital Officer", "Board HR Committee"],
+    "influencers": ["Employee Representatives", "Department Heads", "Technology Leaders", "Change Management Consultants"]
+  },
+  "request": {
+    "amount": "$18M",
+    "purpose": "Comprehensive employee engagement program to support digital transformation adoption",
+    "urgency": "high",
+    "justification": "Digital transformation success depends on employee adoption; current engagement surveys show 35% resistance to change"
+  },
+  "decision_process": [
+    {
+      "stage": "engagement_diagnosis",
+      "duration": "4 weeks",
+      "activities": ["Employee engagement surveys", "Change readiness assessment", "Resistance analysis"],
+      "outcome": "Identified specific barriers: skills gaps, change fatigue, unclear benefits"
+    },
+    {
+      "stage": "program_design",
+      "duration": "6 weeks",
+      "activities": ["Engagement strategy development", "Training program design", "Communication planning"],
+      "outcome": "Multi-faceted program addressing skills, culture, and communication"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "3 weeks",
+      "activities": ["Employee focus groups", "Leadership workshops", "Union consultations"],
+      "outcome": "Strong employee input incorporated with leadership alignment"
+    },
+    {
+      "stage": "budget_optimization",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "ROI modeling", "Resource prioritization"],
+      "outcome": "Optimized program scope with clear success metrics"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Final budget approval", "Implementation authorization"],
+      "outcome": "Approved with enhanced measurement framework and executive sponsorship"
+    }
+  ],
+  "business_impact": {
+    "transformation_success": "Accelerated digital adoption with 40% faster implementation timelines",
+    "employee_satisfaction": "25% improvement in engagement scores and 30% reduction in voluntary turnover",
+    "productivity_gains": "20% increase in operational efficiency through technology utilization",
+    "cost_savings": "$12M annual savings from improved processes and reduced training costs",
+    "risk_factors": ["Program execution challenges", "Cultural resistance", "Skills development gaps", "Measurement accuracy"]
+  },
+  "decision_outcome": "Approved $18M engagement program with 24-month implementation; includes comprehensive training curriculum, change management support, communication campaigns, and advanced analytics for measuring engagement and adoption success"
+}

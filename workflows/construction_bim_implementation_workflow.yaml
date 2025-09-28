@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_construction_bim_001"
+  title: "Building Information Modeling (BIM) Implementation"
+  department: "Digital Construction"
+  complexity: "high"
+  participants: ["BIM Manager", "Project Managers", "IT Director", "Design Team", "Construction Teams"]
+  trigger: "Company decision to adopt BIM standards"
+  steps:
+    - step: 1
+      actor: "BIM Manager"
+      action: "Assess current capabilities and define BIM requirements"
+      tools: ["BIM Assessment Framework", "Software Evaluation Tools"]
+      duration: "4 weeks"
+      outputs: ["BIM Readiness Assessment", "Implementation Roadmap"]
+    - step: 2
+      actor: "IT Director"
+      action: "Select and procure BIM software and hardware"
+      decision_points: ["Software Platform", "Cloud vs. On-premises", "Integration Requirements"]
+      tools: ["Vendor RFPs", "Cost-Benefit Analysis"]
+      duration: "6 weeks"
+      outputs: ["Software Contracts", "Infrastructure Plan"]
+    - step: 3
+      actor: "BIM Manager"
+      action: "Develop BIM standards and protocols"
+      tools: ["BIM Standards Templates", "Collaboration Guidelines"]
+      duration: "4 weeks"
+      outputs: ["BIM Execution Plan", "Standards Documentation"]
+    - step: 4
+      actor: "Design Team"
+      action: "Train design team on BIM workflows"
+      tools: ["Training Materials", "Practice Models", "Certification Programs"]
+      duration: "8 weeks"
+      outputs: ["Training Completion Reports", "Certification Records"]
+    - step: 5
+      actor: "Construction Teams"
+      action: "Train construction teams on BIM field use"
+      tools: ["Mobile BIM Applications", "Field Training Programs"]
+      duration: "6 weeks"
+      outputs: ["Field Training Records", "Adoption Metrics"]
+    - step: 6
+      actor: "Project Managers"
+      action: "Pilot BIM on selected projects and refine processes"
+      tools: ["Pilot Project Tracking", "Feedback Collection Systems"]
+      duration: "12 weeks"
+      outputs: ["Pilot Results Report", "Process Improvements"]
+  success_criteria: "80% team adoption, 25% productivity improvement, successful BIM model delivery on all projects"
+  failure_modes: ["Software integration issues", "Resistance to change", "Inadequate training"]

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "construction_bim_adoption_2025",
+  "context": "Mid-size construction company, 150 employees, facing increasing client demands for BIM deliverables",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Project Managers", "Design Team Lead", "IT Director"]
+  },
+  "request": {
+    "amount": "$500,000",
+    "purpose": "BIM software licenses, training, and implementation",
+    "urgency": "high",
+    "justification": "Competitive advantage in digital construction market, client requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "2 weeks",
+      "activities": ["Market research on BIM platforms", "ROI analysis", "Team capability assessment"],
+      "outcome": "Proceed with pilot implementation"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "3 weeks",
+      "activities": ["Vendor demonstrations", "Reference checks", "Contract negotiations"],
+      "outcome": "Selected Autodesk BIM 360 platform"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["Training program development", "Process redesign", "Change management planning"],
+      "outcome": "Approved phased rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_productivity_gain": "30%",
+    "projected_roi": "250%",
+    "risk_factors": ["Learning curve challenges", "Integration with existing systems", "Initial cost overruns"]
+  }
+}

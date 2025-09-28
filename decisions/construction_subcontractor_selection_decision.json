@@ -1,0 +1,40 @@
+{
+  "scenario_id": "construction_subcontractor_selection_2025",
+  "context": "Major commercial project requiring specialized electrical subcontractor",
+  "stakeholders": {
+    "requester": "Project Manager",
+    "approvers": ["Construction Director", "Legal Counsel"],
+    "influencers": ["Electrical Engineer", "Quality Manager", "Safety Officer"]
+  },
+  "request": {
+    "amount": "$2.5 million",
+    "purpose": "Electrical subcontract for high-rise commercial building",
+    "urgency": "high",
+    "justification": "Critical path item, specialized electrical work for smart building systems"
+  },
+  "decision_process": [
+    {
+      "stage": "qualification_review",
+      "duration": "1 week",
+      "activities": ["License verification", "Financial stability check", "Capacity assessment"],
+      "outcome": "Shortlisted 3 qualified candidates"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Technical proposal review", "Reference checks", "Site visits to past projects"],
+      "outcome": "Ranked candidates by technical capability"
+    },
+    {
+      "stage": "negotiation",
+      "duration": "1 week",
+      "activities": ["Price negotiations", "Contract terms discussion", "Schedule alignment"],
+      "outcome": "Selected subcontractor with best value proposition"
+    }
+  ],
+  "business_impact": {
+    "expected_schedule_impact": "On-time completion",
+    "quality_standards": "LEED certification compliant",
+    "risk_factors": ["Subcontractor capacity constraints", "Material supply chain issues", "Weather delays"]
+  }
+}

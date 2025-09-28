@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_construction_001"
+  title: "Construction Project Initiation and Safety Protocol"
+  department: "Construction Management"
+  complexity: "high"
+  participants: ["Project Manager", "Safety Officer", "Site Supervisor", "Subcontractor Coordinator", "Quality Control Inspector"]
+  trigger: "New project contract signed"
+  steps:
+    - step: 1
+      actor: "Project Manager"
+      action: "Review contract terms and create project charter"
+      tools: ["Project Management Software", "Contract Database"]
+      duration: "2 days"
+      outputs: ["Project Charter", "Initial Timeline"]
+    - step: 2
+      actor: "Safety Officer"
+      action: "Conduct site safety assessment and develop safety plan"
+      tools: ["Safety Checklist", "OSHA Guidelines"]
+      duration: "1 day"
+      outputs: ["Site Safety Plan", "PPE Requirements"]
+    - step: 3
+      actor: "Subcontractor Coordinator"
+      action: "Issue RFPs and evaluate subcontractor proposals"
+      decision_points: ["Bid Price", "Experience Level", "Safety Record"]
+      duration: "1 week"
+      outputs: ["Subcontractor Contracts", "Vendor List"]
+    - step: 4
+      actor: "Site Supervisor"
+      action: "Mobilize equipment and materials to site"
+      tools: ["Inventory Management System", "Logistics Software"]
+      duration: "3 days"
+      outputs: ["Site Mobilization Report"]
+    - step: 5
+      actor: "Quality Control Inspector"
+      action: "Establish quality checkpoints and testing protocols"
+      tools: ["Quality Assurance Manual", "Testing Equipment"]
+      duration: "2 days"
+      outputs: ["Quality Control Plan"]
+  success_criteria: "Project site ready for construction with all safety and quality protocols established"
+  failure_modes: ["Permit Delays", "Subcontractor Availability Issues", "Safety Compliance Violations"]

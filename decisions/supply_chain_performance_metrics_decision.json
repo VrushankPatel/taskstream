@@ -1,0 +1,40 @@
+{
+  "scenario_id": "supply_chain_performance_metrics_2025",
+  "context": "Retail corporation, 10,000 employees, optimizing global supply chain",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": ["COO", "CFO"],
+    "influencers": ["Regional Operations Managers", "Procurement Director", "IT Director"]
+  },
+  "request": {
+    "amount": "$1.8M",
+    "purpose": "Implement advanced supply chain visibility platform",
+    "urgency": "medium",
+    "justification": "Reduce inventory costs and improve delivery reliability"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "3 weeks",
+      "activities": ["Map current supply chain processes", "Benchmark against industry standards", "Identify pain points"],
+      "outcome": "Current on-time delivery at 78%, target 95%"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "2 weeks",
+      "activities": ["Vendor RFP process", "Technology assessment", "ROI modeling"],
+      "outcome": "Selected platform with projected 20% efficiency improvement"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "1 week",
+      "activities": ["Budget approval", "Change management planning", "Risk mitigation"],
+      "outcome": "Approved with phased 12-month rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% reduction in inventory carrying costs",
+    "projected_savings": "$12M annually",
+    "risk_factors": ["System integration challenges", "Supplier resistance", "Training requirements"]
+  }
+}

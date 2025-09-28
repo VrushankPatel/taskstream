@@ -39,8 +39,13 @@ workflow:
     - step: 6
       actor: "PropTech Manager"
       action: "Monitor system performance and optimize operations"
+<<<<<<< HEAD
+       tools: ["Building Performance Dashboard", "Analytics Platform"]
+      duration: "Ongoing monthly monitoring"
+=======
       tools: ["Building Performance Dashboard", "Analytics Platform"]
        duration: "Ongoing monthly monitoring"
+>>>>>>> origin/master
       outputs: ["Performance Reports", "Optimization Recommendations"]
   success_criteria: "20% reduction in energy costs, improved tenant satisfaction scores, enhanced building security"
   failure_modes: ["Integration compatibility issues", "Tenant adoption challenges", "Cybersecurity vulnerabilities"]

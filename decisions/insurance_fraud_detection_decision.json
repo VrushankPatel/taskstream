@@ -1,0 +1,49 @@
+{
+  "scenario_id": "insurance_fraud_detection_investment_2024",
+  "context": "Property and casualty insurance company with $2B in annual premiums facing rising fraud losses",
+  "stakeholders": {
+    "requester": "Chief Underwriting Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Claims Director", "Data Analytics Lead", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Implement AI-powered fraud detection system for claims processing",
+    "urgency": "high",
+    "justification": "Current fraud losses estimated at $45M annually (2.25% of premiums); industry average fraud rate is 1.5%"
+  },
+  "decision_process": [
+    {
+      "stage": "fraud_analysis",
+      "duration": "3 weeks",
+      "activities": ["Historical claims analysis", "Fraud pattern identification", "Technology vendor assessment"],
+      "outcome": "Confirmed $45M annual fraud loss with identifiable patterns"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor RFP process", "Proof of concept testing", "Integration assessment"],
+      "outcome": "Selected AI solution with 85% fraud detection accuracy"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "6 weeks",
+      "activities": ["Limited deployment", "Performance monitoring", "False positive analysis"],
+      "outcome": "Pilot reduced fraud losses by 35% with acceptable false positive rate"
+    },
+    {
+      "stage": "full_implementation_approval",
+      "duration": "2 weeks",
+      "activities": ["ROI validation", "Risk assessment", "Regulatory compliance review"],
+      "outcome": "Approved for enterprise-wide deployment"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduced fraud losses, improved claims processing efficiency, enhanced underwriting accuracy",
+    "projected_value": "$15M annual fraud loss reduction",
+    "risk_factors": ["False positive claims", "System integration challenges", "Regulatory scrutiny of AI decisions"]
+  },
+  "decision_criteria": ["Fraud detection accuracy >80%", "ROI within 12 months", "Minimal impact on legitimate claims", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot testing essential for AI fraud detection; balancing fraud prevention with customer experience requires careful tuning"
+}

@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_telecom_customer_service_escalation"
+  title: "Telecom Customer Service Escalation Process"
+  department: "Customer Care"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Supervisor", "Technical Support", "Retention Specialist"]
+  trigger: "Customer contacts support with unresolved issue"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Attempt first-level resolution using standard procedures"
+      tools: ["CRM system", "Knowledge base"]
+      duration: "15 minutes"
+      outputs: ["Resolution attempt log"]
+    - step: 2
+      actor: "Supervisor"
+      action: "Review case and attempt escalation resolution"
+      decision_points: ["Issue complexity", "Customer value"]
+      duration: "30 minutes"
+      outputs: ["Escalation decision"]
+    - step: 3
+      actor: "Technical Support"
+      action: "Provide technical troubleshooting and resolution"
+      tools: ["Network monitoring tools", "Technical databases"]
+      duration: "45 minutes"
+      outputs: ["Technical resolution"]
+    - step: 4
+      actor: "Retention Specialist"
+      action: "Contact high-value customers to prevent churn"
+      tools: ["Retention scripts", "CRM analytics"]
+      duration: "20 minutes"
+      outputs: ["Retention outcome"]
+  success_criteria: "80% of escalated issues resolved within 24 hours"
+  failure_modes: ["Technical system outages", "Staffing shortages"]
+  metrics:
+    - "Resolution rate: 85%"
+    - "Average handle time: 45 minutes"
+    - "Customer satisfaction: 3.8/5"
+    - "Churn prevention: 60%"

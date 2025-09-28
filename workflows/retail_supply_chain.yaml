@@ -32,3 +32,10 @@ workflow:
       outputs: ["Performance metrics", "Improvement recommendations"]
   success_criteria: "Optimal inventory levels, minimal stockouts"
   failure_modes: ["Overstocking", "Stockouts", "Quality issues"]
+  metrics:
+    - "Inventory turnover ratio: Target >8 times per year"
+    - "Stockout rate: Target <2% of items"
+    - "Order fulfillment time: Target <24 hours"
+    - "Supplier on-time delivery: Target >95%"
+    - "Carrying cost reduction: Target >10% improvement"
+    - "Customer satisfaction: Target >4.5/5.0 on availability"

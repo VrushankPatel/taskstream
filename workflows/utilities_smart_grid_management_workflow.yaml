@@ -54,12 +54,12 @@ workflow:
       tools: ["Real-time monitoring systems", "Optimization algorithms"]
       duration: "Ongoing"
       outputs: ["Performance reports", "Optimization recommendations"]
-   success_criteria: "Grid reliability improved by 15%, operational costs reduced by 10%, renewable energy integration increased"
-   failure_modes: ["Cybersecurity breaches", "Equipment failures during deployment", "Integration issues with legacy systems", "Regulatory non-compliance"]
-   metrics:
-     - "Grid reliability: Target 99.98% uptime"
-     - "Operational cost reduction: Target 10% annual savings"
-     - "Renewable energy integration: Target 25% of total capacity"
-     - "Response time to outages: Target <5 minutes average"
-     - "Predictive maintenance accuracy: Target 90% prediction rate"
-     - "Cybersecurity incidents: Target 0 successful breaches"
+  success_criteria: "Grid reliability improved by 15%, operational costs reduced by 10%, renewable energy integration increased"
+  failure_modes: ["Cybersecurity breaches", "Equipment failures during deployment", "Integration issues with legacy systems", "Regulatory non-compliance"]
+  metrics:
+    - "Grid reliability: Target 99.98% uptime"
+    - "Operational cost reduction: Target 10% annual savings"
+    - "Renewable energy integration: Target 25% of total capacity"
+    - "Response time to outages: Target <5 minutes average"
+    - "Predictive maintenance accuracy: Target 90% prediction rate"
+    - "Cybersecurity incidents: Target 0 successful breaches"

@@ -9,27 +9,55 @@ workflow:
     - step: 1
       actor: "Chief Technology Officer"
       action: "Define technology requirements and program objectives"
-      tools: ["Technology roadmap documents", "Requirements analysis frameworks", "Strategic planning tools"]
+      decision_points:
+        - "Technology focus areas (missile vs. aircraft)"
+        - "Budget allocation across subsystems"
+        - "Timeline constraints and milestones"
+      tools:
+        - "Technology roadmap documents"
+        - "Requirements analysis frameworks"
+        - "Strategic planning tools"
       duration: "6 weeks"
-      outputs: ["Technology development plan", "Program objectives", "Resource allocation"]
+      outputs:
+        - "Technology development plan"
+        - "Program objectives"
+        - "Resource allocation"
     - step: 2
       actor: "Aerodynamics Lead"
       action: "Design aerodynamic configurations and flight profiles"
-      tools: ["CFD simulation software", "Wind tunnel testing equipment", "Aerodynamic modeling tools"]
+      tools:
+        - "CFD simulation software"
+        - "Wind tunnel testing equipment"
+        - "Aerodynamic modeling tools"
       duration: "12 weeks"
-      outputs: ["Aerodynamic designs", "Flight simulation models", "Performance predictions"]
+      outputs:
+        - "Aerodynamic designs"
+        - "Flight simulation models"
+        - "Performance predictions"
     - step: 3
       actor: "Materials Engineer"
       action: "Develop heat-resistant materials and thermal protection systems"
-      tools: ["Materials testing laboratories", "Thermal analysis software", "Material selection databases"]
+      tools:
+        - "Materials testing laboratories"
+        - "Thermal analysis software"
+        - "Material selection databases"
       duration: "16 weeks"
-      outputs: ["Material specifications", "Thermal protection designs", "Testing protocols"]
+      outputs:
+        - "Material specifications"
+        - "Thermal protection designs"
+        - "Testing protocols"
     - step: 4
       actor: "Propulsion Specialist"
       action: "Design propulsion systems for hypersonic speeds"
-      tools: ["Propulsion modeling software", "Engine test facilities", "Performance optimization tools"]
+      tools:
+        - "Propulsion modeling software"
+        - "Engine test facilities"
+        - "Performance optimization tools"
       duration: "14 weeks"
-      outputs: ["Propulsion system designs", "Engine specifications", "Performance models"]
+      outputs:
+        - "Propulsion system designs"
+        - "Engine specifications"
+        - "Performance models"
     - step: 5
       actor: "Test Operations Manager"
       action: "Plan and execute ground and flight testing campaigns"
@@ -39,9 +67,15 @@ workflow:
     - step: 6
       actor: "Chief Technology Officer"
       action: "Evaluate test results and plan technology maturation"
-      tools: ["Performance analysis tools", "Technology readiness assessments", "Program management software"]
+      tools:
+        - "Performance analysis tools"
+        - "Technology readiness assessments"
+        - "Program management software"
       duration: "8 weeks"
-      outputs: ["Technology assessment", "Maturation roadmap", "Next phase recommendations"]
+      outputs:
+        - "Technology assessment"
+        - "Maturation roadmap"
+        - "Next phase recommendations"
   success_criteria: "Successful demonstration of hypersonic technology meeting performance and safety requirements"
   failure_modes: ["Material failure under thermal stress", "Aerodynamic instability", "Propulsion system inefficiencies", "Testing safety incidents", "Cost overruns"]
   metrics:

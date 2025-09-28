@@ -9,39 +9,73 @@ workflow:
     - step: 1
       actor: "Payments Manager"
       action: "Conduct market research on RTP providers and assess business requirements"
-      tools: ["Vendor analysis reports", "Regulatory guidelines", "Competitor benchmarking"]
+      decision_points:
+        - "Provider selection criteria"
+        - "Integration scope (domestic vs. international)"
+        - "Budget constraints and ROI targets"
+      tools:
+        - "Vendor analysis reports"
+        - "Regulatory guidelines"
+        - "Competitor benchmarking"
       duration: "2 weeks"
-      outputs: ["Requirements specification document", "Vendor shortlist"]
+      outputs:
+        - "Requirements specification document"
+        - "Vendor shortlist"
     - step: 2
       actor: "IT Integration Lead"
       action: "Design integration architecture and API specifications"
-      tools: ["System architecture diagrams", "API documentation tools", "Security frameworks"]
+      tools:
+        - "System architecture diagrams"
+        - "API documentation tools"
+        - "Security frameworks"
       duration: "3 weeks"
-      outputs: ["Technical design document", "Integration roadmap"]
+      outputs:
+        - "Technical design document"
+        - "Integration roadmap"
     - step: 3
       actor: "Compliance Officer"
       action: "Review regulatory compliance requirements and risk assessments"
-      tools: ["Regulatory compliance checklists", "Risk assessment frameworks", "Legal review templates"]
+      tools:
+        - "Regulatory compliance checklists"
+        - "Risk assessment frameworks"
+        - "Legal review templates"
       duration: "1 week"
-      outputs: ["Compliance assessment report", "Risk mitigation plan"]
+      outputs:
+        - "Compliance assessment report"
+        - "Risk mitigation plan"
     - step: 4
       actor: "Vendor Relations Manager"
       action: "Negotiate contracts and establish service level agreements"
-      tools: ["Contract templates", "SLA frameworks", "Vendor management system"]
+      tools:
+        - "Contract templates"
+        - "SLA frameworks"
+        - "Vendor management system"
       duration: "2 weeks"
-      outputs: ["Signed vendor contracts", "Implementation timeline"]
+      outputs:
+        - "Signed vendor contracts"
+        - "Implementation timeline"
     - step: 5
       actor: "IT Integration Lead"
       action: "Execute system integration and testing phases"
-      tools: ["Integration testing tools", "Payment simulation software", "Monitoring dashboards"]
+      tools:
+        - "Integration testing tools"
+        - "Payment simulation software"
+        - "Monitoring dashboards"
       duration: "4 weeks"
-      outputs: ["Integration test results", "Go-live readiness report"]
+      outputs:
+        - "Integration test results"
+        - "Go-live readiness report"
     - step: 6
       actor: "Risk Assessment Team"
       action: "Conduct final security audit and penetration testing"
-      tools: ["Security audit tools", "Penetration testing frameworks", "Compliance validation reports"]
+      tools:
+        - "Security audit tools"
+        - "Penetration testing frameworks"
+        - "Compliance validation reports"
       duration: "1 week"
-      outputs: ["Security audit report", "Regulatory approval documentation"]
+      outputs:
+        - "Security audit report"
+        - "Regulatory approval documentation"
   success_criteria: "Successful processing of 99.9% of RTP transactions within 10 seconds"
   failure_modes: ["Integration compatibility issues", "Regulatory non-compliance", "Security vulnerabilities", "Vendor performance delays"]
   metrics:

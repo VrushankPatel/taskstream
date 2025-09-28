@@ -9,39 +9,73 @@ workflow:
     - step: 1
       actor: "Cyber Underwriter"
       action: "Review application details and initial risk assessment"
-      tools: ["Underwriting platform", "Risk scoring models", "Industry databases"]
+      tools:
+        - "Underwriting platform"
+        - "Risk scoring models"
+        - "Industry databases"
       duration: "2 days"
-      outputs: ["Initial risk profile", "Underwriting questionnaire"]
+      outputs:
+        - "Initial risk profile"
+        - "Underwriting questionnaire"
     - step: 2
       actor: "Risk Analyst"
       action: "Conduct detailed cybersecurity assessment and vulnerability analysis"
-      tools: ["Cyber risk assessment tools", "Threat intelligence platforms", "Compliance checklists"]
+      tools:
+        - "Cyber risk assessment tools"
+        - "Threat intelligence platforms"
+        - "Compliance checklists"
       duration: "1 week"
-      outputs: ["Detailed risk report", "Vulnerability assessment"]
+      outputs:
+        - "Detailed risk report"
+        - "Vulnerability assessment"
     - step: 3
       actor: "IT Security Specialist"
       action: "Evaluate client's security posture and controls"
-      tools: ["Security audit templates", "Penetration testing reports", "Compliance frameworks"]
+      tools:
+        - "Security audit templates"
+        - "Penetration testing reports"
+        - "Compliance frameworks"
       duration: "3 days"
-      outputs: ["Security evaluation report", "Control gap analysis"]
+      outputs:
+        - "Security evaluation report"
+        - "Control gap analysis"
     - step: 4
       actor: "Actuarial Team"
       action: "Calculate premium pricing based on risk profile"
-      tools: ["Actuarial modeling software", "Loss data analytics", "Pricing algorithms"]
+      tools:
+        - "Actuarial modeling software"
+        - "Loss data analytics"
+        - "Pricing algorithms"
       duration: "2 days"
-      outputs: ["Premium calculation", "Loss projections"]
+      outputs:
+        - "Premium calculation"
+        - "Loss projections"
     - step: 5
       actor: "Legal Counsel"
       action: "Review policy terms and exclusions for compliance"
-      tools: ["Legal review templates", "Regulatory guidelines", "Contract management system"]
+      tools:
+        - "Legal review templates"
+        - "Regulatory guidelines"
+        - "Contract management system"
       duration: "1 day"
-      outputs: ["Legal compliance review", "Policy terms approval"]
+      outputs:
+        - "Legal compliance review"
+        - "Policy terms approval"
     - step: 6
       actor: "Cyber Underwriter"
       action: "Finalize underwriting decision and policy issuance"
-      tools: ["Underwriting decision matrix", "Policy issuance system", "Approval workflows"]
+      decision_points:
+        - "Premium approval threshold"
+        - "Coverage limits determination"
+        - "Special exclusions application"
+      tools:
+        - "Underwriting decision matrix"
+        - "Policy issuance system"
+        - "Approval workflows"
       duration: "1 day"
-      outputs: ["Underwriting decision", "Policy documentation"]
+      outputs:
+        - "Underwriting decision"
+        - "Policy documentation"
   success_criteria: "Accurate risk assessment leading to profitable underwriting decisions"
   failure_modes: ["Inadequate risk evaluation", "Pricing inaccuracies", "Regulatory non-compliance", "Client security underestimation"]
   metrics:

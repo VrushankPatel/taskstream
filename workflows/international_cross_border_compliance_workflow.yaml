@@ -46,11 +46,11 @@ workflow:
       actor: "Compliance Officers"
       action: "Implement compliance monitoring and reporting systems"
       tools: ["Compliance management systems", "Reporting dashboards"]
-      duration: "2 weeks"
+       duration: "2 weeks"
       outputs: ["Monitoring systems", "Compliance reporting framework"]
-   success_criteria: "Comprehensive compliance framework enabling safe cross-border operations"
-   failure_modes: ["Regulatory oversights", "Tax compliance issues", "Data privacy breaches", "Cultural adaptation failures"]
-   metrics:
+  success_criteria: "Comprehensive compliance framework enabling safe cross-border operations"
+  failure_modes: ["Regulatory oversights", "Tax compliance issues", "Data privacy breaches", "Cultural adaptation failures"]
+  metrics:
      - "Compliance audit pass rate: Target 100%"
      - "Regulatory violation incidents: Target 0"
      - "Cross-border transaction processing time: Target <5 days"

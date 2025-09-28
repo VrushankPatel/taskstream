@@ -71,7 +71,7 @@ risks:
     mitigation: Clear KPIs and regular performance reviews
 
 success_criteria:
-  - Successful system integration with minimal downtime
-  - Achievement of 80% of projected synergies within 12 months
-  - Positive employee feedback on cultural integration
-  - Establishment of sustainable partnership governance structure
+    - Successful system integration with minimal downtime
+    - Achievement of 80% of projected synergies within 12 months
+    - Positive employee feedback on cultural integration
+    - Establishment of sustainable partnership governance structure

@@ -34,11 +34,11 @@ workflow:
       actor: "Patient Services Rep"
       action: "Contact patient for outstanding balances and payment arrangements"
       tools: ["Patient Portal", "Payment Processing System"]
-      duration: "As needed"
+       duration: "As needed"
       outputs: ["Payment plan", "Collection notice"]
-   success_criteria: "90% claims paid within 30 days, patient satisfaction >95%"
-   failure_modes: ["Coding errors leading to denials", "Insurance verification failures", "Patient communication breakdowns"]
-   metrics:
+  success_criteria: "90% claims paid within 30 days, patient satisfaction >95%"
+  failure_modes: ["Coding errors leading to denials", "Insurance verification failures", "Patient communication breakdowns"]
+  metrics:
      - "Claims payment rate within 30 days: Target 90%"
      - "Denial rate: Target <5%"
      - "Average reimbursement time: Target <21 days"

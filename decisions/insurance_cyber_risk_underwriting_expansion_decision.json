@@ -1,0 +1,37 @@
+{
+  "scenario_id": "insurance_cyber_risk_underwriting_expansion_2025",
+  "context": "Mid-sized insurance company expanding cyber risk underwriting portfolio amid rising cyber threats",
+  "stakeholders": {
+    "requester": "VP Underwriting",
+    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer", "CEO"],
+    "influencers": ["Head of Claims", "IT Security Director", "Actuarial Team Lead"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Expand cyber risk underwriting capacity and analytics capabilities",
+    "urgency": "high",
+    "justification": "Market demand for cyber insurance growing 40% annually, current capacity limiting growth"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "duration": "2 weeks",
+      "activities": ["Market analysis", "Capacity gap assessment", "Technology vendor evaluation"],
+      "outcome": "Proceed to detailed planning"
+    },
+    {
+      "stage": "stakeholder_review",
+      "duration": "1 week",
+      "activities": ["Risk modeling review", "Claims data analysis", "Regulatory compliance check"],
+      "outcome": "Approved with enhanced monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in cyber premium volume, improved risk pricing accuracy",
+    "projected_value": "$8,000,000 additional annual revenue",
+    "risk_factors": ["Underwriting losses from complex claims", "Regulatory changes", "Technology integration challenges"]
+  },
+  "decision_criteria": ["Market opportunity size", "Risk-adjusted return potential", "Technology readiness", "Regulatory compliance", "Operational capacity"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder alignment critical for cyber risk expansion, enhanced monitoring frameworks improve decision confidence"
+}

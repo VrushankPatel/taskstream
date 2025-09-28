@@ -1,0 +1,37 @@
+{
+  "scenario_id": "real_estate_sustainable_development_investment_2025",
+  "context": "Real estate development company evaluating green building certification for new mixed-use project",
+  "stakeholders": {
+    "requester": "VP Development",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Project Manager", "Environmental Consultant", "Marketing Director"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Achieve LEED Platinum certification for 200-unit residential and commercial project",
+    "urgency": "medium",
+    "justification": "Market demand for sustainable properties increasing, premium pricing opportunity identified"
+  },
+  "decision_process": [
+    {
+      "stage": "sustainability_assessment",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "Certification requirements review", "Market premium evaluation"],
+      "outcome": "Positive ROI identified with 8% rental premium"
+    },
+    {
+      "stage": "stakeholder_review",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Investor feedback collection", "Regulatory compliance check"],
+      "outcome": "Approved with performance monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% faster lease-up, 8% rental premium, enhanced brand reputation",
+    "projected_value": "$2,500,000 additional revenue over project lifecycle",
+    "risk_factors": ["Construction cost overruns", "Certification delays", "Market demand uncertainty"]
+  },
+  "decision_criteria": ["Financial return on investment", "Market demand for sustainable features", "Regulatory requirements", "Brand enhancement potential", "Construction feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early sustainability integration reduces costs, market premiums justify green certification investments"
+}

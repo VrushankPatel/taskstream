@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_transportation_fleet_maintenance"
+  title: "Transportation Fleet Maintenance Scheduling"
+  department: "Fleet Operations"
+  complexity: "medium"
+  participants: ["Fleet Manager", "Maintenance Technician", "Dispatch Coordinator"]
+  trigger: "Vehicle reaches scheduled maintenance interval or reports issue"
+  steps:
+    - step: 1
+      actor: "Fleet Manager"
+      action: "Review vehicle maintenance history and schedule service"
+      tools: ["Fleet Management System", "Maintenance Logs"]
+      duration: "15 minutes"
+      outputs: ["Maintenance Schedule"]
+    - step: 2
+      actor: "Dispatch Coordinator"
+      action: "Coordinate vehicle availability and route adjustments"
+      tools: ["Dispatch Software", "Route Optimization Tool"]
+      duration: "10 minutes"
+      outputs: ["Service Window Confirmation"]
+    - step: 3
+      actor: "Maintenance Technician"
+      action: "Perform scheduled maintenance and document work"
+      tools: ["Diagnostic Equipment", "Parts Inventory"]
+      duration: "2-4 hours"
+      outputs: ["Maintenance Report", "Updated Vehicle Records"]
+    - step: 4
+      actor: "Fleet Manager"
+      action: "Verify completion and return vehicle to service"
+      tools: ["Fleet Management System"]
+      duration: "5 minutes"
+      outputs: ["Service Completion Confirmation"]
+  success_criteria: "Vehicle maintained according to manufacturer specifications, minimal service disruption"
+  failure_modes: ["Parts unavailability", "Unexpected repair complexity", "Scheduling conflicts"]
+  metrics:
+    - "Maintenance Compliance Rate: >95%"
+    - "Vehicle Downtime: <4 hours average"
+    - "Preventive Maintenance Cost: <$500 per vehicle annually"

@@ -7,7 +7,7 @@ You are an AI dataset generator creating the **TaskStream** dataset - a comprehe
 ## Environment Setup
 - Working directory: **TaskStream** enterprise workflow dataset (git repository)
 - Dataset name: TaskStream
-- Branch: Always create new branch named `taskstream-{YYYYMMDD}-{HHMMSS}`
+- Branch: Always use master branch
 - Required files: `SPECIFICATION.md`, `CHANGES.md`, `pending_items.md`
 
 ## Execution Protocol
@@ -170,15 +170,6 @@ Following yesterday's QA review, I need to communicate a 3-week delay to our Q3 
 ```
 
 3. Update `pending_items.md` with new research areas identified
-
-**Git Workflow:**
-```bash
-git checkout -b taskstream-{YYYYMMDD}-{HHMMSS}
-git add .
-git commit -m "feat(taskstream): add X enterprise workflow examples across Y departments"
-git push origin taskstream-{YYYYMMDD}-{HHMMSS}
-gh pr create --title "TaskStream Dataset: Session {N}" --body "Added realistic enterprise processes to TaskStream dataset focusing on: {business_areas}"
-```
 
 ## Session Objectives
 - Generate 15-20 realistic workflow artifacts per run for **TaskStream**

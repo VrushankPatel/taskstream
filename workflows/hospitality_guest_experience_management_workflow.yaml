@@ -6,35 +6,35 @@ workflow:
   participants: ["Front Desk Agent", "Concierge", "Housekeeping Manager", "Guest Relations Manager"]
   trigger: "Guest checks in"
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Welcome guest and verify reservation"
-      tools: ["Property Management System"]
-      duration: "10 minutes"
-      outputs: ["Room Assignment"]
-    - step: 2
-      actor: "Concierge"
-      action: "Provide local recommendations and amenities information"
-      tools: ["Concierge Database"]
-      duration: "15 minutes"
-      outputs: ["Guest Itinerary"]
-    - step: 3
-      actor: "Housekeeping Manager"
-      action: "Ensure room is prepared and maintain cleanliness standards"
-      tools: ["Housekeeping App"]
-      duration: "Throughout stay"
-      outputs: ["Clean Room Maintenance"]
-    - step: 4
-      actor: "Guest Relations Manager"
-      action: "Monitor guest feedback and handle complaints"
-      tools: ["Feedback System"]
-      duration: "As needed"
-      outputs: ["Resolution Report"]
-   success_criteria: "Guest satisfaction score >4.0/5 with positive feedback on service quality and amenities"
-   failure_modes: ["Room availability issues", "Service delays", "Staff shortages", "Maintenance problems", "Check-in process errors"]
-   metrics:
-     - "Guest satisfaction: >4.0/5"
-     - "Repeat visit rate: >30%"
-     - "Online review rating: >4.2/5"
-     - "Booking conversion rate: >15%"
-     - "Upsell revenue per guest: $45"
+     - step: 1
+       actor: "Front Desk Agent"
+       action: "Welcome guest and verify reservation"
+       tools: ["Property Management System"]
+       duration: "10 minutes"
+       outputs: ["Room Assignment"]
+     - step: 2
+       actor: "Concierge"
+       action: "Provide local recommendations and amenities information"
+       tools: ["Concierge Database"]
+       duration: "15 minutes"
+       outputs: ["Guest Itinerary"]
+     - step: 3
+       actor: "Housekeeping Manager"
+       action: "Ensure room is prepared and maintain cleanliness standards"
+       tools: ["Housekeeping App"]
+       duration: "Throughout stay"
+       outputs: ["Clean Room Maintenance"]
+     - step: 4
+       actor: "Guest Relations Manager"
+       action: "Monitor guest feedback and handle complaints"
+       tools: ["Feedback System"]
+       duration: "As needed"
+       outputs: ["Resolution Report"]
+  success_criteria: "Guest satisfaction score >4.0/5 with positive feedback on service quality and amenities"
+  failure_modes: ["Room availability issues", "Service delays", "Staff shortages", "Maintenance problems", "Check-in process errors"]
+  metrics:
+    - "Guest satisfaction: >4.0/5"
+    - "Repeat visit rate: >30%"
+    - "Online review rating: >4.2/5"
+    - "Booking conversion rate: >15%"
+    - "Upsell revenue per guest: $45"

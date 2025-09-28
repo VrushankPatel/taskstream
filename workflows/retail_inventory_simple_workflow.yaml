@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_retail_inventory_002"
+  title: "Retail Inventory Management Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Associate", "Inventory Clerk"]
+  trigger: "Daily inventory count scheduled"
+  steps:
+    - step: 1
+      actor: "Inventory Clerk"
+      action: "Count physical inventory items"
+      tools: ["Inventory Scanner", "Counting Sheets"]
+      duration: "2 hours"
+      outputs: ["Inventory count sheets"]
+    - step: 2
+      actor: "Inventory Clerk"
+      action: "Enter counts into inventory system"
+      tools: ["Inventory Management Software"]
+      duration: "30 minutes"
+      outputs: ["System inventory update"]
+    - step: 3
+      actor: "Store Associate"
+      action: "Verify discrepancies and adjust records"
+      tools: ["Inventory Management Software"]
+      duration: "15 minutes"
+      outputs: ["Discrepancy report", "Adjusted inventory"]
+  success_criteria: "Inventory accuracy within 2% of system records"
+  failure_modes: ["Counting errors", "System data entry mistakes"]
+  metrics:
+    - "Inventory accuracy: Target >98%"
+    - "Shrinkage rate: Target <1.5%"
+    - "Count completion time: Target <3 hours"

@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_insurance_claims_001"
+  title: "Insurance Claims Processing Process"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Policyholder"]
+  trigger: "Policyholder submits claim via portal or phone"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim submission and verify policy coverage"
+      tools: ["Claims Management System", "Policy Database"]
+      duration: "30 minutes"
+      outputs: ["Initial claim assessment", "Coverage verification"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Investigate claim details and gather evidence"
+      tools: ["Document Management System", "External Data Sources"]
+      duration: "2 hours"
+      outputs: ["Investigation report", "Evidence documentation"]
+    - step: 3
+      actor: "Claims Supervisor"
+      action: "Review investigation and approve settlement amount"
+      tools: ["Claims Management System", "Settlement Calculator"]
+      duration: "1 hour"
+      outputs: ["Settlement approval", "Payment instructions"]
+    - step: 4
+      actor: "Claims Adjuster"
+      action: "Process payment and close claim"
+      tools: ["Payment Processing System", "Claims Management System"]
+      duration: "15 minutes"
+      outputs: ["Payment issued", "Claim closure notification"]
+  success_criteria: "Claim processed within 5 business days, payment accuracy 100%"
+  failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud detection"]
+  metrics:
+    - "Average processing time: Target <5 days"
+    - "Claim accuracy rate: Target >99%"
+    - "Customer satisfaction: Target >4.0/5"

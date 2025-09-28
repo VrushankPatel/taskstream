@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_cyber_coverage_2025",
+  "context": "Insurance company expanding cyber liability product line to address growing demand for ransomware and data breach coverage",
+  "stakeholders": {
+    "requester": "VP of Product Development",
+    "approvers": ["Chief Underwriting Officer", "CEO"],
+    "influencers": ["Chief Risk Officer", "Actuarial Director", "Marketing Director"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "Develop comprehensive cyber liability insurance product including ransomware coverage, data breach response, and regulatory fines protection",
+    "urgency": "high",
+    "justification": "Cyber incidents increased 300% in past 2 years, market demand growing rapidly"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "3 weeks",
+      "activities": ["Competitor analysis", "Customer surveys", "Industry trend assessment"],
+      "outcome": "Identified market gap and pricing strategy"
+    },
+    {
+      "stage": "product_design",
+      "duration": "8 weeks",
+      "activities": ["Coverage development", "Pricing models", "Underwriting guidelines"],
+      "outcome": "Product specifications completed"
+    },
+    {
+      "stage": "launch_approval",
+      "duration": "2 weeks",
+      "activities": ["Risk assessment", "Regulatory review", "Budget finalization"],
+      "outcome": "Approved for Q2 2025 launch"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Capture 5% market share in cyber insurance, $50M premium growth in first year",
+    "projected_value": "$150M cumulative premiums over 5 years",
+    "risk_factors": ["Regulatory changes", "Underwriting losses", "Market saturation"]
+  },
+  "decision_criteria": ["Market potential >$500M", "Loss ratio target <65%", "Time to market <6 months", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Cross-functional collaboration essential for complex insurance products, early regulatory engagement reduces launch delays"
+}

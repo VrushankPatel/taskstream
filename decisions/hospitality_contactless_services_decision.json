@@ -1,0 +1,43 @@
+{
+  "scenario_id": "hospitality_contactless_2025",
+  "context": "Luxury hotel chain implementing contactless services to enhance guest experience and meet post-pandemic expectations",
+  "stakeholders": {
+    "requester": "Director of Guest Experience",
+    "approvers": ["COO", "CFO"],
+    "influencers": ["IT Director", "Operations Manager", "Front Office Manager"]
+  },
+  "request": {
+    "amount": "$320,000",
+    "purpose": "Mobile check-in/check-out, digital room keys, contactless payments, and automated concierge services",
+    "urgency": "high",
+    "justification": "Guest surveys show 70% prefer contactless options, competitors already implementing"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_program",
+      "duration": "1 month",
+      "activities": ["Technology evaluation", "Guest feedback collection", "Staff training assessment"],
+      "outcome": "Pilot successful in 2 properties"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "2 weeks",
+      "activities": ["ROI calculation", "Scalability assessment", "Vendor negotiations"],
+      "outcome": "Positive ROI projected"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "1 week",
+      "activities": ["Budget approval", "Timeline planning", "Change management"],
+      "outcome": "Approved for 12-month rollout across all properties"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% increase in guest satisfaction, 20% reduction in check-in time, improved competitive positioning",
+    "projected_value": "$1.2M additional revenue from higher occupancy and rates",
+    "risk_factors": ["Technology reliability", "Staff adaptation", "Guest privacy concerns"]
+  },
+  "decision_criteria": ["Guest satisfaction improvement >15%", "Implementation cost recovery <2 years", "Staff training completion >95%", "System uptime >99.5%"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for technology adoption, comprehensive training critical for staff buy-in"
+}

@@ -1,0 +1,37 @@
+{
+  "scenario_id": "product_discontinuation_q4_2025",
+  "context": "SaaS company, 500 employees, evaluating legacy product with declining usage",
+  "stakeholders": {
+    "requester": "VP Product",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["VP Engineering", "Head of Customer Success", "VP Sales"]
+  },
+  "request": {
+    "product": "Legacy Analytics Platform",
+    "current_revenue": "$2.1M ARR",
+    "customer_count": 150,
+    "purpose": "Redirect resources to higher-growth products",
+    "urgency": "medium",
+    "justification": "Product has 15% YoY decline, high maintenance costs, customer migration to newer platform"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "2 weeks",
+      "activities": ["Customer impact analysis", "Financial modeling", "Resource reallocation planning"],
+      "outcome": "Proceed with discontinuation plan"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Customer communication planning", "Migration path development", "Support transition"],
+      "outcome": "Approved with migration support"
+    }
+  ],
+  "business_impact": {
+    "revenue_impact": "-$2.1M ARR over 12 months",
+    "cost_savings": "$800K annual maintenance reduction",
+    "resource_reallocation": "15 FTEs to high-growth products",
+    "risk_factors": ["Customer churn during migration", "Competitor advantage", "Brand impact"]
+  }
+}

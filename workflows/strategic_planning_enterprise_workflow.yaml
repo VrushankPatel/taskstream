@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_strategic_planning_enterprise"
+  title: "Annual Strategic Planning Process"
+  department: "Strategy"
+  complexity: "high"
+  participants: ["CEO", "Executive Team", "Department Heads", "Board Members", "External Consultants"]
+  trigger: "Annual planning cycle begins (Q4)"
+  steps:
+    - step: 1
+      actor: "CEO"
+      action: "Define planning objectives and assemble planning team"
+      tools: ["Strategic planning software", "Stakeholder analysis"]
+      duration: "1 week"
+      outputs: ["Planning charter", "Team assignments"]
+    - step: 2
+      actor: "Executive Team"
+      action: "Conduct environmental scanning and market analysis"
+      tools: ["Market research reports", "Competitive intelligence", "SWOT analysis"]
+      duration: "3 weeks"
+      outputs: ["Market assessment", "Competitive landscape", "SWOT analysis"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Develop departmental strategic initiatives"
+      tools: ["Strategy templates", "Financial modeling tools"]
+      duration: "4 weeks"
+      outputs: ["Department plans", "Resource requirements", "ROI projections"]
+    - step: 4
+      actor: "Strategy Team"
+      action: "Integrate departmental plans into corporate strategy"
+      tools: ["Strategy mapping software", "Portfolio analysis"]
+      duration: "2 weeks"
+      outputs: ["Integrated strategy document", "Strategic initiatives portfolio"]
+    - step: 5
+      actor: "Executive Team"
+      action: "Conduct strategy review and refinement workshops"
+      tools: ["Workshop facilitation tools", "Decision frameworks"]
+      duration: "1 week"
+      outputs: ["Refined strategy", "Strategic priorities"]
+    - step: 6
+      actor: "Board Members"
+      action: "Review and approve strategic plan"
+      tools: ["Board materials", "Strategy presentation"]
+      duration: "1 week"
+      outputs: ["Board-approved strategy", "Strategic directives"]
+    - step: 7
+      actor: "Department Heads"
+      action: "Develop implementation plans and KPIs"
+      tools: ["Project management tools", "KPI dashboards"]
+      duration: "3 weeks"
+      outputs: ["Implementation roadmap", "KPI framework", "Success metrics"]
+  success_criteria: "Board-approved strategy with clear implementation plan and measurable objectives"
+  failure_modes: ["Insufficient market analysis", "Poor stakeholder alignment", "Unrealistic objectives"]

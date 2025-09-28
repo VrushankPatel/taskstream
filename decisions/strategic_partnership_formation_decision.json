@@ -1,0 +1,43 @@
+{
+  "scenario_id": "strategic_partnership_formation_q4_2025",
+  "context": "Tech SaaS company, 500 employees, exploring partnership with complementary platform provider",
+  "stakeholders": {
+    "requester": "VP Business Development",
+    "approvers": ["CEO", "CFO", "General Counsel"],
+    "influencers": ["VP Product", "VP Sales", "VP Engineering"]
+  },
+  "request": {
+    "partner": "Data Analytics Platform Company",
+    "partnership_type": "Technology integration and co-selling",
+    "investment": "$2M equity investment + $500K integration costs",
+    "purpose": "Expand product capabilities and market reach",
+    "urgency": "high",
+    "justification": "Partner has 200K users, complementary technology, shared customer base"
+  },
+  "decision_process": [
+    {
+      "stage": "due_diligence",
+      "duration": "4 weeks",
+      "activities": ["Financial audit", "Legal review", "Technical assessment", "Market analysis"],
+      "outcome": "Due diligence completed successfully"
+    },
+    {
+      "stage": "negotiation",
+      "duration": "3 weeks",
+      "activities": ["Term sheet development", "Valuation discussion", "Integration planning"],
+      "outcome": "Partnership terms agreed"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Risk assessment", "Strategic alignment review"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$5M additional ARR in 2 years",
+    "market_expansion": "Access to 50K new potential customers",
+    "cost_savings": "$1M annual through shared infrastructure",
+    "risk_factors": ["Integration challenges", "Cultural misalignment", "Regulatory hurdles"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "nonprofit_digital_transformation_fundraising",
+  "context": "Large environmental nonprofit organization seeking to modernize fundraising operations through comprehensive digital transformation",
+  "stakeholders": {
+    "requester": "Chief Development Officer",
+    "approvers": ["Executive Director", "Board Chair", "Chief Financial Officer"],
+    "influencers": ["Marketing Director", "IT Director", "Program Directors"]
+  },
+  "request": {
+    "amount": "$1,200,000",
+    "purpose": "Implementation of integrated digital fundraising platform and CRM modernization",
+    "urgency": "medium",
+    "justification": "Increase fundraising efficiency and donor engagement to support expanded environmental programs"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "5 weeks",
+      "activities": ["Fundraising process mapping", "Technology assessment", "Donor feedback collection"],
+      "outcome": "Identified critical gaps in digital fundraising capabilities and donor experience"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Platform demonstrations", "Vendor capability assessment", "Integration feasibility analysis"],
+      "outcome": "Selected optimal digital fundraising platform meeting nonprofit requirements"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "3 weeks",
+      "activities": ["Migration strategy development", "Training program design", "Change management planning"],
+      "outcome": "Approved comprehensive implementation plan with allocated budget"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "35% increase in online donations and 40% improvement in donor retention rates",
+    "projected_value": "$3,200,000 in additional program funding over 3 years",
+    "risk_factors": ["Donor data migration challenges", "Staff technology adoption resistance", "Integration with existing systems", "Cost overruns"]
+  },
+  "decision_criteria": ["Fundraising efficiency improvement", "Donor experience enhancement", "Technical integration feasibility", "Cost-benefit analysis", "Staff capability readiness"],
+  "outcome": "Approved",
+  "lessons_learned": "Digital transformation in nonprofits requires extensive change management and ongoing technical support"
+}

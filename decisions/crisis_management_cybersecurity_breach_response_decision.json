@@ -1,0 +1,43 @@
+{
+  "scenario_id": "crisis_management_cybersecurity_breach_response",
+  "context": "Global technology company experiencing critical cybersecurity breach affecting customer data across multiple regions",
+  "stakeholders": {
+    "requester": "Chief Information Security Officer",
+    "approvers": ["CEO", "Chief Risk Officer", "General Counsel"],
+    "influencers": ["Customer Success Director", "IT Director", "Communications Director"]
+  },
+  "request": {
+    "amount": "$3,200,000",
+    "purpose": "Emergency response and breach remediation for cybersecurity incident",
+    "urgency": "critical",
+    "justification": "Prevent further data exposure and restore customer trust from security breach"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_detection",
+      "duration": "2 hours",
+      "activities": ["Security monitoring alert review", "Initial impact assessment", "Stakeholder notification"],
+      "outcome": "Confirmed data breach requiring immediate containment"
+    },
+    {
+      "stage": "containment_planning",
+      "duration": "6 hours",
+      "activities": ["Technical containment strategy", "Legal notification requirements", "Communication plan development"],
+      "outcome": "Comprehensive containment and notification plan approved"
+    },
+    {
+      "stage": "response_execution",
+      "duration": "48 hours",
+      "activities": ["System isolation and recovery", "Affected customer notification", "Regulatory reporting"],
+      "outcome": "Breach contained with minimal additional data exposure"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Contain breach within 48 hours and minimize customer impact and regulatory penalties",
+    "projected_value": "$800,000 in prevented additional losses",
+    "risk_factors": ["Extended breach duration", "Additional data exposure", "Customer churn", "Regulatory fines", "Reputational damage"]
+  },
+  "decision_criteria": ["Technical containment feasibility", "Legal compliance requirements", "Customer impact minimization", "Financial cost assessment", "Reputational risk management"],
+  "outcome": "Approved",
+  "lessons_learned": "Need for enhanced threat detection and automated incident response systems"
+}

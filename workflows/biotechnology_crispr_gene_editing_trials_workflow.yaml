@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_biotechnology_crispr_gene_editing_trials"
+  title: "Biotechnology CRISPR Gene Editing Clinical Trials Implementation"
+  department: "Research & Development"
+  complexity: "complex"
+  participants: ["Chief Scientific Officer", "Clinical Trial Manager", "Regulatory Affairs Specialist", "Bioethics Committee Chair", "Data Safety Monitoring Board", "Patient Recruitment Coordinator"]
+  trigger: "Successful preclinical validation of CRISPR gene editing therapeutic candidate"
+  steps:
+    - step: 1
+      actor: "Chief Scientific Officer"
+      action: "Finalize clinical trial protocol and endpoints based on preclinical data"
+      tools: ["Clinical trial design software", "Statistical analysis tools"]
+      duration: "6 weeks"
+      outputs: ["Clinical trial protocol", "Statistical analysis plan"]
+    - step: 2
+      actor: "Regulatory Affairs Specialist"
+      action: "Prepare and submit IND application to regulatory authorities"
+      tools: ["Regulatory submission software", "Compliance databases"]
+      duration: "8 weeks"
+      outputs: ["IND submission package", "Regulatory correspondence"]
+    - step: 3
+      actor: "Bioethics Committee Chair"
+      action: "Conduct ethical review and obtain institutional review board approval"
+      tools: ["Ethics review frameworks", "IRB submission systems"]
+      duration: "4 weeks"
+      outputs: ["Ethics committee approval", "Informed consent documents"]
+    - step: 4
+      actor: "Clinical Trial Manager"
+      action: "Establish trial sites and vendor relationships for trial execution"
+      tools: ["Clinical trial management systems", "Vendor qualification tools"]
+      duration: "6 weeks"
+      outputs: ["Site selection agreements", "Vendor contracts"]
+    - step: 5
+      actor: "Patient Recruitment Coordinator"
+      action: "Develop and execute patient recruitment strategy"
+      tools: ["Patient database systems", "Recruitment marketing tools"]
+      duration: "8 weeks"
+      outputs: ["Recruitment plan", "Patient enrollment metrics"]
+    - step: 6
+      actor: "Data Safety Monitoring Board"
+      action: "Monitor trial safety data and recommend continuation or modifications"
+      tools: ["Safety monitoring software", "Adverse event reporting systems"]
+      duration: "Ongoing throughout trial"
+      outputs: ["Safety monitoring reports", "Trial modification recommendations"]
+  success_criteria: "Successful IND approval, ethical clearance, and completion of Phase 1 trial within regulatory timelines"
+  failure_modes: ["Regulatory rejection due to safety concerns", "Ethical review delays from bioethics concerns", "Patient recruitment challenges", "Unexpected adverse events requiring trial halt"]
+  metrics:
+    - "IND approval timeline: Within 60 days of submission"
+    - "Patient recruitment rate: 80% of target enrollment"
+    - "Adverse event rate: Below 5% threshold"
+    - "Trial completion rate: 95% retention"
+    - "Regulatory compliance score: 100%"

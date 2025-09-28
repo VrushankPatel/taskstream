@@ -1,0 +1,51 @@
+{
+  "scenario_id": "crisis_ai_failure_response_2025",
+  "context": "AI-powered healthcare diagnostics company experiencing critical system failure affecting patient care delivery",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Medical Officer", "Board Crisis Committee"],
+    "influencers": ["Crisis Management Team", "Patient Safety Officer", "Regulatory Affairs", "Insurance Providers"],
+    "affected_parties": ["Patients and healthcare providers", "Hospital partners", "Regulatory bodies", "Shareholders"]
+  },
+  "request": {
+    "amount": "$5 million",
+    "purpose": "Execute comprehensive crisis response and system recovery plan",
+    "urgency": "critical",
+    "justification": "System failure impacting 200+ hospitals; patient safety at risk; potential regulatory violations and lawsuits"
+  },
+  "decision_process": [
+    {
+      "stage": "immediate_response_activation",
+      "duration": "2 hours",
+      "activities": ["Crisis team assembly", "Technical assessment", "Communication protocols activation"],
+      "outcome": "Crisis command center established; initial impact assessment completed"
+    },
+    {
+      "stage": "technical_investigation",
+      "duration": "6 hours",
+      "activities": ["Root cause analysis", "System isolation", "Backup system activation"],
+      "outcome": "Software bug identified; backup systems online within 4 hours"
+    },
+    {
+      "stage": "stakeholder_communication",
+      "duration": "12 hours",
+      "activities": ["Patient notification protocols", "Hospital partner updates", "Regulatory reporting"],
+      "outcome": "Transparent communication plan executed; no patient harm reported"
+    },
+    {
+      "stage": "recovery_and_prevention",
+      "duration": "1 week",
+      "activities": ["System restoration", "Preventive measures implementation", "Process improvement planning"],
+      "outcome": "Full system recovery achieved; comprehensive prevention plan developed"
+    }
+  ],
+  "business_impact": {
+    "expected_financial_impact": "$15 million (recovery costs + potential settlements)",
+    "reputational_risk": "High - healthcare reliability critical",
+    "risk_factors": ["Extended downtime", "Regulatory penalties", "Partner relationship damage", "Competitive disadvantage"],
+    "strategic_alignment": "Protects core mission of improving patient outcomes through AI"
+  },
+  "decision_outcome": "Approved",
+  "implementation_timeline": "Full recovery within 48 hours",
+  "monitoring_metrics": ["System uptime", "Patient impact assessment", "Regulatory compliance status", "Stakeholder satisfaction"]
+}

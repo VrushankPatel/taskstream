@@ -1,0 +1,51 @@
+{
+  "scenario_id": "energy_carbon_capture_technology_2025",
+  "context": "Energy company evaluating carbon capture utilization and storage (CCUS) investment for existing coal-fired power plant",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board Environmental Committee"],
+    "influencers": ["Chief Technology Officer", "Regulatory Affairs Director", "Environmental NGOs", "Local Government"],
+    "affected_parties": ["Local community", "Environmental groups", "Shareholders", "Competitors"]
+  },
+  "request": {
+    "amount": "$180 million",
+    "purpose": "Install CCUS technology at 500MW coal plant to capture 90% of CO2 emissions",
+    "urgency": "high",
+    "justification": "Regulatory compliance with upcoming emissions standards; positions company as clean energy leader; potential for carbon credit revenue"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_feasibility_study",
+      "duration": "12 weeks",
+      "activities": ["Technology vendor evaluation", "Site engineering assessment", "Integration planning"],
+      "outcome": "Two viable CCUS technologies identified with 85% capture efficiency"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "8 weeks",
+      "activities": ["Cost-benefit analysis", "Carbon credit valuation", "Regulatory incentive assessment"],
+      "outcome": "NPV positive with 12-year payback; $25M annual carbon credit revenue"
+    },
+    {
+      "stage": "regulatory_environmental_review",
+      "duration": "10 weeks",
+      "activities": ["Permit application preparation", "Environmental impact assessment", "Community consultation"],
+      "outcome": "All permits obtainable; community support secured with local job commitments"
+    },
+    {
+      "stage": "board_approval_session",
+      "duration": "3 weeks",
+      "activities": ["Executive presentation", "Board Q&A", "Shareholder communication planning"],
+      "outcome": "Approved with performance milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_emissions_reduction": "2.5 million tons CO2 annually",
+    "projected_revenue": "$35 million (carbon credits + incentives)",
+    "risk_factors": ["Technology performance shortfalls", "Regulatory changes", "Cost overruns", "Community opposition"],
+    "strategic_alignment": "Advances clean energy transition and regulatory compliance strategy"
+  },
+  "decision_outcome": "Approved",
+  "implementation_timeline": "Commissioning in 36 months",
+  "monitoring_metrics": ["CO2 capture efficiency", "Operational costs vs. projections", "Carbon credit revenue", "Regulatory compliance status"]
+}

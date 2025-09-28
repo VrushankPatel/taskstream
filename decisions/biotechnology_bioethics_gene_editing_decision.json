@@ -1,0 +1,51 @@
+{
+  "scenario_id": "biotech_gene_editing_ethics_2025",
+  "context": "Mid-sized biotechnology company developing CRISPR-based gene editing therapies for rare genetic diseases, facing critical decision on clinical advancement",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Board of Directors", "Bioethics Committee Chair"],
+    "influencers": ["Regulatory Affairs Director", "Clinical Development Lead", "Patient Advocacy Groups", "Investors"],
+    "affected_parties": ["Future patients", "Healthcare providers", "Regulatory bodies", "Competitors"]
+  },
+  "request": {
+    "amount": "$85 million",
+    "purpose": "Advance lead gene editing candidate into Phase 1 clinical trials",
+    "urgency": "high",
+    "justification": "Preclinical data shows 80% efficacy in disease models with acceptable safety profile; first-mover advantage in rare disease space"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_ethics_review",
+      "duration": "6 weeks",
+      "activities": ["Bioethics committee consultation", "Patient advocacy group engagement", "Public opinion research"],
+      "outcome": "Conditional approval with enhanced monitoring requirements"
+    },
+    {
+      "stage": "regulatory_strategy_session",
+      "duration": "4 weeks",
+      "activities": ["FDA consultation meetings", "Regulatory pathway analysis", "Competitive landscape assessment"],
+      "outcome": "Orphan drug designation recommended with accelerated approval pathway"
+    },
+    {
+      "stage": "financial_due_diligence",
+      "duration": "3 weeks",
+      "activities": ["Cost-benefit analysis", "Market sizing study", "Investor sentiment assessment"],
+      "outcome": "Positive ROI projection with 65% probability of success"
+    },
+    {
+      "stage": "board_approval_meeting",
+      "duration": "1 week",
+      "activities": ["Executive presentation", "Board Q&A session", "Final vote"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$500 million (5-year projection)",
+    "projected_market_share": "35% in rare disease segment",
+    "risk_factors": ["Regulatory rejection risk", "Ethical controversy", "Technical failure in trials", "Competitor advancement"],
+    "strategic_alignment": "Advances core mission of developing transformative genetic therapies"
+  },
+  "decision_outcome": "Approved",
+  "implementation_timeline": "Phase 1 trials to begin Q2 2026",
+  "monitoring_metrics": ["Clinical trial enrollment rates", "Regulatory milestone achievements", "Ethical compliance scores", "Investor confidence indicators"]
+}

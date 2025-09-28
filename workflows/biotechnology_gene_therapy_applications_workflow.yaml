@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_biotech_gene_therapy_002"
+  title: "Gene Therapy Clinical Development and Commercialization Workflow"
+  department: "Biotechnology Clinical Development"
+  complexity: "high"
+  participants: ["Chief Medical Officer", "Regulatory Affairs Director", "Clinical Operations Lead", "Manufacturing Science Lead", "Commercial Strategy Director", "Patient Advocacy Liaison"]
+  trigger: "Preclinical gene therapy candidate demonstrates therapeutic efficacy"
+  steps:
+    - step: 1
+      actor: "Chief Medical Officer"
+      action: "Design clinical development strategy and trial protocols"
+      tools: ["Clinical trial design software", "Regulatory guidance databases", "Patient registry systems"]
+      duration: "4 months"
+      outputs: ["Clinical development plan", "Phase 1/2 protocol", "Investigator's brochure"]
+      decision_points: ["Indication selection", "Trial design optimization", "Patient population targeting"]
+    - step: 2
+      actor: "Regulatory Affairs Director"
+      action: "Prepare and submit clinical trial applications to regulatory authorities"
+      tools: ["Regulatory submission platforms", "Clinical trial databases", "Ethics committee communication systems"]
+      duration: "6 months"
+      outputs: ["CTA/MAA submissions", "Regulatory meeting packages", "Ethics committee approvals"]
+      decision_points: ["Regulatory pathway selection", "Data requirements assessment", "Accelerated approval eligibility"]
+    - step: 3
+      actor: "Clinical Operations Lead"
+      action: "Execute clinical trials across global sites"
+      tools: ["Clinical trial management systems", "Patient recruitment platforms", "Data monitoring committees"]
+      duration: "24 months"
+      outputs: ["Clinical data packages", "Safety monitoring reports", "Interim analysis results"]
+      decision_points: ["Site selection strategy", "Patient recruitment challenges", "Trial modification needs"]
+    - step: 4
+      actor: "Manufacturing Science Lead"
+      action: "Develop and validate commercial manufacturing process"
+      tools: ["Process development labs", "Quality control systems", "Supply chain analytics"]
+      duration: "18 months"
+      outputs: ["Commercial process validation", "Stability data", "Manufacturing scale-up plan"]
+      decision_points: ["Technology transfer strategy", "Quality specifications", "Supply chain resilience"]
+    - step: 5
+      actor: "Commercial Strategy Director"
+      action: "Develop market access and reimbursement strategy"
+      tools: ["Market research platforms", "Health economics models", "Payer engagement systems"]
+      duration: "12 months"
+      outputs: ["Market access strategy", "Pricing models", "Reimbursement dossiers"]
+      decision_points: ["Pricing strategy selection", "Market access barriers", "Patient access programs"]
+    - step: 6
+      actor: "Patient Advocacy Liaison"
+      action: "Engage patient communities and advocacy groups"
+      tools: ["Patient engagement platforms", "Community outreach programs", "Patient advisory boards"]
+      duration: "Ongoing"
+      outputs: ["Patient input reports", "Community engagement metrics", "Access program feedback"]
+      decision_points: ["Community partnership strategy", "Patient-centric trial design", "Access equity considerations"]
+  success_criteria: "Regulatory approval, successful commercial launch, and patient access achievement"
+  failure_modes: ["Clinical trial setbacks", "Manufacturing failures", "Regulatory rejections", "Market access challenges"]

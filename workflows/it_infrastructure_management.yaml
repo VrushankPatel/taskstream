@@ -23,8 +23,8 @@ workflow:
       action: "Escalate to leadership if needed and coordinate communication"
       tools: ["Status page", "Internal communication channels"]
       duration: "30 minutes"
-       outputs: ["Stakeholder updates", "Post-mortem plan"]
-     - step: 4
+      outputs: ["Stakeholder updates", "Post-mortem plan"]
+    - step: 4
       actor: "Security Team"
       action: "Review for security implications if applicable"
       duration: "2-8 hours"

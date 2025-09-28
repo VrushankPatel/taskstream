@@ -44,3 +44,9 @@ workflow:
       outputs: ["Harvest Plan", "Quality Control Reports"]
   success_criteria: "Yield targets achieved, quality standards met, sustainable practices maintained"
   failure_modes: ["Weather-related losses", "Pest/disease outbreaks", "Equipment failures", "Market price volatility"]
+  metrics:
+    - "Crop yield per acre: Target 200 bushels/acre"
+    - "Production cost per unit: Target <$0.15/lb"
+    - "Quality grade A rating: Target >90%"
+    - "Resource utilization efficiency: Target >85%"
+    - "Sustainable practice compliance: Target 100%"

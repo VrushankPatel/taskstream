@@ -63,3 +63,9 @@ workflow:
       outputs: ["Customer Satisfaction Reports", "Feedback Analysis", "Improvement Recommendations"]
   success_criteria: "20% increase in conversion rate, 15% improvement in customer satisfaction, and positive ROI within 3 months"
   failure_modes: ["Privacy concerns leading to regulatory fines", "Poor algorithm accuracy resulting in irrelevant recommendations", "Technical integration issues causing site performance degradation", "Customer backlash against perceived 'creepiness' of personalization"]
+  metrics:
+    - "Conversion rate improvement: Target 20% increase"
+    - "Customer satisfaction score: Target >4.5/5"
+    - "Personalization accuracy: Target >85% relevance"
+    - "ROI payback period: Target <3 months"
+    - "Privacy compliance rate: Target 100%"

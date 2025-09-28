@@ -42,11 +42,11 @@ workflow:
       tools: ["System monitoring dashboards", "Performance analytics", "Feedback loops"]
       duration: "10 weeks"
       outputs: ["Deployment report", "Optimization recommendations"]
-   success_criteria: "Successful autonomous operation with improved efficiency and quality"
-   failure_modes: ["System reliability issues", "Integration challenges", "Quality degradation"]
-   metrics:
-     - "Production efficiency: Target 25% improvement in throughput"
-     - "System uptime: Target >98% operational availability"
-     - "Quality defect rate: Target <1% reduction in defects"
-     - "ROI payback period: Target <18 months"
-     - "Mean time between failures: Target >500 hours"
+  success_criteria: "Successful autonomous operation with improved efficiency and quality"
+  failure_modes: ["System reliability issues", "Integration challenges", "Quality degradation"]
+  metrics:
+    - "Production efficiency: Target 25% improvement in throughput"
+    - "System uptime: Target >98% operational availability"
+    - "Quality defect rate: Target <1% reduction in defects"
+    - "ROI payback period: Target <18 months"
+    - "Mean time between failures: Target >500 hours"

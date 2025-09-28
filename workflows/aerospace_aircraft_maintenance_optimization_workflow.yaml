@@ -42,11 +42,11 @@ workflow:
       tools: ["FAA/EASA compliance systems", "Audit trails", "Documentation management"]
       duration: "2 hours"
       outputs: ["Airworthiness certificates", "Maintenance completion reports"]
-   success_criteria: "Aircraft returned to service within scheduled timeframe with zero defects"
-   failure_modes: ["Parts unavailability delays", "Unforeseen component failures", "Regulatory compliance issues"]
-   metrics:
-     - "Maintenance completion rate: Target 100% on schedule"
-     - "Mean time between maintenance: Target >200 flight hours"
-     - "Parts availability: Target >95% for scheduled maintenance"
-     - "Regulatory compliance: Target 100% audit pass rate"
-     - "Cost per maintenance hour: Target <$500"
+  success_criteria: "Aircraft returned to service within scheduled timeframe with zero defects"
+  failure_modes: ["Parts unavailability delays", "Unforeseen component failures", "Regulatory compliance issues"]
+  metrics:
+    - "Maintenance completion rate: Target 100% on schedule"
+    - "Mean time between maintenance: Target >200 flight hours"
+    - "Parts availability: Target >95% for scheduled maintenance"
+    - "Regulatory compliance: Target 100% audit pass rate"
+    - "Cost per maintenance hour: Target <$500"

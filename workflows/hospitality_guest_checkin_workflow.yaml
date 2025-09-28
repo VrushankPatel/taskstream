@@ -31,9 +31,12 @@ workflow:
       duration: "3 minutes"
       decision_points: ["VIP status", "Special dietary needs", "Accessibility requirements"]
       outputs: ["Special request confirmations", "Amenity delivery notes"]
-  success_criteria: "Check-in completed within 10 minutes, 100% room readiness, all special requests addressed"
-  failure_modes: ["System outages", "Room not ready", "Payment issues"]
+  success_criteria: "Check-in completed within 10 minutes, 100% room readiness, all special requests addressed, guest profile updated with preferences"
+  failure_modes: ["System outages", "Room not ready", "Payment issues", "ID verification failures", "Key card system malfunctions", "Housekeeping delays", "Special request miscommunication", "Peak hour staffing shortages"]
   metrics:
     - "Average check-in time: Target <8 minutes"
     - "Guest satisfaction score: Target >4.5/5"
     - "Room readiness rate: Target >98%"
+    - "Special request fulfillment rate: Target >95%"
+    - "System uptime: Target >99.9%"
+    - "Repeat guest recognition rate: Target >90%"

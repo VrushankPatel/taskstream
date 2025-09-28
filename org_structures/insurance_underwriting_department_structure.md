@@ -1,8 +1,8 @@
 # Insurance Underwriting Department Structure
 
 ## Executive Leadership
-- **Chief Underwriting Officer**: Department strategy, risk management, regulatory compliance
-- **Underwriting Director**: Operations management, team leadership, performance oversight
+- **Chief Underwriting Officer** (Reports to CEO): Department strategy, risk management, regulatory compliance, portfolio optimization
+- **Underwriting Director** (Reports to CUO): Operations management, team leadership, performance oversight, resource allocation
 
 ## Commercial Lines Division
 - **Commercial Underwriting Manager**: Large account management, complex risk assessment

@@ -6,35 +6,35 @@ workflow:
   participants: ["Store Manager", "Inventory Clerk", "Warehouse Staff"]
   trigger: "Daily inventory count scheduled or stock level alert"
   steps:
-    - step: 1
-      actor: "Inventory Clerk"
-      action: "Conduct physical inventory count using barcode scanner"
-      tools: ["Barcode scanner", "Inventory management software"]
-      duration: "2 hours"
-      outputs: ["Inventory count sheet"]
-    - step: 2
-      actor: "Inventory Clerk"
-      action: "Compare physical count with system records"
-      tools: ["Inventory software", "Spreadsheet"]
-      duration: "30 minutes"
-      outputs: ["Discrepancy report"]
-    - step: 3
-      actor: "Store Manager"
-      action: "Review discrepancies and approve adjustments"
-      tools: ["Inventory software", "Approval system"]
-      duration: "15 minutes"
-      outputs: ["Approved inventory adjustments"]
-    - step: 4
-      actor: "Warehouse Staff"
-      action: "Process stock replenishment orders based on low stock alerts"
-      tools: ["Ordering system", "Supplier portal"]
-      duration: "1 hour"
-      outputs: ["Purchase orders"]
-   success_criteria: "Inventory accuracy within 98%, stock levels maintained above minimum thresholds, process completed within 4 hours of trigger"
-   failure_modes: ["Inaccurate counting leading to stockouts", "System data entry errors", "Delayed supplier responses", "Discrepancy investigation bottlenecks", "Approval delays for adjustments"]
-   metrics:
-     - "Inventory accuracy rate: 98% target"
-     - "Stockout incidents: <5 per month"
-     - "Time to replenish: <24 hours"
-     - "Discrepancy resolution time: <2 hours"
-     - "Process completion rate: >95%"
+  - step: 1
+    actor: "Inventory Clerk"
+    action: "Conduct physical inventory count using barcode scanner"
+    tools: ["Barcode scanner", "Inventory management software"]
+    duration: "2 hours"
+    outputs: ["Inventory count sheet"]
+  - step: 2
+    actor: "Inventory Clerk"
+    action: "Compare physical count with system records"
+    tools: ["Inventory software", "Spreadsheet"]
+    duration: "30 minutes"
+    outputs: ["Discrepancy report"]
+  - step: 3
+    actor: "Store Manager"
+    action: "Review discrepancies and approve adjustments"
+    tools: ["Inventory software", "Approval system"]
+    duration: "15 minutes"
+    outputs: ["Approved inventory adjustments"]
+  - step: 4
+    actor: "Warehouse Staff"
+    action: "Process stock replenishment orders based on low stock alerts"
+    tools: ["Ordering system", "Supplier portal"]
+    duration: "1 hour"
+    outputs: ["Purchase orders"]
+  success_criteria: "Inventory accuracy within 98%, stock levels maintained above minimum thresholds, process completed within 4 hours of trigger"
+  failure_modes: ["Inaccurate counting leading to stockouts", "System data entry errors", "Delayed supplier responses", "Discrepancy investigation bottlenecks", "Approval delays for adjustments"]
+  metrics:
+    - "Inventory accuracy rate: 98% target"
+    - "Stockout incidents: <5 per month"
+    - "Time to replenish: <24 hours"
+    - "Discrepancy resolution time: <2 hours"
+    - "Process completion rate: >95%"

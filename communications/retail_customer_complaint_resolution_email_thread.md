@@ -20,8 +20,46 @@ Customer is requesting full refund plus replacement items. This is our third sim
 Please investigate the source of the quality issues and provide recommendations for resolution.
 
 Best,  
-Alex Thompson  
-Customer Service Manager  
+Alex Thompson
+Customer Service Manager
+
+---
+
+**From:** Quality Assurance Lead
+**To:** Customer Service Manager, Store Manager
+**Subject:** Re: Escalated Customer Complaint - Product Quality Issue - Follow-up Report
+
+Team,
+
+As promised, here's the full quality investigation report for the damaged premium sweaters incident:
+
+**Incident Summary:**
+- Date: October 15, 2024
+- Location: Main Warehouse, Premium Goods Section
+- Affected Items: 3 sweaters from Order #12345
+- Root Cause: Elevated humidity levels (62% vs. target <50%) during storage
+
+**Corrective Actions Implemented:**
+1. Installed additional dehumidifiers in premium storage areas
+2. Enhanced environmental monitoring with automated alerts
+3. Revised storage procedures for high-value items
+4. Conducted staff retraining on handling protocols
+
+**Preventive Measures:**
+- Weekly environmental audits for all storage areas
+- Enhanced packaging requirements for premium merchandise
+- Updated supplier quality specifications
+- Implemented random quality spot checks
+
+**Monitoring Plan:**
+- Track humidity levels daily for next 30 days
+- Monitor customer complaints for similar issues
+- Review quality metrics in monthly operations meetings
+
+This should significantly reduce future occurrences. Please let me know if you need any additional information.
+
+Lisa Chen
+Quality Assurance Lead
 
 ---
 

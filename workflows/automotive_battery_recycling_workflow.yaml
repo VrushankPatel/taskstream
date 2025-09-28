@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_automotive_battery_recycling"
+  title: "Electric Vehicle Battery Recycling Process"
+  department: "Sustainability Operations"
+  complexity: "complex"
+  participants: ["Recycling Manager", "Safety Officer", "Process Engineer", "Environmental Compliance Specialist", "Logistics Coordinator"]
+  trigger: "Receipt of end-of-life EV batteries from dealerships or collection centers"
+  steps:
+    - step: 1
+      actor: "Logistics Coordinator"
+      action: "Receive and inspect incoming battery shipments for safety and documentation compliance"
+      tools: ["Battery management system", "Safety inspection checklist"]
+      duration: "2 days"
+      outputs: ["Battery inventory report", "Safety clearance certificate"]
+    - step: 2
+      actor: "Safety Officer"
+      action: "Conduct risk assessment and establish handling protocols for each battery type"
+      tools: ["Battery risk assessment matrix", "PPE requirements database"]
+      duration: "1 day"
+      outputs: ["Safety handling procedures", "Emergency response plan"]
+    - step: 3
+      actor: "Process Engineer"
+      action: "Analyze battery composition and determine optimal disassembly sequence"
+      tools: ["Battery analysis software", "Disassembly planning tools"]
+      duration: "3 days"
+      outputs: ["Battery composition analysis", "Disassembly workflow"]
+    - step: 4
+      actor: "Recycling Manager"
+      action: "Coordinate controlled discharge and module separation operations"
+      tools: ["Battery discharge equipment", "Module separation tools"]
+      duration: "1 week"
+      outputs: ["Separated battery components", "Material recovery inventory"]
+    - step: 5
+      actor: "Environmental Compliance Specialist"
+      action: "Monitor waste streams and ensure regulatory compliance throughout process"
+      tools: ["Environmental monitoring equipment", "Compliance tracking software"]
+      duration: "Ongoing"
+      outputs: ["Compliance reports", "Waste disposal documentation"]
+    - step: 6
+      actor: "Process Engineer"
+      action: "Oversee material processing and prepare recovered materials for secondary use"
+      tools: ["Material processing equipment", "Quality control systems"]
+      duration: "2 weeks"
+      outputs: ["Recovered materials inventory", "Quality certificates"]
+  success_criteria: "90% material recovery rate achieved with zero safety incidents"
+  failure_modes: ["Battery thermal runaway during handling", "Regulatory non-compliance in waste disposal", "Equipment failure during processing"]
+  metrics:
+    - "Material recovery rate: 85-95%"
+    - "Safety incident rate: Zero tolerance"
+    - "Processing cost per battery: <$200"
+    - "Regulatory compliance score: 100%"

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "hospitality_dynamic_pricing_implementation",
+  "context": "Luxury hotel chain (25 properties) experiencing 60% occupancy rates and increasing competition from short-term rental platforms",
+  "stakeholders": {
+    "requester": "Revenue Manager",
+    "approvers": ["Chief Operating Officer", "Regional Directors"],
+    "influencers": ["Marketing Director", "Property Managers", "Guest Experience Team"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Implement AI-driven dynamic pricing system with real-time market analysis and automated rate adjustments",
+    "urgency": "medium",
+    "justification": "Address 12% revenue decline and improve competitive positioning against online platforms"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "4 weeks",
+      "activities": ["Competitive pricing analysis", "Demand forecasting model development", "Technology vendor assessment"],
+      "outcome": "Clear market opportunity identified"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Single property pilot implementation", "Performance monitoring", "Stakeholder feedback collection"],
+      "outcome": "15% revenue increase in pilot property"
+    },
+    {
+      "stage": "scalability_assessment",
+      "duration": "6 weeks",
+      "activities": ["Multi-property rollout planning", "IT infrastructure requirements", "Change management strategy"],
+      "outcome": "Scalable solution with phased implementation"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "3 weeks",
+      "activities": ["Business case presentation", "Risk assessment review", "ROI projections validation"],
+      "outcome": "Approved with performance guarantees"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% increase in average daily rate and 10% improvement in overall revenue",
+    "projected_value": "$12,000,000 additional annual revenue across portfolio",
+    "risk_factors": ["Guest perception of unfair pricing", "Competitor retaliation", "Technical implementation challenges"]
+  },
+  "decision_criteria": ["Revenue impact potential", "Guest experience preservation", "Competitive advantage", "Implementation complexity", "ROI timeline"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot testing crucial for demonstrating value, transparent communication with guests essential for acceptance"
+}

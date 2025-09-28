@@ -1,0 +1,49 @@
+{
+  "scenario_id": "insurance_parametric_flood_coverage_launch",
+  "context": "Regional insurance company expanding into parametric products to address climate change risks and provide faster claims settlement",
+  "stakeholders": {
+    "requester": "Product Development Director",
+    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer"],
+    "influencers": ["Actuarial Team", "Claims Department", "Regulatory Affairs"]
+  },
+  "request": {
+    "amount": "$3,000,000",
+    "purpose": "Develop and launch parametric flood insurance product using satellite data and weather indices for automated payouts",
+    "urgency": "medium",
+    "justification": "Meet growing demand for climate-resilient insurance solutions and differentiate from traditional indemnity products"
+  },
+  "decision_process": [
+    {
+      "stage": "product_design",
+      "duration": "10 weeks",
+      "activities": ["Index development and calibration", "Pricing model creation", "Regulatory compliance review"],
+      "outcome": "Product specifications finalized"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "16 weeks",
+      "activities": ["Limited market launch in high-risk areas", "Claims processing validation", "Customer feedback collection"],
+      "outcome": "Successful pilot with 95% customer satisfaction"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "6 weeks",
+      "activities": ["Basis risk analysis", "Reinsurance arrangement", "Capital modeling"],
+      "outcome": "Acceptable risk profile established"
+    },
+    {
+      "stage": "market_launch",
+      "duration": "8 weeks",
+      "activities": ["Full product rollout", "Agent training completion", "Marketing campaign execution"],
+      "outcome": "Product launched successfully"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% faster claims settlement and 25% reduction in operational costs",
+    "projected_value": "$15,000,000 in new premium revenue over 3 years",
+    "risk_factors": ["Basis risk leading to underpayment", "Regulatory uncertainty", "Technology platform reliability"]
+  },
+  "decision_criteria": ["Market demand validation", "Claims efficiency improvement", "Risk management framework", "Regulatory approval", "Profitability projections"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement essential for successful adoption, robust technology infrastructure critical for reliability"
+}

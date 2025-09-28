@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_agriculture_crop_rotation"
+  title: "Crop Rotation Planning and Implementation"
+  department: "Agricultural Operations"
+  complexity: "medium"
+  participants: ["Farm Manager", "Agronomist", "Field Supervisor", "Soil Scientist"]
+  trigger: "End of harvest season or soil nutrient depletion indicators"
+  steps:
+    - step: 1
+      actor: "Agronomist"
+      action: "Analyze soil samples and nutrient levels from previous crop cycle"
+      tools: ["Soil testing kit", "Laboratory analysis software"]
+      duration: "2 weeks"
+      outputs: ["Soil health report", "Nutrient deficiency assessment"]
+    - step: 2
+      actor: "Farm Manager"
+      action: "Review historical crop performance data and market demand forecasts"
+      tools: ["Farm management software", "Market analysis reports"]
+      duration: "1 week"
+      outputs: ["Crop selection criteria", "Rotation schedule draft"]
+    - step: 3
+      actor: "Agronomist"
+      action: "Design crop rotation sequence considering soil health, pest management, and biodiversity"
+      tools: ["Crop rotation planning software", "Pest management database"]
+      duration: "3 days"
+      outputs: ["Detailed rotation plan", "Pest control recommendations"]
+    - step: 4
+      actor: "Field Supervisor"
+      action: "Coordinate equipment preparation and seed procurement for next crop cycle"
+      tools: ["Equipment maintenance logs", "Supplier procurement system"]
+      duration: "2 weeks"
+      outputs: ["Equipment readiness report", "Seed procurement order"]
+    - step: 5
+      actor: "Soil Scientist"
+      action: "Validate rotation plan against long-term soil sustainability goals"
+      tools: ["Soil modeling software", "Sustainability assessment framework"]
+      duration: "1 week"
+      outputs: ["Sustainability validation report", "Final rotation approval"]
+  success_criteria: "Soil health improvement of 15% and yield stability maintained"
+  failure_modes: ["Poor soil analysis leading to nutrient imbalances", "Market demand misalignment", "Equipment availability delays"]
+  metrics:
+    - "Soil organic matter increase: 2-3% annually"
+    - "Crop diversity index: Minimum 0.7"
+    - "Pest incidence reduction: 20% year-over-year"

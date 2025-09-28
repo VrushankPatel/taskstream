@@ -1,0 +1,49 @@
+{
+  "scenario_id": "education_adaptive_learning_platform_investment",
+  "context": "Community college system serving 25,000 students facing declining completion rates and budget constraints, considering investment in AI-driven adaptive learning platform",
+  "stakeholders": {
+    "requester": "Academic Dean",
+    "approvers": ["College President", "Board of Trustees"],
+    "influencers": ["Faculty Senate", "IT Director", "Student Government"]
+  },
+  "request": {
+    "amount": "$4,200,000",
+    "purpose": "Implement comprehensive adaptive learning platform with personalized curriculum delivery and predictive analytics for student success",
+    "urgency": "high",
+    "justification": "Address 35% student dropout rate and improve learning outcomes with limited additional faculty resources"
+  },
+  "decision_process": [
+    {
+      "stage": "needs_assessment",
+      "duration": "6 weeks",
+      "activities": ["Student performance data analysis", "Faculty workload assessment", "Technology infrastructure evaluation"],
+      "outcome": "Clear need for personalized learning solutions identified"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Vendor platform demonstrations", "Pilot program design", "Integration feasibility study"],
+      "outcome": "Three platform options shortlisted with detailed comparisons"
+    },
+    {
+      "stage": "faculty_engagement",
+      "duration": "4 weeks",
+      "activities": ["Faculty training sessions", "Curriculum adaptation workshops", "Change management planning"],
+      "outcome": "85% faculty support secured with comprehensive training plan"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Phased rollout strategy", "Success metrics definition", "Risk mitigation planning"],
+      "outcome": "Detailed implementation roadmap approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% improvement in student retention and 20% increase in course completion rates",
+    "projected_value": "$12,000,000 in long-term savings through improved efficiency and reduced remediation needs",
+    "risk_factors": ["Faculty resistance to technology changes", "Student adaptation challenges", "Technical integration complexities"]
+  },
+  "decision_criteria": ["Student outcome improvement potential", "Faculty adoption feasibility", "Cost-benefit ratio", "Scalability across disciplines", "Vendor support and reliability"],
+  "outcome": "Approved",
+  "lessons_learned": "Early faculty involvement and comprehensive change management were critical to successful adoption"
+}

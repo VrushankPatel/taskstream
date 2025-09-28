@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_construction_modular_construction"
+  title: "Modular Construction Implementation Process"
+  department: "Project Management"
+  complexity: "complex"
+  participants: ["Project Manager", "Design Engineer", "Manufacturing Coordinator", "Site Installation Manager", "Quality Control Specialist"]
+  trigger: "Client request for accelerated construction timeline or cost-effective building solution"
+  steps:
+    - step: 1
+      actor: "Project Manager"
+      action: "Evaluate project suitability for modular construction and conduct feasibility analysis"
+      tools: ["Modular construction assessment matrix", "Cost-benefit analysis software"]
+      duration: "2 weeks"
+      outputs: ["Feasibility report", "Preliminary budget estimate"]
+    - step: 2
+      actor: "Design Engineer"
+      action: "Adapt architectural plans for modular manufacturing and transportation constraints"
+      tools: ["BIM software", "Modular design templates"]
+      duration: "4 weeks"
+      outputs: ["Modular design specifications", "Manufacturing drawings"]
+    - step: 3
+      actor: "Manufacturing Coordinator"
+      action: "Select certified modular manufacturer and coordinate production scheduling"
+      tools: ["Supplier database", "Production planning software"]
+      duration: "3 weeks"
+      outputs: ["Manufacturing contract", "Production timeline"]
+    - step: 4
+      actor: "Site Installation Manager"
+      action: "Prepare foundation and site infrastructure for modular unit installation"
+      tools: ["Site preparation checklist", "Foundation engineering plans"]
+      duration: "6 weeks"
+      outputs: ["Site readiness report", "Foundation completion certificate"]
+    - step: 5
+      actor: "Quality Control Specialist"
+      action: "Conduct factory quality inspections and oversee transportation and installation"
+      tools: ["Quality inspection protocols", "Installation monitoring systems"]
+      duration: "8 weeks"
+      outputs: ["Quality assurance reports", "Installation completion documentation"]
+  success_criteria: "Project completed 40% faster than traditional construction with 95% quality compliance"
+  failure_modes: ["Transportation damage during module delivery", "Foundation misalignment causing installation delays", "Weather delays during critical installation phases"]
+  metrics:
+    - "Schedule acceleration: 35-50% time savings"
+    - "Cost variance: ±5% from traditional construction"
+    - "Quality defect rate: <1% of modules"
+    - "Client satisfaction: 4.5/5.0 average rating"

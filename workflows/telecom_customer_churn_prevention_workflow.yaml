@@ -4,7 +4,7 @@ workflow:
   department: "Customer Retention"
   complexity: "medium"
   participants: ["Retention Analyst", "Customer Service Manager", "Account Executive", "Billing Specialist", "Marketing Coordinator"]
-  trigger: "Customer usage decline detected or churn prediction model flags risk"
+   trigger: "Customer usage decline detected or churn prediction model flags risk"
   steps:
     - step: 1
       actor: "Retention Analyst"
@@ -36,8 +36,8 @@ workflow:
       tools: ["Marketing automation platform", "Email campaign system"]
       duration: "15 minutes"
       outputs: ["Retention campaign delivery", "Follow-up schedule"]
-  success_criteria: "Customer retained with improved satisfaction and usage"
-   failure_modes: ["Inadequate intervention", "Poor timing", "Uncompetitive offers", "Communication failures"]
+   success_criteria: "Customer retained with improved satisfaction and usage"
+  failure_modes: ["Inadequate intervention", "Poor timing", "Uncompetitive offers", "Communication failures"]
   metrics:
     - "Churn prevention rate: Target 40% of at-risk customers retained"
     - "Customer lifetime value retention: Target $500 average increase per retained customer"

@@ -4,7 +4,7 @@ workflow:
   department: "Retail Banking"
   complexity: "medium"
   participants: ["Customer Service Representative", "Credit Analyst", "Fraud Prevention Specialist", "Compliance Officer", "Branch Manager"]
-  trigger: "Customer submits credit card application online or in-branch"
+   trigger: "Customer submits credit card application online or in-branch"
   steps:
     - step: 1
       actor: "Customer Service Representative"
@@ -36,8 +36,8 @@ workflow:
       decision_points: ["Credit limit assignment", "APR determination"]
       duration: "30 minutes"
       outputs: ["Approved application", "Card activation details"]
-  success_criteria: "Credit card issued within 7 business days with accurate terms"
-   failure_modes: ["Insufficient credit history", "Fraud suspicion", "Regulatory ineligibility", "Application errors"]
+   success_criteria: "Credit card issued within 7 business days with accurate terms"
+  failure_modes: ["Insufficient credit history", "Fraud suspicion", "Regulatory ineligibility", "Application errors"]
   metrics:
     - "Approval rate: Target 65% of qualified applications approved"
     - "Average processing time: Target <3 business days end-to-end"

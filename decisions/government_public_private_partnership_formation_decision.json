@@ -1,0 +1,40 @@
+{
+  "scenario_id": "gov_ppp_formation_2025",
+  "context": "Municipal government, 50,000 population, seeking infrastructure modernization",
+  "stakeholders": {
+    "requester": "City Infrastructure Director",
+    "approvers": ["City Council", "Mayor"],
+    "influencers": ["Private sector partners", "Community groups", "Environmental agencies"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Smart city infrastructure development",
+    "urgency": "high",
+    "justification": "Address aging infrastructure and improve service delivery"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "3 months",
+      "activities": ["Infrastructure assessment", "Financial modeling", "Partner identification"],
+      "outcome": "Proceed with RFP development"
+    },
+    {
+      "stage": "partner_selection",
+      "duration": "2 months",
+      "activities": ["RFP issuance", "Proposal evaluation", "Due diligence"],
+      "outcome": "Select preferred partner consortium"
+    },
+    {
+      "stage": "negotiation",
+      "duration": "1 month",
+      "activities": ["Contract terms negotiation", "Risk allocation", "Performance metrics definition"],
+      "outcome": "Approved partnership agreement"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Improved infrastructure reliability, enhanced service delivery",
+    "projected_roi": "15% annual efficiency gains",
+    "risk_factors": ["Partner performance risk", "Regulatory changes", "Community opposition"]
+  }
+}

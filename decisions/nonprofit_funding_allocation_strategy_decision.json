@@ -1,0 +1,40 @@
+{
+  "scenario_id": "nonprofit_funding_allocation_2025",
+  "context": "Environmental nonprofit, $5M annual budget, expanding program portfolio",
+  "stakeholders": {
+    "requester": "Program Director",
+    "approvers": ["Executive Director", "Board of Directors"],
+    "influencers": ["Program managers", "Donors", "Community partners"]
+  },
+  "request": {
+    "amount": "$2 million",
+    "purpose": "Climate education and community resilience programs",
+    "urgency": "medium",
+    "justification": "Address growing climate threats and community needs"
+  },
+  "decision_process": [
+    {
+      "stage": "needs_assessment",
+      "duration": "6 weeks",
+      "activities": ["Community surveys", "Impact evaluation", "Resource gap analysis"],
+      "outcome": "Prioritize climate education focus"
+    },
+    {
+      "stage": "budget_modeling",
+      "duration": "4 weeks",
+      "activities": ["Financial projections", "ROI analysis", "Funding source identification"],
+      "outcome": "Develop phased implementation plan"
+    },
+    {
+      "stage": "stakeholder_review",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Donor consultations", "Partner feedback"],
+      "outcome": "Approved with program adjustments"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Enhanced community resilience, increased donor engagement",
+    "projected_roi": "Measurable community impact metrics",
+    "risk_factors": ["Funding uncertainty", "Program execution challenges", "Changing climate priorities"]
+  }
+}

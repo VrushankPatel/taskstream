@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_healthcare_crisis"
+  title: "Healthcare Crisis Management Response"
+  department: "Emergency Management"
+  complexity: "high"
+  participants: ["Crisis Coordinator", "Clinical Director", "Communications Lead", "IT Security", "Legal Counsel"]
+  trigger: "Patient safety incident or external emergency"
+  steps:
+    - step: 1
+      actor: "Crisis Coordinator"
+      action: "Assess incident scope and activate response team"
+      tools: ["Incident reporting system", "Emergency communication protocols"]
+      duration: "30 minutes"
+      outputs: ["Initial assessment report", "Response team activation"]
+    - step: 2
+      actor: "Clinical Director"
+      action: "Evaluate patient safety and clinical response needs"
+      decision_points: ["Patient evacuation required", "Treatment protocol changes"]
+      duration: "2 hours"
+      outputs: ["Clinical impact assessment", "Patient care directives"]
+    - step: 3
+      actor: "Communications Lead"
+      action: "Develop internal and external communication plan"
+      tools: ["Communication templates", "Media monitoring tools"]
+      duration: "4 hours"
+      outputs: ["Communication strategy", "Key message templates"]
+    - step: 4
+      actor: "IT Security"
+      action: "Secure systems and assess cyber threats if applicable"
+      tools: ["Security monitoring tools", "Backup systems"]
+      duration: "6 hours"
+      outputs: ["Security assessment", "System protection measures"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review regulatory reporting requirements"
+      decision_points: ["Mandatory reporting timelines", "Legal liability assessment"]
+      duration: "8 hours"
+      outputs: ["Regulatory compliance plan", "Legal risk evaluation"]
+    - step: 6
+      actor: "Crisis Coordinator"
+      action: "Execute response plan and coordinate recovery"
+      decision_points: ["Escalation to external agencies", "Business continuity measures"]
+      duration: "Variable - days to weeks"
+      outputs: ["Incident resolution report", "Lessons learned document"]
+  success_criteria: "Minimize patient harm and restore normal operations within 48 hours"
+  failure_modes: ["Delayed response activation", "Poor interdepartmental coordination", "Inadequate communication"]

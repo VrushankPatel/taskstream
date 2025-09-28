@@ -1,0 +1,40 @@
+{
+  "scenario_id": "energy_carbon_capture_2025",
+  "context": "Utility company, 2 million customers, pursuing decarbonization goals",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["Board of Directors", "CEO"],
+    "influencers": ["Regulatory agencies", "Environmental groups", "Ratepayer advocates"]
+  },
+  "request": {
+    "amount": "$500 million",
+    "purpose": "Deploy carbon capture technology at coal plants",
+    "urgency": "high",
+    "justification": "Meet regulatory emissions targets and support climate goals"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_assessment",
+      "duration": "6 months",
+      "activities": ["Technology vendor evaluation", "Pilot project analysis", "Cost-benefit modeling"],
+      "outcome": "Select carbon capture technology"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "3 months",
+      "activities": ["Permit application process", "Incentive program analysis", "Compliance requirements"],
+      "outcome": "Secure regulatory approvals"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "2 months",
+      "activities": ["Rate impact assessment", "Funding source identification", "ROI projections"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Reduced carbon emissions, regulatory compliance, enhanced reputation",
+    "projected_roi": "Long-term cost savings through avoided penalties",
+    "risk_factors": ["Technology performance uncertainty", "Cost overruns", "Regulatory changes"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "manufacturing_workforce_automation_q1_2026",
+  "context": "Global manufacturing company, 10,000 employees, facing labor shortages and competitive pressure from automated competitors",
+  "stakeholders": {
+    "requester": "VP Manufacturing Operations",
+    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
+    "influencers": ["Union Representatives", "HR Director", "Safety Compliance Officer"]
+  },
+  "request": {
+    "amount": "$45 million",
+    "purpose": "Automated production line implementation across 3 facilities with workforce transition program",
+    "urgency": "medium",
+    "justification": "Address labor shortages, improve quality consistency, achieve 40% productivity increase"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "6 weeks",
+      "activities": ["Process analysis", "Technology vendor selection", "Pilot program design"],
+      "outcome": "Feasible with phased implementation"
+    },
+    {
+      "stage": "impact_assessment",
+      "duration": "8 weeks",
+      "activities": ["Workforce impact modeling", "Union consultation", "Retraining program design"],
+      "outcome": "Approved with enhanced transition support"
+    },
+    {
+      "stage": "financial_review",
+      "duration": "4 weeks",
+      "activities": ["ROI projections", "Cash flow analysis", "Funding strategy development"],
+      "outcome": "Strong financial case with 3-year payback"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "2 weeks",
+      "activities": ["Final stakeholder alignment", "Contract negotiation", "Timeline establishment"],
+      "outcome": "Full approval with monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_productivity_gain": "40% increase in output",
+    "workforce_transition": "1,200 employees retrained, 800 redeployed",
+    "risk_factors": ["Union relations challenges", "Technology integration delays", "Skills gap in maintenance"]
+  }
+}

@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_streaming_competition"
+  title: "Streaming Platform Competition Strategy and Execution"
+  department: "Content Strategy"
+  complexity: "high"
+  participants: ["Content Strategy Director", "Data Analytics Lead", "Creative Development Team", "Marketing Director", "Partnerships Manager"]
+  trigger: "Competitive threat from new streaming platform or market share erosion"
+  steps:
+    - step: 1
+      actor: "Content Strategy Director"
+      action: "Analyze competitive landscape and identify strategic gaps"
+      tools: ["Market Research Platform", "Competitive Intelligence Tools"]
+      duration: "2-4 weeks"
+      outputs: ["Competitive Analysis Report", "Strategic Gap Assessment"]
+    - step: 2
+      actor: "Data Analytics Lead"
+      action: "Model content performance and viewer preferences"
+      decision_points: ["Original content focus?", "Licensing strategy shift?", "Niche market targeting?"]
+      duration: "3-6 weeks"
+      outputs: ["Content Performance Model", "Viewer Segmentation Analysis"]
+    - step: 3
+      actor: "Creative Development Team"
+      action: "Develop differentiated content slate and marketing campaigns"
+      tools: ["Content Development Pipeline", "Creative Brief Templates"]
+      duration: "2-6 months"
+      outputs: ["Content Development Plan", "Marketing Campaign Strategy"]
+    - step: 4
+      actor: "Marketing Director"
+      action: "Execute targeted marketing and user acquisition campaigns"
+      tools: ["Marketing Automation Platform", "User Acquisition Tools"]
+      duration: "3-12 months"
+      outputs: ["Campaign Performance Reports", "User Acquisition Metrics"]
+    - step: 5
+      actor: "Partnerships Manager"
+      action: "Negotiate exclusive content deals and strategic alliances"
+      tools: ["Contract Management System", "Partnership Database"]
+      duration: "Ongoing"
+      outputs: ["Content Deals Portfolio", "Strategic Alliance Framework"]
+  success_criteria: "Market share growth, improved subscriber retention, competitive differentiation achieved"
+  failure_modes: ["Content development delays", "Marketing budget inefficiencies", "Partnership negotiation failures"]

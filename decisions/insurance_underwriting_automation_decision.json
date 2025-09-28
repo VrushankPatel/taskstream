@@ -1,0 +1,56 @@
+{
+  "scenario_id": "insurance_underwriting_automation_investment_2025",
+  "context": "Property & casualty insurance company facing increasing claims volume and processing backlogs, considering AI-powered underwriting automation to improve efficiency and risk assessment accuracy",
+  "stakeholders": {
+    "requester": "VP Underwriting",
+    "approvers": ["CFO", "Chief Technology Officer", "Chief Risk Officer"],
+    "influencers": ["Underwriting Managers", "IT Director", "Actuarial Team", "Claims Department"]
+  },
+  "request": {
+    "amount": "$3,200,000",
+    "purpose": "Implement AI-powered underwriting automation platform for property and casualty policies",
+    "urgency": "high",
+    "justification": "Current manual underwriting process takes 5-7 days, leading to customer dissatisfaction and lost market share to competitors with automated systems"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "2 weeks",
+      "activities": ["Stakeholder interviews", "Process mapping", "Technology assessment"],
+      "outcome": "Identified 60% of underwriting decisions suitable for automation"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "4 weeks",
+      "activities": ["RFP process", "Vendor demonstrations", "Reference checks", "Technical architecture review"],
+      "outcome": "Selected AI underwriting platform with 94% accuracy in pilot testing"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "8 weeks",
+      "activities": ["Limited rollout in one region", "Performance monitoring", "User training", "Process adjustments"],
+      "outcome": "Achieved 40% reduction in processing time with maintained risk accuracy"
+    },
+    {
+      "stage": "business_case_validation",
+      "duration": "2 weeks",
+      "activities": ["ROI analysis", "Risk assessment", "Scalability planning", "Change management planning"],
+      "outcome": "Projected $2.1M annual savings with 25% capacity increase"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Risk mitigation discussion", "Final investment approval"],
+      "outcome": "Approved for full implementation with 6-month rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduce underwriting processing time by 50%, improve risk assessment accuracy by 15%, increase capacity by 30%",
+    "projected_value": "$2,100,000 annual operational savings through efficiency gains",
+    "risk_factors": ["Technology integration challenges", "Staff resistance to automation", "Regulatory compliance with automated decisions", "Data quality dependencies"],
+    "strategic_benefits": ["Competitive advantage in underwriting speed", "Improved risk selection and pricing", "Enhanced scalability for business growth", "Foundation for advanced analytics capabilities"]
+  },
+  "decision_criteria": ["Processing time reduction >40%", "Risk accuracy maintained/improved", "ROI >300% over 3 years", "Regulatory compliance maintained", "User adoption >80%"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for successful automation adoption, pilot programs essential for validating business case assumptions"
+}

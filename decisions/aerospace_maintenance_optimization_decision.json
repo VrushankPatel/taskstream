@@ -1,0 +1,62 @@
+{
+  "scenario_id": "aerospace_maintenance_optimization_investment_2025",
+  "context": "Commercial airline maintenance division evaluating predictive maintenance technology investment to reduce aircraft downtime and maintenance costs while improving safety",
+  "stakeholders": {
+    "requester": "Director of Maintenance Operations",
+    "approvers": ["Chief Operating Officer", "CFO", "Chief Information Officer"],
+    "influencers": ["Maintenance Managers", "Safety Officers", "IT Infrastructure Team", "Aircraft Manufacturers"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Implement AI-powered predictive maintenance system for fleet optimization",
+    "urgency": "medium",
+    "justification": "Current scheduled maintenance approach results in 12% fleet downtime, costing $280M annually in lost revenue and inefficient maintenance spending"
+  },
+  "decision_process": [
+    {
+      "stage": "maintenance_analysis",
+      "duration": "4 weeks",
+      "activities": ["Fleet maintenance data analysis", "Downtime cost modeling", "Current process mapping", "Technology gap assessment"],
+      "outcome": "Identified $180M annual savings opportunity through optimized maintenance"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Predictive maintenance platform evaluation", "IoT sensor technology assessment", "Data analytics capability review", "Integration requirements analysis"],
+      "outcome": "Selected comprehensive predictive maintenance platform with 85% prediction accuracy"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "12 weeks",
+      "activities": ["Limited deployment on 20 aircraft", "Sensor installation and data collection", "Algorithm training and validation", "Maintenance team training"],
+      "outcome": "Achieved 25% reduction in unscheduled maintenance and 15% decrease in downtime"
+    },
+    {
+      "stage": "roi_validation",
+      "duration": "3 weeks",
+      "activities": ["Cost-benefit analysis", "Scalability assessment", "Risk evaluation", "Implementation roadmap development"],
+      "outcome": "Confirmed 280% ROI with 18-month payback period"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "2 weeks",
+      "activities": ["Safety committee review", "Maintenance team consultation", "Executive presentation", "Change management planning"],
+      "outcome": "Full stakeholder support secured with safety protocols validated"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Board approval", "Budget allocation", "Project kickoff planning"],
+      "outcome": "Approved for fleet-wide implementation over 24 months"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduce fleet downtime by 30%, decrease maintenance costs by 20%, improve aircraft utilization by 8%",
+    "projected_value": "$150,000,000 annual savings through optimized operations",
+    "risk_factors": ["Sensor reliability in harsh conditions", "Data security and privacy concerns", "Staff training and adoption challenges", "Integration with legacy systems"],
+    "strategic_benefits": ["Enhanced safety through proactive maintenance", "Improved operational efficiency", "Competitive advantage in fleet reliability", "Foundation for advanced analytics capabilities"]
+  },
+  "decision_criteria": ["Downtime reduction >20%", "Cost savings >$100M annually", "Safety metrics maintained/improved", "ROI >200%", "Implementation timeline <24 months"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs crucial for validating predictive maintenance effectiveness, safety integration requires extensive stakeholder engagement"
+}

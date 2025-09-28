@@ -42,5 +42,12 @@ workflow:
       tools: ["Action tracking system", "Compliance dashboard"]
       duration: "Ongoing"
       outputs: ["Corrective action reports", "Compliance metrics"]
-  success_criteria: "Audit completed with no material findings"
-  failure_modes: ["Incomplete documentation", "Process non-compliance", "Delayed remediation"]
+   success_criteria: "Audit completed with no material findings"
+   failure_modes: ["Incomplete documentation", "Process non-compliance", "Delayed remediation"]
+   metrics:
+     - "Audit completion rate: Target 100% on schedule"
+     - "Finding resolution time: Target <30 days average"
+     - "Compliance score: Target 98% or higher"
+     - "Documentation completeness: Target 100% coverage"
+     - "Remediation effectiveness: Target 95% sustained compliance"
+     - "Audit cost efficiency: Target 10% cost reduction year-over-year"

@@ -42,5 +42,12 @@ workflow:
       tools: ["Cost Monitoring Tools", "Budget Tracking Systems"]
       duration: "Ongoing monthly reviews"
       outputs: ["Cost Optimization Reports", "Budget Forecasts"]
-  success_criteria: "50% reduction in infrastructure management overhead, 30% improvement in deployment frequency"
-  failure_modes: ["Cold start performance issues", "Vendor lock-in concerns", "Debugging complexity in distributed systems"]
+   success_criteria: "50% reduction in infrastructure management overhead, 30% improvement in deployment frequency"
+   failure_modes: ["Cold start performance issues", "Vendor lock-in concerns", "Debugging complexity in distributed systems"]
+   metrics:
+     - "Infrastructure cost reduction: Target 40% savings"
+     - "Deployment frequency: Target 50% increase"
+     - "Application performance: Target <500ms cold start time"
+     - "System uptime: Target 99.9% availability"
+     - "Development velocity: Target 30% faster feature delivery"
+     - "Cost per transaction: Target 20% reduction"

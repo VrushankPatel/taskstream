@@ -1,25 +1,55 @@
-workflow:
-  id: "workflow_retail_simple_inventory_check"
-  title: "Retail Simple Inventory Check Process"
-  department: "Operations"
-  complexity: "simple"
-  participants: ["Store Associate", "Inventory Manager"]
-  trigger: "Daily inventory verification"
-  steps:
-    - step: 1
-      actor: "Store Associate"
-      action: "Scan shelf items with handheld device"
-      tools: ["Inventory scanner", "Mobile app"]
-      duration: "30 minutes"
-      outputs: ["Inventory count data"]
-    - step: 2
-      actor: "Inventory Manager"
-      action: "Review discrepancies and update system"
-      tools: ["Inventory management system"]
-      duration: "15 minutes"
-      outputs: ["Updated inventory records"]
-  success_criteria: "Inventory accuracy within 2% variance"
-  failure_modes: ["Scanner malfunction", "Manual counting errors"]
-  metrics:
-    - "Inventory accuracy rate: >98%"
-    - "Time per check: <45 minutes"
+name: Retail Simple Inventory Check Workflow
+description: Streamlined daily inventory verification process for retail stores to ensure stock accuracy and prevent stockouts or overstocking
+version: 1.0
+industry: Retail
+region: Global
+complexity: Simple
+actors:
+  - Store Associate
+  - Inventory Manager
+steps:
+  - id: scan_inventory
+    name: Scan Shelf Inventory
+    description: Use handheld scanner to count and verify shelf stock levels
+    actor: Store Associate
+    inputs:
+      - Shelf stock items
+      - Inventory scanner device
+      - Product catalog
+    outputs:
+      - Digital inventory count data
+      - Discrepancy reports
+    duration: 30 minutes
+    tools:
+      - Handheld inventory scanner
+      - Mobile inventory app
+  - id: review_update
+    name: Review and Update Inventory Records
+    description: Analyze scan data, resolve discrepancies, and update central inventory system
+    actor: Inventory Manager
+    inputs:
+      - Inventory count data
+      - Current system records
+      - Discrepancy reports
+    outputs:
+      - Updated inventory database
+      - Discrepancy resolution log
+      - Reorder alerts
+    duration: 15 minutes
+    tools:
+      - Inventory management software
+      - Reporting dashboard
+success_criteria:
+  - Inventory accuracy within 2% variance
+  - All discrepancies resolved within shift
+  - System updated before store closing
+failure_modes:
+  - Scanner battery failure or malfunction
+  - Manual counting errors due to high volume
+  - Network connectivity issues preventing sync
+  - Stock movement during counting
+metrics:
+  - Inventory accuracy rate: >98%
+  - Average time per check: <45 minutes
+  - Discrepancy resolution rate: >95%
+  - System update completion: 100%

@@ -1,37 +1,76 @@
 {
   "scenario_id": "retail_eu_market_expansion_2025",
-  "context": "European retail expansion opportunity for North American fashion retailer",
+  "context": "European retail expansion opportunity for North American fashion retailer seeking to capitalize on growing luxury market demand and established brand recognition",
   "stakeholders": {
     "requester": "VP International Expansion",
-    "approvers": ["CEO", "CFO", "Board"],
-    "influencers": ["EU Market Analyst", "Legal Counsel"]
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["EU Market Analyst", "Legal Counsel", "Head of Operations"],
+    "advisors": ["EU Expansion Consultant", "Local Market Experts"]
   },
   "request": {
     "amount": "$15M",
-    "purpose": "EU market entry and store network establishment",
+    "purpose": "EU market entry and establishment of initial store network in key fashion capitals",
     "urgency": "medium",
-    "justification": "Growing EU luxury market and brand recognition"
+    "justification": "EU luxury fashion market projected to grow 8% annually with strong brand recognition from North American presence"
   },
+  "alternatives": [
+    {
+      "option": "Direct market entry with owned stores",
+      "pros": ["Full control", "Brand consistency", "Higher margins"],
+      "cons": ["High capital investment", "Longer timeline", "Regulatory complexity"],
+      "cost": "$15M",
+      "timeline": "18 months"
+    },
+    {
+      "option": "Partnership with local retailers",
+      "pros": ["Faster entry", "Local expertise", "Lower risk"],
+      "cons": ["Shared control", "Brand dilution", "Lower margins"],
+      "cost": "$5M",
+      "timeline": "6 months"
+    },
+    {
+      "option": "E-commerce only expansion",
+      "pros": ["Lowest investment", "Global reach", "Scalable"],
+      "cons": ["Limited brand experience", "Logistics challenges", "Competition"],
+      "cost": "$3M",
+      "timeline": "3 months"
+    }
+  ],
   "decision_process": [
     {
       "stage": "market_analysis",
       "duration": "2 months",
-      "activities": ["EU market research", "Competitive analysis", "Regulatory review"],
-      "outcome": "Positive market opportunity identified"
+      "activities": ["EU market research", "Competitive analysis", "Regulatory review", "Consumer behavior studies"],
+      "outcome": "Positive market opportunity identified with €120M addressable market"
     },
     {
       "stage": "financial_evaluation",
       "duration": "1 month",
-      "activities": ["ROI modeling", "Cash flow projections", "Risk assessment"],
-      "outcome": "Approved for pilot phase"
+      "activities": ["ROI modeling", "Cash flow projections", "Risk assessment", "Sensitivity analysis"],
+      "outcome": "Approved for pilot phase with 18% projected ROI"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "6 months",
+      "activities": ["Store setup in Paris", "Staff hiring and training", "Marketing campaign", "Performance monitoring"],
+      "outcome": "Successful pilot with 25% above target sales"
     }
   ],
   "business_impact": {
+    "expected_synergies": "$8M in Year 1 from cross-market learning",
+    "market_acceleration": "12 months faster EU presence",
     "expected_outcome": "5-year revenue growth of €50M",
     "projected_value": "$25M NPV",
-    "risk_factors": ["Currency fluctuations", "EU regulatory changes", "Local competition"]
+    "risk_factors": ["Currency fluctuations", "EU regulatory changes", "Local competition", "Cultural adaptation challenges"],
+    "success_factors": ["Local market expertise", "Flexible expansion model", "Strong brand positioning", "Digital integration"]
   },
-  "decision_criteria": ["Market potential >€100M", "ROI >15%", "Regulatory compliance feasible"],
-  "outcome": "Approved",
-  "lessons_learned": "Early local partner engagement critical for EU success"
+  "decision_criteria": ["Market potential >€100M", "ROI >15%", "Regulatory compliance feasible", "Cultural fit assessment", "Pilot scalability"],
+  "outcome": "Approved with pilot phase",
+  "metrics": {
+    "market_penetration": "5% in Year 1",
+    "brand_awareness": "40% increase",
+    "customer_acquisition_cost": "<€50",
+    "return_on_investment": "18%"
+  },
+  "lessons_learned": "Early local partner engagement critical for EU success, pilot testing reduces risk, cultural adaptation requires dedicated resources"
 }

@@ -94,26 +94,26 @@ steps:
       - Cultural competency certificates
       - Communication guidelines
     duration: 1 week
-   - id: evaluate_training_effectiveness
-     name: Training Effectiveness Evaluation
-     description: Assess training impact and identify improvements
-     actor: Training Manager
-     inputs:
-       - Performance metrics
-       - Employee feedback
-       - Customer satisfaction data
-       - Guest review analysis
-     outputs:
-       - Training effectiveness report
-       - Improvement recommendations
-       - Updated training curriculum
-     duration: 1 month post-training
-     tools:
-       - Performance analytics platform
-       - Survey management system
-     decision_points:
-       - condition: Effectiveness score <80%
-         next_step: curriculum_revision
+  - id: evaluate_training_effectiveness
+    name: Training Effectiveness Evaluation
+    description: Assess training impact and identify improvements
+    actor: Training Manager
+    inputs:
+      - Performance metrics
+      - Employee feedback
+      - Customer satisfaction data
+      - Guest review analysis
+    outputs:
+      - Training effectiveness report
+      - Improvement recommendations
+      - Updated training curriculum
+    duration: 1 month post-training
+    tools:
+      - Performance analytics platform
+      - Survey management system
+    decision_points:
+      - condition: Effectiveness score <80%
+        next_step: curriculum_revision
 success_criteria:
   - 95% employee completion rate
   - 85% knowledge retention score

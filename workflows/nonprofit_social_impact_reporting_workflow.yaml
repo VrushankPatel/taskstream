@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_nonprofit_social_impact_reporting"
+  title: "Nonprofit Social Impact Reporting Workflow"
+  department: "Impact Assessment"
+  complexity: "medium"
+  participants: ["Impact Director", "Program Managers", "Data Collection", "Reporting Team", "Stakeholder Relations", "External Auditors"]
+  trigger: "Annual reporting cycle or funder requirement"
+  steps:
+    - step: 1
+      actor: "Impact Director"
+      action: "Define impact metrics and data collection framework"
+      tools: ["Impact measurement framework", "Data collection templates", "KPI dashboards"]
+      duration: "4 weeks"
+      outputs: ["Impact measurement plan", "Data collection protocols"]
+    - step: 2
+      actor: "Program Managers"
+      action: "Collect program data and beneficiary feedback"
+      tools: ["Program management software", "Survey tools", "Beneficiary tracking systems"]
+      duration: "8 weeks"
+      outputs: ["Program data reports", "Beneficiary feedback summaries"]
+    - step: 3
+      actor: "Data Collection"
+      action: "Validate data quality and perform impact analysis"
+      tools: ["Data analysis software", "Statistical tools", "Impact evaluation frameworks"]
+      duration: "6 weeks"
+      outputs: ["Data quality reports", "Impact analysis results"]
+    - step: 4
+      actor: "Reporting Team"
+      action: "Develop comprehensive impact reports and visualizations"
+      tools: ["Reporting software", "Data visualization tools", "Storytelling frameworks"]
+      duration: "4 weeks"
+      outputs: ["Impact reports", "Data visualizations"]
+    - step: 5
+      actor: "Stakeholder Relations"
+      action: "Present reports to funders and stakeholders"
+      tools: ["Presentation platforms", "Stakeholder management system", "Feedback collection tools"]
+      duration: "2 weeks"
+      outputs: ["Presentation materials", "Stakeholder feedback"]
+    - step: 6
+      actor: "External Auditors"
+      action: "Conduct independent verification of impact claims"
+      tools: ["Audit protocols", "Verification frameworks", "Compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Audit reports", "Verification certificates"]
+  success_criteria: "Comprehensive impact report published with stakeholder validation and funder satisfaction"
+  failure_modes: ["Data collection gaps", "Impact measurement errors", "Stakeholder communication issues", "Audit findings"]

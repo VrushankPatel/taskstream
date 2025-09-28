@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_aerospace_maintenance_scheduling"
+  title: "Aerospace Maintenance Scheduling Workflow"
+  department: "Aerospace Operations"
+  complexity: "high"
+  participants: ["Maintenance Manager", "Aircraft Engineers", "Quality Control", "Operations Planning", "Regulatory Compliance"]
+  trigger: "Scheduled maintenance interval reached or unscheduled maintenance required"
+  steps:
+    - step: 1
+      actor: "Maintenance Manager"
+      action: "Review aircraft maintenance history and schedule assessment"
+      tools: ["Maintenance tracking system", "Aircraft logbooks", "Regulatory requirements database"]
+      duration: "2 hours"
+      outputs: ["Maintenance priority assessment", "Resource allocation plan"]
+    - step: 2
+      actor: "Aircraft Engineers"
+      action: "Perform detailed inspection and diagnostic testing"
+      tools: ["Diagnostic equipment", "Non-destructive testing tools", "Technical manuals"]
+      duration: "6 hours"
+      outputs: ["Inspection report", "Parts requirement list"]
+    - step: 3
+      actor: "Operations Planning"
+      action: "Coordinate maintenance slot scheduling with flight operations"
+      tools: ["Fleet scheduling software", "Maintenance hangar booking system"]
+      duration: "4 hours"
+      outputs: ["Maintenance window confirmation", "Flight schedule adjustments"]
+    - step: 4
+      actor: "Quality Control"
+      action: "Verify maintenance procedures and documentation compliance"
+      tools: ["Quality management system", "Regulatory compliance checklists"]
+      duration: "3 hours"
+      outputs: ["Quality assurance report", "Compliance certification"]
+    - step: 5
+      actor: "Regulatory Compliance"
+      action: "Review and approve maintenance records for regulatory submission"
+      tools: ["Regulatory reporting system", "Certification documentation"]
+      duration: "2 hours"
+      outputs: ["Regulatory approval", "Maintenance completion certificate"]
+  success_criteria: "Aircraft returned to service with full regulatory compliance and operational readiness"
+  failure_modes: ["Parts availability delays", "Unexpected damage discovery", "Regulatory documentation errors", "Scheduling conflicts"]

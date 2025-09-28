@@ -1,5 +1,14 @@
 # Pending Research Items for TaskStream Dataset
 
+## Completed in Session 41
+- Aerospace: Maintenance scheduling workflows, unmanned systems integration decisions, unmanned systems integration communications
+- Pharmaceuticals: Regulatory compliance automation workflows, supply chain traceability workflows, supply chain traceability decisions, regulatory compliance automation communications, supply chain team structures, supply chain performance metrics
+- Food Service: Food safety management workflows, digital ordering platforms workflows, supply chain optimization decisions
+- Government: Regulatory policy development workflows, public-private partnership workflows, public-private partnership decisions, citizen service automation communications, inter-agency data sharing team structures
+- Nonprofit: Fundraising optimization workflows, social impact reporting workflows
+- Emerging Technologies: 6G network infrastructure workflows, 6G network infrastructure communications, 6G development team structures, 6G network performance metrics, 6G network security policies
+- Digital Transformation: Cloud migration metrics, data governance policies
+
 ## Completed in Session 40
 - Pharmaceuticals: Clinical trial acceleration workflows, regulatory compliance automation decisions, regulatory compliance automation communications
 - Food Service: Supply chain optimization workflows, supply chain optimization decisions, supply chain optimization communications

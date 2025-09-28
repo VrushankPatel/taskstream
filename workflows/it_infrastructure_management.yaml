@@ -29,5 +29,10 @@ workflow:
       action: "Review for security implications if applicable"
       duration: "2-8 hours"
       outputs: ["Security assessment", "Recommendations"]
-  success_criteria: "System restored with minimal downtime, root cause identified"
-  failure_modes: ["Prolonged outage", "Data loss", "Security breach"]
+   success_criteria: "System restored with minimal downtime, root cause identified"
+   failure_modes: ["Prolonged outage", "Data loss", "Security breach"]
+   metrics:
+     - "Mean time to resolution: <4 hours for critical incidents"
+     - "System uptime: >99.9% monthly availability"
+     - "Incident response accuracy: >95% first-call resolution"
+     - "Post-mortem completion: 100% of major incidents"

@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_047_003"
+  title: "Autonomous Vehicle Fleet Deployment Workflow"
+  department: "Autonomous Operations"
+  complexity: "high"
+  participants: ["Fleet Operations Manager", "Safety Engineers", "IT Infrastructure Team", "Regulatory Compliance Team", "Driver Training Team"]
+  trigger: "Approval for commercial deployment of autonomous vehicle fleet"
+  steps:
+    - step: 1
+      actor: "Fleet Operations Manager"
+      action: "Develop deployment roadmap and resource requirements"
+      tools: ["Fleet management software", "Deployment planning templates"]
+      duration: "2 weeks"
+      outputs: ["Deployment plan", "Resource allocation"]
+    - step: 2
+      actor: "Safety Engineers"
+      action: "Establish safety protocols and emergency response procedures"
+      tools: ["Safety management systems", "Risk assessment tools"]
+      duration: "3 weeks"
+      outputs: ["Safety protocols", "Emergency procedures"]
+    - step: 3
+      actor: "IT Infrastructure Team"
+      action: "Implement fleet monitoring and control systems"
+      tools: ["IoT platforms", "Real-time monitoring dashboards"]
+      duration: "4 weeks"
+      outputs: ["Monitoring infrastructure", "Control systems"]
+    - step: 4
+      actor: "Regulatory Compliance Team"
+      action: "Ensure compliance with local transportation regulations"
+      tools: ["Regulatory databases", "Compliance tracking systems"]
+      duration: "2 weeks"
+      outputs: ["Compliance certifications", "Regulatory approvals"]
+    - step: 5
+      actor: "Driver Training Team"
+      action: "Train operations staff on autonomous fleet management"
+      decision_points: ["Staff competency achieved", "Training effectiveness verified"]
+      tools: ["Training management systems", "Assessment tools"]
+      duration: "3 weeks"
+      outputs: ["Training completion reports", "Competency assessments"]
+  success_criteria: "Autonomous vehicle fleet successfully deployed with full operational capability"
+  failure_modes: ["Safety protocol failures", "Infrastructure reliability issues", "Regulatory non-compliance", "Staff training deficiencies"]

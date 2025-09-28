@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_047_004"
+  title: "Healthcare Genomic Data Privacy Workflow"
+  department: "Data Privacy & Security"
+  complexity: "high"
+  participants: ["Privacy Officers", "Data Security Team", "Clinical Informatics Team", "Legal Counsel", "Research Ethics Committee"]
+  trigger: "Genomic sequencing data generation requiring privacy protection and compliance"
+  steps:
+    - step: 1
+      actor: "Privacy Officers"
+      action: "Assess privacy risks and regulatory requirements for genomic data"
+      tools: ["Privacy impact assessment tools", "Regulatory compliance databases"]
+      duration: "1 week"
+      outputs: ["Privacy risk assessment", "Compliance requirements"]
+    - step: 2
+      actor: "Data Security Team"
+      action: "Implement encryption and access controls for genomic data"
+      tools: ["Encryption systems", "Access management platforms"]
+      duration: "2 weeks"
+      outputs: ["Security implementation plan", "Access control policies"]
+    - step: 3
+      actor: "Clinical Informatics Team"
+      action: "Develop data de-identification and anonymization procedures"
+      tools: ["Data anonymization tools", "Privacy-preserving computation frameworks"]
+      duration: "3 weeks"
+      outputs: ["De-identification protocols", "Anonymization procedures"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Review consent forms and data usage agreements"
+      tools: ["Legal review templates", "Contract management systems"]
+      duration: "1 week"
+      outputs: ["Consent documentation", "Data usage agreements"]
+    - step: 5
+      actor: "Research Ethics Committee"
+      action: "Conduct ethical review of genomic data usage"
+      decision_points: ["Ethical approval granted", "Additional safeguards required"]
+      tools: ["Ethics review frameworks", "Risk-benefit analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Ethical approval", "Additional safeguard requirements"]
+  success_criteria: "Genomic data properly protected with documented privacy and ethical compliance"
+  failure_modes: ["Inadequate de-identification", "Consent form deficiencies", "Security breaches", "Regulatory non-compliance"]

@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_047_005"
+  title: "Manufacturing Sustainable Supply Chain Workflow"
+  department: "Supply Chain Sustainability"
+  complexity: "medium"
+  participants: ["Supply Chain Managers", "Sustainability Officers", "Supplier Relations Team", "Quality Assurance Team", "Procurement Team"]
+  trigger: "Corporate sustainability initiative requiring supply chain transformation"
+  steps:
+    - step: 1
+      actor: "Sustainability Officers"
+      action: "Assess current supply chain environmental impact"
+      tools: ["Sustainability assessment frameworks", "Carbon footprint calculators"]
+      duration: "2 weeks"
+      outputs: ["Impact assessment report", "Sustainability baseline"]
+    - step: 2
+      actor: "Supplier Relations Team"
+      action: "Evaluate supplier sustainability practices and capabilities"
+      tools: ["Supplier assessment questionnaires", "Sustainability rating systems"]
+      duration: "4 weeks"
+      outputs: ["Supplier evaluation reports", "Capability gap analysis"]
+    - step: 3
+      actor: "Procurement Team"
+      action: "Develop sustainable sourcing criteria and contracts"
+      tools: ["Contract templates", "Sustainability clauses"]
+      duration: "3 weeks"
+      outputs: ["Sourcing criteria", "Sustainable contracts"]
+    - step: 4
+      actor: "Supply Chain Managers"
+      action: "Implement traceability and monitoring systems"
+      tools: ["Supply chain visibility platforms", "Blockchain traceability systems"]
+      duration: "6 weeks"
+      outputs: ["Traceability system", "Monitoring dashboards"]
+    - step: 5
+      actor: "Quality Assurance Team"
+      action: "Validate sustainable practices and conduct audits"
+      decision_points: ["Sustainability targets met", "Audit findings acceptable"]
+      tools: ["Audit checklists", "Performance monitoring systems"]
+      duration: "4 weeks"
+      outputs: ["Audit reports", "Improvement recommendations"]
+  success_criteria: "Sustainable supply chain practices implemented with measurable environmental improvements"
+  failure_modes: ["Supplier resistance", "Cost overruns", "Traceability system failures", "Inadequate monitoring"]

@@ -30,9 +30,11 @@ workflow:
       tools: ["Feedback System"]
       duration: "As needed"
       outputs: ["Resolution Report"]
-  success_criteria: "Guest satisfaction score >4.0/5"
-  failure_modes: ["Room availability issues", "Service delays", "Staff shortages"]
-  metrics:
-    - "Guest satisfaction: >4.0/5"
-    - "Repeat visit rate: >30%"
-    - "Online review rating: >4.2/5"
+   success_criteria: "Guest satisfaction score >4.0/5 with positive feedback on service quality and amenities"
+   failure_modes: ["Room availability issues", "Service delays", "Staff shortages", "Maintenance problems", "Check-in process errors"]
+   metrics:
+     - "Guest satisfaction: >4.0/5"
+     - "Repeat visit rate: >30%"
+     - "Online review rating: >4.2/5"
+     - "Booking conversion rate: >15%"
+     - "Upsell revenue per guest: $45"

@@ -60,13 +60,14 @@
 
 **Action Items & Owners:**  
 
-| Action Item | Owner | Timeline | Success Metric |  
-|-------------|-------|----------|----------------|  
-| Launch immediate promotions | Sarah Martinez | Within 1 week | 20% booking increase |  
-| Corporate account reactivation | Michael Wong | 2 weeks | 50 meetings scheduled |  
-| Cost reduction implementation | Jennifer Lopez | Ongoing | $45K monthly savings |  
-| Marketing campaign execution | Michael Wong | 2 weeks | 25% website traffic increase |  
-| Staff training program | Lisa Thompson | 1 month | 90% cross-training completion |  
+ | Action Item | Owner | Timeline | Success Metric | Budget Allocation |
+ |-------------|-------|----------|----------------|------------------|
+ | Launch immediate promotions | Sarah Martinez | Within 1 week | 20% booking increase | $25K marketing spend |
+ | Corporate account reactivation | Michael Wong | 2 weeks | 50 meetings scheduled | $10K entertainment budget |
+ | Cost reduction implementation | Jennifer Lopez | Ongoing | $45K monthly savings | N/A |
+ | Marketing campaign execution | Michael Wong | 2 weeks | 25% website traffic increase | $35K digital advertising |
+ | Staff training program | Lisa Thompson | 1 month | 90% cross-training completion | $15K training costs |
+ | Renovation planning | David Chen | 3 months | 40 rooms completed | $500K capital budget |
 
 **Risk Mitigation:**  
 - Monitor competitor responses to our promotions  

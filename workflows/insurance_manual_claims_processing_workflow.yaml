@@ -6,18 +6,18 @@ workflow:
   participants: ["Claims Adjuster", "Underwriter", "Investigator", "Claims Manager", "Legal Counsel"]
   trigger: "Policyholder submits claim"
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review claim documentation and verify policy coverage"
-      tools: ["Claims Management System", "Policy Database"]
-      duration: "2 hours"
-      outputs: ["Initial Assessment Report"]
-    - step: 2
-      actor: "Investigator"
-      action: "Conduct field investigation if required"
-      tools: ["Investigation Tools", "Documentation Software"]
-      duration: "1-3 days"
-      outputs: ["Investigation Report"]
+     - step: 1
+       actor: "Claims Adjuster"
+       action: "Review claim documentation, verify policy coverage, and assess initial claim validity"
+       tools: ["Claims Management System", "Policy Database", "Fraud Detection Software"]
+       duration: "2-4 hours"
+       outputs: ["Initial Assessment Report", "Fraud Risk Score"]
+     - step: 2
+       actor: "Investigator"
+       action: "Conduct field investigation including site visits, witness interviews, and evidence collection"
+       tools: ["Investigation Tools", "Documentation Software", "Digital Photography Equipment"]
+       duration: "1-5 days"
+       outputs: ["Investigation Report", "Supporting Documentation"]
     - step: 3
       actor: "Underwriter"
       action: "Assess claim validity and calculate settlement amount"

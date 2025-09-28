@@ -1,8 +1,8 @@
 workflow:
-  id: "workflow_aerospace_uas_integration"
+  id: "workflow_aerospace_unmanned_aerial_systems_integration"
   title: "Unmanned Aerial Systems Integration Workflow"
   department: "Aerospace Operations"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Chief Technology Officer", "Aerospace Engineers", "Regulatory Compliance Officer", "Safety Managers", "Operations Managers"]
   trigger: "New UAS technology acquisition or regulatory requirement"
   steps:
@@ -44,3 +44,4 @@ workflow:
       outputs: ["Validation test results", "System deployment confirmation"]
   success_criteria: "UAS systems successfully integrated with full regulatory compliance and operational safety"
   failure_modes: ["Regulatory non-compliance delays", "Technical integration failures", "Insufficient safety protocols", "Training program inadequacies"]
+  metrics: ["Integration completion time: Target <4 months", "Regulatory compliance pass rate: Target 100%", "System safety incidents: Target 0", "System uptime: Target 99.9%", "Operator certification rate: Target 100%"]

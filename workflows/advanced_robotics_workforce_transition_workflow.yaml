@@ -1,5 +1,5 @@
 workflow:
-  id: "advanced_robotics_workforce_transition_workflow"
+  id: "workflow_advanced_robotics_workforce_transition"
   title: "Advanced Robotics Workforce Transition Workflow"
   department: "Manufacturing Operations"
   complexity: "medium"
@@ -38,3 +38,4 @@ workflow:
       outputs: ["Cost tracking reports", "ROI analysis", "Budget adjustments"]
   success_criteria: "Workforce successfully transitioned with minimal disruption"
   failure_modes: ["Resistance to change", "Skills mismatch", "Union disputes"]
+  metrics: ["Transition completion rate: Target 100%", "Retraining program completion: Target 95%", "Productivity impact: Target <10% temporary drop", "Employee satisfaction: Target 4.0/5", "Transition cost per employee: Target <15% annual salary"]

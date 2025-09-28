@@ -1,0 +1,40 @@
+{
+  "scenario_id": "banking_digital_transformation_q4_2025",
+  "context": "Regional bank with 50 branches, $2B assets, facing declining branch traffic and increasing fintech competition",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Retail Banking", "IT Director", "Customer Experience Lead"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Digital banking platform overhaul including mobile app redesign, API modernization, and AI-powered customer service",
+    "urgency": "high",
+    "justification": "Market share erosion to digital-first competitors, 40% decline in branch transactions over 3 years"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "4 weeks",
+      "activities": ["Vendor evaluation", "Technical architecture review", "ROI modeling"],
+      "outcome": "Approved for pilot phase with reduced scope"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "3 months",
+      "activities": ["Mobile app MVP launch", "API integration testing", "User acceptance testing"],
+      "outcome": "Successful pilot with 35% increase in digital engagement"
+    },
+    {
+      "stage": "full_rollout_decision",
+      "duration": "2 weeks",
+      "activities": ["Pilot metrics review", "Risk assessment", "Budget reallocation"],
+      "outcome": "Full implementation approved with phased approach"
+    }
+  ],
+  "business_impact": {
+    "expected_digital_adoption": "60% of customers using digital channels within 18 months",
+    "projected_cost_savings": "$8,000,000 annually in operational efficiencies",
+    "risk_factors": ["Legacy system integration challenges", "Customer adoption resistance", "Cybersecurity vulnerabilities"]
+  }
+}

@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_sales_lead_nurturing"
+  title: "Sales Lead Nurturing and Qualification Process"
+  department: "Sales"
+  complexity: "medium"
+  participants: ["Sales Development Rep", "Account Executive", "Marketing Team", "Sales Manager"]
+  trigger: "New lead enters CRM from marketing campaign or inbound inquiry"
+  steps:
+    - step: 1
+      actor: "Sales Development Rep"
+      action: "Lead scoring and initial qualification"
+      tools: ["CRM System", "Lead Scoring Model"]
+      duration: "30 minutes"
+      decision_points: ["Budget Authority", "Timeline", "Need Recognition"]
+    - step: 2
+      actor: "Sales Development Rep"
+      action: "Initial outreach and response handling"
+      tools: ["Email Platform", "Phone System", "Social Media"]
+      duration: "1-3 days"
+      outputs: ["Contact Attempts Log", "Lead Response"]
+    - step: 3
+      actor: "Sales Development Rep"
+      action: "Discovery call and needs assessment"
+      tools: ["Video Conferencing", "CRM Notes"]
+      duration: "30 minutes"
+      outputs: ["Discovery Notes", "Lead Qualification Score"]
+    - step: 4
+      actor: "Account Executive"
+      action: "Product demonstration and value proposition"
+      tools: ["Demo Platform", "Proposal Templates"]
+      duration: "1 hour"
+      outputs: ["Demo Feedback", "Custom Proposal"]
+    - step: 5
+      actor: "Account Executive"
+      action: "Handle objections and negotiate terms"
+      tools: ["Negotiation Playbook", "Contract Templates"]
+      duration: "Multiple sessions over 1-2 weeks"
+      outputs: ["Objection Handling Notes", "Term Sheet"]
+    - step: 6
+      actor: "Sales Manager"
+      action: "Review deal progress and provide coaching"
+      tools: ["Sales Dashboard", "Deal Review Templates"]
+      duration: "30 minutes weekly"
+      decision_points: ["Deal Progression", "Discount Approvals"]
+    - step: 7
+      actor: "Account Executive"
+      action: "Close deal and handoff to customer success"
+      tools: ["Contract Management System"]
+      duration: "1 day"
+      outputs: ["Signed Contract", "Customer Success Handoff"]
+  success_criteria: "Lead converted to customer within 90-day sales cycle"
+  failure_modes: ["Poor lead quality", "Inadequate follow-up", "Pricing objections", "Competitor interference"]

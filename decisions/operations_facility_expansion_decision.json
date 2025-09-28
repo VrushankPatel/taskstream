@@ -1,0 +1,46 @@
+{
+  "scenario_id": "operations_facility_expansion_2026",
+  "context": "Manufacturing company, 800 employees, facing capacity constraints and supply chain disruptions",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Head of Supply Chain", "Facilities Manager", "Environmental Health & Safety Director"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Construct 200,000 sq ft expansion to existing facility including automated production lines",
+    "urgency": "high",
+    "justification": "Current capacity at 95% utilization, customer delivery delays averaging 2 weeks, projected 40% revenue growth"
+  },
+  "decision_process": [
+    {
+      "stage": "capacity_analysis",
+      "duration": "4 weeks",
+      "activities": ["Production bottleneck identification", "Demand forecasting", "Site selection evaluation"],
+      "outcome": "Confirmed need for 150,000 sq ft expansion with automation focus"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["ROI analysis", "Cash flow projections", "Financing options evaluation"],
+      "outcome": "Projected 15% IRR with 5-year payback period"
+    },
+    {
+      "stage": "regulatory_approvals",
+      "duration": "8 weeks",
+      "activities": ["Environmental impact assessment", "Zoning approvals", "Permit acquisition"],
+      "outcome": "All permits secured with minor environmental mitigation requirements"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Due diligence review", "Contractor selection"],
+      "outcome": "Approved with construction start in Q3 2026"
+    }
+  ],
+  "business_impact": {
+    "expected_capacity_increase": "60% additional production capacity",
+    "projected_revenue_growth": "$80,000,000 additional annual revenue",
+    "risk_factors": ["Construction delays", "Equipment integration challenges", "Labor market constraints"]
+  }
+}

@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_insurance_parametric_underwriting"
+  title: "Parametric Insurance Underwriting Workflow"
+  department: "Underwriting Operations"
+  complexity: "medium"
+  participants: ["Underwriting Manager", "Risk Analyst", "Data Scientist", "Actuary", "Legal Review Specialist"]
+  trigger: "New parametric insurance product request or market opportunity identification"
+  steps:
+    - step: 1
+      actor: "Underwriting Manager"
+      action: "Evaluate product concept and market potential"
+      tools: ["Market analysis tools", "Competitor research database"]
+      duration: "1 week"
+      outputs: ["Product feasibility report", "Market opportunity assessment"]
+    - step: 2
+      actor: "Data Scientist"
+      action: "Develop parametric triggers and data models for risk assessment"
+      tools: ["Data analytics platform", "Statistical modeling software"]
+      duration: "3 weeks"
+      outputs: ["Parametric trigger definitions", "Risk modeling algorithms", "Data validation reports"]
+    - step: 3
+      actor: "Actuary"
+      action: "Calculate pricing models and risk-adjusted premiums"
+      tools: ["Actuarial software", "Pricing models"]
+      duration: "2 weeks"
+      outputs: ["Pricing structure document", "Risk premium calculations", "Profitability projections"]
+    - step: 4
+      actor: "Risk Analyst"
+      action: "Conduct scenario testing and stress testing of parametric triggers"
+      tools: ["Risk simulation software", "Historical data sets"]
+      duration: "2 weeks"
+      outputs: ["Stress test results", "Scenario analysis reports", "Risk mitigation recommendations"]
+    - step: 5
+      actor: "Legal Review Specialist"
+      action: "Review contract terms and regulatory compliance"
+      tools: ["Legal compliance database", "Contract templates"]
+      duration: "1 week"
+      outputs: ["Legal compliance review", "Contract documentation"]
+  success_criteria: "Product launched with accurate parametric triggers, competitive pricing, and regulatory approval"
+  failure_modes: ["Inaccurate parametric triggers leading to improper payouts", "Regulatory non-compliance", "Pricing model errors", "Data quality issues"]
+  metrics:
+    - "Claim Accuracy Rate: 98% target"
+    - "Time to Underwrite: <2 weeks average"
+    - "Product Profitability: 15% margin target"
+    - "Regulatory Compliance Score: 100%"
+    - "Customer Satisfaction: 4.5/5 rating"
+    - "Market Share Growth: 5% quarterly"

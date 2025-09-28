@@ -1,0 +1,43 @@
+{
+  "scenario_id": "banking_crisis_management_2025",
+  "context": "Major regional bank facing potential bank run due to negative media coverage and economic uncertainty",
+  "stakeholders": {
+    "requester": "CFO",
+    "approvers": ["CEO", "Board Chair", "Regulatory Liaison"],
+    "influencers": ["Head of Communications", "Chief Risk Officer", "Head of Retail Banking"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Emergency liquidity management and customer reassurance campaign",
+    "urgency": "critical",
+    "justification": "Prevent bank run and maintain depositor confidence during economic uncertainty"
+  },
+  "decision_process": [
+    {
+      "stage": "crisis_assessment",
+      "duration": "4 hours",
+      "activities": ["Emergency board meeting", "Liquidity position analysis", "Regulatory consultation"],
+      "outcome": "Crisis confirmed, immediate action required"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "6 hours",
+      "activities": ["Internal communications", "Regulatory notifications", "Customer impact assessment"],
+      "outcome": "Unified crisis response strategy developed"
+    },
+    {
+      "stage": "resource_allocation",
+      "duration": "12 hours",
+      "activities": ["Budget reallocation", "Vendor emergency contracts", "Staff mobilization"],
+      "outcome": "Resources committed to crisis management"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Bank run prevented, depositor confidence maintained",
+    "projected_value": "$200,000,000 in prevented losses",
+    "risk_factors": ["Media escalation", "Regulatory intervention", "Competitor advantage"]
+  },
+  "decision_criteria": ["Depositor protection priority", "Regulatory compliance requirements", "Financial stability maintenance", "Long-term reputation impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Need for proactive crisis communication protocols and emergency liquidity reserves"
+}

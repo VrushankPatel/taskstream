@@ -1,0 +1,49 @@
+{
+  "scenario_id": "aerospace_space_tourism_operations_expansion_2025",
+  "context": "Aerospace company considering expansion into commercial space tourism operations",
+  "stakeholders": {
+    "requester": "VP of Commercial Operations",
+    "approvers": ["CEO", "Board of Directors", "Chief Safety Officer"],
+    "influencers": ["Head of Engineering", "Legal Counsel", "NASA Liaison", "Insurance Partners"]
+  },
+  "request": {
+    "amount": "$500,000,000",
+    "purpose": "Develop and launch commercial space tourism service using existing suborbital technology",
+    "urgency": "medium",
+    "justification": "Capitalize on growing space tourism market and diversify revenue streams beyond government contracts"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Market research", "Competitor analysis", "Customer demand surveys"],
+      "outcome": "Identified $5B market opportunity with 20% annual growth"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "8 weeks",
+      "activities": ["Safety certification review", "Vehicle modification assessment", "Regulatory compliance evaluation"],
+      "outcome": "Feasible with existing technology platform, additional safety certifications required"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Revenue projections", "Cost analysis", "Risk-adjusted ROI calculations"],
+      "outcome": "15% IRR projected over 10 years with break-even in year 5"
+    },
+    {
+      "stage": "partnership_development",
+      "duration": "12 weeks",
+      "activities": ["Insurance partner negotiations", "Regulatory agency discussions", "Marketing partner identification"],
+      "outcome": "Strategic partnerships secured with major insurance and tourism companies"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream established, brand enhancement in commercial space sector",
+    "projected_value": "$2,000,000,000 in cumulative revenue over 10 years",
+    "risk_factors": ["Safety incidents", "Regulatory delays", "Market demand uncertainty", "Technology obsolescence"]
+  },
+  "decision_criteria": ["Market opportunity size", "Technical feasibility with existing assets", "Financial returns vs. risk", "Regulatory and safety compliance", "Brand alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Space tourism requires extensive safety protocols and insurance partnerships beyond traditional aerospace operations"
+}

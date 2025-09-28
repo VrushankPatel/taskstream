@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_climate_risk_modeling_2025",
+  "context": "Insurance company evaluating investment in advanced climate risk modeling for property insurance underwriting",
+  "stakeholders": {
+    "requester": "Chief Underwriting Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Data Science", "Head of Sustainability", "External Climate Experts"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Implement AI-driven climate risk modeling platform for accurate property risk assessment",
+    "urgency": "high",
+    "justification": "Address increasing climate-related claims and regulatory requirements for sustainable underwriting"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "3 weeks",
+      "activities": ["Vendor evaluation", "ROI modeling", "Regulatory impact assessment"],
+      "outcome": "Strong business case identified with 25% ROI projected"
+    },
+    {
+      "stage": "pilot_programming",
+      "duration": "8 weeks",
+      "activities": ["Pilot implementation", "Model validation", "Stakeholder training"],
+      "outcome": "Successful pilot with 30% improvement in risk accuracy"
+    },
+    {
+      "stage": "full_implementation",
+      "duration": "6 months",
+      "activities": ["System integration", "Staff training", "Process optimization"],
+      "outcome": "Full deployment across property underwriting division"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved underwriting accuracy, reduced climate-related losses, enhanced regulatory compliance",
+    "projected_value": "$75,000,000 in prevented losses over 5 years",
+    "risk_factors": ["Technology integration challenges", "Data quality issues", "Regulatory changes"]
+  },
+  "decision_criteria": ["Financial ROI potential", "Regulatory compliance improvement", "Competitive advantage in sustainable insurance", "Technical feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early investment in climate risk modeling provides significant competitive advantage in emerging regulatory landscape"
+}

@@ -64,6 +64,14 @@ This dashboard tracks customer behavior across all retail touchpoints to optimiz
 - **Order Fulfillment Time**: 2.1 days average (Target: 1.8 days)
 - **Shipping Cost as % of Revenue**: 4.2% (Target: <4%)
 - **Return Processing Time**: 3.2 days (Target: <2 days)
+- **Warehouse Productivity**: 98% (Target: >95%)
+- **Last-Mile Delivery Success Rate**: 97% (Target: >98%)
+
+### **Customer Support Metrics**
+- **Average Response Time**: 2.3 hours (Target: <2 hours)
+- **First Contact Resolution**: 78% (Target: >80%)
+- **Customer Effort Score**: 3.8/5 (Target: >4.0)
+- **Self-Service Adoption**: 45% (Target: >50%)
 
 ## Trend Analysis
 - **YoY Growth**: Overall conversions +12%, digital channels +28%

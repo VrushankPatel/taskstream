@@ -101,6 +101,17 @@
   - Predictive maintenance modeling
   - Performance optimization
   - Reporting and dashboards
+  - IoT data processing and analytics
+  - Machine learning for grid optimization
+
+### **Cybersecurity Specialist**
+- Ensures grid cybersecurity
+- Manages 4 security analysts
+- Key responsibilities:
+  - Threat monitoring and response
+  - Security assessments
+  - Compliance with NERC CIP standards
+  - Incident response coordination
 
 ## Key Performance Indicators
 - Grid reliability: > 99.99% uptime

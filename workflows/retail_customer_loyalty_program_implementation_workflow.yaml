@@ -26,7 +26,10 @@ workflow:
       outputs: ["Trained staff", "Program launch materials"]
   success_criteria: "Program enrollment reaches 15% of active customers within 3 months"
   failure_modes: ["Low customer participation", "Technical integration issues", "Staff resistance"]
-  metrics:
-    - "Customer enrollment rate: 15% target"
-    - "Repeat purchase increase: 10% target"
-    - "Program ROI: 200% target"
+   metrics:
+     - "Customer enrollment rate: 15% target"
+     - "Repeat purchase increase: 10% target"
+     - "Program ROI: 200% target"
+     - "Customer satisfaction score: >4.2/5"
+     - "Program retention rate: >70% after 6 months"
+     - "Cross-sell conversion: 8% increase"

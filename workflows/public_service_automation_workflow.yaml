@@ -2,7 +2,7 @@ workflow:
   id: "workflow_public_service_automation"
   title: "Public Service Automation Process"
   department: "Government Operations"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Service Director", "IT Project Manager", "Legal Counsel", "Citizen Services Manager", "Data Privacy Officer"]
   trigger: "Service request volume exceeds manual processing capacity by 50%"
   steps:
@@ -50,3 +50,10 @@ workflow:
       outputs: ["Service automation rollout"]
   success_criteria: "Processing time reduced by 70%, citizen satisfaction score above 4.5/5"
   failure_modes: ["Technical integration failures with legacy systems", "Legal challenges to automated decision-making", "Staff resistance to technology changes"]
+  metrics:
+    - "Processing time reduction: Target >70% improvement"
+    - "Citizen satisfaction score: Target >4.5/5.0"
+    - "Error rate reduction: Target <50% of manual process"
+    - "Service availability: Target >99.5% uptime"
+    - "Cost per transaction: Target 60% reduction"
+    - "Staff productivity: Target >200% increase"

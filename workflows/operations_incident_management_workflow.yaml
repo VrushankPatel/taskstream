@@ -42,12 +42,12 @@ workflow:
       tools: ["Incident Retrospective Template"]
       duration: "2 hours"
       outputs: ["Incident Report", "Improvement Actions"]
-   success_criteria: "Incident resolved within SLA, minimal business impact, lessons documented"
-   failure_modes: ["Delayed detection", "Inadequate response resources", "Poor communication", "Recurring incidents"]
-   metrics:
-     - "Mean time to resolution: Target <4 hours for critical incidents"
-     - "Incident detection time: Target <15 minutes average"
-     - "Customer impact duration: Target <2 hours downtime"
-     - "First call resolution: Target 80% of incidents"
-     - "Recurring incident rate: Target <5% of total incidents"
-     - "Post-incident review completion: Target 100% of incidents"
+  success_criteria: "Incident resolved within SLA, minimal business impact, lessons documented"
+  failure_modes: ["Delayed detection", "Inadequate response resources", "Poor communication", "Recurring incidents"]
+  metrics:
+    - "Mean time to resolution: Target <4 hours for critical incidents"
+    - "Incident detection time: Target <15 minutes average"
+    - "Customer impact duration: Target <2 hours downtime"
+    - "First call resolution: Target 80% of incidents"
+    - "Recurring incident rate: Target <5% of total incidents"
+    - "Post-incident review completion: Target 100% of incidents"

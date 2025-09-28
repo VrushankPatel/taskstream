@@ -45,3 +45,10 @@ workflow:
       outputs: ["Sustainability Monitoring System", "Annual Report Template"]
   success_criteria: "Achieve 20% reduction in carbon footprint, 80% sustainable supplier coverage, positive customer perception"
   failure_modes: ["Supplier resistance to change", "Implementation cost overruns", "Inconsistent execution across stores"]
+  metrics:
+    - "Carbon footprint reduction: Target >20% from baseline"
+    - "Sustainable supplier coverage: Target >80% of total suppliers"
+    - "Energy consumption reduction: Target >15% per store"
+    - "Waste diversion rate: Target >70% from landfill"
+    - "Customer perception score: Target >4.0/5.0 on sustainability"
+    - "ROI on sustainability initiatives: Target >150% over 3 years"

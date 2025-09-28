@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_energy_renewable_grid_integration_005"
+  title: "Renewable Energy Grid Integration Workflow"
+  department: "Sustainable Energy"
+  complexity: "high"
+  participants: ["Grid Engineer", "Renewable Specialists", "Regulatory Affairs", "Community Relations", "Financial Planning"]
+  trigger: "Renewable energy project approved for grid connection"
+  steps:
+    - step: 1
+      actor: "Grid Engineer"
+      action: "Assess grid capacity and interconnection requirements"
+      tools: ["Grid modeling software", "Load flow analysis", "Interconnection standards"]
+      duration: "6 weeks"
+      outputs: ["Grid impact assessment", "Interconnection study"]
+    - step: 2
+      actor: "Renewable Specialists"
+      action: "Design grid integration technology and control systems"
+      tools: ["Power system simulation", "SCADA systems", "Energy storage modeling"]
+      duration: "8 weeks"
+      outputs: ["Integration design", "Control system specifications"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Navigate interconnection agreements and permitting"
+      decision_points: ["Regulatory compliance requirements", "Interconnection queue position", "Tariff structures"]
+      duration: "10 weeks"
+      outputs: ["Regulatory approvals", "Interconnection agreement"]
+    - step: 4
+      actor: "Community Relations"
+      action: "Conduct stakeholder engagement and impact assessments"
+      tools: ["GIS mapping", "Community engagement platforms", "Environmental assessment tools"]
+      duration: "4 weeks"
+      outputs: ["Stakeholder analysis", "Mitigation plans"]
+    - step: 5
+      actor: "Financial Planning"
+      action: "Develop financing and revenue optimization strategies"
+      tools: ["Financial modeling software", "Revenue forecasting", "Incentive analysis"]
+      duration: "5 weeks"
+      outputs: ["Financial plan", "Revenue projections"]
+    - step: 6
+      actor: "Grid Engineer"
+      action: "Execute interconnection and commissioning"
+      tools: ["Testing equipment", "Monitoring systems", "Grid management platforms"]
+      duration: "8 weeks"
+      outputs: ["Commissioning report", "Performance data"]
+  success_criteria: "Successful grid interconnection with stable renewable energy delivery"
+  failure_modes: ["Grid stability issues", "Regulatory delays", "Community opposition"]

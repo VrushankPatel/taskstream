@@ -1,0 +1,40 @@
+{
+  "scenario_id": "robotics_workforce_transition_2025",
+  "context": "Manufacturing company planning large-scale robotics deployment, requiring workforce transition strategy",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "CHRO", "Board Manufacturing Committee"],
+    "influencers": ["Labor Unions", "Local Government", "Industry Associations"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Implement comprehensive workforce transition program for robotics automation initiative",
+    "urgency": "medium",
+    "justification": "Upcoming robotics deployment will displace 200 workers; proactive transition needed to maintain productivity and employee morale"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "3 weeks",
+      "activities": ["Workforce analysis", "Skills gap assessment", "Transition cost modeling"],
+      "outcome": "Comprehensive transition program approved with phased implementation"
+    },
+    {
+      "stage": "program_design",
+      "duration": "6 weeks",
+      "activities": ["Retraining curriculum development", "Career transition planning", "Support service design"],
+      "outcome": "Multi-path transition program established"
+    },
+    {
+      "stage": "implementation_rollout",
+      "duration": "12 weeks",
+      "activities": ["Training program launch", "Placement services activation", "Progress monitoring"],
+      "outcome": "Successful transition with 85% retention/redeployment rate"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["Smooth robotics deployment", "Maintained workforce expertise", "Positive labor relations"],
+    "projected_revenue": "$15 million in productivity gains",
+    "risk_factors": ["Resistance to change", "Retraining effectiveness", "Economic conditions affecting redeployment"]
+  }
+}

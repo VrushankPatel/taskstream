@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_nonprofit_volunteer_management"
+  title: "Volunteer Management Systems Workflow"
+  department: "Nonprofit Operations"
+  complexity: "medium"
+  participants: ["Volunteer Coordinator", "Program Managers", "HR Specialists", "IT Support", "Volunteer Database Administrators"]
+  trigger: "New volunteer recruitment drive or system upgrade needed"
+  steps:
+    - step: 1
+      actor: "Volunteer Coordinator"
+      action: "Assess volunteer needs and develop recruitment strategy"
+      tools: ["Volunteer needs assessment", "Recruitment planning templates", "Social media tools"]
+      duration: "1 week"
+      outputs: ["Volunteer needs analysis", "Recruitment strategy plan"]
+    - step: 2
+      actor: "IT Support"
+      action: "Set up volunteer management database and application system"
+      tools: ["Database management software", "Volunteer management platforms", "User access controls"]
+      duration: "2 weeks"
+      outputs: ["System setup documentation", "User access configurations"]
+    - step: 3
+      actor: "HR Specialists"
+      action: "Develop volunteer onboarding and training programs"
+      tools: ["Training program templates", "Orientation materials", "Background check systems"]
+      duration: "2 weeks"
+      outputs: ["Onboarding procedures", "Training program materials"]
+    - step: 4
+      actor: "Program Managers"
+      action: "Assign volunteers to appropriate roles and projects"
+      tools: ["Volunteer assignment algorithms", "Project management tools", "Skills matching systems"]
+      duration: "Ongoing"
+      outputs: ["Volunteer assignments", "Project staffing reports"]
+    - step: 5
+      actor: "Volunteer Coordinator"
+      action: "Monitor volunteer engagement and performance"
+      tools: ["Performance tracking systems", "Feedback surveys", "Engagement metrics"]
+      duration: "Monthly"
+      outputs: ["Performance reports", "Engagement analysis"]
+    - step: 6
+      actor: "Volunteer Database Administrators"
+      action: "Maintain volunteer records and generate impact reports"
+      tools: ["Database maintenance tools", "Reporting software", "Impact measurement frameworks"]
+      duration: "Weekly"
+      outputs: ["Volunteer database updates", "Impact measurement reports"]
+  success_criteria: "Volunteer retention rate above 70% with positive impact on program delivery"
+  failure_modes: ["Poor system usability", "Inadequate training", "Mismatch of skills to roles", "Low engagement tracking"]

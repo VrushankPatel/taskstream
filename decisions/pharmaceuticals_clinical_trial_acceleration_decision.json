@@ -1,0 +1,47 @@
+{
+  "scenario_id": "pharma_clinical_trial_acceleration_2025",
+  "context": "Global pharmaceutical company with traditional clinical development pipeline facing pressure to accelerate time-to-market",
+  "stakeholders": {
+    "requester": "Head of Clinical Development",
+    "approvers": ["Chief Medical Officer", "Chief Executive Officer"],
+    "influencers": ["Regulatory Affairs Director", "Data Science Lead", "Patient Advocacy Groups"]
+  },
+  "request": {
+    "amount": "$120,000,000",
+    "purpose": "Implementation of AI-driven clinical trial acceleration platform including adaptive trial designs and real-time monitoring",
+    "urgency": "high",
+    "justification": "Industry trend toward faster drug development with potential 30% reduction in trial timelines"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 weeks",
+      "activities": ["AI platform vendor assessment", "Regulatory acceptance analysis", "Technical integration review"],
+      "outcome": "Leading AI platforms identified"
+    },
+    {
+      "stage": "regulatory_assessment",
+      "duration": "6 weeks",
+      "activities": ["FDA guidance review", "Adaptive trial protocol development", "Ethics committee consultation"],
+      "outcome": "Regulatory framework established"
+    },
+    {
+      "stage": "pilot_design",
+      "duration": "5 weeks",
+      "activities": ["Pilot trial selection", "Implementation timeline development", "Resource allocation planning"],
+      "outcome": "Pilot program designed for Phase II trials"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "3 weeks",
+      "activities": ["ROI analysis presentation", "Risk mitigation review", "Leadership team approval"],
+      "outcome": "Approved with $80M investment"
+    }
+  ],
+  "business_impact": {
+    "expected_time_savings": "25%",
+    "projected_cost_reduction": "$200,000,000",
+    "risk_factors": ["Regulatory uncertainty with AI-driven trials", "Data quality and bias concerns", "Integration with existing systems"],
+    "strategic_benefits": ["Faster time-to-market for new drugs", "Improved clinical trial success rates", "Competitive advantage in drug development"]
+  }
+}

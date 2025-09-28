@@ -70,14 +70,20 @@
 - **Quality Manager**
   - **Quality Assurance Specialist** (3 staff)
 
-## Governance Structure
-- **Logistics Operations Committee** (Weekly performance review)
-- **Safety Review Board** (Monthly safety assessment)
-- **Customer Experience Council** (Bi-weekly service improvement)
+ ## Governance Structure
+ - **Logistics Operations Committee** (Weekly performance review)
+ - **Safety Review Board** (Monthly safety assessment)
+ - **Customer Experience Council** (Bi-weekly service improvement)
 
-## Key Performance Indicators
-- On-time delivery rate (target: >98%)
-- Fleet utilization rate (target: >85%)
-- Customer satisfaction score (target: >4.6/5)
-- Safety incident rate (target: <0.5 per million miles)
-- Cost per shipment (target: <2.5% annual increase)
+ ## Key Performance Indicators
+ - On-time delivery rate (target: >98%)
+ - Fleet utilization rate (target: >85%)
+ - Customer satisfaction score (target: >4.6/5)
+ - Safety incident rate (target: <0.5 per million miles)
+ - Cost per shipment (target: <2.5% annual increase)
+ - Inventory accuracy rate (target: >99%)
+ - Carbon emissions per shipment (target: <2.5 kg CO2)
+ - Employee retention rate (target: >90%)
+ - Inventory accuracy rate (target: >99%)
+ - Carbon emissions per shipment (target: <2.5 kg CO2)
+ - Employee retention rate (target: >90%)

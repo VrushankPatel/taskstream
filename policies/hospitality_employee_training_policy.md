@@ -150,5 +150,11 @@ Applies to all employees, including full-time, part-time, seasonal, and contract
 - Annual training program evaluation
 - Integration with performance management system
 
-## Exceptions
-Training requirements may be adjusted for part-time or temporary staff with documented business justification. All exceptions must be approved by Human Resources and documented appropriately.
+ ## Exceptions
+ Training requirements may be adjusted for part-time or temporary staff with documented business justification. All exceptions must be approved by Human Resources and documented appropriately.
+
+ ## Policy Review and Updates
+ - Annual policy review by Human Resources and department heads
+ - Updates based on regulatory changes, industry best practices, and feedback
+ - Employee input through annual training satisfaction surveys
+ - Version control and communication of policy changes to all staff

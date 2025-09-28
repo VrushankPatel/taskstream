@@ -93,7 +93,12 @@ This dashboard monitors claims processing performance across auto, property, and
 - Mobile app enhancement (target: 80% digital adoption)
 - Adjuster training program expansion (target: 95% certification rate)
 
-## Data Sources & Methodology
-- **Primary Data Source**: Claims management system, customer survey platform, financial systems
-- **Update Frequency**: Daily for operational metrics, monthly for financial and satisfaction metrics
-- **Calculation Methodology**: Industry-standard claims processing KPIs with internal benchmarks
+ ## Data Sources & Methodology
+ - **Primary Data Source**: Claims management system, customer survey platform, financial systems
+ - **Update Frequency**: Daily for operational metrics, monthly for financial and satisfaction metrics
+ - **Calculation Methodology**: Industry-standard claims processing KPIs with internal benchmarks
+
+ ## Benchmarking & Targets
+ - **Industry Benchmarks**: Processing time (4.5 days average), Accuracy (96.5%), Customer satisfaction (4.1/5)
+ - **Competitive Position**: Top quartile in processing speed, middle quartile in satisfaction
+ - **Year-over-Year Goals**: 10% improvement in processing time, 5% increase in satisfaction scores

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "data_analytics_q2_2026_decision",
+  "context": "Retail company, 1500 employees, seeking to implement advanced data analytics for personalized marketing and inventory optimization",
+  "stakeholders": {
+    "requester": "Chief Data Officer",
+    "approvers": ["CEO", "CTO", "CMO"],
+    "influencers": ["IT Director", "Marketing Director", "Operations Manager", "Data Analytics Vendors"]
+  },
+  "request": {
+    "amount": "$1,200,000",
+    "purpose": "Enterprise data analytics platform implementation including predictive modeling and real-time analytics capabilities",
+    "urgency": "high",
+    "justification": "Competitive pressure from data-driven retailers and declining margins"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "4 weeks",
+      "activities": ["Business case development", "Use case identification", "Data inventory assessment"],
+      "outcome": "Defined analytics requirements and potential ROI"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["RFI/RFP process", "Vendor demonstrations", "Technical evaluations"],
+      "outcome": "Selected analytics platform and implementation partner"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Limited deployment", "User acceptance testing", "Performance validation"],
+      "outcome": "Validated technical feasibility and business value"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue_increase": "8% from personalization",
+    "projected_inventory_reduction": "15% through optimization",
+    "data_literacy_improvement": "Company-wide analytics adoption",
+    "risk_factors": ["Data quality issues", "Integration complexity", "Change management resistance"]
+  }
+}

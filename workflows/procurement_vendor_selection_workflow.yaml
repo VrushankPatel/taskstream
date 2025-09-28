@@ -48,11 +48,11 @@ workflow:
       tools: ["Contract management system"]
       duration: "1 week"
       outputs: ["Executed contract", "Vendor onboarding plan"]
-   success_criteria: "Vendor delivers required services within SLA and budget"
-   failure_modes: ["Poor vendor performance", "Contract disputes", "Security breaches"]
-   metrics:
-     - "Vendor selection cycle time: Target <4 weeks"
-     - "Cost savings: Target 15% below budget"
-     - "Vendor performance score: Target 4.5/5"
-     - "Contract compliance rate: Target 100%"
-     - "Procurement ROI: Target 20% improvement"
+  success_criteria: "Vendor delivers required services within SLA and budget"
+  failure_modes: ["Poor vendor performance", "Contract disputes", "Security breaches"]
+  metrics:
+    - "Vendor selection cycle time: Target <4 weeks"
+    - "Cost savings: Target 15% below budget"
+    - "Vendor performance score: Target 4.5/5"
+    - "Contract compliance rate: Target 100%"
+    - "Procurement ROI: Target 20% improvement"

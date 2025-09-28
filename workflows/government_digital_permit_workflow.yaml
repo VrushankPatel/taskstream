@@ -40,3 +40,9 @@ workflow:
       outputs: ["Approved Permit"]
   success_criteria: "Permit processed within 30 days, approval rate >80%, applicant satisfaction >85%"
   failure_modes: ["Incomplete applications", "Technical review delays", "Inspection scheduling conflicts"]
+  metrics:
+    - "Average processing time: Target <30 days"
+    - "Approval rate: Target >80%"
+    - "Applicant satisfaction: Target >85%"
+    - "Digital submission rate: Target >90%"
+    - "Error rate: Target <5%"

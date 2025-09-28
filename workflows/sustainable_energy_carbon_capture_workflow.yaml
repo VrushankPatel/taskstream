@@ -38,3 +38,9 @@ workflow:
       outputs: ["Integration plan", "Operational procedures", "Maintenance protocols"]
   success_criteria: "Carbon capture system operational and meeting reduction targets"
   failure_modes: ["Technical performance issues", "Regulatory delays", "Economic unviability"]
+  metrics:
+    - "Carbon capture efficiency: Target >90%"
+    - "Cost per ton CO2 captured: Target <$50"
+    - "System uptime: Target 95%"
+    - "Regulatory compliance rate: Target 100%"
+    - "ROI period: Target <5 years"

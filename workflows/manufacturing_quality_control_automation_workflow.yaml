@@ -40,3 +40,9 @@ workflow:
       outputs: ["Updated Quality Procedures"]
   success_criteria: "Defect rate <1%, first-pass yield >95%, corrective actions completed within 24 hours"
   failure_modes: ["Sensor calibration drift", "Sampling bias", "Delayed corrective actions"]
+  metrics:
+    - "Defect rate: Target <1%"
+    - "First-pass yield: Target >95%"
+    - "Corrective action time: Target <24 hours"
+    - "False positive rate: Target <5%"
+    - "Quality inspection coverage: Target 100%"

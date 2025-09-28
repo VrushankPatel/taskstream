@@ -48,11 +48,11 @@ workflow:
       tools: ["Performance dashboards", "Relationship management"]
       duration: "Ongoing"
       outputs: ["Performance reviews", "Improvement plans"]
-   success_criteria: "Suppliers deliver quality goods/services on time and within budget"
-   failure_modes: ["Poor supplier selection", "Inadequate contract terms", "Lack of performance monitoring"]
-   metrics:
-     - "Supplier on-time delivery: Target 98%"
-     - "Quality acceptance rate: Target 99%"
-     - "Cost variance: Target <2%"
-     - "Supplier performance score: Target 4.5/5"
-     - "Contract compliance: Target 100%"
+  success_criteria: "Suppliers deliver quality goods/services on time and within budget"
+  failure_modes: ["Poor supplier selection", "Inadequate contract terms", "Lack of performance monitoring"]
+  metrics:
+    - "Supplier on-time delivery: Target 98%"
+    - "Quality acceptance rate: Target 99%"
+    - "Cost variance: Target <2%"
+    - "Supplier performance score: Target 4.5/5"
+    - "Contract compliance: Target 100%"

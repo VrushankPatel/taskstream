@@ -1,0 +1,58 @@
+workflow:
+  id: "workflow_robotics_workforce_transition"
+  title: "Advanced Robotics Workforce Transition Implementation Process"
+  department: "Manufacturing Operations"
+  complexity: "medium"
+  participants: ["Operations Director", "HR Manager", "Training Coordinator", "Union Representative", "Safety Officer", "IT Systems Lead", "Change Management Lead"]
+  trigger: "Decision to implement collaborative robotics in manufacturing line"
+  steps:
+    - step: 1
+      actor: "Operations Director"
+      action: "Assess current workforce skills and identify transition requirements"
+      tools: ["Workforce assessment tools", "Skills gap analysis software"]
+      duration: "2 months"
+      outputs: ["Workforce transition plan", "Skills assessment report"]
+    - step: 2
+      actor: "HR Manager"
+      action: "Develop retraining programs and career transition options"
+      tools: ["Learning management systems", "Career development platforms"]
+      duration: "3 months"
+      outputs: ["Retraining curriculum", "Career transition pathways", "Severance packages if needed"]
+    - step: 3
+      actor: "Training Coordinator"
+      action: "Deliver robotics safety training and system operation training to affected employees"
+      tools: ["VR training simulators", "Classroom training materials", "Certification systems"]
+      duration: "4 months"
+      outputs: ["Training completion records", "Certification certificates", "Skills assessment results"]
+    - step: 4
+      actor: "Union Representative"
+      action: "Negotiate workforce transition terms and job security provisions"
+      tools: ["Collective bargaining agreements", "Labor law databases"]
+      duration: "2 months"
+      outputs: ["Updated labor agreements", "Job security provisions"]
+    - step: 5
+      actor: "Safety Officer"
+      action: "Implement enhanced safety protocols for human-robot collaboration"
+      tools: ["Safety management systems", "Risk assessment tools", "PPE inventory systems"]
+      duration: "1 month"
+      outputs: ["Safety protocols document", "Emergency response procedures", "PPE requirements"]
+    - step: 6
+      actor: "IT Systems Lead"
+      action: "Integrate robotics systems with existing IT infrastructure and employee access controls"
+      tools: ["System integration platforms", "Access management systems"]
+      duration: "2 months"
+      outputs: ["System integration reports", "Access control policies"]
+    - step: 7
+      actor: "Change Management Lead"
+      action: "Communicate changes to employees and manage organizational transition"
+      tools: ["Change management software", "Employee communication platforms"]
+      duration: "Ongoing throughout implementation"
+      outputs: ["Communication plans", "Employee feedback reports", "Change adoption metrics"]
+  success_criteria: "All affected employees successfully retrained, safety protocols implemented, and production maintained during transition"
+  failure_modes: ["Resistance to change", "Skills gaps not addressed", "Safety incidents during transition", "Union disputes", "System integration failures"]
+  metrics:
+    - "Training completion rate: Target 95% of affected employees"
+    - "Skills assessment pass rate: Target 85% of trainees"
+    - "Safety incident rate: Target zero incidents during transition"
+    - "Production downtime: Target <5% reduction during implementation"
+    - "Employee satisfaction: Target >70% positive feedback on transition process"

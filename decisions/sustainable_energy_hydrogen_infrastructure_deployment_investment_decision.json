@@ -1,0 +1,55 @@
+{
+  "scenario_id": "energy_hydrogen_infrastructure_deployment_investment_2025",
+  "context": "Energy company evaluating investment in hydrogen production and distribution infrastructure to support transition to clean energy. Company operates in multiple states with existing natural gas pipeline network.",
+  "stakeholders": {
+    "requester": "VP of Clean Energy",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Chief Engineer", "Regulatory Affairs Director", "Environmental Compliance Manager", "State Energy Regulators", "Technology Partners"]
+  },
+  "request": {
+    "amount": "$150,000,000",
+    "purpose": "Construction of hydrogen production facility, pipeline infrastructure, and refueling stations to establish regional hydrogen ecosystem",
+    "urgency": "high",
+    "justification": "Capitalize on $500B federal hydrogen infrastructure funding opportunity. Position company as leader in clean energy transition with 25% market share in regional hydrogen market by 2030."
+  },
+  "decision_process": [
+    {
+      "stage": "market_assessment",
+      "duration": "4 weeks",
+      "activities": ["Demand analysis for hydrogen", "Competitive landscape review", "Regulatory framework evaluation", "Technology partner assessment"],
+      "outcome": "Identified strong market opportunity with federal funding alignment"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Infrastructure design and engineering", "Safety system development", "Integration with existing assets", "Pilot project planning"],
+      "outcome": "Feasible with phased approach and pilot testing"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Capital budgeting analysis", "Revenue projection modeling", "Risk-adjusted IRR calculations", "Funding strategy development"],
+      "outcome": "18% IRR with federal grants covering 40% of capital costs"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "8 weeks",
+      "activities": ["Permit applications", "Environmental impact assessments", "Public hearings", "Interagency coordination"],
+      "outcome": "All major permits secured with community support"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive presentation", "Board discussion", "Final investment committee approval"],
+      "outcome": "Approved with $120M initial phase and $30M follow-on contingent on pilot success"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Establish regional leadership in hydrogen economy, create 500 new jobs, position for $2B in federal infrastructure funding, achieve carbon neutrality by 2040",
+    "projected_value": "$800,000,000 in cumulative revenue over 10 years",
+    "risk_factors": ["Technology maturation delays", "Regulatory changes in hydrogen standards", "Competition from other energy companies", "Higher-than-expected infrastructure costs", "Market adoption slower than projected"]
+  },
+  "decision_criteria": ["Market opportunity and competitive positioning", "Financial returns and funding availability", "Technical feasibility and safety", "Regulatory pathway and permitting", "Strategic alignment with clean energy transition", "Execution capability and risk management"],
+  "outcome": "Approved",
+  "lessons_learned": "Early engagement with regulators and community stakeholders critical for infrastructure projects. Phased investment approach reduces risk while maintaining momentum. Federal funding opportunities significantly improve project economics for clean energy initiatives."
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "autonomous_systems_fleet_operations_decision_2025",
+  "context": "Ride-sharing company transitioning traditional fleet to autonomous vehicles for cost reduction and service expansion",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "CFO", "Board Operations Committee"],
+    "influencers": ["Fleet Managers", "Technology Partners", "Insurance Providers"]
+  },
+  "request": {
+    "amount": "$120 million",
+    "purpose": "Replace 25% of traditional fleet with autonomous vehicles and establish operations center",
+    "urgency": "medium",
+    "justification": "30% cost reduction in fleet operations and 24/7 service capability for competitive advantage"
+  },
+  "decision_process": [
+    {
+      "stage": "operational_assessment",
+      "duration": "8 weeks",
+      "activities": ["Current fleet performance analysis", "Route optimization modeling", "Service demand forecasting"],
+      "outcome": "Identified high-value routes for autonomous deployment with 40% efficiency gains"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Autonomous vehicle platform assessment", "Integration testing", "Safety validation"],
+      "outcome": "Selected proven autonomous platform with comprehensive safety features"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Total cost of ownership analysis", "Revenue impact projections", "ROI calculations"],
+      "outcome": "3-year payback period with 25% improvement in unit economics"
+    },
+    {
+      "stage": "risk_mitigation",
+      "duration": "3 weeks",
+      "activities": ["Insurance structure development", "Contingency planning", "Regulatory compliance strategy"],
+      "outcome": "Comprehensive risk framework with acceptable insurance costs"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["30% reduction in operating costs", "24/7 service availability", "Improved safety record", "Enhanced customer experience"],
+    "projected_revenue": "$80 million annual cost savings with expanded service offerings",
+    "risk_factors": ["Technology reliability issues", "Insurance cost escalation", "Regulatory changes", "Public acceptance challenges"]
+  }
+}

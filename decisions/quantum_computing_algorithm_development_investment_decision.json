@@ -1,0 +1,46 @@
+{
+  "scenario_id": "quantum_algorithm_development_investment_2025",
+  "context": "Mid-size pharmaceutical company investing in quantum algorithms for drug discovery optimization",
+  "stakeholders": {
+    "requester": "VP Research & Development",
+    "approvers": ["CEO", "CFO", "Chief Scientific Officer"],
+    "influencers": ["Head of Computational Chemistry", "VP IT", "External Quantum Consultants"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Development of quantum algorithms for molecular simulation and drug candidate screening",
+    "urgency": "medium",
+    "justification": "Quantum advantage could accelerate drug discovery by 10x, reducing time-to-market for critical therapies"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Quantum advantage validation for molecular simulations", "Current classical method limitations assessment", "Algorithm development feasibility study"],
+      "outcome": "Strong quantum advantage identified for specific molecular interaction calculations"
+    },
+    {
+      "stage": "technical_assessment",
+      "duration": "4 weeks",
+      "activities": ["Hardware requirements analysis", "Integration with existing computational chemistry platforms", "Talent and partnership needs evaluation"],
+      "outcome": "Requires hybrid quantum-classical approach with specialized development team"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Development cost breakdown", "Timeline and milestone projections", "Expected ROI from accelerated drug discovery"],
+      "outcome": "Projected 8x ROI over 7 years with successful algorithm development"
+    },
+    {
+      "stage": "risk_mitigation",
+      "duration": "2 weeks",
+      "activities": ["Technology risk assessment", "Alternative classical optimization strategies", "Regulatory and IP considerations"],
+      "outcome": "Acceptable risk with fallback strategies and IP protection measures"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["10x faster drug candidate screening", "Reduced R&D costs by 30%", "Faster time-to-market for new therapies"],
+    "projected_revenue": "$500 million in additional revenue from accelerated drug pipeline",
+    "risk_factors": ["Algorithm development complexity", "Hardware access limitations", "Integration with existing workflows", "Regulatory approval timelines"]
+  }
+}

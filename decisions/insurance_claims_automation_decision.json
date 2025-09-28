@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_claims_automation_investment_2025",
+  "context": "Mid-sized insurance company facing increasing claims volume and processing backlogs, considering AI-powered claims automation to improve efficiency and customer satisfaction",
+  "stakeholders": {
+    "requester": "VP of Claims Operations",
+    "approvers": ["CFO", "Chief Technology Officer", "Chief Risk Officer"],
+    "influencers": ["Claims Managers", "IT Director", "Customer Service Director"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Implement AI-powered claims processing automation platform",
+    "urgency": "high",
+    "justification": "Current manual processing causing 30-day delays, leading to customer dissatisfaction and increased operational costs"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "2 weeks",
+      "activities": ["Vendor evaluation", "Technical architecture review", "ROI modeling"],
+      "outcome": "Feasible with projected 40% efficiency improvement"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "3 months",
+      "activities": ["Limited deployment in one region", "Performance monitoring", "User feedback collection"],
+      "outcome": "Successful pilot with 35% processing time reduction"
+    },
+    {
+      "stage": "full_implementation",
+      "duration": "6 months",
+      "activities": ["Company-wide rollout", "Staff training", "Process optimization"],
+      "outcome": "Approved for full implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduce claims processing time by 40%, improve customer satisfaction scores by 25%",
+    "projected_value": "$1,200,000 annual savings through reduced operational costs",
+    "risk_factors": ["Technology integration challenges", "Staff resistance to change", "Data privacy compliance concerns"]
+  },
+  "decision_criteria": ["ROI greater than 200%", "Processing time reduction >30%", "Customer satisfaction improvement", "Regulatory compliance maintained"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement crucial for change management, pilot programs essential for risk mitigation"
+}

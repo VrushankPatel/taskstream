@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_retail_001"
+  title: "Retail Supply Chain Optimization"
+  department: "Supply Chain"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Procurement Specialist", "Warehouse Manager", "Store Operations"]
+  trigger: "Inventory levels below threshold or demand forecast update"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Analyze demand patterns and inventory levels"
+      tools: ["Inventory management system", "Sales forecasting software"]
+      duration: "Daily"
+      outputs: ["Demand forecast", "Reorder recommendations"]
+    - step: 2
+      actor: "Procurement Specialist"
+      action: "Source suppliers and negotiate terms"
+      tools: ["Supplier database", "Contract management system"]
+      duration: "1-3 days"
+      outputs: ["Supplier agreements", "Purchase orders"]
+    - step: 3
+      actor: "Warehouse Manager"
+      action: "Coordinate receiving and storage"
+      tools: ["Warehouse management system", "Quality control checklists"]
+      duration: "Ongoing"
+      outputs: ["Inventory updates", "Quality reports"]
+    - step: 4
+      actor: "Store Operations"
+      action: "Monitor stock levels and customer satisfaction"
+      decision_points: ["Stock availability", "Customer feedback"]
+      duration: "Daily"
+      outputs: ["Performance metrics", "Improvement recommendations"]
+  success_criteria: "Optimal inventory levels, minimal stockouts"
+  failure_modes: ["Overstocking", "Stockouts", "Quality issues"]

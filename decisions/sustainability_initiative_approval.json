@@ -1,0 +1,34 @@
+{
+  "scenario_id": "sustainability_initiative_approval",
+  "context": "Manufacturing company considering ESG investment",
+  "stakeholders": {
+    "requester": "Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Operations Manager", "Marketing Director"]
+  },
+  "request": {
+    "amount": "$2,000,000",
+    "purpose": "Implement renewable energy systems and waste reduction",
+    "urgency": "medium",
+    "justification": "Regulatory compliance and market positioning"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "1 month",
+      "activities": ["ROI analysis", "Vendor evaluation", "Regulatory review"],
+      "outcome": "Positive ROI projected over 5 years"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "1 week",
+      "activities": ["Business case presentation", "Risk assessment"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$500,000 annually",
+    "projected_revenue": "$1,000,000",
+    "risk_factors": ["Implementation delays", "Technology obsolescence"]
+  }
+}

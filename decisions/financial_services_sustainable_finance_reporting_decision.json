@@ -1,0 +1,47 @@
+{
+  "scenario_id": "sustainable_finance_reporting_q4_2024",
+  "context": "Global investment bank, $2B AUM, preparing for mandatory ESG reporting requirements under new EU regulations",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Investor Relations", "ESG Data Analytics Lead", "External ESG Consultants"]
+  },
+  "request": {
+    "amount": "$5M",
+    "purpose": "Implement comprehensive ESG reporting platform and hire specialized ESG reporting team",
+    "urgency": "high",
+    "justification": "Regulatory compliance deadline approaching, investor demand for ESG transparency increasing 40% YoY"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "duration": "2 weeks",
+      "activities": ["Regulatory impact analysis", "Current capability gap assessment", "Cost-benefit modeling"],
+      "outcome": "Proceed to detailed planning phase"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "4 weeks",
+      "activities": ["RFI/RFP process for ESG platforms", "Vendor demonstrations", "Reference checks"],
+      "outcome": "Selected leading ESG reporting platform"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "3 weeks",
+      "activities": ["Data integration planning", "Team hiring strategy", "Change management planning"],
+      "outcome": "Comprehensive implementation roadmap approved"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Risk assessment review", "Final budget approval"],
+      "outcome": "Approved with $500K contingency budget"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Regulatory compliance achieved", "Enhanced investor attraction", "Improved risk management"],
+    "projected_roi": "25% annual return through improved client retention and new business",
+    "risk_factors": ["Data quality challenges", "Regulatory changes", "Implementation delays"],
+    "success_metrics": ["100% regulatory compliance", "ESG rating improvement", "Client satisfaction increase"]
+  }
+}

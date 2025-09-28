@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_budget_approval_manufacturing_001"
+  title: "Capital Equipment Budget Approval in Manufacturing"
+  department: "Operations"
+  complexity: "high"
+  participants: ["Plant Manager", "Operations Director", "CFO", "CEO", "Finance Team"]
+  trigger: "Equipment replacement or upgrade identified"
+  steps:
+    - step: 1
+      actor: "Plant Manager"
+      action: "Assess equipment condition and prepare business case"
+      tools: ["Maintenance logs", "Cost-benefit analysis template", "Vendor quotes"]
+      duration: "1-2 weeks"
+      outputs: ["Equipment assessment report", "ROI calculation", "Alternative options"]
+    - step: 2
+      actor: "Operations Director"
+      action: "Review business case and provide operational impact assessment"
+      decision_points: ["Production impact", "Safety implications", "Timeline requirements"]
+      duration: "3-5 days"
+      outputs: ["Operational approval", "Risk assessment"]
+    - step: 3
+      actor: "Finance Team"
+      action: "Conduct financial analysis and budget impact review"
+      tools: ["Financial modeling software", "Budget tracking system"]
+      duration: "1 week"
+      outputs: ["Financial approval", "Budget allocation plan"]
+    - step: 4
+      actor: "CFO"
+      action: "Final review and CEO presentation preparation"
+      tools: ["Executive dashboard", "Board presentation template"]
+      duration: "3-5 days"
+      outputs: ["CFO recommendation", "Executive summary"]
+    - step: 5
+      actor: "CEO"
+      action: "Make final approval decision"
+      decision_points: ["Strategic alignment", "Financial impact", "Risk tolerance"]
+      duration: "1-2 days"
+      outputs: ["Final approval or rejection", "Implementation guidance"]
+  success_criteria: "Budget approved and equipment procurement initiated"
+  failure_modes: ["Insufficient ROI", "Budget constraints", "Strategic misalignment"]

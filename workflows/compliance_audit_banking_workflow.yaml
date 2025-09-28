@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_compliance_audit_banking_001"
+  title: "Regulatory Compliance Audit in Banking"
+  department: "Compliance"
+  complexity: "high"
+  participants: ["Compliance Officer", "Internal Audit Team", "Department Heads", "External Auditors", "Senior Management"]
+  trigger: "Scheduled annual audit or regulatory requirement"
+  steps:
+    - step: 1
+      actor: "Compliance Officer"
+      action: "Plan audit scope and prepare documentation requirements"
+      tools: ["Audit planning software", "Regulatory checklist", "Document management system"]
+      duration: "2-4 weeks"
+      outputs: ["Audit plan", "Documentation requests", "Timeline schedule"]
+    - step: 2
+      actor: "Department Heads"
+      action: "Gather and review department-specific compliance documentation"
+      tools: ["Compliance database", "Process documentation", "Training records"]
+      duration: "2-3 weeks"
+      outputs: ["Department compliance reports", "Evidence packages", "Gap analysis"]
+    - step: 3
+      actor: "Internal Audit Team"
+      action: "Conduct preliminary internal review and testing"
+      tools: ["Audit testing scripts", "Sampling tools", "Risk assessment models"]
+      duration: "3-4 weeks"
+      outputs: ["Internal audit findings", "Control testing results", "Preliminary recommendations"]
+    - step: 4
+      actor: "External Auditors"
+      action: "Perform independent audit procedures and validation"
+      tools: ["Audit software", "Data analytics tools", "Regulatory databases"]
+      duration: "4-6 weeks"
+      outputs: ["Audit findings report", "Compliance assessment", "Remediation requirements"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Develop remediation plan and track implementation"
+      tools: ["Remediation tracking system", "Project management software"]
+      duration: "4-8 weeks"
+      outputs: ["Remediation plan", "Implementation timeline", "Progress reports"]
+    - step: 6
+      actor: "Senior Management"
+      action: "Review final audit results and approve remediation actions"
+      decision_points: ["Risk acceptance levels", "Resource allocation", "Timeline extensions"]
+      duration: "1-2 weeks"
+      outputs: ["Management response", "Board reporting", "Action plan approval"]
+  success_criteria: "Audit completed with satisfactory rating and remediation plan implemented"
+  failure_modes: ["Material findings", "Inadequate documentation", "Timeline delays"]

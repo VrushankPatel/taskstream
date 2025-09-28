@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_performance_review_healthcare_001"
+  title: "Healthcare Employee Performance Review Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["Employee", "Supervisor", "HR Business Partner", "Department Head"]
+  trigger: "Annual review cycle or mid-year check-in"
+  steps:
+    - step: 1
+      actor: "Employee"
+      action: "Complete self-assessment and set personal goals"
+      tools: ["Performance management system", "Goal setting template"]
+      duration: "1 week"
+      outputs: ["Self-assessment document", "Personal development goals"]
+    - step: 2
+      actor: "Supervisor"
+      action: "Prepare performance evaluation and gather feedback"
+      tools: ["360-degree feedback system", "Performance metrics dashboard"]
+      duration: "1-2 weeks"
+      outputs: ["Performance evaluation", "Feedback compilation"]
+    - step: 3
+      actor: "Supervisor and Employee"
+      action: "Conduct performance review meeting"
+      tools: ["Meeting agenda template", "Development plan form"]
+      duration: "1 hour"
+      outputs: ["Meeting notes", "Agreed upon goals", "Development plan"]
+    - step: 4
+      actor: "HR Business Partner"
+      action: "Review completed evaluation and ensure compliance"
+      tools: ["HR compliance checklist", "Performance database"]
+      duration: "3-5 days"
+      outputs: ["HR approval", "Documentation filed"]
+    - step: 5
+      actor: "Department Head"
+      action: "Review high-potential employees and compensation recommendations"
+      decision_points: ["Promotion eligibility", "Compensation adjustments"]
+      duration: "1 week"
+      outputs: ["Leadership feedback", "Compensation decisions"]
+  success_criteria: "Performance review completed with clear development plan"
+  failure_modes: ["Incomplete documentation", "Unrealistic goals", "Lack of follow-through"]

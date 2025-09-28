@@ -32,10 +32,49 @@
       "outcome": "Positive economics with government incentives"
     }
   ],
+  "alternatives_considered": [
+    {
+      "option": "Plant retirement and replacement with gas plant",
+      "cost": "$200M",
+      "benefits": "Immediate carbon reduction, modern technology",
+      "drawbacks": "Higher capital cost, community impact, job losses"
+    },
+    {
+      "option": "Renewable energy transition",
+      "cost": "$350M",
+      "benefits": "Zero emissions, long-term sustainability",
+      "drawbacks": "Highest cost, extended timeline, grid stability concerns"
+    },
+    {
+      "option": "No action - continue operation",
+      "cost": "$0",
+      "benefits": "Lowest cost, maintain current operations",
+      "drawbacks": "Regulatory non-compliance, carbon penalties, eventual shutdown"
+    }
+  ],
   "business_impact": {
-    "expected_outcome": "Extended plant operation, regulatory compliance, reduced carbon emissions",
-    "projected_value": "$45M in annual savings from incentives and extended life",
-    "risk_factors": ["Technology performance uncertainty", "Regulatory changes", "Higher operating costs"]
+    "expected_outcome": "Extended plant operation to 2040, 90% CO2 reduction, regulatory compliance, $45M annual net benefit",
+    "projected_value": "$45M in annual savings from tax incentives and avoided penalties",
+    "quantitative_benefits": {
+      "carbon_reduction": "2.5M tons CO2 annually",
+      "extended_plant_life": "15 years",
+      "job_preservation": "450 direct jobs maintained",
+      "economic_impact": "$120M local economic benefit"
+    },
+    "risk_factors": [
+      "Technology performance below 90% capture rate",
+      "Regulatory changes reducing incentives",
+      "Higher than expected operating costs (+30%)",
+      "Community opposition to CCS technology",
+      "Supply chain disruptions for specialized equipment"
+    ],
+    "mitigation_strategies": [
+      "Technology guarantees from vendors",
+      "Diversified incentive portfolio",
+      "Cost contingency budget (15%)",
+      "Community engagement program",
+      "Local supplier development"
+    ]
   },
   "decision_criteria": ["Carbon reduction >80%", "Economic viability with incentives", "Technology maturity", "Regulatory alignment"],
   "outcome": "Approved",

@@ -37,12 +37,12 @@ workflow:
       tools: ["Legal compliance checklists", "Regulatory frameworks"]
       duration: "1 week"
       outputs: ["Compliance assessment", "Legal recommendations"]
-   success_criteria: "Automated bias detection system identifies biases with high accuracy and enables timely mitigation"
-   failure_modes: ["False positive/negative rates too high", "Detection system complexity", "Integration challenges", "Regulatory non-compliance"]
-   metrics:
-     - "Detection Accuracy: Target >90% bias identification rate"
-     - "False Positive Rate: Target <10% incorrect detections"
-     - "Response Time: Target <24 hours for bias alerts"
-     - "Mitigation Success: Target >80% resolved bias issues"
-     - "System Coverage: Target 100% of AI models monitored"
-     - "Compliance Alignment: Target >95% regulatory requirements met"
+  success_criteria: "Automated bias detection system identifies biases with high accuracy and enables timely mitigation"
+  failure_modes: ["False positive/negative rates too high", "Detection system complexity", "Integration challenges", "Regulatory non-compliance"]
+  metrics:
+    - "Detection Accuracy: Target >90% bias identification rate"
+    - "False Positive Rate: Target <10% incorrect detections"
+    - "Response Time: Target <24 hours for bias alerts"
+    - "Mitigation Success: Target >80% resolved bias issues"
+    - "System Coverage: Target 100% of AI models monitored"
+    - "Compliance Alignment: Target >95% regulatory requirements met"

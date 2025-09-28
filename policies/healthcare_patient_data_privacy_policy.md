@@ -145,5 +145,25 @@ This policy applies to all patient data collected, stored, processed, or transmi
 - **Financial Penalties**: Individual accountability for serious violations
 - **Contractual Remedies**: Breach remedies in employment and vendor contracts
 
+## AI and Machine Learning Data Considerations
+
+### AI Model Training Data
+- **Data Source Validation**: Ensure training data is ethically sourced and legally obtained
+- **Bias Mitigation**: Implement bias detection and mitigation in AI training datasets
+- **Model Transparency**: Document data sources and preprocessing steps for auditability
+- **Patient Consent**: Obtain specific consent for AI model training using patient data
+
+### Automated Decision-Making
+- **Algorithmic Accountability**: Regular audits of AI decision-making processes
+- **Explainability Requirements**: Ability to explain AI-driven clinical recommendations
+- **Override Procedures**: Physician ability to override AI recommendations with documentation
+- **Performance Monitoring**: Continuous monitoring of AI accuracy and bias metrics
+
+### Federated Learning and Data Sharing
+- **Privacy-Preserving Techniques**: Use of federated learning to train models without data sharing
+- **Data Minimization**: Share only necessary model parameters, not raw patient data
+- **Multi-Party Agreements**: Legal frameworks for collaborative AI development
+- **Audit Trails**: Comprehensive logging of data usage in federated systems
+
 ## Review and Updates
 This policy will be reviewed annually and updated to reflect changes in laws, regulations, technology, and organizational needs. All updates will be communicated to affected staff with appropriate training provided.

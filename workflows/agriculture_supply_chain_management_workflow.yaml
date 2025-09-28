@@ -43,12 +43,12 @@ workflow:
       tools: ["Inventory management system", "Sales forecasting tools"]
       duration: "30 hours"
       outputs: ["Distribution reports", "Inventory optimization recommendations"]
-   success_criteria: "95% on-time delivery rate and <2% product waste"
-   failure_modes: ["Weather-related crop failures", "Logistics bottlenecks", "Quality control issues", "Market price volatility"]
-   metrics:
-     - "On-Time Delivery: Target >95% of orders delivered on schedule"
-     - "Product Waste: Target <2% post-harvest loss"
-     - "Inventory Turnover: Target 8-10 times annually"
-     - "Supply Chain Cost: Target 15% reduction in logistics costs"
-     - "Quality Compliance: Target >99% products meeting standards"
-     - "Forecast Accuracy: Target >85% demand prediction accuracy"
+  success_criteria: "95% on-time delivery rate and <2% product waste"
+  failure_modes: ["Weather-related crop failures", "Logistics bottlenecks", "Quality control issues", "Market price volatility"]
+  metrics:
+    - "On-Time Delivery: Target >95% of orders delivered on schedule"
+    - "Product Waste: Target <2% post-harvest loss"
+    - "Inventory Turnover: Target 8-10 times annually"
+    - "Supply Chain Cost: Target 15% reduction in logistics costs"
+    - "Quality Compliance: Target >99% products meeting standards"
+    - "Forecast Accuracy: Target >85% demand prediction accuracy"

@@ -48,12 +48,12 @@ workflow:
       tools: ["Monitoring dashboards", "Automated bias detection", "Audit frameworks"]
       duration: "2 weeks"
       outputs: ["Monitoring plan", "Governance procedures", "Continuous improvement roadmap"]
-   success_criteria: "Bias metrics reduced by >80% with no significant performance degradation"
-   failure_modes: ["Inadequate data representation", "Over-correction causing new biases", "Regulatory non-compliance", "Stakeholder resistance"]
-   metrics:
-     - "Bias Reduction: Target >80% decrease in bias metrics"
-     - "Performance Impact: Target <5% degradation in model accuracy"
-     - "Implementation Timeline: Target <8 weeks for mitigation"
-     - "Stakeholder Satisfaction: Target >85% approval rating"
-     - "Compliance Score: Target >98% regulatory alignment"
-     - "Monitoring Effectiveness: Target >95% ongoing bias detection"
+  success_criteria: "Bias metrics reduced by >80% with no significant performance degradation"
+  failure_modes: ["Inadequate data representation", "Over-correction causing new biases", "Regulatory non-compliance", "Stakeholder resistance"]
+  metrics:
+    - "Bias Reduction: Target >80% decrease in bias metrics"
+    - "Performance Impact: Target <5% degradation in model accuracy"
+    - "Implementation Timeline: Target <8 weeks for mitigation"
+    - "Stakeholder Satisfaction: Target >85% approval rating"
+    - "Compliance Score: Target >98% regulatory alignment"
+    - "Monitoring Effectiveness: Target >95% ongoing bias detection"

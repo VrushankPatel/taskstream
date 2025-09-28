@@ -36,12 +36,12 @@ workflow:
       tools: ["Legal analysis frameworks", "Risk assessment tools"]
       duration: "1 week"
       outputs: ["Legal recommendations", "Mitigation action plan"]
-   success_criteria: "Automated system detects >95% of bias issues with <5% false positive rate"
-   failure_modes: ["Inadequate bias coverage", "Technical implementation failures", "Regulatory non-compliance"]
-   metrics:
-     - "Bias Detection Rate: Target >95% of actual bias issues identified"
-     - "False Positive Rate: Target <5% incorrect bias flags"
-     - "Detection Speed: Target <1 hour for model assessment"
-     - "Coverage Completeness: Target 100% of bias types monitored"
-     - "Remediation Success: Target >90% bias issues resolved"
-     - "Compliance Score: Target >98% regulatory alignment"
+  success_criteria: "Automated system detects >95% of bias issues with <5% false positive rate"
+  failure_modes: ["Inadequate bias coverage", "Technical implementation failures", "Regulatory non-compliance"]
+  metrics:
+    - "Bias Detection Rate: Target >95% of actual bias issues identified"
+    - "False Positive Rate: Target <5% incorrect bias flags"
+    - "Detection Speed: Target <1 hour for model assessment"
+    - "Coverage Completeness: Target 100% of bias types monitored"
+    - "Remediation Success: Target >90% bias issues resolved"
+    - "Compliance Score: Target >98% regulatory alignment"

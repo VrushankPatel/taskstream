@@ -37,12 +37,12 @@ workflow:
       tools: ["Regulatory databases", "Legal compliance checklists"]
       duration: "3 days"
       outputs: ["Legal compliance assessment", "Regulatory recommendations"]
-   success_criteria: "Comprehensive audit completed with documented findings and remediation plans"
-   failure_modes: ["Incomplete automated testing", "False positive/negative results", "Manual validation gaps", "Delayed remediation"]
-   metrics:
-     - "Audit Completion Rate: Target 100% of scheduled audits completed on time"
-     - "Issue Detection Accuracy: Target >95% automated finding validation"
-     - "Remediation Timeline: Target <30 days for critical issues"
-     - "Compliance Score: Target >98% across all audited systems"
-     - "Audit Efficiency: Target 40% reduction in manual audit hours"
-     - "Recurring Issues: Target <5% repeat findings in quarterly audits"
+  success_criteria: "Comprehensive audit completed with documented findings and remediation plans"
+  failure_modes: ["Incomplete automated testing", "False positive/negative results", "Manual validation gaps", "Delayed remediation"]
+  metrics:
+    - "Audit Completion Rate: Target 100% of scheduled audits completed on time"
+    - "Issue Detection Accuracy: Target >95% automated finding validation"
+    - "Remediation Timeline: Target <30 days for critical issues"
+    - "Compliance Score: Target >98% across all audited systems"
+    - "Audit Efficiency: Target 40% reduction in manual audit hours"
+    - "Recurring Issues: Target <5% repeat findings in quarterly audits"

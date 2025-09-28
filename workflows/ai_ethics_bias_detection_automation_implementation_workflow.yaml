@@ -36,12 +36,12 @@ workflow:
       tools: ["Business case analysis tools", "Risk assessment frameworks", "Stakeholder feedback systems"]
       duration: "1 week"
       outputs: ["Business impact assessment", "Mitigation strategy approval", "Implementation timeline"]
-   success_criteria: "Automated bias detection system identifies 95%+ of bias issues with less than 5% false positives"
-   failure_modes: ["Insufficient training data diversity", "Bias detection algorithms lack contextual understanding", "Business stakeholders reject mitigation costs"]
-   metrics:
-     - "Detection Coverage: Target >95% of bias types identified"
-     - "False Positive Rate: Target <5% incorrect alerts"
-     - "Detection Speed: Target <2 hours for full assessment"
-     - "System Reliability: Target >99% uptime"
-     - "Cost Efficiency: Target <10% of manual audit costs"
-     - "User Adoption: Target >90% stakeholder acceptance"
+  success_criteria: "Automated bias detection system identifies 95%+ of bias issues with less than 5% false positives"
+  failure_modes: ["Insufficient training data diversity", "Bias detection algorithms lack contextual understanding", "Business stakeholders reject mitigation costs"]
+  metrics:
+    - "Detection Coverage: Target >95% of bias types identified"
+    - "False Positive Rate: Target <5% incorrect alerts"
+    - "Detection Speed: Target <2 hours for full assessment"
+    - "System Reliability: Target >99% uptime"
+    - "Cost Efficiency: Target <10% of manual audit costs"
+    - "User Adoption: Target >90% stakeholder acceptance"

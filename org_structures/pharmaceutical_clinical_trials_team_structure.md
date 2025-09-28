@@ -180,9 +180,11 @@
 - Risk-Based Monitoring Tools  
 - Real-Time Data Analytics  
 
-## Professional Development
-- Clinical Research Certification Programs  
-- Therapeutic Area Training  
-- Leadership Development for Managers  
-- Global Clinical Trial Regulations  
-- Patient-Centric Trial Design Workshops
+ ## Professional Development
+ - Clinical Research Certification Programs (ACRP, SOCRA)
+ - Therapeutic Area Training (oncology, cardiology, neurology specialization)
+ - Leadership Development for Managers (executive coaching, project management certification)
+ - Global Clinical Trial Regulations (ICH GCP, regional requirements)
+ - Patient-Centric Trial Design Workshops (decentralized trials, digital health integration)
+ - Data Science and Analytics Training (statistical programming, AI in clinical research)
+ - Regulatory Intelligence Updates (quarterly regulatory changes seminars)

@@ -110,11 +110,13 @@
 - **LEED Certified Buildings:** 68% of portfolio
 - **Carbon Footprint:** 25% below industry average
 
-### Social Impact
-- **Affordable Housing Units:** 2,400 (12% of multifamily units)
-- **Local Hiring Rate:** 78% of property management staff
-- **Community Investment:** $2.1M annually
-- **Tenant Assistance Programs:** 95% property participation
+ ### Social Impact
+ - **Affordable Housing Units:** 2,400 (12% of multifamily units, meeting regulatory requirements)
+ - **Local Hiring Rate:** 78% of property management staff (supporting local economies)
+ - **Community Investment:** $2.1M annually (charitable contributions, local partnerships)
+ - **Tenant Assistance Programs:** 95% property participation (rental assistance, job training programs)
+ - **Diversity in Contracting:** 35% minority-owned business contracts
+ - **Employee Volunteer Hours:** 15,000 hours annually
 
 ### Governance
 - **ESG Integration Score:** 85/100

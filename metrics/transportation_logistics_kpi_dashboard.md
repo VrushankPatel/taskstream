@@ -144,12 +144,13 @@
 
 ## Risk Management
 
-### Operational Risks
-- **Supply Chain Disruption Risk:** Medium (diversified network)
-- **Fuel Price Volatility:** High (hedging program in place)
-- **Labor Shortage Risk:** High (recruitment initiatives active)
-- **Technology Failure Risk:** Low (redundant systems)
-- **Geopolitical Risk:** Medium (international diversification)
+ ### Operational Risks
+ - **Supply Chain Disruption Risk:** Medium (diversified network, backup suppliers identified)
+ - **Fuel Price Volatility:** High (hedging program in place, alternative fuel adoption)
+ - **Labor Shortage Risk:** High (recruitment initiatives active, retention programs implemented)
+ - **Technology Failure Risk:** Low (redundant systems, disaster recovery plan)
+ - **Geopolitical Risk:** Medium (international diversification, political risk insurance)
+ - **Cybersecurity Risk:** Medium (ongoing security enhancements, employee training)
 
 ### Financial Risks
 - **Currency Fluctuation Exposure:** $120M (hedged 70%)

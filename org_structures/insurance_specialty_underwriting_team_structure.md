@@ -101,12 +101,14 @@
   - Managers: <$50M single risk limit  
   - VP: Unlimited with board approval for >$100M  
 
-## Technology & Tools
-- Specialty Underwriting Platform ( proprietary system)  
-- Cyber Risk Assessment Tools  
-- Satellite Imagery for Property Risk Analysis  
-- AI-Powered Fraud Detection  
-- Real-time Market Intelligence Feeds  
+ ## Technology & Tools
+ - Specialty Underwriting Platform (proprietary system with automated risk scoring)
+ - Cyber Risk Assessment Tools (threat intelligence integration, vulnerability scanning)
+ - Satellite Imagery for Property Risk Analysis (flood modeling, wildfire risk assessment)
+ - AI-Powered Fraud Detection (machine learning models, anomaly detection)
+ - Real-time Market Intelligence Feeds (economic indicators, industry loss data)
+ - Predictive Analytics Software (loss forecasting, portfolio optimization)
+ - Blockchain for Contract Management (smart contracts, automated claims processing)
 
 ## Professional Development
 - Chartered Insurance Professional (CIP) Certification Program  

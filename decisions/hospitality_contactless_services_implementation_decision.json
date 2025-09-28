@@ -1,0 +1,43 @@
+{
+  "scenario_id": "hospitality_contactless_services_2025",
+  "context": "Luxury hotel chain responding to post-pandemic guest expectations for touchless experiences",
+  "stakeholders": {
+    "requester": "Guest Experience Director",
+    "approvers": ["COO", "CIO"],
+    "influencers": ["Front Office Manager", "IT Security Officer", "Marketing Director"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Deploy comprehensive contactless guest services platform",
+    "urgency": "medium",
+    "justification": "Competitor analysis shows 40% of guests prefer contactless options, current system outdated"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "3 weeks",
+      "activities": ["Guest surveys", "Competitor benchmarking", "Technology evaluation"],
+      "outcome": "Clear requirements defined for mobile app and kiosk integration"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "4 weeks",
+      "activities": ["RFP process", "Demo sessions", "Contract negotiations"],
+      "outcome": "Selected integrated hospitality technology provider"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 weeks",
+      "activities": ["Project timeline development", "Resource allocation", "Risk assessment"],
+      "outcome": "Phased rollout plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increase guest satisfaction by 25%, reduce check-in time by 50%, improve operational efficiency",
+    "projected_value": "$1.8M in additional revenue from higher occupancy and rates",
+    "risk_factors": ["Technology integration issues", "Staff training requirements", "Guest adoption challenges"]
+  },
+  "decision_criteria": ["Guest satisfaction improvement >20%", "ROI >200%", "Implementation within 6 months"],
+  "outcome": "Approved",
+  "lessons_learned": "Guest feedback critical for feature prioritization, phased implementation reduces risk, comprehensive training essential for staff buy-in"
+}

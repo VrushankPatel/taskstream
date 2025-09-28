@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_cyber_coverage_expansion_2025",
+  "context": "Property & casualty insurer facing increasing cyber risk claims amid rising ransomware attacks",
+  "stakeholders": {
+    "requester": "Chief Underwriting Officer",
+    "approvers": ["CEO", "Chief Risk Officer"],
+    "influencers": ["Claims Director", "Actuarial Team", "Reinsurance Manager"]
+  },
+  "request": {
+    "amount": "$2M",
+    "purpose": "Expand cyber liability product line with enhanced coverage options",
+    "urgency": "high",
+    "justification": "Cyber claims increased 300% in 2024, market demand for comprehensive coverage growing"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "4 weeks",
+      "activities": ["Competitor product review", "Customer needs assessment", "Regulatory landscape analysis"],
+      "outcome": "Identified gaps in current offerings and market opportunities"
+    },
+    {
+      "stage": "product_design",
+      "duration": "6 weeks",
+      "activities": ["Coverage modeling", "Pricing development", "Underwriting guidelines creation"],
+      "outcome": "New product specifications completed"
+    },
+    {
+      "stage": "pilot_launch",
+      "duration": "3 months",
+      "activities": ["Limited market release", "Performance monitoring", "Feedback collection"],
+      "outcome": "Positive initial results with 15% market share gain"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Capture 25% of cyber insurance market, increase premium revenue by $50M annually",
+    "projected_value": "$75M in additional premiums over 3 years",
+    "risk_factors": ["Underwriting losses from complex claims", "Regulatory changes", "Market saturation"]
+  },
+  "decision_criteria": ["Market share growth >20%", "Loss ratio <80%", "Product profitability >15%"],
+  "outcome": "Approved",
+  "lessons_learned": "Early collaboration with claims team essential for accurate risk assessment, actuarial modeling critical for pricing, continuous product iteration based on emerging threats"
+}

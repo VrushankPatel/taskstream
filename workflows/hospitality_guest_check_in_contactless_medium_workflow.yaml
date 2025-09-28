@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_hospitality_checkin_contactless"
+  title: "Hospitality Contactless Guest Check-In Process"
+  department: "Front Office"
+  complexity: "medium"
+  participants: ["Front Desk Agent", "Guest Services Manager", "IT Support"]
+  trigger: "Guest completes mobile check-in app"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Receive mobile check-in notification and verify details"
+      tools: ["Mobile app dashboard", "PMS integration"]
+      duration: "2 minutes"
+      outputs: ["Pre-verified guest data"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Prepare contactless key card and room assignment"
+      tools: ["Automated key system", "Room assignment algorithm"]
+      duration: "3 minutes"
+      outputs: ["Digital key delivery", "Room confirmation"]
+    - step: 3
+      actor: "Guest Services Manager"
+      action: "Send welcome package and amenity preferences via app"
+      tools: ["Guest communication platform", "Personalization engine"]
+      duration: "5 minutes"
+      outputs: ["Personalized welcome message"]
+    - step: 4
+      actor: "IT Support"
+      action: "Monitor system performance and resolve technical issues"
+      tools: ["System monitoring dashboard", "Remote support tools"]
+      duration: "Ongoing"
+      outputs: ["System uptime reports"]
+  success_criteria: "100% contactless check-in completion, guest satisfaction >98%"
+  failure_modes: ["App technical glitches", "System integration failures", "Data privacy concerns"]
+  metrics:
+    - "Check-in completion rate: 100% target"
+    - "Average check-in time: <5 minutes"
+    - "Contactless adoption: >80% of guests"

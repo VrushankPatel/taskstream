@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_insurance_parametric_claims"
+  title: "Insurance Parametric Claims Processing"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Data Analyst", "Underwriting Manager"]
+  trigger: "Automated trigger from parametric sensor data"
+  steps:
+    - step: 1
+      actor: "Data Analyst"
+      action: "Validate sensor data against policy parameters"
+      tools: ["Data validation platform", "IoT sensor feeds"]
+      duration: "1 hour"
+      outputs: ["Validated trigger data"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Calculate payout based on parametric formula"
+      tools: ["Claims calculation engine", "Policy database"]
+      duration: "30 minutes"
+      outputs: ["Payout amount determination"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Process automated payment to insured"
+      tools: ["Payment processing system", "Digital signature platform"]
+      duration: "15 minutes"
+      outputs: ["Payment confirmation"]
+    - step: 4
+      actor: "Underwriting Manager"
+      action: "Review high-value claims for fraud indicators"
+      tools: ["Fraud detection algorithms", "Historical claims data"]
+      duration: "2 hours"
+      outputs: ["Fraud assessment report"]
+  success_criteria: "Claims processed within 24 hours, payout accuracy >99%"
+  failure_modes: ["Sensor data inaccuracies", "Formula miscalculations", "Payment system failures"]
+  metrics:
+    - "Processing time: <24 hours average"
+    - "Accuracy rate: >99%"
+    - "Fraud detection: >95% true positive"

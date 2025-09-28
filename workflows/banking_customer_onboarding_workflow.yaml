@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_banking_customer_onboarding"
+  title: "Retail Banking Customer Onboarding Process"
+  department: "Customer Operations"
+  complexity: "medium"
+  participants: ["Relationship Manager", "Compliance Officer", "Operations Specialist", "IT Support"]
+  trigger: "New customer application submitted"
+  steps:
+    - step: 1
+      actor: "Relationship Manager"
+      action: "Conduct initial customer interview and document requirements"
+      tools: ["CRM system", "Application forms"]
+      duration: "1 hour"
+      outputs: ["Customer profile", "Application package"]
+    - step: 2
+      actor: "Compliance Officer"
+      action: "Perform KYC/AML checks and identity verification"
+      tools: ["Compliance database", "Document scanner"]
+      duration: "4 hours"
+      outputs: ["Compliance report"]
+    - step: 3
+      actor: "Operations Specialist"
+      action: "Set up accounts and generate account numbers"
+      tools: ["Core banking system"]
+      duration: "2 hours"
+      outputs: ["Account setup confirmation"]
+    - step: 4
+      actor: "IT Support"
+      action: "Configure online banking access and issue cards"
+      tools: ["Security systems", "Card issuance system"]
+      duration: "1 hour"
+      outputs: ["Access credentials", "Physical cards"]
+    - step: 5
+      actor: "Relationship Manager"
+      action: "Conduct welcome call and provide account overview"
+      tools: ["CRM system"]
+      duration: "30 minutes"
+      outputs: ["Onboarding completion"]
+  success_criteria: "Customer fully onboarded with active accounts within 5 business days"
+  failure_modes: ["Document verification delays", "System integration issues"]
+  metrics:
+    - "Onboarding completion rate: 95%"
+    - "Average processing time: 3 days"
+    - "Customer satisfaction score: 4.2/5"

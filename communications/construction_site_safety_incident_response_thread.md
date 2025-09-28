@@ -107,9 +107,9 @@ Legal Counsel
 
 ---
 
-**From:** Construction Safety Manager  
-**To:** Project Manager, Site Supervisors, HR Director, Legal Counsel  
-**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** Construction Safety Manager
+**To:** Project Manager, Site Supervisors, HR Director, Legal Counsel
+**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 Thanks for the quick responses everyone. Mike, please coordinate with the hospital for updates. Jennifer, proceed with counseling setup. David, I'll ensure evidence preservation.
 
@@ -122,3 +122,31 @@ Thanks for the quick responses everyone. Mike, please coordinate with the hospit
 Let's get through this together. Safety is our top priority.
 
 Robert
+
+---
+
+**From:** OSHA Inspector
+**To:** Construction Safety Manager, Project Manager, Legal Counsel
+**Subject:** OSHA Investigation - Downtown Tower Fall Incident - Case #2025-0456
+
+Good afternoon,
+
+This is Inspector Maria Gonzalez from OSHA Region 5. I've been assigned to investigate the fall protection incident at your Downtown Tower site.
+
+My preliminary investigation begins tomorrow at 9 AM. Please ensure all relevant personnel are available and that the incident area remains secured.
+
+Required documentation to prepare:
+- Fall protection equipment inspection records for the past 6 months
+- Worker training records and certifications
+- Scaffolding assembly and inspection logs
+- Witness statements from all personnel present
+- Medical reports from the treating physician
+
+I will conduct interviews with the injured worker (once medically cleared), site supervisors, and safety personnel.
+
+Please contact me at (312) 555-0123 if you have any questions.
+
+Regards,
+Inspector Maria Gonzalez
+OSHA Region 5
+Construction Safety Division

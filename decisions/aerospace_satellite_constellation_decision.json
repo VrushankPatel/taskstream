@@ -12,26 +12,32 @@
     "urgency": "high",
     "justification": "Market opportunity in underserved rural areas, government contracts for emergency communications"
   },
-  "decision_process": [
-    {
-      "stage": "market_analysis",
-      "duration": "3 months",
-      "activities": ["Competitive analysis", "Market sizing", "Regulatory landscape review", "Financial modeling"],
-      "outcome": "Identified $12B addressable market with 25% projected share"
-    },
-    {
-      "stage": "technical_feasibility",
-      "duration": "4 months",
-      "activities": ["Satellite design optimization", "Launch capacity assessment", "Ground station planning", "Spectrum allocation"],
-      "outcome": "Technical solution viable with 40% cost reduction through design optimization"
-    },
-    {
-      "stage": "funding_and_partnerships",
-      "duration": "6 months",
-      "activities": ["Investor roadshows", "Government partnership discussions", "Launch contract negotiations", "Spectrum license applications"],
-      "outcome": "Secured $1.2B in funding commitments and key partnerships"
-    }
-  ],
+   "decision_process": [
+     {
+       "stage": "market_analysis",
+       "duration": "3 months",
+       "activities": ["Competitive analysis", "Market sizing", "Regulatory landscape review", "Financial modeling"],
+       "outcome": "Identified $12B addressable market with 25% projected share"
+     },
+     {
+       "stage": "technical_feasibility",
+       "duration": "4 months",
+       "activities": ["Satellite design optimization", "Launch capacity assessment", "Ground station planning", "Spectrum allocation"],
+       "outcome": "Technical solution viable with 40% cost reduction through design optimization"
+     },
+     {
+       "stage": "risk_assessment",
+       "duration": "2 months",
+       "activities": ["Orbital debris impact analysis", "Launch failure scenario planning", "Regulatory approval risk evaluation", "Financial stress testing"],
+       "outcome": "Identified key risks with mitigation strategies, risk-adjusted NPV of $8.5B"
+     },
+     {
+       "stage": "funding_and_partnerships",
+       "duration": "6 months",
+       "activities": ["Investor roadshows", "Government partnership discussions", "Launch contract negotiations", "Spectrum license applications"],
+       "outcome": "Secured $1.2B in funding commitments and key partnerships"
+     }
+   ],
   "business_impact": {
     "expected_outcome": "Global broadband coverage reaching 500M underserved customers, $8B revenue by 2030",
     "projected_value": "$15,000,000,000 in cumulative revenue over 10 years",

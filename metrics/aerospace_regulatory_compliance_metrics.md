@@ -83,10 +83,18 @@ Commercial aerospace manufacturer (45,000 employees, $22B revenue) aircraft prod
 - **Q3 2025**: Digital compliance tools reduced manual errors by 34%
 - **Q4 2025**: International regulatory harmonization improved efficiency by 12%
 
+### Annual Performance Trends
+- **2024 vs 2023**: Compliance score improved 2.1%, audit findings reduced 28%
+- **Certification Efficiency**: Average approval time reduced from 18 to 12 months
+- **Safety Performance**: Incident rate decreased 35% through proactive hazard identification
+- **Digital Adoption**: Compliance automation increased from 45% to 67% of processes
+
 ### Industry Benchmarking
 - **Overall Compliance Score**: 98.2% (Industry average: 94.7%) - Above peer group
 - **Safety Incident Rate**: 0.02/100K hours (Industry average: 0.08/100K hours)
 - **Certification Timeliness**: 94.8% (Industry average: 89.3%)
+- **Regulatory Audit Results**: 97.8% satisfactory (Industry average: 92.3%)
+- **Compliance Cost as % of Revenue**: 1.2% (Industry average: 1.8%)
 
 ## Risk Mitigation Actions
 - **Regulatory Change Management**: Enhanced monitoring system for 15 key authorities

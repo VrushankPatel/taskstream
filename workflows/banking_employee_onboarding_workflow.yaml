@@ -38,7 +38,12 @@ workflow:
       outputs: ["Training completion certificates", "Signed policies", "Performance goals"]
   success_criteria: "Employee completes all onboarding milestones within 30 days and demonstrates basic job competencies"
   failure_modes: ["Delayed background checks", "IT access issues", "Incomplete training completion"]
-  metrics:
-    - "Time to productivity: Target 30 days"
-    - "Onboarding completion rate: Target 95%"
-    - "Employee retention (first 90 days): Target 90%"
+   metrics:
+     - "Time to productivity: Target 30 days"
+     - "Onboarding completion rate: Target 95%"
+     - "Employee retention (first 90 days): Target 90%"
+     - "Training effectiveness score: Target 4.2/5.0"
+     - "IT access setup time: Target <4 hours"
+     - "Compliance training pass rate: Target 98%"
+     - "Mentor satisfaction rating: Target 4.5/5.0"
+     - "New hire engagement survey: Target 4.0/5.0"

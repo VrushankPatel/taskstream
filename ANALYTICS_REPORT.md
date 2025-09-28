@@ -1,9 +1,9 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 1902 files (1.1% growth from last analysis)
+- **Total Dataset Size**: 1933 files (1.6% growth from last analysis)
 - **Quality Score**: 97% (stable trend)
-- **Industry Coverage**: 16+ industries with 42.7% technology dominance (target <20%)
+- **Industry Coverage**: 19+ industries with 37% technology/AI dominance (target <20%)
 - **Content Complexity**: Predominantly complex workflows (minimal simple/medium)
 - **Business Authenticity**: 97% enterprise-grade content
 
@@ -17,10 +17,10 @@
 5. **Diverse Content Types**: Balanced coverage across workflows, decisions, communications, metrics
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology overrepresented at 42.7% vs real-world 10-15%
-2. **Content Type Weighting**: Policies (9.9%) and org structures (11.6%) underweighted vs target 15% each
+1. **Industry Imbalance**: Technology/AI overrepresented at 37% vs real-world 10-15%
+2. **Content Type Weighting**: Policies (10%) and org structures (12%) underweighted vs target 15% each
 3. **Complexity Distribution**: 100% complex workflows, lack of simple/medium complexity for accessibility
-4. **Traditional Industry Underrepresentation**: Retail (108 files), hospitality, insurance, utilities, mining, agriculture, aerospace significantly underrepresented
+4. **Traditional Industry Underrepresentation**: Retail (85 files), hospitality (61), insurance (59), utilities (19), mining (40), agriculture (45), aerospace (41) significantly underrepresented
 5. **Geographic Diversity**: Minimal EU/Asia content (target 10%+ each)
 
 ### Competitive Positioning

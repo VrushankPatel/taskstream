@@ -1,0 +1,40 @@
+{
+  "scenario_id": "decision_comm_crisis_protocol_2025",
+  "context": "Global consumer goods company (10,000 employees) facing increased regulatory scrutiny and social media risks",
+  "stakeholders": {
+    "requester": "Chief Communications Officer",
+    "approvers": ["CEO", "Board of Directors", "Legal Counsel"],
+    "influencers": ["Crisis Management Team", "PR Agency", "Regional Leaders"]
+  },
+  "request": {
+    "amount": "$350,000",
+    "purpose": "Develop comprehensive crisis communication protocol and training program",
+    "urgency": "medium",
+    "justification": "Recent product recall highlighted gaps in crisis response capabilities"
+  },
+  "decision_process": [
+    {
+      "stage": "crisis_assessment",
+      "duration": "3 weeks",
+      "activities": ["Historical crisis analysis", "Stakeholder mapping", "Regulatory review"],
+      "outcome": "Identified key crisis types: product safety, data breach, executive misconduct"
+    },
+    {
+      "stage": "protocol_development",
+      "duration": "6 weeks",
+      "activities": ["Cross-functional workshops", "Legal review", "External expert consultation"],
+      "outcome": "Comprehensive protocol covering detection, response, and recovery phases"
+    },
+    {
+      "stage": "training_implementation",
+      "duration": "4 weeks",
+      "activities": ["Spokesperson training", "Simulation exercises", "Global rollout planning"],
+      "outcome": "Training program for 200 key personnel with annual refresh cycles"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Faster crisis response times, reduced reputational damage, improved stakeholder trust",
+    "projected_roi": "Intangible - brand protection and regulatory compliance",
+    "risk_factors": ["Training effectiveness", "Global coordination challenges", "Evolving social media landscape"]
+  }
+}

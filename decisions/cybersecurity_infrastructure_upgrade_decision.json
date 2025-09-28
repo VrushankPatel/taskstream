@@ -1,0 +1,41 @@
+{
+  "scenario_id": "cybersecurity_upgrade_q4_2025",
+  "context": "Healthcare provider network (3000 employees) responding to increased cyber threats and regulatory requirements",
+  "stakeholders": {
+    "requester": "Chief Information Security Officer",
+    "approvers": ["CEO", "CFO", "Board Risk Committee"],
+    "influencers": ["IT Director", "Compliance Officer", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$3.2M",
+    "purpose": "Comprehensive cybersecurity infrastructure upgrade including zero-trust architecture and advanced threat detection",
+    "urgency": "critical",
+    "justification": "Recent industry breaches increased by 300%, HIPAA compliance violations carry $50K per incident penalties"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment",
+      "duration": "4 weeks",
+      "activities": ["Vulnerability assessment", "Threat modeling", "Regulatory gap analysis"],
+      "outcome": "Critical vulnerabilities identified, upgrade essential"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Security vendor evaluation", "Architecture design", "Cost-benefit analysis"],
+      "outcome": "Zero-trust framework selected with phased implementation"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "8 weeks",
+      "activities": ["Change management strategy", "Staff training program", "Incident response updates"],
+      "outcome": "12-month implementation roadmap approved"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["90% reduction in security incidents", "HIPAA compliance assurance", "$2M annual insurance premium reduction"],
+    "implementation_timeline": "12 months",
+    "risk_factors": ["Temporary service disruptions", "Staff training challenges", "Integration complexity"],
+    "success_metrics": ["Security incident rate <10% of baseline", "Audit compliance score >95%", "Mean time to detect threats <24 hours"]
+  }
+}

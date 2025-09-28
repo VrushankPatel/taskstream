@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_retail_returns_processing"
+  title: "Customer Returns and Refund Processing"
+  department: "Customer Service & Returns"
+  complexity: "medium"
+  participants: ["Returns Associate", "Customer Service Rep", "Inventory Manager", "Loss Prevention"]
+  trigger: "Customer initiates return request"
+  steps:
+    - step: 1
+      actor: "Customer"
+      action: "Submit return request with item and receipt"
+      tools: ["Online Portal", "In-Store Kiosk", "Customer Service Phone"]
+      duration: "5-10 minutes"
+      outputs: ["Return Request"]
+    - step: 2
+      actor: "Returns Associate"
+      action: "Inspect returned item for eligibility and condition"
+      tools: ["Returns Processing System", "Item Inspection Checklist"]
+      duration: "5-15 minutes"
+      outputs: ["Inspection Report"]
+      decision_points: ["Return Policy Compliance", "Item Condition Acceptable"]
+    - step: 3
+      actor: "Returns Associate"
+      action: "Process refund or exchange through POS system"
+      tools: ["Point of Sale System", "Payment Processing"]
+      duration: "3-5 minutes"
+      outputs: ["Refund/Exchange Transaction"]
+    - step: 4
+      actor: "Inventory Manager"
+      action: "Update inventory records and restock eligible items"
+      tools: ["Inventory Management System", "Warehouse Management"]
+      duration: "5-10 minutes"
+      outputs: ["Updated Inventory Records"]
+    - step: 5
+      actor: "Loss Prevention"
+      action: "Review high-value returns for fraud indicators"
+      tools: ["Fraud Detection System", "Customer History Database"]
+      duration: "10-30 minutes"
+      outputs: ["Fraud Assessment Report"]
+  success_criteria: "Returns processed within 24 hours, customer satisfaction >85%, fraud detection accuracy >95%"
+  failure_modes: ["Policy interpretation disputes", "Inventory discrepancies", "Payment processing errors"]

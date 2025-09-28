@@ -1,0 +1,41 @@
+{
+  "scenario_id": "product_line_extension_enterprise_q1_2026",
+  "context": "B2B software company (150 employees) considering enterprise-grade product expansion",
+  "stakeholders": {
+    "requester": "VP of Product",
+    "approvers": ["CEO", "CTO"],
+    "influencers": ["Head of Sales", "Customer Success Director", "Engineering Lead"]
+  },
+  "request": {
+    "amount": "$800K development budget",
+    "purpose": "Launch enterprise features including SSO, audit logging, and advanced security for mid-market expansion",
+    "urgency": "medium",
+    "justification": "Enterprise segment represents $50M annual revenue opportunity with 80% margins vs current 60%"
+  },
+  "decision_process": [
+    {
+      "stage": "customer_validation",
+      "duration": "3 weeks",
+      "activities": ["Enterprise customer interviews", "Requirements gathering", "Competitive analysis"],
+      "outcome": "Clear feature requirements identified with strong customer demand"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "2 weeks",
+      "activities": ["Architecture review", "Development effort estimation", "Security assessment"],
+      "outcome": "Feasible with existing platform, 6-month development timeline"
+    },
+    {
+      "stage": "business_case",
+      "duration": "2 weeks",
+      "activities": ["Revenue modeling", "Pricing strategy", "Go-to-market planning"],
+      "outcome": "Expected 3x ROI within 18 months"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$12M additional annual revenue", "Improved customer retention", "Enhanced competitive positioning"],
+    "implementation_timeline": "8 months to launch",
+    "risk_factors": ["Development delays", "Enterprise sales cycle length", "Integration complexity"],
+    "success_metrics": ["Enterprise revenue >$8M within 2 years", "Customer acquisition cost <25% of SMB", "Product adoption rate >70%"]
+  }
+}

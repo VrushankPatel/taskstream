@@ -1,0 +1,41 @@
+{
+  "scenario_id": "strategic_vendor_partnership_q3_2025",
+  "context": "Retail chain (200 stores) seeking strategic partnership for supply chain optimization",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["VP of Merchandising", "IT Director", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$500K partnership setup costs",
+    "purpose": "Form strategic partnership with logistics technology provider for end-to-end supply chain visibility",
+    "urgency": "medium-high",
+    "justification": "Current supply chain costs represent 25% of revenue, partnership could reduce by 15%"
+  },
+  "decision_process": [
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Vendor capability assessment", "Technology demonstration", "Reference checks"],
+      "outcome": "Top 3 vendors identified with clear technology leader"
+    },
+    {
+      "stage": "partnership_modeling",
+      "duration": "4 weeks",
+      "activities": ["Financial analysis", "Risk assessment", "Integration planning"],
+      "outcome": "Revenue-sharing partnership model recommended"
+    },
+    {
+      "stage": "negotiation",
+      "duration": "3 weeks",
+      "activities": ["Contract terms negotiation", "SLA definition", "Exit clauses"],
+      "outcome": "3-year partnership agreement finalized"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$8M annual cost savings", "Improved inventory turnover", "Enhanced customer satisfaction"],
+    "implementation_timeline": "6 months for full integration",
+    "risk_factors": ["Vendor dependency", "Technology integration challenges", "Contractual disputes"],
+    "success_metrics": ["Supply chain costs reduced by 12%", "On-time delivery >98%", "Inventory carrying costs down 20%"]
+  }
+}

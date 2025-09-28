@@ -1,0 +1,37 @@
+{
+  "scenario_id": "insurance_cyber_underwriting_expansion_v2_2025",
+  "context": "Insurance company expanding cyber risk coverage amid rising digital threats",
+  "stakeholders": {
+    "requester": "Head of Cyber Underwriting",
+    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer"],
+    "influencers": ["Actuarial Director", "Claims Manager", "IT Security Lead"]
+  },
+  "request": {
+    "amount": "$1.2M",
+    "purpose": "Advanced cyber analytics platform and underwriter training program",
+    "urgency": "medium",
+    "justification": "Cyber claims increasing 40% annually, need better risk assessment capabilities"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "4 weeks",
+      "activities": ["Industry research", "Competitor analysis", "Regulatory review"],
+      "outcome": "Strategic opportunity identified"
+    },
+    {
+      "stage": "capability_assessment",
+      "duration": "3 weeks",
+      "activities": ["Technology evaluation", "Skills gap analysis", "Cost-benefit modeling"],
+      "outcome": "Investment approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% growth in cyber premium volume",
+    "projected_value": "$5M additional annual revenue",
+    "risk_factors": ["Underwriting accuracy challenges", "Regulatory changes", "Technology adoption delays"]
+  },
+  "decision_criteria": ["Risk-adjusted return >15%", "Regulatory compliance maintained", "Staff capability development"],
+  "outcome": "Approved",
+  "lessons_learned": "Cyber risk underwriting requires continuous investment in both technology and expertise"
+}

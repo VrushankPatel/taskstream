@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_omnichannel_v2"
+  title: "Omnichannel Order Fulfillment Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Order Manager", "Warehouse Supervisor", "Shipping Coordinator", "Customer Service Rep"]
+  trigger: "Online order placed via website or app"
+  steps:
+    - step: 1
+      actor: "Order Manager"
+      action: "Validate order details and payment"
+      tools: ["E-commerce Platform", "Payment Gateway"]
+      duration: "15 minutes"
+      outputs: ["Validated Order"]
+    - step: 2
+      actor: "Warehouse Supervisor"
+      action: "Pick items from inventory"
+      tools: ["Inventory Management System", "Barcode Scanner"]
+      duration: "30 minutes"
+      outputs: ["Picked Items"]
+    - step: 3
+      actor: "Shipping Coordinator"
+      action: "Select shipping method and prepare package"
+      tools: ["Shipping Software", "Packaging Materials"]
+      duration: "20 minutes"
+      outputs: ["Packaged Order"]
+    - step: 4
+      actor: "Customer Service Rep"
+      action: "Send tracking notification to customer"
+      tools: ["CRM System", "Email Platform"]
+      duration: "5 minutes"
+      outputs: ["Customer Notification"]
+  success_criteria: "Order delivered within promised timeframe"
+  failure_modes: ["Stock shortage", "Shipping delay", "Payment issues"]
+  metrics:
+    - "Order fulfillment time: <24 hours"
+    - "Customer satisfaction: >95%"
+    - "Return rate: <2%"

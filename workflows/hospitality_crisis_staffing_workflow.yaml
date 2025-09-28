@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_hospitality_crisis_staffing"
+  title: "Hospitality Crisis Staffing Management Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Director", "Operations Manager", "Department Heads", "Staffing Coordinator"]
+  trigger: "Natural disaster, pandemic restrictions, or major staffing shortage event"
+  steps:
+    - step: 1
+      actor: "HR Director"
+      action: "Assess crisis impact on staffing requirements and safety protocols"
+      tools: ["Crisis Management Framework", "Staffing Impact Calculator", "Safety Guidelines"]
+      duration: "4 hours"
+      outputs: ["Crisis staffing assessment", "Safety protocol updates"]
+    - step: 2
+      actor: "Staffing Coordinator"
+      action: "Identify available staff, cross-training needs, and external hiring requirements"
+      tools: ["Staff Scheduling System", "Skills Inventory Database", "Recruitment Platform"]
+      duration: "3 hours"
+      outputs: ["Staff availability matrix", "Training priority list", "Recruitment plan"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Develop modified service protocols and staffing ratios for crisis operations"
+      tools: ["Service Protocol Templates", "Staffing Ratio Calculator"]
+      duration: "2 hours"
+      outputs: ["Modified service protocols", "Staffing deployment plan"]
+    - step: 4
+      actor: "Operations Manager"
+      action: "Coordinate staff redeployment, training execution, and communication"
+      tools: ["Communication Platform", "Training Management System"]
+      duration: "6 hours"
+      outputs: ["Staff redeployment schedule", "Training completion tracking", "Staff communication plan"]
+  success_criteria: "Service continuity maintained at 90%, staff safety compliance 100%, guest satisfaction above 4.0/5.0 during crisis"
+  failure_modes: ["Inadequate crisis planning", "Communication breakdowns", "Training delays", "Staff morale issues"]
+  metrics:
+    - "Service Continuity Rate: Target >90% during crisis"
+    - "Staff Safety Compliance: Target 100%"
+    - "Training Completion Rate: Target >95% within 48 hours"
+    - "Staff Retention During Crisis: Target >85%"

@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_insurance_cyber_risk_assessment"
+  title: "Insurance Cyber Risk Assessment Process"
+  department: "Underwriting"
+  complexity: "medium"
+  participants: ["Cyber Underwriter", "Risk Analyst", "IT Security Specialist", "Claims Manager"]
+  trigger: "New policy application or annual policy renewal with cyber coverage"
+  steps:
+    - step: 1
+      actor: "Cyber Underwriter"
+      action: "Review applicant's business profile and cyber exposure questionnaire"
+      tools: ["Underwriting Platform", "Cyber Risk Questionnaire"]
+      duration: "1 hour"
+      outputs: ["Initial risk profile", "Follow-up questions list"]
+    - step: 2
+      actor: "Risk Analyst"
+      action: "Conduct industry benchmarking and threat intelligence analysis"
+      tools: ["Risk Database", "Threat Intelligence Feeds", "Industry Reports"]
+      duration: "2 hours"
+      outputs: ["Industry risk assessment", "Threat landscape analysis"]
+    - step: 3
+      actor: "IT Security Specialist"
+      action: "Evaluate applicant's cybersecurity controls and compliance status"
+      tools: ["Security Assessment Framework", "Compliance Checklists"]
+      duration: "3 hours"
+      outputs: ["Security posture evaluation", "Control gap analysis"]
+    - step: 4
+      actor: "Claims Manager"
+      action: "Review historical cyber claims data for similar businesses"
+      tools: ["Claims Database", "Loss Analytics Platform"]
+      duration: "1 hour"
+      outputs: ["Loss history analysis", "Pricing recommendations"]
+    - step: 5
+      actor: "Cyber Underwriter"
+      action: "Finalize risk rating and premium calculation"
+      tools: ["Pricing Models", "Underwriting Guidelines"]
+      duration: "1 hour"
+      outputs: ["Risk rating", "Premium quote", "Coverage terms"]
+  success_criteria: "Accurate risk assessment completed within 5 business days, loss ratios within expected ranges"
+  failure_modes: ["Incomplete applicant data", "Outdated threat intelligence", "Inadequate security evaluation", "Pricing model limitations"]
+  metrics:
+    - "Assessment Completion Time: Target <5 business days"
+    - "Risk Rating Accuracy: Target >95% correlation with actual losses"
+    - "Cyber Loss Ratio: Target <75% for portfolio"
+    - "Customer Satisfaction with Underwriting Process: Target >4.2/5.0"

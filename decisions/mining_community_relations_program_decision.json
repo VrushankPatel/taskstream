@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_community_relations_program_decision",
+  "context": "Large-scale mining operation in rural area facing community opposition to expansion plans. Recent environmental concerns and economic dependency create complex stakeholder dynamics. Company seeks to improve relations through comprehensive community engagement program.",
+  "stakeholders": {
+    "requester": "Community Relations Manager",
+    "approvers": ["CEO", "Board Sustainability Committee", "Operations Director"],
+    "influencers": ["Environmental Manager", "HR Director", "Local Government Liaison"]
+  },
+  "request": {
+    "amount": "$2M annually",
+    "purpose": "Community relations and engagement program including education, economic development, and environmental monitoring",
+    "urgency": "high",
+    "justification": "Secure social license to operate for expansion, reduce regulatory delays, improve community relations, enhance corporate reputation"
+  },
+  "decision_process": [
+    {
+      "stage": "stakeholder_assessment",
+      "duration": "2 months",
+      "activities": ["Community surveys", "Stakeholder interviews", "Social impact baseline study"],
+      "outcome": "Identified key concerns and engagement opportunities"
+    },
+    {
+      "stage": "program_design",
+      "duration": "3 months",
+      "activities": ["Program framework development", "Partnership identification", "Budget allocation"],
+      "outcome": "Comprehensive program design with measurable objectives"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "1 month",
+      "activities": ["ROI analysis", "Risk assessment", "Board presentation"],
+      "outcome": "Approved with performance monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved community relations, faster permitting processes, reduced operational disruptions, enhanced reputation",
+    "projected_value": "$15M in avoided delays and operational continuity",
+    "risk_factors": ["Community expectations not met", "Program execution challenges", "Economic dependency issues", "Environmental incidents"]
+  },
+  "decision_criteria": ["Community satisfaction improvement >20%", "Permitting timeline reduction >30%", "Program cost <2% of annual revenue", "Stakeholder alignment", "Measurable social impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement prevents opposition, comprehensive baseline assessment enables measurement, flexible program design accommodates local needs"
+}

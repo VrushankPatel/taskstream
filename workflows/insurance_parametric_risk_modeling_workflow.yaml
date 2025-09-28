@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_insurance_parametric_risk_modeling"
+  title: "Insurance Parametric Risk Modeling Process"
+  department: "Underwriting"
+  complexity: "medium"
+  participants: ["Risk Modeler", "Data Scientist", "Underwriting Manager", "Actuary"]
+  trigger: "New parametric product development or annual model validation requirement"
+  steps:
+    - step: 1
+      actor: "Data Scientist"
+      action: "Collect and validate historical data for risk parameters (weather, economic indicators, etc.)"
+      tools: ["Data Lake Platform", "ETL Tools", "Data Quality Software"]
+      duration: "8 hours"
+      outputs: ["Validated dataset", "Data quality report"]
+    - step: 2
+      actor: "Risk Modeler"
+      action: "Develop parametric triggers and payout structures using statistical modeling"
+      tools: ["Statistical Software (R/Python)", "Risk Modeling Platform", "Simulation Tools"]
+      duration: "16 hours"
+      outputs: ["Parametric model framework", "Trigger sensitivity analysis"]
+    - step: 3
+      actor: "Actuary"
+      action: "Validate model assumptions, pricing, and capital requirements"
+      tools: ["Actuarial Software", "Capital Modeling Tools", "Regulatory Compliance Framework"]
+      duration: "12 hours"
+      outputs: ["Pricing validation report", "Capital adequacy assessment"]
+    - step: 4
+      actor: "Underwriting Manager"
+      action: "Review model for business viability and risk appetite alignment"
+      tools: ["Business Case Template", "Risk Appetite Framework"]
+      duration: "4 hours"
+      outputs: ["Business case approval", "Implementation roadmap"]
+  success_criteria: "Model accuracy within 10% of actual outcomes, pricing competitive, regulatory approval obtained within 6 months"
+  failure_modes: ["Insufficient historical data", "Model overfitting", "Regulatory non-compliance", "Pricing misalignment"]
+  metrics:
+    - "Model Prediction Accuracy: Target within 10% of actual outcomes"
+    - "Development Timeline: Target <6 months"
+    - "Pricing Competitiveness: Target within 5% of market rates"
+    - "Regulatory Approval Rate: Target >95%"

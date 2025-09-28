@@ -1,0 +1,43 @@
+{
+  "scenario_id": "real_estate_green_building_certification_decision",
+  "context": "Commercial real estate developer evaluating LEED Platinum certification for 500,000 sq ft office complex in urban business district. Market analysis shows 8% rental premium for certified buildings with 95% tenant preference for green features.",
+  "stakeholders": {
+    "requester": "VP of Sustainable Development",
+    "approvers": ["CEO", "CFO", "Board ESG Committee"],
+    "influencers": ["Property Management Director", "Construction Manager", "Tenant Relations VP"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "LEED Platinum certification costs including design consultation, materials, and third-party verification",
+    "urgency": "medium",
+    "justification": "Market demand for sustainable office space increasing, potential 8% rental premium, enhanced asset value, regulatory compliance advantages"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "2 weeks",
+      "activities": ["Tenant preference surveys", "Competitive building analysis", "Economic impact modeling"],
+      "outcome": "Strong market demand confirmed with 8% premium validated"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "3 weeks",
+      "activities": ["Detailed certification cost breakdown", "ROI projections", "Alternative certification options evaluation"],
+      "outcome": "LEED Platinum shows strongest ROI at 15% over 10 years"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "2 weeks",
+      "activities": ["Cross-functional team workshops", "Executive presentations", "Board committee review"],
+      "outcome": "Full alignment on sustainability goals and market positioning"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "8-10% higher rental rates, improved tenant retention, enhanced brand reputation, future-proof regulatory compliance",
+    "projected_value": "$8M additional revenue over 15 years, $2M asset value increase",
+    "risk_factors": ["Construction timeline delays", "Material cost overruns", "Certification process complexity", "Market demand fluctuations"]
+  },
+  "decision_criteria": ["ROI >12% over project lifecycle", "Market demand validation >80% tenant preference", "Brand alignment with sustainability goals", "Construction feasibility", "Stakeholder consensus"],
+  "outcome": "Approved",
+  "lessons_learned": "Early certification integration reduces costs by 20%, comprehensive tenant research critical for ROI justification, phased certification approach minimizes timeline risks"
+}

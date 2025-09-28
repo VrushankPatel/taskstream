@@ -42,25 +42,20 @@ workflow:
       tools: ["Cultural assessment tools", "Localization frameworks"]
       duration: "2 weeks"
       outputs: ["Localization strategy", "Cultural adaptation plans"]
-    - step: 7
-      actor: "Compliance Officers"
-      action: "Implement compliance monitoring and reporting systems"
-<<<<<<< HEAD
+     - step: 7
+       actor: "Compliance Officers"
+       action: "Implement compliance monitoring and reporting systems"
        tools: ["Compliance management systems", "Reporting dashboards"]
-      duration: "2 weeks"
-=======
-      tools: ["Compliance management systems", "Reporting dashboards"]
        duration: "2 weeks"
->>>>>>> origin/master
-      outputs: ["Monitoring systems", "Compliance reporting framework"]
+       outputs: ["Monitoring systems", "Compliance reporting framework"]
   success_criteria: "Comprehensive compliance framework enabling safe cross-border operations"
   failure_modes: ["Regulatory oversights", "Tax compliance issues", "Data privacy breaches", "Cultural adaptation failures"]
-  metrics:
-     - "Compliance audit pass rate: Target 100%"
-     - "Regulatory violation incidents: Target 0"
-     - "Cross-border transaction processing time: Target <5 days"
-     - "Data privacy compliance score: Target >95%"
-     - "Tax compliance accuracy: Target >99%"
-     - "Cultural adaptation training completion: Target 90%"
-     - "International partner satisfaction: Target 4.5/5"
-     - "Risk mitigation effectiveness: Target >90%"
+   metrics:
+    - "Compliance audit pass rate: Target 100%"
+    - "Regulatory violation incidents: Target 0"
+    - "Cross-border transaction processing time: Target <5 days"
+    - "Data privacy compliance score: Target >95%"
+    - "Tax compliance accuracy: Target >99%"
+    - "Cultural adaptation training completion: Target 90%"
+    - "International partner satisfaction: Target 4.5/5"
+    - "Risk mitigation effectiveness: Target >90%"

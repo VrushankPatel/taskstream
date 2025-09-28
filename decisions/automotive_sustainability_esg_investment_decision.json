@@ -1,0 +1,43 @@
+{
+  "scenario_id": "automotive_sustainability_esg_investment_decision",
+  "context": "Global automotive manufacturer evaluating major investment in sustainable battery technology and ESG initiatives amid increasing regulatory pressure and consumer demand for green vehicles",
+  "stakeholders": {
+    "requester": "VP Sustainability",
+    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
+    "influencers": ["Head of R&D", "Chief Legal Officer", "VP Manufacturing", "Environmental NGOs"]
+  },
+  "request": {
+    "amount": "$2.5 billion",
+    "purpose": "Investment in next-generation battery technology, recycling facilities, and ESG compliance systems",
+    "urgency": "high",
+    "justification": "Regulatory requirements for 2035 zero-emission mandate and market demand for sustainable vehicles"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "3 months",
+      "activities": ["Technology assessment", "Financial modeling", "Regulatory impact analysis"],
+      "outcome": "Feasibility confirmed with projected 15% ROI"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "2 months",
+      "activities": ["Board presentations", "Investor meetings", "NGO partnerships"],
+      "outcome": "Strong support from key stakeholders"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 month",
+      "activities": ["Board vote", "Contract negotiations", "Funding allocation"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Market leadership in sustainable automotive technology",
+    "projected_value": "$8 billion in additional revenue by 2030",
+    "risk_factors": ["Technology development delays", "Regulatory changes", "Supply chain disruptions"]
+  },
+  "decision_criteria": ["Financial ROI", "Regulatory compliance", "Market positioning", "Sustainability impact", "Stakeholder alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for ESG investments, comprehensive risk assessment essential for large-scale sustainability projects"
+}

@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_telecom_international_localization"
+  title: "Telecom International Market Localization Process"
+  department: "International Operations"
+  complexity: "complex"
+  participants: ["International Business Manager", "Legal Team", "Technical Operations", "Marketing Team", "Local Partners"]
+  trigger: "Decision to enter new international market"
+  steps:
+    - step: 1
+      actor: "International Business Manager"
+      action: "Conduct market research and regulatory assessment"
+      tools: ["Market Intelligence Tools", "Regulatory Databases"]
+      duration: "2 months"
+      outputs: ["Market entry strategy", "Regulatory requirements document"]
+    - step: 2
+      actor: "Legal Team"
+      action: "Negotiate spectrum licenses and interconnection agreements"
+      tools: ["Contract Management System", "Legal Research Databases"]
+      duration: "3-6 months"
+      outputs: ["Licensing agreements", "Interconnection contracts"]
+    - step: 3
+      actor: "Technical Operations"
+      action: "Design network architecture for local requirements"
+      tools: ["Network Planning Software", "Technical Standards Databases"]
+      duration: "4 months"
+      outputs: ["Network design specifications", "Equipment procurement plan"]
+    - step: 4
+      actor: "Marketing Team"
+      action: "Develop localized marketing materials and pricing strategy"
+      tools: ["Marketing Automation Platform", "Translation Services"]
+      duration: "2 months"
+      outputs: ["Localized content", "Market pricing model"]
+    - step: 5
+      actor: "Local Partners"
+      action: "Establish local operations and customer service infrastructure"
+      tools: ["Partner Management System", "HR Systems"]
+      duration: "3 months"
+      outputs: ["Local office setup", "Service delivery capabilities"]
+  success_criteria: "Successful network launch with positive market reception and regulatory compliance"
+  failure_modes: ["Regulatory delays", "Technical integration issues", "Cultural adaptation challenges"]
+  metrics:
+    - "Time to market: Target 12 months"
+    - "Market share achievement (2 years): Target 5%"
+    - "Customer acquisition cost: Target $150"

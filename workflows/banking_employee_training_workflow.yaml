@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_banking_employee_training"
+  title: "Banking Employee Onboarding and Training Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Manager", "Department Head", "New Employee", "Compliance Officer", "IT Support"]
+  trigger: "New employee hire or internal transfer requiring training"
+  steps:
+    - step: 1
+      actor: "HR Manager"
+      action: "Complete pre-employment paperwork and schedule orientation"
+      tools: ["HRIS System", "Onboarding Portal"]
+      duration: "1 day"
+      outputs: ["Employee profile created", "Orientation schedule"]
+    - step: 2
+      actor: "Compliance Officer"
+      action: "Conduct regulatory compliance training (AML, KYC, data privacy)"
+      tools: ["Learning Management System", "Compliance Database"]
+      duration: "2 days"
+      outputs: ["Compliance certification", "Training records"]
+    - step: 3
+      actor: "Department Head"
+      action: "Assign mentor and define role-specific training requirements"
+      tools: ["Performance Management System"]
+      duration: "1 week"
+      outputs: ["Mentorship assignment", "Training plan"]
+    - step: 4
+      actor: "New Employee"
+      action: "Complete department-specific training modules and shadowing"
+      tools: ["Online Learning Platform", "Department Resources"]
+      duration: "2-4 weeks"
+      outputs: ["Skill assessments", "Performance feedback"]
+    - step: 5
+      actor: "IT Support"
+      action: "Set up system access and security training"
+      tools: ["Identity Management System", "Security Training Portal"]
+      duration: "3 days"
+      outputs: ["System credentials", "Security clearance"]
+  success_criteria: "Employee demonstrates required competencies and passes all compliance certifications"
+  failure_modes: ["Incomplete compliance training", "System access delays", "Poor mentor assignment"]
+  metrics:
+    - "Time to productivity: Target 30 days"
+    - "Compliance pass rate: Target 95%"
+    - "Employee retention (6 months): Target 90%"

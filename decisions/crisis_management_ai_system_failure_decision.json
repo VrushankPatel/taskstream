@@ -1,0 +1,40 @@
+{
+  "scenario_id": "crisis_management_ai_system_failure_decision",
+  "context": "Healthcare AI company experiencing critical system failure affecting patient diagnosis recommendations",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Board of Directors", "Crisis Management Team"],
+    "influencers": ["Regulatory Agencies", "Hospital Partners", "Patient Safety Organizations"]
+  },
+  "request": {
+    "amount": "$5 million",
+    "purpose": "Emergency system recovery and enhanced monitoring implementation",
+    "urgency": "critical",
+    "justification": "Restore system reliability and prevent patient safety risks"
+  },
+  "decision_process": [
+    {
+      "stage": "incident_assessment",
+      "duration": "2 hours",
+      "activities": ["Root cause analysis", "Impact evaluation", "Containment measures"],
+      "outcome": "Identified software bug causing incorrect recommendations"
+    },
+    {
+      "stage": "recovery_planning",
+      "duration": "4 hours",
+      "activities": ["Recovery strategy development", "Resource allocation", "Communication planning"],
+      "outcome": "24-hour recovery plan with redundant systems"
+    },
+    {
+      "stage": "stakeholder_communication",
+      "duration": "6 hours",
+      "activities": ["Regulatory notifications", "Partner updates", "Public statements"],
+      "outcome": "Transparent communication maintaining trust"
+    }
+  ],
+  "business_impact": {
+    "expected_downtime": "24 hours",
+    "projected_revenue_impact": "$2 million",
+    "risk_factors": ["Patient safety concerns", "Regulatory penalties", "Loss of partner confidence", "Reputational damage"]
+  }
+}

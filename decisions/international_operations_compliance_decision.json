@@ -1,0 +1,40 @@
+{
+  "scenario_id": "international_operations_compliance_decision",
+  "context": "Global technology company expanding operations into emerging markets with complex regulatory environments",
+  "stakeholders": {
+    "requester": "Chief Compliance Officer",
+    "approvers": ["CEO", "General Counsel", "Regional Presidents"],
+    "influencers": ["Local Governments", "Industry Associations", "Legal Experts"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Establish compliant operations in 5 new international markets",
+    "urgency": "high",
+    "justification": "Access $500 million market opportunity and diversify revenue streams"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "8 weeks",
+      "activities": ["Legal landscape analysis", "Compliance gap assessment", "Risk evaluation"],
+      "outcome": "Identified key compliance requirements and mitigation strategies"
+    },
+    {
+      "stage": "market_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Market opportunity analysis", "Competitive assessment", "Entry strategy development"],
+      "outcome": "Strong market potential confirmed with clear competitive advantages"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Operational setup", "Local partnerships", "Training programs"],
+      "outcome": "Comprehensive implementation plan with local expertise integration"
+    }
+  ],
+  "business_impact": {
+    "expected_market_revenue": "$500 million",
+    "projected_market_share": "15%",
+    "risk_factors": ["Regulatory uncertainty", "Cultural integration challenges", "Currency fluctuations", "Political instability"]
+  }
+}

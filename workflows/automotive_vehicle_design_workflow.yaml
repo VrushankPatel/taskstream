@@ -1,0 +1,60 @@
+workflow:
+  id: "workflow_automotive_design"
+  title: "Automotive Vehicle Design and Development Process"
+  department: "Engineering/R&D"
+  complexity: "high"
+  participants: ["Chief Engineer", "Design Team", "Prototyping Team", "Testing Team", "Regulatory Compliance", "Manufacturing Engineering", "Supply Chain", "Marketing"]
+  trigger: "New vehicle platform requirement or market opportunity identified"
+  steps:
+    - step: 1
+      actor: "Product Planning Team"
+      action: "Define vehicle requirements and specifications based on market research and customer feedback"
+      tools: ["Market analysis software", "Customer survey data", "Competitive benchmarking"]
+      duration: "4-6 weeks"
+      outputs: ["Vehicle requirements document", "Initial cost estimates"]
+    - step: 2
+      actor: "Design Team"
+      action: "Create conceptual designs and digital models using CAD software"
+      tools: ["CATIA", "SolidWorks", "Simulation software"]
+      duration: "8-12 weeks"
+      outputs: ["Digital design models", "Design concept presentations"]
+      decision_points: ["Feasibility assessment", "Cost vs. performance trade-offs"]
+    - step: 3
+      actor: "Prototyping Team"
+      action: "Build and test physical prototypes for key components and systems"
+      tools: ["3D printing", "CNC machining", "Test rigs"]
+      duration: "12-16 weeks"
+      outputs: ["Physical prototypes", "Initial test results"]
+      failure_modes: ["Design flaws requiring redesign", "Material performance issues"]
+    - step: 4
+      actor: "Testing Team"
+      action: "Conduct comprehensive testing including crash tests, durability, and performance validation"
+      tools: ["Crash test facilities", "Dyno testing", "Environmental chambers"]
+      duration: "16-20 weeks"
+      outputs: ["Test reports", "Certification documentation"]
+    - step: 5
+      actor: "Regulatory Compliance Team"
+      action: "Ensure compliance with safety standards (NHTSA, IIHS) and emissions regulations"
+      tools: ["Regulatory databases", "Compliance checklists"]
+      duration: "8-12 weeks"
+      outputs: ["Compliance certificates", "Regulatory submissions"]
+    - step: 6
+      actor: "Manufacturing Engineering"
+      action: "Develop production processes and tooling for mass manufacturing"
+      tools: ["DFM analysis", "Process simulation software"]
+      duration: "12-16 weeks"
+      outputs: ["Manufacturing plans", "Tooling specifications"]
+    - step: 7
+      actor: "Supply Chain Team"
+      action: "Source suppliers and establish supply agreements for components"
+      tools: ["Supplier databases", "Contract management systems"]
+      duration: "8-12 weeks"
+      outputs: ["Supplier contracts", "Supply chain risk assessments"]
+    - step: 8
+      actor: "Cross-functional Review Board"
+      action: "Final design review and approval for production launch"
+      decision_points: ["Go/no-go decision", "Budget approval"]
+      duration: "2-4 weeks"
+      outputs: ["Production approval", "Launch timeline"]
+  success_criteria: "Vehicle meets all performance, safety, and cost targets; successful production ramp-up"
+  failure_modes: ["Cost overruns exceeding 20%", "Regulatory non-compliance", "Performance targets not met", "Supplier delivery delays"]

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "automotive_supply_chain_resilience_2025",
+  "context": "Major automotive manufacturer (50,000 employees, $100B revenue) facing semiconductor chip shortages and geopolitical supply disruptions. Company produces 5M vehicles annually across 20 global plants.",
+  "stakeholders": {
+    "requester": "Chief Procurement Officer",
+    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
+    "influencers": ["Head of Manufacturing", "VP Supply Chain", "Regional Plant Managers", "External Consultants"],
+    "affected_parties": ["Dealers", "Customers", "Suppliers", "Shareholders"]
+  },
+  "request": {
+    "amount": "$2.5B",
+    "purpose": "Multi-year supply chain resilience program including regional supplier development, inventory buffers, and technology investments",
+    "urgency": "high",
+    "justification": "Recent chip shortage cost $8B in lost revenue; geopolitical tensions threaten 40% of critical components"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "duration": "3 weeks",
+      "activities": ["Supply chain risk analysis", "Financial impact modeling", "Competitive benchmarking"],
+      "outcome": "Program deemed critical; moved to detailed planning phase"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "4 weeks",
+      "activities": ["Executive committee presentations", "Regional leadership consultations", "Supplier negotiations"],
+      "outcome": "Strong support from operations; concerns from finance about ROI timeline"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "2 weeks",
+      "activities": ["NPV analysis", "Scenario planning", "Funding structure options"],
+      "outcome": "Approved with phased implementation; $500M initial investment, remaining contingent on milestones"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Supplier diversification roadmap", "Technology platform selection", "Change management planning"],
+      "outcome": "Program launched with dedicated cross-functional team and external advisory support"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["40% reduction in supply disruption risk", "$2B annual cost savings", "Improved delivery reliability"],
+    "implementation_challenges": ["Supplier relationship management", "Technology integration complexity", "Cultural change resistance"],
+    "risk_factors": ["Economic downturn reducing demand", "New geopolitical conflicts", "Technology implementation delays"],
+    "success_metrics": ["Supplier diversification index", "Inventory turnover improvement", "Production downtime reduction"]
+  },
+  "lessons_learned": "Early stakeholder engagement critical for complex transformation programs; modular implementation reduces risk while demonstrating value"
+}

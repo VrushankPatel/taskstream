@@ -1,0 +1,59 @@
+workflow:
+  id: "workflow_aerospace_certification"
+  title: "Aerospace Safety Certification and Compliance Process"
+  department: "Quality & Regulatory Affairs"
+  complexity: "high"
+  participants: ["Chief Engineer", "Certification Manager", "Quality Assurance Team", "Regulatory Affairs", "Design Engineering", "Test Engineering", "External Auditors"]
+  trigger: "New aircraft design completion or major system modification requiring certification"
+  steps:
+    - step: 1
+      actor: "Certification Manager"
+      action: "Define certification requirements based on FAA/EASA regulations and aircraft type"
+      tools: ["Regulatory databases", "Certification planning software"]
+      duration: "2-4 weeks"
+      outputs: ["Certification plan", "Compliance checklist"]
+    - step: 2
+      actor: "Design Engineering"
+      action: "Conduct preliminary design reviews and safety assessments"
+      tools: ["Safety analysis software", "FMEA tools"]
+      duration: "4-6 weeks"
+      outputs: ["Preliminary safety assessment", "Design review reports"]
+    - step: 3
+      actor: "Test Engineering"
+      action: "Develop and execute certification test plans including ground and flight tests"
+      tools: ["Test planning software", "Data acquisition systems"]
+      duration: "16-24 weeks"
+      outputs: ["Test procedures", "Test data reports"]
+      failure_modes: ["Test failures requiring design changes", "Equipment malfunctions"]
+    - step: 4
+      actor: "Quality Assurance Team"
+      action: "Perform quality audits and verify compliance with design specifications"
+      tools: ["Quality management system", "Audit checklists"]
+      duration: "6-8 weeks"
+      outputs: ["Quality audit reports", "Non-conformance reports"]
+    - step: 5
+      actor: "Regulatory Affairs"
+      action: "Prepare and submit certification documentation to regulatory authorities"
+      tools: ["Document management system", "Regulatory submission software"]
+      duration: "4-6 weeks"
+      outputs: ["Certification application", "Technical documentation package"]
+    - step: 6
+      actor: "External Auditors"
+      action: "Conduct independent audits and witness critical tests"
+      tools: ["Audit protocols", "Independent test facilities"]
+      duration: "4-8 weeks"
+      outputs: ["Audit reports", "Test witnessing reports"]
+    - step: 7
+      actor: "Certification Manager"
+      action: "Address any findings or requests for additional information from regulators"
+      tools: ["Regulatory communication systems", "Corrective action tracking"]
+      duration: "4-12 weeks"
+      outputs: ["Response to findings", "Additional test results"]
+    - step: 8
+      actor: "Regulatory Authority"
+      action: "Issue type certificate or supplemental type certificate"
+      decision_points: ["Certification approval", "Additional requirements"]
+      duration: "2-4 weeks"
+      outputs: ["Type certificate", "Certification limitations"]
+  success_criteria: "Regulatory certification obtained with no major findings, aircraft approved for commercial operation"
+  failure_modes: ["Certification delays exceeding 6 months", "Major design changes required", "Regulatory non-compliance findings", "Test facility unavailability"]

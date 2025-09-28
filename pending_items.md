@@ -1,5 +1,12 @@
 # Pending Research Items for TaskStream Dataset
 
+## Completed in Session 12
+- Automotive: Vehicle design cycles, supply chain resilience, engineering department structures
+- Food Service: Menu engineering processes, franchise expansion decisions, restaurant chain operations
+- Aerospace: Safety certification processes, maintenance scheduling optimization, regulatory compliance
+- Utilities: Smart grid management, renewable energy integration, infrastructure optimization
+- Nonprofit: Fundraising campaign management, donor relationship strategies, impact measurement
+
 ## Completed in Session 11
 - Insurance: Claims processing automation, underwriting decision frameworks, fraud detection integration
 - Real Estate: Property valuation workflows, appraisal automation, market analysis integration
@@ -121,15 +128,10 @@
 - Pharmaceutical: Clinical trial management, drug safety monitoring
 - Agriculture: Crop yield optimization, sustainable farming practices
 - Telecommunications: Network infrastructure deployment, customer service automation
-- Nonprofit: Fundraising campaign management, impact measurement systems
-- Automotive: Vehicle design cycles, supply chain resilience
-- Food Service: Menu engineering, inventory optimization
+- Mining: Resource extraction optimization, environmental impact assessment
+- Fashion: Trend forecasting, sustainable sourcing
 - Consulting: Project scoping methodologies, client delivery frameworks
 - Legal Services: Case management systems, compliance monitoring
-- Aerospace: Safety certification processes, maintenance scheduling
-- Mining: Resource extraction optimization, environmental impact assessment
-- Utilities: Smart grid management, renewable energy integration
-- Fashion: Trend forecasting, sustainable sourcing
 
 ## Industry-Specific Workflows to Research
 - Healthcare: Patient intake, medical billing

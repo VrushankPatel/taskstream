@@ -1,0 +1,49 @@
+{
+  "scenario_id": "aerospace_maintenance_scheduling_2025",
+  "context": "Commercial aircraft maintenance provider serving major airlines. Fleet of 500 aircraft under maintenance contracts worth $2B annually.",
+  "stakeholders": {
+    "requester": "Chief Maintenance Officer",
+    "approvers": ["CEO", "COO"],
+    "influencers": ["Fleet Management", "Customer Relations", "Regulatory Affairs", "Finance"],
+    "affected_parties": ["Airlines", "Pilots", "Passengers", "Regulatory bodies"]
+  },
+  "request": {
+    "amount": "$150M",
+    "purpose": "Implement predictive maintenance system using AI and IoT sensors to optimize maintenance scheduling and reduce aircraft downtime",
+    "urgency": "high",
+    "justification": "Current reactive maintenance causes 15% more downtime than industry average; predictive approach could save $80M annually"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "8 weeks",
+      "activities": ["Technology vendor evaluation", "Pilot program design", "ROI modeling"],
+      "outcome": "Selected AI platform with proven aviation applications; projected 25% downtime reduction"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "4 weeks",
+      "activities": ["FAA compliance assessment", "Certification requirements review", "Safety case development"],
+      "outcome": "System design approved with supplemental safety monitoring requirements"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 weeks",
+      "activities": ["Airline customer consultations", "Pilot program planning", "Change management assessment"],
+      "outcome": "Strong customer support; concerns about implementation timeline addressed"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive committee review", "Budget allocation", "Implementation roadmap"],
+      "outcome": "Approved with phased rollout: 20% of fleet in Year 1, full deployment by Year 3"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$80M annual savings", "20% reduction in maintenance costs", "Improved aircraft availability"],
+    "implementation_challenges": ["Sensor installation on active fleet", "Staff training requirements", "Data integration complexity"],
+    "risk_factors": ["Technology reliability issues", "Regulatory approval delays", "Customer acceptance challenges"],
+    "success_metrics": ["Maintenance cost reduction", "Aircraft utilization improvement", "Customer satisfaction scores"]
+  },
+  "lessons_learned": "Regulatory compliance must be integrated early in technology adoption decisions; customer involvement critical for aviation industry changes"
+}

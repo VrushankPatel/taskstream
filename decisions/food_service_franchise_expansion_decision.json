@@ -1,0 +1,49 @@
+{
+  "scenario_id": "food_service_franchise_expansion_q4_2025",
+  "context": "Regional fast-casual restaurant chain (200 locations, $500M revenue) considering major franchise expansion. Current model: 70% corporate-owned, 30% franchised.",
+  "stakeholders": {
+    "requester": "VP of Franchise Development",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["CFO", "Chief Operating Officer", "Regional Directors", "Franchise Advisory Council"],
+    "affected_parties": ["Existing franchisees", "Corporate store managers", "Suppliers", "Real estate partners"]
+  },
+  "request": {
+    "amount": "$50M",
+    "purpose": "Accelerate franchise growth from 60 to 200 locations over 3 years through marketing support, training programs, and real estate development",
+    "urgency": "medium",
+    "justification": "Franchise model shows 25% higher margins; market analysis indicates 300+ viable locations; competitor expansion pressure"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Location profitability modeling", "Competitive analysis", "Franchisee satisfaction surveys"],
+      "outcome": "Identified 150 high-potential locations; franchisee satisfaction at 85%"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["ROI projections", "Franchise fee structure analysis", "Capital requirements assessment"],
+      "outcome": "Projected 18% IRR over 5 years; recommended phased rollout starting with 40 locations"
+    },
+    {
+      "stage": "operational_assessment",
+      "duration": "3 weeks",
+      "activities": ["Training program capacity review", "Supply chain scalability analysis", "Quality control framework evaluation"],
+      "outcome": "Identified need for enhanced training infrastructure and quality assurance systems"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Due diligence review", "Final terms negotiation"],
+      "outcome": "Approved $35M initial investment with performance milestones for remaining $15M"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$200M revenue growth", "Improved brand consistency", "Reduced capital requirements"],
+    "implementation_challenges": ["Franchisee selection and training", "Brand standards maintenance", "Real estate market competition"],
+    "risk_factors": ["Economic recession impact", "Franchisee underperformance", "Brand dilution risks"],
+    "success_metrics": ["Franchisee satisfaction scores", "Same-store sales growth", "New location profitability"]
+  },
+  "lessons_learned": "Franchise expansion requires careful balance of growth ambition with operational capacity; early franchisee involvement improves success rates"
+}

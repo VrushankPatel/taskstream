@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_banking_loan_approval"
+  title: "Banking Loan Approval Process"
+  department: "Retail Banking"
+  complexity: "high"
+  participants: ["Loan Officer", "Credit Analyst", "Branch Manager", "Risk Officer", "Compliance Officer"]
+  trigger: "Customer submits loan application"
+  steps:
+    - step: 1
+      actor: "Loan Officer"
+      action: "Initial application review and data collection"
+      tools: ["CRM System", "Credit Bureau API", "Document Scanner"]
+      duration: "2 hours"
+      outputs: ["Application Summary", "Initial Credit Report"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Detailed credit analysis and risk assessment"
+      decision_points: ["Credit Score Threshold", "Debt-to-Income Ratio", "Collateral Value"]
+      duration: "4 hours"
+      outputs: ["Credit Analysis Report", "Risk Assessment"]
+    - step: 3
+      actor: "Branch Manager"
+      action: "Review application for branch-level approval"
+      tools: ["Loan Management System"]
+      duration: "1 hour"
+      decision_points: ["Loan Amount Limits", "Customer Relationship"]
+    - step: 4
+      actor: "Risk Officer"
+      action: "Portfolio risk evaluation and concentration limits check"
+      duration: "2 hours"
+      outputs: ["Risk Approval Memo"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Regulatory compliance verification and AML checks"
+      tools: ["AML Database", "Regulatory Reporting System"]
+      duration: "3 hours"
+      outputs: ["Compliance Clearance"]
+    - step: 6
+      actor: "Loan Officer"
+      action: "Prepare loan agreement and closing documents"
+      duration: "1 hour"
+      outputs: ["Loan Agreement", "Disclosure Documents"]
+  success_criteria: "Loan approved and funded within regulatory timelines"
+  failure_modes: ["Credit ineligibility", "Incomplete documentation", "Regulatory non-compliance", "Portfolio risk limits exceeded"]

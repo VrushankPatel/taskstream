@@ -1,0 +1,53 @@
+{
+  "scenario_id": "legal_compliance_automation_corporate_rollout",
+  "context": "Global corporation implementing AI-powered compliance automation to manage increasing regulatory complexity",
+  "stakeholders": {
+    "requester": "Chief Legal Officer",
+    "approvers": ["CEO", "Board Risk Committee"],
+    "influencers": ["Chief Information Officer", "Chief Compliance Officer", "Finance Director", "Data Privacy Officer"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Deploy AI-powered compliance monitoring and reporting platform across all business units",
+    "urgency": "high",
+    "justification": "Regulatory change rate increased 300% in 3 years, manual compliance costing $50M annually, AI solution promises 60% efficiency gain"
+  },
+  "decision_process": [
+    {
+      "stage": "compliance_burden_analysis",
+      "duration": "6 weeks",
+      "activities": ["Regulatory change tracking", "Current compliance cost analysis", "Risk assessment of non-compliance"],
+      "outcome": "Identified $50M annual compliance costs, 200+ regulatory changes annually"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 weeks",
+      "activities": ["AI platform demonstrations", "Pilot testing in legal and finance", "Integration assessment with existing systems"],
+      "outcome": "Selected platform with 85% accuracy in regulatory change detection, seamless ERP integration"
+    },
+    {
+      "stage": "data_privacy_review",
+      "duration": "4 weeks",
+      "activities": ["Privacy impact assessment", "Data governance review", "GDPR compliance verification"],
+      "outcome": "Platform compliant with global privacy regulations, enhanced data security features"
+    },
+    {
+      "stage": "business_case_validation",
+      "duration": "4 weeks",
+      "activities": ["ROI modeling", "Risk mitigation planning", "Change management strategy"],
+      "outcome": "Projected $25M annual savings, 40% reduction in compliance violations, 2-year payback"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "3 weeks",
+      "activities": ["Board presentation", "Risk committee review", "Executive approval"],
+      "outcome": "Approved with phased implementation and independent audit oversight"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_improvement": "60% reduction in manual compliance work",
+    "projected_cost_savings": "$25M annually",
+    "risk_factors": ["AI accuracy limitations", "Regulatory acceptance of automated systems", "Change management challenges"],
+    "timeline": "18 months for global implementation"
+  }
+}

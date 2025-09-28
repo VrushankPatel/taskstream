@@ -1,0 +1,46 @@
+workflow:
+  id: "real_estate_tenant_screening"
+  title: "Real Estate Tenant Screening Workflow"
+  department: "Property Management"
+  complexity: "medium"
+  participants: ["Property Manager", "Screening Coordinator", "Credit Analyst", "Background Check Provider", "Applicant", "Property Owner"]
+  trigger: "Rental application submitted"
+  steps:
+    - step: 1
+      actor: "Screening Coordinator"
+      action: "Application intake and document collection"
+      tools: ["Property Management Software", "Document Scanner"]
+      duration: "30 minutes"
+      outputs: ["Complete Application Package", "Initial Eligibility Check"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Credit report and financial analysis"
+      tools: ["Credit Reporting Services", "Income Verification Systems"]
+      duration: "1 hour"
+      outputs: ["Credit Report Summary", "Income Verification"]
+    - step: 3
+      actor: "Background Check Provider"
+      action: "Criminal background and eviction history check"
+      decision_points: ["Criminal record findings", "Eviction history"]
+      duration: "2 hours"
+      outputs: ["Background Check Report", "Reference Verifications"]
+    - step: 4
+      actor: "Property Manager"
+      action: "Comprehensive screening review"
+      decision_points: ["Overall qualification assessment", "Property-specific requirements"]
+      duration: "1 hour"
+      outputs: ["Screening Decision", "Approval Conditions"]
+    - step: 5
+      actor: "Screening Coordinator"
+      action: "Lease preparation and applicant notification"
+      tools: ["Lease Templates", "Digital Signature Platform"]
+      duration: "45 minutes"
+      outputs: ["Lease Agreement", "Applicant Communication"]
+    - step: 6
+      actor: "Property Manager"
+      action: "Final approval and lease execution"
+      decision_points: ["Owner approval required", "Special terms needed"]
+      duration: "30 minutes"
+      outputs: ["Executed Lease", "Property Owner Notification"]
+  success_criteria: "Qualified tenant selected, lease executed within timeline, property owner satisfaction maintained, legal compliance ensured"
+  failure_modes: ["Unqualified tenant approved leading to property damage or non-payment", "Discriminatory practices violating fair housing laws", "Processing delays causing lost rental income", "Incomplete documentation"]

@@ -1,5 +1,30 @@
 # Pending Research Items for TaskStream Dataset
 
+## Completed in Session 14
+- Banking: Loan approval workflows, digital transformation decisions, regulatory compliance communication, branch network structures, credit risk metrics
+- Marketing: Campaign planning workflows, budget allocation decisions, product launch coordination, agency structures, ROI dashboard metrics
+- HR: Talent acquisition workflows, remote work policy decisions, exit interview communication, diversity inclusion policies
+- Operations: Incident management workflows, facility expansion decisions, safety management policies
+- Sales: Lead nurturing workflows, qualification processes
+
+## Completed in Session 13
+- Insurance: Underwriting workflows, claims efficiency metrics, data privacy policies
+- Real Estate: Tenant screening processes, market performance metrics, anti-money laundering policies
+- Entertainment: Content distribution workflows, design collaboration communication
+- Pharmaceutical: Manufacturing processes, clinical trial management (continued)
+- Agriculture: Pest management workflows, crop yield optimization (continued)
+- Mining: Environmental compliance decisions, safety incident response, operational efficiency metrics (continued)
+- Fashion: Supply chain transparency initiatives, ethical sourcing policies (continued)
+- Consulting: Methodology standardization decisions, proposal defense communication
+- Legal: Compliance automation decisions, case management (continued)
+
+## Completed in Session 12
+- Automotive: Vehicle design cycles, supply chain resilience, engineering department structures
+- Food Service: Menu engineering processes, franchise expansion decisions, restaurant chain operations
+- Aerospace: Safety certification processes, maintenance scheduling optimization, regulatory compliance
+- Utilities: Smart grid management, renewable energy integration, infrastructure optimization
+- Nonprofit: Fundraising campaign management, donor relationship strategies, impact measurement
+
 ## Completed in Session 11
 - Insurance: Claims processing automation, underwriting decision frameworks, fraud detection integration
 - Real Estate: Property valuation workflows, appraisal automation, market analysis integration
@@ -121,15 +146,10 @@
 - Pharmaceutical: Clinical trial management, drug safety monitoring
 - Agriculture: Crop yield optimization, sustainable farming practices
 - Telecommunications: Network infrastructure deployment, customer service automation
-- Nonprofit: Fundraising campaign management, impact measurement systems
-- Automotive: Vehicle design cycles, supply chain resilience
-- Food Service: Menu engineering, inventory optimization
+- Mining: Resource extraction optimization, environmental impact assessment
+- Fashion: Trend forecasting, sustainable sourcing
 - Consulting: Project scoping methodologies, client delivery frameworks
 - Legal Services: Case management systems, compliance monitoring
-- Aerospace: Safety certification processes, maintenance scheduling
-- Mining: Resource extraction optimization, environmental impact assessment
-- Utilities: Smart grid management, renewable energy integration
-- Fashion: Trend forecasting, sustainable sourcing
 
 ## Industry-Specific Workflows to Research
 - Healthcare: Patient intake, medical billing

@@ -1,0 +1,59 @@
+workflow:
+  id: "workflow_food_menu_engineering"
+  title: "Restaurant Menu Engineering and Optimization Process"
+  department: "Operations/Food & Beverage"
+  complexity: "medium"
+  participants: ["Executive Chef", "Operations Manager", "Financial Analyst", "Marketing Team", "Procurement Team"]
+  trigger: "Quarterly menu review or performance analysis shows optimization opportunities"
+  steps:
+    - step: 1
+      actor: "Operations Manager"
+      action: "Analyze current menu performance using sales data, customer feedback, and profitability metrics"
+      tools: ["POS system analytics", "Customer survey data", "Cost accounting software"]
+      duration: "1-2 weeks"
+      outputs: ["Menu performance report", "Profitability analysis by item"]
+    - step: 2
+      actor: "Executive Chef"
+      action: "Review recipe costs, preparation times, and ingredient quality standards"
+      tools: ["Recipe management software", "Cost calculators"]
+      duration: "1 week"
+      outputs: ["Recipe cost analysis", "Preparation efficiency assessment"]
+    - step: 3
+      actor: "Financial Analyst"
+      action: "Calculate food cost percentages, contribution margins, and break-even analysis"
+      tools: ["Financial modeling software", "Menu engineering matrices"]
+      duration: "3-5 days"
+      outputs: ["Profitability matrix", "Cost optimization recommendations"]
+      decision_points: ["Items to eliminate", "Price adjustments needed"]
+    - step: 4
+      actor: "Executive Chef"
+      action: "Develop new menu items or modify existing recipes to improve profitability"
+      tools: ["Recipe development software", "Taste testing protocols"]
+      duration: "2-3 weeks"
+      outputs: ["New recipe specifications", "Costed ingredient lists"]
+    - step: 5
+      actor: "Procurement Team"
+      action: "Negotiate with suppliers for better pricing on high-volume ingredients"
+      tools: ["Supplier management system", "Contract negotiation templates"]
+      duration: "1-2 weeks"
+      outputs: ["Updated supplier contracts", "Cost reduction projections"]
+    - step: 6
+      actor: "Marketing Team"
+      action: "Develop pricing strategy and promotional campaigns for optimized menu"
+      tools: ["Pricing optimization models", "Marketing campaign software"]
+      duration: "1 week"
+      outputs: ["New menu pricing", "Promotional materials"]
+    - step: 7
+      actor: "Operations Manager"
+      action: "Implement menu changes with staff training and system updates"
+      tools: ["POS system", "Staff training materials"]
+      duration: "3-5 days"
+      outputs: ["Updated menu rollout", "Staff training records"]
+    - step: 8
+      actor: "Cross-functional Team"
+      action: "Monitor post-implementation performance and make adjustments"
+      tools: ["Sales tracking", "Customer feedback systems"]
+      duration: "Ongoing - 4-6 weeks"
+      outputs: ["Performance monitoring reports", "Menu adjustment recommendations"]
+  success_criteria: "Food cost percentage reduced by 2-3%, overall profitability increased, customer satisfaction maintained"
+  failure_modes: ["Customer backlash to price increases", "Quality compromises affecting reviews", "Supplier relationship damage", "Staff resistance to changes"]

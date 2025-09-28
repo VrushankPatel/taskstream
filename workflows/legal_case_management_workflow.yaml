@@ -1,0 +1,53 @@
+workflow:
+  id: "workflow_legal_case_001"
+  title: "Legal Case Management Process"
+  department: "Legal"
+  complexity: "high"
+  participants: ["Senior Partner", "Associate Attorney", "Paralegal", "Client", "Expert Witnesses"]
+  trigger: "Client intake or case referral"
+  steps:
+    - step: 1
+      actor: "Associate Attorney"
+      action: "Conduct initial client interview and case assessment"
+      tools: ["Case management software", "Legal research databases"]
+      duration: "2 days"
+      outputs: ["Case intake form", "Initial case assessment"]
+    - step: 2
+      actor: "Paralegal"
+      action: "Gather evidence and documentation"
+      tools: ["Document management system", "Discovery tools"]
+      duration: "1 week"
+      outputs: ["Evidence inventory", "Document collection"]
+    - step: 3
+      actor: "Associate Attorney"
+      action: "Perform legal research and analysis"
+      tools: ["Legal research platforms", "Case law databases"]
+      duration: "1 week"
+      outputs: ["Legal research memorandum", "Case strategy outline"]
+    - step: 4
+      actor: "Senior Partner"
+      action: "Review case strategy and assign team resources"
+      decision_points: ["Settlement vs. litigation", "Resource allocation"]
+      tools: ["Case review software", "Resource management system"]
+      duration: "3 days"
+      outputs: ["Case strategy approval", "Team assignment"]
+    - step: 5
+      actor: "Associate Attorney"
+      action: "Develop pleadings and court filings"
+      tools: ["Legal drafting software", "Court filing systems"]
+      duration: "2 weeks"
+      outputs: ["Initial pleadings", "Filing documents"]
+    - step: 6
+      actor: "Paralegal"
+      action: "Manage discovery process and document production"
+      tools: ["Discovery management software", "Document review platforms"]
+      duration: "4 weeks"
+      outputs: ["Discovery responses", "Document productions"]
+    - step: 7
+      actor: "Senior Partner"
+      action: "Conduct settlement negotiations or trial preparation"
+      tools: ["Negotiation software", "Trial preparation tools"]
+      duration: "Variable (2-8 weeks)"
+      outputs: ["Settlement agreement or trial outcome"]
+  success_criteria: "Favorable case outcome, client objectives achieved, within budget"
+  failure_modes: ["Insufficient evidence", "Missed deadlines", "Ethical violations", "Client non-cooperation"]

@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_consulting_scoping_001"
+  title: "Consulting Project Scoping Process"
+  department: "Project Management"
+  complexity: "medium"
+  participants: ["Partner", "Project Manager", "Senior Consultant", "Client Relationship Manager", "Finance Manager"]
+  trigger: "Client RFP received or initial project inquiry"
+  steps:
+    - step: 1
+      actor: "Client Relationship Manager"
+      action: "Conduct initial client discovery meeting"
+      tools: ["CRM system", "Meeting scheduling software"]
+      duration: "2 hours"
+      outputs: ["Client requirements document", "Initial scope outline"]
+    - step: 2
+      actor: "Senior Consultant"
+      action: "Perform technical assessment and feasibility analysis"
+      tools: ["Industry research databases", "Technical analysis frameworks"]
+      duration: "3 days"
+      outputs: ["Technical assessment report", "Feasibility recommendations"]
+    - step: 3
+      actor: "Project Manager"
+      action: "Develop detailed project plan and resource requirements"
+      tools: ["Project management software", "Resource planning tools"]
+      duration: "2 days"
+      outputs: ["Project plan", "Resource allocation proposal"]
+    - step: 4
+      actor: "Finance Manager"
+      action: "Create financial proposal and pricing model"
+      decision_points: ["Pricing structure", "Payment terms"]
+      tools: ["Financial modeling software", "Contract templates"]
+      duration: "2 days"
+      outputs: ["Financial proposal", "Contract draft"]
+    - step: 5
+      actor: "Partner"
+      action: "Review and approve project scope and proposal"
+      tools: ["Executive dashboard", "Risk assessment framework"]
+      duration: "1 day"
+      outputs: ["Approved project scope", "Final proposal"]
+    - step: 6
+      actor: "Client Relationship Manager"
+      action: "Present proposal to client and negotiate terms"
+      tools: ["Presentation software", "Negotiation tracking"]
+      duration: "1 week"
+      outputs: ["Client feedback", "Signed contract"]
+  success_criteria: "Project delivered on time, within budget, client satisfaction >90%"
+  failure_modes: ["Unclear client requirements", "Resource availability issues", "Pricing disagreements", "Scope creep during execution"]

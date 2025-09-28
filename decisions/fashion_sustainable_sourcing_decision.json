@@ -1,0 +1,47 @@
+{
+  "scenario_id": "fashion_sustainable_sourcing_2025",
+  "context": "Global fashion retailer, 2000 employees, responding to consumer demand for sustainability",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Chief Supply Chain Officer", "Board Sustainability Committee"],
+    "influencers": ["Major customers", "Industry associations", "Sustainability rating agencies"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Transition to 100% sustainable sourcing across cotton and synthetic materials",
+    "urgency": "medium",
+    "justification": "Consumer demand, regulatory pressure, and brand reputation"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "8 weeks",
+      "activities": ["Supplier capability assessment", "Material availability study", "Cost impact analysis"],
+      "outcome": "Identified viable sustainable suppliers but with 20% cost premium"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "12 weeks",
+      "activities": ["Supplier pilot programs", "Quality testing", "Customer feedback collection"],
+      "outcome": "Successful pilot with positive customer response and manageable quality"
+    },
+    {
+      "stage": "scaling_strategy",
+      "duration": "6 weeks",
+      "activities": ["Supply chain redesign", "Contract negotiations", "Timeline development"],
+      "outcome": "Phased implementation plan with supplier partnerships"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "2 weeks",
+      "activities": ["Financial review", "Risk assessment", "Board presentation"],
+      "outcome": "Approved with phased rollout and price adjustment strategy"
+    }
+  ],
+  "business_impact": {
+    "expected_market_share_gain": "15% increase in eco-conscious segments",
+    "projected_revenue_impact": "$50 million additional revenue from premium pricing",
+    "risk_factors": ["Supply chain disruption", "Cost increases", "Supplier reliability"],
+    "timeline": "24 months for full transition"
+  }
+}

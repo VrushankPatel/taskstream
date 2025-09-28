@@ -1,0 +1,49 @@
+{
+  "scenario_id": "pharmaceutical_companion_diagnostics_development_decision",
+  "context": "Biopharmaceutical company developing targeted therapy requiring companion diagnostic for patient selection",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["Chief Executive Officer", "Chief Scientific Officer", "Board of Directors"],
+    "influencers": ["Regulatory Affairs Director", "Commercial Strategy VP", "Diagnostics Development Lead", "Clinical Operations Director"]
+  },
+  "request": {
+    "amount": "$12M",
+    "purpose": "Develop and validate companion diagnostic test for precision medicine therapy",
+    "urgency": "high",
+    "justification": "Required for regulatory approval and market access of $800M therapy opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_validation",
+      "duration": "8 weeks",
+      "activities": ["Biomarker identification", "Assay development", "Analytical validation"],
+      "outcome": "Identified predictive biomarker with 90% sensitivity and specificity"
+    },
+    {
+      "stage": "regulatory_strategy",
+      "duration": "6 weeks",
+      "activities": ["FDA consultation", "Regulatory pathway mapping", "Co-development planning"],
+      "outcome": "Aligned development timeline with therapeutic approval requirements"
+    },
+    {
+      "stage": "commercial_assessment",
+      "duration": "4 weeks",
+      "activities": ["Market access analysis", "Pricing strategy", "Reimbursement planning"],
+      "outcome": "Projected $150M diagnostic revenue stream with therapy"
+    },
+    {
+      "stage": "partnership_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Diagnostic partner assessment", "Collaboration agreements", "IP arrangements"],
+      "outcome": "Strategic partnership with leading diagnostics company secured"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Essential companion diagnostic enabling $800M targeted therapy market access",
+    "projected_value": "$200M NPV contribution to therapy franchise",
+    "risk_factors": ["Regulatory delays in diagnostic approval", "Technical validation challenges", "Market adoption barriers"]
+  },
+  "decision_criteria": ["Regulatory requirement fulfillment", "Scientific validity", "Commercial value", "Development feasibility", "Timeline alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Early diagnostic development parallel to therapeutic crucial for precision medicine success"
+}

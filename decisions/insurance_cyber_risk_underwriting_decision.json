@@ -1,0 +1,49 @@
+{
+  "scenario_id": "insurance_cyber_risk_underwriting_decision",
+  "context": "Insurance company evaluating expansion into cyber risk underwriting market with growing demand for cybersecurity coverage",
+  "stakeholders": {
+    "requester": "Head of Underwriting",
+    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer", "Chief Executive Officer"],
+    "influencers": ["Cybersecurity Experts", "Actuarial Team", "Claims Department", "Industry Consultants"]
+  },
+  "request": {
+    "amount": "$3.2M",
+    "purpose": "Develop cyber risk underwriting capabilities and product portfolio",
+    "urgency": "high",
+    "justification": "Cyber attacks increased 300% in past 3 years with $8B annual market opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Competitive landscape review", "Customer demand surveys", "Market sizing analysis"],
+      "outcome": "Identified $12B addressable market with 25% annual growth"
+    },
+    {
+      "stage": "capability_assessment",
+      "duration": "8 weeks",
+      "activities": ["Expertise gap analysis", "Technology requirements", "Partnership evaluations"],
+      "outcome": "Need for specialized cyber expertise and advanced analytics platform"
+    },
+    {
+      "stage": "product_design",
+      "duration": "10 weeks",
+      "activities": ["Coverage design", "Pricing models", "Underwriting guidelines development"],
+      "outcome": "Comprehensive product suite covering network, data, and operational risks"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "12 weeks",
+      "activities": ["Limited market pilot", "Claims experience analysis", "Pricing refinement"],
+      "outcome": "Successful pilot with 15% market share in test regions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream generating $45M in annual premiums within 3 years",
+    "projected_value": "$120M NPV over 5 years",
+    "risk_factors": ["Rapidly evolving cyber threats", "Underwriting expertise shortage", "Regulatory uncertainty"]
+  },
+  "decision_criteria": ["Market opportunity size", "Technical capability requirements", "Risk management feasibility", "Financial returns", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Early investment in cyber expertise critical for market entry, continuous monitoring of threat landscape essential"
+}

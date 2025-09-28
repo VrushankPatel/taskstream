@@ -1,0 +1,49 @@
+{
+  "scenario_id": "insurance_parametric_product_development_decision",
+  "context": "Mid-sized insurance company exploring parametric insurance products for climate risk coverage in agricultural sector, with $50M annual premium volume",
+  "stakeholders": {
+    "requester": "Head of Product Development",
+    "approvers": ["Chief Risk Officer", "Chief Financial Officer", "Chief Executive Officer"],
+    "influencers": ["Head of Underwriting", "Head of Claims", "Agriculture Industry Specialist", "Actuarial Team"]
+  },
+  "request": {
+    "amount": "$2.5M",
+    "purpose": "Development and launch of parametric crop insurance products",
+    "urgency": "medium",
+    "justification": "Market opportunity in climate risk coverage with 40% growth potential in agricultural insurance segment"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "4 weeks",
+      "activities": ["Competitive analysis", "Customer interviews", "Regulatory review"],
+      "outcome": "Identified 3 target crop types with viable parametric triggers"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Data source evaluation", "Modeling development", "Pricing analysis"],
+      "outcome": "Developed proof-of-concept models with 85% accuracy in payout predictions"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "3 weeks",
+      "activities": ["ROI projections", "Capital requirements", "Risk assessment"],
+      "outcome": "Projected 25% IRR with acceptable risk metrics"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "8 weeks",
+      "activities": ["State insurance department filings", "Legal review", "Compliance testing"],
+      "outcome": "Approved for pilot launch in 3 states"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream generating $8M in first year premiums",
+    "projected_value": "$25M NPV over 5 years",
+    "risk_factors": ["Weather data accuracy", "Regulatory changes", "Market acceptance"]
+  },
+  "decision_criteria": ["Market opportunity size", "Technical feasibility", "Regulatory compliance", "Financial returns", "Risk alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for parametric products, customer education essential for market acceptance"
+}

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "real_estate_sustainable_building_certification_decision",
+  "context": "Real estate investment firm deciding on green building certification program for 200-building portfolio",
+  "stakeholders": {
+    "requester": "Sustainability Director",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "Board of Directors"],
+    "influencers": ["Property Management Team", "Asset Management Director", "Tenant Relations Manager", "Sustainability Consultants"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "Implement comprehensive green building certification across portfolio with LEED/EBOM upgrades",
+    "urgency": "medium",
+    "justification": "Market demand for sustainable buildings with 20% rental premium and regulatory requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "portfolio_assessment",
+      "duration": "8 weeks",
+      "activities": ["Building energy audits", "Certification gap analysis", "Cost-benefit modeling"],
+      "outcome": "Identified 150 buildings eligible for LEED EBOM certification"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "6 weeks",
+      "activities": ["ROI projections", "Incentive analysis", "Funding strategy development"],
+      "outcome": "Projected 18% IRR with $8M annual energy savings"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "10 weeks",
+      "activities": ["Phased rollout plan", "Vendor selection", "Tenant communication strategy"],
+      "outcome": "3-year implementation roadmap with minimal disruption"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "4 weeks",
+      "activities": ["Tenant surveys", "Investor presentations", "Community outreach"],
+      "outcome": "Strong stakeholder support with 85% tenant approval"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Certified sustainable portfolio commanding 15% rental premium and enhanced asset values",
+    "projected_value": "$180M NPV with improved tenant retention and attraction",
+    "risk_factors": ["Implementation cost overruns", "Tenant resistance to upgrades", "Regulatory changes"]
+  },
+  "decision_criteria": ["Financial returns", "Market demand alignment", "Implementation feasibility", "Stakeholder impact", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive stakeholder engagement essential for sustainable building initiatives"
+}

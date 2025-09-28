@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_supply_004"
+  title: "Retail Supply Chain Resilience Process"
+  department: "Supply Chain"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Procurement Lead", "Logistics Coordinator", "Risk Analyst"]
+  trigger: "Supply disruption detected (supplier delay, natural disaster, geopolitical event)"
+  steps:
+    - step: 1
+      actor: "Risk Analyst"
+      action: "Assess disruption impact and identify affected products/suppliers"
+      tools: ["Supply Chain Risk Management System", "Supplier Performance Database"]
+      duration: "4 hours"
+      outputs: ["Risk assessment report", "Impact analysis"]
+    - step: 2
+      actor: "Procurement Lead"
+      action: "Identify alternative suppliers and negotiate emergency contracts"
+      tools: ["Supplier Network Platform", "Contract Management System"]
+      duration: "8 hours"
+      outputs: ["Alternative supplier agreements", "Cost impact analysis"]
+    - step: 3
+      actor: "Logistics Coordinator"
+      action: "Re-route shipments and optimize inventory allocation"
+      tools: ["Logistics Management System", "Inventory Optimization Tool"]
+      duration: "6 hours"
+      outputs: ["Re-routing plan", "Inventory redistribution schedule"]
+    - step: 4
+      actor: "Supply Chain Manager"
+      action: "Communicate with stakeholders and implement contingency measures"
+      tools: ["Stakeholder Communication Platform", "Business Continuity Plan"]
+      duration: "12 hours"
+      outputs: ["Stakeholder updates", "Recovery timeline"]
+  success_criteria: "Supply continuity maintained, customer impact minimized to <5% of orders"
+  failure_modes: ["Alternative supplier unavailability", "Logistics bottlenecks", "Communication breakdowns"]
+  metrics:
+    - "Supply chain uptime: Target 99.5%"
+    - "Alternative supplier activation time: Target <48 hours"
+    - "Customer order fulfillment rate: Target >95%"

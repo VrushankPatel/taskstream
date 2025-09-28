@@ -1,0 +1,43 @@
+{
+  "scenario_id": "utilities_grid_modernization_2025",
+  "context": "Municipal utility company planning smart grid infrastructure upgrade",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["Board of Directors", "City Council", "CEO"],
+    "influencers": ["Operations Director", "Regulatory Affairs Manager", "Customer Service VP"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Smart grid sensors, automated switches, and data analytics platform",
+    "urgency": "high",
+    "justification": "Reduce outage times by 40%, improve renewable energy integration"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor technology assessment", "Infrastructure compatibility analysis", "Pilot program design"],
+      "outcome": "Three vendor shortlist selected"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Cost-benefit analysis", "Funding options exploration", "Rate impact assessment"],
+      "outcome": "Positive ROI confirmed"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "6 weeks",
+      "activities": ["Public utility commission filing", "Stakeholder hearings", "Environmental impact review"],
+      "outcome": "Regulatory approval granted"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in outage duration, 25% improvement in renewable energy utilization",
+    "projected_value": "$12,000,000 annual savings",
+    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory delays"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial viability", "Technical reliability", "Customer benefit"],
+  "outcome": "Approved",
+  "lessons_learned": "Regulatory engagement must start early, comprehensive cybersecurity planning essential for infrastructure projects"
+}

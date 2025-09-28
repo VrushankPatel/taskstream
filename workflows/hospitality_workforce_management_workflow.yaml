@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_hospitality_workforce_005"
+  title: "Hospitality Workforce Management Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Manager", "Operations Manager", "Shift Supervisor", "Staffing Coordinator"]
+  trigger: "Staffing gap identified (resignations, absences, peak demand)"
+  steps:
+    - step: 1
+      actor: "Operations Manager"
+      action: "Analyze staffing needs based on occupancy forecasts and service requirements"
+      tools: ["Workforce Management System", "Occupancy Forecasting Tool"]
+      duration: "2 hours"
+      outputs: ["Staffing requirements analysis", "Shift coverage plan"]
+    - step: 2
+      actor: "Staffing Coordinator"
+      action: "Post shifts and coordinate with existing staff for overtime/coverage"
+      tools: ["Staff Scheduling Platform", "Employee Availability Database"]
+      duration: "4 hours"
+      outputs: ["Shift assignments", "Overtime approvals"]
+    - step: 3
+      actor: "HR Manager"
+      action: "Source temporary staff or agency workers if needed"
+      tools: ["Staffing Agency Portal", "Background Check System"]
+      duration: "6 hours"
+      outputs: ["Temporary staff contracts", "Onboarding schedule"]
+    - step: 4
+      actor: "Shift Supervisor"
+      action: "Conduct training and monitor performance during implementation"
+      tools: ["Training Management System", "Performance Tracking App"]
+      duration: "8 hours"
+      outputs: ["Training completion reports", "Performance feedback"]
+  success_criteria: "Staffing coverage maintained at 100%, service quality scores >4.2/5"
+  failure_modes: ["Agency delays", "Training gaps", "Scheduling conflicts"]
+  metrics:
+    - "Staffing coverage rate: Target 100%"
+    - "Employee satisfaction: Target >4.0/5"
+    - "Training completion rate: Target 95%"

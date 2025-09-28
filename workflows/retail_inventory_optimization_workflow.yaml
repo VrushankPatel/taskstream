@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_inventory_001"
+  title: "Retail Inventory Optimization Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Inventory Manager", "Store Manager", "Procurement Specialist", "Data Analyst"]
+  trigger: "Weekly sales data analysis shows stock discrepancies or low turnover items"
+  steps:
+    - step: 1
+      actor: "Data Analyst"
+      action: "Analyze sales data and inventory levels using POS and ERP systems"
+      tools: ["ERP System", "POS Software", "Inventory Management Tool"]
+      duration: "2 hours"
+      outputs: ["Inventory performance report", "Stock level analysis"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Review analysis and identify optimization opportunities"
+      decision_points: ["Reorder points", "Safety stock levels", "Slow-moving items"]
+      duration: "4 hours"
+      outputs: ["Optimization recommendations", "Reorder plan"]
+    - step: 3
+      actor: "Procurement Specialist"
+      action: "Place orders for identified stock needs and negotiate with suppliers"
+      tools: ["Supplier Portal", "Contract Management System"]
+      duration: "6 hours"
+      outputs: ["Purchase orders", "Supplier confirmations"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Implement in-store adjustments and monitor execution"
+      tools: ["Store Management App", "Inventory Tracking System"]
+      duration: "8 hours"
+      outputs: ["Implementation report", "Performance metrics"]
+  success_criteria: "Inventory turnover improved by 15%, stockouts reduced by 20%"
+  failure_modes: ["Supplier delays", "Inaccurate data analysis", "Poor supplier communication"]
+  metrics:
+    - "Inventory turnover ratio: Target 8x annually"
+    - "Stockout rate: Target <2% of items"
+    - "Carrying costs: Target <25% of inventory value"

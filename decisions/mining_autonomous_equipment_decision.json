@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_autonomous_equipment_2025",
+  "context": "Large-scale mining operation evaluating autonomous haul truck fleet",
+  "stakeholders": {
+    "requester": "Operations Director",
+    "approvers": ["CEO", "CFO", "Chief Safety Officer"],
+    "influencers": ["Mine Manager", "Maintenance Director", "Union Representative"]
+  },
+  "request": {
+    "amount": "$18,000,000",
+    "purpose": "20 autonomous haul trucks with supporting infrastructure",
+    "urgency": "medium",
+    "justification": "Reduce operational costs by 25%, improve safety metrics"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_evaluation",
+      "duration": "6 months",
+      "activities": ["Equipment testing", "Operator training", "Performance monitoring"],
+      "outcome": "Pilot successful, 22% productivity increase"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "4 weeks",
+      "activities": ["Safety impact analysis", "Job displacement evaluation", "Technology reliability testing"],
+      "outcome": "Acceptable risk profile established"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "8 weeks",
+      "activities": ["Fleet deployment schedule", "Workforce transition plan", "Vendor contract negotiation"],
+      "outcome": "Approved with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% cost reduction, 30% safety incident decrease",
+    "projected_value": "$6,000,000 annual savings",
+    "risk_factors": ["Technology downtime", "Workforce resistance", "Infrastructure compatibility"]
+  },
+  "decision_criteria": ["Safety improvement", "Financial ROI", "Operational efficiency", "Workforce impact mitigation"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for validating autonomous technology, workforce transition planning critical for adoption"
+}

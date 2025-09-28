@@ -1,0 +1,137 @@
+name: Hospitality Employee Training Workflow
+description: Comprehensive employee training program for hospitality staff in Asian markets, focusing on cultural adaptation, service excellence, operational skills, and compliance with local hospitality regulations
+version: 1.0
+industry: Hospitality
+region: Asia
+complexity: Medium
+actors:
+  - Training Manager
+  - Department Heads
+  - HR Coordinator
+  - External Trainers
+  - Employees
+  - Compliance Officer
+  - Guest Services Manager
+steps:
+  - id: training_needs_assessment
+    name: Training Needs Assessment
+    description: Identify skill gaps and training requirements
+    actor: Training Manager
+    inputs:
+      - Performance reviews
+      - Customer feedback
+      - Industry standards
+    outputs:
+      - Training needs analysis report
+      - Prioritized training topics
+    duration: 1 week
+    decision_points:
+      - condition: Critical skill gaps identified
+        next_step: develop_training_program
+  - id: develop_training_program
+    name: Training Program Development
+    description: Design comprehensive training curriculum
+    actor: Training Manager
+    inputs:
+      - Training needs analysis
+      - Cultural adaptation requirements
+      - Local regulations
+    outputs:
+      - Training curriculum
+      - Schedule and resources plan
+    duration: 2 weeks
+    tools:
+      - Learning management system
+      - Training content development tools
+  - id: schedule_training_sessions
+    name: Training Session Scheduling
+    description: Coordinate training sessions with minimal operational disruption
+    actor: HR Coordinator
+    inputs:
+      - Staff schedules
+      - Training curriculum
+      - Facility availability
+    outputs:
+      - Training calendar
+      - Attendance tracking system
+    duration: 3 days
+  - id: conduct_orientation
+    name: New Employee Orientation
+    description: Deliver comprehensive orientation for new hires
+    actor: Department Heads
+    inputs:
+      - Company policies
+      - Safety procedures
+      - Cultural norms
+    outputs:
+      - Orientation completion certificates
+      - Employee handbook acknowledgment
+    duration: 1 day per group
+  - id: deliver_skill_training
+    name: Skill-Specific Training Delivery
+    description: Conduct hands-on training for core hospitality skills
+    actor: External Trainers
+    inputs:
+      - Training modules
+      - Practical equipment
+      - Assessment criteria
+    outputs:
+      - Training completion records
+      - Skill assessment results
+    duration: 2-4 weeks
+    decision_points:
+      - condition: Assessment failure rate >10%
+        next_step: additional_training
+  - id: cultural_adaptation_training
+    name: Cultural Adaptation Training
+    description: Train staff on local customs and guest expectations
+    actor: Training Manager
+    inputs:
+      - Cultural research data
+      - Guest profile analysis
+      - Language requirements
+    outputs:
+      - Cultural competency certificates
+      - Communication guidelines
+    duration: 1 week
+   - id: evaluate_training_effectiveness
+     name: Training Effectiveness Evaluation
+     description: Assess training impact and identify improvements
+     actor: Training Manager
+     inputs:
+       - Performance metrics
+       - Employee feedback
+       - Customer satisfaction data
+       - Guest review analysis
+     outputs:
+       - Training effectiveness report
+       - Improvement recommendations
+       - Updated training curriculum
+     duration: 1 month post-training
+     tools:
+       - Performance analytics platform
+       - Survey management system
+     decision_points:
+       - condition: Effectiveness score <80%
+         next_step: curriculum_revision
+success_criteria:
+  - 95% employee completion rate
+  - 85% knowledge retention score
+  - Improved customer satisfaction by 10%
+  - Cultural competency certification for all staff
+  - Compliance with local hospitality standards
+  - Reduced staff turnover by 15%
+failure_modes:
+  - Low attendance rates due to scheduling conflicts
+  - Inadequate cultural adaptation leading to guest complaints
+  - Poor knowledge retention from ineffective delivery methods
+  - Operational disruption during peak seasons
+  - Non-compliance with local regulations
+metrics:
+  - Training completion rates by department
+  - Pre/post-training assessment scores (target: 85%+)
+  - Employee satisfaction with training (target: 4.2/5)
+  - Customer service quality improvements (target: 10% increase)
+  - Training cost per employee (target: <$500)
+  - Time to proficiency for new skills (target: 4 weeks)
+  - Cultural incident reports (target: <5 per quarter)

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "technology_infrastructure_upgrade_q4_2025",
+  "context": "Mid-size manufacturing company, 500 employees, facing legacy system limitations impacting production efficiency",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CFO", "CTO", "CEO"],
+    "influencers": ["IT Director", "Production Managers", "Finance Controller"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Enterprise Resource Planning (ERP) system replacement and cloud migration",
+    "urgency": "medium",
+    "justification": "Current systems causing 15% production downtime and manual workarounds costing $500K annually"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "3 weeks",
+      "activities": ["Vendor evaluation", "ROI modeling", "Risk assessment", "Change management planning"],
+      "outcome": "Proceed with detailed planning"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "4 weeks",
+      "activities": ["RFP process", "Vendor demonstrations", "Contract negotiations", "Reference checks"],
+      "outcome": "Selected primary vendor with backup option"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "1 week",
+      "activities": ["Final budget review", "Timeline validation", "Resource allocation confirmation"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gain": "20% reduction in production downtime",
+    "projected_cost_savings": "$750,000 annually",
+    "risk_factors": ["Implementation delays", "User adoption challenges", "Data migration issues"],
+    "timeline": "18-month implementation with go-live in Q2 2026"
+  }
+}

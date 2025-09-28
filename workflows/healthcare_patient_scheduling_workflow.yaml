@@ -1,0 +1,34 @@
+workflow:
+  id: "healthcare_patient_scheduling_001"
+  title: "Patient Scheduling and Appointment Management"
+  department: "Patient Services"
+  complexity: "medium"
+  participants: ["Front Desk Staff", "Medical Assistants", "Providers", "Patients"]
+  trigger: "Patient requests appointment or provider schedules follow-up"
+  steps:
+    - step: 1
+      actor: "Front Desk Staff"
+      action: "Collect patient information and appointment preferences"
+      tools: ["EHR System", "Scheduling Software"]
+      duration: "5 minutes"
+      outputs: ["Appointment request record"]
+    - step: 2
+      actor: "Medical Assistant"
+      action: "Verify insurance and check provider availability"
+      decision_points: ["Insurance coverage", "Provider schedule conflicts"]
+      duration: "10 minutes"
+      outputs: ["Verified appointment details"]
+    - step: 3
+      actor: "Front Desk Staff"
+      action: "Schedule appointment and send confirmation"
+      tools: ["Calendar System", "Patient Portal"]
+      duration: "3 minutes"
+      outputs: ["Appointment confirmation", "Patient notification"]
+    - step: 4
+      actor: "Medical Assistant"
+      action: "Prepare patient chart and room setup"
+      tools: ["EHR System", "Room Management Software"]
+      duration: "15 minutes"
+      outputs: ["Prepared patient chart", "Room assignment"]
+  success_criteria: "Appointment scheduled within 24 hours with all verifications complete"
+  failure_modes: ["Insurance verification delays", "Provider schedule conflicts", "System technical issues"]

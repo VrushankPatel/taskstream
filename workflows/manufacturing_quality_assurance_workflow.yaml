@@ -1,0 +1,40 @@
+workflow:
+  id: "manufacturing_quality_assurance_001"
+  title: "Quality Assurance and Testing Procedures"
+  department: "Quality Control"
+  complexity: "high"
+  participants: ["Quality Inspectors", "Production Supervisors", "Engineering Team", "Production Operators"]
+  trigger: "Production batch completion or scheduled quality checkpoint"
+  steps:
+    - step: 1
+      actor: "Production Supervisor"
+      action: "Initiate quality inspection request"
+      tools: ["Quality Management System", "Production Tracking Software"]
+      duration: "5 minutes"
+      outputs: ["Inspection work order"]
+    - step: 2
+      actor: "Quality Inspector"
+      action: "Perform dimensional and visual inspections"
+      tools: ["Calipers", "Inspection Gauges", "Digital Microscope"]
+      duration: "30 minutes"
+      outputs: ["Initial inspection results"]
+    - step: 3
+      actor: "Quality Inspector"
+      action: "Conduct functional testing and performance validation"
+      decision_points: ["Test specifications met", "Defect severity assessment"]
+      duration: "45 minutes"
+      outputs: ["Functional test results", "Defect classification"]
+    - step: 4
+      actor: "Engineering Team"
+      action: "Review critical defects and determine disposition"
+      tools: ["Defect Tracking System", "CAD Software"]
+      duration: "60 minutes"
+      outputs: ["Disposition decision", "Corrective action plan"]
+    - step: 5
+      actor: "Production Supervisor"
+      action: "Implement corrective actions or scrap/rework decisions"
+      tools: ["Work Order System", "Inventory Management"]
+      duration: "20 minutes"
+      outputs: ["Updated production records", "Quality report"]
+  success_criteria: "Product meets all quality specifications with documented test results"
+  failure_modes: ["Critical defect detection", "Testing equipment calibration issues", "Specification interpretation disputes"]

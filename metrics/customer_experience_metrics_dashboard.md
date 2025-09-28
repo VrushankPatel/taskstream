@@ -1,7 +1,7 @@
 # Customer Experience Metrics Dashboard
 
 ## Overview
-Comprehensive dashboard tracking customer satisfaction, engagement, and loyalty across all touchpoints for a B2C e-commerce company.
+Comprehensive dashboard tracking customer satisfaction, engagement, and loyalty across all touchpoints and channels. Updated daily with real-time data integration.
 
 ## Primary Metrics
 

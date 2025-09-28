@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_government_citizen_engagement_automation"
+  title: "Citizen Engagement Automation"
+  department: "Digital Services"
+  complexity: "medium"
+  participants: ["Digital Engagement Manager", "IT Development Team", "Policy Advisors", "Communication Team"]
+  trigger: "Need to scale citizen participation in government processes"
+  steps:
+    - step: 1
+      actor: "Digital Engagement Manager"
+      action: "Identify engagement opportunities and automation needs"
+      tools: ["Citizen feedback analysis", "Process mapping tools"]
+      duration: "2 weeks"
+      outputs: ["Engagement automation roadmap"]
+    - step: 2
+      actor: "IT Development Team"
+      action: "Develop automated engagement platforms and chatbots"
+      tools: ["AI development platforms", "Chatbot frameworks"]
+      duration: "6 weeks"
+      outputs: ["Automated engagement systems"]
+    - step: 3
+      actor: "Policy Advisors"
+      action: "Integrate policy information and decision support"
+      tools: ["Policy databases", "Decision tree tools"]
+      duration: "3 weeks"
+      outputs: ["Policy-informed engagement tools"]
+    - step: 4
+      actor: "Communication Team"
+      action: "Promote automated engagement channels to citizens"
+      tools: ["Multi-channel communication platforms", "Marketing automation"]
+      duration: "2 weeks"
+      outputs: ["Citizen adoption campaigns"]
+  success_criteria: "50% increase in citizen engagement interactions"
+  failure_modes: ["Technical implementation issues", "Citizen trust concerns", "Policy complexity"]

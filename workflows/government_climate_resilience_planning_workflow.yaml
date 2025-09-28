@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_government_climate_resilience_planning"
+  title: "Climate Resilience Planning"
+  department: "Emergency Management"
+  complexity: "high"
+  participants: ["Climate Resilience Coordinator", "Infrastructure Engineers", "Environmental Scientists", "Community Stakeholders"]
+  trigger: "Climate risk assessment identifies vulnerabilities"
+  steps:
+    - step: 1
+      actor: "Climate Resilience Coordinator"
+      action: "Conduct comprehensive climate risk assessment"
+      tools: ["Climate modeling software", "Risk assessment frameworks"]
+      duration: "8 weeks"
+      outputs: ["Climate risk assessment report"]
+    - step: 2
+      actor: "Infrastructure Engineers"
+      action: "Design resilience improvements for critical infrastructure"
+      tools: ["Engineering design software", "Resilience planning tools"]
+      duration: "12 weeks"
+      outputs: ["Infrastructure resilience plans"]
+    - step: 3
+      actor: "Environmental Scientists"
+      action: "Develop adaptation strategies for natural systems"
+      tools: ["Environmental modeling tools", "Ecosystem assessment frameworks"]
+      duration: "6 weeks"
+      outputs: ["Environmental adaptation strategies"]
+    - step: 4
+      actor: "Community Stakeholders"
+      action: "Engage community in resilience planning and education"
+      tools: ["Stakeholder engagement platforms", "Community education materials"]
+      duration: "Ongoing"
+      outputs: ["Community resilience programs"]
+  success_criteria: "Approved climate resilience plan with funding allocation"
+  failure_modes: ["Funding limitations", "Stakeholder conflicts", "Scientific uncertainty"]

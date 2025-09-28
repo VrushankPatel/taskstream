@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_telehealth_consultation"
+  title: "Telehealth Consultation Process"
+  department: "Healthcare Delivery"
+  complexity: "medium"
+  participants: ["Patient", "Primary Care Physician", "Nurse Coordinator", "IT Support"]
+  trigger: "Patient requests virtual consultation"
+  steps:
+    - step: 1
+      actor: "Patient"
+      action: "Schedule appointment via patient portal"
+      tools: ["Patient Portal", "Calendar System"]
+      duration: "15 minutes"
+      outputs: ["Appointment Request"]
+    - step: 2
+      actor: "Nurse Coordinator"
+      action: "Verify insurance coverage and collect medical history"
+      tools: ["EHR System", "Insurance Database"]
+      duration: "30 minutes"
+      outputs: ["Pre-visit Assessment"]
+    - step: 3
+      actor: "Primary Care Physician"
+      action: "Conduct virtual consultation and document findings"
+      tools: ["Telehealth Platform", "EHR System"]
+      duration: "20 minutes"
+      outputs: ["Consultation Notes", "Treatment Plan"]
+    - step: 4
+      actor: "Nurse Coordinator"
+      action: "Follow up on treatment plan and schedule follow-ups"
+      tools: ["EHR System", "Patient Portal"]
+      duration: "10 minutes"
+      outputs: ["Follow-up Instructions"]
+  success_criteria: "Patient receives appropriate care and follow-up"
+  failure_modes: ["Technical connectivity issues", "Insurance coverage gaps", "Incomplete medical history"]

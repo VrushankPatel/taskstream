@@ -1,0 +1,40 @@
+{
+  "scenario_id": "decision_open_banking_2025",
+  "context": "Regional bank preparing for open banking regulatory requirements",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["IT Department", "Product Development", "Regulatory Affairs"]
+  },
+  "request": {
+    "amount": "$5 million",
+    "purpose": "Develop open banking API platform and third-party integrations",
+    "urgency": "high",
+    "justification": "Comply with regulatory requirements and enable fintech partnerships"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "1 month",
+      "activities": ["Regulatory requirement analysis", "Compliance timeline", "Impact assessment"],
+      "outcome": "Open banking compliance identified as strategic opportunity"
+    },
+    {
+      "stage": "platform_design",
+      "duration": "2 months",
+      "activities": ["API architecture design", "Security framework", "Data governance"],
+      "outcome": "Secure open banking platform designed"
+    },
+    {
+      "stage": "partnership_strategy",
+      "duration": "1 month",
+      "activities": ["Fintech ecosystem analysis", "Partnership criteria", "Revenue model development"],
+      "outcome": "Open banking ecosystem strategy approved"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Regulatory compliance, new revenue streams, innovation ecosystem",
+    "projected_revenue": "$15 million from API services and partnerships",
+    "risk_factors": ["Security vulnerabilities", "Data privacy concerns", "Integration complexity"]
+  }
+}

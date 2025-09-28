@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_communications_influencer_marketing_programs"
+  title: "Influencer Marketing Programs"
+  department: "Marketing & Communications"
+  complexity: "medium"
+  participants: ["Influencer Marketing Manager", "Brand Managers", "Legal Team", "Content Team"]
+  trigger: "Brand awareness or engagement campaign launch"
+  steps:
+    - step: 1
+      actor: "Influencer Marketing Manager"
+      action: "Identify and vet potential influencers"
+      tools: ["Influencer discovery platforms", "Audience analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Influencer shortlist"]
+    - step: 2
+      actor: "Brand Managers"
+      action: "Define campaign objectives and brand guidelines"
+      tools: ["Campaign planning templates", "Brand style guides"]
+      duration: "1 week"
+      outputs: ["Campaign brief"]
+    - step: 3
+      actor: "Legal Team"
+      action: "Review contracts and disclosure requirements"
+      tools: ["Contract templates", "FTC compliance checklists"]
+      duration: "1 week"
+      outputs: ["Legal-approved contracts"]
+    - step: 4
+      actor: "Content Team"
+      action: "Collaborate with influencers on content creation"
+      tools: ["Content collaboration platforms", "Brand monitoring tools"]
+      duration: "3 weeks"
+      outputs: ["Campaign content"]
+  success_criteria: "Achieve target engagement and conversion metrics"
+  failure_modes: ["Influencer authenticity issues", "Brand misalignment", "Legal compliance violations"]

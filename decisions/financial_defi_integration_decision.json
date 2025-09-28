@@ -1,0 +1,40 @@
+{
+  "scenario_id": "decision_defi_integration_2025",
+  "context": "Traditional bank exploring DeFi integration for retail banking customers",
+  "stakeholders": {
+    "requester": "Head of Innovation",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Retail Banking Director", "Compliance Team", "Technology Partners"]
+  },
+  "request": {
+    "amount": "$12 million",
+    "purpose": "Develop DeFi integration platform for secure crypto services",
+    "urgency": "medium",
+    "justification": "Meet customer demand for digital asset services while maintaining regulatory compliance"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "2 months",
+      "activities": ["Customer demand analysis", "Competitive landscape", "Regulatory assessment"],
+      "outcome": "Strong customer demand with manageable regulatory risks"
+    },
+    {
+      "stage": "technical_architecture",
+      "duration": "3 months",
+      "activities": ["Security framework design", "Integration architecture", "Pilot development"],
+      "outcome": "Secure DeFi integration framework established"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "1 month",
+      "activities": ["Compliance review", "Security audit", "Business continuity planning"],
+      "outcome": "Risks identified and mitigation strategies developed"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "New revenue streams, customer retention, innovation leadership",
+    "projected_revenue": "$50 million in DeFi-related services within 2 years",
+    "risk_factors": ["Regulatory uncertainty", "Security vulnerabilities", "Customer education challenges"]
+  }
+}

@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_energy_grid_modernization_planning"
+  title: "Grid Modernization Planning and Execution"
+  department: "Grid Operations"
+  complexity: "high"
+  participants: ["Grid Modernization Director", "Engineering Team", "Regulatory Affairs", "Community Relations"]
+  trigger: "Aging infrastructure and renewable energy integration needs"
+  steps:
+    - step: 1
+      actor: "Grid Modernization Director"
+      action: "Conduct infrastructure assessment and develop modernization roadmap"
+      tools: ["Grid modeling software", "Asset management systems"]
+      duration: "6 weeks"
+      outputs: ["Grid modernization roadmap"]
+    - step: 2
+      actor: "Engineering Team"
+      action: "Design smart grid components and renewable integration"
+      tools: ["Engineering design software", "Simulation tools"]
+      duration: "8 weeks"
+      outputs: ["Smart grid design specifications"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Navigate regulatory approvals and permitting"
+      tools: ["Regulatory filing systems", "Compliance tracking tools"]
+      duration: "4 weeks"
+      outputs: ["Regulatory approvals"]
+    - step: 4
+      actor: "Community Relations"
+      action: "Engage stakeholders and manage community concerns"
+      tools: ["Stakeholder engagement platforms", "Communication tools"]
+      duration: "Ongoing"
+      outputs: ["Stakeholder engagement plan"]
+  success_criteria: "Successful integration of 30% renewable energy capacity"
+  failure_modes: ["Regulatory delays", "Technical integration issues", "Community opposition"]

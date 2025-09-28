@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_hospitality_revenue_management_optimization"
+  title: "Revenue Management Optimization Process"
+  department: "Hospitality Revenue"
+  complexity: "complex"
+  participants: ["Revenue Manager", "Data Analyst", "Marketing Specialist", "Operations Manager", "IT Specialist"]
+  trigger: "Need to optimize pricing and occupancy for maximum revenue"
+  steps:
+    - step: 1
+      actor: "Revenue Manager"
+      action: "Analyze historical data and market trends"
+      tools: ["Revenue management software", "Market intelligence platforms"]
+      duration: "2 weeks"
+      outputs: ["Market analysis report", "Revenue opportunity assessment"]
+    - step: 2
+      actor: "Data Analyst"
+      action: "Develop predictive models for demand forecasting"
+      tools: ["Statistical analysis software", "Machine learning algorithms"]
+      duration: "4 weeks"
+      outputs: ["Demand forecasting models", "Pricing optimization algorithms"]
+    - step: 3
+      actor: "IT Specialist"
+      action: "Implement automated pricing and inventory management system"
+      tools: ["Revenue management platforms", "API integration tools"]
+      duration: "3 weeks"
+      outputs: ["Automated pricing system", "Real-time inventory controls"]
+    - step: 4
+      actor: "Marketing Specialist"
+      action: "Develop dynamic pricing communication strategy"
+      tools: ["Marketing automation tools", "Customer segmentation software"]
+      duration: "2 weeks"
+      outputs: ["Pricing communication plan", "Customer segmentation models"]
+    - step: 5
+      actor: "Operations Manager"
+      action: "Train staff on revenue management procedures"
+      tools: ["Training programs", "Procedure manuals"]
+      duration: "1 week"
+      outputs: ["Trained staff", "Operational guidelines"]
+    - step: 6
+      actor: "Revenue Manager"
+      action: "Monitor performance and adjust strategies"
+      tools: ["Performance dashboards", "A/B testing frameworks"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Strategy optimization recommendations"]
+  success_criteria: "Achieved revenue targets with optimal pricing and occupancy rates"
+  failure_modes: ["Inaccurate demand forecasting", "System integration issues", "Competitor pricing changes", "Customer resistance to dynamic pricing"]
+  metrics:
+    - "Revenue per available room: Target 15% increase"
+    - "Occupancy rate: Target 85% average"
+    - "Average daily rate: Target 12% increase"
+    - "Revenue forecast accuracy: Target 90% accuracy"
+    - "Customer satisfaction: Maintain >4.0/5.0 rating"

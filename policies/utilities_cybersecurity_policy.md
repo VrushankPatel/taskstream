@@ -84,10 +84,10 @@ This policy applies to all employees, contractors, and third parties accessing u
 - **Incident Notification**: Requirements for vendor breach notification
 
 ## Training and Awareness
-- **Security Awareness Training**: Annual training for all employees and contractors
-- **Role-Specific Training**: Specialized training for IT, OT, and security personnel
-- **Phishing Awareness**: Regular simulated phishing exercises
-- **Incident Response Drills**: Annual tabletop exercises and simulations
+- **Security Awareness Training**: Annual training for all employees and contractors covering cybersecurity fundamentals, password hygiene, and incident reporting. Completion rate tracked at 95% with mandatory refresher courses for non-compliance.
+- **Role-Specific Training**: Specialized training for IT, OT, and security personnel including vendor-specific system training, regulatory compliance requirements, and advanced threat recognition. Certification requirements for critical roles.
+- **Phishing Awareness**: Monthly simulated phishing exercises with immediate feedback and remediation training. Target: <5% click rate on simulated attacks.
+- **Incident Response Drills**: Annual tabletop exercises and bi-annual full-scale simulations. All drills documented with lessons learned and process improvements implemented within 30 days.
 
 ## Monitoring and Reporting
 - **Security Information and Event Management (SIEM)**: Centralized logging and correlation

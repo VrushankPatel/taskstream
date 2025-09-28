@@ -78,6 +78,23 @@ This dashboard tracks organizational resilience to climate change impacts across
   - Factors: Financial resources, technical expertise, stakeholder engagement
   - Trend: Improving through training and partnership development
 
+### Workforce Resilience Metrics
+- **Climate Training Completion Rate**: 85% (Target: >90%)
+  - Percentage of employees completing climate risk awareness training
+  - Includes scenario planning, emergency response, and business continuity
+  - Quarterly training sessions with certification tracking
+
+- **Remote Work Capability**: 78% (Target: >80%)
+  - Percentage of roles that can effectively operate remotely during extreme weather
+  - Based on job function analysis and technology infrastructure
+  - Critical for maintaining operations during climate events
+
+### Supply Chain Climate Risk
+- **Tier 1 Supplier Climate Vulnerability**: 2.8/5 (Target: <3.0)
+  - Average climate risk score for primary suppliers
+  - Considers location exposure, business continuity plans, and diversification
+  - Monthly monitoring with quarterly supplier assessments
+
 ## Reporting and Compliance
 
 ### Regulatory Compliance

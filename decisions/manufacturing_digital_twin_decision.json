@@ -1,0 +1,43 @@
+{
+  "scenario_id": "manufacturing_digital_twin_implementation",
+  "context": "Industrial manufacturing company (8,000 employees, $4B revenue) evaluating digital twin technology for predictive maintenance and production optimization",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Plant Managers", "IT Director", "Equipment Vendors"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Implement digital twin platform across 12 manufacturing facilities with IoT sensors and AI analytics",
+    "urgency": "medium",
+    "justification": "Current reactive maintenance causing 12% unplanned downtime and $80M annual losses"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Vendor selection", "Pilot facility identification", "Sensor deployment", "Baseline data collection"],
+      "outcome": "Pilot showed 25% reduction in downtime and 15% productivity improvement"
+    },
+    {
+      "stage": "roi_analysis",
+      "duration": "6 weeks",
+      "activities": ["Cost-benefit analysis", "Scalability assessment", "Risk evaluation", "Implementation timeline planning"],
+      "outcome": "Projected 3-year ROI of 180% with $120M in cost savings"
+    },
+    {
+      "stage": "change_management",
+      "duration": "4 weeks",
+      "activities": ["Stakeholder alignment", "Training program development", "Resistance mitigation planning", "Communication strategy"],
+      "outcome": "Executive approval secured with comprehensive change management plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in maintenance costs, 20% increase in production efficiency, improved equipment lifespan",
+    "projected_value": "$150,000,000 in annual operational savings",
+    "risk_factors": ["Data integration challenges", "Staff training requirements", "Cybersecurity exposure", "Vendor dependency"]
+  },
+  "decision_criteria": ["ROI >150% within 3 years", "Downtime reduction >20%", "Employee adoption rate >85%", "Data security compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot phase critical for stakeholder buy-in, comprehensive training essential for adoption, data quality foundation must be established first"
+}

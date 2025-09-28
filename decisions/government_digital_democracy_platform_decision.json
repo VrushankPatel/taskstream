@@ -1,0 +1,43 @@
+{
+  "scenario_id": "government_digital_democracy_platform_decision",
+  "context": "Municipal government implementing digital platform for citizen participation in local decision-making processes",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["Mayor", "City Council", "IT Director"],
+    "influencers": ["Citizen Advocacy Groups", "Privacy Experts", "Technology Vendors"]
+  },
+  "request": {
+    "amount": "$3.2 million",
+    "purpose": "Develop and deploy digital democracy platform for citizen engagement and participatory budgeting",
+    "urgency": "medium",
+    "justification": "Enhance citizen participation and transparency in local governance"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "6 weeks",
+      "activities": ["Citizen focus groups", "Stakeholder interviews", "Technology assessment"],
+      "outcome": "Requirements defined with privacy and accessibility priorities"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "4 weeks",
+      "activities": ["RFP process", "Vendor demonstrations", "Security audits"],
+      "outcome": "Selected secure, user-friendly platform"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Limited rollout", "User testing", "Feedback collection"],
+      "outcome": "Approved for full implementation with minor adjustments"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increased citizen engagement and transparent decision-making",
+    "projected_value": "$1.5 million in efficiency savings",
+    "risk_factors": ["Privacy concerns", "Digital divide", "Security vulnerabilities"]
+  },
+  "decision_criteria": ["Privacy compliance", "Accessibility standards", "Security requirements", "User adoption potential"],
+  "outcome": "Approved",
+  "lessons_learned": "Early citizen involvement critical for platform acceptance"
+}

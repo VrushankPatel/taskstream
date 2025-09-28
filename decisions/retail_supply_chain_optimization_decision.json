@@ -1,0 +1,43 @@
+{
+  "scenario_id": "retail_supply_chain_optimization_decision",
+  "context": "Large retail chain experiencing inventory stockouts and excess inventory issues, impacting sales and customer satisfaction",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Store Managers", "Merchandising Director", "IT Director"]
+  },
+  "request": {
+    "amount": "$8 million",
+    "purpose": "Implement AI-driven supply chain optimization platform and inventory management system",
+    "urgency": "high",
+    "justification": "Reduce stockouts by 40% and excess inventory by 25% to improve profitability"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "4 weeks",
+      "activities": ["Inventory analysis", "Supplier performance review", "Technology assessment"],
+      "outcome": "Identified key pain points and technology gaps"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Vendor RFP process", "Pilot testing", "ROI modeling"],
+      "outcome": "Selected AI platform with proven retail implementations"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["Change management planning", "Training program development", "Timeline creation"],
+      "outcome": "Approved phased rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved inventory turnover and reduced carrying costs",
+    "projected_value": "$12 million annual savings",
+    "risk_factors": ["Implementation complexity", "Staff training requirements", "System integration challenges"]
+  },
+  "decision_criteria": ["ROI potential", "Implementation timeline", "Scalability", "Vendor support"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder involvement critical for successful technology adoption"
+}

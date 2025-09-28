@@ -30,5 +30,11 @@ workflow:
       tools: ["Content creation tools", "A/B testing platforms"]
       duration: "3 weeks"
       outputs: ["Personalized content library"]
-  success_criteria: "25% increase in content engagement metrics"
-  failure_modes: ["Data privacy concerns", "Technical implementation issues", "Content quality degradation"]
+   success_criteria: "25% increase in content engagement metrics"
+   failure_modes: ["Data privacy concerns", "Technical implementation issues", "Content quality degradation"]
+   metrics:
+     - "Content engagement rate: >25% increase"
+     - "Personalization accuracy: >85%"
+     - "User retention: >15% improvement"
+     - "Conversion rate: >10% uplift"
+     - "A/B test significance: >95%"

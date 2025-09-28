@@ -30,5 +30,8 @@
     "expected_revenue": "$5,000,000",
     "projected_market_share": "15%",
     "risk_factors": ["Team integration challenges", "Timeline slippage"]
-  }
+  },
+  "decision_criteria": ["Market opportunity validation", "Resource availability", "ROI >25%", "Strategic alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Cross-functional teams require dedicated integration planning and clear governance structures"
 }

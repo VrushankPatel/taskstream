@@ -30,5 +30,8 @@
     "expected_capacity": "500 MW",
     "projected_savings": "$50 million annually",
     "risk_factors": ["Weather dependency", "Grid integration challenges", "Regulatory changes"]
-  }
+  },
+  "decision_criteria": ["Environmental impact assessment", "Financial viability", "Grid stability", "Regulatory compliance"],
+  "outcome": "Approved with conditions",
+  "lessons_learned": "Large-scale renewable projects require comprehensive stakeholder engagement and risk mitigation strategies"
 }

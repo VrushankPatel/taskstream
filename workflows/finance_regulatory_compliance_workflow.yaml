@@ -24,8 +24,14 @@ workflow:
       tools: ["Submission portal"]
       duration: "1 hour"
       outputs: ["Submission confirmation"]
-  success_criteria: "All reports submitted on time with 100% accuracy"
-  failure_modes: ["Data collection errors", "Regulatory changes"]
+   success_criteria: "All reports submitted on time with 100% accuracy"
+   failure_modes: ["Data collection errors", "Regulatory changes", "System outages"]
+   metrics:
+     - "On-time submission rate: 100%"
+     - "Error rate: <1%"
+     - "Audit findings: 0"
+     - "Compliance cost as % of revenue: <0.5%"
+     - "Regulatory fine incidents: 0"
   metrics:
     - "On-time submission rate: 100%"
     - "Error rate: <1%"

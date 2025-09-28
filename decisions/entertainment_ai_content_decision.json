@@ -1,0 +1,40 @@
+{
+  "scenario_id": "entertainment_ai_content_q1_2026",
+  "context": "Major streaming platform with 200M subscribers, facing content production cost inflation",
+  "stakeholders": {
+    "requester": "Head of Content Strategy",
+    "approvers": ["Chief Content Officer", "CEO", "Board of Directors"],
+    "influencers": ["Chief Technology Officer", "Creative Directors", "Talent Agents"]
+  },
+  "request": {
+    "amount": "$300M",
+    "purpose": "Build AI-powered content generation pipeline for original programming",
+    "urgency": "high",
+    "justification": "Reduces production costs by 40%, enables hyper-personalized content at scale"
+  },
+  "decision_process": [
+    {
+      "stage": "ai_capability_assessment",
+      "duration": "4 months",
+      "activities": ["Technology evaluation", "Creative testing", "Quality benchmarks"],
+      "outcome": "AI can generate 60% of scripted content with human oversight"
+    },
+    {
+      "stage": "creative_integration",
+      "duration": "3 months",
+      "activities": ["Writer collaboration models", "Style guide development", "Quality control processes"],
+      "outcome": "Hybrid human-AI workflow established with creative guardrails"
+    },
+    {
+      "stage": "business_modeling",
+      "duration": "2 months",
+      "activities": ["Cost analysis", "Revenue projections", "Audience acceptance studies"],
+      "outcome": "40% cost reduction, 25% increase in content output"
+    }
+  ],
+  "business_impact": {
+    "expected_content_volume": "500 hours annually",
+    "projected_cost_savings": "$150M annually",
+    "risk_factors": ["Creative quality concerns", "Talent backlash", "Audience reception"]
+  }
+}

@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_004"
+  title: "Healthcare AI Diagnostics Implementation Workflow"
+  department: "Medical Informatics"
+  complexity: "high"
+  participants: ["Chief Medical Officer", "IT Director", "Data Scientists", "Clinicians", "Regulatory Affairs", "Patient Safety Officer"]
+  trigger: "Clinical need identified for AI-assisted diagnostics"
+  steps:
+    - step: 1
+      actor: "Chief Medical Officer"
+      action: "Define clinical requirements and success metrics"
+      tools: ["Clinical guidelines", "Performance metrics frameworks"]
+      duration: "3 weeks"
+      outputs: ["Clinical requirements document", "Success criteria"]
+    - step: 2
+      actor: "Data Scientists"
+      action: "Develop and validate AI diagnostic models"
+      tools: ["Machine learning platforms", "Medical imaging datasets"]
+      duration: "12 weeks"
+      outputs: ["Validated AI model", "Performance validation report"]
+    - step: 3
+      actor: "IT Director"
+      action: "Integrate AI system with existing EHR infrastructure"
+      tools: ["Integration platforms", "API development tools"]
+      duration: "8 weeks"
+      outputs: ["Integrated system", "Technical documentation"]
+    - step: 4
+      actor: "Regulatory Affairs"
+      action: "Obtain regulatory approvals and certifications"
+      decision_points: ["Regulatory pathway", "Clinical trial requirements"]
+      duration: "16 weeks"
+      outputs: ["Regulatory approval", "Certification documents"]
+    - step: 5
+      actor: "Clinicians"
+      action: "Conduct clinical validation and physician training"
+      tools: ["Clinical validation protocols", "Training programs"]
+      duration: "6 weeks"
+      outputs: ["Clinical validation report", "Training completion records"]
+    - step: 6
+      actor: "Patient Safety Officer"
+      action: "Implement safety monitoring and incident response"
+      tools: ["Safety monitoring systems", "Incident reporting frameworks"]
+      duration: "4 weeks"
+      outputs: ["Safety monitoring plan", "Incident response protocol"]
+  success_criteria: "AI diagnostics system improving clinical outcomes with regulatory compliance"
+  failure_modes: ["Poor model performance", "Integration failures", "Regulatory rejection"]

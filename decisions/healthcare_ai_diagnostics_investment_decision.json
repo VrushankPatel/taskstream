@@ -1,0 +1,40 @@
+{
+  "scenario_id": "healthcare_ai_diagnostics_investment_2025",
+  "context": "Large hospital system, 15,000 employees, investing in AI-powered diagnostic tools across multiple specialties",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Medical Board"],
+    "influencers": ["Department Chiefs", "IT Director", "Patient Safety Officer"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Implement AI diagnostic systems for radiology, pathology, and cardiology",
+    "urgency": "high",
+    "justification": "Improve diagnostic accuracy and reduce physician burnout"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Review clinical evidence", "Assess diagnostic accuracy improvements", "Evaluate physician acceptance"],
+      "outcome": "Strong clinical case established"
+    },
+    {
+      "stage": "technical_assessment",
+      "duration": "6 weeks",
+      "activities": ["Integration with existing systems", "Data privacy compliance", "Vendor evaluation"],
+      "outcome": "Technical feasibility confirmed"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Funding strategy"],
+      "outcome": "Investment approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["15% improvement in diagnostic accuracy", "Reduced time to diagnosis", "Physician workload reduction"],
+    "projected_roi": "180% over 7 years through improved outcomes and efficiency",
+    "risk_factors": ["Clinical validation challenges", "Integration complexities", "Regulatory approval delays"]
+  }
+}

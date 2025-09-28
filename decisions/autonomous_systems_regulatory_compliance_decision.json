@@ -1,0 +1,40 @@
+{
+  "scenario_id": "autonomous_regulatory_2025",
+  "context": "Transportation and logistics company, 25,000 employees, planning autonomous vehicle fleet deployment",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "Board Safety Committee", "Chief Legal Officer"],
+    "influencers": ["Fleet Operations Director", "Safety Director", "Insurance Manager"]
+  },
+  "request": {
+    "amount": "$150,000,000",
+    "purpose": "Deploy autonomous vehicle technology across fleet operations",
+    "urgency": "high",
+    "justification": "Achieve operational efficiency and competitive advantage in logistics"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "10 weeks",
+      "activities": ["Jurisdictional analysis", "Regulatory engagement", "Compliance framework development"],
+      "outcome": "Identified pathways for phased deployment with regulatory approval"
+    },
+    {
+      "stage": "safety_validation",
+      "duration": "12 weeks",
+      "activities": ["Safety testing protocols", "Incident response planning", "Insurance evaluation"],
+      "outcome": "Safety framework meeting or exceeding regulatory requirements"
+    },
+    {
+      "stage": "business_case_review",
+      "duration": "6 weeks",
+      "activities": ["Cost-benefit analysis", "ROI projections", "Risk mitigation strategies"],
+      "outcome": "Approved for pilot deployment with full rollout contingent on pilot success"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["30% reduction in operating costs", "Improved safety metrics", "Enhanced service reliability"],
+    "projected_revenue": "$300,000,000 annual savings",
+    "risk_factors": ["Regulatory delays", "Technology failures", "Public acceptance challenges"]
+  }
+}

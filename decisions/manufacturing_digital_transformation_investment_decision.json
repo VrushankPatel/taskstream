@@ -1,0 +1,40 @@
+{
+  "scenario_id": "manufacturing_digital_transformation_investment_2025",
+  "context": "Global manufacturing company, 30,000 employees, undertaking comprehensive digital transformation of production facilities",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Board Operations Committee"],
+    "influencers": ["Plant Managers", "IT Director", "Supply Chain Director"]
+  },
+  "request": {
+    "amount": "$120,000,000",
+    "purpose": "Implement Industry 4.0 technologies across all manufacturing facilities",
+    "urgency": "medium",
+    "justification": "Competitive advantage through improved efficiency and quality"
+  },
+  "decision_process": [
+    {
+      "stage": "capability_assessment",
+      "duration": "10 weeks",
+      "activities": ["Current state analysis", "Technology gap identification", "ROI modeling"],
+      "outcome": "Clear transformation roadmap developed"
+    },
+    {
+      "stage": "pilot_selection",
+      "duration": "6 weeks",
+      "activities": ["Select pilot facilities", "Define success metrics", "Resource allocation"],
+      "outcome": "Pilot program approved and funded"
+    },
+    {
+      "stage": "enterprise_rollout_planning",
+      "duration": "12 weeks",
+      "activities": ["Phased implementation plan", "Change management strategy", "Training programs"],
+      "outcome": "Comprehensive rollout plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["25% improvement in operational efficiency", "Reduced defect rates", "Enhanced supply chain visibility"],
+    "projected_roi": "220% over 5 years through productivity gains",
+    "risk_factors": ["Workforce transition challenges", "Technology integration issues", "Cybersecurity vulnerabilities"]
+  }
+}

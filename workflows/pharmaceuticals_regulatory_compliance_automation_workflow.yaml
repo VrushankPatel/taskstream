@@ -2,7 +2,7 @@ workflow:
   id: "workflow_pharma_regulatory_automation"
   title: "Regulatory Compliance Automation Workflow"
   department: "Pharmaceutical Compliance"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Chief Compliance Officer", "Regulatory Affairs Specialists", "IT Compliance Team", "Quality Assurance Managers", "Legal Counsel"]
   trigger: "New regulatory requirement or compliance deadline"
   steps:
@@ -44,3 +44,10 @@ workflow:
       outputs: ["Training completion records", "Change management report"]
   success_criteria: "Automated compliance systems operational with 99% accuracy and full regulatory adherence"
   failure_modes: ["Incomplete regulatory coverage", "System integration failures", "Insufficient user training", "Data accuracy issues"]
+  metrics:
+    - "Compliance monitoring accuracy: Target >99%"
+    - "Regulatory reporting timeliness: Target 100% on-time submissions"
+    - "Audit finding reduction: Target >80% fewer findings"
+    - "System uptime: Target >99.9% availability"
+    - "Training completion rate: Target >95% of staff"
+    - "Cost savings: Target >50% reduction in manual compliance efforts"

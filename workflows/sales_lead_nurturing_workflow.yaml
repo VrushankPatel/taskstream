@@ -48,12 +48,12 @@ workflow:
       tools: ["Contract Management System"]
       duration: "1 day"
       outputs: ["Signed Contract", "Customer Success Handoff"]
-   success_criteria: "Lead converted to customer within 90-day sales cycle"
-   failure_modes: ["Poor lead quality", "Inadequate follow-up", "Pricing objections", "Competitor interference"]
-   metrics:
-     - "Lead conversion rate: Target 25% qualified to customer"
-     - "Sales cycle length: Target 60 days average"
-     - "Response time: Target <1 hour for hot leads"
-     - "Lead scoring accuracy: Target 85% prediction rate"
-     - "Customer acquisition cost: Target $500 per customer"
-     - "Deal win rate: Target 35% of qualified opportunities"
+  success_criteria: "Lead converted to customer within 90-day sales cycle"
+  failure_modes: ["Poor lead quality", "Inadequate follow-up", "Pricing objections", "Competitor interference"]
+  metrics:
+    - "Lead conversion rate: Target 25% qualified to customer"
+    - "Sales cycle length: Target 60 days average"
+    - "Response time: Target <1 hour for hot leads"
+    - "Lead scoring accuracy: Target 85% prediction rate"
+    - "Customer acquisition cost: Target $500 per customer"
+    - "Deal win rate: Target 35% of qualified opportunities"

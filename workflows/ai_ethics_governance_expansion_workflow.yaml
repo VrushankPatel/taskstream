@@ -48,12 +48,12 @@ workflow:
       tools: ["Monitoring systems", "Incident reporting tools", "Improvement tracking"]
       duration: "4 weeks"
       outputs: ["Ethics monitoring program", "Continuous improvement framework"]
-   success_criteria: "Comprehensive AI ethics governance framework implemented with measurable compliance"
-   failure_modes: ["Resistance to change", "Resource constraints", "Regulatory changes", "Technical implementation challenges"]
-   metrics:
-     - "Ethics compliance score: Target 98% or higher"
-     - "Bias detection rate: Target 95% of potential issues identified"
-     - "Training completion: Target 100% of AI team members"
-     - "Audit findings: Target 0 material weaknesses"
-     - "Incident response time: Target <24 hours for ethics violations"
-     - "Stakeholder satisfaction: Target 4.5/5.0 rating"
+  success_criteria: "Comprehensive AI ethics governance framework implemented with measurable compliance"
+  failure_modes: ["Resistance to change", "Resource constraints", "Regulatory changes", "Technical implementation challenges"]
+  metrics:
+    - "Ethics compliance score: Target 98% or higher"
+    - "Bias detection rate: Target 95% of potential issues identified"
+    - "Training completion: Target 100% of AI team members"
+    - "Audit findings: Target 0 material weaknesses"
+    - "Incident response time: Target <24 hours for ethics violations"
+    - "Stakeholder satisfaction: Target 4.5/5.0 rating"

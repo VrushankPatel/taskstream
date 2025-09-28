@@ -2,7 +2,7 @@ workflow:
   id: "workflow_002"
   title: "Biotechnology Gene Therapy Manufacturing Scale-Up"
   department: "Biomanufacturing"
-  complexity: "high"
+  complexity: "complex"
   participants: ["Process Engineers", "Quality Control Scientists", "Regulatory Affairs Specialists", "Supply Chain Managers", "Clinical Operations Team"]
   trigger: "Phase 2 clinical trial data supports advancement to Phase 3 requiring increased production capacity"
   steps:
@@ -40,3 +40,10 @@ workflow:
       outputs: ["Integrated supply timeline", "Contingency planning documentation"]
   success_criteria: "Commercial-scale manufacturing process validated and regulatory approved for Phase 3 clinical supply"
   failure_modes: ["Process scale-up technical challenges", "Supplier qualification delays", "Regulatory review timeline extensions"]
+  metrics:
+    - "Process yield improvement: Target >90% from clinical scale"
+    - "Quality control pass rate: Target >98% for commercial batches"
+    - "Regulatory approval timeline: Target <6 months from submission"
+    - "Cost per dose reduction: Target 30% from clinical manufacturing"
+    - "Supply chain reliability: Target >99% on-time delivery"
+    - "Scale-up efficiency: Target <15% timeline overrun"

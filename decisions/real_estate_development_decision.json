@@ -30,5 +30,8 @@
     "expected_roi": "12%",
     "project_completion": "3 years",
     "risk_factors": ["Construction delays", "Market downturn", "Regulatory approvals"]
-  }
+  },
+  "decision_criteria": ["Market demand analysis and absorption rates", "Financial feasibility with IRR projections", "Zoning and entitlement risk assessment", "Construction cost estimates and contingencies", "Exit strategy and hold period evaluation"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement with local government reduces permitting delays, comprehensive market analysis prevents overbuilding risks"
 }

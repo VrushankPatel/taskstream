@@ -30,5 +30,8 @@
     "expected_revenue": "$200M",
     "projected_profit": "$50M",
     "risk_factors": ["Construction delays", "Material cost inflation", "Regulatory changes", "Labor shortages"]
-  }
+  },
+  "decision_criteria": ["Profit margin analysis (25% target)", "Capacity utilization assessment", "Risk-adjusted return on investment", "Strategic alignment with market expansion", "Contract terms and payment schedule"],
+  "outcome": "Approved",
+  "lessons_learned": "Early subcontractor engagement critical for competitive bidding, comprehensive risk modeling essential for large commercial projects"
 }

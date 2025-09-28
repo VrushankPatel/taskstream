@@ -39,6 +39,12 @@ This policy establishes guidelines for sustainable operations across all hotel p
 - **Reporting**: Quarterly sustainability reports to senior management
 - **Certification**: Target Green Key or equivalent certification for all properties
 
+## Enforcement and Accountability
+- **Responsibilities**: Department heads accountable for meeting sustainability KPIs
+- **Performance Reviews**: Sustainability metrics included in annual evaluations
+- **Budget Allocation**: Dedicated 2% of operations budget for sustainability initiatives
+- **Non-Compliance**: Escalation procedures for policy violations with corrective action plans
+
 ## Training and Awareness
 - **Employee Training**: Annual sustainability training for all staff
 - **Best Practices**: Sharing of successful initiatives across properties

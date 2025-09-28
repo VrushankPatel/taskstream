@@ -2,7 +2,7 @@ workflow:
   id: "workflow_insurance_claims_001"
   title: "Insurance Claims Processing Process"
   department: "Claims"
-  complexity: "medium"
+   complexity: "simple"
   participants: ["Claims Adjuster", "Claims Supervisor", "Policyholder"]
   trigger: "Policyholder submits claim via portal or phone"
   steps:

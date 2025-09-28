@@ -26,10 +26,11 @@
 - Social media mentions trending negatively
 
 **3. Immediate Actions Approved:**
-- Activate emergency supplier network for 8 critical items
-- Implement customer communication plan with email alerts and in-store signage
-- Offer rain checks and alternative product recommendations
-- Deploy additional staff for inventory management
+- Activate emergency supplier network for 8 critical items (Procurement to coordinate by EOD)
+- Implement customer communication plan with email alerts and in-store signage (Marketing to deploy templates)
+- Offer rain checks and alternative product recommendations (Store ops to train staff)
+- Deploy additional staff for inventory management (HR to arrange scheduling)
+- Monitor social media sentiment and respond to customer inquiries (Customer service team)
 
 **4. Long-term Strategies:**
 - Diversify supplier base (target 3 new suppliers by Q1)

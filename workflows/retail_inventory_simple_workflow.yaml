@@ -18,13 +18,19 @@ workflow:
       tools: ["Inventory Management Software"]
       duration: "30 minutes"
       outputs: ["System inventory update"]
-    - step: 3
-      actor: "Store Associate"
-      action: "Verify discrepancies and adjust records"
-      tools: ["Inventory Management Software"]
-      duration: "15 minutes"
-      outputs: ["Discrepancy report", "Adjusted inventory"]
-  success_criteria: "Inventory accuracy within 2% of system records"
+     - step: 3
+       actor: "Store Associate"
+       action: "Verify discrepancies and adjust records"
+       tools: ["Inventory Management Software"]
+       duration: "15 minutes"
+       outputs: ["Discrepancy report", "Adjusted inventory"]
+     - step: 4
+       actor: "Inventory Clerk"
+       action: "Generate inventory variance report"
+       tools: ["Inventory Management Software", "Reporting Tools"]
+       duration: "10 minutes"
+       outputs: ["Inventory variance report", "Action items for discrepancies"]
+   success_criteria: "Inventory accuracy within 2% of system records"
   failure_modes: ["Counting errors", "System data entry mistakes"]
   metrics:
     - "Inventory accuracy: Target >98%"

@@ -47,6 +47,12 @@
 - Negotiates contracts and service level agreements
 - Handles vendor performance issues
 
+## Team Composition and Development
+- **Team Size**: 15-20 full-time employees with seasonal support during peak periods
+- **Hiring Requirements**: 2-3 years e-commerce experience, proficiency in relevant platforms
+- **Training Programs**: Quarterly training on emerging technologies and best practices
+- **Career Development**: Cross-training opportunities with merchandising and logistics teams
+
 ## Reporting Structure
 - All team members report to E-commerce Operations Manager
 - Operations Manager reports to VP of E-commerce

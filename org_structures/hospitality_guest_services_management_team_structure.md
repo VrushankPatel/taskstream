@@ -57,8 +57,28 @@
 - Housekeeping: 45%
 - Support services: 15%
 
+## Communication & Collaboration
+- **Daily Huddles**: 15-minute morning briefings for shift handovers and priority updates
+- **Weekly Team Meetings**: Cross-department coordination for service improvements
+- **Digital Platforms**: Mobile apps for real-time communication and task management
+- **Guest Feedback Integration**: Direct access to review platforms for proactive issue resolution
+
+## Decision-Making Authority
+- **Front Line**: $500 discretionary spending for guest satisfaction issues
+- **Supervisors**: $2000 approval for service recovery actions
+- **Managers**: $10000 budget for process improvements and equipment upgrades
+- **Director**: Strategic decisions on service standards and major investments
+
+## Professional Development
+- **Certification Programs**: Hilton HHonors, Marriott Gold, or equivalent service certifications
+- **Cross-Training**: Rotation between front office, housekeeping, and guest services
+- **Leadership Pipeline**: Fast-track programs for high-performing supervisors
+- **Continuing Education**: Annual budget of $5000 per employee for professional development
+
 ## Key Performance Indicators
-- Guest satisfaction score: >90%
-- Check-in time: <10 minutes
-- Complaint resolution: <2 hours
-- Staff retention: >85%
+- Guest satisfaction score: >90% (measured via post-stay surveys)
+- Check-in time: <10 minutes (target for 95% of check-ins)
+- Complaint resolution: <2 hours (85% resolved within timeframe)
+- Staff retention: >85% (annual turnover target)
+- Service quality audits: >95% compliance with standards
+- Training completion: 100% mandatory certifications

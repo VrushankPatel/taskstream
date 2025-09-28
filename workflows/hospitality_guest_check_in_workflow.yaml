@@ -31,7 +31,7 @@ workflow:
       duration: "1 minute"
       outputs: ["Room readiness confirmation"]
   success_criteria: "Guest checked in within 10 minutes, room ready and clean"
-   failure_modes: ["System outage", "Room not ready", "Payment issues", "ID verification failure", "Overbooking conflict"]
+  failure_modes: ["System outage", "Room not ready", "Payment issues", "ID verification failure", "Overbooking conflict"]
   metrics:
     - "Average check-in time: Target <10 minutes"
     - "Guest satisfaction score: Target >4.5/5"

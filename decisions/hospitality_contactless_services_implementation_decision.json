@@ -32,11 +32,36 @@
       "outcome": "Phased rollout plan approved"
     }
   ],
-  "business_impact": {
-    "expected_outcome": "Increase guest satisfaction by 25%, reduce check-in time by 50%, improve operational efficiency",
-    "projected_value": "$1.8M in additional revenue from higher occupancy and rates",
-    "risk_factors": ["Technology integration issues", "Staff training requirements", "Guest adoption challenges"]
-  },
+   "alternatives_considered": [
+     {
+       "option": "Mobile-only solution",
+       "pros": ["Lower cost ($450K)", "Faster implementation (3 months)", "High guest adoption"],
+       "cons": ["Limited functionality", "No kiosk backup", "Integration challenges"],
+       "cost": "$450,000",
+       "timeline": "3 months"
+     },
+     {
+       "option": "Kiosk-only upgrade",
+       "pros": ["Focused on check-in efficiency", "Lower risk", "Cost effective"],
+       "cons": ["Misses mobile opportunities", "Limited guest engagement", "Partial solution"],
+       "cost": "$300,000",
+       "timeline": "2 months"
+     },
+     {
+       "option": "Status quo with minor enhancements",
+       "pros": ["No investment required", "Minimal disruption", "Maintains current operations"],
+       "cons": ["Competitive disadvantage", "Guest expectations not met", "Missed revenue opportunity"],
+       "cost": "$0",
+       "timeline": "Ongoing"
+     }
+   ],
+   "business_impact": {
+     "expected_outcome": "Increase guest satisfaction by 25%, reduce check-in time by 50%, improve operational efficiency by 30%",
+     "projected_value": "$1.8M in additional revenue from higher occupancy and rates over 3 years",
+     "quantitative_benefits": ["$600K annual savings from reduced staffing needs", "$900K revenue uplift from improved reputation", "$300K cost savings from paperless operations"],
+     "qualitative_benefits": ["Enhanced brand perception as technology leader", "Improved employee satisfaction from streamlined processes", "Better data analytics for personalized guest experiences"],
+     "risk_factors": ["Technology integration issues with legacy PMS", "Staff resistance to new workflows", "Guest privacy concerns with mobile data collection", "Vendor reliability and support quality", "Cybersecurity vulnerabilities in contactless systems"]
+   },
   "decision_criteria": ["Guest satisfaction improvement >20%", "ROI >200%", "Implementation within 6 months"],
   "outcome": "Approved",
   "lessons_learned": "Guest feedback critical for feature prioritization, phased implementation reduces risk, comprehensive training essential for staff buy-in"

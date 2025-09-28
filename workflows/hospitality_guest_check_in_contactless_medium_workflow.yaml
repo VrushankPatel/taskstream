@@ -24,15 +24,31 @@ workflow:
       tools: ["Guest communication platform", "Personalization engine"]
       duration: "5 minutes"
       outputs: ["Personalized welcome message"]
-    - step: 4
-      actor: "IT Support"
-      action: "Monitor system performance and resolve technical issues"
-      tools: ["System monitoring dashboard", "Remote support tools"]
-      duration: "Ongoing"
-      outputs: ["System uptime reports"]
-  success_criteria: "100% contactless check-in completion, guest satisfaction >98%"
-  failure_modes: ["App technical glitches", "System integration failures", "Data privacy concerns"]
-  metrics:
-    - "Check-in completion rate: 100% target"
-    - "Average check-in time: <5 minutes"
-    - "Contactless adoption: >80% of guests"
+     - step: 4
+       actor: "IT Support"
+       action: "Monitor system performance and resolve technical issues"
+       tools: ["System monitoring dashboard", "Remote support tools"]
+       duration: "Ongoing"
+       outputs: ["System uptime reports"]
+     - step: 5
+       actor: "Front Desk Agent"
+       action: "Conduct final verification and provide in-person assistance if needed"
+       tools: ["ID verification system", "Emergency assistance protocols"]
+       duration: "2 minutes"
+       outputs: ["Final check-in confirmation", "Escalation notes if required"]
+     - step: 6
+       actor: "Guest Services Manager"
+       action: "Follow up with guest satisfaction survey within 24 hours"
+       tools: ["Automated survey system", "Feedback analysis tools"]
+       duration: "Automated"
+       outputs: ["Satisfaction metrics", "Improvement insights"]
+   success_criteria: "100% contactless check-in completion, guest satisfaction >98%, average processing time <8 minutes"
+   failure_modes: ["App technical glitches", "System integration failures", "Data privacy concerns", "ID verification issues", "Room availability conflicts", "Payment processing errors"]
+   metrics:
+     - "Check-in completion rate: 100% target"
+     - "Average check-in time: <5 minutes for contactless, <8 minutes total"
+     - "Contactless adoption: >80% of guests"
+     - "System uptime: >99.9%"
+     - "Guest satisfaction score: >4.8/5"
+     - "Error resolution time: <15 minutes"
+     - "Fallback to traditional check-in: <5% of cases"

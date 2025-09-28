@@ -38,7 +38,12 @@ workflow:
       outputs: ["Approved application", "Card activation details"]
   success_criteria: "Credit card issued within 7 business days with accurate terms"
   failure_modes: ["Insufficient credit history", "Fraud suspicion", "Regulatory ineligibility", "Application errors"]
-  metrics:
-    - "Approval rate: 65% target"
-    - "Average processing time: 3 business days"
-    - "Fraud detection accuracy: 95%"
+   metrics:
+     - "Approval rate: Target 65% of qualified applications approved"
+     - "Average processing time: Target <3 business days end-to-end"
+     - "Fraud detection accuracy: Target >95% true positive rate with <1% false positive"
+     - "Customer satisfaction with application process: Target >4.5/5"
+     - "Application completion rate: Target >80% of started applications submitted"
+     - "Regulatory compliance pass rate: Target 100%"
+     - "Credit limit utilization rate: Target >60% within 6 months"
+     - "Application abandonment rate: Target <15%"

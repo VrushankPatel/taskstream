@@ -1,0 +1,47 @@
+{
+  "scenario_id": "financial_sustainable_finance_q2_2026",
+  "context": "Major investment bank, $2T assets under management, expanding sustainable finance offerings to meet client demand and regulatory requirements",
+  "stakeholders": {
+    "requester": "Head of Sustainable Finance",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer", "Board ESG Committee"],
+    "influencers": ["Institutional Clients", "Regulators", "ESG Rating Agencies", "Competitor Analysis Team", "Sustainability Consultants"]
+  },
+  "request": {
+    "amount": "$150M",
+    "purpose": "Launch comprehensive sustainable finance platform including green bonds, ESG funds, and impact investing products",
+    "urgency": "high",
+    "justification": "Capture growing sustainable finance market ($50T by 2030), meet regulatory requirements, attract ESG-focused institutional investors"
+  },
+  "decision_process": [
+    {
+      "stage": "market_and_regulatory_assessment",
+      "duration": "6 weeks",
+      "activities": ["Market size analysis", "Regulatory landscape review", "Client demand survey", "Competitive positioning assessment"],
+      "outcome": "Strong market opportunity identified, regulatory alignment confirmed"
+    },
+    {
+      "stage": "product_development_planning",
+      "duration": "8 weeks",
+      "activities": ["Product portfolio design", "Pricing strategy development", "Distribution channel planning", "Technology platform requirements"],
+      "outcome": "Comprehensive product suite designed with scalable technology foundation"
+    },
+    {
+      "stage": "risk_and_compliance_review",
+      "duration": "4 weeks",
+      "activities": ["ESG risk framework development", "Greenwashing risk assessment", "Regulatory compliance planning", "Due diligence processes"],
+      "outcome": "Robust risk framework approved, compliance protocols established"
+    },
+    {
+      "stage": "implementation_and_launch",
+      "duration": "12 weeks",
+      "activities": ["Team hiring and training", "Technology platform development", "Marketing campaign preparation", "Client onboarding processes"],
+      "outcome": "Platform launched successfully with $5B initial commitments"
+    }
+  ],
+  "business_impact": {
+    "expected_market_share": "15% of sustainable finance market within 3 years",
+    "projected_revenue_growth": "$2B in new sustainable finance revenues",
+    "implementation_timeline": "18 months to full platform maturity",
+    "risk_factors": ["ESG measurement inconsistencies", "Greenwashing accusations", "Regulatory changes", "Client education requirements", "Technology integration challenges"]
+  }
+}

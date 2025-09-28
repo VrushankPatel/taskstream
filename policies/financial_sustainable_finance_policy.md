@@ -1,7 +1,7 @@
-# Sustainable Finance Policy Framework
+# Sustainable Finance Policy and Framework
 
 ## Purpose
-This policy establishes the principles, standards, and procedures for integrating environmental, social, and governance (ESG) factors into all financial products, services, and investment decisions. It ensures our commitment to sustainable finance aligns with regulatory requirements, industry best practices, and stakeholder expectations.
+This policy establishes guidelines for the responsible development and management of sustainable finance products and services, ensuring alignment with environmental, social, and governance (ESG) principles while maintaining financial performance and regulatory compliance. It provides a comprehensive framework for integrating sustainability into all aspects of financial operations.
 
 ## Scope
 Applies to all employees, departments, and business activities involving:

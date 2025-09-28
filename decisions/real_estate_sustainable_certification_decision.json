@@ -1,0 +1,47 @@
+{
+  "scenario_id": "real_estate_sustainable_certification_q3_2026",
+  "context": "Commercial real estate developer, $10B portfolio, pursuing LEED certification for new mixed-use development to meet tenant demands and achieve premium pricing",
+  "stakeholders": {
+    "requester": "VP Development",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Property Management Team", "Tenants", "LEED Consultants", "Local Government", "Environmental Groups"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Achieve LEED Platinum certification for 500,000 sq ft mixed-use development through enhanced sustainable design and construction",
+    "urgency": "medium",
+    "justification": "Command 15% rental premium, attract ESG-focused tenants, comply with emerging green building regulations, enhance brand reputation"
+  },
+  "decision_process": [
+    {
+      "stage": "certification_feasibility_study",
+      "duration": "4 weeks",
+      "activities": ["LEED requirement analysis", "Site assessment for sustainable features", "Cost-benefit analysis", "Timeline impact evaluation"],
+      "outcome": "LEED Platinum achievable with 8-month timeline extension"
+    },
+    {
+      "stage": "design_integration_planning",
+      "duration": "6 weeks",
+      "activities": ["Sustainable design feature incorporation", "Material selection for certification", "Energy modeling and optimization", "Water conservation system design"],
+      "outcome": "Comprehensive sustainable design integrated into development plans"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 weeks",
+      "activities": ["Tenant consultation on green features", "Community impact assessment", "Regulatory approval coordination", "Environmental group collaboration"],
+      "outcome": "Strong stakeholder support secured, community partnerships established"
+    },
+    {
+      "stage": "implementation_and_verification",
+      "duration": "12 months",
+      "activities": ["LEED documentation maintenance", "Third-party verification coordination", "Commissioning and testing", "Certification application submission"],
+      "outcome": "LEED Platinum certification achieved, project completed on time and budget"
+    }
+  ],
+  "business_impact": {
+    "expected_rental_premium": "12-18% above market rates",
+    "projected_roi_improvement": "25% higher returns on investment",
+    "implementation_timeline": "18 months total development time",
+    "risk_factors": ["Certification requirement changes", "Material cost increases", "Construction delays", "Tenant preference shifts", "Documentation compliance challenges"]
+  }
+}

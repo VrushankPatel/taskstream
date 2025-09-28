@@ -1,0 +1,47 @@
+{
+  "scenario_id": "technology_quantum_computing_q1_2026",
+  "context": "Fortune 500 technology company, 15,000 employees, $25B revenue, exploring quantum computing for optimization problems in logistics and drug discovery",
+  "stakeholders": {
+    "requester": "VP Advanced Technologies",
+    "approvers": ["CTO", "CFO", "CEO"],
+    "influencers": ["Chief Scientist", "Head of Research", "Legal Counsel", "Ethics Board", "Industry Partners"]
+  },
+  "request": {
+    "amount": "$50M",
+    "purpose": "Establish quantum computing research center and acquire quantum hardware/software ecosystem",
+    "urgency": "medium",
+    "justification": "Gain competitive advantage in computational optimization, accelerate drug discovery partnerships, position for quantum advantage by 2030"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility_study",
+      "duration": "8 weeks",
+      "activities": ["Quantum hardware evaluation", "Algorithm development assessment", "Infrastructure requirements analysis", "Talent availability review"],
+      "outcome": "Feasible for research applications, significant infrastructure investment required"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "6 weeks",
+      "activities": ["ROI modeling for target applications", "Competitive landscape analysis", "Partnership opportunity evaluation", "Risk assessment framework"],
+      "outcome": "Strong business case for logistics optimization, moderate for drug discovery"
+    },
+    {
+      "stage": "ethical_legal_review",
+      "duration": "4 weeks",
+      "activities": ["Dual-use technology assessment", "Export control compliance", "Intellectual property strategy", "Ethical implications review"],
+      "outcome": "Approved with enhanced security protocols and ethical oversight"
+    },
+    {
+      "stage": "pilot_program_design",
+      "duration": "8 weeks",
+      "activities": ["Vendor selection process", "Research center establishment", "Team hiring and training", "Initial application development"],
+      "outcome": "Pilot program approved for logistics optimization with 18-month timeline"
+    }
+  ],
+  "business_impact": {
+    "expected_computational_advantage": "100-1000x speedup for optimization problems",
+    "projected_revenue_impact": "$500M in new business opportunities",
+    "implementation_timeline": "24 months to initial quantum advantage",
+    "risk_factors": ["Technology immaturity", "High infrastructure costs", "Talent scarcity", "Regulatory uncertainty", "Security concerns"]
+  }
+}

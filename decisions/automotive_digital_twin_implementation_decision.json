@@ -1,0 +1,43 @@
+{
+  "scenario_id": "automotive_digital_twin_implementation_2025",
+  "context": "Automotive manufacturer evaluating digital twin technology for production line optimization and predictive maintenance",
+  "stakeholders": {
+    "requester": "VP Manufacturing",
+    "approvers": ["Chief Operating Officer", "Chief Technology Officer", "CFO"],
+    "influencers": ["Plant Managers", "IT Infrastructure Team", "Quality Assurance Director"]
+  },
+  "request": {
+    "amount": "$25M",
+    "purpose": "Digital twin platform implementation across manufacturing facilities",
+    "urgency": "medium",
+    "justification": "Improve production efficiency by 25% and reduce downtime through predictive maintenance"
+  },
+  "decision_process": [
+    {
+      "stage": "proof_of_concept",
+      "duration": "10 weeks",
+      "activities": ["Pilot facility selection", "Digital twin modeling", "Data integration testing"],
+      "outcome": "Successful POC with 15% efficiency improvement demonstrated"
+    },
+    {
+      "stage": "scalability_assessment",
+      "duration": "6 weeks",
+      "activities": ["Enterprise-wide impact analysis", "Resource requirements planning", "ROI projections"],
+      "outcome": "Approved for phased rollout across 5 facilities"
+    },
+    {
+      "stage": "vendor_partnership",
+      "duration": "4 weeks",
+      "activities": ["Technology partner evaluation", "Contract negotiations", "Integration planning"],
+      "outcome": "Strategic partnership established with leading digital twin provider"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Optimized manufacturing operations and reduced maintenance costs",
+    "projected_value": "$75M annual savings through improved efficiency and reduced downtime",
+    "risk_factors": ["Data quality challenges", "Staff training requirements", "Integration complexity", "Initial implementation costs"]
+  },
+  "decision_criteria": ["Operational efficiency gains", "Cost reduction potential", "Technology scalability", "Data infrastructure readiness", "Change management feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for demonstrating value, comprehensive data strategy critical for digital twin success"
+}

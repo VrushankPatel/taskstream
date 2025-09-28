@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_ai_claims_automation_2025",
+  "context": "Property & casualty insurer evaluating AI-driven claims automation to reduce processing time and improve accuracy",
+  "stakeholders": {
+    "requester": "VP Claims Operations",
+    "approvers": ["Chief Operating Officer", "Chief Information Officer", "Chief Risk Officer"],
+    "influencers": ["Claims Managers", "IT Architecture Team", "Actuarial Department"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "AI platform implementation for automated claims processing",
+    "urgency": "medium",
+    "justification": "Reduce claims processing time by 60% and improve fraud detection accuracy"
+  },
+  "decision_process": [
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["AI vendor assessment", "Proof of concept testing", "Data quality evaluation"],
+      "outcome": "Shortlisted 3 vendors for detailed evaluation"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "8 weeks",
+      "activities": ["Pilot program setup", "Staff training", "Process integration testing"],
+      "outcome": "Successful pilot with 40% efficiency improvement"
+    },
+    {
+      "stage": "scaling_decision",
+      "duration": "4 weeks",
+      "activities": ["ROI analysis", "Risk assessment", "Resource planning"],
+      "outcome": "Approved for enterprise-wide rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Streamlined claims processing and enhanced fraud prevention",
+    "projected_value": "$50M annual cost savings and improved customer satisfaction",
+    "risk_factors": ["Data privacy concerns", "Staff resistance to automation", "Technology integration complexity"]
+  },
+  "decision_criteria": ["Operational efficiency gains", "Cost reduction potential", "Technology maturity", "Regulatory compliance", "Staff impact assessment"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive change management essential for successful AI adoption, pilot programs provide valuable insights for scaling decisions"
+}

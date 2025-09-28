@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_telecom_satellite_deployment"
+  title: "Satellite Constellation Deployment Process"
+  department: "Telecom Network Operations"
+  complexity: "complex"
+  participants: ["Satellite Program Manager", "Engineering Lead", "Regulatory Affairs Manager", "Launch Operations Team", "Ground Station Manager"]
+  trigger: "Strategic decision to expand satellite internet coverage"
+  steps:
+    - step: 1
+      actor: "Satellite Program Manager"
+      action: "Define constellation requirements and orbital parameters"
+      tools: ["Orbital mechanics software", "Coverage analysis tools", "Strategic planning documents"]
+      duration: "4 weeks"
+      outputs: ["Constellation design specification", "Orbital slot reservations"]
+    - step: 2
+      actor: "Engineering Lead"
+      action: "Design satellite platforms and payload specifications"
+      tools: ["Satellite design software", "RF engineering tools", "Reliability analysis frameworks"]
+      duration: "8 weeks"
+      outputs: ["Satellite design documents", "Manufacturing specifications"]
+    - step: 3
+      actor: "Regulatory Affairs Manager"
+      action: "Secure international regulatory approvals and spectrum licenses"
+      tools: ["Regulatory filing systems", "International treaty databases", "Legal consultation services"]
+      duration: "12 weeks"
+      outputs: ["Regulatory approvals", "Spectrum licenses", "International agreements"]
+    - step: 4
+      actor: "Launch Operations Team"
+      action: "Coordinate satellite manufacturing and launch campaigns"
+      tools: ["Launch scheduling systems", "Manufacturing tracking software", "Quality control frameworks"]
+      duration: "16 weeks"
+      outputs: ["Satellite fleet", "Launch manifests", "Quality assurance reports"]
+    - step: 5
+      actor: "Ground Station Manager"
+      action: "Deploy and commission ground station network"
+      tools: ["Network planning software", "Ground station equipment", "Commissioning protocols"]
+      duration: "6 weeks"
+      outputs: ["Ground station network", "Commissioning reports", "Network performance baselines"]
+    - step: 6
+      actor: "Satellite Program Manager"
+      action: "Conduct constellation integration testing and service launch"
+      tools: ["Network testing tools", "Performance monitoring systems", "Service management platforms"]
+      duration: "4 weeks"
+      outputs: ["Integration test results", "Service launch plan", "Operational procedures"]
+  success_criteria: "Successful deployment of constellation achieving target coverage and performance metrics"
+  failure_modes: ["Regulatory delays", "Launch failures", "Technical integration issues", "Spectrum interference", "Ground station deployment challenges"]
+  metrics:
+    - "Coverage achievement: >95% target area"
+    - "Service availability: >99.5%"
+    - "Data throughput: >100 Mbps average"
+    - "Deployment timeline adherence: <5% variance"
+    - "Cost per satellite: <$10M"

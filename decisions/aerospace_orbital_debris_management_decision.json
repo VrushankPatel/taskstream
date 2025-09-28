@@ -1,0 +1,43 @@
+{
+  "scenario_id": "aerospace_orbital_debris_management_2025",
+  "context": "Satellite operator evaluating orbital debris mitigation strategies to ensure long-term space sustainability",
+  "stakeholders": {
+    "requester": "Chief Mission Officer",
+    "approvers": ["CEO", "Chief Technology Officer", "Chief Risk Officer"],
+    "influencers": ["Orbital Operations Team", "Regulatory Compliance Director", "Insurance Partners"]
+  },
+  "request": {
+    "amount": "$30M",
+    "purpose": "Advanced debris tracking and mitigation system development",
+    "urgency": "high",
+    "justification": "Comply with international space debris regulations and protect satellite constellation assets"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment",
+      "duration": "6 weeks",
+      "activities": ["Debris environment analysis", "Collision risk modeling", "Regulatory requirement review"],
+      "outcome": "Identified critical risk zones requiring immediate mitigation"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Tracking technology assessment", "Mitigation strategy development", "Cost-benefit analysis"],
+      "outcome": "Selected AI-enhanced tracking and automated collision avoidance system"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["System integration planning", "Resource allocation", "Timeline development"],
+      "outcome": "Approved for constellation-wide deployment"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Enhanced satellite safety and regulatory compliance",
+    "projected_value": "$500M asset protection through reduced collision risk",
+    "risk_factors": ["Technology development challenges", "International regulatory changes", "System integration complexity"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Asset protection value", "Technology feasibility", "International standards alignment", "Cost-effectiveness"],
+  "outcome": "Approved",
+  "lessons_learned": "Proactive debris management essential for sustainable space operations, international collaboration improves regulatory compliance"
+}

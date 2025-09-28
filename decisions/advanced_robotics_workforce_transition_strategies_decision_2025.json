@@ -1,0 +1,53 @@
+{
+  "scenario_id": "decision_advanced_robotics_workforce_transition_2025",
+  "context": "Global manufacturing company with 5,000 employees implementing collaborative robotics across 12 facilities, facing workforce displacement concerns and skills gaps",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "Chief Human Resources Officer", "Board of Directors"],
+    "influencers": ["Manufacturing Directors", "Union Representatives", "Technology Partners", "Industry Analysts"]
+  },
+  "request": {
+    "amount": "$45 million",
+    "purpose": "Comprehensive workforce transition program for robotics implementation",
+    "urgency": "high",
+    "justification": "Maintain competitive advantage through automation while ensuring employee welfare and preventing disruption"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "6 weeks",
+      "activities": ["Workforce impact modeling", "Skills gap analysis", "Economic displacement assessment"],
+      "outcome": "Identified 800 affected roles with potential for 60% redeployment through retraining"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "4 weeks",
+      "activities": ["Union negotiations", "Employee town halls", "Community impact studies"],
+      "outcome": "Developed collaborative framework with union support and employee input"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "8 weeks",
+      "activities": ["Retraining program design", "Career transition planning", "New role creation"],
+      "outcome": "Comprehensive transition strategy including robotics technician training and advanced manufacturing roles"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["ROI analysis", "Cost-benefit modeling", "Funding allocation"],
+      "outcome": "Projected 300% ROI over 5 years with net positive employment impact"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "5 weeks",
+      "activities": ["Timeline development", "Resource allocation", "Success metrics definition"],
+      "outcome": "Phased 18-month implementation plan with quarterly milestones"
+    }
+  ],
+  "business_impact": {
+    "productivity_gain": "35% increase in manufacturing efficiency",
+    "cost_savings": "$120 million annual operational savings",
+    "employment_impact": "Net positive with 200 new high-skilled positions created",
+    "risk_factors": ["Resistance to change from workforce", "Skills training program effectiveness", "Economic conditions affecting re-employment"]
+  }
+}

@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_manufacturing_circular_economy_supply_chain"
+  title: "Manufacturing Circular Economy Supply Chain Transformation"
+  department: "Supply Chain Operations"
+  complexity: "high"
+  participants: ["Supply Chain Director", "Sustainability Manager", "Procurement Manager", "Product Design Engineer", "Logistics Coordinator"]
+  trigger: "Corporate sustainability mandate to achieve 50% circularity in supply chain by 2027"
+  steps:
+    - step: 1
+      actor: "Supply Chain Director"
+      action: "Assess current supply chain circularity and identify transformation opportunities"
+      tools: ["Supply chain analysis software", "Circularity assessment frameworks", "Stakeholder mapping tools"]
+      duration: "6 weeks"
+      outputs: ["Circularity assessment report", "Transformation roadmap", "Stakeholder impact analysis"]
+    - step: 2
+      actor: "Sustainability Manager"
+      action: "Develop circular economy principles and material flow analysis"
+      tools: ["Life cycle assessment tools", "Material flow analysis software", "Sustainability reporting frameworks"]
+      duration: "5 weeks"
+      outputs: ["Circular economy framework", "Material flow maps", "Sustainability targets"]
+    - step: 3
+      actor: "Procurement Manager"
+      action: "Identify and qualify circular suppliers and recycling partners"
+      tools: ["Supplier qualification systems", "Sustainability rating platforms", "Contract management software"]
+      duration: "8 weeks"
+      outputs: ["Supplier qualification database", "Partnership agreements", "Procurement guidelines"]
+    - step: 4
+      actor: "Product Design Engineer"
+      action: "Redesign products for circularity including modular design and material recovery"
+      tools: ["CAD software", "Design for environment tools", "Material science databases"]
+      duration: "10 weeks"
+      outputs: ["Product redesign specifications", "Material recovery processes", "Design guidelines"]
+    - step: 5
+      actor: "Logistics Coordinator"
+      action: "Implement reverse logistics and product take-back programs"
+      tools: ["Logistics management systems", "Returns processing software", "Customer engagement platforms"]
+      duration: "7 weeks"
+      outputs: ["Reverse logistics framework", "Take-back program procedures", "Customer communication materials"]
+    - step: 6
+      actor: "Sustainability Manager"
+      action: "Establish monitoring and reporting systems for circular economy performance"
+      tools: ["Sustainability dashboards", "Performance tracking software", "Reporting automation tools"]
+      duration: "4 weeks"
+      outputs: ["Performance monitoring system", "Reporting framework", "KPI dashboards"]
+    - step: 7
+      actor: "Supply Chain Director"
+      action: "Scale successful circular practices and optimize supply chain operations"
+      tools: ["Supply chain optimization software", "Continuous improvement frameworks", "Change management tools"]
+      duration: "Ongoing"
+      outputs: ["Scalability reports", "Optimization recommendations", "Continuous improvement plans"]
+  success_criteria: "Achieved 50% reduction in virgin material usage with established circular supply chain ecosystem"
+  failure_modes: ["Supplier resistance to circular practices", "Product redesign costs exceeding benefits", "Logistics complexity overwhelming operational capacity"]

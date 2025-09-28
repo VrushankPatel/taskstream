@@ -1,49 +1,84 @@
+---
+
 workflow:
   id: "defense_cybersecurity_contractor_bidding"
   title: "Defense Cybersecurity Contractor Bidding Process"
   department: "Procurement and Cybersecurity"
   complexity: "complex"
-  participants: ["Procurement Officer", "Cybersecurity Technical Review Board", "Defense Contracting Officer", "Legal Compliance Team", "Security Clearance Office"]
+  participants:
+    - "Procurement Officer"
+    - "Cybersecurity Technical Review Board"
+    - "Defense Contracting Officer"
+    - "Legal Compliance Team"
+    - "Security Clearance Office"
   trigger: "Requirement for specialized cybersecurity services or systems"
   steps:
     - step: 1
       actor: "Procurement Officer"
       action: "Develop and issue Request for Proposal (RFP) with detailed cybersecurity requirements"
-      tools: ["Procurement management system", "RFP templates", "Security requirement documents"]
+      tools:
+        - "Procurement management system"
+        - "RFP templates"
+        - "Security requirement documents"
       duration: "2 weeks"
-      outputs: ["RFP document", "Bidder qualification criteria"]
+      outputs:
+        - "RFP document"
+        - "Bidder qualification criteria"
     - step: 2
       actor: "Cybersecurity Technical Review Board"
       action: "Evaluate technical proposals for compliance with defense cybersecurity standards"
-      tools: ["Technical evaluation criteria", "Security assessment frameworks", "Vendor capability databases"]
+      tools:
+        - "Technical evaluation criteria"
+        - "Security assessment frameworks"
+        - "Vendor capability databases"
       duration: "3 weeks"
-      outputs: ["Technical evaluation report", "Shortlisted vendors"]
+      outputs:
+        - "Technical evaluation report"
+        - "Shortlisted vendors"
     - step: 3
       actor: "Defense Contracting Officer"
       action: "Conduct cost analysis and negotiate contract terms with selected vendors"
-      decision_points: ["Cost reasonableness", "Contract terms", "Performance guarantees"]
+      decision_points:
+        - "Cost reasonableness"
+        - "Contract terms"
+        - "Performance guarantees"
       duration: "2 weeks"
-      outputs: ["Cost analysis report", "Contract negotiation summary"]
+      outputs:
+        - "Cost analysis report"
+        - "Contract negotiation summary"
     - step: 4
       actor: "Legal Compliance Team"
       action: "Review contract for legal compliance and export control requirements"
-      tools: ["Legal review checklists", "Export control regulations", "Contract templates"]
+      tools:
+        - "Legal review checklists"
+        - "Export control regulations"
+        - "Contract templates"
       duration: "1 week"
-      outputs: ["Legal compliance review", "Contract approval recommendation"]
+      outputs:
+        - "Legal compliance review"
+        - "Contract approval recommendation"
     - step: 5
       actor: "Security Clearance Office"
       action: "Verify security clearances for vendor personnel and facilities"
-      tools: ["Security clearance databases", "Facility security assessment tools"]
+      tools:
+        - "Security clearance databases"
+        - "Facility security assessment tools"
       duration: "1 week"
-      outputs: ["Security clearance verification", "Final contract authorization"]
+      outputs:
+        - "Security clearance verification"
+        - "Final contract authorization"
   success_criteria: "Award contract to qualified vendor meeting all defense cybersecurity and procurement requirements"
-  failure_modes: ["Insufficient bidder pool", "Technical proposal weaknesses", "Security clearance delays", "Budget overruns"]
-   metrics:
-     - "Bidder response rate: >70% qualified responses"
-     - "Contract award timeline: <8 weeks from RFP"
-     - "Cost savings vs budget: >5% under target"
-     - "Vendor performance history: 100% compliance check"
-     - "Security clearance processing time: <4 weeks"
-     - "Technical evaluation completion rate: 100%"
-     - "Contract compliance monitoring: >95% adherence rate"
-     - "Vendor satisfaction score: >4.0/5"
+  failure_modes:
+    - "Insufficient bidder pool"
+    - "Technical proposal weaknesses"
+    - "Security clearance delays"
+    - "Budget overruns"
+  metrics:
+    - "Bidder response rate: >70% qualified responses"
+    - "Contract award timeline: <8 weeks from RFP"
+    - "Cost savings vs budget: >5% under target"
+    - "Vendor performance history: 100% compliance check"
+    - "Security clearance processing time: <4 weeks"
+    - "Technical evaluation completion rate: 100%"
+    - "Contract compliance monitoring: >95% adherence rate"
+    - "Vendor satisfaction score: >4.0/5"

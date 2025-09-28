@@ -42,5 +42,14 @@ workflow:
       tools: ["Building Performance Dashboard", "Analytics Platform"]
       duration: "Ongoing monthly monitoring"
       outputs: ["Performance Reports", "Optimization Recommendations"]
-  success_criteria: "20% reduction in energy costs, improved tenant satisfaction scores, enhanced building security"
-  failure_modes: ["Integration compatibility issues", "Tenant adoption challenges", "Cybersecurity vulnerabilities"]
+   success_criteria: "20% reduction in energy costs, improved tenant satisfaction scores, enhanced building security"
+   failure_modes: ["Integration compatibility issues", "Tenant adoption challenges", "Cybersecurity vulnerabilities"]
+   metrics:
+     - "Energy cost reduction: Target 20%"
+     - "Tenant satisfaction score: Target >4.5/5"
+     - "Building security incidents: Target 0"
+     - "IoT device uptime: Target 99.9%"
+     - "Tenant app adoption rate: Target >70%"
+     - "Maintenance response time: Target <2 hours"
+     - "Operational efficiency improvement: Target 25%"
+     - "ROI on PropTech investment: Target >15% annually"

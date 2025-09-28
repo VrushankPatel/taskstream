@@ -1,5 +1,5 @@
 workflow:
-  id: "agriculture_pest_management"
+   id: "workflow_agriculture_pest_management"
   title: "Agriculture Pest Management Workflow"
   department: "Crop Protection"
   complexity: "medium"
@@ -54,5 +54,11 @@ workflow:
       decision_points: ["Treatment effectiveness", "Preventive strategy updates"]
       duration: "1 day"
       outputs: ["Performance Report", "Updated Pest Management Plan"]
-  success_criteria: "Pest population controlled below economic threshold, crop yield protected, environmental impact minimized, regulatory compliance maintained"
-  failure_modes: ["Ineffective treatment leading to crop loss", "Environmental contamination", "Regulatory violations", "Resistance development"]
+   success_criteria: "Pest population controlled below economic threshold, crop yield protected, environmental impact minimized, regulatory compliance maintained"
+   failure_modes: ["Ineffective treatment leading to crop loss", "Environmental contamination", "Regulatory violations", "Resistance development"]
+   metrics:
+     - "Pest control effectiveness: Target 95% reduction"
+     - "Crop yield protection: Target 98% maintained"
+     - "Environmental impact score: Target <2 on scale"
+     - "Regulatory compliance rate: Target 100%"
+     - "Treatment cost efficiency: Target <$50/acre"

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "mining_resource_optimization_q4_2025",
+  "context": "Mining company, 3000 employees, evaluating AI-driven resource extraction optimization",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "Board of Directors", "Environmental Compliance Officer"],
+    "influencers": ["Geology Team", "Environmental Scientists", "Financial Planning"]
+  },
+  "request": {
+    "amount": "$25M investment",
+    "purpose": "Implement AI and IoT for optimized resource extraction and reduced environmental impact",
+    "urgency": "high",
+    "justification": "Current methods waste 15% of resources, environmental fines increasing"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "4 weeks",
+      "activities": ["Technology assessment", "Pilot site selection", "Vendor evaluation"],
+      "outcome": "Feasible with proven ROI"
+    },
+    {
+      "stage": "environmental_impact",
+      "duration": "3 weeks",
+      "activities": ["Environmental assessment", "Regulatory compliance review", "Stakeholder consultation"],
+      "outcome": "Environmental benefits outweigh costs"
+    },
+    {
+      "stage": "financial_approval",
+      "duration": "2 weeks",
+      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding allocation"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "resource_efficiency_gain": "20%",
+    "cost_savings": "$8M annually",
+    "risk_factors": ["Technology reliability", "Regulatory changes", "Geological variability"]
+  }
+}

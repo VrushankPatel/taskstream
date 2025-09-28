@@ -1,0 +1,40 @@
+{
+  "scenario_id": "consulting_project_scoping_q3_2025",
+  "context": "Management consulting firm, 400 employees, evaluating new client engagement methodology",
+  "stakeholders": {
+    "requester": "Managing Partner",
+    "approvers": ["Executive Committee", "Practice Leaders"],
+    "influencers": ["Client Relationship Managers", "Project Managers", "Knowledge Management Team"]
+  },
+  "request": {
+    "amount": "$500K development budget",
+    "purpose": "Develop standardized scoping methodology for complex transformation projects",
+    "urgency": "medium",
+    "justification": "Current scoping process takes 6-8 weeks, want to reduce to 3-4 weeks"
+  },
+  "decision_process": [
+    {
+      "stage": "methodology_development",
+      "duration": "6 weeks",
+      "activities": ["Best practice research", "Client feedback analysis", "Framework design"],
+      "outcome": "Comprehensive methodology developed"
+    },
+    {
+      "stage": "internal_pilot",
+      "duration": "4 weeks",
+      "activities": ["Test on internal projects", "Feedback collection", "Refinement"],
+      "outcome": "Methodology validated internally"
+    },
+    {
+      "stage": "rollout_approval",
+      "duration": "2 weeks",
+      "activities": ["Training plan development", "Change management strategy", "Resource allocation"],
+      "outcome": "Approved for firm-wide implementation"
+    }
+  ],
+  "business_impact": {
+    "scoping_time_reduction": "50%",
+    "project_win_rate_improvement": "15%",
+    "risk_factors": ["Client resistance to standardization", "Training requirements", "Methodology adaptation needs"]
+  }
+}

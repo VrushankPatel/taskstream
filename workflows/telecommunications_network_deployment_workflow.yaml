@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_telecom_deployment_001"
+  title: "Telecommunications Network Infrastructure Deployment"
+  department: "Network Operations"
+  complexity: "high"
+  participants: ["Network Engineer", "Project Manager", "Site Acquisition Specialist", "Construction Manager", "Quality Assurance", "Regulatory Compliance"]
+  trigger: "Network expansion plan approved"
+  steps:
+    - step: 1
+      actor: "Project Manager"
+      action: "Conduct site surveys and feasibility analysis"
+      tools: ["GIS Mapping", "Site Survey Equipment", "Coverage Analysis Software"]
+      duration: "4 weeks"
+      outputs: ["Site Selection Report", "Feasibility Study"]
+    - step: 2
+      actor: "Site Acquisition Specialist"
+      action: "Negotiate leases and obtain permits"
+      tools: ["Lease Agreement Templates", "Permit Application System"]
+      duration: "8 weeks"
+      outputs: ["Site Leases", "Construction Permits"]
+    - step: 3
+      actor: "Network Engineer"
+      action: "Design network architecture and equipment specifications"
+      tools: ["Network Design Software", "Equipment Catalogs"]
+      duration: "3 weeks"
+      outputs: ["Network Design Documents", "Equipment Orders"]
+    - step: 4
+      actor: "Construction Manager"
+      action: "Oversee equipment installation and cabling"
+      tools: ["Construction Management Software", "Safety Protocols"]
+      duration: "6 weeks"
+      outputs: ["Installation Reports", "As-built Drawings"]
+    - step: 5
+      actor: "Network Engineer"
+      action: "Configure and test network equipment"
+      tools: ["Configuration Management", "Testing Equipment"]
+      duration: "2 weeks"
+      outputs: ["Configuration Files", "Test Results"]
+    - step: 6
+      actor: "Quality Assurance"
+      action: "Perform acceptance testing and documentation"
+      tools: ["Testing Protocols", "Compliance Checklists"]
+      duration: "1 week"
+      outputs: ["Acceptance Test Report", "Final Documentation"]
+    - step: 7
+      actor: "Regulatory Compliance"
+      action: "File completion reports and obtain final approvals"
+      tools: ["Regulatory Reporting System"]
+      duration: "2 weeks"
+      outputs: ["Regulatory Approvals", "Network Activation"]
+  success_criteria: "Network deployed on time and budget, meets performance and regulatory requirements"
+  failure_modes: ["Permit delays", "Construction issues", "Equipment failures", "Regulatory non-compliance"]

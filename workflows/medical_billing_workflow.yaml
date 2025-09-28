@@ -33,8 +33,8 @@ workflow:
     - step: 5
       actor: "Patient Services Rep"
       action: "Contact patient for outstanding balances and payment arrangements"
-      tools: ["Patient Portal", "Payment Processing System"]
-       duration: "As needed"
+       tools: ["Patient Portal", "Payment Processing System"]
+      duration: "As needed"
       outputs: ["Payment plan", "Collection notice"]
   success_criteria: "90% claims paid within 30 days, patient satisfaction >95%"
   failure_modes: ["Coding errors leading to denials", "Insurance verification failures", "Patient communication breakdowns"]

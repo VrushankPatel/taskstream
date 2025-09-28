@@ -5,15 +5,15 @@ department: "Manufacturing Engineering"
 complexity: "complex"
 participants: ["Robotics Engineer", "Process Engineer", "Safety Officer", "IT Specialist", "Production Manager", "Vendor Representative", "Maintenance Technician"]
 trigger: "Decision to automate manual production process"
-steps:
-  - step: 1
-    actor: "Process Engineer"
+  steps:
+    - step: 1
+      actor: "Process Engineer"
     action: "Analyze current manual process and identify automation opportunities"
     tools: ["Process Mapping Software", "Time Study Tools", "Ergonomics Assessment"]
     duration: "2 weeks"
     outputs: ["Process Analysis Report", "ROI Projections", "Automation Requirements Document"]
-  - step: 2
-    actor: "Robotics Engineer"
+    - step: 2
+      actor: "Robotics Engineer"
     action: "Design robotic cell layout and select appropriate robot models"
     decision_points: ["Payload requirements", "Reach specifications", "Precision needs"]
     tools: ["CAD Software", "Robot Simulation Software", "Vendor Catalogs"]

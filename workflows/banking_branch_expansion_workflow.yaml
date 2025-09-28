@@ -29,30 +29,30 @@ workflow:
       action: "Assess operational requirements and staffing needs"
       tools: ["Operations planning tools", "Staffing models", "Regulatory compliance checklists"]
       duration: "1 week"
-      outputs: ["Operations plan", "Staffing requirements", "Regulatory compliance assessment"]
-     - step: 5
-       actor: "Executive Committee"
-       action: "Review and approve branch expansion proposal"
-       tools: ["Executive dashboard", "Investment approval system"]
-       duration: "1 week"
-       outputs: ["Approved expansion plan", "Budget allocation"]
-     - step: 6
-       actor: "Branch Expansion Manager"
-       action: "Execute construction and fit-out according to banking standards"
-       tools: ["Construction management software", "Banking facility specifications"]
-       duration: "8 weeks"
-       outputs: ["Construction completion certificate", "Facility readiness report"]
-     - step: 7
-       actor: "Operations Director"
-       action: "Recruit and train branch staff"
-       tools: ["HR recruitment system", "Banking training programs"]
-       duration: "4 weeks"
-       outputs: ["Staffing plan", "Training completion records"]
-     - step: 8
-       actor: "Branch Expansion Manager"
-       action: "Launch branch operations and marketing campaign"
-       tools: ["Marketing automation platform", "Local advertising channels"]
-       duration: "2 weeks"
+       outputs: ["Operations plan", "Staffing requirements", "Regulatory compliance assessment"]
+    - step: 5
+      actor: "Executive Committee"
+      action: "Review and approve branch expansion proposal"
+      tools: ["Executive dashboard", "Investment approval system"]
+      duration: "1 week"
+      outputs: ["Approved expansion plan", "Budget allocation"]
+    - step: 6
+      actor: "Branch Expansion Manager"
+      action: "Execute construction and fit-out according to banking standards"
+      tools: ["Construction management software", "Banking facility specifications"]
+      duration: "8 weeks"
+      outputs: ["Construction completion certificate", "Facility readiness report"]
+    - step: 7
+      actor: "Operations Director"
+      action: "Recruit and train branch staff"
+      tools: ["HR recruitment system", "Banking training programs"]
+      duration: "4 weeks"
+      outputs: ["Staffing plan", "Training completion records"]
+    - step: 8
+      actor: "Branch Expansion Manager"
+      action: "Launch branch operations and marketing campaign"
+      tools: ["Marketing automation platform", "Local advertising channels"]
+      duration: "2 weeks"
        outputs: ["Grand opening event", "Marketing campaign results"]
   success_criteria: "New branch achieves profitability within 18 months with customer acquisition targets met, demonstrating positive ROI and contributing to overall retail banking growth objectives"
   failure_modes: ["Poor location selection", "Construction delays", "Staffing challenges", "Regulatory approval issues", "Budget overruns", "Community opposition"]

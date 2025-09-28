@@ -186,3 +186,8 @@ Advanced metrics tracking the implementation and impact of AI-enhanced populatio
   - Target: 8 publications
   - Current: 7 publications
   - Trend: ↑ 1 QoQ
+
+- **AI Staff Retention Rate**: Percentage of AI-specialized staff retained annually
+  - Target: 95%
+  - Current: 93%
+  - Trend: ↑ 1% QoQ

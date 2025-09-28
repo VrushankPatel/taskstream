@@ -1,0 +1,40 @@
+{
+  "scenario_id": "retail_inventory_optimization_q2_2026",
+  "context": "National retail chain, 500 stores, implementing AI-driven inventory optimization",
+  "stakeholders": {
+    "requester": "Chief Merchandising Officer",
+    "approvers": ["CEO", "CFO", "Operations Director"],
+    "influencers": ["Store Managers", "Data Analytics Team", "Procurement Team"]
+  },
+  "request": {
+    "amount": "$3.2M",
+    "purpose": "Deploy machine learning inventory optimization across all locations",
+    "urgency": "high",
+    "justification": "Reduce overstock by 40%, eliminate stockouts, improve cash flow"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_program",
+      "duration": "12 weeks",
+      "activities": ["Select pilot stores", "Implement ML algorithms", "Monitor performance"],
+      "outcome": "Pilot stores show 35% inventory reduction, 20% sales increase"
+    },
+    {
+      "stage": "scalability_assessment",
+      "duration": "4 weeks",
+      "activities": ["Infrastructure requirements", "Training needs", "Change management"],
+      "outcome": "Scalable solution identified, full rollout approved"
+    },
+    {
+      "stage": "enterprise_implementation",
+      "duration": "16 weeks",
+      "activities": ["System deployment", "Staff training", "Performance monitoring"],
+      "outcome": "Successful rollout across all stores"
+    }
+  ],
+  "business_impact": {
+    "expected_inventory_reduction": "40%",
+    "projected_sales_increase": "15%",
+    "risk_factors": ["Data quality issues", "Store staff training challenges", "System integration problems"]
+  }
+}

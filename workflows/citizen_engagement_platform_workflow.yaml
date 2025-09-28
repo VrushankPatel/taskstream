@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_citizen_engagement"
+  title: "Citizen Engagement Platform Management"
+  department: "Digital Services"
+  complexity: "high"
+  participants: ["Digital Services Manager", "Content Moderators", "IT Security", "Communications Team", "Policy Advisors"]
+  trigger: "New policy announcement or public consultation requirement"
+  steps:
+    - step: 1
+      actor: "Communications Team"
+      action: "Develop engagement strategy and content calendar"
+      tools: ["Engagement Platform", "Content Management System"]
+      duration: "1-2 weeks"
+      outputs: ["Engagement plan"]
+    - step: 2
+      actor: "Digital Services Manager"
+      action: "Configure platform features and access controls"
+      decision_points: ["Privacy requirements", "Accessibility standards"]
+      duration: "1 week"
+      outputs: ["Platform configuration"]
+    - step: 3
+      actor: "Content Moderators"
+      action: "Monitor discussions and moderate content according to community guidelines"
+      tools: ["Moderation Dashboard", "AI Content Filters"]
+      duration: "Ongoing"
+      outputs: ["Moderation reports"]
+    - step: 4
+      actor: "Policy Advisors"
+      action: "Analyze engagement data and incorporate feedback into policy development"
+      tools: ["Analytics Dashboard", "Survey Tools"]
+      duration: "Post-engagement"
+      outputs: ["Policy recommendations"]
+    - step: 5
+      actor: "Communications Team"
+      action: "Communicate outcomes and follow-up actions to participants"
+      tools: ["Email System", "Social Media Platforms"]
+      duration: "1 week"
+      outputs: ["Engagement summary report"]
+  success_criteria: "50% citizen participation rate, positive sentiment >70%"
+  failure_modes: ["Low engagement levels", "Content moderation challenges", "Technical platform issues"]

@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_curriculum_automation"
+  title: "Curriculum Development Automation Process"
+  department: "Academic Affairs"
+  complexity: "medium"
+  participants: ["Curriculum Director", "Subject Matter Experts", "Instructional Designers", "IT Support", "Faculty Committee"]
+  trigger: "New course requirement or curriculum review cycle"
+  steps:
+    - step: 1
+      actor: "Curriculum Director"
+      action: "Define learning objectives and competency frameworks"
+      tools: ["Curriculum Management System", "Learning Standards Database"]
+      duration: "2-4 weeks"
+      outputs: ["Curriculum framework document"]
+    - step: 2
+      actor: "Subject Matter Experts"
+      action: "Develop course content using automated content generation tools"
+      decision_points: ["Content accuracy", "Learning engagement"]
+      duration: "4-6 weeks"
+      outputs: ["Draft course materials"]
+    - step: 3
+      actor: "Instructional Designers"
+      action: "Apply automated assessment and feedback mechanisms"
+      tools: ["Learning Management System", "Assessment Automation Tools"]
+      duration: "2-3 weeks"
+      outputs: ["Interactive course modules"]
+    - step: 4
+      actor: "IT Support"
+      action: "Integrate courses into LMS with automated enrollment and tracking"
+      tools: ["LMS Platform", "Integration APIs"]
+      duration: "1-2 weeks"
+      outputs: ["Published courses"]
+    - step: 5
+      actor: "Faculty Committee"
+      action: "Review automated curriculum and approve for implementation"
+      tools: ["Peer Review Platform", "Quality Assurance Checklist"]
+      duration: "1 week"
+      outputs: ["Approval documentation"]
+  success_criteria: "Courses developed 60% faster, student completion rates >85%"
+  failure_modes: ["Automated content quality issues", "Technical integration problems", "Faculty resistance to automation"]

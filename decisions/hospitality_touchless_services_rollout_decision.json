@@ -1,0 +1,60 @@
+{
+  "scenario_id": "hospitality_touchless_services_2025",
+  "context": "Hotel chain with 200 properties evaluating contactless technology implementation post-pandemic to enhance guest experience and operational efficiency",
+  "stakeholders": {
+    "requester": "Director of Guest Experience",
+    "approvers": ["COO", "CFO", "IT Director"],
+    "influencers": ["Regional Managers", "Front Desk Supervisors", "Guest Services Team"]
+  },
+  "request": {
+    "amount": "$2,800,000",
+    "purpose": "Implement contactless check-in, room access, and payment systems across all properties",
+    "urgency": "medium",
+    "justification": "Guest demand for touchless experiences, 20% increase in contactless bookings, competitive advantage"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_program",
+      "duration": "3 months",
+      "activities": ["Select 5 pilot properties", "Technology vendor evaluation", "Staff training program"],
+      "outcome": "85% guest satisfaction increase, 15% faster check-in times"
+    },
+    {
+      "stage": "full_rollout_planning",
+      "duration": "2 months",
+      "activities": ["Budget allocation", "Timeline development", "Change management planning"],
+      "outcome": "Approved for full rollout with 12-month implementation"
+    }
+  ],
+   "alternatives_considered": [
+     {
+       "option": "Phased rollout starting with high-traffic urban properties",
+       "pros": ["Lower initial investment", "Learning opportunities", "Reduced risk"],
+       "cons": ["Slower time to value", "Inconsistent guest experience", "Higher long-term costs"]
+     },
+     {
+       "option": "Partner with existing PMS vendor for integrated solution",
+       "pros": ["Seamless integration", "Single vendor support", "Cost efficiencies"],
+       "cons": ["Limited customization", "Vendor dependency", "Potential delays"]
+     }
+   ],
+   "business_impact": {
+     "expected_outcome": "Enhanced guest safety and convenience, operational efficiency improvements, competitive positioning in post-pandemic market",
+     "projected_value": "$4,200,000 annual savings through reduced labor costs and improved booking conversion",
+     "quantitative_benefits": {
+       "labor_cost_reduction": "$2,800,000",
+       "booking_conversion_increase": "12%",
+       "guest_satisfaction_improvement": "18 points",
+       "operational_efficiency": "25% faster check-in"
+     },
+     "risk_factors": ["Technology integration challenges", "Staff adaptation period", "Guest technology comfort levels", "Cybersecurity vulnerabilities", "Vendor reliability"]
+   },
+   "decision_criteria": ["Guest satisfaction improvement", "Operational cost reduction", "Technology reliability", "Scalability across properties", "ROI timeline", "Competitive advantage"],
+   "implementation_plan": {
+     "phases": ["Planning (2 months)", "Pilot (3 months)", "Rollout (9 months)", "Optimization (3 months)"],
+     "milestones": ["Vendor selection complete", "Staff training 100% complete", "50% properties live", "Full deployment"],
+     "success_metrics": ["90% guest adoption rate", "15% labor cost reduction", "4.5/5 satisfaction score"]
+   },
+   "outcome": "Approved",
+   "lessons_learned": "Pilot programs essential for validating technology investments, comprehensive training critical for successful adoption, stakeholder engagement improves buy-in"
+}

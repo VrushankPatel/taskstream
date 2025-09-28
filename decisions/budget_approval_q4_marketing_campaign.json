@@ -1,0 +1,42 @@
+{
+  "scenario_id": "budget_approval_q4_2024",
+  "context": "SaaS company, 200 employees, planning Q4 marketing spend",
+  "stakeholders": {
+    "requester": "VP Marketing",
+    "approvers": ["CFO", "CEO"],
+    "influencers": ["Head of Sales", "VP Product"]
+  },
+  "request": {
+    "amount": "$150,000",
+    "purpose": "Lead generation campaign",
+    "urgency": "high",
+    "justification": "Market opportunity in new segment"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "duration": "2 days",
+      "activities": ["ROI analysis", "Competitive research"],
+      "outcome": "Approved with conditions"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Cross-functional meetings", "Risk assessment"],
+      "outcome": "Full approval granted"
+    }
+  ],
+  "business_impact": {
+    "expected_leads": 500,
+    "projected_revenue": "$300,000",
+    "risk_factors": ["Market uncertainty", "Campaign execution"]
+  },
+  "decision_criteria": [
+    "ROI potential > 2x",
+    "Strategic alignment with company goals",
+    "Available budget capacity",
+    "Cross-functional support"
+  ],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder involvement improved decision quality"
+}

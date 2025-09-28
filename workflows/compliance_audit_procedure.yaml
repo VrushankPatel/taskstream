@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_006"
+  title: "Compliance Audit Procedure"
+  department: "Compliance"
+  complexity: "medium"
+  participants: ["Compliance Officer", "Department Heads", "External Auditors", "Legal Counsel"]
+  trigger: "Annual audit requirement or regulatory change"
+  steps:
+    - step: 1
+      actor: "Compliance Officer"
+      action: "Plan audit scope and timeline"
+      tools: ["Audit checklist", "Regulatory requirements"]
+      duration: "2 weeks"
+      outputs: ["Audit plan", "Department assignments"]
+    - step: 2
+      actor: "Department Heads"
+      action: "Gather and organize documentation"
+      tools: ["Document management system", "Process logs"]
+      duration: "4 weeks"
+      outputs: ["Evidence packages", "Process documentation"]
+    - step: 3
+      actor: "Compliance Officer"
+      action: "Conduct internal review and gap analysis"
+      tools: ["Compliance software", "Risk assessment tools"]
+      duration: "2 weeks"
+      outputs: ["Gap report", "Remediation plan"]
+    - step: 4
+      actor: "External Auditors"
+      action: "Perform independent audit"
+      tools: ["Audit software", "Sampling techniques"]
+      duration: "3 weeks"
+      outputs: ["Audit findings", "Compliance report"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review findings and provide recommendations"
+      decision_points: ["Legal risk", "Regulatory compliance"]
+      duration: "1 week"
+      outputs: ["Legal opinion", "Action items"]
+    - step: 6
+      actor: "Compliance Officer"
+      action: "Implement corrective actions and monitor progress"
+      tools: ["Action tracking system", "Compliance dashboard"]
+      duration: "Ongoing"
+      outputs: ["Corrective action reports", "Compliance metrics"]
+  success_criteria: "Audit completed with no material findings"
+  failure_modes: ["Incomplete documentation", "Process non-compliance", "Delayed remediation"]

@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_genomics_therapy_001"
+  title: "Healthcare Genomics Gene Therapy Development Workflow"
+  department: "Genomics Research & Development"
+  complexity: "high"
+  participants: ["Genomics Scientist", "Clinical Researcher", "Regulatory Affairs Specialist", "Manufacturing Lead", "Medical Director"]
+  trigger: "New gene therapy target identified through genomic research"
+  steps:
+    - step: 1
+      actor: "Genomics Scientist"
+      action: "Validate gene therapy target and design therapeutic construct"
+      tools: ["Genomic analysis software", "CRISPR design tools", "Molecular biology laboratory equipment"]
+      duration: "8 weeks"
+      outputs: ["Target validation report", "Therapeutic construct design", "Preclinical study protocol"]
+    - step: 2
+      actor: "Clinical Researcher"
+      action: "Conduct preclinical safety and efficacy studies"
+      tools: ["Animal model systems", "Biomarker analysis platforms", "Statistical analysis software"]
+      duration: "12 weeks"
+      outputs: ["Preclinical study results", "Safety assessment report", "Efficacy data analysis"]
+    - step: 3
+      actor: "Regulatory Affairs Specialist"
+      action: "Prepare and submit regulatory filings for clinical trials"
+      tools: ["Regulatory submission software", "Clinical trial management systems", "Regulatory guidance databases"]
+      duration: "6 weeks"
+      outputs: ["IND submission package", "Clinical trial protocol", "Regulatory correspondence"]
+    - step: 4
+      actor: "Manufacturing Lead"
+      action: "Develop and validate manufacturing process for therapeutic product"
+      tools: ["Biomanufacturing equipment", "Quality control systems", "Process validation software"]
+      duration: "10 weeks"
+      outputs: ["Manufacturing process documentation", "Quality control specifications", "Process validation report"]
+    - step: 5
+      actor: "Medical Director"
+      action: "Oversee clinical trial execution and safety monitoring"
+      tools: ["Clinical trial management systems", "Safety monitoring databases", "Medical review software"]
+      duration: "24 weeks"
+      outputs: ["Clinical trial results", "Safety monitoring reports", "Regulatory submission for approval"]
+  success_criteria: "Successful completion of Phase 1/2 clinical trials with acceptable safety profile and preliminary efficacy signals"
+  failure_modes: ["Target validation failure", "Unexpected safety issues in preclinical studies", "Manufacturing process scalability challenges", "Regulatory approval delays"]

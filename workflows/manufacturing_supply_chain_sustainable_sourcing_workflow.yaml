@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_supply_sustainable_001"
+  title: "Manufacturing Supply Chain Sustainable Sourcing Workflow"
+  department: "Supply Chain Management"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Sustainability Officer", "Supplier Quality Manager", "Procurement Specialist", "Compliance Officer"]
+  trigger: "Corporate sustainability targets require enhanced supplier environmental standards"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Assess current supplier base and identify sustainability gaps"
+      tools: ["Supplier management software", "Sustainability assessment frameworks", "Supplier performance databases"]
+      duration: "3 weeks"
+      outputs: ["Supplier sustainability assessment", "Gap analysis report", "Priority supplier list"]
+    - step: 2
+      actor: "Sustainability Officer"
+      action: "Develop supplier sustainability requirements and certification standards"
+      tools: ["Sustainability frameworks", "Certification standards databases", "Environmental impact assessment tools"]
+      duration: "4 weeks"
+      outputs: ["Supplier sustainability requirements", "Certification criteria", "Assessment methodology"]
+    - step: 3
+      actor: "Supplier Quality Manager"
+      action: "Conduct supplier audits and capability assessments"
+      tools: ["Audit management software", "Supplier survey tools", "Quality management systems"]
+      duration: "8 weeks"
+      outputs: ["Supplier audit reports", "Capability assessment results", "Improvement action plans"]
+    - step: 4
+      actor: "Procurement Specialist"
+      action: "Negotiate sustainability clauses and pricing adjustments"
+      tools: ["Contract management software", "Negotiation planning tools", "Cost analysis software"]
+      duration: "4 weeks"
+      outputs: ["Updated supplier contracts", "Pricing adjustment agreements", "Implementation timelines"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Monitor supplier compliance and report on sustainability progress"
+      tools: ["Compliance monitoring software", "Reporting dashboards", "Sustainability tracking systems"]
+      duration: "Ongoing"
+      outputs: ["Compliance monitoring reports", "Sustainability progress updates", "Supplier performance scorecard"]
+  success_criteria: "80%+ of critical suppliers meet sustainability certification standards within 12 months"
+  failure_modes: ["Supplier resistance to sustainability requirements", "Cost increases exceed budgeted amounts", "Lack of alternative sustainable suppliers", "Inconsistent sustainability standards across regions"]

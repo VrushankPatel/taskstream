@@ -1,0 +1,47 @@
+{
+  "scenario_id": "manufacturing_sustainability_transformation_2025",
+  "context": "Industrial manufacturing company with high energy consumption and waste generation, facing regulatory pressure",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
+    "influencers": ["Operations Directors", "Environmental Regulators", "Supply Chain Partners", "Customers"]
+  },
+  "request": {
+    "amount": "$80,000,000",
+    "purpose": "Comprehensive sustainability transformation including renewable energy adoption, waste reduction, and circular economy practices",
+    "urgency": "high",
+    "justification": "Regulatory compliance requirements and customer demand for sustainable products necessitate immediate action"
+  },
+  "decision_process": [
+    {
+      "stage": "sustainability_assessment",
+      "duration": "8 weeks",
+      "activities": ["Carbon footprint analysis", "Waste audit", "Supply chain emissions mapping"],
+      "outcome": "Identified 40% reduction potential in carbon emissions and 60% waste reduction opportunities"
+    },
+    {
+      "stage": "technology_solution_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Renewable energy options analysis", "Circular economy technology review", "Waste management solutions assessment"],
+      "outcome": "Selected integrated sustainability platform with proven ROI"
+    },
+    {
+      "stage": "regulatory_compliance_review",
+      "duration": "4 weeks",
+      "activities": ["Regulatory requirements analysis", "Compliance roadmap development", "Penalty risk assessment"],
+      "outcome": "Clear compliance pathway with significant penalty avoidance"
+    },
+    {
+      "stage": "financial_and_business_case",
+      "duration": "6 weeks",
+      "activities": ["Total cost of ownership analysis", "Revenue opportunity assessment", "Risk-adjusted ROI modeling"],
+      "outcome": "5-year NPV of $120M with 22% IRR and enhanced brand value"
+    }
+  ],
+  "business_impact": {
+    "expected_emissions_reduction": "40% reduction in Scope 1 and 2 emissions",
+    "projected_cost_savings": "$25,000,000",
+    "risk_factors": ["Technology integration challenges", "Supply chain disruption", "Regulatory changes", "Customer acceptance of price premiums"],
+    "strategic_alignment": "Meets regulatory requirements, enhances brand reputation, and opens new market opportunities in sustainable products"
+  }
+}

@@ -71,7 +71,13 @@
 - Cross-training between regions for succession planning  
 
 ## Technology Integration
-- Farm management software for all locations  
-- GPS-guided equipment across 80% of acreage  
-- Real-time monitoring systems for irrigation and weather  
+- Farm management software for all locations
+- GPS-guided equipment across 80% of acreage
+- Real-time monitoring systems for irrigation and weather
 - Drone technology for field scouting and mapping
+
+## Crisis Management Structure
+- **Emergency Response Coordinator**: Reports to COO Agriculture, oversees disaster preparedness
+- **Crisis Management Team**: Cross-functional team including operations, safety, and logistics
+- **Business Continuity Planning**: Annual review and update of recovery procedures
+- **Insurance Coordination**: Claims management and financial recovery support

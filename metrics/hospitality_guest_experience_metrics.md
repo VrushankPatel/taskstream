@@ -44,9 +44,15 @@
 - **Pool/Spa Satisfaction**: Rating of recreational facilities (Target: >4.4/5)  
 
 ### Technology & Connectivity
-- **Wi-Fi Performance**: Guest rating of internet speed and reliability (Target: >4.2/5)  
-- **Mobile App Effectiveness**: Percentage of app users rating it highly (Target: >80%)  
-- **Digital Check-in Adoption**: Percentage of guests using mobile check-in (Target: >40%)  
+- **Wi-Fi Performance**: Guest rating of internet speed and reliability (Target: >4.2/5)
+- **Mobile App Effectiveness**: Percentage of app users rating it highly (Target: >80%)
+- **Digital Check-in Adoption**: Percentage of guests using mobile check-in (Target: >40%)
+
+### Digital Experience
+- **App Download Rate**: Percentage of guests downloading mobile app (Target: >30%)
+- **Online Booking Conversion**: Percentage of website visitors completing booking (Target: >15%)
+- **Digital Feedback Response**: Average time to respond to online reviews (Target: <2 hours)
+- **Personalization Effectiveness**: Guest rating of AI-powered personalized services (Target: >4.1/5)  
 
 ## Loyalty & Repeat Business
 

@@ -1,0 +1,41 @@
+workflow:
+  id: "workflow_hospitality_guest_services"
+  title: "Hospitality Guest Services and Concierge Process"
+  department: "Guest Services"
+  complexity: "medium"
+  participants: ["Guest Services Manager", "Concierge Staff", "Front Desk Agents", "Housekeeping Coordinator", "Maintenance Team"]
+  trigger: "Guest check-in or service request"
+  steps:
+    - step: 1
+      actor: "Front Desk Agents"
+      action: "Process guest arrival and room assignment"
+      tools: ["Property management system", "Guest profile database"]
+      duration: "15 minutes"
+      outputs: ["Room key", "Welcome package", "Guest preferences noted"]
+    - step: 2
+      actor: "Concierge Staff"
+      action: "Assess guest needs and provide personalized recommendations"
+      decision_points: ["Guest preferences", "Local attractions", "Service availability"]
+      tools: ["Concierge database", "Local vendor partnerships"]
+      duration: "10 minutes"
+      outputs: ["Personalized itinerary", "Reservation confirmations"]
+    - step: 3
+      actor: "Guest Services Manager"
+      action: "Coordinate special requests and VIP services"
+      tools: ["Service request system", "VIP guest database"]
+      duration: "30 minutes"
+      outputs: ["Service coordination plan", "Special arrangements confirmed"]
+    - step: 4
+      actor: "Housekeeping Coordinator"
+      action: "Manage room preparation and maintenance requests"
+      tools: ["Housekeeping management system", "Maintenance request system"]
+      duration: "20 minutes"
+      outputs: ["Room readiness status", "Maintenance work orders"]
+    - step: 5
+      actor: "Concierge Staff"
+      action: "Follow up on service delivery and guest satisfaction"
+      tools: ["Guest feedback system", "Service tracking software"]
+      duration: "5 minutes"
+      outputs: ["Service completion confirmation", "Feedback collection"]
+  success_criteria: "Guest satisfaction score >4.5/5 and 95% service request resolution"
+  failure_modes: ["Communication breakdowns between departments", "Unavailable service providers", "Incomplete guest preference data"]

@@ -1,46 +1,46 @@
 workflow:
-  id: "workflow_aerospace_001"
+  id: "aerospace_aircraft_maintenance_optimization"
   title: "Aircraft Maintenance Optimization Process"
   department: "Maintenance Operations"
   complexity: "high"
-  participants: ["Maintenance Manager", "Technicians", "Quality Assurance", "Regulatory Compliance", "Supply Chain"]
-  trigger: "Scheduled maintenance cycle or component failure detection"
+  participants: ["Maintenance Manager", "Aircraft Engineers", "Quality Assurance", "Regulatory Compliance", "Supply Chain"]
+  trigger: "Scheduled maintenance cycle or predictive maintenance alert"
   steps:
     - step: 1
       actor: "Maintenance Manager"
-      action: "Review maintenance schedule and aircraft condition data"
-      tools: ["Maintenance tracking system", "Aircraft health monitoring sensors"]
+      action: "Review aircraft maintenance schedule and predictive analytics data"
+      tools: ["Maintenance Management System", "IoT sensors", "Predictive analytics platform"]
       duration: "2 hours"
-      outputs: ["Maintenance priority list", "Resource allocation plan"]
+      outputs: ["Maintenance priority matrix", "Resource allocation plan"]
     - step: 2
-      actor: "Technicians"
-      action: "Conduct preliminary inspection and diagnostics"
-      tools: ["Diagnostic equipment", "Maintenance manuals", "Safety gear"]
+      actor: "Aircraft Engineers"
+      action: "Conduct pre-maintenance inspection and diagnostics"
+      tools: ["Non-destructive testing equipment", "Digital twin software", "Maintenance checklists"]
       duration: "4 hours"
-      outputs: ["Inspection report", "Component replacement requirements"]
+      outputs: ["Inspection reports", "Component health assessments"]
     - step: 3
       actor: "Supply Chain"
-      action: "Procure required parts and materials"
-      tools: ["Inventory management system", "Supplier network"]
+      action: "Procure required parts and materials based on predictive needs"
+      tools: ["Inventory management system", "Supplier portal", "Just-in-time ordering"]
       duration: "24 hours"
       outputs: ["Parts availability confirmation", "Logistics coordination"]
     - step: 4
-      actor: "Technicians"
-      action: "Perform maintenance procedures"
-      tools: ["Specialized tools", "Technical documentation", "Quality checklists"]
-      duration: "16 hours"
-      outputs: ["Maintenance completion records", "Component test results"]
+      actor: "Aircraft Engineers"
+      action: "Execute maintenance procedures with digital assistance"
+      tools: ["AR maintenance guides", "Automated testing equipment", "Quality control software"]
+      duration: "8-16 hours"
+      outputs: ["Maintenance logs", "Component replacement records"]
     - step: 5
       actor: "Quality Assurance"
-      action: "Conduct post-maintenance inspection and testing"
-      tools: ["Testing equipment", "Regulatory compliance checklists"]
-      duration: "6 hours"
-      outputs: ["Quality assurance report", "Airworthiness certificate"]
+      action: "Perform post-maintenance verification and certification"
+      tools: ["Certification software", "Compliance databases", "Digital documentation"]
+      duration: "3 hours"
+      outputs: ["Quality assurance reports", "Regulatory compliance certificates"]
     - step: 6
       actor: "Regulatory Compliance"
-      action: "Review and approve maintenance documentation"
-      tools: ["Regulatory database", "Documentation management system"]
-      duration: "4 hours"
-      outputs: ["Regulatory approval", "Updated maintenance records"]
-  success_criteria: "Aircraft returned to service with full airworthiness certification"
-  failure_modes: ["Parts unavailability delays", "Regulatory compliance issues", "Technical complications during maintenance"]
+      action: "Review and approve maintenance records for airworthiness"
+      tools: ["FAA/EASA compliance systems", "Audit trails", "Documentation management"]
+      duration: "2 hours"
+      outputs: ["Airworthiness certificates", "Maintenance completion reports"]
+  success_criteria: "Aircraft returned to service within scheduled timeframe with zero defects"
+  failure_modes: ["Parts unavailability delays", "Unforeseen component failures", "Regulatory compliance issues"]

@@ -1,46 +1,46 @@
 workflow:
-  id: "workflow_pharma_001"
+  id: "pharma_drug_dev_acceleration"
   title: "Drug Development Acceleration Process"
   department: "Research & Development"
   complexity: "high"
-  participants: ["Research Director", "Clinical Scientists", "Regulatory Affairs", "Manufacturing", "Quality Control", "Legal"]
-  trigger: "New compound identification with therapeutic potential"
+  participants: ["Chief Scientific Officer", "Clinical Operations Director", "Regulatory Affairs Lead", "Data Science Team", "Manufacturing Lead", "Quality Assurance"]
+  trigger: "New molecular entity identified with therapeutic potential"
   steps:
     - step: 1
-      actor: "Research Director"
-      action: "Evaluate compound viability and prioritize development candidates"
-      tools: ["Research database", "Computational modeling software"]
-      duration: "1 week"
-      outputs: ["Development candidate selection", "Initial research plan"]
+      actor: "Chief Scientific Officer"
+      action: "Evaluate target validation and initial compound screening results"
+      tools: ["High-throughput screening systems", "Molecular modeling software", "Literature databases"]
+      duration: "4 weeks"
+      outputs: ["Go/no-go decision", "Initial development roadmap"]
     - step: 2
-      actor: "Clinical Scientists"
-      action: "Design preclinical studies and toxicology assessments"
-      tools: ["Study design software", "Laboratory management systems"]
-      duration: "4 weeks"
-      outputs: ["Preclinical study protocols", "Safety assessment reports"]
-    - step: 3
-      actor: "Regulatory Affairs"
-      action: "Prepare and submit IND application to FDA"
-      tools: ["Regulatory submission software", "Compliance databases"]
-      duration: "6 weeks"
-      outputs: ["IND submission package", "Regulatory correspondence"]
-    - step: 4
-      actor: "Clinical Scientists"
-      action: "Conduct Phase 1 clinical trials"
-      tools: ["Clinical trial management system", "Patient recruitment platforms"]
-      duration: "12 weeks"
-      outputs: ["Phase 1 trial results", "Safety and dosing data"]
-    - step: 5
-      actor: "Manufacturing"
-      action: "Scale up production for Phase 2 trials"
-      tools: ["Process development systems", "Quality control equipment"]
+      actor: "Data Science Team"
+      action: "Apply AI/ML models for lead optimization and ADMET prediction"
+      tools: ["Computational chemistry platforms", "Machine learning algorithms", "QSAR models"]
       duration: "8 weeks"
-      outputs: ["Clinical trial material batches", "Manufacturing validation reports"]
+      outputs: ["Optimized lead compounds", "Predictive safety profiles"]
+    - step: 3
+      actor: "Clinical Operations Director"
+      action: "Design accelerated clinical development plan with adaptive trial protocols"
+      tools: ["Clinical trial management systems", "Regulatory guidance databases", "Statistical analysis software"]
+      duration: "6 weeks"
+      outputs: ["Phase 1-3 trial protocols", "Adaptive design frameworks"]
+    - step: 4
+      actor: "Regulatory Affairs Lead"
+      action: "Prepare and submit IND application with accelerated approval pathway"
+      tools: ["Regulatory submission software", "FDA/EMA guidance documents", "Fast Track/Breakthrough Therapy applications"]
+      duration: "12 weeks"
+      outputs: ["IND submission package", "Regulatory meeting requests"]
+    - step: 5
+      actor: "Manufacturing Lead"
+      action: "Develop scalable manufacturing process with continuous improvement"
+      tools: ["Process development labs", "Quality by design software", "Supply chain optimization tools"]
+      duration: "16 weeks"
+      outputs: ["GMP manufacturing protocols", "Scale-up validation data"]
     - step: 6
-      actor: "Quality Control"
-      action: "Conduct stability testing and quality assurance"
-      tools: ["Analytical instruments", "Quality management software"]
-      duration: "4 weeks"
-      outputs: ["Stability data", "Quality release certificates"]
-  success_criteria: "Successful completion of Phase 2 trials with positive efficacy data"
-  failure_modes: ["Adverse safety findings", "Manufacturing scalability issues", "Regulatory approval delays"]
+      actor: "Quality Assurance"
+      action: "Conduct integrated quality oversight throughout development lifecycle"
+      tools: ["Quality management systems", "Risk assessment frameworks", "Audit trail software"]
+      duration: "Ongoing"
+      outputs: ["Quality control specifications", "Regulatory compliance documentation"]
+  success_criteria: "FDA approval achieved within 5 years from target identification"
+  failure_modes: ["Safety signals in preclinical studies", "Manufacturing scalability issues", "Regulatory pathway rejection"]

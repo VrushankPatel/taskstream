@@ -1,40 +1,59 @@
 {
-  "scenario_id": "food_digital_platforms_2025",
-  "context": "Restaurant chain with 200 locations, 5,000 employees, adopting digital ordering platforms",
+  "scenario_id": "food_service_digital_ordering_platforms_2025",
+  "context": "National restaurant chain with 350 locations, 12,000 employees, $800M annual revenue, responding to 300% growth in digital food ordering market from 2020-2025",
   "stakeholders": {
-    "requester": "VP Operations",
-    "approvers": ["CEO", "COO", "CFO"],
-    "influencers": ["VP Marketing", "IT Director", "Supply Chain Manager"]
+    "requester": "VP Digital Transformation",
+    "approvers": ["CEO", "COO", "CFO", "Board of Directors"],
+    "influencers": ["VP Marketing", "Chief Technology Officer", "VP Supply Chain", "VP Human Resources", "Customer Experience Director", "Franchise Operations Lead"]
   },
   "request": {
-    "amount": "$15,000,000",
-    "purpose": "Implement comprehensive digital ordering and delivery platform across all locations",
-    "urgency": "high",
-    "justification": "Competitive response to 40% increase in digital ordering market share over past 2 years"
+    "amount": "$28,000,000",
+    "purpose": "Deploy integrated digital ordering ecosystem including mobile apps, third-party delivery integration, in-store kiosks, and AI-powered order optimization across all locations",
+    "urgency": "critical",
+    "justification": "Address 60% of orders still placed via phone/in-person while competitors capture 75% digital market share; projected $120M annual revenue uplift from digital channels"
   },
   "decision_process": [
     {
-      "stage": "platform_evaluation",
-      "duration": "2 months",
-      "activities": ["Vendor assessment", "Integration capability review", "Cost-benefit analysis"],
-      "outcome": "Selected integrated platform with delivery and POS capabilities"
+      "stage": "market_competitive_analysis",
+      "duration": "6 weeks",
+      "activities": ["Digital ordering market analysis", "Competitor platform benchmarking", "Customer digital behavior research", "Technology vendor landscape assessment"],
+      "outcome": "Identified $45B digital food ordering market with 25% CAGR; competitors achieving 3x higher digital revenue per location"
     },
     {
-      "stage": "pilot_implementation",
-      "duration": "3 months",
-      "activities": ["10-location pilot", "Staff training", "Customer feedback collection"],
-      "outcome": "Pilot successful with 25% increase in digital orders"
+      "stage": "platform_architecture_design",
+      "duration": "8 weeks",
+      "activities": ["Technical requirements gathering", "Integration architecture design", "Vendor RFP development and evaluation", "Security and compliance framework", "Cost modeling and ROI projections"],
+      "outcome": "Selected hybrid platform combining proprietary mobile app with Uber Eats/DoorDash integration; projected 280% ROI over 5 years"
     },
     {
-      "stage": "full_rollout",
-      "duration": "9 months",
-      "activities": ["Phased deployment", "Change management", "Performance monitoring"],
-      "outcome": "Platform deployed across all locations with positive ROI"
+      "stage": "regulatory_compliance_review",
+      "duration": "4 weeks",
+      "activities": ["Data privacy compliance assessment", "Payment processing security review", "ADA accessibility requirements", "International expansion considerations"],
+      "outcome": "Compliance framework established with SOC 2 Type II and PCI DSS certifications required"
+    },
+    {
+      "stage": "pilot_program_execution",
+      "duration": "12 weeks",
+      "activities": ["15-location pilot deployment", "Staff training and change management", "Customer adoption testing", "Performance metrics collection", "Technical issue resolution"],
+      "outcome": "Pilot achieved 45% increase in digital orders, 35% improvement in order accuracy, 25% reduction in customer wait times"
+    },
+    {
+      "stage": "franchisee_engagement",
+      "duration": "6 weeks",
+      "activities": ["Franchisee council presentations", "ROI sharing model development", "Implementation timeline negotiation", "Support resource planning"],
+      "outcome": "85% franchisee buy-in secured with revenue-sharing model and corporate-funded implementation"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "18 weeks",
+      "activities": ["Phased deployment across regions", "Centralized training academy establishment", "Real-time performance monitoring", "Customer communication campaigns", "Continuous optimization"],
+      "outcome": "Platform deployed to 95% of locations within 18 weeks with 98% system uptime and positive customer feedback scores"
     }
   ],
   "business_impact": {
-    "expected_revenue": "$50,000,000 annually",
-    "projected_order_increase": "35% digital orders",
-    "risk_factors": ["Technology integration issues", "Staff training challenges", "Customer adoption resistance", "Platform vendor stability"]
+    "expected_revenue": "$150,000,000",
+    "projected_market_entry": "24 months",
+    "risk_factors": ["Platform vendor acquisition or bankruptcy", "Cybersecurity vulnerabilities in payment processing", "Staff resistance to technology changes", "Integration challenges with existing POS systems", "Regulatory changes in digital payments", "Competition from emerging delivery platforms"],
+    "strategic_benefits": ["Digital revenue transformation enabling 40% of total sales through digital channels", "Enhanced customer experience with personalized ordering and loyalty programs", "Operational efficiency through automated order routing and inventory optimization", "Data-driven insights for menu optimization and marketing", "Competitive positioning in $200B digital food economy", "Foundation for future AI-driven personalization and delivery innovations"]
   }
 }

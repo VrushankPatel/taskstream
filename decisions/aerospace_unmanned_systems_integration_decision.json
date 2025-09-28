@@ -1,47 +1,59 @@
 {
-  "scenario_id": "aerospace_uas_integration_2025",
-  "context": "Commercial aerospace manufacturer expanding into unmanned aerial systems for delivery and surveillance applications",
+  "scenario_id": "aerospace_unmanned_systems_integration_2025",
+  "context": "Commercial aerospace manufacturer expanding into unmanned aerial systems for delivery and surveillance applications, 500 employees, $2B annual revenue",
   "stakeholders": {
     "requester": "VP Aerospace Innovation",
-    "approvers": ["Chief Technology Officer", "Chief Executive Officer"],
-    "influencers": ["Regulatory Affairs Director", "Safety Engineering Lead", "Business Development Manager"]
+    "approvers": ["Chief Technology Officer", "Chief Executive Officer", "Board of Directors"],
+    "influencers": ["Regulatory Affairs Director", "Safety Engineering Lead", "Business Development Manager", "VP Manufacturing", "Chief Risk Officer"]
   },
   "request": {
-    "amount": "$75,000,000",
-    "purpose": "Integration of unmanned aerial systems into existing aerospace operations for commercial applications",
-    "urgency": "medium",
-    "justification": "Market opportunity in $10B UAS industry with synergies to existing aviation expertise"
+    "amount": "$85,000,000",
+    "purpose": "Establish unmanned aerial systems division for commercial delivery, infrastructure inspection, and agricultural monitoring applications",
+    "urgency": "high",
+    "justification": "Capitalize on $25B global UAS market opportunity with 15% CAGR, leveraging existing aviation expertise and manufacturing capabilities"
   },
   "decision_process": [
     {
-      "stage": "market_opportunity",
-      "duration": "3 weeks",
-      "activities": ["UAS market analysis", "Competitive positioning assessment", "Synergy evaluation with aviation business"],
-      "outcome": "Strong market opportunity identified"
-    },
-    {
-      "stage": "technical_feasibility",
-      "duration": "5 weeks",
-      "activities": ["UAS technology assessment", "Integration architecture design", "Safety certification pathway analysis"],
-      "outcome": "Technically feasible with manageable risks"
-    },
-    {
-      "stage": "regulatory_review",
-      "duration": "4 weeks",
-      "activities": ["FAA certification requirements review", "International regulatory landscape", "Compliance strategy development"],
-      "outcome": "Regulatory pathway established"
-    },
-    {
-      "stage": "investment_committee",
+      "stage": "strategic_alignment",
       "duration": "2 weeks",
-      "activities": ["Financial modeling review", "Risk assessment presentation", "Board approval"],
-      "outcome": "Approved with $50M initial investment"
+      "activities": ["Executive strategy review", "Portfolio fit analysis", "Resource allocation assessment"],
+      "outcome": "Strategic alignment confirmed with innovation portfolio"
+    },
+    {
+      "stage": "market_due_diligence",
+      "duration": "4 weeks",
+      "activities": ["UAS market sizing and segmentation", "Competitive landscape analysis", "Customer discovery interviews", "Regulatory environment mapping"],
+      "outcome": "Identified $8B addressable market in commercial delivery and infrastructure inspection"
+    },
+    {
+      "stage": "technical_assessment",
+      "duration": "6 weeks",
+      "activities": ["UAS technology evaluation", "Manufacturing capability assessment", "Integration with existing aviation systems", "Safety certification pathway development"],
+      "outcome": "Technical feasibility confirmed with 18-month development timeline"
+    },
+    {
+      "stage": "regulatory_strategy",
+      "duration": "5 weeks",
+      "activities": ["FAA Part 107/135 compliance framework", "International certification requirements", "Airspace integration planning", "Insurance and liability assessment"],
+      "outcome": "Regulatory pathway established with FAA waivers secured"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Revenue projection modeling", "Cost structure analysis", "ROI sensitivity testing", "Funding strategy development"],
+      "outcome": "Projected 22% IRR with $180M revenue by year 5"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Risk mitigation discussion", "Final investment committee approval"],
+      "outcome": "Approved with $65M Phase 1 investment and $20M contingency"
     }
   ],
   "business_impact": {
-    "expected_revenue": "$150,000,000",
-    "projected_market_entry": "24 months",
-    "risk_factors": ["Regulatory approval delays", "Technical integration challenges", "Market adoption uncertainty"],
-    "strategic_benefits": ["Diversification into high-growth UAS market", "Leverage existing aerospace expertise", "Enhanced innovation capabilities"]
+    "expected_revenue": "$180,000,000",
+    "projected_market_entry": "30 months",
+    "risk_factors": ["Evolving regulatory landscape", "Technology integration complexity", "Market adoption slower than projected", "Competition from specialized UAS companies"],
+    "strategic_benefits": ["Diversification beyond traditional aviation", "Entry into high-growth autonomous systems market", "Enhanced R&D capabilities for future aerospace innovations", "New revenue streams from B2B delivery services"]
   }
 }

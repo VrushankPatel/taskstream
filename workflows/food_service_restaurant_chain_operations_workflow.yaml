@@ -1,46 +1,52 @@
 workflow:
-  id: "workflow_food_001"
+  id: "food_service_restaurant_chain_operations"
   title: "Restaurant Chain Operations Management Process"
   department: "Operations"
-  complexity: "medium"
-  participants: ["Regional Manager", "Store Managers", "Supply Chain", "Quality Assurance", "HR", "Finance"]
-  trigger: "Daily operations monitoring or performance alerts"
+  complexity: "high"
+  participants: ["Chief Operations Officer", "Regional Directors", "Store General Managers", "Supply Chain Manager", "Quality Assurance Director", "HR Business Partner", "Finance Controller"]
+  trigger: "Daily operations monitoring, performance alerts, or market changes"
   steps:
     - step: 1
-      actor: "Store Managers"
-      action: "Conduct daily pre-opening checklist and inventory count"
-      tools: ["Operations checklist app", "Inventory management system"]
-      duration: "1 hour"
-      outputs: ["Opening readiness report", "Inventory discrepancy log"]
+      actor: "Store General Managers"
+      action: "Execute daily operational readiness including staff briefing, equipment checks, and inventory verification"
+      tools: ["Digital operations checklist", "Inventory management system", "Staff communication platform"]
+      duration: "2 hours"
+      outputs: ["Daily readiness report", "Inventory variance analysis", "Staff attendance confirmation"]
     - step: 2
-      actor: "Regional Manager"
-      action: "Review daily sales data and operational metrics"
-      tools: ["POS analytics dashboard", "Performance monitoring system"]
-      duration: "2 hours"
-      outputs: ["Performance analysis report", "Action items for improvement"]
-    - step: 3
-      actor: "Supply Chain"
-      action: "Manage inventory replenishment and supplier coordination"
-      tools: ["Supply chain management software", "Supplier portal"]
+      actor: "Regional Directors"
+      action: "Monitor real-time performance metrics and customer feedback across assigned stores"
+      tools: ["Centralized analytics dashboard", "Customer review platforms", "Sales tracking systems"]
       duration: "4 hours"
-      outputs: ["Purchase orders", "Delivery schedules"]
+      outputs: ["Regional performance scorecard", "Customer satisfaction analysis", "Operational improvement priorities"]
+    - step: 3
+      actor: "Supply Chain Manager"
+      action: "Optimize inventory levels and manage supplier relationships for 150+ stores"
+      tools: ["Demand forecasting software", "Supplier performance dashboard", "Automated ordering systems"]
+      duration: "6 hours"
+      outputs: ["Weekly purchase orders", "Supplier performance reviews", "Inventory optimization recommendations"]
     - step: 4
-      actor: "HR"
-      action: "Monitor staffing levels and schedule adjustments"
-      tools: ["Staff scheduling software", "Time tracking system"]
-      duration: "2 hours"
-      outputs: ["Updated shift schedules", "Staffing reports"]
-    - step: 5
-      actor: "Quality Assurance"
-      action: "Conduct food safety inspections and compliance checks"
-      tools: ["Food safety checklist", "Temperature monitoring devices"]
+      actor: "HR Business Partner"
+      action: "Manage workforce planning, scheduling, and labor cost optimization"
+      tools: ["Workforce management platform", "Labor forecasting models", "Performance tracking systems"]
       duration: "3 hours"
-      outputs: ["Quality inspection reports", "Compliance documentation"]
+      outputs: ["Optimized shift schedules", "Labor cost analysis", "Staffing recommendations"]
+    - step: 5
+      actor: "Quality Assurance Director"
+      action: "Oversee food safety compliance, quality standards, and mystery shopper programs"
+      tools: ["Food safety management system", "Quality audit software", "Mystery shopper platform"]
+      duration: "5 hours"
+      outputs: ["Quality assurance reports", "Compliance audit results", "Food safety training requirements"]
     - step: 6
-      actor: "Finance"
-      action: "Review daily financials and cost control measures"
-      tools: ["Accounting software", "Budget tracking dashboard"]
-      duration: "2 hours"
-      outputs: ["Financial performance summary", "Cost optimization recommendations"]
-  success_criteria: "All stores operating within quality, safety, and financial targets"
-  failure_modes: ["Staff shortages", "Supply chain disruptions", "Food safety violations"]
+      actor: "Finance Controller"
+      action: "Monitor financial performance, cost controls, and profitability analysis"
+      tools: ["Financial reporting dashboard", "Cost accounting system", "Budget variance analysis"]
+      duration: "4 hours"
+      outputs: ["Daily P&L summaries", "Cost control initiatives", "Profitability improvement plans"]
+    - step: 7
+      actor: "Chief Operations Officer"
+      action: "Review enterprise-wide operations and strategic initiatives implementation"
+      tools: ["Executive dashboard", "Performance benchmarking tools", "Strategic planning software"]
+      duration: "3 hours"
+      outputs: ["Executive operations report", "Strategic initiative updates", "Cross-regional improvement initiatives"]
+  success_criteria: "95%+ store operational compliance, 4.2+ customer satisfaction score, 12%+ profit margins maintained"
+  failure_modes: ["Labor shortages impacting service", "Supply chain disruptions", "Food safety incidents", "Customer service failures", "Financial performance shortfalls"]

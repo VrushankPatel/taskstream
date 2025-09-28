@@ -1,46 +1,58 @@
 workflow:
-  id: "workflow_nonprofit_001"
+  id: "nonprofit_fundraising_optimization"
   title: "Nonprofit Fundraising Optimization Process"
-  department: "Development"
-  complexity: "medium"
-  participants: ["Development Director", "Fundraising Coordinators", "Marketing", "Donor Relations", "Finance", "Program Staff"]
-  trigger: "Annual fundraising campaign planning or funding gap identification"
+  department: "Development & Donor Engagement"
+  complexity: "high"
+  participants: ["Chief Development Officer", "Fundraising Campaign Managers", "Digital Marketing Director", "Donor Relations Manager", "Data Analytics Lead", "Finance Director", "Program Impact Director", "Board Development Committee"]
+  trigger: "Annual campaign planning, emergency funding needs, program expansion requirements, or market opportunity identification"
   steps:
     - step: 1
-      actor: "Development Director"
-      action: "Analyze fundraising goals and donor database insights"
-      tools: ["CRM system", "Fundraising analytics dashboard"]
-      duration: "1 week"
-      outputs: ["Fundraising strategy document", "Campaign objectives"]
+      actor: "Chief Development Officer"
+      action: "Conduct comprehensive fundraising needs assessment and goal setting with board and program leadership"
+      tools: ["Strategic planning frameworks", "Financial forecasting models", "Program impact assessments", "Market research data"]
+      duration: "6 weeks"
+      outputs: ["Annual fundraising plan", "Revenue targets by channel", "Resource allocation strategy", "Success metrics framework"]
     - step: 2
-      actor: "Fundraising Coordinators"
-      action: "Segment donor database and develop outreach plans"
-      tools: ["Donor management software", "Segmentation tools"]
-      duration: "2 weeks"
-      outputs: ["Donor segmentation reports", "Outreach campaign plans"]
+      actor: "Data Analytics Lead"
+      action: "Analyze donor database, giving patterns, and market segmentation for targeted campaign development"
+      tools: ["CRM analytics platform", "Donor modeling software", "Predictive analytics tools", "Market segmentation algorithms"]
+      duration: "4 weeks"
+      outputs: ["Donor segmentation profiles", "Giving capacity analysis", "Channel preference mapping", "Personalization strategy"]
     - step: 3
-      actor: "Marketing"
-      action: "Create campaign materials and digital content"
-      tools: ["Design software", "Content management system"]
-      duration: "3 weeks"
-      outputs: ["Campaign materials", "Digital content calendar"]
-    - step: 4
-      actor: "Fundraising Coordinators"
-      action: "Execute multi-channel fundraising campaigns"
-      tools: ["Email marketing platform", "Social media tools", "Event management software"]
+      actor: "Digital Marketing Director"
+      action: "Develop integrated multi-channel campaign strategy and creative assets"
+      tools: ["Marketing automation platform", "Content management system", "A/B testing frameworks", "Social media management tools"]
       duration: "8 weeks"
-      outputs: ["Campaign performance metrics", "Donor engagement data"]
+      outputs: ["Campaign creative assets", "Channel-specific messaging", "Digital user journey maps", "Attribution modeling framework"]
+    - step: 4
+      actor: "Fundraising Campaign Managers"
+      action: "Execute coordinated campaign launch across all channels with real-time optimization"
+      tools: ["Campaign management platform", "Email marketing automation", "Event management system", "Call center software", "Direct mail tracking"]
+      duration: "12 weeks"
+      outputs: ["Campaign performance dashboards", "Donor acquisition metrics", "Channel effectiveness analysis", "Real-time optimization recommendations"]
     - step: 5
-      actor: "Donor Relations"
-      action: "Manage donor communications and stewardship activities"
-      tools: ["CRM system", "Donor acknowledgment templates"]
+      actor: "Donor Relations Manager"
+      action: "Implement comprehensive donor stewardship and retention strategies"
+      tools: ["Donor CRM system", "Personalization engines", "Impact reporting tools", "Volunteer management platform"]
       duration: "Ongoing"
-      outputs: ["Donor communications log", "Stewardship activity reports"]
+      outputs: ["Donor retention reports", "Impact communication materials", "Stewardship activity calendar", "Loyalty program metrics"]
     - step: 6
-      actor: "Finance"
-      action: "Track fundraising revenue and provide financial reporting"
-      tools: ["Accounting software", "Fundraising tracking system"]
+      actor: "Program Impact Director"
+      action: "Develop compelling impact stories and evidence-based fundraising narratives"
+      tools: ["Impact measurement framework", "Storytelling platforms", "Data visualization tools", "Program evaluation systems"]
+      duration: "10 weeks"
+      outputs: ["Impact reports and case studies", "Program outcome metrics", "Narrative frameworks", "Evidence-based messaging"]
+    - step: 7
+      actor: "Finance Director"
+      action: "Monitor fundraising revenue, cost management, and financial sustainability analysis"
+      tools: ["Fundraising ROI analytics", "Cost accounting systems", "Cash flow forecasting", "Budget variance analysis"]
       duration: "Weekly"
-      outputs: ["Revenue reports", "Budget vs. actual analysis"]
-  success_criteria: "Fundraising goals met with increased donor retention and engagement"
-  failure_modes: ["Low donor response rates", "Campaign execution issues", "Economic downturns affecting giving"]
+      outputs: ["Revenue performance reports", "Cost per acquisition analysis", "Financial sustainability metrics", "Budget reallocation recommendations"]
+    - step: 8
+      actor: "Board Development Committee"
+      action: "Oversee major donor cultivation and high-level engagement strategies"
+      tools: ["Prospect research tools", "Relationship management platform", "Event planning software", "Philanthropic intelligence databases"]
+      duration: "Ongoing"
+      outputs: ["Major donor pipeline reports", "Board engagement metrics", "High-level cultivation plans", "Legacy giving strategies"]
+  success_criteria: "110%+ of annual fundraising goal achieved, 85%+ donor retention rate, 25%+ increase in average gift size, positive net promoter score from donors, full cost recovery on fundraising activities"
+  failure_modes: ["Economic downturn reducing donor capacity", "Competitive funding landscape", "Program impact perception issues", "Donor fatigue from over-communication", "Technical failures in digital campaigns", "Staff turnover in development team", "Regulatory changes affecting charitable giving"]

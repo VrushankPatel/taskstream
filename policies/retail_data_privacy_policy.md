@@ -23,6 +23,7 @@ Applies to all customer data collected through retail stores, online platforms, 
 - **Customer Service**: Order fulfillment, support interactions
 - **Analytics**: Aggregated insights for business improvement
 - **Legal Compliance**: Fraud prevention, regulatory reporting
+- **AI/ML Applications**: Recommendation engines, demand forecasting with anonymized data
 
 ## Data Protection Measures
 - **Encryption**: All sensitive data encrypted in transit and at rest
@@ -41,6 +42,7 @@ Applies to all customer data collected through retail stores, online platforms, 
 - **Service Providers**: Only with data processing agreements
 - **Business Transfers**: Data may transfer in mergers/acquisitions
 - **Legal Requirements**: Disclosure to authorities when required by law
+- **International Transfers**: Adequacy decisions or standard contractual clauses for cross-border data flows
 
 ## Retention Schedule
 - **Transaction Data**: 7 years for tax/compliance purposes

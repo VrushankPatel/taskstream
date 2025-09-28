@@ -12,6 +12,11 @@
     "urgency": "high",
     "justification": "Current platform limiting growth, competitors gaining market share"
   },
+  "alternatives_considered": [
+    "Incremental upgrades to current platform ($800K)",
+    "Custom development solution ($4M)",
+    "Do nothing - maintain status quo"
+  ],
   "decision_process": [
     {
       "stage": "technical_evaluation",
@@ -31,7 +36,7 @@
     "projected_value": "$4,000,000 annual benefit",
     "risk_factors": ["Migration downtime", "Data migration issues", "Training requirements"]
   },
-  "decision_criteria": ["Technical scalability", "Cost-benefit ratio", "Vendor support", "Integration capabilities"],
+  "decision_criteria": ["Technical scalability", "Cost-benefit ratio", "Vendor support", "Integration capabilities", "Mobile experience", "Analytics capabilities", "Security compliance"],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder alignment crucial, phased rollout reduces risk"
 }

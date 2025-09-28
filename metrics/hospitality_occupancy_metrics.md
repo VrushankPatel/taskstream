@@ -27,6 +27,8 @@ Weekly dashboard for 20-hotel chain tracking occupancy rates, revenue performanc
   - Online reviews: 4.2/5
 - **Repeat Guest Rate**: 32% (Target: 35%)
 - **Booking Lead Time**: 14 days average
+- **Cancellation Rate**: 8% (Target: <7%)
+- **No-Show Rate**: 3.2% (Target: <3%)
 
 ### Operational Metrics
 - **Average Check-in Time**: 7.2 minutes (Target: <8 minutes)

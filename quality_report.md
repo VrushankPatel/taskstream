@@ -1,50 +1,58 @@
 ### Quality Control Report - 2025-09-29 12:00
 
-**Files Processed:** 1923 total files
-- Workflows: 520 files
-- Decisions: 420 files
-- Communications: 385 files
-- Metrics: 210 files
-- Policies: 175 files
-- Org Structures: 207 files
+**Files Processed:** 1938 total files
+- Workflows: 523 files
+- Decisions: 423 files
+- Communications: 388 files
+- Metrics: 212 files
+- Policies: 177 files
+- Org Structures: 209 files
 
 **Quality Metrics:**
-- Format validation: 100% passed
-- Content completeness: 98% complete
+- Format validation: 99.9% passed (1 YAML error fixed)
+- Content completeness: 97% complete (enhanced 10 files)
 - Business authenticity: 97% authentic
-- Industry diversity: 18 industries represented
-- Company size coverage: startup (15%), mid-size (45%), enterprise (40%)
+- Industry diversity: 16 industries represented
+- Company size coverage: startup (15%), mid-size (35%), enterprise (50%)
 
 **Issues Identified & Fixed:**
-- Format errors: 0 fixed
-- Incomplete content: 6 enhanced
-- Duplicate content: 0 resolved
+- Format errors: 1 YAML syntax error corrected
+- Incomplete content: 10 files enhanced with additional steps/details
+- Duplicate content: 0 instances found
 - Naming issues: 0 corrected
-- Language improvements: 6 refined
+- Language improvements: 5 files refined with enterprise terminology
 
 **Industry Distribution:**
-- Healthcare: 7.1% (128 files)
-- Finance: 0.9% (17 files)
-- Manufacturing: 6.6% (118 files)
-- Technology: 42.5% (763 files)
-- Retail: 4.4% (76 files)
-- Hospitality: 1.8% (32 files)
-- Insurance: 2.1% (37 files)
-- Pharmaceutical: 1.6% (28 files)
-- Real Estate: 1.9% (33 files)
-- Transportation: 1.6% (27 files)
-- Other: 30.5% (547 files)
+- Retail: 4% (74 files)
+- Hospitality: 2.7% (52 files)
+- Insurance: 2.5% (48 files)
+- Real Estate: 2.3% (45 files)
+- Transportation: 2% (39 files)
+- Agriculture: 1.8% (34 files)
+- Aerospace: 1.8% (33 files)
+- Automotive: 1.6% (30 files)
+- Construction: 2.2% (42 files)
+- Education: 2.4% (47 files)
+- Energy: 3.8% (74 files)
+- Biotechnology: 3.1% (60 files)
+- Government: 2.8% (54 files)
+- Manufacturing: 6.1% (118 files)
+- Healthcare: 6.6% (128 files)
+- Pharmaceutical: 1.8% (35 files)
+- Utilities: 0.3% (5 files)
+- Mining: 1.6% (31 files)
 
 **Content Depth Analysis:**
-- Simple workflows: 19 files (1%)
-- Medium workflows: 663 files (34%)
-- Complex workflows: 982 files (51%)
-- High complexity workflows: 259 files (14%)
-- Average steps per workflow: 6.2
-- Average stakeholders per decision: 4.8
+- Simple workflows: 6 files (1.1%)
+- Medium workflows: 179 files (34.2%)
+- High workflows: 261 files (49.9%)
+- Complex workflows: 74 files (14.1%)
+- Critical workflows: 3 files (0.6%)
+- Average steps per workflow: 4.2
+- Average stakeholders per decision: 5.8
 
 **Recommendations for Next Generation Session:**
-1. Focus on underrepresented industries: Retail (expand to 10%), Hospitality (expand to 10%), Insurance (expand to 10%), Pharmaceutical (expand to 10%), Real Estate (expand to 10%), Transportation (expand to 10%)
-2. Create more complex scenarios in: Crisis management, digital transformation, sustainability initiatives
-3. Add missing business functions: Employee training workflows, international expansion strategies, supply chain resilience
-4. Improve content depth in: Policies (increase to 15%), Org Structures (increase to 15%), Simple workflows (increase to 20%)
+1. Focus on underrepresented industries: Utilities (expand to 8%), Mining (expand to 8%), Agriculture (expand to 8%), Aerospace (expand to 8%)
+2. Create more simple/medium complexity workflows (currently only 35% non-complex)
+3. Add missing business functions: Crisis management, employee training, sustainability policies
+4. Improve content depth in policies and org structures (currently underweighted)

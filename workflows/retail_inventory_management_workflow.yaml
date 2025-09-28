@@ -24,14 +24,21 @@ workflow:
       tools: ["RFID Scanners", "Inventory Counting Software"]
       duration: "8 hours"
       outputs: ["Physical count verification"]
-    - step: 4
-      actor: "Store Manager"
-      action: "Approve procurement orders and adjust pricing for slow-moving items"
-      tools: ["POS System", "Pricing Optimization Tool"]
-      duration: "1 hour"
-      outputs: ["Approved purchase orders", "Price adjustment notifications"]
-  success_criteria: "Inventory accuracy >98%, stockouts <2%, overstock <5%"
-  failure_modes: ["System data errors", "Manual counting mistakes", "Supplier delays"]
+     - step: 4
+       actor: "Store Manager"
+       action: "Approve procurement orders and adjust pricing for slow-moving items"
+       tools: ["POS System", "Pricing Optimization Tool"]
+       duration: "1 hour"
+       outputs: ["Approved purchase orders", "Price adjustment notifications"]
+     - step: 5
+       actor: "Procurement Specialist"
+       action: "Negotiate terms with suppliers and place final orders"
+       tools: ["Supplier Portal", "Contract Management System"]
+       duration: "2 hours"
+       decision_points: ["Supplier reliability", "Bulk discount thresholds"]
+       outputs: ["Executed purchase contracts", "Delivery schedules"]
+   success_criteria: "Inventory accuracy >98%, stockouts <2%, overstock <5%, procurement costs optimized"
+   failure_modes: ["System data errors", "Manual counting mistakes", "Supplier delays", "Pricing strategy failures"]
   metrics:
     - "Inventory turnover ratio: Target 6-8 times per year"
     - "Stockout rate: Target <2%"

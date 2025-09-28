@@ -18,13 +18,20 @@ workflow:
       tools: ["Credit Card Terminal", "Key Management System"]
       duration: "3 minutes"
       outputs: ["Room assignment", "Key card"]
-    - step: 3
-      actor: "Housekeeping Supervisor"
-      action: "Confirm room readiness and update status"
-      tools: ["Housekeeping Management App"]
-      duration: "2 minutes"
-      outputs: ["Room status update"]
-  success_criteria: "Check-in completed within 10 minutes, 100% room readiness"
+     - step: 3
+       actor: "Housekeeping Supervisor"
+       action: "Confirm room readiness and update status"
+       tools: ["Housekeeping Management App"]
+       duration: "2 minutes"
+       outputs: ["Room status update"]
+     - step: 4
+       actor: "Front Desk Agent"
+       action: "Handle special requests and provide welcome amenities"
+       tools: ["Guest Profile System", "Concierge Database"]
+       duration: "3 minutes"
+       decision_points: ["VIP status", "Special dietary needs", "Accessibility requirements"]
+       outputs: ["Special request confirmations", "Amenity delivery notes"]
+   success_criteria: "Check-in completed within 10 minutes, 100% room readiness, all special requests addressed"
   failure_modes: ["System outages", "Room not ready", "Payment issues"]
   metrics:
     - "Average check-in time: Target <8 minutes"

@@ -13,6 +13,9 @@ Monthly dashboard tracking retail sales performance across 50 stores. Focus on r
   - Premium product sales up 15%
 - **Conversion Rate**: 24.5% (Target: 25%)
   - Online conversion: 18.2%
+  - In-store conversion: 28.5%
+- **Online Revenue Share**: 35% (Target: 40%)
+  - Mobile app contribution: 22%
 
 ### Customer Metrics
 - **Customer Satisfaction Score**: 4.3/5 (Target: 4.4)
@@ -27,6 +30,8 @@ Monthly dashboard tracking retail sales performance across 50 stores. Focus on r
 - **Gross Margin**: 42.5% (Target: 43%)
   - Category performance varies by 8%
 - **Staff Productivity**: $185/sq ft (Target: $190)
+- **Foot Traffic**: 45,000 visitors/month (Target: 50,000)
+  - Peak hours: 2-6 PM weekdays
 
 ### Store Performance
 - **Top Performing Store**: Downtown Mall - $450K revenue

@@ -18,18 +18,25 @@ workflow:
       tools: ["Document Management System", "External Database Access"]
       duration: "4 hours"
       outputs: ["Investigation report"]
-    - step: 3
-      actor: "Underwriter"
-      action: "Assess claim validity and calculate settlement amount"
-      tools: ["Claims Calculation Software", "Fraud Detection Tools"]
-      duration: "3 hours"
-      outputs: ["Settlement recommendation"]
-    - step: 4
-      actor: "Claims Manager"
-      action: "Review and approve settlement, communicate with policyholder"
-      tools: ["Approval Workflow System"]
-      duration: "1 hour"
-      outputs: ["Approved settlement", "Payment processing"]
+     - step: 3
+       actor: "Underwriter"
+       action: "Assess claim validity and calculate settlement amount"
+       tools: ["Claims Calculation Software", "Fraud Detection Tools"]
+       duration: "3 hours"
+       outputs: ["Settlement recommendation"]
+     - step: 4
+       actor: "Claims Adjuster"
+       action: "Conduct fraud investigation if flags are raised"
+       tools: ["Fraud Analytics Platform", "External Investigation Services"]
+       duration: "8 hours"
+       decision_points: ["Fraud probability score", "Claim amount threshold"]
+       outputs: ["Fraud investigation report"]
+     - step: 5
+       actor: "Claims Manager"
+       action: "Review and approve settlement, communicate with policyholder"
+       tools: ["Approval Workflow System"]
+       duration: "1 hour"
+       outputs: ["Approved settlement", "Payment processing"]
   success_criteria: "Claims processed within 30 days, accuracy >95%"
   failure_modes: ["Incomplete documentation", "Fraud detection flags", "Coverage disputes"]
   metrics:

@@ -3,11 +3,15 @@
 ## Executive Leadership
 - **VP Operations** - Oversees all retail operations, store performance, supply chain
   - Reports to: CEO
+  - Headcount: 1
+  - Career Path: Senior Manager → Director → VP
 
 ## Regional Management
 - **Regional Director** (3 regions) - Manages 15-20 stores each
   - Reports to: VP Operations
   - Responsibilities: Regional performance, store development, team leadership
+  - Headcount: 3
+  - Career Path: Store Manager → Regional Director
 
 ## Store Level Management
 - **Store Manager** - Daily operations of individual store

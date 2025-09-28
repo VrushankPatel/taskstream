@@ -46,6 +46,7 @@ Applies to all hotel properties, employees, contractors, and guests. Covers food
 - **Room Sanitization**: Enhanced cleaning protocols between guests
 - **Social Distancing**: Modified check-in processes and common area arrangements
 - **Staff Screening**: Daily health checks for all employees
+- **Technology Integration**: Contactless check-in, mobile app health declarations
 
 ## Emergency Response
 - **Emergency Action Plan**: Site-specific plans for each property

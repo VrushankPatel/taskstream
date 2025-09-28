@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_online_course_development"
+  title: "Online Course Development Process"
+  department: "Education Technology"
+  complexity: "high"
+  participants: ["Subject Matter Expert", "Instructional Designer", "Multimedia Developer", "Quality Assurance Reviewer"]
+  trigger: "Curriculum committee approves new course need"
+  steps:
+    - step: 1
+      actor: "Subject Matter Expert"
+      action: "Define learning objectives and course outline"
+      tools: ["Curriculum Planning Software", "Learning Management System"]
+      duration: "2 weeks"
+      outputs: ["Course Syllabus", "Learning Objectives"]
+    - step: 2
+      actor: "Instructional Designer"
+      action: "Design instructional materials and assessment strategies"
+      tools: ["Authoring Tools", "Assessment Builder"]
+      duration: "3 weeks"
+      outputs: ["Course Design Document", "Assessment Plan"]
+    - step: 3
+      actor: "Multimedia Developer"
+      action: "Create video content, interactive elements, and graphics"
+      tools: ["Video Production Suite", "Animation Software"]
+      duration: "4 weeks"
+      outputs: ["Multimedia Assets", "Interactive Modules"]
+    - step: 4
+      actor: "Quality Assurance Reviewer"
+      action: "Review content for accuracy, accessibility, and engagement"
+      tools: ["QA Checklist", "Accessibility Tools"]
+      duration: "1 week"
+      outputs: ["Quality Review Report", "Approved Course Package"]
+  success_criteria: "Course achieves 85% student satisfaction rating"
+  failure_modes: ["Content accuracy issues", "Technical production delays", "Accessibility compliance gaps"]

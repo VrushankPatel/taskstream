@@ -1,0 +1,46 @@
+{
+  "scenario_id": "sustainability_manufacturing_q2_2026",
+  "context": "Industrial manufacturing company, 3,000 employees, implementing circular economy practices",
+  "stakeholders": {
+    "requester": "VP Sustainability",
+    "approvers": ["CEO", "Chief Operating Officer"],
+    "influencers": ["VP Engineering", "Chief Procurement Officer", "Environmental Compliance Manager"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Implement circular economy practices across production facilities",
+    "urgency": "medium",
+    "justification": "Achieve 50% waste reduction and meet 2030 sustainability targets"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "10 weeks",
+      "activities": ["Current waste audit", "Circular economy opportunity assessment", "Technology vendor evaluation"],
+      "outcome": "Identified 60% waste reduction potential through material recovery and reuse"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "8 weeks",
+      "activities": ["Select pilot facility", "Design circular processes", "Partner identification"],
+      "outcome": "Pilot program designed with measurable KPIs and success metrics"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "5 weeks",
+      "activities": ["Investment requirements", "Operational cost savings", "Revenue from recycled materials"],
+      "outcome": "3-year payback period with 25% cost savings from waste reduction"
+    },
+    {
+      "stage": "implementation_roadmap",
+      "duration": "4 weeks",
+      "activities": ["Change management plan", "Training requirements", "Timeline development"],
+      "outcome": "Approved with 2-year implementation timeline and quarterly progress reviews"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["50% reduction in waste to landfill", "15% cost savings from material efficiency", "Enhanced brand reputation"],
+    "risk_factors": ["Process disruption during transition", "Supplier cooperation challenges", "Regulatory changes"],
+    "mitigation_strategies": ["Phased implementation approach", "Supplier partnership agreements", "Regulatory monitoring program"]
+  }
+}

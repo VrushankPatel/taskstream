@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_renewable_energy_project"
+  title: "Renewable Energy Project Approval and Implementation"
+  department: "Energy Development"
+  complexity: "high"
+  participants: ["Project Developer", "Environmental Assessor", "Regulatory Affairs", "Engineering Team", "Community Liaison"]
+  trigger: "Project proposal submitted for renewable energy development"
+  steps:
+    - step: 1
+      actor: "Environmental Assessor"
+      action: "Conduct environmental impact assessment and permitting"
+      tools: ["EIA Software", "Environmental Database"]
+      duration: "3 months"
+      outputs: ["Environmental Impact Report", "Permit Applications"]
+    - step: 2
+      actor: "Regulatory Affairs"
+      action: "Navigate regulatory approvals and interconnection agreements"
+      tools: ["Regulatory Tracking System", "Legal Database"]
+      duration: "4 months"
+      outputs: ["Regulatory Approvals", "Interconnection Agreement"]
+    - step: 3
+      actor: "Engineering Team"
+      action: "Design system architecture and procurement specifications"
+      tools: ["Engineering Design Software", "Procurement System"]
+      duration: "2 months"
+      outputs: ["Technical Design Documents", "Equipment Specifications"]
+    - step: 4
+      actor: "Community Liaison"
+      action: "Conduct community engagement and address stakeholder concerns"
+      tools: ["Community Engagement Platform", "Stakeholder Database"]
+      duration: "2 months"
+      outputs: ["Community Impact Assessment", "Stakeholder Agreement"]
+    - step: 5
+      actor: "Project Developer"
+      action: "Secure financing and manage construction phase"
+      tools: ["Project Management Software", "Financial Modeling Tools"]
+      duration: "6 months"
+      outputs: ["Construction Completion", "Operational Handover"]
+  success_criteria: "Project operational within 18 months of initiation"
+  failure_modes: ["Environmental permitting delays", "Regulatory changes", "Community opposition", "Financing challenges"]

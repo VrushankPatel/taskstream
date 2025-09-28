@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_ecommerce_fulfillment"
+  title: "E-commerce Order Fulfillment Process"
+  department: "Retail Operations"
+  complexity: "medium"
+  participants: ["Customer", "Order Processor", "Warehouse Staff", "Shipping Coordinator"]
+  trigger: "Customer places online order"
+  steps:
+    - step: 1
+      actor: "Order Processor"
+      action: "Verify order details and payment processing"
+      tools: ["E-commerce Platform", "Payment Gateway"]
+      duration: "5 minutes"
+      outputs: ["Order Confirmation"]
+    - step: 2
+      actor: "Warehouse Staff"
+      action: "Pick items from inventory using automated systems"
+      tools: ["Warehouse Management System", "Automated Pickers"]
+      duration: "15 minutes"
+      outputs: ["Picked Order"]
+    - step: 3
+      actor: "Warehouse Staff"
+      action: "Pack order with appropriate materials and quality check"
+      tools: ["Packing Station", "Quality Control Scanner"]
+      duration: "10 minutes"
+      outputs: ["Packed Shipment"]
+    - step: 4
+      actor: "Shipping Coordinator"
+      action: "Select shipping method and generate shipping label"
+      tools: ["Shipping Software", "Carrier APIs"]
+      duration: "5 minutes"
+      outputs: ["Shipping Label", "Tracking Number"]
+  success_criteria: "Order delivered within promised timeframe"
+  failure_modes: ["Inventory stockouts", "Payment processing failures", "Shipping delays"]

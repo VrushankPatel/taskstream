@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_smart_factory_maintenance"
+  title: "Predictive Maintenance in Smart Factory"
+  department: "Manufacturing Operations"
+  complexity: "high"
+  participants: ["IoT Sensors", "Maintenance Technician", "Production Manager", "Data Analyst"]
+  trigger: "IoT sensor detects equipment anomaly"
+  steps:
+    - step: 1
+      actor: "IoT Sensors"
+      action: "Monitor equipment parameters and detect deviations"
+      tools: ["Sensor Network", "Edge Computing"]
+      duration: "Continuous"
+      outputs: ["Anomaly Alert"]
+    - step: 2
+      actor: "Data Analyst"
+      action: "Analyze sensor data and predict maintenance needs"
+      tools: ["AI Analytics Platform", "Predictive Models"]
+      duration: "2 hours"
+      outputs: ["Maintenance Prediction Report"]
+    - step: 3
+      actor: "Production Manager"
+      action: "Approve maintenance schedule and allocate resources"
+      tools: ["Maintenance Management System", "Production Schedule"]
+      duration: "1 hour"
+      outputs: ["Maintenance Work Order"]
+    - step: 4
+      actor: "Maintenance Technician"
+      action: "Perform preventive maintenance and document results"
+      tools: ["Maintenance Tools", "Digital Work Instructions"]
+      duration: "4 hours"
+      outputs: ["Maintenance Report", "Equipment Status Update"]
+  success_criteria: "Equipment uptime maintained above 95%"
+  failure_modes: ["False positive alerts", "Resource scheduling conflicts", "Parts availability issues"]

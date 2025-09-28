@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_digital_permit_approval"
+  title: "Digital Building Permit Approval Process"
+  department: "Government Services"
+  complexity: "high"
+  participants: ["Applicant", "Permit Clerk", "Building Inspector", "Planning Officer", "Fire Marshal"]
+  trigger: "Applicant submits digital permit application"
+  steps:
+    - step: 1
+      actor: "Permit Clerk"
+      action: "Review application completeness and collect fees"
+      tools: ["Permit Management System", "Payment Processor"]
+      duration: "2 days"
+      outputs: ["Application Acknowledgment", "Initial Review Report"]
+    - step: 2
+      actor: "Planning Officer"
+      action: "Evaluate zoning compliance and site plan review"
+      tools: ["GIS Mapping System", "Zoning Database"]
+      duration: "5 days"
+      outputs: ["Planning Review Report"]
+    - step: 3
+      actor: "Building Inspector"
+      action: "Assess structural and safety requirements"
+      tools: ["Building Code Database", "CAD Review Tools"]
+      duration: "7 days"
+      outputs: ["Building Inspection Report"]
+    - step: 4
+      actor: "Fire Marshal"
+      action: "Review fire safety and emergency access compliance"
+      tools: ["Fire Code Database", "Safety Assessment Tools"]
+      duration: "3 days"
+      outputs: ["Fire Safety Report"]
+    - step: 5
+      actor: "Permit Clerk"
+      action: "Issue final permit or request revisions"
+      tools: ["Permit Management System", "Notification System"]
+      duration: "1 day"
+      outputs: ["Permit Approval", "Permit Denial with Revisions"]
+  success_criteria: "Permit issued within 30 days of complete application"
+  failure_modes: ["Incomplete application submissions", "Code interpretation disputes", "Inter-agency coordination delays"]

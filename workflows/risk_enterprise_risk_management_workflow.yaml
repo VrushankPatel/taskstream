@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_risk_001"
+  title: "Enterprise Risk Management Framework Implementation"
+  department: "Risk Management"
+  complexity: "high"
+  participants: ["Chief Risk Officer", "Department Heads", "Risk Committee", "Audit Team"]
+  trigger: "Regulatory requirement or significant risk event"
+  steps:
+    - step: 1
+      actor: "Risk Committee"
+      action: "Define risk appetite and establish risk categories"
+      tools: ["Risk framework templates", "Stakeholder surveys"]
+      duration: "4 weeks"
+      outputs: ["Risk appetite statement", "Risk taxonomy"]
+    - step: 2
+      actor: "Department Heads"
+      action: "Identify and assess departmental risks"
+      tools: ["Risk assessment tools", "Risk registers"]
+      duration: "6 weeks"
+      outputs: ["Departmental risk inventories", "Risk heat maps"]
+    - step: 3
+      actor: "Chief Risk Officer"
+      action: "Aggregate and prioritize enterprise risks"
+      tools: ["Risk aggregation software", "Risk modeling tools"]
+      duration: "3 weeks"
+      outputs: ["Enterprise risk profile", "Risk prioritization matrix"]
+    - step: 4
+      actor: "Risk Committee"
+      action: "Develop risk mitigation strategies"
+      tools: ["Strategy development frameworks", "Cost-benefit analysis tools"]
+      duration: "4 weeks"
+      outputs: ["Risk mitigation plans", "Resource allocation recommendations"]
+    - step: 5
+      actor: "Department Heads"
+      action: "Implement risk controls and monitoring"
+      tools: ["Control implementation checklists", "Monitoring dashboards"]
+      duration: "8 weeks"
+      outputs: ["Implemented controls", "Monitoring procedures"]
+    - step: 6
+      actor: "Audit Team"
+      action: "Test and validate risk controls"
+      tools: ["Control testing protocols", "Audit management software"]
+      duration: "4 weeks"
+      outputs: ["Control validation reports", "Remediation plans"]
+    - step: 7
+      actor: "Chief Risk Officer"
+      action: "Report to board and update risk framework"
+      tools: ["Risk reporting dashboards", "Board presentation tools"]
+      duration: "Ongoing"
+      outputs: ["Risk reports", "Updated risk framework"]
+  success_criteria: "Comprehensive risk framework reducing enterprise risk exposure by 20%"
+  failure_modes: ["Unidentified risks", "Ineffective controls", "Poor risk culture"]

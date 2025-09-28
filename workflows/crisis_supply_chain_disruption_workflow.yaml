@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_crisis_003"
+  title: "Supply Chain Disruption Crisis Response Process"
+  department: "Supply Chain"
+  complexity: "high"
+  participants: ["Supply Chain Director", "Procurement Team", "Operations", "Finance", "Communications"]
+  trigger: "Major supplier disruption or global supply chain event"
+  steps:
+    - step: 1
+      actor: "Supply Chain Director"
+      action: "Disruption assessment and impact analysis"
+      tools: ["Supply chain visibility tools", "Impact assessment models"]
+      duration: "4 hours"
+      outputs: ["Impact assessment", "Business continuity plan activation"]
+    - step: 2
+      actor: "Procurement Team"
+      action: "Supplier evaluation and alternative sourcing"
+      tools: ["Supplier databases", "Sourcing platforms"]
+      duration: "24 hours"
+      outputs: ["Alternative suppliers", "Sourcing agreements"]
+    - step: 3
+      actor: "Operations"
+      action: "Production adjustment and inventory optimization"
+      tools: ["Production planning software", "Inventory management systems"]
+      duration: "12 hours"
+      outputs: ["Adjusted production plans", "Inventory allocation"]
+    - step: 4
+      actor: "Finance"
+      action: "Cost impact analysis and budget adjustments"
+      tools: ["Financial modeling tools", "Cost analysis software"]
+      duration: "8 hours"
+      outputs: ["Cost impact report", "Budget adjustments"]
+    - step: 5
+      actor: "Communications"
+      action: "Stakeholder communication and customer management"
+      tools: ["Communication templates", "Customer notification systems"]
+      duration: "Ongoing"
+      outputs: ["Customer communications", "Supplier updates", "Internal briefings"]
+    - step: 6
+      actor: "Supply Chain Director"
+      action: "Recovery planning and risk mitigation"
+      tools: ["Risk management frameworks", "Contingency planning tools"]
+      duration: "1 week"
+      outputs: ["Recovery plan", "Risk mitigation strategies", "Supplier diversification plan"]
+    - step: 7
+      actor: "Procurement Team"
+      action: "Long-term supplier relationship management"
+      tools: ["Supplier performance systems", "Contract management tools"]
+      duration: "Ongoing"
+      outputs: ["Updated supplier contracts", "Performance monitoring framework"]
+  success_criteria: "Minimal production disruption with alternative sourcing secured within 48 hours"
+  failure_modes: ["Extended downtime", "Cost overruns", "Customer dissatisfaction", "Supplier relationship damage"]

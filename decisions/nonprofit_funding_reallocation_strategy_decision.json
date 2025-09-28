@@ -1,0 +1,46 @@
+{
+  "scenario_id": "nonprofit_funding_reallocation_strategy_2025",
+  "context": "International humanitarian NGO with $50M annual budget, facing increased demand for services amid global crises while managing donor expectations for impact measurement",
+  "stakeholders": {
+    "requester": "Executive Director",
+    "approvers": ["Board of Directors", "Finance Committee"],
+    "influencers": ["Program Directors", "Major Donors", "Field Partners", "Beneficiary Representatives"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Reallocate funding across programs to address emerging humanitarian crises",
+    "urgency": "high",
+    "justification": "Adapt to changing global needs while maintaining program quality and donor trust"
+  },
+  "decision_process": [
+    {
+      "stage": "needs_assessment",
+      "duration": "6 weeks",
+      "activities": ["Global situation analysis", "Program impact evaluation", "Stakeholder consultations"],
+      "outcome": "Identified priority areas: climate displacement, food security, and mental health support"
+    },
+    {
+      "stage": "impact_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "Impact measurement framework", "Risk assessment"],
+      "outcome": "Developed allocation model balancing immediate needs with long-term impact"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "8 weeks",
+      "activities": ["Donor briefings", "Partner discussions", "Beneficiary feedback sessions"],
+      "outcome": "Gained consensus on reallocation priorities with enhanced transparency commitments"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Strategy debate", "Final approval vote"],
+      "outcome": "Approved reallocation with conditions for enhanced monitoring and reporting"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["Improved response to emerging crises", "Enhanced program effectiveness", "Maintained donor confidence"],
+    "projected_benefits": "$25 million additional impact through optimized resource deployment",
+    "risk_factors": ["Program disruption during transition", "Donor attrition", "Staffing challenges in new areas"]
+  }
+}

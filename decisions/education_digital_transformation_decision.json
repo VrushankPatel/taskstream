@@ -1,0 +1,34 @@
+{
+  "scenario_id": "education_digital_2025",
+  "context": "State university system, 50,000 students, implementing campus-wide digital learning platform",
+  "stakeholders": {
+    "requester": "Provost",
+    "approvers": ["President", "Board of Trustees"],
+    "influencers": ["Department Chairs", "IT Director", "Student Government"]
+  },
+  "request": {
+    "amount": "$25M",
+    "purpose": "Digital learning platform and faculty development",
+    "urgency": "high",
+    "justification": "Post-pandemic learning preferences, 40% enrollment decline without modernization"
+  },
+  "decision_process": [
+    {
+      "stage": "needs_assessment",
+      "duration": "8 weeks",
+      "activities": ["Student surveys", "Faculty focus groups", "Technology audit", "Competitive analysis"],
+      "outcome": "Identified hybrid learning as preferred model with 70% student support"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "12 weeks",
+      "activities": ["Platform demonstrations", "Pilot testing", "Cost-benefit analysis", "Change management planning"],
+      "outcome": "Selected comprehensive platform with 5-year implementation plan"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["30% increase in enrollment", "25% improvement in retention", "Enhanced learning outcomes"],
+    "projected_roi": "220%",
+    "risk_factors": ["Faculty adoption resistance", "Technical integration challenges", "Student digital literacy gaps"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "healthcare_genomic_data_analytics_platform_2025",
+  "context": "Major healthcare system implementing advanced genomic data analytics platform for personalized medicine initiatives",
+  "stakeholders": {
+    "requester": "Chief Medical Information Officer",
+    "approvers": ["CEO", "Chief Medical Officer", "Board of Directors"],
+    "influencers": ["Genetics Department", "IT Security", "Research Ethics Committee"]
+  },
+  "request": {
+    "amount": "$18,000,000",
+    "purpose": "Deploy enterprise genomic data analytics platform for clinical decision support and research",
+    "urgency": "medium",
+    "justification": "Enable precision medicine capabilities and improve patient outcomes through genomic insights"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_requirements_assessment",
+      "duration": "2 months",
+      "activities": ["Clinical workflow analysis", "Use case prioritization", "Stakeholder engagement"],
+      "outcome": "Comprehensive requirements defined for oncology and cardiology applications"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "3 months",
+      "activities": ["Platform evaluation", "Integration testing", "Security assessment"],
+      "outcome": "Leading genomic analytics platform selected with strong clinical validation"
+    },
+    {
+      "stage": "privacy_and_compliance_review",
+      "duration": "2 months",
+      "activities": ["HIPAA compliance review", "Data privacy assessment", "Ethical considerations"],
+      "outcome": "Comprehensive privacy framework established with audit trails"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 months",
+      "activities": ["Phased rollout plan", "Training program development", "Change management strategy"],
+      "outcome": "12-month implementation plan approved with clinical oversight"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Improved treatment outcomes", "Reduced adverse drug reactions", "Enhanced research capabilities"],
+    "projected_revenue": "Cost savings of $25M annually through optimized treatments",
+    "risk_factors": ["Data privacy concerns", "Clinical adoption challenges", "Technology integration complexity"]
+  }
+}

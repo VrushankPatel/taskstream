@@ -1,0 +1,46 @@
+{
+  "scenario_id": "manufacturing_circular_economy_transition_2025",
+  "context": "Industrial manufacturing company transitioning to circular economy principles to reduce waste and improve sustainability",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Chief Operating Officer", "Board Sustainability Committee"],
+    "influencers": ["Operations Leadership", "Supply Chain Team", "Customer Success Team"]
+  },
+  "request": {
+    "amount": "$35,000,000",
+    "purpose": "Implement circular economy practices including product redesign, recycling infrastructure, and supply chain optimization",
+    "urgency": "medium",
+    "justification": "Regulatory compliance, cost reduction, and market differentiation through sustainable practices"
+  },
+  "decision_process": [
+    {
+      "stage": "circular_economy_assessment",
+      "duration": "2 months",
+      "activities": ["Current waste analysis", "Circular opportunity identification", "Economic modeling"],
+      "outcome": "Identified 40% waste reduction potential with $15M annual savings"
+    },
+    {
+      "stage": "product_redesign_evaluation",
+      "duration": "3 months",
+      "activities": ["Design for recyclability assessment", "Material substitution analysis", "Lifecycle costing"],
+      "outcome": "Product redesign roadmap developed with modular construction approach"
+    },
+    {
+      "stage": "supply_chain_transformation",
+      "duration": "2 months",
+      "activities": ["Supplier capability assessment", "Reverse logistics planning", "Partnership development"],
+      "outcome": "Comprehensive supply chain transformation plan with key supplier commitments"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "1 month",
+      "activities": ["Executive review", "Board presentation", "Final investment approval"],
+      "outcome": "Approved with 3-year implementation timeline and quarterly milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["40% waste reduction", "Cost savings from material efficiency", "Enhanced brand reputation"],
+    "projected_revenue": "$50,000,000 in new sustainable product revenue",
+    "risk_factors": ["Technology availability", "Supplier cooperation", "Customer acceptance of redesigned products"]
+  }
+}

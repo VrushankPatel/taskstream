@@ -1,0 +1,40 @@
+{
+  "scenario_id": "crisis_supply_chain_disruption_2025",
+  "context": "Manufacturing company facing critical supply chain disruption due to geopolitical tensions affecting key component sourcing",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Operations", "Procurement", "Legal Counsel", "Customer Success"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Emergency supply chain diversification and alternative sourcing establishment",
+    "urgency": "critical",
+    "justification": "Prevent production shutdown and maintain customer commitments"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "1 week",
+      "activities": ["Supply risk analysis", "Inventory assessment", "Customer impact evaluation"],
+      "outcome": "Identified 3-month supply gap for critical components affecting 40% of production"
+    },
+    {
+      "stage": "alternative_sourcing",
+      "duration": "2 weeks",
+      "activities": ["Supplier identification", "Qualification process", "Contract negotiations"],
+      "outcome": "Secured alternative suppliers with 6-month bridging supply agreement"
+    },
+    {
+      "stage": "long_term_strategy",
+      "duration": "1 month",
+      "activities": ["Diversification planning", "Local manufacturing evaluation", "Partnership development"],
+      "outcome": "Comprehensive diversification strategy with regional manufacturing investment"
+    }
+  ],
+  "business_impact": {
+    "expected_cost": "$15 million (additional sourcing costs)",
+    "production_continuity": "Maintained at 95%",
+    "risk_factors": ["Supplier reliability", "Quality consistency", "Cost increases", "Timeline delays"]
+  }
+}

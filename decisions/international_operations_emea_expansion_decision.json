@@ -1,0 +1,40 @@
+{
+  "scenario_id": "international_emea_expansion_2025",
+  "context": "Technology company expanding operations into European and Middle Eastern markets with localized compliance requirements",
+  "stakeholders": {
+    "requester": "VP International Operations",
+    "approvers": ["CEO", "Board of Directors", "CFO"],
+    "influencers": ["Legal Counsel", "Local Partners", "Regulatory Affairs", "Product Development"]
+  },
+  "request": {
+    "amount": "$75 million",
+    "purpose": "Establish operations in Germany, UAE, and UK with localized compliance and product adaptation",
+    "urgency": "medium",
+    "justification": "Access to high-growth EMEA markets representing 40% of global opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "market_prioritization",
+      "duration": "3 months",
+      "activities": ["Market sizing analysis", "Competitive assessment", "Regulatory complexity evaluation"],
+      "outcome": "Prioritized Germany and UAE as initial markets with UK follow-on"
+    },
+    {
+      "stage": "compliance_framework",
+      "duration": "4 months",
+      "activities": ["GDPR compliance planning", "Local entity establishment", "Partnership development"],
+      "outcome": "Comprehensive compliance framework developed with local legal support"
+    },
+    {
+      "stage": "business_case_validation",
+      "duration": "2 months",
+      "activities": ["Financial modeling", "Risk analysis", "Resource planning"],
+      "outcome": "Strong business case with 3-year payback and manageable execution risks"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$150 million (5-year cumulative)",
+    "market_penetration": "20% of target segments",
+    "risk_factors": ["Regulatory complexity", "Cultural adaptation challenges", "Currency fluctuations", "Partner performance"]
+  }
+}

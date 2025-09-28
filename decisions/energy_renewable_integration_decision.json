@@ -1,0 +1,41 @@
+{
+  "scenario_id": "energy_renewable_integration_q4_2025",
+  "context": "Utility company, 500 employees, planning grid modernization with 40% renewable integration by 2030",
+  "stakeholders": {
+    "requester": "VP Grid Operations",
+    "approvers": ["CEO", "CFO", "Chief Engineer"],
+    "influencers": ["Regulatory Affairs Director", "Environmental Officer", "Community Relations Manager"]
+  },
+  "request": {
+    "amount": "$850,000,000",
+    "purpose": "Solar and wind farm integration with smart grid infrastructure",
+    "urgency": "high",
+    "justification": "Regulatory requirements and cost savings from reduced fossil fuel dependency"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "6 months",
+      "activities": ["Technical feasibility analysis", "Cost-benefit modeling", "Environmental impact assessment"],
+      "outcome": "Proceed with conditional approval"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "4 months",
+      "activities": ["Permit applications", "Community consultations", "Environmental reviews"],
+      "outcome": "All major permits secured"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "3 months",
+      "activities": ["RFP process", "Vendor evaluations", "Contract negotiations"],
+      "outcome": "Preferred vendor consortium selected"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$120,000,000 annually",
+    "carbon_reduction": "500,000 tons CO2 per year",
+    "grid_reliability": "99.8% uptime target",
+    "risk_factors": ["Weather dependency of renewables", "Grid stability challenges", "Community opposition to infrastructure"]
+  }
+}

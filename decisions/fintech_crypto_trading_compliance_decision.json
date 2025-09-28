@@ -1,0 +1,41 @@
+{
+  "scenario_id": "fintech_crypto_compliance_q2_2026",
+  "context": "Fintech startup, 150 employees, expanding crypto trading platform amid regulatory uncertainty",
+  "stakeholders": {
+    "requester": "Head of Compliance",
+    "approvers": ["CEO", "CFO", "Board Chair"],
+    "influencers": ["Chief Technology Officer", "Legal Counsel", "Risk Manager"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "Enhanced compliance infrastructure and regulatory licensing",
+    "urgency": "critical",
+    "justification": "Maintain platform operations under evolving crypto regulations"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_analysis",
+      "duration": "4 months",
+      "activities": ["Global regulatory landscape assessment", "Jurisdiction prioritization", "Licensing requirement mapping"],
+      "outcome": "Strategic compliance roadmap developed"
+    },
+    {
+      "stage": "technology_upgrade",
+      "duration": "6 months",
+      "activities": ["KYC/AML system implementation", "Transaction monitoring enhancement", "Audit trail improvements"],
+      "outcome": "Compliance technology stack deployed"
+    },
+    {
+      "stage": "licensing_process",
+      "duration": "8 months",
+      "activities": ["License applications", "Regulatory examinations", "Capital requirement compliance"],
+      "outcome": "Key market licenses secured"
+    }
+  ],
+  "business_impact": {
+    "market_access": "Expansion to 15 new jurisdictions",
+    "customer_trust": "35% increase in institutional clients",
+    "operational_costs": "$8,000,000 annual compliance budget",
+    "risk_factors": ["Regulatory changes", "Technology vulnerabilities", "Market volatility impacts"]
+  }
+}

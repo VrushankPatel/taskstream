@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_biotech_gene_therapy_trials"
+  title: "Biotechnology Gene Therapy Clinical Trials"
+  department: "R&D"
+  complexity: "complex"
+  participants: ["Clinical Operations Lead", "Regulatory Affairs", "Medical Director", "Data Manager", "Patient Recruitment Team", "Ethics Committee"]
+  trigger: "Preclinical data demonstrates therapeutic efficacy"
+  steps:
+    - step: 1
+      actor: "Clinical Operations Lead"
+      action: "Develop clinical trial protocol including inclusion/exclusion criteria, dosing regimens, and endpoints"
+      tools: ["Clinical trial management system", "Regulatory databases"]
+      duration: "8 weeks"
+      outputs: ["Trial protocol document", "Regulatory submission package"]
+    - step: 2
+      actor: "Regulatory Affairs"
+      action: "Submit IND application to FDA/EMA and obtain clinical trial authorization"
+      tools: ["Regulatory submission software", "Clinical trial databases"]
+      duration: "12 weeks"
+      outputs: ["IND approval", "Trial authorization documents"]
+    - step: 3
+      actor: "Ethics Committee"
+      action: "Review protocol for ethical compliance and patient safety considerations"
+      tools: ["Ethics review board system", "Patient safety databases"]
+      duration: "4 weeks"
+      outputs: ["Ethics committee approval", "Patient informed consent forms"]
+    - step: 4
+      actor: "Patient Recruitment Team"
+      action: "Execute patient recruitment strategy across multiple clinical sites"
+      tools: ["Patient recruitment platforms", "Clinical site management system"]
+      duration: "16 weeks"
+      outputs: ["Enrolled patient cohort", "Site activation reports"]
+    - step: 5
+      actor: "Medical Director"
+      action: "Oversee trial execution, monitor safety events, and manage protocol deviations"
+      tools: ["Clinical monitoring software", "Safety reporting systems"]
+      duration: "24 weeks"
+      outputs: ["Safety reports", "Protocol amendment documents"]
+    - step: 6
+      actor: "Data Manager"
+      action: "Collect, validate, and analyze clinical trial data for efficacy and safety endpoints"
+      tools: ["Clinical data management system", "Statistical analysis software"]
+      duration: "8 weeks"
+      outputs: ["Clinical study report", "Data analysis datasets"]
+  success_criteria: "Trial meets primary endpoints with acceptable safety profile"
+  failure_modes: ["Protocol violations", "Patient recruitment delays", "Safety concerns requiring trial halt"]
+  metrics:
+    - "Patient recruitment rate: 80% of target within 16 weeks"
+    - "Protocol adherence: >95% compliance across sites"
+    - "Data quality: <5% query rate"
+    - "Safety monitoring: Zero grade 3+ adverse events"

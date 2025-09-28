@@ -1,0 +1,49 @@
+{
+  "scenario_id": "mining_autonomous_equipment_2025",
+  "context": "Large-scale mining operation evaluating $50M investment in autonomous haul trucks and drilling equipment for underground operations",
+  "stakeholders": {
+    "requester": "Operations Director",
+    "approvers": ["CEO", "CFO", "Safety Director"],
+    "influencers": ["Mining Regulatory Authority", "Labor Unions", "Equipment Manufacturers", "Insurance Providers"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Autonomous mining equipment deployment including 20 haul trucks, 5 drill rigs, and supporting infrastructure",
+    "urgency": "medium",
+    "justification": "Improve safety by removing workers from hazardous areas, increase productivity by 25%, reduce operational costs"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_assessment",
+      "duration": "6 weeks",
+      "activities": ["Risk reduction analysis", "Safety performance modeling", "Regulatory compliance review"],
+      "outcome": "Significant safety improvements with 40% reduction in accident potential"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Equipment testing", "Infrastructure requirements", "Integration planning"],
+      "outcome": "Technology proven with successful pilot results"
+    },
+    {
+      "stage": "workforce_impact",
+      "duration": "4 weeks",
+      "activities": ["Job transition planning", "Retraining programs", "Union consultations"],
+      "outcome": "Manageable workforce transition with retraining commitments"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "3 weeks",
+      "activities": ["ROI calculations", "Cost savings projections", "Funding strategy"],
+      "outcome": "3-year payback with 18% IRR"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% safety incident reduction, 25% productivity increase, 20% cost savings, enhanced operational efficiency",
+    "projected_value": "$120,000,000 NPV over 15 years",
+    "risk_factors": ["Technology reliability issues", "Workforce resistance", "Regulatory approval delays", "Equipment downtime"]
+  },
+  "decision_criteria": ["Safety improvement", "Financial viability", "Technical feasibility", "Workforce impact", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive workforce transition planning and pilot testing are essential for successful autonomous technology adoption"
+}

@@ -1,0 +1,49 @@
+{
+  "scenario_id": "government_digital_services_modernization_2025",
+  "context": "State government evaluating $45M digital services modernization across 15 agencies, requiring legacy system migration and citizen portal development",
+  "stakeholders": {
+    "requester": "Chief Information Officer",
+    "approvers": ["Governor", "State Legislature", "Agency Directors"],
+    "influencers": ["Citizens", "Business Community", "Technology Vendors", "Privacy Advocates"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Unified citizen portal, legacy system modernization, mobile applications, and cybersecurity enhancements",
+    "urgency": "high",
+    "justification": "Improve citizen satisfaction by 40%, reduce service delivery costs by 30%, enhance government transparency and efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "citizen_needs_assessment",
+      "duration": "8 weeks",
+      "activities": ["User research", "Service usage analysis", "Pain point identification"],
+      "outcome": "Clear requirements for streamlined, mobile-first digital services"
+    },
+    {
+      "stage": "technical_architecture",
+      "duration": "6 weeks",
+      "activities": ["Platform selection", "Integration planning", "Security framework design"],
+      "outcome": "Cloud-native architecture with comprehensive security"
+    },
+    {
+      "stage": "financial_planning",
+      "duration": "4 weeks",
+      "activities": ["Budget allocation", "Funding strategy", "Cost-benefit analysis"],
+      "outcome": "3-year payback with significant efficiency gains"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "5 weeks",
+      "activities": ["Phased rollout plan", "Change management", "Training programs"],
+      "outcome": "Comprehensive implementation strategy with risk mitigation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% improvement in citizen satisfaction, 30% reduction in service delivery costs, enhanced government transparency",
+    "projected_value": "$120,000,000 NPV over 10 years",
+    "risk_factors": ["Legacy system migration challenges", "Staff resistance to change", "Data security concerns", "Vendor dependency"]
+  },
+  "decision_criteria": ["Citizen impact", "Financial viability", "Technical feasibility", "Security requirements", "Implementation risk"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive citizen engagement and phased implementation are crucial for successful government digital transformation"
+}

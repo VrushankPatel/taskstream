@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_hospitality_pandemic_workforce_adaptation"
+  title: "Hospitality Pandemic Workforce Adaptation"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Director", "Operations Manager", "Department Heads", "Training Coordinator", "Employee Relations Specialist"]
+  trigger: "Public health emergency requiring workforce reconfiguration"
+  steps:
+    - step: 1
+      actor: "HR Director"
+      action: "Assess operational requirements and develop staffing model for reduced capacity"
+      tools: ["Workforce Planning Software", "Capacity Modeling Tools"]
+      duration: "12 hours"
+      outputs: ["Pandemic staffing requirements"]
+    - step: 2
+      actor: "Operations Manager"
+      action: "Redesign service delivery for social distancing and contactless operations"
+      tools: ["Process Reengineering Tools", "Safety Protocol Templates"]
+      duration: "24 hours"
+      outputs: ["Adapted service protocols"]
+    - step: 3
+      actor: "Training Coordinator"
+      action: "Develop and deliver pandemic safety training programs"
+      tools: ["Online Learning Platform", "Virtual Training Tools"]
+      duration: "48 hours"
+      outputs: ["Safety training completion records"]
+    - step: 4
+      actor: "Employee Relations Specialist"
+      action: "Implement communication protocols and employee support programs"
+      tools: ["Internal Communication Platform", "Employee Assistance Programs"]
+      duration: "24 hours"
+      outputs: ["Employee support framework"]
+    - step: 5
+      actor: "Department Heads"
+      action: "Monitor team performance and provide coaching during transition"
+      tools: ["Performance Management System", "Virtual Coaching Tools"]
+      duration: "2 weeks"
+      outputs: ["Performance adaptation reports"]
+    - step: 6
+      actor: "HR Director"
+      action: "Evaluate adaptation effectiveness and plan for recovery phase"
+      tools: ["Workforce Analytics Dashboard", "Recovery Planning Templates"]
+      duration: "Ongoing"
+      outputs: ["Adaptation effectiveness report"]
+  success_criteria: "Maintain 70% service capacity with full safety compliance, employee satisfaction >3.8/5"
+  failure_modes: ["Training completion gaps", "Communication breakdowns", "Safety protocol violations"]
+  metrics:
+    - "Service capacity maintenance: >70%"
+    - "Safety compliance rate: 100%"
+    - "Employee retention: >90%"
+    - "Training completion: >95%"

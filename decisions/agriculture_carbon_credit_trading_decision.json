@@ -1,0 +1,49 @@
+{
+  "scenario_id": "agriculture_carbon_credit_trading_2025",
+  "context": "Large agricultural cooperative evaluating participation in carbon credit trading program to monetize sustainable farming practices across 50,000 acres",
+  "stakeholders": {
+    "requester": "Sustainability Director",
+    "approvers": ["CEO", "Board Chairman", "Finance Director"],
+    "influencers": ["Member Farmers", "Environmental Certification Bodies", "Government Agriculture Ministry"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Carbon credit trading platform setup and initial certification",
+    "urgency": "medium",
+    "justification": "Generate additional revenue stream, meet sustainability goals, enhance member farmer income"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "duration": "8 weeks",
+      "activities": ["Carbon sequestration assessment", "Trading platform evaluation", "Certification requirement review"],
+      "outcome": "Viable with strong sequestration potential"
+    },
+    {
+      "stage": "farmer_engagement",
+      "duration": "6 weeks",
+      "activities": ["Member surveys", "Educational workshops", "Incentive program design"],
+      "outcome": "80% farmer participation commitment"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Revenue projections", "Cost analysis", "Risk assessment"],
+      "outcome": "Positive ROI within 3 years"
+    },
+    {
+      "stage": "regulatory_compliance",
+      "duration": "6 weeks",
+      "activities": ["Trading regulation review", "Certification standard alignment", "Legal framework assessment"],
+      "outcome": "Compliant with emerging carbon markets"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "$5M annual revenue from carbon credits, enhanced sustainability reputation, diversified income for farmers",
+    "projected_value": "$15,000,000 NPV over 10 years",
+    "risk_factors": ["Carbon price volatility", "Certification audit costs", "Weather impact on sequestration", "Regulatory changes"]
+  },
+  "decision_criteria": ["Financial viability", "Member farmer benefits", "Environmental impact", "Regulatory compliance", "Operational feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Farmer education and engagement critical for successful carbon credit programs, early regulatory alignment reduces implementation risks"
+}

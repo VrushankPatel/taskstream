@@ -1,0 +1,49 @@
+{
+  "scenario_id": "education_adaptive_learning_platform_2025",
+  "context": "University system evaluating $8M investment in adaptive learning platform for 50,000 students across 12 campuses, requiring integration with existing LMS and faculty training",
+  "stakeholders": {
+    "requester": "Provost",
+    "approvers": ["President", "Board of Trustees", "Academic Senate"],
+    "influencers": ["Faculty", "Students", "IT Department", "Accreditation Bodies"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Adaptive learning software, AI analytics platform, faculty development program, and student success initiatives",
+    "urgency": "medium",
+    "justification": "Improve student outcomes by 30%, increase retention by 15%, enhance personalized learning experience"
+  },
+  "decision_process": [
+    {
+      "stage": "pedagogical_assessment",
+      "duration": "6 weeks",
+      "activities": ["Learning science review", "Platform demonstrations", "Faculty feedback collection"],
+      "outcome": "Strong alignment with evidence-based teaching practices"
+    },
+    {
+      "stage": "technical_integration",
+      "duration": "4 weeks",
+      "activities": ["LMS compatibility testing", "Data integration planning", "Security assessment"],
+      "outcome": "Seamless integration with existing infrastructure"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Cost-benefit analysis", "Funding source identification", "ROI projections"],
+      "outcome": "Positive ROI with 25% improvement in student outcomes"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "5 weeks",
+      "activities": ["Faculty training sessions", "Student focus groups", "Administrative reviews"],
+      "outcome": "Broad support with implementation concerns addressed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% improvement in student learning outcomes, 15% increase in retention, enhanced institutional reputation",
+    "projected_value": "$45,000,000 NPV over 10 years",
+    "risk_factors": ["Faculty adoption challenges", "Technology integration issues", "Student privacy concerns", "Accreditation implications"]
+  },
+  "decision_criteria": ["Educational effectiveness", "Technical feasibility", "Financial viability", "Stakeholder support", "Scalability"],
+  "outcome": "Approved",
+  "lessons_learned": "Early faculty engagement and comprehensive training programs are essential for successful educational technology adoption"
+}

@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_retail_loyalty_simple"
+  title: "Retail Customer Loyalty Program Implementation"
+  department: "Marketing"
+  complexity: "simple"
+  participants: ["Marketing Manager", "IT Specialist", "Store Managers"]
+  trigger: "Declining repeat customer visits identified in quarterly sales data"
+  steps:
+    - step: 1
+      actor: "Marketing Manager"
+      action: "Design basic loyalty program structure with points system and rewards"
+      tools: ["CRM Software", "Spreadsheet"]
+      duration: "1 week"
+      outputs: ["Program design document", "Reward catalog"]
+    - step: 2
+      actor: "IT Specialist"
+      action: "Set up digital loyalty platform integration with POS systems"
+      tools: ["Loyalty platform API", "POS integration tools"]
+      duration: "2 weeks"
+      outputs: ["Integrated loyalty system", "Customer enrollment process"]
+    - step: 3
+      actor: "Store Managers"
+      action: "Train staff on loyalty program operations and customer communication"
+      tools: ["Training materials", "In-store signage"]
+      duration: "3 days"
+      outputs: ["Trained staff", "Program launch materials"]
+  success_criteria: "Program enrollment reaches 15% of active customers within 3 months"
+  failure_modes: ["Low customer participation", "Technical integration issues", "Staff resistance"]
+  metrics:
+    - "Customer enrollment rate: 15% target"
+    - "Repeat purchase increase: 10% target"
+    - "Program ROI: 200% target"

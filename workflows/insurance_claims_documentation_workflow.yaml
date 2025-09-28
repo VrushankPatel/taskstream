@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_insurance_claims_medium"
+  title: "Insurance Claims Documentation and Processing"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Policyholder", "Claims Supervisor"]
+  trigger: "Policyholder submits claim notification"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Verify policy coverage and collect initial claim documentation"
+      tools: ["Claims management system", "Policy database"]
+      duration: "2 days"
+      outputs: ["Coverage verification", "Documentation checklist"]
+    - step: 2
+      actor: "Policyholder"
+      action: "Provide required supporting documents (photos, receipts, police reports)"
+      tools: ["Online portal", "Mobile app"]
+      duration: "1 week"
+      outputs: ["Complete claim file", "Supporting documentation"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Assess claim validity and calculate settlement amount"
+      tools: ["Claims assessment software", "Damage estimation tools"]
+      duration: "3 days"
+      outputs: ["Claim assessment report", "Settlement calculation"]
+    - step: 4
+      actor: "Claims Supervisor"
+      action: "Review and approve claim settlement"
+      tools: ["Approval workflow system", "Fraud detection algorithms"]
+      duration: "1 day"
+      outputs: ["Approved settlement", "Payment processing trigger"]
+  success_criteria: "95% of valid claims processed within 14 days of complete documentation"
+  failure_modes: ["Missing documentation delays", "Coverage disputes", "Fraudulent claims"]
+  metrics:
+    - "Processing time: <14 days for 95% of claims"
+    - "Customer satisfaction: 4.2/5 average rating"
+    - "Fraud detection accuracy: 98% true positive rate"

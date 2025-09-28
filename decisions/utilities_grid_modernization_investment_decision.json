@@ -1,0 +1,43 @@
+{
+  "scenario_id": "utilities_grid_modernization_2025",
+  "context": "Mid-sized utility company facing regulatory pressure to increase renewable energy share to 50% by 2030, evaluating major grid infrastructure upgrades",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Regulatory Affairs Director", "Environmental Compliance Officer"]
+  },
+  "request": {
+    "amount": "$450,000,000",
+    "purpose": "Grid modernization and renewable energy integration infrastructure",
+    "urgency": "high",
+    "justification": "Regulatory compliance requirements and competitive positioning in clean energy market"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "3 months",
+      "activities": ["Technical feasibility study", "Cost-benefit analysis", "Regulatory impact assessment"],
+      "outcome": "Feasibility confirmed with phased implementation recommended"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "duration": "2 months",
+      "activities": ["Board presentations", "Community stakeholder meetings", "Vendor negotiations"],
+      "outcome": "Strong support from board, mixed community feedback"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 month",
+      "activities": ["Financial modeling review", "Risk assessment", "Contract finalization"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% renewable energy integration by 2030, improved grid reliability",
+    "projected_value": "$200,000,000 in long-term savings",
+    "risk_factors": ["Construction delays", "Technology obsolescence", "Regulatory changes"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial ROI", "Technical feasibility", "Community impact", "Competitive advantage"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for infrastructure projects, phased implementation reduces risk"
+}

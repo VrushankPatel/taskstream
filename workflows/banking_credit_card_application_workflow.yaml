@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_banking_credit_card_application"
+  title: "Banking Credit Card Application Process"
+  department: "Retail Banking"
+  complexity: "medium"
+  participants: ["Customer Service Representative", "Credit Analyst", "Fraud Prevention Specialist", "Compliance Officer", "Branch Manager"]
+  trigger: "Customer submits credit card application online or in-branch"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Verify applicant identity and collect required information"
+      tools: ["Credit card application system", "Identity verification database"]
+      duration: "15-30 minutes"
+      outputs: ["Verified application data", "Identity confirmation"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Perform credit scoring and eligibility assessment"
+      tools: ["Credit scoring engine", "Credit bureau reports"]
+      duration: "1-2 hours"
+      outputs: ["Credit score report", "Eligibility determination"]
+    - step: 3
+      actor: "Fraud Prevention Specialist"
+      action: "Conduct fraud risk analysis and identity verification"
+      tools: ["Fraud detection system", "Device fingerprinting"]
+      duration: "30-60 minutes"
+      outputs: ["Fraud risk assessment", "Verification status"]
+    - step: 4
+      actor: "Compliance Officer"
+      action: "Review for regulatory compliance and anti-money laundering"
+      tools: ["AML compliance system", "Regulatory databases"]
+      duration: "1-3 hours"
+      outputs: ["Compliance approval", "Regulatory checklist"]
+    - step: 5
+      actor: "Branch Manager"
+      action: "Final approval decision and card issuance setup"
+      decision_points: ["Credit limit assignment", "APR determination"]
+      duration: "30 minutes"
+      outputs: ["Approved application", "Card activation details"]
+  success_criteria: "Credit card issued within 7 business days with accurate terms"
+  failure_modes: ["Insufficient credit history", "Fraud suspicion", "Regulatory ineligibility", "Application errors"]
+  metrics:
+    - "Approval rate: 65% target"
+    - "Average processing time: 3 business days"
+    - "Fraud detection accuracy: 95%"

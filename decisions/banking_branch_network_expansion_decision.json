@@ -1,0 +1,43 @@
+{
+  "scenario_id": "banking_branch_network_expansion_2025",
+  "context": "Regional bank, 15,000 employees, evaluating expansion into underserved markets amid digital transformation",
+  "stakeholders": {
+    "requester": "Head of Retail Banking",
+    "approvers": ["CFO", "Chief Retail Officer", "CEO"],
+    "influencers": ["Head of Digital Banking", "Real Estate Director", "Market Research Analyst"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Open 15 new branches in high-growth suburban areas",
+    "urgency": "medium",
+    "justification": "Balance digital growth with physical presence for customer acquisition and retention"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Demographic analysis", "Competitor assessment", "Customer preference surveys", "Financial projections"],
+      "outcome": "Identified 15 high-potential locations"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "4 weeks",
+      "activities": ["ROI modeling", "Cash flow analysis", "Risk assessment", "Funding strategy development"],
+      "outcome": "Positive 5-year ROI projected"
+    },
+    {
+      "stage": "strategic_review",
+      "duration": "3 weeks",
+      "activities": ["Digital integration planning", "Operational impact assessment", "Executive committee review", "Board approval"],
+      "outcome": "Approved with digital hybrid model"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "20% increase in retail deposits, enhanced community presence, diversified customer acquisition channels",
+    "projected_value": "$40,000,000 additional deposits in 3 years",
+    "risk_factors": ["Digital cannibalization", "Real estate market volatility", "Operational complexity"]
+  },
+  "decision_criteria": ["Market opportunity", "Financial returns", "Digital integration", "Operational feasibility", "Risk-adjusted ROI", "Strategic alignment"],
+  "outcome": "Approved",
+  "lessons_learned": "Hybrid physical-digital strategy requires careful balance, location selection critical for success"
+}

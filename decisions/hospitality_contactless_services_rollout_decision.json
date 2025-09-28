@@ -32,12 +32,22 @@
       "outcome": "6-month phased rollout approved"
     }
   ],
-   "business_impact": {
-     "expected_outcome": "20% improvement in guest satisfaction, 15% increase in direct bookings",
-     "projected_value": "$2.1M additional revenue over 2 years",
-     "risk_factors": ["Technology reliability issues causing guest frustration", "Staff training challenges leading to inconsistent service", "Security concerns with mobile payment data", "Integration complexity with existing PMS systems"],
-     "mitigation_strategies": ["Vendor SLA requirements for 99.9% uptime", "Comprehensive training program with certification", "PCI DSS compliance validation", "Phased implementation with fallback procedures"]
-   },
+    "business_impact": {
+      "expected_outcome": "20% improvement in guest satisfaction, 15% increase in direct bookings",
+      "projected_value": "$2.1M additional revenue over 2 years",
+      "financial_metrics": {
+        "roi": "360%",
+        "payback_period": "8 months",
+        "cost_savings": "$180K annually in reduced check-in processing"
+      },
+      "operational_metrics": {
+        "check_in_time_reduction": "60%",
+        "staff_productivity_gain": "25%",
+        "maintenance_cost_increase": "$50K annually"
+      },
+      "risk_factors": ["Technology reliability issues causing guest frustration", "Staff training challenges leading to inconsistent service", "Security concerns with mobile payment data", "Integration complexity with existing PMS systems"],
+      "mitigation_strategies": ["Vendor SLA requirements for 99.9% uptime", "Comprehensive training program with certification", "PCI DSS compliance validation", "Phased implementation with fallback procedures"]
+    },
    "alternatives_considered": [
      {
        "option": "Limited rollout to high-end properties only",

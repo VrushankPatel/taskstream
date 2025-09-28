@@ -30,13 +30,20 @@ workflow:
       tools: ["Payment Processing System", "Email Notification System"]
       duration: "5 minutes"
       outputs: ["Payment Confirmation", "Policyholder Notification"]
-    - step: 5
-      actor: "Data Analyst"
-      action: "Record claim data for analytics and reporting"
-      tools: ["Claims Database", "Analytics Platform"]
-      duration: "10 minutes"
-      outputs: ["Updated Claims Analytics", "Regulatory Reporting Data"]
-  success_criteria: "Parametric claim processed and paid within 24 hours of trigger with 100% accuracy"
+     - step: 5
+       actor: "Data Analyst"
+       action: "Record claim data for analytics and reporting"
+       tools: ["Claims Database", "Analytics Platform"]
+       duration: "10 minutes"
+       outputs: ["Updated Claims Analytics", "Regulatory Reporting Data"]
+     - step: 6
+       actor: "Claims Adjuster"
+       action: "Conduct post-claim audit and update risk models"
+       tools: ["Audit Checklist", "Risk Modeling Software"]
+       duration: "30 minutes"
+       decision_points: ["Model accuracy review", "Process improvement identification"]
+       outputs: ["Audit Report", "Model Updates"]
+   success_criteria: "Parametric claim processed and paid within 24 hours of trigger with 100% accuracy"
   failure_modes: ["Data verification delays", "Policy coverage disputes", "Payment processing errors", "Trigger data inaccuracies"]
   metrics:
     - "Processing time: 12 hours average"

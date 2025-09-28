@@ -18,13 +18,13 @@ workflow:
       tools: ["Regulatory Database", "Permit Application System"]
       duration: "4 hours"
       outputs: ["Permit approvals"]
-     - step: 3
-       actor: "Maintenance Supervisor"
-       action: "Schedule maintenance windows minimizing service disruption"
-       tools: ["Maintenance Scheduling Software", "Load Forecasting Tool"]
-       duration: "3 hours"
-       decision_points: ["Emergency vs. preventive maintenance prioritization", "Load shedding requirements", "Backup power coordination"]
-       outputs: ["Maintenance schedule", "Customer notification plan"]
+    - step: 3
+      actor: "Maintenance Supervisor"
+      action: "Schedule maintenance windows minimizing service disruption"
+      tools: ["Maintenance Scheduling Software", "Load Forecasting Tool"]
+      duration: "3 hours"
+      decision_points: ["Emergency vs. preventive maintenance prioritization", "Load shedding requirements", "Backup power coordination"]
+      outputs: ["Maintenance schedule", "Customer notification plan"]
     - step: 4
       actor: "Field Technician"
       action: "Execute maintenance and document results"
@@ -33,7 +33,7 @@ workflow:
       outputs: ["Maintenance report"]
   success_criteria: "Maintenance completed with <2% service interruption"
   failure_modes: ["Permit delays", "Equipment failure during maintenance", "Weather disruptions"]
-   metrics:
+  metrics:
      - "Service availability: Target >99.8%"
      - "Maintenance cost: Target <$500K/month"
      - "Permit approval time: Target <48 hours"

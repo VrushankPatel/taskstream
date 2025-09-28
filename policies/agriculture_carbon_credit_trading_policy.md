@@ -142,6 +142,26 @@ Applies to all agricultural lands, livestock operations, and farming practices t
 - Ongoing education on market developments and regulatory changes
 - Technology training for monitoring and reporting systems
 
+## International and Cross-Border Considerations
+
+### Global Market Participation
+- Comply with international carbon trading frameworks (Paris Agreement, CORSIA)
+- Participate in voluntary carbon markets with global buyers
+- Ensure credits meet international standards for cross-border trading
+- Monitor evolving regulatory landscapes in key markets (EU, California, China)
+
+### Geographic Expansion Strategy
+- Pilot international trading in EU carbon markets by 2027
+- Establish partnerships with global carbon credit aggregators
+- Develop localized carbon farming practices for different climates
+- Build relationships with international verification bodies
+
+### Currency and Regulatory Risks
+- Hedge currency exposure for international credit sales
+- Maintain compliance with export controls on carbon data
+- Monitor changes in international carbon pricing mechanisms
+- Diversify trading across multiple global registries
+
 ## Enforcement
 Carbon credit activities must maintain the highest standards of integrity and transparency. Any misrepresentation of carbon sequestration or emission reductions will result in immediate suspension of trading activities and potential legal action. Violations will be investigated by the Audit Committee with findings reported to executive leadership.
 

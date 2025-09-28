@@ -1,0 +1,46 @@
+{
+  "scenario_id": "healthcare_telemedicine_scalability_q4_2025",
+  "context": "Large regional healthcare system, 15 hospitals, 500+ providers, post-pandemic telemedicine adoption showing 300% growth but infrastructure strain",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Department Chiefs", "Patient Experience Director", "IT Security Lead"]
+  },
+  "request": {
+    "amount": "$12 million",
+    "purpose": "Telemedicine platform upgrade and provider training for 500% capacity increase",
+    "urgency": "high",
+    "justification": "Patient demand surge, competitive positioning, operational efficiency gains of $8M annually"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "duration": "2 weeks",
+      "activities": ["Usage analytics review", "Provider feedback surveys", "Technology vendor evaluation"],
+      "outcome": "Proceed to detailed planning"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["ROI analysis", "Cost-benefit modeling", "Budget impact assessment"],
+      "outcome": "Positive ROI projected within 18 months"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Platform scalability testing", "Integration requirements", "Security compliance review"],
+      "outcome": "Approved with enhanced security requirements"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "6 weeks",
+      "activities": ["Change management planning", "Training program development", "Go-live timeline establishment"],
+      "outcome": "Full approval granted"
+    }
+  ],
+  "business_impact": {
+    "expected_patient_volume": "500% increase in virtual visits",
+    "projected_cost_savings": "$8 million annually",
+    "risk_factors": ["Provider adoption resistance", "Technology integration challenges", "Regulatory compliance changes"]
+  }
+}

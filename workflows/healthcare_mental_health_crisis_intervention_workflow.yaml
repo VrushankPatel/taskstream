@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_mental_health_crisis"
+  title: "Mental Health Crisis Intervention Process"
+  department: "Behavioral Health Services"
+  complexity: "high"
+  participants: ["Crisis Counselor", "Clinical Supervisor", "Emergency Services", "Family Member", "Primary Care Physician"]
+  trigger: "Patient exhibits acute mental health crisis symptoms (suicidal ideation, severe anxiety, psychosis)"
+  steps:
+    - step: 1
+      actor: "Crisis Counselor"
+      action: "Conduct immediate risk assessment via phone/screening tool"
+      tools: ["Crisis Assessment Protocol", "Suicide Risk Assessment Scale"]
+      duration: "15-30 minutes"
+      outputs: ["Risk Level Classification", "Initial Safety Plan"]
+    - step: 2
+      actor: "Clinical Supervisor"
+      action: "Review assessment and determine intervention level"
+      decision_points: ["Immediate hospitalization needed?", "Mobile crisis team deployment?", "Outpatient follow-up required?"]
+      duration: "10 minutes"
+      outputs: ["Intervention Plan", "Resource Allocation"]
+    - step: 3
+      actor: "Emergency Services/Mobile Crisis Team"
+      action: "Provide immediate stabilization and transport if needed"
+      tools: ["Crisis Intervention Kit", "Emergency Transport Vehicle"]
+      duration: "1-4 hours"
+      outputs: ["Patient Stabilization Report", "Hospital Transfer Documentation"]
+    - step: 4
+      actor: "Primary Care Physician/Family Member"
+      action: "Coordinate follow-up care and family support"
+      tools: ["Electronic Health Records", "Family Communication Protocol"]
+      duration: "24-48 hours"
+      outputs: ["Follow-up Care Plan", "Family Support Resources"]
+  success_criteria: "Patient stabilized, risk reduced, appropriate follow-up care established"
+  failure_modes: ["Delayed response time", "Inadequate risk assessment", "Insufficient follow-up coordination"]

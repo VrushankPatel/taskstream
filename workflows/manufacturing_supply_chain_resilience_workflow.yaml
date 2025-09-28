@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_supply_chain_resilience"
+  title: "Supply Chain Resilience Planning and Response"
+  department: "Supply Chain Operations"
+  complexity: "high"
+  participants: ["Supply Chain Manager", "Risk Assessment Team", "Procurement Lead", "Operations Director", "Vendor Relations Manager"]
+  trigger: "Supply disruption detected (supplier bankruptcy, natural disaster, geopolitical event)"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Assess disruption impact and timeline"
+      tools: ["Supply Chain Risk Assessment Tool", "Inventory Management System"]
+      duration: "2-4 hours"
+      outputs: ["Impact Analysis Report", "Immediate Mitigation Options"]
+    - step: 2
+      actor: "Risk Assessment Team"
+      action: "Evaluate alternative suppliers and contingency plans"
+      decision_points: ["Activate backup suppliers?", "Implement inventory buffers?", "Reroute logistics?"]
+      duration: "4-8 hours"
+      outputs: ["Contingency Plan", "Supplier Evaluation Matrix"]
+    - step: 3
+      actor: "Procurement Lead"
+      action: "Negotiate emergency contracts and expedite orders"
+      tools: ["Contract Management System", "Supplier Portal"]
+      duration: "1-2 days"
+      outputs: ["Emergency Procurement Agreements", "Order Acceleration Timeline"]
+    - step: 4
+      actor: "Operations Director"
+      action: "Implement production adjustments and communicate internally"
+      tools: ["Production Planning Software", "Internal Communication Platform"]
+      duration: "4-12 hours"
+      outputs: ["Production Adjustment Plan", "Stakeholder Communication"]
+    - step: 5
+      actor: "Vendor Relations Manager"
+      action: "Strengthen supplier relationships and diversify sourcing"
+      tools: ["Supplier Performance Dashboard", "Relationship Management Database"]
+      duration: "1-2 weeks"
+      outputs: ["Supplier Diversification Strategy", "Long-term Resilience Plan"]
+  success_criteria: "Production continuity maintained, minimal revenue impact, improved supply chain robustness"
+  failure_modes: ["Insufficient backup suppliers", "Delayed risk assessment", "Poor internal communication"]

@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_competency_based_education"
+  title: "Competency-Based Education Implementation"
+  department: "Academic Affairs"
+  complexity: "high"
+  participants: ["Curriculum Director", "Assessment Specialist", "Faculty Lead", "Student Services Coordinator", "Technology Integration Team"]
+  trigger: "Institutional decision to transition to competency-based learning model"
+  steps:
+    - step: 1
+      actor: "Curriculum Director"
+      action: "Define competency frameworks and learning outcomes"
+      tools: ["Curriculum Mapping Software", "Competency Framework Templates"]
+      duration: "2-4 weeks"
+      outputs: ["Competency Framework Document", "Learning Outcome Standards"]
+    - step: 2
+      actor: "Assessment Specialist"
+      action: "Design assessment methods and rubrics for competencies"
+      decision_points: ["Portfolio assessment?", "Project-based evaluation?", "Skills demonstration required?"]
+      duration: "3-6 weeks"
+      outputs: ["Assessment Rubrics", "Evaluation Guidelines"]
+    - step: 3
+      actor: "Faculty Lead"
+      action: "Develop competency-aligned course content and pacing"
+      tools: ["Learning Management System", "Content Development Platform"]
+      duration: "6-8 weeks"
+      outputs: ["Course Content Modules", "Flexible Pacing Guidelines"]
+    - step: 4
+      actor: "Student Services Coordinator"
+      action: "Implement student support systems for self-paced learning"
+      tools: ["Student Tracking System", "Advising Platform"]
+      duration: "2-4 weeks"
+      outputs: ["Student Support Framework", "Progress Monitoring Tools"]
+    - step: 5
+      actor: "Technology Integration Team"
+      action: "Deploy learning technology and analytics platform"
+      tools: ["LMS Integration Tools", "Data Analytics Platform"]
+      duration: "4-6 weeks"
+      outputs: ["Technology Implementation Plan", "Analytics Dashboard"]
+  success_criteria: "Students demonstrating competencies at accelerated pace, improved learning outcomes, scalable delivery model"
+  failure_modes: ["Inadequate faculty training", "Assessment inconsistencies", "Technology integration challenges"]

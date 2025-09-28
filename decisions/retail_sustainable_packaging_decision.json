@@ -1,0 +1,46 @@
+{
+  "scenario_id": "retail_sustainable_packaging_q2_2026",
+  "context": "National retail chain, 500 stores, $2B revenue, responding to consumer demand for sustainable practices and regulatory pressure",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": ["CEO", "Chief Sustainability Officer", "CFO"],
+    "influencers": ["Store Operations Director", "Marketing Director", "Supplier Relations Manager"]
+  },
+  "request": {
+    "amount": "$28 million",
+    "purpose": "Transition to 100% sustainable packaging across all product lines and stores",
+    "urgency": "medium",
+    "justification": "Consumer preference shift, regulatory compliance, brand differentiation opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "4 weeks",
+      "activities": ["Consumer surveys", "Competitor analysis", "Regulatory landscape review"],
+      "outcome": "Strong consumer demand identified"
+    },
+    {
+      "stage": "supplier_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Sustainable supplier assessment", "Material testing", "Cost impact analysis"],
+      "outcome": "Viable supplier network established"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "8 weeks",
+      "activities": ["Store pilot implementation", "Customer feedback collection", "Operational impact assessment"],
+      "outcome": "Successful pilot with positive results"
+    },
+    {
+      "stage": "full_rollout_planning",
+      "duration": "6 weeks",
+      "activities": ["Timeline development", "Budget finalization", "Change management planning"],
+      "outcome": "Approved for phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_customer_satisfaction": "15% increase in loyalty scores",
+    "projected_cost_impact": "8% increase in packaging costs offset by 12% price premium",
+    "risk_factors": ["Supplier capacity constraints", "Material performance issues", "Implementation timeline delays"]
+  }
+}

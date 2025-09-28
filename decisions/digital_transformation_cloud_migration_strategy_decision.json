@@ -1,0 +1,46 @@
+{
+  "scenario_id": "digital_cloud_migration_2025",
+  "context": "Traditional manufacturing company, 8,000 employees, undertaking enterprise-wide cloud migration to modernize legacy systems",
+  "stakeholders": {
+    "requester": "VP Information Technology",
+    "approvers": ["Chief Information Officer", "CEO", "Chief Operating Officer"],
+    "influencers": ["Plant Managers", "Finance Director", "Cybersecurity Lead"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Execute comprehensive cloud migration strategy moving 500+ applications and 2PB of data to hybrid cloud environment",
+    "urgency": "medium",
+    "justification": "Reduce IT infrastructure costs by 40% and enable digital manufacturing capabilities for Industry 4.0"
+  },
+  "decision_process": [
+    {
+      "stage": "assessment_phase",
+      "duration": "10 weeks",
+      "activities": ["Application portfolio analysis", "Data classification assessment", "Current infrastructure audit"],
+      "outcome": "Identified migration priority matrix with 300 applications ready for immediate migration"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "8 weeks",
+      "activities": ["Cloud provider evaluation", "Migration approach design", "Security framework development"],
+      "outcome": "Hybrid cloud strategy selected with phased migration over 24 months"
+    },
+    {
+      "stage": "pilot_migration",
+      "duration": "12 weeks",
+      "activities": ["Pilot migration of 20 applications", "Performance testing", "User acceptance validation"],
+      "outcome": "Successful pilot with 99.9% uptime and 30% performance improvement"
+    },
+    {
+      "stage": "enterprise_approval",
+      "duration": "4 weeks",
+      "activities": ["Business case finalization", "Risk mitigation review", "Executive committee approval"],
+      "outcome": "Approved for full enterprise migration with $45M budget"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$18,000,000 annually",
+    "operational_improvement": "40% faster application deployment",
+    "risk_factors": ["Data migration complexity", "Downtime during transition", "Skills gap in cloud technologies", "Vendor lock-in concerns"]
+  }
+}

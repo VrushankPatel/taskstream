@@ -1,0 +1,46 @@
+{
+  "scenario_id": "pharma_regulatory_automation_2025",
+  "context": "Large pharmaceutical manufacturer, 12,000 employees, facing increasing regulatory compliance burden across global markets",
+  "stakeholders": {
+    "requester": "VP Regulatory Affairs",
+    "approvers": ["Chief Compliance Officer", "CFO", "CEO"],
+    "influencers": ["Head of Quality", "IT Director", "Global Operations Lead"]
+  },
+  "request": {
+    "amount": "$35,000,000",
+    "purpose": "Implement AI-powered regulatory compliance automation platform for submission tracking and reporting",
+    "urgency": "medium",
+    "justification": "Reduce compliance costs by 40% and improve submission accuracy across 50+ global regulatory bodies"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "4 weeks",
+      "activities": ["Regulatory requirements mapping", "Current process assessment", "Technology gap analysis"],
+      "outcome": "Comprehensive requirements document with 200+ automation opportunities identified"
+    },
+    {
+      "stage": "vendor_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Vendor RFP process", "Solution demonstrations", "Reference checks"],
+      "outcome": "Three finalist vendors selected with proven regulatory compliance track records"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "8 weeks",
+      "activities": ["Pilot implementation in EU market", "User acceptance testing", "Performance validation"],
+      "outcome": "90% accuracy improvement in pilot submissions with 60% time reduction"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "3 weeks",
+      "activities": ["Business case finalization", "Budget approval", "Implementation roadmap"],
+      "outcome": "Approved for global rollout with phased implementation over 18 months"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$50,000,000 annually",
+    "compliance_improvement": "95% on-time submissions",
+    "risk_factors": ["Technology integration challenges", "Regulatory acceptance of automated submissions", "Change management resistance", "Data security concerns"]
+  }
+}

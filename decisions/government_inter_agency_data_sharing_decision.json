@@ -1,0 +1,46 @@
+{
+  "scenario_id": "gov_inter_agency_data_sharing_2025",
+  "context": "Federal government agency, 5,000 employees, implementing secure inter-agency data sharing platform for improved citizen services",
+  "stakeholders": {
+    "requester": "Chief Information Officer",
+    "approvers": ["Agency Director", "Chief Privacy Officer", "Department Secretary"],
+    "influencers": ["Legal Counsel", "IT Security Director", "Program Managers"]
+  },
+  "request": {
+    "amount": "$18,000,000",
+    "purpose": "Deploy federated data sharing platform enabling secure, real-time data exchange between 12 federal agencies",
+    "urgency": "medium",
+    "justification": "Reduce citizen service processing time by 60% and eliminate duplicate data collection across agencies"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_analysis",
+      "duration": "6 weeks",
+      "activities": ["Inter-agency data flow mapping", "Privacy impact assessment", "Security requirements definition"],
+      "outcome": "Identified 200+ data sharing use cases with comprehensive security framework"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Vendor RFP and evaluation", "Technical architecture review", "Integration testing"],
+      "outcome": "Selected blockchain-based platform with zero-trust security model"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "12 weeks",
+      "activities": ["Pilot between 3 agencies", "Performance monitoring", "User feedback collection"],
+      "outcome": "85% reduction in processing time with 99.9% data security maintained"
+    },
+    {
+      "stage": "full_implementation",
+      "duration": "4 weeks",
+      "activities": ["Budget approval review", "Risk assessment", "Executive endorsement"],
+      "outcome": "Approved for phased rollout across all 12 agencies over 24 months"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gain": "60% faster service delivery",
+    "cost_savings": "$45,000,000 annually",
+    "risk_factors": ["Data privacy concerns", "Inter-agency coordination challenges", "Technology integration complexity", "Regulatory compliance requirements"]
+  }
+}

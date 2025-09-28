@@ -8,10 +8,10 @@ workflow:
   steps:
     - step: 1
       actor: "Customer Service Rep"
-      action: "Capture customer preferences and purchase intent across channels"
-      tools: ["CRM System", "Customer Data Platform", "Mobile App Analytics"]
+      action: "Capture customer preferences and purchase intent across channels, including browsing history, cart abandonment, and interaction patterns"
+      tools: ["CRM System", "Customer Data Platform", "Mobile App Analytics", "Website Tracking Tools"]
       duration: "Real-time"
-      outputs: ["Unified Customer Profile", "Personalization Triggers"]
+      outputs: ["Unified Customer Profile", "Personalization Triggers", "Cross-channel Behavior Insights"]
     - step: 2
       actor: "Marketing Manager"
       action: "Deliver personalized marketing messages and recommendations"
@@ -39,10 +39,10 @@ workflow:
       outputs: ["System Health Reports", "Data Quality Metrics"]
     - step: 6
       actor: "Customer Experience Manager"
-      action: "Monitor customer satisfaction and identify improvement opportunities"
-      tools: ["Customer Feedback System", "Analytics Dashboard", "Survey Tools"]
+      action: "Monitor customer satisfaction and identify improvement opportunities through post-purchase surveys and loyalty program feedback"
+      tools: ["Customer Feedback System", "Analytics Dashboard", "Survey Tools", "NPS Tracking Software"]
       duration: "Post-purchase"
-      outputs: ["Experience Insights", "Improvement Recommendations"]
+      outputs: ["Experience Insights", "Improvement Recommendations", "Loyalty Program Adjustments"]
   success_criteria: "Customer completes purchase with 95% satisfaction, seamless channel transitions, positive NPS impact"
   failure_modes: ["Channel data disconnect", "Inventory inconsistency", "Poor personalization", "Technical integration issues"]
   metrics:

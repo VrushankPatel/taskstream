@@ -38,7 +38,7 @@ workflow:
         - "APR determination"
       duration: "30 minutes"
       outputs: ["Approved application", "Card activation details"]
-   success_criteria: "Credit card issued within 7 business days with accurate terms"
+  success_criteria: "Credit card issued within 7 business days with accurate terms"
   failure_modes: ["Insufficient credit history", "Fraud suspicion", "Regulatory ineligibility", "Application errors"]
   metrics:
     - "Approval rate: Target 65% of qualified applications approved"

@@ -8,10 +8,10 @@ workflow:
   steps:
     - step: 1
       actor: "Crisis Manager"
-      action: "Assess incident severity and activate crisis response team"
-      tools: ["Crisis Management System", "Communication Platform"]
+      action: "Assess incident severity, determine impact scope, and activate appropriate crisis response team members"
+      tools: ["Crisis Management System", "Communication Platform", "Incident Tracking Database"]
       duration: "1 hour"
-      outputs: ["Crisis Assessment Report", "Team Activation Notice"]
+      outputs: ["Crisis Assessment Report", "Team Activation Notice", "Initial Impact Analysis"]
     - step: 2
       actor: "CEO"
       action: "Review assessment and authorize crisis response plan"

@@ -30,9 +30,9 @@ workflow:
       tools: ["Executive communication channels", "Crisis management protocols"]
       duration: "15 minutes"
       outputs: ["Authorized crisis response"]
-   success_criteria: "Crisis contained within 24 hours with positive sentiment recovery"
-   failure_modes: ["Delayed response", "Inconsistent messaging", "Escalation to traditional media"]
-   metrics:
+  success_criteria: "Crisis contained within 24 hours with positive sentiment recovery"
+  failure_modes: ["Delayed response", "Inconsistent messaging", "Escalation to traditional media"]
+  metrics:
      - "Response time: <2 hours"
      - "Sentiment recovery: >80% positive"
      - "Crisis containment: <24 hours"

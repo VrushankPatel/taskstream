@@ -12,23 +12,25 @@ workflow:
       tools: ["CRM system", "Product knowledge base"]
       duration: "15 minutes"
       outputs: ["Complaint ticket", "Initial response"]
-    - step: 2
-      actor: "Supervisor"
-      action: "Review ticket and provide guidance or escalate"
-      decision_points: ["Severity level", "Customer value"]
-      duration: "30 minutes"
-      outputs: ["Escalation decision", "Action plan"]
+     - step: 2
+       actor: "Supervisor"
+       action: "Review ticket and provide guidance or escalate"
+       tools: ["CRM dashboard", "Escalation matrix", "Customer history database"]
+       decision_points: ["Severity level", "Customer value"]
+       duration: "30 minutes"
+       outputs: ["Escalation decision", "Action plan"]
     - step: 3
       actor: "Manager"
       action: "Investigate complex issues and coordinate resolution"
       tools: ["Inventory system", "Vendor contacts"]
       duration: "2 hours"
       outputs: ["Resolution plan", "Compensation offer"]
-    - step: 4
-      actor: "Regional Director"
-      action: "Approve major compensation and review process"
-      duration: "1 day"
-      outputs: ["Final approval", "Process feedback"]
+     - step: 4
+       actor: "Regional Director"
+       action: "Approve major compensation and review process"
+       tools: ["Executive dashboard", "Compensation guidelines", "Case management system"]
+       duration: "1 day"
+       outputs: ["Final approval", "Process feedback"]
   success_criteria: "Customer satisfaction restored, complaint resolved within SLA"
   failure_modes: ["Delayed response", "Inadequate compensation", "Poor communication"]
   metrics:

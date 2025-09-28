@@ -58,11 +58,11 @@ Monthly performance metrics for Q3 2025 across 45 retail locations. Overall sale
 - **West**: $18.2M (+5.9% YoY) - Lowest growth
 
 ## Action Items
-1. Accelerate e-commerce growth initiatives
-2. Optimize store operations to improve traffic
-3. Expand BOPIS program to additional locations
-4. Review underperforming product categories
-5. Invest in mobile app enhancements
+1. Accelerate e-commerce growth initiatives through targeted digital marketing campaigns
+2. Optimize store operations to improve traffic with enhanced in-store experiences and promotions
+3. Expand BOPIS program to additional 15 locations by Q1 2026
+4. Review underperforming product categories with supplier negotiations and markdown strategies
+5. Invest in mobile app enhancements including AR try-on features and loyalty program integration
 
 ## Forecast Q4 2025
 - Revenue: $142M (+9.5% YoY)

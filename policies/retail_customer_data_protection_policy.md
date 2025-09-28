@@ -66,6 +66,26 @@ This policy applies to all employees, contractors, and third-party service provi
 - Include all customer data held by the organization
 - Assist with data transfer to other service providers
 
+## AI and Data Analytics Usage
+
+### Algorithmic Processing
+- Use customer data for personalized recommendations only with explicit consent
+- Implement bias detection and mitigation in AI models
+- Provide explanations for automated decisions affecting customers
+- Allow customers to opt-out of algorithmic personalization
+
+### Predictive Analytics
+- Apply analytics for inventory optimization and demand forecasting
+- Maintain data anonymization for aggregate analytics
+- Regular model validation to ensure accuracy and fairness
+- Customer notification of significant predictive insights usage
+
+### Machine Learning Models
+- Train models on anonymized or aggregated data where possible
+- Implement model explainability requirements for customer-facing applications
+- Regular audits of AI decision-making processes
+- Customer rights to challenge automated decisions
+
 ## Third-Party Data Sharing
 
 ### Vendor Requirements

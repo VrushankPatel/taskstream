@@ -1,0 +1,41 @@
+{
+  "scenario_id": "product_launch_mobile_app_q2_2026",
+  "context": "Fintech startup (50 employees) preparing major mobile app feature release",
+  "stakeholders": {
+    "requester": "Product Manager",
+    "approvers": ["CEO", "Head of Engineering"],
+    "influencers": ["Marketing Director", "Customer Success Lead", "QA Manager"]
+  },
+  "request": {
+    "amount": "$150K marketing budget",
+    "purpose": "Accelerated launch of mobile payment features to capture market share",
+    "urgency": "high",
+    "justification": "Competitor launching similar features in 3 months, risking 20% market share loss"
+  },
+  "decision_process": [
+    {
+      "stage": "feature_readiness",
+      "duration": "2 weeks",
+      "activities": ["Code review", "Security testing", "Performance validation"],
+      "outcome": "Core features 85% complete, acceptable risk level"
+    },
+    {
+      "stage": "market_timing",
+      "duration": "1 week",
+      "activities": ["Competitive analysis", "Market research", "Customer feedback review"],
+      "outcome": "Early launch recommended to establish market leadership"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "1 week",
+      "activities": ["Technical risk evaluation", "Business impact analysis", "Contingency planning"],
+      "outcome": "Acceptable risk with mitigation strategies"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Capture 15% market share", "Accelerate user acquisition", "Establish feature leadership"],
+    "implementation_timeline": "8 weeks to launch",
+    "risk_factors": ["Feature instability", "Security vulnerabilities", "Customer support burden"],
+    "success_metrics": ["App store rating >4.5 stars", "User retention >70%", "Competitive advantage maintained for 6 months"]
+  }
+}

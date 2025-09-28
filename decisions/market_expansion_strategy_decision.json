@@ -1,0 +1,41 @@
+{
+  "scenario_id": "market_expansion_europe_q1_2026",
+  "context": "Growing SaaS company (200 employees) considering European market entry",
+  "stakeholders": {
+    "requester": "VP of Sales",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Head of Product", "Legal Counsel", "Finance Director"]
+  },
+  "request": {
+    "amount": "$1.8M initial investment",
+    "purpose": "European market expansion including localization and sales team setup",
+    "urgency": "medium",
+    "justification": "European market represents 40% of global SaaS opportunity with 25% higher margins"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "6 weeks",
+      "activities": ["Competitive analysis", "Customer research", "Regulatory assessment"],
+      "outcome": "Favorable market opportunity identified"
+    },
+    {
+      "stage": "entry_strategy",
+      "duration": "4 weeks",
+      "activities": ["Go-to-market strategy development", "Partnership evaluation", "Resource planning"],
+      "outcome": "Direct entry with local sales team recommended"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Revenue projections", "Cost analysis", "Break-even calculations"],
+      "outcome": "3-year payback period projected"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$5M additional annual revenue", "25% revenue diversification", "Enhanced global brand positioning"],
+    "implementation_timeline": "18 months to break-even",
+    "risk_factors": ["Currency fluctuations", "Regulatory compliance complexity", "Cultural adaptation challenges"],
+    "success_metrics": ["Market share >5% in target countries", "Customer acquisition cost <30% of US market", "Product-market fit validation"]
+  }
+}

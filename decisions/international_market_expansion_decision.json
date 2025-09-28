@@ -1,0 +1,41 @@
+{
+  "scenario_id": "asia_pacific_expansion_q2_2026",
+  "context": "Consumer electronics manufacturer (800 employees) evaluating Asia-Pacific market expansion",
+  "stakeholders": {
+    "requester": "VP of International Sales",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Marketing Officer", "Supply Chain Director", "Finance VP"]
+  },
+  "request": {
+    "amount": "$4.5M initial investment",
+    "purpose": "Establish regional headquarters and sales operations in Singapore with manufacturing partnerships",
+    "urgency": "high",
+    "justification": "Asia-Pacific represents 45% of global electronics market with 200% growth potential over 5 years"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "8 weeks",
+      "activities": ["Market sizing analysis", "Competitive landscape review", "Regulatory environment assessment"],
+      "outcome": "Strong market opportunity confirmed with Singapore as optimal entry point"
+    },
+    {
+      "stage": "business_case",
+      "duration": "6 weeks",
+      "activities": ["Financial modeling", "Risk analysis", "Resource requirements planning"],
+      "outcome": "5-year ROI of 180% projected with acceptable risk profile"
+    },
+    {
+      "stage": "operational_planning",
+      "duration": "4 weeks",
+      "activities": ["Team structure design", "Partnership identification", "Timeline development"],
+      "outcome": "Phased entry strategy approved with local hiring focus"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["$25M additional annual revenue", "Diversified revenue streams", "Access to skilled manufacturing partners"],
+    "implementation_timeline": "24 months to full operations",
+    "risk_factors": ["Geopolitical instability", "Intellectual property protection", "Cultural integration challenges"],
+    "success_metrics": ["Regional revenue >$15M within 3 years", "Market share >8% in key countries", "Positive ROI achieved within 4 years"]
+  }
+}

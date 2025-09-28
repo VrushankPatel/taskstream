@@ -1,0 +1,40 @@
+{
+  "scenario_id": "healthcare_biotechnology_gene_therapy_investment_2025",
+  "context": "Biotechnology company developing gene therapies for rare genetic disorders, seeking FDA approval",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
+    "influencers": ["Clinical Development Director", "Regulatory Affairs Head", "Patient Advocacy Groups"]
+  },
+  "request": {
+    "amount": "$120,000,000",
+    "purpose": "Complete Phase 3 clinical trials and BLA submission for gene therapy treatment",
+    "urgency": "high",
+    "justification": "Address unmet medical need for patients with rare genetic disorders"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_review",
+      "duration": "4 weeks",
+      "activities": ["Preclinical data review", "Clinical trial design assessment", "Regulatory strategy evaluation"],
+      "outcome": "Strong scientific rationale confirmed"
+    },
+    {
+      "stage": "clinical_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Patient recruitment analysis", "Clinical endpoint validation", "Safety profile assessment"],
+      "outcome": "Feasible clinical development plan established"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Cost projections", "Revenue forecasting", "Risk-adjusted NPV analysis"],
+      "outcome": "Approved with $95,000,000 investment and milestone-based funding"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["FDA approval for gene therapy", "Market access for rare disease treatment", "Strategic partnerships with healthcare providers"],
+    "projected_roi": "Potential blockbuster drug status with $500M+ annual revenue",
+    "risk_factors": ["Clinical trial failures", "Regulatory approval delays", "Manufacturing scalability challenges", "Reimbursement negotiations"]
+  }
+}

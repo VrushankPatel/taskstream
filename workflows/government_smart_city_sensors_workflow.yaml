@@ -1,0 +1,50 @@
+workflow:
+  id: "workflow_026_005"
+  title: "Smart City Sensor Network Deployment"
+  department: "Urban Infrastructure"
+  complexity: "high"
+  participants: ["City Planner", "IoT Engineer", "Data Privacy Officer", "Public Engagement Coordinator"]
+  trigger: "City council approval for smart city initiative"
+  steps:
+    - step: 1
+      actor: "City Planner"
+      action: "Define sensor network requirements and coverage areas"
+      decision_points: ["Priority Zones", "Sensor Types", "Data Collection Objectives"]
+      tools: ["GIS Mapping Software", "Urban Planning Models"]
+      duration: "4 weeks"
+      outputs: ["Sensor Network Plan"]
+    - step: 2
+      actor: "Data Privacy Officer"
+      action: "Develop data governance and privacy protection framework"
+      decision_points: ["Data Collection Policies", "Anonymization Requirements", "Public Access Rules"]
+      tools: ["Privacy Impact Assessment", "Legal Frameworks"]
+      duration: "6 weeks"
+      outputs: ["Data Governance Policy"]
+    - step: 3
+      actor: "IoT Engineer"
+      action: "Design sensor network architecture and communication protocols"
+      decision_points: ["Network Topology", "Power Management", "Security Standards"]
+      tools: ["IoT Design Tools", "Network Simulation Software"]
+      duration: "8 weeks"
+      outputs: ["Technical Architecture Design"]
+    - step: 4
+      actor: "Public Engagement Coordinator"
+      action: "Conduct community consultation and stakeholder engagement"
+      tools: ["Public Meeting Platforms", "Survey Tools"]
+      duration: "6 weeks"
+      outputs: ["Community Feedback Report"]
+    - step: 5
+      actor: "IoT Engineer"
+      action: "Procure and deploy sensor infrastructure"
+      decision_points: ["Vendor Selection", "Installation Sequencing", "Testing Protocols"]
+      tools: ["Procurement System", "Deployment Management Tools"]
+      duration: "12 weeks"
+      outputs: ["Operational Sensor Network"]
+    - step: 6
+      actor: "City Planner"
+      action: "Establish data analytics and dashboard capabilities"
+      tools: ["Data Analytics Platform", "Visualization Tools"]
+      duration: "6 weeks"
+      outputs: ["Smart City Dashboard"]
+  success_criteria: "Sensor network providing real-time data for city management decisions"
+  failure_modes: ["Community opposition blocking deployment", "Technical integration challenges", "Data privacy concerns halting implementation"]

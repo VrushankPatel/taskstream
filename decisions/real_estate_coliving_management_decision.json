@@ -1,0 +1,47 @@
+{
+  "scenario_id": "real_estate_coliving_2025",
+  "context": "Real estate development company with 150 employees considering entry into co-living market with first 200-unit property",
+  "stakeholders": {
+    "requester": "VP of Development",
+    "approvers": ["CEO", "CFO", "Board"],
+    "influencers": ["Property Management Director", "Marketing Director", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "Develop and operate co-living community in urban area",
+    "urgency": "medium",
+    "justification": "High demand for flexible housing and strong rental yields in target market"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "8 weeks",
+      "activities": ["Demand analysis", "Competitive assessment", "Financial modeling"],
+      "outcome": "Strong market opportunity confirmed"
+    },
+    {
+      "stage": "operational_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Property acquisition", "Renovation planning", "Management model design"],
+      "outcome": "Operational framework developed"
+    },
+    {
+      "stage": "regulatory_compliance",
+      "duration": "4 weeks",
+      "activities": ["Zoning review", "Building code compliance", "Licensing requirements"],
+      "outcome": "Regulatory path cleared"
+    },
+    {
+      "stage": "financial_commitment",
+      "duration": "3 weeks",
+      "activities": ["Final investment committee review", "Funding arrangement", "Risk assessment"],
+      "outcome": "Approved with development partner"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["12% IRR on investment", "New revenue stream", "Brand expansion into residential"],
+    "risk_factors": ["Market saturation", "Regulatory changes", "Community management challenges"],
+    "implementation_timeline": "18 months",
+    "success_metrics": ["Occupancy rate above 90%", "Positive resident satisfaction", "Financial returns achieved"]
+  }
+}

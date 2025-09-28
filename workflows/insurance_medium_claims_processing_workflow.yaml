@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_insurance_claims_medium"
+  title: "Medium Complexity Insurance Claims Processing"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Fraud Investigator", "Policyholder"]
+  trigger: "Claim submission via portal or phone"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Receive and log claim details, verify policy coverage"
+      tools: ["Claims management system", "Policy database"]
+      duration: "30 minutes"
+      outputs: ["Initial claim assessment", "Coverage verification"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Gather supporting documentation from policyholder"
+      tools: ["Document upload portal", "Email communication system"]
+      duration: "2 hours"
+      outputs: ["Complete claim file", "Documentation checklist"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Perform initial fraud screening using automated tools"
+      tools: ["Fraud detection software", "Claims history database"]
+      duration: "1 hour"
+      outputs: ["Fraud risk assessment"]
+    - step: 4
+      actor: "Claims Adjuster"
+      action: "Assess claim validity and calculate preliminary settlement"
+      tools: ["Claims calculation software", "Damage assessment tools"]
+      duration: "4 hours"
+      outputs: ["Preliminary settlement amount", "Claim evaluation report"]
+    - step: 5
+      actor: "Claims Supervisor"
+      action: "Review complex claims and approve settlements within authority limits"
+      tools: ["Claims approval system", "Supervisor dashboard"]
+      duration: "2 hours"
+      outputs: ["Supervisor approval", "Escalation notes if needed"]
+    - step: 6
+      actor: "Underwriter"
+      action: "Review high-value claims for reinsurance implications"
+      tools: ["Reinsurance management system", "Underwriting guidelines"]
+      duration: "1 hour"
+      outputs: ["Reinsurance notification", "Underwriting assessment"]
+    - step: 7
+      actor: "Claims Adjuster"
+      action: "Issue payment and communicate settlement to policyholder"
+      tools: ["Payment processing system", "Customer communication portal"]
+      duration: "30 minutes"
+      outputs: ["Payment issued", "Settlement letter"]
+  success_criteria: "Claims processed within 10 business days, settlement accuracy >98%, customer satisfaction >4.0/5"
+  failure_modes: ["Incomplete documentation delays", "Fraud detection false positives", "Underwriting approval bottlenecks", "Payment processing errors"]
+  metrics:
+    - "Average processing time: Target <8 business days"
+    - "Claims accuracy rate: Target >98%"
+    - "Fraud detection rate: Target >85%"
+    - "Customer satisfaction: Target >4.0/5"

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "hospitality_revenue_management_investment_decision",
+  "context": "Boutique hotel chain with 15 properties facing increasing competition and need for dynamic pricing optimization",
+  "stakeholders": {
+    "requester": "Revenue Manager",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "General Manager"],
+    "influencers": ["IT Director", "Sales and Marketing Director", "Front Office Manager"]
+  },
+  "request": {
+    "amount": "$450K",
+    "purpose": "Implement AI-powered revenue management system for dynamic pricing and demand forecasting",
+    "urgency": "high",
+    "justification": "Manual pricing processes resulting in 12% revenue opportunity loss compared to competitors"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "2 weeks",
+      "activities": ["Competitor benchmarking", "Market research", "Technology assessment"],
+      "outcome": "Identified leading revenue management solutions"
+    },
+    {
+      "stage": "pilot_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Pilot implementation in 2 properties", "Performance monitoring", "User training"],
+      "outcome": "8% revenue increase in pilot properties"
+    },
+    {
+      "stage": "business_case_finalization",
+      "duration": "2 weeks",
+      "activities": ["Full ROI calculation", "Implementation planning", "Risk mitigation"],
+      "outcome": "Approved for enterprise-wide rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15-20% increase in total revenue through optimized pricing and occupancy",
+    "projected_value": "$1.2M additional annual revenue",
+    "risk_factors": ["Staff resistance to automated pricing", "System integration challenges", "Initial learning curve"]
+  },
+  "decision_criteria": ["Revenue optimization potential", "Ease of integration", "User adoption rate", "Vendor reliability"],
+  "outcome": "Approved",
+  "lessons_learned": "Revenue management systems require strong data foundation and clean historical booking data for accurate forecasting. Pilot programs are essential to demonstrate value and build stakeholder confidence. Training should include both technical and business process changes. Success metrics should be established upfront with clear baselines for measuring ROI."
+}

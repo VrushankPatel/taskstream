@@ -1,0 +1,57 @@
+workflow:
+  id: "workflow_hospitality_checkin_medium"
+  title: "Medium Complexity Hotel Guest Check-in Process"
+  department: "Front Office"
+  complexity: "medium"
+  participants: ["Front Desk Agent", "Concierge", "Housekeeping Supervisor", "Security Officer", "Guest"]
+  trigger: "Guest arrival at hotel with reservation"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Verify reservation details and guest identification"
+      tools: ["Property Management System", "ID verification software"]
+      duration: "5 minutes"
+      outputs: ["Verified reservation confirmation"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Process payment method and credit check if required"
+      tools: ["Credit card terminal", "Fraud detection system"]
+      duration: "3 minutes"
+      outputs: ["Payment authorization"]
+    - step: 3
+      actor: "Housekeeping Supervisor"
+      action: "Confirm room cleanliness and amenities setup"
+      tools: ["Housekeeping management app", "Room inspection checklist"]
+      duration: "2 minutes"
+      outputs: ["Room readiness confirmation"]
+    - step: 4
+      actor: "Front Desk Agent"
+      action: "Assign room and program key card with access controls"
+      tools: ["Key management system", "Access control software"]
+      duration: "2 minutes"
+      outputs: ["Room key", "Access permissions"]
+    - step: 5
+      actor: "Concierge"
+      action: "Review guest profile for special requests and preferences"
+      tools: ["Guest profile database", "Preference management system"]
+      duration: "3 minutes"
+      outputs: ["Personalized service notes"]
+    - step: 6
+      actor: "Security Officer"
+      action: "Verify guest against watchlist and update security log"
+      tools: ["Security database", "Watchlist system"]
+      duration: "1 minute"
+      outputs: ["Security clearance"]
+    - step: 7
+      actor: "Front Desk Agent"
+      action: "Complete check-in formalities and provide orientation"
+      tools: ["Welcome packet generator", "Hotel information system"]
+      duration: "5 minutes"
+      outputs: ["Check-in confirmation", "Welcome materials"]
+  success_criteria: "Check-in completed within 15 minutes, all security protocols followed, guest preferences addressed"
+  failure_modes: ["Room unavailability", "Payment authorization failures", "Security clearance delays", "System integration issues"]
+  metrics:
+    - "Average check-in time: Target <12 minutes"
+    - "First-time guest satisfaction: Target >4.2/5"
+    - "Security compliance rate: Target >99.5%"
+    - "Special request fulfillment: Target >95%"

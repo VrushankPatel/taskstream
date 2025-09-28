@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_manufacturing_sqm"
+  title: "Supplier Quality Management Process"
+  department: "Supply Chain Quality"
+  complexity: "medium"
+  participants: ["Quality Manager", "Procurement Manager", "Supplier Quality Engineer", "Production Manager"]
+  trigger: "New supplier onboarding or quality issue detection"
+  steps:
+    - step: 1
+      actor: "Procurement Manager"
+      action: "Conduct initial supplier assessment and qualification"
+      tools: ["Supplier questionnaire", "Quality audit checklist"]
+      duration: "1 week"
+      outputs: ["Supplier qualification report", "Initial risk assessment"]
+    - step: 2
+      actor: "Supplier Quality Engineer"
+      action: "Perform on-site quality audit and capability assessment"
+      tools: ["Quality audit protocols", "Statistical process control tools"]
+      duration: "3 days"
+      outputs: ["Audit report", "Capability assessment", "Improvement recommendations"]
+    - step: 3
+      actor: "Quality Manager"
+      action: "Review audit results and approve supplier for qualified status"
+      decision_points: ["Quality system adequacy", "Process capability", "Risk mitigation plans"]
+      duration: "1 week"
+      outputs: ["Supplier approval decision", "Quality agreement"]
+    - step: 4
+      actor: "Supplier Quality Engineer"
+      action: "Establish incoming quality controls and monitoring metrics"
+      tools: ["Quality management system", "Statistical monitoring tools"]
+      duration: "2 weeks"
+      outputs: ["Quality control plan", "Monitoring dashboard setup"]
+    - step: 5
+      actor: "Production Manager"
+      action: "Monitor supplier performance and manage quality incidents"
+      tools: ["Quality incident tracking system", "Performance dashboards"]
+      duration: "ongoing"
+      outputs: ["Performance reports", "Corrective action requests"]
+  success_criteria: "Supplier delivers materials meeting quality specifications with <1% defect rate and on-time delivery >95%"
+  failure_modes: ["Inadequate supplier qualification leading to quality issues", "Insufficient monitoring resulting in undetected problems", "Poor corrective action follow-through"]

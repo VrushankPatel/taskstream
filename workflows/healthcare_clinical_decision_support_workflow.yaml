@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_healthcare_cds"
+  title: "Clinical Decision Support System Implementation"
+  department: "Healthcare IT"
+  complexity: "high"
+  participants: ["Chief Medical Officer", "IT Director", "Clinical Informatics Specialist", "Physicians", "Nurses"]
+  trigger: "Need to improve diagnostic accuracy and reduce medical errors"
+  steps:
+    - step: 1
+      actor: "Clinical Informatics Specialist"
+      action: "Assess current clinical workflows and identify decision points requiring support"
+      tools: ["Workflow analysis software", "Electronic health records"]
+      duration: "2 weeks"
+      outputs: ["Requirements document", "Current state assessment"]
+    - step: 2
+      actor: "IT Director"
+      action: "Evaluate CDS platforms and select vendor based on clinical needs and integration capabilities"
+      decision_points: ["Platform compatibility", "Cost-benefit analysis", "Regulatory compliance"]
+      duration: "4 weeks"
+      outputs: ["Vendor selection report", "Implementation roadmap"]
+    - step: 3
+      actor: "Clinical Informatics Specialist"
+      action: "Configure CDS rules and alerts based on evidence-based guidelines"
+      tools: ["CDS configuration tools", "Medical knowledge bases"]
+      duration: "6 weeks"
+      outputs: ["Configured CDS system", "Rule validation reports"]
+    - step: 4
+      actor: "Chief Medical Officer"
+      action: "Oversee clinical validation and physician training on CDS system"
+      tools: ["Training materials", "Simulation environments"]
+      duration: "4 weeks"
+      outputs: ["Training completion records", "Clinical validation results"]
+    - step: 5
+      actor: "IT Director"
+      action: "Deploy CDS system to production with monitoring and support"
+      tools: ["Deployment tools", "Monitoring dashboards"]
+      duration: "2 weeks"
+      outputs: ["Production deployment", "Support documentation"]
+  success_criteria: "CDS system integrated into clinical workflows with >90% physician adoption and measurable improvement in decision quality"
+  failure_modes: ["Poor user adoption due to workflow disruption", "Inaccurate alerts leading to alert fatigue", "Integration issues with existing EHR systems"]

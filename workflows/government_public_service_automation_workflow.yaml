@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_government_psa"
+  title: "Public Service Automation Implementation"
+  department: "Digital Services"
+  complexity: "high"
+  participants: ["Chief Digital Officer", "IT Director", "Service Managers", "Citizens", "Legal Counsel"]
+  trigger: "Need to improve service delivery efficiency and citizen experience"
+  steps:
+    - step: 1
+      actor: "Service Managers"
+      action: "Analyze current service processes and identify automation opportunities"
+      tools: ["Process mapping tools", "Service usage analytics"]
+      duration: "4 weeks"
+      outputs: ["Process analysis report", "Automation opportunity assessment"]
+    - step: 2
+      actor: "IT Director"
+      action: "Evaluate automation platforms and select solution for service digitization"
+      decision_points: ["Security compliance", "Integration capabilities", "Cost-effectiveness"]
+      duration: "6 weeks"
+      outputs: ["Platform selection report", "Technical architecture plan"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Review legal and regulatory requirements for automated services"
+      tools: ["Legal research databases", "Compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Legal compliance assessment", "Risk mitigation plan"]
+    - step: 4
+      actor: "Chief Digital Officer"
+      action: "Pilot automated services and gather stakeholder feedback"
+      tools: ["Pilot testing framework", "User feedback surveys"]
+      duration: "8 weeks"
+      outputs: ["Pilot results", "Improvement recommendations"]
+    - step: 5
+      actor: "IT Director"
+      action: "Deploy automated services with citizen communication and support"
+      tools: ["Deployment tools", "Public communication channels"]
+      duration: "4 weeks"
+      outputs: ["Service deployment", "Citizen support resources"]
+  success_criteria: "Automated services reduce processing time by 60% with citizen satisfaction >85% and compliance maintained"
+  failure_modes: ["Security vulnerabilities in automated systems", "Low citizen adoption due to poor user experience", "Regulatory non-compliance issues"]

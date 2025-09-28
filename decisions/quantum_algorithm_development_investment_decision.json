@@ -1,0 +1,46 @@
+{
+  "scenario_id": "quantum_algorithm_development_investment_decision_2025",
+  "context": "Major pharmaceutical company investing in quantum algorithm development for molecular simulation and drug discovery acceleration",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["Chief Executive Officer", "Chief Financial Officer", "Board Innovation Committee"],
+    "influencers": ["Computational Chemistry Team", "Drug Discovery Leadership", "Academic Research Partners"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Develop proprietary quantum algorithms for molecular modeling and drug discovery",
+    "urgency": "medium",
+    "justification": "Accelerate drug discovery timelines and improve molecular prediction accuracy beyond classical methods"
+  },
+  "decision_process": [
+    {
+      "stage": "scientific_feasibility_study",
+      "duration": "3 months",
+      "activities": ["Quantum chemistry analysis", "Algorithm design exploration", "Performance benchmarking"],
+      "outcome": "Demonstrated quantum advantage in molecular energy calculations with 1000x speedup potential"
+    },
+    {
+      "stage": "team_formation",
+      "duration": "1 month",
+      "activities": ["Expert recruitment", "Partnership establishment", "Resource allocation"],
+      "outcome": "Cross-functional quantum chemistry team assembled with academic and industry expertise"
+    },
+    {
+      "stage": "algorithm_development_planning",
+      "duration": "2 months",
+      "activities": ["Research roadmap creation", "Milestone definition", "IP strategy development"],
+      "outcome": "Comprehensive development plan with quarterly milestones and patent protection strategy"
+    },
+    {
+      "stage": "funding_commitment",
+      "duration": "1 month",
+      "activities": ["Budget approval process", "ROI modeling", "Risk mitigation planning"],
+      "outcome": "Full funding approved with performance-based milestone payments"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Accelerated drug discovery", "Improved molecular prediction accuracy", "Proprietary quantum IP portfolio"],
+    "projected_revenue": "Expected $200M in accelerated drug development savings and new compound revenues",
+    "risk_factors": ["Algorithm development challenges", "Hardware access limitations", "Integration with existing workflows"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "quantum_hardware_procurement_decision_2025",
+  "context": "Leading investment bank procuring dedicated quantum computing hardware for portfolio optimization and risk modeling",
+  "stakeholders": {
+    "requester": "Chief Information Officer",
+    "approvers": ["Chief Executive Officer", "Chief Risk Officer", "Board Technology Committee"],
+    "influencers": ["Quantitative Research Team", "IT Infrastructure Leadership", "Regulatory Compliance Officers"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Procure and deploy dedicated quantum computing infrastructure for financial modeling applications",
+    "urgency": "high",
+    "justification": "Maintain competitive edge in complex financial optimization problems requiring quantum computational power"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_definition",
+      "duration": "2 months",
+      "activities": ["Application requirements analysis", "Performance specifications", "Integration requirements"],
+      "outcome": "Defined hardware requirements for 50+ qubit system with error correction capabilities"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "3 months",
+      "activities": ["Technology evaluation", "Vendor capability assessment", "Contract negotiations"],
+      "outcome": "Selected quantum hardware vendor with proven track record and roadmap alignment"
+    },
+    {
+      "stage": "infrastructure_planning",
+      "duration": "2 months",
+      "activities": ["Facility requirements assessment", "Power and cooling design", "Security implementation"],
+      "outcome": "Comprehensive infrastructure plan including dedicated quantum computing facility"
+    },
+    {
+      "stage": "procurement_approval",
+      "duration": "1 month",
+      "activities": ["Financial approval process", "Legal review", "Board presentation"],
+      "outcome": "Procurement approved with 5-year vendor partnership and technology refresh commitments"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Advanced portfolio optimization", "Enhanced risk modeling capabilities", "Proprietary quantum financial algorithms"],
+    "projected_revenue": "Projected $75M in improved trading performance and risk management savings",
+    "risk_factors": ["Hardware reliability issues", "Rapid technology evolution", "High operational costs"]
+  }
+}

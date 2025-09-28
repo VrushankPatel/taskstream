@@ -1,0 +1,40 @@
+{
+  "scenario_id": "ai_telemedicine_expansion_2025",
+  "context": "Healthcare network, 20 hospitals, integrating AI-driven telemedicine expansion",
+  "stakeholders": {
+    "requester": "Chief Innovation Officer",
+    "approvers": ["CEO", "Chief Medical Officer", "Board Technology Committee"],
+    "influencers": ["Telemedicine Director", "AI Ethics Officer", "Patient Experience Lead"]
+  },
+  "request": {
+    "amount": "$40,000,000",
+    "purpose": "Implement AI-powered telemedicine platform with predictive triage",
+    "urgency": "high",
+    "justification": "Enhance patient outcomes through intelligent telemedicine routing"
+  },
+  "decision_process": [
+    {
+      "stage": "ai_feasibility",
+      "duration": "6 weeks",
+      "activities": ["AI algorithm evaluation", "Clinical validation studies", "Ethical review"],
+      "outcome": "AI models demonstrating 85% accuracy in triage predictions"
+    },
+    {
+      "stage": "integration_planning",
+      "duration": "8 weeks",
+      "activities": ["EHR integration design", "Workflow optimization", "Provider training"],
+      "outcome": "Comprehensive integration plan with minimal disruption"
+    },
+    {
+      "stage": "pilot_execution",
+      "duration": "12 weeks",
+      "activities": ["Pilot deployment", "Performance monitoring", "Patient feedback collection"],
+      "outcome": "Approved for full rollout based on pilot success metrics"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["Reduced wait times", "Improved triage accuracy", "Enhanced patient satisfaction"],
+    "projected_revenue": "$60,000,000 annual efficiency gains",
+    "risk_factors": ["AI bias concerns", "Provider acceptance", "Technical integration challenges"]
+  }
+}

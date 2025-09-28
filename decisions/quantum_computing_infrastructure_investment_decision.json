@@ -1,0 +1,40 @@
+{
+  "scenario_id": "quantum_infrastructure_2025",
+  "context": "Global technology company, 50,000 employees, evaluating quantum computing infrastructure investment for competitive advantage",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Scientist", "Head of R&D", "VP Engineering"]
+  },
+  "request": {
+    "amount": "$500,000,000",
+    "purpose": "Build quantum computing research center and acquire quantum hardware",
+    "urgency": "high",
+    "justification": "Maintain technological leadership in emerging quantum computing applications"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "8 weeks",
+      "activities": ["Quantum algorithm assessment", "Hardware vendor evaluation", "Talent acquisition planning"],
+      "outcome": "Feasible with identified vendors and partnerships"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "6 weeks",
+      "activities": ["ROI modeling", "Risk assessment", "Funding strategy development"],
+      "outcome": "Positive NPV with 5-year horizon, approved with conditions"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "4 weeks",
+      "activities": ["Export control compliance", "IP protection strategy", "Ethical framework development"],
+      "outcome": "Compliant with regulatory requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["Quantum advantage in optimization problems", "New product development capabilities", "Talent attraction"],
+    "projected_revenue": "$2,000,000,000 over 10 years",
+    "risk_factors": ["Technology maturation delays", "Talent acquisition challenges", "Competitive responses"]
+  }
+}

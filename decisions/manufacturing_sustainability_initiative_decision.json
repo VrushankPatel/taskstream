@@ -1,0 +1,40 @@
+{
+  "scenario_id": "manufacturing_sustainability_2025",
+  "context": "Global manufacturing company, 30,000 employees, implementing circular economy sustainability initiative",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board ESG Committee"],
+    "influencers": ["Operations Director", "Supply Chain VP", "Engineering Director"]
+  },
+  "request": {
+    "amount": "$200,000,000",
+    "purpose": "Transform manufacturing operations to circular economy model",
+    "urgency": "medium",
+    "justification": "Meet regulatory requirements and achieve sustainability goals"
+  },
+  "decision_process": [
+    {
+      "stage": "sustainability_assessment",
+      "duration": "10 weeks",
+      "activities": ["Carbon footprint analysis", "Material flow mapping", "Stakeholder impact assessment"],
+      "outcome": "Identified key opportunities for circular economy implementation"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 weeks",
+      "activities": ["Sustainable technology review", "Pilot project design", "Vendor partnerships"],
+      "outcome": "Selected technologies with proven circular economy applications"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "6 weeks",
+      "activities": ["Cost-benefit analysis", "ROI modeling", "Risk assessment"],
+      "outcome": "Approved with phased implementation approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["50% reduction in waste", "30% decrease in carbon emissions", "Enhanced brand reputation"],
+    "projected_revenue": "$150,000,000 cost savings through efficiency improvements",
+    "risk_factors": ["Implementation complexity", "Supply chain disruptions", "Regulatory changes"]
+  }
+}

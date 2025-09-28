@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_005"
+  title: "Manufacturing Digital Twin Integration Workflow"
+  department: "Manufacturing Operations"
+  complexity: "medium"
+  participants: ["Operations Director", "IT Manager", "Process Engineers", "Data Analysts", "Maintenance Team"]
+  trigger: "Production optimization initiative or predictive maintenance requirement"
+  steps:
+    - step: 1
+      actor: "Operations Director"
+      action: "Assess manufacturing processes and identify twin opportunities"
+      tools: ["Process mapping tools", "Digital twin software"]
+      duration: "4 weeks"
+      outputs: ["Process assessment report", "Digital twin roadmap"]
+    - step: 2
+      actor: "IT Manager"
+      action: "Establish data infrastructure and connectivity"
+      tools: ["IoT sensors", "Data integration platforms"]
+      duration: "6 weeks"
+      outputs: ["Data infrastructure", "Connectivity framework"]
+    - step: 3
+      actor: "Process Engineers"
+      action: "Create digital twin models and validation"
+      tools: ["Modeling software", "Simulation platforms"]
+      duration: "8 weeks"
+      outputs: ["Digital twin models", "Validation reports"]
+    - step: 4
+      actor: "Data Analysts"
+      action: "Implement analytics and predictive algorithms"
+      decision_points: ["Algorithm selection", "Performance thresholds"]
+      duration: "6 weeks"
+      outputs: ["Analytics framework", "Predictive models"]
+    - step: 5
+      actor: "Maintenance Team"
+      action: "Integrate with maintenance workflows and training"
+      tools: ["Maintenance management systems", "Training platforms"]
+      duration: "4 weeks"
+      outputs: ["Integrated workflows", "Training materials"]
+  success_criteria: "Digital twin providing actionable insights for production optimization"
+  failure_modes: ["Data quality issues", "Model inaccuracies", "User adoption challenges"]

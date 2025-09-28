@@ -48,5 +48,11 @@ workflow:
       tools: ["Production monitoring dashboards", "Quality management systems", "Continuous improvement frameworks"]
       duration: "8 weeks"
       outputs: ["Rollout completion report", "Performance metrics dashboard", "Lessons learned documentation"]
-  success_criteria: "Achieved 25% improvement in production efficiency with zero safety incidents"
-  failure_modes: ["Insufficient safety protocols leading to incidents", "Poor workforce adoption and resistance", "Technical integration failures with existing systems"]
+   success_criteria: "Achieved 25% improvement in production efficiency with zero safety incidents"
+   failure_modes: ["Insufficient safety protocols leading to incidents", "Poor workforce adoption and resistance", "Technical integration failures with existing systems"]
+   metrics:
+     - "Production efficiency improvement: Target 25% increase in throughput"
+     - "Safety incident rate: Target zero incidents during implementation"
+     - "ROI payback period: Target <24 months"
+     - "Workforce adoption rate: Target >90% positive operator feedback"
+     - "System integration uptime: Target >95% operational availability"

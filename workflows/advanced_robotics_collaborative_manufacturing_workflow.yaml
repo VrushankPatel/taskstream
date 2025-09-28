@@ -50,5 +50,11 @@ workflow:
       tools: ["Statistical process control software", "Quality management systems", "Defect tracking databases"]
       duration: "1 month"
       outputs: ["Quality validation report", "Monitoring protocols", "Continuous improvement plan"]
-  success_criteria: "Successful cobot integration with maintained safety standards and improved productivity"
-  failure_modes: ["Safety incidents during integration", "Production downtime", "Operator resistance", "Technical compatibility issues"]
+   success_criteria: "Successful cobot integration with maintained safety standards and improved productivity"
+   failure_modes: ["Safety incidents during integration", "Production downtime", "Operator resistance", "Technical compatibility issues"]
+   metrics:
+     - "Production efficiency: Target 20% improvement in cycle time"
+     - "Safety compliance: Target 100% adherence to protocols"
+     - "Training completion rate: Target >95% of staff certified"
+     - "System reliability: Target >98% uptime"
+     - "Quality consistency: Target <2% defect rate variation"

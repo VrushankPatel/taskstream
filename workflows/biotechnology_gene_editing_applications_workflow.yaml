@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_biotech_gene_editing_001"
+  title: "Gene Editing Applications Development Workflow"
+  department: "Biotechnology R&D"
+  complexity: "high"
+  participants: ["Lead Scientist", "Regulatory Affairs", "Clinical Team", "Ethics Committee", "Legal Counsel"]
+  trigger: "New gene editing technology identified for therapeutic application"
+  steps:
+    - step: 1
+      actor: "Lead Scientist"
+      action: "Conduct initial feasibility assessment and literature review"
+      tools: ["PubMed", "CRISPR database", "Lab equipment"]
+      duration: "4 weeks"
+      outputs: ["Feasibility report", "Initial target identification"]
+    - step: 2
+      actor: "Ethics Committee"
+      action: "Review ethical implications and risk assessment"
+      decision_points: ["Off-target effects", "Long-term safety", "Societal impact"]
+      duration: "2 weeks"
+      outputs: ["Ethics approval", "Risk mitigation plan"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Assess regulatory pathway and prepare IND filing strategy"
+      tools: ["FDA guidelines", "EMA regulations", "Regulatory databases"]
+      duration: "3 weeks"
+      outputs: ["Regulatory strategy document", "IND preparation plan"]
+    - step: 4
+      actor: "Clinical Team"
+      action: "Design preclinical studies and clinical trial protocols"
+      tools: ["Clinical trial management software", "Statistical analysis tools"]
+      duration: "6 weeks"
+      outputs: ["Preclinical study protocol", "Phase 1 trial design"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review IP landscape and patent strategy"
+      decision_points: ["Patent filing decisions", "Licensing opportunities"]
+      duration: "4 weeks"
+      outputs: ["IP analysis report", "Patent filing strategy"]
+    - step: 6
+      actor: "Lead Scientist"
+      action: "Execute preclinical validation studies"
+      tools: ["Animal models", "Genomic sequencing", "Bioinformatics tools"]
+      duration: "12 weeks"
+      outputs: ["Preclinical data package", "Safety profile"]
+  success_criteria: "Successful IND filing and ethics committee approval"
+  failure_modes: ["Unacceptable off-target effects", "Regulatory rejection", "Ethical concerns"]

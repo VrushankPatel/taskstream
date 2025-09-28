@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_energy_carbon_capture_006"
+  title: "Carbon Capture Technologies Implementation Workflow"
+  department: "Sustainable Energy"
+  complexity: "high"
+  participants: ["Process Engineer", "Environmental Scientists", "Regulatory Compliance", "Economic Analysis", "Operations Team"]
+  trigger: "Carbon capture opportunity identified at industrial facility"
+  steps:
+    - step: 1
+      actor: "Process Engineer"
+      action: "Evaluate carbon capture technology options and feasibility"
+      tools: ["Process simulation software", "Carbon capture databases", "Cost estimation tools"]
+      duration: "6 weeks"
+      outputs: ["Technology assessment", "Feasibility study"]
+    - step: 2
+      actor: "Environmental Scientists"
+      action: "Conduct environmental impact assessment and carbon accounting"
+      tools: ["Life cycle assessment software", "Carbon footprint calculators", "Environmental modeling"]
+      duration: "5 weeks"
+      outputs: ["Environmental impact report", "Carbon reduction projections"]
+    - step: 3
+      actor: "Regulatory Compliance"
+      action: "Assess regulatory requirements and permitting strategy"
+      decision_points: ["Carbon credit eligibility", "Emission regulations", "Permitting timelines"]
+      duration: "7 weeks"
+      outputs: ["Regulatory strategy", "Permit applications"]
+    - step: 4
+      actor: "Economic Analysis"
+      action: "Develop financial model and ROI analysis"
+      tools: ["Financial modeling software", "Carbon pricing scenarios", "Sensitivity analysis"]
+      duration: "4 weeks"
+      outputs: ["Financial analysis", "Business case"]
+    - step: 5
+      actor: "Operations Team"
+      action: "Design integration with existing facility operations"
+      tools: ["Process engineering software", "Facility layout tools", "Safety analysis"]
+      duration: "6 weeks"
+      outputs: ["Integration design", "Operations plan"]
+    - step: 6
+      actor: "Process Engineer"
+      action: "Execute pilot implementation and performance validation"
+      tools: ["Monitoring systems", "Data analytics platforms", "Quality control equipment"]
+      duration: "12 weeks"
+      outputs: ["Pilot results", "Scale-up recommendations"]
+  success_criteria: "Successful pilot with verified carbon reduction and economic viability"
+  failure_modes: ["Technology performance issues", "Integration challenges", "Economic infeasibility"]

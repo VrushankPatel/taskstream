@@ -1,0 +1,40 @@
+{
+  "scenario_id": "energy_storage_optimization_2025",
+  "context": "Utility company optimizing energy storage portfolio for renewable integration and grid stability",
+  "stakeholders": {
+    "requester": "VP Grid Operations",
+    "approvers": ["CEO", "CFO", "Board Energy Committee"],
+    "influencers": ["Regulatory Commission", "Environmental Groups", "Technology Vendors"]
+  },
+  "request": {
+    "amount": "$200 million",
+    "purpose": "Deploy advanced energy storage systems for renewable energy optimization and grid resilience",
+    "urgency": "high",
+    "justification": "Increasing renewable penetration requires storage solutions to maintain grid stability and meet regulatory requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Storage technology assessment", "Cost-benefit analysis", "Regulatory compliance review"],
+      "outcome": "Hybrid storage solution selected combining lithium-ion and flow batteries"
+    },
+    {
+      "stage": "deployment_planning",
+      "duration": "8 weeks",
+      "activities": ["Site selection", "Grid integration design", "Procurement strategy"],
+      "outcome": "Comprehensive deployment plan with phased implementation"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "10 weeks",
+      "activities": ["Permit applications", "Environmental assessments", "Rate case filing"],
+      "outcome": "Full regulatory approval secured with favorable rate treatment"
+    }
+  ],
+  "business_impact": {
+    "expected_outcomes": ["Improved grid reliability", "Reduced renewable energy curtailment", "Enhanced regulatory compliance"],
+    "projected_revenue": "$50 million in avoided costs and new services",
+    "risk_factors": ["Technology performance", "Cost overruns", "Regulatory changes"]
+  }
+}

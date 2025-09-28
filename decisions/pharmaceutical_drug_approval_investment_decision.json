@@ -1,0 +1,49 @@
+{
+  "scenario_id": "pharma_drug_approval_investment_2025",
+  "context": "Mid-sized pharmaceutical company evaluating major investment in oncology drug development program",
+  "stakeholders": {
+    "requester": "VP Research & Development",
+    "approvers": ["CEO", "CFO", "Chief Medical Officer"],
+    "influencers": ["Head of Regulatory Affairs", "VP Commercial", "Clinical Operations Director"]
+  },
+  "request": {
+    "amount": "$450 million",
+    "purpose": "Complete Phase 2/3 clinical trials for novel immunotherapy drug",
+    "urgency": "high",
+    "justification": "Address unmet need in metastatic melanoma with projected market size of $15B by 2030"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_scientific_review",
+      "duration": "3 weeks",
+      "activities": ["Preclinical data analysis", "Target product profile development", "Competitive landscape assessment"],
+      "outcome": "Strong scientific foundation confirmed"
+    },
+    {
+      "stage": "financial_and_market_evaluation",
+      "duration": "4 weeks",
+      "activities": ["NPV modeling", "Market sizing analysis", "Pricing strategy development", "Reimbursement pathway assessment"],
+      "outcome": "Positive ROI projected with 25% IRR"
+    },
+    {
+      "stage": "regulatory_and_risk_assessment",
+      "duration": "2 weeks",
+      "activities": ["FDA pathway consultation", "IP portfolio review", "Clinical trial design validation", "Risk mitigation planning"],
+      "outcome": "Feasible regulatory path with manageable risks"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "1 week",
+      "activities": ["Board presentation", "Final risk discussion", "Investment committee vote"],
+      "outcome": "Approved with milestone-based funding release"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "First-in-class therapy capturing 15% market share",
+    "projected_value": "$1.8 billion peak annual sales",
+    "risk_factors": ["Clinical trial failure rate (30%)", "Regulatory delays", "Manufacturing scalability", "Competitor entries"]
+  },
+  "decision_criteria": ["Clinical efficacy data strength", "Market opportunity size", "Competitive differentiation", "Regulatory approval probability", "Financial return metrics", "Portfolio fit"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for complex biologics; consider partnership options for risk sharing"
+}

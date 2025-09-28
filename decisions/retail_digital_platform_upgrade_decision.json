@@ -3,16 +3,8 @@
   "context": "Large retail chain with 500+ stores evaluating omnichannel platform upgrade to improve customer experience and operational efficiency",
   "stakeholders": {
     "requester": "VP of Digital Commerce",
-    "approvers": [
-      "CEO",
-      "CFO",
-      "CTO"
-    ],
-    "influencers": [
-      "Head of Stores",
-      "Chief Marketing Officer",
-      "IT Director"
-    ]
+    "approvers": ["CEO", "CFO", "CTO"],
+    "influencers": ["Head of Stores", "Chief Marketing Officer", "IT Director"]
   },
   "request": {
     "amount": "$8,500,000",
@@ -24,39 +16,22 @@
     {
       "stage": "initial_review",
       "duration": "2 weeks",
-      "activities": [
-        "Vendor RFP process",
-        "ROI analysis",
-        "Technical feasibility assessment"
-      ],
+      "activities": ["Vendor RFP process", "ROI analysis", "Technical feasibility assessment"],
       "outcome": "Shortlisted 3 vendors, projected 25% increase in online sales"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "1 week",
-      "activities": [
-        "Executive presentations",
-        "Store manager feedback sessions",
-        "Integration planning"
-      ],
+      "activities": ["Executive presentations", "Store manager feedback sessions", "Integration planning"],
       "outcome": "Approved with phased implementation over 18 months"
     }
   ],
   "business_impact": {
     "expected_outcome": "Unified customer experience across all channels",
     "projected_value": "$12,000,000 annual revenue increase",
-    "risk_factors": [
-      "Implementation complexity",
-      "Employee training requirements",
-      "Data migration challenges"
-    ]
+    "risk_factors": ["Implementation complexity", "Employee training requirements", "Data migration challenges"]
   },
-  "decision_criteria": [
-    "ROI payback within 2 years",
-    "Scalability for future growth",
-    "Vendor support and roadmap",
-    "Integration with existing systems"
-  ],
+  "decision_criteria": ["ROI payback within 2 years", "Scalability for future growth", "Vendor support and roadmap", "Integration with existing systems"],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder involvement crucial for large-scale digital transformations, phased rollout reduces operational disruption"
 }

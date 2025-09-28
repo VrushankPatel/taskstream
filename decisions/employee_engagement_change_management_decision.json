@@ -1,0 +1,47 @@
+{
+  "scenario_id": "employee_engagement_change_management_q4_2025",
+  "context": "Global retail company, 15000 employees, implementing major organizational change following merger",
+  "stakeholders": {
+    "requester": "Chief Human Resources Officer",
+    "approvers": ["CEO", "Executive Team"],
+    "influencers": ["Department Managers", "Employee Resource Groups", "Change Management Consultants"]
+  },
+  "request": {
+    "amount": "$4,000,000",
+    "purpose": "Comprehensive employee engagement and change management program for post-merger integration",
+    "urgency": "high",
+    "justification": "Ensure smooth transition and maintain employee morale during organizational restructuring"
+  },
+  "decision_process": [
+    {
+      "stage": "impact_assessment",
+      "duration": "2 weeks",
+      "activities": ["Employee sentiment analysis", "Change impact mapping", "Risk assessment"],
+      "outcome": "High change fatigue identified with significant engagement concerns"
+    },
+    {
+      "stage": "program_development",
+      "duration": "3 weeks",
+      "activities": ["Engagement strategy design", "Communication plan development", "Support program creation"],
+      "outcome": "Multi-faceted engagement program designed addressing key concerns"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Leadership alignment sessions", "Manager training", "Employee representative consultations"],
+      "outcome": "Strong stakeholder support secured for program implementation"
+    },
+    {
+      "stage": "budget_approval",
+      "duration": "1 week",
+      "activities": ["ROI modeling", "Budget justification", "Executive approval"],
+      "outcome": "Program approved with $4M budget and 12-month implementation timeline"
+    }
+  ],
+  "business_impact": {
+    "retention_rate": "95% retention target vs 85% industry average",
+    "productivity_impact": "10% productivity improvement through engaged workforce",
+    "cultural_integration": "Successful merger integration with unified company culture",
+    "risk_factors": ["Communication breakdowns", "Resistance to change", "Resource constraints", "Timeline pressures"]
+  }
+}

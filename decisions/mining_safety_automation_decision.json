@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_safety_automation_decision",
+  "context": "Underground mining operation evaluating autonomous haulage system implementation",
+  "stakeholders": {
+    "requester": "Safety Director",
+    "approvers": ["CEO", "Board Safety Committee", "Union Representatives"],
+    "influencers": ["Operations Manager", "Technology Director", "Safety Engineers"]
+  },
+  "request": {
+    "amount": "$15M",
+    "purpose": "Deploy autonomous haulage trucks and supporting infrastructure to reduce workplace accidents",
+    "urgency": "medium",
+    "justification": "40% reduction in haulage accidents, improved productivity, worker safety enhancement"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_assessment",
+      "duration": "8 weeks",
+      "activities": ["Risk analysis", "Safety case development", "Regulatory compliance review"],
+      "outcome": "Safety improvements validated with regulatory approval"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "6 weeks",
+      "activities": ["Vendor evaluation", "Site suitability assessment", "Integration planning"],
+      "outcome": "Technology selected with comprehensive implementation plan"
+    },
+    {
+      "stage": "workforce_impact_analysis",
+      "duration": "4 weeks",
+      "activities": ["Job impact assessment", "Retraining programs", "Union negotiations"],
+      "outcome": "Workforce transition plan developed with union agreement"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Safer work environment, increased productivity, reduced insurance costs",
+    "projected_value": "$8M annual savings in operational costs",
+    "risk_factors": ["Technology reliability issues", "Workforce resistance", "Integration complexity"]
+  },
+  "decision_criteria": ["Safety improvement >30%", "ROI >25% over 5 years", "Workforce support secured", "Regulatory compliance maintained"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive workforce consultation essential, phased implementation reduces risk"
+}

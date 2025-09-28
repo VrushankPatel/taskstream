@@ -1,0 +1,40 @@
+{
+  "scenario_id": "robotics_automation_investment_2025",
+  "context": "Manufacturing company evaluating major investment in advanced robotics to automate assembly operations across 3 facilities",
+  "stakeholders": {
+    "requester": "Chief Operations Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["HR Department", "Union Representatives", "Technology Partners", "Production Managers"]
+  },
+  "request": {
+    "amount": "$18 million",
+    "purpose": "Deploy collaborative robotics and automation systems for assembly lines",
+    "urgency": "medium",
+    "justification": "Address labor shortages and improve production efficiency by 40%"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "3 months",
+      "activities": ["Process analysis", "Technology evaluation", "ROI modeling"],
+      "outcome": "Identified 60% of assembly operations suitable for automation"
+    },
+    {
+      "stage": "workforce_impact_analysis",
+      "duration": "2 months",
+      "activities": ["Workforce assessment", "Retraining program design", "Union consultation"],
+      "outcome": "Developed comprehensive transition plan with minimal job losses"
+    },
+    {
+      "stage": "vendor_selection",
+      "duration": "2 months",
+      "activities": ["Vendor evaluation", "Technical demonstrations", "Contract negotiations"],
+      "outcome": "Selected integrated robotics solution with local support capabilities"
+    }
+  ],
+  "business_impact": {
+    "expected_savings": "$6 million annually",
+    "productivity_improvement": "45% increase",
+    "risk_factors": ["Implementation delays", "Technical integration issues", "Workforce resistance", "Higher than expected costs"]
+  }
+}

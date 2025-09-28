@@ -1,0 +1,40 @@
+{
+  "scenario_id": "emerging_technology_roi_analysis_q3_2025",
+  "context": "Mid-size technology company evaluating investment in multiple emerging technologies including AI, blockchain, and IoT for competitive advantage",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Financial Officer", "Board Technology Committee"],
+    "influencers": ["Department Heads", "External Consultants", "Industry Analysts"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Emerging technology adoption program including pilot projects, training, and infrastructure for AI, blockchain, and IoT implementations",
+    "urgency": "medium",
+    "justification": "Maintain technological leadership and competitive positioning in rapidly evolving market landscape"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Technology maturity assessment", "Competitive analysis", "Pilot project scoping"],
+      "outcome": "Prioritized technology roadmap with clear evaluation criteria"
+    },
+    {
+      "stage": "pilot_execution",
+      "duration": "8 weeks",
+      "activities": ["Pilot project implementation", "Performance monitoring", "User feedback collection"],
+      "outcome": "Successful pilot results with measurable improvements"
+    },
+    {
+      "stage": "scale_decision",
+      "duration": "2 weeks",
+      "activities": ["ROI analysis", "Risk assessment", "Resource planning"],
+      "outcome": "Approved for scaled implementation with phased approach"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gains": "25% process improvement",
+    "projected_revenue": "$5,000,000 from new capabilities",
+    "risk_factors": ["Technology failure", "Integration challenges", "Skills gap", "Market timing"]
+  }
+}

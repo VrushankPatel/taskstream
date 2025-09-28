@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_003"
+  title: "Manufacturing Supply Chain Digital Twin Implementation"
+  department: "Supply Chain Operations"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Data Engineer", "Process Engineer", "IT Support", "Vendor Relations"]
+  trigger: "Decision to implement digital twin technology for supply chain optimization"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Map current supply chain processes and identify optimization opportunities"
+      tools: ["Process mapping software", "Supply chain analytics"]
+      duration: "2 weeks"
+      outputs: ["Current state assessment", "Digital twin requirements"]
+    - step: 2
+      actor: "Data Engineer"
+      action: "Design data architecture and establish data collection systems"
+      decision_points: ["Data source integration", "Real-time vs batch processing"]
+      duration: "3 weeks"
+      outputs: ["Data architecture design", "Data collection framework"]
+    - step: 3
+      actor: "Process Engineer"
+      action: "Develop digital twin models and simulation scenarios"
+      tools: ["Digital twin software", "Simulation tools"]
+      duration: "4 weeks"
+      outputs: ["Digital twin models", "Simulation test cases"]
+    - step: 4
+      actor: "IT Support"
+      action: "Implement infrastructure and ensure system integration"
+      tools: ["Cloud infrastructure", "Integration platforms"]
+      duration: "2 weeks"
+      outputs: ["Infrastructure setup", "Integration testing results"]
+    - step: 5
+      actor: "Vendor Relations"
+      action: "Coordinate with suppliers for data sharing and collaboration"
+      decision_points: ["Vendor participation levels", "Data sharing agreements"]
+      duration: "3 weeks"
+      outputs: ["Vendor collaboration agreements", "Data sharing protocols"]
+  success_criteria: "Digital twin operational with accurate predictions and optimization recommendations"
+  failure_modes: ["Data quality issues", "Integration failures", "Vendor non-cooperation"]

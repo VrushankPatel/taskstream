@@ -1,40 +1,46 @@
 {
   "scenario_id": "ai_ethics_governance_expansion_2025",
-  "context": "Global technology company, 50,000 employees, expanding AI ethics governance across all business units",
+  "context": "Global AI company expanding ethics governance framework following regulatory changes and public scrutiny",
   "stakeholders": {
     "requester": "Chief Ethics Officer",
-    "approvers": ["CEO", "Chief Technology Officer", "Board Ethics Committee"],
-    "influencers": ["Head of AI Development", "Legal Counsel", "External Ethics Consultants"]
+    "approvers": ["CEO", "Board of Directors", "General Counsel"],
+    "influencers": ["Head of AI Research", "VP Product", "Chief Privacy Officer", "External Ethics Consultants"]
   },
   "request": {
-    "amount": "$25,000,000",
-    "purpose": "Expand AI ethics governance framework to cover all AI applications and international operations",
-    "urgency": "high",
-    "justification": "Regulatory requirements and stakeholder expectations for responsible AI deployment"
+    "amount": "$15 million",
+    "purpose": "Expand AI ethics governance framework including dedicated team, tools, and third-party audits",
+    "urgency": "medium",
+    "justification": "Proactive compliance with emerging AI regulations and rebuilding public trust following recent controversies"
   },
   "decision_process": [
     {
-      "stage": "initial_assessment",
+      "stage": "regulatory_assessment",
+      "duration": "3 weeks",
+      "activities": ["Global AI regulation review", "Compliance gap analysis", "Legal risk assessment"],
+      "outcome": "Multiple regulatory frameworks require enhanced governance capabilities"
+    },
+    {
+      "stage": "organizational_readiness",
+      "duration": "2 weeks",
+      "activities": ["Current ethics program evaluation", "Stakeholder interviews", "Capability gap assessment"],
+      "outcome": "Significant gaps in current capabilities requiring substantial investment"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "3 weeks",
+      "activities": ["ROI modeling for ethics investments", "Risk mitigation valuation", "Competitive advantage assessment"],
+      "outcome": "Strong business case with risk reduction valued at $100M+ annually"
+    },
+    {
+      "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Gap analysis of current ethics framework", "Stakeholder interviews", "Regulatory compliance review"],
-      "outcome": "Identified need for comprehensive expansion"
-    },
-    {
-      "stage": "framework_design",
-      "duration": "8 weeks",
-      "activities": ["Develop expanded ethics policies", "Create implementation roadmap", "Design training programs"],
-      "outcome": "Comprehensive governance framework approved"
-    },
-    {
-      "stage": "pilot_implementation",
-      "duration": "12 weeks",
-      "activities": ["Pilot in high-risk AI applications", "Measure effectiveness", "Refine processes"],
-      "outcome": "Framework validated and ready for enterprise rollout"
+      "activities": ["Team structure design", "Technology requirements", "Change management planning"],
+      "outcome": "Comprehensive implementation roadmap with phased approach"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Reduced regulatory risk", "Enhanced stakeholder trust", "Improved AI deployment speed"],
-    "projected_roi": "300% over 3 years through risk mitigation and efficiency gains",
-    "risk_factors": ["Implementation complexity", "Cultural resistance", "Evolving regulatory landscape"]
+    "expected_benefits": ["Regulatory compliance assurance", "Enhanced public trust", "Reduced litigation risk", "Competitive differentiation"],
+    "projected_revenue": "$50 million in risk mitigation value annually",
+    "risk_factors": ["Implementation complexity", "Cultural resistance", "Resource constraints", "Evolving regulatory landscape"]
   }
 }

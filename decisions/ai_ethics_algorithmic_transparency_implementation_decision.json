@@ -1,0 +1,46 @@
+{
+  "scenario_id": "ai_ethics_algorithmic_transparency_implementation_decision_2025",
+  "context": "Healthcare technology company implementing algorithmic transparency requirements for AI diagnostic systems under new regulatory standards",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["Chief Executive Officer", "Chief Technology Officer", "Board Quality Committee"],
+    "influencers": ["AI Development Teams", "Clinical Stakeholders", "Regulatory Affairs"]
+  },
+  "request": {
+    "amount": "$6,000,000",
+    "purpose": "Implement algorithmic transparency features across all AI diagnostic systems",
+    "urgency": "high",
+    "justification": "Compliance with emerging healthcare AI transparency regulations and clinical trust requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "transparency_requirements",
+      "duration": "1 month",
+      "activities": ["Regulatory analysis", "Clinical requirements gathering", "Technical feasibility assessment"],
+      "outcome": "Defined transparency requirements for explainable AI in medical diagnostics"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "2 months",
+      "activities": ["Explainability tool assessment", "Integration testing", "Clinical validation"],
+      "outcome": "Selected transparency toolkit with 95% explanation accuracy and clinical relevance"
+    },
+    {
+      "stage": "implementation_design",
+      "duration": "2 months",
+      "activities": ["System architecture design", "User interface development", "Workflow integration"],
+      "outcome": "Comprehensive implementation plan for transparency features in diagnostic workflows"
+    },
+    {
+      "stage": "clinical_validation",
+      "duration": "2 months",
+      "activities": ["Clinical pilot testing", "Physician feedback collection", "Performance impact assessment"],
+      "outcome": "Validated transparency system improving clinical trust and decision confidence"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Regulatory compliance", "Enhanced clinical trust", "Improved diagnostic accuracy"],
+    "projected_revenue": "Expected $12M in market differentiation and expanded adoption",
+    "risk_factors": ["Technical complexity", "Performance overhead", "Clinical workflow disruption"]
+  }
+}

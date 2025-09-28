@@ -1,0 +1,40 @@
+{
+  "scenario_id": "biotech_gene_therapy_ethics_2025",
+  "context": "Biotechnology company developing gene therapy treatments for rare genetic disorders, facing ethical decision on proceeding with clinical trials involving germline modifications",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Board of Directors", "Ethics Committee"],
+    "influencers": ["Regulatory Affairs", "Legal Counsel", "Patient Advocacy Groups", "Scientific Advisory Board"]
+  },
+  "request": {
+    "amount": "$35 million",
+    "purpose": "Phase 1/2 clinical trials for gene therapy targeting cystic fibrosis",
+    "urgency": "high",
+    "justification": "Potential to provide lifelong cure for genetic disease affecting 30,000 Americans"
+  },
+  "decision_process": [
+    {
+      "stage": "ethical_review",
+      "duration": "4 months",
+      "activities": ["Ethics committee consultation", "Patient advocacy group meetings", "Regulatory landscape analysis"],
+      "outcome": "Conditional approval with enhanced safety monitoring requirements"
+    },
+    {
+      "stage": "scientific_validation",
+      "duration": "3 months",
+      "activities": ["Preclinical data review", "Independent safety assessment", "Peer review publication"],
+      "outcome": "Strong scientific rationale validated with acceptable risk profile"
+    },
+    {
+      "stage": "regulatory_engagement",
+      "duration": "2 months",
+      "activities": ["FDA pre-IND meeting", "EMA scientific advice", "Regulatory pathway clarification"],
+      "outcome": "Clear regulatory pathway established with accelerated approval potential"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$750 million (10-year projection)",
+    "projected_market_share": "25% of genetic therapy market",
+    "risk_factors": ["Clinical trial setbacks", "Regulatory rejection", "Ethical controversies", "Manufacturing challenges"]
+  }
+}

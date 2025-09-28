@@ -1,0 +1,40 @@
+{
+  "scenario_id": "international_market_entry_2025",
+  "context": "Technology company evaluating entry into Southeast Asian market with localized product development",
+  "stakeholders": {
+    "requester": "VP International Expansion",
+    "approvers": ["CEO", "Board of Directors", "CFO"],
+    "influencers": ["Local Partners", "Legal Counsel", "Product Development", "Market Research"]
+  },
+  "request": {
+    "amount": "$50 million",
+    "purpose": "Market entry strategy for Vietnam and Indonesia including localization and partnerships",
+    "urgency": "medium",
+    "justification": "Access to high-growth emerging markets with 300 million potential customers"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 months",
+      "activities": ["Market sizing and segmentation", "Competitive analysis", "Regulatory assessment"],
+      "outcome": "Identified strong market potential with localized product requirements"
+    },
+    {
+      "stage": "partnership_evaluation",
+      "duration": "2 months",
+      "activities": ["Local partner identification", "Due diligence", "Joint venture structuring"],
+      "outcome": "Selected strategic partners with complementary capabilities and market knowledge"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "1 month",
+      "activities": ["Revenue projections", "Cost analysis", "Risk-adjusted returns"],
+      "outcome": "Projected 25% IRR over 5 years with manageable execution risks"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$100 million (5-year cumulative)",
+    "market_penetration": "15% of target segments",
+    "risk_factors": ["Regulatory uncertainty", "Currency volatility", "Cultural adaptation", "Partner performance"]
+  }
+}

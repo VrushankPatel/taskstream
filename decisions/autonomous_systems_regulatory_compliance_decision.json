@@ -1,40 +1,46 @@
 {
-  "scenario_id": "autonomous_regulatory_2025",
-  "context": "Transportation and logistics company, 25,000 employees, planning autonomous vehicle fleet deployment",
+  "scenario_id": "autonomous_systems_regulatory_compliance_2025",
+  "context": "Autonomous vehicle manufacturer preparing for new EU AI Act and updated safety regulations",
   "stakeholders": {
-    "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Board Safety Committee", "Chief Legal Officer"],
-    "influencers": ["Fleet Operations Director", "Safety Director", "Insurance Manager"]
+    "requester": "Chief Compliance Officer",
+    "approvers": ["CEO", "Chief Legal Officer", "VP Regulatory Affairs"],
+    "influencers": ["Chief Technology Officer", "Head of Safety", "VP Government Relations", "Industry Association Representatives"]
   },
   "request": {
-    "amount": "$150,000,000",
-    "purpose": "Deploy autonomous vehicle technology across fleet operations",
+    "amount": "$25 million",
+    "purpose": "Implement comprehensive compliance framework for autonomous systems including AI governance, safety protocols, and regulatory reporting",
     "urgency": "high",
-    "justification": "Achieve operational efficiency and competitive advantage in logistics"
+    "justification": "New EU AI Act requires fundamental changes to development and deployment processes by 2026 deadline"
   },
   "decision_process": [
     {
-      "stage": "regulatory_assessment",
-      "duration": "10 weeks",
-      "activities": ["Jurisdictional analysis", "Regulatory engagement", "Compliance framework development"],
-      "outcome": "Identified pathways for phased deployment with regulatory approval"
-    },
-    {
-      "stage": "safety_validation",
-      "duration": "12 weeks",
-      "activities": ["Safety testing protocols", "Incident response planning", "Insurance evaluation"],
-      "outcome": "Safety framework meeting or exceeding regulatory requirements"
-    },
-    {
-      "stage": "business_case_review",
+      "stage": "regulatory_analysis",
       "duration": "6 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Risk mitigation strategies"],
-      "outcome": "Approved for pilot deployment with full rollout contingent on pilot success"
+      "activities": ["EU AI Act detailed review", "Global regulatory mapping", "Compliance requirement assessment"],
+      "outcome": "High-risk classification requiring extensive compliance measures"
+    },
+    {
+      "stage": "technical_assessment",
+      "duration": "4 weeks",
+      "activities": ["Current system evaluation", "Gap analysis", "Technical implementation planning"],
+      "outcome": "Major system changes required across development lifecycle"
+    },
+    {
+      "stage": "business_impact_analysis",
+      "duration": "3 weeks",
+      "activities": ["Market access risk assessment", "Cost-benefit analysis", "Competitive positioning evaluation"],
+      "outcome": "Critical for continued EU market access and future growth"
+    },
+    {
+      "stage": "resource_planning",
+      "duration": "2 weeks",
+      "activities": ["Team expansion planning", "Technology investment requirements", "Timeline development"],
+      "outcome": "Comprehensive resource plan with aggressive timeline"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["30% reduction in operating costs", "Improved safety metrics", "Enhanced service reliability"],
-    "projected_revenue": "$300,000,000 annual savings",
-    "risk_factors": ["Regulatory delays", "Technology failures", "Public acceptance challenges"]
+    "expected_benefits": ["EU market access maintained", "Enhanced safety reputation", "Regulatory leadership position", "Reduced liability exposure"],
+    "projected_revenue": "$500 million in protected EU market revenue",
+    "risk_factors": ["Technology implementation challenges", "Timeline pressure", "Resource constraints", "Regulatory changes during implementation"]
   }
 }

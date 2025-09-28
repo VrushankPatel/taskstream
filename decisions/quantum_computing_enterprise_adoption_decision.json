@@ -1,40 +1,46 @@
 {
-  "scenario_id": "quantum_computing_enterprise_adoption_2025",
-  "context": "Financial services company, 40,000 employees, evaluating quantum computing adoption for risk modeling and portfolio optimization",
+  "scenario_id": "quantum_enterprise_adoption_2025",
+  "context": "Fortune 500 technology company evaluating quantum computing investment for optimization problems",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Risk Officer", "Board Technology Committee"],
-    "influencers": ["Head of Quantitative Research", "Infrastructure Director", "External Quantum Experts"]
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Head of Research", "VP Engineering", "Chief Data Officer"]
   },
   "request": {
-    "amount": "$85,000,000",
-    "purpose": "Establish quantum computing capabilities for advanced financial modeling",
-    "urgency": "medium",
-    "justification": "Competitive advantage in complex financial calculations and risk assessment"
+    "amount": "$50 million",
+    "purpose": "Quantum computing infrastructure and algorithm development for supply chain optimization",
+    "urgency": "high",
+    "justification": "Potential 100x speedup for complex optimization problems could revolutionize logistics operations"
   },
   "decision_process": [
     {
-      "stage": "quantum_readiness_assessment",
-      "duration": "8 weeks",
-      "activities": ["Evaluate quantum advantage for financial applications", "Assess current computational limitations", "Technology maturity evaluation"],
-      "outcome": "Clear quantum advantage identified for specific use cases"
+      "stage": "technical_feasibility",
+      "duration": "4 weeks",
+      "activities": ["Quantum advantage assessment", "Current hardware evaluation", "Algorithm development roadmap"],
+      "outcome": "Feasible with 2-3 year timeline to quantum advantage"
     },
     {
-      "stage": "infrastructure_planning",
-      "duration": "10 weeks",
-      "activities": ["Select quantum hardware providers", "Design hybrid classical-quantum architecture", "Develop talent acquisition strategy"],
-      "outcome": "Comprehensive infrastructure plan approved"
+      "stage": "financial_analysis",
+      "duration": "3 weeks",
+      "activities": ["ROI modeling", "Total cost of ownership analysis", "Risk-adjusted NPV calculations"],
+      "outcome": "Positive ROI expected within 5 years with conservative estimates"
     },
     {
-      "stage": "pilot_development",
-      "duration": "16 weeks",
-      "activities": ["Build quantum algorithms for portfolio optimization", "Integrate with existing systems", "Validate results against classical methods"],
-      "outcome": "Successful pilot demonstrating quantum advantage"
+      "stage": "strategic_alignment",
+      "duration": "2 weeks",
+      "activities": ["Competitive landscape analysis", "Strategic priority alignment", "Executive stakeholder interviews"],
+      "outcome": "High strategic alignment with core business optimization needs"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "2 weeks",
+      "activities": ["Technology risk evaluation", "Vendor dependency analysis", "Talent acquisition planning"],
+      "outcome": "Acceptable risk profile with mitigation strategies identified"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["50x faster complex calculations", "Improved risk modeling accuracy", "New quantitative strategies"],
-    "projected_roi": "400% over 7 years through enhanced trading performance",
-    "risk_factors": ["Technology immaturity", "High infrastructure costs", "Talent availability challenges"]
+    "expected_benefits": ["100x faster optimization solutions", "20% reduction in logistics costs", "New revenue streams from quantum services"],
+    "projected_revenue": "$200 million in cost savings over 10 years",
+    "risk_factors": ["Technology immaturity", "Talent scarcity", "Rapid hardware evolution", "Integration complexity"]
   }
 }

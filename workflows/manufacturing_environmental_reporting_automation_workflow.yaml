@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_007"
+  title: "Manufacturing Environmental Reporting Automation"
+  department: "Environmental Compliance"
+  complexity: "medium"
+  participants: ["Environmental Manager", "Data Analyst", "IT Integration Specialist", "Regulatory Affairs", "Operations Teams"]
+  trigger: "New environmental reporting regulations requiring automated data collection"
+  steps:
+    - step: 1
+      actor: "Environmental Manager"
+      action: "Assess current reporting processes and identify automation opportunities"
+      tools: ["Environmental management systems", "Regulatory requirements database"]
+      duration: "2 weeks"
+      outputs: ["Current state assessment", "Automation requirements"]
+    - step: 2
+      actor: "Data Analyst"
+      action: "Design data collection and aggregation systems"
+      decision_points: ["Data source integration", "Real-time vs periodic reporting"]
+      duration: "3 weeks"
+      outputs: ["Data architecture design", "Collection protocols"]
+    - step: 3
+      actor: "IT Integration Specialist"
+      action: "Implement sensor networks and data integration platforms"
+      tools: ["IoT sensors", "Data integration platforms"]
+      duration: "4 weeks"
+      outputs: ["Sensor network deployment", "Integration testing results"]
+    - step: 4
+      actor: "Regulatory Affairs"
+      action: "Validate reporting accuracy and ensure regulatory compliance"
+      decision_points: ["Reporting format requirements", "Audit trail completeness"]
+      duration: "2 weeks"
+      outputs: ["Compliance validation report", "Audit procedures"]
+    - step: 5
+      actor: "Operations Teams"
+      action: "Train staff on automated systems and reporting processes"
+      tools: ["Training materials", "User manuals"]
+      duration: "2 weeks"
+      outputs: ["Training completion records", "System documentation"]
+  success_criteria: "Automated environmental reporting system operational with 99% accuracy"
+  failure_modes: ["Data collection failures", "Integration issues", "Regulatory non-compliance"]

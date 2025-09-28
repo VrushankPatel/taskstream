@@ -1,48 +1,52 @@
 {
   "scenario_id": "healthcare_genomics_research_investment_2025",
-  "context": "Academic medical center seeking to establish leadership in genomic medicine through major research investment",
+  "context": "Biopharmaceutical company evaluating major investment in genomics research for personalized medicine platform",
   "stakeholders": {
-    "requester": "Chief Academic Officer",
-    "approvers": ["Board of Directors", "CEO", "Chief Research Officer"],
-    "influencers": ["Department Chairs", "Research Faculty", "Development Office"],
-    "advisors": ["Genomics Research Experts", "Philanthropic Advisors", "Industry Partners"]
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Head of R&D", "Chief Medical Officer", "VP Business Development", "Key Opinion Leaders", "Regulatory Experts"]
   },
   "request": {
-    "amount": "$45,000,000",
-    "purpose": "Establish comprehensive genomic research center with advanced sequencing capabilities, bioinformatics infrastructure, and clinical translation programs",
+    "amount": "$200 million",
+    "purpose": "Build comprehensive genomics research platform for drug discovery and personalized medicine development",
     "urgency": "medium",
-    "justification": "Position institution as leader in genomic medicine, attract top talent, and accelerate translation of genomic discoveries to clinical practice"
+    "justification": "Genomics represents the future of medicine with potential to revolutionize drug development and patient outcomes"
   },
   "decision_process": [
     {
-      "stage": "strategic_alignment",
+      "stage": "scientific_feasibility",
       "duration": "8 weeks",
-      "activities": ["Institutional strategy review", "Competitive landscape analysis", "Stakeholder engagement"],
-      "outcome": "Strong alignment with institutional mission and market opportunity in genomic medicine"
+      "activities": ["Technology landscape assessment", "Scientific advisory board consultations", "IP portfolio evaluation"],
+      "outcome": "Strong scientific foundation with clear path to clinical applications"
     },
     {
-      "stage": "scientific_feasibility",
+      "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["Research program design", "Scientific advisory board formation", "Pilot study planning"],
-      "outcome": "Comprehensive research program with clear path to scientific and clinical impact"
+      "activities": ["Market size projections", "Competitive landscape analysis", "Reimbursement pathway assessment"],
+      "outcome": "Attractive market opportunity with $50B+ addressable market by 2030"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Funding strategy development", "Financial projections", "ROI analysis"],
-      "outcome": "Sustainable funding model with projected 25% annual return on research investment"
+      "activities": ["NPV analysis", "Sensitivity testing", "Funding strategy development"],
+      "outcome": "Positive NPV with attractive risk-adjusted returns"
     },
     {
-      "stage": "implementation_planning",
-      "duration": "6 weeks",
-      "activities": ["Facility design", "Talent recruitment", "Program launch planning"],
-      "outcome": "Detailed implementation roadmap with key milestones and success metrics"
+      "stage": "strategic_alignment",
+      "duration": "3 weeks",
+      "activities": ["Portfolio fit assessment", "Synergy evaluation", "Strategic priority alignment"],
+      "outcome": "Excellent strategic fit with existing capabilities and pipeline"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "2 weeks",
+      "activities": ["Technical risk evaluation", "Regulatory risk analysis", "Execution risk assessment"],
+      "outcome": "Manageable risk profile with clear mitigation strategies"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Leadership in genomic medicine", "Increased research funding", "Enhanced clinical capabilities", "Talent attraction and retention"],
-    "projected_revenue": "$120,000,000 in research grants and clinical revenue over 10 years",
-    "risk_factors": ["Scientific uncertainty in genomic applications", "Regulatory changes in genetic testing", "Competition from other institutions", "Technology obsolescence"],
-    "mitigation_strategies": ["Diversified research portfolio", "Regulatory monitoring and adaptation", "Strategic partnerships", "Technology refresh planning"]
+    "expected_benefits": ["Accelerated drug discovery", "Personalized medicine leadership", "New revenue streams", "Scientific reputation enhancement"],
+    "projected_revenue": "$2 billion in new product revenue over 10 years",
+    "risk_factors": ["Technology development delays", "Regulatory hurdles", "Data privacy concerns", "Market adoption challenges"]
   }
 }

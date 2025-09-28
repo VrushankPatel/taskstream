@@ -1,0 +1,40 @@
+{
+  "scenario_id": "energy_hydrogen_development_2025",
+  "context": "Energy company evaluating investment in hydrogen production infrastructure to support clean energy transition",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Engineering", "Regulatory Affairs", "Environmental Groups", "Technology Partners"]
+  },
+  "request": {
+    "amount": "$150 million",
+    "purpose": "Build hydrogen production and distribution infrastructure",
+    "urgency": "high",
+    "justification": "Position for emerging hydrogen economy and meet decarbonization targets"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "4 months",
+      "activities": ["Hydrogen market assessment", "Regulatory incentive analysis", "Competitive landscape review"],
+      "outcome": "Identified strong market potential with government incentives available"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 months",
+      "activities": ["Technology vendor assessment", "Site selection analysis", "Infrastructure planning"],
+      "outcome": "Selected electrolysis technology with optimal efficiency and scalability"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding strategy development"],
+      "outcome": "Positive NPV with acceptable risk profile and multiple funding options"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$200 million (incentives and sales)",
+    "emissions_reduction": "1.5 million tons CO2 annually",
+    "risk_factors": ["Technology maturation delays", "Regulatory changes", "Infrastructure costs", "Market demand uncertainty"]
+  }
+}

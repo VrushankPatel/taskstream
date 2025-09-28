@@ -1,0 +1,40 @@
+{
+  "scenario_id": "decision_stakeholder_engagement_2025",
+  "context": "Global corporation developing comprehensive stakeholder engagement strategy",
+  "stakeholders": {
+    "requester": "VP Corporate Communications",
+    "approvers": ["CEO", "Board of Directors", "Chief Communications Officer"],
+    "influencers": ["Investor Relations", "Government Affairs", "Community Relations"]
+  },
+  "request": {
+    "amount": "$4 million",
+    "purpose": "Implement integrated stakeholder engagement platform and programs",
+    "urgency": "medium",
+    "justification": "Enhance reputation, manage risks, and build strategic relationships"
+  },
+  "decision_process": [
+    {
+      "stage": "stakeholder_mapping",
+      "duration": "1 month",
+      "activities": ["Stakeholder identification", "Influence assessment", "Communication needs analysis"],
+      "outcome": "Comprehensive stakeholder map developed"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "2 months",
+      "activities": ["Engagement framework design", "Channel strategy", "Content development"],
+      "outcome": "Multi-channel engagement strategy approved"
+    },
+    {
+      "stage": "platform_selection",
+      "duration": "1 month",
+      "activities": ["Technology evaluation", "Vendor selection", "Integration planning"],
+      "outcome": "Stakeholder engagement platform selected"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Improved reputation, risk mitigation, strategic partnerships",
+    "projected_revenue": "$25 million value from enhanced stakeholder relationships",
+    "risk_factors": ["Resource intensity", "Message consistency", "Measurement challenges"]
+  }
+}

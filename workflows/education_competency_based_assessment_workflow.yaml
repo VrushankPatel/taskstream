@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_education_competency_based_assessment"
+  title: "Competency-Based Assessment System"
+  department: "Academic Affairs"
+  complexity: "high"
+  participants: ["Assessment Director", "Faculty Committee", "Curriculum Designers", "IT Development Team"]
+  trigger: "Shift to competency-based education model"
+  steps:
+    - step: 1
+      actor: "Assessment Director"
+      action: "Define competency frameworks and learning outcomes"
+      tools: ["Competency mapping tools", "Learning outcome databases"]
+      duration: "4 weeks"
+      outputs: ["Competency frameworks"]
+    - step: 2
+      actor: "Curriculum Designers"
+      action: "Design competency-based assessments and rubrics"
+      tools: ["Assessment design software", "Rubric development tools"]
+      duration: "6 weeks"
+      outputs: ["Competency assessments"]
+    - step: 3
+      actor: "Faculty Committee"
+      action: "Train faculty on competency-based evaluation"
+      tools: ["Training materials", "Assessment calibration tools"]
+      duration: "3 weeks"
+      outputs: ["Trained faculty evaluators"]
+    - step: 4
+      actor: "IT Development Team"
+      action: "Implement digital assessment platform"
+      tools: ["Learning management systems", "Assessment software"]
+      duration: "5 weeks"
+      outputs: ["Digital assessment platform"]
+  success_criteria: "80% of courses using competency-based assessments"
+  failure_modes: ["Faculty resistance", "Assessment validity concerns", "Technology adoption challenges"]

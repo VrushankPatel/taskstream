@@ -1,0 +1,40 @@
+{
+  "scenario_id": "decision_sustainable_finance_platform_2025",
+  "context": "Investment bank launching ESG-focused platform for institutional clients",
+  "stakeholders": {
+    "requester": "Head of Sustainable Finance",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Institutional Clients", "ESG Rating Agencies", "Regulatory Bodies"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Develop and launch sustainable finance platform with ESG analytics",
+    "urgency": "medium",
+    "justification": "Capitalize on growing demand for sustainable investment products"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "2 months",
+      "activities": ["Client demand assessment", "Competitive analysis", "Regulatory landscape review"],
+      "outcome": "Strong market opportunity identified"
+    },
+    {
+      "stage": "platform_design",
+      "duration": "3 months",
+      "activities": ["ESG data integration", "Analytics development", "User experience design"],
+      "outcome": "Comprehensive platform architecture approved"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "2 months",
+      "activities": ["Beta testing with select clients", "Performance validation", "Feedback integration"],
+      "outcome": "Platform ready for full launch"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "New revenue stream, enhanced brand reputation",
+    "projected_revenue": "$100 million in AUM within 3 years",
+    "risk_factors": ["ESG data quality", "Regulatory changes", "Client adoption challenges"]
+  }
+}

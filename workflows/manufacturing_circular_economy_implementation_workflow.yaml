@@ -1,0 +1,34 @@
+workflow:
+  id: "workflow_manufacturing_circular_economy_implementation"
+  title: "Circular Economy Implementation"
+  department: "Sustainability"
+  complexity: "high"
+  participants: ["Sustainability Director", "Product Design Team", "Supply Chain Manager", "Marketing Team"]
+  trigger: "Corporate circular economy initiative launch"
+  steps:
+    - step: 1
+      actor: "Sustainability Director"
+      action: "Assess current product lifecycle and identify circular opportunities"
+      tools: ["Lifecycle assessment tools", "Material flow analysis software"]
+      duration: "3 weeks"
+      outputs: ["Circular economy opportunity assessment"]
+    - step: 2
+      actor: "Product Design Team"
+      action: "Redesign products for durability, repairability, and recyclability"
+      tools: ["CAD software", "Material selection databases"]
+      duration: "6 weeks"
+      outputs: ["Circular product designs"]
+    - step: 3
+      actor: "Supply Chain Manager"
+      action: "Establish take-back and recycling programs"
+      tools: ["Supply chain management software", "Recycling partner databases"]
+      duration: "4 weeks"
+      outputs: ["Take-back and recycling infrastructure"]
+    - step: 4
+      actor: "Marketing Team"
+      action: "Develop consumer education and engagement campaigns"
+      tools: ["Marketing automation platforms", "Content creation tools"]
+      duration: "3 weeks"
+      outputs: ["Circular economy consumer campaigns"]
+  success_criteria: "30% of products designed for circularity"
+  failure_modes: ["Design complexity", "Consumer acceptance", "Economic viability challenges"]

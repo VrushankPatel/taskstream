@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_019_005"
+  title: "Climate Resilience Planning and Implementation"
+  department: "Emergency Management"
+  complexity: "high"
+  participants: ["Climate Resilience Coordinator", "Urban Planner", "Infrastructure Engineer", "Community Liaison", "Risk Assessor"]
+  trigger: "Climate impact assessment identifies vulnerability gaps"
+  steps:
+    - step: 1
+      actor: "Risk Assessor"
+      action: "Conduct comprehensive climate vulnerability assessment"
+      tools: ["Climate modeling software", "GIS mapping"]
+      duration: "12 weeks"
+      outputs: ["Vulnerability report", "Risk prioritization"]
+    - step: 2
+      actor: "Urban Planner"
+      action: "Develop adaptation strategies and land use policies"
+      tools: ["Planning software", "Scenario planning tools"]
+      duration: "16 weeks"
+      outputs: ["Adaptation plan", "Policy recommendations"]
+    - step: 3
+      actor: "Infrastructure Engineer"
+      action: "Design resilient infrastructure improvements"
+      decision_points: ["Investment priorities", "Engineering standards", "Timeline constraints"]
+      duration: "20 weeks"
+      outputs: ["Infrastructure designs", "Implementation roadmap"]
+    - step: 4
+      actor: "Community Liaison"
+      action: "Engage stakeholders and build community resilience capacity"
+      tools: ["Community engagement platforms", "Education materials"]
+      duration: "Ongoing"
+      outputs: ["Stakeholder engagement plan", "Community training programs"]
+    - step: 5
+      actor: "Climate Resilience Coordinator"
+      action: "Monitor implementation and adapt strategies based on new data"
+      tools: ["Monitoring dashboards", "Performance metrics"]
+      duration: "Ongoing"
+      outputs: ["Progress reports", "Adaptive management plans"]
+  success_criteria: "50% reduction in climate vulnerability scores, successful implementation of 80% planned measures"
+  failure_modes: ["Funding limitations", "Political resistance", "Technical implementation challenges"]

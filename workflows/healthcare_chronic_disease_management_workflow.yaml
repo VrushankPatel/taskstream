@@ -1,0 +1,40 @@
+workflow:
+  id: "workflow_019_001"
+  title: "Chronic Disease Management Program"
+  department: "Population Health"
+  complexity: "medium"
+  participants: ["Care Coordinator", "Primary Care Physician", "Patient", "Specialist", "Health Coach"]
+  trigger: "Patient diagnosed with chronic condition requiring ongoing management"
+  steps:
+    - step: 1
+      actor: "Care Coordinator"
+      action: "Conduct comprehensive assessment and develop care plan"
+      tools: ["EHR system", "Assessment protocols"]
+      duration: "1 week"
+      outputs: ["Individualized care plan", "Patient education materials"]
+    - step: 2
+      actor: "Primary Care Physician"
+      action: "Establish baseline measurements and treatment goals"
+      decision_points: ["Treatment intensity", "Medication selection", "Referral needs"]
+      duration: "2 weeks"
+      outputs: ["Treatment protocol", "Monitoring schedule"]
+    - step: 3
+      actor: "Health Coach"
+      action: "Provide lifestyle counseling and self-management support"
+      tools: ["Coaching platform", "Educational resources"]
+      duration: "Ongoing monthly"
+      outputs: ["Progress reports", "Behavior change tracking"]
+    - step: 4
+      actor: "Patient"
+      action: "Participate in regular monitoring and follow care plan"
+      tools: ["Patient portal", "Home monitoring devices"]
+      duration: "Ongoing"
+      outputs: ["Self-reported data", "Symptom tracking"]
+    - step: 5
+      actor: "Specialist"
+      action: "Provide specialized care and adjust treatment as needed"
+      decision_points: ["Complication management", "Treatment escalation", "Palliative care transition"]
+      duration: "Quarterly"
+      outputs: ["Specialty consultations", "Treatment adjustments"]
+  success_criteria: "Patient achieves 80% of treatment goals, hospital admissions reduced by 30%"
+  failure_modes: ["Patient non-adherence", "Inadequate care coordination", "Resource limitations"]

@@ -1,0 +1,40 @@
+{
+  "scenario_id": "energy_carbon_capture_q4_2025",
+  "context": "Oil and gas company with 500,000 barrels daily production, facing carbon pricing regulations",
+  "stakeholders": {
+    "requester": "VP of Sustainability",
+    "approvers": ["CEO", "CFO", "Board ESG Committee"],
+    "influencers": ["Chief Operating Officer", "Government Affairs Director", "Environmental NGOs"]
+  },
+  "request": {
+    "amount": "$1.2B",
+    "purpose": "Implement carbon capture utilization and storage (CCUS) across major facilities",
+    "urgency": "high",
+    "justification": "Required for regulatory compliance, enables continued operations under carbon constraints"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "8 months",
+      "activities": ["Vendor assessments", "Pilot testing", "Cost benchmarking"],
+      "outcome": "Direct air capture and flue gas capture technologies selected"
+    },
+    {
+      "stage": "regulatory_analysis",
+      "duration": "4 months",
+      "activities": ["Carbon credit frameworks", "Tax incentive analysis", "Permitting requirements"],
+      "outcome": "45% cost offset through credits and incentives"
+    },
+    {
+      "stage": "integration_planning",
+      "duration": "6 months",
+      "activities": ["Facility modifications", "Supply chain setup", "Workforce training"],
+      "outcome": "Phased implementation plan with minimal production disruption"
+    }
+  ],
+  "business_impact": {
+    "expected_carbon_reduction": "5 million tons annually",
+    "projected_cost_impact": "$200M annual operating cost",
+    "risk_factors": ["Technology reliability", "Storage site availability", "Policy changes"]
+  }
+}

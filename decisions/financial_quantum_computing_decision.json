@@ -1,0 +1,40 @@
+{
+  "scenario_id": "financial_quantum_computing_q2_2026",
+  "context": "Global investment bank with $2T assets under management, seeking competitive edge in algorithmic trading",
+  "stakeholders": {
+    "requester": "Head of Quantitative Research",
+    "approvers": ["Chief Investment Officer", "Chief Technology Officer", "Chief Risk Officer"],
+    "influencers": ["Head of Trading", "Compliance Director", "External quantum experts"]
+  },
+  "request": {
+    "amount": "$150M",
+    "purpose": "Build quantum computing center for financial modeling and trading algorithms",
+    "urgency": "high",
+    "justification": "Quantum advantage in portfolio optimization and risk modeling could yield 20% alpha"
+  },
+  "decision_process": [
+    {
+      "stage": "quantum_readiness",
+      "duration": "4 months",
+      "activities": ["Hardware evaluation", "Algorithm development", "Talent assessment"],
+      "outcome": "Quantum advantage demonstrated in Monte Carlo simulations"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "3 months",
+      "activities": ["Security implications", "Regulatory compliance", "Operational risks"],
+      "outcome": "Acceptable risk profile with proper controls"
+    },
+    {
+      "stage": "business_case",
+      "duration": "2 months",
+      "activities": ["ROI modeling", "Competitive analysis", "Implementation roadmap"],
+      "outcome": "Expected 15% improvement in risk-adjusted returns"
+    }
+  ],
+  "business_impact": {
+    "expected_alpha_generation": "$3B annually",
+    "projected_computational_speedup": "100x faster optimization",
+    "risk_factors": ["Technology immaturity", "Talent scarcity", "Cybersecurity concerns"]
+  }
+}

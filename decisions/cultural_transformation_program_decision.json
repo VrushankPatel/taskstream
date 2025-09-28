@@ -1,0 +1,40 @@
+{
+  "scenario_id": "cultural_transformation_program",
+  "context": "Traditional retail company, 10,000 employees, transitioning to digital-first culture",
+  "stakeholders": {
+    "requester": "Chief People Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Department Heads", "Employee Representatives", "Change Management Consultants"]
+  },
+  "request": {
+    "amount": "$3,200,000",
+    "purpose": "Comprehensive cultural transformation program including training, communication, and organizational redesign",
+    "urgency": "medium",
+    "justification": "Market disruption from e-commerce competitors requires agile, innovation-focused culture"
+  },
+  "decision_process": [
+    {
+      "stage": "cultural_assessment",
+      "duration": "8 weeks",
+      "activities": ["Employee surveys", "Leadership interviews", "Competitive analysis"],
+      "outcome": "Significant cultural gaps identified, transformation needed"
+    },
+    {
+      "stage": "program_design",
+      "duration": "6 weeks",
+      "activities": ["Stakeholder workshops", "Program framework development", "Budget allocation"],
+      "outcome": "Comprehensive program designed with measurable outcomes"
+    },
+    {
+      "stage": "executive_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "ROI justification", "Risk assessment"],
+      "outcome": "Approved with 18-month timeline and quarterly reviews"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": "Improved employee engagement scores, faster innovation cycles, better customer experience",
+    "projected_roi": "Intangible but critical for long-term competitiveness",
+    "risk_factors": ["Employee resistance", "Leadership commitment inconsistency", "Measurement challenges"]
+  }
+}

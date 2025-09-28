@@ -1,0 +1,47 @@
+{
+  "scenario_id": "aerospace_uas_integration_2025",
+  "context": "Commercial aerospace manufacturer expanding into unmanned aerial systems for delivery and surveillance applications",
+  "stakeholders": {
+    "requester": "VP Aerospace Innovation",
+    "approvers": ["Chief Technology Officer", "Chief Executive Officer"],
+    "influencers": ["Regulatory Affairs Director", "Safety Engineering Lead", "Business Development Manager"]
+  },
+  "request": {
+    "amount": "$75,000,000",
+    "purpose": "Integration of unmanned aerial systems into existing aerospace operations for commercial applications",
+    "urgency": "medium",
+    "justification": "Market opportunity in $10B UAS industry with synergies to existing aviation expertise"
+  },
+  "decision_process": [
+    {
+      "stage": "market_opportunity",
+      "duration": "3 weeks",
+      "activities": ["UAS market analysis", "Competitive positioning assessment", "Synergy evaluation with aviation business"],
+      "outcome": "Strong market opportunity identified"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "5 weeks",
+      "activities": ["UAS technology assessment", "Integration architecture design", "Safety certification pathway analysis"],
+      "outcome": "Technically feasible with manageable risks"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "4 weeks",
+      "activities": ["FAA certification requirements review", "International regulatory landscape", "Compliance strategy development"],
+      "outcome": "Regulatory pathway established"
+    },
+    {
+      "stage": "investment_committee",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling review", "Risk assessment presentation", "Board approval"],
+      "outcome": "Approved with $50M initial investment"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$150,000,000",
+    "projected_market_entry": "24 months",
+    "risk_factors": ["Regulatory approval delays", "Technical integration challenges", "Market adoption uncertainty"],
+    "strategic_benefits": ["Diversification into high-growth UAS market", "Leverage existing aerospace expertise", "Enhanced innovation capabilities"]
+  }
+}

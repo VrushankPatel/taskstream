@@ -1,0 +1,40 @@
+{
+  "scenario_id": "aerospace_space_tourism_operations_2025",
+  "context": "Commercial aerospace company, 500 employees, evaluating space tourism operations launch",
+  "stakeholders": {
+    "requester": "VP Space Operations",
+    "approvers": ["CEO", "CFO", "Chief Safety Officer"],
+    "influencers": ["VP Marketing", "VP Engineering", "Regulatory Affairs Director"]
+  },
+  "request": {
+    "amount": "$250,000,000",
+    "purpose": "Launch commercial space tourism operations including suborbital flights",
+    "urgency": "high",
+    "justification": "Market opportunity in emerging space tourism sector with projected $1B revenue potential"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "3 months",
+      "activities": ["Market demand analysis", "Technical capability review", "Regulatory landscape assessment"],
+      "outcome": "Proceed with detailed business case development"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "2 months",
+      "activities": ["Financial modeling", "Risk assessment", "Partnership evaluation"],
+      "outcome": "Approved with risk mitigation requirements"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "6 months",
+      "activities": ["FAA certification process", "Safety protocol development", "Insurance arrangements"],
+      "outcome": "Full regulatory approval granted"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$150,000,000 annually",
+    "projected_market_share": "35% of commercial space tourism market",
+    "risk_factors": ["Regulatory changes", "Technical failures", "Market competition", "Safety incidents"]
+  }
+}

@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_manufacturing_006"
+  title: "Circular Economy Business Model Implementation"
+  department: "Sustainable Manufacturing"
+  complexity: "high"
+  participants: ["Sustainability Director", "Product Design Lead", "Supply Chain Manager", "Operations Manager", "Marketing Manager", "Financial Planning"]
+  trigger: "Regulatory pressure, customer demand, or cost reduction opportunity"
+  steps:
+    - step: 1
+      actor: "Sustainability Director"
+      action: "Assess current linear processes and identify circular opportunities"
+      tools: ["Life cycle assessment tools", "Material flow analysis", "Sustainability audit frameworks"]
+      duration: "4 weeks"
+      outputs: ["Circular opportunity assessment", "Sustainability baseline"]
+    - step: 2
+      actor: "Product Design Lead"
+      action: "Redesign products for circularity principles"
+      decision_points: ["Design for disassembly", "Material selection", "Durability vs disposability"]
+      duration: "6 weeks"
+      outputs: ["Circular product designs", "Material specifications"]
+    - step: 3
+      actor: "Supply Chain Manager"
+      action: "Transform supply chain for circular flows"
+      tools: ["Supply chain mapping tools", "Supplier evaluation frameworks", "Reverse logistics planning"]
+      duration: "5 weeks"
+      outputs: ["Circular supply chain model", "Supplier transition plans"]
+    - step: 4
+      actor: "Operations Manager"
+      action: "Implement circular manufacturing processes"
+      tools: ["Process optimization software", "Waste reduction systems", "Quality control frameworks"]
+      duration: "6 weeks"
+      outputs: ["Circular manufacturing processes", "Waste management systems"]
+    - step: 5
+      actor: "Marketing Manager"
+      action: "Develop circular economy marketing and customer engagement"
+      decision_points: ["Customer education", "Product-as-service models", "Brand positioning"]
+      duration: "3 weeks"
+      outputs: ["Circular marketing strategy", "Customer engagement plans"]
+    - step: 6
+      actor: "Financial Planning"
+      action: "Model economic viability and develop business case"
+      tools: ["Financial modeling software", "ROI analysis tools", "Circular economy calculators"]
+      duration: "4 weeks"
+      outputs: ["Financial projections", "Business case analysis"]
+    - step: 7
+      actor: "Sustainability Director"
+      action: "Pilot circular initiatives and measure impact"
+      tools: ["Sustainability tracking dashboards", "Impact measurement frameworks"]
+      duration: "8 weeks"
+      outputs: ["Pilot results report", "Scaling recommendations"]
+  success_criteria: "50% reduction in virgin material use, 70% product circularity rate, 20% cost reduction, positive stakeholder feedback"
+  failure_modes: ["Design complexity challenges", "Supplier resistance", "Customer acceptance issues", "Economic viability concerns", "Regulatory compliance gaps"]

@@ -1,0 +1,47 @@
+{
+  "scenario_id": "communications_social_crisis_2025",
+  "context": "Global consumer brand, $10B revenue, facing increasing social media crisis frequency and severity",
+  "stakeholders": {
+    "requester": "Chief Communications Officer",
+    "approvers": ["CEO", "Chief Marketing Officer", "General Counsel"],
+    "influencers": ["Social Media Director", "Crisis Management Lead", "Brand Protection Manager"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Implement AI-powered social media crisis management platform with real-time monitoring and automated response capabilities",
+    "urgency": "high",
+    "justification": "Social media crises increased 400% in past 2 years, average response time 4 hours, brand damage costs $50M annually"
+  },
+  "decision_process": [
+    {
+      "stage": "crisis_analysis",
+      "duration": "2 weeks",
+      "activities": ["Historical crisis review", "Response time analysis", "Brand impact assessment"],
+      "outcome": "Automation need confirmed"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "4 weeks",
+      "activities": ["AI platform vendor assessment", "Integration requirements", "Scalability testing"],
+      "outcome": "Three platforms shortlisted"
+    },
+    {
+      "stage": "pilot_implementation",
+      "duration": "6 weeks",
+      "activities": ["Pilot deployment", "Response accuracy testing", "Staff training"],
+      "outcome": "Pilot successful, 60% faster response"
+    },
+    {
+      "stage": "enterprise_rollout",
+      "duration": "8 weeks",
+      "activities": ["Global deployment", "Process integration", "Performance monitoring setup"],
+      "outcome": "Platform deployed across all markets"
+    }
+  ],
+  "business_impact": {
+    "response_time": "Reduced by 70%",
+    "brand_damage_costs": "Reduced by $30,000,000",
+    "crisis_resolution": "85% resolved within 1 hour",
+    "risk_factors": ["AI false positives", "Brand voice consistency", "Platform reliability", "Employee job displacement concerns"]
+  }
+}

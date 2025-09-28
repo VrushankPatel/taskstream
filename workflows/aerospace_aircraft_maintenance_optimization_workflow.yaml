@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_aerospace_001"
+  title: "Aircraft Maintenance Optimization Process"
+  department: "Maintenance Operations"
+  complexity: "high"
+  participants: ["Maintenance Manager", "Technicians", "Quality Assurance", "Regulatory Compliance", "Supply Chain"]
+  trigger: "Scheduled maintenance cycle or component failure detection"
+  steps:
+    - step: 1
+      actor: "Maintenance Manager"
+      action: "Review maintenance schedule and aircraft condition data"
+      tools: ["Maintenance tracking system", "Aircraft health monitoring sensors"]
+      duration: "2 hours"
+      outputs: ["Maintenance priority list", "Resource allocation plan"]
+    - step: 2
+      actor: "Technicians"
+      action: "Conduct preliminary inspection and diagnostics"
+      tools: ["Diagnostic equipment", "Maintenance manuals", "Safety gear"]
+      duration: "4 hours"
+      outputs: ["Inspection report", "Component replacement requirements"]
+    - step: 3
+      actor: "Supply Chain"
+      action: "Procure required parts and materials"
+      tools: ["Inventory management system", "Supplier network"]
+      duration: "24 hours"
+      outputs: ["Parts availability confirmation", "Logistics coordination"]
+    - step: 4
+      actor: "Technicians"
+      action: "Perform maintenance procedures"
+      tools: ["Specialized tools", "Technical documentation", "Quality checklists"]
+      duration: "16 hours"
+      outputs: ["Maintenance completion records", "Component test results"]
+    - step: 5
+      actor: "Quality Assurance"
+      action: "Conduct post-maintenance inspection and testing"
+      tools: ["Testing equipment", "Regulatory compliance checklists"]
+      duration: "6 hours"
+      outputs: ["Quality assurance report", "Airworthiness certificate"]
+    - step: 6
+      actor: "Regulatory Compliance"
+      action: "Review and approve maintenance documentation"
+      tools: ["Regulatory database", "Documentation management system"]
+      duration: "4 hours"
+      outputs: ["Regulatory approval", "Updated maintenance records"]
+  success_criteria: "Aircraft returned to service with full airworthiness certification"
+  failure_modes: ["Parts unavailability delays", "Regulatory compliance issues", "Technical complications during maintenance"]

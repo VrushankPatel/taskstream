@@ -1,0 +1,40 @@
+{
+  "scenario_id": "pharma_personalized_medicine_2025",
+  "context": "Large pharmaceutical company, 10,000 employees, implementing personalized medicine platform",
+  "stakeholders": {
+    "requester": "Chief Scientific Officer",
+    "approvers": ["CEO", "Chief Medical Officer", "CFO"],
+    "influencers": ["VP R&D", "VP Commercial", "Data Privacy Officer"]
+  },
+  "request": {
+    "amount": "$180,000,000",
+    "purpose": "Develop and deploy personalized medicine platform using genomic data and AI",
+    "urgency": "medium",
+    "justification": "Competitive advantage in precision medicine market with 25% efficiency improvement in drug development"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 months",
+      "activities": ["Genomic sequencing technology assessment", "AI platform evaluation", "Data integration analysis"],
+      "outcome": "Selected leading genomic and AI technologies"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "6 months",
+      "activities": ["Clinical trial design", "Patient recruitment", "Data privacy framework development"],
+      "outcome": "Successful pilot with 40% improvement in treatment outcomes"
+    },
+    {
+      "stage": "full_scale_implementation",
+      "duration": "12 months",
+      "activities": ["Platform deployment", "Staff training", "Regulatory compliance"],
+      "outcome": "Platform fully operational across major therapeutic areas"
+    }
+  ],
+  "business_impact": {
+    "expected_revenue": "$500,000,000 annually",
+    "projected_efficiency_gain": "30% reduction in failed clinical trials",
+    "risk_factors": ["Data privacy concerns", "Regulatory hurdles", "Technology integration challenges", "High development costs"]
+  }
+}

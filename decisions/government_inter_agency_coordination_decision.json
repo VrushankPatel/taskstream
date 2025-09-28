@@ -1,0 +1,40 @@
+{
+  "scenario_id": "gov_inter_agency_coordination_2025",
+  "context": "Federal government agency, 2,000 employees, implementing inter-agency data sharing platform",
+  "stakeholders": {
+    "requester": "Chief Information Officer",
+    "approvers": ["Agency Director", "Deputy Director", "Chief Privacy Officer"],
+    "influencers": ["Department of Homeland Security liaison", "State government representatives", "Privacy advocacy groups"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Develop secure inter-agency data sharing platform for improved service delivery",
+    "urgency": "medium",
+    "justification": "Address citizen service fragmentation and improve cross-agency efficiency by 40%"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "duration": "4 months",
+      "activities": ["Stakeholder interviews", "Data flow mapping", "Security requirement assessment"],
+      "outcome": "Comprehensive requirements document with privacy safeguards"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "6 months",
+      "activities": ["3-agency pilot", "Security testing", "Privacy impact assessment"],
+      "outcome": "Pilot successful with enhanced service delivery and maintained privacy"
+    },
+    {
+      "stage": "full_implementation",
+      "duration": "18 months",
+      "activities": ["Platform deployment", "Agency onboarding", "Continuous monitoring"],
+      "outcome": "Platform operational across 15 agencies with positive efficiency gains"
+    }
+  ],
+  "business_impact": {
+    "expected_efficiency_gain": "40% reduction in duplicate data collection",
+    "projected_cost_savings": "$100,000,000 annually",
+    "risk_factors": ["Data privacy concerns", "Inter-agency trust issues", "Technical integration challenges", "Regulatory compliance"]
+  }
+}

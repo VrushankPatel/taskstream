@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_food_service_safety"
+  title: "Food Safety Management Workflow"
+  department: "Food Service Operations"
+  complexity: "medium"
+  participants: ["Food Safety Manager", "Kitchen Supervisors", "Quality Control Inspectors", "Supply Chain Managers", "Training Coordinators"]
+  trigger: "Routine inspection schedule or safety incident"
+  steps:
+    - step: 1
+      actor: "Food Safety Manager"
+      action: "Conduct daily safety inspections and temperature checks"
+      tools: ["Inspection checklists", "Temperature monitoring devices", "Digital logging systems"]
+      duration: "2 hours daily"
+      outputs: ["Daily inspection reports", "Temperature logs"]
+    - step: 2
+      actor: "Quality Control Inspectors"
+      action: "Perform supplier quality audits and ingredient testing"
+      tools: ["Quality audit templates", "Testing equipment", "Supplier evaluation forms"]
+      duration: "4 hours weekly"
+      outputs: ["Supplier audit reports", "Testing results documentation"]
+    - step: 3
+      actor: "Kitchen Supervisors"
+      action: "Monitor food preparation procedures and staff compliance"
+      tools: ["Procedure checklists", "Training verification forms", "Performance monitoring tools"]
+      duration: "Ongoing"
+      outputs: ["Compliance monitoring reports", "Staff performance records"]
+    - step: 4
+      actor: "Training Coordinators"
+      action: "Deliver food safety training and certification programs"
+      tools: ["Training management system", "Certification tracking", "Educational materials"]
+      duration: "8 hours monthly"
+      outputs: ["Training completion certificates", "Certification records"]
+    - step: 5
+      actor: "Supply Chain Managers"
+      action: "Manage supplier relationships and quality assurance"
+      tools: ["Supplier management platform", "Quality scorecards", "Contract review templates"]
+      duration: "4 hours weekly"
+      outputs: ["Supplier performance reports", "Quality improvement plans"]
+    - step: 6
+      actor: "Food Safety Manager"
+      action: "Review incident reports and implement corrective actions"
+      tools: ["Incident reporting system", "Root cause analysis tools", "Corrective action plans"]
+      duration: "As needed"
+      outputs: ["Incident analysis reports", "Corrective action implementation"]
+  success_criteria: "Zero food safety violations and 100% staff certification compliance"
+  failure_modes: ["Inadequate temperature control", "Supplier quality issues", "Staff training gaps", "Documentation errors"]

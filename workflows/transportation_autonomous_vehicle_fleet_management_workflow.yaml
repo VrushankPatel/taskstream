@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_transportation_001"
+  title: "Autonomous Vehicle Fleet Management"
+  department: "Transportation Operations"
+  complexity: "high"
+  participants: ["Fleet Manager", "Safety Officer", "IT Security", "Legal", "Maintenance Team", "Data Analytics"]
+  trigger: "Fleet expansion or technology upgrade requirement"
+  steps:
+    - step: 1
+      actor: "Fleet Manager"
+      action: "Assess current fleet performance and identify upgrade needs"
+      tools: ["Fleet management software", "Vehicle telematics data", "Performance dashboards"]
+      duration: "2 weeks"
+      outputs: ["Fleet assessment report", "Upgrade requirements document"]
+    - step: 2
+      actor: "Safety Officer"
+      action: "Conduct safety risk assessment for autonomous operations"
+      decision_points: ["Regulatory compliance", "Safety certification requirements", "Insurance coverage"]
+      duration: "1 week"
+      outputs: ["Safety risk assessment", "Compliance checklist"]
+    - step: 3
+      actor: "IT Security"
+      action: "Evaluate cybersecurity requirements for autonomous systems"
+      tools: ["Security assessment frameworks", "Vulnerability scanning tools"]
+      duration: "1 week"
+      outputs: ["Cybersecurity assessment report", "Security implementation plan"]
+    - step: 4
+      actor: "Legal"
+      action: "Review regulatory compliance and liability frameworks"
+      decision_points: ["Jurisdiction requirements", "Insurance implications", "Data privacy laws"]
+      duration: "2 weeks"
+      outputs: ["Legal compliance review", "Liability assessment"]
+    - step: 5
+      actor: "Data Analytics"
+      action: "Analyze route optimization and predictive maintenance data"
+      tools: ["AI analytics platforms", "Machine learning models", "Historical performance data"]
+      duration: "1 week"
+      outputs: ["Route optimization analysis", "Predictive maintenance models"]
+    - step: 6
+      actor: "Maintenance Team"
+      action: "Develop maintenance protocols for autonomous vehicles"
+      tools: ["Maintenance scheduling software", "Diagnostic tools"]
+      duration: "1 week"
+      outputs: ["Maintenance protocol documentation", "Training materials"]
+    - step: 7
+      actor: "Fleet Manager"
+      action: "Implement pilot program and monitor performance"
+      tools: ["Real-time monitoring dashboards", "Feedback collection systems"]
+      duration: "4 weeks"
+      outputs: ["Pilot program results", "Performance metrics report"]
+  success_criteria: "Fleet efficiency improved by 25%, safety incidents reduced by 40%, regulatory compliance maintained"
+  failure_modes: ["Technical failures during pilot", "Regulatory non-compliance", "Insufficient training", "Cybersecurity vulnerabilities"]

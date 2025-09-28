@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_energy_004"
+  title: "Hydrogen Economy Infrastructure Development"
+  department: "Energy Infrastructure"
+  complexity: "high"
+  participants: ["Infrastructure Director", "Engineering Lead", "Regulatory Affairs", "Safety Manager", "Supply Chain Manager", "Financial Planning"]
+  trigger: "Government hydrogen initiative or market opportunity identification"
+  steps:
+    - step: 1
+      actor: "Infrastructure Director"
+      action: "Conduct market analysis and infrastructure gap assessment"
+      tools: ["Market research databases", "Infrastructure mapping tools", "Demand forecasting models"]
+      duration: "4 weeks"
+      outputs: ["Market analysis report", "Infrastructure requirements document"]
+    - step: 2
+      actor: "Engineering Lead"
+      action: "Design hydrogen production, storage, and distribution systems"
+      decision_points: ["Production technology selection", "Storage solutions", "Distribution network design"]
+      duration: "6 weeks"
+      outputs: ["Technical design specifications", "Engineering feasibility study"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Navigate regulatory approvals and permitting processes"
+      tools: ["Regulatory compliance databases", "Permitting software", "Legal consultation systems"]
+      duration: "8 weeks"
+      outputs: ["Regulatory approval roadmap", "Compliance documentation"]
+    - step: 4
+      actor: "Safety Manager"
+      action: "Develop comprehensive safety protocols and risk management"
+      tools: ["Risk assessment frameworks", "Safety management systems", "Emergency response planning"]
+      duration: "4 weeks"
+      outputs: ["Safety management plan", "Risk mitigation strategies"]
+    - step: 5
+      actor: "Supply Chain Manager"
+      action: "Establish supply chain for hydrogen production materials"
+      decision_points: ["Supplier selection criteria", "Logistics planning", "Cost optimization"]
+      duration: "3 weeks"
+      outputs: ["Supply chain strategy", "Vendor contracts"]
+    - step: 6
+      actor: "Financial Planning"
+      action: "Develop financial model and funding strategy"
+      tools: ["Financial modeling software", "Grant application systems", "Investment analysis tools"]
+      duration: "4 weeks"
+      outputs: ["Financial projections", "Funding strategy document"]
+    - step: 7
+      actor: "Infrastructure Director"
+      action: "Execute pilot project and scale infrastructure development"
+      tools: ["Project management software", "Progress tracking dashboards"]
+      duration: "12 weeks"
+      outputs: ["Pilot project results", "Scaling roadmap"]
+  success_criteria: "Infrastructure capacity of 100 tons/day achieved, regulatory compliance maintained, safety incidents at zero, cost per kg competitive"
+  failure_modes: ["Regulatory delays", "Technology scaling issues", "Safety concerns", "Funding shortfalls", "Supply chain disruptions"]

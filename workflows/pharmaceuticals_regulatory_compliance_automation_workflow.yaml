@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_pharma_regulatory_automation"
+  title: "Regulatory Compliance Automation Workflow"
+  department: "Pharmaceutical Compliance"
+  complexity: "high"
+  participants: ["Chief Compliance Officer", "Regulatory Affairs Specialists", "IT Compliance Team", "Quality Assurance Managers", "Legal Counsel"]
+  trigger: "New regulatory requirement or compliance deadline"
+  steps:
+    - step: 1
+      actor: "Regulatory Affairs Specialists"
+      action: "Analyze new regulatory requirements and impact assessment"
+      tools: ["Regulatory databases", "Impact assessment templates", "Stakeholder consultation tools"]
+      duration: "1 week"
+      outputs: ["Regulatory impact analysis", "Compliance gap assessment"]
+    - step: 2
+      actor: "IT Compliance Team"
+      action: "Design automated compliance monitoring systems"
+      tools: ["Compliance software platforms", "API integration tools", "Data mapping tools"]
+      duration: "3 weeks"
+      outputs: ["System design specifications", "Automation workflow diagrams"]
+    - step: 3
+      actor: "Quality Assurance Managers"
+      action: "Develop validation protocols and testing procedures"
+      tools: ["Validation master plans", "Testing scripts", "Quality management systems"]
+      duration: "2 weeks"
+      outputs: ["Validation protocols", "Testing procedures document"]
+    - step: 4
+      actor: "Chief Compliance Officer"
+      action: "Review and approve automation implementation plan"
+      tools: ["Risk assessment frameworks", "Approval checklists", "Executive briefing materials"]
+      duration: "1 week"
+      outputs: ["Implementation approval", "Risk mitigation plan"]
+    - step: 5
+      actor: "IT Compliance Team"
+      action: "Implement and test automated compliance systems"
+      tools: ["Development environments", "Testing frameworks", "User acceptance testing tools"]
+      duration: "4 weeks"
+      outputs: ["System implementation report", "Testing results documentation"]
+    - step: 6
+      actor: "Regulatory Affairs Specialists"
+      action: "Conduct training and change management for staff"
+      tools: ["Training management systems", "Change management frameworks", "Communication templates"]
+      duration: "2 weeks"
+      outputs: ["Training completion records", "Change management report"]
+  success_criteria: "Automated compliance systems operational with 99% accuracy and full regulatory adherence"
+  failure_modes: ["Incomplete regulatory coverage", "System integration failures", "Insufficient user training", "Data accuracy issues"]

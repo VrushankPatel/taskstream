@@ -1,0 +1,50 @@
+workflow:
+  id: "workflow_026_006"
+  title: "Hydrogen Fuel Infrastructure Development"
+  department: "Infrastructure Development"
+  complexity: "high"
+  participants: ["Energy Engineer", "Regulatory Affairs Specialist", "Supply Chain Manager", "Safety Compliance Officer"]
+  trigger: "Government funding approval for hydrogen infrastructure"
+  steps:
+    - step: 1
+      actor: "Energy Engineer"
+      action: "Assess hydrogen production and distribution requirements"
+      decision_points: ["Production Methods", "Storage Solutions", "Distribution Network"]
+      tools: ["Energy Modeling Software", "Infrastructure Planning Tools"]
+      duration: "8 weeks"
+      outputs: ["Infrastructure Requirements Study"]
+    - step: 2
+      actor: "Regulatory Affairs Specialist"
+      action: "Navigate permitting and regulatory approval processes"
+      decision_points: ["Environmental Impact", "Safety Standards", "Zoning Requirements"]
+      tools: ["Regulatory Database", "Permit Application Systems"]
+      duration: "12 weeks"
+      outputs: ["Regulatory Approvals"]
+    - step: 3
+      actor: "Supply Chain Manager"
+      action: "Procure hydrogen production equipment and materials"
+      decision_points: ["Vendor Selection", "Supply Chain Reliability", "Cost Optimization"]
+      tools: ["Procurement Platform", "Supply Chain Analytics"]
+      duration: "10 weeks"
+      outputs: ["Procurement Contracts"]
+    - step: 4
+      actor: "Energy Engineer"
+      action: "Design and engineer hydrogen infrastructure systems"
+      tools: ["Engineering Design Software", "Simulation Tools"]
+      duration: "16 weeks"
+      outputs: ["Engineering Designs"]
+    - step: 5
+      actor: "Safety Compliance Officer"
+      action: "Implement safety protocols and emergency response systems"
+      decision_points: ["Risk Assessment", "Safety Standards", "Emergency Procedures"]
+      tools: ["Safety Management System", "Risk Analysis Tools"]
+      duration: "8 weeks"
+      outputs: ["Safety and Emergency Plans"]
+    - step: 6
+      actor: "Energy Engineer"
+      action: "Oversee construction and commissioning of infrastructure"
+      tools: ["Project Management Software", "Quality Control Systems"]
+      duration: "24 weeks"
+      outputs: ["Operational Hydrogen Infrastructure"]
+  success_criteria: "Hydrogen fueling stations operational with reliable supply chain"
+  failure_modes: ["Regulatory delays extending timeline", "Technology maturity issues", "High infrastructure costs exceeding budget"]

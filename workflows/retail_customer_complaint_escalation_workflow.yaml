@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_retail_customer_complaint_escalation"
+  title: "Retail Customer Complaint Escalation Process"
+  department: "Customer Service"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Supervisor", "Manager"]
+  trigger: "Customer complaint cannot be resolved at initial contact"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Document complaint details and attempt resolution"
+      tools: ["CRM System", "Product Knowledge Base"]
+      duration: "10 minutes"
+      outputs: ["Complaint Log", "Initial Resolution Attempt"]
+    - step: 2
+      actor: "Supervisor"
+      action: "Review complaint and provide guidance"
+      tools: ["CRM System", "Escalation Guidelines"]
+      duration: "15 minutes"
+      outputs: ["Escalation Decision", "Resolution Plan"]
+    - step: 3
+      actor: "Manager"
+      action: "Approve final resolution and communicate to customer"
+      tools: ["CRM System", "Approval Workflow"]
+      duration: "20 minutes"
+      outputs: ["Resolution Confirmation", "Customer Follow-up"]
+  success_criteria: "Customer satisfaction achieved within 24 hours"
+  failure_modes: ["Delayed response time", "Inadequate resolution"]
+  metrics:
+    - "Resolution Time: <24 hours"
+    - "Customer Satisfaction Score: >4.5/5"
+    - "Escalation Rate: <5%"

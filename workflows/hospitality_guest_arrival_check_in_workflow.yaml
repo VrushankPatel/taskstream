@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_hospitality_guest_arrival_check_in"
+  title: "Hospitality Guest Arrival Check-in Process"
+  department: "Front Desk Operations"
+  complexity: "medium"
+  participants: ["Front Desk Agent", "Concierge", "Housekeeping Coordinator", "Manager"]
+  trigger: "Guest arrival at hotel"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Verify reservation and collect guest information"
+      tools: ["PMS System", "ID Scanner", "Credit Card Terminal"]
+      duration: "5 minutes"
+      outputs: ["Guest Profile", "Room Assignment"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Process payment and issue room key"
+      tools: ["PMS System", "Key Card Encoder"]
+      duration: "3 minutes"
+      outputs: ["Payment Confirmation", "Room Key"]
+    - step: 3
+      actor: "Concierge"
+      action: "Provide welcome amenities and local information"
+      tools: ["Guest Services Guide", "Local Attractions Database"]
+      duration: "5 minutes"
+      outputs: ["Welcome Package", "Local Recommendations"]
+    - step: 4
+      actor: "Housekeeping Coordinator"
+      action: "Confirm room readiness and assign cleaning schedule"
+      tools: ["Room Status System", "Housekeeping App"]
+      duration: "2 minutes"
+      outputs: ["Room Status Update", "Cleaning Schedule"]
+    - step: 5
+      actor: "Manager"
+      action: "Review VIP guest arrivals and special requests"
+      tools: ["VIP Guest List", "Special Requests Log"]
+      duration: "5 minutes"
+      outputs: ["VIP Service Plan", "Special Accommodations"]
+  success_criteria: "Guest checked in within 10 minutes of arrival"
+  failure_modes: ["System downtime", "Room not ready", "Payment issues"]
+  metrics:
+    - "Check-in Time: <10 minutes"
+    - "Guest Satisfaction Score: >4.8/5"
+    - "Room Readiness Rate: >98%"

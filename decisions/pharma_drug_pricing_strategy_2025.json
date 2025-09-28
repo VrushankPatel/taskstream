@@ -1,0 +1,37 @@
+{
+  "scenario_id": "pharma_drug_pricing_strategy_2025",
+  "context": "Mid-sized pharmaceutical company launching new oncology drug, facing pricing pressure from payers and competitors",
+  "stakeholders": {
+    "requester": "VP Commercial",
+    "approvers": ["CEO", "CFO", "Chief Medical Officer"],
+    "influencers": ["Head of Market Access", "VP R&D", "Regulatory Affairs Lead"]
+  },
+  "request": {
+    "amount": "$500,000",
+    "purpose": "Market research and pricing strategy development for new oncology compound",
+    "urgency": "high",
+    "justification": "Competitive market requires optimal pricing to maximize patient access and revenue"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "2 weeks",
+      "activities": ["Competitor pricing analysis", "Payer reimbursement landscape assessment", "Patient access modeling"],
+      "outcome": "Identified pricing range of $50,000-$80,000 per treatment course"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "1 week",
+      "activities": ["Cross-functional pricing committee meetings", "Financial modeling review", "Regulatory compliance check"],
+      "outcome": "Approved $65,000 base price with value-based contracting options"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Launch successful with 70% market penetration in first year",
+    "projected_value": "$150 million annual revenue",
+    "risk_factors": ["Payer pushback on pricing", "Competitor entry", "Regulatory pricing controls"]
+  },
+  "decision_criteria": ["Patient access and affordability", "Revenue maximization", "Competitive positioning", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder alignment crucial for pricing strategy success, value-based contracts provide flexibility for market access challenges"
+}

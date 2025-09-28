@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_retail_customer_return"
+  title: "Retail Customer Return Process"
+  department: "Customer Service"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Store Manager", "Inventory Specialist"]
+  trigger: "Customer requests product return"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Verify return eligibility and inspect product condition"
+      tools: ["POS System", "Return Policy Guidelines"]
+      duration: "10 minutes"
+      outputs: ["Return Authorization"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Process refund or exchange through POS system"
+      tools: ["POS System", "Payment Processor"]
+      duration: "5 minutes"
+      outputs: ["Refund Confirmation", "Updated Inventory"]
+  success_criteria: "Customer satisfied with resolution, inventory accurately updated"
+  failure_modes: ["Damaged product beyond policy", "Missing receipt", "Policy violation"]
+  metrics:
+    - "Return Rate: <5% of sales"
+    - "Customer Satisfaction: >90% for return experiences"
+    - "Processing Time: <15 minutes average"

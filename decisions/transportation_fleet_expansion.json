@@ -1,0 +1,43 @@
+{
+  "scenario_id": "transportation_fleet_electric_expansion_2025",
+  "context": "Regional transportation company considering transition to electric vehicle fleet",
+  "stakeholders": {
+    "requester": "Fleet Operations Director",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Maintenance Manager", "Procurement Lead", "Environmental Compliance Officer"]
+  },
+  "request": {
+    "amount": "$8 million",
+    "purpose": "Purchase 50 electric delivery vehicles and charging infrastructure",
+    "urgency": "high",
+    "justification": "Regulatory requirements and fuel cost savings drive transition to zero-emission fleet"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "4 weeks",
+      "activities": ["Vehicle specification review", "Charging infrastructure planning", "Cost-benefit analysis"],
+      "outcome": "Identified 25% operational cost savings and regulatory compliance benefits"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "3 months",
+      "activities": ["5-vehicle pilot deployment", "Performance monitoring", "Driver training evaluation"],
+      "outcome": "Successful pilot with 98% uptime and positive driver feedback"
+    },
+    {
+      "stage": "full_rollout_approval",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling finalization", "Vendor contract negotiation", "Implementation timeline development"],
+      "outcome": "Approved phased rollout over 18 months"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in fleet operating costs and carbon emissions",
+    "projected_value": "$2 million annual savings",
+    "risk_factors": ["Charging infrastructure limitations", "Battery technology obsolescence", "Higher upfront capital costs"]
+  },
+  "decision_criteria": ["Total cost of ownership", "Environmental impact", "Operational reliability", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for validating new technology adoption, infrastructure planning critical for electric vehicle success"
+}

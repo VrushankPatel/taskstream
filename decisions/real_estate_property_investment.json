@@ -1,0 +1,37 @@
+{
+  "scenario_id": "real_estate_property_acquisition_2025",
+  "context": "Real estate investment firm evaluating acquisition of downtown commercial property for redevelopment",
+  "stakeholders": {
+    "requester": "Investment Director",
+    "approvers": ["Managing Partner", "CFO", "Head of Asset Management"],
+    "influencers": ["Property Manager", "Market Analyst", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$25 million",
+    "purpose": "Acquisition and redevelopment of 50,000 sq ft commercial building",
+    "urgency": "medium",
+    "justification": "Strong location fundamentals with 15% projected NOI growth over 5 years"
+  },
+  "decision_process": [
+    {
+      "stage": "due_diligence",
+      "duration": "6 weeks",
+      "activities": ["Property inspection and appraisal", "Financial analysis and underwriting", "Market comparables research"],
+      "outcome": "Confirmed $22 million fair market value with redevelopment potential"
+    },
+    {
+      "stage": "investment_committee_review",
+      "duration": "2 weeks",
+      "activities": ["Risk assessment presentation", "Financial modeling review", "Exit strategy evaluation"],
+      "outcome": "Approved with 10% equity investment and debt financing"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% IRR over 7-year hold period with value-add redevelopment",
+    "projected_value": "$35 million exit value",
+    "risk_factors": ["Market downturn impact", "Construction cost overruns", "Tenant retention challenges"]
+  },
+  "decision_criteria": ["IRR target achievement", "Location quality and fundamentals", "Redevelopment upside", "Risk-adjusted returns"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive due diligence essential for commercial acquisitions, redevelopment strategy significantly impacts returns"
+}

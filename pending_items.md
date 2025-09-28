@@ -257,6 +257,12 @@
 - Cross-industry sustainability frameworks
 - Crisis management in service sectors
 - Employee digital transformation training
+- Retail customer data analytics and personalization
+- Hospitality workforce management and staffing optimization
+- Insurance fraud detection and prevention systems
+- Pharmaceutical clinical trial diversity and inclusion
+- Real estate affordable housing development models
+- Transportation last-mile delivery optimization
 
 **Content Gaps Identified:**
 - Simple and medium complexity workflows in traditional industries

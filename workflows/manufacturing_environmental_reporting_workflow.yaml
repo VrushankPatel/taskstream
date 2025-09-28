@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_049_009"
+  title: "Manufacturing Environmental Reporting Workflow"
+  department: "Environmental Sustainability"
+  complexity: "medium"
+  participants: ["Environmental Manager", "Operations Teams", "Data Analytics", "Compliance Officer", "External Auditors", "Executive Leadership"]
+  trigger: "Annual reporting cycle or regulatory deadline"
+  steps:
+    - step: 1
+      actor: "Environmental Manager"
+      action: "Define reporting scope and gather data requirements"
+      tools: ["Environmental reporting frameworks", "Data collection templates"]
+      duration: "2 weeks"
+      outputs: ["Reporting scope", "Data requirements"]
+    - step: 2
+      actor: "Operations Teams"
+      action: "Collect environmental data from all facilities"
+      tools: ["IoT sensors", "Manual data collection systems", "SCADA systems"]
+      duration: "6 weeks"
+      outputs: ["Raw environmental data", "Facility reports"]
+    - step: 3
+      actor: "Data Analytics"
+      action: "Process and analyze environmental data"
+      tools: ["Data analytics platforms", "Environmental modeling software"]
+      duration: "4 weeks"
+      outputs: ["Processed data", "Environmental impact analysis"]
+    - step: 4
+      actor: "Compliance Officer"
+      action: "Ensure regulatory compliance and accuracy"
+      tools: ["Regulatory databases", "Compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Compliance verification", "Regulatory filings"]
+    - step: 5
+      actor: "External Auditors"
+      action: "Conduct independent verification of data and processes"
+      tools: ["Audit protocols", "Data verification tools"]
+      duration: "2 weeks"
+      outputs: ["Audit report", "Data verification"]
+    - step: 6
+      actor: "Executive Leadership"
+      action: "Review and approve final environmental report"
+      tools: ["Executive dashboards", "Stakeholder communication tools"]
+      duration: "1 week"
+      outputs: ["Final environmental report", "Stakeholder communications"]
+  success_criteria: "Accurate environmental report submitted on time with regulatory compliance"
+  failure_modes: ["Data collection gaps", "Regulatory non-compliance", "Audit findings"]

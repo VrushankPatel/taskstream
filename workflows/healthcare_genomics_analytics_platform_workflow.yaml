@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_049_008"
+  title: "Healthcare Genomics Analytics Platform Workflow"
+  department: "Genomics & Precision Medicine"
+  complexity: "high"
+  participants: ["Genomics Director", "Bioinformatics Team", "Clinical Informatics", "Data Privacy Officer", "IT Infrastructure", "Clinical Stakeholders"]
+  trigger: "Funding approval for genomics analytics platform"
+  steps:
+    - step: 1
+      actor: "Genomics Director"
+      action: "Define platform requirements and clinical use cases"
+      tools: ["Requirements gathering tools", "Use case analysis frameworks"]
+      duration: "6 weeks"
+      outputs: ["Platform requirements", "Use case specifications"]
+    - step: 2
+      actor: "Data Privacy Officer"
+      action: "Develop privacy and security framework for genomic data"
+      tools: ["Privacy impact assessment tools", "Security frameworks"]
+      duration: "4 weeks"
+      outputs: ["Privacy framework", "Security requirements"]
+    - step: 3
+      actor: "Bioinformatics Team"
+      action: "Design analytics algorithms and data processing pipelines"
+      tools: ["Bioinformatics software", "Data pipeline tools"]
+      duration: "8 weeks"
+      outputs: ["Analytics algorithms", "Data processing pipelines"]
+    - step: 4
+      actor: "IT Infrastructure"
+      action: "Implement secure cloud infrastructure and data storage"
+      tools: ["Cloud platforms", "Security tools", "Data storage systems"]
+      duration: "6 weeks"
+      outputs: ["Cloud infrastructure", "Secure data storage"]
+    - step: 5
+      actor: "Clinical Informatics"
+      action: "Integrate with electronic health records and clinical workflows"
+      tools: ["EHR integration tools", "Workflow analysis software"]
+      duration: "8 weeks"
+      outputs: ["EHR integration", "Clinical workflow integration"]
+    - step: 6
+      actor: "Clinical Stakeholders"
+      action: "Validate platform and conduct clinical pilot testing"
+      tools: ["Clinical validation frameworks", "Pilot testing protocols"]
+      duration: "6 weeks"
+      outputs: ["Validation results", "Pilot testing outcomes"]
+  success_criteria: "Platform processes 100,000 genomes annually with clinical decision support"
+  failure_modes: ["Privacy compliance issues", "Technical integration challenges", "Clinical adoption barriers"]

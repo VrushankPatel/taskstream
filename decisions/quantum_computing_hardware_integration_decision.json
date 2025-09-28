@@ -1,0 +1,46 @@
+{
+  "scenario_id": "quantum_hardware_integration_2025",
+  "context": "Global technology company, 50,000 employees, investing in quantum computing capabilities for optimization problems",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO", "Chief Information Officer"],
+    "influencers": ["Head of Research", "VP Engineering", "Quantum Computing Lead"]
+  },
+  "request": {
+    "amount": "$250,000,000",
+    "purpose": "Build quantum computing data center with 1000+ qubit systems",
+    "urgency": "high",
+    "justification": "Competitive advantage in logistics optimization and drug discovery"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "duration": "3 months",
+      "activities": ["Vendor evaluations", "Infrastructure requirements assessment", "Integration planning"],
+      "outcome": "Feasible with identified vendors and partnerships"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "2 months",
+      "activities": ["ROI modeling", "Competitive analysis", "Use case prioritization"],
+      "outcome": "Strong business case with 3-year payback period"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "1 month",
+      "activities": ["Technology risk evaluation", "Regulatory compliance review", "Talent acquisition planning"],
+      "outcome": "Acceptable risk profile with mitigation strategies"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Strategic alignment review", "Final approval"],
+      "outcome": "Approved with phased implementation approach"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["50% improvement in supply chain optimization", "Accelerated drug discovery timelines"],
+    "projected_revenue": "$500,000,000 in new business opportunities",
+    "risk_factors": ["Technology immaturity", "High operational costs", "Talent scarcity"]
+  }
+}

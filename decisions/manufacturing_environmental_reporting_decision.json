@@ -1,0 +1,46 @@
+{
+  "scenario_id": "environmental_reporting_2025",
+  "context": "Industrial manufacturing company, 75,000 employees, implementing comprehensive environmental reporting and circular economy initiatives",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board ESG Committee"],
+    "influencers": ["Head of Operations", "Environmental Compliance Director", "Investor Relations"]
+  },
+  "request": {
+    "amount": "$25,000,000",
+    "purpose": "Deploy enterprise environmental reporting platform and circular economy programs",
+    "urgency": "medium",
+    "justification": "Regulatory compliance and investor requirements for sustainability reporting"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "2 months",
+      "activities": ["CSRD compliance analysis", "SEC climate disclosure review", "Global reporting standards evaluation"],
+      "outcome": "Mandatory reporting requirements identified with significant penalties for non-compliance"
+    },
+    {
+      "stage": "data_capability_audit",
+      "duration": "3 months",
+      "activities": ["Current data systems assessment", "Gap analysis", "Technology requirements definition"],
+      "outcome": "Comprehensive data collection and reporting platform needed"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "1 month",
+      "activities": ["Employee surveys", "Supplier consultations", "Investor feedback sessions"],
+      "outcome": "Strong support for sustainability initiatives with specific expectations"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Competitive advantage assessment", "Risk mitigation planning"],
+      "outcome": "Positive ROI through cost savings, brand enhancement, and regulatory compliance"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Regulatory compliance", "Enhanced brand reputation", "Cost savings through efficiency"],
+    "projected_revenue": "$500,000,000 in avoided penalties and new sustainable business opportunities",
+    "risk_factors": ["Data quality issues", "Implementation complexity", "Competitor sustainability advantages"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "scenario_id": "supply_chain_digitization_2025",
+  "context": "Global manufacturing company, 150,000 employees, transforming supply chain operations with digital technologies",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
+    "influencers": ["Head of Digital Transformation", "IT Director", "Supplier Relations VP"]
+  },
+  "request": {
+    "amount": "$300,000,000",
+    "purpose": "Implement end-to-end supply chain digitization across 500 global facilities",
+    "urgency": "high",
+    "justification": "Resilience improvement and cost reduction in volatile market conditions"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "3 months",
+      "activities": ["Supply chain mapping", "Pain point identification", "Benchmarking analysis"],
+      "outcome": "Clear digital transformation opportunities identified"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 months",
+      "activities": ["Vendor platform assessment", "Proof of concept pilots", "Integration testing"],
+      "outcome": "Selected comprehensive digital supply chain platform"
+    },
+    {
+      "stage": "change_management_planning",
+      "duration": "2 months",
+      "activities": ["Stakeholder impact analysis", "Training program development", "Communication strategy"],
+      "outcome": "Comprehensive change management plan developed"
+    },
+    {
+      "stage": "roi_modeling",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Risk assessment", "Implementation roadmap"],
+      "outcome": "Strong ROI case with 2-year payback period"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["30% reduction in supply chain costs", "50% improvement in on-time delivery", "Enhanced visibility and resilience"],
+    "projected_revenue": "$1,500,000,000 in cost savings and efficiency gains",
+    "risk_factors": ["Supplier digital readiness", "Integration complexity", "Change resistance"]
+  }
+}

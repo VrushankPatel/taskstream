@@ -1,0 +1,46 @@
+{
+  "scenario_id": "genomics_analytics_platform_2025",
+  "context": "Academic medical center, 5,000 employees, implementing large-scale genomics analytics for precision medicine",
+  "stakeholders": {
+    "requester": "Chief Medical Officer",
+    "approvers": ["CEO", "Chief Information Officer", "Board Medical Affairs Committee"],
+    "influencers": ["Head of Genomics", "Chief Privacy Officer", "Research Director"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Deploy enterprise genomics analytics platform for 100,000 patient genomes",
+    "urgency": "medium",
+    "justification": "Enable precision medicine initiatives and research breakthroughs"
+  },
+  "decision_process": [
+    {
+      "stage": "clinical_validation",
+      "duration": "4 months",
+      "activities": ["Clinical utility studies", "Physician feedback sessions", "Outcome analysis"],
+      "outcome": "Strong clinical evidence for improved patient outcomes"
+    },
+    {
+      "stage": "technical_architecture",
+      "duration": "3 months",
+      "activities": ["Platform vendor evaluation", "Integration requirements", "Scalability testing"],
+      "outcome": "Selected best-in-class platform with proven security and performance"
+    },
+    {
+      "stage": "privacy_compliance",
+      "duration": "2 months",
+      "activities": ["HIPAA compliance review", "Patient consent frameworks", "Data governance policies"],
+      "outcome": "Comprehensive privacy framework developed"
+    },
+    {
+      "stage": "funding_secured",
+      "duration": "3 months",
+      "activities": ["Grant applications", "Philanthropic partnerships", "Institutional funding"],
+      "outcome": "Full funding secured through multiple sources"
+    }
+  ],
+  "business_impact": {
+    "expected_benefits": ["Improved patient outcomes", "Research publications", "Competitive advantage in precision medicine"],
+    "projected_revenue": "$200,000,000 in research grants and partnerships",
+    "risk_factors": ["Data privacy concerns", "Technical integration challenges", "Clinical adoption barriers"]
+  }
+}

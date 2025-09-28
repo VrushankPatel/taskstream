@@ -1,0 +1,40 @@
+workflow:
+  id: "advanced_robotics_workforce_transition_workflow"
+  title: "Advanced Robotics Workforce Transition Workflow"
+  department: "Manufacturing Operations"
+  complexity: "medium"
+  participants: ["Operations Manager", "HR Specialist", "Training Coordinator", "Union Representative", "Finance Analyst"]
+  trigger: "Decision to implement collaborative robotics in production line"
+  steps:
+    - step: 1
+      actor: "Operations Manager"
+      action: "Assess current workforce skills and identify transition needs"
+      tools: ["Workforce analytics", "Skills assessment tools", "Process mapping software"]
+      duration: "2 weeks"
+      outputs: ["Workforce assessment report", "Skills gap analysis"]
+    - step: 2
+      actor: "HR Specialist"
+      action: "Develop transition plan and support programs"
+      decision_points: ["Retraining vs redeployment", "Severance packages", "Career transition support"]
+      duration: "3 weeks"
+      outputs: ["Transition plan document", "Support program framework"]
+    - step: 3
+      actor: "Training Coordinator"
+      action: "Design and implement training programs"
+      tools: ["Learning management system", "VR training modules", "Certification programs"]
+      duration: "8 weeks"
+      outputs: ["Training curriculum", "Certification records", "Skills assessment results"]
+    - step: 4
+      actor: "Union Representative"
+      action: "Negotiate workforce agreements and representation"
+      tools: ["Collective bargaining agreements", "Labor law references", "Mediation protocols"]
+      duration: "4 weeks"
+      outputs: ["Labor agreements", "Representation framework"]
+    - step: 5
+      actor: "Finance Analyst"
+      action: "Monitor transition costs and ROI tracking"
+      decision_points: ["Budget allocation", "Cost-benefit analysis", "ROI milestones"]
+      duration: "Ongoing"
+      outputs: ["Cost tracking reports", "ROI analysis", "Budget adjustments"]
+  success_criteria: "Workforce successfully transitioned with minimal disruption"
+  failure_modes: ["Resistance to change", "Skills mismatch", "Union disputes"]

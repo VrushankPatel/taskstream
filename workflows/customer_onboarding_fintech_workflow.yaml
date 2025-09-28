@@ -30,5 +30,10 @@ workflow:
       tools: ["Training platform", "Knowledge base", "Support ticketing"]
       duration: "1-2 weeks"
       outputs: ["Training completion certificate", "Support plan established"]
-  success_criteria: "Customer actively using platform with positive feedback"
-  failure_modes: ["Compliance issues", "Technical setup problems", "Poor user adoption"]
+   success_criteria: "Customer actively using platform with positive feedback"
+   failure_modes: ["Compliance issues", "Technical setup problems", "Poor user adoption"]
+   metrics:
+     - "Onboarding completion rate: >90% within 30 days"
+     - "KYC approval time: <5 business days average"
+     - "Platform activation rate: >85% of onboarded customers"
+     - "Customer satisfaction score: >4.5/5 post-onboarding"

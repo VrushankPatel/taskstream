@@ -30,5 +30,8 @@
     "expected_leads": 2000,
     "projected_revenue": "$2,500,000",
     "risk_factors": ["Market uncertainty", "Campaign execution risk", "Competitor response"]
-  }
+  },
+  "decision_criteria": ["ROI potential", "Strategic alignment", "Execution feasibility", "Risk assessment", "Resource availability"],
+  "outcome": "Approved",
+  "lessons_learned": "Detailed ROI modeling was crucial for approval; cross-functional alignment improved campaign effectiveness"
 }

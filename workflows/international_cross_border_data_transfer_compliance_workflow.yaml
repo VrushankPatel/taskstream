@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_international_data_transfer_compliance"
+  title: "International Cross-Border Data Transfer Compliance Workflow"
+  department: "Legal/Compliance"
+  complexity: "complex"
+  participants: ["Chief Privacy Officer", "Legal Counsel", "Data Protection Officer", "IT Security Lead", "Business Unit Heads"]
+  trigger: "New international market expansion or data transfer requirement"
+  steps:
+    - step: 1
+      actor: "Business Unit Head"
+      action: "Identify data transfer requirement and assess business necessity"
+      tools: ["Data inventory systems", "Business case templates"]
+      duration: "1 week"
+      outputs: ["Data transfer request document", "Business justification"]
+    - step: 2
+      actor: "Data Protection Officer"
+      action: "Conduct data classification and risk assessment"
+      tools: ["Data classification framework", "Risk assessment matrix"]
+      duration: "2 weeks"
+      outputs: ["Data classification report", "Risk assessment document"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Review applicable regulations (GDPR, CCPA, PIPL, etc.) and determine compliance requirements"
+      tools: ["Legal research databases", "Regulatory compliance checklists"]
+      duration: "3 weeks"
+      outputs: ["Regulatory analysis report", "Compliance gap analysis"]
+    - step: 4
+      actor: "IT Security Lead"
+      action: "Evaluate technical safeguards and implement necessary security measures"
+      tools: ["Security assessment tools", "Encryption systems", "Access controls"]
+      duration: "4 weeks"
+      outputs: ["Technical safeguards implementation plan", "Security audit report"]
+    - step: 5
+      actor: "Chief Privacy Officer"
+      action: "Review and approve compliance framework, obtain necessary authorizations"
+      tools: ["Approval workflows", "Contract templates"]
+      duration: "2 weeks"
+      outputs: ["Compliance approval", "Data processing agreements"]
+  success_criteria: "Data transfer compliant with all applicable regulations, risk mitigation measures implemented"
+  failure_modes: ["Regulatory non-compliance leading to fines", "Data breach due to inadequate safeguards", "Business delays from over-cautious approach"]
+  metrics:
+    - "Compliance assessment completion rate: 95% within 8 weeks"
+    - "Data transfer approval time: Average 6 weeks"
+    - "Regulatory violation incidents: 0 per year"

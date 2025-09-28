@@ -1,0 +1,49 @@
+{
+  "scenario_id": "emerging_tech_roi_2025",
+  "context": "Global technology company evaluating investment in quantum computing infrastructure for enterprise applications, requiring comprehensive ROI analysis across multiple business units",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO", "Chief Innovation Officer"],
+    "influencers": ["Head of R&D", "VP Engineering", "VP Finance"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Quantum computing research center and infrastructure development",
+    "urgency": "high",
+    "justification": "Competitive advantage in computational capabilities for optimization problems across logistics, drug discovery, and financial modeling"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility_assessment",
+      "duration": "8 weeks",
+      "activities": ["Quantum hardware evaluation", "Algorithm development assessment", "Integration planning"],
+      "outcome": "Feasibility confirmed with identified technical risks"
+    },
+    {
+      "stage": "business_case_development",
+      "duration": "6 weeks",
+      "activities": ["ROI modeling", "Market opportunity analysis", "Competitive landscape review"],
+      "outcome": "Projected 300% ROI over 5 years with breakthrough applications"
+    },
+    {
+      "stage": "risk_assessment",
+      "duration": "4 weeks",
+      "activities": ["Technology risk evaluation", "Market adoption uncertainty analysis", "Talent acquisition planning"],
+      "outcome": "Acceptable risk profile with mitigation strategies"
+    },
+    {
+      "stage": "executive_review",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Stakeholder alignment", "Final approval"],
+      "outcome": "Approved with phased implementation approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "First-mover advantage in quantum-enabled solutions, new revenue streams from quantum-as-a-service offerings",
+    "projected_value": "$150,000,000 in additional revenue over 5 years",
+    "risk_factors": ["Technology maturation delays", "Talent scarcity", "Regulatory uncertainty in quantum applications"]
+  },
+  "decision_criteria": ["Technical feasibility", "Financial ROI potential", "Strategic alignment", "Risk mitigation capability", "Market timing"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive ROI analysis critical for emerging technology investments; phased approach reduces execution risk while maintaining competitive advantage"
+}

@@ -43,5 +43,11 @@ workflow:
       tools: ["Training materials", "Mentorship programs", "Performance support tools"]
       duration: "Ongoing"
       outputs: ["Retraining completion certificates", "Performance evaluations"]
-  success_criteria: "Successful automation implementation with minimal disruption, improved productivity, and positive employee outcomes"
-  failure_modes: ["Resistance to change", "Skills gaps", "Technical integration issues", "Cost overruns", "Union disputes"]
+   success_criteria: "Successful automation implementation with minimal disruption, improved productivity, and positive employee outcomes"
+   failure_modes: ["Resistance to change", "Skills gaps", "Technical integration issues", "Cost overruns", "Union disputes"]
+   metrics:
+     - "Productivity improvement: Target 20% increase"
+     - "Employee retraining completion: Target 95%"
+     - "Automation system uptime: Target 98%"
+     - "Cost savings: Target $500K annually"
+     - "Employee satisfaction score: Target 4.0/5"

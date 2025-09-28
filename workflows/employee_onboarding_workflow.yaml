@@ -48,5 +48,11 @@ workflow:
       tools: ["Survey platform", "HRIS", "Feedback forms"]
       duration: "30 minutes"
       outputs: ["Onboarding feedback report", "Improvement recommendations"]
-  success_criteria: "Employee completes 90-day probation with positive performance review"
-  failure_modes: ["Delayed IT setup", "Incomplete paperwork", "Poor manager communication", "Unclear role expectations"]
+   success_criteria: "Employee completes 90-day probation with positive performance review"
+   failure_modes: ["Delayed IT setup", "Incomplete paperwork", "Poor manager communication", "Unclear role expectations"]
+   metrics:
+     - "Time to productivity: Target <2 weeks"
+     - "Onboarding completion rate: Target 95%"
+     - "Employee satisfaction score: Target 4.2/5"
+     - "Retention rate at 90 days: Target 90%"
+     - "Manager feedback score: Target 4.5/5"

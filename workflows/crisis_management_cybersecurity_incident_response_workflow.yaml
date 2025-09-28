@@ -55,5 +55,11 @@ workflow:
       tools: ["Incident review frameworks", "Root cause analysis tools", "Preventive action planning"]
       duration: "1 week"
       outputs: ["Post-incident report", "Preventive measures", "Lessons learned documentation"]
-  success_criteria: "Rapid incident containment, minimal business impact, comprehensive recovery, and implemented preventive measures"
-  failure_modes: ["Delayed detection causing increased damage", "Ineffective containment allowing further compromise", "Inadequate communication damaging reputation", "Incomplete recovery leading to recurring incidents"]
+   success_criteria: "Rapid incident containment, minimal business impact, comprehensive recovery, and implemented preventive measures"
+   failure_modes: ["Delayed detection causing increased damage", "Ineffective containment allowing further compromise", "Inadequate communication damaging reputation", "Incomplete recovery leading to recurring incidents"]
+   metrics:
+     - "Incident response time: Target <4 hours"
+     - "Data breach impact: Target <1% of systems"
+     - "Recovery time: Target <24 hours"
+     - "Communication effectiveness: Target 95% stakeholder satisfaction"
+     - "Preventive measures implementation: Target 100% completion"

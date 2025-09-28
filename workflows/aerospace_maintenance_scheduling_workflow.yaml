@@ -2,7 +2,7 @@ workflow:
   id: "workflow_aerospace_maintenance_scheduling"
   title: "Aerospace Maintenance Scheduling Workflow"
   department: "Aerospace Operations"
-   complexity: "complex"
+  complexity: "complex"
   participants: ["Maintenance Manager", "Aircraft Engineers", "Quality Control", "Operations Planning", "Regulatory Compliance"]
   trigger: "Scheduled maintenance interval reached or unscheduled maintenance required"
   steps:
@@ -36,11 +36,11 @@ workflow:
       tools: ["Regulatory reporting system", "Certification documentation"]
       duration: "2 hours"
       outputs: ["Regulatory approval", "Maintenance completion certificate"]
-   success_criteria: "Aircraft returned to service with full regulatory compliance and operational readiness"
-   failure_modes: ["Parts availability delays", "Unexpected damage discovery", "Regulatory documentation errors", "Scheduling conflicts"]
-   metrics:
-     - "Maintenance completion on schedule: Target 95%"
-     - "Regulatory compliance rate: Target 100%"
-     - "Parts availability: Target 90% on time"
-     - "Aircraft downtime: Target <24 hours"
-     - "Cost per maintenance hour: Target <$500"
+  success_criteria: "Aircraft returned to service with full regulatory compliance and operational readiness"
+  failure_modes: ["Parts availability delays", "Unexpected damage discovery", "Regulatory documentation errors", "Scheduling conflicts"]
+  metrics:
+    - "Maintenance completion on schedule: Target 95%"
+    - "Regulatory compliance rate: Target 100%"
+    - "Parts availability: Target 90% on time"
+    - "Aircraft downtime: Target <24 hours"
+    - "Cost per maintenance hour: Target <$500"

@@ -1,5 +1,5 @@
 workflow:
-   id: "workflow_advanced_robotics_collaborative_integration"
+  id: "workflow_advanced_robotics_collaborative_integration"
   title: "Collaborative Robot Integration Workflow"
   department: "Advanced Robotics"
   complexity: "medium"
@@ -42,11 +42,11 @@ workflow:
       tools: ["Sensor networks", "Performance analytics", "Maintenance tracking"]
       duration: "6 weeks"
       outputs: ["Pilot results", "Optimization recommendations"]
-   success_criteria: "Successful pilot with improved productivity and safety metrics"
-   failure_modes: ["Safety incidents", "Integration failures", "Operator resistance"]
-   metrics:
-     - "Productivity improvement: Target 25% increase"
-     - "Safety incidents: Target zero"
-     - "System uptime: Target 95%"
-     - "Operator training completion: Target 100%"
-     - "Integration timeline adherence: Target 100%"
+  success_criteria: "Successful pilot with improved productivity and safety metrics"
+  failure_modes: ["Safety incidents", "Integration failures", "Operator resistance"]
+  metrics:
+    - "Productivity improvement: Target 25% increase"
+    - "Safety incidents: Target zero"
+    - "System uptime: Target 95%"
+    - "Operator training completion: Target 100%"
+    - "Integration timeline adherence: Target 100%"

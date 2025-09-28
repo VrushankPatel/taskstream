@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_parametric_product_launch",
+  "context": "Global insurance company evaluating launch of parametric insurance products for climate-related risks",
+  "stakeholders": {
+    "requester": "Head of Product Innovation",
+    "approvers": ["Chief Risk Officer", "CEO", "Board Risk Committee"],
+    "influencers": ["Chief Underwriting Officer", "Head of Actuarial", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Product development and market testing for parametric insurance solutions",
+    "urgency": "medium",
+    "justification": "Growing demand for climate risk coverage and competitive advantage in emerging markets"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "4 weeks",
+      "activities": ["Market research", "Technical feasibility study", "Regulatory review"],
+      "outcome": "Proceed with pilot development"
+    },
+    {
+      "stage": "pilot_design",
+      "duration": "8 weeks",
+      "activities": ["Product design", "Pricing model development", "Partner identification"],
+      "outcome": "Pilot product specifications finalized"
+    },
+    {
+      "stage": "risk_evaluation",
+      "duration": "3 weeks",
+      "activities": ["Risk modeling", "Capital requirements assessment", "Legal compliance check"],
+      "outcome": "Approved for limited market launch"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream of $50M annually within 3 years",
+    "projected_value": "$200,000,000",
+    "risk_factors": ["Regulatory uncertainty", "Market acceptance", "Data quality for parametric triggers"]
+  },
+  "decision_criteria": ["Market demand validation", "Regulatory compliance", "Risk-adjusted return >15%", "Technical feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for parametric products, data partnerships essential for accurate triggers"
+}

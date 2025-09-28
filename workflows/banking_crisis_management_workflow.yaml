@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_banking_crisis_management"
+  title: "Banking Crisis Management Workflow"
+  department: "Risk Management"
+  complexity: "complex"
+  participants: ["Crisis Manager", "CEO", "CFO", "Regulatory Liaison", "Communications Lead"]
+  trigger: "Major operational disruption or regulatory violation detected"
+  steps:
+    - step: 1
+      actor: "Crisis Manager"
+      action: "Assess incident severity and activate crisis response team"
+      tools: ["Crisis Management System", "Communication Platform"]
+      duration: "1 hour"
+      outputs: ["Crisis Assessment Report", "Team Activation Notice"]
+    - step: 2
+      actor: "CEO"
+      action: "Review assessment and authorize crisis response plan"
+      decision_points: ["Escalation level", "Stakeholder notification requirements"]
+      duration: "2 hours"
+      outputs: ["Approved Response Plan"]
+    - step: 3
+      actor: "Communications Lead"
+      action: "Prepare and distribute internal and external communications"
+      tools: ["Press Release Template", "Stakeholder Database"]
+      duration: "4 hours"
+      outputs: ["Communication Materials", "Stakeholder Notifications"]
+    - step: 4
+      actor: "Regulatory Liaison"
+      action: "Coordinate with regulators and prepare compliance documentation"
+      tools: ["Regulatory Reporting System", "Legal Database"]
+      duration: "24 hours"
+      outputs: ["Regulatory Filings", "Compliance Report"]
+    - step: 5
+      actor: "CFO"
+      action: "Assess financial impact and implement mitigation measures"
+      tools: ["Financial Modeling Software", "Risk Assessment Tools"]
+      duration: "12 hours"
+      outputs: ["Financial Impact Analysis", "Mitigation Plan"]
+  success_criteria: "Crisis contained within 48 hours, minimal regulatory penalties, stakeholder confidence maintained"
+  failure_modes: ["Delayed response", "Inadequate communication", "Regulatory non-compliance"]
+  metrics:
+    - "Response Time: <4 hours"
+    - "Stakeholder Satisfaction: >85%"
+    - "Regulatory Compliance Rate: 100%"

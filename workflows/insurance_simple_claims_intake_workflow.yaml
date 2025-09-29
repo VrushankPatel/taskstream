@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_insurance_simple_claims_intake"
+  title: "Insurance Claims Intake Process"
+  department: "Claims Operations"
+  complexity: "simple"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Customer Service Rep"]
+  trigger: "Policyholder reports claim via phone, email, or portal"
+  temporal_data:
+    first_implemented: "2019-06-01"
+    last_updated: "2024-08-15"
+    typical_cycle_time: "2-4 hours"
+    average_annual_executions: 8500
+    seasonal_variations: ["Q4 peak for winter weather claims", "Q3 peak for hurricane season"]
+    historical_evolution: "Migrated from paper-based to digital intake in 2021, added AI triage in 2023"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Capture initial claim details and verify policy coverage"
+      tools: ["Claims Management System", "Policy Database"]
+      duration: "15-30 minutes"
+      outputs: ["Initial claim record", "Coverage verification"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Review claim details, assess validity, and determine next steps"
+      tools: ["Claims System", "Fraud Detection Tools"]
+      duration: "30-60 minutes"
+      outputs: ["Claim assessment", "Assignment decision"]
+    - step: 3
+      actor: "Claims Supervisor"
+      action: "Review high-value or complex claims for approval"
+      tools: ["Claims Dashboard", "Approval Workflow"]
+      duration: "15 minutes"
+      outputs: ["Supervisor approval", "Processing assignment"]
+  success_criteria: "Claim acknowledged within 24 hours with complete intake documentation"
+  failure_modes: ["Invalid policy number", "Claim outside coverage scope", "Incomplete information requiring follow-up"]
+  metrics:
+    - "Intake Completion Rate: 95% target"
+    - "Average Processing Time: 2 hours target"
+    - "Fraud Detection Rate: 85% target"
+  performance_history:
+    success_rate_trend: "92% (2023) → 94% (2024) → 96% (2025)"
+    cost_trend: "$85 (2023) → $78 (2024) → $72 (2025)"
+    efficiency_improvements: ["AI triage reduced manual review by 35%", "Digital intake forms decreased errors by 40%"]

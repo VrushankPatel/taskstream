@@ -1,0 +1,54 @@
+{
+  "scenario_id": "utilities_infrastructure_smart_grid_investment_2025",
+  "decision_date": "2025-09-25",
+  "context": "Electric utility planning $45M investment in smart grid infrastructure for improved reliability and efficiency",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "Board Infrastructure Committee", "State Regulatory Commission"],
+    "influencers": ["Chief Technology Officer", "Chief Financial Officer", "Environmental Director"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Deploy advanced metering infrastructure and grid automation systems",
+    "urgency": "medium",
+    "justification": "25% reduction in outage duration and 15% improvement in operational efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "start_date": "2025-07-01",
+      "end_date": "2025-08-15",
+      "duration": "35 days",
+      "activities": ["Technology evaluation", "Cost-benefit analysis", "Regulatory impact assessment"],
+      "outcome": "Positive ROI identified with regulatory approval needed"
+    },
+    {
+      "stage": "regulatory_approval",
+      "start_date": "2025-08-20",
+      "end_date": "2025-09-25",
+      "duration": "26 days",
+      "activities": ["Rate case filing", "Public hearings", "Commission review"],
+      "outcome": "Approved with conditions for phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in outage frequency and duration",
+    "projected_value": "$18M annual operational savings",
+    "actual_value": "$16.5M (achieved in Year 2)",
+    "roi_timeline": "48 months payback period",
+    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory delay"]
+  },
+  "decision_criteria": ["Regulatory approval obtained", "ROI > 5 years", "Strategic alignment with modernization goals"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2026-01-01",
+    "completion_date": "2028-12-31",
+    "milestones": ["Phase 1 deployment: 2026-12-31", "Phase 2 expansion: 2027-12-31", "Full system integration: 2028-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 40% complete, initial outage reduction of 15%",
+    "12_month_review": "Phase 1 complete, 25% efficiency improvement realized",
+    "actual_roi": "46 months (slightly ahead of 48-month target)"
+  },
+  "lessons_learned": "Early regulatory engagement critical for infrastructure modernization projects"
+}

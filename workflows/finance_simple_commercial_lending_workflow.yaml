@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_finance_simple_commercial_lending"
+  title: "Commercial Lending Application Process"
+  department: "Commercial Banking"
+  complexity: "simple"
+  participants: ["Relationship Manager", "Credit Analyst", "Branch Manager"]
+  trigger: "Business customer submits loan application"
+  temporal_data:
+    first_implemented: "2018-03-15"
+    last_updated: "2024-09-01"
+    typical_cycle_time: "5-7 business days"
+    average_annual_executions: 250
+    seasonal_variations: ["Q4 peak for year-end financing", "Q1 slowdown post-holiday"]
+    historical_evolution: "Originally manual process, digitized in 2020 with automated credit scoring"
+  steps:
+    - step: 1
+      actor: "Relationship Manager"
+      action: "Review application completeness and gather additional documentation"
+      tools: ["CRM System", "Loan Application Portal"]
+      duration: "1-2 hours"
+      outputs: ["Complete application package"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Perform credit analysis including financial statement review and risk assessment"
+      tools: ["Credit Scoring System", "Financial Analysis Software"]
+      duration: "2-4 hours"
+      outputs: ["Credit analysis report", "Loan recommendation"]
+    - step: 3
+      actor: "Branch Manager"
+      action: "Review credit analysis and approve/reject loan within authority limits"
+      tools: ["Loan Management System"]
+      duration: "30 minutes"
+      outputs: ["Loan approval/denial decision"]
+  success_criteria: "Loan approved within 7 business days with complete documentation"
+  failure_modes: ["Incomplete application requiring additional information", "Credit score below minimum threshold"]
+  metrics:
+    - "Approval Rate: 75% target"
+    - "Average Processing Time: 5 days target"
+    - "Default Rate: <2% target"
+  performance_history:
+    success_rate_trend: "72% (2023) → 76% (2024) → 78% (2025)"
+    cost_trend: "$450 (2023) → $420 (2024) → $400 (2025)"
+    efficiency_improvements: ["Automated credit scoring reduced analysis time by 40%", "Digital documentation reduced processing errors by 25%"]

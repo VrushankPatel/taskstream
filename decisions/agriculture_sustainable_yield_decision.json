@@ -4,8 +4,16 @@
   "context": "Agricultural cooperative evaluating investment in sustainable yield optimization technologies to meet growing demand for organic produce",
   "stakeholders": {
     "requester": "Director of Agricultural Operations",
-    "approvers": ["CEO", "Board Chairman", "Finance Director"],
-    "influencers": ["Sustainability Officer", "Marketing Director", "Farmer Representatives"]
+    "approvers": [
+      "CEO",
+      "Board Chairman",
+      "Finance Director"
+    ],
+    "influencers": [
+      "Sustainability Officer",
+      "Marketing Director",
+      "Farmer Representatives"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-03-01",
       "end_date": "2025-04-15",
       "duration": "6 weeks",
-      "activities": ["Consumer research", "Competitive analysis", "Demand forecasting"],
+      "activities": [
+        "Consumer research",
+        "Competitive analysis",
+        "Demand forecasting"
+      ],
       "outcome": "Identified 35% market growth opportunity in sustainable products"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-04-16",
       "end_date": "2025-06-01",
       "duration": "6 weeks",
-      "activities": ["Technology evaluation", "Pilot testing", "Farmer training assessment"],
+      "activities": [
+        "Technology evaluation",
+        "Pilot testing",
+        "Farmer training assessment"
+      ],
       "outcome": "Selected integrated precision farming platform"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-06-02",
       "end_date": "2025-07-01",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Funding options review", "ROI projections"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Funding options review",
+        "ROI projections"
+      ],
       "outcome": "Projected 22% IRR with 3-year payback"
     }
   ],
@@ -44,14 +64,29 @@
     "projected_value": "$45M in additional revenue over 8 years",
     "actual_value": "$42M (based on market analysis and yield projections)",
     "roi_timeline": "Payback in 3 years, sustained growth thereafter",
-    "risk_factors": ["Adoption resistance from traditional farmers", "Technology reliability in field conditions", "Weather dependency of sustainable methods"]
+    "risk_factors": [
+      "Adoption resistance from traditional farmers",
+      "Technology reliability in field conditions",
+      "Weather dependency of sustainable methods"
+    ]
   },
-  "decision_criteria": ["Market demand growth (25%+ annually)", "Yield improvement potential (30%+)", "Financial returns (20%+ IRR)", "Sustainability certification alignment", "Farmer adoption feasibility"],
+  "decision_criteria": [
+    "Market demand growth (25%+ annually)",
+    "Yield improvement potential (30%+)",
+    "Financial returns (20%+ IRR)",
+    "Sustainability certification alignment",
+    "Farmer adoption feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-08-01",
     "completion_date": "2028-07-31",
-    "milestones": ["Pilot program launch: 2025-10-31", "Full farm deployment: 2026-12-31", "Yield optimization achieved: 2027-09-30", "Market expansion: 2028-07-31"]
+    "milestones": [
+      "Pilot program launch: 2025-10-31",
+      "Full farm deployment: 2026-12-31",
+      "Yield optimization achieved: 2027-09-30",
+      "Market expansion: 2028-07-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot yields up 25%, farmer feedback positive",

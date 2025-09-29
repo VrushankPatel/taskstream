@@ -4,8 +4,16 @@
   "context": "Aerospace company evaluating investment in hypersonic technology development for next-generation propulsion systems",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Chief Engineer"],
-    "influencers": ["VP Research & Development", "Defense Contracts Manager", "Risk Management Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Engineer"
+    ],
+    "influencers": [
+      "VP Research & Development",
+      "Defense Contracts Manager",
+      "Risk Management Director"
+    ]
   },
   "request": {
     "amount": "$450,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-07-15",
       "duration": "6 weeks",
-      "activities": ["Technology gap analysis", "Prototype testing", "IP landscape review"],
+      "activities": [
+        "Technology gap analysis",
+        "Prototype testing",
+        "IP landscape review"
+      ],
       "outcome": "Feasibility confirmed with 70% technical confidence"
     },
     {
@@ -27,7 +39,12 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-30",
       "duration": "6 weeks",
-      "activities": ["Market sizing study", "Competitive analysis", "Financial modeling", "ROI projections"],
+      "activities": [
+        "Market sizing study",
+        "Competitive analysis",
+        "Financial modeling",
+        "ROI projections"
+      ],
       "outcome": "Positive ROI projected at 15% IRR over 10 years"
     },
     {
@@ -35,7 +52,11 @@
       "start_date": "2025-09-01",
       "end_date": "2025-09-15",
       "duration": "2 weeks",
-      "activities": ["Regulatory compliance review", "Technology risk assessment", "Partnership evaluation"],
+      "activities": [
+        "Regulatory compliance review",
+        "Technology risk assessment",
+        "Partnership evaluation"
+      ],
       "outcome": "Acceptable risk profile with mitigation strategies identified"
     }
   ],
@@ -44,14 +65,29 @@
     "projected_value": "$2.1B in revenue over 10 years",
     "actual_value": "$1.8B (projected based on current market analysis)",
     "roi_timeline": "Break-even in 7 years, positive cash flow from year 5",
-    "risk_factors": ["Regulatory delays in certification", "Technical challenges in material science", "Competition from defense contractors"]
+    "risk_factors": [
+      "Regulatory delays in certification",
+      "Technical challenges in material science",
+      "Competition from defense contractors"
+    ]
   },
-  "decision_criteria": ["Technical feasibility (70%+ confidence)", "Market opportunity ($50B+ TAM)", "Financial returns (15%+ IRR)", "Strategic alignment with aerospace leadership", "Risk mitigation plan completeness"],
+  "decision_criteria": [
+    "Technical feasibility (70%+ confidence)",
+    "Market opportunity ($50B+ TAM)",
+    "Financial returns (15%+ IRR)",
+    "Strategic alignment with aerospace leadership",
+    "Risk mitigation plan completeness"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2032-12-31",
-    "milestones": ["Phase 1 prototype completion: 2026-06-30", "Flight testing initiation: 2028-03-31", "Commercial certification: 2030-09-30", "First revenue generation: 2031-01-31"]
+    "milestones": [
+      "Phase 1 prototype completion: 2026-06-30",
+      "Flight testing initiation: 2028-03-31",
+      "Commercial certification: 2030-09-30",
+      "First revenue generation: 2031-01-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Technical milestones achieved, budget on track",

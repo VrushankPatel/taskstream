@@ -4,8 +4,16 @@
   "context": "Manufacturing company evaluating comprehensive Industry 4.0 transformation to remain competitive in global market",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "CFO", "COO"],
-    "influencers": ["IT Director", "HR Director", "Supply Chain Manager"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "COO"
+    ],
+    "influencers": [
+      "IT Director",
+      "HR Director",
+      "Supply Chain Manager"
+    ]
   },
   "request": {
     "amount": "$75,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-04-01",
       "end_date": "2025-05-15",
       "duration": "6 weeks",
-      "activities": ["Process efficiency audit", "Technology maturity assessment", "Workforce skills evaluation"],
+      "activities": [
+        "Process efficiency audit",
+        "Technology maturity assessment",
+        "Workforce skills evaluation"
+      ],
       "outcome": "Identified 40% productivity improvement opportunity"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-05-16",
       "end_date": "2025-07-01",
       "duration": "6 weeks",
-      "activities": ["Vendor RFP process", "Pilot program testing", "Integration feasibility study"],
+      "activities": [
+        "Vendor RFP process",
+        "Pilot program testing",
+        "Integration feasibility study"
+      ],
       "outcome": "Selected comprehensive Industry 4.0 solution suite"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-07-02",
       "end_date": "2025-08-01",
       "duration": "4 weeks",
-      "activities": ["ROI modeling", "Cash flow projections", "Risk mitigation planning"],
+      "activities": [
+        "ROI modeling",
+        "Cash flow projections",
+        "Risk mitigation planning"
+      ],
       "outcome": "Projected 25% IRR with 4-year payback period"
     }
   ],
@@ -44,14 +64,29 @@
     "projected_value": "$180M in cost savings and revenue growth over 7 years",
     "actual_value": "$165M (based on industry benchmarks and internal projections)",
     "roi_timeline": "Payback in 4 years, peak benefits by year 5",
-    "risk_factors": ["Workforce transition challenges", "Technology integration complexity", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Workforce transition challenges",
+      "Technology integration complexity",
+      "Cybersecurity vulnerabilities"
+    ]
   },
-  "decision_criteria": ["Productivity improvement potential (35%+)", "Financial returns (20%+ IRR)", "Implementation feasibility (6-12 months)", "Workforce impact mitigation", "Competitive positioning"],
+  "decision_criteria": [
+    "Productivity improvement potential (35%+)",
+    "Financial returns (20%+ IRR)",
+    "Implementation feasibility (6-12 months)",
+    "Workforce impact mitigation",
+    "Competitive positioning"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2027-08-31",
-    "milestones": ["Phase 1 IoT infrastructure: 2025-12-31", "Phase 2 AI implementation: 2026-06-30", "Phase 3 full automation: 2027-03-31", "Phase 4 optimization: 2027-08-31"]
+    "milestones": [
+      "Phase 1 IoT infrastructure: 2025-12-31",
+      "Phase 2 AI implementation: 2026-06-30",
+      "Phase 3 full automation: 2027-03-31",
+      "Phase 4 optimization: 2027-08-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Infrastructure deployed, initial productivity gains of 15%",

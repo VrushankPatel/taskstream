@@ -1,49 +1,77 @@
 workflow:
-  id: "workflow_compliance_audit_enhanced"
-  title: "Enhanced Compliance Audit Process"
-  department: "Compliance"
-  complexity: "medium"
-  participants: ["Compliance Officer", "Internal Audit Team", "Department Heads", "External Auditors"]
-  trigger: "Quarterly audit schedule or regulatory requirement"
+  id: workflow_compliance_audit_enhanced
+  title: Enhanced Compliance Audit Process
+  department: Compliance
+  complexity: medium
+  participants:
+  - Compliance Officer
+  - Internal Audit Team
+  - Department Heads
+  - External Auditors
+  trigger: Quarterly audit schedule or regulatory requirement
   temporal_data:
-    first_implemented: "2019-03-01"
-    last_updated: "2024-07-15"
-    typical_cycle_time: "30 days"
+    first_implemented: '2019-03-01'
+    last_updated: '2024-07-15'
+    typical_cycle_time: 30 days
     average_annual_executions: 4
-    seasonal_variations: ["Q4 year-end intensive review", "Q2 mid-year compliance check"]
-    historical_evolution: "Manual checklist process evolved to automated compliance platform in 2021, improved documentation accuracy by 60%"
+    seasonal_variations:
+    - Q4 year-end intensive review
+    - Q2 mid-year compliance check
+    historical_evolution: Manual checklist process evolved to automated compliance
+      platform in 2021, improved documentation accuracy by 60%
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Prepare audit scope and gather documentation requirements"
-      tools: ["Compliance management system", "Document repository"]
-      duration: "5 days"
-      outputs: ["Audit plan", "Documentation checklist"]
-    - step: 2
-      actor: "Department Heads"
-      action: "Collect and submit required documents and evidence"
-      tools: ["Shared drive", "Compliance portal"]
-      duration: "10 days"
-      outputs: ["Department documentation packages", "Evidence logs"]
-    - step: 3
-      actor: "Internal Audit Team"
-      action: "Review submitted materials and perform testing procedures"
-      tools: ["Audit software", "Sampling tools"]
-      duration: "10 days"
-      outputs: ["Audit findings report", "Compliance gaps identified"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Address findings and prepare final audit report"
-      tools: ["Report generation tools", "Remediation tracking system"]
-      duration: "5 days"
-      outputs: ["Final audit report", "Corrective action plan"]
-  success_criteria: "All critical findings resolved within remediation timeline"
-  failure_modes: ["Incomplete documentation", "Untimely submissions", "Critical compliance gaps"]
+  - step: 1
+    actor: Compliance Officer
+    action: Prepare audit scope and gather documentation requirements
+    tools:
+    - Compliance management system
+    - Document repository
+    duration: 5 days
+    outputs:
+    - Audit plan
+    - Documentation checklist
+  - step: 2
+    actor: Department Heads
+    action: Collect and submit required documents and evidence
+    tools:
+    - Shared drive
+    - Compliance portal
+    duration: 10 days
+    outputs:
+    - Department documentation packages
+    - Evidence logs
+  - step: 3
+    actor: Internal Audit Team
+    action: Review submitted materials and perform testing procedures
+    tools:
+    - Audit software
+    - Sampling tools
+    duration: 10 days
+    outputs:
+    - Audit findings report
+    - Compliance gaps identified
+  - step: 4
+    actor: Compliance Officer
+    action: Address findings and prepare final audit report
+    tools:
+    - Report generation tools
+    - Remediation tracking system
+    duration: 5 days
+    outputs:
+    - Final audit report
+    - Corrective action plan
+  success_criteria: All critical findings resolved within remediation timeline
+  failure_modes:
+  - Incomplete documentation
+  - Untimely submissions
+  - Critical compliance gaps
   metrics:
-    - "Audit completion rate: 98%"
-    - "Finding resolution time: 15 days average"
-    - "Compliance score: 94%"
+  - 'Audit completion rate: 98%'
+  - 'Finding resolution time: 15 days average'
+  - 'Compliance score: 94%'
   performance_history:
-    success_rate_trend: "85% (2023) → 90% (2024) → 95% (2025)"
-    cost_trend: "$25,000 (2023) → $22,000 (2024) → $20,000 (2025)"
-    efficiency_improvements: ["Automated checklists reduced preparation time by 35%", "Digital evidence collection improved accuracy by 45%"]
+    success_rate_trend: 85% (2023) → 90% (2024) → 95% (2025)
+    cost_trend: $25,000 (2023) → $22,000 (2024) → $20,000 (2025)
+    efficiency_improvements:
+    - Automated checklists reduced preparation time by 35%
+    - Digital evidence collection improved accuracy by 45%

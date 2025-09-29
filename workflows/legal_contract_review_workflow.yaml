@@ -1,61 +1,98 @@
 workflow:
-  id: "workflow_legal_contract_review"
-  title: "Legal Contract Review Process"
-  department: "Legal"
-  complexity: "complex"
-  participants: ["Contract Manager", "Legal Counsel", "Business Owner", "Finance", "Compliance"]
-  trigger: "New contract received or existing contract amendment requested"
+  id: workflow_legal_contract_review
+  title: Legal Contract Review Process
+  department: Legal
+  complexity: complex
+  participants:
+  - Contract Manager
+  - Legal Counsel
+  - Business Owner
+  - Finance
+  - Compliance
+  trigger: New contract received or existing contract amendment requested
   temporal_data:
-    first_implemented: "2018-06-01"
-    last_updated: "2024-08-20"
-    typical_cycle_time: "21 days"
+    first_implemented: '2018-06-01'
+    last_updated: '2024-08-20'
+    typical_cycle_time: 21 days
     average_annual_executions: 450
-    seasonal_variations: ["Q4 budget approvals delay reviews", "Q2 contract renewals peak"]
-    historical_evolution: "Traditional paper-based process digitized in 2020, AI-assisted review introduced in 2023 reducing review time by 50%"
+    seasonal_variations:
+    - Q4 budget approvals delay reviews
+    - Q2 contract renewals peak
+    historical_evolution: Traditional paper-based process digitized in 2020, AI-assisted
+      review introduced in 2023 reducing review time by 50%
   steps:
-    - step: 1
-      actor: "Contract Manager"
-      action: "Initial contract intake and basic compliance check"
-      tools: ["Contract management system", "Compliance database"]
-      duration: "2 days"
-      outputs: ["Contract summary", "Initial risk assessment"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Detailed legal review and risk analysis"
-      tools: ["Legal research databases", "Contract analysis software"]
-      duration: "7 days"
-      outputs: ["Legal review memorandum", "Recommended changes"]
-    - step: 3
-      actor: "Business Owner"
-      action: "Business terms negotiation and approval"
-      tools: ["Negotiation tracking system", "Approval workflow"]
-      duration: "5 days"
-      outputs: ["Business approval", "Negotiation notes"]
-    - step: 4
-      actor: "Finance"
-      action: "Financial terms review and budget approval"
-      tools: ["Financial analysis tools", "Budget system"]
-      duration: "3 days"
-      outputs: ["Financial assessment", "Budget approval"]
-    - step: 5
-      actor: "Compliance"
-      action: "Regulatory compliance verification"
-      tools: ["Compliance checking tools", "Regulatory databases"]
-      duration: "2 days"
-      outputs: ["Compliance clearance", "Regulatory notes"]
-    - step: 6
-      actor: "Legal Counsel"
-      action: "Final contract execution and filing"
-      tools: ["Digital signature platform", "Document management system"]
-      duration: "2 days"
-      outputs: ["Executed contract", "Filed documentation"]
-  success_criteria: "Contract executed without material changes post-final review"
-  failure_modes: ["Legal risks overlooked", "Business requirements not met", "Regulatory non-compliance"]
+  - step: 1
+    actor: Contract Manager
+    action: Initial contract intake and basic compliance check
+    tools:
+    - Contract management system
+    - Compliance database
+    duration: 2 days
+    outputs:
+    - Contract summary
+    - Initial risk assessment
+  - step: 2
+    actor: Legal Counsel
+    action: Detailed legal review and risk analysis
+    tools:
+    - Legal research databases
+    - Contract analysis software
+    duration: 7 days
+    outputs:
+    - Legal review memorandum
+    - Recommended changes
+  - step: 3
+    actor: Business Owner
+    action: Business terms negotiation and approval
+    tools:
+    - Negotiation tracking system
+    - Approval workflow
+    duration: 5 days
+    outputs:
+    - Business approval
+    - Negotiation notes
+  - step: 4
+    actor: Finance
+    action: Financial terms review and budget approval
+    tools:
+    - Financial analysis tools
+    - Budget system
+    duration: 3 days
+    outputs:
+    - Financial assessment
+    - Budget approval
+  - step: 5
+    actor: Compliance
+    action: Regulatory compliance verification
+    tools:
+    - Compliance checking tools
+    - Regulatory databases
+    duration: 2 days
+    outputs:
+    - Compliance clearance
+    - Regulatory notes
+  - step: 6
+    actor: Legal Counsel
+    action: Final contract execution and filing
+    tools:
+    - Digital signature platform
+    - Document management system
+    duration: 2 days
+    outputs:
+    - Executed contract
+    - Filed documentation
+  success_criteria: Contract executed without material changes post-final review
+  failure_modes:
+  - Legal risks overlooked
+  - Business requirements not met
+  - Regulatory non-compliance
   metrics:
-    - "Review completion rate: 92%"
-    - "Average review time: 18 days"
-    - "Contract value processed: $500M annually"
+  - 'Review completion rate: 92%'
+  - 'Average review time: 18 days'
+  - 'Contract value processed: $500M annually'
   performance_history:
-    success_rate_trend: "78% (2023) → 85% (2024) → 92% (2025)"
-    cost_trend: "$150,000 (2023) → $120,000 (2024) → $100,000 (2025)"
-    efficiency_improvements: ["AI review tools reduced legal time by 40%", "Standardized templates decreased negotiation cycles by 25%"]
+    success_rate_trend: 78% (2023) → 85% (2024) → 92% (2025)
+    cost_trend: $150,000 (2023) → $120,000 (2024) → $100,000 (2025)
+    efficiency_improvements:
+    - AI review tools reduced legal time by 40%
+    - Standardized templates decreased negotiation cycles by 25%

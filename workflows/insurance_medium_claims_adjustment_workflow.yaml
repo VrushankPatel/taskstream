@@ -12,12 +12,13 @@ workflow:
   temporal_data:
     first_implemented: '2018-03-01'
     last_updated: '2024-09-15'
-    typical_cycle_time: '5 days'
+    typical_cycle_time: 5 days
     average_annual_executions: 2500
     seasonal_variations:
     - Q1 peak from winter storms
     - Q3 hurricane season increase
-    historical_evolution: Manual inspection process digitized in 2020, added drone assessment in 2023
+    historical_evolution: Manual inspection process digitized in 2020, added drone
+      assessment in 2023
   steps:
   - step: 1
     actor: Claims Adjuster
@@ -26,7 +27,7 @@ workflow:
     - Claims management system
     - Policy database
     - Fraud detection algorithms
-    duration: '2 hours'
+    duration: 2 hours
     decision_points:
     - Policy validity confirmation
     - Coverage scope assessment
@@ -45,7 +46,7 @@ workflow:
     - Digital camera
     - Measurement tools
     - Drone for inaccessible areas
-    duration: '4 hours'
+    duration: 4 hours
     decision_points:
     - Inspection accessibility
     - Damage causation determination
@@ -66,7 +67,7 @@ workflow:
     - Depreciation calculation
     - Comparable claims analysis
     - Policy exclusions apply
-    duration: '3 hours'
+    duration: 3 hours
     tools:
     - Settlement calculator
     - Claims database
@@ -82,7 +83,7 @@ workflow:
     tools:
     - Approval workflow system
     - Risk assessment dashboard
-    duration: '1 hour'
+    duration: 1 hour
     decision_points:
     - Settlement amount threshold
     - Risk exposure assessment

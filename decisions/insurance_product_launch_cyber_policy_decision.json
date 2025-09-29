@@ -4,8 +4,16 @@
   "context": "Insurance company developing new cyber liability product in response to increasing digital threats",
   "stakeholders": {
     "requester": "Product Development Director",
-    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer", "CEO"],
-    "influencers": ["Actuarial Director", "Legal Counsel", "IT Security Head"]
+    "approvers": [
+      "Chief Underwriting Officer",
+      "Chief Risk Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Actuarial Director",
+      "Legal Counsel",
+      "IT Security Head"
+    ]
   },
   "request": {
     "amount": "$1,800,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-09-01",
       "end_date": "2024-10-15",
       "duration": "45 days",
-      "activities": ["Market research", "Competitive analysis", "Preliminary pricing models"],
+      "activities": [
+        "Market research",
+        "Competitive analysis",
+        "Preliminary pricing models"
+      ],
       "outcome": "Proceed to development"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2024-10-20",
       "end_date": "2025-01-10",
       "duration": "83 days",
-      "activities": ["Policy wording development", "Actuarial modeling", "Legal review"],
+      "activities": [
+        "Policy wording development",
+        "Actuarial modeling",
+        "Legal review"
+      ],
       "outcome": "Product ready for launch"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-01-15",
       "end_date": "2025-02-20",
       "duration": "37 days",
-      "activities": ["Business case presentation", "Risk assessment", "Strategic alignment"],
+      "activities": [
+        "Business case presentation",
+        "Risk assessment",
+        "Strategic alignment"
+      ],
       "outcome": "Approved"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$25,000,000",
     "actual_value": "$28,000,000 (surpassed expectations)",
     "roi_timeline": "Expected payback in 18 months",
-    "risk_factors": ["Regulatory changes", "Market saturation", "Underwriting losses"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Market saturation",
+      "Underwriting losses"
+    ]
   },
-  "decision_criteria": ["Market demand", "Profitability projections", "Risk capacity", "Competitive advantage", "Regulatory compliance"],
+  "decision_criteria": [
+    "Market demand",
+    "Profitability projections",
+    "Risk capacity",
+    "Competitive advantage",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-03-01",
     "completion_date": "2025-09-01",
-    "milestones": ["Policy filing: 2025-03-15", "Underwriting guidelines complete: 2025-04-01", "Market launch: 2025-05-01"]
+    "milestones": [
+      "Policy filing: 2025-03-15",
+      "Underwriting guidelines complete: 2025-04-01",
+      "Market launch: 2025-05-01"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Policies issued: 450, premium $2.1M, loss ratio 35%",

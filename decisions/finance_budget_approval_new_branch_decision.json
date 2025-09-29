@@ -4,8 +4,16 @@
   "context": "Regional bank expanding into new metropolitan area with population growth opportunity",
   "stakeholders": {
     "requester": "Regional Expansion Manager",
-    "approvers": ["Chief Financial Officer", "Chief Executive Officer", "Board Chairman"],
-    "influencers": ["Market Research Director", "Operations Director", "Risk Management Head"]
+    "approvers": [
+      "Chief Financial Officer",
+      "Chief Executive Officer",
+      "Board Chairman"
+    ],
+    "influencers": [
+      "Market Research Director",
+      "Operations Director",
+      "Risk Management Head"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-11-01",
       "end_date": "2024-11-15",
       "duration": "15 days",
-      "activities": ["Financial modeling", "Market research validation", "Site selection analysis"],
+      "activities": [
+        "Financial modeling",
+        "Market research validation",
+        "Site selection analysis"
+      ],
       "outcome": "Advanced to executive review"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2024-11-20",
       "end_date": "2024-12-05",
       "duration": "16 days",
-      "activities": ["ROI analysis", "Risk assessment", "Strategic alignment review"],
+      "activities": [
+        "ROI analysis",
+        "Risk assessment",
+        "Strategic alignment review"
+      ],
       "outcome": "Approved with conditions"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2024-12-10",
       "end_date": "2025-01-15",
       "duration": "37 days",
-      "activities": ["Board presentation", "Due diligence review", "Final vote"],
+      "activities": [
+        "Board presentation",
+        "Due diligence review",
+        "Final vote"
+      ],
       "outcome": "Approved"
     }
   ],
@@ -44,24 +64,47 @@
     "projected_value": "$3,200,000",
     "actual_value": "$3,500,000 (exceeded projections)",
     "roi_timeline": "Expected payback in 36 months",
-    "risk_factors": ["Economic downturn", "Competitor response", "Regulatory changes"]
+    "risk_factors": [
+      "Economic downturn",
+      "Competitor response",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Market growth potential", "Financial ROI", "Strategic alignment", "Risk profile", "Operational capacity"],
+  "decision_criteria": [
+    "Market growth potential",
+    "Financial ROI",
+    "Strategic alignment",
+    "Risk profile",
+    "Operational capacity"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-02-01",
     "completion_date": "2025-08-01",
-    "milestones": ["Lease signed: 2025-02-15", "Renovation complete: 2025-04-01", "Grand opening: 2025-05-15"]
+    "milestones": [
+      "Lease signed: 2025-02-15",
+      "Renovation complete: 2025-04-01",
+      "Grand opening: 2025-05-15"
+    ]
   },
-   "outcome_tracking": {
-     "3_month_review": "Lease secured, construction initiated, marketing campaign launched, initial hiring completed",
-     "6_month_review": "Branch operational, initial deposits $1.2M, customer acquisition on track, systems integration complete",
-     "12_month_review": "Revenue $450K, customer base 800, profitability achieved, community engagement established",
-     "18_month_review": "Revenue $650K, customer base 1,200, market share 12%, employee retention 95%",
-     "24_month_review": "Revenue $780K, customer base 1,500, full profitability, expansion opportunities identified",
-     "actual_roi": "15% (vs projected 12%)",
-     "key_success_factors": ["Prime location selection", "Digital integration", "Community partnerships", "Staff training"],
-     "challenges_overcome": ["Construction delays mitigated", "Competitor response managed", "Regulatory approvals expedited"]
-   },
+  "outcome_tracking": {
+    "3_month_review": "Lease secured, construction initiated, marketing campaign launched, initial hiring completed",
+    "6_month_review": "Branch operational, initial deposits $1.2M, customer acquisition on track, systems integration complete",
+    "12_month_review": "Revenue $450K, customer base 800, profitability achieved, community engagement established",
+    "18_month_review": "Revenue $650K, customer base 1,200, market share 12%, employee retention 95%",
+    "24_month_review": "Revenue $780K, customer base 1,500, full profitability, expansion opportunities identified",
+    "actual_roi": "15% (vs projected 12%)",
+    "key_success_factors": [
+      "Prime location selection",
+      "Digital integration",
+      "Community partnerships",
+      "Staff training"
+    ],
+    "challenges_overcome": [
+      "Construction delays mitigated",
+      "Competitor response managed",
+      "Regulatory approvals expedited"
+    ]
+  },
   "lessons_learned": "Early market entry provided first-mover advantage, digital integration accelerated customer acquisition"
 }

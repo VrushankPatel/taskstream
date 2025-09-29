@@ -11,12 +11,13 @@ workflow:
   temporal_data:
     first_implemented: '2015-01-01'
     last_updated: '2024-07-01'
-    typical_cycle_time: '30 days'
+    typical_cycle_time: 30 days
     average_annual_executions: 120000
     seasonal_variations:
     - Summer peak usage readings
     - Winter lower readings
-    historical_evolution: Manual reading transitioned to AMI in 2020, added mobile app verification in 2023
+    historical_evolution: Manual reading transitioned to AMI in 2020, added mobile
+      app verification in 2023
   steps:
   - step: 1
     actor: Meter Reader
@@ -25,7 +26,7 @@ workflow:
     - Mobile reading device
     - GPS navigation
     - Access keys/codes database
-    duration: '5 minutes'
+    duration: 5 minutes
     decision_points:
     - Meter accessibility confirmed
     - Reading device functionality
@@ -42,7 +43,7 @@ workflow:
     tools:
     - Reading validation software
     - Historical data comparison
-    duration: '2 minutes'
+    duration: 2 minutes
     decision_points:
     - Reading within expected range
     - Equipment tampering indicators
@@ -61,7 +62,7 @@ workflow:
     - Equipment condition requires service
     - Pattern of anomalies detected
     - Emergency maintenance needed
-    duration: '10 minutes'
+    duration: 10 minutes
     tools:
     - Anomaly detection system
     - Maintenance scheduling platform

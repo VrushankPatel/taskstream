@@ -17,8 +17,7 @@ workflow:
     seasonal_variations:
     - Q4 peak with new contracts
     - Q2 slower due to budget cycles
-    historical_evolution: Shifted from manual checklists to automated onboarding platform
-      in 2024, reducing time-to-value by 40%
+    historical_evolution: Shifted from manual checklists to automated onboarding platform in 2024, reducing time-to-value by 40%
   steps:
   - step: 1
     actor: Account Executive
@@ -60,19 +59,18 @@ workflow:
     outputs:
     - Go-live confirmation
     - Success plan documented
-  success_criteria: Customer achieves first value milestone within 30 days with 90%
-    user adoption
+  success_criteria: Customer achieves first value milestone within 30 days with 90% user adoption
   failure_modes:
   - Delayed account setup
   - Inadequate training
   - Poor internal handoff
-   metrics:
-   - 'Time-to-value: 14 days average'
-   - 'User adoption rate: 85%'
-   - 'Churn rate in first 90 days: <5%'
-   - 'Onboarding completion rate: 92%'
-   - 'Customer satisfaction score: 4.3/5'
-   performance_history:
+  metrics:
+  - 'Time-to-value: 14 days average'
+  - 'User adoption rate: 85%'
+  - 'Churn rate in first 90 days: <5%'
+  - 'Onboarding completion rate: 92%'
+  - 'Customer satisfaction score: 4.3/5'
+  performance_history:
     success_rate_trend: 65% (2023) → 75% (2024) → 85% (2025)
     cost_trend: $1.2M (2023) → $1.4M (2024) → $1.6M (2025)
     efficiency_improvements:

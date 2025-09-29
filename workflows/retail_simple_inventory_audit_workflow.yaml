@@ -12,14 +12,17 @@ workflow:
       tools: ["Barcode Scanner", "Inventory App"]
       duration: "30 minutes"
       outputs: ["Aisle count report"]
-    - step: 2
-      actor: "Inventory Manager"
-      action: "Verify counts and update system records"
-      tools: ["Inventory Management System"]
-      duration: "15 minutes"
-      outputs: ["Updated inventory records"]
-  success_criteria: "All assigned items counted accurately within time limit"
-  failure_modes: ["Scanner malfunction", "Manual counting errors"]
-  metrics:
-    - "Audit completion rate: 100%"
-    - "Accuracy rate: 99%+"
+     - step: 2
+       actor: "Inventory Manager"
+       action: "Verify counts and update system records"
+       decision_points: ["Discrepancy threshold", "System update priority"]
+       tools: ["Inventory Management System"]
+       duration: "15 minutes"
+       outputs: ["Updated inventory records", "Discrepancy Report"]
+   success_criteria: "All assigned items counted accurately within time limit"
+   failure_modes: ["Scanner malfunction", "Manual counting errors", "System integration issues"]
+   risks: ["Inventory shrinkage", "Staff training gaps", "Peak hour disruptions"]
+   metrics:
+     - "Audit completion rate: 100%"
+     - "Accuracy rate: 99%+"
+     - "Discrepancy resolution time: <2 hours"

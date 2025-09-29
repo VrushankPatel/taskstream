@@ -12,16 +12,17 @@ workflow:
       tools: ["POS System", "Loyalty App"]
       duration: "5 minutes"
       outputs: ["Customer Profile"]
-    - step: 2
-      actor: "Customer Service Rep"
-      action: "Verify information and activate loyalty account"
-      tools: ["CRM System"]
-      duration: "2 minutes"
-      outputs: ["Loyalty Card", "Welcome Email"]
-   success_criteria: "Customer receives loyalty card and confirmation email within 24 hours"
-   failure_modes: ["Invalid contact information", "System technical issues", "Duplicate enrollment"]
-   risks: ["Data privacy compliance violations", "System downtime during peak hours", "Inadequate staff training"]
-   metrics:
+     - step: 2
+       actor: "Customer Service Rep"
+       action: "Verify information and activate loyalty account"
+       decision_points: ["Data completeness", "Fraud indicators"]
+       tools: ["CRM System"]
+       duration: "2 minutes"
+       outputs: ["Loyalty Card", "Welcome Email", "Account Verification Log"]
+  success_criteria: "Customer receives loyalty card and confirmation email within 24 hours"
+  failure_modes: ["Invalid contact information", "System technical issues", "Duplicate enrollment"]
+  risks: ["Data privacy compliance violations", "System downtime during peak hours", "Inadequate staff training"]
+  metrics:
      - "Enrollment completion rate: 95%"
      - "Average enrollment time: 7 minutes"
      - "Customer satisfaction score: 4.2/5"

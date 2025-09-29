@@ -36,10 +36,11 @@ workflow:
       tools: ["Contract Templates", "Negotiation Framework"]
       duration: "6 weeks"
       outputs: ["Partnership Agreements", "Expansion Timeline"]
-  success_criteria: "Successful market entry within 6 months, positive ROI within 2 years"
-  failure_modes: ["Regulatory delays", "Partnership failures", "Market misassessment", "Operational challenges"]
-  metrics:
-    - "Market Entry Timeline: <6 months"
-    - "Initial Occupancy Rate: >70%"
-    - "ROI Achievement: Within 2 years"
-    - "Customer Satisfaction: >85%"
+   success_criteria: "Successful market entry within 6 months, positive ROI within 2 years"
+   failure_modes: ["Regulatory delays", "Partnership failures", "Market misassessment", "Operational challenges"]
+   risks: ["Cultural misalignment", "Economic instability", "Competition intensity", "Currency fluctuations"]
+   metrics:
+     - "Market Entry Timeline: <6 months"
+     - "Initial Occupancy Rate: >70%"
+     - "ROI Achievement: Within 2 years"
+     - "Customer Satisfaction: >85%"

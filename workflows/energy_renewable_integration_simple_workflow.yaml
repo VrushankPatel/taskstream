@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_energy_renewable_integration"
+  title: "Renewable Energy Integration Process"
+  department: "Energy Operations"
+  complexity: "simple"
+  participants: ["Energy Manager", "Grid Operator", "Renewable Supplier"]
+  trigger: "New renewable energy source connection request"
+  steps:
+    - step: 1
+      actor: "Energy Manager"
+      action: "Review connection application and technical specifications"
+      tools: ["Grid Management System", "Technical Documentation"]
+      duration: "2 days"
+      outputs: ["Technical Assessment Report"]
+    - step: 2
+      actor: "Grid Operator"
+      action: "Conduct grid impact analysis and capacity check"
+      tools: ["Grid Simulation Software", "Load Forecasting Tools"]
+      duration: "3 days"
+      outputs: ["Grid Impact Assessment"]
+    - step: 3
+      actor: "Energy Manager"
+      action: "Approve integration and schedule connection"
+      tools: ["Approval System", "Scheduling Software"]
+      duration: "1 day"
+      outputs: ["Integration Approval", "Connection Schedule"]
+  success_criteria: "Renewable source successfully integrated without grid instability"
+  failure_modes: ["Technical incompatibility", "Grid capacity exceeded", "Regulatory non-compliance"]
+  metrics:
+    - "Integration time: <30 days"
+    - "Grid stability: >99.9% uptime"
+    - "Renewable capacity utilization: >95%"

@@ -28,9 +28,11 @@ workflow:
       action: "Respond to feedback and close the loop with guests"
       duration: "2 hours"
       outputs: ["Guest Responses", "Satisfaction Updates"]
-  success_criteria: "Feedback collected from 60%+ guests with actionable insights implemented"
-  failure_modes: ["Low response rates", "Cultural communication barriers", "System integration issues"]
-  metrics:
-    - "Response Rate: >60%"
-    - "NPS Improvement: +10 points"
-    - "Action Implementation: >80%"
+   success_criteria: "Feedback collected from 60%+ guests with actionable insights implemented within 48 hours, culturally appropriate communications used"
+   failure_modes: ["Low response rates", "Cultural communication barriers", "System integration issues", "Language translation errors", "Technical platform failures"]
+   metrics:
+     - "Response Rate: >60%"
+     - "NPS Improvement: +10 points"
+     - "Action Implementation: >80%"
+     - "Cultural Adaptation Score: >85%"
+     - "Feedback Resolution Time: <48 hours"

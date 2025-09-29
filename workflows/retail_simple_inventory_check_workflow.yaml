@@ -43,13 +43,16 @@ success_criteria:
   - Inventory accuracy within 2% variance
   - All discrepancies resolved within shift
   - System updated before store closing
+  - Staff training completed for new procedures
 failure_modes:
   - Scanner battery failure or malfunction
   - Manual counting errors due to high volume
   - Network connectivity issues preventing sync
   - Stock movement during counting
+  - Staff turnover affecting training
 metrics:
-  - Inventory accuracy rate: >98%
-  - Average time per check: <45 minutes
-  - Discrepancy resolution rate: >95%
-  - System update completion: 100%
+  - "Inventory accuracy rate: >98%"
+  - "Average time per check: <45 minutes"
+  - "Discrepancy resolution rate: >95%"
+  - "System update completion: 100%"
+  - "Staff Training Completion: 100%"

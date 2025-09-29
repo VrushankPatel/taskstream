@@ -1,0 +1,55 @@
+{
+  "scenario_id": "utilities_sustainable_energy_transition_2025",
+  "context": "Municipal utility company planning transition to renewable energy sources",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Finance Director", "Regulatory Affairs Manager"]
+  },
+  "request": {
+    "amount": "$85,000,000",
+    "purpose": "Invest in solar and wind energy infrastructure to achieve 50% renewable energy by 2030",
+    "urgency": "medium",
+    "justification": "Meet regulatory requirements and reduce carbon emissions by 40%"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_compliance_review",
+      "duration": "1 month",
+      "activities": ["Regulatory requirement analysis", "Incentive program evaluation", "Carbon credit assessment"],
+      "outcome": "Clear regulatory pathway identified with available incentives worth $12M"
+    },
+    {
+      "stage": "technical_feasibility_study",
+      "duration": "2 months",
+      "activities": ["Site assessments", "Grid integration analysis", "Energy modeling"],
+      "outcome": "Feasible with 60% solar, 40% wind mix achieving target capacity"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 weeks",
+      "activities": ["Cost-benefit analysis", "Funding strategy development", "Rate impact assessment"],
+      "outcome": "20-year NPV positive with acceptable rate increase of 3.5%"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "2 months",
+      "activities": ["Community consultations", "Environmental impact studies", "Local government coordination"],
+      "outcome": "Strong community support with environmental benefits outweighing concerns"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentations", "Final risk assessment", "Contract awards"],
+      "outcome": "Approved with 5-year implementation timeline"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Position as regional leader in sustainable energy, improved regulatory compliance, and long-term cost stability",
+    "projected_value": "$120,000,000 in avoided fuel costs over 20 years",
+    "risk_factors": ["Technology obsolescence", "Weather dependency", "Grid stability challenges", "Community opposition"]
+  },
+  "decision_criteria": ["Regulatory compliance achievement", "Financial viability (NPV >$50M)", "Technical feasibility", "Community acceptance", "Grid reliability maintenance"],
+  "outcome": "Approved",
+  "lessons_learned": "Early community engagement critical for infrastructure projects, comprehensive stakeholder analysis prevents delays"
+}

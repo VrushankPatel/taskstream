@@ -102,24 +102,8 @@
 - **Early Departure Rate**: 1.8%
 - **Group Attrition**: 8%
 
-## Risk Analysis
-- **Economic Sensitivity**: 15% RevPAR decline in recession scenarios
-- **Competition Impact**: New hotel openings could reduce market share by 3-5%
-- **Seasonal Volatility**: 20% variance between peak and low seasons
-- **OTA Dependency**: 45% channel mix increases vulnerability to commission changes
-- **Group Cancellation Risk**: 12% cancellation rate affects planning accuracy
-
-## Future Projections
-- **2026 RevPAR Target**: $155 (+9% growth)
-- **Occupancy Goal**: 85% (+7 percentage points)
-- **ADR Objective**: $190 (+4% increase)
-- **Market Share Target**: 28% of competitive set
-- **Digital Transformation Impact**: +8% revenue from direct channels
-
 ## Action Items
 1. Implement dynamic pricing for business travel segment
 2. Expand direct booking initiatives to capture more market share
 3. Optimize OTA strategy to reduce commission drag
 4. Develop group sales strategy for off-peak periods
-5. Conduct competitive analysis quarterly to identify pricing opportunities
-6. Invest in loyalty program to increase direct booking conversion

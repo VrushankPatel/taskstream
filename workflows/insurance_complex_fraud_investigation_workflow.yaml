@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_insurance_complex_fraud_investigation"
+  title: "Insurance Fraud Investigation and Resolution Process"
+  department: "Special Investigations"
+  complexity: "complex"
+  participants: ["Fraud Investigator", "Claims Adjuster", "Legal Counsel", "Data Analyst", "External Investigators", "Policyholder"]
+  trigger: "Suspicious claim patterns detected or fraud allegation received"
+  steps:
+    - step: 1
+      actor: "Fraud Investigator"
+      action: "Initial claim review and red flag identification"
+      tools: ["Fraud Detection System", "Claims Database", "Public Records"]
+      duration: "2 days"
+      outputs: ["Initial risk assessment", "Investigation plan"]
+    - step: 2
+      actor: "Data Analyst"
+      action: "Conduct data analytics and pattern analysis"
+      tools: ["Data Analytics Platform", "Fraud Modeling Software"]
+      duration: "3 days"
+      outputs: ["Data insights", "Pattern analysis report"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Field investigation and evidence collection"
+      tools: ["Investigation Toolkit", "Witness Interview Protocols", "Surveillance Equipment"]
+      duration: "5-10 days"
+      outputs: ["Evidence collected", "Witness statements", "Site inspections"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Review evidence and legal admissibility"
+      tools: ["Legal Database", "Chain of Custody Procedures"]
+      duration: "2 days"
+      outputs: ["Legal assessment", "Admissibility determination"]
+    - step: 5
+      actor: "Fraud Investigator"
+      action: "Prepare investigation report and recommendations"
+      tools: ["Investigation Report Template", "Evidence Management System"]
+      duration: "3 days"
+      outputs: ["Comprehensive report", "Fraud determination", "Recovery recommendations"]
+    - step: 6
+      actor: "Claims Adjuster"
+      action: "Implement fraud resolution and claim adjustment"
+      tools: ["Claims Adjustment System", "Fraud Resolution Protocols"]
+      duration: "2 days"
+      outputs: ["Claim denied/adjusted", "Recovery actions initiated"]
+  success_criteria: "Fraud investigation completed within regulatory timelines with documented evidence and appropriate claim resolution"
+  failure_modes: ["Insufficient evidence", "Legal admissibility issues", "Timeline delays", "Policyholder disputes", "External investigation complications"]
+  metrics:
+    - "Investigation completion rate: 95%"
+    - "Average investigation time: 21 days"
+    - "Fraud detection accuracy: 92%"
+    - "Recovery rate: 75% of fraud amount"

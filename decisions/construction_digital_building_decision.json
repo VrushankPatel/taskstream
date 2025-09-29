@@ -1,0 +1,55 @@
+{
+  "scenario_id": "construction_digital_building_decision",
+  "context": "Construction company evaluating adoption of Building Information Modeling (BIM) and digital construction technologies for improved project efficiency",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Operations Officer", "Board Technology Committee"],
+    "influencers": ["Project Managers", "IT Director", "Construction Foremen", "Technology Vendors"]
+  },
+  "request": {
+    "amount": "$8 million",
+    "purpose": "Implementation of BIM software, digital collaboration tools, and automated project management systems across all projects",
+    "urgency": "medium",
+    "justification": "Industry digital transformation requirements, competitive advantage, reduced rework costs, improved project predictability"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "3 months",
+      "activities": ["Vendor assessment", "Software demonstrations", "Integration testing", "Cost analysis"],
+      "outcome": "BIM platform selected with 25% productivity improvement potential"
+    },
+    {
+      "stage": "pilot_project",
+      "duration": "4 months",
+      "activities": ["Pilot site selection", "Team training", "Process implementation", "Performance monitoring"],
+      "outcome": "Pilot completed with 30% time savings and 20% cost reduction"
+    },
+    {
+      "stage": "change_management_assessment",
+      "duration": "2 months",
+      "activities": ["Employee impact analysis", "Training program design", "Resistance assessment", "Communication planning"],
+      "outcome": "Comprehensive change management plan developed with 85% employee buy-in"
+    },
+    {
+      "stage": "roi_validation",
+      "duration": "1 month",
+      "activities": ["Financial modeling", "Risk assessment", "Payback analysis", "Scaling projections"],
+      "outcome": "3-year payback period with 15% annual productivity gains"
+    },
+    {
+      "stage": "full_implementation_approval",
+      "duration": "2 weeks",
+      "activities": ["Executive review", "Board presentation", "Budget approval", "Timeline finalization"],
+      "outcome": "Approved for 18-month enterprise-wide rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Digital transformation completed by 2027, enhanced competitiveness, improved project margins, reduced construction defects",
+    "projected_value": "$12 million annual savings, 25% faster project delivery, 40% reduction in rework costs",
+    "risk_factors": ["Employee resistance", "Technology integration challenges", "Training costs", "Initial productivity dip", "Vendor dependency"]
+  },
+  "decision_criteria": ["Financial ROI", "Technology maturity", "Employee adoption", "Competitive advantage", "Implementation feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for demonstrating value, comprehensive training critical for adoption, executive sponsorship key to overcoming resistance, phased rollout minimizes operational disruption"
+}

@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_hospitality_medium_room_service"
+  title: "Room Service Order and Delivery Process"
+  department: "Food & Beverage"
+  complexity: "medium"
+  participants: ["Room Service Agent", "Kitchen Staff", "Room Attendant", "Guest"]
+  trigger: "Guest places room service order via phone or app"
+  steps:
+    - step: 1
+      actor: "Room Service Agent"
+      action: "Take order details and verify guest information"
+      tools: ["Order System", "Guest Database", "Menu Database"]
+      duration: "3 minutes"
+      outputs: ["Order confirmation", "Estimated delivery time"]
+    - step: 2
+      actor: "Room Service Agent"
+      action: "Coordinate with kitchen for order preparation"
+      tools: ["Kitchen Communication System"]
+      duration: "1 minute"
+      outputs: ["Order sent to kitchen", "Preparation timeline confirmed"]
+    - step: 3
+      actor: "Kitchen Staff"
+      action: "Prepare order according to specifications"
+      tools: ["Kitchen Equipment", "Recipe Database"]
+      duration: "15-25 minutes"
+      outputs: ["Prepared order", "Quality check completed"]
+    - step: 4
+      actor: "Room Attendant"
+      action: "Deliver order to guest room and collect payment"
+      tools: ["Room Key System", "Payment Terminal", "Service Cart"]
+      duration: "5 minutes"
+      outputs: ["Order delivered", "Payment processed", "Guest feedback collected"]
+  success_criteria: "Order delivered within 30 minutes of placement with accurate preparation and positive guest feedback"
+  failure_modes: ["Order preparation delays", "Room access issues", "Payment processing problems", "Guest not available"]
+  metrics:
+    - "Average delivery time: 25 minutes"
+    - "Order accuracy rate: 98%"
+    - "Guest satisfaction score: 4.5/5"

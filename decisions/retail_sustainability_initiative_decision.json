@@ -1,0 +1,70 @@
+{
+  "scenario_id": "retail_sustainability_initiative_2025",
+  "decision_date": "2025-02-20",
+  "context": "Large retail corporation responding to consumer demand for sustainable practices and regulatory pressure for environmental reporting",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
+    "influencers": ["Chief Supply Chain Officer", "Chief Marketing Officer", "Operations VP"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Sustainable packaging transition, renewable energy for stores, supply chain carbon tracking, and consumer education campaign",
+    "urgency": "medium",
+    "justification": "Consumer surveys show 78% prefer sustainable brands, regulatory requirements for carbon reporting by 2026, competitors investing heavily in green initiatives"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "start_date": "2024-10-01",
+      "end_date": "2024-11-15",
+      "duration": "46 days",
+      "activities": ["Supplier assessments", "Cost-benefit analysis", "Technology evaluation"],
+      "outcome": "Viable with phased approach"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-01",
+      "duration": "16 days",
+      "activities": ["Executive presentations", "Supplier negotiations", "Employee surveys"],
+      "outcome": "Strong internal support"
+    },
+    {
+      "stage": "pilot_program",
+      "start_date": "2024-12-02",
+      "end_date": "2025-01-15",
+      "duration": "45 days",
+      "activities": ["Pilot store implementation", "Performance monitoring", "Customer feedback"],
+      "outcome": "Pilot successful with 12% cost premium offset by 8% price increase"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2025-01-16",
+      "end_date": "2025-02-20",
+      "duration": "36 days",
+      "activities": ["Board presentation", "Financial modeling", "Risk assessment"],
+      "outcome": "Approved with KPIs and milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% reduction in carbon footprint, 15% increase in customer loyalty, compliance with emerging regulations",
+    "projected_value": "$8,000,000 annual cost savings from efficiency gains",
+    "actual_value": "$7,200,000 (achieved in year 1)",
+    "roi_timeline": "Expected payback in 24 months",
+    "risk_factors": ["Higher procurement costs", "Supply chain disruptions", "Consumer acceptance of premium pricing"]
+  },
+  "decision_criteria": ["Carbon reduction >20%", "ROI >12%", "Regulatory compliance", "Brand enhancement potential", "Supplier capability"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-03-01",
+    "completion_date": "2026-02-28",
+    "milestones": ["Packaging transition complete: 2025-08-01", "Store renewable energy: 2025-12-01", "Full carbon tracking: 2026-02-01"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "On track with packaging transition, early customer feedback positive",
+    "12_month_review": "Exceeded carbon goals by 8%, customer loyalty up 12%",
+    "actual_roi": "18% (vs projected 12%)"
+  },
+  "lessons_learned": "Consumer education critical for premium acceptance, supplier partnerships essential for cost control, pilot programs invaluable for risk mitigation"
+}

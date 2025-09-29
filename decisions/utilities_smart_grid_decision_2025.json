@@ -1,0 +1,62 @@
+{
+  "scenario_id": "utilities_smart_grid_modernization_2025",
+  "decision_date": "2025-07-10",
+  "context": "Regional utility company evaluating smart grid modernization to improve reliability, integrate renewable energy, and meet regulatory requirements for advanced metering infrastructure",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "Chief Operating Officer", "Board Infrastructure Committee"],
+    "influencers": ["Chief Financial Officer", "Regulatory Affairs Director", "Customer Service Director", "Engineering Director"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Deploy advanced metering infrastructure, smart grid sensors, and automated distribution management system across service territory",
+    "urgency": "high",
+    "justification": "Regulatory deadline approaching in 2026; current grid experiencing increasing outages; renewable integration requires smart capabilities"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_assessment",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-15",
+      "duration": "45 days",
+      "activities": ["Grid capacity analysis", "Technology vendor evaluation", "Regulatory requirement review", "Cost-benefit modeling"],
+      "outcome": "Identified optimal technology stack and implementation approach"
+    },
+    {
+      "stage": "regulatory_approval",
+      "start_date": "2025-05-16",
+      "end_date": "2025-06-30",
+      "duration": "46 days",
+      "activities": ["Rate case filing", "Public hearings", "Regulatory negotiations", "Final approval documentation"],
+      "outcome": "Regulatory approval secured with 60% cost recovery"
+    },
+    {
+      "stage": "vendor_selection",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-10",
+      "duration": "10 days",
+      "activities": ["RFP finalization", "Vendor presentations", "Contract negotiations", "Final selection"],
+      "outcome": "Primary vendor selected, contracts executed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduce outage duration by 40%, enable 30% renewable energy integration, improve customer satisfaction, meet regulatory compliance",
+    "projected_value": "$75,000,000 in operational savings and new revenue over 10 years",
+    "actual_value": "$10,000,000 realized in Year 1 (projected)",
+    "roi_timeline": "Expected payback in 36 months",
+    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Installation delays", "Higher-than-expected costs", "Regulatory changes"]
+  },
+  "decision_criteria": ["Regulatory compliance achievement", "Technical reliability improvement", "Financial ROI exceeding 100%", "Customer service enhancement", "Renewable energy integration capability"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2027-12-31",
+    "milestones": ["Phase 1: Pilot deployment (Q4 2025)", "Phase 2: Urban areas (2026)", "Phase 3: Rural expansion (2027)", "Full operation and optimization (Q1 2028)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot systems operational, initial data collection successful, customer feedback positive on new capabilities",
+    "12_month_review": "50% deployment complete, outage reduction of 25% achieved, renewable integration at 15% capacity",
+    "actual_roi": "110% (vs projected 100%)"
+  },
+  "lessons_learned": "Early stakeholder engagement improved regulatory process; pilot testing identified integration issues before full deployment; customer communication essential for adoption of new metering technology"
+}

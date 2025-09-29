@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_agile_product_development"
+  title: "Agile Product Development Workflow"
+  department: "Product Development"
+  complexity: "complex"
+  participants: ["Product Manager", "Engineering Lead", "QA Lead", "Design Lead", "Scrum Master"]
+  trigger: "Feature request approved in product roadmap"
+  temporal_data:
+    first_implemented: "2020-11-01"
+    last_updated: "2025-05-20"
+    typical_cycle_time: "60 days"
+    average_annual_executions: 30
+    seasonal_variations: ["Q2/Q3 major releases", "Q4 maintenance focus"]
+    historical_evolution: "CI/CD pipeline and automated testing implemented in 2023, improving delivery speed by 50%"
+  steps:
+    - step: 1
+      actor: "Product Manager"
+      action: "Define requirements and create user stories"
+      tools: ["Product backlog tool", "User research data"]
+      duration: "5 days"
+      outputs: ["User stories", "Acceptance criteria"]
+    - step: 2
+      actor: "Engineering Lead"
+      action: "Plan sprint and allocate development tasks"
+      tools: ["Sprint planning board", "Resource allocation tool"]
+      duration: "2 days"
+      outputs: ["Sprint backlog", "Development estimates"]
+    - step: 3
+      actor: "Engineering Team"
+      action: "Implement features with daily standups"
+      tools: ["Version control", "CI/CD pipeline", "Code review tools"]
+      duration: "14 days"
+      outputs: ["Working software", "Code reviews completed"]
+    - step: 4
+      actor: "QA Lead"
+      action: "Conduct testing and quality assurance"
+      tools: ["Test automation suite", "Bug tracking system"]
+      duration: "7 days"
+      outputs: ["Test reports", "Quality sign-off"]
+    - step: 5
+      actor: "Product Manager"
+      action: "Review sprint results and plan next iteration"
+      tools: ["Retrospective format", "Metrics dashboard"]
+      duration: "1 day"
+      outputs: ["Sprint retrospective", "Backlog refinement"]
+  success_criteria: "Deliver working software every 2 weeks with <5% defect rate and on-time delivery"
+  failure_modes: ["Scope creep", "Technical debt", "Poor requirements"]
+  metrics:
+    - "Sprint completion rate: 88%"
+    - "Defect escape rate: 3.2%"
+    - "Velocity consistency: ±15%"
+  performance_history:
+    success_rate_trend: "72% (2023) → 80% (2024) → 88% (2025)"
+    cost_trend: "$6.5M (2023) → $7.0M (2024) → $7.5M (2025)"
+    efficiency_improvements: ["Automated testing reduced QA time by 60%", "CI/CD improved deployment frequency by 3x"]

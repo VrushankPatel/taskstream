@@ -1,73 +1,62 @@
 workflow:
-  id: workflow_insurance_claims_001
-  title: Insurance Claims Processing Automation
-  department: Claims Operations
-  complexity: high
-  participants:
-  - Claims Adjuster
-  - Underwriter
-  - Fraud Analyst
-  - Customer Service Rep
-  - Legal Counsel
-  trigger: Customer submits claim via portal or agent
+  id: "workflow_insurance_claims_processing"
+  title: "Insurance Claims Processing Automation"
+  department: "Claims Operations"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Underwriter", "Fraud Analyst", "Customer Service Rep", "Legal Counsel"]
+  trigger: "Customer submits claim via portal or agent"
+  temporal_data:
+    first_implemented: "2023-04-01"
+    last_updated: "2024-11-01"
+    typical_cycle_time: "24-48 hours"
+    average_annual_executions: 50000
+    seasonal_variations: ["Q1 post-holiday claims surge (150% increase)", "Q3 hurricane season peak"]
+    historical_evolution: "Manual processing replaced with AI automation in 2024, reducing processing time by 60%"
   steps:
   - step: 1
-    actor: Automated System
-    action: Initial claim intake and validation
-    tools:
-    - Claims Portal
-    - OCR Scanner
-    - AI Validation Engine
-    duration: 5 minutes
-    outputs:
-    - Validated Claim Record
+    actor: "Automated System"
+    action: "Receive claim submission, extract data using OCR, validate against policy database, and route to appropriate queue"
+    tools: ["Claims Portal", "OCR Scanner", "AI Validation Engine", "Policy Database"]
+    duration: "2-5 minutes"
+    outputs: ["Validated Claim Record", "Routing Assignment", "Initial Acknowledgment to Claimant"]
   - step: 2
-    actor: Claims Adjuster
-    action: Review claim details and gather supporting documentation
-    decision_points:
-    - Coverage verification
-    - Policy limits check
-    duration: 2 hours
-    outputs:
-    - Assessment Report
+    actor: "Claims Adjuster"
+    action: "Review claim details, verify coverage terms, assess damage extent, and request additional documentation if needed"
+    decision_points: ["Coverage verification", "Policy limits check", "Documentation completeness"]
+    tools: ["Claims Management System", "Document Management Platform"]
+    duration: "1-4 hours"
+    outputs: ["Assessment Report", "Documentation Requests", "Preliminary Damage Estimate"]
   - step: 3
-    actor: Fraud Analyst
-    action: Run fraud detection algorithms and manual review
-    tools:
-    - Fraud Detection Software
-    - Database Cross-check
-    duration: 30 minutes
-    outputs:
-    - Fraud Risk Score
+    actor: "Fraud Analyst"
+    action: "Execute automated fraud detection algorithms, cross-reference with historical data, and perform manual investigation for high-risk claims"
+    tools: ["Fraud Detection Software", "Database Cross-check", "External Data Sources"]
+    duration: "15-60 minutes"
+    outputs: ["Fraud Risk Score", "Investigation Report", "Escalation Recommendation"]
   - step: 4
-    actor: Underwriter
-    action: Evaluate claim validity and determine settlement amount
-    decision_points:
-    - Settlement approval threshold
-    - Escalation criteria
-    duration: 4 hours
-    outputs:
-    - Settlement Decision
+    actor: "Underwriter"
+    action: "Review adjuster assessment, evaluate claim validity against policy terms, calculate settlement amount, and approve or escalate complex cases"
+    decision_points: ["Settlement approval threshold", "Escalation criteria", "Legal review requirement"]
+    tools: ["Underwriting Platform", "Claims Calculator", "Legal Database"]
+    duration: "2-8 hours"
+    outputs: ["Settlement Decision", "Payment Authorization", "Case Notes for Legal Review"]
   - step: 5
-    actor: Customer Service Rep
-    action: Communicate decision to claimant and process payment
-    tools:
-    - CRM System
-    - Payment Processor
-    duration: 1 hour
-    outputs:
-    - Payment Issued
-    - Claim Closed
-  success_criteria: Claim processed within SLA, customer satisfaction maintained
-  failure_modes:
-  - Fraud undetected
-  - Incorrect settlement amount
-  - Processing delays
-  - Documentation errors
-  - Communication breakdowns
-  kpis:
-  - 'Average processing time: < 24 hours for standard claims'
-  - 'Customer satisfaction score: > 90%'
-  - 'Fraud detection accuracy: > 95%'
-  - 'Cost per claim: < $150'
-  - 'First contact resolution rate: > 85%'
+    actor: "Customer Service Rep"
+    action: "Notify claimant of decision via preferred channel, answer questions, process electronic payment, and update claim status"
+    tools: ["CRM System", "Payment Processor", "Communication Platform"]
+    duration: "30-90 minutes"
+    outputs: ["Payment Issued", "Claim Closed", "Customer Satisfaction Survey", "Case Documentation"]
+  success_criteria: "Claim processed within SLA, customer satisfaction maintained"
+  failure_modes: ["Fraud undetected", "Incorrect settlement amount", "Processing delays", "Documentation errors", "Communication breakdowns"]
+  metrics:
+  - "Average processing time: < 24 hours for standard claims"
+  - "Customer satisfaction score: > 90%"
+  - "Fraud detection accuracy: > 95%"
+  - "Cost per claim: < $150"
+  - "First contact resolution rate: > 85%"
+  - "Claims accuracy rate: > 98%"
+  - "Escalation rate: < 10%"
+  - "Digital submission rate: > 70%"
+  performance_history:
+    success_rate_trend: "75% (2023) → 88% (2024) → 92% (2025)"
+    cost_trend: "$8.5M (2023) → $7.2M (2024) → $6.8M (2025)"
+    efficiency_improvements: ["AI automation reduced processing time by 60%", "Digital intake improved accuracy by 25%"]

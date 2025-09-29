@@ -1,0 +1,62 @@
+{
+  "scenario_id": "decision_sales_team_scaling_q4_2025",
+  "decision_date": "2025-10-10",
+  "context": "Growing SaaS company with 120% YoY revenue growth, current 15-person sales team at 110% capacity with 45-day sales cycle",
+  "stakeholders": {
+    "requester": "VP Sales",
+    "approvers": ["CEO", "CFO"],
+    "influencers": ["Head of People", "Sales Operations Manager", "Current Sales Leadership"]
+  },
+  "request": {
+    "amount": "$1,800,000",
+    "purpose": "Hire 12 additional sales representatives and 3 managers over 6 months",
+    "urgency": "high",
+    "justification": "Current team handling $25M pipeline, projected $40M gap without expansion"
+  },
+  "decision_process": [
+    {
+      "stage": "capacity_analysis",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-15",
+      "duration": "14 days",
+      "activities": ["Pipeline analysis", "Capacity modeling", "Workload assessment"],
+      "outcome": "Confirmed 80% capacity utilization, 60-day ramp time needed"
+    },
+    {
+      "stage": "financial_modeling",
+      "start_date": "2025-09-16",
+      "end_date": "2025-09-30",
+      "duration": "14 days",
+      "activities": ["ROI projections", "Cash flow impact", "Break-even analysis"],
+      "outcome": "Projected 280% ROI over 24 months, 12-month payback"
+    },
+    {
+      "stage": "organizational_planning",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-10",
+      "duration": "9 days",
+      "activities": ["Hiring plan development", "Onboarding strategy", "Manager training"],
+      "outcome": "Phased hiring approach with structured ramp-up"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Close $40M revenue gap, establish scalable sales motion",
+    "projected_value": "$22,000,000",
+    "actual_value": "$20,000,000 (projected)",
+    "roi_timeline": "24 months",
+    "risk_factors": ["Hiring market competition", "Training ramp-up time", "Market slowdown"]
+  },
+  "decision_criteria": ["Revenue impact", "Financial viability", "Scalability", "Execution risk", "Market timing"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-11-01",
+    "completion_date": "2026-04-30",
+    "milestones": ["Hiring plan finalized: 2025-10-20", "First hires onboarded: 2025-12-01", "Full productivity achieved: 2026-04-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Revenue growth of 55% vs target 50%, team productivity at 90%",
+    "12_month_review": "Revenue growth of 75%, ROI at 250%, retention rate 88%",
+    "actual_roi": "270% (vs projected 280%)"
+  },
+  "lessons_learned": "Structured onboarding critical for quick ramp-up, additional investment in sales enablement paid dividends"
+}

@@ -7,6 +7,13 @@ workflow:
   - Customer Service Representative
   - Customer
   trigger: Customer requests to join loyalty program at checkout or online
+  temporal_data:
+    first_implemented: "2019-11-01"
+    last_updated: "2024-07-15"
+    typical_cycle_time: "5 minutes"
+    average_annual_executions: 35000
+    seasonal_variations: ["Q4 holiday season (35% increase)", "Back-to-school period (15% increase)"]
+    historical_evolution: "Paper applications replaced with digital forms in 2021, mobile app enrollment added in 2023"
   steps:
   - step: 1
     actor: Customer Service Representative
@@ -44,6 +51,10 @@ workflow:
   - System technical issues preventing enrollment
   - Customer declines terms
   metrics:
-  - 'Enrollment Success Rate: 95%'
-  - 'Average Enrollment Time: 3 minutes'
-  - 'Customer Satisfaction Score: 4.5/5'
+   - 'Enrollment Success Rate: 95%'
+   - 'Average Enrollment Time: 3 minutes'
+   - 'Customer Satisfaction Score: 4.5/5'
+  performance_history:
+    success_rate_trend: "90% (2023) → 93% (2024) → 95% (2025)"
+    cost_trend: "$0.45 per enrollment (2023) → $0.40 (2024) → $0.35 (2025)"
+    efficiency_improvements: ["Digital forms reduced manual entry by 60%", "Automated verification improved accuracy by 20%", "Mobile app integration increased self-service enrollment by 30%"]

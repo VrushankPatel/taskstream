@@ -79,5 +79,3 @@
 2. Enhance in-store digital integration for seamless experiences
 3. Implement AI-driven product recommendations
 4. Expand BOPIS network to additional locations
-5. Develop personalized email marketing campaigns
-6. Implement real-time inventory visibility across channels

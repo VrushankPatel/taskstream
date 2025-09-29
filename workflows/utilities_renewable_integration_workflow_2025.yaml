@@ -1,0 +1,56 @@
+workflow:
+  id: "workflow_utilities_renewable_integration_2025"
+  title: "Utilities Renewable Energy Grid Integration"
+  department: "Grid Operations & Planning"
+  complexity: "medium"
+  participants: ["Grid Planning Engineers", "Renewable Energy Specialists", "Regulatory Affairs", "IT Integration Team"]
+  trigger: "New renewable energy project connection request or grid capacity expansion"
+  temporal_data:
+    first_implemented: "2021-07-01"
+    last_updated: "2024-08-15"
+    typical_cycle_time: "60 days"
+    average_annual_executions: 25
+    seasonal_variations: ["Q2/Q3 construction season (peak activity)", "Q4 budget planning"]
+    historical_evolution: "Manual interconnection studies evolved to automated simulation tools in 2022, AI optimization added in 2024"
+  steps:
+    - step: 1
+      actor: "Grid Planning Engineers"
+      action: "Assess interconnection feasibility, conduct preliminary grid impact studies"
+      tools: ["Grid simulation software", "Load flow analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Feasibility assessment", "Preliminary impact study"]
+    - step: 2
+      actor: "Renewable Energy Specialists"
+      action: "Review project specifications, validate technical requirements, coordinate with project developers"
+      tools: ["Project management platform", "Technical specification database"]
+      duration: "1 week"
+      outputs: ["Technical requirements validation", "Project coordination plan"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Ensure compliance with interconnection standards and regulatory requirements"
+      tools: ["Regulatory database", "Compliance tracking system"]
+      duration: "1 week"
+      outputs: ["Compliance checklist", "Regulatory approval documentation"]
+    - step: 4
+      actor: "IT Integration Team"
+      action: "Design data communication interfaces, implement monitoring and control systems"
+      tools: ["SCADA systems", "IoT integration platforms"]
+      duration: "2 weeks"
+      outputs: ["Integration specifications", "Monitoring system setup"]
+    - step: 5
+      actor: "Cross-functional Team"
+      action: "Conduct final testing, perform commissioning, document operational procedures"
+      tools: ["Testing protocols", "Commissioning checklists"]
+      duration: "1 week"
+      outputs: ["Test results", "Operational documentation", "Commissioning report"]
+  success_criteria: "Renewable energy source successfully integrated into grid with stable operation and compliance with all standards"
+  failure_modes: ["Grid stability issues", "Technical specification mismatches", "Regulatory delays", "Communication system failures"]
+  metrics:
+    - "Integration success rate: 96%"
+    - "Average integration time: 55 days"
+    - "Grid stability incidents: 0.02 per integration"
+    - "Cost per MW integrated: $150K"
+  performance_history:
+    success_rate_trend: "90% (2023) → 94% (2024) → 96% (2025)"
+    cost_trend: "$180K per MW (2023) → $160K (2024) → $150K (2025)"
+    efficiency_improvements: ["Automated simulation reduced study time by 40%", "Standardized protocols decreased integration errors by 25%", "Digital twin testing improved pre-commissioning accuracy by 30%"]

@@ -1,9 +1,9 @@
 ## Meeting Notes: Global Cyber Claims Surge Response
 
-**Date:** September 29, 2025
-**Time:** 14:00-15:30 CET
-**Location:** Virtual (Teams)
-**Attendees:** Claims Director (Chair), Underwriting Manager, Risk Analyst, IT Security Lead, Legal Counsel, Customer Service VP
+**Date:** September 29, 2025  
+**Time:** 14:00-15:30 CET  
+**Location:** Virtual (Teams)  
+**Attendees:** Claims Director (Chair), Underwriting Manager, Risk Analyst, IT Security Lead, Legal Counsel, Customer Service VP  
 **Apologies:** CEO (travel)
 
 ### Agenda
@@ -64,5 +64,5 @@
 ### Next Meeting
 Weekly crisis updates every Monday at 14:00 CET until resolution.
 
-**Meeting Chair:** Claims Director
+**Meeting Chair:** Claims Director  
 **Note Taker:** Risk Analyst

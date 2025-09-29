@@ -1,0 +1,61 @@
+workflow:
+  id: "workflow_insurance_cyber_risk_modeling_complex"
+  title: "Insurance Cyber Risk Modeling and Product Development"
+  department: "Cyber Underwriting"
+  complexity: "complex"
+  participants: ["Cyber Risk Analyst", "Data Scientist", "Cyber Underwriter", "IT Security Expert", "Legal Team"]
+  trigger: "Emerging cyber threat or market demand for cyber coverage"
+  temporal_data:
+    first_implemented: "2023-11-01"
+    last_updated: "2024-10-01"
+    typical_cycle_time: "4 months"
+    average_annual_executions: 3
+    seasonal_variations: ["Post-major breach reviews (Q1)", "Regulatory deadline peaks (Q4)"]
+    historical_evolution: "Basic cyber policies evolved to sophisticated parametric cyber products in 2024, now includes AI threat prediction"
+  steps:
+    - step: 1
+      actor: "Cyber Risk Analyst"
+      action: "Analyze threat landscape and historical breach data"
+      tools: ["Threat intelligence platforms", "Breach databases", "Industry reports"]
+      duration: "4 weeks"
+      outputs: ["Threat assessment report", "Risk modeling inputs"]
+    - step: 2
+      actor: "Data Scientist"
+      action: "Develop predictive models for cyber incidents"
+      tools: ["Machine learning platforms", "Statistical modeling software"]
+      duration: "6 weeks"
+      outputs: ["Predictive models", "Parametric triggers"]
+    - step: 3
+      actor: "Cyber Underwriter"
+      action: "Design coverage terms and exclusions"
+      tools: ["Underwriting systems", "Legal templates"]
+      duration: "3 weeks"
+      outputs: ["Product specifications", "Pricing models"]
+    - step: 4
+      actor: "IT Security Expert"
+      action: "Validate technical feasibility and risk mitigation"
+      tools: ["Security assessment tools", "Compliance frameworks"]
+      duration: "2 weeks"
+      outputs: ["Technical validation reports", "Risk mitigation strategies"]
+    - step: 5
+      actor: "Legal Team"
+      action: "Ensure regulatory compliance and contract enforceability"
+      tools: ["Legal databases", "Regulatory guidelines"]
+      duration: "2 weeks"
+      outputs: ["Compliance certifications", "Legal documentation"]
+    - step: 6
+      actor: "Cyber Underwriter"
+      action: "Launch product and establish monitoring"
+      tools: ["Product management systems", "Claims monitoring dashboards"]
+      duration: "Ongoing"
+      outputs: ["Product launch", "Performance monitoring setup"]
+  success_criteria: "Product launched within 4 months with competitive pricing and regulatory approval"
+  failure_modes: ["Rapidly evolving threats", "Regulatory uncertainty", "Underwriting capacity limits"]
+  metrics:
+    - "Development time: <120 days target"
+    - "Loss ratio: <80% target"
+    - "Market share: 5% target"
+  performance_history:
+    success_rate_trend: "65% (2023) → 75% (2024) → 80% (2025)"
+    cost_trend: "$900K (2023) → $850K (2024) → $800K (2025)"
+    efficiency_improvements: ["AI modeling reduced development time by 35%", "Automated monitoring improved loss ratios by 15%"]

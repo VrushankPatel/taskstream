@@ -1,0 +1,61 @@
+workflow:
+  id: "workflow_agriculture_climate_adaptation"
+  title: "Agriculture Climate Adaptation Workflow"
+  department: "Agricultural Operations"
+  complexity: "complex"
+  participants: ["Farm Manager", "Agronomist", "Climate Scientist", "Equipment Manager", "Supply Chain Coordinator"]
+  trigger: "Climate change impact assessment showing increased drought risk and temperature variability"
+  temporal_data:
+    first_implemented: "2022-03-01"
+    last_updated: "2025-09-20"
+    typical_cycle_time: "12-18 months"
+    average_annual_executions: 1
+    seasonal_variations: ["Spring planning and soil preparation", "Fall harvest and analysis", "Winter strategy refinement"]
+    historical_evolution: "Initial focus on drought-resistant crops in 2022 expanded to comprehensive climate resilience including irrigation automation and predictive analytics by 2025"
+  steps:
+    - step: 1
+      actor: "Climate Scientist"
+      action: "Analyze local climate data and predict future impacts on crop yields"
+      tools: ["Climate modeling software", "Weather station data", "Historical yield databases"]
+      duration: "8 weeks"
+      outputs: ["Climate risk assessment report", "Adaptation strategy recommendations"]
+    - step: 2
+      actor: "Agronomist"
+      action: "Develop resilient crop varieties and farming practices"
+      tools: ["Genetic research databases", "Field trial planning software", "Soil analysis equipment"]
+      duration: "12 weeks"
+      outputs: ["Crop variety selection plan", "Sustainable farming protocols", "Field trial designs"]
+    - step: 3
+      actor: "Farm Manager"
+      action: "Implement irrigation and water management systems"
+      tools: ["Irrigation design software", "Water monitoring sensors", "Automation controllers"]
+      duration: "16 weeks"
+      outputs: ["Automated irrigation systems", "Water usage monitoring dashboards", "Conservation protocols"]
+    - step: 4
+      actor: "Equipment Manager"
+      action: "Upgrade equipment for climate-resilient operations"
+      tools: ["Equipment procurement systems", "Maintenance scheduling software", "GPS-guided machinery"]
+      duration: "10 weeks"
+      outputs: ["Climate-adapted equipment inventory", "Maintenance schedules", "Operator training materials"]
+    - step: 5
+      actor: "Supply Chain Coordinator"
+      action: "Adjust supply chain for resilient sourcing and distribution"
+      tools: ["Supply chain management platforms", "Risk assessment frameworks", "Contract management systems"]
+      duration: "8 weeks"
+      outputs: ["Resilient supplier networks", "Contingency planning documents", "Distribution optimization plans"]
+    - step: 6
+      actor: "Farm Manager"
+      action: "Monitor implementation and measure adaptation effectiveness"
+      tools: ["Performance monitoring dashboards", "Yield tracking systems", "Climate impact analytics"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Adaptation effectiveness metrics", "Continuous improvement recommendations"]
+  success_criteria: "Maintained 90% of baseline yields during extreme weather events and reduced water usage by 25%"
+  failure_modes: ["Insufficient climate data accuracy", "Resistance to practice changes", "Equipment reliability issues", "Supply chain disruptions"]
+  metrics:
+    - "Yield resilience: 90% maintenance during extreme weather"
+    - "Water efficiency: 25% reduction in usage"
+    - "Cost impact: Break-even within 3 years"
+  performance_history:
+    success_rate_trend: "65% (2022) → 78% (2023) → 85% (2024) → 92% (2025)"
+    cost_trend: "$850K (2022) → $780K (2023) → $720K (2024) → $680K (2025)"
+    efficiency_improvements: ["Drought-resistant varieties increased yields by 15% in dry years", "Automated irrigation reduced water waste by 30%", "Predictive analytics improved planning accuracy by 40%"]

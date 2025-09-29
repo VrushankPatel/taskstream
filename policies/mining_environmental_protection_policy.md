@@ -123,6 +123,16 @@ Applies to all mining operations, exploration activities, and related infrastruc
 - Written warnings and corrective action plans for serious violations
 - Financial penalties and operational restrictions for repeated violations
 - Termination of employment or contracts for willful violations
+- Regulatory fines and legal action for environmental violations
+- Project shutdown authority for critical non-compliance
+
+### Enforcement Procedures
+- Immediate cessation of non-compliant activities
+- Root cause analysis within 24 hours of incident
+- Corrective action plan development within 7 days
+- Independent verification of corrective actions
+- Escalation to senior management for repeated violations
+- Regulatory notification for reportable incidents
 
 ## Continuous Improvement
 

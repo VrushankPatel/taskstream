@@ -42,11 +42,27 @@
 - **Customer Service Manager:** Train team on backorder handling procedures  
 - **Operations Manager:** Coordinate with warehouses for inventory optimization  
 
-**Risks Identified:**  
-- Extended disruption could impact Q4 sales targets  
-- Customer churn from dissatisfied experiences  
-- Brand reputation damage from poor communication  
+**Risks Identified:**
+- Extended disruption could impact Q4 sales targets
+- Customer churn from dissatisfied experiences
+- Brand reputation damage from poor communication
+- Supplier relationship strain
+- Inventory carrying costs increase
+- Competitor market share gains
 
-**Next Meeting:** October 6, 2025 - Progress update and escalation assessment  
+**Follow-up Actions:**
+- Daily status updates to executive team
+- Customer communication monitoring and feedback collection
+- Alternative supplier performance tracking
+- Inventory optimization modeling
+- Crisis communication training for staff
+
+**Lessons Learned:**
+- Importance of diversified supplier base
+- Need for real-time inventory visibility
+- Value of proactive customer communication
+- Benefits of cross-functional crisis teams
+
+**Next Meeting:** October 6, 2025 - Progress update and escalation assessment
 
 **Meeting Adjourned:** 11:30 AM

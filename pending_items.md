@@ -93,6 +93,11 @@
 - **Crisis Recovery Patterns:** Post-disruption business continuity, customer retention strategies, operational resilience frameworks
 - **Sustainable Finance Integration:** ESG investment decision processes, green bond issuance workflows, impact measurement frameworks
 - **Workforce Digital Upskilling:** Training program design, competency assessment systems, change management in traditional industries
+- **Decision Point Standardization:** Consistent decision_points field in all workflows for better AI training
+- **Enforcement Mechanism Details:** Comprehensive enforcement sections in all policies with specific procedures
+- **Follow-up Action Tracking:** Detailed action items and accountability in communications
+- **Industry Balance Optimization:** Strategies for reducing technology dominance below 20%
+- **Complexity Distribution Enhancement:** Methods to achieve 20/50/30 simple/medium/complex workflow ratio
 
 ## Content Gaps Identified
 - Geographic diversity still minimal (target 10%+ EU/Asia content)

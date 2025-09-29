@@ -1,0 +1,65 @@
+workflow:
+  id: "workflow_retail_customer_complaint_resolution_complex"
+  title: "Retail Customer Complaint Resolution Process"
+  department: "Customer Service"
+  complexity: "complex"
+  participants: ["Customer Service Rep", "Store Manager", "Regional Manager", "Legal Counsel", "Product Team"]
+  trigger: "Customer complaint received via any channel"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Log complaint details and acknowledge receipt"
+      tools: ["CRM System", "Complaint Tracking System"]
+      duration: "15 minutes"
+      outputs: ["Complaint ticket", "Acknowledgment email"]
+      decision_points: ["Complaint severity assessment"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Investigate complaint and gather relevant information"
+      tools: ["Order System", "Product Database", "Customer History"]
+      duration: "2 hours"
+      outputs: ["Investigation summary"]
+    - step: 3
+      actor: "Store Manager"
+      action: "Review investigation and determine resolution approach"
+      tools: ["Complaint Management System"]
+      duration: "1 hour"
+      outputs: ["Resolution plan"]
+      decision_points: ["Escalation required", "Refund vs replacement"]
+    - step: 4
+      actor: "Regional Manager"
+      action: "Approve complex resolutions and coordinate cross-departmental actions"
+      tools: ["Approval Workflow System"]
+      duration: "4 hours"
+      outputs: ["Approved resolution"]
+      decision_points: ["Legal review needed", "Product recall consideration"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review legal implications and provide guidance"
+      tools: ["Legal Database", "Contract Templates"]
+      duration: "2 hours"
+      outputs: ["Legal assessment"]
+    - step: 6
+      actor: "Product Team"
+      action: "Assess product quality issues and recommend improvements"
+      tools: ["Quality Management System"]
+      duration: "4 hours"
+      outputs: ["Product improvement recommendations"]
+    - step: 7
+      actor: "Customer Service Rep"
+      action: "Implement resolution and communicate outcome to customer"
+      tools: ["CRM System", "Refund System"]
+      duration: "30 minutes"
+      outputs: ["Resolution confirmation", "Follow-up survey"]
+    - step: 8
+      actor: "Store Manager"
+      action: "Document lessons learned and update procedures"
+      tools: ["Knowledge Base"]
+      duration: "1 hour"
+      outputs: ["Process improvement notes"]
+  success_criteria: "95% complaint resolution within 48 hours, customer satisfaction >85%"
+  failure_modes: ["Escalation delays", "Inadequate investigation", "Poor communication"]
+  metrics:
+    - "Resolution time: <48 hours average"
+    - "Customer satisfaction: >85%"
+    - "Repeat complaints: <5%"

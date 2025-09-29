@@ -8,8 +8,19 @@ workflow:
   - Instructional Designer
   - Multimedia Developer
   - Quality Assurance Reviewer
-  trigger: Curriculum committee approves new course need
-  steps:
+   trigger: Curriculum committee approves new course need
+   temporal_data:
+     first_implemented: "2022-09-01"
+     last_updated: "2024-07-01"
+     typical_cycle_time: "10 weeks"
+     average_annual_executions: 25
+     seasonal_variations: ["Higher demand during back-to-school season", "Reduced during holiday breaks"]
+     historical_evolution: "Traditional classroom content converted to online format initially, evolved to interactive multimedia courses with AI assessment in 2024"
+   performance_history:
+     success_rate_trend: "78% (2022) → 85% (2023) → 90% (2024)"
+     cost_trend: "$150K (2022) → $130K (2023) → $110K (2024)"
+     efficiency_improvements: ["Template reuse reduced development time by 35%", "AI assessment improved grading consistency by 50%", "Multimedia tools enhanced engagement scores by 25%"]
+   steps:
   - step: 1
     actor: Subject Matter Expert
     action: Define learning objectives and course outline

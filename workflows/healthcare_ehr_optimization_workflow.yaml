@@ -9,8 +9,19 @@ workflow:
   - Clinical Department Heads
   - EHR Vendor
   - Compliance Officer
-  trigger: Performance degradation in EHR system affecting clinical workflows
-  steps:
+   trigger: Performance degradation in EHR system affecting clinical workflows
+   temporal_data:
+     first_implemented: "2023-02-01"
+     last_updated: "2024-10-01"
+     typical_cycle_time: "8 weeks"
+     average_annual_executions: 2
+     seasonal_variations: ["Post-regulatory changes increase frequency", "Maintenance windows during low patient volume"]
+     historical_evolution: "Manual optimization processes evolved to automated monitoring and AI-driven recommendations in 2024"
+   performance_history:
+     success_rate_trend: "80% (2023) → 87% (2024) → 92% (2025)"
+     cost_trend: "$300K (2023) → $250K (2024) → $200K (2025)"
+     efficiency_improvements: ["Automated monitoring reduced manual audits by 60%", "AI recommendations improved optimization accuracy by 45%", "Phased rollouts minimized clinical disruption by 80%"]
+   steps:
   - step: 1
     actor: IT Director
     action: Conduct system performance audit and identify bottlenecks

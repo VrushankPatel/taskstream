@@ -1,0 +1,25 @@
+workflow:
+  id: "workflow_utilities_meter_004"
+  title: "Utilities Residential Meter Reading Process"
+  department: "Field Operations"
+  complexity: "simple"
+  participants: ["Meter Reader", "Field Supervisor"]
+  trigger: "Monthly meter reading schedule activation"
+  steps:
+    - step: 1
+      actor: "Meter Reader"
+      action: "Access meter location and record reading"
+      tools: ["Mobile Meter Reader Device", "GPS System"]
+      duration: "5 minutes per meter"
+      outputs: ["Meter Reading Data"]
+    - step: 2
+      actor: "Field Supervisor"
+      action: "Review readings for accuracy and upload to system"
+      tools: ["Field Management Software"]
+      duration: "15 minutes per route"
+      outputs: ["Validated Meter Data"]
+  success_criteria: "All scheduled meters read and data uploaded successfully"
+  failure_modes: ["Inaccessible meters", "Device technical issues"]
+  metrics:
+    - "Reading accuracy rate: 99.5%"
+    - "Route completion rate: 95%"

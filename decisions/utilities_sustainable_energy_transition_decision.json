@@ -1,0 +1,37 @@
+{
+  "scenario_id": "utilities_sustainable_energy_004",
+  "context": "Utility company planning transition to 50% renewable energy by 2030",
+  "stakeholders": {
+    "requester": "VP Renewable Energy",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Regulatory Affairs Director"]
+  },
+  "request": {
+    "amount": "$4.2B",
+    "purpose": "Multi-year renewable energy infrastructure development",
+    "urgency": "high",
+    "justification": "Meet state renewable mandates and customer sustainability expectations"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "6 months",
+      "activities": ["Resource assessment", "Grid integration analysis", "Cost modeling"],
+      "outcome": "Viable transition plan with phased implementation"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "4 months",
+      "activities": ["Permit applications", "Rate case filings", "Stakeholder engagement"],
+      "outcome": "All major approvals secured"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% renewable energy mix by 2030, improved customer satisfaction",
+    "projected_value": "$2.1B in long-term cost savings",
+    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Construction delays"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial viability", "Technical feasibility", "Customer impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for large infrastructure projects"
+}

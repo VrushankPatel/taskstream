@@ -1,0 +1,31 @@
+workflow:
+  id: "workflow_agriculture_crop_006"
+  title: "Agriculture Precision Crop Monitoring and Intervention"
+  department: "Farm Operations"
+  complexity: "medium"
+  participants: ["Farm Manager", "Agronomist", "Equipment Operator"]
+  trigger: "Automated sensor alerts or scheduled monitoring cycle"
+  steps:
+    - step: 1
+      actor: "Farm Manager"
+      action: "Review sensor data and identify crop stress indicators"
+      tools: ["Precision Ag Platform", "Weather Station Data"]
+      duration: "30 minutes"
+      outputs: ["Crop Health Assessment"]
+    - step: 2
+      actor: "Agronomist"
+      action: "Analyze data and recommend specific interventions"
+      decision_points: ["Stress severity", "Weather forecast", "Resource availability"]
+      duration: "1 hour"
+      outputs: ["Intervention Plan"]
+    - step: 3
+      actor: "Equipment Operator"
+      action: "Execute precision interventions (irrigation, fertilization)"
+      tools: ["GPS-guided Equipment", "Variable Rate Technology"]
+      duration: "2-4 hours"
+      outputs: ["Intervention Records", "Updated Crop Maps"]
+  success_criteria: "Crop stress addressed within optimal intervention window"
+  failure_modes: ["Delayed response to alerts", "Equipment breakdowns"]
+  metrics:
+    - "Intervention response time: <6 hours for critical alerts"
+    - "Yield impact: 5-10% improvement from precision interventions"

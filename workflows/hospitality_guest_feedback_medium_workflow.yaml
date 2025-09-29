@@ -1,0 +1,31 @@
+workflow:
+  id: "workflow_hospitality_feedback_002"
+  title: "Hospitality Guest Feedback Collection and Response"
+  department: "Guest Services"
+  complexity: "medium"
+  participants: ["Front Desk Staff", "Guest Services Manager", "Department Head"]
+  trigger: "Guest submits feedback via digital survey or comment card"
+  steps:
+    - step: 1
+      actor: "Front Desk Staff"
+      action: "Receive and categorize guest feedback"
+      tools: ["Feedback System", "CRM Database"]
+      duration: "10 minutes"
+      outputs: ["Categorized Feedback Report"]
+    - step: 2
+      actor: "Guest Services Manager"
+      action: "Review feedback and determine response priority"
+      decision_points: ["Complaint severity", "Guest status"]
+      duration: "30 minutes"
+      outputs: ["Response Plan"]
+    - step: 3
+      actor: "Department Head"
+      action: "Approve response and implement corrective actions"
+      tools: ["Quality Management System"]
+      duration: "1 hour"
+      outputs: ["Guest Response", "Improvement Action Items"]
+  success_criteria: "Guest receives personalized response within 24 hours"
+  failure_modes: ["Delayed response time", "Inadequate corrective actions"]
+  metrics:
+    - "Response time: <24 hours for 90% of feedback"
+    - "Guest satisfaction improvement: 15% increase"

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "compliance_software_upgrade_decision_2025",
+  "decision_date": "2025-08-20",
+  "context": "Financial services firm facing regulatory changes requiring enhanced compliance monitoring capabilities",
+  "stakeholders": {
+    "requester": "Chief Compliance Officer",
+    "approvers": ["CTO", "CFO", "CEO"],
+    "influencers": ["IT Security Team", "Operations", "External Auditors"]
+  },
+  "request": {
+    "amount": "$450,000",
+    "purpose": "Upgrade compliance management platform to meet new regulatory requirements",
+    "urgency": "high",
+    "justification": "New EU regulations require advanced transaction monitoring, current system lacks capabilities"
+  },
+  "decision_process": [
+    {
+      "stage": "requirements_gathering",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30",
+      "duration": "30 days",
+      "activities": ["Regulatory impact assessment", "Vendor evaluation", "Technical requirements definition"],
+      "outcome": "Clear requirements identified, three vendor options shortlisted"
+    },
+    {
+      "stage": "technical_evaluation",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31",
+      "duration": "31 days",
+      "activities": ["Proof of concept testing", "Integration assessment", "Security review"],
+      "outcome": "Preferred vendor selected, integration plan developed"
+    },
+    {
+      "stage": "business_case_approval",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-20",
+      "duration": "20 days",
+      "activities": ["Cost-benefit analysis", "Risk assessment", "Executive presentation"],
+      "outcome": "Approved with contingency budget"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Ensure regulatory compliance, reduce audit findings by 40%",
+    "projected_value": "$800K in avoided penalties and improved efficiency",
+    "actual_value": "$650K realized through reduced manual processes (2025)",
+    "roi_timeline": "Expected payback in 7 months",
+    "risk_factors": ["Implementation complexity", "Data migration challenges", "User adoption"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Technical feasibility", "Cost effectiveness", "Vendor stability"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2026-02-28",
+    "milestones": ["System configuration: 2025-11-30", "User training: 2026-01-15", "Go-live: 2026-02-15"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "System operational, compliance monitoring improved by 35%",
+    "12_month_review": "Audit findings reduced by 45%, efficiency gains of $300K",
+    "actual_roi": "144% (vs projected 178%)"
+  },
+  "lessons_learned": "Early involvement of IT security team prevented integration issues, phased rollout approach successful"
+}

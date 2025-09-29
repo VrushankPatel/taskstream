@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_customer_onboarding_enhanced"
+  title: "Enhanced Customer Onboarding Process"
+  department: "Customer Success"
+  complexity: "simple"
+  participants: ["Customer Success Manager", "Account Executive", "Technical Support", "Legal"]
+  trigger: "New customer signs contract"
+  temporal_data:
+    first_implemented: "2020-01-15"
+    last_updated: "2024-09-01"
+    typical_cycle_time: "5 days"
+    average_annual_executions: 1200
+    seasonal_variations: ["Q4 peak (25% increase)", "Q1 post-holiday slowdown"]
+    historical_evolution: "Originally manual process, automated in 2022 with CRM integration, reduced cycle time by 40%"
+  steps:
+    - step: 1
+      actor: "Account Executive"
+      action: "Verify contract details and customer information"
+      tools: ["CRM system", "Contract management software"]
+      duration: "2 hours"
+      outputs: ["Verified customer profile", "Onboarding checklist"]
+    - step: 2
+      actor: "Customer Success Manager"
+      action: "Schedule welcome call and send onboarding materials"
+      tools: ["Email platform", "Video conferencing tool"]
+      duration: "1 day"
+      outputs: ["Welcome email", "Onboarding documentation"]
+    - step: 3
+      actor: "Technical Support"
+      action: "Set up customer account and provide access credentials"
+      tools: ["User management system", "Security tools"]
+      duration: "2 days"
+      outputs: ["Account credentials", "Access documentation"]
+    - step: 4
+      actor: "Customer Success Manager"
+      action: "Conduct onboarding training session"
+      tools: ["Training platform", "Knowledge base"]
+      duration: "1 day"
+      outputs: ["Training completion certificate", "Feedback survey"]
+  success_criteria: "Customer completes training and provides positive feedback"
+  failure_modes: ["Incomplete documentation", "Technical setup issues", "Customer no-show for training"]
+  metrics:
+    - "Onboarding completion rate: 95%"
+    - "Customer satisfaction score: 4.2/5"
+    - "Time to first value: 7 days"
+  performance_history:
+    success_rate_trend: "88% (2023) → 92% (2024) → 95% (2025)"
+    cost_trend: "$500 (2023) → $450 (2024) → $400 (2025)"
+    efficiency_improvements: ["CRM automation reduced manual tasks by 30%", "Self-service portal decreased support tickets by 25%"]

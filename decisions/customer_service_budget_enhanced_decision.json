@@ -1,0 +1,62 @@
+{
+  "scenario_id": "customer_service_budget_approval_enhanced_2025",
+  "decision_date": "2025-09-15",
+  "context": "Mid-sized SaaS company (500 employees) evaluating budget increase for customer success team to improve retention rates",
+  "stakeholders": {
+    "requester": "VP Customer Success",
+    "approvers": ["CFO", "CEO"],
+    "influencers": ["Head of Sales", "Product Manager", "Customer Success Managers"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Expand customer success team and implement retention programs",
+    "urgency": "high",
+    "justification": "Current churn rate of 8% vs industry average 5%, projected revenue impact of $2M annually"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-15",
+      "duration": "15 days",
+      "activities": ["ROI analysis", "Competitive benchmarking", "Team capacity assessment"],
+      "outcome": "Approved for detailed analysis"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "start_date": "2025-08-16",
+      "end_date": "2025-09-01",
+      "duration": "17 days",
+      "activities": ["Cross-functional meetings", "Customer feedback review", "Alternative solution evaluation"],
+      "outcome": "Strong support from sales and product teams"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2025-09-02",
+      "end_date": "2025-09-15",
+      "duration": "14 days",
+      "activities": ["Financial modeling", "Board presentation", "Risk assessment"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduce churn by 3%, increase customer lifetime value by 15%",
+    "projected_value": "$1.2M annual revenue increase",
+    "actual_value": "$950K realized in first year (2025)",
+    "roi_timeline": "Expected payback in 8 months",
+    "risk_factors": ["Implementation delays", "Training curve for new hires", "Market conditions"]
+  },
+  "decision_criteria": ["Financial ROI", "Customer impact", "Strategic alignment", "Implementation feasibility"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-10-01",
+    "completion_date": "2026-03-31",
+    "milestones": ["Hiring complete: 2025-12-31", "Training program launch: 2026-01-15", "Full implementation: 2026-03-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Churn reduced to 6.2%, team productivity up 25%",
+    "12_month_review": "Churn at 5.1%, revenue impact $1.1M, ROI achieved",
+    "actual_roi": "156% (vs projected 160%)"
+  },
+  "lessons_learned": "Early stakeholder engagement critical for complex initiatives, phased hiring approach minimized disruption"
+}

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "legal_firm_partnership_decision_2025",
+  "decision_date": "2025-07-10",
+  "context": "Manufacturing company evaluating partnership with external law firm for intellectual property litigation support",
+  "stakeholders": {
+    "requester": "General Counsel",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["IP Manager", "Finance", "Operations Leadership"]
+  },
+  "request": {
+    "amount": "$2,500,000",
+    "purpose": "Retainer agreement with specialized IP litigation firm for patent protection",
+    "urgency": "medium",
+    "justification": "Increasing IP infringement cases in industry, need specialized expertise for $50M patent portfolio"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-15",
+      "duration": "45 days",
+      "activities": ["Firm reputation research", "Case history review", "Competitive bidding"],
+      "outcome": "Three firms shortlisted with strong IP litigation track records"
+    },
+    {
+      "stage": "due_diligence",
+      "start_date": "2025-05-16",
+      "end_date": "2025-06-30",
+      "duration": "46 days",
+      "activities": ["Reference checks", "Financial stability review", "Cultural fit assessment"],
+      "outcome": "Preferred firm identified, terms negotiated"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-10",
+      "duration": "10 days",
+      "activities": ["Board presentation", "Legal review of agreement", "Final negotiations"],
+      "outcome": "Approved with performance metrics"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Strengthen IP protection, reduce infringement losses by 60%",
+    "projected_value": "$3M in protected revenue streams",
+    "actual_value": "$2.2M in successful defense outcomes (2025)",
+    "roi_timeline": "Expected payback in 10 months",
+    "risk_factors": ["Firm performance variability", "Cost overruns", "Changing legal landscape"]
+  },
+  "decision_criteria": ["IP expertise", "Track record", "Cost effectiveness", "Cultural alignment"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2026-07-31",
+    "milestones": ["Contract execution: 2025-08-15", "Team integration: 2025-09-30", "First case assignment: 2025-10-15"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Two major cases successfully defended, cost within budget",
+    "12_month_review": "Three infringement suits won, IP portfolio strengthened",
+    "actual_roi": "88% (vs projected 120%)"
+  },
+  "lessons_learned": "Detailed performance metrics in retainer agreement crucial for accountability, early cultural assessment prevented misalignment"
+}

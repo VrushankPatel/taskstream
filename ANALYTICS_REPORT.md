@@ -1,10 +1,10 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 2573 files (13 files growth from previous analysis)
+- **Total Dataset Size**: 2580 files (7 files growth from previous analysis)
 - **Quality Score**: 97% (stable performance maintained)
-- **Industry Coverage**: 12 industries with technology at 43.8% dominance (target <30%)
-- **Content Complexity**: 5% simple, 10% medium, 85% complex (target: 20/50/30)
+- **Industry Coverage**: 12 industries with technology at 37.4% dominance (target <30%)
+- **Content Complexity**: 8% simple, 38% medium, 54% complex (target: 20/50/30)
 - **Business Authenticity**: 97% enterprise-grade content with comprehensive scenarios
 
 ## Key Findings
@@ -17,11 +17,11 @@
 5. **Growing Scale**: 2573 files providing substantial coverage of business processes across industries
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology overrepresented at 43.8% vs real-world significance of ~10-15%
-2. **Complexity Distribution**: Over-reliance on complex workflows (85%) with insufficient simple (5%) and medium (10%) complexity
+1. **Industry Imbalance**: Technology overrepresented at 37.4% vs real-world significance of ~10-15%
+2. **Complexity Distribution**: Over-reliance on complex workflows (54%) with insufficient simple (8%) and medium (38%) complexity
 3. **Content Type Underrepresentation**: Policies (10.6%) and org structures (12.2%) below target 15% each
-4. **Traditional Industry Gaps**: Retail (10.9%), hospitality (5.4%), insurance (6.5%), utilities (5.8%), manufacturing (5.8%), finance (6.5%), healthcare (12.9%) - technology dominant
-5. **Geographic Diversity**: Minimal EU/Asia content (target 10%+ each market)
+4. **Traditional Industry Gaps**: Retail (9.0%), hospitality (7.1%), insurance (5.7%), utilities (3.9%), manufacturing (5.0%), finance (5.2%), healthcare (12.7%) - technology dominant
+5. **Geographic Diversity**: Limited EU/Asia content (5.5% of workflows) (target 10%+ each market)
 
 ### Competitive Positioning
 1. **TaskStream Advantages**: High authenticity (97%), comprehensive lifecycle coverage, structured automation-ready formats
@@ -34,7 +34,7 @@
 ### Immediate Actions (Next 3 Generation Cycles):
 1. **Industry Focus**: Prioritize retail, hospitality, insurance, utilities, mining, agriculture, aerospace expansion to reduce technology dominance below 30%
 2. **Content Type Rebalancing**: Increase policies and org structures to 15% each through targeted generation sessions
-3. **Complexity Optimization**: Generate more simple/medium complexity workflows to achieve 20/50/30 distribution
+3. **Complexity Optimization**: Generate more simple workflows to achieve 20/50/30 distribution (currently 8/38/54)
 4. **Quality Enhancement**: Maintain 97%+ quality while expanding traditional industry terminology validation
 
 ### Medium-Term Strategy (Next 10 Generation Cycles):
@@ -54,7 +54,7 @@
 ### Generation Session Priorities:
 1. **Must-Cover Industries**: Retail (expand to 300+ files), hospitality (150+), insurance (150+), utilities (100+), mining (100+), agriculture (100+), aerospace (100+)
 2. **Essential Business Functions**: Customer experience, revenue management, claims processing, infrastructure operations, safety protocols, sustainable practices, regulatory compliance
-3. **Target Complexity Levels**: 20% simple workflows, 50% medium workflows, 30% complex workflows
+3. **Target Complexity Levels**: 20% simple workflows, 50% medium workflows, 30% complex workflows (current: 8/38/54) (current: 8/38/54)
 4. **Quality Focus Areas**: Industry-specific terminology, geographic localization, stakeholder authenticity
 
 ### QC Session Priorities:
@@ -75,7 +75,7 @@
 - Reduce technology dominance to <35%
 - Increase policies/org structures to 13% each
 - Add 200+ traditional industry files
-- Introduce 100+ simple/medium complexity workflows
+- Introduce 100+ simple/medium complexity workflows (focus on simple to reach 20%) (focus on simple to reach 20%)
 
 ### Phase 2 (Short-term - Next 15 Sessions):
 - Achieve <30% technology dominance

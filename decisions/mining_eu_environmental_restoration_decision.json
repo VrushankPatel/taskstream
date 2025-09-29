@@ -1,0 +1,70 @@
+{
+  "scenario_id": "mining_eu_environmental_restoration_2024",
+  "decision_date": "2024-09-15",
+  "context": "EU mining company facing regulatory pressure to restore abandoned mine sites, balancing environmental compliance with operational costs",
+  "stakeholders": {
+    "requester": "Environmental Compliance Manager",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "Board Environmental Committee"],
+    "influencers": ["Local Government Representatives", "Environmental NGOs", "Community Leaders", "Operations Directors"]
+  },
+  "request": {
+    "amount": "€12,500,000",
+    "purpose": "Comprehensive environmental restoration of 3 abandoned mine sites",
+    "urgency": "high",
+    "justification": "EU regulatory deadline approaching, risk of fines up to €2M annually, improved community relations"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "start_date": "2024-07-01",
+      "end_date": "2024-07-15",
+      "duration": "15 days",
+      "activities": ["Site condition surveys", "Restoration cost estimates", "Regulatory compliance review"],
+      "outcome": "Feasibility confirmed, budget approved for detailed planning"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "start_date": "2024-07-16",
+      "end_date": "2024-08-15",
+      "duration": "30 days",
+      "activities": ["Community consultation meetings", "NGO partnership discussions", "Government permit applications"],
+      "outcome": "Strong community support secured, conditional NGO endorsement"
+    },
+    {
+      "stage": "technical_evaluation",
+      "start_date": "2024-08-16",
+      "end_date": "2024-09-01",
+      "duration": "17 days",
+      "activities": ["Environmental impact assessments", "Restoration methodology selection", "Contractor bidding process"],
+      "outcome": "Optimal restoration approach identified, preferred contractor selected"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2024-09-02",
+      "end_date": "2024-09-15",
+      "duration": "14 days",
+      "activities": ["Board presentation", "Financial impact analysis", "Risk assessment review"],
+      "outcome": "Full approval granted with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Regulatory compliance achieved, enhanced community reputation, potential for EU green funding",
+    "projected_value": "€18,000,000 in avoided fines and improved market access",
+    "actual_value": "TBD (implementation starting Q1 2025)",
+    "roi_timeline": "Expected payback in 24 months",
+    "risk_factors": ["Weather delays during restoration", "Cost overruns from unforeseen site conditions", "Changes in EU environmental regulations"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Financial ROI analysis", "Community impact assessment", "Technical feasibility", "Stakeholder support levels"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-10-01",
+    "completion_date": "2026-09-30",
+    "milestones": ["Site preparation: Q4 2024", "Major restoration work: Q1-Q2 2025", "Monitoring and compliance: Q3-Q4 2025", "Final certification: Q3 2026"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Progress assessment against milestones, budget variance analysis",
+    "12_month_review": "Environmental impact measurement, community feedback evaluation",
+    "actual_roi": "TBD (target 25% annual return on environmental investments)"
+  },
+  "lessons_learned": "Early stakeholder engagement critical for project success, comprehensive technical assessment prevents cost overruns, phased implementation allows for adaptive management"
+}

@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_hospitality_eu_staffing_crisis"
+  title: "EU Hospitality Staffing Crisis Management Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Manager", "Operations Director", "Department Heads", "Regional HR Director"]
+  trigger: "Staff shortage exceeding 15% of required positions or critical role vacancies"
+  temporal_data:
+    first_implemented: "2021-01-15"
+    last_updated: "2024-07-20"
+    typical_cycle_time: "72 hours from detection to resolution"
+    average_annual_executions: 8
+    seasonal_variations: ["Summer peak season staffing challenges", "Winter holiday period coverage issues"]
+    historical_evolution: "Enhanced in 2023 with predictive analytics and automated scheduling systems following post-pandemic labor shortages"
+  steps:
+    - step: 1
+      actor: "HR Manager"
+      action: "Assess staffing gap and analyze root causes using workforce analytics"
+      tools: ["HRIS system", "Staffing forecast models", "Absenteeism tracking"]
+      duration: "4 hours"
+      outputs: ["Staffing gap analysis", "Immediate hiring requirements"]
+    - step: 2
+      actor: "Operations Director"
+      action: "Implement short-term contingency measures and workload redistribution"
+      tools: ["Scheduling software", "Cross-training matrices", "Overtime management system"]
+      duration: "8 hours"
+      outputs: ["Contingency staffing plan", "Workload adjustment schedule"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Execute recruitment activities and coordinate with staffing agencies"
+      tools: ["Recruitment platforms", "Job posting systems", "Candidate screening tools"]
+      duration: "24 hours"
+      outputs: ["Active job requisitions", "Interview schedules"]
+    - step: 4
+      actor: "Regional HR Director"
+      action: "Review crisis response effectiveness and implement preventive measures"
+      tools: ["Performance dashboards", "Retention analytics", "Workforce planning tools"]
+      duration: "16 hours"
+      outputs: ["Crisis resolution report", "Long-term staffing strategy"]
+  success_criteria: "Staffing levels restored to 95% within 7 days, service quality maintained above 85% during crisis period"
+  failure_modes: ["Delayed detection of staffing gaps", "Ineffective contingency measures", "Slow recruitment processes"]
+  metrics:
+    - "Average resolution time: 4.2 days"
+    - "Service quality maintenance: 87%"
+    - "Cost per hire: €2,800"
+  performance_history:
+    success_rate_trend: "65% (2022) → 78% (2023) → 85% (2024)"
+    cost_trend: "€3,200 (2022) → €2,900 (2023) → €2,800 (2024)"
+    efficiency_improvements: ["Predictive analytics reduced crisis detection time by 50%", "Automated scheduling improved contingency response by 35%", "Streamlined recruitment reduced time-to-hire by 25%"]

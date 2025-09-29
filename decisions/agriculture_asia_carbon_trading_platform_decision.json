@@ -1,0 +1,78 @@
+{
+  "scenario_id": "agriculture_asia_carbon_trading_2024",
+  "decision_date": "2024-08-20",
+  "context": "Asia agricultural cooperative seeking to establish carbon trading platform to monetize sustainable farming practices and meet regional emission reduction targets",
+  "stakeholders": {
+    "requester": "Sustainability Director",
+    "approvers": ["Chief Executive Officer", "Chief Financial Officer", "Board Sustainability Committee"],
+    "influencers": ["Government Agriculture Ministry", "Carbon Trading Regulators", "International Climate Funds", "Farmer Cooperatives"]
+  },
+  "request": {
+    "amount": "$8,200,000",
+    "purpose": "Development and launch of regional carbon trading platform for agricultural emissions",
+    "urgency": "medium",
+    "justification": "Access to carbon markets worth $50B globally, compliance with regional climate targets, additional revenue stream for farmers"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-30",
+      "duration": "30 days",
+      "activities": ["Carbon market research", "Competitor analysis", "Farmer adoption surveys"],
+      "outcome": "Strong market opportunity identified, farmer willingness confirmed"
+    },
+    {
+      "stage": "technical_feasibility",
+      "start_date": "2024-06-01",
+      "end_date": "2024-06-20",
+      "duration": "20 days",
+      "activities": ["Platform architecture design", "Blockchain integration assessment", "Regulatory compliance mapping"],
+      "outcome": "Technical solution viable, regulatory pathway clear"
+    },
+    {
+      "stage": "partnership_development",
+      "start_date": "2024-06-21",
+      "end_date": "2024-07-15",
+      "duration": "25 days",
+      "activities": ["Government partnership negotiations", "Technology vendor selection", "Farmer cooperative agreements"],
+      "outcome": "Strategic partnerships secured, implementation roadmap developed"
+    },
+    {
+      "stage": "financial_evaluation",
+      "start_date": "2024-07-16",
+      "end_date": "2024-08-10",
+      "duration": "26 days",
+      "activities": ["Cost-benefit analysis", "Revenue projection modeling", "Funding source identification"],
+      "outcome": "Strong financial case established, multiple funding options available"
+    },
+    {
+      "stage": "final_decision",
+      "start_date": "2024-08-11",
+      "end_date": "2024-08-20",
+      "duration": "10 days",
+      "activities": ["Board presentation", "Risk assessment finalization", "Implementation planning"],
+      "outcome": "Full approval with conditional funding commitments"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream from carbon trading, enhanced farmer incomes, regional climate leadership position",
+    "projected_value": "$25,000,000 in carbon credits over 5 years",
+    "actual_value": "TBD (pilot launch Q2 2025)",
+    "roi_timeline": "Expected payback in 18 months",
+    "risk_factors": ["Carbon price volatility", "Regulatory changes in carbon markets", "Farmer adoption challenges", "Technology integration issues"]
+  },
+  "decision_criteria": ["Market opportunity size", "Regulatory compliance feasibility", "Farmer adoption potential", "Financial ROI projections", "Technology readiness", "Partnership strength"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-09-01",
+    "completion_date": "2025-12-31",
+    "milestones": ["Platform development: Q4 2024", "Pilot testing: Q1 2025", "Full launch: Q2 2025", "Market expansion: Q3-Q4 2025"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Platform development progress, farmer enrollment metrics",
+    "12_month_review": "Carbon credit trading volume, revenue generation, farmer satisfaction",
+    "actual_roi": "TBD (target 35% annual return on platform investment)"
+  },
+  "lessons_learned": "Early farmer engagement crucial for adoption, regulatory partnerships accelerate market entry, phased implementation allows for learning and adaptation"
+}

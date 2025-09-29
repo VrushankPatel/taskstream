@@ -1,0 +1,49 @@
+{
+  "scenario_id": "agriculture_sustainable_farming_adoption_2025",
+  "context": "Agricultural cooperative evaluating $15M transition to sustainable farming practices across 500 farms",
+  "stakeholders": {
+    "requester": "Sustainability Director",
+    "approvers": ["Board of Directors", "CEO", "Member Farmers Council"],
+    "influencers": ["Agricultural Extension Agent", "Environmental Regulator", "Banking Partner"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Implement precision agriculture, regenerative farming techniques, and carbon sequestration programs",
+    "urgency": "medium",
+    "justification": "Meet new environmental regulations, access carbon credit markets, improve long-term farm profitability"
+  },
+  "decision_process": [
+    {
+      "stage": "farmer_engagement",
+      "duration": "8 weeks",
+      "activities": ["Member surveys", "Focus group discussions", "Economic impact modeling"],
+      "outcome": "70% farmer support with concerns about transition costs"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "6 weeks",
+      "activities": ["Technology assessment", "Pilot program design", "Expert consultations"],
+      "outcome": "Viable with government grant funding available"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "4 weeks",
+      "activities": ["Cost-benefit analysis", "Grant application", "Funding strategy development"],
+      "outcome": "$20M total project value with $12M in grants secured"
+    },
+    {
+      "stage": "regulatory_review",
+      "duration": "3 weeks",
+      "activities": ["Compliance assessment", "Permit applications", "Carbon credit verification"],
+      "outcome": "Meets all regulatory requirements with credit eligibility"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved environmental compliance, new revenue from carbon credits, enhanced member profitability",
+    "projected_value": "$25,000,000 NPV over 7 years",
+    "risk_factors": ["Farmer adoption resistance", "Weather impact on transition", "Carbon market price volatility"]
+  },
+  "decision_criteria": ["Member support >60%", "Financial viability confirmed", "Regulatory compliance achievable", "Environmental impact positive", "Technical feasibility demonstrated"],
+  "outcome": "Approved",
+  "lessons_learned": "Farmer engagement through economic benefits rather than environmental messaging improves adoption, combining grants with cooperative funding reduces individual farmer risk, pilot programs build confidence for large-scale transitions"
+}

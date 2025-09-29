@@ -1,0 +1,49 @@
+{
+  "scenario_id": "utilities_infrastructure_investment_2025",
+  "context": "Mid-sized utility company evaluating $50M investment in smart grid infrastructure to improve reliability and reduce outage times",
+  "stakeholders": {
+    "requester": "VP Operations",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Regulatory Affairs Director", "Customer Service VP"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Smart grid infrastructure upgrade including sensors, automation, and predictive maintenance systems",
+    "urgency": "high",
+    "justification": "Reduce average outage time from 120 minutes to 45 minutes, improve service reliability to 99.9% uptime"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor capability assessment", "Technical feasibility study", "ROI modeling"],
+      "outcome": "Feasible with projected 15% ROI over 10 years"
+    },
+    {
+      "stage": "financial_review",
+      "duration": "2 weeks",
+      "activities": ["Cash flow analysis", "Funding options evaluation", "Risk assessment"],
+      "outcome": "Approved with mixed financing (40% debt, 60% equity)"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "6 weeks",
+      "activities": ["Rate case filing", "Public hearings", "Regulatory negotiations"],
+      "outcome": "Approved with conditions for customer rate protection"
+    },
+    {
+      "stage": "board_approval",
+      "duration": "1 week",
+      "activities": ["Executive presentation", "Board discussion", "Final vote"],
+      "outcome": "Approved unanimously"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved service reliability, reduced operational costs, enhanced customer satisfaction",
+    "projected_value": "$75,000,000 NPV over 10 years",
+    "risk_factors": ["Technology integration challenges", "Regulatory delays", "Higher than expected implementation costs"]
+  },
+  "decision_criteria": ["Financial ROI >12%", "Technical feasibility confirmed", "Regulatory approval obtainable", "Customer benefit demonstrable", "Risk mitigation plan in place"],
+  "outcome": "Approved",
+  "lessons_learned": "Early regulatory engagement critical for infrastructure projects, comprehensive risk assessment improves approval confidence, customer impact communication enhances stakeholder support"
+}

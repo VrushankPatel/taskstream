@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_insurance_policy_renewal"
+  title: "Insurance Policy Renewal Processing"
+  department: "Underwriting"
+  complexity: "medium"
+  participants: ["Underwriter", "Policyholder", "Claims Analyst"]
+  trigger: "Policy renewal date approaches (30 days prior)"
+  steps:
+    - step: 1
+      actor: "Underwriter"
+      action: "Review policy history, claims data, and risk factors"
+      tools: ["Policy management system", "Claims database"]
+      duration: "10 minutes"
+      outputs: ["Risk assessment report"]
+    - step: 2
+      actor: "Underwriter"
+      action: "Calculate renewal premium based on risk assessment and market conditions"
+      tools: ["Pricing engine", "Actuarial models"]
+      duration: "5 minutes"
+      outputs: ["Renewal quote"]
+    - step: 3
+      actor: "Underwriter"
+      action: "Generate renewal notice with coverage options and premium details"
+      tools: ["Document generation system"]
+      duration: "3 minutes"
+      outputs: ["Renewal notice document"]
+    - step: 4
+      actor: "Underwriter"
+      action: "Send renewal notice to policyholder via mail/email"
+      tools: ["Communication system"]
+      duration: "1 minute"
+      outputs: ["Notice sent confirmation"]
+    - step: 5
+      actor: "Underwriter"
+      action: "Process payment and update policy records upon receipt"
+      tools: ["Payment system", "Policy database"]
+      duration: "5 minutes"
+      outputs: ["Renewed policy confirmation"]
+  success_criteria: "Policy renewed with accurate pricing and timely notifications"
+  failure_modes: ["Incomplete claims data", "Pricing model errors", "Communication delivery failures", "Payment processing issues"]
+  metrics:
+    - "Renewal retention rate: >85%"
+    - "Average processing time: <20 minutes"
+    - "Pricing accuracy: >99%"
+    - "Customer satisfaction: >4.0/5"

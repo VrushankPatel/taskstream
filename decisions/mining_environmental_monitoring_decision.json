@@ -1,0 +1,49 @@
+{
+  "scenario_id": "mining_environmental_monitoring_upgrade_2025",
+  "context": "Mining corporation evaluating $6M investment in advanced environmental monitoring systems to meet new regulatory requirements and improve community relations",
+  "stakeholders": {
+    "requester": "Environmental Manager",
+    "approvers": ["COO", "CEO", "Board ESG Committee"],
+    "influencers": ["Community Relations Director", "Regulatory Affairs Manager", "Operations Manager"]
+  },
+  "request": {
+    "amount": "$6,000,000",
+    "purpose": "Deploy real-time environmental monitoring network including air quality, water quality, noise, and vibration sensors",
+    "urgency": "high",
+    "justification": "Comply with new environmental regulations and demonstrate commitment to sustainable mining practices"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "2 months",
+      "activities": ["Regulatory review", "Compliance gap analysis", "Permit requirements"],
+      "outcome": "New regulations require enhanced monitoring within 18 months"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "3 months",
+      "activities": ["Vendor assessment", "Pilot testing", "Integration planning"],
+      "outcome": "Selected comprehensive monitoring platform with 99% data accuracy"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "2 months",
+      "activities": ["Community consultations", "NGO meetings", "Transparency planning"],
+      "outcome": "Community support secured with public data dashboard commitment"
+    },
+    {
+      "stage": "financial_approval",
+      "duration": "1 month",
+      "activities": ["Budget allocation", "ROI analysis", "Funding strategy"],
+      "outcome": "Approved with 2-year payback through compliance cost avoidance"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Regulatory compliance, improved community trust, reduced environmental incidents",
+    "projected_value": "$8,000,000 in avoided fines and improved reputation",
+    "risk_factors": ["Technology integration complexity", "Community skepticism", "Data management challenges"]
+  },
+  "decision_criteria": ["Regulatory compliance achievement", "Community support >70%", "Technical reliability >95%", "Financial ROI >12%", "Data transparency implementation"],
+  "outcome": "Approved",
+  "lessons_learned": "Environmental monitoring investments require strong community engagement and transparent data sharing, early regulatory consultation prevents costly delays"
+}

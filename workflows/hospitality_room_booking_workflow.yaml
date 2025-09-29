@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_hospitality_room_booking"
+  title: "Hotel Room Booking and Confirmation Process"
+  department: "Reservations"
+  complexity: "medium"
+  participants: ["Reservations Agent", "Guest", "Front Desk Manager"]
+  trigger: "Guest initiates booking request via website, phone, or in-person"
+  steps:
+    - step: 1
+      actor: "Reservations Agent"
+      action: "Collect guest information and booking preferences (dates, room type, special requests)"
+      tools: ["Property management system", "Calendar availability"]
+      duration: "5 minutes"
+      outputs: ["Preliminary booking details"]
+    - step: 2
+      actor: "Reservations Agent"
+      action: "Check room availability and apply pricing rules including promotions"
+      tools: ["Rate management system", "Inventory system"]
+      duration: "3 minutes"
+      outputs: ["Rate quote and availability confirmation"]
+    - step: 3
+      actor: "Reservations Agent"
+      action: "Process payment and secure booking with deposit if required"
+      tools: ["Payment processing system", "Credit card authorization"]
+      duration: "2 minutes"
+      outputs: ["Payment confirmation", "Booking reference number"]
+    - step: 4
+      actor: "Reservations Agent"
+      action: "Send booking confirmation email with details and cancellation policy"
+      tools: ["Email system", "Confirmation template"]
+      duration: "1 minute"
+      outputs: ["Confirmation email sent"]
+    - step: 5
+      actor: "Front Desk Manager"
+      action: "Review high-value bookings or special requests for approval"
+      tools: ["Management dashboard"]
+      duration: "5 minutes"
+      outputs: ["Approval confirmation"]
+  success_criteria: "Booking completed within 15 minutes with accurate information"
+  failure_modes: ["System technical issues", "Room oversold", "Payment processing failure", "Special request conflicts"]
+  metrics:
+    - "Booking completion rate: >95%"
+    - "Average booking time: <15 minutes"
+    - "Confirmation accuracy: 100%"
+    - "Guest satisfaction: >4.2/5"

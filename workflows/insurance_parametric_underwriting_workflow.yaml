@@ -1,13 +1,13 @@
 workflow:
   id: "workflow_insurance_parametric_underwriting"
-  title: "Parametric Insurance Underwriting Process"
+  title: "Insurance Parametric Underwriting Process"
   department: "Underwriting"
   complexity: "complex"
   participants: ["Underwriter", "Risk Analyst", "Data Scientist", "Compliance Officer", "Actuarial Lead", "Product Manager"]
   trigger: "Parametric product application received or renewal due"
   temporal_data:
     first_implemented: "2023-06-01"
-    last_updated: "2024-10-15"
+    last_updated: "2025-09-25"
     typical_cycle_time: "5-7 days"
     average_annual_executions: 1200
     seasonal_variations: ["Q4 renewal peak (35% increase)", "Q2 slow period (20% decrease)"]

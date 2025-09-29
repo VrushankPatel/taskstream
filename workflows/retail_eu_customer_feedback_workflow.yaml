@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_retail_eu_customer_feedback"
+  title: "EU Retail Customer Feedback Collection Process"
+  department: "Customer Experience"
+  complexity: "medium"
+  participants: ["Customer Service Manager", "Store Manager", "Regional Director", "Data Analyst"]
+  trigger: "Customer submits feedback via multiple channels"
+  temporal_data:
+    first_implemented: "2023-01-15"
+    last_updated: "2025-09-15"
+    typical_cycle_time: "2-3 days"
+    average_annual_executions: 25000
+    seasonal_variations: ["Q4 peak during holiday season", "Q2 lower during summer"]
+    historical_evolution: "Process evolved from paper-based to digital channels, incorporating AI sentiment analysis in 2024"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Receive and acknowledge customer feedback"
+      tools: ["CRM system", "Feedback portal"]
+      duration: "1 hour"
+      outputs: ["Feedback ticket", "Initial response"]
+    - step: 2
+      actor: "Store Manager"
+      action: "Review feedback and categorize issue"
+      decision_points: ["Issue severity", "Store responsibility"]
+      duration: "4 hours"
+      outputs: ["Categorized feedback", "Action plan"]
+    - step: 3
+      actor: "Regional Director"
+      action: "Approve resolution plan and allocate resources"
+      tools: ["Management dashboard", "Budget system"]
+      duration: "2 days"
+      outputs: ["Approved resolution", "Resource allocation"]
+    - step: 4
+      actor: "Data Analyst"
+      action: "Analyze feedback trends and generate insights"
+      tools: ["Analytics platform", "Reporting tools"]
+      duration: "1 week"
+      outputs: ["Trend report", "Improvement recommendations"]
+  success_criteria: "Customer satisfaction improved by 15%, response time under 48 hours"
+  failure_modes: ["Delayed response", "Inadequate resolution", "Poor follow-up"]
+  metrics:
+    - "Response time: <48 hours (target 95%)"
+    - "Resolution rate: >85%"
+    - "Customer satisfaction: >4.2/5"
+  performance_history:
+    success_rate_trend: "82% (2023) → 88% (2024) → 92% (2025)"
+    cost_trend: "€45K (2023) → €52K (2024) → €48K (2025)"
+    efficiency_improvements: ["Digital automation reduced manual processing by 40%", "AI sentiment analysis improved categorization accuracy by 25%"]

@@ -1,10 +1,10 @@
-# Retail EU Sustainability Team Structure
+# EU Retail Sustainability Team Structure
 
 ## Overview
-**Organization:** RetailChain EU  
-**Department:** Corporate Sustainability  
-**Headcount:** 45 FTE  
-**Reporting Structure:** Reports to Chief Sustainability Officer  
+**Organization:** RetailChain EU
+**Department:** Corporate Sustainability
+**Headcount:** 45 FTE
+**Reporting Structure:** Reports to Chief Sustainability Officer
 **Geographic Scope:** 12 European countries  
 
 ## Executive Leadership

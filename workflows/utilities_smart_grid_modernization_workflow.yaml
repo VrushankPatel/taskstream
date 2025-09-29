@@ -1,13 +1,13 @@
 workflow:
   id: "workflow_utilities_smart_grid_modernization"
-  title: "Smart Grid Modernization Process"
+  title: "Utilities Smart Grid Modernization Process"
   department: "Grid Operations"
   complexity: "medium"
   participants: ["Grid Engineer", "IT Specialist", "Operations Manager", "Cybersecurity Officer", "Regulatory Compliance"]
   trigger: "Grid upgrade project approved or technology refresh needed"
   temporal_data:
     first_implemented: "2023-01-15"
-    last_updated: "2024-07-20"
+    last_updated: "2025-09-30"
     typical_cycle_time: "3-4 months"
     average_annual_executions: 15
     seasonal_variations: ["Q1 planning cycle (60% of projects)", "Q3 implementation focus (40% completion)"]

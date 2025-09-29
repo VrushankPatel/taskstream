@@ -1,8 +1,8 @@
-# Email Thread: EU Retail Sustainability Campaign Launch
+# EU Retail Sustainability Campaign Email Thread
 
-**Date:** 2025-01-20 09:15  
-**From:** VP Marketing <vp.marketing@retailchain.eu>  
-**To:** Leadership Team <leadership@retailchain.eu>, Store Managers <storemanagers@retailchain.eu>  
+**Date:** 2025-01-20 09:15
+**From:** VP Marketing <vp.marketing@retailchain.eu>
+**To:** Leadership Team <leadership@retailchain.eu>, Store Managers <storemanagers@retailchain.eu>
 **Subject:** Launch of "Green Tomorrow" Sustainability Campaign  
 
 Team,

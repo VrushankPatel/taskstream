@@ -1,49 +1,49 @@
 workflow:
   id: "workflow_hospitality_asia_revenue_management"
-  title: "Asia Revenue Management Optimization Process"
+  title: "Asia Hospitality Revenue Management Optimization Process"
   department: "Revenue Management"
   complexity: "medium"
-  participants: ["Revenue Manager", "Front Office Manager", "General Manager", "Regional Director"]
-  trigger: "Weekly demand analysis or pricing adjustment needed"
+  participants: ["Revenue Manager", "Operations Director", "Marketing Manager", "Finance Controller"]
+  trigger: "Monthly revenue performance review or market demand changes"
   temporal_data:
-    first_implemented: "2022-08-10"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "1 week"
-    average_annual_executions: 520
-    seasonal_variations: ["Chinese New Year peak (30% increase)", "Summer monsoon slowdown (15% decrease)"]
-    historical_evolution: "Manual Excel-based pricing in 2022, implemented RMS software in 2023, added AI forecasting in 2024"
+    first_implemented: "2022-06-01"
+    last_updated: "2025-09-20"
+    typical_cycle_time: "1-2 weeks"
+    average_annual_executions: 120
+    seasonal_variations: ["Q1 low season adjustments", "Q3/Q4 peak season optimization"]
+    historical_evolution: "Transitioned from manual pricing to AI-driven dynamic pricing system in 2024"
   steps:
     - step: 1
       actor: "Revenue Manager"
-      action: "Analyze demand patterns, competitor pricing, and market trends"
-      tools: ["Revenue management system", "Market intelligence tools", "Booking data"]
-      duration: "4 hours"
-      outputs: ["Demand forecast report", "Pricing recommendations"]
+      action: "Analyze current market demand and competitor pricing"
+      tools: ["Revenue management system", "Market intelligence tools"]
+      duration: "3 days"
+      outputs: ["Demand analysis report", "Pricing recommendations"]
     - step: 2
-      actor: "Front Office Manager"
-      action: "Review pricing strategy and assess operational feasibility"
-      tools: ["Property management system", "Staffing software"]
-      duration: "2 hours"
-      outputs: ["Operational impact assessment", "Staffing adjustment plan"]
+      actor: "Operations Director"
+      action: "Review operational constraints and capacity availability"
+      decision_points: ["Room availability", "Staffing levels", "Maintenance schedules"]
+      duration: "2 days"
+      outputs: ["Capacity assessment", "Operational constraints"]
     - step: 3
-      actor: "General Manager"
-      action: "Approve pricing changes and communicate to team"
-      tools: ["Executive dashboard", "Team communication platform"]
-      duration: "1 hour"
-      outputs: ["Approved pricing strategy", "Team briefing document"]
+      actor: "Marketing Manager"
+      action: "Develop promotional strategies and channel optimization"
+      tools: ["Marketing analytics", "Channel management platform"]
+      duration: "4 days"
+      outputs: ["Promotion plan", "Channel strategy"]
     - step: 4
-      actor: "Regional Director"
-      action: "Monitor implementation and adjust based on performance"
-      tools: ["Regional analytics dashboard", "Performance tracking system"]
-      duration: "3 hours weekly"
-      outputs: ["Performance report", "Strategy adjustments"]
-  success_criteria: "Revenue per available room increase of 8%, occupancy rate above 85%"
-  failure_modes: ["Overpricing leading to lost bookings", "Underpricing reducing profitability"]
+      actor: "Finance Controller"
+      action: "Validate pricing strategy against budget and profitability targets"
+      tools: ["Financial modeling software", "Budget tracking system"]
+      duration: "3 days"
+      outputs: ["Financial approval", "Implementation budget"]
+  success_criteria: "Revenue increase of 8-12% above budget, occupancy rate maintained above 85%"
+  failure_modes: ["Overpricing leading to low occupancy", "Underpricing reducing margins", "Poor market timing"]
   metrics:
-    - "RevPAR Growth: 8% annual target"
-    - "Occupancy Rate: 85% minimum"
-    - "Pricing Accuracy: 95% of optimal rates"
+    - "Revenue variance: +8-12% above budget"
+    - "Occupancy rate: >85%"
+    - "Average daily rate growth: >5% YoY"
   performance_history:
     success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
-    cost_trend: "$45,000 (2023) → $38,000 (2024) → $32,000 (2025)"
-    efficiency_improvements: ["RMS implementation increased forecasting accuracy by 25%", "AI tools reduced manual analysis time by 50%"]
+    cost_trend: "¥2.1M (2023) → ¥2.4M (2024) → ¥2.2M (2025)"
+    efficiency_improvements: ["AI implementation increased forecasting accuracy by 35%", "Automated pricing adjustments reduced manual intervention by 60%"]

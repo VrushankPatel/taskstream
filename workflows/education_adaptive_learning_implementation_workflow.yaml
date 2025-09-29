@@ -3,14 +3,21 @@ workflow:
   title: Adaptive Learning Technology Implementation
   department: Educational Technology
   complexity: medium
-  participants:
-  - EdTech Director
-  - Curriculum Specialist
-  - Data Analyst
-  - Faculty Training Coordinator
-  - Student Success Manager
-  trigger: Institutional goal to improve student outcomes through personalized learning
-    pathways
+   participants:
+   - EdTech Director
+   - Curriculum Specialist
+   - Data Analyst
+   - Faculty Training Coordinator
+   - Student Success Manager
+   temporal_data:
+     first_implemented: "2021-02-15"
+     last_updated: "2024-06-20"
+     typical_cycle_time: "6-9 months"
+     average_annual_executions: 15
+     seasonal_variations: ["Implementation aligns with academic calendar", "Training during summer break"]
+     historical_evolution: "Traditional one-size-fits-all education evolved to personalized adaptive learning with AI recommendations"
+   trigger: Institutional goal to improve student outcomes through personalized learning
+     pathways
   steps:
   - step: 1
     actor: EdTech Director

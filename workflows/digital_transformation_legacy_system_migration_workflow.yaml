@@ -3,13 +3,20 @@ workflow:
   title: Legacy System Migration Workflow
   department: IT Operations
   complexity: high
-  participants:
-  - IT Director
-  - Migration Architect
-  - Data Migration Specialist
-  - Change Management Lead
-  - Business Process Owner
-  trigger: Legacy system end-of-life or performance degradation
+   participants:
+   - IT Director
+   - Migration Architect
+   - Data Migration Specialist
+   - Change Management Lead
+   - Business Process Owner
+   temporal_data:
+     first_implemented: "2017-08-01"
+     last_updated: "2024-07-15"
+     typical_cycle_time: "12-24 months"
+     average_annual_executions: 10
+     seasonal_variations: ["Migrations scheduled during fiscal year-end downtime", "Testing phases avoid peak business periods"]
+     historical_evolution: "Manual data migration evolved to automated ETL processes with cloud-native architectures"
+   trigger: Legacy system end-of-life or performance degradation
   steps:
   - step: 1
     actor: IT Director

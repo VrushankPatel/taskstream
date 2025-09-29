@@ -3,13 +3,20 @@ workflow:
   title: Social Media Crisis Response Coordination
   department: Communications
   complexity: high
-  participants:
-  - Communications Director
-  - Social Media Manager
-  - Legal Counsel
-  - Executive Leadership
-  - Customer Service Lead
-  trigger: Negative social media incident or viral complaint
+   participants:
+   - Communications Director
+   - Social Media Manager
+   - Legal Counsel
+   - Executive Leadership
+   - Customer Service Lead
+   temporal_data:
+     first_implemented: "2018-04-20"
+     last_updated: "2024-09-05"
+     typical_cycle_time: "1-7 days"
+     average_annual_executions: 15
+     seasonal_variations: ["Peak during holiday shopping periods", "Lower during off-season"]
+     historical_evolution: "Reactive crisis response evolved to proactive monitoring with AI-powered sentiment analysis"
+   trigger: Negative social media incident or viral complaint
   steps:
   - step: 1
     actor: Social Media Manager

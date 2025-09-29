@@ -187,6 +187,32 @@ Applies to all aerospace products, systems, services, and operational activities
 - Provide training on modified procedures and requirements
 - Monitor implementation and effectiveness of changes
 
+## Emerging Technologies and Unmanned Systems
+
+### Unmanned Aerial Systems (UAS) Safety
+- Dedicated certification pathways for drone and autonomous systems
+- Enhanced safety requirements for BVLOS (Beyond Visual Line of Sight) operations
+- Integration of detect-and-avoid systems and geo-fencing
+- Specialized training for UAS operators and maintainers
+
+### Advanced Air Mobility (AAM) Safety
+- Safety certification frameworks for urban air mobility vehicles
+- vertiport and infrastructure safety standards
+- Passenger safety requirements for commercial AAM operations
+- Emergency response procedures for AAM incidents
+
+### AI and Autonomous Systems Safety
+- Safety validation for AI-driven aviation systems
+- Redundancy requirements for autonomous flight systems
+- Human oversight and intervention capabilities
+- Cybersecurity protections for autonomous systems
+
+### Space Systems Safety
+- Orbital debris mitigation and collision avoidance standards
+- Launch vehicle safety and reliability requirements
+- Satellite constellation safety coordination
+- Re-entry and end-of-life safety procedures
+
 ## Safety Performance Metrics
 
 ### Key Performance Indicators
@@ -195,6 +221,7 @@ Applies to all aerospace products, systems, services, and operational activities
 - **Audit Finding Closure Rate**: 100% of safety audit findings closed within 30 days
 - **Safety Training Completion Rate**: 98% of required safety training completed annually
 - **Supplier Safety Compliance Score**: >90% average across all critical suppliers
+- **UAS Safety Incident Rate**: <1.0 incidents per 10,000 flight hours (Target: <0.5)
 
 ### Reporting Frequency
 - Daily: Safety incident monitoring and response

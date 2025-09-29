@@ -3,13 +3,20 @@ workflow:
   title: Retail Banking Branch Network Expansion Process
   department: Retail Banking Operations
   complexity: complex
-  participants:
-  - Branch Expansion Manager
-  - Real Estate Specialist
-  - Market Analyst
-  - Operations Director
-  - Executive Committee
-  trigger: Market analysis identifies underserved geographic area with growth potential
+   participants:
+   - Branch Expansion Manager
+   - Real Estate Specialist
+   - Market Analyst
+   - Operations Director
+   - Executive Committee
+   temporal_data:
+     first_implemented: "2019-06-01"
+     last_updated: "2024-07-20"
+     typical_cycle_time: "9-15 months"
+     average_annual_executions: 12
+     seasonal_variations: ["Site selection avoids holiday periods", "Openings scheduled for Q1 to maximize year-start impact"]
+     historical_evolution: "Traditional brick-and-mortar expansion evolved to include digital integration and omnichannel services"
+   trigger: Market analysis identifies underserved geographic area with growth potential
   steps:
   - step: 1
     actor: Market Analyst

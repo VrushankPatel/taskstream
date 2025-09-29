@@ -121,11 +121,47 @@ Applies to all robotics systems, collaborative robots (cobots), autonomous mobil
 - Disciplinary action up to termination for serious violations
 - System shutdown for critical safety failures
 
+## AI and Autonomous System Safety
+
+### AI Safety Requirements
+- AI systems must have explainable decision-making for safety-critical functions
+- Regular bias and error rate audits for AI-driven safety systems
+- Human oversight required for AI safety decisions
+- Fallback procedures for AI system failures
+
+### Autonomous Operation Standards
+- Comprehensive testing in controlled environments before deployment
+- Gradual rollout with human supervision initially
+- Real-time human intervention capabilities
+- Performance monitoring against safety benchmarks
+
+### Data Integrity for Safety Systems
+- Secure data pipelines for sensor and monitoring systems
+- Regular validation of sensor accuracy and calibration
+- Backup systems for critical safety data
+- Cybersecurity protections for safety control systems
+
+## Emerging Technology Integration
+
+### New Robotics Technologies
+- Safety assessment required for any new robotics technology adoption
+- Pilot testing in isolated environments before production deployment
+- Integration testing with existing safety systems
+- Documentation of safety considerations for future reference
+
+### Technology Updates and Upgrades
+- Safety impact assessment for all system upgrades
+- Backward compatibility testing for safety features
+- Training updates for new technology features
+- Validation testing before production implementation
+
 ## Related Documents
 - Robotics System Design Guidelines
 - Emergency Response Procedures
 - Personal Protective Equipment Policy
 - Lockout/Tagout Procedures
+- AI Safety Guidelines
+- Autonomous System Deployment Standards
 
 ## Policy Review
 This policy will be reviewed annually or following any significant robotics-related incident. Updates will be communicated to all affected personnel.

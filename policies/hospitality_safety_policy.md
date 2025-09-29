@@ -146,6 +146,39 @@ Applies to all hotel properties, employees, contractors, vendors, and guests acr
 - **Guest Safety Incidents:** Target <1 per 10,000 room nights
 - **Training Completion:** Target >98% of employees annually
 
+## Continuous Monitoring and Auditing
+
+### Regular Inspections
+- **Daily Walkthroughs:** Department heads conduct safety checks
+- **Weekly Facility Audits:** Comprehensive property safety reviews
+- **Monthly Equipment Testing:** Emergency systems and safety devices verification
+- **Quarterly Compliance Reviews:** Regulatory requirement assessments
+
+### Performance Monitoring
+- **Incident Tracking:** All safety incidents logged and analyzed
+- **Near-Miss Reporting:** Encourage reporting of potential hazards
+- **Trend Analysis:** Quarterly review of safety metrics and patterns
+- **Corrective Action Tracking:** Monitor implementation of safety improvements
+
+### Third-Party Audits
+- **Annual Safety Audit:** Independent assessment by certified auditors
+- **Regulatory Inspections:** Prepare for and respond to government inspections
+- **Insurance Assessments:** Maintain required safety standards for coverage
+
+## Emergency Response Integration
+
+### Crisis Management Coordination
+- Integration with hotel emergency response procedures
+- Coordination with local emergency services
+- Communication protocols during crises
+- Recovery and business continuity planning
+
+### Guest Emergency Support
+- Emergency notification systems for guests
+- Evacuation procedures and assembly points
+- Medical emergency response protocols
+- Guest assistance during crises
+
 ## Policy Review and Updates
 This policy will be reviewed annually and updated as needed for:
 - Changes in regulatory requirements

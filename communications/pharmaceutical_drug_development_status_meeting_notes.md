@@ -1,9 +1,9 @@
 ## Meeting Notes: Q3 Drug Development Pipeline Review
 
-**Date:** 2025-09-18 10:00 - 11:30  
-**Location:** Conference Room A  
-**Attendees:** Dr. Emily Rodriguez (VP R&D), Dr. James Wilson (Clinical Lead), Sarah Chen (Regulatory Affairs), Mark Thompson (Project Manager), Lisa Park (Finance)  
-**Facilitator:** Dr. Emily Rodriguez  
+**Date:** 2025-09-18 10:00 - 11:30
+**Location:** Conference Room A
+**Attendees:** Dr. Emily Rodriguez (VP R&D), Dr. James Wilson (Clinical Lead), Sarah Chen (Regulatory Affairs), Mark Thompson (Project Manager), Lisa Park (Finance)
+**Facilitator:** Dr. Emily Rodriguez
 
 ### Agenda Items
 

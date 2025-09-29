@@ -1,9 +1,9 @@
 ## Meeting Notes: Q3 Pharmaceutical Development Pipeline Review
 
-**Date:** 2025-09-25 14:00 - 15:30  
-**Location:** Virtual Meeting Room  
-**Attendees:** Dr. Sarah Mitchell (VP R&D), Dr. James Chen (Clinical Operations), Dr. Lisa Wong (Regulatory Affairs), Michael Torres (Project Management), Jennifer Kim (Finance)  
-**Facilitator:** Dr. Sarah Mitchell  
+**Date:** 2025-09-25 14:00 - 15:30
+**Location:** Virtual Meeting Room
+**Attendees:** Dr. Sarah Mitchell (VP R&D), Dr. James Chen (Clinical Operations), Dr. Lisa Wong (Regulatory Affairs), Michael Torres (Project Management), Jennifer Kim (Finance)
+**Facilitator:** Dr. Sarah Mitchell
 
 ### Agenda Items
 

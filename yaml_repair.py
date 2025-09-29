@@ -1,3 +1,18 @@
+import subprocess
+import sys
+
+def ensure_dependencies():
+    """Install required packages if not available"""
+    try:
+        import yaml
+    except ImportError:
+        print("Installing PyYAML...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pyyaml"])
+        print("PyYAML installed successfully")
+
+# Install dependencies before proceeding
+ensure_dependencies()
+
 import yaml
 import os
 from pathlib import Path

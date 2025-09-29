@@ -4,8 +4,14 @@
   "context": "Mid-size technology company expanding development team due to product roadmap acceleration, requesting budget for external recruitment agency services",
   "stakeholders": {
     "requester": "VP Human Resources",
-    "approvers": ["Chief Financial Officer", "Chief Executive Officer"],
-    "influencers": ["VP Engineering", "Chief Technology Officer"]
+    "approvers": [
+      "Chief Financial Officer",
+      "Chief Executive Officer"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "Chief Technology Officer"
+    ]
   },
   "request": {
     "amount": "$180,000",
@@ -19,7 +25,11 @@
       "start_date": "2025-09-08",
       "end_date": "2025-09-10",
       "duration": "3 days",
-      "activities": ["Cost-benefit analysis", "Market salary benchmarking", "Internal hiring pipeline assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Market salary benchmarking",
+        "Internal hiring pipeline assessment"
+      ],
       "outcome": "Preliminary approval with cost optimization recommendations"
     },
     {
@@ -27,7 +37,11 @@
       "start_date": "2025-09-11",
       "end_date": "2025-09-12",
       "duration": "2 days",
-      "activities": ["Engineering team capacity discussion", "Budget impact modeling", "Alternative sourcing evaluation"],
+      "activities": [
+        "Engineering team capacity discussion",
+        "Budget impact modeling",
+        "Alternative sourcing evaluation"
+      ],
       "outcome": "Consensus on agency approach with performance guarantees"
     },
     {
@@ -35,7 +49,11 @@
       "start_date": "2025-09-13",
       "end_date": "2025-09-15",
       "duration": "3 days",
-      "activities": ["Board presentation", "Risk assessment review", "ROI validation"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment review",
+        "ROI validation"
+      ],
       "outcome": "Approved with performance milestones"
     }
   ],
@@ -44,14 +62,27 @@
     "projected_value": "$3.2M in additional revenue from faster time-to-market",
     "actual_value": "TBD - to be measured at 6-month review",
     "roi_timeline": "Expected payback in 6 months",
-    "risk_factors": ["Talent market competition", "Agency performance variability", "Onboarding integration challenges"]
+    "risk_factors": [
+      "Talent market competition",
+      "Agency performance variability",
+      "Onboarding integration challenges"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with product roadmap", "Financial ROI validation", "Risk mitigation measures", "Alternative evaluation"],
+  "decision_criteria": [
+    "Strategic alignment with product roadmap",
+    "Financial ROI validation",
+    "Risk mitigation measures",
+    "Alternative evaluation"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2025-11-30",
-    "milestones": ["Agency contract executed: 2025-10-07", "First candidate interviews: 2025-10-21", "All positions filled: 2025-11-30"]
+    "milestones": [
+      "Agency contract executed: 2025-10-07",
+      "First candidate interviews: 2025-10-21",
+      "All positions filled: 2025-11-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Hiring completion rate, team productivity metrics, product delivery acceleration",

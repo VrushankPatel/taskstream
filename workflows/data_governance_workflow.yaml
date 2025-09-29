@@ -1,49 +1,77 @@
 workflow:
-  id: "workflow_data_governance"
-  title: "Data Governance Process"
-  department: "IT/Data"
-  complexity: "medium"
-  participants: ["Data Steward", "Data Owner", "Compliance Officer", "IT Security"]
-  trigger: "New data source identified or data quality issue detected"
+  id: workflow_data_governance
+  title: Data Governance Process
+  department: IT/Data
+  complexity: medium
+  participants:
+  - Data Steward
+  - Data Owner
+  - Compliance Officer
+  - IT Security
+  trigger: New data source identified or data quality issue detected
   temporal_data:
-    first_implemented: "2020-01-15"
-    last_updated: "2024-09-30"
-    typical_cycle_time: "2 weeks"
+    first_implemented: '2020-01-15'
+    last_updated: '2024-09-30'
+    typical_cycle_time: 2 weeks
     average_annual_executions: 120
-    seasonal_variations: ["Q4 audit preparation peak", "Q1 compliance review focus"]
-    historical_evolution: "Evolved from manual spreadsheets to automated data catalog system in 2022"
+    seasonal_variations:
+    - Q4 audit preparation peak
+    - Q1 compliance review focus
+    historical_evolution: Evolved from manual spreadsheets to automated data catalog
+      system in 2022
   steps:
-    - step: 1
-      actor: "Data Steward"
-      action: "Assess data source and classify sensitivity level"
-      tools: ["Data catalog tool", "Classification matrix"]
-      duration: "2 days"
-      outputs: ["Data classification report", "Risk assessment"]
-    - step: 2
-      actor: "Data Owner"
-      action: "Review classification and approve data usage policies"
-      decision_points: ["Data sharing permissions", "Retention requirements"]
-      duration: "3 days"
-      outputs: ["Approved data policies", "Access controls"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Validate compliance with regulations (GDPR, CCPA)"
-      tools: ["Compliance checklist", "Legal database"]
-      duration: "1 week"
-      outputs: ["Compliance certification", "Audit trail"]
-    - step: 4
-      actor: "IT Security"
-      action: "Implement technical controls and monitoring"
-      tools: ["Security tools", "Monitoring dashboard"]
-      duration: "5 days"
-      outputs: ["Security controls", "Monitoring alerts"]
-  success_criteria: "Data properly classified, compliant, and secured"
-  failure_modes: ["Incomplete classification", "Regulatory non-compliance", "Security breaches"]
+  - step: 1
+    actor: Data Steward
+    action: Assess data source and classify sensitivity level
+    tools:
+    - Data catalog tool
+    - Classification matrix
+    duration: 2 days
+    outputs:
+    - Data classification report
+    - Risk assessment
+  - step: 2
+    actor: Data Owner
+    action: Review classification and approve data usage policies
+    decision_points:
+    - Data sharing permissions
+    - Retention requirements
+    duration: 3 days
+    outputs:
+    - Approved data policies
+    - Access controls
+  - step: 3
+    actor: Compliance Officer
+    action: Validate compliance with regulations (GDPR, CCPA)
+    tools:
+    - Compliance checklist
+    - Legal database
+    duration: 1 week
+    outputs:
+    - Compliance certification
+    - Audit trail
+  - step: 4
+    actor: IT Security
+    action: Implement technical controls and monitoring
+    tools:
+    - Security tools
+    - Monitoring dashboard
+    duration: 5 days
+    outputs:
+    - Security controls
+    - Monitoring alerts
+  success_criteria: Data properly classified, compliant, and secured
+  failure_modes:
+  - Incomplete classification
+  - Regulatory non-compliance
+  - Security breaches
   metrics:
-    - "Data quality score: 95% target"
-    - "Compliance audit pass rate: 100%"
-    - "Time to classify new data: <7 days"
+  - 'Data quality score: 95% target'
+  - 'Compliance audit pass rate: 100%'
+  - 'Time to classify new data: <7 days'
   performance_history:
-    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
-    cost_trend: "$50K (2023) → $45K (2024) → $40K (2025)"
-    efficiency_improvements: ["Automated classification reduced time by 40%", "AI monitoring improved detection by 30%"]
+    success_rate_trend: 92% (2023) → 95% (2024) → 97% (2025)
+    cost_trend: $50K (2023) → $45K (2024) → $40K (2025)
+    efficiency_improvements:
+    - Automated classification reduced time by 40%
+    - AI monitoring improved detection by 30%

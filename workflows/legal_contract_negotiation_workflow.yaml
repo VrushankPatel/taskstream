@@ -1,61 +1,99 @@
 workflow:
-  id: "workflow_legal_contract_negotiation"
-  title: "Legal Contract Negotiation Process"
-  department: "Legal"
-  complexity: "medium"
-  participants: ["Contract Manager", "Legal Counsel", "Business Owner", "Procurement", "Finance"]
-  trigger: "Contract negotiation required for new vendor agreement or amendment"
+  id: workflow_legal_contract_negotiation
+  title: Legal Contract Negotiation Process
+  department: Legal
+  complexity: medium
+  participants:
+  - Contract Manager
+  - Legal Counsel
+  - Business Owner
+  - Procurement
+  - Finance
+  trigger: Contract negotiation required for new vendor agreement or amendment
   temporal_data:
-    first_implemented: "2019-03-01"
-    last_updated: "2024-09-30"
-    typical_cycle_time: "15 business days"
+    first_implemented: '2019-03-01'
+    last_updated: '2024-09-30'
+    typical_cycle_time: 15 business days
     average_annual_executions: 200
-    seasonal_variations: ["Q4 budget constraints slow negotiations", "Q1 contract renewals accelerate process"]
-    historical_evolution: "Manual negotiation process automated in 2021 with contract management software, AI negotiation assistant introduced in 2023"
+    seasonal_variations:
+    - Q4 budget constraints slow negotiations
+    - Q1 contract renewals accelerate process
+    historical_evolution: Manual negotiation process automated in 2021 with contract
+      management software, AI negotiation assistant introduced in 2023
   steps:
-    - step: 1
-      actor: "Contract Manager"
-      action: "Prepare negotiation strategy and initial position"
-      tools: ["Contract template library", "Negotiation playbook"]
-      duration: "3 days"
-      outputs: ["Negotiation strategy document", "Initial contract draft"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Review legal risks and compliance requirements"
-      decision_points: ["Acceptable risk thresholds", "Required legal protections"]
-      duration: "4 days"
-      outputs: ["Legal risk assessment", "Compliance checklist"]
-    - step: 3
-      actor: "Business Owner"
-      action: "Define business requirements and priorities"
-      tools: ["Business case template", "Requirements matrix"]
-      duration: "2 days"
-      outputs: ["Business requirements document", "Priority ranking"]
-    - step: 4
-      actor: "Procurement"
-      action: "Conduct market analysis and benchmarking"
-      tools: ["Supplier database", "Market intelligence tools"]
-      duration: "3 days"
-      outputs: ["Market analysis report", "Benchmarking data"]
-    - step: 5
-      actor: "Finance"
-      action: "Review financial terms and cost implications"
-      tools: ["Financial modeling software", "Cost analysis templates"]
-      duration: "2 days"
-      outputs: ["Financial analysis", "Cost-benefit assessment"]
-    - step: 6
-      actor: "Contract Manager"
-      action: "Execute negotiation rounds and finalize agreement"
-      tools: ["Negotiation tracking system", "E-signature platform"]
-      duration: "5 days"
-      outputs: ["Negotiated contract", "Negotiation summary"]
-  success_criteria: "Contract terms favorable to business objectives with acceptable risk profile"
-  failure_modes: ["Stalemate in negotiations", "Unacceptable terms offered", "Timeline overruns"]
+  - step: 1
+    actor: Contract Manager
+    action: Prepare negotiation strategy and initial position
+    tools:
+    - Contract template library
+    - Negotiation playbook
+    duration: 3 days
+    outputs:
+    - Negotiation strategy document
+    - Initial contract draft
+  - step: 2
+    actor: Legal Counsel
+    action: Review legal risks and compliance requirements
+    decision_points:
+    - Acceptable risk thresholds
+    - Required legal protections
+    duration: 4 days
+    outputs:
+    - Legal risk assessment
+    - Compliance checklist
+  - step: 3
+    actor: Business Owner
+    action: Define business requirements and priorities
+    tools:
+    - Business case template
+    - Requirements matrix
+    duration: 2 days
+    outputs:
+    - Business requirements document
+    - Priority ranking
+  - step: 4
+    actor: Procurement
+    action: Conduct market analysis and benchmarking
+    tools:
+    - Supplier database
+    - Market intelligence tools
+    duration: 3 days
+    outputs:
+    - Market analysis report
+    - Benchmarking data
+  - step: 5
+    actor: Finance
+    action: Review financial terms and cost implications
+    tools:
+    - Financial modeling software
+    - Cost analysis templates
+    duration: 2 days
+    outputs:
+    - Financial analysis
+    - Cost-benefit assessment
+  - step: 6
+    actor: Contract Manager
+    action: Execute negotiation rounds and finalize agreement
+    tools:
+    - Negotiation tracking system
+    - E-signature platform
+    duration: 5 days
+    outputs:
+    - Negotiated contract
+    - Negotiation summary
+  success_criteria: Contract terms favorable to business objectives with acceptable
+    risk profile
+  failure_modes:
+  - Stalemate in negotiations
+  - Unacceptable terms offered
+  - Timeline overruns
   metrics:
-    - "Negotiation success rate: 85% favorable terms"
-    - "Average negotiation duration: 12 days"
-    - "Cost savings vs initial position: 15%"
+  - 'Negotiation success rate: 85% favorable terms'
+  - 'Average negotiation duration: 12 days'
+  - 'Cost savings vs initial position: 15%'
   performance_history:
-    success_rate_trend: "75% (2023) → 82% (2024) → 85% (2025)"
-    cost_trend: "$50K per negotiation (2023) → $42K (2024) → $38K (2025)"
-    efficiency_improvements: ["AI assistant reduced negotiation time by 25%", "Standardized templates improved consistency by 30%"]
+    success_rate_trend: 75% (2023) → 82% (2024) → 85% (2025)
+    cost_trend: $50K per negotiation (2023) → $42K (2024) → $38K (2025)
+    efficiency_improvements:
+    - AI assistant reduced negotiation time by 25%
+    - Standardized templates improved consistency by 30%

@@ -4,8 +4,15 @@
   "context": "Consumer electronics company preparing launch of new smart home device line, evaluating phased vs. simultaneous global launch strategy",
   "stakeholders": {
     "requester": "VP Product Marketing",
-    "approvers": ["Chief Marketing Officer", "Chief Executive Officer"],
-    "influencers": ["VP Sales", "VP Operations", "Regional Directors"]
+    "approvers": [
+      "Chief Marketing Officer",
+      "Chief Executive Officer"
+    ],
+    "influencers": [
+      "VP Sales",
+      "VP Operations",
+      "Regional Directors"
+    ]
   },
   "request": {
     "amount": "$12M",
@@ -19,7 +26,11 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-15",
       "duration": "15 days",
-      "activities": ["Regional market analysis", "Competitor launch strategies review", "Customer segmentation study"],
+      "activities": [
+        "Regional market analysis",
+        "Competitor launch strategies review",
+        "Customer segmentation study"
+      ],
       "outcome": "Identified 3 key markets with different adoption patterns"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-01",
       "duration": "17 days",
-      "activities": ["Supply chain capacity review", "Distribution network assessment", "Support team readiness evaluation"],
+      "activities": [
+        "Supply chain capacity review",
+        "Distribution network assessment",
+        "Support team readiness evaluation"
+      ],
       "outcome": "Phased approach operationally feasible with 6-week intervals"
     },
     {
@@ -35,7 +50,11 @@
       "start_date": "2025-08-02",
       "end_date": "2025-08-10",
       "duration": "9 days",
-      "activities": ["Revenue projection modeling", "Cost allocation analysis", "ROI calculations"],
+      "activities": [
+        "Revenue projection modeling",
+        "Cost allocation analysis",
+        "ROI calculations"
+      ],
       "outcome": "Phased approach projected 15% higher ROI through learning optimization"
     },
     {
@@ -43,7 +62,11 @@
       "start_date": "2025-08-15",
       "end_date": "2025-08-20",
       "duration": "6 days",
-      "activities": ["Board presentation", "Risk-benefit analysis", "Final strategy approval"],
+      "activities": [
+        "Board presentation",
+        "Risk-benefit analysis",
+        "Final strategy approval"
+      ],
       "outcome": "Approved phased launch with North America first, followed by Europe and Asia-Pacific"
     }
   ],
@@ -52,14 +75,29 @@
     "projected_value": "$85M in additional revenue over 2 years",
     "actual_value": "TBD - to be measured at 12-month review",
     "roi_timeline": "Expected payback in 18 months",
-    "risk_factors": ["Competitor preemption in delayed markets", "Supply chain disruptions", "Regional regulatory differences"]
+    "risk_factors": [
+      "Competitor preemption in delayed markets",
+      "Supply chain disruptions",
+      "Regional regulatory differences"
+    ]
   },
-  "decision_criteria": ["Market readiness assessment", "Operational capacity", "Financial projections", "Risk mitigation", "Competitive positioning"],
+  "decision_criteria": [
+    "Market readiness assessment",
+    "Operational capacity",
+    "Financial projections",
+    "Risk mitigation",
+    "Competitive positioning"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2026-06-30",
-    "milestones": ["North America launch: 2025-09-15", "Europe launch: 2025-10-30", "Asia-Pacific launch: 2025-12-15", "Global optimization: 2026-03-31"]
+    "milestones": [
+      "North America launch: 2025-09-15",
+      "Europe launch: 2025-10-30",
+      "Asia-Pacific launch: 2025-12-15",
+      "Global optimization: 2026-03-31"
+    ]
   },
   "outcome_tracking": {
     "3_month_review": "North America performance metrics and lessons learned",

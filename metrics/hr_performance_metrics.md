@@ -1,41 +1,41 @@
 # HR Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)  
-**Last Updated:** 2025-10-01  
+**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)
+**Last Updated:** 2025-10-01
 
 ## Key Performance Indicators
 
 ### Recruitment Metrics
-- **Time to Fill**: 26 days (Current Quarter)  
-  - YoY Growth: -8%  
-  - QoQ Growth: -4%  
-  - Historical: Q1: 28 days, Q2: 27 days, Q3: 26 days  
-- **Offer Acceptance Rate**: 87%  
-  - Target: 85%  
-  - Historical: 84% (2024) → 87% (2025)  
-- **Cost per Hire**: $8,500  
-  - Target: $9,000  
-  - YoY Change: -6%  
+- **Time to Fill**: 26 days (Current Quarter)
+  - YoY Growth: -8%
+  - QoQ Growth: -4%
+  - Historical: Q1: 28 days, Q2: 27 days, Q3: 26 days
+- **Offer Acceptance Rate**: 87%
+  - Target: 85%
+  - Historical: 84% (2024) → 87% (2025)
+- **Cost per Hire**: $8,500
+  - Target: $9,000
+  - YoY Change: -6%
 
 ### Employee Lifecycle
-- **New Hire Retention (90 days)**: 92%  
-  - Target: 90%  
-  - Monthly: Jul: 91%, Aug: 93%, Sep: 92%  
-- **Voluntary Turnover Rate**: 8.5%  
-  - Target: <10%  
-  - YoY Change: -15%  
-- **Time to Productivity**: 18 days  
-  - Target: <21 days  
-  - Trend: 21 days (Jan) → 18 days (Sep)  
+- **New Hire Retention (90 days)**: 92%
+  - Target: 90%
+  - Monthly: Jul: 91%, Aug: 93%, Sep: 92%
+- **Voluntary Turnover Rate**: 8.5%
+  - Target: <10%
+  - YoY Change: -15%
+- **Time to Productivity**: 18 days
+  - Target: <21 days
+  - Trend: 21 days (Jan) → 18 days (Sep)
 
 ### Employee Engagement
-- **Engagement Score**: 4.1/5  
-  - Target: 4.0  
-  - Quarterly trend: 3.9 (Q1) → 4.0 (Q2) → 4.1 (Q3)  
-- **Training Completion Rate**: 88%  
-  - Target: 85%  
-  - By department: Engineering 92%, Sales 85%, Operations 86%  
+- **Engagement Score**: 4.1/5
+  - Target: 4.0
+  - Quarterly trend: 3.9 (Q1) → 4.0 (Q2) → 4.1 (Q3)
+- **Training Completion Rate**: 88%
+  - Target: 85%
+  - By department: Engineering 92%, Sales 85%, Operations 86%
 
 ## Trend Analysis
 
@@ -65,11 +65,11 @@
 | Sep 2025 | 26 | 87% | 8.5% | 4.1 |
 
 ## Forecasting
-- **Next Quarter Projection**: Time to fill 24 days (±2 days confidence)  
-- **Annual Target**: Turnover rate 8% (78% to goal)  
-- **Risk Factors**: [Economic uncertainty, Competitive job market, Remote work preferences]  
+- **Next Quarter Projection**: Time to fill 24 days (±2 days confidence)
+- **Annual Target**: Turnover rate 8% (78% to goal)
+- **Risk Factors**: [Economic uncertainty, Competitive job market, Remote work preferences]
 
 ## Benchmarking
-- **Industry Average**: Time to fill 32 days, Turnover 12%, Engagement 3.7/5  
-- **Top Quartile**: Time to fill 22 days, Turnover 6%, Engagement 4.3/5  
+- **Industry Average**: Time to fill 32 days, Turnover 12%, Engagement 3.7/5
+- **Top Quartile**: Time to fill 22 days, Turnover 6%, Engagement 4.3/5
 - **Competitive Position**: Above industry average in retention and engagement, competitive in hiring speed

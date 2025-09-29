@@ -1,0 +1,62 @@
+workflow:
+  id: "workflow_advanced_robotics_human_robot_interaction"
+  title: "Human-Robot Interaction Safety Workflow"
+  department: "Advanced Robotics Operations"
+  complexity: "complex"
+  participants: ["Safety Officer", "Robotics Engineer", "Operations Manager", "HR Representative", "Maintenance Technician"]
+  trigger: "New collaborative robot installation or workspace modification"
+  temporal_data:
+    first_implemented: "2023-06-01"
+    last_updated: "2025-09-30"
+    typical_cycle_time: "45 days"
+    average_annual_executions: 12
+    seasonal_variations: ["Q2 peak for new installations", "Q4 maintenance shutdowns"]
+    historical_evolution: "Evolved from basic safety checks to comprehensive risk assessment and continuous monitoring protocols"
+  steps:
+    - step: 1
+      actor: "Safety Officer"
+      action: "Conduct initial risk assessment and workspace evaluation"
+      tools: ["Risk assessment templates", "Safety analysis software", "Workspace measurement tools"]
+      duration: "3 days"
+      outputs: ["Risk assessment report", "Safety requirements document"]
+    - step: 2
+      actor: "Robotics Engineer"
+      action: "Design safety systems and human-robot interaction protocols"
+      tools: ["Safety PLC programming", "Sensor configuration software", "Simulation tools"]
+      duration: "7 days"
+      outputs: ["Safety system design", "Interaction protocols", "System specifications"]
+    - step: 3
+      actor: "Operations Manager"
+      action: "Review operational procedures and staffing requirements"
+      tools: ["Process documentation", "Staffing analysis tools", "Training needs assessment"]
+      duration: "2 days"
+      outputs: ["Operational procedures", "Staffing plan", "Training requirements"]
+    - step: 4
+      actor: "HR Representative"
+      action: "Develop training programs and certification requirements"
+      tools: ["Training management system", "Certification tracking", "Compliance documentation"]
+      duration: "5 days"
+      outputs: ["Training curriculum", "Certification program", "Compliance records"]
+    - step: 5
+      actor: "Maintenance Technician"
+      action: "Install and test safety systems and monitoring equipment"
+      tools: ["Safety system installation tools", "Testing equipment", "Calibration devices"]
+      duration: "10 days"
+      outputs: ["Installation reports", "Test results", "Calibration certificates"]
+    - step: 6
+      actor: "Safety Officer"
+      action: "Conduct final validation and approval for operation"
+      tools: ["Validation checklists", "Performance monitoring tools", "Audit documentation"]
+      duration: "3 days"
+      outputs: ["Validation report", "Operational approval", "Monitoring baseline"]
+  success_criteria: "Zero safety incidents in first 90 days, 95% training completion, 99% safety system uptime"
+  failure_modes: ["Incomplete risk assessment", "Inadequate safety system design", "Insufficient training", "Poor system installation"]
+  metrics:
+    - "Safety incident rate: Target <0.1 per 1,000 hours"
+    - "Training completion: Target 95%"
+    - "System uptime: Target 99%"
+    - "Risk mitigation effectiveness: Target 100%"
+  performance_history:
+    success_rate_trend: "85% (2023) → 92% (2024) → 95% (2025)"
+    cost_trend: "$45K (2023) → $38K (2024) → $32K (2025)"
+    efficiency_improvements: ["Digital risk assessment reduced time by 40%", "Automated monitoring improved detection by 60%", "Standardized protocols reduced errors by 30%"]

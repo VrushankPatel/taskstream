@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_autonomous_haulage_2025",
+  "context": "Open-pit mining operation implementing autonomous haul trucks to improve productivity and address labor shortages",
+  "stakeholders": {
+    "requester": "Operations Manager",
+    "approvers": ["CEO", "Chief Operating Officer", "Safety Director"],
+    "influencers": ["Maintenance Manager", "Technology Integration Team", "Labor Union Representatives"]
+  },
+  "request": {
+    "amount": "$45 million",
+    "purpose": "Deployment of 25 autonomous haul trucks and supporting autonomous operations center",
+    "urgency": "medium",
+    "justification": "Address skilled labor shortages and improve operational efficiency in 24/7 mining operations"
+  },
+  "decision_process": [
+    {
+      "stage": "operational_assessment",
+      "duration": "3 months",
+      "activities": ["Current fleet analysis", "Productivity benchmarking", "Labor market assessment"],
+      "outcome": "Identified 40% productivity improvement potential with autonomous operations"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 months",
+      "activities": ["Vendor technology demonstrations", "Site compatibility testing", "ROI modeling"],
+      "outcome": "Selected proven autonomous system with 99.8% uptime in mining environments"
+    },
+    {
+      "stage": "workforce_planning",
+      "duration": "2 months",
+      "activities": ["Job transition analysis", "Retraining program design", "Union negotiations"],
+      "outcome": "Developed comprehensive workforce transition with 80% job retention"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "45% increase in hauling efficiency, reduced operational costs",
+    "projected_value": "$15 million annual savings through improved productivity and reduced accidents",
+    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory approval delays"]
+  },
+  "decision_criteria": ["Productivity improvement", "Workforce impact", "Technology reliability", "Safety enhancement"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive workforce planning and union collaboration critical for successful autonomous technology adoption, phased implementation reduces operational disruption"
+}

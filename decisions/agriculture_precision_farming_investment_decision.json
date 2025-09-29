@@ -1,0 +1,43 @@
+{
+  "scenario_id": "agriculture_precision_farming_2025",
+  "context": "Agricultural cooperative investing in precision farming technology to optimize yields and resource usage",
+  "stakeholders": {
+    "requester": "Agricultural Operations Director",
+    "approvers": ["Board President", "CEO", "Chief Agronomist"],
+    "influencers": ["Farmer Members", "Technology Vendor", "Environmental Consultant"]
+  },
+  "request": {
+    "amount": "$15 million",
+    "purpose": "Implementation of GPS-guided equipment, soil sensors, and data analytics platform across 50,000 acres",
+    "urgency": "medium",
+    "justification": "Address climate variability and optimize resource usage for sustainable farming"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "3 months",
+      "activities": ["Vendor capability assessment", "Pilot program design", "ROI modeling"],
+      "outcome": "Selected integrated precision farming platform with proven results"
+    },
+    {
+      "stage": "farmer_engagement",
+      "duration": "2 months",
+      "activities": ["Member education sessions", "Demonstration field days", "Feedback collection"],
+      "outcome": "85% member support with participation commitments"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 months",
+      "activities": ["Equipment procurement", "Training program development", "Data infrastructure setup"],
+      "outcome": "Phased 3-year rollout plan developed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% improvement in resource efficiency and yield optimization",
+    "projected_value": "$8 million annual savings through reduced inputs and increased yields",
+    "risk_factors": ["Technology adoption learning curve", "Data privacy concerns", "Equipment reliability"]
+  },
+  "decision_criteria": ["Economic viability", "Member adoption rate", "Environmental impact", "Technology scalability"],
+  "outcome": "Approved",
+  "lessons_learned": "Farmer education and hands-on demonstrations essential for technology adoption, comprehensive training programs ensure successful implementation"
+}

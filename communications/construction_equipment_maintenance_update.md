@@ -196,6 +196,9 @@ Thank you for the comprehensive responses and support. Recovery plan activated:
 - Maintenance costs: Reduce by 20%
 - Project delays: Minimize to <5 days total
 - Safety incidents: Zero during transition
+- Mean time between failures: Increase by 30%
+- Preventive maintenance compliance: 100%
+- Operator training completion: 95%
 
 Daily updates at 8 AM. Let's execute flawlessly.
 

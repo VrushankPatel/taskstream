@@ -36,9 +36,12 @@ workflow:
       tools: ["Customer Communication System", "Claim Status Portal"]
       duration: "5 minutes"
       outputs: ["Claim Acknowledgment", "Status Update Notification"]
-  success_criteria: "Claim acknowledged within 24 hours with complete documentation collected"
-  failure_modes: ["Incomplete information", "Policy exclusions discovered", "High fraud risk flags", "System technical issues"]
+  success_criteria: "Claim acknowledged within 24 hours with complete documentation collected, fraud screening completed, and priority assignment made"
+  failure_modes: ["Incomplete information", "Policy exclusions discovered", "High fraud risk flags", "System technical issues", "Duplicate claim submissions", "Coverage disputes"]
   metrics:
     - "Intake completion time: <1 hour"
     - "Documentation completeness: 95%"
     - "Customer satisfaction: 4.2/5.0"
+    - "Fraud detection accuracy: 92%"
+    - "First contact resolution: 75%"
+    - "Escalation rate: <5%"

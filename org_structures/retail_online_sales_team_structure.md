@@ -108,6 +108,9 @@
 - Mobile conversion rate: 2.8%
 - Email open rate: 28%
 - Customer lifetime value: $420
+- Average order value: $85
+- Shopping cart abandonment: 72%
+- Repeat purchase rate: 28%
 
 ## Technology Stack
 - E-commerce platform (custom-built)

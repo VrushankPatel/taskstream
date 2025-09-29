@@ -4,7 +4,8 @@
   "stakeholders": {
     "requester": "Agricultural Operations Director",
     "approvers": ["Board of Directors", "CEO", "Chief Financial Officer"],
-    "influencers": ["Farm Managers", "Soil Scientist", "Environmental Consultant", "Technology Specialist"]
+    "influencers": ["Farm Managers", "Soil Scientist", "Environmental Consultant", "Technology Specialist", "Sustainability Officer", "Financial Analyst"],
+    "consultants": ["Precision Agriculture Vendor", "Independent Agronomist"]
   },
   "request": {
     "amount": "$5,000,000",

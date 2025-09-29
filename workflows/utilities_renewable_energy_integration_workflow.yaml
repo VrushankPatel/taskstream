@@ -32,12 +32,12 @@ workflow:
       actor: "Operations Manager"
       action: "Coordinate installation and commissioning"
       duration: "2 weeks"
-       outputs: ["Commissioning Report", "Operational Handover"]
-   success_criteria: "Renewable energy source successfully integrated with stable grid performance, all safety protocols verified, and operational handover completed"
-   failure_modes: ["Grid stability issues", "Regulatory delays", "Technical compatibility problems", "Equipment failure", "Weather-related installation delays"]
-   metrics:
-     - "Integration Time: <8 weeks"
-     - "Grid Stability: 99.9% uptime"
-     - "Renewable Capacity: +10% annually"
-     - "Safety Incident Rate: 0"
-     - "Energy Efficiency: >90%"
+      outputs: ["Commissioning Report", "Operational Handover"]
+  success_criteria: "Renewable energy source successfully integrated with stable grid performance, all safety protocols verified, and operational handover completed"
+  failure_modes: ["Grid stability issues", "Regulatory delays", "Technical compatibility problems", "Equipment failure", "Weather-related installation delays"]
+  metrics:
+    - "Integration Time: <8 weeks"
+    - "Grid Stability: 99.9% uptime"
+    - "Renewable Capacity: +10% annually"
+    - "Safety Incident Rate: 0"
+    - "Energy Efficiency: >90%"

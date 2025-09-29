@@ -225,6 +225,8 @@ This policy establishes comprehensive standards for protecting patient health in
 - **Training Completion**: Target 100% for all personnel
 - **Audit Findings**: Target <2% non-compliance rate
 - **Breach Incidents**: Target zero breaches with significant harm
+- **Patient Trust Score**: Target >4.5/5.0 in satisfaction surveys
+- **Compliance Cost Efficiency**: Target <2% of total healthcare budget
 
 ## Conclusion
 This confidentiality policy ensures the protection of patient privacy while enabling appropriate information sharing for quality healthcare delivery. Compliance requires ongoing commitment, training, and technological safeguards.

@@ -1,9 +1,9 @@
 # Healthcare Genomics Research Center Launch Meeting
 
-**Date:** September 28, 2025  
-**Time:** 9:00 AM - 11:00 AM  
-**Location:** Executive Boardroom  
-**Attendees:** CEO, Chief Academic Officer, Chief Research Officer, Department Chairs (Genetics, Oncology, Cardiology), Development Director, Research Faculty Representatives  
+**Date:** September 28, 2025
+**Time:** 9:00 AM - 11:00 AM
+**Location:** Executive Boardroom
+**Attendees:** CEO, Chief Academic Officer, Chief Research Officer, Department Chairs (Genetics, Oncology, Cardiology), Development Director, Research Faculty Representatives
 
 ## Meeting Objective
 Finalize launch plan for the new Genomics Research Center and allocate initial resources.

@@ -1,52 +1,88 @@
 workflow:
-  id: "workflow_agriculture_sustainable_farming_transition"
-  title: "Sustainable Farming Transition Process"
-  department: "Agriculture Operations"
-  complexity: "complex"
-  participants: ["Farm Manager", "Agronomist", "Sustainability Specialist", "Financial Advisor", "Equipment Supplier"]
-  trigger: "Corporate sustainability initiative requiring transition to regenerative farming practices"
+  id: workflow_agriculture_sustainable_farming_transition
+  title: Sustainable Farming Transition Process
+  department: Agriculture Operations
+  complexity: complex
+  participants:
+  - Farm Manager
+  - Agronomist
+  - Sustainability Specialist
+  - Financial Advisor
+  - Equipment Supplier
+  trigger: Corporate sustainability initiative requiring transition to regenerative
+    farming practices
   steps:
-    - step: 1
-      actor: "Farm Manager"
-      action: "Assess current farming practices and identify sustainability gaps"
-      tools: ["Sustainability assessment frameworks", "Farm management software"]
-      duration: "2 weeks"
-      outputs: ["Current practices assessment report", "Sustainability gap analysis"]
-    - step: 2
-      actor: "Sustainability Specialist"
-      action: "Develop regenerative farming transition plan with specific practices"
-      tools: ["Regenerative agriculture guidelines", "Carbon sequestration models"]
-      duration: "4 weeks"
-      outputs: ["Transition plan document", "Practice implementation timeline"]
-    - step: 3
-      actor: "Agronomist"
-      action: "Design soil health improvement and crop rotation strategies"
-      tools: ["Soil testing equipment", "Crop modeling software"]
-      duration: "3 weeks"
-      outputs: ["Soil health improvement plan", "Crop rotation schedules"]
-    - step: 4
-      actor: "Financial Advisor"
-      action: "Evaluate costs and benefits of transition, secure funding"
-      tools: ["Financial modeling tools", "Grant application systems"]
-      duration: "3 weeks"
-      outputs: ["Cost-benefit analysis", "Funding proposals"]
-    - step: 5
-      actor: "Equipment Supplier"
-      action: "Recommend and supply sustainable farming equipment"
-      tools: ["Equipment catalogs", "No-till implements", "Cover crop seeders"]
-      duration: "2 weeks"
-      outputs: ["Equipment recommendations", "Procurement contracts"]
-    - step: 6
-      actor: "Farm Manager"
-      action: "Implement transition practices and monitor progress"
-      tools: ["Implementation checklists", "Progress tracking dashboards"]
-      duration: "Ongoing"
-      outputs: ["Implementation reports", "Performance metrics"]
-  success_criteria: "Successful transition with measurable improvements in soil health, biodiversity, and carbon sequestration"
-  failure_modes: ["Insufficient funding", "Resistance from farm staff", "Unfavorable weather conditions", "Lack of technical expertise"]
+  - step: 1
+    actor: Farm Manager
+    action: Assess current farming practices and identify sustainability gaps
+    tools:
+    - Sustainability assessment frameworks
+    - Farm management software
+    duration: 2 weeks
+    outputs:
+    - Current practices assessment report
+    - Sustainability gap analysis
+  - step: 2
+    actor: Sustainability Specialist
+    action: Develop regenerative farming transition plan with specific practices
+    tools:
+    - Regenerative agriculture guidelines
+    - Carbon sequestration models
+    duration: 4 weeks
+    outputs:
+    - Transition plan document
+    - Practice implementation timeline
+  - step: 3
+    actor: Agronomist
+    action: Design soil health improvement and crop rotation strategies
+    tools:
+    - Soil testing equipment
+    - Crop modeling software
+    duration: 3 weeks
+    outputs:
+    - Soil health improvement plan
+    - Crop rotation schedules
+  - step: 4
+    actor: Financial Advisor
+    action: Evaluate costs and benefits of transition, secure funding
+    tools:
+    - Financial modeling tools
+    - Grant application systems
+    duration: 3 weeks
+    outputs:
+    - Cost-benefit analysis
+    - Funding proposals
+  - step: 5
+    actor: Equipment Supplier
+    action: Recommend and supply sustainable farming equipment
+    tools:
+    - Equipment catalogs
+    - No-till implements
+    - Cover crop seeders
+    duration: 2 weeks
+    outputs:
+    - Equipment recommendations
+    - Procurement contracts
+  - step: 6
+    actor: Farm Manager
+    action: Implement transition practices and monitor progress
+    tools:
+    - Implementation checklists
+    - Progress tracking dashboards
+    duration: Ongoing
+    outputs:
+    - Implementation reports
+    - Performance metrics
+  success_criteria: Successful transition with measurable improvements in soil health,
+    biodiversity, and carbon sequestration
+  failure_modes:
+  - Insufficient funding
+  - Resistance from farm staff
+  - Unfavorable weather conditions
+  - Lack of technical expertise
   metrics:
-    - "Soil organic matter increase: Target 10-15% improvement"
-    - "Biodiversity index: Target 20% increase in species diversity"
-    - "Carbon sequestration: Target 2-3 tons CO2 per hectare annually"
-    - "Water retention: Target 15% improvement in soil water holding capacity"
-    - "Economic viability: Target maintained or improved profitability"
+  - 'Soil organic matter increase: Target 10-15% improvement'
+  - 'Biodiversity index: Target 20% increase in species diversity'
+  - 'Carbon sequestration: Target 2-3 tons CO2 per hectare annually'
+  - 'Water retention: Target 15% improvement in soil water holding capacity'
+  - 'Economic viability: Target maintained or improved profitability'

@@ -3,8 +3,16 @@
   "context": "Real estate development company evaluating green building certification for new mixed-use project",
   "stakeholders": {
     "requester": "VP Development",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["Project Manager", "Environmental Consultant", "Marketing Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Sustainability Officer"
+    ],
+    "influencers": [
+      "Project Manager",
+      "Environmental Consultant",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$750,000",
@@ -16,22 +24,43 @@
     {
       "stage": "sustainability_assessment",
       "duration": "2 weeks",
-      "activities": ["Cost-benefit analysis", "Certification requirements review", "Market premium evaluation"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Certification requirements review",
+        "Market premium evaluation"
+      ],
       "outcome": "Positive ROI identified with 8% rental premium"
     },
     {
       "stage": "stakeholder_review",
       "duration": "1 week",
-      "activities": ["Board presentation", "Investor feedback collection", "Regulatory compliance check"],
+      "activities": [
+        "Board presentation",
+        "Investor feedback collection",
+        "Regulatory compliance check"
+      ],
       "outcome": "Approved with performance monitoring requirements"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% faster lease-up, 8% rental premium, enhanced brand reputation",
     "projected_value": "$2,500,000 additional revenue over project lifecycle",
-    "risk_factors": ["Construction cost overruns", "Certification delays", "Market demand uncertainty"]
+    "risk_factors": [
+      "Construction cost overruns",
+      "Certification delays",
+      "Market demand uncertainty"
+    ]
   },
-  "decision_criteria": ["Financial return on investment", "Market demand for sustainable features", "Regulatory requirements", "Brand enhancement potential", "Construction feasibility", "Energy efficiency projections", "Tenant satisfaction impact", "Long-term maintenance costs"],
+  "decision_criteria": [
+    "Financial return on investment",
+    "Market demand for sustainable features",
+    "Regulatory requirements",
+    "Brand enhancement potential",
+    "Construction feasibility",
+    "Energy efficiency projections",
+    "Tenant satisfaction impact",
+    "Long-term maintenance costs"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early sustainability integration reduces costs, market premiums justify green certification investments"
 }

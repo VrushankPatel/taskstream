@@ -1,8 +1,8 @@
 ## Email Thread: Retail Customer Complaint Resolution
 
-**From:** Customer Service Manager  
-**To:** Store Manager, Quality Assurance Lead  
-**Subject:** Escalated Customer Complaint - Product Quality Issue  
+**From:** Customer Service Manager
+**To:** Store Manager, Quality Assurance Lead
+**Subject:** Escalated Customer Complaint - Product Quality Issue
 
 Team,
 
@@ -19,7 +19,7 @@ Customer is requesting full refund plus replacement items. This is our third sim
 
 Please investigate the source of the quality issues and provide recommendations for resolution.
 
-Best,  
+Best,
 Alex Thompson
 Customer Service Manager
 
@@ -63,9 +63,9 @@ Quality Assurance Lead
 
 ---
 
-**From:** Store Manager  
-**To:** Customer Service Manager, Quality Assurance Lead  
-**Subject:** Re: Escalated Customer Complaint - Product Quality Issue  
+**From:** Store Manager
+**To:** Customer Service Manager, Quality Assurance Lead
+**Subject:** Re: Escalated Customer Complaint - Product Quality Issue
 
 Alex,
 
@@ -83,14 +83,14 @@ Recommendations:
 2. Review warehouse procedures for premium items
 3. Consider enhanced packaging for high-value merchandise
 
-Mike Johnson  
-Store Manager  
+Mike Johnson
+Store Manager
 
 ---
 
-**From:** Quality Assurance Lead  
-**To:** Customer Service Manager, Store Manager  
-**Subject:** Re: Escalated Customer Complaint - Product Quality Issue  
+**From:** Quality Assurance Lead
+**To:** Customer Service Manager, Store Manager
+**Subject:** Re: Escalated Customer Complaint - Product Quality Issue
 
 Adding to Mike's response - I've initiated a quality investigation.
 
@@ -106,14 +106,14 @@ Root cause appears to be environmental conditions in storage. We're implementing
 
 This should prevent recurrence. I'll provide a full report by Friday.
 
-Lisa Chen  
-Quality Assurance Lead  
+Lisa Chen
+Quality Assurance Lead
 
 ---
 
-**From:** Customer Service Manager  
-**To:** Store Manager, Quality Assurance Lead  
-**Subject:** Re: Escalated Customer Complaint - Product Quality Issue  
+**From:** Customer Service Manager
+**To:** Store Manager, Quality Assurance Lead
+**Subject:** Re: Escalated Customer Complaint - Product Quality Issue
 
 Thank you both for the quick response and thorough investigation.
 
@@ -126,5 +126,5 @@ Actions implemented:
 
 Let's monitor for similar issues and ensure the warehouse improvements are effective.
 
-Alex Thompson  
+Alex Thompson
 Customer Service Manager

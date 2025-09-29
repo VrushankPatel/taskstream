@@ -1,91 +1,175 @@
 workflow:
-  id: "workflow_international_market_expansion_enterprise"
-  title: "International Market Expansion Enterprise Implementation"
-  department: "Global Expansion"
-  complexity: "complex"
-  participants: ["Market Research Team", "Strategy Team", "Risk Management Team", "Product and Marketing Teams", "Business Development Team", "Legal and Compliance Teams", "Operations and IT Teams", "HR and Training Teams", "Marketing and Sales Teams", "Finance and Analytics Teams", "Local Management Teams"]
-  trigger: "Strategic decision to expand into new international markets"
+  id: workflow_international_market_expansion_enterprise
+  title: International Market Expansion Enterprise Implementation
+  department: Global Expansion
+  complexity: complex
+  participants:
+  - Market Research Team
+  - Strategy Team
+  - Risk Management Team
+  - Product and Marketing Teams
+  - Business Development Team
+  - Legal and Compliance Teams
+  - Operations and IT Teams
+  - HR and Training Teams
+  - Marketing and Sales Teams
+  - Finance and Analytics Teams
+  - Local Management Teams
+  trigger: Strategic decision to expand into new international markets
   steps:
-    - step: 1
-      actor: "Market Research Team"
-      action: "Conduct comprehensive analysis of target markets including size, growth, competition, and regulatory environment"
-      tools: ["Market research databases", "Competitive analysis tools", "Regulatory databases"]
-      duration: "4 weeks"
-      outputs: ["Market analysis report", "Target market profiles"]
-    - step: 2
-      actor: "Strategy Team"
-      action: "Develop market entry strategy including timing, positioning, and resource requirements"
-      decision_points: ["Entry mode selection", "Market prioritization", "Resource allocation"]
-      duration: "3 weeks"
-      outputs: ["Market entry strategy document", "Resource requirements plan"]
-    - step: 3
-      actor: "Risk Management Team"
-      action: "Evaluate political, economic, legal, and cultural risks for each target market"
-      tools: ["Risk assessment frameworks", "Political risk databases", "Economic indicators"]
-      duration: "2 weeks"
-      outputs: ["Risk assessment report", "Risk mitigation strategies"]
-    - step: 4
-      actor: "Product and Marketing Teams"
-      action: "Develop localization strategy for products, marketing, and operations"
-      tools: ["Localization tools", "Cultural adaptation frameworks", "Marketing research"]
-      duration: "6 weeks"
-      outputs: ["Localization strategy", "Product adaptation plans"]
-    - step: 5
-      actor: "Business Development Team"
-      action: "Identify and evaluate potential local partners, distributors, and suppliers"
-      tools: ["Partner databases", "Due diligence tools", "Contract templates"]
-      duration: "4 weeks"
-      outputs: ["Partner evaluation reports", "Partnership agreements"]
-    - step: 6
-      actor: "Legal and Compliance Teams"
-      action: "Obtain necessary licenses, certifications, and establish compliance frameworks"
-      tools: ["Regulatory filing systems", "Compliance management software", "Legal databases"]
-      duration: "8 weeks"
-      outputs: ["Regulatory approvals", "Compliance frameworks"]
-    - step: 7
-      actor: "Operations and IT Teams"
-      action: "Establish local offices, warehouses, and operational infrastructure"
-      tools: ["Project management software", "Infrastructure planning tools", "IT setup checklists"]
-      duration: "12 weeks"
-      outputs: ["Local infrastructure setup", "Operational readiness reports"]
-    - step: 8
-      actor: "HR and Training Teams"
-      action: "Hire and train local teams with cultural adaptation programs"
-      tools: ["Recruitment platforms", "Training management systems", "Cultural training programs"]
-      duration: "8 weeks"
-      outputs: ["Local team hiring reports", "Training completion records"]
-    - step: 9
-      actor: "Marketing and Sales Teams"
-      action: "Launch products/services with integrated marketing and sales campaigns"
-      tools: ["Marketing automation platforms", "Sales enablement tools", "Campaign management systems"]
-      duration: "6 weeks"
-      outputs: ["Go-to-market execution reports", "Initial sales results"]
-    - step: 10
-      actor: "IT and Operations Teams"
-      action: "Integrate local operations with global ERP, CRM, and supply chain systems"
-      tools: ["System integration platforms", "Data migration tools", "Testing frameworks"]
-      duration: "10 weeks"
-      outputs: ["System integration reports", "Global connectivity established"]
-    - step: 11
-      actor: "Finance and Analytics Teams"
-      action: "Establish KPIs and monitoring systems for market performance"
-      tools: ["Analytics platforms", "KPI dashboards", "Performance monitoring systems"]
-      duration: "4 weeks"
-      outputs: ["KPI frameworks", "Performance monitoring setup"]
-    - step: 12
-      actor: "Local Management Teams"
-      action: "Implement feedback loops and optimization initiatives based on market performance"
-      tools: ["Feedback systems", "Optimization frameworks", "Continuous improvement tools"]
-      duration: "Ongoing"
-      outputs: ["Performance optimization reports", "Market expansion learnings"]
-  success_criteria: "Successful market entry within planned timeline and budget, achievement of 70% of projected market share within 18 months, positive local stakeholder engagement and brand perception, integrated operations with global standards compliance, sustainable profitability within 24 months"
-  failure_modes: ["Regulatory changes impacting market entry", "Cultural misalignment causing operational issues", "Currency fluctuations affecting profitability", "Supply chain disruptions in new markets", "Partner relationship failures", "Local talent acquisition challenges"]
+  - step: 1
+    actor: Market Research Team
+    action: Conduct comprehensive analysis of target markets including size, growth,
+      competition, and regulatory environment
+    tools:
+    - Market research databases
+    - Competitive analysis tools
+    - Regulatory databases
+    duration: 4 weeks
+    outputs:
+    - Market analysis report
+    - Target market profiles
+  - step: 2
+    actor: Strategy Team
+    action: Develop market entry strategy including timing, positioning, and resource
+      requirements
+    decision_points:
+    - Entry mode selection
+    - Market prioritization
+    - Resource allocation
+    duration: 3 weeks
+    outputs:
+    - Market entry strategy document
+    - Resource requirements plan
+  - step: 3
+    actor: Risk Management Team
+    action: Evaluate political, economic, legal, and cultural risks for each target
+      market
+    tools:
+    - Risk assessment frameworks
+    - Political risk databases
+    - Economic indicators
+    duration: 2 weeks
+    outputs:
+    - Risk assessment report
+    - Risk mitigation strategies
+  - step: 4
+    actor: Product and Marketing Teams
+    action: Develop localization strategy for products, marketing, and operations
+    tools:
+    - Localization tools
+    - Cultural adaptation frameworks
+    - Marketing research
+    duration: 6 weeks
+    outputs:
+    - Localization strategy
+    - Product adaptation plans
+  - step: 5
+    actor: Business Development Team
+    action: Identify and evaluate potential local partners, distributors, and suppliers
+    tools:
+    - Partner databases
+    - Due diligence tools
+    - Contract templates
+    duration: 4 weeks
+    outputs:
+    - Partner evaluation reports
+    - Partnership agreements
+  - step: 6
+    actor: Legal and Compliance Teams
+    action: Obtain necessary licenses, certifications, and establish compliance frameworks
+    tools:
+    - Regulatory filing systems
+    - Compliance management software
+    - Legal databases
+    duration: 8 weeks
+    outputs:
+    - Regulatory approvals
+    - Compliance frameworks
+  - step: 7
+    actor: Operations and IT Teams
+    action: Establish local offices, warehouses, and operational infrastructure
+    tools:
+    - Project management software
+    - Infrastructure planning tools
+    - IT setup checklists
+    duration: 12 weeks
+    outputs:
+    - Local infrastructure setup
+    - Operational readiness reports
+  - step: 8
+    actor: HR and Training Teams
+    action: Hire and train local teams with cultural adaptation programs
+    tools:
+    - Recruitment platforms
+    - Training management systems
+    - Cultural training programs
+    duration: 8 weeks
+    outputs:
+    - Local team hiring reports
+    - Training completion records
+  - step: 9
+    actor: Marketing and Sales Teams
+    action: Launch products/services with integrated marketing and sales campaigns
+    tools:
+    - Marketing automation platforms
+    - Sales enablement tools
+    - Campaign management systems
+    duration: 6 weeks
+    outputs:
+    - Go-to-market execution reports
+    - Initial sales results
+  - step: 10
+    actor: IT and Operations Teams
+    action: Integrate local operations with global ERP, CRM, and supply chain systems
+    tools:
+    - System integration platforms
+    - Data migration tools
+    - Testing frameworks
+    duration: 10 weeks
+    outputs:
+    - System integration reports
+    - Global connectivity established
+  - step: 11
+    actor: Finance and Analytics Teams
+    action: Establish KPIs and monitoring systems for market performance
+    tools:
+    - Analytics platforms
+    - KPI dashboards
+    - Performance monitoring systems
+    duration: 4 weeks
+    outputs:
+    - KPI frameworks
+    - Performance monitoring setup
+  - step: 12
+    actor: Local Management Teams
+    action: Implement feedback loops and optimization initiatives based on market
+      performance
+    tools:
+    - Feedback systems
+    - Optimization frameworks
+    - Continuous improvement tools
+    duration: Ongoing
+    outputs:
+    - Performance optimization reports
+    - Market expansion learnings
+  success_criteria: Successful market entry within planned timeline and budget, achievement
+    of 70% of projected market share within 18 months, positive local stakeholder
+    engagement and brand perception, integrated operations with global standards compliance,
+    sustainable profitability within 24 months
+  failure_modes:
+  - Regulatory changes impacting market entry
+  - Cultural misalignment causing operational issues
+  - Currency fluctuations affecting profitability
+  - Supply chain disruptions in new markets
+  - Partner relationship failures
+  - Local talent acquisition challenges
   metrics:
-    - "Market entry timeline adherence: Target 100%"
-    - "Budget variance: Target <10%"
-    - "Market share achievement: Target 70% within 18 months"
-    - "Local stakeholder satisfaction: Target >4.0/5"
-    - "Global integration completeness: Target 95%"
-    - "Time to profitability: Target <24 months"
-    - "Cultural adaptation success: Target >85%"
-    - "Expansion ROI: Target >20% annually"
+  - 'Market entry timeline adherence: Target 100%'
+  - 'Budget variance: Target <10%'
+  - 'Market share achievement: Target 70% within 18 months'
+  - 'Local stakeholder satisfaction: Target >4.0/5'
+  - 'Global integration completeness: Target 95%'
+  - 'Time to profitability: Target <24 months'
+  - 'Cultural adaptation success: Target >85%'
+  - 'Expansion ROI: Target >20% annually'

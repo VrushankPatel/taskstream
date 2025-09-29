@@ -1,8 +1,8 @@
 ## Email Thread: Insurance Policy Renewal Process Update
 
-**From:** Underwriting Director  
-**To:** Sales Team, Customer Service Managers  
-**Subject:** Q1 Policy Renewal Campaign - Process Improvements  
+**From:** Underwriting Director
+**To:** Sales Team, Customer Service Managers
+**Subject:** Q1 Policy Renewal Campaign - Process Improvements
 
 Team,
 
@@ -20,17 +20,17 @@ Please review the updated renewal scripts and ensure your teams are trained on t
 
 Let me know if you need additional resources.
 
-Best,  
-Robert Martinez  
-Underwriting Director  
-SecureLife Insurance  
-robert.martinez@securelife.com  
+Best,
+Robert Martinez
+Underwriting Director
+SecureLife Insurance
+robert.martinez@securelife.com
 
 ---
 
-**From:** Sales Manager  
-**To:** Underwriting Director, Sales Team  
-**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements  
+**From:** Sales Manager
+**To:** Underwriting Director, Sales Team
+**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements
 
 Robert,
 
@@ -38,15 +38,15 @@ These improvements look great. Can we get some training sessions scheduled for n
 
 The automated quotes will really help with our outreach efforts.
 
-Thanks,  
-Lisa Thompson  
-Sales Manager  
+Thanks,
+Lisa Thompson
+Sales Manager
 
 ---
 
-**From:** Underwriting Director  
-**To:** Sales Manager, Sales Team, Customer Service Managers  
-**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements  
+**From:** Underwriting Director
+**To:** Sales Manager, Sales Team, Customer Service Managers
+**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements
 
 Lisa,
 
@@ -58,14 +58,14 @@ We're also implementing a dashboard to track renewal progress in real-time.
 
 Let me know if there are other tools you need.
 
-Best,  
-Robert  
+Best,
+Robert
 
 ---
 
-**From:** Customer Service Manager  
-**To:** Underwriting Director, Sales Manager  
-**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements  
+**From:** Customer Service Manager
+**To:** Underwriting Director, Sales Manager
+**Subject:** Re: Q1 Policy Renewal Campaign - Process Improvements
 
 Robert, Lisa,
 
@@ -75,6 +75,6 @@ One question: How do we handle customers who want to switch coverage types durin
 
 Also, can we get access to the renewal dashboard for our team?
 
-Thanks,  
-David Kim  
+Thanks,
+David Kim
 Customer Service Manager

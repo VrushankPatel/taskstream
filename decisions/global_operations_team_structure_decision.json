@@ -3,8 +3,15 @@
   "context": "Global technology company, 3000 employees across 15 countries, restructuring operations for international expansion",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Regional Directors", "HR Director", "Finance Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Regional Directors",
+      "HR Director",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$5,000,000",
@@ -16,25 +23,41 @@
     {
       "stage": "current_state_analysis",
       "duration": "3 weeks",
-      "activities": ["Operations audit", "Performance metrics review", "Stakeholder interviews"],
+      "activities": [
+        "Operations audit",
+        "Performance metrics review",
+        "Stakeholder interviews"
+      ],
       "outcome": "Identified inefficiencies in global coordination and resource allocation"
     },
     {
       "stage": "structure_design",
       "duration": "4 weeks",
-      "activities": ["Organizational design", "Role definition", "Reporting structure planning"],
+      "activities": [
+        "Organizational design",
+        "Role definition",
+        "Reporting structure planning"
+      ],
       "outcome": "New matrix structure designed balancing global and local needs"
     },
     {
       "stage": "implementation_planning",
       "duration": "2 weeks",
-      "activities": ["Transition planning", "Change management strategy", "Training program development"],
+      "activities": [
+        "Transition planning",
+        "Change management strategy",
+        "Training program development"
+      ],
       "outcome": "Comprehensive implementation plan with timeline and milestones"
     },
     {
       "stage": "executive_approval",
       "duration": "1 week",
-      "activities": ["Board presentation", "Financial impact review", "Risk assessment"],
+      "activities": [
+        "Board presentation",
+        "Financial impact review",
+        "Risk assessment"
+      ],
       "outcome": "Restructuring approved with $5M implementation budget"
     }
   ],
@@ -42,6 +65,11 @@
     "efficiency_gains": "20% improvement in cross-border project delivery",
     "cost_savings": "$3M annual savings through optimized resource allocation",
     "employee_impact": "Enhanced career development opportunities and clearer responsibilities",
-    "risk_factors": ["Change resistance", "Cultural integration challenges", "Initial productivity dip", "Talent retention concerns"]
+    "risk_factors": [
+      "Change resistance",
+      "Cultural integration challenges",
+      "Initial productivity dip",
+      "Talent retention concerns"
+    ]
   }
 }

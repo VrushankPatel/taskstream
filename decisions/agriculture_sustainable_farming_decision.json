@@ -3,8 +3,15 @@
   "context": "Large-scale farming operation, 10,000 acres across Midwest, planning sustainable transition",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Sustainability Director", "Finance Director", "External Consultants"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Sustainability Director",
+      "Finance Director",
+      "External Consultants"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -16,25 +23,41 @@
     {
       "stage": "feasibility_assessment",
       "duration": "8 weeks",
-      "activities": ["Soil health analysis", "Economic impact modeling", "Technology evaluation"],
+      "activities": [
+        "Soil health analysis",
+        "Economic impact modeling",
+        "Technology evaluation"
+      ],
       "outcome": "Proceed with pilot program on 1,000 acres"
     },
     {
       "stage": "pilot_implementation",
       "duration": "6 months",
-      "activities": ["Equipment procurement", "Farmer training", "Yield monitoring"],
+      "activities": [
+        "Equipment procurement",
+        "Farmer training",
+        "Yield monitoring"
+      ],
       "outcome": "Successful pilot with 15% yield improvement"
     },
     {
       "stage": "full_scale_rollout",
       "duration": "12 months",
-      "activities": ["Infrastructure upgrades", "Supply chain integration", "Certification process"],
+      "activities": [
+        "Infrastructure upgrades",
+        "Supply chain integration",
+        "Certification process"
+      ],
       "outcome": "Approved full implementation with phased approach"
     }
   ],
   "business_impact": {
     "expected_revenue": "$12,000,000 additional premium pricing",
     "projected_roi": "22% over 7 years",
-    "risk_factors": ["Initial yield reduction", "Equipment learning curve", "Certification costs"]
+    "risk_factors": [
+      "Initial yield reduction",
+      "Equipment learning curve",
+      "Certification costs"
+    ]
   }
 }

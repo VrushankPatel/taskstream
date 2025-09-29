@@ -3,8 +3,16 @@
   "context": "Commercial real estate company (800 employees) managing 50 properties seeking to improve operational efficiency and tenant satisfaction",
   "stakeholders": {
     "requester": "VP of Operations",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Property Managers", "Facility Engineers", "Tenant Representatives"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Property Managers",
+      "Facility Engineers",
+      "Tenant Representatives"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,25 +24,41 @@
     {
       "stage": "feasibility_study",
       "duration": "6 weeks",
-      "activities": ["Energy audit across properties", "Technology assessment", "ROI modeling"],
+      "activities": [
+        "Energy audit across properties",
+        "Technology assessment",
+        "ROI modeling"
+      ],
       "outcome": "Identified 25% energy savings potential and tenant experience improvements"
     },
     {
       "stage": "vendor_selection",
       "duration": "8 weeks",
-      "activities": ["RFI/RFP process", "Site demonstrations", "Reference checks"],
+      "activities": [
+        "RFI/RFP process",
+        "Site demonstrations",
+        "Reference checks"
+      ],
       "outcome": "Johnson Controls selected for HVAC and lighting automation over Siemens and Honeywell"
     },
     {
       "stage": "pilot_implementation",
       "duration": "12 weeks",
-      "activities": ["3-building pilot", "Performance monitoring", "Tenant feedback collection"],
+      "activities": [
+        "3-building pilot",
+        "Performance monitoring",
+        "Tenant feedback collection"
+      ],
       "outcome": "Pilot achieved 28% energy reduction with positive tenant response"
     }
   ],
   "business_impact": {
     "expected_benefits": "22% reduction in operating costs, improved tenant retention, enhanced property values",
     "projected_roi": "35% annual return on investment",
-    "risk_factors": ["Installation disruption to tenants", "Technology obsolescence", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Installation disruption to tenants",
+      "Technology obsolescence",
+      "Cybersecurity vulnerabilities"
+    ]
   }
 }

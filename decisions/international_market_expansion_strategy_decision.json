@@ -3,8 +3,16 @@
   "context": "Growing SaaS company, 500 employees, planning expansion into European and Asian markets",
   "stakeholders": {
     "requester": "Chief Executive Officer",
-    "approvers": ["Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Operating Officer", "VP Sales", "VP Marketing", "Legal Counsel"]
+    "approvers": [
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Operating Officer",
+      "VP Sales",
+      "VP Marketing",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$12M",
@@ -16,25 +24,41 @@
     {
       "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["Market research", "Competitive analysis", "Regulatory assessment"],
+      "activities": [
+        "Market research",
+        "Competitive analysis",
+        "Regulatory assessment"
+      ],
       "outcome": "Europe and Asia identified as high-potential markets"
     },
     {
       "stage": "entry_strategy",
       "duration": "4 weeks",
-      "activities": ["Entry mode evaluation", "Partnership identification", "Resource planning"],
+      "activities": [
+        "Entry mode evaluation",
+        "Partnership identification",
+        "Resource planning"
+      ],
       "outcome": "Hybrid entry strategy selected combining direct and partner approaches"
     },
     {
       "stage": "financial_modeling",
       "duration": "3 weeks",
-      "activities": ["Revenue projections", "Cost analysis", "ROI calculations"],
+      "activities": [
+        "Revenue projections",
+        "Cost analysis",
+        "ROI calculations"
+      ],
       "outcome": "Financial projections showing 3-year payback period"
     },
     {
       "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Timeline development", "Team structure design", "Risk mitigation planning"],
+      "activities": [
+        "Timeline development",
+        "Team structure design",
+        "Risk mitigation planning"
+      ],
       "outcome": "Comprehensive implementation plan approved with $12M budget"
     }
   ],
@@ -42,6 +66,10 @@
     "revenue_growth": "40% international revenue target",
     "market_diversification": "Reduced dependency on domestic market",
     "strategic_value": "Access to high-growth international markets",
-    "risk_factors": ["Regulatory complexity", "Cultural adaptation challenges", "Currency risks"]
+    "risk_factors": [
+      "Regulatory complexity",
+      "Cultural adaptation challenges",
+      "Currency risks"
+    ]
   }
 }

@@ -191,6 +191,6 @@ The company is committed to conducting construction activities in an environment
 - Waste Management Procedures
 - Environmental Impact Assessment Guidelines
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Environmental Officer*

@@ -3,9 +3,23 @@
   "context": "Large manufacturing company implementing collaborative robotics across 5 production facilities, requiring workforce transition planning",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "Chief Human Resources Officer", "Board Manufacturing Committee"],
-    "influencers": ["Union Leadership", "Facility Managers", "Technology Integration Team", "Financial Planning"],
-    "affected_parties": ["Current workforce (2,500 employees)", "Local communities", "Customers", "Suppliers"]
+    "approvers": [
+      "CEO",
+      "Chief Human Resources Officer",
+      "Board Manufacturing Committee"
+    ],
+    "influencers": [
+      "Union Leadership",
+      "Facility Managers",
+      "Technology Integration Team",
+      "Financial Planning"
+    ],
+    "affected_parties": [
+      "Current workforce (2,500 employees)",
+      "Local communities",
+      "Customers",
+      "Suppliers"
+    ]
   },
   "request": {
     "amount": "$45 million",
@@ -17,35 +31,61 @@
     {
       "stage": "workforce_impact_assessment",
       "duration": "8 weeks",
-      "activities": ["Skills gap analysis", "Job role mapping", "Union consultation meetings"],
+      "activities": [
+        "Skills gap analysis",
+        "Job role mapping",
+        "Union consultation meetings"
+      ],
       "outcome": "Identified 800 roles requiring transition, 300 potentially redundant"
     },
     {
       "stage": "technology_integration_review",
       "duration": "6 weeks",
-      "activities": ["ROI modeling", "Implementation timeline planning", "Risk assessment"],
+      "activities": [
+        "ROI modeling",
+        "Implementation timeline planning",
+        "Risk assessment"
+      ],
       "outcome": "3-year implementation plan with 25% productivity improvement projected"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "10 weeks",
-      "activities": ["Union negotiations", "Employee town halls", "Community impact studies"],
+      "activities": [
+        "Union negotiations",
+        "Employee town halls",
+        "Community impact studies"
+      ],
       "outcome": "Memorandum of understanding with union on transition terms"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Executive committee review", "Board presentation", "Final authorization"],
+      "activities": [
+        "Executive committee review",
+        "Board presentation",
+        "Final authorization"
+      ],
       "outcome": "Approved with enhanced support programs"
     }
   ],
   "business_impact": {
     "expected_cost_savings": "$120 million annually",
     "projected_productivity_gain": "35% improvement",
-    "risk_factors": ["Workforce resistance", "Skills gap challenges", "Union disputes", "Implementation delays"],
+    "risk_factors": [
+      "Workforce resistance",
+      "Skills gap challenges",
+      "Union disputes",
+      "Implementation delays"
+    ],
     "strategic_alignment": "Enables Industry 4.0 transformation and long-term competitiveness"
   },
   "decision_outcome": "Approved",
   "implementation_timeline": "Phase 1 deployment in 6 months",
-  "monitoring_metrics": ["Employee retention rates", "Retraining completion rates", "Productivity metrics", "Union satisfaction scores"]
+  "monitoring_metrics": [
+    "Employee retention rates",
+    "Retraining completion rates",
+    "Productivity metrics",
+    "Union satisfaction scores"
+  ]
 }

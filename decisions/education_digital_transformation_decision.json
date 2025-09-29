@@ -3,8 +3,15 @@
   "context": "State university system, 50,000 students, implementing campus-wide digital learning platform",
   "stakeholders": {
     "requester": "Provost",
-    "approvers": ["President", "Board of Trustees"],
-    "influencers": ["Department Chairs", "IT Director", "Student Government"]
+    "approvers": [
+      "President",
+      "Board of Trustees"
+    ],
+    "influencers": [
+      "Department Chairs",
+      "IT Director",
+      "Student Government"
+    ]
   },
   "request": {
     "amount": "$25M",
@@ -16,22 +23,46 @@
     {
       "stage": "needs_assessment",
       "duration": "8 weeks",
-      "activities": ["Student surveys", "Faculty focus groups", "Technology audit", "Competitive analysis"],
+      "activities": [
+        "Student surveys",
+        "Faculty focus groups",
+        "Technology audit",
+        "Competitive analysis"
+      ],
       "outcome": "Identified hybrid learning as preferred model with 70% student support"
     },
     {
       "stage": "solution_evaluation",
       "duration": "12 weeks",
-      "activities": ["Platform demonstrations", "Pilot testing", "Cost-benefit analysis", "Change management planning"],
+      "activities": [
+        "Platform demonstrations",
+        "Pilot testing",
+        "Cost-benefit analysis",
+        "Change management planning"
+      ],
       "outcome": "Selected comprehensive platform with 5-year implementation plan"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["30% increase in enrollment", "25% improvement in retention", "Enhanced learning outcomes"],
+    "expected_benefits": [
+      "30% increase in enrollment",
+      "25% improvement in retention",
+      "Enhanced learning outcomes"
+    ],
     "projected_roi": "220%",
-    "risk_factors": ["Faculty adoption resistance", "Technical integration challenges", "Student digital literacy gaps"]
+    "risk_factors": [
+      "Faculty adoption resistance",
+      "Technical integration challenges",
+      "Student digital literacy gaps"
+    ]
   },
-  "decision_criteria": ["Student demand validation through surveys", "Faculty readiness assessment", "Technology infrastructure evaluation", "Budget alignment with strategic priorities", "Competitive positioning in higher education market"],
+  "decision_criteria": [
+    "Student demand validation through surveys",
+    "Faculty readiness assessment",
+    "Technology infrastructure evaluation",
+    "Budget alignment with strategic priorities",
+    "Competitive positioning in higher education market"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive change management essential for faculty adoption, phased implementation reduces resistance and improves success rates"
 }

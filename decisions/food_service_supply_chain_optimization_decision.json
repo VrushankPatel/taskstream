@@ -3,8 +3,15 @@
   "context": "Multi-state restaurant chain experiencing supply chain disruptions and rising food costs impacting profitability",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["Chief Operating Officer", "Chief Financial Officer"],
-    "influencers": ["Regional Operations Managers", "Procurement Team", "Quality Assurance Director"]
+    "approvers": [
+      "Chief Operating Officer",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Regional Operations Managers",
+      "Procurement Team",
+      "Quality Assurance Director"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,32 +23,56 @@
     {
       "stage": "problem_analysis",
       "duration": "2 weeks",
-      "activities": ["Current supply chain assessment", "Cost analysis of disruptions", "Supplier performance evaluation"],
+      "activities": [
+        "Current supply chain assessment",
+        "Cost analysis of disruptions",
+        "Supplier performance evaluation"
+      ],
       "outcome": "Critical need for supply chain optimization identified"
     },
     {
       "stage": "solution_evaluation",
       "duration": "4 weeks",
-      "activities": ["Technology platform assessment", "Vendor capability review", "Integration requirements analysis"],
+      "activities": [
+        "Technology platform assessment",
+        "Vendor capability review",
+        "Integration requirements analysis"
+      ],
       "outcome": "AI-powered platform selected"
     },
     {
       "stage": "pilot_planning",
       "duration": "3 weeks",
-      "activities": ["Pilot location selection", "Implementation timeline development", "Success metrics definition"],
+      "activities": [
+        "Pilot location selection",
+        "Implementation timeline development",
+        "Success metrics definition"
+      ],
       "outcome": "Pilot program designed for 10 locations"
     },
     {
       "stage": "investment_approval",
       "duration": "2 weeks",
-      "activities": ["Financial impact modeling", "ROI projections", "Executive approval"],
+      "activities": [
+        "Financial impact modeling",
+        "ROI projections",
+        "Executive approval"
+      ],
       "outcome": "Approved with $5M initial investment"
     }
   ],
   "business_impact": {
     "expected_cost_savings": "$3,000,000",
     "projected_inventory_turnover": "+20%",
-    "risk_factors": ["Technology integration challenges", "Supplier relationship changes", "Staff training requirements"],
-    "strategic_benefits": ["Improved operational efficiency", "Reduced food waste", "Enhanced competitive positioning"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Supplier relationship changes",
+      "Staff training requirements"
+    ],
+    "strategic_benefits": [
+      "Improved operational efficiency",
+      "Reduced food waste",
+      "Enhanced competitive positioning"
+    ]
   }
 }

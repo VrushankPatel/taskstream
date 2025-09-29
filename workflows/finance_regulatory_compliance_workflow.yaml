@@ -1,34 +1,48 @@
 workflow:
-  id: "workflow_finance_regulatory_compliance"
-  title: "Financial Regulatory Compliance Monitoring"
-  department: "Compliance"
-  complexity: "simple"
-  participants: ["Compliance Officer", "Legal Counsel", "Operations Manager"]
-  trigger: "Monthly regulatory reporting deadline"
+  id: workflow_finance_regulatory_compliance
+  title: Financial Regulatory Compliance Monitoring
+  department: Compliance
+  complexity: simple
+  participants:
+  - Compliance Officer
+  - Legal Counsel
+  - Operations Manager
+  trigger: Monthly regulatory reporting deadline
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Gather transaction data and prepare reports"
-      tools: ["Compliance software", "Financial databases"]
-      duration: "4 hours"
-      outputs: ["Draft reports"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Review reports for accuracy and regulatory compliance"
-      tools: ["Legal database", "Regulatory guidelines"]
-      duration: "2 hours"
-      outputs: ["Reviewed reports"]
-    - step: 3
-      actor: "Operations Manager"
-      action: "Approve and submit reports to regulatory authorities"
-      tools: ["Submission portal"]
-      duration: "1 hour"
-      outputs: ["Submission confirmation"]
-  success_criteria: "All reports submitted on time with 100% accuracy"
-  failure_modes: ["Data collection errors", "Regulatory changes", "System outages"]
+  - step: 1
+    actor: Compliance Officer
+    action: Gather transaction data and prepare reports
+    tools:
+    - Compliance software
+    - Financial databases
+    duration: 4 hours
+    outputs:
+    - Draft reports
+  - step: 2
+    actor: Legal Counsel
+    action: Review reports for accuracy and regulatory compliance
+    tools:
+    - Legal database
+    - Regulatory guidelines
+    duration: 2 hours
+    outputs:
+    - Reviewed reports
+  - step: 3
+    actor: Operations Manager
+    action: Approve and submit reports to regulatory authorities
+    tools:
+    - Submission portal
+    duration: 1 hour
+    outputs:
+    - Submission confirmation
+  success_criteria: All reports submitted on time with 100% accuracy
+  failure_modes:
+  - Data collection errors
+  - Regulatory changes
+  - System outages
   metrics:
-    - "On-time submission rate: 100%"
-    - "Error rate: <1%"
-    - "Audit findings: 0"
-    - "Compliance cost as % of revenue: <0.5%"
-    - "Regulatory fine incidents: 0"
+  - 'On-time submission rate: 100%'
+  - 'Error rate: <1%'
+  - 'Audit findings: 0'
+  - 'Compliance cost as % of revenue: <0.5%'
+  - 'Regulatory fine incidents: 0'

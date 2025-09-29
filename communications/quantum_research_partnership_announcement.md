@@ -1,10 +1,10 @@
 # Quantum Computing Research Partnership Announcement
 
-**From:** Chief Technology Officer  
-**To:** All Employees, Research Teams, Executive Leadership  
-**Subject:** Strategic Partnership with Leading Quantum Research Institute for Algorithm Development  
+**From:** Chief Technology Officer
+**To:** All Employees, Research Teams, Executive Leadership
+**Subject:** Strategic Partnership with Leading Quantum Research Institute for Algorithm Development
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -79,6 +79,6 @@ For more information about the partnership or career opportunities, please conta
 
 This partnership represents our commitment to pioneering quantum technologies that will transform industries and create new possibilities for innovation. We look forward to the breakthroughs this collaboration will enable.
 
-Best regards,  
-[Chief Technology Officer Name]  
+Best regards,
+[Chief Technology Officer Name]
 Chief Technology Officer

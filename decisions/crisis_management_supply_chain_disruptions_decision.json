@@ -3,8 +3,17 @@
   "context": "Global manufacturing company facing critical supply chain disruption due to natural disaster and geopolitical tensions affecting key suppliers",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
-    "influencers": ["Procurement Director", "Operations Managers", "Risk Management Team", "Key Suppliers"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Procurement Director",
+      "Operations Managers",
+      "Risk Management Team",
+      "Key Suppliers"
+    ]
   },
   "request": {
     "amount": "$25M",
@@ -16,34 +25,66 @@
     {
       "stage": "impact_assessment",
       "duration": "24 hours",
-      "activities": ["Supply chain mapping", "Impact quantification", "Risk scenario modeling", "Contingency planning"],
+      "activities": [
+        "Supply chain mapping",
+        "Impact quantification",
+        "Risk scenario modeling",
+        "Contingency planning"
+      ],
       "outcome": "Identified critical vulnerabilities affecting 40% of supply chain"
     },
     {
       "stage": "solution_development",
       "duration": "3 days",
-      "activities": ["Supplier diversification analysis", "Alternative sourcing evaluation", "Inventory buffer strategies", "Technology solution assessment"],
+      "activities": [
+        "Supplier diversification analysis",
+        "Alternative sourcing evaluation",
+        "Inventory buffer strategies",
+        "Technology solution assessment"
+      ],
       "outcome": "Developed comprehensive diversification and resilience strategy"
     },
     {
       "stage": "stakeholder_consultation",
       "duration": "2 days",
-      "activities": ["Supplier negotiations", "Internal stakeholder alignment", "Regulatory consultations", "Financial impact modeling"],
+      "activities": [
+        "Supplier negotiations",
+        "Internal stakeholder alignment",
+        "Regulatory consultations",
+        "Financial impact modeling"
+      ],
       "outcome": "Secured commitments from alternative suppliers and internal alignment"
     },
     {
       "stage": "executive_decision",
       "duration": "1 day",
-      "activities": ["Executive crisis committee meeting", "Final strategy approval", "Resource allocation", "Implementation timeline"],
+      "activities": [
+        "Executive crisis committee meeting",
+        "Final strategy approval",
+        "Resource allocation",
+        "Implementation timeline"
+      ],
       "outcome": "Approved with accelerated implementation plan"
     }
   ],
   "business_impact": {
     "expected_outcome": "Restore 90% of production capacity within 30 days, reduce future disruption risk by 60%, establish diversified supply base",
     "projected_value": "$300M in protected revenue and $50M in cost savings from improved efficiency",
-    "risk_factors": ["Supplier capacity constraints", "Quality control challenges", "Cost inflation", "Integration complexity", "Geopolitical uncertainty"]
+    "risk_factors": [
+      "Supplier capacity constraints",
+      "Quality control challenges",
+      "Cost inflation",
+      "Integration complexity",
+      "Geopolitical uncertainty"
+    ]
   },
-  "decision_criteria": ["Production capacity restoration speed", "Financial impact mitigation", "Long-term risk reduction", "Implementation feasibility", "Supplier relationship management"],
+  "decision_criteria": [
+    "Production capacity restoration speed",
+    "Financial impact mitigation",
+    "Long-term risk reduction",
+    "Implementation feasibility",
+    "Supplier relationship management"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pre-established supplier diversification critical for crisis resilience, technology platforms accelerate response times, regular risk assessments prevent crisis escalation"
 }

@@ -1,8 +1,8 @@
 # AI Diagnostics Implementation Kickoff Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
 **Attendees:** Dr. Sarah Chen (Chief of Radiology), Dr. Michael Torres (AI Ethics Lead), Lisa Wong (IT Director), James Park (Data Privacy Officer), Dr. Emily Rodriguez (Staff Radiologist)
 
 ## Agenda

@@ -1,46 +1,72 @@
 workflow:
-  id: "workflow_telemedicine_scalability"
-  title: "Telemedicine Service Scalability Process"
-  department: "Healthcare Operations"
-  complexity: "high"
-  participants: ["Chief Medical Officer", "IT Director", "Patient Services Manager", "Compliance Officer", "Billing Coordinator"]
-  trigger: "Patient volume exceeds 200% of baseline capacity"
+  id: workflow_telemedicine_scalability
+  title: Telemedicine Service Scalability Process
+  department: Healthcare Operations
+  complexity: high
+  participants:
+  - Chief Medical Officer
+  - IT Director
+  - Patient Services Manager
+  - Compliance Officer
+  - Billing Coordinator
+  trigger: Patient volume exceeds 200% of baseline capacity
   steps:
-    - step: 1
-      actor: "Patient Services Manager"
-      action: "Monitor patient intake metrics and identify capacity constraints"
-      tools: ["Patient management system", "Telemedicine platform analytics"]
-      duration: "Daily monitoring"
-      outputs: ["Capacity utilization report"]
-    - step: 2
-      actor: "IT Director"
-      action: "Assess infrastructure scalability and allocate additional server resources"
-      decision_points: ["Current utilization levels", "Budget availability"]
-      duration: "4 hours"
-      outputs: ["Infrastructure scaling plan"]
-    - step: 3
-      actor: "Chief Medical Officer"
-      action: "Review clinical protocols for virtual care expansion"
-      tools: ["Electronic health records", "Clinical guidelines database"]
-      duration: "2 days"
-      outputs: ["Updated clinical protocols"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Ensure HIPAA compliance for expanded telemedicine services"
-      tools: ["Compliance checklist", "Security audit tools"]
-      duration: "1 day"
-      outputs: ["Compliance certification"]
-    - step: 5
-      actor: "Billing Coordinator"
-      action: "Update billing codes and insurance verification processes"
-      tools: ["Billing software", "Insurance provider database"]
-      duration: "3 days"
-      outputs: ["Updated billing procedures"]
-    - step: 6
-      actor: "Patient Services Manager"
-      action: "Train additional staff on telemedicine protocols"
-      tools: ["Training modules", "Virtual care simulation software"]
-      duration: "1 week"
-      outputs: ["Staff training completion reports"]
-  success_criteria: "Patient wait times reduced by 50%, no compliance violations"
-  failure_modes: ["Infrastructure overload causing service outages", "Staff burnout from rapid scaling", "Insurance claim denials due to improper coding"]
+  - step: 1
+    actor: Patient Services Manager
+    action: Monitor patient intake metrics and identify capacity constraints
+    tools:
+    - Patient management system
+    - Telemedicine platform analytics
+    duration: Daily monitoring
+    outputs:
+    - Capacity utilization report
+  - step: 2
+    actor: IT Director
+    action: Assess infrastructure scalability and allocate additional server resources
+    decision_points:
+    - Current utilization levels
+    - Budget availability
+    duration: 4 hours
+    outputs:
+    - Infrastructure scaling plan
+  - step: 3
+    actor: Chief Medical Officer
+    action: Review clinical protocols for virtual care expansion
+    tools:
+    - Electronic health records
+    - Clinical guidelines database
+    duration: 2 days
+    outputs:
+    - Updated clinical protocols
+  - step: 4
+    actor: Compliance Officer
+    action: Ensure HIPAA compliance for expanded telemedicine services
+    tools:
+    - Compliance checklist
+    - Security audit tools
+    duration: 1 day
+    outputs:
+    - Compliance certification
+  - step: 5
+    actor: Billing Coordinator
+    action: Update billing codes and insurance verification processes
+    tools:
+    - Billing software
+    - Insurance provider database
+    duration: 3 days
+    outputs:
+    - Updated billing procedures
+  - step: 6
+    actor: Patient Services Manager
+    action: Train additional staff on telemedicine protocols
+    tools:
+    - Training modules
+    - Virtual care simulation software
+    duration: 1 week
+    outputs:
+    - Staff training completion reports
+  success_criteria: Patient wait times reduced by 50%, no compliance violations
+  failure_modes:
+  - Infrastructure overload causing service outages
+  - Staff burnout from rapid scaling
+  - Insurance claim denials due to improper coding

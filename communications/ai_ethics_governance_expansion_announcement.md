@@ -1,9 +1,9 @@
 # AI Ethics Governance Expansion Announcement
 
-**Date:** September 28, 2025  
-**From:** Chief Ethics Officer  
-**To:** All Employees  
-**Subject:** Expansion of AI Ethics Governance Framework  
+**Date:** September 28, 2025
+**From:** Chief Ethics Officer
+**To:** All Employees
+**Subject:** Expansion of AI Ethics Governance Framework
 
 Dear Team,
 
@@ -42,6 +42,6 @@ We believe this expanded framework will not only ensure compliance with evolving
 
 Please reach out to your local AI Ethics Officer if you have questions or need support.
 
-Best regards,  
-Dr. Sarah Chen  
+Best regards,
+Dr. Sarah Chen
 Chief Ethics Officer

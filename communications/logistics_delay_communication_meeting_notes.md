@@ -1,9 +1,9 @@
 ## Meeting Notes: Logistics Delay Crisis Management
 
-**Date:** September 28, 2024  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room A  
-**Attendees:** COO, Operations Director, Customer Service VP, Communications Manager, Legal Counsel  
+**Date:** September 28, 2024
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room A
+**Attendees:** COO, Operations Director, Customer Service VP, Communications Manager, Legal Counsel
 
 **Agenda:** Address nationwide delivery delays due to carrier strike and severe weather
 

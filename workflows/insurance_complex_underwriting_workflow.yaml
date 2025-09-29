@@ -1,63 +1,108 @@
 workflow:
-  id: "workflow_insurance_underwriting"
-  title: "Insurance Underwriting and Risk Assessment Process"
-  department: "Underwriting"
-  complexity: "complex"
-  participants: ["Underwriting Assistant", "Underwriter", "Senior Underwriter", "Risk Manager", "Legal Counsel", "Actuary"]
-  trigger: "New insurance application received"
+  id: workflow_insurance_underwriting
+  title: Insurance Underwriting and Risk Assessment Process
+  department: Underwriting
+  complexity: complex
+  participants:
+  - Underwriting Assistant
+  - Underwriter
+  - Senior Underwriter
+  - Risk Manager
+  - Legal Counsel
+  - Actuary
+  trigger: New insurance application received
   steps:
-    - step: 1
-      actor: "Underwriting Assistant"
-      action: "Review application completeness and gather initial documentation"
-      tools: ["Application portal", "Document management system"]
-      duration: "2 hours"
-      outputs: ["Application checklist", "Initial document package"]
-    - step: 2
-      actor: "Underwriting Assistant"
-      action: "Conduct preliminary risk assessment and data verification"
-      tools: ["Credit reports", "Public records database", "Fraud detection tools"]
-      duration: "4 hours"
-      outputs: ["Risk profile summary", "Verification reports"]
-    - step: 3
-      actor: "Underwriter"
-      action: "Perform detailed underwriting analysis and pricing"
-      tools: ["Underwriting guidelines", "Pricing models", "Historical data"]
-      duration: "8 hours"
-      outputs: ["Underwriting decision draft", "Pricing recommendation"]
-    - step: 4
-      actor: "Senior Underwriter"
-      action: "Review complex cases and approve standard applications"
-      tools: ["Peer review system", "Approval workflows"]
-      duration: "4 hours"
-      outputs: ["Approval/rejection decision", "Terms and conditions"]
-    - step: 5
-      actor: "Risk Manager"
-      action: "Assess portfolio impact for high-value policies"
-      tools: ["Portfolio analysis tools", "Risk modeling software"]
-      duration: "6 hours"
-      outputs: ["Portfolio impact assessment", "Risk mitigation recommendations"]
-    - step: 6
-      actor: "Legal Counsel"
-      action: "Review policy terms and regulatory compliance"
-      tools: ["Legal database", "Regulatory guidelines"]
-      duration: "4 hours"
-      outputs: ["Legal compliance review", "Policy amendments if needed"]
-    - step: 7
-      actor: "Actuary"
-      action: "Validate pricing models and reserve calculations"
-      tools: ["Actuarial software", "Statistical models"]
-      duration: "8 hours"
-      outputs: ["Pricing validation", "Reserve recommendations"]
-    - step: 8
-      actor: "Senior Underwriter"
-      action: "Finalize policy issuance and communicate decision"
-      tools: ["Policy issuance system", "Client communication templates"]
-      duration: "2 hours"
-      outputs: ["Policy documents", "Client notification"]
-  success_criteria: "Policy issued within 10 business days, loss ratio within acceptable range"
-  failure_modes: ["Incomplete documentation delays", "Adverse risk selection", "Regulatory non-compliance", "Pricing inaccuracies"]
+  - step: 1
+    actor: Underwriting Assistant
+    action: Review application completeness and gather initial documentation
+    tools:
+    - Application portal
+    - Document management system
+    duration: 2 hours
+    outputs:
+    - Application checklist
+    - Initial document package
+  - step: 2
+    actor: Underwriting Assistant
+    action: Conduct preliminary risk assessment and data verification
+    tools:
+    - Credit reports
+    - Public records database
+    - Fraud detection tools
+    duration: 4 hours
+    outputs:
+    - Risk profile summary
+    - Verification reports
+  - step: 3
+    actor: Underwriter
+    action: Perform detailed underwriting analysis and pricing
+    tools:
+    - Underwriting guidelines
+    - Pricing models
+    - Historical data
+    duration: 8 hours
+    outputs:
+    - Underwriting decision draft
+    - Pricing recommendation
+  - step: 4
+    actor: Senior Underwriter
+    action: Review complex cases and approve standard applications
+    tools:
+    - Peer review system
+    - Approval workflows
+    duration: 4 hours
+    outputs:
+    - Approval/rejection decision
+    - Terms and conditions
+  - step: 5
+    actor: Risk Manager
+    action: Assess portfolio impact for high-value policies
+    tools:
+    - Portfolio analysis tools
+    - Risk modeling software
+    duration: 6 hours
+    outputs:
+    - Portfolio impact assessment
+    - Risk mitigation recommendations
+  - step: 6
+    actor: Legal Counsel
+    action: Review policy terms and regulatory compliance
+    tools:
+    - Legal database
+    - Regulatory guidelines
+    duration: 4 hours
+    outputs:
+    - Legal compliance review
+    - Policy amendments if needed
+  - step: 7
+    actor: Actuary
+    action: Validate pricing models and reserve calculations
+    tools:
+    - Actuarial software
+    - Statistical models
+    duration: 8 hours
+    outputs:
+    - Pricing validation
+    - Reserve recommendations
+  - step: 8
+    actor: Senior Underwriter
+    action: Finalize policy issuance and communicate decision
+    tools:
+    - Policy issuance system
+    - Client communication templates
+    duration: 2 hours
+    outputs:
+    - Policy documents
+    - Client notification
+  success_criteria: Policy issued within 10 business days, loss ratio within acceptable
+    range
+  failure_modes:
+  - Incomplete documentation delays
+  - Adverse risk selection
+  - Regulatory non-compliance
+  - Pricing inaccuracies
   metrics:
-    - "Processing time: <10 days average"
-    - "Approval rate: 75% of applications"
-    - "Loss ratio: <85% target"
-    - "Customer satisfaction: 4.0/5 average"
+  - 'Processing time: <10 days average'
+  - 'Approval rate: 75% of applications'
+  - 'Loss ratio: <85% target'
+  - 'Customer satisfaction: 4.0/5 average'

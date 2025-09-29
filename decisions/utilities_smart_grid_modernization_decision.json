@@ -3,8 +3,16 @@
   "context": "Regional utility company evaluating smart grid infrastructure upgrade",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Board of Directors", "Regulatory Affairs Director"],
-    "influencers": ["Operations Director", "Finance Director", "Customer Service VP"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Regulatory Affairs Director"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Finance Director",
+      "Customer Service VP"
+    ]
   },
   "request": {
     "amount": "$45M",
@@ -16,28 +24,49 @@
     {
       "stage": "technical_feasibility",
       "duration": "3 weeks",
-      "activities": ["Technology vendor evaluation", "Infrastructure assessment", "Pilot program design"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Infrastructure assessment",
+        "Pilot program design"
+      ],
       "outcome": "Feasible with phased implementation"
     },
     {
       "stage": "financial_analysis",
       "duration": "2 weeks",
-      "activities": ["Cost-benefit modeling", "Funding options analysis", "ROI projections"],
+      "activities": [
+        "Cost-benefit modeling",
+        "Funding options analysis",
+        "ROI projections"
+      ],
       "outcome": "Strong business case"
     },
     {
       "stage": "regulatory_approval",
       "duration": "4 weeks",
-      "activities": ["Regulatory filing", "Public hearings", "Environmental impact assessment"],
+      "activities": [
+        "Regulatory filing",
+        "Public hearings",
+        "Environmental impact assessment"
+      ],
       "outcome": "Approved with conditions"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in outage duration, 25% improvement in renewable energy utilization, enhanced customer satisfaction",
     "projected_value": "$120M in benefits over 15 years",
-    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory delays"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities",
+      "Regulatory delays"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance requirements", "Financial ROI >12%", "Technology maturity", "Customer impact assessment"],
+  "decision_criteria": [
+    "Regulatory compliance requirements",
+    "Financial ROI >12%",
+    "Technology maturity",
+    "Customer impact assessment"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Phased implementation reduced risk, extensive stakeholder engagement improved acceptance, cybersecurity integration critical"
 }

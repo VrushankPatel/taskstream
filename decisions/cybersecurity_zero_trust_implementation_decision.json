@@ -3,8 +3,17 @@
   "context": "Technology company facing increasing cyber threats decides to implement zero trust architecture across enterprise systems",
   "stakeholders": {
     "requester": "Chief Information Security Officer",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["VP IT Operations", "Head of Compliance", "Department Heads", "External Security Consultants"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "VP IT Operations",
+      "Head of Compliance",
+      "Department Heads",
+      "External Security Consultants"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,40 +25,76 @@
     {
       "stage": "security_assessment",
       "duration": "8 weeks",
-      "activities": ["Current security posture evaluation", "Threat landscape analysis", "Compliance gap assessment", "Zero trust maturity benchmarking"],
+      "activities": [
+        "Current security posture evaluation",
+        "Threat landscape analysis",
+        "Compliance gap assessment",
+        "Zero trust maturity benchmarking"
+      ],
       "outcome": "Identified critical vulnerabilities and 60% gap in modern security controls"
     },
     {
       "stage": "architecture_design",
       "duration": "10 weeks",
-      "activities": ["Zero trust framework development", "Technology stack selection", "Integration planning", "Migration roadmap creation"],
+      "activities": [
+        "Zero trust framework development",
+        "Technology stack selection",
+        "Integration planning",
+        "Migration roadmap creation"
+      ],
       "outcome": "Comprehensive zero trust architecture covering identity, network, application, and data security"
     },
     {
       "stage": "business_impact_analysis",
       "duration": "6 weeks",
-      "activities": ["ROI modeling", "Productivity impact assessment", "Compliance benefit quantification", "Risk reduction analysis"],
+      "activities": [
+        "ROI modeling",
+        "Productivity impact assessment",
+        "Compliance benefit quantification",
+        "Risk reduction analysis"
+      ],
       "outcome": "Projected $25M annual savings from reduced breaches and improved efficiency"
     },
     {
       "stage": "implementation_feasibility",
       "duration": "4 weeks",
-      "activities": ["Resource requirement analysis", "Timeline development", "Change management planning", "Training program design"],
+      "activities": [
+        "Resource requirement analysis",
+        "Timeline development",
+        "Change management planning",
+        "Training program design"
+      ],
       "outcome": "Realistic 30-month implementation with minimal business disruption"
     },
     {
       "stage": "executive_review",
       "duration": "2 weeks",
-      "activities": ["Security leadership presentation", "Board briefing", "Budget approval discussion", "Go-forward decision"],
+      "activities": [
+        "Security leadership presentation",
+        "Board briefing",
+        "Budget approval discussion",
+        "Go-forward decision"
+      ],
       "outcome": "Approved zero trust implementation with phased rollout strategy"
     }
   ],
   "business_impact": {
     "expected_outcome": "Enterprise-wide security transformation reducing breach risk by 80% and ensuring future regulatory compliance",
     "projected_value": "$150,000,000",
-    "risk_factors": ["Implementation complexity causing temporary disruptions", "User resistance to new security controls", "Integration challenges with legacy systems", "Higher operational costs during transition"]
+    "risk_factors": [
+      "Implementation complexity causing temporary disruptions",
+      "User resistance to new security controls",
+      "Integration challenges with legacy systems",
+      "Higher operational costs during transition"
+    ]
   },
-  "decision_criteria": ["Security risk reduction", "Compliance requirements", "Financial justification", "Implementation feasibility", "Business impact"],
+  "decision_criteria": [
+    "Security risk reduction",
+    "Compliance requirements",
+    "Financial justification",
+    "Implementation feasibility",
+    "Business impact"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Phased implementation approach minimized disruption; extensive change management critical for user adoption"
 }

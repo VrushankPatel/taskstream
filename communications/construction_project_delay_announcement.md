@@ -1,14 +1,14 @@
 ## Email: Construction Project Timeline Update
 
-**From:** Project Manager  
-**To:** Client Executive Team, Internal Stakeholders  
-**Subject:** [Project Name] - Timeline Update and Mitigation Plan  
+**From:** Project Manager
+**To:** Client Executive Team, Internal Stakeholders
+**Subject:** [Project Name] - Timeline Update and Mitigation Plan
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
-Dear Team,  
+Dear Team,
 
-I wanted to provide an important update on the [Project Name] construction timeline. After thorough review of recent site conditions and supply chain challenges, we need to communicate a 6-week delay to the project completion date.  
+I wanted to provide an important update on the [Project Name] construction timeline. After thorough review of recent site conditions and supply chain challenges, we need to communicate a 6-week delay to the project completion date.
 
 ### Current Situation
 - **Original Completion**: December 15, 2025
@@ -36,10 +36,10 @@ I wanted to provide an important update on the [Project Name] construction timel
 2. **Mitigation Monitoring**: Daily tracking of critical path activities
 3. **Client Coordination**: Weekly calls to align on revised milestones
 
-We remain committed to delivering a high-quality project that meets all specifications. The additional time will ensure we maintain our standards for safety and craftsmanship.  
+We remain committed to delivering a high-quality project that meets all specifications. The additional time will ensure we maintain our standards for safety and craftsmanship.
 
-Please reach out if you need any additional information or have concerns.  
+Please reach out if you need any additional information or have concerns.
 
-Best regards,  
-Project Manager  
+Best regards,
+Project Manager
 Construction Division

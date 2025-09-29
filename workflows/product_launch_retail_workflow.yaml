@@ -1,46 +1,86 @@
 workflow:
-  id: "workflow_product_launch_retail_001"
-  title: "New Product Launch in Retail E-commerce"
-  department: "Product"
-  complexity: "high"
-  participants: ["Product Manager", "Marketing Team", "Operations Team", "IT Team", "Customer Service"]
-  trigger: "Product development completed and ready for market"
+  id: workflow_product_launch_retail_001
+  title: New Product Launch in Retail E-commerce
+  department: Product
+  complexity: high
+  participants:
+  - Product Manager
+  - Marketing Team
+  - Operations Team
+  - IT Team
+  - Customer Service
+  trigger: Product development completed and ready for market
   steps:
-    - step: 1
-      actor: "Product Manager"
-      action: "Finalize product specifications and pricing strategy"
-      tools: ["Product management software", "Competitive analysis tools"]
-      duration: "1-2 weeks"
-      outputs: ["Product launch plan", "Pricing model", "Target audience profile"]
-    - step: 2
-      actor: "Marketing Team"
-      action: "Develop launch campaign and content strategy"
-      tools: ["Marketing automation platform", "Content management system"]
-      duration: "2-3 weeks"
-      outputs: ["Marketing campaign plan", "Content calendar", "Promotional materials"]
-    - step: 3
-      actor: "Operations Team"
-      action: "Set up inventory and fulfillment processes"
-      tools: ["Inventory management system", "Warehouse management software"]
-      duration: "1-2 weeks"
-      outputs: ["Inventory allocation", "Fulfillment procedures", "Shipping protocols"]
-    - step: 4
-      actor: "IT Team"
-      action: "Configure e-commerce platform and website updates"
-      tools: ["E-commerce platform", "Website CMS", "Payment integration"]
-      duration: "1 week"
-      outputs: ["Platform configuration", "Website updates", "Testing reports"]
-    - step: 5
-      actor: "Customer Service"
-      action: "Prepare support materials and training"
-      tools: ["Knowledge base", "Training platform", "FAQ system"]
-      duration: "1 week"
-      outputs: ["Support documentation", "Team training completed"]
-    - step: 6
-      actor: "Product Manager"
-      action: "Execute soft launch and monitor performance"
-      tools: ["Analytics dashboard", "A/B testing tools"]
-      duration: "1-2 weeks"
-      outputs: ["Launch metrics", "Performance report", "Optimization recommendations"]
-  success_criteria: "Product successfully launched with positive sales and customer feedback"
-  failure_modes: ["Technical issues", "Inventory problems", "Poor marketing performance"]
+  - step: 1
+    actor: Product Manager
+    action: Finalize product specifications and pricing strategy
+    tools:
+    - Product management software
+    - Competitive analysis tools
+    duration: 1-2 weeks
+    outputs:
+    - Product launch plan
+    - Pricing model
+    - Target audience profile
+  - step: 2
+    actor: Marketing Team
+    action: Develop launch campaign and content strategy
+    tools:
+    - Marketing automation platform
+    - Content management system
+    duration: 2-3 weeks
+    outputs:
+    - Marketing campaign plan
+    - Content calendar
+    - Promotional materials
+  - step: 3
+    actor: Operations Team
+    action: Set up inventory and fulfillment processes
+    tools:
+    - Inventory management system
+    - Warehouse management software
+    duration: 1-2 weeks
+    outputs:
+    - Inventory allocation
+    - Fulfillment procedures
+    - Shipping protocols
+  - step: 4
+    actor: IT Team
+    action: Configure e-commerce platform and website updates
+    tools:
+    - E-commerce platform
+    - Website CMS
+    - Payment integration
+    duration: 1 week
+    outputs:
+    - Platform configuration
+    - Website updates
+    - Testing reports
+  - step: 5
+    actor: Customer Service
+    action: Prepare support materials and training
+    tools:
+    - Knowledge base
+    - Training platform
+    - FAQ system
+    duration: 1 week
+    outputs:
+    - Support documentation
+    - Team training completed
+  - step: 6
+    actor: Product Manager
+    action: Execute soft launch and monitor performance
+    tools:
+    - Analytics dashboard
+    - A/B testing tools
+    duration: 1-2 weeks
+    outputs:
+    - Launch metrics
+    - Performance report
+    - Optimization recommendations
+  success_criteria: Product successfully launched with positive sales and customer
+    feedback
+  failure_modes:
+  - Technical issues
+  - Inventory problems
+  - Poor marketing performance

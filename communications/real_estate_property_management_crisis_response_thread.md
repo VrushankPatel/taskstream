@@ -1,8 +1,8 @@
 ## Email Thread: Real Estate Property Management Crisis - Flood Damage Response
 
-**From:** Regional Property Manager  
-**To:** Executive Leadership, Legal Team, Insurance Claims Department  
-**Subject:** Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required  
+**From:** Regional Property Manager
+**To:** Executive Leadership, Legal Team, Insurance Claims Department
+**Subject:** Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
 
 Team,
 
@@ -24,7 +24,7 @@ We need immediate authorization for:
 
 Please advise on next steps - this will impact our Q4 occupancy rates significantly.
 
-Regards,  
+Regards,
 Marcus Thompson
 Regional Property Manager
 
@@ -72,9 +72,9 @@ CEO
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership, Legal Team, Insurance Claims Department  
-**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required  
+**From:** CEO
+**To:** Executive Leadership, Legal Team, Insurance Claims Department
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
 
 Marcus,
 
@@ -90,14 +90,14 @@ Key priorities:
 
 I'll be onsite tomorrow morning. Keep me updated hourly.
 
-David Chen  
-CEO  
+David Chen
+CEO
 
 ---
 
-**From:** Legal Counsel  
-**To:** Executive Leadership, Insurance Claims Department, Regional Property Manager  
-**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required  
+**From:** Legal Counsel
+**To:** Executive Leadership, Insurance Claims Department, Regional Property Manager
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
 
 Marcus and team,
 
@@ -112,14 +112,14 @@ I've prepared template communications for tenants. Please route all external com
 
 Potential exposure: $5-8M in tenant claims if we don't handle this properly.
 
-Sarah Martinez  
-Senior Legal Counsel  
+Sarah Martinez
+Senior Legal Counsel
 
 ---
 
-**From:** Insurance Claims Manager  
-**To:** Executive Leadership, Legal Team, Regional Property Manager  
-**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required  
+**From:** Insurance Claims Manager
+**To:** Executive Leadership, Legal Team, Regional Property Manager
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
 
 Insurance response activated:
 
@@ -136,14 +136,14 @@ Key actions needed:
 
 Expected settlement timeline: 4-6 weeks. We'll push for expedited handling given the scope.
 
-Jennifer Walsh  
-Insurance Claims Manager  
+Jennifer Walsh
+Insurance Claims Manager
 
 ---
 
-**From:** Regional Property Manager  
-**To:** Executive Leadership, Legal Team, Insurance Claims Department  
-**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required  
+**From:** Regional Property Manager
+**To:** Executive Leadership, Legal Team, Insurance Claims Department
+**Subject:** Re: Urgent: Major Flood Damage at Downtown Portfolio - Immediate Response Required
 
 Update at 8 PM:
 
@@ -160,5 +160,5 @@ Next priorities:
 
 Weather forecast shows no additional precipitation expected. This gives us breathing room for assessment.
 
-Marcus Thompson  
+Marcus Thompson
 Regional Property Manager

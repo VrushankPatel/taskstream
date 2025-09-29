@@ -3,8 +3,17 @@
   "context": "Global manufacturing company with $2B revenue, facing supply chain transparency requirements from major customers",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CFO", "CEO", "Board Sustainability Committee"],
-    "influencers": ["Key Customers", "Supplier Council", "IT Director", "Compliance Officer"]
+    "approvers": [
+      "CFO",
+      "CEO",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Key Customers",
+      "Supplier Council",
+      "IT Director",
+      "Compliance Officer"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,25 +25,45 @@
     {
       "stage": "requirements_analysis",
       "duration": "6 weeks",
-      "activities": ["Customer requirements review", "Supplier capability assessment", "Technology evaluation", "Cost-benefit analysis"],
+      "activities": [
+        "Customer requirements review",
+        "Supplier capability assessment",
+        "Technology evaluation",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Clear requirements defined with strong business case"
     },
     {
       "stage": "supplier_engagement",
       "duration": "8 weeks",
-      "activities": ["Supplier workshops", "Pilot program design", "Incentive program development", "Contract amendments"],
+      "activities": [
+        "Supplier workshops",
+        "Pilot program design",
+        "Incentive program development",
+        "Contract amendments"
+      ],
       "outcome": "70% supplier commitment secured for pilot program"
     },
     {
       "stage": "executive_approval",
       "duration": "3 weeks",
-      "activities": ["Final ROI review", "Risk assessment", "Implementation timeline approval", "Budget allocation"],
+      "activities": [
+        "Final ROI review",
+        "Risk assessment",
+        "Implementation timeline approval",
+        "Budget allocation"
+      ],
       "outcome": "Investment approved with supplier incentive program"
     }
   ],
   "business_impact": {
     "expected_transparency_coverage": "80%",
     "projected_revenue_protection": "$50,000,000",
-    "risk_factors": ["Supplier adoption resistance", "Technology integration complexity", "Data quality challenges", "Regulatory changes"]
+    "risk_factors": [
+      "Supplier adoption resistance",
+      "Technology integration complexity",
+      "Data quality challenges",
+      "Regulatory changes"
+    ]
   }
 }

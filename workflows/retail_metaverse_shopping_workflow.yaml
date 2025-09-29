@@ -1,41 +1,73 @@
 workflow:
-  id: "workflow_021_003"
-  title: "Metaverse Shopping Experience Launch"
-  department: "Digital Commerce"
-  complexity: "high"
-  participants: ["E-commerce Director", "UX Designer", "Technical Lead", "Marketing Manager", "Legal Counsel"]
-  trigger: "Competitor launches successful metaverse store with 40% engagement increase"
+  id: workflow_021_003
+  title: Metaverse Shopping Experience Launch
+  department: Digital Commerce
+  complexity: high
+  participants:
+  - E-commerce Director
+  - UX Designer
+  - Technical Lead
+  - Marketing Manager
+  - Legal Counsel
+  trigger: Competitor launches successful metaverse store with 40% engagement increase
   steps:
-    - step: 1
-      actor: "UX Designer"
-      action: "Research user preferences and design virtual store experience"
-      tools: ["User research platforms", "3D design software", "VR testing equipment"]
-      duration: "4 weeks"
-      outputs: ["User research report", "Store design concepts"]
-    - step: 2
-      actor: "Technical Lead"
-      action: "Develop technical architecture for metaverse integration"
-      decision_points: ["Platform compatibility", "Performance requirements", "Security needs"]
-      tools: ["Technical specification documents", "Platform APIs"]
-      duration: "6 weeks"
-      outputs: ["Technical architecture", "Development roadmap"]
-    - step: 3
-      actor: "Marketing Manager"
-      action: "Create marketing campaign and user acquisition strategy"
-      tools: ["Marketing analytics", "Campaign planning tools"]
-      duration: "3 weeks"
-      outputs: ["Marketing strategy", "Launch timeline"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Address legal and regulatory requirements for virtual commerce"
-      tools: ["Legal research databases", "Contract templates"]
-      duration: "2 weeks"
-      outputs: ["Legal compliance framework", "Terms of service"]
-    - step: 5
-      actor: "E-commerce Director"
-      action: "Execute soft launch and gather user feedback for optimization"
-      tools: ["Analytics platforms", "User feedback systems"]
-      duration: "4 weeks"
-      outputs: ["Launch metrics report", "Optimization recommendations"]
-  success_criteria: "Achieve 25% conversion rate, 50% customer satisfaction score"
-  failure_modes: ["Technical performance issues", "Low user adoption", "Brand misalignment"]
+  - step: 1
+    actor: UX Designer
+    action: Research user preferences and design virtual store experience
+    tools:
+    - User research platforms
+    - 3D design software
+    - VR testing equipment
+    duration: 4 weeks
+    outputs:
+    - User research report
+    - Store design concepts
+  - step: 2
+    actor: Technical Lead
+    action: Develop technical architecture for metaverse integration
+    decision_points:
+    - Platform compatibility
+    - Performance requirements
+    - Security needs
+    tools:
+    - Technical specification documents
+    - Platform APIs
+    duration: 6 weeks
+    outputs:
+    - Technical architecture
+    - Development roadmap
+  - step: 3
+    actor: Marketing Manager
+    action: Create marketing campaign and user acquisition strategy
+    tools:
+    - Marketing analytics
+    - Campaign planning tools
+    duration: 3 weeks
+    outputs:
+    - Marketing strategy
+    - Launch timeline
+  - step: 4
+    actor: Legal Counsel
+    action: Address legal and regulatory requirements for virtual commerce
+    tools:
+    - Legal research databases
+    - Contract templates
+    duration: 2 weeks
+    outputs:
+    - Legal compliance framework
+    - Terms of service
+  - step: 5
+    actor: E-commerce Director
+    action: Execute soft launch and gather user feedback for optimization
+    tools:
+    - Analytics platforms
+    - User feedback systems
+    duration: 4 weeks
+    outputs:
+    - Launch metrics report
+    - Optimization recommendations
+  success_criteria: Achieve 25% conversion rate, 50% customer satisfaction score
+  failure_modes:
+  - Technical performance issues
+  - Low user adoption
+  - Brand misalignment

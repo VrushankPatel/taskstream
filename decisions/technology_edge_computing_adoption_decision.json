@@ -3,8 +3,16 @@
   "context": "Global SaaS company with 500 employees expanding IoT services, considering edge computing to reduce latency for real-time applications",
   "stakeholders": {
     "requester": "VP of Engineering",
-    "approvers": ["CTO", "CFO", "CEO"],
-    "influencers": ["Head of Product", "Infrastructure Manager", "Security Officer"]
+    "approvers": [
+      "CTO",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of Product",
+      "Infrastructure Manager",
+      "Security Officer"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,32 +24,60 @@
     {
       "stage": "technical_evaluation",
       "duration": "4 weeks",
-      "activities": ["Architecture design review", "Performance benchmarking", "Cost modeling"],
+      "activities": [
+        "Architecture design review",
+        "Performance benchmarking",
+        "Cost modeling"
+      ],
       "outcome": "Edge computing recommended for 40% of workloads"
     },
     {
       "stage": "security_assessment",
       "duration": "2 weeks",
-      "activities": ["Security architecture review", "Compliance evaluation", "Risk assessment"],
+      "activities": [
+        "Security architecture review",
+        "Compliance evaluation",
+        "Risk assessment"
+      ],
       "outcome": "Security requirements identified and addressed"
     },
     {
       "stage": "financial_analysis",
       "duration": "3 weeks",
-      "activities": ["ROI analysis", "Total cost of ownership", "Budget impact assessment"],
+      "activities": [
+        "ROI analysis",
+        "Total cost of ownership",
+        "Budget impact assessment"
+      ],
       "outcome": "3-year payback period confirmed"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "2 weeks",
-      "activities": ["Executive presentations", "Team consultations", "Vendor negotiations"],
+      "activities": [
+        "Executive presentations",
+        "Team consultations",
+        "Vendor negotiations"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["50% reduction in latency", "$800K annual cloud cost savings", "New IoT service capabilities"],
-    "risk_factors": ["Integration complexity", "Skills gap in edge technologies", "Vendor dependency"],
+    "expected_benefits": [
+      "50% reduction in latency",
+      "$800K annual cloud cost savings",
+      "New IoT service capabilities"
+    ],
+    "risk_factors": [
+      "Integration complexity",
+      "Skills gap in edge technologies",
+      "Vendor dependency"
+    ],
     "implementation_timeline": "12 months",
-    "success_metrics": ["Latency reduction achieved", "Cost savings realized", "New revenue from edge services"]
+    "success_metrics": [
+      "Latency reduction achieved",
+      "Cost savings realized",
+      "New revenue from edge services"
+    ]
   }
 }

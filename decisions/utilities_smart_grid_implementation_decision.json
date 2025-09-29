@@ -3,8 +3,16 @@
   "context": "Regional utility company evaluating smart grid modernization for service area of 500,000 customers. Current infrastructure is 25 years old with increasing outage frequency. Regulatory pressure for grid resilience and renewable integration.",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Board of Directors", "Regulatory Affairs VP"],
-    "influencers": ["Operations Director", "Customer Service VP", "Finance Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Regulatory Affairs VP"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Customer Service VP",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$200M",
@@ -16,28 +24,51 @@
     {
       "stage": "feasibility_study",
       "duration": "3 months",
-      "activities": ["Technology vendor evaluation", "Infrastructure assessment", "Regulatory impact analysis"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Infrastructure assessment",
+        "Regulatory impact analysis"
+      ],
       "outcome": "Multiple viable solutions identified"
     },
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Limited deployment testing", "Performance monitoring", "Cost tracking"],
+      "activities": [
+        "Limited deployment testing",
+        "Performance monitoring",
+        "Cost tracking"
+      ],
       "outcome": "Successful pilot with 35% outage reduction"
     },
     {
       "stage": "full_implementation_planning",
       "duration": "2 months",
-      "activities": ["Detailed project planning", "Funding strategy development", "Stakeholder communication"],
+      "activities": [
+        "Detailed project planning",
+        "Funding strategy development",
+        "Stakeholder communication"
+      ],
       "outcome": "Comprehensive implementation plan approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% reduction in outage duration, 25% improvement in renewable capacity integration, enhanced regulatory compliance",
     "projected_value": "$50M annual savings in outage costs, $30M in operational efficiencies",
-    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Funding availability", "Regulatory changes"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities",
+      "Funding availability",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Outage reduction >30%", "ROI >15% over 10 years", "Regulatory compliance", "Cybersecurity standards met", "Stakeholder alignment"],
+  "decision_criteria": [
+    "Outage reduction >30%",
+    "ROI >15% over 10 years",
+    "Regulatory compliance",
+    "Cybersecurity standards met",
+    "Stakeholder alignment"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot programs provide critical validation data, comprehensive stakeholder engagement essential for large infrastructure projects, regulatory alignment drives faster approval"
 }

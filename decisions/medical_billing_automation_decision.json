@@ -3,8 +3,16 @@
   "context": "Large hospital system, 5,000 employees, implementing AI-driven medical billing automation",
   "stakeholders": {
     "requester": "CFO",
-    "approvers": ["CEO", "Chief Medical Officer", "Compliance Officer"],
-    "influencers": ["Revenue Cycle Director", "IT Director", "Patient Experience Team"]
+    "approvers": [
+      "CEO",
+      "Chief Medical Officer",
+      "Compliance Officer"
+    ],
+    "influencers": [
+      "Revenue Cycle Director",
+      "IT Director",
+      "Patient Experience Team"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,25 +24,41 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 weeks",
-      "activities": ["Vendor evaluation", "ROI modeling", "Regulatory compliance review"],
+      "activities": [
+        "Vendor evaluation",
+        "ROI modeling",
+        "Regulatory compliance review"
+      ],
       "outcome": "Proceed with pilot program"
     },
     {
       "stage": "pilot_implementation",
       "duration": "8 weeks",
-      "activities": ["System integration", "Staff training", "Process optimization"],
+      "activities": [
+        "System integration",
+        "Staff training",
+        "Process optimization"
+      ],
       "outcome": "Pilot successful, 35% efficiency improvement"
     },
     {
       "stage": "full_rollout_decision",
       "duration": "2 weeks",
-      "activities": ["Risk assessment", "Budget approval", "Timeline planning"],
+      "activities": [
+        "Risk assessment",
+        "Budget approval",
+        "Timeline planning"
+      ],
       "outcome": "Approved for enterprise-wide implementation"
     }
   ],
   "business_impact": {
     "expected_savings": "$8M annually",
     "projected_claim_accuracy": "98%",
-    "risk_factors": ["HIPAA compliance challenges", "Staff resistance to automation", "Integration complexity"]
+    "risk_factors": [
+      "HIPAA compliance challenges",
+      "Staff resistance to automation",
+      "Integration complexity"
+    ]
   }
 }

@@ -1,65 +1,129 @@
 workflow:
-  id: "workflow_crisis_cybersecurity_incident"
-  title: "Crisis Management Cybersecurity Incident Response Workflow"
-  department: "IT Security/Crisis Management"
-  complexity: "high"
-  participants: ["CISO", "Incident Response Team", "IT Operations", "Legal Counsel", "Communications Team", "Business Continuity", "External Forensics"]
-  trigger: "Detection of cybersecurity incident with potential business impact"
+  id: workflow_crisis_cybersecurity_incident
+  title: Crisis Management Cybersecurity Incident Response Workflow
+  department: IT Security/Crisis Management
+  complexity: high
+  participants:
+  - CISO
+  - Incident Response Team
+  - IT Operations
+  - Legal Counsel
+  - Communications Team
+  - Business Continuity
+  - External Forensics
+  trigger: Detection of cybersecurity incident with potential business impact
   steps:
-    - step: 1
-      actor: "IT Operations"
-      action: "Detect and initially assess cybersecurity incident scope and impact"
-      tools: ["SIEM systems", "Intrusion detection tools", "Initial assessment frameworks"]
-      duration: "30 minutes"
-      outputs: ["Initial incident assessment", "Impact analysis", "Containment recommendations"]
-    - step: 2
-      actor: "CISO"
-      action: "Activate incident response team and declare incident severity level"
-      tools: ["Incident response protocols", "Severity classification frameworks", "Team activation systems"]
-      duration: "1 hour"
-      outputs: ["Activated response team", "Severity declaration", "Initial response plan"]
-    - step: 3
-      actor: "Incident Response Team"
-      action: "Contain the incident and prevent further damage or data exfiltration"
-      tools: ["Containment tools", "Network isolation systems", "Damage control procedures"]
-      duration: "4 hours"
-      outputs: ["Containment measures", "Damage assessment", "Isolation verification"]
-      decision_points: ["Containment effectiveness", "Business continuity impact"]
-    - step: 4
-      actor: "External Forensics"
-      action: "Conduct forensic analysis to determine attack vector and data compromise scope"
-      tools: ["Digital forensics tools", "Malware analysis systems", "Log analysis platforms"]
-      duration: "48 hours"
-      outputs: ["Forensic analysis report", "Attack vector identification", "Compromise assessment"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Assess legal obligations including breach notification and regulatory reporting"
-      tools: ["Legal compliance databases", "Breach notification frameworks", "Regulatory requirement systems"]
-      duration: "6 hours"
-      outputs: ["Legal assessment", "Notification requirements", "Regulatory reporting plan"]
-    - step: 6
-      actor: "Communications Team"
-      action: "Develop stakeholder communication strategy and prepare notifications"
-      tools: ["Communication templates", "Stakeholder databases", "Media monitoring tools"]
-      duration: "4 hours"
-      outputs: ["Communication strategy", "Stakeholder notifications", "Media response protocols"]
-    - step: 7
-      actor: "Business Continuity"
-      action: "Implement recovery procedures and restore affected systems"
-      tools: ["Business continuity plans", "System recovery procedures", "Backup restoration tools"]
-      duration: "24-72 hours"
-      outputs: ["System recovery", "Business continuity measures", "Service restoration verification"]
-    - step: 8
-      actor: "CISO"
-      action: "Conduct post-incident review and implement preventive measures"
-      tools: ["Incident review frameworks", "Root cause analysis tools", "Preventive action planning"]
-      duration: "1 week"
-      outputs: ["Post-incident report", "Preventive measures", "Lessons learned documentation"]
-  success_criteria: "Rapid incident containment, minimal business impact, comprehensive recovery, and implemented preventive measures"
-  failure_modes: ["Delayed detection causing increased damage", "Ineffective containment allowing further compromise", "Inadequate communication damaging reputation", "Incomplete recovery leading to recurring incidents"]
+  - step: 1
+    actor: IT Operations
+    action: Detect and initially assess cybersecurity incident scope and impact
+    tools:
+    - SIEM systems
+    - Intrusion detection tools
+    - Initial assessment frameworks
+    duration: 30 minutes
+    outputs:
+    - Initial incident assessment
+    - Impact analysis
+    - Containment recommendations
+  - step: 2
+    actor: CISO
+    action: Activate incident response team and declare incident severity level
+    tools:
+    - Incident response protocols
+    - Severity classification frameworks
+    - Team activation systems
+    duration: 1 hour
+    outputs:
+    - Activated response team
+    - Severity declaration
+    - Initial response plan
+  - step: 3
+    actor: Incident Response Team
+    action: Contain the incident and prevent further damage or data exfiltration
+    tools:
+    - Containment tools
+    - Network isolation systems
+    - Damage control procedures
+    duration: 4 hours
+    outputs:
+    - Containment measures
+    - Damage assessment
+    - Isolation verification
+    decision_points:
+    - Containment effectiveness
+    - Business continuity impact
+  - step: 4
+    actor: External Forensics
+    action: Conduct forensic analysis to determine attack vector and data compromise
+      scope
+    tools:
+    - Digital forensics tools
+    - Malware analysis systems
+    - Log analysis platforms
+    duration: 48 hours
+    outputs:
+    - Forensic analysis report
+    - Attack vector identification
+    - Compromise assessment
+  - step: 5
+    actor: Legal Counsel
+    action: Assess legal obligations including breach notification and regulatory
+      reporting
+    tools:
+    - Legal compliance databases
+    - Breach notification frameworks
+    - Regulatory requirement systems
+    duration: 6 hours
+    outputs:
+    - Legal assessment
+    - Notification requirements
+    - Regulatory reporting plan
+  - step: 6
+    actor: Communications Team
+    action: Develop stakeholder communication strategy and prepare notifications
+    tools:
+    - Communication templates
+    - Stakeholder databases
+    - Media monitoring tools
+    duration: 4 hours
+    outputs:
+    - Communication strategy
+    - Stakeholder notifications
+    - Media response protocols
+  - step: 7
+    actor: Business Continuity
+    action: Implement recovery procedures and restore affected systems
+    tools:
+    - Business continuity plans
+    - System recovery procedures
+    - Backup restoration tools
+    duration: 24-72 hours
+    outputs:
+    - System recovery
+    - Business continuity measures
+    - Service restoration verification
+  - step: 8
+    actor: CISO
+    action: Conduct post-incident review and implement preventive measures
+    tools:
+    - Incident review frameworks
+    - Root cause analysis tools
+    - Preventive action planning
+    duration: 1 week
+    outputs:
+    - Post-incident report
+    - Preventive measures
+    - Lessons learned documentation
+  success_criteria: Rapid incident containment, minimal business impact, comprehensive
+    recovery, and implemented preventive measures
+  failure_modes:
+  - Delayed detection causing increased damage
+  - Ineffective containment allowing further compromise
+  - Inadequate communication damaging reputation
+  - Incomplete recovery leading to recurring incidents
   metrics:
-    - "Incident response time: Target <4 hours"
-    - "Data breach impact: Target <1% of systems"
-    - "Recovery time: Target <24 hours"
-    - "Communication effectiveness: Target 95% stakeholder satisfaction"
-    - "Preventive measures implementation: Target 100% completion"
+  - 'Incident response time: Target <4 hours'
+  - 'Data breach impact: Target <1% of systems'
+  - 'Recovery time: Target <24 hours'
+  - 'Communication effectiveness: Target 95% stakeholder satisfaction'
+  - 'Preventive measures implementation: Target 100% completion'

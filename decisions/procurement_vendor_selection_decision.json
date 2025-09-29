@@ -3,8 +3,16 @@
   "context": "Global manufacturing company, $2B revenue, selecting ERP system vendor",
   "stakeholders": {
     "requester": "CIO",
-    "approvers": ["CEO", "CFO", "COO"],
-    "influencers": ["Department Heads", "IT Security", "Legal"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "COO"
+    ],
+    "influencers": [
+      "Department Heads",
+      "IT Security",
+      "Legal"
+    ]
   },
   "request": {
     "amount": "$15M",
@@ -16,25 +24,46 @@
     {
       "stage": "requirements_gathering",
       "duration": "6 weeks",
-      "activities": ["Stakeholder interviews", "Current system analysis", "Future state design"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current system analysis",
+        "Future state design"
+      ],
       "outcome": "Comprehensive RFP with 40+ requirements"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "8 weeks",
-      "activities": ["Vendor demos", "Technical evaluations", "Reference checks", "Financial analysis"],
+      "activities": [
+        "Vendor demos",
+        "Technical evaluations",
+        "Reference checks",
+        "Financial analysis"
+      ],
       "outcome": "3 vendors shortlisted from 12 proposals"
     },
     {
       "stage": "final_selection",
       "duration": "4 weeks",
-      "activities": ["Contract negotiations", "Security assessments", "Legal reviews"],
+      "activities": [
+        "Contract negotiations",
+        "Security assessments",
+        "Legal reviews"
+      ],
       "outcome": "Vendor A selected with 15% cost reduction from initial proposal"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["$30M annual savings", "50% reduction in processing time", "Real-time inventory visibility"],
+    "expected_benefits": [
+      "$30M annual savings",
+      "50% reduction in processing time",
+      "Real-time inventory visibility"
+    ],
     "projected_roi": "300%",
-    "risk_factors": ["Implementation complexity", "User adoption challenges", "Integration with existing systems"]
+    "risk_factors": [
+      "Implementation complexity",
+      "User adoption challenges",
+      "Integration with existing systems"
+    ]
   }
 }

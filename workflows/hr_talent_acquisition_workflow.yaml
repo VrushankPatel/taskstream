@@ -1,55 +1,90 @@
 workflow:
-  id: "workflow_hr_talent_acquisition"
-  title: "HR Talent Acquisition and Hiring Process"
-  department: "Human Resources"
-  complexity: "medium"
-  participants: ["HR Recruiter", "Hiring Manager", "Interview Panel", "HR Business Partner", "Legal Counsel"]
-  trigger: "Open position approved or headcount increase"
+  id: workflow_hr_talent_acquisition
+  title: HR Talent Acquisition and Hiring Process
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Recruiter
+  - Hiring Manager
+  - Interview Panel
+  - HR Business Partner
+  - Legal Counsel
+  trigger: Open position approved or headcount increase
   steps:
-    - step: 1
-      actor: "HR Recruiter"
-      action: "Job requisition review and posting creation"
-      tools: ["ATS System", "Job Board Platforms"]
-      duration: "1 day"
-      outputs: ["Job Description", "Posting Materials"]
-    - step: 2
-      actor: "HR Recruiter"
-      action: "Sourcing candidates through multiple channels"
-      tools: ["LinkedIn Recruiter", "Employee Referral System", "Campus Recruitment Database"]
-      duration: "1 week"
-      outputs: ["Candidate Pool", "Sourcing Report"]
-    - step: 3
-      actor: "HR Recruiter"
-      action: "Initial screening and phone interviews"
-      tools: ["Video Interview Platform", "Assessment Tools"]
-      duration: "3 days"
-      outputs: ["Screening Notes", "Shortlisted Candidates"]
-    - step: 4
-      actor: "Hiring Manager"
-      action: "Technical interviews and team fit assessment"
-      tools: ["Interview Scheduling System"]
-      duration: "1 week"
-      outputs: ["Interview Feedback", "Candidate Rankings"]
-    - step: 5
-      actor: "Interview Panel"
-      action: "Final round interviews and decision making"
-      duration: "2 days"
-      decision_points: ["Technical Skills", "Cultural Fit", "Leadership Potential"]
-    - step: 6
-      actor: "HR Business Partner"
-      action: "Reference checks and background verification"
-      tools: ["Background Check Service", "Reference Check Templates"]
-      duration: "2 days"
-      outputs: ["Background Check Report"]
-    - step: 7
-      actor: "Legal Counsel"
-      action: "Employment offer review and compliance check"
-      duration: "1 day"
-      outputs: ["Offer Letter", "Employment Contract"]
-    - step: 8
-      actor: "HR Recruiter"
-      action: "Offer extension and negotiation"
-      duration: "3 days"
-      outputs: ["Signed Offer", "Onboarding Schedule"]
-  success_criteria: "Position filled with qualified candidate within 45 days"
-  failure_modes: ["No qualified candidates", "Offer rejections", "Internal approval delays", "Budget constraints"]
+  - step: 1
+    actor: HR Recruiter
+    action: Job requisition review and posting creation
+    tools:
+    - ATS System
+    - Job Board Platforms
+    duration: 1 day
+    outputs:
+    - Job Description
+    - Posting Materials
+  - step: 2
+    actor: HR Recruiter
+    action: Sourcing candidates through multiple channels
+    tools:
+    - LinkedIn Recruiter
+    - Employee Referral System
+    - Campus Recruitment Database
+    duration: 1 week
+    outputs:
+    - Candidate Pool
+    - Sourcing Report
+  - step: 3
+    actor: HR Recruiter
+    action: Initial screening and phone interviews
+    tools:
+    - Video Interview Platform
+    - Assessment Tools
+    duration: 3 days
+    outputs:
+    - Screening Notes
+    - Shortlisted Candidates
+  - step: 4
+    actor: Hiring Manager
+    action: Technical interviews and team fit assessment
+    tools:
+    - Interview Scheduling System
+    duration: 1 week
+    outputs:
+    - Interview Feedback
+    - Candidate Rankings
+  - step: 5
+    actor: Interview Panel
+    action: Final round interviews and decision making
+    duration: 2 days
+    decision_points:
+    - Technical Skills
+    - Cultural Fit
+    - Leadership Potential
+  - step: 6
+    actor: HR Business Partner
+    action: Reference checks and background verification
+    tools:
+    - Background Check Service
+    - Reference Check Templates
+    duration: 2 days
+    outputs:
+    - Background Check Report
+  - step: 7
+    actor: Legal Counsel
+    action: Employment offer review and compliance check
+    duration: 1 day
+    outputs:
+    - Offer Letter
+    - Employment Contract
+  - step: 8
+    actor: HR Recruiter
+    action: Offer extension and negotiation
+    duration: 3 days
+    outputs:
+    - Signed Offer
+    - Onboarding Schedule
+  success_criteria: Position filled with qualified candidate within 45 days
+  failure_modes:
+  - No qualified candidates
+  - Offer rejections
+  - Internal approval delays
+  - Budget constraints

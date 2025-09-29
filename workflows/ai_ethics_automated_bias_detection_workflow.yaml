@@ -1,47 +1,76 @@
 workflow:
-  id: "workflow_ai_002"
-  title: "AI Ethics Automated Bias Detection Workflow"
-  department: "AI Ethics & Governance"
-  complexity: "medium"
-  participants: ["AI Ethicists", "Data Scientists", "ML Engineers", "Compliance Teams", "Legal Advisors"]
-  trigger: "AI model development or deployment requiring bias assessment"
+  id: workflow_ai_002
+  title: AI Ethics Automated Bias Detection Workflow
+  department: AI Ethics & Governance
+  complexity: medium
+  participants:
+  - AI Ethicists
+  - Data Scientists
+  - ML Engineers
+  - Compliance Teams
+  - Legal Advisors
+  trigger: AI model development or deployment requiring bias assessment
   steps:
-    - step: 1
-      actor: "AI Ethicists"
-      action: "Establish bias detection criteria and ethical frameworks"
-      tools: ["Ethics assessment frameworks", "Bias detection standards"]
-      duration: "1 week"
-      outputs: ["Bias detection criteria", "Ethical assessment framework"]
-    - step: 2
-      actor: "Data Scientists"
-      action: "Conduct comprehensive data analysis for bias patterns"
-      tools: ["Data profiling tools", "Statistical analysis software"]
-      duration: "3 weeks"
-      outputs: ["Data bias report", "Bias metrics analysis"]
-    - step: 3
-      actor: "ML Engineers"
-      action: "Implement automated bias detection and monitoring systems"
-      tools: ["ML bias detection libraries", "Automated testing frameworks"]
-      duration: "4 weeks"
-      outputs: ["Bias detection system", "Automated monitoring dashboard"]
-    - step: 4
-      actor: "Compliance Teams"
-      action: "Validate bias detection effectiveness and regulatory compliance"
-      tools: ["Compliance testing tools", "Regulatory checklists"]
-      duration: "2 weeks"
-      outputs: ["Compliance validation report", "Regulatory assessment"]
-    - step: 5
-      actor: "Legal Advisors"
-      action: "Review findings and recommend mitigation strategies"
-      tools: ["Legal analysis frameworks", "Risk assessment tools"]
-      duration: "1 week"
-      outputs: ["Legal recommendations", "Mitigation action plan"]
-  success_criteria: "Automated system detects >95% of bias issues with <5% false positive rate"
-  failure_modes: ["Inadequate bias coverage", "Technical implementation failures", "Regulatory non-compliance"]
+  - step: 1
+    actor: AI Ethicists
+    action: Establish bias detection criteria and ethical frameworks
+    tools:
+    - Ethics assessment frameworks
+    - Bias detection standards
+    duration: 1 week
+    outputs:
+    - Bias detection criteria
+    - Ethical assessment framework
+  - step: 2
+    actor: Data Scientists
+    action: Conduct comprehensive data analysis for bias patterns
+    tools:
+    - Data profiling tools
+    - Statistical analysis software
+    duration: 3 weeks
+    outputs:
+    - Data bias report
+    - Bias metrics analysis
+  - step: 3
+    actor: ML Engineers
+    action: Implement automated bias detection and monitoring systems
+    tools:
+    - ML bias detection libraries
+    - Automated testing frameworks
+    duration: 4 weeks
+    outputs:
+    - Bias detection system
+    - Automated monitoring dashboard
+  - step: 4
+    actor: Compliance Teams
+    action: Validate bias detection effectiveness and regulatory compliance
+    tools:
+    - Compliance testing tools
+    - Regulatory checklists
+    duration: 2 weeks
+    outputs:
+    - Compliance validation report
+    - Regulatory assessment
+  - step: 5
+    actor: Legal Advisors
+    action: Review findings and recommend mitigation strategies
+    tools:
+    - Legal analysis frameworks
+    - Risk assessment tools
+    duration: 1 week
+    outputs:
+    - Legal recommendations
+    - Mitigation action plan
+  success_criteria: Automated system detects >95% of bias issues with <5% false positive
+    rate
+  failure_modes:
+  - Inadequate bias coverage
+  - Technical implementation failures
+  - Regulatory non-compliance
   metrics:
-    - "Bias Detection Rate: Target >95% of actual bias issues identified"
-    - "False Positive Rate: Target <5% incorrect bias flags"
-    - "Detection Speed: Target <1 hour for model assessment"
-    - "Coverage Completeness: Target 100% of bias types monitored"
-    - "Remediation Success: Target >90% bias issues resolved"
-    - "Compliance Score: Target >98% regulatory alignment"
+  - 'Bias Detection Rate: Target >95% of actual bias issues identified'
+  - 'False Positive Rate: Target <5% incorrect bias flags'
+  - 'Detection Speed: Target <1 hour for model assessment'
+  - 'Coverage Completeness: Target 100% of bias types monitored'
+  - 'Remediation Success: Target >90% bias issues resolved'
+  - 'Compliance Score: Target >98% regulatory alignment'

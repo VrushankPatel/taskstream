@@ -1,9 +1,9 @@
 ## Meeting Notes: Q4 Product Launch Campaign Planning
 
-**Date:** November 3, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** VP Marketing (Chair), Product Manager, Creative Director, Media Buyer, Sales Director, Customer Success Lead  
+**Date:** November 3, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** VP Marketing (Chair), Product Manager, Creative Director, Media Buyer, Sales Director, Customer Success Lead
 
 ### Agenda
 1. Launch timeline review
@@ -44,5 +44,5 @@
 ### Next Meeting
 November 17, 2025 - Creative concept review and first draft materials
 
-**Meeting Facilitator:** VP Marketing  
+**Meeting Facilitator:** VP Marketing
 **Note Taker:** Marketing Coordinator

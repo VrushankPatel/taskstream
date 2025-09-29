@@ -3,8 +3,15 @@
   "context": "Technology consulting firm, 500 employees, post-pandemic evaluation of hybrid work effectiveness",
   "stakeholders": {
     "requester": "Chief People Officer",
-    "approvers": ["CEO", "Executive Team"],
-    "influencers": ["Department Heads", "Employee Resource Groups", "Facilities Manager"]
+    "approvers": [
+      "CEO",
+      "Executive Team"
+    ],
+    "influencers": [
+      "Department Heads",
+      "Employee Resource Groups",
+      "Facilities Manager"
+    ]
   },
   "request": {
     "amount": "$500,000",
@@ -16,25 +23,41 @@
     {
       "stage": "policy_development",
       "duration": "6 weeks",
-      "activities": ["Employee surveys", "Benchmarking against industry peers", "Legal compliance review"],
+      "activities": [
+        "Employee surveys",
+        "Benchmarking against industry peers",
+        "Legal compliance review"
+      ],
       "outcome": "Draft policy allowing 3 days remote work with core collaboration days"
     },
     {
       "stage": "pilot_program",
       "duration": "3 months",
-      "activities": ["Select department pilot", "Productivity metrics tracking", "Employee feedback collection"],
+      "activities": [
+        "Select department pilot",
+        "Productivity metrics tracking",
+        "Employee feedback collection"
+      ],
       "outcome": "Pilot successful with 10% productivity increase and improved satisfaction"
     },
     {
       "stage": "company_wide_rollout",
       "duration": "2 weeks",
-      "activities": ["Executive team review", "Budget approval", "Implementation timeline planning"],
+      "activities": [
+        "Executive team review",
+        "Budget approval",
+        "Implementation timeline planning"
+      ],
       "outcome": "Approved for phased rollout starting Q2 2026"
     }
   ],
   "business_impact": {
     "expected_attrition_reduction": "20% decrease in voluntary turnover",
     "projected_productivity_gain": "8% increase in team output",
-    "risk_factors": ["Collaboration challenges", "Manager training requirements", "Office space utilization decline"]
+    "risk_factors": [
+      "Collaboration challenges",
+      "Manager training requirements",
+      "Office space utilization decline"
+    ]
   }
 }

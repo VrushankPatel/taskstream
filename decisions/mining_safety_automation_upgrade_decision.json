@@ -3,8 +3,16 @@
   "context": "Underground mining operation evaluating investment in automated safety monitoring systems to reduce workplace accidents and improve compliance",
   "stakeholders": {
     "requester": "Safety Director",
-    "approvers": ["CEO", "COO", "Chief Engineer"],
-    "influencers": ["Mine Manager", "Union Representative", "Environmental Health Officer"]
+    "approvers": [
+      "CEO",
+      "COO",
+      "Chief Engineer"
+    ],
+    "influencers": [
+      "Mine Manager",
+      "Union Representative",
+      "Environmental Health Officer"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,19 +24,31 @@
     {
       "stage": "safety_assessment",
       "duration": "2 months",
-      "activities": ["Current safety audit", "Technology evaluation", "Worker consultation"],
+      "activities": [
+        "Current safety audit",
+        "Technology evaluation",
+        "Worker consultation"
+      ],
       "outcome": "Critical safety gaps identified"
     },
     {
       "stage": "pilot_testing",
       "duration": "3 months",
-      "activities": ["System installation in one mine", "Performance monitoring", "Worker training"],
+      "activities": [
+        "System installation in one mine",
+        "Performance monitoring",
+        "Worker training"
+      ],
       "outcome": "25% improvement in safety metrics"
     },
     {
       "stage": "full_deployment_planning",
       "duration": "1 month",
-      "activities": ["Scalability assessment", "Budget refinement", "Timeline development"],
+      "activities": [
+        "Scalability assessment",
+        "Budget refinement",
+        "Timeline development"
+      ],
       "outcome": "Approved for phased implementation"
     }
   ],
@@ -36,10 +56,25 @@
     "expected_outcome": "30% reduction in accidents, improved regulatory compliance, enhanced worker confidence",
     "projected_value": "$3,000,000 annual savings in insurance and lost productivity",
     "timeline": "18 months for full deployment across all mines",
-    "dependencies": ["Vendor technology certification", "Worker safety training programs", "Integration with existing SCADA systems"],
-    "risk_factors": ["Technology reliability in harsh environments", "Worker resistance to automation", "Integration with existing systems"]
+    "dependencies": [
+      "Vendor technology certification",
+      "Worker safety training programs",
+      "Integration with existing SCADA systems"
+    ],
+    "risk_factors": [
+      "Technology reliability in harsh environments",
+      "Worker resistance to automation",
+      "Integration with existing systems"
+    ]
   },
-  "decision_criteria": ["Safety improvement metrics", "ROI within 5 years", "Regulatory compliance", "Worker acceptance", "Integration with existing systems", "Scalability across operations"],
+  "decision_criteria": [
+    "Safety improvement metrics",
+    "ROI within 5 years",
+    "Regulatory compliance",
+    "Worker acceptance",
+    "Integration with existing systems",
+    "Scalability across operations"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Worker involvement in technology selection improves adoption rates, pilot testing validates safety benefits"
 }

@@ -3,8 +3,16 @@
   "context": "Insurance company, 1500 employees, developing cyber insurance product",
   "stakeholders": {
     "requester": "Head of Underwriting",
-    "approvers": ["Chief Underwriter", "CFO", "Risk Committee"],
-    "influencers": ["Actuarial Team", "Legal Department", "Sales Team"]
+    "approvers": [
+      "Chief Underwriter",
+      "CFO",
+      "Risk Committee"
+    ],
+    "influencers": [
+      "Actuarial Team",
+      "Legal Department",
+      "Sales Team"
+    ]
   },
   "request": {
     "amount": "$500,000",
@@ -16,22 +24,40 @@
     {
       "stage": "market_analysis",
       "duration": "2 months",
-      "activities": ["Competitive analysis", "Customer surveys", "Risk modeling"],
+      "activities": [
+        "Competitive analysis",
+        "Customer surveys",
+        "Risk modeling"
+      ],
       "outcome": "Strong market opportunity identified"
     },
     {
       "stage": "pricing_strategy",
       "duration": "1 month",
-      "activities": ["Actuarial pricing", "Regulatory compliance review", "Pilot pricing"],
+      "activities": [
+        "Actuarial pricing",
+        "Regulatory compliance review",
+        "Pilot pricing"
+      ],
       "outcome": "Approved for limited market launch"
     }
   ],
   "business_impact": {
     "expected_premium": "$10 million annually",
     "market_share_gain": "5%",
-    "risk_factors": ["Underwriting losses", "Regulatory changes", "Market saturation"]
+    "risk_factors": [
+      "Underwriting losses",
+      "Regulatory changes",
+      "Market saturation"
+    ]
   },
-  "decision_criteria": ["Market demand analysis", "Risk modeling accuracy", "Regulatory compliance", "Competitive positioning", "Financial projections"],
+  "decision_criteria": [
+    "Market demand analysis",
+    "Risk modeling accuracy",
+    "Regulatory compliance",
+    "Competitive positioning",
+    "Financial projections"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive market research validated product opportunity; phased rollout minimized initial risk exposure"
 }

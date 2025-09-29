@@ -1,8 +1,8 @@
 ## Email Thread: Retail Inventory Shortage Crisis Communication
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Procurement Team  
-**Subject:** Urgent: Inventory Shortage Response Plan  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Procurement Team
+**Subject:** Urgent: Inventory Shortage Response Plan
 
 Team,
 
@@ -20,15 +20,15 @@ Following supplier delays and increased demand, we've identified critical invent
 
 Please review the attached response plan and let me know if you need additional resources.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
+Best,
+Sarah Chen
+Supply Chain Director
 
 ---
 
-**From:** CEO  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Inventory Shortage Response Plan  
+**From:** CEO
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Inventory Shortage Response Plan
 
 Sarah,
 
@@ -43,15 +43,15 @@ This is concerning. How will this impact Q4 revenue projections?
 
 Let's ensure we maintain customer trust while protecting our margins.
 
-Regards,  
-Michael Torres  
-CEO  
+Regards,
+Michael Torres
+CEO
 
 ---
 
-**From:** Supply Chain Director  
-**To:** CEO, Executive Leadership Team, Store Managers  
-**Subject:** Re: Urgent: Inventory Shortage Response Plan  
+**From:** Supply Chain Director
+**To:** CEO, Executive Leadership Team, Store Managers
+**Subject:** Re: Urgent: Inventory Shortage Response Plan
 
 Michael,
 
@@ -64,13 +64,13 @@ Revenue impact estimated at 8-12% if shortages persist beyond 2 weeks. We're imp
 
 We're also exploring air freight options for critical items to reduce delivery times.
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Marketing Director  
-**To:** Supply Chain Director, CEO, Executive Leadership Team  
-**Subject:** Re: Urgent: Inventory Shortage Response Plan  
+**From:** Marketing Director
+**To:** Supply Chain Director, CEO, Executive Leadership Team
+**Subject:** Re: Urgent: Inventory Shortage Response Plan
 
 Sarah, Michael,
 
@@ -83,5 +83,5 @@ The compensation plan is generous. I'll prepare the communication templates and 
 
 This positions us as responsive rather than reactive.
 
-Lisa Park  
+Lisa Park
 Marketing Director

@@ -1,8 +1,8 @@
 ## Email Thread: Agriculture Supply Chain Traceability Implementation
 
-**From:** Supply Chain Director  
-**To:** Operations Team, IT Department  
-**Subject:** Implementation of New Supply Chain Traceability System  
+**From:** Supply Chain Director
+**To:** Operations Team, IT Department
+**Subject:** Implementation of New Supply Chain Traceability System
 
 Team,
 
@@ -25,15 +25,15 @@ Following our recent board meeting on supply chain transparency initiatives, I'm
 
 Please schedule a kickoff meeting for next Tuesday. I'll send calendar invites shortly.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
+Best,
+Sarah Chen
+Supply Chain Director
 
 ---
 
-**From:** IT Manager  
-**To:** Supply Chain Director, Operations Team  
-**Subject:** Re: Implementation of New Supply Chain Traceability System  
+**From:** IT Manager
+**To:** Supply Chain Director, Operations Team
+**Subject:** Re: Implementation of New Supply Chain Traceability System
 
 Sarah,
 
@@ -46,15 +46,15 @@ Thanks for the update. Our team has reviewed similar implementations at other ag
 
 We'll need dedicated resources for the pilot phase. Can we allocate 2 developers and 1 data engineer?
 
-Regards,  
-Mike Torres  
-IT Manager  
+Regards,
+Mike Torres
+IT Manager
 
 ---
 
-**From:** Operations Manager  
-**To:** Supply Chain Director, IT Manager, Farm Managers  
-**Subject:** Re: Implementation of New Supply Chain Traceability System  
+**From:** Operations Manager
+**To:** Supply Chain Director, IT Manager, Farm Managers
+**Subject:** Re: Implementation of New Supply Chain Traceability System
 
 Good initiative, Sarah. Our farmers have been asking for better tools to demonstrate quality and sustainability practices to buyers.
 
@@ -67,15 +67,15 @@ For the pilot, I recommend starting with our cooperative farms in the Central Va
 
 Let's discuss integration with our existing quality management processes.
 
-Best,  
-Carlos Rodriguez  
-Operations Manager  
+Best,
+Carlos Rodriguez
+Operations Manager
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Operations Team, IT Department, Farm Managers  
-**Subject:** Re: Implementation of New Supply Chain Traceability System  
+**From:** Supply Chain Director
+**To:** Operations Team, IT Department, Farm Managers
+**Subject:** Re: Implementation of New Supply Chain Traceability System
 
 Thanks for the quick feedback, team.
 
@@ -89,5 +89,5 @@ Kickoff meeting scheduled for Tuesday at 10 AM. Agenda attached.
 
 Please come prepared to discuss your team's specific requirements and potential challenges.
 
-Best,  
+Best,
 Sarah

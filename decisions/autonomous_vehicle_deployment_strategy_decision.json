@@ -3,8 +3,16 @@
   "context": "Transportation and logistics company, 25,000 employees, developing autonomous vehicle deployment strategy for urban delivery",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Operating Officer", "Board Risk Committee"],
-    "influencers": ["Head of Autonomous Systems", "Regulatory Affairs", "Insurance Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Head of Autonomous Systems",
+      "Regulatory Affairs",
+      "Insurance Partners"
+    ]
   },
   "request": {
     "amount": "$150,000,000",
@@ -16,25 +24,45 @@
     {
       "stage": "feasibility_study",
       "duration": "6 weeks",
-      "activities": ["Technical feasibility assessment", "Regulatory landscape analysis", "Cost-benefit modeling"],
+      "activities": [
+        "Technical feasibility assessment",
+        "Regulatory landscape analysis",
+        "Cost-benefit modeling"
+      ],
       "outcome": "Positive feasibility with identified requirements"
     },
     {
       "stage": "pilot_program_design",
       "duration": "8 weeks",
-      "activities": ["Select pilot cities", "Design safety protocols", "Develop partnership agreements"],
+      "activities": [
+        "Select pilot cities",
+        "Design safety protocols",
+        "Develop partnership agreements"
+      ],
       "outcome": "Comprehensive pilot program approved"
     },
     {
       "stage": "regulatory_engagement",
       "duration": "12 weeks",
-      "activities": ["Engage with regulators", "Obtain necessary permits", "Address safety concerns"],
+      "activities": [
+        "Engage with regulators",
+        "Obtain necessary permits",
+        "Address safety concerns"
+      ],
       "outcome": "Regulatory approval secured for pilot operations"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["40% reduction in delivery costs", "Improved delivery reliability", "Enhanced safety record"],
+    "expected_benefits": [
+      "40% reduction in delivery costs",
+      "Improved delivery reliability",
+      "Enhanced safety record"
+    ],
     "projected_roi": "250% over 5 years through operational efficiencies",
-    "risk_factors": ["Regulatory changes", "Public acceptance issues", "Technology reliability challenges"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Public acceptance issues",
+      "Technology reliability challenges"
+    ]
   }
 }

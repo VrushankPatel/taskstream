@@ -24,8 +24,8 @@ This expansion aligns perfectly with our strategic objectives of accessing high-
 
 I want to personally thank the international expansion team for their outstanding work in making this vision a reality. This is just the beginning of our global growth story.
 
-Best regards,  
-[CEO Name]  
+Best regards,
+[CEO Name]
 Chief Executive Officer
 
 ---
@@ -53,7 +53,7 @@ Thank you, CEO, for the announcement. I'm excited to share more details about ou
 
 We're committed to ensuring this expansion strengthens our global capabilities while maintaining our core values and culture.
 
-Best,  
+Best,
 [VP International Expansion]
 
 ---
@@ -76,5 +76,5 @@ Congratulations on this exciting milestone! As we prepare for our international 
 
 We're looking forward to welcoming new colleagues who will bring fresh perspectives and drive our continued innovation.
 
-Best regards,  
+Best regards,
 [Head of Talent Acquisition]

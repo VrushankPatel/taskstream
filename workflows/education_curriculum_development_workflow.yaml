@@ -1,52 +1,91 @@
 workflow:
-  id: "workflow_education_001"
-  title: "University Curriculum Development and Approval Process"
-  department: "Academic Affairs"
-  complexity: "high"
-  participants: ["Department Chair", "Faculty Committee", "Curriculum Committee", "Dean", "Accreditation Office"]
-  trigger: "New program requirement or curriculum review cycle"
+  id: workflow_education_001
+  title: University Curriculum Development and Approval Process
+  department: Academic Affairs
+  complexity: high
+  participants:
+  - Department Chair
+  - Faculty Committee
+  - Curriculum Committee
+  - Dean
+  - Accreditation Office
+  trigger: New program requirement or curriculum review cycle
   steps:
-    - step: 1
-      actor: "Department Chair"
-      action: "Identify curriculum needs and market analysis"
-      tools: ["Market research tools", "Curriculum planning software"]
-      duration: "6 weeks"
-      outputs: ["Needs assessment", "Program proposal"]
-    - step: 2
-      actor: "Faculty Committee"
-      action: "Course development and learning outcomes definition"
-      tools: ["Curriculum design tools", "Learning management system"]
-      duration: "12 weeks"
-      outputs: ["Course syllabi", "Learning objectives", "Assessment methods"]
-    - step: 3
-      actor: "Curriculum Committee"
-      action: "Curriculum review and academic standards alignment"
-      tools: ["Curriculum review checklists", "Standards databases"]
-      duration: "4 weeks"
-      outputs: ["Curriculum review report", "Recommended changes"]
-    - step: 4
-      actor: "Dean"
-      action: "Resource assessment and budget planning"
-      tools: ["Budget planning tools", "Resource allocation models"]
-      duration: "3 weeks"
-      outputs: ["Resource requirements", "Budget proposal"]
-    - step: 5
-      actor: "Accreditation Office"
-      action: "Compliance review and accreditation alignment"
-      tools: ["Accreditation standards", "Compliance checklists"]
-      duration: "4 weeks"
-      outputs: ["Compliance report", "Accreditation recommendations"]
-    - step: 6
-      actor: "Curriculum Committee"
-      action: "Final approval and implementation planning"
-      tools: ["Approval workflows", "Implementation planning tools"]
-      duration: "2 weeks"
-      outputs: ["Approved curriculum", "Implementation timeline"]
-    - step: 7
-      actor: "Department Chair"
-      action: "Faculty training and rollout execution"
-      tools: ["Training materials", "Rollout tracking systems"]
-      duration: "8 weeks"
-      outputs: ["Trained faculty", "Student communications", "Evaluation plan"]
-  success_criteria: "Curriculum implemented successfully with positive student outcomes and accreditation compliance"
-  failure_modes: ["Resource constraints", "Faculty resistance", "Accreditation issues"]
+  - step: 1
+    actor: Department Chair
+    action: Identify curriculum needs and market analysis
+    tools:
+    - Market research tools
+    - Curriculum planning software
+    duration: 6 weeks
+    outputs:
+    - Needs assessment
+    - Program proposal
+  - step: 2
+    actor: Faculty Committee
+    action: Course development and learning outcomes definition
+    tools:
+    - Curriculum design tools
+    - Learning management system
+    duration: 12 weeks
+    outputs:
+    - Course syllabi
+    - Learning objectives
+    - Assessment methods
+  - step: 3
+    actor: Curriculum Committee
+    action: Curriculum review and academic standards alignment
+    tools:
+    - Curriculum review checklists
+    - Standards databases
+    duration: 4 weeks
+    outputs:
+    - Curriculum review report
+    - Recommended changes
+  - step: 4
+    actor: Dean
+    action: Resource assessment and budget planning
+    tools:
+    - Budget planning tools
+    - Resource allocation models
+    duration: 3 weeks
+    outputs:
+    - Resource requirements
+    - Budget proposal
+  - step: 5
+    actor: Accreditation Office
+    action: Compliance review and accreditation alignment
+    tools:
+    - Accreditation standards
+    - Compliance checklists
+    duration: 4 weeks
+    outputs:
+    - Compliance report
+    - Accreditation recommendations
+  - step: 6
+    actor: Curriculum Committee
+    action: Final approval and implementation planning
+    tools:
+    - Approval workflows
+    - Implementation planning tools
+    duration: 2 weeks
+    outputs:
+    - Approved curriculum
+    - Implementation timeline
+  - step: 7
+    actor: Department Chair
+    action: Faculty training and rollout execution
+    tools:
+    - Training materials
+    - Rollout tracking systems
+    duration: 8 weeks
+    outputs:
+    - Trained faculty
+    - Student communications
+    - Evaluation plan
+  success_criteria: Curriculum implemented successfully with positive student outcomes
+    and accreditation compliance
+  failure_modes:
+  - Resource constraints
+  - Faculty resistance
+  - Accreditation issues

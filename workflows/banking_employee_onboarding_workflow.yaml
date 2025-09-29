@@ -1,86 +1,87 @@
 workflow:
-  id: "workflow_banking_employee_onboarding"
-  title: "Banking Employee Onboarding Process"
-  department: "Human Resources"
-  complexity: "medium"
+  id: workflow_banking_employee_onboarding
+  title: Banking Employee Onboarding Process
+  department: Human Resources
+  complexity: medium
   participants:
-    - "HR Manager"
-    - "Department Head"
-    - "IT Security"
-    - "Compliance Officer"
-    - "New Employee"
-  trigger: "New hire acceptance of offer"
+  - HR Manager
+  - Department Head
+  - IT Security
+  - Compliance Officer
+  - New Employee
+  trigger: New hire acceptance of offer
   steps:
-    - step: 1
-      actor: "HR Manager"
-      action: "Schedule onboarding sessions and prepare documentation package"
-      tools:
-        - "HRIS System"
-        - "Onboarding Portal"
-        - "Email System"
-      duration: "1 day"
-      outputs:
-        - "Onboarding schedule"
-        - "Employee handbook"
-        - "Equipment request"
-    - step: 2
-      actor: "IT Security"
-      action: "Set up user accounts, email, and system access with security training"
-      tools:
-        - "Active Directory"
-        - "Security Training Platform"
-        - "VPN Setup"
-      duration: "2 days"
-      outputs:
-        - "User credentials"
-        - "Security clearance"
-        - "Access badges"
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Conduct regulatory compliance training and background verification"
-      tools:
-        - "Compliance Database"
-        - "Background Check System"
-        - "Training LMS"
-      duration: "3 days"
-      outputs:
-        - "Compliance certification"
-        - "Background check results"
-        - "Regulatory acknowledgments"
-    - step: 4
-      actor: "Department Head"
-      action: "Provide department-specific training and assign mentor"
-      tools:
-        - "Department Wiki"
-        - "Mentorship Program"
-        - "Project Management Tool"
-      duration: "1 week"
-      outputs:
-        - "Department orientation"
-        - "Mentor assignment"
-        - "Initial project assignment"
-    - step: 5
-      actor: "New Employee"
-      action: "Complete all training modules and sign required documents"
-      tools:
-        - "Learning Management System"
-        - "Document Signing Platform"
-      duration: "2 weeks"
-      outputs:
-        - "Training completion certificates"
-        - "Signed policies"
-        - "Performance goals"
-  success_criteria: "Employee completes all onboarding milestones within 30 days and demonstrates basic job competencies"
+  - step: 1
+    actor: HR Manager
+    action: Schedule onboarding sessions and prepare documentation package
+    tools:
+    - HRIS System
+    - Onboarding Portal
+    - Email System
+    duration: 1 day
+    outputs:
+    - Onboarding schedule
+    - Employee handbook
+    - Equipment request
+  - step: 2
+    actor: IT Security
+    action: Set up user accounts, email, and system access with security training
+    tools:
+    - Active Directory
+    - Security Training Platform
+    - VPN Setup
+    duration: 2 days
+    outputs:
+    - User credentials
+    - Security clearance
+    - Access badges
+  - step: 3
+    actor: Compliance Officer
+    action: Conduct regulatory compliance training and background verification
+    tools:
+    - Compliance Database
+    - Background Check System
+    - Training LMS
+    duration: 3 days
+    outputs:
+    - Compliance certification
+    - Background check results
+    - Regulatory acknowledgments
+  - step: 4
+    actor: Department Head
+    action: Provide department-specific training and assign mentor
+    tools:
+    - Department Wiki
+    - Mentorship Program
+    - Project Management Tool
+    duration: 1 week
+    outputs:
+    - Department orientation
+    - Mentor assignment
+    - Initial project assignment
+  - step: 5
+    actor: New Employee
+    action: Complete all training modules and sign required documents
+    tools:
+    - Learning Management System
+    - Document Signing Platform
+    duration: 2 weeks
+    outputs:
+    - Training completion certificates
+    - Signed policies
+    - Performance goals
+  success_criteria: Employee completes all onboarding milestones within 30 days and
+    demonstrates basic job competencies
   failure_modes:
-    - "Delayed background checks"
-    - "IT access issues"
-    - "Incomplete training completion"
+  - Delayed background checks
+  - IT access issues
+  - Incomplete training completion
   metrics:
-    - "Time to productivity: Target 30 days"
-    - "Onboarding completion rate: Target 95%"
-    - "Employee retention (first 90 days): Target 90%"
-    - "Training effectiveness score: Target 4.2/5.0"
-    - "IT access setup time: Target <4 hours"
-    - "Compliance training pass rate: Target 98%"
-    - "Mentor satisfaction rating: Target 4.5/5.0"
-    - "New hire engagement survey: Target 4.0/5.0"
+  - 'Time to productivity: Target 30 days'
+  - 'Onboarding completion rate: Target 95%'
+  - 'Employee retention (first 90 days): Target 90%'
+  - 'Training effectiveness score: Target 4.2/5.0'
+  - 'IT access setup time: Target <4 hours'
+  - 'Compliance training pass rate: Target 98%'
+  - 'Mentor satisfaction rating: Target 4.5/5.0'
+  - 'New hire engagement survey: Target 4.0/5.0'

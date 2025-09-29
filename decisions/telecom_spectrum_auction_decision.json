@@ -3,8 +3,16 @@
   "context": "Major telecom provider evaluating participation in upcoming 5G spectrum auction with $2B budget allocation",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Chief Strategy Officer", "General Counsel", "Head of Regulatory Affairs"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Strategy Officer",
+      "General Counsel",
+      "Head of Regulatory Affairs"
+    ]
   },
   "request": {
     "amount": "$2,000,000,000",
@@ -16,34 +24,59 @@
     {
       "stage": "strategic_evaluation",
       "duration": "6 weeks",
-      "activities": ["Market analysis", "Spectrum valuation modeling", "Competitive assessment"],
+      "activities": [
+        "Market analysis",
+        "Spectrum valuation modeling",
+        "Competitive assessment"
+      ],
       "outcome": "Proceed with auction preparation"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["ROI projections", "Funding strategy", "Risk analysis"],
+      "activities": [
+        "ROI projections",
+        "Funding strategy",
+        "Risk analysis"
+      ],
       "outcome": "Budget approved with contingencies"
     },
     {
       "stage": "regulatory_preparation",
       "duration": "8 weeks",
-      "activities": ["License application", "Compliance documentation", "Legal review"],
+      "activities": [
+        "License application",
+        "Compliance documentation",
+        "Legal review"
+      ],
       "outcome": "Qualified for auction participation"
     },
     {
       "stage": "auction_execution",
       "duration": "2 days",
-      "activities": ["Bid strategy execution", "Real-time market monitoring", "Contingency adjustments"],
+      "activities": [
+        "Bid strategy execution",
+        "Real-time market monitoring",
+        "Contingency adjustments"
+      ],
       "outcome": "Successful spectrum acquisition"
     }
   ],
   "business_impact": {
     "expected_outcome": "Expanded 5G coverage to 85% of population, improved network capacity by 300%",
     "projected_value": "$8,000,000,000",
-    "risk_factors": ["Auction competition intensity", "Regulatory approval delays", "Technology migration costs"]
+    "risk_factors": [
+      "Auction competition intensity",
+      "Regulatory approval delays",
+      "Technology migration costs"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with 5G roadmap", "Financial viability (IRR >12%)", "Regulatory compliance", "Competitive positioning"],
+  "decision_criteria": [
+    "Strategic alignment with 5G roadmap",
+    "Financial viability (IRR >12%)",
+    "Regulatory compliance",
+    "Competitive positioning"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement crucial, flexible bidding strategy essential in competitive auctions"
 }

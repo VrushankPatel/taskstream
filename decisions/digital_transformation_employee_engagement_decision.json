@@ -3,8 +3,15 @@
   "context": "Traditional manufacturing company, 3000 employees, implementing major digital transformation initiative",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "Chief Human Resources Officer"],
-    "influencers": ["Department Heads", "Employee Representatives", "Change Management Team"]
+    "approvers": [
+      "CEO",
+      "Chief Human Resources Officer"
+    ],
+    "influencers": [
+      "Department Heads",
+      "Employee Representatives",
+      "Change Management Team"
+    ]
   },
   "request": {
     "amount": "$1.2M",
@@ -16,25 +23,41 @@
     {
       "stage": "readiness_assessment",
       "duration": "3 weeks",
-      "activities": ["Employee surveys", "Skills gap analysis", "Change readiness evaluation"],
+      "activities": [
+        "Employee surveys",
+        "Skills gap analysis",
+        "Change readiness evaluation"
+      ],
       "outcome": "Identified significant resistance and training needs"
     },
     {
       "stage": "program_design",
       "duration": "4 weeks",
-      "activities": ["Engagement strategy development", "Training program design", "Communication plan creation"],
+      "activities": [
+        "Engagement strategy development",
+        "Training program design",
+        "Communication plan creation"
+      ],
       "outcome": "Comprehensive engagement program designed with multiple touchpoints"
     },
     {
       "stage": "pilot_testing",
       "duration": "2 weeks",
-      "activities": ["Pilot program implementation", "Feedback collection", "Program refinement"],
+      "activities": [
+        "Pilot program implementation",
+        "Feedback collection",
+        "Program refinement"
+      ],
       "outcome": "Pilot successful with 85% employee satisfaction"
     },
     {
       "stage": "full_rollout",
       "duration": "8 weeks",
-      "activities": ["Company-wide implementation", "Ongoing support", "Success metrics tracking"],
+      "activities": [
+        "Company-wide implementation",
+        "Ongoing support",
+        "Success metrics tracking"
+      ],
       "outcome": "Full program deployed with established monitoring framework"
     }
   ],
@@ -42,6 +65,10 @@
     "adoption_rate": "75% digital tool adoption target",
     "productivity_gain": "20% efficiency improvement projected",
     "employee_satisfaction": "15% increase in engagement scores",
-    "risk_factors": ["Resistance to change", "Skills gaps", "Insufficient training resources"]
+    "risk_factors": [
+      "Resistance to change",
+      "Skills gaps",
+      "Insufficient training resources"
+    ]
   }
 }

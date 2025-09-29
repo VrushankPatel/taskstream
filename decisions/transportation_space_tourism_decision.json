@@ -3,8 +3,16 @@
   "context": "Aerospace company transitioning from defense to commercial space, seeking new revenue streams",
   "stakeholders": {
     "requester": "Commercial Space Division Head",
-    "approvers": ["CEO", "Chief Financial Officer", "Board of Directors"],
-    "influencers": ["Chief Technology Officer", "Regulatory Affairs Director", "Insurance Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Regulatory Affairs Director",
+      "Insurance Partners"
+    ]
   },
   "request": {
     "amount": "$500M",
@@ -16,25 +24,41 @@
     {
       "stage": "market_assessment",
       "duration": "6 months",
-      "activities": ["Demand analysis", "Competitor evaluation", "Pricing models"],
+      "activities": [
+        "Demand analysis",
+        "Competitor evaluation",
+        "Pricing models"
+      ],
       "outcome": "Market potential of $5B by 2030, price point of $250K per passenger"
     },
     {
       "stage": "technical_feasibility",
       "duration": "9 months",
-      "activities": ["Vehicle design", "Safety systems", "Launch infrastructure"],
+      "activities": [
+        "Vehicle design",
+        "Safety systems",
+        "Launch infrastructure"
+      ],
       "outcome": "Reusable vehicle design with 99.9% safety target achieved"
     },
     {
       "stage": "regulatory_framework",
       "duration": "12 months",
-      "activities": ["FAA certification", "International agreements", "Insurance structuring"],
+      "activities": [
+        "FAA certification",
+        "International agreements",
+        "Insurance structuring"
+      ],
       "outcome": "Regulatory pathway established with FAA approval expected 2027"
     }
   ],
   "business_impact": {
     "expected_passengers": "1,000 annually by 2030",
     "projected_revenue": "$250M annually",
-    "risk_factors": ["Regulatory delays", "Safety incidents", "Market acceptance"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Safety incidents",
+      "Market acceptance"
+    ]
   }
 }

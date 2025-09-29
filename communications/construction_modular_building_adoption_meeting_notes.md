@@ -1,9 +1,9 @@
 ## Meeting Notes: Construction Modular Building Adoption Strategy
 
-**Date:** September 29, 2025  
-**Attendees:** Construction Operations Director, Project Managers (3), Procurement Manager, Quality Assurance Lead, Finance Representative  
-**Location:** Conference Room A  
-**Facilitator:** Operations Director  
+**Date:** September 29, 2025
+**Attendees:** Construction Operations Director, Project Managers (3), Procurement Manager, Quality Assurance Lead, Finance Representative
+**Location:** Conference Room A
+**Facilitator:** Operations Director
 
 ### Agenda Items
 

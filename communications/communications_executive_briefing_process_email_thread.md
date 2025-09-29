@@ -1,9 +1,9 @@
 ## Email Thread: Executive Briefing Process Update
 
-**From:** Jennifer Martinez (Chief Communications Officer)  
-**To:** Executive Team (CEO, CFO, COO, CTO, CPO)  
-**Subject:** Updated Executive Briefing Process for Q4 2025  
-**Date:** October 10, 2025  
+**From:** Jennifer Martinez (Chief Communications Officer)
+**To:** Executive Team (CEO, CFO, COO, CTO, CPO)
+**Subject:** Updated Executive Briefing Process for Q4 2025
+**Date:** October 10, 2025
 
 Team,
 
@@ -21,15 +21,15 @@ The goal is to ensure more focused discussions and better preparation time for a
 
 Please review the updated process document attached and let me know if you have any questions.
 
-Best,  
+Best,
 Jennifer
 
 ---
 
-**From:** Robert Chen (CEO)  
-**To:** Jennifer Martinez, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 10, 2025  
+**From:** Robert Chen (CEO)
+**To:** Jennifer Martinez, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 10, 2025
 
 Jennifer,
 
@@ -41,10 +41,10 @@ Robert
 
 ---
 
-**From:** Jennifer Martinez (Chief Communications Officer)  
-**To:** Robert Chen, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 11, 2025  
+**From:** Jennifer Martinez (Chief Communications Officer)
+**To:** Robert Chen, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 11, 2025
 
 Robert,
 
@@ -56,10 +56,10 @@ Jennifer
 
 ---
 
-**From:** Maria Gonzalez (CFO)  
-**To:** Jennifer Martinez, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 11, 2025  
+**From:** Maria Gonzalez (CFO)
+**To:** Jennifer Martinez, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 11, 2025
 
 Jennifer,
 
@@ -69,10 +69,10 @@ Maria
 
 ---
 
-**From:** Jennifer Martinez (Chief Communications Officer)  
-**To:** Maria Gonzalez, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 12, 2025  
+**From:** Jennifer Martinez (Chief Communications Officer)
+**To:** Maria Gonzalez, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 12, 2025
 
 Maria,
 
@@ -84,10 +84,10 @@ Jennifer
 
 ---
 
-**From:** David Park (CTO)  
-**To:** Jennifer Martinez, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 12, 2025  
+**From:** David Park (CTO)
+**To:** Jennifer Martinez, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 12, 2025
 
 Jennifer,
 
@@ -97,10 +97,10 @@ David
 
 ---
 
-**From:** Jennifer Martinez (Chief Communications Officer)  
-**To:** David Park, Executive Team  
-**Subject:** Re: Updated Executive Briefing Process for Q4 2025  
-**Date:** October 13, 2025  
+**From:** Jennifer Martinez (Chief Communications Officer)
+**To:** David Park, Executive Team
+**Subject:** Re: Updated Executive Briefing Process for Q4 2025
+**Date:** October 13, 2025
 
 David,
 

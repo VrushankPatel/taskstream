@@ -116,13 +116,13 @@
 - E-learning modules
 - On-the-job training
 - Blended learning approaches</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Now, metrics. 2 MD files.
 
 First: retail_eu_crisis_response_performance_metrics.md (EU retail crisis KPIs)
 
-Metrics dashboard for EU retail crisis response. 
+Metrics dashboard for EU retail crisis response.
 
 <xai:function_call name="write">
 <parameter name="filePath">metrics/retail_eu_crisis_response_performance_metrics.md

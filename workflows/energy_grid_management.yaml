@@ -1,34 +1,59 @@
 workflow:
-  id: "workflow_energy_001"
-  title: "Energy Grid Management Process"
-  department: "Operations"
-  complexity: "high"
-  participants: ["Grid Operator", "Maintenance Manager", "Regulatory Compliance Officer", "Emergency Response Team"]
-  trigger: "Scheduled maintenance or emergency outage detection"
+  id: workflow_energy_001
+  title: Energy Grid Management Process
+  department: Operations
+  complexity: high
+  participants:
+  - Grid Operator
+  - Maintenance Manager
+  - Regulatory Compliance Officer
+  - Emergency Response Team
+  trigger: Scheduled maintenance or emergency outage detection
   steps:
-    - step: 1
-      actor: "Grid Operator"
-      action: "Monitor real-time grid performance using SCADA systems"
-      tools: ["SCADA System", "Weather Monitoring Tools", "Load Forecasting Software"]
-      duration: "Continuous monitoring"
-      outputs: ["Performance alerts", "Load reports"]
-    - step: 2
-      actor: "Maintenance Manager"
-      action: "Assess maintenance requirements and schedule preventive work"
-      decision_points: ["Equipment age", "Failure risk", "Regulatory deadlines"]
-      duration: "Weekly review"
-      outputs: ["Maintenance schedule", "Resource allocation plan"]
-    - step: 3
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure all activities comply with energy regulations"
-      tools: ["Compliance Database", "Regulatory Reporting System"]
-      duration: "Ongoing"
-      outputs: ["Compliance reports", "Audit documentation"]
-    - step: 4
-      actor: "Emergency Response Team"
-      action: "Execute emergency protocols for outages or failures"
-      tools: ["Emergency Communication System", "Backup Power Systems"]
-      duration: "As needed"
-      outputs: ["Incident reports", "Recovery plans"]
-  success_criteria: "Grid reliability >99.9%, zero regulatory violations"
-  failure_modes: ["Extended outages", "Regulatory fines", "Safety incidents"]
+  - step: 1
+    actor: Grid Operator
+    action: Monitor real-time grid performance using SCADA systems
+    tools:
+    - SCADA System
+    - Weather Monitoring Tools
+    - Load Forecasting Software
+    duration: Continuous monitoring
+    outputs:
+    - Performance alerts
+    - Load reports
+  - step: 2
+    actor: Maintenance Manager
+    action: Assess maintenance requirements and schedule preventive work
+    decision_points:
+    - Equipment age
+    - Failure risk
+    - Regulatory deadlines
+    duration: Weekly review
+    outputs:
+    - Maintenance schedule
+    - Resource allocation plan
+  - step: 3
+    actor: Regulatory Compliance Officer
+    action: Ensure all activities comply with energy regulations
+    tools:
+    - Compliance Database
+    - Regulatory Reporting System
+    duration: Ongoing
+    outputs:
+    - Compliance reports
+    - Audit documentation
+  - step: 4
+    actor: Emergency Response Team
+    action: Execute emergency protocols for outages or failures
+    tools:
+    - Emergency Communication System
+    - Backup Power Systems
+    duration: As needed
+    outputs:
+    - Incident reports
+    - Recovery plans
+  success_criteria: Grid reliability >99.9%, zero regulatory violations
+  failure_modes:
+  - Extended outages
+  - Regulatory fines
+  - Safety incidents

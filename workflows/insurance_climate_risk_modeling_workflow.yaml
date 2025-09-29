@@ -1,51 +1,78 @@
 workflow:
-  id: "workflow_insurance_climate_risk_modeling"
-  title: "Insurance Climate Risk Modeling and Underwriting"
-  department: "Underwriting"
-  complexity: "medium"
-  participants: ["Climate Risk Underwriter", "Data Scientist", "Geospatial Analyst", "Actuarial Specialist", "Regulatory Compliance Officer"]
-  trigger: "New climate-exposed property insurance application"
+  id: workflow_insurance_climate_risk_modeling
+  title: Insurance Climate Risk Modeling and Underwriting
+  department: Underwriting
+  complexity: medium
+  participants:
+  - Climate Risk Underwriter
+  - Data Scientist
+  - Geospatial Analyst
+  - Actuarial Specialist
+  - Regulatory Compliance Officer
+  trigger: New climate-exposed property insurance application
   steps:
-    - step: 1
-      actor: "Climate Risk Underwriter"
-      action: "Review property location and historical climate exposure data"
-      tools: ["Climate Risk Database", "Property Risk Assessment Platform"]
-      duration: "2 hours"
-      outputs: ["Initial climate risk profile"]
-    - step: 2
-      actor: "Geospatial Analyst"
-      action: "Analyze flood zones, wildfire risks, and sea level rise projections"
-      tools: ["GIS Mapping Software", "Climate Projection Models"]
-      duration: "4 hours"
-      outputs: ["Geospatial risk analysis"]
-    - step: 3
-      actor: "Data Scientist"
-      action: "Apply machine learning models for future climate scenario analysis"
-      tools: ["AI Risk Modeling Platform", "Climate Data APIs"]
-      duration: "6 hours"
-      outputs: ["Predictive risk modeling"]
-    - step: 4
-      actor: "Actuarial Specialist"
-      action: "Calculate premium adjustments based on climate risk factors"
-      tools: ["Actuarial Modeling Software", "Climate-adjusted Pricing Models"]
-      duration: "4 hours"
-      outputs: ["Risk-adjusted pricing recommendations"]
-    - step: 5
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure compliance with climate risk disclosure requirements"
-      tools: ["Regulatory Compliance Database", "Disclosure Templates"]
-      duration: "2 hours"
-      outputs: ["Compliance verification"]
-    - step: 6
-      actor: "Climate Risk Underwriter"
-      action: "Finalize underwriting decision and policy terms"
-      tools: ["Underwriting Decision Platform", "Policy Generation System"]
-      duration: "2 hours"
-      outputs: ["Climate-risk adjusted policy"]
-  success_criteria: "Accurate climate risk assessment with <10% error rate, profitable underwriting portfolio"
-  failure_modes: ["Data quality issues", "Model inaccuracies", "Regulatory non-compliance"]
+  - step: 1
+    actor: Climate Risk Underwriter
+    action: Review property location and historical climate exposure data
+    tools:
+    - Climate Risk Database
+    - Property Risk Assessment Platform
+    duration: 2 hours
+    outputs:
+    - Initial climate risk profile
+  - step: 2
+    actor: Geospatial Analyst
+    action: Analyze flood zones, wildfire risks, and sea level rise projections
+    tools:
+    - GIS Mapping Software
+    - Climate Projection Models
+    duration: 4 hours
+    outputs:
+    - Geospatial risk analysis
+  - step: 3
+    actor: Data Scientist
+    action: Apply machine learning models for future climate scenario analysis
+    tools:
+    - AI Risk Modeling Platform
+    - Climate Data APIs
+    duration: 6 hours
+    outputs:
+    - Predictive risk modeling
+  - step: 4
+    actor: Actuarial Specialist
+    action: Calculate premium adjustments based on climate risk factors
+    tools:
+    - Actuarial Modeling Software
+    - Climate-adjusted Pricing Models
+    duration: 4 hours
+    outputs:
+    - Risk-adjusted pricing recommendations
+  - step: 5
+    actor: Regulatory Compliance Officer
+    action: Ensure compliance with climate risk disclosure requirements
+    tools:
+    - Regulatory Compliance Database
+    - Disclosure Templates
+    duration: 2 hours
+    outputs:
+    - Compliance verification
+  - step: 6
+    actor: Climate Risk Underwriter
+    action: Finalize underwriting decision and policy terms
+    tools:
+    - Underwriting Decision Platform
+    - Policy Generation System
+    duration: 2 hours
+    outputs:
+    - Climate-risk adjusted policy
+  success_criteria: Accurate climate risk assessment with <10% error rate, profitable
+    underwriting portfolio
+  failure_modes:
+  - Data quality issues
+  - Model inaccuracies
+  - Regulatory non-compliance
   metrics:
-    - "Risk assessment accuracy: >90%"
-    - "Model prediction error: <10%"
-    - "Underwriting profitability: >12% margin"
-    - "Regulatory compliance: 100%"
+  - 'Risk assessment accuracy: >90%'
+  - 'Model prediction error: <10%'
+  - 'Underwriting profitability: >12% margin'
+  - 'Regulatory compliance: 100%'

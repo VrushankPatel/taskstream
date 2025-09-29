@@ -1,8 +1,8 @@
 ## Email Thread: Autonomous Vehicle Fleet Deployment Announcement
 
-**From:** VP Operations  
-**To:** All Employees, Leadership Team  
-**Subject:** Launch of Autonomous Vehicle Pilot Program  
+**From:** VP Operations
+**To:** All Employees, Leadership Team
+**Subject:** Launch of Autonomous Vehicle Pilot Program
 
 Team,
 
@@ -30,15 +30,15 @@ I'm excited to announce that after extensive planning and regulatory approval, w
 
 We believe this program will demonstrate the potential for autonomous technology to improve efficiency while maintaining the highest safety standards. I'll be hosting an all-hands meeting next week to address questions and gather feedback.
 
-Best regards,  
-Sarah Johnson  
+Best regards,
+Sarah Johnson
 VP Operations
 
 ---
 
-**From:** Safety Officer  
-**To:** VP Operations, Leadership Team  
-**Subject:** Re: Launch of Autonomous Vehicle Pilot Program  
+**From:** Safety Officer
+**To:** VP Operations, Leadership Team
+**Subject:** Re: Launch of Autonomous Vehicle Pilot Program
 
 Sarah,
 
@@ -50,14 +50,14 @@ Congratulations on reaching this milestone. The safety protocols we've developed
 
 We're confident this program will set new benchmarks for safe autonomous operations.
 
-Mike Chen  
+Mike Chen
 Safety Officer
 
 ---
 
-**From:** IT Security Lead  
-**To:** VP Operations, Safety Officer  
-**Subject:** Re: Launch of Autonomous Vehicle Pilot Program  
+**From:** IT Security Lead
+**To:** VP Operations, Safety Officer
+**Subject:** Re: Launch of Autonomous Vehicle Pilot Program
 
 The cybersecurity measures are fully implemented. We've established:
 - Encrypted communication channels
@@ -66,5 +66,5 @@ The cybersecurity measures are fully implemented. We've established:
 
 All systems have passed security certification.
 
-David Park  
+David Park
 IT Security Lead

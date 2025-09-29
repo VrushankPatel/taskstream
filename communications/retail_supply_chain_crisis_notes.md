@@ -1,10 +1,10 @@
 ## Meeting Notes: Retail Supply Chain Crisis Response
 
-**Date:** September 29, 2025  
-**Time:** 8:00 AM - 10:00 AM  
-**Location:** Emergency Operations Center  
-**Attendees:** CEO, COO, Chief Supply Chain Officer, VP Merchandising, Regional Operations Directors (4), Crisis Management Team  
-**Facilitator:** COO  
+**Date:** September 29, 2025
+**Time:** 8:00 AM - 10:00 AM
+**Location:** Emergency Operations Center
+**Attendees:** CEO, COO, Chief Supply Chain Officer, VP Merchandising, Regional Operations Directors (4), Crisis Management Team
+**Facilitator:** COO
 
 ### Crisis Overview
 Critical supply chain disruptions affecting 35% of product categories due to port congestion, transportation delays, and supplier production issues. Revenue impact: $15M weekly, customer satisfaction declining.

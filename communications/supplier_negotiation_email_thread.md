@@ -1,9 +1,9 @@
 # Supplier Contract Negotiation Email Thread
 
-**From:** Procurement Manager  
-**To:** Supplier Account Manager, Legal Counsel, Engineering Lead  
-**Subject:** Cloud Infrastructure Services Contract - Final Terms  
-**Date:** August 15, 2025  
+**From:** Procurement Manager
+**To:** Supplier Account Manager, Legal Counsel, Engineering Lead
+**Subject:** Cloud Infrastructure Services Contract - Final Terms
+**Date:** August 15, 2025
 
 Team,
 
@@ -24,14 +24,14 @@ We've reached the final round of negotiations with CloudTech for our infrastruct
 
 Legal has reviewed the contract language. Please let me know your thoughts on these points before our call tomorrow.
 
-**Procurement Manager**  
+**Procurement Manager**
 
 ---
 
-**From:** Engineering Lead  
-**To:** Procurement Manager, Supplier Account Manager, Legal Counsel  
-**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms  
-**Date:** August 15, 2025  
+**From:** Engineering Lead
+**To:** Procurement Manager, Supplier Account Manager, Legal Counsel
+**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms
+**Date:** August 15, 2025
 
 From an engineering perspective:
 
@@ -41,14 +41,14 @@ From an engineering perspective:
 
 The 99.9% SLA should be sufficient for our needs.
 
-**Engineering Lead**  
+**Engineering Lead**
 
 ---
 
-**From:** Legal Counsel  
-**To:** Procurement Manager, Supplier Account Manager, Engineering Lead  
-**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms  
-**Date:** August 15, 2025  
+**From:** Legal Counsel
+**To:** Procurement Manager, Supplier Account Manager, Engineering Lead
+**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms
+**Date:** August 15, 2025
 
 Legal review complete. The contract is solid, but we need to strengthen:
 
@@ -58,14 +58,14 @@ Legal review complete. The contract is solid, but we need to strengthen:
 
 The EU data center requirement should be specified in the SLA section.
 
-**Legal Counsel**  
+**Legal Counsel**
 
 ---
 
-**From:** Supplier Account Manager  
-**To:** Procurement Manager, Legal Counsel, Engineering Lead  
-**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms  
-**Date:** August 16, 2025  
+**From:** Supplier Account Manager
+**To:** Procurement Manager, Legal Counsel, Engineering Lead
+**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms
+**Date:** August 16, 2025
 
 Thanks for the feedback. We can accommodate:
 
@@ -77,14 +77,14 @@ For service credits, we propose 5% credit for outages exceeding 4 hours in a mon
 
 Call scheduled for 2 PM tomorrow to discuss.
 
-**Supplier Account Manager**  
+**Supplier Account Manager**
 
 ---
 
-**From:** Procurement Manager  
-**To:** Supplier Account Manager, Legal Counsel, Engineering Lead  
-**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms  
-**Date:** August 16, 2025  
+**From:** Procurement Manager
+**To:** Supplier Account Manager, Legal Counsel, Engineering Lead
+**Subject:** Re: Cloud Infrastructure Services Contract - Final Terms
+**Date:** August 16, 2025
 
 Good progress. Let's push for:
 
@@ -94,14 +94,14 @@ Good progress. Let's push for:
 
 See you on the call.
 
-**Procurement Manager**  
+**Procurement Manager**
 
 ---
 
-**From:** Supplier Account Manager  
-**To:** Procurement Manager, Legal Counsel, Engineering Lead  
-**Subject:** Contract Signed - Cloud Infrastructure Services  
-**Date:** August 20, 2025  
+**From:** Supplier Account Manager
+**To:** Procurement Manager, Legal Counsel, Engineering Lead
+**Subject:** Contract Signed - Cloud Infrastructure Services
+**Date:** August 20, 2025
 
 Great negotiation! Final terms agreed:
 
@@ -114,14 +114,14 @@ Great negotiation! Final terms agreed:
 
 Contract executed and services begin September 1.
 
-**Supplier Account Manager**  
+**Supplier Account Manager**
 
 ---
 
-**From:** Procurement Manager  
-**To:** Supplier Account Manager, Legal Counsel, Engineering Lead, CFO  
-**Subject:** Re: Contract Signed - Cloud Infrastructure Services  
-**Date:** August 20, 2025  
+**From:** Procurement Manager
+**To:** Supplier Account Manager, Legal Counsel, Engineering Lead, CFO
+**Subject:** Re: Contract Signed - Cloud Infrastructure Services
+**Date:** August 20, 2025
 
 Excellent work team! This contract saves us $150K over the previous term while improving our service levels and compliance posture.
 

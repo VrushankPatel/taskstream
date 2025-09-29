@@ -1,38 +1,58 @@
 workflow:
-  id: "workflow_insurance_claims_001"
-  title: "Insurance Claims Processing Automation"
-  department: "Claims Operations"
-  complexity: "medium"
-  participants: ["Claims Processor", "Claims Supervisor", "Fraud Analyst"]
-  trigger: "Policyholder submits claim via digital portal"
+  id: workflow_insurance_claims_001
+  title: Insurance Claims Processing Automation
+  department: Claims Operations
+  complexity: medium
+  participants:
+  - Claims Processor
+  - Claims Supervisor
+  - Fraud Analyst
+  trigger: Policyholder submits claim via digital portal
   steps:
-    - step: 1
-      actor: "Claims Processor"
-      action: "Review submitted claim documentation and validate policy coverage"
-      tools: ["Claims Management System", "Policy Database"]
-      duration: "15 minutes"
-      outputs: ["Initial claim assessment", "Coverage verification"]
-    - step: 2
-      actor: "Fraud Analyst"
-      action: "Perform automated fraud detection analysis"
-      tools: ["Fraud Detection Software", "Claim History Database"]
-      duration: "5 minutes"
-      outputs: ["Fraud risk score", "Investigation flag if needed"]
-    - step: 3
-      actor: "Claims Processor"
-      action: "Calculate claim amount and prepare settlement"
-      tools: ["Claims Calculation Engine"]
-      duration: "10 minutes"
-      outputs: ["Settlement amount", "Payment instructions"]
-    - step: 4
-      actor: "Claims Supervisor"
-      action: "Review and approve automated settlement"
-      tools: ["Supervisor Dashboard"]
-      duration: "5 minutes"
-      outputs: ["Approval confirmation", "Payment release"]
-  success_criteria: "Claim processed and payment issued within 24 hours"
-  failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud alerts"]
+  - step: 1
+    actor: Claims Processor
+    action: Review submitted claim documentation and validate policy coverage
+    tools:
+    - Claims Management System
+    - Policy Database
+    duration: 15 minutes
+    outputs:
+    - Initial claim assessment
+    - Coverage verification
+  - step: 2
+    actor: Fraud Analyst
+    action: Perform automated fraud detection analysis
+    tools:
+    - Fraud Detection Software
+    - Claim History Database
+    duration: 5 minutes
+    outputs:
+    - Fraud risk score
+    - Investigation flag if needed
+  - step: 3
+    actor: Claims Processor
+    action: Calculate claim amount and prepare settlement
+    tools:
+    - Claims Calculation Engine
+    duration: 10 minutes
+    outputs:
+    - Settlement amount
+    - Payment instructions
+  - step: 4
+    actor: Claims Supervisor
+    action: Review and approve automated settlement
+    tools:
+    - Supervisor Dashboard
+    duration: 5 minutes
+    outputs:
+    - Approval confirmation
+    - Payment release
+  success_criteria: Claim processed and payment issued within 24 hours
+  failure_modes:
+  - Incomplete documentation
+  - Coverage disputes
+  - Fraud alerts
   metrics:
-    - "Average processing time: 35 minutes"
-    - "Automation success rate: 85%"
-    - "Customer satisfaction: 4.4/5"
+  - 'Average processing time: 35 minutes'
+  - 'Automation success rate: 85%'
+  - 'Customer satisfaction: 4.4/5'

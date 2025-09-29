@@ -1,8 +1,8 @@
 ## Email Thread: Mental Health Support Program Implementation
 
-**From:** Dr. Sarah Chen, Chief Medical Officer  
-**To:** Leadership Team  
-**Subject:** Implementation Plan for Campus Mental Health Support Program  
+**From:** Dr. Sarah Chen, Chief Medical Officer
+**To:** Leadership Team
+**Subject:** Implementation Plan for Campus Mental Health Support Program
 
 Team,
 
@@ -23,28 +23,28 @@ Following our strategic planning session last month, I'm pleased to share the im
 
 Please review the attached detailed implementation plan. I'd like to schedule a kickoff meeting next week to assign responsibilities.
 
-Best,  
-Dr. Sarah Chen  
-Chief Medical Officer  
+Best,
+Dr. Sarah Chen
+Chief Medical Officer
 
 ---
 
-**From:** Michael Rodriguez, CFO  
-**To:** Dr. Sarah Chen, Leadership Team  
-**Subject:** Re: Implementation Plan for Campus Mental Health Support Program  
+**From:** Michael Rodriguez, CFO
+**To:** Dr. Sarah Chen, Leadership Team
+**Subject:** Re: Implementation Plan for Campus Mental Health Support Program
 
 Sarah,
 
 The financial projections look solid. Can you provide more detail on the ROI calculation methodology? Also, how does this align with our current EAP vendor contract that expires in 6 months?
 
-Thanks,  
-Michael  
+Thanks,
+Michael
 
 ---
 
-**From:** Dr. Sarah Chen  
-**To:** Michael Rodriguez, Leadership Team  
-**Subject:** Re: Implementation Plan for Campus Mental Health Support Program  
+**From:** Dr. Sarah Chen
+**To:** Michael Rodriguez, Leadership Team
+**Subject:** Re: Implementation Plan for Campus Mental Health Support Program
 
 Michael,
 
@@ -57,14 +57,14 @@ Regarding the EAP contract, this program will complement rather than replace our
 
 I've attached the detailed financial model for your review.
 
-Best,  
-Sarah  
+Best,
+Sarah
 
 ---
 
-**From:** Jennifer Walsh, Chief Nursing Officer  
-**To:** Dr. Sarah Chen, Leadership Team  
-**Subject:** Re: Implementation Plan for Campus Mental Health Support Program  
+**From:** Jennifer Walsh, Chief Nursing Officer
+**To:** Dr. Sarah Chen, Leadership Team
+**Subject:** Re: Implementation Plan for Campus Mental Health Support Program
 
 Sarah,
 
@@ -72,13 +72,13 @@ This is a critical initiative that our nursing staff has been advocating for. Th
 
 Also, should we consider partnerships with local mental health organizations for additional resources?
 
-Jennifer  
+Jennifer
 
 ---
 
-**From:** Dr. Sarah Chen  
-**To:** Jennifer Walsh, Leadership Team  
-**Subject:** Re: Implementation Plan for Campus Mental Health Support Program  
+**From:** Dr. Sarah Chen
+**To:** Jennifer Walsh, Leadership Team
+**Subject:** Re: Implementation Plan for Campus Mental Health Support Program
 
 Jennifer,
 
@@ -88,5 +88,5 @@ Great suggestion on partnerships. I've reached out to three local mental health 
 
 Let's discuss this further in the kickoff meeting.
 
-Best,  
+Best,
 Sarah

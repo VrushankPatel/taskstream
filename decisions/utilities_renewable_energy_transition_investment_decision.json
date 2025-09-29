@@ -3,8 +3,17 @@
   "context": "Regional utility company evaluating major transition to renewable energy sources to meet 2030 carbon reduction targets",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors", "Regulatory Affairs Director"],
-    "influencers": ["Chief Financial Officer", "Chief Operating Officer", "Environmental NGOs", "Local Government"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Regulatory Affairs Director"
+    ],
+    "influencers": [
+      "Chief Financial Officer",
+      "Chief Operating Officer",
+      "Environmental NGOs",
+      "Local Government"
+    ]
   },
   "request": {
     "amount": "$750 million",
@@ -16,28 +25,54 @@
     {
       "stage": "strategic_planning",
       "duration": "2 months",
-      "activities": ["Market analysis", "Technology assessment", "Regulatory review", "Financial modeling"],
+      "activities": [
+        "Market analysis",
+        "Technology assessment",
+        "Regulatory review",
+        "Financial modeling"
+      ],
       "outcome": "Approved for detailed feasibility study"
     },
     {
       "stage": "feasibility_assessment",
       "duration": "4 months",
-      "activities": ["Site selection", "Environmental impact studies", "Grid integration analysis", "Cost-benefit analysis"],
+      "activities": [
+        "Site selection",
+        "Environmental impact studies",
+        "Grid integration analysis",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Identified significant environmental impacts requiring mitigation"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "1 month",
-      "activities": ["Community meetings", "Environmental consultations", "Regulatory approvals", "Investor presentations"],
+      "activities": [
+        "Community meetings",
+        "Environmental consultations",
+        "Regulatory approvals",
+        "Investor presentations"
+      ],
       "outcome": "Strong community support with conditional approvals"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% renewable energy portfolio by 2030, 25% reduction in carbon emissions",
     "projected_value": "$200 million in long-term cost savings through avoided fuel costs",
-    "risk_factors": ["Technology cost overruns", "Regulatory changes", "Grid stability challenges", "Community opposition"]
+    "risk_factors": [
+      "Technology cost overruns",
+      "Regulatory changes",
+      "Grid stability challenges",
+      "Community opposition"
+    ]
   },
-  "decision_criteria": ["Financial viability (ROI >8%)", "Environmental impact", "Regulatory compliance", "Grid reliability", "Community acceptance"],
+  "decision_criteria": [
+    "Financial viability (ROI >8%)",
+    "Environmental impact",
+    "Regulatory compliance",
+    "Grid reliability",
+    "Community acceptance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early community engagement and phased implementation reduce risks; comprehensive stakeholder analysis essential for infrastructure projects"
 }

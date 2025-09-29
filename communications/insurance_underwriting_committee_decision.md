@@ -1,8 +1,8 @@
 ## Email Thread: Insurance Underwriting Committee Decision - Large Commercial Account
 
-**From:** Senior Underwriter  
-**To:** Underwriting Committee, Account Executive  
-**Subject:** Underwriting Review: TechCorp Manufacturing - $50M Property Policy  
+**From:** Senior Underwriter
+**To:** Underwriting Committee, Account Executive
+**Subject:** Underwriting Review: TechCorp Manufacturing - $50M Property Policy
 
 Team,
 
@@ -33,17 +33,17 @@ Requesting underwriting committee review for TechCorp Manufacturing's $50M prope
 
 Please review the attached risk analysis and provide your recommendations by COB Friday.
 
-Regards,  
-Alexandra Rivera  
-Senior Underwriter  
-alexandra.rivera@insuranceco.com  
+Regards,
+Alexandra Rivera
+Senior Underwriter
+alexandra.rivera@insuranceco.com
 (555) 456-7890
 
 ---
 
-**From:** Chief Underwriter  
-**To:** Senior Underwriter, Underwriting Committee  
-**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy  
+**From:** Chief Underwriter
+**To:** Senior Underwriter, Underwriting Committee
+**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy
 
 Alexandra,
 
@@ -62,15 +62,15 @@ I've reviewed the submission. Strong account with excellent risk profile. Suppor
 
 Please incorporate these changes and prepare final quote.
 
-David Chen  
-Chief Underwriter  
+David Chen
+Chief Underwriter
 david.chen@insuranceco.com
 
 ---
 
-**From:** Senior Underwriter  
-**To:** Chief Underwriter, Underwriting Committee, Account Executive  
-**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy  
+**From:** Senior Underwriter
+**To:** Chief Underwriter, Underwriting Committee, Account Executive
+**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy
 
 David,
 
@@ -99,9 +99,9 @@ Alexandra
 
 ---
 
-**From:** Account Executive  
-**To:** Senior Underwriter, Chief Underwriter, Underwriting Committee  
-**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy  
+**From:** Account Executive
+**To:** Senior Underwriter, Chief Underwriter, Underwriting Committee
+**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy
 
 Alexandra and team,
 
@@ -119,15 +119,15 @@ Client feedback on the revised terms is positive. The reduced deductible and cyb
 
 This account demonstrates our value proposition in the manufacturing sector.
 
-Michael Torres  
-Account Executive  
+Michael Torres
+Account Executive
 michael.torres@insuranceco.com
 
 ---
 
-**From:** Chief Underwriter  
-**To:** Senior Underwriter, Account Executive, Underwriting Committee  
-**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy  
+**From:** Chief Underwriter
+**To:** Senior Underwriter, Account Executive, Underwriting Committee
+**Subject:** Re: Underwriting Review: TechCorp Manufacturing - $50M Property Policy
 
 Approved. Excellent work on this strategic account. The revised terms balance risk management with competitive positioning.
 

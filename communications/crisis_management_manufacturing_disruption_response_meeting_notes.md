@@ -1,10 +1,10 @@
 ## Meeting Notes: Crisis Management Manufacturing Disruption Response
 
-**Meeting Title:** Supply Chain Crisis Response - Semiconductor Chip Shortage Impact Assessment  
-**Date:** September 28, 2025  
-**Time:** 8:00 AM - 10:30 AM  
-**Location:** Emergency Operations Center  
-**Attendees:** CEO (Robert Kim), COO (Sarah Patel), Supply Chain Director (Mike Chen), Operations Managers (4), Procurement Team (3), Communications Lead (1)  
+**Meeting Title:** Supply Chain Crisis Response - Semiconductor Chip Shortage Impact Assessment
+**Date:** September 28, 2025
+**Time:** 8:00 AM - 10:30 AM
+**Location:** Emergency Operations Center
+**Attendees:** CEO (Robert Kim), COO (Sarah Patel), Supply Chain Director (Mike Chen), Operations Managers (4), Procurement Team (3), Communications Lead (1)
 
 ### Crisis Overview
 - **Trigger Event:** Major supplier bankruptcy affecting 40% of semiconductor chip supply
@@ -98,5 +98,5 @@
 - **Weekly Executive Reviews:** Comprehensive progress assessments
 - **Customer Recovery Team:** Dedicated support for impacted accounts
 
-**Meeting adjourned at 10:30 AM**  
+**Meeting adjourned at 10:30 AM**
 **Next meeting:** September 29, 2025 - Daily Crisis Update

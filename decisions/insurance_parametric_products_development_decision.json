@@ -3,8 +3,16 @@
   "context": "Mid-sized insurance company exploring parametric insurance products for faster claims settlement in weather-related events",
   "stakeholders": {
     "requester": "Head of Product Development",
-    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer", "CEO"],
-    "influencers": ["Actuarial Director", "IT Innovation Lead", "Regulatory Compliance Officer"]
+    "approvers": [
+      "Chief Underwriting Officer",
+      "Chief Risk Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Actuarial Director",
+      "IT Innovation Lead",
+      "Regulatory Compliance Officer"
+    ]
   },
   "request": {
     "amount": "$750K",
@@ -16,28 +24,50 @@
     {
       "stage": "feasibility_study",
       "duration": "4 weeks",
-      "activities": ["Market analysis", "Technology assessment", "Regulatory review"],
+      "activities": [
+        "Market analysis",
+        "Technology assessment",
+        "Regulatory review"
+      ],
       "outcome": "Feasible for crop and weather-related insurance lines"
     },
     {
       "stage": "pilot_design",
       "duration": "8 weeks",
-      "activities": ["Product design", "Data source integration", "Actuarial modeling"],
+      "activities": [
+        "Product design",
+        "Data source integration",
+        "Actuarial modeling"
+      ],
       "outcome": "Pilot product specifications completed"
     },
     {
       "stage": "regulatory_approval",
       "duration": "6 weeks",
-      "activities": ["Regulatory filings", "Legal review", "Compliance testing"],
+      "activities": [
+        "Regulatory filings",
+        "Legal review",
+        "Compliance testing"
+      ],
       "outcome": "Approved for limited market rollout"
     }
   ],
   "business_impact": {
     "expected_outcome": "New revenue stream from parametric products, improved customer satisfaction through fast claims",
     "projected_value": "$2.1M in new premiums over 3 years",
-    "risk_factors": ["Regulatory uncertainty", "Data accuracy concerns", "Market acceptance", "Basis risk"]
+    "risk_factors": [
+      "Regulatory uncertainty",
+      "Data accuracy concerns",
+      "Market acceptance",
+      "Basis risk"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance", "Technical feasibility", "Market demand", "Risk management"],
+  "decision_criteria": [
+    "Regulatory compliance",
+    "Technical feasibility",
+    "Market demand",
+    "Risk management"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Parametric products require careful parameter selection to balance customer value with company risk. Early regulatory engagement is crucial for innovative insurance products. Pilot programs should include diverse customer segments to test market acceptance. Clear communication about how parametric products differ from traditional insurance is essential for customer understanding."
 }

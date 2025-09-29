@@ -1,40 +1,76 @@
 workflow:
-  id: "workflow_telecom_network_operations"
-  title: "Telecom Network Operations Management"
-  department: "Network Operations"
-  complexity: "high"
-  participants: ["Network Operations Center (NOC) Manager", "Network Engineer", "Field Technician", "Customer Service Lead", "Security Analyst"]
-  trigger: "Network outage detected, performance degradation alert, or planned maintenance window"
+  id: workflow_telecom_network_operations
+  title: Telecom Network Operations Management
+  department: Network Operations
+  complexity: high
+  participants:
+  - Network Operations Center (NOC) Manager
+  - Network Engineer
+  - Field Technician
+  - Customer Service Lead
+  - Security Analyst
+  trigger: Network outage detected, performance degradation alert, or planned maintenance
+    window
   steps:
-    - step: 1
-      actor: "NOC Manager"
-      action: "Triage incident and assess impact"
-      tools: ["Network monitoring dashboard", "Incident management system"]
-      duration: "15 minutes"
-      outputs: ["Incident classification", "Initial impact assessment"]
-    - step: 2
-      actor: "Network Engineer"
-      action: "Diagnose root cause and develop resolution plan"
-      decision_points: ["Hardware vs software issue", "Local vs systemic problem", "Immediate vs scheduled fix"]
-      duration: "1-4 hours"
-      outputs: ["Root cause analysis", "Resolution plan", "Estimated restoration time"]
-    - step: 3
-      actor: "Field Technician"
-      action: "Execute field repairs or equipment replacements"
-      tools: ["Diagnostic tools", "Replacement equipment inventory", "Safety gear"]
-      duration: "2-8 hours"
-      outputs: ["Repair completion report", "Equipment replacement log"]
-    - step: 4
-      actor: "Customer Service Lead"
-      action: "Communicate status updates to affected customers"
-      tools: ["Customer communication platform", "Status update templates"]
-      duration: "Ongoing during incident"
-      outputs: ["Customer notifications", "Status update logs"]
-    - step: 5
-      actor: "Security Analyst"
-      action: "Review incident for security implications and implement preventive measures"
-      decision_points: ["Security breach suspected", "Vulnerability exploitation", "Policy updates needed"]
-      duration: "Post-incident review (1-2 days)"
-      outputs: ["Security assessment report", "Preventive action plan"]
-  success_criteria: "Network availability >99.9%, incident resolution within SLA, customer satisfaction >90%"
-  failure_modes: ["Insufficient spare parts inventory", "Inadequate staff during peak hours", "Third-party vendor delays", "Incomplete documentation", "Security vulnerabilities exploited"]
+  - step: 1
+    actor: NOC Manager
+    action: Triage incident and assess impact
+    tools:
+    - Network monitoring dashboard
+    - Incident management system
+    duration: 15 minutes
+    outputs:
+    - Incident classification
+    - Initial impact assessment
+  - step: 2
+    actor: Network Engineer
+    action: Diagnose root cause and develop resolution plan
+    decision_points:
+    - Hardware vs software issue
+    - Local vs systemic problem
+    - Immediate vs scheduled fix
+    duration: 1-4 hours
+    outputs:
+    - Root cause analysis
+    - Resolution plan
+    - Estimated restoration time
+  - step: 3
+    actor: Field Technician
+    action: Execute field repairs or equipment replacements
+    tools:
+    - Diagnostic tools
+    - Replacement equipment inventory
+    - Safety gear
+    duration: 2-8 hours
+    outputs:
+    - Repair completion report
+    - Equipment replacement log
+  - step: 4
+    actor: Customer Service Lead
+    action: Communicate status updates to affected customers
+    tools:
+    - Customer communication platform
+    - Status update templates
+    duration: Ongoing during incident
+    outputs:
+    - Customer notifications
+    - Status update logs
+  - step: 5
+    actor: Security Analyst
+    action: Review incident for security implications and implement preventive measures
+    decision_points:
+    - Security breach suspected
+    - Vulnerability exploitation
+    - Policy updates needed
+    duration: Post-incident review (1-2 days)
+    outputs:
+    - Security assessment report
+    - Preventive action plan
+  success_criteria: Network availability >99.9%, incident resolution within SLA, customer
+    satisfaction >90%
+  failure_modes:
+  - Insufficient spare parts inventory
+  - Inadequate staff during peak hours
+  - Third-party vendor delays
+  - Incomplete documentation
+  - Security vulnerabilities exploited

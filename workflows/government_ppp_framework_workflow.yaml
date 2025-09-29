@@ -1,47 +1,92 @@
 workflow:
-  id: "workflow_ppp_framework"
-  title: "Public-Private Partnership Framework Workflow"
-  department: "Economic Development"
-  complexity: "high"
-  participants: ["Government Project Manager", "Private Sector Partner", "Legal Counsel", "Financial Analyst", "Stakeholder Engagement Lead", "Risk Assessment Specialist"]
-  trigger: "Infrastructure or service delivery project requires private sector expertise and funding"
+  id: workflow_ppp_framework
+  title: Public-Private Partnership Framework Workflow
+  department: Economic Development
+  complexity: high
+  participants:
+  - Government Project Manager
+  - Private Sector Partner
+  - Legal Counsel
+  - Financial Analyst
+  - Stakeholder Engagement Lead
+  - Risk Assessment Specialist
+  trigger: Infrastructure or service delivery project requires private sector expertise
+    and funding
   steps:
-    - step: 1
-      actor: "Government Project Manager"
-      action: "Define project scope and partnership objectives"
-      tools: ["Project scoping templates", "Stakeholder analysis tools", "PPP feasibility studies"]
-      duration: "4-6 weeks"
-      outputs: ["Project scope document", "Partnership objectives statement"]
-    - step: 2
-      actor: "Stakeholder Engagement Lead"
-      action: "Conduct stakeholder analysis and engagement planning"
-      tools: ["Stakeholder mapping tools", "Engagement planning frameworks", "Communication protocols"]
-      duration: "3-5 weeks"
-      outputs: ["Stakeholder analysis report", "Engagement plan"]
-      decision_points: ["Public consultation required?", "Community impact assessments needed?"]
-    - step: 3
-      actor: "Financial Analyst"
-      action: "Develop financial model and risk allocation framework"
-      tools: ["Financial modeling software", "Risk assessment frameworks", "PPP contract templates"]
-      duration: "6-8 weeks"
-      outputs: ["Financial model", "Risk allocation matrix"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Draft partnership agreement and ensure regulatory compliance"
-      tools: ["PPP legal templates", "Regulatory compliance checklists", "Contract negotiation protocols"]
-      duration: "8-12 weeks"
-      outputs: ["Partnership agreement", "Regulatory compliance documentation"]
-    - step: 5
-      actor: "Risk Assessment Specialist"
-      action: "Conduct comprehensive risk assessment and mitigation planning"
-      tools: ["Risk assessment methodologies", "Mitigation strategy frameworks", "Monitoring and evaluation tools"]
-      duration: "4-6 weeks"
-      outputs: ["Risk assessment report", "Mitigation plan"]
-    - step: 6
-      actor: "Government Project Manager and Private Sector Partner"
-      action: "Implement partnership and establish governance structures"
-      tools: ["Project management platforms", "Governance frameworks", "Performance monitoring systems"]
-      duration: "Ongoing"
-      outputs: ["Implementation plan", "Governance structure documentation"]
-  success_criteria: "Successful project delivery meeting public objectives with appropriate risk sharing and value for money"
-  failure_modes: ["Misaligned objectives", "Poor risk allocation", "Regulatory hurdles", "Stakeholder opposition", "Financial sustainability issues"]
+  - step: 1
+    actor: Government Project Manager
+    action: Define project scope and partnership objectives
+    tools:
+    - Project scoping templates
+    - Stakeholder analysis tools
+    - PPP feasibility studies
+    duration: 4-6 weeks
+    outputs:
+    - Project scope document
+    - Partnership objectives statement
+  - step: 2
+    actor: Stakeholder Engagement Lead
+    action: Conduct stakeholder analysis and engagement planning
+    tools:
+    - Stakeholder mapping tools
+    - Engagement planning frameworks
+    - Communication protocols
+    duration: 3-5 weeks
+    outputs:
+    - Stakeholder analysis report
+    - Engagement plan
+    decision_points:
+    - Public consultation required?
+    - Community impact assessments needed?
+  - step: 3
+    actor: Financial Analyst
+    action: Develop financial model and risk allocation framework
+    tools:
+    - Financial modeling software
+    - Risk assessment frameworks
+    - PPP contract templates
+    duration: 6-8 weeks
+    outputs:
+    - Financial model
+    - Risk allocation matrix
+  - step: 4
+    actor: Legal Counsel
+    action: Draft partnership agreement and ensure regulatory compliance
+    tools:
+    - PPP legal templates
+    - Regulatory compliance checklists
+    - Contract negotiation protocols
+    duration: 8-12 weeks
+    outputs:
+    - Partnership agreement
+    - Regulatory compliance documentation
+  - step: 5
+    actor: Risk Assessment Specialist
+    action: Conduct comprehensive risk assessment and mitigation planning
+    tools:
+    - Risk assessment methodologies
+    - Mitigation strategy frameworks
+    - Monitoring and evaluation tools
+    duration: 4-6 weeks
+    outputs:
+    - Risk assessment report
+    - Mitigation plan
+  - step: 6
+    actor: Government Project Manager and Private Sector Partner
+    action: Implement partnership and establish governance structures
+    tools:
+    - Project management platforms
+    - Governance frameworks
+    - Performance monitoring systems
+    duration: Ongoing
+    outputs:
+    - Implementation plan
+    - Governance structure documentation
+  success_criteria: Successful project delivery meeting public objectives with appropriate
+    risk sharing and value for money
+  failure_modes:
+  - Misaligned objectives
+  - Poor risk allocation
+  - Regulatory hurdles
+  - Stakeholder opposition
+  - Financial sustainability issues

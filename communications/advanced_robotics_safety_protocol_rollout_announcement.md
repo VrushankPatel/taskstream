@@ -1,9 +1,9 @@
 # Advanced Robotics Safety Protocol Rollout Announcement
 
-**From:** Safety and Operations Leadership Team  
-**To:** All Manufacturing Personnel  
-**Date:** October 1, 2025  
-**Subject:** Implementation of Enhanced Safety Protocols for Collaborative Robotics Systems  
+**From:** Safety and Operations Leadership Team
+**To:** All Manufacturing Personnel
+**Date:** October 1, 2025
+**Subject:** Implementation of Enhanced Safety Protocols for Collaborative Robotics Systems
 
 ## Executive Summary
 

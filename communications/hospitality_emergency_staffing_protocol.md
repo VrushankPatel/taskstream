@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Emergency Staffing Protocol
 
-**From:** Human Resources Director  
-**To:** All Hotel General Managers, Department Heads  
-**Subject:** Critical: Emergency Staffing Protocol Activation - Weather Event Response  
+**From:** Human Resources Director
+**To:** All Hotel General Managers, Department Heads
+**Subject:** Critical: Emergency Staffing Protocol Activation - Weather Event Response
 
 Dear Team,
 
@@ -32,17 +32,17 @@ Due to the approaching severe weather system expected to impact our region start
 
 Please confirm receipt of this message and report any staffing concerns immediately. Safety of our guests and team members is our top priority.
 
-Best regards,  
-Jennifer Walsh  
-Human Resources Director  
-jennifer.walsh@hospitalitygroup.com  
+Best regards,
+Jennifer Walsh
+Human Resources Director
+jennifer.walsh@hospitalitygroup.com
 (555) 987-6543
 
 ---
 
-**From:** Operations Director  
-**To:** Human Resources Director, All Hotel General Managers  
-**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response  
+**From:** Operations Director
+**To:** Human Resources Director, All Hotel General Managers
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
 
 Jennifer,
 
@@ -60,15 +60,15 @@ Operations team supports this activation. We've reviewed staffing levels across 
 
 Let's coordinate a conference call at 4 PM to finalize property-specific plans.
 
-Mark Thompson  
-Operations Director  
+Mark Thompson
+Operations Director
 mark.thompson@hospitalitygroup.com
 
 ---
 
-**From:** Human Resources Director  
-**To:** Operations Director, All Hotel General Managers, Department Heads  
-**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response  
+**From:** Human Resources Director
+**To:** Operations Director, All Hotel General Managers, Department Heads
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
 
 Mark,
 
@@ -97,9 +97,9 @@ Jennifer
 
 ---
 
-**From:** General Manager - Downtown Property  
-**To:** Human Resources Director, Operations Director  
-**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response  
+**From:** General Manager - Downtown Property
+**To:** Human Resources Director, Operations Director
+**Subject:** Re: Critical: Emergency Staffing Protocol Activation - Weather Event Response
 
 Jennifer and Mark,
 

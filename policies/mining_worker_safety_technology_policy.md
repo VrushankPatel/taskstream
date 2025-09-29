@@ -161,6 +161,6 @@ The organization prioritizes worker safety through the implementation and mainte
 - Technology Implementation Standards
 
 ## Approval
-Approved by: Chief Safety Officer  
-Date: [Current Date]  
+Approved by: Chief Safety Officer
+Date: [Current Date]
 Review Date: [One year from approval]

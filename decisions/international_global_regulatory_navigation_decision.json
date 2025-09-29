@@ -3,8 +3,17 @@
   "context": "Global technology company expanding operations across 25 countries, requiring comprehensive regulatory navigation strategy",
   "stakeholders": {
     "requester": "Chief Compliance Officer",
-    "approvers": ["CEO", "General Counsel", "Chief Operating Officer"],
-    "influencers": ["Regional Directors", "Legal Department", "External Regulatory Consultants", "Industry Associations"]
+    "approvers": [
+      "CEO",
+      "General Counsel",
+      "Chief Operating Officer"
+    ],
+    "influencers": [
+      "Regional Directors",
+      "Legal Department",
+      "External Regulatory Consultants",
+      "Industry Associations"
+    ]
   },
   "request": {
     "amount": "$12M",
@@ -16,34 +25,65 @@
     {
       "stage": "regulatory_assessment",
       "duration": "6 weeks",
-      "activities": ["Global regulatory landscape mapping", "Compliance gap analysis", "Risk prioritization", "Resource requirement assessment"],
+      "activities": [
+        "Global regulatory landscape mapping",
+        "Compliance gap analysis",
+        "Risk prioritization",
+        "Resource requirement assessment"
+      ],
       "outcome": "Identified 47 critical regulatory requirements across target markets"
     },
     {
       "stage": "solution_evaluation",
       "duration": "4 weeks",
-      "activities": ["Technology platform evaluation", "Vendor capability assessment", "Integration feasibility analysis", "Cost-benefit modeling"],
+      "activities": [
+        "Technology platform evaluation",
+        "Vendor capability assessment",
+        "Integration feasibility analysis",
+        "Cost-benefit modeling"
+      ],
       "outcome": "Selected comprehensive regulatory technology platform with global coverage"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Project timeline development", "Resource allocation planning", "Change management strategy", "Training program design"],
+      "activities": [
+        "Project timeline development",
+        "Resource allocation planning",
+        "Change management strategy",
+        "Training program design"
+      ],
       "outcome": "Developed phased implementation plan with milestones and KPIs"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Executive presentation", "Board review", "Final budget approval", "Stakeholder alignment"],
+      "activities": [
+        "Executive presentation",
+        "Board review",
+        "Final budget approval",
+        "Stakeholder alignment"
+      ],
       "outcome": "Approved with conditional implementation milestones"
     }
   ],
   "business_impact": {
     "expected_outcome": "Streamlined international expansion, reduced compliance costs by 30%, minimized regulatory risk exposure",
     "projected_value": "$85M in avoided fines and accelerated market entry over 5 years",
-    "risk_factors": ["Regulatory changes during implementation", "Technology integration challenges", "Resource constraints", "Cultural adaptation requirements"]
+    "risk_factors": [
+      "Regulatory changes during implementation",
+      "Technology integration challenges",
+      "Resource constraints",
+      "Cultural adaptation requirements"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance coverage", "Technology scalability and integration", "Cost efficiency and ROI", "Implementation timeline", "Stakeholder adoption and training"],
+  "decision_criteria": [
+    "Regulatory compliance coverage",
+    "Technology scalability and integration",
+    "Cost efficiency and ROI",
+    "Implementation timeline",
+    "Stakeholder adoption and training"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory assessment critical for global expansion, technology platform selection should prioritize flexibility over features, comprehensive training essential for compliance team adoption"
 }

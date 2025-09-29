@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_049_006"
-  title: "Healthcare Genomics Sequencing Workflow"
-  department: "Genomics Laboratory"
-  complexity: "medium"
-  participants: ["Genetic Counselors", "Lab Technicians", "Bioinformatics Analysts", "Clinical Geneticists", "Quality Assurance"]
-  trigger: "Patient genetic testing order received"
+  id: workflow_049_006
+  title: Healthcare Genomics Sequencing Workflow
+  department: Genomics Laboratory
+  complexity: medium
+  participants:
+  - Genetic Counselors
+  - Lab Technicians
+  - Bioinformatics Analysts
+  - Clinical Geneticists
+  - Quality Assurance
+  trigger: Patient genetic testing order received
   steps:
-    - step: 1
-      actor: "Genetic Counselors"
-      action: "Review test requisition and obtain informed consent"
-      tools: ["Electronic health records", "Consent management systems"]
-      duration: "1 day"
-      outputs: ["Consent documentation", "Test authorization"]
-    - step: 2
-      actor: "Lab Technicians"
-      action: "Extract and prepare DNA samples"
-      tools: ["DNA extraction kits", "Sample preparation equipment"]
-      duration: "2 days"
-      outputs: ["Prepared DNA samples", "Quality control metrics"]
-    - step: 3
-      actor: "Lab Technicians"
-      action: "Perform next-generation sequencing"
-      tools: ["Sequencing platforms", "Library preparation systems"]
-      duration: "3 days"
-      outputs: ["Raw sequencing data", "Run quality metrics"]
-    - step: 4
-      actor: "Bioinformatics Analysts"
-      action: "Process and analyze sequencing data"
-      tools: ["Bioinformatics pipelines", "Variant calling software", "Annotation databases"]
-      duration: "1 week"
-      outputs: ["Variant reports", "Clinical interpretations"]
-    - step: 5
-      actor: "Clinical Geneticists"
-      action: "Review results and prepare clinical report"
-      tools: ["Medical literature databases", "Clinical decision support"]
-      duration: "3 days"
-      outputs: ["Clinical report", "Treatment recommendations"]
-    - step: 6
-      actor: "Genetic Counselors"
-      action: "Deliver results and provide genetic counseling"
-      tools: ["Telemedicine platforms", "Patient education materials"]
-      duration: "1 week"
-      outputs: ["Patient counseling sessions", "Follow-up care plan"]
-  success_criteria: "Accurate genetic results delivered within 2 weeks of sample receipt"
-  failure_modes: ["Sample quality issues", "Sequencing failures", "Variant interpretation challenges"]
+  - step: 1
+    actor: Genetic Counselors
+    action: Review test requisition and obtain informed consent
+    tools:
+    - Electronic health records
+    - Consent management systems
+    duration: 1 day
+    outputs:
+    - Consent documentation
+    - Test authorization
+  - step: 2
+    actor: Lab Technicians
+    action: Extract and prepare DNA samples
+    tools:
+    - DNA extraction kits
+    - Sample preparation equipment
+    duration: 2 days
+    outputs:
+    - Prepared DNA samples
+    - Quality control metrics
+  - step: 3
+    actor: Lab Technicians
+    action: Perform next-generation sequencing
+    tools:
+    - Sequencing platforms
+    - Library preparation systems
+    duration: 3 days
+    outputs:
+    - Raw sequencing data
+    - Run quality metrics
+  - step: 4
+    actor: Bioinformatics Analysts
+    action: Process and analyze sequencing data
+    tools:
+    - Bioinformatics pipelines
+    - Variant calling software
+    - Annotation databases
+    duration: 1 week
+    outputs:
+    - Variant reports
+    - Clinical interpretations
+  - step: 5
+    actor: Clinical Geneticists
+    action: Review results and prepare clinical report
+    tools:
+    - Medical literature databases
+    - Clinical decision support
+    duration: 3 days
+    outputs:
+    - Clinical report
+    - Treatment recommendations
+  - step: 6
+    actor: Genetic Counselors
+    action: Deliver results and provide genetic counseling
+    tools:
+    - Telemedicine platforms
+    - Patient education materials
+    duration: 1 week
+    outputs:
+    - Patient counseling sessions
+    - Follow-up care plan
+  success_criteria: Accurate genetic results delivered within 2 weeks of sample receipt
+  failure_modes:
+  - Sample quality issues
+  - Sequencing failures
+  - Variant interpretation challenges

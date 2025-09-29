@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_technology_ai_implementation_frameworks"
-  title: "AI Implementation Frameworks"
-  department: "AI & Machine Learning"
-  complexity: "high"
-  participants: ["AI Program Manager", "Data Scientists", "ML Engineers", "Business Analysts"]
-  trigger: "AI opportunity identification in business processes"
+  id: workflow_technology_ai_implementation_frameworks
+  title: AI Implementation Frameworks
+  department: AI & Machine Learning
+  complexity: high
+  participants:
+  - AI Program Manager
+  - Data Scientists
+  - ML Engineers
+  - Business Analysts
+  trigger: AI opportunity identification in business processes
   steps:
-    - step: 1
-      actor: "AI Program Manager"
-      action: "Establish AI governance and ethical frameworks"
-      tools: ["AI governance templates", "Ethical AI frameworks"]
-      duration: "3 weeks"
-      outputs: ["AI governance framework"]
-    - step: 2
-      actor: "Data Scientists"
-      action: "Develop and validate AI models"
-      tools: ["ML development platforms", "Model validation tools"]
-      duration: "6 weeks"
-      outputs: ["Validated AI models"]
-    - step: 3
-      actor: "ML Engineers"
-      action: "Deploy AI models to production environments"
-      tools: ["MLOps platforms", "Model deployment tools"]
-      duration: "4 weeks"
-      outputs: ["Production AI systems"]
-    - step: 4
-      actor: "Business Analysts"
-      action: "Monitor AI performance and business impact"
-      tools: ["AI monitoring dashboards", "Business intelligence tools"]
-      duration: "Ongoing"
-      outputs: ["AI performance reports"]
-  success_criteria: "AI models deployed with measurable business impact"
-  failure_modes: ["Data quality issues", "Model bias", "Integration challenges"]
+  - step: 1
+    actor: AI Program Manager
+    action: Establish AI governance and ethical frameworks
+    tools:
+    - AI governance templates
+    - Ethical AI frameworks
+    duration: 3 weeks
+    outputs:
+    - AI governance framework
+  - step: 2
+    actor: Data Scientists
+    action: Develop and validate AI models
+    tools:
+    - ML development platforms
+    - Model validation tools
+    duration: 6 weeks
+    outputs:
+    - Validated AI models
+  - step: 3
+    actor: ML Engineers
+    action: Deploy AI models to production environments
+    tools:
+    - MLOps platforms
+    - Model deployment tools
+    duration: 4 weeks
+    outputs:
+    - Production AI systems
+  - step: 4
+    actor: Business Analysts
+    action: Monitor AI performance and business impact
+    tools:
+    - AI monitoring dashboards
+    - Business intelligence tools
+    duration: Ongoing
+    outputs:
+    - AI performance reports
+  success_criteria: AI models deployed with measurable business impact
+  failure_modes:
+  - Data quality issues
+  - Model bias
+  - Integration challenges

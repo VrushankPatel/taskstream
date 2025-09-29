@@ -1,8 +1,8 @@
 ## Email Thread: AI Ethics Policy Rollout
 
-**From:** Chief AI Ethics Officer  
-**To:** All Employees  
-**Subject:** New AI Ethics Framework - Implementation Beginning Next Month  
+**From:** Chief AI Ethics Officer
+**To:** All Employees
+**Subject:** New AI Ethics Framework - Implementation Beginning Next Month
 
 Dear Team,
 
@@ -29,14 +29,14 @@ Recent regulatory developments and growing public scrutiny of AI systems make th
 
 Please review the attached framework document and complete your training modules by October 31st. Contact my office with any questions.
 
-Best regards,  
+Best regards,
 Chief AI Ethics Officer
 
 ---
 
-**From:** VP Engineering  
-**To:** Chief AI Ethics Officer, Engineering Team  
-**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month  
+**From:** VP Engineering
+**To:** Chief AI Ethics Officer, Engineering Team
+**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month
 
 This is a critical initiative that aligns well with our engineering excellence standards. I've reviewed the framework and appreciate the practical implementation guidance.
 
@@ -51,9 +51,9 @@ VP Engineering
 
 ---
 
-**From:** Chief AI Ethics Officer  
-**To:** VP Engineering  
-**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month  
+**From:** Chief AI Ethics Officer
+**To:** VP Engineering
+**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month
 
 Great questions. To address your concerns:
 
@@ -63,14 +63,14 @@ Great questions. To address your concerns:
 
 The training will cover these processes in detail.
 
-Regards,  
+Regards,
 Chief AI Ethics Officer
 
 ---
 
-**From:** Data Science Manager  
-**To:** Chief AI Ethics Officer, Data Science Team  
-**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month  
+**From:** Data Science Manager
+**To:** Chief AI Ethics Officer, Data Science Team
+**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month
 
 The framework looks comprehensive, but I'm concerned about the resource implications for our small team. Can we discuss scaling the requirements for different project sizes?
 
@@ -80,13 +80,13 @@ Data Science Manager
 
 ---
 
-**From:** Chief AI Ethics Officer  
-**To:** Data Science Manager  
-**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month  
+**From:** Chief AI Ethics Officer
+**To:** Data Science Manager
+**Subject:** Re: New AI Ethics Framework - Implementation Beginning Next Month
 
 Valid concerns. We have tiered requirements based on project impact and scale - small proof-of-concept projects have lighter requirements. The central ethics review board will provide support and can handle up to 80% of reviews.
 
 Let's schedule a team meeting to discuss your specific projects.
 
-Regards,  
+Regards,
 Chief AI Ethics Officer

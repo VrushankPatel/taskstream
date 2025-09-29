@@ -3,8 +3,18 @@
   "context": "Biopharmaceutical company evaluating major investment in genomics research for personalized medicine platform",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Head of R&D", "Chief Medical Officer", "VP Business Development", "Key Opinion Leaders", "Regulatory Experts"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Head of R&D",
+      "Chief Medical Officer",
+      "VP Business Development",
+      "Key Opinion Leaders",
+      "Regulatory Experts"
+    ]
   },
   "request": {
     "amount": "$200 million",
@@ -16,37 +26,67 @@
     {
       "stage": "scientific_feasibility",
       "duration": "8 weeks",
-      "activities": ["Technology landscape assessment", "Scientific advisory board consultations", "IP portfolio evaluation"],
+      "activities": [
+        "Technology landscape assessment",
+        "Scientific advisory board consultations",
+        "IP portfolio evaluation"
+      ],
       "outcome": "Strong scientific foundation with clear path to clinical applications"
     },
     {
       "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["Market size projections", "Competitive landscape analysis", "Reimbursement pathway assessment"],
+      "activities": [
+        "Market size projections",
+        "Competitive landscape analysis",
+        "Reimbursement pathway assessment"
+      ],
       "outcome": "Attractive market opportunity with $50B+ addressable market by 2030"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["NPV analysis", "Sensitivity testing", "Funding strategy development"],
+      "activities": [
+        "NPV analysis",
+        "Sensitivity testing",
+        "Funding strategy development"
+      ],
       "outcome": "Positive NPV with attractive risk-adjusted returns"
     },
     {
       "stage": "strategic_alignment",
       "duration": "3 weeks",
-      "activities": ["Portfolio fit assessment", "Synergy evaluation", "Strategic priority alignment"],
+      "activities": [
+        "Portfolio fit assessment",
+        "Synergy evaluation",
+        "Strategic priority alignment"
+      ],
       "outcome": "Excellent strategic fit with existing capabilities and pipeline"
     },
     {
       "stage": "risk_assessment",
       "duration": "2 weeks",
-      "activities": ["Technical risk evaluation", "Regulatory risk analysis", "Execution risk assessment"],
+      "activities": [
+        "Technical risk evaluation",
+        "Regulatory risk analysis",
+        "Execution risk assessment"
+      ],
       "outcome": "Manageable risk profile with clear mitigation strategies"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Accelerated drug discovery", "Personalized medicine leadership", "New revenue streams", "Scientific reputation enhancement"],
+    "expected_benefits": [
+      "Accelerated drug discovery",
+      "Personalized medicine leadership",
+      "New revenue streams",
+      "Scientific reputation enhancement"
+    ],
     "projected_revenue": "$2 billion in new product revenue over 10 years",
-    "risk_factors": ["Technology development delays", "Regulatory hurdles", "Data privacy concerns", "Market adoption challenges"]
+    "risk_factors": [
+      "Technology development delays",
+      "Regulatory hurdles",
+      "Data privacy concerns",
+      "Market adoption challenges"
+    ]
   }
 }

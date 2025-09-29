@@ -1,40 +1,80 @@
 workflow:
-  id: "workflow_004"
-  title: "Healthcare Genomics Population Screening Implementation"
-  department: "Genomics & Population Health"
-  complexity: "high"
-  participants: ["Genomics Director", "Clinical Lead", "Data Privacy Officer", "Patient Engagement Manager", "Regulatory Affairs Lead"]
-  trigger: "New genomic screening technology available for population health implementation"
+  id: workflow_004
+  title: Healthcare Genomics Population Screening Implementation
+  department: Genomics & Population Health
+  complexity: high
+  participants:
+  - Genomics Director
+  - Clinical Lead
+  - Data Privacy Officer
+  - Patient Engagement Manager
+  - Regulatory Affairs Lead
+  trigger: New genomic screening technology available for population health implementation
   steps:
-    - step: 1
-      actor: "Genomics Director"
-      action: "Assess clinical validity and utility of genomic screening for target population"
-      tools: ["Clinical evidence databases", "Cost-benefit analysis tools", "Population health models"]
-      duration: "3 weeks"
-      outputs: ["Clinical assessment report", "Population health impact analysis"]
-    - step: 2
-      actor: "Regulatory Affairs Lead"
-      action: "Navigate regulatory approvals and establish compliance frameworks"
-      tools: ["Regulatory submission systems", "Compliance frameworks", "Legal consultation"]
-      duration: "6 weeks"
-      outputs: ["Regulatory approvals", "Compliance framework", "Risk mitigation plan"]
-    - step: 3
-      actor: "Data Privacy Officer"
-      action: "Develop comprehensive data privacy and security protocols for genomic data"
-      tools: ["Privacy impact assessments", "Security frameworks", "Consent management systems"]
-      duration: "4 weeks"
-      outputs: ["Privacy protocols", "Security framework", "Consent processes"]
-    - step: 4
-      actor: "Patient Engagement Manager"
-      action: "Design patient education and engagement programs for screening participation"
-      tools: ["Patient education materials", "Engagement platforms", "Communication campaigns"]
-      duration: "3 weeks"
-      outputs: ["Patient education program", "Engagement strategy", "Communication materials"]
-    - step: 5
-      actor: "Clinical Lead"
-      action: "Implement clinical workflows and establish screening delivery infrastructure"
-      tools: ["Clinical workflow systems", "Screening protocols", "Quality assurance frameworks"]
-      duration: "8 weeks"
-      outputs: ["Clinical implementation", "Quality metrics", "Operational procedures"]
-  success_criteria: "Successful screening of target population with high participation rates and clinical outcomes"
-  failure_modes: ["Regulatory barriers", "Privacy concerns", "Low participation", "Clinical validity issues"]
+  - step: 1
+    actor: Genomics Director
+    action: Assess clinical validity and utility of genomic screening for target population
+    tools:
+    - Clinical evidence databases
+    - Cost-benefit analysis tools
+    - Population health models
+    duration: 3 weeks
+    outputs:
+    - Clinical assessment report
+    - Population health impact analysis
+  - step: 2
+    actor: Regulatory Affairs Lead
+    action: Navigate regulatory approvals and establish compliance frameworks
+    tools:
+    - Regulatory submission systems
+    - Compliance frameworks
+    - Legal consultation
+    duration: 6 weeks
+    outputs:
+    - Regulatory approvals
+    - Compliance framework
+    - Risk mitigation plan
+  - step: 3
+    actor: Data Privacy Officer
+    action: Develop comprehensive data privacy and security protocols for genomic
+      data
+    tools:
+    - Privacy impact assessments
+    - Security frameworks
+    - Consent management systems
+    duration: 4 weeks
+    outputs:
+    - Privacy protocols
+    - Security framework
+    - Consent processes
+  - step: 4
+    actor: Patient Engagement Manager
+    action: Design patient education and engagement programs for screening participation
+    tools:
+    - Patient education materials
+    - Engagement platforms
+    - Communication campaigns
+    duration: 3 weeks
+    outputs:
+    - Patient education program
+    - Engagement strategy
+    - Communication materials
+  - step: 5
+    actor: Clinical Lead
+    action: Implement clinical workflows and establish screening delivery infrastructure
+    tools:
+    - Clinical workflow systems
+    - Screening protocols
+    - Quality assurance frameworks
+    duration: 8 weeks
+    outputs:
+    - Clinical implementation
+    - Quality metrics
+    - Operational procedures
+  success_criteria: Successful screening of target population with high participation
+    rates and clinical outcomes
+  failure_modes:
+  - Regulatory barriers
+  - Privacy concerns
+  - Low participation
+  - Clinical validity issues

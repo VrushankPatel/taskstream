@@ -3,8 +3,16 @@
   "context": "Management consulting firm, 150 consultants, major client project at risk",
   "stakeholders": {
     "requester": "Project Partner",
-    "approvers": ["Managing Director", "Client Relationship Partner", "Practice Leader"],
-    "influencers": ["Client executives", "Project team", "Industry experts"]
+    "approvers": [
+      "Managing Director",
+      "Client Relationship Partner",
+      "Practice Leader"
+    ],
+    "influencers": [
+      "Client executives",
+      "Project team",
+      "Industry experts"
+    ]
   },
   "request": {
     "amount": "$500,000 additional budget",
@@ -16,32 +24,52 @@
     {
       "stage": "project_assessment",
       "duration": "1 week",
-      "activities": ["Project status review", "Resource utilization analysis", "Risk assessment"],
+      "activities": [
+        "Project status review",
+        "Resource utilization analysis",
+        "Risk assessment"
+      ],
       "outcome": "Identified 6-week delay with current resources"
     },
     {
       "stage": "resource_options",
       "duration": "3 days",
-      "activities": ["Internal resource availability", "External contractor evaluation", "Cost analysis"],
+      "activities": [
+        "Internal resource availability",
+        "External contractor evaluation",
+        "Cost analysis"
+      ],
       "outcome": "Recommended mix of internal reallocation and external hiring"
     },
     {
       "stage": "client_negotiation",
       "duration": "1 week",
-      "activities": ["Scope adjustment discussions", "Timeline negotiations", "Budget discussions"],
+      "activities": [
+        "Scope adjustment discussions",
+        "Timeline negotiations",
+        "Budget discussions"
+      ],
       "outcome": "Client agreed to scope reduction and budget increase"
     },
     {
       "stage": "implementation",
       "duration": "2 days",
-      "activities": ["Resource allocation", "Team restructuring", "Communication plan"],
+      "activities": [
+        "Resource allocation",
+        "Team restructuring",
+        "Communication plan"
+      ],
       "outcome": "Approved additional budget and resource plan"
     }
   ],
   "business_impact": {
     "expected_revenue_protection": "$2 million client relationship preserved",
     "projected_profit_impact": "$300,000 additional profit from successful delivery",
-    "risk_factors": ["Resource burnout", "Quality compromise", "Client dissatisfaction"],
+    "risk_factors": [
+      "Resource burnout",
+      "Quality compromise",
+      "Client dissatisfaction"
+    ],
     "timeline": "8 weeks to project completion"
   }
 }

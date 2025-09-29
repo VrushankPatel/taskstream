@@ -1,41 +1,81 @@
 workflow:
-  id: "workflow_circular_economy"
-  title: "Circular Economy Implementation Workflow"
-  department: "Sustainability and Operations"
-  complexity: "high"
-  participants: ["Sustainability Manager", "Product Design Engineer", "Supply Chain Manager", "Quality Control Specialist", "Marketing Manager"]
-  trigger: "Corporate sustainability initiative or regulatory requirement for circular practices"
+  id: workflow_circular_economy
+  title: Circular Economy Implementation Workflow
+  department: Sustainability and Operations
+  complexity: high
+  participants:
+  - Sustainability Manager
+  - Product Design Engineer
+  - Supply Chain Manager
+  - Quality Control Specialist
+  - Marketing Manager
+  trigger: Corporate sustainability initiative or regulatory requirement for circular
+    practices
   steps:
-    - step: 1
-      actor: "Sustainability Manager"
-      action: "Conduct circular economy assessment and gap analysis"
-      tools: ["Circularity assessment frameworks", "Material flow analysis", "Life cycle assessment tools"]
-      duration: "2-4 weeks"
-      outputs: ["Circular economy roadmap", "Material circularity scorecard"]
-    - step: 2
-      actor: "Product Design Engineer"
-      action: "Redesign products for circularity including modular design and material selection"
-      tools: ["CAD software", "Material selection databases", "Design for disassembly guidelines"]
-      duration: "4-8 weeks"
-      outputs: ["Updated product designs", "Material specification sheets"]
-      decision_points: ["Design for recycling vs remanufacturing?", "Material substitution feasibility"]
-    - step: 3
-      actor: "Supply Chain Manager"
-      action: "Implement circular supply chain practices including supplier partnerships and reverse logistics"
-      tools: ["Supplier assessment tools", "Reverse logistics software", "Circular procurement guidelines"]
-      duration: "6-12 weeks"
-      outputs: ["Supplier circularity agreements", "Reverse logistics network design"]
-    - step: 4
-      actor: "Quality Control Specialist"
-      action: "Establish quality standards for recycled and remanufactured materials"
-      tools: ["Quality testing protocols", "Material certification standards", "Traceability systems"]
-      duration: "3-6 weeks"
-      outputs: ["Quality control procedures", "Material certification protocols"]
-    - step: 5
-      actor: "Marketing Manager"
-      action: "Develop circular economy marketing and customer communication strategies"
-      tools: ["Customer education materials", "Circular product labeling", "Sustainability reporting tools"]
-      duration: "4-6 weeks"
-      outputs: ["Marketing campaign materials", "Customer communication plan"]
-  success_criteria: "Achieved target circularity metrics including material recovery rates and product lifecycle extension"
-  failure_modes: ["High implementation costs", "Supplier resistance", "Customer acceptance challenges", "Regulatory compliance gaps"]
+  - step: 1
+    actor: Sustainability Manager
+    action: Conduct circular economy assessment and gap analysis
+    tools:
+    - Circularity assessment frameworks
+    - Material flow analysis
+    - Life cycle assessment tools
+    duration: 2-4 weeks
+    outputs:
+    - Circular economy roadmap
+    - Material circularity scorecard
+  - step: 2
+    actor: Product Design Engineer
+    action: Redesign products for circularity including modular design and material
+      selection
+    tools:
+    - CAD software
+    - Material selection databases
+    - Design for disassembly guidelines
+    duration: 4-8 weeks
+    outputs:
+    - Updated product designs
+    - Material specification sheets
+    decision_points:
+    - Design for recycling vs remanufacturing?
+    - Material substitution feasibility
+  - step: 3
+    actor: Supply Chain Manager
+    action: Implement circular supply chain practices including supplier partnerships
+      and reverse logistics
+    tools:
+    - Supplier assessment tools
+    - Reverse logistics software
+    - Circular procurement guidelines
+    duration: 6-12 weeks
+    outputs:
+    - Supplier circularity agreements
+    - Reverse logistics network design
+  - step: 4
+    actor: Quality Control Specialist
+    action: Establish quality standards for recycled and remanufactured materials
+    tools:
+    - Quality testing protocols
+    - Material certification standards
+    - Traceability systems
+    duration: 3-6 weeks
+    outputs:
+    - Quality control procedures
+    - Material certification protocols
+  - step: 5
+    actor: Marketing Manager
+    action: Develop circular economy marketing and customer communication strategies
+    tools:
+    - Customer education materials
+    - Circular product labeling
+    - Sustainability reporting tools
+    duration: 4-6 weeks
+    outputs:
+    - Marketing campaign materials
+    - Customer communication plan
+  success_criteria: Achieved target circularity metrics including material recovery
+    rates and product lifecycle extension
+  failure_modes:
+  - High implementation costs
+  - Supplier resistance
+  - Customer acceptance challenges
+  - Regulatory compliance gaps

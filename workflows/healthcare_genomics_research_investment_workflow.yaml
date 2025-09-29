@@ -1,41 +1,74 @@
 workflow:
-  id: "workflow_057_004"
-  title: "Healthcare Genomics Research Investment Workflow"
-  department: "Research & Development"
-  complexity: "high"
-  participants: ["Research Directors", "Genomics Scientists", "Financial Analysts", "Regulatory Specialists", "Clinical Partners"]
-  trigger: "Identification of promising genomics research opportunity requiring investment evaluation"
+  id: workflow_057_004
+  title: Healthcare Genomics Research Investment Workflow
+  department: Research & Development
+  complexity: high
+  participants:
+  - Research Directors
+  - Genomics Scientists
+  - Financial Analysts
+  - Regulatory Specialists
+  - Clinical Partners
+  trigger: Identification of promising genomics research opportunity requiring investment
+    evaluation
   steps:
-    - step: 1
-      actor: "Research Directors"
-      action: "Evaluate scientific merit and clinical potential of genomics research"
-      tools: ["Scientific literature databases", "Expert consultation networks"]
-      duration: "2 weeks"
-      outputs: ["Scientific evaluation report", "Clinical potential assessment"]
-    - step: 2
-      actor: "Genomics Scientists"
-      action: "Assess technical feasibility and timeline for research objectives"
-      tools: ["Genomics research platforms", "Technology assessment tools"]
-      duration: "3 weeks"
-      outputs: ["Technical feasibility study", "Research timeline"]
-      decision_points: ["Technology maturity", "Resource requirements"]
-    - step: 3
-      actor: "Financial Analysts"
-      action: "Conduct comprehensive investment analysis and ROI projections"
-      tools: ["Financial modeling software", "Market analysis tools"]
-      duration: "4 weeks"
-      outputs: ["Investment analysis", "ROI projections"]
-    - step: 4
-      actor: "Regulatory Specialists"
-      action: "Evaluate regulatory landscape and approval pathways"
-      tools: ["Regulatory databases", "Compliance assessment tools"]
-      duration: "2 weeks"
-      outputs: ["Regulatory assessment", "Approval pathway recommendations"]
-    - step: 5
-      actor: "Clinical Partners"
-      action: "Assess clinical adoption potential and partnership opportunities"
-      tools: ["Clinical trial databases", "Partnership evaluation frameworks"]
-      duration: "3 weeks"
-      outputs: ["Clinical adoption assessment", "Partnership opportunities"]
-  success_criteria: "Research investment approved with clear path to clinical translation and market impact"
-  failure_modes: ["Insufficient scientific merit", "Poor ROI projections", "Regulatory barriers", "Clinical adoption challenges"]
+  - step: 1
+    actor: Research Directors
+    action: Evaluate scientific merit and clinical potential of genomics research
+    tools:
+    - Scientific literature databases
+    - Expert consultation networks
+    duration: 2 weeks
+    outputs:
+    - Scientific evaluation report
+    - Clinical potential assessment
+  - step: 2
+    actor: Genomics Scientists
+    action: Assess technical feasibility and timeline for research objectives
+    tools:
+    - Genomics research platforms
+    - Technology assessment tools
+    duration: 3 weeks
+    outputs:
+    - Technical feasibility study
+    - Research timeline
+    decision_points:
+    - Technology maturity
+    - Resource requirements
+  - step: 3
+    actor: Financial Analysts
+    action: Conduct comprehensive investment analysis and ROI projections
+    tools:
+    - Financial modeling software
+    - Market analysis tools
+    duration: 4 weeks
+    outputs:
+    - Investment analysis
+    - ROI projections
+  - step: 4
+    actor: Regulatory Specialists
+    action: Evaluate regulatory landscape and approval pathways
+    tools:
+    - Regulatory databases
+    - Compliance assessment tools
+    duration: 2 weeks
+    outputs:
+    - Regulatory assessment
+    - Approval pathway recommendations
+  - step: 5
+    actor: Clinical Partners
+    action: Assess clinical adoption potential and partnership opportunities
+    tools:
+    - Clinical trial databases
+    - Partnership evaluation frameworks
+    duration: 3 weeks
+    outputs:
+    - Clinical adoption assessment
+    - Partnership opportunities
+  success_criteria: Research investment approved with clear path to clinical translation
+    and market impact
+  failure_modes:
+  - Insufficient scientific merit
+  - Poor ROI projections
+  - Regulatory barriers
+  - Clinical adoption challenges

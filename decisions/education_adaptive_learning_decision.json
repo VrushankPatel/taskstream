@@ -3,8 +3,17 @@
   "context": "University system considering $30M investment in AI-powered adaptive learning platform to improve student outcomes",
   "stakeholders": {
     "requester": "Provost of Academic Affairs",
-    "approvers": ["President", "Board of Trustees", "Academic Senate"],
-    "influencers": ["Chief Information Officer", "Department Chairs", "Student Government", "Education Technology Vendors"]
+    "approvers": [
+      "President",
+      "Board of Trustees",
+      "Academic Senate"
+    ],
+    "influencers": [
+      "Chief Information Officer",
+      "Department Chairs",
+      "Student Government",
+      "Education Technology Vendors"
+    ]
   },
   "request": {
     "amount": "$30,000,000",
@@ -16,28 +25,54 @@
     {
       "stage": "academic_assessment",
       "duration": "4 months",
-      "activities": ["Learning outcome analysis", "Student performance data review", "Faculty input collection", "Curriculum compatibility assessment"],
+      "activities": [
+        "Learning outcome analysis",
+        "Student performance data review",
+        "Faculty input collection",
+        "Curriculum compatibility assessment"
+      ],
       "outcome": "Identified opportunity for 25% improvement in student success metrics"
     },
     {
       "stage": "technology_evaluation",
       "duration": "3 months",
-      "activities": ["Platform demonstrations", "Integration feasibility studies", "Data privacy assessments", "Scalability testing"],
+      "activities": [
+        "Platform demonstrations",
+        "Integration feasibility studies",
+        "Data privacy assessments",
+        "Scalability testing"
+      ],
       "outcome": "Selected leading adaptive learning platform with proven academic results"
     },
     {
       "stage": "implementation_planning",
       "duration": "2 months",
-      "activities": ["Phased rollout strategy", "Faculty training programs", "Student communication plans", "Success metrics development"],
+      "activities": [
+        "Phased rollout strategy",
+        "Faculty training programs",
+        "Student communication plans",
+        "Success metrics development"
+      ],
       "outcome": "Comprehensive 3-year implementation roadmap with measurable milestones"
     }
   ],
   "business_impact": {
     "expected_outcome": "Enhanced student success, improved institutional rankings, increased enrollment through innovative reputation",
     "projected_value": "$75,000,000 in long-term value through improved outcomes and reputation",
-    "risk_factors": ["Faculty adoption challenges", "Technology integration issues", "Student privacy concerns", "Cost overruns"]
+    "risk_factors": [
+      "Faculty adoption challenges",
+      "Technology integration issues",
+      "Student privacy concerns",
+      "Cost overruns"
+    ]
   },
-  "decision_criteria": ["Educational impact", "Financial viability", "Technology readiness", "Stakeholder acceptance", "Scalability"],
+  "decision_criteria": [
+    "Educational impact",
+    "Financial viability",
+    "Technology readiness",
+    "Stakeholder acceptance",
+    "Scalability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Academic stakeholder engagement essential for technology adoption in higher education, comprehensive change management critical for faculty buy-in, pilot programs provide valuable validation before full implementation"
 }

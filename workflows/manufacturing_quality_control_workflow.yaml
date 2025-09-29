@@ -1,34 +1,64 @@
 workflow:
-  id: "workflow_manufacturing_quality_control"
-  title: "Automated Quality Control Workflow"
-  department: "Quality Assurance"
-  complexity: "medium"
-  participants: ["Quality Inspector", "Production Manager", "Maintenance Technician", "Supplier Quality Manager"]
-  trigger: "Product batch completes manufacturing line"
+  id: workflow_manufacturing_quality_control
+  title: Automated Quality Control Workflow
+  department: Quality Assurance
+  complexity: medium
+  participants:
+  - Quality Inspector
+  - Production Manager
+  - Maintenance Technician
+  - Supplier Quality Manager
+  trigger: Product batch completes manufacturing line
   steps:
-    - step: 1
-      actor: "Automated Inspection System"
-      action: "Perform dimensional, visual, and functional testing using sensors and cameras"
-      tools: ["Vision Systems", "Coordinate Measuring Machines", "Automated Test Stations"]
-      duration: "10-30 minutes per batch"
-      outputs: ["Quality metrics data", "Defect classification", "Pass/fail determination"]
-    - step: 2
-      actor: "Quality Inspector"
-      action: "Review automated results and perform manual spot checks"
-      decision_points: ["Automated results acceptable?", "Statistical process control within limits?", "Escalation required?"]
-      duration: "15-45 minutes"
-      outputs: ["Quality approval certificate", "Defect analysis report", "Process adjustment recommendations"]
-    - step: 3
-      actor: "Production Manager"
-      action: "Review quality data and implement process improvements"
-      tools: ["Quality Management System", "Statistical Analysis Software"]
-      duration: "Daily review"
-      outputs: ["Process improvement actions", "Supplier feedback", "Quality trend reports"]
-    - step: 4
-      actor: "Maintenance Technician"
-      action: "Address equipment-related quality issues"
-      tools: ["Maintenance Management System", "Calibration Equipment"]
-      duration: "As needed"
-      outputs: ["Equipment repair logs", "Preventive maintenance schedules"]
-  success_criteria: "Defect rate <0.5%, on-time delivery >98%, customer complaints <2 per month"
-  failure_modes: ["False negatives allowing defective products to ship", "Production line downtime from quality holds", "Supplier quality issues impacting multiple batches"]
+  - step: 1
+    actor: Automated Inspection System
+    action: Perform dimensional, visual, and functional testing using sensors and
+      cameras
+    tools:
+    - Vision Systems
+    - Coordinate Measuring Machines
+    - Automated Test Stations
+    duration: 10-30 minutes per batch
+    outputs:
+    - Quality metrics data
+    - Defect classification
+    - Pass/fail determination
+  - step: 2
+    actor: Quality Inspector
+    action: Review automated results and perform manual spot checks
+    decision_points:
+    - Automated results acceptable?
+    - Statistical process control within limits?
+    - Escalation required?
+    duration: 15-45 minutes
+    outputs:
+    - Quality approval certificate
+    - Defect analysis report
+    - Process adjustment recommendations
+  - step: 3
+    actor: Production Manager
+    action: Review quality data and implement process improvements
+    tools:
+    - Quality Management System
+    - Statistical Analysis Software
+    duration: Daily review
+    outputs:
+    - Process improvement actions
+    - Supplier feedback
+    - Quality trend reports
+  - step: 4
+    actor: Maintenance Technician
+    action: Address equipment-related quality issues
+    tools:
+    - Maintenance Management System
+    - Calibration Equipment
+    duration: As needed
+    outputs:
+    - Equipment repair logs
+    - Preventive maintenance schedules
+  success_criteria: Defect rate <0.5%, on-time delivery >98%, customer complaints
+    <2 per month
+  failure_modes:
+  - False negatives allowing defective products to ship
+  - Production line downtime from quality holds
+  - Supplier quality issues impacting multiple batches

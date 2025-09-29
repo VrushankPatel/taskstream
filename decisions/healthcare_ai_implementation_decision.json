@@ -3,8 +3,17 @@
   "context": "500-bed hospital system implementing AI-assisted diagnostics, $50M annual revenue, facing diagnostic accuracy challenges",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "CFO", "Chief Information Officer"],
-    "influencers": ["Department Chairs", "IT Director", "Patient Safety Officer", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Information Officer"
+    ],
+    "influencers": [
+      "Department Chairs",
+      "IT Director",
+      "Patient Safety Officer",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,19 +25,34 @@
     {
       "stage": "feasibility_assessment",
       "duration": "4 weeks",
-      "activities": ["Vendor evaluation", "Technical architecture review", "Regulatory compliance check", "Pilot program design"],
+      "activities": [
+        "Vendor evaluation",
+        "Technical architecture review",
+        "Regulatory compliance check",
+        "Pilot program design"
+      ],
       "outcome": "Approved for pilot phase with conditions"
     },
     {
       "stage": "pilot_implementation",
       "duration": "8 weeks",
-      "activities": ["Limited deployment in one department", "Staff training", "Performance monitoring", "Patient feedback collection"],
+      "activities": [
+        "Limited deployment in one department",
+        "Staff training",
+        "Performance monitoring",
+        "Patient feedback collection"
+      ],
       "outcome": "Pilot successful, full implementation recommended"
     },
     {
       "stage": "full_rollout_planning",
       "duration": "6 weeks",
-      "activities": ["Scalability assessment", "Change management planning", "Budget refinement", "Risk mitigation strategy"],
+      "activities": [
+        "Scalability assessment",
+        "Change management planning",
+        "Budget refinement",
+        "Risk mitigation strategy"
+      ],
       "outcome": "Full implementation approved with phased approach"
     }
   ],
@@ -36,6 +60,11 @@
     "expected_accuracy_improvement": "25-35%",
     "projected_cost_savings": "$1.2M annually",
     "implementation_timeline": "12 months",
-    "risk_factors": ["Regulatory approval delays", "Staff resistance", "Integration challenges", "Data privacy concerns"]
+    "risk_factors": [
+      "Regulatory approval delays",
+      "Staff resistance",
+      "Integration challenges",
+      "Data privacy concerns"
+    ]
   }
 }

@@ -3,8 +3,16 @@
   "context": "Established retail software company, 300 employees, with aging product line generating declining revenue",
   "stakeholders": {
     "requester": "VP Product",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Customer Success Director", "Engineering Leads", "Sales Leadership"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Customer Success Director",
+      "Engineering Leads",
+      "Sales Leadership"
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -16,26 +24,45 @@
     {
       "stage": "impact_assessment",
       "duration": "8 weeks",
-      "activities": ["Customer segmentation analysis", "Revenue forecasting", "Migration path planning", "Competitive analysis"],
+      "activities": [
+        "Customer segmentation analysis",
+        "Revenue forecasting",
+        "Migration path planning",
+        "Competitive analysis"
+      ],
       "outcome": "Sunset recommended with structured migration"
     },
     {
       "stage": "customer_migration",
       "duration": "12 weeks",
-      "activities": ["Migration timeline development", "Customer communication planning", "Support resource allocation", "Data migration testing"],
+      "activities": [
+        "Migration timeline development",
+        "Customer communication planning",
+        "Support resource allocation",
+        "Data migration testing"
+      ],
       "outcome": "Phased migration plan approved"
     },
     {
       "stage": "financial_review",
       "duration": "3 weeks",
-      "activities": ["Cost-benefit analysis", "Cash flow modeling", "Balance sheet impact", "Tax implications"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Cash flow modeling",
+        "Balance sheet impact",
+        "Tax implications"
+      ],
       "outcome": "Approved with contingency reserves"
     }
   ],
   "business_impact": {
     "expected_cost_savings": "$800,000 annually",
     "customer_retention_target": "85% migration success rate",
-    "risk_factors": ["Customer churn during transition", "Competitor poaching", "Internal resource constraints"],
+    "risk_factors": [
+      "Customer churn during transition",
+      "Competitor poaching",
+      "Internal resource constraints"
+    ],
     "long_term_benefit": "Improved product profitability and development focus"
   }
 }

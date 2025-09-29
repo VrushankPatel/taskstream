@@ -1,8 +1,8 @@
 ## Email Thread: Mining Community Engagement Strategy
 
-**From:** Community Relations Director  
-**To:** Executive Leadership Team, Operations Team  
-**Subject:** Enhanced Community Engagement Strategy for Mining Operations  
+**From:** Community Relations Director
+**To:** Executive Leadership Team, Operations Team
+**Subject:** Enhanced Community Engagement Strategy for Mining Operations
 
 Team,
 
@@ -22,9 +22,9 @@ Community Relations Director
 
 ---
 
-**From:** CEO  
-**To:** Community Relations Director, Executive Leadership Team, Operations Team  
-**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations  
+**From:** CEO
+**To:** Community Relations Director, Executive Leadership Team, Operations Team
+**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations
 
 Strong support for enhanced community engagement. This is critical for our social license to operate. The strategy document looks comprehensive.
 
@@ -37,9 +37,9 @@ CEO
 
 ---
 
-**From:** Operations Director  
-**To:** Community Relations Director, CEO, Executive Leadership Team, Operations Team  
-**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations  
+**From:** Operations Director
+**To:** Community Relations Director, CEO, Executive Leadership Team, Operations Team
+**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations
 
 Operations team supports the enhanced engagement approach. We can integrate community feedback into our operational planning.
 
@@ -52,9 +52,9 @@ Operations Director
 
 ---
 
-**From:** CFO  
-**To:** Community Relations Director, CEO, Operations Director, Executive Leadership Team, Operations Team  
-**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations  
+**From:** CFO
+**To:** Community Relations Director, CEO, Operations Director, Executive Leadership Team, Operations Team
+**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations
 
 Financial analysis shows positive ROI on community investment. The $450K request represents 0.8% of annual community benefits.
 
@@ -69,9 +69,9 @@ CFO
 
 ---
 
-**From:** Community Relations Director  
-**To:** CEO, Operations Director, CFO, Executive Leadership Team, Operations Team  
-**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations  
+**From:** Community Relations Director
+**To:** CEO, Operations Director, CFO, Executive Leadership Team, Operations Team
+**Subject:** Re: Enhanced Community Engagement Strategy for Mining Operations
 
 Thank you for the feedback and approval. Updated strategy incorporates your input:
 

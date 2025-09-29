@@ -3,8 +3,15 @@
   "context": "Management consulting firm, 300 consultants, seeking strategic partnership for technology transformation practice",
   "stakeholders": {
     "requester": "Managing Partner",
-    "approvers": ["Executive Committee", "Board of Partners"],
-    "influencers": ["Technology Practice Lead", "Business Development Director", "Finance Director"]
+    "approvers": [
+      "Executive Committee",
+      "Board of Partners"
+    ],
+    "influencers": [
+      "Technology Practice Lead",
+      "Business Development Director",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$1,000,000",
@@ -16,25 +23,45 @@
     {
       "stage": "partner_evaluation",
       "duration": "8 weeks",
-      "activities": ["Vendor assessment", "Reference checks", "Technical compatibility review"],
+      "activities": [
+        "Vendor assessment",
+        "Reference checks",
+        "Technical compatibility review"
+      ],
       "outcome": "Selected leading AI platform provider with complementary technology and market reach"
     },
     {
       "stage": "value_proposition_design",
       "duration": "4 weeks",
-      "activities": ["Service bundle development", "Pricing strategy", "Go-to-market planning"],
+      "activities": [
+        "Service bundle development",
+        "Pricing strategy",
+        "Go-to-market planning"
+      ],
       "outcome": "Created integrated consulting-platform offering with 30% margin improvement"
     },
     {
       "stage": "legal_financial_negotiation",
       "duration": "6 weeks",
-      "activities": ["Contract negotiation", "Revenue sharing agreement", "IP protection"],
+      "activities": [
+        "Contract negotiation",
+        "Revenue sharing agreement",
+        "IP protection"
+      ],
       "outcome": "Established 5-year partnership with performance-based revenue sharing and joint IP development"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["$25M annual revenue from AI consulting", "Expanded service portfolio", "Enhanced technical capabilities"],
+    "expected_outcomes": [
+      "$25M annual revenue from AI consulting",
+      "Expanded service portfolio",
+      "Enhanced technical capabilities"
+    ],
     "projected_revenue": "$100M cumulative revenue over partnership term",
-    "risk_factors": ["Technology obsolescence", "Partner performance issues", "Market adoption challenges"]
+    "risk_factors": [
+      "Technology obsolescence",
+      "Partner performance issues",
+      "Market adoption challenges"
+    ]
   }
 }

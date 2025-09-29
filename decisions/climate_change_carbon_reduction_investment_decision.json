@@ -3,8 +3,15 @@
   "context": "Manufacturing company responding to new carbon pricing regulations",
   "stakeholders": {
     "requester": "Sustainability Director",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["CFO", "Operations VP", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "CFO",
+      "Operations VP",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$100 million",
@@ -16,22 +23,39 @@
     {
       "stage": "feasibility_study",
       "duration": "3 months",
-      "activities": ["Technology evaluation", "Cost-benefit analysis", "Pilot testing"],
+      "activities": [
+        "Technology evaluation",
+        "Cost-benefit analysis",
+        "Pilot testing"
+      ],
       "outcome": "Positive feasibility results"
     },
     {
       "stage": "board_approval",
       "duration": "1 month",
-      "activities": ["Executive presentation", "Board discussion", "Final approval"],
+      "activities": [
+        "Executive presentation",
+        "Board discussion",
+        "Final approval"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% reduction in carbon emissions, compliance with regulations",
     "projected_value": "$50 million in avoided penalties and incentives",
-    "risk_factors": ["Technology reliability", "Implementation delays", "Cost overruns"]
+    "risk_factors": [
+      "Technology reliability",
+      "Implementation delays",
+      "Cost overruns"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance", "Financial return", "Sustainability goals", "Technical feasibility"],
+  "decision_criteria": [
+    "Regulatory compliance",
+    "Financial return",
+    "Sustainability goals",
+    "Technical feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot testing essential before full-scale implementation"
 }

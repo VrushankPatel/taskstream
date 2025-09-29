@@ -1,10 +1,10 @@
 ## Email Thread: New Regulatory Compliance Requirements
 
-**From:** Chief Compliance Officer  
-**To:** All Employees  
-**Subject:** Important: Updated Anti-Money Laundering (AML) Compliance Procedures  
+**From:** Chief Compliance Officer
+**To:** All Employees
+**Subject:** Important: Updated Anti-Money Laundering (AML) Compliance Procedures
 
-**Date:** October 15, 2024  
+**Date:** October 15, 2024
 
 Dear Team,
 
@@ -21,20 +21,20 @@ Please review the attached detailed procedure document and complete the online t
 
 If you have any questions, please don't hesitate to contact the Compliance team.
 
-Best regards,  
-Sarah Johnson  
-Chief Compliance Officer  
-Global Finance Corp  
-sarah.johnson@globalfinance.com  
-+1 (555) 123-4567  
+Best regards,
+Sarah Johnson
+Chief Compliance Officer
+Global Finance Corp
+sarah.johnson@globalfinance.com
++1 (555) 123-4567
 
 ---
 
-**From:** Operations Manager  
-**To:** Chief Compliance Officer, All Department Heads  
-**Subject:** Re: Important: Updated Anti-Money Laundering (AML) Compliance Procedures  
+**From:** Operations Manager
+**To:** Chief Compliance Officer, All Department Heads
+**Subject:** Re: Important: Updated Anti-Money Laundering (AML) Compliance Procedures
 
-**Date:** October 16, 2024  
+**Date:** October 16, 2024
 
 Sarah,
 
@@ -46,17 +46,17 @@ Thanks for the clear communication. The operations team has reviewed the require
 
 Could we schedule a meeting to discuss resource allocation and potential process optimizations?
 
-Best,  
-Mike Chen  
-Operations Manager  
+Best,
+Mike Chen
+Operations Manager
 
 ---
 
-**From:** Chief Compliance Officer  
-**To:** Operations Manager, IT Director, HR Director  
-**Subject:** Re: Important: Updated Anti-Money Laundering (AML) Compliance Procedures  
+**From:** Chief Compliance Officer
+**To:** Operations Manager, IT Director, HR Director
+**Subject:** Re: Important: Updated Anti-Money Laundering (AML) Compliance Procedures
 
-**Date:** October 17, 2024  
+**Date:** October 17, 2024
 
 Mike,
 
@@ -68,5 +68,5 @@ Thank you for your feedback. I completely understand the resource concerns. Let'
 
 Please come prepared with your team's capacity analysis.
 
-Best,  
+Best,
 Sarah

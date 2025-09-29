@@ -1,9 +1,9 @@
 # AI Ethics Bias Detection Automation Rollout Announcement
 
-**From:** Chief AI Ethics Officer  
-**To:** All Employees, AI Development Teams, Business Stakeholders  
-**Subject:** Enterprise-wide Rollout of Automated AI Bias Detection System  
-**Date:** September 28, 2025  
+**From:** Chief AI Ethics Officer
+**To:** All Employees, AI Development Teams, Business Stakeholders
+**Subject:** Enterprise-wide Rollout of Automated AI Bias Detection System
+**Date:** September 28, 2025
 
 ## Introduction
 
@@ -77,5 +77,5 @@ For questions or support:
 
 We are committed to leading the industry in responsible AI development. This automated bias detection system represents another important step in that journey.
 
-Best regards,  
+Best regards,
 Chief AI Ethics Officer

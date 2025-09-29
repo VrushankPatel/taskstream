@@ -1,47 +1,87 @@
 workflow:
-  id: "workflow_ai_ethics_bias_001"
-  title: "AI Ethics Bias Detection Automation Implementation Workflow"
-  department: "AI Ethics & Compliance"
-  complexity: "medium"
-  participants: ["AI Ethics Officer", "Data Scientist", "ML Engineer", "Legal Counsel", "Business Stakeholder"]
-  trigger: "New AI model deployment or existing model performance degradation detected"
+  id: workflow_ai_ethics_bias_001
+  title: AI Ethics Bias Detection Automation Implementation Workflow
+  department: AI Ethics & Compliance
+  complexity: medium
+  participants:
+  - AI Ethics Officer
+  - Data Scientist
+  - ML Engineer
+  - Legal Counsel
+  - Business Stakeholder
+  trigger: New AI model deployment or existing model performance degradation detected
   steps:
-    - step: 1
-      actor: "AI Ethics Officer"
-      action: "Define bias detection requirements and ethical standards"
-      tools: ["Ethics frameworks", "Regulatory guidelines", "Bias detection checklists"]
-      duration: "1 week"
-      outputs: ["Bias detection requirements", "Ethical assessment criteria", "Compliance checklist"]
-    - step: 2
-      actor: "Data Scientist"
-      action: "Analyze training data for demographic representation and potential bias sources"
-      tools: ["Data analysis tools", "Statistical software", "Fairness metrics libraries"]
-      duration: "2 weeks"
-      outputs: ["Data quality assessment", "Demographic analysis report", "Bias risk identification"]
-    - step: 3
-      actor: "ML Engineer"
-      action: "Implement automated bias detection pipelines and monitoring systems"
-      tools: ["ML frameworks", "Bias detection libraries", "Monitoring dashboards"]
-      duration: "4 weeks"
-      outputs: ["Bias detection pipeline", "Automated monitoring system", "Alert configuration"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Review bias detection results and assess regulatory compliance"
-      tools: ["Legal research databases", "Compliance checklists", "Regulatory guidance"]
-      duration: "1 week"
-      outputs: ["Compliance assessment", "Legal risk analysis", "Remediation recommendations"]
-    - step: 5
-      actor: "Business Stakeholder"
-      action: "Evaluate business impact and approve mitigation strategies"
-      tools: ["Business case analysis tools", "Risk assessment frameworks", "Stakeholder feedback systems"]
-      duration: "1 week"
-      outputs: ["Business impact assessment", "Mitigation strategy approval", "Implementation timeline"]
-  success_criteria: "Automated bias detection system identifies 95%+ of bias issues with less than 5% false positives"
-  failure_modes: ["Insufficient training data diversity", "Bias detection algorithms lack contextual understanding", "Business stakeholders reject mitigation costs"]
+  - step: 1
+    actor: AI Ethics Officer
+    action: Define bias detection requirements and ethical standards
+    tools:
+    - Ethics frameworks
+    - Regulatory guidelines
+    - Bias detection checklists
+    duration: 1 week
+    outputs:
+    - Bias detection requirements
+    - Ethical assessment criteria
+    - Compliance checklist
+  - step: 2
+    actor: Data Scientist
+    action: Analyze training data for demographic representation and potential bias
+      sources
+    tools:
+    - Data analysis tools
+    - Statistical software
+    - Fairness metrics libraries
+    duration: 2 weeks
+    outputs:
+    - Data quality assessment
+    - Demographic analysis report
+    - Bias risk identification
+  - step: 3
+    actor: ML Engineer
+    action: Implement automated bias detection pipelines and monitoring systems
+    tools:
+    - ML frameworks
+    - Bias detection libraries
+    - Monitoring dashboards
+    duration: 4 weeks
+    outputs:
+    - Bias detection pipeline
+    - Automated monitoring system
+    - Alert configuration
+  - step: 4
+    actor: Legal Counsel
+    action: Review bias detection results and assess regulatory compliance
+    tools:
+    - Legal research databases
+    - Compliance checklists
+    - Regulatory guidance
+    duration: 1 week
+    outputs:
+    - Compliance assessment
+    - Legal risk analysis
+    - Remediation recommendations
+  - step: 5
+    actor: Business Stakeholder
+    action: Evaluate business impact and approve mitigation strategies
+    tools:
+    - Business case analysis tools
+    - Risk assessment frameworks
+    - Stakeholder feedback systems
+    duration: 1 week
+    outputs:
+    - Business impact assessment
+    - Mitigation strategy approval
+    - Implementation timeline
+  success_criteria: Automated bias detection system identifies 95%+ of bias issues
+    with less than 5% false positives
+  failure_modes:
+  - Insufficient training data diversity
+  - Bias detection algorithms lack contextual understanding
+  - Business stakeholders reject mitigation costs
   metrics:
-    - "Detection Coverage: Target >95% of bias types identified"
-    - "False Positive Rate: Target <5% incorrect alerts"
-    - "Detection Speed: Target <2 hours for full assessment"
-    - "System Reliability: Target >99% uptime"
-    - "Cost Efficiency: Target <10% of manual audit costs"
-    - "User Adoption: Target >90% stakeholder acceptance"
+  - 'Detection Coverage: Target >95% of bias types identified'
+  - 'False Positive Rate: Target <5% incorrect alerts'
+  - 'Detection Speed: Target <2 hours for full assessment'
+  - 'System Reliability: Target >99% uptime'
+  - 'Cost Efficiency: Target <10% of manual audit costs'
+  - 'User Adoption: Target >90% stakeholder acceptance'

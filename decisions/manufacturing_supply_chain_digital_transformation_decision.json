@@ -3,8 +3,16 @@
   "context": "Manufacturing company implementing digital twin technology for supply chain optimization and predictive maintenance",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CEO", "CFO", "Chief Digital Officer"],
-    "influencers": ["IT Department", "Operations Teams", "Supplier Partners"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Digital Officer"
+    ],
+    "influencers": [
+      "IT Department",
+      "Operations Teams",
+      "Supplier Partners"
+    ]
   },
   "request": {
     "amount": "$45 million",
@@ -16,31 +24,57 @@
     {
       "stage": "current_state_analysis",
       "duration": "6 weeks",
-      "activities": ["Supply chain performance benchmarking", "Technology gap assessment", "Digital maturity evaluation"],
+      "activities": [
+        "Supply chain performance benchmarking",
+        "Technology gap assessment",
+        "Digital maturity evaluation"
+      ],
       "outcome": "Identified significant opportunities for digital optimization with clear ROI potential"
     },
     {
       "stage": "technology_evaluation",
       "duration": "8 weeks",
-      "activities": ["Digital twin platform assessment", "IoT sensor evaluation", "Integration testing"],
+      "activities": [
+        "Digital twin platform assessment",
+        "IoT sensor evaluation",
+        "Integration testing"
+      ],
       "outcome": "Selected comprehensive platform with proven supply chain applications"
     },
     {
       "stage": "pilot_implementation",
       "duration": "10 weeks",
-      "activities": ["Pilot deployment in key facilities", "Performance monitoring", "User feedback collection"],
+      "activities": [
+        "Pilot deployment in key facilities",
+        "Performance monitoring",
+        "User feedback collection"
+      ],
       "outcome": "Successful pilot demonstrating 20% efficiency improvements"
     },
     {
       "stage": "scalability_assessment",
       "duration": "4 weeks",
-      "activities": ["Enterprise-wide rollout planning", "Resource requirement analysis", "Change management strategy"],
+      "activities": [
+        "Enterprise-wide rollout planning",
+        "Resource requirement analysis",
+        "Change management strategy"
+      ],
       "outcome": "Feasible enterprise deployment with phased implementation approach"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["25% supply chain efficiency improvement", "30% reduction in unplanned downtime", "Enhanced decision-making capabilities", "Improved supplier collaboration"],
+    "expected_benefits": [
+      "25% supply chain efficiency improvement",
+      "30% reduction in unplanned downtime",
+      "Enhanced decision-making capabilities",
+      "Improved supplier collaboration"
+    ],
     "projected_revenue": "$60 million in cost savings and efficiency gains over 5 years",
-    "risk_factors": ["Technology integration complexity", "Data quality challenges", "Organizational change resistance", "Vendor dependency"]
+    "risk_factors": [
+      "Technology integration complexity",
+      "Data quality challenges",
+      "Organizational change resistance",
+      "Vendor dependency"
+    ]
   }
 }

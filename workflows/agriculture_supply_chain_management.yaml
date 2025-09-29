@@ -1,40 +1,78 @@
 workflow:
-  id: "workflow_agriculture_supply_chain"
-  title: "Agriculture Supply Chain Management"
-  department: "Operations"
-  complexity: "high"
-  participants: ["Farm Manager", "Supply Chain Coordinator", "Quality Control Specialist", "Logistics Manager", "Procurement Lead"]
-  trigger: "Harvest season begins or supply disruption detected"
+  id: workflow_agriculture_supply_chain
+  title: Agriculture Supply Chain Management
+  department: Operations
+  complexity: high
+  participants:
+  - Farm Manager
+  - Supply Chain Coordinator
+  - Quality Control Specialist
+  - Logistics Manager
+  - Procurement Lead
+  trigger: Harvest season begins or supply disruption detected
   steps:
-    - step: 1
-      actor: "Farm Manager"
-      action: "Assess crop yield and quality metrics"
-      tools: ["Farm management software", "Weather monitoring systems", "Yield sensors"]
-      duration: "1 day"
-      outputs: ["Yield forecast report", "Initial quality assessment"]
-    - step: 2
-      actor: "Supply Chain Coordinator"
-      action: "Develop distribution and storage strategy"
-      decision_points: ["Market demand projections", "Storage facility capacity", "Transportation cost analysis"]
-      duration: "2 days"
-      outputs: ["Distribution plan", "Storage allocation matrix"]
-    - step: 3
-      actor: "Quality Control Specialist"
-      action: "Perform quality inspections and obtain certifications"
-      tools: ["Quality testing equipment", "Organic certification software", "Pesticide residue analyzers"]
-      duration: "3 days"
-      outputs: ["Quality certificates", "Inspection reports", "Compliance documentation"]
-    - step: 4
-      actor: "Logistics Manager"
-      action: "Execute transportation and delivery operations"
-      tools: ["Fleet management system", "GPS tracking", "Route optimization software"]
-      duration: "Ongoing during harvest season"
-      outputs: ["Delivery confirmations", "Performance metrics", "Incident reports"]
-    - step: 5
-      actor: "Procurement Lead"
-      action: "Monitor commodity prices and adjust pricing strategy"
-      decision_points: ["Market price fluctuations", "Competitor pricing", "Contract negotiations"]
-      duration: "Weekly reviews"
-      outputs: ["Pricing strategy updates", "Market analysis reports"]
-  success_criteria: "95% on-time delivery rate, <2% quality rejection rate, maintained profit margins above industry average"
-  failure_modes: ["Adverse weather conditions", "Equipment breakdowns", "Sudden market price volatility", "Transportation infrastructure issues", "Regulatory compliance failures"]
+  - step: 1
+    actor: Farm Manager
+    action: Assess crop yield and quality metrics
+    tools:
+    - Farm management software
+    - Weather monitoring systems
+    - Yield sensors
+    duration: 1 day
+    outputs:
+    - Yield forecast report
+    - Initial quality assessment
+  - step: 2
+    actor: Supply Chain Coordinator
+    action: Develop distribution and storage strategy
+    decision_points:
+    - Market demand projections
+    - Storage facility capacity
+    - Transportation cost analysis
+    duration: 2 days
+    outputs:
+    - Distribution plan
+    - Storage allocation matrix
+  - step: 3
+    actor: Quality Control Specialist
+    action: Perform quality inspections and obtain certifications
+    tools:
+    - Quality testing equipment
+    - Organic certification software
+    - Pesticide residue analyzers
+    duration: 3 days
+    outputs:
+    - Quality certificates
+    - Inspection reports
+    - Compliance documentation
+  - step: 4
+    actor: Logistics Manager
+    action: Execute transportation and delivery operations
+    tools:
+    - Fleet management system
+    - GPS tracking
+    - Route optimization software
+    duration: Ongoing during harvest season
+    outputs:
+    - Delivery confirmations
+    - Performance metrics
+    - Incident reports
+  - step: 5
+    actor: Procurement Lead
+    action: Monitor commodity prices and adjust pricing strategy
+    decision_points:
+    - Market price fluctuations
+    - Competitor pricing
+    - Contract negotiations
+    duration: Weekly reviews
+    outputs:
+    - Pricing strategy updates
+    - Market analysis reports
+  success_criteria: 95% on-time delivery rate, <2% quality rejection rate, maintained
+    profit margins above industry average
+  failure_modes:
+  - Adverse weather conditions
+  - Equipment breakdowns
+  - Sudden market price volatility
+  - Transportation infrastructure issues
+  - Regulatory compliance failures

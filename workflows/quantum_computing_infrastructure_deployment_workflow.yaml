@@ -1,40 +1,66 @@
 workflow:
-  id: "workflow_quantum_infrastructure_deployment"
-  title: "Quantum Computing Infrastructure Deployment"
-  department: "Advanced Computing"
-  complexity: "high"
-  participants: ["Quantum Engineer", "IT Infrastructure Team", "Security Officer", "Procurement Manager", "Research Scientists"]
-  trigger: "Decision to deploy quantum computing capabilities"
+  id: workflow_quantum_infrastructure_deployment
+  title: Quantum Computing Infrastructure Deployment
+  department: Advanced Computing
+  complexity: high
+  participants:
+  - Quantum Engineer
+  - IT Infrastructure Team
+  - Security Officer
+  - Procurement Manager
+  - Research Scientists
+  trigger: Decision to deploy quantum computing capabilities
   steps:
-    - step: 1
-      actor: "Quantum Engineer"
-      action: "Assess quantum computing requirements and select hardware"
-      tools: ["Quantum Hardware Benchmarks", "Performance Modeling Tools"]
-      duration: "4 weeks"
-      outputs: ["Hardware Requirements Specification"]
-    - step: 2
-      actor: "Procurement Manager"
-      action: "Procure quantum computing systems and cooling infrastructure"
-      tools: ["Vendor Contracts", "Procurement Systems"]
-      duration: "6 weeks"
-      outputs: ["Procurement Agreements", "Delivery Schedule"]
-    - step: 3
-      actor: "IT Infrastructure Team"
-      action: "Prepare data center environment for quantum systems"
-      tools: ["Facility Design Software", "Environmental Controls"]
-      duration: "8 weeks"
-      outputs: ["Infrastructure Readiness Report"]
-    - step: 4
-      actor: "Security Officer"
-      action: "Implement quantum-safe security measures and access controls"
-      tools: ["Quantum Cryptography Tools", "Access Control Systems"]
-      duration: "3 weeks"
-      outputs: ["Security Implementation Plan"]
-    - step: 5
-      actor: "Research Scientists"
-      action: "Validate quantum system performance and run initial algorithms"
-      tools: ["Quantum Development Kits", "Performance Testing Tools"]
-      duration: "4 weeks"
-      outputs: ["System Validation Report", "Initial Algorithm Results"]
-  success_criteria: "Quantum computing infrastructure operational and producing valid results"
-  failure_modes: ["Hardware delivery delays", "Environmental control failures", "Security vulnerabilities"]
+  - step: 1
+    actor: Quantum Engineer
+    action: Assess quantum computing requirements and select hardware
+    tools:
+    - Quantum Hardware Benchmarks
+    - Performance Modeling Tools
+    duration: 4 weeks
+    outputs:
+    - Hardware Requirements Specification
+  - step: 2
+    actor: Procurement Manager
+    action: Procure quantum computing systems and cooling infrastructure
+    tools:
+    - Vendor Contracts
+    - Procurement Systems
+    duration: 6 weeks
+    outputs:
+    - Procurement Agreements
+    - Delivery Schedule
+  - step: 3
+    actor: IT Infrastructure Team
+    action: Prepare data center environment for quantum systems
+    tools:
+    - Facility Design Software
+    - Environmental Controls
+    duration: 8 weeks
+    outputs:
+    - Infrastructure Readiness Report
+  - step: 4
+    actor: Security Officer
+    action: Implement quantum-safe security measures and access controls
+    tools:
+    - Quantum Cryptography Tools
+    - Access Control Systems
+    duration: 3 weeks
+    outputs:
+    - Security Implementation Plan
+  - step: 5
+    actor: Research Scientists
+    action: Validate quantum system performance and run initial algorithms
+    tools:
+    - Quantum Development Kits
+    - Performance Testing Tools
+    duration: 4 weeks
+    outputs:
+    - System Validation Report
+    - Initial Algorithm Results
+  success_criteria: Quantum computing infrastructure operational and producing valid
+    results
+  failure_modes:
+  - Hardware delivery delays
+  - Environmental control failures
+  - Security vulnerabilities

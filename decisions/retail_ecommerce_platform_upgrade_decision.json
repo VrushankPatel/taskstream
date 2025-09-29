@@ -3,8 +3,16 @@
   "context": "Mid-sized retail chain experiencing 40% YoY online sales growth, current platform limiting scalability and customer experience",
   "stakeholders": {
     "requester": "VP of Digital Commerce",
-    "approvers": ["CTO", "CFO", "CEO"],
-    "influencers": ["Head of IT", "VP of Operations", "Customer Experience Director"]
+    "approvers": [
+      "CTO",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of IT",
+      "VP of Operations",
+      "Customer Experience Director"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,28 +24,49 @@
     {
       "stage": "technical_evaluation",
       "duration": "2 weeks",
-      "activities": ["Platform demos", "Integration assessment", "Security audit"],
+      "activities": [
+        "Platform demos",
+        "Integration assessment",
+        "Security audit"
+      ],
       "outcome": "Three platforms shortlisted"
     },
     {
       "stage": "business_case_review",
       "duration": "1 week",
-      "activities": ["ROI modeling", "Risk assessment", "Timeline planning"],
+      "activities": [
+        "ROI modeling",
+        "Risk assessment",
+        "Timeline planning"
+      ],
       "outcome": "Platform A selected with 24-month payback"
     },
     {
       "stage": "executive_approval",
       "duration": "3 days",
-      "activities": ["Board presentation", "Budget allocation", "Resource planning"],
+      "activities": [
+        "Board presentation",
+        "Budget allocation",
+        "Resource planning"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% increase in online conversion rate, 30% mobile sales growth",
     "projected_value": "$8M additional annual revenue",
-    "risk_factors": ["Migration downtime", "Staff training requirements", "Integration challenges"]
+    "risk_factors": [
+      "Migration downtime",
+      "Staff training requirements",
+      "Integration challenges"
+    ]
   },
-  "decision_criteria": ["Technical scalability", "Cost-benefit ratio", "Implementation timeline", "Vendor stability"],
+  "decision_criteria": [
+    "Technical scalability",
+    "Cost-benefit ratio",
+    "Implementation timeline",
+    "Vendor stability"
+  ],
   "outcome": "Approved",
-   "lessons_learned": "Early stakeholder involvement crucial for complex technology decisions, phased rollout reduces business disruption risk. Comprehensive vendor evaluation including references and integration testing prevents costly mistakes. Budget contingency of 20% essential for enterprise software migrations. Change management and staff training should begin 3 months prior to go-live date."
+  "lessons_learned": "Early stakeholder involvement crucial for complex technology decisions, phased rollout reduces business disruption risk. Comprehensive vendor evaluation including references and integration testing prevents costly mistakes. Budget contingency of 20% essential for enterprise software migrations. Change management and staff training should begin 3 months prior to go-live date."
 }

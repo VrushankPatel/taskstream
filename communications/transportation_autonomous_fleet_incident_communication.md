@@ -1,8 +1,8 @@
 ## Email Thread: Transportation Autonomous Fleet Safety Incident Response
 
-**From:** Director of Autonomous Operations  
-**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department  
-**Subject:** Incident Report: Autonomous Vehicle Collision - Vehicle AV-047  
+**From:** Director of Autonomous Operations
+**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department
+**Subject:** Incident Report: Autonomous Vehicle Collision - Vehicle AV-047
 
 Team,
 
@@ -38,15 +38,15 @@ This is our first collision incident in 18 months of autonomous operations, repr
 
 Let's maintain transparency while we investigate thoroughly.
 
-Best,  
-Dr. James Liu  
-Director of Autonomous Operations  
+Best,
+Dr. James Liu
+Director of Autonomous Operations
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department  
-**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047  
+**From:** CEO
+**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department
+**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047
 
 James,
 
@@ -62,15 +62,15 @@ This incident, while minor, provides an opportunity to demonstrate our commitmen
 
 I'll be available for any media inquiries. Let's turn this into a demonstration of our robust safety culture.
 
-Regards,  
-Robert Chen  
-Chief Executive Officer  
+Regards,
+Robert Chen
+Chief Executive Officer
 
 ---
 
-**From:** Safety Committee Chair  
-**To:** Executive Leadership, Director of Autonomous Operations, Fleet Operations Team, Legal Department  
-**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047  
+**From:** Safety Committee Chair
+**To:** Executive Leadership, Director of Autonomous Operations, Fleet Operations Team, Legal Department
+**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047
 
 James, Robert,
 
@@ -95,14 +95,14 @@ Safety Committee has initiated the investigation protocol:
 
 We'll provide daily updates on investigation progress.
 
-Dr. Sarah Mitchell  
-Safety Committee Chair  
+Dr. Sarah Mitchell
+Safety Committee Chair
 
 ---
 
-**From:** Legal Department  
-**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Director of Autonomous Operations  
-**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047  
+**From:** Legal Department
+**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Director of Autonomous Operations
+**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047
 
 James, Robert, Sarah,
 
@@ -125,14 +125,14 @@ Legal has reviewed the incident for compliance and liability:
 
 We'll continue monitoring for any legal developments.
 
-Michael Torres  
-General Counsel  
+Michael Torres
+General Counsel
 
 ---
 
-**From:** Director of Autonomous Operations  
-**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department  
-**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047  
+**From:** Director of Autonomous Operations
+**To:** Executive Leadership, Safety Committee, Fleet Operations Team, Legal Department
+**Subject:** Re: Incident Report: Autonomous Vehicle Collision - Vehicle AV-047
 
 Thank you all for the comprehensive response. The investigation is progressing well.
 

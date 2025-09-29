@@ -3,8 +3,16 @@
   "context": "Mid-sized retail chain with 50 stores and growing online presence needs to upgrade legacy e-commerce platform to handle increased traffic and mobile commerce demands",
   "stakeholders": {
     "requester": "VP Digital Commerce",
-    "approvers": ["CEO", "CFO", "CTO"],
-    "influencers": ["Head of Marketing", "Operations Director", "Customer Experience Manager"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "CTO"
+    ],
+    "influencers": [
+      "Head of Marketing",
+      "Operations Director",
+      "Customer Experience Manager"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +24,50 @@
     {
       "stage": "vendor_evaluation",
       "duration": "3 weeks",
-      "activities": ["Platform demonstrations", "Technical architecture review", "Cost-benefit analysis"],
+      "activities": [
+        "Platform demonstrations",
+        "Technical architecture review",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Shortlisted 3 vendors: Shopify Plus, Salesforce Commerce Cloud, Adobe Commerce"
     },
     {
       "stage": "pilot_testing",
       "duration": "4 weeks",
-      "activities": ["Limited rollout testing", "User acceptance testing", "Performance benchmarking"],
+      "activities": [
+        "Limited rollout testing",
+        "User acceptance testing",
+        "Performance benchmarking"
+      ],
       "outcome": "Shopify Plus selected for superior mobile experience and faster implementation"
     },
     {
       "stage": "final_approval",
       "duration": "1 week",
-      "activities": ["ROI validation", "Risk assessment", "Implementation timeline review"],
+      "activities": [
+        "ROI validation",
+        "Risk assessment",
+        "Implementation timeline review"
+      ],
       "outcome": "Approved with phased rollout over 6 months"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% increase in online sales, 50% improvement in mobile conversion, enhanced customer experience",
     "projected_value": "$8,000,000 additional annual revenue",
-    "risk_factors": ["Implementation delays", "Data migration challenges", "Staff training requirements"]
+    "risk_factors": [
+      "Implementation delays",
+      "Data migration challenges",
+      "Staff training requirements"
+    ]
   },
-  "decision_criteria": ["Technical scalability", "Mobile-first design", "Integration capabilities", "Total cost of ownership", "Vendor support quality"],
+  "decision_criteria": [
+    "Technical scalability",
+    "Mobile-first design",
+    "Integration capabilities",
+    "Total cost of ownership",
+    "Vendor support quality"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early vendor evaluation prevented costly mistakes, pilot testing validated assumptions, phased implementation reduced business disruption"
 }

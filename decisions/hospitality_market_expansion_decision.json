@@ -3,8 +3,15 @@
   "context": "Mid-tier hotel chain, 50 properties across 3 states, planning international expansion",
   "stakeholders": {
     "requester": "CEO",
-    "approvers": ["Board of Directors", "CFO"],
-    "influencers": ["VP Operations", "VP Marketing", "External Consultants"]
+    "approvers": [
+      "Board of Directors",
+      "CFO"
+    ],
+    "influencers": [
+      "VP Operations",
+      "VP Marketing",
+      "External Consultants"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,25 +23,41 @@
     {
       "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["Competitive landscape assessment", "Customer demand analysis", "Regulatory environment review"],
+      "activities": [
+        "Competitive landscape assessment",
+        "Customer demand analysis",
+        "Regulatory environment review"
+      ],
       "outcome": "Proceed with detailed business case"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["ROI projections", "Cash flow analysis", "Risk assessment"],
+      "activities": [
+        "ROI projections",
+        "Cash flow analysis",
+        "Risk assessment"
+      ],
       "outcome": "Approved with modified scope (3 properties instead of 5)"
     },
     {
       "stage": "operational_planning",
       "duration": "8 weeks",
-      "activities": ["Partnership negotiations", "Staffing plans", "Technology integration"],
+      "activities": [
+        "Partnership negotiations",
+        "Staffing plans",
+        "Technology integration"
+      ],
       "outcome": "Full approval with performance milestones"
     }
   ],
   "business_impact": {
     "expected_revenue": "$45,000,000 annually",
     "projected_roi": "18% over 5 years",
-    "risk_factors": ["Currency fluctuations", "Political instability", "Cultural adaptation challenges"]
+    "risk_factors": [
+      "Currency fluctuations",
+      "Political instability",
+      "Cultural adaptation challenges"
+    ]
   }
 }

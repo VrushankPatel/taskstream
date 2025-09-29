@@ -1,8 +1,8 @@
 ## Email Thread: Seasonal Capacity Planning
 
-**From:** Revenue Manager  
-**To:** Operations Director, CEO  
-**Subject:** Peak Season Capacity Optimization Strategy  
+**From:** Revenue Manager
+**To:** Operations Director, CEO
+**Subject:** Peak Season Capacity Optimization Strategy
 
 Team,
 
@@ -19,15 +19,15 @@ Budget impact: $500K for additional staffing and equipment.
 
 Please review and approve.
 
-Best,  
-Maria Santos  
-Revenue Manager  
+Best,
+Maria Santos
+Revenue Manager
 
 ---
 
-**From:** Operations Director  
-**To:** Revenue Manager, CEO  
-**Subject:** Re: Peak Season Capacity Optimization Strategy  
+**From:** Operations Director
+**To:** Revenue Manager, CEO
+**Subject:** Re: Peak Season Capacity Optimization Strategy
 
 Maria,
 
@@ -35,13 +35,13 @@ The plan addresses our key constraints. From operations, we can handle the staff
 
 Let's schedule a walkthrough of the resorts next week to validate capacity assumptions.
 
-Operations  
+Operations
 
 ---
 
-**From:** CEO  
-**To:** Revenue Manager, Operations Director  
-**Subject:** Re: Peak Season Capacity Optimization Strategy  
+**From:** CEO
+**To:** Revenue Manager, Operations Director
+**Subject:** Re: Peak Season Capacity Optimization Strategy
 
 Team,
 

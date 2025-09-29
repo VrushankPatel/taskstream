@@ -1,9 +1,9 @@
 # Autonomous Vehicle Fleet Deployment Strategy Meeting
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, COO, CTO, Chief Safety Officer, VP Operations, Legal Counsel, Insurance Representatives  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, COO, CTO, Chief Safety Officer, VP Operations, Legal Counsel, Insurance Representatives
 
 ## Meeting Objective
 Review and approve autonomous vehicle fleet deployment strategy for urban delivery operations.

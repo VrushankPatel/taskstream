@@ -3,8 +3,17 @@
   "context": "Global logistics company, 30000 employees, evaluating autonomous vehicle fleet operations for last-mile delivery",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Head of Safety", "Local Government Officials", "Insurance Providers", "Customer Representatives"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Head of Safety",
+      "Local Government Officials",
+      "Insurance Providers",
+      "Customer Representatives"
+    ]
   },
   "request": {
     "amount": "$85M",
@@ -16,31 +25,51 @@
     {
       "stage": "feasibility_assessment",
       "duration": "6 weeks",
-      "activities": ["Technical feasibility study", "Regulatory landscape analysis", "Pilot program evaluation"],
+      "activities": [
+        "Technical feasibility study",
+        "Regulatory landscape analysis",
+        "Pilot program evaluation"
+      ],
       "outcome": "Confirmed technical feasibility with clear regulatory pathway"
     },
     {
       "stage": "financial_evaluation",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "ROI modeling", "Funding strategy development"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI modeling",
+        "Funding strategy development"
+      ],
       "outcome": "Strong business case with 25% IRR and 4-year payback period"
     },
     {
       "stage": "risk_assessment",
       "duration": "3 weeks",
-      "activities": ["Safety risk analysis", "Liability assessment", "Insurance evaluation"],
+      "activities": [
+        "Safety risk analysis",
+        "Liability assessment",
+        "Insurance evaluation"
+      ],
       "outcome": "Manageable risk profile with comprehensive mitigation strategies"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "4 weeks",
-      "activities": ["Community engagement", "Government relations", "Employee communication"],
+      "activities": [
+        "Community engagement",
+        "Government relations",
+        "Employee communication"
+      ],
       "outcome": "Strong stakeholder support with community partnerships secured"
     },
     {
       "stage": "executive_decision",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Final approval process", "Implementation planning"],
+      "activities": [
+        "Board presentation",
+        "Final approval process",
+        "Implementation planning"
+      ],
       "outcome": "Approved with phased deployment and comprehensive monitoring framework"
     }
   ],
@@ -49,7 +78,12 @@
     "competitive_advantage": "First-mover advantage in autonomous delivery with brand differentiation",
     "market_expansion": "Access to new urban markets previously inaccessible due to labor constraints",
     "scalability": "Platform for future autonomous applications across logistics network",
-    "risk_factors": ["Regulatory changes", "Safety incidents", "Technology failures", "Public acceptance challenges"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Safety incidents",
+      "Technology failures",
+      "Public acceptance challenges"
+    ]
   },
   "decision_outcome": "Approved $85M investment with phased rollout: $25M for initial fleet acquisition, $35M for infrastructure development, $25M for operations and safety systems; additional $15M contingency fund for regulatory and safety requirements"
 }

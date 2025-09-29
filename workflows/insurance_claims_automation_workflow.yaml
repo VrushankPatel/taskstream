@@ -1,45 +1,86 @@
 workflow:
-  id: "workflow_insurance_claims_automation"
-  title: "Insurance Claims Automation Process"
-  department: "Claims Processing"
-  complexity: "complex"
-  participants: ["Claims Adjuster", "AI Processing System", "Fraud Detection Team", "Customer Service Rep", "Legal Review"]
-  trigger: "Customer submits claim via digital portal"
+  id: workflow_insurance_claims_automation
+  title: Insurance Claims Automation Process
+  department: Claims Processing
+  complexity: complex
+  participants:
+  - Claims Adjuster
+  - AI Processing System
+  - Fraud Detection Team
+  - Customer Service Rep
+  - Legal Review
+  trigger: Customer submits claim via digital portal
   steps:
-    - step: 1
-      actor: "AI Processing System"
-      action: "Automatically validate claim data and extract key information from documents"
-      tools: ["OCR Technology", "NLP Engine", "Document Classification AI"]
-      duration: "5 minutes"
-      outputs: ["Validated claim data", "Document extraction results", "Initial risk assessment"]
-    - step: 2
-      actor: "Fraud Detection Team"
-      action: "Review automated fraud flags and conduct manual verification if needed"
-      tools: ["Fraud Detection Platform", "External Database Checks", "Pattern Analysis Tools"]
-      duration: "2 hours"
-      outputs: ["Fraud assessment report", "Verification results", "Escalation recommendations"]
-    - step: 3
-      actor: "Claims Adjuster"
-      action: "Review AI recommendations and make final claim decision with customer communication"
-      tools: ["Claims Management System", "Customer Portal", "Decision Support AI"]
-      duration: "4 hours"
-      outputs: ["Claim decision", "Payment calculation", "Customer notification"]
-    - step: 4
-      actor: "Customer Service Rep"
-      action: "Handle customer inquiries and provide status updates during processing"
-      tools: ["CRM System", "Automated Response System", "Call Center Tools"]
-      duration: "Ongoing"
-      outputs: ["Customer communications", "Satisfaction surveys", "Escalation handling"]
-    - step: 5
-      actor: "Legal Review"
-      action: "Review high-value or complex claims for legal compliance and regulatory requirements"
-      tools: ["Legal Database", "Regulatory Compliance System", "Contract Review Tools"]
-      duration: "1 day"
-      outputs: ["Legal approval", "Compliance documentation", "Audit trail"]
-  success_criteria: "Claims processed within SLA (24 hours for simple, 72 hours for complex) with 98% accuracy"
-  failure_modes: ["AI processing errors", "Fraud detection false positives", "Manual override delays"]
+  - step: 1
+    actor: AI Processing System
+    action: Automatically validate claim data and extract key information from documents
+    tools:
+    - OCR Technology
+    - NLP Engine
+    - Document Classification AI
+    duration: 5 minutes
+    outputs:
+    - Validated claim data
+    - Document extraction results
+    - Initial risk assessment
+  - step: 2
+    actor: Fraud Detection Team
+    action: Review automated fraud flags and conduct manual verification if needed
+    tools:
+    - Fraud Detection Platform
+    - External Database Checks
+    - Pattern Analysis Tools
+    duration: 2 hours
+    outputs:
+    - Fraud assessment report
+    - Verification results
+    - Escalation recommendations
+  - step: 3
+    actor: Claims Adjuster
+    action: Review AI recommendations and make final claim decision with customer
+      communication
+    tools:
+    - Claims Management System
+    - Customer Portal
+    - Decision Support AI
+    duration: 4 hours
+    outputs:
+    - Claim decision
+    - Payment calculation
+    - Customer notification
+  - step: 4
+    actor: Customer Service Rep
+    action: Handle customer inquiries and provide status updates during processing
+    tools:
+    - CRM System
+    - Automated Response System
+    - Call Center Tools
+    duration: Ongoing
+    outputs:
+    - Customer communications
+    - Satisfaction surveys
+    - Escalation handling
+  - step: 5
+    actor: Legal Review
+    action: Review high-value or complex claims for legal compliance and regulatory
+      requirements
+    tools:
+    - Legal Database
+    - Regulatory Compliance System
+    - Contract Review Tools
+    duration: 1 day
+    outputs:
+    - Legal approval
+    - Compliance documentation
+    - Audit trail
+  success_criteria: Claims processed within SLA (24 hours for simple, 72 hours for
+    complex) with 98% accuracy
+  failure_modes:
+  - AI processing errors
+  - Fraud detection false positives
+  - Manual override delays
   metrics:
-    - "Processing time: Target <24 hours for 80% of claims"
-    - "Accuracy rate: Target 98%"
-    - "Customer satisfaction: Target 4.5/5.0"
-    - "Cost per claim: Target $25 reduction from manual processing"
+  - 'Processing time: Target <24 hours for 80% of claims'
+  - 'Accuracy rate: Target 98%'
+  - 'Customer satisfaction: Target 4.5/5.0'
+  - 'Cost per claim: Target $25 reduction from manual processing'

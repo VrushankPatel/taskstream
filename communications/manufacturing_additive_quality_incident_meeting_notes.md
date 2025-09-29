@@ -1,16 +1,16 @@
 # Meeting Notes: Additive Manufacturing Quality Incident Review
 
-**Meeting:** Quality Incident Review - 3D Printed Aerospace Component Failure  
-**Date:** November 12, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room B  
-**Attendees:**  
-- John Smith, Quality Manager  
-- Maria Rodriguez, Production Manager  
-- David Chen, Materials Engineer  
-- Lisa Thompson, Design Engineer  
-- Robert Kim, Maintenance Supervisor  
-- Sarah Johnson, Supplier Quality Representative  
+**Meeting:** Quality Incident Review - 3D Printed Aerospace Component Failure
+**Date:** November 12, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room B
+**Attendees:**
+- John Smith, Quality Manager
+- Maria Rodriguez, Production Manager
+- David Chen, Materials Engineer
+- Lisa Thompson, Design Engineer
+- Robert Kim, Maintenance Supervisor
+- Sarah Johnson, Supplier Quality Representative
 
 ## Incident Summary
 On November 8th, a batch of 3D printed titanium aerospace brackets failed dimensional inspection. The parts measured 0.15mm outside tolerance specifications, resulting in rejection of 47 out of 50 parts produced.

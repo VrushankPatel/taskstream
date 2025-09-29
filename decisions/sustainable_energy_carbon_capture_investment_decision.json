@@ -3,8 +3,16 @@
   "context": "Energy company evaluating investment in direct air capture technology for carbon removal at industrial scale",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors", "Investment Committee"],
-    "influencers": ["Environmental Groups", "Government Regulators", "Industry Partners"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Investment Committee"
+    ],
+    "influencers": [
+      "Environmental Groups",
+      "Government Regulators",
+      "Industry Partners"
+    ]
   },
   "request": {
     "amount": "$200 million",
@@ -16,25 +24,42 @@
     {
       "stage": "technology_evaluation",
       "duration": "6 weeks",
-      "activities": ["Technology assessment", "Pilot results review", "Scalability analysis"],
+      "activities": [
+        "Technology assessment",
+        "Pilot results review",
+        "Scalability analysis"
+      ],
       "outcome": "Technology proven at pilot scale with clear path to commercialization"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Revenue modeling", "Risk assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Revenue modeling",
+        "Risk assessment"
+      ],
       "outcome": "Strong financial case with government incentives and carbon credit revenue"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "8 weeks",
-      "activities": ["Community consultations", "Regulatory discussions", "Partner negotiations"],
+      "activities": [
+        "Community consultations",
+        "Regulatory discussions",
+        "Partner negotiations"
+      ],
       "outcome": "Broad stakeholder support with regulatory approvals secured"
     }
   ],
   "business_impact": {
     "expected_carbon_reduction": "1 million tons annually",
     "projected_revenue": "$150 million from carbon credits",
-    "risk_factors": ["Technology scaling challenges", "Regulatory changes", "High capital costs", "Energy consumption concerns"]
+    "risk_factors": [
+      "Technology scaling challenges",
+      "Regulatory changes",
+      "High capital costs",
+      "Energy consumption concerns"
+    ]
   }
 }

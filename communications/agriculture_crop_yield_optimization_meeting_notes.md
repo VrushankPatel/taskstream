@@ -1,8 +1,8 @@
 ## Meeting Notes: Agriculture Crop Yield Optimization Strategy Session
 
-**Date:** October 15, 2025  
-**Attendees:** Operations Director, Farm Managers (3), Agronomist, Technology Specialist, Finance Manager  
-**Location:** Conference Room A  
+**Date:** October 15, 2025
+**Attendees:** Operations Director, Farm Managers (3), Agronomist, Technology Specialist, Finance Manager
+**Location:** Conference Room A
 
 ### Agenda
 1. Review current yield performance

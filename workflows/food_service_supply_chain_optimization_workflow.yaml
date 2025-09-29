@@ -1,46 +1,92 @@
 workflow:
-  id: "workflow_food_service_supply_chain_optimization"
-  title: "Supply Chain Optimization Workflow"
-  department: "Operations"
-  complexity: "medium"
-  participants: ["Supply Chain Manager", "Procurement Specialist", "Quality Assurance Lead", "Logistics Coordinator", "Data Analyst"]
-  trigger: "Rising supply costs or quality issues identified"
+  id: workflow_food_service_supply_chain_optimization
+  title: Supply Chain Optimization Workflow
+  department: Operations
+  complexity: medium
+  participants:
+  - Supply Chain Manager
+  - Procurement Specialist
+  - Quality Assurance Lead
+  - Logistics Coordinator
+  - Data Analyst
+  trigger: Rising supply costs or quality issues identified
   steps:
-    - step: 1
-      actor: "Supply Chain Manager"
-      action: "Conduct comprehensive supply chain assessment and gap analysis"
-      tools: ["Supply chain analytics platforms", "Vendor performance databases", "Cost analysis software"]
-      duration: "2 weeks"
-      outputs: ["Supply chain assessment report", "Gap analysis document", "Optimization opportunity matrix"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Analyze demand patterns and forecasting accuracy"
-      tools: ["Demand forecasting software", "Historical sales data", "Statistical modeling tools"]
-      duration: "3 weeks"
-      outputs: ["Demand analysis report", "Forecasting model improvements", "Inventory optimization recommendations"]
-    - step: 3
-      actor: "Procurement Specialist"
-      action: "Negotiate supplier contracts and diversify sourcing"
-      tools: ["Contract management systems", "Supplier evaluation frameworks", "Negotiation playbooks"]
-      duration: "4 weeks"
-      outputs: ["Updated supplier contracts", "Sourcing strategy document", "Vendor risk assessments"]
-    - step: 4
-      actor: "Quality Assurance Lead"
-      action: "Implement quality control checkpoints and supplier audits"
-      tools: ["Quality management systems", "Audit checklists", "Supplier scorecard systems"]
-      duration: "3 weeks"
-      outputs: ["Quality control procedures", "Supplier audit schedule", "Quality metrics dashboard"]
-    - step: 5
-      actor: "Logistics Coordinator"
-      action: "Optimize transportation and warehousing operations"
-      tools: ["Logistics optimization software", "Warehouse management systems", "Route planning tools"]
-      duration: "4 weeks"
-      outputs: ["Transportation optimization plan", "Warehouse layout improvements", "Logistics cost reduction targets"]
-    - step: 6
-      actor: "Cross-functional Team"
-      action: "Pilot optimization initiatives and measure results"
-      tools: ["Performance monitoring dashboards", "Pilot program templates", "ROI calculation tools"]
-      duration: "6 weeks"
-      outputs: ["Pilot results report", "Optimization implementation plan", "Performance improvement metrics"]
-  success_criteria: "15% reduction in supply chain costs with maintained quality and service levels"
-  failure_modes: ["Supplier relationship deterioration", "Quality compromises", "Implementation delays", "Cost savings not realized"]
+  - step: 1
+    actor: Supply Chain Manager
+    action: Conduct comprehensive supply chain assessment and gap analysis
+    tools:
+    - Supply chain analytics platforms
+    - Vendor performance databases
+    - Cost analysis software
+    duration: 2 weeks
+    outputs:
+    - Supply chain assessment report
+    - Gap analysis document
+    - Optimization opportunity matrix
+  - step: 2
+    actor: Data Analyst
+    action: Analyze demand patterns and forecasting accuracy
+    tools:
+    - Demand forecasting software
+    - Historical sales data
+    - Statistical modeling tools
+    duration: 3 weeks
+    outputs:
+    - Demand analysis report
+    - Forecasting model improvements
+    - Inventory optimization recommendations
+  - step: 3
+    actor: Procurement Specialist
+    action: Negotiate supplier contracts and diversify sourcing
+    tools:
+    - Contract management systems
+    - Supplier evaluation frameworks
+    - Negotiation playbooks
+    duration: 4 weeks
+    outputs:
+    - Updated supplier contracts
+    - Sourcing strategy document
+    - Vendor risk assessments
+  - step: 4
+    actor: Quality Assurance Lead
+    action: Implement quality control checkpoints and supplier audits
+    tools:
+    - Quality management systems
+    - Audit checklists
+    - Supplier scorecard systems
+    duration: 3 weeks
+    outputs:
+    - Quality control procedures
+    - Supplier audit schedule
+    - Quality metrics dashboard
+  - step: 5
+    actor: Logistics Coordinator
+    action: Optimize transportation and warehousing operations
+    tools:
+    - Logistics optimization software
+    - Warehouse management systems
+    - Route planning tools
+    duration: 4 weeks
+    outputs:
+    - Transportation optimization plan
+    - Warehouse layout improvements
+    - Logistics cost reduction targets
+  - step: 6
+    actor: Cross-functional Team
+    action: Pilot optimization initiatives and measure results
+    tools:
+    - Performance monitoring dashboards
+    - Pilot program templates
+    - ROI calculation tools
+    duration: 6 weeks
+    outputs:
+    - Pilot results report
+    - Optimization implementation plan
+    - Performance improvement metrics
+  success_criteria: 15% reduction in supply chain costs with maintained quality and
+    service levels
+  failure_modes:
+  - Supplier relationship deterioration
+  - Quality compromises
+  - Implementation delays
+  - Cost savings not realized

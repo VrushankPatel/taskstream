@@ -3,8 +3,17 @@
   "context": "Aerospace company evaluating $25M investment in autonomous drone delivery system certification and initial deployment",
   "stakeholders": {
     "requester": "VP Unmanned Systems",
-    "approvers": ["CEO", "CTO", "Board of Directors"],
-    "influencers": ["Chief Engineer", "Regulatory Affairs", "Safety Officer", "Commercial Partners"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Engineer",
+      "Regulatory Affairs",
+      "Safety Officer",
+      "Commercial Partners"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,28 +25,54 @@
     {
       "stage": "certification_pathway",
       "duration": "6 months",
-      "activities": ["FAA regulatory analysis", "Certification requirements mapping", "Technical specification development", "Testing protocol design"],
+      "activities": [
+        "FAA regulatory analysis",
+        "Certification requirements mapping",
+        "Technical specification development",
+        "Testing protocol design"
+      ],
       "outcome": "Clear certification pathway identified with 18-month timeline"
     },
     {
       "stage": "market_analysis",
       "duration": "3 months",
-      "activities": ["Market size assessment", "Competitor analysis", "Customer need validation", "Revenue projection modeling"],
+      "activities": [
+        "Market size assessment",
+        "Competitor analysis",
+        "Customer need validation",
+        "Revenue projection modeling"
+      ],
       "outcome": "Identified $2B addressable market with 30% market share potential"
     },
     {
       "stage": "risk_assessment",
       "duration": "2 months",
-      "activities": ["Safety risk evaluation", "Liability analysis", "Cybersecurity assessment", "Insurance requirements"],
+      "activities": [
+        "Safety risk evaluation",
+        "Liability analysis",
+        "Cybersecurity assessment",
+        "Insurance requirements"
+      ],
       "outcome": "Acceptable risk profile with comprehensive mitigation strategies"
     }
   ],
   "business_impact": {
     "expected_outcome": "Market leadership in urban drone delivery, new revenue stream, technology platform for future applications",
     "projected_value": "$100,000,000 in revenue over 5 years",
-    "risk_factors": ["Regulatory delays", "Safety incidents", "Public acceptance", "Technology maturation"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Safety incidents",
+      "Public acceptance",
+      "Technology maturation"
+    ]
   },
-  "decision_criteria": ["Market opportunity", "Technical feasibility", "Regulatory compliance", "Safety assurance", "Financial return"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Technical feasibility",
+    "Regulatory compliance",
+    "Safety assurance",
+    "Financial return"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement essential for certification success, comprehensive safety testing builds public trust, phased market entry minimizes operational risks"
 }

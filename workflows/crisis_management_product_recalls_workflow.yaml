@@ -1,58 +1,121 @@
 workflow:
-  id: "workflow_crisis_management_product_recalls"
-  title: "Crisis Management Product Recalls"
-  department: "Quality Assurance"
-  complexity: "complex"
-  participants: ["Chief Quality Officer", "Recall Coordinator", "Legal Counsel", "Communications Director", "Operations Manager", "Regulatory Affairs Manager", "Customer Service Director"]
-  trigger: "Product safety issue identified requiring immediate recall to protect consumers and brand reputation"
+  id: workflow_crisis_management_product_recalls
+  title: Crisis Management Product Recalls
+  department: Quality Assurance
+  complexity: complex
+  participants:
+  - Chief Quality Officer
+  - Recall Coordinator
+  - Legal Counsel
+  - Communications Director
+  - Operations Manager
+  - Regulatory Affairs Manager
+  - Customer Service Director
+  trigger: Product safety issue identified requiring immediate recall to protect consumers
+    and brand reputation
   steps:
-    - step: 1
-      actor: "Chief Quality Officer"
-      action: "Verify safety concern through investigation and risk assessment within first 24 hours"
-      tools: ["Quality investigation frameworks", "Risk assessment matrices", "Safety testing protocols"]
-      duration: "24 hours"
-      outputs: ["Safety investigation report", "Risk assessment", "Recall necessity determination"]
-    - step: 2
-      actor: "Recall Coordinator"
-      action: "Develop comprehensive recall plan including affected products, distribution channels, and execution timeline"
-      tools: ["Recall planning templates", "Distribution tracking systems", "Timeline management tools"]
-      duration: "48 hours"
-      outputs: ["Recall plan", "Affected product inventory", "Execution timeline"]
-    - step: 3
-      actor: "Regulatory Affairs Manager"
-      action: "Notify regulatory authorities and comply with reporting requirements across affected jurisdictions"
-      tools: ["Regulatory notification systems", "Compliance databases", "International reporting frameworks"]
-      duration: "12 hours"
-      outputs: ["Regulatory notifications", "Compliance documentation", "Jurisdictional coverage report"]
-    - step: 4
-      actor: "Communications Director"
-      action: "Prepare and execute communication strategy including public announcements, customer notifications, and media relations"
-      tools: ["Communication templates", "Media monitoring platforms", "Customer notification systems"]
-      duration: "24 hours"
-      outputs: ["Communication strategy", "Public announcements", "Customer notification campaigns"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Execute product retrieval and containment measures including warehouse isolation and retail removal"
-      tools: ["Inventory management systems", "Logistics coordination platforms", "Containment protocols"]
-      duration: "1-2 weeks"
-      outputs: ["Product containment report", "Retrieval completion metrics", "Inventory adjustment records"]
-    - step: 6
-      actor: "Customer Service Director"
-      action: "Manage customer inquiries, returns, and replacement processes with dedicated support resources"
-      tools: ["Customer service platforms", "Return processing systems", "Support escalation frameworks"]
-      duration: "Ongoing during recall"
-      outputs: ["Customer communication logs", "Return processing metrics", "Satisfaction monitoring reports"]
-    - step: 7
-      actor: "Legal Counsel"
-      action: "Conduct post-recall analysis, implement preventive measures, and prepare for potential litigation"
-      tools: ["Legal analysis frameworks", "Preventive measure templates", "Litigation preparation tools"]
-      duration: "4 weeks"
-      outputs: ["Post-recall analysis report", "Preventive measures plan", "Legal risk assessment"]
-  success_criteria: "Complete product retrieval within target timeframe, maintain customer trust, achieve regulatory compliance, and implement effective preventive measures"
-  failure_modes: ["Delayed recall execution", "Inadequate communication", "Regulatory non-compliance", "Customer service failures", "Insufficient preventive measures"]
+  - step: 1
+    actor: Chief Quality Officer
+    action: Verify safety concern through investigation and risk assessment within
+      first 24 hours
+    tools:
+    - Quality investigation frameworks
+    - Risk assessment matrices
+    - Safety testing protocols
+    duration: 24 hours
+    outputs:
+    - Safety investigation report
+    - Risk assessment
+    - Recall necessity determination
+  - step: 2
+    actor: Recall Coordinator
+    action: Develop comprehensive recall plan including affected products, distribution
+      channels, and execution timeline
+    tools:
+    - Recall planning templates
+    - Distribution tracking systems
+    - Timeline management tools
+    duration: 48 hours
+    outputs:
+    - Recall plan
+    - Affected product inventory
+    - Execution timeline
+  - step: 3
+    actor: Regulatory Affairs Manager
+    action: Notify regulatory authorities and comply with reporting requirements across
+      affected jurisdictions
+    tools:
+    - Regulatory notification systems
+    - Compliance databases
+    - International reporting frameworks
+    duration: 12 hours
+    outputs:
+    - Regulatory notifications
+    - Compliance documentation
+    - Jurisdictional coverage report
+  - step: 4
+    actor: Communications Director
+    action: Prepare and execute communication strategy including public announcements,
+      customer notifications, and media relations
+    tools:
+    - Communication templates
+    - Media monitoring platforms
+    - Customer notification systems
+    duration: 24 hours
+    outputs:
+    - Communication strategy
+    - Public announcements
+    - Customer notification campaigns
+  - step: 5
+    actor: Operations Manager
+    action: Execute product retrieval and containment measures including warehouse
+      isolation and retail removal
+    tools:
+    - Inventory management systems
+    - Logistics coordination platforms
+    - Containment protocols
+    duration: 1-2 weeks
+    outputs:
+    - Product containment report
+    - Retrieval completion metrics
+    - Inventory adjustment records
+  - step: 6
+    actor: Customer Service Director
+    action: Manage customer inquiries, returns, and replacement processes with dedicated
+      support resources
+    tools:
+    - Customer service platforms
+    - Return processing systems
+    - Support escalation frameworks
+    duration: Ongoing during recall
+    outputs:
+    - Customer communication logs
+    - Return processing metrics
+    - Satisfaction monitoring reports
+  - step: 7
+    actor: Legal Counsel
+    action: Conduct post-recall analysis, implement preventive measures, and prepare
+      for potential litigation
+    tools:
+    - Legal analysis frameworks
+    - Preventive measure templates
+    - Litigation preparation tools
+    duration: 4 weeks
+    outputs:
+    - Post-recall analysis report
+    - Preventive measures plan
+    - Legal risk assessment
+  success_criteria: Complete product retrieval within target timeframe, maintain customer
+    trust, achieve regulatory compliance, and implement effective preventive measures
+  failure_modes:
+  - Delayed recall execution
+  - Inadequate communication
+  - Regulatory non-compliance
+  - Customer service failures
+  - Insufficient preventive measures
   metrics:
-    - "Product retrieval completion rate: Target 95%"
-    - "Customer notification timeliness: Target 100%"
-    - "Regulatory compliance rate: Target 100%"
-    - "Customer satisfaction score: Target 3.5/5"
-    - "Preventive measure implementation: Target 100%"
+  - 'Product retrieval completion rate: Target 95%'
+  - 'Customer notification timeliness: Target 100%'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Customer satisfaction score: Target 3.5/5'
+  - 'Preventive measure implementation: Target 100%'

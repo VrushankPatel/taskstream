@@ -1,52 +1,91 @@
 workflow:
-  id: "workflow_advanced_robotics_human_robot_collaboration"
-  title: "Advanced Robotics Human-Robot Collaboration Integration"
-  department: "Manufacturing Operations"
-  complexity: "complex"
-  participants: ["Manufacturing Director", "Robotics Engineer", "Safety Officer", "Production Manager", "IT Systems Administrator", "Training Coordinator"]
-  trigger: "Decision to implement collaborative robotics for human-robot manufacturing processes"
+  id: workflow_advanced_robotics_human_robot_collaboration
+  title: Advanced Robotics Human-Robot Collaboration Integration
+  department: Manufacturing Operations
+  complexity: complex
+  participants:
+  - Manufacturing Director
+  - Robotics Engineer
+  - Safety Officer
+  - Production Manager
+  - IT Systems Administrator
+  - Training Coordinator
+  trigger: Decision to implement collaborative robotics for human-robot manufacturing
+    processes
   steps:
-    - step: 1
-      actor: "Manufacturing Director"
-      action: "Assess current manufacturing processes and identify collaboration opportunities with robotics"
-      tools: ["Process mapping software", "Production data analytics"]
-      duration: "2 weeks"
-      outputs: ["Process assessment report", "Collaboration opportunity matrix"]
-    - step: 2
-      actor: "Robotics Engineer"
-      action: "Design collaborative robot integration with existing production lines"
-      tools: ["CAD software", "Simulation tools", "Safety standards documentation"]
-      duration: "4 weeks"
-      outputs: ["Integration design specifications", "Safety risk assessment"]
-    - step: 3
-      actor: "Safety Officer"
-      action: "Conduct comprehensive safety evaluation and implement protective measures"
-      tools: ["Risk assessment frameworks", "Safety monitoring systems"]
-      duration: "3 weeks"
-      outputs: ["Safety compliance documentation", "Emergency stop protocols"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Develop workforce transition plan and training programs"
-      tools: ["Change management frameworks", "Training curriculum development tools"]
-      duration: "3 weeks"
-      outputs: ["Workforce transition roadmap", "Training materials"]
-    - step: 5
-      actor: "IT Systems Administrator"
-      action: "Integrate robotics control systems with manufacturing execution systems"
-      tools: ["MES software", "IoT integration platforms", "Network security tools"]
-      duration: "2 weeks"
-      outputs: ["System integration specifications", "Network security protocols"]
-    - step: 6
-      actor: "Training Coordinator"
-      action: "Execute workforce training and validate system readiness"
-      tools: ["Learning management systems", "Simulation training environments"]
-      duration: "4 weeks"
-      outputs: ["Training completion records", "System validation reports"]
-  success_criteria: "Robotics integrated successfully with 95% uptime, zero safety incidents, and 20% productivity improvement"
-  failure_modes: ["Insufficient safety protocols leading to incidents", "Poor workforce training causing resistance", "Technical integration failures with existing systems", "Inadequate risk assessment"]
+  - step: 1
+    actor: Manufacturing Director
+    action: Assess current manufacturing processes and identify collaboration opportunities
+      with robotics
+    tools:
+    - Process mapping software
+    - Production data analytics
+    duration: 2 weeks
+    outputs:
+    - Process assessment report
+    - Collaboration opportunity matrix
+  - step: 2
+    actor: Robotics Engineer
+    action: Design collaborative robot integration with existing production lines
+    tools:
+    - CAD software
+    - Simulation tools
+    - Safety standards documentation
+    duration: 4 weeks
+    outputs:
+    - Integration design specifications
+    - Safety risk assessment
+  - step: 3
+    actor: Safety Officer
+    action: Conduct comprehensive safety evaluation and implement protective measures
+    tools:
+    - Risk assessment frameworks
+    - Safety monitoring systems
+    duration: 3 weeks
+    outputs:
+    - Safety compliance documentation
+    - Emergency stop protocols
+  - step: 4
+    actor: Production Manager
+    action: Develop workforce transition plan and training programs
+    tools:
+    - Change management frameworks
+    - Training curriculum development tools
+    duration: 3 weeks
+    outputs:
+    - Workforce transition roadmap
+    - Training materials
+  - step: 5
+    actor: IT Systems Administrator
+    action: Integrate robotics control systems with manufacturing execution systems
+    tools:
+    - MES software
+    - IoT integration platforms
+    - Network security tools
+    duration: 2 weeks
+    outputs:
+    - System integration specifications
+    - Network security protocols
+  - step: 6
+    actor: Training Coordinator
+    action: Execute workforce training and validate system readiness
+    tools:
+    - Learning management systems
+    - Simulation training environments
+    duration: 4 weeks
+    outputs:
+    - Training completion records
+    - System validation reports
+  success_criteria: Robotics integrated successfully with 95% uptime, zero safety
+    incidents, and 20% productivity improvement
+  failure_modes:
+  - Insufficient safety protocols leading to incidents
+  - Poor workforce training causing resistance
+  - Technical integration failures with existing systems
+  - Inadequate risk assessment
   metrics:
-    - "System uptime: 95% target"
-    - "Safety incidents: 0 incidents"
-    - "Productivity improvement: 20% increase"
-    - "Training completion rate: 100%"
-    - "ROI realization: 18 months"
+  - 'System uptime: 95% target'
+  - 'Safety incidents: 0 incidents'
+  - 'Productivity improvement: 20% increase'
+  - 'Training completion rate: 100%'
+  - 'ROI realization: 18 months'

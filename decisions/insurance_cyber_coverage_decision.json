@@ -3,8 +3,15 @@
   "context": "Insurance company expanding cyber liability product line to address growing demand for ransomware and data breach coverage",
   "stakeholders": {
     "requester": "VP of Product Development",
-    "approvers": ["Chief Underwriting Officer", "CEO"],
-    "influencers": ["Chief Risk Officer", "Actuarial Director", "Marketing Director"]
+    "approvers": [
+      "Chief Underwriting Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Chief Risk Officer",
+      "Actuarial Director",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,28 +23,51 @@
     {
       "stage": "market_research",
       "duration": "3 weeks",
-      "activities": ["Competitor analysis", "Customer surveys", "Industry trend assessment"],
+      "activities": [
+        "Competitor analysis",
+        "Customer surveys",
+        "Industry trend assessment"
+      ],
       "outcome": "Identified market gap and pricing strategy"
     },
     {
       "stage": "product_design",
       "duration": "8 weeks",
-      "activities": ["Coverage development", "Pricing models", "Underwriting guidelines"],
+      "activities": [
+        "Coverage development",
+        "Pricing models",
+        "Underwriting guidelines"
+      ],
       "outcome": "Product specifications completed"
     },
     {
       "stage": "launch_approval",
       "duration": "2 weeks",
-      "activities": ["Risk assessment", "Regulatory review", "Budget finalization"],
+      "activities": [
+        "Risk assessment",
+        "Regulatory review",
+        "Budget finalization"
+      ],
       "outcome": "Approved for Q2 2025 launch"
     }
   ],
   "business_impact": {
     "expected_outcome": "Capture 5% market share in cyber insurance, $50M premium growth in first year",
     "projected_value": "$150M cumulative premiums over 5 years",
-    "risk_factors": ["Regulatory changes", "Underwriting losses", "Market saturation"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Underwriting losses",
+      "Market saturation"
+    ]
   },
-  "decision_criteria": ["Market potential >$500M", "Loss ratio target <65%", "Time to market <6 months", "Regulatory compliance", "Competitive differentiation", "Scalable underwriting capacity"],
+  "decision_criteria": [
+    "Market potential >$500M",
+    "Loss ratio target <65%",
+    "Time to market <6 months",
+    "Regulatory compliance",
+    "Competitive differentiation",
+    "Scalable underwriting capacity"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Cross-functional collaboration essential for complex insurance products, early regulatory engagement reduces launch delays"
 }

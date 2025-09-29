@@ -120,6 +120,6 @@ This policy governs the collection, processing, and use of personal data for con
 - **Data Protection Team**: dpo@company.com
 - **User Support**: personalization.support@company.com
 
-*Effective Date: May 1, 2024*  
-*Last Updated: October 25, 2025*  
+*Effective Date: May 1, 2024*
+*Last Updated: October 25, 2025*
 *Next Review: May 2026*

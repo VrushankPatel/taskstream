@@ -1,40 +1,69 @@
 workflow:
-   id: "workflow_insurance_simple_claim_intake"
-   title: "Insurance Simple Claim Intake Process"
-   department: "Claims"
-   complexity: "simple"
-   participants: ["Claims Representative", "Policyholder"]
-   trigger: "Policyholder reports incident"
-   steps:
-     - step: 1
-       actor: "Claims Representative"
-       action: "Collect basic incident details and policy information"
-       tools: ["Claims intake system", "Phone/email", "Digital intake form"]
-       duration: "10 minutes"
-       outputs: ["Initial claim record", "Policy verification request"]
-     - step: 2
-       actor: "Claims Representative"
-       action: "Verify policy coverage and eligibility"
-       tools: ["Policy database", "Claims system", "Fraud detection algorithms"]
-       duration: "5 minutes"
-       outputs: ["Coverage confirmation", "Eligibility assessment"]
-     - step: 3
-       actor: "Claims Representative"
-       action: "Document claim details and assign claim number"
-       tools: ["Claims management system", "Document scanner", "Digital signature tool"]
-       duration: "10 minutes"
-       outputs: ["Complete claim record", "Claim number assignment", "Initial documentation"]
-     - step: 4
-       actor: "Claims Representative"
-       action: "Provide claim confirmation and next steps to policyholder"
-       tools: ["Automated notification system", "Customer portal", "Email/SMS templates"]
-       duration: "5 minutes"
-       outputs: ["Claim confirmation", "Next steps communication", "Customer acknowledgment"]
-   success_criteria: "Claim fully documented and confirmed within 30 minutes with 100% accuracy"
-   failure_modes: ["Incomplete information requiring follow-up", "System access issues", "Policy verification delays", "Fraud flags requiring investigation"]
-   metrics:
-     - "Intake completion rate: >95%"
-     - "Average intake time: <12 minutes"
-     - "Documentation accuracy: >99%"
-     - "Customer satisfaction: >4.5/5"
-     - "First contact resolution: >85%"
+  id: workflow_insurance_simple_claim_intake
+  title: Insurance Simple Claim Intake Process
+  department: Claims
+  complexity: simple
+  participants:
+  - Claims Representative
+  - Policyholder
+  trigger: Policyholder reports incident
+  steps:
+  - step: 1
+    actor: Claims Representative
+    action: Collect basic incident details and policy information
+    tools:
+    - Claims intake system
+    - Phone/email
+    - Digital intake form
+    duration: 10 minutes
+    outputs:
+    - Initial claim record
+    - Policy verification request
+  - step: 2
+    actor: Claims Representative
+    action: Verify policy coverage and eligibility
+    tools:
+    - Policy database
+    - Claims system
+    - Fraud detection algorithms
+    duration: 5 minutes
+    outputs:
+    - Coverage confirmation
+    - Eligibility assessment
+  - step: 3
+    actor: Claims Representative
+    action: Document claim details and assign claim number
+    tools:
+    - Claims management system
+    - Document scanner
+    - Digital signature tool
+    duration: 10 minutes
+    outputs:
+    - Complete claim record
+    - Claim number assignment
+    - Initial documentation
+  - step: 4
+    actor: Claims Representative
+    action: Provide claim confirmation and next steps to policyholder
+    tools:
+    - Automated notification system
+    - Customer portal
+    - Email/SMS templates
+    duration: 5 minutes
+    outputs:
+    - Claim confirmation
+    - Next steps communication
+    - Customer acknowledgment
+  success_criteria: Claim fully documented and confirmed within 30 minutes with 100%
+    accuracy
+  failure_modes:
+  - Incomplete information requiring follow-up
+  - System access issues
+  - Policy verification delays
+  - Fraud flags requiring investigation
+  metrics:
+  - 'Intake completion rate: >95%'
+  - 'Average intake time: <12 minutes'
+  - 'Documentation accuracy: >99%'
+  - 'Customer satisfaction: >4.5/5'
+  - 'First contact resolution: >85%'

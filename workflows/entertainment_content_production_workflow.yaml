@@ -1,46 +1,84 @@
 workflow:
-  id: "workflow_entertainment_production_001"
-  title: "Entertainment Content Production Pipeline"
-  department: "Content Production"
-  complexity: "high"
-  participants: ["Creative Director", "Producer", "Scriptwriter", "Director", "Editor", "Marketing Lead"]
-  trigger: "Content concept approved by executive team"
+  id: workflow_entertainment_production_001
+  title: Entertainment Content Production Pipeline
+  department: Content Production
+  complexity: high
+  participants:
+  - Creative Director
+  - Producer
+  - Scriptwriter
+  - Director
+  - Editor
+  - Marketing Lead
+  trigger: Content concept approved by executive team
   steps:
-    - step: 1
-      actor: "Creative Director"
-      action: "Develop detailed content brief and creative vision"
-      tools: ["Project Management Software", "Creative Brief Template"]
-      duration: "1 week"
-      outputs: ["Content Brief", "Budget Estimate"]
-    - step: 2
-      actor: "Scriptwriter"
-      action: "Write script and develop storyboards"
-      tools: ["Scriptwriting Software", "Storyboard Tools"]
-      duration: "2 weeks"
-      outputs: ["Final Script", "Storyboard Package"]
-    - step: 3
-      actor: "Producer"
-      action: "Assemble production team and schedule shoot"
-      tools: ["Casting Database", "Scheduling Software", "Location Scouting"]
-      duration: "1 week"
-      outputs: ["Production Schedule", "Crew Assignments"]
-    - step: 4
-      actor: "Director"
-      action: "Oversee filming and capture raw footage"
-      tools: ["Camera Equipment", "Lighting Setup", "Audio Recording"]
-      duration: "2-4 weeks"
-      outputs: ["Raw Footage", "Daily Production Logs"]
-    - step: 5
-      actor: "Editor"
-      action: "Edit footage and add post-production effects"
-      tools: ["Editing Software", "Sound Design Tools", "Color Grading"]
-      duration: "3 weeks"
-      outputs: ["Edited Content", "Technical QC Report"]
-    - step: 6
-      actor: "Marketing Lead"
-      action: "Develop distribution strategy and promotional materials"
-      tools: ["Analytics Platform", "Social Media Tools"]
-      duration: "1 week"
-      outputs: ["Release Plan", "Marketing Assets"]
-  success_criteria: "Content delivered on budget and schedule, meets audience engagement targets"
-  failure_modes: ["Creative differences", "Budget overruns", "Technical issues", "Poor audience reception"]
+  - step: 1
+    actor: Creative Director
+    action: Develop detailed content brief and creative vision
+    tools:
+    - Project Management Software
+    - Creative Brief Template
+    duration: 1 week
+    outputs:
+    - Content Brief
+    - Budget Estimate
+  - step: 2
+    actor: Scriptwriter
+    action: Write script and develop storyboards
+    tools:
+    - Scriptwriting Software
+    - Storyboard Tools
+    duration: 2 weeks
+    outputs:
+    - Final Script
+    - Storyboard Package
+  - step: 3
+    actor: Producer
+    action: Assemble production team and schedule shoot
+    tools:
+    - Casting Database
+    - Scheduling Software
+    - Location Scouting
+    duration: 1 week
+    outputs:
+    - Production Schedule
+    - Crew Assignments
+  - step: 4
+    actor: Director
+    action: Oversee filming and capture raw footage
+    tools:
+    - Camera Equipment
+    - Lighting Setup
+    - Audio Recording
+    duration: 2-4 weeks
+    outputs:
+    - Raw Footage
+    - Daily Production Logs
+  - step: 5
+    actor: Editor
+    action: Edit footage and add post-production effects
+    tools:
+    - Editing Software
+    - Sound Design Tools
+    - Color Grading
+    duration: 3 weeks
+    outputs:
+    - Edited Content
+    - Technical QC Report
+  - step: 6
+    actor: Marketing Lead
+    action: Develop distribution strategy and promotional materials
+    tools:
+    - Analytics Platform
+    - Social Media Tools
+    duration: 1 week
+    outputs:
+    - Release Plan
+    - Marketing Assets
+  success_criteria: Content delivered on budget and schedule, meets audience engagement
+    targets
+  failure_modes:
+  - Creative differences
+  - Budget overruns
+  - Technical issues
+  - Poor audience reception

@@ -3,8 +3,16 @@
   "context": "Global manufacturing company, 5,000 employees, facing product recall crisis",
   "stakeholders": {
     "requester": "Crisis Management Team",
-    "approvers": ["CEO", "CRO", "Legal Counsel"],
-    "influencers": ["PR Director", "Operations VP", "Customer Service Head"]
+    "approvers": [
+      "CEO",
+      "CRO",
+      "Legal Counsel"
+    ],
+    "influencers": [
+      "PR Director",
+      "Operations VP",
+      "Customer Service Head"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,25 +24,41 @@
     {
       "stage": "immediate_response",
       "duration": "4 hours",
-      "activities": ["Assess crisis severity", "Activate crisis team", "Draft initial statements"],
+      "activities": [
+        "Assess crisis severity",
+        "Activate crisis team",
+        "Draft initial statements"
+      ],
       "outcome": "Crisis level determined as 'severe' - full protocol activation"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "12 hours",
-      "activities": ["Legal review of communications", "Executive approval of messaging", "Channel strategy development"],
+      "activities": [
+        "Legal review of communications",
+        "Executive approval of messaging",
+        "Channel strategy development"
+      ],
       "outcome": "Approved communication plan with phased rollout"
     },
     {
       "stage": "execution_and_monitoring",
       "duration": "2 weeks",
-      "activities": ["Multi-channel communication deployment", "Media monitoring", "Customer response tracking"],
+      "activities": [
+        "Multi-channel communication deployment",
+        "Media monitoring",
+        "Customer response tracking"
+      ],
       "outcome": "Communications successfully deployed with 85% customer reach"
     }
   ],
   "business_impact": {
     "expected_outcome": "Minimize brand damage and maintain customer loyalty",
     "projected_financial_impact": "$500K in compensation costs, $1M in PR expenses",
-    "risk_factors": ["Media sensationalism", "Competitor exploitation", "Regulatory investigations"]
+    "risk_factors": [
+      "Media sensationalism",
+      "Competitor exploitation",
+      "Regulatory investigations"
+    ]
   }
 }

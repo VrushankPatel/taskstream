@@ -1,16 +1,16 @@
 # Meeting Notes: Metaverse Store Launch Strategy Session
 
-**Meeting:** Virtual Retail Innovation - Metaverse Store Launch Planning  
-**Date:** December 3, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual Meeting Room (Meta Horizon)  
-**Attendees:**  
-- Emma Watson, Digital Innovation Director  
-- Carlos Mendez, UX/UI Designer  
-- Rachel Green, Marketing Manager  
-- Tom Anderson, Technical Lead  
-- Lisa Park, Product Manager  
-- David Wong, Customer Experience Manager  
+**Meeting:** Virtual Retail Innovation - Metaverse Store Launch Planning
+**Date:** December 3, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual Meeting Room (Meta Horizon)
+**Attendees:**
+- Emma Watson, Digital Innovation Director
+- Carlos Mendez, UX/UI Designer
+- Rachel Green, Marketing Manager
+- Tom Anderson, Technical Lead
+- Lisa Park, Product Manager
+- David Wong, Customer Experience Manager
 
 ## Agenda Overview
 Discussion of launch strategy for our virtual flagship store in the metaverse, targeting Gen Z and millennial shoppers with immersive shopping experiences.

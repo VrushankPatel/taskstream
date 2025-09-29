@@ -1,32 +1,46 @@
 workflow:
-  id: "workflow_retail_customer_service_inquiry"
-  title: "Retail Customer Service Inquiry Handling"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Supervisor"]
-  trigger: "Customer contacts retail store or call center with inquiry"
+  id: workflow_retail_customer_service_inquiry
+  title: Retail Customer Service Inquiry Handling
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Supervisor
+  trigger: Customer contacts retail store or call center with inquiry
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Greet customer and identify inquiry type (product info, order status, returns, complaints)"
-      tools: ["CRM system", "Product database"]
-      duration: "2 minutes"
-      outputs: ["Inquiry classification"]
-    - step: 2
-      actor: "Customer Service Representative"
-      action: "Provide information or resolve simple issues directly"
-      tools: ["CRM system", "Order tracking system"]
-      duration: "5 minutes"
-      outputs: ["Resolution provided"]
-    - step: 3
-      actor: "Customer Service Representative"
-      action: "Escalate complex issues to supervisor if needed"
-      tools: ["Internal escalation system"]
-      duration: "1 minute"
-      outputs: ["Escalation ticket"]
-  success_criteria: "Customer inquiry resolved within 10 minutes for simple issues"
-  failure_modes: ["System downtime", "Representative unavailable", "Complex issue misclassified"]
+  - step: 1
+    actor: Customer Service Representative
+    action: Greet customer and identify inquiry type (product info, order status,
+      returns, complaints)
+    tools:
+    - CRM system
+    - Product database
+    duration: 2 minutes
+    outputs:
+    - Inquiry classification
+  - step: 2
+    actor: Customer Service Representative
+    action: Provide information or resolve simple issues directly
+    tools:
+    - CRM system
+    - Order tracking system
+    duration: 5 minutes
+    outputs:
+    - Resolution provided
+  - step: 3
+    actor: Customer Service Representative
+    action: Escalate complex issues to supervisor if needed
+    tools:
+    - Internal escalation system
+    duration: 1 minute
+    outputs:
+    - Escalation ticket
+  success_criteria: Customer inquiry resolved within 10 minutes for simple issues
+  failure_modes:
+  - System downtime
+  - Representative unavailable
+  - Complex issue misclassified
   metrics:
-    - "Average resolution time: <10 minutes"
-    - "Customer satisfaction score: >4.5/5"
-    - "Escalation rate: <5%"
+  - 'Average resolution time: <10 minutes'
+  - 'Customer satisfaction score: >4.5/5'
+  - 'Escalation rate: <5%'

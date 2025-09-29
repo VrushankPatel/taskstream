@@ -104,7 +104,7 @@ Smart grid modernization program achieved 85% coverage in Q3 2025, reducing outa
 ## Benchmarking & Trends
 
 ### Industry Comparison
-- **Grid Reliability**: Top quartile vs peers  
+- **Grid Reliability**: Top quartile vs peers
 - **Customer Satisfaction**: Above industry average by 12%
 - **Technology Adoption**: Leading in smart grid deployment
 - **Sustainability Performance**: Top 10% in ESG rankings

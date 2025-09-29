@@ -3,8 +3,16 @@
   "context": "Regional bank (2,000 employees) modernizing customer onboarding to reduce fraud and improve user experience",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
-    "influencers": ["Compliance Team", "IT Security", "Customer Experience Team"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Compliance Team",
+      "IT Security",
+      "Customer Experience Team"
+    ]
   },
   "request": {
     "amount": "$420,000",
@@ -16,25 +24,41 @@
     {
       "stage": "regulatory_assessment",
       "duration": "4 weeks",
-      "activities": ["KYC regulation review", "Privacy law compliance", "Industry best practices"],
+      "activities": [
+        "KYC regulation review",
+        "Privacy law compliance",
+        "Industry best practices"
+      ],
       "outcome": "Requirements aligned with AML/KYC standards and data protection regulations"
     },
     {
       "stage": "solution_evaluation",
       "duration": "5 weeks",
-      "activities": ["Vendor POCs", "Integration testing", "Cost modeling"],
+      "activities": [
+        "Vendor POCs",
+        "Integration testing",
+        "Cost modeling"
+      ],
       "outcome": "Jumio selected for biometric verification over Onfido and Veriff"
     },
     {
       "stage": "implementation_roadmap",
       "duration": "3 weeks",
-      "activities": ["Phased rollout planning", "Change management", "Risk mitigation"],
+      "activities": [
+        "Phased rollout planning",
+        "Change management",
+        "Risk mitigation"
+      ],
       "outcome": "9-month implementation with pilot in 3 branches"
     }
   ],
   "business_impact": {
     "expected_benefits": "60% reduction in onboarding time, 30% decrease in fraud losses, improved customer satisfaction",
     "projected_roi": "180% over 2 years",
-    "risk_factors": ["Biometric data privacy concerns", "Integration with legacy systems", "Customer acceptance of new verification methods"]
+    "risk_factors": [
+      "Biometric data privacy concerns",
+      "Integration with legacy systems",
+      "Customer acceptance of new verification methods"
+    ]
   }
 }

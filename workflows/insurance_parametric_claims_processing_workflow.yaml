@@ -1,44 +1,66 @@
 workflow:
-  id: "workflow_insurance_parametric_claims"
-  title: "Insurance Parametric Claims Processing"
-  department: "Claims"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Risk Analyst", "Underwriting Manager", "IT Support Specialist"]
-  trigger: "Parametric trigger event detected (e.g., earthquake, flood)"
+  id: workflow_insurance_parametric_claims
+  title: Insurance Parametric Claims Processing
+  department: Claims
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Risk Analyst
+  - Underwriting Manager
+  - IT Support Specialist
+  trigger: Parametric trigger event detected (e.g., earthquake, flood)
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Verify parametric trigger data from approved data sources"
-      tools: ["Parametric Data Platform", "Weather Monitoring Systems"]
-      duration: "30 minutes"
-      outputs: ["Trigger verification report"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Assess policy coverage and calculate payout amounts"
-      tools: ["Policy Database", "Parametric Modeling Software"]
-      duration: "2 hours"
-      outputs: ["Coverage assessment and payout calculation"]
-    - step: 3
-      actor: "Underwriting Manager"
-      action: "Review high-value claims and approve processing"
-      tools: ["Claims Management System", "Approval Workflow Tool"]
-      duration: "4 hours"
-      outputs: ["Approval decision and processing instructions"]
-    - step: 4
-      actor: "IT Support Specialist"
-      action: "Execute automated payout distribution to policyholders"
-      tools: ["Automated Payment System", "Blockchain Ledger"]
-      duration: "1 hour"
-      outputs: ["Payment distribution confirmation"]
-    - step: 5
-      actor: "Claims Adjuster"
-      action: "Document claim processing and update policy records"
-      tools: ["Claims Database", "Audit Trail System"]
-      duration: "30 minutes"
-      outputs: ["Processed claim documentation"]
-  success_criteria: "Claims processed within 24 hours, 100% accuracy in automated payouts"
-  failure_modes: ["Data source reliability issues", "Policy interpretation disputes", "Payment system failures"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Verify parametric trigger data from approved data sources
+    tools:
+    - Parametric Data Platform
+    - Weather Monitoring Systems
+    duration: 30 minutes
+    outputs:
+    - Trigger verification report
+  - step: 2
+    actor: Risk Analyst
+    action: Assess policy coverage and calculate payout amounts
+    tools:
+    - Policy Database
+    - Parametric Modeling Software
+    duration: 2 hours
+    outputs:
+    - Coverage assessment and payout calculation
+  - step: 3
+    actor: Underwriting Manager
+    action: Review high-value claims and approve processing
+    tools:
+    - Claims Management System
+    - Approval Workflow Tool
+    duration: 4 hours
+    outputs:
+    - Approval decision and processing instructions
+  - step: 4
+    actor: IT Support Specialist
+    action: Execute automated payout distribution to policyholders
+    tools:
+    - Automated Payment System
+    - Blockchain Ledger
+    duration: 1 hour
+    outputs:
+    - Payment distribution confirmation
+  - step: 5
+    actor: Claims Adjuster
+    action: Document claim processing and update policy records
+    tools:
+    - Claims Database
+    - Audit Trail System
+    duration: 30 minutes
+    outputs:
+    - Processed claim documentation
+  success_criteria: Claims processed within 24 hours, 100% accuracy in automated payouts
+  failure_modes:
+  - Data source reliability issues
+  - Policy interpretation disputes
+  - Payment system failures
   metrics:
-    - "Claims processing time: <24 hours"
-    - "Automated payout accuracy: 100%"
-    - "Customer satisfaction: 4.8/5 rating"
+  - 'Claims processing time: <24 hours'
+  - 'Automated payout accuracy: 100%'
+  - 'Customer satisfaction: 4.8/5 rating'

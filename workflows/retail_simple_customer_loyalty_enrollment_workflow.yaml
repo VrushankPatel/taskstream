@@ -1,30 +1,52 @@
 workflow:
-  id: "workflow_retail_simple_customer_loyalty_enrollment"
-  title: "Customer Loyalty Program Enrollment Process"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Customer"]
-  trigger: "Customer requests to join loyalty program"
+  id: workflow_retail_simple_customer_loyalty_enrollment
+  title: Customer Loyalty Program Enrollment Process
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Customer
+  trigger: Customer requests to join loyalty program
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Verify customer account and collect basic information"
-      decision_points: ["Existing customer check", "Information completeness"]
-      tools: ["POS System", "Customer Database", "ID Verification Scanner"]
-      duration: "5 minutes"
-      outputs: ["Verified customer profile", "Enrollment eligibility confirmation"]
-    - step: 2
-      actor: "Customer Service Representative"
-      action: "Enroll customer in loyalty program and issue membership card"
-      decision_points: ["Program tier selection", "Digital vs physical card preference"]
-      tools: ["Loyalty Program Software", "Card Printer", "Email System"]
-      duration: "3 minutes"
-      outputs: ["Membership card", "Welcome email", "Program benefits explanation"]
-  success_criteria: "Customer successfully enrolled with active membership and receives confirmation"
-  failure_modes: ["Invalid customer information", "System technical issues", "Duplicate enrollment attempt", "Customer declines terms"]
+  - step: 1
+    actor: Customer Service Representative
+    action: Verify customer account and collect basic information
+    decision_points:
+    - Existing customer check
+    - Information completeness
+    tools:
+    - POS System
+    - Customer Database
+    - ID Verification Scanner
+    duration: 5 minutes
+    outputs:
+    - Verified customer profile
+    - Enrollment eligibility confirmation
+  - step: 2
+    actor: Customer Service Representative
+    action: Enroll customer in loyalty program and issue membership card
+    decision_points:
+    - Program tier selection
+    - Digital vs physical card preference
+    tools:
+    - Loyalty Program Software
+    - Card Printer
+    - Email System
+    duration: 3 minutes
+    outputs:
+    - Membership card
+    - Welcome email
+    - Program benefits explanation
+  success_criteria: Customer successfully enrolled with active membership and receives
+    confirmation
+  failure_modes:
+  - Invalid customer information
+  - System technical issues
+  - Duplicate enrollment attempt
+  - Customer declines terms
   metrics:
-    - "Enrollment completion rate: 95%"
-    - "Average enrollment time: 8 minutes"
-    - "Customer satisfaction score: 4.5/5"
-    - "Digital enrollment percentage: 60%"
-    - "Repeat enrollment attempts: <5%"
+  - 'Enrollment completion rate: 95%'
+  - 'Average enrollment time: 8 minutes'
+  - 'Customer satisfaction score: 4.5/5'
+  - 'Digital enrollment percentage: 60%'
+  - 'Repeat enrollment attempts: <5%'

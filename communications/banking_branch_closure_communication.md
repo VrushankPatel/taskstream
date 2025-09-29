@@ -1,10 +1,10 @@
 ## Email Thread: Branch Network Optimization Announcement
 
-**From:** CEO  
-**To:** All Employees  
-**Subject:** Important Update: Branch Network Optimization Initiative  
+**From:** CEO
+**To:** All Employees
+**Subject:** Important Update: Branch Network Optimization Initiative
 
-**Date:** September 20, 2024  
+**Date:** September 20, 2024
 
 Dear Team,
 
@@ -29,19 +29,19 @@ This is a significant change, but necessary for our long-term success. We'll be 
 
 Thank you for your understanding and continued dedication.
 
-Best,  
-Robert Kim  
-CEO  
-MetroBank  
-robert.kim@metrobank.com  
+Best,
+Robert Kim
+CEO
+MetroBank
+robert.kim@metrobank.com
 
 ---
 
-**From:** Branch Manager (Downtown Branch)  
-**To:** CEO, HR Director  
-**Subject:** Re: Important Update: Branch Network Optimization Initiative  
+**From:** Branch Manager (Downtown Branch)
+**To:** CEO, HR Director
+**Subject:** Re: Important Update: Branch Network Optimization Initiative
 
-**Date:** September 21, 2024  
+**Date:** September 21, 2024
 
 Robert,
 
@@ -49,17 +49,17 @@ I'm disappointed to hear about the downtown branch closure. This location has se
 
 Could we discuss converting it to a community center instead of closing entirely?
 
-Best,  
-Maria Gonzalez  
-Branch Manager  
+Best,
+Maria Gonzalez
+Branch Manager
 
 ---
 
-**From:** CEO  
-**To:** Branch Manager (Downtown Branch), HR Director, Operations Director  
-**Subject:** Re: Important Update: Branch Network Optimization Initiative  
+**From:** CEO
+**To:** Branch Manager (Downtown Branch), HR Director, Operations Director
+**Subject:** Re: Important Update: Branch Network Optimization Initiative
 
-**Date:** September 22, 2024  
+**Date:** September 22, 2024
 
 Maria,
 
@@ -67,15 +67,15 @@ Thank you for your feedback and for your years of service. We did consider the c
 
 I'd be happy to discuss the downtown location specifically. Could you join our town hall meeting next week where we'll address individual branch questions?
 
-Robert  
+Robert
 
 ---
 
-**From:** HR Director  
-**To:** CEO, Branch Manager (Downtown Branch)  
-**Subject:** Re: Important Update: Branch Network Optimization Initiative  
+**From:** HR Director
+**To:** CEO, Branch Manager (Downtown Branch)
+**Subject:** Re: Important Update: Branch Network Optimization Initiative
 
-**Date:** September 23, 2024  
+**Date:** September 23, 2024
 
 Maria,
 
@@ -83,6 +83,6 @@ To address your concerns about employee support: we're offering comprehensive tr
 
 Please let me know if you'd like to discuss individual situations.
 
-Best,  
-Jennifer Walsh  
+Best,
+Jennifer Walsh
 HR Director

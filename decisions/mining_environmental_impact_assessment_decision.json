@@ -3,8 +3,17 @@
   "context": "Mining company evaluating expansion of open-pit operation, requiring comprehensive environmental impact assessment",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Board of Directors", "Chief Environmental Officer"],
-    "influencers": ["Local Government", "Environmental NGOs", "Community Representatives", "VP Legal"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Environmental Officer"
+    ],
+    "influencers": [
+      "Local Government",
+      "Environmental NGOs",
+      "Community Representatives",
+      "VP Legal"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,28 +25,54 @@
     {
       "stage": "baseline_assessment",
       "duration": "6 months",
-      "activities": ["Environmental baseline studies", "Stakeholder consultations", "Regulatory requirements review", "Impact modeling"],
+      "activities": [
+        "Environmental baseline studies",
+        "Stakeholder consultations",
+        "Regulatory requirements review",
+        "Impact modeling"
+      ],
       "outcome": "Identified significant impacts on water quality and biodiversity"
     },
     {
       "stage": "impact_analysis",
       "duration": "4 months",
-      "activities": ["Detailed impact assessments", "Mitigation strategy development", "Alternative analysis", "Risk evaluation"],
+      "activities": [
+        "Detailed impact assessments",
+        "Mitigation strategy development",
+        "Alternative analysis",
+        "Risk evaluation"
+      ],
       "outcome": "Developed mitigation plans reducing impacts by 70%"
     },
     {
       "stage": "regulatory_approval",
       "duration": "3 months",
-      "activities": ["Permit applications", "Public hearings", "Environmental reviews", "Community engagement"],
+      "activities": [
+        "Permit applications",
+        "Public hearings",
+        "Environmental reviews",
+        "Community engagement"
+      ],
       "outcome": "Received conditional approval with enhanced monitoring"
     }
   ],
   "business_impact": {
     "expected_outcome": "Approved mine expansion with enhanced environmental protections",
     "projected_value": "$50,000,000 additional revenue from expanded operations",
-    "risk_factors": ["Regulatory delays", "Community opposition", "Environmental accidents", "Higher mitigation costs"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Community opposition",
+      "Environmental accidents",
+      "Higher mitigation costs"
+    ]
   },
-  "decision_criteria": ["Environmental impact minimization", "Community acceptance", "Financial viability", "Regulatory compliance", "Operational feasibility"],
+  "decision_criteria": [
+    "Environmental impact minimization",
+    "Community acceptance",
+    "Financial viability",
+    "Regulatory compliance",
+    "Operational feasibility"
+  ],
   "outcome": "Approved with conditions",
   "lessons_learned": "Early community engagement prevents opposition, comprehensive baseline data enables better decision-making, mitigation costs often underestimated"
 }

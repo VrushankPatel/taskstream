@@ -1,14 +1,14 @@
 ## Announcement: Pharmaceutical Personalized Medicine Program Rollout
 
-**From:** Chief Medical Officer  
-**To:** Healthcare Providers, Patients, and Research Partners  
-**Subject:** Launch of Personalized Medicine Program - Transforming Patient Care Through Genomics  
+**From:** Chief Medical Officer
+**To:** Healthcare Providers, Patients, and Research Partners
+**Subject:** Launch of Personalized Medicine Program - Transforming Patient Care Through Genomics
 
-**Date:** September 29, 2025  
+**Date:** September 29, 2025
 
-Dear Healthcare Community,  
+Dear Healthcare Community,
 
-We are thrilled to announce the launch of our Personalized Medicine Program, a groundbreaking initiative that leverages genomic sequencing and AI-driven analytics to deliver targeted therapies for cancer and rare diseases.  
+We are thrilled to announce the launch of our Personalized Medicine Program, a groundbreaking initiative that leverages genomic sequencing and AI-driven analytics to deliver targeted therapies for cancer and rare diseases.
 
 ### Program Components
 - **Genomic Sequencing**: Comprehensive DNA analysis for treatment selection
@@ -64,14 +64,14 @@ We are thrilled to announce the launch of our Personalized Medicine Program, a g
 - **Cost Transparency**: Clear pricing for all program components
 - **Value-Based Care**: Outcomes-based reimbursement models
 
-This program represents the future of medicine—care that is as unique as each patient. We're not just treating diseases; we're preventing them and personalizing cures.  
+This program represents the future of medicine—care that is as unique as each patient. We're not just treating diseases; we're preventing them and personalizing cures.
 
-To learn more or enroll in the program, please visit personalizedmedicine.pharma.com or contact our patient services team at 1-800-PERSONAL.  
+To learn more or enroll in the program, please visit personalizedmedicine.pharma.com or contact our patient services team at 1-800-PERSONAL.
 
-Advancing healthcare through the power of genomics.  
+Advancing healthcare through the power of genomics.
 
-Best regards,  
-Dr. Jennifer Walsh  
-Chief Medical Officer  
-Pharmaceutical Innovations Inc.  
+Best regards,
+Dr. Jennifer Walsh
+Chief Medical Officer
+Pharmaceutical Innovations Inc.
 jennifer.walsh@pharma.com

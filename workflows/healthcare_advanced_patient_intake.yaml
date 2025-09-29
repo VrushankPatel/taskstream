@@ -1,46 +1,77 @@
 workflow:
-  id: "workflow_healthcare_patient_intake"
-  title: "Advanced Patient Intake Process"
-  department: "Patient Services"
-  complexity: "high"
-  participants: ["Registration Clerk", "Nurse", "Physician Assistant", "IT Support", "Billing Specialist"]
-  trigger: "Patient arrives for appointment or completes online pre-registration"
+  id: workflow_healthcare_patient_intake
+  title: Advanced Patient Intake Process
+  department: Patient Services
+  complexity: high
+  participants:
+  - Registration Clerk
+  - Nurse
+  - Physician Assistant
+  - IT Support
+  - Billing Specialist
+  trigger: Patient arrives for appointment or completes online pre-registration
   steps:
-    - step: 1
-      actor: "Registration Clerk"
-      action: "Verify patient identity using biometric or document scan"
-      tools: ["EHR System", "Biometric Scanner", "ID Verification Software"]
-      duration: "5 minutes"
-      outputs: ["Verified Patient Identity"]
-    - step: 2
-      actor: "Registration Clerk"
-      action: "Collect comprehensive health history and current medications"
-      tools: ["Digital Intake Form", "Medication Database"]
-      duration: "15 minutes"
-      outputs: ["Health History Summary"]
-    - step: 3
-      actor: "Nurse"
-      action: "Perform vital signs assessment and initial triage"
-      tools: ["Medical Devices", "Triage Software"]
-      duration: "10 minutes"
-      outputs: ["Vital Signs Report", "Triage Level"]
-    - step: 4
-      actor: "Physician Assistant"
-      action: "Review intake data and conduct preliminary assessment"
-      decision_points: ["Urgency Level", "Specialist Referral Needed"]
-      duration: "20 minutes"
-      outputs: ["Preliminary Assessment", "Referral Recommendations"]
-    - step: 5
-      actor: "IT Support"
-      action: "Ensure patient portal access and data integration"
-      tools: ["Patient Portal", "Data Integration Tools"]
-      duration: "5 minutes"
-      outputs: ["Portal Access Confirmation"]
-    - step: 6
-      actor: "Billing Specialist"
-      action: "Verify insurance coverage and estimate costs"
-      tools: ["Insurance Verification System"]
-      duration: "10 minutes"
-      outputs: ["Coverage Confirmation", "Cost Estimate"]
-  success_criteria: "Complete patient record created, accurate triage performed, insurance verified"
-  failure_modes: ["Identity verification failure", "Incomplete health history", "Insurance coverage issues", "System integration errors"]
+  - step: 1
+    actor: Registration Clerk
+    action: Verify patient identity using biometric or document scan
+    tools:
+    - EHR System
+    - Biometric Scanner
+    - ID Verification Software
+    duration: 5 minutes
+    outputs:
+    - Verified Patient Identity
+  - step: 2
+    actor: Registration Clerk
+    action: Collect comprehensive health history and current medications
+    tools:
+    - Digital Intake Form
+    - Medication Database
+    duration: 15 minutes
+    outputs:
+    - Health History Summary
+  - step: 3
+    actor: Nurse
+    action: Perform vital signs assessment and initial triage
+    tools:
+    - Medical Devices
+    - Triage Software
+    duration: 10 minutes
+    outputs:
+    - Vital Signs Report
+    - Triage Level
+  - step: 4
+    actor: Physician Assistant
+    action: Review intake data and conduct preliminary assessment
+    decision_points:
+    - Urgency Level
+    - Specialist Referral Needed
+    duration: 20 minutes
+    outputs:
+    - Preliminary Assessment
+    - Referral Recommendations
+  - step: 5
+    actor: IT Support
+    action: Ensure patient portal access and data integration
+    tools:
+    - Patient Portal
+    - Data Integration Tools
+    duration: 5 minutes
+    outputs:
+    - Portal Access Confirmation
+  - step: 6
+    actor: Billing Specialist
+    action: Verify insurance coverage and estimate costs
+    tools:
+    - Insurance Verification System
+    duration: 10 minutes
+    outputs:
+    - Coverage Confirmation
+    - Cost Estimate
+  success_criteria: Complete patient record created, accurate triage performed, insurance
+    verified
+  failure_modes:
+  - Identity verification failure
+  - Incomplete health history
+  - Insurance coverage issues
+  - System integration errors

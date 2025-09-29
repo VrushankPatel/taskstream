@@ -1,8 +1,8 @@
 ## Email Thread: Retail Supply Chain Crisis Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Procurement Team  
-**Subject:** Urgent: Supply Chain Crisis Response Plan Activation  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Procurement Team
+**Subject:** Urgent: Supply Chain Crisis Response Plan Activation
 
 Team,
 
@@ -31,17 +31,17 @@ Following the recent port congestion and transportation delays affecting our key
 
 Please review the attached detailed response plan and let me know if you need additional resources for your areas.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
-sarah.chen@retailcorp.com  
+Best,
+Sarah Chen
+Supply Chain Director
+sarah.chen@retailcorp.com
 (555) 123-4567
 
 ---
 
-**From:** CEO  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation  
+**From:** CEO
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation
 
 Sarah,
 
@@ -59,16 +59,16 @@ Thank you for the swift activation of our response plan. This demonstrates our p
 
 Let's schedule a crisis management call for 2 PM today to review progress.
 
-Regards,  
-Michael Rodriguez  
-CEO  
+Regards,
+Michael Rodriguez
+CEO
 michael.rodriguez@retailcorp.com
 
 ---
 
-**From:** Supply Chain Director  
-**To:** CEO, Executive Leadership Team  
-**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation  
+**From:** Supply Chain Director
+**To:** CEO, Executive Leadership Team
+**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation
 
 Michael,
 
@@ -87,14 +87,14 @@ Thank you for the additional support. The contingency budget will allow us to se
 
 Looking forward to the 2 PM call.
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Marketing Director  
-**To:** Supply Chain Director, CEO, Executive Leadership Team  
-**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation  
+**From:** Marketing Director
+**To:** Supply Chain Director, CEO, Executive Leadership Team
+**Subject:** Re: Urgent: Supply Chain Crisis Response Plan Activation
 
 Sarah and team,
 
@@ -108,6 +108,6 @@ We recommend proactive communication rather than reactive to maintain trust. The
 
 Ready to launch upon approval.
 
-Lisa Park  
-Marketing Director  
+Lisa Park
+Marketing Director
 lisa.park@retailcorp.com

@@ -1,10 +1,10 @@
 # AI Ethics Transparency Policy Implementation Announcement
 
-**From:** Chief AI Ethics Officer  
-**To:** All Employees, AI Development Teams, Product Teams, Executive Leadership  
-**Subject:** New AI Transparency Policy - Ensuring Explainable and Accountable AI Systems  
+**From:** Chief AI Ethics Officer
+**To:** All Employees, AI Development Teams, Product Teams, Executive Leadership
+**Subject:** New AI Transparency Policy - Ensuring Explainable and Accountable AI Systems
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -125,6 +125,6 @@ For questions about the policy, contact the AI Ethics Office at ai-ethics@compan
 
 Transparency is not just a regulatory requirement—it's a competitive advantage that builds trust and enables better AI systems. Together, we will lead the industry in responsible, transparent AI development.
 
-Best regards,  
-[Chief AI Ethics Officer Name]  
+Best regards,
+[Chief AI Ethics Officer Name]
 Chief AI Ethics Officer

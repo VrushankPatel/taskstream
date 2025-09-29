@@ -1,14 +1,14 @@
 # Retail Loyalty Program Campaign Planning Meeting
 
-**Date:** November 3, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Marketing Conference Room  
-**Attendees:**  
-- Jennifer Martinez, Loyalty Program Manager  
-- Tom Wilson, Marketing Director  
-- Rachel Lee, Customer Analytics Lead  
-- Mike Johnson, Store Operations Manager  
-- External: Alex Chen, Loyalty Platform Vendor  
+**Date:** November 3, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Marketing Conference Room
+**Attendees:**
+- Jennifer Martinez, Loyalty Program Manager
+- Tom Wilson, Marketing Director
+- Rachel Lee, Customer Analytics Lead
+- Mike Johnson, Store Operations Manager
+- External: Alex Chen, Loyalty Platform Vendor
 
 ## Meeting Objectives
 - Review Q4 loyalty program performance

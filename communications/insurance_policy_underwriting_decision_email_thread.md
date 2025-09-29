@@ -1,10 +1,10 @@
 ## Email Thread: Underwriting Decision - High-Value Commercial Property
 
-**From:** Senior Underwriter  
-**To:** Underwriting Manager, Risk Assessment Team  
-**Subject:** Underwriting Review Required - Downtown Office Complex ($25M Value)  
+**From:** Senior Underwriter
+**To:** Underwriting Manager, Risk Assessment Team
+**Subject:** Underwriting Review Required - Downtown Office Complex ($25M Value)
 
-**Date:** September 25, 2025 10:00 AM  
+**Date:** September 25, 2025 10:00 AM
 
 Team,
 
@@ -19,19 +19,19 @@ Risk assessment shows moderate flood risk but strong mitigation measures in plac
 
 Please provide your recommendations by COB today.
 
-Regards,  
-David Kim  
-Senior Underwriter  
-Pacific Insurance  
-david.kim@pacificins.com  
+Regards,
+David Kim
+Senior Underwriter
+Pacific Insurance
+david.kim@pacificins.com
 
 ---
 
-**From:** Risk Assessment Lead  
-**To:** Senior Underwriter, Underwriting Manager  
-**Subject:** Re: Underwriting Review Required - Downtown Office Complex ($25M Value)  
+**From:** Risk Assessment Lead
+**To:** Senior Underwriter, Underwriting Manager
+**Subject:** Re: Underwriting Review Required - Downtown Office Complex ($25M Value)
 
-**Date:** September 25, 2025 11:30 AM  
+**Date:** September 25, 2025 11:30 AM
 
 David,
 
@@ -52,19 +52,19 @@ Risk score: Medium (6.2/10)
 
 Please advise if you need additional analysis.
 
-Best,  
-Rachel Martinez  
-Risk Assessment Lead  
-Pacific Insurance  
-rachel.martinez@pacificins.com  
+Best,
+Rachel Martinez
+Risk Assessment Lead
+Pacific Insurance
+rachel.martinez@pacificins.com
 
 ---
 
-**From:** Underwriting Manager  
-**To:** Senior Underwriter, Risk Assessment Lead, Claims Manager  
-**Subject:** Re: Underwriting Review Required - Downtown Office Complex ($25M Value)  
+**From:** Underwriting Manager
+**To:** Senior Underwriter, Risk Assessment Lead, Claims Manager
+**Subject:** Re: Underwriting Review Required - Downtown Office Complex ($25M Value)
 
-**Date:** September 25, 2025 2:00 PM  
+**Date:** September 25, 2025 2:00 PM
 
 Team,
 
@@ -79,8 +79,8 @@ Client has been notified and policy documents are being prepared. Effective date
 
 Good work on the thorough risk assessment.
 
-Regards,  
-Thomas Wright  
-Underwriting Manager  
-Pacific Insurance  
+Regards,
+Thomas Wright
+Underwriting Manager
+Pacific Insurance
 thomas.wright@pacificins.com

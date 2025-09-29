@@ -1,38 +1,63 @@
 workflow:
-  id: "workflow_hospitality_feedback_medium"
-  title: "Hospitality Guest Feedback Collection and Response"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Guest Services Manager", "Front Desk Staff", "Department Heads"]
-  trigger: "Guest checkout or post-stay survey completion"
+  id: workflow_hospitality_feedback_medium
+  title: Hospitality Guest Feedback Collection and Response
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Guest Services Manager
+  - Front Desk Staff
+  - Department Heads
+  trigger: Guest checkout or post-stay survey completion
   steps:
-    - step: 1
-      actor: "Front Desk Staff"
-      action: "Collect immediate feedback during checkout and send automated follow-up survey"
-      tools: ["Property management system", "Survey software"]
-      duration: "15 minutes"
-      outputs: ["Initial feedback notes", "Automated survey link"]
-    - step: 2
-      actor: "Guest Services Manager"
-      action: "Review survey responses and categorize feedback (positive, improvement areas, complaints)"
-      tools: ["Survey dashboard", "Feedback categorization system"]
-      duration: "1 day"
-      outputs: ["Categorized feedback report", "Action items list"]
-    - step: 3
-      actor: "Department Heads"
-      action: "Address specific feedback items and implement improvements where appropriate"
-      tools: ["Task management system", "Quality improvement tools"]
-      duration: "1-2 weeks"
-      outputs: ["Implemented improvements", "Response communication to guest"]
-    - step: 4
-      actor: "Guest Services Manager"
-      action: "Follow up with guest on resolved issues and thank for feedback"
-      tools: ["Email system", "CRM database"]
-      duration: "2 days"
-      outputs: ["Guest follow-up communication", "Updated satisfaction metrics"]
-  success_criteria: "80% of feedback items addressed within 7 days, guest satisfaction score improves by 5%"
-  failure_modes: ["Delayed response times", "Incomplete follow-up", "No improvement implementation"]
+  - step: 1
+    actor: Front Desk Staff
+    action: Collect immediate feedback during checkout and send automated follow-up
+      survey
+    tools:
+    - Property management system
+    - Survey software
+    duration: 15 minutes
+    outputs:
+    - Initial feedback notes
+    - Automated survey link
+  - step: 2
+    actor: Guest Services Manager
+    action: Review survey responses and categorize feedback (positive, improvement
+      areas, complaints)
+    tools:
+    - Survey dashboard
+    - Feedback categorization system
+    duration: 1 day
+    outputs:
+    - Categorized feedback report
+    - Action items list
+  - step: 3
+    actor: Department Heads
+    action: Address specific feedback items and implement improvements where appropriate
+    tools:
+    - Task management system
+    - Quality improvement tools
+    duration: 1-2 weeks
+    outputs:
+    - Implemented improvements
+    - Response communication to guest
+  - step: 4
+    actor: Guest Services Manager
+    action: Follow up with guest on resolved issues and thank for feedback
+    tools:
+    - Email system
+    - CRM database
+    duration: 2 days
+    outputs:
+    - Guest follow-up communication
+    - Updated satisfaction metrics
+  success_criteria: 80% of feedback items addressed within 7 days, guest satisfaction
+    score improves by 5%
+  failure_modes:
+  - Delayed response times
+  - Incomplete follow-up
+  - No improvement implementation
   metrics:
-    - "Response time: <7 days for 80% of feedback"
-    - "Guest satisfaction improvement: 5% increase"
-    - "Feedback completion rate: 60% of guests"
+  - 'Response time: <7 days for 80% of feedback'
+  - 'Guest satisfaction improvement: 5% increase'
+  - 'Feedback completion rate: 60% of guests'

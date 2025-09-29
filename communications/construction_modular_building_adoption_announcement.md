@@ -1,19 +1,19 @@
 ## Company Announcement: Construction Modular Building Methods Adoption
 
-**From:** Construction Innovation Director  
-**To:** All Construction Teams and Project Managers  
-**Subject:** Strategic Initiative: Modular Construction Technology Implementation  
+**From:** Construction Innovation Director
+**To:** All Construction Teams and Project Managers
+**Subject:** Strategic Initiative: Modular Construction Technology Implementation
 
 Team,
 
 Following successful pilot projects, we are expanding our modular construction capabilities across all major projects. This initiative will significantly improve project timelines, quality control, and cost predictability.
 
-**Implementation Details:**  
-- **Technology Focus:** Prefabricated modules, off-site assembly, digital fabrication  
-- **Initial Rollout:** 5 pilot projects starting Q1 2026  
-- **Full Adoption:** Complete transition by Q4 2027  
-- **Training Program:** Mandatory certification for all project managers and foremen  
-- **Investment:** $12M in equipment and facility upgrades  
+**Implementation Details:**
+- **Technology Focus:** Prefabricated modules, off-site assembly, digital fabrication
+- **Initial Rollout:** 5 pilot projects starting Q1 2026
+- **Full Adoption:** Complete transition by Q4 2027
+- **Training Program:** Mandatory certification for all project managers and foremen
+- **Investment:** $12M in equipment and facility upgrades
 
 **Expected Benefits:**
 - 40% reduction in construction time through parallel manufacturing and assembly

@@ -160,6 +160,6 @@ The organization is committed to sustainable agriculture that balances productiv
 - Climate Change Adaptation Strategy
 
 ## Approval
-Approved by: Chief Sustainability Officer  
-Date: [Current Date]  
+Approved by: Chief Sustainability Officer
+Date: [Current Date]
 Review Date: [One year from approval]

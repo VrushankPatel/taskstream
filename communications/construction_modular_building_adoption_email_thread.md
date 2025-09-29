@@ -1,8 +1,8 @@
 ## Email Thread: Construction Modular Building Adoption Strategy
 
-**From:** VP of Construction Operations  
-**To:** Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Modular Construction Pilot Program - Implementation Update  
+**From:** VP of Construction Operations
+**To:** Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Modular Construction Pilot Program - Implementation Update
 
 Team,
 
@@ -22,9 +22,9 @@ VP of Construction Operations
 
 ---
 
-**From:** Senior Project Manager  
-**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Re: Modular Construction Pilot Program - Implementation Update  
+**From:** Senior Project Manager
+**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Re: Modular Construction Pilot Program - Implementation Update
 
 VP,
 
@@ -41,9 +41,9 @@ Senior Project Manager
 
 ---
 
-**From:** Chief Engineer  
-**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Re: Modular Construction Pilot Program - Implementation Update  
+**From:** Chief Engineer
+**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Re: Modular Construction Pilot Program - Implementation Update
 
 From engineering perspective, the modular approach requires significant design standardization. We've identified 15 core module types that cover 80% of our typical projects.
 
@@ -59,9 +59,9 @@ Chief Engineer
 
 ---
 
-**From:** Procurement Director  
-**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Re: Modular Construction Pilot Program - Implementation Update  
+**From:** Procurement Director
+**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Re: Modular Construction Pilot Program - Implementation Update
 
 Procurement analysis shows strong supplier interest but capacity constraints as noted. We've identified 3 additional certified manufacturers who can add 40% to our current capacity.
 
@@ -77,9 +77,9 @@ Procurement Director
 
 ---
 
-**From:** CFO  
-**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Re: Modular Construction Pilot Program - Implementation Update  
+**From:** CFO
+**To:** VP of Construction Operations, Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Re: Modular Construction Pilot Program - Implementation Update
 
 Excellent results from the pilot. The ROI analysis supports accelerated adoption.
 
@@ -94,9 +94,9 @@ CFO
 
 ---
 
-**From:** VP of Construction Operations  
-**To:** Project Managers, Engineering Team, Procurement, Executive Leadership  
-**Subject:** Re: Modular Construction Pilot Program - Implementation Update  
+**From:** VP of Construction Operations
+**To:** Project Managers, Engineering Team, Procurement, Executive Leadership
+**Subject:** Re: Modular Construction Pilot Program - Implementation Update
 
 Thank you for the comprehensive feedback. Based on input:
 

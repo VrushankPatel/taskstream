@@ -3,8 +3,15 @@
   "context": "Hotel chain evaluating green certification program to meet growing customer demand for sustainable travel",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "COO"],
-    "influencers": ["Chief Financial Officer", "Guest Experience Director", "Procurement Manager"]
+    "approvers": [
+      "CEO",
+      "COO"
+    ],
+    "influencers": [
+      "Chief Financial Officer",
+      "Guest Experience Director",
+      "Procurement Manager"
+    ]
   },
   "request": {
     "amount": "$8 million",
@@ -16,29 +23,54 @@
     {
       "stage": "sustainability_assessment",
       "duration": "1 month",
-      "activities": ["Environmental impact audit", "Certification requirements review", "Cost-benefit analysis"],
+      "activities": [
+        "Environmental impact audit",
+        "Certification requirements review",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Identified LEED certification pathway with 20% energy savings potential"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "2 weeks",
-      "activities": ["Employee surveys", "Guest preference research", "Supplier capability assessment"],
+      "activities": [
+        "Employee surveys",
+        "Guest preference research",
+        "Supplier capability assessment"
+      ],
       "outcome": "Strong internal support with 75% employee approval"
     },
     {
       "stage": "financial_modeling",
       "duration": "3 weeks",
-      "activities": ["ROI calculations", "Funding options evaluation", "Timeline development"],
+      "activities": [
+        "ROI calculations",
+        "Funding options evaluation",
+        "Timeline development"
+      ],
       "outcome": "3-year payback with utility cost savings and premium pricing"
     }
   ],
   "business_impact": {
     "expected_outcome": "LEED certification for all properties, 25% reduction in energy costs, 10% increase in premium bookings",
     "projected_value": "$12 million NPV over 7 years",
-    "long_term_benefits": ["Enhanced brand reputation as sustainability leader", "Improved customer loyalty and retention", "Regulatory compliance advantage in green markets"],
-    "risk_factors": ["Upfront investment costs", "Guest acceptance of green fees", "Supply chain disruptions"]
+    "long_term_benefits": [
+      "Enhanced brand reputation as sustainability leader",
+      "Improved customer loyalty and retention",
+      "Regulatory compliance advantage in green markets"
+    ],
+    "risk_factors": [
+      "Upfront investment costs",
+      "Guest acceptance of green fees",
+      "Supply chain disruptions"
+    ]
   },
-  "decision_criteria": ["Environmental impact", "Financial viability", "Customer demand", "Brand positioning"],
+  "decision_criteria": [
+    "Environmental impact",
+    "Financial viability",
+    "Customer demand",
+    "Brand positioning"
+  ],
   "outcome": "Approved with pilot program",
   "lessons_learned": "Sustainability initiatives require comprehensive stakeholder communication and clear ROI demonstration"
 }

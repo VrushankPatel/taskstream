@@ -1,8 +1,8 @@
 ## Meeting Notes: Autonomous Systems Safety Certification Update
 
-**Date:** November 5, 2025  
-**Attendees:** Safety Director (Mr. Adams), Regulatory Affairs Lead (Ms. Patel), Testing Manager (Mr. Garcia), Quality Assurance Lead (Ms. Wong), Engineering Lead (Dr. Kim)  
-**Location:** Virtual Meeting  
+**Date:** November 5, 2025
+**Attendees:** Safety Director (Mr. Adams), Regulatory Affairs Lead (Ms. Patel), Testing Manager (Mr. Garcia), Quality Assurance Lead (Ms. Wong), Engineering Lead (Dr. Kim)
+**Location:** Virtual Meeting
 
 **Agenda:**
 1. Certification progress update

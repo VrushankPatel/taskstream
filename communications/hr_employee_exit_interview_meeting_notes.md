@@ -1,8 +1,8 @@
 ## Exit Interview: Sarah Johnson - Senior Software Engineer
 
-**Date:** September 20, 2025  
-**Interviewer:** HR Business Partner  
-**Interviewee:** Sarah Johnson (Senior Software Engineer, 3 years tenure)  
+**Date:** September 20, 2025
+**Interviewer:** HR Business Partner
+**Interviewee:** Sarah Johnson (Senior Software Engineer, 3 years tenure)
 
 ### Interview Summary
 Sarah provided candid feedback about her experience at the company. Overall positive experience with strong technical challenges and team collaboration, but cited work-life balance and career growth concerns as primary reasons for leaving.

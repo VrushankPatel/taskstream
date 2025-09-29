@@ -1,12 +1,12 @@
 ## Meeting Notes: Major Donor Escalation Discussion
 
-**Date:** September 28, 2025  
-**Attendees:** Executive Director, Development Director, Donor Relations Manager, Program Director  
-**Subject:** Escalation of $500K donor complaint regarding program impact reporting  
+**Date:** September 28, 2025
+**Attendees:** Executive Director, Development Director, Donor Relations Manager, Program Director
+**Subject:** Escalation of $500K donor complaint regarding program impact reporting
 
 ### Discussion Summary
 
-**Issue Overview:**  
+**Issue Overview:**
 Our largest individual donor expressed dissatisfaction with recent program impact reports, claiming that reported outcomes don't match their expectations for environmental conservation efforts.
 
 **Key Points Raised:**

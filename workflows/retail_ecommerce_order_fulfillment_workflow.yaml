@@ -1,38 +1,55 @@
 workflow:
-  id: "workflow_retail_ecommerce_fulfillment"
-  title: "E-commerce Order Fulfillment Process"
-  department: "Operations"
-  complexity: "medium"
-  participants: ["Order Processor", "Warehouse Manager", "Shipping Coordinator", "Customer Service"]
-  trigger: "Customer places online order"
+  id: workflow_retail_ecommerce_fulfillment
+  title: E-commerce Order Fulfillment Process
+  department: Operations
+  complexity: medium
+  participants:
+  - Order Processor
+  - Warehouse Manager
+  - Shipping Coordinator
+  - Customer Service
+  trigger: Customer places online order
   steps:
-    - step: 1
-      actor: "Order Processor"
-      action: "Verify payment and inventory availability"
-      tools: ["E-commerce Platform", "Inventory System"]
-      duration: "15 minutes"
-      outputs: ["Order Confirmation"]
-    - step: 2
-      actor: "Warehouse Manager"
-      action: "Pick and pack items"
-      tools: ["Warehouse Management System"]
-      duration: "2 hours"
-      outputs: ["Packed Order"]
-    - step: 3
-      actor: "Shipping Coordinator"
-      action: "Select shipping method and generate label"
-      tools: ["Shipping Software"]
-      duration: "30 minutes"
-      outputs: ["Shipping Label", "Tracking Number"]
-    - step: 4
-      actor: "Customer Service"
-      action: "Send tracking information to customer"
-      tools: ["CRM System"]
-      duration: "10 minutes"
-      outputs: ["Customer Notification"]
-  success_criteria: "Order delivered within promised timeframe"
-  failure_modes: ["Out of stock items", "Shipping delays", "Payment issues"]
+  - step: 1
+    actor: Order Processor
+    action: Verify payment and inventory availability
+    tools:
+    - E-commerce Platform
+    - Inventory System
+    duration: 15 minutes
+    outputs:
+    - Order Confirmation
+  - step: 2
+    actor: Warehouse Manager
+    action: Pick and pack items
+    tools:
+    - Warehouse Management System
+    duration: 2 hours
+    outputs:
+    - Packed Order
+  - step: 3
+    actor: Shipping Coordinator
+    action: Select shipping method and generate label
+    tools:
+    - Shipping Software
+    duration: 30 minutes
+    outputs:
+    - Shipping Label
+    - Tracking Number
+  - step: 4
+    actor: Customer Service
+    action: Send tracking information to customer
+    tools:
+    - CRM System
+    duration: 10 minutes
+    outputs:
+    - Customer Notification
+  success_criteria: Order delivered within promised timeframe
+  failure_modes:
+  - Out of stock items
+  - Shipping delays
+  - Payment issues
   metrics:
-    - "Order fulfillment time: <24 hours"
-    - "Order accuracy: >98%"
-    - "Customer satisfaction: >4.5/5"
+  - 'Order fulfillment time: <24 hours'
+  - 'Order accuracy: >98%'
+  - 'Customer satisfaction: >4.5/5'

@@ -1,8 +1,8 @@
 ## Meeting Notes: Healthcare Genomics Population Screening Rollout
 
-**Date:** December 10, 2025  
-**Attendees:** Population Health Director (Dr. Martinez), Genetics Lead (Dr. Chen), IT Director (Ms. Rodriguez), Ethics Chair (Dr. Williams), Primary Care Lead (Dr. Johnson)  
-**Location:** Virtual Meeting  
+**Date:** December 10, 2025
+**Attendees:** Population Health Director (Dr. Martinez), Genetics Lead (Dr. Chen), IT Director (Ms. Rodriguez), Ethics Chair (Dr. Williams), Primary Care Lead (Dr. Johnson)
+**Location:** Virtual Meeting
 
 **Agenda:**
 1. Screening program rollout status

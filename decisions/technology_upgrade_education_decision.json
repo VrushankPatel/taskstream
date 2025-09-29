@@ -3,8 +3,16 @@
   "context": "State university system, 50,000 students, upgrading learning management and classroom technology",
   "stakeholders": {
     "requester": "Provost",
-    "approvers": ["President", "Board of Trustees", "State Education Committee"],
-    "influencers": ["IT Director", "Faculty Senate", "Student Government"]
+    "approvers": [
+      "President",
+      "Board of Trustees",
+      "State Education Committee"
+    ],
+    "influencers": [
+      "IT Director",
+      "Faculty Senate",
+      "Student Government"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,31 +24,59 @@
     {
       "stage": "needs_assessment",
       "duration": "12 weeks",
-      "activities": ["Student and faculty surveys", "Current technology audit", "Best practices research"],
+      "activities": [
+        "Student and faculty surveys",
+        "Current technology audit",
+        "Best practices research"
+      ],
       "outcome": "Clear requirements identified for modern learning environments"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "8 weeks",
-      "activities": ["RFP development", "Vendor demonstrations", "Reference checks"],
+      "activities": [
+        "RFP development",
+        "Vendor demonstrations",
+        "Reference checks"
+      ],
       "outcome": "Three vendor finalists selected with comprehensive proposals"
     },
     {
       "stage": "funding_strategy",
       "duration": "6 weeks",
-      "activities": ["Grant applications", "Bond issuance planning", "Budget impact analysis"],
+      "activities": [
+        "Grant applications",
+        "Bond issuance planning",
+        "Budget impact analysis"
+      ],
       "outcome": "Combination of state funding, grants, and institutional funds secured"
     },
     {
       "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Project timeline development", "Training program design", "Change management strategy"],
+      "activities": [
+        "Project timeline development",
+        "Training program design",
+        "Change management strategy"
+      ],
       "outcome": "Approved with 18-month implementation timeline and faculty involvement"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["Improved student engagement scores", "Increased online program enrollment", "Enhanced faculty productivity"],
-    "risk_factors": ["Faculty adoption challenges", "Technical integration issues", "Budget overruns"],
-    "mitigation_strategies": ["Comprehensive training programs", "Phased rollout approach", "Project management oversight"]
+    "expected_outcomes": [
+      "Improved student engagement scores",
+      "Increased online program enrollment",
+      "Enhanced faculty productivity"
+    ],
+    "risk_factors": [
+      "Faculty adoption challenges",
+      "Technical integration issues",
+      "Budget overruns"
+    ],
+    "mitigation_strategies": [
+      "Comprehensive training programs",
+      "Phased rollout approach",
+      "Project management oversight"
+    ]
   }
 }

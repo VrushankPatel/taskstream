@@ -1,8 +1,8 @@
 ## Meeting Notes: Utilities Smart Grid Upgrade Announcement
 
-**Date:** September 29, 2025  
-**Attendees:** CEO, CTO, Operations VP, Engineering Director, Regulatory Affairs Manager, Finance Director  
-**Subject:** Smart Grid Modernization Initiative Launch  
+**Date:** September 29, 2025
+**Attendees:** CEO, CTO, Operations VP, Engineering Director, Regulatory Affairs Manager, Finance Director
+**Subject:** Smart Grid Modernization Initiative Launch
 
 **Meeting Objective:** Announce the smart grid upgrade project and outline implementation timeline.
 

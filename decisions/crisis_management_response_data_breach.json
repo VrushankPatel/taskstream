@@ -3,8 +3,15 @@
   "context": "E-commerce company, 500 employees, experiencing customer data breach",
   "stakeholders": {
     "requester": "CISO",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Legal Counsel", "PR Firm", "Customer Success"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Legal Counsel",
+      "PR Firm",
+      "Customer Success"
+    ]
   },
   "request": {
     "incident": "Customer payment data compromised",
@@ -16,19 +23,31 @@
     {
       "stage": "incident_assessment",
       "duration": "4 hours",
-      "activities": ["Forensic analysis", "Impact assessment", "Legal consultation"],
+      "activities": [
+        "Forensic analysis",
+        "Impact assessment",
+        "Legal consultation"
+      ],
       "outcome": "Breach confirmed, scope defined"
     },
     {
       "stage": "response_planning",
       "duration": "12 hours",
-      "activities": ["Stakeholder notification plan", "Customer communication strategy", "Technical remediation"],
+      "activities": [
+        "Stakeholder notification plan",
+        "Customer communication strategy",
+        "Technical remediation"
+      ],
       "outcome": "Comprehensive response plan approved"
     },
     {
       "stage": "execution_and_communication",
       "duration": "48 hours",
-      "activities": ["Customer notifications", "Regulatory filings", "PR management"],
+      "activities": [
+        "Customer notifications",
+        "Regulatory filings",
+        "PR management"
+      ],
       "outcome": "All required actions completed"
     }
   ],

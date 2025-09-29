@@ -3,8 +3,15 @@
   "context": "Mid-size retail chain with 50 stores facing inventory accuracy issues and stockouts",
   "stakeholders": {
     "requester": "Operations Director",
-    "approvers": ["CEO", "CFO"],
-    "influencers": ["IT Director", "Store Managers", "Supply Chain Manager"]
+    "approvers": [
+      "CEO",
+      "CFO"
+    ],
+    "influencers": [
+      "IT Director",
+      "Store Managers",
+      "Supply Chain Manager"
+    ]
   },
   "request": {
     "amount": "$500,000",
@@ -16,28 +23,48 @@
     {
       "stage": "feasibility_analysis",
       "duration": "2 weeks",
-      "activities": ["Vendor evaluation", "ROI modeling", "Integration assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "ROI modeling",
+        "Integration assessment"
+      ],
       "outcome": "Approved for pilot in 5 stores"
     },
     {
       "stage": "pilot_implementation",
       "duration": "3 months",
-      "activities": ["System deployment", "Staff training", "Performance monitoring"],
+      "activities": [
+        "System deployment",
+        "Staff training",
+        "Performance monitoring"
+      ],
       "outcome": "20% improvement in inventory accuracy"
     },
     {
       "stage": "full_rollout_decision",
       "duration": "1 week",
-      "activities": ["Pilot results review", "Budget adjustment", "Timeline planning"],
+      "activities": [
+        "Pilot results review",
+        "Budget adjustment",
+        "Timeline planning"
+      ],
       "outcome": "Approved for enterprise-wide deployment"
     }
   ],
   "business_impact": {
     "expected_outcome": "Reduce inventory shrinkage by 60%, improve stock availability by 25%",
     "projected_value": "$2.5M annual savings",
-    "risk_factors": ["Implementation complexity", "Staff resistance", "Integration challenges"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Staff resistance",
+      "Integration challenges"
+    ]
   },
-  "decision_criteria": ["ROI >300%", "Implementation timeline <6 months", "Scalability across all stores"],
+  "decision_criteria": [
+    "ROI >300%",
+    "Implementation timeline <6 months",
+    "Scalability across all stores"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder involvement crucial, pilot testing validates assumptions, change management essential for adoption"
 }

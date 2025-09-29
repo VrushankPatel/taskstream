@@ -3,8 +3,15 @@
   "context": "Global financial services company, 10000 employees, experiencing sophisticated cyber attack across international operations",
   "stakeholders": {
     "requester": "Chief Information Security Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Chief Risk Officer", "Chief Financial Officer", "Regulatory Affairs"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Risk Officer",
+      "Chief Financial Officer",
+      "Regulatory Affairs"
+    ]
   },
   "request": {
     "amount": "$8M",
@@ -16,25 +23,41 @@
     {
       "stage": "incident_containment",
       "duration": "4 hours",
-      "activities": ["System isolation", "Threat assessment", "Immediate response coordination"],
+      "activities": [
+        "System isolation",
+        "Threat assessment",
+        "Immediate response coordination"
+      ],
       "outcome": "Attack contained with minimal data exposure"
     },
     {
       "stage": "impact_assessment",
       "duration": "24 hours",
-      "activities": ["Data breach analysis", "Financial impact evaluation", "Regulatory notification"],
+      "activities": [
+        "Data breach analysis",
+        "Financial impact evaluation",
+        "Regulatory notification"
+      ],
       "outcome": "Comprehensive impact assessment completed"
     },
     {
       "stage": "recovery_planning",
       "duration": "72 hours",
-      "activities": ["Recovery strategy development", "Resource mobilization", "Stakeholder communication"],
+      "activities": [
+        "Recovery strategy development",
+        "Resource mobilization",
+        "Stakeholder communication"
+      ],
       "outcome": "Recovery plan approved with $8M investment"
     },
     {
       "stage": "enhancement_implementation",
       "duration": "4 weeks",
-      "activities": ["Security upgrades", "Training programs", "Monitoring system deployment"],
+      "activities": [
+        "Security upgrades",
+        "Training programs",
+        "Monitoring system deployment"
+      ],
       "outcome": "Enhanced cybersecurity framework operational"
     }
   ],
@@ -42,6 +65,10 @@
     "data_breach_scope": "500K customer records affected",
     "financial_impact": "$3M in remediation costs",
     "regulatory_fines": "Potential $2M penalties",
-    "risk_factors": ["Reputational damage", "Customer churn", "Increased insurance premiums"]
+    "risk_factors": [
+      "Reputational damage",
+      "Customer churn",
+      "Increased insurance premiums"
+    ]
   }
 }

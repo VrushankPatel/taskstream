@@ -1,50 +1,81 @@
 workflow:
-  id: "workflow_002"
-  title: "Customer Onboarding Process"
-  department: "Customer Success"
-  complexity: "medium"
-  participants: ["Customer Success Manager", "Account Executive", "Technical Support", "Customer"]
-  trigger: "New customer signs contract"
+  id: workflow_002
+  title: Customer Onboarding Process
+  department: Customer Success
+  complexity: medium
+  participants:
+  - Customer Success Manager
+  - Account Executive
+  - Technical Support
+  - Customer
+  trigger: New customer signs contract
   steps:
-    - step: 1
-      actor: "Account Executive"
-      action: "Send welcome email with onboarding timeline"
-      tools: ["Email platform", "Contract management system"]
-      duration: "1 day"
-      outputs: ["Welcome package", "Onboarding schedule"]
-    - step: 2
-      actor: "Customer Success Manager"
-      action: "Schedule kickoff meeting and gather requirements"
-      tools: ["Video conferencing", "Onboarding questionnaire"]
-      duration: "1 week"
-      outputs: ["Kickoff meeting notes", "Customer requirements document"]
-    - step: 3
-      actor: "Technical Support"
-      action: "Set up user accounts and access permissions"
-      tools: ["User management system", "Security protocols"]
-      duration: "2-3 days"
-      outputs: ["User accounts created", "Access credentials"]
-    - step: 4
-      actor: "Customer Success Manager"
-      action: "Conduct product training and walkthrough"
-      tools: ["Training materials", "Demo environment"]
-      duration: "1-2 weeks"
-      outputs: ["Training completion certificate", "Feedback survey"]
-    - step: 5
-      actor: "Customer Success Manager"
-      action: "Monitor initial usage and provide support"
-      tools: ["Analytics dashboard", "Support ticketing system"]
-      duration: "2-4 weeks"
-      outputs: ["Usage reports", "Support tickets resolved"]
-    - step: 6
-      actor: "Customer Success Manager"
-      action: "Schedule check-in meeting and gather feedback"
-      tools: ["Video conferencing", "Feedback forms"]
-      duration: "30 days post-onboarding"
-      outputs: ["Check-in meeting summary", "Satisfaction score"]
-  success_criteria: "Customer achieves first value milestone"
-  failure_modes: ["Delayed account setup", "Insufficient training", "Poor product fit"]
+  - step: 1
+    actor: Account Executive
+    action: Send welcome email with onboarding timeline
+    tools:
+    - Email platform
+    - Contract management system
+    duration: 1 day
+    outputs:
+    - Welcome package
+    - Onboarding schedule
+  - step: 2
+    actor: Customer Success Manager
+    action: Schedule kickoff meeting and gather requirements
+    tools:
+    - Video conferencing
+    - Onboarding questionnaire
+    duration: 1 week
+    outputs:
+    - Kickoff meeting notes
+    - Customer requirements document
+  - step: 3
+    actor: Technical Support
+    action: Set up user accounts and access permissions
+    tools:
+    - User management system
+    - Security protocols
+    duration: 2-3 days
+    outputs:
+    - User accounts created
+    - Access credentials
+  - step: 4
+    actor: Customer Success Manager
+    action: Conduct product training and walkthrough
+    tools:
+    - Training materials
+    - Demo environment
+    duration: 1-2 weeks
+    outputs:
+    - Training completion certificate
+    - Feedback survey
+  - step: 5
+    actor: Customer Success Manager
+    action: Monitor initial usage and provide support
+    tools:
+    - Analytics dashboard
+    - Support ticketing system
+    duration: 2-4 weeks
+    outputs:
+    - Usage reports
+    - Support tickets resolved
+  - step: 6
+    actor: Customer Success Manager
+    action: Schedule check-in meeting and gather feedback
+    tools:
+    - Video conferencing
+    - Feedback forms
+    duration: 30 days post-onboarding
+    outputs:
+    - Check-in meeting summary
+    - Satisfaction score
+  success_criteria: Customer achieves first value milestone
+  failure_modes:
+  - Delayed account setup
+  - Insufficient training
+  - Poor product fit
   metrics:
-    - "Onboarding completion rate: 95%"
-    - "Time to first value: 14 days"
-    - "Customer satisfaction score: 4.5/5"
+  - 'Onboarding completion rate: 95%'
+  - 'Time to first value: 14 days'
+  - 'Customer satisfaction score: 4.5/5'

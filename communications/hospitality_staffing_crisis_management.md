@@ -1,10 +1,10 @@
 ## Meeting Notes: Hospitality Staffing Crisis Management
 
-**Date:** September 25, 2025  
-**Attendees:** General Manager, HR Director, Operations Manager, Department Heads, Union Representative  
-**Subject:** Peak Season Staffing Shortage Response Plan  
+**Date:** September 25, 2025
+**Attendees:** General Manager, HR Director, Operations Manager, Department Heads, Union Representative
+**Subject:** Peak Season Staffing Shortage Response Plan
 
-**Meeting Objective:** Develop comprehensive response to 25% staffing shortfall during peak holiday season  
+**Meeting Objective:** Develop comprehensive response to 25% staffing shortfall during peak holiday season
 
 **Current Situation:**
 - 45 open positions across housekeeping, food service, and front desk

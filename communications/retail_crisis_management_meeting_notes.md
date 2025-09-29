@@ -1,9 +1,9 @@
 ## Meeting Notes: Retail Supply Chain Crisis Management
 
-**Date:** September 29, 2025  
-**Time:** 3:00 PM - 4:30 PM EST  
-**Location:** Virtual Crisis Management Center  
-**Attendees:** Supply Chain VP (Chair), Operations Director, Procurement Manager, Store Operations Manager, Communications Director, Finance Manager  
+**Date:** September 29, 2025
+**Time:** 3:00 PM - 4:30 PM EST
+**Location:** Virtual Crisis Management Center
+**Attendees:** Supply Chain VP (Chair), Operations Director, Procurement Manager, Store Operations Manager, Communications Director, Finance Manager
 
 ### Meeting Objective
 Develop immediate response strategy for supply chain disruptions caused by extreme weather events affecting key suppliers.

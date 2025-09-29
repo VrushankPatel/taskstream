@@ -1,11 +1,11 @@
 ## Meeting Notes: Telemedicine Platform Implementation Review
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room A  
-**Attendees:** Dr. Emily Rodriguez (CMO), Mark Johnson (CTO), Lisa Chen (Compliance Officer), Sarah Williams (Patient Experience Lead), Tom Garcia (IT Security)  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room A
+**Attendees:** Dr. Emily Rodriguez (CMO), Mark Johnson (CTO), Lisa Chen (Compliance Officer), Sarah Williams (Patient Experience Lead), Tom Garcia (IT Security)
 
-**Objective:** Review telemedicine platform implementation progress and address critical path items  
+**Objective:** Review telemedicine platform implementation progress and address critical path items
 
 ### Key Discussion Points
 
@@ -50,5 +50,5 @@
 
 **Next Meeting:** October 12, 2025 - Go-live readiness review
 
-**Meeting Facilitator:** Dr. Emily Rodriguez  
+**Meeting Facilitator:** Dr. Emily Rodriguez
 **Note Taker:** Sarah Williams

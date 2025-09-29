@@ -1,53 +1,79 @@
 workflow:
-  id: "workflow_005"
-  title: "Digital Identity Management Implementation"
-  department: "Government Services"
-  complexity: "high"
-  participants: ["Chief Information Officer", "Privacy Commissioner", "Service Delivery Director", "Identity Provider", "Legal Counsel"]
-  trigger: "Government mandate for secure digital service access"
+  id: workflow_005
+  title: Digital Identity Management Implementation
+  department: Government Services
+  complexity: high
+  participants:
+  - Chief Information Officer
+  - Privacy Commissioner
+  - Service Delivery Director
+  - Identity Provider
+  - Legal Counsel
+  trigger: Government mandate for secure digital service access
   steps:
-    - step: 1
-      actor: "Privacy Commissioner"
-      action: "Conduct privacy impact assessment and define data protection requirements"
-      tools: ["Privacy assessment frameworks", "Regulatory compliance checklists"]
-      duration: "3 weeks"
-      outputs: ["Privacy impact assessment report"]
-    - step: 2
-      actor: "Chief Information Officer"
-      action: "Select digital identity platform and integration architecture"
-      decision_points: ["Centralized vs. federated identity", "Biometric vs. token-based authentication"]
-      duration: "4 weeks"
-      outputs: ["Technical architecture design"]
-    - step: 3
-      actor: "Identity Provider"
-      action: "Develop identity verification and issuance processes"
-      tools: ["Identity management software", "Document verification systems"]
-      duration: "6 weeks"
-      outputs: ["Identity verification workflows"]
-    - step: 4
-      actor: "Service Delivery Director"
-      action: "Integrate digital identity with government service portals"
-      tools: ["Service integration APIs", "User experience design tools"]
-      duration: "8 weeks"
-      outputs: ["Integrated service portals"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Establish legal framework and user consent mechanisms"
-      tools: ["Legal review templates", "Consent management systems"]
-      duration: "4 weeks"
-      outputs: ["Legal compliance framework"]
-    - step: 6
-      actor: "Chief Information Officer"
-      action: "Launch pilot program and monitor adoption and security metrics"
-      tools: ["Usage analytics", "Security monitoring dashboards"]
-      duration: "Ongoing"
-      outputs: ["Pilot evaluation and scaling plan"]
-  success_criteria: "90% service completion rate and zero security breaches"
-  failure_modes: ["Privacy concerns blocking adoption", "Technical integration challenges", "User accessibility issues"]
+  - step: 1
+    actor: Privacy Commissioner
+    action: Conduct privacy impact assessment and define data protection requirements
+    tools:
+    - Privacy assessment frameworks
+    - Regulatory compliance checklists
+    duration: 3 weeks
+    outputs:
+    - Privacy impact assessment report
+  - step: 2
+    actor: Chief Information Officer
+    action: Select digital identity platform and integration architecture
+    decision_points:
+    - Centralized vs. federated identity
+    - Biometric vs. token-based authentication
+    duration: 4 weeks
+    outputs:
+    - Technical architecture design
+  - step: 3
+    actor: Identity Provider
+    action: Develop identity verification and issuance processes
+    tools:
+    - Identity management software
+    - Document verification systems
+    duration: 6 weeks
+    outputs:
+    - Identity verification workflows
+  - step: 4
+    actor: Service Delivery Director
+    action: Integrate digital identity with government service portals
+    tools:
+    - Service integration APIs
+    - User experience design tools
+    duration: 8 weeks
+    outputs:
+    - Integrated service portals
+  - step: 5
+    actor: Legal Counsel
+    action: Establish legal framework and user consent mechanisms
+    tools:
+    - Legal review templates
+    - Consent management systems
+    duration: 4 weeks
+    outputs:
+    - Legal compliance framework
+  - step: 6
+    actor: Chief Information Officer
+    action: Launch pilot program and monitor adoption and security metrics
+    tools:
+    - Usage analytics
+    - Security monitoring dashboards
+    duration: Ongoing
+    outputs:
+    - Pilot evaluation and scaling plan
+  success_criteria: 90% service completion rate and zero security breaches
+  failure_modes:
+  - Privacy concerns blocking adoption
+  - Technical integration challenges
+  - User accessibility issues
   metrics:
-    - "User adoption rate: Target 85% of eligible citizens"
-    - "Service completion rate: Target 95% online completion"
-    - "Identity verification accuracy: Target 99.5% accuracy"
-    - "Security incidents: Target 0 breaches per year"
-    - "User satisfaction: Target 4.2/5.0 rating"
-    - "System uptime: Target 99.9% availability"
+  - 'User adoption rate: Target 85% of eligible citizens'
+  - 'Service completion rate: Target 95% online completion'
+  - 'Identity verification accuracy: Target 99.5% accuracy'
+  - 'Security incidents: Target 0 breaches per year'
+  - 'User satisfaction: Target 4.2/5.0 rating'
+  - 'System uptime: Target 99.9% availability'

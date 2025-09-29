@@ -1,26 +1,39 @@
 workflow:
-  id: "workflow_hospitality_check_in"
-  title: "Hotel Guest Check-In Process"
-  department: "Front Office"
-  complexity: "simple"
-  participants: ["Front Desk Agent", "Guest"]
-  trigger: "Guest arrives at hotel reception"
+  id: workflow_hospitality_check_in
+  title: Hotel Guest Check-In Process
+  department: Front Office
+  complexity: simple
+  participants:
+  - Front Desk Agent
+  - Guest
+  trigger: Guest arrives at hotel reception
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify reservation and collect guest information"
-      tools: ["PMS System", "ID Verification"]
-      duration: "5 minutes"
-      outputs: ["Verified Reservation", "Guest ID"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Process payment and assign room key"
-      tools: ["PMS System", "Key Card System"]
-      duration: "3 minutes"
-      outputs: ["Room Key", "Receipt"]
-  success_criteria: "Guest checked in within 10 minutes, room key functional"
-  failure_modes: ["No reservation", "Payment issues", "Room not ready"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Verify reservation and collect guest information
+    tools:
+    - PMS System
+    - ID Verification
+    duration: 5 minutes
+    outputs:
+    - Verified Reservation
+    - Guest ID
+  - step: 2
+    actor: Front Desk Agent
+    action: Process payment and assign room key
+    tools:
+    - PMS System
+    - Key Card System
+    duration: 3 minutes
+    outputs:
+    - Room Key
+    - Receipt
+  success_criteria: Guest checked in within 10 minutes, room key functional
+  failure_modes:
+  - No reservation
+  - Payment issues
+  - Room not ready
   metrics:
-    - "Check-in Time: <10 minutes average"
-    - "Guest Satisfaction: >90%"
-    - "Error Rate: <2%"
+  - 'Check-in Time: <10 minutes average'
+  - 'Guest Satisfaction: >90%'
+  - 'Error Rate: <2%'

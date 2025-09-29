@@ -1,60 +1,84 @@
 workflow:
-  id: "workflow_insurance_medium_underwriting"
-  title: "Insurance Underwriting Workflow"
-  department: "Underwriting"
-  complexity: "medium"
-  participants: ["Underwriter", "Underwriting Manager", "Risk Analyst", "Actuary"]
-  trigger: "New policy application received"
+  id: workflow_insurance_medium_underwriting
+  title: Insurance Underwriting Workflow
+  department: Underwriting
+  complexity: medium
+  participants:
+  - Underwriter
+  - Underwriting Manager
+  - Risk Analyst
+  - Actuary
+  trigger: New policy application received
   steps:
-    - step: 1
-      actor: "Underwriter"
-      action: "Review application and gather initial information"
-      tools: ["Underwriting system", "Application forms"]
-      duration: "30 minutes"
-      outputs: ["Initial assessment"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Perform risk assessment and data analysis"
-      tools: ["Risk modeling software", "Database systems"]
-      duration: "2 hours"
-      outputs: ["Risk profile report"]
-    - step: 3
-      actor: "Actuary"
-      action: "Calculate premium rates and risk-adjusted pricing"
-      tools: ["Actuarial software", "Statistical models"]
-      duration: "1 hour"
-      outputs: ["Premium calculation"]
-    - step: 4
-      actor: "Underwriter"
-      action: "Determine coverage terms and conditions"
-      tools: ["Underwriting guidelines", "Policy templates"]
-      duration: "45 minutes"
-      outputs: ["Coverage recommendation"]
-    - step: 5
-      actor: "Underwriting Manager"
-      action: "Review and approve underwriting decision"
-      tools: ["Underwriting system"]
-      duration: "20 minutes"
-      outputs: ["Approved underwriting decision"]
-    - step: 6
-      actor: "Underwriter"
-      action: "Issue policy and communicate to applicant"
-      tools: ["Policy issuance system", "Communication templates"]
-      duration: "15 minutes"
-      outputs: ["Issued policy"]
-  success_criteria: "Policy issued within 5 business days"
-  failure_modes: ["Incomplete information", "High-risk profiles", "Pricing disagreements"]
+  - step: 1
+    actor: Underwriter
+    action: Review application and gather initial information
+    tools:
+    - Underwriting system
+    - Application forms
+    duration: 30 minutes
+    outputs:
+    - Initial assessment
+  - step: 2
+    actor: Risk Analyst
+    action: Perform risk assessment and data analysis
+    tools:
+    - Risk modeling software
+    - Database systems
+    duration: 2 hours
+    outputs:
+    - Risk profile report
+  - step: 3
+    actor: Actuary
+    action: Calculate premium rates and risk-adjusted pricing
+    tools:
+    - Actuarial software
+    - Statistical models
+    duration: 1 hour
+    outputs:
+    - Premium calculation
+  - step: 4
+    actor: Underwriter
+    action: Determine coverage terms and conditions
+    tools:
+    - Underwriting guidelines
+    - Policy templates
+    duration: 45 minutes
+    outputs:
+    - Coverage recommendation
+  - step: 5
+    actor: Underwriting Manager
+    action: Review and approve underwriting decision
+    tools:
+    - Underwriting system
+    duration: 20 minutes
+    outputs:
+    - Approved underwriting decision
+  - step: 6
+    actor: Underwriter
+    action: Issue policy and communicate to applicant
+    tools:
+    - Policy issuance system
+    - Communication templates
+    duration: 15 minutes
+    outputs:
+    - Issued policy
+  success_criteria: Policy issued within 5 business days
+  failure_modes:
+  - Incomplete information
+  - High-risk profiles
+  - Pricing disagreements
   metrics:
-    - "Processing time: 4 days average (target: <3 days)"
-    - "Approval rate: 82% (target: >85%)"
-    - "Risk accuracy: 94% (target: >95%)"
+  - 'Processing time: 4 days average (target: <3 days)'
+  - 'Approval rate: 82% (target: >85%)'
+  - 'Risk accuracy: 94% (target: >95%)'
   training_requirements:
-    - "Underwriting software certification"
-    - "Risk assessment methodology training"
-    - "Regulatory compliance updates"
-    - "Actuarial modeling basics"
+  - Underwriting software certification
+  - Risk assessment methodology training
+  - Regulatory compliance updates
+  - Actuarial modeling basics
   escalation_procedures:
-    - "High-risk applications: Senior underwriter review required"
-    - "Complex cases: Underwriting committee approval"
-    - "Regulatory concerns: Compliance officer notification"
-    - "System failures: Immediate IT support escalation"
+  - 'High-risk applications: Senior underwriter review required'
+  - 'Complex cases: Underwriting committee approval'
+  - 'Regulatory concerns: Compliance officer notification'
+  - 'System failures: Immediate IT support escalation'

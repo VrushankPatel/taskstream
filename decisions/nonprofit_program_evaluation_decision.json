@@ -3,8 +3,16 @@
   "context": "Nonprofit organization conducting comprehensive program evaluation to assess effectiveness and inform strategic decisions",
   "stakeholders": {
     "requester": "Program Evaluation Manager",
-    "approvers": ["Executive Director", "Board Evaluation Committee", "Program Directors"],
-    "influencers": ["Funders", "Beneficiaries", "External Evaluators"]
+    "approvers": [
+      "Executive Director",
+      "Board Evaluation Committee",
+      "Program Directors"
+    ],
+    "influencers": [
+      "Funders",
+      "Beneficiaries",
+      "External Evaluators"
+    ]
   },
   "request": {
     "amount": "$95,000",
@@ -16,28 +24,51 @@
     {
       "stage": "evaluation_design",
       "duration": "8 weeks",
-      "activities": ["Evaluation framework development", "Methodology selection", "Stakeholder engagement"],
+      "activities": [
+        "Evaluation framework development",
+        "Methodology selection",
+        "Stakeholder engagement"
+      ],
       "outcome": "Comprehensive evaluation plan with mixed methods approach"
     },
     {
       "stage": "data_collection",
       "duration": "12 weeks",
-      "activities": ["Survey administration", "Interview coordination", "Data analysis"],
+      "activities": [
+        "Survey administration",
+        "Interview coordination",
+        "Data analysis"
+      ],
       "outcome": "Rich dataset collected from all stakeholder groups"
     },
     {
       "stage": "findings_analysis",
       "duration": "6 weeks",
-      "activities": ["Data interpretation", "Findings synthesis", "Recommendations development"],
+      "activities": [
+        "Data interpretation",
+        "Findings synthesis",
+        "Recommendations development"
+      ],
       "outcome": "Actionable insights with specific improvement recommendations"
     }
   ],
   "business_impact": {
     "expected_outcome": "Improved program outcomes, enhanced funder relationships, data-driven strategic planning",
     "projected_value": "$500,000 in sustained funding through demonstrated effectiveness",
-    "risk_factors": ["Negative findings", "Stakeholder resistance", "Implementation challenges", "Resource constraints"]
+    "risk_factors": [
+      "Negative findings",
+      "Stakeholder resistance",
+      "Implementation challenges",
+      "Resource constraints"
+    ]
   },
-  "decision_criteria": ["Evaluation rigor", "Stakeholder involvement", "Actionability of findings", "Cost effectiveness", "Timeline feasibility"],
+  "decision_criteria": [
+    "Evaluation rigor",
+    "Stakeholder involvement",
+    "Actionability of findings",
+    "Cost effectiveness",
+    "Timeline feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Program evaluation requires careful stakeholder management and clear communication of findings"
 }

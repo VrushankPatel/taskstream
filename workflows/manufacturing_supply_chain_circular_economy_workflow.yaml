@@ -1,41 +1,73 @@
 workflow:
-  id: "workflow_057_005"
-  title: "Manufacturing Supply Chain Circular Economy Workflow"
-  department: "Supply Chain & Sustainability"
-  complexity: "medium"
-  participants: ["Supply Chain Managers", "Sustainability Specialists", "Supplier Relations Teams", "Product Designers", "Recycling Partners"]
-  trigger: "Initiative to transform linear supply chain to circular economy model"
+  id: workflow_057_005
+  title: Manufacturing Supply Chain Circular Economy Workflow
+  department: Supply Chain & Sustainability
+  complexity: medium
+  participants:
+  - Supply Chain Managers
+  - Sustainability Specialists
+  - Supplier Relations Teams
+  - Product Designers
+  - Recycling Partners
+  trigger: Initiative to transform linear supply chain to circular economy model
   steps:
-    - step: 1
-      actor: "Sustainability Specialists"
-      action: "Assess current supply chain environmental impact and circularity gaps"
-      tools: ["Life cycle assessment tools", "Sustainability frameworks"]
-      duration: "3 weeks"
-      outputs: ["Environmental impact assessment", "Circularity gap analysis"]
-    - step: 2
-      actor: "Product Designers"
-      action: "Redesign products for circularity (modular design, recycled materials)"
-      tools: ["Product design software", "Material databases"]
-      duration: "6 weeks"
-      outputs: ["Circular product designs", "Material specifications"]
-      decision_points: ["Design feasibility", "Cost implications"]
-    - step: 3
-      actor: "Supplier Relations Teams"
-      action: "Identify and qualify circular economy suppliers and recycling partners"
-      tools: ["Supplier qualification systems", "Partnership evaluation tools"]
-      duration: "4 weeks"
-      outputs: ["Qualified suppliers list", "Partnership agreements"]
-    - step: 4
-      actor: "Supply Chain Managers"
-      action: "Implement reverse logistics and product take-back systems"
-      tools: ["Logistics planning software", "Returns management systems"]
-      duration: "5 weeks"
-      outputs: ["Reverse logistics system", "Take-back protocols"]
-    - step: 5
-      actor: "Recycling Partners"
-      action: "Establish material recovery and recycling processes"
-      tools: ["Recycling process technologies", "Quality control systems"]
-      duration: "4 weeks"
-      outputs: ["Material recovery processes", "Quality standards"]
-  success_criteria: "Circular supply chain implemented with measurable reduction in waste and environmental impact"
-  failure_modes: ["Supplier resistance", "Cost overruns", "Technical feasibility issues", "Market acceptance challenges"]
+  - step: 1
+    actor: Sustainability Specialists
+    action: Assess current supply chain environmental impact and circularity gaps
+    tools:
+    - Life cycle assessment tools
+    - Sustainability frameworks
+    duration: 3 weeks
+    outputs:
+    - Environmental impact assessment
+    - Circularity gap analysis
+  - step: 2
+    actor: Product Designers
+    action: Redesign products for circularity (modular design, recycled materials)
+    tools:
+    - Product design software
+    - Material databases
+    duration: 6 weeks
+    outputs:
+    - Circular product designs
+    - Material specifications
+    decision_points:
+    - Design feasibility
+    - Cost implications
+  - step: 3
+    actor: Supplier Relations Teams
+    action: Identify and qualify circular economy suppliers and recycling partners
+    tools:
+    - Supplier qualification systems
+    - Partnership evaluation tools
+    duration: 4 weeks
+    outputs:
+    - Qualified suppliers list
+    - Partnership agreements
+  - step: 4
+    actor: Supply Chain Managers
+    action: Implement reverse logistics and product take-back systems
+    tools:
+    - Logistics planning software
+    - Returns management systems
+    duration: 5 weeks
+    outputs:
+    - Reverse logistics system
+    - Take-back protocols
+  - step: 5
+    actor: Recycling Partners
+    action: Establish material recovery and recycling processes
+    tools:
+    - Recycling process technologies
+    - Quality control systems
+    duration: 4 weeks
+    outputs:
+    - Material recovery processes
+    - Quality standards
+  success_criteria: Circular supply chain implemented with measurable reduction in
+    waste and environmental impact
+  failure_modes:
+  - Supplier resistance
+  - Cost overruns
+  - Technical feasibility issues
+  - Market acceptance challenges

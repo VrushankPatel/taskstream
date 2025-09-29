@@ -3,8 +3,17 @@
   "context": "Major logistics company evaluating autonomous vehicle deployment for long-haul trucking operations",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Chief Technology Officer"],
-    "influencers": ["Fleet Operations Manager", "Safety Director", "Insurance Provider", "Regulatory Affairs Lead"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Fleet Operations Manager",
+      "Safety Director",
+      "Insurance Provider",
+      "Regulatory Affairs Lead"
+    ]
   },
   "request": {
     "amount": "$85,000,000",
@@ -16,28 +25,54 @@
     {
       "stage": "feasibility_study",
       "duration": "8 weeks",
-      "activities": ["Technical evaluation", "Route analysis", "Cost modeling", "Regulatory assessment"],
+      "activities": [
+        "Technical evaluation",
+        "Route analysis",
+        "Cost modeling",
+        "Regulatory assessment"
+      ],
       "outcome": "Positive feasibility with identified requirements"
     },
     {
       "stage": "pilot_program",
       "duration": "16 weeks",
-      "activities": ["Deploy 10 autonomous trucks", "Monitor performance", "Safety validation", "Driver training"],
+      "activities": [
+        "Deploy 10 autonomous trucks",
+        "Monitor performance",
+        "Safety validation",
+        "Driver training"
+      ],
       "outcome": "Successful pilot with 95% uptime and 40% cost reduction"
     },
     {
       "stage": "full_deployment_planning",
       "duration": "12 weeks",
-      "activities": ["Infrastructure development", "Fleet transition plan", "Risk mitigation", "ROI projections"],
+      "activities": [
+        "Infrastructure development",
+        "Fleet transition plan",
+        "Risk mitigation",
+        "ROI projections"
+      ],
       "outcome": "Approved for phased deployment starting Q2 2026"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in operating costs, 50% improvement in safety metrics, solution to driver shortage crisis",
     "projected_value": "$150,000,000 annual savings, $500,000,000 in avoided driver recruitment costs over 5 years",
-    "risk_factors": ["Regulatory changes", "Technology maturity", "Insurance coverage gaps", "Public acceptance"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Technology maturity",
+      "Insurance coverage gaps",
+      "Public acceptance"
+    ]
   },
-  "decision_criteria": ["Financial ROI", "Safety improvements", "Regulatory compliance", "Technology readiness", "Operational feasibility"],
+  "decision_criteria": [
+    "Financial ROI",
+    "Safety improvements",
+    "Regulatory compliance",
+    "Technology readiness",
+    "Operational feasibility"
+  ],
   "outcome": "Approved with conditions",
   "lessons_learned": "Pilot programs essential for risk mitigation, regulatory engagement critical, infrastructure investment underestimated, public communication strategy needed"
 }

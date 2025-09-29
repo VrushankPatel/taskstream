@@ -128,5 +128,5 @@ Applies to all autonomous mining equipment including haulage trucks, drilling ri
 - **Safety briefings**: Mandatory safety training for all site visitors
 - **Contractor oversight**: Ensure contractors comply with autonomous safety protocols
 
-*Policy effective date: October 1, 2025*  
+*Policy effective date: October 1, 2025*
 *Annual review required*

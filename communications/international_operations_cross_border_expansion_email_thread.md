@@ -1,9 +1,9 @@
 # International Operations Cross-Border Expansion Email Thread
 
-**From:** Chief Compliance Officer  
-**To:** CEO, General Counsel, Regional Presidents (Asia, Europe, Latin America)  
-**Subject:** Urgent: Compliance Framework for New Market Entries  
-**Date:** October 18, 2025  
+**From:** Chief Compliance Officer
+**To:** CEO, General Counsel, Regional Presidents (Asia, Europe, Latin America)
+**Subject:** Urgent: Compliance Framework for New Market Entries
+**Date:** October 18, 2025
 
 Team,
 
@@ -40,16 +40,16 @@ Following our strategic decision to expand into 5 new international markets, I n
 
 Please confirm receipt and let me know if you need any additional information.
 
-Best,  
-Sarah Chen  
-Chief Compliance Officer  
+Best,
+Sarah Chen
+Chief Compliance Officer
 
 ---
 
-**From:** CEO  
-**To:** Chief Compliance Officer, General Counsel, Regional Presidents  
-**Subject:** Re: Urgent: Compliance Framework for New Market Entries  
-**Date:** October 18, 2025  
+**From:** CEO
+**To:** Chief Compliance Officer, General Counsel, Regional Presidents
+**Subject:** Re: Urgent: Compliance Framework for New Market Entries
+**Date:** October 18, 2025
 
 Sarah,
 
@@ -67,15 +67,15 @@ Thank you for the comprehensive overview. This is exactly the proactive approach
 
 Let's schedule a call tomorrow to discuss implementation.
 
-Mark Johnson  
-CEO  
+Mark Johnson
+CEO
 
 ---
 
-**From:** General Counsel  
-**To:** CEO, Chief Compliance Officer, Regional Presidents  
-**Subject:** Re: Urgent: Compliance Framework for New Market Entries  
-**Date:** October 18, 2025  
+**From:** General Counsel
+**To:** CEO, Chief Compliance Officer, Regional Presidents
+**Subject:** Re: Urgent: Compliance Framework for New Market Entries
+**Date:** October 18, 2025
 
 Mark and Sarah,
 
@@ -98,15 +98,15 @@ I agree this is critical. From a legal perspective:
 
 I'll prepare a detailed legal memorandum by Friday.
 
-David Park  
-General Counsel  
+David Park
+General Counsel
 
 ---
 
-**From:** Regional President - Asia  
-**To:** CEO, Chief Compliance Officer, General Counsel, Regional Presidents  
-**Subject:** Re: Urgent: Compliance Framework for New Market Entries  
-**Date:** October 19, 2025  
+**From:** Regional President - Asia
+**To:** CEO, Chief Compliance Officer, General Counsel, Regional Presidents
+**Subject:** Re: Urgent: Compliance Framework for New Market Entries
+**Date:** October 19, 2025
 
 Team,
 
@@ -129,15 +129,15 @@ For the Asian markets (Japan, South Korea, India), I want to highlight some spec
 
 We should engage local experts immediately to navigate these requirements.
 
-Lisa Wong  
-Regional President - Asia  
+Lisa Wong
+Regional President - Asia
 
 ---
 
-**From:** Chief Compliance Officer  
-**To:** CEO, General Counsel, Regional Presidents  
-**Subject:** Re: Urgent: Compliance Framework for New Market Entries  
-**Date:** October 19, 2025  
+**From:** Chief Compliance Officer
+**To:** CEO, General Counsel, Regional Presidents
+**Subject:** Re: Urgent: Compliance Framework for New Market Entries
+**Date:** October 19, 2025
 
 Thank you all for the detailed responses. This thread demonstrates the complexity we're facing.
 
@@ -154,6 +154,6 @@ Thank you all for the detailed responses. This thread demonstrates the complexit
 
 I'll schedule the call Mark requested for tomorrow at 3 PM EST.
 
-Best,  
-Sarah Chen  
+Best,
+Sarah Chen
 Chief Compliance Officer

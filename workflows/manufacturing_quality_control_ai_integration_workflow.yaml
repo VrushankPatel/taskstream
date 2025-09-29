@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_manufacturing_quality_control_ai_integration"
-  title: "Quality Control AI Integration"
-  department: "Manufacturing Operations"
-  complexity: "medium"
-  participants: ["Quality Manager", "AI Engineer", "Production Supervisors", "Maintenance Team"]
-  trigger: "Quality defect rate exceeds acceptable threshold"
+  id: workflow_manufacturing_quality_control_ai_integration
+  title: Quality Control AI Integration
+  department: Manufacturing Operations
+  complexity: medium
+  participants:
+  - Quality Manager
+  - AI Engineer
+  - Production Supervisors
+  - Maintenance Team
+  trigger: Quality defect rate exceeds acceptable threshold
   steps:
-    - step: 1
-      actor: "Quality Manager"
-      action: "Analyze current quality control processes and identify automation opportunities"
-      tools: ["Quality management software", "Process mapping tools"]
-      duration: "1 week"
-      outputs: ["Quality process analysis report"]
-    - step: 2
-      actor: "AI Engineer"
-      action: "Develop and train AI models for defect detection"
-      tools: ["Machine learning platforms", "Computer vision libraries"]
-      duration: "3 weeks"
-      outputs: ["Trained AI defect detection models"]
-    - step: 3
-      actor: "Production Supervisors"
-      action: "Integrate AI systems into production lines"
-      tools: ["PLC programming tools", "IoT sensors"]
-      duration: "2 weeks"
-      outputs: ["AI-integrated production lines"]
-    - step: 4
-      actor: "Maintenance Team"
-      action: "Establish maintenance protocols for AI systems"
-      tools: ["Predictive maintenance software", "Calibration tools"]
-      duration: "1 week"
-      outputs: ["AI system maintenance procedures"]
-  success_criteria: "50% reduction in defect rates with AI assistance"
-  failure_modes: ["AI model accuracy issues", "Integration with legacy systems", "Workforce training gaps"]
+  - step: 1
+    actor: Quality Manager
+    action: Analyze current quality control processes and identify automation opportunities
+    tools:
+    - Quality management software
+    - Process mapping tools
+    duration: 1 week
+    outputs:
+    - Quality process analysis report
+  - step: 2
+    actor: AI Engineer
+    action: Develop and train AI models for defect detection
+    tools:
+    - Machine learning platforms
+    - Computer vision libraries
+    duration: 3 weeks
+    outputs:
+    - Trained AI defect detection models
+  - step: 3
+    actor: Production Supervisors
+    action: Integrate AI systems into production lines
+    tools:
+    - PLC programming tools
+    - IoT sensors
+    duration: 2 weeks
+    outputs:
+    - AI-integrated production lines
+  - step: 4
+    actor: Maintenance Team
+    action: Establish maintenance protocols for AI systems
+    tools:
+    - Predictive maintenance software
+    - Calibration tools
+    duration: 1 week
+    outputs:
+    - AI system maintenance procedures
+  success_criteria: 50% reduction in defect rates with AI assistance
+  failure_modes:
+  - AI model accuracy issues
+  - Integration with legacy systems
+  - Workforce training gaps

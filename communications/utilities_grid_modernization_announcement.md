@@ -1,8 +1,8 @@
 ## Meeting Notes: Utilities Grid Modernization Update
 
-**Date:** September 29, 2025  
-**Attendees:** CEO, CTO, Operations VP, Engineering Director, Regulatory Affairs Manager, Finance Director  
-**Subject:** Grid Modernization Initiative Progress and Next Steps  
+**Date:** September 29, 2025
+**Attendees:** CEO, CTO, Operations VP, Engineering Director, Regulatory Affairs Manager, Finance Director
+**Subject:** Grid Modernization Initiative Progress and Next Steps
 
 **Meeting Objective:** Review progress on smart grid implementation and plan for Phase 2 deployment.
 

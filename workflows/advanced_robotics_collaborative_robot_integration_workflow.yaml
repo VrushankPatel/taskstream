@@ -1,52 +1,88 @@
 workflow:
-  id: "workflow_advanced_robotics_collaborative_integration"
-  title: "Collaborative Robot Integration Workflow"
-  department: "Advanced Robotics"
-  complexity: "medium"
-  participants: ["Robotics Engineer", "Safety Officer", "Production Manager", "IT Team", "Workforce Training"]
-  trigger: "Manufacturing process identified for collaborative robot enhancement"
+  id: workflow_advanced_robotics_collaborative_integration
+  title: Collaborative Robot Integration Workflow
+  department: Advanced Robotics
+  complexity: medium
+  participants:
+  - Robotics Engineer
+  - Safety Officer
+  - Production Manager
+  - IT Team
+  - Workforce Training
+  trigger: Manufacturing process identified for collaborative robot enhancement
   steps:
-    - step: 1
-      actor: "Robotics Engineer"
-      action: "Assess process requirements and robot capabilities"
-      tools: ["Process analysis software", "Robot simulation tools", "Safety standards"]
-      duration: "3 weeks"
-      outputs: ["Requirements specification", "Robot selection criteria"]
-    - step: 2
-      actor: "Safety Officer"
-      action: "Conduct risk assessment and safety validation"
-      decision_points: ["Safety zone definitions", "Emergency stop protocols", "Human-robot interaction limits"]
-      duration: "2 weeks"
-      outputs: ["Safety assessment report", "Risk mitigation plan"]
-    - step: 3
-      actor: "IT Team"
-      action: "Integrate robot control systems with factory network"
-      tools: ["Industrial IoT platforms", "SCADA systems", "Network security tools"]
-      duration: "4 weeks"
-      outputs: ["System integration plan", "Network architecture"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Redesign workstation layout for human-robot collaboration"
-      tools: ["CAD software", "Ergonomics analysis tools"]
-      duration: "3 weeks"
-      outputs: ["Layout optimization plan", "Process flow diagrams"]
-    - step: 5
-      actor: "Workforce Training"
-      action: "Develop and deliver operator training programs"
-      tools: ["Training management systems", "VR simulation tools"]
-      duration: "2 weeks"
-      outputs: ["Training materials", "Certification program"]
-    - step: 6
-      actor: "Robotics Engineer"
-      action: "Execute pilot implementation and performance monitoring"
-      tools: ["Sensor networks", "Performance analytics", "Maintenance tracking"]
-      duration: "6 weeks"
-      outputs: ["Pilot results", "Optimization recommendations"]
-  success_criteria: "Successful pilot with improved productivity and safety metrics"
-  failure_modes: ["Safety incidents", "Integration failures", "Operator resistance"]
+  - step: 1
+    actor: Robotics Engineer
+    action: Assess process requirements and robot capabilities
+    tools:
+    - Process analysis software
+    - Robot simulation tools
+    - Safety standards
+    duration: 3 weeks
+    outputs:
+    - Requirements specification
+    - Robot selection criteria
+  - step: 2
+    actor: Safety Officer
+    action: Conduct risk assessment and safety validation
+    decision_points:
+    - Safety zone definitions
+    - Emergency stop protocols
+    - Human-robot interaction limits
+    duration: 2 weeks
+    outputs:
+    - Safety assessment report
+    - Risk mitigation plan
+  - step: 3
+    actor: IT Team
+    action: Integrate robot control systems with factory network
+    tools:
+    - Industrial IoT platforms
+    - SCADA systems
+    - Network security tools
+    duration: 4 weeks
+    outputs:
+    - System integration plan
+    - Network architecture
+  - step: 4
+    actor: Production Manager
+    action: Redesign workstation layout for human-robot collaboration
+    tools:
+    - CAD software
+    - Ergonomics analysis tools
+    duration: 3 weeks
+    outputs:
+    - Layout optimization plan
+    - Process flow diagrams
+  - step: 5
+    actor: Workforce Training
+    action: Develop and deliver operator training programs
+    tools:
+    - Training management systems
+    - VR simulation tools
+    duration: 2 weeks
+    outputs:
+    - Training materials
+    - Certification program
+  - step: 6
+    actor: Robotics Engineer
+    action: Execute pilot implementation and performance monitoring
+    tools:
+    - Sensor networks
+    - Performance analytics
+    - Maintenance tracking
+    duration: 6 weeks
+    outputs:
+    - Pilot results
+    - Optimization recommendations
+  success_criteria: Successful pilot with improved productivity and safety metrics
+  failure_modes:
+  - Safety incidents
+  - Integration failures
+  - Operator resistance
   metrics:
-    - "Productivity improvement: Target 25% increase"
-    - "Safety incidents: Target zero"
-    - "System uptime: Target 95%"
-    - "Operator training completion: Target 100%"
-    - "Integration timeline adherence: Target 100%"
+  - 'Productivity improvement: Target 25% increase'
+  - 'Safety incidents: Target zero'
+  - 'System uptime: Target 95%'
+  - 'Operator training completion: Target 100%'
+  - 'Integration timeline adherence: Target 100%'

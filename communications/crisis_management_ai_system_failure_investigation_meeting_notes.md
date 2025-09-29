@@ -1,16 +1,16 @@
 # Meeting Notes: AI System Failure Investigation and Recovery Planning
 
-**Meeting Title:** Critical Incident Response: AI Diagnostics System Failure  
-**Date:** September 28, 2025  
-**Time:** 8:00 AM - 10:30 AM (Emergency Session)  
-**Location:** Crisis Command Center, Headquarters  
-**Attendees:**  
-- Dr. Amanda Foster, CEO  
-- Michael Chen, CTO  
-- Dr. Sarah Williams, Chief Medical Officer  
-- Jennifer Park, CISO  
-- Robert Davis, Crisis Management Director  
-- External Consultant: Dr. Marcus Johnson (AI Safety Expert)  
+**Meeting Title:** Critical Incident Response: AI Diagnostics System Failure
+**Date:** September 28, 2025
+**Time:** 8:00 AM - 10:30 AM (Emergency Session)
+**Location:** Crisis Command Center, Headquarters
+**Attendees:**
+- Dr. Amanda Foster, CEO
+- Michael Chen, CTO
+- Dr. Sarah Williams, Chief Medical Officer
+- Jennifer Park, CISO
+- Robert Davis, Crisis Management Director
+- External Consultant: Dr. Marcus Johnson (AI Safety Expert)
 
 ## Incident Summary
 - **Time of Failure:** 2:15 AM September 28, 2025

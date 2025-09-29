@@ -3,8 +3,15 @@
   "context": "Global consumer brand with $500M revenue, expanding influencer marketing program amid regulatory changes",
   "stakeholders": {
     "requester": "VP of Marketing",
-    "approvers": ["CMO", "Chief Legal Officer"],
-    "influencers": ["Social Media Manager", "Brand Manager", "Agency Partner"]
+    "approvers": [
+      "CMO",
+      "Chief Legal Officer"
+    ],
+    "influencers": [
+      "Social Media Manager",
+      "Brand Manager",
+      "Agency Partner"
+    ]
   },
   "request": {
     "amount": "$2,000,000",
@@ -16,32 +23,56 @@
     {
       "stage": "market_analysis",
       "duration": "3 weeks",
-      "activities": ["Influencer landscape assessment", "Regulatory compliance review", "Competitive analysis"],
+      "activities": [
+        "Influencer landscape assessment",
+        "Regulatory compliance review",
+        "Competitive analysis"
+      ],
       "outcome": "Identified need for structured relationship management amid regulatory complexity"
     },
     {
       "stage": "platform_evaluation",
       "duration": "2 weeks",
-      "activities": ["Vendor platform demos", "Integration assessment", "Cost-benefit analysis"],
+      "activities": [
+        "Vendor platform demos",
+        "Integration assessment",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Selected Aspire platform for relationship management and compliance tracking"
     },
     {
       "stage": "legal_framework",
       "duration": "2 weeks",
-      "activities": ["Contract template development", "Disclosure policy creation", "Risk assessment"],
+      "activities": [
+        "Contract template development",
+        "Disclosure policy creation",
+        "Risk assessment"
+      ],
       "outcome": "Comprehensive legal framework established for influencer partnerships"
     },
     {
       "stage": "pilot_program",
       "duration": "6 weeks",
-      "activities": ["Launch with 50 micro-influencers", "Performance tracking", "Compliance monitoring"],
+      "activities": [
+        "Launch with 50 micro-influencers",
+        "Performance tracking",
+        "Compliance monitoring"
+      ],
       "outcome": "20% higher engagement rates with full regulatory compliance"
     }
   ],
   "business_impact": {
     "expected_roi": "300%",
     "projected_reach_increase": "150%",
-    "risk_factors": ["Regulatory changes", "Influencer authenticity concerns", "Platform dependency"],
-    "success_metrics": ["Engagement rate improvement", "Conversion tracking", "Compliance audit results"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Influencer authenticity concerns",
+      "Platform dependency"
+    ],
+    "success_metrics": [
+      "Engagement rate improvement",
+      "Conversion tracking",
+      "Compliance audit results"
+    ]
   }
 }

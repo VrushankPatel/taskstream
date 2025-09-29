@@ -3,8 +3,15 @@
   "context": "Energy company, 8,000 employees, facing increasing regulatory pressure on carbon emissions",
   "stakeholders": {
     "requester": "VP Sustainability",
-    "approvers": ["CEO", "Board ESG Committee"],
-    "influencers": ["Chief Risk Officer", "Operations Directors", "Environmental Consultants"]
+    "approvers": [
+      "CEO",
+      "Board ESG Committee"
+    ],
+    "influencers": [
+      "Chief Risk Officer",
+      "Operations Directors",
+      "Environmental Consultants"
+    ]
   },
   "request": {
     "amount": "$5,000,000",
@@ -16,25 +23,41 @@
     {
       "stage": "risk_assessment",
       "duration": "4 weeks",
-      "activities": ["Regulatory analysis", "Current capability audit", "Gap analysis"],
+      "activities": [
+        "Regulatory analysis",
+        "Current capability audit",
+        "Gap analysis"
+      ],
       "outcome": "Critical gaps identified, immediate action required"
     },
     {
       "stage": "solution_evaluation",
       "duration": "6 weeks",
-      "activities": ["Vendor selection", "Technology assessment", "Integration planning"],
+      "activities": [
+        "Vendor selection",
+        "Technology assessment",
+        "Integration planning"
+      ],
       "outcome": "Preferred solution selected with customization requirements"
     },
     {
       "stage": "implementation_approval",
       "duration": "3 weeks",
-      "activities": ["Budget approval", "Timeline confirmation", "Resource allocation"],
+      "activities": [
+        "Budget approval",
+        "Timeline confirmation",
+        "Resource allocation"
+      ],
       "outcome": "Approved with priority implementation for high-risk areas"
     }
   ],
   "business_impact": {
     "expected_benefits": "Regulatory compliance assurance, reduced carbon emissions, improved ESG ratings",
     "projected_roi": "Cost avoidance through fines prevention, potential revenue from carbon credits",
-    "risk_factors": ["Technology implementation challenges", "Data accuracy issues", "Regulatory changes"]
+    "risk_factors": [
+      "Technology implementation challenges",
+      "Data accuracy issues",
+      "Regulatory changes"
+    ]
   }
 }

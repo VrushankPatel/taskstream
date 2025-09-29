@@ -3,8 +3,17 @@
   "context": "Biopharmaceutical company seeking FDA approval for novel gene therapy treatment for rare genetic disorder, requiring $180M investment over 36 months",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Medical Officer"],
-    "influencers": ["Regulatory Affairs Director", "Clinical Development Lead", "Commercial Strategy VP", "Chief Financial Officer"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Medical Officer"
+    ],
+    "influencers": [
+      "Regulatory Affairs Director",
+      "Clinical Development Lead",
+      "Commercial Strategy VP",
+      "Chief Financial Officer"
+    ]
   },
   "request": {
     "amount": "$180,000,000",
@@ -16,37 +25,61 @@
     {
       "stage": "scientific_review",
       "duration": "6 weeks",
-      "activities": ["Preclinical data analysis", "Phase 2 results review", "Competitive landscape assessment"],
+      "activities": [
+        "Preclinical data analysis",
+        "Phase 2 results review",
+        "Competitive landscape assessment"
+      ],
       "outcome": "Strong scientific foundation confirmed with clear clinical benefit"
     },
     {
       "stage": "regulatory_strategy",
       "duration": "8 weeks",
-      "activities": ["FDA meeting preparation", "Regulatory pathway mapping", "CMC development planning"],
+      "activities": [
+        "FDA meeting preparation",
+        "Regulatory pathway mapping",
+        "CMC development planning"
+      ],
       "outcome": "Accelerated approval pathway identified with breakthrough therapy designation"
     },
     {
       "stage": "clinical_development_plan",
       "duration": "10 weeks",
-      "activities": ["Phase 3 protocol design", "Site selection and recruitment planning", "Data management setup"],
+      "activities": [
+        "Phase 3 protocol design",
+        "Site selection and recruitment planning",
+        "Data management setup"
+      ],
       "outcome": "36-month development timeline with 800 patient enrollment target"
     },
     {
       "stage": "financial_modeling",
       "duration": "6 weeks",
-      "activities": ["Cost projections", "Revenue forecasting", "Risk-adjusted NPV analysis"],
+      "activities": [
+        "Cost projections",
+        "Revenue forecasting",
+        "Risk-adjusted NPV analysis"
+      ],
       "outcome": "Projected $2.1B NPV with 65% probability of success"
     },
     {
       "stage": "commercial_assessment",
       "duration": "4 weeks",
-      "activities": ["Market access strategy", "Pricing and reimbursement analysis", "Launch planning"],
+      "activities": [
+        "Market access strategy",
+        "Pricing and reimbursement analysis",
+        "Launch planning"
+      ],
       "outcome": "$800M peak sales potential with 40% market share in addressable population"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Due diligence review", "Final investment committee approval"],
+      "activities": [
+        "Board presentation",
+        "Due diligence review",
+        "Final investment committee approval"
+      ],
       "outcome": "Approved with $150M Phase 3 budget and $30M contingency"
     }
   ],
@@ -80,8 +113,19 @@
         "mitigation": "First-to-market advantage and patent protection"
       }
     },
-    "risk_factors": ["Clinical trial failures", "Regulatory delays", "Manufacturing scalability issues", "Reimbursement challenges", "Competitor advancements"],
-    "strategic_benefits": ["Platform technology validation for future gene therapies", "Rare disease market leadership", "Scientific reputation enhancement", "Partnership opportunities with patient advocacy groups"],
+    "risk_factors": [
+      "Clinical trial failures",
+      "Regulatory delays",
+      "Manufacturing scalability issues",
+      "Reimbursement challenges",
+      "Competitor advancements"
+    ],
+    "strategic_benefits": [
+      "Platform technology validation for future gene therapies",
+      "Rare disease market leadership",
+      "Scientific reputation enhancement",
+      "Partnership opportunities with patient advocacy groups"
+    ],
     "implementation_roadmap": {
       "phase_1": "Regulatory alignment and team assembly (Months 1-3)",
       "phase_2": "Clinical trial initiation and manufacturing setup (Months 4-12)",
@@ -89,7 +133,13 @@
       "phase_4": "Launch preparation and market access (Months 31-36)"
     }
   },
-  "decision_criteria": ["Scientific validity and clinical benefit", "Regulatory approval probability", "Financial viability and ROI", "Strategic alignment with pipeline", "Operational feasibility"],
+  "decision_criteria": [
+    "Scientific validity and clinical benefit",
+    "Regulatory approval probability",
+    "Financial viability and ROI",
+    "Strategic alignment with pipeline",
+    "Operational feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement and breakthrough designation critical for accelerated timelines"
 }

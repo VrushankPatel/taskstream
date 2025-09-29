@@ -3,8 +3,16 @@
   "context": "Global manufacturing company evaluating quantum computing adoption for supply chain optimization and materials science applications",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["Chief Executive Officer", "Chief Financial Officer", "Board Technology Committee"],
-    "influencers": ["Operations Leadership", "R&D Directors", "External Quantum Consultants"]
+    "approvers": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Board Technology Committee"
+    ],
+    "influencers": [
+      "Operations Leadership",
+      "R&D Directors",
+      "External Quantum Consultants"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "feasibility_assessment",
       "duration": "2 months",
-      "activities": ["Quantum advantage analysis", "Use case identification", "Current infrastructure evaluation"],
+      "activities": [
+        "Quantum advantage analysis",
+        "Use case identification",
+        "Current infrastructure evaluation"
+      ],
       "outcome": "Identified high-impact applications in supply chain and materials design with 10x-100x performance gains"
     },
     {
       "stage": "vendor_partnership_evaluation",
       "duration": "3 months",
-      "activities": ["Quantum platform assessment", "Partnership negotiations", "Technology roadmap alignment"],
+      "activities": [
+        "Quantum platform assessment",
+        "Partnership negotiations",
+        "Technology roadmap alignment"
+      ],
       "outcome": "Strategic partnership established with leading quantum computing provider"
     },
     {
       "stage": "pilot_program_design",
       "duration": "2 months",
-      "activities": ["Pilot application selection", "Resource allocation planning", "Success metrics definition"],
+      "activities": [
+        "Pilot application selection",
+        "Resource allocation planning",
+        "Success metrics definition"
+      ],
       "outcome": "Comprehensive pilot program designed targeting supply chain optimization proof-of-concept"
     },
     {
       "stage": "investment_approval",
       "duration": "1 month",
-      "activities": ["Financial modeling", "Risk assessment", "Board presentation"],
+      "activities": [
+        "Financial modeling",
+        "Risk assessment",
+        "Board presentation"
+      ],
       "outcome": "Full investment approved with phased implementation over 3 years"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Breakthrough optimization capabilities", "Competitive advantage in complex manufacturing", "New revenue streams from quantum-enabled products"],
+    "expected_benefits": [
+      "Breakthrough optimization capabilities",
+      "Competitive advantage in complex manufacturing",
+      "New revenue streams from quantum-enabled products"
+    ],
     "projected_revenue": "Projected $50M in cost savings and $100M in new revenue opportunities",
-    "risk_factors": ["Technology immaturity", "High development costs", "Skills gap in quantum expertise"]
+    "risk_factors": [
+      "Technology immaturity",
+      "High development costs",
+      "Skills gap in quantum expertise"
+    ]
   }
 }

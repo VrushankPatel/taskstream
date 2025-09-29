@@ -161,6 +161,6 @@ This policy will be reviewed annually and updated when:
 - Regulatory requirements change
 - Lessons learned from incidents necessitate changes
 
-*Effective Date: January 1, 2026*  
-*Last Updated: October 2025*  
+*Effective Date: January 1, 2026*
+*Last Updated: October 2025*
 *Next Review: October 2026*

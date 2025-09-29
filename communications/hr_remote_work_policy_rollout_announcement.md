@@ -1,10 +1,10 @@
 ## Communication: HR Remote Work Policy Rollout Announcement
 
-**From:** Chief Human Resources Officer  
-**To:** All Employees  
-**Subject:** Updated Remote Work Policy - Effective October 1, 2025  
+**From:** Chief Human Resources Officer
+**To:** All Employees
+**Subject:** Updated Remote Work Policy - Effective October 1, 2025
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Team,
 
@@ -52,7 +52,7 @@ This policy reflects our commitment to employee well-being and work-life balance
 
 Please direct any questions to the HR Service Center or your manager.
 
-Best regards,  
-Sarah Johnson  
-Chief Human Resources Officer  
+Best regards,
+Sarah Johnson
+Chief Human Resources Officer
 Human Resources Department

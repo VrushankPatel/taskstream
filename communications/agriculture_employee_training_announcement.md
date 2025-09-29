@@ -1,8 +1,8 @@
 ## Email Thread: Agriculture Seasonal Training Program Announcement
 
-**From:** HR Director  
-**To:** All Farm Operations Staff, Supervisors, Department Heads  
-**Subject:** Mandatory Seasonal Safety and Equipment Training Program - Spring 2025  
+**From:** HR Director
+**To:** All Farm Operations Staff, Supervisors, Department Heads
+**Subject:** Mandatory Seasonal Safety and Equipment Training Program - Spring 2025
 
 Team,
 
@@ -44,9 +44,9 @@ As we prepare for the upcoming planting season, I'm pleased to announce our comp
 **Why This Matters:**
 Last season's incident data shows 15% of safety issues stem from equipment misuse or procedural gaps. This training program aims to reduce incidents by 40% through comprehensive skill development.
 
-**From:** Farm Supervisor - North Field  
-**To:** HR Director, Operations Team  
-**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025  
+**From:** Farm Supervisor - North Field
+**To:** HR Director, Operations Team
+**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025
 
 This is excellent timing. Our team has several new hires who will benefit greatly from the equipment training. However, we're concerned about coverage during peak planting preparation.
 
@@ -55,9 +55,9 @@ This is excellent timing. Our team has several new hires who will benefit greatl
 - Are there make-up sessions for those who miss due to weather?
 - Will training count toward overtime hours?
 
-**From:** Equipment Manager  
-**To:** HR Director, Farm Supervisors  
-**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025  
+**From:** Equipment Manager
+**To:** HR Director, Farm Supervisors
+**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025
 
 Strong support for the equipment safety module. We've updated several tractors with new safety features that require specific training.
 
@@ -66,9 +66,9 @@ Strong support for the equipment safety module. We've updated several tractors w
 - Add module on drone operation for field monitoring
 - Consider certification renewal requirements annually
 
-**From:** HR Director  
-**To:** All Farm Operations Staff, Supervisors  
-**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025  
+**From:** HR Director
+**To:** All Farm Operations Staff, Supervisors
+**Subject:** Re: Mandatory Seasonal Safety and Equipment Training Program - Spring 2025
 
 Thank you for the feedback. Addressing your concerns:
 

@@ -1,46 +1,75 @@
 workflow:
-  id: "workflow_006"
-  title: "Carbon Capture and Storage Deployment Process"
-  department: "Energy Operations"
-  complexity: "high"
-  participants: ["Chief Technology Officer", "Environmental Compliance Manager", "Project Manager", "Engineering Team", "Regulatory Affairs"]
-  trigger: "Corporate sustainability goals requiring carbon emission reductions"
+  id: workflow_006
+  title: Carbon Capture and Storage Deployment Process
+  department: Energy Operations
+  complexity: high
+  participants:
+  - Chief Technology Officer
+  - Environmental Compliance Manager
+  - Project Manager
+  - Engineering Team
+  - Regulatory Affairs
+  trigger: Corporate sustainability goals requiring carbon emission reductions
   steps:
-    - step: 1
-      actor: "Environmental Compliance Manager"
-      action: "Assess facility emissions and identify capture opportunities"
-      tools: ["Emission monitoring systems", "Carbon accounting software"]
-      duration: "4 weeks"
-      outputs: ["Carbon capture feasibility study"]
-    - step: 2
-      actor: "Chief Technology Officer"
-      action: "Evaluate carbon capture technologies and select optimal solution"
-      decision_points: ["Post-combustion vs. pre-combustion capture", "On-site storage vs. pipeline transport"]
-      duration: "6 weeks"
-      outputs: ["Technology selection report"]
-    - step: 3
-      actor: "Project Manager"
-      action: "Develop detailed project plan and secure regulatory approvals"
-      tools: ["Project management software", "Regulatory filing systems"]
-      duration: "8 weeks"
-      outputs: ["Project execution plan", "Regulatory permits"]
-    - step: 4
-      actor: "Engineering Team"
-      action: "Design and install capture equipment with safety systems"
-      tools: ["Engineering design software", "Safety analysis tools"]
-      duration: "12 weeks"
-      outputs: ["Installed capture system"]
-    - step: 5
-      actor: "Regulatory Affairs"
-      action: "Monitor ongoing compliance and report carbon reduction achievements"
-      tools: ["Compliance monitoring systems", "Reporting dashboards"]
-      duration: "Ongoing"
-      outputs: ["Compliance reports", "Carbon credit certifications"]
-    - step: 6
-      actor: "Chief Technology Officer"
-      action: "Optimize system performance and plan technology upgrades"
-      tools: ["Performance monitoring systems", "Predictive maintenance tools"]
-      duration: "Ongoing"
-      outputs: ["Performance optimization reports"]
-  success_criteria: "30% reduction in facility emissions and positive ROI within 5 years"
-  failure_modes: ["Technology performance issues", "Regulatory approval delays", "High operational costs"]
+  - step: 1
+    actor: Environmental Compliance Manager
+    action: Assess facility emissions and identify capture opportunities
+    tools:
+    - Emission monitoring systems
+    - Carbon accounting software
+    duration: 4 weeks
+    outputs:
+    - Carbon capture feasibility study
+  - step: 2
+    actor: Chief Technology Officer
+    action: Evaluate carbon capture technologies and select optimal solution
+    decision_points:
+    - Post-combustion vs. pre-combustion capture
+    - On-site storage vs. pipeline transport
+    duration: 6 weeks
+    outputs:
+    - Technology selection report
+  - step: 3
+    actor: Project Manager
+    action: Develop detailed project plan and secure regulatory approvals
+    tools:
+    - Project management software
+    - Regulatory filing systems
+    duration: 8 weeks
+    outputs:
+    - Project execution plan
+    - Regulatory permits
+  - step: 4
+    actor: Engineering Team
+    action: Design and install capture equipment with safety systems
+    tools:
+    - Engineering design software
+    - Safety analysis tools
+    duration: 12 weeks
+    outputs:
+    - Installed capture system
+  - step: 5
+    actor: Regulatory Affairs
+    action: Monitor ongoing compliance and report carbon reduction achievements
+    tools:
+    - Compliance monitoring systems
+    - Reporting dashboards
+    duration: Ongoing
+    outputs:
+    - Compliance reports
+    - Carbon credit certifications
+  - step: 6
+    actor: Chief Technology Officer
+    action: Optimize system performance and plan technology upgrades
+    tools:
+    - Performance monitoring systems
+    - Predictive maintenance tools
+    duration: Ongoing
+    outputs:
+    - Performance optimization reports
+  success_criteria: 30% reduction in facility emissions and positive ROI within 5
+    years
+  failure_modes:
+  - Technology performance issues
+  - Regulatory approval delays
+  - High operational costs

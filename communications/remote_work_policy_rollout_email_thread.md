@@ -1,8 +1,8 @@
 ## Email Thread: Remote Work Policy Rollout
 
-**From:** Chief People Officer  
-**To:** All Employees  
-**Subject:** New Hybrid Work Policy - Implementation Starting Next Month  
+**From:** Chief People Officer
+**To:** All Employees
+**Subject:** New Hybrid Work Policy - Implementation Starting Next Month
 
 Team,
 
@@ -16,15 +16,15 @@ Key highlights:
 
 Please review the full policy attached. We'll be holding information sessions next week to address questions.
 
-Best,  
-Sarah Johnson  
-Chief People Officer  
+Best,
+Sarah Johnson
+Chief People Officer
 
 ---
 
-**From:** Senior Manager, Engineering  
-**To:** Chief People Officer, Engineering Team  
-**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month  
+**From:** Senior Manager, Engineering
+**To:** Chief People Officer, Engineering Team
+**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month
 
 Sarah,
 
@@ -32,15 +32,15 @@ Thanks for the update. The engineering team has some concerns about the two-day 
 
 Also, will there be any changes to our equipment stipend?
 
-Regards,  
-Mike Chen  
-Senior Manager, Engineering  
+Regards,
+Mike Chen
+Senior Manager, Engineering
 
 ---
 
-**From:** Chief People Officer  
-**To:** Senior Manager, Engineering, All Employees  
-**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month  
+**From:** Chief People Officer
+**To:** Senior Manager, Engineering, All Employees
+**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month
 
 Mike,
 
@@ -48,27 +48,27 @@ Great questions. We designed the policy with flexibility in mind. Department hea
 
 Regarding equipment: Yes, we're increasing the annual stipend from $500 to $1,000 to cover monitors, ergonomic furniture, and high-speed internet reimbursements.
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Individual Contributor, Marketing  
-**To:** Chief People Officer  
-**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month  
+**From:** Individual Contributor, Marketing
+**To:** Chief People Officer
+**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month
 
 Hi Sarah,
 
 I appreciate the thought put into this policy. One question - how will performance be evaluated for remote vs in-office employees to ensure fairness?
 
-Thanks,  
-Jamie Rivera  
-Marketing Specialist  
+Thanks,
+Jamie Rivera
+Marketing Specialist
 
 ---
 
-**From:** Chief People Officer  
-**To:** Individual Contributor, Marketing, All Employees  
-**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month  
+**From:** Chief People Officer
+**To:** Individual Contributor, Marketing, All Employees
+**Subject:** Re: New Hybrid Work Policy - Implementation Starting Next Month
 
 Jamie,
 

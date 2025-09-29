@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_communications_stakeholder_engagement_strategy"
-  title: "Stakeholder Engagement Strategy Development and Execution"
-  department: "Corporate Communications"
-  complexity: "medium"
-  participants: ["Communications Director", "Stakeholder Relations Manager", "Content Team", "Analytics Team", "Executive Leadership"]
-  trigger: "New initiative launch or quarterly stakeholder assessment"
+  id: workflow_communications_stakeholder_engagement_strategy
+  title: Stakeholder Engagement Strategy Development and Execution
+  department: Corporate Communications
+  complexity: medium
+  participants:
+  - Communications Director
+  - Stakeholder Relations Manager
+  - Content Team
+  - Analytics Team
+  - Executive Leadership
+  trigger: New initiative launch or quarterly stakeholder assessment
   steps:
-    - step: 1
-      actor: "Communications Director"
-      action: "Identify key stakeholders and assess current engagement levels"
-      tools: ["Stakeholder Mapping Tools", "Relationship Database"]
-      duration: "2 weeks"
-      outputs: ["Stakeholder Map", "Engagement Assessment Report"]
-    - step: 2
-      actor: "Stakeholder Relations Manager"
-      action: "Develop tailored engagement strategies for different stakeholder groups"
-      tools: ["Strategy Development Framework", "Communication Planning Templates"]
-      duration: "3 weeks"
-      outputs: ["Engagement Strategy Documents", "Communication Plans"]
-    - step: 3
-      actor: "Content Team"
-      action: "Create stakeholder-specific content and messaging"
-      tools: ["Content Management System", "Personalization Tools"]
-      duration: "4 weeks"
-      outputs: ["Tailored Content Assets", "Messaging Guidelines"]
-    - step: 4
-      actor: "Stakeholder Relations Manager"
-      action: "Execute engagement activities across multiple channels"
-      tools: ["CRM System", "Social Media Management Tools", "Event Planning Software"]
-      duration: "Ongoing quarterly execution"
-      outputs: ["Engagement Activity Reports", "Channel Performance Metrics"]
-    - step: 5
-      actor: "Analytics Team"
-      action: "Monitor engagement effectiveness and stakeholder sentiment"
-      tools: ["Analytics Platforms", "Sentiment Analysis Tools"]
-      duration: "Monthly monitoring"
-      outputs: ["Engagement Analytics Reports", "Sentiment Analysis"]
-    - step: 6
-      actor: "Communications Director"
-      action: "Adjust strategies based on feedback and performance data"
-      tools: ["Strategy Review Framework", "Performance Dashboards"]
-      duration: "Quarterly strategy reviews"
-      outputs: ["Strategy Adjustment Plans", "Performance Improvement Recommendations"]
-  success_criteria: "Positive stakeholder sentiment scores, increased engagement rates, improved relationship strength metrics"
-  failure_modes: ["Inconsistent messaging across channels", "Insufficient stakeholder segmentation", "Lack of executive sponsorship"]
+  - step: 1
+    actor: Communications Director
+    action: Identify key stakeholders and assess current engagement levels
+    tools:
+    - Stakeholder Mapping Tools
+    - Relationship Database
+    duration: 2 weeks
+    outputs:
+    - Stakeholder Map
+    - Engagement Assessment Report
+  - step: 2
+    actor: Stakeholder Relations Manager
+    action: Develop tailored engagement strategies for different stakeholder groups
+    tools:
+    - Strategy Development Framework
+    - Communication Planning Templates
+    duration: 3 weeks
+    outputs:
+    - Engagement Strategy Documents
+    - Communication Plans
+  - step: 3
+    actor: Content Team
+    action: Create stakeholder-specific content and messaging
+    tools:
+    - Content Management System
+    - Personalization Tools
+    duration: 4 weeks
+    outputs:
+    - Tailored Content Assets
+    - Messaging Guidelines
+  - step: 4
+    actor: Stakeholder Relations Manager
+    action: Execute engagement activities across multiple channels
+    tools:
+    - CRM System
+    - Social Media Management Tools
+    - Event Planning Software
+    duration: Ongoing quarterly execution
+    outputs:
+    - Engagement Activity Reports
+    - Channel Performance Metrics
+  - step: 5
+    actor: Analytics Team
+    action: Monitor engagement effectiveness and stakeholder sentiment
+    tools:
+    - Analytics Platforms
+    - Sentiment Analysis Tools
+    duration: Monthly monitoring
+    outputs:
+    - Engagement Analytics Reports
+    - Sentiment Analysis
+  - step: 6
+    actor: Communications Director
+    action: Adjust strategies based on feedback and performance data
+    tools:
+    - Strategy Review Framework
+    - Performance Dashboards
+    duration: Quarterly strategy reviews
+    outputs:
+    - Strategy Adjustment Plans
+    - Performance Improvement Recommendations
+  success_criteria: Positive stakeholder sentiment scores, increased engagement rates,
+    improved relationship strength metrics
+  failure_modes:
+  - Inconsistent messaging across channels
+  - Insufficient stakeholder segmentation
+  - Lack of executive sponsorship

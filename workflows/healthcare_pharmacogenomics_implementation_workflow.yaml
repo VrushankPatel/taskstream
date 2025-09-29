@@ -1,59 +1,128 @@
 workflow:
-  id: "healthcare_pharmacogenomics_implementation"
-  title: "Healthcare Pharmacogenomics Implementation Workflow"
-  department: "Clinical Operations"
-  complexity: "high"
-  participants: ["Chief Medical Officer", "Clinical Pharmacist", "Bioinformatics Specialist", "IT Integration Lead", "Regulatory Compliance Officer", "Patient Education Coordinator"]
-  trigger: "Hospital system decision to implement pharmacogenomics testing for personalized medication dosing"
+  id: healthcare_pharmacogenomics_implementation
+  title: Healthcare Pharmacogenomics Implementation Workflow
+  department: Clinical Operations
+  complexity: high
+  participants:
+  - Chief Medical Officer
+  - Clinical Pharmacist
+  - Bioinformatics Specialist
+  - IT Integration Lead
+  - Regulatory Compliance Officer
+  - Patient Education Coordinator
+  trigger: Hospital system decision to implement pharmacogenomics testing for personalized
+    medication dosing
   steps:
-    - step: 1
-      actor: "Chief Medical Officer"
-      action: "Assess clinical value and develop implementation strategy for pharmacogenomics testing"
-      tools: ["Clinical evidence databases", "Cost-benefit analysis tools", "Stakeholder mapping software"]
-      duration: "6 weeks"
-      outputs: ["Clinical implementation plan", "ROI analysis report", "Stakeholder engagement plan"]
-      decision_points: ["Target therapeutic areas", "Testing panel selection"]
-    - step: 2
-      actor: "Bioinformatics Specialist"
-      action: "Design pharmacogenomics data infrastructure and integration with EHR systems"
-      tools: ["Database design software", "HL7 FHIR standards", "Data security frameworks"]
-      duration: "8 weeks"
-      outputs: ["Data architecture specifications", "Integration requirements", "Data privacy protocols"]
-      decision_points: ["Data storage solutions", "Interoperability standards"]
-    - step: 3
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure compliance with HIPAA, CLIA, and genetic testing regulations"
-      tools: ["Regulatory compliance databases", "Audit trail systems", "Risk assessment frameworks"]
-      duration: "4 weeks"
-      outputs: ["Compliance assessment report", "Policy and procedure documents", "Training requirements"]
-      decision_points: ["Regulatory approval pathways", "Patient consent requirements"]
-    - step: 4
-      actor: "Clinical Pharmacist"
-      action: "Develop clinical decision support algorithms and medication dosing guidelines"
-      tools: ["Clinical decision support systems", "Pharmacokinetic modeling software", "Evidence-based guideline databases"]
-      duration: "10 weeks"
-      outputs: ["Clinical guidelines document", "CDS algorithm specifications", "Provider training materials"]
-      decision_points: ["Guideline development methodology", "Alert threshold settings"]
-    - step: 5
-      actor: "IT Integration Lead"
-      action: "Implement pharmacogenomics testing workflow in clinical systems"
-      tools: ["EHR integration platforms", "Laboratory information systems", "Testing workflow software"]
-      duration: "12 weeks"
-      outputs: ["Integrated testing workflow", "System testing reports", "User acceptance testing results"]
-      decision_points: ["Integration approach", "Testing validation criteria"]
-    - step: 6
-      actor: "Patient Education Coordinator"
-      action: "Develop patient education materials and informed consent processes"
-      tools: ["Patient education content platforms", "Multimedia development tools", "Consent management systems"]
-      duration: "6 weeks"
-      outputs: ["Patient education materials", "Informed consent templates", "Provider communication guides"]
-      decision_points: ["Education delivery methods", "Consent documentation requirements"]
-    - step: 7
-      actor: "Clinical Pharmacist"
-      action: "Execute pilot testing and clinical validation of pharmacogenomics implementation"
-      tools: ["Clinical trial management systems", "Outcome measurement tools", "Quality improvement frameworks"]
-      duration: "16 weeks"
-      outputs: ["Pilot study results", "Clinical validation report", "Implementation optimization recommendations"]
-      decision_points: ["Pilot success criteria", "Full rollout readiness"]
-  success_criteria: "Successful integration of pharmacogenomics testing resulting in improved medication safety and efficacy outcomes"
-  failure_modes: ["Technical integration failures with EHR systems", "Provider adoption challenges", "Regulatory compliance issues", "Patient privacy concerns"]
+  - step: 1
+    actor: Chief Medical Officer
+    action: Assess clinical value and develop implementation strategy for pharmacogenomics
+      testing
+    tools:
+    - Clinical evidence databases
+    - Cost-benefit analysis tools
+    - Stakeholder mapping software
+    duration: 6 weeks
+    outputs:
+    - Clinical implementation plan
+    - ROI analysis report
+    - Stakeholder engagement plan
+    decision_points:
+    - Target therapeutic areas
+    - Testing panel selection
+  - step: 2
+    actor: Bioinformatics Specialist
+    action: Design pharmacogenomics data infrastructure and integration with EHR systems
+    tools:
+    - Database design software
+    - HL7 FHIR standards
+    - Data security frameworks
+    duration: 8 weeks
+    outputs:
+    - Data architecture specifications
+    - Integration requirements
+    - Data privacy protocols
+    decision_points:
+    - Data storage solutions
+    - Interoperability standards
+  - step: 3
+    actor: Regulatory Compliance Officer
+    action: Ensure compliance with HIPAA, CLIA, and genetic testing regulations
+    tools:
+    - Regulatory compliance databases
+    - Audit trail systems
+    - Risk assessment frameworks
+    duration: 4 weeks
+    outputs:
+    - Compliance assessment report
+    - Policy and procedure documents
+    - Training requirements
+    decision_points:
+    - Regulatory approval pathways
+    - Patient consent requirements
+  - step: 4
+    actor: Clinical Pharmacist
+    action: Develop clinical decision support algorithms and medication dosing guidelines
+    tools:
+    - Clinical decision support systems
+    - Pharmacokinetic modeling software
+    - Evidence-based guideline databases
+    duration: 10 weeks
+    outputs:
+    - Clinical guidelines document
+    - CDS algorithm specifications
+    - Provider training materials
+    decision_points:
+    - Guideline development methodology
+    - Alert threshold settings
+  - step: 5
+    actor: IT Integration Lead
+    action: Implement pharmacogenomics testing workflow in clinical systems
+    tools:
+    - EHR integration platforms
+    - Laboratory information systems
+    - Testing workflow software
+    duration: 12 weeks
+    outputs:
+    - Integrated testing workflow
+    - System testing reports
+    - User acceptance testing results
+    decision_points:
+    - Integration approach
+    - Testing validation criteria
+  - step: 6
+    actor: Patient Education Coordinator
+    action: Develop patient education materials and informed consent processes
+    tools:
+    - Patient education content platforms
+    - Multimedia development tools
+    - Consent management systems
+    duration: 6 weeks
+    outputs:
+    - Patient education materials
+    - Informed consent templates
+    - Provider communication guides
+    decision_points:
+    - Education delivery methods
+    - Consent documentation requirements
+  - step: 7
+    actor: Clinical Pharmacist
+    action: Execute pilot testing and clinical validation of pharmacogenomics implementation
+    tools:
+    - Clinical trial management systems
+    - Outcome measurement tools
+    - Quality improvement frameworks
+    duration: 16 weeks
+    outputs:
+    - Pilot study results
+    - Clinical validation report
+    - Implementation optimization recommendations
+    decision_points:
+    - Pilot success criteria
+    - Full rollout readiness
+  success_criteria: Successful integration of pharmacogenomics testing resulting in
+    improved medication safety and efficacy outcomes
+  failure_modes:
+  - Technical integration failures with EHR systems
+  - Provider adoption challenges
+  - Regulatory compliance issues
+  - Patient privacy concerns

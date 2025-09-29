@@ -3,8 +3,17 @@
   "context": "Global pharmaceutical company implementing blockchain-based supply chain traceability for drug authenticity verification, 12000 employees, $12B revenue, responding to counterfeit drug crisis",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CEO", "Chief Compliance Officer", "CFO"],
-    "influencers": ["Head of Regulatory Affairs", "VP Manufacturing", "Chief Information Officer", "Supplier Network"]
+    "approvers": [
+      "CEO",
+      "Chief Compliance Officer",
+      "CFO"
+    ],
+    "influencers": [
+      "Head of Regulatory Affairs",
+      "VP Manufacturing",
+      "Chief Information Officer",
+      "Supplier Network"
+    ]
   },
   "request": {
     "amount": "$45M",
@@ -16,32 +25,52 @@
     {
       "stage": "pilot_program",
       "duration": "6 weeks",
-      "activities": ["Blockchain platform evaluation", "Pilot supplier onboarding", "Technical feasibility testing"],
+      "activities": [
+        "Blockchain platform evaluation",
+        "Pilot supplier onboarding",
+        "Technical feasibility testing"
+      ],
       "outcome": "Pilot successful with 95% traceability accuracy"
     },
     {
       "stage": "regulatory_assessment",
       "duration": "8 weeks",
-      "activities": ["FDA guidance review", "International compliance analysis", "Data privacy framework development"],
+      "activities": [
+        "FDA guidance review",
+        "International compliance analysis",
+        "Data privacy framework development"
+      ],
       "outcome": "Regulatory compliant solution with approved data handling protocols"
     },
     {
       "stage": "supplier_integration",
       "duration": "10 weeks",
-      "activities": ["Supplier capability assessment", "Integration planning", "Change management strategy"],
+      "activities": [
+        "Supplier capability assessment",
+        "Integration planning",
+        "Change management strategy"
+      ],
       "outcome": "80% supplier readiness with comprehensive training program"
     },
     {
       "stage": "business_case_validation",
       "duration": "4 weeks",
-      "activities": ["ROI analysis", "Risk assessment", "Executive presentation"],
+      "activities": [
+        "ROI analysis",
+        "Risk assessment",
+        "Executive presentation"
+      ],
       "outcome": "Approved with phased implementation approach"
     }
   ],
   "business_impact": {
     "expected_savings": "$200M",
     "projected_recall_reduction": "70%",
-    "risk_factors": ["Supplier adoption resistance", "Technology integration complexity", "Regulatory changes"],
+    "risk_factors": [
+      "Supplier adoption resistance",
+      "Technology integration complexity",
+      "Regulatory changes"
+    ],
     "strategic_alignment": "Enhances product authenticity and patient safety while reducing compliance costs"
   }
 }

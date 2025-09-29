@@ -3,9 +3,21 @@
   "context": "Financial services company experiencing sophisticated cyber attack, requiring comprehensive incident response and business continuity measures",
   "stakeholders": {
     "requester": "Chief Information Security Officer",
-    "approvers": ["CEO", "Board of Directors", "Crisis Management Committee"],
-    "influencers": ["Chief Technology Officer", "General Counsel", "Head of Business Continuity"],
-    "advisors": ["Cybersecurity Forensics Experts", "Legal Specialists", "Regulatory Compliance Officers"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Crisis Management Committee"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "General Counsel",
+      "Head of Business Continuity"
+    ],
+    "advisors": [
+      "Cybersecurity Forensics Experts",
+      "Legal Specialists",
+      "Regulatory Compliance Officers"
+    ]
   },
   "request": {
     "amount": "$3,000,000",
@@ -17,38 +29,73 @@
     {
       "stage": "immediate_response",
       "duration": "2 hours",
-      "activities": ["Incident containment", "Initial damage assessment", "Team mobilization"],
+      "activities": [
+        "Incident containment",
+        "Initial damage assessment",
+        "Team mobilization"
+      ],
       "outcome": "Attack contained with no further data exfiltration"
     },
     {
       "stage": "forensic_investigation",
       "duration": "72 hours",
-      "activities": ["Digital forensics analysis", "Attack vector identification", "Compromise scope determination"],
+      "activities": [
+        "Digital forensics analysis",
+        "Attack vector identification",
+        "Compromise scope determination"
+      ],
       "outcome": "Identified sophisticated state-sponsored attack with limited data access"
     },
     {
       "stage": "recovery_planning",
       "duration": "24 hours",
-      "activities": ["System recovery strategy", "Business continuity measures", "Resource allocation"],
+      "activities": [
+        "System recovery strategy",
+        "Business continuity measures",
+        "Resource allocation"
+      ],
       "outcome": "Comprehensive recovery plan with 48-hour restoration target"
     },
     {
       "stage": "communication_strategy",
       "duration": "12 hours",
-      "activities": ["Stakeholder notification planning", "Regulatory reporting", "Customer communication"],
+      "activities": [
+        "Stakeholder notification planning",
+        "Regulatory reporting",
+        "Customer communication"
+      ],
       "outcome": "Transparent communication strategy protecting stakeholder interests"
     },
     {
       "stage": "preventive_measures",
       "duration": "1 week",
-      "activities": ["Security enhancement implementation", "Process improvement", "Training updates"],
+      "activities": [
+        "Security enhancement implementation",
+        "Process improvement",
+        "Training updates"
+      ],
       "outcome": "Comprehensive preventive measures reducing future risk by 60%"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Rapid incident resolution", "Minimized financial loss", "Enhanced security posture", "Maintained customer trust"],
+    "expected_benefits": [
+      "Rapid incident resolution",
+      "Minimized financial loss",
+      "Enhanced security posture",
+      "Maintained customer trust"
+    ],
     "projected_revenue": "$15,000,000 in prevented losses",
-    "risk_factors": ["Prolonged system downtime", "Regulatory penalties", "Customer attrition", "Reputational damage"],
-    "mitigation_strategies": ["Accelerated recovery efforts", "Proactive regulatory engagement", "Customer compensation programs", "Transparent communication"]
+    "risk_factors": [
+      "Prolonged system downtime",
+      "Regulatory penalties",
+      "Customer attrition",
+      "Reputational damage"
+    ],
+    "mitigation_strategies": [
+      "Accelerated recovery efforts",
+      "Proactive regulatory engagement",
+      "Customer compensation programs",
+      "Transparent communication"
+    ]
   }
 }

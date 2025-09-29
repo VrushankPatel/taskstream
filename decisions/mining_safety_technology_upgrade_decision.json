@@ -3,8 +3,16 @@
   "context": "Large mining operation with high accident rates, evaluating investment in automated safety systems following recent incident",
   "stakeholders": {
     "requester": "Safety Director",
-    "approvers": ["COO", "CEO", "Safety Committee"],
-    "influencers": ["Operations Manager", "Union Representatives", "Technology Vendor"]
+    "approvers": [
+      "COO",
+      "CEO",
+      "Safety Committee"
+    ],
+    "influencers": [
+      "Operations Manager",
+      "Union Representatives",
+      "Technology Vendor"
+    ]
   },
   "request": {
     "amount": "$85,000,000",
@@ -16,28 +24,50 @@
     {
       "stage": "safety_assessment",
       "duration": "2 months",
-      "activities": ["Incident analysis", "Safety audit", "Technology evaluation"],
+      "activities": [
+        "Incident analysis",
+        "Safety audit",
+        "Technology evaluation"
+      ],
       "outcome": "Critical safety gaps identified, automation solution recommended"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "1 month",
-      "activities": ["ROI modeling", "Implementation planning", "Training requirements assessment"],
+      "activities": [
+        "ROI modeling",
+        "Implementation planning",
+        "Training requirements assessment"
+      ],
       "outcome": "Positive ROI projected within 3 years"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "1 month",
-      "activities": ["Union consultations", "Employee training planning", "Vendor selection"],
+      "activities": [
+        "Union consultations",
+        "Employee training planning",
+        "Vendor selection"
+      ],
       "outcome": "Union support secured with training commitments"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% reduction in workplace incidents, improved operational efficiency",
     "projected_value": "$150,000,000 in avoided costs and productivity gains",
-    "risk_factors": ["Employee resistance to automation", "Implementation complexity", "Technology reliability"]
+    "risk_factors": [
+      "Employee resistance to automation",
+      "Implementation complexity",
+      "Technology reliability"
+    ]
   },
-  "decision_criteria": ["Safety improvement potential", "Financial justification", "Employee impact", "Implementation feasibility", "Regulatory compliance"],
+  "decision_criteria": [
+    "Safety improvement potential",
+    "Financial justification",
+    "Employee impact",
+    "Implementation feasibility",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Safety investments require strong union engagement and comprehensive training programs"
 }

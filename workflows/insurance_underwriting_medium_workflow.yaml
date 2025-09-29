@@ -1,45 +1,74 @@
 workflow:
-  id: "workflow_insurance_underwriting"
-  title: "Insurance Underwriting Process"
-  department: "Underwriting"
-  complexity: "medium"
-  participants: ["Underwriter", "Underwriting Manager", "Risk Analyst", "Agent"]
-  trigger: "Application submitted for insurance coverage"
+  id: workflow_insurance_underwriting
+  title: Insurance Underwriting Process
+  department: Underwriting
+  complexity: medium
+  participants:
+  - Underwriter
+  - Underwriting Manager
+  - Risk Analyst
+  - Agent
+  trigger: Application submitted for insurance coverage
   steps:
-    - step: 1
-      actor: "Underwriter"
-      action: "Review application and collect additional information"
-      tools: ["Underwriting System", "Application Forms"]
-      duration: "30 minutes"
-      outputs: ["Application Review", "Information Requests"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Assess risk factors and analyze data"
-      tools: ["Risk Modeling Software", "Database Systems"]
-      duration: "45 minutes"
-      outputs: ["Risk Assessment Report", "Data Analysis"]
-    - step: 3
-      actor: "Underwriter"
-      action: "Determine pricing and coverage terms"
-      tools: ["Pricing Models", "Underwriting Guidelines"]
-      duration: "20 minutes"
-      outputs: ["Pricing Decision", "Coverage Terms"]
-    - step: 4
-      actor: "Underwriting Manager"
-      action: "Review and approve underwriting decision"
-      tools: ["Underwriting System", "Approval Workflows"]
-      duration: "15 minutes"
-      outputs: ["Approval Decision", "Policy Terms"]
-    - step: 5
-      actor: "Agent"
-      action: "Communicate decision to applicant"
-      tools: ["Communication Portal", "Policy Documents"]
-      duration: "10 minutes"
-      outputs: ["Policy Offer", "Applicant Notification"]
-  success_criteria: "Decision communicated within 48 hours, pricing competitive and accurate"
-  failure_modes: ["Incomplete information", "High-risk rejection", "Pricing errors", "Regulatory issues"]
+  - step: 1
+    actor: Underwriter
+    action: Review application and collect additional information
+    tools:
+    - Underwriting System
+    - Application Forms
+    duration: 30 minutes
+    outputs:
+    - Application Review
+    - Information Requests
+  - step: 2
+    actor: Risk Analyst
+    action: Assess risk factors and analyze data
+    tools:
+    - Risk Modeling Software
+    - Database Systems
+    duration: 45 minutes
+    outputs:
+    - Risk Assessment Report
+    - Data Analysis
+  - step: 3
+    actor: Underwriter
+    action: Determine pricing and coverage terms
+    tools:
+    - Pricing Models
+    - Underwriting Guidelines
+    duration: 20 minutes
+    outputs:
+    - Pricing Decision
+    - Coverage Terms
+  - step: 4
+    actor: Underwriting Manager
+    action: Review and approve underwriting decision
+    tools:
+    - Underwriting System
+    - Approval Workflows
+    duration: 15 minutes
+    outputs:
+    - Approval Decision
+    - Policy Terms
+  - step: 5
+    actor: Agent
+    action: Communicate decision to applicant
+    tools:
+    - Communication Portal
+    - Policy Documents
+    duration: 10 minutes
+    outputs:
+    - Policy Offer
+    - Applicant Notification
+  success_criteria: Decision communicated within 48 hours, pricing competitive and
+    accurate
+  failure_modes:
+  - Incomplete information
+  - High-risk rejection
+  - Pricing errors
+  - Regulatory issues
   metrics:
-    - "Decision Time: <48 hours average"
-    - "Approval Rate: >70%"
-    - "Pricing Accuracy: >98%"
-    - "Customer Satisfaction: >85%"
+  - 'Decision Time: <48 hours average'
+  - 'Approval Rate: >70%'
+  - 'Pricing Accuracy: >98%'
+  - 'Customer Satisfaction: >85%'

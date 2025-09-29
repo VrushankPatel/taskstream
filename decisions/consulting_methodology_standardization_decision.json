@@ -3,8 +3,16 @@
   "context": "International consulting firm standardizing methodologies across 12 global offices to improve quality and efficiency",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Executive Committee"],
-    "influencers": ["Managing Directors", "Practice Leaders", "Knowledge Management Team", "HR Learning & Development"]
+    "approvers": [
+      "CEO",
+      "Executive Committee"
+    ],
+    "influencers": [
+      "Managing Directors",
+      "Practice Leaders",
+      "Knowledge Management Team",
+      "HR Learning & Development"
+    ]
   },
   "request": {
     "amount": "$12 million",
@@ -16,38 +24,62 @@
     {
       "stage": "current_state_analysis",
       "duration": "6 weeks",
-      "activities": ["Methodology audit across offices", "Client satisfaction surveys", "Productivity benchmarking"],
+      "activities": [
+        "Methodology audit across offices",
+        "Client satisfaction surveys",
+        "Productivity benchmarking"
+      ],
       "outcome": "Identified 40% variation in methodologies, direct correlation to client satisfaction scores"
     },
     {
       "stage": "best_practice_identification",
       "duration": "8 weeks",
-      "activities": ["High-performing office analysis", "Industry benchmark research", "Expert consultant interviews"],
+      "activities": [
+        "High-performing office analysis",
+        "Industry benchmark research",
+        "Expert consultant interviews"
+      ],
       "outcome": "Standardized framework developed covering project management, delivery, and quality assurance"
     },
     {
       "stage": "change_impact_assessment",
       "duration": "4 weeks",
-      "activities": ["Resistance analysis", "Training needs assessment", "Timeline planning"],
+      "activities": [
+        "Resistance analysis",
+        "Training needs assessment",
+        "Timeline planning"
+      ],
       "outcome": "18-month implementation plan with phased rollout, comprehensive training program"
     },
     {
       "stage": "financial_evaluation",
       "duration": "3 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Resource allocation planning"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Resource allocation planning"
+      ],
       "outcome": "Projected 20% productivity improvement, $25M annual benefit, 18-month payback"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Executive presentation", "Global office consultations", "Final decision"],
+      "activities": [
+        "Executive presentation",
+        "Global office consultations",
+        "Final decision"
+      ],
       "outcome": "Approved with governance committee oversight and pilot in 3 offices"
     }
   ],
   "business_impact": {
     "expected_efficiency_gain": "20% reduction in rework",
     "projected_revenue_impact": "$25M annual from improved productivity",
-    "risk_factors": ["Cultural resistance to standardization", "Training program effectiveness", "Technology platform integration"],
+    "risk_factors": [
+      "Cultural resistance to standardization",
+      "Training program effectiveness",
+      "Technology platform integration"
+    ],
     "timeline": "24 months for global rollout"
   }
 }

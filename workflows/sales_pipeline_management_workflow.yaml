@@ -1,34 +1,62 @@
 workflow:
-  id: "workflow_sales_pipeline_001"
-  title: "B2B SaaS Sales Pipeline Management"
-  department: "Sales"
-  complexity: "high"
-  participants: ["Sales Development Rep", "Account Executive", "Sales Manager", "VP Sales", "Marketing", "Customer Success"]
-  trigger: "New lead enters the system"
+  id: workflow_sales_pipeline_001
+  title: B2B SaaS Sales Pipeline Management
+  department: Sales
+  complexity: high
+  participants:
+  - Sales Development Rep
+  - Account Executive
+  - Sales Manager
+  - VP Sales
+  - Marketing
+  - Customer Success
+  trigger: New lead enters the system
   steps:
-    - step: 1
-      actor: "Sales Development Rep"
-      action: "Qualify lead through initial outreach and discovery call"
-      tools: ["CRM", "LinkedIn", "Email", "Phone"]
-      duration: "1-3 days"
-      outputs: ["Lead qualification score", "Initial meeting scheduled"]
-    - step: 2
-      actor: "Account Executive"
-      action: "Conduct product demo and technical requirements gathering"
-      decision_points: ["Budget availability", "Technical fit", "Timeline"]
-      duration: "1-2 weeks"
-      outputs: ["Proposal document", "Custom pricing"]
-    - step: 3
-      actor: "Account Executive"
-      action: "Negotiate contract terms and handle objections"
-      tools: ["Contract management system", "Legal templates"]
-      duration: "1 week"
-      outputs: ["Signed contract", "Implementation timeline"]
-    - step: 4
-      actor: "Customer Success"
-      action: "Onboard new customer and ensure smooth transition"
-      tools: ["Onboarding portal", "Training materials"]
-      duration: "2-4 weeks"
-      outputs: ["Customer adoption metrics", "Satisfaction survey"]
-  success_criteria: "Contract signed and customer successfully onboarded"
-  failure_modes: ["Lead goes cold", "Competitor wins deal", "Budget constraints"]
+  - step: 1
+    actor: Sales Development Rep
+    action: Qualify lead through initial outreach and discovery call
+    tools:
+    - CRM
+    - LinkedIn
+    - Email
+    - Phone
+    duration: 1-3 days
+    outputs:
+    - Lead qualification score
+    - Initial meeting scheduled
+  - step: 2
+    actor: Account Executive
+    action: Conduct product demo and technical requirements gathering
+    decision_points:
+    - Budget availability
+    - Technical fit
+    - Timeline
+    duration: 1-2 weeks
+    outputs:
+    - Proposal document
+    - Custom pricing
+  - step: 3
+    actor: Account Executive
+    action: Negotiate contract terms and handle objections
+    tools:
+    - Contract management system
+    - Legal templates
+    duration: 1 week
+    outputs:
+    - Signed contract
+    - Implementation timeline
+  - step: 4
+    actor: Customer Success
+    action: Onboard new customer and ensure smooth transition
+    tools:
+    - Onboarding portal
+    - Training materials
+    duration: 2-4 weeks
+    outputs:
+    - Customer adoption metrics
+    - Satisfaction survey
+  success_criteria: Contract signed and customer successfully onboarded
+  failure_modes:
+  - Lead goes cold
+  - Competitor wins deal
+  - Budget constraints

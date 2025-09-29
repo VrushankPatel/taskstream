@@ -1,47 +1,87 @@
 workflow:
-  id: "workflow_international_data_transfer"
-  title: "International Cross-Border Data Transfer Workflow"
-  department: "Legal and Compliance"
-  complexity: "high"
-  participants: ["Chief Compliance Officer", "Data Protection Officer", "Legal Counsel", "IT Security", "International Operations"]
-  trigger: "New international data transfer requirements or regulatory changes"
+  id: workflow_international_data_transfer
+  title: International Cross-Border Data Transfer Workflow
+  department: Legal and Compliance
+  complexity: high
+  participants:
+  - Chief Compliance Officer
+  - Data Protection Officer
+  - Legal Counsel
+  - IT Security
+  - International Operations
+  trigger: New international data transfer requirements or regulatory changes
   steps:
-    - step: 1
-      actor: "Chief Compliance Officer"
-      action: "Assess data transfer requirements and regulatory landscape"
-      tools: ["Regulatory Databases", "Compliance Assessment Tools"]
-      duration: "3 weeks"
-      outputs: ["Data Transfer Assessment", "Regulatory Landscape Analysis"]
-    - step: 2
-      actor: "Data Protection Officer"
-      action: "Map data flows and identify high-risk transfers"
-      tools: ["Data Mapping Tools", "Risk Assessment Frameworks"]
-      duration: "4 weeks"
-      outputs: ["Data Flow Maps", "Risk Assessment Report"]
-      decision_points: ["Transfer Mechanism Selection", "Data Minimization Strategies"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review and implement appropriate transfer mechanisms"
-      tools: ["Legal Research Platforms", "Contract Templates", "Standard Contractual Clauses"]
-      duration: "6 weeks"
-      outputs: ["Transfer Mechanism Documentation", "Legal Agreements"]
-    - step: 4
-      actor: "IT Security"
-      action: "Implement technical safeguards and encryption measures"
-      tools: ["Encryption Tools", "Access Control Systems", "Security Monitoring Platforms"]
-      duration: "4 weeks"
-      outputs: ["Technical Safeguards Implementation", "Security Audit Report"]
-    - step: 5
-      actor: "International Operations"
-      action: "Train local teams and establish compliance monitoring"
-      tools: ["Training Platforms", "Compliance Monitoring Tools", "Reporting Systems"]
-      duration: "3 weeks"
-      outputs: ["Training Materials", "Monitoring Framework"]
-    - step: 6
-      actor: "Data Protection Officer"
-      action: "Conduct ongoing compliance monitoring and reporting"
-      tools: ["Compliance Dashboards", "Audit Tools", "Reporting Frameworks"]
-      duration: "Ongoing"
-      outputs: ["Compliance Reports", "Audit Findings"]
-  success_criteria: "Compliant international data transfers with established monitoring and incident response capabilities"
-  failure_modes: ["Inadequate transfer mechanisms", "Security breaches", "Regulatory non-compliance", "Insufficient training"]
+  - step: 1
+    actor: Chief Compliance Officer
+    action: Assess data transfer requirements and regulatory landscape
+    tools:
+    - Regulatory Databases
+    - Compliance Assessment Tools
+    duration: 3 weeks
+    outputs:
+    - Data Transfer Assessment
+    - Regulatory Landscape Analysis
+  - step: 2
+    actor: Data Protection Officer
+    action: Map data flows and identify high-risk transfers
+    tools:
+    - Data Mapping Tools
+    - Risk Assessment Frameworks
+    duration: 4 weeks
+    outputs:
+    - Data Flow Maps
+    - Risk Assessment Report
+    decision_points:
+    - Transfer Mechanism Selection
+    - Data Minimization Strategies
+  - step: 3
+    actor: Legal Counsel
+    action: Review and implement appropriate transfer mechanisms
+    tools:
+    - Legal Research Platforms
+    - Contract Templates
+    - Standard Contractual Clauses
+    duration: 6 weeks
+    outputs:
+    - Transfer Mechanism Documentation
+    - Legal Agreements
+  - step: 4
+    actor: IT Security
+    action: Implement technical safeguards and encryption measures
+    tools:
+    - Encryption Tools
+    - Access Control Systems
+    - Security Monitoring Platforms
+    duration: 4 weeks
+    outputs:
+    - Technical Safeguards Implementation
+    - Security Audit Report
+  - step: 5
+    actor: International Operations
+    action: Train local teams and establish compliance monitoring
+    tools:
+    - Training Platforms
+    - Compliance Monitoring Tools
+    - Reporting Systems
+    duration: 3 weeks
+    outputs:
+    - Training Materials
+    - Monitoring Framework
+  - step: 6
+    actor: Data Protection Officer
+    action: Conduct ongoing compliance monitoring and reporting
+    tools:
+    - Compliance Dashboards
+    - Audit Tools
+    - Reporting Frameworks
+    duration: Ongoing
+    outputs:
+    - Compliance Reports
+    - Audit Findings
+  success_criteria: Compliant international data transfers with established monitoring
+    and incident response capabilities
+  failure_modes:
+  - Inadequate transfer mechanisms
+  - Security breaches
+  - Regulatory non-compliance
+  - Insufficient training

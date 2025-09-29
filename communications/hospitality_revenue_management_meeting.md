@@ -1,9 +1,9 @@
 ## Meeting Notes: Hospitality Revenue Management Strategy Review
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** Revenue Manager (Chair), General Manager, Front Office Manager, Sales Director, Food & Beverage Manager  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** Revenue Manager (Chair), General Manager, Front Office Manager, Sales Director, Food & Beverage Manager
 
 ### Agenda
 1. Q4 revenue performance review
@@ -45,5 +45,5 @@
 ### Next Meeting
 November 15, 2025 - Revenue Strategy Implementation Review
 
-**Meeting Facilitator:** Revenue Manager  
+**Meeting Facilitator:** Revenue Manager
 **Note Taker:** Administrative Assistant

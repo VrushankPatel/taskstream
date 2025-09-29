@@ -3,8 +3,17 @@
   "context": "National health system, 500000 employees, evaluating population-wide genomic screening for preventive care",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["Minister of Health", "National Health Board", "Finance Minister"],
-    "influencers": ["Patient Advocacy Groups", "Medical Professional Societies", "Privacy Commissioners", "Insurance Providers"]
+    "approvers": [
+      "Minister of Health",
+      "National Health Board",
+      "Finance Minister"
+    ],
+    "influencers": [
+      "Patient Advocacy Groups",
+      "Medical Professional Societies",
+      "Privacy Commissioners",
+      "Insurance Providers"
+    ]
   },
   "request": {
     "amount": "€500M",
@@ -16,31 +25,51 @@
     {
       "stage": "clinical_evidence_review",
       "duration": "8 weeks",
-      "activities": ["Clinical trial analysis", "Cost-effectiveness studies", "International program evaluation"],
+      "activities": [
+        "Clinical trial analysis",
+        "Cost-effectiveness studies",
+        "International program evaluation"
+      ],
       "outcome": "Strong clinical evidence supporting preventive screening benefits"
     },
     {
       "stage": "ethical_legal_assessment",
       "duration": "6 weeks",
-      "activities": ["Privacy impact assessment", "Consent framework development", "Ethical review"],
+      "activities": [
+        "Privacy impact assessment",
+        "Consent framework development",
+        "Ethical review"
+      ],
       "outcome": "Comprehensive privacy and ethical framework with public consultation"
     },
     {
       "stage": "implementation_feasibility",
       "duration": "10 weeks",
-      "activities": ["Infrastructure assessment", "Workforce planning", "Technology evaluation"],
+      "activities": [
+        "Infrastructure assessment",
+        "Workforce planning",
+        "Technology evaluation"
+      ],
       "outcome": "Feasible implementation with phased rollout strategy"
     },
     {
       "stage": "public_engagement",
       "duration": "8 weeks",
-      "activities": ["Public consultation", "Stakeholder workshops", "Communication campaign"],
+      "activities": [
+        "Public consultation",
+        "Stakeholder workshops",
+        "Communication campaign"
+      ],
       "outcome": "Strong public support with 70% approval rating"
     },
     {
       "stage": "government_approval",
       "duration": "4 weeks",
-      "activities": ["Cabinet review", "Parliamentary approval", "Funding allocation"],
+      "activities": [
+        "Cabinet review",
+        "Parliamentary approval",
+        "Funding allocation"
+      ],
       "outcome": "Approved with enhanced privacy protections and evaluation framework"
     }
   ],
@@ -49,7 +78,13 @@
     "economic_benefits": "€2B annual savings in healthcare costs through early intervention",
     "preventive_focus": "Shift from treatment to prevention with long-term sustainability benefits",
     "innovation_ecosystem": "Development of domestic genomics industry and research capabilities",
-    "risk_factors": ["Privacy concerns", "Data security risks", "Clinical utility validation", "Public acceptance", "Cost overruns"]
+    "risk_factors": [
+      "Privacy concerns",
+      "Data security risks",
+      "Clinical utility validation",
+      "Public acceptance",
+      "Cost overruns"
+    ]
   },
   "decision_outcome": "Approved €500M program with 5-year implementation timeline; includes voluntary opt-in model, comprehensive privacy framework, and independent evaluation committee to monitor clinical outcomes and cost effectiveness"
 }

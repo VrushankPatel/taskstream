@@ -3,8 +3,16 @@
   "context": "Real estate developer specializing in urban residential, facing housing affordability crisis",
   "stakeholders": {
     "requester": "Director of Urban Development",
-    "approvers": ["CEO", "Chief Operating Officer", "City Planning Department"],
-    "influencers": ["Technology Partners", "Environmental Consultants", "Community Groups"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "City Planning Department"
+    ],
+    "influencers": [
+      "Technology Partners",
+      "Environmental Consultants",
+      "Community Groups"
+    ]
   },
   "request": {
     "amount": "$150M",
@@ -16,25 +24,41 @@
     {
       "stage": "site_feasibility",
       "duration": "6 months",
-      "activities": ["Zoning analysis", "Infrastructure assessment", "Community impact studies"],
+      "activities": [
+        "Zoning analysis",
+        "Infrastructure assessment",
+        "Community impact studies"
+      ],
       "outcome": "Approved site with fast-track permitting"
     },
     {
       "stage": "technology_integration",
       "duration": "4 months",
-      "activities": ["IoT platform selection", "Smart building systems", "Data privacy frameworks"],
+      "activities": [
+        "IoT platform selection",
+        "Smart building systems",
+        "Data privacy frameworks"
+      ],
       "outcome": "Comprehensive smart infrastructure with resident privacy protections"
     },
     {
       "stage": "financial_modeling",
       "duration": "3 months",
-      "activities": ["Cost-benefit analysis", "Pricing strategy", "ROI projections"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Pricing strategy",
+        "ROI projections"
+      ],
       "outcome": "15% price premium justified by energy savings and amenity value"
     }
   ],
   "business_impact": {
     "expected_units": "500 smart apartments",
     "projected_energy_savings": "40% reduction",
-    "risk_factors": ["Technology integration costs", "Cybersecurity concerns", "Market acceptance"]
+    "risk_factors": [
+      "Technology integration costs",
+      "Cybersecurity concerns",
+      "Market acceptance"
+    ]
   }
 }

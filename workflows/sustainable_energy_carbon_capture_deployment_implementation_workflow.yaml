@@ -1,58 +1,116 @@
 workflow:
-  id: "workflow_energy_carbon_capture_deployment"
-  title: "Sustainable Energy Carbon Capture Deployment Implementation Process"
-  department: "Energy Operations"
-  complexity: "complex"
-  participants: ["Chief Technology Officer", "Environmental Compliance Manager", "Project Engineering Lead", "Regulatory Affairs Specialist", "Community Relations Manager", "Procurement Manager", "Operations Manager"]
-  trigger: "Corporate commitment to carbon reduction targets and available funding"
+  id: workflow_energy_carbon_capture_deployment
+  title: Sustainable Energy Carbon Capture Deployment Implementation Process
+  department: Energy Operations
+  complexity: complex
+  participants:
+  - Chief Technology Officer
+  - Environmental Compliance Manager
+  - Project Engineering Lead
+  - Regulatory Affairs Specialist
+  - Community Relations Manager
+  - Procurement Manager
+  - Operations Manager
+  trigger: Corporate commitment to carbon reduction targets and available funding
   steps:
-    - step: 1
-      actor: "Chief Technology Officer"
-      action: "Evaluate carbon capture technologies and select optimal solution for facility"
-      tools: ["Technology assessment frameworks", "Cost-benefit analysis models", "Vendor evaluation systems"]
-      duration: "4 months"
-      outputs: ["Technology selection report", "Feasibility study", "ROI projections"]
-    - step: 2
-      actor: "Regulatory Affairs Specialist"
-      action: "Obtain necessary permits and regulatory approvals for carbon capture installation"
-      tools: ["Regulatory databases", "Permit application systems", "Environmental impact assessment tools"]
-      duration: "6 months"
-      outputs: ["Permit applications", "Environmental impact assessments", "Regulatory approvals"]
-    - step: 3
-      actor: "Project Engineering Lead"
-      action: "Design integration of carbon capture system with existing power plant infrastructure"
-      tools: ["CAD software", "Process simulation tools", "Engineering design platforms"]
-      duration: "5 months"
-      outputs: ["Engineering designs", "Integration plans", "System specifications"]
-    - step: 4
-      actor: "Procurement Manager"
-      action: "Procure equipment, materials, and services for carbon capture system"
-      tools: ["Procurement systems", "Vendor management platforms", "Contract management software"]
-      duration: "3 months"
-      outputs: ["Purchase orders", "Vendor contracts", "Equipment specifications"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Develop operating procedures and train staff for carbon capture system"
-      tools: ["Training management systems", "Standard operating procedure templates", "Simulation software"]
-      duration: "2 months"
-      outputs: ["Operating procedures", "Training materials", "Staff certification records"]
-    - step: 6
-      actor: "Environmental Compliance Manager"
-      action: "Establish monitoring systems and reporting protocols for carbon capture performance"
-      tools: ["Environmental monitoring systems", "Data analytics platforms", "Reporting software"]
-      duration: "2 months"
-      outputs: ["Monitoring protocols", "Reporting templates", "Compliance documentation"]
-    - step: 7
-      actor: "Community Relations Manager"
-      action: "Communicate with local community and stakeholders about carbon capture project"
-      tools: ["Community engagement platforms", "Stakeholder databases", "Communication planning tools"]
-      duration: "Ongoing throughout project"
-      outputs: ["Community engagement plans", "Stakeholder communication reports", "Public relations materials"]
-  success_criteria: "Carbon capture system operational with >90% capture efficiency, regulatory compliance maintained, and positive stakeholder feedback"
-  failure_modes: ["Technology performance issues", "Regulatory delays", "Cost overruns", "Community opposition", "Integration challenges with existing systems"]
+  - step: 1
+    actor: Chief Technology Officer
+    action: Evaluate carbon capture technologies and select optimal solution for facility
+    tools:
+    - Technology assessment frameworks
+    - Cost-benefit analysis models
+    - Vendor evaluation systems
+    duration: 4 months
+    outputs:
+    - Technology selection report
+    - Feasibility study
+    - ROI projections
+  - step: 2
+    actor: Regulatory Affairs Specialist
+    action: Obtain necessary permits and regulatory approvals for carbon capture installation
+    tools:
+    - Regulatory databases
+    - Permit application systems
+    - Environmental impact assessment tools
+    duration: 6 months
+    outputs:
+    - Permit applications
+    - Environmental impact assessments
+    - Regulatory approvals
+  - step: 3
+    actor: Project Engineering Lead
+    action: Design integration of carbon capture system with existing power plant
+      infrastructure
+    tools:
+    - CAD software
+    - Process simulation tools
+    - Engineering design platforms
+    duration: 5 months
+    outputs:
+    - Engineering designs
+    - Integration plans
+    - System specifications
+  - step: 4
+    actor: Procurement Manager
+    action: Procure equipment, materials, and services for carbon capture system
+    tools:
+    - Procurement systems
+    - Vendor management platforms
+    - Contract management software
+    duration: 3 months
+    outputs:
+    - Purchase orders
+    - Vendor contracts
+    - Equipment specifications
+  - step: 5
+    actor: Operations Manager
+    action: Develop operating procedures and train staff for carbon capture system
+    tools:
+    - Training management systems
+    - Standard operating procedure templates
+    - Simulation software
+    duration: 2 months
+    outputs:
+    - Operating procedures
+    - Training materials
+    - Staff certification records
+  - step: 6
+    actor: Environmental Compliance Manager
+    action: Establish monitoring systems and reporting protocols for carbon capture
+      performance
+    tools:
+    - Environmental monitoring systems
+    - Data analytics platforms
+    - Reporting software
+    duration: 2 months
+    outputs:
+    - Monitoring protocols
+    - Reporting templates
+    - Compliance documentation
+  - step: 7
+    actor: Community Relations Manager
+    action: Communicate with local community and stakeholders about carbon capture
+      project
+    tools:
+    - Community engagement platforms
+    - Stakeholder databases
+    - Communication planning tools
+    duration: Ongoing throughout project
+    outputs:
+    - Community engagement plans
+    - Stakeholder communication reports
+    - Public relations materials
+  success_criteria: Carbon capture system operational with >90% capture efficiency,
+    regulatory compliance maintained, and positive stakeholder feedback
+  failure_modes:
+  - Technology performance issues
+  - Regulatory delays
+  - Cost overruns
+  - Community opposition
+  - Integration challenges with existing systems
   metrics:
-    - "Carbon capture efficiency: Target >90% of emitted CO2 captured"
-    - "System uptime: Target >95% operational availability"
-    - "Cost per ton captured: Target <$50 per metric ton"
-    - "Regulatory compliance: Target 100% adherence to permits and standards"
-    - "Community satisfaction: Target >75% positive stakeholder feedback"
+  - 'Carbon capture efficiency: Target >90% of emitted CO2 captured'
+  - 'System uptime: Target >95% operational availability'
+  - 'Cost per ton captured: Target <$50 per metric ton'
+  - 'Regulatory compliance: Target 100% adherence to permits and standards'
+  - 'Community satisfaction: Target >75% positive stakeholder feedback'

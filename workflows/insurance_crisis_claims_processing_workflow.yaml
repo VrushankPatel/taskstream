@@ -1,138 +1,139 @@
 name: Insurance Crisis Claims Processing Workflow
-description: Accelerated claims processing workflow for insurance companies during global crises, ensuring rapid response and fair settlements
+description: Accelerated claims processing workflow for insurance companies during
+  global crises, ensuring rapid response and fair settlements
 version: 1.0
 industry: Insurance
 region: Global
 complexity: Medium
 actors:
-  - Claims Manager
-  - Adjusters
-  - Underwriters
-  - Customer Service Representatives
-  - Fraud Investigators
+- Claims Manager
+- Adjusters
+- Underwriters
+- Customer Service Representatives
+- Fraud Investigators
 steps:
-  - id: crisis_declaration
-    name: Crisis Declaration and Response Activation
-    description: Officially declare crisis and activate emergency protocols
-    actor: Claims Manager
-    inputs:
-      - Crisis impact reports
-      - Regulatory guidelines
-      - Company crisis policy
-    outputs:
-      - Crisis response plan activation
-      - Emergency staffing assignments
-    duration: 2 hours
-    tools:
-      - Crisis management platform
-      - Emergency communication system
-  - id: claims_intake_acceleration
-    name: Accelerated Claims Intake
-    description: Streamline claims submission and initial processing
-    actor: Customer Service Representatives
-    inputs:
-      - Customer claims data
-      - Digital submission platforms
-      - Crisis-specific claim forms
-    outputs:
-      - Initial claim acknowledgments
-      - Priority claim queue
-    duration: 24/7 during crisis
-    decision_points:
-      - condition: High-volume claims surge
-        next_step: deploy_additional_staff
-  - id: triage_and_prioritization
-    name: Claims Triage and Prioritization
-    description: Assess and prioritize claims based on urgency and impact
-    actor: Claims Manager
-    inputs:
-      - Claim intake data
-      - Crisis impact assessment
-      - Policy coverage details
-    outputs:
-      - Prioritized claims queue
-      - Resource allocation plan
-    duration: 4 hours
-  - id: rapid_assessment
-    name: Rapid Damage Assessment
-    description: Conduct expedited damage evaluation and verification
-    actor: Adjusters
-    inputs:
-      - Claim documentation
-      - Digital assessment tools
-      - Crisis-specific guidelines
-    outputs:
-      - Assessment reports
-      - Preliminary settlement amounts
-    duration: 24-48 hours per claim
-    tools:
-      - Mobile assessment apps
-      - Drone/AI assessment tools
-  - id: coverage_verification
-    name: Coverage Verification and Underwriting Review
-    description: Confirm policy coverage and limits for crisis-related claims
-    actor: Underwriters
-    inputs:
-      - Policy documents
-      - Crisis exclusions/amendments
-      - Regulatory requirements
-    outputs:
-      - Coverage determination
-      - Settlement authority levels
-    duration: 12 hours
-    decision_points:
-      - condition: Coverage dispute
-        next_step: escalation_review
-  - id: fraud_detection
-    name: Fraud Detection and Investigation
-    description: Monitor for fraudulent claims during crisis periods
-    actor: Fraud Investigators
-    inputs:
-      - Claim patterns analysis
-      - Historical data comparison
-      - AI fraud detection alerts
-    outputs:
-      - Fraud investigation reports
-      - Claim holds/flags
-    duration: Ongoing
-  - id: settlement_and_payment
-    name: Accelerated Settlement and Payment
-    description: Process and disburse claim payments rapidly
-    actor: Claims Manager
-    inputs:
-      - Assessment reports
-      - Coverage approvals
-      - Payment processing systems
-    outputs:
-      - Settlement agreements
-      - Payment disbursements
-    duration: 48 hours from approval
-  - id: customer_communication
-    name: Ongoing Customer Communication
-    description: Maintain regular updates with claimants throughout process
-    actor: Customer Service Representatives
-    inputs:
-      - Claim status updates
-      - Communication templates
-      - Customer feedback
-    outputs:
-      - Communication logs
-      - Satisfaction surveys
-    duration: Ongoing
+- id: crisis_declaration
+  name: Crisis Declaration and Response Activation
+  description: Officially declare crisis and activate emergency protocols
+  actor: Claims Manager
+  inputs:
+  - Crisis impact reports
+  - Regulatory guidelines
+  - Company crisis policy
+  outputs:
+  - Crisis response plan activation
+  - Emergency staffing assignments
+  duration: 2 hours
+  tools:
+  - Crisis management platform
+  - Emergency communication system
+- id: claims_intake_acceleration
+  name: Accelerated Claims Intake
+  description: Streamline claims submission and initial processing
+  actor: Customer Service Representatives
+  inputs:
+  - Customer claims data
+  - Digital submission platforms
+  - Crisis-specific claim forms
+  outputs:
+  - Initial claim acknowledgments
+  - Priority claim queue
+  duration: 24/7 during crisis
+  decision_points:
+  - condition: High-volume claims surge
+    next_step: deploy_additional_staff
+- id: triage_and_prioritization
+  name: Claims Triage and Prioritization
+  description: Assess and prioritize claims based on urgency and impact
+  actor: Claims Manager
+  inputs:
+  - Claim intake data
+  - Crisis impact assessment
+  - Policy coverage details
+  outputs:
+  - Prioritized claims queue
+  - Resource allocation plan
+  duration: 4 hours
+- id: rapid_assessment
+  name: Rapid Damage Assessment
+  description: Conduct expedited damage evaluation and verification
+  actor: Adjusters
+  inputs:
+  - Claim documentation
+  - Digital assessment tools
+  - Crisis-specific guidelines
+  outputs:
+  - Assessment reports
+  - Preliminary settlement amounts
+  duration: 24-48 hours per claim
+  tools:
+  - Mobile assessment apps
+  - Drone/AI assessment tools
+- id: coverage_verification
+  name: Coverage Verification and Underwriting Review
+  description: Confirm policy coverage and limits for crisis-related claims
+  actor: Underwriters
+  inputs:
+  - Policy documents
+  - Crisis exclusions/amendments
+  - Regulatory requirements
+  outputs:
+  - Coverage determination
+  - Settlement authority levels
+  duration: 12 hours
+  decision_points:
+  - condition: Coverage dispute
+    next_step: escalation_review
+- id: fraud_detection
+  name: Fraud Detection and Investigation
+  description: Monitor for fraudulent claims during crisis periods
+  actor: Fraud Investigators
+  inputs:
+  - Claim patterns analysis
+  - Historical data comparison
+  - AI fraud detection alerts
+  outputs:
+  - Fraud investigation reports
+  - Claim holds/flags
+  duration: Ongoing
+- id: settlement_and_payment
+  name: Accelerated Settlement and Payment
+  description: Process and disburse claim payments rapidly
+  actor: Claims Manager
+  inputs:
+  - Assessment reports
+  - Coverage approvals
+  - Payment processing systems
+  outputs:
+  - Settlement agreements
+  - Payment disbursements
+  duration: 48 hours from approval
+- id: customer_communication
+  name: Ongoing Customer Communication
+  description: Maintain regular updates with claimants throughout process
+  actor: Customer Service Representatives
+  inputs:
+  - Claim status updates
+  - Communication templates
+  - Customer feedback
+  outputs:
+  - Communication logs
+  - Satisfaction surveys
+  duration: Ongoing
 success_criteria:
-  - 95% claims processed within 7 days
-  - Customer satisfaction above 80%
-  - Fraud detection rate maintained
-  - Regulatory compliance achieved
+- 95% claims processed within 7 days
+- Customer satisfaction above 80%
+- Fraud detection rate maintained
+- Regulatory compliance achieved
 failure_modes:
-  - Claims processing backlog
-  - Inadequate staffing for surge
-  - Fraud exploitation
-  - Regulatory non-compliance
+- Claims processing backlog
+- Inadequate staffing for surge
+- Fraud exploitation
+- Regulatory non-compliance
 metrics:
-  - Average claims processing time
-  - Customer satisfaction scores
-  - Fraud detection accuracy
-  - Settlement accuracy rate
-  - Operational cost per claim
-  - Regulatory compliance rate
+- Average claims processing time
+- Customer satisfaction scores
+- Fraud detection accuracy
+- Settlement accuracy rate
+- Operational cost per claim
+- Regulatory compliance rate

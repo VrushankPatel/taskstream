@@ -1,14 +1,14 @@
 # Mining Environmental Impact Assessment Meeting Notes
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Conference Room A, Corporate Headquarters  
-**Attendees:**  
-- Sarah Chen, Environmental Compliance Manager  
-- Dr. Michael Rodriguez, Chief Geologist  
-- Lisa Thompson, Operations Director  
-- External Consultant: Dr. Elena Vasquez, Environmental Scientist  
-- Note Taker: Jamie Park, Environmental Coordinator  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Conference Room A, Corporate Headquarters
+**Attendees:**
+- Sarah Chen, Environmental Compliance Manager
+- Dr. Michael Rodriguez, Chief Geologist
+- Lisa Thompson, Operations Director
+- External Consultant: Dr. Elena Vasquez, Environmental Scientist
+- Note Taker: Jamie Park, Environmental Coordinator
 
 ## Agenda
 1. Review of Q3 environmental monitoring data

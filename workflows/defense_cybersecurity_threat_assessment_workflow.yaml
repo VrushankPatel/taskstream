@@ -1,46 +1,86 @@
 workflow:
-  id: "defense_cybersecurity_threat_assessment_workflow"
-  title: "Defense Cybersecurity Threat Assessment Process"
-  department: "Cybersecurity Operations"
-  complexity: "complex"
-  participants: ["Cybersecurity Analyst", "Threat Intelligence Lead", "Defense Operations Commander", "Legal Counsel", "IT Security Team"]
-  trigger: "Detection of anomalous network activity or intelligence reports of potential cyber threats"
+  id: defense_cybersecurity_threat_assessment_workflow
+  title: Defense Cybersecurity Threat Assessment Process
+  department: Cybersecurity Operations
+  complexity: complex
+  participants:
+  - Cybersecurity Analyst
+  - Threat Intelligence Lead
+  - Defense Operations Commander
+  - Legal Counsel
+  - IT Security Team
+  trigger: Detection of anomalous network activity or intelligence reports of potential
+    cyber threats
   steps:
-    - step: 1
-      actor: "Cybersecurity Analyst"
-      action: "Initial threat detection and alert triage using SIEM systems and threat intelligence feeds"
-      tools: ["SIEM Platform", "Threat Intelligence Platforms", "Network Monitoring Tools"]
-      duration: "30 minutes"
-      outputs: ["Initial Threat Report", "Alert Classification"]
-    - step: 2
-      actor: "Threat Intelligence Lead"
-      action: "Conduct comprehensive threat intelligence analysis including IOC correlation and attribution assessment"
-      tools: ["Threat Intelligence Databases", "Malware Analysis Tools", "Geopolitical Intelligence Sources"]
-      duration: "4 hours"
-      outputs: ["Threat Intelligence Brief", "Risk Assessment Matrix"]
-    - step: 3
-      actor: "Defense Operations Commander"
-      action: "Review threat assessment and determine operational impact and response requirements"
-      decision_points: ["Critical Infrastructure Impact", "National Security Implications", "Response Urgency"]
-      duration: "2 hours"
-      outputs: ["Operational Impact Assessment", "Response Authorization"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Assess legal implications and compliance requirements for threat response actions"
-      tools: ["Legal Databases", "Regulatory Frameworks", "International Law References"]
-      duration: "3 hours"
-      outputs: ["Legal Compliance Review", "Authorization Documentation"]
-    - step: 5
-      actor: "IT Security Team"
-      action: "Implement containment measures and coordinate with external defense agencies if required"
-      tools: ["Firewall Systems", "Intrusion Prevention Systems", "Coordination Platforms"]
-      duration: "6 hours"
-      outputs: ["Containment Report", "Interagency Coordination Log"]
-  success_criteria: "Threat successfully contained with minimal operational disruption and comprehensive documentation"
-  failure_modes: ["Delayed response due to classification delays", "Insufficient intelligence leading to misattribution", "Legal constraints preventing effective containment"]
+  - step: 1
+    actor: Cybersecurity Analyst
+    action: Initial threat detection and alert triage using SIEM systems and threat
+      intelligence feeds
+    tools:
+    - SIEM Platform
+    - Threat Intelligence Platforms
+    - Network Monitoring Tools
+    duration: 30 minutes
+    outputs:
+    - Initial Threat Report
+    - Alert Classification
+  - step: 2
+    actor: Threat Intelligence Lead
+    action: Conduct comprehensive threat intelligence analysis including IOC correlation
+      and attribution assessment
+    tools:
+    - Threat Intelligence Databases
+    - Malware Analysis Tools
+    - Geopolitical Intelligence Sources
+    duration: 4 hours
+    outputs:
+    - Threat Intelligence Brief
+    - Risk Assessment Matrix
+  - step: 3
+    actor: Defense Operations Commander
+    action: Review threat assessment and determine operational impact and response
+      requirements
+    decision_points:
+    - Critical Infrastructure Impact
+    - National Security Implications
+    - Response Urgency
+    duration: 2 hours
+    outputs:
+    - Operational Impact Assessment
+    - Response Authorization
+  - step: 4
+    actor: Legal Counsel
+    action: Assess legal implications and compliance requirements for threat response
+      actions
+    tools:
+    - Legal Databases
+    - Regulatory Frameworks
+    - International Law References
+    duration: 3 hours
+    outputs:
+    - Legal Compliance Review
+    - Authorization Documentation
+  - step: 5
+    actor: IT Security Team
+    action: Implement containment measures and coordinate with external defense agencies
+      if required
+    tools:
+    - Firewall Systems
+    - Intrusion Prevention Systems
+    - Coordination Platforms
+    duration: 6 hours
+    outputs:
+    - Containment Report
+    - Interagency Coordination Log
+  success_criteria: Threat successfully contained with minimal operational disruption
+    and comprehensive documentation
+  failure_modes:
+  - Delayed response due to classification delays
+  - Insufficient intelligence leading to misattribution
+  - Legal constraints preventing effective containment
   metrics:
-    - "Mean Time to Detect (MTTD): < 15 minutes"
-    - "Mean Time to Respond (MTTR): < 2 hours"
-    - "Threat Containment Success Rate: > 95%"
-    - "False Positive Rate: < 5%"
-    - "Interagency Coordination Efficiency: > 90% satisfaction"
+  - 'Mean Time to Detect (MTTD): < 15 minutes'
+  - 'Mean Time to Respond (MTTR): < 2 hours'
+  - 'Threat Containment Success Rate: > 95%'
+  - 'False Positive Rate: < 5%'
+  - 'Interagency Coordination Efficiency: > 90% satisfaction'

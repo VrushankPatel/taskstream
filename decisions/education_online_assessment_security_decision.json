@@ -3,8 +3,16 @@
   "context": "Major university system, 50,000 students, transitioning to fully online assessment model amid academic integrity concerns",
   "stakeholders": {
     "requester": "Vice Provost for Academic Affairs",
-    "approvers": ["President", "Provost", "Chief Information Officer"],
-    "influencers": ["Faculty Senate", "Student Government", "Assessment Center Director"]
+    "approvers": [
+      "President",
+      "Provost",
+      "Chief Information Officer"
+    ],
+    "influencers": [
+      "Faculty Senate",
+      "Student Government",
+      "Assessment Center Director"
+    ]
   },
   "request": {
     "amount": "$5.2 million",
@@ -16,31 +24,51 @@
     {
       "stage": "integrity_assessment",
       "duration": "3 weeks",
-      "activities": ["Current cheating analysis", "Technology vendor evaluation", "Faculty requirements gathering"],
+      "activities": [
+        "Current cheating analysis",
+        "Technology vendor evaluation",
+        "Faculty requirements gathering"
+      ],
       "outcome": "Significant integrity concerns identified"
     },
     {
       "stage": "privacy_review",
       "duration": "4 weeks",
-      "activities": ["Privacy impact assessment", "Legal compliance review", "Student privacy rights evaluation"],
+      "activities": [
+        "Privacy impact assessment",
+        "Legal compliance review",
+        "Student privacy rights evaluation"
+      ],
       "outcome": "Privacy-compliant solutions identified"
     },
     {
       "stage": "pilot_testing",
       "duration": "6 weeks",
-      "activities": ["Technology pilot programs", "User experience testing", "Technical reliability assessment"],
+      "activities": [
+        "Technology pilot programs",
+        "User experience testing",
+        "Technical reliability assessment"
+      ],
       "outcome": "Successful pilot with acceptable user experience"
     },
     {
       "stage": "implementation_approval",
       "duration": "3 weeks",
-      "activities": ["Budget approval", "Timeline establishment", "Training program development"],
+      "activities": [
+        "Budget approval",
+        "Timeline establishment",
+        "Training program development"
+      ],
       "outcome": "Approved with phased rollout"
     }
   ],
   "business_impact": {
     "expected_integrity_improvement": "85% reduction in confirmed cheating incidents",
     "online_enrollment_growth": "25% increase in online program enrollment",
-    "risk_factors": ["Student resistance to monitoring", "Technical system failures", "Additional faculty training requirements"]
+    "risk_factors": [
+      "Student resistance to monitoring",
+      "Technical system failures",
+      "Additional faculty training requirements"
+    ]
   }
 }

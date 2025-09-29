@@ -3,8 +3,18 @@
   "context": "Global manufacturing company responding to customer and regulatory pressure for sustainable supply chains",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["VP Operations", "Head of Procurement", "Customer Representatives", "Supplier Partners", "Sustainability Consultants"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Sustainability Officer"
+    ],
+    "influencers": [
+      "VP Operations",
+      "Head of Procurement",
+      "Customer Representatives",
+      "Supplier Partners",
+      "Sustainability Consultants"
+    ]
   },
   "request": {
     "amount": "$75 million",
@@ -16,31 +26,58 @@
     {
       "stage": "sustainability_assessment",
       "duration": "6 weeks",
-      "activities": ["Supply chain carbon footprint analysis", "Sustainability maturity evaluation", "Regulatory requirement mapping"],
+      "activities": [
+        "Supply chain carbon footprint analysis",
+        "Sustainability maturity evaluation",
+        "Regulatory requirement mapping"
+      ],
       "outcome": "Current operations far from target with significant transformation required"
     },
     {
       "stage": "supplier_engagement",
       "duration": "4 weeks",
-      "activities": ["Supplier capability assessment", "Collaboration framework development", "Joint roadmap planning"],
+      "activities": [
+        "Supplier capability assessment",
+        "Collaboration framework development",
+        "Joint roadmap planning"
+      ],
       "outcome": "Strong supplier willingness to participate with clear improvement commitments"
     },
     {
       "stage": "economic_analysis",
       "duration": "5 weeks",
-      "activities": ["Total cost of ownership modeling", "ROI projections", "Customer value analysis"],
+      "activities": [
+        "Total cost of ownership modeling",
+        "ROI projections",
+        "Customer value analysis"
+      ],
       "outcome": "Net positive ROI through cost savings and premium pricing opportunities"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Transformation roadmap development", "Resource requirement planning", "Risk mitigation strategy"],
+      "activities": [
+        "Transformation roadmap development",
+        "Resource requirement planning",
+        "Risk mitigation strategy"
+      ],
       "outcome": "Comprehensive 3-year implementation plan with measurable milestones"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Customer retention improvement", "Cost reduction through efficiency", "Premium pricing capability", "Regulatory compliance", "Brand reputation enhancement"],
+    "expected_benefits": [
+      "Customer retention improvement",
+      "Cost reduction through efficiency",
+      "Premium pricing capability",
+      "Regulatory compliance",
+      "Brand reputation enhancement"
+    ],
     "projected_revenue": "$150 million in additional revenue through sustainable premium products",
-    "risk_factors": ["Supplier compliance challenges", "Implementation cost overruns", "Technology integration issues", "Market demand uncertainty"]
+    "risk_factors": [
+      "Supplier compliance challenges",
+      "Implementation cost overruns",
+      "Technology integration issues",
+      "Market demand uncertainty"
+    ]
   }
 }

@@ -150,6 +150,6 @@ Water management performance is a key component of farm manager evaluations. Non
 - **Incentive Programs**: Rewards for outstanding water conservation achievements
 - **Audit Requirements**: Independent audits of water management practices
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Sustainability Officer*

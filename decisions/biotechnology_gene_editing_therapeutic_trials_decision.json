@@ -3,8 +3,16 @@
   "context": "Biotechnology company developing CRISPR-based gene editing therapies for genetic disorders, evaluating clinical trial initiation for lead candidate targeting cystic fibrosis",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Chief Medical Officer", "Chief Financial Officer"],
-    "influencers": ["Head of Regulatory Affairs", "VP Clinical Development", "Patient Advocacy Group Representative"]
+    "approvers": [
+      "CEO",
+      "Chief Medical Officer",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Head of Regulatory Affairs",
+      "VP Clinical Development",
+      "Patient Advocacy Group Representative"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,28 +24,55 @@
     {
       "stage": "initial_review",
       "duration": "3 weeks",
-      "activities": ["Preclinical data review", "Regulatory landscape assessment", "Competitive analysis", "Financial modeling"],
+      "activities": [
+        "Preclinical data review",
+        "Regulatory landscape assessment",
+        "Competitive analysis",
+        "Financial modeling"
+      ],
       "outcome": "Advanced to detailed evaluation"
     },
     {
       "stage": "due_diligence",
       "duration": "6 weeks",
-      "activities": ["Clinical trial design review", "Manufacturing scalability assessment", "IP protection evaluation", "Market access strategy development"],
+      "activities": [
+        "Clinical trial design review",
+        "Manufacturing scalability assessment",
+        "IP protection evaluation",
+        "Market access strategy development"
+      ],
       "outcome": "Approved with conditions"
     },
     {
       "stage": "final_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Risk mitigation planning", "Budget allocation", "Timeline establishment"],
+      "activities": [
+        "Board presentation",
+        "Risk mitigation planning",
+        "Budget allocation",
+        "Timeline establishment"
+      ],
       "outcome": "Approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "First-in-class gene editing therapy for cystic fibrosis, potential $2B+ market opportunity",
     "projected_value": "$500,000,000",
-    "risk_factors": ["Regulatory approval uncertainty", "Manufacturing complexity", "IP challenges", "Clinical trial safety concerns"]
+    "risk_factors": [
+      "Regulatory approval uncertainty",
+      "Manufacturing complexity",
+      "IP challenges",
+      "Clinical trial safety concerns"
+    ]
   },
-  "decision_criteria": ["Scientific validity of preclinical data", "Regulatory pathway clarity", "Manufacturing feasibility", "Market opportunity assessment", "Financial risk profile", "Ethical considerations"],
+  "decision_criteria": [
+    "Scientific validity of preclinical data",
+    "Regulatory pathway clarity",
+    "Manufacturing feasibility",
+    "Market opportunity assessment",
+    "Financial risk profile",
+    "Ethical considerations"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive preclinical validation and regulatory engagement critical for gene editing therapies; early manufacturing process development reduces clinical trial risks"
 }

@@ -1,58 +1,100 @@
 workflow:
-  id: "workflow_hr_onboarding_001"
-  title: "New Employee Onboarding Process"
-  department: "Human Resources"
-  complexity: "medium"
-  participants: ["HR Business Partner", "Hiring Manager", "IT Support", "Facilities Manager", "Department Lead"]
-  trigger: "New hire accepts offer letter"
+  id: workflow_hr_onboarding_001
+  title: New Employee Onboarding Process
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Business Partner
+  - Hiring Manager
+  - IT Support
+  - Facilities Manager
+  - Department Lead
+  trigger: New hire accepts offer letter
   steps:
-    - step: 1
-      actor: "HR Business Partner"
-      action: "Send welcome email with pre-start checklist and paperwork"
-      tools: ["HRIS system", "Email platform", "Document templates"]
-      duration: "30 minutes"
-      outputs: ["Welcome package", "Paperwork completion tracking"]
-    - step: 2
-      actor: "HR Business Partner"
-      action: "Schedule first day orientation and team introductions"
-      tools: ["Calendar system", "HRIS", "Meeting room booking"]
-      duration: "45 minutes"
-      outputs: ["Orientation schedule", "Team meeting invites"]
-    - step: 3
-      actor: "IT Support"
-      action: "Set up workstation, email, and system access"
-      tools: ["IT ticketing system", "Active Directory", "Hardware inventory"]
-      duration: "2 hours"
-      outputs: ["User account setup", "Equipment assignment"]
-    - step: 4
-      actor: "Facilities Manager"
-      action: "Prepare workspace and provide building access"
-      tools: ["Facility management system", "Access control system"]
-      duration: "1 hour"
-      outputs: ["Workspace assignment", "Access credentials"]
-    - step: 5
-      actor: "Department Lead"
-      action: "Conduct department-specific training and role overview"
-      tools: ["Training materials", "Department documentation"]
-      duration: "4 hours"
-      outputs: ["Role training completion", "Department handbook review"]
-    - step: 6
-      actor: "Hiring Manager"
-      action: "Hold one-on-one meeting to set expectations and goals"
-      tools: ["Performance management system", "Meeting notes template"]
-      duration: "1 hour"
-      outputs: ["30-60-90 day plan", "Performance expectations"]
-    - step: 7
-      actor: "HR Business Partner"
-      action: "Conduct 30-day check-in and gather feedback"
-      tools: ["Survey platform", "HRIS", "Feedback forms"]
-      duration: "30 minutes"
-      outputs: ["Onboarding feedback report", "Improvement recommendations"]
-  success_criteria: "Employee completes 90-day probation with positive performance review"
-  failure_modes: ["Delayed IT setup", "Incomplete paperwork", "Poor manager communication", "Unclear role expectations"]
+  - step: 1
+    actor: HR Business Partner
+    action: Send welcome email with pre-start checklist and paperwork
+    tools:
+    - HRIS system
+    - Email platform
+    - Document templates
+    duration: 30 minutes
+    outputs:
+    - Welcome package
+    - Paperwork completion tracking
+  - step: 2
+    actor: HR Business Partner
+    action: Schedule first day orientation and team introductions
+    tools:
+    - Calendar system
+    - HRIS
+    - Meeting room booking
+    duration: 45 minutes
+    outputs:
+    - Orientation schedule
+    - Team meeting invites
+  - step: 3
+    actor: IT Support
+    action: Set up workstation, email, and system access
+    tools:
+    - IT ticketing system
+    - Active Directory
+    - Hardware inventory
+    duration: 2 hours
+    outputs:
+    - User account setup
+    - Equipment assignment
+  - step: 4
+    actor: Facilities Manager
+    action: Prepare workspace and provide building access
+    tools:
+    - Facility management system
+    - Access control system
+    duration: 1 hour
+    outputs:
+    - Workspace assignment
+    - Access credentials
+  - step: 5
+    actor: Department Lead
+    action: Conduct department-specific training and role overview
+    tools:
+    - Training materials
+    - Department documentation
+    duration: 4 hours
+    outputs:
+    - Role training completion
+    - Department handbook review
+  - step: 6
+    actor: Hiring Manager
+    action: Hold one-on-one meeting to set expectations and goals
+    tools:
+    - Performance management system
+    - Meeting notes template
+    duration: 1 hour
+    outputs:
+    - 30-60-90 day plan
+    - Performance expectations
+  - step: 7
+    actor: HR Business Partner
+    action: Conduct 30-day check-in and gather feedback
+    tools:
+    - Survey platform
+    - HRIS
+    - Feedback forms
+    duration: 30 minutes
+    outputs:
+    - Onboarding feedback report
+    - Improvement recommendations
+  success_criteria: Employee completes 90-day probation with positive performance
+    review
+  failure_modes:
+  - Delayed IT setup
+  - Incomplete paperwork
+  - Poor manager communication
+  - Unclear role expectations
   metrics:
-    - "Time to productivity: Target <2 weeks"
-    - "Onboarding completion rate: Target 95%"
-    - "Employee satisfaction score: Target 4.2/5"
-    - "Retention rate at 90 days: Target 90%"
-    - "Manager feedback score: Target 4.5/5"
+  - 'Time to productivity: Target <2 weeks'
+  - 'Onboarding completion rate: Target 95%'
+  - 'Employee satisfaction score: Target 4.2/5'
+  - 'Retention rate at 90 days: Target 90%'
+  - 'Manager feedback score: Target 4.5/5'

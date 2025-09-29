@@ -1,9 +1,9 @@
 # Email Thread: Gene Therapy Ethics Discussion
 
-**From:** Dr. Sarah Chen, Bioethics Committee Chair  
-**To:** Leadership Team, Clinical Development Team, Regulatory Affairs  
-**Subject:** Urgent Discussion: Ethical Considerations for Gene Therapy Advancement  
-**Date:** September 28, 2025  
+**From:** Dr. Sarah Chen, Bioethics Committee Chair
+**To:** Leadership Team, Clinical Development Team, Regulatory Affairs
+**Subject:** Urgent Discussion: Ethical Considerations for Gene Therapy Advancement
+**Date:** September 28, 2025
 
 Team,
 
@@ -19,16 +19,16 @@ Please review the attached ethics assessment report. I propose we schedule a com
 
 This decision will determine whether we proceed to IND filing or conduct additional safety studies.
 
-Best,  
-Dr. Sarah Chen  
-Bioethics Committee Chair  
+Best,
+Dr. Sarah Chen
+Bioethics Committee Chair
 
 ---
 
-**From:** Dr. Michael Rodriguez, Chief Scientific Officer  
-**To:** Dr. Sarah Chen, Leadership Team, Clinical Development Team, Regulatory Affairs  
-**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement  
-**Date:** September 28, 2025  
+**From:** Dr. Michael Rodriguez, Chief Scientific Officer
+**To:** Dr. Sarah Chen, Leadership Team, Clinical Development Team, Regulatory Affairs
+**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement
+**Date:** September 28, 2025
 
 Sarah,
 
@@ -38,14 +38,14 @@ I recommend we engage external ethicists from the National Academies to provide 
 
 The potential to cure cystic fibrosis in children born with the most severe mutations is enormous, but we must get this right.
 
-Michael  
+Michael
 
 ---
 
-**From:** Jennifer Walsh, Regulatory Affairs Director  
-**To:** Dr. Sarah Chen, Dr. Michael Rodriguez, Leadership Team, Clinical Development Team, Regulatory Affairs  
-**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement  
-**Date:** September 28, 2025  
+**From:** Jennifer Walsh, Regulatory Affairs Director
+**To:** Dr. Sarah Chen, Dr. Michael Rodriguez, Leadership Team, Clinical Development Team, Regulatory Affairs
+**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement
+**Date:** September 28, 2025
 
 Adding to Michael's point - from a regulatory perspective, FDA has been clear that germline editing for therapeutic purposes remains controversial. Our recent discussions with FDA reviewers suggest they would require:
 
@@ -56,14 +56,14 @@ Adding to Michael's point - from a regulatory perspective, FDA has been clear th
 
 The additional studies could add 18-24 months to our timeline. We need to decide if this is acceptable or if we should focus on somatic cell editing approaches that avoid germline risks entirely.
 
-Jennifer  
+Jennifer
 
 ---
 
-**From:** Dr. Sarah Chen, Bioethics Committee Chair  
-**To:** Dr. Michael Rodriguez, Jennifer Walsh, Leadership Team, Clinical Development Team, Regulatory Affairs  
-**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement  
-**Date:** September 28, 2025  
+**From:** Dr. Sarah Chen, Bioethics Committee Chair
+**To:** Dr. Michael Rodriguez, Jennifer Walsh, Leadership Team, Clinical Development Team, Regulatory Affairs
+**Subject:** Re: Urgent Discussion: Ethical Considerations for Gene Therapy Advancement
+**Date:** September 28, 2025
 
 Thank you both for your thoughtful responses. This discussion highlights why we established our bioethics committee.
 

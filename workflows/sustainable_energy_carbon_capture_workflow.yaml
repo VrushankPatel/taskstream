@@ -1,46 +1,80 @@
 workflow:
-  id: "sustainable_energy_carbon_capture_workflow"
-  title: "Carbon Capture Technologies Workflow"
-  department: "Sustainable Energy R&D"
-  complexity: "high"
-  participants: ["Process Engineer", "Environmental Scientist", "Regulatory Specialist", "Economic Analyst", "Operations Manager"]
-  trigger: "New carbon capture technology identified for industrial application"
+  id: sustainable_energy_carbon_capture_workflow
+  title: Carbon Capture Technologies Workflow
+  department: Sustainable Energy R&D
+  complexity: high
+  participants:
+  - Process Engineer
+  - Environmental Scientist
+  - Regulatory Specialist
+  - Economic Analyst
+  - Operations Manager
+  trigger: New carbon capture technology identified for industrial application
   steps:
-    - step: 1
-      actor: "Process Engineer"
-      action: "Evaluate technical feasibility and design optimization"
-      tools: ["Process simulation software", "Pilot plant data", "Engineering models"]
-      duration: "6 weeks"
-      outputs: ["Technical feasibility report", "Process design specifications"]
-    - step: 2
-      actor: "Environmental Scientist"
-      action: "Assess environmental impact and carbon reduction potential"
-      decision_points: ["Carbon capture efficiency", "Environmental footprint", "Lifecycle emissions"]
-      duration: "4 weeks"
-      outputs: ["Environmental impact assessment", "Carbon reduction projections"]
-    - step: 3
-      actor: "Regulatory Specialist"
-      action: "Navigate regulatory approvals and compliance requirements"
-      tools: ["Environmental regulations", "Permitting processes", "Compliance frameworks"]
-      duration: "8 weeks"
-      outputs: ["Regulatory approval package", "Compliance plan"]
-    - step: 4
-      actor: "Economic Analyst"
-      action: "Conduct cost-benefit analysis and economic modeling"
-      tools: ["Financial modeling software", "Carbon pricing scenarios", "ROI calculators"]
-      duration: "4 weeks"
-      outputs: ["Economic analysis report", "Financial projections"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Plan integration with existing infrastructure"
-      decision_points: ["Retrofit vs new build", "Operational integration", "Maintenance requirements"]
-      duration: "6 weeks"
-      outputs: ["Integration plan", "Operational procedures", "Maintenance protocols"]
-  success_criteria: "Carbon capture system operational and meeting reduction targets"
-  failure_modes: ["Technical performance issues", "Regulatory delays", "Economic unviability"]
+  - step: 1
+    actor: Process Engineer
+    action: Evaluate technical feasibility and design optimization
+    tools:
+    - Process simulation software
+    - Pilot plant data
+    - Engineering models
+    duration: 6 weeks
+    outputs:
+    - Technical feasibility report
+    - Process design specifications
+  - step: 2
+    actor: Environmental Scientist
+    action: Assess environmental impact and carbon reduction potential
+    decision_points:
+    - Carbon capture efficiency
+    - Environmental footprint
+    - Lifecycle emissions
+    duration: 4 weeks
+    outputs:
+    - Environmental impact assessment
+    - Carbon reduction projections
+  - step: 3
+    actor: Regulatory Specialist
+    action: Navigate regulatory approvals and compliance requirements
+    tools:
+    - Environmental regulations
+    - Permitting processes
+    - Compliance frameworks
+    duration: 8 weeks
+    outputs:
+    - Regulatory approval package
+    - Compliance plan
+  - step: 4
+    actor: Economic Analyst
+    action: Conduct cost-benefit analysis and economic modeling
+    tools:
+    - Financial modeling software
+    - Carbon pricing scenarios
+    - ROI calculators
+    duration: 4 weeks
+    outputs:
+    - Economic analysis report
+    - Financial projections
+  - step: 5
+    actor: Operations Manager
+    action: Plan integration with existing infrastructure
+    decision_points:
+    - Retrofit vs new build
+    - Operational integration
+    - Maintenance requirements
+    duration: 6 weeks
+    outputs:
+    - Integration plan
+    - Operational procedures
+    - Maintenance protocols
+  success_criteria: Carbon capture system operational and meeting reduction targets
+  failure_modes:
+  - Technical performance issues
+  - Regulatory delays
+  - Economic unviability
   metrics:
-    - "Carbon capture efficiency: Target >90%"
-    - "Cost per ton CO2 captured: Target <$50"
-    - "System uptime: Target 95%"
-    - "Regulatory compliance rate: Target 100%"
-    - "ROI period: Target <5 years"
+  - 'Carbon capture efficiency: Target >90%'
+  - 'Cost per ton CO2 captured: Target <$50'
+  - 'System uptime: Target 95%'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'ROI period: Target <5 years'

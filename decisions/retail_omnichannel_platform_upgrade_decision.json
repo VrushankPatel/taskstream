@@ -3,8 +3,16 @@
   "context": "Mid-sized retail chain (50 stores, $200M revenue) considering omnichannel platform upgrade",
   "stakeholders": {
     "requester": "VP Digital Commerce",
-    "approvers": ["CTO", "CFO", "CEO"],
-    "influencers": ["Head of IT", "VP Operations", "Marketing Director"]
+    "approvers": [
+      "CTO",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of IT",
+      "VP Operations",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -21,22 +29,42 @@
     {
       "stage": "technical_evaluation",
       "duration": "3 weeks",
-      "activities": ["Platform vendor demos", "Technical architecture review", "Integration assessment"],
+      "activities": [
+        "Platform vendor demos",
+        "Technical architecture review",
+        "Integration assessment"
+      ],
       "outcome": "Shortlisted 3 vendors"
     },
     {
       "stage": "business_case_analysis",
       "duration": "2 weeks",
-      "activities": ["ROI modeling", "Risk assessment", "Timeline planning"],
+      "activities": [
+        "ROI modeling",
+        "Risk assessment",
+        "Timeline planning"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% increase in online revenue, improved customer experience",
     "projected_value": "$4,000,000 annual benefit",
-    "risk_factors": ["Migration downtime", "Data migration issues", "Training requirements"]
+    "risk_factors": [
+      "Migration downtime",
+      "Data migration issues",
+      "Training requirements"
+    ]
   },
-  "decision_criteria": ["Technical scalability", "Cost-benefit ratio", "Vendor support", "Integration capabilities", "Mobile experience", "Analytics capabilities", "Security compliance"],
+  "decision_criteria": [
+    "Technical scalability",
+    "Cost-benefit ratio",
+    "Vendor support",
+    "Integration capabilities",
+    "Mobile experience",
+    "Analytics capabilities",
+    "Security compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder alignment crucial, phased rollout reduces risk"
 }

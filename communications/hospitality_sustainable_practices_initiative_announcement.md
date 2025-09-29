@@ -1,8 +1,8 @@
 ## Internal Announcement: Hospitality Sustainable Practices Initiative
 
-**From:** Chief Sustainability Officer  
-**To:** All Employees  
-**Subject:** Launch of Our Sustainable Hospitality Initiative  
+**From:** Chief Sustainability Officer
+**To:** All Employees
+**Subject:** Launch of Our Sustainable Hospitality Initiative
 
 Dear Team,
 
@@ -69,6 +69,6 @@ This initiative represents not just environmental responsibility, but also a com
 
 I look forward to your engagement and ideas as we embark on this important journey together.
 
-Best regards,  
-Elena Rodriguez  
+Best regards,
+Elena Rodriguez
 Chief Sustainability Officer

@@ -1,9 +1,9 @@
 # Email Thread: International Compliance Training Program Rollout
 
-**From:** Robert Kim, Chief Compliance Officer  
-**To:** Regional Presidents, Legal Operations Team, HR Business Partners  
-**Subject:** Mandatory Compliance Training for International Expansion  
-**Date:** September 28, 2025  
+**From:** Robert Kim, Chief Compliance Officer
+**To:** Regional Presidents, Legal Operations Team, HR Business Partners
+**Subject:** Mandatory Compliance Training for International Expansion
+**Date:** September 28, 2025
 
 Team,
 
@@ -41,16 +41,16 @@ Please confirm your region's training coordinator by October 1. Regional preside
 
 This training is not optional - completion will be tracked and included in performance evaluations.
 
-Best,  
-Robert Kim  
-Chief Compliance Officer  
+Best,
+Robert Kim
+Chief Compliance Officer
 
 ---
 
-**From:** Elena Rodriguez, Regional President - Latin America  
-**To:** Robert Kim, Regional Presidents, Legal Operations Team, HR Business Partners  
-**Subject:** Re: Mandatory Compliance Training for International Expansion  
-**Date:** September 28, 2025  
+**From:** Elena Rodriguez, Regional President - Latin America
+**To:** Robert Kim, Regional Presidents, Legal Operations Team, HR Business Partners
+**Subject:** Re: Mandatory Compliance Training for International Expansion
+**Date:** September 28, 2025
 
 Robert,
 
@@ -58,27 +58,27 @@ Thanks for the comprehensive plan. For Latin America, we'll need Spanish and Por
 
 Also, our current compliance training completion rate is only 78% - what additional incentives or enforcement measures are planned for non-compliance?
 
-Elena  
+Elena
 
 ---
 
-**From:** James Thompson, Regional President - Asia Pacific  
-**To:** Robert Kim, Elena Rodriguez, Regional Presidents, Legal Operations Team, HR Business Partners  
-**Subject:** Re: Mandatory Compliance Training for International Expansion  
-**Date:** September 28, 2025  
+**From:** James Thompson, Regional President - Asia Pacific
+**To:** Robert Kim, Elena Rodriguez, Regional Presidents, Legal Operations Team, HR Business Partners
+**Subject:** Re: Mandatory Compliance Training for International Expansion
+**Date:** September 28, 2025
 
 Adding to Elena's points - we'll need modules in Mandarin, Japanese, and Korean. The anti-corruption module will be particularly important given local business practices.
 
 Question: How will we handle employees in remote locations without reliable internet? Some of our field teams in rural areas may need alternative delivery methods.
 
-James  
+James
 
 ---
 
-**From:** Robert Kim, Chief Compliance Officer  
-**To:** Elena Rodriguez, James Thompson, Regional Presidents, Legal Operations Team, HR Business Partners  
-**Subject:** Re: Mandatory Compliance Training for International Expansion  
-**Date:** September 28, 2025  
+**From:** Robert Kim, Chief Compliance Officer
+**To:** Elena Rodriguez, James Thompson, Regional Presidents, Legal Operations Team, HR Business Partners
+**Subject:** Re: Mandatory Compliance Training for International Expansion
+**Date:** September 28, 2025
 
 Excellent questions - thank you for raising them early.
 

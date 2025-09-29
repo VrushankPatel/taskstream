@@ -3,9 +3,23 @@
   "context": "Global technology company expanding operations into emerging markets, requiring comprehensive compliance framework",
   "stakeholders": {
     "requester": "Chief Compliance Officer",
-    "approvers": ["CEO", "General Counsel", "Board Risk Committee"],
-    "influencers": ["Regional Presidents", "Legal Operations Director", "External Law Firms", "Regulatory Consultants"],
-    "affected_parties": ["Local employees", "Customers", "Local regulators", "Business partners"]
+    "approvers": [
+      "CEO",
+      "General Counsel",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Regional Presidents",
+      "Legal Operations Director",
+      "External Law Firms",
+      "Regulatory Consultants"
+    ],
+    "affected_parties": [
+      "Local employees",
+      "Customers",
+      "Local regulators",
+      "Business partners"
+    ]
   },
   "request": {
     "amount": "$12 million",
@@ -17,35 +31,61 @@
     {
       "stage": "compliance_gap_analysis",
       "duration": "6 weeks",
-      "activities": ["Regulatory landscape mapping", "Current capability assessment", "Risk prioritization"],
+      "activities": [
+        "Regulatory landscape mapping",
+        "Current capability assessment",
+        "Risk prioritization"
+      ],
       "outcome": "Identified 47 critical compliance requirements across target markets"
     },
     {
       "stage": "solution_design",
       "duration": "8 weeks",
-      "activities": ["Technology platform evaluation", "Process design workshops", "Resource planning"],
+      "activities": [
+        "Technology platform evaluation",
+        "Process design workshops",
+        "Resource planning"
+      ],
       "outcome": "Unified compliance platform selected with local market adaptations"
     },
     {
       "stage": "pilot_testing",
       "duration": "10 weeks",
-      "activities": ["Pilot implementation in 3 markets", "Training program development", "Performance monitoring"],
+      "activities": [
+        "Pilot implementation in 3 markets",
+        "Training program development",
+        "Performance monitoring"
+      ],
       "outcome": "85% compliance automation achieved; 95% employee adoption rate"
     },
     {
       "stage": "executive_committee_review",
       "duration": "2 weeks",
-      "activities": ["ROI presentation", "Risk mitigation review", "Final approval"],
+      "activities": [
+        "ROI presentation",
+        "Risk mitigation review",
+        "Final approval"
+      ],
       "outcome": "Approved with phased rollout plan"
     }
   ],
   "business_impact": {
     "expected_cost_savings": "$8 million annually",
     "projected_revenue_enablement": "$180 million",
-    "risk_factors": ["Regulatory changes", "Implementation delays", "Cultural adaptation challenges", "Technology integration issues"],
+    "risk_factors": [
+      "Regulatory changes",
+      "Implementation delays",
+      "Cultural adaptation challenges",
+      "Technology integration issues"
+    ],
     "strategic_alignment": "Enables global expansion while maintaining compliance excellence"
   },
   "decision_outcome": "Approved",
   "implementation_timeline": "Full deployment in 18 months",
-  "monitoring_metrics": ["Compliance violation rates", "Audit findings", "Employee training completion", "System uptime"]
+  "monitoring_metrics": [
+    "Compliance violation rates",
+    "Audit findings",
+    "Employee training completion",
+    "System uptime"
+  ]
 }

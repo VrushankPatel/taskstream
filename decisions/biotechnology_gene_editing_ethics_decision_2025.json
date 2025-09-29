@@ -3,8 +3,17 @@
   "context": "Biotechnology firm developing CRISPR-based therapies for rare genetic disorders, evaluating ethical implications of germline editing for hereditary disease prevention",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Board of Directors", "Ethics Review Board"],
-    "influencers": ["Patient Advocacy Organizations", "Regulatory Authorities", "Bioethics Experts", "Scientific Community"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Ethics Review Board"
+    ],
+    "influencers": [
+      "Patient Advocacy Organizations",
+      "Regulatory Authorities",
+      "Bioethics Experts",
+      "Scientific Community"
+    ]
   },
   "request": {
     "amount": "$75 million",
@@ -16,31 +25,52 @@
     {
       "stage": "ethical_assessment",
       "duration": "6 weeks",
-      "activities": ["International bioethics consultation", "Public engagement forums", "Risk-benefit analysis framework development"],
+      "activities": [
+        "International bioethics consultation",
+        "Public engagement forums",
+        "Risk-benefit analysis framework development"
+      ],
       "outcome": "Ethical framework established with strict inclusion criteria and long-term monitoring requirements"
     },
     {
       "stage": "scientific_peer_review",
       "duration": "8 weeks",
-      "activities": ["Independent scientific validation", "Off-target effect assessment", "Long-term safety modeling"],
+      "activities": [
+        "Independent scientific validation",
+        "Off-target effect assessment",
+        "Long-term safety modeling"
+      ],
       "outcome": "Scientific validity confirmed with acceptable safety profile for controlled clinical investigation"
     },
     {
       "stage": "regulatory_strategy",
       "duration": "10 weeks",
-      "activities": ["Global regulatory agency consultations", "Adaptive regulatory pathway development", "International harmonization efforts"],
+      "activities": [
+        "Global regulatory agency consultations",
+        "Adaptive regulatory pathway development",
+        "International harmonization efforts"
+      ],
       "outcome": "Regulatory strategy developed with conditional approval pathways and enhanced monitoring requirements"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "4 weeks",
-      "activities": ["Patient community engagement", "Healthcare provider consultations", "Public communication strategy"],
+      "activities": [
+        "Patient community engagement",
+        "Healthcare provider consultations",
+        "Public communication strategy"
+      ],
       "outcome": "Broad stakeholder support secured with transparent communication and engagement commitments"
     }
   ],
   "business_impact": {
     "expected_market_size": "$5 billion",
     "projected_revenue": "$3.2 billion",
-    "risk_factors": ["Ethical controversy leading to public backlash", "Regulatory uncertainty and potential bans", "Technical challenges in germline editing precision", "Long development timelines and high costs"]
+    "risk_factors": [
+      "Ethical controversy leading to public backlash",
+      "Regulatory uncertainty and potential bans",
+      "Technical challenges in germline editing precision",
+      "Long development timelines and high costs"
+    ]
   }
 }

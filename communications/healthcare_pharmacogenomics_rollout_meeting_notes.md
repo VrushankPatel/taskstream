@@ -1,16 +1,16 @@
 # Healthcare Pharmacogenomics Implementation Rollout Meeting Notes
 
-**Date:** November 10, 2025  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Medical Center Conference Room B  
-**Attendees:**  
-- Dr. Emily Carter (Chief Medical Officer)  
-- Dr. James Wilson (Clinical Pharmacy Director)  
-- Sarah Martinez (IT Integration Lead)  
-- Dr. Robert Chen (Bioinformatics Specialist)  
-- Lisa Thompson (Patient Education Coordinator)  
-- Michael Davis (Regulatory Compliance Officer)  
-- Jennifer Walsh (Nursing Leadership)  
+**Date:** November 10, 2025
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Medical Center Conference Room B
+**Attendees:**
+- Dr. Emily Carter (Chief Medical Officer)
+- Dr. James Wilson (Clinical Pharmacy Director)
+- Sarah Martinez (IT Integration Lead)
+- Dr. Robert Chen (Bioinformatics Specialist)
+- Lisa Thompson (Patient Education Coordinator)
+- Michael Davis (Regulatory Compliance Officer)
+- Jennifer Walsh (Nursing Leadership)
 
 ## Meeting Objective
 Review pharmacogenomics testing program implementation plan and establish rollout timeline for personalized medication management across cardiovascular and psychiatric care.

@@ -3,8 +3,15 @@
   "context": "Global manufacturing company with complex supply chain, seeking to improve traceability and reduce counterfeiting risks",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "Chief Information Officer"],
-    "influencers": ["Operations Director", "Blockchain Consultant", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "Chief Information Officer"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Blockchain Consultant",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$5.5 million",
@@ -16,26 +23,50 @@
     {
       "stage": "technology_evaluation",
       "duration": "6 weeks",
-      "activities": ["Blockchain platform assessment", "Supplier capability analysis", "Integration feasibility study"],
+      "activities": [
+        "Blockchain platform assessment",
+        "Supplier capability analysis",
+        "Integration feasibility study"
+      ],
       "outcome": "Blockchain solution viable for supply chain traceability"
     },
     {
       "stage": "pilot_design",
       "duration": "8 weeks",
-      "activities": ["Pilot supplier selection", "System design and testing", "Change management planning"],
+      "activities": [
+        "Pilot supplier selection",
+        "System design and testing",
+        "Change management planning"
+      ],
       "outcome": "Pilot program designed for high-risk material categories"
     },
     {
       "stage": "business_case_validation",
       "duration": "4 weeks",
-      "activities": ["ROI analysis", "Risk assessment", "Scalability evaluation"],
+      "activities": [
+        "ROI analysis",
+        "Risk assessment",
+        "Scalability evaluation"
+      ],
       "outcome": "Approved with enterprise-wide rollout planned over 24 months"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["99% traceability accuracy", "30% reduction in counterfeiting incidents", "Enhanced supplier relationships"],
+    "expected_benefits": [
+      "99% traceability accuracy",
+      "30% reduction in counterfeiting incidents",
+      "Enhanced supplier relationships"
+    ],
     "projected_roi": "28 months",
-    "risk_factors": ["Technology complexity", "Supplier adoption resistance", "Integration challenges"],
-    "success_metrics": ["Traceability coverage", "Incident reduction rate", "Supplier participation rate"]
+    "risk_factors": [
+      "Technology complexity",
+      "Supplier adoption resistance",
+      "Integration challenges"
+    ],
+    "success_metrics": [
+      "Traceability coverage",
+      "Incident reduction rate",
+      "Supplier participation rate"
+    ]
   }
 }

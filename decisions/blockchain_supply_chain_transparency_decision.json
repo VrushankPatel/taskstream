@@ -3,8 +3,16 @@
   "context": "Global manufacturing company, 5,000 employees, implementing blockchain for supply chain visibility",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CTO", "CFO", "CEO"],
-    "influencers": ["Head of Procurement", "Legal Counsel", "IT Security"]
+    "approvers": [
+      "CTO",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of Procurement",
+      "Legal Counsel",
+      "IT Security"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,25 +24,41 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 weeks",
-      "activities": ["Vendor evaluation", "Pilot testing", "ROI modeling"],
+      "activities": [
+        "Vendor evaluation",
+        "Pilot testing",
+        "ROI modeling"
+      ],
       "outcome": "Proceed with conditional approval"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "2 weeks",
-      "activities": ["Executive presentations", "Legal review", "Security assessment"],
+      "activities": [
+        "Executive presentations",
+        "Legal review",
+        "Security assessment"
+      ],
       "outcome": "Approved with enhanced security requirements"
     },
     {
       "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Supplier onboarding", "Integration planning", "Change management"],
+      "activities": [
+        "Supplier onboarding",
+        "Integration planning",
+        "Change management"
+      ],
       "outcome": "Full implementation approved"
     }
   ],
   "business_impact": {
     "expected_benefits": "Improved supplier compliance, reduced audit costs, enhanced customer trust",
     "projected_roi": "25% annual savings on compliance costs",
-    "risk_factors": ["Technology complexity", "Supplier adoption resistance", "Data privacy concerns"]
+    "risk_factors": [
+      "Technology complexity",
+      "Supplier adoption resistance",
+      "Data privacy concerns"
+    ]
   }
 }

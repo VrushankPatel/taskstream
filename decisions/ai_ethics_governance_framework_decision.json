@@ -3,9 +3,21 @@
   "context": "Large financial services company with extensive AI usage in trading, risk assessment, and customer service, facing increasing regulatory scrutiny",
   "stakeholders": {
     "requester": "Chief Risk Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Compliance Officer"],
-    "influencers": ["Chief Technology Officer", "Head of AI", "General Counsel"],
-    "advisors": ["AI Ethics Consultants", "Regulatory Experts", "Industry Peers"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Compliance Officer"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Head of AI",
+      "General Counsel"
+    ],
+    "advisors": [
+      "AI Ethics Consultants",
+      "Regulatory Experts",
+      "Industry Peers"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -17,32 +29,62 @@
     {
       "stage": "regulatory_assessment",
       "duration": "6 weeks",
-      "activities": ["Regulatory landscape analysis", "Compliance gap assessment", "Industry benchmarking"],
+      "activities": [
+        "Regulatory landscape analysis",
+        "Compliance gap assessment",
+        "Industry benchmarking"
+      ],
       "outcome": "Multiple regulatory requirements identified requiring immediate action"
     },
     {
       "stage": "framework_design",
       "duration": "8 weeks",
-      "activities": ["Ethics framework development", "Governance structure design", "Implementation roadmap creation"],
+      "activities": [
+        "Ethics framework development",
+        "Governance structure design",
+        "Implementation roadmap creation"
+      ],
       "outcome": "Comprehensive framework addressing bias, transparency, and accountability"
     },
     {
       "stage": "pilot_testing",
       "duration": "4 weeks",
-      "activities": ["Framework pilot in trading algorithms", "Bias monitoring implementation", "Stakeholder feedback collection"],
+      "activities": [
+        "Framework pilot in trading algorithms",
+        "Bias monitoring implementation",
+        "Stakeholder feedback collection"
+      ],
       "outcome": "Successful pilot with measurable improvements in AI fairness"
     },
     {
       "stage": "board_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Risk assessment review", "Final investment approval"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment review",
+        "Final investment approval"
+      ],
       "outcome": "Approved with enhanced monitoring requirements"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Regulatory compliance assurance", "Reduced reputational risk", "Improved AI decision quality", "Enhanced stakeholder trust"],
+    "expected_benefits": [
+      "Regulatory compliance assurance",
+      "Reduced reputational risk",
+      "Improved AI decision quality",
+      "Enhanced stakeholder trust"
+    ],
     "projected_revenue": "$50,000,000 in risk mitigation value",
-    "risk_factors": ["Implementation complexity", "Performance impact on AI systems", "Resource requirements", "Evolving regulatory landscape"],
-    "mitigation_strategies": ["Phased implementation", "Cross-functional governance board", "Continuous monitoring and adaptation"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Performance impact on AI systems",
+      "Resource requirements",
+      "Evolving regulatory landscape"
+    ],
+    "mitigation_strategies": [
+      "Phased implementation",
+      "Cross-functional governance board",
+      "Continuous monitoring and adaptation"
+    ]
   }
 }

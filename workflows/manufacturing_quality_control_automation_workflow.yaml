@@ -1,48 +1,75 @@
 workflow:
-  id: "workflow_manufacturing_quality_control"
-  title: "Automated Quality Control and Testing Process"
-  department: "Quality Assurance"
-  complexity: "high"
-  participants: ["Quality Engineer", "Production Supervisor", "Maintenance Technician", "Quality Manager"]
-  trigger: "Production batch completion or scheduled quality checkpoint"
+  id: workflow_manufacturing_quality_control
+  title: Automated Quality Control and Testing Process
+  department: Quality Assurance
+  complexity: high
+  participants:
+  - Quality Engineer
+  - Production Supervisor
+  - Maintenance Technician
+  - Quality Manager
+  trigger: Production batch completion or scheduled quality checkpoint
   steps:
-    - step: 1
-      actor: "Production System"
-      action: "Automated sampling and initial testing via inline sensors"
-      tools: ["IoT Sensors", "Automated Sampling Equipment"]
-      duration: "Continuous monitoring"
-      outputs: ["Initial Quality Metrics"]
-    - step: 2
-      actor: "Quality Engineer"
-      action: "Review automated test results and perform detailed analysis"
-      tools: ["Quality Management Software", "Statistical Analysis Tools"]
-      duration: "30-60 minutes"
-      outputs: ["Quality Analysis Report"]
-      decision_points: ["Accept/Reject Criteria", "Statistical Process Control Limits"]
-    - step: 3
-      actor: "Quality Engineer"
-      action: "Conduct physical inspection for critical parameters"
-      tools: ["Measurement Equipment", "Visual Inspection Stations"]
-      duration: "20-40 minutes"
-      outputs: ["Physical Inspection Results"]
-    - step: 4
-      actor: "Production Supervisor"
-      action: "Implement corrective actions for identified defects"
-      tools: ["Production Control System", "Maintenance Work Orders"]
-      duration: "1-4 hours"
-      outputs: ["Corrective Action Plan"]
-      decision_points: ["Process Adjustment Required", "Equipment Maintenance Needed"]
-    - step: 5
-      actor: "Quality Manager"
-      action: "Review quality incidents and update control procedures"
-      tools: ["Quality Management System", "CAPA Software"]
-      duration: "2-4 hours"
-      outputs: ["Updated Quality Procedures"]
-  success_criteria: "Defect rate <1%, first-pass yield >95%, corrective actions completed within 24 hours"
-  failure_modes: ["Sensor calibration drift", "Sampling bias", "Delayed corrective actions"]
+  - step: 1
+    actor: Production System
+    action: Automated sampling and initial testing via inline sensors
+    tools:
+    - IoT Sensors
+    - Automated Sampling Equipment
+    duration: Continuous monitoring
+    outputs:
+    - Initial Quality Metrics
+  - step: 2
+    actor: Quality Engineer
+    action: Review automated test results and perform detailed analysis
+    tools:
+    - Quality Management Software
+    - Statistical Analysis Tools
+    duration: 30-60 minutes
+    outputs:
+    - Quality Analysis Report
+    decision_points:
+    - Accept/Reject Criteria
+    - Statistical Process Control Limits
+  - step: 3
+    actor: Quality Engineer
+    action: Conduct physical inspection for critical parameters
+    tools:
+    - Measurement Equipment
+    - Visual Inspection Stations
+    duration: 20-40 minutes
+    outputs:
+    - Physical Inspection Results
+  - step: 4
+    actor: Production Supervisor
+    action: Implement corrective actions for identified defects
+    tools:
+    - Production Control System
+    - Maintenance Work Orders
+    duration: 1-4 hours
+    outputs:
+    - Corrective Action Plan
+    decision_points:
+    - Process Adjustment Required
+    - Equipment Maintenance Needed
+  - step: 5
+    actor: Quality Manager
+    action: Review quality incidents and update control procedures
+    tools:
+    - Quality Management System
+    - CAPA Software
+    duration: 2-4 hours
+    outputs:
+    - Updated Quality Procedures
+  success_criteria: Defect rate <1%, first-pass yield >95%, corrective actions completed
+    within 24 hours
+  failure_modes:
+  - Sensor calibration drift
+  - Sampling bias
+  - Delayed corrective actions
   metrics:
-    - "Defect rate: Target <1%"
-    - "First-pass yield: Target >95%"
-    - "Corrective action time: Target <24 hours"
-    - "False positive rate: Target <5%"
-    - "Quality inspection coverage: Target 100%"
+  - 'Defect rate: Target <1%'
+  - 'First-pass yield: Target >95%'
+  - 'Corrective action time: Target <24 hours'
+  - 'False positive rate: Target <5%'
+  - 'Quality inspection coverage: Target 100%'

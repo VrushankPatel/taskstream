@@ -1,16 +1,16 @@
 ## Meeting Notes: Adaptive Learning Platform Implementation Planning
 
-**Date:** September 20, 2024  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Education Technology Center, Conference Room B  
-**Attendees:**  
-- Dr. Maria Gonzalez, Provost (Chair)  
-- Dr. James Wilson, Director of Online Learning  
-- Sarah Mitchell, Instructional Technology Manager  
-- Prof. Robert Chen, Faculty Senate Representative  
-- Dr. Lisa Thompson, Assessment Director  
-- Mark Johnson, IT Infrastructure Manager  
-- Jennifer Lee, Student Affairs Representative  
+**Date:** September 20, 2024
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Education Technology Center, Conference Room B
+**Attendees:**
+- Dr. Maria Gonzalez, Provost (Chair)
+- Dr. James Wilson, Director of Online Learning
+- Sarah Mitchell, Instructional Technology Manager
+- Prof. Robert Chen, Faculty Senate Representative
+- Dr. Lisa Thompson, Assessment Director
+- Mark Johnson, IT Infrastructure Manager
+- Jennifer Lee, Student Affairs Representative
 
 **Objective:** Plan the implementation of adaptive learning algorithms across undergraduate courses to improve student outcomes and personalize learning experiences.
 

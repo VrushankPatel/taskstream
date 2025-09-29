@@ -3,8 +3,17 @@
   "context": "Energy utility company with 2000 employees, expanding into hydrogen economy to meet decarbonization goals",
   "stakeholders": {
     "requester": "Chief Strategy Officer",
-    "approvers": ["CEO", "Board of Directors", "Regulatory Affairs"],
-    "influencers": ["Environmental Groups", "Local Governments", "Technology Partners", "Customer Advocacy Groups"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Regulatory Affairs"
+    ],
+    "influencers": [
+      "Environmental Groups",
+      "Local Governments",
+      "Technology Partners",
+      "Customer Advocacy Groups"
+    ]
   },
   "request": {
     "amount": "$100,000,000",
@@ -16,25 +25,45 @@
     {
       "stage": "strategic_evaluation",
       "duration": "6 weeks",
-      "activities": ["Market opportunity analysis", "Technology assessment", "Regulatory landscape review", "Financial modeling"],
+      "activities": [
+        "Market opportunity analysis",
+        "Technology assessment",
+        "Regulatory landscape review",
+        "Financial modeling"
+      ],
       "outcome": "Strategic alignment with decarbonization goals confirmed"
     },
     {
       "stage": "partnership_development",
       "duration": "8 weeks",
-      "activities": ["Technology partner selection", "Government coordination", "Community engagement", "Funding applications"],
+      "activities": [
+        "Technology partner selection",
+        "Government coordination",
+        "Community engagement",
+        "Funding applications"
+      ],
       "outcome": "Strategic partnerships secured with matching funds"
     },
     {
       "stage": "investment_committee_review",
       "duration": "4 weeks",
-      "activities": ["Risk assessment", "Financial review", "Stakeholder impact analysis", "Implementation planning"],
+      "activities": [
+        "Risk assessment",
+        "Financial review",
+        "Stakeholder impact analysis",
+        "Implementation planning"
+      ],
       "outcome": "Investment approved with performance milestones"
     }
   ],
   "business_impact": {
     "expected_hydrogen_capacity": "50 tons/day",
     "projected_revenue": "$200,000,000",
-    "risk_factors": ["Technology maturation delays", "Regulatory changes", "Community opposition", "Cost overruns"]
+    "risk_factors": [
+      "Technology maturation delays",
+      "Regulatory changes",
+      "Community opposition",
+      "Cost overruns"
+    ]
   }
 }

@@ -1,46 +1,82 @@
 workflow:
-  id: "workflow_047_005"
-  title: "Manufacturing Supply Chain Digitization Workflow"
-  department: "Supply Chain Operations"
-  complexity: "high"
-  participants: ["Supply Chain Managers", "IT Integration Team", "Supplier Relations Team", "Data Analytics Team", "Operations Team"]
-  trigger: "Strategic initiative to digitize supply chain operations for improved visibility and efficiency"
+  id: workflow_047_005
+  title: Manufacturing Supply Chain Digitization Workflow
+  department: Supply Chain Operations
+  complexity: high
+  participants:
+  - Supply Chain Managers
+  - IT Integration Team
+  - Supplier Relations Team
+  - Data Analytics Team
+  - Operations Team
+  trigger: Strategic initiative to digitize supply chain operations for improved visibility
+    and efficiency
   steps:
-    - step: 1
-      actor: "Supply Chain Managers"
-      action: "Assess current supply chain processes and identify digitization opportunities"
-      tools: ["Process mapping software", "Current system audits"]
-      duration: "2 weeks"
-      outputs: ["Current state assessment", "Digitization roadmap"]
-    - step: 2
-      actor: "IT Integration Team"
-      action: "Evaluate and select digital supply chain platforms and integration tools"
-      tools: ["Vendor evaluation frameworks", "ROI analysis tools"]
-      duration: "3 weeks"
-      outputs: ["Platform selection report", "Integration architecture"]
-    - step: 3
-      actor: "Supplier Relations Team"
-      action: "Engage suppliers for data sharing agreements and system integration"
-      tools: ["Supplier portals", "Contract negotiation templates"]
-      duration: "4 weeks"
-      outputs: ["Supplier agreements", "Data sharing protocols"]
-    - step: 4
-      actor: "IT Integration Team"
-      action: "Implement data integration and establish real-time visibility dashboards"
-      tools: ["ETL tools", "API development platforms"]
-      duration: "8 weeks"
-      outputs: ["Integrated data platform", "Visibility dashboards"]
-    - step: 5
-      actor: "Data Analytics Team"
-      action: "Develop predictive analytics models for demand forecasting and inventory optimization"
-      tools: ["Machine learning platforms", "Statistical analysis software"]
-      duration: "6 weeks"
-      outputs: ["Predictive models", "Analytics dashboards"]
-    - step: 6
-      actor: "Operations Team"
-      action: "Train staff on new digital processes and establish change management protocols"
-      decision_points: ["User adoption metrics", "Process efficiency improvements"]
-      duration: "4 weeks"
-      outputs: ["Training completion reports", "Process optimization recommendations"]
-  success_criteria: "End-to-end supply chain visibility achieved with measurable efficiency improvements"
-  failure_modes: ["Supplier resistance to data sharing", "Integration technical challenges", "Insufficient user adoption", "Data quality issues"]
+  - step: 1
+    actor: Supply Chain Managers
+    action: Assess current supply chain processes and identify digitization opportunities
+    tools:
+    - Process mapping software
+    - Current system audits
+    duration: 2 weeks
+    outputs:
+    - Current state assessment
+    - Digitization roadmap
+  - step: 2
+    actor: IT Integration Team
+    action: Evaluate and select digital supply chain platforms and integration tools
+    tools:
+    - Vendor evaluation frameworks
+    - ROI analysis tools
+    duration: 3 weeks
+    outputs:
+    - Platform selection report
+    - Integration architecture
+  - step: 3
+    actor: Supplier Relations Team
+    action: Engage suppliers for data sharing agreements and system integration
+    tools:
+    - Supplier portals
+    - Contract negotiation templates
+    duration: 4 weeks
+    outputs:
+    - Supplier agreements
+    - Data sharing protocols
+  - step: 4
+    actor: IT Integration Team
+    action: Implement data integration and establish real-time visibility dashboards
+    tools:
+    - ETL tools
+    - API development platforms
+    duration: 8 weeks
+    outputs:
+    - Integrated data platform
+    - Visibility dashboards
+  - step: 5
+    actor: Data Analytics Team
+    action: Develop predictive analytics models for demand forecasting and inventory
+      optimization
+    tools:
+    - Machine learning platforms
+    - Statistical analysis software
+    duration: 6 weeks
+    outputs:
+    - Predictive models
+    - Analytics dashboards
+  - step: 6
+    actor: Operations Team
+    action: Train staff on new digital processes and establish change management protocols
+    decision_points:
+    - User adoption metrics
+    - Process efficiency improvements
+    duration: 4 weeks
+    outputs:
+    - Training completion reports
+    - Process optimization recommendations
+  success_criteria: End-to-end supply chain visibility achieved with measurable efficiency
+    improvements
+  failure_modes:
+  - Supplier resistance to data sharing
+  - Integration technical challenges
+  - Insufficient user adoption
+  - Data quality issues

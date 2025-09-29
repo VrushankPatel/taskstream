@@ -3,8 +3,17 @@
   "context": "Major construction firm evaluating $12M investment in Building Information Modeling (BIM) technology across all projects, requiring 18-month implementation and comprehensive staff training",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Operations Director"],
-    "influencers": ["Project Managers", "Subcontractors", "Industry Associations", "Technology Vendors"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Operations Director"
+    ],
+    "influencers": [
+      "Project Managers",
+      "Subcontractors",
+      "Industry Associations",
+      "Technology Vendors"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,34 +25,60 @@
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["BIM platform comparisons", "ROI modeling", "Integration assessment"],
+      "activities": [
+        "BIM platform comparisons",
+        "ROI modeling",
+        "Integration assessment"
+      ],
       "outcome": "Selected leading BIM platform with proven construction industry track record"
     },
     {
       "stage": "pilot_testing",
       "duration": "8 weeks",
-      "activities": ["Pilot project implementation", "User training", "Performance monitoring"],
+      "activities": [
+        "Pilot project implementation",
+        "User training",
+        "Performance monitoring"
+      ],
       "outcome": "25% efficiency improvement in pilot, strong user adoption"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "3 weeks",
-      "activities": ["Financial modeling", "Risk assessment", "Payback analysis"],
+      "activities": [
+        "Financial modeling",
+        "Risk assessment",
+        "Payback analysis"
+      ],
       "outcome": "2.2-year payback with 22% IRR and significant competitive advantages"
     },
     {
       "stage": "change_management",
       "duration": "4 weeks",
-      "activities": ["Staff training programs", "Process redesign", "Resistance mitigation"],
+      "activities": [
+        "Staff training programs",
+        "Process redesign",
+        "Resistance mitigation"
+      ],
       "outcome": "Comprehensive adoption plan with 85% staff buy-in"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% reduction in construction errors, 25% faster project delivery, enhanced collaboration with subcontractors",
     "projected_value": "$35,000,000 NPV over 10 years",
-    "risk_factors": ["Staff resistance to technology change", "Integration challenges with existing systems", "Initial productivity dip during adoption"]
+    "risk_factors": [
+      "Staff resistance to technology change",
+      "Integration challenges with existing systems",
+      "Initial productivity dip during adoption"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Technical feasibility", "Staff adoption", "Competitive advantage", "Client requirements"],
+  "decision_criteria": [
+    "Financial viability",
+    "Technical feasibility",
+    "Staff adoption",
+    "Competitive advantage",
+    "Client requirements"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive pilot testing and change management are critical for successful BIM adoption in traditional construction firms"
 }

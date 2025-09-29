@@ -65,19 +65,31 @@
     {
       "stage": "market_research",
       "duration": "6 weeks",
-      "activities": ["Competitive analysis", "Customer needs assessment", "Regulatory review"],
+      "activities": [
+        "Competitive analysis",
+        "Customer needs assessment",
+        "Regulatory review"
+      ],
       "outcome": "Identified gaps in current cyber offerings, validated market demand"
     },
     {
       "stage": "product_design",
       "duration": "8 weeks",
-      "activities": ["Coverage development", "Pricing modeling", "Underwriting guidelines creation"],
+      "activities": [
+        "Coverage development",
+        "Pricing modeling",
+        "Underwriting guidelines creation"
+      ],
       "outcome": "Designed three-tier cyber liability product with coverage limits from $500K to $10M"
     },
     {
       "stage": "pilot_launch",
       "duration": "3 months",
-      "activities": ["Limited market testing", "Claims experience monitoring", "Feedback collection"],
+      "activities": [
+        "Limited market testing",
+        "Claims experience monitoring",
+        "Feedback collection"
+      ],
       "outcome": "Successful pilot with 85% customer satisfaction, validated pricing assumptions"
     }
   ],
@@ -132,12 +144,27 @@
       }
     },
     "success_metrics": {
-      "financial": ["20% profit margin achievement", "Positive ROI within 2 years"],
-      "operational": ["<5% claims leakage", ">90% customer satisfaction"],
-      "strategic": ["3% market share gain", "Cross-sell ratio >25%"]
+      "financial": [
+        "20% profit margin achievement",
+        "Positive ROI within 2 years"
+      ],
+      "operational": [
+        "<5% claims leakage",
+        ">90% customer satisfaction"
+      ],
+      "strategic": [
+        "3% market share gain",
+        "Cross-sell ratio >25%"
+      ]
     }
   },
-  "decision_criteria": ["Market demand validation", "Risk assessment accuracy", "Regulatory compliance", "Competitive differentiation", "Profitability projections"],
+  "decision_criteria": [
+    "Market demand validation",
+    "Risk assessment accuracy",
+    "Regulatory compliance",
+    "Competitive differentiation",
+    "Profitability projections"
+  ],
   "outcome": "Approved",
-   "lessons_learned": "Pilot testing provided critical validation before full launch, cross-functional collaboration ensured comprehensive risk assessment, phased market entry minimized exposure to new risk class. Early stakeholder engagement prevented implementation delays, comprehensive risk modeling improved pricing accuracy, and dedicated training programs ensured underwriter readiness for complex cyber exposures."
+  "lessons_learned": "Pilot testing provided critical validation before full launch, cross-functional collaboration ensured comprehensive risk assessment, phased market entry minimized exposure to new risk class. Early stakeholder engagement prevented implementation delays, comprehensive risk modeling improved pricing accuracy, and dedicated training programs ensured underwriter readiness for complex cyber exposures."
 }

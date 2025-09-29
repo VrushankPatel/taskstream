@@ -3,8 +3,17 @@
   "context": "Commercial real estate investment firm managing $2B portfolio considering proptech integration to improve property management efficiency",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["Chief Financial Officer", "Chief Operating Officer", "Board of Directors"],
-    "influencers": ["Property Management Director", "IT Infrastructure Lead", "Tenant Experience Manager", "Proptech Vendors"]
+    "approvers": [
+      "Chief Financial Officer",
+      "Chief Operating Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Property Management Director",
+      "IT Infrastructure Lead",
+      "Tenant Experience Manager",
+      "Proptech Vendors"
+    ]
   },
   "request": {
     "amount": "$8M",
@@ -16,34 +25,60 @@
     {
       "stage": "technology_evaluation",
       "duration": "6 weeks",
-      "activities": ["Vendor assessment", "Technology piloting", "Integration feasibility"],
+      "activities": [
+        "Vendor assessment",
+        "Technology piloting",
+        "Integration feasibility"
+      ],
       "outcome": "Selected 3 proptech platforms with proven ROI in commercial sector"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Funding options"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Funding options"
+      ],
       "outcome": "Projected 3-year payback with 22% IRR and $12M annual savings"
     },
     {
       "stage": "implementation_planning",
       "duration": "8 weeks",
-      "activities": ["Phased rollout plan", "Change management", "Training requirements"],
+      "activities": [
+        "Phased rollout plan",
+        "Change management",
+        "Training requirements"
+      ],
       "outcome": "Developed 18-month implementation roadmap with minimal disruption"
     },
     {
       "stage": "risk_assessment",
       "duration": "3 weeks",
-      "activities": ["Security evaluation", "Vendor risk analysis", "Business continuity planning"],
+      "activities": [
+        "Security evaluation",
+        "Vendor risk analysis",
+        "Business continuity planning"
+      ],
       "outcome": "Identified mitigation strategies for cybersecurity and vendor dependency risks"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% reduction in maintenance costs and 30% improvement in tenant satisfaction scores",
     "projected_value": "$45M NPV with enhanced property values",
-    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Tenant privacy concerns"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities",
+      "Tenant privacy concerns"
+    ]
   },
-  "decision_criteria": ["Financial returns", "Technology maturity", "Implementation feasibility", "Risk management", "Competitive advantage"],
+  "decision_criteria": [
+    "Financial returns",
+    "Technology maturity",
+    "Implementation feasibility",
+    "Risk management",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot testing essential for proptech adoption, tenant communication critical for successful implementation"
 }

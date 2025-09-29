@@ -3,8 +3,16 @@
   "context": "Manufacturing company, 2,000 employees, facing increasing regulatory pressure on carbon emissions",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Board ESG Committee"],
-    "influencers": ["Operations Director", "Supply Chain Manager", "Environmental Consultants"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board ESG Committee"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Supply Chain Manager",
+      "Environmental Consultants"
+    ]
   },
   "request": {
     "amount": "$4,200,000",
@@ -16,25 +24,45 @@
     {
       "stage": "risk_assessment",
       "duration": "8 weeks",
-      "activities": ["Supply chain carbon audit", "Regulatory compliance review", "Climate scenario modeling"],
+      "activities": [
+        "Supply chain carbon audit",
+        "Regulatory compliance review",
+        "Climate scenario modeling"
+      ],
       "outcome": "Identified $12M in potential regulatory liabilities and supply chain vulnerabilities"
     },
     {
       "stage": "solution_evaluation",
       "duration": "6 weeks",
-      "activities": ["Technology vendor evaluation", "Cost-benefit analysis", "Pilot testing"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Cost-benefit analysis",
+        "Pilot testing"
+      ],
       "outcome": "Selected integrated ESG platform with 60% implementation cost savings"
     },
     {
       "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Change management planning", "Training program design", "Timeline development"],
+      "activities": [
+        "Change management planning",
+        "Training program design",
+        "Timeline development"
+      ],
       "outcome": "12-month implementation plan with quarterly milestones"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["30% reduction in carbon emissions", "50% decrease in regulatory fines", "Improved investor relations"],
+    "expected_outcomes": [
+      "30% reduction in carbon emissions",
+      "50% decrease in regulatory fines",
+      "Improved investor relations"
+    ],
     "projected_roi": "$15,200,000 over 5 years",
-    "risk_factors": ["Technology integration challenges", "Supplier cooperation", "Regulatory changes"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Supplier cooperation",
+      "Regulatory changes"
+    ]
   }
 }

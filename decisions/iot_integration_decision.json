@@ -3,8 +3,16 @@
   "context": "Industrial manufacturing facility, 800 employees, implementing IoT for predictive maintenance",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "CFO", "Board Technology Committee"],
-    "influencers": ["Maintenance Director", "IT Director", "Equipment Vendors"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Technology Committee"
+    ],
+    "influencers": [
+      "Maintenance Director",
+      "IT Director",
+      "Equipment Vendors"
+    ]
   },
   "request": {
     "amount": "$3,100,000",
@@ -16,25 +24,45 @@
     {
       "stage": "equipment_assessment",
       "duration": "5 weeks",
-      "activities": ["Asset inventory", "Failure analysis", "IoT feasibility study"],
+      "activities": [
+        "Asset inventory",
+        "Failure analysis",
+        "IoT feasibility study"
+      ],
       "outcome": "Prioritized 150 critical assets for sensor deployment"
     },
     {
       "stage": "technology_evaluation",
       "duration": "7 weeks",
-      "activities": ["IoT platform comparison", "Security assessment", "Scalability testing"],
+      "activities": [
+        "IoT platform comparison",
+        "Security assessment",
+        "Scalability testing"
+      ],
       "outcome": "Selected industrial IoT platform with edge computing capabilities"
     },
     {
       "stage": "roi_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Risk assessment", "Implementation timeline"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment",
+        "Implementation timeline"
+      ],
       "outcome": "Projected 40% reduction in maintenance costs with 18-month payback"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["35% reduction in unplanned downtime", "50% decrease in maintenance costs", "Improved production efficiency"],
+    "expected_outcomes": [
+      "35% reduction in unplanned downtime",
+      "50% decrease in maintenance costs",
+      "Improved production efficiency"
+    ],
     "projected_roi": "$9,800,000 over 3 years",
-    "risk_factors": ["Sensor reliability", "Network connectivity", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Sensor reliability",
+      "Network connectivity",
+      "Cybersecurity vulnerabilities"
+    ]
   }
 }

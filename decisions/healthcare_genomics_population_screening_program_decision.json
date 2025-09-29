@@ -3,8 +3,17 @@
   "context": "Large health system with 2M covered lives, implementing preventive genomics program",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Board of Directors"],
-    "influencers": ["Department of Genetics", "Ethics Committee", "Patient Advocacy Groups", "Insurance Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Department of Genetics",
+      "Ethics Committee",
+      "Patient Advocacy Groups",
+      "Insurance Partners"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,32 +25,53 @@
     {
       "stage": "clinical_evidence_review",
       "duration": "6 weeks",
-      "activities": ["Systematic literature review", "Cost-effectiveness analysis", "Clinical utility assessment"],
+      "activities": [
+        "Systematic literature review",
+        "Cost-effectiveness analysis",
+        "Clinical utility assessment"
+      ],
       "outcome": "Strong evidence for clinical benefit in targeted populations"
     },
     {
       "stage": "ethical_and_privacy_evaluation",
       "duration": "4 weeks",
-      "activities": ["Privacy impact assessment", "Informed consent framework development", "Genetic discrimination risk analysis"],
+      "activities": [
+        "Privacy impact assessment",
+        "Informed consent framework development",
+        "Genetic discrimination risk analysis"
+      ],
       "outcome": "Comprehensive privacy protections and ethical guidelines established"
     },
     {
       "stage": "operational_feasibility_study",
       "duration": "8 weeks",
-      "activities": ["Workflow integration assessment", "Staff training requirements", "Technology infrastructure evaluation"],
+      "activities": [
+        "Workflow integration assessment",
+        "Staff training requirements",
+        "Technology infrastructure evaluation"
+      ],
       "outcome": "Feasible implementation with existing EHR integration"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["ROI analysis", "Budget impact modeling", "Reimbursement strategy development"],
+      "activities": [
+        "ROI analysis",
+        "Budget impact modeling",
+        "Reimbursement strategy development"
+      ],
       "outcome": "5-year ROI of 3.2x with net present value of $45M"
     }
   ],
   "business_impact": {
     "expected_cost_savings": "$120,000,000",
     "projected_health_outcomes": "Prevention of 15,000 adverse health events",
-    "risk_factors": ["Patient acceptance and uptake", "Data privacy concerns", "Clinical false positives", "Regulatory changes"],
+    "risk_factors": [
+      "Patient acceptance and uptake",
+      "Data privacy concerns",
+      "Clinical false positives",
+      "Regulatory changes"
+    ],
     "strategic_alignment": "Positions health system as leader in preventive genomic medicine and improves population health metrics"
   }
 }

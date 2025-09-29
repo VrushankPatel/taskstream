@@ -1,9 +1,9 @@
 # Autonomous Vehicle Deployment Strategy Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A  
-**Attendees:** CEO, CTO, COO, Head of Autonomous Systems, Regulatory Affairs Lead, Insurance Partner Rep  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A
+**Attendees:** CEO, CTO, COO, Head of Autonomous Systems, Regulatory Affairs Lead, Insurance Partner Rep
 
 ## Agenda
 1. Review deployment feasibility study results

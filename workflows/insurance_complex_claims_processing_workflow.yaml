@@ -1,63 +1,116 @@
 workflow:
-  id: "workflow_insurance_complex_claims_processing"
-  title: "Commercial Property Insurance Claims Processing and Settlement"
-  department: "Claims"
-  complexity: "complex"
-  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Legal Counsel", "Policyholder", "Third-party Vendors"]
-  trigger: "Policyholder submits commercial property damage claim"
+  id: workflow_insurance_complex_claims_processing
+  title: Commercial Property Insurance Claims Processing and Settlement
+  department: Claims
+  complexity: complex
+  participants:
+  - Claims Adjuster
+  - Claims Supervisor
+  - Underwriter
+  - Legal Counsel
+  - Policyholder
+  - Third-party Vendors
+  trigger: Policyholder submits commercial property damage claim
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Receive and validate claim submission, verify policy coverage and documentation completeness"
-      tools: ["Claims management system", "Policy database", "Document verification software"]
-      duration: "1-2 business days"
-      outputs: ["Initial claim validation report", "Coverage confirmation"]
-    - step: 2
-      actor: "Claims Adjuster"
-      action: "Conduct site inspection, assess damage extent, and gather evidence (photos, measurements, witness statements)"
-      tools: ["Mobile inspection app", "Digital camera", "Measurement tools"]
-      duration: "2-5 business days"
-      outputs: ["Damage assessment report", "Evidence documentation"]
-    - step: 3
-      actor: "Claims Adjuster"
-      action: "Coordinate with third-party vendors for expert assessments (structural engineers, restoration specialists)"
-      tools: ["Vendor management system", "Contractor database"]
-      duration: "3-7 business days"
-      outputs: ["Expert assessment reports", "Vendor quotes"]
-    - step: 4
-      actor: "Claims Supervisor"
-      action: "Review assessment reports, calculate loss amounts, and determine settlement recommendations"
-      tools: ["Claims management system", "Financial modeling software"]
-      duration: "2-3 business days"
-      outputs: ["Loss calculation report", "Settlement recommendation"]
-    - step: 5
-      actor: "Underwriter"
-      action: "Review settlement recommendation for policy compliance and risk implications"
-      tools: ["Underwriting system", "Risk assessment tools"]
-      duration: "1-2 business days"
-      outputs: ["Underwriting approval", "Risk assessment"]
-    - step: 6
-      actor: "Legal Counsel"
-      action: "Review settlement terms for legal compliance and potential litigation risks"
-      tools: ["Legal research database", "Contract review software"]
-      duration: "2-4 business days"
-      outputs: ["Legal review memorandum", "Settlement approval"]
-    - step: 7
-      actor: "Claims Adjuster"
-      action: "Prepare and issue settlement offer, negotiate terms if needed, and process payment"
-      tools: ["Claims management system", "Payment processing system"]
-      duration: "1-3 business days"
-      outputs: ["Settlement agreement", "Payment issuance"]
-    - step: 8
-      actor: "Claims Supervisor"
-      action: "Monitor claim closure, update records, and conduct post-claim review for process improvement"
-      tools: ["Claims management system", "Analytics dashboard"]
-      duration: "1 business day"
-      outputs: ["Closed claim record", "Process improvement recommendations"]
-  success_criteria: "Claim settled within policy limits, payment issued within 30 days of approval, policyholder satisfaction maintained"
-  failure_modes: ["Insufficient documentation delaying processing", "Disputes over damage assessment", "Coverage exclusions discovered late", "Vendor delays impacting timeline", "Legal complications requiring extended review"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Receive and validate claim submission, verify policy coverage and documentation
+      completeness
+    tools:
+    - Claims management system
+    - Policy database
+    - Document verification software
+    duration: 1-2 business days
+    outputs:
+    - Initial claim validation report
+    - Coverage confirmation
+  - step: 2
+    actor: Claims Adjuster
+    action: Conduct site inspection, assess damage extent, and gather evidence (photos,
+      measurements, witness statements)
+    tools:
+    - Mobile inspection app
+    - Digital camera
+    - Measurement tools
+    duration: 2-5 business days
+    outputs:
+    - Damage assessment report
+    - Evidence documentation
+  - step: 3
+    actor: Claims Adjuster
+    action: Coordinate with third-party vendors for expert assessments (structural
+      engineers, restoration specialists)
+    tools:
+    - Vendor management system
+    - Contractor database
+    duration: 3-7 business days
+    outputs:
+    - Expert assessment reports
+    - Vendor quotes
+  - step: 4
+    actor: Claims Supervisor
+    action: Review assessment reports, calculate loss amounts, and determine settlement
+      recommendations
+    tools:
+    - Claims management system
+    - Financial modeling software
+    duration: 2-3 business days
+    outputs:
+    - Loss calculation report
+    - Settlement recommendation
+  - step: 5
+    actor: Underwriter
+    action: Review settlement recommendation for policy compliance and risk implications
+    tools:
+    - Underwriting system
+    - Risk assessment tools
+    duration: 1-2 business days
+    outputs:
+    - Underwriting approval
+    - Risk assessment
+  - step: 6
+    actor: Legal Counsel
+    action: Review settlement terms for legal compliance and potential litigation
+      risks
+    tools:
+    - Legal research database
+    - Contract review software
+    duration: 2-4 business days
+    outputs:
+    - Legal review memorandum
+    - Settlement approval
+  - step: 7
+    actor: Claims Adjuster
+    action: Prepare and issue settlement offer, negotiate terms if needed, and process
+      payment
+    tools:
+    - Claims management system
+    - Payment processing system
+    duration: 1-3 business days
+    outputs:
+    - Settlement agreement
+    - Payment issuance
+  - step: 8
+    actor: Claims Supervisor
+    action: Monitor claim closure, update records, and conduct post-claim review for
+      process improvement
+    tools:
+    - Claims management system
+    - Analytics dashboard
+    duration: 1 business day
+    outputs:
+    - Closed claim record
+    - Process improvement recommendations
+  success_criteria: Claim settled within policy limits, payment issued within 30 days
+    of approval, policyholder satisfaction maintained
+  failure_modes:
+  - Insufficient documentation delaying processing
+  - Disputes over damage assessment
+  - Coverage exclusions discovered late
+  - Vendor delays impacting timeline
+  - Legal complications requiring extended review
   metrics:
-    - "Average settlement time: Target <25 days"
-    - "Claim accuracy rate: Target 98%+"
-    - "Policyholder satisfaction: Target 4.2/5"
-    - "Cost per claim: Target <$500"
+  - 'Average settlement time: Target <25 days'
+  - 'Claim accuracy rate: Target 98%+'
+  - 'Policyholder satisfaction: Target 4.2/5'
+  - 'Cost per claim: Target <$500'

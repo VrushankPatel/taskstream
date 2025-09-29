@@ -44,10 +44,10 @@ The partnership aims to reduce carbon emissions by 10 million tons annually thro
 - Zero-emission transportation fuel
 - Grid stabilization through hydrogen energy storage
 
-For more information, contact:  
-Media Relations  
-Global Energy Corporation  
-press@globalenergy.com  
+For more information, contact:
+Media Relations
+Global Energy Corporation
+press@globalenergy.com
 (212) 555-0123
 
 ### About Global Energy Corporation:

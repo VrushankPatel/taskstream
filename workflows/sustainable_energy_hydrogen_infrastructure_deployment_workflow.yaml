@@ -1,54 +1,112 @@
 workflow:
-  id: "sustainable_energy_hydrogen_infrastructure_deployment_workflow"
-  title: "Sustainable Energy Hydrogen Infrastructure Deployment Workflow"
-  department: "Energy Operations"
-  complexity: "high"
-  participants: ["Infrastructure Engineering Lead", "Regulatory Compliance Manager", "Environmental Impact Specialist", "Procurement Manager", "Operations Manager", "Safety Engineering Lead", "Community Relations Manager"]
-  trigger: "Strategic decision to deploy hydrogen refueling infrastructure network"
+  id: sustainable_energy_hydrogen_infrastructure_deployment_workflow
+  title: Sustainable Energy Hydrogen Infrastructure Deployment Workflow
+  department: Energy Operations
+  complexity: high
+  participants:
+  - Infrastructure Engineering Lead
+  - Regulatory Compliance Manager
+  - Environmental Impact Specialist
+  - Procurement Manager
+  - Operations Manager
+  - Safety Engineering Lead
+  - Community Relations Manager
+  trigger: Strategic decision to deploy hydrogen refueling infrastructure network
   steps:
-    - step: 1
-      actor: "Infrastructure Engineering Lead"
-      action: "Conduct site selection analysis and infrastructure design"
-      tools: ["GIS mapping software", "Infrastructure design CAD", "Demand forecasting models"]
-      duration: "4 months"
-      outputs: ["Site selection report", "Infrastructure design specifications", "Cost estimates"]
-      decision_points: ["Urban vs. highway corridor locations", "Station capacity sizing"]
-    - step: 2
-      actor: "Regulatory Compliance Manager"
-      action: "Navigate permitting and regulatory approval processes"
-      tools: ["Regulatory tracking databases", "Permit application software", "Environmental compliance checklists"]
-      duration: "6 months"
-      outputs: ["Permit applications", "Regulatory compliance plan", "Environmental assessments"]
-    - step: 3
-      actor: "Environmental Impact Specialist"
-      action: "Perform environmental impact assessment and mitigation planning"
-      tools: ["Environmental assessment software", "Impact modeling tools", "Mitigation strategy frameworks"]
-      duration: "3 months"
-      outputs: ["Environmental impact study", "Mitigation plan", "Monitoring protocols"]
-    - step: 4
-      actor: "Procurement Manager"
-      action: "Procure hydrogen production, storage, and dispensing equipment"
-      tools: ["Supplier evaluation systems", "Contract management platforms", "Technical specification databases"]
-      duration: "3 months"
-      outputs: ["Equipment procurement contracts", "Vendor selection reports", "Supply chain agreements"]
-      decision_points: ["On-site vs. off-site hydrogen production", "Storage technology selection"]
-    - step: 5
-      actor: "Safety Engineering Lead"
-      action: "Develop comprehensive safety protocols and emergency response plans"
-      tools: ["Safety engineering software", "Risk assessment frameworks", "Emergency response planning tools"]
-      duration: "2 months"
-      outputs: ["Safety protocols", "Emergency response plans", "Hazard analysis reports"]
-    - step: 6
-      actor: "Community Relations Manager"
-      action: "Conduct stakeholder engagement and community outreach programs"
-      tools: ["Stakeholder mapping software", "Community engagement platforms", "Communication planning tools"]
-      duration: "3 months"
-      outputs: ["Stakeholder engagement plan", "Community outreach materials", "Public consultation reports"]
-    - step: 7
-      actor: "Operations Manager"
-      action: "Oversee construction, commissioning, and initial operations"
-      tools: ["Project management software", "Commissioning checklists", "Operations monitoring systems"]
-      duration: "6 months"
-      outputs: ["Construction completion report", "Commissioning results", "Operations handbook"]
-  success_criteria: "Operational hydrogen refueling network meeting safety and performance standards"
-  failure_modes: ["Regulatory delays", "Community opposition", "Technical integration issues", "Cost overruns"]
+  - step: 1
+    actor: Infrastructure Engineering Lead
+    action: Conduct site selection analysis and infrastructure design
+    tools:
+    - GIS mapping software
+    - Infrastructure design CAD
+    - Demand forecasting models
+    duration: 4 months
+    outputs:
+    - Site selection report
+    - Infrastructure design specifications
+    - Cost estimates
+    decision_points:
+    - Urban vs. highway corridor locations
+    - Station capacity sizing
+  - step: 2
+    actor: Regulatory Compliance Manager
+    action: Navigate permitting and regulatory approval processes
+    tools:
+    - Regulatory tracking databases
+    - Permit application software
+    - Environmental compliance checklists
+    duration: 6 months
+    outputs:
+    - Permit applications
+    - Regulatory compliance plan
+    - Environmental assessments
+  - step: 3
+    actor: Environmental Impact Specialist
+    action: Perform environmental impact assessment and mitigation planning
+    tools:
+    - Environmental assessment software
+    - Impact modeling tools
+    - Mitigation strategy frameworks
+    duration: 3 months
+    outputs:
+    - Environmental impact study
+    - Mitigation plan
+    - Monitoring protocols
+  - step: 4
+    actor: Procurement Manager
+    action: Procure hydrogen production, storage, and dispensing equipment
+    tools:
+    - Supplier evaluation systems
+    - Contract management platforms
+    - Technical specification databases
+    duration: 3 months
+    outputs:
+    - Equipment procurement contracts
+    - Vendor selection reports
+    - Supply chain agreements
+    decision_points:
+    - On-site vs. off-site hydrogen production
+    - Storage technology selection
+  - step: 5
+    actor: Safety Engineering Lead
+    action: Develop comprehensive safety protocols and emergency response plans
+    tools:
+    - Safety engineering software
+    - Risk assessment frameworks
+    - Emergency response planning tools
+    duration: 2 months
+    outputs:
+    - Safety protocols
+    - Emergency response plans
+    - Hazard analysis reports
+  - step: 6
+    actor: Community Relations Manager
+    action: Conduct stakeholder engagement and community outreach programs
+    tools:
+    - Stakeholder mapping software
+    - Community engagement platforms
+    - Communication planning tools
+    duration: 3 months
+    outputs:
+    - Stakeholder engagement plan
+    - Community outreach materials
+    - Public consultation reports
+  - step: 7
+    actor: Operations Manager
+    action: Oversee construction, commissioning, and initial operations
+    tools:
+    - Project management software
+    - Commissioning checklists
+    - Operations monitoring systems
+    duration: 6 months
+    outputs:
+    - Construction completion report
+    - Commissioning results
+    - Operations handbook
+  success_criteria: Operational hydrogen refueling network meeting safety and performance
+    standards
+  failure_modes:
+  - Regulatory delays
+  - Community opposition
+  - Technical integration issues
+  - Cost overruns

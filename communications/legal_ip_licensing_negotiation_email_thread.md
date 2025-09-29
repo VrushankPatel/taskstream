@@ -1,8 +1,8 @@
 ## Email Thread: IP Licensing Negotiation
 
-**From:** IP Counsel  
-**To:** CTO, CEO  
-**Subject:** AI Technology Licensing Deal - Final Terms  
+**From:** IP Counsel
+**To:** CTO, CEO
+**Subject:** AI Technology Licensing Deal - Final Terms
 
 Team,
 
@@ -17,15 +17,15 @@ The deal includes cross-licensing of our machine learning patents. Legal review 
 
 Please confirm approval to proceed with signature.
 
-Best,  
-Jennifer Liu  
-IP Counsel  
+Best,
+Jennifer Liu
+IP Counsel
 
 ---
 
-**From:** CTO  
-**To:** IP Counsel, CEO  
-**Subject:** Re: AI Technology Licensing Deal - Final Terms  
+**From:** CTO
+**To:** IP Counsel, CEO
+**Subject:** Re: AI Technology Licensing Deal - Final Terms
 
 Jennifer,
 
@@ -33,13 +33,13 @@ The terms look favorable. This gives us access to their proprietary algorithms w
 
 One concern: the China exclusion might limit our growth there. Can we negotiate that?
 
-CTO  
+CTO
 
 ---
 
-**From:** CEO  
-**To:** IP Counsel, CTO  
-**Subject:** Re: AI Technology Licensing Deal - Final Terms  
+**From:** CEO
+**To:** IP Counsel, CTO
+**Subject:** Re: AI Technology Licensing Deal - Final Terms
 
 Good work Jennifer. The China point is valid but not a deal-breaker given our current market focus.
 

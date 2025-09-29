@@ -3,8 +3,16 @@
   "context": "Large retail corporation, $5B revenue, exploring metaverse commerce to reach Gen Z and millennial customers",
   "stakeholders": {
     "requester": "VP Digital Innovation",
-    "approvers": ["CEO", "CFO", "CTO"],
-    "influencers": ["CMO", "Head of E-commerce", "Customer Insights Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "CTO"
+    ],
+    "influencers": [
+      "CMO",
+      "Head of E-commerce",
+      "Customer Insights Director"
+    ]
   },
   "request": {
     "amount": "$50,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "initial_research",
       "duration": "4 weeks",
-      "activities": ["Competitive landscape analysis", "Customer behavior studies", "Technology feasibility assessment"],
+      "activities": [
+        "Competitive landscape analysis",
+        "Customer behavior studies",
+        "Technology feasibility assessment"
+      ],
       "outcome": "Proceed to detailed planning"
     },
     {
       "stage": "technical_evaluation",
       "duration": "6 weeks",
-      "activities": ["Platform architecture design", "Integration with existing systems", "Security and privacy assessment"],
+      "activities": [
+        "Platform architecture design",
+        "Integration with existing systems",
+        "Security and privacy assessment"
+      ],
       "outcome": "Approved with technical modifications"
     },
     {
       "stage": "business_case_development",
       "duration": "3 weeks",
-      "activities": ["Financial modeling", "ROI projections", "Risk assessment"],
+      "activities": [
+        "Financial modeling",
+        "ROI projections",
+        "Risk assessment"
+      ],
       "outcome": "Approved with phased implementation"
     },
     {
       "stage": "executive_review",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Strategic alignment review", "Final approval"],
+      "activities": [
+        "Board presentation",
+        "Strategic alignment review",
+        "Final approval"
+      ],
       "outcome": "Approved with $35M initial investment"
     }
   ],
@@ -42,6 +66,11 @@
     "expected_revenue": "$500,000,000",
     "projected_roi": "3.5x over 5 years",
     "customer_acquisition": "2M new customers",
-    "risk_factors": ["Technology immaturity", "Customer adoption uncertainty", "Platform competition", "Regulatory changes"]
+    "risk_factors": [
+      "Technology immaturity",
+      "Customer adoption uncertainty",
+      "Platform competition",
+      "Regulatory changes"
+    ]
   }
 }

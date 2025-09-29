@@ -3,9 +3,22 @@
   "context": "Large electric utility (5M customers, $12B revenue) facing state renewable energy mandates requiring 50% renewable generation by 2030. Current renewable mix: 25%.",
   "stakeholders": {
     "requester": "VP Renewable Energy",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Chief Engineer", "CFO", "Regulatory Affairs", "Environmental Groups"],
-    "affected_parties": ["Ratepayers", "Local communities", "Existing fossil fuel employees", "Environmental advocates"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Engineer",
+      "CFO",
+      "Regulatory Affairs",
+      "Environmental Groups"
+    ],
+    "affected_parties": [
+      "Ratepayers",
+      "Local communities",
+      "Existing fossil fuel employees",
+      "Environmental advocates"
+    ]
   },
   "request": {
     "amount": "$8B",
@@ -17,33 +30,65 @@
     {
       "stage": "portfolio_analysis",
       "duration": "6 weeks",
-      "activities": ["Resource assessment", "Cost-benefit analysis", "Grid integration studies"],
+      "activities": [
+        "Resource assessment",
+        "Cost-benefit analysis",
+        "Grid integration studies"
+      ],
       "outcome": "Identified optimal mix of solar, wind, and storage; projected $2B savings vs. fossil fuel alternatives"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "8 weeks",
-      "activities": ["Community meetings", "Environmental impact assessments", "Employee transition planning"],
+      "activities": [
+        "Community meetings",
+        "Environmental impact assessments",
+        "Employee transition planning"
+      ],
       "outcome": "Strong community support with conditions; developed comprehensive transition program for fossil fuel workers"
     },
     {
       "stage": "regulatory_approval",
       "duration": "4 weeks",
-      "activities": ["Rate case filing", "PUC negotiations", "Environmental permitting"],
+      "activities": [
+        "Rate case filing",
+        "PUC negotiations",
+        "Environmental permitting"
+      ],
       "outcome": "Regulatory approval granted with performance incentives and community benefits requirements"
     },
     {
       "stage": "board_approval",
       "duration": "3 weeks",
-      "activities": ["Final investment committee review", "Risk assessment", "Financing strategy"],
+      "activities": [
+        "Final investment committee review",
+        "Risk assessment",
+        "Financing strategy"
+      ],
       "outcome": "Approved $6B initial investment with remaining $2B contingent on technology cost reductions"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["$3B long-term savings", "Compliance with renewable mandates", "Improved public perception"],
-    "implementation_challenges": ["Grid infrastructure upgrades", "Intermittent renewable management", "Workforce transition"],
-    "risk_factors": ["Technology cost overruns", "Regulatory changes", "Community opposition"],
-    "success_metrics": ["Renewable generation percentage", "Levelized cost of energy", "Customer satisfaction"]
+    "expected_benefits": [
+      "$3B long-term savings",
+      "Compliance with renewable mandates",
+      "Improved public perception"
+    ],
+    "implementation_challenges": [
+      "Grid infrastructure upgrades",
+      "Intermittent renewable management",
+      "Workforce transition"
+    ],
+    "risk_factors": [
+      "Technology cost overruns",
+      "Regulatory changes",
+      "Community opposition"
+    ],
+    "success_metrics": [
+      "Renewable generation percentage",
+      "Levelized cost of energy",
+      "Customer satisfaction"
+    ]
   },
   "lessons_learned": "Early community engagement essential for infrastructure projects; integrated planning across technical, regulatory, and social dimensions critical for success"
 }

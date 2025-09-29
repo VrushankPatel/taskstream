@@ -1,39 +1,62 @@
 workflow:
-  id: "workflow_insurance_parametric_products"
-  title: "Insurance Parametric Products Development Process"
-  department: "Product Development"
-  complexity: "medium"
-  participants: ["Product Manager", "Underwriting Lead", "Data Scientist", "Legal Counsel"]
-  trigger: "Market opportunity identified or regulatory change requiring new product"
+  id: workflow_insurance_parametric_products
+  title: Insurance Parametric Products Development Process
+  department: Product Development
+  complexity: medium
+  participants:
+  - Product Manager
+  - Underwriting Lead
+  - Data Scientist
+  - Legal Counsel
+  trigger: Market opportunity identified or regulatory change requiring new product
   steps:
-    - step: 1
-      actor: "Product Manager"
-      action: "Define product requirements and market positioning"
-      tools: ["Market research platform", "Competitive analysis tools"]
-      duration: "1 week"
-      outputs: ["Product requirements document", "Market analysis report"]
-    - step: 2
-      actor: "Data Scientist"
-      action: "Develop parametric triggers and payout structures"
-      tools: ["Data analytics platform", "Statistical modeling software"]
-      duration: "2 weeks"
-      outputs: ["Parametric model specification", "Risk assessment report"]
-    - step: 3
-      actor: "Underwriting Lead"
-      action: "Establish pricing and risk management framework"
-      tools: ["Pricing models", "Reinsurance platform"]
-      duration: "1 week"
-      outputs: ["Pricing structure", "Reinsurance arrangements"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Review regulatory compliance and contract terms"
-      tools: ["Regulatory database", "Contract management system"]
-      duration: "1 week"
-      outputs: ["Compliance review", "Product contracts"]
-  success_criteria: "Product launched within 6 months, initial sales target achieved"
-  failure_modes: ["Regulatory approval delays", "Inaccurate parametric modeling", "Market acceptance issues"]
+  - step: 1
+    actor: Product Manager
+    action: Define product requirements and market positioning
+    tools:
+    - Market research platform
+    - Competitive analysis tools
+    duration: 1 week
+    outputs:
+    - Product requirements document
+    - Market analysis report
+  - step: 2
+    actor: Data Scientist
+    action: Develop parametric triggers and payout structures
+    tools:
+    - Data analytics platform
+    - Statistical modeling software
+    duration: 2 weeks
+    outputs:
+    - Parametric model specification
+    - Risk assessment report
+  - step: 3
+    actor: Underwriting Lead
+    action: Establish pricing and risk management framework
+    tools:
+    - Pricing models
+    - Reinsurance platform
+    duration: 1 week
+    outputs:
+    - Pricing structure
+    - Reinsurance arrangements
+  - step: 4
+    actor: Legal Counsel
+    action: Review regulatory compliance and contract terms
+    tools:
+    - Regulatory database
+    - Contract management system
+    duration: 1 week
+    outputs:
+    - Compliance review
+    - Product contracts
+  success_criteria: Product launched within 6 months, initial sales target achieved
+  failure_modes:
+  - Regulatory approval delays
+  - Inaccurate parametric modeling
+  - Market acceptance issues
   metrics:
-    - "Time to market: Target <6 months"
-    - "Initial sales volume: Target >$1M in first year"
-    - "Claim accuracy rate: Target >95%"
-    - "Customer satisfaction: Target >4.0/5"
+  - 'Time to market: Target <6 months'
+  - 'Initial sales volume: Target >$1M in first year'
+  - 'Claim accuracy rate: Target >95%'
+  - 'Customer satisfaction: Target >4.0/5'

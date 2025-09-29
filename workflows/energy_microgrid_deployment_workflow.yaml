@@ -1,41 +1,73 @@
 workflow:
-  id: "workflow_021_006"
-  title: "Community Microgrid Deployment"
-  department: "Energy Operations"
-  complexity: "high"
-  participants: ["Energy Director", "Engineering Lead", "Regulatory Affairs Manager", "Community Relations Coordinator", "Finance Manager"]
-  trigger: "Increasing grid instability and community demand for energy resilience"
+  id: workflow_021_006
+  title: Community Microgrid Deployment
+  department: Energy Operations
+  complexity: high
+  participants:
+  - Energy Director
+  - Engineering Lead
+  - Regulatory Affairs Manager
+  - Community Relations Coordinator
+  - Finance Manager
+  trigger: Increasing grid instability and community demand for energy resilience
   steps:
-    - step: 1
-      actor: "Engineering Lead"
-      action: "Conduct feasibility study and system design"
-      tools: ["Load analysis software", "Grid modeling tools"]
-      duration: "8 weeks"
-      outputs: ["Feasibility report", "System design specifications"]
-    - step: 2
-      actor: "Regulatory Affairs Manager"
-      action: "Navigate regulatory approvals and interconnection agreements"
-      decision_points: ["Regulatory compliance", "Interconnection requirements", "Permitting timelines"]
-      tools: ["Regulatory filing systems", "Legal consultation tools"]
-      duration: "12 weeks"
-      outputs: ["Regulatory approvals", "Interconnection agreements"]
-    - step: 3
-      actor: "Finance Manager"
-      action: "Develop funding strategy and financial modeling"
-      tools: ["Financial modeling software", "Grant application systems"]
-      duration: "6 weeks"
-      outputs: ["Funding plan", "Financial projections"]
-    - step: 4
-      actor: "Community Relations Coordinator"
-      action: "Engage community stakeholders and address concerns"
-      tools: ["Community outreach tools", "Survey platforms"]
-      duration: "4 weeks"
-      outputs: ["Community engagement report", "Stakeholder agreements"]
-    - step: 5
-      actor: "Energy Director"
-      action: "Oversee construction, testing, and operational handover"
-      tools: ["Project management software", "Testing protocols"]
-      duration: "16 weeks"
-      outputs: ["Commissioning report", "Operations manual"]
-  success_criteria: "Successful islanding capability, 99.5% system reliability, positive community feedback"
-  failure_modes: ["Regulatory delays", "Funding shortfalls", "Technical integration issues"]
+  - step: 1
+    actor: Engineering Lead
+    action: Conduct feasibility study and system design
+    tools:
+    - Load analysis software
+    - Grid modeling tools
+    duration: 8 weeks
+    outputs:
+    - Feasibility report
+    - System design specifications
+  - step: 2
+    actor: Regulatory Affairs Manager
+    action: Navigate regulatory approvals and interconnection agreements
+    decision_points:
+    - Regulatory compliance
+    - Interconnection requirements
+    - Permitting timelines
+    tools:
+    - Regulatory filing systems
+    - Legal consultation tools
+    duration: 12 weeks
+    outputs:
+    - Regulatory approvals
+    - Interconnection agreements
+  - step: 3
+    actor: Finance Manager
+    action: Develop funding strategy and financial modeling
+    tools:
+    - Financial modeling software
+    - Grant application systems
+    duration: 6 weeks
+    outputs:
+    - Funding plan
+    - Financial projections
+  - step: 4
+    actor: Community Relations Coordinator
+    action: Engage community stakeholders and address concerns
+    tools:
+    - Community outreach tools
+    - Survey platforms
+    duration: 4 weeks
+    outputs:
+    - Community engagement report
+    - Stakeholder agreements
+  - step: 5
+    actor: Energy Director
+    action: Oversee construction, testing, and operational handover
+    tools:
+    - Project management software
+    - Testing protocols
+    duration: 16 weeks
+    outputs:
+    - Commissioning report
+    - Operations manual
+  success_criteria: Successful islanding capability, 99.5% system reliability, positive
+    community feedback
+  failure_modes:
+  - Regulatory delays
+  - Funding shortfalls
+  - Technical integration issues

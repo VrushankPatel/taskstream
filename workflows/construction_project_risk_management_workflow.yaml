@@ -1,58 +1,107 @@
 workflow:
-  id: "workflow_construction_risk_management"
-  title: "Construction Project Risk Management"
-  department: "Construction Operations"
-  complexity: "high"
-  participants: ["Project Manager", "Risk Manager", "Site Engineer", "Contractor", "Legal Counsel"]
-  trigger: "New construction project awarded or major change in project scope"
+  id: workflow_construction_risk_management
+  title: Construction Project Risk Management
+  department: Construction Operations
+  complexity: high
+  participants:
+  - Project Manager
+  - Risk Manager
+  - Site Engineer
+  - Contractor
+  - Legal Counsel
+  trigger: New construction project awarded or major change in project scope
   steps:
-    - step: 1
-      actor: "Project Manager"
-      action: "Conduct initial risk assessment workshop with project team"
-      tools: ["Risk register template", "Historical project data", "SWOT analysis framework"]
-      duration: "1 week"
-      outputs: ["Initial risk register", "Risk assessment report"]
-    - step: 2
-      actor: "Risk Manager"
-      action: "Categorize and prioritize identified risks using risk matrix"
-      tools: ["Risk matrix tool", "Probability-impact assessment", "Risk categorization framework"]
-      duration: "3 days"
-      outputs: ["Prioritized risk list", "Risk mitigation strategies"]
-    - step: 3
-      actor: "Site Engineer"
-      action: "Assess site-specific risks including geological and environmental factors"
-      tools: ["Geotechnical reports", "Environmental impact assessments", "Site inspection checklists"]
-      duration: "1 week"
-      outputs: ["Site risk assessment", "Contingency plans for site conditions"]
-    - step: 4
-      actor: "Contractor"
-      action: "Review subcontractor risks and develop qualification criteria"
-      tools: ["Subcontractor evaluation matrix", "Performance history database", "Insurance verification"]
-      duration: "5 days"
-      outputs: ["Approved subcontractor list", "Contract risk clauses"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Review contractual risk allocation and insurance requirements"
-      tools: ["Contract templates", "Insurance policy review", "Legal risk database"]
-      duration: "1 week"
-      outputs: ["Risk-adjusted contracts", "Insurance coverage recommendations"]
-    - step: 6
-      actor: "Project Manager"
-      action: "Develop comprehensive risk mitigation plan and monitoring schedule"
-      tools: ["Risk management plan template", "Monitoring dashboard", "Escalation procedures"]
-      duration: "1 week"
-      outputs: ["Risk management plan", "Weekly risk review schedule"]
-    - step: 7
-      actor: "Risk Manager"
-      action: "Establish early warning indicators and trigger points"
-      tools: ["KPI monitoring system", "Alert thresholds", "Contingency budget allocation"]
-      duration: "3 days"
-      outputs: ["Risk monitoring dashboard", "Contingency response procedures"]
-    - step: 8
-      actor: "Project Manager"
-      action: "Conduct monthly risk reviews and update mitigation strategies"
-      tools: ["Risk register updates", "Lessons learned database", "Performance metrics"]
-      duration: "Ongoing"
-      outputs: ["Monthly risk reports", "Updated risk mitigation plans"]
-  success_criteria: "Project completed on time and within budget with no major risk incidents"
-  failure_modes: ["Inadequate risk identification", "Poor mitigation execution", "Lack of stakeholder communication"]
+  - step: 1
+    actor: Project Manager
+    action: Conduct initial risk assessment workshop with project team
+    tools:
+    - Risk register template
+    - Historical project data
+    - SWOT analysis framework
+    duration: 1 week
+    outputs:
+    - Initial risk register
+    - Risk assessment report
+  - step: 2
+    actor: Risk Manager
+    action: Categorize and prioritize identified risks using risk matrix
+    tools:
+    - Risk matrix tool
+    - Probability-impact assessment
+    - Risk categorization framework
+    duration: 3 days
+    outputs:
+    - Prioritized risk list
+    - Risk mitigation strategies
+  - step: 3
+    actor: Site Engineer
+    action: Assess site-specific risks including geological and environmental factors
+    tools:
+    - Geotechnical reports
+    - Environmental impact assessments
+    - Site inspection checklists
+    duration: 1 week
+    outputs:
+    - Site risk assessment
+    - Contingency plans for site conditions
+  - step: 4
+    actor: Contractor
+    action: Review subcontractor risks and develop qualification criteria
+    tools:
+    - Subcontractor evaluation matrix
+    - Performance history database
+    - Insurance verification
+    duration: 5 days
+    outputs:
+    - Approved subcontractor list
+    - Contract risk clauses
+  - step: 5
+    actor: Legal Counsel
+    action: Review contractual risk allocation and insurance requirements
+    tools:
+    - Contract templates
+    - Insurance policy review
+    - Legal risk database
+    duration: 1 week
+    outputs:
+    - Risk-adjusted contracts
+    - Insurance coverage recommendations
+  - step: 6
+    actor: Project Manager
+    action: Develop comprehensive risk mitigation plan and monitoring schedule
+    tools:
+    - Risk management plan template
+    - Monitoring dashboard
+    - Escalation procedures
+    duration: 1 week
+    outputs:
+    - Risk management plan
+    - Weekly risk review schedule
+  - step: 7
+    actor: Risk Manager
+    action: Establish early warning indicators and trigger points
+    tools:
+    - KPI monitoring system
+    - Alert thresholds
+    - Contingency budget allocation
+    duration: 3 days
+    outputs:
+    - Risk monitoring dashboard
+    - Contingency response procedures
+  - step: 8
+    actor: Project Manager
+    action: Conduct monthly risk reviews and update mitigation strategies
+    tools:
+    - Risk register updates
+    - Lessons learned database
+    - Performance metrics
+    duration: Ongoing
+    outputs:
+    - Monthly risk reports
+    - Updated risk mitigation plans
+  success_criteria: Project completed on time and within budget with no major risk
+    incidents
+  failure_modes:
+  - Inadequate risk identification
+  - Poor mitigation execution
+  - Lack of stakeholder communication

@@ -1,10 +1,10 @@
 # Autonomous Systems Urban Deployment Launch Announcement
 
-**From:** Chief Operating Officer  
-**To:** All Employees, City Officials, Community Stakeholders, Media  
-**Subject:** Launch of Autonomous Vehicle Urban Delivery Program  
+**From:** Chief Operating Officer
+**To:** All Employees, City Officials, Community Stakeholders, Media
+**Subject:** Launch of Autonomous Vehicle Urban Delivery Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Stakeholders,
 
@@ -82,6 +82,6 @@ For questions about the program:
 
 This launch represents our commitment to innovation, safety, and community partnership. We look forward to working with our urban communities to deliver the future of logistics today.
 
-Best regards,  
-[Chief Operating Officer Name]  
+Best regards,
+[Chief Operating Officer Name]
 Chief Operating Officer

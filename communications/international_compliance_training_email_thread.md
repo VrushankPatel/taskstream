@@ -1,10 +1,10 @@
 # International Compliance Training Program Rollout
 
-**From:** Chief Compliance Officer  
-**To:** Global Leadership Team, Regional Compliance Officers  
-**Subject:** Mandatory International Compliance Training Program  
+**From:** Chief Compliance Officer
+**To:** Global Leadership Team, Regional Compliance Officers
+**Subject:** Mandatory International Compliance Training Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -82,11 +82,11 @@ Thank you for your commitment to maintaining the highest standards of compliance
 
 ---
 
-**From:** APAC Regional Director  
-**To:** Chief Compliance Officer, Global Leadership Team  
-**Subject:** Re: Mandatory International Compliance Training Program  
+**From:** APAC Regional Director
+**To:** Chief Compliance Officer, Global Leadership Team
+**Subject:** Re: Mandatory International Compliance Training Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Thank you for this comprehensive program. In the Asia-Pacific region, we have specific considerations that should be addressed:
 
@@ -112,11 +112,11 @@ We support this initiative and will work with our regional teams to ensure succe
 
 ---
 
-**From:** EU Compliance Director  
-**To:** Chief Compliance Officer, APAC Regional Director  
-**Subject:** Re: Mandatory International Compliance Training Program  
+**From:** EU Compliance Director
+**To:** Chief Compliance Officer, APAC Regional Director
+**Subject:** Re: Mandatory International Compliance Training Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 I agree with the APAC director's points. In Europe, we must emphasize:
 
@@ -136,11 +136,11 @@ The program framework looks solid. Let's ensure regional customization maintains
 
 ---
 
-**From:** Chief Compliance Officer  
-**To:** All Recipients  
-**Subject:** Re: Mandatory International Compliance Training Program  
+**From:** Chief Compliance Officer
+**To:** All Recipients
+**Subject:** Re: Mandatory International Compliance Training Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Thank you for the valuable regional insights. We will incorporate these considerations into the training modules:
 

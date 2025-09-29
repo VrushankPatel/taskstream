@@ -1,10 +1,10 @@
 ## Meeting Notes: Agriculture Climate Adaptation Strategy Meeting
 
-**Date:** September 29, 2025  
-**Time:** 1:00 PM - 4:00 PM  
-**Location:** Corporate Headquarters, Agriculture Division Conference Room  
-**Attendees:** CEO, Chief Sustainability Officer, VP Agriculture, Regional Farm Managers (8), Climate Scientist, Extension Services Director, Financial Planning Manager  
-**Facilitator:** Chief Sustainability Officer  
+**Date:** September 29, 2025
+**Time:** 1:00 PM - 4:00 PM
+**Location:** Corporate Headquarters, Agriculture Division Conference Room
+**Attendees:** CEO, Chief Sustainability Officer, VP Agriculture, Regional Farm Managers (8), Climate Scientist, Extension Services Director, Financial Planning Manager
+**Facilitator:** Chief Sustainability Officer
 
 ### Meeting Objective
 Develop comprehensive climate adaptation strategy for agricultural operations addressing extreme weather patterns, resource scarcity, and market volatility.

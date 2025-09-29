@@ -1,9 +1,9 @@
 ## Email Thread: Quantum Computing Adoption Initiative Launch
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team, Board of Directors  
-**Subject:** Launch of Quantum Computing Adoption Initiative  
-**Date:** September 28, 2025  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team, Board of Directors
+**Subject:** Launch of Quantum Computing Adoption Initiative
+**Date:** September 28, 2025
 
 Team,
 
@@ -21,16 +21,16 @@ This initiative aligns perfectly with our strategic goals of operational excelle
 
 I'll be scheduling individual meetings with each of you to discuss specific implications for your areas. Please let me know your availability next week.
 
-Best regards,  
-Sarah Chen  
-Chief Technology Officer  
+Best regards,
+Sarah Chen
+Chief Technology Officer
 
 ---
 
-**From:** CEO  
-**To:** Chief Technology Officer, Executive Leadership Team, Board of Directors  
-**Subject:** Re: Launch of Quantum Computing Adoption Initiative  
-**Date:** September 28, 2025  
+**From:** CEO
+**To:** Chief Technology Officer, Executive Leadership Team, Board of Directors
+**Subject:** Re: Launch of Quantum Computing Adoption Initiative
+**Date:** September 28, 2025
 
 Sarah,
 
@@ -43,16 +43,16 @@ A few quick thoughts:
 
 Looking forward to the detailed briefing.
 
-Best,  
-Michael Rodriguez  
-CEO  
+Best,
+Michael Rodriguez
+CEO
 
 ---
 
-**From:** CFO  
-**To:** Chief Technology Officer, CEO, Executive Leadership Team  
-**Subject:** Re: Launch of Quantum Computing Adoption Initiative  
-**Date:** September 28, 2025  
+**From:** CFO
+**To:** Chief Technology Officer, CEO, Executive Leadership Team
+**Subject:** Re: Launch of Quantum Computing Adoption Initiative
+**Date:** September 28, 2025
 
 Sarah, Michael,
 
@@ -62,16 +62,16 @@ One area I'd like to discuss further is the partnership terms with IBM. Can we e
 
 Also, we should model the potential revenue upside from offering quantum-optimized logistics services to our customers.
 
-Regards,  
-Jennifer Walsh  
-CFO  
+Regards,
+Jennifer Walsh
+CFO
 
 ---
 
-**From:** Chief Technology Officer  
-**To:** CEO, CFO, Executive Leadership Team, Board of Directors  
-**Subject:** Re: Launch of Quantum Computing Adoption Initiative  
-**Date:** September 28, 2025  
+**From:** Chief Technology Officer
+**To:** CEO, CFO, Executive Leadership Team, Board of Directors
+**Subject:** Re: Launch of Quantum Computing Adoption Initiative
+**Date:** September 28, 2025
 
 Thanks for the quick feedback, Michael and Jennifer.
 
@@ -84,5 +84,5 @@ Jennifer - the IBM partnership includes favorable multi-year terms with volume d
 
 I'll send calendar invites for 1:1 discussions. Looking forward to diving deeper into the implementation plan.
 
-Best,  
+Best,
 Sarah

@@ -1,40 +1,64 @@
 workflow:
-  id: "workflow_hospitality_001"
-  title: "Hotel Reservation and Guest Services Process"
-  department: "Hospitality Operations"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Reservations Manager", "Guest Services Coordinator", "Housekeeping Supervisor"]
-  trigger: "Guest inquiry or booking request"
+  id: workflow_hospitality_001
+  title: Hotel Reservation and Guest Services Process
+  department: Hospitality Operations
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Reservations Manager
+  - Guest Services Coordinator
+  - Housekeeping Supervisor
+  trigger: Guest inquiry or booking request
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Receive and validate reservation request"
-      tools: ["PMS System", "Credit Card Verification"]
-      duration: "15 minutes"
-      outputs: ["Reservation Confirmation"]
-    - step: 2
-      actor: "Reservations Manager"
-      action: "Check room availability and apply pricing rules"
-      decision_points: ["Room Type Availability", "Rate Restrictions", "Group Booking"]
-      duration: "30 minutes"
-      outputs: ["Rate Quote", "Availability Confirmation"]
-    - step: 3
-      actor: "Front Desk Agent"
-      action: "Process payment and issue confirmation"
-      tools: ["Payment Gateway", "Confirmation Email System"]
-      duration: "10 minutes"
-      outputs: ["Payment Receipt", "Guest Confirmation Email"]
-    - step: 4
-      actor: "Guest Services Coordinator"
-      action: "Prepare welcome package and special requests"
-      tools: ["Guest Profile Database", "Concierge Services"]
-      duration: "1 hour"
-      outputs: ["Room Preparation Instructions"]
-    - step: 5
-      actor: "Housekeeping Supervisor"
-      action: "Execute room preparation and quality check"
-      tools: ["Housekeeping Management System"]
-      duration: "2 hours"
-      outputs: ["Room Readiness Report"]
-  success_criteria: "Guest arrives to clean, prepared room with all requests fulfilled"
-  failure_modes: ["Overbooking", "Payment Processing Failure", "Special Request Oversight"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Receive and validate reservation request
+    tools:
+    - PMS System
+    - Credit Card Verification
+    duration: 15 minutes
+    outputs:
+    - Reservation Confirmation
+  - step: 2
+    actor: Reservations Manager
+    action: Check room availability and apply pricing rules
+    decision_points:
+    - Room Type Availability
+    - Rate Restrictions
+    - Group Booking
+    duration: 30 minutes
+    outputs:
+    - Rate Quote
+    - Availability Confirmation
+  - step: 3
+    actor: Front Desk Agent
+    action: Process payment and issue confirmation
+    tools:
+    - Payment Gateway
+    - Confirmation Email System
+    duration: 10 minutes
+    outputs:
+    - Payment Receipt
+    - Guest Confirmation Email
+  - step: 4
+    actor: Guest Services Coordinator
+    action: Prepare welcome package and special requests
+    tools:
+    - Guest Profile Database
+    - Concierge Services
+    duration: 1 hour
+    outputs:
+    - Room Preparation Instructions
+  - step: 5
+    actor: Housekeeping Supervisor
+    action: Execute room preparation and quality check
+    tools:
+    - Housekeeping Management System
+    duration: 2 hours
+    outputs:
+    - Room Readiness Report
+  success_criteria: Guest arrives to clean, prepared room with all requests fulfilled
+  failure_modes:
+  - Overbooking
+  - Payment Processing Failure
+  - Special Request Oversight

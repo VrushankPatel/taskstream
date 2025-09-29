@@ -3,8 +3,16 @@
   "context": "Municipal government implementing digital platform for citizen participation in local decision-making processes",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["Mayor", "City Council", "IT Director"],
-    "influencers": ["Citizen Advocacy Groups", "Privacy Experts", "Technology Vendors"]
+    "approvers": [
+      "Mayor",
+      "City Council",
+      "IT Director"
+    ],
+    "influencers": [
+      "Citizen Advocacy Groups",
+      "Privacy Experts",
+      "Technology Vendors"
+    ]
   },
   "request": {
     "amount": "$3.2 million",
@@ -16,28 +24,49 @@
     {
       "stage": "requirements_gathering",
       "duration": "6 weeks",
-      "activities": ["Citizen focus groups", "Stakeholder interviews", "Technology assessment"],
+      "activities": [
+        "Citizen focus groups",
+        "Stakeholder interviews",
+        "Technology assessment"
+      ],
       "outcome": "Requirements defined with privacy and accessibility priorities"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "4 weeks",
-      "activities": ["RFP process", "Vendor demonstrations", "Security audits"],
+      "activities": [
+        "RFP process",
+        "Vendor demonstrations",
+        "Security audits"
+      ],
       "outcome": "Selected secure, user-friendly platform"
     },
     {
       "stage": "pilot_testing",
       "duration": "8 weeks",
-      "activities": ["Limited rollout", "User testing", "Feedback collection"],
+      "activities": [
+        "Limited rollout",
+        "User testing",
+        "Feedback collection"
+      ],
       "outcome": "Approved for full implementation with minor adjustments"
     }
   ],
   "business_impact": {
     "expected_outcome": "Increased citizen engagement and transparent decision-making",
     "projected_value": "$1.5 million in efficiency savings",
-    "risk_factors": ["Privacy concerns", "Digital divide", "Security vulnerabilities"]
+    "risk_factors": [
+      "Privacy concerns",
+      "Digital divide",
+      "Security vulnerabilities"
+    ]
   },
-  "decision_criteria": ["Privacy compliance", "Accessibility standards", "Security requirements", "User adoption potential"],
+  "decision_criteria": [
+    "Privacy compliance",
+    "Accessibility standards",
+    "Security requirements",
+    "User adoption potential"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early citizen involvement critical for platform acceptance"
 }

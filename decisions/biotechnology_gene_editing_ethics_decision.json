@@ -3,8 +3,16 @@
   "context": "Biotechnology company developing CRISPR-based therapies for genetic diseases, facing ethical dilemmas in clinical advancement",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Board of Directors", "Ethics Committee"],
-    "influencers": ["Patient Advocacy Groups", "Regulatory Agencies", "Scientific Community"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Ethics Committee"
+    ],
+    "influencers": [
+      "Patient Advocacy Groups",
+      "Regulatory Agencies",
+      "Scientific Community"
+    ]
   },
   "request": {
     "amount": "$50 million",
@@ -16,25 +24,42 @@
     {
       "stage": "ethical_review",
       "duration": "4 weeks",
-      "activities": ["Bioethics consultation", "Stakeholder engagement", "Risk-benefit analysis"],
+      "activities": [
+        "Bioethics consultation",
+        "Stakeholder engagement",
+        "Risk-benefit analysis"
+      ],
       "outcome": "Conditional approval with enhanced oversight requirements"
     },
     {
       "stage": "scientific_validation",
       "duration": "6 weeks",
-      "activities": ["Peer review", "Independent validation studies", "Safety data review"],
+      "activities": [
+        "Peer review",
+        "Independent validation studies",
+        "Safety data review"
+      ],
       "outcome": "Scientific merit confirmed with safety concerns addressed"
     },
     {
       "stage": "regulatory_navigation",
       "duration": "8 weeks",
-      "activities": ["FDA pre-IND meetings", "Regulatory strategy development", "Compliance framework establishment"],
+      "activities": [
+        "FDA pre-IND meetings",
+        "Regulatory strategy development",
+        "Compliance framework establishment"
+      ],
       "outcome": "Regulatory pathway clarified with accelerated approval potential"
     }
   ],
   "business_impact": {
     "expected_patients_treated": 10000,
     "projected_revenue": "$2 billion",
-    "risk_factors": ["Ethical controversies", "Regulatory delays", "Off-target effects", "Public backlash"]
+    "risk_factors": [
+      "Ethical controversies",
+      "Regulatory delays",
+      "Off-target effects",
+      "Public backlash"
+    ]
   }
 }

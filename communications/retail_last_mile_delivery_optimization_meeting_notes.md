@@ -1,15 +1,15 @@
 ## Meeting Notes: Last-Mile Delivery Optimization Strategy Session
 
-**Date:** November 8, 2024  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Conference Room A, Distribution Center  
-**Attendees:**  
-- Sarah Chen, VP Supply Chain (Facilitator)  
-- Mike Rodriguez, Distribution Manager  
-- Lisa Park, Customer Experience Manager  
-- David Kim, Logistics Technology Lead  
-- Jennifer Walsh, Finance Analyst  
-- Tom Anderson, Field Operations Supervisor  
+**Date:** November 8, 2024
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Conference Room A, Distribution Center
+**Attendees:**
+- Sarah Chen, VP Supply Chain (Facilitator)
+- Mike Rodriguez, Distribution Manager
+- Lisa Park, Customer Experience Manager
+- David Kim, Logistics Technology Lead
+- Jennifer Walsh, Finance Analyst
+- Tom Anderson, Field Operations Supervisor
 
 **Objective:** Develop comprehensive strategy to optimize last-mile delivery operations, reduce costs by 20%, and improve customer satisfaction scores.
 

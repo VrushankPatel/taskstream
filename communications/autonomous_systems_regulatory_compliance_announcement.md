@@ -1,10 +1,10 @@
 ## Autonomous Systems Regulatory Compliance Update
 
-**From:** Chief Regulatory Officer  
-**To:** Executive Leadership Team, Autonomous Systems Division, Legal Department  
-**Subject:** Update on Autonomous Vehicle Regulatory Compliance Framework  
+**From:** Chief Regulatory Officer
+**To:** Executive Leadership Team, Autonomous Systems Division, Legal Department
+**Subject:** Update on Autonomous Vehicle Regulatory Compliance Framework
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Team,
 
@@ -62,7 +62,7 @@ We're requesting additional budget of $5M for continued regulatory compliance mo
 
 Please let me know if you need any additional information or have concerns about our compliance roadmap. We're committed to maintaining the highest standards of safety and regulatory compliance as we bring autonomous mobility to market.
 
-Best regards,  
-Sarah Chen  
-Chief Regulatory Officer  
+Best regards,
+Sarah Chen
+Chief Regulatory Officer
 Autonomous Mobility Division

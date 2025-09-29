@@ -108,11 +108,11 @@ This dashboard monitors crisis response effectiveness across EU retail operation
 - Weekly: Operational recovery and communication effectiveness
 - Monthly: Financial impact and customer satisfaction trends
 - Quarterly: Strategic improvements and benchmarking</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Second metrics: hospitality_asia_training_effectiveness_metrics.md (Asia hospitality training metrics)
 
-Metrics for training effectiveness in Asian hospitality. 
+Metrics for training effectiveness in Asian hospitality.
 
 <xai:function_call name="write">
 <parameter name="filePath">metrics/hospitality_asia_training_effectiveness_metrics.md

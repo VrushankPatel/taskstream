@@ -1,46 +1,73 @@
 workflow:
-  id: "workflow_ecommerce_platform"
-  title: "E-commerce Platform Management Process"
-  department: "Retail Operations"
-  complexity: "high"
-  participants: ["E-commerce Manager", "IT Support Lead", "Marketing Coordinator", "Customer Service Supervisor", "Logistics Coordinator"]
-  trigger: "Platform performance drops below 99% uptime or conversion rate falls 10%"
+  id: workflow_ecommerce_platform
+  title: E-commerce Platform Management Process
+  department: Retail Operations
+  complexity: high
+  participants:
+  - E-commerce Manager
+  - IT Support Lead
+  - Marketing Coordinator
+  - Customer Service Supervisor
+  - Logistics Coordinator
+  trigger: Platform performance drops below 99% uptime or conversion rate falls 10%
   steps:
-    - step: 1
-      actor: "E-commerce Manager"
-      action: "Monitor platform KPIs and identify performance issues"
-      tools: ["E-commerce analytics platform", "Performance monitoring tools"]
-      duration: "Hourly monitoring"
-      outputs: ["Performance incident report"]
-    - step: 2
-      actor: "IT Support Lead"
-      action: "Diagnose technical issues and implement immediate fixes"
-      tools: ["Server monitoring tools", "Debugging software"]
-      duration: "2-4 hours"
-      outputs: ["Technical fix implementation"]
-    - step: 3
-      actor: "Marketing Coordinator"
-      action: "Analyze conversion funnel and identify optimization opportunities"
-      tools: ["A/B testing platform", "Customer behavior analytics"]
-      duration: "1 day"
-      outputs: ["Conversion optimization recommendations"]
-    - step: 4
-      actor: "Customer Service Supervisor"
-      action: "Review customer feedback and support ticket trends"
-      tools: ["Customer support platform", "Feedback analysis tools"]
-      duration: "4 hours"
-      outputs: ["Customer experience insights"]
-    - step: 5
-      actor: "Logistics Coordinator"
-      action: "Assess fulfillment capacity and shipping performance"
-      tools: ["Order management system", "Shipping carrier APIs"]
-      duration: "3 hours"
-      outputs: ["Fulfillment capacity report"]
-    - step: 6
-      actor: "E-commerce Manager"
-      action: "Implement platform improvements and test changes"
-      tools: ["Staging environment", "Load testing tools"]
-      duration: "2 days"
-      outputs: ["Platform update deployment"]
-  success_criteria: "Platform uptime restored to 99.9%, conversion rate improves by 5%"
-  failure_modes: ["Extended downtime causing revenue loss", "Failed deployments introducing new bugs", "Customer service backlog overwhelming support teams"]
+  - step: 1
+    actor: E-commerce Manager
+    action: Monitor platform KPIs and identify performance issues
+    tools:
+    - E-commerce analytics platform
+    - Performance monitoring tools
+    duration: Hourly monitoring
+    outputs:
+    - Performance incident report
+  - step: 2
+    actor: IT Support Lead
+    action: Diagnose technical issues and implement immediate fixes
+    tools:
+    - Server monitoring tools
+    - Debugging software
+    duration: 2-4 hours
+    outputs:
+    - Technical fix implementation
+  - step: 3
+    actor: Marketing Coordinator
+    action: Analyze conversion funnel and identify optimization opportunities
+    tools:
+    - A/B testing platform
+    - Customer behavior analytics
+    duration: 1 day
+    outputs:
+    - Conversion optimization recommendations
+  - step: 4
+    actor: Customer Service Supervisor
+    action: Review customer feedback and support ticket trends
+    tools:
+    - Customer support platform
+    - Feedback analysis tools
+    duration: 4 hours
+    outputs:
+    - Customer experience insights
+  - step: 5
+    actor: Logistics Coordinator
+    action: Assess fulfillment capacity and shipping performance
+    tools:
+    - Order management system
+    - Shipping carrier APIs
+    duration: 3 hours
+    outputs:
+    - Fulfillment capacity report
+  - step: 6
+    actor: E-commerce Manager
+    action: Implement platform improvements and test changes
+    tools:
+    - Staging environment
+    - Load testing tools
+    duration: 2 days
+    outputs:
+    - Platform update deployment
+  success_criteria: Platform uptime restored to 99.9%, conversion rate improves by
+    5%
+  failure_modes:
+  - Extended downtime causing revenue loss
+  - Failed deployments introducing new bugs
+  - Customer service backlog overwhelming support teams

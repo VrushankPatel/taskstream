@@ -134,6 +134,6 @@ This policy applies to all serverless functions, workflows, and related infrastr
 - Incident Response and Crisis Management Policy
 - Access Control Policy
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** October 28, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** October 28, 2025
 **Next Review Date:** October 28, 2026

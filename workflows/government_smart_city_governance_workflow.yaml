@@ -1,41 +1,72 @@
 workflow:
-  id: "workflow_021_005"
-  title: "Smart City Governance Framework Implementation"
-  department: "Urban Planning"
-  complexity: "high"
-  participants: ["City Manager", "Technology Director", "Policy Advisor", "Community Liaison", "Data Privacy Officer"]
-  trigger: "City council mandates 40% efficiency improvement in municipal services"
+  id: workflow_021_005
+  title: Smart City Governance Framework Implementation
+  department: Urban Planning
+  complexity: high
+  participants:
+  - City Manager
+  - Technology Director
+  - Policy Advisor
+  - Community Liaison
+  - Data Privacy Officer
+  trigger: City council mandates 40% efficiency improvement in municipal services
   steps:
-    - step: 1
-      actor: "Policy Advisor"
-      action: "Develop governance framework and stakeholder engagement plan"
-      tools: ["Policy development templates", "Stakeholder mapping tools"]
-      duration: "6 weeks"
-      outputs: ["Governance framework", "Stakeholder engagement plan"]
-    - step: 2
-      actor: "Technology Director"
-      action: "Design integrated data platform and IoT infrastructure"
-      decision_points: ["Data interoperability", "Security requirements", "Scalability needs"]
-      tools: ["Technical architecture tools", "Security frameworks"]
-      duration: "8 weeks"
-      outputs: ["Technical architecture", "Infrastructure roadmap"]
-    - step: 3
-      actor: "Community Liaison"
-      action: "Conduct public consultations and address community concerns"
-      tools: ["Community engagement platforms", "Survey tools"]
-      duration: "4 weeks"
-      outputs: ["Community feedback report", "Mitigation strategies"]
-    - step: 4
-      actor: "Data Privacy Officer"
-      action: "Establish data governance and privacy protection measures"
-      tools: ["Privacy impact assessments", "Compliance frameworks"]
-      duration: "3 weeks"
-      outputs: ["Data governance policy", "Privacy protection protocols"]
-    - step: 5
-      actor: "City Manager"
-      action: "Launch pilot programs and establish monitoring systems"
-      tools: ["Pilot evaluation frameworks", "Performance dashboards"]
-      duration: "12 weeks"
-      outputs: ["Pilot results report", "Full implementation plan"]
-  success_criteria: "40% improvement in service delivery efficiency, 70% citizen satisfaction"
-  failure_modes: ["Insufficient community buy-in", "Data privacy concerns", "Technical integration challenges"]
+  - step: 1
+    actor: Policy Advisor
+    action: Develop governance framework and stakeholder engagement plan
+    tools:
+    - Policy development templates
+    - Stakeholder mapping tools
+    duration: 6 weeks
+    outputs:
+    - Governance framework
+    - Stakeholder engagement plan
+  - step: 2
+    actor: Technology Director
+    action: Design integrated data platform and IoT infrastructure
+    decision_points:
+    - Data interoperability
+    - Security requirements
+    - Scalability needs
+    tools:
+    - Technical architecture tools
+    - Security frameworks
+    duration: 8 weeks
+    outputs:
+    - Technical architecture
+    - Infrastructure roadmap
+  - step: 3
+    actor: Community Liaison
+    action: Conduct public consultations and address community concerns
+    tools:
+    - Community engagement platforms
+    - Survey tools
+    duration: 4 weeks
+    outputs:
+    - Community feedback report
+    - Mitigation strategies
+  - step: 4
+    actor: Data Privacy Officer
+    action: Establish data governance and privacy protection measures
+    tools:
+    - Privacy impact assessments
+    - Compliance frameworks
+    duration: 3 weeks
+    outputs:
+    - Data governance policy
+    - Privacy protection protocols
+  - step: 5
+    actor: City Manager
+    action: Launch pilot programs and establish monitoring systems
+    tools:
+    - Pilot evaluation frameworks
+    - Performance dashboards
+    duration: 12 weeks
+    outputs:
+    - Pilot results report
+    - Full implementation plan
+  success_criteria: 40% improvement in service delivery efficiency, 70% citizen satisfaction
+  failure_modes:
+  - Insufficient community buy-in
+  - Data privacy concerns
+  - Technical integration challenges

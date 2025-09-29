@@ -1,9 +1,9 @@
 ## Email Thread: Gene Editing Ethics Committee Discussion
 
-**From:** Dr. Sarah Chen, Lead Scientist  
-**To:** Ethics Committee, Regulatory Affairs Team  
-**Subject:** Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial  
-**Date:** October 15, 2025  
+**From:** Dr. Sarah Chen, Lead Scientist
+**To:** Ethics Committee, Regulatory Affairs Team
+**Subject:** Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial
+**Date:** October 15, 2025
 
 Team,
 
@@ -17,15 +17,15 @@ Key concerns:
 
 Can we schedule for next Tuesday at 2 PM? I've attached the preliminary ethics assessment.
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Dr. Michael Rodriguez, Ethics Committee Chair  
-**To:** Dr. Sarah Chen, Ethics Committee, Regulatory Affairs Team  
-**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial  
-**Date:** October 15, 2025  
+**From:** Dr. Michael Rodriguez, Ethics Committee Chair
+**To:** Dr. Sarah Chen, Ethics Committee, Regulatory Affairs Team
+**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial
+**Date:** October 15, 2025
 
 Sarah,
 
@@ -43,10 +43,10 @@ Michael
 
 ---
 
-**From:** Dr. Sarah Chen, Lead Scientist  
-**To:** Dr. Michael Rodriguez, Ethics Committee, Regulatory Affairs Team  
-**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial  
-**Date:** October 15, 2025  
+**From:** Dr. Sarah Chen, Lead Scientist
+**To:** Dr. Michael Rodriguez, Ethics Committee, Regulatory Affairs Team
+**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial
+**Date:** October 15, 2025
 
 Michael,
 
@@ -58,10 +58,10 @@ Sarah
 
 ---
 
-**From:** Dr. Michael Rodriguez, Ethics Committee Chair  
-**To:** Dr. Sarah Chen, Ethics Committee, Regulatory Affairs Team, Regulatory Consultants  
-**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial  
-**Date:** October 15, 2025  
+**From:** Dr. Michael Rodriguez, Ethics Committee Chair
+**To:** Dr. Sarah Chen, Ethics Committee, Regulatory Affairs Team, Regulatory Consultants
+**Subject:** Re: Urgent Discussion Needed: CRISPR Ethics Framework for Duchenne Muscular Dystrophy Trial
+**Date:** October 15, 2025
 
 Good point, Sarah. I've added our regulatory consultants to the distribution.
 

@@ -1,64 +1,109 @@
 workflow:
-  id: "workflow_agriculture_pest_management"
-  title: "Agriculture Pest Management Workflow"
-  department: "Crop Protection"
-  complexity: "medium"
-  participants: ["Farm Manager", "Agronomist", "Pest Control Specialist", "Equipment Operator", "Environmental Coordinator", "Quality Assurance"]
-  trigger: "Pest monitoring indicates threshold exceeded"
+  id: workflow_agriculture_pest_management
+  title: Agriculture Pest Management Workflow
+  department: Crop Protection
+  complexity: medium
+  participants:
+  - Farm Manager
+  - Agronomist
+  - Pest Control Specialist
+  - Equipment Operator
+  - Environmental Coordinator
+  - Quality Assurance
+  trigger: Pest monitoring indicates threshold exceeded
   steps:
-    - step: 1
-      actor: "Agronomist"
-      action: "Pest identification and assessment"
-      tools: ["Pest Monitoring Traps", "Identification Guides", "Weather Data"]
-      duration: "1 day"
-      outputs: ["Pest Identification Report", "Infestation Assessment"]
-    - step: 2
-      actor: "Pest Control Specialist"
-      action: "Treatment strategy development"
-      decision_points: ["Treatment method selection", "Chemical vs biological options"]
-      duration: "2 days"
-      outputs: ["Treatment Plan", "Product Selection"]
-    - step: 3
-      actor: "Environmental Coordinator"
-      action: "Environmental impact assessment"
-      tools: ["Environmental Risk Assessment Tools", "Regulatory Databases"]
-      duration: "1 day"
-      outputs: ["Environmental Impact Report", "Permit Applications"]
-    - step: 4
-      actor: "Farm Manager"
-      action: "Resource and scheduling coordination"
-      decision_points: ["Equipment availability", "Weather conditions"]
-      duration: "1 day"
-      outputs: ["Treatment Schedule", "Resource Allocation"]
-    - step: 5
-      actor: "Equipment Operator"
-      action: "Treatment application"
-      tools: ["Spraying Equipment", "GPS-guided Systems", "PPE"]
-      duration: "2-4 days"
-      outputs: ["Application Records", "Safety Documentation"]
-    - step: 6
-      actor: "Pest Control Specialist"
-      action: "Post-treatment monitoring"
-      tools: ["Monitoring Equipment", "Data Collection Apps"]
-      duration: "1 week"
-      outputs: ["Effectiveness Assessment", "Follow-up Recommendations"]
-    - step: 7
-      actor: "Quality Assurance"
-      action: "Residue testing and compliance verification"
-      tools: ["Testing Laboratories", "Compliance Databases"]
-      duration: "3 days"
-      outputs: ["Residue Test Results", "Compliance Reports"]
-    - step: 8
-      actor: "Agronomist"
-      action: "Performance analysis and preventive measures"
-      decision_points: ["Treatment effectiveness", "Preventive strategy updates"]
-      duration: "1 day"
-      outputs: ["Performance Report", "Updated Pest Management Plan"]
-  success_criteria: "Pest population controlled below economic threshold, crop yield protected, environmental impact minimized, regulatory compliance maintained"
-  failure_modes: ["Ineffective treatment leading to crop loss", "Environmental contamination", "Regulatory violations", "Resistance development"]
+  - step: 1
+    actor: Agronomist
+    action: Pest identification and assessment
+    tools:
+    - Pest Monitoring Traps
+    - Identification Guides
+    - Weather Data
+    duration: 1 day
+    outputs:
+    - Pest Identification Report
+    - Infestation Assessment
+  - step: 2
+    actor: Pest Control Specialist
+    action: Treatment strategy development
+    decision_points:
+    - Treatment method selection
+    - Chemical vs biological options
+    duration: 2 days
+    outputs:
+    - Treatment Plan
+    - Product Selection
+  - step: 3
+    actor: Environmental Coordinator
+    action: Environmental impact assessment
+    tools:
+    - Environmental Risk Assessment Tools
+    - Regulatory Databases
+    duration: 1 day
+    outputs:
+    - Environmental Impact Report
+    - Permit Applications
+  - step: 4
+    actor: Farm Manager
+    action: Resource and scheduling coordination
+    decision_points:
+    - Equipment availability
+    - Weather conditions
+    duration: 1 day
+    outputs:
+    - Treatment Schedule
+    - Resource Allocation
+  - step: 5
+    actor: Equipment Operator
+    action: Treatment application
+    tools:
+    - Spraying Equipment
+    - GPS-guided Systems
+    - PPE
+    duration: 2-4 days
+    outputs:
+    - Application Records
+    - Safety Documentation
+  - step: 6
+    actor: Pest Control Specialist
+    action: Post-treatment monitoring
+    tools:
+    - Monitoring Equipment
+    - Data Collection Apps
+    duration: 1 week
+    outputs:
+    - Effectiveness Assessment
+    - Follow-up Recommendations
+  - step: 7
+    actor: Quality Assurance
+    action: Residue testing and compliance verification
+    tools:
+    - Testing Laboratories
+    - Compliance Databases
+    duration: 3 days
+    outputs:
+    - Residue Test Results
+    - Compliance Reports
+  - step: 8
+    actor: Agronomist
+    action: Performance analysis and preventive measures
+    decision_points:
+    - Treatment effectiveness
+    - Preventive strategy updates
+    duration: 1 day
+    outputs:
+    - Performance Report
+    - Updated Pest Management Plan
+  success_criteria: Pest population controlled below economic threshold, crop yield
+    protected, environmental impact minimized, regulatory compliance maintained
+  failure_modes:
+  - Ineffective treatment leading to crop loss
+  - Environmental contamination
+  - Regulatory violations
+  - Resistance development
   metrics:
-    - "Pest control effectiveness: Target 95% reduction"
-    - "Crop yield protection: Target 98% maintained"
-    - "Environmental impact score: Target <2 on scale"
-    - "Regulatory compliance rate: Target 100%"
-    - "Treatment cost efficiency: Target <$50/acre"
+  - 'Pest control effectiveness: Target 95% reduction'
+  - 'Crop yield protection: Target 98% maintained'
+  - 'Environmental impact score: Target <2 on scale'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Treatment cost efficiency: Target <$50/acre'

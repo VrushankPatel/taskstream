@@ -3,8 +3,15 @@
   "context": "State government agency modernizing citizen services with digital transformation initiative",
   "stakeholders": {
     "requester": "Director of Digital Services",
-    "approvers": ["State CIO", "Governor's Office"],
-    "influencers": ["Department Heads", "IT Security Team", "Citizen Advocacy Groups"]
+    "approvers": [
+      "State CIO",
+      "Governor's Office"
+    ],
+    "influencers": [
+      "Department Heads",
+      "IT Security Team",
+      "Citizen Advocacy Groups"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,32 +23,56 @@
     {
       "stage": "service_assessment",
       "duration": "4 weeks",
-      "activities": ["Current service analysis", "Citizen feedback review", "Process automation opportunities identification"],
+      "activities": [
+        "Current service analysis",
+        "Citizen feedback review",
+        "Process automation opportunities identification"
+      ],
       "outcome": "High-impact automation opportunities identified"
     },
     {
       "stage": "technology_selection",
       "duration": "5 weeks",
-      "activities": ["Platform vendor evaluation", "Security compliance review", "Integration capability assessment"],
+      "activities": [
+        "Platform vendor evaluation",
+        "Security compliance review",
+        "Integration capability assessment"
+      ],
       "outcome": "AI-powered platform selected"
     },
     {
       "stage": "privacy_security_review",
       "duration": "3 weeks",
-      "activities": ["Data privacy impact assessment", "Security framework development", "Compliance audit preparation"],
+      "activities": [
+        "Data privacy impact assessment",
+        "Security framework development",
+        "Compliance audit preparation"
+      ],
       "outcome": "Privacy and security requirements met"
     },
     {
       "stage": "funding_allocation",
       "duration": "3 weeks",
-      "activities": ["Budget request development", "Legislative approval process", "Implementation planning"],
+      "activities": [
+        "Budget request development",
+        "Legislative approval process",
+        "Implementation planning"
+      ],
       "outcome": "Approved with $18M allocation"
     }
   ],
   "business_impact": {
     "expected_efficiency_gain": "60%",
     "projected_citizen_satisfaction": "+30%",
-    "risk_factors": ["Data privacy concerns", "System integration challenges", "Staff resistance to change"],
-    "strategic_benefits": ["Improved citizen experience", "Reduced operational costs", "Enhanced government transparency"]
+    "risk_factors": [
+      "Data privacy concerns",
+      "System integration challenges",
+      "Staff resistance to change"
+    ],
+    "strategic_benefits": [
+      "Improved citizen experience",
+      "Reduced operational costs",
+      "Enhanced government transparency"
+    ]
   }
 }

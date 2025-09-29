@@ -1,50 +1,71 @@
 workflow:
-  id: "workflow_hospitality_medium_guest_services"
-  title: "Hotel Guest Services Workflow"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Guest Services Agent", "Concierge", "Housekeeping Manager", "Front Desk Supervisor"]
-  trigger: "Guest service request"
+  id: workflow_hospitality_medium_guest_services
+  title: Hotel Guest Services Workflow
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Guest Services Agent
+  - Concierge
+  - Housekeeping Manager
+  - Front Desk Supervisor
+  trigger: Guest service request
   steps:
-    - step: 1
-      actor: "Guest Services Agent"
-      action: "Receive and log guest request"
-      tools: ["Service request system", "Phone system"]
-      duration: "5 minutes"
-      outputs: ["Service request ticket"]
-    - step: 2
-      actor: "Guest Services Agent"
-      action: "Assess request urgency and assign priority"
-      tools: ["Service request system"]
-      duration: "3 minutes"
-      outputs: ["Priority classification"]
-    - step: 3
-      actor: "Concierge"
-      action: "Coordinate with relevant departments"
-      tools: ["Interdepartmental communication system"]
-      duration: "10 minutes"
-      outputs: ["Coordination notes"]
-    - step: 4
-      actor: "Housekeeping Manager"
-      action: "Execute service if housekeeping-related"
-      tools: ["Housekeeping assignment system"]
-      duration: "Variable"
-      outputs: ["Service completion confirmation"]
-    - step: 5
-      actor: "Guest Services Agent"
-      action: "Follow up with guest on service status"
-      tools: ["Phone system", "Service request system"]
-      duration: "5 minutes"
-      outputs: ["Guest feedback"]
-    - step: 6
-      actor: "Front Desk Supervisor"
-      action: "Review service quality and close ticket"
-      tools: ["Service request system"]
-      duration: "5 minutes"
-      outputs: ["Closed service ticket"]
-  success_criteria: "Service request resolved within 2 hours"
-  failure_modes: ["Communication breakdowns", "Resource unavailability", "Priority misclassification"]
+  - step: 1
+    actor: Guest Services Agent
+    action: Receive and log guest request
+    tools:
+    - Service request system
+    - Phone system
+    duration: 5 minutes
+    outputs:
+    - Service request ticket
+  - step: 2
+    actor: Guest Services Agent
+    action: Assess request urgency and assign priority
+    tools:
+    - Service request system
+    duration: 3 minutes
+    outputs:
+    - Priority classification
+  - step: 3
+    actor: Concierge
+    action: Coordinate with relevant departments
+    tools:
+    - Interdepartmental communication system
+    duration: 10 minutes
+    outputs:
+    - Coordination notes
+  - step: 4
+    actor: Housekeeping Manager
+    action: Execute service if housekeeping-related
+    tools:
+    - Housekeeping assignment system
+    duration: Variable
+    outputs:
+    - Service completion confirmation
+  - step: 5
+    actor: Guest Services Agent
+    action: Follow up with guest on service status
+    tools:
+    - Phone system
+    - Service request system
+    duration: 5 minutes
+    outputs:
+    - Guest feedback
+  - step: 6
+    actor: Front Desk Supervisor
+    action: Review service quality and close ticket
+    tools:
+    - Service request system
+    duration: 5 minutes
+    outputs:
+    - Closed service ticket
+  success_criteria: Service request resolved within 2 hours
+  failure_modes:
+  - Communication breakdowns
+  - Resource unavailability
+  - Priority misclassification
   metrics:
-    - "Resolution time: 1.5 hours average"
-    - "Guest satisfaction: 4.6/5"
-    - "First contact resolution: 78%"
+  - 'Resolution time: 1.5 hours average'
+  - 'Guest satisfaction: 4.6/5'
+  - 'First contact resolution: 78%'

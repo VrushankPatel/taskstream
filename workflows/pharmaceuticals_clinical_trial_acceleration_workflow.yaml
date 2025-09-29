@@ -1,46 +1,92 @@
 workflow:
-  id: "workflow_pharma_clinical_trial_acceleration"
-  title: "Clinical Trial Acceleration Workflow"
-  department: "Clinical Development"
-  complexity: "high"
-  participants: ["Clinical Operations Director", "Regulatory Affairs Manager", "Data Science Lead", "Patient Recruitment Specialist", "Medical Monitor"]
-  trigger: "New drug candidate approval for clinical development"
+  id: workflow_pharma_clinical_trial_acceleration
+  title: Clinical Trial Acceleration Workflow
+  department: Clinical Development
+  complexity: high
+  participants:
+  - Clinical Operations Director
+  - Regulatory Affairs Manager
+  - Data Science Lead
+  - Patient Recruitment Specialist
+  - Medical Monitor
+  trigger: New drug candidate approval for clinical development
   steps:
-    - step: 1
-      actor: "Clinical Operations Director"
-      action: "Develop accelerated trial protocol and timeline planning"
-      tools: ["Protocol writing software", "Timeline management tools", "Regulatory guidance documents"]
-      duration: "4 weeks"
-      outputs: ["Accelerated trial protocol", "Timeline roadmap", "Resource allocation plan"]
-    - step: 2
-      actor: "Data Science Lead"
-      action: "Implement AI-driven patient recruitment and adaptive trial design"
-      tools: ["Machine learning platforms", "Patient database analytics", "Adaptive design software"]
-      duration: "6 weeks"
-      outputs: ["Patient recruitment strategy", "Adaptive trial algorithms", "Data monitoring plan"]
-    - step: 3
-      actor: "Regulatory Affairs Manager"
-      action: "Prepare regulatory submissions for accelerated pathways"
-      tools: ["Regulatory submission systems", "FDA guidance databases", "Compliance checklists"]
-      duration: "8 weeks"
-      outputs: ["Regulatory submission package", "Ethics committee applications", "Regulatory correspondence"]
-    - step: 4
-      actor: "Patient Recruitment Specialist"
-      action: "Execute multi-channel patient recruitment campaign"
-      tools: ["Patient recruitment platforms", "Social media analytics", "Clinical trial management systems"]
-      duration: "12 weeks"
-      outputs: ["Patient enrollment metrics", "Recruitment campaign reports", "Diversity inclusion data"]
-    - step: 5
-      actor: "Medical Monitor"
-      action: "Conduct ongoing safety monitoring and data review"
-      tools: ["Safety monitoring dashboards", "Statistical analysis software", "Medical review platforms"]
-      duration: "Continuous"
-      outputs: ["Safety reports", "Data quality assessments", "Protocol deviation logs"]
-    - step: 6
-      actor: "Cross-functional Team"
-      action: "Perform interim analysis and adaptive modifications"
-      tools: ["Statistical software", "Data visualization tools", "Decision support systems"]
-      duration: "4 weeks"
-      outputs: ["Interim analysis report", "Protocol amendments", "Go/no-go decisions"]
-  success_criteria: "Trial completion 30% faster than traditional timelines with maintained safety and efficacy"
-  failure_modes: ["Patient recruitment shortfalls", "Regulatory delays", "Data quality issues", "Safety concerns"]
+  - step: 1
+    actor: Clinical Operations Director
+    action: Develop accelerated trial protocol and timeline planning
+    tools:
+    - Protocol writing software
+    - Timeline management tools
+    - Regulatory guidance documents
+    duration: 4 weeks
+    outputs:
+    - Accelerated trial protocol
+    - Timeline roadmap
+    - Resource allocation plan
+  - step: 2
+    actor: Data Science Lead
+    action: Implement AI-driven patient recruitment and adaptive trial design
+    tools:
+    - Machine learning platforms
+    - Patient database analytics
+    - Adaptive design software
+    duration: 6 weeks
+    outputs:
+    - Patient recruitment strategy
+    - Adaptive trial algorithms
+    - Data monitoring plan
+  - step: 3
+    actor: Regulatory Affairs Manager
+    action: Prepare regulatory submissions for accelerated pathways
+    tools:
+    - Regulatory submission systems
+    - FDA guidance databases
+    - Compliance checklists
+    duration: 8 weeks
+    outputs:
+    - Regulatory submission package
+    - Ethics committee applications
+    - Regulatory correspondence
+  - step: 4
+    actor: Patient Recruitment Specialist
+    action: Execute multi-channel patient recruitment campaign
+    tools:
+    - Patient recruitment platforms
+    - Social media analytics
+    - Clinical trial management systems
+    duration: 12 weeks
+    outputs:
+    - Patient enrollment metrics
+    - Recruitment campaign reports
+    - Diversity inclusion data
+  - step: 5
+    actor: Medical Monitor
+    action: Conduct ongoing safety monitoring and data review
+    tools:
+    - Safety monitoring dashboards
+    - Statistical analysis software
+    - Medical review platforms
+    duration: Continuous
+    outputs:
+    - Safety reports
+    - Data quality assessments
+    - Protocol deviation logs
+  - step: 6
+    actor: Cross-functional Team
+    action: Perform interim analysis and adaptive modifications
+    tools:
+    - Statistical software
+    - Data visualization tools
+    - Decision support systems
+    duration: 4 weeks
+    outputs:
+    - Interim analysis report
+    - Protocol amendments
+    - Go/no-go decisions
+  success_criteria: Trial completion 30% faster than traditional timelines with maintained
+    safety and efficacy
+  failure_modes:
+  - Patient recruitment shortfalls
+  - Regulatory delays
+  - Data quality issues
+  - Safety concerns

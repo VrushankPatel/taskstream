@@ -1,8 +1,8 @@
 ## Email Thread: Retail Supply Chain Disruption Response
 
-**From:** Supply Chain Director  
-**To:** Executive Team, Store Operations, Procurement Team  
-**Subject:** CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory  
+**From:** Supply Chain Director
+**To:** Executive Team, Store Operations, Procurement Team
+**Subject:** CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory
 
 Team,
 
@@ -21,16 +21,16 @@ We have confirmed that the ongoing port congestion will delay 40% of our Q4 cont
 
 Please provide status updates on your mitigation plans by 5 PM today.
 
-Regards,  
-David Park  
-Supply Chain Director  
-TechRetail Corp  
+Regards,
+David Park
+Supply Chain Director
+TechRetail Corp
 
 ---
 
-**From:** VP Procurement  
-**To:** Supply Chain Director, Executive Team  
-**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory  
+**From:** VP Procurement
+**To:** Supply Chain Director, Executive Team
+**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory
 
 David,
 
@@ -43,14 +43,14 @@ Procurement team has identified three alternative suppliers with available inven
 
 We can secure commitments within 48 hours, but costs will increase 35%.
 
-Jennifer Walsh  
-VP Procurement  
+Jennifer Walsh
+VP Procurement
 
 ---
 
-**From:** Store Operations Director  
-**To:** Supply Chain Director, Procurement VP  
-**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory  
+**From:** Store Operations Director
+**To:** Supply Chain Director, Procurement VP
+**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory
 
 David and Jennifer,
 
@@ -64,14 +64,14 @@ Store teams are implementing inventory controls to prevent stockouts. We've prio
 
 This should minimize customer impact while we resolve the supply issues.
 
-Mark Thompson  
-Store Operations Director  
+Mark Thompson
+Store Operations Director
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Executive Team, All Recipients  
-**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory  
+**From:** Supply Chain Director
+**To:** Executive Team, All Recipients
+**Subject:** Re: CRITICAL: Supply Chain Disruption - Port Congestion Impacting Q4 Inventory
 
 Thank you for the rapid response. The mitigation plans look comprehensive.
 
@@ -83,5 +83,5 @@ Thank you for the rapid response. The mitigation plans look comprehensive.
 
 We'll reconvene daily at 8 AM to monitor progress. Let's turn this challenge into an opportunity to demonstrate our resilience.
 
-Regards,  
+Regards,
 David

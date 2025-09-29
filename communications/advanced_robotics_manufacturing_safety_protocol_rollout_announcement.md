@@ -1,9 +1,9 @@
 ## Email Announcement: Advanced Robotics Manufacturing Safety Protocol Rollout
 
-**From:** Operations Director  
-**To:** All Manufacturing Employees, Safety Committee, Union Representatives  
-**Subject:** Important Update: New Safety Protocols for Collaborative Robotics Implementation  
-**Date:** October 20, 2025  
+**From:** Operations Director
+**To:** All Manufacturing Employees, Safety Committee, Union Representatives
+**Subject:** Important Update: New Safety Protocols for Collaborative Robotics Implementation
+**Date:** October 20, 2025
 
 Dear Team,
 
@@ -15,38 +15,38 @@ Following extensive evaluation and testing, we have selected collaborative robot
 ### New Safety Protocols
 Effective November 1, 2025, the following safety protocols will be implemented:
 
-**1. Personal Protective Equipment (PPE) Requirements**  
-- All personnel working within 2 meters of robotic systems must wear high-visibility vests  
-- Safety glasses with side shields are mandatory in robot work areas  
-- Anti-slip footwear is required for all assembly line work  
+**1. Personal Protective Equipment (PPE) Requirements**
+- All personnel working within 2 meters of robotic systems must wear high-visibility vests
+- Safety glasses with side shields are mandatory in robot work areas
+- Anti-slip footwear is required for all assembly line work
 
-**2. Access Control**  
-- Restricted access zones around robotic workstations with badge-activated entry  
-- Authorized personnel only in robot operating areas during production  
-- Visitors must be escorted and briefed on safety protocols  
+**2. Access Control**
+- Restricted access zones around robotic workstations with badge-activated entry
+- Authorized personnel only in robot operating areas during production
+- Visitors must be escorted and briefed on safety protocols
 
-**3. Emergency Procedures**  
-- Emergency stop buttons located every 3 meters along assembly lines  
-- Automated shutdown systems triggered by safety sensor activation  
-- Designated safe zones marked with green floor tape for emergency evacuation  
+**3. Emergency Procedures**
+- Emergency stop buttons located every 3 meters along assembly lines
+- Automated shutdown systems triggered by safety sensor activation
+- Designated safe zones marked with green floor tape for emergency evacuation
 
-**4. Training Requirements**  
-- Mandatory 4-hour safety training for all affected employees  
-- Annual refresher training for ongoing compliance  
-- Specialized training for robot operators and maintenance personnel  
+**4. Training Requirements**
+- Mandatory 4-hour safety training for all affected employees
+- Annual refresher training for ongoing compliance
+- Specialized training for robot operators and maintenance personnel
 
 ### Training Schedule
 We have scheduled training sessions during normal work hours to minimize disruption:
 
-- **Week of October 23:** Line supervisors and safety officers  
-- **Week of October 30:** Assembly line workers (shifts 1-3)  
-- **Week of November 6:** Maintenance and engineering staff  
+- **Week of October 23:** Line supervisors and safety officers
+- **Week of October 30:** Assembly line workers (shifts 1-3)
+- **Week of November 6:** Maintenance and engineering staff
 
 ### Support and Resources
-- A dedicated safety hotline (ext. 4567) is available for questions  
-- Safety officers will be stationed in the training areas during rollout  
-- Online training modules available through the employee portal  
-- Union representatives will be present during all training sessions  
+- A dedicated safety hotline (ext. 4567) is available for questions
+- Safety officers will be stationed in the training areas during rollout
+- Online training modules available through the employee portal
+- Union representatives will be present during all training sessions
 
 ### Our Commitment
 This implementation represents our commitment to technological advancement while prioritizing employee safety and well-being. The collaborative robots will handle repetitive, physically demanding tasks, allowing our skilled workforce to focus on higher-value activities that require human judgment and expertise.
@@ -55,6 +55,6 @@ We value your input and encourage you to share any concerns through your supervi
 
 Please contact your supervisor if you have scheduling conflicts with the training sessions.
 
-Best regards,  
-Operations Director  
+Best regards,
+Operations Director
 Manufacturing Division

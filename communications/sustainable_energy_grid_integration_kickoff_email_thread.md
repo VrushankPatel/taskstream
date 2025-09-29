@@ -1,9 +1,9 @@
 ## Email Thread: Renewable Energy Grid Integration Project Kickoff
 
-**From:** Maria Gonzalez, VP Grid Operations  
-**To:** Grid Integration Team, Renewable Energy Partners, Regulatory Affairs  
-**Subject:** Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration  
-**Date:** September 20, 2025  
+**From:** Maria Gonzalez, VP Grid Operations
+**To:** Grid Integration Team, Renewable Energy Partners, Regulatory Affairs
+**Subject:** Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration
+**Date:** September 20, 2025
 
 Team,
 
@@ -26,15 +26,15 @@ I've attached the project charter and initial timeline. Let's schedule a kickoff
 
 Questions or concerns before then?
 
-Best,  
+Best,
 Maria
 
 ---
 
-**From:** David Kim, Renewable Energy Director  
-**To:** Maria Gonzalez, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs  
-**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration  
-**Date:** September 20, 2025  
+**From:** David Kim, Renewable Energy Director
+**To:** Maria Gonzalez, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs
+**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration
+**Date:** September 20, 2025
 
 Maria,
 
@@ -51,10 +51,10 @@ David
 
 ---
 
-**From:** Jennifer Walsh, Regulatory Affairs  
-**To:** Maria Gonzalez, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs  
-**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration  
-**Date:** September 21, 2025  
+**From:** Jennifer Walsh, Regulatory Affairs
+**To:** Maria Gonzalez, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs
+**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration
+**Date:** September 21, 2025
 
 Maria,
 
@@ -66,10 +66,10 @@ Jennifer
 
 ---
 
-**From:** Maria Gonzalez, VP Grid Operations  
-**To:** David Kim, Jennifer Walsh, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs  
-**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration  
-**Date:** September 21, 2025  
+**From:** Maria Gonzalez, VP Grid Operations
+**To:** David Kim, Jennifer Walsh, Grid Integration Team, Renewable Energy Partners, Regulatory Affairs
+**Subject:** Re: Project Phoenix Kickoff: Large-Scale Solar + Storage Grid Integration
+**Date:** September 21, 2025
 
 Thanks for the quick feedback, David and Jennifer.
 

@@ -1,9 +1,9 @@
 ## Email Thread: Autonomous Vehicle Safety Certification Update
 
-**From:** Safety Director  
-**To:** Fleet Operations Team, Executive Leadership  
-**Subject:** Autonomous Vehicle Safety Certification - Status Update  
-**Date:** August 15, 2025  
+**From:** Safety Director
+**To:** Fleet Operations Team, Executive Leadership
+**Subject:** Autonomous Vehicle Safety Certification - Status Update
+**Date:** August 15, 2025
 
 Team,
 
@@ -21,31 +21,31 @@ Following our recent safety testing phase, I wanted to provide an update on our 
 
 We're on track for certification. The testing results are very encouraging.
 
-Best,  
-Robert Martinez  
-Safety Director  
+Best,
+Robert Martinez
+Safety Director
 
 ---
 
-**From:** Fleet Operations Manager  
-**To:** Safety Director, Fleet Operations Team  
-**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update  
-**Date:** August 15, 2025  
+**From:** Fleet Operations Manager
+**To:** Safety Director, Fleet Operations Team
+**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update
+**Date:** August 15, 2025
 
 Robert,
 
 Excellent progress! The safety metrics are impressive. Can you share more details on the software issues identified? We need to ensure our maintenance teams are prepared.
 
-Thanks,  
-Lisa Chen  
-Fleet Operations Manager  
+Thanks,
+Lisa Chen
+Fleet Operations Manager
 
 ---
 
-**From:** Safety Director  
-**To:** Fleet Operations Manager, Fleet Operations Team  
-**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update  
-**Date:** August 15, 2025  
+**From:** Safety Director
+**To:** Fleet Operations Manager, Fleet Operations Team
+**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update
+**Date:** August 15, 2025
 
 Lisa,
 
@@ -56,34 +56,34 @@ The software issues were:
 
 All fixes have been tested and validated. Training materials for maintenance teams will be distributed next week.
 
-Regards,  
-Robert  
+Regards,
+Robert
 
 ---
 
-**From:** CEO  
-**To:** Safety Director, Executive Leadership  
-**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update  
-**Date:** August 16, 2025  
+**From:** CEO
+**To:** Safety Director, Executive Leadership
+**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update
+**Date:** August 16, 2025
 
 Robert,
 
 Outstanding work on the safety certification. This positions us well for the pilot deployment. Please include this in next week's board presentation.
 
-Well done,  
-Michael Thompson  
-CEO  
+Well done,
+Michael Thompson
+CEO
 
 ---
 
-**From:** Safety Director  
-**To:** CEO, Executive Leadership  
-**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update  
-**Date:** August 16, 2025  
+**From:** Safety Director
+**To:** CEO, Executive Leadership
+**Subject:** Re: Autonomous Vehicle Safety Certification - Status Update
+**Date:** August 16, 2025
 
 Michael,
 
 Thank you. I'll prepare a detailed slide deck for the board meeting, including the safety metrics and deployment timeline.
 
-Best,  
+Best,
 Robert

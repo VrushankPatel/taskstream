@@ -3,8 +3,16 @@
   "context": "Autonomous vehicle manufacturer preparing for commercial deployment, requiring comprehensive safety certification across multiple jurisdictions",
   "stakeholders": {
     "requester": "Chief Safety Officer",
-    "approvers": ["CEO", "Chief Operating Officer", "Chief Legal Officer"],
-    "influencers": ["VP Engineering", "VP Regulatory Affairs", "Independent Safety Auditors"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Chief Legal Officer"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "VP Regulatory Affairs",
+      "Independent Safety Auditors"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "certification_requirements_analysis",
       "duration": "2 months",
-      "activities": ["Regulatory requirements mapping", "Certification body evaluation", "Testing protocol development"],
+      "activities": [
+        "Regulatory requirements mapping",
+        "Certification body evaluation",
+        "Testing protocol development"
+      ],
       "outcome": "Comprehensive certification roadmap established for 5 key markets"
     },
     {
       "stage": "testing_infrastructure_setup",
       "duration": "4 months",
-      "activities": ["Test facility construction", "Simulation environment development", "Data collection systems implementation"],
+      "activities": [
+        "Test facility construction",
+        "Simulation environment development",
+        "Data collection systems implementation"
+      ],
       "outcome": "State-of-the-art testing infrastructure operational"
     },
     {
       "stage": "safety_validation_testing",
       "duration": "6 months",
-      "activities": ["Edge case scenario testing", "Real-world validation", "Independent audit coordination"],
+      "activities": [
+        "Edge case scenario testing",
+        "Real-world validation",
+        "Independent audit coordination"
+      ],
       "outcome": "All safety metrics met with comprehensive testing data"
     },
     {
       "stage": "certification_application",
       "duration": "3 months",
-      "activities": ["Documentation preparation", "Regulatory submissions", "Authority interactions"],
+      "activities": [
+        "Documentation preparation",
+        "Regulatory submissions",
+        "Authority interactions"
+      ],
       "outcome": "Certification granted in primary markets with conditional approvals elsewhere"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Market access in certified jurisdictions", "Enhanced safety reputation", "Insurance cost reduction"],
+    "expected_benefits": [
+      "Market access in certified jurisdictions",
+      "Enhanced safety reputation",
+      "Insurance cost reduction"
+    ],
     "projected_revenue": "$500,000,000 in new market revenue",
-    "risk_factors": ["Evolving regulatory requirements", "Testing infrastructure costs", "Public acceptance challenges"]
+    "risk_factors": [
+      "Evolving regulatory requirements",
+      "Testing infrastructure costs",
+      "Public acceptance challenges"
+    ]
   }
 }

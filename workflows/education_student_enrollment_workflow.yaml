@@ -1,41 +1,68 @@
 workflow:
-  id: "workflow_education_enrollment"
-  title: "Student Enrollment and Registration Process"
-  department: "Admissions & Enrollment"
-  complexity: "medium"
-  participants: ["Admissions Counselor", "Academic Advisor", "Financial Aid Officer", "IT Support"]
-  trigger: "Student submits enrollment application"
+  id: workflow_education_enrollment
+  title: Student Enrollment and Registration Process
+  department: Admissions & Enrollment
+  complexity: medium
+  participants:
+  - Admissions Counselor
+  - Academic Advisor
+  - Financial Aid Officer
+  - IT Support
+  trigger: Student submits enrollment application
   steps:
-    - step: 1
-      actor: "Student"
-      action: "Complete and submit enrollment application with required documents"
-      tools: ["Online Application Portal", "Document Upload System"]
-      duration: "30-60 minutes"
-      outputs: ["Enrollment Application"]
-    - step: 2
-      actor: "Admissions Counselor"
-      action: "Review application completeness and academic qualifications"
-      tools: ["Admissions Management System", "Academic Records Database"]
-      duration: "20-40 minutes"
-      outputs: ["Admissions Review Report"]
-      decision_points: ["Academic Eligibility", "Program Availability"]
-    - step: 3
-      actor: "Academic Advisor"
-      action: "Conduct academic advising and course registration"
-      tools: ["Student Information System", "Course Catalog"]
-      duration: "30-45 minutes"
-      outputs: ["Academic Plan", "Course Schedule"]
-    - step: 4
-      actor: "Financial Aid Officer"
-      action: "Process financial aid applications and payment arrangements"
-      tools: ["Financial Aid System", "Payment Portal"]
-      duration: "15-30 minutes"
-      outputs: ["Financial Aid Package", "Payment Plan"]
-    - step: 5
-      actor: "IT Support"
-      action: "Set up student accounts and system access"
-      tools: ["Identity Management System", "Learning Management System"]
-      duration: "10-15 minutes"
-      outputs: ["Student Account Setup"]
-  success_criteria: "Enrollment completed within 2 weeks, student retention >90%, system access granted within 24 hours"
-  failure_modes: ["Document verification delays", "Course capacity constraints", "Financial aid processing backlogs"]
+  - step: 1
+    actor: Student
+    action: Complete and submit enrollment application with required documents
+    tools:
+    - Online Application Portal
+    - Document Upload System
+    duration: 30-60 minutes
+    outputs:
+    - Enrollment Application
+  - step: 2
+    actor: Admissions Counselor
+    action: Review application completeness and academic qualifications
+    tools:
+    - Admissions Management System
+    - Academic Records Database
+    duration: 20-40 minutes
+    outputs:
+    - Admissions Review Report
+    decision_points:
+    - Academic Eligibility
+    - Program Availability
+  - step: 3
+    actor: Academic Advisor
+    action: Conduct academic advising and course registration
+    tools:
+    - Student Information System
+    - Course Catalog
+    duration: 30-45 minutes
+    outputs:
+    - Academic Plan
+    - Course Schedule
+  - step: 4
+    actor: Financial Aid Officer
+    action: Process financial aid applications and payment arrangements
+    tools:
+    - Financial Aid System
+    - Payment Portal
+    duration: 15-30 minutes
+    outputs:
+    - Financial Aid Package
+    - Payment Plan
+  - step: 5
+    actor: IT Support
+    action: Set up student accounts and system access
+    tools:
+    - Identity Management System
+    - Learning Management System
+    duration: 10-15 minutes
+    outputs:
+    - Student Account Setup
+  success_criteria: Enrollment completed within 2 weeks, student retention >90%, system
+    access granted within 24 hours
+  failure_modes:
+  - Document verification delays
+  - Course capacity constraints
+  - Financial aid processing backlogs

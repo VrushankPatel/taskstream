@@ -1,61 +1,94 @@
 workflow:
-  id: "workflow_sales_pipeline_management_enterprise"
-  title: "Enterprise Sales Pipeline Management"
-  department: "Sales"
-  complexity: "high"
-  participants: ["Sales Rep", "Sales Manager", "Marketing", "Customer Success", "Legal"]
-  trigger: "New lead enters system"
+  id: workflow_sales_pipeline_management_enterprise
+  title: Enterprise Sales Pipeline Management
+  department: Sales
+  complexity: high
+  participants:
+  - Sales Rep
+  - Sales Manager
+  - Marketing
+  - Customer Success
+  - Legal
+  trigger: New lead enters system
   steps:
-    - step: 1
-      actor: "Marketing"
-      action: "Lead qualification and scoring"
-      tools: ["CRM", "Lead scoring algorithm"]
-      duration: "1 day"
-      outputs: ["Qualified lead profile"]
-    - step: 2
-      actor: "Sales Rep"
-      action: "Initial outreach and discovery call"
-      tools: ["CRM", "Video conferencing"]
-      duration: "1 week"
-      outputs: ["Discovery notes", "Lead status update"]
-    - step: 3
-      actor: "Sales Rep"
-      action: "Proposal development and presentation"
-      tools: ["CRM", "Proposal templates", "Product demo"]
-      duration: "2 weeks"
-      outputs: ["Custom proposal", "Demo recording"]
-    - step: 4
-      actor: "Sales Manager"
-      action: "Proposal review and approval"
-      decision_points: ["Deal size", "Margin analysis", "Strategic fit"]
-      duration: "3 days"
-      outputs: ["Approved proposal"]
-    - step: 5
-      actor: "Legal"
-      action: "Contract review and negotiation"
-      tools: ["Contract management system"]
-      duration: "1 week"
-      outputs: ["Final contract"]
-    - step: 6
-      actor: "Sales Rep"
-      action: "Contract signing and closure"
-      tools: ["E-signature platform"]
-      duration: "3 days"
-      outputs: ["Signed contract", "Closed deal"]
-    - step: 7
-      actor: "Customer Success"
-      action: "Handover to customer success team"
-      tools: ["CRM", "Onboarding checklist"]
-      duration: "1 day"
-      outputs: ["Customer success plan"]
-  success_criteria: "Deal closed within 90 days, customer satisfaction score >8/10"
-  failure_modes: ["Lead disqualification", "Competitor win", "Budget constraints", "Internal approval delays"]
+  - step: 1
+    actor: Marketing
+    action: Lead qualification and scoring
+    tools:
+    - CRM
+    - Lead scoring algorithm
+    duration: 1 day
+    outputs:
+    - Qualified lead profile
+  - step: 2
+    actor: Sales Rep
+    action: Initial outreach and discovery call
+    tools:
+    - CRM
+    - Video conferencing
+    duration: 1 week
+    outputs:
+    - Discovery notes
+    - Lead status update
+  - step: 3
+    actor: Sales Rep
+    action: Proposal development and presentation
+    tools:
+    - CRM
+    - Proposal templates
+    - Product demo
+    duration: 2 weeks
+    outputs:
+    - Custom proposal
+    - Demo recording
+  - step: 4
+    actor: Sales Manager
+    action: Proposal review and approval
+    decision_points:
+    - Deal size
+    - Margin analysis
+    - Strategic fit
+    duration: 3 days
+    outputs:
+    - Approved proposal
+  - step: 5
+    actor: Legal
+    action: Contract review and negotiation
+    tools:
+    - Contract management system
+    duration: 1 week
+    outputs:
+    - Final contract
+  - step: 6
+    actor: Sales Rep
+    action: Contract signing and closure
+    tools:
+    - E-signature platform
+    duration: 3 days
+    outputs:
+    - Signed contract
+    - Closed deal
+  - step: 7
+    actor: Customer Success
+    action: Handover to customer success team
+    tools:
+    - CRM
+    - Onboarding checklist
+    duration: 1 day
+    outputs:
+    - Customer success plan
+  success_criteria: Deal closed within 90 days, customer satisfaction score >8/10
+  failure_modes:
+  - Lead disqualification
+  - Competitor win
+  - Budget constraints
+  - Internal approval delays
   metrics:
-    - "Sales cycle length: Target <90 days"
-    - "Win rate: Target >25%"
-    - "Lead conversion rate: Target >15%"
-    - "Customer satisfaction: Target >8/10"
-    - "Proposal acceptance rate: Target >60%"
-    - "Contract execution time: Target <7 days"
-    - "Revenue per deal: Target >$500K"
-    - "Customer retention rate: Target >90%"
+  - 'Sales cycle length: Target <90 days'
+  - 'Win rate: Target >25%'
+  - 'Lead conversion rate: Target >15%'
+  - 'Customer satisfaction: Target >8/10'
+  - 'Proposal acceptance rate: Target >60%'
+  - 'Contract execution time: Target <7 days'
+  - 'Revenue per deal: Target >$500K'
+  - 'Customer retention rate: Target >90%'

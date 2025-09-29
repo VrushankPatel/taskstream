@@ -3,8 +3,17 @@
   "context": "Academic medical center seeking to establish leadership in genomic medicine research and clinical translation, evaluating major investment in sequencing infrastructure and research programs",
   "stakeholders": {
     "requester": "Chief Academic Officer",
-    "approvers": ["Board of Trustees", "Chief Executive Officer", "Chief Financial Officer"],
-    "influencers": ["Department Chairs", "Research Faculty", "Pharmaceutical Partners", "Patient Advocacy Groups"]
+    "approvers": [
+      "Board of Trustees",
+      "Chief Executive Officer",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Department Chairs",
+      "Research Faculty",
+      "Pharmaceutical Partners",
+      "Patient Advocacy Groups"
+    ]
   },
   "request": {
     "amount": "$120 million",
@@ -16,31 +25,51 @@
     {
       "stage": "strategic_alignment",
       "duration": "8 weeks",
-      "activities": ["Institutional strategy review", "Competitive positioning analysis", "Stakeholder needs assessment"],
+      "activities": [
+        "Institutional strategy review",
+        "Competitive positioning analysis",
+        "Stakeholder needs assessment"
+      ],
       "outcome": "Aligned with institutional mission and identified unique positioning in translational genomics"
     },
     {
       "stage": "scientific_feasibility",
       "duration": "10 weeks",
-      "activities": ["Technology assessment", "Research program design", "Clinical translation planning"],
+      "activities": [
+        "Technology assessment",
+        "Research program design",
+        "Clinical translation planning"
+      ],
       "outcome": "Comprehensive research framework with clear path to clinical implementation"
     },
     {
       "stage": "funding_strategy",
       "duration": "6 weeks",
-      "activities": ["Grant opportunity analysis", "Philanthropic partnership development", "Endowment allocation"],
+      "activities": [
+        "Grant opportunity analysis",
+        "Philanthropic partnership development",
+        "Endowment allocation"
+      ],
       "outcome": "Secured $60 million in external funding commitments with institutional match"
     },
     {
       "stage": "ethical_oversight",
       "duration": "5 weeks",
-      "activities": ["Ethics committee review", "Patient consent framework", "Data privacy protocols"],
+      "activities": [
+        "Ethics committee review",
+        "Patient consent framework",
+        "Data privacy protocols"
+      ],
       "outcome": "Robust ethical framework ensuring patient rights and data security"
     },
     {
       "stage": "implementation_planning",
       "duration": "7 weeks",
-      "activities": ["Facility design", "Talent recruitment strategy", "Operational model development"],
+      "activities": [
+        "Facility design",
+        "Talent recruitment strategy",
+        "Operational model development"
+      ],
       "outcome": "Detailed implementation roadmap with phased development over 36 months"
     }
   ],
@@ -48,6 +77,10 @@
     "research_output": "300+ peer-reviewed publications and 50+ clinical trials initiated",
     "funding_attractiveness": "$150 million in additional research grants over 5 years",
     "clinical_impact": "Improved outcomes for 10,000+ patients through precision medicine",
-    "risk_factors": ["Rapidly evolving technology landscape", "Regulatory changes in genomic medicine", "Competition from well-funded institutions"]
+    "risk_factors": [
+      "Rapidly evolving technology landscape",
+      "Regulatory changes in genomic medicine",
+      "Competition from well-funded institutions"
+    ]
   }
 }

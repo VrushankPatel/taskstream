@@ -3,8 +3,16 @@
   "context": "Global logistics company evaluating major investment in digital transformation to improve supply chain visibility and operational efficiency amid increasing e-commerce demands",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Head of Supply Chain", "IT Director", "Customer Experience VP"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Head of Supply Chain",
+      "IT Director",
+      "Customer Experience VP"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,28 +24,53 @@
     {
       "stage": "feasibility_assessment",
       "duration": "4 weeks",
-      "activities": ["Technology vendor evaluation", "Current system audit", "ROI modeling", "Change management planning"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Current system audit",
+        "ROI modeling",
+        "Change management planning"
+      ],
       "outcome": "Approved for pilot phase"
     },
     {
       "stage": "pilot_implementation",
       "duration": "8 weeks",
-      "activities": ["Select pilot routes", "Deploy technology stack", "Train operations teams", "Monitor key metrics"],
+      "activities": [
+        "Select pilot routes",
+        "Deploy technology stack",
+        "Train operations teams",
+        "Monitor key metrics"
+      ],
       "outcome": "Pilot successful with 28% efficiency improvement"
     },
     {
       "stage": "full_rollout_decision",
       "duration": "2 weeks",
-      "activities": ["Pilot results analysis", "Scalability assessment", "Budget adjustment", "Timeline planning"],
+      "activities": [
+        "Pilot results analysis",
+        "Scalability assessment",
+        "Budget adjustment",
+        "Timeline planning"
+      ],
       "outcome": "Approved for enterprise-wide implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% reduction in operational costs, 35% improvement in on-time delivery, 40% increase in supply chain visibility, enhanced customer satisfaction",
     "projected_value": "$75,000,000 annual cost savings and revenue growth",
-    "risk_factors": ["Technology integration challenges", "Employee resistance to change", "Data security concerns", "Vendor dependency"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Employee resistance to change",
+      "Data security concerns",
+      "Vendor dependency"
+    ]
   },
-  "decision_criteria": ["ROI >200% within 3 years", "Technology proven in pilot", "Change management plan approved", "Data security requirements met"],
+  "decision_criteria": [
+    "ROI >200% within 3 years",
+    "Technology proven in pilot",
+    "Change management plan approved",
+    "Data security requirements met"
+  ],
   "outcome": "Approved",
   "action_items": [
     "Establish digital transformation governance committee within 30 days",

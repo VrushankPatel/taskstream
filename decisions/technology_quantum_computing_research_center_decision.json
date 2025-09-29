@@ -3,8 +3,16 @@
   "context": "Global technology company, $200B market cap, evaluating quantum computing research center establishment",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Scientist", "CFO"],
-    "influencers": ["Head of Research", "VP Advanced Computing", "Chief Information Security Officer"]
+    "approvers": [
+      "CEO",
+      "Chief Scientist",
+      "CFO"
+    ],
+    "influencers": [
+      "Head of Research",
+      "VP Advanced Computing",
+      "Chief Information Security Officer"
+    ]
   },
   "request": {
     "amount": "$500,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "strategic_alignment",
       "duration": "6 weeks",
-      "activities": ["Industry roadmap analysis", "Competitive positioning review", "IP portfolio assessment"],
+      "activities": [
+        "Industry roadmap analysis",
+        "Competitive positioning review",
+        "IP portfolio assessment"
+      ],
       "outcome": "Strategic priority confirmed"
     },
     {
       "stage": "technical_feasibility",
       "duration": "8 weeks",
-      "activities": ["Quantum technology assessment", "Talent availability analysis", "Facility requirements planning"],
+      "activities": [
+        "Quantum technology assessment",
+        "Talent availability analysis",
+        "Facility requirements planning"
+      ],
       "outcome": "Feasible with partnerships"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Funding strategy development", "ROI projections"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Funding strategy development",
+        "ROI projections"
+      ],
       "outcome": "Positive ROI over 15 years"
     },
     {
       "stage": "board_approval",
       "duration": "3 weeks",
-      "activities": ["Board presentation", "Due diligence review", "Final investment decision"],
+      "activities": [
+        "Board presentation",
+        "Due diligence review",
+        "Final investment decision"
+      ],
       "outcome": "Approved with $300M initial investment"
     }
   ],
@@ -42,6 +66,11 @@
     "expected_revenue": "$10,000,000,000",
     "patent_portfolio": "500+ quantum patents",
     "market_position": "Quantum computing leadership",
-    "risk_factors": ["Technical breakthroughs uncertainty", "Talent acquisition challenges", "Regulatory changes", "High capital requirements"]
+    "risk_factors": [
+      "Technical breakthroughs uncertainty",
+      "Talent acquisition challenges",
+      "Regulatory changes",
+      "High capital requirements"
+    ]
   }
 }

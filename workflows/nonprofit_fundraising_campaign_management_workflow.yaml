@@ -1,46 +1,78 @@
 workflow:
-  id: "workflow_nonprofit_fundraising"
-  title: "Nonprofit Fundraising Campaign Management"
-  department: "Development"
-  complexity: "medium"
-  participants: ["Campaign Manager", "Donor Relations Coordinator", "Marketing Specialist", "Finance Officer", "Program Director"]
-  trigger: "Annual budget shortfall or program expansion need"
+  id: workflow_nonprofit_fundraising
+  title: Nonprofit Fundraising Campaign Management
+  department: Development
+  complexity: medium
+  participants:
+  - Campaign Manager
+  - Donor Relations Coordinator
+  - Marketing Specialist
+  - Finance Officer
+  - Program Director
+  trigger: Annual budget shortfall or program expansion need
   steps:
-    - step: 1
-      actor: "Program Director"
-      action: "Define campaign goals and target amounts"
-      tools: ["Budget planning software", "Program impact assessments"]
-      duration: "2 weeks"
-      outputs: ["Campaign objectives document", "Funding gap analysis"]
-    - step: 2
-      actor: "Campaign Manager"
-      action: "Develop campaign strategy and timeline"
-      decision_points: ["Channel selection", "Messaging approach"]
-      duration: "3 weeks"
-      outputs: ["Campaign plan", "Timeline and milestones"]
-    - step: 3
-      actor: "Marketing Specialist"
-      action: "Create marketing materials and content calendar"
-      tools: ["Design software", "Social media management tools"]
-      duration: "4 weeks"
-      outputs: ["Marketing collateral", "Content calendar"]
-    - step: 4
-      actor: "Donor Relations Coordinator"
-      action: "Segment donor database and develop outreach plan"
-      tools: ["CRM system", "Donor analytics tools"]
-      duration: "2 weeks"
-      outputs: ["Donor segmentation report", "Outreach strategy"]
-    - step: 5
-      actor: "Finance Officer"
-      action: "Set up donation tracking and reporting systems"
-      tools: ["Accounting software", "Donation processing platforms"]
-      duration: "1 week"
-      outputs: ["Financial tracking setup", "Reporting templates"]
-    - step: 6
-      actor: "Campaign Manager"
-      action: "Execute campaign and monitor progress"
-      decision_points: ["Performance adjustments", "Additional outreach needs"]
-      duration: "8 weeks"
-      outputs: ["Campaign performance reports", "Donor feedback summaries"]
-  success_criteria: "Achieve 90% of funding target with positive donor feedback"
-  failure_modes: ["Low donor response rates", "Negative publicity", "Internal coordination issues"]
+  - step: 1
+    actor: Program Director
+    action: Define campaign goals and target amounts
+    tools:
+    - Budget planning software
+    - Program impact assessments
+    duration: 2 weeks
+    outputs:
+    - Campaign objectives document
+    - Funding gap analysis
+  - step: 2
+    actor: Campaign Manager
+    action: Develop campaign strategy and timeline
+    decision_points:
+    - Channel selection
+    - Messaging approach
+    duration: 3 weeks
+    outputs:
+    - Campaign plan
+    - Timeline and milestones
+  - step: 3
+    actor: Marketing Specialist
+    action: Create marketing materials and content calendar
+    tools:
+    - Design software
+    - Social media management tools
+    duration: 4 weeks
+    outputs:
+    - Marketing collateral
+    - Content calendar
+  - step: 4
+    actor: Donor Relations Coordinator
+    action: Segment donor database and develop outreach plan
+    tools:
+    - CRM system
+    - Donor analytics tools
+    duration: 2 weeks
+    outputs:
+    - Donor segmentation report
+    - Outreach strategy
+  - step: 5
+    actor: Finance Officer
+    action: Set up donation tracking and reporting systems
+    tools:
+    - Accounting software
+    - Donation processing platforms
+    duration: 1 week
+    outputs:
+    - Financial tracking setup
+    - Reporting templates
+  - step: 6
+    actor: Campaign Manager
+    action: Execute campaign and monitor progress
+    decision_points:
+    - Performance adjustments
+    - Additional outreach needs
+    duration: 8 weeks
+    outputs:
+    - Campaign performance reports
+    - Donor feedback summaries
+  success_criteria: Achieve 90% of funding target with positive donor feedback
+  failure_modes:
+  - Low donor response rates
+  - Negative publicity
+  - Internal coordination issues

@@ -3,8 +3,17 @@
   "context": "Major aerospace contractor evaluating comprehensive digital transformation to modernize manufacturing processes and supply chain management",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CTO", "Board Technology Committee"],
-    "influencers": ["VP Operations", "Chief Information Officer", "Union Representatives", "Key Suppliers"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Board Technology Committee"
+    ],
+    "influencers": [
+      "VP Operations",
+      "Chief Information Officer",
+      "Union Representatives",
+      "Key Suppliers"
+    ]
   },
   "request": {
     "amount": "$850 million",
@@ -16,28 +25,50 @@
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Technology vendor evaluation", "Pilot implementation", "ROI measurement"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Pilot implementation",
+        "ROI measurement"
+      ],
       "outcome": "20% efficiency improvement demonstrated"
     },
     {
       "stage": "change_management_assessment",
       "duration": "3 months",
-      "activities": ["Employee impact analysis", "Training program design", "Union negotiations"],
+      "activities": [
+        "Employee impact analysis",
+        "Training program design",
+        "Union negotiations"
+      ],
       "outcome": "Change management plan approved"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "2 months",
-      "activities": ["Budget allocation", "Timeline development", "Risk mitigation planning"],
+      "activities": [
+        "Budget allocation",
+        "Timeline development",
+        "Risk mitigation planning"
+      ],
       "outcome": "Approved for phased 3-year implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in manufacturing costs and 50% faster time-to-market",
     "projected_value": "$2.1 billion in cost savings over 5 years",
-    "risk_factors": ["Workforce resistance", "Technology integration challenges", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Workforce resistance",
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities"
+    ]
   },
-  "decision_criteria": ["Cost-benefit analysis", "Technology maturity", "Workforce impact", "Competitive advantage", "Implementation risk"],
+  "decision_criteria": [
+    "Cost-benefit analysis",
+    "Technology maturity",
+    "Workforce impact",
+    "Competitive advantage",
+    "Implementation risk"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Digital transformation requires comprehensive change management, pilot programs essential for risk mitigation, union engagement critical for successful adoption"
 }

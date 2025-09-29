@@ -3,8 +3,15 @@
   "context": "Fintech startup with 50 employees expanding cryptocurrency services amid evolving regulatory landscape",
   "stakeholders": {
     "requester": "Chief Compliance Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Head of Product", "Legal Counsel", "Risk Manager"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Head of Product",
+      "Legal Counsel",
+      "Risk Manager"
+    ]
   },
   "request": {
     "amount": "$500K",
@@ -16,32 +23,60 @@
     {
       "stage": "regulatory_assessment",
       "duration": "6 weeks",
-      "activities": ["Global regulatory mapping", "Licensing requirements analysis", "Compliance gap assessment"],
+      "activities": [
+        "Global regulatory mapping",
+        "Licensing requirements analysis",
+        "Compliance gap assessment"
+      ],
       "outcome": "Critical compliance requirements identified"
     },
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["Compliance technology review", "Integration feasibility", "Vendor selection"],
+      "activities": [
+        "Compliance technology review",
+        "Integration feasibility",
+        "Vendor selection"
+      ],
       "outcome": "Compliance automation platform selected"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "2 weeks",
-      "activities": ["ROI calculation", "Risk mitigation valuation", "Budget allocation"],
+      "activities": [
+        "ROI calculation",
+        "Risk mitigation valuation",
+        "Budget allocation"
+      ],
       "outcome": "Strong business case for compliance investment"
     },
     {
       "stage": "board_approval",
       "duration": "1 week",
-      "activities": ["Executive presentation", "Board discussion", "Final approval"],
+      "activities": [
+        "Executive presentation",
+        "Board discussion",
+        "Final approval"
+      ],
       "outcome": "Approved with priority implementation"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Regulatory compliance maintained", "Expanded service offerings", "Reduced legal risk"],
-    "risk_factors": ["Regulatory changes", "Technology implementation delays", "Increased operational costs"],
+    "expected_benefits": [
+      "Regulatory compliance maintained",
+      "Expanded service offerings",
+      "Reduced legal risk"
+    ],
+    "risk_factors": [
+      "Regulatory changes",
+      "Technology implementation delays",
+      "Increased operational costs"
+    ],
     "implementation_timeline": "6 months",
-    "success_metrics": ["All licenses maintained", "Zero regulatory penalties", "Successful crypto service expansion"]
+    "success_metrics": [
+      "All licenses maintained",
+      "Zero regulatory penalties",
+      "Successful crypto service expansion"
+    ]
   }
 }

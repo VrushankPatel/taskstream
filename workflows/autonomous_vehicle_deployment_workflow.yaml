@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_003"
-  title: "Autonomous Vehicle Deployment Workflow"
-  department: "Transportation Operations"
-  complexity: "high"
-  participants: ["Fleet Manager", "Safety Officer", "IT", "Legal", "Insurance", "Operations Team"]
-  trigger: "Decision to deploy autonomous vehicle technology"
+  id: workflow_003
+  title: Autonomous Vehicle Deployment Workflow
+  department: Transportation Operations
+  complexity: high
+  participants:
+  - Fleet Manager
+  - Safety Officer
+  - IT
+  - Legal
+  - Insurance
+  - Operations Team
+  trigger: Decision to deploy autonomous vehicle technology
   steps:
-    - step: 1
-      actor: "Fleet Manager"
-      action: "Conduct fleet assessment and route analysis"
-      tools: ["Fleet management software", "Route optimization tools"]
-      duration: "4 weeks"
-      outputs: ["Fleet assessment report", "Deployment roadmap"]
-    - step: 2
-      actor: "Safety Officer"
-      action: "Develop safety protocols and emergency procedures"
-      tools: ["Safety frameworks", "Risk assessment models"]
-      duration: "6 weeks"
-      outputs: ["Safety protocol document", "Emergency response plan"]
-    - step: 3
-      actor: "IT"
-      action: "Implement vehicle connectivity and monitoring systems"
-      tools: ["IoT platforms", "Real-time monitoring dashboards"]
-      duration: "8 weeks"
-      outputs: ["Connectivity infrastructure", "Monitoring system"]
-    - step: 4
-      actor: "Legal"
-      action: "Navigate regulatory requirements and obtain permits"
-      decision_points: ["Jurisdictional regulations", "Insurance requirements"]
-      duration: "6 weeks"
-      outputs: ["Regulatory compliance package", "Permit approvals"]
-    - step: 5
-      actor: "Insurance"
-      action: "Secure appropriate insurance coverage"
-      tools: ["Insurance assessment tools", "Risk modeling"]
-      duration: "4 weeks"
-      outputs: ["Insurance policy", "Coverage verification"]
-    - step: 6
-      actor: "Operations Team"
-      action: "Conduct pilot deployment and performance monitoring"
-      tools: ["Performance tracking systems", "Feedback collection tools"]
-      duration: "12 weeks"
-      outputs: ["Pilot results report", "Optimization recommendations"]
-  success_criteria: "Safe autonomous vehicle operations with measurable efficiency gains"
-  failure_modes: ["Safety incidents", "Regulatory delays", "Technical failures"]
+  - step: 1
+    actor: Fleet Manager
+    action: Conduct fleet assessment and route analysis
+    tools:
+    - Fleet management software
+    - Route optimization tools
+    duration: 4 weeks
+    outputs:
+    - Fleet assessment report
+    - Deployment roadmap
+  - step: 2
+    actor: Safety Officer
+    action: Develop safety protocols and emergency procedures
+    tools:
+    - Safety frameworks
+    - Risk assessment models
+    duration: 6 weeks
+    outputs:
+    - Safety protocol document
+    - Emergency response plan
+  - step: 3
+    actor: IT
+    action: Implement vehicle connectivity and monitoring systems
+    tools:
+    - IoT platforms
+    - Real-time monitoring dashboards
+    duration: 8 weeks
+    outputs:
+    - Connectivity infrastructure
+    - Monitoring system
+  - step: 4
+    actor: Legal
+    action: Navigate regulatory requirements and obtain permits
+    decision_points:
+    - Jurisdictional regulations
+    - Insurance requirements
+    duration: 6 weeks
+    outputs:
+    - Regulatory compliance package
+    - Permit approvals
+  - step: 5
+    actor: Insurance
+    action: Secure appropriate insurance coverage
+    tools:
+    - Insurance assessment tools
+    - Risk modeling
+    duration: 4 weeks
+    outputs:
+    - Insurance policy
+    - Coverage verification
+  - step: 6
+    actor: Operations Team
+    action: Conduct pilot deployment and performance monitoring
+    tools:
+    - Performance tracking systems
+    - Feedback collection tools
+    duration: 12 weeks
+    outputs:
+    - Pilot results report
+    - Optimization recommendations
+  success_criteria: Safe autonomous vehicle operations with measurable efficiency
+    gains
+  failure_modes:
+  - Safety incidents
+  - Regulatory delays
+  - Technical failures

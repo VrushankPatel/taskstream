@@ -1,9 +1,9 @@
 ## Meeting Notes: Robotics Automation Workforce Transition Announcement
 
-**Meeting:** Leadership Team Robotics Deployment  
-**Date:** November 3, 2025  
-**Location:** Main Conference Room  
-**Attendees:** CEO, COO, CHRO, Plant Managers, Union Representatives, HR Team  
+**Meeting:** Leadership Team Robotics Deployment
+**Date:** November 3, 2025
+**Location:** Main Conference Room
+**Attendees:** CEO, COO, CHRO, Plant Managers, Union Representatives, HR Team
 
 ### Agenda
 1. Robotics deployment timeline review

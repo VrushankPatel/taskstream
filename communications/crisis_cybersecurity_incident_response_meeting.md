@@ -1,9 +1,9 @@
 ## Meeting Notes: Cybersecurity Incident Response Briefing
 
-**Date:** September 25, 2025  
-**Time:** 8:00 AM - 9:30 AM  
-**Location:** Emergency Operations Center  
-**Attendees:** CISO, IT Director, Legal Counsel, Communications Director, Executive Team  
+**Date:** September 25, 2025
+**Time:** 8:00 AM - 9:30 AM
+**Location:** Emergency Operations Center
+**Attendees:** CISO, IT Director, Legal Counsel, Communications Director, Executive Team
 
 ### Incident Summary
 - **Detection Time**: September 24, 2025, 2:15 PM
@@ -52,5 +52,5 @@
 ### Next Update
 Daily briefings at 8:00 AM until full resolution
 
-**Meeting Facilitator:** CISO  
+**Meeting Facilitator:** CISO
 **Note Taker:** Incident Response Coordinator

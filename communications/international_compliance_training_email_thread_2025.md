@@ -1,9 +1,9 @@
 # International Compliance Training Email Thread
 
-**From:** Jennifer Walsh, Global Compliance Director  
-**To:** Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Mandatory International Compliance Training Program - Q4 2025  
-**Date:** September 28, 2025  
+**From:** Jennifer Walsh, Global Compliance Director
+**To:** Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Mandatory International Compliance Training Program - Q4 2025
+**Date:** September 28, 2025
 
 Team,
 
@@ -23,15 +23,15 @@ Following our recent expansion into European and Asian markets, I've been asked 
 
 Please provide your regional requirements and resource availability by October 5th.
 
-Best,  
+Best,
 Jennifer
 
 ---
 
-**From:** Marco Rossi, EMEA Compliance Manager  
-**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** September 29, 2025  
+**From:** Marco Rossi, EMEA Compliance Manager
+**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** September 29, 2025
 
 Jennifer,
 
@@ -48,10 +48,10 @@ Marco
 
 ---
 
-**From:** Li Wei, APAC Compliance Manager  
-**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** September 29, 2025  
+**From:** Li Wei, APAC Compliance Manager
+**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** September 29, 2025
 
 Jennifer,
 
@@ -69,10 +69,10 @@ Li Wei
 
 ---
 
-**From:** Jennifer Walsh, Global Compliance Director  
-**To:** Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** September 30, 2025  
+**From:** Jennifer Walsh, Global Compliance Director
+**To:** Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** September 30, 2025
 
 Thanks Marco and Li Wei for the quick responses. This confirms the complexity we anticipated.
 
@@ -96,15 +96,15 @@ Thanks Marco and Li Wei for the quick responses. This confirms the complexity we
 
 Please confirm your availability for the kickoff meeting.
 
-Best,  
+Best,
 Jennifer
 
 ---
 
-**From:** Sarah Mitchell, HR Business Partner - Global  
-**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** September 30, 2025  
+**From:** Sarah Mitchell, HR Business Partner - Global
+**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** September 30, 2025
 
 Jennifer,
 
@@ -121,10 +121,10 @@ Sarah
 
 ---
 
-**From:** David Chen, Legal Counsel - International  
-**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** October 1, 2025  
+**From:** David Chen, Legal Counsel - International
+**To:** Jennifer Walsh, Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** October 1, 2025
 
 Jennifer,
 
@@ -141,10 +141,10 @@ David
 
 ---
 
-**From:** Jennifer Walsh, Global Compliance Director  
-**To:** Regional Compliance Managers, Legal Team, HR Business Partners  
-**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025  
-**Date:** October 2, 2025  
+**From:** Jennifer Walsh, Global Compliance Director
+**To:** Regional Compliance Managers, Legal Team, HR Business Partners
+**Subject:** Re: Mandatory International Compliance Training Program - Q4 2025
+**Date:** October 2, 2025
 
 Thank you all for the comprehensive input. This thread demonstrates the collaborative approach needed for global compliance.
 
@@ -161,5 +161,5 @@ Thank you all for the comprehensive input. This thread demonstrates the collabor
 
 Kickoff meeting confirmed for October 8th. Meeting invite to follow.
 
-Best,  
+Best,
 Jennifer

@@ -1,52 +1,89 @@
 workflow:
-  id: "workflow_compliance_audit_enterprise"
-  title: "Annual Compliance Audit Process"
-  department: "Compliance"
-  complexity: "high"
-  participants: ["Compliance Officer", "Department Heads", "External Auditors", "Legal", "IT Security"]
-  trigger: "Annual audit cycle begins"
+  id: workflow_compliance_audit_enterprise
+  title: Annual Compliance Audit Process
+  department: Compliance
+  complexity: high
+  participants:
+  - Compliance Officer
+  - Department Heads
+  - External Auditors
+  - Legal
+  - IT Security
+  trigger: Annual audit cycle begins
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Develop audit scope and schedule"
-      tools: ["Audit management system", "Regulatory calendar"]
-      duration: "2 weeks"
-      outputs: ["Audit plan", "Department assignments"]
-    - step: 2
-      actor: "Department Heads"
-      action: "Gather and organize documentation"
-      tools: ["Document management system", "Compliance checklists"]
-      duration: "4 weeks"
-      outputs: ["Evidence packages", "Gap analysis reports"]
-    - step: 3
-      actor: "IT Security"
-      action: "Conduct security controls assessment"
-      tools: ["Security assessment tools", "Access logs"]
-      duration: "2 weeks"
-      outputs: ["Security audit report", "Control effectiveness analysis"]
-    - step: 4
-      actor: "External Auditors"
-      action: "Perform fieldwork and testing"
-      tools: ["Audit software", "Sampling methodologies"]
-      duration: "6 weeks"
-      outputs: ["Audit findings", "Preliminary report"]
-    - step: 5
-      actor: "Compliance Officer"
-      action: "Review findings and develop remediation plans"
-      tools: ["Issue tracking system", "Risk register"]
-      duration: "2 weeks"
-      outputs: ["Remediation plan", "Timeline for fixes"]
-    - step: 6
-      actor: "Legal"
-      action: "Review final audit report and responses"
-      tools: ["Legal review templates", "Regulatory guidance"]
-      duration: "1 week"
-      outputs: ["Final audit response", "Regulatory filings"]
-    - step: 7
-      actor: "Compliance Officer"
-      action: "Implement remediation and monitor progress"
-      tools: ["Project management system", "Compliance dashboard"]
-      duration: "Ongoing"
-      outputs: ["Remediation status updates", "Compliance metrics"]
-  success_criteria: "Audit completed with no material findings, all remediation within 90 days"
-  failure_modes: ["Insufficient documentation", "Control failures", "Delayed remediation"]
+  - step: 1
+    actor: Compliance Officer
+    action: Develop audit scope and schedule
+    tools:
+    - Audit management system
+    - Regulatory calendar
+    duration: 2 weeks
+    outputs:
+    - Audit plan
+    - Department assignments
+  - step: 2
+    actor: Department Heads
+    action: Gather and organize documentation
+    tools:
+    - Document management system
+    - Compliance checklists
+    duration: 4 weeks
+    outputs:
+    - Evidence packages
+    - Gap analysis reports
+  - step: 3
+    actor: IT Security
+    action: Conduct security controls assessment
+    tools:
+    - Security assessment tools
+    - Access logs
+    duration: 2 weeks
+    outputs:
+    - Security audit report
+    - Control effectiveness analysis
+  - step: 4
+    actor: External Auditors
+    action: Perform fieldwork and testing
+    tools:
+    - Audit software
+    - Sampling methodologies
+    duration: 6 weeks
+    outputs:
+    - Audit findings
+    - Preliminary report
+  - step: 5
+    actor: Compliance Officer
+    action: Review findings and develop remediation plans
+    tools:
+    - Issue tracking system
+    - Risk register
+    duration: 2 weeks
+    outputs:
+    - Remediation plan
+    - Timeline for fixes
+  - step: 6
+    actor: Legal
+    action: Review final audit report and responses
+    tools:
+    - Legal review templates
+    - Regulatory guidance
+    duration: 1 week
+    outputs:
+    - Final audit response
+    - Regulatory filings
+  - step: 7
+    actor: Compliance Officer
+    action: Implement remediation and monitor progress
+    tools:
+    - Project management system
+    - Compliance dashboard
+    duration: Ongoing
+    outputs:
+    - Remediation status updates
+    - Compliance metrics
+  success_criteria: Audit completed with no material findings, all remediation within
+    90 days
+  failure_modes:
+  - Insufficient documentation
+  - Control failures
+  - Delayed remediation

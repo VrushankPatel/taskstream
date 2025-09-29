@@ -1,9 +1,9 @@
 ## Meeting Notes: Agriculture Sustainable Farming Transition Strategy
 
-**Date:** September 29, 2025  
-**Attendees:** CEO, Chief Agronomist, Sustainability Officer, Farm Operations Director, Finance VP, Cooperative Members (3 representatives)  
-**Location:** Main Conference Room  
-**Facilitator:** CEO  
+**Date:** September 29, 2025
+**Attendees:** CEO, Chief Agronomist, Sustainability Officer, Farm Operations Director, Finance VP, Cooperative Members (3 representatives)
+**Location:** Main Conference Room
+**Facilitator:** CEO
 
 ### Agenda Items
 

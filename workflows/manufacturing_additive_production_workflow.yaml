@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_019_002"
-  title: "Additive Manufacturing Production Process"
-  department: "Production Engineering"
-  complexity: "medium"
-  participants: ["Production Manager", "CAD Engineer", "Machine Operator", "Quality Inspector", "Materials Specialist"]
-  trigger: "New part design approved for production"
+  id: workflow_019_002
+  title: Additive Manufacturing Production Process
+  department: Production Engineering
+  complexity: medium
+  participants:
+  - Production Manager
+  - CAD Engineer
+  - Machine Operator
+  - Quality Inspector
+  - Materials Specialist
+  trigger: New part design approved for production
   steps:
-    - step: 1
-      actor: "CAD Engineer"
-      action: "Optimize design for additive manufacturing constraints"
-      tools: ["CAD software", "Simulation tools"]
-      duration: "4 hours"
-      outputs: ["Optimized STL file", "Build orientation analysis"]
-    - step: 2
-      actor: "Materials Specialist"
-      action: "Select appropriate material and prepare powder bed"
-      decision_points: ["Material properties", "Cost considerations", "Availability"]
-      duration: "1 hour"
-      outputs: ["Material specification", "Powder quality verification"]
-    - step: 3
-      actor: "Machine Operator"
-      action: "Set up 3D printer parameters and initiate build"
-      tools: ["Printer control software", "Calibration equipment"]
-      duration: "30 minutes"
-      outputs: ["Build parameters", "Process monitoring setup"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Monitor build progress and manage queue scheduling"
-      tools: ["Production management system", "Real-time monitoring"]
-      duration: "Ongoing"
-      outputs: ["Progress reports", "Schedule adjustments"]
-    - step: 5
-      actor: "Quality Inspector"
-      action: "Perform post-build inspection and dimensional verification"
-      tools: ["CMM equipment", "Non-destructive testing"]
-      duration: "2 hours"
-      outputs: ["Quality report", "Defect analysis"]
-  success_criteria: "Parts meet dimensional specifications within tolerance, production yield >95%"
-  failure_modes: ["Material contamination", "Machine calibration drift", "Design optimization gaps"]
+  - step: 1
+    actor: CAD Engineer
+    action: Optimize design for additive manufacturing constraints
+    tools:
+    - CAD software
+    - Simulation tools
+    duration: 4 hours
+    outputs:
+    - Optimized STL file
+    - Build orientation analysis
+  - step: 2
+    actor: Materials Specialist
+    action: Select appropriate material and prepare powder bed
+    decision_points:
+    - Material properties
+    - Cost considerations
+    - Availability
+    duration: 1 hour
+    outputs:
+    - Material specification
+    - Powder quality verification
+  - step: 3
+    actor: Machine Operator
+    action: Set up 3D printer parameters and initiate build
+    tools:
+    - Printer control software
+    - Calibration equipment
+    duration: 30 minutes
+    outputs:
+    - Build parameters
+    - Process monitoring setup
+  - step: 4
+    actor: Production Manager
+    action: Monitor build progress and manage queue scheduling
+    tools:
+    - Production management system
+    - Real-time monitoring
+    duration: Ongoing
+    outputs:
+    - Progress reports
+    - Schedule adjustments
+  - step: 5
+    actor: Quality Inspector
+    action: Perform post-build inspection and dimensional verification
+    tools:
+    - CMM equipment
+    - Non-destructive testing
+    duration: 2 hours
+    outputs:
+    - Quality report
+    - Defect analysis
+  success_criteria: Parts meet dimensional specifications within tolerance, production
+    yield >95%
+  failure_modes:
+  - Material contamination
+  - Machine calibration drift
+  - Design optimization gaps

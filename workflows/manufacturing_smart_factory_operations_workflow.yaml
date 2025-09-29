@@ -1,40 +1,71 @@
 workflow:
-  id: "workflow_016_002"
-  title: "Smart Factory Operations Workflow"
-  department: "Manufacturing Operations"
-  complexity: "high"
-  participants: ["Production Manager", "IoT Engineer", "Maintenance Technician", "Quality Control Inspector", "Supply Chain Coordinator"]
-  trigger: "Production line startup or shift change requiring system synchronization"
+  id: workflow_016_002
+  title: Smart Factory Operations Workflow
+  department: Manufacturing Operations
+  complexity: high
+  participants:
+  - Production Manager
+  - IoT Engineer
+  - Maintenance Technician
+  - Quality Control Inspector
+  - Supply Chain Coordinator
+  trigger: Production line startup or shift change requiring system synchronization
   steps:
-    - step: 1
-      actor: "Production Manager"
-      action: "Review production schedule and resource availability"
-      tools: ["MES System", "ERP Dashboard"]
-      duration: "30 minutes"
-      outputs: ["Daily production plan", "Resource allocation matrix"]
-    - step: 2
-      actor: "IoT Engineer"
-      action: "System health check and predictive maintenance review"
-      tools: ["IoT Monitoring Platform", "Predictive Analytics Software"]
-      duration: "45 minutes"
-      outputs: ["System status report", "Maintenance alerts", "Performance predictions"]
-    - step: 3
-      actor: "Maintenance Technician"
-      action: "Execute preventive maintenance on flagged equipment"
-      tools: ["Maintenance Management System", "AR Maintenance Guides"]
-      duration: "120 minutes"
-      outputs: ["Maintenance completion report", "Equipment calibration data"]
-    - step: 4
-      actor: "Quality Control Inspector"
-      action: "Real-time quality monitoring and defect detection"
-      tools: ["Vision Inspection Systems", "Statistical Process Control Software"]
-      duration: "Continuous monitoring"
-      outputs: ["Quality metrics report", "Defect analysis", "Process adjustment recommendations"]
-    - step: 5
-      actor: "Supply Chain Coordinator"
-      action: "Monitor inventory levels and automated replenishment"
-      tools: ["Inventory Management System", "Supplier Integration Platform"]
-      duration: "60 minutes"
-      outputs: ["Inventory status update", "Replenishment orders", "Supplier performance metrics"]
-  success_criteria: "99.5% on-time delivery with <0.1% defect rate"
-  failure_modes: ["IoT sensor failures causing blind spots", "Supply chain disruptions from automated ordering errors", "AI prediction inaccuracies leading to unnecessary downtime"]
+  - step: 1
+    actor: Production Manager
+    action: Review production schedule and resource availability
+    tools:
+    - MES System
+    - ERP Dashboard
+    duration: 30 minutes
+    outputs:
+    - Daily production plan
+    - Resource allocation matrix
+  - step: 2
+    actor: IoT Engineer
+    action: System health check and predictive maintenance review
+    tools:
+    - IoT Monitoring Platform
+    - Predictive Analytics Software
+    duration: 45 minutes
+    outputs:
+    - System status report
+    - Maintenance alerts
+    - Performance predictions
+  - step: 3
+    actor: Maintenance Technician
+    action: Execute preventive maintenance on flagged equipment
+    tools:
+    - Maintenance Management System
+    - AR Maintenance Guides
+    duration: 120 minutes
+    outputs:
+    - Maintenance completion report
+    - Equipment calibration data
+  - step: 4
+    actor: Quality Control Inspector
+    action: Real-time quality monitoring and defect detection
+    tools:
+    - Vision Inspection Systems
+    - Statistical Process Control Software
+    duration: Continuous monitoring
+    outputs:
+    - Quality metrics report
+    - Defect analysis
+    - Process adjustment recommendations
+  - step: 5
+    actor: Supply Chain Coordinator
+    action: Monitor inventory levels and automated replenishment
+    tools:
+    - Inventory Management System
+    - Supplier Integration Platform
+    duration: 60 minutes
+    outputs:
+    - Inventory status update
+    - Replenishment orders
+    - Supplier performance metrics
+  success_criteria: 99.5% on-time delivery with <0.1% defect rate
+  failure_modes:
+  - IoT sensor failures causing blind spots
+  - Supply chain disruptions from automated ordering errors
+  - AI prediction inaccuracies leading to unnecessary downtime

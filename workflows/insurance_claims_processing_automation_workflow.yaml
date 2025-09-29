@@ -1,55 +1,83 @@
 workflow:
-  id: "workflow_insurance_claims_automation_001"
-  title: "Insurance Claims Processing Automation"
-  department: "Claims"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Automation Specialist"]
-  trigger: "Policyholder submits claim via digital portal or mobile app"
+  id: workflow_insurance_claims_automation_001
+  title: Insurance Claims Processing Automation
+  department: Claims
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Claims Supervisor
+  - Underwriter
+  - Automation Specialist
+  trigger: Policyholder submits claim via digital portal or mobile app
   steps:
-    - step: 1
-      actor: "Automation Specialist"
-      action: "Validate claim submission and perform initial automated checks"
-      tools: ["Claims automation platform", "AI document processing", "Fraud detection algorithms"]
-      duration: "30 minutes"
-      outputs: ["Automated validation report", "Fraud risk score"]
-    - step: 2
-      actor: "Claims Adjuster"
-      action: "Review automated assessment and gather additional information if needed"
-      decision_points: ["Coverage verification", "Damage assessment requirements"]
-      duration: "2 hours"
-      outputs: ["Claim assessment summary", "Information request list"]
-    - step: 3
-      actor: "Underwriter"
-      action: "Evaluate claim validity and determine settlement parameters"
-      tools: ["Underwriting guidelines database", "Historical claims data"]
-      duration: "3 hours"
-      outputs: ["Settlement recommendation", "Reserve adjustment"]
-    - step: 4
-      actor: "Claims Supervisor"
-      action: "Approve automated settlement and initiate payment processing"
-      tools: ["Digital signature platform", "Automated payment system"]
-      duration: "1 hour"
-      outputs: ["Settlement approval", "Payment confirmation"]
-  success_criteria: "Claims processed within 48 hours, Automation rate >70%, Customer satisfaction >90%"
-  failure_modes: ["System integration issues", "Manual override requirements", "Data quality problems", "Regulatory compliance gaps"]
+  - step: 1
+    actor: Automation Specialist
+    action: Validate claim submission and perform initial automated checks
+    tools:
+    - Claims automation platform
+    - AI document processing
+    - Fraud detection algorithms
+    duration: 30 minutes
+    outputs:
+    - Automated validation report
+    - Fraud risk score
+  - step: 2
+    actor: Claims Adjuster
+    action: Review automated assessment and gather additional information if needed
+    decision_points:
+    - Coverage verification
+    - Damage assessment requirements
+    duration: 2 hours
+    outputs:
+    - Claim assessment summary
+    - Information request list
+  - step: 3
+    actor: Underwriter
+    action: Evaluate claim validity and determine settlement parameters
+    tools:
+    - Underwriting guidelines database
+    - Historical claims data
+    duration: 3 hours
+    outputs:
+    - Settlement recommendation
+    - Reserve adjustment
+  - step: 4
+    actor: Claims Supervisor
+    action: Approve automated settlement and initiate payment processing
+    tools:
+    - Digital signature platform
+    - Automated payment system
+    duration: 1 hour
+    outputs:
+    - Settlement approval
+    - Payment confirmation
+  success_criteria: Claims processed within 48 hours, Automation rate >70%, Customer
+    satisfaction >90%
+  failure_modes:
+  - System integration issues
+  - Manual override requirements
+  - Data quality problems
+  - Regulatory compliance gaps
   performance_metrics:
-    - "Processing time: Average <24 hours for standard claims, <72 hours for complex claims"
-    - "Automation rate: >75% of claims fully automated, >90% partially automated"
-    - "Accuracy rate: >98% automated decision accuracy, <2% error rate requiring manual correction"
-    - "Customer satisfaction: >92% satisfaction score, <48 hour first notification"
-    - "Cost efficiency: 40% reduction in claims processing costs, $15 per claim average"
-    - "Fraud detection: >85% suspicious claims flagged, <1% false positive rate"
-    - "Regulatory compliance: 100% audit compliance, <0.1% regulatory violations"
-    - "System uptime: >99.9% platform availability, <4 hours monthly downtime"
+  - 'Processing time: Average <24 hours for standard claims, <72 hours for complex
+    claims'
+  - 'Automation rate: >75% of claims fully automated, >90% partially automated'
+  - 'Accuracy rate: >98% automated decision accuracy, <2% error rate requiring manual
+    correction'
+  - 'Customer satisfaction: >92% satisfaction score, <48 hour first notification'
+  - 'Cost efficiency: 40% reduction in claims processing costs, $15 per claim average'
+  - 'Fraud detection: >85% suspicious claims flagged, <1% false positive rate'
+  - 'Regulatory compliance: 100% audit compliance, <0.1% regulatory violations'
+  - 'System uptime: >99.9% platform availability, <4 hours monthly downtime'
   kpis:
-    - "Monthly claims volume capacity: 50,000 claims processed"
-    - "Average cost per claim: <$18 (target <$15)"
-    - "Straight-through processing rate: >70%"
-    - "Customer communication timeliness: 95% within 1 hour of filing"
-    - "Claims leakage reduction: >25% from manual processes"
-    - "Underwriting data quality improvement: >90% complete records"
+  - 'Monthly claims volume capacity: 50,000 claims processed'
+  - 'Average cost per claim: <$18 (target <$15)'
+  - 'Straight-through processing rate: >70%'
+  - 'Customer communication timeliness: 95% within 1 hour of filing'
+  - 'Claims leakage reduction: >25% from manual processes'
+  - 'Underwriting data quality improvement: >90% complete records'
   metrics:
-    - "Average processing time: Target <48 hours"
-    - "Automation success rate: Target >70%"
-    - "Customer satisfaction score: Target >90%"
-    - "Fraud detection accuracy: Target >95%"
+  - 'Average processing time: Target <48 hours'
+  - 'Automation success rate: Target >70%'
+  - 'Customer satisfaction score: Target >90%'
+  - 'Fraud detection accuracy: Target >95%'

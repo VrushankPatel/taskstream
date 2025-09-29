@@ -1,9 +1,9 @@
 ## Meeting Notes: Q3 2025 Quarterly Business Review
 
-**Date:** October 8, 2025  
-**Time:** 9:00 AM - 12:00 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CFO, COO, Department Heads, Board Observer  
+**Date:** October 8, 2025
+**Time:** 9:00 AM - 12:00 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CFO, COO, Department Heads, Board Observer
 
 ### Agenda
 1. Q3 Financial Performance Review
@@ -48,5 +48,5 @@
 ### Next Meeting
 November 5, 2025 - Q4 Mid-quarter Review
 
-**Meeting Facilitator:** COO  
+**Meeting Facilitator:** COO
 **Note Taker:** Executive Assistant

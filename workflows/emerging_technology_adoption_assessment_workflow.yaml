@@ -1,40 +1,68 @@
 workflow:
-  id: "workflow_004"
-  title: "Emerging Technology Adoption Assessment"
-  department: "Innovation & Technology"
-  complexity: "medium"
-  participants: ["Innovation Manager", "Technical Lead", "Business Analyst", "Finance Representative", "Legal Counsel"]
-  trigger: "Identification of potential emerging technology for business application"
+  id: workflow_004
+  title: Emerging Technology Adoption Assessment
+  department: Innovation & Technology
+  complexity: medium
+  participants:
+  - Innovation Manager
+  - Technical Lead
+  - Business Analyst
+  - Finance Representative
+  - Legal Counsel
+  trigger: Identification of potential emerging technology for business application
   steps:
-    - step: 1
-      actor: "Innovation Manager"
-      action: "Conduct initial technology evaluation and market research"
-      tools: ["Technology scanning tools", "Market research databases"]
-      duration: "2 weeks"
-      outputs: ["Technology evaluation report", "Market opportunity analysis"]
-    - step: 2
-      actor: "Technical Lead"
-      action: "Assess technical feasibility and integration requirements"
-      decision_points: ["Technical maturity level", "Integration complexity"]
-      duration: "3 weeks"
-      outputs: ["Technical feasibility assessment", "Integration roadmap"]
-    - step: 3
-      actor: "Business Analyst"
-      action: "Analyze business case and potential ROI"
-      tools: ["Financial modeling software", "ROI calculators"]
-      duration: "2 weeks"
-      outputs: ["Business case analysis", "ROI projections"]
-    - step: 4
-      actor: "Finance Representative"
-      action: "Review financial implications and funding requirements"
-      decision_points: ["Budget availability", "Funding source options"]
-      duration: "1 week"
-      outputs: ["Financial impact assessment", "Funding recommendations"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Evaluate regulatory compliance and risk factors"
-      decision_points: ["Regulatory requirements", "Risk mitigation strategies"]
-      duration: "2 weeks"
-      outputs: ["Compliance assessment", "Risk mitigation plan"]
-  success_criteria: "Comprehensive assessment completed with clear adoption recommendation"
-  failure_modes: ["Incomplete evaluation", "Overestimated benefits", "Underestimated risks"]
+  - step: 1
+    actor: Innovation Manager
+    action: Conduct initial technology evaluation and market research
+    tools:
+    - Technology scanning tools
+    - Market research databases
+    duration: 2 weeks
+    outputs:
+    - Technology evaluation report
+    - Market opportunity analysis
+  - step: 2
+    actor: Technical Lead
+    action: Assess technical feasibility and integration requirements
+    decision_points:
+    - Technical maturity level
+    - Integration complexity
+    duration: 3 weeks
+    outputs:
+    - Technical feasibility assessment
+    - Integration roadmap
+  - step: 3
+    actor: Business Analyst
+    action: Analyze business case and potential ROI
+    tools:
+    - Financial modeling software
+    - ROI calculators
+    duration: 2 weeks
+    outputs:
+    - Business case analysis
+    - ROI projections
+  - step: 4
+    actor: Finance Representative
+    action: Review financial implications and funding requirements
+    decision_points:
+    - Budget availability
+    - Funding source options
+    duration: 1 week
+    outputs:
+    - Financial impact assessment
+    - Funding recommendations
+  - step: 5
+    actor: Legal Counsel
+    action: Evaluate regulatory compliance and risk factors
+    decision_points:
+    - Regulatory requirements
+    - Risk mitigation strategies
+    duration: 2 weeks
+    outputs:
+    - Compliance assessment
+    - Risk mitigation plan
+  success_criteria: Comprehensive assessment completed with clear adoption recommendation
+  failure_modes:
+  - Incomplete evaluation
+  - Overestimated benefits
+  - Underestimated risks

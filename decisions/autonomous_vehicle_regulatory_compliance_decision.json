@@ -3,8 +3,16 @@
   "context": "Transportation company with 500 vehicles planning autonomous fleet expansion, facing evolving regulatory landscape across multiple jurisdictions",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Chief Legal Officer", "Chief Risk Officer"],
-    "influencers": ["Head of Engineering", "Regulatory Affairs Director", "Insurance Partner"]
+    "approvers": [
+      "CEO",
+      "Chief Legal Officer",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Head of Engineering",
+      "Regulatory Affairs Director",
+      "Insurance Partner"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,25 +24,42 @@
     {
       "stage": "initial_review",
       "duration": "3 weeks",
-      "activities": ["Regulatory landscape analysis", "Competitive intelligence", "Technical feasibility assessment"],
+      "activities": [
+        "Regulatory landscape analysis",
+        "Competitive intelligence",
+        "Technical feasibility assessment"
+      ],
       "outcome": "Approved for detailed evaluation with conditions"
     },
     {
       "stage": "due_diligence",
       "duration": "6 weeks",
-      "activities": ["Legal compliance review", "Insurance partnership negotiations", "Pilot program design"],
+      "activities": [
+        "Legal compliance review",
+        "Insurance partnership negotiations",
+        "Pilot program design"
+      ],
       "outcome": "Conditional approval pending regulatory clarity"
     },
     {
       "stage": "final_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Risk assessment finalization", "Funding allocation"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment finalization",
+        "Funding allocation"
+      ],
       "outcome": "Approved with phased implementation and regulatory monitoring requirements"
     }
   ],
   "business_impact": {
     "expected_savings": "$8,000,000 annually",
     "projected_revenue": "$15,000,000 from new services",
-    "risk_factors": ["Regulatory uncertainty", "Technology maturity", "Public acceptance", "Cybersecurity threats"]
+    "risk_factors": [
+      "Regulatory uncertainty",
+      "Technology maturity",
+      "Public acceptance",
+      "Cybersecurity threats"
+    ]
   }
 }

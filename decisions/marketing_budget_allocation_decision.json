@@ -3,8 +3,15 @@
   "context": "B2B SaaS company, 150 employees, planning annual marketing budget amid economic uncertainty",
   "stakeholders": {
     "requester": "VP Marketing",
-    "approvers": ["CEO", "CFO"],
-    "influencers": ["Head of Sales", "Product Marketing Manager", "Customer Success Lead"]
+    "approvers": [
+      "CEO",
+      "CFO"
+    ],
+    "influencers": [
+      "Head of Sales",
+      "Product Marketing Manager",
+      "Customer Success Lead"
+    ]
   },
   "request": {
     "amount": "$4,200,000",
@@ -16,25 +23,41 @@
     {
       "stage": "budget_proposal_review",
       "duration": "1 week",
-      "activities": ["Historical performance analysis", "Competitive landscape review", "Sales team input"],
+      "activities": [
+        "Historical performance analysis",
+        "Competitive landscape review",
+        "Sales team input"
+      ],
       "outcome": "Initial approval with requested modifications"
     },
     {
       "stage": "channel_optimization",
       "duration": "2 weeks",
-      "activities": ["Attribution modeling", "Channel performance benchmarking", "A/B testing results review"],
+      "activities": [
+        "Attribution modeling",
+        "Channel performance benchmarking",
+        "A/B testing results review"
+      ],
       "outcome": "Reallocated 20% from underperforming channels to high-ROI digital campaigns"
     },
     {
       "stage": "executive_approval",
       "duration": "3 days",
-      "activities": ["Board presentation", "Risk assessment", "Cash flow impact analysis"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment",
+        "Cash flow impact analysis"
+      ],
       "outcome": "Approved with quarterly review checkpoints"
     }
   ],
   "business_impact": {
     "expected_leads": "2,500 qualified leads",
     "projected_revenue_impact": "$12,000,000 in pipeline generation",
-    "risk_factors": ["Economic downturn impact", "Platform algorithm changes", "Content saturation"]
+    "risk_factors": [
+      "Economic downturn impact",
+      "Platform algorithm changes",
+      "Content saturation"
+    ]
   }
 }

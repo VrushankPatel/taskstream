@@ -1,40 +1,63 @@
 workflow:
-  id: "workflow_009_04"
-  title: "Virtual Reality Learning Implementation"
-  department: "Educational Technology"
-  complexity: "high"
-  participants: ["EdTech Director", "Curriculum Developer", "IT Administrator", "Faculty Champion", "Student Focus Group"]
-  trigger: "Board approval for VR learning initiative"
+  id: workflow_009_04
+  title: Virtual Reality Learning Implementation
+  department: Educational Technology
+  complexity: high
+  participants:
+  - EdTech Director
+  - Curriculum Developer
+  - IT Administrator
+  - Faculty Champion
+  - Student Focus Group
+  trigger: Board approval for VR learning initiative
   steps:
-    - step: 1
-      actor: "EdTech Director"
-      action: "Assess VR hardware requirements and content needs"
-      tools: ["VR Assessment Toolkit", "Curriculum Database"]
-      duration: "3 weeks"
-      outputs: ["VR implementation roadmap"]
-    - step: 2
-      actor: "Curriculum Developer"
-      action: "Design VR learning modules aligned with course objectives"
-      decision_points: ["Learning outcomes", "Technical feasibility"]
-      duration: "6 weeks"
-      outputs: ["VR curriculum modules"]
-    - step: 3
-      actor: "IT Administrator"
-      action: "Set up VR infrastructure and content delivery system"
-      tools: ["VR Headsets", "Content Management System"]
-      duration: "4 weeks"
-      outputs: ["VR learning environment"]
-    - step: 4
-      actor: "Faculty Champion"
-      action: "Conduct faculty training and gather feedback"
-      tools: ["Training Materials", "Feedback Surveys"]
-      duration: "2 weeks"
-      outputs: ["Training completion report"]
-    - step: 5
-      actor: "Student Focus Group"
-      action: "Pilot VR modules and provide user experience feedback"
-      tools: ["Usability Testing", "Analytics Platform"]
-      duration: "3 weeks"
-      outputs: ["Pilot evaluation report"]
-  success_criteria: "85% student engagement improvement in VR-enabled courses"
-  failure_modes: ["Technical compatibility issues", "Motion sickness concerns", "Content development delays"]
+  - step: 1
+    actor: EdTech Director
+    action: Assess VR hardware requirements and content needs
+    tools:
+    - VR Assessment Toolkit
+    - Curriculum Database
+    duration: 3 weeks
+    outputs:
+    - VR implementation roadmap
+  - step: 2
+    actor: Curriculum Developer
+    action: Design VR learning modules aligned with course objectives
+    decision_points:
+    - Learning outcomes
+    - Technical feasibility
+    duration: 6 weeks
+    outputs:
+    - VR curriculum modules
+  - step: 3
+    actor: IT Administrator
+    action: Set up VR infrastructure and content delivery system
+    tools:
+    - VR Headsets
+    - Content Management System
+    duration: 4 weeks
+    outputs:
+    - VR learning environment
+  - step: 4
+    actor: Faculty Champion
+    action: Conduct faculty training and gather feedback
+    tools:
+    - Training Materials
+    - Feedback Surveys
+    duration: 2 weeks
+    outputs:
+    - Training completion report
+  - step: 5
+    actor: Student Focus Group
+    action: Pilot VR modules and provide user experience feedback
+    tools:
+    - Usability Testing
+    - Analytics Platform
+    duration: 3 weeks
+    outputs:
+    - Pilot evaluation report
+  success_criteria: 85% student engagement improvement in VR-enabled courses
+  failure_modes:
+  - Technical compatibility issues
+  - Motion sickness concerns
+  - Content development delays

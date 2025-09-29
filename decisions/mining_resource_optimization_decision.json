@@ -3,8 +3,16 @@
   "context": "Mining company, 3000 employees, evaluating AI-driven resource extraction optimization",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "Board of Directors", "Environmental Compliance Officer"],
-    "influencers": ["Geology Team", "Environmental Scientists", "Financial Planning"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Environmental Compliance Officer"
+    ],
+    "influencers": [
+      "Geology Team",
+      "Environmental Scientists",
+      "Financial Planning"
+    ]
   },
   "request": {
     "amount": "$25M investment",
@@ -16,25 +24,41 @@
     {
       "stage": "technical_feasibility",
       "duration": "4 weeks",
-      "activities": ["Technology assessment", "Pilot site selection", "Vendor evaluation"],
+      "activities": [
+        "Technology assessment",
+        "Pilot site selection",
+        "Vendor evaluation"
+      ],
       "outcome": "Feasible with proven ROI"
     },
     {
       "stage": "environmental_impact",
       "duration": "3 weeks",
-      "activities": ["Environmental assessment", "Regulatory compliance review", "Stakeholder consultation"],
+      "activities": [
+        "Environmental assessment",
+        "Regulatory compliance review",
+        "Stakeholder consultation"
+      ],
       "outcome": "Environmental benefits outweigh costs"
     },
     {
       "stage": "financial_approval",
       "duration": "2 weeks",
-      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding allocation"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment",
+        "Funding allocation"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "resource_efficiency_gain": "20%",
     "cost_savings": "$8M annually",
-    "risk_factors": ["Technology reliability", "Regulatory changes", "Geological variability"]
+    "risk_factors": [
+      "Technology reliability",
+      "Regulatory changes",
+      "Geological variability"
+    ]
   }
 }

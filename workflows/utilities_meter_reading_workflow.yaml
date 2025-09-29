@@ -1,113 +1,114 @@
 name: Utilities Meter Reading Workflow
-description: Process for collecting and processing utility meter readings for accurate billing
+description: Process for collecting and processing utility meter readings for accurate
+  billing
 version: 1.0
 industry: Utilities
 region: Global
 complexity: Simple
 actors:
-  - Meter Reader
-  - Data Processing Specialist
-  - Billing Analyst
-  - Field Supervisor
-  - Customer Service Representative
+- Meter Reader
+- Data Processing Specialist
+- Billing Analyst
+- Field Supervisor
+- Customer Service Representative
 steps:
-  - id: route_planning
-    name: Route Planning and Scheduling
-    description: Plan meter reading routes and schedules
-    actor: Field Supervisor
-    inputs:
-      - Customer locations
-      - Reading frequency requirements
-      - Resource availability
-    outputs:
-      - Reading routes
-      - Schedule assignments
-      - Equipment allocation
-    duration: Weekly
-    tools:
-      - Route optimization software
-      - GIS mapping system
-  - id: meter_reading
-    name: Meter Reading Collection
-    description: Collect meter readings from customer premises
-    actor: Meter Reader
-    inputs:
-      - Meter reading devices
-      - Customer access information
-      - Safety protocols
-    outputs:
-      - Raw meter readings
-      - Reading timestamps
-      - Access notes
-    duration: Daily
-    tools:
-      - Handheld reading devices
-      - Mobile data collection apps
-  - id: data_validation
-    name: Data Validation and Processing
-    description: Validate and process collected meter readings
-    actor: Data Processing Specialist
-    inputs:
-      - Raw reading data
-      - Validation rules
-      - Historical consumption data
-    outputs:
-      - Validated readings
-      - Anomaly reports
-      - Data quality metrics
-    duration: Daily
-  - id: billing_calculation
-    name: Billing Calculation
-    description: Calculate customer bills based on meter readings
-    actor: Billing Analyst
-    inputs:
-      - Validated readings
-      - Rate structures
-      - Billing cycles
-    outputs:
-      - Customer bills
-      - Usage summaries
-      - Billing adjustments
-    duration: Monthly
-  - id: bill_delivery
-    name: Bill Delivery and Customer Notification
-    description: Deliver bills and handle customer inquiries
-    actor: Customer Service Representative
-    inputs:
-      - Generated bills
-      - Delivery preferences
-      - Communication templates
-    outputs:
-      - Bill delivery confirmations
-      - Customer notifications
-      - Inquiry responses
-    duration: Monthly
-  - id: dispute_resolution
-    name: Billing Dispute Resolution
-    description: Handle customer disputes regarding meter readings
-    actor: Billing Analyst
-    inputs:
-      - Dispute claims
-      - Reading verification procedures
-      - Customer account history
-    outputs:
-      - Dispute resolution outcomes
-      - Bill adjustments
-      - Re-reading schedules
-    duration: As needed
+- id: route_planning
+  name: Route Planning and Scheduling
+  description: Plan meter reading routes and schedules
+  actor: Field Supervisor
+  inputs:
+  - Customer locations
+  - Reading frequency requirements
+  - Resource availability
+  outputs:
+  - Reading routes
+  - Schedule assignments
+  - Equipment allocation
+  duration: Weekly
+  tools:
+  - Route optimization software
+  - GIS mapping system
+- id: meter_reading
+  name: Meter Reading Collection
+  description: Collect meter readings from customer premises
+  actor: Meter Reader
+  inputs:
+  - Meter reading devices
+  - Customer access information
+  - Safety protocols
+  outputs:
+  - Raw meter readings
+  - Reading timestamps
+  - Access notes
+  duration: Daily
+  tools:
+  - Handheld reading devices
+  - Mobile data collection apps
+- id: data_validation
+  name: Data Validation and Processing
+  description: Validate and process collected meter readings
+  actor: Data Processing Specialist
+  inputs:
+  - Raw reading data
+  - Validation rules
+  - Historical consumption data
+  outputs:
+  - Validated readings
+  - Anomaly reports
+  - Data quality metrics
+  duration: Daily
+- id: billing_calculation
+  name: Billing Calculation
+  description: Calculate customer bills based on meter readings
+  actor: Billing Analyst
+  inputs:
+  - Validated readings
+  - Rate structures
+  - Billing cycles
+  outputs:
+  - Customer bills
+  - Usage summaries
+  - Billing adjustments
+  duration: Monthly
+- id: bill_delivery
+  name: Bill Delivery and Customer Notification
+  description: Deliver bills and handle customer inquiries
+  actor: Customer Service Representative
+  inputs:
+  - Generated bills
+  - Delivery preferences
+  - Communication templates
+  outputs:
+  - Bill delivery confirmations
+  - Customer notifications
+  - Inquiry responses
+  duration: Monthly
+- id: dispute_resolution
+  name: Billing Dispute Resolution
+  description: Handle customer disputes regarding meter readings
+  actor: Billing Analyst
+  inputs:
+  - Dispute claims
+  - Reading verification procedures
+  - Customer account history
+  outputs:
+  - Dispute resolution outcomes
+  - Bill adjustments
+  - Re-reading schedules
+  duration: As needed
 success_criteria:
-  - 98% reading accuracy
-  - Bills delivered on time
-  - Dispute resolution within 30 days
-  - Minimal estimated readings
+- 98% reading accuracy
+- Bills delivered on time
+- Dispute resolution within 30 days
+- Minimal estimated readings
 failure_modes:
-  - Inaccessible meters
-  - Data entry errors
-  - Billing inaccuracies
-  - Customer dissatisfaction
+- Inaccessible meters
+- Data entry errors
+- Billing inaccuracies
+- Customer dissatisfaction
 metrics:
-  - Reading completion rate
-  - Data accuracy percentage
-  - Bill delivery timeliness
-  - Dispute resolution time
-  - Estimated reading percentage
+- Reading completion rate
+- Data accuracy percentage
+- Bill delivery timeliness
+- Dispute resolution time
+- Estimated reading percentage

@@ -1,38 +1,61 @@
 workflow:
-  id: "workflow_insurance_cyber_006"
-  title: "Insurance Cyber Claims Processing Workflow"
-  department: "Cyber Claims"
-  complexity: "medium"
-  participants: ["Cyber Claims Specialist", "Forensic Investigator", "Underwriter", "Legal Advisor"]
-  trigger: "Policyholder reports cyber incident (ransomware, data breach, DDoS)"
+  id: workflow_insurance_cyber_006
+  title: Insurance Cyber Claims Processing Workflow
+  department: Cyber Claims
+  complexity: medium
+  participants:
+  - Cyber Claims Specialist
+  - Forensic Investigator
+  - Underwriter
+  - Legal Advisor
+  trigger: Policyholder reports cyber incident (ransomware, data breach, DDoS)
   steps:
-    - step: 1
-      actor: "Cyber Claims Specialist"
-      action: "Initial claim intake and documentation collection"
-      tools: ["Cyber Claims Portal", "Document Management System"]
-      duration: "4 hours"
-      outputs: ["Claim documentation package", "Initial assessment"]
-    - step: 2
-      actor: "Forensic Investigator"
-      action: "Conduct technical investigation and assess incident scope"
-      tools: ["Digital Forensics Tools", "Incident Response Platform"]
-      duration: "24 hours"
-      outputs: ["Forensic report", "Incident timeline"]
-    - step: 3
-      actor: "Underwriter"
-      action: "Evaluate coverage and calculate settlement amount"
-      tools: ["Cyber Policy Database", "Claims Calculation Engine"]
-      duration: "8 hours"
-      outputs: ["Coverage determination", "Settlement recommendation"]
-    - step: 4
-      actor: "Legal Advisor"
-      action: "Review settlement and ensure regulatory compliance"
-      tools: ["Legal Compliance Database", "Contract Review System"]
-      duration: "12 hours"
-      outputs: ["Settlement approval", "Regulatory filings"]
-  success_criteria: "Claims processed within 45 days, settlement accuracy >98%"
-  failure_modes: ["Incomplete documentation", "Coverage disputes", "Regulatory delays"]
+  - step: 1
+    actor: Cyber Claims Specialist
+    action: Initial claim intake and documentation collection
+    tools:
+    - Cyber Claims Portal
+    - Document Management System
+    duration: 4 hours
+    outputs:
+    - Claim documentation package
+    - Initial assessment
+  - step: 2
+    actor: Forensic Investigator
+    action: Conduct technical investigation and assess incident scope
+    tools:
+    - Digital Forensics Tools
+    - Incident Response Platform
+    duration: 24 hours
+    outputs:
+    - Forensic report
+    - Incident timeline
+  - step: 3
+    actor: Underwriter
+    action: Evaluate coverage and calculate settlement amount
+    tools:
+    - Cyber Policy Database
+    - Claims Calculation Engine
+    duration: 8 hours
+    outputs:
+    - Coverage determination
+    - Settlement recommendation
+  - step: 4
+    actor: Legal Advisor
+    action: Review settlement and ensure regulatory compliance
+    tools:
+    - Legal Compliance Database
+    - Contract Review System
+    duration: 12 hours
+    outputs:
+    - Settlement approval
+    - Regulatory filings
+  success_criteria: Claims processed within 45 days, settlement accuracy >98%
+  failure_modes:
+  - Incomplete documentation
+  - Coverage disputes
+  - Regulatory delays
   metrics:
-    - "Average processing time: Target 35 days"
-    - "Claim accuracy rate: Target 98%"
-    - "Customer retention rate: Target 85%"
+  - 'Average processing time: Target 35 days'
+  - 'Claim accuracy rate: Target 98%'
+  - 'Customer retention rate: Target 85%'

@@ -1,49 +1,83 @@
 workflow:
-  id: "workflow_026_003"
-  title: "Customer Data Platform Integration"
-  department: "Customer Experience"
-  complexity: "medium"
-  participants: ["Data Architect", "Marketing Technologist", "Privacy Officer", "Customer Insights Analyst"]
-  trigger: "Initiative to unify customer data across channels"
+  id: workflow_026_003
+  title: Customer Data Platform Integration
+  department: Customer Experience
+  complexity: medium
+  participants:
+  - Data Architect
+  - Marketing Technologist
+  - Privacy Officer
+  - Customer Insights Analyst
+  trigger: Initiative to unify customer data across channels
   steps:
-    - step: 1
-      actor: "Data Architect"
-      action: "Map existing customer data sources and identify integration points"
-      tools: ["Data Catalog", "System Architecture Diagrams"]
-      duration: "1 week"
-      outputs: ["Data Source Inventory"]
-    - step: 2
-      actor: "Privacy Officer"
-      action: "Conduct privacy impact assessment and ensure compliance"
-      decision_points: ["Data Collection Consent", "Retention Policies", "Cross-border Transfer Rules"]
-      tools: ["Privacy Assessment Framework", "Legal Guidelines"]
-      duration: "2 weeks"
-      outputs: ["Privacy Compliance Report"]
-    - step: 3
-      actor: "Marketing Technologist"
-      action: "Design data integration architecture and ETL processes"
-      decision_points: ["Real-time vs Batch Processing", "Data Quality Rules", "Identity Resolution Strategy"]
-      tools: ["ETL Tools", "Data Modeling Software"]
-      duration: "3 weeks"
-      outputs: ["Integration Architecture Design"]
-    - step: 4
-      actor: "Data Architect"
-      action: "Implement data pipelines and quality validation"
-      tools: ["Data Integration Platform", "Quality Monitoring Tools"]
-      duration: "4 weeks"
-      outputs: ["Integrated Data Platform"]
-    - step: 5
-      actor: "Customer Insights Analyst"
-      action: "Create unified customer profiles and segmentation"
-      decision_points: ["Segmentation Criteria", "Profile Enrichment Rules", "Activation Channels"]
-      tools: ["Customer Analytics Platform", "Segmentation Tools"]
-      duration: "2 weeks"
-      outputs: ["Customer Segmentation Models"]
-    - step: 6
-      actor: "Marketing Technologist"
-      action: "Connect CDP to marketing automation and personalization systems"
-      tools: ["API Integration Tools", "Testing Frameworks"]
-      duration: "2 weeks"
-      outputs: ["Activated Marketing Campaigns"]
-  success_criteria: "Unified customer view enabling 360-degree personalization"
-  failure_modes: ["Data quality issues causing inaccurate profiles", "Privacy compliance violations", "Integration complexity delays"]
+  - step: 1
+    actor: Data Architect
+    action: Map existing customer data sources and identify integration points
+    tools:
+    - Data Catalog
+    - System Architecture Diagrams
+    duration: 1 week
+    outputs:
+    - Data Source Inventory
+  - step: 2
+    actor: Privacy Officer
+    action: Conduct privacy impact assessment and ensure compliance
+    decision_points:
+    - Data Collection Consent
+    - Retention Policies
+    - Cross-border Transfer Rules
+    tools:
+    - Privacy Assessment Framework
+    - Legal Guidelines
+    duration: 2 weeks
+    outputs:
+    - Privacy Compliance Report
+  - step: 3
+    actor: Marketing Technologist
+    action: Design data integration architecture and ETL processes
+    decision_points:
+    - Real-time vs Batch Processing
+    - Data Quality Rules
+    - Identity Resolution Strategy
+    tools:
+    - ETL Tools
+    - Data Modeling Software
+    duration: 3 weeks
+    outputs:
+    - Integration Architecture Design
+  - step: 4
+    actor: Data Architect
+    action: Implement data pipelines and quality validation
+    tools:
+    - Data Integration Platform
+    - Quality Monitoring Tools
+    duration: 4 weeks
+    outputs:
+    - Integrated Data Platform
+  - step: 5
+    actor: Customer Insights Analyst
+    action: Create unified customer profiles and segmentation
+    decision_points:
+    - Segmentation Criteria
+    - Profile Enrichment Rules
+    - Activation Channels
+    tools:
+    - Customer Analytics Platform
+    - Segmentation Tools
+    duration: 2 weeks
+    outputs:
+    - Customer Segmentation Models
+  - step: 6
+    actor: Marketing Technologist
+    action: Connect CDP to marketing automation and personalization systems
+    tools:
+    - API Integration Tools
+    - Testing Frameworks
+    duration: 2 weeks
+    outputs:
+    - Activated Marketing Campaigns
+  success_criteria: Unified customer view enabling 360-degree personalization
+  failure_modes:
+  - Data quality issues causing inaccurate profiles
+  - Privacy compliance violations
+  - Integration complexity delays

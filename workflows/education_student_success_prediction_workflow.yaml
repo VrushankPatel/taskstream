@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_education_student_success_prediction"
-  title: "Student Success Prediction and Intervention System"
-  department: "Academic Affairs"
-  complexity: "medium"
-  participants: ["Data Analytics Team", "Academic Advisors", "Faculty", "Student Services", "IT Department"]
-  trigger: "Semester begins or student enrollment data updated"
+  id: workflow_education_student_success_prediction
+  title: Student Success Prediction and Intervention System
+  department: Academic Affairs
+  complexity: medium
+  participants:
+  - Data Analytics Team
+  - Academic Advisors
+  - Faculty
+  - Student Services
+  - IT Department
+  trigger: Semester begins or student enrollment data updated
   steps:
-    - step: 1
-      actor: "Data Analytics Team"
-      action: "Collect and integrate student data from multiple sources"
-      tools: ["Student Information System", "Learning Management System", "ETL Tools"]
-      duration: "Weekly batch processing"
-      outputs: ["Integrated Student Dataset"]
-    - step: 2
-      actor: "Data Analytics Team"
-      action: "Apply predictive models to identify at-risk students"
-      tools: ["Machine Learning Platforms", "Predictive Analytics Software"]
-      duration: "Daily model scoring"
-      outputs: ["Risk Prediction Scores", "At-Risk Student Lists"]
-    - step: 3
-      actor: "Academic Advisors"
-      action: "Review prediction results and validate with contextual information"
-      tools: ["Student Dashboard", "Advising Notes System"]
-      duration: "2-3 days per student cohort"
-      outputs: ["Validated Risk Assessments", "Intervention Recommendations"]
-    - step: 4
-      actor: "Academic Advisors"
-      action: "Develop personalized intervention plans for at-risk students"
-      tools: ["Intervention Planning Templates", "Resource Database"]
-      duration: "1 week per identified student"
-      outputs: ["Personalized Intervention Plans", "Resource Assignments"]
-    - step: 5
-      actor: "Student Services"
-      action: "Implement non-academic interventions (tutoring, counseling, etc.)"
-      tools: ["Service Coordination Platform", "Appointment Scheduling System"]
-      duration: "Ongoing throughout semester"
-      outputs: ["Intervention Participation Records", "Service Utilization Reports"]
-    - step: 6
-      actor: "Data Analytics Team"
-      action: "Monitor intervention effectiveness and update prediction models"
-      tools: ["Performance Tracking Dashboard", "Model Retraining Pipelines"]
-      duration: "End of semester analysis"
-      outputs: ["Intervention Effectiveness Reports", "Updated Prediction Models"]
-  success_criteria: "15% improvement in student retention rates, accurate prediction of 80% of at-risk students"
-  failure_modes: ["Data privacy concerns", "Over-intervention of false positives", "Insufficient advisor capacity"]
+  - step: 1
+    actor: Data Analytics Team
+    action: Collect and integrate student data from multiple sources
+    tools:
+    - Student Information System
+    - Learning Management System
+    - ETL Tools
+    duration: Weekly batch processing
+    outputs:
+    - Integrated Student Dataset
+  - step: 2
+    actor: Data Analytics Team
+    action: Apply predictive models to identify at-risk students
+    tools:
+    - Machine Learning Platforms
+    - Predictive Analytics Software
+    duration: Daily model scoring
+    outputs:
+    - Risk Prediction Scores
+    - At-Risk Student Lists
+  - step: 3
+    actor: Academic Advisors
+    action: Review prediction results and validate with contextual information
+    tools:
+    - Student Dashboard
+    - Advising Notes System
+    duration: 2-3 days per student cohort
+    outputs:
+    - Validated Risk Assessments
+    - Intervention Recommendations
+  - step: 4
+    actor: Academic Advisors
+    action: Develop personalized intervention plans for at-risk students
+    tools:
+    - Intervention Planning Templates
+    - Resource Database
+    duration: 1 week per identified student
+    outputs:
+    - Personalized Intervention Plans
+    - Resource Assignments
+  - step: 5
+    actor: Student Services
+    action: Implement non-academic interventions (tutoring, counseling, etc.)
+    tools:
+    - Service Coordination Platform
+    - Appointment Scheduling System
+    duration: Ongoing throughout semester
+    outputs:
+    - Intervention Participation Records
+    - Service Utilization Reports
+  - step: 6
+    actor: Data Analytics Team
+    action: Monitor intervention effectiveness and update prediction models
+    tools:
+    - Performance Tracking Dashboard
+    - Model Retraining Pipelines
+    duration: End of semester analysis
+    outputs:
+    - Intervention Effectiveness Reports
+    - Updated Prediction Models
+  success_criteria: 15% improvement in student retention rates, accurate prediction
+    of 80% of at-risk students
+  failure_modes:
+  - Data privacy concerns
+  - Over-intervention of false positives
+  - Insufficient advisor capacity

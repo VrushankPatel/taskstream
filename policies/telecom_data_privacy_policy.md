@@ -177,12 +177,12 @@ This policy applies to all MetroTel employees, contractors, and third-party serv
 ## Contact Information
 
 ### Privacy Officer
-MetroTel Communications  
-Attn: Chief Privacy Officer  
-123 Telecom Plaza  
-Anytown, USA 12345  
-privacy@metrotel.com  
-1-800-PRIVACY  
+MetroTel Communications
+Attn: Chief Privacy Officer
+123 Telecom Plaza
+Anytown, USA 12345
+privacy@metrotel.com
+1-800-PRIVACY
 
 ### Data Protection Authority
 Customers may also contact their local data protection authority for complaints or concerns about our privacy practices.

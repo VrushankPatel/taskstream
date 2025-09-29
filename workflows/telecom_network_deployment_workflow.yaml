@@ -1,44 +1,67 @@
 workflow:
-  id: "workflow_telecom_network_deployment"
-  title: "5G Network Infrastructure Deployment Process"
-  department: "Network Operations"
-  complexity: "complex"
-  participants: ["Network Engineer", "Site Acquisition Specialist", "Regulatory Affairs", "Project Manager", "Field Operations Team"]
-  trigger: "New 5G coverage area identified in business plan"
+  id: workflow_telecom_network_deployment
+  title: 5G Network Infrastructure Deployment Process
+  department: Network Operations
+  complexity: complex
+  participants:
+  - Network Engineer
+  - Site Acquisition Specialist
+  - Regulatory Affairs
+  - Project Manager
+  - Field Operations Team
+  trigger: New 5G coverage area identified in business plan
   steps:
-    - step: 1
-      actor: "Site Acquisition Specialist"
-      action: "Identify and negotiate cell tower locations"
-      tools: ["GIS Mapping Software", "Real Estate Database"]
-      duration: "30 days"
-      outputs: ["Site Acquisition Agreements"]
-    - step: 2
-      actor: "Regulatory Affairs"
-      action: "Obtain necessary permits and FCC approvals"
-      tools: ["Regulatory Filing System", "FCC Portal"]
-      duration: "45 days"
-      outputs: ["Regulatory Approvals"]
-    - step: 3
-      actor: "Network Engineer"
-      action: "Design network architecture and equipment specifications"
-      tools: ["Network Design Software", "Equipment Catalogs"]
-      duration: "14 days"
-      outputs: ["Network Design Documents"]
-    - step: 4
-      actor: "Project Manager"
-      action: "Procure equipment and coordinate vendor delivery"
-      tools: ["Procurement System", "Vendor Management Portal"]
-      duration: "21 days"
-      outputs: ["Equipment Procurement Orders"]
-    - step: 5
-      actor: "Field Operations Team"
-      action: "Install and commission network equipment"
-      tools: ["Installation Tools", "Testing Equipment"]
-      duration: "7 days per site"
-      outputs: ["Commissioned Network Sites"]
-  success_criteria: "Network deployed on schedule with 99.9% uptime target"
-  failure_modes: ["Permit delays", "Equipment delivery issues", "Site access problems"]
+  - step: 1
+    actor: Site Acquisition Specialist
+    action: Identify and negotiate cell tower locations
+    tools:
+    - GIS Mapping Software
+    - Real Estate Database
+    duration: 30 days
+    outputs:
+    - Site Acquisition Agreements
+  - step: 2
+    actor: Regulatory Affairs
+    action: Obtain necessary permits and FCC approvals
+    tools:
+    - Regulatory Filing System
+    - FCC Portal
+    duration: 45 days
+    outputs:
+    - Regulatory Approvals
+  - step: 3
+    actor: Network Engineer
+    action: Design network architecture and equipment specifications
+    tools:
+    - Network Design Software
+    - Equipment Catalogs
+    duration: 14 days
+    outputs:
+    - Network Design Documents
+  - step: 4
+    actor: Project Manager
+    action: Procure equipment and coordinate vendor delivery
+    tools:
+    - Procurement System
+    - Vendor Management Portal
+    duration: 21 days
+    outputs:
+    - Equipment Procurement Orders
+  - step: 5
+    actor: Field Operations Team
+    action: Install and commission network equipment
+    tools:
+    - Installation Tools
+    - Testing Equipment
+    duration: 7 days per site
+    outputs:
+    - Commissioned Network Sites
+  success_criteria: Network deployed on schedule with 99.9% uptime target
+  failure_modes:
+  - Permit delays
+  - Equipment delivery issues
+  - Site access problems
   metrics:
-    - "Deployment Schedule Adherence: Target 95%"
-    - "Network Uptime: Target 99.9%"
-    - "Cost Variance: Target <5% over budget"
+  - 'Deployment Schedule Adherence: Target 95%'
+  - 'Network Uptime: Target 99.9%'
+  - 'Cost Variance: Target <5% over budget'

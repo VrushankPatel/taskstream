@@ -1,45 +1,74 @@
 workflow:
-  id: "workflow_retail_eu_gdpr_compliance"
-  title: "Retail EU GDPR Compliance Process"
-  department: "Legal & Compliance"
-  complexity: "medium"
-  participants: ["Data Protection Officer", "IT Security Manager", "Legal Counsel", "Store Managers"]
-  trigger: "GDPR compliance audit or data breach incident"
+  id: workflow_retail_eu_gdpr_compliance
+  title: Retail EU GDPR Compliance Process
+  department: Legal & Compliance
+  complexity: medium
+  participants:
+  - Data Protection Officer
+  - IT Security Manager
+  - Legal Counsel
+  - Store Managers
+  trigger: GDPR compliance audit or data breach incident
   steps:
-    - step: 1
-      actor: "Data Protection Officer"
-      action: "Assess data processing activities and identify compliance gaps"
-      tools: ["GDPR Assessment Framework", "Data Inventory System"]
-      duration: "2 weeks"
-      outputs: ["Compliance Gap Analysis", "Risk Assessment Report"]
-    - step: 2
-      actor: "IT Security Manager"
-      action: "Implement technical safeguards for data protection"
-      tools: ["Security Implementation Tools", "Encryption Software"]
-      duration: "4 weeks"
-      outputs: ["Security Controls Implementation", "Data Protection Measures"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review and update privacy policies and consent mechanisms"
-      tools: ["Legal Review Templates", "GDPR Compliance Software"]
-      duration: "3 weeks"
-      outputs: ["Updated Privacy Policies", "Consent Management System"]
-    - step: 4
-      actor: "Store Managers"
-      action: "Train staff on GDPR requirements and data handling procedures"
-      tools: ["Training Materials", "Compliance Training Platform"]
-      duration: "1 week"
-      outputs: ["Staff Training Records", "Compliance Awareness"]
-    - step: 5
-      actor: "Data Protection Officer"
-      action: "Conduct internal audit and prepare for certification"
-      tools: ["Audit Checklist", "Compliance Monitoring Tools"]
-      duration: "2 weeks"
-      outputs: ["Audit Report", "Certification Readiness"]
-  success_criteria: "100% GDPR compliance achieved, no data breaches, successful certification audit"
-  failure_modes: ["Data breach incidents", "Regulatory fines", "Non-compliance findings", "Inadequate training"]
+  - step: 1
+    actor: Data Protection Officer
+    action: Assess data processing activities and identify compliance gaps
+    tools:
+    - GDPR Assessment Framework
+    - Data Inventory System
+    duration: 2 weeks
+    outputs:
+    - Compliance Gap Analysis
+    - Risk Assessment Report
+  - step: 2
+    actor: IT Security Manager
+    action: Implement technical safeguards for data protection
+    tools:
+    - Security Implementation Tools
+    - Encryption Software
+    duration: 4 weeks
+    outputs:
+    - Security Controls Implementation
+    - Data Protection Measures
+  - step: 3
+    actor: Legal Counsel
+    action: Review and update privacy policies and consent mechanisms
+    tools:
+    - Legal Review Templates
+    - GDPR Compliance Software
+    duration: 3 weeks
+    outputs:
+    - Updated Privacy Policies
+    - Consent Management System
+  - step: 4
+    actor: Store Managers
+    action: Train staff on GDPR requirements and data handling procedures
+    tools:
+    - Training Materials
+    - Compliance Training Platform
+    duration: 1 week
+    outputs:
+    - Staff Training Records
+    - Compliance Awareness
+  - step: 5
+    actor: Data Protection Officer
+    action: Conduct internal audit and prepare for certification
+    tools:
+    - Audit Checklist
+    - Compliance Monitoring Tools
+    duration: 2 weeks
+    outputs:
+    - Audit Report
+    - Certification Readiness
+  success_criteria: 100% GDPR compliance achieved, no data breaches, successful certification
+    audit
+  failure_modes:
+  - Data breach incidents
+  - Regulatory fines
+  - Non-compliance findings
+  - Inadequate training
   metrics:
-    - "Compliance Score: >95%"
-    - "Training Completion Rate: >98%"
-    - "Audit Findings: <5 minor issues"
-    - "Data Breach Incidents: 0"
+  - 'Compliance Score: >95%'
+  - 'Training Completion Rate: >98%'
+  - 'Audit Findings: <5 minor issues'
+  - 'Data Breach Incidents: 0'

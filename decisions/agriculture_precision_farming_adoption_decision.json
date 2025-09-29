@@ -3,8 +3,16 @@
   "context": "Family-owned farming cooperative evaluating $2M investment in precision agriculture technology across 50,000 acres",
   "stakeholders": {
     "requester": "Farm Operations Manager",
-    "approvers": ["Board of Directors", "CEO"],
-    "influencers": ["Agronomists", "Technology Vendors", "Farmer Members", "Agricultural Extension Service"]
+    "approvers": [
+      "Board of Directors",
+      "CEO"
+    ],
+    "influencers": [
+      "Agronomists",
+      "Technology Vendors",
+      "Farmer Members",
+      "Agricultural Extension Service"
+    ]
   },
   "request": {
     "amount": "$2,000,000",
@@ -16,28 +24,52 @@
     {
       "stage": "field_trials",
       "duration": "1 growing season",
-      "activities": ["Equipment testing on sample fields", "Yield monitoring", "Input usage tracking", "Farmer feedback collection"],
+      "activities": [
+        "Equipment testing on sample fields",
+        "Yield monitoring",
+        "Input usage tracking",
+        "Farmer feedback collection"
+      ],
       "outcome": "12% yield improvement and 18% input savings demonstrated"
     },
     {
       "stage": "economic_analysis",
       "duration": "2 months",
-      "activities": ["ROI calculations", "Financing options exploration", "Member benefit distribution analysis"],
+      "activities": [
+        "ROI calculations",
+        "Financing options exploration",
+        "Member benefit distribution analysis"
+      ],
       "outcome": "3-year payback period with 15% IRR"
     },
     {
       "stage": "adoption_planning",
       "duration": "1 month",
-      "activities": ["Training program development", "Equipment procurement plan", "Support infrastructure setup"],
+      "activities": [
+        "Training program development",
+        "Equipment procurement plan",
+        "Support infrastructure setup"
+      ],
       "outcome": "Phased 3-year adoption strategy approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "Sustainable farming practices, improved member profitability, enhanced environmental stewardship",
     "projected_value": "$8,000,000 in additional revenue over 5 years",
-    "risk_factors": ["Technology learning curve", "Equipment reliability", "Weather dependency", "Market price volatility"]
+    "risk_factors": [
+      "Technology learning curve",
+      "Equipment reliability",
+      "Weather dependency",
+      "Market price volatility"
+    ]
   },
-  "decision_criteria": ["Economic viability", "Environmental benefits", "Member acceptance", "Technology reliability", "Scalability"],
+  "decision_criteria": [
+    "Economic viability",
+    "Environmental benefits",
+    "Member acceptance",
+    "Technology reliability",
+    "Scalability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Field trials crucial for farmer confidence, comprehensive training essential for adoption, cooperative governance requires extensive member communication"
 }

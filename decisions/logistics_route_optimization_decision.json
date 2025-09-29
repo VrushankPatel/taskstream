@@ -3,8 +3,15 @@
   "context": "Logistics company, 2000 employees, implementing AI route optimization",
   "stakeholders": {
     "requester": "Operations Director",
-    "approvers": ["COO", "CTO"],
-    "influencers": ["Fleet Managers", "IT Team", "Customer Service"]
+    "approvers": [
+      "COO",
+      "CTO"
+    ],
+    "influencers": [
+      "Fleet Managers",
+      "IT Team",
+      "Customer Service"
+    ]
   },
   "request": {
     "amount": "$2 million",
@@ -16,19 +23,31 @@
     {
       "stage": "pilot_testing",
       "duration": "2 months",
-      "activities": ["Vendor evaluation", "Pilot program in 3 regions", "Performance metrics collection"],
+      "activities": [
+        "Vendor evaluation",
+        "Pilot program in 3 regions",
+        "Performance metrics collection"
+      ],
       "outcome": "Pilot successful, proceed to full implementation"
     },
     {
       "stage": "implementation_planning",
       "duration": "1 month",
-      "activities": ["Change management planning", "Training programs", "Integration testing"],
+      "activities": [
+        "Change management planning",
+        "Training programs",
+        "Integration testing"
+      ],
       "outcome": "Approved for company-wide rollout"
     }
   ],
   "business_impact": {
     "expected_savings": "$3 million annually",
     "delivery_improvement": "20% faster",
-    "risk_factors": ["Driver resistance", "Technology integration issues", "Initial cost overrun"]
+    "risk_factors": [
+      "Driver resistance",
+      "Technology integration issues",
+      "Initial cost overrun"
+    ]
   }
 }

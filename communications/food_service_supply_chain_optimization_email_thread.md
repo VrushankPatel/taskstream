@@ -1,8 +1,8 @@
 ## Email Thread: Supply Chain Optimization Initiative
 
-**From:** Supply Chain Director  
-**To:** Operations Leadership Team  
-**Subject:** Supply Chain Optimization Pilot Program Results and Next Steps  
+**From:** Supply Chain Director
+**To:** Operations Leadership Team
+**Subject:** Supply Chain Optimization Pilot Program Results and Next Steps
 
 Team,
 
@@ -35,16 +35,16 @@ The pilot demonstrated clear ROI with $2.3M in annual savings projected for full
 
 The projected ROI for full implementation is 340% over 3 years. I'd like to schedule a planning session next week to discuss the rollout strategy.
 
-Best regards,  
-David Martinez  
-Supply Chain Director  
-FreshEats Restaurant Group  
+Best regards,
+David Martinez
+Supply Chain Director
+FreshEats Restaurant Group
 
 ---
 
-**From:** COO  
-**To:** Supply Chain Director, Operations Leadership Team  
-**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps  
+**From:** COO
+**To:** Supply Chain Director, Operations Leadership Team
+**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps
 
 David,
 
@@ -60,16 +60,16 @@ The leadership team supports moving forward with full implementation. However, w
 
 Can you prepare a detailed implementation plan incorporating these elements? We'd like to present this to the board for approval next month.
 
-Regards,  
-Amanda Foster  
-COO  
-FreshEats Restaurant Group  
+Regards,
+Amanda Foster
+COO
+FreshEats Restaurant Group
 
 ---
 
-**From:** Supply Chain Director  
-**To:** COO, Operations Leadership Team  
-**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps  
+**From:** Supply Chain Director
+**To:** COO, Operations Leadership Team
+**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps
 
 Amanda,
 
@@ -111,16 +111,16 @@ Total budget: $6.2M with projected 3-year ROI of 280%. Detailed plan attached.
 
 Please let me know your thoughts and when you'd like to discuss further.
 
-Best regards,  
-David Martinez  
-Supply Chain Director  
-FreshEats Restaurant Group  
+Best regards,
+David Martinez
+Supply Chain Director
+FreshEats Restaurant Group
 
 ---
 
-**From:** CEO  
-**To:** Supply Chain Director, COO, Operations Leadership Team  
-**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps  
+**From:** CEO
+**To:** Supply Chain Director, COO, Operations Leadership Team
+**Subject:** Re: Supply Chain Optimization Pilot Program Results and Next Steps
 
 David,
 
@@ -132,7 +132,7 @@ Board presentation is scheduled for October 15. Please prepare executive summary
 
 Well done on driving this important initiative!
 
-Regards,  
-Robert Kim  
-CEO  
+Regards,
+Robert Kim
+CEO
 FreshEats Restaurant Group

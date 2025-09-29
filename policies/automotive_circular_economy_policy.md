@@ -206,9 +206,9 @@ This policy establishes the framework for implementing circular economy principl
 
 ## Contact Information
 
-**Policy Owner:** Chief Sustainability Officer  
-**Implementation Lead:** Director of Circular Economy  
-**Compliance Officer:** Environmental Compliance Manager  
+**Policy Owner:** Chief Sustainability Officer
+**Implementation Lead:** Director of Circular Economy
+**Compliance Officer:** Environmental Compliance Manager
 **Training Coordinator:** Sustainability Training Manager
 
 *This policy is reviewed annually and updated to reflect advances in circular economy practices, regulatory requirements, and technological innovations.*

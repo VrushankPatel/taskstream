@@ -1,52 +1,90 @@
 workflow:
-  id: "workflow_055_009"
-  title: "AI Ethics Governance Framework Expansion Workflow"
-  department: "AI Ethics Governance"
-  complexity: "high"
-  participants: ["AI Ethics Governance Leads", "Executive Leadership", "Cross-functional Stakeholders", "Ethics Committee Members", "External Consultants"]
-  trigger: "Organizational growth, new AI applications, or regulatory changes requiring governance expansion"
+  id: workflow_055_009
+  title: AI Ethics Governance Framework Expansion Workflow
+  department: AI Ethics Governance
+  complexity: high
+  participants:
+  - AI Ethics Governance Leads
+  - Executive Leadership
+  - Cross-functional Stakeholders
+  - Ethics Committee Members
+  - External Consultants
+  trigger: Organizational growth, new AI applications, or regulatory changes requiring
+    governance expansion
   steps:
-    - step: 1
-      actor: "AI Ethics Governance Leads"
-      action: "Assess current governance framework and identify expansion needs"
-      tools: ["Governance assessment tools", "Maturity model frameworks"]
-      duration: "3 weeks"
-      outputs: ["Governance gap analysis", "Expansion requirements document"]
-    - step: 2
-      actor: "Executive Leadership"
-      action: "Define governance expansion scope and strategic objectives"
-      decision_points: ["Expansion scope approved", "Resource allocation confirmed"]
-      tools: ["Strategic planning frameworks", "ROI analysis tools"]
-      duration: "2 weeks"
-      outputs: ["Governance expansion strategy", "Resource requirements"]
-    - step: 3
-      actor: "Ethics Committee Members"
-      action: "Develop expanded governance policies and procedures"
-      tools: ["Policy development templates", "Stakeholder consultation tools"]
-      duration: "4 weeks"
-      outputs: ["Updated governance policies", "Procedure documentation"]
-    - step: 4
-      actor: "Cross-functional Stakeholders"
-      action: "Establish expanded ethics oversight committees and review boards"
-      tools: ["Committee formation tools", "Governance structure templates"]
-      duration: "2 weeks"
-      outputs: ["Committee charters", "Membership assignments"]
-    - step: 5
-      actor: "External Consultants"
-      action: "Conduct independent review of governance expansion"
-      tools: ["Independent assessment frameworks", "Benchmarking tools"]
-      duration: "2 weeks"
-      outputs: ["Independent review report", "Best practice recommendations"]
-    - step: 6
-      actor: "AI Ethics Governance Leads"
-      action: "Implement governance expansion and training programs"
-      tools: ["Training development platforms", "Change management tools"]
-      duration: "3 weeks"
-      outputs: ["Implementation plan", "Training materials"]
-    - step: 7
-      actor: "Executive Leadership"
-      action: "Approve final governance framework and monitor implementation"
-      duration: "1 week"
-      outputs: ["Governance approval", "Implementation monitoring plan"]
-  success_criteria: "Expanded AI ethics governance framework effectively covers all AI activities with proper oversight and compliance"
-  failure_modes: ["Insufficient stakeholder buy-in", "Resource constraints", "Implementation resistance"]
+  - step: 1
+    actor: AI Ethics Governance Leads
+    action: Assess current governance framework and identify expansion needs
+    tools:
+    - Governance assessment tools
+    - Maturity model frameworks
+    duration: 3 weeks
+    outputs:
+    - Governance gap analysis
+    - Expansion requirements document
+  - step: 2
+    actor: Executive Leadership
+    action: Define governance expansion scope and strategic objectives
+    decision_points:
+    - Expansion scope approved
+    - Resource allocation confirmed
+    tools:
+    - Strategic planning frameworks
+    - ROI analysis tools
+    duration: 2 weeks
+    outputs:
+    - Governance expansion strategy
+    - Resource requirements
+  - step: 3
+    actor: Ethics Committee Members
+    action: Develop expanded governance policies and procedures
+    tools:
+    - Policy development templates
+    - Stakeholder consultation tools
+    duration: 4 weeks
+    outputs:
+    - Updated governance policies
+    - Procedure documentation
+  - step: 4
+    actor: Cross-functional Stakeholders
+    action: Establish expanded ethics oversight committees and review boards
+    tools:
+    - Committee formation tools
+    - Governance structure templates
+    duration: 2 weeks
+    outputs:
+    - Committee charters
+    - Membership assignments
+  - step: 5
+    actor: External Consultants
+    action: Conduct independent review of governance expansion
+    tools:
+    - Independent assessment frameworks
+    - Benchmarking tools
+    duration: 2 weeks
+    outputs:
+    - Independent review report
+    - Best practice recommendations
+  - step: 6
+    actor: AI Ethics Governance Leads
+    action: Implement governance expansion and training programs
+    tools:
+    - Training development platforms
+    - Change management tools
+    duration: 3 weeks
+    outputs:
+    - Implementation plan
+    - Training materials
+  - step: 7
+    actor: Executive Leadership
+    action: Approve final governance framework and monitor implementation
+    duration: 1 week
+    outputs:
+    - Governance approval
+    - Implementation monitoring plan
+  success_criteria: Expanded AI ethics governance framework effectively covers all
+    AI activities with proper oversight and compliance
+  failure_modes:
+  - Insufficient stakeholder buy-in
+  - Resource constraints
+  - Implementation resistance

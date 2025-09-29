@@ -1,10 +1,10 @@
 # Email Thread: Emergency Response Protocol Testing
 
-**From:** Emergency Preparedness Coordinator  
-**To:** Hospital Leadership Team, Department Heads  
-**Subject:** Q4 Emergency Response Drill - Preparation and Schedule  
+**From:** Emergency Preparedness Coordinator
+**To:** Hospital Leadership Team, Department Heads
+**Subject:** Q4 Emergency Response Drill - Preparation and Schedule
 
-**Date:** October 15, 2025  
+**Date:** October 15, 2025
 
 Team,
 
@@ -20,18 +20,18 @@ Please ensure your teams review the emergency response protocols and complete th
 
 Let me know if you need any additional resources or have questions about the drill procedures.
 
-Best,  
-Dr. Sarah Martinez  
-Emergency Preparedness Coordinator  
-City General Hospital  
+Best,
+Dr. Sarah Martinez
+Emergency Preparedness Coordinator
+City General Hospital
 
 ---
 
-**From:** Chief of Surgery  
-**To:** Emergency Preparedness Coordinator, Hospital Leadership Team  
-**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule  
+**From:** Chief of Surgery
+**To:** Emergency Preparedness Coordinator, Hospital Leadership Team
+**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule
 
-**Date:** October 16, 2025  
+**Date:** October 16, 2025
 
 Sarah,
 
@@ -39,17 +39,17 @@ The surgery department is prepared for the drill. However, I'm concerned about t
 
 Also, please confirm that we'll have adequate surgical staff available - the scenario mentions multiple trauma cases requiring immediate operative intervention.
 
-Thanks,  
-Dr. Michael Chen  
-Chief of Surgery  
+Thanks,
+Dr. Michael Chen
+Chief of Surgery
 
 ---
 
-**From:** IT Director  
-**To:** Emergency Preparedness Coordinator, Chief of Surgery, Hospital Leadership Team  
-**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule  
+**From:** IT Director
+**To:** Emergency Preparedness Coordinator, Chief of Surgery, Hospital Leadership Team
+**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule
 
-**Date:** October 17, 2025  
+**Date:** October 17, 2025
 
 Michael,
 
@@ -59,17 +59,17 @@ To confirm: we now have three backup communication systems (primary wireless, se
 
 Sarah - please add this walkthrough to the preparation schedule.
 
-Regards,  
-Alex Rivera  
-IT Director  
+Regards,
+Alex Rivera
+IT Director
 
 ---
 
-**From:** Emergency Preparedness Coordinator  
-**To:** Hospital Leadership Team, Department Heads  
-**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule  
+**From:** Emergency Preparedness Coordinator
+**To:** Hospital Leadership Team, Department Heads
+**Subject:** Re: Q4 Emergency Response Drill - Preparation and Schedule
 
-**Date:** October 18, 2025  
+**Date:** October 18, 2025
 
 Thank you all for the feedback. I've updated the preparation schedule to include:
 
@@ -82,6 +82,6 @@ Michael - confirmed that we'll have 8 surgical teams standing by, with additiona
 
 Please let me know if there are any other concerns or preparation needs.
 
-Best,  
-Dr. Sarah Martinez  
+Best,
+Dr. Sarah Martinez
 Emergency Preparedness Coordinator

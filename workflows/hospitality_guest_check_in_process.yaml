@@ -1,38 +1,57 @@
 workflow:
-  id: "workflow_hospitality_guest_check_in"
-  title: "Hospitality Guest Check-In Process"
-  department: "Front Office"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Concierge", "Housekeeping Supervisor"]
-  trigger: "Guest arrives at hotel reception"
+  id: workflow_hospitality_guest_check_in
+  title: Hospitality Guest Check-In Process
+  department: Front Office
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Concierge
+  - Housekeeping Supervisor
+  trigger: Guest arrives at hotel reception
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify reservation and collect guest identification"
-      tools: ["PMS System", "ID Scanner"]
-      duration: "3 minutes"
-      outputs: ["Guest Profile Verification"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Process payment and assign room key"
-      tools: ["PMS System", "Key Card Encoder"]
-      duration: "2 minutes"
-      outputs: ["Room Assignment", "Key Card"]
-    - step: 3
-      actor: "Front Desk Agent"
-      action: "Provide welcome information and amenities overview"
-      tools: ["Property Guide", "Amenities List"]
-      duration: "2 minutes"
-      outputs: ["Guest Orientation"]
-    - step: 4
-      actor: "Concierge"
-      action: "Escort guest to room and ensure comfort"
-      tools: ["Room Status System"]
-      duration: "5 minutes"
-      outputs: ["Room Inspection Confirmation"]
-  success_criteria: "Guest checked in efficiently, room ready and comfortable"
-  failure_modes: ["No reservation found", "Room not ready", "Payment issues", "ID verification failure"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Verify reservation and collect guest identification
+    tools:
+    - PMS System
+    - ID Scanner
+    duration: 3 minutes
+    outputs:
+    - Guest Profile Verification
+  - step: 2
+    actor: Front Desk Agent
+    action: Process payment and assign room key
+    tools:
+    - PMS System
+    - Key Card Encoder
+    duration: 2 minutes
+    outputs:
+    - Room Assignment
+    - Key Card
+  - step: 3
+    actor: Front Desk Agent
+    action: Provide welcome information and amenities overview
+    tools:
+    - Property Guide
+    - Amenities List
+    duration: 2 minutes
+    outputs:
+    - Guest Orientation
+  - step: 4
+    actor: Concierge
+    action: Escort guest to room and ensure comfort
+    tools:
+    - Room Status System
+    duration: 5 minutes
+    outputs:
+    - Room Inspection Confirmation
+  success_criteria: Guest checked in efficiently, room ready and comfortable
+  failure_modes:
+  - No reservation found
+  - Room not ready
+  - Payment issues
+  - ID verification failure
   metrics:
-    - "Check-in Time: <10 minutes average"
-    - "Guest Satisfaction: >95% for check-in process"
-    - "Room Readiness Rate: >98%"
+  - 'Check-in Time: <10 minutes average'
+  - 'Guest Satisfaction: >95% for check-in process'
+  - 'Room Readiness Rate: >98%'

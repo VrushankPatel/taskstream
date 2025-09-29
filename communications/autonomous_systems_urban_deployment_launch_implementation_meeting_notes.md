@@ -1,9 +1,9 @@
 # Autonomous Systems Urban Deployment Launch Implementation Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Operations Center, Conference Room B  
-**Attendees:** VP Operations, Deployment Manager, Safety Engineer, City Liaison, Operations Lead, Communications Lead  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Operations Center, Conference Room B
+**Attendees:** VP Operations, Deployment Manager, Safety Engineer, City Liaison, Operations Lead, Communications Lead
 
 ## Meeting Objective
 Finalize launch plan for autonomous vehicle urban deployment pilot and confirm readiness for public operations.
@@ -110,5 +110,5 @@ Finalize launch plan for autonomous vehicle urban deployment pilot and confirm r
 ## Next Meeting
 September 30, 2025 - Pre-Launch Readiness Review
 
-**Meeting Facilitator:** VP Operations  
+**Meeting Facilitator:** VP Operations
 **Note Taker:** Deployment Manager

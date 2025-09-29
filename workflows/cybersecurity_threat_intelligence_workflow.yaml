@@ -1,51 +1,94 @@
 workflow:
-  id: "workflow_cybersecurity_threat_intelligence"
-  title: "Cybersecurity Threat Intelligence and Response"
-  department: "IT Security"
-  complexity: "complex"
-  participants: ["Threat Intelligence Analyst", "Security Operations Center", "Incident Response Team", "Executive Leadership", "Legal Counsel", "Communications Team"]
-  trigger: "New threat indicator detected in network monitoring"
+  id: workflow_cybersecurity_threat_intelligence
+  title: Cybersecurity Threat Intelligence and Response
+  department: IT Security
+  complexity: complex
+  participants:
+  - Threat Intelligence Analyst
+  - Security Operations Center
+  - Incident Response Team
+  - Executive Leadership
+  - Legal Counsel
+  - Communications Team
+  trigger: New threat indicator detected in network monitoring
   steps:
-    - step: 1
-      actor: "Threat Intelligence Analyst"
-      action: "Analyze threat indicators and gather intelligence from multiple sources"
-      tools: ["Threat intelligence platforms", "Dark web monitoring", "Vulnerability databases"]
-      duration: "4 hours"
-      outputs: ["Threat intelligence report", "Risk assessment"]
-    - step: 2
-      actor: "Security Operations Center"
-      action: "Assess internal exposure and implement immediate containment measures"
-      tools: ["SIEM systems", "Endpoint detection tools", "Network segmentation controls"]
-      duration: "2 hours"
-      outputs: ["Containment actions taken", "Affected systems inventory"]
-    - step: 3
-      actor: "Incident Response Team"
-      action: "Conduct forensic analysis and determine attack vector and impact"
-      tools: ["Digital forensics tools", "Log analysis platforms", "Malware analysis sandbox"]
-      duration: "24 hours"
-      outputs: ["Forensic analysis report", "Attack timeline", "Impact assessment"]
-    - step: 4
-      actor: "Executive Leadership"
-      action: "Review incident severity and approve escalation level and communication strategy"
-      tools: ["Incident response playbook", "Business impact analysis", "Regulatory requirements"]
-      duration: "4 hours"
-      outputs: ["Incident classification", "Communication plan approval"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Assess legal obligations including breach notification requirements"
-      tools: ["Regulatory compliance databases", "Legal case databases", "Privacy law frameworks"]
-      duration: "8 hours"
-      outputs: ["Legal obligations assessment", "Notification requirements"]
-    - step: 6
-      actor: "Communications Team"
-      action: "Execute stakeholder communication plan and manage media relations"
-      tools: ["Communication templates", "Media monitoring tools", "Stakeholder databases"]
-      duration: "Ongoing"
-      outputs: ["Stakeholder notifications", "Media statements", "Public communications"]
-  success_criteria: "Threat contained with minimal business impact and full stakeholder communication"
-  failure_modes: ["Delayed detection leading to data exfiltration", "Inadequate containment allowing lateral movement", "Poor communication causing reputational damage"]
+  - step: 1
+    actor: Threat Intelligence Analyst
+    action: Analyze threat indicators and gather intelligence from multiple sources
+    tools:
+    - Threat intelligence platforms
+    - Dark web monitoring
+    - Vulnerability databases
+    duration: 4 hours
+    outputs:
+    - Threat intelligence report
+    - Risk assessment
+  - step: 2
+    actor: Security Operations Center
+    action: Assess internal exposure and implement immediate containment measures
+    tools:
+    - SIEM systems
+    - Endpoint detection tools
+    - Network segmentation controls
+    duration: 2 hours
+    outputs:
+    - Containment actions taken
+    - Affected systems inventory
+  - step: 3
+    actor: Incident Response Team
+    action: Conduct forensic analysis and determine attack vector and impact
+    tools:
+    - Digital forensics tools
+    - Log analysis platforms
+    - Malware analysis sandbox
+    duration: 24 hours
+    outputs:
+    - Forensic analysis report
+    - Attack timeline
+    - Impact assessment
+  - step: 4
+    actor: Executive Leadership
+    action: Review incident severity and approve escalation level and communication
+      strategy
+    tools:
+    - Incident response playbook
+    - Business impact analysis
+    - Regulatory requirements
+    duration: 4 hours
+    outputs:
+    - Incident classification
+    - Communication plan approval
+  - step: 5
+    actor: Legal Counsel
+    action: Assess legal obligations including breach notification requirements
+    tools:
+    - Regulatory compliance databases
+    - Legal case databases
+    - Privacy law frameworks
+    duration: 8 hours
+    outputs:
+    - Legal obligations assessment
+    - Notification requirements
+  - step: 6
+    actor: Communications Team
+    action: Execute stakeholder communication plan and manage media relations
+    tools:
+    - Communication templates
+    - Media monitoring tools
+    - Stakeholder databases
+    duration: Ongoing
+    outputs:
+    - Stakeholder notifications
+    - Media statements
+    - Public communications
+  success_criteria: Threat contained with minimal business impact and full stakeholder
+    communication
+  failure_modes:
+  - Delayed detection leading to data exfiltration
+  - Inadequate containment allowing lateral movement
+  - Poor communication causing reputational damage
   metrics:
-    - "Detection time: <30 minutes from initial indicator"
-    - "Containment time: <4 hours from detection"
-    - "Recovery time: <24 hours for critical systems"
-    - "Communication timeliness: 100% regulatory compliance"
+  - 'Detection time: <30 minutes from initial indicator'
+  - 'Containment time: <4 hours from detection'
+  - 'Recovery time: <24 hours for critical systems'
+  - 'Communication timeliness: 100% regulatory compliance'

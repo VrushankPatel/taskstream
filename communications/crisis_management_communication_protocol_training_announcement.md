@@ -1,10 +1,10 @@
 # Crisis Management Communication Protocol Training Program
 
-**From:** Chief Communications Officer  
-**To:** All Employees, Crisis Management Team, Department Heads  
-**Subject:** Mandatory Crisis Communication Training Program Launch  
+**From:** Chief Communications Officer
+**To:** All Employees, Crisis Management Team, Department Heads
+**Subject:** Mandatory Crisis Communication Training Program Launch
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -112,6 +112,6 @@ Effective crisis communication is essential for protecting our organization, our
 
 Thank you for your commitment to maintaining our organization's resilience and reputation.
 
-Best regards,  
-[Chief Communications Officer Name]  
+Best regards,
+[Chief Communications Officer Name]
 Chief Communications Officer

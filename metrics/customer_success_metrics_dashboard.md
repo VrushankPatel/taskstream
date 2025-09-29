@@ -6,10 +6,10 @@ Comprehensive dashboard tracking customer health, satisfaction, and business out
 ## Key Performance Indicators
 
 ### Customer Health Score
-**Definition:** Composite metric measuring customer engagement and product utilization  
-**Target:** >75 (out of 100)  
-**Current:** 78.5  
-**Trend:** ↑ 2.3% MoM  
+**Definition:** Composite metric measuring customer engagement and product utilization
+**Target:** >75 (out of 100)
+**Current:** 78.5
+**Trend:** ↑ 2.3% MoM
 
 **Components:**
 - Product Usage: 85% active users
@@ -26,10 +26,10 @@ Health Score Distribution:
 ```
 
 ### Customer Lifetime Value (CLV)
-**Definition:** Total revenue expected from a customer over their relationship lifetime  
-**Target:** $125,000  
-**Current:** $118,000  
-**Trend:** ↑ 8.5% YoY  
+**Definition:** Total revenue expected from a customer over their relationship lifetime
+**Target:** $125,000
+**Current:** $118,000
+**Trend:** ↑ 8.5% YoY
 
 **Breakdown:**
 - Average Contract Value: $45,000/year
@@ -38,10 +38,10 @@ Health Score Distribution:
 - Churn Rate: 12% annual
 
 ### Net Revenue Retention
-**Definition:** Percentage of recurring revenue retained from existing customers  
-**Target:** >110% (including expansions)  
-**Current:** 108.5%  
-**Trend:** ↑ 3.2% QoQ  
+**Definition:** Percentage of recurring revenue retained from existing customers
+**Target:** >110% (including expansions)
+**Current:** 108.5%
+**Trend:** ↑ 3.2% QoQ
 
 **Components:**
 - Gross Retention: 92%
@@ -50,10 +50,10 @@ Health Score Distribution:
 - Net New Logos: 15% of total revenue
 
 ### Customer Satisfaction (CSAT)
-**Definition:** Average rating from post-interaction surveys  
-**Target:** >4.2/5  
-**Current:** 4.3/5  
-**Trend:** Stable  
+**Definition:** Average rating from post-interaction surveys
+**Target:** >4.2/5
+**Current:** 4.3/5
+**Trend:** Stable
 
 **Survey Results:**
 - Support Interactions: 4.4/5
@@ -92,9 +92,9 @@ Manufacturing: Health 75.1, Retention 102%
 ## Operational Metrics
 
 ### Response Time Performance
-**Definition:** Average time to resolve customer inquiries  
-**Target:** <4 hours for urgent issues  
-**Current:** 3.2 hours  
+**Definition:** Average time to resolve customer inquiries
+**Target:** <4 hours for urgent issues
+**Current:** 3.2 hours
 
 **Breakdown:**
 - Tier 1 (Basic): 1.5 hours
@@ -102,16 +102,16 @@ Manufacturing: Health 75.1, Retention 102%
 - Tier 3 (Escalated): 12.3 hours
 
 ### Adoption Velocity
-**Definition:** Time from onboarding completion to core feature utilization  
-**Target:** <30 days  
-**Current:** 24 days  
-**Trend:** ↓ 15% YoY  
+**Definition:** Time from onboarding completion to core feature utilization
+**Target:** <30 days
+**Current:** 24 days
+**Trend:** ↓ 15% YoY
 
 ### Expansion Pipeline
-**Definition:** Value of identified expansion opportunities  
-**Target:** 3x current ACV  
-**Current:** 2.8x ACV  
-**Conversion Rate:** 35%  
+**Definition:** Value of identified expansion opportunities
+**Target:** 3x current ACV
+**Current:** 2.8x ACV
+**Conversion Rate:** 35%
 
 ## Leading Indicators
 

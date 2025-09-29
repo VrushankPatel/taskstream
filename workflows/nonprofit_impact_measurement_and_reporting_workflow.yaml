@@ -1,58 +1,116 @@
 workflow:
-  id: "workflow_nonprofit_impact_measurement_and_reporting"
-  title: "Nonprofit Impact Measurement and Reporting Framework"
-  department: "Program Evaluation & Impact Assessment"
-  complexity: "medium"
-  participants: ["Executive Director", "Program Manager", "Impact Assessment Specialist", "Data Analyst", "Communications Director", "Board Members"]
-  trigger: "Annual reporting cycle or major funding milestone requiring impact demonstration"
+  id: workflow_nonprofit_impact_measurement_and_reporting
+  title: Nonprofit Impact Measurement and Reporting Framework
+  department: Program Evaluation & Impact Assessment
+  complexity: medium
+  participants:
+  - Executive Director
+  - Program Manager
+  - Impact Assessment Specialist
+  - Data Analyst
+  - Communications Director
+  - Board Members
+  trigger: Annual reporting cycle or major funding milestone requiring impact demonstration
   steps:
-    - step: 1
-      actor: "Impact Assessment Specialist"
-      action: "Define impact metrics and establish measurement framework aligned with organizational goals"
-      tools: ["Impact measurement software", "Stakeholder surveys", "Program data collection tools"]
-      duration: "4 weeks"
-      outputs: ["Impact measurement framework", "Key performance indicators", "Data collection protocols"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Collect and analyze quantitative data from program activities and beneficiary outcomes"
-      tools: ["Statistical analysis software", "Database management systems", "Data visualization tools"]
-      duration: "6 weeks"
-      outputs: ["Quantitative impact data report", "Statistical analysis results", "Data quality assessment"]
-    - step: 3
-      actor: "Program Manager"
-      action: "Gather qualitative data through beneficiary interviews, case studies, and stakeholder feedback"
-      tools: ["Interview protocols", "Survey platforms", "Case study documentation templates"]
-      duration: "4 weeks"
-      outputs: ["Beneficiary stories and testimonials", "Qualitative impact assessment", "Stakeholder feedback summary"]
-    - step: 4
-      actor: "Impact Assessment Specialist"
-      action: "Integrate quantitative and qualitative data into comprehensive impact narrative"
-      tools: ["Impact reporting frameworks", "Data integration platforms", "Narrative development tools"]
-      duration: "3 weeks"
-      outputs: ["Integrated impact report", "Impact story framework", "Executive summary draft"]
-    - step: 5
-      actor: "Communications Director"
-      action: "Develop compelling impact communications including annual report, website content, and donor materials"
-      tools: ["Content management systems", "Graphic design software", "Video production tools"]
-      duration: "4 weeks"
-      outputs: ["Annual impact report", "Website impact content", "Donor communication materials"]
-    - step: 6
-      actor: "Executive Director"
-      action: "Review and approve impact reporting materials with board input"
-      tools: ["Document review platforms", "Board communication tools", "Approval workflow systems"]
-      duration: "2 weeks"
-      outputs: ["Final approved impact report", "Board presentation materials", "Publication timeline"]
-    - step: 7
-      actor: "Cross-functional team"
-      action: "Distribute impact reporting and engage stakeholders for feedback and improvement"
-      tools: ["Content distribution platforms", "Stakeholder engagement tools", "Feedback collection systems"]
-      duration: "4 weeks"
-      outputs: ["Published impact communications", "Stakeholder feedback report", "Improvement action plan"]
-  success_criteria: "Impact reporting achieves 90% stakeholder satisfaction, demonstrates clear social value creation, and supports 15% funding growth"
-  failure_modes: ["Insufficient data quality leading to unreliable metrics", "Poor stakeholder engagement reducing credibility", "Timeline delays missing reporting deadlines", "Inadequate narrative development failing to communicate impact"]
+  - step: 1
+    actor: Impact Assessment Specialist
+    action: Define impact metrics and establish measurement framework aligned with
+      organizational goals
+    tools:
+    - Impact measurement software
+    - Stakeholder surveys
+    - Program data collection tools
+    duration: 4 weeks
+    outputs:
+    - Impact measurement framework
+    - Key performance indicators
+    - Data collection protocols
+  - step: 2
+    actor: Data Analyst
+    action: Collect and analyze quantitative data from program activities and beneficiary
+      outcomes
+    tools:
+    - Statistical analysis software
+    - Database management systems
+    - Data visualization tools
+    duration: 6 weeks
+    outputs:
+    - Quantitative impact data report
+    - Statistical analysis results
+    - Data quality assessment
+  - step: 3
+    actor: Program Manager
+    action: Gather qualitative data through beneficiary interviews, case studies,
+      and stakeholder feedback
+    tools:
+    - Interview protocols
+    - Survey platforms
+    - Case study documentation templates
+    duration: 4 weeks
+    outputs:
+    - Beneficiary stories and testimonials
+    - Qualitative impact assessment
+    - Stakeholder feedback summary
+  - step: 4
+    actor: Impact Assessment Specialist
+    action: Integrate quantitative and qualitative data into comprehensive impact
+      narrative
+    tools:
+    - Impact reporting frameworks
+    - Data integration platforms
+    - Narrative development tools
+    duration: 3 weeks
+    outputs:
+    - Integrated impact report
+    - Impact story framework
+    - Executive summary draft
+  - step: 5
+    actor: Communications Director
+    action: Develop compelling impact communications including annual report, website
+      content, and donor materials
+    tools:
+    - Content management systems
+    - Graphic design software
+    - Video production tools
+    duration: 4 weeks
+    outputs:
+    - Annual impact report
+    - Website impact content
+    - Donor communication materials
+  - step: 6
+    actor: Executive Director
+    action: Review and approve impact reporting materials with board input
+    tools:
+    - Document review platforms
+    - Board communication tools
+    - Approval workflow systems
+    duration: 2 weeks
+    outputs:
+    - Final approved impact report
+    - Board presentation materials
+    - Publication timeline
+  - step: 7
+    actor: Cross-functional team
+    action: Distribute impact reporting and engage stakeholders for feedback and improvement
+    tools:
+    - Content distribution platforms
+    - Stakeholder engagement tools
+    - Feedback collection systems
+    duration: 4 weeks
+    outputs:
+    - Published impact communications
+    - Stakeholder feedback report
+    - Improvement action plan
+  success_criteria: Impact reporting achieves 90% stakeholder satisfaction, demonstrates
+    clear social value creation, and supports 15% funding growth
+  failure_modes:
+  - Insufficient data quality leading to unreliable metrics
+  - Poor stakeholder engagement reducing credibility
+  - Timeline delays missing reporting deadlines
+  - Inadequate narrative development failing to communicate impact
   metrics:
-    - "Data completeness rate: Target 95%+"
-    - "Stakeholder satisfaction: Target 90%+"
-    - "Reporting timeline adherence: Target 100%"
-    - "Funding growth attribution: Target 10-20%"
-    - "Beneficiary outcome improvement: Target measurable positive change"
+  - 'Data completeness rate: Target 95%+'
+  - 'Stakeholder satisfaction: Target 90%+'
+  - 'Reporting timeline adherence: Target 100%'
+  - 'Funding growth attribution: Target 10-20%'
+  - 'Beneficiary outcome improvement: Target measurable positive change'

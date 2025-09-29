@@ -1,8 +1,8 @@
 ## Communication Thread: Hospitality Staffing Crisis During Peak Season
 
-**From:** Human Resources Director  
-**To:** Executive Team, Department Heads, Property Managers  
-**Subject:** Critical: Peak Season Staffing Shortage - Immediate Action Plan  
+**From:** Human Resources Director
+**To:** Executive Team, Department Heads, Property Managers
+**Subject:** Critical: Peak Season Staffing Shortage - Immediate Action Plan
 
 Colleagues,
 
@@ -21,15 +21,15 @@ We're facing a significant staffing challenge across our hotel portfolio as peak
 
 Please review your department's staffing status and respond with specific needs.
 
-Best,  
-Maria Gonzalez  
-Human Resources Director  
+Best,
+Maria Gonzalez
+Human Resources Director
 
 ---
 
-**From:** CEO  
-**To:** Executive Team, Department Heads, Property Managers  
-**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan  
+**From:** CEO
+**To:** Executive Team, Department Heads, Property Managers
+**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan
 
 Maria,
 
@@ -49,15 +49,15 @@ This requires immediate executive attention. The hospitality industry is facing 
 
 Let's turn this challenge into an opportunity to strengthen our employer brand.
 
-Regards,  
-Robert Kim  
-CEO  
+Regards,
+Robert Kim
+CEO
 
 ---
 
-**From:** Operations Director  
-**To:** Executive Team, Property Managers  
-**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan  
+**From:** Operations Director
+**To:** Executive Team, Property Managers
+**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan
 
 Robert and team,
 
@@ -82,15 +82,15 @@ Operations is implementing contingency measures:
 
 We're seeing positive momentum with 80% of critical positions now filled.
 
-Best,  
-Lisa Thompson  
-Operations Director  
+Best,
+Lisa Thompson
+Operations Director
 
 ---
 
-**From:** Guest Experience Manager  
-**To:** Executive Team, Department Heads  
-**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan  
+**From:** Guest Experience Manager
+**To:** Executive Team, Department Heads
+**Subject:** Re: Critical: Peak Season Staffing Shortage - Immediate Action Plan
 
 Building on the operational response:
 
@@ -113,15 +113,15 @@ Building on the operational response:
 
 Our focus remains on turning challenges into memorable positive experiences.
 
-Regards,  
-James Wilson  
-Guest Experience Manager  
+Regards,
+James Wilson
+Guest Experience Manager
 
 ---
 
-**From:** Human Resources Director  
-**To:** Executive Team, Department Heads, Property Managers  
-**Subject:** Recovery Update: Staffing Crisis Resolution  
+**From:** Human Resources Director
+**To:** Executive Team, Department Heads, Property Managers
+**Subject:** Recovery Update: Staffing Crisis Resolution
 
 **Progress Report:**
 - Staffing levels now at 95% of requirements
@@ -143,6 +143,6 @@ Guest Experience Manager
 
 Thank you for the collaborative approach that turned this crisis into a growth opportunity.
 
-Best,  
-Maria Gonzalez  
+Best,
+Maria Gonzalez
 Human Resources Director

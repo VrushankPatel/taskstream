@@ -1,8 +1,8 @@
 ## Email Thread: Unmanned Systems Certification Update
 
-**From:** Director of Aviation Safety  
-**To:** Executive Leadership Team, Regulatory Affairs, Engineering Teams  
-**Subject:** Urgent: New FAA/EASA Unmanned Systems Certification Requirements  
+**From:** Director of Aviation Safety
+**To:** Executive Leadership Team, Regulatory Affairs, Engineering Teams
+**Subject:** Urgent: New FAA/EASA Unmanned Systems Certification Requirements
 **Date:** September 29, 2025
 
 Team,
@@ -29,14 +29,14 @@ Following the recent joint FAA/EASA announcement on enhanced unmanned systems ce
 
 Please review the attached detailed assessment. I propose we schedule an emergency leadership meeting for Thursday to discuss resource allocation and timeline implications.
 
-Best regards,  
+Best regards,
 Director of Aviation Safety
 
 ---
 
-**From:** CEO  
-**To:** Director of Aviation Safety, Executive Leadership Team  
-**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements  
+**From:** CEO
+**To:** Director of Aviation Safety, Executive Leadership Team
+**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements
 **Date:** September 29, 2025
 
 Thank you for the prompt analysis. This is indeed a critical regulatory change that affects our core business.
@@ -52,9 +52,9 @@ CEO
 
 ---
 
-**From:** Chief Technology Officer  
-**To:** CEO, Director of Aviation Safety, Engineering Teams  
-**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements  
+**From:** Chief Technology Officer
+**To:** CEO, Director of Aviation Safety, Engineering Teams
+**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements
 **Date:** September 29, 2025
 
 The cybersecurity requirements are particularly challenging. Our current systems may require complete redesign for the enhanced encryption and authentication protocols.
@@ -65,9 +65,9 @@ CTO
 
 ---
 
-**From:** Director of Aviation Safety  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements  
+**From:** Director of Aviation Safety
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements
 **Date:** September 29, 2025
 
 Following up on our emergency meeting, here's the approved action plan:
@@ -94,9 +94,9 @@ Director of Aviation Safety
 
 ---
 
-**From:** Director of Regulatory Affairs  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements  
+**From:** Director of Regulatory Affairs
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: New FAA/EASA Unmanned Systems Certification Requirements
 **Date:** September 29, 2025
 
 I've reached out to our regulatory contacts at both FAA and EASA. They're offering technical clarification sessions next month. I recommend we participate to ensure our interpretation is correct.

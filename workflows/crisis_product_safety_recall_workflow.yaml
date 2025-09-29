@@ -1,58 +1,124 @@
 workflow:
-  id: "workflow_crisis_product_safety_recall"
-  title: "Crisis Product Safety Recall Management"
-  department: "Quality Assurance"
-  complexity: "complex"
-  participants: ["Chief Quality Officer", "Recall Coordinator", "Legal Counsel", "Communications Director", "Operations Manager", "Regulatory Affairs Manager", "Customer Service Director", "External Crisis Consultants"]
-  trigger: "Critical product safety issue identified requiring immediate recall with external expertise and advanced communication strategies"
+  id: workflow_crisis_product_safety_recall
+  title: Crisis Product Safety Recall Management
+  department: Quality Assurance
+  complexity: complex
+  participants:
+  - Chief Quality Officer
+  - Recall Coordinator
+  - Legal Counsel
+  - Communications Director
+  - Operations Manager
+  - Regulatory Affairs Manager
+  - Customer Service Director
+  - External Crisis Consultants
+  trigger: Critical product safety issue identified requiring immediate recall with
+    external expertise and advanced communication strategies
   steps:
-    - step: 1
-      actor: "Chief Quality Officer"
-      action: "Verify advanced safety concern through comprehensive investigation and AI-enhanced risk assessment within first 12 hours"
-      tools: ["AI-powered quality investigation frameworks", "Advanced risk assessment matrices", "Predictive safety testing protocols"]
-      duration: "12 hours"
-      outputs: ["AI-enhanced safety investigation report", "Advanced risk assessment", "Predictive recall necessity determination"]
-    - step: 2
-      actor: "Recall Coordinator"
-      action: "Develop comprehensive recall plan including affected products, AI-traced distribution channels, and accelerated execution timeline"
-      tools: ["AI-enhanced recall planning templates", "Blockchain-traced distribution tracking systems", "Predictive timeline management tools"]
-      duration: "24 hours"
-      outputs: ["AI-optimized recall plan", "Blockchain-traced affected product inventory", "Accelerated execution timeline"]
-    - step: 3
-      actor: "Regulatory Affairs Manager"
-      action: "Notify regulatory authorities and comply with reporting requirements across affected jurisdictions using automated systems"
-      tools: ["AI-powered regulatory notification systems", "Automated compliance databases", "Global reporting frameworks"]
-      duration: "8 hours"
-      outputs: ["Automated regulatory notifications", "AI-enhanced compliance documentation", "Global jurisdictional coverage report"]
-    - step: 4
-      actor: "Communications Director"
-      action: "Develop and execute advanced communication strategy including AI-personalized public announcements, automated customer notifications, and predictive media relations"
-      tools: ["AI-personalized communication templates", "Automated stakeholder databases", "Predictive media monitoring platforms"]
-      duration: "16 hours"
-      outputs: ["AI-optimized communication strategy", "Automated stakeholder notification campaigns", "Predictive media response protocols"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Execute product retrieval and containment measures using AI-driven logistics and automated warehouse isolation"
-      tools: ["AI-optimized inventory management systems", "Automated logistics coordination platforms", "AI-driven containment protocols"]
-      duration: "3-5 days"
-      outputs: ["AI-coordinated containment report", "Automated retrieval completion metrics", "Predictive inventory adjustment records"]
-    - step: 6
-      actor: "Customer Service Director"
-      action: "Manage customer inquiries with AI-powered support, automated returns processing, and predictive escalation management"
-      tools: ["AI-powered customer service platforms", "Automated returns processing systems", "Predictive escalation frameworks"]
-      duration: "Ongoing during recall"
-      outputs: ["AI-enhanced customer communication logs", "Automated returns processing metrics", "Predictive satisfaction monitoring reports"]
-    - step: 7
-      actor: "Legal Counsel"
-      action: "Conduct post-recall analysis with AI insights, implement predictive preventive measures, and prepare for potential litigation with automated risk assessment"
-      tools: ["AI-enhanced legal analysis frameworks", "Predictive preventive measure templates", "Automated litigation preparation tools"]
-      duration: "6 weeks"
-      outputs: ["AI-driven post-recall analysis report", "Predictive preventive measures plan", "Automated legal risk assessment"]
-  success_criteria: "Complete product retrieval within accelerated timeframe, maintain customer trust above 80%, achieve regulatory compliance, and implement AI-driven preventive measures"
-  failure_modes: ["AI prediction failures on safety issues", "Automated communication system errors", "Blockchain traceability gaps", "Predictive regulatory non-compliance", "AI-driven customer service failures"]
+  - step: 1
+    actor: Chief Quality Officer
+    action: Verify advanced safety concern through comprehensive investigation and
+      AI-enhanced risk assessment within first 12 hours
+    tools:
+    - AI-powered quality investigation frameworks
+    - Advanced risk assessment matrices
+    - Predictive safety testing protocols
+    duration: 12 hours
+    outputs:
+    - AI-enhanced safety investigation report
+    - Advanced risk assessment
+    - Predictive recall necessity determination
+  - step: 2
+    actor: Recall Coordinator
+    action: Develop comprehensive recall plan including affected products, AI-traced
+      distribution channels, and accelerated execution timeline
+    tools:
+    - AI-enhanced recall planning templates
+    - Blockchain-traced distribution tracking systems
+    - Predictive timeline management tools
+    duration: 24 hours
+    outputs:
+    - AI-optimized recall plan
+    - Blockchain-traced affected product inventory
+    - Accelerated execution timeline
+  - step: 3
+    actor: Regulatory Affairs Manager
+    action: Notify regulatory authorities and comply with reporting requirements across
+      affected jurisdictions using automated systems
+    tools:
+    - AI-powered regulatory notification systems
+    - Automated compliance databases
+    - Global reporting frameworks
+    duration: 8 hours
+    outputs:
+    - Automated regulatory notifications
+    - AI-enhanced compliance documentation
+    - Global jurisdictional coverage report
+  - step: 4
+    actor: Communications Director
+    action: Develop and execute advanced communication strategy including AI-personalized
+      public announcements, automated customer notifications, and predictive media
+      relations
+    tools:
+    - AI-personalized communication templates
+    - Automated stakeholder databases
+    - Predictive media monitoring platforms
+    duration: 16 hours
+    outputs:
+    - AI-optimized communication strategy
+    - Automated stakeholder notification campaigns
+    - Predictive media response protocols
+  - step: 5
+    actor: Operations Manager
+    action: Execute product retrieval and containment measures using AI-driven logistics
+      and automated warehouse isolation
+    tools:
+    - AI-optimized inventory management systems
+    - Automated logistics coordination platforms
+    - AI-driven containment protocols
+    duration: 3-5 days
+    outputs:
+    - AI-coordinated containment report
+    - Automated retrieval completion metrics
+    - Predictive inventory adjustment records
+  - step: 6
+    actor: Customer Service Director
+    action: Manage customer inquiries with AI-powered support, automated returns processing,
+      and predictive escalation management
+    tools:
+    - AI-powered customer service platforms
+    - Automated returns processing systems
+    - Predictive escalation frameworks
+    duration: Ongoing during recall
+    outputs:
+    - AI-enhanced customer communication logs
+    - Automated returns processing metrics
+    - Predictive satisfaction monitoring reports
+  - step: 7
+    actor: Legal Counsel
+    action: Conduct post-recall analysis with AI insights, implement predictive preventive
+      measures, and prepare for potential litigation with automated risk assessment
+    tools:
+    - AI-enhanced legal analysis frameworks
+    - Predictive preventive measure templates
+    - Automated litigation preparation tools
+    duration: 6 weeks
+    outputs:
+    - AI-driven post-recall analysis report
+    - Predictive preventive measures plan
+    - Automated legal risk assessment
+  success_criteria: Complete product retrieval within accelerated timeframe, maintain
+    customer trust above 80%, achieve regulatory compliance, and implement AI-driven
+    preventive measures
+  failure_modes:
+  - AI prediction failures on safety issues
+  - Automated communication system errors
+  - Blockchain traceability gaps
+  - Predictive regulatory non-compliance
+  - AI-driven customer service failures
   metrics:
-    - "AI-accelerated product retrieval completion rate: Target 98%"
-    - "Customer notification timeliness: Target 100%"
-    - "Regulatory compliance rate: Target 100%"
-    - "Customer trust maintenance score: Target 80%"
-    - "AI preventive measure implementation: Target 100%"
+  - 'AI-accelerated product retrieval completion rate: Target 98%'
+  - 'Customer notification timeliness: Target 100%'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Customer trust maintenance score: Target 80%'
+  - 'AI preventive measure implementation: Target 100%'

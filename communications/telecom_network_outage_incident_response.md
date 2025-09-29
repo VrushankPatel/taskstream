@@ -1,8 +1,8 @@
 ## Email Thread: Telecom Network Outage Incident Response
 
-**From:** Network Operations Center  
-**To:** Executive Leadership, Customer Care Leadership  
-**Subject:** URGENT: Major Network Outage - Downtown Metro Area  
+**From:** Network Operations Center
+**To:** Executive Leadership, Customer Care Leadership
+**Subject:** URGENT: Major Network Outage - Downtown Metro Area
 
 Team,
 
@@ -16,18 +16,18 @@ Status updates will be provided every 30 minutes.
 
 Please advise if additional resources are needed.
 
-Regards,  
-Alex Rivera  
-Network Operations Manager  
-MetroTel Communications  
-alex.rivera@metrotel.com  
-(555) 987-6543  
+Regards,
+Alex Rivera
+Network Operations Manager
+MetroTel Communications
+alex.rivera@metrotel.com
+(555) 987-6543
 
 ---
 
-**From:** CEO  
-**To:** Network Operations Center, Executive Leadership  
-**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area  
+**From:** CEO
+**To:** Network Operations Center, Executive Leadership
+**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area
 
 Alex,
 
@@ -37,15 +37,15 @@ Please coordinate with PR for customer communications and ensure we have accurat
 
 We need to minimize the business impact - many customers rely on our services for critical operations.
 
-Michael Torres  
-CEO  
-MetroTel Communications  
+Michael Torres
+CEO
+MetroTel Communications
 
 ---
 
-**From:** Network Operations Center  
-**To:** CEO, Executive Leadership, Customer Care Leadership  
-**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area  
+**From:** Network Operations Center
+**To:** CEO, Executive Leadership, Customer Care Leadership
+**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area
 
 Michael,
 
@@ -62,13 +62,13 @@ Current ETA for full restoration: 6:00 PM.
 
 Apologies for the inconvenience.
 
-Alex  
+Alex
 
 ---
 
-**From:** Customer Care Director  
-**To:** Network Operations Center, CEO  
-**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area  
+**From:** Customer Care Director
+**To:** Network Operations Center, CEO
+**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area
 
 Alex, Michael,
 
@@ -78,15 +78,15 @@ Can we get real-time outage map updates for our agents to provide accurate infor
 
 Also, please confirm when we'll have backup systems online.
 
-Thanks,  
-Maria Gonzalez  
-Customer Care Director  
+Thanks,
+Maria Gonzalez
+Customer Care Director
 
 ---
 
-**From:** Network Operations Center  
-**To:** Customer Care Director, CEO, Executive Leadership  
-**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area  
+**From:** Network Operations Center
+**To:** Customer Care Director, CEO, Executive Leadership
+**Subject:** Re: URGENT: Major Network Outage - Downtown Metro Area
 
 Maria,
 

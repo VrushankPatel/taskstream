@@ -1,58 +1,101 @@
 workflow:
-  id: "entertainment_distribution"
-  title: "Entertainment Content Distribution Workflow"
-  department: "Distribution"
-  complexity: "high"
-  participants: ["Distribution Manager", "Platform Relations Manager", "Content Operations", "Legal Affairs", "Marketing Team", "Analytics Team"]
-  trigger: "Content approved for distribution"
+  id: entertainment_distribution
+  title: Entertainment Content Distribution Workflow
+  department: Distribution
+  complexity: high
+  participants:
+  - Distribution Manager
+  - Platform Relations Manager
+  - Content Operations
+  - Legal Affairs
+  - Marketing Team
+  - Analytics Team
+  trigger: Content approved for distribution
   steps:
-    - step: 1
-      actor: "Distribution Manager"
-      action: "Distribution strategy development"
-      tools: ["Market Analysis Tools", "Platform Performance Data"]
-      duration: "1 week"
-      outputs: ["Distribution Plan", "Platform Selection Criteria"]
-    - step: 2
-      actor: "Platform Relations Manager"
-      action: "Rights negotiation and licensing"
-      decision_points: ["Platform terms acceptable", "Revenue share agreements"]
-      duration: "2 weeks"
-      outputs: ["Licensing Agreements", "Distribution Contracts"]
-    - step: 3
-      actor: "Content Operations"
-      action: "Content formatting and metadata preparation"
-      tools: ["Content Management System", "Encoding Software"]
-      duration: "3 days"
-      outputs: ["Formatted Content Files", "Metadata Packages"]
-    - step: 4
-      actor: "Legal Affairs"
-      action: "Rights clearance and compliance review"
-      tools: ["Rights Database", "Compliance Checklists"]
-      duration: "1 week"
-      outputs: ["Rights Clearance Report", "Compliance Certification"]
-    - step: 5
-      actor: "Distribution Manager"
-      action: "Platform onboarding and content upload"
-      decision_points: ["Technical requirements met", "Quality control passed"]
-      duration: "1 week"
-      outputs: ["Upload Confirmations", "Quality Assurance Reports"]
-    - step: 6
-      actor: "Marketing Team"
-      action: "Launch campaign and promotion"
-      tools: ["Marketing Platforms", "Social Media Tools"]
-      duration: "2 weeks"
-      outputs: ["Marketing Campaign Assets", "Launch Timeline"]
-    - step: 7
-      actor: "Analytics Team"
-      action: "Performance monitoring and reporting"
-      tools: ["Analytics Dashboards", "Revenue Tracking Systems"]
-      duration: "Ongoing"
-      outputs: ["Performance Reports", "Revenue Analytics"]
-    - step: 8
-      actor: "Distribution Manager"
-      action: "Contract management and renewals"
-      decision_points: ["Performance thresholds met", "Contract renewal decisions"]
-      duration: "Monthly"
-      outputs: ["Contract Performance Reviews", "Renewal Decisions"]
-  success_criteria: "Content distributed across target platforms, revenue targets achieved, audience engagement metrics met, legal compliance maintained"
-  failure_modes: ["Distribution delays impacting release windows", "Platform technical issues", "Rights disputes", "Poor content performance"]
+  - step: 1
+    actor: Distribution Manager
+    action: Distribution strategy development
+    tools:
+    - Market Analysis Tools
+    - Platform Performance Data
+    duration: 1 week
+    outputs:
+    - Distribution Plan
+    - Platform Selection Criteria
+  - step: 2
+    actor: Platform Relations Manager
+    action: Rights negotiation and licensing
+    decision_points:
+    - Platform terms acceptable
+    - Revenue share agreements
+    duration: 2 weeks
+    outputs:
+    - Licensing Agreements
+    - Distribution Contracts
+  - step: 3
+    actor: Content Operations
+    action: Content formatting and metadata preparation
+    tools:
+    - Content Management System
+    - Encoding Software
+    duration: 3 days
+    outputs:
+    - Formatted Content Files
+    - Metadata Packages
+  - step: 4
+    actor: Legal Affairs
+    action: Rights clearance and compliance review
+    tools:
+    - Rights Database
+    - Compliance Checklists
+    duration: 1 week
+    outputs:
+    - Rights Clearance Report
+    - Compliance Certification
+  - step: 5
+    actor: Distribution Manager
+    action: Platform onboarding and content upload
+    decision_points:
+    - Technical requirements met
+    - Quality control passed
+    duration: 1 week
+    outputs:
+    - Upload Confirmations
+    - Quality Assurance Reports
+  - step: 6
+    actor: Marketing Team
+    action: Launch campaign and promotion
+    tools:
+    - Marketing Platforms
+    - Social Media Tools
+    duration: 2 weeks
+    outputs:
+    - Marketing Campaign Assets
+    - Launch Timeline
+  - step: 7
+    actor: Analytics Team
+    action: Performance monitoring and reporting
+    tools:
+    - Analytics Dashboards
+    - Revenue Tracking Systems
+    duration: Ongoing
+    outputs:
+    - Performance Reports
+    - Revenue Analytics
+  - step: 8
+    actor: Distribution Manager
+    action: Contract management and renewals
+    decision_points:
+    - Performance thresholds met
+    - Contract renewal decisions
+    duration: Monthly
+    outputs:
+    - Contract Performance Reviews
+    - Renewal Decisions
+  success_criteria: Content distributed across target platforms, revenue targets achieved,
+    audience engagement metrics met, legal compliance maintained
+  failure_modes:
+  - Distribution delays impacting release windows
+  - Platform technical issues
+  - Rights disputes
+  - Poor content performance

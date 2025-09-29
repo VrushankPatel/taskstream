@@ -166,6 +166,6 @@ Applies to all biotechnology research, clinical development, and commercial acti
 ## Policy Review
 This policy will be reviewed annually and updated to address emerging ethical challenges in biotechnology. All updates will be communicated to the research community and approved by the Ethics Committee.
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** December 15, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** December 15, 2025
 **Approved By:** Ethics Committee Chair

@@ -1,59 +1,105 @@
 workflow:
-  id: "workflow_ai_ethics_governance_expansion"
-  title: "AI Ethics Governance Expansion"
-  department: "AI Ethics & Compliance"
-  complexity: "high"
-  participants: ["Chief Ethics Officer", "AI Ethics Committee", "Legal Counsel", "Data Scientists", "Department Heads", "External Auditors"]
-  trigger: "Regulatory changes or AI system expansion requiring enhanced governance"
+  id: workflow_ai_ethics_governance_expansion
+  title: AI Ethics Governance Expansion
+  department: AI Ethics & Compliance
+  complexity: high
+  participants:
+  - Chief Ethics Officer
+  - AI Ethics Committee
+  - Legal Counsel
+  - Data Scientists
+  - Department Heads
+  - External Auditors
+  trigger: Regulatory changes or AI system expansion requiring enhanced governance
   steps:
-    - step: 1
-      actor: "Chief Ethics Officer"
-      action: "Conduct AI ethics risk assessment across all AI systems"
-      tools: ["Ethics assessment frameworks", "AI inventory systems", "Risk scoring models"]
-      duration: "4 weeks"
-      outputs: ["Ethics risk assessment report", "Priority risk areas"]
-    - step: 2
-      actor: "AI Ethics Committee"
-      action: "Develop comprehensive AI ethics policy framework"
-      tools: ["Policy development templates", "Regulatory compliance databases", "Stakeholder consultation tools"]
-      duration: "8 weeks"
-      outputs: ["AI ethics policy document", "Implementation roadmap"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review policies for legal compliance and regulatory alignment"
-      tools: ["Legal research databases", "Compliance checklists", "Contract review systems"]
-      duration: "3 weeks"
-      outputs: ["Legal compliance review", "Regulatory gap analysis"]
-    - step: 4
-      actor: "Data Scientists"
-      action: "Implement bias detection and fairness monitoring systems"
-      tools: ["Bias detection algorithms", "Fairness metrics", "Monitoring dashboards"]
-      duration: "6 weeks"
-      outputs: ["Bias monitoring framework", "Fairness assessment tools"]
-    - step: 5
-      actor: "Department Heads"
-      action: "Integrate ethics requirements into AI development processes"
-      tools: ["Process documentation systems", "Training materials", "Ethics checklists"]
-      duration: "4 weeks"
-      outputs: ["Updated development processes", "Ethics training programs"]
-    - step: 6
-      actor: "External Auditors"
-      action: "Conduct independent audit of AI ethics governance implementation"
-      tools: ["Audit frameworks", "Compliance testing tools", "Reporting systems"]
-      duration: "2 weeks"
-      outputs: ["Audit report", "Certification recommendations"]
-    - step: 7
-      actor: "Chief Ethics Officer"
-      action: "Establish ongoing monitoring and continuous improvement processes"
-      tools: ["Monitoring systems", "Incident reporting tools", "Improvement tracking"]
-      duration: "4 weeks"
-      outputs: ["Ethics monitoring program", "Continuous improvement framework"]
-  success_criteria: "Comprehensive AI ethics governance framework implemented with measurable compliance"
-  failure_modes: ["Resistance to change", "Resource constraints", "Regulatory changes", "Technical implementation challenges"]
+  - step: 1
+    actor: Chief Ethics Officer
+    action: Conduct AI ethics risk assessment across all AI systems
+    tools:
+    - Ethics assessment frameworks
+    - AI inventory systems
+    - Risk scoring models
+    duration: 4 weeks
+    outputs:
+    - Ethics risk assessment report
+    - Priority risk areas
+  - step: 2
+    actor: AI Ethics Committee
+    action: Develop comprehensive AI ethics policy framework
+    tools:
+    - Policy development templates
+    - Regulatory compliance databases
+    - Stakeholder consultation tools
+    duration: 8 weeks
+    outputs:
+    - AI ethics policy document
+    - Implementation roadmap
+  - step: 3
+    actor: Legal Counsel
+    action: Review policies for legal compliance and regulatory alignment
+    tools:
+    - Legal research databases
+    - Compliance checklists
+    - Contract review systems
+    duration: 3 weeks
+    outputs:
+    - Legal compliance review
+    - Regulatory gap analysis
+  - step: 4
+    actor: Data Scientists
+    action: Implement bias detection and fairness monitoring systems
+    tools:
+    - Bias detection algorithms
+    - Fairness metrics
+    - Monitoring dashboards
+    duration: 6 weeks
+    outputs:
+    - Bias monitoring framework
+    - Fairness assessment tools
+  - step: 5
+    actor: Department Heads
+    action: Integrate ethics requirements into AI development processes
+    tools:
+    - Process documentation systems
+    - Training materials
+    - Ethics checklists
+    duration: 4 weeks
+    outputs:
+    - Updated development processes
+    - Ethics training programs
+  - step: 6
+    actor: External Auditors
+    action: Conduct independent audit of AI ethics governance implementation
+    tools:
+    - Audit frameworks
+    - Compliance testing tools
+    - Reporting systems
+    duration: 2 weeks
+    outputs:
+    - Audit report
+    - Certification recommendations
+  - step: 7
+    actor: Chief Ethics Officer
+    action: Establish ongoing monitoring and continuous improvement processes
+    tools:
+    - Monitoring systems
+    - Incident reporting tools
+    - Improvement tracking
+    duration: 4 weeks
+    outputs:
+    - Ethics monitoring program
+    - Continuous improvement framework
+  success_criteria: Comprehensive AI ethics governance framework implemented with
+    measurable compliance
+  failure_modes:
+  - Resistance to change
+  - Resource constraints
+  - Regulatory changes
+  - Technical implementation challenges
   metrics:
-    - "Ethics compliance score: Target 98% or higher"
-    - "Bias detection rate: Target 95% of potential issues identified"
-    - "Training completion: Target 100% of AI team members"
-    - "Audit findings: Target 0 material weaknesses"
-    - "Incident response time: Target <24 hours for ethics violations"
-    - "Stakeholder satisfaction: Target 4.5/5.0 rating"
+  - 'Ethics compliance score: Target 98% or higher'
+  - 'Bias detection rate: Target 95% of potential issues identified'
+  - 'Training completion: Target 100% of AI team members'
+  - 'Audit findings: Target 0 material weaknesses'
+  - 'Incident response time: Target <24 hours for ethics violations'
+  - 'Stakeholder satisfaction: Target 4.5/5.0 rating'

@@ -1,9 +1,9 @@
 # Manufacturing Supplier Diversity Initiative Launch Announcement
 
-**From:** Chief Procurement Officer & Chief Diversity Officer  
-**To:** All Employees, Suppliers, and Business Partners  
-**Date:** September 15, 2025  
-**Subject:** Launch of Comprehensive Supplier Diversity Program  
+**From:** Chief Procurement Officer & Chief Diversity Officer
+**To:** All Employees, Suppliers, and Business Partners
+**Date:** September 15, 2025
+**Subject:** Launch of Comprehensive Supplier Diversity Program
 
 ## Executive Message
 
@@ -107,7 +107,7 @@ Together, we will build a more diverse, resilient, and innovative supply chain t
 - Phone: 1-800-DIVERSITY
 - Website: www.company.com/supplierdiversity
 
-**Chief Procurement Officer:** Maria Rodriguez  
+**Chief Procurement Officer:** Maria Rodriguez
 **Chief Diversity Officer:** Jamal Washington
 
 Thank you for your commitment to driving positive change through inclusive procurement practices.

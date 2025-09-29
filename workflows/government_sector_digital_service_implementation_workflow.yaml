@@ -1,58 +1,121 @@
 workflow:
-  id: "workflow_government_sector_digital_service_implementation"
-  title: "Government Sector Digital Service Implementation"
-  department: "Digital Services"
-  complexity: "complex"
-  participants: ["Chief Digital Officer", "Project Manager", "IT Director", "User Experience Designer", "Security Officer", "Stakeholder Engagement Lead", "Change Management Specialist"]
-  trigger: "Government initiative to digitize citizen services for improved accessibility and efficiency"
+  id: workflow_government_sector_digital_service_implementation
+  title: Government Sector Digital Service Implementation
+  department: Digital Services
+  complexity: complex
+  participants:
+  - Chief Digital Officer
+  - Project Manager
+  - IT Director
+  - User Experience Designer
+  - Security Officer
+  - Stakeholder Engagement Lead
+  - Change Management Specialist
+  trigger: Government initiative to digitize citizen services for improved accessibility
+    and efficiency
   steps:
-    - step: 1
-      actor: "Chief Digital Officer"
-      action: "Define service requirements through citizen research, stakeholder consultations, and regulatory compliance assessment"
-      tools: ["User research platforms", "Stakeholder mapping tools", "Regulatory requirement databases"]
-      duration: "8 weeks"
-      outputs: ["Service requirements document", "User journey maps", "Regulatory compliance framework"]
-    - step: 2
-      actor: "User Experience Designer"
-      action: "Design intuitive digital interfaces and user workflows optimized for accessibility and mobile usage"
-      tools: ["UX design platforms", "Accessibility testing tools", "User testing frameworks"]
-      duration: "10 weeks"
-      outputs: ["UI/UX design specifications", "Accessibility compliance report", "User testing results"]
-    - step: 3
-      actor: "IT Director"
-      action: "Develop technical architecture including secure data systems, integration with existing government platforms, and scalability considerations"
-      tools: ["System architecture tools", "Security frameworks", "Integration testing platforms"]
-      duration: "12 weeks"
-      outputs: ["Technical architecture design", "Security implementation plan", "Integration specifications"]
-    - step: 4
-      actor: "Security Officer"
-      action: "Implement comprehensive security measures including data encryption, access controls, and compliance with government security standards"
-      tools: ["Security assessment tools", "Encryption platforms", "Compliance monitoring systems"]
-      duration: "6 weeks"
-      outputs: ["Security implementation report", "Compliance certification", "Risk mitigation plan"]
-    - step: 5
-      actor: "Project Manager"
-      action: "Coordinate development, testing, and deployment phases with regular stakeholder updates and milestone tracking"
-      tools: ["Project management platforms", "Testing frameworks", "Stakeholder communication tools"]
-      duration: "16 weeks"
-      outputs: ["Project status reports", "Testing completion certificates", "Deployment readiness assessment"]
-    - step: 6
-      actor: "Stakeholder Engagement Lead"
-      action: "Conduct training programs for government employees and communication campaigns for citizens about new digital services"
-      tools: ["Training platforms", "Communication campaign tools", "Feedback collection systems"]
-      duration: "6 weeks"
-      outputs: ["Training completion reports", "Communication campaign metrics", "User adoption statistics"]
-    - step: 7
-      actor: "Change Management Specialist"
-      action: "Monitor service adoption, gather user feedback, and implement continuous improvements based on performance metrics"
-      tools: ["Analytics platforms", "User feedback systems", "Performance monitoring dashboards"]
-      duration: "Ongoing"
-      outputs: ["Adoption metrics reports", "User feedback analysis", "Service improvement recommendations"]
-  success_criteria: "Achieve 70% citizen adoption rate, 95% service availability, and positive user satisfaction scores within first year"
-  failure_modes: ["Technical integration failures", "Security vulnerabilities", "Poor user adoption", "Regulatory non-compliance", "Budget overruns"]
+  - step: 1
+    actor: Chief Digital Officer
+    action: Define service requirements through citizen research, stakeholder consultations,
+      and regulatory compliance assessment
+    tools:
+    - User research platforms
+    - Stakeholder mapping tools
+    - Regulatory requirement databases
+    duration: 8 weeks
+    outputs:
+    - Service requirements document
+    - User journey maps
+    - Regulatory compliance framework
+  - step: 2
+    actor: User Experience Designer
+    action: Design intuitive digital interfaces and user workflows optimized for accessibility
+      and mobile usage
+    tools:
+    - UX design platforms
+    - Accessibility testing tools
+    - User testing frameworks
+    duration: 10 weeks
+    outputs:
+    - UI/UX design specifications
+    - Accessibility compliance report
+    - User testing results
+  - step: 3
+    actor: IT Director
+    action: Develop technical architecture including secure data systems, integration
+      with existing government platforms, and scalability considerations
+    tools:
+    - System architecture tools
+    - Security frameworks
+    - Integration testing platforms
+    duration: 12 weeks
+    outputs:
+    - Technical architecture design
+    - Security implementation plan
+    - Integration specifications
+  - step: 4
+    actor: Security Officer
+    action: Implement comprehensive security measures including data encryption, access
+      controls, and compliance with government security standards
+    tools:
+    - Security assessment tools
+    - Encryption platforms
+    - Compliance monitoring systems
+    duration: 6 weeks
+    outputs:
+    - Security implementation report
+    - Compliance certification
+    - Risk mitigation plan
+  - step: 5
+    actor: Project Manager
+    action: Coordinate development, testing, and deployment phases with regular stakeholder
+      updates and milestone tracking
+    tools:
+    - Project management platforms
+    - Testing frameworks
+    - Stakeholder communication tools
+    duration: 16 weeks
+    outputs:
+    - Project status reports
+    - Testing completion certificates
+    - Deployment readiness assessment
+  - step: 6
+    actor: Stakeholder Engagement Lead
+    action: Conduct training programs for government employees and communication campaigns
+      for citizens about new digital services
+    tools:
+    - Training platforms
+    - Communication campaign tools
+    - Feedback collection systems
+    duration: 6 weeks
+    outputs:
+    - Training completion reports
+    - Communication campaign metrics
+    - User adoption statistics
+  - step: 7
+    actor: Change Management Specialist
+    action: Monitor service adoption, gather user feedback, and implement continuous
+      improvements based on performance metrics
+    tools:
+    - Analytics platforms
+    - User feedback systems
+    - Performance monitoring dashboards
+    duration: Ongoing
+    outputs:
+    - Adoption metrics reports
+    - User feedback analysis
+    - Service improvement recommendations
+  success_criteria: Achieve 70% citizen adoption rate, 95% service availability, and
+    positive user satisfaction scores within first year
+  failure_modes:
+  - Technical integration failures
+  - Security vulnerabilities
+  - Poor user adoption
+  - Regulatory non-compliance
+  - Budget overruns
   metrics:
-    - "Citizen adoption rate: Target 70%"
-    - "Service availability: Target 95%"
-    - "User satisfaction score: Target 4.0/5"
-    - "Security compliance rate: Target 100%"
-    - "Cost per transaction reduction: Target 40%"
+  - 'Citizen adoption rate: Target 70%'
+  - 'Service availability: Target 95%'
+  - 'User satisfaction score: Target 4.0/5'
+  - 'Security compliance rate: Target 100%'
+  - 'Cost per transaction reduction: Target 40%'

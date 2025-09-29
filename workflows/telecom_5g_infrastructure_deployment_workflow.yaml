@@ -1,61 +1,106 @@
 workflow:
-  id: "workflow_telecom_5g_infrastructure_deployment"
-  title: "5G Network Infrastructure Deployment and Optimization Process"
-  department: "Network Infrastructure"
-  complexity: "complex"
-  participants: ["Network Deployment Manager", "Site Acquisition Lead", "RF Engineer", "Project Manager", "Regulatory Affairs Specialist"]
-  trigger: "5G coverage gap identified in network planning analysis"
+  id: workflow_telecom_5g_infrastructure_deployment
+  title: 5G Network Infrastructure Deployment and Optimization Process
+  department: Network Infrastructure
+  complexity: complex
+  participants:
+  - Network Deployment Manager
+  - Site Acquisition Lead
+  - RF Engineer
+  - Project Manager
+  - Regulatory Affairs Specialist
+  trigger: 5G coverage gap identified in network planning analysis
   steps:
-    - step: 1
-      actor: "Network Deployment Manager"
-      action: "Conduct site survey and coverage analysis"
-      tools: ["RF planning software", "Coverage prediction tools", "GIS mapping"]
-      duration: "1 week"
-      outputs: ["Site survey report", "Coverage improvement plan"]
-    - step: 2
-      actor: "Site Acquisition Lead"
-      action: "Secure tower locations and permits"
-      tools: ["Real estate database", "Permit tracking system", "Contract management software"]
-      duration: "4 weeks"
-      outputs: ["Site acquisition agreements", "Permit approvals"]
-    - step: 3
-      actor: "RF Engineer"
-      action: "Design antenna configurations and network parameters"
-      tools: ["RF design software", "Network simulation tools", "Equipment specification databases"]
-      duration: "2 weeks"
-      outputs: ["Technical design documents", "Equipment specifications"]
-    - step: 4
-      actor: "Project Manager"
-      action: "Coordinate equipment procurement and installation scheduling"
-      tools: ["Project management software", "Vendor management system", "Supply chain tracking"]
-      duration: "3 weeks"
-      outputs: ["Procurement orders", "Installation schedule", "Resource allocation plan"]
-    - step: 5
-      actor: "Regulatory Affairs Specialist"
-      action: "Ensure compliance with FCC regulations and safety standards"
-      tools: ["Regulatory compliance database", "Safety certification tools"]
-      duration: "Ongoing"
-      outputs: ["Compliance documentation", "Safety certifications"]
-    - step: 6
-      actor: "Project Manager"
-      action: "Conduct system testing and performance validation"
-      tools: ["Network testing equipment", "Performance monitoring systems"]
-      duration: "2 weeks"
-      outputs: ["Test results", "Performance validation report"]
-    - step: 7
-      actor: "Network Deployment Manager"
-      action: "Execute phased rollout and monitor network performance"
-      tools: ["Network management system", "Real-time monitoring dashboards"]
-      duration: "4 weeks"
-      outputs: ["Rollout completion report", "Performance monitoring setup"]
-  success_criteria: "5G coverage deployed with >95% uptime and meeting speed targets, achieving 25% increase in network capacity and 40% improvement in user experience"
-  failure_modes: ["Permit delays", "Equipment supply issues", "Technical integration problems", "Right-of-way disputes", "Spectrum interference", "Backhaul capacity limitations"]
+  - step: 1
+    actor: Network Deployment Manager
+    action: Conduct site survey and coverage analysis
+    tools:
+    - RF planning software
+    - Coverage prediction tools
+    - GIS mapping
+    duration: 1 week
+    outputs:
+    - Site survey report
+    - Coverage improvement plan
+  - step: 2
+    actor: Site Acquisition Lead
+    action: Secure tower locations and permits
+    tools:
+    - Real estate database
+    - Permit tracking system
+    - Contract management software
+    duration: 4 weeks
+    outputs:
+    - Site acquisition agreements
+    - Permit approvals
+  - step: 3
+    actor: RF Engineer
+    action: Design antenna configurations and network parameters
+    tools:
+    - RF design software
+    - Network simulation tools
+    - Equipment specification databases
+    duration: 2 weeks
+    outputs:
+    - Technical design documents
+    - Equipment specifications
+  - step: 4
+    actor: Project Manager
+    action: Coordinate equipment procurement and installation scheduling
+    tools:
+    - Project management software
+    - Vendor management system
+    - Supply chain tracking
+    duration: 3 weeks
+    outputs:
+    - Procurement orders
+    - Installation schedule
+    - Resource allocation plan
+  - step: 5
+    actor: Regulatory Affairs Specialist
+    action: Ensure compliance with FCC regulations and safety standards
+    tools:
+    - Regulatory compliance database
+    - Safety certification tools
+    duration: Ongoing
+    outputs:
+    - Compliance documentation
+    - Safety certifications
+  - step: 6
+    actor: Project Manager
+    action: Conduct system testing and performance validation
+    tools:
+    - Network testing equipment
+    - Performance monitoring systems
+    duration: 2 weeks
+    outputs:
+    - Test results
+    - Performance validation report
+  - step: 7
+    actor: Network Deployment Manager
+    action: Execute phased rollout and monitor network performance
+    tools:
+    - Network management system
+    - Real-time monitoring dashboards
+    duration: 4 weeks
+    outputs:
+    - Rollout completion report
+    - Performance monitoring setup
+  success_criteria: 5G coverage deployed with >95% uptime and meeting speed targets,
+    achieving 25% increase in network capacity and 40% improvement in user experience
+  failure_modes:
+  - Permit delays
+  - Equipment supply issues
+  - Technical integration problems
+  - Right-of-way disputes
+  - Spectrum interference
+  - Backhaul capacity limitations
   metrics:
-    - "Network uptime: Target >99.9%"
-    - "5G coverage area: Target 95% population coverage"
-    - "Average download speed: Target >100 Mbps"
-    - "Deployment timeline adherence: Target 90%"
-    - "Network capacity increase: Target 25%"
-    - "User experience improvement: Target 40% (measured by QoE scores)"
-    - "Cost per coverage area: Target <$50K/km²"
-    - "Energy efficiency: Target 20% improvement over 4G"
+  - 'Network uptime: Target >99.9%'
+  - '5G coverage area: Target 95% population coverage'
+  - 'Average download speed: Target >100 Mbps'
+  - 'Deployment timeline adherence: Target 90%'
+  - 'Network capacity increase: Target 25%'
+  - 'User experience improvement: Target 40% (measured by QoE scores)'
+  - 'Cost per coverage area: Target <$50K/km²'
+  - 'Energy efficiency: Target 20% improvement over 4G'

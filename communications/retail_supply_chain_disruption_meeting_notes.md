@@ -1,9 +1,9 @@
 ## Meeting Notes: Retail Supply Chain Disruption Response
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** Supply Chain Director (Chair), Operations Manager, Procurement Manager, Store Managers (Regional), IT Director  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** Supply Chain Director (Chair), Operations Manager, Procurement Manager, Store Managers (Regional), IT Director
 
 **Agenda:**
 1. Current supply chain disruption status

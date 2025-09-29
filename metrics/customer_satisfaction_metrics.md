@@ -25,10 +25,18 @@ This dashboard tracks customer satisfaction across all touchpoints and segments 
 - **Mid-Market**: CSAT 4.1/5, NPS 32
 - **SMB**: CSAT 3.9/5, NPS 28
 
-## Trends and Insights
-- Enterprise segment showing highest satisfaction
-- Support response times improved 15% YoY
-- Product adoption lagging in SMB segment
+ ## Trends and Insights
+ - Enterprise segment showing highest satisfaction
+ - Support response times improved 15% YoY
+ - Product adoption lagging in SMB segment
+ - CSAT trending upward 8% quarter-over-quarter
+ - NPS showing seasonal peaks in Q4 due to holiday promotions
+
+ ## Forecasting (Q1 2026)
+ - Projected CSAT: 4.3/5 (based on planned feature releases)
+ - Expected NPS: 38 (with improved onboarding)
+ - Anticipated retention: 93% (new loyalty program impact)
+ - Support volume forecast: 1,100/month (efficiency gains)
 
 ## Action Items
 1. Investigate SMB satisfaction drivers

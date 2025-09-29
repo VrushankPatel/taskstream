@@ -1,6 +1,9 @@
 # Customer Success Team Structure
 
 ## Overview
+The Customer Success organization is responsible for ensuring customer adoption, retention, and expansion across all product lines. This structure supports a customer-centric approach with dedicated resources for enterprise, mid-market, and SMB segments.
+
+## Overview
 The Customer Success organization is responsible for ensuring customer satisfaction, adoption, and retention throughout the customer lifecycle. This structure supports a SaaS company with 500+ customers and $50M ARR.
 
 ## Leadership
@@ -27,11 +30,13 @@ The Customer Success organization is responsible for ensuring customer satisfact
 - **Tier 2 Support**: Advanced technical issues, escalation handling
 - **Tier 3 Support**: Engineering-level issues, product bugs
 
-## Key Metrics
-- Customer satisfaction (CSAT): Target >8.5/10
-- Net Revenue Retention: Target >110%
-- Time to First Value: Target <30 days
-- Churn Rate: Target <5%
+ ## Key Metrics
+ - Customer satisfaction (CSAT): Target >8.5/10
+ - Net Revenue Retention: Target >110%
+ - Time to First Value: Target <30 days
+ - Churn Rate: Target <5%
+ - Expansion Revenue: Target >20% of total revenue
+ - Customer Health Score: Target >75 average
 
 ## Career Progression
 Associate CSM → CSM → Senior CSM → Manager → Director

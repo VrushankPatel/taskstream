@@ -191,30 +191,30 @@
 - Simple complexity workflows in traditional industries (retail, hospitality, insurance, utilities) - current session added one simple workflow
 - EU/Asia business scenarios with localized enterprise practices (addressed with current geographic focus)
 
-## Post-Analytics Session Strategic Priorities
+## Post-Analytics Session 4 Strategic Priorities (2025-09-29)
 
 ### Updated Strategic Objectives for Next 6 Sessions
 
 #### Industry Expansion Priorities (High Priority - Immediate Focus)
-- **Retail**: Expand from current 9% (228 files) to 10%+ (target 250+ files) - e-commerce, customer experience, supply chain resilience, data privacy compliance, inventory management
-- **Hospitality**: Expand from current ~4% to 5%+ (target 130+ files) - revenue management, guest experience, health safety protocols, crisis response, workforce management
-- **Insurance**: Expand from current ~3% to 5%+ (target 130+ files) - claims automation, underwriting, parametric products, climate risk modeling, cyber insurance
-- **Utilities**: Expand from current ~2% to 3%+ (target 80+ files) - infrastructure management, renewable energy integration, grid modernization, regulatory compliance
-- **Mining**: Expand from current ~2% to 3%+ (target 80+ files) - safety protocols, environmental compliance, resource optimization, community relations
-- **Agriculture**: Expand from current ~2% to 3%+ (target 80+ files) - sustainable farming, precision agriculture, climate-resilient farming, carbon credits
+- **Retail**: Expand from current 9.6% (234 files) to 12%+ (target 300+ files) - e-commerce, customer experience, supply chain resilience, data privacy compliance, inventory management, omnichannel strategies
+- **Hospitality**: Expand from current ~4% to 6%+ (target 150+ files) - revenue management, guest experience, health safety protocols, crisis response, workforce management, contactless services
+- **Insurance**: Expand from current ~3% to 5%+ (target 130+ files) - claims automation, underwriting, parametric products, climate risk modeling, cyber insurance, fraud detection
+- **Utilities**: Expand from current ~2% to 4%+ (target 100+ files) - infrastructure management, renewable energy integration, grid modernization, regulatory compliance, smart grid cybersecurity
+- **Manufacturing**: Expand from current 5.8% (141 files) to 8%+ (target 200+ files) - Industry 4.0 implementation, supply chain digitization, quality automation, workforce transition
+- **Finance**: Expand from current 6.7% (164 files) to 8%+ (target 200+ files) - digital banking, risk management, regulatory compliance, open banking, ESG reporting
+- **Healthcare**: Maintain 12% (297 files) - telemedicine adoption, patient data privacy, medical device integration, AI diagnostics
+- **Technology**: Reduce from current 43% (1059 files) to <30% (target <750 files) - focus on cross-industry applications, reduce dominance
+- **Mining**: Expand from current ~2% to 3%+ (target 80+ files) - safety protocols, environmental compliance, resource optimization, community relations, digital twin implementation
+- **Agriculture**: Expand from current ~2% to 3%+ (target 80+ files) - sustainable farming, precision agriculture, climate-resilient farming, carbon credits, supply chain traceability
 - **Aerospace**: Expand from current ~2% to 3%+ (target 80+ files) - safety certification, unmanned systems, space traffic management, orbital debris
-- **Healthcare**: Maintain 12% (292 files) - telemedicine adoption, patient data privacy, medical device integration
-- **Manufacturing**: Expand from current 6% (141 files) to 8%+ (target 200+ files) - Industry 4.0 implementation, supply chain digitization, quality automation
-- **Finance**: Maintain 7% (164 files) - digital banking, risk management, regulatory compliance
-- **Technology**: Reduce from current 43% (1051 files) to <30% (target <750 files) - focus on cross-industry applications
 
 #### Content Type Rebalancing Objectives
-- **Workflows**: Maintain 27.5% (665 files) - introduce simple/medium complexity to reach 20/50/30 distribution
-- **Decisions**: Maintain 22.0% (532 files) - continue stakeholder analysis depth
-- **Communications**: Maintain 21.3% (513 files) - enhance diversity in traditional industries
-- **Org Structures**: Increase from 12.3% (297 files) to 15% (370 files) - expand governance models
-- **Metrics**: Maintain 12.4% (300 files) - align with workflow coverage
-- **Policies**: Increase from 10.7% (257 files) to 15% (370 files) - develop operational procedures
+- **Workflows**: Maintain 27.5% (669 files) - increase simple/medium complexity to reach 20/50/30 distribution (currently 5/10/85)
+- **Decisions**: Maintain 22.0% (536 files) - continue stakeholder analysis depth, add risk mitigation plans
+- **Communications**: Maintain 21.3% (516 files) - enhance diversity in traditional industries, add realistic email chains
+- **Org Structures**: Increase from 12.3% (299 files) to 15% (370 files) - expand governance models in traditional sectors
+- **Metrics**: Maintain 12.4% (303 files) - align with workflow coverage, standardize KPIs
+- **Policies**: Increase from 10.7% (258 files) to 15% (370 files) - develop operational procedures in traditional industries
 
 #### Quality Benchmarking Goals
 - **Overall Quality Score**: Maintain 97%+ enterprise-grade authenticity (current: 97%)
@@ -223,6 +223,7 @@
 - **Complexity Distribution**: Standardize to 20% simple, 50% medium, 30% complex (current: 5/10/85)
 - **Industry Balance**: Achieve <30% technology dominance by end of 2025 (current: 43%)
 - **Geographic Diversity**: Increase EU/Asia content from minimal to 10%+ each
+- **Metrics Coverage**: Achieve 25%+ workflow metrics coverage (current: ~15%)
 
 #### Industry-Specific Research Areas
 - **Retail**: Omnichannel strategies, customer journey optimization, supply chain resilience, data privacy compliance, inventory management, e-commerce platforms
@@ -250,6 +251,9 @@
 - **Crisis Management**: Supply chain disruptions, cybersecurity, regulatory changes, revenue crises, environmental disasters
 - **Digital Transformation**: Success metrics for non-tech sectors, employee experience, organizational change, legacy system migration
 - **Geographic Expansion**: EU regulatory frameworks, Asian market adaptation, global compliance standards, cultural business practices
+- **Traditional Industry Digital Transformation**: Retail omnichannel, hospitality sustainability, insurance parametric products, utilities smart grids
+- **Enterprise Integration**: BPM tool compatibility, AI training datasets, automation platform readiness
+- **Quality Enhancement**: Authenticity validation in traditional sectors, complexity standardization, metrics completeness
 
 #### Long-Term Strategic Direction (2026 Targets)
 - **Dataset Scale**: 2500+ files with balanced industry distribution (no industry >20% or <2%)

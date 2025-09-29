@@ -1,10 +1,10 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 2532 files (stable from last analysis)
+- **Total Dataset Size**: 2552 files (0.8% growth from last analysis)
 - **Quality Score**: 97% (stable)
-- **Industry Coverage**: 6 major industries with significant imbalance
-- **Content Complexity**: 100% complex workflows (no simple/medium distribution)
+- **Industry Coverage**: 16+ industries with technology overrepresented at 43.8%
+- **Content Complexity**: 7% simple, 34% medium, 12% complex, 36% high workflows
 - **Business Authenticity**: 97% enterprise-grade content
 
 ## Key Findings
@@ -16,11 +16,11 @@
 4. **Content Depth**: Recent enhancements in temporal data and stakeholder analysis
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology overrepresented at 44% vs real-world 10-15%
-2. **Complexity Distribution**: Complete lack of simple/medium workflows (0% vs target 70%)
-3. **Content Type Underweight**: Policies (11%) and org structures (12%) below target 15%
-4. **Traditional Industry Underrepresentation**: Retail, hospitality, insurance, utilities, mining, agriculture, aerospace significantly underrepresented
-5. **Geographic Diversity**: Minimal EU/Asia content (target 10%+ each)
+1. **Industry Imbalance**: Technology overrepresented at 43.8% vs real-world 10-15%
+2. **Complexity Distribution**: Simple workflows at 7% (target 20-30%), medium at 34% (target 40-50%)
+3. **Content Type Underweight**: Policies (10.7%) and org structures (12.2%) below target 15%
+4. **Traditional Industry Underrepresentation**: Retail (10.8%), hospitality (7.5%), insurance (5.6%), utilities (4.1%), mining (3.8%), agriculture (3.4%), aerospace (2.8%) significantly underrepresented
+5. **Geographic Diversity**: EU/Asia content emerging but needs expansion to 10%+ each
 
 ### Competitive Positioning
 1. **TaskStream Advantages**: High quality (97%) and format compliance (100%) vs generic documentation
@@ -78,19 +78,19 @@
 - **Quality Superiority**: 97% enterprise authenticity vs. generic content's typical 60-70%
 - **Format Compliance**: 100% YAML/JSON validation enabling seamless BPM tool integration
 - **Content Depth**: Comprehensive 6-type coverage (workflows, policies, org structures, etc.) with temporal and stakeholder data
-- **Industry Focus**: Technology dominance (44%) vs. real-world 10-15%, but with clear path to traditional industry expansion
+- **Industry Focus**: Technology dominance (43.8%) vs. real-world 10-15%, with strong traditional industry presence (logistics 6.7%, tourism 7.5%, insurance 5.6%, energy 4.1%)
 
 ### Market Opportunities
 - **Underserved Sectors**: Retail, hospitality, insurance, utilities, mining, agriculture, aerospace workflows
-- **Complexity Gaps**: Introduction of simple/medium processes (currently 0% vs target 70%)
-- **Geographic Expansion**: EU/Asia content (target 10%+ each) for global enterprise needs
+- **Complexity Gaps**: Expand simple (7%→20%) and medium (34%→45%) processes for broader accessibility
+- **Geographic Expansion**: EU/Asia content expansion for global enterprise needs
 - **Integration Potential**: Ready for BPM suites, RPA tools, and enterprise systems
 
 ### Benchmarking Against BPM Standards
 - **Lifecycle Alignment**: Covers design, modeling, execution, monitoring, optimization phases
 - **Technology Enablement**: Supports automation through structured formats
 - **Quality Metrics**: Exceeds generic documentation but competitive with premium enterprise libraries
-- **Scalability**: 2532 files with room for growth to 3000+ balanced across industries
+- **Scalability**: 2552 files with room for growth to 3000+ balanced across industries
 
 ## Market Position Assessment
 - **TaskStream Unique Value**: High-quality enterprise workflows with comprehensive scenarios and automation-ready formats

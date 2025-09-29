@@ -131,6 +131,8 @@ This policy applies to all grid infrastructure, operational technology (OT), inf
 - **Safety Certifications**: OSHA 30-hour training for field supervisors
 - **Technical Certifications**: Vendor-specific certifications for control systems
 - **Emergency Response**: CPR, First Aid, and emergency response training
+- **Compliance Certifications**: NERC CIP compliance training for all grid personnel
+- **Cyber Awareness**: Annual phishing simulation training for all employees
 
 ## Monitoring and Auditing
 

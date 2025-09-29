@@ -113,6 +113,10 @@
   - Target: 95%, Trend: 90% (2023) → 92% (2024)
 - **Smart Meter Deployment**: 78% of customers
   - Target: 85% by 2025, Growth: +15% YoY
+- **Grid Reliability Index**: 99.97% uptime
+  - Target: 99.98%, Trend: 99.95% (2023) → 99.97% (2024)
+- **Renewable Energy Integration**: 35% of total generation
+  - Target: 40% by 2025, Growth: +8% YoY
 
 ### Financial Metrics
 - **O&M Cost per Customer**: $185 annually

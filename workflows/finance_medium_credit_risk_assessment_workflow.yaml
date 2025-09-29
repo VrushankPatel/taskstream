@@ -13,20 +13,20 @@ workflow:
     seasonal_variations: ["Q4 peak for year-end financing", "Q2 slowdown during tax season"]
     historical_evolution: "AI scoring model implemented in 2022 reduced assessment time by 45% while improving risk prediction accuracy to 92%"
   steps:
-    - step: 1
-      actor: "Relationship Manager"
-      action: "Gather initial business information and financial statements"
-      tools: ["Loan origination system", "Document collection portal"]
-      duration: "2 days"
-      outputs: ["Business profile", "Financial documentation package"]
-      decision_points: ["Application completeness", "Initial creditworthiness"]
-    - step: 2
-      actor: "Credit Analyst"
-      action: "Perform detailed financial analysis and risk assessment"
-      tools: ["Financial modeling software", "Credit scoring algorithms", "Industry databases"]
-      duration: "5 days"
-      outputs: ["Credit analysis report", "Risk rating recommendation"]
-      decision_points: ["Risk classification", "Loan structure recommendations"]
+     - step: 1
+       actor: "Relationship Manager"
+       action: "Gather initial business information and financial statements"
+       tools: ["Loan origination system", "Document collection portal"]
+       duration: "2 days"
+       outputs: ["Business profile", "Financial documentation package"]
+       decision_points: ["Application completeness", "Initial creditworthiness", "Business type eligibility"]
+     - step: 2
+       actor: "Credit Analyst"
+       action: "Perform detailed financial analysis and risk assessment"
+       tools: ["Financial modeling software", "Credit scoring algorithms", "Industry databases"]
+       duration: "5 days"
+       outputs: ["Credit analysis report", "Risk rating recommendation"]
+       decision_points: ["Risk classification", "Loan structure recommendations", "Collateral requirements"]
     - step: 3
       actor: "Risk Manager"
       action: "Review analysis for compliance and portfolio impact"
@@ -42,10 +42,11 @@ workflow:
       decision_points: ["Approval threshold", "Pricing and covenants"]
   success_criteria: "Risk assessment completed within 14 days with accurate risk classification"
   failure_modes: ["Incomplete financial documentation", "Adverse industry conditions", "Internal approval delays"]
-  metrics:
-    - "Assessment accuracy: 92% (target 94%)"
-    - "Processing time: 12.5 days (target 10 days)"
-    - "Approval rate: 68% (target 70%)"
+   metrics:
+     - "Assessment accuracy: 92% (target 94%)"
+     - "Processing time: 12.5 days (target 10 days)"
+     - "Approval rate: 68% (target 70%)"
+     - "Default rate: 1.2% (target <1.5%)"
   performance_history:
     success_rate_trend: "85% (2023) → 88% (2024) → 92% (2025)"
     cost_trend: "$250 (2023) → $220 (2024) → $195 (2025)"

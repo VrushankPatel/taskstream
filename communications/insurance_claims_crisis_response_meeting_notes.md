@@ -65,6 +65,8 @@ Develop comprehensive response plan for expected surge in auto and property clai
 - Staff retention: > 90% during crisis period
 - Claims accuracy rate: > 98%
 - Emergency response time: < 2 hours for priority claims
+- Cost per claim: < $150 (target)
+- Digital adoption rate: > 80% for claim submissions
 
 **Next Meeting:** Daily crisis briefings starting February 20, 8:00 AM
 

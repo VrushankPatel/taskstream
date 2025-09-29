@@ -13,18 +13,20 @@ workflow:
     seasonal_variations: ["Q4 peak during holiday season", "Q1 slowdown post-holidays"]
     historical_evolution: "Process digitized in 2022, reducing cycle time by 40% and improving compliance accuracy to 99.5%"
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Collect customer identification documents and basic information"
-      tools: ["Customer onboarding portal", "Document scanner"]
-      duration: "15 minutes"
-      outputs: ["Scanned ID documents", "Customer profile draft"]
-    - step: 2
-      actor: "Compliance Officer"
-      action: "Verify identity and perform KYC checks"
-      tools: ["AML database", "Credit bureau systems"]
-      duration: "30 minutes"
-      outputs: ["KYC compliance report", "Risk assessment"]
+     - step: 1
+       actor: "Customer Service Representative"
+       action: "Collect customer identification documents and basic information"
+       tools: ["Customer onboarding portal", "Document scanner"]
+       duration: "15 minutes"
+       outputs: ["Scanned ID documents", "Customer profile draft"]
+       decision_points: ["Document completeness", "Account type selection"]
+     - step: 2
+       actor: "Compliance Officer"
+       action: "Verify identity and perform KYC checks"
+       tools: ["AML database", "Credit bureau systems"]
+       duration: "30 minutes"
+       outputs: ["KYC compliance report", "Risk assessment"]
+       decision_points: ["KYC approval", "Risk level classification"]
     - step: 3
       actor: "Branch Manager"
       action: "Review and approve account opening"
@@ -33,10 +35,11 @@ workflow:
       outputs: ["Approved account setup", "Welcome package"]
   success_criteria: "Account opened within 3 business days with 99% compliance accuracy"
   failure_modes: ["Incomplete documentation", "Failed KYC verification", "System downtime"]
-  metrics:
-    - "On-time completion rate: 95% (target 98%)"
-    - "Compliance accuracy: 99.5% (target 99.8%)"
-    - "Customer satisfaction: 4.2/5 (target 4.5/5)"
+   metrics:
+     - "On-time completion rate: 95% (target 98%)"
+     - "Compliance accuracy: 99.5% (target 99.8%)"
+     - "Customer satisfaction: 4.2/5 (target 4.5/5)"
+     - "Digital conversion rate: 75% (target 80%)"
   performance_history:
     success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
     cost_trend: "$45 (2023) → $38 (2024) → $32 (2025)"

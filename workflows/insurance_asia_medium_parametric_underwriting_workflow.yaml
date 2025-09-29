@@ -97,11 +97,11 @@ failure_modes:
   - Pricing errors
 metrics:
   - name: Development Time
-    target: <14 days
+    target: "<14 days"
     current: 10 days
   - name: Model Accuracy
-    target: >90%
+    target: ">90%"
     current: 92%
   - name: Compliance Rate
-    target: >98%
+    target: ">98%"
     current: 99%

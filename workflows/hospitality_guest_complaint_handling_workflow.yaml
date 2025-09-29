@@ -1,38 +1,117 @@
-workflow:
-  id: "workflow_hospitality_complaint_handling"
-  title: "Hospitality Guest Complaint Handling"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Services Manager", "Department Head"]
-  trigger: "Guest submits complaint via phone, email, or in-person"
-  steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Document complaint details and acknowledge guest concern"
-      tools: ["Complaint Log System", "Guest Profile Database"]
-      duration: "10 minutes"
-      outputs: ["Complaint Record"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Escalate to Guest Services Manager if required"
-      decision_points: ["Complaint severity", "Guest status"]
-      duration: "5 minutes"
-      outputs: ["Escalation Notification"]
-    - step: 3
-      actor: "Guest Services Manager"
-      action: "Investigate complaint and determine resolution"
-      tools: ["Property Management System", "Staff Communication Tools"]
-      duration: "30 minutes"
-      outputs: ["Resolution Plan"]
-    - step: 4
-      actor: "Guest Services Manager"
-      action: "Implement resolution and follow up with guest"
-      tools: ["Email System", "Phone"]
-      duration: "15 minutes"
-      outputs: ["Resolution Confirmation", "Follow-up Email"]
-  success_criteria: "Guest complaint resolved with documented satisfaction"
-  failure_modes: ["Delayed response time", "Inadequate resolution", "Poor follow-up"]
-  metrics:
-    - "Resolution within 24 hours: 90%"
-    - "Guest satisfaction improvement: 85%"
-    - "Escalation rate: 15%"
+name: Hospitality Guest Complaint Resolution Workflow
+description: Comprehensive guest complaint handling and resolution process for hospitality properties with escalation procedures and satisfaction recovery protocols
+industry: hospitality
+region: Global
+complexity: medium
+temporal_data:
+  estimated_duration: 1-4 hours depending on complexity
+  business_hours: 24/7 availability
+  peak_complaint_periods: ["Check-in/check-out times", "Weekend evenings", "Special events"]
+performance_history:
+  average_resolution_time: 2.3 hours
+  guest_satisfaction_recovery: 87%
+  complaint_volume_reduction: 15% year-over-year
+  repeat_complaint_rate: 3%
+actors:
+  - role: Front Desk Agent
+    department: Guest Services
+    responsibilities: Initial complaint intake, guest communication, basic issue resolution
+  - role: Guest Services Manager
+    department: Guest Services
+    responsibilities: Complex complaint investigation, staff coordination, recovery solution implementation
+  - role: Department Manager
+    department: Operations
+    responsibilities: Departmental issue resolution, staff coaching, process improvements
+  - role: Guest Relations Director
+    department: Senior Management
+    responsibilities: High-value guest issues, brand reputation protection, policy exceptions
+steps:
+  - id: complaint_intake
+    name: Complaint Documentation and Acknowledgment
+    description: Comprehensive complaint intake with guest information, issue categorization, and immediate acknowledgment
+    actors: [Front Desk Agent]
+    inputs: [Guest contact information, Complaint details, Reservation information, Guest history]
+    outputs: [Complaint record, Guest acknowledgment, Priority classification]
+    decision_points:
+      - condition: Minor service issue (Category 1)
+        next_step: immediate_resolution
+      - condition: Moderate issue requiring investigation (Category 2)
+        next_step: investigation_process
+      - condition: Serious issue or VIP guest (Category 3)
+        next_step: management_escalation
+    tools: [Guest management system, Complaint tracking software, Mobile communication app, Guest profile database]
+    success_criteria: Complaint documented and acknowledged within 15 minutes
+    failure_modes: [System unavailability, Incomplete information collection, Communication barriers]
+  - id: immediate_resolution
+    name: Immediate Issue Resolution
+    description: Direct resolution of minor complaints with on-the-spot solutions and guest satisfaction confirmation
+    actors: [Front Desk Agent, Department Manager]
+    inputs: [Complaint details, Guest preferences, Available solutions, Authorization limits]
+    outputs: [Resolution implementation, Guest confirmation, Satisfaction survey]
+    decision_points:
+      - condition: Guest satisfied with resolution
+        next_step: follow_up_scheduling
+      - condition: Guest remains unsatisfied
+        next_step: management_escalation
+    tools: [Property management system, Comp authorization system, Guest communication platform, Mobile resolution tools]
+    success_criteria: Issue resolved within 30 minutes with guest satisfaction confirmed
+    failure_modes: [Insufficient authority levels, Resource unavailability, Guest expectation misalignment]
+  - id: investigation_process
+    name: Complaint Investigation and Analysis
+    description: Thorough investigation of complaint including staff interviews, evidence review, and root cause analysis
+    actors: [Guest Services Manager, Department Manager]
+    inputs: [Complaint documentation, Staff schedules, Service logs, Guest interaction history]
+    outputs: [Investigation report, Root cause analysis, Resolution recommendations]
+    decision_points:
+      - condition: Departmental issue identified
+        next_step: department_resolution
+      - condition: Policy or system issue identified
+        next_step: management_escalation
+      - condition: Guest expectation management needed
+        next_step: guest_education
+    tools: [Investigation management system, Staff communication platform, Security camera access, Service tracking logs]
+    success_criteria: Investigation completed within 2 hours with documented findings
+    failure_modes: [Incomplete evidence, Staff unavailability, System access issues]
+  - id: resolution_implementation
+    name: Resolution Implementation and Recovery
+    description: Implementation of comprehensive recovery solution with service enhancement and guest relationship rebuilding
+    actors: [Guest Services Manager, Guest Relations Director]
+    inputs: [Investigation findings, Recovery options, Guest profile, Loyalty status]
+    outputs: [Recovery package implementation, Guest satisfaction confirmation, Relationship repair actions]
+    decision_points: []
+    tools: [Recovery management system, Loyalty program platform, Personalization tools, Communication automation]
+    success_criteria: Recovery solution implemented with guest satisfaction score ">4.0/5"
+    failure_modes: [Recovery resource constraints, Guest communication preferences, Implementation delays]
+  - id: follow_up_monitoring
+    name: Follow-up and Continuous Monitoring
+    description: Post-resolution follow-up to ensure lasting satisfaction and capture improvement opportunities
+    actors: [Guest Services Manager]
+    inputs: [Resolution details, Guest contact preferences, Follow-up schedule, Satisfaction metrics]
+    outputs: [Follow-up communications, Satisfaction surveys, Process improvement recommendations]
+    decision_points: []
+    tools: [Customer satisfaction platform, Automated follow-up system, Analytics dashboard, Feedback management tools]
+    success_criteria: Follow-up completed within 48 hours with satisfaction confirmed
+    failure_modes: [Follow-up system failures, Guest communication barriers, Satisfaction survey low response]
+success_criteria:
+  - Complaint resolved within established timeframes by category
+  - Guest satisfaction recovery rate ">85%"
+  - Resolution implemented without additional guest complaints
+  - Process improvements identified and documented
+failure_modes:
+  - Extended resolution timeframes
+  - Inadequate recovery solutions
+  - Poor guest communication
+  - Systemic issue recurrence
+metrics:
+  - name: Resolution Time by Category
+    target: "Cat1:<30min, Cat2:<2hrs, Cat3:<4hrs"
+    current: "Cat1:22min, Cat2:1.8hrs, Cat3:3.2hrs"
+  - name: Guest Satisfaction Recovery
+    target: ">85%"
+    current: 87%
+  - name: Complaint Recurrence Rate
+    target: "<5%"
+    current: 3%
+  - name: Staff Resolution Training Score
+    target: ">90%"
+    current: 93%

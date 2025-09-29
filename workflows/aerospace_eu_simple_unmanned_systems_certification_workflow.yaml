@@ -94,11 +94,11 @@ failure_modes:
   - Documentation errors
 metrics:
   - name: Processing Time
-    target: <25 days
+    target: "<25 days"
     current: 21 days
   - name: Approval Rate
-    target: >80%
+    target: ">80%"
     current: 85%
   - name: Compliance Rate
-    target: >95%
+    target: ">95%"
     current: 96%

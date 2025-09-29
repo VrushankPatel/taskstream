@@ -114,11 +114,11 @@ failure_modes:
   - Delayed incident reporting
 metrics:
   - name: Compliance Rate
-    target: >98%
+    target: ">98%"
     current: 98.5%
   - name: Incident Response Time
-    target: <15 minutes
+    target: "<15 minutes"
     current: 12 minutes
   - name: PPE Compliance
-    target: >99%
+    target: ">99%"
     current: 99.2%

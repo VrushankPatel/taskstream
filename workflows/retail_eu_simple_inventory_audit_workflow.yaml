@@ -19,13 +19,13 @@ workflow:
       tools: ["Inventory management software", "Barcode scanners", "Audit checklists"]
       duration: "2 hours"
       outputs: ["Preliminary inventory count", "Discrepancy log"]
-     - step: 2
-       actor: "Store Manager"
-       action: "Review preliminary counts and reconcile discrepancies with system records"
-       tools: ["ERP system", "Variance analysis reports"]
-       duration: "1 hour"
-       decision_points: ["If variance >2%, escalate to regional supervisor", "If shrinkage detected, initiate security review", "If seasonal stock issues, adjust ordering patterns"]
-       outputs: ["Reconciled inventory report", "Adjustment recommendations"]
+    - step: 2
+      actor: "Store Manager"
+      action: "Review preliminary counts and reconcile discrepancies with system records"
+      tools: ["ERP system", "Variance analysis reports"]
+      duration: "1 hour"
+      decision_points: ["If variance >2%, escalate to regional supervisor", "If shrinkage detected, initiate security review", "If seasonal stock issues, adjust ordering patterns"]
+      outputs: ["Reconciled inventory report", "Adjustment recommendations"]
     - step: 3
       actor: "Regional Supervisor"
       action: "Approve adjustments and update central inventory database"

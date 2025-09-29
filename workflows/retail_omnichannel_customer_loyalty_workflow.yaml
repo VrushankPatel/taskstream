@@ -1,32 +1,109 @@
-workflow:
-  id: "workflow_retail_omnichannel_loyalty"
-  title: "Omnichannel Customer Loyalty Enrollment Process"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Customer Service Rep", "Digital Marketing Specialist"]
-  trigger: "Customer expresses interest in loyalty program across any channel (store, online, app)"
-  steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Verify customer identity and collect contact information across channels"
-      tools: ["CRM system", "POS integration", "Mobile app"]
-      duration: "2 minutes"
-      outputs: ["Unified customer profile created"]
-    - step: 2
-      actor: "Customer Service Rep"
-      action: "Present loyalty benefits and enrollment options (digital card, app integration)"
-      tools: ["Program benefits guide", "Digital enrollment portal"]
-      duration: "3 minutes"
-      outputs: ["Customer informed of program details"]
-    - step: 3
-      actor: "Digital Marketing Specialist"
-      action: "Send welcome communication and activate digital rewards tracking"
-      tools: ["Email marketing platform", "Loyalty app", "SMS system"]
-      duration: "1 minute"
-      outputs: ["Welcome email sent", "App notifications enabled"]
-  success_criteria: "Customer successfully enrolled with cross-channel access"
-  failure_modes: ["Duplicate enrollment", "Invalid contact information"]
-  metrics:
-    - "Enrollment conversion rate: 92%"
-    - "Average enrollment time: 6 minutes"
-    - "Cross-channel retention: 4.3/5"
+name: Retail Omnichannel Customer Loyalty Enrollment Workflow
+description: Comprehensive omnichannel loyalty program enrollment process for retail customers across in-store, online, and mobile app touchpoints with unified customer experience
+industry: retail
+region: Global
+complexity: medium
+temporal_data:
+  estimated_duration: 15-20 minutes per enrollment
+  business_hours: 09:00-21:00 local time
+  peak_enrollment_periods: ["Holiday seasons", "New store openings", "Promotional campaigns"]
+performance_history:
+  average_enrollment_time: 12 minutes
+  success_rate: 94%
+  customer_satisfaction: 4.6/5
+  channel_completion_rates:
+    in_store: 96%
+    online: 89%
+    mobile_app: 92%
+actors:
+  - role: Customer Experience Representative
+    department: Customer Service
+    responsibilities: Customer identity verification, program explanation, enrollment processing
+  - role: Digital Marketing Coordinator
+    department: Marketing
+    responsibilities: Digital activation, welcome campaigns, cross-channel integration
+  - role: Loyalty Program Manager
+    department: Customer Experience
+    responsibilities: Program oversight, enrollment quality control, benefit management
+steps:
+  - id: customer_verification
+    name: Customer Identity Verification
+    description: Verify customer identity and consolidate existing account information across channels
+    actors: [Customer Experience Representative]
+    inputs: [Customer ID, Email, Phone number, Purchase history]
+    outputs: [Unified customer profile, Duplicate account resolution]
+    decision_points:
+      - condition: Existing account found
+        next_step: account_consolidation
+      - condition: New customer
+        next_step: profile_creation
+    tools: [CRM system, Customer database, POS integration, Mobile app backend]
+    success_criteria: Customer identity verified within 3 minutes
+    failure_modes: [Duplicate accounts, Invalid identification, System connectivity issues]
+  - id: profile_creation
+    name: Customer Profile Creation
+    description: Create comprehensive customer profile with preferences and communication settings
+    actors: [Customer Experience Representative]
+    inputs: [Personal information, Communication preferences, Shopping interests]
+    outputs: [Complete customer profile, Privacy consent records]
+    decision_points: []
+    tools: [CRM platform, Data management system, Privacy compliance tools]
+    success_criteria: Profile created with all required fields completed
+    failure_modes: [Incomplete information, Privacy consent issues]
+  - id: program_presentation
+    name: Loyalty Program Benefits Presentation
+    description: Present personalized loyalty program benefits and enrollment options
+    actors: [Customer Experience Representative]
+    inputs: [Customer profile, Program benefits matrix, Personalization engine results]
+    outputs: [Customized benefits presentation, Customer interest level assessment]
+    decision_points:
+      - condition: Customer interested
+        next_step: enrollment_processing
+      - condition: Customer declines
+        next_step: follow_up_scheduling
+    tools: [Benefits presentation system, Personalization engine, Digital brochures]
+    success_criteria: Customer fully informed of relevant benefits within 5 minutes
+    failure_modes: [Irrelevant benefits presented, Technical presentation issues]
+  - id: enrollment_processing
+    name: Enrollment Processing and Digital Activation
+    description: Process enrollment and activate digital loyalty account across all channels
+    actors: [Customer Experience Representative, Digital Marketing Coordinator]
+    inputs: [Enrollment agreement, Channel preferences, Digital activation settings]
+    outputs: [Active loyalty account, Digital wallet integration, Cross-channel activation]
+    decision_points: []
+    tools: [Loyalty platform, Digital wallet APIs, Mobile app integration, Email automation]
+    success_criteria: Account activated across all requested channels within 2 minutes
+    failure_modes: [Integration failures, Digital wallet issues, Mobile app sync problems]
+  - id: welcome_campaign_activation
+    name: Welcome Campaign and Onboarding
+    description: Launch personalized welcome campaign and onboarding sequence
+    actors: [Digital Marketing Coordinator]
+    inputs: [Customer preferences, Channel selection, Onboarding templates]
+    outputs: [Welcome email sent, App notifications enabled, Onboarding sequence initiated]
+    decision_points: []
+    tools: [Marketing automation platform, Push notification system, SMS gateway, Email platform]
+    success_criteria: Welcome campaign deployed within 1 minute of enrollment
+    failure_modes: [Campaign deployment failures, Notification blocking, Email delivery issues]
+success_criteria:
+  - Customer successfully enrolled with omnichannel access
+  - All selected channels activated and functional
+  - Welcome campaign delivered successfully
+  - 95%+ customer satisfaction with enrollment experience
+failure_modes:
+  - Cross-channel synchronization failures
+  - Duplicate enrollment across channels
+  - Digital activation technical issues
+  - Customer communication delivery problems
+metrics:
+  - name: Enrollment Conversion Rate
+    target: ">90%"
+    current: 94%
+  - name: Average Enrollment Time
+    target: "<15 minutes"
+    current: 12 minutes
+  - name: Cross-Channel Activation Success
+    target: ">95%"
+    current: 96%
+  - name: Customer Satisfaction Score
+    target: ">4.5/5"
+    current: 4.6/5

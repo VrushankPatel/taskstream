@@ -117,11 +117,11 @@ failure_modes:
   - Equipment downtime
 metrics:
   - name: Yield Increase
-    target: >20%
+    target: ">20%"
     current: 25%
   - name: Resource Efficiency
-    target: >15% savings
+    target: ">15% savings"
     current: 20%
   - name: System Uptime
-    target: >95%
+    target: ">95%"
     current: 96%

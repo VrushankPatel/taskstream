@@ -96,11 +96,11 @@ failure_modes:
   - Customer dissatisfaction
 metrics:
   - name: Processing Time
-    target: <48 hours
+    target: "<48 hours"
     current: 36 hours
   - name: Approval Rate
-    target: >85%
+    target: ">85%"
     current: 92%
   - name: Customer Satisfaction
-    target: >4.0/5
+    target: ">4.0/5"
     current: 4.2/5

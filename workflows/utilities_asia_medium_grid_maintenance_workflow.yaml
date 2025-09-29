@@ -121,11 +121,11 @@ failure_modes:
   - Service interruptions
 metrics:
   - name: Completion Time
-    target: <10 days
+    target: "<10 days"
     current: 8 days
   - name: Safety Incident Rate
-    target: <0.2 per 1000
+    target: "<0.2 per 1000"
     current: 0.1 per 1000
   - name: Customer Satisfaction
-    target: >4.0/5
+    target: ">4.0/5"
     current: 4.3/5

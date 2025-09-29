@@ -1,0 +1,70 @@
+{
+  "scenario_id": "advanced_robotics_human_robot_collaboration_2025",
+  "decision_date": "2025-06-25",
+  "context": "Manufacturing firm evaluating $15M investment in human-robot collaboration systems for assembly operations",
+  "stakeholders": {
+    "requester": "Plant Manager",
+    "approvers": ["COO", "CFO", "Safety Director"],
+    "influencers": ["HR Manager", "Union Rep", "Engineering Lead"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Implement collaborative robots for assembly line support and quality inspection",
+    "urgency": "medium",
+    "justification": "Improve productivity while maintaining safe working conditions"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_testing",
+      "start_date": "2025-03-01",
+      "end_date": "2025-04-30",
+      "duration": "60 days",
+      "activities": ["Safety testing", "Productivity measurement", "Worker feedback collection"],
+      "outcome": "Pilot showed 25% productivity increase with positive safety metrics"
+    },
+    {
+      "stage": "safety_assessment",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-31",
+      "duration": "31 days",
+      "activities": ["OSHA compliance review", "Risk assessment", "Safety protocol development"],
+      "outcome": "All safety requirements met with enhanced protocols"
+    },
+    {
+      "stage": "economic_evaluation",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-15",
+      "duration": "15 days",
+      "activities": ["ROI analysis", "Cost-benefit modeling", "Payback calculation"],
+      "outcome": "3-year payback with 18% IRR"
+    },
+    {
+      "stage": "executive_decision",
+      "start_date": "2025-06-16",
+      "end_date": "2025-06-25",
+      "duration": "10 days",
+      "activities": ["Board presentation", "Union consultation", "Final approval"],
+      "outcome": "Approved with training requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% productivity increase, improved ergonomics, enhanced product quality",
+    "projected_value": "$22,500,000",
+    "actual_value": "$0 (implementation pending)",
+    "roi_timeline": "36 months",
+    "risk_factors": ["Worker acceptance", "Training costs", "Integration challenges"]
+  },
+  "decision_criteria": ["Safety compliance", "Productivity gains", "Worker acceptance", "Financial returns"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-07-01",
+    "completion_date": "2026-06-30",
+    "milestones": ["Training completion: 2025-09-30", "Phase 1 deployment: 2025-12-31", "Full implementation: 2026-06-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Productivity metrics and safety incident tracking",
+    "12_month_review": "Full ROI assessment and worker satisfaction survey",
+    "actual_roi": "Target 18% internal rate of return"
+  },
+  "lessons_learned": "Worker involvement in pilot testing crucial for successful adoption"
+}

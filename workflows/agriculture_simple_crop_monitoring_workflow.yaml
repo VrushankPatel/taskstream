@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_agriculture_simple_crop_monitoring"
+  title: "Crop Health Monitoring Workflow"
+  department: "Agriculture Operations"
+  complexity: "simple"
+  participants: ["Field Technician", "Farm Manager", "Data Analyst"]
+  trigger: "Weekly monitoring schedule or weather alert"
+  temporal_data:
+    first_implemented: "2021-04-10"
+    last_updated: "2025-09-30"
+    typical_cycle_time: "45 minutes"
+    average_annual_executions: 200
+    seasonal_variations: ["Growing season weekly checks", "Harvest peak daily monitoring"]
+    historical_evolution: "Evolved from manual field walks to sensor-based monitoring"
+  steps:
+     - step: 1
+       actor: "Field Technician"
+       action: "Collect sensor data and perform visual field assessment"
+       tools: ["IoT sensors", "Mobile monitoring app"]
+       duration: "20 minutes"
+       outputs: ["Field data report"]
+       decision_points: ["Sensor data thresholds exceeded", "Visual assessment anomalies"]
+     - step: 2
+       actor: "Data Analyst"
+       action: "Analyze data for health indicators and anomalies"
+       tools: ["Data analytics platform"]
+       duration: "15 minutes"
+       outputs: ["Health analysis report"]
+       decision_points: ["Anomaly detection criteria met", "Health indicator thresholds"]
+     - step: 3
+       actor: "Farm Manager"
+       action: "Review findings and determine intervention needs"
+       tools: ["Farm management system"]
+       duration: "10 minutes"
+       outputs: ["Intervention plan"]
+       decision_points: ["Intervention urgency levels", "Resource allocation needed"]
+  success_criteria: "Crop health metrics within acceptable ranges"
+  failure_modes: ["Sensor malfunction", "Pest/disease detection"]
+  metrics:
+    - "Monitoring accuracy: 92%"
+    - "Response time: 24 hours"
+  performance_history:
+    success_rate_trend: "88% (2023) → 90% (2024) → 92% (2025)"
+    cost_trend: "$30K (2023) → $28K (2024) → $25K (2025)"
+    efficiency_improvements: ["Sensor automation reduced manual checks by 40%", "AI analysis improved early detection by 20%"]

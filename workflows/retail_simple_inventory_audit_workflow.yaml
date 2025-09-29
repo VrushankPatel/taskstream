@@ -1,0 +1,25 @@
+workflow:
+  id: "workflow_retail_simple_001"
+  title: "Retail Simple Inventory Audit Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Associate", "Inventory Manager"]
+  trigger: "End of shift inventory check required"
+  steps:
+    - step: 1
+      actor: "Store Associate"
+      action: "Count items in assigned aisle using barcode scanner"
+      tools: ["Barcode Scanner", "Inventory App"]
+      duration: "30 minutes"
+      outputs: ["Aisle count report"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Verify counts and update system records"
+      tools: ["Inventory Management System"]
+      duration: "15 minutes"
+      outputs: ["Updated inventory records"]
+  success_criteria: "All assigned items counted accurately within time limit"
+  failure_modes: ["Scanner malfunction", "Manual counting errors"]
+  metrics:
+    - "Audit completion rate: 100%"
+    - "Accuracy rate: 99%+"

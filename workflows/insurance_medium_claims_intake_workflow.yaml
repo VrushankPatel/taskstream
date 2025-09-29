@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_insurance_medium_claims_intake"
+  title: "Claims Intake Process"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Representative", "Policyholder", "Claims Adjuster"]
+  trigger: "Policyholder reports claim"
+  steps:
+    - step: 1
+      actor: "Claims Representative"
+      action: "Collect initial claim details and verify policy"
+      tools: ["Claims intake system", "Policy database"]
+      duration: "10 minutes"
+      outputs: ["Initial claim report"]
+    - step: 2
+      actor: "Claims Representative"
+      action: "Assess claim validity and urgency"
+      tools: ["Claims assessment guidelines"]
+      duration: "5 minutes"
+      outputs: ["Priority classification"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Review and assign claim for investigation"
+      tools: ["Claims management system"]
+      duration: "15 minutes"
+      outputs: ["Assigned claim file"]
+  success_criteria: "All claims acknowledged within 24 hours, valid claims assigned within 48 hours"
+  failure_modes: ["Incomplete information", "Policy verification issues", "System errors"]
+  metrics:
+    - "Average response time: 12 hours"
+    - "Claim accuracy rate: 96%"
+    - "Customer satisfaction: 4.1/5"

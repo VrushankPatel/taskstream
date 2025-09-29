@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_hospitality_simple_guest_greeting"
+  title: "Guest Greeting Process"
+  department: "Front Office"
+  complexity: "simple"
+  participants: ["Doorman", "Front Desk Agent"]
+  trigger: "Guest enters hotel lobby"
+  steps:
+    - step: 1
+      actor: "Doorman"
+      action: "Open door and welcome guest"
+      tools: ["Door access"]
+      duration: "30 seconds"
+      outputs: ["Initial welcome"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Greet guest and offer assistance"
+      tools: ["Guest information system"]
+      duration: "1 minute"
+      outputs: ["Guest acknowledged"]
+  success_criteria: "All entering guests greeted within 2 minutes"
+  failure_modes: ["High traffic volume", "Staff unavailability"]
+  metrics:
+    - "Guest greeting rate: 95%"
+    - "Average wait time: <2 minutes"
+    - "Guest satisfaction with welcome: 4.4/5"

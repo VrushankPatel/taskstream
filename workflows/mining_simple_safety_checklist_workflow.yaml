@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_mining_simple_safety_checklist"
+  title: "Daily Safety Checklist Process"
+  department: "Safety"
+  complexity: "simple"
+  participants: ["Safety Officer", "Equipment Operators"]
+  trigger: "Start of each shift"
+  steps:
+    - step: 1
+      actor: "Safety Officer"
+      action: "Conduct pre-shift safety briefing"
+      tools: ["Safety checklist form", "Communication system"]
+      duration: "15 minutes"
+      outputs: ["Safety briefing completed"]
+    - step: 2
+      actor: "Equipment Operators"
+      action: "Complete personal protective equipment check"
+      tools: ["PPE checklist"]
+      duration: "5 minutes"
+      outputs: ["PPE verification"]
+    - step: 3
+      actor: "Equipment Operators"
+      action: "Inspect equipment before operation"
+      tools: ["Equipment inspection checklist"]
+      duration: "10 minutes"
+      outputs: ["Equipment inspection report"]
+  success_criteria: "All safety checks completed before operations begin"
+  failure_modes: ["Missing PPE", "Equipment defects", "Incomplete checklists"]
+  metrics:
+    - "Safety checklist completion rate: 100%"
+    - "Pre-shift delay due to safety: <5 minutes"
+    - "Safety incident rate: <0.5 per 1000 hours"

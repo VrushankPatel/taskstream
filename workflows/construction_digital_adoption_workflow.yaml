@@ -1,58 +1,120 @@
 workflow:
-  id: "workflow_construction_digital_adoption"
-  title: "Construction Digital Adoption and BIM Implementation"
-  department: "Construction Operations"
-  complexity: "complex"
-  participants: ["Chief Technology Officer", "Project Management Director", "BIM Coordinator", "IT Infrastructure Manager", "Training Coordinator", "Stakeholder Engagement Lead"]
-  trigger: "Industry requirement for digital transformation to improve project efficiency, collaboration, and regulatory compliance"
+  id: workflow_construction_digital_adoption
+  title: Construction Digital Adoption and BIM Implementation
+  department: Construction Operations
+  complexity: complex
+  participants:
+  - Chief Technology Officer
+  - Project Management Director
+  - BIM Coordinator
+  - IT Infrastructure Manager
+  - Training Coordinator
+  - Stakeholder Engagement Lead
+  trigger: Industry requirement for digital transformation to improve project efficiency,
+    collaboration, and regulatory compliance
   steps:
-    - step: 1
-      actor: "Chief Technology Officer"
-      action: "Assess current digital maturity and identify BIM implementation requirements across projects and stakeholders"
-      tools: ["Digital maturity assessment frameworks", "BIM capability evaluations", "Stakeholder analysis tools"]
-      duration: "8 weeks"
-      outputs: ["Digital maturity assessment", "BIM implementation roadmap", "Resource requirement analysis"]
-    - step: 2
-      actor: "BIM Coordinator"
-      action: "Develop BIM standards, protocols, and templates for consistent implementation across all projects"
-      tools: ["BIM software platforms", "Standard development frameworks", "Template creation tools"]
-      duration: "10 weeks"
-      outputs: ["BIM standards documentation", "Implementation protocols", "Project templates"]
-    - step: 3
-      actor: "IT Infrastructure Manager"
-      action: "Implement cloud-based collaboration platforms and data management systems for BIM file sharing and version control"
-      tools: ["Cloud infrastructure platforms", "Collaboration software", "Data management systems"]
-      duration: "12 weeks"
-      outputs: ["Collaboration platform deployment", "Data management architecture", "Security protocols"]
-    - step: 4
-      actor: "Project Management Director"
-      action: "Integrate BIM processes into project management workflows including design coordination and clash detection"
-      tools: ["Project management platforms", "BIM integration tools", "Workflow automation systems"]
-      duration: "14 weeks"
-      outputs: ["Integrated project workflows", "Clash detection protocols", "Quality assurance processes"]
-    - step: 5
-      actor: "Training Coordinator"
-      action: "Develop comprehensive training programs for architects, engineers, contractors, and project managers"
-      tools: ["Learning management systems", "Training content development tools", "Certification frameworks"]
-      duration: "8 weeks"
-      outputs: ["Training curriculum", "Certification programs", "Adoption monitoring metrics"]
-    - step: 6
-      actor: "Stakeholder Engagement Lead"
-      action: "Communicate BIM benefits to clients, subcontractors, and regulatory bodies to ensure adoption and compliance"
-      tools: ["Stakeholder communication platforms", "Benefit demonstration tools", "Compliance monitoring systems"]
-      duration: "6 weeks"
-      outputs: ["Stakeholder engagement plan", "Benefit communication materials", "Compliance frameworks"]
-    - step: 7
-      actor: "Chief Technology Officer"
-      action: "Monitor BIM adoption progress, measure performance improvements, and implement continuous optimization"
-      tools: ["Performance monitoring dashboards", "Adoption analytics platforms", "Continuous improvement frameworks"]
-      duration: "Ongoing"
-      outputs: ["Adoption progress reports", "Performance improvement metrics", "Optimization recommendations"]
-  success_criteria: "Achieve 80% BIM adoption across projects, 25% reduction in design errors, and 20% improvement in project delivery time"
-  failure_modes: ["Resistance to technology adoption", "Integration complexity", "Training effectiveness issues", "Data management challenges", "Cost overruns"]
+  - step: 1
+    actor: Chief Technology Officer
+    action: Assess current digital maturity and identify BIM implementation requirements
+      across projects and stakeholders
+    tools:
+    - Digital maturity assessment frameworks
+    - BIM capability evaluations
+    - Stakeholder analysis tools
+    duration: 8 weeks
+    outputs:
+    - Digital maturity assessment
+    - BIM implementation roadmap
+    - Resource requirement analysis
+  - step: 2
+    actor: BIM Coordinator
+    action: Develop BIM standards, protocols, and templates for consistent implementation
+      across all projects
+    tools:
+    - BIM software platforms
+    - Standard development frameworks
+    - Template creation tools
+    duration: 10 weeks
+    outputs:
+    - BIM standards documentation
+    - Implementation protocols
+    - Project templates
+  - step: 3
+    actor: IT Infrastructure Manager
+    action: Implement cloud-based collaboration platforms and data management systems
+      for BIM file sharing and version control
+    tools:
+    - Cloud infrastructure platforms
+    - Collaboration software
+    - Data management systems
+    duration: 12 weeks
+    outputs:
+    - Collaboration platform deployment
+    - Data management architecture
+    - Security protocols
+  - step: 4
+    actor: Project Management Director
+    action: Integrate BIM processes into project management workflows including design
+      coordination and clash detection
+    tools:
+    - Project management platforms
+    - BIM integration tools
+    - Workflow automation systems
+    duration: 14 weeks
+    outputs:
+    - Integrated project workflows
+    - Clash detection protocols
+    - Quality assurance processes
+  - step: 5
+    actor: Training Coordinator
+    action: Develop comprehensive training programs for architects, engineers, contractors,
+      and project managers
+    tools:
+    - Learning management systems
+    - Training content development tools
+    - Certification frameworks
+    duration: 8 weeks
+    outputs:
+    - Training curriculum
+    - Certification programs
+    - Adoption monitoring metrics
+  - step: 6
+    actor: Stakeholder Engagement Lead
+    action: Communicate BIM benefits to clients, subcontractors, and regulatory bodies
+      to ensure adoption and compliance
+    tools:
+    - Stakeholder communication platforms
+    - Benefit demonstration tools
+    - Compliance monitoring systems
+    duration: 6 weeks
+    outputs:
+    - Stakeholder engagement plan
+    - Benefit communication materials
+    - Compliance frameworks
+  - step: 7
+    actor: Chief Technology Officer
+    action: Monitor BIM adoption progress, measure performance improvements, and implement
+      continuous optimization
+    tools:
+    - Performance monitoring dashboards
+    - Adoption analytics platforms
+    - Continuous improvement frameworks
+    duration: Ongoing
+    outputs:
+    - Adoption progress reports
+    - Performance improvement metrics
+    - Optimization recommendations
+  success_criteria: Achieve 80% BIM adoption across projects, 25% reduction in design
+    errors, and 20% improvement in project delivery time
+  failure_modes:
+  - Resistance to technology adoption
+  - Integration complexity
+  - Training effectiveness issues
+  - Data management challenges
+  - Cost overruns
   metrics:
-    - "BIM adoption rate: Target 80%"
-    - "Design error reduction: Target 25%"
-    - "Project delivery time improvement: Target 20%"
-    - "Training completion rate: Target 95%"
-    - "Stakeholder satisfaction score: Target 4.2/5"
+  - 'BIM adoption rate: Target 80%'
+  - 'Design error reduction: Target 25%'
+  - 'Project delivery time improvement: Target 20%'
+  - 'Training completion rate: Target 95%'
+  - 'Stakeholder satisfaction score: Target 4.2/5'

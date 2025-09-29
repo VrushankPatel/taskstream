@@ -148,7 +148,7 @@ This policy applies to all hydrogen-related activities including:
 ## Approval and Review
 This policy is approved by the Board of Directors and will be reviewed annually or following significant regulatory changes or operational incidents.
 
-**Effective Date:** January 1, 2026  
-**Next Review Date:** January 1, 2027  
-**Policy Owner:** Chief Sustainability Officer  
+**Effective Date:** January 1, 2026
+**Next Review Date:** January 1, 2027
+**Policy Owner:** Chief Sustainability Officer
 **Approval Authority:** CEO and Board of Directors

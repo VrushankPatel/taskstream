@@ -156,7 +156,7 @@ This policy applies to all APIs developed, deployed, or consumed by the organiza
 ## Policy Review
 This policy will be reviewed annually or when significant changes in technology or regulations occur.
 
-*Effective Date: November 1, 2025*  
-*Last Updated: October 28, 2025*  
-*Policy Owner: Chief Information Security Officer*  
+*Effective Date: November 1, 2025*
+*Last Updated: October 28, 2025*
+*Policy Owner: Chief Information Security Officer*
 *Approval Authority: Chief Technology Officer*

@@ -1,46 +1,85 @@
 workflow:
-  id: "workflow_construction_safety_001"
-  title: "Construction Site Safety Protocol Implementation"
-  department: "Safety & Compliance"
-  complexity: "medium"
-  participants: ["Safety Manager", "Site Supervisors", "Workers", "Safety Committee", "HR Director"]
-  trigger: "New project start or safety incident"
+  id: workflow_construction_safety_001
+  title: Construction Site Safety Protocol Implementation
+  department: Safety & Compliance
+  complexity: medium
+  participants:
+  - Safety Manager
+  - Site Supervisors
+  - Workers
+  - Safety Committee
+  - HR Director
+  trigger: New project start or safety incident
   steps:
-    - step: 1
-      actor: "Safety Manager"
-      action: "Conduct site hazard assessment and risk analysis"
-      tools: ["Safety Audit Checklists", "Risk Assessment Matrix", "Site Inspection Tools"]
-      duration: "1 week"
-      outputs: ["Hazard Assessment Report", "Risk Mitigation Plan"]
-    - step: 2
-      actor: "Safety Manager"
-      action: "Develop site-specific safety plan and procedures"
-      tools: ["Safety Plan Templates", "OSHA Guidelines", "Equipment Manuals"]
-      duration: "2 weeks"
-      outputs: ["Site Safety Plan", "Emergency Response Procedures"]
-    - step: 3
-      actor: "Site Supervisors"
-      action: "Conduct safety orientation for all workers"
-      tools: ["Orientation Materials", "Safety Training Modules", "Certification Tracking"]
-      duration: "1 day per crew"
-      outputs: ["Training Records", "Safety Certifications"]
-    - step: 4
-      actor: "Safety Committee"
-      action: "Establish daily safety meetings and inspection routines"
-      tools: ["Meeting Agendas", "Inspection Checklists", "Incident Reporting System"]
-      duration: "Ongoing"
-      outputs: ["Safety Meeting Minutes", "Inspection Reports"]
-    - step: 5
-      actor: "Workers"
-      action: "Report hazards and near-misses immediately"
-      tools: ["Incident Reporting App", "Hotline System", "Safety Observation Cards"]
-      duration: "Immediate"
-      outputs: ["Incident Reports", "Safety Observations"]
-    - step: 6
-      actor: "Safety Manager"
-      action: "Investigate incidents and implement corrective actions"
-      tools: ["Root Cause Analysis Tools", "Corrective Action Plans", "Follow-up Tracking"]
-      duration: "1-2 weeks"
-      outputs: ["Incident Investigation Report", "Corrective Action Implementation"]
-  success_criteria: "Zero lost-time incidents, 100% safety training completion, proactive hazard identification"
-  failure_modes: ["Inadequate training", "Poor reporting culture", "Insufficient supervision"]
+  - step: 1
+    actor: Safety Manager
+    action: Conduct site hazard assessment and risk analysis
+    tools:
+    - Safety Audit Checklists
+    - Risk Assessment Matrix
+    - Site Inspection Tools
+    duration: 1 week
+    outputs:
+    - Hazard Assessment Report
+    - Risk Mitigation Plan
+  - step: 2
+    actor: Safety Manager
+    action: Develop site-specific safety plan and procedures
+    tools:
+    - Safety Plan Templates
+    - OSHA Guidelines
+    - Equipment Manuals
+    duration: 2 weeks
+    outputs:
+    - Site Safety Plan
+    - Emergency Response Procedures
+  - step: 3
+    actor: Site Supervisors
+    action: Conduct safety orientation for all workers
+    tools:
+    - Orientation Materials
+    - Safety Training Modules
+    - Certification Tracking
+    duration: 1 day per crew
+    outputs:
+    - Training Records
+    - Safety Certifications
+  - step: 4
+    actor: Safety Committee
+    action: Establish daily safety meetings and inspection routines
+    tools:
+    - Meeting Agendas
+    - Inspection Checklists
+    - Incident Reporting System
+    duration: Ongoing
+    outputs:
+    - Safety Meeting Minutes
+    - Inspection Reports
+  - step: 5
+    actor: Workers
+    action: Report hazards and near-misses immediately
+    tools:
+    - Incident Reporting App
+    - Hotline System
+    - Safety Observation Cards
+    duration: Immediate
+    outputs:
+    - Incident Reports
+    - Safety Observations
+  - step: 6
+    actor: Safety Manager
+    action: Investigate incidents and implement corrective actions
+    tools:
+    - Root Cause Analysis Tools
+    - Corrective Action Plans
+    - Follow-up Tracking
+    duration: 1-2 weeks
+    outputs:
+    - Incident Investigation Report
+    - Corrective Action Implementation
+  success_criteria: Zero lost-time incidents, 100% safety training completion, proactive
+    hazard identification
+  failure_modes:
+  - Inadequate training
+  - Poor reporting culture
+  - Insufficient supervision

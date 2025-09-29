@@ -1,46 +1,72 @@
 workflow:
-  id: "government_permit_application_001"
-  title: "Permit Application and Approval Process"
-  department: "Permitting Services"
-  complexity: "high"
-  participants: ["Applicants", "Permit Technicians", "Review Specialists", "Department Directors", "Legal Counsel"]
-  trigger: "Applicant submits permit application through online portal or in person"
+  id: government_permit_application_001
+  title: Permit Application and Approval Process
+  department: Permitting Services
+  complexity: high
+  participants:
+  - Applicants
+  - Permit Technicians
+  - Review Specialists
+  - Department Directors
+  - Legal Counsel
+  trigger: Applicant submits permit application through online portal or in person
   steps:
-    - step: 1
-      actor: "Permit Technician"
-      action: "Receive and validate application completeness"
-      tools: ["Permit Management System", "Document Scanner"]
-      duration: "15 minutes"
-      outputs: ["Application validation report"]
-    - step: 2
-      actor: "Permit Technician"
-      action: "Assign to appropriate review specialists"
-      decision_points: ["Permit type classification", "Complexity assessment"]
-      duration: "5 minutes"
-      outputs: ["Assignment routing"]
-    - step: 3
-      actor: "Review Specialist"
-      action: "Conduct technical and compliance review"
-      tools: ["Code Reference Database", "GIS Mapping System"]
-      duration: "120 minutes"
-      outputs: ["Technical review findings"]
-    - step: 4
-      actor: "Department Director"
-      action: "Review complex cases and policy interpretations"
-      tools: ["Case Management System"]
-      duration: "30 minutes"
-      outputs: ["Director review decision"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Review legal compliance and liability concerns"
-      tools: ["Legal Database", "Precedent Library"]
-      duration: "45 minutes"
-      outputs: ["Legal review memorandum"]
-    - step: 6
-      actor: "Permit Technician"
-      action: "Issue permit or denial with conditions"
-      tools: ["Permit Issuance System"]
-      duration: "10 minutes"
-      outputs: ["Permit document", "Approval/denial letter"]
-  success_criteria: "Permit issued within statutory timeframe with all requirements met"
-  failure_modes: ["Incomplete applications", "Code violations identified", "Interdepartmental coordination delays"]
+  - step: 1
+    actor: Permit Technician
+    action: Receive and validate application completeness
+    tools:
+    - Permit Management System
+    - Document Scanner
+    duration: 15 minutes
+    outputs:
+    - Application validation report
+  - step: 2
+    actor: Permit Technician
+    action: Assign to appropriate review specialists
+    decision_points:
+    - Permit type classification
+    - Complexity assessment
+    duration: 5 minutes
+    outputs:
+    - Assignment routing
+  - step: 3
+    actor: Review Specialist
+    action: Conduct technical and compliance review
+    tools:
+    - Code Reference Database
+    - GIS Mapping System
+    duration: 120 minutes
+    outputs:
+    - Technical review findings
+  - step: 4
+    actor: Department Director
+    action: Review complex cases and policy interpretations
+    tools:
+    - Case Management System
+    duration: 30 minutes
+    outputs:
+    - Director review decision
+  - step: 5
+    actor: Legal Counsel
+    action: Review legal compliance and liability concerns
+    tools:
+    - Legal Database
+    - Precedent Library
+    duration: 45 minutes
+    outputs:
+    - Legal review memorandum
+  - step: 6
+    actor: Permit Technician
+    action: Issue permit or denial with conditions
+    tools:
+    - Permit Issuance System
+    duration: 10 minutes
+    outputs:
+    - Permit document
+    - Approval/denial letter
+  success_criteria: Permit issued within statutory timeframe with all requirements
+    met
+  failure_modes:
+  - Incomplete applications
+  - Code violations identified
+  - Interdepartmental coordination delays

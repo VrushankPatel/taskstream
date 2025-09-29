@@ -3,8 +3,16 @@
   "context": "Utility company evaluating $75M investment in solar farm development and grid integration to meet state renewable energy mandates",
   "stakeholders": {
     "requester": "VP Renewable Energy",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Chief Engineer", "Regulatory Affairs Director", "Environmental Officer"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Engineer",
+      "Regulatory Affairs Director",
+      "Environmental Officer"
+    ]
   },
   "request": {
     "amount": "$75,000,000",
@@ -16,28 +24,54 @@
     {
       "stage": "technical_feasibility",
       "duration": "4 months",
-      "activities": ["Site selection and permitting", "Grid impact studies", "Technology vendor evaluation", "Environmental assessments"],
+      "activities": [
+        "Site selection and permitting",
+        "Grid impact studies",
+        "Technology vendor evaluation",
+        "Environmental assessments"
+      ],
       "outcome": "Optimal 500-acre site identified with minimal grid upgrades needed"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 months",
-      "activities": ["Detailed cost projections", "Revenue modeling", "Tax credit analysis", "Risk-adjusted IRR calculations"],
+      "activities": [
+        "Detailed cost projections",
+        "Revenue modeling",
+        "Tax credit analysis",
+        "Risk-adjusted IRR calculations"
+      ],
       "outcome": "Projected 12% IRR with 7-year payback period"
     },
     {
       "stage": "regulatory_approval",
       "duration": "3 months",
-      "activities": ["PUC filing and hearings", "Interconnection agreements", "Environmental permitting", "Community consultations"],
+      "activities": [
+        "PUC filing and hearings",
+        "Interconnection agreements",
+        "Environmental permitting",
+        "Community consultations"
+      ],
       "outcome": "All major approvals secured with community support"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% increase in renewable energy portfolio, 25% reduction in carbon emissions",
     "projected_value": "$120,000,000 in cost savings over 20 years",
-    "risk_factors": ["Weather variability", "Technology obsolescence", "Regulatory changes", "Construction delays"]
+    "risk_factors": [
+      "Weather variability",
+      "Technology obsolescence",
+      "Regulatory changes",
+      "Construction delays"
+    ]
   },
-  "decision_criteria": ["Financial return", "Regulatory compliance", "Grid reliability", "Environmental impact", "Community acceptance"],
+  "decision_criteria": [
+    "Financial return",
+    "Regulatory compliance",
+    "Grid reliability",
+    "Environmental impact",
+    "Community acceptance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early community engagement crucial for permitting success, comprehensive grid studies prevented costly surprises, phased construction minimized operational disruption"
 }

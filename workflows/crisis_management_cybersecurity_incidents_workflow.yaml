@@ -1,58 +1,119 @@
 workflow:
-  id: "workflow_crisis_management_cybersecurity_incidents"
-  title: "Crisis Management Cybersecurity Incidents"
-  department: "Information Security"
-  complexity: "complex"
-  participants: ["CISO", "Incident Response Team Lead", "IT Operations Manager", "Legal Counsel", "Communications Director", "Executive Leadership"]
-  trigger: "Detection of cybersecurity breach or incident requiring coordinated response"
+  id: workflow_crisis_management_cybersecurity_incidents
+  title: Crisis Management Cybersecurity Incidents
+  department: Information Security
+  complexity: complex
+  participants:
+  - CISO
+  - Incident Response Team Lead
+  - IT Operations Manager
+  - Legal Counsel
+  - Communications Director
+  - Executive Leadership
+  trigger: Detection of cybersecurity breach or incident requiring coordinated response
   steps:
-    - step: 1
-      actor: "Incident Response Team Lead"
-      action: "Assess incident scope, impact, and initial containment measures within first hour of detection"
-      tools: ["Security monitoring systems", "Incident assessment frameworks", "Containment toolkits"]
-      duration: "1 hour"
-      outputs: ["Incident assessment report", "Initial containment actions", "Severity classification"]
-    - step: 2
-      actor: "CISO"
-      action: "Activate incident response plan, assemble crisis management team, and establish command center"
-      tools: ["Incident response playbooks", "Communication platforms", "Crisis management frameworks"]
-      duration: "2 hours"
-      outputs: ["Activated response plan", "Assembled crisis team", "Command center establishment"]
-    - step: 3
-      actor: "IT Operations Manager"
-      action: "Execute technical containment and eradication measures to stop incident progression"
-      tools: ["Security tools", "Network isolation systems", "Malware removal platforms"]
-      duration: "4-24 hours"
-      outputs: ["Containment measures implemented", "Eradication actions completed", "System recovery plans"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Assess legal obligations including breach notification requirements and regulatory reporting"
-      tools: ["Legal compliance databases", "Regulatory requirement checklists", "Notification templates"]
-      duration: "6 hours"
-      outputs: ["Legal assessment report", "Notification requirements", "Regulatory reporting plan"]
-    - step: 5
-      actor: "Communications Director"
-      action: "Develop and execute internal and external communication strategy including stakeholder notifications"
-      tools: ["Communication templates", "Stakeholder databases", "Media monitoring tools"]
-      duration: "4 hours"
-      outputs: ["Communication strategy", "Stakeholder notification plan", "Media response protocols"]
-    - step: 6
-      actor: "Incident Response Team Lead"
-      action: "Conduct forensic analysis to determine root cause, attack vectors, and data compromise scope"
-      tools: ["Digital forensics platforms", "Log analysis tools", "Threat intelligence databases"]
-      duration: "1-3 days"
-      outputs: ["Forensic analysis report", "Root cause determination", "Compromise assessment"]
-    - step: 7
-      actor: "CISO"
-      action: "Present incident summary to executive leadership, recommend preventive measures, and develop lessons learned"
-      tools: ["Executive briefing templates", "Risk assessment frameworks", "Improvement planning tools"]
-      duration: "1 week"
-      outputs: ["Executive incident summary", "Preventive measure recommendations", "Lessons learned report"]
-  success_criteria: "Incident contained within 24 hours, minimal data loss, full regulatory compliance, and comprehensive preventive measures implemented"
-  failure_modes: ["Delayed detection", "Inadequate containment", "Poor communication", "Regulatory non-compliance", "Insufficient recovery planning"]
+  - step: 1
+    actor: Incident Response Team Lead
+    action: Assess incident scope, impact, and initial containment measures within
+      first hour of detection
+    tools:
+    - Security monitoring systems
+    - Incident assessment frameworks
+    - Containment toolkits
+    duration: 1 hour
+    outputs:
+    - Incident assessment report
+    - Initial containment actions
+    - Severity classification
+  - step: 2
+    actor: CISO
+    action: Activate incident response plan, assemble crisis management team, and
+      establish command center
+    tools:
+    - Incident response playbooks
+    - Communication platforms
+    - Crisis management frameworks
+    duration: 2 hours
+    outputs:
+    - Activated response plan
+    - Assembled crisis team
+    - Command center establishment
+  - step: 3
+    actor: IT Operations Manager
+    action: Execute technical containment and eradication measures to stop incident
+      progression
+    tools:
+    - Security tools
+    - Network isolation systems
+    - Malware removal platforms
+    duration: 4-24 hours
+    outputs:
+    - Containment measures implemented
+    - Eradication actions completed
+    - System recovery plans
+  - step: 4
+    actor: Legal Counsel
+    action: Assess legal obligations including breach notification requirements and
+      regulatory reporting
+    tools:
+    - Legal compliance databases
+    - Regulatory requirement checklists
+    - Notification templates
+    duration: 6 hours
+    outputs:
+    - Legal assessment report
+    - Notification requirements
+    - Regulatory reporting plan
+  - step: 5
+    actor: Communications Director
+    action: Develop and execute internal and external communication strategy including
+      stakeholder notifications
+    tools:
+    - Communication templates
+    - Stakeholder databases
+    - Media monitoring tools
+    duration: 4 hours
+    outputs:
+    - Communication strategy
+    - Stakeholder notification plan
+    - Media response protocols
+  - step: 6
+    actor: Incident Response Team Lead
+    action: Conduct forensic analysis to determine root cause, attack vectors, and
+      data compromise scope
+    tools:
+    - Digital forensics platforms
+    - Log analysis tools
+    - Threat intelligence databases
+    duration: 1-3 days
+    outputs:
+    - Forensic analysis report
+    - Root cause determination
+    - Compromise assessment
+  - step: 7
+    actor: CISO
+    action: Present incident summary to executive leadership, recommend preventive
+      measures, and develop lessons learned
+    tools:
+    - Executive briefing templates
+    - Risk assessment frameworks
+    - Improvement planning tools
+    duration: 1 week
+    outputs:
+    - Executive incident summary
+    - Preventive measure recommendations
+    - Lessons learned report
+  success_criteria: Incident contained within 24 hours, minimal data loss, full regulatory
+    compliance, and comprehensive preventive measures implemented
+  failure_modes:
+  - Delayed detection
+  - Inadequate containment
+  - Poor communication
+  - Regulatory non-compliance
+  - Insufficient recovery planning
   metrics:
-    - "Incident containment time: Target <24 hours"
-    - "Data loss minimization: Target 0 records"
-    - "Regulatory compliance: Target 100%"
-    - "Stakeholder communication timeliness: Target 95%"
-    - "Recovery time objective achievement: Target 100%"
+  - 'Incident containment time: Target <24 hours'
+  - 'Data loss minimization: Target 0 records'
+  - 'Regulatory compliance: Target 100%'
+  - 'Stakeholder communication timeliness: Target 95%'
+  - 'Recovery time objective achievement: Target 100%'

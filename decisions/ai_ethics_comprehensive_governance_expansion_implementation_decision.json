@@ -3,8 +3,17 @@
   "context": "Global technology company, 25000 employees, expanding AI ethics governance framework across all business units",
   "stakeholders": {
     "requester": "Chief Ethics Officer",
-    "approvers": ["CEO", "Board Ethics Committee", "Chief Technology Officer"],
-    "influencers": ["VP AI/ML", "General Counsel", "External Ethics Consultants", "Civil Society Organizations"]
+    "approvers": [
+      "CEO",
+      "Board Ethics Committee",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "VP AI/ML",
+      "General Counsel",
+      "External Ethics Consultants",
+      "Civil Society Organizations"
+    ]
   },
   "request": {
     "amount": "$12M",
@@ -16,31 +25,51 @@
     {
       "stage": "current_state_assessment",
       "duration": "4 weeks",
-      "activities": ["Ethics program audit", "Regulatory landscape analysis", "Stakeholder interviews"],
+      "activities": [
+        "Ethics program audit",
+        "Regulatory landscape analysis",
+        "Stakeholder interviews"
+      ],
       "outcome": "Identified gaps in current pilot program and enterprise-wide needs"
     },
     {
       "stage": "framework_design",
       "duration": "6 weeks",
-      "activities": ["Governance model development", "Policy framework creation", "Implementation roadmap design"],
+      "activities": [
+        "Governance model development",
+        "Policy framework creation",
+        "Implementation roadmap design"
+      ],
       "outcome": "Comprehensive governance framework with clear roles, responsibilities, and processes"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "3 weeks",
-      "activities": ["Cross-functional workshops", "Executive alignment sessions", "External expert consultation"],
+      "activities": [
+        "Cross-functional workshops",
+        "Executive alignment sessions",
+        "External expert consultation"
+      ],
       "outcome": "Strong stakeholder support with constructive feedback incorporated"
     },
     {
       "stage": "resource_planning",
       "duration": "2 weeks",
-      "activities": ["Budget development", "Team structure planning", "Timeline establishment"],
+      "activities": [
+        "Budget development",
+        "Team structure planning",
+        "Timeline establishment"
+      ],
       "outcome": "Resource plan aligned with business priorities and budget constraints"
     },
     {
       "stage": "executive_approval",
       "duration": "1 week",
-      "activities": ["Board presentation", "Final budget approval", "Implementation authorization"],
+      "activities": [
+        "Board presentation",
+        "Final budget approval",
+        "Implementation authorization"
+      ],
       "outcome": "Approved with enhanced scope and additional resources for training"
     }
   ],
@@ -49,7 +78,12 @@
     "regulatory_advantage": "Proactive compliance reducing legal and regulatory risks",
     "innovation_enablement": "Clear ethical guidelines enabling faster AI development and deployment",
     "cost_impact": "$12M investment with projected $50M savings in risk mitigation and brand value protection",
-    "risk_factors": ["Implementation complexity", "Cultural resistance", "Evolving regulatory landscape", "Resource constraints"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Cultural resistance",
+      "Evolving regulatory landscape",
+      "Resource constraints"
+    ]
   },
   "decision_outcome": "Approved $12M expansion budget with 18-month implementation timeline; includes dedicated AI Ethics Center of Excellence, enterprise-wide training program, and automated monitoring systems"
 }

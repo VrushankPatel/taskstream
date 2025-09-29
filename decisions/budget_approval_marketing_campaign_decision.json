@@ -3,8 +3,14 @@
   "context": "Tech SaaS company, 500 employees, planning Q4 marketing spend",
   "stakeholders": {
     "requester": "VP Marketing",
-    "approvers": ["CFO", "CEO"],
-    "influencers": ["Head of Sales", "VP Product"]
+    "approvers": [
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of Sales",
+      "VP Product"
+    ]
   },
   "request": {
     "amount": "$750,000",
@@ -16,22 +22,40 @@
     {
       "stage": "initial_review",
       "duration": "3 days",
-      "activities": ["ROI analysis", "Competitive research", "Sales alignment"],
+      "activities": [
+        "ROI analysis",
+        "Competitive research",
+        "Sales alignment"
+      ],
       "outcome": "Approved with conditions"
     },
     {
       "stage": "executive_review",
       "duration": "1 week",
-      "activities": ["Board presentation", "Risk assessment", "Strategic alignment"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment",
+        "Strategic alignment"
+      ],
       "outcome": "Final approval"
     }
   ],
   "business_impact": {
     "expected_leads": 2000,
     "projected_revenue": "$2,500,000",
-    "risk_factors": ["Market uncertainty", "Campaign execution risk", "Competitor response"]
+    "risk_factors": [
+      "Market uncertainty",
+      "Campaign execution risk",
+      "Competitor response"
+    ]
   },
-  "decision_criteria": ["ROI potential", "Strategic alignment", "Execution feasibility", "Risk assessment", "Resource availability"],
+  "decision_criteria": [
+    "ROI potential",
+    "Strategic alignment",
+    "Execution feasibility",
+    "Risk assessment",
+    "Resource availability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Detailed ROI modeling was crucial for approval; cross-functional alignment improved campaign effectiveness"
 }

@@ -1,26 +1,37 @@
 workflow:
-  id: "workflow_retail_loyalty_001"
-  title: "Retail Customer Loyalty Program Enrollment"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Customer Service Rep", "Loyalty Program Manager"]
-  trigger: "New customer requests loyalty program membership"
+  id: workflow_retail_loyalty_001
+  title: Retail Customer Loyalty Program Enrollment
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Customer Service Rep
+  - Loyalty Program Manager
+  trigger: New customer requests loyalty program membership
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Verify customer information and collect enrollment details"
-      tools: ["CRM System", "Loyalty Program Software"]
-      duration: "5 minutes"
-      outputs: ["Verified customer profile", "Enrollment request"]
-    - step: 2
-      actor: "Loyalty Program Manager"
-      action: "Approve enrollment and issue membership card"
-      tools: ["Loyalty Program Dashboard"]
-      duration: "2 minutes"
-      outputs: ["Membership card", "Welcome email"]
-  success_criteria: "Customer successfully enrolled with active membership"
-  failure_modes: ["Invalid customer information", "System technical issues"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Verify customer information and collect enrollment details
+    tools:
+    - CRM System
+    - Loyalty Program Software
+    duration: 5 minutes
+    outputs:
+    - Verified customer profile
+    - Enrollment request
+  - step: 2
+    actor: Loyalty Program Manager
+    action: Approve enrollment and issue membership card
+    tools:
+    - Loyalty Program Dashboard
+    duration: 2 minutes
+    outputs:
+    - Membership card
+    - Welcome email
+  success_criteria: Customer successfully enrolled with active membership
+  failure_modes:
+  - Invalid customer information
+  - System technical issues
   metrics:
-    - "Enrollment completion rate: 98%"
-    - "Average enrollment time: 7 minutes"
-    - "Customer satisfaction score: 4.8/5"
+  - 'Enrollment completion rate: 98%'
+  - 'Average enrollment time: 7 minutes'
+  - 'Customer satisfaction score: 4.8/5'

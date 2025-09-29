@@ -1,52 +1,88 @@
 workflow:
-  id: "workflow_007"
-  title: "Strategic Planning Process"
-  department: "Executive"
-  complexity: "high"
-  participants: ["CEO", "Executive Team", "Department Heads", "Board Members", "External Consultants"]
-  trigger: "Annual planning cycle or major business change"
+  id: workflow_007
+  title: Strategic Planning Process
+  department: Executive
+  complexity: high
+  participants:
+  - CEO
+  - Executive Team
+  - Department Heads
+  - Board Members
+  - External Consultants
+  trigger: Annual planning cycle or major business change
   steps:
-    - step: 1
-      actor: "CEO"
-      action: "Define planning objectives and assemble planning team"
-      tools: ["Strategic framework", "Historical data"]
-      duration: "1 week"
-      outputs: ["Planning charter", "Team assignments"]
-    - step: 2
-      actor: "Executive Team"
-      action: "Conduct environmental scan and SWOT analysis"
-      tools: ["Market research", "Competitive intelligence"]
-      duration: "3 weeks"
-      outputs: ["Environmental assessment", "SWOT report"]
-    - step: 3
-      actor: "Department Heads"
-      action: "Provide departmental inputs and resource requirements"
-      tools: ["Budget forecasts", "Performance data"]
-      duration: "2 weeks"
-      outputs: ["Department plans", "Resource requests"]
-    - step: 4
-      actor: "External Consultants"
-      action: "Facilitate strategic workshops and scenario planning"
-      tools: ["Strategic planning software", "Workshop materials"]
-      duration: "2 weeks"
-      outputs: ["Strategic options", "Scenario analyses"]
-    - step: 5
-      actor: "Executive Team"
-      action: "Develop strategic initiatives and set objectives"
-      decision_points: ["Resource allocation", "Risk tolerance"]
-      duration: "2 weeks"
-      outputs: ["Strategic plan", "Objectives and KPIs"]
-    - step: 6
-      actor: "Board Members"
-      action: "Review and approve strategic plan"
-      tools: ["Board materials", "Due diligence"]
-      duration: "1 week"
-      outputs: ["Board approval", "Strategic directives"]
-    - step: 7
-      actor: "Department Heads"
-      action: "Cascade plan to teams and develop implementation plans"
-      tools: ["Project management tools", "Communication plans"]
-      duration: "4 weeks"
-      outputs: ["Implementation roadmaps", "Change management plans"]
-  success_criteria: "Strategic plan executed with measurable progress toward objectives"
-  failure_modes: ["Lack of stakeholder buy-in", "Unrealistic objectives", "Poor execution"]
+  - step: 1
+    actor: CEO
+    action: Define planning objectives and assemble planning team
+    tools:
+    - Strategic framework
+    - Historical data
+    duration: 1 week
+    outputs:
+    - Planning charter
+    - Team assignments
+  - step: 2
+    actor: Executive Team
+    action: Conduct environmental scan and SWOT analysis
+    tools:
+    - Market research
+    - Competitive intelligence
+    duration: 3 weeks
+    outputs:
+    - Environmental assessment
+    - SWOT report
+  - step: 3
+    actor: Department Heads
+    action: Provide departmental inputs and resource requirements
+    tools:
+    - Budget forecasts
+    - Performance data
+    duration: 2 weeks
+    outputs:
+    - Department plans
+    - Resource requests
+  - step: 4
+    actor: External Consultants
+    action: Facilitate strategic workshops and scenario planning
+    tools:
+    - Strategic planning software
+    - Workshop materials
+    duration: 2 weeks
+    outputs:
+    - Strategic options
+    - Scenario analyses
+  - step: 5
+    actor: Executive Team
+    action: Develop strategic initiatives and set objectives
+    decision_points:
+    - Resource allocation
+    - Risk tolerance
+    duration: 2 weeks
+    outputs:
+    - Strategic plan
+    - Objectives and KPIs
+  - step: 6
+    actor: Board Members
+    action: Review and approve strategic plan
+    tools:
+    - Board materials
+    - Due diligence
+    duration: 1 week
+    outputs:
+    - Board approval
+    - Strategic directives
+  - step: 7
+    actor: Department Heads
+    action: Cascade plan to teams and develop implementation plans
+    tools:
+    - Project management tools
+    - Communication plans
+    duration: 4 weeks
+    outputs:
+    - Implementation roadmaps
+    - Change management plans
+  success_criteria: Strategic plan executed with measurable progress toward objectives
+  failure_modes:
+  - Lack of stakeholder buy-in
+  - Unrealistic objectives
+  - Poor execution

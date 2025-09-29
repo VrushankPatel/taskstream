@@ -3,8 +3,16 @@
   "context": "Regional bank with 85 branches experiencing declining branch traffic due to digital banking adoption",
   "stakeholders": {
     "requester": "Head of Retail Banking",
-    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
-    "influencers": ["Branch Managers", "Digital Banking Lead", "Customer Experience Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Branch Managers",
+      "Digital Banking Lead",
+      "Customer Experience Director"
+    ]
   },
   "request": {
     "amount": "$1,800,000",
@@ -16,34 +24,59 @@
     {
       "stage": "network_analysis",
       "duration": "4 weeks",
-      "activities": ["Branch performance analysis", "Customer segmentation study", "Competitor benchmarking"],
+      "activities": [
+        "Branch performance analysis",
+        "Customer segmentation study",
+        "Competitor benchmarking"
+      ],
       "outcome": "Identified 12 branches for closure/remodel"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "3 weeks",
-      "activities": ["Community impact assessment", "Employee consultation", "Customer communication planning"],
+      "activities": [
+        "Community impact assessment",
+        "Employee consultation",
+        "Customer communication planning"
+      ],
       "outcome": "Developed transition plan with minimal disruption"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 weeks",
-      "activities": ["Cost-benefit analysis", "Cash flow projections", "Regulatory compliance review"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Cash flow projections",
+        "Regulatory compliance review"
+      ],
       "outcome": "Projected $600K annual savings with $1.2M investment"
     },
     {
       "stage": "board_approval",
       "duration": "1 week",
-      "activities": ["Executive presentation", "Risk assessment", "Final approval"],
+      "activities": [
+        "Executive presentation",
+        "Risk assessment",
+        "Final approval"
+      ],
       "outcome": "Approved with conditions for community support programs"
     }
   ],
   "business_impact": {
     "expected_outcome": "Streamlined operations, improved digital channel focus, enhanced community presence through financial education centers",
     "projected_value": "$600,000 annual cost savings",
-    "risk_factors": ["Customer backlash", "Regulatory scrutiny", "Employee morale impact"]
+    "risk_factors": [
+      "Customer backlash",
+      "Regulatory scrutiny",
+      "Employee morale impact"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Customer impact minimization", "Regulatory compliance", "Strategic alignment with digital transformation"],
+  "decision_criteria": [
+    "Financial viability",
+    "Customer impact minimization",
+    "Regulatory compliance",
+    "Strategic alignment with digital transformation"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Community engagement critical for branch closure decisions; digital alternatives must be robust before physical branch reductions"
 }

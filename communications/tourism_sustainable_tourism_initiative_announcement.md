@@ -1,8 +1,8 @@
 ## Communication: Tourism Sustainable Tourism Initiative Launch Announcement
 
-**From:** Chief Executive Officer, Tourism Board  
-**To:** Tourism Industry Stakeholders, Partners, and Media  
-**Subject:** Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations  
+**From:** Chief Executive Officer, Tourism Board
+**To:** Tourism Industry Stakeholders, Partners, and Media
+**Subject:** Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations
 
 Dear Tourism Industry Partners,
 
@@ -81,16 +81,16 @@ This initiative represents our commitment to responsible tourism that benefits e
 
 For more information or to discuss partnership opportunities, please contact our Sustainable Tourism Team at sustainability@tourismboard.org.
 
-Best regards,  
-Dr. Maria Rodriguez  
-Chief Executive Officer  
+Best regards,
+Dr. Maria Rodriguez
+Chief Executive Officer
 National Tourism Board
 
 ---
 
-**From:** Carlos Mendoza, Hotel Association President  
-**To:** Dr. Maria Rodriguez, Chief Executive Officer  
-**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations  
+**From:** Carlos Mendoza, Hotel Association President
+**To:** Dr. Maria Rodriguez, Chief Executive Officer
+**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations
 
 Dear Dr. Rodriguez,
 
@@ -100,15 +100,15 @@ We'd like to discuss how our members can participate in the certification progra
 
 Also, regarding the renewable energy adoption - will there be funding available for solar panel installations?
 
-Best regards,  
-Carlos Mendoza  
+Best regards,
+Carlos Mendoza
 President, National Hotel Association
 
 ---
 
-**From:** Dr. Maria Rodriguez, Chief Executive Officer  
-**To:** Carlos Mendoza, Hotel Association President; Tourism Industry Stakeholders  
-**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations  
+**From:** Dr. Maria Rodriguez, Chief Executive Officer
+**To:** Carlos Mendoza, Hotel Association President; Tourism Industry Stakeholders
+**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations
 
 Dear Carlos,
 
@@ -124,14 +124,14 @@ For renewable energy adoption, we have partnered with local banks to provide low
 
 We'll be hosting a dedicated session for hoteliers during our webinar series next month. Please let us know if you'd like to co-host or present.
 
-Best regards,  
+Best regards,
 Dr. Maria Rodriguez
 
 ---
 
-**From:** Elena Vasquez, Environmental NGO Director  
-**To:** Dr. Maria Rodriguez, Chief Executive Officer  
-**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations  
+**From:** Elena Vasquez, Environmental NGO Director
+**To:** Dr. Maria Rodriguez, Chief Executive Officer
+**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations
 
 Dr. Rodriguez,
 
@@ -141,15 +141,15 @@ We're particularly interested in the community development component. Could you 
 
 Also, will there be monitoring and reporting requirements for environmental impact?
 
-Sincerely,  
-Elena Vasquez  
+Sincerely,
+Elena Vasquez
 Director, Biodiversity Conservation Alliance
 
 ---
 
-**From:** Dr. Maria Rodriguez, Chief Executive Officer  
-**To:** Elena Vasquez, Environmental NGO Director; Tourism Industry Stakeholders  
-**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations  
+**From:** Dr. Maria Rodriguez, Chief Executive Officer
+**To:** Elena Vasquez, Environmental NGO Director; Tourism Industry Stakeholders
+**Subject:** Re: Launch of Sustainable Tourism Initiative - Protecting Our Destinations for Future Generations
 
 Dear Elena,
 
@@ -165,5 +165,5 @@ Regarding monitoring, we'll implement comprehensive environmental impact assessm
 
 We'd welcome your NGO's participation in our environmental monitoring framework. Please join our partner summit next quarter to discuss collaboration opportunities.
 
-Best regards,  
+Best regards,
 Dr. Maria Rodriguez

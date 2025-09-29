@@ -1,54 +1,91 @@
 workflow:
-  id: "workflow_retail_sustainable_practices"
-  title: "Sustainable Retail Practices Implementation"
-  department: "Corporate Sustainability"
-  complexity: "medium"
-  participants: ["Sustainability Director", "Supply Chain Manager", "Store Operations Manager", "Marketing Manager", "Vendor Relations Specialist"]
-  trigger: "Corporate sustainability goals established or regulatory requirements change"
+  id: workflow_retail_sustainable_practices
+  title: Sustainable Retail Practices Implementation
+  department: Corporate Sustainability
+  complexity: medium
+  participants:
+  - Sustainability Director
+  - Supply Chain Manager
+  - Store Operations Manager
+  - Marketing Manager
+  - Vendor Relations Specialist
+  trigger: Corporate sustainability goals established or regulatory requirements change
   steps:
-    - step: 1
-      actor: "Sustainability Director"
-      action: "Conduct sustainability assessment and set measurable targets"
-      tools: ["Sustainability Assessment Framework", "Carbon Footprint Calculator"]
-      duration: "2 weeks"
-      outputs: ["Sustainability Baseline Report", "Target Setting Document"]
-      decision_points: ["Scope 1/2/3 Emissions", "Supplier Engagement Level", "Customer Communication Strategy"]
-    - step: 2
-      actor: "Supply Chain Manager"
-      action: "Audit supplier sustainability practices and identify improvement opportunities"
-      tools: ["Supplier Assessment Questionnaire", "Supply Chain Mapping Tools"]
-      duration: "3 weeks"
-      outputs: ["Supplier Sustainability Scores", "Improvement Roadmaps"]
-    - step: 3
-      actor: "Store Operations Manager"
-      action: "Implement in-store sustainability initiatives (energy efficiency, waste reduction)"
-      tools: ["Store Management System", "Energy Monitoring Tools"]
-      duration: "4 weeks"
-      outputs: ["Store Sustainability Plans", "Implementation Timeline"]
-    - step: 4
-      actor: "Vendor Relations Specialist"
-      action: "Negotiate sustainable sourcing agreements with key suppliers"
-      tools: ["Contract Management System", "Supplier Negotiation Templates"]
-      duration: "2 weeks"
-      outputs: ["Sustainable Supplier Contracts", "Partnership Agreements"]
-    - step: 5
-      actor: "Marketing Manager"
-      action: "Develop customer communication strategy for sustainable practices"
-      tools: ["Marketing Campaign Tools", "Customer Survey Platform"]
-      duration: "2 weeks"
-      outputs: ["Sustainability Marketing Campaign", "Customer Education Materials"]
-    - step: 6
-      actor: "Sustainability Director"
-      action: "Establish monitoring and reporting framework for sustainability metrics"
-      tools: ["Sustainability Reporting Software", "KPI Dashboard"]
-      duration: "2 weeks"
-      outputs: ["Sustainability Monitoring System", "Annual Report Template"]
-  success_criteria: "Achieve 20% reduction in carbon footprint, 80% sustainable supplier coverage, positive customer perception"
-  failure_modes: ["Supplier resistance to change", "Implementation cost overruns", "Inconsistent execution across stores"]
+  - step: 1
+    actor: Sustainability Director
+    action: Conduct sustainability assessment and set measurable targets
+    tools:
+    - Sustainability Assessment Framework
+    - Carbon Footprint Calculator
+    duration: 2 weeks
+    outputs:
+    - Sustainability Baseline Report
+    - Target Setting Document
+    decision_points:
+    - Scope 1/2/3 Emissions
+    - Supplier Engagement Level
+    - Customer Communication Strategy
+  - step: 2
+    actor: Supply Chain Manager
+    action: Audit supplier sustainability practices and identify improvement opportunities
+    tools:
+    - Supplier Assessment Questionnaire
+    - Supply Chain Mapping Tools
+    duration: 3 weeks
+    outputs:
+    - Supplier Sustainability Scores
+    - Improvement Roadmaps
+  - step: 3
+    actor: Store Operations Manager
+    action: Implement in-store sustainability initiatives (energy efficiency, waste
+      reduction)
+    tools:
+    - Store Management System
+    - Energy Monitoring Tools
+    duration: 4 weeks
+    outputs:
+    - Store Sustainability Plans
+    - Implementation Timeline
+  - step: 4
+    actor: Vendor Relations Specialist
+    action: Negotiate sustainable sourcing agreements with key suppliers
+    tools:
+    - Contract Management System
+    - Supplier Negotiation Templates
+    duration: 2 weeks
+    outputs:
+    - Sustainable Supplier Contracts
+    - Partnership Agreements
+  - step: 5
+    actor: Marketing Manager
+    action: Develop customer communication strategy for sustainable practices
+    tools:
+    - Marketing Campaign Tools
+    - Customer Survey Platform
+    duration: 2 weeks
+    outputs:
+    - Sustainability Marketing Campaign
+    - Customer Education Materials
+  - step: 6
+    actor: Sustainability Director
+    action: Establish monitoring and reporting framework for sustainability metrics
+    tools:
+    - Sustainability Reporting Software
+    - KPI Dashboard
+    duration: 2 weeks
+    outputs:
+    - Sustainability Monitoring System
+    - Annual Report Template
+  success_criteria: Achieve 20% reduction in carbon footprint, 80% sustainable supplier
+    coverage, positive customer perception
+  failure_modes:
+  - Supplier resistance to change
+  - Implementation cost overruns
+  - Inconsistent execution across stores
   metrics:
-    - "Carbon footprint reduction: Target >20% from baseline"
-    - "Sustainable supplier coverage: Target >80% of total suppliers"
-    - "Energy consumption reduction: Target >15% per store"
-    - "Waste diversion rate: Target >70% from landfill"
-    - "Customer perception score: Target >4.0/5.0 on sustainability"
-    - "ROI on sustainability initiatives: Target >150% over 3 years"
+  - 'Carbon footprint reduction: Target >20% from baseline'
+  - 'Sustainable supplier coverage: Target >80% of total suppliers'
+  - 'Energy consumption reduction: Target >15% per store'
+  - 'Waste diversion rate: Target >70% from landfill'
+  - 'Customer perception score: Target >4.0/5.0 on sustainability'
+  - 'ROI on sustainability initiatives: Target >150% over 3 years'

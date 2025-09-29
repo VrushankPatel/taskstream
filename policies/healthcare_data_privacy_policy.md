@@ -92,6 +92,6 @@ Applies to all healthcare personnel, contractors, and third-party vendors involv
 ## Policy Review
 This policy will be reviewed annually or when significant changes in regulations or technology occur.
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** September 28, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** September 28, 2025
 **Approved By:** Chief Privacy Officer, Chief Compliance Officer

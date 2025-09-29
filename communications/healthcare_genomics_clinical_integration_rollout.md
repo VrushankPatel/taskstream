@@ -1,17 +1,17 @@
 # Healthcare Genomics Clinical Integration Rollout Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Medical Center Auditorium, Conference Room B  
-**Attendees:**  
-- Dr. Amanda Foster, Chief Medical Officer  
-- Dr. James Wilson, Genomics Director  
-- Dr. Sarah Patel, Clinical Informatics Lead  
-- Dr. Michael Chen, Oncology Department Chair  
-- Dr. Lisa Rodriguez, Primary Care Division Head  
-- Nurse Manager: Patricia Johnson  
-- IT Director: Robert Kim  
-- External Consultant: Dr. Elena Vasquez, Genomics Integration Specialist  
+**Date:** September 28, 2025
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Medical Center Auditorium, Conference Room B
+**Attendees:**
+- Dr. Amanda Foster, Chief Medical Officer
+- Dr. James Wilson, Genomics Director
+- Dr. Sarah Patel, Clinical Informatics Lead
+- Dr. Michael Chen, Oncology Department Chair
+- Dr. Lisa Rodriguez, Primary Care Division Head
+- Nurse Manager: Patricia Johnson
+- IT Director: Robert Kim
+- External Consultant: Dr. Elena Vasquez, Genomics Integration Specialist
 
 ## Meeting Objective
 Review the clinical integration plan for population-scale genomics implementation and establish rollout strategy for precision medicine initiatives.

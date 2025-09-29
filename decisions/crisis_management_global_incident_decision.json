@@ -3,8 +3,16 @@
   "context": "Global consumer goods company, 10000 employees, facing product contamination incident across multiple international markets",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Chief Legal Officer", "Chief Communications Officer"],
-    "influencers": ["Country General Managers", "Head of Quality", "External Crisis Consultants"]
+    "approvers": [
+      "CEO",
+      "Chief Legal Officer",
+      "Chief Communications Officer"
+    ],
+    "influencers": [
+      "Country General Managers",
+      "Head of Quality",
+      "External Crisis Consultants"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,31 +24,51 @@
     {
       "stage": "incident_assessment",
       "duration": "12 hours",
-      "activities": ["Contamination source identification", "Affected product scope analysis", "Health risk evaluation"],
+      "activities": [
+        "Contamination source identification",
+        "Affected product scope analysis",
+        "Health risk evaluation"
+      ],
       "outcome": "Confirmed contamination with limited health risk but significant brand impact"
     },
     {
       "stage": "regulatory_coordination",
       "duration": "24 hours",
-      "activities": ["Local authority notifications", "Recall procedure alignment", "Communication protocol establishment"],
+      "activities": [
+        "Local authority notifications",
+        "Recall procedure alignment",
+        "Communication protocol establishment"
+      ],
       "outcome": "Coordinated regulatory approach with local market variations"
     },
     {
       "stage": "response_strategy",
       "duration": "24 hours",
-      "activities": ["Recall scope definition", "Communication plan development", "Remediation timeline creation"],
+      "activities": [
+        "Recall scope definition",
+        "Communication plan development",
+        "Remediation timeline creation"
+      ],
       "outcome": "Comprehensive response strategy balancing speed, safety, and communication"
     },
     {
       "stage": "executive_authorization",
       "duration": "6 hours",
-      "activities": ["Crisis team briefing", "Resource allocation approval", "Stakeholder communication authorization"],
+      "activities": [
+        "Crisis team briefing",
+        "Resource allocation approval",
+        "Stakeholder communication authorization"
+      ],
       "outcome": "Full recall approved with immediate implementation and transparent communication"
     }
   ],
   "business_impact": {
     "expected_cost": "$12,000,000 immediate recall expense",
     "projected_revenue_impact": "$50,000,000 short-term loss",
-    "risk_factors": ["Brand reputation damage", "Regulatory fines", "Competitor market share gains"]
+    "risk_factors": [
+      "Brand reputation damage",
+      "Regulatory fines",
+      "Competitor market share gains"
+    ]
   }
 }

@@ -3,8 +3,16 @@
   "context": "National telecom provider with 40% market share facing competitive pressure from 5G network deployments",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Chief Network Officer"],
-    "influencers": ["Regulatory Affairs Director", "Real Estate Manager", "Customer Experience VP"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Network Officer"
+    ],
+    "influencers": [
+      "Regulatory Affairs Director",
+      "Real Estate Manager",
+      "Customer Experience VP"
+    ]
   },
   "request": {
     "amount": "$850,000,000",
@@ -16,40 +24,70 @@
     {
       "stage": "market_analysis",
       "duration": "4 weeks",
-      "activities": ["Competitive landscape assessment", "Customer demand analysis", "Technology roadmap review"],
+      "activities": [
+        "Competitive landscape assessment",
+        "Customer demand analysis",
+        "Technology roadmap review"
+      ],
       "outcome": "Confirmed strategic necessity for accelerated 5G deployment"
     },
     {
       "stage": "technical_feasibility",
       "duration": "6 weeks",
-      "activities": ["Spectrum availability assessment", "Equipment vendor evaluation", "Network architecture design"],
+      "activities": [
+        "Spectrum availability assessment",
+        "Equipment vendor evaluation",
+        "Network architecture design"
+      ],
       "outcome": "Feasible with existing spectrum holdings and vendor partnerships"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Capital budgeting", "Cash flow projections", "ROI analysis", "Funding strategy"],
+      "activities": [
+        "Capital budgeting",
+        "Cash flow projections",
+        "ROI analysis",
+        "Funding strategy"
+      ],
       "outcome": "Projected 15% IRR with $200M annual revenue increase"
     },
     {
       "stage": "regulatory_approval",
       "duration": "8 weeks",
-      "activities": ["Spectrum license applications", "Environmental impact assessments", "Local permitting"],
+      "activities": [
+        "Spectrum license applications",
+        "Environmental impact assessments",
+        "Local permitting"
+      ],
       "outcome": "All major regulatory approvals secured"
     },
     {
       "stage": "board_approval",
       "duration": "2 weeks",
-      "activities": ["Executive presentation", "Risk assessment", "Final investment committee review"],
+      "activities": [
+        "Executive presentation",
+        "Risk assessment",
+        "Final investment committee review"
+      ],
       "outcome": "Approved with phased implementation plan"
     }
   ],
   "business_impact": {
     "expected_outcome": "Market leadership in 5G services, improved network capacity, enhanced customer experience, new revenue streams",
     "projected_value": "$200M annual incremental revenue",
-    "risk_factors": ["Technology deployment delays", "Spectrum auction costs", "Equipment supply chain issues"]
+    "risk_factors": [
+      "Technology deployment delays",
+      "Spectrum auction costs",
+      "Equipment supply chain issues"
+    ]
   },
-  "decision_criteria": ["Market share protection", "Financial returns >12% IRR", "Technical feasibility", "Regulatory compliance"],
+  "decision_criteria": [
+    "Market share protection",
+    "Financial returns >12% IRR",
+    "Technical feasibility",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement critical for telecom infrastructure projects; phased rollout reduces execution risk while maintaining competitive pressure"
 }

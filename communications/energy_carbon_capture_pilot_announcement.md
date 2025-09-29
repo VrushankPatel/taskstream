@@ -1,14 +1,14 @@
 ## Announcement: Energy Carbon Capture Pilot Program Launch
 
-**From:** Chief Sustainability Officer  
-**To:** All Energy Corporation Employees, Stakeholders, and Partners  
-**Subject:** Launch of Carbon Capture Pilot Program - Advancing Clean Energy Solutions  
+**From:** Chief Sustainability Officer
+**To:** All Energy Corporation Employees, Stakeholders, and Partners
+**Subject:** Launch of Carbon Capture Pilot Program - Advancing Clean Energy Solutions
 
-**Date:** September 29, 2025  
+**Date:** September 29, 2025
 
-Dear Energy Community,  
+Dear Energy Community,
 
-Today marks a significant milestone in our journey toward net-zero emissions as we announce the launch of our Carbon Capture Pilot Program. This $50M initiative represents our commitment to developing and deploying cutting-edge carbon capture technologies at scale.  
+Today marks a significant milestone in our journey toward net-zero emissions as we announce the launch of our Carbon Capture Pilot Program. This $50M initiative represents our commitment to developing and deploying cutting-edge carbon capture technologies at scale.
 
 ### Program Overview
 - **Pilot Scale**: 100,000 tons CO2 captured annually at initial facility
@@ -58,14 +58,14 @@ Today marks a significant milestone in our journey toward net-zero emissions as 
 - System availability: >95% uptime
 - Community support: >80% local approval rating
 
-This pilot program is not just about capturing carbon—it's about capturing opportunity. We're pioneering the technologies that will define the future of clean energy.  
+This pilot program is not just about capturing carbon—it's about capturing opportunity. We're pioneering the technologies that will define the future of clean energy.
 
-For more information about the program or partnership opportunities, please visit our sustainability portal at sustainability.energy.com/pilot.  
+For more information about the program or partnership opportunities, please visit our sustainability portal at sustainability.energy.com/pilot.
 
-Together, we're building a cleaner energy future.  
+Together, we're building a cleaner energy future.
 
-Best regards,  
-Dr. Michael Rodriguez  
-Chief Sustainability Officer  
-Energy Corporation  
+Best regards,
+Dr. Michael Rodriguez
+Chief Sustainability Officer
+Energy Corporation
 michael.rodriguez@energy.com

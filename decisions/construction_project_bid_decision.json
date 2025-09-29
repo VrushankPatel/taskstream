@@ -3,8 +3,16 @@
   "context": "Construction firm, $500M revenue, bidding on $200M commercial development project",
   "stakeholders": {
     "requester": "Business Development Director",
-    "approvers": ["CEO", "CFO", "Operations Director"],
-    "influencers": ["Project Managers", "Estimators", "Legal"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Operations Director"
+    ],
+    "influencers": [
+      "Project Managers",
+      "Estimators",
+      "Legal"
+    ]
   },
   "request": {
     "amount": "$200M project bid",
@@ -16,22 +24,42 @@
     {
       "stage": "bid_preparation",
       "duration": "8 weeks",
-      "activities": ["Site assessment", "Cost estimation", "Schedule development", "Risk analysis"],
+      "activities": [
+        "Site assessment",
+        "Cost estimation",
+        "Schedule development",
+        "Risk analysis"
+      ],
       "outcome": "Comprehensive bid package prepared with $185M bid price"
     },
     {
       "stage": "final_review",
       "duration": "2 weeks",
-      "activities": ["Executive review", "Financial analysis", "Capacity assessment"],
+      "activities": [
+        "Executive review",
+        "Financial analysis",
+        "Capacity assessment"
+      ],
       "outcome": "Approved bid submission with contingency planning"
     }
   ],
   "business_impact": {
     "expected_revenue": "$200M",
     "projected_profit": "$50M",
-    "risk_factors": ["Construction delays", "Material cost inflation", "Regulatory changes", "Labor shortages"]
+    "risk_factors": [
+      "Construction delays",
+      "Material cost inflation",
+      "Regulatory changes",
+      "Labor shortages"
+    ]
   },
-  "decision_criteria": ["Profit margin analysis (25% target)", "Capacity utilization assessment", "Risk-adjusted return on investment", "Strategic alignment with market expansion", "Contract terms and payment schedule"],
+  "decision_criteria": [
+    "Profit margin analysis (25% target)",
+    "Capacity utilization assessment",
+    "Risk-adjusted return on investment",
+    "Strategic alignment with market expansion",
+    "Contract terms and payment schedule"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early subcontractor engagement critical for competitive bidding, comprehensive risk modeling essential for large commercial projects"
 }

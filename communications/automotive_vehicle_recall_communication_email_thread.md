@@ -1,8 +1,8 @@
 ## Email Thread: Vehicle Recall Communication
 
-**From:** Product Safety Director  
-**To:** CEO, Communications VP, Legal Counsel  
-**Subject:** Brake System Defect - Recall Communication Plan  
+**From:** Product Safety Director
+**To:** CEO, Communications VP, Legal Counsel
+**Subject:** Brake System Defect - Recall Communication Plan
 
 Team,
 
@@ -18,15 +18,15 @@ I've prepared communication materials emphasizing safety and our commitment to q
 
 Legal review needed before public announcement.
 
-Best,  
-Thomas Wright  
-Product Safety Director  
+Best,
+Thomas Wright
+Product Safety Director
 
 ---
 
-**From:** Communications VP  
-**To:** Product Safety Director, CEO, Legal Counsel  
-**Subject:** Re: Brake System Defect - Recall Communication Plan  
+**From:** Communications VP
+**To:** Product Safety Director, CEO, Legal Counsel
+**Subject:** Re: Brake System Defect - Recall Communication Plan
 
 Thomas,
 
@@ -34,25 +34,25 @@ The materials look comprehensive. We should lead with safety and transparency to
 
 I'll prepare social media and dealer communication templates.
 
-Communications  
+Communications
 
 ---
 
-**From:** Legal Counsel  
-**To:** Product Safety Director, CEO, Communications VP  
-**Subject:** Re: Brake System Defect - Recall Communication Plan  
+**From:** Legal Counsel
+**To:** Product Safety Director, CEO, Communications VP
+**Subject:** Re: Brake System Defect - Recall Communication Plan
 
 Reviewed the communication plan - it's compliant with regulatory requirements.
 
 One addition: Include clear instructions for customers on how to schedule service.
 
-Legal  
+Legal
 
 ---
 
-**From:** CEO  
-**To:** All  
-**Subject:** Re: Brake System Defect - Recall Communication Plan  
+**From:** CEO
+**To:** All
+**Subject:** Re: Brake System Defect - Recall Communication Plan
 
 Team,
 

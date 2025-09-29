@@ -1,40 +1,78 @@
 workflow:
-  id: "crisis_management_ai_failure_workflow"
-  title: "AI System Failure Response Workflow"
-  department: "Crisis Management"
-  complexity: "high"
-  participants: ["Crisis Manager", "Technical Lead", "Communications Director", "Legal Counsel", "Customer Success Lead"]
-  trigger: "Critical AI system failure detected impacting operations"
+  id: crisis_management_ai_failure_workflow
+  title: AI System Failure Response Workflow
+  department: Crisis Management
+  complexity: high
+  participants:
+  - Crisis Manager
+  - Technical Lead
+  - Communications Director
+  - Legal Counsel
+  - Customer Success Lead
+  trigger: Critical AI system failure detected impacting operations
   steps:
-    - step: 1
-      actor: "Crisis Manager"
-      action: "Activate crisis response team and assess situation"
-      tools: ["Crisis management protocols", "Incident tracking system", "Stakeholder notification templates"]
-      duration: "1 hour"
-      outputs: ["Crisis assessment report", "Response team activation", "Initial stakeholder notifications"]
-    - step: 2
-      actor: "Technical Lead"
-      action: "Diagnose failure cause and implement containment"
-      decision_points: ["System isolation", "Data integrity assessment", "Recovery time estimation"]
-      duration: "4 hours"
-      outputs: ["Root cause analysis", "Containment measures", "Recovery timeline"]
-    - step: 3
-      actor: "Communications Director"
-      action: "Develop and execute communication strategy"
-      tools: ["Communication templates", "Media monitoring tools", "Stakeholder database"]
-      duration: "2 hours"
-      outputs: ["Communication plan", "Press releases", "Customer notifications"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Assess legal implications and regulatory reporting"
-      tools: ["Legal compliance checklists", "Regulatory reporting requirements", "Contract review"]
-      duration: "6 hours"
-      outputs: ["Legal assessment", "Regulatory notifications", "Contractual obligations review"]
-    - step: 5
-      actor: "Customer Success Lead"
-      action: "Manage customer impact and support escalation"
-      decision_points: ["Service level commitments", "Compensation frameworks", "Account risk assessment"]
-      duration: "Ongoing"
-      outputs: ["Customer impact assessment", "Support escalation plan", "Retention strategies"]
-  success_criteria: "System restored with minimal customer impact and regulatory issues"
-  failure_modes: ["Prolonged downtime", "Data loss", "Regulatory penalties"]
+  - step: 1
+    actor: Crisis Manager
+    action: Activate crisis response team and assess situation
+    tools:
+    - Crisis management protocols
+    - Incident tracking system
+    - Stakeholder notification templates
+    duration: 1 hour
+    outputs:
+    - Crisis assessment report
+    - Response team activation
+    - Initial stakeholder notifications
+  - step: 2
+    actor: Technical Lead
+    action: Diagnose failure cause and implement containment
+    decision_points:
+    - System isolation
+    - Data integrity assessment
+    - Recovery time estimation
+    duration: 4 hours
+    outputs:
+    - Root cause analysis
+    - Containment measures
+    - Recovery timeline
+  - step: 3
+    actor: Communications Director
+    action: Develop and execute communication strategy
+    tools:
+    - Communication templates
+    - Media monitoring tools
+    - Stakeholder database
+    duration: 2 hours
+    outputs:
+    - Communication plan
+    - Press releases
+    - Customer notifications
+  - step: 4
+    actor: Legal Counsel
+    action: Assess legal implications and regulatory reporting
+    tools:
+    - Legal compliance checklists
+    - Regulatory reporting requirements
+    - Contract review
+    duration: 6 hours
+    outputs:
+    - Legal assessment
+    - Regulatory notifications
+    - Contractual obligations review
+  - step: 5
+    actor: Customer Success Lead
+    action: Manage customer impact and support escalation
+    decision_points:
+    - Service level commitments
+    - Compensation frameworks
+    - Account risk assessment
+    duration: Ongoing
+    outputs:
+    - Customer impact assessment
+    - Support escalation plan
+    - Retention strategies
+  success_criteria: System restored with minimal customer impact and regulatory issues
+  failure_modes:
+  - Prolonged downtime
+  - Data loss
+  - Regulatory penalties

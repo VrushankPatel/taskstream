@@ -71,6 +71,6 @@ Applies to all employees, contractors, and partners involved in emerging technol
 ## Review and Updates
 This policy will be reviewed annually or when significant technological or regulatory changes occur. Updates require approval from the Emerging Technology Ethics Committee and executive leadership.
 
-**Effective Date:** October 1, 2025  
-**Last Updated:** September 28, 2025  
+**Effective Date:** October 1, 2025
+**Last Updated:** September 28, 2025
 **Approved By:** CEO and Board of Directors

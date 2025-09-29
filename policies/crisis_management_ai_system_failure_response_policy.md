@@ -147,6 +147,6 @@ The organization is committed to maintaining AI system reliability and implement
 - Communications Crisis Response Plan
 
 ## Approval
-Approved by: Chief Technology Officer  
-Date: [Current Date]  
+Approved by: Chief Technology Officer
+Date: [Current Date]
 Review Date: [One year from approval]

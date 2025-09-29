@@ -1,51 +1,79 @@
 workflow:
-  id: "workflow_hospitality_crisis_workforce"
-  title: "Hospitality Crisis Workforce Management"
-  department: "Human Resources"
-  complexity: "medium"
-  participants: ["HR Director", "Operations Manager", "Department Heads", "Staffing Coordinator", "Training Manager"]
-  trigger: "Crisis event requiring workforce adjustments (pandemic, natural disaster, economic downturn)"
+  id: workflow_hospitality_crisis_workforce
+  title: Hospitality Crisis Workforce Management
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Director
+  - Operations Manager
+  - Department Heads
+  - Staffing Coordinator
+  - Training Manager
+  trigger: Crisis event requiring workforce adjustments (pandemic, natural disaster,
+    economic downturn)
   steps:
-    - step: 1
-      actor: "HR Director"
-      action: "Assess workforce impact and develop staffing requirements"
-      tools: ["Workforce planning software", "Crisis management protocols"]
-      duration: "24 hours"
-      outputs: ["Workforce impact assessment"]
-    - step: 2
-      actor: "Operations Manager"
-      action: "Prioritize essential roles and create shift schedules"
-      tools: ["Staff scheduling system", "Operations capacity model"]
-      duration: "12 hours"
-      outputs: ["Essential staffing plan"]
-    - step: 3
-      actor: "Staffing Coordinator"
-      action: "Implement hiring freezes, furloughs, or layoffs per legal requirements"
-      tools: ["HR management system", "Legal compliance database"]
-      duration: "3 days"
-      outputs: ["Workforce adjustment plan"]
-    - step: 4
-      actor: "Training Manager"
-      action: "Develop crisis-specific training and safety protocols"
-      tools: ["Learning management system", "Safety training modules"]
-      duration: "2 days"
-      outputs: ["Crisis training program"]
-    - step: 5
-      actor: "Department Heads"
-      action: "Conduct performance evaluations and reassign critical staff"
-      tools: ["Performance management system", "Staff reassignment tools"]
-      duration: "1 week"
-      outputs: ["Staff optimization recommendations"]
-    - step: 6
-      actor: "HR Director"
-      action: "Monitor workforce morale and implement support programs"
-      tools: ["Employee engagement surveys", "Support program database"]
-      duration: "Ongoing"
-      outputs: ["Workforce resilience report"]
-  success_criteria: "Maintain 80% service capacity, employee satisfaction >3.5/5 during crisis"
-  failure_modes: ["Legal compliance violations", "Staff morale collapse", "Skill gap in reassigned roles"]
+  - step: 1
+    actor: HR Director
+    action: Assess workforce impact and develop staffing requirements
+    tools:
+    - Workforce planning software
+    - Crisis management protocols
+    duration: 24 hours
+    outputs:
+    - Workforce impact assessment
+  - step: 2
+    actor: Operations Manager
+    action: Prioritize essential roles and create shift schedules
+    tools:
+    - Staff scheduling system
+    - Operations capacity model
+    duration: 12 hours
+    outputs:
+    - Essential staffing plan
+  - step: 3
+    actor: Staffing Coordinator
+    action: Implement hiring freezes, furloughs, or layoffs per legal requirements
+    tools:
+    - HR management system
+    - Legal compliance database
+    duration: 3 days
+    outputs:
+    - Workforce adjustment plan
+  - step: 4
+    actor: Training Manager
+    action: Develop crisis-specific training and safety protocols
+    tools:
+    - Learning management system
+    - Safety training modules
+    duration: 2 days
+    outputs:
+    - Crisis training program
+  - step: 5
+    actor: Department Heads
+    action: Conduct performance evaluations and reassign critical staff
+    tools:
+    - Performance management system
+    - Staff reassignment tools
+    duration: 1 week
+    outputs:
+    - Staff optimization recommendations
+  - step: 6
+    actor: HR Director
+    action: Monitor workforce morale and implement support programs
+    tools:
+    - Employee engagement surveys
+    - Support program database
+    duration: Ongoing
+    outputs:
+    - Workforce resilience report
+  success_criteria: Maintain 80% service capacity, employee satisfaction >3.5/5 during
+    crisis
+  failure_modes:
+  - Legal compliance violations
+  - Staff morale collapse
+  - Skill gap in reassigned roles
   metrics:
-    - "Service capacity maintenance: >80%"
-    - "Employee retention rate: >85%"
-    - "Training completion rate: >90%"
-    - "Legal compliance incidents: 0"
+  - 'Service capacity maintenance: >80%'
+  - 'Employee retention rate: >85%'
+  - 'Training completion rate: >90%'
+  - 'Legal compliance incidents: 0'

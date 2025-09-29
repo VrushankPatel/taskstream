@@ -2,10 +2,10 @@
 
 ## Policy Overview
 
-**Effective Date:** October 1, 2025  
-**Last Updated:** September 29, 2025  
-**Policy Owner:** Chief Privacy Officer  
-**Applies To:** All employees, contractors, and third-party vendors handling customer data  
+**Effective Date:** October 1, 2025
+**Last Updated:** September 29, 2025
+**Policy Owner:** Chief Privacy Officer
+**Applies To:** All employees, contractors, and third-party vendors handling customer data
 
 ## Purpose
 
@@ -254,9 +254,9 @@ Exceptions to this policy require approval from the Chief Privacy Officer and mu
 
 ## Contact Information
 
-**Chief Privacy Officer:** privacy@retailcompany.com  
-**Data Protection Team:** dpo@retailcompany.com  
-**Privacy Hotline:** 1-800-PRIVACY (available 24/7)  
+**Chief Privacy Officer:** privacy@retailcompany.com
+**Data Protection Team:** dpo@retailcompany.com
+**Privacy Hotline:** 1-800-PRIVACY (available 24/7)
 
 ## Related Documents
 

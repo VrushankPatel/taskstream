@@ -1,8 +1,8 @@
 ## Announcement: Virtual Reality Training Program Launch
 
-**From:** Dr. Amanda Foster, Vice President of Academic Innovation  
-**To:** Faculty, Staff, and Students  
-**Subject:** Exciting News: VR Training Programs Now Available in Select Courses  
+**From:** Dr. Amanda Foster, Vice President of Academic Innovation
+**To:** Faculty, Staff, and Students
+**Subject:** Exciting News: VR Training Programs Now Available in Select Courses
 
 Dear University Community,
 
@@ -49,6 +49,6 @@ Please direct any questions to vr.training@university.edu or visit our VR portal
 
 We're excited to lead the way in immersive education and prepare our students for the future of work.
 
-Best regards,  
-Dr. Amanda Foster  
+Best regards,
+Dr. Amanda Foster
 Vice President of Academic Innovation

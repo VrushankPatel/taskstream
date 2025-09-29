@@ -3,8 +3,15 @@
   "context": "Agricultural cooperative evaluating investment in carbon credit trading platform to monetize regenerative farming practices across 50,000 acres",
   "stakeholders": {
     "requester": "Director of Sustainability",
-    "approvers": ["Board of Directors", "CEO"],
-    "influencers": ["Farm Operations Manager", "Finance Director", "Carbon Market Specialist"]
+    "approvers": [
+      "Board of Directors",
+      "CEO"
+    ],
+    "influencers": [
+      "Farm Operations Manager",
+      "Finance Director",
+      "Carbon Market Specialist"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +23,50 @@
     {
       "stage": "carbon_methodology_development",
       "duration": "8 weeks",
-      "activities": ["Sequestration measurement protocols", "Verification standards", "Platform architecture design"],
+      "activities": [
+        "Sequestration measurement protocols",
+        "Verification standards",
+        "Platform architecture design"
+      ],
       "outcome": "Robust methodology validated by third-party auditors"
     },
     {
       "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["Carbon price projections", "Buyer identification", "Competitive landscape assessment"],
+      "activities": [
+        "Carbon price projections",
+        "Buyer identification",
+        "Competitive landscape assessment"
+      ],
       "outcome": "Identified $15/ton average carbon price potential"
     },
     {
       "stage": "pilot_program",
       "duration": "12 weeks",
-      "activities": ["Small-scale implementation", "Farmer training", "Initial credit generation"],
+      "activities": [
+        "Small-scale implementation",
+        "Farmer training",
+        "Initial credit generation"
+      ],
       "outcome": "Successful pilot generating 10,000 credits"
     }
   ],
   "business_impact": {
     "expected_outcome": "New revenue stream of $500K annually, enhanced brand value",
     "projected_value": "$3,000,000 NPV over 5 years",
-    "risk_factors": ["Carbon price volatility", "Regulatory changes", "Measurement accuracy challenges"]
+    "risk_factors": [
+      "Carbon price volatility",
+      "Regulatory changes",
+      "Measurement accuracy challenges"
+    ]
   },
-  "decision_criteria": ["Revenue potential", "Technical feasibility", "Regulatory compliance", "Farmer adoption", "Market demand"],
+  "decision_criteria": [
+    "Revenue potential",
+    "Technical feasibility",
+    "Regulatory compliance",
+    "Farmer adoption",
+    "Market demand"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Farmer education critical for adoption, pilot programs essential for proving methodology effectiveness"
 }

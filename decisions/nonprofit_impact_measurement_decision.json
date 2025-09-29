@@ -3,8 +3,16 @@
   "context": "Nonprofit organization implementing comprehensive impact measurement system to demonstrate program effectiveness",
   "stakeholders": {
     "requester": "Program Director",
-    "approvers": ["Executive Director", "Board Chair", "Finance Committee"],
-    "influencers": ["Funders", "Beneficiaries", "Program Staff"]
+    "approvers": [
+      "Executive Director",
+      "Board Chair",
+      "Finance Committee"
+    ],
+    "influencers": [
+      "Funders",
+      "Beneficiaries",
+      "Program Staff"
+    ]
   },
   "request": {
     "amount": "$125,000",
@@ -16,28 +24,51 @@
     {
       "stage": "impact_framework_development",
       "duration": "6 weeks",
-      "activities": ["Stakeholder workshops", "Impact theory development", "Metrics identification"],
+      "activities": [
+        "Stakeholder workshops",
+        "Impact theory development",
+        "Metrics identification"
+      ],
       "outcome": "Comprehensive impact measurement framework established"
     },
     {
       "stage": "technology_selection",
       "duration": "8 weeks",
-      "activities": ["Platform evaluation", "Vendor demonstrations", "Cost-benefit analysis"],
+      "activities": [
+        "Platform evaluation",
+        "Vendor demonstrations",
+        "Cost-benefit analysis"
+      ],
       "outcome": "User-friendly platform selected with strong analytics capabilities"
     },
     {
       "stage": "pilot_implementation",
       "duration": "12 weeks",
-      "activities": ["Pilot program setup", "Staff training", "Data collection testing"],
+      "activities": [
+        "Pilot program setup",
+        "Staff training",
+        "Data collection testing"
+      ],
       "outcome": "Pilot successful with positive staff feedback"
     }
   ],
   "business_impact": {
     "expected_outcome": "Improved program outcomes, enhanced fundraising, data-driven decision making",
     "projected_value": "$750,000 in additional funding through demonstrated impact",
-    "risk_factors": ["Data collection burden", "Staff resistance", "Measurement complexity", "Funding delays"]
+    "risk_factors": [
+      "Data collection burden",
+      "Staff resistance",
+      "Measurement complexity",
+      "Funding delays"
+    ]
   },
-  "decision_criteria": ["Impact measurement accuracy", "Staff usability", "Cost effectiveness", "Scalability", "Stakeholder acceptance"],
+  "decision_criteria": [
+    "Impact measurement accuracy",
+    "Staff usability",
+    "Cost effectiveness",
+    "Scalability",
+    "Stakeholder acceptance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Impact measurement requires balancing rigor with practicality for nonprofit operations"
 }

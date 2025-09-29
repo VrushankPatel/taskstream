@@ -1,11 +1,11 @@
 ## Meeting Notes: Hospitality Revenue Crisis Response
 
-**Meeting:** Emergency Revenue Crisis Response  
-**Date:** September 29, 2025  
-**Attendees:** General Manager, Revenue Manager, Sales Director, Operations Director, Front Office Manager  
-**Facilitator:** General Manager  
+**Meeting:** Emergency Revenue Crisis Response
+**Date:** September 29, 2025
+**Attendees:** General Manager, Revenue Manager, Sales Director, Operations Director, Front Office Manager
+**Facilitator:** General Manager
 
-**Context:**  
+**Context:**
 Revenue down 35% YoY due to economic downturn and increased competition. Current occupancy at 45% vs. target 75%. Need immediate action plan to stabilize operations.
 
 **Key Discussion Points:**

@@ -103,6 +103,6 @@ Violations of this policy may result in disciplinary action up to and including 
 - Business Continuity and Disaster Recovery Plan
 - Vendor Risk Management Policy
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Security Officer*

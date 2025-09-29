@@ -3,8 +3,16 @@
   "context": "Midwest utility company evaluating integration of 500MW solar farm into existing coal/gas grid infrastructure, requiring $200M investment over 3 years",
   "stakeholders": {
     "requester": "VP Renewable Energy",
-    "approvers": ["CEO", "CFO", "Chief Engineer"],
-    "influencers": ["State Regulatory Commission", "Environmental Groups", "Local Community Leaders"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Engineer"
+    ],
+    "influencers": [
+      "State Regulatory Commission",
+      "Environmental Groups",
+      "Local Community Leaders"
+    ]
   },
   "request": {
     "amount": "$200,000,000",
@@ -16,34 +24,60 @@
     {
       "stage": "technical_feasibility",
       "duration": "6 weeks",
-      "activities": ["Grid stability modeling", "Infrastructure capacity assessment", "Integration testing"],
+      "activities": [
+        "Grid stability modeling",
+        "Infrastructure capacity assessment",
+        "Integration testing"
+      ],
       "outcome": "Feasible with minor upgrades required"
     },
     {
       "stage": "financial_analysis",
       "duration": "4 weeks",
-      "activities": ["ROI projections", "Funding source evaluation", "Rate impact analysis"],
+      "activities": [
+        "ROI projections",
+        "Funding source evaluation",
+        "Rate impact analysis"
+      ],
       "outcome": "Positive NPV of $50M over 20 years"
     },
     {
       "stage": "regulatory_approval",
       "duration": "8 weeks",
-      "activities": ["Permit applications", "Environmental impact studies", "Public hearings"],
+      "activities": [
+        "Permit applications",
+        "Environmental impact studies",
+        "Public hearings"
+      ],
       "outcome": "Approved with conditions"
     },
     {
       "stage": "stakeholder_consensus",
       "duration": "3 weeks",
-      "activities": ["Community meetings", "Environmental group consultations", "Employee impact assessment"],
+      "activities": [
+        "Community meetings",
+        "Environmental group consultations",
+        "Employee impact assessment"
+      ],
       "outcome": "Strong support with mitigation requirements"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in carbon emissions, improved grid reliability, compliance with renewable mandates",
     "projected_value": "$50,000,000 NPV",
-    "risk_factors": ["Weather dependency of solar generation", "Grid stability during transition", "Regulatory changes"]
+    "risk_factors": [
+      "Weather dependency of solar generation",
+      "Grid stability during transition",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Technical feasibility", "Regulatory compliance", "Environmental impact", "Community support"],
+  "decision_criteria": [
+    "Financial viability",
+    "Technical feasibility",
+    "Regulatory compliance",
+    "Environmental impact",
+    "Community support"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement critical for renewable projects, comprehensive modeling reduces integration risks"
 }

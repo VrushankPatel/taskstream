@@ -1,9 +1,9 @@
 ## Email Thread: Construction BIM Implementation Challenges
 
-**From:** Project Manager  
-**To:** Construction Director, IT Manager, BIM Coordinator  
-**Subject:** Urgent: BIM Software Integration Issues - Action Required  
-**Date:** September 20, 2025  
+**From:** Project Manager
+**To:** Construction Director, IT Manager, BIM Coordinator
+**Subject:** Urgent: BIM Software Integration Issues - Action Required
+**Date:** September 20, 2025
 
 Team,
 
@@ -16,17 +16,17 @@ Key issues:
 
 We need to resolve this by COB Friday to avoid further schedule slippage.
 
-Best,  
+Best,
 Project Manager
 
 ---
 
-**From:** BIM Coordinator  
-**To:** Project Manager, Construction Director, IT Manager  
-**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required  
-**Date:** September 20, 2025  
+**From:** BIM Coordinator
+**To:** Project Manager, Construction Director, IT Manager
+**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required
+**Date:** September 20, 2025
 
-Thanks for flagging this. I've identified the root cause - our cloud storage permissions aren't configured correctly for the external consultants. 
+Thanks for flagging this. I've identified the root cause - our cloud storage permissions aren't configured correctly for the external consultants.
 
 Proposed solution:
 - Update access protocols for design team
@@ -39,10 +39,10 @@ BIM Coordinator
 
 ---
 
-**From:** IT Manager  
-**To:** Project Manager, Construction Director, BIM Coordinator  
-**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required  
-**Date:** September 20, 2025  
+**From:** IT Manager
+**To:** Project Manager, Construction Director, BIM Coordinator
+**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required
+**Date:** September 20, 2025
 
 Understood the urgency. I've reviewed the integration requirements and can implement the necessary permission updates and API configurations. However, this will require temporary downtime of the project collaboration platform during off-hours.
 
@@ -57,10 +57,10 @@ IT Manager
 
 ---
 
-**From:** Construction Director  
-**To:** Project Manager, IT Manager, BIM Coordinator  
-**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required  
-**Date:** September 20, 2025  
+**From:** Construction Director
+**To:** Project Manager, IT Manager, BIM Coordinator
+**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required
+**Date:** September 20, 2025
 
 Approved. Let's proceed with the IT plan. Project Manager, please coordinate with the design team to ensure they're available for Thursday testing.
 
@@ -70,10 +70,10 @@ Construction Director
 
 ---
 
-**From:** Project Manager  
-**To:** Construction Director, IT Manager, BIM Coordinator  
-**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required  
-**Date:** September 21, 2025  
+**From:** Project Manager
+**To:** Construction Director, IT Manager, BIM Coordinator
+**Subject:** Re: Urgent: BIM Software Integration Issues - Action Required
+**Date:** September 21, 2025
 
 Confirmed with design team - they'll be available Thursday. I've also scheduled a post-implementation review for next Tuesday to document lessons learned.
 

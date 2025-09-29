@@ -3,8 +3,16 @@
   "context": "Utility company, 2000 employees, planning transition to renewable energy portfolio",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors", "State Regulatory Commission"],
-    "influencers": ["VP Engineering", "CFO", "Community Relations"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "State Regulatory Commission"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "CFO",
+      "Community Relations"
+    ]
   },
   "request": {
     "amount": "$500,000,000",
@@ -16,25 +24,45 @@
     {
       "stage": "feasibility_study",
       "duration": "4 months",
-      "activities": ["Site selection", "Environmental impact assessment", "Grid capacity analysis"],
+      "activities": [
+        "Site selection",
+        "Environmental impact assessment",
+        "Grid capacity analysis"
+      ],
       "outcome": "Identified optimal 500-acre site with minimal environmental impact"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "8 weeks",
-      "activities": ["Community meetings", "Regulatory consultations", "Supplier negotiations"],
+      "activities": [
+        "Community meetings",
+        "Regulatory consultations",
+        "Supplier negotiations"
+      ],
       "outcome": "Secured local support and necessary permits, negotiated favorable equipment contracts"
     },
     {
       "stage": "financial_structuring",
       "duration": "6 weeks",
-      "activities": ["Green bond issuance", "Grant applications", "Rate impact analysis"],
+      "activities": [
+        "Green bond issuance",
+        "Grant applications",
+        "Rate impact analysis"
+      ],
       "outcome": "Secured $300M in green financing, projected 2% rate increase for customers"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["50% renewable energy portfolio", "Carbon emissions reduced by 40%", "New revenue from green energy certificates"],
+    "expected_outcomes": [
+      "50% renewable energy portfolio",
+      "Carbon emissions reduced by 40%",
+      "New revenue from green energy certificates"
+    ],
     "projected_revenue": "$150M in green energy premiums over 10 years",
-    "risk_factors": ["Weather dependency of solar generation", "Grid integration challenges", "Regulatory changes in incentives"]
+    "risk_factors": [
+      "Weather dependency of solar generation",
+      "Grid integration challenges",
+      "Regulatory changes in incentives"
+    ]
   }
 }

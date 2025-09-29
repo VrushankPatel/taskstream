@@ -1,11 +1,11 @@
 ## Quarterly Strategy Meeting Notes
 
-**Date:** October 20, 2024  
-**Time:** 9:00 AM - 12:00 PM  
-**Location:** Conference Room A  
-**Attendees:** CEO (Michael), CFO (Jennifer), CTO (Robert), CMO (Sarah), CPO (David), VP Sales (Lisa)  
-**Facilitator:** Michael Rodriguez, CEO  
-**Note Taker:** Emily Watson, Strategy Coordinator  
+**Date:** October 20, 2024
+**Time:** 9:00 AM - 12:00 PM
+**Location:** Conference Room A
+**Attendees:** CEO (Michael), CFO (Jennifer), CTO (Robert), CMO (Sarah), CPO (David), VP Sales (Lisa)
+**Facilitator:** Michael Rodriguez, CEO
+**Note Taker:** Emily Watson, Strategy Coordinator
 
 ### Agenda
 1. Q3 Performance Review
@@ -17,7 +17,7 @@
 - **Revenue:** $45M (15% above target)
   - SaaS subscriptions up 25%
   - Professional services down 10% due to project delays
-- **Customer Metrics:** 
+- **Customer Metrics:**
   - Churn rate: 5.2% (target: <6%)
   - NPS: 42 (target: 40)
 - **Product:** 3 major releases, 15 feature enhancements

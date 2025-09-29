@@ -1,46 +1,73 @@
 workflow:
-  id: "workflow_government_digital_services"
-  title: "Digital Service Delivery Process"
-  department: "Digital Services"
-  complexity: "high"
-  participants: ["Service Manager", "Digital Architect", "Security Officer", "User Experience Designer", "Compliance Reviewer"]
-  trigger: "Citizen requests government service or service improvement identified"
+  id: workflow_government_digital_services
+  title: Digital Service Delivery Process
+  department: Digital Services
+  complexity: high
+  participants:
+  - Service Manager
+  - Digital Architect
+  - Security Officer
+  - User Experience Designer
+  - Compliance Reviewer
+  trigger: Citizen requests government service or service improvement identified
   steps:
-    - step: 1
-      actor: "Service Manager"
-      action: "Assess service requirements and user needs"
-      tools: ["User Research Tools", "Service Request System"]
-      duration: "1 week"
-      outputs: ["Requirements Document"]
-    - step: 2
-      actor: "User Experience Designer"
-      action: "Design user-friendly digital interface"
-      tools: ["UX Design Software", "Prototyping Tools"]
-      duration: "2 weeks"
-      outputs: ["UI/UX Design"]
-    - step: 3
-      actor: "Digital Architect"
-      action: "Develop technical architecture and integration plan"
-      tools: ["Architecture Design Tools", "API Management Platform"]
-      duration: "1 week"
-      outputs: ["Technical Architecture"]
-    - step: 4
-      actor: "Security Officer"
-      action: "Conduct security assessment and implement safeguards"
-      tools: ["Security Assessment Tools", "Encryption Software"]
-      duration: "3 days"
-      outputs: ["Security Review"]
-    - step: 5
-      actor: "Compliance Reviewer"
-      action: "Ensure regulatory compliance and data privacy"
-      tools: ["Compliance Checklists", "Privacy Impact Assessment"]
-      duration: "1 week"
-      outputs: ["Compliance Report"]
-    - step: 6
-      actor: "Service Manager"
-      action: "Deploy service and monitor initial usage"
-      tools: ["Deployment Tools", "Analytics Platform"]
-      duration: "2 days"
-      outputs: ["Deployment Report"]
-  success_criteria: "Secure, compliant digital service launched with high user adoption"
-  failure_modes: ["Security vulnerabilities", "Compliance issues", "Poor user experience", "Technical integration failures"]
+  - step: 1
+    actor: Service Manager
+    action: Assess service requirements and user needs
+    tools:
+    - User Research Tools
+    - Service Request System
+    duration: 1 week
+    outputs:
+    - Requirements Document
+  - step: 2
+    actor: User Experience Designer
+    action: Design user-friendly digital interface
+    tools:
+    - UX Design Software
+    - Prototyping Tools
+    duration: 2 weeks
+    outputs:
+    - UI/UX Design
+  - step: 3
+    actor: Digital Architect
+    action: Develop technical architecture and integration plan
+    tools:
+    - Architecture Design Tools
+    - API Management Platform
+    duration: 1 week
+    outputs:
+    - Technical Architecture
+  - step: 4
+    actor: Security Officer
+    action: Conduct security assessment and implement safeguards
+    tools:
+    - Security Assessment Tools
+    - Encryption Software
+    duration: 3 days
+    outputs:
+    - Security Review
+  - step: 5
+    actor: Compliance Reviewer
+    action: Ensure regulatory compliance and data privacy
+    tools:
+    - Compliance Checklists
+    - Privacy Impact Assessment
+    duration: 1 week
+    outputs:
+    - Compliance Report
+  - step: 6
+    actor: Service Manager
+    action: Deploy service and monitor initial usage
+    tools:
+    - Deployment Tools
+    - Analytics Platform
+    duration: 2 days
+    outputs:
+    - Deployment Report
+  success_criteria: Secure, compliant digital service launched with high user adoption
+  failure_modes:
+  - Security vulnerabilities
+  - Compliance issues
+  - Poor user experience
+  - Technical integration failures

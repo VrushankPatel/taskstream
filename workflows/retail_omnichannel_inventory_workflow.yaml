@@ -1,46 +1,73 @@
 workflow:
-  id: "workflow_003"
-  title: "Omnichannel Inventory Management Process"
-  department: "Retail Operations"
-  complexity: "medium"
-  participants: ["Inventory Manager", "Store Managers", "E-commerce Manager", "Supply Chain Coordinator", "IT Support"]
-  trigger: "Stock discrepancies affecting online and in-store availability"
+  id: workflow_003
+  title: Omnichannel Inventory Management Process
+  department: Retail Operations
+  complexity: medium
+  participants:
+  - Inventory Manager
+  - Store Managers
+  - E-commerce Manager
+  - Supply Chain Coordinator
+  - IT Support
+  trigger: Stock discrepancies affecting online and in-store availability
   steps:
-    - step: 1
-      actor: "Inventory Manager"
-      action: "Audit current inventory systems and identify integration gaps"
-      tools: ["Inventory management software", "POS systems", "E-commerce platform"]
-      duration: "1 week"
-      outputs: ["Inventory system audit report"]
-    - step: 2
-      actor: "IT Support"
-      action: "Implement real-time inventory synchronization across channels"
-      decision_points: ["Centralized vs. distributed inventory", "Reserve stock allocation"]
-      duration: "3 weeks"
-      outputs: ["Integrated inventory platform"]
-    - step: 3
-      actor: "Store Managers"
-      action: "Train staff on new inventory procedures and mobile scanning"
-      tools: ["Training materials", "Mobile inventory apps"]
-      duration: "2 weeks"
-      outputs: ["Staff training completion records"]
-    - step: 4
-      actor: "E-commerce Manager"
-      action: "Configure automated order fulfillment and shipping notifications"
-      tools: ["Order management system", "Shipping integration APIs"]
-      duration: "2 weeks"
-      outputs: ["Automated fulfillment workflows"]
-    - step: 5
-      actor: "Supply Chain Coordinator"
-      action: "Establish reorder triggers and supplier integration"
-      tools: ["Supplier portals", "Automated ordering systems"]
-      duration: "1 week"
-      outputs: ["Supplier integration protocols"]
-    - step: 6
-      actor: "Inventory Manager"
-      action: "Monitor inventory accuracy and customer satisfaction metrics"
-      tools: ["Inventory accuracy dashboards", "Customer feedback systems"]
-      duration: "Ongoing"
-      outputs: ["Performance improvement reports"]
-  success_criteria: "95% inventory accuracy across channels and 30% reduction in stockouts"
-  failure_modes: ["System integration failures", "Staff resistance to new processes", "Supplier data quality issues"]
+  - step: 1
+    actor: Inventory Manager
+    action: Audit current inventory systems and identify integration gaps
+    tools:
+    - Inventory management software
+    - POS systems
+    - E-commerce platform
+    duration: 1 week
+    outputs:
+    - Inventory system audit report
+  - step: 2
+    actor: IT Support
+    action: Implement real-time inventory synchronization across channels
+    decision_points:
+    - Centralized vs. distributed inventory
+    - Reserve stock allocation
+    duration: 3 weeks
+    outputs:
+    - Integrated inventory platform
+  - step: 3
+    actor: Store Managers
+    action: Train staff on new inventory procedures and mobile scanning
+    tools:
+    - Training materials
+    - Mobile inventory apps
+    duration: 2 weeks
+    outputs:
+    - Staff training completion records
+  - step: 4
+    actor: E-commerce Manager
+    action: Configure automated order fulfillment and shipping notifications
+    tools:
+    - Order management system
+    - Shipping integration APIs
+    duration: 2 weeks
+    outputs:
+    - Automated fulfillment workflows
+  - step: 5
+    actor: Supply Chain Coordinator
+    action: Establish reorder triggers and supplier integration
+    tools:
+    - Supplier portals
+    - Automated ordering systems
+    duration: 1 week
+    outputs:
+    - Supplier integration protocols
+  - step: 6
+    actor: Inventory Manager
+    action: Monitor inventory accuracy and customer satisfaction metrics
+    tools:
+    - Inventory accuracy dashboards
+    - Customer feedback systems
+    duration: Ongoing
+    outputs:
+    - Performance improvement reports
+  success_criteria: 95% inventory accuracy across channels and 30% reduction in stockouts
+  failure_modes:
+  - System integration failures
+  - Staff resistance to new processes
+  - Supplier data quality issues

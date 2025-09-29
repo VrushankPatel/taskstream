@@ -3,8 +3,16 @@
   "context": "Mid-sized biotechnology company with 150 employees, developing gene therapy for rare genetic disorders, seeking $50M Series C funding",
   "stakeholders": {
     "requester": "CEO",
-    "approvers": ["Board of Directors", "Lead Investors"],
-    "influencers": ["Chief Scientific Officer", "Chief Medical Officer", "Regulatory Affairs Head", "IP Counsel"]
+    "approvers": [
+      "Board of Directors",
+      "Lead Investors"
+    ],
+    "influencers": [
+      "Chief Scientific Officer",
+      "Chief Medical Officer",
+      "Regulatory Affairs Head",
+      "IP Counsel"
+    ]
   },
   "request": {
     "amount": "$50,000,000",
@@ -16,25 +24,44 @@
     {
       "stage": "due_diligence",
       "duration": "6 weeks",
-      "activities": ["Scientific data review", "Regulatory pathway assessment", "IP portfolio evaluation", "Market analysis"],
+      "activities": [
+        "Scientific data review",
+        "Regulatory pathway assessment",
+        "IP portfolio evaluation",
+        "Market analysis"
+      ],
       "outcome": "Positive due diligence results"
     },
     {
       "stage": "board_review",
       "duration": "2 weeks",
-      "activities": ["Financial modeling review", "Risk assessment", "Strategic alignment evaluation"],
+      "activities": [
+        "Financial modeling review",
+        "Risk assessment",
+        "Strategic alignment evaluation"
+      ],
       "outcome": "Approved for investor presentations"
     },
     {
       "stage": "investor_negotiations",
       "duration": "8 weeks",
-      "activities": ["Term sheet negotiations", "Valuation discussions", "Due diligence defense", "Legal documentation"],
+      "activities": [
+        "Term sheet negotiations",
+        "Valuation discussions",
+        "Due diligence defense",
+        "Legal documentation"
+      ],
       "outcome": "Funding secured with favorable terms"
     }
   ],
   "business_impact": {
     "expected_patients_treated": 5000,
     "projected_revenue": "$500,000,000",
-    "risk_factors": ["Clinical trial failures", "Regulatory setbacks", "Manufacturing challenges", "Competitive landscape changes"]
+    "risk_factors": [
+      "Clinical trial failures",
+      "Regulatory setbacks",
+      "Manufacturing challenges",
+      "Competitive landscape changes"
+    ]
   }
 }

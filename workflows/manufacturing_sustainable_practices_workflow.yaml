@@ -1,41 +1,73 @@
 workflow:
-  id: "workflow_021_002"
-  title: "Sustainable Manufacturing Practices Implementation"
-  department: "Operations"
-  complexity: "high"
-  participants: ["Operations Director", "Sustainability Manager", "Procurement Lead", "Engineering Manager", "Finance Controller"]
-  trigger: "Corporate sustainability targets require 25% carbon reduction"
+  id: workflow_021_002
+  title: Sustainable Manufacturing Practices Implementation
+  department: Operations
+  complexity: high
+  participants:
+  - Operations Director
+  - Sustainability Manager
+  - Procurement Lead
+  - Engineering Manager
+  - Finance Controller
+  trigger: Corporate sustainability targets require 25% carbon reduction
   steps:
-    - step: 1
-      actor: "Sustainability Manager"
-      action: "Conduct comprehensive energy and resource audit"
-      tools: ["Energy monitoring systems", "Waste tracking software"]
-      duration: "4 weeks"
-      outputs: ["Baseline assessment report", "Opportunity identification"]
-    - step: 2
-      actor: "Engineering Manager"
-      action: "Design process improvements for energy efficiency"
-      decision_points: ["ROI timeline", "Technical feasibility", "Production impact"]
-      tools: ["Process simulation software", "Cost-benefit analysis templates"]
-      duration: "6 weeks"
-      outputs: ["Technical specifications", "Implementation plans"]
-    - step: 3
-      actor: "Procurement Lead"
-      action: "Source sustainable materials and equipment suppliers"
-      tools: ["Supplier evaluation criteria", "Sustainability certification databases"]
-      duration: "3 weeks"
-      outputs: ["Supplier shortlist", "Contract templates"]
-    - step: 4
-      actor: "Operations Director"
-      action: "Develop change management and training programs"
-      tools: ["Training materials", "Change management framework"]
-      duration: "2 weeks"
-      outputs: ["Training curriculum", "Communication plan"]
-    - step: 5
-      actor: "Finance Controller"
-      action: "Establish monitoring and reporting systems for sustainability KPIs"
-      tools: ["KPI dashboards", "Reporting automation tools"]
-      duration: "2 weeks"
-      outputs: ["Sustainability dashboard", "Monthly reporting process"]
-  success_criteria: "Achieve 25% carbon reduction within 18 months, positive ROI within 3 years"
-  failure_modes: ["Insufficient stakeholder buy-in", "Technical implementation challenges", "Cost overruns"]
+  - step: 1
+    actor: Sustainability Manager
+    action: Conduct comprehensive energy and resource audit
+    tools:
+    - Energy monitoring systems
+    - Waste tracking software
+    duration: 4 weeks
+    outputs:
+    - Baseline assessment report
+    - Opportunity identification
+  - step: 2
+    actor: Engineering Manager
+    action: Design process improvements for energy efficiency
+    decision_points:
+    - ROI timeline
+    - Technical feasibility
+    - Production impact
+    tools:
+    - Process simulation software
+    - Cost-benefit analysis templates
+    duration: 6 weeks
+    outputs:
+    - Technical specifications
+    - Implementation plans
+  - step: 3
+    actor: Procurement Lead
+    action: Source sustainable materials and equipment suppliers
+    tools:
+    - Supplier evaluation criteria
+    - Sustainability certification databases
+    duration: 3 weeks
+    outputs:
+    - Supplier shortlist
+    - Contract templates
+  - step: 4
+    actor: Operations Director
+    action: Develop change management and training programs
+    tools:
+    - Training materials
+    - Change management framework
+    duration: 2 weeks
+    outputs:
+    - Training curriculum
+    - Communication plan
+  - step: 5
+    actor: Finance Controller
+    action: Establish monitoring and reporting systems for sustainability KPIs
+    tools:
+    - KPI dashboards
+    - Reporting automation tools
+    duration: 2 weeks
+    outputs:
+    - Sustainability dashboard
+    - Monthly reporting process
+  success_criteria: Achieve 25% carbon reduction within 18 months, positive ROI within
+    3 years
+  failure_modes:
+  - Insufficient stakeholder buy-in
+  - Technical implementation challenges
+  - Cost overruns

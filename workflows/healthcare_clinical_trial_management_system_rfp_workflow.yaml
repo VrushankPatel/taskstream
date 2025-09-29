@@ -1,46 +1,88 @@
 workflow:
-  id: "workflow_003"
-  title: "Healthcare Clinical Trial Management System RFP Process"
-  department: "Research Administration"
-  complexity: "high"
-  participants: ["Research Director", "Clinical Operations Manager", "IT Project Manager", "Regulatory Compliance Officer", "Procurement Manager", "Clinical Investigators"]
-  trigger: "Outdated clinical trial management system impacting study efficiency"
+  id: workflow_003
+  title: Healthcare Clinical Trial Management System RFP Process
+  department: Research Administration
+  complexity: high
+  participants:
+  - Research Director
+  - Clinical Operations Manager
+  - IT Project Manager
+  - Regulatory Compliance Officer
+  - Procurement Manager
+  - Clinical Investigators
+  trigger: Outdated clinical trial management system impacting study efficiency
   steps:
-    - step: 1
-      actor: "Research Director"
-      action: "Define system requirements and evaluation criteria based on current and future trial needs"
-      tools: ["Requirements gathering templates", "Stakeholder interviews", "Regulatory requirement databases"]
-      duration: "4 weeks"
-      outputs: ["System requirements document", "Evaluation criteria matrix"]
-    - step: 2
-      actor: "Clinical Operations Manager"
-      action: "Document current workflow pain points and desired system capabilities"
-      tools: ["Process mapping tools", "Workflow analysis software", "User story templates"]
-      duration: "3 weeks"
-      outputs: ["Current state analysis", "Future state requirements"]
-    - step: 3
-      actor: "IT Project Manager"
-      action: "Assess technical integration requirements and data security needs"
-      tools: ["Integration assessment frameworks", "Security requirement templates", "Architecture diagrams"]
-      duration: "2 weeks"
-      outputs: ["Technical requirements specification", "Integration roadmap"]
-    - step: 4
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure RFP includes regulatory compliance requirements (FDA, GCP, HIPAA)"
-      tools: ["Regulatory compliance checklists", "Audit trail requirements", "Data privacy frameworks"]
-      duration: "2 weeks"
-      outputs: ["Compliance requirements document", "Regulatory risk assessment"]
-    - step: 5
-      actor: "Procurement Manager"
-      action: "Develop and issue RFP, manage vendor responses and demonstrations"
-      tools: ["RFP templates", "Vendor management platform", "Evaluation scoring systems"]
-      duration: "8 weeks"
-      outputs: ["Issued RFP document", "Vendor evaluation reports"]
-    - step: 6
-      actor: "Clinical Investigators"
-      action: "Participate in vendor demonstrations and provide clinical workflow validation"
-      tools: ["Demonstration feedback forms", "Clinical validation checklists", "User acceptance testing protocols"]
-      duration: "4 weeks"
-      outputs: ["Vendor demonstration feedback", "Clinical validation reports"]
-  success_criteria: "Selection of CTMS that meets 90% of requirements with successful implementation within 12 months"
-  failure_modes: ["Incomplete requirements gathering", "Poor vendor evaluation process", "Integration complexity issues", "Budget overruns"]
+  - step: 1
+    actor: Research Director
+    action: Define system requirements and evaluation criteria based on current and
+      future trial needs
+    tools:
+    - Requirements gathering templates
+    - Stakeholder interviews
+    - Regulatory requirement databases
+    duration: 4 weeks
+    outputs:
+    - System requirements document
+    - Evaluation criteria matrix
+  - step: 2
+    actor: Clinical Operations Manager
+    action: Document current workflow pain points and desired system capabilities
+    tools:
+    - Process mapping tools
+    - Workflow analysis software
+    - User story templates
+    duration: 3 weeks
+    outputs:
+    - Current state analysis
+    - Future state requirements
+  - step: 3
+    actor: IT Project Manager
+    action: Assess technical integration requirements and data security needs
+    tools:
+    - Integration assessment frameworks
+    - Security requirement templates
+    - Architecture diagrams
+    duration: 2 weeks
+    outputs:
+    - Technical requirements specification
+    - Integration roadmap
+  - step: 4
+    actor: Regulatory Compliance Officer
+    action: Ensure RFP includes regulatory compliance requirements (FDA, GCP, HIPAA)
+    tools:
+    - Regulatory compliance checklists
+    - Audit trail requirements
+    - Data privacy frameworks
+    duration: 2 weeks
+    outputs:
+    - Compliance requirements document
+    - Regulatory risk assessment
+  - step: 5
+    actor: Procurement Manager
+    action: Develop and issue RFP, manage vendor responses and demonstrations
+    tools:
+    - RFP templates
+    - Vendor management platform
+    - Evaluation scoring systems
+    duration: 8 weeks
+    outputs:
+    - Issued RFP document
+    - Vendor evaluation reports
+  - step: 6
+    actor: Clinical Investigators
+    action: Participate in vendor demonstrations and provide clinical workflow validation
+    tools:
+    - Demonstration feedback forms
+    - Clinical validation checklists
+    - User acceptance testing protocols
+    duration: 4 weeks
+    outputs:
+    - Vendor demonstration feedback
+    - Clinical validation reports
+  success_criteria: Selection of CTMS that meets 90% of requirements with successful
+    implementation within 12 months
+  failure_modes:
+  - Incomplete requirements gathering
+  - Poor vendor evaluation process
+  - Integration complexity issues
+  - Budget overruns

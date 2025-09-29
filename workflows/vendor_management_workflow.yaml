@@ -1,52 +1,104 @@
 workflow:
-  id: "workflow_procurement_vendor_001"
-  title: "Strategic Vendor Management Process"
-  department: "Procurement"
-  complexity: "medium"
-  participants: ["Procurement Manager", "Department Stakeholder", "Vendor Manager", "Legal Counsel", "Finance Analyst"]
-  trigger: "Vendor performance review due or contract renewal approaching"
+  id: workflow_procurement_vendor_001
+  title: Strategic Vendor Management Process
+  department: Procurement
+  complexity: medium
+  participants:
+  - Procurement Manager
+  - Department Stakeholder
+  - Vendor Manager
+  - Legal Counsel
+  - Finance Analyst
+  trigger: Vendor performance review due or contract renewal approaching
   steps:
-    - step: 1
-      actor: "Procurement Manager"
-      action: "Schedule vendor performance review meeting"
-      tools: ["Vendor management system", "Performance scorecard", "Contract database"]
-      duration: "1 week"
-      outputs: ["Review agenda", "Performance data collection", "Stakeholder invites"]
-    - step: 2
-      actor: "Department Stakeholder"
-      action: "Provide feedback on vendor performance and relationship"
-      tools: ["Feedback survey", "Usage metrics", "Relationship assessment"]
-      duration: "2 hours"
-      outputs: ["Stakeholder feedback", "Performance ratings", "Improvement suggestions"]
-    - step: 3
-      actor: "Procurement Manager"
-      action: "Analyze vendor performance against KPIs and SLAs"
-      tools: ["Analytics dashboard", "Contract terms", "Benchmarking data"]
-      duration: "4 hours"
-      outputs: ["Performance analysis", "Gap identification", "Benchmarking report"]
-    - step: 4
-      actor: "Vendor Manager"
-      action: "Present vendor perspective and improvement plans"
-      tools: ["Performance presentation", "Improvement roadmap", "Market context"]
-      duration: "1 hour"
-      outputs: ["Vendor response", "Improvement commitments", "Market insights"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Review contract terms and negotiate amendments if needed"
-      tools: ["Contract management system", "Legal templates", "Negotiation framework"]
-      duration: "2 hours"
-      outputs: ["Contract amendments", "Legal recommendations", "Risk assessment"]
-    - step: 6
-      actor: "Finance Analyst"
-      action: "Evaluate cost-benefit of continuation vs. replacement"
-      tools: ["Cost analysis models", "ROI calculations", "Market pricing"]
-      duration: "3 hours"
-      outputs: ["Financial analysis", "Cost-benefit recommendation", "Budget impact"]
-    - step: 7
-      actor: "Procurement Manager"
-      action: "Make vendor management decision and implement action plan"
-      tools: ["Decision framework", "Action plan template", "Communication plan"]
-      duration: "2 hours"
-      outputs: ["Vendor decision", "Action plan", "Communication materials"]
-  success_criteria: "Vendor relationship optimized with improved performance or cost savings"
-  failure_modes: ["Poor data availability", "Stakeholder conflicts", "Contract constraints", "Market changes"]
+  - step: 1
+    actor: Procurement Manager
+    action: Schedule vendor performance review meeting
+    tools:
+    - Vendor management system
+    - Performance scorecard
+    - Contract database
+    duration: 1 week
+    outputs:
+    - Review agenda
+    - Performance data collection
+    - Stakeholder invites
+  - step: 2
+    actor: Department Stakeholder
+    action: Provide feedback on vendor performance and relationship
+    tools:
+    - Feedback survey
+    - Usage metrics
+    - Relationship assessment
+    duration: 2 hours
+    outputs:
+    - Stakeholder feedback
+    - Performance ratings
+    - Improvement suggestions
+  - step: 3
+    actor: Procurement Manager
+    action: Analyze vendor performance against KPIs and SLAs
+    tools:
+    - Analytics dashboard
+    - Contract terms
+    - Benchmarking data
+    duration: 4 hours
+    outputs:
+    - Performance analysis
+    - Gap identification
+    - Benchmarking report
+  - step: 4
+    actor: Vendor Manager
+    action: Present vendor perspective and improvement plans
+    tools:
+    - Performance presentation
+    - Improvement roadmap
+    - Market context
+    duration: 1 hour
+    outputs:
+    - Vendor response
+    - Improvement commitments
+    - Market insights
+  - step: 5
+    actor: Legal Counsel
+    action: Review contract terms and negotiate amendments if needed
+    tools:
+    - Contract management system
+    - Legal templates
+    - Negotiation framework
+    duration: 2 hours
+    outputs:
+    - Contract amendments
+    - Legal recommendations
+    - Risk assessment
+  - step: 6
+    actor: Finance Analyst
+    action: Evaluate cost-benefit of continuation vs. replacement
+    tools:
+    - Cost analysis models
+    - ROI calculations
+    - Market pricing
+    duration: 3 hours
+    outputs:
+    - Financial analysis
+    - Cost-benefit recommendation
+    - Budget impact
+  - step: 7
+    actor: Procurement Manager
+    action: Make vendor management decision and implement action plan
+    tools:
+    - Decision framework
+    - Action plan template
+    - Communication plan
+    duration: 2 hours
+    outputs:
+    - Vendor decision
+    - Action plan
+    - Communication materials
+  success_criteria: Vendor relationship optimized with improved performance or cost
+    savings
+  failure_modes:
+  - Poor data availability
+  - Stakeholder conflicts
+  - Contract constraints
+  - Market changes

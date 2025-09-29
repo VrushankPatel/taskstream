@@ -1,46 +1,78 @@
 workflow:
-  id: "workflow_international_compliance"
-  title: "International Compliance Monitoring"
-  department: "Global Compliance"
-  complexity: "medium"
-  participants: ["Compliance Officer", "Legal Counsel", "Regional Managers", "IT Systems", "External Auditors"]
-  trigger: "Quarterly compliance review or regulatory change"
+  id: workflow_international_compliance
+  title: International Compliance Monitoring
+  department: Global Compliance
+  complexity: medium
+  participants:
+  - Compliance Officer
+  - Legal Counsel
+  - Regional Managers
+  - IT Systems
+  - External Auditors
+  trigger: Quarterly compliance review or regulatory change
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Review regulatory changes and update compliance requirements"
-      tools: ["Regulatory tracking databases", "Legal research platforms"]
-      duration: "2 weeks"
-      outputs: ["Regulatory update summary", "Compliance requirement changes"]
-    - step: 2
-      actor: "Regional Managers"
-      action: "Assess local compliance status and identify gaps"
-      decision_points: ["Training needs", "Process changes required"]
-      duration: "3 weeks"
-      outputs: ["Regional compliance assessments", "Gap analysis reports"]
-    - step: 3
-      actor: "IT Systems"
-      action: "Update monitoring systems and automated controls"
-      tools: ["Compliance software", "Audit logging systems"]
-      duration: "4 weeks"
-      outputs: ["System updates", "Control testing results"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Conduct legal review of compliance frameworks"
-      decision_points: ["Policy updates needed", "Contract amendments required"]
-      duration: "2 weeks"
-      outputs: ["Legal compliance review", "Policy recommendations"]
-    - step: 5
-      actor: "Compliance Officer"
-      action: "Develop remediation plans for identified issues"
-      tools: ["Risk management software", "Project planning tools"]
-      duration: "3 weeks"
-      outputs: ["Remediation action plans", "Implementation timelines"]
-    - step: 6
-      actor: "External Auditors"
-      action: "Validate compliance controls and provide assurance"
-      decision_points: ["Audit findings acceptance", "Corrective action requirements"]
-      duration: "4 weeks"
-      outputs: ["Audit reports", "Compliance certifications"]
-  success_criteria: "Achieve 95% compliance rate across all international operations"
-  failure_modes: ["Regulatory changes missed", "Inadequate training", "System implementation failures"]
+  - step: 1
+    actor: Compliance Officer
+    action: Review regulatory changes and update compliance requirements
+    tools:
+    - Regulatory tracking databases
+    - Legal research platforms
+    duration: 2 weeks
+    outputs:
+    - Regulatory update summary
+    - Compliance requirement changes
+  - step: 2
+    actor: Regional Managers
+    action: Assess local compliance status and identify gaps
+    decision_points:
+    - Training needs
+    - Process changes required
+    duration: 3 weeks
+    outputs:
+    - Regional compliance assessments
+    - Gap analysis reports
+  - step: 3
+    actor: IT Systems
+    action: Update monitoring systems and automated controls
+    tools:
+    - Compliance software
+    - Audit logging systems
+    duration: 4 weeks
+    outputs:
+    - System updates
+    - Control testing results
+  - step: 4
+    actor: Legal Counsel
+    action: Conduct legal review of compliance frameworks
+    decision_points:
+    - Policy updates needed
+    - Contract amendments required
+    duration: 2 weeks
+    outputs:
+    - Legal compliance review
+    - Policy recommendations
+  - step: 5
+    actor: Compliance Officer
+    action: Develop remediation plans for identified issues
+    tools:
+    - Risk management software
+    - Project planning tools
+    duration: 3 weeks
+    outputs:
+    - Remediation action plans
+    - Implementation timelines
+  - step: 6
+    actor: External Auditors
+    action: Validate compliance controls and provide assurance
+    decision_points:
+    - Audit findings acceptance
+    - Corrective action requirements
+    duration: 4 weeks
+    outputs:
+    - Audit reports
+    - Compliance certifications
+  success_criteria: Achieve 95% compliance rate across all international operations
+  failure_modes:
+  - Regulatory changes missed
+  - Inadequate training
+  - System implementation failures

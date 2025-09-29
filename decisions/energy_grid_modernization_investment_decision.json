@@ -3,8 +3,16 @@
   "context": "Major utility company facing aging infrastructure and increasing renewable energy integration demands, requiring significant capital investment in grid modernization",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Operating Officer", "Regulatory Affairs Director", "Environmental Sustainability Lead"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Operating Officer",
+      "Regulatory Affairs Director",
+      "Environmental Sustainability Lead"
+    ]
   },
   "request": {
     "amount": "$2.5 billion",
@@ -16,34 +24,64 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 months",
-      "activities": ["Infrastructure audit", "Technology vendor evaluation", "Regulatory impact analysis", "Financial modeling"],
+      "activities": [
+        "Infrastructure audit",
+        "Technology vendor evaluation",
+        "Regulatory impact analysis",
+        "Financial modeling"
+      ],
       "outcome": "Feasibility confirmed with projected 15% ROI over 20 years"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "2 months",
-      "activities": ["Board presentations", "Regulatory consultations", "Community stakeholder meetings", "Employee impact assessment"],
+      "activities": [
+        "Board presentations",
+        "Regulatory consultations",
+        "Community stakeholder meetings",
+        "Employee impact assessment"
+      ],
       "outcome": "Strong stakeholder support with regulatory approval secured"
     },
     {
       "stage": "funding_arrangement",
       "duration": "4 months",
-      "activities": ["Bond issuance planning", "Rate case filing", "Government grant applications", "Partnership negotiations"],
+      "activities": [
+        "Bond issuance planning",
+        "Rate case filing",
+        "Government grant applications",
+        "Partnership negotiations"
+      ],
       "outcome": "Funding secured through combination of bonds, rate increases, and federal grants"
     },
     {
       "stage": "final_approval",
       "duration": "1 month",
-      "activities": ["Board vote", "Regulatory final approval", "Contract execution"],
+      "activities": [
+        "Board vote",
+        "Regulatory final approval",
+        "Contract execution"
+      ],
       "outcome": "Approved with phased implementation over 5 years"
     }
   ],
   "business_impact": {
     "expected_outcome": "Improved grid reliability, reduced outage duration by 60%, enabled renewable energy growth",
     "projected_value": "$3.2 billion in benefits over 20 years",
-    "risk_factors": ["Technology integration challenges", "Regulatory delays", "Cost overruns", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory delays",
+      "Cost overruns",
+      "Cybersecurity vulnerabilities"
+    ]
   },
-  "decision_criteria": ["Financial viability (ROI >12%)", "Regulatory compliance", "Technical feasibility", "Stakeholder support", "Risk mitigation plan"],
+  "decision_criteria": [
+    "Financial viability (ROI >12%)",
+    "Regulatory compliance",
+    "Technical feasibility",
+    "Stakeholder support",
+    "Risk mitigation plan"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement critical for large infrastructure projects, comprehensive risk assessment essential for regulatory approval, phased implementation reduces execution risk"
 }

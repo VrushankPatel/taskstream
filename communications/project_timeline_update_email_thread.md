@@ -1,9 +1,9 @@
 # Email Thread: Q4 Product Development Timeline Update
 
-**From:** Sarah Chen, Product Manager  
-**To:** Engineering Team, Design Team, QA Team, Stakeholders  
-**Subject:** Q4 Product Launch - Timeline Adjustment Required  
-**Date:** September 28, 2025  
+**From:** Sarah Chen, Product Manager
+**To:** Engineering Team, Design Team, QA Team, Stakeholders
+**Subject:** Q4 Product Launch - Timeline Adjustment Required
+**Date:** September 28, 2025
 
 Team,
 
@@ -23,15 +23,15 @@ This adjustment prioritizes stability over speed. The additional time will allow
 
 Please review your team's capacity for the next 3 weeks and let me know if you need additional resources.
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Mike Rodriguez, Engineering Lead  
-**To:** Sarah Chen, Engineering Team  
-**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required  
-**Date:** September 28, 2025  
+**From:** Mike Rodriguez, Engineering Lead
+**To:** Sarah Chen, Engineering Team
+**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required
+**Date:** September 28, 2025
 
 Sarah,
 
@@ -43,10 +43,10 @@ Mike
 
 ---
 
-**From:** Lisa Park, QA Lead  
-**To:** Sarah Chen, QA Team, Engineering Team  
-**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required  
-**Date:** September 28, 2025  
+**From:** Lisa Park, QA Lead
+**To:** Sarah Chen, QA Team, Engineering Team
+**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required
+**Date:** September 28, 2025
 
 Agreed on the timeline extension. Our automated test coverage needs to reach 90% before beta, and we're currently at 75%. The additional weeks will be crucial for comprehensive regression testing.
 
@@ -56,10 +56,10 @@ Lisa
 
 ---
 
-**From:** David Kim, CEO  
-**To:** Sarah Chen, Leadership Team  
-**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required  
-**Date:** September 28, 2025  
+**From:** David Kim, CEO
+**To:** Sarah Chen, Leadership Team
+**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required
+**Date:** September 28, 2025
 
 Sarah,
 
@@ -71,10 +71,10 @@ David
 
 ---
 
-**From:** Sarah Chen, Product Manager  
-**To:** All Recipients  
-**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required  
-**Date:** September 29, 2025  
+**From:** Sarah Chen, Product Manager
+**To:** All Recipients
+**Subject:** Re: Q4 Product Launch - Timeline Adjustment Required
+**Date:** September 29, 2025
 
 Thanks everyone for the feedback and support. I've updated the project plan and will circulate it by EOD.
 
@@ -82,5 +82,5 @@ David - I'll draft customer communications emphasizing the quality improvements.
 
 Let's make these next 3 weeks count.
 
-Best,  
+Best,
 Sarah

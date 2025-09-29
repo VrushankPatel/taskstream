@@ -3,8 +3,15 @@
   "context": "Insurance company facing increasing claims volume and processing backlogs",
   "stakeholders": {
     "requester": "Claims Operations Director",
-    "approvers": ["Chief Operations Officer", "CFO"],
-    "influencers": ["IT Director", "Compliance Officer", "Customer Experience VP"]
+    "approvers": [
+      "Chief Operations Officer",
+      "CFO"
+    ],
+    "influencers": [
+      "IT Director",
+      "Compliance Officer",
+      "Customer Experience VP"
+    ]
   },
   "request": {
     "amount": "$20 million",
@@ -16,22 +23,39 @@
     {
       "stage": "vendor_evaluation",
       "duration": "6 weeks",
-      "activities": ["RFP process", "Vendor demonstrations", "Technical assessments"],
+      "activities": [
+        "RFP process",
+        "Vendor demonstrations",
+        "Technical assessments"
+      ],
       "outcome": "Shortlist of 3 vendors"
     },
     {
       "stage": "pilot_testing",
       "duration": "3 months",
-      "activities": ["Pilot implementation", "Performance monitoring", "User feedback"],
+      "activities": [
+        "Pilot implementation",
+        "Performance monitoring",
+        "User feedback"
+      ],
       "outcome": "Successful pilot, proceed to full implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "60% faster claims processing, 25% cost reduction",
     "projected_value": "$15 million annual savings",
-    "risk_factors": ["System integration challenges", "Staff training requirements", "Regulatory compliance"]
+    "risk_factors": [
+      "System integration challenges",
+      "Staff training requirements",
+      "Regulatory compliance"
+    ]
   },
-  "decision_criteria": ["Cost savings", "Processing efficiency", "Customer satisfaction", "Compliance requirements"],
+  "decision_criteria": [
+    "Cost savings",
+    "Processing efficiency",
+    "Customer satisfaction",
+    "Compliance requirements"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive pilot testing critical for complex system implementations"
 }

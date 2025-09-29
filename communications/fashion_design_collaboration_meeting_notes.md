@@ -1,15 +1,15 @@
 # Fashion Design Collaboration Meeting Notes
 
-**Date:** November 15, 2024  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Design Studio A, Milan Office  
-**Attendees:**  
-- Sofia Rossi, Creative Director  
-- Marco Bianchi, Senior Designer  
-- Elena Costa, Design Manager  
-- Giovanni Verdi, Technical Designer  
-- Lucia Moretti, Production Coordinator  
-- External: Anna Schmidt, Trend Forecaster (Guest)  
+**Date:** November 15, 2024
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Design Studio A, Milan Office
+**Attendees:**
+- Sofia Rossi, Creative Director
+- Marco Bianchi, Senior Designer
+- Elena Costa, Design Manager
+- Giovanni Verdi, Technical Designer
+- Lucia Moretti, Production Coordinator
+- External: Anna Schmidt, Trend Forecaster (Guest)
 
 **Meeting Objective:** Review Fall/Winter 2025 collection concepts and align on design direction for key pieces.
 

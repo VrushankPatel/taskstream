@@ -1,14 +1,14 @@
 # Meeting Notes: Q4 Menu Engineering and Pricing Strategy Review
 
-**Date:** November 8, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Conference Room B  
-**Attendees:**  
-- Executive Chef (Maria Rodriguez)  
-- Operations Manager (James Wilson)  
-- Financial Analyst (Lisa Chen)  
-- Marketing Director (Alex Thompson)  
-- Owner/CEO (Robert Davis)  
+**Date:** November 8, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Conference Room B
+**Attendees:**
+- Executive Chef (Maria Rodriguez)
+- Operations Manager (James Wilson)
+- Financial Analyst (Lisa Chen)
+- Marketing Director (Alex Thompson)
+- Owner/CEO (Robert Davis)
 
 ## Agenda
 1. Current menu performance analysis

@@ -116,6 +116,6 @@ Applies to all gene therapy research, development, and clinical activities condu
 - Adverse Event Reporting Procedures
 - Patient Education Materials
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** September 28, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** September 28, 2025
 **Approved By:** Board of Directors, Ethics Committee

@@ -13,7 +13,7 @@ The Retail Asia Operations team manages supply chain, logistics, and store opera
 
 ### Regional Directors
 - **Greater China Regional Director**
-- **Japan Regional Director**  
+- **Japan Regional Director**
 - **Korea Regional Director**
 - **Southeast Asia Regional Director**
 

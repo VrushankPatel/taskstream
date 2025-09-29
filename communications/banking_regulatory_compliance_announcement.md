@@ -1,8 +1,8 @@
 ## Email Thread: Banking Regulatory Compliance Update
 
-**From:** Chief Compliance Officer  
-**To:** Executive Leadership Team, Department Heads  
-**Subject:** Important Update: Enhanced Regulatory Compliance Requirements  
+**From:** Chief Compliance Officer
+**To:** Executive Leadership Team, Department Heads
+**Subject:** Important Update: Enhanced Regulatory Compliance Requirements
 
 Team,
 
@@ -20,18 +20,18 @@ We've allocated $2.5M to upgrade our compliance systems and hired 15 additional 
 
 Please ensure your departments are prepared for the increased documentation requirements. Training sessions will be scheduled next week.
 
-Best regards,  
-Sarah Johnson  
-Chief Compliance Officer  
-First National Bank  
-sarah.johnson@fnb.com  
-(555) 123-4567  
+Best regards,
+Sarah Johnson
+Chief Compliance Officer
+First National Bank
+sarah.johnson@fnb.com
+(555) 123-4567
 
 ---
 
-**From:** CEO  
-**To:** Chief Compliance Officer, Executive Leadership Team  
-**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements  
+**From:** CEO
+**To:** Chief Compliance Officer, Executive Leadership Team
+**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements
 
 Sarah,
 
@@ -41,16 +41,16 @@ Can you provide more details on the timeline for system upgrades and any potenti
 
 Also, please coordinate with HR to ensure the new compliance hires are onboarded efficiently.
 
-Regards,  
-Michael Chen  
-CEO  
-First National Bank  
+Regards,
+Michael Chen
+CEO
+First National Bank
 
 ---
 
-**From:** Chief Compliance Officer  
-**To:** CEO, Executive Leadership Team  
-**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements  
+**From:** Chief Compliance Officer
+**To:** CEO, Executive Leadership Team
+**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements
 
 Michael,
 
@@ -60,14 +60,14 @@ HR has been notified and we're targeting February 15th for the new hires to star
 
 I'll send a detailed implementation plan by end of day.
 
-Best,  
-Sarah  
+Best,
+Sarah
 
 ---
 
-**From:** CFO  
-**To:** Chief Compliance Officer, CEO  
-**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements  
+**From:** CFO
+**To:** Chief Compliance Officer, CEO
+**Subject:** Re: Important Update: Enhanced Regulatory Compliance Requirements
 
 Sarah, Michael,
 
@@ -75,6 +75,6 @@ The $500K Q1 impact is acceptable given the long-term benefits. Please ensure we
 
 Also, can we leverage some of these compliance enhancements for our upcoming audit preparations?
 
-Thanks,  
-Jennifer Liu  
+Thanks,
+Jennifer Liu
 CFO

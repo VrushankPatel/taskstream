@@ -1,9 +1,9 @@
 ## Meeting Notes: Government Partnership Announcement
 
-**Meeting Title:** National Education Technology Partnership Launch  
-**Date:** September 27, 2025  
-**Location:** Ministry of Education Conference Room  
-**Attendees:** Minister of Education (Dr. Robert Kim), University President (Dr. Amanda Foster), Chief Technology Officer (James Wilson), Partnership Director (Lisa Chen), Communications Director (Michael Torres), Government Relations Lead (Dr. Sarah Johnson)  
+**Meeting Title:** National Education Technology Partnership Launch
+**Date:** September 27, 2025
+**Location:** Ministry of Education Conference Room
+**Attendees:** Minister of Education (Dr. Robert Kim), University President (Dr. Amanda Foster), Chief Technology Officer (James Wilson), Partnership Director (Lisa Chen), Communications Director (Michael Torres), Government Relations Lead (Dr. Sarah Johnson)
 
 ### Agenda Items
 

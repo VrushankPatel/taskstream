@@ -1,51 +1,90 @@
 workflow:
-  id: "workflow_agriculture_climate_resilient_farming"
-  title: "Climate-Resilient Farming Implementation"
-  department: "Agriculture Operations"
-  complexity: "complex"
-  participants: ["Climate Adaptation Specialist", "Farm Manager", "Agronomist", "Meteorologist", "Insurance Coordinator"]
-  trigger: "Increasing frequency of extreme weather events requiring adaptation strategies"
+  id: workflow_agriculture_climate_resilient_farming
+  title: Climate-Resilient Farming Implementation
+  department: Agriculture Operations
+  complexity: complex
+  participants:
+  - Climate Adaptation Specialist
+  - Farm Manager
+  - Agronomist
+  - Meteorologist
+  - Insurance Coordinator
+  trigger: Increasing frequency of extreme weather events requiring adaptation strategies
   steps:
-    - step: 1
-      actor: "Climate Adaptation Specialist"
-      action: "Assess climate risks and vulnerability analysis for farm operations"
-      tools: ["Climate modeling software", "Historical weather data", "Risk assessment frameworks"]
-      duration: "4 weeks"
-      outputs: ["Climate vulnerability report", "Risk mitigation priorities"]
-    - step: 2
-      actor: "Meteorologist"
-      action: "Develop weather monitoring and forecasting systems for precision agriculture"
-      tools: ["Weather station networks", "Predictive analytics platforms", "Alert systems"]
-      duration: "6 weeks"
-      outputs: ["Weather monitoring infrastructure", "Forecasting protocols"]
-    - step: 3
-      actor: "Agronomist"
-      action: "Design diversified cropping systems and resilient crop varieties"
-      tools: ["Genetic databases", "Crop modeling software", "Field trial planning"]
-      duration: "8 weeks"
-      outputs: ["Crop diversification plan", "Resilient variety recommendations"]
-    - step: 4
-      actor: "Farm Manager"
-      action: "Implement irrigation and water management systems for drought resilience"
-      tools: ["Irrigation design software", "Water monitoring sensors", "Conservation planning tools"]
-      duration: "10 weeks"
-      outputs: ["Water management infrastructure", "Conservation implementation plan"]
-    - step: 5
-      actor: "Insurance Coordinator"
-      action: "Develop comprehensive risk management and insurance strategies"
-      tools: ["Insurance product databases", "Risk modeling software", "Contract templates"]
-      duration: "4 weeks"
-      outputs: ["Risk management portfolio", "Insurance coverage recommendations"]
-    - step: 6
-      actor: "Climate Adaptation Specialist"
-      action: "Monitor implementation effectiveness and adapt strategies based on results"
-      tools: ["Performance monitoring dashboards", "Adaptive management frameworks", "Feedback collection systems"]
-      duration: "Ongoing"
-      outputs: ["Adaptation effectiveness reports", "Strategy refinement recommendations"]
-  success_criteria: "30% reduction in weather-related yield losses while maintaining profitability"
-  failure_modes: ["Insufficient funding for implementation", "Technology adoption barriers", "Inadequate monitoring and adaptation"]
+  - step: 1
+    actor: Climate Adaptation Specialist
+    action: Assess climate risks and vulnerability analysis for farm operations
+    tools:
+    - Climate modeling software
+    - Historical weather data
+    - Risk assessment frameworks
+    duration: 4 weeks
+    outputs:
+    - Climate vulnerability report
+    - Risk mitigation priorities
+  - step: 2
+    actor: Meteorologist
+    action: Develop weather monitoring and forecasting systems for precision agriculture
+    tools:
+    - Weather station networks
+    - Predictive analytics platforms
+    - Alert systems
+    duration: 6 weeks
+    outputs:
+    - Weather monitoring infrastructure
+    - Forecasting protocols
+  - step: 3
+    actor: Agronomist
+    action: Design diversified cropping systems and resilient crop varieties
+    tools:
+    - Genetic databases
+    - Crop modeling software
+    - Field trial planning
+    duration: 8 weeks
+    outputs:
+    - Crop diversification plan
+    - Resilient variety recommendations
+  - step: 4
+    actor: Farm Manager
+    action: Implement irrigation and water management systems for drought resilience
+    tools:
+    - Irrigation design software
+    - Water monitoring sensors
+    - Conservation planning tools
+    duration: 10 weeks
+    outputs:
+    - Water management infrastructure
+    - Conservation implementation plan
+  - step: 5
+    actor: Insurance Coordinator
+    action: Develop comprehensive risk management and insurance strategies
+    tools:
+    - Insurance product databases
+    - Risk modeling software
+    - Contract templates
+    duration: 4 weeks
+    outputs:
+    - Risk management portfolio
+    - Insurance coverage recommendations
+  - step: 6
+    actor: Climate Adaptation Specialist
+    action: Monitor implementation effectiveness and adapt strategies based on results
+    tools:
+    - Performance monitoring dashboards
+    - Adaptive management frameworks
+    - Feedback collection systems
+    duration: Ongoing
+    outputs:
+    - Adaptation effectiveness reports
+    - Strategy refinement recommendations
+  success_criteria: 30% reduction in weather-related yield losses while maintaining
+    profitability
+  failure_modes:
+  - Insufficient funding for implementation
+  - Technology adoption barriers
+  - Inadequate monitoring and adaptation
   metrics:
-    - "Yield stability: Maintain 90% of average yields during extreme weather events"
-    - "Water efficiency: 25% reduction in irrigation water usage"
-    - "Insurance coverage: 80% of climate risks adequately insured"
-    - "Adaptation ROI: Positive return on climate resilience investments within 3 years"
+  - 'Yield stability: Maintain 90% of average yields during extreme weather events'
+  - 'Water efficiency: 25% reduction in irrigation water usage'
+  - 'Insurance coverage: 80% of climate risks adequately insured'
+  - 'Adaptation ROI: Positive return on climate resilience investments within 3 years'

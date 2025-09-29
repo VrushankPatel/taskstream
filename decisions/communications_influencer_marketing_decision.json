@@ -3,8 +3,15 @@
   "context": "Global consumer brand (500 employees) seeking to expand digital marketing reach in competitive Gen Z market",
   "stakeholders": {
     "requester": "VP of Marketing",
-    "approvers": ["CMO", "CEO"],
-    "influencers": ["Social Media Manager", "Brand Manager", "Legal Counsel"]
+    "approvers": [
+      "CMO",
+      "CEO"
+    ],
+    "influencers": [
+      "Social Media Manager",
+      "Brand Manager",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$2,000,000",
@@ -16,31 +23,55 @@
     {
       "stage": "market_research",
       "duration": "4 weeks",
-      "activities": ["Audience analysis", "Competitor influencer strategies review", "Platform performance benchmarking"],
+      "activities": [
+        "Audience analysis",
+        "Competitor influencer strategies review",
+        "Platform performance benchmarking"
+      ],
       "outcome": "Identified Instagram and TikTok as primary platforms with micro-influencers showing highest engagement"
     },
     {
       "stage": "program_design",
       "duration": "3 weeks",
-      "activities": ["Content strategy development", "Influencer selection criteria", "Campaign structure planning"],
+      "activities": [
+        "Content strategy development",
+        "Influencer selection criteria",
+        "Campaign structure planning"
+      ],
       "outcome": "Hybrid program with 60% micro-influencers, 30% mid-tier, 10% celebrity partnerships"
     },
     {
       "stage": "legal_compliance_review",
       "duration": "2 weeks",
-      "activities": ["FTC disclosure requirements review", "Contract template development", "Risk assessment"],
+      "activities": [
+        "FTC disclosure requirements review",
+        "Contract template development",
+        "Risk assessment"
+      ],
       "outcome": "Comprehensive compliance framework with automated disclosure tracking"
     },
     {
       "stage": "budget_allocation",
       "duration": "1 week",
-      "activities": ["Cost-benefit analysis", "Performance metric definition", "ROI projections"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Performance metric definition",
+        "ROI projections"
+      ],
       "outcome": "Approved with phased rollout and quarterly performance reviews"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["25% increase in brand awareness", "40% improvement in social engagement", "Higher conversion rates from younger demographics"],
+    "expected_benefits": [
+      "25% increase in brand awareness",
+      "40% improvement in social engagement",
+      "Higher conversion rates from younger demographics"
+    ],
     "projected_roi": "180% over 2 years",
-    "risk_factors": ["Influencer authenticity concerns", "Platform algorithm changes", "Negative publicity from poor partnerships"]
+    "risk_factors": [
+      "Influencer authenticity concerns",
+      "Platform algorithm changes",
+      "Negative publicity from poor partnerships"
+    ]
   }
 }

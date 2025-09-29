@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_co_living_management"
-  title: "Co-Living Community Management and Operations"
-  department: "Community Management"
-  complexity: "medium"
-  participants: ["Community Manager", "Resident Services Coordinator", "Maintenance Supervisor", "Marketing Coordinator", "Financial Operations Lead"]
-  trigger: "New co-living property acquisition or community launch"
+  id: workflow_co_living_management
+  title: Co-Living Community Management and Operations
+  department: Community Management
+  complexity: medium
+  participants:
+  - Community Manager
+  - Resident Services Coordinator
+  - Maintenance Supervisor
+  - Marketing Coordinator
+  - Financial Operations Lead
+  trigger: New co-living property acquisition or community launch
   steps:
-    - step: 1
-      actor: "Community Manager"
-      action: "Establish community culture and operational standards"
-      tools: ["Community Guidelines Template", "Operations Manual"]
-      duration: "1-2 months"
-      outputs: ["Community Handbook", "Operational Standards Document"]
-    - step: 2
-      actor: "Resident Services Coordinator"
-      action: "Develop resident onboarding and support processes"
-      decision_points: ["Community events schedule?", "Support service levels?", "Move-in procedures?"]
-      duration: "2-4 weeks"
-      outputs: ["Onboarding Process", "Resident Support Framework"]
-    - step: 3
-      actor: "Maintenance Supervisor"
-      action: "Implement maintenance protocols and vendor management"
-      tools: ["Maintenance Management System", "Vendor Database"]
-      duration: "1-2 months"
-      outputs: ["Maintenance Protocols", "Vendor Management Plan"]
-    - step: 4
-      actor: "Marketing Coordinator"
-      action: "Develop community engagement and retention strategies"
-      tools: ["Community Platform", "Marketing Automation Tools"]
-      duration: "1 month"
-      outputs: ["Engagement Strategy", "Retention Program"]
-    - step: 5
-      actor: "Financial Operations Lead"
-      action: "Establish billing systems and financial management"
-      tools: ["Property Management Software", "Financial Reporting System"]
-      duration: "2-4 weeks"
-      outputs: ["Billing Procedures", "Financial Management Framework"]
-  success_criteria: "Thriving co-living community with high resident satisfaction, low turnover, efficient operations"
-  failure_modes: ["Poor community culture fit", "Maintenance response delays", "Financial management issues"]
+  - step: 1
+    actor: Community Manager
+    action: Establish community culture and operational standards
+    tools:
+    - Community Guidelines Template
+    - Operations Manual
+    duration: 1-2 months
+    outputs:
+    - Community Handbook
+    - Operational Standards Document
+  - step: 2
+    actor: Resident Services Coordinator
+    action: Develop resident onboarding and support processes
+    decision_points:
+    - Community events schedule?
+    - Support service levels?
+    - Move-in procedures?
+    duration: 2-4 weeks
+    outputs:
+    - Onboarding Process
+    - Resident Support Framework
+  - step: 3
+    actor: Maintenance Supervisor
+    action: Implement maintenance protocols and vendor management
+    tools:
+    - Maintenance Management System
+    - Vendor Database
+    duration: 1-2 months
+    outputs:
+    - Maintenance Protocols
+    - Vendor Management Plan
+  - step: 4
+    actor: Marketing Coordinator
+    action: Develop community engagement and retention strategies
+    tools:
+    - Community Platform
+    - Marketing Automation Tools
+    duration: 1 month
+    outputs:
+    - Engagement Strategy
+    - Retention Program
+  - step: 5
+    actor: Financial Operations Lead
+    action: Establish billing systems and financial management
+    tools:
+    - Property Management Software
+    - Financial Reporting System
+    duration: 2-4 weeks
+    outputs:
+    - Billing Procedures
+    - Financial Management Framework
+  success_criteria: Thriving co-living community with high resident satisfaction,
+    low turnover, efficient operations
+  failure_modes:
+  - Poor community culture fit
+  - Maintenance response delays
+  - Financial management issues

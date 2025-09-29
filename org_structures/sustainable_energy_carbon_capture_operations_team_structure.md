@@ -3,10 +3,10 @@
 ## Overview
 The Carbon Capture Operations Team manages the full lifecycle of carbon capture, utilization, and storage (CCUS) projects, from technology deployment through long-term operations and monitoring. This team operates within our clean energy division and focuses on industrial-scale decarbonization solutions.
 
-**Team Size:** 120 members  
-**Reporting Structure:** Reports to Chief Sustainability Officer  
-**Budget:** $85 million annually  
-**Location:** Headquarters with field operations at capture sites  
+**Team Size:** 120 members
+**Reporting Structure:** Reports to Chief Sustainability Officer
+**Budget:** $85 million annually
+**Location:** Headquarters with field operations at capture sites
 
 ## Leadership Structure
 

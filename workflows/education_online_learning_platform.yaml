@@ -1,46 +1,72 @@
 workflow:
-  id: "workflow_education_online_learning"
-  title: "Online Learning Platform Course Development"
-  department: "Academic Technology"
-  complexity: "high"
-  participants: ["Course Instructor", "Instructional Designer", "IT Support", "Quality Assurance Reviewer", "Student Success Coordinator"]
-  trigger: "New course development request or existing course update needed"
+  id: workflow_education_online_learning
+  title: Online Learning Platform Course Development
+  department: Academic Technology
+  complexity: high
+  participants:
+  - Course Instructor
+  - Instructional Designer
+  - IT Support
+  - Quality Assurance Reviewer
+  - Student Success Coordinator
+  trigger: New course development request or existing course update needed
   steps:
-    - step: 1
-      actor: "Course Instructor"
-      action: "Define learning objectives and course structure"
-      tools: ["Course Management System", "Learning Objective Templates"]
-      duration: "4 hours"
-      outputs: ["Course Outline"]
-    - step: 2
-      actor: "Instructional Designer"
-      action: "Design interactive content and assessment strategies"
-      tools: ["Content Authoring Tools", "Multimedia Software"]
-      duration: "8 hours"
-      outputs: ["Content Design Document"]
-    - step: 3
-      actor: "IT Support"
-      action: "Set up course shell and integrate multimedia elements"
-      tools: ["LMS Platform", "Video Hosting Services"]
-      duration: "2 hours"
-      outputs: ["Technical Setup Report"]
-    - step: 4
-      actor: "Course Instructor"
-      action: "Create and upload course materials"
-      tools: ["Content Management System"]
-      duration: "10 hours"
-      outputs: ["Course Content"]
-    - step: 5
-      actor: "Quality Assurance Reviewer"
-      action: "Review course for accessibility and quality standards"
-      tools: ["Accessibility Checkers", "QA Checklist"]
-      duration: "3 hours"
-      outputs: ["QA Report"]
-    - step: 6
-      actor: "Student Success Coordinator"
-      action: "Set up student support resources and monitoring"
-      tools: ["Student Tracking System"]
-      duration: "1 hour"
-      outputs: ["Support Resources Setup"]
-  success_criteria: "Engaging, accessible course launched successfully with positive student feedback"
-  failure_modes: ["Technical integration issues", "Content quality problems", "Accessibility compliance failures", "Timeline overruns"]
+  - step: 1
+    actor: Course Instructor
+    action: Define learning objectives and course structure
+    tools:
+    - Course Management System
+    - Learning Objective Templates
+    duration: 4 hours
+    outputs:
+    - Course Outline
+  - step: 2
+    actor: Instructional Designer
+    action: Design interactive content and assessment strategies
+    tools:
+    - Content Authoring Tools
+    - Multimedia Software
+    duration: 8 hours
+    outputs:
+    - Content Design Document
+  - step: 3
+    actor: IT Support
+    action: Set up course shell and integrate multimedia elements
+    tools:
+    - LMS Platform
+    - Video Hosting Services
+    duration: 2 hours
+    outputs:
+    - Technical Setup Report
+  - step: 4
+    actor: Course Instructor
+    action: Create and upload course materials
+    tools:
+    - Content Management System
+    duration: 10 hours
+    outputs:
+    - Course Content
+  - step: 5
+    actor: Quality Assurance Reviewer
+    action: Review course for accessibility and quality standards
+    tools:
+    - Accessibility Checkers
+    - QA Checklist
+    duration: 3 hours
+    outputs:
+    - QA Report
+  - step: 6
+    actor: Student Success Coordinator
+    action: Set up student support resources and monitoring
+    tools:
+    - Student Tracking System
+    duration: 1 hour
+    outputs:
+    - Support Resources Setup
+  success_criteria: Engaging, accessible course launched successfully with positive
+    student feedback
+  failure_modes:
+  - Technical integration issues
+  - Content quality problems
+  - Accessibility compliance failures
+  - Timeline overruns

@@ -1,10 +1,10 @@
 # AI Ethics Training Program Enterprise Rollout Announcement
 
-**From:** Chief AI Ethics Officer  
-**To:** All Employees, AI Development Teams, Executive Leadership  
-**Subject:** Mandatory AI Ethics Training Program Launch - Building Responsible AI Culture  
+**From:** Chief AI Ethics Officer
+**To:** All Employees, AI Development Teams, Executive Leadership
+**Subject:** Mandatory AI Ethics Training Program Launch - Building Responsible AI Culture
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -98,6 +98,6 @@ For technical support with the learning platform, contact the IT Help Desk. For 
 
 This training program is a cornerstone of our responsible AI strategy. By investing in ethics education, we ensure that every decision we make with AI technology benefits humanity and upholds our values.
 
-Best regards,  
-[Chief AI Ethics Officer Name]  
+Best regards,
+[Chief AI Ethics Officer Name]
 Chief AI Ethics Officer

@@ -1,46 +1,85 @@
 workflow:
-  id: "pharma_drug_dev_acceleration"
-  title: "Drug Development Acceleration Process"
-  department: "Research & Development"
-  complexity: "high"
-  participants: ["Chief Scientific Officer", "Clinical Operations Director", "Regulatory Affairs Lead", "Data Science Team", "Manufacturing Lead", "Quality Assurance"]
-  trigger: "New molecular entity identified with therapeutic potential"
+  id: pharma_drug_dev_acceleration
+  title: Drug Development Acceleration Process
+  department: Research & Development
+  complexity: high
+  participants:
+  - Chief Scientific Officer
+  - Clinical Operations Director
+  - Regulatory Affairs Lead
+  - Data Science Team
+  - Manufacturing Lead
+  - Quality Assurance
+  trigger: New molecular entity identified with therapeutic potential
   steps:
-    - step: 1
-      actor: "Chief Scientific Officer"
-      action: "Evaluate target validation and initial compound screening results"
-      tools: ["High-throughput screening systems", "Molecular modeling software", "Literature databases"]
-      duration: "4 weeks"
-      outputs: ["Go/no-go decision", "Initial development roadmap"]
-    - step: 2
-      actor: "Data Science Team"
-      action: "Apply AI/ML models for lead optimization and ADMET prediction"
-      tools: ["Computational chemistry platforms", "Machine learning algorithms", "QSAR models"]
-      duration: "8 weeks"
-      outputs: ["Optimized lead compounds", "Predictive safety profiles"]
-    - step: 3
-      actor: "Clinical Operations Director"
-      action: "Design accelerated clinical development plan with adaptive trial protocols"
-      tools: ["Clinical trial management systems", "Regulatory guidance databases", "Statistical analysis software"]
-      duration: "6 weeks"
-      outputs: ["Phase 1-3 trial protocols", "Adaptive design frameworks"]
-    - step: 4
-      actor: "Regulatory Affairs Lead"
-      action: "Prepare and submit IND application with accelerated approval pathway"
-      tools: ["Regulatory submission software", "FDA/EMA guidance documents", "Fast Track/Breakthrough Therapy applications"]
-      duration: "12 weeks"
-      outputs: ["IND submission package", "Regulatory meeting requests"]
-    - step: 5
-      actor: "Manufacturing Lead"
-      action: "Develop scalable manufacturing process with continuous improvement"
-      tools: ["Process development labs", "Quality by design software", "Supply chain optimization tools"]
-      duration: "16 weeks"
-      outputs: ["GMP manufacturing protocols", "Scale-up validation data"]
-    - step: 6
-      actor: "Quality Assurance"
-      action: "Conduct integrated quality oversight throughout development lifecycle"
-      tools: ["Quality management systems", "Risk assessment frameworks", "Audit trail software"]
-      duration: "Ongoing"
-      outputs: ["Quality control specifications", "Regulatory compliance documentation"]
-  success_criteria: "FDA approval achieved within 5 years from target identification"
-  failure_modes: ["Safety signals in preclinical studies", "Manufacturing scalability issues", "Regulatory pathway rejection"]
+  - step: 1
+    actor: Chief Scientific Officer
+    action: Evaluate target validation and initial compound screening results
+    tools:
+    - High-throughput screening systems
+    - Molecular modeling software
+    - Literature databases
+    duration: 4 weeks
+    outputs:
+    - Go/no-go decision
+    - Initial development roadmap
+  - step: 2
+    actor: Data Science Team
+    action: Apply AI/ML models for lead optimization and ADMET prediction
+    tools:
+    - Computational chemistry platforms
+    - Machine learning algorithms
+    - QSAR models
+    duration: 8 weeks
+    outputs:
+    - Optimized lead compounds
+    - Predictive safety profiles
+  - step: 3
+    actor: Clinical Operations Director
+    action: Design accelerated clinical development plan with adaptive trial protocols
+    tools:
+    - Clinical trial management systems
+    - Regulatory guidance databases
+    - Statistical analysis software
+    duration: 6 weeks
+    outputs:
+    - Phase 1-3 trial protocols
+    - Adaptive design frameworks
+  - step: 4
+    actor: Regulatory Affairs Lead
+    action: Prepare and submit IND application with accelerated approval pathway
+    tools:
+    - Regulatory submission software
+    - FDA/EMA guidance documents
+    - Fast Track/Breakthrough Therapy applications
+    duration: 12 weeks
+    outputs:
+    - IND submission package
+    - Regulatory meeting requests
+  - step: 5
+    actor: Manufacturing Lead
+    action: Develop scalable manufacturing process with continuous improvement
+    tools:
+    - Process development labs
+    - Quality by design software
+    - Supply chain optimization tools
+    duration: 16 weeks
+    outputs:
+    - GMP manufacturing protocols
+    - Scale-up validation data
+  - step: 6
+    actor: Quality Assurance
+    action: Conduct integrated quality oversight throughout development lifecycle
+    tools:
+    - Quality management systems
+    - Risk assessment frameworks
+    - Audit trail software
+    duration: Ongoing
+    outputs:
+    - Quality control specifications
+    - Regulatory compliance documentation
+  success_criteria: FDA approval achieved within 5 years from target identification
+  failure_modes:
+  - Safety signals in preclinical studies
+  - Manufacturing scalability issues
+  - Regulatory pathway rejection

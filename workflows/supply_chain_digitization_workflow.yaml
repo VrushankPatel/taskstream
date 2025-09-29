@@ -1,40 +1,64 @@
 workflow:
-  id: "workflow_supply_chain_digitization"
-  title: "Supply Chain Digitization and Integration"
-  department: "Supply Chain Operations"
-  complexity: "high"
-  participants: ["Supply Chain Manager", "IT Integration Team", "Vendor Relations", "Quality Control", "Procurement Team"]
-  trigger: "New supplier onboarding or system upgrade"
+  id: workflow_supply_chain_digitization
+  title: Supply Chain Digitization and Integration
+  department: Supply Chain Operations
+  complexity: high
+  participants:
+  - Supply Chain Manager
+  - IT Integration Team
+  - Vendor Relations
+  - Quality Control
+  - Procurement Team
+  trigger: New supplier onboarding or system upgrade
   steps:
-    - step: 1
-      actor: "Procurement Team"
-      action: "Assess supplier digital capabilities and data exchange requirements"
-      tools: ["Supplier Assessment Questionnaire", "EDI Standards Documentation"]
-      duration: "1-2 weeks"
-      outputs: ["Digital readiness report"]
-    - step: 2
-      actor: "IT Integration Team"
-      action: "Configure API connections and data mapping for supplier systems"
-      decision_points: ["API availability", "Data format compatibility"]
-      duration: "2-4 weeks"
-      outputs: ["Integration specifications"]
-    - step: 3
-      actor: "Supply Chain Manager"
-      action: "Conduct pilot testing with selected suppliers and validate data flow"
-      tools: ["Integration Testing Environment", "Data Validation Scripts"]
-      duration: "1 week"
-      outputs: ["Pilot test results"]
-    - step: 4
-      actor: "Vendor Relations"
-      action: "Train suppliers on new digital processes and establish support channels"
-      tools: ["Training Materials", "Support Documentation"]
-      duration: "Ongoing"
-      outputs: ["Supplier training completion"]
-    - step: 5
-      actor: "Quality Control"
-      action: "Monitor digitized supply chain performance and implement continuous improvement"
-      tools: ["Supply Chain Analytics Dashboard", "Performance KPIs"]
-      duration: "Monthly"
-      outputs: ["Performance reports", "Improvement initiatives"]
-  success_criteria: "95% suppliers digitized, 30% reduction in manual processing time"
-  failure_modes: ["Supplier resistance to digitization", "Data integration errors", "Lack of standardization"]
+  - step: 1
+    actor: Procurement Team
+    action: Assess supplier digital capabilities and data exchange requirements
+    tools:
+    - Supplier Assessment Questionnaire
+    - EDI Standards Documentation
+    duration: 1-2 weeks
+    outputs:
+    - Digital readiness report
+  - step: 2
+    actor: IT Integration Team
+    action: Configure API connections and data mapping for supplier systems
+    decision_points:
+    - API availability
+    - Data format compatibility
+    duration: 2-4 weeks
+    outputs:
+    - Integration specifications
+  - step: 3
+    actor: Supply Chain Manager
+    action: Conduct pilot testing with selected suppliers and validate data flow
+    tools:
+    - Integration Testing Environment
+    - Data Validation Scripts
+    duration: 1 week
+    outputs:
+    - Pilot test results
+  - step: 4
+    actor: Vendor Relations
+    action: Train suppliers on new digital processes and establish support channels
+    tools:
+    - Training Materials
+    - Support Documentation
+    duration: Ongoing
+    outputs:
+    - Supplier training completion
+  - step: 5
+    actor: Quality Control
+    action: Monitor digitized supply chain performance and implement continuous improvement
+    tools:
+    - Supply Chain Analytics Dashboard
+    - Performance KPIs
+    duration: Monthly
+    outputs:
+    - Performance reports
+    - Improvement initiatives
+  success_criteria: 95% suppliers digitized, 30% reduction in manual processing time
+  failure_modes:
+  - Supplier resistance to digitization
+  - Data integration errors
+  - Lack of standardization

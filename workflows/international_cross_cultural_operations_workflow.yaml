@@ -1,58 +1,121 @@
 workflow:
-  id: "workflow_international_cross_cultural_operations"
-  title: "International Cross-Cultural Operations Management"
-  department: "Global Operations"
-  complexity: "complex"
-  participants: ["Global Operations Director", "Regional Managers", "HR Business Partners", "Legal Counsel", "Cultural Intelligence Specialist", "Communications Manager"]
-  trigger: "Expansion into new international markets requiring cross-cultural operational framework"
+  id: workflow_international_cross_cultural_operations
+  title: International Cross-Cultural Operations Management
+  department: Global Operations
+  complexity: complex
+  participants:
+  - Global Operations Director
+  - Regional Managers
+  - HR Business Partners
+  - Legal Counsel
+  - Cultural Intelligence Specialist
+  - Communications Manager
+  trigger: Expansion into new international markets requiring cross-cultural operational
+    framework
   steps:
-    - step: 1
-      actor: "Global Operations Director"
-      action: "Conduct cultural assessment of target markets including business practices, communication styles, and regulatory environments"
-      tools: ["Cultural assessment frameworks", "Market research databases", "Local consultant networks"]
-      duration: "8 weeks"
-      outputs: ["Cultural assessment report", "Market entry strategy", "Risk assessment matrix"]
-    - step: 2
-      actor: "HR Business Partners"
-      action: "Develop cross-cultural training programs for employees and establish diversity, equity, and inclusion policies"
-      tools: ["Cultural training platforms", "DEI assessment tools", "Policy development frameworks"]
-      duration: "6 weeks"
-      outputs: ["Cultural training curriculum", "DEI policies", "Employee development plans"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Navigate international legal requirements including employment laws, data privacy regulations, and business licensing"
-      tools: ["International legal databases", "Regulatory compliance platforms", "Local legal partnerships"]
-      duration: "10 weeks"
-      outputs: ["Legal compliance framework", "Regulatory approval documentation", "Contract templates"]
-    - step: 4
-      actor: "Regional Managers"
-      action: "Establish local operations including office setup, hiring processes, and stakeholder relationship building"
-      tools: ["Office setup checklists", "Local hiring platforms", "Stakeholder mapping tools"]
-      duration: "12 weeks"
-      outputs: ["Local operations setup", "Hiring procedures", "Stakeholder relationship plans"]
-    - step: 5
-      actor: "Cultural Intelligence Specialist"
-      action: "Implement communication protocols and conflict resolution frameworks adapted to local cultural contexts"
-      tools: ["Cross-cultural communication guides", "Conflict resolution frameworks", "Cultural intelligence assessments"]
-      duration: "6 weeks"
-      outputs: ["Communication protocols", "Conflict resolution procedures", "Cultural adaptation guidelines"]
-    - step: 6
-      actor: "Communications Manager"
-      action: "Develop internal and external communication strategies for international expansion and cultural integration"
-      tools: ["Multilingual communication platforms", "Stakeholder engagement tools", "Brand localization frameworks"]
-      duration: "4 weeks"
-      outputs: ["Communication strategy", "Multilingual content library", "Stakeholder engagement plan"]
-    - step: 7
-      actor: "Global Operations Director"
-      action: "Monitor cross-cultural integration progress, measure performance, and implement continuous improvement initiatives"
-      tools: ["Performance monitoring dashboards", "Cultural integration metrics", "Feedback collection systems"]
-      duration: "Ongoing"
-      outputs: ["Integration progress reports", "Performance metrics", "Improvement recommendations"]
-  success_criteria: "Successful establishment of international operations with positive employee engagement scores, regulatory compliance, and market penetration targets met"
-  failure_modes: ["Cultural misunderstandings", "Regulatory compliance failures", "Communication breakdowns", "Local market resistance", "Resource allocation issues"]
+  - step: 1
+    actor: Global Operations Director
+    action: Conduct cultural assessment of target markets including business practices,
+      communication styles, and regulatory environments
+    tools:
+    - Cultural assessment frameworks
+    - Market research databases
+    - Local consultant networks
+    duration: 8 weeks
+    outputs:
+    - Cultural assessment report
+    - Market entry strategy
+    - Risk assessment matrix
+  - step: 2
+    actor: HR Business Partners
+    action: Develop cross-cultural training programs for employees and establish diversity,
+      equity, and inclusion policies
+    tools:
+    - Cultural training platforms
+    - DEI assessment tools
+    - Policy development frameworks
+    duration: 6 weeks
+    outputs:
+    - Cultural training curriculum
+    - DEI policies
+    - Employee development plans
+  - step: 3
+    actor: Legal Counsel
+    action: Navigate international legal requirements including employment laws, data
+      privacy regulations, and business licensing
+    tools:
+    - International legal databases
+    - Regulatory compliance platforms
+    - Local legal partnerships
+    duration: 10 weeks
+    outputs:
+    - Legal compliance framework
+    - Regulatory approval documentation
+    - Contract templates
+  - step: 4
+    actor: Regional Managers
+    action: Establish local operations including office setup, hiring processes, and
+      stakeholder relationship building
+    tools:
+    - Office setup checklists
+    - Local hiring platforms
+    - Stakeholder mapping tools
+    duration: 12 weeks
+    outputs:
+    - Local operations setup
+    - Hiring procedures
+    - Stakeholder relationship plans
+  - step: 5
+    actor: Cultural Intelligence Specialist
+    action: Implement communication protocols and conflict resolution frameworks adapted
+      to local cultural contexts
+    tools:
+    - Cross-cultural communication guides
+    - Conflict resolution frameworks
+    - Cultural intelligence assessments
+    duration: 6 weeks
+    outputs:
+    - Communication protocols
+    - Conflict resolution procedures
+    - Cultural adaptation guidelines
+  - step: 6
+    actor: Communications Manager
+    action: Develop internal and external communication strategies for international
+      expansion and cultural integration
+    tools:
+    - Multilingual communication platforms
+    - Stakeholder engagement tools
+    - Brand localization frameworks
+    duration: 4 weeks
+    outputs:
+    - Communication strategy
+    - Multilingual content library
+    - Stakeholder engagement plan
+  - step: 7
+    actor: Global Operations Director
+    action: Monitor cross-cultural integration progress, measure performance, and
+      implement continuous improvement initiatives
+    tools:
+    - Performance monitoring dashboards
+    - Cultural integration metrics
+    - Feedback collection systems
+    duration: Ongoing
+    outputs:
+    - Integration progress reports
+    - Performance metrics
+    - Improvement recommendations
+  success_criteria: Successful establishment of international operations with positive
+    employee engagement scores, regulatory compliance, and market penetration targets
+    met
+  failure_modes:
+  - Cultural misunderstandings
+  - Regulatory compliance failures
+  - Communication breakdowns
+  - Local market resistance
+  - Resource allocation issues
   metrics:
-    - "Employee engagement score: Target 4.0/5"
-    - "Regulatory compliance rate: Target 100%"
-    - "Market penetration achievement: Target 80% of plan"
-    - "Cultural integration satisfaction: Target 85%"
-    - "Cross-cultural conflict resolution rate: Target 95%"
+  - 'Employee engagement score: Target 4.0/5'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Market penetration achievement: Target 80% of plan'
+  - 'Cultural integration satisfaction: Target 85%'
+  - 'Cross-cultural conflict resolution rate: Target 95%'

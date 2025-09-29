@@ -128,6 +128,6 @@ This policy will be communicated to all employees through:
 ## Approval
 This policy is approved by the Board of Directors and reviewed annually.
 
-**Effective Date:** January 1, 2026  
-**Last Reviewed:** September 2025  
+**Effective Date:** January 1, 2026
+**Last Reviewed:** September 2025
 **Next Review:** September 2026

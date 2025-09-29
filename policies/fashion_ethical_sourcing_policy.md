@@ -143,6 +143,6 @@ All suppliers must agree to and implement our Supplier Code of Conduct, which in
 ## Approval
 This policy is approved by the Executive Committee and reviewed annually.
 
-**Effective Date:** January 1, 2026  
-**Last Reviewed:** October 2025  
+**Effective Date:** January 1, 2026
+**Last Reviewed:** October 2025
 **Next Review:** October 2026

@@ -3,8 +3,16 @@
   "context": "Utility company, 500 employees, planning grid modernization with 40% renewable integration by 2030",
   "stakeholders": {
     "requester": "VP Grid Operations",
-    "approvers": ["CEO", "CFO", "Chief Engineer"],
-    "influencers": ["Regulatory Affairs Director", "Environmental Officer", "Community Relations Manager"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Engineer"
+    ],
+    "influencers": [
+      "Regulatory Affairs Director",
+      "Environmental Officer",
+      "Community Relations Manager"
+    ]
   },
   "request": {
     "amount": "$850,000,000",
@@ -16,19 +24,31 @@
     {
       "stage": "feasibility_study",
       "duration": "6 months",
-      "activities": ["Technical feasibility analysis", "Cost-benefit modeling", "Environmental impact assessment"],
+      "activities": [
+        "Technical feasibility analysis",
+        "Cost-benefit modeling",
+        "Environmental impact assessment"
+      ],
       "outcome": "Proceed with conditional approval"
     },
     {
       "stage": "regulatory_approval",
       "duration": "4 months",
-      "activities": ["Permit applications", "Community consultations", "Environmental reviews"],
+      "activities": [
+        "Permit applications",
+        "Community consultations",
+        "Environmental reviews"
+      ],
       "outcome": "All major permits secured"
     },
     {
       "stage": "vendor_selection",
       "duration": "3 months",
-      "activities": ["RFP process", "Vendor evaluations", "Contract negotiations"],
+      "activities": [
+        "RFP process",
+        "Vendor evaluations",
+        "Contract negotiations"
+      ],
       "outcome": "Preferred vendor consortium selected"
     }
   ],
@@ -36,6 +56,10 @@
     "expected_savings": "$120,000,000 annually",
     "carbon_reduction": "500,000 tons CO2 per year",
     "grid_reliability": "99.8% uptime target",
-    "risk_factors": ["Weather dependency of renewables", "Grid stability challenges", "Community opposition to infrastructure"]
+    "risk_factors": [
+      "Weather dependency of renewables",
+      "Grid stability challenges",
+      "Community opposition to infrastructure"
+    ]
   }
 }

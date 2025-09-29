@@ -3,8 +3,17 @@
   "context": "Large manufacturing company with 5000 employees, facing labor shortages and seeking to automate assembly lines with collaborative robots",
   "stakeholders": {
     "requester": "VP Manufacturing",
-    "approvers": ["CFO", "CEO", "Board of Directors"],
-    "influencers": ["Union Representatives", "HR Director", "IT Director", "Safety Manager"]
+    "approvers": [
+      "CFO",
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Union Representatives",
+      "HR Director",
+      "IT Director",
+      "Safety Manager"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,25 +25,45 @@
     {
       "stage": "feasibility_assessment",
       "duration": "8 weeks",
-      "activities": ["Process analysis", "Vendor evaluations", "ROI modeling", "Union consultations"],
+      "activities": [
+        "Process analysis",
+        "Vendor evaluations",
+        "ROI modeling",
+        "Union consultations"
+      ],
       "outcome": "Feasible with strong ROI projections"
     },
     {
       "stage": "pilot_program",
       "duration": "12 weeks",
-      "activities": ["Pilot implementation", "Employee training", "Safety validation", "Performance monitoring"],
+      "activities": [
+        "Pilot implementation",
+        "Employee training",
+        "Safety validation",
+        "Performance monitoring"
+      ],
       "outcome": "Pilot successful with 35% efficiency improvement"
     },
     {
       "stage": "full_rollout_approval",
       "duration": "4 weeks",
-      "activities": ["Budget approval", "Timeline planning", "Resource allocation", "Risk mitigation planning"],
+      "activities": [
+        "Budget approval",
+        "Timeline planning",
+        "Resource allocation",
+        "Risk mitigation planning"
+      ],
       "outcome": "Full investment approved with phased rollout plan"
     }
   ],
   "business_impact": {
     "expected_efficiency_gain": "35%",
     "projected_cost_savings": "$15,000,000",
-    "risk_factors": ["Worker displacement concerns", "Integration challenges", "Safety incidents", "Technology obsolescence"]
+    "risk_factors": [
+      "Worker displacement concerns",
+      "Integration challenges",
+      "Safety incidents",
+      "Technology obsolescence"
+    ]
   }
 }

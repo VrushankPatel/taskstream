@@ -1,8 +1,8 @@
 ## Email Thread: Healthcare Data Interoperability Initiative
 
-**From:** Chief Information Officer (CIO)  
-**To:** Executive Leadership Team  
-**Subject:** Urgent: Healthcare Data Interoperability Implementation Status  
+**From:** Chief Information Officer (CIO)
+**To:** Executive Leadership Team
+**Subject:** Urgent: Healthcare Data Interoperability Implementation Status
 
 Team,
 
@@ -22,15 +22,15 @@ I recommend we allocate additional budget for accelerated implementation to meet
 
 Please let me know your thoughts on next steps.
 
-Best,  
-Sarah Johnson  
-Chief Information Officer  
+Best,
+Sarah Johnson
+Chief Information Officer
 
 ---
 
-**From:** Chief Medical Officer (CMO)  
-**To:** CIO, CEO, CFO  
-**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status  
+**From:** Chief Medical Officer (CMO)
+**To:** CIO, CEO, CFO
+**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status
 
 Sarah,
 
@@ -38,14 +38,14 @@ I support accelerating this initiative. The clinical benefits are clear - we've 
 
 However, I want to ensure we have adequate clinical oversight during implementation. We should form a joint clinical-IT governance committee.
 
-Dr. Michael Chen  
-Chief Medical Officer  
+Dr. Michael Chen
+Chief Medical Officer
 
 ---
 
-**From:** Chief Financial Officer (CFO)  
-**To:** CIO, CMO, CEO  
-**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status  
+**From:** Chief Financial Officer (CFO)
+**To:** CIO, CMO, CEO
+**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status
 
 I agree this is a priority, but we need to be careful about scope creep. The additional $2.1M request needs detailed justification. Can you provide:
 
@@ -55,15 +55,15 @@ I agree this is a priority, but we need to be careful about scope creep. The add
 
 We have competing priorities for capital allocation.
 
-Regards,  
-Jennifer Martinez  
-Chief Financial Officer  
+Regards,
+Jennifer Martinez
+Chief Financial Officer
 
 ---
 
-**From:** CEO  
-**To:** CIO, CMO, CFO, Executive Team  
-**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status  
+**From:** CEO
+**To:** CIO, CMO, CFO, Executive Team
+**Subject:** Re: Urgent: Healthcare Data Interoperability Implementation Status
 
 Thank you all for the thoughtful responses. This is exactly the kind of cross-functional discussion we need.
 
@@ -75,6 +75,6 @@ Michael - I like the idea of a joint governance committee. Let's include represe
 
 This initiative aligns with our strategic goals and regulatory requirements. Let's ensure we have the resources to execute successfully.
 
-Best,  
-Robert Williams  
+Best,
+Robert Williams
 Chief Executive Officer

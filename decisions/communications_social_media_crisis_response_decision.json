@@ -3,8 +3,16 @@
   "context": "Consumer goods company facing viral social media backlash over product safety claims",
   "stakeholders": {
     "requester": "VP Communications",
-    "approvers": ["CEO", "General Counsel", "CMO"],
-    "influencers": ["PR Agency", "Product Safety Team", "Customer Service Director"]
+    "approvers": [
+      "CEO",
+      "General Counsel",
+      "CMO"
+    ],
+    "influencers": [
+      "PR Agency",
+      "Product Safety Team",
+      "Customer Service Director"
+    ]
   },
   "request": {
     "amount": "$2 million",
@@ -16,25 +24,41 @@
     {
       "stage": "crisis_assessment",
       "duration": "4 hours",
-      "activities": ["Social media monitoring", "Customer complaint analysis", "Legal risk evaluation"],
+      "activities": [
+        "Social media monitoring",
+        "Customer complaint analysis",
+        "Legal risk evaluation"
+      ],
       "outcome": "Confirmed safety issue requiring immediate action"
     },
     {
       "stage": "response_strategy",
       "duration": "12 hours",
-      "activities": ["Stakeholder communication planning", "Product recall logistics", "Media response preparation"],
+      "activities": [
+        "Stakeholder communication planning",
+        "Product recall logistics",
+        "Media response preparation"
+      ],
       "outcome": "Coordinated response strategy approved"
     },
     {
       "stage": "implementation",
       "duration": "48 hours",
-      "activities": ["Public announcement", "Customer notification", "Recall execution"],
+      "activities": [
+        "Public announcement",
+        "Customer notification",
+        "Recall execution"
+      ],
       "outcome": "Crisis contained with minimal long-term damage"
     }
   ],
   "business_impact": {
     "expected_benefits": "Maintained customer trust, demonstrated accountability",
     "projected_revenue": "$50 million recall cost offset by brand loyalty retention",
-    "risk_factors": ["Lawsuit exposure", "Competitor opportunism", "Regulatory scrutiny"]
+    "risk_factors": [
+      "Lawsuit exposure",
+      "Competitor opportunism",
+      "Regulatory scrutiny"
+    ]
   }
 }

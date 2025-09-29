@@ -1,8 +1,8 @@
 ## Communication Thread: Insurance Cyber Claim Explosion Response
 
-**From:** Claims Operations Director  
-**To:** CEO, CFO, Chief Underwriter, IT Security Team  
-**Subject:** Urgent: Surge in Cyber Insurance Claims - Capacity Crisis  
+**From:** Claims Operations Director
+**To:** CEO, CFO, Chief Underwriter, IT Security Team
+**Subject:** Urgent: Surge in Cyber Insurance Claims - Capacity Crisis
 
 Our cyber insurance claims have increased 300% in the past month due to widespread ransomware attacks. Current processing capacity is overwhelmed.
 
@@ -17,9 +17,9 @@ Our cyber insurance claims have increased 300% in the past month due to widespre
 - Forensic investigation delays
 - Payment processing bottlenecks
 
-**From:** CEO  
-**To:** Claims Operations Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis  
+**From:** CEO
+**To:** Claims Operations Director, Executive Leadership Team
+**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis
 
 This cyber threat landscape shift requires immediate executive action.
 
@@ -31,9 +31,9 @@ This cyber threat landscape shift requires immediate executive action.
 
 Board has been notified. This could be a $50M revenue opportunity if handled well.
 
-**From:** Chief Underwriter  
-**To:** CEO, Claims Operations Director, Underwriting Team  
-**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis  
+**From:** Chief Underwriter
+**To:** CEO, Claims Operations Director, Underwriting Team
+**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis
 
 **Underwriting Perspective:**
 The claims surge validates our cyber coverage expansion strategy, but exposes capacity limitations.
@@ -44,9 +44,9 @@ The claims surge validates our cyber coverage expansion strategy, but exposes ca
 - Partner with cybersecurity firms for prevention services
 - Consider premium adjustments based on risk profiles
 
-**From:** IT Security Director  
-**To:** Claims Operations Director, Executive Team  
-**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis  
+**From:** IT Security Director
+**To:** Claims Operations Director, Executive Team
+**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis
 
 **Technical Support Update:**
 - Deployed automated claim intake system reducing processing time by 40%
@@ -58,9 +58,9 @@ The claims surge validates our cyber coverage expansion strategy, but exposes ca
 - Average processing time down to 28 days
 - Customer satisfaction improving
 
-**From:** Claims Operations Director  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis  
+**From:** Claims Operations Director
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Surge in Cyber Insurance Claims - Capacity Crisis
 
 **Month 1 Crisis Response Results:**
 

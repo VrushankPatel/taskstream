@@ -1,8 +1,8 @@
 ## Email Thread: Aerospace Orbital Debris Mitigation Strategy
 
-**From:** Director of Space Operations  
-**To:** Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** Director of Space Operations
+**To:** Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Orbital Debris Mitigation Requirements - Updated Guidelines
 
 Team,
 
@@ -20,9 +20,9 @@ Director of Space Operations
 
 ---
 
-**From:** Chief Engineer  
-**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** Chief Engineer
+**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines
 
 Director,
 
@@ -42,9 +42,9 @@ Chief Engineer
 
 ---
 
-**From:** Regulatory Affairs Director  
-**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** Regulatory Affairs Director
+**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines
 
 Adding regulatory perspective - the new guidelines are enforceable starting January 2026. Non-compliance could result in:
 - Loss of orbital slots in regulated frequencies
@@ -57,9 +57,9 @@ Regulatory Affairs Director
 
 ---
 
-**From:** Mission Control Director  
-**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** Mission Control Director
+**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines
 
 From operations standpoint, implementing collision avoidance protocols will require:
 - Upgraded tracking systems ($12M)
@@ -72,9 +72,9 @@ Mission Control Director
 
 ---
 
-**From:** CEO  
-**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** CEO
+**To:** Director of Space Operations, Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines
 
 Thank you for the rapid assessment. This is a critical industry issue that affects our long-term viability.
 
@@ -90,9 +90,9 @@ CEO
 
 ---
 
-**From:** Director of Space Operations  
-**To:** Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership  
-**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines  
+**From:** Director of Space Operations
+**To:** Engineering Team, Regulatory Affairs, Mission Control, Executive Leadership
+**Subject:** Re: Orbital Debris Mitigation Requirements - Updated Guidelines
 
 Thank you for the swift responses and leadership support. Task force kickoff meeting scheduled for Monday.
 

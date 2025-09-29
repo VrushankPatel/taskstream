@@ -1,9 +1,9 @@
 ## Email Thread: Q1 Marketing Campaign Budget Request
 
-**From:** Lisa Thompson, Director of Marketing  
-**To:** Robert Jenkins, CFO; Jennifer Walsh, CEO  
-**Subject:** Budget Approval Request: Q1 Demand Generation Campaign  
-**Date:** November 20, 2025  
+**From:** Lisa Thompson, Director of Marketing
+**To:** Robert Jenkins, CFO; Jennifer Walsh, CEO
+**Subject:** Budget Approval Request: Q1 Demand Generation Campaign
+**Date:** November 20, 2025
 
 Robert and Jennifer,
 
@@ -33,18 +33,18 @@ Attached: Detailed campaign plan, competitive analysis, and ROI model.
 
 Please let me know if you need any additional information.
 
-Best regards,  
-Lisa Thompson  
-Director of Marketing  
-lisa.thompson@company.com  
-(555) 987-6543  
+Best regards,
+Lisa Thompson
+Director of Marketing
+lisa.thompson@company.com
+(555) 987-6543
 
 ---
 
-**From:** Robert Jenkins, CFO  
-**To:** Lisa Thompson, Jennifer Walsh, CEO  
-**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign  
-**Date:** November 22, 2025  
+**From:** Robert Jenkins, CFO
+**To:** Lisa Thompson, Jennifer Walsh, CEO
+**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign
+**Date:** November 22, 2025
 
 Lisa,
 
@@ -55,14 +55,14 @@ Thanks for the detailed request. I've reviewed the ROI model and the numbers loo
 
 Can we schedule a 15-minute call tomorrow to discuss optimization opportunities? I'd like to get this approved but want to ensure we're being efficient.
 
-Robert  
+Robert
 
 ---
 
-**From:** Lisa Thompson, Director of Marketing  
-**To:** Robert Jenkins, Jennifer Walsh, CEO  
-**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign  
-**Date:** November 22, 2025  
+**From:** Lisa Thompson, Director of Marketing
+**To:** Robert Jenkins, Jennifer Walsh, CEO
+**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign
+**Date:** November 22, 2025
 
 Robert,
 
@@ -73,14 +73,14 @@ Happy to discuss tomorrow. Regarding your points:
 
 I can shift $30K from content creation to cover the increases if needed.
 
-Lisa  
+Lisa
 
 ---
 
-**From:** Jennifer Walsh, CEO  
-**To:** Lisa Thompson, Robert Jenkins, CFO  
-**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign  
-**Date:** November 23, 2025  
+**From:** Jennifer Walsh, CEO
+**To:** Lisa Thompson, Robert Jenkins, CFO
+**Subject:** Re: Budget Approval Request: Q1 Demand Generation Campaign
+**Date:** November 23, 2025
 
 Lisa and Robert,
 

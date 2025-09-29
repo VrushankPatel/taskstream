@@ -3,8 +3,16 @@
   "context": "Real estate investment firm, 300 employees, implementing AI-driven property management automation",
   "stakeholders": {
     "requester": "Chief Information Officer",
-    "approvers": ["CEO", "COO", "Chief Investment Officer"],
-    "influencers": ["Property Management Director", "IT Security Officer", "Tenant Relations Manager"]
+    "approvers": [
+      "CEO",
+      "COO",
+      "Chief Investment Officer"
+    ],
+    "influencers": [
+      "Property Management Director",
+      "IT Security Officer",
+      "Tenant Relations Manager"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -16,19 +24,31 @@
     {
       "stage": "technology_evaluation",
       "duration": "3 months",
-      "activities": ["Vendor assessment", "ROI modeling", "Integration feasibility study"],
+      "activities": [
+        "Vendor assessment",
+        "ROI modeling",
+        "Integration feasibility study"
+      ],
       "outcome": "Preferred technology stack selected"
     },
     {
       "stage": "pilot_implementation",
       "duration": "6 months",
-      "activities": ["Single property pilot", "User acceptance testing", "Performance monitoring"],
+      "activities": [
+        "Single property pilot",
+        "User acceptance testing",
+        "Performance monitoring"
+      ],
       "outcome": "Pilot successful with 25% efficiency gains"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "12 months",
-      "activities": ["Portfolio-wide deployment", "Staff training programs", "Change management"],
+      "activities": [
+        "Portfolio-wide deployment",
+        "Staff training programs",
+        "Change management"
+      ],
       "outcome": "Full automation across 200+ properties"
     }
   ],
@@ -36,6 +56,10 @@
     "operational_savings": "$4,200,000 annually",
     "tenant_satisfaction": "92% satisfaction score",
     "response_time": "60% faster maintenance resolution",
-    "risk_factors": ["Technology integration challenges", "Staff resistance to change", "Data privacy concerns"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff resistance to change",
+      "Data privacy concerns"
+    ]
   }
 }

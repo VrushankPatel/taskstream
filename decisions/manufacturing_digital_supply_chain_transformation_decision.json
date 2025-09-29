@@ -3,9 +3,21 @@
   "context": "Global manufacturing company facing supply chain disruptions, evaluating comprehensive digital transformation of procurement, logistics, and supplier management",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "CFO", "Chief Digital Officer"],
-    "influencers": ["Procurement VP", "Operations Directors", "IT Leadership"],
-    "advisors": ["Digital Transformation Consultants", "Supply Chain Technology Experts", "Industry Analysts"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Digital Officer"
+    ],
+    "influencers": [
+      "Procurement VP",
+      "Operations Directors",
+      "IT Leadership"
+    ],
+    "advisors": [
+      "Digital Transformation Consultants",
+      "Supply Chain Technology Experts",
+      "Industry Analysts"
+    ]
   },
   "request": {
     "amount": "$35,000,000",
@@ -17,32 +29,63 @@
     {
       "stage": "current_state_diagnosis",
       "duration": "6 weeks",
-      "activities": ["Supply chain mapping", "Performance benchmarking", "Digital maturity assessment"],
+      "activities": [
+        "Supply chain mapping",
+        "Performance benchmarking",
+        "Digital maturity assessment"
+      ],
       "outcome": "Identified 40% efficiency improvement potential and critical digital gaps"
     },
     {
       "stage": "technology_evaluation",
       "duration": "10 weeks",
-      "activities": ["Technology vendor assessment", "Integration feasibility analysis", "ROI modeling"],
+      "activities": [
+        "Technology vendor assessment",
+        "Integration feasibility analysis",
+        "ROI modeling"
+      ],
       "outcome": "Selected comprehensive technology stack with proven enterprise scalability"
     },
     {
       "stage": "organizational_readiness",
       "duration": "4 weeks",
-      "activities": ["Change impact assessment", "Skills gap analysis", "Training program design"],
+      "activities": [
+        "Change impact assessment",
+        "Skills gap analysis",
+        "Training program design"
+      ],
       "outcome": "Readiness assessment with comprehensive change management plan"
     },
     {
       "stage": "pilot_validation",
       "duration": "8 weeks",
-      "activities": ["Pilot implementation", "Performance validation", "Scalability testing"],
+      "activities": [
+        "Pilot implementation",
+        "Performance validation",
+        "Scalability testing"
+      ],
       "outcome": "Successful pilot demonstrating 25% efficiency improvement"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["30% reduction in supply chain costs", "50% improvement in delivery reliability", "Enhanced risk management", "Data-driven decision making"],
+    "expected_benefits": [
+      "30% reduction in supply chain costs",
+      "50% improvement in delivery reliability",
+      "Enhanced risk management",
+      "Data-driven decision making"
+    ],
     "projected_revenue": "$120,000,000 in efficiency gains over 5 years",
-    "risk_factors": ["Technology integration complexity", "Supplier digital capability gaps", "Organizational resistance", "Cybersecurity vulnerabilities"],
-    "mitigation_strategies": ["Phased implementation approach", "Supplier enablement programs", "Comprehensive change management", "Enhanced cybersecurity measures"]
+    "risk_factors": [
+      "Technology integration complexity",
+      "Supplier digital capability gaps",
+      "Organizational resistance",
+      "Cybersecurity vulnerabilities"
+    ],
+    "mitigation_strategies": [
+      "Phased implementation approach",
+      "Supplier enablement programs",
+      "Comprehensive change management",
+      "Enhanced cybersecurity measures"
+    ]
   }
 }

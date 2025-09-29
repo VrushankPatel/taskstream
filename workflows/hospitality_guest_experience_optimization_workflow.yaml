@@ -1,54 +1,88 @@
----
-workflow:
-id: "workflow_hospitality_guest_experience_optimization"
-title: "Hospitality Guest Experience Optimization Process"
-department: "Guest Services"
-complexity: "medium"
-participants: ["Guest Experience Manager", "Operations Manager", "Front Desk Staff", "Housekeeping Supervisor"]
-trigger: "Guest satisfaction survey results below target or competitive analysis"
+workflow: null
+id: workflow_hospitality_guest_experience_optimization
+title: Hospitality Guest Experience Optimization Process
+department: Guest Services
+complexity: medium
+participants:
+- Guest Experience Manager
+- Operations Manager
+- Front Desk Staff
+- Housekeeping Supervisor
+trigger: Guest satisfaction survey results below target or competitive analysis
 steps:
 - step: 1
-  actor: "Guest Experience Manager"
-  action: "Analyze guest feedback and identify improvement opportunities"
-  tools: ["Survey analysis software", "Guest feedback database"]
-  duration: "1 week"
-  outputs: ["Experience gap analysis", "Improvement priority list"]
+  actor: Guest Experience Manager
+  action: Analyze guest feedback and identify improvement opportunities
+  tools:
+  - Survey analysis software
+  - Guest feedback database
+  duration: 1 week
+  outputs:
+  - Experience gap analysis
+  - Improvement priority list
 - step: 2
-  actor: "Operations Manager"
-  action: "Develop and test process improvements"
-  tools: ["Process mapping tools", "Pilot testing protocols"]
-  duration: "2 weeks"
-  outputs: ["Improved service protocols", "Pilot test results"]
+  actor: Operations Manager
+  action: Develop and test process improvements
+  tools:
+  - Process mapping tools
+  - Pilot testing protocols
+  duration: 2 weeks
+  outputs:
+  - Improved service protocols
+  - Pilot test results
 - step: 3
-  actor: "Front Desk Staff"
-  action: "Implement new guest interaction procedures"
-  tools: ["Training manuals", "Role-playing scenarios"]
-  duration: "1 week"
-  outputs: ["Staff training records", "Implementation checklists"]
+  actor: Front Desk Staff
+  action: Implement new guest interaction procedures
+  tools:
+  - Training manuals
+  - Role-playing scenarios
+  duration: 1 week
+  outputs:
+  - Staff training records
+  - Implementation checklists
 - step: 4
-  actor: "Housekeeping Supervisor"
-  action: "Update room preparation and maintenance standards"
-  tools: ["Quality checklists", "Maintenance scheduling system"]
-  duration: "2 weeks"
-  outputs: ["Updated standards documentation", "Quality monitoring reports"]
+  actor: Housekeeping Supervisor
+  action: Update room preparation and maintenance standards
+  tools:
+  - Quality checklists
+  - Maintenance scheduling system
+  duration: 2 weeks
+  outputs:
+  - Updated standards documentation
+  - Quality monitoring reports
 - step: 5
-  actor: "Guest Experience Manager"
-  action: "Implement personalization technologies and loyalty programs"
-  tools: ["CRM system", "Personalization software", "Mobile apps"]
-  duration: "3 weeks"
-  outputs: ["Personalized service protocols", "Loyalty program enhancements"]
+  actor: Guest Experience Manager
+  action: Implement personalization technologies and loyalty programs
+  tools:
+  - CRM system
+  - Personalization software
+  - Mobile apps
+  duration: 3 weeks
+  outputs:
+  - Personalized service protocols
+  - Loyalty program enhancements
 - step: 6
-  actor: "Operations Manager"
-  action: "Monitor implementation and gather ongoing feedback"
-  tools: ["Performance dashboards", "Real-time feedback systems"]
-  duration: "Ongoing"
-  outputs: ["Performance reports", "Continuous improvement recommendations"]
-  success_criteria: "Guest satisfaction scores improve by 15% within 3 months and maintain >85% overall rating"
-  failure_modes: ["Staff training gaps", "Process complexity issues", "Resource constraints", "Technology adoption challenges", "Inconsistent personalization"]
+  actor: Operations Manager
+  action: Monitor implementation and gather ongoing feedback
+  tools:
+  - Performance dashboards
+  - Real-time feedback systems
+  duration: Ongoing
+  outputs:
+  - Performance reports
+  - Continuous improvement recommendations
+  success_criteria: Guest satisfaction scores improve by 15% within 3 months and maintain
+    >85% overall rating
+  failure_modes:
+  - Staff training gaps
+  - Process complexity issues
+  - Resource constraints
+  - Technology adoption challenges
+  - Inconsistent personalization
   metrics:
-    - "Guest satisfaction improvement: Target >15% increase in NPS"
-    - "Staff training completion: Target >95% of team trained"
-    - "Process compliance rate: Target >90% adherence to new protocols"
-    - "Repeat guest retention: Target >75% return rate"
-    - "Personalization effectiveness: Target >20% increase in positive mentions"
-    - "Response time to feedback: Target <24 hours average"
+  - 'Guest satisfaction improvement: Target >15% increase in NPS'
+  - 'Staff training completion: Target >95% of team trained'
+  - 'Process compliance rate: Target >90% adherence to new protocols'
+  - 'Repeat guest retention: Target >75% return rate'
+  - 'Personalization effectiveness: Target >20% increase in positive mentions'
+  - 'Response time to feedback: Target <24 hours average'

@@ -3,8 +3,16 @@
   "context": "Aerospace company seeking FAA certification for commercial unmanned aerial systems fleet, requiring $45M investment over 24 months",
   "stakeholders": {
     "requester": "Director of Unmanned Systems",
-    "approvers": ["VP Engineering", "CFO", "CEO"],
-    "influencers": ["Regulatory Compliance Manager", "Safety Engineering Lead", "Certification Specialist"]
+    "approvers": [
+      "VP Engineering",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Regulatory Compliance Manager",
+      "Safety Engineering Lead",
+      "Certification Specialist"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,28 +24,49 @@
     {
       "stage": "certification_pathway_analysis",
       "duration": "4 weeks",
-      "activities": ["Regulatory requirements review", "Certification timeline assessment", "Cost estimation"],
+      "activities": [
+        "Regulatory requirements review",
+        "Certification timeline assessment",
+        "Cost estimation"
+      ],
       "outcome": "Identified 24-month certification pathway with specific milestones"
     },
     {
       "stage": "technical_readiness_review",
       "duration": "6 weeks",
-      "activities": ["System safety assessment", "Performance testing", "Documentation preparation"],
+      "activities": [
+        "System safety assessment",
+        "Performance testing",
+        "Documentation preparation"
+      ],
       "outcome": "Technical readiness confirmed with minor modifications required"
     },
     {
       "stage": "financial_evaluation",
       "duration": "3 weeks",
-      "activities": ["ROI analysis", "Cash flow projections", "Funding options assessment"],
+      "activities": [
+        "ROI analysis",
+        "Cash flow projections",
+        "Funding options assessment"
+      ],
       "outcome": "Positive ROI with 18-month payback period"
     }
   ],
   "business_impact": {
     "expected_outcome": "Certified unmanned systems fleet enabling $120M annual revenue",
     "projected_value": "$85,000,000",
-    "risk_factors": ["Regulatory delays", "Technical certification failures", "Market competition"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Technical certification failures",
+      "Market competition"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance feasibility", "Financial viability", "Strategic alignment", "Technical capability"],
+  "decision_criteria": [
+    "Regulatory compliance feasibility",
+    "Financial viability",
+    "Strategic alignment",
+    "Technical capability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement critical for certification timelines"
 }

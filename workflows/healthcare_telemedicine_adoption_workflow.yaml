@@ -1,55 +1,117 @@
 workflow:
-  id: "workflow_healthcare_telemedicine_001"
-  title: "Healthcare Telemedicine Platform Adoption and Implementation"
-  department: "Digital Health Services"
-  complexity: "medium"
-  participants: ["Chief Medical Officer", "Telemedicine Program Coordinator", "IT Infrastructure Manager", "Compliance Officer", "Patient Experience Manager", "Clinical Training Lead"]
-  trigger: "Increasing patient demand for remote care options and regulatory push for digital health solutions"
+  id: workflow_healthcare_telemedicine_001
+  title: Healthcare Telemedicine Platform Adoption and Implementation
+  department: Digital Health Services
+  complexity: medium
+  participants:
+  - Chief Medical Officer
+  - Telemedicine Program Coordinator
+  - IT Infrastructure Manager
+  - Compliance Officer
+  - Patient Experience Manager
+  - Clinical Training Lead
+  trigger: Increasing patient demand for remote care options and regulatory push for
+    digital health solutions
   steps:
-    - step: 1
-      actor: "Telemedicine Program Coordinator"
-      action: "Conduct comprehensive needs assessment including patient demographics, clinical specialties, and technology requirements"
-      tools: ["Patient satisfaction surveys", "Clinical workflow analysis", "Technology readiness assessment", "Regulatory compliance checklists"]
-      duration: "2 weeks"
-      outputs: ["Telemedicine requirements document", "Implementation roadmap", "ROI projections"]
-    - step: 2
-      actor: "IT Infrastructure Manager"
-      action: "Evaluate and select telemedicine platform with EHR integration capabilities and security compliance"
-      tools: ["Platform evaluation matrix", "Vendor demonstrations", "Security audit tools", "Interoperability testing suite"]
-      duration: "3 weeks"
-      outputs: ["Selected telemedicine platform", "Integration specifications", "Security compliance documentation"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Ensure HIPAA compliance and develop privacy protocols for virtual consultations"
-      tools: ["HIPAA compliance framework", "Privacy impact assessment", "Data encryption standards", "Audit logging systems"]
-      duration: "2 weeks"
-      outputs: ["Privacy and security protocols", "Compliance certification", "Risk mitigation plan"]
-    - step: 4
-      actor: "Clinical Training Lead"
-      action: "Develop and deliver training programs for healthcare providers and support staff"
-      tools: ["Training curriculum development", "Virtual training platform", "Simulation software", "Competency assessment tools"]
-      duration: "4 weeks"
-      outputs: ["Training materials and schedules", "Provider certification records", "Support desk procedures"]
-    - step: 5
-      actor: "Patient Experience Manager"
-      action: "Design patient onboarding process and communication strategies for telemedicine services"
-      tools: ["Patient journey mapping", "Communication templates", "Digital literacy assessment", "Feedback collection systems"]
-      duration: "2 weeks"
-      outputs: ["Patient onboarding guide", "Marketing materials", "Support hotline procedures"]
-    - step: 6
-      actor: "Chief Medical Officer"
-      action: "Oversee pilot program implementation and evaluate clinical outcomes"
-      tools: ["Clinical outcome metrics", "Pilot program dashboard", "Provider feedback surveys", "Quality assurance protocols"]
-      duration: "6 weeks"
-      outputs: ["Pilot results report", "Go-live recommendations", "Continuous improvement plan"]
-  success_criteria: "60% of eligible consultations conducted virtually within 6 months, achieving 95% patient satisfaction and 99% clinical outcome parity with in-person visits"
-  failure_modes: ["EHR integration failures", "Provider adoption resistance", "Patient digital literacy barriers", "Security vulnerabilities", "Regulatory compliance issues", "Technical performance problems", "Reimbursement challenges"]
+  - step: 1
+    actor: Telemedicine Program Coordinator
+    action: Conduct comprehensive needs assessment including patient demographics,
+      clinical specialties, and technology requirements
+    tools:
+    - Patient satisfaction surveys
+    - Clinical workflow analysis
+    - Technology readiness assessment
+    - Regulatory compliance checklists
+    duration: 2 weeks
+    outputs:
+    - Telemedicine requirements document
+    - Implementation roadmap
+    - ROI projections
+  - step: 2
+    actor: IT Infrastructure Manager
+    action: Evaluate and select telemedicine platform with EHR integration capabilities
+      and security compliance
+    tools:
+    - Platform evaluation matrix
+    - Vendor demonstrations
+    - Security audit tools
+    - Interoperability testing suite
+    duration: 3 weeks
+    outputs:
+    - Selected telemedicine platform
+    - Integration specifications
+    - Security compliance documentation
+  - step: 3
+    actor: Compliance Officer
+    action: Ensure HIPAA compliance and develop privacy protocols for virtual consultations
+    tools:
+    - HIPAA compliance framework
+    - Privacy impact assessment
+    - Data encryption standards
+    - Audit logging systems
+    duration: 2 weeks
+    outputs:
+    - Privacy and security protocols
+    - Compliance certification
+    - Risk mitigation plan
+  - step: 4
+    actor: Clinical Training Lead
+    action: Develop and deliver training programs for healthcare providers and support
+      staff
+    tools:
+    - Training curriculum development
+    - Virtual training platform
+    - Simulation software
+    - Competency assessment tools
+    duration: 4 weeks
+    outputs:
+    - Training materials and schedules
+    - Provider certification records
+    - Support desk procedures
+  - step: 5
+    actor: Patient Experience Manager
+    action: Design patient onboarding process and communication strategies for telemedicine
+      services
+    tools:
+    - Patient journey mapping
+    - Communication templates
+    - Digital literacy assessment
+    - Feedback collection systems
+    duration: 2 weeks
+    outputs:
+    - Patient onboarding guide
+    - Marketing materials
+    - Support hotline procedures
+  - step: 6
+    actor: Chief Medical Officer
+    action: Oversee pilot program implementation and evaluate clinical outcomes
+    tools:
+    - Clinical outcome metrics
+    - Pilot program dashboard
+    - Provider feedback surveys
+    - Quality assurance protocols
+    duration: 6 weeks
+    outputs:
+    - Pilot results report
+    - Go-live recommendations
+    - Continuous improvement plan
+  success_criteria: 60% of eligible consultations conducted virtually within 6 months,
+    achieving 95% patient satisfaction and 99% clinical outcome parity with in-person
+    visits
+  failure_modes:
+  - EHR integration failures
+  - Provider adoption resistance
+  - Patient digital literacy barriers
+  - Security vulnerabilities
+  - Regulatory compliance issues
+  - Technical performance problems
+  - Reimbursement challenges
   metrics:
-    - "Virtual consultation adoption rate: Target 60% of eligible visits"
-    - "Patient satisfaction score: Target 95% for telemedicine experience"
-    - "Clinical outcome quality: Target 99% parity with in-person care"
-    - "Provider satisfaction: Target 90% positive feedback"
-    - "System uptime and reliability: Target 99.9% availability"
-    - "Average consultation setup time: Target <5 minutes"
-    - "Cost per virtual visit: Target 30% reduction vs in-person"
-    - "Patient no-show rate: Target <5% for virtual appointments"
+  - 'Virtual consultation adoption rate: Target 60% of eligible visits'
+  - 'Patient satisfaction score: Target 95% for telemedicine experience'
+  - 'Clinical outcome quality: Target 99% parity with in-person care'
+  - 'Provider satisfaction: Target 90% positive feedback'
+  - 'System uptime and reliability: Target 99.9% availability'
+  - 'Average consultation setup time: Target <5 minutes'
+  - 'Cost per virtual visit: Target 30% reduction vs in-person'
+  - 'Patient no-show rate: Target <5% for virtual appointments'

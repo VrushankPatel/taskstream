@@ -3,8 +3,16 @@
   "context": "SaaS company launching new AI-powered analytics feature, needing to determine pricing strategy for enterprise vs SMB markets",
   "stakeholders": {
     "requester": "VP Product",
-    "approvers": ["CEO", "CFO", "VP Sales"],
-    "influencers": ["Head of Marketing", "Customer Success Director", "Engineering Lead"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "VP Sales"
+    ],
+    "influencers": [
+      "Head of Marketing",
+      "Customer Success Director",
+      "Engineering Lead"
+    ]
   },
   "request": {
     "amount": "$2.5M annual revenue impact",
@@ -16,28 +24,51 @@
     {
       "stage": "market_research",
       "duration": "2 weeks",
-      "activities": ["Competitor pricing analysis", "Customer willingness-to-pay surveys", "Feature value proposition testing"],
+      "activities": [
+        "Competitor pricing analysis",
+        "Customer willingness-to-pay surveys",
+        "Feature value proposition testing"
+      ],
       "outcome": "Identified $50/user/month as optimal enterprise price point"
     },
     {
       "stage": "financial_modeling",
       "duration": "1 week",
-      "activities": ["Revenue projections", "Cost analysis", "Break-even calculations", "Sensitivity analysis"],
+      "activities": [
+        "Revenue projections",
+        "Cost analysis",
+        "Break-even calculations",
+        "Sensitivity analysis"
+      ],
       "outcome": "Tiered pricing model approved: $25/user/month (SMB), $50/user/month (Enterprise), $100/user/month (Enterprise Plus)"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "3 days",
-      "activities": ["Executive team presentation", "Sales team feedback session", "Customer advisory board input"],
+      "activities": [
+        "Executive team presentation",
+        "Sales team feedback session",
+        "Customer advisory board input"
+      ],
       "outcome": "Consensus reached on value-based pricing approach with 90-day trial period"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% increase in average deal size, 25% improvement in sales cycle efficiency",
     "projected_value": "$3.2M additional annual recurring revenue",
-    "risk_factors": ["Customer price sensitivity", "Competitor response", "Feature adoption challenges"]
+    "risk_factors": [
+      "Customer price sensitivity",
+      "Competitor response",
+      "Feature adoption challenges"
+    ]
   },
-  "decision_criteria": ["Market competitiveness", "Revenue growth potential", "Customer value perception", "Sales team feedback", "Financial sustainability"],
+  "decision_criteria": [
+    "Market competitiveness",
+    "Revenue growth potential",
+    "Customer value perception",
+    "Sales team feedback",
+    "Financial sustainability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early customer input crucial for pricing acceptance, tiered model provides flexibility for different market segments"
 }

@@ -1,9 +1,9 @@
 ## Email Announcement: Property Valuation Analytics Platform Rollout
 
-**From:** Amanda Rodriguez (Chief Technology Officer)  
-**To:** All Property Managers, Analysts, and Executive Team  
-**Subject:** Launch of Advanced Property Valuation Analytics Platform  
-**Date:** October 25, 2025  
+**From:** Amanda Rodriguez (Chief Technology Officer)
+**To:** All Property Managers, Analysts, and Executive Team
+**Subject:** Launch of Advanced Property Valuation Analytics Platform
+**Date:** October 25, 2025
 
 Team,
 
@@ -51,17 +51,17 @@ Please mark your calendars for the training sessions and prepare any questions f
 
 This platform represents a significant investment in our technology capabilities and will position us as industry leaders in property valuation analytics.
 
-Best regards,  
-Amanda Rodriguez  
-Chief Technology Officer  
+Best regards,
+Amanda Rodriguez
+Chief Technology Officer
 Real Estate Analytics Division
 
 ---
 
-**From:** Brian Thompson (VP Property Management)  
-**To:** Amanda Rodriguez, All Property Managers  
-**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform  
-**Date:** October 25, 2025  
+**From:** Brian Thompson (VP Property Management)
+**To:** Amanda Rodriguez, All Property Managers
+**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform
+**Date:** October 25, 2025
 
 Amanda,
 
@@ -71,10 +71,10 @@ Brian
 
 ---
 
-**From:** Amanda Rodriguez (Chief Technology Officer)  
-**To:** Brian Thompson, All Property Managers  
-**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform  
-**Date:** October 26, 2025  
+**From:** Amanda Rodriguez (Chief Technology Officer)
+**To:** Brian Thompson, All Property Managers
+**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform
+**Date:** October 26, 2025
 
 Brian,
 
@@ -84,10 +84,10 @@ Amanda
 
 ---
 
-**From:** Lisa Chen (Senior Property Analyst)  
-**To:** Amanda Rodriguez, All Property Managers  
-**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform  
-**Date:** October 26, 2025  
+**From:** Lisa Chen (Senior Property Analyst)
+**To:** Amanda Rodriguez, All Property Managers
+**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform
+**Date:** October 26, 2025
 
 Amanda,
 
@@ -97,10 +97,10 @@ Lisa
 
 ---
 
-**From:** Amanda Rodriguez (Chief Technology Officer)  
-**To:** Lisa Chen, All Property Managers  
-**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform  
-**Date:** October 27, 2025  
+**From:** Amanda Rodriguez (Chief Technology Officer)
+**To:** Lisa Chen, All Property Managers
+**Subject:** Re: Launch of Advanced Property Valuation Analytics Platform
+**Date:** October 27, 2025
 
 Lisa,
 

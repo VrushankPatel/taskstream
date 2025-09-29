@@ -3,8 +3,16 @@
   "context": "Large financial services company, 100,000 employees, implementing AI across risk assessment and customer service",
   "stakeholders": {
     "requester": "Chief Risk Officer",
-    "approvers": ["CEO", "Chief Compliance Officer", "Board Risk Committee"],
-    "influencers": ["Head of AI", "Data Privacy Officer", "Customer Experience VP"]
+    "approvers": [
+      "CEO",
+      "Chief Compliance Officer",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Head of AI",
+      "Data Privacy Officer",
+      "Customer Experience VP"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "regulatory_assessment",
       "duration": "2 months",
-      "activities": ["EU AI Act analysis", "Industry best practices review", "Gap analysis"],
+      "activities": [
+        "EU AI Act analysis",
+        "Industry best practices review",
+        "Gap analysis"
+      ],
       "outcome": "Strong regulatory imperative for transparency"
     },
     {
       "stage": "technical_evaluation",
       "duration": "3 months",
-      "activities": ["Explainability tool assessment", "Model documentation frameworks", "Pilot implementation"],
+      "activities": [
+        "Explainability tool assessment",
+        "Model documentation frameworks",
+        "Pilot implementation"
+      ],
       "outcome": "Viable technical solutions identified with acceptable performance impact"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "1 month",
-      "activities": ["Customer surveys", "Employee focus groups", "Industry peer discussions"],
+      "activities": [
+        "Customer surveys",
+        "Employee focus groups",
+        "Industry peer discussions"
+      ],
       "outcome": "Strong support for transparency initiatives"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "1 month",
-      "activities": ["ROI modeling", "Compliance cost avoidance", "Competitive advantage assessment"],
+      "activities": [
+        "ROI modeling",
+        "Compliance cost avoidance",
+        "Competitive advantage assessment"
+      ],
       "outcome": "Positive ROI with regulatory risk mitigation"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Enhanced regulatory compliance", "Improved customer trust", "Reduced legal risks"],
+    "expected_benefits": [
+      "Enhanced regulatory compliance",
+      "Improved customer trust",
+      "Reduced legal risks"
+    ],
     "projected_revenue": "$100,000,000 in avoided fines and enhanced reputation",
-    "risk_factors": ["Implementation complexity", "Performance trade-offs", "Competitor advantage"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Performance trade-offs",
+      "Competitor advantage"
+    ]
   }
 }

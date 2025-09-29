@@ -1,8 +1,8 @@
 ## Email Thread: Aerospace Unmanned Systems Certification Update
 
-**From:** Certification Manager, AeroTech  
-**To:** Engineering Team, Regulatory Affairs, Executive Leadership  
-**Subject:** FAA Certification Timeline Update - UAS Integration Project  
+**From:** Certification Manager, AeroTech
+**To:** Engineering Team, Regulatory Affairs, Executive Leadership
+**Subject:** FAA Certification Timeline Update - UAS Integration Project
 
 Team,
 
@@ -21,15 +21,15 @@ Key challenges identified:
 
 This will push our commercial launch back by 3 months. Engineering team, please prioritize the safety enhancements.
 
-Best,  
-Robert Kim  
-Certification Manager  
+Best,
+Robert Kim
+Certification Manager
 
 ---
 
-**From:** Chief Engineer  
-**To:** Certification Manager, Engineering Team  
-**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project  
+**From:** Chief Engineer
+**To:** Certification Manager, Engineering Team
+**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project
 
 Robert,
 
@@ -37,14 +37,14 @@ The engineering team has reviewed the FAA feedback. We can implement the redunda
 
 Should we consider parallel certification in EU markets to accelerate global deployment?
 
-Dr. Maria Sanchez  
-Chief Engineer  
+Dr. Maria Sanchez
+Chief Engineer
 
 ---
 
-**From:** Regulatory Affairs Director  
-**To:** Certification Manager, Chief Engineer, CEO  
-**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project  
+**From:** Regulatory Affairs Director
+**To:** Certification Manager, Chief Engineer, CEO
+**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project
 
 Maria,
 
@@ -52,14 +52,14 @@ EU certification (EASA) would be beneficial but requires separate testing protoc
 
 However, this increases our regulatory budget by $500K. CEO approval needed for this approach.
 
-James Liu  
-Regulatory Affairs Director  
+James Liu
+Regulatory Affairs Director
 
 ---
 
-**From:** CEO  
-**To:** All Recipients  
-**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project  
+**From:** CEO
+**To:** All Recipients
+**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project
 
 James and team,
 
@@ -67,15 +67,15 @@ The EU opportunity makes sense given our international expansion plans. Please p
 
 Keep me updated on progress.
 
-Regards,  
-Alex Thompson  
-CEO  
+Regards,
+Alex Thompson
+CEO
 
 ---
 
-**From:** Certification Manager  
-**To:** All Recipients  
-**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project  
+**From:** Certification Manager
+**To:** All Recipients
+**Subject:** Re: FAA Certification Timeline Update - UAS Integration Project
 
 Thank you, Alex. We'll initiate the EASA process immediately. Updated timeline:
 - FAA certification: Q1 2026

@@ -1,32 +1,47 @@
 workflow:
-  id: "workflow_retail_customer_return"
-  title: "Retail Customer Return Process"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Rep", "Store Manager", "Inventory Clerk"]
-  trigger: "Customer requests product return"
+  id: workflow_retail_customer_return
+  title: Retail Customer Return Process
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Rep
+  - Store Manager
+  - Inventory Clerk
+  trigger: Customer requests product return
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Verify return eligibility and inspect product condition"
-      tools: ["POS system", "Return policy guidelines"]
-      duration: "10 minutes"
-      outputs: ["Return authorization form"]
-    - step: 2
-      actor: "Customer Service Rep"
-      action: "Process refund or exchange in POS system"
-      tools: ["POS system", "Payment processor"]
-      duration: "5 minutes"
-      outputs: ["Refund confirmation", "Updated inventory"]
-    - step: 3
-      actor: "Inventory Clerk"
-      action: "Restock returned item or prepare for disposal"
-      tools: ["Inventory management system"]
-      duration: "5 minutes"
-      outputs: ["Inventory adjustment record"]
-  success_criteria: "Customer satisfied with resolution, inventory accurately updated"
-  failure_modes: ["Damaged product beyond policy", "Receipt not available", "Item out of stock for exchange"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Verify return eligibility and inspect product condition
+    tools:
+    - POS system
+    - Return policy guidelines
+    duration: 10 minutes
+    outputs:
+    - Return authorization form
+  - step: 2
+    actor: Customer Service Rep
+    action: Process refund or exchange in POS system
+    tools:
+    - POS system
+    - Payment processor
+    duration: 5 minutes
+    outputs:
+    - Refund confirmation
+    - Updated inventory
+  - step: 3
+    actor: Inventory Clerk
+    action: Restock returned item or prepare for disposal
+    tools:
+    - Inventory management system
+    duration: 5 minutes
+    outputs:
+    - Inventory adjustment record
+  success_criteria: Customer satisfied with resolution, inventory accurately updated
+  failure_modes:
+  - Damaged product beyond policy
+  - Receipt not available
+  - Item out of stock for exchange
   metrics:
-    - "Return rate: <5% of sales"
-    - "Average resolution time: <15 minutes"
-    - "Customer satisfaction: >90%"
+  - 'Return rate: <5% of sales'
+  - 'Average resolution time: <15 minutes'
+  - 'Customer satisfaction: >90%'

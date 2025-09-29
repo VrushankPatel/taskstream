@@ -1,45 +1,74 @@
 workflow:
-  id: "workflow_insurance_policy_renewal"
-  title: "Insurance Policy Renewal Process"
-  department: "Customer Service"
-  complexity: "medium"
-  participants: ["Customer Service Rep", "Underwriter", "Policyholder", "Billing Department"]
-  trigger: "Policy renewal date approaching (30 days prior)"
+  id: workflow_insurance_policy_renewal
+  title: Insurance Policy Renewal Process
+  department: Customer Service
+  complexity: medium
+  participants:
+  - Customer Service Rep
+  - Underwriter
+  - Policyholder
+  - Billing Department
+  trigger: Policy renewal date approaching (30 days prior)
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Review policy history and prepare renewal quote"
-      tools: ["Policy Management System", "Renewal Calculator"]
-      duration: "10 minutes"
-      outputs: ["Renewal Quote", "Policy Review"]
-    - step: 2
-      actor: "Underwriter"
-      action: "Assess renewal risk and approve terms"
-      tools: ["Underwriting System", "Risk Assessment Tools"]
-      duration: "15 minutes"
-      outputs: ["Risk Assessment", "Renewal Terms"]
-    - step: 3
-      actor: "Customer Service Rep"
-      action: "Contact policyholder with renewal offer"
-      tools: ["CRM System", "Communication Tools"]
-      duration: "5 minutes"
-      outputs: ["Renewal Communication", "Policyholder Response"]
-    - step: 4
-      actor: "Billing Department"
-      action: "Process payment and update policy"
-      tools: ["Billing System", "Policy Management System"]
-      duration: "5 minutes"
-      outputs: ["Payment Processed", "Updated Policy"]
-    - step: 5
-      actor: "Customer Service Rep"
-      action: "Send renewal confirmation and documents"
-      tools: ["Document System", "Email Platform"]
-      duration: "3 minutes"
-      outputs: ["Confirmation Documents", "Policy Update Notification"]
-  success_criteria: "Policy renewed before expiration, customer retained, all systems updated"
-  failure_modes: ["Payment failure", "Policy changes requested", "Risk assessment issues", "Communication delays"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Review policy history and prepare renewal quote
+    tools:
+    - Policy Management System
+    - Renewal Calculator
+    duration: 10 minutes
+    outputs:
+    - Renewal Quote
+    - Policy Review
+  - step: 2
+    actor: Underwriter
+    action: Assess renewal risk and approve terms
+    tools:
+    - Underwriting System
+    - Risk Assessment Tools
+    duration: 15 minutes
+    outputs:
+    - Risk Assessment
+    - Renewal Terms
+  - step: 3
+    actor: Customer Service Rep
+    action: Contact policyholder with renewal offer
+    tools:
+    - CRM System
+    - Communication Tools
+    duration: 5 minutes
+    outputs:
+    - Renewal Communication
+    - Policyholder Response
+  - step: 4
+    actor: Billing Department
+    action: Process payment and update policy
+    tools:
+    - Billing System
+    - Policy Management System
+    duration: 5 minutes
+    outputs:
+    - Payment Processed
+    - Updated Policy
+  - step: 5
+    actor: Customer Service Rep
+    action: Send renewal confirmation and documents
+    tools:
+    - Document System
+    - Email Platform
+    duration: 3 minutes
+    outputs:
+    - Confirmation Documents
+    - Policy Update Notification
+  success_criteria: Policy renewed before expiration, customer retained, all systems
+    updated
+  failure_modes:
+  - Payment failure
+  - Policy changes requested
+  - Risk assessment issues
+  - Communication delays
   metrics:
-    - "Renewal Rate: >85%"
-    - "On-time Renewal: >95%"
-    - "Processing Time: <7 days"
-    - "Customer Satisfaction: >90%"
+  - 'Renewal Rate: >85%'
+  - 'On-time Renewal: >95%'
+  - 'Processing Time: <7 days'
+  - 'Customer Satisfaction: >90%'

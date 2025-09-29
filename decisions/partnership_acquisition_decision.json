@@ -3,8 +3,16 @@
   "context": "Healthcare technology company, 200 employees, pursuing acquisition to accelerate AI diagnostics platform development",
   "stakeholders": {
     "requester": "CEO",
-    "approvers": ["Board of Directors", "Major Investors"],
-    "influencers": ["CFO", "Chief Medical Officer", "Legal Counsel", "Integration Team"]
+    "approvers": [
+      "Board of Directors",
+      "Major Investors"
+    ],
+    "influencers": [
+      "CFO",
+      "Chief Medical Officer",
+      "Legal Counsel",
+      "Integration Team"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,26 +24,45 @@
     {
       "stage": "target_evaluation",
       "duration": "10 weeks",
-      "activities": ["Due diligence (technical, financial, legal)", "Synergy analysis", "Cultural assessment", "Integration planning"],
+      "activities": [
+        "Due diligence (technical, financial, legal)",
+        "Synergy analysis",
+        "Cultural assessment",
+        "Integration planning"
+      ],
       "outcome": "Strong strategic fit confirmed"
     },
     {
       "stage": "valuation_negotiation",
       "duration": "6 weeks",
-      "activities": ["Financial modeling", "Term sheet negotiation", "Regulatory approval planning", "Financing arrangements"],
+      "activities": [
+        "Financial modeling",
+        "Term sheet negotiation",
+        "Regulatory approval planning",
+        "Financing arrangements"
+      ],
       "outcome": "Agreed valuation with earn-out provisions"
     },
     {
       "stage": "board_approval",
       "duration": "2 weeks",
-      "activities": ["Final presentation", "Risk review", "Strategic alignment confirmation", "Voting process"],
+      "activities": [
+        "Final presentation",
+        "Risk review",
+        "Strategic alignment confirmation",
+        "Voting process"
+      ],
       "outcome": "Approved with integration milestones"
     }
   ],
   "business_impact": {
     "expected_revenue_synergies": "$5,000,000 annually",
     "time_to_market_acceleration": "18 months saved",
-    "risk_factors": ["Integration challenges", "Key personnel retention", "Technology integration complexity"],
+    "risk_factors": [
+      "Integration challenges",
+      "Key personnel retention",
+      "Technology integration complexity"
+    ],
     "strategic_value": "Market leadership in AI diagnostics with expanded clinical applications"
   }
 }

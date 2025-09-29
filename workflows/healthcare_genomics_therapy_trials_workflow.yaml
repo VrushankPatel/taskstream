@@ -1,40 +1,69 @@
 workflow:
-  id: "workflow_hg_004"
-  title: "Healthcare Genomics Gene Therapy Clinical Trials Workflow"
-  department: "Clinical Genomics Research"
-  complexity: "high"
-  participants: ["Clinical Trial Managers", "Regulatory Specialists", "Patient Recruitment Coordinators", "Data Analysts", "Ethics Review Board"]
-  trigger: "Preclinical gene therapy data supports clinical advancement"
+  id: workflow_hg_004
+  title: Healthcare Genomics Gene Therapy Clinical Trials Workflow
+  department: Clinical Genomics Research
+  complexity: high
+  participants:
+  - Clinical Trial Managers
+  - Regulatory Specialists
+  - Patient Recruitment Coordinators
+  - Data Analysts
+  - Ethics Review Board
+  trigger: Preclinical gene therapy data supports clinical advancement
   steps:
-    - step: 1
-      actor: "Regulatory Specialists"
-      action: "Prepare and submit clinical trial application to regulatory bodies"
-      tools: ["Regulatory submission platforms", "Clinical trial databases"]
-      duration: "10 weeks"
-      outputs: ["Trial application", "Regulatory correspondence"]
-    - step: 2
-      actor: "Ethics Review Board"
-      action: "Conduct ethical review and approve trial protocol"
-      tools: ["Ethics review frameworks", "IRB management systems"]
-      duration: "6 weeks"
-      outputs: ["Ethics approval", "Protocol modifications"]
-    - step: 3
-      actor: "Patient Recruitment Coordinators"
-      action: "Develop recruitment strategy and identify eligible participants"
-      tools: ["Patient registries", "Recruitment management software"]
-      duration: "8 weeks"
-      outputs: ["Recruitment strategy", "Participant database"]
-    - step: 4
-      actor: "Clinical Trial Managers"
-      action: "Oversee trial execution and monitor patient safety"
-      tools: ["Clinical trial management systems", "Safety monitoring platforms"]
-      duration: "32 weeks"
-      outputs: ["Trial progress reports", "Safety data"]
-    - step: 5
-      actor: "Data Analysts"
-      action: "Analyze trial results and prepare regulatory submissions"
-      tools: ["Statistical analysis software", "Regulatory reporting tools"]
-      duration: "10 weeks"
-      outputs: ["Trial results analysis", "Regulatory submission package"]
-  success_criteria: "Successful trial completion with positive efficacy and safety outcomes"
-  failure_modes: ["Recruitment difficulties", "Safety concerns", "Regulatory rejections"]
+  - step: 1
+    actor: Regulatory Specialists
+    action: Prepare and submit clinical trial application to regulatory bodies
+    tools:
+    - Regulatory submission platforms
+    - Clinical trial databases
+    duration: 10 weeks
+    outputs:
+    - Trial application
+    - Regulatory correspondence
+  - step: 2
+    actor: Ethics Review Board
+    action: Conduct ethical review and approve trial protocol
+    tools:
+    - Ethics review frameworks
+    - IRB management systems
+    duration: 6 weeks
+    outputs:
+    - Ethics approval
+    - Protocol modifications
+  - step: 3
+    actor: Patient Recruitment Coordinators
+    action: Develop recruitment strategy and identify eligible participants
+    tools:
+    - Patient registries
+    - Recruitment management software
+    duration: 8 weeks
+    outputs:
+    - Recruitment strategy
+    - Participant database
+  - step: 4
+    actor: Clinical Trial Managers
+    action: Oversee trial execution and monitor patient safety
+    tools:
+    - Clinical trial management systems
+    - Safety monitoring platforms
+    duration: 32 weeks
+    outputs:
+    - Trial progress reports
+    - Safety data
+  - step: 5
+    actor: Data Analysts
+    action: Analyze trial results and prepare regulatory submissions
+    tools:
+    - Statistical analysis software
+    - Regulatory reporting tools
+    duration: 10 weeks
+    outputs:
+    - Trial results analysis
+    - Regulatory submission package
+  success_criteria: Successful trial completion with positive efficacy and safety
+    outcomes
+  failure_modes:
+  - Recruitment difficulties
+  - Safety concerns
+  - Regulatory rejections

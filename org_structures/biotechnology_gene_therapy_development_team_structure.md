@@ -6,7 +6,7 @@ The Gene Therapy Development Team is a specialized cross-functional organization
 **Team Size:** 150 members
 **Reporting Structure:** Reports to Chief Executive Officer
 **Budget:** $75 million annually
-**Location:** Integrated R&D and manufacturing campus with global clinical operations  
+**Location:** Integrated R&D and manufacturing campus with global clinical operations
 
 ## Leadership Structure
 

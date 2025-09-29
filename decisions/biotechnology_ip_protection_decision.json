@@ -3,8 +3,17 @@
   "context": "Biotechnology company developing novel gene therapy platform needs comprehensive IP protection strategy across multiple jurisdictions",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Chief Legal Officer", "Board of Directors"],
-    "influencers": ["VP Research", "Head of Business Development", "External IP Counsel", "Regulatory Affairs Lead"]
+    "approvers": [
+      "CEO",
+      "Chief Legal Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Research",
+      "Head of Business Development",
+      "External IP Counsel",
+      "Regulatory Affairs Lead"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,40 +25,76 @@
     {
       "stage": "ip_landscape_analysis",
       "duration": "8 weeks",
-      "activities": ["Patent landscape review", "Freedom-to-operate analysis", "Competitive IP assessment", "Licensing opportunity evaluation"],
+      "activities": [
+        "Patent landscape review",
+        "Freedom-to-operate analysis",
+        "Competitive IP assessment",
+        "Licensing opportunity evaluation"
+      ],
       "outcome": "Identified 15 core patent families and 8 licensing opportunities"
     },
     {
       "stage": "strategic_positioning",
       "duration": "6 weeks",
-      "activities": ["IP portfolio valuation", "Market positioning analysis", "Defensive publication strategy", "Licensing revenue modeling"],
+      "activities": [
+        "IP portfolio valuation",
+        "Market positioning analysis",
+        "Defensive publication strategy",
+        "Licensing revenue modeling"
+      ],
       "outcome": "Developed comprehensive IP strategy balancing protection with commercialization"
     },
     {
       "stage": "regulatory_considerations",
       "duration": "4 weeks",
-      "activities": ["Patent eligibility assessment", "Regulatory exclusivity analysis", "International filing strategy", "IP enforcement planning"],
+      "activities": [
+        "Patent eligibility assessment",
+        "Regulatory exclusivity analysis",
+        "International filing strategy",
+        "IP enforcement planning"
+      ],
       "outcome": "Clear pathway for patent protection in key markets (US, EU, China, Japan)"
     },
     {
       "stage": "financial_evaluation",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Funding requirements", "Risk assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Funding requirements",
+        "Risk assessment"
+      ],
       "outcome": "Projected 300% ROI over 10 years with strong defensive positioning"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Q&A session", "Final strategy approval", "Budget allocation"],
+      "activities": [
+        "Board presentation",
+        "Q&A session",
+        "Final strategy approval",
+        "Budget allocation"
+      ],
       "outcome": "Approved comprehensive IP protection strategy with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "Secure IP leadership in gene therapy space enabling premium partnerships and market dominance",
     "projected_value": "$800,000,000",
-    "risk_factors": ["Patent rejections in key jurisdictions", "Competitor workarounds", "Regulatory changes affecting patent eligibility", "High litigation costs"]
+    "risk_factors": [
+      "Patent rejections in key jurisdictions",
+      "Competitor workarounds",
+      "Regulatory changes affecting patent eligibility",
+      "High litigation costs"
+    ]
   },
-  "decision_criteria": ["IP strength and defensibility", "Market protection coverage", "Financial returns", "Regulatory compliance", "Implementation feasibility"],
+  "decision_criteria": [
+    "IP strength and defensibility",
+    "Market protection coverage",
+    "Financial returns",
+    "Regulatory compliance",
+    "Implementation feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early defensive publications prevented competitor blocking patents; international filing strategy critical for global protection"
 }

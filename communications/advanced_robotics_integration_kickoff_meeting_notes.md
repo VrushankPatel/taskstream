@@ -1,15 +1,15 @@
 # Advanced Robotics Integration Kickoff Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Conference Room A, Manufacturing HQ  
-**Attendees:**  
-- John Martinez, Chief Operations Officer  
-- Sarah Chen, Manufacturing Director  
-- Dr. Robert Kim, Robotics Engineering Lead  
-- Lisa Thompson, Safety Compliance Manager  
-- Mark Johnson, Production Manager  
-- External Consultant: Dr. Elena Rodriguez, Robotics Integration Specialist  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Conference Room A, Manufacturing HQ
+**Attendees:**
+- John Martinez, Chief Operations Officer
+- Sarah Chen, Manufacturing Director
+- Dr. Robert Kim, Robotics Engineering Lead
+- Lisa Thompson, Safety Compliance Manager
+- Mark Johnson, Production Manager
+- External Consultant: Dr. Elena Rodriguez, Robotics Integration Specialist
 
 ## Meeting Objective
 Kick off the collaborative robotics integration project across our 12 manufacturing facilities, establishing project governance, timelines, and initial action items.

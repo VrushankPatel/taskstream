@@ -1,47 +1,83 @@
 workflow:
-  id: "workflow_international_cultural_adaptation"
-  title: "International Operations Cultural Adaptation Workflow"
-  department: "Global Operations/HR"
-  complexity: "medium"
-  participants: ["Cultural Adaptation Specialists", "Local HR Managers", "Global Operations Leaders", "Training Coordinators", "Communication Teams", "Legal Counsel"]
-  trigger: "New market entry or significant expansion requiring cultural integration"
+  id: workflow_international_cultural_adaptation
+  title: International Operations Cultural Adaptation Workflow
+  department: Global Operations/HR
+  complexity: medium
+  participants:
+  - Cultural Adaptation Specialists
+  - Local HR Managers
+  - Global Operations Leaders
+  - Training Coordinators
+  - Communication Teams
+  - Legal Counsel
+  trigger: New market entry or significant expansion requiring cultural integration
   steps:
-    - step: 1
-      actor: "Cultural Adaptation Specialists"
-      action: "Conduct comprehensive cultural assessment of target market"
-      tools: ["Cultural assessment frameworks", "Market research tools"]
-      duration: "3 weeks"
-      outputs: ["Cultural assessment report", "Adaptation requirements"]
-    - step: 2
-      actor: "Local HR Managers"
-      action: "Develop localized HR policies and employment practices"
-      tools: ["HR policy frameworks", "Local labor law databases"]
-      duration: "4 weeks"
-      outputs: ["Localized HR policies", "Employment practice guidelines"]
-    - step: 3
-      actor: "Global Operations Leaders"
-      action: "Adapt operational processes for local market requirements"
-      tools: ["Process adaptation frameworks", "Local market analysis"]
-      duration: "5 weeks"
-      outputs: ["Adapted operational processes", "Local market strategies"]
-      decision_points: ["Cultural compatibility", "Operational feasibility"]
-    - step: 4
-      actor: "Training Coordinators"
-      action: "Develop and deliver cultural adaptation training programs"
-      tools: ["Training development platforms", "Cultural training materials"]
-      duration: "4 weeks"
-      outputs: ["Training programs", "Cultural adaptation materials"]
-    - step: 5
-      actor: "Communication Teams"
-      action: "Design internal and external communication strategies for cultural adaptation"
-      tools: ["Communication planning tools", "Multilingual content platforms"]
-      duration: "3 weeks"
-      outputs: ["Communication strategies", "Multilingual materials"]
-    - step: 6
-      actor: "Legal Counsel"
-      action: "Ensure legal compliance with local cultural and employment regulations"
-      tools: ["Legal compliance databases", "Regulatory analysis tools"]
-      duration: "2 weeks"
-      outputs: ["Legal compliance review", "Regulatory adaptation plans"]
-  success_criteria: "Successful cultural integration enabling effective operations and positive stakeholder relationships in new markets"
-  failure_modes: ["Cultural misunderstandings causing operational disruptions", "Legal non-compliance from inadequate adaptation", "Employee dissatisfaction from poor cultural integration"]
+  - step: 1
+    actor: Cultural Adaptation Specialists
+    action: Conduct comprehensive cultural assessment of target market
+    tools:
+    - Cultural assessment frameworks
+    - Market research tools
+    duration: 3 weeks
+    outputs:
+    - Cultural assessment report
+    - Adaptation requirements
+  - step: 2
+    actor: Local HR Managers
+    action: Develop localized HR policies and employment practices
+    tools:
+    - HR policy frameworks
+    - Local labor law databases
+    duration: 4 weeks
+    outputs:
+    - Localized HR policies
+    - Employment practice guidelines
+  - step: 3
+    actor: Global Operations Leaders
+    action: Adapt operational processes for local market requirements
+    tools:
+    - Process adaptation frameworks
+    - Local market analysis
+    duration: 5 weeks
+    outputs:
+    - Adapted operational processes
+    - Local market strategies
+    decision_points:
+    - Cultural compatibility
+    - Operational feasibility
+  - step: 4
+    actor: Training Coordinators
+    action: Develop and deliver cultural adaptation training programs
+    tools:
+    - Training development platforms
+    - Cultural training materials
+    duration: 4 weeks
+    outputs:
+    - Training programs
+    - Cultural adaptation materials
+  - step: 5
+    actor: Communication Teams
+    action: Design internal and external communication strategies for cultural adaptation
+    tools:
+    - Communication planning tools
+    - Multilingual content platforms
+    duration: 3 weeks
+    outputs:
+    - Communication strategies
+    - Multilingual materials
+  - step: 6
+    actor: Legal Counsel
+    action: Ensure legal compliance with local cultural and employment regulations
+    tools:
+    - Legal compliance databases
+    - Regulatory analysis tools
+    duration: 2 weeks
+    outputs:
+    - Legal compliance review
+    - Regulatory adaptation plans
+  success_criteria: Successful cultural integration enabling effective operations
+    and positive stakeholder relationships in new markets
+  failure_modes:
+  - Cultural misunderstandings causing operational disruptions
+  - Legal non-compliance from inadequate adaptation
+  - Employee dissatisfaction from poor cultural integration

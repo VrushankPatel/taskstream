@@ -1,17 +1,17 @@
 # International Market Expansion Enterprise Implementation Kickoff Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Global Strategy Conference Room  
-**Attendees:**  
-- CEO (John Smith)  
-- CFO (Sarah Johnson)  
-- Chief Strategy Officer (Michael Chen)  
-- Chief Operating Officer (David Lee)  
-- VP International Operations (Maria Garcia)  
-- VP Marketing (James Wilson)  
-- VP HR (Emma Thompson)  
-- Regional Directors (Asia-Pacific, Europe, Americas)  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Global Strategy Conference Room
+**Attendees:**
+- CEO (John Smith)
+- CFO (Sarah Johnson)
+- Chief Strategy Officer (Michael Chen)
+- Chief Operating Officer (David Lee)
+- VP International Operations (Maria Garcia)
+- VP Marketing (James Wilson)
+- VP HR (Emma Thompson)
+- Regional Directors (Asia-Pacific, Europe, Americas)
 
 ## Meeting Objective
 Align on the phased regional expansion strategy approved by the board and establish implementation roadmap for international market expansion.

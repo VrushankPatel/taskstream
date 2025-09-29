@@ -3,8 +3,17 @@
   "context": "Urban transportation company, 2,000 employees, evaluating entry into urban air mobility market with eVTOL aircraft",
   "stakeholders": {
     "requester": "VP of Innovation",
-    "approvers": ["CEO", "Chief Operating Officer", "Board of Directors"],
-    "influencers": ["Chief Technology Officer", "Head of Regulatory Affairs", "VP of Finance", "Urban Planning Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Head of Regulatory Affairs",
+      "VP of Finance",
+      "Urban Planning Partners"
+    ]
   },
   "request": {
     "amount": "$500 million",
@@ -16,38 +25,73 @@
     {
       "stage": "market_feasibility",
       "duration": "4 months",
-      "activities": ["Demand analysis for urban routes", "Competitor assessment", "Regulatory landscape review", "Technology readiness evaluation"],
+      "activities": [
+        "Demand analysis for urban routes",
+        "Competitor assessment",
+        "Regulatory landscape review",
+        "Technology readiness evaluation"
+      ],
       "outcome": "Identified high-demand corridors in 5 major cities with 40% cost savings over ground transport"
     },
     {
       "stage": "partnership_development",
       "duration": "3 months",
-      "activities": ["Aircraft manufacturer selection", "Airport authority negotiations", "Insurance provider discussions", "Pilot training program design"],
+      "activities": [
+        "Aircraft manufacturer selection",
+        "Airport authority negotiations",
+        "Insurance provider discussions",
+        "Pilot training program design"
+      ],
       "outcome": "Secured partnerships with leading eVTOL manufacturer and 3 major metropolitan areas"
     },
     {
       "stage": "financial_structuring",
       "duration": "2 months",
-      "activities": ["Funding strategy development", "Revenue model design", "Cost structure analysis", "Break-even analysis"],
+      "activities": [
+        "Funding strategy development",
+        "Revenue model design",
+        "Cost structure analysis",
+        "Break-even analysis"
+      ],
       "outcome": "Structured $300 million equity investment with $200 million debt financing, targeting 25% IRR"
     },
     {
       "stage": "regulatory_approval",
       "duration": "6 months",
-      "activities": ["FAA certification process", "Local airspace approvals", "Noise and emissions compliance", "Public safety demonstrations"],
+      "activities": [
+        "FAA certification process",
+        "Local airspace approvals",
+        "Noise and emissions compliance",
+        "Public safety demonstrations"
+      ],
       "outcome": "Received provisional approval for limited commercial operations, full certification expected 2026"
     },
     {
       "stage": "executive_approval",
       "duration": "1 month",
-      "activities": ["Final business case presentation", "Risk mitigation strategy review", "Board discussion and approval", "Launch timeline planning"],
+      "activities": [
+        "Final business case presentation",
+        "Risk mitigation strategy review",
+        "Board discussion and approval",
+        "Launch timeline planning"
+      ],
       "outcome": "Approved with phased rollout: pilot service in 2 cities by 2026, full network by 2028"
     }
   ],
   "business_impact": {
     "expected_revenue": "$150 million annually by 2030",
     "projected_market_penetration": "20% of premium urban transport market",
-    "risk_factors": ["Regulatory delays in certification", "Public acceptance and safety concerns", "Technology reliability issues", "High infrastructure costs"],
-    "strategic_benefits": ["First-mover advantage in UAM", "Sustainability leadership", "Diversification from traditional transport", "Technology platform for future services"]
+    "risk_factors": [
+      "Regulatory delays in certification",
+      "Public acceptance and safety concerns",
+      "Technology reliability issues",
+      "High infrastructure costs"
+    ],
+    "strategic_benefits": [
+      "First-mover advantage in UAM",
+      "Sustainability leadership",
+      "Diversification from traditional transport",
+      "Technology platform for future services"
+    ]
   }
 }

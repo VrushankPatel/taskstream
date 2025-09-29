@@ -1,8 +1,8 @@
 ## Communication Thread: Hospitality Staffing Crisis During Peak Season
 
-**From:** Human Resources Director  
-**To:** General Manager, Department Heads, Regional HR Team  
-**Subject:** Critical: Severe Staffing Shortage - Peak Season Impact  
+**From:** Human Resources Director
+**To:** General Manager, Department Heads, Regional HR Team
+**Subject:** Critical: Severe Staffing Shortage - Peak Season Impact
 
 The regional labor market conditions have created unprecedented staffing challenges. We're currently 25% below optimal staffing levels across all departments.
 
@@ -18,9 +18,9 @@ The regional labor market conditions have created unprecedented staffing challen
 3. **Cross-Training:** Implement staff cross-training to cover critical positions
 4. **Guest Communication:** Prepare messaging about potential service adjustments
 
-**From:** General Manager  
-**To:** Human Resources Director, Department Heads, Executive Team  
-**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact  
+**From:** General Manager
+**To:** Human Resources Director, Department Heads, Executive Team
+**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact
 
 This is unacceptable. We're in the heart of our peak revenue season.
 
@@ -32,9 +32,9 @@ This is unacceptable. We're in the heart of our peak revenue season.
 
 We cannot let this impact our 4.8-star rating. Daily updates required.
 
-**From:** Front Office Manager  
-**To:** General Manager, Human Resources Director  
-**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact  
+**From:** Front Office Manager
+**To:** General Manager, Human Resources Director
+**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact
 
 **Front Desk Update:**
 - Hired 3 temporary staff today through agency
@@ -46,9 +46,9 @@ We cannot let this impact our 4.8-star rating. Daily updates required.
 - Training time for temporary staff impacting efficiency
 - Higher turnover among temporary workers
 
-**From:** Human Resources Director  
-**To:** Executive Team, Department Heads  
-**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact  
+**From:** Human Resources Director
+**To:** Executive Team, Department Heads
+**Subject:** Re: Critical: Severe Staffing Shortage - Peak Season Impact
 
 **Week 2 Update - Progress Made:**
 

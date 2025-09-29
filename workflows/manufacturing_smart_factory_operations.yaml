@@ -1,46 +1,73 @@
 workflow:
-  id: "workflow_manufacturing_smart_factory"
-  title: "Smart Factory Operations Management"
-  department: "Manufacturing Operations"
-  complexity: "high"
-  participants: ["Production Manager", "IoT Engineer", "Maintenance Technician", "Quality Control Inspector", "Data Analyst"]
-  trigger: "Production line startup or anomaly detection alert"
+  id: workflow_manufacturing_smart_factory
+  title: Smart Factory Operations Management
+  department: Manufacturing Operations
+  complexity: high
+  participants:
+  - Production Manager
+  - IoT Engineer
+  - Maintenance Technician
+  - Quality Control Inspector
+  - Data Analyst
+  trigger: Production line startup or anomaly detection alert
   steps:
-    - step: 1
-      actor: "IoT Engineer"
-      action: "Monitor sensor data and equipment performance metrics"
-      tools: ["IoT Dashboard", "Predictive Analytics Software"]
-      duration: "Continuous monitoring"
-      outputs: ["Performance Metrics Report"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Analyze production data for optimization opportunities"
-      tools: ["Data Analytics Platform", "Machine Learning Models"]
-      duration: "1 hour daily"
-      outputs: ["Optimization Recommendations"]
-    - step: 3
-      actor: "Production Manager"
-      action: "Review optimization recommendations and plan adjustments"
-      decision_points: ["Cost Impact", "Production Schedule Impact"]
-      duration: "30 minutes"
-      outputs: ["Adjustment Plan"]
-    - step: 4
-      actor: "Maintenance Technician"
-      action: "Perform predictive maintenance on identified equipment"
-      tools: ["Maintenance Management System", "AR Maintenance Guides"]
-      duration: "2-4 hours"
-      outputs: ["Maintenance Report"]
-    - step: 5
-      actor: "Quality Control Inspector"
-      action: "Verify product quality using automated inspection systems"
-      tools: ["Quality Control Software", "Vision Systems"]
-      duration: "15 minutes per batch"
-      outputs: ["Quality Assurance Report"]
-    - step: 6
-      actor: "Production Manager"
-      action: "Implement process improvements based on data insights"
-      tools: ["Process Automation Tools"]
-      duration: "1-2 hours"
-      outputs: ["Improvement Implementation Report"]
-  success_criteria: "Optimized production efficiency, reduced downtime, maintained quality standards"
-  failure_modes: ["Sensor failure", "Data analysis errors", "Maintenance scheduling conflicts", "Quality control overrides"]
+  - step: 1
+    actor: IoT Engineer
+    action: Monitor sensor data and equipment performance metrics
+    tools:
+    - IoT Dashboard
+    - Predictive Analytics Software
+    duration: Continuous monitoring
+    outputs:
+    - Performance Metrics Report
+  - step: 2
+    actor: Data Analyst
+    action: Analyze production data for optimization opportunities
+    tools:
+    - Data Analytics Platform
+    - Machine Learning Models
+    duration: 1 hour daily
+    outputs:
+    - Optimization Recommendations
+  - step: 3
+    actor: Production Manager
+    action: Review optimization recommendations and plan adjustments
+    decision_points:
+    - Cost Impact
+    - Production Schedule Impact
+    duration: 30 minutes
+    outputs:
+    - Adjustment Plan
+  - step: 4
+    actor: Maintenance Technician
+    action: Perform predictive maintenance on identified equipment
+    tools:
+    - Maintenance Management System
+    - AR Maintenance Guides
+    duration: 2-4 hours
+    outputs:
+    - Maintenance Report
+  - step: 5
+    actor: Quality Control Inspector
+    action: Verify product quality using automated inspection systems
+    tools:
+    - Quality Control Software
+    - Vision Systems
+    duration: 15 minutes per batch
+    outputs:
+    - Quality Assurance Report
+  - step: 6
+    actor: Production Manager
+    action: Implement process improvements based on data insights
+    tools:
+    - Process Automation Tools
+    duration: 1-2 hours
+    outputs:
+    - Improvement Implementation Report
+  success_criteria: Optimized production efficiency, reduced downtime, maintained
+    quality standards
+  failure_modes:
+  - Sensor failure
+  - Data analysis errors
+  - Maintenance scheduling conflicts
+  - Quality control overrides

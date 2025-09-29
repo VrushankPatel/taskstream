@@ -3,8 +3,16 @@
   "context": "Consumer brand building long-term influencer partnerships for authentic marketing",
   "stakeholders": {
     "requester": "VP Marketing",
-    "approvers": ["CMO", "CEO", "Brand Director"],
-    "influencers": ["Influencer Agency", "Legal Team", "Content Team"]
+    "approvers": [
+      "CMO",
+      "CEO",
+      "Brand Director"
+    ],
+    "influencers": [
+      "Influencer Agency",
+      "Legal Team",
+      "Content Team"
+    ]
   },
   "request": {
     "amount": "$3 million",
@@ -16,25 +24,41 @@
     {
       "stage": "strategy_development",
       "duration": "1 month",
-      "activities": ["Current influencer program assessment", "Relationship model design", "ROI framework development"],
+      "activities": [
+        "Current influencer program assessment",
+        "Relationship model design",
+        "ROI framework development"
+      ],
       "outcome": "Long-term partnership approach validated"
     },
     {
       "stage": "program_design",
       "duration": "2 months",
-      "activities": ["Influencer tier system", "Contract templates", "Performance metrics"],
+      "activities": [
+        "Influencer tier system",
+        "Contract templates",
+        "Performance metrics"
+      ],
       "outcome": "Comprehensive relationship management framework"
     },
     {
       "stage": "pilot_implementation",
       "duration": "3 months",
-      "activities": ["Select pilot influencers", "Relationship building", "Performance monitoring"],
+      "activities": [
+        "Select pilot influencers",
+        "Relationship building",
+        "Performance monitoring"
+      ],
       "outcome": "Successful pilot with measurable engagement lift"
     }
   ],
   "business_impact": {
     "expected_benefits": "Higher engagement rates, authentic brand storytelling",
     "projected_revenue": "$20 million incremental sales from influencer-driven campaigns",
-    "risk_factors": ["Relationship management complexity", "FTC compliance", "Influencer availability"]
+    "risk_factors": [
+      "Relationship management complexity",
+      "FTC compliance",
+      "Influencer availability"
+    ]
   }
 }

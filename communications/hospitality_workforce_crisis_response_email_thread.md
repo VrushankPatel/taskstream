@@ -1,9 +1,9 @@
 ## Email Thread: Hospitality Workforce Crisis Response
 
-**From:** General Manager  
-**To:** Department Heads, HR Director  
-**Subject:** Urgent: Workforce Shortage Response Plan  
-**Date:** September 20, 2025  
+**From:** General Manager
+**To:** Department Heads, HR Director
+**Subject:** Urgent: Workforce Shortage Response Plan
+**Date:** September 20, 2025
 
 Team,
 
@@ -16,10 +16,10 @@ Key impacts:
 
 We need immediate action to maintain service standards. Please prepare department-specific contingency plans by COB tomorrow.
 
-**From:** HR Director  
-**To:** General Manager, Department Heads  
-**Subject:** Re: Urgent: Workforce Crisis Response Plan  
-**Date:** September 20, 2025  
+**From:** HR Director
+**To:** General Manager, Department Heads
+**Subject:** Re: Urgent: Workforce Crisis Response Plan
+**Date:** September 20, 2025
 
 General Manager,
 
@@ -33,10 +33,10 @@ Immediate recommendations:
 
 I'll coordinate with department heads to implement these measures. Budget approval needed for wage adjustments.
 
-**From:** Food & Beverage Manager  
-**To:** General Manager, HR Director, Department Heads  
-**Subject:** Re: Urgent: Workforce Crisis Response Plan  
-**Date:** September 20, 2025  
+**From:** Food & Beverage Manager
+**To:** General Manager, HR Director, Department Heads
+**Subject:** Re: Urgent: Workforce Crisis Response Plan
+**Date:** September 20, 2025
 
 Adding to HR's recommendations, we should also consider:
 - Simplified menu options to reduce preparation complexity
@@ -45,10 +45,10 @@ Adding to HR's recommendations, we should also consider:
 
 This could help us maintain 80% of normal service levels with current staffing.
 
-**From:** General Manager  
-**To:** Department Heads, HR Director, Food & Beverage Manager  
-**Subject:** Re: Urgent: Workforce Crisis Response Plan - Action Items  
-**Date:** September 21, 2025  
+**From:** General Manager
+**To:** Department Heads, HR Director, Food & Beverage Manager
+**Subject:** Re: Urgent: Workforce Crisis Response Plan - Action Items
+**Date:** September 21, 2025
 
 Thank you for the quick responses. Based on the input, here's our action plan:
 

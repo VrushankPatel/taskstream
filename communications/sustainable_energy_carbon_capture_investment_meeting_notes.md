@@ -1,9 +1,9 @@
 # Sustainable Energy Carbon Capture Investment Meeting Notes
 
-**Date:** October 20, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual Meeting  
-**Attendees:** CEO, CFO, Chief Sustainability Officer, Engineering Director, Environmental Scientist, Investor Relations Manager  
+**Date:** October 20, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual Meeting
+**Attendees:** CEO, CFO, Chief Sustainability Officer, Engineering Director, Environmental Scientist, Investor Relations Manager
 
 ## Meeting Objective
 Review and approve $200 million investment in direct air capture technology for carbon neutrality goals.

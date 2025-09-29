@@ -163,6 +163,6 @@ This policy applies to all influencer collaborations, sponsored content, brand p
 - Content Creation Policy
 - Data Privacy Policy
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** October 28, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** October 28, 2025
 **Next Review Date:** October 28, 2026

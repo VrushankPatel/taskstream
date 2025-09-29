@@ -3,8 +3,16 @@
   "context": "Global manufacturing company, 10,000 employees, planning supply chain digitization initiative",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "CFO", "CTO"],
-    "influencers": ["Procurement Director", "Operations VP", "Supplier Relations Team"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "CTO"
+    ],
+    "influencers": [
+      "Procurement Director",
+      "Operations VP",
+      "Supplier Relations Team"
+    ]
   },
   "request": {
     "amount": "$15M",
@@ -16,25 +24,41 @@
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["Technology assessment", "Supplier capability analysis", "Pilot site selection"],
+      "activities": [
+        "Technology assessment",
+        "Supplier capability analysis",
+        "Pilot site selection"
+      ],
       "outcome": "Blockchain and IoT combination selected"
     },
     {
       "stage": "business_case_development",
       "duration": "6 weeks",
-      "activities": ["Cost-benefit analysis", "Risk assessment", "Implementation roadmap"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment",
+        "Implementation roadmap"
+      ],
       "outcome": "Strong ROI projected, approved for phased rollout"
     },
     {
       "stage": "supplier_engagement",
       "duration": "8 weeks",
-      "activities": ["Supplier onboarding", "Training programs", "Integration testing"],
+      "activities": [
+        "Supplier onboarding",
+        "Training programs",
+        "Integration testing"
+      ],
       "outcome": "80% key suppliers committed to digitization"
     }
   ],
   "business_impact": {
     "expected_cost_reduction": "25%",
     "projected_visibility_improvement": "90%",
-    "risk_factors": ["Supplier adoption resistance", "Cybersecurity vulnerabilities", "Integration complexity"]
+    "risk_factors": [
+      "Supplier adoption resistance",
+      "Cybersecurity vulnerabilities",
+      "Integration complexity"
+    ]
   }
 }

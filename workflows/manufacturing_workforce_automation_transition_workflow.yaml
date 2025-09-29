@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_manufacturing_workforce_automation_transition"
-  title: "Workforce Automation Transition and Retraining Program"
-  department: "Human Resources & Operations"
-  complexity: "high"
-  participants: ["HR Director", "Operations Manager", "Training Coordinators", "Union Representatives", "Technology Implementation Team"]
-  trigger: "Automation technology implementation approved"
+  id: workflow_manufacturing_workforce_automation_transition
+  title: Workforce Automation Transition and Retraining Program
+  department: Human Resources & Operations
+  complexity: high
+  participants:
+  - HR Director
+  - Operations Manager
+  - Training Coordinators
+  - Union Representatives
+  - Technology Implementation Team
+  trigger: Automation technology implementation approved
   steps:
-    - step: 1
-      actor: "Operations Manager"
-      action: "Conduct workforce impact assessment and identify affected roles"
-      tools: ["Workforce Planning Software", "Job Analysis Tools"]
-      duration: "4 weeks"
-      outputs: ["Workforce Impact Report", "Affected Role Inventory"]
-    - step: 2
-      actor: "HR Director"
-      action: "Develop transition strategy including redeployment and severance options"
-      tools: ["Change Management Framework", "Severance Policy Templates"]
-      duration: "6 weeks"
-      outputs: ["Transition Strategy Document", "Redeployment Plans"]
-    - step: 3
-      actor: "Training Coordinators"
-      action: "Design comprehensive retraining programs for displaced workers"
-      tools: ["Learning Management System", "Skills Assessment Tools"]
-      duration: "8 weeks"
-      outputs: ["Retraining Curriculum", "Skills Gap Analysis"]
-    - step: 4
-      actor: "Union Representatives"
-      action: "Negotiate transition agreements and worker protections"
-      tools: ["Collective Bargaining Framework", "Legal Consultation Services"]
-      duration: "8-12 weeks"
-      outputs: ["Transition Agreements", "Worker Protection Clauses"]
-    - step: 5
-      actor: "Technology Implementation Team"
-      action: "Provide hands-on training and support during automation rollout"
-      tools: ["Training Simulation Software", "On-site Support Resources"]
-      duration: "12 weeks phased rollout"
-      outputs: ["Training Completion Records", "System Adoption Metrics"]
-    - step: 6
-      actor: "HR Director"
-      action: "Monitor transition success and provide ongoing support services"
-      tools: ["Employee Assistance Program", "Career Transition Services"]
-      duration: "6 months post-implementation"
-      outputs: ["Transition Success Reports", "Employee Satisfaction Surveys"]
-  success_criteria: "80% of affected workers successfully retrained or redeployed, productivity maintained during transition"
-  failure_modes: ["Resistance to change from workforce", "Inadequate training resources", "Union negotiation breakdowns"]
+  - step: 1
+    actor: Operations Manager
+    action: Conduct workforce impact assessment and identify affected roles
+    tools:
+    - Workforce Planning Software
+    - Job Analysis Tools
+    duration: 4 weeks
+    outputs:
+    - Workforce Impact Report
+    - Affected Role Inventory
+  - step: 2
+    actor: HR Director
+    action: Develop transition strategy including redeployment and severance options
+    tools:
+    - Change Management Framework
+    - Severance Policy Templates
+    duration: 6 weeks
+    outputs:
+    - Transition Strategy Document
+    - Redeployment Plans
+  - step: 3
+    actor: Training Coordinators
+    action: Design comprehensive retraining programs for displaced workers
+    tools:
+    - Learning Management System
+    - Skills Assessment Tools
+    duration: 8 weeks
+    outputs:
+    - Retraining Curriculum
+    - Skills Gap Analysis
+  - step: 4
+    actor: Union Representatives
+    action: Negotiate transition agreements and worker protections
+    tools:
+    - Collective Bargaining Framework
+    - Legal Consultation Services
+    duration: 8-12 weeks
+    outputs:
+    - Transition Agreements
+    - Worker Protection Clauses
+  - step: 5
+    actor: Technology Implementation Team
+    action: Provide hands-on training and support during automation rollout
+    tools:
+    - Training Simulation Software
+    - On-site Support Resources
+    duration: 12 weeks phased rollout
+    outputs:
+    - Training Completion Records
+    - System Adoption Metrics
+  - step: 6
+    actor: HR Director
+    action: Monitor transition success and provide ongoing support services
+    tools:
+    - Employee Assistance Program
+    - Career Transition Services
+    duration: 6 months post-implementation
+    outputs:
+    - Transition Success Reports
+    - Employee Satisfaction Surveys
+  success_criteria: 80% of affected workers successfully retrained or redeployed,
+    productivity maintained during transition
+  failure_modes:
+  - Resistance to change from workforce
+  - Inadequate training resources
+  - Union negotiation breakdowns

@@ -1,13 +1,28 @@
 {
   "scenario_id": "advanced_robotics_integration_decision",
   "context": "Manufacturing company evaluating integration of collaborative robots to improve production efficiency and worker safety",
-   "stakeholders": {
-     "requester": "Operations Director",
-     "approvers": ["CEO", "CFO", "Union Leadership"],
-     "influencers": ["Engineering Team", "Workforce Representatives", "Safety Committee"],
-     "consultants": ["External Robotics Experts", "Ergonomics Specialists"],
-     "impacted_parties": ["Production Workers", "Maintenance Staff", "Quality Control Team"]
-   },
+  "stakeholders": {
+    "requester": "Operations Director",
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Union Leadership"
+    ],
+    "influencers": [
+      "Engineering Team",
+      "Workforce Representatives",
+      "Safety Committee"
+    ],
+    "consultants": [
+      "External Robotics Experts",
+      "Ergonomics Specialists"
+    ],
+    "impacted_parties": [
+      "Production Workers",
+      "Maintenance Staff",
+      "Quality Control Team"
+    ]
+  },
   "request": {
     "amount": "$15 million",
     "purpose": "Deploy collaborative robotics across 5 production lines",
@@ -18,25 +33,42 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 weeks",
-      "activities": ["Technical evaluation", "ROI analysis", "Workforce impact study"],
+      "activities": [
+        "Technical evaluation",
+        "ROI analysis",
+        "Workforce impact study"
+      ],
       "outcome": "Feasible with significant productivity gains"
     },
     {
       "stage": "workforce_planning",
       "duration": "4 weeks",
-      "activities": ["Retraining program design", "Union negotiations", "Change management planning"],
+      "activities": [
+        "Retraining program design",
+        "Union negotiations",
+        "Change management planning"
+      ],
       "outcome": "Comprehensive transition plan developed with union support"
     },
     {
       "stage": "pilot_implementation",
       "duration": "8 weeks",
-      "activities": ["Pilot deployment", "Performance monitoring", "Safety validation"],
+      "activities": [
+        "Pilot deployment",
+        "Performance monitoring",
+        "Safety validation"
+      ],
       "outcome": "Pilot successful with 25% efficiency improvement"
     }
   ],
   "business_impact": {
     "expected_efficiency_gain": "30%",
     "projected_cost_savings": "$8 million annually",
-    "risk_factors": ["Workforce resistance", "Integration challenges", "Safety concerns", "Technical failures"]
+    "risk_factors": [
+      "Workforce resistance",
+      "Integration challenges",
+      "Safety concerns",
+      "Technical failures"
+    ]
   }
 }

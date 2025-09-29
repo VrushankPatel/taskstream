@@ -1,9 +1,9 @@
 ## Biotechnology IPO Roadshow Email Thread
 
-**From:** CEO  
-**To:** Executive Team, Board of Directors, Investment Banking Team  
-**Subject:** Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 10, 2025  
+**From:** CEO
+**To:** Executive Team, Board of Directors, Investment Banking Team
+**Subject:** Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 10, 2025
 
 Team,
 
@@ -24,16 +24,16 @@ Please review the investor presentation deck attached. We've incorporated feedba
 
 Questions or concerns before we begin?
 
-Best,  
-[CEO Name]  
+Best,
+[CEO Name]
 Chief Executive Officer
 
 ---
 
-**From:** CFO  
-**To:** CEO, Executive Team, Investment Banking Team  
-**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 10, 2025  
+**From:** CFO
+**To:** CEO, Executive Team, Investment Banking Team
+**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 10, 2025
 
 Strong deck - the financial projections are compelling. A few notes:
 
@@ -45,15 +45,15 @@ Strong deck - the financial projections are compelling. A few notes:
 
 I've prepared detailed financial models for follow-up questions. Let me know if you need any adjustments.
 
-[CFO Name]  
+[CFO Name]
 Chief Financial Officer
 
 ---
 
-**From:** Head of Investor Relations  
-**To:** CEO, CFO, Executive Team, Investment Banking Team  
-**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 10, 2025  
+**From:** Head of Investor Relations
+**To:** CEO, CFO, Executive Team, Investment Banking Team
+**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 10, 2025
 
 Roadshow logistics are set. Key reminders:
 
@@ -74,10 +74,10 @@ The investor interest level is high - we've oversubscribed our meeting requests.
 
 ---
 
-**From:** CSO (Chief Scientific Officer)  
-**To:** CEO, Executive Team, Investment Banking Team  
-**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 10, 2025  
+**From:** CSO (Chief Scientific Officer)
+**To:** CEO, Executive Team, Investment Banking Team
+**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 10, 2025
 
 From a scientific perspective, be ready for these questions:
 
@@ -89,15 +89,15 @@ From a scientific perspective, be ready for these questions:
 
 I've prepared technical slides for deeper dives. The science story is compelling - let's not underestimate its importance to investors.
 
-[CSO Name]  
+[CSO Name]
 Chief Scientific Officer
 
 ---
 
-**From:** Lead Investment Banker  
-**To:** CEO, Executive Team, Board of Directors  
-**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 10, 2025  
+**From:** Lead Investment Banker
+**To:** CEO, Executive Team, Board of Directors
+**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 10, 2025
 
 Excellent preparation. Market conditions are favorable:
 
@@ -114,15 +114,15 @@ Excellent preparation. Market conditions are favorable:
 
 Let's execute flawlessly next week.
 
-[Lead Investment Banker Name]  
+[Lead Investment Banker Name]
 Managing Director, Healthcare Investment Banking
 
 ---
 
-**From:** CEO  
-**To:** Executive Team, Board of Directors, Investment Banking Team  
-**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations  
-**Date:** October 11, 2025  
+**From:** CEO
+**To:** Executive Team, Board of Directors, Investment Banking Team
+**Subject:** Re: Biotechnology IPO Roadshow - Final Preparations
+**Date:** October 11, 2025
 
 Thank you all for the excellent preparation. One final note:
 
@@ -134,5 +134,5 @@ Thank you all for the excellent preparation. One final note:
 
 Let's go make history.
 
-Best,  
+Best,
 [CEO Name]

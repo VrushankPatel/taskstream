@@ -1,14 +1,14 @@
 ## Meeting Notes: Real Estate Sustainable Building Certification Program Launch
 
-**Meeting Date:** September 29, 2025  
-**Attendees:** Property Development Director (Chair), Sustainability Manager, Marketing Director, Finance Director, Legal Counsel, External LEED Consultant  
-**Location:** Conference Room A  
-**Duration:** 90 minutes  
+**Meeting Date:** September 29, 2025
+**Attendees:** Property Development Director (Chair), Sustainability Manager, Marketing Director, Finance Director, Legal Counsel, External LEED Consultant
+**Location:** Conference Room A
+**Duration:** 90 minutes
 
 ### Agenda Items
 
 #### 1. Program Overview & Objectives (15 min)
-**Presenter:** Property Development Director  
+**Presenter:** Property Development Director
 
 Discussed the strategic importance of sustainable building certification in the commercial real estate market:
 - 40% premium in property values for LEED-certified buildings
@@ -21,7 +21,7 @@ Discussed the strategic importance of sustainable building certification in the 
 - Position company as market leader in sustainable commercial real estate
 
 #### 2. Implementation Strategy (30 min)
-**Presenter:** Sustainability Manager  
+**Presenter:** Sustainability Manager
 
 **Phase 1: Pilot Program (6 months)**
 - Select 3 new developments for LEED Gold certification
@@ -40,7 +40,7 @@ Discussed the strategic importance of sustainable building certification in the 
 - Material availability and cost volatility
 
 #### 3. Budget & Financial Analysis (20 min)
-**Presenter:** Finance Director  
+**Presenter:** Finance Director
 
 **Total Program Investment:** $45M over 5 years
 - Year 1: $12M (pilot + team setup)
@@ -59,7 +59,7 @@ Discussed the strategic importance of sustainable building certification in the 
 **ROI Analysis:** 3.2x return on investment over 10 years
 
 #### 4. Marketing & Stakeholder Communication (15 min)
-**Presenter:** Marketing Director  
+**Presenter:** Marketing Director
 
 **Internal Communications:**
 - Employee training program on sustainable practices
@@ -77,7 +77,7 @@ Discussed the strategic importance of sustainable building certification in the 
 - Investor relations updates on ESG progress
 
 #### 5. Legal & Regulatory Considerations (10 min)
-**Presenter:** Legal Counsel  
+**Presenter:** Legal Counsel
 
 **Key Requirements:**
 - Compliance with local building codes and environmental regulations
@@ -104,5 +104,5 @@ October 13, 2025 - Pilot project kickoff and detailed planning
 
 **Meeting Adjourned:** 11:30 AM
 
-**Prepared by:** Sustainability Manager  
+**Prepared by:** Sustainability Manager
 **Approved by:** Property Development Director

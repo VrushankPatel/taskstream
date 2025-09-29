@@ -1,120 +1,121 @@
 name: Retail Crisis Management Workflow
-description: Comprehensive crisis response process for retail operations in EU markets, focusing on rapid assessment, stakeholder communication, and regulatory compliance
+description: Comprehensive crisis response process for retail operations in EU markets,
+  focusing on rapid assessment, stakeholder communication, and regulatory compliance
 version: 1.0
 industry: Retail
 region: EU
 complexity: Medium
 actors:
-  - Crisis Manager
-  - Communications Lead
-  - Operations Director
-  - Legal Counsel
-  - Customer Service Manager
+- Crisis Manager
+- Communications Lead
+- Operations Director
+- Legal Counsel
+- Customer Service Manager
 steps:
-  - id: crisis_detection
-    name: Crisis Detection and Initial Assessment
-    description: Monitor for crisis indicators and perform rapid assessment
-    actor: Crisis Manager
-    inputs:
-      - Real-time monitoring alerts
-      - Customer complaints
-      - Regulatory notifications
-    outputs:
-      - Crisis classification (Low/Medium/High)
-      - Initial impact assessment
-    duration: 30 minutes
-    decision_points:
-      - condition: High impact crisis
-        next_step: activate_crisis_team
-      - condition: Medium impact crisis
-        next_step: notify_stakeholders
-      - condition: Low impact crisis
-        next_step: monitor_resolution
-  - id: activate_crisis_team
-    name: Activate Crisis Response Team
-    description: Assemble cross-functional crisis management team
-    actor: Crisis Manager
-    inputs:
-      - Crisis assessment report
-      - Team contact list
-    outputs:
-      - Crisis team roster
-      - Initial action plan
-    duration: 1 hour
-    tools:
-      - Crisis management software
-      - Emergency communication system
-  - id: notify_stakeholders
-    name: Stakeholder Notification
-    description: Communicate crisis details to relevant stakeholders
-    actor: Communications Lead
-    inputs:
-      - Stakeholder contact database
-      - Crisis factsheet
-    outputs:
-      - Notification logs
-      - Stakeholder response tracking
-    duration: 2 hours
-    decision_points:
-      - condition: Regulatory involvement required
-        next_step: engage_legal
-  - id: engage_legal
-    name: Legal and Regulatory Compliance
-    description: Ensure compliance with EU consumer protection regulations
-    actor: Legal Counsel
-    inputs:
-      - EU consumer law requirements
-      - Crisis impact analysis
-    outputs:
-      - Compliance checklist
-      - Regulatory filing plan
-    duration: 4 hours
-  - id: customer_response
-    name: Customer Communication and Support
-    description: Manage customer inquiries and provide support
-    actor: Customer Service Manager
-    inputs:
-      - Customer contact database
-      - Communication templates
-    outputs:
-      - Customer notification campaigns
-      - Support ticket tracking
-    duration: 6 hours
-  - id: operational_response
-    name: Operational Mitigation
-    description: Implement operational changes to contain crisis
-    actor: Operations Director
-    inputs:
-      - Crisis impact assessment
-      - Operational capabilities
-    outputs:
-      - Mitigation action plan
-      - Resource allocation
-    duration: 8 hours
-  - id: monitor_resolution
-    name: Monitor and Resolution Tracking
-    description: Track crisis resolution and update stakeholders
-    actor: Crisis Manager
-    inputs:
-      - Resolution metrics
-      - Stakeholder feedback
-    outputs:
-      - Resolution report
-      - Lessons learned document
-    duration: Ongoing
+- id: crisis_detection
+  name: Crisis Detection and Initial Assessment
+  description: Monitor for crisis indicators and perform rapid assessment
+  actor: Crisis Manager
+  inputs:
+  - Real-time monitoring alerts
+  - Customer complaints
+  - Regulatory notifications
+  outputs:
+  - Crisis classification (Low/Medium/High)
+  - Initial impact assessment
+  duration: 30 minutes
+  decision_points:
+  - condition: High impact crisis
+    next_step: activate_crisis_team
+  - condition: Medium impact crisis
+    next_step: notify_stakeholders
+  - condition: Low impact crisis
+    next_step: monitor_resolution
+- id: activate_crisis_team
+  name: Activate Crisis Response Team
+  description: Assemble cross-functional crisis management team
+  actor: Crisis Manager
+  inputs:
+  - Crisis assessment report
+  - Team contact list
+  outputs:
+  - Crisis team roster
+  - Initial action plan
+  duration: 1 hour
+  tools:
+  - Crisis management software
+  - Emergency communication system
+- id: notify_stakeholders
+  name: Stakeholder Notification
+  description: Communicate crisis details to relevant stakeholders
+  actor: Communications Lead
+  inputs:
+  - Stakeholder contact database
+  - Crisis factsheet
+  outputs:
+  - Notification logs
+  - Stakeholder response tracking
+  duration: 2 hours
+  decision_points:
+  - condition: Regulatory involvement required
+    next_step: engage_legal
+- id: engage_legal
+  name: Legal and Regulatory Compliance
+  description: Ensure compliance with EU consumer protection regulations
+  actor: Legal Counsel
+  inputs:
+  - EU consumer law requirements
+  - Crisis impact analysis
+  outputs:
+  - Compliance checklist
+  - Regulatory filing plan
+  duration: 4 hours
+- id: customer_response
+  name: Customer Communication and Support
+  description: Manage customer inquiries and provide support
+  actor: Customer Service Manager
+  inputs:
+  - Customer contact database
+  - Communication templates
+  outputs:
+  - Customer notification campaigns
+  - Support ticket tracking
+  duration: 6 hours
+- id: operational_response
+  name: Operational Mitigation
+  description: Implement operational changes to contain crisis
+  actor: Operations Director
+  inputs:
+  - Crisis impact assessment
+  - Operational capabilities
+  outputs:
+  - Mitigation action plan
+  - Resource allocation
+  duration: 8 hours
+- id: monitor_resolution
+  name: Monitor and Resolution Tracking
+  description: Track crisis resolution and update stakeholders
+  actor: Crisis Manager
+  inputs:
+  - Resolution metrics
+  - Stakeholder feedback
+  outputs:
+  - Resolution report
+  - Lessons learned document
+  duration: Ongoing
 success_criteria:
-  - Crisis contained within 24 hours
-  - All stakeholders notified within 2 hours
-  - Customer satisfaction maintained above 85%
-  - Regulatory compliance achieved
+- Crisis contained within 24 hours
+- All stakeholders notified within 2 hours
+- Customer satisfaction maintained above 85%
+- Regulatory compliance achieved
 failure_modes:
-  - Delayed stakeholder notification
-  - Inadequate customer communication
-  - Regulatory non-compliance
-  - Operational disruption escalation
+- Delayed stakeholder notification
+- Inadequate customer communication
+- Regulatory non-compliance
+- Operational disruption escalation
 metrics:
-  - Response time to crisis detection
-  - Stakeholder notification completion rate
-  - Customer complaint resolution rate
-  - Regulatory compliance achievement
-  - Financial impact mitigation
+- Response time to crisis detection
+- Stakeholder notification completion rate
+- Customer complaint resolution rate
+- Regulatory compliance achievement
+- Financial impact mitigation

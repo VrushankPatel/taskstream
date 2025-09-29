@@ -1,70 +1,148 @@
 workflow:
-  id: "workflow_it_infrastructure_upgrade"
-  title: "IT Infrastructure Upgrade Process"
-  department: "IT Operations"
-  complexity: "complex"
-  participants: ["IT Director", "Infrastructure Architect", "Security Officer", "Change Manager", "Business Stakeholders", "Vendor Representatives"]
-  trigger: "End-of-life hardware identified, performance degradation reported, or new business requirements emerge"
+  id: workflow_it_infrastructure_upgrade
+  title: IT Infrastructure Upgrade Process
+  department: IT Operations
+  complexity: complex
+  participants:
+  - IT Director
+  - Infrastructure Architect
+  - Security Officer
+  - Change Manager
+  - Business Stakeholders
+  - Vendor Representatives
+  trigger: End-of-life hardware identified, performance degradation reported, or new
+    business requirements emerge
   steps:
-    - step: 1
-      actor: "IT Director"
-      action: "Assess upgrade need through system monitoring, vendor notifications, and business requirements gathering"
-      tools: ["Monitoring dashboards", "Asset management system", "Business case template"]
-      duration: "1 week"
-      outputs: ["Upgrade business case", "Initial requirements document", "Stakeholder impact assessment"]
-    - step: 2
-      actor: "Infrastructure Architect"
-      action: "Design technical solution including hardware specifications, network architecture, and migration plan"
-      tools: ["Infrastructure design tools", "Capacity planning software", "Vendor documentation"]
-      duration: "2 weeks"
-      outputs: ["Technical design document", "Migration roadmap", "Risk assessment", "Cost estimates"]
-    - step: 3
-      actor: "Security Officer"
-      action: "Conduct security review of proposed changes and ensure compliance with security policies"
-      tools: ["Security assessment checklist", "Compliance frameworks", "Vulnerability scanning tools"]
-      duration: "1 week"
-      outputs: ["Security approval", "Compliance documentation", "Additional security requirements"]
-    - step: 4
-      actor: "Change Manager"
-      action: "Develop change management plan including communication, training, and rollback procedures"
-      tools: ["Change management templates", "Communication plan", "Training materials"]
-      duration: "1 week"
-      outputs: ["Change management plan", "Communication schedule", "Training plan", "Rollback procedures"]
-    - step: 5
-      actor: "IT Director"
-      action: "Present business case to executive team for budget approval and timeline confirmation"
-      tools: ["Executive presentation", "ROI analysis", "Project timeline"]
-      duration: "1 week"
-      outputs: ["Executive approval", "Budget allocation", "Project charter", "Go-live date"]
-    - step: 6
-      actor: "Infrastructure Architect"
-      action: "Procure hardware and software, coordinate with vendors for delivery and installation"
-      tools: ["Procurement system", "Vendor management portal", "Contract templates"]
-      duration: "3-4 weeks"
-      outputs: ["Purchase orders", "Vendor contracts", "Delivery schedule", "Installation plan"]
-    - step: 7
-      actor: "Change Manager"
-      action: "Execute communication plan and conduct user training sessions"
-      tools: ["Communication platform", "Training LMS", "Feedback surveys"]
-      duration: "2 weeks"
-      outputs: ["User communications sent", "Training completion reports", "User readiness assessment"]
-    - step: 8
-      actor: "Infrastructure Team"
-      action: "Perform upgrade in phases with testing and validation at each stage"
-      tools: ["Testing scripts", "Monitoring tools", "Backup systems"]
-      duration: "1-2 weeks"
-      outputs: ["System testing results", "Performance validation", "Go-live readiness checklist"]
-    - step: 9
-      actor: "Change Manager"
-      action: "Monitor post-implementation for 30 days, address issues, and conduct lessons learned"
-      tools: ["Incident tracking system", "User feedback tools", "Performance monitoring"]
-      duration: "4 weeks"
-      outputs: ["Post-implementation report", "Lessons learned document", "Process improvements identified"]
-  success_criteria: "Zero critical incidents during go-live, 99.9% uptime maintained, all users trained and system performing within SLA"
-  failure_modes: ["Inadequate testing causing downtime", "Poor user communication leading to resistance", "Security vulnerabilities introduced", "Budget overruns from scope creep", "Vendor delivery delays"]
+  - step: 1
+    actor: IT Director
+    action: Assess upgrade need through system monitoring, vendor notifications, and
+      business requirements gathering
+    tools:
+    - Monitoring dashboards
+    - Asset management system
+    - Business case template
+    duration: 1 week
+    outputs:
+    - Upgrade business case
+    - Initial requirements document
+    - Stakeholder impact assessment
+  - step: 2
+    actor: Infrastructure Architect
+    action: Design technical solution including hardware specifications, network architecture,
+      and migration plan
+    tools:
+    - Infrastructure design tools
+    - Capacity planning software
+    - Vendor documentation
+    duration: 2 weeks
+    outputs:
+    - Technical design document
+    - Migration roadmap
+    - Risk assessment
+    - Cost estimates
+  - step: 3
+    actor: Security Officer
+    action: Conduct security review of proposed changes and ensure compliance with
+      security policies
+    tools:
+    - Security assessment checklist
+    - Compliance frameworks
+    - Vulnerability scanning tools
+    duration: 1 week
+    outputs:
+    - Security approval
+    - Compliance documentation
+    - Additional security requirements
+  - step: 4
+    actor: Change Manager
+    action: Develop change management plan including communication, training, and
+      rollback procedures
+    tools:
+    - Change management templates
+    - Communication plan
+    - Training materials
+    duration: 1 week
+    outputs:
+    - Change management plan
+    - Communication schedule
+    - Training plan
+    - Rollback procedures
+  - step: 5
+    actor: IT Director
+    action: Present business case to executive team for budget approval and timeline
+      confirmation
+    tools:
+    - Executive presentation
+    - ROI analysis
+    - Project timeline
+    duration: 1 week
+    outputs:
+    - Executive approval
+    - Budget allocation
+    - Project charter
+    - Go-live date
+  - step: 6
+    actor: Infrastructure Architect
+    action: Procure hardware and software, coordinate with vendors for delivery and
+      installation
+    tools:
+    - Procurement system
+    - Vendor management portal
+    - Contract templates
+    duration: 3-4 weeks
+    outputs:
+    - Purchase orders
+    - Vendor contracts
+    - Delivery schedule
+    - Installation plan
+  - step: 7
+    actor: Change Manager
+    action: Execute communication plan and conduct user training sessions
+    tools:
+    - Communication platform
+    - Training LMS
+    - Feedback surveys
+    duration: 2 weeks
+    outputs:
+    - User communications sent
+    - Training completion reports
+    - User readiness assessment
+  - step: 8
+    actor: Infrastructure Team
+    action: Perform upgrade in phases with testing and validation at each stage
+    tools:
+    - Testing scripts
+    - Monitoring tools
+    - Backup systems
+    duration: 1-2 weeks
+    outputs:
+    - System testing results
+    - Performance validation
+    - Go-live readiness checklist
+  - step: 9
+    actor: Change Manager
+    action: Monitor post-implementation for 30 days, address issues, and conduct lessons
+      learned
+    tools:
+    - Incident tracking system
+    - User feedback tools
+    - Performance monitoring
+    duration: 4 weeks
+    outputs:
+    - Post-implementation report
+    - Lessons learned document
+    - Process improvements identified
+  success_criteria: Zero critical incidents during go-live, 99.9% uptime maintained,
+    all users trained and system performing within SLA
+  failure_modes:
+  - Inadequate testing causing downtime
+  - Poor user communication leading to resistance
+  - Security vulnerabilities introduced
+  - Budget overruns from scope creep
+  - Vendor delivery delays
   metrics:
-    - "Downtime During Upgrade: Target < 4 hours total"
-    - "User Training Completion: Target 95% of affected users"
-    - "Post-Upgrade Performance: Target 10% improvement in key metrics"
-    - "Budget Variance: Target < 5% over approved budget"
-    - "Incident Rate Post-Upgrade: Target < baseline +10%"
+  - 'Downtime During Upgrade: Target < 4 hours total'
+  - 'User Training Completion: Target 95% of affected users'
+  - 'Post-Upgrade Performance: Target 10% improvement in key metrics'
+  - 'Budget Variance: Target < 5% over approved budget'
+  - 'Incident Rate Post-Upgrade: Target < baseline +10%'

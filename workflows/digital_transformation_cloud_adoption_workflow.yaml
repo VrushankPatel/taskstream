@@ -1,52 +1,129 @@
 workflow:
-  id: "digital_cloud_adoption_frameworks"
-  title: "Cloud Adoption Frameworks and Migration Process"
-  department: "Digital Transformation"
-  complexity: "high"
-  participants: ["Chief Information Officer", "Cloud Architecture Lead", "Application Owners", "Security Team", "Compliance Officer", "Business Stakeholders", "Migration Team"]
-  trigger: "Infrastructure modernization mandate, cost optimization opportunity, or scalability requirements identified"
+  id: digital_cloud_adoption_frameworks
+  title: Cloud Adoption Frameworks and Migration Process
+  department: Digital Transformation
+  complexity: high
+  participants:
+  - Chief Information Officer
+  - Cloud Architecture Lead
+  - Application Owners
+  - Security Team
+  - Compliance Officer
+  - Business Stakeholders
+  - Migration Team
+  trigger: Infrastructure modernization mandate, cost optimization opportunity, or
+    scalability requirements identified
   steps:
-    - step: 1
-      actor: "Chief Information Officer"
-      action: "Assess current IT landscape and develop cloud adoption strategy with business case justification"
-      tools: ["Cloud readiness assessment tools", "Total cost of ownership calculators", "Business value analysis frameworks"]
-      duration: "8 weeks"
-      outputs: ["Cloud adoption roadmap", "Business case with ROI projections", "Risk mitigation strategy", "Executive sponsorship secured"]
-    - step: 2
-      actor: "Cloud Architecture Lead"
-      action: "Design target cloud architecture and migration approach with detailed technical specifications"
-      tools: ["Cloud architecture design tools", "Migration planning software", "Infrastructure as code frameworks", "Cost optimization analyzers"]
-      duration: "12 weeks"
-      outputs: ["Target architecture blueprint", "Migration wave planning", "Infrastructure as code templates", "Cost optimization recommendations"]
-    - step: 3
-      actor: "Security Team"
-      action: "Develop comprehensive cloud security framework and compliance controls"
-      tools: ["Cloud security assessment tools", "Compliance automation platforms", "Identity management systems", "Encryption frameworks"]
-      duration: "10 weeks"
-      outputs: ["Cloud security architecture", "Compliance control mappings", "Security monitoring framework", "Incident response procedures"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Ensure regulatory compliance and data governance in cloud environment"
-      tools: ["Compliance management platforms", "Data classification tools", "Audit automation systems", "Privacy impact assessment frameworks"]
-      duration: "8 weeks"
-      outputs: ["Compliance assessment reports", "Data governance policies", "Regulatory approval documentation", "Audit readiness framework"]
-    - step: 5
-      actor: "Application Owners"
-      action: "Assess application portfolios and develop migration strategies for each application"
-      tools: ["Application portfolio analysis tools", "Dependency mapping software", "Migration complexity assessment", "Business continuity planning"]
-      duration: "16 weeks"
-      outputs: ["Application migration roadmaps", "Dependency analysis reports", "Migration complexity rankings", "Business continuity plans"]
-    - step: 6
-      actor: "Migration Team"
-      action: "Execute phased migration with testing, validation, and optimization at each stage"
-      tools: ["Migration automation tools", "Testing frameworks", "Performance monitoring systems", "Rollback procedures"]
-      duration: "24 weeks"
-      outputs: ["Migration execution reports", "Performance validation results", "Optimization recommendations", "Knowledge transfer documentation"]
-    - step: 7
-      actor: "Business Stakeholders"
-      action: "Validate business functionality and user experience throughout migration process"
-      tools: ["User acceptance testing platforms", "Feedback collection systems", "Business process validation", "Change management tools"]
-      duration: "Ongoing"
-      outputs: ["User acceptance reports", "Business validation confirmations", "Change management metrics", "Adoption success indicators"]
-  success_criteria: "100% application migration completed, 99.9% system availability maintained, 25%+ cost reduction achieved, full regulatory compliance maintained, positive user adoption metrics"
-  failure_modes: ["Data migration corruption", "Security vulnerabilities exposed", "Application performance degradation", "Compliance violations", "Extended downtime during migration", "Cost overruns", "User resistance and adoption failures"]
+  - step: 1
+    actor: Chief Information Officer
+    action: Assess current IT landscape and develop cloud adoption strategy with business
+      case justification
+    tools:
+    - Cloud readiness assessment tools
+    - Total cost of ownership calculators
+    - Business value analysis frameworks
+    duration: 8 weeks
+    outputs:
+    - Cloud adoption roadmap
+    - Business case with ROI projections
+    - Risk mitigation strategy
+    - Executive sponsorship secured
+  - step: 2
+    actor: Cloud Architecture Lead
+    action: Design target cloud architecture and migration approach with detailed
+      technical specifications
+    tools:
+    - Cloud architecture design tools
+    - Migration planning software
+    - Infrastructure as code frameworks
+    - Cost optimization analyzers
+    duration: 12 weeks
+    outputs:
+    - Target architecture blueprint
+    - Migration wave planning
+    - Infrastructure as code templates
+    - Cost optimization recommendations
+  - step: 3
+    actor: Security Team
+    action: Develop comprehensive cloud security framework and compliance controls
+    tools:
+    - Cloud security assessment tools
+    - Compliance automation platforms
+    - Identity management systems
+    - Encryption frameworks
+    duration: 10 weeks
+    outputs:
+    - Cloud security architecture
+    - Compliance control mappings
+    - Security monitoring framework
+    - Incident response procedures
+  - step: 4
+    actor: Compliance Officer
+    action: Ensure regulatory compliance and data governance in cloud environment
+    tools:
+    - Compliance management platforms
+    - Data classification tools
+    - Audit automation systems
+    - Privacy impact assessment frameworks
+    duration: 8 weeks
+    outputs:
+    - Compliance assessment reports
+    - Data governance policies
+    - Regulatory approval documentation
+    - Audit readiness framework
+  - step: 5
+    actor: Application Owners
+    action: Assess application portfolios and develop migration strategies for each
+      application
+    tools:
+    - Application portfolio analysis tools
+    - Dependency mapping software
+    - Migration complexity assessment
+    - Business continuity planning
+    duration: 16 weeks
+    outputs:
+    - Application migration roadmaps
+    - Dependency analysis reports
+    - Migration complexity rankings
+    - Business continuity plans
+  - step: 6
+    actor: Migration Team
+    action: Execute phased migration with testing, validation, and optimization at
+      each stage
+    tools:
+    - Migration automation tools
+    - Testing frameworks
+    - Performance monitoring systems
+    - Rollback procedures
+    duration: 24 weeks
+    outputs:
+    - Migration execution reports
+    - Performance validation results
+    - Optimization recommendations
+    - Knowledge transfer documentation
+  - step: 7
+    actor: Business Stakeholders
+    action: Validate business functionality and user experience throughout migration
+      process
+    tools:
+    - User acceptance testing platforms
+    - Feedback collection systems
+    - Business process validation
+    - Change management tools
+    duration: Ongoing
+    outputs:
+    - User acceptance reports
+    - Business validation confirmations
+    - Change management metrics
+    - Adoption success indicators
+  success_criteria: 100% application migration completed, 99.9% system availability
+    maintained, 25%+ cost reduction achieved, full regulatory compliance maintained,
+    positive user adoption metrics
+  failure_modes:
+  - Data migration corruption
+  - Security vulnerabilities exposed
+  - Application performance degradation
+  - Compliance violations
+  - Extended downtime during migration
+  - Cost overruns
+  - User resistance and adoption failures

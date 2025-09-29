@@ -105,6 +105,6 @@ Applies to all transportation operations including fleet vehicles, drivers, main
 ## Policy Review and Updates
 This policy will be reviewed annually or when regulatory changes occur. Updates will be communicated to all employees through training sessions and policy acknowledgments.
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Safety Officer*

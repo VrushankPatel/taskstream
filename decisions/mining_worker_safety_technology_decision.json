@@ -3,8 +3,15 @@
   "context": "Large-scale mining operation with 500 employees, experiencing increasing safety incidents and regulatory scrutiny",
   "stakeholders": {
     "requester": "Safety Director",
-    "approvers": ["Chief Operating Officer", "Chief Safety Officer"],
-    "influencers": ["Operations Managers", "Technology Vendor", "Union Representatives"]
+    "approvers": [
+      "Chief Operating Officer",
+      "Chief Safety Officer"
+    ],
+    "influencers": [
+      "Operations Managers",
+      "Technology Vendor",
+      "Union Representatives"
+    ]
   },
   "request": {
     "amount": "$4.2 million",
@@ -16,26 +23,50 @@
     {
       "stage": "safety_assessment",
       "duration": "4 weeks",
-      "activities": ["Incident analysis", "Regulatory requirement review", "Technology gap assessment"],
+      "activities": [
+        "Incident analysis",
+        "Regulatory requirement review",
+        "Technology gap assessment"
+      ],
       "outcome": "Critical need identified for advanced safety technologies"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "6 weeks",
-      "activities": ["Technology demonstration", "Pilot testing", "Cost-benefit analysis"],
+      "activities": [
+        "Technology demonstration",
+        "Pilot testing",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Selected integrated safety technology platform"
     },
     {
       "stage": "implementation_planning",
       "duration": "8 weeks",
-      "activities": ["Deployment roadmap", "Training requirements", "Change management plan"],
+      "activities": [
+        "Deployment roadmap",
+        "Training requirements",
+        "Change management plan"
+      ],
       "outcome": "Approved with phased implementation over 18 months"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["40% reduction in safety incidents", "Improved regulatory compliance", "Enhanced worker confidence"],
+    "expected_benefits": [
+      "40% reduction in safety incidents",
+      "Improved regulatory compliance",
+      "Enhanced worker confidence"
+    ],
     "projected_roi": "24 months",
-    "risk_factors": ["Technology reliability", "Worker acceptance", "Integration complexity"],
-    "success_metrics": ["Incident rate reduction", "System uptime", "Worker adoption rate"]
+    "risk_factors": [
+      "Technology reliability",
+      "Worker acceptance",
+      "Integration complexity"
+    ],
+    "success_metrics": [
+      "Incident rate reduction",
+      "System uptime",
+      "Worker adoption rate"
+    ]
   }
 }

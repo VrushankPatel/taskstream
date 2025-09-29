@@ -1,9 +1,9 @@
 ## Meeting Notes: Professional Services Client Onboarding Process Review
 
-**Date:** November 5, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual Meeting  
-**Attendees:** Partner (Chair), Client Relationship Manager, Project Manager, Senior Consultant, Knowledge Manager  
+**Date:** November 5, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual Meeting
+**Attendees:** Partner (Chair), Client Relationship Manager, Project Manager, Senior Consultant, Knowledge Manager
 
 ### Agenda
 1. Current onboarding process assessment
@@ -48,5 +48,5 @@
 ### Next Meeting
 December 5, 2025 - Implementation Progress Review
 
-**Meeting Facilitator:** Partner  
+**Meeting Facilitator:** Partner
 **Note Taker:** Client Relationship Manager

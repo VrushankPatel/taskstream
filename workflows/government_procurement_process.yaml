@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_government_001"
-  title: "Federal Government Procurement and Contract Award Process"
-  department: "Procurement Division"
-  complexity: "high"
-  participants: ["Procurement Officer", "Technical Review Board", "Legal Counsel", "Budget Analyst", "Contracting Officer"]
-  trigger: "Agency identifies procurement need"
+  id: workflow_government_001
+  title: Federal Government Procurement and Contract Award Process
+  department: Procurement Division
+  complexity: high
+  participants:
+  - Procurement Officer
+  - Technical Review Board
+  - Legal Counsel
+  - Budget Analyst
+  - Contracting Officer
+  trigger: Agency identifies procurement need
   steps:
-    - step: 1
-      actor: "Procurement Officer"
-      action: "Develop procurement strategy and requirements document"
-      tools: ["Procurement Planning System", "Requirements Analysis Tools"]
-      duration: "2 weeks"
-      outputs: ["Procurement Strategy", "Requirements Document"]
-    - step: 2
-      actor: "Technical Review Board"
-      action: "Evaluate vendor proposals and conduct technical reviews"
-      decision_points: ["Technical Compliance", "Cost Effectiveness", "Past Performance"]
-      duration: "4 weeks"
-      outputs: ["Technical Evaluation Report", "Shortlisted Vendors"]
-    - step: 3
-      actor: "Budget Analyst"
-      action: "Verify funding availability and conduct cost analysis"
-      tools: ["Budget Management System", "Cost Analysis Software"]
-      duration: "1 week"
-      outputs: ["Budget Approval", "Cost Analysis Report"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Review contract terms and ensure regulatory compliance"
-      tools: ["Contract Review Database", "Legal Compliance Tools"]
-      duration: "2 weeks"
-      outputs: ["Legal Review Report", "Contract Amendments"]
-    - step: 5
-      actor: "Contracting Officer"
-      action: "Execute contract award and issue notice to proceed"
-      tools: ["Contract Management System", "Award Notification System"]
-      duration: "1 week"
-      outputs: ["Contract Award", "Vendor Notification"]
-  success_criteria: "Contract awarded to qualified vendor with full compliance and funding secured"
-  failure_modes: ["Protest Filings", "Funding Shortfalls", "Technical Specification Issues"]
+  - step: 1
+    actor: Procurement Officer
+    action: Develop procurement strategy and requirements document
+    tools:
+    - Procurement Planning System
+    - Requirements Analysis Tools
+    duration: 2 weeks
+    outputs:
+    - Procurement Strategy
+    - Requirements Document
+  - step: 2
+    actor: Technical Review Board
+    action: Evaluate vendor proposals and conduct technical reviews
+    decision_points:
+    - Technical Compliance
+    - Cost Effectiveness
+    - Past Performance
+    duration: 4 weeks
+    outputs:
+    - Technical Evaluation Report
+    - Shortlisted Vendors
+  - step: 3
+    actor: Budget Analyst
+    action: Verify funding availability and conduct cost analysis
+    tools:
+    - Budget Management System
+    - Cost Analysis Software
+    duration: 1 week
+    outputs:
+    - Budget Approval
+    - Cost Analysis Report
+  - step: 4
+    actor: Legal Counsel
+    action: Review contract terms and ensure regulatory compliance
+    tools:
+    - Contract Review Database
+    - Legal Compliance Tools
+    duration: 2 weeks
+    outputs:
+    - Legal Review Report
+    - Contract Amendments
+  - step: 5
+    actor: Contracting Officer
+    action: Execute contract award and issue notice to proceed
+    tools:
+    - Contract Management System
+    - Award Notification System
+    duration: 1 week
+    outputs:
+    - Contract Award
+    - Vendor Notification
+  success_criteria: Contract awarded to qualified vendor with full compliance and
+    funding secured
+  failure_modes:
+  - Protest Filings
+  - Funding Shortfalls
+  - Technical Specification Issues

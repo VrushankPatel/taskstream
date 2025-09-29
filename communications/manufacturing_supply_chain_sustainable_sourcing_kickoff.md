@@ -1,10 +1,10 @@
 # Manufacturing Supply Chain Sustainable Sourcing Initiative Kickoff Meeting
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Operations Center, Building A  
-**Attendees:** Supply Chain Manager, Sustainability Officer, Procurement Director, 5 Supplier Quality Managers, 3 Key Suppliers  
-**Facilitator:** VP of Operations  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Operations Center, Building A
+**Attendees:** Supply Chain Manager, Sustainability Officer, Procurement Director, 5 Supplier Quality Managers, 3 Key Suppliers
+**Facilitator:** VP of Operations
 
 ## Meeting Objective
 

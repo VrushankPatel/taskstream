@@ -1,44 +1,68 @@
 workflow:
-  id: "workflow_hospitality_guest_arrival"
-  title: "Hotel Guest Arrival and Check-in Process"
-  department: "Front Office"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Concierge", "Housekeeping Supervisor", "Guest Services Manager"]
-  trigger: "Guest arrival at hotel"
+  id: workflow_hospitality_guest_arrival
+  title: Hotel Guest Arrival and Check-in Process
+  department: Front Office
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Concierge
+  - Housekeeping Supervisor
+  - Guest Services Manager
+  trigger: Guest arrival at hotel
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify reservation and collect guest information"
-      tools: ["PMS system", "ID verification", "Credit card"]
-      duration: "5 minutes"
-      outputs: ["Guest registration form"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Process payment and assign room"
-      tools: ["PMS system", "Key card system"]
-      duration: "3 minutes"
-      outputs: ["Room assignment", "Key card"]
-    - step: 3
-      actor: "Concierge"
-      action: "Provide welcome amenities and local information"
-      tools: ["Welcome package", "Local guide"]
-      duration: "5 minutes"
-      outputs: ["Guest welcome package"]
-    - step: 4
-      actor: "Housekeeping Supervisor"
-      action: "Confirm room readiness and special requests"
-      tools: ["Room status system", "Housekeeping app"]
-      duration: "2 minutes"
-      outputs: ["Room readiness confirmation"]
-    - step: 5
-      actor: "Front Desk Agent"
-      action: "Complete check-in process and escort to room"
-      tools: ["Bell service coordination"]
-      duration: "3 minutes"
-      outputs: ["Check-in completion"]
-  success_criteria: "Guest checked in within 15 minutes of arrival"
-  failure_modes: ["System downtime", "Room not ready", "Payment issues", "Special request oversight"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Verify reservation and collect guest information
+    tools:
+    - PMS system
+    - ID verification
+    - Credit card
+    duration: 5 minutes
+    outputs:
+    - Guest registration form
+  - step: 2
+    actor: Front Desk Agent
+    action: Process payment and assign room
+    tools:
+    - PMS system
+    - Key card system
+    duration: 3 minutes
+    outputs:
+    - Room assignment
+    - Key card
+  - step: 3
+    actor: Concierge
+    action: Provide welcome amenities and local information
+    tools:
+    - Welcome package
+    - Local guide
+    duration: 5 minutes
+    outputs:
+    - Guest welcome package
+  - step: 4
+    actor: Housekeeping Supervisor
+    action: Confirm room readiness and special requests
+    tools:
+    - Room status system
+    - Housekeeping app
+    duration: 2 minutes
+    outputs:
+    - Room readiness confirmation
+  - step: 5
+    actor: Front Desk Agent
+    action: Complete check-in process and escort to room
+    tools:
+    - Bell service coordination
+    duration: 3 minutes
+    outputs:
+    - Check-in completion
+  success_criteria: Guest checked in within 15 minutes of arrival
+  failure_modes:
+  - System downtime
+  - Room not ready
+  - Payment issues
+  - Special request oversight
   metrics:
-    - "Average check-in time: <10 minutes"
-    - "Guest satisfaction score: 4.5/5"
-    - "Room readiness rate: 98%+"
+  - 'Average check-in time: <10 minutes'
+  - 'Guest satisfaction score: 4.5/5'
+  - 'Room readiness rate: 98%+'

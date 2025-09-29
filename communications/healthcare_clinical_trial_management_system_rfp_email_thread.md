@@ -1,8 +1,8 @@
 ## Email Thread: Clinical Trial Management System RFP Response Delay
 
-**From:** Clinical Operations Director  
-**To:** IT Procurement Manager, Clinical Research Associates  
-**Subject:** Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update  
+**From:** Clinical Operations Director
+**To:** IT Procurement Manager, Clinical Research Associates
+**Subject:** Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update
 
 Team,
 
@@ -28,16 +28,16 @@ This delay will push our vendor selection timeline back by 3-4 weeks, potentiall
 
 Please let me know if you have any concerns or suggestions for managing this timeline slippage.
 
-Best regards,  
-Dr. Sarah Mitchell  
-Clinical Operations Director  
+Best regards,
+Dr. Sarah Mitchell
+Clinical Operations Director
 [Contact Information]
 
 ---
 
-**From:** IT Procurement Manager  
-**To:** Clinical Operations Director, Clinical Research Associates  
-**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update  
+**From:** IT Procurement Manager
+**To:** Clinical Operations Director, Clinical Research Associates
+**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update
 
 Sarah,
 
@@ -54,16 +54,16 @@ I've attached a revised project timeline that accounts for these delays. The new
 
 Let me know if you'd like me to reach out to the vendors directly.
 
-Best,  
-Michael Chen  
-IT Procurement Manager  
+Best,
+Michael Chen
+IT Procurement Manager
 [Contact Information]
 
 ---
 
-**From:** Lead Clinical Research Associate  
-**To:** Clinical Operations Director, IT Procurement Manager, Clinical Research Associates  
-**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update  
+**From:** Lead Clinical Research Associate
+**To:** Clinical Operations Director, IT Procurement Manager, Clinical Research Associates
+**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update
 
 Sarah and Michael,
 
@@ -82,16 +82,16 @@ I support Michael's recommendation for parallel evaluation. We could also consid
 
 Please keep us updated on vendor discussions.
 
-Best,  
-Dr. James Rodriguez  
-Lead Clinical Research Associate  
+Best,
+Dr. James Rodriguez
+Lead Clinical Research Associate
 [Contact Information]
 
 ---
 
-**From:** Clinical Operations Director  
-**To:** IT Procurement Manager, Clinical Research Associates  
-**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update  
+**From:** Clinical Operations Director
+**To:** IT Procurement Manager, Clinical Research Associates
+**Subject:** Re: Urgent: Clinical Trial Management System RFP - Vendor Response Timeline Update
 
 Thank you both for your thoughtful responses.
 
@@ -102,6 +102,6 @@ Thank you both for your thoughtful responses.
 
 I believe we can still meet our objectives with these adjustments. The new system will significantly improve our trial efficiency and data quality.
 
-Best regards,  
-Dr. Sarah Mitchell  
+Best regards,
+Dr. Sarah Mitchell
 Clinical Operations Director

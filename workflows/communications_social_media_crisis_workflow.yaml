@@ -1,54 +1,96 @@
 workflow:
-  id: "workflow_comm_crisis_001"
-  title: "Social Media Crisis Response Coordination"
-  department: "Communications"
-  complexity: "high"
-  participants: ["Communications Director", "Social Media Manager", "Legal Counsel", "Executive Leadership", "Customer Service Lead"]
-  trigger: "Negative social media incident or viral complaint"
+  id: workflow_comm_crisis_001
+  title: Social Media Crisis Response Coordination
+  department: Communications
+  complexity: high
+  participants:
+  - Communications Director
+  - Social Media Manager
+  - Legal Counsel
+  - Executive Leadership
+  - Customer Service Lead
+  trigger: Negative social media incident or viral complaint
   steps:
-    - step: 1
-      actor: "Social Media Manager"
-      action: "Monitor social channels and detect crisis indicators"
-      tools: ["Social listening tools", "Alert systems", "Sentiment analysis software"]
-      duration: "Continuous"
-      outputs: ["Crisis detection report", "Initial impact assessment"]
-    - step: 2
-      actor: "Communications Director"
-      action: "Activate crisis response team and assess situation"
-      decision_points: ["Crisis severity level", "Response strategy", "Stakeholder involvement"]
-      tools: ["Crisis response protocols", "Stakeholder mapping", "Escalation matrices"]
-      duration: "1 hour"
-      outputs: ["Crisis response plan", "Team activation notification"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review content for legal risks and compliance requirements"
-      tools: ["Legal review checklists", "Regulatory guidelines", "Risk assessment frameworks"]
-      duration: "2 hours"
-      outputs: ["Legal risk assessment", "Approved response boundaries"]
-    - step: 4
-      actor: "Communications Director"
-      action: "Develop and coordinate response messaging across channels"
-      tools: ["Message templates", "Content approval workflows", "Multi-channel publishing tools"]
-      duration: "4 hours"
-      outputs: ["Coordinated response messages", "Publishing schedule"]
-    - step: 5
-      actor: "Customer Service Lead"
-      action: "Address individual customer concerns and provide support"
-      tools: ["Customer service platforms", "Escalation procedures", "Resolution tracking systems"]
-      duration: "Ongoing"
-      outputs: ["Customer resolution reports", "Support metrics"]
-    - step: 6
-      actor: "Executive Leadership"
-      action: "Provide executive statements and oversee recovery efforts"
-      tools: ["Executive communication templates", "Stakeholder engagement plans", "Recovery monitoring"]
-      duration: "24-48 hours"
-      outputs: ["Executive statements", "Recovery action plan"]
-  success_criteria: "Crisis contained within 24 hours, sentiment improvement by 50%, no legal escalation"
-  failure_modes: ["Delayed response", "Inconsistent messaging", "Executive disengagement"]
+  - step: 1
+    actor: Social Media Manager
+    action: Monitor social channels and detect crisis indicators
+    tools:
+    - Social listening tools
+    - Alert systems
+    - Sentiment analysis software
+    duration: Continuous
+    outputs:
+    - Crisis detection report
+    - Initial impact assessment
+  - step: 2
+    actor: Communications Director
+    action: Activate crisis response team and assess situation
+    decision_points:
+    - Crisis severity level
+    - Response strategy
+    - Stakeholder involvement
+    tools:
+    - Crisis response protocols
+    - Stakeholder mapping
+    - Escalation matrices
+    duration: 1 hour
+    outputs:
+    - Crisis response plan
+    - Team activation notification
+  - step: 3
+    actor: Legal Counsel
+    action: Review content for legal risks and compliance requirements
+    tools:
+    - Legal review checklists
+    - Regulatory guidelines
+    - Risk assessment frameworks
+    duration: 2 hours
+    outputs:
+    - Legal risk assessment
+    - Approved response boundaries
+  - step: 4
+    actor: Communications Director
+    action: Develop and coordinate response messaging across channels
+    tools:
+    - Message templates
+    - Content approval workflows
+    - Multi-channel publishing tools
+    duration: 4 hours
+    outputs:
+    - Coordinated response messages
+    - Publishing schedule
+  - step: 5
+    actor: Customer Service Lead
+    action: Address individual customer concerns and provide support
+    tools:
+    - Customer service platforms
+    - Escalation procedures
+    - Resolution tracking systems
+    duration: Ongoing
+    outputs:
+    - Customer resolution reports
+    - Support metrics
+  - step: 6
+    actor: Executive Leadership
+    action: Provide executive statements and oversee recovery efforts
+    tools:
+    - Executive communication templates
+    - Stakeholder engagement plans
+    - Recovery monitoring
+    duration: 24-48 hours
+    outputs:
+    - Executive statements
+    - Recovery action plan
+  success_criteria: Crisis contained within 24 hours, sentiment improvement by 50%,
+    no legal escalation
+  failure_modes:
+  - Delayed response
+  - Inconsistent messaging
+  - Executive disengagement
   metrics:
-    - "Response time: Target <2 hours for initial response"
-    - "Sentiment improvement: Target 50% positive shift"
-    - "Engagement rate: Target 80% of affected audience reached"
-    - "Resolution rate: Target 95% of complaints resolved"
-    - "Brand reputation impact: Target <5% negative change"
-    - "Follow-up satisfaction: Target 4.0/5.0 rating"
+  - 'Response time: Target <2 hours for initial response'
+  - 'Sentiment improvement: Target 50% positive shift'
+  - 'Engagement rate: Target 80% of affected audience reached'
+  - 'Resolution rate: Target 95% of complaints resolved'
+  - 'Brand reputation impact: Target <5% negative change'
+  - 'Follow-up satisfaction: Target 4.0/5.0 rating'

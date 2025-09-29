@@ -1,42 +1,70 @@
 workflow:
-  id: "workflow_healthcare_patient_scheduling"
-  title: "Patient Appointment Scheduling and Optimization"
-  department: "Patient Access & Scheduling"
-  complexity: "medium"
-  participants: ["Scheduling Coordinator", "Clinical Staff", "Patient", "Insurance Verifier"]
-  trigger: "Patient requests appointment or provider availability opens"
+  id: workflow_healthcare_patient_scheduling
+  title: Patient Appointment Scheduling and Optimization
+  department: Patient Access & Scheduling
+  complexity: medium
+  participants:
+  - Scheduling Coordinator
+  - Clinical Staff
+  - Patient
+  - Insurance Verifier
+  trigger: Patient requests appointment or provider availability opens
   steps:
-    - step: 1
-      actor: "Patient"
-      action: "Submit appointment request via portal, phone, or in-person"
-      tools: ["Patient Portal", "Phone System", "Registration Desk"]
-      duration: "5-15 minutes"
-      outputs: ["Appointment Request"]
-    - step: 2
-      actor: "Scheduling Coordinator"
-      action: "Verify patient information and insurance eligibility"
-      tools: ["EHR System", "Insurance Verification Portal"]
-      duration: "10-20 minutes"
-      outputs: ["Verified Patient Profile"]
-      decision_points: ["Insurance Coverage", "Medical Necessity"]
-    - step: 3
-      actor: "Scheduling Coordinator"
-      action: "Check provider availability and schedule appointment"
-      tools: ["Scheduling Software", "Provider Calendar"]
-      duration: "5-10 minutes"
-      outputs: ["Scheduled Appointment"]
-      decision_points: ["Provider Preferences", "Urgency Level"]
-    - step: 4
-      actor: "Clinical Staff"
-      action: "Review scheduled appointment and prepare patient records"
-      tools: ["EHR System", "Clinical Templates"]
-      duration: "5 minutes"
-      outputs: ["Prepared Patient Chart"]
-    - step: 5
-      actor: "Scheduling Coordinator"
-      action: "Send appointment confirmation and preparation instructions"
-      tools: ["Automated Messaging", "Patient Portal"]
-      duration: "2 minutes"
-      outputs: ["Confirmation Communication"]
-  success_criteria: "Appointment scheduled within 24 hours, no-show rate <5%, patient satisfaction >90%"
-  failure_modes: ["Double-booking conflicts", "Insurance verification delays", "Provider availability gaps"]
+  - step: 1
+    actor: Patient
+    action: Submit appointment request via portal, phone, or in-person
+    tools:
+    - Patient Portal
+    - Phone System
+    - Registration Desk
+    duration: 5-15 minutes
+    outputs:
+    - Appointment Request
+  - step: 2
+    actor: Scheduling Coordinator
+    action: Verify patient information and insurance eligibility
+    tools:
+    - EHR System
+    - Insurance Verification Portal
+    duration: 10-20 minutes
+    outputs:
+    - Verified Patient Profile
+    decision_points:
+    - Insurance Coverage
+    - Medical Necessity
+  - step: 3
+    actor: Scheduling Coordinator
+    action: Check provider availability and schedule appointment
+    tools:
+    - Scheduling Software
+    - Provider Calendar
+    duration: 5-10 minutes
+    outputs:
+    - Scheduled Appointment
+    decision_points:
+    - Provider Preferences
+    - Urgency Level
+  - step: 4
+    actor: Clinical Staff
+    action: Review scheduled appointment and prepare patient records
+    tools:
+    - EHR System
+    - Clinical Templates
+    duration: 5 minutes
+    outputs:
+    - Prepared Patient Chart
+  - step: 5
+    actor: Scheduling Coordinator
+    action: Send appointment confirmation and preparation instructions
+    tools:
+    - Automated Messaging
+    - Patient Portal
+    duration: 2 minutes
+    outputs:
+    - Confirmation Communication
+  success_criteria: Appointment scheduled within 24 hours, no-show rate <5%, patient
+    satisfaction >90%
+  failure_modes:
+  - Double-booking conflicts
+  - Insurance verification delays
+  - Provider availability gaps

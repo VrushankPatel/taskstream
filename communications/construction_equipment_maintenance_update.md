@@ -1,8 +1,8 @@
 ## Email Thread: Construction Equipment Maintenance Update
 
-**From:** Equipment Maintenance Manager  
-**To:** Project Managers, Equipment Operators, Safety Team  
-**Subject:** Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** Equipment Maintenance Manager
+**To:** Project Managers, Equipment Operators, Safety Team
+**Subject:** Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Team,
 
@@ -41,15 +41,15 @@ Following the recent excavator hydraulic system failures on Sites A and C, we've
 
 Please confirm your site's equipment status and maintenance needs within 24 hours.
 
-Regards,  
-Mike Chen  
-Equipment Maintenance Manager  
+Regards,
+Mike Chen
+Equipment Maintenance Manager
 
 ---
 
-**From:** Project Manager - Site A  
-**To:** Equipment Maintenance Manager, Executive Team  
-**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** Project Manager - Site A
+**To:** Equipment Maintenance Manager, Executive Team
+**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Mike,
 
@@ -72,13 +72,13 @@ Site A assessment complete. We have 8 excavators requiring immediate attention:
 
 This will add $45K to our project costs. Please advise on budget approval process.
 
-John  
+John
 
 ---
 
-**From:** Safety Team Lead  
-**To:** Equipment Maintenance Manager, Project Managers  
-**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** Safety Team Lead
+**To:** Equipment Maintenance Manager, Project Managers
+**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Mike and team,
 
@@ -102,13 +102,13 @@ Safety assessment of maintenance schedule completed. Key concerns:
 - Emergency response procedures for manual operations
 - Daily safety huddles during maintenance period
 
-Lisa  
+Lisa
 
 ---
 
-**From:** Procurement Manager  
-**To:** Equipment Maintenance Manager, Executive Team  
-**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** Procurement Manager
+**To:** Equipment Maintenance Manager, Executive Team
+**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Mike,
 
@@ -133,13 +133,13 @@ Procurement plan for maintenance support:
 
 Budget impact: $78K total (within contingency allocation).
 
-David  
+David
 
 ---
 
-**From:** CEO  
-**To:** Equipment Maintenance Manager, Executive Leadership  
-**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** CEO
+**To:** Equipment Maintenance Manager, Executive Leadership
+**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Mike,
 
@@ -164,13 +164,13 @@ This maintenance crisis highlights our equipment reliability issues. While we ad
 
 Let's turn this challenge into an opportunity for operational excellence.
 
-Robert  
+Robert
 
 ---
 
-**From:** Equipment Maintenance Manager  
-**To:** All Recipients  
-**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline  
+**From:** Equipment Maintenance Manager
+**To:** All Recipients
+**Subject:** Re: Critical: Excavator Fleet Maintenance Schedule - Impact on Project Timeline
 
 Team,
 

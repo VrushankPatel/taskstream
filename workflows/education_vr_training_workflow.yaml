@@ -1,49 +1,84 @@
 workflow:
-  id: "workflow_026_004"
-  title: "Virtual Reality Training Program Implementation"
-  department: "Academic Technology"
-  complexity: "high"
-  participants: ["Instructional Designer", "VR Technical Specialist", "Faculty Champion", "Student Success Coordinator"]
-  trigger: "Curriculum committee approval for VR training integration"
+  id: workflow_026_004
+  title: Virtual Reality Training Program Implementation
+  department: Academic Technology
+  complexity: high
+  participants:
+  - Instructional Designer
+  - VR Technical Specialist
+  - Faculty Champion
+  - Student Success Coordinator
+  trigger: Curriculum committee approval for VR training integration
   steps:
-    - step: 1
-      actor: "Instructional Designer"
-      action: "Identify training programs suitable for VR enhancement"
-      decision_points: ["Learning Objectives", "Technical Feasibility", "Resource Requirements"]
-      tools: ["Curriculum Database", "VR Capability Assessment"]
-      duration: "2 weeks"
-      outputs: ["VR Training Program Inventory"]
-    - step: 2
-      actor: "VR Technical Specialist"
-      action: "Evaluate VR hardware and software requirements"
-      decision_points: ["Platform Selection", "Content Development Tools", "Accessibility Features"]
-      tools: ["VR Hardware Specifications", "Software Compatibility Matrix"]
-      duration: "3 weeks"
-      outputs: ["Technical Requirements Document"]
-    - step: 3
-      actor: "Instructional Designer"
-      action: "Design VR training scenarios and learning modules"
-      tools: ["VR Content Creation Tools", "Learning Design Frameworks"]
-      duration: "6 weeks"
-      outputs: ["VR Training Modules"]
-    - step: 4
-      actor: "Faculty Champion"
-      action: "Integrate VR training into existing curriculum"
-      decision_points: ["Credit Assignment", "Assessment Methods", "Prerequisites"]
-      tools: ["Curriculum Management System", "Academic Policies"]
-      duration: "4 weeks"
-      outputs: ["Updated Course Syllabi"]
-    - step: 5
-      actor: "VR Technical Specialist"
-      action: "Deploy VR infrastructure and content delivery system"
-      tools: ["VR Deployment Tools", "Content Management System"]
-      duration: "3 weeks"
-      outputs: ["Operational VR Training Environment"]
-    - step: 6
-      actor: "Student Success Coordinator"
-      action: "Conduct faculty and student training on VR usage"
-      tools: ["Training Materials", "Support Documentation"]
-      duration: "2 weeks"
-      outputs: ["Trained Users and Support Resources"]
-  success_criteria: "VR training adopted in 5 core programs with positive learning outcomes"
-  failure_modes: ["Technical limitations reducing accessibility", "Faculty resistance to technology adoption", "Content development timeline overruns"]
+  - step: 1
+    actor: Instructional Designer
+    action: Identify training programs suitable for VR enhancement
+    decision_points:
+    - Learning Objectives
+    - Technical Feasibility
+    - Resource Requirements
+    tools:
+    - Curriculum Database
+    - VR Capability Assessment
+    duration: 2 weeks
+    outputs:
+    - VR Training Program Inventory
+  - step: 2
+    actor: VR Technical Specialist
+    action: Evaluate VR hardware and software requirements
+    decision_points:
+    - Platform Selection
+    - Content Development Tools
+    - Accessibility Features
+    tools:
+    - VR Hardware Specifications
+    - Software Compatibility Matrix
+    duration: 3 weeks
+    outputs:
+    - Technical Requirements Document
+  - step: 3
+    actor: Instructional Designer
+    action: Design VR training scenarios and learning modules
+    tools:
+    - VR Content Creation Tools
+    - Learning Design Frameworks
+    duration: 6 weeks
+    outputs:
+    - VR Training Modules
+  - step: 4
+    actor: Faculty Champion
+    action: Integrate VR training into existing curriculum
+    decision_points:
+    - Credit Assignment
+    - Assessment Methods
+    - Prerequisites
+    tools:
+    - Curriculum Management System
+    - Academic Policies
+    duration: 4 weeks
+    outputs:
+    - Updated Course Syllabi
+  - step: 5
+    actor: VR Technical Specialist
+    action: Deploy VR infrastructure and content delivery system
+    tools:
+    - VR Deployment Tools
+    - Content Management System
+    duration: 3 weeks
+    outputs:
+    - Operational VR Training Environment
+  - step: 6
+    actor: Student Success Coordinator
+    action: Conduct faculty and student training on VR usage
+    tools:
+    - Training Materials
+    - Support Documentation
+    duration: 2 weeks
+    outputs:
+    - Trained Users and Support Resources
+  success_criteria: VR training adopted in 5 core programs with positive learning
+    outcomes
+  failure_modes:
+  - Technical limitations reducing accessibility
+  - Faculty resistance to technology adoption
+  - Content development timeline overruns

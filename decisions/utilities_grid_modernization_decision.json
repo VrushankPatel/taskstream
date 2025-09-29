@@ -3,8 +3,15 @@
   "context": "Regional utility company evaluating smart grid modernization to improve reliability and enable renewable integration",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Chief Technology Officer", "Regulatory Affairs Director", "Customer Service VP"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Regulatory Affairs Director",
+      "Customer Service VP"
+    ]
   },
   "request": {
     "amount": "$85 million",
@@ -16,28 +23,49 @@
     {
       "stage": "needs_assessment",
       "duration": "2 months",
-      "activities": ["Current infrastructure evaluation", "Customer needs analysis", "Technology assessment"],
+      "activities": [
+        "Current infrastructure evaluation",
+        "Customer needs analysis",
+        "Technology assessment"
+      ],
       "outcome": "Clear modernization requirements identified"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "3 months",
-      "activities": ["RFP process", "Vendor demonstrations", "Technical evaluations"],
+      "activities": [
+        "RFP process",
+        "Vendor demonstrations",
+        "Technical evaluations"
+      ],
       "outcome": "Preferred vendor selected"
     },
     {
       "stage": "financial_analysis",
       "duration": "1 month",
-      "activities": ["Cost-benefit analysis", "Funding strategy", "Rate impact study"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Funding strategy",
+        "Rate impact study"
+      ],
       "outcome": "Positive ROI confirmed"
     }
   ],
   "business_impact": {
     "expected_outcome": "35% reduction in outage duration, 50% improvement in renewable energy integration",
     "projected_value": "$25 million annual operational savings",
-    "risk_factors": ["Implementation delays", "Cybersecurity concerns", "Technology obsolescence"]
+    "risk_factors": [
+      "Implementation delays",
+      "Cybersecurity concerns",
+      "Technology obsolescence"
+    ]
   },
-  "decision_criteria": ["Financial return", "Operational improvement", "Customer benefit", "Regulatory compliance"],
+  "decision_criteria": [
+    "Financial return",
+    "Operational improvement",
+    "Customer benefit",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive stakeholder engagement essential for infrastructure modernization projects"
 }

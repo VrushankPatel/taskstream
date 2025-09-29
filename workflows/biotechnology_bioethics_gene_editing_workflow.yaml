@@ -1,40 +1,73 @@
 workflow:
-  id: "biotechnology_bioethics_gene_editing_workflow"
-  title: "Bioethics Gene Editing Workflow"
-  department: "Biotechnology Ethics"
-  complexity: "high"
-  participants: ["Bioethicist", "Geneticist", "Patient Advocate", "Regulatory Expert", "Legal Counsel"]
-  trigger: "New gene editing technology developed for clinical application"
+  id: biotechnology_bioethics_gene_editing_workflow
+  title: Bioethics Gene Editing Workflow
+  department: Biotechnology Ethics
+  complexity: high
+  participants:
+  - Bioethicist
+  - Geneticist
+  - Patient Advocate
+  - Regulatory Expert
+  - Legal Counsel
+  trigger: New gene editing technology developed for clinical application
   steps:
-    - step: 1
-      actor: "Bioethicist"
-      action: "Conduct comprehensive ethical assessment"
-      tools: ["Ethical frameworks", "Stakeholder interviews", "Risk-benefit analysis"]
-      duration: "3 weeks"
-      outputs: ["Ethical assessment report", "Stakeholder concerns documentation"]
-    - step: 2
-      actor: "Geneticist"
-      action: "Evaluate scientific validity and safety data"
-      decision_points: ["Efficacy evidence", "Safety profile", "Long-term implications"]
-      duration: "4 weeks"
-      outputs: ["Scientific validation report", "Safety assessment"]
-    - step: 3
-      actor: "Patient Advocate"
-      action: "Gather patient and community perspectives"
-      tools: ["Focus groups", "Survey tools", "Community outreach"]
-      duration: "2 weeks"
-      outputs: ["Patient perspective report", "Community impact assessment"]
-    - step: 4
-      actor: "Regulatory Expert"
-      action: "Review regulatory compliance and approval pathways"
-      tools: ["Regulatory databases", "Approval precedents", "Compliance checklists"]
-      duration: "3 weeks"
-      outputs: ["Regulatory pathway analysis", "Compliance recommendations"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Address legal and liability considerations"
-      decision_points: ["Liability frameworks", "Insurance requirements", "Legal precedents"]
-      duration: "2 weeks"
-      outputs: ["Legal risk assessment", "Liability mitigation plan"]
-  success_criteria: "Ethical approval obtained for clinical advancement"
-  failure_modes: ["Unresolved ethical concerns", "Community opposition", "Regulatory barriers"]
+  - step: 1
+    actor: Bioethicist
+    action: Conduct comprehensive ethical assessment
+    tools:
+    - Ethical frameworks
+    - Stakeholder interviews
+    - Risk-benefit analysis
+    duration: 3 weeks
+    outputs:
+    - Ethical assessment report
+    - Stakeholder concerns documentation
+  - step: 2
+    actor: Geneticist
+    action: Evaluate scientific validity and safety data
+    decision_points:
+    - Efficacy evidence
+    - Safety profile
+    - Long-term implications
+    duration: 4 weeks
+    outputs:
+    - Scientific validation report
+    - Safety assessment
+  - step: 3
+    actor: Patient Advocate
+    action: Gather patient and community perspectives
+    tools:
+    - Focus groups
+    - Survey tools
+    - Community outreach
+    duration: 2 weeks
+    outputs:
+    - Patient perspective report
+    - Community impact assessment
+  - step: 4
+    actor: Regulatory Expert
+    action: Review regulatory compliance and approval pathways
+    tools:
+    - Regulatory databases
+    - Approval precedents
+    - Compliance checklists
+    duration: 3 weeks
+    outputs:
+    - Regulatory pathway analysis
+    - Compliance recommendations
+  - step: 5
+    actor: Legal Counsel
+    action: Address legal and liability considerations
+    decision_points:
+    - Liability frameworks
+    - Insurance requirements
+    - Legal precedents
+    duration: 2 weeks
+    outputs:
+    - Legal risk assessment
+    - Liability mitigation plan
+  success_criteria: Ethical approval obtained for clinical advancement
+  failure_modes:
+  - Unresolved ethical concerns
+  - Community opposition
+  - Regulatory barriers

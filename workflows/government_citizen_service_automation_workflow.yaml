@@ -1,46 +1,92 @@
 workflow:
-  id: "workflow_gov_citizen_service_automation"
-  title: "Citizen Service Automation Workflow"
-  department: "Digital Services"
-  complexity: "medium"
-  participants: ["Digital Transformation Director", "UX Designer", "IT Architect", "Data Privacy Officer", "Service Delivery Manager"]
-  trigger: "High-volume citizen service identified for digitization"
+  id: workflow_gov_citizen_service_automation
+  title: Citizen Service Automation Workflow
+  department: Digital Services
+  complexity: medium
+  participants:
+  - Digital Transformation Director
+  - UX Designer
+  - IT Architect
+  - Data Privacy Officer
+  - Service Delivery Manager
+  trigger: High-volume citizen service identified for digitization
   steps:
-    - step: 1
-      actor: "Digital Transformation Director"
-      action: "Assess service complexity and automation feasibility"
-      tools: ["Service analysis frameworks", "Process mapping software", "User journey mapping tools"]
-      duration: "3 weeks"
-      outputs: ["Service assessment report", "Automation feasibility study", "Requirements specification"]
-    - step: 2
-      actor: "UX Designer"
-      action: "Design user-centric digital interface and experience"
-      tools: ["UX design software", "User research platforms", "Accessibility testing tools"]
-      duration: "4 weeks"
-      outputs: ["User interface designs", "User experience prototypes", "Accessibility compliance report"]
-    - step: 3
-      actor: "IT Architect"
-      action: "Develop technical architecture and integration plan"
-      tools: ["Architecture design tools", "API management platforms", "Security assessment frameworks"]
-      duration: "5 weeks"
-      outputs: ["Technical architecture document", "Integration specifications", "Security implementation plan"]
-    - step: 4
-      actor: "Data Privacy Officer"
-      action: "Implement privacy and data protection measures"
-      tools: ["Privacy impact assessment tools", "Data protection frameworks", "Compliance monitoring systems"]
-      duration: "3 weeks"
-      outputs: ["Privacy impact assessment", "Data protection procedures", "Compliance documentation"]
-    - step: 5
-      actor: "Service Delivery Manager"
-      action: "Develop change management and training programs"
-      tools: ["Change management frameworks", "Training development platforms", "Communication planning tools"]
-      duration: "4 weeks"
-      outputs: ["Change management plan", "Staff training curriculum", "Service transition roadmap"]
-    - step: 6
-      actor: "Cross-functional Team"
-      action: "Conduct pilot testing and full deployment"
-      tools: ["Testing management systems", "Performance monitoring tools", "Feedback collection platforms"]
-      duration: "6 weeks"
-      outputs: ["Pilot test results", "Deployment completion report", "User adoption metrics"]
-  success_criteria: "80% of service transactions automated with improved citizen satisfaction and reduced processing time"
-  failure_modes: ["Low user adoption", "Technical integration failures", "Privacy compliance issues", "Change management resistance"]
+  - step: 1
+    actor: Digital Transformation Director
+    action: Assess service complexity and automation feasibility
+    tools:
+    - Service analysis frameworks
+    - Process mapping software
+    - User journey mapping tools
+    duration: 3 weeks
+    outputs:
+    - Service assessment report
+    - Automation feasibility study
+    - Requirements specification
+  - step: 2
+    actor: UX Designer
+    action: Design user-centric digital interface and experience
+    tools:
+    - UX design software
+    - User research platforms
+    - Accessibility testing tools
+    duration: 4 weeks
+    outputs:
+    - User interface designs
+    - User experience prototypes
+    - Accessibility compliance report
+  - step: 3
+    actor: IT Architect
+    action: Develop technical architecture and integration plan
+    tools:
+    - Architecture design tools
+    - API management platforms
+    - Security assessment frameworks
+    duration: 5 weeks
+    outputs:
+    - Technical architecture document
+    - Integration specifications
+    - Security implementation plan
+  - step: 4
+    actor: Data Privacy Officer
+    action: Implement privacy and data protection measures
+    tools:
+    - Privacy impact assessment tools
+    - Data protection frameworks
+    - Compliance monitoring systems
+    duration: 3 weeks
+    outputs:
+    - Privacy impact assessment
+    - Data protection procedures
+    - Compliance documentation
+  - step: 5
+    actor: Service Delivery Manager
+    action: Develop change management and training programs
+    tools:
+    - Change management frameworks
+    - Training development platforms
+    - Communication planning tools
+    duration: 4 weeks
+    outputs:
+    - Change management plan
+    - Staff training curriculum
+    - Service transition roadmap
+  - step: 6
+    actor: Cross-functional Team
+    action: Conduct pilot testing and full deployment
+    tools:
+    - Testing management systems
+    - Performance monitoring tools
+    - Feedback collection platforms
+    duration: 6 weeks
+    outputs:
+    - Pilot test results
+    - Deployment completion report
+    - User adoption metrics
+  success_criteria: 80% of service transactions automated with improved citizen satisfaction
+    and reduced processing time
+  failure_modes:
+  - Low user adoption
+  - Technical integration failures
+  - Privacy compliance issues
+  - Change management resistance

@@ -1,9 +1,9 @@
 # Email Thread: Mining Safety Incident Response
 
-**From:** Safety Director  
-**To:** Executive Leadership Team, Operations Leadership  
-**Subject:** Critical Safety Incident - Underground Collapse at Site B  
-**Date:** October 10, 2024  
+**From:** Safety Director
+**To:** Executive Leadership Team, Operations Leadership
+**Subject:** Critical Safety Incident - Underground Collapse at Site B
+**Date:** October 10, 2024
 
 **URGENT - CONFIDENTIAL**
 
@@ -41,10 +41,10 @@ Safety Director
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team, Operations Leadership  
-**Subject:** Re: Critical Safety Incident - Underground Collapse at Site B  
-**Date:** October 10, 2024  
+**From:** CEO
+**To:** Executive Leadership Team, Operations Leadership
+**Subject:** Re: Critical Safety Incident - Underground Collapse at Site B
+**Date:** October 10, 2024
 
 Thank you for the immediate notification. This is extremely concerning and our thoughts are with the affected workers and their families.
 
@@ -70,10 +70,10 @@ CEO
 
 ---
 
-**From:** Safety Director  
-**To:** Executive Leadership Team, Operations Leadership  
-**Subject:** Update - Safety Incident Site B  
-**Date:** October 10, 2024  
+**From:** Safety Director
+**To:** Executive Leadership Team, Operations Leadership
+**Subject:** Update - Safety Incident Site B
+**Date:** October 10, 2024
 
 **UPDATE - 16:30**
 
@@ -94,10 +94,10 @@ Safety Director
 
 ---
 
-**From:** COO  
-**To:** Executive Leadership Team, Operations Leadership  
-**Subject:** Re: Update - Safety Incident Site B  
-**Date:** October 10, 2024  
+**From:** COO
+**To:** Executive Leadership Team, Operations Leadership
+**Subject:** Re: Update - Safety Incident Site B
+**Date:** October 10, 2024
 
 Good progress on rescue. Once workers are safe, we need to focus on:
 
@@ -123,10 +123,10 @@ COO
 
 ---
 
-**From:** Safety Director  
-**To:** Executive Leadership Team, Operations Leadership  
-**Subject:** RESCUE COMPLETE - Safety Incident Site B  
-**Date:** October 10, 2024  
+**From:** Safety Director
+**To:** Executive Leadership Team, Operations Leadership
+**Subject:** RESCUE COMPLETE - Safety Incident Site B
+**Date:** October 10, 2024
 
 **FINAL UPDATE - 20:15**
 

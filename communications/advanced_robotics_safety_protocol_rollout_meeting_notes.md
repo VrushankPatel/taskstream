@@ -1,10 +1,10 @@
 ## Meeting Notes: Advanced Robotics Safety Protocol Rollout
 
-**Meeting Title:** Robotics Safety Standards Implementation and Training Program  
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Main Training Facility  
-**Attendees:** COO (Lisa Chen), Safety Director (Mike Johnson), Operations Managers (4), Robotics Engineers (3), HR Representative (1)  
+**Meeting Title:** Robotics Safety Standards Implementation and Training Program
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Main Training Facility
+**Attendees:** COO (Lisa Chen), Safety Director (Mike Johnson), Operations Managers (4), Robotics Engineers (3), HR Representative (1)
 
 ### Meeting Objectives
 - Review final safety protocols for collaborative robotics
@@ -116,5 +116,5 @@
 - **Pilot Review:** January 2026 assessment of initial implementation
 - **Full Audit:** March 2026 comprehensive safety compliance review
 
-**Meeting adjourned at 12:00 PM**  
+**Meeting adjourned at 12:00 PM**
 **Next meeting:** October 5, 2025 - Training Program Kickoff

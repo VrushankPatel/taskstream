@@ -203,7 +203,7 @@ This policy applies to all crisis situations including:
 - Legal Counsel: [Name] - [Phone] - [Email]
 - PR Agency: [Name] - [Phone] - [Email]
 
-*Effective Date: November 1, 2025*  
-*Last Updated: October 28, 2025*  
-*Policy Owner: Chief Communications Officer*  
+*Effective Date: November 1, 2025*
+*Last Updated: October 28, 2025*
+*Policy Owner: Chief Communications Officer*
 *Approval Authority: Chief Executive Officer*

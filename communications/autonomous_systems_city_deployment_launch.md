@@ -1,8 +1,8 @@
 ## Autonomous Systems City Deployment Launch Meeting Notes
 
-**Meeting Date:** September 28, 2025  
-**Attendees:** CEO, COO, Chief Safety Officer, VP Engineering, City Transportation Director, Community Relations Lead  
-**Location:** Executive Conference Room  
+**Meeting Date:** September 28, 2025
+**Attendees:** CEO, COO, Chief Safety Officer, VP Engineering, City Transportation Director, Community Relations Lead
+**Location:** Executive Conference Room
 
 ### Agenda Items
 

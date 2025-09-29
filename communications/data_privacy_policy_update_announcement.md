@@ -1,9 +1,9 @@
 ## Company-wide Announcement: Data Privacy Policy Update
 
-**From:** Chief Privacy Officer  
-**To:** All Employees  
-**Subject:** Important Update to Data Privacy Policy - Effective January 1, 2025  
-**Date:** November 10, 2024  
+**From:** Chief Privacy Officer
+**To:** All Employees
+**Subject:** Important Update to Data Privacy Policy - Effective January 1, 2025
+**Date:** November 10, 2024
 
 Dear Team,
 
@@ -64,8 +64,8 @@ If you have questions about these changes or need assistance with implementation
 
 Your cooperation in implementing these changes is crucial to maintaining our customers' trust and ensuring regulatory compliance.
 
-Best regards,  
-Dr. Amanda Foster  
-Chief Privacy Officer  
-amanda.foster@company.com  
+Best regards,
+Dr. Amanda Foster
+Chief Privacy Officer
+amanda.foster@company.com
 Phone: (555) 123-4567

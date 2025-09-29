@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_hospitality_001"
-  title: "Luxury Hotel Guest Experience Management"
-  department: "Hospitality"
-  complexity: "medium"
-  participants: ["Guest Services Manager", "Front Desk", "Housekeeping", "F&B Manager", "Concierge"]
-  trigger: "Guest check-in or service request"
+  id: workflow_hospitality_001
+  title: Luxury Hotel Guest Experience Management
+  department: Hospitality
+  complexity: medium
+  participants:
+  - Guest Services Manager
+  - Front Desk
+  - Housekeeping
+  - F&B Manager
+  - Concierge
+  trigger: Guest check-in or service request
   steps:
-    - step: 1
-      actor: "Front Desk"
-      action: "Guest check-in and preference capture"
-      tools: ["PMS system", "Guest profile database"]
-      duration: "15 minutes"
-      outputs: ["Guest profile", "Room assignment", "Welcome package"]
-    - step: 2
-      actor: "Housekeeping"
-      action: "Room preparation and maintenance"
-      tools: ["Housekeeping management system", "Quality checklists"]
-      duration: "30 minutes"
-      outputs: ["Room ready status", "Maintenance requests"]
-    - step: 3
-      actor: "Concierge"
-      action: "Personalized service coordination"
-      tools: ["Concierge system", "Local vendor database"]
-      duration: "Ongoing"
-      outputs: ["Service reservations", "Local recommendations"]
-    - step: 4
-      actor: "F&B Manager"
-      action: "Dining experience management"
-      tools: ["Restaurant management system", "Menu planning tools"]
-      duration: "Ongoing"
-      outputs: ["Dining reservations", "Special requests", "Dietary accommodations"]
-    - step: 5
-      actor: "Guest Services Manager"
-      action: "Service quality monitoring and issue resolution"
-      tools: ["Feedback systems", "Issue tracking software"]
-      duration: "Ongoing"
-      outputs: ["Service recovery actions", "Quality improvement initiatives"]
-    - step: 6
-      actor: "Front Desk"
-      action: "Guest check-out and follow-up"
-      tools: ["PMS system", "Feedback collection tools"]
-      duration: "10 minutes"
-      outputs: ["Guest feedback", "Future booking incentives"]
-  success_criteria: "Guest satisfaction score above 95% with positive reviews"
-  failure_modes: ["Service delays", "Poor communication", "Unmet expectations"]
+  - step: 1
+    actor: Front Desk
+    action: Guest check-in and preference capture
+    tools:
+    - PMS system
+    - Guest profile database
+    duration: 15 minutes
+    outputs:
+    - Guest profile
+    - Room assignment
+    - Welcome package
+  - step: 2
+    actor: Housekeeping
+    action: Room preparation and maintenance
+    tools:
+    - Housekeeping management system
+    - Quality checklists
+    duration: 30 minutes
+    outputs:
+    - Room ready status
+    - Maintenance requests
+  - step: 3
+    actor: Concierge
+    action: Personalized service coordination
+    tools:
+    - Concierge system
+    - Local vendor database
+    duration: Ongoing
+    outputs:
+    - Service reservations
+    - Local recommendations
+  - step: 4
+    actor: F&B Manager
+    action: Dining experience management
+    tools:
+    - Restaurant management system
+    - Menu planning tools
+    duration: Ongoing
+    outputs:
+    - Dining reservations
+    - Special requests
+    - Dietary accommodations
+  - step: 5
+    actor: Guest Services Manager
+    action: Service quality monitoring and issue resolution
+    tools:
+    - Feedback systems
+    - Issue tracking software
+    duration: Ongoing
+    outputs:
+    - Service recovery actions
+    - Quality improvement initiatives
+  - step: 6
+    actor: Front Desk
+    action: Guest check-out and follow-up
+    tools:
+    - PMS system
+    - Feedback collection tools
+    duration: 10 minutes
+    outputs:
+    - Guest feedback
+    - Future booking incentives
+  success_criteria: Guest satisfaction score above 95% with positive reviews
+  failure_modes:
+  - Service delays
+  - Poor communication
+  - Unmet expectations

@@ -1,8 +1,8 @@
 ## Communication Thread: Retail Supply Chain Disruption Crisis Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Key Suppliers  
-**Subject:** Urgent: Major Supplier Disruption - Immediate Response Required  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Key Suppliers
+**Subject:** Urgent: Major Supplier Disruption - Immediate Response Required
 
 Team,
 
@@ -21,9 +21,9 @@ I've just been notified by our primary electronics supplier of a major productio
 
 Please respond within 2 hours with your team's availability for emergency planning meeting at 3 PM EST.
 
-**From:** CEO  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required  
+**From:** CEO
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required
 
 This is a critical situation. I've notified the board and we're activating our crisis response protocol.
 
@@ -34,9 +34,9 @@ This is a critical situation. I've notified the board and we're activating our c
 
 Let's minimize the impact on our customers and maintain our reputation for reliability.
 
-**From:** Marketing Director  
-**To:** CEO, Supply Chain Director, Customer Service Team  
-**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required  
+**From:** Marketing Director
+**To:** CEO, Supply Chain Director, Customer Service Team
+**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required
 
 Customer communication draft ready for review:
 
@@ -52,9 +52,9 @@ We regret to inform you of a temporary delay in your electronics order due to un
 
 Your satisfaction is our priority. Please contact customer service at 1-800-XXX-XXXX.
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required
 
 **Update - 24 Hours Later:**
 
@@ -103,19 +103,19 @@ Scheduled for next week to review:
 
 This incident has strengthened our supply chain resilience framework.
 
-**From:** CEO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required  
+**From:** CEO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Major Supplier Disruption - Immediate Response Required
 
-**Final Resolution Update:**  
+**Final Resolution Update:**
 
-The crisis response has been exemplary. The board has approved the $500K emergency budget and commended the team's rapid mitigation efforts, reducing potential revenue impact from $2.8M to $1.2M.  
+The crisis response has been exemplary. The board has approved the $500K emergency budget and commended the team's rapid mitigation efforts, reducing potential revenue impact from $2.8M to $1.2M.
 
-**Approved Long-term Actions:**  
-- Increase supplier diversification to 5 primary vendors within 6 months  
-- Implement automated supply chain monitoring system ($2M investment)  
-- Develop comprehensive crisis communication playbook  
-- Establish quarterly supply chain resilience reviews  
-- Create executive crisis response training program  
+**Approved Long-term Actions:**
+- Increase supplier diversification to 5 primary vendors within 6 months
+- Implement automated supply chain monitoring system ($2M investment)
+- Develop comprehensive crisis communication playbook
+- Establish quarterly supply chain resilience reviews
+- Create executive crisis response training program
 
 This incident demonstrates our ability to maintain customer trust during disruptions and positions us for enhanced operational resilience. Well done, team.

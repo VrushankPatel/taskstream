@@ -6,8 +6,8 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 ## Organizational Structure
 
 ### Chief Cyber Underwriter (Senior Leadership)
-**Reports to:** Head of Specialty Lines  
-**Direct Reports:** 3 Regional Directors  
+**Reports to:** Head of Specialty Lines
+**Direct Reports:** 3 Regional Directors
 **Key Responsibilities:**
 - Global cyber strategy development
 - Portfolio risk management
@@ -15,9 +15,9 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 - Industry relationship management
 
 ### Regional Cyber Directors (3 positions)
-**Reports to:** Chief Cyber Underwriter  
-**Locations:** Americas, EMEA, Asia Pacific  
-**Direct Reports:** 4-6 Senior Cyber Underwriters each  
+**Reports to:** Chief Cyber Underwriter
+**Locations:** Americas, EMEA, Asia Pacific
+**Direct Reports:** 4-6 Senior Cyber Underwriters each
 **Key Responsibilities:**
 - Regional portfolio management
 - Market development
@@ -25,9 +25,9 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 - Client relationship management
 
 ### Senior Cyber Underwriters (15 positions)
-**Reports to:** Regional Directors  
-**Locations:** Major financial hubs  
-**Direct Reports:** Cyber Underwriting Analysts  
+**Reports to:** Regional Directors
+**Locations:** Major financial hubs
+**Direct Reports:** Cyber Underwriting Analysts
 **Key Responsibilities:**
 - Complex risk assessments
 - Policy structuring and pricing
@@ -35,8 +35,8 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 - Loss prevention consulting
 
 ### Cyber Underwriting Analysts (25 positions)
-**Reports to:** Senior Cyber Underwriters  
-**Locations:** Regional offices  
+**Reports to:** Senior Cyber Underwriters
+**Locations:** Regional offices
 **Key Responsibilities:**
 - Risk data analysis
 - Underwriting support
@@ -44,8 +44,8 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 - Report preparation
 
 ### Cyber Risk Engineers (10 positions)
-**Reports to:** Chief Cyber Underwriter  
-**Location:** Global technical center  
+**Reports to:** Chief Cyber Underwriter
+**Location:** Global technical center
 **Key Responsibilities:**
 - Technical risk assessments
 - Vulnerability analysis
@@ -53,8 +53,8 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 - Incident response planning
 
 ### Data Analytics Specialists (6 positions)
-**Reports to:** Chief Cyber Underwriter  
-**Location:** Central analytics team  
+**Reports to:** Chief Cyber Underwriter
+**Location:** Central analytics team
 **Key Responsibilities:**
 - Cyber threat modeling
 - Predictive analytics
@@ -64,16 +64,16 @@ The Cyber Risk Assessment Team evaluates and underwrites cyber insurance policie
 ## Specialized Support Teams
 
 ### Claims Liaison Team
-**Reports to:** Chief Cyber Underwriter  
-**Staff:** 8 specialists  
+**Reports to:** Chief Cyber Underwriter
+**Staff:** 8 specialists
 **Key Responsibilities:**
 - Claims data integration
 - Loss prevention strategies
 - Client recovery support
 
 ### Regulatory Compliance Team
-**Reports to:** Chief Cyber Underwriter  
-**Staff:** 5 specialists  
+**Reports to:** Chief Cyber Underwriter
+**Staff:** 5 specialists
 **Key Responsibilities:**
 - Regulatory reporting
 - Compliance monitoring

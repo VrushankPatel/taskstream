@@ -1,16 +1,16 @@
 ## Cybersecurity Incident Post-Mortem Meeting Notes
 
-**Date:** November 5, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Executive Conference Room  
-**Attendees:**  
-- Chief Information Security Officer (Chair)  
-- CTO  
-- VP IT Operations  
-- Incident Response Team Lead  
-- Legal Counsel  
-- Communications Director  
-- External Cybersecurity Consultant  
+**Date:** November 5, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Executive Conference Room
+**Attendees:**
+- Chief Information Security Officer (Chair)
+- CTO
+- VP IT Operations
+- Incident Response Team Lead
+- Legal Counsel
+- Communications Director
+- External Cybersecurity Consultant
 
 **Meeting Objective:** Conduct thorough post-mortem analysis of the October ransomware incident and develop preventive measures
 
@@ -120,5 +120,5 @@
 - Quarterly incident response simulation exercises
 - Annual security posture assessment
 
-**Meeting Adjourned:** 12:00 PM  
+**Meeting Adjourned:** 12:00 PM
 **Next Review Meeting:** December 5, 2025 - Action Item Progress Update

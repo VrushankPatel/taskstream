@@ -3,8 +3,15 @@
   "context": "Mid-size manufacturing company, 800 employees, expanding into Asian markets through strategic partnership",
   "stakeholders": {
     "requester": "Chief Executive Officer",
-    "approvers": ["Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Operating Officer", "International Business Development Lead", "Legal Counsel"]
+    "approvers": [
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Operating Officer",
+      "International Business Development Lead",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$15M equity investment",
@@ -16,31 +23,51 @@
     {
       "stage": "opportunity_assessment",
       "duration": "4 weeks",
-      "activities": ["Market research", "Partner evaluation", "Financial modeling"],
+      "activities": [
+        "Market research",
+        "Partner evaluation",
+        "Financial modeling"
+      ],
       "outcome": "Strong strategic fit identified with complementary capabilities"
     },
     {
       "stage": "due_diligence",
       "duration": "8 weeks",
-      "activities": ["Financial audit", "Legal review", "Operational assessment"],
+      "activities": [
+        "Financial audit",
+        "Legal review",
+        "Operational assessment"
+      ],
       "outcome": "Due diligence completed with minor concerns addressed"
     },
     {
       "stage": "negotiation",
       "duration": "6 weeks",
-      "activities": ["Term sheet development", "Valuation discussions", "Governance structure design"],
+      "activities": [
+        "Term sheet development",
+        "Valuation discussions",
+        "Governance structure design"
+      ],
       "outcome": "Partnership agreement negotiated with favorable terms"
     },
     {
       "stage": "board_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Risk assessment review", "Final approval"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment review",
+        "Final approval"
+      ],
       "outcome": "Board approval granted with performance milestones"
     }
   ],
   "business_impact": {
     "market_expansion": "30% revenue growth projected",
     "strategic_value": "Access to $2B Asian market",
-    "risk_factors": ["Cultural integration challenges", "IP protection concerns", "Currency fluctuation risks"]
+    "risk_factors": [
+      "Cultural integration challenges",
+      "IP protection concerns",
+      "Currency fluctuation risks"
+    ]
   }
 }

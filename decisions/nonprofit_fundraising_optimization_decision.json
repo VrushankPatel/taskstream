@@ -3,8 +3,16 @@
   "context": "Large environmental nonprofit organization seeking to optimize fundraising operations through digital transformation",
   "stakeholders": {
     "requester": "Chief Development Officer",
-    "approvers": ["Executive Director", "Board Chair", "Chief Financial Officer"],
-    "influencers": ["Marketing Director", "IT Director", "Program Directors"]
+    "approvers": [
+      "Executive Director",
+      "Board Chair",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Marketing Director",
+      "IT Director",
+      "Program Directors"
+    ]
   },
   "request": {
     "amount": "$800,000",
@@ -16,28 +24,51 @@
     {
       "stage": "needs_assessment",
       "duration": "6 weeks",
-      "activities": ["Current system evaluation", "Stakeholder requirements gathering", "Technology market research"],
+      "activities": [
+        "Current system evaluation",
+        "Stakeholder requirements gathering",
+        "Technology market research"
+      ],
       "outcome": "Identified critical gaps in donor management and fundraising automation"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "4 weeks",
-      "activities": ["RFP development", "Vendor demonstrations", "Reference checks"],
+      "activities": [
+        "RFP development",
+        "Vendor demonstrations",
+        "Reference checks"
+      ],
       "outcome": "Selected optimal fundraising platform vendor"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Project timeline development", "Resource allocation", "Risk mitigation planning"],
+      "activities": [
+        "Project timeline development",
+        "Resource allocation",
+        "Risk mitigation planning"
+      ],
       "outcome": "Approved implementation plan with allocated budget"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% increase in fundraising efficiency and 25% improvement in donor retention",
     "projected_value": "$2,500,000 in additional program funding over 3 years",
-    "risk_factors": ["Donor data migration challenges", "Staff training requirements", "Integration with existing systems", "Change management resistance"]
+    "risk_factors": [
+      "Donor data migration challenges",
+      "Staff training requirements",
+      "Integration with existing systems",
+      "Change management resistance"
+    ]
   },
-  "decision_criteria": ["Fundraising efficiency improvement", "Donor experience enhancement", "Technical integration feasibility", "Cost-benefit analysis", "Staff adoption potential"],
+  "decision_criteria": [
+    "Fundraising efficiency improvement",
+    "Donor experience enhancement",
+    "Technical integration feasibility",
+    "Cost-benefit analysis",
+    "Staff adoption potential"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Digital transformation in nonprofits requires significant change management and staff training investment"
 }

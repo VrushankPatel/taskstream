@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Revenue Optimization Crisis Response
 
-**From:** Revenue Manager  
-**To:** CEO, CFO, Operations Director, Marketing Director  
-**Subject:** URGENT: Revenue Management System Failure - Immediate Action Required  
+**From:** Revenue Manager
+**To:** CEO, CFO, Operations Director, Marketing Director
+**Subject:** URGENT: Revenue Management System Failure - Immediate Action Required
 
 Team,
 
@@ -27,18 +27,18 @@ I'm writing to alert you to a critical failure in our revenue optimization platf
 
 Please advise on communication strategy with key accounts. Should we proactively notify our top 50 corporate clients about potential service disruptions?
 
-Best,  
-Sarah Chen  
-Revenue Manager  
-Global Hospitality Group  
-sarah.chen@globalhospitality.com  
+Best,
+Sarah Chen
+Revenue Manager
+Global Hospitality Group
+sarah.chen@globalhospitality.com
 +1 (555) 123-4567
 
 ---
 
-**From:** CEO  
-**To:** Revenue Manager, CFO, Operations Director, Marketing Director, IT Director  
-**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required  
+**From:** CEO
+**To:** Revenue Manager, CFO, Operations Director, Marketing Director, IT Director
+**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required
 
 Sarah,
 
@@ -57,19 +57,19 @@ This is unacceptable. A $45K daily loss is catastrophic for our margins. What's 
 
 Michael, please coordinate with Sarah on financial impact modeling. David, ensure operations teams are prepared for manual overrides.
 
-We cannot afford another incident like this.  
+We cannot afford another incident like this.
 
-Regards,  
-Robert Martinez  
-CEO  
-Global Hospitality Group  
+Regards,
+Robert Martinez
+CEO
+Global Hospitality Group
 robert.martinez@globalhospitality.com
 
 ---
 
-**From:** IT Director  
-**To:** CEO, Revenue Manager, CFO, Operations Director  
-**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required  
+**From:** IT Director
+**To:** CEO, Revenue Manager, CFO, Operations Director
+**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required
 
 Robert,
 
@@ -90,18 +90,18 @@ Root cause identified: Memory leak in the rate optimization algorithm caused dat
 - Enhanced monitoring required for critical revenue systems
 - Consider secondary vendor evaluation for revenue management
 
-Apologies for the disruption.  
+Apologies for the disruption.
 
-David Kim  
-IT Director  
-Global Hospitality Group  
+David Kim
+IT Director
+Global Hospitality Group
 david.kim@globalhospitality.com
 
 ---
 
-**From:** CFO  
-**To:** CEO, Revenue Manager, IT Director, Operations Director  
-**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required  
+**From:** CFO
+**To:** CEO, Revenue Manager, IT Director, Operations Director
+**Subject:** Re: URGENT: Revenue Management System Failure - Immediate Action Required
 
 **Financial Impact Assessment:**
 
@@ -124,7 +124,7 @@ david.kim@globalhospitality.com
 2. Establish $50K incident response budget for system improvements
 3. Quarterly business continuity testing for all revenue-critical systems
 
-Michael Torres  
-CFO  
-Global Hospitality Group  
+Michael Torres
+CFO
+Global Hospitality Group
 michael.torres@globalhospitality.com

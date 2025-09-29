@@ -1,9 +1,9 @@
 ## Manufacturing Circular Economy Supply Chain Transformation Announcement
 
-**From:** Chief Sustainability Officer  
-**To:** All Employees, Supply Chain Partners, Key Suppliers  
-**Subject:** Launch of Circular Economy Supply Chain Initiative - $150M Investment  
-**Date:** September 28, 2025  
+**From:** Chief Sustainability Officer
+**To:** All Employees, Supply Chain Partners, Key Suppliers
+**Subject:** Launch of Circular Economy Supply Chain Initiative - $150M Investment
+**Date:** September 28, 2025
 
 Dear Team and Partners,
 
@@ -55,14 +55,14 @@ I'm excited to announce the launch of our comprehensive Circular Economy Supply 
 
 This initiative represents our commitment to sustainable business practices that benefit our planet, our customers, and our long-term profitability. We look forward to partnering with you on this important journey.
 
-Best regards,  
-Chief Sustainability Officer  
+Best regards,
+Chief Sustainability Officer
 
 ---
 
-**From:** Supply Chain VP  
-**To:** Chief Sustainability Officer, Procurement Team  
-**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment  
+**From:** Supply Chain VP
+**To:** Chief Sustainability Officer, Procurement Team
+**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment
 
 This is an ambitious and important initiative. The procurement team has some immediate questions:
 
@@ -72,13 +72,13 @@ This is an ambitious and important initiative. The procurement team has some imm
 
 We're eager to get started but need clarity on these operational aspects.
 
-Supply Chain VP  
+Supply Chain VP
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** Supply Chain VP, Procurement Team  
-**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment  
+**From:** Chief Sustainability Officer
+**To:** Supply Chain VP, Procurement Team
+**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment
 
 Great questions - let's address them:
 
@@ -90,25 +90,25 @@ Great questions - let's address them:
 
 Let's schedule a supplier workshop next month to discuss implementation details.
 
-Chief Sustainability Officer  
+Chief Sustainability Officer
 
 ---
 
-**From:** Key Supplier Representative  
-**To:** Chief Sustainability Officer  
-**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment  
+**From:** Key Supplier Representative
+**To:** Chief Sustainability Officer
+**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment
 
 As a long-term supplier partner, we're excited about this initiative. However, we're concerned about the investment required for our operations. Can you provide more details on the supplier support programs and potential incentives?
 
 We're committed to sustainability but need to understand the business case for our company.
 
-Key Supplier Representative  
+Key Supplier Representative
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** Key Supplier Representative  
-**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment  
+**From:** Chief Sustainability Officer
+**To:** Key Supplier Representative
+**Subject:** Re: Launch of Circular Economy Supply Chain Initiative - $150M Investment
 
 Thank you for your partnership commitment. We understand the investment concerns and have designed comprehensive support:
 

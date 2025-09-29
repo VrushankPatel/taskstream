@@ -3,8 +3,16 @@
   "context": "Mid-sized insurance company evaluating claims automation investment to reduce processing time and improve customer satisfaction",
   "stakeholders": {
     "requester": "Claims Operations Director",
-    "approvers": ["CFO", "Chief Risk Officer", "IT Director"],
-    "influencers": ["Customer Experience VP", "Compliance Officer", "External Vendor"]
+    "approvers": [
+      "CFO",
+      "Chief Risk Officer",
+      "IT Director"
+    ],
+    "influencers": [
+      "Customer Experience VP",
+      "Compliance Officer",
+      "External Vendor"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +24,49 @@
     {
       "stage": "initial_review",
       "duration": "1 week",
-      "activities": ["ROI analysis", "Vendor evaluation", "Risk assessment"],
+      "activities": [
+        "ROI analysis",
+        "Vendor evaluation",
+        "Risk assessment"
+      ],
       "outcome": "Proceed to detailed evaluation"
     },
     {
       "stage": "technical_assessment",
       "duration": "2 weeks",
-      "activities": ["System integration testing", "Data security audit", "Compliance review"],
+      "activities": [
+        "System integration testing",
+        "Data security audit",
+        "Compliance review"
+      ],
       "outcome": "Approved with modifications"
     },
     {
       "stage": "final_approval",
       "duration": "3 days",
-      "activities": ["Board presentation", "Budget allocation", "Implementation planning"],
+      "activities": [
+        "Board presentation",
+        "Budget allocation",
+        "Implementation planning"
+      ],
       "outcome": "Approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "Reduce claims processing time by 60%, improve customer satisfaction by 25%",
     "projected_value": "$1,200,000 annual savings",
-    "risk_factors": ["System integration challenges", "Data privacy concerns", "Employee training requirements"]
+    "risk_factors": [
+      "System integration challenges",
+      "Data privacy concerns",
+      "Employee training requirements"
+    ]
   },
-  "decision_criteria": ["Financial ROI >200%", "Risk mitigation plan", "Regulatory compliance", "Scalability potential"],
+  "decision_criteria": [
+    "Financial ROI >200%",
+    "Risk mitigation plan",
+    "Regulatory compliance",
+    "Scalability potential"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement crucial for complex technology implementations, comprehensive risk assessment prevents costly delays"
 }

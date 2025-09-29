@@ -1,59 +1,124 @@
 workflow:
-  id: "workflow_energy_carbon_capture_004"
-  title: "Carbon Capture and Storage Technology Deployment Workflow"
-  department: "Sustainable Energy Operations"
-  complexity: "complex"
-  participants: ["Carbon Capture Director", "Engineering Lead", "Regulatory Compliance Manager", "Environmental Impact Lead", "Community Relations Manager", "Financial Planning Director"]
-  trigger: "Strategic decision to deploy carbon capture technology at industrial facility"
+  id: workflow_energy_carbon_capture_004
+  title: Carbon Capture and Storage Technology Deployment Workflow
+  department: Sustainable Energy Operations
+  complexity: complex
+  participants:
+  - Carbon Capture Director
+  - Engineering Lead
+  - Regulatory Compliance Manager
+  - Environmental Impact Lead
+  - Community Relations Manager
+  - Financial Planning Director
+  trigger: Strategic decision to deploy carbon capture technology at industrial facility
   steps:
-    - step: 1
-      actor: "Carbon Capture Director"
-      action: "Evaluate carbon capture technologies and select optimal solution"
-      tools: ["Technology assessment frameworks", "Vendor evaluation platforms", "Cost-benefit analysis models"]
-      duration: "4 months"
-      outputs: ["Technology selection report", "Preliminary design specifications", "Cost estimates"]
-      decision_points: ["Technology maturity assessment", "Integration feasibility", "Economic viability"]
-    - step: 2
-      actor: "Engineering Lead"
-      action: "Develop detailed engineering design and integration plan"
-      tools: ["Process simulation software", "Engineering design platforms", "Integration planning tools"]
-      duration: "8 months"
-      outputs: ["Detailed engineering design", "Integration specifications", "Construction plans"]
-      decision_points: ["Design optimization strategies", "Integration complexity assessment", "Schedule constraints"]
-    - step: 3
-      actor: "Regulatory Compliance Manager"
-      action: "Obtain necessary permits and regulatory approvals"
-      tools: ["Regulatory compliance platforms", "Permit application systems", "Environmental impact assessment tools"]
-      duration: "12 months"
-      outputs: ["Permit applications", "Environmental impact statements", "Regulatory approvals"]
-      decision_points: ["Regulatory pathway selection", "Stakeholder engagement strategy", "Compliance timeline management"]
-    - step: 4
-      actor: "Environmental Impact Lead"
-      action: "Conduct environmental monitoring and impact assessment"
-      tools: ["Environmental monitoring systems", "Impact assessment frameworks", "Stakeholder consultation platforms"]
-      duration: "6 months"
-      outputs: ["Environmental monitoring plan", "Impact assessment reports", "Mitigation strategies"]
-      decision_points: ["Monitoring protocol design", "Impact mitigation approaches", "Stakeholder communication"]
-    - step: 5
-      actor: "Community Relations Manager"
-      action: "Engage local communities and address stakeholder concerns"
-      tools: ["Community engagement platforms", "Stakeholder mapping tools", "Communication planning systems"]
-      duration: "Ongoing"
-      outputs: ["Community engagement reports", "Stakeholder feedback analysis", "Communication plans"]
-      decision_points: ["Engagement strategy effectiveness", "Concern resolution approaches", "Trust-building initiatives"]
-    - step: 6
-      actor: "Financial Planning Director"
-      action: "Secure funding and manage project financials"
-      tools: ["Financial modeling platforms", "Grant application systems", "Carbon credit trading platforms"]
-      duration: "18 months"
-      outputs: ["Funding strategy", "Financial projections", "Carbon credit agreements"]
-      decision_points: ["Funding source prioritization", "Financial risk assessment", "ROI optimization"]
-  success_criteria: "Successful technology deployment, regulatory compliance, community acceptance, and measurable carbon reduction"
-  failure_modes: ["Technical integration failures", "Regulatory delays", "Community opposition", "Cost overruns"]
+  - step: 1
+    actor: Carbon Capture Director
+    action: Evaluate carbon capture technologies and select optimal solution
+    tools:
+    - Technology assessment frameworks
+    - Vendor evaluation platforms
+    - Cost-benefit analysis models
+    duration: 4 months
+    outputs:
+    - Technology selection report
+    - Preliminary design specifications
+    - Cost estimates
+    decision_points:
+    - Technology maturity assessment
+    - Integration feasibility
+    - Economic viability
+  - step: 2
+    actor: Engineering Lead
+    action: Develop detailed engineering design and integration plan
+    tools:
+    - Process simulation software
+    - Engineering design platforms
+    - Integration planning tools
+    duration: 8 months
+    outputs:
+    - Detailed engineering design
+    - Integration specifications
+    - Construction plans
+    decision_points:
+    - Design optimization strategies
+    - Integration complexity assessment
+    - Schedule constraints
+  - step: 3
+    actor: Regulatory Compliance Manager
+    action: Obtain necessary permits and regulatory approvals
+    tools:
+    - Regulatory compliance platforms
+    - Permit application systems
+    - Environmental impact assessment tools
+    duration: 12 months
+    outputs:
+    - Permit applications
+    - Environmental impact statements
+    - Regulatory approvals
+    decision_points:
+    - Regulatory pathway selection
+    - Stakeholder engagement strategy
+    - Compliance timeline management
+  - step: 4
+    actor: Environmental Impact Lead
+    action: Conduct environmental monitoring and impact assessment
+    tools:
+    - Environmental monitoring systems
+    - Impact assessment frameworks
+    - Stakeholder consultation platforms
+    duration: 6 months
+    outputs:
+    - Environmental monitoring plan
+    - Impact assessment reports
+    - Mitigation strategies
+    decision_points:
+    - Monitoring protocol design
+    - Impact mitigation approaches
+    - Stakeholder communication
+  - step: 5
+    actor: Community Relations Manager
+    action: Engage local communities and address stakeholder concerns
+    tools:
+    - Community engagement platforms
+    - Stakeholder mapping tools
+    - Communication planning systems
+    duration: Ongoing
+    outputs:
+    - Community engagement reports
+    - Stakeholder feedback analysis
+    - Communication plans
+    decision_points:
+    - Engagement strategy effectiveness
+    - Concern resolution approaches
+    - Trust-building initiatives
+  - step: 6
+    actor: Financial Planning Director
+    action: Secure funding and manage project financials
+    tools:
+    - Financial modeling platforms
+    - Grant application systems
+    - Carbon credit trading platforms
+    duration: 18 months
+    outputs:
+    - Funding strategy
+    - Financial projections
+    - Carbon credit agreements
+    decision_points:
+    - Funding source prioritization
+    - Financial risk assessment
+    - ROI optimization
+  success_criteria: Successful technology deployment, regulatory compliance, community
+    acceptance, and measurable carbon reduction
+  failure_modes:
+  - Technical integration failures
+  - Regulatory delays
+  - Community opposition
+  - Cost overruns
   metrics:
-    - "Carbon capture efficiency: Target >90% capture rate"
-    - "Deployment timeline adherence: Target <10% schedule overrun"
-    - "Cost variance: Target <15% budget overrun"
-    - "Regulatory approval success: Target 100% approvals obtained"
-    - "Community acceptance rate: Target >80% positive feedback"
-    - "Operational uptime: Target >95% after deployment"
+  - 'Carbon capture efficiency: Target >90% capture rate'
+  - 'Deployment timeline adherence: Target <10% schedule overrun'
+  - 'Cost variance: Target <15% budget overrun'
+  - 'Regulatory approval success: Target 100% approvals obtained'
+  - 'Community acceptance rate: Target >80% positive feedback'
+  - 'Operational uptime: Target >95% after deployment'

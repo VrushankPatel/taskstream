@@ -3,9 +3,20 @@
   "context": "European retail expansion opportunity for North American fashion retailer seeking to capitalize on growing luxury market demand and established brand recognition",
   "stakeholders": {
     "requester": "VP International Expansion",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["EU Market Analyst", "Legal Counsel", "Head of Operations"],
-    "advisors": ["EU Expansion Consultant", "Local Market Experts"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "EU Market Analyst",
+      "Legal Counsel",
+      "Head of Operations"
+    ],
+    "advisors": [
+      "EU Expansion Consultant",
+      "Local Market Experts"
+    ]
   },
   "request": {
     "amount": "$15M",
@@ -16,22 +27,46 @@
   "alternatives": [
     {
       "option": "Direct market entry with owned stores",
-      "pros": ["Full control", "Brand consistency", "Higher margins"],
-      "cons": ["High capital investment", "Longer timeline", "Regulatory complexity"],
+      "pros": [
+        "Full control",
+        "Brand consistency",
+        "Higher margins"
+      ],
+      "cons": [
+        "High capital investment",
+        "Longer timeline",
+        "Regulatory complexity"
+      ],
       "cost": "$15M",
       "timeline": "18 months"
     },
     {
       "option": "Partnership with local retailers",
-      "pros": ["Faster entry", "Local expertise", "Lower risk"],
-      "cons": ["Shared control", "Brand dilution", "Lower margins"],
+      "pros": [
+        "Faster entry",
+        "Local expertise",
+        "Lower risk"
+      ],
+      "cons": [
+        "Shared control",
+        "Brand dilution",
+        "Lower margins"
+      ],
       "cost": "$5M",
       "timeline": "6 months"
     },
     {
       "option": "E-commerce only expansion",
-      "pros": ["Lowest investment", "Global reach", "Scalable"],
-      "cons": ["Limited brand experience", "Logistics challenges", "Competition"],
+      "pros": [
+        "Lowest investment",
+        "Global reach",
+        "Scalable"
+      ],
+      "cons": [
+        "Limited brand experience",
+        "Logistics challenges",
+        "Competition"
+      ],
       "cost": "$3M",
       "timeline": "3 months"
     }
@@ -40,19 +75,34 @@
     {
       "stage": "market_analysis",
       "duration": "2 months",
-      "activities": ["EU market research", "Competitive analysis", "Regulatory review", "Consumer behavior studies"],
+      "activities": [
+        "EU market research",
+        "Competitive analysis",
+        "Regulatory review",
+        "Consumer behavior studies"
+      ],
       "outcome": "Positive market opportunity identified with €120M addressable market"
     },
     {
       "stage": "financial_evaluation",
       "duration": "1 month",
-      "activities": ["ROI modeling", "Cash flow projections", "Risk assessment", "Sensitivity analysis"],
+      "activities": [
+        "ROI modeling",
+        "Cash flow projections",
+        "Risk assessment",
+        "Sensitivity analysis"
+      ],
       "outcome": "Approved for pilot phase with 18% projected ROI"
     },
     {
       "stage": "pilot_implementation",
       "duration": "6 months",
-      "activities": ["Store setup in Paris", "Staff hiring and training", "Marketing campaign", "Performance monitoring"],
+      "activities": [
+        "Store setup in Paris",
+        "Staff hiring and training",
+        "Marketing campaign",
+        "Performance monitoring"
+      ],
       "outcome": "Successful pilot with 25% above target sales"
     }
   ],
@@ -61,10 +111,26 @@
     "market_acceleration": "12 months faster EU presence",
     "expected_outcome": "5-year revenue growth of €50M",
     "projected_value": "$25M NPV",
-    "risk_factors": ["Currency fluctuations", "EU regulatory changes", "Local competition", "Cultural adaptation challenges"],
-    "success_factors": ["Local market expertise", "Flexible expansion model", "Strong brand positioning", "Digital integration"]
+    "risk_factors": [
+      "Currency fluctuations",
+      "EU regulatory changes",
+      "Local competition",
+      "Cultural adaptation challenges"
+    ],
+    "success_factors": [
+      "Local market expertise",
+      "Flexible expansion model",
+      "Strong brand positioning",
+      "Digital integration"
+    ]
   },
-  "decision_criteria": ["Market potential >€100M", "ROI >15%", "Regulatory compliance feasible", "Cultural fit assessment", "Pilot scalability"],
+  "decision_criteria": [
+    "Market potential >€100M",
+    "ROI >15%",
+    "Regulatory compliance feasible",
+    "Cultural fit assessment",
+    "Pilot scalability"
+  ],
   "outcome": "Approved with pilot phase",
   "metrics": {
     "market_penetration": "5% in Year 1",

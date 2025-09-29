@@ -1,15 +1,15 @@
 # Consulting Proposal Defense Meeting Notes
 
-**Date:** December 5, 2024  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Client Conference Room, TechCorp Headquarters  
-**Attendees:**  
-- James Harrington, Partner  
-- Sarah Chen, Senior Manager  
-- Michael Torres, Senior Consultant  
-- Client: David Kim, CIO  
-- Client: Lisa Wong, VP Digital Transformation  
-- Client: Robert Lee, IT Director  
+**Date:** December 5, 2024
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Client Conference Room, TechCorp Headquarters
+**Attendees:**
+- James Harrington, Partner
+- Sarah Chen, Senior Manager
+- Michael Torres, Senior Consultant
+- Client: David Kim, CIO
+- Client: Lisa Wong, VP Digital Transformation
+- Client: Robert Lee, IT Director
 
 **Meeting Objective:** Present and defend the proposed digital transformation strategy and implementation plan.
 

@@ -3,8 +3,15 @@
   "context": "Global technology company, 5,000 employees, implementing hybrid work model post-pandemic",
   "stakeholders": {
     "requester": "Chief People Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Department Heads", "Employee Resource Groups", "External Consultants"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Department Heads",
+      "Employee Resource Groups",
+      "External Consultants"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,25 +23,45 @@
     {
       "stage": "assessment",
       "duration": "6 weeks",
-      "activities": ["Employee surveys", "Cultural assessment", "Benchmarking against industry leaders"],
+      "activities": [
+        "Employee surveys",
+        "Cultural assessment",
+        "Benchmarking against industry leaders"
+      ],
       "outcome": "Identified core cultural gaps in inclusion and psychological safety"
     },
     {
       "stage": "strategy_development",
       "duration": "8 weeks",
-      "activities": ["Workshop facilitation", "Stakeholder interviews", "Program design"],
+      "activities": [
+        "Workshop facilitation",
+        "Stakeholder interviews",
+        "Program design"
+      ],
       "outcome": "Developed 18-month transformation roadmap with measurable milestones"
     },
     {
       "stage": "pilot_implementation",
       "duration": "12 weeks",
-      "activities": ["Pilot program in 2 departments", "Feedback collection", "ROI measurement"],
+      "activities": [
+        "Pilot program in 2 departments",
+        "Feedback collection",
+        "ROI measurement"
+      ],
       "outcome": "85% positive feedback, 12% improvement in engagement scores"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["10% improvement in employee engagement", "5% reduction in turnover", "Enhanced innovation capacity"],
+    "expected_outcomes": [
+      "10% improvement in employee engagement",
+      "5% reduction in turnover",
+      "Enhanced innovation capacity"
+    ],
     "projected_roi": "$8,500,000 over 3 years",
-    "risk_factors": ["Executive commitment variability", "Middle management resistance", "Measurement challenges"]
+    "risk_factors": [
+      "Executive commitment variability",
+      "Middle management resistance",
+      "Measurement challenges"
+    ]
   }
 }

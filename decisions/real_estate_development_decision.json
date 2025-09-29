@@ -3,8 +3,15 @@
   "context": "Real estate developer, 300 employees, planning mixed-use development",
   "stakeholders": {
     "requester": "Development Director",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["City Planning Department", "Environmental Consultants", "Financial Partners"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "City Planning Department",
+      "Environmental Consultants",
+      "Financial Partners"
+    ]
   },
   "request": {
     "amount": "$150 million",
@@ -16,22 +23,40 @@
     {
       "stage": "site_evaluation",
       "duration": "3 months",
-      "activities": ["Zoning analysis", "Market feasibility study", "Financial projections"],
+      "activities": [
+        "Zoning analysis",
+        "Market feasibility study",
+        "Financial projections"
+      ],
       "outcome": "Site approved for development"
     },
     {
       "stage": "partnership_negotiation",
       "duration": "2 months",
-      "activities": ["Investor presentations", "Joint venture discussions", "Legal due diligence"],
+      "activities": [
+        "Investor presentations",
+        "Joint venture discussions",
+        "Legal due diligence"
+      ],
       "outcome": "Approved with 40% equity partner"
     }
   ],
   "business_impact": {
     "expected_roi": "12%",
     "project_completion": "3 years",
-    "risk_factors": ["Construction delays", "Market downturn", "Regulatory approvals"]
+    "risk_factors": [
+      "Construction delays",
+      "Market downturn",
+      "Regulatory approvals"
+    ]
   },
-  "decision_criteria": ["Market demand analysis and absorption rates", "Financial feasibility with IRR projections", "Zoning and entitlement risk assessment", "Construction cost estimates and contingencies", "Exit strategy and hold period evaluation"],
+  "decision_criteria": [
+    "Market demand analysis and absorption rates",
+    "Financial feasibility with IRR projections",
+    "Zoning and entitlement risk assessment",
+    "Construction cost estimates and contingencies",
+    "Exit strategy and hold period evaluation"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement with local government reduces permitting delays, comprehensive market analysis prevents overbuilding risks"
 }

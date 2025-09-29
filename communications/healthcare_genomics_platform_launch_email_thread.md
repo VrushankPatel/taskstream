@@ -1,9 +1,9 @@
 ## Email Thread: Genomic Medicine Platform Launch Announcement
 
-**From:** Chief Medical Officer  
-**To:** Medical Staff, Executive Leadership, Board of Directors  
-**Subject:** Launch of Advanced Genomic Medicine Platform  
-**Date:** September 28, 2025  
+**From:** Chief Medical Officer
+**To:** Medical Staff, Executive Leadership, Board of Directors
+**Subject:** Launch of Advanced Genomic Medicine Platform
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -34,16 +34,16 @@ This platform represents our commitment to delivering the most advanced, persona
 
 We'll be hosting launch celebrations at each facility next week. Please join us to learn more about this groundbreaking technology.
 
-Best regards,  
-Dr. Elizabeth Park  
-Chief Medical Officer  
+Best regards,
+Dr. Elizabeth Park
+Chief Medical Officer
 
 ---
 
-**From:** Director of Oncology  
-**To:** Chief Medical Officer, Oncology Department  
-**Subject:** Re: Launch of Advanced Genomic Medicine Platform  
-**Date:** September 28, 2025  
+**From:** Director of Oncology
+**To:** Chief Medical Officer, Oncology Department
+**Subject:** Re: Launch of Advanced Genomic Medicine Platform
+**Date:** September 28, 2025
 
 Elizabeth,
 
@@ -58,16 +58,16 @@ One request: Can we expand the platform to include liquid biopsy capabilities in
 
 Thanks for leading this transformative initiative.
 
-Best,  
-Dr. Michael Torres  
-Director of Oncology  
+Best,
+Dr. Michael Torres
+Director of Oncology
 
 ---
 
-**From:** Chief Information Officer  
-**To:** Chief Medical Officer, IT Leadership Team  
-**Subject:** Re: Launch of Advanced Genomic Medicine Platform  
-**Date:** September 28, 2025  
+**From:** Chief Information Officer
+**To:** Chief Medical Officer, IT Leadership Team
+**Subject:** Re: Launch of Advanced Genomic Medicine Platform
+**Date:** September 28, 2025
 
 Elizabeth,
 
@@ -83,16 +83,16 @@ We're already planning Phase 2 enhancements including expanded AI capabilities a
 
 Outstanding work by the entire cross-functional team!
 
-Regards,  
-David Chen  
-Chief Information Officer  
+Regards,
+David Chen
+Chief Information Officer
 
 ---
 
-**From:** Patient Experience Director  
-**To:** Chief Medical Officer, Patient Experience Team  
-**Subject:** Re: Launch of Advanced Genomic Medicine Platform  
-**Date:** September 28, 2025  
+**From:** Patient Experience Director
+**To:** Chief Medical Officer, Patient Experience Team
+**Subject:** Re: Launch of Advanced Genomic Medicine Platform
+**Date:** September 28, 2025
 
 Elizabeth,
 
@@ -107,16 +107,16 @@ We're developing additional patient resources including a mobile app for results
 
 This truly represents patient-centered precision medicine.
 
-Best,  
-Sarah Johnson  
-Patient Experience Director  
+Best,
+Sarah Johnson
+Patient Experience Director
 
 ---
 
-**From:** Chief Medical Officer  
-**To:** All Recipients  
-**Subject:** Re: Launch of Advanced Genomic Medicine Platform  
-**Date:** September 28, 2025  
+**From:** Chief Medical Officer
+**To:** All Recipients
+**Subject:** Re: Launch of Advanced Genomic Medicine Platform
+**Date:** September 28, 2025
 
 Thank you all for the enthusiastic feedback and congratulations! It's incredibly rewarding to see the positive impact already being made.
 
@@ -129,5 +129,5 @@ This launch marks the beginning of our journey in genomic medicine. The collabor
 
 Looking forward to celebrating with everyone next week!
 
-Best,  
+Best,
 Dr. Elizabeth Park

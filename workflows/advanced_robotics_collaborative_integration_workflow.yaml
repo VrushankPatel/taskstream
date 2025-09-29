@@ -1,58 +1,123 @@
 workflow:
-  id: "workflow_robotics_collab_003"
-  title: "Collaborative Robotics Integration and Workforce Transition Workflow"
-  department: "Advanced Robotics Operations"
-  complexity: "high"
-  participants: ["Robotics Integration Lead", "Workforce Development Manager", "Safety Engineering Director", "Production Operations Manager", "HR Business Partner", "Union Representatives"]
-  trigger: "Decision to implement collaborative robotics in manufacturing operations"
+  id: workflow_robotics_collab_003
+  title: Collaborative Robotics Integration and Workforce Transition Workflow
+  department: Advanced Robotics Operations
+  complexity: high
+  participants:
+  - Robotics Integration Lead
+  - Workforce Development Manager
+  - Safety Engineering Director
+  - Production Operations Manager
+  - HR Business Partner
+  - Union Representatives
+  trigger: Decision to implement collaborative robotics in manufacturing operations
   steps:
-    - step: 1
-      actor: "Robotics Integration Lead"
-      action: "Assess production processes and identify automation opportunities"
-      tools: ["Process mapping software", "Robotics simulation platforms", "Production data analytics"]
-      duration: "3 months"
-      outputs: ["Automation opportunity assessment", "ROI projections", "Integration roadmap"]
-      decision_points: ["Process selection criteria", "Technology vendor evaluation", "Integration scope definition"]
-    - step: 2
-      actor: "Safety Engineering Director"
-      action: "Conduct comprehensive safety risk assessment and design safeguards"
-      tools: ["Risk assessment frameworks", "Safety simulation software", "Regulatory compliance databases"]
-      duration: "4 months"
-      outputs: ["Safety risk assessment report", "Safety system design", "Regulatory compliance documentation"]
-      decision_points: ["Safety standard selection", "Risk mitigation strategies", "Emergency stop protocols"]
-    - step: 3
-      actor: "Workforce Development Manager"
-      action: "Design workforce transition and training programs"
-      tools: ["Skills assessment platforms", "Training management systems", "Career development frameworks"]
-      duration: "6 months"
-      outputs: ["Workforce transition plan", "Training curriculum", "Career transition pathways"]
-      decision_points: ["Retraining program scope", "Skills gap analysis", "Job redesign strategies"]
-    - step: 4
-      actor: "Production Operations Manager"
-      action: "Implement collaborative robotics systems in production environment"
-      tools: ["Robotics control systems", "Production monitoring platforms", "Change management frameworks"]
-      duration: "9 months"
-      outputs: ["System integration reports", "Performance validation data", "Process optimization results"]
-      decision_points: ["Integration testing protocols", "Production downtime management", "Performance benchmarking"]
-    - step: 5
-      actor: "HR Business Partner"
-      action: "Manage organizational change and employee relations"
-      tools: ["Change management platforms", "Employee engagement surveys", "Labor relations systems"]
-      duration: "12 months"
-      outputs: ["Change impact assessments", "Employee engagement metrics", "Labor relations reports"]
-      decision_points: ["Communication strategy effectiveness", "Resistance management approaches", "Retention strategy adjustments"]
-    - step: 6
-      actor: "Union Representatives"
-      action: "Collaborate on workforce impact assessment and agreement negotiations"
-      tools: ["Collective bargaining frameworks", "Impact assessment tools", "Joint training programs"]
-      duration: "Ongoing"
-      outputs: ["Joint workforce agreements", "Training partnership programs", "Ongoing monitoring protocols"]
-      decision_points: ["Bargaining priorities", "Training program collaboration", "Monitoring framework design"]
-  success_criteria: "Successful robotics integration, maintained workforce productivity, positive employee relations, and regulatory compliance"
-  failure_modes: ["Safety incidents", "Workforce resistance", "Integration technical failures", "Productivity declines"]
+  - step: 1
+    actor: Robotics Integration Lead
+    action: Assess production processes and identify automation opportunities
+    tools:
+    - Process mapping software
+    - Robotics simulation platforms
+    - Production data analytics
+    duration: 3 months
+    outputs:
+    - Automation opportunity assessment
+    - ROI projections
+    - Integration roadmap
+    decision_points:
+    - Process selection criteria
+    - Technology vendor evaluation
+    - Integration scope definition
+  - step: 2
+    actor: Safety Engineering Director
+    action: Conduct comprehensive safety risk assessment and design safeguards
+    tools:
+    - Risk assessment frameworks
+    - Safety simulation software
+    - Regulatory compliance databases
+    duration: 4 months
+    outputs:
+    - Safety risk assessment report
+    - Safety system design
+    - Regulatory compliance documentation
+    decision_points:
+    - Safety standard selection
+    - Risk mitigation strategies
+    - Emergency stop protocols
+  - step: 3
+    actor: Workforce Development Manager
+    action: Design workforce transition and training programs
+    tools:
+    - Skills assessment platforms
+    - Training management systems
+    - Career development frameworks
+    duration: 6 months
+    outputs:
+    - Workforce transition plan
+    - Training curriculum
+    - Career transition pathways
+    decision_points:
+    - Retraining program scope
+    - Skills gap analysis
+    - Job redesign strategies
+  - step: 4
+    actor: Production Operations Manager
+    action: Implement collaborative robotics systems in production environment
+    tools:
+    - Robotics control systems
+    - Production monitoring platforms
+    - Change management frameworks
+    duration: 9 months
+    outputs:
+    - System integration reports
+    - Performance validation data
+    - Process optimization results
+    decision_points:
+    - Integration testing protocols
+    - Production downtime management
+    - Performance benchmarking
+  - step: 5
+    actor: HR Business Partner
+    action: Manage organizational change and employee relations
+    tools:
+    - Change management platforms
+    - Employee engagement surveys
+    - Labor relations systems
+    duration: 12 months
+    outputs:
+    - Change impact assessments
+    - Employee engagement metrics
+    - Labor relations reports
+    decision_points:
+    - Communication strategy effectiveness
+    - Resistance management approaches
+    - Retention strategy adjustments
+  - step: 6
+    actor: Union Representatives
+    action: Collaborate on workforce impact assessment and agreement negotiations
+    tools:
+    - Collective bargaining frameworks
+    - Impact assessment tools
+    - Joint training programs
+    duration: Ongoing
+    outputs:
+    - Joint workforce agreements
+    - Training partnership programs
+    - Ongoing monitoring protocols
+    decision_points:
+    - Bargaining priorities
+    - Training program collaboration
+    - Monitoring framework design
+  success_criteria: Successful robotics integration, maintained workforce productivity,
+    positive employee relations, and regulatory compliance
+  failure_modes:
+  - Safety incidents
+  - Workforce resistance
+  - Integration technical failures
+  - Productivity declines
   metrics:
-    - "Integration completion rate: Target 100% of planned processes automated"
-    - "Workforce productivity: Target >95% of pre-integration levels"
-    - "Safety incident rate: Target zero incidents during integration"
-    - "Employee satisfaction: Target >75% positive feedback"
-    - "ROI realization: Target 20% efficiency improvement within 12 months"
+  - 'Integration completion rate: Target 100% of planned processes automated'
+  - 'Workforce productivity: Target >95% of pre-integration levels'
+  - 'Safety incident rate: Target zero incidents during integration'
+  - 'Employee satisfaction: Target >75% positive feedback'
+  - 'ROI realization: Target 20% efficiency improvement within 12 months'

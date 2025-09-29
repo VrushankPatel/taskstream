@@ -6,8 +6,8 @@ The Serverless Computing Team is responsible for designing, implementing, and ma
 ## Team Composition
 
 ### Team Lead - Serverless Architecture
-**Reports to:** VP of Cloud Engineering  
-**Direct Reports:** 4-6 team members  
+**Reports to:** VP of Cloud Engineering
+**Direct Reports:** 4-6 team members
 **Responsibilities:**
 - Define serverless architecture standards and best practices
 - Lead architectural design for serverless implementations
@@ -16,7 +16,7 @@ The Serverless Computing Team is responsible for designing, implementing, and ma
 - Monitor industry trends and evaluate new serverless technologies
 
 ### Senior Serverless Developer (2 positions)
-**Reports to:** Team Lead - Serverless Architecture  
+**Reports to:** Team Lead - Serverless Architecture
 **Responsibilities:**
 - Design and implement serverless functions and workflows
 - Optimize performance and cost of serverless applications
@@ -25,7 +25,7 @@ The Serverless Computing Team is responsible for designing, implementing, and ma
 - Contribute to open-source serverless projects
 
 ### Serverless Developer (2-3 positions)
-**Reports to:** Senior Serverless Developer or Team Lead  
+**Reports to:** Senior Serverless Developer or Team Lead
 **Responsibilities:**
 - Implement serverless solutions using AWS Lambda, Azure Functions, or Google Cloud Functions
 - Write infrastructure as code for serverless deployments
@@ -34,7 +34,7 @@ The Serverless Computing Team is responsible for designing, implementing, and ma
 - Support production deployments and incident response
 
 ### Cloud Security Specialist - Serverless Focus
-**Reports to:** Team Lead - Serverless Architecture  
+**Reports to:** Team Lead - Serverless Architecture
 **Responsibilities:**
 - Implement security best practices for serverless environments
 - Conduct security assessments of serverless architectures
@@ -43,7 +43,7 @@ The Serverless Computing Team is responsible for designing, implementing, and ma
 - Collaborate with enterprise security team on serverless risks
 
 ### DevOps Engineer - Serverless Operations
-**Reports to:** Team Lead - Serverless Architecture  
+**Reports to:** Team Lead - Serverless Architecture
 **Responsibilities:**
 - Manage deployment pipelines and automation for serverless applications
 - Implement monitoring, logging, and alerting for serverless services

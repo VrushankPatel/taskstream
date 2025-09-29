@@ -1,41 +1,73 @@
 workflow:
-  id: "workflow_hospitality_contactless_001"
-  title: "Hospitality Contactless Guest Check-In Process"
-  department: "Front Office Operations"
-  complexity: "simple"
-  participants: ["Front Desk Manager", "IT Support Specialist", "Housekeeping Supervisor", "Guest Services Coordinator"]
-  trigger: "Guest completes mobile app check-in and payment authorization"
+  id: workflow_hospitality_contactless_001
+  title: Hospitality Contactless Guest Check-In Process
+  department: Front Office Operations
+  complexity: simple
+  participants:
+  - Front Desk Manager
+  - IT Support Specialist
+  - Housekeeping Supervisor
+  - Guest Services Coordinator
+  trigger: Guest completes mobile app check-in and payment authorization
   steps:
-    - step: 1
-      actor: "Front Desk Manager"
-      action: "Validate guest identity and payment details through mobile app integration"
-      tools: ["Property management system", "Mobile check-in app", "Credit card verification"]
-      duration: "3-5 minutes"
-      outputs: ["Identity verification", "Payment confirmation", "Preliminary room assignment"]
-    - step: 2
-      actor: "Housekeeping Supervisor"
-      action: "Review and confirm room cleanliness and readiness status"
-      tools: ["Room inspection app", "Housekeeping management software", "Maintenance request system"]
-      duration: "2-3 minutes"
-      outputs: ["Room readiness certification", "Any outstanding maintenance notes"]
-    - step: 3
-      actor: "IT Support Specialist"
-      action: "Generate and deliver digital room key via mobile app"
-      tools: ["Key management system", "Mobile notification service", "Guest app interface"]
-      duration: "1-2 minutes"
-      outputs: ["Digital key delivery confirmation", "Access instructions sent to guest"]
-    - step: 4
-      actor: "Guest Services Coordinator"
-      action: "Send welcome message and property information to guest device"
-      tools: ["Automated messaging system", "Guest profile database", "Local amenities guide"]
-      duration: "1 minute"
-      outputs: ["Welcome package delivered", "Check-in completion notification"]
-  success_criteria: "95% of eligible guests successfully complete contactless check-in within 10 minutes of arrival with zero payment errors"
-  failure_modes: ["Mobile app connectivity issues", "Payment authorization failures", "Room maintenance delays", "Identity verification errors", "Digital key generation failures", "Guest device compatibility problems"]
+  - step: 1
+    actor: Front Desk Manager
+    action: Validate guest identity and payment details through mobile app integration
+    tools:
+    - Property management system
+    - Mobile check-in app
+    - Credit card verification
+    duration: 3-5 minutes
+    outputs:
+    - Identity verification
+    - Payment confirmation
+    - Preliminary room assignment
+  - step: 2
+    actor: Housekeeping Supervisor
+    action: Review and confirm room cleanliness and readiness status
+    tools:
+    - Room inspection app
+    - Housekeeping management software
+    - Maintenance request system
+    duration: 2-3 minutes
+    outputs:
+    - Room readiness certification
+    - Any outstanding maintenance notes
+  - step: 3
+    actor: IT Support Specialist
+    action: Generate and deliver digital room key via mobile app
+    tools:
+    - Key management system
+    - Mobile notification service
+    - Guest app interface
+    duration: 1-2 minutes
+    outputs:
+    - Digital key delivery confirmation
+    - Access instructions sent to guest
+  - step: 4
+    actor: Guest Services Coordinator
+    action: Send welcome message and property information to guest device
+    tools:
+    - Automated messaging system
+    - Guest profile database
+    - Local amenities guide
+    duration: 1 minute
+    outputs:
+    - Welcome package delivered
+    - Check-in completion notification
+  success_criteria: 95% of eligible guests successfully complete contactless check-in
+    within 10 minutes of arrival with zero payment errors
+  failure_modes:
+  - Mobile app connectivity issues
+  - Payment authorization failures
+  - Room maintenance delays
+  - Identity verification errors
+  - Digital key generation failures
+  - Guest device compatibility problems
   metrics:
-    - "Contactless check-in adoption rate: Target 95% of app-enabled guests"
-    - "Average check-in time: Target <5 minutes from app completion to room access"
-    - "Payment success rate: Target 99.5% authorization rate"
-    - "Guest satisfaction score: Target 4.8/5 for contactless experience"
-    - "Technical failure rate: Target <1% of attempts"
-    - "Room readiness compliance: Target 100% for assigned rooms"
+  - 'Contactless check-in adoption rate: Target 95% of app-enabled guests'
+  - 'Average check-in time: Target <5 minutes from app completion to room access'
+  - 'Payment success rate: Target 99.5% authorization rate'
+  - 'Guest satisfaction score: Target 4.8/5 for contactless experience'
+  - 'Technical failure rate: Target <1% of attempts'
+  - 'Room readiness compliance: Target 100% for assigned rooms'

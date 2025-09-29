@@ -1,46 +1,78 @@
 workflow:
-  id: "workflow_047_003"
-  title: "Autonomous Vehicle Regulatory Compliance Workflow"
-  department: "Autonomous Systems"
-  complexity: "high"
-  participants: ["Regulatory Affairs Team", "Engineering Team", "Safety Engineers", "Legal Counsel", "External Testing Partners"]
-  trigger: "New regulatory requirements or planned deployment in new jurisdiction"
+  id: workflow_047_003
+  title: Autonomous Vehicle Regulatory Compliance Workflow
+  department: Autonomous Systems
+  complexity: high
+  participants:
+  - Regulatory Affairs Team
+  - Engineering Team
+  - Safety Engineers
+  - Legal Counsel
+  - External Testing Partners
+  trigger: New regulatory requirements or planned deployment in new jurisdiction
   steps:
-    - step: 1
-      actor: "Regulatory Affairs Team"
-      action: "Analyze regulatory requirements and identify compliance gaps"
-      tools: ["Regulatory databases", "Compliance tracking systems"]
-      duration: "2 weeks"
-      outputs: ["Regulatory analysis report", "Compliance roadmap"]
-    - step: 2
-      actor: "Engineering Team"
-      action: "Assess system capabilities against regulatory standards"
-      tools: ["System specification documents", "Testing frameworks"]
-      duration: "3 weeks"
-      outputs: ["Capability assessment report", "Required modifications list"]
-    - step: 3
-      actor: "Safety Engineers"
-      action: "Conduct safety validation and risk assessment"
-      tools: ["Safety analysis tools", "FMEA frameworks"]
-      duration: "4 weeks"
-      outputs: ["Safety validation report", "Risk mitigation plan"]
-    - step: 4
-      actor: "Engineering Team"
-      action: "Implement required system modifications and safety features"
-      tools: ["Development environments", "Version control systems"]
-      duration: "8 weeks"
-      outputs: ["Modified system version", "Change documentation"]
-    - step: 5
-      actor: "External Testing Partners"
-      action: "Conduct independent validation testing and certification"
-      tools: ["Testing facilities", "Certification protocols"]
-      duration: "6 weeks"
-      outputs: ["Testing reports", "Certification documentation"]
-    - step: 6
-      actor: "Legal Counsel"
-      action: "Prepare regulatory submissions and obtain necessary approvals"
-      decision_points: ["Submission completeness", "Approval timeline feasibility"]
-      duration: "4 weeks"
-      outputs: ["Regulatory submission package", "Approval certificates"]
-  success_criteria: "Regulatory approval obtained with documented compliance evidence"
-  failure_modes: ["Unmet regulatory requirements", "Safety validation failures", "Extended approval timelines"]
+  - step: 1
+    actor: Regulatory Affairs Team
+    action: Analyze regulatory requirements and identify compliance gaps
+    tools:
+    - Regulatory databases
+    - Compliance tracking systems
+    duration: 2 weeks
+    outputs:
+    - Regulatory analysis report
+    - Compliance roadmap
+  - step: 2
+    actor: Engineering Team
+    action: Assess system capabilities against regulatory standards
+    tools:
+    - System specification documents
+    - Testing frameworks
+    duration: 3 weeks
+    outputs:
+    - Capability assessment report
+    - Required modifications list
+  - step: 3
+    actor: Safety Engineers
+    action: Conduct safety validation and risk assessment
+    tools:
+    - Safety analysis tools
+    - FMEA frameworks
+    duration: 4 weeks
+    outputs:
+    - Safety validation report
+    - Risk mitigation plan
+  - step: 4
+    actor: Engineering Team
+    action: Implement required system modifications and safety features
+    tools:
+    - Development environments
+    - Version control systems
+    duration: 8 weeks
+    outputs:
+    - Modified system version
+    - Change documentation
+  - step: 5
+    actor: External Testing Partners
+    action: Conduct independent validation testing and certification
+    tools:
+    - Testing facilities
+    - Certification protocols
+    duration: 6 weeks
+    outputs:
+    - Testing reports
+    - Certification documentation
+  - step: 6
+    actor: Legal Counsel
+    action: Prepare regulatory submissions and obtain necessary approvals
+    decision_points:
+    - Submission completeness
+    - Approval timeline feasibility
+    duration: 4 weeks
+    outputs:
+    - Regulatory submission package
+    - Approval certificates
+  success_criteria: Regulatory approval obtained with documented compliance evidence
+  failure_modes:
+  - Unmet regulatory requirements
+  - Safety validation failures
+  - Extended approval timelines

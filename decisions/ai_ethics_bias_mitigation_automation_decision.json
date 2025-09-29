@@ -3,8 +3,16 @@
   "context": "E-commerce platform automating AI bias mitigation across recommendation and pricing algorithms",
   "stakeholders": {
     "requester": "VP AI & Machine Learning",
-    "approvers": ["Chief Technology Officer", "Chief Legal Officer", "Board Ethics Committee"],
-    "influencers": ["Data Science Teams", "Product Managers", "Customer Experience Leaders"]
+    "approvers": [
+      "Chief Technology Officer",
+      "Chief Legal Officer",
+      "Board Ethics Committee"
+    ],
+    "influencers": [
+      "Data Science Teams",
+      "Product Managers",
+      "Customer Experience Leaders"
+    ]
   },
   "request": {
     "amount": "$4,200,000",
@@ -16,31 +24,56 @@
     {
       "stage": "bias_audit",
       "duration": "6 weeks",
-      "activities": ["Comprehensive bias assessment across all AI systems", "Historical performance analysis", "Stakeholder impact evaluation"],
+      "activities": [
+        "Comprehensive bias assessment across all AI systems",
+        "Historical performance analysis",
+        "Stakeholder impact evaluation"
+      ],
       "outcome": "Identified systemic biases in recommendation algorithms affecting underrepresented groups"
     },
     {
       "stage": "solution_evaluation",
       "duration": "4 weeks",
-      "activities": ["Bias mitigation technology assessment", "Vendor evaluation and POC testing", "Integration feasibility analysis"],
+      "activities": [
+        "Bias mitigation technology assessment",
+        "Vendor evaluation and POC testing",
+        "Integration feasibility analysis"
+      ],
       "outcome": "Selected automated mitigation platform with 90% bias reduction capability"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["System architecture design", "Change management strategy", "Training program development"],
+      "activities": [
+        "System architecture design",
+        "Change management strategy",
+        "Training program development"
+      ],
       "outcome": "Comprehensive implementation plan with minimal business disruption"
     },
     {
       "stage": "pilot_validation",
       "duration": "8 weeks",
-      "activities": ["Controlled pilot deployment", "Performance monitoring", "User feedback collection"],
+      "activities": [
+        "Controlled pilot deployment",
+        "Performance monitoring",
+        "User feedback collection"
+      ],
       "outcome": "Successful pilot with improved fairness metrics and maintained recommendation quality"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Reduced algorithmic bias by 90%", "Improved customer trust and satisfaction", "Regulatory compliance assurance"],
+    "expected_benefits": [
+      "Reduced algorithmic bias by 90%",
+      "Improved customer trust and satisfaction",
+      "Regulatory compliance assurance"
+    ],
     "projected_revenue": "$25 million in protected revenue from avoided customer churn and regulatory fines",
-    "risk_factors": ["Algorithm performance degradation", "Integration complexity", "Training and adoption challenges", "Ongoing monitoring requirements"]
+    "risk_factors": [
+      "Algorithm performance degradation",
+      "Integration complexity",
+      "Training and adoption challenges",
+      "Ongoing monitoring requirements"
+    ]
   }
 }

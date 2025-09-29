@@ -1,9 +1,9 @@
 ## Meeting Notes: Emerging Technology Rollout Kickoff
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room A  
-**Attendees:** CTO, CIO, Department Heads, IT Team Leads, Change Management Lead  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room A
+**Attendees:** CTO, CIO, Department Heads, IT Team Leads, Change Management Lead
 
 **Meeting Objective:** Launch quantum computing pilot program and establish rollout framework
 
@@ -62,5 +62,5 @@
 ### Next Meeting
 October 12, 2025 - Pilot progress review and first checkpoint
 
-**Meeting Facilitator:** CTO  
+**Meeting Facilitator:** CTO
 **Note Taker:** Program Manager

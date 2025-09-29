@@ -3,8 +3,17 @@
   "context": "State university with 25,000 students, implementing VR technology in STEM education",
   "stakeholders": {
     "requester": "Dean of Engineering",
-    "approvers": ["Provost", "Chief Information Officer", "VP Finance"],
-    "influencers": ["Department Chairs", "IT Director", "Student Affairs", "Faculty Senate"]
+    "approvers": [
+      "Provost",
+      "Chief Information Officer",
+      "VP Finance"
+    ],
+    "influencers": [
+      "Department Chairs",
+      "IT Director",
+      "Student Affairs",
+      "Faculty Senate"
+    ]
   },
   "request": {
     "amount": "$1.8M",
@@ -16,19 +25,34 @@
     {
       "stage": "educational_assessment",
       "duration": "8 weeks",
-      "activities": ["Curriculum review", "Learning outcome analysis", "Technology evaluation", "Budget impact assessment"],
+      "activities": [
+        "Curriculum review",
+        "Learning outcome analysis",
+        "Technology evaluation",
+        "Budget impact assessment"
+      ],
       "outcome": "Strong educational benefits identified, proceed to pilot"
     },
     {
       "stage": "pilot_program",
       "duration": "12 weeks",
-      "activities": ["Limited course implementation", "Student feedback collection", "Performance data analysis", "Technical support evaluation"],
+      "activities": [
+        "Limited course implementation",
+        "Student feedback collection",
+        "Performance data analysis",
+        "Technical support evaluation"
+      ],
       "outcome": "Pilot successful with measurable improvements"
     },
     {
       "stage": "scaling_decision",
       "duration": "4 weeks",
-      "activities": ["Resource requirements assessment", "Timeline development", "Funding strategy", "Risk evaluation"],
+      "activities": [
+        "Resource requirements assessment",
+        "Timeline development",
+        "Funding strategy",
+        "Risk evaluation"
+      ],
       "outcome": "Full implementation approved with departmental rollout"
     }
   ],
@@ -36,6 +60,11 @@
     "expected_enrollment_increase": "15-20%",
     "projected_graduation_rate_improvement": "10%",
     "implementation_timeline": "24 months",
-    "risk_factors": ["High equipment costs", "Technical support demands", "Faculty training requirements", "Student accessibility concerns"]
+    "risk_factors": [
+      "High equipment costs",
+      "Technical support demands",
+      "Faculty training requirements",
+      "Student accessibility concerns"
+    ]
   }
 }

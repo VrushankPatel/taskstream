@@ -1,52 +1,95 @@
 workflow:
-  id: "workflow_construction_001"
-  title: "Commercial Construction Project Management Process"
-  department: "Construction"
-  complexity: "high"
-  participants: ["Project Manager", "Architect", "Contractors", "Subcontractors", "Inspectors"]
-  trigger: "New construction project awarded"
+  id: workflow_construction_001
+  title: Commercial Construction Project Management Process
+  department: Construction
+  complexity: high
+  participants:
+  - Project Manager
+  - Architect
+  - Contractors
+  - Subcontractors
+  - Inspectors
+  trigger: New construction project awarded
   steps:
-    - step: 1
-      actor: "Project Manager"
-      action: "Project planning and scope definition"
-      tools: ["Project management software", "CAD systems"]
-      duration: "4 weeks"
-      outputs: ["Project plan", "Scope document", "Timeline"]
-    - step: 2
-      actor: "Architect"
-      action: "Design development and permitting"
-      tools: ["Design software", "Permit application systems"]
-      duration: "8 weeks"
-      outputs: ["Construction drawings", "Permits", "Specifications"]
-    - step: 3
-      actor: "Project Manager"
-      action: "Contractor bidding and selection"
-      tools: ["Bid management system", "Contractor database"]
-      duration: "6 weeks"
-      outputs: ["Selected contractors", "Contracts", "Subcontracts"]
-    - step: 4
-      actor: "Contractors"
-      action: "Site preparation and foundation work"
-      tools: ["Heavy equipment", "Surveying tools"]
-      duration: "8 weeks"
-      outputs: ["Site preparation complete", "Foundation inspection reports"]
-    - step: 5
-      actor: "Project Manager"
-      action: "Construction phase management and quality control"
-      tools: ["Quality control checklists", "Progress tracking software"]
-      duration: "24 weeks"
-      outputs: ["Progress reports", "Quality inspections", "Change orders"]
-    - step: 6
-      actor: "Inspectors"
-      action: "Regulatory inspections and compliance verification"
-      tools: ["Inspection checklists", "Compliance software"]
-      duration: "Ongoing"
-      outputs: ["Inspection reports", "Compliance certificates"]
-    - step: 7
-      actor: "Project Manager"
-      action: "Project closeout and handover"
-      tools: ["Closeout checklists", "Documentation systems"]
-      duration: "4 weeks"
-      outputs: ["Final inspections", "Warranties", "As-built drawings"]
-  success_criteria: "Project completed on time, within budget, and meeting quality standards"
-  failure_modes: ["Schedule delays", "Cost overruns", "Quality issues", "Safety incidents"]
+  - step: 1
+    actor: Project Manager
+    action: Project planning and scope definition
+    tools:
+    - Project management software
+    - CAD systems
+    duration: 4 weeks
+    outputs:
+    - Project plan
+    - Scope document
+    - Timeline
+  - step: 2
+    actor: Architect
+    action: Design development and permitting
+    tools:
+    - Design software
+    - Permit application systems
+    duration: 8 weeks
+    outputs:
+    - Construction drawings
+    - Permits
+    - Specifications
+  - step: 3
+    actor: Project Manager
+    action: Contractor bidding and selection
+    tools:
+    - Bid management system
+    - Contractor database
+    duration: 6 weeks
+    outputs:
+    - Selected contractors
+    - Contracts
+    - Subcontracts
+  - step: 4
+    actor: Contractors
+    action: Site preparation and foundation work
+    tools:
+    - Heavy equipment
+    - Surveying tools
+    duration: 8 weeks
+    outputs:
+    - Site preparation complete
+    - Foundation inspection reports
+  - step: 5
+    actor: Project Manager
+    action: Construction phase management and quality control
+    tools:
+    - Quality control checklists
+    - Progress tracking software
+    duration: 24 weeks
+    outputs:
+    - Progress reports
+    - Quality inspections
+    - Change orders
+  - step: 6
+    actor: Inspectors
+    action: Regulatory inspections and compliance verification
+    tools:
+    - Inspection checklists
+    - Compliance software
+    duration: Ongoing
+    outputs:
+    - Inspection reports
+    - Compliance certificates
+  - step: 7
+    actor: Project Manager
+    action: Project closeout and handover
+    tools:
+    - Closeout checklists
+    - Documentation systems
+    duration: 4 weeks
+    outputs:
+    - Final inspections
+    - Warranties
+    - As-built drawings
+  success_criteria: Project completed on time, within budget, and meeting quality
+    standards
+  failure_modes:
+  - Schedule delays
+  - Cost overruns
+  - Quality issues
+  - Safety incidents

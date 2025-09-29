@@ -1,8 +1,8 @@
 ## Internal Communication: IoT Smart Factory Deployment Update
 
-**From:** Chief Technology Officer  
-**To:** All Manufacturing and Operations Teams  
-**Subject:** Smart Factory IoT Deployment - Phase 1 Complete, Phase 2 Launch  
+**From:** Chief Technology Officer
+**To:** All Manufacturing and Operations Teams
+**Subject:** Smart Factory IoT Deployment - Phase 1 Complete, Phase 2 Launch
 
 Team,
 
@@ -55,9 +55,9 @@ If you experience any issues or have questions, please don't hesitate to reach o
 
 This transformation positions us for sustainable growth and competitive advantage in the manufacturing sector.
 
-Best regards,  
-David Park  
-Chief Technology Officer  
+Best regards,
+David Park
+Chief Technology Officer
 
 **Attachments:**
 - Phase 2 Implementation Timeline

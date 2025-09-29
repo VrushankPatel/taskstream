@@ -1,8 +1,8 @@
 ## Communication: Agriculture Climate Adaptation Strategy Announcement
 
-**From:** Chief Sustainability Officer  
-**To:** All Farm Operations Teams, Regional Managers, Supply Chain Partners  
-**Subject:** Q1 2026 Climate Adaptation Strategy Implementation  
+**From:** Chief Sustainability Officer
+**To:** All Farm Operations Teams, Regional Managers, Supply Chain Partners
+**Subject:** Q1 2026 Climate Adaptation Strategy Implementation
 
 Team,
 
@@ -45,7 +45,7 @@ This strategy positions us as leaders in sustainable agriculture while ensuring 
 - **Yield Impact**: Monitor crop performance and adaptation effectiveness
 - **Cost Benefits**: Measure ROI from efficiency improvements
 
-Best regards,  
-Dr. Sarah Chen  
-Chief Sustainability Officer  
+Best regards,
+Dr. Sarah Chen
+Chief Sustainability Officer
 AgriCorp International

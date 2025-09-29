@@ -1,64 +1,121 @@
 workflow:
-  id: "workflow_insurance_claims_processing_complex"
-  title: "Complex Insurance Claims Processing Workflow"
-  department: "Claims"
-  complexity: "complex"
-  participants: ["Claims Adjuster", "Policyholder", "Investigator", "Legal Counsel", "Medical Review Team"]
-  trigger: "Policyholder submits complex claim requiring investigation"
+  id: workflow_insurance_claims_processing_complex
+  title: Complex Insurance Claims Processing Workflow
+  department: Claims
+  complexity: complex
+  participants:
+  - Claims Adjuster
+  - Policyholder
+  - Investigator
+  - Legal Counsel
+  - Medical Review Team
+  trigger: Policyholder submits complex claim requiring investigation
   steps:
-     - step: 1
-       actor: "Claims Adjuster"
-       action: "Initial claim intake and documentation review"
-       tools: ["Claims Management System", "Document Scanner"]
-       duration: "2 hours"
-       outputs: ["Initial Claim Assessment Report"]
-       decision_points: ["Claim documentation complete?", "Initial validity assessment?", "Escalation required?"]
-     - step: 2
-       actor: "Claims Adjuster"
-       action: "Verify policy coverage and terms"
-       tools: ["Policy Database", "Underwriting Records"]
-       duration: "1 hour"
-       outputs: ["Coverage Verification Report"]
-       decision_points: ["Policy active and valid?", "Claim within coverage limits?", "Exclusions apply?"]
-     - step: 3
-       actor: "Investigator"
-       action: "Conduct field investigation and evidence collection"
-       tools: ["Investigation Toolkit", "Digital Camera", "Witness Interview Forms"]
-       duration: "3 days"
-       outputs: ["Investigation Report", "Evidence Documentation"]
-       decision_points: ["Site access granted?", "Additional evidence needed?", "Fraud indicators present?"]
-     - step: 4
-       actor: "Medical Review Team"
-       action: "Review medical documentation and injury assessment"
-       tools: ["Medical Records System", "Expert Consultation Database"]
-       duration: "2 days"
-       outputs: ["Medical Evaluation Report"]
-       decision_points: ["Medical records sufficient?", "Expert consultation required?", "Causation established?"]
-     - step: 5
-       actor: "Claims Adjuster"
-       action: "Calculate claim amount and prepare settlement offer"
-       tools: ["Claims Calculation Software", "Financial Modeling Tools"]
-       duration: "4 hours"
-       outputs: ["Settlement Calculation", "Offer Letter"]
-       decision_points: ["Calculation methodology appropriate?", "Reserve adjustment needed?", "Settlement authority required?"]
-     - step: 6
-       actor: "Legal Counsel"
-       action: "Review settlement for legal compliance and risk assessment"
-       tools: ["Legal Research Database", "Contract Templates"]
-       duration: "1 day"
-       outputs: ["Legal Review Memorandum"]
-       decision_points: ["Legal risks acceptable?", "Additional documentation needed?", "Settlement terms approved?"]
-     - step: 7
-       actor: "Claims Adjuster"
-       action: "Present settlement offer to policyholder and negotiate if needed"
-       tools: ["Negotiation Scripts", "Communication Logs"]
-       duration: "2 days"
-       outputs: ["Settlement Agreement", "Final Documentation"]
-       decision_points: ["Policyholder accepts offer?", "Negotiation required?", "Settlement finalized?"]
-  success_criteria: "Claim processed accurately with fair settlement and policyholder satisfaction"
-  failure_modes: ["Insufficient evidence", "Coverage disputes", "Fraud detection", "Medical assessment delays", "Legal complications"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Initial claim intake and documentation review
+    tools:
+    - Claims Management System
+    - Document Scanner
+    duration: 2 hours
+    outputs:
+    - Initial Claim Assessment Report
+    decision_points:
+    - Claim documentation complete?
+    - Initial validity assessment?
+    - Escalation required?
+  - step: 2
+    actor: Claims Adjuster
+    action: Verify policy coverage and terms
+    tools:
+    - Policy Database
+    - Underwriting Records
+    duration: 1 hour
+    outputs:
+    - Coverage Verification Report
+    decision_points:
+    - Policy active and valid?
+    - Claim within coverage limits?
+    - Exclusions apply?
+  - step: 3
+    actor: Investigator
+    action: Conduct field investigation and evidence collection
+    tools:
+    - Investigation Toolkit
+    - Digital Camera
+    - Witness Interview Forms
+    duration: 3 days
+    outputs:
+    - Investigation Report
+    - Evidence Documentation
+    decision_points:
+    - Site access granted?
+    - Additional evidence needed?
+    - Fraud indicators present?
+  - step: 4
+    actor: Medical Review Team
+    action: Review medical documentation and injury assessment
+    tools:
+    - Medical Records System
+    - Expert Consultation Database
+    duration: 2 days
+    outputs:
+    - Medical Evaluation Report
+    decision_points:
+    - Medical records sufficient?
+    - Expert consultation required?
+    - Causation established?
+  - step: 5
+    actor: Claims Adjuster
+    action: Calculate claim amount and prepare settlement offer
+    tools:
+    - Claims Calculation Software
+    - Financial Modeling Tools
+    duration: 4 hours
+    outputs:
+    - Settlement Calculation
+    - Offer Letter
+    decision_points:
+    - Calculation methodology appropriate?
+    - Reserve adjustment needed?
+    - Settlement authority required?
+  - step: 6
+    actor: Legal Counsel
+    action: Review settlement for legal compliance and risk assessment
+    tools:
+    - Legal Research Database
+    - Contract Templates
+    duration: 1 day
+    outputs:
+    - Legal Review Memorandum
+    decision_points:
+    - Legal risks acceptable?
+    - Additional documentation needed?
+    - Settlement terms approved?
+  - step: 7
+    actor: Claims Adjuster
+    action: Present settlement offer to policyholder and negotiate if needed
+    tools:
+    - Negotiation Scripts
+    - Communication Logs
+    duration: 2 days
+    outputs:
+    - Settlement Agreement
+    - Final Documentation
+    decision_points:
+    - Policyholder accepts offer?
+    - Negotiation required?
+    - Settlement finalized?
+  success_criteria: Claim processed accurately with fair settlement and policyholder
+    satisfaction
+  failure_modes:
+  - Insufficient evidence
+  - Coverage disputes
+  - Fraud detection
+  - Medical assessment delays
+  - Legal complications
   metrics:
-    - "Average Processing Time: 14 days"
-    - "Claim Accuracy Rate: 96%"
-    - "Customer Satisfaction Score: 4.0/5"
-    - "Fraud Detection Rate: 2.5%"
+  - 'Average Processing Time: 14 days'
+  - 'Claim Accuracy Rate: 96%'
+  - 'Customer Satisfaction Score: 4.0/5'
+  - 'Fraud Detection Rate: 2.5%'

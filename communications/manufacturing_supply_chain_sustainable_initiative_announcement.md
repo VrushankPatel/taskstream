@@ -1,9 +1,9 @@
 ## Manufacturing Supply Chain Sustainability Initiative Announcement
 
-**From:** VP Supply Chain  
-**To:** All Employees, Suppliers, Customers  
-**Subject:** Launch of Sustainable Supply Chain Transformation Program  
-**Date:** September 28, 2025  
+**From:** VP Supply Chain
+**To:** All Employees, Suppliers, Customers
+**Subject:** Launch of Sustainable Supply Chain Transformation Program
+**Date:** September 28, 2025
 
 Team,
 
@@ -45,5 +45,5 @@ This is a company-wide effort that will define our environmental legacy. Togethe
 
 For more information, visit the Sustainability Portal or contact the Supply Chain Sustainability Team.
 
-Best regards,  
+Best regards,
 VP Supply Chain

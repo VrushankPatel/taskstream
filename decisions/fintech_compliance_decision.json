@@ -3,8 +3,17 @@
   "context": "Fintech startup, 50 employees, scaling rapidly and facing increasing regulatory scrutiny for payment processing and data security",
   "stakeholders": {
     "requester": "Chief Compliance Officer",
-    "approvers": ["CEO", "CTO", "Board Compliance Committee"],
-    "influencers": ["Legal Counsel", "IT Security Lead", "Operations Manager", "Regulatory Consultants"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Board Compliance Committee"
+    ],
+    "influencers": [
+      "Legal Counsel",
+      "IT Security Lead",
+      "Operations Manager",
+      "Regulatory Consultants"
+    ]
   },
   "request": {
     "amount": "$450,000",
@@ -16,19 +25,31 @@
     {
       "stage": "regulatory_assessment",
       "duration": "3 weeks",
-      "activities": ["Compliance gap analysis", "Regulatory requirements mapping", "Risk prioritization"],
+      "activities": [
+        "Compliance gap analysis",
+        "Regulatory requirements mapping",
+        "Risk prioritization"
+      ],
       "outcome": "Identified critical compliance gaps and automation opportunities"
     },
     {
       "stage": "solution_evaluation",
       "duration": "4 weeks",
-      "activities": ["Compliance platform research", "Vendor shortlisting", "POC testing"],
+      "activities": [
+        "Compliance platform research",
+        "Vendor shortlisting",
+        "POC testing"
+      ],
       "outcome": "Selected compliance automation solution"
     },
     {
       "stage": "implementation_planning",
       "duration": "2 weeks",
-      "activities": ["Integration planning", "Timeline development", "Resource allocation"],
+      "activities": [
+        "Integration planning",
+        "Timeline development",
+        "Resource allocation"
+      ],
       "outcome": "Approved implementation roadmap with milestones"
     }
   ],
@@ -36,6 +57,10 @@
     "expected_compliance_cost_reduction": "40%",
     "projected_audit_preparation_time": "60% reduction",
     "regulatory_fine_risk": "Near zero",
-    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Ongoing regulatory changes"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff training requirements",
+      "Ongoing regulatory changes"
+    ]
   }
 }

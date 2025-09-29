@@ -3,8 +3,16 @@
   "context": "Digital media company with 200 employees launching AI-powered content personalization to improve engagement and ad revenue",
   "stakeholders": {
     "requester": "Chief Product Officer",
-    "approvers": ["CEO", "CTO", "CMO"],
-    "influencers": ["Data Science Lead", "Editorial Director", "Privacy Officer"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "CMO"
+    ],
+    "influencers": [
+      "Data Science Lead",
+      "Editorial Director",
+      "Privacy Officer"
+    ]
   },
   "request": {
     "amount": "$1.8M",
@@ -16,32 +24,60 @@
     {
       "stage": "market_research",
       "duration": "3 weeks",
-      "activities": ["Competitive analysis", "User behavior studies", "Technology vendor evaluation"],
+      "activities": [
+        "Competitive analysis",
+        "User behavior studies",
+        "Technology vendor evaluation"
+      ],
       "outcome": "Personalization identified as key differentiator"
     },
     {
       "stage": "privacy_legal_review",
       "duration": "4 weeks",
-      "activities": ["Privacy impact assessment", "Legal compliance review", "Data governance framework"],
+      "activities": [
+        "Privacy impact assessment",
+        "Legal compliance review",
+        "Data governance framework"
+      ],
       "outcome": "Privacy-compliant implementation plan developed"
     },
     {
       "stage": "technical_feasibility",
       "duration": "3 weeks",
-      "activities": ["AI model development", "Integration testing", "Performance benchmarking"],
+      "activities": [
+        "AI model development",
+        "Integration testing",
+        "Performance benchmarking"
+      ],
       "outcome": "Technical architecture validated"
     },
     {
       "stage": "business_case_validation",
       "duration": "2 weeks",
-      "activities": ["ROI modeling", "Risk assessment", "Implementation roadmap"],
+      "activities": [
+        "ROI modeling",
+        "Risk assessment",
+        "Implementation roadmap"
+      ],
       "outcome": "Approved with pilot program first"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["20% increase in page views", "30% improvement in ad fill rates", "Enhanced user experience"],
-    "risk_factors": ["Privacy regulation changes", "AI bias concerns", "Editorial quality maintenance"],
+    "expected_benefits": [
+      "20% increase in page views",
+      "30% improvement in ad fill rates",
+      "Enhanced user experience"
+    ],
+    "risk_factors": [
+      "Privacy regulation changes",
+      "AI bias concerns",
+      "Editorial quality maintenance"
+    ],
     "implementation_timeline": "9 months",
-    "success_metrics": ["Engagement metrics improvement", "Revenue growth achieved", "User privacy maintained"]
+    "success_metrics": [
+      "Engagement metrics improvement",
+      "Revenue growth achieved",
+      "User privacy maintained"
+    ]
   }
 }

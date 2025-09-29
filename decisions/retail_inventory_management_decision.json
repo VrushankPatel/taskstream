@@ -3,8 +3,15 @@
   "context": "Mid-size retail chain, 50 stores, facing excess inventory from seasonal overstock",
   "stakeholders": {
     "requester": "Inventory Manager",
-    "approvers": ["Operations Director", "Chief Merchandising Officer"],
-    "influencers": ["Store Managers", "Finance Team", "Marketing Department"]
+    "approvers": [
+      "Operations Director",
+      "Chief Merchandising Officer"
+    ],
+    "influencers": [
+      "Store Managers",
+      "Finance Team",
+      "Marketing Department"
+    ]
   },
   "request": {
     "amount": "$200,000",
@@ -16,31 +23,51 @@
     {
       "stage": "inventory_analysis",
       "duration": "1 week",
-      "activities": ["Stock level assessment", "Sales velocity analysis", "Margin calculations"],
+      "activities": [
+        "Stock level assessment",
+        "Sales velocity analysis",
+        "Margin calculations"
+      ],
       "outcome": "Identify $300K excess inventory"
     },
     {
       "stage": "strategy_development",
       "duration": "3 days",
-      "activities": ["Liquidation options evaluation", "Channel partner negotiations", "Pricing strategy"],
+      "activities": [
+        "Liquidation options evaluation",
+        "Channel partner negotiations",
+        "Pricing strategy"
+      ],
       "outcome": "Multi-channel liquidation plan"
     },
     {
       "stage": "financial_impact_review",
       "duration": "2 days",
-      "activities": ["Profitability analysis", "Cash flow projections", "Balance sheet impact"],
+      "activities": [
+        "Profitability analysis",
+        "Cash flow projections",
+        "Balance sheet impact"
+      ],
       "outcome": "Expected 60% recovery rate"
     },
     {
       "stage": "implementation_approval",
       "duration": "1 day",
-      "activities": ["Risk assessment", "Timeline approval", "Budget allocation"],
+      "activities": [
+        "Risk assessment",
+        "Timeline approval",
+        "Budget allocation"
+      ],
       "outcome": "Approved with $200K budget cap"
     }
   ],
   "business_impact": {
     "expected_recovery": "$180,000",
     "cash_flow_improvement": "$150,000",
-    "risk_factors": ["Brand dilution", "Customer dissatisfaction", "Competitor response"]
+    "risk_factors": [
+      "Brand dilution",
+      "Customer dissatisfaction",
+      "Competitor response"
+    ]
   }
 }

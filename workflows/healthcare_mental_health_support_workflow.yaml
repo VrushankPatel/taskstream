@@ -1,41 +1,78 @@
 workflow:
-  id: "workflow_mental_health_support"
-  title: "Mental Health Support and Crisis Intervention Workflow"
-  department: "Behavioral Health Services"
-  complexity: "high"
-  participants: ["Mental Health Counselor", "Primary Care Physician", "Crisis Intervention Team", "Patient", "Family Member"]
-  trigger: "Patient reports mental health concerns or exhibits crisis symptoms"
+  id: workflow_mental_health_support
+  title: Mental Health Support and Crisis Intervention Workflow
+  department: Behavioral Health Services
+  complexity: high
+  participants:
+  - Mental Health Counselor
+  - Primary Care Physician
+  - Crisis Intervention Team
+  - Patient
+  - Family Member
+  trigger: Patient reports mental health concerns or exhibits crisis symptoms
   steps:
-    - step: 1
-      actor: "Primary Care Physician"
-      action: "Initial assessment and screening using standardized mental health questionnaires"
-      tools: ["Electronic Health Record (EHR)", "PHQ-9 Depression Scale", "GAD-7 Anxiety Scale"]
-      duration: "15-30 minutes"
-      outputs: ["Mental health assessment report", "Referral recommendation"]
-    - step: 2
-      actor: "Mental Health Counselor"
-      action: "Comprehensive evaluation including risk assessment and treatment planning"
-      tools: ["Clinical interview protocols", "Suicide risk assessment tools", "DSM-5 criteria"]
-      duration: "45-60 minutes"
-      outputs: ["Treatment plan", "Safety plan if applicable"]
-      decision_points: ["Immediate crisis intervention needed?", "Inpatient vs outpatient care"]
-    - step: 3
-      actor: "Crisis Intervention Team"
-      action: "Provide immediate support and stabilization for acute mental health crises"
-      tools: ["Crisis intervention protocols", "Mobile crisis response unit", "Emergency psychiatric services"]
-      duration: "1-4 hours"
-      outputs: ["Crisis intervention report", "Follow-up care recommendations"]
-    - step: 4
-      actor: "Mental Health Counselor"
-      action: "Ongoing therapy sessions and progress monitoring"
-      tools: ["Therapy session notes", "Outcome measurement tools", "Patient progress tracking"]
-      duration: "45-60 minutes per session"
-      outputs: ["Session notes", "Progress reports"]
-    - step: 5
-      actor: "Patient and Family Member"
-      action: "Participate in family therapy and support group sessions"
-      tools: ["Family therapy protocols", "Support group resources", "Educational materials"]
-      duration: "60-90 minutes"
-      outputs: ["Family session feedback", "Support group participation records"]
-  success_criteria: "Patient demonstrates improved mental health outcomes and reduced crisis episodes"
-  failure_modes: ["Non-compliance with treatment", "Inadequate follow-up", "Lack of family support", "Insurance coverage limitations"]
+  - step: 1
+    actor: Primary Care Physician
+    action: Initial assessment and screening using standardized mental health questionnaires
+    tools:
+    - Electronic Health Record (EHR)
+    - PHQ-9 Depression Scale
+    - GAD-7 Anxiety Scale
+    duration: 15-30 minutes
+    outputs:
+    - Mental health assessment report
+    - Referral recommendation
+  - step: 2
+    actor: Mental Health Counselor
+    action: Comprehensive evaluation including risk assessment and treatment planning
+    tools:
+    - Clinical interview protocols
+    - Suicide risk assessment tools
+    - DSM-5 criteria
+    duration: 45-60 minutes
+    outputs:
+    - Treatment plan
+    - Safety plan if applicable
+    decision_points:
+    - Immediate crisis intervention needed?
+    - Inpatient vs outpatient care
+  - step: 3
+    actor: Crisis Intervention Team
+    action: Provide immediate support and stabilization for acute mental health crises
+    tools:
+    - Crisis intervention protocols
+    - Mobile crisis response unit
+    - Emergency psychiatric services
+    duration: 1-4 hours
+    outputs:
+    - Crisis intervention report
+    - Follow-up care recommendations
+  - step: 4
+    actor: Mental Health Counselor
+    action: Ongoing therapy sessions and progress monitoring
+    tools:
+    - Therapy session notes
+    - Outcome measurement tools
+    - Patient progress tracking
+    duration: 45-60 minutes per session
+    outputs:
+    - Session notes
+    - Progress reports
+  - step: 5
+    actor: Patient and Family Member
+    action: Participate in family therapy and support group sessions
+    tools:
+    - Family therapy protocols
+    - Support group resources
+    - Educational materials
+    duration: 60-90 minutes
+    outputs:
+    - Family session feedback
+    - Support group participation records
+  success_criteria: Patient demonstrates improved mental health outcomes and reduced
+    crisis episodes
+  failure_modes:
+  - Non-compliance with treatment
+  - Inadequate follow-up
+  - Lack of family support
+  - Insurance coverage limitations

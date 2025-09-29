@@ -1,40 +1,86 @@
 workflow:
-  id: "workflow_international_cross_border_compliance"
-  title: "International Operations Cross-Border Compliance Workflow"
-  department: "International Operations"
-  complexity: "medium"
-  participants: ["Legal Compliance", "Operations Management", "Local Partners", "Regulatory Affairs", "Finance"]
-  trigger: "Expansion into new international market requiring compliance framework establishment"
+  id: workflow_international_cross_border_compliance
+  title: International Operations Cross-Border Compliance Workflow
+  department: International Operations
+  complexity: medium
+  participants:
+  - Legal Compliance
+  - Operations Management
+  - Local Partners
+  - Regulatory Affairs
+  - Finance
+  trigger: Expansion into new international market requiring compliance framework
+    establishment
   steps:
-    - step: 1
-      actor: "Legal Compliance"
-      action: "Conduct comprehensive regulatory assessment of target market including business licensing, employment, and data protection requirements"
-      tools: ["Regulatory intelligence platforms", "Legal research databases", "Compliance management systems"]
-      duration: "2 months"
-      outputs: ["Regulatory assessment report", "Compliance gap analysis", "Legal entity structure recommendations"]
-    - step: 2
-      actor: "Regulatory Affairs"
-      action: "Establish local legal entity and obtain necessary business licenses and permits"
-      tools: ["Entity formation services", "Government portal systems", "License management platforms"]
-      duration: "3 months"
-      outputs: ["Business incorporation documents", "Operating licenses", "Permit documentation"]
-    - step: 3
-      actor: "Operations Management"
-      action: "Develop localized operational procedures and implement compliance training programs"
-      tools: ["Process documentation systems", "Training management platforms", "Compliance monitoring tools"]
-      duration: "1 month"
-      outputs: ["Localized procedures manual", "Training materials", "Compliance training records"]
-    - step: 4
-      actor: "Local Partners"
-      action: "Engage local legal counsel and compliance experts for ongoing regulatory monitoring"
-      tools: ["Partner management systems", "Contract management software", "Communication platforms"]
-      duration: "Ongoing"
-      outputs: ["Partner engagement agreements", "Regulatory monitoring reports", "Compliance advisory relationships"]
-    - step: 5
-      actor: "Finance"
-      action: "Establish local banking relationships and implement financial compliance frameworks including tax and transfer pricing"
-      tools: ["Banking relationship management", "Financial compliance software", "Tax planning tools"]
-      duration: "2 months"
-      outputs: ["Banking arrangements", "Financial compliance framework", "Tax optimization strategy"]
-  success_criteria: "Successful market entry with compliant operations and established monitoring frameworks"
-  failure_modes: ["Regulatory rejection", "Compliance violations", "Cultural adaptation challenges", "Resource constraints"]
+  - step: 1
+    actor: Legal Compliance
+    action: Conduct comprehensive regulatory assessment of target market including
+      business licensing, employment, and data protection requirements
+    tools:
+    - Regulatory intelligence platforms
+    - Legal research databases
+    - Compliance management systems
+    duration: 2 months
+    outputs:
+    - Regulatory assessment report
+    - Compliance gap analysis
+    - Legal entity structure recommendations
+  - step: 2
+    actor: Regulatory Affairs
+    action: Establish local legal entity and obtain necessary business licenses and
+      permits
+    tools:
+    - Entity formation services
+    - Government portal systems
+    - License management platforms
+    duration: 3 months
+    outputs:
+    - Business incorporation documents
+    - Operating licenses
+    - Permit documentation
+  - step: 3
+    actor: Operations Management
+    action: Develop localized operational procedures and implement compliance training
+      programs
+    tools:
+    - Process documentation systems
+    - Training management platforms
+    - Compliance monitoring tools
+    duration: 1 month
+    outputs:
+    - Localized procedures manual
+    - Training materials
+    - Compliance training records
+  - step: 4
+    actor: Local Partners
+    action: Engage local legal counsel and compliance experts for ongoing regulatory
+      monitoring
+    tools:
+    - Partner management systems
+    - Contract management software
+    - Communication platforms
+    duration: Ongoing
+    outputs:
+    - Partner engagement agreements
+    - Regulatory monitoring reports
+    - Compliance advisory relationships
+  - step: 5
+    actor: Finance
+    action: Establish local banking relationships and implement financial compliance
+      frameworks including tax and transfer pricing
+    tools:
+    - Banking relationship management
+    - Financial compliance software
+    - Tax planning tools
+    duration: 2 months
+    outputs:
+    - Banking arrangements
+    - Financial compliance framework
+    - Tax optimization strategy
+  success_criteria: Successful market entry with compliant operations and established
+    monitoring frameworks
+  failure_modes:
+  - Regulatory rejection
+  - Compliance violations
+  - Cultural adaptation challenges
+  - Resource constraints

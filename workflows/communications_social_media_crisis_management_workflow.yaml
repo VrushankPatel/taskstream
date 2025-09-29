@@ -1,40 +1,59 @@
 workflow:
-  id: "workflow_communications_social_media_crisis_management"
-  title: "Social Media Crisis Management"
-  department: "Corporate Communications"
-  complexity: "high"
-  participants: ["Crisis Communications Lead", "Social Media Team", "Legal Counsel", "Executive Leadership"]
-  trigger: "Negative social media incident or viral complaint"
+  id: workflow_communications_social_media_crisis_management
+  title: Social Media Crisis Management
+  department: Corporate Communications
+  complexity: high
+  participants:
+  - Crisis Communications Lead
+  - Social Media Team
+  - Legal Counsel
+  - Executive Leadership
+  trigger: Negative social media incident or viral complaint
   steps:
-    - step: 1
-      actor: "Crisis Communications Lead"
-      action: "Monitor social media and assess crisis severity"
-      tools: ["Social listening tools", "Crisis assessment frameworks"]
-      duration: "30 minutes"
-      outputs: ["Crisis assessment report"]
-    - step: 2
-      actor: "Social Media Team"
-      action: "Develop response strategy and content"
-      tools: ["Social media management platforms", "Content creation tools"]
-      duration: "1 hour"
-      outputs: ["Response strategy and content"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review response for legal compliance"
-      tools: ["Legal review templates", "Risk assessment tools"]
-      duration: "30 minutes"
-      outputs: ["Legal-approved response"]
-    - step: 4
-      actor: "Executive Leadership"
-      action: "Approve and authorize crisis response"
-      tools: ["Executive communication channels", "Crisis management protocols"]
-      duration: "15 minutes"
-      outputs: ["Authorized crisis response"]
-  success_criteria: "Crisis contained within 24 hours with positive sentiment recovery"
-  failure_modes: ["Delayed response", "Inconsistent messaging", "Escalation to traditional media"]
+  - step: 1
+    actor: Crisis Communications Lead
+    action: Monitor social media and assess crisis severity
+    tools:
+    - Social listening tools
+    - Crisis assessment frameworks
+    duration: 30 minutes
+    outputs:
+    - Crisis assessment report
+  - step: 2
+    actor: Social Media Team
+    action: Develop response strategy and content
+    tools:
+    - Social media management platforms
+    - Content creation tools
+    duration: 1 hour
+    outputs:
+    - Response strategy and content
+  - step: 3
+    actor: Legal Counsel
+    action: Review response for legal compliance
+    tools:
+    - Legal review templates
+    - Risk assessment tools
+    duration: 30 minutes
+    outputs:
+    - Legal-approved response
+  - step: 4
+    actor: Executive Leadership
+    action: Approve and authorize crisis response
+    tools:
+    - Executive communication channels
+    - Crisis management protocols
+    duration: 15 minutes
+    outputs:
+    - Authorized crisis response
+  success_criteria: Crisis contained within 24 hours with positive sentiment recovery
+  failure_modes:
+  - Delayed response
+  - Inconsistent messaging
+  - Escalation to traditional media
   metrics:
-     - "Response time: <2 hours"
-     - "Sentiment recovery: >80% positive"
-     - "Crisis containment: <24 hours"
-     - "Media coverage: minimized"
-     - "Brand reputation impact: <5% negative"
+  - 'Response time: <2 hours'
+  - 'Sentiment recovery: >80% positive'
+  - 'Crisis containment: <24 hours'
+  - 'Media coverage: minimized'
+  - 'Brand reputation impact: <5% negative'

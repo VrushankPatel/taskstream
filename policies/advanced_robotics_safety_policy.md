@@ -130,6 +130,6 @@ Applies to all robotics systems, collaborative robots (cobots), autonomous mobil
 ## Policy Review
 This policy will be reviewed annually or following any significant robotics-related incident. Updates will be communicated to all affected personnel.
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** December 15, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** December 15, 2025
 **Approved By:** Chief Safety Officer

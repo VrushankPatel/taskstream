@@ -3,8 +3,15 @@
   "context": "Global technology company, 5000 employees, AI system failure causing service disruption across multiple regions",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Information Security Officer"],
-    "influencers": ["Chief Risk Officer", "Head of Communications", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "Chief Information Security Officer"
+    ],
+    "influencers": [
+      "Chief Risk Officer",
+      "Head of Communications",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$2.5M",
@@ -16,25 +23,41 @@
     {
       "stage": "emergency_response",
       "duration": "2 hours",
-      "activities": ["Incident assessment", "Immediate containment", "Stakeholder notification"],
+      "activities": [
+        "Incident assessment",
+        "Immediate containment",
+        "Stakeholder notification"
+      ],
       "outcome": "Emergency response activated, service partially restored"
     },
     {
       "stage": "root_cause_analysis",
       "duration": "24 hours",
-      "activities": ["Technical investigation", "System audit", "Risk assessment"],
+      "activities": [
+        "Technical investigation",
+        "System audit",
+        "Risk assessment"
+      ],
       "outcome": "Root cause identified as algorithmic bias in training data"
     },
     {
       "stage": "recovery_planning",
       "duration": "48 hours",
-      "activities": ["Recovery strategy development", "Resource allocation", "Timeline establishment"],
+      "activities": [
+        "Recovery strategy development",
+        "Resource allocation",
+        "Timeline establishment"
+      ],
       "outcome": "Comprehensive recovery plan approved with $2.5M budget"
     },
     {
       "stage": "implementation",
       "duration": "2 weeks",
-      "activities": ["System rebuild", "Testing and validation", "Monitoring implementation"],
+      "activities": [
+        "System rebuild",
+        "Testing and validation",
+        "Monitoring implementation"
+      ],
       "outcome": "Enhanced AI system deployed with improved safeguards"
     }
   ],
@@ -42,6 +65,10 @@
     "service_downtime": "8 hours",
     "financial_impact": "$500K in lost revenue",
     "reputational_risk": "high",
-    "risk_factors": ["Regulatory scrutiny", "Customer churn", "Competitive disadvantage"]
+    "risk_factors": [
+      "Regulatory scrutiny",
+      "Customer churn",
+      "Competitive disadvantage"
+    ]
   }
 }

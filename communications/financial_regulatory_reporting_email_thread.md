@@ -1,8 +1,8 @@
 ## Email Thread: Q3 Regulatory Reporting Deadline
 
-**From:** Compliance Officer  
-**To:** CFO, Head of Reporting, Audit Committee  
-**Subject:** Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update  
+**From:** Compliance Officer
+**To:** CFO, Head of Reporting, Audit Committee
+**Subject:** Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update
 
 Team,
 
@@ -29,9 +29,9 @@ Compliance Officer
 
 ---
 
-**From:** CFO  
-**To:** Compliance Officer, Head of Reporting, Risk Management  
-**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update  
+**From:** CFO
+**To:** Compliance Officer, Head of Reporting, Risk Management
+**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update
 
 Compliance,
 
@@ -43,9 +43,9 @@ CFO
 
 ---
 
-**From:** Head of Reporting  
-**To:** Compliance Officer, CFO, Audit Committee  
-**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update  
+**From:** Head of Reporting
+**To:** Compliance Officer, CFO, Audit Committee
+**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update
 
 All reports now complete and validated. Final submissions scheduled for 16:00 tomorrow.
 
@@ -61,9 +61,9 @@ Head of Reporting
 
 ---
 
-**From:** Audit Committee Chair  
-**To:** CFO, Compliance Officer, Head of Reporting  
-**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update  
+**From:** Audit Committee Chair
+**To:** CFO, Compliance Officer, Head of Reporting
+**Subject:** Re: Urgent: Q3 Regulatory Filings Due Tomorrow - Status Update
 
 Excellent work under pressure. All filings submitted on time.
 

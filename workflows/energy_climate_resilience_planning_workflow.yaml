@@ -1,46 +1,78 @@
 workflow:
-  id: "workflow_energy_climate"
-  title: "Energy Sector Climate Resilience Planning"
-  department: "Infrastructure Planning"
-  complexity: "high"
-  participants: ["Chief Engineer", "Environmental Specialist", "Risk Manager", "Regulatory Affairs", "Community Relations"]
-  trigger: "Climate impact assessment or regulatory requirement"
+  id: workflow_energy_climate
+  title: Energy Sector Climate Resilience Planning
+  department: Infrastructure Planning
+  complexity: high
+  participants:
+  - Chief Engineer
+  - Environmental Specialist
+  - Risk Manager
+  - Regulatory Affairs
+  - Community Relations
+  trigger: Climate impact assessment or regulatory requirement
   steps:
-    - step: 1
-      actor: "Environmental Specialist"
-      action: "Conduct climate vulnerability assessment"
-      tools: ["Climate modeling software", "Historical weather data"]
-      duration: "8 weeks"
-      outputs: ["Vulnerability assessment report", "Risk prioritization matrix"]
-    - step: 2
-      actor: "Chief Engineer"
-      action: "Evaluate infrastructure resilience and adaptation options"
-      decision_points: ["Retrofit vs replacement", "Technology investments"]
-      duration: "6 weeks"
-      outputs: ["Engineering feasibility study", "Adaptation strategy options"]
-    - step: 3
-      actor: "Risk Manager"
-      action: "Develop risk mitigation and contingency plans"
-      tools: ["Risk assessment frameworks", "Business continuity planning tools"]
-      duration: "4 weeks"
-      outputs: ["Risk mitigation plan", "Emergency response protocols"]
-    - step: 4
-      actor: "Regulatory Affairs"
-      action: "Ensure compliance with environmental regulations"
-      decision_points: ["Permit requirements", "Reporting obligations"]
-      duration: "3 weeks"
-      outputs: ["Regulatory compliance plan", "Permit applications"]
-    - step: 5
-      actor: "Community Relations"
-      action: "Engage stakeholders and address community concerns"
-      tools: ["Public meeting platforms", "Stakeholder mapping tools"]
-      duration: "5 weeks"
-      outputs: ["Stakeholder engagement report", "Community impact assessment"]
-    - step: 6
-      actor: "Chief Engineer"
-      action: "Implement approved resilience measures"
-      decision_points: ["Phased implementation", "Budget allocation priorities"]
-      duration: "12 months"
-      outputs: ["Implementation progress reports", "Resilience improvement metrics"]
-  success_criteria: "Reduce climate-related downtime by 50% within 3 years"
-  failure_modes: ["Insufficient funding", "Regulatory delays", "Community opposition"]
+  - step: 1
+    actor: Environmental Specialist
+    action: Conduct climate vulnerability assessment
+    tools:
+    - Climate modeling software
+    - Historical weather data
+    duration: 8 weeks
+    outputs:
+    - Vulnerability assessment report
+    - Risk prioritization matrix
+  - step: 2
+    actor: Chief Engineer
+    action: Evaluate infrastructure resilience and adaptation options
+    decision_points:
+    - Retrofit vs replacement
+    - Technology investments
+    duration: 6 weeks
+    outputs:
+    - Engineering feasibility study
+    - Adaptation strategy options
+  - step: 3
+    actor: Risk Manager
+    action: Develop risk mitigation and contingency plans
+    tools:
+    - Risk assessment frameworks
+    - Business continuity planning tools
+    duration: 4 weeks
+    outputs:
+    - Risk mitigation plan
+    - Emergency response protocols
+  - step: 4
+    actor: Regulatory Affairs
+    action: Ensure compliance with environmental regulations
+    decision_points:
+    - Permit requirements
+    - Reporting obligations
+    duration: 3 weeks
+    outputs:
+    - Regulatory compliance plan
+    - Permit applications
+  - step: 5
+    actor: Community Relations
+    action: Engage stakeholders and address community concerns
+    tools:
+    - Public meeting platforms
+    - Stakeholder mapping tools
+    duration: 5 weeks
+    outputs:
+    - Stakeholder engagement report
+    - Community impact assessment
+  - step: 6
+    actor: Chief Engineer
+    action: Implement approved resilience measures
+    decision_points:
+    - Phased implementation
+    - Budget allocation priorities
+    duration: 12 months
+    outputs:
+    - Implementation progress reports
+    - Resilience improvement metrics
+  success_criteria: Reduce climate-related downtime by 50% within 3 years
+  failure_modes:
+  - Insufficient funding
+  - Regulatory delays
+  - Community opposition

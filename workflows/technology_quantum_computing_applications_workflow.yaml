@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_technology_quantum_computing_applications"
-  title: "Quantum Computing Applications Implementation"
-  department: "Advanced Computing"
-  complexity: "high"
-  participants: ["Quantum Computing Lead", "Research Scientists", "Software Engineers", "Business Stakeholders"]
-  trigger: "Identification of quantum-advantage use cases"
+  id: workflow_technology_quantum_computing_applications
+  title: Quantum Computing Applications Implementation
+  department: Advanced Computing
+  complexity: high
+  participants:
+  - Quantum Computing Lead
+  - Research Scientists
+  - Software Engineers
+  - Business Stakeholders
+  trigger: Identification of quantum-advantage use cases
   steps:
-    - step: 1
-      actor: "Quantum Computing Lead"
-      action: "Identify and prioritize quantum computing applications"
-      tools: ["Quantum algorithm libraries", "Performance benchmarking tools"]
-      duration: "4 weeks"
-      outputs: ["Quantum application roadmap"]
-    - step: 2
-      actor: "Research Scientists"
-      action: "Develop quantum algorithms for selected applications"
-      tools: ["Quantum development kits", "Simulation software"]
-      duration: "8 weeks"
-      outputs: ["Quantum algorithms"]
-    - step: 3
-      actor: "Software Engineers"
-      action: "Integrate quantum solutions with classical systems"
-      tools: ["Hybrid computing frameworks", "API development tools"]
-      duration: "6 weeks"
-      outputs: ["Integrated quantum applications"]
-    - step: 4
-      actor: "Business Stakeholders"
-      action: "Validate business value and plan deployment"
-      tools: ["ROI analysis tools", "Pilot program frameworks"]
-      duration: "3 weeks"
-      outputs: ["Deployment plans"]
-  success_criteria: "Successful pilot of quantum-enhanced application"
-  failure_modes: ["Technical complexity", "Hardware limitations", "Business case challenges"]
+  - step: 1
+    actor: Quantum Computing Lead
+    action: Identify and prioritize quantum computing applications
+    tools:
+    - Quantum algorithm libraries
+    - Performance benchmarking tools
+    duration: 4 weeks
+    outputs:
+    - Quantum application roadmap
+  - step: 2
+    actor: Research Scientists
+    action: Develop quantum algorithms for selected applications
+    tools:
+    - Quantum development kits
+    - Simulation software
+    duration: 8 weeks
+    outputs:
+    - Quantum algorithms
+  - step: 3
+    actor: Software Engineers
+    action: Integrate quantum solutions with classical systems
+    tools:
+    - Hybrid computing frameworks
+    - API development tools
+    duration: 6 weeks
+    outputs:
+    - Integrated quantum applications
+  - step: 4
+    actor: Business Stakeholders
+    action: Validate business value and plan deployment
+    tools:
+    - ROI analysis tools
+    - Pilot program frameworks
+    duration: 3 weeks
+    outputs:
+    - Deployment plans
+  success_criteria: Successful pilot of quantum-enhanced application
+  failure_modes:
+  - Technical complexity
+  - Hardware limitations
+  - Business case challenges

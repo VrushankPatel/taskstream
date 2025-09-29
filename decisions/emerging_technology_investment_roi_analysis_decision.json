@@ -3,8 +3,16 @@
   "context": "Global technology company evaluating investment in quantum computing infrastructure for enterprise applications, requiring comprehensive ROI analysis across multiple business units",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Chief Innovation Officer"],
-    "influencers": ["Head of R&D", "VP Engineering", "VP Finance"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Innovation Officer"
+    ],
+    "influencers": [
+      "Head of R&D",
+      "VP Engineering",
+      "VP Finance"
+    ]
   },
   "request": {
     "amount": "$50,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "technical_feasibility_assessment",
       "duration": "8 weeks",
-      "activities": ["Quantum hardware evaluation", "Algorithm development assessment", "Integration planning"],
+      "activities": [
+        "Quantum hardware evaluation",
+        "Algorithm development assessment",
+        "Integration planning"
+      ],
       "outcome": "Feasibility confirmed with identified technical risks"
     },
     {
       "stage": "business_case_development",
       "duration": "6 weeks",
-      "activities": ["ROI modeling", "Market opportunity analysis", "Competitive landscape review"],
+      "activities": [
+        "ROI modeling",
+        "Market opportunity analysis",
+        "Competitive landscape review"
+      ],
       "outcome": "Projected 300% ROI over 5 years with breakthrough applications"
     },
     {
       "stage": "risk_assessment",
       "duration": "4 weeks",
-      "activities": ["Technology risk evaluation", "Market adoption uncertainty analysis", "Talent acquisition planning"],
+      "activities": [
+        "Technology risk evaluation",
+        "Market adoption uncertainty analysis",
+        "Talent acquisition planning"
+      ],
       "outcome": "Acceptable risk profile with mitigation strategies"
     },
     {
       "stage": "executive_review",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Stakeholder alignment", "Final approval"],
+      "activities": [
+        "Board presentation",
+        "Stakeholder alignment",
+        "Final approval"
+      ],
       "outcome": "Approved with phased implementation approach"
     }
   ],
@@ -46,9 +70,19 @@
       "revenue_growth": "$40M from new quantum services",
       "market_share": "15% increase in enterprise computing segment"
     },
-    "risk_factors": ["Technology maturation delays", "Talent scarcity", "Regulatory uncertainty in quantum applications"]
+    "risk_factors": [
+      "Technology maturation delays",
+      "Talent scarcity",
+      "Regulatory uncertainty in quantum applications"
+    ]
   },
-  "decision_criteria": ["Technical feasibility", "Financial ROI potential", "Strategic alignment", "Risk mitigation capability", "Market timing"],
+  "decision_criteria": [
+    "Technical feasibility",
+    "Financial ROI potential",
+    "Strategic alignment",
+    "Risk mitigation capability",
+    "Market timing"
+  ],
   "outcome": "Approved",
   "implementation_plan": {
     "phase_1": "Infrastructure setup (6 months)",

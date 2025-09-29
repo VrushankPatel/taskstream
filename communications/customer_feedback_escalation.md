@@ -1,9 +1,9 @@
 ## Customer Escalation: Enterprise Account Churn Risk
 
-**From:** Customer Success Manager  
-**To:** Account Executive, VP Sales, CEO  
-**Subject:** URGENT: TechCorp Enterprise Account - Critical Escalation  
-**Date:** December 5, 2025  
+**From:** Customer Success Manager
+**To:** Account Executive, VP Sales, CEO
+**Subject:** URGENT: TechCorp Enterprise Account - Critical Escalation
+**Date:** December 5, 2025
 
 **Account Details:**
 - Customer: TechCorp Enterprises
@@ -51,16 +51,16 @@ TechCorp has notified us of their intent to cancel their enterprise contract eff
 
 Please advise on next steps. Customer available for call tomorrow morning.
 
-Best,  
-Jennifer Liu  
+Best,
+Jennifer Liu
 Customer Success Manager
 
 ---
 
-**From:** VP Sales  
-**To:** Customer Success Manager, CEO  
-**Subject:** Re: URGENT: TechCorp Enterprise Account - Critical Escalation  
-**Date:** December 5, 2025  
+**From:** VP Sales
+**To:** Customer Success Manager, CEO
+**Subject:** Re: URGENT: TechCorp Enterprise Account - Critical Escalation
+**Date:** December 5, 2025
 
 Jennifer,
 
@@ -77,10 +77,10 @@ Mark
 
 ---
 
-**From:** CEO  
-**To:** VP Sales, Customer Success Manager  
-**Subject:** Re: URGENT: TechCorp Enterprise Account - Critical Escalation  
-**Date:** December 5, 2025  
+**From:** CEO
+**To:** VP Sales, Customer Success Manager
+**Subject:** Re: URGENT: TechCorp Enterprise Account - Critical Escalation
+**Date:** December 5, 2025
 
 Team,
 

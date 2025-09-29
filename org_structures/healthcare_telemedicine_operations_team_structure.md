@@ -20,8 +20,8 @@ The Telemedicine Operations team manages virtual care delivery platforms, ensuri
 - Monitor patient satisfaction and clinical outcomes
 
 ### Telemedicine Platform Manager
-**Reports to:** Director of Telemedicine Operations  
-**Direct Reports:** 2 Coordinators  
+**Reports to:** Director of Telemedicine Operations
+**Direct Reports:** 2 Coordinators
 **Responsibilities:**
 - Manage telemedicine platform technical operations
 - Coordinate software updates and system maintenance
@@ -30,8 +30,8 @@ The Telemedicine Operations team manages virtual care delivery platforms, ensuri
 - Manage technical support for providers and patients
 
 ### Clinical Operations Manager
-**Reports to:** Director of Telemedicine Operations  
-**Direct Reports:** 2 Coordinators  
+**Reports to:** Director of Telemedicine Operations
+**Direct Reports:** 2 Coordinators
 **Responsibilities:**
 - Develop clinical protocols for telemedicine consultations
 - Ensure quality of care standards across virtual visits
@@ -40,8 +40,8 @@ The Telemedicine Operations team manages virtual care delivery platforms, ensuri
 - Support specialty-specific telemedicine programs
 
 ### Patient Experience Manager
-**Reports to:** Director of Telemedicine Operations  
-**Direct Reports:** 2 Coordinators  
+**Reports to:** Director of Telemedicine Operations
+**Direct Reports:** 2 Coordinators
 **Responsibilities:**
 - Oversee patient onboarding and support processes
 - Develop patient education materials and resources

@@ -1,10 +1,10 @@
 # Manufacturing Sustainable Sourcing Transition Announcement
 
-**From:** Chief Procurement Officer  
-**To:** All Suppliers, Manufacturing Teams, Executive Leadership, Sustainability Stakeholders  
-**Subject:** Enterprise-wide Transition to Sustainable Material Sourcing  
+**From:** Chief Procurement Officer
+**To:** All Suppliers, Manufacturing Teams, Executive Leadership, Sustainability Stakeholders
+**Subject:** Enterprise-wide Transition to Sustainable Material Sourcing
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Partners and Colleagues,
 
@@ -123,6 +123,6 @@ We invite all suppliers to begin their sustainability journey:
 
 This transition represents our shared commitment to a sustainable future. Together, we will build more responsible and resilient supply chains that benefit our planet, our communities, and our business.
 
-Best regards,  
-[Chief Procurement Officer Name]  
+Best regards,
+[Chief Procurement Officer Name]
 Chief Procurement Officer

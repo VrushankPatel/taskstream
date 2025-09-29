@@ -1,83 +1,140 @@
 workflow:
-  id: "workflow_advanced_robotics_integration"
-  title: "Advanced Robotics Integration Process"
-  department: "Manufacturing Engineering"
-  complexity: "complex"
-  participants: ["Robotics Engineer", "Process Engineer", "Safety Officer", "IT Specialist", "Production Manager", "Vendor Representative", "Maintenance Technician"]
-  trigger: "Decision to automate manual production process"
+  id: workflow_advanced_robotics_integration
+  title: Advanced Robotics Integration Process
+  department: Manufacturing Engineering
+  complexity: complex
+  participants:
+  - Robotics Engineer
+  - Process Engineer
+  - Safety Officer
+  - IT Specialist
+  - Production Manager
+  - Vendor Representative
+  - Maintenance Technician
+  trigger: Decision to automate manual production process
   steps:
-    - step: 1
-      actor: "Process Engineer"
-      action: "Analyze current manual process and identify automation opportunities"
-      tools:
-        - "Process Mapping Software"
-        - "Time Study Tools"
-        - "Ergonomics Assessment"
-      duration: "2 weeks"
-      outputs:
-        - "Process Analysis Report"
-        - "ROI Projections"
-        - "Automation Requirements Document"
-    - step: 2
-      actor: "Robotics Engineer"
-      action: "Design robotic cell layout and select appropriate robot models"
-      decision_points:
-        - "Payload requirements"
-        - "Reach specifications"
-        - "Precision needs"
-      tools:
-        - "CAD Software"
-        - "Robot Simulation Software"
-        - "Vendor Catalogs"
-      duration: "3 weeks"
-      outputs: ["Robotic Cell Design", "Equipment Specifications", "Integration Plan"]
-    - step: 3
-      actor: "Safety Officer"
-      action: "Conduct risk assessment and design safety systems"
-      tools: ["Risk Assessment Templates", "Safety Standards Documentation", "PLC Programming Software"]
-      duration: "1 week"
-      outputs: ["Safety Risk Assessment", "Safety Circuit Designs", "Lockout Procedures"]
-    - step: 4
-      actor: "IT Specialist"
-      action: "Configure network infrastructure and industrial IoT connectivity"
-      tools: ["Network Configuration Tools", "IoT Platform Software", "Cybersecurity Assessment Tools"]
-      duration: "1 week"
-      outputs: ["Network Architecture Diagram", "IoT Device Configuration", "Security Protocols"]
-    - step: 5
-      actor: "Vendor Representative"
-      action: "Install and commission robotic equipment"
-      tools: ["Installation Manuals", "Calibration Equipment", "Testing Protocols"]
-      duration: "2 weeks"
-      outputs: ["Installation Reports", "Calibration Certificates", "Warranty Documentation"]
-    - step: 6
-      actor: "Robotics Engineer"
-      action: "Program robot paths and integrate with production systems"
-      tools: ["Robot Programming Software", "PLC Programming Tools", "SCADA Systems"]
-      duration: "3 weeks"
-      outputs: ["Robot Programs", "System Integration Code", "Operator Interface Designs"]
-    - step: 7
-      actor: "Production Manager"
-      action: "Conduct operator training and develop standard operating procedures"
-      tools: ["Training Materials", "SOP Templates", "Simulation Software"]
-      duration: "1 week"
-      outputs: ["Training Records", "Standard Operating Procedures", "Operator Certification"]
-    - step: 8
-      actor: "Maintenance Technician"
-      action: "Establish preventive maintenance schedules and spare parts inventory"
-      tools: ["CMMS Software", "Maintenance Scheduling Tools", "Parts Inventory System"]
-      duration: "1 week"
-      outputs: ["Maintenance Schedule", "Spare Parts List", "Maintenance Procedures"]
-    - step: 9
-      actor: "Cross-functional Team"
-      action: "Execute pilot run and validate system performance"
-      tools: ["Production Monitoring Software", "Quality Control Systems", "Data Analytics Tools"]
-      duration: "2 weeks"
-      outputs: ["Pilot Run Report", "Performance Metrics", "Optimization Recommendations"]
-  success_criteria: "Robotic system achieves target cycle time, quality standards, and ROI within 6 months"
-  failure_modes: ["Integration delays due to software compatibility issues", "Safety system failures requiring redesign", "Operator resistance leading to low utilization", "Unexpected maintenance requirements impacting production"]
+  - step: 1
+    actor: Process Engineer
+    action: Analyze current manual process and identify automation opportunities
+    tools:
+    - Process Mapping Software
+    - Time Study Tools
+    - Ergonomics Assessment
+    duration: 2 weeks
+    outputs:
+    - Process Analysis Report
+    - ROI Projections
+    - Automation Requirements Document
+  - step: 2
+    actor: Robotics Engineer
+    action: Design robotic cell layout and select appropriate robot models
+    decision_points:
+    - Payload requirements
+    - Reach specifications
+    - Precision needs
+    tools:
+    - CAD Software
+    - Robot Simulation Software
+    - Vendor Catalogs
+    duration: 3 weeks
+    outputs:
+    - Robotic Cell Design
+    - Equipment Specifications
+    - Integration Plan
+  - step: 3
+    actor: Safety Officer
+    action: Conduct risk assessment and design safety systems
+    tools:
+    - Risk Assessment Templates
+    - Safety Standards Documentation
+    - PLC Programming Software
+    duration: 1 week
+    outputs:
+    - Safety Risk Assessment
+    - Safety Circuit Designs
+    - Lockout Procedures
+  - step: 4
+    actor: IT Specialist
+    action: Configure network infrastructure and industrial IoT connectivity
+    tools:
+    - Network Configuration Tools
+    - IoT Platform Software
+    - Cybersecurity Assessment Tools
+    duration: 1 week
+    outputs:
+    - Network Architecture Diagram
+    - IoT Device Configuration
+    - Security Protocols
+  - step: 5
+    actor: Vendor Representative
+    action: Install and commission robotic equipment
+    tools:
+    - Installation Manuals
+    - Calibration Equipment
+    - Testing Protocols
+    duration: 2 weeks
+    outputs:
+    - Installation Reports
+    - Calibration Certificates
+    - Warranty Documentation
+  - step: 6
+    actor: Robotics Engineer
+    action: Program robot paths and integrate with production systems
+    tools:
+    - Robot Programming Software
+    - PLC Programming Tools
+    - SCADA Systems
+    duration: 3 weeks
+    outputs:
+    - Robot Programs
+    - System Integration Code
+    - Operator Interface Designs
+  - step: 7
+    actor: Production Manager
+    action: Conduct operator training and develop standard operating procedures
+    tools:
+    - Training Materials
+    - SOP Templates
+    - Simulation Software
+    duration: 1 week
+    outputs:
+    - Training Records
+    - Standard Operating Procedures
+    - Operator Certification
+  - step: 8
+    actor: Maintenance Technician
+    action: Establish preventive maintenance schedules and spare parts inventory
+    tools:
+    - CMMS Software
+    - Maintenance Scheduling Tools
+    - Parts Inventory System
+    duration: 1 week
+    outputs:
+    - Maintenance Schedule
+    - Spare Parts List
+    - Maintenance Procedures
+  - step: 9
+    actor: Cross-functional Team
+    action: Execute pilot run and validate system performance
+    tools:
+    - Production Monitoring Software
+    - Quality Control Systems
+    - Data Analytics Tools
+    duration: 2 weeks
+    outputs:
+    - Pilot Run Report
+    - Performance Metrics
+    - Optimization Recommendations
+  success_criteria: Robotic system achieves target cycle time, quality standards,
+    and ROI within 6 months
+  failure_modes:
+  - Integration delays due to software compatibility issues
+  - Safety system failures requiring redesign
+  - Operator resistance leading to low utilization
+  - Unexpected maintenance requirements impacting production
   metrics:
-    - "Cycle time reduction: Target 30% improvement"
-    - "System uptime: Target 95% availability"
-    - "Quality defect rate: Target <1%"
-    - "ROI payback period: Target <6 months"
-    - "Operator utilization: Target 90% adoption"
+  - 'Cycle time reduction: Target 30% improvement'
+  - 'System uptime: Target 95% availability'
+  - 'Quality defect rate: Target <1%'
+  - 'ROI payback period: Target <6 months'
+  - 'Operator utilization: Target 90% adoption'

@@ -6,8 +6,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 ## Leadership Structure
 
 ### Global Head of Talent Acquisition
-**Reports to:** Chief Human Resources Officer  
-**Direct Reports:** 3 Regional Directors  
+**Reports to:** Chief Human Resources Officer
+**Direct Reports:** 3 Regional Directors
 **Responsibilities:**
 - Global talent strategy development
 - Budget management and ROI tracking
@@ -15,8 +15,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 - Executive recruitment oversight
 
 ### Regional Directors (3 regions: Americas, EMEA, APAC)
-**Reports to:** Global Head of Talent Acquisition  
-**Direct Reports:** 4-6 Country Managers  
+**Reports to:** Global Head of Talent Acquisition
+**Direct Reports:** 4-6 Country Managers
 **Responsibilities:**
 - Regional talent market analysis
 - Local recruitment strategy adaptation
@@ -26,8 +26,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 ## Operational Structure
 
 ### Country Managers
-**Reports to:** Regional Director  
-**Direct Reports:** 2-4 Recruiters, 1 Sourcing Specialist  
+**Reports to:** Regional Director
+**Direct Reports:** 2-4 Recruiters, 1 Sourcing Specialist
 **Responsibilities:**
 - Local market recruitment execution
 - Employer branding initiatives
@@ -35,8 +35,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 - Local hiring compliance
 
 ### Senior Recruiters
-**Reports to:** Country Manager  
-**Direct Reports:** None  
+**Reports to:** Country Manager
+**Direct Reports:** None
 **Responsibilities:**
 - End-to-end recruitment for technical and leadership roles
 - Candidate assessment and selection
@@ -44,8 +44,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 - Recruitment metrics tracking
 
 ### Recruiters
-**Reports to:** Country Manager  
-**Direct Reports:** None  
+**Reports to:** Country Manager
+**Direct Reports:** None
 **Responsibilities:**
 - High-volume recruitment for professional roles
 - Initial candidate screening
@@ -53,8 +53,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 - Recruitment database management
 
 ### Sourcing Specialists
-**Reports to:** Country Manager  
-**Direct Reports:** None  
+**Reports to:** Country Manager
+**Direct Reports:** None
 **Responsibilities:**
 - Proactive candidate sourcing via multiple channels
 - Social media and professional network management
@@ -64,8 +64,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 ## Support Functions
 
 ### Talent Analytics Team
-**Reports to:** Global Head of Talent Acquisition  
-**Team Size:** 3 analysts  
+**Reports to:** Global Head of Talent Acquisition
+**Team Size:** 3 analysts
 **Responsibilities:**
 - Recruitment metrics and analytics
 - Market intelligence and compensation benchmarking
@@ -73,8 +73,8 @@ The Global Talent Acquisition Team is responsible for identifying, attracting, a
 - ROI analysis and reporting
 
 ### Employer Branding Team
-**Reports to:** Global Head of Talent Acquisition  
-**Team Size:** 4 specialists  
+**Reports to:** Global Head of Talent Acquisition
+**Team Size:** 4 specialists
 **Responsibilities:**
 - Global employer brand strategy
 - Content creation and campaign management

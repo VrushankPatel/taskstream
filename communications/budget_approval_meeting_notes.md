@@ -1,9 +1,9 @@
 ## Meeting Notes: Q1 Marketing Budget Approval
 
-**Date:** November 3, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room B  
-**Attendees:** VP Marketing (Chair), CFO, CMO, Marketing Directors, Finance Analyst  
+**Date:** November 3, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room B
+**Attendees:** VP Marketing (Chair), CFO, CMO, Marketing Directors, Finance Analyst
 
 ### Purpose
 Review and approve Q1 marketing budget allocation of $2.8M
@@ -68,5 +68,5 @@ Review and approve Q1 marketing budget allocation of $2.8M
 - Campaign execution begins December 1
 - First monthly review: January 5, 2026
 
-**Meeting Facilitator:** VP Marketing  
+**Meeting Facilitator:** VP Marketing
 **Note Taker:** Marketing Coordinator

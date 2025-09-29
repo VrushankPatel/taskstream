@@ -1,47 +1,83 @@
 workflow:
-  id: "workflow_autonomous_regulatory_navigation"
-  title: "Autonomous Systems Regulatory Navigation Workflow"
-  department: "Legal/Regulatory Affairs"
-  complexity: "high"
-  participants: ["Regulatory Affairs Specialists", "Legal Counsel", "Safety Engineers", "Government Relations", "Compliance Officers", "Technical Experts"]
-  trigger: "New autonomous system deployment or regulatory change affecting operations"
+  id: workflow_autonomous_regulatory_navigation
+  title: Autonomous Systems Regulatory Navigation Workflow
+  department: Legal/Regulatory Affairs
+  complexity: high
+  participants:
+  - Regulatory Affairs Specialists
+  - Legal Counsel
+  - Safety Engineers
+  - Government Relations
+  - Compliance Officers
+  - Technical Experts
+  trigger: New autonomous system deployment or regulatory change affecting operations
   steps:
-    - step: 1
-      actor: "Regulatory Affairs Specialists"
-      action: "Conduct comprehensive regulatory landscape analysis for target markets"
-      tools: ["Regulatory databases", "Legal research platforms"]
-      duration: "4 weeks"
-      outputs: ["Regulatory landscape analysis", "Compliance requirements matrix"]
-    - step: 2
-      actor: "Safety Engineers"
-      action: "Map system capabilities to regulatory safety requirements"
-      tools: ["Safety requirement frameworks", "Compliance mapping tools"]
-      duration: "3 weeks"
-      outputs: ["Safety compliance mapping", "Gap analysis report"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Develop regulatory strategy including certifications, permits, and approvals"
-      tools: ["Legal strategy frameworks", "Regulatory filing systems"]
-      duration: "4 weeks"
-      outputs: ["Regulatory strategy", "Filing timelines"]
-      decision_points: ["Regulatory pathway selection", "Timeline feasibility"]
-    - step: 4
-      actor: "Government Relations"
-      action: "Engage with regulatory authorities and industry stakeholders"
-      tools: ["Stakeholder engagement platforms", "Policy advocacy tools"]
-      duration: "6 weeks"
-      outputs: ["Stakeholder engagement reports", "Regulatory relationships"]
-    - step: 5
-      actor: "Compliance Officers"
-      action: "Implement compliance monitoring and reporting systems"
-      tools: ["Compliance management platforms", "Reporting dashboards"]
-      duration: "3 weeks"
-      outputs: ["Compliance systems", "Monitoring protocols"]
-    - step: 6
-      actor: "Technical Experts"
-      action: "Prepare technical documentation and evidence for regulatory submissions"
-      tools: ["Technical documentation tools", "Evidence compilation systems"]
-      duration: "4 weeks"
-      outputs: ["Technical submissions", "Evidence packages"]
-  success_criteria: "Regulatory approvals obtained enabling safe and compliant autonomous system deployment"
-  failure_modes: ["Regulatory delays causing deployment postponement", "Unforeseen regulatory requirements", "Insufficient evidence for approvals"]
+  - step: 1
+    actor: Regulatory Affairs Specialists
+    action: Conduct comprehensive regulatory landscape analysis for target markets
+    tools:
+    - Regulatory databases
+    - Legal research platforms
+    duration: 4 weeks
+    outputs:
+    - Regulatory landscape analysis
+    - Compliance requirements matrix
+  - step: 2
+    actor: Safety Engineers
+    action: Map system capabilities to regulatory safety requirements
+    tools:
+    - Safety requirement frameworks
+    - Compliance mapping tools
+    duration: 3 weeks
+    outputs:
+    - Safety compliance mapping
+    - Gap analysis report
+  - step: 3
+    actor: Legal Counsel
+    action: Develop regulatory strategy including certifications, permits, and approvals
+    tools:
+    - Legal strategy frameworks
+    - Regulatory filing systems
+    duration: 4 weeks
+    outputs:
+    - Regulatory strategy
+    - Filing timelines
+    decision_points:
+    - Regulatory pathway selection
+    - Timeline feasibility
+  - step: 4
+    actor: Government Relations
+    action: Engage with regulatory authorities and industry stakeholders
+    tools:
+    - Stakeholder engagement platforms
+    - Policy advocacy tools
+    duration: 6 weeks
+    outputs:
+    - Stakeholder engagement reports
+    - Regulatory relationships
+  - step: 5
+    actor: Compliance Officers
+    action: Implement compliance monitoring and reporting systems
+    tools:
+    - Compliance management platforms
+    - Reporting dashboards
+    duration: 3 weeks
+    outputs:
+    - Compliance systems
+    - Monitoring protocols
+  - step: 6
+    actor: Technical Experts
+    action: Prepare technical documentation and evidence for regulatory submissions
+    tools:
+    - Technical documentation tools
+    - Evidence compilation systems
+    duration: 4 weeks
+    outputs:
+    - Technical submissions
+    - Evidence packages
+  success_criteria: Regulatory approvals obtained enabling safe and compliant autonomous
+    system deployment
+  failure_modes:
+  - Regulatory delays causing deployment postponement
+  - Unforeseen regulatory requirements
+  - Insufficient evidence for approvals

@@ -264,7 +264,7 @@ workflow:
    ```bash
    # View dataset structure
    find . -name "*.yaml" -o -name "*.json" -o -name "*.md" | head -20
-   
+
    # Check industry distribution
    find workflows/ -name "*healthcare*" | wc -l
    find workflows/ -name "*finance*" | wc -l
@@ -274,7 +274,7 @@ workflow:
    ```bash
    # Validate YAML files
    find workflows/ -name "*.yaml" | xargs python -c "import yaml; [yaml.safe_load(open(f)) for f in sys.argv[1:]]"
-   
+
    # Validate JSON files
    find decisions/ -name "*.json" | xargs python -c "import json; [json.load(open(f)) for f in sys.argv[1:]]"
    ```
@@ -284,14 +284,14 @@ workflow:
    import yaml
    import json
    import os
-   
+
    # Load workflow examples
    workflow_files = [f for f in os.listdir('workflows/') if f.endswith('.yaml')]
    workflows = []
    for file in workflow_files[:10]:
        with open(f'workflows/{file}', 'r') as f:
            workflows.append(yaml.safe_load(f))
-   
+
    # Analyze complexity distribution
    complexities = [w['workflow']['complexity'] for w in workflows]
    print(f"Complexity distribution: {dict(zip(*np.unique(complexities, return_counts=True)))}")

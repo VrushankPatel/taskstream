@@ -1,10 +1,10 @@
 ## Email Thread: Guest Complaint Escalation - Room Service Delay
 
-**From:** Front Desk Manager  
-**To:** Guest Services Director, Executive Housekeeper  
-**Subject:** Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required  
+**From:** Front Desk Manager
+**To:** Guest Services Director, Executive Housekeeper
+**Subject:** Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required
 
-**Date:** September 28, 2025 2:15 PM  
+**Date:** September 28, 2025 2:15 PM
 
 Team,
 
@@ -12,19 +12,19 @@ Received a formal complaint from Mr. Johnson in Suite 1205 regarding room servic
 
 I've already apologized personally and comped the room service. Please review the attached incident report and advise on additional compensation.
 
-Best,  
-Sarah Chen  
-Front Desk Manager  
-The Grand Hotel  
-sarah.chen@grandhotel.com  
+Best,
+Sarah Chen
+Front Desk Manager
+The Grand Hotel
+sarah.chen@grandhotel.com
 
 ---
 
-**From:** Guest Services Director  
-**To:** Front Desk Manager, Executive Housekeeper, General Manager  
-**Subject:** Re: Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required  
+**From:** Guest Services Director
+**To:** Front Desk Manager, Executive Housekeeper, General Manager
+**Subject:** Re: Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required
 
-**Date:** September 28, 2025 2:30 PM  
+**Date:** September 28, 2025 2:30 PM
 
 Sarah,
 
@@ -39,19 +39,19 @@ Please ensure the guest receives a personal follow-up call from me within the ho
 
 CC: General Manager for awareness.
 
-Regards,  
-Michael Torres  
-Guest Services Director  
-The Grand Hotel  
-michael.torres@grandhotel.com  
+Regards,
+Michael Torres
+Guest Services Director
+The Grand Hotel
+michael.torres@grandhotel.com
 
 ---
 
-**From:** General Manager  
-**To:** Guest Services Director, Front Desk Manager, Executive Housekeeper, HR Manager  
-**Subject:** Re: Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required  
+**From:** General Manager
+**To:** Guest Services Director, Front Desk Manager, Executive Housekeeper, HR Manager
+**Subject:** Re: Urgent: Guest Complaint - Deluxe Suite 1205 - Follow-up Required
 
-**Date:** September 28, 2025 3:00 PM  
+**Date:** September 28, 2025 3:00 PM
 
 Team,
 
@@ -66,8 +66,8 @@ Long-term: Schedule a full service quality review meeting for next week.
 
 Let's maintain our 4.8/5 guest satisfaction rating.
 
-Best,  
-Jennifer Walsh  
-General Manager  
-The Grand Hotel  
+Best,
+Jennifer Walsh
+General Manager
+The Grand Hotel
 jennifer.walsh@grandhotel.com

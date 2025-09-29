@@ -1,52 +1,97 @@
 workflow:
-  id: "workflow_education_005"
-  title: "Lifelong Learning Platform Development"
-  department: "Educational Technology"
-  complexity: "high"
-  participants: ["Platform Director", "Curriculum Designer", "Technology Lead", "Content Manager", "Assessment Specialist", "Partnership Manager"]
-  trigger: "Market demand for continuous education or corporate training needs"
+  id: workflow_education_005
+  title: Lifelong Learning Platform Development
+  department: Educational Technology
+  complexity: high
+  participants:
+  - Platform Director
+  - Curriculum Designer
+  - Technology Lead
+  - Content Manager
+  - Assessment Specialist
+  - Partnership Manager
+  trigger: Market demand for continuous education or corporate training needs
   steps:
-    - step: 1
-      actor: "Platform Director"
-      action: "Define platform vision, target audience, and learning objectives"
-      tools: ["Market research tools", "Stakeholder interviews", "Competitive analysis"]
-      duration: "3 weeks"
-      outputs: ["Platform vision document", "Requirements specification"]
-    - step: 2
-      actor: "Curriculum Designer"
-      action: "Design modular curriculum framework and learning pathways"
-      decision_points: ["Skill gap analysis", "Industry relevance", "Personalization requirements"]
-      duration: "4 weeks"
-      outputs: ["Curriculum framework", "Learning pathway maps"]
-    - step: 3
-      actor: "Technology Lead"
-      action: "Architect scalable technology infrastructure and user experience"
-      tools: ["Technology evaluation frameworks", "UX design tools", "Scalability assessments"]
-      duration: "4 weeks"
-      outputs: ["Technical architecture", "User experience design"]
-    - step: 4
-      actor: "Content Manager"
-      action: "Develop content creation and curation processes"
-      tools: ["Content management systems", "Quality assurance frameworks"]
-      duration: "3 weeks"
-      outputs: ["Content strategy", "Creation workflows"]
-    - step: 5
-      actor: "Assessment Specialist"
-      action: "Design assessment and certification systems"
-      decision_points: ["Assessment methodologies", "Certification standards", "Progress tracking"]
-      duration: "3 weeks"
-      outputs: ["Assessment framework", "Certification processes"]
-    - step: 6
-      actor: "Partnership Manager"
-      action: "Establish partnerships with employers and educational institutions"
-      tools: ["Partnership development frameworks", "Contract management systems"]
-      duration: "4 weeks"
-      outputs: ["Partnership agreements", "Collaboration frameworks"]
-    - step: 7
-      actor: "Platform Director"
-      action: "Launch beta program and iterate based on user feedback"
-      tools: ["Beta testing platforms", "Feedback collection systems", "Analytics dashboards"]
-      duration: "8 weeks"
-      outputs: ["Beta results analysis", "Platform optimization plan"]
-  success_criteria: "10,000 active learners, 85% course completion rate, 90% learner satisfaction, positive ROI for enterprise clients"
-  failure_modes: ["Low user adoption", "Content quality issues", "Technical scalability problems", "Partnership challenges", "Assessment validity concerns"]
+  - step: 1
+    actor: Platform Director
+    action: Define platform vision, target audience, and learning objectives
+    tools:
+    - Market research tools
+    - Stakeholder interviews
+    - Competitive analysis
+    duration: 3 weeks
+    outputs:
+    - Platform vision document
+    - Requirements specification
+  - step: 2
+    actor: Curriculum Designer
+    action: Design modular curriculum framework and learning pathways
+    decision_points:
+    - Skill gap analysis
+    - Industry relevance
+    - Personalization requirements
+    duration: 4 weeks
+    outputs:
+    - Curriculum framework
+    - Learning pathway maps
+  - step: 3
+    actor: Technology Lead
+    action: Architect scalable technology infrastructure and user experience
+    tools:
+    - Technology evaluation frameworks
+    - UX design tools
+    - Scalability assessments
+    duration: 4 weeks
+    outputs:
+    - Technical architecture
+    - User experience design
+  - step: 4
+    actor: Content Manager
+    action: Develop content creation and curation processes
+    tools:
+    - Content management systems
+    - Quality assurance frameworks
+    duration: 3 weeks
+    outputs:
+    - Content strategy
+    - Creation workflows
+  - step: 5
+    actor: Assessment Specialist
+    action: Design assessment and certification systems
+    decision_points:
+    - Assessment methodologies
+    - Certification standards
+    - Progress tracking
+    duration: 3 weeks
+    outputs:
+    - Assessment framework
+    - Certification processes
+  - step: 6
+    actor: Partnership Manager
+    action: Establish partnerships with employers and educational institutions
+    tools:
+    - Partnership development frameworks
+    - Contract management systems
+    duration: 4 weeks
+    outputs:
+    - Partnership agreements
+    - Collaboration frameworks
+  - step: 7
+    actor: Platform Director
+    action: Launch beta program and iterate based on user feedback
+    tools:
+    - Beta testing platforms
+    - Feedback collection systems
+    - Analytics dashboards
+    duration: 8 weeks
+    outputs:
+    - Beta results analysis
+    - Platform optimization plan
+  success_criteria: 10,000 active learners, 85% course completion rate, 90% learner
+    satisfaction, positive ROI for enterprise clients
+  failure_modes:
+  - Low user adoption
+  - Content quality issues
+  - Technical scalability problems
+  - Partnership challenges
+  - Assessment validity concerns

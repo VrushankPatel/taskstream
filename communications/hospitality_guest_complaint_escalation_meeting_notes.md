@@ -1,8 +1,8 @@
 ## Meeting Notes: Hospitality Guest Complaint Escalation Process Review
 
-**Date:** September 29, 2025  
-**Attendees:** Guest Services Director, Front Office Manager, Housekeeping Supervisor, IT Manager, Legal Counsel  
-**Facilitator:** Operations Manager  
+**Date:** September 29, 2025
+**Attendees:** Guest Services Director, Front Office Manager, Housekeeping Supervisor, IT Manager, Legal Counsel
+**Facilitator:** Operations Manager
 
 ### Agenda
 1. Review recent guest complaint trends

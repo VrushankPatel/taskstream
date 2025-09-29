@@ -93,15 +93,15 @@ Cross-functional team responsible for optimizing streaming platform performance,
 - Annual Budget: $45M
 - Geographic Distribution: 12 global offices
 - Reporting Structure: Matrix organization with technical and business reporting lines</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Good. Next, metrics/financial_services_esg_reporting_metrics.md
 
-Read first. 
+Read first.
 
-From the list, there is financial_esg_reporting_division_structure.md, but not metrics. 
+From the list, there is financial_esg_reporting_division_structure.md, but not metrics.
 
-Write. 
+Write.
 
 <xai:function_call name="write">
 <parameter name="filePath">metrics/financial_services_esg_reporting_metrics.md

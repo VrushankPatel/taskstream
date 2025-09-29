@@ -1,39 +1,39 @@
 ## Meeting Notes: Retail Supply Chain Crisis Response
 
-**Date:** September 29, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room A  
-**Attendees:** Supply Chain Director (Chair), Operations Manager, Procurement Lead, IT Manager, Marketing Director, Customer Service Manager  
+**Date:** September 29, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room A
+**Attendees:** Supply Chain Director (Chair), Operations Manager, Procurement Lead, IT Manager, Marketing Director, Customer Service Manager
 
-**Agenda:**  
-1. Current supply chain disruptions assessment  
-2. Immediate response actions  
-3. Customer communication strategy  
-4. Long-term mitigation planning  
+**Agenda:**
+1. Current supply chain disruptions assessment
+2. Immediate response actions
+3. Customer communication strategy
+4. Long-term mitigation planning
 
-**Key Discussion Points:**  
+**Key Discussion Points:**
 
-**1. Disruption Assessment**  
-- Primary supplier experiencing production delays due to raw material shortages  
-- Affected product categories: electronics, home goods, apparel  
-- Current inventory levels: 60% of normal for impacted categories  
-- Estimated duration: 6-8 weeks before full recovery  
+**1. Disruption Assessment**
+- Primary supplier experiencing production delays due to raw material shortages
+- Affected product categories: electronics, home goods, apparel
+- Current inventory levels: 60% of normal for impacted categories
+- Estimated duration: 6-8 weeks before full recovery
 
-**2. Immediate Actions**  
-- Activated emergency procurement protocols  
-- Identified 5 alternative suppliers for critical items  
-- Implemented inventory allocation controls  
-- Deployed automated reorder alerts  
+**2. Immediate Actions**
+- Activated emergency procurement protocols
+- Identified 5 alternative suppliers for critical items
+- Implemented inventory allocation controls
+- Deployed automated reorder alerts
 
-**3. Customer Impact**  
-- Backorder notifications sent to affected customers  
-- Loyalty program compensation offered  
-- Social media monitoring increased  
+**3. Customer Impact**
+- Backorder notifications sent to affected customers
+- Loyalty program compensation offered
+- Social media monitoring increased
 
-**4. Communication Strategy**  
-- Transparent customer notifications via email and app  
-- Press release prepared for media  
-- Executive communications to key stakeholders  
+**4. Communication Strategy**
+- Transparent customer notifications via email and app
+- Press release prepared for media
+- Executive communications to key stakeholders
 
 **Action Items:**
 - **Procurement Lead:** Contact alternative suppliers by EOD, secure emergency orders

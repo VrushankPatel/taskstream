@@ -121,11 +121,11 @@ Applies to all electricity, gas, water, and telecommunications infrastructure an
 ## Revision History
 - Version 1.0: Initial EU policy implementation (September 2025)
 - Next Review: September 2026</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Last policy: mining_asia_employee_safety_training_policy.md (Asia mining training policy)
 
-Policy for employee safety training in Asian mining operations. 
+Policy for employee safety training in Asian mining operations.
 
 <xai:function_call name="write">
 <parameter name="filePath">policies/mining_asia_employee_safety_training_policy.md

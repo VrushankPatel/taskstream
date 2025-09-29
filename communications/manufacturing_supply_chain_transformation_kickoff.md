@@ -1,8 +1,8 @@
 ## Email Thread: Manufacturing Supply Chain Digital Transformation Kickoff
 
-**From:** VP Supply Chain  
-**To:** Supply Chain Team, Operations Leadership, IT Department  
-**Subject:** Digital Supply Chain Transformation Program Launch  
+**From:** VP Supply Chain
+**To:** Supply Chain Team, Operations Leadership, IT Department
+**Subject:** Digital Supply Chain Transformation Program Launch
 
 Team,
 
@@ -45,15 +45,15 @@ Today marks the beginning of our comprehensive digital supply chain transformati
 
 We'll be hosting kickoff workshops next week. Please prepare by reviewing the attached program charter and identifying key stakeholders from your areas.
 
-Best regards,  
-Robert Kim  
+Best regards,
+Robert Kim
 VP Supply Chain
 
 ---
 
-**From:** Program Manager  
-**To:** VP Supply Chain, Project Team  
-**Subject:** Re: Digital Supply Chain Transformation Program Launch  
+**From:** Program Manager
+**To:** VP Supply Chain, Project Team
+**Subject:** Re: Digital Supply Chain Transformation Program Launch
 
 Robert,
 
@@ -65,16 +65,16 @@ The project team is excited to begin this transformative initiative. We've sched
 
 Please confirm attendance and let us know if you need any preparatory materials.
 
-John Davis  
+John Davis
 Program Manager
 
 ---
 
-**From:** IT Director  
-**To:** VP Supply Chain, Program Manager  
-**Subject:** Re: Digital Supply Chain Transformation Program Launch  
+**From:** IT Director
+**To:** VP Supply Chain, Program Manager
+**Subject:** Re: Digital Supply Chain Transformation Program Launch
 
 The IT infrastructure assessment is complete. We have the capacity to support the digital twin platform with our current cloud infrastructure. Additional storage and processing power will be provisioned as needed.
 
-Sarah Mitchell  
+Sarah Mitchell
 IT Director

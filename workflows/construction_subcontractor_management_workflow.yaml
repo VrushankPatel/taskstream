@@ -1,53 +1,101 @@
 workflow:
-  id: "workflow_construction_sub_001"
-  title: "Construction Subcontractor Management and Oversight"
-  department: "Project Management"
-  complexity: "medium"
-  participants: ["Project Manager", "Subcontractor Coordinator", "Quality Control", "Safety Manager", "Finance Manager"]
-  trigger: "Subcontractor engagement required for project"
+  id: workflow_construction_sub_001
+  title: Construction Subcontractor Management and Oversight
+  department: Project Management
+  complexity: medium
+  participants:
+  - Project Manager
+  - Subcontractor Coordinator
+  - Quality Control
+  - Safety Manager
+  - Finance Manager
+  trigger: Subcontractor engagement required for project
   steps:
-    - step: 1
-      actor: "Project Manager"
-      action: "Define subcontractor scope and requirements"
-      tools: ["Scope of Work Templates", "Project Specifications", "Contract Templates"]
-      duration: "1 week"
-      outputs: ["Subcontractor RFP", "Scope Documentation"]
-    - step: 2
-      actor: "Subcontractor Coordinator"
-      action: "Issue RFPs and evaluate subcontractor proposals"
-      decision_points: ["Technical Capability", "Financial Stability", "Safety Record", "Past Performance"]
-      tools: ["Bid Evaluation Matrix", "Reference Checks", "Financial Analysis"]
-      duration: "2 weeks"
-      outputs: ["Shortlisted Candidates", "Evaluation Reports"]
-    - step: 3
-      actor: "Finance Manager"
-      action: "Negotiate contracts and payment terms"
-      tools: ["Contract Negotiation Templates", "Cost Analysis Tools", "Payment Schedules"]
-      duration: "1 week"
-      outputs: ["Signed Contracts", "Payment Terms Agreement"]
-    - step: 4
-      actor: "Subcontractor Coordinator"
-      action: "Onboard subcontractors and provide site access"
-      tools: ["Onboarding Checklists", "Site Orientation Materials", "Access Control Systems"]
-      duration: "3 days"
-      outputs: ["Onboarding Records", "Site Access Credentials"]
-    - step: 5
-      actor: "Quality Control"
-      action: "Monitor subcontractor work quality and compliance"
-      tools: ["Quality Inspection Checklists", "Progress Tracking Systems", "Non-conformance Reports"]
-      duration: "Ongoing"
-      outputs: ["Quality Reports", "Compliance Documentation"]
-    - step: 6
-      actor: "Safety Manager"
-      action: "Ensure subcontractor safety compliance"
-      tools: ["Safety Audits", "Training Verification", "Incident Monitoring"]
-      duration: "Ongoing"
-      outputs: ["Safety Compliance Reports", "Training Records"]
-    - step: 7
-      actor: "Project Manager"
-      action: "Manage subcontractor performance and resolve issues"
-      tools: ["Performance Dashboards", "Issue Tracking System", "Change Order Process"]
-      duration: "Ongoing"
-      outputs: ["Performance Reviews", "Issue Resolution Records"]
-  success_criteria: "On-time delivery, quality standards met, safety compliance maintained, positive subcontractor relationships"
-  failure_modes: ["Poor subcontractor selection", "Inadequate oversight", "Payment disputes"]
+  - step: 1
+    actor: Project Manager
+    action: Define subcontractor scope and requirements
+    tools:
+    - Scope of Work Templates
+    - Project Specifications
+    - Contract Templates
+    duration: 1 week
+    outputs:
+    - Subcontractor RFP
+    - Scope Documentation
+  - step: 2
+    actor: Subcontractor Coordinator
+    action: Issue RFPs and evaluate subcontractor proposals
+    decision_points:
+    - Technical Capability
+    - Financial Stability
+    - Safety Record
+    - Past Performance
+    tools:
+    - Bid Evaluation Matrix
+    - Reference Checks
+    - Financial Analysis
+    duration: 2 weeks
+    outputs:
+    - Shortlisted Candidates
+    - Evaluation Reports
+  - step: 3
+    actor: Finance Manager
+    action: Negotiate contracts and payment terms
+    tools:
+    - Contract Negotiation Templates
+    - Cost Analysis Tools
+    - Payment Schedules
+    duration: 1 week
+    outputs:
+    - Signed Contracts
+    - Payment Terms Agreement
+  - step: 4
+    actor: Subcontractor Coordinator
+    action: Onboard subcontractors and provide site access
+    tools:
+    - Onboarding Checklists
+    - Site Orientation Materials
+    - Access Control Systems
+    duration: 3 days
+    outputs:
+    - Onboarding Records
+    - Site Access Credentials
+  - step: 5
+    actor: Quality Control
+    action: Monitor subcontractor work quality and compliance
+    tools:
+    - Quality Inspection Checklists
+    - Progress Tracking Systems
+    - Non-conformance Reports
+    duration: Ongoing
+    outputs:
+    - Quality Reports
+    - Compliance Documentation
+  - step: 6
+    actor: Safety Manager
+    action: Ensure subcontractor safety compliance
+    tools:
+    - Safety Audits
+    - Training Verification
+    - Incident Monitoring
+    duration: Ongoing
+    outputs:
+    - Safety Compliance Reports
+    - Training Records
+  - step: 7
+    actor: Project Manager
+    action: Manage subcontractor performance and resolve issues
+    tools:
+    - Performance Dashboards
+    - Issue Tracking System
+    - Change Order Process
+    duration: Ongoing
+    outputs:
+    - Performance Reviews
+    - Issue Resolution Records
+  success_criteria: On-time delivery, quality standards met, safety compliance maintained,
+    positive subcontractor relationships
+  failure_modes:
+  - Poor subcontractor selection
+  - Inadequate oversight
+  - Payment disputes

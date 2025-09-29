@@ -1,8 +1,8 @@
 ## Communication: HR Employee Wellness Program Launch Announcement
 
-**From:** Chief Human Resources Officer  
-**To:** All Employees  
-**Subject:** Launching Our New Employee Wellness Program - Supporting Your Health and Well-being  
+**From:** Chief Human Resources Officer
+**To:** All Employees
+**Subject:** Launching Our New Employee Wellness Program - Supporting Your Health and Well-being
 
 Dear Team,
 
@@ -54,15 +54,15 @@ This program represents a significant investment in our most valuable asset - yo
 
 If you have questions or need assistance with enrollment, please contact the HR Wellness Team at wellness@company.com or extension 4567.
 
-Best regards,  
-Sarah Johnson  
+Best regards,
+Sarah Johnson
 Chief Human Resources Officer
 
 ---
 
-**From:** Michael Chen, Senior Software Engineer  
-**To:** Sarah Johnson, Chief Human Resources Officer  
-**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being  
+**From:** Michael Chen, Senior Software Engineer
+**To:** Sarah Johnson, Chief Human Resources Officer
+**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being
 
 Hi Sarah,
 
@@ -70,14 +70,14 @@ Thanks for the comprehensive wellness program announcement. I'm particularly int
 
 Also, regarding the flexible PTO, does this include the existing vacation time or is it additional days?
 
-Best,  
+Best,
 Michael
 
 ---
 
-**From:** Sarah Johnson, Chief Human Resources Officer  
-**To:** Michael Chen, Senior Software Engineer; All Employees  
-**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being  
+**From:** Sarah Johnson, Chief Human Resources Officer
+**To:** Michael Chen, Senior Software Engineer; All Employees
+**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being
 
 Hi Michael,
 
@@ -87,14 +87,14 @@ Regarding flexible PTO, the wellness days are in addition to your existing vacat
 
 If anyone else has questions about the program details, please don't hesitate to reach out!
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Lisa Rodriguez, Marketing Manager  
-**To:** Sarah Johnson, Chief Human Resources Officer  
-**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being  
+**From:** Lisa Rodriguez, Marketing Manager
+**To:** Sarah Johnson, Chief Human Resources Officer
+**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being
 
 Sarah,
 
@@ -102,14 +102,14 @@ This looks like an excellent program! I'm glad to see the focus on financial wel
 
 Also, I noticed the gym reimbursement is $50/month - is that per person or per household?
 
-Thanks!  
+Thanks!
 Lisa
 
 ---
 
-**From:** Sarah Johnson, Chief Human Resources Officer  
-**To:** Lisa Rodriguez, Marketing Manager; All Employees  
-**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being  
+**From:** Sarah Johnson, Chief Human Resources Officer
+**To:** Lisa Rodriguez, Marketing Manager; All Employees
+**Subject:** Re: Launching Our New Employee Wellness Program - Supporting Your Health and Well-being
 
 Hi Lisa,
 
@@ -119,5 +119,5 @@ The gym reimbursement is $50 per month per employee, regardless of household sta
 
 Looking forward to seeing you at the wellness fair!
 
-Best,  
+Best,
 Sarah

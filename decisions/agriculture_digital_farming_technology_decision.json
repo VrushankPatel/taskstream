@@ -3,8 +3,15 @@
   "context": "Family-owned farming cooperative evaluating precision agriculture technology adoption to improve yield and resource efficiency",
   "stakeholders": {
     "requester": "Farm Operations Manager",
-    "approvers": ["Board of Directors", "Cooperative Members"],
-    "influencers": ["Agricultural Extension Agent", "Technology Provider", "Environmental Consultant"]
+    "approvers": [
+      "Board of Directors",
+      "Cooperative Members"
+    ],
+    "influencers": [
+      "Agricultural Extension Agent",
+      "Technology Provider",
+      "Environmental Consultant"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +23,50 @@
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Small-scale technology testing", "Farmer training", "Yield monitoring"],
+      "activities": [
+        "Small-scale technology testing",
+        "Farmer training",
+        "Yield monitoring"
+      ],
       "outcome": "15% yield improvement demonstrated in pilot"
     },
     {
       "stage": "financial_evaluation",
       "duration": "2 months",
-      "activities": ["Cost analysis", "Funding options exploration", "ROI projections"],
+      "activities": [
+        "Cost analysis",
+        "Funding options exploration",
+        "ROI projections"
+      ],
       "outcome": "Strong financial case with grant funding identified"
     },
     {
       "stage": "member_consensus",
       "duration": "1 month",
-      "activities": ["Member education sessions", "Voting process", "Implementation planning"],
+      "activities": [
+        "Member education sessions",
+        "Voting process",
+        "Implementation planning"
+      ],
       "outcome": "Approved by 75% member vote"
     }
   ],
   "business_impact": {
     "expected_outcome": "20% increase in crop yields, 30% reduction in resource usage",
     "projected_value": "$800,000 annual savings",
-    "risk_factors": ["Technology learning curve", "Equipment maintenance costs", "Weather dependency"]
+    "risk_factors": [
+      "Technology learning curve",
+      "Equipment maintenance costs",
+      "Weather dependency"
+    ]
   },
-  "decision_criteria": ["Yield improvement potential", "Resource efficiency gains", "Financial viability", "Member acceptance", "Sustainability benefits"],
+  "decision_criteria": [
+    "Yield improvement potential",
+    "Resource efficiency gains",
+    "Financial viability",
+    "Member acceptance",
+    "Sustainability benefits"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot programs essential for technology adoption in agriculture, member education critical for cooperative decisions"
 }

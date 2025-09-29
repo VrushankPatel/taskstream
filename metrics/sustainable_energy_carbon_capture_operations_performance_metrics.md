@@ -3,9 +3,9 @@
 ## Overview
 This comprehensive dashboard monitors the operational, environmental, and financial performance of our carbon capture, utilization, and storage (CCUS) facilities. It tracks efficiency, reliability, environmental impact, and economic viability across our portfolio of industrial decarbonization projects.
 
-**Reporting Frequency:** Daily operations dashboard, weekly management review, monthly executive summary  
-**Data Sources:** SCADA systems, environmental monitoring platforms, financial systems, regulatory reporting tools  
-**Primary Audience:** Operations leadership, sustainability officers, executive team, regulatory bodies  
+**Reporting Frequency:** Daily operations dashboard, weekly management review, monthly executive summary
+**Data Sources:** SCADA systems, environmental monitoring platforms, financial systems, regulatory reporting tools
+**Primary Audience:** Operations leadership, sustainability officers, executive team, regulatory bodies
 
 ## Operational Performance Metrics
 

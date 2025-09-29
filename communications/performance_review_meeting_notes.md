@@ -1,10 +1,10 @@
 ## Performance Review Meeting Notes
 
-**Employee:** Sarah Johnson  
-**Position:** Senior Product Manager  
-**Manager:** Michael Chen  
-**Date:** November 15, 2024  
-**Review Period:** October 1, 2023 - September 30, 2024  
+**Employee:** Sarah Johnson
+**Position:** Senior Product Manager
+**Manager:** Michael Chen
+**Date:** November 15, 2024
+**Review Period:** October 1, 2023 - September 30, 2024
 
 ### Overall Performance Rating: Exceeds Expectations (4.5/5)
 
@@ -55,7 +55,7 @@ Sarah has been an outstanding contributor this year. Her strategic vision and ex
 - Schedule quarterly check-ins
 - Performance review for next year: November 15, 2025
 
-**Meeting Participants:**  
-Sarah Johnson (Employee)  
-Michael Chen (Manager)  
+**Meeting Participants:**
+Sarah Johnson (Employee)
+Michael Chen (Manager)
 HR Representative (Observer)

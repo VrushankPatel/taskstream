@@ -3,8 +3,16 @@
   "context": "Hotel chain with 200 properties evaluating contactless technology implementation post-pandemic to enhance guest experience and operational efficiency",
   "stakeholders": {
     "requester": "Director of Guest Experience",
-    "approvers": ["COO", "CFO", "IT Director"],
-    "influencers": ["Regional Managers", "Front Desk Supervisors", "Guest Services Team"]
+    "approvers": [
+      "COO",
+      "CFO",
+      "IT Director"
+    ],
+    "influencers": [
+      "Regional Managers",
+      "Front Desk Supervisors",
+      "Guest Services Team"
+    ]
   },
   "request": {
     "amount": "$2,800,000",
@@ -16,22 +24,39 @@
     {
       "stage": "pilot_program",
       "duration": "3 months",
-      "activities": ["Select 5 pilot properties", "Technology vendor evaluation", "Staff training program"],
+      "activities": [
+        "Select 5 pilot properties",
+        "Technology vendor evaluation",
+        "Staff training program"
+      ],
       "outcome": "85% guest satisfaction increase, 15% faster check-in times"
     },
     {
       "stage": "full_rollout_planning",
       "duration": "2 months",
-      "activities": ["Budget allocation", "Timeline development", "Change management planning"],
+      "activities": [
+        "Budget allocation",
+        "Timeline development",
+        "Change management planning"
+      ],
       "outcome": "Approved for full rollout with 12-month implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "Enhanced guest safety and convenience, operational efficiency improvements",
     "projected_value": "$4,200,000 annual savings through reduced labor costs",
-    "risk_factors": ["Technology integration challenges", "Staff adaptation period", "Guest technology comfort levels"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff adaptation period",
+      "Guest technology comfort levels"
+    ]
   },
-  "decision_criteria": ["Guest satisfaction improvement", "Operational cost reduction", "Technology reliability", "Scalability across properties"],
+  "decision_criteria": [
+    "Guest satisfaction improvement",
+    "Operational cost reduction",
+    "Technology reliability",
+    "Scalability across properties"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot programs essential for validating technology investments, comprehensive training critical for successful adoption"
 }

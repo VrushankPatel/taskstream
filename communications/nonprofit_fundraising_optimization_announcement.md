@@ -1,8 +1,8 @@
 ## Communication: Nonprofit Fundraising Optimization Initiative Launch
 
-**From:** Executive Director  
-**To:** All Staff, Board Members, Volunteers  
-**Subject:** Launch of Comprehensive Fundraising Optimization Program  
+**From:** Executive Director
+**To:** All Staff, Board Members, Volunteers
+**Subject:** Launch of Comprehensive Fundraising Optimization Program
 
 Dear Team,
 
@@ -37,7 +37,7 @@ We've allocated $150,000 for technology implementation and $50,000 for staff tra
 
 Please join me in embracing this important initiative that will strengthen our mission impact. Your commitment to excellence in fundraising will be crucial to our success.
 
-Best regards,  
-Michael Chen  
-Executive Director  
+Best regards,
+Michael Chen
+Executive Director
 Save Our Communities Foundation

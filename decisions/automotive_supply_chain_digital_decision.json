@@ -3,8 +3,16 @@
   "context": "Global automotive manufacturer (50,000 employees, $25B revenue) evaluating digital transformation of supply chain operations to improve efficiency and reduce costs",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CEO", "CFO", "COO"],
-    "influencers": ["Head of IT", "Chief Digital Officer", "Key Suppliers"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "COO"
+    ],
+    "influencers": [
+      "Head of IT",
+      "Chief Digital Officer",
+      "Key Suppliers"
+    ]
   },
   "request": {
     "amount": "$180,000,000",
@@ -16,28 +24,52 @@
     {
       "stage": "feasibility_assessment",
       "duration": "6 weeks",
-      "activities": ["Vendor evaluation", "Pilot testing", "ROI modeling", "Risk assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "Pilot testing",
+        "ROI modeling",
+        "Risk assessment"
+      ],
       "outcome": "Approved for pilot phase with $25M initial investment"
     },
     {
       "stage": "pilot_implementation",
       "duration": "4 months",
-      "activities": ["Select pilot suppliers", "Deploy IoT sensors", "Train staff", "Monitor KPIs"],
+      "activities": [
+        "Select pilot suppliers",
+        "Deploy IoT sensors",
+        "Train staff",
+        "Monitor KPIs"
+      ],
       "outcome": "Pilot successful - 12% cost reduction and 30% faster replenishment"
     },
     {
       "stage": "full_rollout_decision",
       "duration": "8 weeks",
-      "activities": ["Scale assessment", "Budget approval", "Change management planning", "Supplier negotiations"],
+      "activities": [
+        "Scale assessment",
+        "Budget approval",
+        "Change management planning",
+        "Supplier negotiations"
+      ],
       "outcome": "Approved full rollout with phased implementation over 24 months"
     }
   ],
   "business_impact": {
     "expected_outcome": "15-20% reduction in supply chain costs, 25% improvement in on-time delivery, enhanced supplier visibility",
     "projected_value": "$450,000,000 in cost savings over 5 years",
-    "risk_factors": ["Supplier resistance to new technology", "Integration complexity with legacy systems", "Cybersecurity vulnerabilities"]
+    "risk_factors": [
+      "Supplier resistance to new technology",
+      "Integration complexity with legacy systems",
+      "Cybersecurity vulnerabilities"
+    ]
   },
-  "decision_criteria": ["ROI >15% within 3 years", "Supplier adoption rate >80%", "No disruption to production", "Cybersecurity compliance"],
+  "decision_criteria": [
+    "ROI >15% within 3 years",
+    "Supplier adoption rate >80%",
+    "No disruption to production",
+    "Cybersecurity compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early supplier engagement critical for adoption, pilot phase essential for risk mitigation, change management budget underestimated"
 }

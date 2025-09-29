@@ -1,10 +1,10 @@
 ## Communication: New Product Launch Announcement
 
-**From:** CEO and Product Team  
-**To:** All Employees  
-**Subject:** Exciting News: Launching TaskFlow AI - Revolutionizing Workflow Management  
+**From:** CEO and Product Team
+**To:** All Employees
+**Subject:** Exciting News: Launching TaskFlow AI - Revolutionizing Workflow Management
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Team,
 
@@ -76,11 +76,11 @@ None of this would be possible without your dedication, creativity, and teamwork
 
 Stay tuned for more details on the beta program and how you can get involved. This is our moment to redefine workflow management!
 
-Best regards,  
-Alex Rivera  
-CEO  
+Best regards,
+Alex Rivera
+CEO
 
-Sarah Chen  
-VP Product  
+Sarah Chen
+VP Product
 
 [TaskFlow AI Launch Team]

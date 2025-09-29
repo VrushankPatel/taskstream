@@ -3,8 +3,15 @@
   "context": "Tech startup, 150 employees, evaluating R&D investment portfolio",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["VP Engineering", "Product Manager", "Finance Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "Product Manager",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$3M",
@@ -16,25 +23,41 @@
     {
       "stage": "portfolio_review",
       "duration": "2 weeks",
-      "activities": ["Assess current R&D projects", "Calculate ROI for existing initiatives", "Identify innovation gaps"],
+      "activities": [
+        "Assess current R&D projects",
+        "Calculate ROI for existing initiatives",
+        "Identify innovation gaps"
+      ],
       "outcome": "3 projects showing strong potential, 2 underperforming"
     },
     {
       "stage": "resource_allocation",
       "duration": "1 week",
-      "activities": ["Cost-benefit analysis", "Resource capacity planning", "Risk assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Resource capacity planning",
+        "Risk assessment"
+      ],
       "outcome": "Approved $2.2M allocation with performance milestones"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 days",
-      "activities": ["Hiring plan development", "Project timeline creation", "Success metrics definition"],
+      "activities": [
+        "Hiring plan development",
+        "Project timeline creation",
+        "Success metrics definition"
+      ],
       "outcome": "R&D expansion plan finalized with quarterly reviews"
     }
   ],
   "business_impact": {
     "expected_outcome": "Launch 2 new products in 18 months",
     "projected_revenue": "$15M from new innovations",
-    "risk_factors": ["Technology obsolescence", "Talent acquisition challenges", "Market timing risks"]
+    "risk_factors": [
+      "Technology obsolescence",
+      "Talent acquisition challenges",
+      "Market timing risks"
+    ]
   }
 }

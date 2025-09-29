@@ -1,8 +1,8 @@
 ## Email Thread: Carbon Capture Implementation Timeline Update
 
-**From:** VP Sustainability  
-**To:** Executive Leadership Team  
-**Subject:** CCUS Project Timeline Acceleration - Urgent Update  
+**From:** VP Sustainability
+**To:** Executive Leadership Team
+**Subject:** CCUS Project Timeline Acceleration - Urgent Update
 
 Team,
 
@@ -24,32 +24,32 @@ Recommendations:
 
 Please review and let me know if we need to escalate to the board for additional funding.
 
-Best,  
-Sarah Chen  
-VP Sustainability  
+Best,
+Sarah Chen
+VP Sustainability
 
 ---
 
-**From:** CEO  
-**To:** VP Sustainability, CFO, COO  
-**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update  
+**From:** CEO
+**To:** VP Sustainability, CFO, COO
+**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update
 
 Sarah,
 
 This is concerning. The Permian project represents 30% of our carbon reduction commitment. We cannot afford delays.
 
-CFO - what's the cost impact of the acceleration plan?  
+CFO - what's the cost impact of the acceleration plan?
 COO - can we redeploy resources from the Eagle Ford retrofit?
 
 We need options on the table by end of week.
 
-Mark  
+Mark
 
 ---
 
-**From:** CFO  
-**To:** CEO, VP Sustainability, COO  
-**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update  
+**From:** CFO
+**To:** CEO, VP Sustainability, COO
+**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update
 
 Mark,
 
@@ -64,13 +64,13 @@ Alternative: Phase implementation starting with highest-emitting sites first.
 
 Let me know if you want to run scenarios.
 
-David  
+David
 
 ---
 
-**From:** COO  
-**To:** CEO, VP Sustainability, CFO  
-**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update  
+**From:** COO
+**To:** CEO, VP Sustainability, CFO
+**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update
 
 We can redeploy 40 engineers from Eagle Ford, but it means pushing that completion back 4 months. Eagle Ford generates $120M quarterly, so we'd lose $480M in production revenue.
 
@@ -78,13 +78,13 @@ Recommend accelerating Permian with dedicated teams rather than robbing Peter to
 
 Alternative: Bring in international engineering firm for parallel path execution.
 
-James  
+James
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team  
-**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update  
+**From:** CEO
+**To:** Executive Leadership Team
+**Subject:** Re: CCUS Project Timeline Acceleration - Urgent Update
 
 Team,
 

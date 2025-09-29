@@ -1,53 +1,93 @@
 workflow:
-  id: "workflow_crisis_emergency_coordination"
-  title: "Crisis Management Emergency Response Coordination Workflow"
-  department: "Crisis Management/Emergency Response"
-  complexity: "high"
-  participants: ["Crisis Management Team", "Emergency Response Coordinators", "Communications Team", "Technical Experts", "Legal Counsel", "Stakeholder Relations"]
-  trigger: "Emergency situation requiring coordinated crisis response"
+  id: workflow_crisis_emergency_coordination
+  title: Crisis Management Emergency Response Coordination Workflow
+  department: Crisis Management/Emergency Response
+  complexity: high
+  participants:
+  - Crisis Management Team
+  - Emergency Response Coordinators
+  - Communications Team
+  - Technical Experts
+  - Legal Counsel
+  - Stakeholder Relations
+  trigger: Emergency situation requiring coordinated crisis response
   steps:
-    - step: 1
-      actor: "Crisis Management Team"
-      action: "Activate crisis response protocols and assemble emergency response team"
-      tools: ["Crisis management platforms", "Emergency notification systems"]
-      duration: "30 minutes"
-      outputs: ["Activated response team", "Initial situation assessment"]
-    - step: 2
-      actor: "Emergency Response Coordinators"
-      action: "Assess emergency scope, impact, and immediate response requirements"
-      tools: ["Impact assessment frameworks", "Emergency response protocols"]
-      duration: "1 hour"
-      outputs: ["Impact assessment", "Immediate response plan"]
-    - step: 3
-      actor: "Technical Experts"
-      action: "Provide technical assessment and containment recommendations"
-      tools: ["Technical diagnostic tools", "Containment strategy frameworks"]
-      duration: "2 hours"
-      outputs: ["Technical assessment", "Containment recommendations"]
-      decision_points: ["Containment feasibility", "Resource requirements"]
-    - step: 4
-      actor: "Communications Team"
-      action: "Develop and execute stakeholder communication strategy"
-      tools: ["Communication templates", "Stakeholder databases"]
-      duration: "1 hour"
-      outputs: ["Communication strategy", "Initial stakeholder notifications"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Assess legal implications and regulatory notification requirements"
-      tools: ["Legal assessment frameworks", "Regulatory databases"]
-      duration: "2 hours"
-      outputs: ["Legal assessment", "Regulatory notification plan"]
-    - step: 6
-      actor: "Stakeholder Relations"
-      action: "Coordinate with external stakeholders including authorities and partners"
-      tools: ["Stakeholder coordination platforms", "Relationship management tools"]
-      duration: "4 hours"
-      outputs: ["Stakeholder coordination", "External support arrangements"]
-    - step: 7
-      actor: "Crisis Management Team"
-      action: "Monitor response effectiveness and adjust strategies as needed"
-      tools: ["Monitoring dashboards", "Response evaluation frameworks"]
-      duration: "Ongoing"
-      outputs: ["Response adjustments", "Progress reports"]
-  success_criteria: "Coordinated emergency response minimizing impact and restoring normal operations safely and efficiently"
-  failure_modes: ["Delayed response causing increased impact", "Poor coordination leading to conflicting actions", "Inadequate communication causing stakeholder confusion"]
+  - step: 1
+    actor: Crisis Management Team
+    action: Activate crisis response protocols and assemble emergency response team
+    tools:
+    - Crisis management platforms
+    - Emergency notification systems
+    duration: 30 minutes
+    outputs:
+    - Activated response team
+    - Initial situation assessment
+  - step: 2
+    actor: Emergency Response Coordinators
+    action: Assess emergency scope, impact, and immediate response requirements
+    tools:
+    - Impact assessment frameworks
+    - Emergency response protocols
+    duration: 1 hour
+    outputs:
+    - Impact assessment
+    - Immediate response plan
+  - step: 3
+    actor: Technical Experts
+    action: Provide technical assessment and containment recommendations
+    tools:
+    - Technical diagnostic tools
+    - Containment strategy frameworks
+    duration: 2 hours
+    outputs:
+    - Technical assessment
+    - Containment recommendations
+    decision_points:
+    - Containment feasibility
+    - Resource requirements
+  - step: 4
+    actor: Communications Team
+    action: Develop and execute stakeholder communication strategy
+    tools:
+    - Communication templates
+    - Stakeholder databases
+    duration: 1 hour
+    outputs:
+    - Communication strategy
+    - Initial stakeholder notifications
+  - step: 5
+    actor: Legal Counsel
+    action: Assess legal implications and regulatory notification requirements
+    tools:
+    - Legal assessment frameworks
+    - Regulatory databases
+    duration: 2 hours
+    outputs:
+    - Legal assessment
+    - Regulatory notification plan
+  - step: 6
+    actor: Stakeholder Relations
+    action: Coordinate with external stakeholders including authorities and partners
+    tools:
+    - Stakeholder coordination platforms
+    - Relationship management tools
+    duration: 4 hours
+    outputs:
+    - Stakeholder coordination
+    - External support arrangements
+  - step: 7
+    actor: Crisis Management Team
+    action: Monitor response effectiveness and adjust strategies as needed
+    tools:
+    - Monitoring dashboards
+    - Response evaluation frameworks
+    duration: Ongoing
+    outputs:
+    - Response adjustments
+    - Progress reports
+  success_criteria: Coordinated emergency response minimizing impact and restoring
+    normal operations safely and efficiently
+  failure_modes:
+  - Delayed response causing increased impact
+  - Poor coordination leading to conflicting actions
+  - Inadequate communication causing stakeholder confusion

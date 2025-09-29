@@ -1,52 +1,106 @@
 workflow:
-  id: "workflow_sustainable_energy_carbon_capture_utilization"
-  title: "Sustainable Energy Carbon Capture Utilization and Storage"
-  department: "Energy Operations"
-  complexity: "high"
-  participants: ["Chief Sustainability Officer", "Environmental Engineer", "Regulatory Compliance Manager", "Operations Director", "Financial Analyst"]
-  trigger: "Corporate commitment to achieve net-zero emissions by 2030"
+  id: workflow_sustainable_energy_carbon_capture_utilization
+  title: Sustainable Energy Carbon Capture Utilization and Storage
+  department: Energy Operations
+  complexity: high
+  participants:
+  - Chief Sustainability Officer
+  - Environmental Engineer
+  - Regulatory Compliance Manager
+  - Operations Director
+  - Financial Analyst
+  trigger: Corporate commitment to achieve net-zero emissions by 2030
   steps:
-    - step: 1
-      actor: "Chief Sustainability Officer"
-      action: "Assess carbon capture technology options and conduct site feasibility studies"
-      tools: ["Carbon capture technology databases", "Geological assessment tools", "Environmental impact analysis software"]
-      duration: "8 weeks"
-      outputs: ["Technology assessment report", "Site selection criteria", "Preliminary environmental impact study"]
-    - step: 2
-      actor: "Environmental Engineer"
-      action: "Design carbon capture system integration with existing energy infrastructure"
-      tools: ["Process engineering software", "Environmental modeling tools", "Carbon capture system specifications"]
-      duration: "10 weeks"
-      outputs: ["System design specifications", "Integration requirements", "Environmental monitoring protocols"]
-    - step: 3
-      actor: "Regulatory Compliance Manager"
-      action: "Navigate regulatory approvals and permitting processes for carbon capture operations"
-      tools: ["Regulatory compliance databases", "Permitting application systems", "Environmental law frameworks"]
-      duration: "12 weeks"
-      outputs: ["Permitting documentation", "Compliance monitoring plan", "Regulatory reporting framework"]
-    - step: 4
-      actor: "Operations Director"
-      action: "Develop operational procedures and maintenance protocols for carbon capture systems"
-      tools: ["Operations management software", "Maintenance scheduling systems", "Safety management frameworks"]
-      duration: "6 weeks"
-      outputs: ["Operations manual", "Maintenance procedures", "Emergency response protocols"]
-    - step: 5
-      actor: "Financial Analyst"
-      action: "Conduct economic analysis and secure funding for carbon capture implementation"
-      tools: ["Financial modeling software", "Carbon credit trading platforms", "Grant application systems"]
-      duration: "5 weeks"
-      outputs: ["Economic feasibility study", "Funding strategy", "ROI projections"]
-    - step: 6
-      actor: "Environmental Engineer"
-      action: "Oversee construction and commissioning of carbon capture facilities"
-      tools: ["Project management software", "Quality control systems", "Environmental monitoring equipment"]
-      duration: "16 weeks"
-      outputs: ["Construction completion report", "System commissioning results", "Initial performance data"]
-    - step: 7
-      actor: "Operations Director"
-      action: "Implement ongoing monitoring and optimization of carbon capture operations"
-      tools: ["SCADA systems", "Performance analytics platforms", "Continuous improvement frameworks"]
-      duration: "Ongoing"
-      outputs: ["Performance reports", "Optimization recommendations", "Carbon reduction metrics"]
-  success_criteria: "Achieved 90% capture efficiency with verified carbon storage and regulatory compliance"
-  failure_modes: ["Regulatory approval delays exceeding project timelines", "Technical failures in capture system performance", "Insufficient funding or economic viability"]
+  - step: 1
+    actor: Chief Sustainability Officer
+    action: Assess carbon capture technology options and conduct site feasibility
+      studies
+    tools:
+    - Carbon capture technology databases
+    - Geological assessment tools
+    - Environmental impact analysis software
+    duration: 8 weeks
+    outputs:
+    - Technology assessment report
+    - Site selection criteria
+    - Preliminary environmental impact study
+  - step: 2
+    actor: Environmental Engineer
+    action: Design carbon capture system integration with existing energy infrastructure
+    tools:
+    - Process engineering software
+    - Environmental modeling tools
+    - Carbon capture system specifications
+    duration: 10 weeks
+    outputs:
+    - System design specifications
+    - Integration requirements
+    - Environmental monitoring protocols
+  - step: 3
+    actor: Regulatory Compliance Manager
+    action: Navigate regulatory approvals and permitting processes for carbon capture
+      operations
+    tools:
+    - Regulatory compliance databases
+    - Permitting application systems
+    - Environmental law frameworks
+    duration: 12 weeks
+    outputs:
+    - Permitting documentation
+    - Compliance monitoring plan
+    - Regulatory reporting framework
+  - step: 4
+    actor: Operations Director
+    action: Develop operational procedures and maintenance protocols for carbon capture
+      systems
+    tools:
+    - Operations management software
+    - Maintenance scheduling systems
+    - Safety management frameworks
+    duration: 6 weeks
+    outputs:
+    - Operations manual
+    - Maintenance procedures
+    - Emergency response protocols
+  - step: 5
+    actor: Financial Analyst
+    action: Conduct economic analysis and secure funding for carbon capture implementation
+    tools:
+    - Financial modeling software
+    - Carbon credit trading platforms
+    - Grant application systems
+    duration: 5 weeks
+    outputs:
+    - Economic feasibility study
+    - Funding strategy
+    - ROI projections
+  - step: 6
+    actor: Environmental Engineer
+    action: Oversee construction and commissioning of carbon capture facilities
+    tools:
+    - Project management software
+    - Quality control systems
+    - Environmental monitoring equipment
+    duration: 16 weeks
+    outputs:
+    - Construction completion report
+    - System commissioning results
+    - Initial performance data
+  - step: 7
+    actor: Operations Director
+    action: Implement ongoing monitoring and optimization of carbon capture operations
+    tools:
+    - SCADA systems
+    - Performance analytics platforms
+    - Continuous improvement frameworks
+    duration: Ongoing
+    outputs:
+    - Performance reports
+    - Optimization recommendations
+    - Carbon reduction metrics
+  success_criteria: Achieved 90% capture efficiency with verified carbon storage and
+    regulatory compliance
+  failure_modes:
+  - Regulatory approval delays exceeding project timelines
+  - Technical failures in capture system performance
+  - Insufficient funding or economic viability

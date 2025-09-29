@@ -6,8 +6,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 ## Leadership Structure
 
 ### Vice President of Gene Therapy Research
-**Reports to:** Chief Scientific Officer  
-**Direct Reports:** 3 Department Heads  
+**Reports to:** Chief Scientific Officer
+**Direct Reports:** 3 Department Heads
 **Responsibilities:**
 - Strategic research direction setting
 - Regulatory strategy development
@@ -15,8 +15,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - External collaboration management
 
 ### Department Heads (Discovery, Development, Translation)
-**Reports to:** VP Gene Therapy Research  
-**Direct Reports:** 4-6 Principal Scientists  
+**Reports to:** VP Gene Therapy Research
+**Direct Reports:** 4-6 Principal Scientists
 **Responsibilities:**
 - Department strategy execution
 - Team performance management
@@ -26,8 +26,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 ## Research Structure
 
 ### Principal Scientists
-**Reports to:** Department Head  
-**Direct Reports:** 2-3 Senior Scientists  
+**Reports to:** Department Head
+**Direct Reports:** 2-3 Senior Scientists
 **Responsibilities:**
 - Research project leadership
 - Experimental design and execution
@@ -35,8 +35,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - Publication and presentation preparation
 
 ### Senior Scientists
-**Reports to:** Principal Scientist  
-**Direct Reports:** 1-2 Research Associates  
+**Reports to:** Principal Scientist
+**Direct Reports:** 1-2 Research Associates
 **Responsibilities:**
 - Complex experimental procedures
 - Data collection and preliminary analysis
@@ -44,8 +44,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - Training and mentoring
 
 ### Research Associates
-**Reports to:** Senior Scientist  
-**Direct Reports:** None  
+**Reports to:** Senior Scientist
+**Direct Reports:** None
 **Responsibilities:**
 - Laboratory experimentation
 - Sample preparation and analysis
@@ -53,8 +53,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - Documentation and record keeping
 
 ### Research Technicians
-**Reports to:** Senior Scientist or Research Associate  
-**Direct Reports:** None  
+**Reports to:** Senior Scientist or Research Associate
+**Direct Reports:** None
 **Responsibilities:**
 - Routine laboratory procedures
 - Equipment operation and calibration
@@ -64,8 +64,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 ## Support Functions
 
 ### Bioinformatics Team
-**Reports to:** VP Gene Therapy Research  
-**Team Size:** 5 specialists  
+**Reports to:** VP Gene Therapy Research
+**Team Size:** 5 specialists
 **Responsibilities:**
 - Genomic data analysis
 - Computational modeling
@@ -73,8 +73,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - Algorithm development
 
 ### Regulatory Affairs Team
-**Reports to:** VP Gene Therapy Research  
-**Team Size:** 3 specialists  
+**Reports to:** VP Gene Therapy Research
+**Team Size:** 3 specialists
 **Responsibilities:**
 - IND/CTA preparation and submission
 - Regulatory strategy development
@@ -82,8 +82,8 @@ The Gene Therapy Research Team focuses on developing novel gene therapies for ra
 - Ethics committee interactions
 
 ### Quality Control Team
-**Reports to:** Department Head (Development)  
-**Team Size:** 4 specialists  
+**Reports to:** Department Head (Development)
+**Team Size:** 4 specialists
 **Responsibilities:**
 - Analytical method development
 - Product characterization

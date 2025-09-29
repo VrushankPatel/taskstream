@@ -1,8 +1,8 @@
 ## Communication Thread: Utilities Power Grid Upgrade Announcement
 
-**From:** Chief Communications Officer  
-**To:** Executive Leadership Team, Regulatory Affairs, Customer Service Leadership  
-**Subject:** Major Grid Modernization Project - Public Announcement Strategy  
+**From:** Chief Communications Officer
+**To:** Executive Leadership Team, Regulatory Affairs, Customer Service Leadership
+**Subject:** Major Grid Modernization Project - Public Announcement Strategy
 
 Team,
 
@@ -28,15 +28,15 @@ Following board approval of our $200M smart grid modernization project, we need 
 
 Please prepare initial messaging drafts and stakeholder engagement plans by end of week.
 
-Best,  
-Sarah Martinez  
-Chief Communications Officer  
+Best,
+Sarah Martinez
+Chief Communications Officer
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team, Chief Communications Officer  
-**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy  
+**From:** CEO
+**To:** Executive Leadership Team, Chief Communications Officer
+**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy
 
 Sarah,
 
@@ -56,13 +56,13 @@ This project is critical for our long-term reliability and clean energy transiti
 
 Let's position this as an investment in our community's future.
 
-Michael  
+Michael
 
 ---
 
-**From:** Regulatory Affairs Director  
-**To:** Chief Communications Officer, CEO  
-**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy  
+**From:** Regulatory Affairs Director
+**To:** Chief Communications Officer, CEO
+**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy
 
 Michael and Sarah,
 
@@ -81,13 +81,13 @@ Regulatory approval is secured, but we need to address rate impact communication
 
 I've prepared the regulatory filing templates.
 
-David  
+David
 
 ---
 
-**From:** Customer Service Director  
-**To:** Chief Communications Officer, Executive Leadership Team  
-**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy  
+**From:** Customer Service Director
+**To:** Chief Communications Officer, Executive Leadership Team
+**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy
 
 Sarah,
 
@@ -108,13 +108,13 @@ Customer service impact assessment complete. We anticipate 25% call volume incre
 
 Training for 200 customer service reps completed.
 
-Lisa  
+Lisa
 
 ---
 
-**From:** Chief Communications Officer  
-**To:** Executive Leadership Team  
-**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy  
+**From:** Chief Communications Officer
+**To:** Executive Leadership Team
+**Subject:** Re: Major Grid Modernization Project - Public Announcement Strategy
 
 Team,
 

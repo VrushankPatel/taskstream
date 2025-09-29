@@ -3,8 +3,16 @@
   "context": "Telecommunications company, 25,000 employees, planning 6G network infrastructure investment for next-generation connectivity",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["VP Network Operations", "Chief Strategy Officer", "Regulatory Affairs Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Network Operations",
+      "Chief Strategy Officer",
+      "Regulatory Affairs Director"
+    ]
   },
   "request": {
     "amount": "$8,500,000,000",
@@ -16,31 +24,52 @@
     {
       "stage": "market_research",
       "duration": "12 weeks",
-      "activities": ["6G technology assessment", "Competitive landscape analysis", "Use case development"],
+      "activities": [
+        "6G technology assessment",
+        "Competitive landscape analysis",
+        "Use case development"
+      ],
       "outcome": "Identified 10 high-value use cases with $200B market opportunity"
     },
     {
       "stage": "technical_feasibility",
       "duration": "16 weeks",
-      "activities": ["Spectrum availability analysis", "Infrastructure requirements study", "Vendor partnership evaluation"],
+      "activities": [
+        "Spectrum availability analysis",
+        "Infrastructure requirements study",
+        "Vendor partnership evaluation"
+      ],
       "outcome": "Technical roadmap developed with 2028 commercial launch target"
     },
     {
       "stage": "financial_modeling",
       "duration": "8 weeks",
-      "activities": ["Capital investment modeling", "Revenue projection analysis", "Risk-adjusted ROI calculation"],
+      "activities": [
+        "Capital investment modeling",
+        "Revenue projection analysis",
+        "Risk-adjusted ROI calculation"
+      ],
       "outcome": "Projected 25% IRR with $50B revenue potential over 10 years"
     },
     {
       "stage": "strategic_approval",
       "duration": "6 weeks",
-      "activities": ["Board presentation", "Regulatory consultation", "Final investment committee review"],
+      "activities": [
+        "Board presentation",
+        "Regulatory consultation",
+        "Final investment committee review"
+      ],
       "outcome": "Approved with phased investment over 5 years"
     }
   ],
   "business_impact": {
     "expected_revenue": "$50,000,000,000 over 10 years",
     "market_position": "First-mover advantage in 6G",
-    "risk_factors": ["Technology maturity uncertainty", "Regulatory spectrum allocation", "Massive capital requirements", "Competitive response"]
+    "risk_factors": [
+      "Technology maturity uncertainty",
+      "Regulatory spectrum allocation",
+      "Massive capital requirements",
+      "Competitive response"
+    ]
   }
 }

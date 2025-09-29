@@ -3,8 +3,16 @@
   "context": "Global fashion retailer responding to consumer demand and regulatory pressure for supply chain transparency",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board Sustainability Committee"],
-    "influencers": ["Chief Supply Chain Officer", "General Counsel", "Marketing Director", "Supplier Relations Team"]
+    "approvers": [
+      "CEO",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Chief Supply Chain Officer",
+      "General Counsel",
+      "Marketing Director",
+      "Supplier Relations Team"
+    ]
   },
   "request": {
     "amount": "$8 million",
@@ -16,38 +24,62 @@
     {
       "stage": "market_research",
       "duration": "4 weeks",
-      "activities": ["Consumer transparency surveys", "Competitor analysis", "Regulatory landscape review"],
+      "activities": [
+        "Consumer transparency surveys",
+        "Competitor analysis",
+        "Regulatory landscape review"
+      ],
       "outcome": "Strong consumer demand identified, regulatory requirements confirmed for 2026"
     },
     {
       "stage": "technology_evaluation",
       "duration": "6 weeks",
-      "activities": ["Blockchain platform demonstrations", "Pilot testing with 3 suppliers", "Integration feasibility assessment"],
+      "activities": [
+        "Blockchain platform demonstrations",
+        "Pilot testing with 3 suppliers",
+        "Integration feasibility assessment"
+      ],
       "outcome": "Blockchain solution provides 95% traceability accuracy, mobile app for consumer access"
     },
     {
       "stage": "supplier_assessment",
       "duration": "4 weeks",
-      "activities": ["Supplier capability surveys", "Training requirement analysis", "Adoption timeline planning"],
+      "activities": [
+        "Supplier capability surveys",
+        "Training requirement analysis",
+        "Adoption timeline planning"
+      ],
       "outcome": "80% of key suppliers ready for implementation, training program developed"
     },
     {
       "stage": "business_case_development",
       "duration": "3 weeks",
-      "activities": ["ROI modeling", "Cost allocation analysis", "Revenue impact projections"],
+      "activities": [
+        "ROI modeling",
+        "Cost allocation analysis",
+        "Revenue impact projections"
+      ],
       "outcome": "Projected 15% price premium on transparent products, 25% increase in sustainable customer segment"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Leadership presentation", "Risk discussion", "Budget approval"],
+      "activities": [
+        "Leadership presentation",
+        "Risk discussion",
+        "Budget approval"
+      ],
       "outcome": "Approved for pilot with 20% of product lines, full rollout contingent on pilot success"
     }
   ],
   "business_impact": {
     "expected_transparency_level": "95% supply chain visibility",
     "projected_revenue_impact": "$50M additional from premium pricing",
-    "risk_factors": ["Supplier resistance", "Technology integration challenges", "Consumer privacy concerns"],
+    "risk_factors": [
+      "Supplier resistance",
+      "Technology integration challenges",
+      "Consumer privacy concerns"
+    ],
     "timeline": "12 months for pilot, 24 months for full implementation"
   }
 }

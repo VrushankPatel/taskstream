@@ -1,9 +1,9 @@
 # Strategic Planning Meeting Notes - Q1 2025
 
-**Date:** October 15, 2025  
-**Time:** 9:00 AM - 12:00 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CFO, COO, VP Sales, VP Marketing, VP Product, VP HR, Strategy Consultant  
+**Date:** October 15, 2025
+**Time:** 9:00 AM - 12:00 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CFO, COO, VP Sales, VP Marketing, VP Product, VP HR, Strategy Consultant
 
 ## Agenda
 1. Review Q4 2024 performance
@@ -83,5 +83,5 @@
 ## Next Meeting
 November 20, 2025 - Strategy Implementation Planning
 
-**Meeting Facilitator:** Strategy Consultant  
+**Meeting Facilitator:** Strategy Consultant
 **Note Taker:** Executive Assistant

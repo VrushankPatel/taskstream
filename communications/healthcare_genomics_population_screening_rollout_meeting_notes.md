@@ -1,9 +1,9 @@
 # Healthcare Genomics Population Screening Program Rollout Meeting
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Public Health Conference Center  
-**Attendees:** Director of Public Health, Chief Medical Officer, Genomics Program Director, Community Health Leaders, Patient Advocates, Ethics Committee Members  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Public Health Conference Center
+**Attendees:** Director of Public Health, Chief Medical Officer, Genomics Program Director, Community Health Leaders, Patient Advocates, Ethics Committee Members
 
 ## Meeting Objective
 Finalize rollout plan for population genomic screening program and address implementation considerations.

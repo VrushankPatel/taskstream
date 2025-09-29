@@ -3,8 +3,16 @@
   "context": "Global energy company, 50,000 employees, evaluating nuclear fusion R&D investment",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Head of R&D", "Chief Sustainability Officer", "Government Relations Lead"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Head of R&D",
+      "Chief Sustainability Officer",
+      "Government Relations Lead"
+    ]
   },
   "request": {
     "amount": "$2.5 billion",
@@ -16,32 +24,57 @@
     {
       "stage": "technical_feasibility_review",
       "duration": "3 months",
-      "activities": ["Independent expert review", "Technology readiness assessment", "Competitive landscape analysis"],
+      "activities": [
+        "Independent expert review",
+        "Technology readiness assessment",
+        "Competitive landscape analysis"
+      ],
       "outcome": "Feasibility confirmed with high-risk, high-reward profile"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 months",
-      "activities": ["ROI projections", "Risk-adjusted valuation", "Funding structure analysis"],
+      "activities": [
+        "ROI projections",
+        "Risk-adjusted valuation",
+        "Funding structure analysis"
+      ],
       "outcome": "NPV positive under optimistic scenarios, requires government partnerships"
     },
     {
       "stage": "regulatory_and_political_assessment",
       "duration": "1 month",
-      "activities": ["Nuclear regulatory framework review", "International collaboration opportunities", "Public acceptance research"],
+      "activities": [
+        "Nuclear regulatory framework review",
+        "International collaboration opportunities",
+        "Public acceptance research"
+      ],
       "outcome": "Strong government support identified, public opinion cautiously optimistic"
     },
     {
       "stage": "board_approval",
       "duration": "1 week",
-      "activities": ["Executive presentation", "Board discussion", "Final vote"],
+      "activities": [
+        "Executive presentation",
+        "Board discussion",
+        "Final vote"
+      ],
       "outcome": "Approved with conditions: 20% government co-funding requirement, milestone-based funding releases"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["First commercial fusion plant by 2035", "Patent portfolio worth $10B+", "Leadership in clean energy transition"],
+    "expected_outcomes": [
+      "First commercial fusion plant by 2035",
+      "Patent portfolio worth $10B+",
+      "Leadership in clean energy transition"
+    ],
     "projected_revenue": "$50 billion cumulative by 2050",
-    "risk_factors": ["Technical breakthroughs not achieved", "Regulatory delays", "Competitor advancements", "Public opposition"],
+    "risk_factors": [
+      "Technical breakthroughs not achieved",
+      "Regulatory delays",
+      "Competitor advancements",
+      "Public opposition"
+    ],
     "strategic_alignment": "Supports net-zero carbon goals, enhances energy security, positions as technology leader"
   }
 }

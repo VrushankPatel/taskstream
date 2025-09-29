@@ -1,8 +1,8 @@
 ## Meeting Notes: Healthcare AI Diagnostics Implementation Kickoff
 
-**Date:** September 30, 2025  
-**Attendees:** Chief Medical Officer, IT Director, Department Chairs (Radiology, Pathology, Cardiology), AI Implementation Team Lead, Clinical Informatics Specialist  
-**Location:** Medical Center Auditorium  
+**Date:** September 30, 2025
+**Attendees:** Chief Medical Officer, IT Director, Department Chairs (Radiology, Pathology, Cardiology), AI Implementation Team Lead, Clinical Informatics Specialist
+**Location:** Medical Center Auditorium
 
 ### Opening Remarks
 CMO welcomed the team and emphasized the strategic importance of AI diagnostics for improving patient outcomes and operational efficiency.

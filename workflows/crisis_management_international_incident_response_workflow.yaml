@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_068_003"
-  title: "Crisis Management International Incident Response Workflow"
-  department: "Crisis Management"
-  complexity: "high"
-  participants: ["Crisis Management Team Lead", "Legal Counsel", "Communications Lead", "Local Country Managers", "Executive Leadership"]
-  trigger: "International incident with potential global impact detected"
+  id: workflow_068_003
+  title: Crisis Management International Incident Response Workflow
+  department: Crisis Management
+  complexity: high
+  participants:
+  - Crisis Management Team Lead
+  - Legal Counsel
+  - Communications Lead
+  - Local Country Managers
+  - Executive Leadership
+  trigger: International incident with potential global impact detected
   steps:
-    - step: 1
-      actor: "Crisis Management Team Lead"
-      action: "Activate crisis response team and assess incident scope and impact"
-      tools: ["Crisis management platform", "Incident reporting system"]
-      duration: "2 hours"
-      outputs: ["Crisis activation notification", "Initial impact assessment"]
-    - step: 2
-      actor: "Local Country Managers"
-      action: "Provide local context, regulatory requirements, and initial response actions"
-      tools: ["Local compliance databases", "Stakeholder contact lists"]
-      duration: "4 hours"
-      outputs: ["Local impact assessment", "Regulatory requirements summary"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Assess legal risks, compliance requirements, and liability exposure"
-      tools: ["Legal research databases", "Risk assessment templates"]
-      duration: "6 hours"
-      outputs: ["Legal risk assessment", "Compliance action plan"]
-    - step: 4
-      actor: "Communications Lead"
-      action: "Develop communication strategy and draft key messages for stakeholders"
-      tools: ["Crisis communication templates", "Stakeholder databases"]
-      duration: "4 hours"
-      outputs: ["Communication strategy", "Draft statements and notifications"]
-    - step: 5
-      actor: "Executive Leadership"
-      action: "Review response plan and authorize implementation with escalation protocols"
-      decision_points: ["Incident severity", "Stakeholder impact", "Regulatory requirements"]
-      duration: "2 hours"
-      outputs: ["Approved response plan", "Escalation procedures"]
-  success_criteria: "Incident contained with minimal damage and transparent stakeholder communication"
-  failure_modes: ["Delayed response activation", "Inadequate local coordination", "Poor stakeholder communication"]
+  - step: 1
+    actor: Crisis Management Team Lead
+    action: Activate crisis response team and assess incident scope and impact
+    tools:
+    - Crisis management platform
+    - Incident reporting system
+    duration: 2 hours
+    outputs:
+    - Crisis activation notification
+    - Initial impact assessment
+  - step: 2
+    actor: Local Country Managers
+    action: Provide local context, regulatory requirements, and initial response actions
+    tools:
+    - Local compliance databases
+    - Stakeholder contact lists
+    duration: 4 hours
+    outputs:
+    - Local impact assessment
+    - Regulatory requirements summary
+  - step: 3
+    actor: Legal Counsel
+    action: Assess legal risks, compliance requirements, and liability exposure
+    tools:
+    - Legal research databases
+    - Risk assessment templates
+    duration: 6 hours
+    outputs:
+    - Legal risk assessment
+    - Compliance action plan
+  - step: 4
+    actor: Communications Lead
+    action: Develop communication strategy and draft key messages for stakeholders
+    tools:
+    - Crisis communication templates
+    - Stakeholder databases
+    duration: 4 hours
+    outputs:
+    - Communication strategy
+    - Draft statements and notifications
+  - step: 5
+    actor: Executive Leadership
+    action: Review response plan and authorize implementation with escalation protocols
+    decision_points:
+    - Incident severity
+    - Stakeholder impact
+    - Regulatory requirements
+    duration: 2 hours
+    outputs:
+    - Approved response plan
+    - Escalation procedures
+  success_criteria: Incident contained with minimal damage and transparent stakeholder
+    communication
+  failure_modes:
+  - Delayed response activation
+  - Inadequate local coordination
+  - Poor stakeholder communication

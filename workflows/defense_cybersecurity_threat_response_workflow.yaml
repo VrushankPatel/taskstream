@@ -1,45 +1,73 @@
 workflow:
-  id: "workflow_defense_cybersecurity_threat_response"
-  title: "Defense Cybersecurity Threat Response Process"
-  department: "Cybersecurity Operations"
-  complexity: "complex"
-  participants: ["SOC Analyst", "Incident Response Lead", "CISO", "Legal Counsel", "IT Security Team"]
-  trigger: "Detection of potential cyber threat by monitoring systems"
+  id: workflow_defense_cybersecurity_threat_response
+  title: Defense Cybersecurity Threat Response Process
+  department: Cybersecurity Operations
+  complexity: complex
+  participants:
+  - SOC Analyst
+  - Incident Response Lead
+  - CISO
+  - Legal Counsel
+  - IT Security Team
+  trigger: Detection of potential cyber threat by monitoring systems
   steps:
-    - step: 1
-      actor: "SOC Analyst"
-      action: "Initial threat assessment and alert triage"
-      tools: ["SIEM", "Threat Intelligence Platforms"]
-      duration: "15 minutes"
-      outputs: ["Initial assessment report"]
-    - step: 2
-      actor: "Incident Response Lead"
-      action: "Escalate to incident response team and initiate containment"
-      tools: ["Incident Response Playbook", "Network Isolation Tools"]
-      duration: "30 minutes"
-      outputs: ["Containment plan", "Stakeholder notification"]
-    - step: 3
-      actor: "IT Security Team"
-      action: "Execute containment measures and begin forensic analysis"
-      tools: ["Digital Forensics Tools", "Log Analysis Software"]
-      duration: "2 hours"
-      outputs: ["Forensic evidence", "Impact assessment"]
-    - step: 4
-      actor: "CISO"
-      action: "Review incident details and approve recovery plan"
-      tools: ["Executive Dashboard", "Risk Assessment Framework"]
-      duration: "1 hour"
-      outputs: ["Recovery authorization", "Communication plan"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Assess legal implications and compliance requirements"
-      tools: ["Legal Database", "Regulatory Guidelines"]
-      duration: "2 hours"
-      outputs: ["Legal assessment report", "Regulatory notification plan"]
-  success_criteria: "Threat contained within 4 hours, minimal data loss, full system recovery"
-  failure_modes: ["Delayed detection", "Inadequate containment", "Insufficient forensic evidence"]
+  - step: 1
+    actor: SOC Analyst
+    action: Initial threat assessment and alert triage
+    tools:
+    - SIEM
+    - Threat Intelligence Platforms
+    duration: 15 minutes
+    outputs:
+    - Initial assessment report
+  - step: 2
+    actor: Incident Response Lead
+    action: Escalate to incident response team and initiate containment
+    tools:
+    - Incident Response Playbook
+    - Network Isolation Tools
+    duration: 30 minutes
+    outputs:
+    - Containment plan
+    - Stakeholder notification
+  - step: 3
+    actor: IT Security Team
+    action: Execute containment measures and begin forensic analysis
+    tools:
+    - Digital Forensics Tools
+    - Log Analysis Software
+    duration: 2 hours
+    outputs:
+    - Forensic evidence
+    - Impact assessment
+  - step: 4
+    actor: CISO
+    action: Review incident details and approve recovery plan
+    tools:
+    - Executive Dashboard
+    - Risk Assessment Framework
+    duration: 1 hour
+    outputs:
+    - Recovery authorization
+    - Communication plan
+  - step: 5
+    actor: Legal Counsel
+    action: Assess legal implications and compliance requirements
+    tools:
+    - Legal Database
+    - Regulatory Guidelines
+    duration: 2 hours
+    outputs:
+    - Legal assessment report
+    - Regulatory notification plan
+  success_criteria: Threat contained within 4 hours, minimal data loss, full system
+    recovery
+  failure_modes:
+  - Delayed detection
+  - Inadequate containment
+  - Insufficient forensic evidence
   metrics:
-    - "Mean Time to Detect (MTTD): < 10 minutes"
-    - "Mean Time to Respond (MTTR): < 2 hours"
-    - "Containment Success Rate: > 95%"
-    - "Recovery Time Objective (RTO): < 4 hours"
+  - 'Mean Time to Detect (MTTD): < 10 minutes'
+  - 'Mean Time to Respond (MTTR): < 2 hours'
+  - 'Containment Success Rate: > 95%'
+  - 'Recovery Time Objective (RTO): < 4 hours'

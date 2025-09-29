@@ -1,10 +1,10 @@
 # Healthcare Genomics Gene Therapy Investment Decision Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CFO, CMO, CSO, Head of Regulatory Affairs, VP Clinical Development  
-**Facilitator:** Chief Strategy Officer  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CFO, CMO, CSO, Head of Regulatory Affairs, VP Clinical Development
+**Facilitator:** Chief Strategy Officer
 
 ## Meeting Objective
 
@@ -36,8 +36,8 @@ Evaluate investment opportunity in novel gene therapy for rare metabolic disorde
 ## Decision Points
 
 ### Investment Approval
-**Decision:** Approved with conditions  
-**Rationale:** Strong scientific foundation, clear regulatory pathway, compelling financial returns  
+**Decision:** Approved with conditions
+**Rationale:** Strong scientific foundation, clear regulatory pathway, compelling financial returns
 **Conditions:**
 - Successful completion of preclinical toxicology studies
 - Final regulatory consultation with FDA

@@ -3,8 +3,16 @@
   "context": "Pharmaceutical company, 2000 employees, evaluating NDA submission for new oncology treatment",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "Board of Directors", "FDA Liaison"],
-    "influencers": ["Clinical Development Team", "Regulatory Affairs", "Commercial Strategy"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "FDA Liaison"
+    ],
+    "influencers": [
+      "Clinical Development Team",
+      "Regulatory Affairs",
+      "Commercial Strategy"
+    ]
   },
   "request": {
     "amount": "$150M submission budget",
@@ -16,25 +24,41 @@
     {
       "stage": "data_review",
       "duration": "4 weeks",
-      "activities": ["Clinical trial analysis", "Safety profile assessment", "Manufacturing validation"],
+      "activities": [
+        "Clinical trial analysis",
+        "Safety profile assessment",
+        "Manufacturing validation"
+      ],
       "outcome": "Data supports submission"
     },
     {
       "stage": "regulatory_strategy",
       "duration": "3 weeks",
-      "activities": ["FDA meeting preparation", "Labeling strategy", "Post-marketing commitments"],
+      "activities": [
+        "FDA meeting preparation",
+        "Labeling strategy",
+        "Post-marketing commitments"
+      ],
       "outcome": "Accelerated approval pathway recommended"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Financial impact review", "Risk mitigation planning"],
+      "activities": [
+        "Board presentation",
+        "Financial impact review",
+        "Risk mitigation planning"
+      ],
       "outcome": "Approved with priority review voucher utilization"
     }
   ],
   "business_impact": {
     "expected_revenue": "$500M first year",
     "market_share_gain": "25%",
-    "risk_factors": ["Clinical trial setbacks", "Competitor approvals", "Pricing reimbursement challenges"]
+    "risk_factors": [
+      "Clinical trial setbacks",
+      "Competitor approvals",
+      "Pricing reimbursement challenges"
+    ]
   }
 }

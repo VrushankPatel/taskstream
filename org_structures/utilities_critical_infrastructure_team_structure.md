@@ -1,28 +1,28 @@
 # Utilities Critical Infrastructure Protection Team Structure
 
 ## Executive Leadership
-- **VP Critical Infrastructure** - Overall security and resilience strategy  
-- **Director Cybersecurity Operations** - Cyber threat response and prevention  
+- **VP Critical Infrastructure** - Overall security and resilience strategy
+- **Director Cybersecurity Operations** - Cyber threat response and prevention
 
 ## Operations Teams
 
 ### Physical Security Team
-- **Manager Physical Security** (Security Specialists x 6, Field Officers x 12)  
-  - Facility access control, perimeter security, emergency response  
-- **Manager Infrastructure Monitoring** (Control Center Operators x 8)  
-  - 24/7 monitoring of grid systems, automated alert response  
+- **Manager Physical Security** (Security Specialists x 6, Field Officers x 12)
+  - Facility access control, perimeter security, emergency response
+- **Manager Infrastructure Monitoring** (Control Center Operators x 8)
+  - 24/7 monitoring of grid systems, automated alert response
 
 ### Cybersecurity Team
-- **Manager Cyber Defense** (Security Analysts x 5, Incident Responders x 4)  
-  - Threat detection, vulnerability management, incident response  
-- **Manager Network Security** (Network Engineers x 3)  
-  - Firewall management, intrusion prevention, secure configurations  
+- **Manager Cyber Defense** (Security Analysts x 5, Incident Responders x 4)
+  - Threat detection, vulnerability management, incident response
+- **Manager Network Security** (Network Engineers x 3)
+  - Firewall management, intrusion prevention, secure configurations
 
 ### Resilience & Recovery Team
-- **Manager Business Continuity** (Continuity Coordinators x 4)  
-  - Disaster recovery planning, backup systems, crisis management  
-- **Manager Regulatory Compliance** (Compliance Specialists x 3)  
-  - NERC standards, cybersecurity regulations, reporting requirements  
+- **Manager Business Continuity** (Continuity Coordinators x 4)
+  - Disaster recovery planning, backup systems, crisis management
+- **Manager Regulatory Compliance** (Compliance Specialists x 3)
+  - NERC standards, cybersecurity regulations, reporting requirements
 
 ## Support Functions
 - **Training Coordinator** - Security awareness and technical training programs

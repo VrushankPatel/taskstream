@@ -132,5 +132,5 @@ Applies to all government agencies, departments, and contractors handling sensit
 - Vendor Security Assessment Checklist
 - Annual Security Report Template
 
-*Effective Date: October 1, 2025*  
+*Effective Date: October 1, 2025*
 *Last Updated: September 29, 2025*

@@ -1,48 +1,76 @@
 workflow:
-  id: "workflow_government_permit"
-  title: "Digital Permit Application and Approval Process"
-  department: "Permitting & Inspections"
-  complexity: "high"
-  participants: ["Permit Applicant", "Permit Technician", "Review Specialist", "Inspector", "Permit Manager"]
-  trigger: "Applicant submits permit application"
+  id: workflow_government_permit
+  title: Digital Permit Application and Approval Process
+  department: Permitting & Inspections
+  complexity: high
+  participants:
+  - Permit Applicant
+  - Permit Technician
+  - Review Specialist
+  - Inspector
+  - Permit Manager
+  trigger: Applicant submits permit application
   steps:
-    - step: 1
-      actor: "Permit Applicant"
-      action: "Submit digital permit application with plans and documentation"
-      tools: ["Online Permitting Portal", "Document Management System"]
-      duration: "20-60 minutes"
-      outputs: ["Permit Application Package"]
-    - step: 2
-      actor: "Permit Technician"
-      action: "Conduct initial review for completeness and basic requirements"
-      tools: ["Permit Management System", "Code Compliance Database"]
-      duration: "30-60 minutes"
-      outputs: ["Initial Review Report"]
-      decision_points: ["Application Completeness", "Basic Code Compliance"]
-    - step: 3
-      actor: "Review Specialist"
-      action: "Perform detailed technical review of plans and specifications"
-      tools: ["CAD Review Software", "Engineering Standards Database"]
-      duration: "2-4 hours"
-      outputs: ["Technical Review Report"]
-      decision_points: ["Engineering Standards Compliance", "Safety Requirements"]
-    - step: 4
-      actor: "Inspector"
-      action: "Schedule and conduct site inspection if required"
-      tools: ["Inspection Scheduling System", "Mobile Inspection App"]
-      duration: "1-2 hours"
-      outputs: ["Inspection Report"]
-    - step: 5
-      actor: "Permit Manager"
-      action: "Final approval and permit issuance"
-      tools: ["Permit Management System", "Digital Signature Platform"]
-      duration: "15-30 minutes"
-      outputs: ["Approved Permit"]
-  success_criteria: "Permit processed within 30 days, approval rate >80%, applicant satisfaction >85%"
-  failure_modes: ["Incomplete applications", "Technical review delays", "Inspection scheduling conflicts"]
+  - step: 1
+    actor: Permit Applicant
+    action: Submit digital permit application with plans and documentation
+    tools:
+    - Online Permitting Portal
+    - Document Management System
+    duration: 20-60 minutes
+    outputs:
+    - Permit Application Package
+  - step: 2
+    actor: Permit Technician
+    action: Conduct initial review for completeness and basic requirements
+    tools:
+    - Permit Management System
+    - Code Compliance Database
+    duration: 30-60 minutes
+    outputs:
+    - Initial Review Report
+    decision_points:
+    - Application Completeness
+    - Basic Code Compliance
+  - step: 3
+    actor: Review Specialist
+    action: Perform detailed technical review of plans and specifications
+    tools:
+    - CAD Review Software
+    - Engineering Standards Database
+    duration: 2-4 hours
+    outputs:
+    - Technical Review Report
+    decision_points:
+    - Engineering Standards Compliance
+    - Safety Requirements
+  - step: 4
+    actor: Inspector
+    action: Schedule and conduct site inspection if required
+    tools:
+    - Inspection Scheduling System
+    - Mobile Inspection App
+    duration: 1-2 hours
+    outputs:
+    - Inspection Report
+  - step: 5
+    actor: Permit Manager
+    action: Final approval and permit issuance
+    tools:
+    - Permit Management System
+    - Digital Signature Platform
+    duration: 15-30 minutes
+    outputs:
+    - Approved Permit
+  success_criteria: Permit processed within 30 days, approval rate >80%, applicant
+    satisfaction >85%
+  failure_modes:
+  - Incomplete applications
+  - Technical review delays
+  - Inspection scheduling conflicts
   metrics:
-    - "Average processing time: Target <30 days"
-    - "Approval rate: Target >80%"
-    - "Applicant satisfaction: Target >85%"
-    - "Digital submission rate: Target >90%"
-    - "Error rate: Target <5%"
+  - 'Average processing time: Target <30 days'
+  - 'Approval rate: Target >80%'
+  - 'Applicant satisfaction: Target >85%'
+  - 'Digital submission rate: Target >90%'
+  - 'Error rate: Target <5%'

@@ -1,11 +1,11 @@
 # Leadership Development Training Session Notes
 
-**Date:** September 18, 2025  
-**Time:** 8:30 AM - 5:00 PM  
-**Location:** Training Center Room A  
-**Facilitator:** External Leadership Coach  
-**Attendees:** 12 Managers and Directors  
-**Note Taker:** HR Training Coordinator  
+**Date:** September 18, 2025
+**Time:** 8:30 AM - 5:00 PM
+**Location:** Training Center Room A
+**Facilitator:** External Leadership Coach
+**Attendees:** 12 Managers and Directors
+**Note Taker:** HR Training Coordinator
 
 ## Session Overview
 This was the first day of our 3-day Leadership Development Program focused on "Leading Through Change." The session covered emotional intelligence, change management frameworks, and communication strategies.

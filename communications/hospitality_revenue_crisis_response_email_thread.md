@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Revenue Crisis Response
 
-**From:** General Manager  
-**To:** Executive Team, Department Heads  
-**Subject:** URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop  
+**From:** General Manager
+**To:** Executive Team, Department Heads
+**Subject:** URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop
 
 Team,
 
@@ -16,20 +16,20 @@ Following our emergency leadership meeting this morning, I need to activate our 
 
 Please confirm your department's action plan by EOD today. We'll reconvene tomorrow at 9 AM to review progress.
 
-Best,  
-Sarah Johnson  
-General Manager  
-Riverside Grand Hotel  
+Best,
+Sarah Johnson
+General Manager
+Riverside Grand Hotel
 
 ---
 
-**From:** Director of Revenue Management  
-**To:** General Manager, Executive Team  
-**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop  
+**From:** Director of Revenue Management
+**To:** General Manager, Executive Team
+**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop
 
 Sarah,
 
-Revenue team has analyzed the current booking patterns. We're seeing particular weakness in our mid-week business travel segment. 
+Revenue team has analyzed the current booking patterns. We're seeing particular weakness in our mid-week business travel segment.
 
 **Our Response Plan:**
 - Dynamic pricing model activated: Base rates reduced 15-20% for Tue-Thu nights
@@ -38,14 +38,14 @@ Revenue team has analyzed the current booking patterns. We're seeing particular 
 
 We can implement this within 24 hours pending your approval.
 
-Mike Chen  
-Director of Revenue Management  
+Mike Chen
+Director of Revenue Management
 
 ---
 
-**From:** Director of Sales  
-**To:** General Manager, Revenue Director  
-**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop  
+**From:** Director of Sales
+**To:** General Manager, Revenue Director
+**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop
 
 Sarah and Mike,
 
@@ -58,14 +58,14 @@ Sales team has reached out to our top 20 corporate accounts. Initial feedback is
 
 We'll follow up with detailed proposals by end of week.
 
-Lisa Rodriguez  
-Director of Sales  
+Lisa Rodriguez
+Director of Sales
 
 ---
 
-**From:** General Manager  
-**To:** Executive Team, Department Heads  
-**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop  
+**From:** General Manager
+**To:** Executive Team, Department Heads
+**Subject:** Re: URGENT: Revenue Crisis Response Plan - 30% Occupancy Drop
 
 Thank you for the quick responses. The plans look solid. Let's move forward with implementation immediately.
 
@@ -79,5 +79,5 @@ We'll monitor KPIs weekly: occupancy rate, average daily rate, and revenue per a
 
 Stay focused - we can turn this around together.
 
-Best,  
+Best,
 Sarah

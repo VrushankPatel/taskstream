@@ -1,56 +1,103 @@
 workflow:
-  id: "workflow_hospitality_event_booking"
-  title: "Hospitality Event Booking and Coordination Workflow"
-  department: "Event Services"
-  complexity: "complex"
-  participants: ["Event Coordinator", "Banquet Manager", "Catering Manager", "AV Technician", "Housekeeping Supervisor", "Security Coordinator"]
-  trigger: "Client inquiry for event booking (wedding, conference, corporate event)"
+  id: workflow_hospitality_event_booking
+  title: Hospitality Event Booking and Coordination Workflow
+  department: Event Services
+  complexity: complex
+  participants:
+  - Event Coordinator
+  - Banquet Manager
+  - Catering Manager
+  - AV Technician
+  - Housekeeping Supervisor
+  - Security Coordinator
+  trigger: Client inquiry for event booking (wedding, conference, corporate event)
   steps:
-    - step: 1
-      actor: "Event Coordinator"
-      action: "Initial consultation with client to understand event requirements"
-      tools: ["Event Booking System", "Client Questionnaire", "Calendar System"]
-      duration: "1 hour"
-      outputs: ["Event Requirements Document", "Preliminary Quote"]
-    - step: 2
-      actor: "Event Coordinator"
-      action: "Check venue availability and create event timeline"
-      tools: ["Venue Booking System", "Event Calendar", "Resource Scheduler"]
-      duration: "30 minutes"
-      outputs: ["Venue Confirmation", "Event Timeline", "Resource Requirements"]
-    - step: 3
-      actor: "Banquet Manager"
-      action: "Develop menu options and coordinate with catering team"
-      tools: ["Menu Planning Software", "Catering Database", "Dietary Requirements Tracker"]
-      duration: "2 hours"
-      outputs: ["Menu Proposal", "Catering Contract", "Beverage Selection"]
-    - step: 4
-      actor: "AV Technician"
-      action: "Assess AV requirements and prepare equipment setup plan"
-      tools: ["AV Inventory System", "Technical Specifications Database"]
-      duration: "1 hour"
-      outputs: ["AV Requirements Plan", "Equipment Setup Schedule"]
-    - step: 5
-      actor: "Housekeeping Supervisor"
-      action: "Plan room setup and staffing for event day"
-      tools: ["Room Setup Templates", "Staffing Scheduler", "Inventory Checklists"]
-      duration: "45 minutes"
-      outputs: ["Room Setup Plan", "Housekeeping Staffing Schedule"]
-    - step: 6
-      actor: "Security Coordinator"
-      action: "Assess security needs and coordinate with local authorities if required"
-      tools: ["Security Assessment Templates", "Emergency Contact Database"]
-      duration: "30 minutes"
-      outputs: ["Security Plan", "Emergency Procedures"]
-    - step: 7
-      actor: "Event Coordinator"
-      action: "Finalize contract, collect deposits, and send confirmation"
-      tools: ["Contract Management System", "Payment Processing", "Confirmation Templates"]
-      duration: "1 hour"
-      outputs: ["Signed Contract", "Deposit Receipt", "Client Confirmation Package"]
-  success_criteria: "Event executed flawlessly with client satisfaction score >4.5/5.0"
-  failure_modes: ["Venue double-booking", "Catering delays", "Equipment failures", "Staffing shortages", "Weather impacts"]
+  - step: 1
+    actor: Event Coordinator
+    action: Initial consultation with client to understand event requirements
+    tools:
+    - Event Booking System
+    - Client Questionnaire
+    - Calendar System
+    duration: 1 hour
+    outputs:
+    - Event Requirements Document
+    - Preliminary Quote
+  - step: 2
+    actor: Event Coordinator
+    action: Check venue availability and create event timeline
+    tools:
+    - Venue Booking System
+    - Event Calendar
+    - Resource Scheduler
+    duration: 30 minutes
+    outputs:
+    - Venue Confirmation
+    - Event Timeline
+    - Resource Requirements
+  - step: 3
+    actor: Banquet Manager
+    action: Develop menu options and coordinate with catering team
+    tools:
+    - Menu Planning Software
+    - Catering Database
+    - Dietary Requirements Tracker
+    duration: 2 hours
+    outputs:
+    - Menu Proposal
+    - Catering Contract
+    - Beverage Selection
+  - step: 4
+    actor: AV Technician
+    action: Assess AV requirements and prepare equipment setup plan
+    tools:
+    - AV Inventory System
+    - Technical Specifications Database
+    duration: 1 hour
+    outputs:
+    - AV Requirements Plan
+    - Equipment Setup Schedule
+  - step: 5
+    actor: Housekeeping Supervisor
+    action: Plan room setup and staffing for event day
+    tools:
+    - Room Setup Templates
+    - Staffing Scheduler
+    - Inventory Checklists
+    duration: 45 minutes
+    outputs:
+    - Room Setup Plan
+    - Housekeeping Staffing Schedule
+  - step: 6
+    actor: Security Coordinator
+    action: Assess security needs and coordinate with local authorities if required
+    tools:
+    - Security Assessment Templates
+    - Emergency Contact Database
+    duration: 30 minutes
+    outputs:
+    - Security Plan
+    - Emergency Procedures
+  - step: 7
+    actor: Event Coordinator
+    action: Finalize contract, collect deposits, and send confirmation
+    tools:
+    - Contract Management System
+    - Payment Processing
+    - Confirmation Templates
+    duration: 1 hour
+    outputs:
+    - Signed Contract
+    - Deposit Receipt
+    - Client Confirmation Package
+  success_criteria: Event executed flawlessly with client satisfaction score >4.5/5.0
+  failure_modes:
+  - Venue double-booking
+  - Catering delays
+  - Equipment failures
+  - Staffing shortages
+  - Weather impacts
   metrics:
-    - "Event planning completion: <7 days"
-    - "Client satisfaction: 4.6/5.0 average"
-    - "On-time execution rate: 98%"
+  - 'Event planning completion: <7 days'
+  - 'Client satisfaction: 4.6/5.0 average'
+  - 'On-time execution rate: 98%'

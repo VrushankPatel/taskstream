@@ -1,8 +1,8 @@
 ## Meeting Notes: Autonomous Vehicle Fleet Operations Review
 
-**Date:** September 28, 2025  
-**Attendees:** COO, Fleet Operations Director, Safety Officer, IT Director, Finance Controller, Insurance Representative  
-**Location:** Operations Center  
+**Date:** September 28, 2025
+**Attendees:** COO, Fleet Operations Director, Safety Officer, IT Director, Finance Controller, Insurance Representative
+**Location:** Operations Center
 
 ### Opening Remarks
 COO emphasized the strategic importance of successful AV fleet deployment for competitive advantage and operational efficiency.

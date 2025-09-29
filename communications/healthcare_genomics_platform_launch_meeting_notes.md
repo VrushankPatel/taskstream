@@ -1,8 +1,8 @@
 ## Meeting Notes: Healthcare Genomics Platform Launch
 
-**Date:** October 15, 2025  
-**Attendees:** Clinical Director (Dr. Smith), Bioinformatics Lead (Dr. Johnson), IT Integration Manager (Ms. Garcia), Ethics Committee Chair (Dr. Williams), Patient Care Coordinator (Ms. Brown)  
-**Location:** Conference Room A  
+**Date:** October 15, 2025
+**Attendees:** Clinical Director (Dr. Smith), Bioinformatics Lead (Dr. Johnson), IT Integration Manager (Ms. Garcia), Ethics Committee Chair (Dr. Williams), Patient Care Coordinator (Ms. Brown)
+**Location:** Conference Room A
 
 **Agenda:**
 1. Platform integration status

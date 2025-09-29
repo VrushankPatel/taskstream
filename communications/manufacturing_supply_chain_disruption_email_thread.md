@@ -1,10 +1,10 @@
 ## Email Thread: Manufacturing Supply Chain Disruption Response
 
-**From:** Robert Chen, VP Supply Chain  
-**To:** Manufacturing Leadership Team  
-**Subject:** Urgent: Critical Supplier Disruption - Immediate Action Required  
+**From:** Robert Chen, VP Supply Chain
+**To:** Manufacturing Leadership Team
+**Subject:** Urgent: Critical Supplier Disruption - Immediate Action Required
 
-**Date:** September 29, 2025 08:30 AM  
+**Date:** September 29, 2025 08:30 AM
 
 Team,
 
@@ -23,16 +23,16 @@ Immediate actions needed:
 
 Please respond with your team's assessment and recommendations by EOD today. We'll have an emergency meeting at 2 PM.
 
-Best,  
-Robert Chen  
-VP Supply Chain  
-robert.chen@manufacturing.com  
+Best,
+Robert Chen
+VP Supply Chain
+robert.chen@manufacturing.com
 
 ---
 
-**From:** Sarah Martinez, Director Procurement  
-**To:** Robert Chen, Manufacturing Leadership Team  
-**Sent:** September 29, 2025 09:15 AM  
+**From:** Sarah Martinez, Director Procurement
+**To:** Robert Chen, Manufacturing Leadership Team
+**Sent:** September 29, 2025 09:15 AM
 
 Robert,
 
@@ -46,13 +46,13 @@ Recommendations:
 - Customer notification with revised delivery dates
 - Engineering review for component substitution options
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Michael Wong, Plant Manager  
-**To:** Robert Chen, Sarah Martinez, Manufacturing Leadership Team  
-**Sent:** September 29, 2025 10:45 AM  
+**From:** Michael Wong, Plant Manager
+**To:** Robert Chen, Sarah Martinez, Manufacturing Leadership Team
+**Sent:** September 29, 2025 10:45 AM
 
 Adding to Sarah's assessment - we've identified potential production bottlenecks if this extends beyond 6 weeks. Our line efficiency could drop 35% without these components.
 
@@ -60,13 +60,13 @@ Engineering is reviewing alternative component specifications that could work wi
 
 We should also consider temporary production shifts to less affected product lines.
 
-Michael  
+Michael
 
 ---
 
-**From:** Jennifer Liu, Customer Service Director  
-**To:** Robert Chen, Manufacturing Leadership Team  
-**Sent:** September 29, 2025 11:30 AM  
+**From:** Jennifer Liu, Customer Service Director
+**To:** Robert Chen, Manufacturing Leadership Team
+**Sent:** September 29, 2025 11:30 AM
 
 Customer impact assessment complete. This affects 12 major accounts with contracts totaling $8M in Q4 revenue.
 
@@ -76,13 +76,13 @@ Proposed communication plan:
 - Daily status updates via dedicated portal
 - Executive calls with key accounts
 
-Jennifer  
+Jennifer
 
 ---
 
-**From:** Robert Chen, VP Supply Chain  
-**To:** Manufacturing Leadership Team  
-**Sent:** September 29, 2025 14:00 PM  
+**From:** Robert Chen, VP Supply Chain
+**To:** Manufacturing Leadership Team
+**Sent:** September 29, 2025 14:00 PM
 
 Thank you all for the quick assessments. Based on the input, here's our action plan:
 
@@ -116,9 +116,9 @@ Lisa
 
 ---
 
-**From:** David Park, CEO  
-**To:** Robert Chen, Manufacturing Leadership Team  
-**Sent:** September 29, 2025 14:30 PM  
+**From:** David Park, CEO
+**To:** Robert Chen, Manufacturing Leadership Team
+**Sent:** September 29, 2025 14:30 PM
 
 Robert and team,
 

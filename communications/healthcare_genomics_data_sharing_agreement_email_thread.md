@@ -1,9 +1,9 @@
 ## Email Thread: Healthcare Genomics Data Sharing Agreement
 
-**From:** Dr. Sarah Chen, Chief Genomics Officer  
-**To:** Dr. Michael Rodriguez, Director of Research Collaborations  
-**CC:** Legal Counsel, Data Privacy Officer  
-**Subject:** Draft Genomics Data Sharing Agreement with University Research Partners  
+**From:** Dr. Sarah Chen, Chief Genomics Officer
+**To:** Dr. Michael Rodriguez, Director of Research Collaborations
+**CC:** Legal Counsel, Data Privacy Officer
+**Subject:** Draft Genomics Data Sharing Agreement with University Research Partners
 
 Team,
 
@@ -17,15 +17,15 @@ Following our discussion last week about expanding our genomic research collabor
 
 Please review the attached draft and let me know your feedback by COB Friday. We need to have this finalized before their IRB approval meeting next Tuesday.
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Dr. Michael Rodriguez, Director of Research Collaborations  
-**To:** Dr. Sarah Chen, Chief Genomics Officer  
-**CC:** Legal Counsel, Data Privacy Officer  
-**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners  
+**From:** Dr. Michael Rodriguez, Director of Research Collaborations
+**To:** Dr. Sarah Chen, Chief Genomics Officer
+**CC:** Legal Counsel, Data Privacy Officer
+**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners
 
 Sarah,
 
@@ -41,10 +41,10 @@ Michael
 
 ---
 
-**From:** Legal Counsel  
-**To:** Dr. Sarah Chen, Chief Genomics Officer; Dr. Michael Rodriguez, Director of Research Collaborations  
-**CC:** Data Privacy Officer  
-**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners  
+**From:** Legal Counsel
+**To:** Dr. Sarah Chen, Chief Genomics Officer; Dr. Michael Rodriguez, Director of Research Collaborations
+**CC:** Data Privacy Officer
+**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners
 
 I've reviewed the draft agreement and support Michael's suggested changes. Additionally, I recommend:
 
@@ -54,15 +54,15 @@ I've reviewed the draft agreement and support Michael's suggested changes. Addit
 
 The current draft is a good foundation but needs these legal safeguards. Let me know when you'd like to discuss the redline version.
 
-Regards,  
-Jennifer Walsh  
+Regards,
+Jennifer Walsh
 Senior Counsel, Life Sciences
 
 ---
 
-**From:** Data Privacy Officer  
-**To:** Dr. Sarah Chen, Chief Genomics Officer; Dr. Michael Rodriguez, Director of Research Collaborations; Legal Counsel  
-**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners  
+**From:** Data Privacy Officer
+**To:** Dr. Sarah Chen, Chief Genomics Officer; Dr. Michael Rodriguez, Director of Research Collaborations; Legal Counsel
+**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners
 
 Adding to Jennifer's points, we need to ensure:
 
@@ -73,14 +73,14 @@ Adding to Jennifer's points, we need to ensure:
 
 The University partners have good privacy practices, but we need to maintain our high standards for genomic data.
 
-Emma Thompson  
+Emma Thompson
 Chief Privacy Officer
 
 ---
 
-**From:** Dr. Sarah Chen, Chief Genomics Officer  
-**To:** Dr. Michael Rodriguez, Director of Research Collaborations; Legal Counsel; Data Privacy Officer  
-**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners  
+**From:** Dr. Sarah Chen, Chief Genomics Officer
+**To:** Dr. Michael Rodriguez, Director of Research Collaborations; Legal Counsel; Data Privacy Officer
+**Subject:** Re: Draft Genomics Data Sharing Agreement with University Research Partners
 
 Thanks everyone for the thorough review. I've incorporated all the suggested changes into the revised draft attached. Key updates include:
 

@@ -1,9 +1,9 @@
 ## Meeting Notes: Agriculture Climate Adaptation Strategy
 
-**Date:** September 29, 2025  
-**Attendees:** CEO, Chief Agronomist, Sustainability Director, Farm Operations Manager, Finance Director, External Climate Consultant  
-**Location:** Main Conference Room  
-**Facilitator:** CEO  
+**Date:** September 29, 2025
+**Attendees:** CEO, Chief Agronomist, Sustainability Director, Farm Operations Manager, Finance Director, External Climate Consultant
+**Location:** Main Conference Room
+**Facilitator:** CEO
 
 ### Agenda Items
 

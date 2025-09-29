@@ -1,47 +1,84 @@
 workflow:
-  id: "workflow_001"
-  title: "Quantum Computing Enterprise Algorithm Development"
-  department: "R&D"
-  complexity: "high"
-  participants: ["Quantum Engineer", "Algorithm Specialist", "Enterprise Architect", "Security Lead", "Business Analyst"]
-  trigger: "Business problem requires quantum advantage"
+  id: workflow_001
+  title: Quantum Computing Enterprise Algorithm Development
+  department: R&D
+  complexity: high
+  participants:
+  - Quantum Engineer
+  - Algorithm Specialist
+  - Enterprise Architect
+  - Security Lead
+  - Business Analyst
+  trigger: Business problem requires quantum advantage
   steps:
-    - step: 1
-      actor: "Business Analyst"
-      action: "Identify quantum-solvable business problem and gather requirements"
-      tools: ["Business case analysis", "Technical specifications"]
-      duration: "2 weeks"
-      outputs: ["Problem statement", "Requirements document"]
-    - step: 2
-      actor: "Algorithm Specialist"
-      action: "Design quantum algorithm and classical-quantum hybrid approach"
-      tools: ["Qiskit", "Cirq", "Algorithm libraries"]
-      duration: "4 weeks"
-      outputs: ["Algorithm design", "Hybrid architecture plan"]
-      decision_points: ["Feasibility assessment", "Performance benchmarks"]
-    - step: 3
-      actor: "Quantum Engineer"
-      action: "Implement and test quantum algorithm on simulator"
-      tools: ["Quantum simulators", "Testing frameworks"]
-      duration: "3 weeks"
-      outputs: ["Simulated results", "Performance metrics"]
-    - step: 4
-      actor: "Enterprise Architect"
-      action: "Integrate quantum solution with existing enterprise systems"
-      tools: ["API frameworks", "Cloud integration tools"]
-      duration: "2 weeks"
-      outputs: ["Integration plan", "API specifications"]
-    - step: 5
-      actor: "Security Lead"
-      action: "Conduct security assessment and implement quantum-resistant encryption"
-      tools: ["Security audit tools", "Cryptographic libraries"]
-      duration: "1 week"
-      outputs: ["Security assessment report", "Encryption implementation"]
-    - step: 6
-      actor: "Algorithm Specialist"
-      action: "Optimize algorithm for real quantum hardware constraints"
-      tools: ["Hardware simulators", "Optimization tools"]
-      duration: "2 weeks"
-      outputs: ["Optimized algorithm", "Hardware compatibility report"]
-  success_criteria: "Quantum algorithm provides measurable business advantage with acceptable risk"
-  failure_modes: ["Insufficient quantum advantage", "Hardware limitations", "Integration complexity", "Security vulnerabilities"]
+  - step: 1
+    actor: Business Analyst
+    action: Identify quantum-solvable business problem and gather requirements
+    tools:
+    - Business case analysis
+    - Technical specifications
+    duration: 2 weeks
+    outputs:
+    - Problem statement
+    - Requirements document
+  - step: 2
+    actor: Algorithm Specialist
+    action: Design quantum algorithm and classical-quantum hybrid approach
+    tools:
+    - Qiskit
+    - Cirq
+    - Algorithm libraries
+    duration: 4 weeks
+    outputs:
+    - Algorithm design
+    - Hybrid architecture plan
+    decision_points:
+    - Feasibility assessment
+    - Performance benchmarks
+  - step: 3
+    actor: Quantum Engineer
+    action: Implement and test quantum algorithm on simulator
+    tools:
+    - Quantum simulators
+    - Testing frameworks
+    duration: 3 weeks
+    outputs:
+    - Simulated results
+    - Performance metrics
+  - step: 4
+    actor: Enterprise Architect
+    action: Integrate quantum solution with existing enterprise systems
+    tools:
+    - API frameworks
+    - Cloud integration tools
+    duration: 2 weeks
+    outputs:
+    - Integration plan
+    - API specifications
+  - step: 5
+    actor: Security Lead
+    action: Conduct security assessment and implement quantum-resistant encryption
+    tools:
+    - Security audit tools
+    - Cryptographic libraries
+    duration: 1 week
+    outputs:
+    - Security assessment report
+    - Encryption implementation
+  - step: 6
+    actor: Algorithm Specialist
+    action: Optimize algorithm for real quantum hardware constraints
+    tools:
+    - Hardware simulators
+    - Optimization tools
+    duration: 2 weeks
+    outputs:
+    - Optimized algorithm
+    - Hardware compatibility report
+  success_criteria: Quantum algorithm provides measurable business advantage with
+    acceptable risk
+  failure_modes:
+  - Insufficient quantum advantage
+  - Hardware limitations
+  - Integration complexity
+  - Security vulnerabilities

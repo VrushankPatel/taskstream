@@ -1,41 +1,75 @@
 workflow:
-  id: "workflow_057_003"
-  title: "Autonomous Systems Urban Integration Workflow"
-  department: "Operations & Deployment"
-  complexity: "high"
-  participants: ["Urban Planning Specialists", "Safety Engineers", "Local Government Liaisons", "Technical Integration Teams", "Community Relations"]
-  trigger: "Approval to deploy autonomous systems in urban environment requiring infrastructure and community integration"
+  id: workflow_057_003
+  title: Autonomous Systems Urban Integration Workflow
+  department: Operations & Deployment
+  complexity: high
+  participants:
+  - Urban Planning Specialists
+  - Safety Engineers
+  - Local Government Liaisons
+  - Technical Integration Teams
+  - Community Relations
+  trigger: Approval to deploy autonomous systems in urban environment requiring infrastructure
+    and community integration
   steps:
-    - step: 1
-      actor: "Urban Planning Specialists"
-      action: "Assess urban infrastructure compatibility and integration requirements"
-      tools: ["Urban planning software", "Infrastructure mapping tools"]
-      duration: "3 weeks"
-      outputs: ["Infrastructure assessment", "Integration requirements"]
-    - step: 2
-      actor: "Safety Engineers"
-      action: "Conduct urban safety risk assessment and mitigation planning"
-      tools: ["Risk assessment frameworks", "Safety simulation tools"]
-      duration: "4 weeks"
-      outputs: ["Safety risk assessment", "Mitigation strategies"]
-      decision_points: ["Risk tolerance levels", "Safety thresholds"]
-    - step: 3
-      actor: "Local Government Liaisons"
-      action: "Coordinate with municipal authorities for permits and infrastructure access"
-      tools: ["Permit management systems", "Government communication platforms"]
-      duration: "6 weeks"
-      outputs: ["Permit approvals", "Infrastructure access agreements"]
-    - step: 4
-      actor: "Technical Integration Teams"
-      action: "Implement system integration with urban infrastructure (traffic signals, sensors)"
-      tools: ["Integration platforms", "IoT connectivity tools"]
-      duration: "8 weeks"
-      outputs: ["Integrated systems", "Connectivity protocols"]
-    - step: 5
-      actor: "Community Relations"
-      action: "Develop and execute community education and engagement programs"
-      tools: ["Community outreach platforms", "Education materials"]
-      duration: "4 weeks"
-      outputs: ["Community engagement plan", "Education materials"]
-  success_criteria: "Autonomous systems successfully integrated into urban environment with community acceptance and operational safety"
-  failure_modes: ["Infrastructure incompatibility", "Community resistance", "Regulatory delays", "Technical integration failures"]
+  - step: 1
+    actor: Urban Planning Specialists
+    action: Assess urban infrastructure compatibility and integration requirements
+    tools:
+    - Urban planning software
+    - Infrastructure mapping tools
+    duration: 3 weeks
+    outputs:
+    - Infrastructure assessment
+    - Integration requirements
+  - step: 2
+    actor: Safety Engineers
+    action: Conduct urban safety risk assessment and mitigation planning
+    tools:
+    - Risk assessment frameworks
+    - Safety simulation tools
+    duration: 4 weeks
+    outputs:
+    - Safety risk assessment
+    - Mitigation strategies
+    decision_points:
+    - Risk tolerance levels
+    - Safety thresholds
+  - step: 3
+    actor: Local Government Liaisons
+    action: Coordinate with municipal authorities for permits and infrastructure access
+    tools:
+    - Permit management systems
+    - Government communication platforms
+    duration: 6 weeks
+    outputs:
+    - Permit approvals
+    - Infrastructure access agreements
+  - step: 4
+    actor: Technical Integration Teams
+    action: Implement system integration with urban infrastructure (traffic signals,
+      sensors)
+    tools:
+    - Integration platforms
+    - IoT connectivity tools
+    duration: 8 weeks
+    outputs:
+    - Integrated systems
+    - Connectivity protocols
+  - step: 5
+    actor: Community Relations
+    action: Develop and execute community education and engagement programs
+    tools:
+    - Community outreach platforms
+    - Education materials
+    duration: 4 weeks
+    outputs:
+    - Community engagement plan
+    - Education materials
+  success_criteria: Autonomous systems successfully integrated into urban environment
+    with community acceptance and operational safety
+  failure_modes:
+  - Infrastructure incompatibility
+  - Community resistance
+  - Regulatory delays
+  - Technical integration failures

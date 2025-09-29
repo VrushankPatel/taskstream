@@ -1,14 +1,14 @@
 ## Meeting Notes: Customer Data Platform Integration Kickoff
 
-**Date:** October 20, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Virtual Meeting  
-**Attendees:**  
-- Emma Thompson, Chief Marketing Officer  
-- David Park, Data Architect  
-- Rachel Green, Privacy Officer  
-- Carlos Rodriguez, Marketing Technologist  
-- External: Jamie Wilson, CDP Vendor Solutions Engineer  
+**Date:** October 20, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Virtual Meeting
+**Attendees:**
+- Emma Thompson, Chief Marketing Officer
+- David Park, Data Architect
+- Rachel Green, Privacy Officer
+- Carlos Rodriguez, Marketing Technologist
+- External: Jamie Wilson, CDP Vendor Solutions Engineer
 
 **Objective:** Launch customer data platform integration project to enable unified customer experiences across all channels.
 

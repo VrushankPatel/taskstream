@@ -1,8 +1,8 @@
 ## Email Thread: Manufacturing Plant Outage Crisis Response
 
-**From:** Plant Manager  
-**To:** Executive Leadership, Operations Team, Customer Service  
-**Subject:** URGENT: Plant Outage - Production Impact and Recovery Plan  
+**From:** Plant Manager
+**To:** Executive Leadership, Operations Team, Customer Service
+**Subject:** URGENT: Plant Outage - Production Impact and Recovery Plan
 
 Team,
 
@@ -27,9 +27,9 @@ I need to inform you of a critical situation at our primary manufacturing facili
 
 We are working around the clock to minimize impact. I'll provide hourly updates.
 
-**From:** CEO  
-**To:** Plant Manager, Executive Leadership, Customer Service, Key Customers  
-**Subject:** Re: URGENT: Plant Outage - Production Impact and Recovery Plan  
+**From:** CEO
+**To:** Plant Manager, Executive Leadership, Customer Service, Key Customers
+**Subject:** Re: URGENT: Plant Outage - Production Impact and Recovery Plan
 
 Thank you for the swift response and clear communication. This is a challenging situation, but our priority is safety and minimal customer impact.
 
@@ -50,9 +50,9 @@ Thank you for the swift response and clear communication. This is a challenging 
 
 Let's focus on rapid recovery and maintaining our reputation for reliability.
 
-**From:** Customer Service Director  
-**To:** CEO, Plant Manager, Key Account Managers  
-**Subject:** Re: URGENT: Plant Outage - Production Impact and Recovery Plan  
+**From:** Customer Service Director
+**To:** CEO, Plant Manager, Key Account Managers
+**Subject:** Re: URGENT: Plant Outage - Production Impact and Recovery Plan
 
 Customer communications initiated. We've contacted 85% of affected accounts with detailed impact assessments and recovery commitments.
 
@@ -66,9 +66,9 @@ Customer communications initiated. We've contacted 85% of affected accounts with
 - Prepare contingency shipping arrangements
 - Develop customer compensation packages for delays >5 days
 
-**From:** Plant Manager  
-**To:** Executive Leadership, Operations Team  
-**Subject:** UPDATE: Plant Outage Recovery Progress - 12 Hours In  
+**From:** Plant Manager
+**To:** Executive Leadership, Operations Team
+**Subject:** UPDATE: Plant Outage Recovery Progress - 12 Hours In
 
 Good progress on recovery efforts.
 

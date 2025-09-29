@@ -1,105 +1,106 @@
 name: Utilities Regulatory Compliance Workflow
-description: Process for ensuring regulatory compliance in utilities operations, including reporting and audits
+description: Process for ensuring regulatory compliance in utilities operations, including
+  reporting and audits
 version: 1.0
 industry: Utilities
 region: Global
 complexity: Medium
 actors:
-  - Compliance Officer
-  - Regulatory Affairs Manager
-  - Legal Counsel
-  - Operations Manager
-  - Audit Coordinator
+- Compliance Officer
+- Regulatory Affairs Manager
+- Legal Counsel
+- Operations Manager
+- Audit Coordinator
 steps:
-  - id: regulatory_monitoring
-    name: Regulatory Monitoring
-    description: Monitor changes in regulatory requirements
-    actor: Regulatory Affairs Manager
-    inputs:
-      - Regulatory updates
-      - Industry publications
-      - Government notifications
-    outputs:
-      - Regulatory change log
-      - Impact assessments
-    duration: Ongoing
-    tools:
-      - Regulatory tracking software
-      - Legal research databases
-  - id: compliance_assessment
-    name: Compliance Assessment
-    description: Assess current operations against regulatory requirements
-    actor: Compliance Officer
-    inputs:
-      - Regulatory standards
-      - Operational procedures
-      - Audit findings
-    outputs:
-      - Compliance gap analysis
-      - Remediation plans
-    duration: Quarterly
-  - id: documentation_preparation
-    name: Documentation Preparation
-    description: Prepare required regulatory reports and filings
-    actor: Compliance Officer
-    inputs:
-      - Reporting templates
-      - Operational data
-      - Compliance records
-    outputs:
-      - Regulatory reports
-      - Filing documentation
-    duration: Monthly
-  - id: internal_audits
-    name: Internal Audits
-    description: Conduct internal compliance audits
-    actor: Audit Coordinator
-    inputs:
-      - Audit checklists
-      - Process documentation
-      - Performance data
-    outputs:
-      - Audit reports
-      - Non-compliance findings
-      - Corrective action plans
-    duration: Quarterly
-  - id: regulatory_filings
-    name: Regulatory Filings and Submissions
-    description: Submit required documents to regulatory authorities
-    actor: Regulatory Affairs Manager
-    inputs:
-      - Filing requirements
-      - Submission deadlines
-      - Approval processes
-    outputs:
-      - Filing confirmations
-      - Approval notifications
-    duration: As required
-  - id: corrective_actions
-    name: Corrective Actions and Follow-up
-    description: Implement and monitor corrective actions for non-compliance
-    actor: Operations Manager
-    inputs:
-      - Audit findings
-      - Corrective action plans
-      - Progress tracking
-    outputs:
-      - Implementation reports
-      - Effectiveness assessments
-    duration: Ongoing
+- id: regulatory_monitoring
+  name: Regulatory Monitoring
+  description: Monitor changes in regulatory requirements
+  actor: Regulatory Affairs Manager
+  inputs:
+  - Regulatory updates
+  - Industry publications
+  - Government notifications
+  outputs:
+  - Regulatory change log
+  - Impact assessments
+  duration: Ongoing
+  tools:
+  - Regulatory tracking software
+  - Legal research databases
+- id: compliance_assessment
+  name: Compliance Assessment
+  description: Assess current operations against regulatory requirements
+  actor: Compliance Officer
+  inputs:
+  - Regulatory standards
+  - Operational procedures
+  - Audit findings
+  outputs:
+  - Compliance gap analysis
+  - Remediation plans
+  duration: Quarterly
+- id: documentation_preparation
+  name: Documentation Preparation
+  description: Prepare required regulatory reports and filings
+  actor: Compliance Officer
+  inputs:
+  - Reporting templates
+  - Operational data
+  - Compliance records
+  outputs:
+  - Regulatory reports
+  - Filing documentation
+  duration: Monthly
+- id: internal_audits
+  name: Internal Audits
+  description: Conduct internal compliance audits
+  actor: Audit Coordinator
+  inputs:
+  - Audit checklists
+  - Process documentation
+  - Performance data
+  outputs:
+  - Audit reports
+  - Non-compliance findings
+  - Corrective action plans
+  duration: Quarterly
+- id: regulatory_filings
+  name: Regulatory Filings and Submissions
+  description: Submit required documents to regulatory authorities
+  actor: Regulatory Affairs Manager
+  inputs:
+  - Filing requirements
+  - Submission deadlines
+  - Approval processes
+  outputs:
+  - Filing confirmations
+  - Approval notifications
+  duration: As required
+- id: corrective_actions
+  name: Corrective Actions and Follow-up
+  description: Implement and monitor corrective actions for non-compliance
+  actor: Operations Manager
+  inputs:
+  - Audit findings
+  - Corrective action plans
+  - Progress tracking
+  outputs:
+  - Implementation reports
+  - Effectiveness assessments
+  duration: Ongoing
 success_criteria:
-  - 100% regulatory reporting compliance
-  - Zero major audit findings
-  - Timely corrective actions
-  - Regulatory approval for all filings
+- 100% regulatory reporting compliance
+- Zero major audit findings
+- Timely corrective actions
+- Regulatory approval for all filings
 failure_modes:
-  - Missed reporting deadlines
-  - Regulatory penalties
-  - Operational disruptions
-  - Reputational damage
+- Missed reporting deadlines
+- Regulatory penalties
+- Operational disruptions
+- Reputational damage
 metrics:
-  - Regulatory compliance rate
-  - Audit finding resolution time
-  - Reporting accuracy
-  - Penalty incidence
-  - Compliance training completion
+- Regulatory compliance rate
+- Audit finding resolution time
+- Reporting accuracy
+- Penalty incidence
+- Compliance training completion

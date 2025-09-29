@@ -1,47 +1,87 @@
 workflow:
-  id: "workflow_autonomous_international_deployment"
-  title: "Autonomous Systems International Deployment Workflow"
-  department: "Autonomous Systems"
-  complexity: "high"
-  participants: ["Chief Operating Officer", "Autonomous Systems Director", "International Operations Lead", "Regulatory Affairs", "Local Partners"]
-  trigger: "Strategic decision to deploy autonomous systems in international markets"
+  id: workflow_autonomous_international_deployment
+  title: Autonomous Systems International Deployment Workflow
+  department: Autonomous Systems
+  complexity: high
+  participants:
+  - Chief Operating Officer
+  - Autonomous Systems Director
+  - International Operations Lead
+  - Regulatory Affairs
+  - Local Partners
+  trigger: Strategic decision to deploy autonomous systems in international markets
   steps:
-    - step: 1
-      actor: "Chief Operating Officer"
-      action: "Evaluate international market opportunities and deployment strategy"
-      tools: ["Market Analysis Tools", "Competitive Intelligence Platforms"]
-      duration: "6 weeks"
-      outputs: ["Market Opportunity Assessment", "Deployment Strategy Document"]
-    - step: 2
-      actor: "Autonomous Systems Director"
-      action: "Assess technical feasibility and localization requirements"
-      tools: ["Technical Assessment Frameworks", "Localization Tools"]
-      duration: "4 weeks"
-      outputs: ["Technical Feasibility Report", "Localization Requirements"]
-      decision_points: ["Technology Adaptation Needs", "Infrastructure Requirements"]
-    - step: 3
-      actor: "Regulatory Affairs"
-      action: "Navigate international regulatory frameworks and obtain approvals"
-      tools: ["Regulatory Databases", "Legal Research Tools", "Compliance Management Systems"]
-      duration: "12 weeks"
-      outputs: ["Regulatory Approval Documents", "Compliance Framework"]
-    - step: 4
-      actor: "International Operations Lead"
-      action: "Establish local partnerships and operational infrastructure"
-      tools: ["Partnership Management Tools", "Contract Templates", "Project Management Software"]
-      duration: "8 weeks"
-      outputs: ["Partnership Agreements", "Infrastructure Setup Plan"]
-    - step: 5
-      actor: "Local Partners"
-      action: "Conduct local testing and pilot deployments"
-      tools: ["Testing Frameworks", "Monitoring Systems", "Safety Protocols"]
-      duration: "10 weeks"
-      outputs: ["Pilot Test Results", "Safety Validation Reports"]
-    - step: 6
-      actor: "Autonomous Systems Director"
-      action: "Scale deployment and establish monitoring systems"
-      tools: ["Deployment Platforms", "Analytics Dashboards", "Incident Response Systems"]
-      duration: "8 weeks"
-      outputs: ["Full Deployment Report", "Monitoring and Maintenance Framework"]
-  success_criteria: "Successful international deployment of autonomous systems with established safety and operational standards"
-  failure_modes: ["Regulatory approval delays", "Technical integration challenges", "Local partnership issues", "Safety concerns"]
+  - step: 1
+    actor: Chief Operating Officer
+    action: Evaluate international market opportunities and deployment strategy
+    tools:
+    - Market Analysis Tools
+    - Competitive Intelligence Platforms
+    duration: 6 weeks
+    outputs:
+    - Market Opportunity Assessment
+    - Deployment Strategy Document
+  - step: 2
+    actor: Autonomous Systems Director
+    action: Assess technical feasibility and localization requirements
+    tools:
+    - Technical Assessment Frameworks
+    - Localization Tools
+    duration: 4 weeks
+    outputs:
+    - Technical Feasibility Report
+    - Localization Requirements
+    decision_points:
+    - Technology Adaptation Needs
+    - Infrastructure Requirements
+  - step: 3
+    actor: Regulatory Affairs
+    action: Navigate international regulatory frameworks and obtain approvals
+    tools:
+    - Regulatory Databases
+    - Legal Research Tools
+    - Compliance Management Systems
+    duration: 12 weeks
+    outputs:
+    - Regulatory Approval Documents
+    - Compliance Framework
+  - step: 4
+    actor: International Operations Lead
+    action: Establish local partnerships and operational infrastructure
+    tools:
+    - Partnership Management Tools
+    - Contract Templates
+    - Project Management Software
+    duration: 8 weeks
+    outputs:
+    - Partnership Agreements
+    - Infrastructure Setup Plan
+  - step: 5
+    actor: Local Partners
+    action: Conduct local testing and pilot deployments
+    tools:
+    - Testing Frameworks
+    - Monitoring Systems
+    - Safety Protocols
+    duration: 10 weeks
+    outputs:
+    - Pilot Test Results
+    - Safety Validation Reports
+  - step: 6
+    actor: Autonomous Systems Director
+    action: Scale deployment and establish monitoring systems
+    tools:
+    - Deployment Platforms
+    - Analytics Dashboards
+    - Incident Response Systems
+    duration: 8 weeks
+    outputs:
+    - Full Deployment Report
+    - Monitoring and Maintenance Framework
+  success_criteria: Successful international deployment of autonomous systems with
+    established safety and operational standards
+  failure_modes:
+  - Regulatory approval delays
+  - Technical integration challenges
+  - Local partnership issues
+  - Safety concerns

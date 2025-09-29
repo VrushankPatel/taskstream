@@ -1,10 +1,10 @@
 # Autonomous Systems Urban Deployment Launch Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Innovation Lab, Downtown Campus  
-**Attendees:** CEO, CTO, Safety Officer, Regulatory Compliance Manager, Community Relations Manager, Urban Planning Coordinator, Technical Lead  
-**Facilitator:** VP of Autonomous Systems  
+**Date:** September 28, 2025
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Innovation Lab, Downtown Campus
+**Attendees:** CEO, CTO, Safety Officer, Regulatory Compliance Manager, Community Relations Manager, Urban Planning Coordinator, Technical Lead
+**Facilitator:** VP of Autonomous Systems
 
 ## Meeting Objective
 

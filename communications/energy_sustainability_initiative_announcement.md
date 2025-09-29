@@ -1,8 +1,8 @@
 ## Announcement: Energy Company Sustainability Initiative Launch
 
-**From:** CEO  
-**To:** All Employees  
-**Subject:** Launch of Our $1B Sustainability Transformation Initiative  
+**From:** CEO
+**To:** All Employees
+**Subject:** Launch of Our $1B Sustainability Transformation Initiative
 
 Team,
 
@@ -31,14 +31,14 @@ This is not just about compliance—it's about leading the energy transition and
 
 Together, we will power a cleaner tomorrow.
 
-Best,  
+Best,
 CEO
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** All Employees  
-**Subject:** Re: Launch of Our $1B Sustainability Transformation Initiative  
+**From:** Chief Sustainability Officer
+**To:** All Employees
+**Subject:** Re: Launch of Our $1B Sustainability Transformation Initiative
 
 Thank you for the inspiring announcement. The Sustainability team has developed detailed implementation plans that I'll be sharing in the upcoming town halls.
 
@@ -49,5 +49,5 @@ Key points to note:
 
 We're committed to transparency—progress reports will be shared publicly.
 
-Regards,  
+Regards,
 Chief Sustainability Officer

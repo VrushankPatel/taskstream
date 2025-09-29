@@ -1,46 +1,81 @@
 workflow:
-  id: "workflow_hospitality_guest_experience_personalization"
-  title: "Hospitality Guest Experience Personalization at Scale"
-  department: "Guest Experience & Technology"
-  complexity: "medium"
-  participants: ["Guest Experience Director", "IT Manager", "Marketing Manager", "Operations Manager", "Data Analyst"]
-  trigger: "Executive directive to enhance guest personalization capabilities"
+  id: workflow_hospitality_guest_experience_personalization
+  title: Hospitality Guest Experience Personalization at Scale
+  department: Guest Experience & Technology
+  complexity: medium
+  participants:
+  - Guest Experience Director
+  - IT Manager
+  - Marketing Manager
+  - Operations Manager
+  - Data Analyst
+  trigger: Executive directive to enhance guest personalization capabilities
   steps:
-    - step: 1
-      actor: "Guest Experience Director"
-      action: "Analyze guest data sources and personalization opportunities"
-      tools: ["CRM systems", "Guest feedback platforms", "Data analysis tools"]
-      duration: "2 weeks"
-      outputs: ["Guest data inventory", "Personalization opportunity assessment"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Develop guest segmentation and preference prediction models"
-      tools: ["Machine learning platforms", "Customer analytics software"]
-      duration: "4 weeks"
-      outputs: ["Guest segmentation model", "Preference prediction algorithms"]
-    - step: 3
-      actor: "IT Manager"
-      action: "Integrate personalization systems with property management platforms"
-      tools: ["API integration tools", "Property management systems"]
-      duration: "3 weeks"
-      outputs: ["System integration specifications", "Data flow architecture"]
-    - step: 4
-      actor: "Marketing Manager"
-      action: "Design personalized marketing campaigns and communication flows"
-      tools: ["Marketing automation platforms", "Personalization engines"]
-      duration: "3 weeks"
-      outputs: ["Personalized campaign templates", "Communication automation rules"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Implement operational personalization (room setup, dining preferences, amenities)"
-      tools: ["Staff training platforms", "Operational workflow systems"]
-      duration: "2 weeks"
-      outputs: ["Operational personalization protocols", "Staff training materials"]
-    - step: 6
-      actor: "Guest Experience Director"
-      action: "Monitor personalization performance and optimize based on feedback"
-      tools: ["Performance analytics dashboards", "Guest feedback systems"]
-      duration: "Ongoing"
-      outputs: ["Personalization performance reports", "Optimization recommendations"]
-  success_criteria: "25% increase in guest satisfaction scores and 20% improvement in repeat visit rates"
-  failure_modes: ["Data privacy concerns", "System integration challenges", "Staff adoption resistance"]
+  - step: 1
+    actor: Guest Experience Director
+    action: Analyze guest data sources and personalization opportunities
+    tools:
+    - CRM systems
+    - Guest feedback platforms
+    - Data analysis tools
+    duration: 2 weeks
+    outputs:
+    - Guest data inventory
+    - Personalization opportunity assessment
+  - step: 2
+    actor: Data Analyst
+    action: Develop guest segmentation and preference prediction models
+    tools:
+    - Machine learning platforms
+    - Customer analytics software
+    duration: 4 weeks
+    outputs:
+    - Guest segmentation model
+    - Preference prediction algorithms
+  - step: 3
+    actor: IT Manager
+    action: Integrate personalization systems with property management platforms
+    tools:
+    - API integration tools
+    - Property management systems
+    duration: 3 weeks
+    outputs:
+    - System integration specifications
+    - Data flow architecture
+  - step: 4
+    actor: Marketing Manager
+    action: Design personalized marketing campaigns and communication flows
+    tools:
+    - Marketing automation platforms
+    - Personalization engines
+    duration: 3 weeks
+    outputs:
+    - Personalized campaign templates
+    - Communication automation rules
+  - step: 5
+    actor: Operations Manager
+    action: Implement operational personalization (room setup, dining preferences,
+      amenities)
+    tools:
+    - Staff training platforms
+    - Operational workflow systems
+    duration: 2 weeks
+    outputs:
+    - Operational personalization protocols
+    - Staff training materials
+  - step: 6
+    actor: Guest Experience Director
+    action: Monitor personalization performance and optimize based on feedback
+    tools:
+    - Performance analytics dashboards
+    - Guest feedback systems
+    duration: Ongoing
+    outputs:
+    - Personalization performance reports
+    - Optimization recommendations
+  success_criteria: 25% increase in guest satisfaction scores and 20% improvement
+    in repeat visit rates
+  failure_modes:
+  - Data privacy concerns
+  - System integration challenges
+  - Staff adoption resistance

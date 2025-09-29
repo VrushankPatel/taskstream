@@ -3,8 +3,16 @@
   "context": "Healthcare system implementing population-level genomic screening for preventive care and personalized medicine",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Board Medical Committee"],
-    "influencers": ["Genetics Department", "Primary Care Physicians", "Patient Advocacy Groups"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Board Medical Committee"
+    ],
+    "influencers": [
+      "Genetics Department",
+      "Primary Care Physicians",
+      "Patient Advocacy Groups"
+    ]
   },
   "request": {
     "amount": "$35 million",
@@ -16,31 +24,57 @@
     {
       "stage": "clinical_evaluation",
       "duration": "10 weeks",
-      "activities": ["Clinical utility assessment", "Disease prevention modeling", "Physician adoption analysis"],
+      "activities": [
+        "Clinical utility assessment",
+        "Disease prevention modeling",
+        "Physician adoption analysis"
+      ],
       "outcome": "Strong clinical evidence for preventive screening in high-risk populations"
     },
     {
       "stage": "ethical_legal_review",
       "duration": "6 weeks",
-      "activities": ["Privacy framework development", "Consent process design", "Regulatory compliance assessment"],
+      "activities": [
+        "Privacy framework development",
+        "Consent process design",
+        "Regulatory compliance assessment"
+      ],
       "outcome": "Comprehensive ethical and legal framework ensuring patient rights and data protection"
     },
     {
       "stage": "technical_feasibility",
       "duration": "8 weeks",
-      "activities": ["Sequencing technology evaluation", "Data management systems", "Integration with EHR"],
+      "activities": [
+        "Sequencing technology evaluation",
+        "Data management systems",
+        "Integration with EHR"
+      ],
       "outcome": "Scalable infrastructure with automated analysis and clinical decision support"
     },
     {
       "stage": "financial_analysis",
       "duration": "5 weeks",
-      "activities": ["Cost-benefit modeling", "Insurance reimbursement analysis", "Long-term ROI projections"],
+      "activities": [
+        "Cost-benefit modeling",
+        "Insurance reimbursement analysis",
+        "Long-term ROI projections"
+      ],
       "outcome": "Positive ROI within 5 years with significant preventive care savings"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Early disease detection and prevention", "Personalized treatment approaches", "Reduced healthcare costs", "Improved patient outcomes"],
+    "expected_benefits": [
+      "Early disease detection and prevention",
+      "Personalized treatment approaches",
+      "Reduced healthcare costs",
+      "Improved patient outcomes"
+    ],
     "projected_revenue": "$100 million in cost savings from preventive care over 10 years",
-    "risk_factors": ["Patient privacy concerns", "Clinical interpretation challenges", "Insurance reimbursement uncertainty", "Technology obsolescence"]
+    "risk_factors": [
+      "Patient privacy concerns",
+      "Clinical interpretation challenges",
+      "Insurance reimbursement uncertainty",
+      "Technology obsolescence"
+    ]
   }
 }

@@ -1,24 +1,24 @@
 ## Meeting Notes: Construction Project Delay Resolution
 
-**Date:** September 20, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Main Conference Room  
-**Attendees:**  
-- Senior Project Manager (Robert Kim)  
-- Construction Director (Jennifer Walsh)  
-- Client Representative (Mark Thompson)  
-- Lead Architect (Susan Lee)  
-- Structural Engineer (James Wilson)  
-- MEP Coordinator (Karen Patel)  
+**Date:** September 20, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Main Conference Room
+**Attendees:**
+- Senior Project Manager (Robert Kim)
+- Construction Director (Jennifer Walsh)
+- Client Representative (Mark Thompson)
+- Lead Architect (Susan Lee)
+- Structural Engineer (James Wilson)
+- MEP Coordinator (Karen Patel)
 
 **Meeting Objective:** Address 6-week project delay and develop recovery plan
 
 ### 1. Current Project Status
 
-**Original Completion Date:** December 15, 2025  
-**Current Projected Date:** January 26, 2026  
-**Delay:** 6 weeks  
-**Budget Impact:** $450,000 (4.5% of total budget)  
+**Original Completion Date:** December 15, 2025
+**Current Projected Date:** January 26, 2026
+**Delay:** 6 weeks
+**Budget Impact:** $450,000 (4.5% of total budget)
 
 ### 2. Root Cause Analysis
 

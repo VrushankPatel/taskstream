@@ -1,10 +1,10 @@
 ## Email Thread: Supply Chain Disruption Update
 
-**From:** Chief Supply Chain Officer  
-**To:** Executive Leadership Team, Department Heads  
-**Subject:** Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required  
+**From:** Chief Supply Chain Officer
+**To:** Executive Leadership Team, Department Heads
+**Subject:** Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required
 
-**Date:** November 8, 2024  
+**Date:** November 8, 2024
 
 Team,
 
@@ -29,19 +29,19 @@ We'll have a crisis management meeting tomorrow at 9 AM. Please come prepared wi
 
 This is a challenging situation, but our team's response will determine how we navigate through it.
 
-Best,  
-David Rodriguez  
-Chief Supply Chain Officer  
-RetailCorp International  
-david.rodriguez@retailcorp.com  
+Best,
+David Rodriguez
+Chief Supply Chain Officer
+RetailCorp International
+david.rodriguez@retailcorp.com
 
 ---
 
-**From:** VP Marketing  
-**To:** Chief Supply Chain Officer, Executive Leadership Team  
-**Subject:** Re: Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required  
+**From:** VP Marketing
+**To:** Chief Supply Chain Officer, Executive Leadership Team
+**Subject:** Re: Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required
 
-**Date:** November 8, 2024  
+**Date:** November 8, 2024
 
 David,
 
@@ -53,15 +53,15 @@ This is concerning. From marketing's perspective:
 
 We're already developing alternative campaign messaging focusing on in-stock items and extended shipping options. Should we pause the affected campaigns?
 
-Lisa  
+Lisa
 
 ---
 
-**From:** Chief Supply Chain Officer  
-**To:** VP Marketing, VP Sales, Executive Leadership Team  
-**Subject:** Re: Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required  
+**From:** Chief Supply Chain Officer
+**To:** VP Marketing, VP Sales, Executive Leadership Team
+**Subject:** Re: Critical: Port Congestion Impacting Q4 Inventory - Immediate Action Required
 
-**Date:** November 8, 2024  
+**Date:** November 8, 2024
 
 Lisa,
 

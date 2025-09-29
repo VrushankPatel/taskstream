@@ -1,47 +1,97 @@
 workflow:
-  id: "workflow_autonomous_urban_deployment"
-  title: "Autonomous Systems Urban Deployment Workflow"
-  department: "Operations/Autonomous Systems"
-  complexity: "high"
-  participants: ["Urban Deployment Manager", "Safety Engineers", "City Regulators", "Community Relations", "Technical Operations", "Emergency Services"]
-  trigger: "Regulatory approval for urban autonomous vehicle deployment"
+  id: workflow_autonomous_urban_deployment
+  title: Autonomous Systems Urban Deployment Workflow
+  department: Operations/Autonomous Systems
+  complexity: high
+  participants:
+  - Urban Deployment Manager
+  - Safety Engineers
+  - City Regulators
+  - Community Relations
+  - Technical Operations
+  - Emergency Services
+  trigger: Regulatory approval for urban autonomous vehicle deployment
   steps:
-    - step: 1
-      actor: "Urban Deployment Manager"
-      action: "Develop comprehensive urban deployment plan including routes, schedules, and contingency protocols"
-      tools: ["Urban planning software", "GIS mapping systems", "Risk assessment frameworks"]
-      duration: "6 weeks"
-      outputs: ["Urban deployment plan", "Route optimization maps", "Contingency protocols"]
-    - step: 2
-      actor: "Safety Engineers"
-      action: "Conduct urban-specific safety validation including pedestrian interactions and infrastructure challenges"
-      tools: ["Urban safety simulation tools", "Pedestrian behavior models", "Infrastructure assessment systems"]
-      duration: "8 weeks"
-      outputs: ["Urban safety validation report", "Safety enhancement recommendations"]
-      decision_points: ["Safety validation results", "Infrastructure compatibility"]
-    - step: 3
-      actor: "City Regulators"
-      action: "Review and approve deployment plan with local authorities and obtain necessary urban permits"
-      tools: ["Regulatory compliance databases", "Permit application systems", "Stakeholder coordination platforms"]
-      duration: "4 weeks"
-      outputs: ["Regulatory approvals", "Urban operation permits"]
-    - step: 4
-      actor: "Community Relations"
-      action: "Conduct community engagement and education programs for urban residents and stakeholders"
-      tools: ["Community outreach platforms", "Education materials", "Feedback collection systems"]
-      duration: "3 weeks"
-      outputs: ["Community engagement reports", "Public education materials"]
-    - step: 5
-      actor: "Technical Operations"
-      action: "Implement urban-specific technical modifications including V2I communications and adaptive routing"
-      tools: ["Vehicle-to-infrastructure systems", "Adaptive control software", "Urban traffic integration tools"]
-      duration: "5 weeks"
-      outputs: ["Urban-adapted systems", "Technical integration reports"]
-    - step: 6
-      actor: "Emergency Services"
-      action: "Develop coordination protocols with urban emergency services and first responders"
-      tools: ["Emergency coordination systems", "Communication protocols", "Joint training frameworks"]
-      duration: "2 weeks"
-      outputs: ["Emergency coordination protocols", "Joint response procedures"]
-  success_criteria: "Safe, efficient autonomous system operations in urban environment with community acceptance and regulatory compliance"
-  failure_modes: ["Community resistance blocking deployment", "Technical challenges in urban navigation", "Regulatory delays", "Safety incidents during operations"]
+  - step: 1
+    actor: Urban Deployment Manager
+    action: Develop comprehensive urban deployment plan including routes, schedules,
+      and contingency protocols
+    tools:
+    - Urban planning software
+    - GIS mapping systems
+    - Risk assessment frameworks
+    duration: 6 weeks
+    outputs:
+    - Urban deployment plan
+    - Route optimization maps
+    - Contingency protocols
+  - step: 2
+    actor: Safety Engineers
+    action: Conduct urban-specific safety validation including pedestrian interactions
+      and infrastructure challenges
+    tools:
+    - Urban safety simulation tools
+    - Pedestrian behavior models
+    - Infrastructure assessment systems
+    duration: 8 weeks
+    outputs:
+    - Urban safety validation report
+    - Safety enhancement recommendations
+    decision_points:
+    - Safety validation results
+    - Infrastructure compatibility
+  - step: 3
+    actor: City Regulators
+    action: Review and approve deployment plan with local authorities and obtain necessary
+      urban permits
+    tools:
+    - Regulatory compliance databases
+    - Permit application systems
+    - Stakeholder coordination platforms
+    duration: 4 weeks
+    outputs:
+    - Regulatory approvals
+    - Urban operation permits
+  - step: 4
+    actor: Community Relations
+    action: Conduct community engagement and education programs for urban residents
+      and stakeholders
+    tools:
+    - Community outreach platforms
+    - Education materials
+    - Feedback collection systems
+    duration: 3 weeks
+    outputs:
+    - Community engagement reports
+    - Public education materials
+  - step: 5
+    actor: Technical Operations
+    action: Implement urban-specific technical modifications including V2I communications
+      and adaptive routing
+    tools:
+    - Vehicle-to-infrastructure systems
+    - Adaptive control software
+    - Urban traffic integration tools
+    duration: 5 weeks
+    outputs:
+    - Urban-adapted systems
+    - Technical integration reports
+  - step: 6
+    actor: Emergency Services
+    action: Develop coordination protocols with urban emergency services and first
+      responders
+    tools:
+    - Emergency coordination systems
+    - Communication protocols
+    - Joint training frameworks
+    duration: 2 weeks
+    outputs:
+    - Emergency coordination protocols
+    - Joint response procedures
+  success_criteria: Safe, efficient autonomous system operations in urban environment
+    with community acceptance and regulatory compliance
+  failure_modes:
+  - Community resistance blocking deployment
+  - Technical challenges in urban navigation
+  - Regulatory delays
+  - Safety incidents during operations

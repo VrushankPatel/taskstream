@@ -1,8 +1,8 @@
 ## Meeting Notes: AI Implementation Strategy Review
 
-**Date:** September 28, 2025  
-**Attendees:** Chief AI Officer, VP Engineering, Data Science Lead, Product Managers, Ethics Officer  
-**Location:** Innovation Lab  
+**Date:** September 28, 2025
+**Attendees:** Chief AI Officer, VP Engineering, Data Science Lead, Product Managers, Ethics Officer
+**Location:** Innovation Lab
 
 ### Agenda
 1. AI project portfolio review

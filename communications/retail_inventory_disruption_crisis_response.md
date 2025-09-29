@@ -1,8 +1,8 @@
 ## Email Thread: Retail Inventory Disruption Crisis Response
 
-**From:** Operations Director  
-**To:** Executive Team, Supply Chain Manager, Store Managers, Customer Service Director  
-**Subject:** Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency  
+**From:** Operations Director
+**To:** Executive Team, Supply Chain Manager, Store Managers, Customer Service Director
+**Subject:** Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency
 
 Team,
 
@@ -22,15 +22,15 @@ Our primary electronics supplier has filed for bankruptcy, creating immediate in
 
 Please prepare your teams for immediate execution. Crisis management meeting scheduled for 10 AM.
 
-Best,  
-Robert  
-Operations Director  
+Best,
+Robert
+Operations Director
 
 ---
 
-**From:** CEO  
-**To:** Operations Director, Executive Team, Supply Chain Manager, Store Managers, Customer Service Director  
-**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency  
+**From:** CEO
+**To:** Operations Director, Executive Team, Supply Chain Manager, Store Managers, Customer Service Director
+**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency
 
 Robert,
 
@@ -44,14 +44,14 @@ This requires our full crisis response capabilities. I've authorized $750K emerg
 
 We must protect customer trust and minimize revenue impact. Hourly updates required.
 
-Sarah  
-CEO  
+Sarah
+CEO
 
 ---
 
-**From:** Supply Chain Manager  
-**To:** CEO, Operations Director, Executive Team, Store Managers, Customer Service Director  
-**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency  
+**From:** Supply Chain Manager
+**To:** CEO, Operations Director, Executive Team, Store Managers, Customer Service Director
+**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency
 
 Sarah, Robert,
 
@@ -63,14 +63,14 @@ Supply chain response initiated:
 
 Initial assessment: 60% of shortage covered within 72 hours.
 
-Mike  
-Supply Chain Manager  
+Mike
+Supply Chain Manager
 
 ---
 
-**From:** Customer Service Director  
-**To:** CEO, Operations Director, Executive Team, Supply Chain Manager, Store Managers  
-**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency  
+**From:** Customer Service Director
+**To:** CEO, Operations Director, Executive Team, Supply Chain Manager, Store Managers
+**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency
 
 Customer impact mitigation activated:
 - Backorder communication sent to 500 affected customers
@@ -80,14 +80,14 @@ Customer impact mitigation activated:
 
 Current customer satisfaction holding at 3.9/5 despite disruption.
 
-Jennifer  
-Customer Service Director  
+Jennifer
+Customer Service Director
 
 ---
 
-**From:** Operations Director  
-**To:** CEO, Executive Team, Supply Chain Manager, Store Managers, Customer Service Director  
-**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency  
+**From:** Operations Director
+**To:** CEO, Executive Team, Supply Chain Manager, Store Managers, Customer Service Director
+**Subject:** Re: Critical: Major Supplier Bankruptcy - Inventory Shortage Emergency
 
 24-hour status update:
 
@@ -104,14 +104,14 @@ Customer Service Director
 
 Full recovery projected within 2 weeks. Strong cross-functional execution demonstrated.
 
-Robert  
+Robert
 Operations Director
 
 ---
 
-**From:** CEO  
-**To:** Executive Team, Supply Chain Manager, Store Managers, Customer Service Director  
-**Subject:** Post-Mortem: Supplier Bankruptcy Crisis Response  
+**From:** CEO
+**To:** Executive Team, Supply Chain Manager, Store Managers, Customer Service Director
+**Subject:** Post-Mortem: Supplier Bankruptcy Crisis Response
 
 Team,
 
@@ -144,5 +144,5 @@ Now that we've successfully navigated the supplier bankruptcy crisis, let's capt
 
 Let's incorporate these lessons into our updated crisis management and business continuity plans.
 
-Sarah  
+Sarah
 CEO

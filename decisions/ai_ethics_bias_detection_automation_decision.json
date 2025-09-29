@@ -3,8 +3,16 @@
   "context": "Financial services company implementing automated AI bias detection across all machine learning models to ensure fair lending practices",
   "stakeholders": {
     "requester": "Chief Risk Officer",
-    "approvers": ["Chief Executive Officer", "Chief Compliance Officer", "Board Risk Committee"],
-    "influencers": ["Data Science Teams", "Fair Lending Officers", "External Auditors"]
+    "approvers": [
+      "Chief Executive Officer",
+      "Chief Compliance Officer",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Data Science Teams",
+      "Fair Lending Officers",
+      "External Auditors"
+    ]
   },
   "request": {
     "amount": "$4,500,000",
@@ -16,31 +24,55 @@
     {
       "stage": "requirements_analysis",
       "duration": "1 month",
-      "activities": ["Regulatory requirements review", "Current bias assessment", "Technology evaluation"],
+      "activities": [
+        "Regulatory requirements review",
+        "Current bias assessment",
+        "Technology evaluation"
+      ],
       "outcome": "Defined comprehensive requirements for automated bias detection across all AI applications"
     },
     {
       "stage": "solution_selection",
       "duration": "2 months",
-      "activities": ["Vendor evaluation", "Proof-of-concept testing", "Integration assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "Proof-of-concept testing",
+        "Integration assessment"
+      ],
       "outcome": "Selected enterprise-grade bias detection platform with 98% accuracy in testing"
     },
     {
       "stage": "implementation_planning",
       "duration": "1 month",
-      "activities": ["Deployment roadmap", "Change management planning", "Training program design"],
+      "activities": [
+        "Deployment roadmap",
+        "Change management planning",
+        "Training program design"
+      ],
       "outcome": "Comprehensive implementation plan with phased rollout across business units"
     },
     {
       "stage": "pilot_deployment",
       "duration": "2 months",
-      "activities": ["Pilot in lending division", "Performance validation", "User feedback collection"],
+      "activities": [
+        "Pilot in lending division",
+        "Performance validation",
+        "User feedback collection"
+      ],
       "outcome": "Successful pilot reducing bias incidents by 85% with minimal false positives"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Automated bias detection", "Regulatory compliance assurance", "Enhanced model fairness"],
+    "expected_benefits": [
+      "Automated bias detection",
+      "Regulatory compliance assurance",
+      "Enhanced model fairness"
+    ],
     "projected_revenue": "Projected $8M savings in compliance costs and reduced legal risks",
-    "risk_factors": ["Integration challenges", "Training requirements", "Performance impact on models"]
+    "risk_factors": [
+      "Integration challenges",
+      "Training requirements",
+      "Performance impact on models"
+    ]
   }
 }

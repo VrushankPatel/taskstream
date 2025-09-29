@@ -1,8 +1,8 @@
 ## Email Thread: Manufacturing Supply Chain Digital Transformation Announcement
 
-**From:** Chief Operations Officer  
-**To:** All Manufacturing Employees, Supply Chain Team, Executive Leadership  
-**Subject:** Digital Transformation Initiative - Supply Chain Optimization Program  
+**From:** Chief Operations Officer
+**To:** All Manufacturing Employees, Supply Chain Team, Executive Leadership
+**Subject:** Digital Transformation Initiative - Supply Chain Optimization Program
 
 Team,
 
@@ -42,14 +42,14 @@ This transformation will create new opportunities for skill development and care
 
 This is a pivotal moment for our manufacturing operations. The successful execution of this program will ensure our long-term competitiveness and operational excellence.
 
-Best regards,  
+Best regards,
 Chief Operations Officer
 
 ---
 
-**From:** Union Representative  
-**To:** Chief Operations Officer, Manufacturing Employees  
-**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program  
+**From:** Union Representative
+**To:** Chief Operations Officer, Manufacturing Employees
+**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program
 
 Thank you for the comprehensive announcement and for involving the union early in the process. We appreciate the commitment to employee training and support during this transition.
 
@@ -64,9 +64,9 @@ Union Representative
 
 ---
 
-**From:** Supply Chain Manager  
-**To:** Chief Operations Officer  
-**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program  
+**From:** Supply Chain Manager
+**To:** Chief Operations Officer
+**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program
 
 This is exactly what we've needed to compete effectively. The pilot results from our evaluation were impressive. I'm particularly excited about the predictive maintenance capabilities.
 
@@ -81,9 +81,9 @@ Supply Chain Manager
 
 ---
 
-**From:** Chief Operations Officer  
-**To:** Union Representative, Supply Chain Manager  
-**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program  
+**From:** Chief Operations Officer
+**To:** Union Representative, Supply Chain Manager
+**Subject:** Re: Digital Transformation Initiative - Supply Chain Optimization Program
 
 Thank you both for your supportive responses.
 
@@ -96,5 +96,5 @@ The union's points about job security and retraining are already incorporated in
 
 Let's schedule a detailed kickoff meeting for next week.
 
-Regards,  
+Regards,
 COO

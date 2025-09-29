@@ -1,9 +1,9 @@
 ## Email Announcement: Sustainable Energy Hydrogen Economy Initiative Launch
 
-**From:** Dr. Amanda Foster, Chief Sustainability Officer  
-**To:** All Employees  
-**Subject:** Launching Our Hydrogen Economy Initiative - Pioneering Clean Energy Solutions  
-**Date:** September 28, 2025  
+**From:** Dr. Amanda Foster, Chief Sustainability Officer
+**To:** All Employees
+**Subject:** Launching Our Hydrogen Economy Initiative - Pioneering Clean Energy Solutions
+**Date:** September 28, 2025
 
 Dear Team,
 
@@ -83,9 +83,9 @@ Questions? Visit the project website or contact the sustainability team.
 
 Together, we're powering a hydrogen future.
 
-Best regards,  
-Dr. Amanda Foster  
-Chief Sustainability Officer  
+Best regards,
+Dr. Amanda Foster
+Chief Sustainability Officer
 
 ### Supporting Resources:
 - Hydrogen Economy Initiative Overview Presentation

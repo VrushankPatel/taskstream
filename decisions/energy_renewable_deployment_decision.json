@@ -3,8 +3,16 @@
   "context": "Utility company, 5000 employees, evaluating solar farm expansion",
   "stakeholders": {
     "requester": "VP Renewable Energy",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Environmental Officer", "Grid Operations Manager", "Local Government"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Environmental Officer",
+      "Grid Operations Manager",
+      "Local Government"
+    ]
   },
   "request": {
     "amount": "$200 million",
@@ -16,22 +24,39 @@
     {
       "stage": "feasibility_study",
       "duration": "3 months",
-      "activities": ["Site assessment", "Environmental impact analysis", "Financial modeling"],
+      "activities": [
+        "Site assessment",
+        "Environmental impact analysis",
+        "Financial modeling"
+      ],
       "outcome": "Proceed with detailed planning"
     },
     {
       "stage": "stakeholder_review",
       "duration": "1 month",
-      "activities": ["Board presentation", "Community consultations", "Regulatory approvals"],
+      "activities": [
+        "Board presentation",
+        "Community consultations",
+        "Regulatory approvals"
+      ],
       "outcome": "Approved with environmental conditions"
     }
   ],
   "business_impact": {
     "expected_capacity": "500 MW",
     "projected_savings": "$50 million annually",
-    "risk_factors": ["Weather dependency", "Grid integration challenges", "Regulatory changes"]
+    "risk_factors": [
+      "Weather dependency",
+      "Grid integration challenges",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Environmental impact assessment", "Financial viability", "Grid stability", "Regulatory compliance"],
+  "decision_criteria": [
+    "Environmental impact assessment",
+    "Financial viability",
+    "Grid stability",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved with conditions",
   "lessons_learned": "Large-scale renewable projects require comprehensive stakeholder engagement and risk mitigation strategies"
 }

@@ -1,9 +1,9 @@
 # Quantum Computing Enterprise Adoption Announcement
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team, Board of Directors  
-**Subject:** Strategic Investment in Quantum Computing Infrastructure  
-**Date:** September 28, 2025  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team, Board of Directors
+**Subject:** Strategic Investment in Quantum Computing Infrastructure
+**Date:** September 28, 2025
 
 ## Executive Summary
 
@@ -50,5 +50,5 @@ We have developed comprehensive risk mitigation strategies:
 
 Please review the attached detailed business case. I will schedule individual meetings with each executive to discuss specific concerns or requirements.
 
-Best regards,  
+Best regards,
 Chief Technology Officer

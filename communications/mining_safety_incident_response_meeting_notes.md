@@ -1,8 +1,8 @@
 ## Meeting Notes: Mining Safety Incident Response and Prevention Strategy
 
-**Date:** September 28, 2025  
-**Attendees:** Safety Director (Chair), Operations Manager, HR Manager, Union Representative, External Safety Consultant  
-**Location:** Conference Room A  
+**Date:** September 28, 2025
+**Attendees:** Safety Director (Chair), Operations Manager, HR Manager, Union Representative, External Safety Consultant
+**Location:** Conference Room A
 
 ### Agenda Items
 

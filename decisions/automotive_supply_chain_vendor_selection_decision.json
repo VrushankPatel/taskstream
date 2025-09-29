@@ -3,8 +3,16 @@
   "context": "Global automotive manufacturer, 50,000 employees, facing semiconductor chip shortages and supply chain disruptions, needs to diversify critical component suppliers",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CFO", "Chief Procurement Officer", "CEO"],
-    "influencers": ["Head of Manufacturing", "Quality Assurance Director", "Sustainability Officer"]
+    "approvers": [
+      "CFO",
+      "Chief Procurement Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of Manufacturing",
+      "Quality Assurance Director",
+      "Sustainability Officer"
+    ]
   },
   "request": {
     "amount": "$200,000,000",
@@ -16,28 +24,54 @@
     {
       "stage": "supplier_evaluation",
       "duration": "6 weeks",
-      "activities": ["RFI issuance", "Supplier capability assessment", "Reference checks", "On-site audits"],
+      "activities": [
+        "RFI issuance",
+        "Supplier capability assessment",
+        "Reference checks",
+        "On-site audits"
+      ],
       "outcome": "Shortlist of 3 qualified suppliers"
     },
     {
       "stage": "negotiation",
       "duration": "4 weeks",
-      "activities": ["Contract terms negotiation", "Pricing discussions", "Quality standards alignment", "Sustainability requirements review"],
+      "activities": [
+        "Contract terms negotiation",
+        "Pricing discussions",
+        "Quality standards alignment",
+        "Sustainability requirements review"
+      ],
       "outcome": "Final contract terms agreed"
     },
     {
       "stage": "executive_review",
       "duration": "2 weeks",
-      "activities": ["Financial impact analysis", "Risk assessment", "Strategic alignment review", "Board presentation"],
+      "activities": [
+        "Financial impact analysis",
+        "Risk assessment",
+        "Strategic alignment review",
+        "Board presentation"
+      ],
       "outcome": "Approved with contingency plans"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in supply chain disruption risk, 15% cost savings through competitive pricing",
     "projected_value": "$50,000,000 annual savings",
-    "risk_factors": ["Supplier reliability concerns", "Technology transfer challenges", "Geopolitical supply risks"]
+    "risk_factors": [
+      "Supplier reliability concerns",
+      "Technology transfer challenges",
+      "Geopolitical supply risks"
+    ]
   },
-  "decision_criteria": ["Cost competitiveness", "Quality assurance", "Delivery reliability", "Sustainability compliance", "Innovation capability", "Financial stability"],
+  "decision_criteria": [
+    "Cost competitiveness",
+    "Quality assurance",
+    "Delivery reliability",
+    "Sustainability compliance",
+    "Innovation capability",
+    "Financial stability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early supplier engagement critical for complex component sourcing, comprehensive due diligence prevents future disruptions"
 }

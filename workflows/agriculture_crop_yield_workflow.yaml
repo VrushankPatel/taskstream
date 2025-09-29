@@ -1,52 +1,91 @@
 workflow:
-  id: "workflow_agriculture_yield_001"
-  title: "Agriculture Crop Yield Optimization"
-  department: "Farm Operations"
-  complexity: "medium"
-  participants: ["Farm Manager", "Agronomist", "Data Analyst", "Equipment Operator", "Supply Chain Coordinator"]
-  trigger: "Seasonal planning cycle begins"
+  id: workflow_agriculture_yield_001
+  title: Agriculture Crop Yield Optimization
+  department: Farm Operations
+  complexity: medium
+  participants:
+  - Farm Manager
+  - Agronomist
+  - Data Analyst
+  - Equipment Operator
+  - Supply Chain Coordinator
+  trigger: Seasonal planning cycle begins
   steps:
-    - step: 1
-      actor: "Agronomist"
-      action: "Analyze soil conditions and historical yield data"
-      tools: ["Soil Testing Kit", "Weather Data", "Yield Database"]
-      duration: "2 weeks"
-      outputs: ["Soil Analysis Report", "Yield Prediction Model"]
-    - step: 2
-      actor: "Farm Manager"
-      action: "Develop crop rotation and planting schedule"
-      decision_points: ["Crop selection", "Planting timing", "Resource allocation"]
-      duration: "1 week"
-      outputs: ["Planting Plan", "Resource Requirements"]
-    - step: 3
-      actor: "Data Analyst"
-      action: "Set up IoT sensors and monitoring systems"
-      tools: ["IoT Platform", "Weather Stations", "Drone Technology"]
-      duration: "3 days"
-      outputs: ["Monitoring Setup", "Data Collection Protocols"]
-    - step: 4
-      actor: "Equipment Operator"
-      action: "Execute planting and cultivation activities"
-      tools: ["Precision Planting Equipment", "Irrigation Systems"]
-      duration: "6-8 weeks"
-      outputs: ["Planting Records", "Field Activity Logs"]
-    - step: 5
-      actor: "Agronomist"
-      action: "Monitor crop health and apply optimization strategies"
-      tools: ["Remote Sensing", "AI Analytics", "Fertilizer Application"]
-      duration: "Ongoing throughout season"
-      outputs: ["Health Assessments", "Optimization Recommendations"]
-    - step: 6
-      actor: "Supply Chain Coordinator"
-      action: "Coordinate harvest and post-harvest processing"
-      tools: ["Harvest Scheduling", "Storage Facilities", "Market Analysis"]
-      duration: "4 weeks"
-      outputs: ["Harvest Plan", "Quality Control Reports"]
-  success_criteria: "Yield targets achieved, quality standards met, sustainable practices maintained"
-  failure_modes: ["Weather-related losses", "Pest/disease outbreaks", "Equipment failures", "Market price volatility"]
+  - step: 1
+    actor: Agronomist
+    action: Analyze soil conditions and historical yield data
+    tools:
+    - Soil Testing Kit
+    - Weather Data
+    - Yield Database
+    duration: 2 weeks
+    outputs:
+    - Soil Analysis Report
+    - Yield Prediction Model
+  - step: 2
+    actor: Farm Manager
+    action: Develop crop rotation and planting schedule
+    decision_points:
+    - Crop selection
+    - Planting timing
+    - Resource allocation
+    duration: 1 week
+    outputs:
+    - Planting Plan
+    - Resource Requirements
+  - step: 3
+    actor: Data Analyst
+    action: Set up IoT sensors and monitoring systems
+    tools:
+    - IoT Platform
+    - Weather Stations
+    - Drone Technology
+    duration: 3 days
+    outputs:
+    - Monitoring Setup
+    - Data Collection Protocols
+  - step: 4
+    actor: Equipment Operator
+    action: Execute planting and cultivation activities
+    tools:
+    - Precision Planting Equipment
+    - Irrigation Systems
+    duration: 6-8 weeks
+    outputs:
+    - Planting Records
+    - Field Activity Logs
+  - step: 5
+    actor: Agronomist
+    action: Monitor crop health and apply optimization strategies
+    tools:
+    - Remote Sensing
+    - AI Analytics
+    - Fertilizer Application
+    duration: Ongoing throughout season
+    outputs:
+    - Health Assessments
+    - Optimization Recommendations
+  - step: 6
+    actor: Supply Chain Coordinator
+    action: Coordinate harvest and post-harvest processing
+    tools:
+    - Harvest Scheduling
+    - Storage Facilities
+    - Market Analysis
+    duration: 4 weeks
+    outputs:
+    - Harvest Plan
+    - Quality Control Reports
+  success_criteria: Yield targets achieved, quality standards met, sustainable practices
+    maintained
+  failure_modes:
+  - Weather-related losses
+  - Pest/disease outbreaks
+  - Equipment failures
+  - Market price volatility
   metrics:
-    - "Crop yield per acre: Target 200 bushels/acre"
-    - "Production cost per unit: Target <$0.15/lb"
-    - "Quality grade A rating: Target >90%"
-    - "Resource utilization efficiency: Target >85%"
-    - "Sustainable practice compliance: Target 100%"
+  - 'Crop yield per acre: Target 200 bushels/acre'
+  - 'Production cost per unit: Target <$0.15/lb'
+  - 'Quality grade A rating: Target >90%'
+  - 'Resource utilization efficiency: Target >85%'
+  - 'Sustainable practice compliance: Target 100%'

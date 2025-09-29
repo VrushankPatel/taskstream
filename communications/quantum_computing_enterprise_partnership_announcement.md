@@ -1,9 +1,9 @@
 ## Quantum Computing Enterprise Partnership Announcement
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team, Board of Directors  
-**Subject:** Strategic Partnership with Quantum Computing Research Institute  
-**Date:** September 28, 2025  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team, Board of Directors
+**Subject:** Strategic Partnership with Quantum Computing Research Institute
+**Date:** September 28, 2025
 
 Team,
 
@@ -50,5 +50,5 @@ This is a pivotal moment for our technological evolution. The quantum computing 
 
 Please join me in congratulating the team on this achievement.
 
-Best regards,  
+Best regards,
 CTO

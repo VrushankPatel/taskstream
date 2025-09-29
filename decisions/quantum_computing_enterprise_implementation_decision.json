@@ -3,8 +3,16 @@
   "context": "Global technology company, 50,000 employees, evaluating quantum computing for optimization problems",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Chief Information Officer"],
-    "influencers": ["Head of Research", "VP Engineering", "Chief Risk Officer"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Information Officer"
+    ],
+    "influencers": [
+      "Head of Research",
+      "VP Engineering",
+      "Chief Risk Officer"
+    ]
   },
   "request": {
     "amount": "$50,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "technical_feasibility",
       "duration": "8 weeks",
-      "activities": ["Quantum advantage analysis", "Infrastructure assessment", "Talent gap evaluation"],
+      "activities": [
+        "Quantum advantage analysis",
+        "Infrastructure assessment",
+        "Talent gap evaluation"
+      ],
       "outcome": "Feasible with significant investment required"
     },
     {
       "stage": "business_case_development",
       "duration": "6 weeks",
-      "activities": ["ROI modeling", "Competitive analysis", "Risk assessment"],
+      "activities": [
+        "ROI modeling",
+        "Competitive analysis",
+        "Risk assessment"
+      ],
       "outcome": "Strong business case with 3-year payback period"
     },
     {
       "stage": "executive_review",
       "duration": "4 weeks",
-      "activities": ["Board presentation", "Strategic alignment review", "Risk mitigation planning"],
+      "activities": [
+        "Board presentation",
+        "Strategic alignment review",
+        "Risk mitigation planning"
+      ],
       "outcome": "Approved with phased implementation approach"
     }
   ],
   "business_impact": {
     "expected_benefits": "15-20x speedup on optimization problems, new product capabilities",
     "projected_revenue": "$200,000,000 in new business opportunities",
-    "risk_factors": ["Technology immaturity", "High implementation costs", "Talent scarcity"]
+    "risk_factors": [
+      "Technology immaturity",
+      "High implementation costs",
+      "Talent scarcity"
+    ]
   }
 }

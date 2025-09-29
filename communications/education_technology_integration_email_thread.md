@@ -1,8 +1,8 @@
 ## Email Thread: Education Technology Integration Update
 
-**From:** Director of Academic Technology  
-**To:** Academic Leadership Team  
-**Subject:** EdTech Integration: Progress and Next Steps  
+**From:** Director of Academic Technology
+**To:** Academic Leadership Team
+**Subject:** EdTech Integration: Progress and Next Steps
 
 Colleagues,
 
@@ -33,15 +33,15 @@ I wanted to provide an update on our education technology integration initiative
 
 I recommend we discuss these challenges at our next leadership meeting and make decisions on resource allocation.
 
-Best regards,  
-Dr. Emily Rodriguez  
-Director of Academic Technology  
+Best regards,
+Dr. Emily Rodriguez
+Director of Academic Technology
 
 ---
 
-**From:** Dean of Arts and Sciences  
-**To:** Director of Academic Technology, Provost  
-**Subject:** Re: EdTech Integration: Progress and Next Steps  
+**From:** Dean of Arts and Sciences
+**To:** Director of Academic Technology, Provost
+**Subject:** Re: EdTech Integration: Progress and Next Steps
 
 Emily,
 
@@ -49,14 +49,14 @@ Thank you for the comprehensive update. The progress in Arts and Sciences has be
 
 I support the additional training budget and would like to propose department-specific training sessions tailored to different disciplines. We should also consider peer mentoring programs where early adopters help their colleagues.
 
-Dr. James Wilson  
-Dean of Arts and Sciences  
+Dr. James Wilson
+Dean of Arts and Sciences
 
 ---
 
-**From:** Provost  
-**To:** Director of Academic Technology, Dean of Arts and Sciences, Academic Leadership Team  
-**Subject:** Re: EdTech Integration: Progress and Next Steps  
+**From:** Provost
+**To:** Director of Academic Technology, Dean of Arts and Sciences, Academic Leadership Team
+**Subject:** Re: EdTech Integration: Progress and Next Steps
 
 Thank you both for your insights. This is a critical initiative for our strategic goals.
 
@@ -66,6 +66,6 @@ James - the department-specific training idea is excellent. Let's incorporate th
 
 We'll discuss this at the leadership meeting next Tuesday. Please come prepared with your recommendations.
 
-Best,  
-Dr. Maria Sanchez  
+Best,
+Dr. Maria Sanchez
 Provost

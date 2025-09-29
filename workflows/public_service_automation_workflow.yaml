@@ -1,59 +1,89 @@
 workflow:
-  id: "workflow_public_service_automation"
-  title: "Public Service Automation Process"
-  department: "Government Operations"
-  complexity: "complex"
-  participants: ["Service Director", "IT Project Manager", "Legal Counsel", "Citizen Services Manager", "Data Privacy Officer"]
-  trigger: "Service request volume exceeds manual processing capacity by 50%"
+  id: workflow_public_service_automation
+  title: Public Service Automation Process
+  department: Government Operations
+  complexity: complex
+  participants:
+  - Service Director
+  - IT Project Manager
+  - Legal Counsel
+  - Citizen Services Manager
+  - Data Privacy Officer
+  trigger: Service request volume exceeds manual processing capacity by 50%
   steps:
-    - step: 1
-      actor: "Citizen Services Manager"
-      action: "Analyze service request patterns and identify automation opportunities"
-      tools: ["Service request database", "Process mapping software"]
-      duration: "1 week"
-      outputs: ["Service automation assessment"]
-    - step: 2
-      actor: "IT Project Manager"
-      action: "Design automated workflow and integration requirements"
-      tools: ["Workflow automation platform", "API documentation"]
-      duration: "2 weeks"
-      outputs: ["Technical design specification"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Review legal and regulatory compliance requirements"
-      tools: ["Government regulations database", "Legal compliance checklist"]
-      duration: "1 week"
-      outputs: ["Compliance review report"]
-    - step: 4
-      actor: "Data Privacy Officer"
-      action: "Assess data privacy and security implications"
-      tools: ["Privacy impact assessment framework", "Security audit tools"]
-      duration: "5 days"
-      outputs: ["Privacy impact assessment"]
-    - step: 5
-      actor: "IT Project Manager"
-      action: "Develop and test automated service platform"
-      tools: ["Development environment", "Testing frameworks"]
-      duration: "4 weeks"
-      outputs: ["Automated service platform"]
-    - step: 6
-      actor: "Service Director"
-      action: "Pilot test automation with subset of services"
-      tools: ["Pilot testing framework", "User feedback collection"]
-      duration: "2 weeks"
-      outputs: ["Pilot test results"]
-    - step: 7
-      actor: "Citizen Services Manager"
-      action: "Roll out automated services and train staff"
-      tools: ["Training materials", "Change management plan"]
-      duration: "3 weeks"
-      outputs: ["Service automation rollout"]
-  success_criteria: "Processing time reduced by 70%, citizen satisfaction score above 4.5/5"
-  failure_modes: ["Technical integration failures with legacy systems", "Legal challenges to automated decision-making", "Staff resistance to technology changes"]
+  - step: 1
+    actor: Citizen Services Manager
+    action: Analyze service request patterns and identify automation opportunities
+    tools:
+    - Service request database
+    - Process mapping software
+    duration: 1 week
+    outputs:
+    - Service automation assessment
+  - step: 2
+    actor: IT Project Manager
+    action: Design automated workflow and integration requirements
+    tools:
+    - Workflow automation platform
+    - API documentation
+    duration: 2 weeks
+    outputs:
+    - Technical design specification
+  - step: 3
+    actor: Legal Counsel
+    action: Review legal and regulatory compliance requirements
+    tools:
+    - Government regulations database
+    - Legal compliance checklist
+    duration: 1 week
+    outputs:
+    - Compliance review report
+  - step: 4
+    actor: Data Privacy Officer
+    action: Assess data privacy and security implications
+    tools:
+    - Privacy impact assessment framework
+    - Security audit tools
+    duration: 5 days
+    outputs:
+    - Privacy impact assessment
+  - step: 5
+    actor: IT Project Manager
+    action: Develop and test automated service platform
+    tools:
+    - Development environment
+    - Testing frameworks
+    duration: 4 weeks
+    outputs:
+    - Automated service platform
+  - step: 6
+    actor: Service Director
+    action: Pilot test automation with subset of services
+    tools:
+    - Pilot testing framework
+    - User feedback collection
+    duration: 2 weeks
+    outputs:
+    - Pilot test results
+  - step: 7
+    actor: Citizen Services Manager
+    action: Roll out automated services and train staff
+    tools:
+    - Training materials
+    - Change management plan
+    duration: 3 weeks
+    outputs:
+    - Service automation rollout
+  success_criteria: Processing time reduced by 70%, citizen satisfaction score above
+    4.5/5
+  failure_modes:
+  - Technical integration failures with legacy systems
+  - Legal challenges to automated decision-making
+  - Staff resistance to technology changes
   metrics:
-    - "Processing time reduction: Target >70% improvement"
-    - "Citizen satisfaction score: Target >4.5/5.0"
-    - "Error rate reduction: Target <50% of manual process"
-    - "Service availability: Target >99.5% uptime"
-    - "Cost per transaction: Target 60% reduction"
-    - "Staff productivity: Target >200% increase"
+  - 'Processing time reduction: Target >70% improvement'
+  - 'Citizen satisfaction score: Target >4.5/5.0'
+  - 'Error rate reduction: Target <50% of manual process'
+  - 'Service availability: Target >99.5% uptime'
+  - 'Cost per transaction: Target 60% reduction'
+  - 'Staff productivity: Target >200% increase'

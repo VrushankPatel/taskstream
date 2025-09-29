@@ -79,5 +79,5 @@ Comprehensive dashboard tracking sales team performance, pipeline health, and re
 - [ ] Increase focus on expansion revenue opportunities
 - [ ] Review and optimize lead qualification process
 
-*Dashboard updated: October 10, 2025*  
+*Dashboard updated: October 10, 2025*
 *Next review: November 10, 2025*

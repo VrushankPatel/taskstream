@@ -1,8 +1,8 @@
 ## Communication: Mining Safety Training Enhancement Program
 
-**From:** Chief Safety Officer  
-**To:** All Mining Operations Teams, Safety Committee, Executive Leadership  
-**Subject:** Enhanced Safety Training Program Implementation - Protecting Our Most Valuable Asset  
+**From:** Chief Safety Officer
+**To:** All Mining Operations Teams, Safety Committee, Executive Leadership
+**Subject:** Enhanced Safety Training Program Implementation - Protecting Our Most Valuable Asset
 
 Colleagues,
 
@@ -81,7 +81,7 @@ This enhanced training program demonstrates our commitment to protecting every p
 
 Please join us in making safety excellence a reality. Contact your local safety coordinator for training schedules and support.
 
-Together for Zero Harm,  
-James Thornton  
-Chief Safety Officer  
+Together for Zero Harm,
+James Thornton
+Chief Safety Officer
 Global Mining Corporation

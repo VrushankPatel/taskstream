@@ -1,46 +1,72 @@
 workflow:
-  id: "workflow_production_scheduling"
-  title: "Production Scheduling Optimization Process"
-  department: "Manufacturing Operations"
-  complexity: "medium"
-  participants: ["Production Manager", "Supply Chain Analyst", "Quality Control Lead", "Maintenance Supervisor"]
-  trigger: "Order backlog exceeds 30 days or machine utilization drops below 70%"
+  id: workflow_production_scheduling
+  title: Production Scheduling Optimization Process
+  department: Manufacturing Operations
+  complexity: medium
+  participants:
+  - Production Manager
+  - Supply Chain Analyst
+  - Quality Control Lead
+  - Maintenance Supervisor
+  trigger: Order backlog exceeds 30 days or machine utilization drops below 70%
   steps:
-    - step: 1
-      actor: "Production Manager"
-      action: "Analyze current production capacity and order backlog"
-      tools: ["ERP system", "Production planning software"]
-      duration: "2 hours"
-      outputs: ["Capacity analysis report"]
-    - step: 2
-      actor: "Supply Chain Analyst"
-      action: "Review raw material availability and supplier lead times"
-      tools: ["Supply chain management system", "Supplier performance database"]
-      duration: "4 hours"
-      outputs: ["Material availability forecast"]
-    - step: 3
-      actor: "Quality Control Lead"
-      action: "Assess quality constraints and testing requirements"
-      decision_points: ["Product complexity", "Quality standards"]
-      duration: "3 hours"
-      outputs: ["Quality constraint assessment"]
-    - step: 4
-      actor: "Maintenance Supervisor"
-      action: "Evaluate equipment availability and maintenance schedules"
-      tools: ["CMMS software", "Equipment performance logs"]
-      duration: "2 hours"
-      outputs: ["Equipment availability report"]
-    - step: 5
-      actor: "Production Manager"
-      action: "Generate optimized production schedule using scheduling algorithm"
-      tools: ["Advanced planning software", "Simulation tools"]
-      duration: "6 hours"
-      outputs: ["Optimized production schedule"]
-    - step: 6
-      actor: "Production Manager"
-      action: "Communicate schedule changes to production teams"
-      tools: ["Production management dashboard", "Team communication platform"]
-      duration: "1 hour"
-      outputs: ["Schedule implementation plan"]
-  success_criteria: "On-time delivery rate improves by 15%, machine utilization reaches 85%"
-  failure_modes: ["Material shortages causing production delays", "Equipment breakdowns disrupting schedule", "Quality issues requiring rework"]
+  - step: 1
+    actor: Production Manager
+    action: Analyze current production capacity and order backlog
+    tools:
+    - ERP system
+    - Production planning software
+    duration: 2 hours
+    outputs:
+    - Capacity analysis report
+  - step: 2
+    actor: Supply Chain Analyst
+    action: Review raw material availability and supplier lead times
+    tools:
+    - Supply chain management system
+    - Supplier performance database
+    duration: 4 hours
+    outputs:
+    - Material availability forecast
+  - step: 3
+    actor: Quality Control Lead
+    action: Assess quality constraints and testing requirements
+    decision_points:
+    - Product complexity
+    - Quality standards
+    duration: 3 hours
+    outputs:
+    - Quality constraint assessment
+  - step: 4
+    actor: Maintenance Supervisor
+    action: Evaluate equipment availability and maintenance schedules
+    tools:
+    - CMMS software
+    - Equipment performance logs
+    duration: 2 hours
+    outputs:
+    - Equipment availability report
+  - step: 5
+    actor: Production Manager
+    action: Generate optimized production schedule using scheduling algorithm
+    tools:
+    - Advanced planning software
+    - Simulation tools
+    duration: 6 hours
+    outputs:
+    - Optimized production schedule
+  - step: 6
+    actor: Production Manager
+    action: Communicate schedule changes to production teams
+    tools:
+    - Production management dashboard
+    - Team communication platform
+    duration: 1 hour
+    outputs:
+    - Schedule implementation plan
+  success_criteria: On-time delivery rate improves by 15%, machine utilization reaches
+    85%
+  failure_modes:
+  - Material shortages causing production delays
+  - Equipment breakdowns disrupting schedule
+  - Quality issues requiring rework

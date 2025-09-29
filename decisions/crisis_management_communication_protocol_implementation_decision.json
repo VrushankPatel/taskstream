@@ -3,9 +3,21 @@
   "context": "Global technology company implementing comprehensive crisis communication protocols following recent AI system failure incident",
   "stakeholders": {
     "requester": "Chief Communications Officer",
-    "approvers": ["CEO", "Crisis Management Committee", "Board Communications Committee"],
-    "influencers": ["Chief Technology Officer", "General Counsel", "Head of Corporate Communications"],
-    "advisors": ["Crisis Communications Experts", "Public Relations Consultants", "Stakeholder Engagement Specialists"]
+    "approvers": [
+      "CEO",
+      "Crisis Management Committee",
+      "Board Communications Committee"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "General Counsel",
+      "Head of Corporate Communications"
+    ],
+    "advisors": [
+      "Crisis Communications Experts",
+      "Public Relations Consultants",
+      "Stakeholder Engagement Specialists"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -17,32 +29,63 @@
     {
       "stage": "crisis_assessment",
       "duration": "4 weeks",
-      "activities": ["Recent incident analysis", "Communication effectiveness review", "Stakeholder impact assessment"],
+      "activities": [
+        "Recent incident analysis",
+        "Communication effectiveness review",
+        "Stakeholder impact assessment"
+      ],
       "outcome": "Identified critical gaps in crisis communication capabilities"
     },
     {
       "stage": "framework_design",
       "duration": "6 weeks",
-      "activities": ["Communication protocol development", "Stakeholder mapping", "Technology platform selection"],
+      "activities": [
+        "Communication protocol development",
+        "Stakeholder mapping",
+        "Technology platform selection"
+      ],
       "outcome": "Comprehensive crisis communication framework addressing all stakeholder groups"
     },
     {
       "stage": "training_development",
       "duration": "4 weeks",
-      "activities": ["Training program design", "Simulation exercises", "Certification requirements"],
+      "activities": [
+        "Training program design",
+        "Simulation exercises",
+        "Certification requirements"
+      ],
       "outcome": "Multi-level training program for all communication personnel"
     },
     {
       "stage": "technology_implementation",
       "duration": "6 weeks",
-      "activities": ["Platform deployment", "Integration testing", "User training"],
+      "activities": [
+        "Platform deployment",
+        "Integration testing",
+        "User training"
+      ],
       "outcome": "Fully operational crisis communication technology platform"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["50% faster crisis response time", "Improved stakeholder trust", "Reduced reputational damage", "Enhanced regulatory compliance"],
+    "expected_benefits": [
+      "50% faster crisis response time",
+      "Improved stakeholder trust",
+      "Reduced reputational damage",
+      "Enhanced regulatory compliance"
+    ],
     "projected_revenue": "$30,000,000 in reputation protection and risk mitigation",
-    "risk_factors": ["Technology integration challenges", "Training adoption resistance", "Evolving crisis scenarios", "Resource constraints"],
-    "mitigation_strategies": ["Phased implementation", "Executive sponsorship", "Regular simulation exercises", "Dedicated crisis team"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Training adoption resistance",
+      "Evolving crisis scenarios",
+      "Resource constraints"
+    ],
+    "mitigation_strategies": [
+      "Phased implementation",
+      "Executive sponsorship",
+      "Regular simulation exercises",
+      "Dedicated crisis team"
+    ]
   }
 }

@@ -3,8 +3,17 @@
   "context": "Global AI company expanding ethics governance framework following regulatory changes and public scrutiny",
   "stakeholders": {
     "requester": "Chief Ethics Officer",
-    "approvers": ["CEO", "Board of Directors", "General Counsel"],
-    "influencers": ["Head of AI Research", "VP Product", "Chief Privacy Officer", "External Ethics Consultants"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "General Counsel"
+    ],
+    "influencers": [
+      "Head of AI Research",
+      "VP Product",
+      "Chief Privacy Officer",
+      "External Ethics Consultants"
+    ]
   },
   "request": {
     "amount": "$15 million",
@@ -16,31 +25,57 @@
     {
       "stage": "regulatory_assessment",
       "duration": "3 weeks",
-      "activities": ["Global AI regulation review", "Compliance gap analysis", "Legal risk assessment"],
+      "activities": [
+        "Global AI regulation review",
+        "Compliance gap analysis",
+        "Legal risk assessment"
+      ],
       "outcome": "Multiple regulatory frameworks require enhanced governance capabilities"
     },
     {
       "stage": "organizational_readiness",
       "duration": "2 weeks",
-      "activities": ["Current ethics program evaluation", "Stakeholder interviews", "Capability gap assessment"],
+      "activities": [
+        "Current ethics program evaluation",
+        "Stakeholder interviews",
+        "Capability gap assessment"
+      ],
       "outcome": "Significant gaps in current capabilities requiring substantial investment"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "3 weeks",
-      "activities": ["ROI modeling for ethics investments", "Risk mitigation valuation", "Competitive advantage assessment"],
+      "activities": [
+        "ROI modeling for ethics investments",
+        "Risk mitigation valuation",
+        "Competitive advantage assessment"
+      ],
       "outcome": "Strong business case with risk reduction valued at $100M+ annually"
     },
     {
       "stage": "implementation_planning",
       "duration": "4 weeks",
-      "activities": ["Team structure design", "Technology requirements", "Change management planning"],
+      "activities": [
+        "Team structure design",
+        "Technology requirements",
+        "Change management planning"
+      ],
       "outcome": "Comprehensive implementation roadmap with phased approach"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Regulatory compliance assurance", "Enhanced public trust", "Reduced litigation risk", "Competitive differentiation"],
+    "expected_benefits": [
+      "Regulatory compliance assurance",
+      "Enhanced public trust",
+      "Reduced litigation risk",
+      "Competitive differentiation"
+    ],
     "projected_revenue": "$50 million in risk mitigation value annually",
-    "risk_factors": ["Implementation complexity", "Cultural resistance", "Resource constraints", "Evolving regulatory landscape"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Cultural resistance",
+      "Resource constraints",
+      "Evolving regulatory landscape"
+    ]
   }
 }

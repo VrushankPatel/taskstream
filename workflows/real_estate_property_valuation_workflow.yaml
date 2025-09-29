@@ -1,40 +1,63 @@
 workflow:
-  id: "workflow_real_estate_valuation_001"
-  title: "Real Estate Property Valuation Process"
-  department: "Appraisal Services"
-  complexity: "medium"
-  participants: ["Appraisal Manager", "Licensed Appraiser", "Data Analyst", "Review Appraiser"]
-  trigger: "Client requests property valuation for loan, sale, or tax purposes"
+  id: workflow_real_estate_valuation_001
+  title: Real Estate Property Valuation Process
+  department: Appraisal Services
+  complexity: medium
+  participants:
+  - Appraisal Manager
+  - Licensed Appraiser
+  - Data Analyst
+  - Review Appraiser
+  trigger: Client requests property valuation for loan, sale, or tax purposes
   steps:
-    - step: 1
-      actor: "Appraisal Manager"
-      action: "Assign appraisal request and gather property details"
-      tools: ["CRM System", "Property Database"]
-      duration: "30 minutes"
-      outputs: ["Appraisal Assignment"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Compile comparable sales data and market analysis"
-      tools: ["MLS Database", "Economic Indicators", "GIS Mapping"]
-      duration: "4 hours"
-      outputs: ["Market Data Report"]
-    - step: 3
-      actor: "Licensed Appraiser"
-      action: "Conduct property inspection and condition assessment"
-      tools: ["Inspection Checklist", "Photography Equipment"]
-      duration: "3 hours"
-      outputs: ["Property Inspection Report"]
-    - step: 4
-      actor: "Licensed Appraiser"
-      action: "Apply valuation methodology and calculate final value"
-      decision_points: ["Approach selection (sales comparison, income, cost)", "Adjustments needed"]
-      duration: "6 hours"
-      outputs: ["Preliminary Appraisal Report"]
-    - step: 5
-      actor: "Review Appraiser"
-      action: "Quality control review and final approval"
-      tools: ["Review Checklist", "Compliance Standards"]
-      duration: "2 hours"
-      outputs: ["Certified Appraisal Report"]
-  success_criteria: "Accurate valuation within regulatory standards, delivered on time"
-  failure_modes: ["Inaccurate valuation", "Regulatory non-compliance", "Schedule delays"]
+  - step: 1
+    actor: Appraisal Manager
+    action: Assign appraisal request and gather property details
+    tools:
+    - CRM System
+    - Property Database
+    duration: 30 minutes
+    outputs:
+    - Appraisal Assignment
+  - step: 2
+    actor: Data Analyst
+    action: Compile comparable sales data and market analysis
+    tools:
+    - MLS Database
+    - Economic Indicators
+    - GIS Mapping
+    duration: 4 hours
+    outputs:
+    - Market Data Report
+  - step: 3
+    actor: Licensed Appraiser
+    action: Conduct property inspection and condition assessment
+    tools:
+    - Inspection Checklist
+    - Photography Equipment
+    duration: 3 hours
+    outputs:
+    - Property Inspection Report
+  - step: 4
+    actor: Licensed Appraiser
+    action: Apply valuation methodology and calculate final value
+    decision_points:
+    - Approach selection (sales comparison, income, cost)
+    - Adjustments needed
+    duration: 6 hours
+    outputs:
+    - Preliminary Appraisal Report
+  - step: 5
+    actor: Review Appraiser
+    action: Quality control review and final approval
+    tools:
+    - Review Checklist
+    - Compliance Standards
+    duration: 2 hours
+    outputs:
+    - Certified Appraisal Report
+  success_criteria: Accurate valuation within regulatory standards, delivered on time
+  failure_modes:
+  - Inaccurate valuation
+  - Regulatory non-compliance
+  - Schedule delays

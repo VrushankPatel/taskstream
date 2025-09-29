@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Revenue Optimization Crisis Response
 
-**From:** Director of Revenue Management  
-**To:** Executive Team, Operations Directors, Sales Team, Finance Department  
-**Subject:** Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required  
+**From:** Director of Revenue Management
+**To:** Executive Team, Operations Directors, Sales Team, Finance Department
+**Subject:** Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required
 
 Team,
 
@@ -41,15 +41,15 @@ I recommend an emergency revenue summit tomorrow morning to align on response st
 
 This is a revenue crisis that requires decisive leadership. Let's protect our core business while positioning for recovery.
 
-Best,  
-Sarah Mitchell  
-Director of Revenue Management  
+Best,
+Sarah Mitchell
+Director of Revenue Management
 
 ---
 
-**From:** CEO  
-**To:** Executive Team, Operations Directors, Sales Team, Finance Department  
-**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required  
+**From:** CEO
+**To:** Executive Team, Operations Directors, Sales Team, Finance Department
+**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required
 
 Sarah,
 
@@ -77,15 +77,15 @@ The emergency revenue summit is confirmed for tomorrow 8 AM. Come prepared with 
 
 We will emerge from this crisis stronger and more resilient.
 
-Regards,  
-Michael Rodriguez  
-Chief Executive Officer  
+Regards,
+Michael Rodriguez
+Chief Executive Officer
 
 ---
 
-**From:** Director of Sales & Marketing  
-**To:** Executive Team, Director of Revenue Management, Operations Directors, Finance Department  
-**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required  
+**From:** Director of Sales & Marketing
+**To:** Executive Team, Director of Revenue Management, Operations Directors, Finance Department
+**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required
 
 Michael, Sarah,
 
@@ -110,14 +110,14 @@ Sales team has mobilized for immediate revenue recovery:
 
 Campaign assets are being developed immediately. Ready for tomorrow's summit with detailed execution plan.
 
-Jennifer Walsh  
-Director of Sales & Marketing  
+Jennifer Walsh
+Director of Sales & Marketing
 
 ---
 
-**From:** CFO  
-**To:** Executive Team, Director of Revenue Management, Operations Directors, Sales Team  
-**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required  
+**From:** CFO
+**To:** Executive Team, Director of Revenue Management, Operations Directors, Sales Team
+**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required
 
 Michael, Sarah, Jennifer,
 
@@ -147,14 +147,14 @@ Finance has conducted emergency cash flow and liquidity analysis:
 
 Detailed financial recovery plan ready for tomorrow's summit.
 
-David Chen  
-Chief Financial Officer  
+David Chen
+Chief Financial Officer
 
 ---
 
-**From:** Director of Revenue Management  
-**To:** Executive Team, Operations Directors, Sales Team, Finance Department  
-**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required  
+**From:** Director of Revenue Management
+**To:** Executive Team, Operations Directors, Sales Team, Finance Department
+**Subject:** Re: Revenue Crisis Alert: 35% Occupancy Decline - Immediate Action Required
 
 Thank you Michael, Jennifer, and David for the comprehensive responses. The crisis management team is fully operational.
 

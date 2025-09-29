@@ -1,9 +1,9 @@
 # Sustainable Energy Carbon Capture Deployment Announcement
 
-**From:** Michael Reynolds, Chief Sustainability Officer  
-**To:** All Employees, Investors, Media Contacts  
-**Subject:** Major Carbon Capture Initiative Launch - Achieving Net-Zero by 2040  
-**Date:** September 28, 2025  
+**From:** Michael Reynolds, Chief Sustainability Officer
+**To:** All Employees, Investors, Media Contacts
+**Subject:** Major Carbon Capture Initiative Launch - Achieving Net-Zero by 2040
+**Date:** September 28, 2025
 
 ## Executive Summary
 
@@ -104,6 +104,6 @@ For more information about this initiative, please contact:
 
 This announcement marks a significant milestone in our journey toward a sustainable energy future. We look forward to your support and partnership in this critical endeavor.
 
-Best regards,  
-Michael Reynolds  
+Best regards,
+Michael Reynolds
 Chief Sustainability Officer

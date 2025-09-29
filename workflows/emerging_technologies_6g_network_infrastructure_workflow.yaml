@@ -1,46 +1,87 @@
 workflow:
-  id: "workflow_emerging_technologies_6g_network_infrastructure"
-  title: "Emerging Technologies 6G Network Infrastructure Workflow"
-  department: "Network Engineering"
-  complexity: "high"
-  participants: ["Network Architect", "Spectrum Management", "Standards Development", "Security Engineering", "Infrastructure Deployment", "Regulatory Affairs"]
-  trigger: "6G technology readiness assessment or infrastructure investment decision"
+  id: workflow_emerging_technologies_6g_network_infrastructure
+  title: Emerging Technologies 6G Network Infrastructure Workflow
+  department: Network Engineering
+  complexity: high
+  participants:
+  - Network Architect
+  - Spectrum Management
+  - Standards Development
+  - Security Engineering
+  - Infrastructure Deployment
+  - Regulatory Affairs
+  trigger: 6G technology readiness assessment or infrastructure investment decision
   steps:
-    - step: 1
-      actor: "Network Architect"
-      action: "Define 6G network requirements and architecture design"
-      tools: ["Network modeling software", "Spectrum analysis tools", "Performance simulation platforms"]
-      duration: "8 weeks"
-      outputs: ["Network architecture specifications", "Requirements document"]
-    - step: 2
-      actor: "Spectrum Management"
-      action: "Secure and allocate terahertz spectrum resources"
-      tools: ["Spectrum management systems", "Regulatory databases", "Frequency allocation tools"]
-      duration: "12 weeks"
-      outputs: ["Spectrum allocation plan", "Regulatory approvals"]
-    - step: 3
-      actor: "Standards Development"
-      action: "Develop and validate 6G technical standards"
-      tools: ["Standards development platforms", "Testing laboratories", "Interoperability frameworks"]
-      duration: "16 weeks"
-      outputs: ["Technical standards documents", "Validation test results"]
-    - step: 4
-      actor: "Security Engineering"
-      action: "Design quantum-resistant security frameworks"
-      tools: ["Security architecture tools", "Cryptography platforms", "Threat modeling software"]
-      duration: "10 weeks"
-      outputs: ["Security architecture design", "Quantum security protocols"]
-    - step: 5
-      actor: "Infrastructure Deployment"
-      action: "Plan and execute network infrastructure rollout"
-      tools: ["Infrastructure planning software", "Deployment management systems", "Quality assurance tools"]
-      duration: "20 weeks"
-      outputs: ["Deployment roadmap", "Infrastructure specifications"]
-    - step: 6
-      actor: "Regulatory Affairs"
-      action: "Manage regulatory compliance and certification processes"
-      tools: ["Regulatory compliance systems", "Certification tracking", "Documentation management"]
-      duration: "Ongoing"
-      outputs: ["Compliance documentation", "Certification approvals"]
-  success_criteria: "6G network infrastructure operational with validated performance and regulatory compliance"
-  failure_modes: ["Spectrum allocation delays", "Standards development issues", "Security vulnerabilities", "Infrastructure deployment challenges"]
+  - step: 1
+    actor: Network Architect
+    action: Define 6G network requirements and architecture design
+    tools:
+    - Network modeling software
+    - Spectrum analysis tools
+    - Performance simulation platforms
+    duration: 8 weeks
+    outputs:
+    - Network architecture specifications
+    - Requirements document
+  - step: 2
+    actor: Spectrum Management
+    action: Secure and allocate terahertz spectrum resources
+    tools:
+    - Spectrum management systems
+    - Regulatory databases
+    - Frequency allocation tools
+    duration: 12 weeks
+    outputs:
+    - Spectrum allocation plan
+    - Regulatory approvals
+  - step: 3
+    actor: Standards Development
+    action: Develop and validate 6G technical standards
+    tools:
+    - Standards development platforms
+    - Testing laboratories
+    - Interoperability frameworks
+    duration: 16 weeks
+    outputs:
+    - Technical standards documents
+    - Validation test results
+  - step: 4
+    actor: Security Engineering
+    action: Design quantum-resistant security frameworks
+    tools:
+    - Security architecture tools
+    - Cryptography platforms
+    - Threat modeling software
+    duration: 10 weeks
+    outputs:
+    - Security architecture design
+    - Quantum security protocols
+  - step: 5
+    actor: Infrastructure Deployment
+    action: Plan and execute network infrastructure rollout
+    tools:
+    - Infrastructure planning software
+    - Deployment management systems
+    - Quality assurance tools
+    duration: 20 weeks
+    outputs:
+    - Deployment roadmap
+    - Infrastructure specifications
+  - step: 6
+    actor: Regulatory Affairs
+    action: Manage regulatory compliance and certification processes
+    tools:
+    - Regulatory compliance systems
+    - Certification tracking
+    - Documentation management
+    duration: Ongoing
+    outputs:
+    - Compliance documentation
+    - Certification approvals
+  success_criteria: 6G network infrastructure operational with validated performance
+    and regulatory compliance
+  failure_modes:
+  - Spectrum allocation delays
+  - Standards development issues
+  - Security vulnerabilities
+  - Infrastructure deployment challenges

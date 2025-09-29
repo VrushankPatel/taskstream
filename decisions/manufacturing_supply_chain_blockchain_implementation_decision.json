@@ -3,8 +3,16 @@
   "context": "Global manufacturing company, 20,000 employees, facing supply chain transparency demands",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
-    "influencers": ["Supplier Relations Team", "IT Security", "Regulatory Compliance"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Supplier Relations Team",
+      "IT Security",
+      "Regulatory Compliance"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "requirements_analysis",
       "duration": "6 weeks",
-      "activities": ["Stakeholder requirements", "Regulatory analysis", "Technology evaluation"],
+      "activities": [
+        "Stakeholder requirements",
+        "Regulatory analysis",
+        "Technology evaluation"
+      ],
       "outcome": "Clear requirements for end-to-end traceability identified"
     },
     {
       "stage": "pilot_evaluation",
       "duration": "10 weeks",
-      "activities": ["Pilot program design", "Supplier engagement", "Technology testing"],
+      "activities": [
+        "Pilot program design",
+        "Supplier engagement",
+        "Technology testing"
+      ],
       "outcome": "Successful pilot demonstrating feasibility and benefits"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "8 weeks",
-      "activities": ["Scalability assessment", "Cost-benefit analysis", "Risk evaluation"],
+      "activities": [
+        "Scalability assessment",
+        "Cost-benefit analysis",
+        "Risk evaluation"
+      ],
       "outcome": "Approved for enterprise-wide implementation with phased approach"
     }
   ],
   "business_impact": {
     "expected_benefits": "Enhanced supply chain transparency, improved compliance, customer trust",
     "projected_revenue": "$50M in efficiency savings and new business",
-    "risk_factors": ["Supplier adoption challenges", "Technology integration complexity", "Cost overruns"]
+    "risk_factors": [
+      "Supplier adoption challenges",
+      "Technology integration complexity",
+      "Cost overruns"
+    ]
   }
 }

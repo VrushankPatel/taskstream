@@ -3,8 +3,15 @@
   "context": "Mid-size technology company, 500 employees, planning comprehensive cultural transformation to improve diversity, equity, and inclusion",
   "stakeholders": {
     "requester": "Chief People Officer",
-    "approvers": ["CEO", "Board Chair"],
-    "influencers": ["Department Heads", "Employee Resource Groups", "External DEI Consultant"]
+    "approvers": [
+      "CEO",
+      "Board Chair"
+    ],
+    "influencers": [
+      "Department Heads",
+      "Employee Resource Groups",
+      "External DEI Consultant"
+    ]
   },
   "request": {
     "amount": "$750,000",
@@ -16,19 +23,31 @@
     {
       "stage": "initial_assessment",
       "duration": "2 weeks",
-      "activities": ["Employee engagement survey", "Current culture assessment", "Benchmarking against industry standards"],
+      "activities": [
+        "Employee engagement survey",
+        "Current culture assessment",
+        "Benchmarking against industry standards"
+      ],
       "outcome": "Identified key cultural gaps and priorities"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "1 month",
-      "activities": ["Leadership workshops", "Employee focus groups", "Consultant interviews"],
+      "activities": [
+        "Leadership workshops",
+        "Employee focus groups",
+        "Consultant interviews"
+      ],
       "outcome": "Developed comprehensive transformation roadmap"
     },
     {
       "stage": "pilot_program",
       "duration": "3 months",
-      "activities": ["Department-level pilot implementation", "Training program rollout", "Progress monitoring"],
+      "activities": [
+        "Department-level pilot implementation",
+        "Training program rollout",
+        "Progress monitoring"
+      ],
       "outcome": "Validated approach with measurable improvements"
     }
   ],
@@ -36,6 +55,10 @@
     "expected_employee_satisfaction": "15% improvement",
     "projected_retention_rate": "10% increase",
     "diversity_hiring_goals": "30% increase in underrepresented groups",
-    "risk_factors": ["Resistance to change", "Resource allocation conflicts", "Measuring intangible cultural shifts"]
+    "risk_factors": [
+      "Resistance to change",
+      "Resource allocation conflicts",
+      "Measuring intangible cultural shifts"
+    ]
   }
 }

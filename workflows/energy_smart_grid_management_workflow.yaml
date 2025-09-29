@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_energy_sgm"
-  title: "Smart Grid Management and Optimization"
-  department: "Grid Operations"
-  complexity: "high"
-  participants: ["Chief Operating Officer", "Grid Control Manager", "IT Director", "Regulatory Affairs", "Field Operations"]
-  trigger: "Need to modernize grid infrastructure for renewable integration and efficiency"
+  id: workflow_energy_sgm
+  title: Smart Grid Management and Optimization
+  department: Grid Operations
+  complexity: high
+  participants:
+  - Chief Operating Officer
+  - Grid Control Manager
+  - IT Director
+  - Regulatory Affairs
+  - Field Operations
+  trigger: Need to modernize grid infrastructure for renewable integration and efficiency
   steps:
-    - step: 1
-      actor: "Grid Control Manager"
-      action: "Assess current grid infrastructure and identify modernization needs"
-      tools: ["Grid modeling software", "Infrastructure assessment tools"]
-      duration: "6 weeks"
-      outputs: ["Infrastructure assessment", "Modernization roadmap"]
-    - step: 2
-      actor: "IT Director"
-      action: "Evaluate smart grid technologies and select implementation approach"
-      decision_points: ["Technology maturity", "Integration complexity", "Cost-benefit analysis"]
-      duration: "8 weeks"
-      outputs: ["Technology selection", "Implementation plan"]
-    - step: 3
-      actor: "Regulatory Affairs"
-      action: "Ensure compliance with energy regulations and obtain necessary approvals"
-      tools: ["Regulatory databases", "Compliance tracking systems"]
-      duration: "4 weeks"
-      outputs: ["Regulatory compliance plan", "Approval documentation"]
-    - step: 4
-      actor: "Chief Operating Officer"
-      action: "Pilot smart grid components and validate performance improvements"
-      tools: ["Pilot monitoring systems", "Performance analytics"]
-      duration: "12 weeks"
-      outputs: ["Pilot results", "Performance validation reports"]
-    - step: 5
-      actor: "Grid Control Manager"
-      action: "Deploy smart grid system with operator training and monitoring"
-      tools: ["Deployment tools", "Training programs"]
-      duration: "6 weeks"
-      outputs: ["System deployment", "Operator training records"]
-  success_criteria: "Smart grid reduces outage duration by 40% and enables 30% renewable energy integration with stable operations"
-  failure_modes: ["Cybersecurity vulnerabilities in connected infrastructure", "Integration issues with legacy systems", "Regulatory approval delays"]
+  - step: 1
+    actor: Grid Control Manager
+    action: Assess current grid infrastructure and identify modernization needs
+    tools:
+    - Grid modeling software
+    - Infrastructure assessment tools
+    duration: 6 weeks
+    outputs:
+    - Infrastructure assessment
+    - Modernization roadmap
+  - step: 2
+    actor: IT Director
+    action: Evaluate smart grid technologies and select implementation approach
+    decision_points:
+    - Technology maturity
+    - Integration complexity
+    - Cost-benefit analysis
+    duration: 8 weeks
+    outputs:
+    - Technology selection
+    - Implementation plan
+  - step: 3
+    actor: Regulatory Affairs
+    action: Ensure compliance with energy regulations and obtain necessary approvals
+    tools:
+    - Regulatory databases
+    - Compliance tracking systems
+    duration: 4 weeks
+    outputs:
+    - Regulatory compliance plan
+    - Approval documentation
+  - step: 4
+    actor: Chief Operating Officer
+    action: Pilot smart grid components and validate performance improvements
+    tools:
+    - Pilot monitoring systems
+    - Performance analytics
+    duration: 12 weeks
+    outputs:
+    - Pilot results
+    - Performance validation reports
+  - step: 5
+    actor: Grid Control Manager
+    action: Deploy smart grid system with operator training and monitoring
+    tools:
+    - Deployment tools
+    - Training programs
+    duration: 6 weeks
+    outputs:
+    - System deployment
+    - Operator training records
+  success_criteria: Smart grid reduces outage duration by 40% and enables 30% renewable
+    energy integration with stable operations
+  failure_modes:
+  - Cybersecurity vulnerabilities in connected infrastructure
+  - Integration issues with legacy systems
+  - Regulatory approval delays

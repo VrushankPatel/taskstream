@@ -1,14 +1,14 @@
 # Meeting Notes: Q1 Marketing Budget Approval Discussion
 
-**Date:** September 25, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:**  
-- Jennifer Walsh, CMO  
-- Robert Chen, CFO  
-- Maria Gonzalez, VP Marketing  
-- Alex Thompson, Marketing Director  
-- Sarah Kim, Finance Analyst  
+**Date:** September 25, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:**
+- Jennifer Walsh, CMO
+- Robert Chen, CFO
+- Maria Gonzalez, VP Marketing
+- Alex Thompson, Marketing Director
+- Sarah Kim, Finance Analyst
 
 **Objective:** Review and approve Q1 marketing budget allocation
 

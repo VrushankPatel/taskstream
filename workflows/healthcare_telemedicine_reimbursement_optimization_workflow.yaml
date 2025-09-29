@@ -1,40 +1,80 @@
 workflow:
-  id: "workflow_002"
-  title: "Healthcare Telemedicine Reimbursement Optimization"
-  department: "Revenue Cycle Management"
-  complexity: "medium"
-  participants: ["Revenue Cycle Director", "Telemedicine Program Manager", "Billing Compliance Officer", "Clinical Documentation Specialists", "IT Billing Systems Team"]
-  trigger: "Declining reimbursement rates for telemedicine services"
+  id: workflow_002
+  title: Healthcare Telemedicine Reimbursement Optimization
+  department: Revenue Cycle Management
+  complexity: medium
+  participants:
+  - Revenue Cycle Director
+  - Telemedicine Program Manager
+  - Billing Compliance Officer
+  - Clinical Documentation Specialists
+  - IT Billing Systems Team
+  trigger: Declining reimbursement rates for telemedicine services
   steps:
-    - step: 1
-      actor: "Revenue Cycle Director"
-      action: "Analyze current telemedicine reimbursement patterns and identify optimization opportunities"
-      tools: ["Claims data analytics", "Payer policy databases", "Reimbursement tracking systems"]
-      duration: "2 weeks"
-      outputs: ["Reimbursement analysis report", "Optimization opportunity assessment"]
-    - step: 2
-      actor: "Telemedicine Program Manager"
-      action: "Review telemedicine service documentation requirements and update clinical protocols"
-      tools: ["Clinical documentation guidelines", "Telemedicine platform audit tools", "Service catalog databases"]
-      duration: "3 weeks"
-      outputs: ["Updated documentation protocols", "Service catalog revisions"]
-    - step: 3
-      actor: "Billing Compliance Officer"
-      action: "Ensure billing codes and modifiers comply with current payer policies and regulations"
-      tools: ["CPT code databases", "Regulatory compliance software", "Payer policy manuals"]
-      duration: "2 weeks"
-      outputs: ["Compliance review report", "Billing code optimization recommendations"]
-    - step: 4
-      actor: "Clinical Documentation Specialists"
-      action: "Train providers on optimized documentation practices for telemedicine reimbursement"
-      tools: ["Training materials", "Documentation templates", "Quality assurance tools"]
-      duration: "4 weeks"
-      outputs: ["Trained provider teams", "Documentation quality metrics"]
-    - step: 5
-      actor: "IT Billing Systems Team"
-      action: "Update billing systems to capture telemedicine-specific data and automate claim submissions"
-      tools: ["Billing system administration", "Integration platforms", "Automated workflow tools"]
-      duration: "6 weeks"
-      outputs: ["Updated billing systems", "Automated claim processing workflows"]
-  success_criteria: "15% improvement in telemedicine reimbursement rates with 98% clean claim rate"
-  failure_modes: ["Inadequate provider training", "System integration issues", "Payer policy changes", "Documentation compliance gaps"]
+  - step: 1
+    actor: Revenue Cycle Director
+    action: Analyze current telemedicine reimbursement patterns and identify optimization
+      opportunities
+    tools:
+    - Claims data analytics
+    - Payer policy databases
+    - Reimbursement tracking systems
+    duration: 2 weeks
+    outputs:
+    - Reimbursement analysis report
+    - Optimization opportunity assessment
+  - step: 2
+    actor: Telemedicine Program Manager
+    action: Review telemedicine service documentation requirements and update clinical
+      protocols
+    tools:
+    - Clinical documentation guidelines
+    - Telemedicine platform audit tools
+    - Service catalog databases
+    duration: 3 weeks
+    outputs:
+    - Updated documentation protocols
+    - Service catalog revisions
+  - step: 3
+    actor: Billing Compliance Officer
+    action: Ensure billing codes and modifiers comply with current payer policies
+      and regulations
+    tools:
+    - CPT code databases
+    - Regulatory compliance software
+    - Payer policy manuals
+    duration: 2 weeks
+    outputs:
+    - Compliance review report
+    - Billing code optimization recommendations
+  - step: 4
+    actor: Clinical Documentation Specialists
+    action: Train providers on optimized documentation practices for telemedicine
+      reimbursement
+    tools:
+    - Training materials
+    - Documentation templates
+    - Quality assurance tools
+    duration: 4 weeks
+    outputs:
+    - Trained provider teams
+    - Documentation quality metrics
+  - step: 5
+    actor: IT Billing Systems Team
+    action: Update billing systems to capture telemedicine-specific data and automate
+      claim submissions
+    tools:
+    - Billing system administration
+    - Integration platforms
+    - Automated workflow tools
+    duration: 6 weeks
+    outputs:
+    - Updated billing systems
+    - Automated claim processing workflows
+  success_criteria: 15% improvement in telemedicine reimbursement rates with 98% clean
+    claim rate
+  failure_modes:
+  - Inadequate provider training
+  - System integration issues
+  - Payer policy changes
+  - Documentation compliance gaps

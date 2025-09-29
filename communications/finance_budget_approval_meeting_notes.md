@@ -1,9 +1,9 @@
 ## Meeting Notes: Q4 2025 Budget Approval Review
 
-**Date:** October 10, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CFO, COO, Department Heads, Finance Team  
+**Date:** October 10, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CFO, COO, Department Heads, Finance Team
 
 ### Agenda
 1. Q4 Budget Overview and Assumptions
@@ -55,5 +55,5 @@
 ### Next Meeting
 November 10, 2025 - Q4 Budget Performance Review
 
-**Meeting Facilitator:** CFO  
+**Meeting Facilitator:** CFO
 **Note Taker:** Finance Manager

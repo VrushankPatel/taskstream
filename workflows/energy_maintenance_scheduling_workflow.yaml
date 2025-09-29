@@ -1,46 +1,76 @@
 workflow:
-  id: "energy_maintenance_scheduling_001"
-  title: "Power Plant Maintenance Scheduling and Execution"
-  department: "Operations & Maintenance"
-  complexity: "high"
-  participants: ["Maintenance Planners", "Operations Supervisors", "Maintenance Technicians", "Safety Officers", "Regulatory Compliance"]
-  trigger: "Scheduled maintenance interval or equipment performance alert"
+  id: energy_maintenance_scheduling_001
+  title: Power Plant Maintenance Scheduling and Execution
+  department: Operations & Maintenance
+  complexity: high
+  participants:
+  - Maintenance Planners
+  - Operations Supervisors
+  - Maintenance Technicians
+  - Safety Officers
+  - Regulatory Compliance
+  trigger: Scheduled maintenance interval or equipment performance alert
   steps:
-    - step: 1
-      actor: "Maintenance Planner"
-      action: "Assess maintenance requirements and resource availability"
-      tools: ["CMMS System", "Equipment Performance Database"]
-      duration: "30 minutes"
-      outputs: ["Maintenance work package"]
-    - step: 2
-      actor: "Operations Supervisor"
-      action: "Review operational impact and schedule outage window"
-      decision_points: ["System redundancy available", "Peak demand periods"]
-      duration: "45 minutes"
-      outputs: ["Outage schedule approval"]
-    - step: 3
-      actor: "Safety Officer"
-      action: "Conduct pre-maintenance safety briefing and hazard assessment"
-      tools: ["Safety Management System", "PPE Inventory"]
-      duration: "20 minutes"
-      outputs: ["Safety plan", "PPE assignments"]
-    - step: 4
-      actor: "Maintenance Technicians"
-      action: "Execute maintenance tasks with quality checks"
-      tools: ["Specialized Tools", "Testing Equipment"]
-      duration: "240 minutes"
-      outputs: ["Maintenance completion records", "Test results"]
-    - step: 5
-      actor: "Regulatory Compliance"
-      action: "Verify regulatory requirements and documentation"
-      tools: ["Compliance Database", "Inspection Records"]
-      duration: "30 minutes"
-      outputs: ["Compliance verification"]
-    - step: 6
-      actor: "Operations Supervisor"
-      action: "Conduct post-maintenance testing and system restoration"
-      tools: ["SCADA System", "Performance Monitoring"]
-      duration: "60 minutes"
-      outputs: ["System restoration confirmation", "Performance baseline"]
-  success_criteria: "Maintenance completed within scheduled window with full system restoration"
-  failure_modes: ["Unplanned equipment failures", "Safety incidents", "Extended outage requirements"]
+  - step: 1
+    actor: Maintenance Planner
+    action: Assess maintenance requirements and resource availability
+    tools:
+    - CMMS System
+    - Equipment Performance Database
+    duration: 30 minutes
+    outputs:
+    - Maintenance work package
+  - step: 2
+    actor: Operations Supervisor
+    action: Review operational impact and schedule outage window
+    decision_points:
+    - System redundancy available
+    - Peak demand periods
+    duration: 45 minutes
+    outputs:
+    - Outage schedule approval
+  - step: 3
+    actor: Safety Officer
+    action: Conduct pre-maintenance safety briefing and hazard assessment
+    tools:
+    - Safety Management System
+    - PPE Inventory
+    duration: 20 minutes
+    outputs:
+    - Safety plan
+    - PPE assignments
+  - step: 4
+    actor: Maintenance Technicians
+    action: Execute maintenance tasks with quality checks
+    tools:
+    - Specialized Tools
+    - Testing Equipment
+    duration: 240 minutes
+    outputs:
+    - Maintenance completion records
+    - Test results
+  - step: 5
+    actor: Regulatory Compliance
+    action: Verify regulatory requirements and documentation
+    tools:
+    - Compliance Database
+    - Inspection Records
+    duration: 30 minutes
+    outputs:
+    - Compliance verification
+  - step: 6
+    actor: Operations Supervisor
+    action: Conduct post-maintenance testing and system restoration
+    tools:
+    - SCADA System
+    - Performance Monitoring
+    duration: 60 minutes
+    outputs:
+    - System restoration confirmation
+    - Performance baseline
+  success_criteria: Maintenance completed within scheduled window with full system
+    restoration
+  failure_modes:
+  - Unplanned equipment failures
+  - Safety incidents
+  - Extended outage requirements

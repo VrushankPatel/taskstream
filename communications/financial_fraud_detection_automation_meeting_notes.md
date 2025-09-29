@@ -1,10 +1,10 @@
 ## Meeting Notes: Fraud Detection Automation Implementation
 
-**Date:** October 20, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual (Zoom)  
-**Attendees:** Tom Anderson (Chief Risk Officer), Rachel Kim (Fraud Analytics Lead), James Liu (IT Security Manager), Sarah Patel (Compliance Officer), Mark Johnson (Operations Manager)  
-**Facilitator:** Tom Anderson  
+**Date:** October 20, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual (Zoom)
+**Attendees:** Tom Anderson (Chief Risk Officer), Rachel Kim (Fraud Analytics Lead), James Liu (IT Security Manager), Sarah Patel (Compliance Officer), Mark Johnson (Operations Manager)
+**Facilitator:** Tom Anderson
 
 ### Agenda
 1. Current fraud detection challenges

@@ -1,8 +1,8 @@
 ## Email Thread: Retail Supply Chain Disruption Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Procurement Team  
-**Subject:** Urgent: Supply Disruption Response Plan - Electronics Category  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Procurement Team
+**Subject:** Urgent: Supply Disruption Response Plan - Electronics Category
 
 Team,
 
@@ -19,15 +19,15 @@ Immediate actions required:
 
 Please confirm receipt and execution status by EOD.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
+Best,
+Sarah Chen
+Supply Chain Director
 
 ---
 
-**From:** CEO  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category  
+**From:** CEO
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category
 
 Sarah,
 
@@ -40,15 +40,15 @@ Key questions for discussion:
 
 Please prepare executive summary.
 
-Regards,  
-Michael Torres  
-CEO  
+Regards,
+Michael Torres
+CEO
 
 ---
 
-**From:** Store Operations Manager  
-**To:** Supply Chain Director, Store Managers  
-**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category  
+**From:** Store Operations Manager
+**To:** Supply Chain Director, Store Managers
+**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category
 
 Sarah,
 
@@ -58,15 +58,15 @@ One concern: Some customers are frustrated with limited options. Should we offer
 
 Let me know if you need store-level data for the leadership call.
 
-Thanks,  
-Jennifer Liu  
-Store Operations Manager  
+Thanks,
+Jennifer Liu
+Store Operations Manager
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Procurement Team  
-**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Procurement Team
+**Subject:** Re: Urgent: Supply Disruption Response Plan - Electronics Category
 
 Thank you for the quick responses.
 
@@ -80,5 +80,5 @@ Leadership call confirmed for 2 PM. I've attached the executive summary with:
 
 Please review before the call.
 
-Best,  
+Best,
 Sarah

@@ -1,8 +1,8 @@
 ## Email Thread: Seasonal Worker Safety Training Program
 
-**From:** Agriculture Operations Manager  
-**To:** Farm Supervisors, HR Director, Safety Coordinator  
-**Subject:** Q1 Seasonal Worker Safety Training - Program Updates and Requirements  
+**From:** Agriculture Operations Manager
+**To:** Farm Supervisors, HR Director, Safety Coordinator
+**Subject:** Q1 Seasonal Worker Safety Training - Program Updates and Requirements
 
 Team,
 
@@ -18,16 +18,16 @@ Please ensure all supervisors complete the train-the-trainer session by March 15
 
 Let me know if you need additional resources or have scheduling constraints.
 
-Best,  
-Maria Rodriguez  
-Agriculture Operations Manager  
-Green Valley Farms  
+Best,
+Maria Rodriguez
+Agriculture Operations Manager
+Green Valley Farms
 
 ---
 
-**From:** Farm Supervisor - North Field  
-**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator  
-**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements  
+**From:** Farm Supervisor - North Field
+**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator
+**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements
 
 Maria,
 
@@ -35,15 +35,15 @@ The enhanced training sounds comprehensive. For our North Field location, we typ
 
 Can we schedule the train-the-trainer session for March 8th? Also, do we have the updated training materials available yet? Our current modules are from last season.
 
-Thanks,  
-Carlos Mendez  
-Farm Supervisor - North Field  
+Thanks,
+Carlos Mendez
+Farm Supervisor - North Field
 
 ---
 
-**From:** Safety Coordinator  
-**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator  
-**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements  
+**From:** Safety Coordinator
+**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator
+**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements
 
 Carlos,
 
@@ -55,15 +55,15 @@ For the heat stress module, we've partnered with the local health department for
 
 Let me know if you need help coordinating transportation for workers to the training facility.
 
-Best,  
-Dr. Sarah Chen  
-Safety Coordinator  
+Best,
+Dr. Sarah Chen
+Safety Coordinator
 
 ---
 
-**From:** HR Director  
-**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator  
-**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements  
+**From:** HR Director
+**To:** Agriculture Operations Manager, Farm Supervisors, HR Director, Safety Coordinator
+**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements
 
 Team,
 
@@ -73,15 +73,15 @@ I've updated the worker handbook to include the new training completion certific
 
 Please track completion rates by location - we need 100% compliance for audit purposes.
 
-Regards,  
-Jennifer Walsh  
-HR Director  
+Regards,
+Jennifer Walsh
+HR Director
 
 ---
 
-**From:** Agriculture Operations Manager  
-**To:** Farm Supervisors, HR Director, Safety Coordinator  
-**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements  
+**From:** Agriculture Operations Manager
+**To:** Farm Supervisors, HR Director, Safety Coordinator
+**Subject:** Re: Q1 Seasonal Worker Safety Training - Program Updates and Requirements
 
 Thanks everyone for the quick responses. Jennifer, the bonus incentive is a great addition - that should improve completion rates.
 
@@ -89,5 +89,5 @@ Carlos, the March 8th session is confirmed. Sarah, please coordinate with transp
 
 We'll have a follow-up meeting next week to review progress. Safety first - let's make this our best season yet.
 
-Best,  
+Best,
 Maria

@@ -3,8 +3,15 @@
   "context": "Defense contractor, 8,000 employees, pursuing $500M government contract",
   "stakeholders": {
     "requester": "Business Development Director",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Technical Director", "Legal Counsel", "Finance VP"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Technical Director",
+      "Legal Counsel",
+      "Finance VP"
+    ]
   },
   "request": {
     "amount": "$5M",
@@ -16,25 +23,41 @@
     {
       "stage": "opportunity_assessment",
       "duration": "2 weeks",
-      "activities": ["Technical capability review", "Competitive analysis", "Win probability assessment"],
+      "activities": [
+        "Technical capability review",
+        "Competitive analysis",
+        "Win probability assessment"
+      ],
       "outcome": "High strategic value, 35% win probability estimated"
     },
     {
       "stage": "resource_commitment",
       "duration": "1 week",
-      "activities": ["Team assembly planning", "Budget allocation", "Schedule development"],
+      "activities": [
+        "Team assembly planning",
+        "Budget allocation",
+        "Schedule development"
+      ],
       "outcome": "Approved $4.2M bid budget with contingency"
     },
     {
       "stage": "risk_evaluation",
       "duration": "3 days",
-      "activities": ["Compliance review", "Security clearance verification", "Financial risk assessment"],
+      "activities": [
+        "Compliance review",
+        "Security clearance verification",
+        "Financial risk assessment"
+      ],
       "outcome": "All risks acceptable with mitigation plans"
     }
   ],
   "business_impact": {
     "expected_outcome": "Secure $500M contract over 5 years",
     "projected_revenue": "$500M",
-    "risk_factors": ["Competitive bidding pressure", "Government budget uncertainties", "Compliance requirements"]
+    "risk_factors": [
+      "Competitive bidding pressure",
+      "Government budget uncertainties",
+      "Compliance requirements"
+    ]
   }
 }

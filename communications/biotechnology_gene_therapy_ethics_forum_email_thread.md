@@ -1,10 +1,10 @@
 ## Email Thread: Biotechnology Gene Therapy Ethics Forum Discussion
 
-**From:** Dr. Rachel Simmons, Bioethics Committee Chair  
-**To:** Biotechnology Leadership Team, Ethics Committee Members  
-**Subject:** Gene Therapy Ethics Forum - Key Discussion Points and Decisions  
+**From:** Dr. Rachel Simmons, Bioethics Committee Chair
+**To:** Biotechnology Leadership Team, Ethics Committee Members
+**Subject:** Gene Therapy Ethics Forum - Key Discussion Points and Decisions
 
-**Date:** September 20, 2025  
+**Date:** September 20, 2025
 
 Team,
 
@@ -35,16 +35,16 @@ Following our ethics forum on CRISPR-based gene therapy for Huntington's disease
 
 Please review the full forum transcript attached. Let me know if you have questions or concerns about implementation.
 
-Best,  
-Dr. Rachel Simmons  
+Best,
+Dr. Rachel Simmons
 
 ---
 
-**From:** Dr. Michael Torres, Chief Scientific Officer  
-**To:** Dr. Rachel Simmons, Biotechnology Leadership Team  
-**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions  
+**From:** Dr. Michael Torres, Chief Scientific Officer
+**To:** Dr. Rachel Simmons, Biotechnology Leadership Team
+**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions
 
-**Date:** September 21, 2025  
+**Date:** September 21, 2025
 
 Rachel,
 
@@ -54,15 +54,15 @@ One concern I have is the potential impact on research timelines. The enhanced o
 
 Also, I suggest we engage with international ethics bodies to ensure our standards align with global best practices.
 
-Michael  
+Michael
 
 ---
 
-**From:** Sarah Patel, Patient Advocacy Director  
-**To:** Dr. Rachel Simmons, Dr. Michael Torres, Biotechnology Leadership Team  
-**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions  
+**From:** Sarah Patel, Patient Advocacy Director
+**To:** Dr. Rachel Simmons, Dr. Michael Torres, Biotechnology Leadership Team
+**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions
 
-**Date:** September 22, 2025  
+**Date:** September 22, 2025
 
 Rachel, Michael,
 
@@ -75,15 +75,15 @@ Additional suggestions:
 - Establish patient advisory boards for each disease area
 - Develop clear criteria for patient selection that prioritize medical need over ability to pay
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Dr. James Liu, Regulatory Affairs Director  
-**To:** Dr. Rachel Simmons, Dr. Michael Torres, Sarah Patel, Biotechnology Leadership Team  
-**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions  
+**From:** Dr. James Liu, Regulatory Affairs Director
+**To:** Dr. Rachel Simmons, Dr. Michael Torres, Sarah Patel, Biotechnology Leadership Team
+**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions
 
-**Date:** September 23, 2025  
+**Date:** September 23, 2025
 
 The forum decisions align well with FDA and EMA expectations for gene therapy development. The enhanced oversight will actually strengthen our regulatory submissions.
 
@@ -94,15 +94,15 @@ Key regulatory considerations:
 
 I recommend we establish a dedicated regulatory ethics liaison role to coordinate between our ethics committee and regulatory bodies.
 
-James  
+James
 
 ---
 
-**From:** Dr. Rachel Simmons, Bioethics Committee Chair  
-**To:** Biotechnology Leadership Team  
-**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions  
+**From:** Dr. Rachel Simmons, Bioethics Committee Chair
+**To:** Biotechnology Leadership Team
+**Subject:** Re: Gene Therapy Ethics Forum - Key Discussion Points and Decisions
 
-**Date:** September 24, 2025  
+**Date:** September 24, 2025
 
 Thank you all for the thoughtful responses. I've incorporated your suggestions into the implementation plan.
 
@@ -115,5 +115,5 @@ Thank you all for the thoughtful responses. I've incorporated your suggestions i
 
 I'll schedule a follow-up meeting for October 5 to discuss implementation details.
 
-Best,  
+Best,
 Rachel

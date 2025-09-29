@@ -3,8 +3,17 @@
   "context": "Manufacturing company evaluating blockchain implementation for supply chain traceability to meet regulatory requirements and customer demands",
   "stakeholders": {
     "requester": "VP of Supply Chain",
-    "approvers": ["CEO", "CTO", "Chief Compliance Officer"],
-    "influencers": ["Supplier Network", "IT Department", "Quality Assurance", "Customer Representatives"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Chief Compliance Officer"
+    ],
+    "influencers": [
+      "Supplier Network",
+      "IT Department",
+      "Quality Assurance",
+      "Customer Representatives"
+    ]
   },
   "request": {
     "amount": "$3.2 million",
@@ -16,31 +25,52 @@
     {
       "stage": "requirements_analysis",
       "duration": "6 weeks",
-      "activities": ["Regulatory requirement mapping", "Customer demand assessment", "Technical feasibility study"],
+      "activities": [
+        "Regulatory requirement mapping",
+        "Customer demand assessment",
+        "Technical feasibility study"
+      ],
       "outcome": "Clear traceability requirements identified with blockchain as optimal solution"
     },
     {
       "stage": "technology_evaluation",
       "duration": "8 weeks",
-      "activities": ["Blockchain platform assessment", "Supplier integration analysis", "Security and scalability testing"],
+      "activities": [
+        "Blockchain platform assessment",
+        "Supplier integration analysis",
+        "Security and scalability testing"
+      ],
       "outcome": "Enterprise-grade blockchain platform selected with proven supply chain applications"
     },
     {
       "stage": "supplier_engagement",
       "duration": "10 weeks",
-      "activities": ["Supplier capability assessment", "Onboarding strategy development", "Incentive program design"],
+      "activities": [
+        "Supplier capability assessment",
+        "Onboarding strategy development",
+        "Incentive program design"
+      ],
       "outcome": "Supplier participation plan developed with 80% target participation rate"
     },
     {
       "stage": "pilot_implementation",
       "duration": "12 weeks",
-      "activities": ["Pilot program design", "System integration testing", "Performance validation"],
+      "activities": [
+        "Pilot program design",
+        "System integration testing",
+        "Performance validation"
+      ],
       "outcome": "Successful pilot demonstrating 95% traceability accuracy and 60% faster recall processes"
     }
   ],
   "business_impact": {
     "expected_recall_efficiency": "70% improvement",
     "projected_cost_savings": "$2 million annually",
-    "risk_factors": ["Supplier adoption challenges", "Technical integration complexity", "Data privacy concerns", "Regulatory uncertainty"]
+    "risk_factors": [
+      "Supplier adoption challenges",
+      "Technical integration complexity",
+      "Data privacy concerns",
+      "Regulatory uncertainty"
+    ]
   }
 }

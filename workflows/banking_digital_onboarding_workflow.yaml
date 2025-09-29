@@ -1,44 +1,72 @@
 workflow:
-  id: "workflow_banking_digital_onboarding"
-  title: "Banking Digital Customer Onboarding Workflow"
-  department: "Digital Banking"
-  complexity: "medium"
-  participants: ["Digital Onboarding Specialist", "Compliance Officer", "Fraud Prevention Analyst", "Account Setup Team", "Customer Support"]
-  trigger: "Customer completes online account application"
+  id: workflow_banking_digital_onboarding
+  title: Banking Digital Customer Onboarding Workflow
+  department: Digital Banking
+  complexity: medium
+  participants:
+  - Digital Onboarding Specialist
+  - Compliance Officer
+  - Fraud Prevention Analyst
+  - Account Setup Team
+  - Customer Support
+  trigger: Customer completes online account application
   steps:
-    - step: 1
-      actor: "Digital Onboarding Specialist"
-      action: "Validate application data and perform initial identity verification"
-      tools: ["Digital onboarding platform", "Identity verification APIs"]
-      duration: "10 minutes"
-      outputs: ["Data validation report", "Identity verification status"]
-    - step: 2
-      actor: "Compliance Officer"
-      action: "Conduct KYC and AML screening"
-      tools: ["KYC database", "AML risk assessment tools"]
-      duration: "30 minutes"
-      outputs: ["KYC compliance check", "Risk profile"]
-    - step: 3
-      actor: "Fraud Prevention Analyst"
-      action: "Review for fraudulent activity indicators"
-      tools: ["Fraud detection system", "Device and behavioral analytics"]
-      duration: "15 minutes"
-      outputs: ["Fraud risk assessment"]
-    - step: 4
-      actor: "Account Setup Team"
-      action: "Create account and configure digital banking features"
-      tools: ["Core banking system", "Digital banking platform"]
-      duration: "20 minutes"
-      outputs: ["Account creation confirmation", "Digital access setup"]
-    - step: 5
-      actor: "Customer Support"
-      action: "Send welcome communications and activation instructions"
-      tools: ["Email automation", "SMS platform"]
-      duration: "5 minutes"
-      outputs: ["Welcome package delivered", "Activation status"]
-  success_criteria: "Customer account activated within 24 hours with full digital access"
-  failure_modes: ["Identity verification failures", "Compliance issues", "Fraud flags", "System integration errors"]
+  - step: 1
+    actor: Digital Onboarding Specialist
+    action: Validate application data and perform initial identity verification
+    tools:
+    - Digital onboarding platform
+    - Identity verification APIs
+    duration: 10 minutes
+    outputs:
+    - Data validation report
+    - Identity verification status
+  - step: 2
+    actor: Compliance Officer
+    action: Conduct KYC and AML screening
+    tools:
+    - KYC database
+    - AML risk assessment tools
+    duration: 30 minutes
+    outputs:
+    - KYC compliance check
+    - Risk profile
+  - step: 3
+    actor: Fraud Prevention Analyst
+    action: Review for fraudulent activity indicators
+    tools:
+    - Fraud detection system
+    - Device and behavioral analytics
+    duration: 15 minutes
+    outputs:
+    - Fraud risk assessment
+  - step: 4
+    actor: Account Setup Team
+    action: Create account and configure digital banking features
+    tools:
+    - Core banking system
+    - Digital banking platform
+    duration: 20 minutes
+    outputs:
+    - Account creation confirmation
+    - Digital access setup
+  - step: 5
+    actor: Customer Support
+    action: Send welcome communications and activation instructions
+    tools:
+    - Email automation
+    - SMS platform
+    duration: 5 minutes
+    outputs:
+    - Welcome package delivered
+    - Activation status
+  success_criteria: Customer account activated within 24 hours with full digital access
+  failure_modes:
+  - Identity verification failures
+  - Compliance issues
+  - Fraud flags
+  - System integration errors
   metrics:
-    - "Onboarding completion rate: 90%"
-    - "Average activation time: 4 hours"
-    - "Customer satisfaction: 4.2/5"
+  - 'Onboarding completion rate: 90%'
+  - 'Average activation time: 4 hours'
+  - 'Customer satisfaction: 4.2/5'

@@ -1,61 +1,100 @@
 workflow:
-  id: "workflow_international_compliance"
-  title: "International Cross-Border Compliance Workflow"
-  department: "Legal/Compliance"
-  complexity: "high"
-  participants: ["Compliance Officers", "Legal Counsel", "Regional Managers", "Tax Specialists", "Data Privacy Officers", "Trade Compliance"]
-  trigger: "New market entry or significant cross-border transaction"
+  id: workflow_international_compliance
+  title: International Cross-Border Compliance Workflow
+  department: Legal/Compliance
+  complexity: high
+  participants:
+  - Compliance Officers
+  - Legal Counsel
+  - Regional Managers
+  - Tax Specialists
+  - Data Privacy Officers
+  - Trade Compliance
+  trigger: New market entry or significant cross-border transaction
   steps:
-    - step: 1
-      actor: "Compliance Officers"
-      action: "Conduct comprehensive regulatory landscape assessment"
-      tools: ["Regulatory databases", "Compliance monitoring tools"]
-      duration: "3 weeks"
-      outputs: ["Regulatory assessment report", "Compliance requirements matrix"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Review local laws, contracts, and dispute resolution mechanisms"
-      tools: ["Legal research databases", "Contract templates"]
-      duration: "4 weeks"
-      outputs: ["Legal review report", "Contract frameworks"]
-    - step: 3
-      actor: "Tax Specialists"
-      action: "Analyze tax implications and transfer pricing requirements"
-      tools: ["Tax compliance software", "Transfer pricing models"]
-      duration: "3 weeks"
-      outputs: ["Tax analysis report", "Transfer pricing documentation"]
-    - step: 4
-      actor: "Data Privacy Officers"
-      action: "Assess data protection and privacy law compliance"
-      tools: ["Privacy assessment frameworks", "GDPR compliance tools"]
-      duration: "2 weeks"
-      outputs: ["Privacy compliance report", "Data protection measures"]
-    - step: 5
-      actor: "Trade Compliance"
-      action: "Review export controls, sanctions, and trade regulations"
-      tools: ["Trade compliance databases", "Export control systems"]
-      duration: "3 weeks"
-      outputs: ["Trade compliance report", "Export licensing documentation"]
-    - step: 6
-      actor: "Regional Managers"
-      action: "Develop localization strategy and cultural adaptation plans"
-      tools: ["Cultural assessment tools", "Localization frameworks"]
-      duration: "2 weeks"
-      outputs: ["Localization strategy", "Cultural adaptation plans"]
-    - step: 7
-      actor: "Compliance Officers"
-      action: "Implement compliance monitoring and reporting systems"
-      tools: ["Compliance management systems", "Reporting dashboards"]
-      duration: "2 weeks"
-      outputs: ["Monitoring systems", "Compliance reporting framework"]
-  success_criteria: "Comprehensive compliance framework enabling safe cross-border operations"
-  failure_modes: ["Regulatory oversights", "Tax compliance issues", "Data privacy breaches", "Cultural adaptation failures"]
+  - step: 1
+    actor: Compliance Officers
+    action: Conduct comprehensive regulatory landscape assessment
+    tools:
+    - Regulatory databases
+    - Compliance monitoring tools
+    duration: 3 weeks
+    outputs:
+    - Regulatory assessment report
+    - Compliance requirements matrix
+  - step: 2
+    actor: Legal Counsel
+    action: Review local laws, contracts, and dispute resolution mechanisms
+    tools:
+    - Legal research databases
+    - Contract templates
+    duration: 4 weeks
+    outputs:
+    - Legal review report
+    - Contract frameworks
+  - step: 3
+    actor: Tax Specialists
+    action: Analyze tax implications and transfer pricing requirements
+    tools:
+    - Tax compliance software
+    - Transfer pricing models
+    duration: 3 weeks
+    outputs:
+    - Tax analysis report
+    - Transfer pricing documentation
+  - step: 4
+    actor: Data Privacy Officers
+    action: Assess data protection and privacy law compliance
+    tools:
+    - Privacy assessment frameworks
+    - GDPR compliance tools
+    duration: 2 weeks
+    outputs:
+    - Privacy compliance report
+    - Data protection measures
+  - step: 5
+    actor: Trade Compliance
+    action: Review export controls, sanctions, and trade regulations
+    tools:
+    - Trade compliance databases
+    - Export control systems
+    duration: 3 weeks
+    outputs:
+    - Trade compliance report
+    - Export licensing documentation
+  - step: 6
+    actor: Regional Managers
+    action: Develop localization strategy and cultural adaptation plans
+    tools:
+    - Cultural assessment tools
+    - Localization frameworks
+    duration: 2 weeks
+    outputs:
+    - Localization strategy
+    - Cultural adaptation plans
+  - step: 7
+    actor: Compliance Officers
+    action: Implement compliance monitoring and reporting systems
+    tools:
+    - Compliance management systems
+    - Reporting dashboards
+    duration: 2 weeks
+    outputs:
+    - Monitoring systems
+    - Compliance reporting framework
+  success_criteria: Comprehensive compliance framework enabling safe cross-border
+    operations
+  failure_modes:
+  - Regulatory oversights
+  - Tax compliance issues
+  - Data privacy breaches
+  - Cultural adaptation failures
   metrics:
-    - "Compliance audit pass rate: Target 100%"
-    - "Regulatory violation incidents: Target 0"
-    - "Cross-border transaction processing time: Target <5 days"
-    - "Data privacy compliance score: Target >95%"
-    - "Tax compliance accuracy: Target >99%"
-    - "Cultural adaptation training completion: Target 90%"
-    - "International partner satisfaction: Target 4.5/5"
-    - "Risk mitigation effectiveness: Target >90%"
+  - 'Compliance audit pass rate: Target 100%'
+  - 'Regulatory violation incidents: Target 0'
+  - 'Cross-border transaction processing time: Target <5 days'
+  - 'Data privacy compliance score: Target >95%'
+  - 'Tax compliance accuracy: Target >99%'
+  - 'Cultural adaptation training completion: Target 90%'
+  - 'International partner satisfaction: Target 4.5/5'
+  - 'Risk mitigation effectiveness: Target >90%'

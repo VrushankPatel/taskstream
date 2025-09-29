@@ -3,8 +3,16 @@
   "context": "Nonprofit organization seeking funding for comprehensive digital transformation to improve operational efficiency",
   "stakeholders": {
     "requester": "Executive Director",
-    "approvers": ["Board of Directors", "Finance Committee", "Program Directors"],
-    "influencers": ["Major Donors", "Technology Partners", "Beneficiary Representatives"]
+    "approvers": [
+      "Board of Directors",
+      "Finance Committee",
+      "Program Directors"
+    ],
+    "influencers": [
+      "Major Donors",
+      "Technology Partners",
+      "Beneficiary Representatives"
+    ]
   },
   "request": {
     "amount": "$850,000",
@@ -16,28 +24,50 @@
     {
       "stage": "needs_assessment",
       "duration": "4 weeks",
-      "activities": ["Operational efficiency analysis", "Technology gap assessment", "Stakeholder interviews"],
+      "activities": [
+        "Operational efficiency analysis",
+        "Technology gap assessment",
+        "Stakeholder interviews"
+      ],
       "outcome": "Clear digital transformation needs identified"
     },
     {
       "stage": "funding_strategy",
       "duration": "6 weeks",
-      "activities": ["Grant proposal development", "Donor outreach", "Partnership exploration"],
+      "activities": [
+        "Grant proposal development",
+        "Donor outreach",
+        "Partnership exploration"
+      ],
       "outcome": "Multiple funding sources secured"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "8 weeks",
-      "activities": ["RFP process", "Vendor demonstrations", "Reference checks"],
+      "activities": [
+        "RFP process",
+        "Vendor demonstrations",
+        "Reference checks"
+      ],
       "outcome": "Technology solution selected with nonprofit pricing"
     }
   ],
   "business_impact": {
     "expected_outcome": "50% improvement in operational efficiency, enhanced beneficiary services, increased fundraising capacity",
     "projected_value": "$2.5M in long-term benefits through improved operations",
-    "risk_factors": ["Implementation challenges", "Staff resistance", "Funding shortfalls", "Data security concerns"]
+    "risk_factors": [
+      "Implementation challenges",
+      "Staff resistance",
+      "Funding shortfalls",
+      "Data security concerns"
+    ]
   },
-  "decision_criteria": ["Beneficiary impact", "Financial sustainability", "Technical feasibility", "Organizational readiness"],
+  "decision_criteria": [
+    "Beneficiary impact",
+    "Financial sustainability",
+    "Technical feasibility",
+    "Organizational readiness"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Digital transformation in nonprofits requires comprehensive change management and ongoing training"
 }

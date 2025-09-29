@@ -1,0 +1,107 @@
+name: Asia Insurance Medium Parametric Underwriting Workflow
+description: Medium-complexity workflow for parametric insurance underwriting in Asian markets with data analytics and risk modeling
+industry: insurance
+region: Asia
+complexity: medium
+temporal_data:
+  estimated_duration: 1-2 weeks
+  business_hours: 09:00-18:00 local time
+  peak_season: Monsoon season (June-September)
+performance_history:
+  average_underwriting_time: 7 days
+  risk_accuracy: 92%
+  claims_efficiency: 85%
+actors:
+  - role: Underwriting Manager
+    department: Underwriting
+    responsibilities: Oversee parametric products, manage risk models, approve complex cases
+  - role: Parametric Analyst
+    department: Risk Analytics
+    responsibilities: Develop parametric models, analyze data, validate triggers
+  - role: Product Specialist
+    department: Product Development
+    responsibilities: Design parametric products, set pricing parameters
+  - role: Compliance Officer
+    department: Regulatory Affairs
+    responsibilities: Ensure regulatory compliance, validate documentation
+steps:
+  - id: risk_assessment
+    name: Risk Assessment
+    description: Assess underlying risk factors and data availability
+    actors: [Parametric Analyst, Underwriting Manager]
+    inputs: [Risk data sources, Historical claims data, Parametric triggers]
+    outputs: [Risk assessment report, Data quality evaluation]
+    decision_points:
+      - condition: Sufficient data and clear triggers available
+        next_step: model_development
+      - condition: Data gaps identified
+        next_step: data_acquisition
+    tools: [Risk modeling software, Data analytics platform]
+    success_criteria: Assessment completed within 3 days
+    failure_modes: [Insufficient data quality, Unclear risk triggers]
+  - id: model_development
+    name: Parametric Model Development
+    description: Develop and validate parametric insurance models
+    actors: [Parametric Analyst, Product Specialist]
+    inputs: [Risk assessment, Modeling algorithms, Validation datasets]
+    outputs: [Parametric model, Validation report, Trigger definitions]
+    decision_points: []
+    tools: [Statistical modeling software, Machine learning platforms]
+    success_criteria: Model validated with 90%+ accuracy within 5 days
+    failure_modes: [Model overfitting, Validation failures]
+  - id: product_design
+    name: Product Design
+    description: Design parametric insurance product structure
+    actors: [Product Specialist, Underwriting Manager]
+    inputs: [Parametric model, Market analysis, Pricing guidelines]
+    outputs: [Product specifications, Pricing structure, Terms and conditions]
+    decision_points:
+      - condition: Product meets requirements
+        next_step: compliance_review
+      - condition: Design revisions needed
+        next_step: product_revision
+    tools: [Product design software, Pricing models]
+    success_criteria: Product designed within 4 days
+    failure_modes: [Pricing inaccuracies, Market misalignment]
+  - id: compliance_review
+    name: Regulatory Compliance Review
+    description: Review product for regulatory compliance
+    actors: [Compliance Officer, Underwriting Manager]
+    inputs: [Product specifications, Regulatory requirements, Legal review]
+    outputs: [Compliance report, Approval recommendations]
+    decision_points:
+      - condition: Compliant with regulations
+        next_step: final_approval
+      - condition: Compliance issues identified
+        next_step: compliance_corrective_action
+    tools: [Compliance management system, Regulatory database]
+    success_criteria: Review completed within 3 days
+    failure_modes: [Regulatory violations, Documentation issues]
+  - id: final_approval
+    name: Final Approval and Launch
+    description: Final approval and product launch preparation
+    actors: [Underwriting Manager, Product Specialist]
+    inputs: [Compliance approval, Product documentation]
+    outputs: [Launch approval, Marketing materials, Underwriting guidelines]
+    decision_points: []
+    tools: [Product management system, Documentation platform]
+    success_criteria: Product ready for launch within 2 days
+    failure_modes: [Approval delays, Documentation errors]
+success_criteria:
+  - Product launched within 14 days
+  - 90%+ model accuracy
+  - Regulatory compliance maintained
+failure_modes:
+  - Model development delays
+  - Regulatory non-compliance
+  - Pricing errors
+metrics:
+  - name: Development Time
+    target: <14 days
+    current: 10 days
+  - name: Model Accuracy
+    target: >90%
+    current: 92%
+  - name: Compliance Rate
+    target: >98%
+    current: 99%

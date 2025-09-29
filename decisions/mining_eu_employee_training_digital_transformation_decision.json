@@ -1,0 +1,204 @@
+{
+  "name": "EU Mining Employee Training Digital Transformation Decision",
+  "description": "Strategic decision for implementing comprehensive digital skills training program for mining workforce transitioning to Industry 4.0 technologies",
+  "industry": "mining",
+  "region": "EU",
+  "business_function": "employee_training",
+  "decision_context": {
+    "trigger": "Industry 4.0 adoption requiring upskilling of 60% of mining workforce in automation, data analytics, and digital safety systems",
+    "objectives": [
+      "Upskill 2000 employees within 3 years",
+      "Achieve 90% digital competency across operations",
+      "Reduce safety incidents through technology adoption"
+    ],
+    "constraints": [
+      "Budget: €15M over 3 years",
+      "EU regulatory requirements for worker training",
+      "Minimal disruption to production operations"
+    ],
+    "timeline": "Program launch within 6 months, full implementation over 36 months"
+  },
+  "stakeholders": [
+    {
+      "role": "CEO",
+      "department": "Executive",
+      "interests": "Operational efficiency, productivity gains, regulatory compliance",
+      "influence": "high",
+      "position": "Support with ROI focus"
+    },
+    {
+      "role": "CHRO",
+      "department": "Human Resources",
+      "interests": "Employee development, retention, workplace safety",
+      "influence": "high",
+      "position": "Strong support for comprehensive program"
+    },
+    {
+      "role": "COO",
+      "department": "Operations",
+      "interests": "Production continuity, technology adoption, safety improvements",
+      "influence": "high",
+      "position": "Support with minimal operational disruption"
+    },
+    {
+      "role": "CFO",
+      "department": "Finance",
+      "interests": "Cost control, ROI measurement, budget allocation",
+      "influence": "medium",
+      "position": "Support with detailed cost-benefit analysis"
+    },
+    {
+      "role": "IT Director",
+      "department": "Information Technology",
+      "interests": "Technology integration, system compatibility, cybersecurity training",
+      "influence": "medium",
+      "position": "Support for technology-focused curriculum"
+    },
+    {
+      "role": "Safety Director",
+      "department": "Health & Safety",
+      "interests": "Worker safety, incident reduction, compliance training",
+      "influence": "medium",
+      "position": "Strong support for safety technology training"
+    },
+    {
+      "role": "Union Representative",
+      "department": "Employee Relations",
+      "interests": "Worker rights, fair training access, job security",
+      "influence": "medium",
+      "position": "Support with inclusive program design"
+    }
+  ],
+  "alternatives": [
+    {
+      "name": "Comprehensive Digital Academy",
+      "description": "Build dedicated training facility with full-time instructors, VR simulation labs, and personalized learning paths for all digital technologies",
+      "costs": {
+        "initial_investment": 12000000,
+        "annual_operating_cost": 3000000,
+        "implementation_timeline": 24
+      },
+      "benefits": {
+        "skill_acquisition_rate": 95,
+        "productivity_improvement": 35,
+        "roi_period": 3
+      },
+      "risks": [
+        "High upfront investment",
+        "Long development timeline",
+        "Potential over-specialization"
+      ],
+      "feasibility_score": 6
+    },
+    {
+      "name": "Blended Learning Platform",
+      "description": "Implement online learning platform combined with hands-on workshops, supplemented by external certification programs",
+      "costs": {
+        "initial_investment": 5000000,
+        "annual_operating_cost": 1500000,
+        "implementation_timeline": 12
+      },
+      "benefits": {
+        "skill_acquisition_rate": 85,
+        "productivity_improvement": 25,
+        "roi_period": 4
+      },
+      "risks": [
+        "Digital literacy barriers",
+        "Quality control challenges",
+        "Limited hands-on practice"
+      ],
+      "feasibility_score": 9
+    },
+    {
+      "name": "Partnership-Based Program",
+      "description": "Partner with technical universities and equipment vendors for specialized training programs with on-site certification",
+      "costs": {
+        "initial_investment": 3000000,
+        "annual_operating_cost": 1000000,
+        "implementation_timeline": 6
+      },
+      "benefits": {
+        "skill_acquisition_rate": 75,
+        "productivity_improvement": 20,
+        "roi_period": 5
+      },
+      "risks": [
+        "Dependency on external providers",
+        "Curriculum consistency issues",
+        "Limited customization"
+      ],
+      "feasibility_score": 8
+    }
+  ],
+  "evaluation_criteria": [
+    {
+      "criterion": "Training Effectiveness",
+      "weight": 0.3,
+      "metrics": ["Skill acquisition rate", "Knowledge retention", "Certification completion"]
+    },
+    {
+      "criterion": "Business Impact",
+      "weight": 0.25,
+      "metrics": ["Productivity improvement", "Safety incident reduction", "Technology adoption rate"]
+    },
+    {
+      "criterion": "Cost Efficiency",
+      "weight": 0.2,
+      "metrics": ["Cost per employee", "ROI timeline", "Budget utilization"]
+    },
+    {
+      "criterion": "Implementation Feasibility",
+      "weight": 0.15,
+      "metrics": ["Timeline adherence", "Resource requirements", "Operational disruption"]
+    },
+    {
+      "criterion": "Compliance & Scalability",
+      "weight": 0.1,
+      "metrics": ["Regulatory compliance", "Program scalability", "Future adaptability"]
+    }
+  ],
+  "recommendation": {
+    "selected_alternative": "Blended Learning Platform",
+    "rationale": "Provides comprehensive digital skills training with flexible delivery options, balancing cost-effectiveness with learning outcomes. Allows for scalable implementation across multiple sites while meeting EU regulatory requirements for worker training.",
+    "expected_outcomes": [
+      "85% of workforce digitally competent within 3 years",
+      "25% improvement in operational productivity",
+      "30% reduction in technology-related safety incidents",
+      "Full compliance with EU mining regulations"
+    ],
+    "implementation_plan": {
+      "phase_1": "Platform development and pilot program (Months 1-6)",
+      "phase_2": "Full rollout with regional training centers (Months 7-24)",
+      "phase_3": "Advanced specialization and continuous learning (Months 25-36)",
+      "success_metrics": [
+        "2000 employees trained by Year 3",
+        "90% course completion rate",
+        "Positive ROI within 4 years",
+        "Measurable safety and productivity improvements"
+      ]
+    },
+    "risk_mitigation": [
+      "Pilot program in one location before full rollout",
+      "Multi-language platform for diverse workforce",
+      "Regular progress monitoring and adjustment",
+      "Partnership with equipment vendors for practical training"
+    ]
+  },
+  "implementation_timeline": {
+    "decision_date": "2025-09-30",
+    "kickoff_date": "2025-11-01",
+    "milestone_1": "Platform launch - 2026-04-30",
+    "milestone_2": "1000 employees trained - 2027-04-30",
+    "milestone_3": "Full program completion - 2028-10-31",
+    "evaluation_period": "2029-10-31"
+  },
+  "outcome_tracking": {
+    "kpi_1": "Employee skill acquisition rate",
+    "kpi_2": "Productivity improvement metrics",
+    "kpi_3": "Safety incident reduction",
+    "kpi_4": "Program ROI",
+    "review_frequency": "Quarterly",
+    "success_criteria": "All KPIs achieved within 15% of targets"
+  }
+}

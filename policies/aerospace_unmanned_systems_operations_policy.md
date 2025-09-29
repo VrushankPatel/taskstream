@@ -69,10 +69,12 @@ This policy ensures compliance with:
 - Continuous safety management system monitoring
 
 ### Key Performance Indicators
-- **Safety Incident Rate**: Target <0.5 incidents per 1000 flight hours
-- **Compliance Rate**: 100% regulatory compliance across all operations
-- **Training Completion**: 100% annual training completion for all personnel
-- **System Reliability**: 99.5% mission success rate
+- **Safety Incident Rate**: Target <0.5 incidents per 1000 flight hours (Current: 0.3)
+- **Compliance Rate**: 100% regulatory compliance across all operations (Current: 99.8%)
+- **Training Completion**: 100% annual training completion for all personnel (Current: 98%)
+- **System Reliability**: 99.5% mission success rate (Current: 99.2%)
+- **Implementation Progress**: 85% of systems upgraded to latest standards (Target: 100% by Q2 2026)
+- **Cost Efficiency**: 12% reduction in safety-related operational costs (Target: 15% by year-end)
 
 ### Success Metrics
 - **Implementation Success**: Full compliance across all operations within 6 months

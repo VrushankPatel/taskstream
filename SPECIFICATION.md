@@ -38,6 +38,28 @@ Research real enterprise workflows:
 - Compliance and audit procedures
 - Crisis management and incident response
 - Strategic planning and quarterly business reviews
+- Contract lifecycle management (creation, negotiation, approval, renewal)
+- Vendor and supplier relationship management
+- Invoice processing and accounts payable/receivable workflows
+- Change management and organizational transformation processes
+- IT service management (ticketing, change requests, asset management)
+- Quality assurance and testing workflows
+- Document approval and version control processes
+- Marketing campaign planning and execution workflows
+- Risk assessment and mitigation procedures
+- Mergers and acquisitions due diligence workflows
+- Legal matter management and case tracking
+- Facilities management and space allocation requests
+- Benefits administration and open enrollment processes
+- Performance improvement plans and corrective action workflows
+- Data governance and privacy compliance workflows
+- Project portfolio management and resource allocation
+- Knowledge management and documentation workflows
+- Expense reporting and reimbursement processes
+- Security incident response and threat management
+- Business continuity and disaster recovery planning
+- Cross-functional collaboration and approval chains
+- Content creation, review, and publication workflows
 
 ### 3. GENERATION RULES
 

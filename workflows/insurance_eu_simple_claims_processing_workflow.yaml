@@ -1,0 +1,106 @@
+name: EU Insurance Simple Claims Processing Workflow
+description: Streamlined claims processing workflow for EU insurance providers focusing on standard auto and property claims with GDPR compliance
+industry: insurance
+region: EU
+complexity: simple
+temporal_data:
+  estimated_duration: 2-3 business days
+  business_hours: 08:00-18:00 CET
+  peak_season: Q4 (winter weather claims)
+performance_history:
+  average_processing_time: 48 hours
+  success_rate: 95%
+  customer_satisfaction: 4.2/5
+actors:
+  - role: Claims Processor
+    department: Claims Operations
+    responsibilities: Process claims, verify documents, calculate payouts
+  - role: Customer Service Agent
+    department: Customer Experience
+    responsibilities: Initial customer contact, status updates
+  - role: Fraud Analyst
+    department: Risk Management
+    responsibilities: Flag suspicious claims
+steps:
+  - id: claim_submission
+    name: Claim Submission
+    description: Customer submits claim via portal or phone
+    actors: [Customer Service Agent]
+    inputs: [Claim form, supporting documents]
+    outputs: [Claim reference number]
+    decision_points: []
+    tools: [Claims portal, Document scanner]
+    success_criteria: Claim logged within 1 hour
+    failure_modes: [Incomplete documentation, Invalid policy]
+  - id: initial_verification
+    name: Initial Verification
+    description: Verify policy validity and basic claim details
+    actors: [Claims Processor]
+    inputs: [Policy details, Claim form]
+    outputs: [Verification report]
+    decision_points:
+      - condition: Policy valid and claim within coverage
+        next_step: document_review
+      - condition: Policy invalid or claim outside coverage
+        next_step: claim_denial
+    tools: [Policy database, Claims system]
+    success_criteria: Verification completed within 4 hours
+    failure_modes: [Policy lapsed, Coverage exclusion]
+  - id: document_review
+    name: Document Review
+    description: Review submitted documents for completeness
+    actors: [Claims Processor]
+    inputs: [Supporting documents, Police report, Repair estimates]
+    outputs: [Document checklist]
+    decision_points:
+      - condition: All required documents present
+        next_step: assessment
+      - condition: Documents missing
+        next_step: request_additional_info
+    tools: [Document management system]
+    success_criteria: Review completed within 8 hours
+    failure_modes: [Missing critical documents]
+  - id: assessment
+    name: Claim Assessment
+    description: Assess claim validity and calculate payout
+    actors: [Claims Processor, Fraud Analyst]
+    inputs: [Verified documents, Assessment guidelines]
+    outputs: [Assessment report, Payout calculation]
+    decision_points:
+      - condition: Claim approved
+        next_step: payout
+      - condition: Claim denied
+        next_step: claim_denial
+      - condition: Further investigation needed
+        next_step: investigation
+    tools: [Assessment software, Fraud detection system]
+    success_criteria: Assessment completed within 24 hours
+    failure_modes: [Fraud suspicion, Assessment errors]
+  - id: payout
+    name: Payout Processing
+    description: Process and disburse claim payment
+    actors: [Claims Processor]
+    inputs: [Approved assessment, Bank details]
+    outputs: [Payment confirmation]
+    decision_points: []
+    tools: [Payment system, Banking interface]
+    success_criteria: Payment processed within 24 hours
+    failure_modes: [Payment errors, Bank rejections]
+success_criteria:
+  - Claim processed within 48 hours
+  - 95% customer satisfaction
+  - 98% accuracy rate
+failure_modes:
+  - Excessive processing time
+  - Incorrect payouts
+  - Customer dissatisfaction
+metrics:
+  - name: Processing Time
+    target: <48 hours
+    current: 36 hours
+  - name: Approval Rate
+    target: >85%
+    current: 92%
+  - name: Customer Satisfaction
+    target: >4.0/5
+    current: 4.2/5

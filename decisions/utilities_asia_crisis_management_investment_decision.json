@@ -1,0 +1,203 @@
+{
+  "name": "Asia Utilities Crisis Management Investment Decision",
+  "description": "Strategic investment decision for implementing comprehensive crisis management systems in Asian utilities to handle natural disasters and grid failures",
+  "industry": "utilities",
+  "region": "Asia",
+  "business_function": "crisis_management",
+  "decision_context": {
+    "trigger": "Increasing frequency of natural disasters and grid reliability issues in Asian markets",
+    "objectives": [
+      "Reduce outage duration by 40%",
+      "Improve emergency response time by 50%",
+      "Enhance stakeholder communication during crises"
+    ],
+    "constraints": [
+      "Budget allocation: $50M over 3 years",
+      "Regulatory compliance requirements",
+      "Technology integration with existing systems"
+    ],
+    "timeline": "Decision within 6 months, implementation over 24 months"
+  },
+  "stakeholders": [
+    {
+      "role": "CEO",
+      "department": "Executive",
+      "interests": "Business continuity, shareholder value, regulatory compliance",
+      "influence": "high",
+      "position": "Support with conditions on ROI"
+    },
+    {
+      "role": "COO",
+      "department": "Operations",
+      "interests": "Operational efficiency, system reliability, employee safety",
+      "influence": "high",
+      "position": "Strong support for investment"
+    },
+    {
+      "role": "CFO",
+      "department": "Finance",
+      "interests": "Cost control, ROI, financial risk management",
+      "influence": "high",
+      "position": "Support with detailed financial analysis"
+    },
+    {
+      "role": "Chief Risk Officer",
+      "department": "Risk Management",
+      "interests": "Risk mitigation, compliance, business continuity",
+      "influence": "medium",
+      "position": "Strong support for comprehensive solution"
+    },
+    {
+      "role": "IT Director",
+      "department": "Information Technology",
+      "interests": "Technology integration, cybersecurity, system scalability",
+      "influence": "medium",
+      "position": "Support with emphasis on modern architecture"
+    },
+    {
+      "role": "Regulatory Affairs Manager",
+      "department": "Compliance",
+      "interests": "Regulatory compliance, reporting requirements, audit readiness",
+      "influence": "medium",
+      "position": "Support with regulatory alignment"
+    },
+    {
+      "role": "Customer Service Director",
+      "department": "Customer Experience",
+      "interests": "Customer satisfaction, communication effectiveness, service quality",
+      "influence": "low",
+      "position": "Support for improved communication systems"
+    }
+  ],
+  "alternatives": [
+    {
+      "name": "Comprehensive Digital Transformation",
+      "description": "Full implementation of AI-powered crisis management platform with predictive analytics, automated response systems, and integrated communication tools",
+      "costs": {
+        "initial_investment": 45000000,
+        "annual_operating_cost": 8000000,
+        "implementation_timeline": 24
+      },
+      "benefits": {
+        "outage_reduction": 45,
+        "response_time_improvement": 60,
+        "roi_period": 4
+      },
+      "risks": [
+        "High implementation complexity",
+        "Technology integration challenges",
+        "Staff training requirements"
+      ],
+      "feasibility_score": 7
+    },
+    {
+      "name": "Phased Implementation Approach",
+      "description": "Gradual rollout starting with core crisis response systems, then adding advanced features over 3 years",
+      "costs": {
+        "initial_investment": 25000000,
+        "annual_operating_cost": 5000000,
+        "implementation_timeline": 36
+      },
+      "benefits": {
+        "outage_reduction": 30,
+        "response_time_improvement": 40,
+        "roi_period": 5
+      },
+      "risks": [
+        "Longer time to realize benefits",
+        "Potential for scope creep",
+        "Interim solution limitations"
+      ],
+      "feasibility_score": 8
+    },
+    {
+      "name": "Basic Enhancement Program",
+      "description": "Upgrade existing systems with improved monitoring and basic automated response capabilities",
+      "costs": {
+        "initial_investment": 12000000,
+        "annual_operating_cost": 2500000,
+        "implementation_timeline": 12
+      },
+      "benefits": {
+        "outage_reduction": 20,
+        "response_time_improvement": 25,
+        "roi_period": 3
+      },
+      "risks": [
+        "Limited long-term benefits",
+        "May not meet future regulatory requirements",
+        "Competitive disadvantage"
+      ],
+      "feasibility_score": 9
+    }
+  ],
+  "evaluation_criteria": [
+    {
+      "criterion": "Financial Impact",
+      "weight": 0.3,
+      "metrics": ["ROI", "Cost savings", "Budget alignment"]
+    },
+    {
+      "criterion": "Operational Effectiveness",
+      "weight": 0.25,
+      "metrics": ["Outage reduction", "Response time improvement", "System reliability"]
+    },
+    {
+      "criterion": "Regulatory Compliance",
+      "weight": 0.2,
+      "metrics": ["Compliance coverage", "Audit readiness", "Reporting capabilities"]
+    },
+    {
+      "criterion": "Implementation Risk",
+      "weight": 0.15,
+      "metrics": ["Technical complexity", "Timeline risk", "Resource requirements"]
+    },
+    {
+      "criterion": "Stakeholder Impact",
+      "weight": 0.1,
+      "metrics": ["Customer satisfaction", "Employee safety", "Community relations"]
+    }
+  ],
+  "recommendation": {
+    "selected_alternative": "Phased Implementation Approach",
+    "rationale": "Balances comprehensive crisis management capabilities with manageable implementation risk and resource requirements. Provides strong ROI while meeting regulatory expectations and allowing for technology maturation.",
+    "expected_outcomes": [
+      "30% reduction in outage duration within 2 years",
+      "40% improvement in emergency response times",
+      "Enhanced stakeholder communication during crises",
+      "Foundation for future digital transformation"
+    ],
+    "implementation_plan": {
+      "phase_1": "Core crisis response systems (Year 1)",
+      "phase_2": "Advanced analytics and automation (Year 2)",
+      "phase_3": "AI-powered predictive capabilities (Year 3)",
+      "success_metrics": [
+        "System uptime >99.5%",
+        "Response time <30 minutes for critical incidents",
+        "Customer satisfaction >4.0/5 during outages"
+      ]
+    },
+    "risk_mitigation": [
+      "Pilot testing in one region before full rollout",
+      "Phased training program for staff",
+      "Vendor partnership for technology support",
+      "Regular progress reviews with stakeholders"
+    ]
+  },
+  "implementation_timeline": {
+    "decision_date": "2025-09-30",
+    "kickoff_date": "2025-11-01",
+    "milestone_1": "Phase 1 completion - 2026-10-31",
+    "milestone_2": "Phase 2 completion - 2027-10-31",
+    "milestone_3": "Phase 3 completion - 2028-10-31",
+    "full_benefits_realization": "2029-10-31"
+  },
+  "outcome_tracking": {
+    "kpi_1": "Outage duration reduction",
+    "kpi_2": "Emergency response time",
+    "kpi_3": "System reliability metrics",
+    "kpi_4": "ROI achievement",
+    "review_frequency": "Quarterly",
+    "success_criteria": "All KPIs met within 10% variance"
+  }
+}

@@ -1,0 +1,127 @@
+name: Asia Agriculture Medium Precision Farming Workflow
+description: Medium-complexity workflow for precision farming implementation in Asian agriculture with data-driven decision making and resource optimization
+industry: agriculture
+region: Asia
+complexity: medium
+temporal_data:
+  estimated_duration: Seasonal (3-6 months)
+  business_hours: 05:00-19:00 local time
+  growing_season: Year-round with crop rotation
+performance_history:
+  average_yield_increase: 25%
+  resource_efficiency: 20% water savings
+  adoption_rate: 60% of suitable farms
+actors:
+  - role: Farm Manager
+    department: Farm Operations
+    responsibilities: Oversee implementation, coordinate resources, monitor results
+  - role: Agronomist
+    department: Technical Services
+    responsibilities: Provide technical guidance, analyze data, recommend adjustments
+  - role: Equipment Operator
+    department: Field Operations
+    responsibilities: Operate precision equipment, maintain machinery
+  - role: Data Analyst
+    department: Digital Services
+    responsibilities: Process sensor data, generate insights, create reports
+steps:
+  - id: assessment
+    name: Farm Assessment
+    description: Assess farm conditions and precision farming suitability
+    actors: [Farm Manager, Agronomist]
+    inputs: [Farm maps, Soil data, Equipment inventory]
+    outputs: [Assessment report, Implementation plan]
+    decision_points:
+      - condition: Farm suitable for precision farming
+        next_step: sensor_installation
+      - condition: Additional preparation needed
+        next_step: preparation
+    tools: [GIS mapping software, Soil testing equipment]
+    success_criteria: Assessment completed within 2 weeks
+    failure_modes: [Inadequate data, Unsuitable terrain]
+  - id: sensor_installation
+    name: Sensor Installation
+    description: Install IoT sensors and monitoring equipment
+    actors: [Equipment Operator, Agronomist]
+    inputs: [Sensor specifications, Installation guidelines]
+    outputs: [Installation records, Sensor calibration reports]
+    decision_points: []
+    tools: [Sensor installation kit, Calibration software]
+    success_criteria: All sensors operational within 1 week
+    failure_modes: [Installation errors, Equipment failures]
+  - id: data_collection
+    name: Data Collection Setup
+    description: Configure data collection and transmission systems
+    actors: [Data Analyst, Equipment Operator]
+    inputs: [Sensor data, Network requirements]
+    outputs: [Data collection configuration, Initial data streams]
+    decision_points:
+      - condition: Data collection stable
+        next_step: baseline_establishment
+      - condition: Technical issues identified
+        next_step: troubleshooting
+    tools: [IoT platform, Data transmission systems]
+    success_criteria: 95% data reliability achieved within 3 days
+    failure_modes: [Connectivity issues, Sensor malfunctions]
+  - id: baseline_establishment
+    name: Baseline Establishment
+    description: Establish baseline performance metrics
+    actors: [Agronomist, Data Analyst]
+    inputs: [Historical data, Current sensor data]
+    outputs: [Baseline performance report, KPI definitions]
+    decision_points: []
+    tools: [Analytics platform, Statistical software]
+    success_criteria: Baseline established within 2 weeks
+    failure_modes: [Insufficient historical data]
+  - id: precision_application
+    name: Precision Application Implementation
+    description: Implement precision irrigation and fertilization
+    actors: [Farm Manager, Equipment Operator]
+    inputs: [Precision recommendations, Equipment settings]
+    outputs: [Application records, Performance monitoring]
+    decision_points: []
+    tools: [Precision application equipment, GPS guidance systems]
+    success_criteria: Applications completed according to schedule
+    failure_modes: [Equipment downtime, Weather disruptions]
+  - id: monitoring_analysis
+    name: Monitoring and Analysis
+    description: Monitor performance and analyze results
+    actors: [Data Analyst, Agronomist]
+    inputs: [Sensor data, Performance metrics]
+    outputs: [Analysis reports, Optimization recommendations]
+    decision_points:
+      - condition: Performance improving
+        next_step: optimization
+      - condition: Issues identified
+        next_step: corrective_actions
+    tools: [Analytics dashboard, Machine learning models]
+    success_criteria: Weekly analysis reports generated
+    failure_modes: [Data quality issues, Analysis errors]
+  - id: optimization
+    name: System Optimization
+    description: Optimize precision farming parameters
+    actors: [Agronomist, Farm Manager]
+    inputs: [Analysis results, Optimization algorithms]
+    outputs: [Updated parameters, Performance improvements]
+    decision_points: []
+    tools: [Optimization software, Decision support systems]
+    success_criteria: 10% performance improvement achieved
+    failure_modes: [Optimization failures, Unintended consequences]
+success_criteria:
+  - 20%+ resource efficiency improvement
+  - 15%+ yield increase
+  - 90% equipment uptime
+failure_modes:
+  - Sensor failures
+  - Data connectivity issues
+  - Equipment downtime
+metrics:
+  - name: Yield Increase
+    target: >20%
+    current: 25%
+  - name: Resource Efficiency
+    target: >15% savings
+    current: 20%
+  - name: System Uptime
+    target: >95%
+    current: 96%

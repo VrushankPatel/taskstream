@@ -118,6 +118,9 @@
 - **Customer Satisfaction:** 4.0/5 (target: 4.3)
 - **Environmental Impact Score:** 4.2/5 (target: 4.5)
 - **Innovation Adoption Rate:** 65% (target: 75%)
+- **Employee Satisfaction:** 4.1/5 (target: 4.4)
+- **Diversity & Inclusion Index:** 78% (target: 85%)
+- **Knowledge Transfer Rate:** 92% (target: 95%)
 
 ## Future Growth Plans
 - **2025 Target:** Expand to 140 FTEs with additional solar integration specialists

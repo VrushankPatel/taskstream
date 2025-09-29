@@ -16,10 +16,12 @@ Key impacts:
 - Potential reputational damage from stockouts
 
 We need immediate decisions on:
-1. Alternative sourcing options (China suppliers activation)
-2. Customer communication strategy
-3. Emergency inventory redistribution from other warehouses
-4. Temporary store closures vs. limited operations
+1. Alternative sourcing options (China suppliers activation - €500K budget allocation needed)
+2. Customer communication strategy (loyalty program compensation, social media transparency)
+3. Emergency inventory redistribution from other warehouses (logistics coordination required)
+4. Temporary store closures vs. limited operations (impact assessment: 12 stores affected)
+5. Insurance claim initiation for warehouse fire losses (€1.2M potential recovery)
+6. Supplier relationship review and diversification strategy
 
 Please advise on priority actions. Crisis management team meeting scheduled for 16:00 today.
 

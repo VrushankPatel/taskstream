@@ -1,0 +1,204 @@
+{
+  "name": "Asia Agriculture Climate Adaptation Investment Decision",
+  "description": "Strategic investment decision for implementing climate-resilient farming technologies and practices in Asian agriculture to address changing weather patterns",
+  "industry": "agriculture",
+  "region": "Asia",
+  "business_function": "climate_adaptation",
+  "decision_context": {
+    "trigger": "Increasing climate variability affecting crop yields and requiring adaptation strategies across Asian agricultural regions",
+    "objectives": [
+      "Improve crop resilience to climate change by 40%",
+      "Reduce yield losses from extreme weather by 30%",
+      "Implement sustainable water management practices"
+    ],
+    "constraints": [
+      "Budget allocation: $30M over 3 years",
+      "Regional regulatory compliance",
+      "Technology scalability across diverse farming systems"
+    ],
+    "timeline": "Decision within 4 months, implementation over 36 months"
+  },
+  "stakeholders": [
+    {
+      "role": "CEO",
+      "department": "Executive",
+      "interests": "Business sustainability, profitability, stakeholder value",
+      "influence": "high",
+      "position": "Support with strong ROI requirements"
+    },
+    {
+      "role": "Chief Agronomist",
+      "department": "Technical Operations",
+      "interests": "Crop productivity, soil health, sustainable practices",
+      "influence": "high",
+      "position": "Strong support for comprehensive adaptation program"
+    },
+    {
+      "role": "CFO",
+      "department": "Finance",
+      "interests": "Cost control, ROI, financial risk management",
+      "influence": "high",
+      "position": "Support with detailed financial projections"
+    },
+    {
+      "role": "Sustainability Director",
+      "department": "Corporate Responsibility",
+      "interests": "Environmental impact, carbon footprint, regulatory compliance",
+      "influence": "medium",
+      "position": "Strong support for climate-focused initiatives"
+    },
+    {
+      "role": "Regional Operations Manager",
+      "department": "Field Operations",
+      "interests": "Operational feasibility, farmer adoption, local market conditions",
+      "influence": "medium",
+      "position": "Support with practical implementation focus"
+    },
+    {
+      "role": "Supply Chain Director",
+      "department": "Supply Chain",
+      "interests": "Supply stability, quality assurance, cost optimization",
+      "influence": "medium",
+      "position": "Support for resilience improvements"
+    },
+    {
+      "role": "Farmer Relations Manager",
+      "department": "Community Relations",
+      "interests": "Farmer partnerships, adoption rates, community impact",
+      "influence": "low",
+      "position": "Support for farmer-centric approaches"
+    }
+  ],
+  "alternatives": [
+    {
+      "name": "Integrated Climate-Smart Agriculture Platform",
+      "description": "Comprehensive platform combining drought-resistant seed varieties, precision irrigation, weather monitoring, and farmer training programs",
+      "costs": {
+        "initial_investment": 25000000,
+        "annual_operating_cost": 5000000,
+        "implementation_timeline": 36
+      },
+      "benefits": {
+        "yield_resilience": 45,
+        "water_efficiency": 35,
+        "roi_period": 4
+      },
+      "risks": [
+        "High implementation complexity",
+        "Farmer adoption challenges",
+        "Technology maintenance requirements"
+      ],
+      "feasibility_score": 7
+    },
+    {
+      "name": "Targeted Technology Implementation",
+      "description": "Focused implementation of key technologies: automated weather stations, soil moisture sensors, and mobile-based advisory systems",
+      "costs": {
+        "initial_investment": 15000000,
+        "annual_operating_cost": 3000000,
+        "implementation_timeline": 24
+      },
+      "benefits": {
+        "yield_resilience": 30,
+        "water_efficiency": 25,
+        "roi_period": 5
+      },
+      "risks": [
+        "Limited scope of adaptation",
+        "Integration challenges with existing practices",
+        "Scalability concerns"
+      ],
+      "feasibility_score": 8
+    },
+    {
+      "name": "Capacity Building and Training Program",
+      "description": "Comprehensive farmer training and extension services focused on climate adaptation practices, supplemented with basic monitoring tools",
+      "costs": {
+        "initial_investment": 8000000,
+        "annual_operating_cost": 2000000,
+        "implementation_timeline": 18
+      },
+      "benefits": {
+        "yield_resilience": 20,
+        "water_efficiency": 15,
+        "roi_period": 6
+      },
+      "risks": [
+        "Lower technology adoption",
+        "Knowledge transfer challenges",
+        "Limited measurable impact"
+      ],
+      "feasibility_score": 9
+    }
+  ],
+  "evaluation_criteria": [
+    {
+      "criterion": "Climate Resilience Impact",
+      "weight": 0.3,
+      "metrics": ["Yield stability", "Weather event resistance", "Long-term sustainability"]
+    },
+    {
+      "criterion": "Financial Performance",
+      "weight": 0.25,
+      "metrics": ["ROI", "Cost savings", "Revenue protection"]
+    },
+    {
+      "criterion": "Implementation Feasibility",
+      "weight": 0.2,
+      "metrics": ["Farmer adoption rate", "Technical complexity", "Timeline adherence"]
+    },
+    {
+      "criterion": "Environmental Impact",
+      "weight": 0.15,
+      "metrics": ["Water conservation", "Carbon footprint reduction", "Biodiversity preservation"]
+    },
+    {
+      "criterion": "Social Impact",
+      "weight": 0.1,
+      "metrics": ["Farmer income stability", "Community resilience", "Knowledge transfer"]
+    }
+  ],
+  "recommendation": {
+    "selected_alternative": "Targeted Technology Implementation",
+    "rationale": "Provides strong climate adaptation benefits with manageable implementation complexity and clear ROI. Balances technological advancement with practical farmer adoption while meeting regional regulatory requirements.",
+    "expected_outcomes": [
+      "30% improvement in yield resilience to climate variability",
+      "25% reduction in water usage through precision irrigation",
+      "Enhanced monitoring and early warning systems",
+      "Foundation for future climate adaptation expansion"
+    ],
+    "implementation_plan": {
+      "phase_1": "Infrastructure deployment and pilot testing (Year 1)",
+      "phase_2": "Technology optimization and farmer training (Year 2)",
+      "phase_3": "Full-scale implementation and monitoring (Year 3)",
+      "success_metrics": [
+        "Weather station network operational in all regions",
+        "Mobile advisory system adoption by 70% of farmers",
+        "Measurable improvement in water use efficiency",
+        "Positive ROI within 5 years"
+      ]
+    },
+    "risk_mitigation": [
+      "Pilot testing in representative regions before full rollout",
+      "Phased farmer training program with local language support",
+      "Technical support partnerships with equipment vendors",
+      "Regular monitoring and adaptive management approach"
+    ]
+  },
+  "implementation_timeline": {
+    "decision_date": "2025-09-30",
+    "kickoff_date": "2026-01-01",
+    "milestone_1": "Pilot completion - 2026-12-31",
+    "milestone_2": "Regional rollout - 2027-12-31",
+    "milestone_3": "Full implementation - 2028-12-31",
+    "benefits_realization": "2029-12-31"
+  },
+  "outcome_tracking": {
+    "kpi_1": "Yield resilience improvement",
+    "kpi_2": "Water use efficiency",
+    "kpi_3": "Farmer adoption rate",
+    "kpi_4": "Financial ROI",
+    "review_frequency": "Semi-annual",
+    "success_criteria": "All KPIs achieved within 20% variance"
+  }
+}

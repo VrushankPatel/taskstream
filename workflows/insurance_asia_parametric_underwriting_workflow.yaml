@@ -1,0 +1,56 @@
+workflow:
+  id: "workflow_insurance_asia_parametric_underwriting"
+  title: "Asia Insurance Parametric Underwriting Process"
+  department: "Underwriting"
+  complexity: "complex"
+  participants: ["Chief Underwriter", "Risk Modeling Analyst", "Product Development Manager", "Actuarial Lead", "Compliance Officer"]
+  trigger: "New parametric insurance product development request"
+  temporal_data:
+    first_implemented: "2024-02-01"
+    last_updated: "2025-09-10"
+    typical_cycle_time: "4-6 weeks"
+    average_annual_executions: 15
+    seasonal_variations: ["Q1 planning phase", "Q2-Q3 development peak", "Q4 market launch focus"]
+    historical_evolution: "Traditional underwriting evolved to data-driven parametric models with AI risk assessment by 2025"
+  steps:
+    - step: 1
+      actor: "Chief Underwriter"
+      action: "Define product parameters and risk triggers for parametric coverage"
+      tools: ["Risk modeling software", "Historical data analysis tools"]
+      duration: "1 week"
+      outputs: ["Product specification document", "Risk parameter framework"]
+    - step: 2
+      actor: "Risk Modeling Analyst"
+      action: "Develop and validate parametric risk models using historical data"
+      tools: ["Statistical modeling software", "Data visualization platforms"]
+      duration: "2 weeks"
+      outputs: ["Validated risk models", "Model performance reports"]
+    - step: 3
+      actor: "Product Development Manager"
+      action: "Design pricing structure and payout mechanisms"
+      tools: ["Pricing optimization tools", "Financial modeling software"]
+      duration: "1 week"
+      outputs: ["Pricing model", "Payout calculation framework"]
+    - step: 4
+      actor: "Actuarial Lead"
+      action: "Conduct actuarial review and capital adequacy assessment"
+      tools: ["Actuarial software", "Capital modeling tools"]
+      duration: "1 week"
+      outputs: ["Actuarial certification", "Capital requirements report"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Ensure regulatory compliance and documentation completeness"
+      tools: ["Regulatory compliance database", "Documentation management system"]
+      duration: "1 week"
+      outputs: ["Compliance approval", "Regulatory filing documents"]
+  success_criteria: "Product approved for market launch with validated risk models and compliant documentation"
+  failure_modes: ["Inadequate data quality", "Model validation failures", "Regulatory non-compliance", "Pricing inaccuracies"]
+  metrics:
+    - "Model accuracy rate: 94% (target: 95%)"
+    - "Time to market: 5.2 weeks (target: 4 weeks)"
+    - "Regulatory approval rate: 100% (target: 100%)"
+    - "Product profitability margin: 15% (target: 18%)"
+  performance_history:
+    success_rate_trend: "80% (2024) → 88% (2025)"
+    cost_trend: "$450K (2024) → $420K (2025)"
+    efficiency_improvements: ["AI-driven modeling reduced development time by 30%", "Automated compliance checks improved approval rate by 20%"]

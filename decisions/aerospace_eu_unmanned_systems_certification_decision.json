@@ -1,0 +1,70 @@
+{
+  "scenario_id": "aerospace_eu_unmanned_systems_2025",
+  "decision_date": "2025-09-18",
+  "context": "EU aerospace manufacturer evaluating certification for unmanned aerial systems (UAS) operations, requiring €1.8M investment in testing facilities and regulatory compliance",
+  "stakeholders": {
+    "requester": "Head of UAS Division",
+    "approvers": ["Chief Technology Officer", "Chief Compliance Officer", "CEO"],
+    "influencers": ["Regulatory Affairs Manager", "Engineering Director", "Finance Controller"]
+  },
+  "request": {
+    "amount": "€1.8M",
+    "purpose": "Obtain EASA certification for commercial UAS operations and expand market opportunities",
+    "urgency": "high",
+    "justification": "Growing demand for drone services in inspection, delivery, and surveillance markets"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "start_date": "2025-05-01",
+      "end_date": "2025-06-30",
+      "duration": "8 weeks",
+      "activities": ["EASA certification requirements review", "Competitor certification status", "Market opportunity analysis"],
+      "outcome": "Certification pathway identified"
+    },
+    {
+      "stage": "technical_evaluation",
+      "start_date": "2025-07-01",
+      "end_date": "2025-08-15",
+      "duration": "6 weeks",
+      "activities": ["System capability assessment", "Testing facility requirements", "Safety protocol development"],
+      "outcome": "Technical readiness confirmed"
+    },
+    {
+      "stage": "business_case_development",
+      "start_date": "2025-08-16",
+      "end_date": "2025-09-05",
+      "duration": "3 weeks",
+      "activities": ["Financial modeling", "Market sizing", "Risk analysis"],
+      "outcome": "Strong business case developed"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-09-06",
+      "end_date": "2025-09-18",
+      "duration": "2 weeks",
+      "activities": ["Executive presentations", "Board discussions", "Final approval"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "€50M additional revenue from UAS services, expanded market share in commercial aviation sector",
+    "projected_value": "€75M NPV over 7 years",
+    "actual_value": "TBD (certification expected 2026)",
+    "roi_timeline": "Payback in 3.5 years",
+    "risk_factors": ["Regulatory delays", "Technology obsolescence", "Safety incident risks", "Market competition"]
+  },
+  "decision_criteria": ["Regulatory compliance feasibility", "Market opportunity size", "Technical capability", "Financial returns (ROI >25%)", "Risk mitigation strategies"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-10-01",
+    "completion_date": "2026-09-30",
+    "milestones": ["Facility construction: Complete by 2025-12-31", "System testing: Complete by 2026-06-30", "Certification approval: Complete by 2026-09-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Facility construction progress and testing readiness",
+    "12_month_review": "Certification status and initial market deployment",
+    "actual_roi": "TBD (target: 28% vs projected 26%)"
+  },
+  "lessons_learned": "Early regulatory engagement reduces approval timelines, comprehensive safety testing builds stakeholder confidence, modular certification approach enables faster market entry"
+}

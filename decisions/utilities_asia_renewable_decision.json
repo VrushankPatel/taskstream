@@ -1,0 +1,49 @@
+{
+  "scenario_id": "utilities_asia_renewable_transition_2025",
+  "context": "Major Asian utility company evaluating $2B investment in renewable energy transition to meet 2030 carbon neutrality goals",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors", "Government Regulators"],
+    "influencers": ["Chief Financial Officer", "Chief Technology Officer", "Environmental NGOs", "Local Communities", "International Investors"]
+  },
+  "request": {
+    "amount": "$2,000,000,000",
+    "purpose": "Solar and wind farm development, grid modernization, and energy storage systems across 5 provinces",
+    "urgency": "high",
+    "justification": "Achieve 50% renewable energy mix by 2030, comply with national carbon reduction targets, improve energy security"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "duration": "6 months",
+      "activities": ["Site selection studies", "Environmental impact assessments", "Grid integration analysis", "Financial modeling", "Regulatory approvals"],
+      "outcome": "Identified 20 optimal sites with 80% renewable potential and manageable integration challenges"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "3 months",
+      "activities": ["Community consultations", "Environmental NGO partnerships", "Government coordination", "Investor roadshows", "Employee communication"],
+      "outcome": "Achieved 75% community support, secured government incentives worth $300M"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding strategy development", "ROI projections", "Sensitivity analysis"],
+      "outcome": "Projected 12% IRR over 25 years, $1.2B in government incentives secured"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 month",
+      "activities": ["Project phasing strategy", "Procurement planning", "Workforce development", "Monitoring framework", "Contingency planning"],
+      "outcome": "5-year implementation roadmap with quarterly milestones and risk mitigation strategies"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% reduction in carbon emissions, improved energy reliability, enhanced brand reputation, new revenue streams from green certificates",
+    "projected_value": "$3,500,000,000 in additional revenue and cost savings over 20 years",
+    "risk_factors": ["Technology obsolescence", "Policy changes", "Community opposition", "Supply chain disruptions", "Currency fluctuations"]
+  },
+  "decision_criteria": ["Environmental impact", "Financial viability", "Regulatory compliance", "Social acceptance", "Technical feasibility", "Strategic alignment"],
+  "outcome": "Approved with phased implementation",
+  "lessons_learned": "Early stakeholder engagement critical for project success, comprehensive risk assessment essential for large-scale infrastructure projects, flexible implementation allows adaptation to changing market conditions"
+}

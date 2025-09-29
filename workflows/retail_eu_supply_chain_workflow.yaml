@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_retail_eu_supply_chain"
+  title: "EU Retail Supply Chain Management Process"
+  department: "Supply Chain"
+  complexity: "medium"
+  participants: ["Supply Chain Manager", "Procurement Specialist", "Logistics Coordinator", "Quality Control Inspector", "Compliance Officer"]
+  trigger: "New product launch or supplier performance issue"
+  steps:
+    - step: 1
+      actor: "Procurement Specialist"
+      action: "Source and evaluate suppliers for EU market compliance"
+      tools: ["Supplier database", "Compliance checking tools", "RFQ system"]
+      duration: "1 week"
+      outputs: ["Supplier evaluation report", "Compliance certificates"]
+    - step: 2
+      actor: "Supply Chain Manager"
+      action: "Negotiate contracts and establish service level agreements"
+      tools: ["Contract management system", "Negotiation templates", "SLA templates"]
+      duration: "2 weeks"
+      outputs: ["Signed contracts", "SLA documents"]
+    - step: 3
+      actor: "Logistics Coordinator"
+      action: "Plan transportation routes and schedules for EU distribution"
+      tools: ["Transportation management system", "Route optimization software", "Customs documentation"]
+      duration: "3 days"
+      outputs: ["Transportation plan", "Customs declarations"]
+    - step: 4
+      actor: "Quality Control Inspector"
+      action: "Conduct incoming goods inspection and quality testing"
+      tools: ["Quality inspection checklist", "Testing equipment", "Defect tracking system"]
+      duration: "2 days"
+      outputs: ["Quality inspection report", "Acceptance/rejection decisions"]
+    - step: 5
+      actor: "Compliance Officer"
+      action: "Verify EU regulatory compliance and documentation"
+      tools: ["Regulatory database", "Compliance tracking system", "Audit trail"]
+      duration: "1 day"
+      outputs: ["Compliance verification", "Regulatory filings"]
+  success_criteria: "On-time delivery rate >95%, compliance with EU regulations, quality acceptance rate >98%"
+  failure_modes: ["Supplier non-compliance", "Transportation delays", "Quality issues", "Regulatory violations"]
+  metrics:
+    - "On-time delivery rate: 95% target"
+    - "Supplier compliance rate: 100% target"
+    - "Quality acceptance rate: 98% target"
+    - "Cost per unit: €2.50 target"

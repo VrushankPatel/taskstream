@@ -1,67 +1,119 @@
 workflow:
-  id: "workflow_pharma_drug_development"
-  title: "Pharmaceutical Drug Development Process"
-  department: "Research & Development"
-  complexity: "complex"
-  participants: ["Research Scientist", "Clinical Project Manager", "Regulatory Affairs Specialist", "Medical Director", "Quality Assurance Lead", "Legal Counsel"]
-  trigger: "New drug candidate identified from research pipeline"
+  id: workflow_pharma_drug_development
+  title: Pharmaceutical Drug Development Process
+  department: Research & Development
+  complexity: complex
+  participants:
+  - Research Scientist
+  - Clinical Project Manager
+  - Regulatory Affairs Specialist
+  - Medical Director
+  - Quality Assurance Lead
+  - Legal Counsel
+  trigger: New drug candidate identified from research pipeline
   temporal_data:
-    first_implemented: "2018-01-15"
-    last_updated: "2025-06-01"
-    typical_cycle_time: "8-12 years"
+    first_implemented: '2018-01-15'
+    last_updated: '2025-06-01'
+    typical_cycle_time: 8-12 years
     average_annual_executions: 3
-    seasonal_variations: ["Q4 regulatory submission peaks", "Q1 budget planning cycles"]
-    historical_evolution: "Streamlined from traditional 15-year cycle to accelerated 8-10 year process through parallel processing and AI-driven candidate selection"
+    seasonal_variations:
+    - Q4 regulatory submission peaks
+    - Q1 budget planning cycles
+    historical_evolution: Streamlined from traditional 15-year cycle to accelerated
+      8-10 year process through parallel processing and AI-driven candidate selection
   steps:
-    - step: 1
-      actor: "Research Scientist"
-      action: "Conduct preclinical research and target validation"
-      tools: ["Laboratory equipment", "Animal testing protocols", "Bioinformatics software"]
-      duration: "2-3 years"
-      outputs: ["Preclinical data package", "Initial safety profile", "Patent applications"]
-    - step: 2
-      actor: "Regulatory Affairs Specialist"
-      action: "Prepare and submit Investigational New Drug (IND) application"
-      tools: ["Regulatory submission software", "Clinical trial databases"]
-      duration: "6-9 months"
-      outputs: ["IND submission package", "FDA correspondence", "Initial regulatory strategy"]
-    - step: 3
-      actor: "Clinical Project Manager"
-      action: "Design and initiate Phase 1 clinical trials"
-      tools: ["Clinical trial management system", "Patient recruitment platforms"]
-      duration: "1-2 years"
-      outputs: ["Phase 1 protocol", "Safety data", "Dose escalation results"]
-    - step: 4
-      actor: "Medical Director"
-      action: "Oversee Phase 2 and 3 clinical trials"
-      tools: ["Electronic data capture systems", "Statistical analysis software"]
-      duration: "3-5 years"
-      outputs: ["Efficacy data", "Safety database", "Patient demographics"]
-    - step: 5
-      actor: "Quality Assurance Lead"
-      action: "Conduct quality control and manufacturing process validation"
-      tools: ["Quality management system", "Manufacturing validation protocols"]
-      duration: "1-2 years"
-      outputs: ["Quality control specifications", "Manufacturing validation reports"]
-    - step: 6
-      actor: "Regulatory Affairs Specialist"
-      action: "Prepare and submit New Drug Application (NDA)"
-      tools: ["Regulatory submission platform", "Labeling compliance tools"]
-      duration: "9-12 months"
-      outputs: ["NDA submission", "Product labeling", "Regulatory approval"]
-    - step: 7
-      actor: "Legal Counsel"
-      action: "Manage post-approval compliance and lifecycle management"
-      tools: ["Regulatory tracking systems", "Patent management software"]
-      duration: "Ongoing"
-      outputs: ["Compliance reports", "Patent extensions", "Lifecycle planning"]
-  success_criteria: "FDA approval achieved with positive Phase 3 results and commercial viability confirmed"
-  failure_modes: ["Safety concerns in clinical trials", "Regulatory rejection", "Manufacturing scalability issues", "Market competition rendering drug obsolete"]
+  - step: 1
+    actor: Research Scientist
+    action: Conduct preclinical research and target validation
+    tools:
+    - Laboratory equipment
+    - Animal testing protocols
+    - Bioinformatics software
+    duration: 2-3 years
+    outputs:
+    - Preclinical data package
+    - Initial safety profile
+    - Patent applications
+  - step: 2
+    actor: Regulatory Affairs Specialist
+    action: Prepare and submit Investigational New Drug (IND) application
+    tools:
+    - Regulatory submission software
+    - Clinical trial databases
+    duration: 6-9 months
+    outputs:
+    - IND submission package
+    - FDA correspondence
+    - Initial regulatory strategy
+  - step: 3
+    actor: Clinical Project Manager
+    action: Design and initiate Phase 1 clinical trials
+    tools:
+    - Clinical trial management system
+    - Patient recruitment platforms
+    duration: 1-2 years
+    outputs:
+    - Phase 1 protocol
+    - Safety data
+    - Dose escalation results
+  - step: 4
+    actor: Medical Director
+    action: Oversee Phase 2 and 3 clinical trials
+    tools:
+    - Electronic data capture systems
+    - Statistical analysis software
+    duration: 3-5 years
+    outputs:
+    - Efficacy data
+    - Safety database
+    - Patient demographics
+  - step: 5
+    actor: Quality Assurance Lead
+    action: Conduct quality control and manufacturing process validation
+    tools:
+    - Quality management system
+    - Manufacturing validation protocols
+    duration: 1-2 years
+    outputs:
+    - Quality control specifications
+    - Manufacturing validation reports
+  - step: 6
+    actor: Regulatory Affairs Specialist
+    action: Prepare and submit New Drug Application (NDA)
+    tools:
+    - Regulatory submission platform
+    - Labeling compliance tools
+    duration: 9-12 months
+    outputs:
+    - NDA submission
+    - Product labeling
+    - Regulatory approval
+  - step: 7
+    actor: Legal Counsel
+    action: Manage post-approval compliance and lifecycle management
+    tools:
+    - Regulatory tracking systems
+    - Patent management software
+    duration: Ongoing
+    outputs:
+    - Compliance reports
+    - Patent extensions
+    - Lifecycle planning
+  success_criteria: FDA approval achieved with positive Phase 3 results and commercial
+    viability confirmed
+  failure_modes:
+  - Safety concerns in clinical trials
+  - Regulatory rejection
+  - Manufacturing scalability issues
+  - Market competition rendering drug obsolete
   metrics:
-    - "Development success rate: 12% target (industry average)"
-    - "Time to approval: <10 years"
-    - "Development cost: <$2.5B"
+  - 'Development success rate: 12% target (industry average)'
+  - 'Time to approval: <10 years'
+  - 'Development cost: <$2.5B'
   performance_history:
-    success_rate_trend: "8% (2020) → 10% (2023) → 12% (2025)"
-    cost_trend: "$2.8B (2020) → $2.6B (2023) → $2.4B (2025)"
-    efficiency_improvements: ["AI-driven candidate selection reduced preclinical time by 30%", "Parallel processing shortened clinical phases by 18 months", "Digital regulatory submissions improved approval timelines by 25%"]
+    success_rate_trend: 8% (2020) → 10% (2023) → 12% (2025)
+    cost_trend: $2.8B (2020) → $2.6B (2023) → $2.4B (2025)
+    efficiency_improvements:
+    - AI-driven candidate selection reduced preclinical time by 30%
+    - Parallel processing shortened clinical phases by 18 months
+    - Digital regulatory submissions improved approval timelines by 25%

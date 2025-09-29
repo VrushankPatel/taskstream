@@ -4,8 +4,15 @@
   "context": "Mid-size technology company (500 employees) facing high turnover and inconsistent employee experience across lifecycle stages",
   "stakeholders": {
     "requester": "Chief People Officer",
-    "approvers": ["CEO", "Chief Financial Officer"],
-    "influencers": ["Department Heads", "Employee Experience Committee", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Department Heads",
+      "Employee Experience Committee",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -19,7 +26,11 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-15",
       "duration": "15 days",
-      "activities": ["Vendor evaluation", "ROI analysis", "Current state assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "ROI analysis",
+        "Current state assessment"
+      ],
       "outcome": "Identified top 3 platform options with projected 35% efficiency improvement"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-01",
       "duration": "17 days",
-      "activities": ["Department head interviews", "Employee focus groups", "Legal compliance review"],
+      "activities": [
+        "Department head interviews",
+        "Employee focus groups",
+        "Legal compliance review"
+      ],
       "outcome": "Strong support from operations, concerns raised about implementation timeline"
     },
     {
@@ -35,7 +50,11 @@
       "start_date": "2025-08-15",
       "end_date": "2025-08-20",
       "duration": "6 days",
-      "activities": ["Executive committee review", "Budget allocation", "Vendor contract negotiation"],
+      "activities": [
+        "Executive committee review",
+        "Budget allocation",
+        "Vendor contract negotiation"
+      ],
       "outcome": "Approved with phased implementation approach"
     }
   ],
@@ -44,14 +63,29 @@
     "projected_value": "$8,200,000",
     "actual_value": "$7,800,000 (projected based on similar implementations)",
     "roi_timeline": "18 months",
-    "risk_factors": ["Implementation complexity", "Employee resistance to change", "Integration with existing HR systems"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Employee resistance to change",
+      "Integration with existing HR systems"
+    ]
   },
-  "decision_criteria": ["Financial ROI", "Employee experience improvement", "Operational efficiency gains", "Scalability for future growth", "Compliance with labor regulations"],
+  "decision_criteria": [
+    "Financial ROI",
+    "Employee experience improvement",
+    "Operational efficiency gains",
+    "Scalability for future growth",
+    "Compliance with labor regulations"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2026-02-28",
-    "milestones": ["Platform selection: 2025-09-15", "Pilot program launch: 2025-10-01", "Full rollout: 2026-01-15", "Training completion: 2026-02-28"]
+    "milestones": [
+      "Platform selection: 2025-09-15",
+      "Pilot program launch: 2025-10-01",
+      "Full rollout: 2026-01-15",
+      "Training completion: 2026-02-28"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Platform adoption rate, initial turnover metrics, user satisfaction scores",

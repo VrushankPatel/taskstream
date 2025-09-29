@@ -4,8 +4,17 @@
   "context": "Enterprise software company preparing launch of AI-powered analytics platform after 18-month development cycle",
   "stakeholders": {
     "requester": "VP Product Management",
-    "approvers": ["CEO", "CFO", "Chief Product Officer"],
-    "influencers": ["VP Sales", "VP Marketing", "Engineering Director", "Customer Success Lead"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Product Officer"
+    ],
+    "influencers": [
+      "VP Sales",
+      "VP Marketing",
+      "Engineering Director",
+      "Customer Success Lead"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -19,7 +28,11 @@
       "start_date": "2025-05-01",
       "end_date": "2025-05-30",
       "duration": "30 days",
-      "activities": ["Customer interviews", "Competitive analysis", "Market sizing study"],
+      "activities": [
+        "Customer interviews",
+        "Competitive analysis",
+        "Market sizing study"
+      ],
       "outcome": "Confirmed $2.1B TAM with 15% YoY growth, identified 3 key differentiators"
     },
     {
@@ -27,7 +40,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-06-15",
       "duration": "15 days",
-      "activities": ["Pricing model analysis", "Revenue projection modeling", "Competitor pricing review"],
+      "activities": [
+        "Pricing model analysis",
+        "Revenue projection modeling",
+        "Competitor pricing review"
+      ],
       "outcome": "Selected SaaS subscription model with $150K ARR target pricing"
     },
     {
@@ -35,7 +52,11 @@
       "start_date": "2025-06-16",
       "end_date": "2025-07-01",
       "duration": "16 days",
-      "activities": ["Sales play development", "Marketing campaign planning", "Channel partner strategy"],
+      "activities": [
+        "Sales play development",
+        "Marketing campaign planning",
+        "Channel partner strategy"
+      ],
       "outcome": "Comprehensive GTM plan with 200 target accounts and multi-channel marketing approach"
     },
     {
@@ -43,7 +64,11 @@
       "start_date": "2025-07-08",
       "end_date": "2025-07-15",
       "duration": "8 days",
-      "activities": ["Executive committee review", "Risk assessment", "Budget allocation"],
+      "activities": [
+        "Executive committee review",
+        "Risk assessment",
+        "Budget allocation"
+      ],
       "outcome": "Approved with phased rollout strategy and success metrics defined"
     }
   ],
@@ -52,40 +77,67 @@
     "projected_value": "$85,000,000",
     "actual_value": "$78,000,000 (based on similar product launches)",
     "roi_timeline": "24 months",
-    "risk_factors": ["Competitor response", "Market adoption slower than projected", "Technical integration challenges", "Economic downturn impact"]
+    "risk_factors": [
+      "Competitor response",
+      "Market adoption slower than projected",
+      "Technical integration challenges",
+      "Economic downturn impact"
+    ]
   },
-  "decision_criteria": ["Market opportunity size", "Competitive advantage", "Financial projections", "Technical readiness", "Team capability", "Risk mitigation plan"],
+  "decision_criteria": [
+    "Market opportunity size",
+    "Competitive advantage",
+    "Financial projections",
+    "Technical readiness",
+    "Team capability",
+    "Risk mitigation plan"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-08-01",
     "completion_date": "2026-01-31",
-    "milestones": ["Beta program launch: 2025-08-15", "GA release: 2025-09-01", "First customer go-live: 2025-09-15", "Marketing campaign peak: 2025-10-01", "Q4 sales target achievement: 2025-12-31"]
+    "milestones": [
+      "Beta program launch: 2025-08-15",
+      "GA release: 2025-09-01",
+      "First customer go-live: 2025-09-15",
+      "Marketing campaign peak: 2025-10-01",
+      "Q4 sales target achievement: 2025-12-31"
+    ]
   },
-   "outcome_tracking": {
-     "3_month_review": {
-       "revenue_achievement": "$42M ARR (98% of target)",
-       "customer_acquisition": "156 new customers (vs 120 target)",
-       "product_adoption": "87% feature utilization rate",
-       "competitive_response": "2 major competitors launched competing features",
-       "challenges": "Integration complexity for legacy systems"
-     },
-     "6_month_review": {
-       "revenue_achievement": "$78M ARR (91% of target)",
-       "market_share": "3.2% in enterprise analytics segment",
-       "customer_satisfaction": "4.6/5 NPS score",
-       "expansion_opportunities": "45 upsell opportunities identified",
-       "operational_metrics": "99.9% uptime, 2.1 day support response time"
-     },
-     "12_month_review": {
-       "revenue_achievement": "$95M ARR (112% of target)",
-       "market_position": "Market leader in AI analytics with 8.5% share",
-       "customer_retention": "94% retention rate",
-       "profitability": "Achieved break-even 3 months early",
-       "team_growth": "Headcount increased 40% to support scaling"
-     },
-     "actual_roi": "42% (vs projected 32%)",
-     "key_success_factors": ["Early market validation", "Superior AI accuracy", "Strong sales execution", "Comprehensive customer success"],
-     "lessons_implemented": ["Accelerated roadmap based on customer feedback", "Expanded support team proactively", "Enhanced competitive intelligence monitoring"]
-   },
+  "outcome_tracking": {
+    "3_month_review": {
+      "revenue_achievement": "$42M ARR (98% of target)",
+      "customer_acquisition": "156 new customers (vs 120 target)",
+      "product_adoption": "87% feature utilization rate",
+      "competitive_response": "2 major competitors launched competing features",
+      "challenges": "Integration complexity for legacy systems"
+    },
+    "6_month_review": {
+      "revenue_achievement": "$78M ARR (91% of target)",
+      "market_share": "3.2% in enterprise analytics segment",
+      "customer_satisfaction": "4.6/5 NPS score",
+      "expansion_opportunities": "45 upsell opportunities identified",
+      "operational_metrics": "99.9% uptime, 2.1 day support response time"
+    },
+    "12_month_review": {
+      "revenue_achievement": "$95M ARR (112% of target)",
+      "market_position": "Market leader in AI analytics with 8.5% share",
+      "customer_retention": "94% retention rate",
+      "profitability": "Achieved break-even 3 months early",
+      "team_growth": "Headcount increased 40% to support scaling"
+    },
+    "actual_roi": "42% (vs projected 32%)",
+    "key_success_factors": [
+      "Early market validation",
+      "Superior AI accuracy",
+      "Strong sales execution",
+      "Comprehensive customer success"
+    ],
+    "lessons_implemented": [
+      "Accelerated roadmap based on customer feedback",
+      "Expanded support team proactively",
+      "Enhanced competitive intelligence monitoring"
+    ]
+  },
   "lessons_learned": "Early customer validation critical for product positioning, comprehensive competitive analysis prevented market missteps, phased rollout approach successfully managed execution complexity"
 }

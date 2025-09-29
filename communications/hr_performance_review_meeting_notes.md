@@ -86,9 +86,9 @@ Agreed upon key dates:
 
 **Follow-up Email Thread:**
 
-**From:** Sarah Johnson  
-**To:** Leadership Team  
-**Date:** 2025-09-10 16:15  
+**From:** Sarah Johnson
+**To:** Leadership Team
+**Date:** 2025-09-10 16:15
 **Subject:** Re: Q3 Performance Review Process Enhancement - Action Items Update
 
 Team,
@@ -97,12 +97,12 @@ Thank you all for the productive discussion today. I've attached the finalized a
 
 One additional item: We'll need department heads to provide their top 3-5 pilot candidates by COB Friday. This will help us ensure diverse representation across teams.
 
-Best,  
+Best,
 Sarah
 
-**From:** Lisa Rodriguez  
-**To:** Sarah Johnson, Leadership Team  
-**Date:** 2025-09-10 16:45  
+**From:** Lisa Rodriguez
+**To:** Sarah Johnson, Leadership Team
+**Date:** 2025-09-10 16:45
 **Subject:** Re: Q3 Performance Review Process Enhancement - Action Items Update
 
 Sarah,

@@ -103,6 +103,35 @@ Comprehensive metrics tracking the utility's progress toward sustainability goal
   - Critical for optimization and maintenance
   - Trend: Improving with better data
 
+## Customer Impact Metrics
+
+### Satisfaction and Engagement
+- **Customer Satisfaction with Green Services**: 92% (Target: >90%)
+  - Survey-based measurement of renewable energy service perception
+  - Industry benchmark: 85-95%
+  - Trend: +5% YoY
+
+- **Green Energy Adoption Rate**: 34% of customers (Target: 40%)
+  - Percentage of customers choosing renewable energy plans
+  - Market penetration indicator
+  - Trend: +12% YoY
+
+- **Net Promoter Score for Sustainability**: 45 (Target: >40)
+  - Likelihood to recommend based on environmental initiatives
+  - Industry benchmark: 30-50
+  - Trend: +8 points YoY
+
+### Community and Stakeholder Metrics
+- **Community Engagement Score**: 8.2/10 (Target: >8.0)
+  - Stakeholder surveys on utility's environmental initiatives
+  - Includes local government, environmental groups, customers
+  - Trend: Stable
+
+- **Environmental Awareness Campaign Reach**: 250,000 households (Target: 300,000)
+  - Number of households reached through sustainability education
+  - Community impact measurement
+  - Trend: +15% YoY
+
 ## Reporting & Analytics
 
 ### Dashboard Updates

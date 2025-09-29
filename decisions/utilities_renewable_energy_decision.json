@@ -1,0 +1,49 @@
+{
+  "scenario_id": "utilities_renewable_energy_transition_decision",
+  "context": "Regional utility company facing regulatory mandates to increase renewable energy to 40% of generation mix by 2030, evaluating major solar and wind farm development",
+  "stakeholders": {
+    "requester": "VP Renewable Energy",
+    "approvers": ["CEO", "Board of Directors", "State Regulatory Commission"],
+    "influencers": ["Chief Operating Officer", "Chief Financial Officer", "Environmental Director", "Community Representatives", "Environmental Groups"]
+  },
+  "request": {
+    "amount": "$250,000,000",
+    "purpose": "Develop 300 MW solar farm and 200 MW wind farm with associated transmission infrastructure",
+    "urgency": "high",
+    "justification": "Meet regulatory renewable targets, reduce carbon emissions by 45%, provide stable long-term energy costs, enhance grid reliability"
+  },
+  "decision_process": [
+    {
+      "stage": "site_evaluation",
+      "duration": "5 months",
+      "activities": ["Environmental impact studies", "Land acquisition negotiations", "Grid interconnection analysis", "Community impact assessments"],
+      "outcome": "Three optimal sites identified with minimal environmental impact"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "3 months",
+      "activities": ["Engineering design", "Equipment procurement analysis", "Construction planning", "Operations modeling"],
+      "outcome": "Technical feasibility confirmed with innovative design solutions"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Financing strategy development", "Rate impact modeling", "ROI projections"],
+      "outcome": "Strong financial case with 8-year payback and positive NPV"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "8 months",
+      "activities": ["Permit applications", "Environmental reviews", "Public hearings", "Rate case proceedings"],
+      "outcome": "All major permits secured with community support"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% renewable energy mix achieved, 42% reduction in carbon emissions, improved grid stability, $35M annual cost savings",
+    "projected_value": "$550,000,000 in benefits over 20 years",
+    "risk_factors": ["Construction delays", "Technology performance", "Regulatory changes", "Community opposition"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial viability (IRR >7%)", "Environmental impact", "Community acceptance", "Technical reliability"],
+  "outcome": "Approved",
+  "lessons_learned": "Early community engagement essential for renewable projects, comprehensive environmental studies prevent delays, innovative financing structures improve economics"
+}

@@ -187,6 +187,22 @@ Applies to all aerospace products, systems, services, and operational activities
 - Provide training on modified procedures and requirements
 - Monitor implementation and effectiveness of changes
 
+## Safety Performance Metrics
+
+### Key Performance Indicators
+- **Safety Incident Rate**: <0.5 incidents per 100,000 flight hours (Target: <0.3)
+- **Certification Timeline Compliance**: 95% of certifications completed within scheduled timelines
+- **Audit Finding Closure Rate**: 100% of safety audit findings closed within 30 days
+- **Safety Training Completion Rate**: 98% of required safety training completed annually
+- **Supplier Safety Compliance Score**: >90% average across all critical suppliers
+
+### Reporting Frequency
+- Daily: Safety incident monitoring and response
+- Weekly: Safety performance dashboard review
+- Monthly: Safety metrics and trend analysis
+- Quarterly: Comprehensive safety performance report
+- Annually: Safety management system effectiveness review
+
 ## Contact Information
 - Chief Safety Officer: Captain Robert Mitchell (safety@aerospacesystems.com)
 - Safety Certification Manager: Dr. Lisa Thompson (certification@aerospacesystems.com)

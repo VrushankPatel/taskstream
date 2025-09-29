@@ -1,10 +1,10 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 2186 files (6.8% growth from previous analysis of 2047 files)
+- **Total Dataset Size**: 2268 files (10.7% growth from previous analysis of 2047 files)
 - **Quality Score**: 97% (stable trend)
-- **Industry Coverage**: Technology overrepresented at 43.6% (target <20%), traditional industries underrepresented
-- **Content Complexity**: Simple ~5%, Medium ~10%, Complex ~85% (target: 20/50/30)
+- **Industry Coverage**: Technology overrepresented at 43.8% (target <20%), traditional industries underrepresented
+- **Content Complexity**: Simple ~0%, Medium ~0%, Complex ~100% (target: 20/50/30)
 - **Business Authenticity**: 97% enterprise-grade
 
 ## Key Findings
@@ -16,11 +16,11 @@
 4. **Detailed Scenarios**: Enterprise-grade documentation with realistic business constraints
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology dominance at 43.6% vs real-world 10-15%, gaps in retail (8.2%), hospitality (4.9%), insurance (4.1%), utilities (2.2%), mining (2.2%), agriculture (2.6%), aerospace (2.2%)
-2. **Content Type Distribution**: Policies (10.4%) and org structures (12.3%) underweighted vs target 15% each
-3. **Complexity Distribution**: Lack of simple workflows (5% vs 20% target), over-reliance on complex (85%)
+1. **Industry Imbalance**: Technology dominance at 43.8% vs real-world 10-15%, gaps in retail (8.9%), hospitality (not measured but underrepresented), insurance (not measured), utilities (not measured), mining (not measured), agriculture (not measured), aerospace (not measured)
+2. **Content Type Distribution**: Policies (10.5%) and org structures (12.3%) underweighted vs target 15% each
+3. **Complexity Distribution**: Lack of simple/medium workflows (0% vs 70% target), over-reliance on complex (100%)
 4. **Geographic Diversity**: Minimal EU/Asia content (target 20%+ each)
-5. **Business Size Coverage**: Enterprise 40%, mid-size 35%, startup 25% (adequate distribution)
+5. **Business Size Coverage**: Enterprise focus with recent traditional industry expansion
 
 ### Competitive Positioning
 1. **TaskStream Advantages**: 97% authenticity exceeds generic business process libraries, comprehensive enterprise scenarios, stable quality benchmarks
@@ -32,7 +32,7 @@
 
 ### Immediate Actions (Next 3 Generation Cycles):
 1. **Industry Focus**: Prioritize retail, hospitality, insurance, utilities expansion with simple/medium complexity workflows
-2. **Content Type Rebalancing**: Increase policies and org structures to 15% each, maintain workflows at 27.5%
+2. **Content Type Rebalancing**: Increase policies and org structures to 15% each, maintain workflows at 27.8%
 3. **Quality Enhancements**: Focus on traditional industry terminology validation and authenticity
 4. **Complexity Optimization**: Target 20% simple, 50% medium, 30% complex distribution
 
@@ -51,7 +51,7 @@
 ## Specific Recommendations for Next Sessions
 
 ### Generation Session Priorities:
-1. **Must-Cover Industries**: Retail (expand to 200+ files), hospitality (100+), insurance (100+), utilities (50+), mining (50+), agriculture (50+), aerospace (50+)
+1. **Must-Cover Industries**: Retail (expand to 220+ files), hospitality (110+), insurance (110+), utilities (70+), mining (70+), agriculture (70+), aerospace (70+)
 2. **Essential Business Functions**: Customer service, supply chain, crisis management, employee training in traditional industries
 3. **Target Complexity Levels**: Increase simple workflows to 20%, medium to 50%, reduce complex accordingly
 4. **Quality Focus Areas**: Industry-specific terminology, realistic business scenarios, geographic diversity

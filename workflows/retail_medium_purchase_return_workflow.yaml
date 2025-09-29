@@ -1,0 +1,47 @@
+workflow:
+  id: "workflow_retail_medium_purchase_return"
+  title: "Retail Purchase Return Process"
+  department: "Customer Service"
+  complexity: "medium"
+  participants: ["Customer Service Associate", "Store Manager", "Customer", "Inventory Specialist"]
+  trigger: "Customer returns purchased item within return policy timeframe"
+  steps:
+    - step: 1
+      actor: "Customer Service Associate"
+      action: "Inspect returned item for condition and verify receipt/purchase details"
+      tools: ["Receipt Scanner", "Product Inspection Checklist"]
+      duration: "5 minutes"
+      outputs: ["Item Condition Report", "Purchase Verification"]
+    - step: 2
+      actor: "Customer Service Associate"
+      action: "Determine return eligibility based on policy (timeframe, condition, exclusions)"
+      decision_points: ["Within policy timeframe", "Item condition acceptable", "Valid receipt"]
+      tools: ["Return Policy Guidelines", "POS System"]
+      duration: "3 minutes"
+      outputs: ["Eligibility Determination"]
+    - step: 3
+      actor: "Customer Service Associate"
+      action: "Process return transaction and issue refund/store credit"
+      tools: ["POS System", "Refund Processing Software"]
+      duration: "5 minutes"
+      outputs: ["Refund Issued", "Return Receipt"]
+    - step: 4
+      actor: "Inventory Specialist"
+      action: "Update inventory records and prepare item for restocking or disposal"
+      tools: ["Inventory Management System"]
+      duration: "10 minutes"
+      outputs: ["Inventory Updated", "Item Disposition"]
+    - step: 5
+      actor: "Store Manager"
+      action: "Review high-value returns or policy exceptions for approval"
+      decision_points: ["Return value threshold", "Policy exception required"]
+      tools: ["Manager Override System"]
+      duration: "1 hour"
+      outputs: ["Exception Approval"]
+  success_criteria: "Customer receives refund/credit, item properly processed, inventory updated"
+  failure_modes: ["Item damaged beyond return policy", "Missing receipt", "Outside return window", "System processing errors"]
+  metrics:
+    - "Return Processing Time: <15 minutes average"
+    - "Return Approval Rate: 85%"
+    - "Customer Satisfaction with Return: 4.2/5"
+    - "Inventory Accuracy Post-Return: 98%"

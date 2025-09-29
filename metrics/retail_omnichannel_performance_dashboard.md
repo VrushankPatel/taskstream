@@ -30,13 +30,41 @@ Monthly performance metrics for integrated online/offline retail operations.
 - **Mobile App Ratings:** 4.6/5 (↑0.1 from last month)  
 
 ## Trend Analysis
-- Online growth outpacing store sales  
-- Mobile commerce driving 40% of online revenue  
-- Customer experience improvements correlating with sales growth  
-- Inventory optimization reducing stockouts by 15%  
+- Online growth outpacing store sales by 12% YoY
+- Mobile commerce driving 40% of online revenue with 25% conversion rate
+- Customer experience improvements correlating with 8% sales growth
+- Inventory optimization reducing stockouts by 15% and improving turnover
+- Cross-channel shopping behavior: 35% of customers use multiple channels
+- Peak season performance: 22% revenue increase during holiday periods
+
+## Channel Performance Comparison
+
+| Metric | Online | Store | Omnichannel |
+|--------|--------|-------|-------------|
+| Conversion Rate | 2.8% | 3.5% | 4.1% |
+| Average Order Value | $89 | $156 | $142 |
+| Customer Acquisition Cost | $38 | $52 | $42 |
+| Return Rate | 12.1% | 5.8% | 8.2% |
+| Customer Lifetime Value | $1,240 | $980 | $1,450 |
+
+## Risk Indicators
+- **High Cart Abandonment:** 68% rate indicates checkout friction
+- **Channel Conflict:** Price discrepancies causing customer confusion
+- **Inventory Visibility:** 4.1% stockout rate impacting sales
+- **Mobile Performance:** App crashes during peak times
 
 ## Action Items
-1. Optimize mobile checkout process to reduce abandonment  
-2. Expand BOPIS (Buy Online, Pickup In Store) program  
-3. Implement dynamic pricing for high-demand items  
-4. Enhance customer service training for online channels
+1. Optimize mobile checkout process to reduce abandonment by 10%
+2. Expand BOPIS (Buy Online, Pickup In Store) program to 50% of stores
+3. Implement dynamic pricing for high-demand items with real-time adjustments
+4. Enhance customer service training for online channels with omnichannel focus
+5. Improve inventory visibility across all channels
+6. Launch loyalty program integration across online and offline
+7. Conduct A/B testing for checkout flow improvements
+
+## Forecast and Targets
+- **Q4 Revenue Projection:** $52M (+15% vs Q3)
+- **Online Growth Target:** 25% of total revenue by year-end
+- **Customer Satisfaction Goal:** 4.4/5 by Q1 2026
+- **Inventory Turnover Target:** 4.5x by end of year
+- **Mobile Conversion Target:** 3.0% by Q2 2026

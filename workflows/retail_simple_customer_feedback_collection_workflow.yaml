@@ -1,0 +1,30 @@
+workflow:
+  id: "workflow_retail_simple_customer_feedback_collection"
+  title: "Customer Feedback Collection Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Store Manager", "Customer Service Rep"]
+  trigger: "Customer completes purchase"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Present feedback tablet at checkout"
+      decision_points: ["Customer willingness to provide feedback", "Technical issues with tablet"]
+      tools: ["Feedback collection tablet", "POS system", "Customer engagement script"]
+      duration: "2 minutes"
+      outputs: ["Customer feedback data", "Feedback collection timestamp"]
+    - step: 2
+      actor: "Store Manager"
+      action: "Review daily feedback summary and identify trends"
+      decision_points: ["Actionable insights identified", "Escalation to regional manager required"]
+      tools: ["Management dashboard", "Feedback analysis software", "CRM system"]
+      duration: "15 minutes"
+      outputs: ["Feedback analysis report", "Improvement action items"]
+  success_criteria: "Feedback collected from 80% of customers"
+  failure_modes: ["Technical issues with tablet", "Staff not following protocol"]
+  metrics:
+    - "Customer satisfaction score: 4.2/5"
+    - "Feedback collection rate: 85%"
+    - "Response time to issues: <24 hours"
+    - "Action item completion rate: 90%"
+    - "Trend identification accuracy: 95%"

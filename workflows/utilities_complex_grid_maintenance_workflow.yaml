@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_utilities_complex_grid_maintenance"
+  title: "Grid Maintenance and Inspection Process"
+  department: "Operations"
+  complexity: "complex"
+  participants: ["Maintenance Manager", "Field Technicians", "Control Center", "Regulatory Compliance", "Safety Officer"]
+  trigger: "Scheduled maintenance cycle or equipment alert"
+  steps:
+    - step: 1
+      actor: "Maintenance Manager"
+      action: "Plan maintenance schedule and resource allocation"
+      tools: ["Maintenance planning system", "Equipment database"]
+      duration: "2 hours"
+      outputs: ["Maintenance work order"]
+    - step: 2
+      actor: "Safety Officer"
+      action: "Conduct pre-maintenance safety briefing and permit issuance"
+      tools: ["Safety management system", "Work permits"]
+      duration: "30 minutes"
+      outputs: ["Safety clearance", "Work permits"]
+    - step: 3
+      actor: "Field Technicians"
+      action: "Perform equipment inspection and maintenance tasks"
+      tools: ["Diagnostic equipment", "Maintenance tools"]
+      duration: "4-8 hours"
+      outputs: ["Inspection reports", "Maintenance logs"]
+    - step: 4
+      actor: "Control Center"
+      action: "Monitor grid stability during maintenance"
+      tools: ["SCADA system", "Real-time monitoring"]
+      duration: "Ongoing"
+      outputs: ["System stability reports"]
+    - step: 5
+      actor: "Regulatory Compliance"
+      action: "Verify compliance with maintenance standards"
+      tools: ["Regulatory database", "Compliance checklists"]
+      duration: "1 hour"
+      outputs: ["Compliance certification"]
+    - step: 6
+      actor: "Maintenance Manager"
+      action: "Review maintenance results and update records"
+      tools: ["Maintenance database", "Reporting system"]
+      duration: "1 hour"
+      outputs: ["Final maintenance report"]
+  success_criteria: "Maintenance completed without service interruption, all safety protocols followed, regulatory compliance maintained"
+  failure_modes: ["Equipment failure during maintenance", "Weather delays", "Resource shortages", "Safety incidents"]
+  metrics:
+    - "Maintenance completion rate: 98%"
+    - "Average downtime: <5 minutes"
+    - "Safety incident rate: 0.01 per 1000 hours"
+    - "Regulatory compliance score: 100%"

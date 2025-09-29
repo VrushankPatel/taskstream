@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_safety_technology_decision",
+  "context": "Mining company evaluating advanced safety technology implementation across underground operations",
+  "stakeholders": {
+    "requester": "Safety Director",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Operations VP", "Mine Managers", "Worker Representatives"]
+  },
+  "request": {
+    "amount": "$12 million",
+    "purpose": "Automated monitoring systems, gas detection sensors, and emergency communication networks",
+    "urgency": "high",
+    "justification": "Reduce accident rates, improve emergency response, meet regulatory requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_audit",
+      "duration": "1 month",
+      "activities": ["Current safety assessment", "Risk analysis", "Technology gap identification"],
+      "outcome": "Critical safety improvement opportunities identified"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "2 months",
+      "activities": ["Vendor assessments", "Pilot testing", "Integration planning"],
+      "outcome": "Technology solution selected"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "1 month",
+      "activities": ["Deployment roadmap", "Training program", "Change management"],
+      "outcome": "Comprehensive implementation plan developed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in safety incidents, improved emergency response times",
+    "projected_value": "$8 million annual savings from reduced incidents",
+    "risk_factors": ["Worker resistance", "Technology reliability", "Training challenges"]
+  },
+  "decision_criteria": ["Safety improvement", "Regulatory compliance", "Financial viability", "Worker acceptance"],
+  "outcome": "Approved",
+  "lessons_learned": "Worker involvement in technology selection improves adoption and effectiveness"
+}

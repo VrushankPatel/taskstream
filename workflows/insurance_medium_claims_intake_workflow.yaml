@@ -1,0 +1,37 @@
+workflow:
+  id: "workflow_insurance_medium_claims_intake"
+  title: "Claims Intake Process"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Representative", "Policyholder", "Claims Adjuster"]
+  trigger: "Policyholder reports claim"
+  steps:
+    - step: 1
+      actor: "Claims Representative"
+      action: "Collect initial claim details and verify policy coverage"
+      decision_points: ["Policy validity confirmed", "Additional documentation required"]
+      tools: ["Claims intake system", "Policy database", "Document scanning"]
+      duration: "10 minutes"
+      outputs: ["Initial claim report", "Policy verification status"]
+    - step: 2
+      actor: "Claims Representative"
+      action: "Assess claim validity and urgency based on coverage terms"
+      decision_points: ["Claim within coverage limits", "Expedited processing required"]
+      tools: ["Claims assessment guidelines", "Coverage analysis tools", "Fraud detection flags"]
+      duration: "5 minutes"
+      outputs: ["Priority classification", "Validity assessment"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Review and assign claim for investigation with resource allocation"
+      decision_points: ["Specialist investigation needed", "Supervisor approval required"]
+      tools: ["Claims management system", "Adjuster assignment matrix", "Case management software"]
+      duration: "15 minutes"
+      outputs: ["Assigned claim file", "Investigation timeline"]
+  success_criteria: "All claims acknowledged within 24 hours, valid claims assigned within 48 hours"
+  failure_modes: ["Incomplete information", "Policy verification issues", "System errors"]
+  metrics:
+    - "Average response time: 12 hours"
+    - "Claim accuracy rate: 96%"
+    - "Customer satisfaction: 4.1/5"
+    - "First contact resolution rate: 75%"
+    - "Fraud detection accuracy: 94%"

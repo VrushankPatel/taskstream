@@ -1,5 +1,5 @@
 workflow:
-  id: "insurance_underwriting"
+  id: "workflow_insurance_underwriting"
   title: "Insurance Underwriting Workflow"
   department: "Underwriting"
   complexity: "medium"
@@ -9,6 +9,7 @@ workflow:
     - step: 1
       actor: "Underwriter"
       action: "Initial application review and data collection"
+      decision_points: ["Application completeness check", "Coverage type eligibility", "Underwriting authority level"]
       tools: ["Underwriting System", "Credit Reports", "Medical Records Access"]
       duration: "2 hours"
       outputs: ["Application Summary", "Initial Risk Assessment"]
@@ -21,6 +22,7 @@ workflow:
     - step: 3
       actor: "Actuary"
       action: "Pricing and premium calculation"
+      decision_points: ["Reinsurance needs assessment", "Competitive pricing analysis", "Regulatory compliance check"]
       tools: ["Actuarial Models", "Historical Claims Data"]
       duration: "3 hours"
       outputs: ["Premium Calculation", "Profitability Analysis"]
@@ -44,3 +46,9 @@ workflow:
       outputs: ["Policy Document", "Applicant Notification"]
   success_criteria: "Accurate risk assessment completed, competitive pricing offered, regulatory compliance maintained, applicant satisfaction achieved"
   failure_modes: ["Inadequate risk assessment leading to adverse selection", "Pricing errors causing financial losses", "Regulatory non-compliance", "Delays in processing"]
+  metrics:
+    - "Underwriting accuracy rate: >95%"
+    - "Average processing time: <24 hours"
+    - "Profitability ratio: >110%"
+    - "Customer satisfaction: >4.0/5"
+    - "Regulatory compliance rate: >99%"

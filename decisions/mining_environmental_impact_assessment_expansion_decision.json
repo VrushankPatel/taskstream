@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_environmental_impact_assessment_expansion_decision",
+  "context": "Large mining company considering $200M expansion of existing copper mine with significant environmental impact",
+  "stakeholders": {
+    "requester": "Chief Mining Officer",
+    "approvers": ["CEO", "Board of Directors", "Chief Sustainability Officer"],
+    "influencers": ["Environmental Manager", "Community Relations Director", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$200,000,000",
+    "purpose": "Expand copper production by 40% to meet market demand",
+    "urgency": "medium",
+    "justification": "Market opportunity, operational efficiency improvements, long-term profitability"
+  },
+  "decision_process": [
+    {
+      "stage": "environmental_assessment",
+      "duration": "6 months",
+      "activities": ["Environmental impact study", "Biodiversity assessment", "Water resource analysis"],
+      "outcome": "Moderate environmental impact identified with mitigation strategies"
+    },
+    {
+      "stage": "community_consultation",
+      "duration": "3 months",
+      "activities": ["Local community meetings", "Indigenous consultation", "Impact compensation discussions"],
+      "outcome": "Community concerns addressed with enhanced compensation package"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "4 months",
+      "activities": ["Permit applications", "Regulatory hearings", "Environmental approval process"],
+      "outcome": "Conditional approval with enhanced environmental monitoring requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% production increase, $80M annual revenue growth",
+    "projected_value": "$320,000,000 NPV over 15 years",
+    "risk_factors": ["Environmental litigation", "Community opposition", "Regulatory changes"]
+  },
+  "decision_criteria": ["Environmental impact acceptable", "Community support", "Regulatory approval", "Financial ROI >12%"],
+  "outcome": "Approved",
+  "lessons_learned": "Comprehensive environmental assessment and community engagement essential for mining expansions, enhanced monitoring improves regulatory relationships"
+}

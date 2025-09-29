@@ -1,36 +1,36 @@
 # Finance Lending Portfolio Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)  
-**Last Updated:** 2025-10-01  
+**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)
+**Last Updated:** 2025-10-01
 
 ## Key Performance Indicators
 
 ### Portfolio Health Metrics
-- **Portfolio Size**: $2.8B (Current Quarter)  
-  - YoY Growth: +12.5%  
-  - QoQ Growth: +3.2%  
-  - Historical: Q1: $2.6B, Q2: $2.7B, Q3: $2.8B, Q4: $2.9B (projected)  
-- **Average Loan Size**: $450K  
-  - YoY Change: +8.4%  
-  - Range: $25K - $5M  
-  - Trend: Increasing due to commercial client growth  
+- **Portfolio Size**: $2.8B (Current Quarter)
+  - YoY Growth: +12.5%
+  - QoQ Growth: +3.2%
+  - Historical: Q1: $2.6B, Q2: $2.7B, Q3: $2.8B, Q4: $2.9B (projected)
+- **Average Loan Size**: $450K
+  - YoY Change: +8.4%
+  - Range: $25K - $5M
+  - Trend: Increasing due to commercial client growth
 
 ### Risk Metrics
-- **Delinquency Rate**: 1.8%  
-  - Target: <2.0%  
-  - YoY Change: -0.3%  
-  - Historical trend: 2.1% (2023) → 1.9% (2024) → 1.8% (2025)  
-- **Default Rate**: 0.45%  
-  - Target: <0.5%  
-  - Industry Average: 0.6%  
-  - Trend: Improving due to enhanced underwriting  
+- **Delinquency Rate**: 1.8%
+  - Target: <2.0%
+  - YoY Change: -0.3%
+  - Historical trend: 2.1% (2023) → 1.9% (2024) → 1.8% (2025)
+- **Default Rate**: 0.45%
+  - Target: <0.5%
+  - Industry Average: 0.6%
+  - Trend: Improving due to enhanced underwriting
 
 ### Financial Performance
-- **Net Interest Margin**: 3.2%  
-  - Target: 3.0%  
-  - YoY Growth: +0.2%  
-  - Historical: 3.0% (2023) → 3.1% (2024) → 3.2% (2025)  
+- **Net Interest Margin**: 3.2%
+  - Target: 3.0%
+  - YoY Growth: +0.2%
+  - Historical: 3.0% (2023) → 3.1% (2024) → 3.2% (2025)
 
 ### Operational Efficiency
 - **Loan Processing Time**: 5.2 days (average)
@@ -46,7 +46,7 @@
   - Based on post-approval surveys
 - **Digital Channel Adoption**: 65%
   - Target: >70% by 2026
-  - Online applications vs total  
+  - Online applications vs total
 
 ## Trend Analysis
 
@@ -86,12 +86,12 @@
 | Consumer Loans | 10% | 2.5% | 4.2% |
 
 ## Forecasting
-- **Q4 Portfolio Growth**: $2.9B (+4% from Q3)  
-- **2026 Full Year**: $3.1B (+11% from 2025)  
-- **Risk Outlook**: Stable with moderate economic uncertainty  
-- **NIM Projection**: 3.3% for 2026  
+- **Q4 Portfolio Growth**: $2.9B (+4% from Q3)
+- **2026 Full Year**: $3.1B (+11% from 2025)
+- **Risk Outlook**: Stable with moderate economic uncertainty
+- **NIM Projection**: 3.3% for 2026
 
 ## Benchmarking
-- **Industry Average Delinquency**: 2.2% (above peer average of 1.8%)  
-- **Top Quartile NIM**: 3.5% (within top quartile)  
+- **Industry Average Delinquency**: 2.2% (above peer average of 1.8%)
+- **Top Quartile NIM**: 3.5% (within top quartile)
 - **Processing Speed**: Top 20% of industry peers

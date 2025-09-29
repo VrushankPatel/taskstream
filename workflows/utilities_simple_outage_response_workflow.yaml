@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 12500
     seasonal_variations: ["Q1 peak for winter storms", "Q3 peak for summer heat waves"]
     historical_evolution: "Added predictive analytics in 2022, drone inspection capability in 2024"
-   steps:
+  steps:
      - step: 1
        actor: "Control Room Operator"
        action: "Verify outage through SCADA system and customer reports, isolate affected area"

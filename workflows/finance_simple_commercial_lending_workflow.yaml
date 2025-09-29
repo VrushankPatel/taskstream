@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 250
     seasonal_variations: ["Q4 peak for year-end financing", "Q1 slowdown post-holiday"]
     historical_evolution: "Originally manual process, digitized in 2020 with automated credit scoring"
-   steps:
+  steps:
      - step: 1
        actor: "Relationship Manager"
        action: "Review application completeness and gather additional documentation"

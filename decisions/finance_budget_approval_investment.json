@@ -4,8 +4,15 @@
   "context": "Mid-sized investment firm seeking $2.5M budget for AI-driven portfolio optimization platform",
   "stakeholders": {
     "requester": "Chief Investment Officer",
-    "approvers": ["CEO", "CFO", "Board Investment Committee"],
-    "influencers": ["Head of Technology", "Risk Management Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Investment Committee"
+    ],
+    "influencers": [
+      "Head of Technology",
+      "Risk Management Director"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -19,7 +26,11 @@
       "start_date": "2025-09-01",
       "end_date": "2025-09-10",
       "duration": "7 days",
-      "activities": ["ROI analysis", "Technology assessment", "Risk evaluation"],
+      "activities": [
+        "ROI analysis",
+        "Technology assessment",
+        "Risk evaluation"
+      ],
       "outcome": "Advanced to committee review"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-09-11",
       "end_date": "2025-09-15",
       "duration": "4 days",
-      "activities": ["Board presentation", "Due diligence", "Competitive analysis"],
+      "activities": [
+        "Board presentation",
+        "Due diligence",
+        "Competitive analysis"
+      ],
       "outcome": "Approved with conditions"
     }
   ],
@@ -36,14 +51,25 @@
     "projected_value": "$3,750,000 annual benefit",
     "actual_value": "$3,200,000 (achieved in Year 1)",
     "roi_timeline": "18 months payback period",
-    "risk_factors": ["Technology implementation challenges", "Market volatility impact"]
+    "risk_factors": [
+      "Technology implementation challenges",
+      "Market volatility impact"
+    ]
   },
-  "decision_criteria": ["Projected ROI > 12 months", "Strategic alignment with digital transformation", "Acceptable risk profile"],
+  "decision_criteria": [
+    "Projected ROI > 12 months",
+    "Strategic alignment with digital transformation",
+    "Acceptable risk profile"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2026-03-31",
-    "milestones": ["Platform development: 2025-12-31", "Testing phase: 2026-02-28", "Go-live: 2026-03-31"]
+    "milestones": [
+      "Platform development: 2025-12-31",
+      "Testing phase: 2026-02-28",
+      "Go-live: 2026-03-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Platform development 80% complete, initial testing positive",

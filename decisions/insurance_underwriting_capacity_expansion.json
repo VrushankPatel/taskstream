@@ -4,8 +4,16 @@
   "context": "Property insurance company facing capacity constraints in high-growth markets",
   "stakeholders": {
     "requester": "Chief Underwriting Officer",
-    "approvers": ["CEO", "CFO", "Board Risk Committee"],
-    "influencers": ["Head of Actuarial", "Regional Managers", "Reinsurance Partners"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Head of Actuarial",
+      "Regional Managers",
+      "Reinsurance Partners"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-08-15",
       "end_date": "2025-09-01",
       "duration": "12 days",
-      "activities": ["Market opportunity assessment", "Capacity modeling", "Technology evaluation"],
+      "activities": [
+        "Market opportunity assessment",
+        "Capacity modeling",
+        "Technology evaluation"
+      ],
       "outcome": "Identified $8.5M investment need"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-09-05",
       "end_date": "2025-09-20",
       "duration": "15 days",
-      "activities": ["Financial impact analysis", "Risk assessment", "Strategic alignment review"],
+      "activities": [
+        "Financial impact analysis",
+        "Risk assessment",
+        "Strategic alignment review"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
@@ -36,14 +52,25 @@
     "projected_value": "$12M additional annual premium",
     "actual_value": "$11.5M (achieved in Year 1)",
     "roi_timeline": "24 months payback period",
-    "risk_factors": ["Technology implementation delays", "Staffing market competition"]
+    "risk_factors": [
+      "Technology implementation delays",
+      "Staffing market competition"
+    ]
   },
-  "decision_criteria": ["ROI > 24 months", "Strategic market expansion", "Risk-adjusted profitability >15%"],
+  "decision_criteria": [
+    "ROI > 24 months",
+    "Strategic market expansion",
+    "Risk-adjusted profitability >15%"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2026-06-30",
-    "milestones": ["Technology platform: 2025-12-31", "Staff hiring: 2026-03-31", "Training completion: 2026-06-30"]
+    "milestones": [
+      "Technology platform: 2025-12-31",
+      "Staff hiring: 2026-03-31",
+      "Training completion: 2026-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Technology implementation 70% complete, initial capacity increase of 15%",

@@ -1,68 +1,123 @@
 {
-  "scenario_id": "utilities_smart_grid_asia_2024",
-  "decision_date": "2024-11-15",
-  "context": "Regional utility company (3000+ employees) in Southeast Asia evaluating smart grid infrastructure investment to improve renewable energy integration and grid reliability across metropolitan service area",
+  "scenario_id": "utilities_asia_smart_grid_investment_2025",
+  "context": "Asia utilities company evaluating investment in smart grid infrastructure for improved reliability and efficiency",
   "stakeholders": {
-    "requester": "VP Grid Operations",
-    "approvers": ["CEO", "CFO", "Government Relations Director"],
-    "influencers": ["Chief Technology Officer", "Head of Renewable Integration", "Regulatory Affairs Manager", "Operations Director"],
-    "impacted_parties": ["Grid Operators", "Customer Service", "Field Technicians", "Regulatory Bodies", "Renewable Energy Partners"]
+    "requester": "Chief Technology Officer",
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Regulatory Affairs",
+      "Operations Management",
+      "Customer Service",
+      "Technology Partners",
+      "Local Government"
+    ]
   },
   "request": {
-    "amount": "$45M",
-    "purpose": "Smart grid infrastructure deployment and control systems",
-    "urgency": "medium",
-    "justification": "Government renewable energy mandates requiring 40% clean energy by 2027 and increasing grid stability demands"
+    "amount": "$15 million",
+    "purpose": "Deploy advanced smart grid technologies including IoT sensors, AI-driven analytics, and automated distribution management",
+    "urgency": "high",
+    "justification": "Address growing energy demand, improve grid reliability, and enable renewable energy integration in Asia market"
   },
   "decision_process": [
     {
-      "stage": "feasibility_study",
-      "start_date": "2024-08-01",
-      "end_date": "2024-09-15",
-      "duration": "45 days",
-      "activities": ["Technical assessment", "Regulatory compliance review", "Financial modeling", "Environmental impact study", "Stakeholder consultations"],
-      "outcome": "Feasibility confirmed with regulatory support identified"
+      "stage": "technical_assessment",
+      "duration": "10 weeks",
+      "activities": [
+        "Current grid infrastructure analysis",
+        "Smart grid technology evaluation",
+        "Integration requirements assessment"
+      ],
+      "outcome": "Identified optimal smart grid solutions with clear technical specifications and integration roadmap"
     },
     {
-      "stage": "vendor_selection",
-      "start_date": "2024-09-16",
-      "end_date": "2024-10-30",
-      "duration": "44 days",
-      "activities": ["RFP development", "Vendor demonstrations", "Technical evaluations", "Reference site visits", "Contract negotiations"],
-      "outcome": "Primary vendor selected with proven Asia-Pacific deployment experience"
+      "stage": "regulatory_compliance",
+      "duration": "6 weeks",
+      "activities": [
+        "Asia regulatory framework review",
+        "Data privacy compliance evaluation",
+        "Permitting and approval processes"
+      ],
+      "outcome": "Comprehensive regulatory compliance framework developed with local authority alignment"
     },
     {
-      "stage": "executive_approval",
-      "start_date": "2024-11-01",
-      "end_date": "2024-11-15",
-      "duration": "14 days",
-      "activities": ["Executive committee review", "Board presentation", "Government liaison meetings", "Financial committee approval"],
-      "outcome": "Approved with government co-funding secured"
+      "stage": "financial_modeling",
+      "duration": "8 weeks",
+      "activities": [
+        "Total cost of ownership analysis",
+        "Revenue enhancement projections",
+        "Risk-adjusted financial modeling"
+      ],
+      "outcome": "4-year payback period confirmed with 28% operational efficiency improvement projected"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "4 weeks",
+      "activities": [
+        "Customer impact assessment",
+        "Community engagement planning",
+        "Vendor partnership development"
+      ],
+      "outcome": "Stakeholder support secured with community benefits and customer service improvements"
     }
   ],
   "business_impact": {
-    "expected_outcome": "30% improvement in renewable energy integration capacity and 25% reduction in grid outages",
-    "projected_value": "$78M over 10 years through efficiency gains and reliability improvements",
-    "actual_value": "Project initiation phase",
-    "roi_timeline": "Break-even in 7 years with full value realization over 15-year asset life",
-    "risk_factors": ["Technology integration complexity", "Regulatory approval delays", "Customer adoption rates", "Cybersecurity vulnerabilities", "Weather-related deployment risks"]
-  },
-  "decision_criteria": ["Renewable integration capacity", "Grid reliability improvement", "Regulatory compliance", "Total cost of ownership", "Vendor track record in region", "Cybersecurity capabilities"],
-  "outcome": "Approved",
-  "implementation_timeline": {
-    "start_date": "2025-01-15",
-    "completion_date": "2026-12-31",
-    "milestones": [
-      "Phase 1 - Infrastructure Planning: 2025-06-30",
-      "Phase 2 - Core System Deployment: 2025-12-31",
-      "Phase 3 - Grid Integration & Testing: 2026-06-30",
-      "Phase 4 - Full Operational Launch: 2026-12-31"
+    "expected_efficiency_gain": "35%",
+    "projected_cost_savings": "$4.2 million annually",
+    "expected_outcome": "40% reduction in outage duration, 25% improvement in renewable energy integration, enhanced customer satisfaction",
+    "projected_value": "$6.8 million additional annual value",
+    "actual_value": "TBD (implementation Q4 2026)",
+    "roi_timeline": "Expected payback in 44 months",
+    "risk_factors": [
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities",
+      "Regulatory approval delays",
+      "Higher maintenance costs"
     ]
   },
-  "outcome_tracking": {
-    "6_month_review": "Project on track with infrastructure planning 95% complete and vendor partnerships established",
-    "12_month_review": "Core systems 70% deployed with renewable integration testing showing 28% capacity improvement",
-    "actual_roi": "Tracking 15% ahead of projections with government incentives exceeding expectations"
+  "decision_criteria": ["Operational efficiency", "Grid reliability", "Regulatory compliance", "Financial ROI", "Customer impact"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-12-01",
+    "completion_date": "2027-08-31",
+    "milestones": ["Pilot deployment: 2026-06-30", "Phase 1 rollout: 2026-12-31", "Full implementation: 2027-06-30", "Optimization: 2027-08-31"]
   },
-  "lessons_learned": "Government partnership and regulatory pre-approval essential for large infrastructure projects. Phased deployment allows for learning and adjustment while maintaining service reliability."
+  "outcome_tracking": {
+    "6_month_review": "Pilot performance metrics and initial efficiency gains",
+    "12_month_review": "Full year reliability improvements and cost savings",
+    "actual_roi": "TBD (target 25% above projections)"
+  },
+  "implementation_details": {
+    "team_structure": {
+      "project_director": "VP of Grid Operations",
+      "technical_lead": "Smart Grid Implementation Manager",
+      "cybersecurity_officer": "Chief Information Security Officer",
+      "operations_lead": "Distribution Operations Manager"
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "iot_sensors_hardware": "$5,000,000",
+        "ai_analytics_platform": "$4,000,000",
+        "cybersecurity_systems": "$3,000,000",
+        "integration_services": "$2,000,000",
+        "training_maintenance": "$1,000,000"
+      },
+      "personnel_resources": "15 FTE for implementation, 6 FTE for ongoing operations"
+    },
+    "risk_mitigation": {
+      "technical_risks": "Comprehensive testing and vendor support agreements",
+      "cybersecurity_risks": "Multi-layered security approach with continuous monitoring",
+      "regulatory_risks": "Proactive engagement with local authorities"
+    },
+    "success_metrics": {
+      "outage_reduction": "Target 40% reduction in average outage duration",
+      "renewable_integration": "Target 25% increase in renewable energy capacity utilization",
+      "customer_satisfaction": "Target 4.3/5.0 service reliability rating",
+      "operational_efficiency": "Target 35% improvement in grid management efficiency"
+    }
+  },
+  "lessons_learned": "Comprehensive cybersecurity planning essential for smart grid implementations; phased deployment minimizes operational disruption while building stakeholder confidence"
 }

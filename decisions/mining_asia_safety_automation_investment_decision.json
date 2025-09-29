@@ -1,84 +1,123 @@
 {
-  "scenario_id": "mining_asia_safety_automation_2025",
-  "decision_date": "2024-12-08",
-  "context": "Large-scale mining operation across 6 Asia-Pacific countries evaluating comprehensive safety automation investment to reduce workplace incidents, improve regulatory compliance, and enhance operational efficiency in high-risk underground and surface mining environments",
+  "scenario_id": "mining_asia_safety_automation_investment_2025",
+  "context": "Asia mining company evaluating investment in automated safety systems for underground operations",
   "stakeholders": {
     "requester": "Chief Safety Officer",
-    "approvers": ["CEO", "COO", "Board Safety Committee", "Regional General Manager"],
-    "influencers": ["VP Operations", "Chief Technology Officer", "Environmental Compliance Director", "Union Representatives", "Community Relations Manager"],
-    "impacted_parties": ["Mine Workers", "Safety Supervisors", "Equipment Operators", "Maintenance Teams", "Local Communities", "Regulatory Authorities", "Emergency Response Teams"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Operations Committee"
+    ],
+    "influencers": [
+      "Safety Regulatory Authority",
+      "Workforce Representatives",
+      "Technology Vendors",
+      "Insurance Providers",
+      "Local Government"
+    ]
   },
   "request": {
-    "amount": "$125,000,000",
-    "purpose": "Comprehensive safety automation system deployment across 12 mining sites including IoT sensors, AI-powered risk detection, autonomous safety monitoring, and emergency response systems",
-    "urgency": "high", 
-    "justification": "Current safety incident rate 15% above industry average, regulatory pressure increasing across all jurisdictions, insurance premiums rising 25% annually, potential for fatality prevention and significant liability reduction"
+    "amount": "$9 million",
+    "purpose": "Implement comprehensive automated safety systems including gas monitoring, structural integrity sensors, and emergency response automation",
+    "urgency": "high",
+    "justification": "Address safety concerns in underground mining, comply with Asia safety regulations, and reduce operational risks"
   },
   "decision_process": [
     {
-      "stage": "safety_risk_assessment",
-      "start_date": "2024-12-08",
-      "end_date": "2025-01-10",
-      "duration": "33 days",
-      "activities": ["Comprehensive safety audit across all sites", "Incident analysis and root cause investigation", "Regulatory compliance gap analysis", "Worker safety survey and consultation", "Community impact assessment"],
-      "outcome": "Critical safety gaps identified with potential for 60% incident reduction through automation"
+      "stage": "safety_assessment",
+      "duration": "8 weeks",
+      "activities": [
+        "Current safety incident analysis",
+        "Risk factor identification",
+        "Safety technology gap analysis"
+      ],
+      "outcome": "Identified critical safety gaps with automated solutions for gas monitoring and structural integrity"
     },
     {
-      "stage": "technology_evaluation",
-      "start_date": "2025-01-11",
-      "end_date": "2025-02-25",
-      "duration": "45 days", 
-      "activities": ["Safety automation vendor assessment", "Pilot testing at 2 representative sites", "Technology integration feasibility study", "Cybersecurity and data protection analysis", "Cultural adaptation and worker acceptance evaluation"],
-      "outcome": "Technology solution validated with 75% worker approval and proven effectiveness in pilot phase"
+      "stage": "technical_evaluation",
+      "duration": "10 weeks",
+      "activities": [
+        "Safety automation technology assessment",
+        "Integration with existing systems",
+        "Reliability and maintenance requirements"
+      ],
+      "outcome": "Comprehensive safety automation solution identified with proven technology and integration capabilities"
     },
     {
-      "stage": "regulatory_compliance_review",
-      "start_date": "2025-02-26",
-      "end_date": "2025-04-15",
-      "duration": "48 days",
-      "activities": ["Multi-country regulatory approval process", "Environmental impact assessment for automation systems", "Union negotiation and worker protection agreements", "Community consultation and benefit sharing discussions", "Insurance provider collaboration and premium reduction negotiation"],
-      "outcome": "All regulatory approvals obtained with accelerated implementation pathway and 20% insurance premium reduction secured"
+      "stage": "regulatory_compliance",
+      "duration": "6 weeks",
+      "activities": [
+        "Asia mining safety regulations review",
+        "Certification requirements evaluation",
+        "Compliance timeline development"
+      ],
+      "outcome": "Clear regulatory compliance pathway with certification requirements and implementation standards"
     },
     {
-      "stage": "financial_business_case",
-      "start_date": "2025-04-16",
-      "end_date": "2025-05-30",
-      "duration": "44 days",
-      "activities": ["ROI modeling including safety cost avoidance", "Productivity improvement quantification", "Insurance and liability cost reduction analysis", "Worker training and adaptation cost estimation", "Phased implementation financial planning"],
-      "outcome": "Business case validated with 28% IRR driven primarily by incident reduction and productivity gains"
+      "stage": "workforce_impact_analysis",
+      "duration": "6 weeks",
+      "activities": [
+        "Workforce training requirements",
+        "Job role changes assessment",
+        "Change management planning"
+      ],
+      "outcome": "Workforce transition plan developed with training programs and safety culture enhancement"
     }
   ],
   "business_impact": {
-    "expected_outcome": "60% reduction in safety incidents, 40% improvement in regulatory compliance scores, 25% increase in operational efficiency, 35% reduction in insurance and liability costs, enhanced worker confidence and retention",
-    "projected_value": "$280,000,000 in total cost avoidance and productivity gains over 10 years",
-    "actual_value": "Pilot sites showing 55% incident reduction and 30% productivity improvement exceeding expectations",
-    "roi_timeline": "Initial ROI realized in year 2 through insurance savings, full payback by year 5 including productivity gains",
-    "risk_factors": ["Technology reliability in harsh mining conditions", "Worker adaptation and training challenges", "Regulatory changes affecting automation requirements", "Cybersecurity threats to automated safety systems", "Integration complexity with existing systems", "Community acceptance of job role changes"]
-  },
-  "decision_criteria": [
-    "Safety incident reduction potential >50%",
-    "Regulatory compliance improvement measurable across all jurisdictions", 
-    "Worker acceptance and union approval for technology integration",
-    "Community benefit demonstration and local economic impact",
-    "Financial returns exceeding 25% IRR including safety cost avoidance",
-    "Environmental impact neutrality or improvement",
-    "Technology reliability and maintainability in mining environments",
-    "Cybersecurity and data protection compliance with local regulations"
-  ],
-  "outcome": "Approved",
-  "implementation_timeline": {
-    "start_date": "2025-08-01",
-    "completion_date": "2028-12-31",
-    "milestones": [
-      "Phase 1 - High-risk underground operations (4 sites): 2025-08-01 to 2026-12-31",
-      "Phase 2 - Surface mining and processing facilities (6 sites): 2027-01-01 to 2027-12-31", 
-      "Phase 3 - Remaining operations and advanced AI integration (2 sites): 2028-01-01 to 2028-12-31"
+    "expected_efficiency_gain": "25%",
+    "projected_cost_savings": "$2.1 million annually",
+    "expected_outcome": "50% reduction in safety incidents, improved regulatory compliance, enhanced workforce safety culture",
+    "projected_value": "$3.8 million additional annual value",
+    "actual_value": "TBD (implementation Q3 2026)",
+    "roi_timeline": "Expected payback in 38 months",
+    "risk_factors": [
+      "Technology reliability issues",
+      "Workforce adaptation challenges",
+      "Maintenance cost increases",
+      "Regulatory changes"
     ]
   },
-  "outcome_tracking": {
-    "6_month_review": "Pilot expansion successful with 58% incident reduction achieved at Phase 1 sites, worker satisfaction 85%, community support programs initiated",
-    "12_month_review": "Full Phase 1 deployment completed ahead of schedule, regulatory commendations received, insurance premium reductions exceeding projections by 12%",
-    "actual_roi": "Project tracking 31% IRR (vs projected 28%) with faster implementation and higher productivity gains than modeled"
+  "decision_criteria": ["Safety improvement", "Regulatory compliance", "Financial ROI", "Technical reliability", "Workforce impact"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2027-03-31",
+    "milestones": ["System installation: 2026-03-31", "Testing and certification: 2026-07-31", "Full operation: 2026-11-30", "Optimization: 2027-03-31"]
   },
-  "lessons_learned": "Worker engagement and training critical for success - investment in change management 40% higher than budgeted but essential for adoption. Community benefit sharing programs increased local support and reduced implementation friction. Real-time safety monitoring created cultural shift toward proactive prevention vs reactive response."
+  "outcome_tracking": {
+    "6_month_review": "Initial safety metrics and system reliability",
+    "12_month_review": "Full year safety improvements and incident reduction",
+    "actual_roi": "TBD (target 28% above projections)"
+  },
+  "implementation_details": {
+    "team_structure": {
+      "project_director": "Chief Safety Officer",
+      "technical_lead": "Safety Systems Manager",
+      "operations_lead": "Mining Operations Manager",
+      "training_officer": "Safety Training Manager"
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "safety_monitoring_systems": "$4,000,000",
+        "automation_equipment": "$2,500,000",
+        "emergency_response_systems": "$1,200,000",
+        "training_programs": "$600,000",
+        "maintenance_setup": "$700,000"
+      },
+      "personnel_resources": "8 FTE for implementation, 3 FTE for ongoing maintenance"
+    },
+    "risk_mitigation": {
+      "technical_risks": "Redundant systems and vendor support agreements",
+      "workforce_risks": "Comprehensive training and change management",
+      "operational_risks": "Phased implementation with backup procedures"
+    },
+    "success_metrics": {
+      "incident_reduction": "Target 50% reduction in safety incidents",
+      "response_time": "Target <5 minutes emergency response time",
+      "compliance_score": "Target 98% regulatory compliance rating",
+      "workforce_satisfaction": "Target 4.3/5.0 safety system satisfaction"
+    }
+  },
+  "lessons_learned": "Comprehensive workforce training essential for safety automation success; phased implementation allows for system optimization and cultural adaptation"
 }

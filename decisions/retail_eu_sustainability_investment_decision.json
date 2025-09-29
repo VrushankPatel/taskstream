@@ -1,70 +1,123 @@
 {
-  "scenario_id": "retail_eu_sustainability_investment_decision",
-  "decision_date": "2025-01-15",
-  "context": "European retail chain expanding sustainable product lines and supply chain practices to meet EU Green Deal requirements and consumer demand for eco-friendly products",
+  "scenario_id": "retail_eu_sustainability_investment_2025",
+  "context": "EU retail enterprise evaluating investment in sustainability initiatives for regulatory compliance and market positioning",
   "stakeholders": {
-    "requester": "VP Sustainability",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["Head of Procurement", "Marketing Director", "Store Operations Manager"]
+    "requester": "Chief Sustainability Officer",
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "EU Regulatory Affairs",
+      "Supply Chain Management",
+      "Marketing Department",
+      "Customer Experience Team",
+      "Environmental NGOs"
+    ]
   },
   "request": {
-    "amount": "€12,000,000",
-    "purpose": "Sustainable supply chain transformation and product line expansion",
+    "amount": "€8 million",
+    "purpose": "Implement comprehensive sustainability program including circular economy practices, carbon reduction, and waste management",
     "urgency": "high",
-    "justification": "EU regulatory requirements, 40% customer demand for sustainable products, competitive positioning"
+    "justification": "Comply with EU Green Deal requirements, enhance brand reputation, and meet customer expectations for sustainable retail"
   },
   "decision_process": [
     {
-      "stage": "initial_review",
-      "start_date": "2024-11-01",
-      "end_date": "2024-11-15",
-      "duration": "2 weeks",
-      "activities": ["Market analysis", "Regulatory assessment", "ROI modeling"],
-      "outcome": "Advanced to detailed planning"
+      "stage": "regulatory_compliance_assessment",
+      "duration": "6 weeks",
+      "activities": [
+        "EU Green Deal requirements analysis",
+        "CSRD compliance evaluation",
+        "Regulatory roadmap development"
+      ],
+      "outcome": "Identified mandatory and voluntary sustainability initiatives with clear compliance timelines"
     },
     {
-      "stage": "stakeholder_consultation",
-      "start_date": "2024-11-16",
-      "end_date": "2024-12-01",
-      "duration": "2 weeks",
-      "activities": ["Cross-functional workshops", "Supplier negotiations", "Customer research"],
-      "outcome": "Strong support from operations and marketing"
+      "stage": "business_case_development",
+      "duration": "8 weeks",
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections for sustainability investments",
+        "Market positioning assessment"
+      ],
+      "outcome": "Comprehensive business case with 3-year payback period and enhanced brand value projections"
     },
     {
-      "stage": "financial_analysis",
-      "start_date": "2024-12-02",
-      "end_date": "2024-12-20",
-      "duration": "3 weeks",
-      "activities": ["Detailed cost-benefit analysis", "Cash flow projections", "Risk assessment"],
-      "outcome": "Positive ROI projected within 3 years"
+      "stage": "stakeholder_engagement",
+      "duration": "4 weeks",
+      "activities": [
+        "Internal stakeholder workshops",
+        "Supplier collaboration planning",
+        "Customer feedback integration"
+      ],
+      "outcome": "Stakeholder alignment achieved with collaborative implementation approach"
     },
     {
-      "stage": "board_approval",
-      "start_date": "2024-12-21",
-      "end_date": "2025-01-15",
-      "duration": "3 weeks",
-      "activities": ["Board presentation", "Executive discussions", "Final approval"],
-      "outcome": "Approved with phased implementation"
+      "stage": "implementation_feasibility",
+      "duration": "6 weeks",
+      "activities": [
+        "Technology requirements assessment",
+        "Supplier capability evaluation",
+        "Change management planning"
+      ],
+      "outcome": "Feasible implementation roadmap with technology partners and change management strategy"
     }
   ],
   "business_impact": {
-    "expected_outcome": "15% increase in sustainable product sales, improved brand reputation, EU compliance",
-    "projected_value": "€8,000,000 annual revenue increase",
-    "actual_value": "€6,500,000 achieved in first year (vs projection)",
-    "roi_timeline": "Expected payback in 2.5 years",
-    "risk_factors": ["Supplier transition costs", "Customer price sensitivity", "Regulatory changes"]
+    "expected_efficiency_gain": "25%",
+    "projected_cost_savings": "€2.4 million annually",
+    "expected_outcome": "30% carbon reduction, 40% waste diversion, enhanced customer loyalty and brand value",
+    "projected_value": "€4.1 million additional annual value",
+    "actual_value": "TBD (implementation Q3 2026)",
+    "roi_timeline": "Expected payback in 42 months",
+    "risk_factors": [
+      "Regulatory changes",
+      "Supplier compliance challenges",
+      "Implementation cost overruns",
+      "Customer adoption delays"
+    ]
   },
-  "decision_criteria": ["EU regulatory compliance", "Customer demand alignment", "Financial viability", "Operational feasibility", "Brand impact"],
+  "decision_criteria": ["Regulatory compliance", "Financial ROI", "Brand enhancement", "Customer expectations", "Operational feasibility"],
   "outcome": "Approved",
   "implementation_timeline": {
-    "start_date": "2025-02-01",
-    "completion_date": "2026-01-31",
-    "milestones": ["Phase 1 supplier transition: 2025-06-30", "Product line expansion: 2025-09-30", "Full implementation: 2026-01-31"]
+    "start_date": "2025-10-01",
+    "completion_date": "2027-06-30",
+    "milestones": ["Regulatory compliance: 2026-03-31", "Pilot programs: 2026-09-30", "Full implementation: 2027-03-31", "Optimization: 2027-06-30"]
   },
   "outcome_tracking": {
-    "6_month_review": "On track with supplier transitions, early sales growth of 8%",
-    "12_month_review": "Exceeded targets with 12% sales increase, positive customer feedback",
-    "actual_roi": "18% (vs projected 15%)"
+    "6_month_review": "Initial carbon reduction metrics and customer feedback",
+    "12_month_review": "Full year sustainability KPIs and ROI tracking",
+    "actual_roi": "TBD (target 22% above projections)"
   },
-  "lessons_learned": "Early supplier engagement critical for success, customer education campaigns more effective than expected, regulatory compliance provided competitive advantage"
+  "implementation_details": {
+    "team_structure": {
+      "project_director": "Chief Sustainability Officer",
+      "technical_lead": "Sustainability Program Manager",
+      "compliance_officer": "EU Regulatory Affairs Manager",
+      "operations_lead": "Supply Chain Sustainability Manager"
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "circular_economy_systems": "€3,000,000",
+        "carbon_reduction_technologies": "€2,500,000",
+        "waste_management_solutions": "€1,200,000",
+        "staff_training_programs": "€800,000",
+        "monitoring_reporting_systems": "€500,000"
+      },
+      "personnel_resources": "8 FTE for implementation, 3 FTE for ongoing management"
+    },
+    "risk_mitigation": {
+      "regulatory_risks": "Continuous monitoring of EU policy changes",
+      "supplier_risks": "Supplier development programs and alternative sourcing",
+      "implementation_risks": "Phased rollout with pilot testing"
+    },
+    "success_metrics": {
+      "carbon_reduction": "Target 30% reduction in Scope 1&2 emissions",
+      "waste_diversion": "Target 40% waste diverted from landfill",
+      "customer_satisfaction": "Target 4.2/5.0 sustainability perception score",
+      "cost_savings": "Target €2.4M annual operational savings"
+    }
+  },
+  "lessons_learned": "Early stakeholder engagement critical for successful sustainability programs; regulatory compliance provides strong business case foundation"
 }

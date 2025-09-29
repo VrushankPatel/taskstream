@@ -1,0 +1,62 @@
+{
+  "scenario_id": "utilities_asia_renewable_energy_transition_2025",
+  "decision_date": "2025-05-10",
+  "context": "Asia utilities company with coal-heavy generation portfolio facing regulatory pressure for renewable transition and carbon reduction targets",
+  "stakeholders": {
+    "requester": "VP Renewable Energy",
+    "approvers": ["CEO", "CFO", "Board Energy Transition Committee"],
+    "influencers": ["Chief Engineer", "Head of Regulatory Affairs", "Environmental Director"]
+  },
+  "request": {
+    "amount": "$180,000,000",
+    "purpose": "Transition 30% of generation capacity to solar and wind by 2030 with energy storage integration",
+    "urgency": "high",
+    "justification": "Government renewable targets require 40% clean energy by 2030, carbon pricing increasing, investor pressure for ESG compliance"
+  },
+  "decision_process": [
+    {
+      "stage": "portfolio_assessment",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-20",
+      "duration": "20 days",
+      "activities": ["Generation portfolio analysis", "Renewable resource assessment", "Grid integration study"],
+      "outcome": "Identified optimal solar/wind sites and storage requirements"
+    },
+    {
+      "stage": "financial_modeling",
+      "start_date": "2025-03-21",
+      "end_date": "2025-04-15",
+      "duration": "26 days",
+      "activities": ["Cost-benefit analysis", "Financing structure evaluation", "Risk assessment"],
+      "outcome": "Projected 22% IRR with government incentives"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "start_date": "2025-04-16",
+      "end_date": "2025-05-10",
+      "duration": "25 days",
+      "activities": ["Community consultation", "Regulatory approval process", "Employee transition planning"],
+      "outcome": "Full stakeholder support secured"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% renewable generation achieved, 25% carbon emission reduction, improved regulatory compliance",
+    "projected_value": "$400,000,000 savings in carbon costs over 20 years",
+    "actual_value": "TBD (first projects online 2026)",
+    "roi_timeline": "Expected payback in 12 years",
+    "risk_factors": ["Technology cost overruns", "Grid stability challenges", "Regulatory changes"]
+  },
+  "decision_criteria": ["Renewable capacity target achievement", "Carbon reduction >20%", "Financial IRR >15%", "Grid stability maintained", "Community support secured"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-06-01",
+    "completion_date": "2030-12-31",
+    "milestones": ["Solar farm construction start: 2025-09-01", "Wind farm completion: 2027-06-30", "30% renewable target: 2030-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Project construction progress and cost tracking",
+    "12_month_review": "First renewable generation and grid integration performance",
+    "actual_roi": "TBD (target 20% IRR)"
+  },
+  "lessons_learned": "Early community engagement prevents delays, integrated project management reduces costs, technology selection based on local conditions optimizes performance"
+}

@@ -1,5 +1,6 @@
 {
   "scenario_id": "insurance_parametric_product_development_decision",
+  "decision_date": "2024-11-15",
   "context": "Mid-sized insurance company exploring parametric insurance products for climate risk coverage in agricultural sector, with $50M annual premium volume",
   "stakeholders": {
     "requester": "Head of Product Development",
@@ -24,6 +25,8 @@
   "decision_process": [
     {
       "stage": "market_research",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-29",
       "duration": "4 weeks",
       "activities": [
         "Competitive analysis",
@@ -34,6 +37,8 @@
     },
     {
       "stage": "technical_feasibility",
+      "start_date": "2024-10-01",
+      "end_date": "2024-11-15",
       "duration": "6 weeks",
       "activities": [
         "Data source evaluation",
@@ -44,6 +49,8 @@
     },
     {
       "stage": "financial_evaluation",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-07",
       "duration": "3 weeks",
       "activities": [
         "ROI projections",
@@ -54,6 +61,8 @@
     },
     {
       "stage": "regulatory_approval",
+      "start_date": "2024-12-08",
+      "end_date": "2025-01-31",
       "duration": "8 weeks",
       "activities": [
         "State insurance department filings",
@@ -65,7 +74,9 @@
   ],
   "business_impact": {
     "expected_outcome": "New revenue stream generating $8M in first year premiums",
-    "projected_value": "$25M NPV over 5 years",
+    "projected_value": "$25M",
+    "actual_value": "$9.5M (2025)",
+    "roi_timeline": "Expected payback in 15 months",
     "risk_factors": [
       "Weather data accuracy",
       "Regulatory changes",
@@ -80,5 +91,19 @@
     "Risk alignment"
   ],
   "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-02-01",
+    "completion_date": "2025-08-31",
+    "milestones": [
+      "Pilot launch: 2025-02-01",
+      "State expansion: 2025-05-01",
+      "Full rollout: 2025-08-31"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot launched successfully, $4.2M in premiums, 90% customer satisfaction",
+    "12_month_review": "Expanded to 8 states, $9.5M in premiums, 25% market share in parametric crop insurance",
+    "actual_roi": "28% (vs projected 25%)"
+  },
   "lessons_learned": "Early regulatory engagement critical for parametric products, customer education essential for market acceptance"
 }

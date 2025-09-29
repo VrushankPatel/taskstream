@@ -1,9 +1,9 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 2133 files (6.8% growth from previous analysis of 1997 files)
+- **Total Dataset Size**: 2186 files (6.8% growth from previous analysis of 2047 files)
 - **Quality Score**: 97% (stable trend)
-- **Industry Coverage**: Technology overrepresented at 43.1% (target <20%), traditional industries underrepresented
+- **Industry Coverage**: Technology overrepresented at 43.6% (target <20%), traditional industries underrepresented
 - **Content Complexity**: Simple ~5%, Medium ~10%, Complex ~85% (target: 20/50/30)
 - **Business Authenticity**: 97% enterprise-grade
 
@@ -16,10 +16,10 @@
 4. **Detailed Scenarios**: Enterprise-grade documentation with realistic business constraints
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology dominance at 43.1% vs real-world 10-15%, gaps in retail (7.6%), hospitality (3.1%), insurance (3.0%), utilities (1.2%), mining, agriculture (2.0%), aerospace (2.1%)
-2. **Content Type Distribution**: Policies (10.4%) and org structures (12.2%) underweighted vs target 15% each
+1. **Industry Imbalance**: Technology dominance at 43.6% vs real-world 10-15%, gaps in retail (8.2%), hospitality (4.9%), insurance (4.1%), utilities (2.2%), mining (2.2%), agriculture (2.6%), aerospace (2.2%)
+2. **Content Type Distribution**: Policies (10.4%) and org structures (12.3%) underweighted vs target 15% each
 3. **Complexity Distribution**: Lack of simple workflows (5% vs 20% target), over-reliance on complex (85%)
-4. **Geographic Diversity**: 15% EU/Asia content (target 20%+ each)
+4. **Geographic Diversity**: Minimal EU/Asia content (target 20%+ each)
 5. **Business Size Coverage**: Enterprise 40%, mid-size 35%, startup 25% (adequate distribution)
 
 ### Competitive Positioning
@@ -32,7 +32,7 @@
 
 ### Immediate Actions (Next 3 Generation Cycles):
 1. **Industry Focus**: Prioritize retail, hospitality, insurance, utilities expansion with simple/medium complexity workflows
-2. **Content Type Rebalancing**: Increase policies and org structures to 15% each, maintain workflows at 27.4%
+2. **Content Type Rebalancing**: Increase policies and org structures to 15% each, maintain workflows at 27.5%
 3. **Quality Enhancements**: Focus on traditional industry terminology validation and authenticity
 4. **Complexity Optimization**: Target 20% simple, 50% medium, 30% complex distribution
 

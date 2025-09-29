@@ -6,26 +6,26 @@ workflow:
   participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Fraud Investigator"]
   trigger: "Claim submission received"
   steps:
-     - step: 1
-       actor: "Claims Adjuster"
-       action: "Review claim documentation and verify policy coverage"
-       decision_points: ["Policy is active and valid", "Claim falls within coverage terms", "Required documentation complete"]
-       tools: ["Claims system", "Policy database"]
-       duration: "30 minutes"
-       outputs: ["Initial claim assessment", "Coverage verification report"]
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim documentation and verify policy coverage"
+      decision_points: ["Policy is active and valid", "Claim falls within coverage terms", "Required documentation complete"]
+      tools: ["Claims system", "Policy database"]
+      duration: "30 minutes"
+      outputs: ["Initial claim assessment", "Coverage verification report"]
     - step: 2
       actor: "Claims Adjuster"
       action: "Contact claimant for additional information if needed"
       tools: ["Phone system", "Email"]
       duration: "15 minutes"
       outputs: ["Additional documentation"]
-     - step: 3
-       actor: "Fraud Investigator"
-       action: "Perform initial fraud screening"
-       decision_points: ["Low fraud risk - proceed", "Medium risk - additional investigation", "High risk - deny or escalate"]
-       tools: ["Fraud detection system", "Claim history"]
-       duration: "20 minutes"
-       outputs: ["Fraud risk assessment", "Investigation flags"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Perform initial fraud screening"
+      decision_points: ["Low fraud risk - proceed", "Medium risk - additional investigation", "High risk - deny or escalate"]
+      tools: ["Fraud detection system", "Claim history"]
+      duration: "20 minutes"
+      outputs: ["Fraud risk assessment", "Investigation flags"]
     - step: 4
       actor: "Claims Adjuster"
       action: "Assess claim value and determine settlement amount"
@@ -45,10 +45,10 @@ workflow:
       duration: "10 minutes"
       outputs: ["Coverage confirmation"]
   success_criteria: "Claims processed within 48 hours with 95% accuracy"
-   failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud detection", "System errors", "Communication delays"]
-   risks: ["Regulatory compliance violations", "Data security breaches", "Reputational damage from errors", "Financial losses from fraud", "Customer dissatisfaction"]
-   metrics:
-     - "Processing time: 36 hours average (target: <24 hours)"
-     - "Accuracy rate: 96% target (current: 95.2%)"
-     - "Customer satisfaction: 4.2/5 target (current: 4.1/5)"
-     - "Fraud detection rate: 85% target (current: 82%)"
+  failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud detection", "System errors", "Communication delays"]
+  risks: ["Regulatory compliance violations", "Data security breaches", "Reputational damage from errors", "Financial losses from fraud", "Customer dissatisfaction"]
+  metrics:
+    - "Processing time: 36 hours average (target: <24 hours)"
+    - "Accuracy rate: 96% target (current: 95.2%)"
+    - "Customer satisfaction: 4.2/5 target (current: 4.1/5)"
+    - "Fraud detection rate: 85% target (current: 82%)"

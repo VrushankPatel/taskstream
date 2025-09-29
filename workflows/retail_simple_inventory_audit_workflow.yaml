@@ -1,10 +1,10 @@
 workflow:
   id: "workflow_retail_inventory_audit"
-   title: "Retail Monthly Inventory Audit and Reconciliation Process"
-   department: "Operations"
-   complexity: "simple"
-   participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
-   trigger: "Scheduled monthly inventory cycle or triggered by stock discrepancy alerts"
+  title: "Retail Monthly Inventory Audit and Reconciliation Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
+  trigger: "Scheduled monthly inventory cycle or triggered by stock discrepancy alerts"
   steps:
     - step: 1
       actor: "Inventory Clerk"
@@ -18,13 +18,13 @@ workflow:
       tools: ["Barcode scanner", "Count sheets"]
       duration: "4 hours"
       outputs: ["Physical count data"]
-     - step: 3
-       actor: "Assistant Manager"
-       action: "Verify count accuracy and reconcile discrepancies"
-       decision_points: ["Accept variance within threshold", "Investigate significant discrepancies", "Escalate major issues to management"]
-       tools: ["Inventory software", "Count sheets"]
-       duration: "1 hour"
-       outputs: ["Reconciliation report", "Discrepancy investigation notes"]
+    - step: 3
+      actor: "Assistant Manager"
+      action: "Verify count accuracy and reconcile discrepancies"
+      decision_points: ["Accept variance within threshold", "Investigate significant discrepancies", "Escalate major issues to management"]
+      tools: ["Inventory software", "Count sheets"]
+      duration: "1 hour"
+      outputs: ["Reconciliation report", "Discrepancy investigation notes"]
     - step: 4
       actor: "Store Manager"
       action: "Review final inventory report and approve adjustments"
@@ -32,10 +32,10 @@ workflow:
       duration: "30 minutes"
       outputs: ["Approved inventory adjustments"]
   success_criteria: "Inventory accuracy within 2% variance"
-   failure_modes: ["Count errors", "System data entry mistakes", "Missing items", "Staffing shortages during audit"]
-   risks: ["Operational disruption during peak hours", "Data security concerns with inventory systems", "Employee fatigue leading to errors", "Supplier delays affecting restocking"]
-   metrics:
-     - "Inventory accuracy rate: 98% target (current: 96.5%)"
-     - "Audit completion time: 6 hours target (current: 5.5 hours average)"
-     - "Shrinkage reduction: $500/month target (current: $450/month)"
-     - "Cost per audit: $200 target (current: $180)"
+  failure_modes: ["Count errors", "System data entry mistakes", "Missing items", "Staffing shortages during audit"]
+  risks: ["Operational disruption during peak hours", "Data security concerns with inventory systems", "Employee fatigue leading to errors", "Supplier delays affecting restocking"]
+  metrics:
+    - "Inventory accuracy rate: 98% target (current: 96.5%)"
+    - "Audit completion time: 6 hours target (current: 5.5 hours average)"
+    - "Shrinkage reduction: $500/month target (current: $450/month)"
+    - "Cost per audit: $200 target (current: $180)"

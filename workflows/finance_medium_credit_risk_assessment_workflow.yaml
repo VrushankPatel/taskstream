@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_finance_medium_credit_risk_assessment"
+  title: "Commercial Loan Credit Risk Assessment Process"
+  department: "Commercial Lending"
+  complexity: "medium"
+  participants: ["Credit Analyst", "Relationship Manager", "Risk Manager", "Credit Committee"]
+  trigger: "Business loan application submitted"
+  temporal_data:
+    first_implemented: "2017-09-15"
+    last_updated: "2024-06-10"
+    typical_cycle_time: "10-14 business days"
+    average_annual_executions: 800
+    seasonal_variations: ["Q4 peak for year-end financing", "Q2 slowdown during tax season"]
+    historical_evolution: "AI scoring model implemented in 2022 reduced assessment time by 45% while improving risk prediction accuracy to 92%"
+  steps:
+    - step: 1
+      actor: "Relationship Manager"
+      action: "Gather initial business information and financial statements"
+      tools: ["Loan origination system", "Document collection portal"]
+      duration: "2 days"
+      outputs: ["Business profile", "Financial documentation package"]
+      decision_points: ["Application completeness", "Initial creditworthiness"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Perform detailed financial analysis and risk assessment"
+      tools: ["Financial modeling software", "Credit scoring algorithms", "Industry databases"]
+      duration: "5 days"
+      outputs: ["Credit analysis report", "Risk rating recommendation"]
+      decision_points: ["Risk classification", "Loan structure recommendations"]
+    - step: 3
+      actor: "Risk Manager"
+      action: "Review analysis for compliance and portfolio impact"
+      tools: ["Risk management platform", "Portfolio analytics"]
+      duration: "2 days"
+      outputs: ["Risk compliance review", "Portfolio impact assessment"]
+    - step: 4
+      actor: "Credit Committee"
+      action: "Final approval decision and terms setting"
+      tools: ["Credit committee portal", "Approval workflow system"]
+      duration: "1 day"
+      outputs: ["Loan approval/denial", "Loan terms and conditions"]
+      decision_points: ["Approval threshold", "Pricing and covenants"]
+  success_criteria: "Risk assessment completed within 14 days with accurate risk classification"
+  failure_modes: ["Incomplete financial documentation", "Adverse industry conditions", "Internal approval delays"]
+  metrics:
+    - "Assessment accuracy: 92% (target 94%)"
+    - "Processing time: 12.5 days (target 10 days)"
+    - "Approval rate: 68% (target 70%)"
+  performance_history:
+    success_rate_trend: "85% (2023) → 88% (2024) → 92% (2025)"
+    cost_trend: "$250 (2023) → $220 (2024) → $195 (2025)"
+    efficiency_improvements: ["AI scoring reduced manual analysis by 50%", "Automated document collection improved completeness by 25%"]

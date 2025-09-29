@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_utilities_simple_grid_maintenance"
+  title: "Electrical Grid Routine Maintenance Process"
+  department: "Grid Operations"
+  complexity: "simple"
+  participants: ["Maintenance Technician", "Field Supervisor", "Operations Coordinator"]
+  trigger: "Scheduled maintenance cycle or preventive alert"
+  temporal_data:
+    first_implemented: "2018-06-01"
+    last_updated: "2024-07-20"
+    typical_cycle_time: "4-6 hours"
+    average_annual_executions: 5000
+    seasonal_variations: ["Summer peak for air conditioning load checks", "Winter focus on heating system reliability"]
+    historical_evolution: "IoT sensors added in 2020 enabled predictive maintenance, reducing emergency repairs by 50% and improving uptime to 99.9%"
+  steps:
+    - step: 1
+      actor: "Operations Coordinator"
+      action: "Schedule maintenance based on predictive analytics"
+      tools: ["Grid monitoring system", "Maintenance scheduling software"]
+      duration: "30 minutes"
+      outputs: ["Maintenance work order", "Resource allocation"]
+    - step: 2
+      actor: "Maintenance Technician"
+      action: "Perform routine inspections and minor repairs"
+      tools: ["Diagnostic equipment", "Safety gear", "Mobile reporting app"]
+      duration: "3 hours"
+      outputs: ["Inspection report", "Maintenance log"]
+    - step: 3
+      actor: "Field Supervisor"
+      action: "Review work completion and system testing"
+      tools: ["Quality assurance checklist", "System testing tools"]
+      duration: "1 hour"
+      outputs: ["Completion certificate", "System status update"]
+  success_criteria: "Maintenance completed without service interruption, all safety protocols followed"
+  failure_modes: ["Equipment failure during maintenance", "Safety protocol violations", "System testing failures"]
+  metrics:
+    - "Uptime maintained: 99.9% (target 99.95%)"
+    - "Safety incidents: 0 (target 0)"
+    - "On-time completion: 96% (target 98%)"
+  performance_history:
+    success_rate_trend: "94% (2023) → 96% (2024) → 98% (2025)"
+    cost_trend: "$85 (2023) → $78 (2024) → $72 (2025)"
+    efficiency_improvements: ["Predictive analytics reduced unnecessary maintenance by 30%", "Mobile apps improved technician productivity by 20%"]

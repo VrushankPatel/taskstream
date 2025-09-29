@@ -1,0 +1,62 @@
+{
+  "scenario_id": "insurance_cyber_liability_expansion_decision_2025",
+  "decision_date": "2025-08-20",
+  "context": "Insurance company evaluating expansion of cyber liability product line in response to increasing cyber threats and regulatory requirements",
+  "stakeholders": {
+    "requester": "Head of Cyber Insurance",
+    "approvers": ["Chief Underwriting Officer", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Claims", "Chief Actuary", "Regulatory Compliance Director"]
+  },
+  "request": {
+    "amount": "$3,200,000",
+    "purpose": "Development of expanded cyber liability product suite including parametric cyber insurance, cyber extortion coverage, and supply chain risk protection",
+    "urgency": "medium",
+    "justification": "Cyber incidents increased 300% in past 3 years, new EU cybersecurity regulations require specialized coverage, market demand for comprehensive cyber protection"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-30",
+      "duration": "30 days",
+      "activities": ["Competitive analysis", "Customer demand survey", "Regulatory requirement assessment"],
+      "outcome": "Identified 40% market gap in parametric cyber products, strong customer demand for supply chain coverage"
+    },
+    {
+      "stage": "product_design",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31",
+      "duration": "30 days",
+      "activities": ["Actuarial modeling", "Pricing strategy development", "Underwriting guidelines creation"],
+      "outcome": "Developed 5 new product variants with projected 25% profit margin"
+    },
+    {
+      "stage": "feasibility_review",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-20",
+      "duration": "20 days",
+      "activities": ["Financial modeling", "Risk assessment", "Implementation planning"],
+      "outcome": "Approved expansion with phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in cyber insurance premium revenue, market leadership in parametric cyber products, improved risk diversification",
+    "projected_value": "$12,500,000 in additional annual premiums within 3 years",
+    "actual_value": "$8,200,000 achieved in first 18 months (2025-2027)",
+    "roi_timeline": "Expected payback in 16 months",
+    "risk_factors": ["Evolving cyber threat landscape", "Regulatory changes", "Underwriting accuracy for new products"]
+  },
+  "decision_criteria": ["Market demand and competitive positioning", "Financial viability and ROI", "Regulatory compliance", "Underwriting risk management", "Implementation feasibility"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2026-02-28",
+    "milestones": ["Phase 1: Parametric products launch (2025-11-30)", "Phase 2: Supply chain coverage (2026-01-31)", "Phase 3: Cyber extortion products (2026-02-28)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "3 new products launched, $2.1M in new premiums written",
+    "12_month_review": "Premium growth of 35%, market share increased by 12%, claims experience within expected ranges",
+    "actual_roi": "210% achieved vs projected 180%"
+  },
+  "lessons_learned": "Parametric products require sophisticated modeling but offer faster claims settlement, customer education critical for complex cyber products, regulatory compliance adds value proposition"
+}

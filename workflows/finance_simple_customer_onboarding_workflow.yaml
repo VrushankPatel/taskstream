@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_finance_simple_customer_onboarding"
+  title: "Retail Banking Customer Onboarding Process"
+  department: "Retail Banking Operations"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Compliance Officer", "Branch Manager"]
+  trigger: "New customer applies for retail banking account"
+  temporal_data:
+    first_implemented: "2020-01-15"
+    last_updated: "2024-09-01"
+    typical_cycle_time: "2-3 business days"
+    average_annual_executions: 25000
+    seasonal_variations: ["Q4 peak during holiday season", "Q1 slowdown post-holidays"]
+    historical_evolution: "Process digitized in 2022, reducing cycle time by 40% and improving compliance accuracy to 99.5%"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Collect customer identification documents and basic information"
+      tools: ["Customer onboarding portal", "Document scanner"]
+      duration: "15 minutes"
+      outputs: ["Scanned ID documents", "Customer profile draft"]
+    - step: 2
+      actor: "Compliance Officer"
+      action: "Verify identity and perform KYC checks"
+      tools: ["AML database", "Credit bureau systems"]
+      duration: "30 minutes"
+      outputs: ["KYC compliance report", "Risk assessment"]
+    - step: 3
+      actor: "Branch Manager"
+      action: "Review and approve account opening"
+      tools: ["Account management system"]
+      duration: "10 minutes"
+      outputs: ["Approved account setup", "Welcome package"]
+  success_criteria: "Account opened within 3 business days with 99% compliance accuracy"
+  failure_modes: ["Incomplete documentation", "Failed KYC verification", "System downtime"]
+  metrics:
+    - "On-time completion rate: 95% (target 98%)"
+    - "Compliance accuracy: 99.5% (target 99.8%)"
+    - "Customer satisfaction: 4.2/5 (target 4.5/5)"
+  performance_history:
+    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
+    cost_trend: "$45 (2023) → $38 (2024) → $32 (2025)"
+    efficiency_improvements: ["Digital portal reduced manual processing by 60%", "AI-assisted KYC improved accuracy by 15%"]

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "finance_digital_banking_investment_decision_2025",
+  "decision_date": "2025-09-15",
+  "context": "Mid-size regional bank evaluating investment in digital banking platform to compete with fintech challengers",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Retail Banking", "Chief Technology Officer", "Customer Experience Director"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Implementation of comprehensive digital banking platform including mobile app, online banking, and API infrastructure",
+    "urgency": "high",
+    "justification": "Market share erosion to digital-only banks, customer expectation for 24/7 digital services, competitive pressure from fintech startups"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_evaluation",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-15",
+      "duration": "15 days",
+      "activities": ["Vendor RFP process", "Technical feasibility assessment", "Cost-benefit analysis"],
+      "outcome": "Shortlisted 3 vendors, preliminary ROI projection of 180% over 5 years"
+    },
+    {
+      "stage": "due_diligence",
+      "start_date": "2025-07-16",
+      "end_date": "2025-08-15",
+      "duration": "30 days",
+      "activities": ["Security audit", "Integration testing", "Regulatory compliance review", "Customer impact assessment"],
+      "outcome": "All vendors passed security requirements, integration complexity identified as medium risk"
+    },
+    {
+      "stage": "executive_review",
+      "start_date": "2025-08-16",
+      "end_date": "2025-09-15",
+      "duration": "30 days",
+      "activities": ["Board presentation", "Risk committee review", "Final vendor selection", "Implementation planning"],
+      "outcome": "Approved with phased rollout approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% increase in digital transaction volume, 15% improvement in customer satisfaction, 30% reduction in branch transaction costs",
+    "projected_value": "$15,200,000 in cost savings and revenue growth over 5 years",
+    "actual_value": "$12,800,000 realized in first 2 years (2025-2027)",
+    "roi_timeline": "Expected payback in 22 months",
+    "risk_factors": ["Integration complexity with legacy systems", "Customer adoption challenges", "Cybersecurity vulnerabilities"]
+  },
+  "decision_criteria": ["Strategic alignment with digital transformation", "Financial ROI and payback period", "Technical feasibility and security", "Regulatory compliance", "Vendor stability and support"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-10-01",
+    "completion_date": "2026-06-30",
+    "milestones": ["Phase 1: Mobile app launch (2025-12-31)", "Phase 2: Online banking enhancement (2026-03-31)", "Phase 3: API ecosystem (2026-06-30)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Digital adoption at 45% of customers, cost savings of $800K realized",
+    "12_month_review": "Digital transactions increased by 28%, customer satisfaction improved by 18%, on track for ROI targets",
+    "actual_roi": "185% achieved vs projected 180%"
+  },
+  "lessons_learned": "Phased implementation approach mitigated integration risks, early customer feedback crucial for adoption, cybersecurity integration more complex than anticipated but essential for regulatory compliance"
+}

@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_retail_customer_loyalty_enrollment_simple"
+  title: "Customer Loyalty Program Enrollment Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Customer"]
+  trigger: "Customer requests to join loyalty program at checkout or online"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Verify customer identity and account information"
+      tools: ["CRM System", "Point of Sale Terminal"]
+      duration: "2 minutes"
+      outputs: ["Verified Customer Profile"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Collect enrollment details and issue loyalty card"
+      tools: ["Loyalty Program Software", "Card Printer"]
+      duration: "3 minutes"
+      outputs: ["Loyalty Card", "Enrollment Confirmation Email"]
+  success_criteria: "Customer successfully enrolled with active loyalty account and immediate rewards eligibility"
+  failure_modes: ["Invalid customer information provided", "System technical issues preventing enrollment", "Customer declines terms"]
+  metrics:
+    - "Enrollment Success Rate: 95%"
+    - "Average Enrollment Time: 3 minutes"
+    - "Customer Satisfaction Score: 4.5/5"

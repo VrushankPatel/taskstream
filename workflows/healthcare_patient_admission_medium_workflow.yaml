@@ -1,0 +1,51 @@
+workflow:
+  id: "workflow_healthcare_patient_admission_medium"
+  title: "Hospital Patient Admission Process"
+  department: "Patient Access"
+  complexity: "medium"
+  participants: ["Registration Clerk", "Nurse", "Patient", "Insurance Coordinator"]
+  trigger: "Patient presents at hospital for admission"
+  steps:
+    - step: 1
+      actor: "Registration Clerk"
+      action: "Verify patient identity and collect demographic information"
+      tools: ["Electronic Health Record System", "ID Scanner"]
+      duration: "10 minutes"
+      outputs: ["Patient Registration Record"]
+    - step: 2
+      actor: "Registration Clerk"
+      action: "Verify insurance coverage and obtain authorization"
+      tools: ["Insurance Verification System", "Patient Financial Portal"]
+      duration: "15 minutes"
+      outputs: ["Insurance Verification Report", "Financial Responsibility Agreement"]
+    - step: 3
+      actor: "Nurse"
+      action: "Perform initial assessment and vital signs"
+      tools: ["Medical Assessment Tools", "Vital Signs Monitor"]
+      duration: "20 minutes"
+      outputs: ["Initial Nursing Assessment", "Vital Signs Documentation"]
+    - step: 4
+      actor: "Insurance Coordinator"
+      action: "Review and process insurance pre-authorization if required"
+      tools: ["Insurance Portal", "Medical Necessity Guidelines"]
+      duration: "30 minutes"
+      outputs: ["Pre-Authorization Approval", "Coverage Confirmation"]
+    - step: 5
+      actor: "Registration Clerk"
+      action: "Assign patient room and coordinate bed management"
+      tools: ["Bed Management System", "Hospital Information System"]
+      duration: "5 minutes"
+      outputs: ["Room Assignment", "Admission Notification"]
+    - step: 6
+      actor: "Nurse"
+      action: "Provide patient orientation and admission education"
+      tools: ["Patient Education Materials", "Hospital Information Packet"]
+      duration: "15 minutes"
+      outputs: ["Patient Orientation Documentation", "Care Plan Initiation"]
+  success_criteria: "Patient admitted efficiently with complete documentation, insurance verification, and care plan initiated"
+  failure_modes: ["Insurance denial", "Bed unavailability", "Incomplete patient information", "Medical emergency escalation"]
+  metrics:
+    - "Average Admission Time: 60 minutes"
+    - "Insurance Verification Success Rate: 92%"
+    - "Patient Satisfaction Score: 4.1/5"
+    - "Documentation Completeness: 98%"

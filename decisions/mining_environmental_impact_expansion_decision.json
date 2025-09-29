@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mining_environmental_impact_expansion_decision",
+  "context": "Large-scale mining operation evaluating expansion into new mineral deposit requiring comprehensive environmental assessment",
+  "stakeholders": {
+    "requester": "Chief Operating Officer",
+    "approvers": ["CEO", "Board of Directors", "Environmental Compliance Director"],
+    "influencers": ["Environmental Regulators", "Local Indigenous Communities", "Environmental NGOs", "Local Government"]
+  },
+  "request": {
+    "amount": "$50 million",
+    "purpose": "Mine expansion and infrastructure development for rare earth minerals extraction",
+    "urgency": "medium",
+    "justification": "Market demand for critical minerals and long-term resource security"
+  },
+  "decision_process": [
+    {
+      "stage": "preliminary_assessment",
+      "duration": "3 months",
+      "activities": ["Geological surveys", "Initial environmental scoping", "Stakeholder identification", "Regulatory requirements review"],
+      "outcome": "Proceeded to full environmental impact assessment"
+    },
+    {
+      "stage": "environmental_impact_assessment",
+      "duration": "6 months",
+      "activities": ["Baseline environmental studies", "Impact modeling", "Mitigation strategy development", "Public consultation"],
+      "outcome": "Identified significant environmental impacts requiring mitigation"
+    },
+    {
+      "stage": "mitigation_planning",
+      "duration": "2 months",
+      "activities": ["Mitigation measure design", "Cost estimation", "Community benefit agreements", "Regulatory negotiations"],
+      "outcome": "Developed comprehensive mitigation and monitoring plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15-year mine life extension with 500 new jobs",
+    "projected_value": "$2 billion in mineral revenue over project lifetime",
+    "risk_factors": ["Environmental litigation", "Community opposition", "Regulatory delays", "Cost overruns", "Market price volatility"]
+  },
+  "decision_criteria": ["Environmental impact acceptability", "Economic viability", "Community support", "Regulatory compliance", "Mitigation feasibility"],
+  "outcome": "Approved with conditions",
+  "lessons_learned": "Comprehensive stakeholder engagement and transparent environmental assessment build trust; mitigation planning must be integrated early in project development"
+}

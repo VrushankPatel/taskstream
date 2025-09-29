@@ -1,0 +1,78 @@
+{
+  "scenario_id": "mining_asia_safety_tech_upgrade_2025_001",
+  "decision_date": "2025-01-15",
+  "context": "Large-scale mining operation in Southeast Asia evaluating comprehensive safety technology upgrade to meet evolving regulatory requirements and improve worker safety performance after recent regional safety incidents",
+  "stakeholders": {
+    "requester": "Chief Safety Officer",
+    "approvers": ["CEO", "CFO", "Board Safety Committee"],
+    "influencers": ["Operations Director", "Technology Director", "HR Director", "Union Representatives", "Local Community Leaders", "Regulatory Affairs Manager"],
+    "impacted_parties": ["Mine Workers (2,400 employees)", "Local Communities", "Environmental Groups", "Government Regulators", "Insurance Providers"]
+  },
+  "request": {
+    "amount": "$18,500,000",
+    "purpose": "Comprehensive safety technology modernization including IoT sensors, AI-powered risk detection, autonomous emergency response systems, and worker health monitoring",
+    "urgency": "high",
+    "justification": "Address regulatory compliance gaps, reduce accident rates by 75%, improve emergency response times, and maintain social license to operate in community-sensitive regions"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_assessment",
+      "start_date": "2025-01-15",
+      "end_date": "2025-01-29",
+      "duration": "14 days",
+      "activities": ["Safety incident analysis", "Technology vendor evaluation", "Regulatory compliance review", "Community consultation", "ROI modeling"],
+      "outcome": "Technology solution validated with strong safety and financial justification"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "start_date": "2025-01-30",
+      "end_date": "2025-02-13",
+      "duration": "14 days",
+      "activities": ["Worker safety committee input", "Union negotiation", "Community leader meetings", "Regulatory pre-approval", "Environmental impact assessment"],
+      "outcome": "Broad stakeholder support achieved with minor modifications to implementation plan"
+    },
+    {
+      "stage": "financial_analysis",
+      "start_date": "2025-02-14",
+      "end_date": "2025-02-21",
+      "duration": "7 days",
+      "activities": ["Detailed cost-benefit analysis", "Insurance premium impact assessment", "Financing option evaluation", "Budget allocation review"],
+      "outcome": "Strong financial case with 3.2x ROI over 5 years through reduced incidents and insurance costs"
+    },
+    {
+      "stage": "board_approval",
+      "start_date": "2025-02-22",
+      "end_date": "2025-02-28",
+      "duration": "6 days",
+      "activities": ["Board presentation", "Safety committee recommendation", "Final risk assessment", "Implementation timeline approval"],
+      "outcome": "Unanimous board approval with accelerated implementation timeline"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "75% reduction in safety incidents, 90% improvement in emergency response time, full regulatory compliance, enhanced community relations",
+    "projected_value": "$45,000,000 over 5 years",
+    "actual_value": "$52,300,000 (implementation ongoing - Q1 results exceed projections by 16%)",
+    "roi_timeline": "Break-even in 14 months, full ROI in 36 months",
+    "risk_factors": ["Technology integration complexity", "Worker training requirements", "Regulatory approval delays", "Supplier reliability", "Cultural adaptation challenges"]
+  },
+  "decision_criteria": ["Safety performance improvement potential", "Regulatory compliance achievement", "Community impact and acceptance", "Financial return on investment", "Technology reliability and scalability", "Integration with existing systems", "Worker training and adoption ease"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-03-01",
+    "completion_date": "2025-11-30",
+    "milestones": [
+      "Phase 1 Infrastructure - 2025-05-15",
+      "Phase 2 Sensor Network - 2025-07-31", 
+      "Phase 3 AI Systems - 2025-09-30",
+      "Phase 4 Worker Training - 2025-10-31",
+      "Full System Operational - 2025-11-30"
+    ]
+  },
+  "outcome_tracking": {
+    "3_month_review": "Infrastructure installation 95% complete, sensor network deployment ahead of schedule, worker acceptance surveys show 87% positive response",
+    "6_month_review": "AI systems operational with 92% accuracy in risk detection, emergency response time improved by 65%, zero lost-time incidents in pilot areas",
+    "12_month_review": "System fully operational across all zones, safety incidents reduced by 78% (exceeding 75% target), community satisfaction improved to 4.6/5, insurance premiums reduced by 35%",
+    "actual_roi": "4.1% quarterly ROI (vs projected 3.2% annually) - significantly exceeding expectations"
+  },
+  "lessons_learned": "Early community engagement and cultural sensitivity training were critical success factors. AI system required 6 months additional calibration for local geological conditions. Worker-led safety ambassadors program accelerated adoption beyond expectations. Regulatory pre-approval process saved 3 months in implementation timeline. Integration with traditional safety practices proved more important than expected for cultural acceptance."
+}

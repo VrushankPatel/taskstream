@@ -36,5 +36,11 @@ workflow:
       tools: ["CRM System", "Payment Processor"]
       duration: "1 hour"
       outputs: ["Payment Issued", "Claim Closed"]
-  success_criteria: "Claim processed within SLA, customer satisfaction maintained"
-  failure_modes: ["Fraud undetected", "Incorrect settlement amount", "Processing delays", "Documentation errors", "Communication breakdowns"]
+   success_criteria: "Claim processed within SLA, customer satisfaction maintained"
+   failure_modes: ["Fraud undetected", "Incorrect settlement amount", "Processing delays", "Documentation errors", "Communication breakdowns"]
+   kpis:
+     - "Average processing time: < 24 hours for standard claims"
+     - "Customer satisfaction score: > 90%"
+     - "Fraud detection accuracy: > 95%"
+     - "Cost per claim: < $150"
+     - "First contact resolution rate: > 85%"

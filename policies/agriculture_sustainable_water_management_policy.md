@@ -54,6 +54,26 @@ Applies to all farming operations, irrigation systems, water storage facilities,
 - Crop selection adjustments for drought conditions
 - Financial assistance programs for affected farmers
 
+## Regulatory Compliance
+
+### Water Rights Management
+- Maintain compliance with state water allocation laws
+- Annual water rights renewal and reporting
+- Participation in regional water planning
+- Water trading and transfer protocols
+
+### Environmental Reporting
+- Monthly water usage reporting to environmental agencies
+- Compliance with Clean Water Act requirements
+- Groundwater monitoring and reporting
+- Drought impact assessments
+
+### Audit and Certification
+- Third-party water management certification
+- Annual compliance audits
+- Public disclosure of water usage data
+- ESG reporting integration
+
 ## Monitoring and Reporting
 
 ### Performance Metrics

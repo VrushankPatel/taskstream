@@ -45,6 +45,20 @@
 - Reports to: Underwriting Quality Manager
 - Responsibilities: Policy audits, error tracking, improvement recommendations
 
+## Training and Development
+
+### Underwriter Development Program
+- New hire training: 12-week program covering risk assessment, policy writing, compliance
+- Certification requirements: ACAS/FCAS designations for senior roles
+- Continuing education: Annual 40-hour training requirement
+- Mentorship program: Senior underwriter pairing with new hires
+
+### Career Progression Paths
+- Underwriting Assistant → Underwriter (2 years)
+- Underwriter → Senior Underwriter (3-5 years)
+- Senior Underwriter → Team Lead/Manager (5+ years)
+- Performance-based promotions with competency assessments
+
 ## Specialized Support Teams
 **Data Analytics Team**
 - Responsibilities: Underwriting data analysis, predictive modeling, performance reporting

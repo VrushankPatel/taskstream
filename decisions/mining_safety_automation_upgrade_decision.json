@@ -35,6 +35,8 @@
   "business_impact": {
     "expected_outcome": "30% reduction in accidents, improved regulatory compliance, enhanced worker confidence",
     "projected_value": "$3,000,000 annual savings in insurance and lost productivity",
+    "timeline": "18 months for full deployment across all mines",
+    "dependencies": ["Vendor technology certification", "Worker safety training programs", "Integration with existing SCADA systems"],
     "risk_factors": ["Technology reliability in harsh environments", "Worker resistance to automation", "Integration with existing systems"]
   },
   "decision_criteria": ["Safety improvement metrics", "ROI within 5 years", "Regulatory compliance", "Worker acceptance", "Integration with existing systems", "Scalability across operations"],

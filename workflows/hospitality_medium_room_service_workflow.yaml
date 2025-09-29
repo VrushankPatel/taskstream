@@ -6,30 +6,34 @@ workflow:
   participants: ["Room Service Agent", "Kitchen Staff", "Room Attendant", "Guest"]
   trigger: "Guest places room service order via phone or app"
   steps:
-    - step: 1
-      actor: "Room Service Agent"
-      action: "Take order details and verify guest information"
-      tools: ["Order System", "Guest Database", "Menu Database"]
-      duration: "3 minutes"
-      outputs: ["Order confirmation", "Estimated delivery time"]
-    - step: 2
-      actor: "Room Service Agent"
-      action: "Coordinate with kitchen for order preparation"
-      tools: ["Kitchen Communication System"]
-      duration: "1 minute"
-      outputs: ["Order sent to kitchen", "Preparation timeline confirmed"]
-    - step: 3
-      actor: "Kitchen Staff"
-      action: "Prepare order according to specifications"
-      tools: ["Kitchen Equipment", "Recipe Database"]
-      duration: "15-25 minutes"
-      outputs: ["Prepared order", "Quality check completed"]
-    - step: 4
-      actor: "Room Attendant"
-      action: "Deliver order to guest room and collect payment"
-      tools: ["Room Key System", "Payment Terminal", "Service Cart"]
-      duration: "5 minutes"
-      outputs: ["Order delivered", "Payment processed", "Guest feedback collected"]
+     - step: 1
+       actor: "Room Service Agent"
+       action: "Take order details and verify guest information"
+       decision_points: ["Guest room availability", "Menu item availability", "Special dietary requirements"]
+       tools: ["Order System", "Guest Database", "Menu Database"]
+       duration: "3 minutes"
+       outputs: ["Order confirmation", "Estimated delivery time"]
+     - step: 2
+       actor: "Room Service Agent"
+       action: "Coordinate with kitchen for order preparation"
+       decision_points: ["Rush order priority", "Ingredient substitution options", "Preparation time conflicts"]
+       tools: ["Kitchen Communication System"]
+       duration: "1 minute"
+       outputs: ["Order sent to kitchen", "Preparation timeline confirmed"]
+     - step: 3
+       actor: "Kitchen Staff"
+       action: "Prepare order according to specifications"
+       decision_points: ["Ingredient freshness check", "Allergen cross-contamination prevention", "Presentation standards"]
+       tools: ["Kitchen Equipment", "Recipe Database"]
+       duration: "15-25 minutes"
+       outputs: ["Prepared order", "Quality check completed"]
+     - step: 4
+       actor: "Room Attendant"
+       action: "Deliver order to guest room and collect payment"
+       decision_points: ["Guest room access", "Payment method preferences", "Additional service requests"]
+       tools: ["Room Key System", "Payment Terminal", "Service Cart"]
+       duration: "5 minutes"
+       outputs: ["Order delivered", "Payment processed", "Guest feedback collected"]
   success_criteria: "Order delivered within 30 minutes of placement with accurate preparation and positive guest feedback"
   failure_modes: ["Order preparation delays", "Room access issues", "Payment processing problems", "Guest not available"]
   metrics:

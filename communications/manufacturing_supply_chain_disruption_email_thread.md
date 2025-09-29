@@ -94,7 +94,25 @@ Thank you all for the quick assessments. Based on the input, here's our action p
 
 Emergency meeting at 2 PM to finalize details. Let's turn this crisis into an opportunity to strengthen our supply chain resilience.
 
-Robert  
+Robert
+
+---
+
+**From:** Lisa Thompson, CFO
+**To:** Robert Chen, Manufacturing Leadership Team
+**Sent:** September 29, 2025 15:30 PM
+
+**Subject:** Re: Urgent: Critical Supplier Disruption - Immediate Action Required
+
+Robert and team,
+
+I've reviewed the financial implications of this disruption. The $500K air freight cost is approved, and I've allocated an additional $200K contingency for expedited logistics.
+
+For the secondary supplier premium pricing, we can absorb 15% increase without impacting margins, but anything above that needs executive approval.
+
+Please keep me updated on the customer communications - we need to maintain relationships during this crisis.
+
+Lisa
 
 ---
 

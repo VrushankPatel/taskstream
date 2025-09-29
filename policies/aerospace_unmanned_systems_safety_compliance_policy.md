@@ -194,10 +194,10 @@ Applies to all unmanned systems operations including drones, autonomous aircraft
 4. **System Monitoring:** Automated monitoring of system performance and compliance
 
 ### Non-Compliance Consequences
-1. **Minor Violations:** Verbal counseling and additional training requirements
-2. **Serious Violations:** Written warnings and temporary suspension of operations
-3. **Critical Violations:** Termination of employment and regulatory reporting
-4. **System Violations:** Grounding of non-compliant systems until corrected
+1. **Minor Violations:** Verbal counseling, additional training requirements, and documented performance improvement plan
+2. **Serious Violations:** Written warnings, temporary suspension of operations, and mandatory retraining
+3. **Critical Violations:** Termination of employment, regulatory reporting, and potential legal action
+4. **System Violations:** Grounding of non-compliant systems until corrected, with root cause analysis required
 
 ### Corrective Actions
 1. **Immediate Actions:** Stop unsafe operations and implement immediate fixes

@@ -112,7 +112,8 @@ This dashboard tracks the effectiveness of climate adaptation strategies impleme
 ## Risk Indicators
 - **Red Flags:** Drought resistance <60%, flood losses >25%, water efficiency <1.4 kg/m³
 - **Yellow Flags:** Heat tolerance <80%, carbon sequestration <1.8 tons/ha, biodiversity <50%
-- **Action Thresholds:** Automatic alerts trigger corrective action plans
+- **Green Flags:** All metrics above target, improving trends
+- **Action Thresholds:** Automatic alerts trigger corrective action plans within 24 hours
 
 ## Data Visualization
 

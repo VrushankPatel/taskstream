@@ -65,11 +65,13 @@
 - Committed to AI recruitment tool implementation
 
 ### Action Items
-1. **CHRO:** Launch emergency hiring campaign - Due: October 7
-2. **Regional GMs:** Assess local labor market conditions - Due: October 5
-3. **Department Heads:** Develop cross-training programs - Due: October 15
-4. **CEO:** Approve budget for retention bonuses - Due: October 2
-5. **HR Business Partners:** Update compensation analysis - Due: October 10
+1. **CHRO:** Launch emergency hiring campaign with targeted social media ads and job fairs - Due: October 7
+2. **Regional GMs:** Assess local labor market conditions and identify competitor wage rates - Due: October 5
+3. **Department Heads:** Develop cross-training programs with certification tracking - Due: October 15
+4. **CEO:** Approve $2.5M budget for retention bonuses and relocation assistance - Due: October 2
+5. **HR Business Partners:** Update compensation analysis with market benchmarking data - Due: October 10
+6. **Operations Director:** Implement flexible scheduling pilot program - Due: October 12
+7. **Training Manager:** Create fast-track onboarding program for new hires - Due: October 20
 
 ### Financial Impact Assessment
 - **Current Monthly Cost:** $500K in overtime and agency fees

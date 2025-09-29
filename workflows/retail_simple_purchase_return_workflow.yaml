@@ -6,24 +6,27 @@ workflow:
   participants: ["Customer Service Representative", "Customer", "Store Manager"]
   trigger: "Customer requests to return a purchase within return policy timeframe"
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Verify purchase receipt and check return eligibility"
-      tools: ["POS System", "Return Policy Guidelines"]
-      duration: "2 minutes"
-      outputs: ["Return eligibility confirmation"]
-    - step: 2
-      actor: "Customer Service Representative"
-      action: "Inspect returned item for condition and completeness"
-      tools: ["Item Inspection Checklist"]
-      duration: "3 minutes"
-      outputs: ["Item condition assessment"]
-    - step: 3
-      actor: "Customer Service Representative"
-      action: "Process return and issue refund or exchange"
-      tools: ["POS System", "Refund Processing Software"]
-      duration: "2 minutes"
-      outputs: ["Refund issued", "Return receipt provided"]
+     - step: 1
+       actor: "Customer Service Representative"
+       action: "Verify purchase receipt and check return eligibility"
+       decision_points: ["Receipt validity", "Return timeframe compliance", "Item category eligibility"]
+       tools: ["POS System", "Return Policy Guidelines"]
+       duration: "2 minutes"
+       outputs: ["Return eligibility confirmation"]
+     - step: 2
+       actor: "Customer Service Representative"
+       action: "Inspect returned item for condition and completeness"
+       decision_points: ["Wear and tear assessment", "Original packaging check", "Accessory completeness"]
+       tools: ["Item Inspection Checklist"]
+       duration: "3 minutes"
+       outputs: ["Item condition assessment"]
+     - step: 3
+       actor: "Customer Service Representative"
+       action: "Process return and issue refund or exchange"
+       decision_points: ["Refund vs exchange preference", "Store credit options", "Gift card compatibility"]
+       tools: ["POS System", "Refund Processing Software"]
+       duration: "2 minutes"
+       outputs: ["Refund issued", "Return receipt provided"]
   success_criteria: "Customer receives refund/exchange within 10 minutes of return request"
   failure_modes: ["Item not eligible for return", "Damaged or incomplete item", "Receipt missing", "Policy violation"]
   metrics:

@@ -6,14 +6,18 @@ The Telemedicine Operations team manages virtual care delivery platforms, ensuri
 ## Organizational Structure
 
 ### Director of Telemedicine Operations
-**Reports to:** Chief Medical Information Officer  
-**Direct Reports:** 3 Managers  
+**Reports to:** Chief Medical Information Officer
+**Direct Reports:** 3 Managers
+**Team Size:** 15 FTEs
+**Budget:** $2.5M annually
 **Responsibilities:**
 - Oversee telemedicine platform operations and service delivery
 - Develop telemedicine protocols and quality standards
 - Manage technology infrastructure and vendor relationships
 - Ensure regulatory compliance (HIPAA, state licensing)
 - Drive adoption and utilization of telemedicine services
+- Coordinate with clinical departments for service expansion
+- Monitor patient satisfaction and clinical outcomes
 
 ### Telemedicine Platform Manager
 **Reports to:** Director of Telemedicine Operations  

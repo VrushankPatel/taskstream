@@ -1,0 +1,62 @@
+{
+  "scenario_id": "insurance_parametric_products_launch_decision",
+  "decision_date": "2024-08-30",
+  "context": "Global insurance company evaluating launch of parametric insurance products for climate-related risks",
+  "stakeholders": {
+    "requester": "Head of Product Innovation",
+    "approvers": ["Chief Executive Officer", "Chief Risk Officer", "Chief Actuary"],
+    "influencers": ["Head of Underwriting", "Chief Compliance Officer", "Head of Climate Risk"]
+  },
+  "request": {
+    "amount": "$15,000,000",
+    "purpose": "Product development and market launch of parametric insurance solutions",
+    "urgency": "medium",
+    "justification": "Growing climate risk market with $50B global opportunity and competitive advantage in sustainable insurance"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2024-06-01",
+      "end_date": "2024-07-15",
+      "duration": "35 business days",
+      "activities": ["Market research", "Competitor analysis", "Customer surveys", "Regulatory assessment"],
+      "outcome": "Strong market demand identified with regulatory support"
+    },
+    {
+      "stage": "product_design",
+      "start_date": "2024-07-16",
+      "end_date": "2024-08-15",
+      "duration": "20 business days",
+      "activities": ["Actuarial modeling", "Product prototyping", "Pricing strategy", "Distribution planning"],
+      "outcome": "Viable product designs with competitive pricing"
+    },
+    {
+      "stage": "final_evaluation",
+      "start_date": "2024-08-16",
+      "end_date": "2024-08-29",
+      "duration": "10 business days",
+      "activities": ["Risk assessment", "Financial projections", "Strategic alignment review"],
+      "outcome": "Approved with phased rollout approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% market share in parametric products, $75M annual revenue growth",
+    "projected_value": "$200,000,000",
+    "actual_value": "$220,000,000 (projected)",
+    "roi_timeline": "Expected payback in 24 months",
+    "risk_factors": ["Model accuracy challenges", "Regulatory uncertainty", "Market adoption slower than expected"]
+  },
+  "decision_criteria": ["Market opportunity >$1B", "ROI >20%", "Risk-adjusted returns acceptable", "Regulatory compliance achievable", "Competitive differentiation"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-09-01",
+    "completion_date": "2025-12-31",
+    "milestones": ["Phase 1: Pilot launch (Q4 2024)", "Phase 2: Market expansion (H1 2025)", "Phase 3: Full portfolio (Q4 2025)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot performance and customer feedback",
+    "12_month_review": "Market penetration and financial results",
+    "actual_roi": "28% (vs projected 20%)"
+  },
+  "lessons_learned": "Early regulatory engagement critical for parametric products; customer education essential for market adoption"
+}

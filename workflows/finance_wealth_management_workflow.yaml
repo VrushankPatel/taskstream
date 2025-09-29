@@ -1,0 +1,61 @@
+workflow:
+  id: "workflow_finance_wealth_management"
+  title: "High-Net-Worth Client Portfolio Management Process"
+  department: "Private Wealth Management"
+  complexity: "complex"
+  participants: ["Relationship Manager", "Portfolio Manager", "Investment Analyst", "Risk Advisor", "Tax Specialist", "Client Services Coordinator"]
+  trigger: "New high-net-worth client onboarding or annual review"
+  temporal_data:
+    first_implemented: "2017-09-01"
+    last_updated: "2024-10-01"
+    typical_cycle_time: "30-45 business days"
+    average_annual_executions: 800
+    seasonal_variations: ["Q4 tax planning focus", "Q1 portfolio rebalancing"]
+    historical_evolution: "Robo-advisor integration in 2021, ESG investing added in 2023, AI portfolio optimization in 2024"
+  steps:
+    - step: 1
+      actor: "Relationship Manager"
+      action: "Client discovery and goal setting"
+      tools: ["Client Onboarding System", "Risk Assessment Questionnaire"]
+      duration: "5-7 days"
+      outputs: ["Client Profile", "Investment Objectives", "Risk Tolerance Assessment"]
+    - step: 2
+      actor: "Investment Analyst"
+      action: "Market research and investment recommendations"
+      tools: ["Research Platform", "Portfolio Analytics Software"]
+      duration: "7-10 days"
+      outputs: ["Investment Research Report", "Asset Allocation Proposal"]
+    - step: 3
+      actor: "Portfolio Manager"
+      action: "Portfolio construction and optimization"
+      tools: ["Portfolio Management System", "Risk Modeling Tools"]
+      duration: "5-8 days"
+      outputs: ["Optimized Portfolio", "Performance Projections"]
+    - step: 4
+      actor: "Tax Specialist"
+      action: "Tax efficiency analysis and planning"
+      tools: ["Tax Planning Software", "Regulatory Compliance Database"]
+      duration: "3-5 days"
+      outputs: ["Tax Optimization Strategy", "Compliance Report"]
+    - step: 5
+      actor: "Risk Advisor"
+      action: "Risk assessment and mitigation planning"
+      tools: ["Risk Management Platform", "Stress Testing Tools"]
+      duration: "4-6 days"
+      outputs: ["Risk Management Plan", "Contingency Strategies"]
+    - step: 6
+      actor: "Client Services Coordinator"
+      action: "Client presentation and implementation"
+      tools: ["Client Portal", "Reporting System"]
+      duration: "3-5 days"
+      outputs: ["Client Presentation", "Implementation Schedule", "Service Agreement"]
+  success_criteria: "Portfolio outperforms benchmark by 2-3% annually with client satisfaction >95%"
+  failure_modes: ["Market volatility impacts", "Client goal changes", "Regulatory constraints"]
+  metrics:
+    - "Client Retention: >95% target"
+    - "Portfolio Performance: +3% alpha target"
+    - "AUM Growth: 8-10% annual target"
+  performance_history:
+    success_rate_trend: "88% (2022) → 92% (2023) → 95% (2024)"
+    cost_trend: "$3.5M (2022) → $3.2M (2023) → $2.9M (2024)"
+    efficiency_improvements: ["AI optimization improved returns by 1.5%", "Digital onboarding reduced time by 25%"]

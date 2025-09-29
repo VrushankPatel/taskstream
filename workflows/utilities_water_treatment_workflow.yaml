@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_utilities_water_treatment"
+  title: "Municipal Water Treatment Process"
+  department: "Water Operations"
+  complexity: "simple"
+  participants: ["Process Operator", "Quality Technician", "Maintenance Technician", "Operations Supervisor"]
+  trigger: "Daily water treatment cycle initiation"
+  temporal_data:
+    first_implemented: "2018-01-15"
+    last_updated: "2024-07-10"
+    typical_cycle_time: "24 hours (continuous)"
+    average_annual_executions: 365
+    seasonal_variations: ["Summer peak demand", "Winter maintenance focus"]
+    historical_evolution: "SCADA system implemented in 2020, automated monitoring in 2022"
+  steps:
+    - step: 1
+      actor: "Process Operator"
+      action: "System startup and parameter monitoring"
+      tools: ["SCADA System", "Control Panels"]
+      duration: "30 minutes"
+      outputs: ["System Status Report", "Initial Readings"]
+    - step: 2
+      actor: "Quality Technician"
+      action: "Water quality testing and adjustment"
+      tools: ["Testing Equipment", "Chemical Dosing System"]
+      duration: "4 hours"
+      outputs: ["Quality Test Results", "Chemical Adjustment Log"]
+    - step: 3
+      actor: "Maintenance Technician"
+      action: "Equipment inspection and preventive maintenance"
+      tools: ["Maintenance Checklist", "Diagnostic Tools"]
+      duration: "2 hours"
+      outputs: ["Maintenance Report", "Equipment Status"]
+    - step: 4
+      actor: "Operations Supervisor"
+      action: "Final quality verification and reporting"
+      tools: ["Quality Management System", "Reporting Tools"]
+      duration: "30 minutes"
+      outputs: ["Daily Operations Report", "Compliance Documentation"]
+  success_criteria: "Water meets all quality standards with zero system failures"
+  failure_modes: ["Equipment malfunction", "Chemical imbalance", "Power outage"]
+  metrics:
+    - "Quality Compliance: 100% target"
+    - "System Uptime: >99.5% target"
+    - "Response Time: <30 minutes target"
+  performance_history:
+    success_rate_trend: "98% (2022) → 99.2% (2023) → 99.8% (2024)"
+    cost_trend: "$1.2M (2022) → $1.1M (2023) → $950K (2024)"
+    efficiency_improvements: ["SCADA automation reduced manual checks by 50%", "Predictive maintenance decreased downtime by 30%"]

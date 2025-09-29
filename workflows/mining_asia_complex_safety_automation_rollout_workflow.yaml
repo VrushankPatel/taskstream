@@ -1,0 +1,68 @@
+workflow:
+  id: "workflow_mining_asia_safety_automation"
+  title: "Asia Mining Safety Automation System Rollout"
+  department: "Safety & Operations"
+  complexity: "complex"
+  participants: ["Safety Director", "Automation Project Manager", "Mining Operations Manager", "IT Infrastructure Team", "Equipment Vendors", "Worker Training Coordinators", "Regulatory Compliance Officer", "Risk Assessment Team"]
+  trigger: "Safety audit identifies high-risk areas requiring automation or regulatory mandate for improved safety systems"
+  temporal_data:
+    first_implemented: "2023-01-01"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "18 months"
+    average_annual_executions: 8
+    seasonal_variations: ["Dry season preferred for installations", "Monsoon season restrictions"]
+    historical_evolution: "Manual safety monitoring evolved to automated systems in 2023, integrated AI predictive safety in 2024, expanded to comprehensive automation suite in 2025"
+  steps:
+    - step: 1
+      actor: "Safety Director"
+      action: "Conduct comprehensive risk assessment and identify automation priorities"
+      tools: ["Risk Assessment Framework", "Safety Incident Database", "Regulatory Requirements Analysis"]
+      duration: "6 weeks"
+      outputs: ["Risk assessment report", "Automation priority matrix"]
+    - step: 2
+      actor: "Automation Project Manager"
+      action: "Design automation solution architecture and select technology vendors"
+      tools: ["System Design Platform", "Vendor Evaluation System", "Cost-Benefit Analysis Tools"]
+      duration: "8 weeks"
+      outputs: ["Technical specifications", "Vendor contracts", "Project timeline"]
+    - step: 3
+      actor: "Regulatory Compliance Officer"
+      action: "Ensure all automation systems meet local mining regulations and safety standards"
+      tools: ["Regulatory Compliance Database", "Certification Requirements", "Audit Preparation Tools"]
+      duration: "4 weeks"
+      outputs: ["Compliance certification", "Regulatory approvals"]
+    - step: 4
+      actor: "IT Infrastructure Team"
+      action: "Install network infrastructure and integrate automation systems"
+      tools: ["Network Installation Equipment", "System Integration Platform", "Testing Protocols"]
+      duration: "12 weeks"
+      outputs: ["Network infrastructure", "Integrated systems", "Testing reports"]
+    - step: 5
+      actor: "Mining Operations Manager"
+      action: "Develop standard operating procedures for automated safety systems"
+      tools: ["SOP Development Platform", "Process Documentation Tools", "Operator Feedback Systems"]
+      duration: "6 weeks"
+      outputs: ["Updated SOPs", "Operator guidelines", "Training materials"]
+    - step: 6
+      actor: "Worker Training Coordinators"
+      action: "Conduct comprehensive training for all affected personnel"
+      tools: ["Training Management System", "Simulation Platforms", "Certification Tracking"]
+      duration: "8 weeks"
+      outputs: ["Trained workforce", "Certification records", "Training effectiveness reports"]
+    - step: 7
+      actor: "Risk Assessment Team"
+      action: "Validate system performance and conduct post-implementation safety audit"
+      tools: ["Performance Monitoring Tools", "Safety Audit Framework", "Incident Tracking System"]
+      duration: "4 weeks"
+      outputs: ["Performance validation report", "Safety improvement metrics", "System optimization recommendations"]
+  success_criteria: "All high-risk areas automated with 50% reduction in safety incidents and 100% workforce certification completion"
+  failure_modes: ["Technology integration challenges", "Worker resistance to automation", "Regulatory approval delays", "Infrastructure limitations"]
+  metrics:
+    - "Safety incident reduction: 50% target"
+    - "System uptime: 99%"
+    - "Training completion rate: 100%"
+    - "ROI achievement: 3-year payback"
+  performance_history:
+    success_rate_trend: "70% (2023) → 85% (2024) → 95% (2025)"
+    cost_trend: "$2.5M (2023) → $2.2M (2024) → $2.0M (2025)"
+    efficiency_improvements: ["Modular implementation approach reduced deployment time by 25%", "Integrated training programs improved adoption rates by 35%"]

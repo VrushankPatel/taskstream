@@ -154,9 +154,45 @@ Comprehensive revenue management dashboard tracking pricing strategy effectivene
 - Improved forecasting accuracy by 12%
 - Enhanced direct booking conversion by 25%
 
+## Customer Experience Metrics
+
+### Guest Satisfaction
+**NPS Score**
+- Current: 68
+- Target: 75
+- Trend: +5 YoY
+- Premium segments: 78
+- Economy segments: 62
+
+### Service Quality
+**Response Time**
+- Front desk: <2 minutes
+- Housekeeping: <15 minutes
+- Concierge: <5 minutes
+- Overall satisfaction: 4.3/5
+
+## Sustainability Metrics
+
+### Environmental Impact
+**Carbon Footprint**
+- Current: 45 kg CO2 per room night
+- Target: <40 kg CO2 per room night
+- Renewable energy usage: 65%
+- Water conservation: 25% reduction
+
+### Green Initiatives
+**Eco-Friendly Programs**
+- Recycling rate: 85%
+- Local sourcing: 60% of food supplies
+- Green certification: LEED Gold
+- Guest participation: 40% opt-in
+
 ## Future Initiatives
 - Machine learning demand forecasting
 - Personalized dynamic pricing
 - Voice-activated booking optimization
 - Blockchain-based loyalty programs
 - Carbon-neutral travel incentives
+- AI-powered guest experience personalization
+- Metaverse virtual hotel tours
+- Cryptocurrency payment integration

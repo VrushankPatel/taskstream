@@ -46,13 +46,27 @@ Covers all personal data collected, processed, or stored by the retail organizat
 3. **Legal Obligation**: Regulatory reporting, tax compliance
 4. **Vital Interests**: Emergency contact information
 5. **Public Task**: Government reporting requirements
-6. **Consent**: Marketing communications, profiling
+6. **Consent**: Marketing communications, profiling, AI personalization
+
+### AI and Automated Processing
+**Machine Learning Usage**
+- Customer preference prediction with opt-out rights
+- Personalized recommendations based on purchase history
+- Fraud detection algorithms with human review
+- Dynamic pricing optimization (non-discriminatory)
+
+**Algorithmic Transparency**
+- AI decision explanations provided upon request
+- Bias monitoring and mitigation procedures
+- Regular algorithmic impact assessments
+- Human oversight for high-risk AI decisions
 
 ### Processing Restrictions
 - No processing of sensitive data without explicit consent
 - No automated decision-making without human oversight
 - No data sharing without contractual protections
 - No indefinite retention without business justification
+- No discriminatory AI-driven pricing or recommendations
 
 ## Customer Rights Implementation
 

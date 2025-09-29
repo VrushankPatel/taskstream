@@ -160,10 +160,11 @@ Applies to all information systems, operational technology, and digital assets s
 
 ### Employee Training
 **Security Awareness**
-- Annual cybersecurity training for all employees
+- Annual cybersecurity training for all employees (100% completion required)
 - Phishing simulation exercises quarterly
 - Role-specific training for technical staff
 - Incident response training for key personnel
+- AI ethics and security training for ML/AI users
 
 ### Specialized Training
 **Technical Training**
@@ -171,6 +172,15 @@ Applies to all information systems, operational technology, and digital assets s
 - ICS security for operations personnel
 - Secure coding for development teams
 - Digital forensics for incident response teams
+- AI model security and adversarial attack prevention
+
+### Emerging Technologies Training
+**AI/ML Security**
+- Machine learning model vulnerability assessment
+- Adversarial input detection and mitigation
+- AI system monitoring and anomaly detection
+- Ethical AI usage and bias prevention
+- Automated decision system oversight
 
 ## Continuous Improvement
 

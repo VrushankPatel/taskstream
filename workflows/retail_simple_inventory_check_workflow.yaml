@@ -1,55 +1,27 @@
-name: Retail Simple Inventory Check Workflow
-description: Streamlined daily inventory verification process for retail stores to ensure stock accuracy and prevent stockouts or overstocking
-version: 1.0
-industry: Retail
-region: Global
-complexity: Simple
-actors:
-  - Store Associate
-  - Inventory Manager
-steps:
-  - id: scan_inventory
-    name: Scan Shelf Inventory
-    description: Use handheld scanner to count and verify shelf stock levels
-    actor: Store Associate
-    inputs:
-      - Shelf stock items
-      - Inventory scanner device
-      - Product catalog
-    outputs:
-      - Digital inventory count data
-      - Discrepancy reports
-    duration: 30 minutes
-    tools:
-      - Handheld inventory scanner
-      - Mobile inventory app
-  - id: review_update
-    name: Review and Update Inventory Records
-    description: Analyze scan data, resolve discrepancies, and update central inventory system
-    actor: Inventory Manager
-    inputs:
-      - Inventory count data
-      - Current system records
-      - Discrepancy reports
-    outputs:
-      - Updated inventory database
-      - Discrepancy resolution log
-      - Reorder alerts
-    duration: 15 minutes
-    tools:
-      - Inventory management software
-      - Reporting dashboard
-success_criteria:
-  - Inventory accuracy within 2% variance
-  - All discrepancies resolved within shift
-  - System updated before store closing
-failure_modes:
-  - Scanner battery failure or malfunction
-  - Manual counting errors due to high volume
-  - Network connectivity issues preventing sync
-  - Stock movement during counting
-metrics:
-  - Inventory accuracy rate: >98%
-  - Average time per check: <45 minutes
-  - Discrepancy resolution rate: >95%
-  - System update completion: 100%
+workflow:
+  id: "workflow_retail_simple_inventory_check"
+  title: "Retail Simple Inventory Check Workflow"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Associate", "Inventory Manager", "Store Manager"]
+  trigger: "Daily store opening routine or scheduled inventory check"
+  steps:
+    - step: 1
+      actor: "Store Associate"
+      action: "Scan shelf inventory using handheld device"
+      tools: ["Handheld inventory scanner", "Mobile inventory app"]
+      duration: "30 minutes"
+      outputs: ["Digital inventory count data", "Discrepancy reports"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Review scan data, resolve discrepancies, and update system"
+      tools: ["Inventory management software", "Reporting dashboard"]
+      duration: "15 minutes"
+      outputs: ["Updated inventory database", "Discrepancy resolution log", "Reorder alerts"]
+  success_criteria: "Inventory accuracy maintained within 2% variance with all discrepancies resolved within shift"
+  failure_modes: ["Scanner malfunction", "Network connectivity issues", "Manual counting errors", "Stock movement during verification"]
+  metrics:
+    - "Inventory accuracy rate: >98%"
+    - "Average check time: <45 minutes"
+    - "Discrepancy resolution rate: >95%"
+    - "System update completion: 100%"

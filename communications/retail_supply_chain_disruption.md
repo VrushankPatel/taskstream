@@ -131,3 +131,64 @@ Thank you for the coordinated response. Our team's resilience is commendable.
 Best,  
 Sarah Chen  
 Supply Chain Director
+
+---
+
+**From:** Customer Service Director  
+**To:** Executive Leadership Team, Store Managers  
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+
+Team,
+
+Customer service lines are experiencing increased volume. Current status:
+
+**Service Updates:**
+- Call volume up 45% from normal
+- Average hold time: 8 minutes (target: <5 minutes)
+- Additional staffing deployed to 50 locations
+- Digital channels handling 60% of inquiries
+
+**Customer Communication:**
+- Automated email responses with status updates
+- Social media monitoring team activated
+- Loyalty program compensation offers prepared
+- Alternative product recommendations provided
+
+**Support Needs:**
+- Need additional training for complex inquiries
+- Request priority access to inventory data
+- Marketing support for digital campaigns
+
+We're maintaining service levels despite the increased load.
+
+Regards,  
+Lisa Thompson  
+Customer Service Director
+
+---
+
+**From:** Vendor Partner  
+**To:** Supply Chain Director, CEO  
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+
+Dear Sarah and Michael,
+
+We appreciate the notification and are committed to supporting your recovery.
+
+**Our Response:**
+- Expedited production schedules activated
+- Additional inventory allocated to your account
+- Dedicated logistics team assigned for priority shipping
+- 24/7 communication channel established
+
+**Delivery Commitments:**
+- Emergency shipment arriving tomorrow (50% of volume)
+- Full replenishment by end of week
+- Quality assurance protocols maintained
+
+Please let us know if additional support is needed.
+
+Best regards,  
+Robert Kim  
+Account Director  
+Global Supply Partners

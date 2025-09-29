@@ -102,6 +102,14 @@ This dashboard monitors safety performance, compliance with regulatory requireme
 - **Regional Performance**: West Coast 1.0, East Coast 1.4, South 1.1
 - **Project Size Impact**: Large projects (> $50M) TRIR 1.5, Small projects (< $5M) TRIR 0.8
 - **Union vs Non-union**: Similar performance across categories
+- **Contractor Performance**: In-house crews TRIR 0.9, Subcontractors TRIR 1.8
+
+### External Benchmarking
+- **Industry Averages**: Construction TRIR 2.8, DART 1.6 (company 40% below average)
+- **Peer Companies**: Top quartile performance vs. Fortune 500 construction firms
+- **OSHA National**: Company performance exceeds national averages by 35%
+- **International Standards**: Meets or exceeds ISO 45001 requirements
+- **Safety Awards**: 2024 National Safety Council Award winner
 
 ## Corrective Action Tracking
 

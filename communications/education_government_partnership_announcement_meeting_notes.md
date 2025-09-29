@@ -37,12 +37,34 @@
 - Data privacy concerns: Enhanced security protocols
 - Budget overruns: Monthly financial monitoring
 
+### Discussion Points
+
+#### Funding Allocation Debate
+- Minister Kim emphasized need for performance-based milestones to ensure accountability
+- University President Foster requested flexibility for research-driven innovations
+- Agreed on 70/30 split between infrastructure and content development
+- Contingency fund of $5M established for unexpected technology requirements
+
+#### Technology Integration Concerns
+- CTO Wilson presented AI integration roadmap with ethical guidelines
+- Concerns raised about faculty training and technology adoption barriers
+- Commitment made to comprehensive change management program
+- Pilot program proposed for 500 faculty members in Q1 2026
+
+#### Data Privacy and Security
+- Government relations lead highlighted national data protection requirements
+- Agreement reached on joint security framework development
+- Independent audit process established for data handling compliance
+- Student data ownership and access rights clearly defined
+
 ### Key Decisions Made
 
 1. **Approved** October 1st as official partnership launch date
-2. **Approved** $50M funding allocation with phased disbursement
+2. **Approved** $50M funding allocation with phased disbursement (70% infrastructure, 30% content)
 3. **Directed** Communications team to prepare press release and media kit
 4. **Established** Joint oversight committee with monthly meetings
+5. **Approved** Comprehensive change management and training program
+6. **Established** Joint security and data privacy framework
 
 ### Action Items
 

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "utilities_green_energy_infrastructure_2025",
+  "decision_date": "2025-09-15",
+  "context": "Major utility company evaluating $3.2B investment in green energy infrastructure to achieve 60% renewable energy mix by 2032",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors", "CFO"],
+    "influencers": ["COO", "VP Engineering", "Regulatory Affairs Director", "Environmental NGOs"]
+  },
+  "request": {
+    "amount": "$3,200,000,000",
+    "purpose": "Green energy infrastructure development including solar farms, wind turbines, and advanced battery storage",
+    "urgency": "high",
+    "justification": "Regulatory compliance, declining renewable costs, improved stakeholder reputation"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "start_date": "2025-06-01",
+      "end_date": "2025-08-15",
+      "duration": "11 weeks",
+      "activities": ["Technical feasibility study", "Financial modeling", "Regulatory impact assessment", "Stakeholder consultations"],
+      "outcome": "Feasible with 18% projected IRR over 15 years"
+    },
+    {
+      "stage": "pilot_implementation",
+      "start_date": "2025-08-16",
+      "end_date": "2025-11-30",
+      "duration": "15 weeks",
+      "activities": ["Small-scale renewable installations", "Performance monitoring", "Community engagement", "Technology validation"],
+      "outcome": "Pilot successful with 22% efficiency gains"
+    },
+    {
+      "stage": "full_scale_planning",
+      "start_date": "2025-12-01",
+      "end_date": "2026-02-28",
+      "duration": "13 weeks",
+      "activities": ["Detailed project planning", "Vendor selection process", "Financing arrangements", "Risk mitigation strategy"],
+      "outcome": "Comprehensive implementation plan approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "60% renewable energy mix by 2032, 45% reduction in carbon emissions",
+    "projected_value": "$1,200,000,000 in cost savings over 20 years",
+    "actual_value": "TBD (implementation ongoing)",
+    "roi_timeline": "Payback in 8 years",
+    "risk_factors": ["Technology obsolescence", "Policy changes", "Construction cost overruns", "Grid integration challenges"]
+  },
+  "decision_criteria": ["Financial viability", "Regulatory compliance", "Technical feasibility", "Environmental impact", "Stakeholder support"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2026-03-01",
+    "completion_date": "2032-12-31",
+    "milestones": ["Phase 1 completion: 2028-06-30", "50% renewable target: 2030-12-31", "Full implementation: 2032-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Initial construction progress and cost tracking",
+    "12_month_review": "First-year performance vs projections",
+    "actual_roi": "TBD (tracking ongoing)"
+  },
+  "lessons_learned": "Early stakeholder engagement reduced opposition, pilot programs validated technology assumptions, phased approach minimized financial risk"
+}

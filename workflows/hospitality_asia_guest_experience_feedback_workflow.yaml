@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_hospitality_asia_guest_experience_feedback"
+  title: "Asia Hospitality Guest Experience Feedback Collection Process"
+  department: "Guest Experience"
+  complexity: "medium"
+  participants: ["Guest Services Manager", "Quality Assurance Coordinator", "Digital Marketing Specialist", "Operations Manager"]
+  trigger: "Guest checks out or completes stay"
+  temporal_data:
+    first_implemented: "2022-08-10"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "24-48 hours"
+    average_annual_executions: 45000
+    seasonal_variations: ["Peak season (March-May) 35% increase", "Low season (June-August) 20% decrease"]
+    historical_evolution: "Started with paper surveys, moved to digital in 2023 with multilingual support added in 2024"
+  steps:
+    - step: 1
+      actor: "Guest Services Manager"
+      action: "Send personalized feedback request via multiple channels"
+      tools: ["Guest Communication Platform", "Multilingual Survey System"]
+      duration: "10 minutes"
+      outputs: ["Feedback request sent in preferred language"]
+    - step: 2
+      actor: "Quality Assurance Coordinator"
+      action: "Monitor response rates and follow up on non-responders"
+      tools: ["Feedback Analytics Dashboard", "Automated Follow-up System"]
+      duration: "2 hours"
+      outputs: ["Response rate report", "Follow-up communications sent"]
+    - step: 3
+      actor: "Digital Marketing Specialist"
+      action: "Analyze feedback data and identify improvement opportunities"
+      tools: ["Data Analytics Platform", "Sentiment Analysis Tool"]
+      duration: "4 hours"
+      outputs: ["Feedback insights report", "Improvement recommendations"]
+    - step: 4
+      actor: "Operations Manager"
+      action: "Review insights and implement quick wins or escalate major issues"
+      tools: ["Operations Management System", "Issue Tracking Platform"]
+      duration: "3 hours"
+      outputs: ["Action plan implemented", "Major issues escalated"]
+  success_criteria: "Feedback collected with 60%+ response rate and insights driving improvements"
+  failure_modes: ["Low response rates due to poor timing", "Technical issues with survey platform", "Language barriers in feedback collection"]
+  metrics:
+    - "Response rate target: 65%"
+    - "Average processing time: 24 hours"
+    - "Improvement implementation rate: 80%"
+  performance_history:
+    success_rate_trend: "55% (2023) → 62% (2024) → 65% (2025)"
+    cost_trend: "$8 (2023) → $6 (2024) → $5 (2025)"
+    efficiency_improvements: ["Multilingual support increased Asian guest responses by 30%", "Automated follow-ups improved completion rates by 15%"]

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "mining_sustainability_investment_2025",
+  "decision_date": "2025-08-20",
+  "context": "Mining company facing new environmental regulations requiring $45M investment in sustainable mining technologies and environmental remediation",
+  "stakeholders": {
+    "requester": "Environmental Compliance Manager",
+    "approvers": ["CEO", "COO", "Board Environmental Committee"],
+    "influencers": ["Government Regulators", "Local Communities", "Environmental NGOs", "Operations Teams"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Sustainable mining technology implementation and environmental remediation systems",
+    "urgency": "high",
+    "justification": "Compliance with new environmental regulations, community relations improvement, operational efficiency gains"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "start_date": "2025-05-01",
+      "end_date": "2025-06-15",
+      "duration": "6 weeks",
+      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Penalty risk evaluation"],
+      "outcome": "Critical compliance gaps identified requiring immediate action"
+    },
+    {
+      "stage": "technology_evaluation",
+      "start_date": "2025-06-16",
+      "end_date": "2025-07-31",
+      "duration": "6 weeks",
+      "activities": ["Technology vendor assessment", "Pilot program design", "Cost-benefit analysis"],
+      "outcome": "Selected comprehensive sustainability package with proven ROI"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-15",
+      "duration": "2 weeks",
+      "activities": ["Community consultation meetings", "NGO discussions", "Employee impact assessment"],
+      "outcome": "Strong stakeholder support secured"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% reduction in environmental impact, compliance with new regulations, improved community relations",
+    "projected_value": "$12,000,000 annual cost savings through efficiency improvements",
+    "actual_value": "TBD (implementation starting)",
+    "roi_timeline": "Payback in 4 years",
+    "risk_factors": ["Technology implementation delays", "Higher-than-expected costs", "Regulatory changes", "Community opposition"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial viability", "Environmental impact", "Community support", "Operational feasibility"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2027-08-31",
+    "milestones": ["Technology deployment: 2026-02-28", "Remediation completion: 2026-12-31", "Full compliance: 2027-08-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Initial implementation progress and compliance status",
+    "12_month_review": "Environmental impact reduction and cost savings achieved",
+    "actual_roi": "TBD (monitoring ongoing)"
+  },
+  "lessons_learned": "Proactive regulatory engagement prevented penalties, technology pilots reduced implementation risk, community involvement improved project acceptance"
+}

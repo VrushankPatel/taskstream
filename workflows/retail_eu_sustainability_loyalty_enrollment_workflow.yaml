@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_retail_eu_sustainability_loyalty_enrollment"
+  title: "EU Retail Sustainability Loyalty Program Enrollment"
+  department: "Customer Experience"
+  complexity: "medium"
+  participants: ["Customer Service Manager", "Marketing Coordinator", "Data Privacy Officer", "IT Support"]
+  trigger: "New customer signs up for sustainability loyalty program"
+  temporal_data:
+    first_implemented: "2023-03-15"
+    last_updated: "2024-11-20"
+    typical_cycle_time: "2-3 days"
+    average_annual_executions: 25000
+    seasonal_variations: ["Q4 holiday peak (40% increase)", "Q1 post-holiday recovery (20% decrease)"]
+    historical_evolution: "Initially manual process, automated in 2023 with GDPR compliance updates in 2024"
+  steps:
+    - step: 1
+      actor: "Customer Service Manager"
+      action: "Verify customer identity and collect basic information"
+      tools: ["CRM System", "Identity Verification Tool"]
+      duration: "15 minutes"
+      outputs: ["Verified customer profile"]
+    - step: 2
+      actor: "Marketing Coordinator"
+      action: "Set up loyalty account and assign welcome benefits"
+      tools: ["Loyalty Platform", "Email Marketing System"]
+      duration: "30 minutes"
+      outputs: ["Active loyalty account", "Welcome email sent"]
+    - step: 3
+      actor: "Data Privacy Officer"
+      action: "Review and approve data processing consent under GDPR"
+      tools: ["Compliance Database", "GDPR Checklist"]
+      duration: "1 hour"
+      outputs: ["GDPR compliance confirmation"]
+    - step: 4
+      actor: "IT Support"
+      action: "Integrate customer data with loyalty system and test access"
+      tools: ["Data Integration Platform", "System Testing Tools"]
+      duration: "45 minutes"
+      outputs: ["Fully integrated customer account"]
+  success_criteria: "Customer successfully enrolled with active account and GDPR compliance"
+  failure_modes: ["GDPR consent not obtained", "Duplicate account creation", "System integration failure"]
+  metrics:
+    - "Enrollment success rate: 95%"
+    - "Average processing time: 2.5 hours"
+    - "GDPR compliance rate: 100%"
+  performance_history:
+    success_rate_trend: "92% (2023) → 94% (2024) → 95% (2025)"
+    cost_trend: "€15 (2023) → €12 (2024) → €10 (2025)"
+    efficiency_improvements: ["Automated verification reduced time by 40%", "GDPR templates improved compliance by 25%"]

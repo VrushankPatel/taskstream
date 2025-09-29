@@ -1,0 +1,62 @@
+{
+  "scenario_id": "agriculture_climate_resilient_farming_2025",
+  "decision_date": "2025-07-10",
+  "context": "Agricultural cooperative investing $8M in climate-resilient farming technologies to adapt to changing weather patterns across 75,000 acres",
+  "stakeholders": {
+    "requester": "Agricultural Innovation Director",
+    "approvers": ["CEO", "Board of Directors", "Finance Committee"],
+    "influencers": ["Member Farmers", "Climate Scientists", "Government Agriculture Department", "Insurance Providers"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Climate-resilient farming technology implementation including drought-resistant crops, precision irrigation, and weather monitoring systems",
+    "urgency": "medium",
+    "justification": "Adapt to climate change impacts, reduce crop losses, improve member farmer profitability, meet sustainability goals"
+  },
+  "decision_process": [
+    {
+      "stage": "climate_impact_analysis",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-15",
+      "duration": "6 weeks",
+      "activities": ["Climate data analysis", "Crop yield modeling", "Risk assessment", "Farmer surveys"],
+      "outcome": "Significant climate vulnerability identified requiring adaptation measures"
+    },
+    {
+      "stage": "technology_pilot",
+      "start_date": "2025-05-16",
+      "end_date": "2025-06-30",
+      "duration": "6 weeks",
+      "activities": ["Pilot farm selection", "Technology deployment", "Performance monitoring", "Farmer training"],
+      "outcome": "Pilot successful with 25% yield improvement in test areas"
+    },
+    {
+      "stage": "scaling_assessment",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-10",
+      "duration": "1 week",
+      "activities": ["Scaling cost analysis", "ROI projections", "Implementation planning"],
+      "outcome": "Economically viable with strong farmer support"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% reduction in climate-related crop losses, improved farmer resilience, enhanced cooperative reputation",
+    "projected_value": "$25,000,000 in prevented losses over 10 years",
+    "actual_value": "TBD (implementation ongoing)",
+    "roi_timeline": "Payback in 3 years",
+    "risk_factors": ["Technology adoption challenges", "Weather variability", "Implementation costs", "Farmer training requirements"]
+  },
+  "decision_criteria": ["Climate adaptation effectiveness", "Financial viability", "Farmer adoption rate", "Technical feasibility", "Environmental benefits"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2027-07-31",
+    "milestones": ["Pilot expansion: 2025-12-31", "50% farm coverage: 2026-12-31", "Full implementation: 2027-07-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Initial adoption rates and yield improvements",
+    "12_month_review": "Climate resilience metrics and farmer satisfaction",
+    "actual_roi": "TBD (tracking ongoing)"
+  },
+  "lessons_learned": "Farmer involvement in technology selection improved adoption rates, pilot programs validated effectiveness, phased implementation reduced financial risk"
+}

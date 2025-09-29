@@ -1,0 +1,46 @@
+workflow:
+  id: "workflow_healthcare_patient_admission_001"
+  title: "Patient Admission and Initial Assessment Workflow"
+  department: "Healthcare Operations"
+  complexity: "medium"
+  participants: ["Registration Clerk", "Triage Nurse", "Attending Physician", "Medical Records Specialist", "Billing Coordinator"]
+  trigger: "Patient arrives at emergency department or scheduled admission"
+  steps:
+    - step: 1
+      actor: "Registration Clerk"
+      action: "Verify patient identity and collect demographic information"
+      tools: ["Electronic Health Records (EHR) system", "ID verification software", "Insurance database"]
+      duration: "10 minutes"
+      outputs: ["Patient registration record", "Insurance verification"]
+    - step: 2
+      actor: "Triage Nurse"
+      action: "Perform initial vital signs assessment and triage evaluation"
+      tools: ["Vital signs monitor", "Triage assessment protocol", "Emergency Severity Index (ESI) tool"]
+      duration: "15 minutes"
+      outputs: ["Triage assessment report", "Vital signs documentation"]
+    - step: 3
+      actor: "Attending Physician"
+      action: "Conduct medical history review and physical examination"
+      decision_points: ["Admission necessity", "Urgency level", "Specialist consultation required"]
+      duration: "30 minutes"
+      outputs: ["Initial diagnosis", "Treatment plan outline", "Admission orders"]
+    - step: 4
+      actor: "Medical Records Specialist"
+      action: "Update patient records with admission information and scan documents"
+      tools: ["EHR system", "Document scanner", "Medical coding software"]
+      duration: "20 minutes"
+      outputs: ["Updated medical record", "Coded diagnoses and procedures"]
+    - step: 5
+      actor: "Billing Coordinator"
+      action: "Process admission paperwork and initiate billing procedures"
+      tools: ["Billing software", "Insurance pre-authorization system", "Patient financial counseling tools"]
+      duration: "15 minutes"
+      outputs: ["Admission paperwork", "Billing initiation", "Patient financial responsibility estimate"]
+  success_criteria: "Patient successfully admitted with complete documentation and appropriate care level assigned"
+  failure_modes: ["Insurance denial", "Incomplete medical history", "Resource unavailability"]
+  metrics:
+    - "Average admission time: Target <90 minutes from arrival"
+    - "Documentation completeness: Target >98% accuracy"
+    - "Patient satisfaction: Target >85% score"
+    - "Billing accuracy: Target >99% error-free claims"
+    - "Readmission rate: Target <5% within 30 days"

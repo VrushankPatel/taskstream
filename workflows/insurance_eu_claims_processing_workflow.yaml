@@ -4,9 +4,9 @@ workflow:
   department: "Claims Operations"
   complexity: "medium"
   participants: ["Claims Adjuster", "Claims Supervisor", "Fraud Investigator", "Legal Compliance Officer"]
-   trigger: "Customer submits claim through portal, email, or phone"
-   risks: ["Fraudulent claims detection gaps", "Data privacy breaches", "Regulatory non-compliance penalties", "High claim volume spikes"]
-   temporal_data:
+  trigger: "Customer submits claim through portal, email, or phone"
+  risks: ["Fraudulent claims detection gaps", "Data privacy breaches", "Regulatory non-compliance penalties", "High claim volume spikes"]
+  temporal_data:
     first_implemented: "2021-11-01"
     last_updated: "2024-10-30"
     typical_cycle_time: "3 days"
@@ -26,13 +26,13 @@ workflow:
       tools: ["Investigation toolkit", "Document management system"]
       duration: "4 hours"
       outputs: ["Investigation report", "Supporting evidence gathered"]
-     - step: 3
-       actor: "Fraud Investigator"
-       action: "Perform fraud risk assessment using automated tools and manual review"
-       decision_points: ["Fraud risk threshold exceeded", "Additional investigation required", "Claim denial recommendation"]
-       tools: ["Fraud detection software", "Risk assessment protocols"]
-       duration: "3 hours"
-       outputs: ["Fraud risk score", "Investigation recommendation"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Perform fraud risk assessment using automated tools and manual review"
+      decision_points: ["Fraud risk threshold exceeded", "Additional investigation required", "Claim denial recommendation"]
+      tools: ["Fraud detection software", "Risk assessment protocols"]
+      duration: "3 hours"
+      outputs: ["Fraud risk score", "Investigation recommendation"]
     - step: 4
       actor: "Claims Supervisor"
       action: "Review assessment and approve settlement amount within authority limits"
@@ -47,13 +47,13 @@ workflow:
       outputs: ["Compliance confirmation", "Final approval"]
   success_criteria: "Claim processed within SLA, settlement accurate and compliant, customer satisfaction maintained"
   failure_modes: ["Insufficient documentation provided", "Fraud suspicion requiring extended investigation", "Regulatory compliance issues"]
-   metrics:
-     - "Processing time: 2.8 days average"
-     - "Accuracy rate: 96%"
-     - "Customer satisfaction: 4.2/5"
-     - "Fraud detection rate: 92%"
-     - "Regulatory compliance rate: 99%"
-     - "First contact resolution: 78%"
+  metrics:
+    - "Processing time: 2.8 days average"
+    - "Accuracy rate: 96%"
+    - "Customer satisfaction: 4.2/5"
+    - "Fraud detection rate: 92%"
+    - "Regulatory compliance rate: 99%"
+    - "First contact resolution: 78%"
   performance_history:
     success_rate_trend: "88% (2023) → 92% (2024) → 94% (2025)"
     cost_trend: "€45 (2023) → €42 (2024) → €40 (2025)"

@@ -1,21 +1,21 @@
 workflow:
   id: workflow_comm_crisis_001
   title: Social Media Crisis Response Coordination
-   department: Communications
+  department: Communications
   complexity: high
   participants:
-   - Communications Director
-   - Social Media Manager
-   - Legal Counsel
-   - Executive Leadership
+    - Communications Director
+    - Social Media Manager
+    - Legal Counsel
+    - Executive Leadership
     - Customer Service Lead
   temporal_data:
-     first_implemented: "2018-04-20"
-     last_updated: "2024-09-05"
-     typical_cycle_time: "1-7 days"
-     average_annual_executions: 15
-     seasonal_variations: ["Peak during holiday shopping periods", "Lower during off-season"]
-      historical_evolution: "Reactive crisis response evolved to proactive monitoring with AI-powered sentiment analysis"
+    first_implemented: "2018-04-20"
+    last_updated: "2024-09-05"
+    typical_cycle_time: "1-7 days"
+    average_annual_executions: 15
+    seasonal_variations: ["Peak during holiday shopping periods", "Lower during off-season"]
+    historical_evolution: "Reactive crisis response evolved to proactive monitoring with AI-powered sentiment analysis"
   trigger: Negative social media incident or viral complaint
   steps:
   - step: 1
@@ -85,18 +85,18 @@ workflow:
     - Stakeholder engagement plans
     - Recovery monitoring
     duration: 24-48 hours
-    outputs:
-    - Executive statements
+     outputs:
+     - Executive statements
      - Recovery action plan
   success_criteria: Crisis contained within 24 hours, sentiment improvement by 50%, no legal escalation
   failure_modes:
-  - Delayed response
-  - Inconsistent messaging
-   - Executive disengagement
+    - Delayed response
+    - Inconsistent messaging
+    - Executive disengagement
   metrics:
-  - 'Response time: Target <2 hours for initial response'
-  - 'Sentiment improvement: Target 50% positive shift'
-  - 'Engagement rate: Target 80% of affected audience reached'
-  - 'Resolution rate: Target 95% of complaints resolved'
-  - 'Brand reputation impact: Target <5% negative change'
-  - 'Follow-up satisfaction: Target 4.0/5.0 rating'
+    - 'Response time: Target <2 hours for initial response'
+    - 'Sentiment improvement: Target 50% positive shift'
+    - 'Engagement rate: Target 80% of affected audience reached'
+    - 'Resolution rate: Target 95% of complaints resolved'
+    - 'Brand reputation impact: Target <5% negative change'
+    - 'Follow-up satisfaction: Target 4.0/5.0 rating'

@@ -1,0 +1,43 @@
+workflow:
+  id: workflow_hospitality_asia_guest_experience
+  title: Asia Hospitality Guest Experience
+  department: Guest Services
+  complexity: simple
+  participants:
+  - Guest Services Agent
+  - Concierge
+  temporal_data:
+    first_implemented: "2015-03-01"
+    last_updated: "2024-01-20"
+    typical_cycle_time: "Per guest stay"
+    average_annual_executions: 25000
+    seasonal_variations: ["High demand during Chinese New Year and Golden Week", "Peak tourism during summer months"]
+    historical_evolution: "Traditional hospitality evolved to personalized digital experiences with cultural sensitivity"
+  trigger: Guest check-in or service request
+  steps:
+  - step: 1
+    actor: Guest Services Agent
+    action: Welcome guest and provide orientation
+    tools:
+    - Guest profile system
+    - Translation apps
+    duration: 5 minutes
+    outputs:
+    - Guest preferences recorded
+  - step: 2
+    actor: Concierge
+    action: Arrange personalized services and experiences
+    tools:
+    - Local vendor database
+    - Booking system
+    duration: 15 minutes
+    outputs:
+    - Service arrangements confirmed
+  - step: 3
+    actor: Guest Services Agent
+    action: Follow up and ensure satisfaction
+    tools:
+    - Feedback system
+    duration: 3 minutes
+    outputs:
+    - Guest satisfaction confirmed

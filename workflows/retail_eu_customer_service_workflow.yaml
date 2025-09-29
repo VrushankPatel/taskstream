@@ -1,0 +1,42 @@
+workflow:
+  id: workflow_retail_eu_customer_service
+  title: EU Retail Customer Service
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Customer Service Agent
+  - Store Manager
+  temporal_data:
+    first_implemented: "2018-05-25"
+    last_updated: "2023-10-15"
+    typical_cycle_time: "Per customer interaction"
+    average_annual_executions: 50000
+    seasonal_variations: ["Peak during holiday shopping periods", "Increased inquiries during sales events"]
+    historical_evolution: "Traditional in-store service evolved to omnichannel support with GDPR compliance"
+  trigger: Customer inquiry or issue
+  steps:
+  - step: 1
+    actor: Customer Service Agent
+    action: Greet customer and identify needs
+    tools:
+    - CRM system
+    duration: 2 minutes
+    outputs:
+    - Customer profile access
+  - step: 2
+    actor: Customer Service Agent
+    action: Address inquiry or resolve issue
+    tools:
+    - Product database
+    - Returns system
+    duration: 5 minutes
+    outputs:
+    - Resolution provided
+  - step: 3
+    actor: Store Manager
+    action: Handle escalated issues if needed
+    tools:
+    - Management override system
+    duration: 10 minutes
+    outputs:
+    - Final resolution

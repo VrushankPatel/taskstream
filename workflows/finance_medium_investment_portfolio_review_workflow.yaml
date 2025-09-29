@@ -1,59 +1,81 @@
 workflow:
-workflow:
-  id: "workflow_finance_medium_investment_portfolio_review"
-  title: "Investment Portfolio Review Workflow"
-  department: "Wealth Management"
-  complexity: "medium"
+  id: workflow_finance_medium_investment_portfolio_review
+  title: Investment Portfolio Review Workflow
+  department: Wealth Management
+  complexity: medium
   participants:
-  - "Portfolio Manager"
-  - "Investment Analyst"
-  - "Client Advisor"
-  - "Compliance Officer"
-  trigger: "Quarterly review cycle or significant market event"
+  - Portfolio Manager
+  - Investment Analyst
+  - Client Advisor
+  - Compliance Officer
+  trigger: Quarterly review cycle or significant market event
   temporal_data:
-    first_implemented: "2019-03-01"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "5 days"
+    first_implemented: '2019-03-01'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 5 days
     average_annual_executions: 1200
     seasonal_variations:
-    - "Q4 year-end reviews"
-    - "Q1 rebalancing"
-    historical_evolution: "Incorporated ESG factors and AI-driven recommendations"
+    - Q4 year-end reviews
+    - Q1 rebalancing
+    historical_evolution: Incorporated ESG factors and AI-driven recommendations
   steps:
-    - step: 1
-      actor: "Investment Analyst"
-      action: "Analyze portfolio performance and market conditions"
-      tools: ["Portfolio analytics platform", "Market data feeds"]
-      duration: "2 days"
-      outputs: ["Performance analysis report"]
-      decision_points: ["Rebalancing triggers", "Risk exposure levels"]
-    - step: 2
-      actor: "Portfolio Manager"
-      action: "Develop rebalancing recommendations and strategy updates"
-      tools: ["Portfolio management software"]
-      duration: "1 day"
-      outputs: ["Rebalancing proposal"]
-      decision_points: ["Strategy approval thresholds", "Rebalancing triggers met"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Review for regulatory compliance and risk limits"
-      tools: ["Compliance monitoring system"]
-      duration: "1 day"
-      outputs: ["Compliance review"]
-      decision_points: ["Compliance exceptions identified", "Risk limit breaches"]
-    - step: 4
-      actor: "Client Advisor"
-      action: "Present recommendations to client and obtain approval"
-      tools: ["Client portal", "Presentation tools"]
-      duration: "1 day"
-      outputs: ["Client approval", "Implementation plan"]
-      decision_points: ["Client approval requirements", "Implementation timeline agreed"]
-  success_criteria: "Portfolio review completed with client-approved recommendations"
-  failure_modes: ["Market volatility delays", "Client disagreement on strategy"]
+  - step: 1
+    actor: Investment Analyst
+    action: Analyze portfolio performance and market conditions
+    tools:
+    - Portfolio analytics platform
+    - Market data feeds
+    duration: 2 days
+    outputs:
+    - Performance analysis report
+    decision_points:
+    - Rebalancing triggers
+    - Risk exposure levels
+  - step: 2
+    actor: Portfolio Manager
+    action: Develop rebalancing recommendations and strategy updates
+    tools:
+    - Portfolio management software
+    duration: 1 day
+    outputs:
+    - Rebalancing proposal
+    decision_points:
+    - Strategy approval thresholds
+    - Rebalancing triggers met
+  - step: 3
+    actor: Compliance Officer
+    action: Review for regulatory compliance and risk limits
+    tools:
+    - Compliance monitoring system
+    duration: 1 day
+    outputs:
+    - Compliance review
+    decision_points:
+    - Compliance exceptions identified
+    - Risk limit breaches
+  - step: 4
+    actor: Client Advisor
+    action: Present recommendations to client and obtain approval
+    tools:
+    - Client portal
+    - Presentation tools
+    duration: 1 day
+    outputs:
+    - Client approval
+    - Implementation plan
+    decision_points:
+    - Client approval requirements
+    - Implementation timeline agreed
+  success_criteria: Portfolio review completed with client-approved recommendations
+  failure_modes:
+  - Market volatility delays
+  - Client disagreement on strategy
   metrics:
-   - "Client satisfaction: 88%"
-   - "Average review time: 5 days"
+  - 'Client satisfaction: 88%'
+  - 'Average review time: 5 days'
   performance_history:
-   success_rate_trend: "82% (2023) → 85% (2024) → 88% (2025)"
-   cost_trend: "$150K (2023) → $140K (2024) → $130K (2025)"
-   efficiency_improvements: ["Automated analytics reduced analysis time by 35%", "Client portal improved communication by 20%"]
+    success_rate_trend: 82% (2023) → 85% (2024) → 88% (2025)
+    cost_trend: $150K (2023) → $140K (2024) → $130K (2025)
+    efficiency_improvements:
+    - Automated analytics reduced analysis time by 35%
+    - Client portal improved communication by 20%

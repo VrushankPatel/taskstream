@@ -1,53 +1,96 @@
 workflow:
-  id: "workflow_finance_simple_customer_service_inquiry"
-  title: "Customer Service Inquiry Resolution"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Supervisor", "Customer"]
-  trigger: "Customer contacts bank with inquiry"
+  id: workflow_finance_simple_customer_service_inquiry
+  title: Customer Service Inquiry Resolution
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Supervisor
+  - Customer
+  trigger: Customer contacts bank with inquiry
   temporal_data:
-    first_implemented: "2020-01-15"
-    last_updated: "2024-06-01"
-    typical_cycle_time: "15 minutes"
+    first_implemented: '2020-01-15'
+    last_updated: '2024-06-01'
+    typical_cycle_time: '15 minutes'
     average_annual_executions: 50000
-    seasonal_variations: ["Q4 peak during tax season", "Q1 post-holiday account questions"]
-    historical_evolution: "Initially manual process, automated with CRM in 2022, added AI chat support in 2024"
-   steps:
-     - step: 1
-       actor: "Customer Service Representative"
-       action: "Receive and categorize customer inquiry via phone/email/chat"
-       tools: ["CRM system", "Knowledge base"]
-       duration: "2 minutes"
-       decision_points: ["Channel priority (phone > chat > email)", "Inquiry complexity assessment", "Customer authentication required"]
-       outputs: ["Inquiry ticket", "Initial response", "Priority level assigned"]
-     - step: 2
-       actor: "Customer Service Representative"
-       action: "Research and provide resolution or escalate if needed"
-       tools: ["Account database", "Policy documents", "Internal escalation matrix"]
-       duration: "10 minutes"
-       decision_points: ["Resolution confidence level", "Escalation triggers met", "Additional information needed"]
-       outputs: ["Resolution provided", "Escalation ticket if needed", "Follow-up scheduled if required"]
-     - step: 3
-       actor: "Supervisor"
-       action: "Review escalated cases and provide guidance"
-       decision_points: ["Complexity level", "Policy interpretation needed", "Customer satisfaction risk", "Process improvement opportunity"]
-       duration: "5 minutes"
-       tools: ["Escalation dashboard", "Policy reference system"]
-       outputs: ["Resolution approval", "Process improvement notes", "Customer follow-up instructions"]
-     - step: 4
-       actor: "Customer Service Representative"
-       action: "Conduct follow-up contact to confirm satisfaction and resolution"
-       tools: ["CRM follow-up scheduler", "Satisfaction survey system"]
-       duration: "3 minutes"
-       decision_points: ["Follow-up required based on case complexity", "Satisfaction survey completion"]
-       outputs: ["Customer feedback recorded", "Case closure confirmation", "Quality improvement data"]
-  success_criteria: "Customer inquiry resolved within SLA (90% within 24 hours)"
-  failure_modes: ["System downtime", "Incomplete information", "Policy misinterpretation"]
+    seasonal_variations:
+    - Q4 peak during tax season
+    - Q1 post-holiday account questions
+    historical_evolution: Initially manual process, automated with CRM in 2022, added AI chat support in 2024
+  steps:
+  - step: 1
+    actor: Customer Service Representative
+    action: Receive and categorize customer inquiry via phone/email/chat
+    tools:
+    - CRM system
+    - Knowledge base
+    duration: '2 minutes'
+    decision_points:
+    - Channel priority (phone > chat > email)
+    - Inquiry complexity assessment
+    - Customer authentication required
+    outputs:
+    - Inquiry ticket
+    - Initial response
+    - Priority level assigned
+  - step: 2
+    actor: Customer Service Representative
+    action: Research and provide resolution or escalate if needed
+    tools:
+    - Account database
+    - Policy documents
+    - Internal escalation matrix
+    duration: '10 minutes'
+    decision_points:
+    - Resolution confidence level
+    - Escalation triggers met
+    - Additional information needed
+    outputs:
+    - Resolution provided
+    - Escalation ticket if needed
+    - Follow-up scheduled if required
+  - step: 3
+    actor: Supervisor
+    action: Review escalated cases and provide guidance
+    decision_points:
+    - Complexity level
+    - Policy interpretation needed
+    - Customer satisfaction risk
+    - Process improvement opportunity
+    duration: '5 minutes'
+    tools:
+    - Escalation dashboard
+    - Policy reference system
+    outputs:
+    - Resolution approval
+    - Process improvement notes
+    - Customer follow-up instructions
+  - step: 4
+    actor: Customer Service Representative
+    action: Conduct follow-up contact to confirm satisfaction and resolution
+    tools:
+    - CRM follow-up scheduler
+    - Satisfaction survey system
+    duration: '3 minutes'
+    decision_points:
+    - Follow-up required based on case complexity
+    - Satisfaction survey completion
+    outputs:
+    - Customer feedback recorded
+    - Case closure confirmation
+    - Quality improvement data
+  success_criteria: Customer inquiry resolved within SLA (90% within 24 hours)
+  failure_modes:
+  - System downtime
+  - Incomplete information
+  - Policy misinterpretation
   metrics:
-    - "Resolution time: < 30 minutes average"
-    - "Customer satisfaction: > 4.5/5"
-    - "First contact resolution: > 85%"
+  - 'Resolution time: < 30 minutes average'
+  - 'Customer satisfaction: > 4.5/5'
+  - 'First contact resolution: > 85%'
   performance_history:
-    success_rate_trend: "92% (2023) → 94% (2024) → 95% (2025)"
-    cost_trend: "$2.50 (2023) → $2.20 (2024) → $2.00 (2025)"
-    efficiency_improvements: ["AI chat implementation reduced average time by 40%", "Knowledge base expansion improved FCR by 10%"]
+    success_rate_trend: 92% (2023) → 94% (2024) → 95% (2025)
+    cost_trend: $2.50 (2023) → $2.20 (2024) → $2.00 (2025)
+    efficiency_improvements:
+    - AI chat implementation reduced average time by 40%
+    - Knowledge base expansion improved FCR by 10%

@@ -1,50 +1,65 @@
 workflow:
-workflow:
-  id: "workflow_advanced_robotics_simple_human_robot_safety"
-  title: "Human-Robot Safety Protocol Workflow"
-  department: "Advanced Robotics Operations"
-  complexity: "simple"
+  id: workflow_advanced_robotics_simple_human_robot_safety
+  title: Human-Robot Safety Protocol Workflow
+  department: Advanced Robotics Operations
+  complexity: simple
   participants:
-  - "Safety Officer"
-  - "Robot Operator"
-  - "Maintenance Technician"
-  trigger: "Daily robot system startup or maintenance activity"
+  - Safety Officer
+  - Robot Operator
+  - Maintenance Technician
+  trigger: Daily robot system startup or maintenance activity
   temporal_data:
-    first_implemented: "2023-06-15"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "15 minutes"
+    first_implemented: '2023-06-15'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 15 minutes
     average_annual_executions: 365
     seasonal_variations:
-    - "Q4 peak maintenance"
-    - "Q1 system checks"
-    historical_evolution: "Evolved from manual checklists to automated safety verification systems"
+    - Q4 peak maintenance
+    - Q1 system checks
+    historical_evolution: Evolved from manual checklists to automated safety verification
+      systems
   steps:
-    - step: 1
-      actor: "Robot Operator"
-      action: "Perform visual inspection of safety sensors and barriers"
-      tools: ["Safety checklist app", "Visual inspection tools"]
-      duration: "5 minutes"
-      outputs: ["Inspection report"]
-    - step: 2
-      actor: "Safety Officer"
-      action: "Verify emergency stop functionality and safety protocols"
-      tools: ["Safety monitoring system"]
-      duration: "5 minutes"
-      outputs: ["Safety verification log"]
-      decision_points: ["Emergency stop test results", "Protocol verification status"]
-    - step: 3
-      actor: "Maintenance Technician"
-      action: "Clear workspace and confirm safe operating conditions"
-      tools: ["Workspace clearance tools"]
-      duration: "5 minutes"
-      outputs: ["Clearance confirmation"]
-      decision_points: ["Workspace clearance status", "Safe operating conditions confirmed"]
-  success_criteria: "All safety checks pass and system is operational"
-  failure_modes: ["Sensor malfunction", "Barrier breach detected"]
+  - step: 1
+    actor: Robot Operator
+    action: Perform visual inspection of safety sensors and barriers
+    tools:
+    - Safety checklist app
+    - Visual inspection tools
+    duration: 5 minutes
+    outputs:
+    - Inspection report
+  - step: 2
+    actor: Safety Officer
+    action: Verify emergency stop functionality and safety protocols
+    tools:
+    - Safety monitoring system
+    duration: 5 minutes
+    outputs:
+    - Safety verification log
+    decision_points:
+    - Emergency stop test results
+    - Protocol verification status
+  - step: 3
+    actor: Maintenance Technician
+    action: Clear workspace and confirm safe operating conditions
+    tools:
+    - Workspace clearance tools
+    duration: 5 minutes
+    outputs:
+    - Clearance confirmation
+    decision_points:
+    - Workspace clearance status
+    - Safe operating conditions confirmed
+  success_criteria: All safety checks pass and system is operational
+  failure_modes:
+  - Sensor malfunction
+  - Barrier breach detected
   metrics:
-   - "Safety compliance rate: 99.5%"
-   - "Average inspection time: 15 minutes"
+  - 'Safety compliance rate: 99.5%'
+  - 'Average inspection time: 15 minutes'
   performance_history:
-   success_rate_trend: "98% (2023) → 99% (2024) → 99.5% (2025)"
-   cost_trend: "$50K (2023) → $45K (2024) → $40K (2025)"
-   efficiency_improvements: ["Digital checklist reduced time by 20%", "Automated sensors improved accuracy by 15%"]
+    success_rate_trend: 98% (2023) → 99% (2024) → 99.5% (2025)
+    cost_trend: $50K (2023) → $45K (2024) → $40K (2025)
+    efficiency_improvements:
+    - Digital checklist reduced time by 20%
+    - Automated sensors improved accuracy by 15%

@@ -44,12 +44,12 @@ workflow:
       outputs: ["Claim denied/adjusted", "Recovery actions initiated"]
   success_criteria: "Fraud investigation completed within regulatory timelines with documented evidence and appropriate claim resolution"
   failure_modes: ["Insufficient evidence", "Legal admissibility issues", "Timeline delays", "Policyholder disputes", "External investigation complications"]
-   metrics:
-     - "Investigation completion rate: 95%"
-     - "Average investigation time: 21 days"
-     - "Fraud detection accuracy: 92%"
-     - "Recovery rate: 75% of fraud amount"
-     - "False positive rate: <5%"
-     - "Legal success rate: 88%"
-     - "Cost per investigation: $15,000"
-     - "Stakeholder satisfaction: 4.2/5"
+  metrics:
+    - "Investigation completion rate: 95%"
+    - "Average investigation time: 21 days"
+    - "Fraud detection accuracy: 92%"
+    - "Recovery rate: 75% of fraud amount"
+    - "False positive rate: <5%"
+    - "Legal success rate: 88%"
+    - "Cost per investigation: $15,000"
+    - "Stakeholder satisfaction: 4.2/5"

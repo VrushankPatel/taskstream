@@ -8,25 +8,30 @@ workflow:
   steps:
     - step: 1
       actor: "Safety Officer"
-      action: "Conduct pre-shift safety briefing"
-      tools: ["Safety checklist form", "Communication system"]
+      action: "Conduct pre-shift safety briefing and hazard review"
+      decision_points: ["New hazards identified", "Additional training required"]
+      tools: ["Safety checklist form", "Communication system", "Hazard database"]
       duration: "15 minutes"
-      outputs: ["Safety briefing completed"]
+      outputs: ["Safety briefing completed", "Hazard awareness documented"]
     - step: 2
       actor: "Equipment Operators"
-      action: "Complete personal protective equipment check"
-      tools: ["PPE checklist"]
+      action: "Complete personal protective equipment check and fit verification"
+      decision_points: ["PPE deficiencies found", "Replacement required"]
+      tools: ["PPE checklist", "Fit testing equipment", "Replacement inventory"]
       duration: "5 minutes"
-      outputs: ["PPE verification"]
+      outputs: ["PPE verification", "Deficiency reports"]
     - step: 3
       actor: "Equipment Operators"
-      action: "Inspect equipment before operation"
-      tools: ["Equipment inspection checklist"]
+      action: "Inspect equipment before operation and report issues"
+      decision_points: ["Critical defects identified", "Equipment grounding required"]
+      tools: ["Equipment inspection checklist", "Diagnostic tools", "Maintenance request system"]
       duration: "10 minutes"
-      outputs: ["Equipment inspection report"]
+      outputs: ["Equipment inspection report", "Maintenance requests"]
   success_criteria: "All safety checks completed before operations begin"
   failure_modes: ["Missing PPE", "Equipment defects", "Incomplete checklists"]
   metrics:
     - "Safety checklist completion rate: 100%"
     - "Pre-shift delay due to safety: <5 minutes"
     - "Safety incident rate: <0.5 per 1000 hours"
+    - "PPE compliance rate: 98%"
+    - "Equipment defect detection rate: 95%"

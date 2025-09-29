@@ -8,19 +8,23 @@ workflow:
   steps:
     - step: 1
       actor: "Doorman"
-      action: "Open door and welcome guest"
-      tools: ["Door access"]
+      action: "Open door and welcome guest with personalized greeting"
+      decision_points: ["Guest requires immediate assistance", "VIP guest identification"]
+      tools: ["Door access", "Guest recognition system", "Weather-appropriate greetings"]
       duration: "30 seconds"
-      outputs: ["Initial welcome"]
+      outputs: ["Initial welcome", "Guest arrival logged"]
     - step: 2
       actor: "Front Desk Agent"
-      action: "Greet guest and offer assistance"
-      tools: ["Guest information system"]
+      action: "Greet guest and offer assistance with check-in or concierge services"
+      decision_points: ["Check-in required", "Concierge services requested"]
+      tools: ["Guest information system", "Reservation database", "Concierge booking system"]
       duration: "1 minute"
-      outputs: ["Guest acknowledged"]
+      outputs: ["Guest acknowledged", "Service request initiated"]
   success_criteria: "All entering guests greeted within 2 minutes"
   failure_modes: ["High traffic volume", "Staff unavailability"]
   metrics:
     - "Guest greeting rate: 95%"
     - "Average wait time: <2 minutes"
     - "Guest satisfaction with welcome: 4.4/5"
+    - "VIP recognition accuracy: 98%"
+    - "Service request fulfillment rate: 92%"

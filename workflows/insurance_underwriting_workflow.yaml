@@ -6,26 +6,26 @@ workflow:
   participants: ["Underwriter", "Underwriting Manager", "Risk Analyst", "Actuary", "Legal Counsel", "Applicant"]
   trigger: "Insurance application submitted"
   steps:
-     - step: 1
-       actor: "Underwriter"
-       action: "Initial application review and data collection"
-       decision_points: ["Application completeness check", "Coverage type eligibility", "Underwriting authority level"]
-       tools: ["Underwriting System", "Credit Reports", "Medical Records Access"]
-       duration: "2 hours"
-       outputs: ["Application Summary", "Initial Risk Assessment"]
+    - step: 1
+      actor: "Underwriter"
+      action: "Initial application review and data collection"
+      decision_points: ["Application completeness check", "Coverage type eligibility", "Underwriting authority level"]
+      tools: ["Underwriting System", "Credit Reports", "Medical Records Access"]
+      duration: "2 hours"
+      outputs: ["Application Summary", "Initial Risk Assessment"]
     - step: 2
       actor: "Risk Analyst"
       action: "Detailed risk analysis and scoring"
       decision_points: ["Risk level classification", "Additional information required"]
       duration: "4 hours"
       outputs: ["Risk Score Report", "Underwriting Guidelines Check"]
-     - step: 3
-       actor: "Actuary"
-       action: "Pricing and premium calculation"
-       decision_points: ["Reinsurance needs assessment", "Competitive pricing analysis", "Regulatory compliance check"]
-       tools: ["Actuarial Models", "Historical Claims Data"]
-       duration: "3 hours"
-       outputs: ["Premium Calculation", "Profitability Analysis"]
+    - step: 3
+      actor: "Actuary"
+      action: "Pricing and premium calculation"
+      decision_points: ["Reinsurance needs assessment", "Competitive pricing analysis", "Regulatory compliance check"]
+      tools: ["Actuarial Models", "Historical Claims Data"]
+      duration: "3 hours"
+      outputs: ["Premium Calculation", "Profitability Analysis"]
     - step: 4
       actor: "Underwriting Manager"
       action: "Review and approval decision"

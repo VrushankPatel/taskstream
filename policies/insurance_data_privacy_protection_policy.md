@@ -1,10 +1,36 @@
 # Insurance Data Privacy Protection Policy
 
 ## Purpose
-This policy establishes guidelines for protecting customer data privacy and ensuring compliance with data protection regulations in all insurance operations.
+This policy establishes guidelines for protecting customer data privacy and ensuring compliance with data protection regulations including GDPR, CCPA, and state insurance privacy laws in all insurance operations.
 
 ## Scope
-Applies to all employees, contractors, and third parties handling customer data across underwriting, claims, and customer service functions.
+Applies to all employees, contractors, and third parties handling customer data across underwriting, claims, customer service, marketing, and IT functions. Covers all data processing activities within the organization and with external partners.
+
+## Responsibilities
+
+### Chief Privacy Officer
+- Oversee policy implementation and compliance
+- Conduct annual risk assessments
+- Report to board on privacy matters
+- Coordinate with regulatory bodies
+
+### Department Heads
+- Ensure team compliance with privacy requirements
+- Implement department-specific privacy controls
+- Report privacy incidents within 24 hours
+- Participate in privacy training programs
+
+### Data Handlers
+- Follow data handling procedures
+- Report suspected privacy breaches
+- Complete required privacy training
+- Maintain data security standards
+
+### IT Security Team
+- Implement technical privacy controls
+- Monitor data access and usage
+- Respond to privacy incidents
+- Maintain security infrastructure
 
 ## Key Principles
 
@@ -60,5 +86,12 @@ Applies to all employees, contractors, and third parties handling customer data 
 ## Enforcement
 Violations of this policy may result in disciplinary action up to and including termination. Serious breaches may also result in legal action.
 
+## Performance Metrics
+- Privacy compliance audit score: >95%
+- Data breach response time: <24 hours
+- Employee privacy training completion: 100%
+- Customer privacy complaint resolution: <7 days
+- Third-party vendor privacy assessments: 100%
+
 ## Review and Updates
-This policy is reviewed annually or when significant regulatory changes occur.
+This policy is reviewed annually or when significant regulatory changes occur. Updates are approved by the Chief Privacy Officer and legal counsel.

@@ -1,5 +1,25 @@
 # TaskStream STRATEGIC PRIORITIES - Post-Generation Session 79 (2025-09-29)
 
+## Quality Control Findings - Session 78 (2025-09-30)
+
+**YAML Format Errors Requiring Fix:**
+- workflows/finance_medium_credit_risk_assessment_workflow.yaml: YAML parsing error due to block mapping issues
+- workflows/finance_simple_customer_onboarding_workflow.yaml: YAML parsing error due to block mapping issues
+- workflows/insurance_claims_auto_processing_workflow.yaml: YAML parsing error due to block mapping issues
+- workflows/utilities_simple_grid_maintenance_workflow.yaml: YAML parsing error due to block mapping issues
+
+**Cross-Category Completeness Gaps:**
+- Numerous workflows missing corresponding policy documents (e.g., advanced_robotics, aerospace, agriculture workflows)
+- Numerous workflows missing metrics dashboards
+- Many decisions missing communication examples (email threads, meeting notes)
+- Some org structures orphaned without corresponding workflows
+
+**Priority Actions:**
+- Fix YAML parsing errors in 4 workflow files for 100% format compliance
+- Add missing policies and metrics for recent finance/insurance/utilities additions
+- Create communication examples for decisions without documentation
+- Review and integrate or archive orphaned org structures
+
 ## COMPLETED IN SESSION 80
 - ✅ Finance commercial lending workflow (medium complexity)
 - ✅ Insurance life underwriting workflow (medium complexity)

@@ -12,21 +12,21 @@ workflow:
     average_annual_executions: 15000
     seasonal_variations: ["Winter peak for weather-related claims", "Summer increase in collision claims"]
     historical_evolution: "AI-powered fraud detection added in 2023, reducing fraudulent claims by 35%"
-  steps:
-     - step: 1
-       actor: "Claims Adjuster"
-       action: "Review claim submission and initial documentation"
-       tools: ["Claims management system", "Policy database"]
-       duration: "2 hours"
-       outputs: ["Initial claim assessment", "Required documentation list"]
-       decision_points: ["Coverage verification", "Claim validity"]
-     - step: 2
-       actor: "Field Inspector"
-       action: "Conduct vehicle inspection and damage assessment"
-       tools: ["Mobile inspection app", "Photo documentation system"]
-       duration: "4 hours"
-       outputs: ["Damage assessment report", "Repair cost estimate"]
-       decision_points: ["Total loss determination", "Repair feasibility"]
+   steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim submission and initial documentation"
+      tools: ["Claims management system", "Policy database"]
+      duration: "2 hours"
+      outputs: ["Initial claim assessment", "Required documentation list"]
+      decision_points: ["Coverage verification", "Claim validity"]
+    - step: 2
+      actor: "Field Inspector"
+      action: "Conduct vehicle inspection and damage assessment"
+      tools: ["Mobile inspection app", "Photo documentation system"]
+      duration: "4 hours"
+      outputs: ["Damage assessment report", "Repair cost estimate"]
+      decision_points: ["Total loss determination", "Repair feasibility"]
     - step: 3
       actor: "Fraud Investigator"
       action: "Perform fraud detection analysis"
@@ -39,9 +39,9 @@ workflow:
       tools: ["Claims approval system"]
       duration: "1 hour"
       outputs: ["Payment authorization", "Claim closure notification"]
-  success_criteria: "Claim processed within 7 days with accurate damage assessment and fraud prevention"
-  failure_modes: ["Insufficient documentation", "Disputed damage assessment", "Fraud detection flags"]
-   metrics:
+   success_criteria: "Claim processed within 7 days with accurate damage assessment and fraud prevention"
+   failure_modes: ["Insufficient documentation", "Disputed damage assessment", "Fraud detection flags"]
+  metrics:
      - "Processing time: 5.2 days average"
      - "Fraud detection accuracy: 94%"
      - "Customer satisfaction: 4.1/5"

@@ -12,30 +12,30 @@ workflow:
     average_annual_executions: 25000
     seasonal_variations: ["Q4 peak during holiday season", "Q1 slowdown post-holidays"]
     historical_evolution: "Process digitized in 2022, reducing cycle time by 40% and improving compliance accuracy to 99.5%"
-  steps:
-     - step: 1
-       actor: "Customer Service Representative"
-       action: "Collect customer identification documents and basic information"
-       tools: ["Customer onboarding portal", "Document scanner"]
-       duration: "15 minutes"
-       outputs: ["Scanned ID documents", "Customer profile draft"]
-       decision_points: ["Document completeness", "Account type selection"]
-     - step: 2
-       actor: "Compliance Officer"
-       action: "Verify identity and perform KYC checks"
-       tools: ["AML database", "Credit bureau systems"]
-       duration: "30 minutes"
-       outputs: ["KYC compliance report", "Risk assessment"]
-       decision_points: ["KYC approval", "Risk level classification"]
+   steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Collect customer identification documents and basic information"
+      tools: ["Customer onboarding portal", "Document scanner"]
+      duration: "15 minutes"
+      outputs: ["Scanned ID documents", "Customer profile draft"]
+      decision_points: ["Document completeness", "Account type selection"]
+    - step: 2
+      actor: "Compliance Officer"
+      action: "Verify identity and perform KYC checks"
+      tools: ["AML database", "Credit bureau systems"]
+      duration: "30 minutes"
+      outputs: ["KYC compliance report", "Risk assessment"]
+      decision_points: ["KYC approval", "Risk level classification"]
     - step: 3
       actor: "Branch Manager"
       action: "Review and approve account opening"
       tools: ["Account management system"]
       duration: "10 minutes"
       outputs: ["Approved account setup", "Welcome package"]
-  success_criteria: "Account opened within 3 business days with 99% compliance accuracy"
-  failure_modes: ["Incomplete documentation", "Failed KYC verification", "System downtime"]
-   metrics:
+   success_criteria: "Account opened within 3 business days with 99% compliance accuracy"
+   failure_modes: ["Incomplete documentation", "Failed KYC verification", "System downtime"]
+  metrics:
      - "On-time completion rate: 95% (target 98%)"
      - "Compliance accuracy: 99.5% (target 99.8%)"
      - "Customer satisfaction: 4.2/5 (target 4.5/5)"

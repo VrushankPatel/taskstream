@@ -1,5 +1,5 @@
 workflow:
-  id: "workflow_hospitality_asia_feedback"
+  id: "workflow_hospitality_asia_guest_feedback"
   title: "Asia Hospitality Guest Feedback Collection Process"
   department: "Guest Experience"
   complexity: "medium"

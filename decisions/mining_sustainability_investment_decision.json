@@ -1,62 +1,62 @@
 {
-  "scenario_id": "mining_sustainability_investment_2025",
-  "decision_date": "2025-08-20",
-  "context": "Mining company facing new environmental regulations requiring $45M investment in sustainable mining technologies and environmental remediation",
+  "scenario_id": "mining_sustainability_investment_2024",
+  "decision_date": "2024-08-20",
+  "context": "Global mining corporation evaluating $300M investment in sustainable mining technologies to reduce environmental impact and meet new EU regulatory requirements",
   "stakeholders": {
-    "requester": "Environmental Compliance Manager",
-    "approvers": ["CEO", "COO", "Board Environmental Committee"],
-    "influencers": ["Government Regulators", "Local Communities", "Environmental NGOs", "Operations Teams"]
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
+    "influencers": ["Head of Operations", "Environmental Compliance Director", "Investor Relations"]
   },
   "request": {
-    "amount": "$45,000,000",
-    "purpose": "Sustainable mining technology implementation and environmental remediation systems",
-    "urgency": "high",
-    "justification": "Compliance with new environmental regulations, community relations improvement, operational efficiency gains"
+    "amount": "$300,000,000",
+    "purpose": "Implementation of water recycling systems, renewable energy for operations, and advanced tailings management technology",
+    "urgency": "medium",
+    "justification": "Compliance with new EU mining regulations, reduction of water usage by 40%, and improved ESG ratings for investor appeal"
   },
   "decision_process": [
     {
-      "stage": "regulatory_assessment",
-      "start_date": "2025-05-01",
-      "end_date": "2025-06-15",
-      "duration": "6 weeks",
-      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Penalty risk evaluation"],
-      "outcome": "Critical compliance gaps identified requiring immediate action"
+      "stage": "technical_evaluation",
+      "start_date": "2024-05-01",
+      "end_date": "2024-06-15",
+      "duration": "45 days",
+      "activities": ["Technology vendor assessments", "Site feasibility studies", "Integration planning", "Cost-benefit analysis"],
+      "outcome": "Three technology packages identified with proven track records"
     },
     {
-      "stage": "technology_evaluation",
-      "start_date": "2025-06-16",
-      "end_date": "2025-07-31",
-      "duration": "6 weeks",
-      "activities": ["Technology vendor assessment", "Pilot program design", "Cost-benefit analysis"],
-      "outcome": "Selected comprehensive sustainability package with proven ROI"
+      "stage": "regulatory_review",
+      "start_date": "2024-06-16",
+      "end_date": "2024-07-30",
+      "duration": "45 days",
+      "activities": ["EU regulatory compliance assessment", "Permit applications", "Environmental impact studies", "Community consultation"],
+      "outcome": "All technologies compliant with upcoming regulations"
     },
     {
-      "stage": "stakeholder_engagement",
-      "start_date": "2025-08-01",
-      "end_date": "2025-08-15",
-      "duration": "2 weeks",
-      "activities": ["Community consultation meetings", "NGO discussions", "Employee impact assessment"],
-      "outcome": "Strong stakeholder support secured"
+      "stage": "financial_approval",
+      "start_date": "2024-07-31",
+      "end_date": "2024-08-20",
+      "duration": "20 days",
+      "activities": ["Final ROI calculations", "Funding allocation", "Board presentation", "Shareholder communication"],
+      "outcome": "Approved with phased implementation plan"
     }
   ],
   "business_impact": {
-    "expected_outcome": "50% reduction in environmental impact, compliance with new regulations, improved community relations",
-    "projected_value": "$12,000,000 annual cost savings through efficiency improvements",
-    "actual_value": "TBD (implementation starting)",
-    "roi_timeline": "Payback in 4 years",
-    "risk_factors": ["Technology implementation delays", "Higher-than-expected costs", "Regulatory changes", "Community opposition"]
+    "expected_outcome": "40% reduction in water usage, 30% decrease in carbon emissions, improved ESG ratings from BB to AA",
+    "projected_value": "$200M in cost savings and new revenue from sustainable mining certifications",
+    "actual_value": "$0 (implementation ongoing)",
+    "roi_timeline": "Expected payback in 6 years",
+    "risk_factors": ["Technology integration challenges", "Regulatory changes", "Higher implementation costs", "Operational disruptions"]
   },
-  "decision_criteria": ["Regulatory compliance", "Financial viability", "Environmental impact", "Community support", "Operational feasibility"],
+  "decision_criteria": ["Regulatory compliance", "Financial viability (ROI >12%)", "Technical feasibility", "Environmental impact reduction", "Stakeholder acceptance"],
   "outcome": "Approved",
   "implementation_timeline": {
-    "start_date": "2025-09-01",
+    "start_date": "2024-09-01",
     "completion_date": "2027-08-31",
-    "milestones": ["Technology deployment: 2026-02-28", "Remediation completion: 2026-12-31", "Full compliance: 2027-08-31"]
+    "milestones": ["Water recycling systems: 2025-02-28", "Renewable energy installation: 2025-08-31", "Tailings management upgrade: 2026-12-31", "Full certification: 2027-08-31"]
   },
   "outcome_tracking": {
-    "6_month_review": "Initial implementation progress and compliance status",
-    "12_month_review": "Environmental impact reduction and cost savings achieved",
-    "actual_roi": "TBD (monitoring ongoing)"
+    "6_month_review": "Water systems operational, 25% water reduction achieved, regulatory approvals secured",
+    "12_month_review": "All Phase 1 systems online, 35% emissions reduction, cost within 8% of budget",
+    "actual_roi": "15.3% (vs projected 14%)"
   },
-  "lessons_learned": "Proactive regulatory engagement prevented penalties, technology pilots reduced implementation risk, community involvement improved project acceptance"
+  "lessons_learned": "Early regulatory engagement reduced approval timelines, modular implementation minimized operational disruptions, comprehensive training improved technology adoption rates"
 }

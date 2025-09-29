@@ -1,62 +1,62 @@
 {
-  "scenario_id": "agriculture_climate_resilient_farming_2025",
-  "decision_date": "2025-07-10",
-  "context": "Agricultural cooperative investing $8M in climate-resilient farming technologies to adapt to changing weather patterns across 75,000 acres",
+  "scenario_id": "agriculture_climate_resilient_farming_2024",
+  "decision_date": "2024-07-10",
+  "context": "EU agricultural cooperative evaluating $12M investment in climate-resilient farming technologies to adapt to changing weather patterns and meet new EU Green Deal requirements",
   "stakeholders": {
-    "requester": "Agricultural Innovation Director",
-    "approvers": ["CEO", "Board of Directors", "Finance Committee"],
-    "influencers": ["Member Farmers", "Climate Scientists", "Government Agriculture Department", "Insurance Providers"]
+    "requester": "Chief Agricultural Officer",
+    "approvers": ["CEO", "Board of Directors", "EU Funding Committee"],
+    "influencers": ["Member Farmers", "Climate Scientists", "EU Agriculture Ministry", "Environmental NGOs"]
   },
   "request": {
-    "amount": "$8,000,000",
-    "purpose": "Climate-resilient farming technology implementation including drought-resistant crops, precision irrigation, and weather monitoring systems",
-    "urgency": "medium",
-    "justification": "Adapt to climate change impacts, reduce crop losses, improve member farmer profitability, meet sustainability goals"
+    "amount": "$12,000,000",
+    "purpose": "Implementation of drought-resistant crop varieties, precision irrigation systems, weather monitoring networks, and soil health management technology",
+    "urgency": "high",
+    "justification": "Compliance with EU Green Deal targets, access to €4M in EU subsidies, reduction of climate-related yield losses by 35%"
   },
   "decision_process": [
     {
-      "stage": "climate_impact_analysis",
-      "start_date": "2025-04-01",
-      "end_date": "2025-05-15",
-      "duration": "6 weeks",
-      "activities": ["Climate data analysis", "Crop yield modeling", "Risk assessment", "Farmer surveys"],
-      "outcome": "Significant climate vulnerability identified requiring adaptation measures"
+      "stage": "climate_risk_assessment",
+      "start_date": "2024-03-01",
+      "end_date": "2024-04-15",
+      "duration": "45 days",
+      "activities": ["Historical climate data analysis", "Yield impact modeling", "EU regulatory requirement review", "Farmer impact surveys"],
+      "outcome": "Identified 35% yield vulnerability to climate change requiring immediate adaptation"
     },
     {
-      "stage": "technology_pilot",
-      "start_date": "2025-05-16",
-      "end_date": "2025-06-30",
-      "duration": "6 weeks",
-      "activities": ["Pilot farm selection", "Technology deployment", "Performance monitoring", "Farmer training"],
-      "outcome": "Pilot successful with 25% yield improvement in test areas"
+      "stage": "technology_evaluation",
+      "start_date": "2024-04-16",
+      "end_date": "2024-06-01",
+      "duration": "45 days",
+      "activities": ["Technology vendor assessments", "EU subsidy application", "Pilot program design", "Cost-benefit analysis with subsidy inclusion"],
+      "outcome": "Selected integrated technology package with 40% EU funding secured"
     },
     {
-      "stage": "scaling_assessment",
-      "start_date": "2025-07-01",
-      "end_date": "2025-07-10",
-      "duration": "1 week",
-      "activities": ["Scaling cost analysis", "ROI projections", "Implementation planning"],
-      "outcome": "Economically viable with strong farmer support"
+      "stage": "stakeholder_approval",
+      "start_date": "2024-06-02",
+      "end_date": "2024-07-10",
+      "duration": "38 days",
+      "activities": ["Board presentations", "Farmer representative meetings", "EU funding committee review", "Final ROI validation"],
+      "outcome": "Approved with full EU subsidy utilization and farmer training commitments"
     }
   ],
   "business_impact": {
-    "expected_outcome": "30% reduction in climate-related crop losses, improved farmer resilience, enhanced cooperative reputation",
-    "projected_value": "$25,000,000 in prevented losses over 10 years",
-    "actual_value": "TBD (implementation ongoing)",
-    "roi_timeline": "Payback in 3 years",
-    "risk_factors": ["Technology adoption challenges", "Weather variability", "Implementation costs", "Farmer training requirements"]
+    "expected_outcome": "35% reduction in climate-related yield losses, compliance with EU Green Deal, improved farmer profitability through subsidy access",
+    "projected_value": "$8M in additional EU subsidies and $15M in prevented crop losses over 5 years",
+    "actual_value": "$0 (implementation starting Q4 2024)",
+    "roi_timeline": "Expected payback in 4 years including subsidies",
+    "risk_factors": ["Technology adoption resistance", "Weather variability beyond predictions", "EU regulatory changes", "Implementation delays"]
   },
-  "decision_criteria": ["Climate adaptation effectiveness", "Financial viability", "Farmer adoption rate", "Technical feasibility", "Environmental benefits"],
+  "decision_criteria": ["EU regulatory compliance", "Financial viability with subsidies", "Climate adaptation effectiveness", "Farmer adoption feasibility", "Environmental sustainability impact"],
   "outcome": "Approved",
   "implementation_timeline": {
-    "start_date": "2025-08-01",
-    "completion_date": "2027-07-31",
-    "milestones": ["Pilot expansion: 2025-12-31", "50% farm coverage: 2026-12-31", "Full implementation: 2027-07-31"]
+    "start_date": "2024-08-01",
+    "completion_date": "2026-07-31",
+    "milestones": ["Pilot farms operational: 2024-12-31", "50% member farms equipped: 2025-06-30", "Full implementation and training: 2026-07-31"]
   },
   "outcome_tracking": {
-    "6_month_review": "Initial adoption rates and yield improvements",
-    "12_month_review": "Climate resilience metrics and farmer satisfaction",
-    "actual_roi": "TBD (tracking ongoing)"
+    "6_month_review": "Pilot results showing 28% yield improvement, farmer training completion at 60%",
+    "12_month_review": "50% farms converted, 32% average yield increase, subsidy payments received",
+    "actual_roi": "18.5% (vs projected 15%)"
   },
-  "lessons_learned": "Farmer involvement in technology selection improved adoption rates, pilot programs validated effectiveness, phased implementation reduced financial risk"
+  "lessons_learned": "EU subsidy integration significantly improved financial viability, farmer co-design of technology packages increased adoption rates, early pilot validation reduced scaling risks"
 }

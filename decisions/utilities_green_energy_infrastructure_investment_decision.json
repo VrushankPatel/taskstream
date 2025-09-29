@@ -1,0 +1,62 @@
+{
+  "scenario_id": "utilities_green_energy_infrastructure_investment_2024",
+  "decision_date": "2024-06-15",
+  "context": "Major Asian utilities company evaluating $500M investment in green energy infrastructure to meet 2030 carbon neutrality targets and capitalize on government subsidies",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Head of Engineering", "Government Relations Director", "Financial Analysts"]
+  },
+  "request": {
+    "amount": "$500,000,000",
+    "purpose": "Construction of solar and wind farms, battery storage systems, and grid modernization for renewable energy integration",
+    "urgency": "high",
+    "justification": "Required to meet regulatory carbon targets, access $150M in government subsidies, and position for 25% revenue growth from green energy by 2030"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_analysis",
+      "start_date": "2024-03-01",
+      "end_date": "2024-04-15",
+      "duration": "45 days",
+      "activities": ["Technical feasibility studies", "Environmental impact assessments", "Financial modeling", "Regulatory compliance review"],
+      "outcome": "Feasibility confirmed with projected IRR of 12.5%"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "start_date": "2024-04-16",
+      "end_date": "2024-05-30",
+      "duration": "45 days",
+      "activities": ["Board presentations", "Shareholder meetings", "Community consultations", "Government negotiations"],
+      "outcome": "Strong stakeholder support with secured subsidy commitments"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2024-05-31",
+      "end_date": "2024-06-15",
+      "duration": "15 days",
+      "activities": ["Board vote", "Contract finalization", "Funding arrangements"],
+      "outcome": "Approved with conditions for quarterly progress reporting"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Achieve 40% renewable energy portfolio by 2030, reduce carbon emissions by 2.5M tons annually",
+    "projected_value": "$750M in additional revenue from green energy sales and subsidies",
+    "actual_value": "$0 (projected completion 2028)",
+    "roi_timeline": "Expected payback in 8 years with 15% IRR",
+    "risk_factors": ["Technology obsolescence", "Policy changes", "Construction delays", "Higher-than-expected costs"]
+  },
+  "decision_criteria": ["Financial viability (IRR >10%)", "Regulatory compliance", "Technical feasibility", "Stakeholder support", "Risk mitigation plan"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-07-01",
+    "completion_date": "2028-12-31",
+    "milestones": ["Phase 1 solar farm completion: 2025-12-31", "Wind farm operational: 2026-06-30", "Battery storage online: 2027-03-31", "Full system integration: 2028-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Construction on schedule, subsidy payments received, initial revenue streams established",
+    "12_month_review": "Phase 1 operational, meeting production targets, cost within 5% of budget",
+    "actual_roi": "14.2% (vs projected 12.5%)"
+  },
+  "lessons_learned": "Early stakeholder engagement critical for subsidy access, modular construction approach reduced timeline risks, integrated monitoring systems improved operational efficiency"
+}

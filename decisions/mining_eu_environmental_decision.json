@@ -3,19 +3,8 @@
   "context": "European mining company facing €500M investment decision for environmental restoration of closed mines to comply with EU Green Deal requirements",
   "stakeholders": {
     "requester": "Environmental Director",
-    "approvers": [
-      "CEO",
-      "Board of Directors",
-      "EU Environmental Agency"
-    ],
-    "influencers": [
-      "Chief Financial Officer",
-      "Operations Director",
-      "Local Governments",
-      "Environmental NGOs",
-      "Local Communities",
-      "Shareholders"
-    ]
+    "approvers": ["CEO", "Board of Directors", "EU Environmental Agency"],
+    "influencers": ["Chief Financial Officer", "Operations Director", "Local Governments", "Environmental NGOs", "Local Communities", "Shareholders"]
   },
   "request": {
     "amount": "€500,000,000",
@@ -27,71 +16,34 @@
     {
       "stage": "environmental_assessment",
       "duration": "4 months",
-      "activities": [
-        "Site contamination surveys",
-        "Water quality testing",
-        "Biodiversity impact studies",
-        "Restoration feasibility analysis",
-        "Cost estimation"
-      ],
+      "activities": ["Site contamination surveys", "Water quality testing", "Biodiversity impact studies", "Restoration feasibility analysis", "Cost estimation"],
       "outcome": "Identified critical contamination at 12 sites requiring immediate remediation, estimated restoration timeline of 8 years"
     },
     {
       "stage": "regulatory_compliance_review",
       "duration": "2 months",
-      "activities": [
-        "EU regulation analysis",
-        "Permit applications",
-        "Compliance strategy development",
-        "Legal consultation",
-        "Penalty risk assessment"
-      ],
+      "activities": ["EU regulation analysis", "Permit applications", "Compliance strategy development", "Legal consultation", "Penalty risk assessment"],
       "outcome": "Mapped compliance requirements, identified €50M in potential fines if remediation delayed"
     },
     {
       "stage": "stakeholder_consultation",
       "duration": "3 months",
-      "activities": [
-        "Community engagement programs",
-        "NGO partnerships",
-        "Government negotiations",
-        "Shareholder communications",
-        "Media relations"
-      ],
+      "activities": ["Community engagement programs", "NGO partnerships", "Government negotiations", "Shareholder communications", "Media relations"],
       "outcome": "Secured community support agreements, established partnerships with 5 environmental NGOs"
     },
     {
       "stage": "financial_structuring",
       "duration": "1 month",
-      "activities": [
-        "Funding strategy development",
-        "Grant applications",
-        "Insurance claims",
-        "Cost-benefit analysis",
-        "ROI projections"
-      ],
+      "activities": ["Funding strategy development", "Grant applications", "Insurance claims", "Cost-benefit analysis", "ROI projections"],
       "outcome": "Secured €200M in EU grants and €150M in insurance recoveries, projected 8% internal rate of return"
     }
   ],
   "business_impact": {
     "expected_outcome": "Full regulatory compliance, elimination of environmental liabilities, improved community relations, enhanced reputation for sustainable mining",
     "projected_value": "€800,000,000 in avoided fines and enhanced operational licenses over 15 years",
-    "risk_factors": [
-      "Technical remediation challenges",
-      "Cost overruns",
-      "Regulatory changes",
-      "Community opposition",
-      "Weather impacts on restoration"
-    ]
+    "risk_factors": ["Technical remediation challenges", "Cost overruns", "Regulatory changes", "Community opposition", "Weather impacts on restoration"]
   },
-  "decision_criteria": [
-    "Regulatory compliance",
-    "Financial sustainability",
-    "Environmental impact",
-    "Community acceptance",
-    "Technical feasibility",
-    "Reputation enhancement"
-  ],
+  "decision_criteria": ["Regulatory compliance", "Financial sustainability", "Environmental impact", "Community acceptance", "Technical feasibility", "Reputation enhancement"],
   "outcome": "Approved with conditional funding",
   "lessons_learned": "Comprehensive stakeholder engagement essential for environmental projects, early regulatory consultation prevents costly delays, integrated financial and environmental planning optimizes outcomes"
 }

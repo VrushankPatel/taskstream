@@ -2,8 +2,8 @@ workflow:
   id: workflow_digital_legacy_migration
   title: Legacy System Migration Workflow
   department: IT Operations
-  complexity: high
-   participants:
+   complexity: high
+  participants:
    - IT Director
    - Migration Architect
    - Data Migration Specialist

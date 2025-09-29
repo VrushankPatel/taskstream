@@ -1,21 +1,21 @@
 workflow:
   id: workflow_retail_customer_data_platform_integration
-  title: Customer Data Platform Integration
+   title: Customer Data Platform Integration
   department: Data & Analytics
   complexity: medium
-   participants:
+  participants:
    - Data Architect
    - IT Integration Team
-   - Privacy Officer
-   - Marketing Team
-   temporal_data:
+    - Privacy Officer
+    - Marketing Team
+  temporal_data:
      first_implemented: "2020-11-01"
      last_updated: "2024-05-10"
      typical_cycle_time: "4-8 months"
      average_annual_executions: 30
-     seasonal_variations: ["Integrations scheduled during off-peak shopping periods", "Privacy audits align with annual compliance cycles"]
-     historical_evolution: "Siloed data systems consolidated into unified customer platforms with real-time analytics"
-   trigger: Fragmented customer data across systems
+      seasonal_variations: ["Integrations scheduled during off-peak shopping periods", "Privacy audits align with annual compliance cycles"]
+      historical_evolution: "Siloed data systems consolidated into unified customer platforms with real-time analytics"
+  trigger: Fragmented customer data across systems
   steps:
   - step: 1
     actor: Data Architect
@@ -52,7 +52,7 @@ workflow:
     - Personalization engines
     duration: 2 weeks
     outputs:
-    - Unified customer experiences
+     - Unified customer experiences
   success_criteria: Single customer view across 80% of touchpoints
   failure_modes:
   - Data quality issues

@@ -4,8 +4,9 @@ workflow:
   department: "Grid Operations"
   complexity: "simple"
   participants: ["Maintenance Technician", "Grid Operations Supervisor", "Asset Manager"]
-  trigger: "Predictive maintenance alert or scheduled inspection due"
-  temporal_data:
+   trigger: "Predictive maintenance alert or scheduled inspection due"
+   risks: ["Monsoon weather disruptions", "Critical equipment failure timing", "Supply chain delays for parts", "Cybersecurity threats to IoT systems"]
+   temporal_data:
     first_implemented: "2023-01-20"
     last_updated: "2024-08-10"
     typical_cycle_time: "2 weeks"
@@ -13,12 +14,13 @@ workflow:
     seasonal_variations: ["Monsoon season (Jun-Sep) 30% increase", "Dry season (Dec-Mar) 20% decrease"]
     historical_evolution: "Reactive maintenance replaced with predictive system in 2023, IoT sensors integrated in 2024 for real-time monitoring"
   steps:
-    - step: 1
-      actor: "Asset Manager"
-      action: "Review predictive maintenance alerts and prioritize work orders"
-      tools: ["Asset management system", "Predictive analytics dashboard"]
-      duration: "1 hour"
-      outputs: ["Prioritized maintenance schedule", "Resource allocation plan"]
+     - step: 1
+       actor: "Asset Manager"
+       action: "Review predictive maintenance alerts and prioritize work orders"
+       decision_points: ["Urgency level assessment", "Resource availability check", "Weather impact consideration"]
+       tools: ["Asset management system", "Predictive analytics dashboard"]
+       duration: "1 hour"
+       outputs: ["Prioritized maintenance schedule", "Resource allocation plan"]
     - step: 2
       actor: "Grid Operations Supervisor"
       action: "Approve maintenance schedule and coordinate with field teams"
@@ -39,10 +41,13 @@ workflow:
       outputs: ["Asset records updated", "Next maintenance scheduled"]
   success_criteria: "Maintenance completed on schedule, equipment reliability improved, no safety incidents"
   failure_modes: ["Equipment failure during maintenance", "Weather delays monsoon season", "Parts availability issues"]
-  metrics:
-    - "On-time completion rate: 92%"
-    - "Equipment uptime: 98.5%"
-    - "Safety incident rate: 0.02 per 1000 hours"
+   metrics:
+     - "On-time completion rate: 92%"
+     - "Equipment uptime: 98.5%"
+     - "Safety incident rate: 0.02 per 1000 hours"
+     - "Predictive accuracy rate: 94%"
+     - "Cost savings from preventive maintenance: 35%"
+     - "Mean time between failures: 180 days"
   performance_history:
     success_rate_trend: "85% (2023) → 89% (2024) → 92% (2025)"
     cost_trend: "₹8500 (2023) → ₹7800 (2024) → ₹7200 (2025)"

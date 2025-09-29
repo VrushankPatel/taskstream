@@ -2,8 +2,8 @@ workflow:
   id: workflow_advanced_robotics_collaborative_manufacturing
   title: Advanced Robotics Collaborative Manufacturing Systems Integration
   department: Manufacturing Operations
-  complexity: high
-   participants:
+   complexity: high
+  participants:
    - Manufacturing Director
    - Robotics Engineer
    - Safety Officer

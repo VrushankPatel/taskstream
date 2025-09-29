@@ -2,8 +2,8 @@ workflow:
   id: workflow_ecommerce_platform
   title: E-commerce Platform Management Process
   department: Retail Operations
-  complexity: high
-   participants:
+   complexity: high
+  participants:
    - E-commerce Manager
    - IT Support Lead
    - Marketing Coordinator

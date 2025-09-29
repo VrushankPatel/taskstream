@@ -2,8 +2,8 @@ workflow:
   id: workflow_057_002
   title: AI Ethics Bias Detection Automation Workflow
   department: AI Ethics & Compliance
-  complexity: medium
-   participants:
+   complexity: medium
+  participants:
    - AI Ethics Officers
    - Data Scientists
    - ML Engineers

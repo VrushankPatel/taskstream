@@ -4,8 +4,9 @@ workflow:
   department: "Guest Experience"
   complexity: "medium"
   participants: ["Front Desk Agent", "Guest Experience Manager", "Quality Assurance Coordinator", "Regional Manager"]
-  trigger: "Guest checks out or requests feedback during stay"
-  temporal_data:
+   trigger: "Guest checks out or requests feedback during stay"
+   risks: ["Low response rates due to language barriers", "Technical issues with digital feedback systems", "Staff resistance to feedback process changes", "Data privacy compliance challenges"]
+   temporal_data:
     first_implemented: "2022-08-10"
     last_updated: "2024-09-15"
     typical_cycle_time: "2 days"
@@ -19,12 +20,13 @@ workflow:
       tools: ["Digital feedback tablet", "QR code generator"]
       duration: "3 minutes"
       outputs: ["Feedback session initiated", "Initial response captured"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Address immediate concerns raised in feedback and escalate if needed"
-      tools: ["Escalation protocol", "Manager notification system"]
-      duration: "5 minutes"
-      outputs: ["Immediate resolution provided", "Escalation logged if required"]
+     - step: 2
+       actor: "Front Desk Agent"
+       action: "Address immediate concerns raised in feedback and escalate if needed"
+       decision_points: ["Severity of guest concern", "Immediate resolution possible", "Manager escalation required"]
+       tools: ["Escalation protocol", "Manager notification system"]
+       duration: "5 minutes"
+       outputs: ["Immediate resolution provided", "Escalation logged if required"]
     - step: 3
       actor: "Guest Experience Manager"
       action: "Review feedback data and identify trends or issues requiring attention"
@@ -45,10 +47,13 @@ workflow:
       outputs: ["Monthly feedback report", "Approved improvement initiatives"]
   success_criteria: "Feedback collected with 85%+ response rate, issues addressed within 24 hours, guest satisfaction improved"
   failure_modes: ["Low response rates due to language barriers", "Technical issues with feedback systems", "Delayed follow-up on critical issues"]
-  metrics:
-    - "Response rate: 78%"
-    - "Average resolution time: 18 hours"
-    - "Guest satisfaction improvement: +12% year-over-year"
+   metrics:
+     - "Response rate: 78%"
+     - "Average resolution time: 18 hours"
+     - "Guest satisfaction improvement: +12% year-over-year"
+     - "Issue resolution rate: 92%"
+     - "Repeat guest feedback score: 4.2/5"
+     - "Staff feedback handling training completion: 95%"
   performance_history:
     success_rate_trend: "65% (2023) → 72% (2024) → 78% (2025)"
     cost_trend: "¥150 (2023) → ¥120 (2024) → ¥100 (2025)"

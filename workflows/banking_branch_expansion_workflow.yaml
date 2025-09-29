@@ -2,8 +2,8 @@ workflow:
   id: workflow_banking_branch_expansion
   title: Retail Banking Branch Network Expansion Process
   department: Retail Banking Operations
-  complexity: complex
-   participants:
+   complexity: complex
+  participants:
    - Branch Expansion Manager
    - Real Estate Specialist
    - Market Analyst

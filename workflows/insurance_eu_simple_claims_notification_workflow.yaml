@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_INS_EU_003"
+  title: "EU Insurance Claims First Notification"
+  department: "Claims Processing"
+  complexity: "simple"
+  participants: ["Claims Intake Specialist", "Data Processor", "GDPR Compliance Officer", "Claims Supervisor"]
+  trigger: "Policyholder reports claim via phone, web portal, or mobile app"
+  temporal_data:
+    first_implemented: "2018-05-25"
+    last_updated: "2024-10-15"
+    typical_cycle_time: "15-30 minutes"
+    average_annual_executions: 125800
+    seasonal_variations: ["Winter storm season +40% property claims", "Summer holiday +25% travel claims", "Q4 vehicle claims +15%"]
+    historical_evolution: "GDPR compliance integration in 2018 added data protection steps, digital-first approach in 2023 reduced call handling time by 30%"
+  steps:
+    - step: 1
+      actor: "Claims Intake Specialist"
+      action: "Receive and document initial claim information"
+      tools: ["Claims Management System", "Policy Database", "GDPR Consent Portal", "Multi-language Support"]
+      duration: "8-12 minutes"
+      outputs: ["Claim Number", "Initial Report", "GDPR Consent Record", "Language Preference Setting"]
+      decision_points: ["Policy verification", "Claim type classification", "Urgency assessment", "Language support required"]
+    - step: 2
+      actor: "Data Processor"
+      action: "Validate policy details and coverage scope"
+      tools: ["Policy Management System", "Coverage Calculator", "Regulatory Compliance Database"]
+      duration: "5-8 minutes"
+      outputs: ["Coverage Verification", "Deductible Calculation", "Regulatory Compliance Check"]
+      decision_points: ["Policy active status", "Coverage limits applicable", "Regulatory requirements by EU country"]
+    - step: 3
+      actor: "GDPR Compliance Officer"
+      action: "Ensure data protection compliance and consent"
+      tools: ["GDPR Management Platform", "Data Processing Registry", "Consent Management System"]
+      duration: "3-5 minutes"
+      outputs: ["GDPR Compliance Certificate", "Data Processing Authorization", "Retention Schedule"]
+      decision_points: ["Explicit consent obtained", "Data minimization applied", "Cross-border processing requirements"]
+    - step: 4
+      actor: "Claims Supervisor"
+      action: "Assign claim to appropriate adjuster and set expectations"
+      tools: ["Workload Management System", "Adjuster Database", "Communication Platform", "Timeline Calculator"]
+      duration: "2-5 minutes"
+      outputs: ["Assignment Notification", "Initial Timeline", "Contact Schedule", "Next Steps Communication"]
+      decision_points: ["Adjuster specialization match", "Workload balancing", "Complexity assessment", "Customer communication preference"]
+  success_criteria: "Claim registered within 30 minutes with full GDPR compliance and accurate initial assessment"
+  failure_modes: ["System unavailability", "GDPR consent issues", "Policy database access problems", "Language barrier delays", "Incomplete information provided"]
+  metrics:
+    - "Processing Time: Target <30 minutes (Current: 22 minutes)"
+    - "Data Accuracy: Target >98% (Current: 99.2%)"
+    - "GDPR Compliance: Target 100% (Current: 100%)"
+    - "Customer Satisfaction: Target >85% (Current: 89%)"
+    - "First Call Resolution: Target >75% (Current: 82%)"
+  performance_history:
+    success_rate_trend: "94% (2023) → 96% (2024) → 98% (2025 target)"
+    cost_trend: "€18.50 (2023) → €15.20 (2024) → €13.80 (2025 target)"
+    efficiency_improvements: ["Digital intake reduced processing time by 30%", "Multi-language AI support improved satisfaction by 18%", "Automated GDPR checks eliminated compliance errors"]

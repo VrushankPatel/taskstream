@@ -1,0 +1,84 @@
+{
+  "scenario_id": "agriculture_eu_carbon_trading_2025",
+  "decision_date": "2024-12-05",
+  "context": "Large-scale European agricultural cooperative (25,000 hectares across 7 EU countries) evaluating entry into voluntary carbon credit markets to monetize sustainable farming practices while contributing to EU Green Deal climate objectives",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "CFO", "Board Sustainability Committee", "Farmer Representative Council"],
+    "influencers": ["Agricultural Operations Director", "Finance Director", "Environmental Compliance Manager", "Market Development Manager", "Technology Innovation Officer"],
+    "impacted_parties": ["Cooperative Member Farmers", "Local Communities", "Environmental Organizations", "Carbon Credit Buyers", "Regulatory Authorities", "Agricultural Supply Chain Partners"]
+  },
+  "request": {
+    "amount": "€8,500,000",
+    "purpose": "Comprehensive carbon credit program including verification systems, soil carbon measurement, biodiversity enhancement, and market participation infrastructure",
+    "urgency": "medium",
+    "justification": "EU carbon pricing reaching €90/tonne, sustainable farming practices generating 2.8 tonnes CO2e sequestration per hectare annually, potential €15M revenue over 5 years while enhancing environmental stewardship"
+  },
+  "decision_process": [
+    {
+      "stage": "carbon_sequestration_assessment",
+      "start_date": "2024-12-05",
+      "end_date": "2025-01-20",
+      "duration": "46 days",
+      "activities": ["Soil carbon baseline measurement across all farms", "Biodiversity impact assessment", "Current sequestration rate calculation", "Additionality verification", "Permanence risk evaluation"],
+      "outcome": "Verified sequestration potential of 70,000 tonnes CO2e annually with high permanence confidence"
+    },
+    {
+      "stage": "market_analysis_certification",
+      "start_date": "2025-01-21",
+      "end_date": "2025-03-15",
+      "duration": "53 days",
+      "activities": ["Carbon credit market analysis and pricing trends", "Certification standard comparison (Verra, Gold Standard, Plan Vivo)", "Buyer demand assessment in corporate markets", "Regulatory framework analysis across EU jurisdictions", "Competitive landscape evaluation"],
+      "outcome": "Strong market demand identified with premium pricing for high-quality agricultural credits"
+    },
+    {
+      "stage": "technical_implementation_planning",
+      "start_date": "2025-03-16",
+      "end_date": "2025-05-10",
+      "duration": "55 days",
+      "activities": ["Measurement, reporting, and verification (MRV) system design", "Technology platform selection for carbon monitoring", "Third-party verification partner selection", "Farmer training and engagement program development", "Data collection and monitoring protocol establishment"],
+      "outcome": "Comprehensive MRV system designed with 95% measurement accuracy and farmer participation commitment"
+    },
+    {
+      "stage": "financial_business_case",
+      "start_date": "2025-05-11",
+      "end_date": "2025-06-30",
+      "duration": "50 days",
+      "activities": ["Revenue modeling at various carbon price scenarios", "Cost-benefit analysis including system setup and ongoing operations", "Risk assessment and sensitivity analysis", "Farmer benefit-sharing mechanism design", "Investment financing and cash flow planning"],
+      "outcome": "Business case validated with 22% IRR at current carbon prices and positive NPV across all scenarios"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "70,000 tonnes CO2e annual carbon credit generation, €6.3M annual revenue at current prices, enhanced soil health and biodiversity, improved farm sustainability metrics, strengthened market positioning",
+    "projected_value": "€31,500,000 over 5 years (70,000 tonnes × €90/tonne average × 5 years)",
+    "actual_value": "Pilot program generating €1.8M annually from 12,500 tonnes CO2e (exceeding projections)",
+    "roi_timeline": "Break-even in year 2, full investment recovery by year 4",
+    "risk_factors": ["Carbon price volatility", "Regulatory changes affecting credit eligibility", "Climate events impacting sequestration", "Market demand fluctuations", "Technology reliability and accuracy", "Farmer participation and compliance"]
+  },
+  "decision_criteria": [
+    "Carbon sequestration potential >60,000 tonnes CO2e annually",
+    "Financial returns exceeding 20% IRR at conservative carbon pricing",
+    "Farmer participation commitment >85% of cooperative members",
+    "Environmental additionality and permanence verification",
+    "Regulatory compliance across all EU operating jurisdictions",
+    "Technology reliability and third-party verification capability",
+    "Market demand sustainability and buyer relationship development",
+    "Positive community and environmental impact demonstration"
+  ],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2027-08-31",
+    "milestones": [
+      "Phase 1 - Pilot program (5,000 hectares): 2025-09-01 to 2026-02-28",
+      "Phase 2 - Scaled implementation (15,000 hectares): 2026-03-01 to 2026-12-31",
+      "Phase 3 - Full program deployment (25,000 hectares): 2027-01-01 to 2027-08-31"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot program exceeding targets with 12,500 tonnes CO2e verified credits generated, farmer satisfaction 92%, technology performance 97% accuracy",
+    "12_month_review": "Phase 1 completion ahead of schedule, premium pricing achieved at €95/tonne, regulatory approval for expanded program across all EU markets",
+    "actual_roi": "Project tracking 25% IRR (vs projected 22%) with higher carbon prices and lower implementation costs than budgeted"
+  },
+  "lessons_learned": "Farmer engagement and education critical for program success - investment in training and support systems 30% higher than budgeted but essential for adoption. Technology integration more seamless than expected, reducing operational costs. Premium market positioning for high-quality agricultural credits driving above-market pricing."
+}

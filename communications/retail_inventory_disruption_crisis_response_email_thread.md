@@ -1,8 +1,8 @@
 ## Email Thread: Retail Inventory Disruption Crisis Response
 
-**From:** Supply Chain Director
-**To:** Executive Leadership Team, Store Managers, Procurement Team
-**Subject:** Urgent: Port Congestion Impacting Q4 Inventory - Action Required
+**From:** Supply Chain Director  
+**To:** Executive Leadership Team, Store Managers, Procurement Team  
+**Subject:** Urgent: Port Congestion Impacting Q4 Inventory - Action Required  
 
 Team,
 
@@ -21,15 +21,15 @@ Immediate actions needed:
 
 Please respond by EOD with your team's mitigation plans.
 
-Best,
-Sarah Chen
-Supply Chain Director
+Best,  
+Sarah Chen  
+Supply Chain Director  
 
 ---
 
-**From:** CEO
-**To:** Supply Chain Director, Executive Leadership Team
-**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required
+**From:** CEO  
+**To:** Supply Chain Director, Executive Leadership Team  
+**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required  
 
 Sarah,
 
@@ -37,15 +37,15 @@ This is concerning. Can you provide more details on which product categories are
 
 Also, please coordinate with Legal to review force majeure clauses in our supplier contracts.
 
-Thanks,
-Michael Rodriguez
-CEO
+Thanks,  
+Michael Rodriguez  
+CEO  
 
 ---
 
-**From:** Supply Chain Director
-**To:** CEO, Executive Leadership Team
-**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required
+**From:** Supply Chain Director  
+**To:** CEO, Executive Leadership Team  
+**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required  
 
 Michael,
 
@@ -58,13 +58,13 @@ Contingency options:
 
 Legal is reviewing contracts - expect update by tomorrow.
 
-Sarah
+Sarah  
 
 ---
 
-**From:** CFO
-**To:** Supply Chain Director, CEO, Executive Leadership Team
-**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required
+**From:** CFO  
+**To:** Supply Chain Director, CEO, Executive Leadership Team  
+**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required  
 
 Sarah, Michael,
 
@@ -72,14 +72,14 @@ The $2.8M expedited shipping cost is within our contingency budget, but we shoul
 
 Also, please model the revenue impact of potential stockouts.
 
-Jennifer Walsh
-CFO
+Jennifer Walsh  
+CFO  
 
 ---
 
-**From:** Supply Chain Director
-**To:** CFO, CEO, Executive Leadership Team
-**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required
+**From:** Supply Chain Director  
+**To:** CFO, CEO, Executive Leadership Team  
+**Subject:** Re: Urgent: Port Congestion Impacting Q4 Inventory - Action Required  
 
 Jennifer,
 

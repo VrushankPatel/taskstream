@@ -1,57 +1,38 @@
 workflow:
-  id: workflow_insurance_parametric_risk_claims
-  title: Insurance Parametric Risk Claims Processing
-  department: Claims Processing
-  complexity: medium
-  participants:
-  - Claims Adjuster
-  - Underwriting Manager
-  - Data Analyst
-  trigger: Parametric trigger event occurs (e.g., weather data confirms storm damage)
+  id: "workflow_insurance_parametric_risk_claims"
+  title: "Insurance Parametric Risk Claims Processing"
+  department: "Claims Processing"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Underwriting Manager", "Data Analyst"]
+  trigger: "Parametric trigger event occurs (e.g., weather data confirms storm damage)"
   steps:
-  - step: 1
-    actor: Data Analyst
-    action: Verify parametric trigger data from external sources
-    tools:
-    - Weather API
-    - Parametric Data Platform
-    duration: 15 minutes
-    outputs:
-    - Trigger Verification Report
-  - step: 2
-    actor: Claims Adjuster
-    action: Review policy coverage and calculate payout amount
-    tools:
-    - Claims Management System
-    - Policy Database
-    duration: 20 minutes
-    outputs:
-    - Payout Calculation
-  - step: 3
-    actor: Claims Adjuster
-    action: Obtain underwriting approval for payout
-    decision_points:
-    - Payout amount threshold
-    - Policy exceptions
-    duration: 10 minutes
-    outputs:
-    - Approval Confirmation
-  - step: 4
-    actor: Claims Adjuster
-    action: Process payment and notify policyholder
-    tools:
-    - Payment Processing System
-    - Email Notification System
-    duration: 5 minutes
-    outputs:
-    - Payment Confirmation
-    - Policyholder Notification
-  success_criteria: Parametric claim processed and paid within 24 hours of trigger
-  failure_modes:
-  - Data verification delays
-  - Policy coverage disputes
-  - Payment processing errors
+    - step: 1
+      actor: "Data Analyst"
+      action: "Verify parametric trigger data from external sources"
+      tools: ["Weather API", "Parametric Data Platform"]
+      duration: "15 minutes"
+      outputs: ["Trigger Verification Report"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Review policy coverage and calculate payout amount"
+      tools: ["Claims Management System", "Policy Database"]
+      duration: "20 minutes"
+      outputs: ["Payout Calculation"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Obtain underwriting approval for payout"
+      decision_points: ["Payout amount threshold", "Policy exceptions"]
+      duration: "10 minutes"
+      outputs: ["Approval Confirmation"]
+    - step: 4
+      actor: "Claims Adjuster"
+      action: "Process payment and notify policyholder"
+      tools: ["Payment Processing System", "Email Notification System"]
+      duration: "5 minutes"
+      outputs: ["Payment Confirmation", "Policyholder Notification"]
+  success_criteria: "Parametric claim processed and paid within 24 hours of trigger"
+  failure_modes: ["Data verification delays", "Policy coverage disputes", "Payment processing errors"]
   metrics:
-  - 'Processing time: 12 hours average'
-  - 'Accuracy rate: 98%'
-  - 'Customer satisfaction: 4.7/5'
+    - "Processing time: 12 hours average"
+    - "Accuracy rate: 98%"
+    - "Customer satisfaction: 4.7/5"

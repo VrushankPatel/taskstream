@@ -1,38 +1,26 @@
 workflow:
-  id: workflow_retail_loyalty_enrollment
-  title: Retail Customer Loyalty Program Enrollment
-  department: Customer Experience
-  complexity: simple
-  participants:
-  - Customer Service Rep
-  - Loyalty Program Manager
-  trigger: Customer expresses interest in loyalty program during purchase
+  id: "workflow_retail_loyalty_enrollment"
+  title: "Retail Customer Loyalty Program Enrollment"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Loyalty Program Manager"]
+  trigger: "Customer expresses interest in loyalty program during purchase"
   steps:
-  - step: 1
-    actor: Customer Service Rep
-    action: Verify customer information and explain program benefits
-    tools:
-    - POS System
-    - Customer Database
-    duration: 5 minutes
-    outputs:
-    - Enrollment Form
-  - step: 2
-    actor: Customer Service Rep
-    action: Process enrollment and issue membership card
-    tools:
-    - Loyalty Program Software
-    duration: 3 minutes
-    outputs:
-    - Membership Card
-    - Welcome Email
-  success_criteria: Customer successfully enrolled with active membership
-  failure_modes:
-  - Invalid customer information
-  - System technical issues
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Verify customer information and explain program benefits"
+      tools: ["POS System", "Customer Database"]
+      duration: "5 minutes"
+      outputs: ["Enrollment Form"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Process enrollment and issue membership card"
+      tools: ["Loyalty Program Software"]
+      duration: "3 minutes"
+      outputs: ["Membership Card", "Welcome Email"]
+  success_criteria: "Customer successfully enrolled with active membership"
+  failure_modes: ["Invalid customer information", "System technical issues"]
   metrics:
-  - 'Enrollment completion rate: 95%'
-  - 'Average enrollment time: 8 minutes'
-  - 'Customer satisfaction score: 4.5/5'
-  - 'Retention rate of enrolled customers: 78%'
-  - 'Average lifetime value increase: 25%'
+    - "Enrollment completion rate: 95%"
+    - "Average enrollment time: 8 minutes"
+    - "Customer satisfaction score: 4.5/5"

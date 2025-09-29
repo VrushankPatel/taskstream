@@ -45,11 +45,20 @@
 - Reports to: Underwriting Quality Manager
 - Responsibilities: Policy audits, error tracking, improvement recommendations
 
+## Specialized Support Teams
+**Data Analytics Team**
+- Responsibilities: Underwriting data analysis, predictive modeling, performance reporting
+- Activities: Loss ratio analysis, risk trend identification, portfolio optimization
+
+**Technology Support Team**
+- Responsibilities: System maintenance, user support, process automation
+- Activities: Software updates, user training, workflow optimization
+
 ## Team Size & Distribution
-- Total headcount: 80
-- Commercial lines: 45%
-- Personal lines: 35%
-- Support/QA: 20%
+- Total headcount: 85
+- Commercial lines: 42%
+- Personal lines: 33%
+- Support/QA: 25%
 
 ## Key Performance Indicators
 - Loss ratio: <75%

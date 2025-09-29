@@ -37,4 +37,4 @@ workflow:
       duration: "1 hour"
       outputs: ["Payment Issued", "Claim Closed"]
   success_criteria: "Claim processed within SLA, customer satisfaction maintained"
-  failure_modes: ["Fraud undetected", "Incorrect settlement amount", "Processing delays"]
+  failure_modes: ["Fraud undetected", "Incorrect settlement amount", "Processing delays", "Documentation errors", "Communication breakdowns"]

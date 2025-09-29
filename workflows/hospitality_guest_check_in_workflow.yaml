@@ -36,3 +36,5 @@ workflow:
     - "Average check-in time: Target <10 minutes"
     - "Guest satisfaction score: Target >4.5/5"
     - "Room readiness rate: Target >98%"
+    - "Digital check-in adoption rate: 65%"
+    - "Upsell conversion during check-in: 12%"

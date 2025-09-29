@@ -35,7 +35,7 @@
   "business_impact": {
     "expected_outcome": "50% renewable energy mix by 2030, reduced carbon emissions by 40%",
     "projected_value": "$800,000,000 in cost savings over 20 years",
-    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Higher-than-expected costs", "Grid stability concerns"]
+    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Higher-than-expected costs", "Grid stability concerns", "Community opposition", "Supply chain disruptions"]
   },
   "decision_criteria": ["Financial viability", "Regulatory compliance", "Technical feasibility", "Stakeholder support", "Environmental impact"],
   "outcome": "Approved",

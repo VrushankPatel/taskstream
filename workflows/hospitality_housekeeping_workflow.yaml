@@ -1,0 +1,39 @@
+workflow:
+  id: "workflow_hospitality_housekeeping"
+  title: "Hospitality Housekeeping Service Process"
+  department: "Housekeeping"
+  complexity: "simple"
+  participants: ["Housekeeping Supervisor", "Room Attendants", "Front Desk Staff"]
+  trigger: "Guest checkout or scheduled room cleaning"
+  steps:
+    - step: 1
+      actor: "Front Desk Staff"
+      action: "Update room status and notify housekeeping"
+      tools: ["PMS System"]
+      duration: "2 minutes"
+      outputs: ["Room Status Update"]
+    - step: 2
+      actor: "Housekeeping Supervisor"
+      action: "Assign room to attendant and provide supplies"
+      tools: ["Housekeeping Management App"]
+      duration: "5 minutes"
+      outputs: ["Work Assignment"]
+    - step: 3
+      actor: "Room Attendant"
+      action: "Clean and prepare room according to standards"
+      tools: ["Cleaning Supplies", "Quality Checklist"]
+      duration: "25 minutes"
+      outputs: ["Clean Room"]
+    - step: 4
+      actor: "Room Attendant"
+      action: "Inspect room and report completion"
+      tools: ["Quality Control App"]
+      duration: "3 minutes"
+      outputs: ["Room Inspection Report"]
+  success_criteria: "Room cleaned to standards within 30 minutes of assignment"
+  failure_modes: ["Supply shortages", "Equipment malfunctions", "Staffing shortages"]
+  metrics:
+    - "Average Cleaning Time: Target 28 minutes"
+    - "Room Quality Score: Target 95%"
+    - "Guest Satisfaction Rate: Target 92%"
+    - "Attendance Rate: Target 95%"

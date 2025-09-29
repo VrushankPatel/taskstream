@@ -1,0 +1,43 @@
+{
+  "scenario_id": "construction_modular_building_2025",
+  "context": "Construction company evaluating transition to modular building methods to improve project timelines and quality",
+  "stakeholders": {
+    "requester": "VP of Operations",
+    "approvers": ["CEO", "CFO", "Chief Operating Officer"],
+    "influencers": ["Project Managers", "Subcontractors", "Building Officials"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "Establish modular construction facility and training program for 50% of projects",
+    "urgency": "medium",
+    "justification": "Reduce construction time by 40% and improve quality consistency while addressing labor shortages"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "2 months",
+      "activities": ["Market demand assessment", "Competitor analysis", "Cost-benefit modeling"],
+      "outcome": "Identified strong market demand and competitive advantage potential"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "4 months",
+      "activities": ["Small-scale modular projects", "Quality testing", "Time/cost tracking"],
+      "outcome": "Achieved 35% time savings and 90% quality improvement"
+    },
+    {
+      "stage": "facility_planning",
+      "duration": "2 months",
+      "activities": ["Site selection", "Equipment procurement", "Staff training planning"],
+      "outcome": "Comprehensive implementation plan with modular facility design"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% faster project completion, improved quality consistency, labor cost reduction",
+    "projected_value": "$8,000,000 annual revenue increase",
+    "risk_factors": ["Initial capital investment", "Learning curve for staff", "Supply chain dependencies"]
+  },
+  "decision_criteria": ["ROI within 4 years", "Market adoption rate >30%", "Quality improvement >25%", "Regulatory approval"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for demonstrating value, comprehensive staff training critical for successful technology transition"
+}

@@ -1,0 +1,36 @@
+workflow:
+  id: "workflow_retail_customer_feedback_simple"
+  title: "Retail Customer Feedback Collection Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Store Manager", "Customer Service Rep"]
+  trigger: "Customer completes purchase"
+  temporal_data:
+    first_implemented: "2023-01-15"
+    last_updated: "2024-06-01"
+    typical_cycle_time: "5 minutes"
+    average_annual_executions: 50000
+    seasonal_variations: ["Holiday season peak (Nov-Dec)", "Summer slowdown (Jun-Aug)"]
+    historical_evolution: "Initially manual paper surveys, evolved to digital tablets in 2023, now integrated with POS system"
+  steps:
+    - step: 1
+      actor: "POS System"
+      action: "Display feedback prompt on receipt screen"
+      tools: ["Point of Sale Terminal"]
+      duration: "30 seconds"
+      outputs: ["Digital feedback submission"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Review and categorize feedback"
+      tools: ["CRM System"]
+      duration: "2 minutes"
+      outputs: ["Categorized feedback record"]
+  success_criteria: "Feedback collected and categorized within 24 hours"
+  failure_modes: ["System downtime", "Customer declines survey"]
+  metrics:
+    - "Feedback collection rate: 75% target"
+    - "Response time: <24 hours"
+  performance_history:
+    success_rate_trend: "65% (2023) → 72% (2024) → 75% (2025)"
+    cost_trend: "$50K (2023) → $45K (2024) → $40K (2025)"
+    efficiency_improvements: ["POS integration reduced manual entry by 80%", "AI categorization improved accuracy by 25%"]

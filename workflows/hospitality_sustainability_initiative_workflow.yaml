@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_hospitality_sustainability_initiative_complex"
+  title: "Hospitality Sustainability Initiative Implementation"
+  department: "Operations"
+  complexity: "complex"
+  participants: ["Sustainability Manager", "Operations Director", "Department Heads", "Suppliers", "Guests"]
+  trigger: "Corporate sustainability mandate or guest demand"
+  temporal_data:
+    first_implemented: "2023-07-01"
+    last_updated: "2024-12-01"
+    typical_cycle_time: "6 months"
+    average_annual_executions: 2
+    seasonal_variations: ["Summer energy peak", "Winter water conservation focus"]
+    historical_evolution: "Started with basic recycling in 2023, expanded to comprehensive carbon reduction in 2024, now includes guest engagement"
+  steps:
+    - step: 1
+      actor: "Sustainability Manager"
+      action: "Conduct baseline assessment and set targets"
+      tools: ["Energy monitoring systems", "Waste tracking software"]
+      duration: "4 weeks"
+      outputs: ["Sustainability baseline report", "Target KPIs"]
+    - step: 2
+      actor: "Operations Director"
+      action: "Develop implementation plan with department buy-in"
+      tools: ["Project management software", "Stakeholder analysis tools"]
+      duration: "6 weeks"
+      outputs: ["Implementation roadmap", "Department action plans"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Execute department-specific initiatives"
+      tools: ["Department-specific systems", "Training platforms"]
+      duration: "8 weeks"
+      outputs: ["Initiative implementations", "Staff training records"]
+    - step: 4
+      actor: "Sustainability Manager"
+      action: "Monitor progress and adjust strategies"
+      tools: ["KPI dashboards", "Reporting systems"]
+      duration: "Ongoing"
+      outputs: ["Progress reports", "Strategy adjustments"]
+    - step: 5
+      actor: "Operations Director"
+      action: "Engage suppliers and guests in sustainability efforts"
+      tools: ["Supplier portals", "Guest communication channels"]
+      duration: "4 weeks"
+      outputs: ["Supplier commitments", "Guest participation programs"]
+  success_criteria: "Achieve 20% reduction in carbon footprint and 90% guest participation"
+  failure_modes: ["Budget constraints", "Staff resistance", "Supplier non-compliance"]
+  metrics:
+    - "Carbon reduction: 20% target"
+    - "Energy efficiency: 15% improvement"
+    - "Waste diversion: 80% rate"
+  performance_history:
+    success_rate_trend: "75% (2023) → 82% (2024) → 85% (2025)"
+    cost_trend: "$500K (2023) → $450K (2024) → $400K (2025)"
+    efficiency_improvements: ["Digital monitoring reduced manual tracking by 60%", "Supplier integration improved compliance by 30%"]

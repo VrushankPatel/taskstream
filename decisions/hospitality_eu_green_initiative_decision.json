@@ -1,0 +1,43 @@
+{
+  "scenario_id": "hospitality_eu_green_initiative_2025",
+  "context": "European hotel group with 50 properties responding to EU Green Deal requirements and guest sustainability demands",
+  "stakeholders": {
+    "requester": "Sustainability Director",
+    "approvers": ["CEO", "Chief Operations Officer"],
+    "influencers": ["Finance Director", "Guest Experience Manager", "Procurement Manager"]
+  },
+  "request": {
+    "amount": "€8,000,000",
+    "purpose": "Green transformation including solar panels, water conservation systems, and sustainable sourcing",
+    "urgency": "medium",
+    "justification": "EU regulatory compliance, 40% guest preference for sustainable hotels, potential 20% cost savings through efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "duration": "3 weeks",
+      "activities": ["Energy audit", "Cost-benefit analysis", "Regulatory review"],
+      "outcome": "Identified €2.5M annual savings potential"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "2 weeks",
+      "activities": ["Property manager consultations", "Guest surveys", "Supplier negotiations"],
+      "outcome": "Strong internal and guest support"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "4 weeks",
+      "activities": ["Phased rollout plan", "Funding strategy", "Performance metrics"],
+      "outcome": "3-year implementation roadmap"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Regulatory compliance, enhanced brand reputation, operational cost reductions",
+    "projected_value": "€15,000,000 NPV over 10 years",
+    "risk_factors": ["Upfront capital requirements", "Property downtime during installations", "Guest experience impact"]
+  },
+  "decision_criteria": ["Payback period <5 years", "EU compliance achievement", "Guest satisfaction maintained", "Measurable environmental impact", "Competitive differentiation"],
+  "outcome": "Approved",
+  "lessons_learned": "Early stakeholder engagement critical for buy-in, pilot programs in select properties reduce risk, clear communication of benefits essential for guest acceptance"
+}

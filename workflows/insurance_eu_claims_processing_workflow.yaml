@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_insurance_eu_claims"
+  title: "EU Insurance Standard Claims Processing"
+  department: "Claims Operations"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Fraud Investigator", "Legal Compliance Officer"]
+  trigger: "Customer submits claim through portal, email, or phone"
+  temporal_data:
+    first_implemented: "2021-11-01"
+    last_updated: "2024-10-30"
+    typical_cycle_time: "3 days"
+    average_annual_executions: 45000
+    seasonal_variations: ["Q4 winter claims peak (25% increase)", "Q2 summer low (15% decrease)"]
+    historical_evolution: "Manual paper-based process digitized in 2022, AI fraud detection added in 2023, EU regulatory compliance enhanced in 2024"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review submitted claim documentation and verify policy coverage"
+      tools: ["Claims management system", "Policy database"]
+      duration: "2 hours"
+      outputs: ["Initial claim assessment", "Coverage verification completed"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Conduct investigation including witness interviews and evidence collection"
+      tools: ["Investigation toolkit", "Document management system"]
+      duration: "4 hours"
+      outputs: ["Investigation report", "Supporting evidence gathered"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Perform fraud risk assessment using automated tools and manual review"
+      tools: ["Fraud detection software", "Risk assessment protocols"]
+      duration: "3 hours"
+      outputs: ["Fraud risk score", "Investigation recommendation"]
+    - step: 4
+      actor: "Claims Supervisor"
+      action: "Review assessment and approve settlement amount within authority limits"
+      tools: ["Approval workflow system", "Settlement calculator"]
+      duration: "1 hour"
+      outputs: ["Settlement decision", "Payment authorization"]
+    - step: 5
+      actor: "Legal Compliance Officer"
+      action: "Verify regulatory compliance and approve final settlement"
+      tools: ["Compliance checklist", "Regulatory database"]
+      duration: "30 minutes"
+      outputs: ["Compliance confirmation", "Final approval"]
+  success_criteria: "Claim processed within SLA, settlement accurate and compliant, customer satisfaction maintained"
+  failure_modes: ["Insufficient documentation provided", "Fraud suspicion requiring extended investigation", "Regulatory compliance issues"]
+  metrics:
+    - "Processing time: 2.8 days average"
+    - "Accuracy rate: 96%"
+    - "Customer satisfaction: 4.2/5"
+  performance_history:
+    success_rate_trend: "88% (2023) → 92% (2024) → 94% (2025)"
+    cost_trend: "€45 (2023) → €42 (2024) → €40 (2025)"
+    efficiency_improvements: ["AI fraud detection reduced investigation time by 35%", "Digital documentation improved accuracy by 8%"]

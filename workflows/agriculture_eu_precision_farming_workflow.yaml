@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_agriculture_eu_precision"
+  title: "EU Agriculture Precision Farming Implementation"
+  department: "Farm Operations"
+  complexity: "medium"
+  participants: ["Farm Manager", "Precision Agriculture Specialist", "Equipment Technician", "Data Analyst"]
+  trigger: "Seasonal planning cycle or new technology evaluation"
+  temporal_data:
+    first_implemented: "2022-04-01"
+    last_updated: "2024-12-01"
+    typical_cycle_time: "6 months"
+    average_annual_executions: 150
+    seasonal_variations: ["Spring planting season (Mar-May) 60% of activities", "Winter planning (Nov-Feb) 25% of activities"]
+    historical_evolution: "Traditional farming methods enhanced with GPS guidance in 2022, drone integration in 2023, AI optimization in 2024"
+  steps:
+    - step: 1
+      actor: "Farm Manager"
+      action: "Assess field conditions and define precision farming objectives"
+      tools: ["Field mapping software", "Soil sensors", "Weather data"]
+      duration: "1 week"
+      outputs: ["Field assessment report", "Implementation objectives defined"]
+    - step: 2
+      actor: "Precision Agriculture Specialist"
+      action: "Design variable rate application plans and equipment calibration"
+      tools: ["Precision farming software", "Equipment calibration tools"]
+      duration: "2 weeks"
+      outputs: ["Application maps created", "Equipment calibrated"]
+    - step: 3
+      actor: "Equipment Technician"
+      action: "Install and test precision farming technology on equipment"
+      tools: ["GPS systems", "Auto-steer technology", "Sensor networks"]
+      duration: "1 week"
+      outputs: ["Technology installed", "System testing completed"]
+    - step: 4
+      actor: "Data Analyst"
+      action: "Set up data collection and analysis systems for performance monitoring"
+      tools: ["Data collection platforms", "Analytics software"]
+      duration: "1 week"
+      outputs: ["Monitoring system operational", "Baseline data established"]
+    - step: 5
+      actor: "Farm Manager"
+      action: "Monitor implementation and adjust based on performance data"
+      tools: ["Performance dashboards", "Yield monitoring systems"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Optimization recommendations"]
+  success_criteria: "Precision technology operational, input costs reduced by 15%, yield variability decreased by 20%"
+  failure_modes: ["Technology compatibility issues", "Training gaps for operators", "Data connectivity problems in rural areas"]
+  metrics:
+    - "Input cost reduction: 12%"
+    - "Yield uniformity improvement: 18%"
+    - "Technology adoption rate: 85%"
+  performance_history:
+    success_rate_trend: "70% (2023) → 78% (2024) → 85% (2025)"
+    cost_trend: "€15000 (2023) → €13500 (2024) → €12000 (2025)"
+    efficiency_improvements: ["GPS guidance reduced overlap by 15%", "Variable rate application optimized input use by 20%"]

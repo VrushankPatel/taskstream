@@ -1,0 +1,62 @@
+{
+  "scenario_id": "retail_eu_omnichannel_strategy_2025",
+  "decision_date": "2025-01-15",
+  "context": "EU retail chain with 500 stores facing declining foot traffic and increasing online competition, requiring omnichannel strategy investment",
+  "stakeholders": {
+    "requester": "Chief Commercial Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["Head of Digital", "Store Operations Director", "Customer Insights Manager"]
+  },
+  "request": {
+    "amount": "€25,000,000",
+    "purpose": "Omnichannel platform integration including buy-online-pickup-in-store, unified inventory, and personalized customer journeys",
+    "urgency": "high",
+    "justification": "Market research shows 40% of customers expect seamless omnichannel experience, current system losing 15% market share annually"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "15 days",
+      "activities": ["Market analysis", "Competitor benchmarking", "ROI modeling", "Technical feasibility assessment"],
+      "outcome": "Advanced to detailed planning phase"
+    },
+    {
+      "stage": "detailed_planning",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-20",
+      "duration": "35 days",
+      "activities": ["Vendor evaluation", "Implementation roadmap development", "Risk assessment", "Resource planning"],
+      "outcome": "Approved with phased implementation approach"
+    },
+    {
+      "stage": "board_approval",
+      "start_date": "2025-01-10",
+      "end_date": "2025-01-15",
+      "duration": "6 days",
+      "activities": ["Executive presentation", "Due diligence review", "Final approval vote"],
+      "outcome": "Approved with €25M budget allocation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Unified customer experience across all channels, improved customer retention and increased market share",
+    "projected_value": "€50,000,000 additional revenue within 3 years",
+    "actual_value": "TBD (implementation starting Q2 2025)",
+    "roi_timeline": "Expected payback in 24 months",
+    "risk_factors": ["Integration complexity", "Employee training requirements", "Customer adoption challenges"]
+  },
+  "decision_criteria": ["Market opportunity size", "Technical feasibility", "Financial ROI", "Implementation timeline", "Risk mitigation plan"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-04-01",
+    "completion_date": "2026-03-31",
+    "milestones": ["Phase 1: Unified inventory system - 2025-06-30", "Phase 2: Buy-online-pickup-in-store - 2025-09-30", "Phase 3: Personalized customer journeys - 2025-12-31", "Phase 4: Advanced analytics - 2026-03-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Platform integration completed, initial customer adoption metrics collected",
+    "12_month_review": "Revenue impact assessment, customer satisfaction surveys, competitive positioning analysis",
+    "actual_roi": "TBD (target 25% annual growth in online sales)"
+  },
+  "lessons_learned": "Early vendor involvement crucial for technical integration, employee change management requires dedicated resources, customer communication strategy essential for adoption"
+}

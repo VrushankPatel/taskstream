@@ -82,9 +82,12 @@ Applies to all employees whose roles are impacted by advanced robotics deploymen
 
 ## Enforcement and Accountability
 - **Policy Compliance**: Mandatory adherence by all managers and HR personnel
-- **Performance Reviews**: Transition program effectiveness included in management evaluations
-- **Corrective Actions**: Remediation plans for program deficiencies
-- **Accountability Measures**: Clear accountability for transition program outcomes
+- **Performance Reviews**: Transition program effectiveness included in management evaluations (weighted at 15% of annual performance score)
+- **Corrective Actions**: Remediation plans for program deficiencies, including mandatory retraining for non-compliant managers
+- **Accountability Measures**: Clear accountability for transition program outcomes, with escalation to executive leadership for repeated violations
+- **Audit and Monitoring**: Quarterly compliance audits by internal audit team, with findings reported to HR committee
+- **Whistleblower Protection**: Anonymous reporting mechanism for policy violations, with protection from retaliation
+- **Progressive Discipline**: Verbal warning → Written warning → Performance improvement plan → Termination for repeated violations
 
 ## Related Documents
 - Advanced Robotics Implementation Plan

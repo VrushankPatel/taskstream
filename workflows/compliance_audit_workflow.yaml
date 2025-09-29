@@ -90,19 +90,27 @@ workflow:
     - Corrective action plan
     - Implementation roadmap
     - Resource requirements
-  - step: 7
-    actor: Executive Leadership
-    action: Review final audit report and approve remediation plan
-    tools:
-    - Board portal
-    - Executive dashboard
-    - Risk committee materials
-    duration: 1 week
-    outputs:
-    - Audit report approval
-    - Remediation authorization
-    - Board communication
-  success_criteria: Achieve clean audit opinion with no material weaknesses
+   - step: 7
+     actor: Executive Leadership
+     action: Review final audit report and approve remediation plan
+     tools:
+     - Board portal
+     - Executive dashboard
+     - Risk committee materials
+     duration: 1 week
+     outputs:
+     - Audit report approval
+     - Remediation authorization
+     - Board communication
+   decision_points:
+   - point: "Audit findings severity assessment"
+     criteria: "Material weaknesses identified, regulatory compliance score, remediation timeline feasibility"
+     options:
+     - "Accept findings and implement remediation": "Standard path for minor findings"
+     - "Escalate to board for immediate action": "For material weaknesses requiring board oversight"
+     - "Request audit scope limitation": "If findings exceed reasonable remediation capacity"
+     typical_decision: "Accept and remediate (85% of cases)"
+   success_criteria: Achieve clean audit opinion with no material weaknesses
   failure_modes:
   - Inadequate documentation
   - Control failures

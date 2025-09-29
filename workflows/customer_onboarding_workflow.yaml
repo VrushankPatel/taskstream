@@ -49,17 +49,25 @@ workflow:
     outputs:
     - User accounts activated
     - Training completed
-  - step: 4
-    actor: Customer Success Manager
-    action: Conduct go-live review and establish success metrics
-    tools:
-    - Success metrics dashboard
-    - Feedback survey
-    duration: 2 hours
-    outputs:
-    - Go-live confirmation
-    - Success plan documented
-  success_criteria: Customer achieves first value milestone within 30 days with 90% user adoption
+   - step: 4
+     actor: Customer Success Manager
+     action: Conduct go-live review and establish success metrics
+     tools:
+     - Success metrics dashboard
+     - Feedback survey
+     duration: 2 hours
+     outputs:
+     - Go-live confirmation
+     - Success plan documented
+   decision_points:
+   - point: "Post-implementation assessment"
+     criteria: "Customer achieves 80%+ user adoption and reports satisfaction score >4.0"
+     options:
+     - "Proceed to full production": "Standard success path"
+     - "Extended support required": "Additional training and hand-holding for 30 days"
+     - "Contract renegotiation": "If adoption <60%, review contract terms"
+     typical_decision: "Proceed to full production (75% of cases)"
+   success_criteria: Customer achieves first value milestone within 30 days with 90% user adoption
   failure_modes:
   - Delayed account setup
   - Inadequate training

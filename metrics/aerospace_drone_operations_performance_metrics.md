@@ -87,3 +87,7 @@
 - **Fuel Efficiency**: 4.2 kWh/nm (Target: <4.5 kWh/nm)
 - **Operator Productivity**: 8.5 missions per operator per month (Target: 8)
 - **Training Cost per Operator**: $2,450 (Target: <$3,000)
+- **Software Update Frequency**: Monthly (Target: Bi-weekly)
+- **Data Processing Time**: 2.1 hours post-mission (Target: <2.5 hours)
+- **Customer Satisfaction Score**: 4.6/5.0 (Target: 4.5)
+- **Environmental Impact**: 15% reduction in carbon footprint YoY (Target: 10%)

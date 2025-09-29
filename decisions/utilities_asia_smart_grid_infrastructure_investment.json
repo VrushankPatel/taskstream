@@ -1,0 +1,83 @@
+{
+  "scenario_id": "utilities_asia_smart_grid_investment_2024",
+  "decision_date": "2024-11-15",
+  "context": "Major utility company in Southeast Asia evaluating $2.8B smart grid infrastructure investment to modernize aging power distribution network and integrate renewable energy sources across 15 million customers",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["Board of Directors", "CEO", "CFO"],
+    "influencers": ["Regional Energy Regulatory Authority", "Environmental Ministry", "Customer Advisory Board", "Technology Vendors", "Labor Union Representatives"]
+  },
+  "request": {
+    "amount": "$2,800,000,000",
+    "purpose": "Smart grid infrastructure deployment with renewable integration capabilities",
+    "urgency": "medium",
+    "justification": "Aging infrastructure causing 15% energy losses, renewable mandate compliance required by 2027, customer demand for reliable service increasing"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_feasibility",
+      "start_date": "2024-06-01",
+      "end_date": "2024-08-15",
+      "duration": "75 days",
+      "activities": ["Grid stability analysis", "Renewable integration assessment", "Technology vendor evaluation", "Pilot project results review"],
+      "outcome": "Technical feasibility confirmed with 95% confidence"
+    },
+    {
+      "stage": "regulatory_approval",
+      "start_date": "2024-08-16",
+      "end_date": "2024-10-30",
+      "duration": "74 days",
+      "activities": ["Environmental impact assessment", "Rate adjustment hearings", "Public consultation process", "Compliance framework development"],
+      "outcome": "Conditional regulatory approval received"
+    },
+    {
+      "stage": "financial_analysis",
+      "start_date": "2024-09-01",
+      "end_date": "2024-11-01",
+      "duration": "61 days",
+      "activities": ["NPV analysis", "Financing structure evaluation", "Risk assessment modeling", "Cost-benefit analysis"],
+      "outcome": "Financial viability confirmed with 12.5% IRR"
+    },
+    {
+      "stage": "final_deliberation",
+      "start_date": "2024-11-02",
+      "end_date": "2024-11-15",
+      "duration": "13 days",
+      "activities": ["Board presentations", "Stakeholder negotiations", "Final terms refinement", "Implementation planning"],
+      "outcome": "Approved with conditions and phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% reduction in energy losses, 40% renewable energy integration capability, 99.9% grid reliability",
+    "projected_value": "$4,200,000,000 over 15 years",
+    "actual_value": "Implementation beginning Q1 2025",
+    "roi_timeline": "8.5 years payback period",
+    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Cybersecurity threats", "Construction delays", "Currency fluctuation"]
+  },
+  "decision_criteria": [
+    "Net Present Value > $1B",
+    "Internal Rate of Return > 10%",
+    "Regulatory compliance with renewable mandates",
+    "Grid reliability improvement > 25%",
+    "Customer satisfaction maintenance > 90%",
+    "Cybersecurity framework meets national standards",
+    "Environmental impact within acceptable limits"
+  ],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-01-15",
+    "completion_date": "2029-12-31",
+    "milestones": [
+      "Phase 1 (Urban areas): 2025-01-15 to 2026-06-30",
+      "Phase 2 (Suburban areas): 2026-07-01 to 2027-12-31", 
+      "Phase 3 (Rural areas): 2028-01-01 to 2029-06-30",
+      "System integration completion: 2029-07-01 to 2029-12-31"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 pilot deployment successful with 12% energy loss reduction achieved in test zones",
+    "12_month_review": "25% of urban grid modernized, renewable integration at 15% capacity",
+    "actual_roi": "On track for 12.8% IRR (vs projected 12.5%)"
+  },
+  "lessons_learned": "Stakeholder engagement critical for public acceptance, phased approach reduces implementation risk, cybersecurity investment cannot be underestimated, local talent development essential for long-term success"
+}

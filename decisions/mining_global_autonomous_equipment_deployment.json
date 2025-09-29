@@ -1,0 +1,84 @@
+{
+  "scenario_id": "mining_global_autonomous_equipment_2024",
+  "decision_date": "2024-10-22",
+  "context": "Global mining conglomerate evaluating $1.2B investment in autonomous mining equipment across 8 operations in Australia, Chile, and South Africa to improve safety, reduce operating costs, and address skilled labor shortages",
+  "stakeholders": {
+    "requester": "VP of Operations Excellence",
+    "approvers": ["Executive Committee", "CEO", "Board Safety Committee"],
+    "influencers": ["Mine Site Managers", "Labor Union Leaders", "Safety Regulatory Bodies", "Technology Partners", "Local Community Representatives", "Environmental Groups"]
+  },
+  "request": {
+    "amount": "$1,200,000,000",
+    "purpose": "Autonomous haul trucks, drilling rigs, and loading equipment with remote operation centers",
+    "urgency": "high",
+    "justification": "Safety incidents down 60% in pilot sites, 25% reduction in operating costs achieved, skilled operator shortage reaching critical levels"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_validation",
+      "start_date": "2024-02-01",
+      "end_date": "2024-05-15",
+      "duration": "104 days",
+      "activities": ["Pilot safety performance analysis", "Regulatory compliance review", "Risk assessment modeling", "Emergency response protocol testing"],
+      "outcome": "Safety performance exceeded targets with 67% incident reduction"
+    },
+    {
+      "stage": "labor_transition_planning",
+      "start_date": "2024-04-01",
+      "end_date": "2024-07-30",
+      "duration": "120 days",
+      "activities": ["Workforce impact analysis", "Retraining program development", "Union negotiations", "Community consultation"],
+      "outcome": "Comprehensive transition plan agreed with 95% employee retention commitment"
+    },
+    {
+      "stage": "technical_readiness",
+      "start_date": "2024-05-16",
+      "end_date": "2024-09-30",
+      "duration": "137 days",
+      "activities": ["Infrastructure compatibility assessment", "Communication network upgrades", "Maintenance facility planning", "Integration testing"],
+      "outcome": "Technical readiness confirmed for all 8 sites"
+    },
+    {
+      "stage": "financial_approval",
+      "start_date": "2024-09-01",
+      "end_date": "2024-10-22",
+      "duration": "51 days",
+      "activities": ["Investment committee review", "Board risk assessment", "Financing structure approval", "Vendor contract negotiations"],
+      "outcome": "Approved with performance-based payment structure"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "70% reduction in safety incidents, 30% decrease in operating costs, 24/7 operations capability",
+    "projected_value": "$2,800,000,000 over 12 years",
+    "actual_value": "Implementation phase beginning",
+    "roi_timeline": "5.2 years payback period",
+    "risk_factors": ["Technology reliability in harsh conditions", "Cybersecurity vulnerabilities", "Regulatory changes", "Social license to operate", "Commodity price volatility"]
+  },
+  "decision_criteria": [
+    "Safety incident reduction > 50%",
+    "Operating cost reduction > 20%",
+    "Employee retention rate > 90%",
+    "Regulatory compliance in all jurisdictions",
+    "Community acceptance maintained",
+    "Environmental impact neutral or positive",
+    "Cybersecurity standards met",
+    "Return on Investment > 15%"
+  ],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-02-01",
+    "completion_date": "2027-11-30",
+    "milestones": [
+      "Australia sites (3 locations): 2025-02-01 to 2026-03-31",
+      "Chile sites (3 locations): 2025-08-01 to 2026-12-31",
+      "South Africa sites (2 locations): 2026-04-01 to 2027-11-30",
+      "Remote operations centers: 2025-02-01 to 2025-12-31"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Australian pilot expansion proceeding on schedule, 65% reduction in safety incidents maintained",
+    "12_month_review": "First remote operations center operational, 28% cost reduction achieved in automated areas",
+    "actual_roi": "Tracking 16.8% IRR vs projected 15.5%"
+  },
+  "lessons_learned": "Early workforce engagement critical for success, cybersecurity requires ongoing investment, remote monitoring capabilities enable new operational models, environmental benefits exceed expectations with reduced dust and emissions"
+}

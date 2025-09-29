@@ -31,7 +31,12 @@
     "projected_value": "$2.1B in long-term cost savings",
     "risk_factors": ["Technology obsolescence", "Regulatory changes", "Construction delays"]
   },
+  "alternatives_considered": [
+    {"option": "Phased 30% renewable transition", "pros": ["Lower initial cost", "Reduced risk"], "cons": ["Miss regulatory targets", "Higher long-term costs"]},
+    {"option": "Accelerated 70% transition", "pros": ["Future-proof infrastructure"], "cons": ["Higher upfront investment", "Technical challenges"]}
+  ],
   "decision_criteria": ["Regulatory compliance", "Financial viability", "Technical feasibility", "Customer impact"],
   "outcome": "Approved",
+  "implementation_timeline": "5-year phased rollout starting Q1 2026",
   "lessons_learned": "Early regulatory engagement critical for large infrastructure projects"
 }

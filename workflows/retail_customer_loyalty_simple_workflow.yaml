@@ -18,8 +18,11 @@ workflow:
       tools: ["CRM System"]
       duration: "2 minutes"
       outputs: ["Loyalty Card", "Welcome Email"]
-  success_criteria: "Customer receives loyalty card and confirmation email"
-  failure_modes: ["Invalid contact information", "System technical issues"]
-  metrics:
-    - "Enrollment completion rate: 95%"
-    - "Average enrollment time: 7 minutes"
+   success_criteria: "Customer receives loyalty card and confirmation email within 24 hours"
+   failure_modes: ["Invalid contact information", "System technical issues", "Duplicate enrollment"]
+   risks: ["Data privacy compliance violations", "System downtime during peak hours", "Inadequate staff training"]
+   metrics:
+     - "Enrollment completion rate: 95%"
+     - "Average enrollment time: 7 minutes"
+     - "Customer satisfaction score: 4.2/5"
+     - "Retention increase: 12% within 6 months"

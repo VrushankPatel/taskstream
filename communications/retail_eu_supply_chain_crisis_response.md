@@ -23,6 +23,16 @@ Following the recent transportation strikes and border delays affecting our EU o
 - **Suppliers:** Daily coordination calls to expedite pending shipments  
 - **Internal Teams:** Hourly updates via crisis management dashboard  
 
+**Risks and Mitigation:**
+- Extended disruption could impact Q4 revenue by 15-20%
+- Customer churn risk in affected regions
+- Supplier relationship strain requiring compensation agreements
+
+**Success Metrics:**
+- Supply chain restoration: 100% within 10 days
+- Customer retention: Maintain 95% satisfaction during crisis
+- Cost impact: Limit to <€2M in additional expenses
+
 **Expected Resolution:** Full supply chain restoration within 7-10 days with contingency measures in place.
 
 Please confirm receipt and readiness to support these initiatives.

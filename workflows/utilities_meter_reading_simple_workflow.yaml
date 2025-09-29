@@ -18,8 +18,11 @@ workflow:
       tools: ["Field Management Software"]
       duration: "15 minutes per route"
       outputs: ["Validated Meter Data"]
-  success_criteria: "All scheduled meters read and data uploaded successfully"
-  failure_modes: ["Inaccessible meters", "Device technical issues"]
-  metrics:
-    - "Reading accuracy rate: 99.5%"
-    - "Route completion rate: 95%"
+   success_criteria: "All scheduled meters read and data uploaded successfully with billing accuracy"
+   failure_modes: ["Inaccessible meters", "Device technical issues", "Weather delays"]
+   risks: ["Safety incidents during field work", "Billing errors from inaccurate readings", "Customer service complaints"]
+   metrics:
+     - "Reading accuracy rate: 99.5%"
+     - "Route completion rate: 95%"
+     - "Safety incident rate: <0.1 per 1000 readings"
+     - "Customer billing dispute rate: 0.5%"

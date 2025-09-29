@@ -24,8 +24,11 @@ workflow:
       tools: ["Quality Management System"]
       duration: "1 hour"
       outputs: ["Guest Response", "Improvement Action Items"]
-  success_criteria: "Guest receives personalized response within 24 hours"
-  failure_modes: ["Delayed response time", "Inadequate corrective actions"]
-  metrics:
-    - "Response time: <24 hours for 90% of feedback"
-    - "Guest satisfaction improvement: 15% increase"
+   success_criteria: "Guest receives personalized response within 24 hours and corrective actions implemented"
+   failure_modes: ["Delayed response time", "Inadequate corrective actions", "Escalation to management required"]
+   risks: ["Negative social media exposure", "Guest retention impact", "Legal complaints for unresolved issues"]
+   metrics:
+     - "Response time: <24 hours for 90% of feedback"
+     - "Guest satisfaction improvement: 15% increase"
+     - "Resolution rate: 85% of complaints addressed"
+     - "Repeat guest retention: 78%"

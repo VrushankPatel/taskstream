@@ -19,18 +19,20 @@ workflow:
       tools: ["Climate modeling software", "Weather data APIs", "EU climate risk databases"]
       duration: "3 days"
       outputs: ["Climate risk assessment report", "Risk trend analysis"]
-    - step: 2
-      actor: "Actuarial Specialist"
-      action: "Update pricing models and reserve calculations based on climate risks"
-      tools: ["Actuarial modeling platform", "Reserve calculation software", "Climate-adjusted pricing engine"]
-      duration: "5 days"
-      outputs: ["Updated pricing models", "Reserve adjustment recommendations"]
-    - step: 3
-      actor: "Underwriting Manager"
-      action: "Review risk assessment and implement underwriting guideline updates"
-      tools: ["Underwriting policy database", "Risk appetite framework", "EU sustainability reporting tools"]
-      duration: "4 days"
-      outputs: ["Updated underwriting guidelines", "Portfolio risk mitigation plan"]
+     - step: 2
+       actor: "Actuarial Specialist"
+       action: "Update pricing models and reserve calculations based on climate risks"
+       tools: ["Actuarial modeling platform", "Reserve calculation software", "Climate-adjusted pricing engine"]
+       duration: "5 days"
+       outputs: ["Updated pricing models", "Reserve adjustment recommendations"]
+       decision_points: ["Climate risk severity", "Regulatory capital requirements", "Portfolio concentration limits"]
+     - step: 3
+       actor: "Underwriting Manager"
+       action: "Review risk assessment and implement underwriting guideline updates"
+       tools: ["Underwriting policy database", "Risk appetite framework", "EU sustainability reporting tools"]
+       duration: "4 days"
+       outputs: ["Updated underwriting guidelines", "Portfolio risk mitigation plan"]
+       decision_points: ["Risk acceptance thresholds", "Pricing competitiveness", "Regulatory compliance requirements"]
   success_criteria: "Climate risk assessment completed with updated pricing and underwriting guidelines within regulatory deadlines"
   failure_modes: ["Inadequate data quality", "Regulatory non-compliance", "Underwriting guideline implementation delays"]
   metrics:

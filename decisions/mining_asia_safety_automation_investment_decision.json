@@ -78,7 +78,7 @@
       "Regulatory changes"
     ]
   },
-  "decision_criteria": ["Safety improvement", "Regulatory compliance", "Financial ROI", "Technical reliability", "Workforce impact"],
+   "decision_criteria": ["Safety improvement", "Regulatory compliance", "Financial ROI", "Technical reliability", "Workforce impact", "Implementation timeline"],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",

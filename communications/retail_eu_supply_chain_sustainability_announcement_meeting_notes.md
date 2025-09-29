@@ -71,6 +71,7 @@ Launch the EU Supply Chain Sustainability Initiative and align on implementation
 - **Consumer Engagement:** 75% awareness of sustainability initiatives
 - **Financial Impact:** €8M additional revenue from sustainable product premium
 - **Regulatory Compliance:** Full CSRD reporting capability by Q1 2026
+- **Cost Savings:** €2M annual savings from sustainable sourcing efficiencies
 
 ### Next Steps
 - **Weekly Check-ins:** Regional implementation coordination calls

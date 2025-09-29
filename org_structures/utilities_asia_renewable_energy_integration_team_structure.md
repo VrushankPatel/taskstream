@@ -154,6 +154,7 @@
 - Levelized Cost of Energy: Target $0.08/KWh (Current: $0.095/KWh)
 - Carbon Emission Reduction: Target 2.5M tons annually (Current: 2.1M tons)
 - Renewable Energy Percentage: Target 35% (Current: 28%)
+- Grid Reliability: Target 99.95% uptime (Current: 99.92%)
 
 ## Technology Stack
 - **SCADA Systems:** Siemens Spectrum Power, Schneider Electric EcoStruxure

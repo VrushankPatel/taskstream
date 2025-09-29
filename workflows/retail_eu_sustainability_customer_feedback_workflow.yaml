@@ -25,18 +25,20 @@ workflow:
       tools: ["Mobile survey app", "Web survey portal"]
       duration: "5 minutes"
       outputs: ["Sustainability feedback data", "Customer satisfaction rating"]
-    - step: 3
-      actor: "Data Analyst"
-      action: "Analyze feedback data and generate sustainability improvement insights"
-      tools: ["Data analytics platform", "Sustainability reporting dashboard"]
-      duration: "4 hours"
-      outputs: ["Feedback analysis report", "Improvement recommendations"]
-    - step: 4
-      actor: "Sustainability Manager"
-      action: "Review analysis and implement product/packaging improvements"
-      tools: ["Supplier management system", "Sustainability roadmap"]
-      duration: "1 day"
-      outputs: ["Updated sustainability practices", "Supplier improvement requests"]
+     - step: 3
+       actor: "Data Analyst"
+       action: "Analyze feedback data and generate sustainability improvement insights"
+       tools: ["Data analytics platform", "Sustainability reporting dashboard"]
+       duration: "4 hours"
+       outputs: ["Feedback analysis report", "Improvement recommendations"]
+       decision_points: ["Feedback statistical significance", "Improvement feasibility", "Cost-benefit analysis"]
+     - step: 4
+       actor: "Sustainability Manager"
+       action: "Review analysis and implement product/packaging improvements"
+       tools: ["Supplier management system", "Sustainability roadmap"]
+       duration: "1 day"
+       outputs: ["Updated sustainability practices", "Supplier improvement requests"]
+       decision_points: ["Supplier capability assessment", "Regulatory compliance impact", "Timeline vs. priority trade-offs"]
   success_criteria: "Customer feedback collected and analyzed, leading to at least one sustainability improvement within 30 days"
   failure_modes: ["Low survey response rate (<20%)", "Data quality issues", "Supplier non-compliance with improvements"]
   metrics:

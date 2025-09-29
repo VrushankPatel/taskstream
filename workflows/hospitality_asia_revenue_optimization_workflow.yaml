@@ -19,18 +19,20 @@ workflow:
       tools: ["Revenue management system", "Market intelligence platform", "Competitor pricing database"]
       duration: "2 hours"
       outputs: ["Demand analysis report", "Pricing opportunity identification"]
-    - step: 2
-      actor: "Pricing Analyst"
-      action: "Develop pricing optimization recommendations using AI algorithms"
-      tools: ["Dynamic pricing software", "Historical booking data", "Cultural event calendar"]
-      duration: "4 hours"
-      outputs: ["Pricing strategy recommendations", "Expected revenue impact projections"]
-    - step: 3
-      actor: "Revenue Manager"
-      action: "Review and approve pricing changes, considering cultural sensitivities"
-      tools: ["Pricing approval dashboard", "Cultural impact assessment tool"]
-      duration: "1 hour"
-      outputs: ["Approved pricing strategy", "Implementation schedule"]
+     - step: 2
+       actor: "Pricing Analyst"
+       action: "Develop pricing optimization recommendations using AI algorithms"
+       tools: ["Dynamic pricing software", "Historical booking data", "Cultural event calendar"]
+       duration: "4 hours"
+       outputs: ["Pricing strategy recommendations", "Expected revenue impact projections"]
+       decision_points: ["Revenue optimization potential", "Market demand elasticity", "Competitor pricing response"]
+     - step: 3
+       actor: "Revenue Manager"
+       action: "Review and approve pricing changes, considering cultural sensitivities"
+       tools: ["Pricing approval dashboard", "Cultural impact assessment tool"]
+       duration: "1 hour"
+       outputs: ["Approved pricing strategy", "Implementation schedule"]
+       decision_points: ["Cultural appropriateness", "Revenue impact threshold", "Implementation timeline constraints"]
     - step: 4
       actor: "Front Office Manager"
       action: "Implement pricing changes and monitor initial booking response"

@@ -78,7 +78,7 @@
       "Technology integration issues"
     ]
   },
-  "decision_criteria": ["Market opportunity", "Farmer benefits", "Regulatory compliance", "Financial viability", "Technical feasibility"],
+   "decision_criteria": ["Market opportunity", "Farmer benefits", "Regulatory compliance", "Financial viability", "Technical feasibility", "Scalability potential"],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-11-01",

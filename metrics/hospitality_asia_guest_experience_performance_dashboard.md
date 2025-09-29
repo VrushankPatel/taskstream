@@ -128,6 +128,8 @@
   - Q4 Projection: 70
 - **Satisfaction Target**: 4.1/5.0
   - Current Achievement: 4.2 (102% of target)
+- **Online Rating Target**: 4.5/5.0
+  - Current Achievement: 4.6 (102% of target)
 
 ## Benchmarking
 

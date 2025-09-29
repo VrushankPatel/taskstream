@@ -1,0 +1,70 @@
+workflow:
+  id: workflow_hospitality_revenue_management_basic
+  title: Hospitality Revenue Management Process
+  department: Revenue Management
+  complexity: medium
+  participants:
+  - Revenue Manager
+  - Sales Manager
+  - Front Office Manager
+  trigger: Weekly revenue review or demand change alert
+  steps:
+  - step: 1
+    actor: Revenue Manager
+    action: Analyze current booking pace and market demand
+    tools:
+    - Revenue Management System
+    - Booking Data Dashboard
+    duration: 30 minutes
+    outputs:
+    - Demand Analysis Report
+  - step: 2
+    actor: Revenue Manager
+    action: Forecast occupancy and revenue for next 30 days
+    decision_points:
+    - High demand periods
+    - Low occupancy alerts
+    tools:
+    - Forecasting Software
+    - Historical Data
+    duration: 45 minutes
+    outputs:
+    - Revenue Forecast
+  - step: 3
+    actor: Revenue Manager
+    action: Adjust room rates based on demand and competition
+    tools:
+    - Rate Management Tool
+    - Competitor Pricing Data
+    duration: 20 minutes
+    outputs:
+    - Rate Adjustments
+  - step: 4
+    actor: Sales Manager
+    action: Implement promotional strategies for low demand periods
+    tools:
+    - Marketing Platform
+    - Package Creation Tool
+    duration: 25 minutes
+    outputs:
+    - Promotional Packages
+  - step: 5
+    actor: Front Office Manager
+    action: Monitor booking changes and adjust availability restrictions
+    tools:
+    - PMS System
+    - Yield Management Controls
+    duration: 15 minutes
+    outputs:
+    - Availability Updates
+  success_criteria: Revenue per available room increased by 8% with 85% occupancy maintained
+  failure_modes:
+  - Overbooking
+  - Rate erosion
+  - Missed revenue opportunities
+  - Competitive disadvantage
+  metrics:
+  - 'Revenue per Available Room: $145'
+  - 'Occupancy Rate: 85%'
+  - 'Average Daily Rate: $185'
+  - 'Revenue Growth: 8% YoY'

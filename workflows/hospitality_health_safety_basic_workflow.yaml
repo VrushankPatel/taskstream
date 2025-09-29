@@ -1,0 +1,55 @@
+workflow:
+  id: workflow_hospitality_health_safety_basic
+  title: Hospitality Health Safety Protocol
+  department: Operations
+  complexity: simple
+  participants:
+  - Front Desk Agent
+  - Housekeeping Staff
+  - Guest
+  trigger: Guest arrival or room cleaning
+  steps:
+  - step: 1
+    actor: Front Desk Agent
+    action: Screen guest for health symptoms upon arrival
+    tools:
+    - Health Screening Form
+    - Temperature Scanner
+    duration: 2 minutes
+    outputs:
+    - Health Screening Result
+  - step: 2
+    actor: Front Desk Agent
+    action: Provide sanitization stations and PPE information
+    tools:
+    - Sanitizer Stations
+    - PPE Supplies
+    duration: 1 minute
+    outputs:
+    - Safety Information
+  - step: 3
+    actor: Housekeeping Staff
+    action: Clean and disinfect room between guests
+    tools:
+    - Cleaning Checklist
+    - Disinfectant Supplies
+    duration: 30 minutes
+    outputs:
+    - Clean Room Certificate
+  - step: 4
+    actor: Housekeeping Staff
+    action: Verify all high-touch surfaces sanitized
+    tools:
+    - Quality Control Checklist
+    duration: 5 minutes
+    outputs:
+    - Sanitization Verification
+  success_criteria: All guests screened and rooms sanitized according to health protocols
+  failure_modes:
+  - Missed screenings
+  - Inadequate cleaning
+  - Supply shortages
+  metrics:
+  - 'Screening Compliance: 100%'
+  - 'Room Cleanliness Score: 4.8/5'
+  - 'Guest Safety Satisfaction: 4.7/5'

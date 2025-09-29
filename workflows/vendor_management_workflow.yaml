@@ -1,14 +1,14 @@
 workflow:
-  id: workflow_procurement_vendor_001
-  title: Strategic Vendor Management Process
-  department: Procurement
-  complexity: medium
-  participants:
-  - Procurement Manager
-  - Department Stakeholder
-  - Vendor Manager
-  - Legal Counsel
-  - Finance Analyst
+   id: workflow_procurement_vendor_001
+   title: Strategic Vendor Management Process
+   department: Procurement
+   complexity: medium
+   participants:
+   - Procurement Manager
+   - Department Stakeholder
+   - Vendor Manager
+   - Legal Counsel
+   - Finance Analyst
    trigger: Vendor performance review due or contract renewal approaching
    temporal_data:
      first_implemented: "2022-01-15"

@@ -1,0 +1,77 @@
+workflow:
+  id: workflow_hospitality_workforce_management_basic
+  title: Hospitality Workforce Management Process
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Manager
+  - Department Managers
+  - Scheduling Coordinator
+  - Employees
+  trigger: Monthly staffing review or demand fluctuation
+  steps:
+  - step: 1
+    actor: HR Manager
+    action: Forecast staffing needs based on occupancy and events
+    tools:
+    - Workforce Planning Software
+    - Occupancy Data
+    duration: 1 hour
+    outputs:
+    - Staffing Forecast
+  - step: 2
+    actor: Scheduling Coordinator
+    action: Create employee schedules balancing availability and skills
+    decision_points:
+    - Peak demand periods
+    - Employee skill requirements
+    tools:
+    - Scheduling System
+    - Employee Database
+    duration: 2 hours
+    outputs:
+    - Weekly Schedules
+  - step: 3
+    actor: Department Managers
+    action: Review and approve schedules for their teams
+    tools:
+    - Schedule Review Portal
+    duration: 30 minutes
+    outputs:
+    - Approved Schedules
+  - step: 4
+    actor: Scheduling Coordinator
+    action: Communicate schedules to employees and handle conflicts
+    tools:
+    - Employee Communication Platform
+    duration: 45 minutes
+    outputs:
+    - Schedule Distribution
+  - step: 5
+    actor: HR Manager
+    action: Monitor attendance and adjust for absences
+    tools:
+    - Time Tracking System
+    - Absence Management
+    duration: 30 minutes
+    outputs:
+    - Attendance Adjustments
+  - step: 6
+    actor: Department Managers
+    action: Conduct performance check-ins and identify training needs
+    tools:
+    - Performance Review System
+    duration: 1 hour
+    outputs:
+    - Training Requirements
+  success_criteria: Optimal staffing levels maintained with high employee satisfaction and skill coverage
+  failure_modes:
+  - Understaffing during peaks
+  - Scheduling conflicts
+  - Skill gaps
+  - Low morale
+  metrics:
+  - 'Staffing Coverage: 98%'
+  - 'Employee Satisfaction: 4.2/5'
+  - 'Overtime Hours: <5% of total'
+  - 'Training Completion: 90%'

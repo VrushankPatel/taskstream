@@ -1,14 +1,14 @@
 workflow:
-  id: workflow_009_04
-  title: Virtual Reality Learning Implementation
-  department: Educational Technology
-  complexity: high
-  participants:
-  - EdTech Director
-  - Curriculum Developer
-  - IT Administrator
-  - Faculty Champion
-  - Student Focus Group
+   id: workflow_009_04
+   title: Virtual Reality Learning Implementation
+   department: Educational Technology
+   complexity: high
+   participants:
+   - EdTech Director
+   - Curriculum Developer
+   - IT Administrator
+   - Faculty Champion
+   - Student Focus Group
    trigger: Board approval for VR learning initiative
    temporal_data:
      first_implemented: "2023-09-01"

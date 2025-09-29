@@ -1,62 +1,62 @@
 {
-  "scenario_id": "hospitality_green_initiative_2025",
-  "decision_date": "2025-04-05",
-  "context": "Hotel chain responding to guest preferences for eco-friendly accommodations and corporate sustainability goals",
+  "scenario_id": "hospitality_sustainability_program_2025",
+  "decision_date": "2025-09-12",
+  "context": "Hospitality chain implementing comprehensive sustainability program to meet guest expectations and regulatory requirements",
   "stakeholders": {
-    "requester": "Director of Operations",
-    "approvers": ["CEO", "Chief Sustainability Officer", "Finance Committee"],
-    "influencers": ["Guest Services Director", "Procurement Manager", "Marketing VP"]
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Operations Director", "Finance VP", "Guest Services VP"]
   },
   "request": {
-    "amount": "$8,000,000",
-    "purpose": "Implement comprehensive green initiative across all properties",
-    "urgency": "medium",
-    "justification": "Guest surveys show 65% prefer green hotels; competitors implementing similar programs"
+    "amount": "$1,500,000",
+    "purpose": "Deploy sustainability technologies and practices across all properties",
+    "urgency": "high",
+    "justification": "Guest surveys show 70% prefer sustainable hotels; new regulations require 25% carbon reduction by 2027"
   },
   "decision_process": [
     {
-      "stage": "impact_assessment",
-      "start_date": "2025-04-05",
-      "end_date": "2025-05-05",
-      "duration": "4 weeks",
-      "activities": ["Energy audit", "Water usage analysis", "Guest preference research"],
-      "outcome": "Identified 30% efficiency improvement potential"
+      "stage": "feasibility_analysis",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-31",
+      "duration": "31 days",
+      "activities": ["Sustainability audit", "Technology evaluation", "Cost-benefit modeling"],
+      "outcome": "Identified $800K annual savings potential"
     },
     {
-      "stage": "solution_evaluation",
-      "start_date": "2025-05-10",
-      "end_date": "2025-06-10",
-      "duration": "4 weeks",
-      "activities": ["Technology vendor evaluation", "Cost modeling", "ROI analysis"],
-      "outcome": "Selected comprehensive solution with 3-year payback"
+      "stage": "stakeholder_engagement",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-25",
+      "duration": "25 days",
+      "activities": ["Property manager consultations", "Guest feedback integration", "Vendor negotiations"],
+      "outcome": "Cross-functional support secured"
     },
     {
-      "stage": "board_approval",
-      "start_date": "2025-06-15",
-      "end_date": "2025-06-30",
-      "duration": "2 weeks",
-      "activities": ["Executive presentation", "Risk review", "Final approval"],
-      "outcome": "Approved with performance milestones"
+      "stage": "final_decision",
+      "start_date": "2025-08-26",
+      "end_date": "2025-09-12",
+      "duration": "18 days",
+      "activities": ["Board presentation", "Risk assessment", "Investment approval"],
+      "outcome": "Approved with sustainability KPIs"
     }
   ],
   "business_impact": {
-    "expected_outcome": "Reduce energy costs by 25%, increase guest satisfaction by 20%",
-    "projected_value": "$12,000,000",
-    "actual_value": "$14,000,000 (2025)",
-    "roi_timeline": "Expected payback in 32 months",
-    "risk_factors": ["Implementation complexity", "Guest disruption", "Technology reliability"]
+    "expected_outcome": "30% energy reduction, 20% waste minimization, 15% guest satisfaction improvement",
+    "projected_value": "$2,200,000 annual benefits",
+    "actual_value": "TBD (implementation Q1 2026)",
+    "roi_timeline": "Expected payback in 22 months",
+    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Initial cost overruns"]
   },
-  "decision_criteria": ["Financial return", "Guest satisfaction impact", "Environmental benefit", "Competitive advantage"],
+  "decision_criteria": ["Environmental impact", "Financial return", "Guest satisfaction", "Regulatory compliance", "Brand positioning"],
   "outcome": "Approved",
   "implementation_timeline": {
-    "start_date": "2025-08-01",
-    "completion_date": "2026-07-31",
-    "milestones": ["Technology installation: 2025-11-01", "Staff training: 2026-01-01", "Full certification: 2026-07-31"]
+    "start_date": "2025-10-01",
+    "completion_date": "2026-09-30",
+    "milestones": ["Technology rollout: 2026-01-31", "Staff training: 2026-03-15", "Certification audit: 2026-09-30"]
   },
   "outcome_tracking": {
-    "6_month_review": "Energy savings at 15%, guest feedback positive, implementation on schedule",
-    "12_month_review": "Energy costs down 22%, guest satisfaction up 18%, ROI trajectory positive",
-    "actual_roi": "12% (vs projected 10%)"
+    "6_month_review": "Energy savings at 20%, guest feedback positive",
+    "12_month_review": "Full sustainability metrics evaluation",
+    "actual_roi": "TBD (target 18% above projections)"
   },
-  "lessons_learned": "Phased implementation minimizes disruption; guest communication enhances acceptance"
+  "lessons_learned": "Early stakeholder involvement critical for successful adoption; comprehensive training ensures proper implementation"
 }

@@ -1,0 +1,45 @@
+workflow:
+  id: workflow_retail_customer_service
+  title: Retail Customer Service Inquiry Resolution
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Agent
+  - Customer
+  trigger: Customer submits inquiry via phone, email, or online form
+  steps:
+  - step: 1
+    actor: Customer Service Agent
+    action: Receive and acknowledge customer inquiry
+    tools:
+    - Customer Service Portal
+    - CRM System
+    duration: 2 minutes
+    outputs:
+    - Inquiry Acknowledgment
+  - step: 2
+    actor: Customer Service Agent
+    action: Research and provide response to customer inquiry
+    tools:
+    - Product Knowledge Base
+    - Order Tracking System
+    duration: 5 minutes
+    outputs:
+    - Customer Response
+  - step: 3
+    actor: Customer Service Agent
+    action: Confirm customer satisfaction and close inquiry
+    tools:
+    - Feedback Survey
+    duration: 1 minute
+    outputs:
+    - Closed Inquiry Record
+  success_criteria: Customer inquiry resolved within 24 hours with positive feedback
+  failure_modes:
+  - Unresolved inquiry
+  - Negative customer feedback
+  - Delayed response
+  metrics:
+  - 'Resolution Rate: 95%'
+  - 'Average Response Time: 4 hours'
+  - 'Customer Satisfaction: 4.5/5'

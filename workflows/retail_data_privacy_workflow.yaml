@@ -1,0 +1,61 @@
+workflow:
+  id: workflow_retail_data_privacy
+  title: Retail Customer Data Privacy Management
+  department: Compliance
+  complexity: simple
+  participants:
+  - Data Protection Officer
+  - Customer Service Agent
+  - IT Administrator
+  trigger: New customer registration or data request
+  steps:
+  - step: 1
+    actor: Customer Service Agent
+    action: Obtain explicit consent for data collection and processing
+    tools:
+    - Consent Form
+    - Privacy Policy
+    duration: 5 minutes
+    outputs:
+    - Consent Record
+  - step: 2
+    actor: IT Administrator
+    action: Securely store customer data in encrypted database
+    tools:
+    - Customer Database
+    - Encryption Software
+    duration: 2 minutes
+    outputs:
+    - Stored Data Record
+  - step: 3
+    actor: Data Protection Officer
+    action: Process data requests (access, rectification, erasure)
+    decision_points:
+    - Request type
+    - Verification requirements
+    tools:
+    - Data Subject Request Portal
+    - Verification System
+    duration: 30 minutes
+    outputs:
+    - Request Response
+  - step: 4
+    actor: IT Administrator
+    action: Implement data minimization and retention policies
+    tools:
+    - Data Retention Schedule
+    - Deletion Scripts
+    duration: 10 minutes
+    outputs:
+    - Compliance Confirmation
+  success_criteria: All customer data handled in compliance with privacy regulations
+  failure_modes:
+  - Unauthorized data access
+  - Missing consent
+  - Delayed request responses
+  - Data breaches
+  metrics:
+  - 'Consent Rate: 100%'
+  - 'Request Response Time: <30 days'
+  - 'Data Breach Incidents: 0'
+  - 'Compliance Audit Score: 100%'

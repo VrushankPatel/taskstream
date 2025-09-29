@@ -1,0 +1,80 @@
+workflow:
+  id: workflow_retail_supply_chain_management
+  title: Retail Supply Chain Management
+  department: Supply Chain
+  complexity: medium
+  participants:
+  - Supply Chain Manager
+  - Procurement Specialist
+  - Quality Control Inspector
+  - Warehouse Manager
+  trigger: Inventory levels drop below reorder point
+  steps:
+  - step: 1
+    actor: Supply Chain Manager
+    action: Analyze demand forecasts and inventory requirements
+    tools:
+    - Demand Planning Software
+    - Inventory Dashboard
+    duration: 1 hour
+    outputs:
+    - Procurement Plan
+  - step: 2
+    actor: Procurement Specialist
+    action: Identify and evaluate potential suppliers
+    decision_points:
+    - Supplier reliability
+    - Cost competitiveness
+    - Quality standards
+    tools:
+    - Supplier Database
+    - RFP System
+    duration: 2 hours
+    outputs:
+    - Supplier Shortlist
+  - step: 3
+    actor: Procurement Specialist
+    action: Negotiate terms and issue purchase orders
+    tools:
+    - Contract Management System
+    - PO Generation Tool
+    duration: 1 hour
+    outputs:
+    - Purchase Orders
+  - step: 4
+    actor: Warehouse Manager
+    action: Coordinate inbound logistics and schedule deliveries
+    tools:
+    - Transportation Management System
+    - Scheduling Software
+    duration: 30 minutes
+    outputs:
+    - Delivery Schedule
+  - step: 5
+    actor: Quality Control Inspector
+    action: Inspect incoming goods for quality and compliance
+    tools:
+    - Quality Checklist
+    - Inspection Equipment
+    duration: 45 minutes
+    outputs:
+    - Quality Report
+  - step: 6
+    actor: Warehouse Manager
+    action: Accept and store approved goods in warehouse
+    tools:
+    - Warehouse Management System
+    duration: 30 minutes
+    outputs:
+    - Inventory Update
+  success_criteria: Goods received on time with 100% quality acceptance and optimal cost
+  failure_modes:
+  - Supplier delays
+  - Quality issues
+  - Cost overruns
+  - Inventory mismatches
+  metrics:
+  - 'On-Time Delivery: 95%'
+  - 'Quality Acceptance Rate: 98%'
+  - 'Procurement Cost Savings: 5%'
+  - 'Inventory Turnover: 8 times/year'

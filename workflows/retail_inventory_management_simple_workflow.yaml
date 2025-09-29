@@ -1,0 +1,54 @@
+workflow:
+  id: workflow_retail_inventory_management_simple
+  title: Retail Inventory Management Process
+  department: Operations
+  complexity: simple
+  participants:
+  - Inventory Clerk
+  - Store Manager
+  trigger: Daily stock check or low inventory alert
+  steps:
+  - step: 1
+    actor: Inventory Clerk
+    action: Check current inventory levels for all products
+    tools:
+    - Inventory Software
+    - Stock Sheets
+    duration: 30 minutes
+    outputs:
+    - Inventory Report
+  - step: 2
+    actor: Inventory Clerk
+    action: Identify items below minimum stock levels
+    tools:
+    - Inventory Database
+    duration: 15 minutes
+    outputs:
+    - Reorder List
+  - step: 3
+    actor: Store Manager
+    action: Approve reorder quantities and place orders with suppliers
+    tools:
+    - Supplier Contact List
+    - Order Form
+    duration: 20 minutes
+    outputs:
+    - Purchase Orders
+  - step: 4
+    actor: Inventory Clerk
+    action: Receive and record incoming shipments
+    tools:
+    - Delivery Notes
+    - Inventory System
+    duration: 30 minutes
+    outputs:
+    - Updated Inventory Records
+  success_criteria: Inventory maintained at adequate levels with no stockouts
+  failure_modes:
+  - Stockouts
+  - Over-ordering
+  - Recording errors
+  metrics:
+  - 'Stock Availability: 95%'
+  - 'Inventory Accuracy: 98%'
+  - 'Reorder Cycle Time: 2 days'

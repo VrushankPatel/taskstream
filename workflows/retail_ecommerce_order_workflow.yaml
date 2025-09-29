@@ -1,0 +1,78 @@
+workflow:
+  id: workflow_retail_ecommerce_order
+  title: Retail E-commerce Order Processing
+  department: E-commerce
+  complexity: medium
+  participants:
+  - Customer
+  - Order Processor
+  - Warehouse Staff
+  - Shipping Coordinator
+  trigger: Customer places order on online store
+  steps:
+  - step: 1
+    actor: Customer
+    action: Browse products and add to cart
+    tools:
+    - Online Store Platform
+    duration: Variable
+    outputs:
+    - Shopping Cart
+  - step: 2
+    actor: Customer
+    action: Complete checkout with payment information
+    tools:
+    - Payment Gateway
+    duration: 5 minutes
+    outputs:
+    - Order Confirmation
+  - step: 3
+    actor: Order Processor
+    action: Verify payment and process order details
+    tools:
+    - Order Management System
+    - Payment Verification
+    duration: 10 minutes
+    outputs:
+    - Processed Order
+  - step: 4
+    actor: Warehouse Staff
+    action: Pick items from inventory and prepare shipment
+    tools:
+    - Warehouse Management System
+    - Picking Scanner
+    duration: 20 minutes
+    outputs:
+    - Packed Order
+  - step: 5
+    actor: Shipping Coordinator
+    action: Arrange shipping and generate tracking information
+    decision_points:
+    - Shipping method selection
+    - Expedited delivery options
+    tools:
+    - Shipping Software
+    - Carrier Integration
+    duration: 15 minutes
+    outputs:
+    - Shipping Label
+    - Tracking Number
+  - step: 6
+    actor: Order Processor
+    action: Send shipping confirmation to customer
+    tools:
+    - Email System
+    duration: 2 minutes
+    outputs:
+    - Customer Notification
+  success_criteria: Order fulfilled and shipped within 24 hours with accurate tracking
+  failure_modes:
+  - Payment failures
+  - Out of stock items
+  - Shipping delays
+  - Incorrect orders
+  metrics:
+  - 'Order Fulfillment Rate: 98%'
+  - 'Average Processing Time: 2 hours'
+  - 'Customer Satisfaction: 4.4/5'
+  - 'Return Rate: 3%'

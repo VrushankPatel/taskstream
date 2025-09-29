@@ -1,0 +1,55 @@
+workflow:
+  id: workflow_hospitality_guest_check_in_basic
+  title: Hospitality Guest Check-In Process
+  department: Front Office
+  complexity: simple
+  participants:
+  - Front Desk Agent
+  - Guest
+  trigger: Guest arrives at hotel reception
+  steps:
+  - step: 1
+    actor: Front Desk Agent
+    action: Greet guest and verify reservation details
+    tools:
+    - PMS System
+    - Guest Profile
+    duration: 2 minutes
+    outputs:
+    - Verified Reservation
+  - step: 2
+    actor: Front Desk Agent
+    action: Process payment and obtain identification
+    tools:
+    - Credit Card Terminal
+    - ID Scanner
+    duration: 3 minutes
+    outputs:
+    - Payment Confirmation
+  - step: 3
+    actor: Front Desk Agent
+    action: Assign room and provide key/access card
+    tools:
+    - Room Assignment System
+    - Key Encoder
+    duration: 2 minutes
+    outputs:
+    - Room Assignment
+  - step: 4
+    actor: Front Desk Agent
+    action: Explain hotel amenities and provide welcome information
+    tools:
+    - Welcome Packet
+    - Property Map
+    duration: 3 minutes
+    outputs:
+    - Guest Orientation
+  success_criteria: Guest checked in within 10 minutes with accurate room assignment
+  failure_modes:
+  - System errors
+  - Payment issues
+  - Room availability problems
+  metrics:
+  - 'Average Check-in Time: 8 minutes'
+  - 'Guest Satisfaction: 4.6/5'
+  - 'Error Rate: 1%'

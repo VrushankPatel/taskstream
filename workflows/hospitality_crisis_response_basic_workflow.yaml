@@ -1,0 +1,79 @@
+workflow:
+  id: workflow_hospitality_crisis_response_basic
+  title: Hospitality Crisis Response Process
+  department: Operations
+  complexity: medium
+  participants:
+  - Crisis Manager
+  - Front Office Manager
+  - Security Team
+  - Guest Services
+  trigger: Emergency situation detected (fire, medical, security threat)
+  steps:
+  - step: 1
+    actor: Crisis Manager
+    action: Assess situation and activate appropriate response protocol
+    decision_points:
+    - Emergency type (fire, medical, security)
+    - Severity level
+    tools:
+    - Emergency Response Plan
+    - Communication System
+    duration: 2 minutes
+    outputs:
+    - Response Protocol Activation
+  - step: 2
+    actor: Security Team
+    action: Secure affected areas and ensure guest safety
+    tools:
+    - Security Protocols
+    - Evacuation Equipment
+    duration: 5 minutes
+    outputs:
+    - Secure Area Confirmation
+  - step: 3
+    actor: Front Office Manager
+    action: Account for all guests and staff locations
+    tools:
+    - Guest Registry
+    - Staff Communication
+    duration: 10 minutes
+    outputs:
+    - Headcount Verification
+  - step: 4
+    actor: Guest Services
+    action: Communicate with guests and provide support
+    tools:
+    - Public Address System
+    - Emergency Communication App
+    duration: 15 minutes
+    outputs:
+    - Guest Communication
+  - step: 5
+    actor: Crisis Manager
+    action: Coordinate with external emergency services if needed
+    tools:
+    - Emergency Contact List
+    - Incident Report System
+    duration: 10 minutes
+    outputs:
+    - External Coordination
+  - step: 6
+    actor: Crisis Manager
+    action: Debrief and document incident for future improvement
+    tools:
+    - Incident Report Form
+    duration: 20 minutes
+    outputs:
+    - Incident Report
+  success_criteria: All guests and staff safe with minimal disruption and proper documentation
+  failure_modes:
+  - Delayed response
+  - Poor communication
+  - Inadequate coordination
+  - Incomplete documentation
+  metrics:
+  - 'Response Time: <5 minutes'
+  - 'Guest Safety Incidents: 0'
+  - 'Communication Effectiveness: 95%'
+  - 'Recovery Time: <2 hours'

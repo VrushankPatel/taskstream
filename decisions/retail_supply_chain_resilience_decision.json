@@ -1,0 +1,73 @@
+{
+  "scenario_id": "retail_supply_chain_resilience_2025",
+  "context": "Retail company facing supply chain disruptions from global events needs to enhance resilience and reduce dependency on single suppliers",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": [
+      "CEO",
+      "COO",
+      "CFO"
+    ],
+    "influencers": [
+      "Procurement Manager",
+      "Operations Director",
+      "Risk Management Officer"
+    ]
+  },
+  "request": {
+    "amount": "$3,200,000",
+    "purpose": "Supply chain diversification and digital transformation",
+    "urgency": "high",
+    "justification": "Recent disruptions caused 15% sales loss, single supplier dependency creating vulnerability"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment",
+      "duration": "3 weeks",
+      "activities": [
+        "Supply chain mapping",
+        "Risk factor analysis",
+        "Vulnerability assessment"
+      ],
+      "outcome": "Identified critical vulnerabilities in overseas sourcing and transportation"
+    },
+    {
+      "stage": "strategy_development",
+      "duration": "4 weeks",
+      "activities": [
+        "Diversification options evaluation",
+        "Technology solution assessment",
+        "Cost-benefit modeling"
+      ],
+      "outcome": "Multi-supplier strategy with digital supply chain platform"
+    },
+    {
+      "stage": "implementation_approval",
+      "duration": "2 weeks",
+      "activities": [
+        "Detailed implementation plan",
+        "Budget allocation",
+        "Timeline confirmation"
+      ],
+      "outcome": "Approved with 12-month implementation timeline"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Reduced supply disruption risk by 60%, improved inventory turnover, enhanced supplier relationships",
+    "projected_value": "$6,000,000 cost savings from avoided disruptions",
+    "risk_factors": [
+      "Implementation complexity",
+      "Supplier relationship changes",
+      "Initial cost increase"
+    ]
+  },
+  "decision_criteria": [
+    "Risk reduction potential",
+    "Cost effectiveness",
+    "Implementation feasibility",
+    "Supplier market availability",
+    "Technology integration"
+  ],
+  "outcome": "Approved",
+  "lessons_learned": "Proactive risk assessment revealed hidden vulnerabilities, diversified sourcing strategy balanced cost and resilience"
+}

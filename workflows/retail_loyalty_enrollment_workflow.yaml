@@ -1,0 +1,36 @@
+workflow:
+  id: "workflow_retail_loyalty_enrollment_006"
+  title: "Retail Customer Loyalty Program Enrollment"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Loyalty Program Coordinator"]
+  trigger: "Customer requests to join loyalty program at store or online"
+  temporal_data:
+    first_implemented: "2023-03-01"
+    last_updated: "2024-08-10"
+    typical_cycle_time: "5 minutes"
+    average_annual_executions: 85000
+    seasonal_variations: ["Q4 holiday season 40% increase", "Back-to-school period 25% increase"]
+    historical_evolution: "Manual enrollment evolved to self-service kiosks and mobile app integration"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Collect customer information and explain program benefits"
+      tools: ["POS system", "Loyalty enrollment form"]
+      duration: "3 minutes"
+      outputs: ["Completed enrollment form"]
+    - step: 2
+      actor: "Loyalty Program Coordinator"
+      action: "Process enrollment and issue membership card"
+      tools: ["Loyalty management system"]
+      duration: "2 minutes"
+      outputs: ["Active membership", "Welcome bonus points"]
+  success_criteria: "Customer receives membership card and confirmation within 10 minutes"
+  failure_modes: ["Incomplete information", "System errors", "Duplicate accounts"]
+  metrics:
+    - "Enrollment success rate: 97%"
+    - "Average processing time: 4.5 minutes"
+  performance_history:
+    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
+    cost_trend: "$0.45 (2023) → $0.40 (2024) → $0.35 (2025)"
+    efficiency_improvements: ["Self-service kiosks reduced staff time by 60%", "Mobile app integration increased enrollment by 35%"]

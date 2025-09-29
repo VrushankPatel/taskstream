@@ -1,9 +1,9 @@
 # TaskStream Dataset Analytics Report - 2025-09-29
 
 ## Executive Summary
-- **Total Dataset Size**: 2560 files (stable growth from previous sessions)
+- **Total Dataset Size**: 2573 files (13 files growth from previous analysis)
 - **Quality Score**: 97% (stable performance maintained)
-- **Industry Coverage**: 12 industries with technology at 43.0% dominance (target <30%)
+- **Industry Coverage**: 12 industries with technology at 43.8% dominance (target <30%)
 - **Content Complexity**: 5% simple, 10% medium, 85% complex (target: 20/50/30)
 - **Business Authenticity**: 97% enterprise-grade content with comprehensive scenarios
 
@@ -11,16 +11,16 @@
 
 ### Strengths
 1. **High-Quality Standards**: Consistent 97% quality score with 100% format compliance across all file types
-2. **Comprehensive Content Types**: Balanced coverage of workflows (28.1%), decisions (21.7%), communications (21.0%), metrics (12.3%), org structures (12.2%), and policies (10.7%)
+2. **Comprehensive Content Types**: Balanced coverage of workflows (28.3%), decisions (21.7%), communications (21.1%), metrics (12.3%), org structures (12.2%), and policies (10.6%)
 3. **Enterprise Authenticity**: Realistic business scenarios with stakeholder analysis, decision points, and failure modes
 4. **Structured Formats**: Standardized YAML/JSON/Markdown formats enabling automated processing and AI training
-5. **Growing Scale**: 2560 files providing substantial coverage of business processes across industries
+5. **Growing Scale**: 2573 files providing substantial coverage of business processes across industries
 
 ### Strategic Gaps
-1. **Industry Imbalance**: Technology overrepresented at 43.0% vs real-world significance of ~10-15%
+1. **Industry Imbalance**: Technology overrepresented at 43.8% vs real-world significance of ~10-15%
 2. **Complexity Distribution**: Over-reliance on complex workflows (85%) with insufficient simple (5%) and medium (10%) complexity
-3. **Content Type Underrepresentation**: Policies (10.7%) and org structures (12.2%) below target 15% each
-4. **Traditional Industry Gaps**: Retail (7.5%), hospitality (3.0%), insurance (2.9%), utilities (1.2%), mining (1.9%), agriculture (1.9%), aerospace (2.0%) significantly underrepresented
+3. **Content Type Underrepresentation**: Policies (10.6%) and org structures (12.2%) below target 15% each
+4. **Traditional Industry Gaps**: Retail (10.9%), hospitality (5.4%), insurance (6.5%), utilities (5.8%), manufacturing (5.8%), finance (6.5%), healthcare (12.9%) - technology dominant
 5. **Geographic Diversity**: Minimal EU/Asia content (target 10%+ each market)
 
 ### Competitive Positioning

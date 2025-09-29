@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_retail_loyalty_enrollment_2025"
+  title: "Retail Customer Loyalty Program Enrollment"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Customer"]
+  trigger: "Customer requests to join loyalty program at point of sale or online"
+  temporal_data:
+    first_implemented: "2020-01-15"
+    last_updated: "2024-06-01"
+    typical_cycle_time: "5 minutes"
+    average_annual_executions: 50000
+    seasonal_variations: ["Q4 holiday peak enrollment (40% increase)", "Q1 post-holiday recovery"]
+    historical_evolution: "Started as paper-based cards in 2020, evolved to digital app integration by 2022, added automated rewards in 2024"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Verify customer identity using ID or existing account, collect basic information (name, email, phone)"
+      tools: ["POS system", "Customer database", "Mobile app"]
+      duration: "2 minutes"
+      outputs: ["Verified customer profile"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Explain program benefits and enrollment terms, obtain consent for data usage"
+      tools: ["Program brochure", "Terms and conditions document"]
+      duration: "2 minutes"
+      outputs: ["Customer consent form", "Program enrollment confirmation"]
+    - step: 3
+      actor: "System"
+      action: "Automatically generate loyalty card/account and send welcome email with QR code"
+      tools: ["CRM system", "Email automation platform"]
+      duration: "1 minute"
+      outputs: ["Digital loyalty card", "Welcome communication"]
+  success_criteria: "Customer successfully enrolled with active loyalty account and receives confirmation"
+  failure_modes: ["Invalid customer information provided", "System technical issues preventing enrollment", "Customer declines consent"]
+  metrics:
+    - "Enrollment success rate: 98%"
+    - "Average enrollment time: 3 minutes"
+    - "Customer satisfaction score: 4.8/5"
+  performance_history:
+    success_rate_trend: "95% (2023) → 97% (2024) → 98% (2025)"
+    cost_trend: "$0.50 per enrollment (2023) → $0.40 (2024) → $0.35 (2025)"
+    efficiency_improvements: ["Digital form reduced manual processing time by 60%", "Automated verification improved accuracy by 15%", "Mobile app integration increased self-service enrollment by 25%"]

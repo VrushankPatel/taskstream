@@ -1,0 +1,52 @@
+workflow:
+  id: "workflow_retail_la_ecommerce_002"
+  title: "E-commerce Platform Expansion with AI Recommendations"
+  department: "Retail"
+  complexity: "medium"
+  participants: ["E-commerce Director", "Data Analyst", "IT Developer", "Marketing Specialist", "Logistics Coordinator"]
+  trigger: "Market analysis showing 40% e-commerce growth potential in Latin America"
+  steps:
+    - step: 1
+      actor: "E-commerce Director"
+      action: "Analyze market trends and customer behavior data"
+      tools: ["Market research platforms", "Customer analytics tools", "Competitor analysis software"]
+      duration: "3 weeks"
+      outputs: ["Market opportunity report", "Customer segmentation analysis"]
+    - step: 2
+      actor: "Data Analyst"
+      action: "Develop AI recommendation algorithms using customer data"
+      tools: ["Python", "Machine learning libraries", "Data visualization tools"]
+      duration: "6 weeks"
+      outputs: ["AI model specifications", "Training data sets", "Algorithm performance benchmarks"]
+    - step: 3
+      actor: "IT Developer"
+      action: "Integrate AI recommendations into e-commerce platform"
+      tools: ["Web development frameworks", "API integration tools", "Testing environments"]
+      duration: "4 weeks"
+      outputs: ["Updated platform code", "Integration test results"]
+    - step: 4
+      actor: "Marketing Specialist"
+      action: "Create targeted marketing campaigns for e-commerce expansion"
+      tools: ["Digital marketing platforms", "A/B testing tools", "Customer email systems"]
+      duration: "3 weeks"
+      outputs: ["Campaign strategy documents", "Creative assets"]
+    - step: 5
+      actor: "Logistics Coordinator"
+      action: "Optimize delivery and fulfillment processes for online orders"
+      decision_points: ["Last-mile delivery partnerships", "Warehouse capacity requirements"]
+      duration: "4 weeks"
+      outputs: ["Logistics optimization plan", "Delivery SLA agreements"]
+    - step: 6
+      actor: "E-commerce Director"
+      action: "Launch expanded platform and monitor key performance indicators"
+      tools: ["E-commerce analytics dashboards", "Customer feedback systems", "Performance monitoring tools"]
+      duration: "6 weeks"
+      outputs: ["Launch report", "KPI tracking dashboard", "Optimization roadmap"]
+  success_criteria: "Successful e-commerce expansion with AI-driven personalization increasing average order value"
+  failure_modes: ["AI model accuracy issues", "Platform scalability problems", "Logistics bottlenecks"]
+  metrics:
+    - "E-commerce revenue growth: Target 50% increase year-over-year"
+    - "Average order value: Target 20% improvement through AI recommendations"
+    - "Customer acquisition cost: Target 15% reduction through targeted marketing"
+    - "Order fulfillment accuracy: Target >98% for online orders"
+    - "Platform conversion rate: Target 3% improvement"

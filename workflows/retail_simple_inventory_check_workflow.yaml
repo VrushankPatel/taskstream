@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Retail Simple Inventory Check Workflow
 description: Streamlined daily inventory verification process for retail stores to ensure stock accuracy and prevent stockouts or overstocking
 version: 1.0
@@ -56,3 +57,4 @@ metrics:
   - "Discrepancy resolution rate: >95%"
   - "System update completion: 100%"
   - "Staff Training Completion: 100%"
+

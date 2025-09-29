@@ -1,0 +1,62 @@
+workflow:
+  id: "workflow_insurance_fraud_detection"
+  title: "Insurance Fraud Detection and Investigation Process"
+  department: "Claims & Fraud Prevention"
+  complexity: "complex"
+  participants: ["Fraud Investigator", "Claims Adjuster", "Data Analyst", "Legal Counsel", "Special Investigations Unit"]
+  trigger: "Claim filing with suspicious indicators or automated fraud alerts"
+  steps:
+    - step: 1
+      actor: "Data Analyst"
+      action: "Run automated fraud detection algorithms on claim data"
+      tools: ["Fraud detection software", "Claims database", "External data sources"]
+      duration: "30 minutes"
+      outputs: ["Fraud risk score and flags"]
+    - step: 2
+      actor: "Fraud Investigator"
+      action: "Review flagged claims for red flags and inconsistencies"
+      tools: ["Claim documentation", "Fraud investigation checklist"]
+      duration: "2 hours"
+      outputs: ["Initial investigation report"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Conduct interviews with claimant, witnesses, and involved parties"
+      tools: ["Interview scripts", "Recording equipment", "Background check tools"]
+      duration: "4 hours"
+      outputs: ["Interview summaries and evidence"]
+    - step: 4
+      actor: "Data Analyst"
+      action: "Analyze financial transactions and patterns for money laundering indicators"
+      tools: ["Financial analysis software", "Banking databases", "Transaction monitoring systems"]
+      duration: "3 hours"
+      outputs: ["Financial analysis report"]
+    - step: 5
+      actor: "Special Investigations Unit"
+      action: "Coordinate with law enforcement if criminal activity suspected"
+      tools: ["Law enforcement communication protocols", "Evidence preservation procedures"]
+      duration: "2 hours"
+      outputs: ["Law enforcement referral documentation"]
+    - step: 6
+      actor: "Legal Counsel"
+      action: "Review evidence and provide legal recommendations"
+      tools: ["Legal research databases", "Case law references"]
+      duration: "4 hours"
+      outputs: ["Legal assessment and recommendations"]
+    - step: 7
+      actor: "Fraud Investigator"
+      action: "Prepare final investigation report and recommend claim disposition"
+      tools: ["Investigation report template", "Evidence documentation system"]
+      duration: "2 hours"
+      outputs: ["Final investigation report", "Claim disposition recommendation"]
+    - step: 8
+      actor: "Claims Adjuster"
+      action: "Implement claim decision and communicate with claimant"
+      tools: ["Claims processing system", "Communication templates"]
+      duration: "1 hour"
+      outputs: ["Claim resolution", "Claimant notification"]
+  success_criteria: "Fraud detection accuracy of 95%, investigation completed within 30 days, legal compliance maintained"
+  failure_modes: ["Insufficient evidence", "Legal procedural errors", "False positives", "Claimant appeals"]
+  metrics:
+    - "Fraud detection accuracy: 95% target"
+    - "Investigation completion time: 30 days target"
+    - "False positive rate: <5% target"

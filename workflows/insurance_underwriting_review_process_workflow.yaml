@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_insurance_underwriting_review_process"
+  title: "Insurance Underwriting Review Process"
+  department: "Underwriting"
+  complexity: "medium"
+  participants: ["Underwriting Assistant", "Underwriter", "Senior Underwriter", "Risk Manager"]
+  trigger: "New insurance application submission"
+  steps:
+    - step: 1
+      actor: "Underwriting Assistant"
+      action: "Review application completeness and gather required documentation"
+      tools: ["Application management system", "Document verification checklist"]
+      duration: "2 hours"
+      outputs: ["Complete application package"]
+    - step: 2
+      actor: "Underwriting Assistant"
+      action: "Perform initial risk assessment using automated scoring"
+      tools: ["Risk assessment software", "Underwriting guidelines"]
+      duration: "1 hour"
+      outputs: ["Initial risk score", "Preliminary findings"]
+    - step: 3
+      actor: "Underwriter"
+      action: "Conduct detailed underwriting review and risk analysis"
+      tools: ["Underwriting manual", "Risk modeling tools", "Industry databases"]
+      duration: "4 hours"
+      outputs: ["Detailed risk assessment", "Pricing recommendation"]
+    - step: 4
+      actor: "Senior Underwriter"
+      action: "Review complex cases and approve/reject applications"
+      tools: ["Approval authority matrix", "Exception handling procedures"]
+      duration: "2 hours"
+      outputs: ["Final underwriting decision", "Terms and conditions"]
+    - step: 5
+      actor: "Risk Manager"
+      action: "Review high-risk approvals and portfolio impact"
+      tools: ["Portfolio analytics", "Risk concentration reports"]
+      duration: "1 hour"
+      outputs: ["Portfolio risk assessment"]
+  success_criteria: "Accurate risk assessment, timely processing, profitable underwriting decisions"
+  failure_modes: ["Incomplete documentation", "Inadequate risk assessment", "Processing delays"]
+  metrics:
+    - "Processing time: <5 business days"
+    - "Approval rate: 75%+"
+    - "Loss ratio: <85%"

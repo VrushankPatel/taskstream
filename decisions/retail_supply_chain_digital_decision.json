@@ -1,0 +1,49 @@
+{
+  "scenario_id": "retail_supply_chain_digital_2025",
+  "context": "Large retail chain facing supply chain disruptions and seeking digital transformation",
+  "stakeholders": {
+    "requester": "VP Supply Chain",
+    "approvers": ["CEO", "COO"],
+    "influencers": ["IT Director", "Finance Controller", "Store Operations Manager"]
+  },
+  "request": {
+    "amount": "$4,500,000",
+    "purpose": "Implement AI-powered supply chain optimization platform",
+    "urgency": "high",
+    "justification": "Reduce stockouts by 40% and improve inventory turnover from 4x to 6x annually"
+  },
+  "decision_process": [
+    {
+      "stage": "current_state_analysis",
+      "duration": "2 weeks",
+      "activities": ["Supply chain audit", "Performance benchmarking", "Pain point identification"],
+      "outcome": "Identified 35% inventory carrying cost opportunity and 25% stockout reduction potential"
+    },
+    {
+      "stage": "solution_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor RFP process", "Proof of concept testing", "ROI validation"],
+      "outcome": "Selected AI platform with proven retail implementations and strong predictive analytics"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 weeks",
+      "activities": ["Change management strategy", "Training program design", "Risk mitigation planning"],
+      "outcome": "Comprehensive rollout plan with phased approach across 200 stores"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 week",
+      "activities": ["Executive committee review", "Budget allocation", "Project kickoff"],
+      "outcome": "Approved with quarterly milestone reviews"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Optimized inventory levels, reduced stockouts, and improved cash flow through better supply chain efficiency",
+    "projected_value": "$15,000,000 annual cost savings",
+    "risk_factors": ["Data quality requirements", "Employee resistance to AI recommendations", "Integration with existing ERP systems"]
+  },
+  "decision_criteria": ["AI accuracy >90%", "Implementation timeline <9 months", "Integration with existing systems", "Scalability across store network"],
+  "outcome": "Approved",
+  "lessons_learned": "AI adoption requires strong data foundation, executive sponsorship essential for organizational change"
+}

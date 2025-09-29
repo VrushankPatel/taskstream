@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_healthcare_patient_admission_process"
+  title: "Healthcare Patient Admission Process"
+  department: "Patient Services"
+  complexity: "medium"
+  participants: ["Registration Clerk", "Nurse", "Admitting Physician", "Case Manager"]
+  trigger: "Patient arrival for scheduled admission or emergency admission"
+  steps:
+    - step: 1
+      actor: "Registration Clerk"
+      action: "Verify patient identity and insurance information"
+      tools: ["Patient registration system", "Insurance verification portal"]
+      duration: "15 minutes"
+      outputs: ["Verified patient record", "Insurance confirmation"]
+    - step: 2
+      actor: "Nurse"
+      action: "Perform initial assessment and vital signs"
+      tools: ["Electronic health record", "Medical equipment"]
+      duration: "30 minutes"
+      outputs: ["Initial assessment report", "Vital signs documentation"]
+    - step: 3
+      actor: "Admitting Physician"
+      action: "Conduct admission examination and order initial tests"
+      tools: ["Medical examination tools", "Laboratory ordering system"]
+      duration: "45 minutes"
+      outputs: ["Admission orders", "Initial treatment plan"]
+    - step: 4
+      actor: "Case Manager"
+      action: "Complete admission paperwork and care coordination"
+      tools: ["Care management software", "Discharge planning templates"]
+      duration: "1 hour"
+      outputs: ["Admission documentation", "Care coordination plan"]
+  success_criteria: "Complete patient admission within 2 hours, accurate documentation, appropriate care initiation"
+  failure_modes: ["Insurance verification delays", "Incomplete medical history", "Communication breakdowns"]
+  metrics:
+    - "Admission completion time: <2 hours"
+    - "Documentation accuracy: 99%+"
+    - "Patient satisfaction: 4.2/5"

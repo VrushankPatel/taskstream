@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_utilities_grid_maintenance_scheduling_medium"
+  title: "Utilities Grid Maintenance Scheduling Process"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Maintenance Scheduler", "Grid Operations Manager", "Field Engineers", "Regulatory Compliance Officer"]
+  trigger: "Quarterly maintenance planning cycle"
+  steps:
+    - step: 1
+      actor: "Maintenance Scheduler"
+      action: "Review equipment performance data and identify maintenance needs"
+      tools: ["SCADA System", "Asset Management Database"]
+      duration: "4 hours"
+      outputs: ["Maintenance priority list"]
+      decision_points: ["Critical equipment identification"]
+    - step: 2
+      actor: "Grid Operations Manager"
+      action: "Assess operational impact and schedule maintenance windows"
+      tools: ["Load Forecasting System", "Outage Planning Tool", "Predictive Maintenance Software"]
+      duration: "2 hours"
+      outputs: ["Maintenance schedule draft"]
+      decision_points: ["Peak load avoidance", "Backup system availability", "Weather impact assessment", "Resource availability check"]
+    - step: 3
+      actor: "Regulatory Compliance Officer"
+      action: "Review schedule for regulatory compliance requirements"
+      tools: ["Regulatory Database", "Compliance Checklist", "NERC CIP Compliance System"]
+      duration: "1 hour"
+      outputs: ["Compliance assessment"]
+      decision_points: ["Regulatory deadline assessment", "Permit requirement check"]
+    - step: 4
+      actor: "Maintenance Scheduler"
+      action: "Coordinate with stakeholders and finalize schedule"
+      tools: ["Scheduling System", "Communication Platform", "Stakeholder Management Database"]
+      duration: "2 hours"
+      outputs: ["Final maintenance schedule", "Stakeholder notifications"]
+      decision_points: ["Stakeholder approval required", "Schedule adjustment needed"]
+    - step: 5
+      actor: "Field Engineers"
+      action: "Prepare maintenance plans and resource requirements"
+      tools: ["Work Order System", "Parts Inventory", "Safety Equipment Database"]
+      duration: "4 hours"
+      outputs: ["Maintenance work packages"]
+      decision_points: ["Special equipment needed", "Safety protocol updates required"]
+  success_criteria: "Maintenance completed on schedule with <2% service interruption"
+  failure_modes: ["Equipment failure during maintenance", "Resource unavailability", "Weather delays"]
+  metrics:
+    - "Schedule adherence: >95%"
+    - "Service interruption: <2%"
+    - "Maintenance cost: Within budget"

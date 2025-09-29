@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_inventory_count"
+  title: "Retail Inventory Count Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
+  trigger: "Monthly cycle or discrepancy detection"
+  steps:
+    - step: 1
+      actor: "Inventory Clerk"
+      action: "Prepare counting sheets and equipment"
+      tools: ["Barcode scanners", "Counting forms"]
+      duration: "30 minutes"
+      outputs: ["Prepared counting materials"]
+    - step: 2
+      actor: "Inventory Clerk"
+      action: "Count inventory by section"
+      tools: ["Mobile counting device", "Section maps"]
+      duration: "3 hours"
+      outputs: ["Section count records"]
+    - step: 3
+      actor: "Assistant Manager"
+      action: "Verify counts and identify discrepancies"
+      tools: ["Inventory system", "Variance calculator"]
+      duration: "1 hour"
+      outputs: ["Variance report"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Review and approve inventory adjustments"
+      tools: ["Management dashboard", "Approval system"]
+      duration: "30 minutes"
+      outputs: ["Updated inventory records"]
+  success_criteria: "Count completed within 5 hours, accuracy >98%, discrepancies investigated"
+  failure_modes: ["Incomplete counts", "System errors", "Unauthorized adjustments"]
+  metrics:
+    - "Accuracy rate: 98% target"
+    - "Completion time: <5 hours"
+    - "Shrinkage detection: >90% of losses identified"

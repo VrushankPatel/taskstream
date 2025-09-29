@@ -1,43 +1,43 @@
 {
-  "scenario_id": "utilities_renewable_transition_2025",
-  "context": "Municipal utility company planning transition from coal-based to renewable energy sources to meet regulatory requirements and reduce carbon emissions",
+  "scenario_id": "utilities_renewable_energy_transition_2025",
+  "context": "Major utility company evaluating transition to 50% renewable energy by 2030, requiring $2.5B investment over 5 years",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["Board of Directors", "CEO", "Regulatory Affairs Director"],
-    "influencers": ["Chief Engineer", "Finance Director", "Community Relations Manager"]
+    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
+    "influencers": ["Chief Operating Officer", "VP Regulatory Affairs", "VP Engineering", "Environmental Groups"]
   },
   "request": {
-    "amount": "$500,000,000",
-    "purpose": "Construction of solar and wind farms to replace 40% of coal generation capacity",
+    "amount": "$2,500,000,000",
+    "purpose": "Renewable energy infrastructure development (solar, wind, battery storage)",
     "urgency": "high",
-    "justification": "Compliance with new emissions regulations and achievement of carbon neutrality by 2035"
+    "justification": "Regulatory compliance, cost savings from declining renewable prices, improved public image"
   },
   "decision_process": [
     {
-      "stage": "feasibility_study",
-      "duration": "6 months",
-      "activities": ["Site assessments", "Environmental impact studies", "Cost-benefit analysis"],
-      "outcome": "Feasible with optimal sites identified"
-    },
-    {
-      "stage": "regulatory_approval",
-      "duration": "4 months",
-      "activities": ["Permit applications", "Public hearings", "Environmental reviews"],
-      "outcome": "All permits secured"
-    },
-    {
-      "stage": "funding_arrangement",
+      "stage": "feasibility_analysis",
       "duration": "3 months",
-      "activities": ["Bond issuance", "Grant applications", "Partnership negotiations"],
-      "outcome": "Funding secured through green bonds and government grants"
+      "activities": ["Technical feasibility study", "Cost-benefit analysis", "Regulatory impact assessment", "Stakeholder consultations"],
+      "outcome": "Feasible with projected 15% ROI over 20 years"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "6 months",
+      "activities": ["Small-scale renewable installations", "Performance monitoring", "Community engagement", "Regulatory approvals"],
+      "outcome": "Successful pilot showing 12% efficiency gains"
+    },
+    {
+      "stage": "full_implementation_planning",
+      "duration": "4 months",
+      "activities": ["Detailed project planning", "Vendor selection", "Financing arrangements", "Risk mitigation planning"],
+      "outcome": "Comprehensive implementation plan approved"
     }
   ],
   "business_impact": {
-    "expected_outcome": "40% reduction in carbon emissions, compliance with regulations, improved public image",
-    "projected_value": "$200,000,000 in long-term cost savings",
-    "risk_factors": ["Weather dependency", "Grid stability concerns", "Higher initial capital costs"]
+    "expected_outcome": "50% renewable energy mix by 2030, reduced carbon emissions by 40%",
+    "projected_value": "$800,000,000 in cost savings over 20 years",
+    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Higher-than-expected costs", "Grid stability concerns"]
   },
-  "decision_criteria": ["Regulatory compliance", "Financial viability", "Technical feasibility", "Community support"],
+  "decision_criteria": ["Financial viability", "Regulatory compliance", "Technical feasibility", "Stakeholder support", "Environmental impact"],
   "outcome": "Approved",
-  "lessons_learned": "Early community engagement essential for renewable projects, regulatory timelines often exceed expectations"
+  "lessons_learned": "Early stakeholder engagement crucial, pilot programs reduce implementation risk, long-term planning essential for infrastructure projects"
 }

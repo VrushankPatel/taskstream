@@ -1,0 +1,43 @@
+{
+  "scenario_id": "aerospace_drone_regulatory_compliance_decision",
+  "context": "Aerospace company expanding drone operations for infrastructure inspection, facing new regulatory requirements for beyond-visual-line-of-sight operations",
+  "stakeholders": {
+    "requester": "Operations Director",
+    "approvers": ["Chief Compliance Officer", "CEO"],
+    "influencers": ["Regulatory Affairs", "Legal Counsel", "Insurance Providers"]
+  },
+  "request": {
+    "amount": "$800,000",
+    "purpose": "Implement regulatory compliance systems for expanded drone operations including software upgrades and pilot training",
+    "urgency": "medium",
+    "justification": "New FAA regulations require enhanced safety systems, market opportunity in infrastructure inspection growing 40% annually"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "4 weeks",
+      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Technology evaluation"],
+      "outcome": "Clear compliance roadmap identified, certification path established"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling", "Market opportunity assessment", "Risk evaluation"],
+      "outcome": "Projected 3-year ROI of 180%, market expansion opportunity confirmed"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "3 weeks",
+      "activities": ["Vendor selection", "Timeline development", "Resource allocation"],
+      "outcome": "Phased implementation plan approved, training program designed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Expanded service offerings and 35% revenue growth in inspection services",
+    "projected_value": "$2,100,000 additional annual revenue",
+    "risk_factors": ["Regulatory changes", "Technology integration challenges", "Insurance cost increases"]
+  },
+  "decision_criteria": ["Regulatory compliance", "Financial return", "Operational feasibility", "Market opportunity", "Risk mitigation"],
+  "outcome": "Approved",
+  "lessons_learned": "Proactive regulatory compliance investments create competitive advantage in emerging aerospace markets"
+}

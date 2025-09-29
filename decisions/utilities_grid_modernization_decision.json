@@ -1,43 +1,43 @@
 {
-  "scenario_id": "utilities_grid_modernization_2025",
-  "context": "Municipal utility company planning smart grid infrastructure upgrade",
+  "scenario_id": "utilities_grid_modernization_decision",
+  "context": "Regional utility company evaluating smart grid modernization to improve reliability and enable renewable integration",
   "stakeholders": {
-    "requester": "Chief Technology Officer",
-    "approvers": ["Board of Directors", "City Council", "CEO"],
-    "influencers": ["Operations Director", "Regulatory Affairs Manager", "Customer Service VP"]
+    "requester": "VP Operations",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Technology Officer", "Regulatory Affairs Director", "Customer Service VP"]
   },
   "request": {
-    "amount": "$45,000,000",
-    "purpose": "Smart grid sensors, automated switches, and data analytics platform",
-    "urgency": "high",
-    "justification": "Reduce outage times by 40%, improve renewable energy integration"
+    "amount": "$85 million",
+    "purpose": "Smart grid infrastructure including sensors, automated switches, and advanced metering",
+    "urgency": "medium",
+    "justification": "Reduce outage times, improve renewable energy utilization, enhance customer service"
   },
   "decision_process": [
     {
-      "stage": "technical_evaluation",
-      "duration": "4 weeks",
-      "activities": ["Vendor technology assessment", "Infrastructure compatibility analysis", "Pilot program design"],
-      "outcome": "Three vendor shortlist selected"
+      "stage": "needs_assessment",
+      "duration": "2 months",
+      "activities": ["Current infrastructure evaluation", "Customer needs analysis", "Technology assessment"],
+      "outcome": "Clear modernization requirements identified"
     },
     {
-      "stage": "financial_modeling",
-      "duration": "3 weeks",
-      "activities": ["Cost-benefit analysis", "Funding options exploration", "Rate impact assessment"],
+      "stage": "vendor_evaluation",
+      "duration": "3 months",
+      "activities": ["RFP process", "Vendor demonstrations", "Technical evaluations"],
+      "outcome": "Preferred vendor selected"
+    },
+    {
+      "stage": "financial_analysis",
+      "duration": "1 month",
+      "activities": ["Cost-benefit analysis", "Funding strategy", "Rate impact study"],
       "outcome": "Positive ROI confirmed"
-    },
-    {
-      "stage": "regulatory_approval",
-      "duration": "6 weeks",
-      "activities": ["Public utility commission filing", "Stakeholder hearings", "Environmental impact review"],
-      "outcome": "Regulatory approval granted"
     }
   ],
   "business_impact": {
-    "expected_outcome": "40% reduction in outage duration, 25% improvement in renewable energy utilization",
-    "projected_value": "$12,000,000 annual savings",
-    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory delays"]
+    "expected_outcome": "35% reduction in outage duration, 50% improvement in renewable energy integration",
+    "projected_value": "$25 million annual operational savings",
+    "risk_factors": ["Implementation delays", "Cybersecurity concerns", "Technology obsolescence"]
   },
-  "decision_criteria": ["Regulatory compliance", "Financial viability", "Technical reliability", "Customer benefit"],
+  "decision_criteria": ["Financial return", "Operational improvement", "Customer benefit", "Regulatory compliance"],
   "outcome": "Approved",
-  "lessons_learned": "Regulatory engagement must start early, comprehensive cybersecurity planning essential for infrastructure projects"
+  "lessons_learned": "Comprehensive stakeholder engagement essential for infrastructure modernization projects"
 }

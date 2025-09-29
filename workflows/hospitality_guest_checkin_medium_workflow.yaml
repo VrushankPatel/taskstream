@@ -1,0 +1,42 @@
+workflow:
+  id: "workflow_hospitality_guest_checkin_medium"
+  title: "Hotel Guest Check-In Process"
+  department: "Front Office"
+  complexity: "medium"
+  participants: ["Front Desk Agent", "Guest", "Housekeeping Supervisor"]
+  trigger: "Guest arrives at hotel reception"
+  steps:
+     - step: 1
+       actor: "Front Desk Agent"
+       action: "Verify reservation and collect guest identification"
+       tools: ["Property Management System", "ID Scanner"]
+       duration: "5 minutes"
+       outputs: ["Verified Reservation Details"]
+       decision_points: ["Reservation exists and is valid?", "ID verification successful?", "Special requests noted?"]
+     - step: 2
+       actor: "Front Desk Agent"
+       action: "Process payment and assign room"
+       tools: ["Credit Card Terminal", "Room Assignment System"]
+       duration: "3 minutes"
+       outputs: ["Room Key", "Receipt"]
+       decision_points: ["Payment method accepted?", "Room assignment available?", "Upgrade eligibility?"]
+     - step: 3
+       actor: "Front Desk Agent"
+       action: "Coordinate with housekeeping for room readiness"
+       tools: ["Internal Communication System", "Room Status Dashboard"]
+       duration: "2 minutes"
+       outputs: ["Room Readiness Confirmation", "Estimated Wait Time"]
+       decision_points: ["Room ready immediately?", "Housekeeping delay expected?", "Alternative room needed?"]
+     - step: 4
+       actor: "Front Desk Agent"
+       action: "Provide guest orientation and amenities information"
+       tools: ["Hotel Information Packet", "Digital Concierge App"]
+       duration: "3 minutes"
+       outputs: ["Guest Welcome Package", "Digital Access Credentials"]
+       decision_points: ["Guest requires additional assistance?", "Transportation arrangements needed?", "Welcome package customization required?"]
+  success_criteria: "Guest checked in efficiently with assigned room and all amenities explained"
+  failure_modes: ["Reservation discrepancies", "Room not ready", "Payment processing issues", "System downtime"]
+  metrics:
+    - "Average Check-In Time: 10 minutes"
+    - "Guest Satisfaction Score: 4.2/5"
+    - "Room Assignment Accuracy: 98%"

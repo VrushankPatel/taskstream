@@ -31,11 +31,11 @@ For questions or scheduling conflicts, please contact the Safety Training Coordi
 
 Safety remains our top priority as we implement these advanced technologies. Your participation ensures a smooth and secure transition.
 
-Best regards,  
-Sarah Johnson  
-Safety Director  
-Advanced Robotics Division  
-sarah.johnson@company.com  
+Best regards,
+Sarah Johnson
+Safety Director
+Advanced Robotics Division
+sarah.johnson@company.com
 (555) 123-4567
 
 **Follow-up:** Training completion tracking will begin October 15. Supervisors will receive weekly progress reports.

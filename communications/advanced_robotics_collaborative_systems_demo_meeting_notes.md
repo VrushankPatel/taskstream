@@ -66,7 +66,7 @@ Vendor presented live demonstration of collaborative robot systems in manufactur
 
 Meeting concluded with Q&A session. All attendees expressed confidence in the technology's safety and benefits.
 
-**Minutes prepared by:** Tom Wilson  
+**Minutes prepared by:** Tom Wilson
 **Approved by:** Lisa Rodriguez, Plant Manager
 
 **Follow-up:**

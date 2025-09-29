@@ -1,45 +1,67 @@
 workflow:
-  id: "workflow_aerospace_simple_drone_maintenance"
-  title: "Drone Maintenance and Inspection Workflow"
-  department: "Aerospace Operations"
-  complexity: "simple"
-  participants: ["Drone Technician", "Quality Inspector", "Operations Manager"]
-  trigger: "Scheduled maintenance cycle or post-flight inspection"
+  id: workflow_aerospace_simple_drone_maintenance
+  title: Drone Maintenance and Inspection Workflow
+  department: Aerospace Operations
+  complexity: simple
+  participants:
+  - Drone Technician
+  - Quality Inspector
+  - Operations Manager
+  trigger: Scheduled maintenance cycle or post-flight inspection
   temporal_data:
-    first_implemented: "2022-11-20"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "30 minutes"
+    first_implemented: '2022-11-20'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 30 minutes
     average_annual_executions: 500
-    seasonal_variations: ["Q2/Q3 peak operations", "Q4 weather-related checks"]
-    historical_evolution: "Transitioned from paper logs to digital maintenance tracking"
+    seasonal_variations:
+    - Q2/Q3 peak operations
+    - Q4 weather-related checks
+    historical_evolution: Transitioned from paper logs to digital maintenance tracking
   steps:
-     - step: 1
-       actor: "Drone Technician"
-       action: "Conduct pre-flight visual inspection and system diagnostics"
-       tools: ["Diagnostic software", "Inspection checklist"]
-       duration: "15 minutes"
-       outputs: ["Inspection report"]
-       decision_points: ["Diagnostic failure criteria", "Visual inspection issues"]
-     - step: 2
-       actor: "Quality Inspector"
-       action: "Verify compliance with safety standards and log findings"
-       tools: ["Quality assurance database"]
-       duration: "10 minutes"
-       outputs: ["Compliance certificate"]
-       decision_points: ["Compliance standards met", "Safety violations detected"]
-     - step: 3
-       actor: "Operations Manager"
-       action: "Approve maintenance completion and schedule next inspection"
-       tools: ["Maintenance scheduling system"]
-       duration: "5 minutes"
-       outputs: ["Maintenance schedule update"]
-       decision_points: ["Maintenance scheduling priorities", "Next inspection timeline"]
-  success_criteria: "Drone passes all inspections and is certified for operation"
-  failure_modes: ["Component failure detected", "Calibration out of spec"]
+  - step: 1
+    actor: Drone Technician
+    action: Conduct pre-flight visual inspection and system diagnostics
+    tools:
+    - Diagnostic software
+    - Inspection checklist
+    duration: 15 minutes
+    outputs:
+    - Inspection report
+    decision_points:
+    - Diagnostic failure criteria
+    - Visual inspection issues
+  - step: 2
+    actor: Quality Inspector
+    action: Verify compliance with safety standards and log findings
+    tools:
+    - Quality assurance database
+    duration: 10 minutes
+    outputs:
+    - Compliance certificate
+    decision_points:
+    - Compliance standards met
+    - Safety violations detected
+  - step: 3
+    actor: Operations Manager
+    action: Approve maintenance completion and schedule next inspection
+    tools:
+    - Maintenance scheduling system
+    duration: 5 minutes
+    outputs:
+    - Maintenance schedule update
+    decision_points:
+    - Maintenance scheduling priorities
+    - Next inspection timeline
+  success_criteria: Drone passes all inspections and is certified for operation
+  failure_modes:
+  - Component failure detected
+  - Calibration out of spec
   metrics:
-    - "Maintenance completion rate: 95%"
-    - "Average downtime: 30 minutes"
+  - 'Maintenance completion rate: 95%'
+  - 'Average downtime: 30 minutes'
   performance_history:
-    success_rate_trend: "92% (2023) → 94% (2024) → 95% (2025)"
-    cost_trend: "$75K (2023) → $70K (2024) → $65K (2025)"
-    efficiency_improvements: ["Automated diagnostics reduced inspection time by 25%", "Digital logging improved tracking by 30%"]
+    success_rate_trend: 92% (2023) → 94% (2024) → 95% (2025)
+    cost_trend: $75K (2023) → $70K (2024) → $65K (2025)
+    efficiency_improvements:
+    - Automated diagnostics reduced inspection time by 25%
+    - Digital logging improved tracking by 30%

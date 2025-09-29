@@ -40,10 +40,10 @@ Your cooperation during this transition is crucial for maximizing the benefits o
 
 Thank you for your commitment to advancing our agricultural practices.
 
-Best regards,  
-Michael Chen  
-Director of Agricultural Operations  
-michael.chen@agricorp.com  
+Best regards,
+Michael Chen
+Director of Agricultural Operations
+michael.chen@agricorp.com
 (555) 987-6543
 
 **Follow-up:** Progress updates will be provided bi-weekly. Equipment delivery confirmations will be sent individually.

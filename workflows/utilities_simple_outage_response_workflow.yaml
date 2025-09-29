@@ -1,46 +1,82 @@
 workflow:
-  id: "workflow_utilities_simple_outage_response"
-  title: "Power Outage Response and Restoration Process"
-  department: "Grid Operations"
-  complexity: "simple"
-  participants: ["Control Room Operator", "Field Technician", "Outage Coordinator"]
-  trigger: "Customer reports power outage or monitoring system detects interruption"
+  id: workflow_utilities_simple_outage_response
+  title: Power Outage Response and Restoration Process
+  department: Grid Operations
+  complexity: simple
+  participants:
+  - Control Room Operator
+  - Field Technician
+  - Outage Coordinator
+  trigger: Customer reports power outage or monitoring system detects interruption
   temporal_data:
-    first_implemented: "2017-01-01"
-    last_updated: "2024-07-01"
-    typical_cycle_time: "1-4 hours"
+    first_implemented: '2017-01-01'
+    last_updated: '2024-07-01'
+    typical_cycle_time: 1-4 hours
     average_annual_executions: 12500
-    seasonal_variations: ["Q1 peak for winter storms", "Q3 peak for summer heat waves"]
-    historical_evolution: "Added predictive analytics in 2022, drone inspection capability in 2024"
+    seasonal_variations:
+    - Q1 peak for winter storms
+    - Q3 peak for summer heat waves
+    historical_evolution: Added predictive analytics in 2022, drone inspection capability
+      in 2024
   steps:
-     - step: 1
-       actor: "Control Room Operator"
-       action: "Verify outage through SCADA system and customer reports, isolate affected area"
-       tools: ["SCADA System", "Outage Management System"]
-       duration: "5-15 minutes"
-       outputs: ["Outage confirmation", "Affected customer count"]
-       decision_points: ["Outage confirmed? (Yes/No)", "Safety hazards present? (Yes/No)", "Critical infrastructure affected? (Yes/No)"]
-     - step: 2
-       actor: "Outage Coordinator"
-       action: "Assess outage cause, prioritize restoration based on critical infrastructure impact"
-       tools: ["GIS Mapping", "Priority Matrix"]
-       duration: "15-30 minutes"
-       outputs: ["Restoration plan", "Resource allocation"]
-       decision_points: ["Cause identified? (Yes/No)", "Parts required? (Yes/No)", "Multiple crews needed? (Yes/No)"]
-     - step: 3
-       actor: "Field Technician"
-       action: "Deploy to site, diagnose issue, and perform repairs"
-       tools: ["Diagnostic Equipment", "Repair Tools", "Safety Gear"]
-       duration: "30-180 minutes"
-       outputs: ["Repair completion", "System restoration"]
-       decision_points: ["Issue diagnosed? (Yes/No)", "Repair possible on-site? (Yes/No)", "Power safely restored? (Yes/No)"]
-  success_criteria: "Power restored within 4 hours for 95% of outages with safety protocols followed"
-  failure_modes: ["Equipment failure requiring parts", "Safety hazards delaying access", "Multiple simultaneous outages"]
+  - step: 1
+    actor: Control Room Operator
+    action: Verify outage through SCADA system and customer reports, isolate affected
+      area
+    tools:
+    - SCADA System
+    - Outage Management System
+    duration: 5-15 minutes
+    outputs:
+    - Outage confirmation
+    - Affected customer count
+    decision_points:
+    - Outage confirmed? (Yes/No)
+    - Safety hazards present? (Yes/No)
+    - Critical infrastructure affected? (Yes/No)
+  - step: 2
+    actor: Outage Coordinator
+    action: Assess outage cause, prioritize restoration based on critical infrastructure
+      impact
+    tools:
+    - GIS Mapping
+    - Priority Matrix
+    duration: 15-30 minutes
+    outputs:
+    - Restoration plan
+    - Resource allocation
+    decision_points:
+    - Cause identified? (Yes/No)
+    - Parts required? (Yes/No)
+    - Multiple crews needed? (Yes/No)
+  - step: 3
+    actor: Field Technician
+    action: Deploy to site, diagnose issue, and perform repairs
+    tools:
+    - Diagnostic Equipment
+    - Repair Tools
+    - Safety Gear
+    duration: 30-180 minutes
+    outputs:
+    - Repair completion
+    - System restoration
+    decision_points:
+    - Issue diagnosed? (Yes/No)
+    - Repair possible on-site? (Yes/No)
+    - Power safely restored? (Yes/No)
+  success_criteria: Power restored within 4 hours for 95% of outages with safety protocols
+    followed
+  failure_modes:
+  - Equipment failure requiring parts
+  - Safety hazards delaying access
+  - Multiple simultaneous outages
   metrics:
-    - "Average Restoration Time: 2.5 hours target"
-    - "Customer Satisfaction: 90% target"
-    - "Safety Incident Rate: 0% target"
+  - 'Average Restoration Time: 2.5 hours target'
+  - 'Customer Satisfaction: 90% target'
+  - 'Safety Incident Rate: 0% target'
   performance_history:
-    success_rate_trend: "88% (2023) → 92% (2024) → 94% (2025)"
-    cost_trend: "$125 (2023) → $115 (2024) → $105 (2025)"
-    efficiency_improvements: ["Predictive maintenance reduced outages by 15%", "Mobile workforce management decreased response time by 25%"]
+    success_rate_trend: 88% (2023) → 92% (2024) → 94% (2025)
+    cost_trend: $125 (2023) → $115 (2024) → $105 (2025)
+    efficiency_improvements:
+    - Predictive maintenance reduced outages by 15%
+    - Mobile workforce management decreased response time by 25%

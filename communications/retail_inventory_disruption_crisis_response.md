@@ -106,3 +106,43 @@ Full recovery projected within 2 weeks. Strong cross-functional execution demons
 
 Robert  
 Operations Director
+
+---
+
+**From:** CEO  
+**To:** Executive Team, Supply Chain Manager, Store Managers, Customer Service Director  
+**Subject:** Post-Mortem: Supplier Bankruptcy Crisis Response  
+
+Team,
+
+Now that we've successfully navigated the supplier bankruptcy crisis, let's capture key lessons for future improvements:
+
+**What Worked Well:**
+- Rapid cross-functional coordination across all departments
+- Proactive customer communication prevented escalation
+- Emergency budget allocation enabled immediate alternative sourcing
+- Existing supplier network and spot market access proved critical
+
+**Areas for Improvement:**
+- Implement supplier financial health monitoring system
+- Develop dual sourcing strategy for critical product categories
+- Increase safety stock levels for high-risk items
+- Enhance predictive analytics for demand forecasting
+
+**Key Metrics Achieved:**
+- Crisis resolution time: 12 days (faster than initial projection)
+- Revenue impact: $2.1M (60% reduction from initial $3.5M estimate)
+- Customer satisfaction: Maintained 4.1/5 throughout crisis
+- Team response time: <2 hours from crisis notification
+- Alternative sourcing success rate: 85% of required volume secured
+
+**Recommendations for Crisis Framework Enhancement:**
+1. Establish supplier risk assessment quarterly reviews
+2. Create emergency supplier activation protocols
+3. Develop customer compensation tier system
+4. Implement crisis communication templates library
+
+Let's incorporate these lessons into our updated crisis management and business continuity plans.
+
+Sarah  
+CEO

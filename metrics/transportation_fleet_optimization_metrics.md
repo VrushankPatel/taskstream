@@ -38,6 +38,25 @@ Fleet optimization initiatives have achieved 18% fuel cost reduction and 12% imp
   - Human intervention rate: 5%
   - Safety incidents: 0
 
+### Safety Metrics
+- **Accident Rate**: 0.5 per million miles (Target: <0.3)
+  - Property damage incidents: 0.2 per million miles
+  - Injury incidents: 0.3 per million miles
+  - Preventable accidents: 15% of total
+
+- **Driver Safety Score**: 4.7/5 average
+  - Defensive driving compliance: 92%
+  - Speed violation rate: 3%
+  - Distraction monitoring: 95% compliance
+
+- **Near-Miss Reporting**: 85% of drivers actively reporting
+  - Monthly near-miss reports: 45 average
+  - Safety improvement actions: 78% implemented
+
+- **Fatigue Management**: Hours of service compliance 99%
+  - Rest break compliance: 97%
+  - Fatigue-related incidents: 0.1 per 100 drivers
+
 ### Cost Management Metrics
 - **Total Cost per Mile**: $1.85 (Target: $1.75)
   - Fuel: $0.42 (23%)

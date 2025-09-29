@@ -38,6 +38,26 @@
 **IT Support Technician** - Technology infrastructure, software support, cybersecurity
 **Administrative Coordinator** - Scheduling, documentation, vendor management
 
+## Cross-Functional Teams
+
+### Site Safety Integration Teams
+- Multi-disciplinary teams assigned to major construction projects
+- Include representatives from Safety Operations, Automation Technology, and Risk Management
+- Conduct daily safety briefings and weekly comprehensive risk assessments
+- Coordinate technology deployment with on-site safety protocols
+
+### Technology Implementation Teams
+- Dedicated teams for deploying new safety automation technologies
+- Coordinate between Robotics Engineers, IoT Systems Specialists, and Data Analytics Leads
+- Provide hands-on training and technical support during rollout phases
+- Monitor system performance and user adoption metrics
+
+### Emergency Response Teams
+- Trained responders available 24/7 for incident management and crisis response
+- Include medical first responders, technical specialists, and communication coordinators
+- Conduct monthly emergency drills and maintain equipment readiness
+- Coordinate with local emergency services and regulatory authorities
+
 ## Key Responsibilities
 - Implement automated safety monitoring and prevention systems
 - Reduce workplace incidents through technology and training

@@ -90,6 +90,13 @@ Large-scale mining corporation with $8B annual revenue operating in multiple glo
 - **Risk Assessors** (4)
   - Sustainability risk identification and mitigation
 
+## Key Processes
+- **Environmental Impact Assessment**: Quarterly comprehensive assessments across all sites
+- **Stakeholder Engagement**: Monthly community meetings and quarterly indigenous consultations
+- **ESG Reporting**: Annual integrated reporting with quarterly updates
+- **Technology Implementation**: Bi-annual technology evaluation and pilot programs
+- **Training Programs**: Annual sustainability training for all employees
+
 ## Key Characteristics
 - **Integrated Operations** - Sustainability embedded in all mining activities
 - **Global Standards** - Compliance with IFC Performance Standards and local regulations

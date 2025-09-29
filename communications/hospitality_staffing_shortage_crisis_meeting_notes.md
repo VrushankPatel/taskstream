@@ -14,6 +14,12 @@ Industry-wide hospitality staffing shortage affecting 15 properties across 3 reg
 - **Financial Impact**: $2.1M in lost revenue from reduced occupancy and service fees
 - **Competitive Pressure**: Local competitors offering 15-20% higher wages
 
+### Challenges Identified
+- **Talent Competition**: Local hospitality market experiencing 25% labor shortage
+- **Skill Gaps**: New hires requiring 4-6 weeks training vs industry average 2 weeks
+- **Retention Issues**: Average tenure down to 8 months from 18 months
+- **Cost Pressures**: Wage inflation outpacing revenue growth by 8%
+
 ### Immediate Response Strategies
 
 #### Short-term Solutions (Next 30 Days)

@@ -20,30 +20,34 @@ workflow:
       tools: ["Technology Assessment Framework", "Vendor Evaluation Platform", "ROI Calculator", "Regulatory compliance checker"]
       duration: "2 weeks"
       outputs: ["Technology selection report", "Implementation roadmap", "Budget proposal"]
-    - step: 2
-      actor: "IT Support Specialist"
-      action: "Install and configure sensors, GPS systems, and data collection platforms"
-      tools: ["IoT Installation Tools", "Network Configuration Software", "Data Platform Setup"]
-      duration: "3 weeks"
-      outputs: ["Installed sensor network", "Data collection system operational"]
-    - step: 3
-      actor: "Field Operations Supervisor"
-      action: "Train farm operators on new equipment and precision farming techniques"
-      tools: ["Training Materials", "Equipment Simulators", "Field Demonstration Areas"]
-      duration: "2 weeks"
-      outputs: ["Trained operators", "Training completion certificates"]
-    - step: 4
-      actor: "Equipment Maintenance Team"
-      action: "Calibrate sensors and integrate with existing farm equipment"
-      tools: ["Calibration Equipment", "Integration Software", "Diagnostic Tools"]
-      duration: "2 weeks"
-      outputs: ["Calibrated systems", "Equipment integration report"]
-    - step: 5
-      actor: "Data Analyst"
-      action: "Set up data analytics dashboards and establish baseline performance metrics"
-      tools: ["Analytics Platform", "Dashboard Configuration Tools", "Historical Data Import"]
-      duration: "3 weeks"
-      outputs: ["Operational dashboards", "Baseline performance report"]
+     - step: 2
+       actor: "IT Support Specialist"
+       action: "Install and configure sensors, GPS systems, and data collection platforms"
+       decision_points: ["Sensor placement optimization", "Network security protocols", "Data storage and backup solutions"]
+       tools: ["IoT Installation Tools", "Network Configuration Software", "Data Platform Setup"]
+       duration: "3 weeks"
+       outputs: ["Installed sensor network", "Data collection system operational"]
+     - step: 3
+       actor: "Field Operations Supervisor"
+       action: "Train farm operators on new equipment and precision farming techniques"
+       decision_points: ["Training curriculum customization", "Certification requirements", "Ongoing support needs"]
+       tools: ["Training Materials", "Equipment Simulators", "Field Demonstration Areas"]
+       duration: "2 weeks"
+       outputs: ["Trained operators", "Training completion certificates"]
+     - step: 4
+       actor: "Equipment Maintenance Team"
+       action: "Calibrate sensors and integrate with existing farm equipment"
+       decision_points: ["Calibration standards and frequency", "Integration testing protocols", "Fallback procedures"]
+       tools: ["Calibration Equipment", "Integration Software", "Diagnostic Tools"]
+       duration: "2 weeks"
+       outputs: ["Calibrated systems", "Equipment integration report"]
+     - step: 5
+       actor: "Data Analyst"
+       action: "Set up data analytics dashboards and establish baseline performance metrics"
+       decision_points: ["Key performance indicators selection", "Dashboard customization", "Data validation processes"]
+       tools: ["Analytics Platform", "Dashboard Configuration Tools", "Historical Data Import"]
+       duration: "3 weeks"
+       outputs: ["Operational dashboards", "Baseline performance report"]
   success_criteria: "All selected technologies operational with 95% data accuracy and farm operators proficient in system usage"
   failure_modes: ["Technology integration failures", "Operator training challenges", "Data connectivity issues"]
   metrics:

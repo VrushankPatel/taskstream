@@ -14,30 +14,30 @@ workflow:
     historical_evolution: "Started with paper comment cards, transitioned to digital tablets in 2021, integrated AI sentiment analysis in 2023 for proactive responses"
   steps:
     - step: 1
-       actor: "Front Desk Manager"
-       action: "Collect feedback through multiple channels (checkout survey, mobile app, digital kiosks)"
-       decision_points: ["Multilingual survey options for international guests", "Incentives for feedback completion", "Real-time vs delayed collection"]
-       tools: ["Guest Feedback System", "Mobile Survey App", "Digital Kiosks", "Translation services"]
-       duration: "Immediate at checkout"
-       outputs: ["Feedback data captured", "Initial sentiment analysis", "Language preference recorded"]
-  - step: 2
-    actor: "Guest Services Coordinator"
-    action: "Review feedback for urgency and categorize issues (service, facilities, food & beverage)"
-    tools: ["Feedback Management Dashboard", "Priority Classification System"]
-    duration: "2 hours"
-    outputs: ["Categorized feedback report", "Action priority assigned"]
-  - step: 3
-    actor: "Department Heads"
-    action: "Address specific issues and develop improvement actions"
-    tools: ["Department Communication Platform", "Action Tracking System"]
-    duration: "24 hours"
-    outputs: ["Corrective action plan", "Follow-up communication draft"]
-  - step: 4
-    actor: "Quality Assurance Team"
-    action: "Send personalized response to guest and track resolution satisfaction"
-    tools: ["Guest Communication System", "Satisfaction Survey Tool"]
-    duration: "24 hours"
-    outputs: ["Guest response sent", "Resolution tracking initiated"]
+      actor: "Front Desk Manager"
+      action: "Collect feedback through multiple channels (checkout survey, mobile app, digital kiosks)"
+      decision_points: ["Multilingual survey options for international guests", "Incentives for feedback completion", "Real-time vs delayed collection"]
+      tools: ["Guest Feedback System", "Mobile Survey App", "Digital Kiosks", "Translation services"]
+      duration: "Immediate at checkout"
+      outputs: ["Feedback data captured", "Initial sentiment analysis", "Language preference recorded"]
+    - step: 2
+      actor: "Guest Services Coordinator"
+      action: "Review feedback for urgency and categorize issues (service, facilities, food & beverage)"
+      tools: ["Feedback Management Dashboard", "Priority Classification System"]
+      duration: "2 hours"
+      outputs: ["Categorized feedback report", "Action priority assigned"]
+    - step: 3
+      actor: "Department Heads"
+      action: "Address specific issues and develop improvement actions"
+      tools: ["Department Communication Platform", "Action Tracking System"]
+      duration: "24 hours"
+      outputs: ["Corrective action plan", "Follow-up communication draft"]
+    - step: 4
+      actor: "Quality Assurance Team"
+      action: "Send personalized response to guest and track resolution satisfaction"
+      tools: ["Guest Communication System", "Satisfaction Survey Tool"]
+      duration: "24 hours"
+      outputs: ["Guest response sent", "Resolution tracking initiated"]
   success_criteria: "80% of feedback issues resolved within 48 hours with guest satisfaction score >4.2/5"
   failure_modes: ["Delayed response time", "Inadequate follow-up actions", "Poor issue categorization"]
   metrics:

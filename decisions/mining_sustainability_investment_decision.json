@@ -46,6 +46,7 @@
     "roi_timeline": "Expected payback in 6 years",
     "risk_factors": ["Technology integration challenges", "Regulatory changes", "Higher implementation costs", "Operational disruptions"]
   },
+  "success_metrics": ["Water usage reduction: 40% target", "Carbon emissions decrease: 30%", "ESG rating improvement: BB to AA", "Cost savings: $200M over 10 years", "Regulatory compliance: 100%"],
   "decision_criteria": ["Regulatory compliance", "Financial viability (ROI >12%)", "Technical feasibility", "Environmental impact reduction", "Stakeholder acceptance"],
   "outcome": "Approved",
   "implementation_timeline": {

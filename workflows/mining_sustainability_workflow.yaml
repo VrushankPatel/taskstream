@@ -13,36 +13,41 @@ workflow:
     seasonal_variations: ["Q2 environmental assessment peak", "Q4 reporting compliance focus"]
     historical_evolution: "Shifted from reactive compliance to proactive sustainability initiatives in 2023"
   steps:
-    - step: 1
-      actor: "Sustainability Manager"
-      action: "Conduct environmental impact assessment and baseline sustainability audit"
-      tools: ["Environmental monitoring software", "Sustainability assessment frameworks", "Drone surveying equipment"]
-      duration: "8 weeks"
-      outputs: ["Environmental impact report", "Sustainability baseline metrics"]
-    - step: 2
-      actor: "Mining Engineer"
-      action: "Design and plan sustainable mining technologies and processes"
-      tools: ["Mining simulation software", "Green technology databases", "Cost-benefit analysis tools"]
-      duration: "10 weeks"
-      outputs: ["Technology implementation plan", "Process optimization roadmap"]
-    - step: 3
-      actor: "Environmental Compliance Officer"
-      action: "Develop monitoring systems and compliance reporting frameworks"
-      tools: ["Environmental monitoring sensors", "Compliance tracking software", "Regulatory databases"]
-      duration: "6 weeks"
-      outputs: ["Monitoring infrastructure setup", "Compliance reporting templates"]
-    - step: 4
-      actor: "Community Liaison"
-      action: "Engage stakeholders and implement community impact mitigation strategies"
-      tools: ["Stakeholder engagement platforms", "Community consultation tools", "Impact assessment surveys"]
-      duration: "8 weeks"
-      outputs: ["Stakeholder engagement plan", "Community mitigation agreements"]
-    - step: 5
-      actor: "Sustainability Manager"
-      action: "Monitor implementation progress and adapt strategies based on performance data"
-      tools: ["Performance dashboards", "Adaptive management frameworks", "Sustainability KPIs tracking"]
-      duration: "Ongoing"
-      outputs: ["Progress reports", "Strategy refinement recommendations"]
+     - step: 1
+       actor: "Sustainability Manager"
+       action: "Conduct environmental impact assessment and baseline sustainability audit"
+       decision_points: ["Scope of environmental assessment (site-wide vs targeted)", "Baseline metrics selection", "Assessment methodology and tools"]
+       tools: ["Environmental monitoring software", "Sustainability assessment frameworks", "Drone surveying equipment"]
+       duration: "8 weeks"
+       outputs: ["Environmental impact report", "Sustainability baseline metrics"]
+     - step: 2
+       actor: "Mining Engineer"
+       action: "Design and plan sustainable mining technologies and processes"
+       decision_points: ["Technology selection criteria", "Implementation timeline vs budget trade-offs", "Process optimization priorities"]
+       tools: ["Mining simulation software", "Green technology databases", "Cost-benefit analysis tools"]
+       duration: "10 weeks"
+       outputs: ["Technology implementation plan", "Process optimization roadmap"]
+     - step: 3
+       actor: "Environmental Compliance Officer"
+       action: "Develop monitoring systems and compliance reporting frameworks"
+       decision_points: ["Monitoring frequency and parameters", "Reporting format and frequency", "Compliance threshold definitions"]
+       tools: ["Environmental monitoring sensors", "Compliance tracking software", "Regulatory databases"]
+       duration: "6 weeks"
+       outputs: ["Monitoring infrastructure setup", "Compliance reporting templates"]
+     - step: 4
+       actor: "Community Liaison"
+       action: "Engage stakeholders and implement community impact mitigation strategies"
+       decision_points: ["Stakeholder identification and prioritization", "Engagement methods and frequency", "Mitigation strategy effectiveness measures"]
+       tools: ["Stakeholder engagement platforms", "Community consultation tools", "Impact assessment surveys"]
+       duration: "8 weeks"
+       outputs: ["Stakeholder engagement plan", "Community mitigation agreements"]
+     - step: 5
+       actor: "Sustainability Manager"
+       action: "Monitor implementation progress and adapt strategies based on performance data"
+       decision_points: ["Performance threshold adjustments", "Strategy adaptation triggers", "Resource reallocation needs"]
+       tools: ["Performance dashboards", "Adaptive management frameworks", "Sustainability KPIs tracking"]
+       duration: "Ongoing"
+       outputs: ["Progress reports", "Strategy refinement recommendations"]
   success_criteria: "Achieve 25% reduction in environmental impact metrics while maintaining operational efficiency"
   failure_modes: ["Insufficient stakeholder buy-in", "Technology integration challenges", "Regulatory non-compliance"]
   metrics:

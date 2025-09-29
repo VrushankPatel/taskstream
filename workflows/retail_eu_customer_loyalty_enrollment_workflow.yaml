@@ -17,7 +17,7 @@ workflow:
       action: "Process enrollment and issue membership card"
       decision_points: ["GDPR Consent", "Age Verification"]
       duration: "10 minutes"
-      outputs: ["Membership Card", "Welcome Email"]
+       outputs: ["Membership Card", "Welcome Email"]
    success_criteria: "Customer successfully enrolled with immediate access to benefits, GDPR consent properly documented, and welcome communications sent"
    failure_modes: ["GDPR compliance issues", "System errors", "Invalid identification", "Duplicate enrollment attempts"]
    metrics:

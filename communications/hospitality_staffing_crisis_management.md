@@ -65,3 +65,17 @@
 - General Manager: Approve budget reallocations
 
 Meeting adjourned at 4:30 PM.
+
+**Follow-up Notes (October 2, 2025):**
+- Recruitment campaign launched with 200+ applications received in first week
+- 15 new hires completed orientation and training
+- Overtime premium implemented, reducing voluntary turnover by 40%
+- Guest satisfaction stabilized at 4.1/5 with proactive communication
+- Cross-training program initiated for 25 existing staff members
+- Budget adjustments approved, additional $5,000 allocated for transportation subsidies
+
+**Lessons Learned:**
+- Early intervention prevents escalation of staffing crises
+- Competitive incentives are essential in tight labor markets
+- Cross-training improves operational flexibility
+- Transparent guest communication maintains trust during service challenges

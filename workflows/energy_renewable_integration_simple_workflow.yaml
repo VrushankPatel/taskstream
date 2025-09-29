@@ -2,9 +2,9 @@ workflow:
   id: "workflow_energy_renewable_integration"
   title: "Renewable Energy Integration Process"
   department: "Energy Operations"
-  complexity: "simple"
+   complexity: "simple"
    participants: ["Energy Manager", "Grid Operator", "Regulatory Compliance Officer", "Financial Analyst", "Renewable Supplier"]
-  trigger: "New renewable energy source connection request"
+   trigger: "New renewable energy source connection request"
    steps:
      - step: 1
        actor: "Energy Manager"
@@ -35,7 +35,7 @@ workflow:
        action: "Approve integration and schedule connection"
        tools: ["Approval System", "Scheduling Software"]
        duration: "1 day"
-       outputs: ["Integration Approval", "Connection Schedule"]
+        outputs: ["Integration Approval", "Connection Schedule"]
    success_criteria: "Renewable source successfully integrated within 45 days without grid instability and full regulatory compliance"
    failure_modes: ["Technical incompatibility", "Grid capacity exceeded", "Regulatory non-compliance", "Economic unviability", "Permitting delays"]
    metrics:

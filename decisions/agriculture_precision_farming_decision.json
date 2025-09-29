@@ -32,6 +32,12 @@
       "duration": "2 months",
       "activities": ["Detailed ROI modeling", "Funding strategy development", "Risk assessment", "Implementation timeline planning"],
       "outcome": "3-year payback period with 18% IRR and significant sustainability benefits"
+    },
+    {
+      "stage": "regulatory_approval",
+      "duration": "1 month",
+      "activities": ["EU subsidy application", "Environmental impact assessment", "Data privacy compliance review", "Equipment certification verification"],
+      "outcome": "Approved with $2.5M in EU agricultural subsidies secured"
     }
   ],
   "business_impact": {

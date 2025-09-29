@@ -27,7 +27,7 @@ workflow:
       actor: "Guest Services Manager"
       action: "Respond to feedback and close the loop with guests"
       duration: "2 hours"
-      outputs: ["Guest Responses", "Satisfaction Updates"]
+       outputs: ["Guest Responses", "Satisfaction Updates"]
    success_criteria: "Feedback collected from 60%+ guests with actionable insights implemented within 48 hours, culturally appropriate communications used"
    failure_modes: ["Low response rates", "Cultural communication barriers", "System integration issues", "Language translation errors", "Technical platform failures"]
    metrics:

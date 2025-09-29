@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_hospitality_complaint_001"
+  title: "Hospitality Guest Complaint Resolution"
+  department: "Guest Services"
+  complexity: "medium"
+  participants: ["Front Desk Agent", "Guest Services Manager", "Department Head", "Guest"]
+  trigger: "Guest submits complaint about service or facilities"
+  steps:
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Listen to complaint, document details, and acknowledge guest concerns"
+      tools: ["Complaint Log", "Guest Profile"]
+      duration: "10 minutes"
+      outputs: ["Complaint record", "Initial acknowledgment"]
+    - step: 2
+      actor: "Front Desk Agent"
+      action: "Escalate to Guest Services Manager if issue requires compensation or policy change"
+      tools: ["Escalation Protocol", "Manager Contact"]
+      duration: "5 minutes"
+      outputs: ["Escalation notification"]
+    - step: 3
+      actor: "Guest Services Manager"
+      action: "Review complaint, determine appropriate resolution, and communicate to guest"
+      tools: ["Resolution Guidelines", "Compensation Policy"]
+      duration: "30 minutes"
+      outputs: ["Resolution plan", "Guest communication"]
+    - step: 4
+      actor: "Department Head"
+      action: "Review major complaints and implement preventive measures"
+      tools: ["Quality Improvement Log", "Staff Training Records"]
+      duration: "1 hour"
+      outputs: ["Improvement action plan"]
+  success_criteria: "Guest complaint resolved satisfactorily with follow-up confirmation"
+  failure_modes: ["Delayed response time", "Inadequate compensation", "Poor communication"]
+  metrics:
+    - "Resolution within 24 hours: 85%"
+    - "Guest satisfaction improvement: 2.1 points"
+    - "Repeat complaint rate: <5%"

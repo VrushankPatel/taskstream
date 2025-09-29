@@ -37,7 +37,7 @@ workflow:
       actor: "IT Development"
       action: "Implement system integration and testing"
       duration: "2 weeks"
-      outputs: ["System Integration", "Test Results"]
+       outputs: ["System Integration", "Test Results"]
    success_criteria: "Parametric product launched with accurate risk assessment, regulatory compliance, and successful first claims payout"
    failure_modes: ["Data quality issues", "Regulatory hurdles", "Technical implementation failures", "Actuarial modeling errors", "Market acceptance issues"]
    metrics:

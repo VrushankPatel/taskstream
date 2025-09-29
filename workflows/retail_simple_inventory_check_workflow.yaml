@@ -7,6 +7,7 @@ complexity: Simple
 actors:
   - Store Associate
   - Inventory Manager
+trigger: Daily inventory check scheduled at store closing or manager request for stock verification
 steps:
   - id: scan_inventory
     name: Scan Shelf Inventory

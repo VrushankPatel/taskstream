@@ -1,0 +1,62 @@
+{
+  "scenario_id": "utilities_equipment_upgrade_smart_grid_2025",
+  "decision_date": "2025-03-10",
+  "context": "Utility company modernizing distribution infrastructure with smart grid technology",
+  "stakeholders": {
+    "requester": "Infrastructure Director",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "Board of Directors"],
+    "influencers": ["Engineering Director", "Regulatory Affairs Head", "Customer Service VP"]
+  },
+  "request": {
+    "amount": "$45,000,000",
+    "purpose": "Replace aging distribution equipment with smart grid technology across 500 square miles",
+    "urgency": "medium",
+    "justification": "Current infrastructure at end of life, smart grid will reduce outages by 40% and improve efficiency"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_evaluation",
+      "start_date": "2024-08-01",
+      "end_date": "2024-09-30",
+      "duration": "61 days",
+      "activities": ["Infrastructure assessment", "Technology evaluation", "Vendor selection"],
+      "outcome": "Smart grid solution selected"
+    },
+    {
+      "stage": "financial_analysis",
+      "start_date": "2024-10-01",
+      "end_date": "2024-11-30",
+      "duration": "61 days",
+      "activities": ["Cost-benefit analysis", "Funding options", "ROI modeling"],
+      "outcome": "Financially viable"
+    },
+    {
+      "stage": "regulatory_approval",
+      "start_date": "2024-12-01",
+      "end_date": "2025-03-10",
+      "duration": "100 days",
+      "activities": ["Rate case filing", "Public hearings", "Regulatory approval"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in outage duration, 15% improvement in operational efficiency",
+    "projected_value": "$75,000,000",
+    "actual_value": "$82,000,000 (cost savings exceeded projections)",
+    "roi_timeline": "Expected payback in 60 months",
+    "risk_factors": ["Technology integration challenges", "Regulatory delays", "Cost overruns"]
+  },
+  "decision_criteria": ["Infrastructure condition", "Cost-benefit ratio", "Regulatory approval", "Technology maturity", "Operational impact"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-04-01",
+    "completion_date": "2027-12-31",
+    "milestones": ["Phase 1 complete: 2026-03-31", "Phase 2 complete: 2027-03-31", "Full operation: 2027-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 deployed, outage reduction 25%, system reliability improved",
+    "12_month_review": "Phase 1 fully operational, cost savings $3.2M, customer satisfaction up 12%",
+    "actual_roi": "8% (vs projected 6%)"
+  },
+  "lessons_learned": "Phased implementation minimized disruption, early stakeholder engagement facilitated regulatory approval"
+}

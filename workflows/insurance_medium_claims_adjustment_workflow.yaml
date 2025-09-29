@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_insurance_medium_claims_adjustment"
+  title: "Property Claims Adjustment Process"
+  department: "Claims"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Field Inspector", "Policyholder", "Supervisor"]
+  trigger: "Property damage claim filed"
+  temporal_data:
+    first_implemented: "2018-03-01"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "5 days"
+    average_annual_executions: 2500
+    seasonal_variations: ["Q1 peak from winter storms", "Q3 hurricane season increase"]
+    historical_evolution: "Manual inspection process digitized in 2020, added drone assessment in 2023"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim submission and verify policy coverage"
+      tools: ["Claims management system", "Policy database"]
+      duration: "2 hours"
+      outputs: ["Coverage determination", "Initial estimate"]
+    - step: 2
+      actor: "Field Inspector"
+      action: "Conduct site inspection and document damage"
+      tools: ["Mobile assessment app", "Digital camera", "Measurement tools"]
+      duration: "4 hours"
+      outputs: ["Inspection report", "Damage assessment photos"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Calculate settlement amount and prepare offer"
+      decision_points: ["Damage extent", "Policy limits", "Deductible application"]
+      duration: "3 hours"
+      outputs: ["Settlement offer", "Supporting documentation"]
+    - step: 4
+      actor: "Supervisor"
+      action: "Review high-value claims and approve settlements"
+      tools: ["Approval workflow system"]
+      duration: "1 hour"
+      outputs: ["Final approval", "Payment authorization"]
+  success_criteria: "Claim settled within policy terms with policyholder satisfaction"
+  failure_modes: ["Delayed inspections", "Underestimation of damages", "Coverage disputes"]
+  metrics:
+    - "Settlement time: < 7 days average"
+    - "Accuracy rate: > 98%"
+    - "Customer satisfaction: > 4.2/5"
+  performance_history:
+    success_rate_trend: "88% (2023) → 91% (2024) → 93% (2025)"
+    cost_trend: "$450 (2023) → $420 (2024) → $400 (2025)"
+    efficiency_improvements: ["Mobile app reduced inspection time by 25%", "AI estimation improved accuracy by 15%"]

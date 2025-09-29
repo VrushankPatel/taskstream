@@ -1,0 +1,71 @@
+{
+  "scenario_id": "product_launch_strategy_decision_2025",
+  "decision_date": "2025-08-20",
+  "context": "Consumer electronics company preparing launch of new smart home device line, evaluating phased vs. simultaneous global launch strategy",
+  "stakeholders": {
+    "requester": "VP Product Marketing",
+    "approvers": ["Chief Marketing Officer", "Chief Executive Officer"],
+    "influencers": ["VP Sales", "VP Operations", "Regional Directors"]
+  },
+  "request": {
+    "amount": "$12M",
+    "purpose": "Execute phased global launch vs simultaneous worldwide release",
+    "urgency": "medium",
+    "justification": "Competitive landscape requires strategic positioning; phased approach allows learning and optimization before full rollout"
+  },
+  "decision_process": [
+    {
+      "stage": "market_assessment",
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-15",
+      "duration": "15 days",
+      "activities": ["Regional market analysis", "Competitor launch strategies review", "Customer segmentation study"],
+      "outcome": "Identified 3 key markets with different adoption patterns"
+    },
+    {
+      "stage": "operational_feasibility",
+      "start_date": "2025-07-16",
+      "end_date": "2025-08-01",
+      "duration": "17 days",
+      "activities": ["Supply chain capacity review", "Distribution network assessment", "Support team readiness evaluation"],
+      "outcome": "Phased approach operationally feasible with 6-week intervals"
+    },
+    {
+      "stage": "financial_modeling",
+      "start_date": "2025-08-02",
+      "end_date": "2025-08-10",
+      "duration": "9 days",
+      "activities": ["Revenue projection modeling", "Cost allocation analysis", "ROI calculations"],
+      "outcome": "Phased approach projected 15% higher ROI through learning optimization"
+    },
+    {
+      "stage": "executive_decision",
+      "start_date": "2025-08-15",
+      "end_date": "2025-08-20",
+      "duration": "6 days",
+      "activities": ["Board presentation", "Risk-benefit analysis", "Final strategy approval"],
+      "outcome": "Approved phased launch with North America first, followed by Europe and Asia-Pacific"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Successful global adoption with optimized positioning and 25% market share in smart home category",
+    "projected_value": "$85M in additional revenue over 2 years",
+    "actual_value": "TBD - to be measured at 12-month review",
+    "roi_timeline": "Expected payback in 18 months",
+    "risk_factors": ["Competitor preemption in delayed markets", "Supply chain disruptions", "Regional regulatory differences"]
+  },
+  "decision_criteria": ["Market readiness assessment", "Operational capacity", "Financial projections", "Risk mitigation", "Competitive positioning"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2026-06-30",
+    "milestones": ["North America launch: 2025-09-15", "Europe launch: 2025-10-30", "Asia-Pacific launch: 2025-12-15", "Global optimization: 2026-03-31"]
+  },
+  "outcome_tracking": {
+    "3_month_review": "North America performance metrics and lessons learned",
+    "6_month_review": "Europe adoption rates and regional adjustments",
+    "12_month_review": "Global market share and overall ROI assessment",
+    "actual_roi": "TBD - projected 180% based on phased optimization"
+  },
+  "lessons_learned": "Phased launch allows valuable market learning; regional customization improves adoption rates; early market feedback prevents global rollout issues"
+}

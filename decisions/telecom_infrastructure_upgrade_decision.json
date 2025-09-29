@@ -1,0 +1,62 @@
+{
+  "scenario_id": "telecom_infrastructure_upgrade_decision_2025",
+  "decision_date": "2025-09-25",
+  "context": "Telecommunications provider evaluating 5G network infrastructure upgrade to support IoT services expansion",
+  "stakeholders": {
+    "requester": "VP Network Operations",
+    "approvers": ["Chief Technology Officer", "Chief Financial Officer"],
+    "influencers": ["VP Business Development", "Chief Information Security Officer"]
+  },
+  "request": {
+    "amount": "$75M",
+    "purpose": "5G infrastructure upgrade including edge computing nodes and IoT gateways",
+    "urgency": "high",
+    "justification": "Competitive pressure from new market entrants, customer demand for IoT services"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_assessment",
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-10",
+      "duration": "10 days",
+      "activities": ["Technical architecture review", "Vendor capability assessment", "Regulatory compliance check"],
+      "outcome": "Technically feasible with phased implementation"
+    },
+    {
+      "stage": "financial_evaluation",
+      "start_date": "2025-09-11",
+      "end_date": "2025-09-18",
+      "duration": "8 days",
+      "activities": ["Cost-benefit analysis", "ROI modeling", "Funding strategy development"],
+      "outcome": "Strong business case with 25% IRR projected"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-09-19",
+      "end_date": "2025-09-25",
+      "duration": "7 days",
+      "activities": ["Board presentation", "Risk mitigation planning", "Implementation roadmap approval"],
+      "outcome": "Approved with phased rollout plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in IoT service revenue, improved network capacity utilization",
+    "projected_value": "$150M in additional revenue over 5 years",
+    "actual_value": "TBD - measured at project completion",
+    "roi_timeline": "Expected payback in 36 months",
+    "risk_factors": ["Technology obsolescence", "Regulatory delays", "Integration challenges"]
+  },
+  "decision_criteria": ["Strategic alignment with IoT strategy", "Financial viability", "Technical feasibility", "Risk management"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2026-01-01",
+    "completion_date": "2027-12-31",
+    "milestones": ["Phase 1 pilot: 2026-06-30", "Phase 2 rollout: 2027-06-30", "Full deployment: 2027-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot performance metrics, technical integration status",
+    "12_month_review": "Revenue growth, customer adoption rates",
+    "actual_roi": "TBD - projected 200% over 5 years"
+  },
+  "lessons_learned": "Large infrastructure projects require phased approach; early stakeholder engagement critical for success"
+}

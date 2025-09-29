@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_employee_lifecycle"
+  title: "Employee Lifecycle Management"
+  department: "HR"
+  complexity: "complex"
+  participants: ["HR Manager", "Employee", "Manager", "IT", "Finance"]
+  trigger: "New hire offer accepted or employee departure announced"
+  temporal_data:
+    first_implemented: "2018-03-01"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "90 days for onboarding, 30 days for offboarding"
+    average_annual_executions: 200
+    seasonal_variations: ["Q1 hiring peak", "Q4 performance review cycle"]
+    historical_evolution: "Transitioned to digital onboarding platform in 2021, added AI-driven retention analytics in 2023"
+  steps:
+    - step: 1
+      actor: "HR Manager"
+      action: "Initiate onboarding/offboarding process and assign coordinator"
+      tools: ["HRIS system", "Onboarding checklist"]
+      duration: "1 day"
+      outputs: ["Process initiation notification", "Assigned coordinator"]
+    - step: 2
+      actor: "IT"
+      action: "Set up or deactivate accounts, equipment, and access"
+      tools: ["Identity management system", "Asset tracking"]
+      duration: "3 days"
+      outputs: ["User accounts configured", "Equipment assigned/returned"]
+    - step: 3
+      actor: "Manager"
+      action: "Conduct welcome/orientation meeting and goal setting"
+      decision_points: ["Training requirements", "Equipment needs"]
+      duration: "1 week"
+      outputs: ["Meeting notes", "Performance goals documented"]
+    - step: 4
+      actor: "Finance"
+      action: "Process payroll setup, benefits enrollment, or final payments"
+      tools: ["Payroll system", "Benefits portal"]
+      duration: "5 days"
+      outputs: ["Payroll configured", "Benefits enrolled"]
+    - step: 5
+      actor: "HR Manager"
+      action: "Conduct exit interview and knowledge transfer (for departures)"
+      tools: ["Exit interview template", "Knowledge base"]
+      duration: "2 days"
+      outputs: ["Exit interview summary", "Knowledge transfer completed"]
+  success_criteria: "Employee successfully onboarded/offboarded with all systems updated and feedback captured"
+  failure_modes: ["Delayed account setup", "Incomplete documentation", "Poor knowledge transfer"]
+  metrics:
+    - "Onboarding completion rate: 95% within 30 days"
+    - "Offboarding completion rate: 100% within 7 days"
+    - "Employee satisfaction score: 4.2/5"
+  performance_history:
+    success_rate_trend: "88% (2023) → 92% (2024) → 95% (2025)"
+    cost_trend: "$15K per hire (2023) → $12K (2024) → $10K (2025)"
+    efficiency_improvements: ["Digital platform reduced onboarding time by 50%", "Automated account setup decreased IT workload by 60%"]

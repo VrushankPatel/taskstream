@@ -1,0 +1,62 @@
+{
+  "scenario_id": "hr_recruitment_budget_approval_2025",
+  "decision_date": "2025-09-15",
+  "context": "Mid-size technology company expanding development team due to product roadmap acceleration, requesting budget for external recruitment agency services",
+  "stakeholders": {
+    "requester": "VP Human Resources",
+    "approvers": ["Chief Financial Officer", "Chief Executive Officer"],
+    "influencers": ["VP Engineering", "Chief Technology Officer"]
+  },
+  "request": {
+    "amount": "$180,000",
+    "purpose": "External recruitment agency fees for hiring 12 senior software engineers",
+    "urgency": "high",
+    "justification": "Critical product delivery timelines require immediate team expansion; internal recruiting capacity at maximum"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2025-09-08",
+      "end_date": "2025-09-10",
+      "duration": "3 days",
+      "activities": ["Cost-benefit analysis", "Market salary benchmarking", "Internal hiring pipeline assessment"],
+      "outcome": "Preliminary approval with cost optimization recommendations"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "start_date": "2025-09-11",
+      "end_date": "2025-09-12",
+      "duration": "2 days",
+      "activities": ["Engineering team capacity discussion", "Budget impact modeling", "Alternative sourcing evaluation"],
+      "outcome": "Consensus on agency approach with performance guarantees"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-09-13",
+      "end_date": "2025-09-15",
+      "duration": "3 days",
+      "activities": ["Board presentation", "Risk assessment review", "ROI validation"],
+      "outcome": "Approved with performance milestones"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "12 engineers hired within 60 days, product roadmap accelerated by 3 months",
+    "projected_value": "$3.2M in additional revenue from faster time-to-market",
+    "actual_value": "TBD - to be measured at 6-month review",
+    "roi_timeline": "Expected payback in 6 months",
+    "risk_factors": ["Talent market competition", "Agency performance variability", "Onboarding integration challenges"]
+  },
+  "decision_criteria": ["Strategic alignment with product roadmap", "Financial ROI validation", "Risk mitigation measures", "Alternative evaluation"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-10-01",
+    "completion_date": "2025-11-30",
+    "milestones": ["Agency contract executed: 2025-10-07", "First candidate interviews: 2025-10-21", "All positions filled: 2025-11-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Hiring completion rate, team productivity metrics, product delivery acceleration",
+    "12_month_review": "Revenue impact assessment, cost per hire analysis, retention rates",
+    "actual_roi": "TBD - projected 180% based on accelerated delivery"
+  },
+  "lessons_learned": "External agencies provide speed but require strong performance contracts; consider blended internal/external approach for sustained hiring needs"
+}

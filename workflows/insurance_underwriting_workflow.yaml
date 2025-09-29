@@ -1,5 +1,5 @@
 workflow:
-  id: "insurance_underwriting"
+   id: "workflow_insurance_underwriting"
   title: "Insurance Underwriting Workflow"
   department: "Underwriting"
   complexity: "medium"
@@ -42,5 +42,11 @@ workflow:
       decision_points: ["Counteroffer needed", "Decline notification"]
       duration: "1 hour"
       outputs: ["Policy Document", "Applicant Notification"]
-  success_criteria: "Accurate risk assessment completed, competitive pricing offered, regulatory compliance maintained, applicant satisfaction achieved"
-  failure_modes: ["Inadequate risk assessment leading to adverse selection", "Pricing errors causing financial losses", "Regulatory non-compliance", "Delays in processing"]
+   success_criteria: "Accurate risk assessment completed, competitive pricing offered, regulatory compliance maintained, applicant satisfaction achieved"
+   failure_modes: ["Inadequate risk assessment leading to adverse selection", "Pricing errors causing financial losses", "Regulatory non-compliance", "Delays in processing"]
+   metrics:
+     - "Underwriting accuracy rate: >95%"
+     - "Average processing time: <24 hours"
+     - "Profitability ratio: >110%"
+     - "Customer satisfaction: >4.0/5"
+     - "Regulatory compliance rate: >99%"

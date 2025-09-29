@@ -1,10 +1,10 @@
 workflow:
-  id: "workflow_retail_customer_complaint_resolution"
-  title: "Retail Customer Complaint Resolution Process"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Store Manager", "Customer"]
-  trigger: "Customer submits complaint via app, phone, or in-store"
+   id: "workflow_retail_customer_complaint_resolution"
+   title: "Retail Customer Complaint Resolution Process"
+   department: "Customer Service"
+   complexity: "simple"
+   participants: ["Customer Service Representative", "Store Manager", "Customer"]
+   trigger: "Customer submits complaint via app, phone, or in-store"
    steps:
      - step: 1
        actor: "Customer Service Representative"

@@ -1,10 +1,10 @@
 workflow:
-  id: "workflow_insurance_simple_claim_intake"
-  title: "Insurance Simple Claim Intake Process"
-  department: "Claims"
-  complexity: "simple"
-  participants: ["Claims Representative", "Policyholder"]
-  trigger: "Policyholder reports incident"
+   id: "workflow_insurance_simple_claim_intake"
+   title: "Insurance Simple Claim Intake Process"
+   department: "Claims"
+   complexity: "simple"
+   participants: ["Claims Representative", "Policyholder"]
+   trigger: "Policyholder reports incident"
    steps:
      - step: 1
        actor: "Claims Representative"

@@ -6,12 +6,12 @@ workflow:
   participants: ["Store Associate", "Customer Service Rep"]
   trigger: "Customer requests loyalty program membership"
   steps:
-    - step: 1
-      actor: "Store Associate"
-      action: "Collect customer contact information and preferences"
-      tools: ["POS System", "Loyalty App"]
-      duration: "5 minutes"
-      outputs: ["Customer Profile"]
+     - step: 1
+       actor: "Store Associate"
+       action: "Collect customer contact information and preferences"
+       tools: ["POS System", "Loyalty App"]
+       duration: "5 minutes"
+       outputs: ["Customer Profile"]
      - step: 2
        actor: "Customer Service Rep"
        action: "Verify information and activate loyalty account"

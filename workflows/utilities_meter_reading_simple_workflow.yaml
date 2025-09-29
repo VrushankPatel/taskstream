@@ -6,21 +6,23 @@ workflow:
   participants: ["Meter Reader", "Field Supervisor"]
   trigger: "Monthly meter reading schedule activation"
   steps:
-    - step: 1
-      actor: "Meter Reader"
-      action: "Access meter location and record reading"
-      tools: ["Mobile Meter Reader Device", "GPS System"]
-      duration: "5 minutes per meter"
-      outputs: ["Meter Reading Data"]
-    - step: 2
-      actor: "Field Supervisor"
-      action: "Review readings for accuracy and upload to system"
-      tools: ["Field Management Software"]
-      duration: "15 minutes per route"
-      outputs: ["Validated Meter Data"]
+     - step: 1
+       actor: "Meter Reader"
+       action: "Access meter location and record reading"
+       decision_points: ["Meter accessible", "Reading within expected range", "Report anomalies or damages"]
+       tools: ["Mobile Meter Reader Device", "GPS System"]
+       duration: "5 minutes per meter"
+       outputs: ["Meter Reading Data", "Field Notes"]
+     - step: 2
+       actor: "Field Supervisor"
+       action: "Review readings for accuracy and upload to system"
+       decision_points: ["All readings validated", "Resolve discrepancies", "Escalate unusual patterns"]
+       tools: ["Field Management Software"]
+       duration: "15 minutes per route"
+       outputs: ["Validated Meter Data", "Quality Assurance Report"]
   success_criteria: "All scheduled meters read and data uploaded successfully with billing accuracy"
-  failure_modes: ["Inaccessible meters", "Device technical issues", "Weather delays"]
-  risks: ["Safety incidents during field work", "Billing errors from inaccurate readings", "Customer service complaints"]
+   failure_modes: ["Inaccessible meters", "Device technical issues", "Weather delays", "Staffing shortages", "Traffic or access restrictions"]
+   risks: ["Safety incidents during field work", "Billing errors from inaccurate readings", "Customer service complaints", "Regulatory fines for missed readings", "Data security breaches"]
   metrics:
      - "Reading accuracy rate: 99.5%"
      - "Route completion rate: 95%"

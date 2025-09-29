@@ -1,0 +1,70 @@
+{
+  "scenario_id": "product_launch_enterprise_software_2025",
+  "decision_date": "2025-07-15",
+  "context": "Enterprise software company preparing launch of AI-powered analytics platform after 18-month development cycle",
+  "stakeholders": {
+    "requester": "VP Product Management",
+    "approvers": ["CEO", "CFO", "Chief Product Officer"],
+    "influencers": ["VP Sales", "VP Marketing", "Engineering Director", "Customer Success Lead"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Execute global product launch campaign and go-to-market strategy",
+    "urgency": "high",
+    "justification": "Market opportunity in AI analytics segment projected at $45B by 2027, competitive analysis shows 6-month window before major competitor enters"
+  },
+  "decision_process": [
+    {
+      "stage": "market_validation",
+      "start_date": "2025-05-01",
+      "end_date": "2025-05-30",
+      "duration": "30 days",
+      "activities": ["Customer interviews", "Competitive analysis", "Market sizing study"],
+      "outcome": "Confirmed $2.1B TAM with 15% YoY growth, identified 3 key differentiators"
+    },
+    {
+      "stage": "pricing_strategy",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-15",
+      "duration": "15 days",
+      "activities": ["Pricing model analysis", "Revenue projection modeling", "Competitor pricing review"],
+      "outcome": "Selected SaaS subscription model with $150K ARR target pricing"
+    },
+    {
+      "stage": "go_to_market_planning",
+      "start_date": "2025-06-16",
+      "end_date": "2025-07-01",
+      "duration": "16 days",
+      "activities": ["Sales play development", "Marketing campaign planning", "Channel partner strategy"],
+      "outcome": "Comprehensive GTM plan with 200 target accounts and multi-channel marketing approach"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2025-07-08",
+      "end_date": "2025-07-15",
+      "duration": "8 days",
+      "activities": ["Executive committee review", "Risk assessment", "Budget allocation"],
+      "outcome": "Approved with phased rollout strategy and success metrics defined"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Achieve $25M ARR within 18 months, capture 8% market share in enterprise analytics segment",
+    "projected_value": "$85,000,000",
+    "actual_value": "$78,000,000 (based on similar product launches)",
+    "roi_timeline": "24 months",
+    "risk_factors": ["Competitor response", "Market adoption slower than projected", "Technical integration challenges", "Economic downturn impact"]
+  },
+  "decision_criteria": ["Market opportunity size", "Competitive advantage", "Financial projections", "Technical readiness", "Team capability", "Risk mitigation plan"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2026-01-31",
+    "milestones": ["Beta program launch: 2025-08-15", "GA release: 2025-09-01", "First customer go-live: 2025-09-15", "Marketing campaign peak: 2025-10-01", "Q4 sales target achievement: 2025-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Customer acquisition metrics, product adoption rates, competitive response analysis",
+    "12_month_review": "Revenue achievement vs target, market share growth, customer satisfaction scores",
+    "actual_roi": "35% (vs projected 32%)"
+  },
+  "lessons_learned": "Early customer validation critical for product positioning, comprehensive competitive analysis prevented market missteps, phased rollout approach successfully managed execution complexity"
+}

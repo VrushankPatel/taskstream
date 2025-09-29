@@ -1,0 +1,61 @@
+workflow:
+  id: "workflow_data_management"
+  title: "Enterprise Data Management Process"
+  department: "Data Governance"
+  complexity: "complex"
+  participants: ["Data Steward", "Data Engineer", "Compliance Officer", "Business Analyst", "IT Security"]
+  trigger: "New data source integration or regulatory compliance requirement"
+  temporal_data:
+    first_implemented: "2020-03-15"
+    last_updated: "2025-09-15"
+    typical_cycle_time: "2-4 weeks"
+    average_annual_executions: 24
+    seasonal_variations: ["Q4 audit preparation peak", "Q1 budget planning focus"]
+    historical_evolution: "Evolved from basic data cataloging to comprehensive governance framework with AI-driven classification"
+  steps:
+    - step: 1
+      actor: "Data Steward"
+      action: "Assess data source and classify sensitivity level"
+      tools: ["Data classification tool", "Metadata repository"]
+      duration: "2 days"
+      outputs: ["Data classification report", "Initial metadata entry"]
+    - step: 2
+      actor: "Data Engineer"
+      action: "Implement data quality validation and cleansing rules"
+      tools: ["ETL platform", "Data quality monitoring tools"]
+      duration: "1 week"
+      outputs: ["Data quality rules", "Cleansing scripts"]
+    - step: 3
+      actor: "Compliance Officer"
+      action: "Review regulatory compliance requirements and privacy implications"
+      tools: ["Compliance database", "Privacy impact assessment template"]
+      duration: "3 days"
+      outputs: ["Compliance assessment", "Privacy impact analysis"]
+    - step: 4
+      actor: "Business Analyst"
+      action: "Define data access policies and usage guidelines"
+      tools: ["Policy management system", "Role-based access control matrix"]
+      duration: "4 days"
+      outputs: ["Access policy document", "Usage guidelines"]
+    - step: 5
+      actor: "IT Security"
+      action: "Implement security controls and monitoring"
+      tools: ["Security information system", "Data loss prevention tools"]
+      duration: "5 days"
+      outputs: ["Security implementation plan", "Monitoring alerts"]
+    - step: 6
+      actor: "Data Steward"
+      action: "Conduct user training and documentation update"
+      tools: ["Learning management system", "Knowledge base"]
+      duration: "3 days"
+      outputs: ["Training materials", "Updated documentation"]
+  success_criteria: "Data source fully integrated with 99.5% quality score and compliance verified"
+  failure_modes: ["Data quality issues discovered post-implementation", "Regulatory non-compliance identified", "Access control conflicts"]
+  metrics:
+    - "Data quality score: 99.5% target"
+    - "Compliance audit pass rate: 100%"
+    - "Time to data availability: <2 weeks"
+  performance_history:
+    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
+    cost_trend: "$2.5M (2023) → $2.8M (2024) → $3.2M (2025)"
+    efficiency_improvements: ["Automated classification reduced manual effort by 60%", "AI-driven quality checks improved detection rate by 40%"]

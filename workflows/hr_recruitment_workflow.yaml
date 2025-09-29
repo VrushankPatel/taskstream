@@ -1,0 +1,73 @@
+workflow:
+  id: "workflow_hr_recruitment"
+  title: "Employee Recruitment and Onboarding Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Recruiter", "Hiring Manager", "Department Head", "Legal Counsel", "IT Security", "New Employee"]
+  trigger: "Open position approved and requisition created"
+  temporal_data:
+    first_implemented: "2022-03-01"
+    last_updated: "2025-08-15"
+    typical_cycle_time: "45-60 days"
+    average_annual_executions: 85
+    seasonal_variations: ["Q1 hiring peak", "Q4 budget constraints"]
+    historical_evolution: "Digital transformation reduced time-to-fill by 35% through AI screening and automated workflows"
+  steps:
+    - step: 1
+      actor: "HR Recruiter"
+      action: "Develop job description and posting strategy"
+      tools: ["Applicant tracking system", "Job board platforms", "Social media tools"]
+      duration: "3-5 days"
+      outputs: ["Approved job description", "Posting schedule", "Sourcing plan"]
+    - step: 2
+      actor: "HR Recruiter"
+      action: "Post position and manage applicant intake"
+      tools: ["Career site", "LinkedIn Recruiter", "Diversity outreach tools"]
+      duration: "10-14 days"
+      outputs: ["Applicant pool (target 50+)", "Initial screening results", "Diversity metrics"]
+    - step: 3
+      actor: "Hiring Manager"
+      action: "Review applications and conduct initial interviews"
+      tools: ["Video interview platform", "Assessment tools"]
+      duration: "7-10 days"
+      outputs: ["Shortlisted candidates (5-8)", "Interview feedback", "Assessment scores"]
+    - step: 4
+      actor: "Department Head"
+      action: "Approve final candidates and coordinate panel interviews"
+      tools: ["Interview scheduling system", "Reference check tools"]
+      duration: "5-7 days"
+      outputs: ["Final candidates (2-3)", "Panel interview schedule", "Reference check results"]
+    - step: 5
+      actor: "Legal Counsel"
+      action: "Review offer terms and conduct background checks"
+      tools: ["Background check vendor", "Employment contract templates"]
+      duration: "3-5 days"
+      outputs: ["Background check clearance", "Offer letter draft", "Contract review"]
+    - step: 6
+      actor: "HR Recruiter"
+      action: "Extend offer and negotiate terms"
+      tools: ["Offer management system", "Compensation analysis tools"]
+      duration: "2-4 days"
+      outputs: ["Signed offer acceptance", "Start date confirmed", "Onboarding schedule"]
+    - step: 7
+      actor: "IT Security"
+      action: "Set up access credentials and security training"
+      tools: ["Identity management system", "Security awareness platform"]
+      duration: "1-2 days"
+      outputs: ["User accounts created", "Security training completed", "Equipment setup"]
+    - step: 8
+      actor: "New Employee"
+      action: "Complete onboarding and orientation"
+      tools: ["Onboarding portal", "Learning management system"]
+      duration: "5-10 days"
+      outputs: ["Orientation completion", "Required training finished", "Performance expectations set"]
+  success_criteria: "New hire successfully onboarded and productive within 30 days"
+  failure_modes: ["Extended time-to-fill impacting business", "Poor candidate quality leading to quick turnover", "Offer rejections due to compensation issues"]
+  metrics:
+    - "Time to fill: <45 days target"
+    - "Offer acceptance rate: >80%"
+    - "New hire retention (90 days): >85%"
+  performance_history:
+    success_rate_trend: "75% (2023) → 82% (2024) → 87% (2025)"
+    cost_trend: "$8,500 (2023) → $7,200 (2024) → $6,800 (2025)"
+    efficiency_improvements: ["AI candidate screening reduced time-to-fill by 25%", "Automated onboarding decreased administrative time by 40%", "Diversity-focused sourcing improved representation by 15%"]

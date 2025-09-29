@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_inventory_reconciliation_process"
+  title: "Retail Inventory Reconciliation Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Manager", "Inventory Clerk", "Department Supervisor"]
+  trigger: "End of business day or scheduled inventory count"
+  steps:
+    - step: 1
+      actor: "Inventory Clerk"
+      action: "Count physical inventory items in assigned department"
+      tools: ["Barcode scanner", "Inventory counting sheets"]
+      duration: "2-4 hours"
+      outputs: ["Physical count sheets"]
+    - step: 2
+      actor: "Inventory Clerk"
+      action: "Enter physical counts into inventory management system"
+      tools: ["POS system", "Inventory software"]
+      duration: "1 hour"
+      outputs: ["Digital inventory records"]
+    - step: 3
+      actor: "Department Supervisor"
+      action: "Review entered counts for accuracy and resolve discrepancies"
+      tools: ["Inventory reports", "Variance analysis"]
+      duration: "30 minutes"
+      outputs: ["Reconciliation report"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Approve final inventory reconciliation and authorize adjustments"
+      tools: ["Management dashboard", "Approval workflow"]
+      duration: "15 minutes"
+      outputs: ["Approved inventory adjustment"]
+  success_criteria: "Inventory variance within acceptable threshold (<2%)"
+  failure_modes: ["Inaccurate physical counts", "System entry errors", "Unresolved discrepancies"]
+  metrics:
+    - "Inventory accuracy rate: 98%+"
+    - "Reconciliation completion time: <6 hours"
+    - "Variance threshold compliance: 95%+"

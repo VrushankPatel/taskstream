@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_retail_eu_customer_feedback_collection"
+  title: "EU Customer Feedback Collection Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Store Manager", "Customer Service Rep", "Regional Manager"]
+  trigger: "Customer completes purchase or visits store"
+  temporal_data:
+    first_implemented: "2023-03-15"
+    last_updated: "2024-11-20"
+    typical_cycle_time: "24 hours"
+    average_annual_executions: 25000
+    seasonal_variations: ["Q4 holiday peak (40% increase)", "Q2 summer slowdown (20% decrease)"]
+    historical_evolution: "Started with paper surveys in 2023, transitioned to digital kiosks in 2024, added AI sentiment analysis in 2025"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Present feedback collection option at checkout or exit"
+      tools: ["Digital kiosk", "Mobile app notification"]
+      duration: "2 minutes"
+      outputs: ["Feedback submission"]
+    - step: 2
+      actor: "Store Manager"
+      action: "Review daily feedback summary and flag urgent issues"
+      tools: ["Dashboard software", "CRM system"]
+      duration: "15 minutes"
+      outputs: ["Action items list", "Escalation report"]
+    - step: 3
+      actor: "Regional Manager"
+      action: "Analyze weekly trends and implement improvements"
+      tools: ["Analytics platform", "GDPR compliance tools"]
+      duration: "2 hours"
+      outputs: ["Improvement plan", "Store performance report"]
+  success_criteria: "80% customer participation rate, 24-hour response time for complaints"
+  failure_modes: ["Low participation due to privacy concerns", "Technical issues with digital systems"]
+  metrics:
+    - "Participation Rate: 75% target"
+    - "Response Time: <24 hours"
+    - "NPS Improvement: +5 points quarterly"
+  performance_history:
+    success_rate_trend: "72% (2023) → 78% (2024) → 82% (2025)"
+    cost_trend: "€15,000 (2023) → €12,000 (2024) → €10,000 (2025)"
+    efficiency_improvements: ["Digital transition reduced processing time by 60%", "AI analysis improved issue categorization by 40%"]

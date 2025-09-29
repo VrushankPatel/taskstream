@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_hospitality_asia_revenue_management"
+  title: "Asia Revenue Management Optimization Process"
+  department: "Revenue Management"
+  complexity: "medium"
+  participants: ["Revenue Manager", "Front Office Manager", "General Manager", "Regional Director"]
+  trigger: "Weekly demand analysis or pricing adjustment needed"
+  temporal_data:
+    first_implemented: "2022-08-10"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "1 week"
+    average_annual_executions: 520
+    seasonal_variations: ["Chinese New Year peak (30% increase)", "Summer monsoon slowdown (15% decrease)"]
+    historical_evolution: "Manual Excel-based pricing in 2022, implemented RMS software in 2023, added AI forecasting in 2024"
+  steps:
+    - step: 1
+      actor: "Revenue Manager"
+      action: "Analyze demand patterns, competitor pricing, and market trends"
+      tools: ["Revenue management system", "Market intelligence tools", "Booking data"]
+      duration: "4 hours"
+      outputs: ["Demand forecast report", "Pricing recommendations"]
+    - step: 2
+      actor: "Front Office Manager"
+      action: "Review pricing strategy and assess operational feasibility"
+      tools: ["Property management system", "Staffing software"]
+      duration: "2 hours"
+      outputs: ["Operational impact assessment", "Staffing adjustment plan"]
+    - step: 3
+      actor: "General Manager"
+      action: "Approve pricing changes and communicate to team"
+      tools: ["Executive dashboard", "Team communication platform"]
+      duration: "1 hour"
+      outputs: ["Approved pricing strategy", "Team briefing document"]
+    - step: 4
+      actor: "Regional Director"
+      action: "Monitor implementation and adjust based on performance"
+      tools: ["Regional analytics dashboard", "Performance tracking system"]
+      duration: "3 hours weekly"
+      outputs: ["Performance report", "Strategy adjustments"]
+  success_criteria: "Revenue per available room increase of 8%, occupancy rate above 85%"
+  failure_modes: ["Overpricing leading to lost bookings", "Underpricing reducing profitability"]
+  metrics:
+    - "RevPAR Growth: 8% annual target"
+    - "Occupancy Rate: 85% minimum"
+    - "Pricing Accuracy: 95% of optimal rates"
+  performance_history:
+    success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
+    cost_trend: "$45,000 (2023) → $38,000 (2024) → $32,000 (2025)"
+    efficiency_improvements: ["RMS implementation increased forecasting accuracy by 25%", "AI tools reduced manual analysis time by 50%"]

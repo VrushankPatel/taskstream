@@ -1,0 +1,70 @@
+{
+  "scenario_id": "retail_eu_sustainability_investment_2025",
+  "decision_date": "2025-01-15",
+  "context": "European retail chain expanding sustainable product lines and supply chain practices to meet EU Green Deal requirements and consumer demand for eco-friendly products",
+  "stakeholders": {
+    "requester": "VP Sustainability",
+    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
+    "influencers": ["Head of Procurement", "Marketing Director", "Store Operations Manager"]
+  },
+  "request": {
+    "amount": "€12,000,000",
+    "purpose": "Sustainable supply chain transformation and product line expansion",
+    "urgency": "high",
+    "justification": "EU regulatory requirements, 40% customer demand for sustainable products, competitive positioning"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "2 weeks",
+      "activities": ["Market analysis", "Regulatory assessment", "ROI modeling"],
+      "outcome": "Advanced to detailed planning"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-01",
+      "duration": "2 weeks",
+      "activities": ["Cross-functional workshops", "Supplier negotiations", "Customer research"],
+      "outcome": "Strong support from operations and marketing"
+    },
+    {
+      "stage": "financial_analysis",
+      "start_date": "2024-12-02",
+      "end_date": "2024-12-20",
+      "duration": "3 weeks",
+      "activities": ["Detailed cost-benefit analysis", "Cash flow projections", "Risk assessment"],
+      "outcome": "Positive ROI projected within 3 years"
+    },
+    {
+      "stage": "board_approval",
+      "start_date": "2024-12-21",
+      "end_date": "2025-01-15",
+      "duration": "3 weeks",
+      "activities": ["Board presentation", "Executive discussions", "Final approval"],
+      "outcome": "Approved with phased implementation"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% increase in sustainable product sales, improved brand reputation, EU compliance",
+    "projected_value": "€8,000,000 annual revenue increase",
+    "actual_value": "€6,500,000 achieved in first year (vs projection)",
+    "roi_timeline": "Expected payback in 2.5 years",
+    "risk_factors": ["Supplier transition costs", "Customer price sensitivity", "Regulatory changes"]
+  },
+  "decision_criteria": ["EU regulatory compliance", "Customer demand alignment", "Financial viability", "Operational feasibility", "Brand impact"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-02-01",
+    "completion_date": "2026-01-31",
+    "milestones": ["Phase 1 supplier transition: 2025-06-30", "Product line expansion: 2025-09-30", "Full implementation: 2026-01-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "On track with supplier transitions, early sales growth of 8%",
+    "12_month_review": "Exceeded targets with 12% sales increase, positive customer feedback",
+    "actual_roi": "18% (vs projected 15%)"
+  },
+  "lessons_learned": "Early supplier engagement critical for success, customer education campaigns more effective than expected, regulatory compliance provided competitive advantage"
+}

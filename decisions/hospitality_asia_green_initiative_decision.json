@@ -1,0 +1,70 @@
+{
+  "scenario_id": "hospitality_asia_green_initiative_2025",
+  "decision_date": "2025-03-10",
+  "context": "Asian hospitality group implementing comprehensive green initiatives to meet sustainability goals and attract eco-conscious travelers in competitive Southeast Asian market",
+  "stakeholders": {
+    "requester": "Regional Sustainability Director",
+    "approvers": ["CEO Asia Pacific", "CFO", "Chief Operations Officer"],
+    "influencers": ["Property Managers", "Procurement Team", "Guest Experience Team"]
+  },
+  "request": {
+    "amount": "$8,500,000",
+    "purpose": "Green technology implementation across 25 properties",
+    "urgency": "medium",
+    "justification": "35% guest preference for sustainable hotels, 25% cost savings potential, regulatory compliance in Singapore/Malaysia"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-31",
+      "duration": "4 weeks",
+      "activities": ["Technology assessment", "Cost analysis", "Guest surveys"],
+      "outcome": "Identified high-impact initiatives with clear ROI"
+    },
+    {
+      "stage": "pilot_program",
+      "start_date": "2025-01-01",
+      "end_date": "2025-02-15",
+      "duration": "6 weeks",
+      "activities": ["3-property pilot", "Performance monitoring", "Guest feedback collection"],
+      "outcome": "Pilot successful with 22% energy savings and positive reviews"
+    },
+    {
+      "stage": "business_case_development",
+      "start_date": "2025-02-16",
+      "end_date": "2025-03-01",
+      "duration": "2 weeks",
+      "activities": ["Financial modeling", "Risk assessment", "Implementation planning"],
+      "outcome": "Strong business case with 3-year payback"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-03-02",
+      "end_date": "2025-03-10",
+      "duration": "1 week",
+      "activities": ["Executive presentation", "Q&A session", "Final decision"],
+      "outcome": "Approved with pilot learnings incorporated"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "25% energy cost reduction, enhanced guest satisfaction, improved market positioning",
+    "projected_value": "$3,200,000 annual savings",
+    "actual_value": "$2,800,000 achieved in year 1 (vs projection)",
+    "roi_timeline": "Expected payback in 2.7 years",
+    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Guest disruption during implementation"]
+  },
+  "decision_criteria": ["Financial viability", "Guest impact", "Operational feasibility", "Regulatory compliance", "Competitive advantage"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-04-01",
+    "completion_date": "2026-03-31",
+    "milestones": ["Technology installation: 2025-08-31", "Staff training completion: 2025-10-31", "Full operational: 2026-03-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "15 properties completed, 18% energy savings achieved",
+    "12_month_review": "All properties implemented, 23% savings realized, guest satisfaction +12%",
+    "actual_roi": "16% (vs projected 14%)"
+  },
+  "lessons_learned": "Pilot program validated assumptions, phased implementation minimized disruption, guest communication crucial for acceptance"
+}

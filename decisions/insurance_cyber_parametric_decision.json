@@ -1,0 +1,70 @@
+{
+  "scenario_id": "insurance_cyber_parametric_2025",
+  "decision_date": "2025-04-05",
+  "context": "Insurance company launching cyber parametric products to address rising cyber threats and provide fast payout solutions for business interruption",
+  "stakeholders": {
+    "requester": "VP Cyber Insurance",
+    "approvers": ["CEO", "Chief Risk Officer", "Chief Underwriting Officer"],
+    "influencers": ["Cybersecurity Director", "Data Analytics Lead", "Legal Counsel", "Distribution Partners"]
+  },
+  "request": {
+    "amount": "$6,000,000",
+    "purpose": "Development and launch of cyber parametric insurance products",
+    "urgency": "high",
+    "justification": "85% increase in cyber claims, demand for faster payouts, competitive gap in parametric cyber coverage"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2024-12-01",
+      "end_date": "2024-12-31",
+      "duration": "4 weeks",
+      "activities": ["Cyber threat analysis", "Competitor assessment", "Customer demand survey"],
+      "outcome": "Clear market gap and strong demand identified"
+    },
+    {
+      "stage": "technical_development",
+      "start_date": "2025-01-01",
+      "end_date": "2025-02-28",
+      "duration": "8 weeks",
+      "activities": ["Parametric trigger design", "Data source integration", "Model validation"],
+      "outcome": "Technical solution validated with 95% accuracy"
+    },
+    {
+      "stage": "regulatory_review",
+      "start_date": "2025-03-01",
+      "end_date": "2025-03-20",
+      "duration": "3 weeks",
+      "activities": ["Regulatory compliance check", "Legal review", "Contract development"],
+      "outcome": "All regulatory requirements met"
+    },
+    {
+      "stage": "financial_approval",
+      "start_date": "2025-03-21",
+      "end_date": "2025-04-05",
+      "duration": "2 weeks",
+      "activities": ["ROI analysis", "Capital modeling", "Board presentation"],
+      "outcome": "Approved with full funding"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "New revenue stream of $25M annually, market leadership in cyber parametric, improved customer satisfaction",
+    "projected_value": "$18,000,000 first year revenue",
+    "actual_value": "$22,000,000 achieved in year 1 (vs projection)",
+    "roi_timeline": "Expected payback in 2.2 years",
+    "risk_factors": ["Cyber threat evolution", "Data privacy concerns", "Competitive response", "Regulatory changes"]
+  },
+  "decision_criteria": ["Market demand", "Technical feasibility", "Regulatory compliance", "Financial viability", "Risk management", "Customer benefit"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-05-01",
+    "completion_date": "2025-11-30",
+    "milestones": ["Pilot launch: 2025-07-31", "Full market launch: 2025-09-30", "Scale target: 2025-11-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Pilot successful, $8M in premiums, average payout time 2 hours vs industry 30 days",
+    "12_month_review": "Full launch exceeded targets, $22M revenue, 98% customer satisfaction",
+    "actual_roi": "19% (vs projected 16%)"
+  },
+  "lessons_learned": "Speed of payout is key differentiator, customer education on parametric triggers essential, data partnerships critical for success"
+}

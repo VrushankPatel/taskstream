@@ -1,0 +1,91 @@
+{
+<<<<<<< HEAD
+  "scenario_id": "agriculture_precision_farming_adoption_2025",
+  "context": "Large agricultural cooperative facing climate change impacts and input cost pressures, evaluating precision farming technology adoption",
+  "stakeholders": {
+    "requester": "Chief Agronomist",
+    "approvers": ["Board of Directors", "CEO"],
+    "influencers": ["Farm Operations Manager", "Finance Director", "Technology Committee"]
+  },
+  "request": {
+    "amount": "$12,000,000",
+    "purpose": "GPS-guided tractors, drone monitoring, AI crop analytics, and variable rate irrigation systems",
+    "urgency": "high",
+    "justification": "30% yield variability due to weather, 25% input waste, climate change adaptation needs, market demand for sustainable practices"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "duration": "4 weeks",
+      "activities": ["Vendor assessments", "Field trials", "Cost analysis"],
+      "outcome": "Selected integrated platform solution"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "6 months",
+      "activities": ["Pilot farm implementation", "Data collection", "Farmer training"],
+      "outcome": "15% yield increase, 20% input reduction"
+    },
+    {
+      "stage": "scaling_assessment",
+      "duration": "2 weeks",
+      "activities": ["Infrastructure requirements", "Training needs", "Financial modeling"],
+      "outcome": "Feasible scaling plan developed"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved yields, reduced input costs, climate resilience, sustainable certification",
+    "projected_value": "$8,000,000 annual savings, $25,000,000 NPV",
+    "risk_factors": ["Technology reliability", "Farmer adoption resistance", "Data privacy concerns", "Infrastructure costs"]
+  },
+  "decision_criteria": ["ROI >200%", "Adoption rate >70%", "Measurable yield improvement", "Climate resilience enhancement", "Scalable across cooperative farms"],
+  "outcome": "Approved",
+  "lessons_learned": "Farmer training and support critical for adoption, pilot programs essential for proving value, data ownership agreements important for trust"
+=======
+  "scenario_id": "agriculture_precision_farming_decision",
+  "context": "Agricultural cooperative evaluating adoption of precision farming technologies to optimize yields and reduce input costs",
+   "stakeholders": {
+     "requester": "Operations Director",
+     "approvers": ["CEO", "Chief Financial Officer", "Board Agriculture Committee"],
+     "influencers": ["Farm Managers", "Technology Specialist", "Environmental Compliance Officer", "Farmer Members"],
+     "consultants": ["Technology Consultants", "Agricultural Extension Specialists"],
+     "regulators": ["USDA", "EPA", "State Agriculture Department", "EU Agricultural Compliance Office"]
+   },
+  "request": {
+    "amount": "$12 million",
+    "purpose": "Implementation of precision farming technologies including GPS-guided equipment, soil sensors, drone monitoring, and data analytics platforms",
+    "urgency": "medium",
+    "justification": "Competitive pressure from technology adoption, potential for 20-30% yield improvement, input cost reduction, and enhanced sustainability"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_assessment",
+      "duration": "3 months",
+      "activities": ["Technology vendor evaluation", "Pilot program design", "Cost-benefit analysis", "Farmer training needs assessment"],
+      "outcome": "Selected integrated precision farming platform with demonstrated 25% yield improvement"
+    },
+    {
+      "stage": "farmer_engagement",
+      "duration": "2 months",
+      "activities": ["Farmer focus groups", "Demonstration events", "Adoption incentive planning", "Resistance mitigation strategies"],
+      "outcome": "70% farmer support with concerns about technology complexity and costs"
+    },
+    {
+      "stage": "financial_evaluation",
+      "duration": "2 months",
+      "activities": ["Detailed ROI modeling", "Funding strategy development", "Risk assessment", "Implementation timeline planning"],
+      "outcome": "3-year payback period with 18% IRR and significant sustainability benefits"
+    }
+  ],
+   "business_impact": {
+     "expected_outcome": "25% increase in average yields, 15% reduction in input costs, improved environmental sustainability through reduced chemical usage",
+     "projected_value": "$45 million in additional revenue and cost savings over 5 years",
+     "regulatory_compliance": "Meets EU Green Deal requirements, USDA precision agriculture standards, and state environmental regulations",
+     "risk_factors": ["Technology adoption challenges", "Farmer resistance", "Equipment maintenance costs", "Data privacy concerns", "Regulatory changes in agricultural technology"],
+     "mitigation_strategies": ["Pilot program implementation", "Farmer training programs", "Technical support agreements", "Phased rollout approach", "Regulatory compliance monitoring"]
+   },
+  "decision_criteria": ["Yield and cost improvement potential", "Financial viability", "Farmer acceptance", "Environmental benefits", "Technology reliability"],
+  "outcome": "Approved with phased implementation",
+  "lessons_learned": "Farmer engagement and education are critical for technology adoption success, pilot programs help demonstrate value and reduce resistance, integrated technology platforms provide better ROI than individual solutions"
+>>>>>>> origin/master
+}

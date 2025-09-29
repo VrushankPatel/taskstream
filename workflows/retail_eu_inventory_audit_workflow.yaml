@@ -1,0 +1,31 @@
+workflow:
+  id: "workflow_retail_eu_inventory_audit"
+  title: "Retail EU Inventory Audit Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Manager", "Inventory Auditor", "Local Compliance Officer"]
+  trigger: "Monthly inventory audit requirement"
+  steps:
+    - step: 1
+      actor: "Store Manager"
+      action: "Prepare inventory records and system reports"
+      tools: ["Inventory management system", "EU compliance checklist"]
+      duration: "2 hours"
+      outputs: ["Audit preparation documents"]
+    - step: 2
+      actor: "Inventory Auditor"
+      action: "Conduct physical count and system verification"
+      tools: ["Barcode scanners", "Audit software"]
+      duration: "4 hours"
+      outputs: ["Inventory variance report"]
+    - step: 3
+      actor: "Local Compliance Officer"
+      action: "Review for EU regulatory compliance"
+      tools: ["EU inventory regulations", "Compliance database"]
+      duration: "1 hour"
+      outputs: ["Compliance certification"]
+  success_criteria: "Inventory accuracy within EU regulatory limits"
+  failure_modes: ["System discrepancies", "Documentation errors"]
+  metrics:
+    - "Audit completion rate: >98%"
+    - "Variance identification: <2%"

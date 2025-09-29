@@ -1,0 +1,51 @@
+{
+  "scenario_id": "hospitality_asia_market_entry_2025",
+  "context": "Asian market expansion for international hotel chain",
+  "stakeholders": {
+    "requester": "VP Asia Operations",
+    "approvers": ["CEO", "Regional President"],
+    "influencers": ["Asia Market Director", "Finance Controller"]
+  },
+  "request": {
+    "amount": "$8M",
+    "purpose": "Hotel development in Southeast Asia",
+    "urgency": "high",
+    "justification": "Rapid tourism growth in Asia Pacific"
+  },
+  "decision_process": [
+    {
+      "stage": "market_research",
+      "duration": "2 months",
+      "activities": ["Competitive analysis", "Customer segmentation", "Demand forecasting", "Regulatory review"],
+      "outcome": "Identified high-growth markets in Southeast Asia"
+    },
+    {
+      "stage": "feasibility_study",
+      "duration": "3 months",
+      "activities": ["Site selection", "Local partnerships", "Financial modeling", "Risk assessment"],
+      "outcome": "Strong growth potential confirmed with 15% IRR projected"
+    },
+    {
+      "stage": "partnership_negotiation",
+      "duration": "1 month",
+      "activities": ["Local partner identification", "Joint venture terms", "Legal due diligence"],
+      "outcome": "Strategic partnerships secured in 3 key markets"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Due diligence review", "Final investment committee"],
+      "outcome": "Approved with conditions for phased rollout"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15 new hotels in 5 years across 4 Asian markets",
+    "projected_value": "$40M annual revenue with 25% margin",
+    "strategic_benefits": ["Market diversification", "Brand expansion", "Revenue growth"],
+    "operational_impact": ["New market expertise", "Cultural training programs", "Supply chain expansion"],
+    "risk_factors": ["Political instability in target regions", "Currency volatility", "Cultural adaptation challenges", "Competition from local brands", "Regulatory changes"]
+  },
+  "decision_criteria": ["Market growth >8% CAGR", "Local partner availability and reliability", "Financial returns >12% IRR", "Political stability score >7/10", "Cultural compatibility assessment", "Exit strategy viability"],
+  "outcome": "Approved",
+  "lessons_learned": "Cultural adaptation and local partnerships essential"
+}

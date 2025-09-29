@@ -1,0 +1,49 @@
+{
+  "scenario_id": "mining_safety_technology_investment_decision",
+  "context": "Large mining company evaluating $200M investment in autonomous mining equipment and AI safety monitoring systems to improve worker safety and operational efficiency",
+  "stakeholders": {
+    "requester": "Chief Safety Officer",
+    "approvers": ["CEO", "Board of Directors", "Union Representatives"],
+    "influencers": ["Chief Operating Officer", "Chief Technology Officer", "Environmental Health & Safety Director", "Operations Managers"]
+  },
+  "request": {
+    "amount": "$200,000,000",
+    "purpose": "Deploy autonomous haul trucks, AI-powered safety monitoring, and predictive maintenance systems across 5 mining sites",
+    "urgency": "medium",
+    "justification": "Reduce workplace accidents by 50%, improve operational efficiency by 25%, address skilled labor shortages"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_impact_assessment",
+      "duration": "4 months",
+      "activities": ["Current safety analysis", "Technology safety validation", "Worker training requirements assessment", "Regulatory compliance review"],
+      "outcome": "Projected 60% reduction in high-risk incidents"
+    },
+    {
+      "stage": "operational_feasibility",
+      "duration": "3 months",
+      "activities": ["Site suitability analysis", "Integration planning", "Vendor capability assessment", "Change management strategy"],
+      "outcome": "Technical feasibility confirmed with 18-month implementation timeline"
+    },
+    {
+      "stage": "economic_evaluation",
+      "duration": "2 months",
+      "activities": ["ROI modeling", "Cost-benefit analysis", "Productivity impact assessment", "Workforce transition planning"],
+      "outcome": "10-year ROI of 12.3% with $180M in operational savings"
+    },
+    {
+      "stage": "stakeholder_alignment",
+      "duration": "3 months",
+      "activities": ["Union negotiations", "Worker training programs", "Community impact assessment", "Environmental review"],
+      "outcome": "Union agreement reached with job transition guarantees"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% reduction in workplace accidents, 25% increase in operational efficiency, successful workforce transition",
+    "projected_value": "$400,000,000 in benefits over 15 years",
+    "risk_factors": ["Technology integration challenges", "Worker resistance to automation", "Higher maintenance costs", "Regulatory delays"]
+  },
+  "decision_criteria": ["Safety improvement metrics", "Financial ROI (>10%)", "Operational feasibility", "Workforce impact", "Regulatory compliance", "Environmental impact"],
+  "outcome": "Approved",
+  "lessons_learned": "Early union engagement essential for automation projects, comprehensive training programs build confidence, phased implementation reduces operational disruption"
+}

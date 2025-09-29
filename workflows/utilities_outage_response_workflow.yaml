@@ -1,0 +1,115 @@
+name: Utilities Outage Response Workflow
+description: Emergency response process for utility service outages, focusing on rapid restoration and customer communication
+version: 1.0
+industry: Utilities
+region: Global
+complexity: High
+actors:
+  - Emergency Response Coordinator
+  - Field Operations Manager
+  - Communications Lead
+  - Technical Specialist
+  - Customer Service Manager
+steps:
+  - id: outage_detection
+    name: Outage Detection and Assessment
+    description: Detect service outage and assess scope and impact
+    actor: Emergency Response Coordinator
+    inputs:
+      - System monitoring alerts
+      - Customer reports
+      - Sensor data
+    outputs:
+      - Outage scope assessment
+      - Impact analysis
+      - Priority classification
+    duration: 15 minutes
+    decision_points:
+      - condition: Widespread outage
+        next_step: activate_emergency_team
+      - condition: Localized outage
+        next_step: dispatch_field_crew
+  - id: activate_emergency_team
+    name: Activate Emergency Response Team
+    description: Assemble emergency response team for major outages
+    actor: Emergency Response Coordinator
+    inputs:
+      - Emergency response plan
+      - Team contact lists
+      - Resource mobilization protocols
+    outputs:
+      - Response team activation
+      - Resource allocation
+      - Communication protocols
+    duration: 30 minutes
+  - id: dispatch_field_crew
+    name: Dispatch Field Crew
+    description: Send technicians to outage location
+    actor: Field Operations Manager
+    inputs:
+      - Technician availability
+      - Equipment inventory
+      - Safety protocols
+    outputs:
+      - Crew dispatch orders
+      - Equipment assignments
+      - Safety briefings
+    duration: 1 hour
+  - id: customer_communication
+    name: Customer Communication
+    description: Inform affected customers about outage status
+    actor: Communications Lead
+    inputs:
+      - Customer database
+      - Communication templates
+      - Outage updates
+    outputs:
+      - Public notifications
+      - Status updates
+      - Restoration timelines
+    duration: 2 hours
+    tools:
+      - Mass notification system
+      - Social media platforms
+  - id: restoration_efforts
+    name: Restoration Efforts
+    description: Diagnose and repair outage causes
+    actor: Technical Specialist
+    inputs:
+      - Diagnostic tools
+      - Repair procedures
+      - Spare parts
+    outputs:
+      - Root cause identification
+      - Repair actions
+      - System restoration
+    duration: Variable
+  - id: post_outage_review
+    name: Post-Outage Review
+    description: Review outage response and implement improvements
+    actor: Emergency Response Coordinator
+    inputs:
+      - Incident reports
+      - Customer feedback
+      - Performance metrics
+    outputs:
+      - After-action report
+      - Improvement recommendations
+      - Updated procedures
+    duration: 1 week
+success_criteria:
+  - Service restored within target timeframes
+  - Clear communication with customers
+  - Minimal safety incidents
+  - Accurate root cause identification
+failure_modes:
+  - Prolonged outage duration
+  - Poor customer communication
+  - Safety violations
+  - Inadequate resource allocation
+metrics:
+  - Mean time to restoration
+  - Customer notification timeliness
+  - Outage frequency
+  - Response team effectiveness
+  - Customer satisfaction during outages

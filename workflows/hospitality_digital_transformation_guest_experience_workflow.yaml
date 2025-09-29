@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_hospitality_medium_003"
+  title: "Hospitality Digital Transformation Guest Experience Workflow"
+  department: "Guest Experience"
+  complexity: "medium"
+  participants: ["Guest Experience Manager", "IT Coordinator", "Front Desk Staff", "Housekeeping Manager"]
+  trigger: "Implementation of new digital guest experience platform"
+  steps:
+    - step: 1
+      actor: "IT Coordinator"
+      action: "Configure mobile check-in and room control systems"
+      tools: ["Mobile App Platform", "IoT Integration Tools"]
+      duration: "2 days"
+      outputs: ["Configured digital systems"]
+    - step: 2
+      actor: "Guest Experience Manager"
+      action: "Train staff on new digital tools and guest interaction protocols"
+      tools: ["Training Materials", "Digital Demo Environment"]
+      duration: "1 day"
+      outputs: ["Trained staff team"]
+    - step: 3
+      actor: "Front Desk Staff"
+      action: "Pilot digital check-in process with select guests"
+      tools: ["Mobile Check-in App", "Feedback Collection System"]
+      duration: "1 week"
+      outputs: ["Pilot feedback report"]
+    - step: 4
+      actor: "Housekeeping Manager"
+      action: "Integrate smart room controls with housekeeping schedules"
+      tools: ["Smart Room System", "Housekeeping Management App"]
+      duration: "3 days"
+      outputs: ["Integrated housekeeping workflow"]
+    - step: 5
+      actor: "Guest Experience Manager"
+      action: "Analyze pilot results and optimize digital experience"
+      tools: ["Analytics Dashboard", "Guest Feedback System"]
+      duration: "1 week"
+      outputs: ["Optimization recommendations", "Full rollout plan"]
+  success_criteria: "Digital adoption rate >70%, guest satisfaction improved by 15%, operational efficiency increased"
+  failure_modes: ["Technical integration issues", "Staff resistance to change", "Guest confusion with new systems"]
+  metrics:
+    - "Digital tool adoption: 75% of guests"
+    - "Check-in time reduction: 30%"
+    - "Guest satisfaction improvement: 15% increase"
+    - "Staff training completion: 100%"

@@ -1,0 +1,110 @@
+name: Utilities Grid Maintenance Workflow
+description: Scheduled maintenance process for electrical grid infrastructure, ensuring reliability and safety
+version: 1.0
+industry: Utilities
+region: Global
+complexity: Medium
+actors:
+  - Maintenance Supervisor
+  - Field Technician
+  - Safety Officer
+  - Operations Manager
+  - Regulatory Compliance Officer
+steps:
+  - id: maintenance_planning
+    name: Maintenance Planning and Scheduling
+    description: Plan and schedule grid maintenance activities
+    actor: Maintenance Supervisor
+    inputs:
+      - Equipment inspection reports
+      - Maintenance schedules
+      - Resource availability
+    outputs:
+      - Maintenance work orders
+      - Resource allocation plan
+    duration: 1 week
+    tools:
+      - Maintenance management system
+      - GIS mapping software
+  - id: safety_assessment
+    name: Safety Assessment and Permits
+    description: Conduct safety risk assessment and obtain necessary permits
+    actor: Safety Officer
+    inputs:
+      - Risk assessment templates
+      - Equipment specifications
+      - Regulatory requirements
+    outputs:
+      - Safety plan
+      - Work permits
+      - Emergency response procedures
+    duration: 2 days
+  - id: equipment_shutdown
+    name: Equipment Shutdown and Isolation
+    description: Safely shut down and isolate equipment for maintenance
+    actor: Field Technician
+    inputs:
+      - Shutdown procedures
+      - Lockout/tagout protocols
+      - Equipment status monitoring
+    outputs:
+      - Shutdown confirmation
+      - Isolation verification
+    duration: 4 hours
+  - id: maintenance_execution
+    name: Maintenance Execution
+    description: Perform scheduled maintenance tasks
+    actor: Field Technician
+    inputs:
+      - Maintenance checklists
+      - Spare parts inventory
+      - Technical manuals
+    outputs:
+      - Maintenance completion reports
+      - Equipment test results
+    duration: 8 hours
+    tools:
+      - Diagnostic equipment
+      - Maintenance tools
+  - id: testing_and_inspection
+    name: Testing and Inspection
+    description: Test equipment functionality and inspect work quality
+    actor: Maintenance Supervisor
+    inputs:
+      - Testing protocols
+      - Quality standards
+      - Inspection checklists
+    outputs:
+      - Test results
+      - Inspection reports
+      - Compliance documentation
+    duration: 4 hours
+  - id: system_restoration
+    name: System Restoration and Documentation
+    description: Restore system to operational status and document work
+    actor: Operations Manager
+    inputs:
+      - Restoration procedures
+      - System monitoring data
+      - Maintenance records
+    outputs:
+      - System restoration confirmation
+      - Maintenance log updates
+      - Regulatory reports
+    duration: 2 hours
+success_criteria:
+  - Maintenance completed on schedule
+  - Zero safety incidents
+  - Equipment performance restored to specifications
+  - Regulatory compliance maintained
+failure_modes:
+  - Equipment failure during maintenance
+  - Safety violations
+  - Schedule delays
+  - Incomplete documentation
+metrics:
+  - Maintenance completion rate
+  - Mean time between failures
+  - Safety incident rate
+  - Regulatory compliance score
+  - Equipment uptime percentage

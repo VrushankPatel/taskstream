@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_hospitality_booking_management"
+  title: "Hotel Booking Management and Confirmation"
+  department: "Reservations"
+  complexity: "medium"
+  participants: ["Reservations Agent", "Revenue Manager", "Guest", "Front Desk"]
+  trigger: "Booking request received via website/phone/channel manager"
+  steps:
+    - step: 1
+      actor: "Reservations Agent"
+      action: "Verify availability and rate for requested dates"
+      tools: ["PMS System", "Rate Management System", "Channel Manager"]
+      duration: "5 minutes"
+      outputs: ["Availability Confirmation", "Rate Quote"]
+    - step: 2
+      actor: "Reservations Agent"
+      action: "Collect guest details and preferences"
+      tools: ["Reservation Form", "CRM System"]
+      duration: "3 minutes"
+      outputs: ["Guest Profile", "Booking Preferences"]
+    - step: 3
+      actor: "Revenue Manager"
+      action: "Review booking for rate optimization and restrictions"
+      tools: ["Revenue Management System", "Yield Management Tools"]
+      duration: "2 minutes"
+      outputs: ["Rate Approval", "Booking Restrictions"]
+    - step: 4
+      actor: "Reservations Agent"
+      action: "Process payment and confirm booking"
+      tools: ["Payment Gateway", "PMS System"]
+      duration: "3 minutes"
+      outputs: ["Payment Confirmation", "Booking Reference"]
+    - step: 5
+      actor: "Reservations Agent"
+      action: "Send confirmation email and update channels"
+      tools: ["Email System", "Channel Manager"]
+      duration: "2 minutes"
+      outputs: ["Confirmation Email", "Channel Updates"]
+  success_criteria: "Booking confirmed within 15 minutes, all systems updated, guest notified"
+  failure_modes: ["No availability", "Payment declined", "System errors", "Rate discrepancies"]
+  metrics:
+    - "Booking Confirmation Time: <15 minutes"
+    - "Conversion Rate: >80% of inquiries"
+    - "Accuracy Rate: >99%"
+    - "Guest Satisfaction: >95%"

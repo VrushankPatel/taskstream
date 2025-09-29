@@ -1,43 +1,43 @@
 {
-  "scenario_id": "mining_environmental_impact_assessment_decision",
-  "context": "Open-pit mining operation seeking expansion into new mineral deposit area. Current operations have maintained environmental compliance but expansion requires comprehensive impact assessment and mitigation planning.",
+  "scenario_id": "mining_environmental_impact_assessment_2025",
+  "context": "Mining company evaluating expansion of open-pit operation, requiring comprehensive environmental impact assessment",
   "stakeholders": {
-    "requester": "Environmental Compliance Manager",
-    "approvers": ["CEO", "Board Environmental Committee", "Government Regulators"],
-    "influencers": ["Operations Director", "Community Relations Manager", "Environmental Consultants"]
+    "requester": "VP Operations",
+    "approvers": ["CEO", "Board of Directors", "Chief Environmental Officer"],
+    "influencers": ["Local Government", "Environmental NGOs", "Community Representatives", "VP Legal"]
   },
   "request": {
-    "amount": "$8M",
-    "purpose": "Comprehensive environmental impact assessment, mitigation planning, and monitoring systems for 5-year expansion project",
+    "amount": "$15,000,000",
+    "purpose": "Environmental impact assessment and mitigation planning for mine expansion",
     "urgency": "medium",
-    "justification": "Secure expansion permits, maintain social license to operate, comply with stringent environmental regulations, enhance corporate sustainability reputation"
+    "justification": "Regulatory requirement for expansion, improved environmental compliance, enhanced community relations"
   },
   "decision_process": [
     {
-      "stage": "baseline_environmental_study",
+      "stage": "baseline_assessment",
       "duration": "6 months",
-      "activities": ["Ecosystem mapping", "Water quality sampling", "Biodiversity surveys", "Socioeconomic baseline"],
-      "outcome": "Established comprehensive baseline data for impact assessment"
+      "activities": ["Environmental baseline studies", "Stakeholder consultations", "Regulatory requirements review", "Impact modeling"],
+      "outcome": "Identified significant impacts on water quality and biodiversity"
     },
     {
-      "stage": "impact_modeling",
+      "stage": "impact_analysis",
       "duration": "4 months",
-      "activities": ["Environmental impact modeling", "Mitigation strategy development", "Stakeholder consultation"],
+      "activities": ["Detailed impact assessments", "Mitigation strategy development", "Alternative analysis", "Risk evaluation"],
       "outcome": "Developed mitigation plans reducing impacts by 70%"
     },
     {
-      "stage": "regulatory_review",
+      "stage": "regulatory_approval",
       "duration": "3 months",
-      "activities": ["Permit application preparation", "Regulatory agency meetings", "Public consultation process"],
-      "outcome": "Received conditional approval with enhanced monitoring requirements"
+      "activities": ["Permit applications", "Public hearings", "Environmental reviews", "Community engagement"],
+      "outcome": "Received conditional approval with enhanced monitoring"
     }
   ],
   "business_impact": {
-    "expected_outcome": "Successful expansion permitting, improved community relations, enhanced environmental performance, strengthened regulatory compliance",
-    "projected_value": "$500M in additional mineral reserves, $50M in operational continuity value",
-    "risk_factors": ["Regulatory delays", "Community opposition", "Environmental incident risks", "Cost overruns in mitigation"]
+    "expected_outcome": "Approved mine expansion with enhanced environmental protections",
+    "projected_value": "$50,000,000 additional revenue from expanded operations",
+    "risk_factors": ["Regulatory delays", "Community opposition", "Environmental accidents", "Higher mitigation costs"]
   },
-  "decision_criteria": ["Environmental impact reduction >60%", "Community support >75%", "Regulatory approval probability >80%", "ROI >25% on expansion", "Sustainability alignment"],
-  "outcome": "Approved",
-  "lessons_learned": "Early stakeholder engagement builds support, comprehensive baseline studies enable accurate impact assessment, adaptive mitigation strategies accommodate changing conditions"
+  "decision_criteria": ["Environmental impact minimization", "Community acceptance", "Financial viability", "Regulatory compliance", "Operational feasibility"],
+  "outcome": "Approved with conditions",
+  "lessons_learned": "Early community engagement prevents opposition, comprehensive baseline data enables better decision-making, mitigation costs often underestimated"
 }

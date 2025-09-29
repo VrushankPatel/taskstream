@@ -1,0 +1,42 @@
+workflow:
+  id: "workflow_retail_customer_complaint_resolution"
+  title: "Retail Customer Complaint Resolution Process"
+  department: "Customer Service"
+  complexity: "simple"
+  participants: ["Customer Service Representative", "Store Manager", "Customer"]
+  trigger: "Customer submits complaint via app, phone, or in-store"
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Acknowledge complaint and gather complete details"
+      tools: ["CRM system", "Complaint form", "Customer feedback survey"]
+      duration: "15 minutes"
+      outputs: ["Complaint record", "Initial acknowledgment"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Investigate complaint and determine appropriate resolution"
+      decision_points: ["Complaint validity", "Resolution options", "Escalation required"]
+      tools: ["CRM system", "Inventory database", "Policy guidelines", "Manager consultation"]
+      duration: "30 minutes"
+      outputs: ["Investigation findings", "Resolution plan"]
+    - step: 3
+      actor: "Customer Service Representative"
+      action: "Implement resolution and communicate to customer"
+      tools: ["CRM system", "Store credit system", "Refund processing", "Follow-up email"]
+      duration: "20 minutes"
+      outputs: ["Resolution confirmation", "Customer communication"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Review escalated complaints and provide oversight"
+      tools: ["Management dashboard", "Quality assurance tools"]
+      duration: "As needed"
+      outputs: ["Escalation resolution", "Process improvement recommendations"]
+  success_criteria: "Customer satisfaction rating above 4/5 with complete resolution and follow-up"
+  failure_modes: ["Delayed response exceeding SLA", "Inadequate resolution requiring escalation", "Communication breakdowns", "System technical issues"]
+  metrics:
+    - "Average resolution time: <24 hours"
+    - "Customer satisfaction rate: >90%"
+    - "First contact resolution: >75%"
+    - "Escalation rate: <10%"
+    - "Repeat complaints: <5%"
+    - "Resolution cost: <$25 per complaint"

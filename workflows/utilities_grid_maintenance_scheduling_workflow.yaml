@@ -1,0 +1,42 @@
+workflow:
+  id: "workflow_utilities_maintenance_001"
+  title: "Utilities Grid Maintenance Scheduling"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Maintenance Supervisor", "Grid Engineer", "Regulatory Coordinator", "Field Technician"]
+  trigger: "Scheduled maintenance cycle or equipment failure alert"
+  steps:
+    - step: 1
+      actor: "Grid Engineer"
+      action: "Assess equipment condition and prioritize maintenance needs"
+      tools: ["SCADA System", "Asset Management Database"]
+      duration: "2 hours"
+      outputs: ["Maintenance priority list"]
+    - step: 2
+      actor: "Regulatory Coordinator"
+      action: "Check regulatory requirements and obtain necessary permits"
+      tools: ["Regulatory Database", "Permit Application System"]
+      duration: "4 hours"
+      outputs: ["Permit approvals"]
+    - step: 3
+      actor: "Maintenance Supervisor"
+      action: "Schedule maintenance windows minimizing service disruption"
+      tools: ["Maintenance Scheduling Software", "Load Forecasting Tool"]
+      duration: "3 hours"
+      decision_points: ["Emergency vs. preventive maintenance prioritization", "Load shedding requirements", "Backup power coordination"]
+      outputs: ["Maintenance schedule", "Customer notification plan"]
+    - step: 4
+      actor: "Field Technician"
+      action: "Execute maintenance and document results"
+      tools: ["Work Order System", "Inspection Tools"]
+      duration: "8 hours"
+      outputs: ["Maintenance report"]
+  success_criteria: "Maintenance completed with <2% service interruption"
+  failure_modes: ["Permit delays", "Equipment failure during maintenance", "Weather disruptions"]
+  metrics:
+     - "Service availability: Target >99.8%"
+     - "Maintenance cost: Target <$500K/month"
+     - "Permit approval time: Target <48 hours"
+     - "Emergency response time: Target <2 hours"
+     - "Customer outage notifications: Target <15 minutes"
+     - "Preventive maintenance completion rate: Target >95%"

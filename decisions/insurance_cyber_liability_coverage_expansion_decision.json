@@ -1,0 +1,43 @@
+{
+  "scenario_id": "insurance_cyber_liability_coverage_expansion_decision",
+  "context": "Insurance company facing increased cyber claims, evaluating expansion of cyber liability product line",
+  "stakeholders": {
+    "requester": "VP Underwriting",
+    "approvers": ["Chief Underwriter", "CFO"],
+    "influencers": ["Claims Director", "Risk Management Head", "Product Development Team"]
+  },
+  "request": {
+    "amount": "$2.2M",
+    "purpose": "Expand cyber liability coverage to include emerging risks like ransomware and data breaches",
+    "urgency": "high",
+    "justification": "Cyber claims increased 300% in past year, market demand growing rapidly"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 weeks",
+      "activities": ["Industry research", "Competitor analysis", "Customer surveys"],
+      "outcome": "Identified gap in comprehensive cyber coverage"
+    },
+    {
+      "stage": "product_design",
+      "duration": "4 weeks",
+      "activities": ["Coverage modeling", "Pricing analysis", "Regulatory review"],
+      "outcome": "New product specifications developed"
+    },
+    {
+      "stage": "financial_review",
+      "duration": "2 weeks",
+      "activities": ["Actuarial analysis", "Reinsurance evaluation", "ROI calculation"],
+      "outcome": "Projected 25% profit margin approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in cyber premium volume, market leadership in cyber insurance",
+    "projected_value": "$15M additional annual revenue",
+    "risk_factors": ["Underwriting losses", "Regulatory changes", "Market saturation"]
+  },
+  "decision_criteria": ["Market demand", "Profitability potential", "Risk management capability", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Rapidly evolving cyber threats require flexible product design. Actuarial expertise critical for pricing complex risks. Early regulatory engagement prevents launch delays."
+}

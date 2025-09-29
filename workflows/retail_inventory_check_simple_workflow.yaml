@@ -1,0 +1,26 @@
+workflow:
+  id: "workflow_retail_inventory_check"
+  title: "Retail Inventory Check Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Associate", "Inventory Manager"]
+  trigger: "Daily inventory verification required"
+  steps:
+    - step: 1
+      actor: "Store Associate"
+      action: "Scan shelf items using handheld scanner"
+      tools: ["Inventory Scanner", "Product Catalog"]
+      duration: "30 minutes"
+      outputs: ["Scanned Inventory Data"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Review scan results and reconcile discrepancies"
+      tools: ["Inventory Management System", "Sales Data"]
+      duration: "15 minutes"
+      outputs: ["Inventory Adjustment Report"]
+  success_criteria: "Inventory accuracy >98%, discrepancies resolved within shift"
+  failure_modes: ["Scanner malfunction", "Unreadable barcodes", "System connectivity issues"]
+  metrics:
+    - "Inventory Accuracy: >98%"
+    - "Check Completion Time: <45 minutes"
+    - "Discrepancy Resolution Rate: >95%"

@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_hospitality_guest_booking"
+  title: "Hotel Guest Reservation Process"
+  department: "Reservations"
+  complexity: "medium"
+  participants: ["Reservations Agent", "Guest", "Front Desk Manager"]
+  trigger: "Guest requests room reservation"
+  steps:
+    - step: 1
+      actor: "Reservations Agent"
+      action: "Collect guest information and preferences"
+      tools: ["Property Management System", "Rate Calendar"]
+      duration: "3 minutes"
+      outputs: ["Guest profile created", "Room preferences noted"]
+    - step: 2
+      actor: "Reservations Agent"
+      action: "Check availability and quote rates"
+      decision_points: ["Room type availability", "Rate optimization"]
+      duration: "2 minutes"
+      outputs: ["Rate quote provided", "Availability confirmed"]
+    - step: 3
+      actor: "Reservations Agent"
+      action: "Process booking and collect payment information"
+      tools: ["Credit Card Processing", "Booking System"]
+      duration: "4 minutes"
+      outputs: ["Reservation confirmed", "Confirmation sent to guest"]
+    - step: 4
+      actor: "Front Desk Manager"
+      action: "Review high-value bookings for special handling"
+      tools: ["VIP Guest System"]
+      duration: "2 minutes"
+      outputs: ["Special arrangements noted"]
+  success_criteria: "Reservation completed within 15 minutes with 98% accuracy"
+  failure_modes: ["System errors", "Rate discrepancies", "Overbooking conflicts"]
+  metrics:
+    - "Booking completion rate: Target >95%"
+    - "Average booking time: Target <12 minutes"
+    - "Booking accuracy: Target >99%"

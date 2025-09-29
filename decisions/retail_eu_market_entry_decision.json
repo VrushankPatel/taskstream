@@ -1,0 +1,112 @@
+{
+  "decision_id": "decision_retail_eu_market_entry",
+  "title": "Retail EU Market Entry Strategy Decision",
+  "context": "Strategic evaluation of entering European retail market through acquisition or greenfield expansion",
+  "stakeholders": [
+    "CEO",
+    "CFO",
+    "VP International Operations",
+    "VP Retail Operations",
+    "Legal Counsel",
+    "Market Research Team"
+  ],
+  "timeline": "Q4 2025 - Q2 2026",
+  "options": [
+    {
+      "option_id": "acquisition",
+      "title": "Strategic Acquisition of European Retail Chain",
+      "description": "Acquire established European retailer with 50+ stores across 5 countries",
+      "costs": "$500M acquisition, $100M integration",
+      "benefits": "Immediate market presence, existing customer base, local expertise",
+      "risks": "Cultural integration challenges, regulatory hurdles, premium valuation",
+      "timeline": "12-18 months to full integration"
+    },
+    {
+      "option_id": "greenfield",
+      "title": "Greenfield Expansion in Key European Markets",
+      "description": "Open 20 new stores in Germany, France, Netherlands over 3 years",
+      "costs": "$150M development, $50M operations",
+      "benefits": "Full control of brand experience, scalable model, lower upfront cost",
+      "risks": "Longer time to market, local competition, regulatory learning curve",
+      "timeline": "24-36 months to establish presence"
+    },
+    {
+      "option_id": "partnership",
+      "title": "Strategic Partnership with European Retailer",
+      "description": "Form joint venture with local retailer for co-branded stores and shared operations",
+      "costs": "$50M investment, $20M annual operations",
+      "benefits": "Shared risk, local market knowledge, faster entry",
+      "risks": "Shared control, potential conflicts, brand dilution",
+      "timeline": "6-12 months to launch"
+    }
+  ],
+  "evaluation_criteria": [
+    {
+      "criterion": "Market Entry Speed",
+      "weight": 0.25,
+      "acquisition": 0.9,
+      "greenfield": 0.4,
+      "partnership": 0.7
+    },
+    {
+      "criterion": "Financial ROI",
+      "weight": 0.3,
+      "acquisition": 0.6,
+      "greenfield": 0.8,
+      "partnership": 0.7
+    },
+    {
+      "criterion": "Risk Level",
+      "weight": 0.2,
+      "acquisition": 0.5,
+      "greenfield": 0.6,
+      "partnership": 0.8
+    },
+    {
+      "criterion": "Brand Control",
+      "weight": 0.15,
+      "acquisition": 0.7,
+      "greenfield": 0.9,
+      "partnership": 0.5
+    },
+    {
+      "criterion": "Regulatory Complexity",
+      "weight": 0.1,
+      "acquisition": 0.6,
+      "greenfield": 0.5,
+      "partnership": 0.7
+    }
+  ],
+  "recommendation": {
+    "preferred_option": "partnership",
+    "rationale": "Balances speed of entry with manageable risk and cost, while leveraging local expertise",
+    "implementation_plan": [
+      "Q1 2026: Finalize partnership agreement with European retailer",
+      "Q2 2026: Launch pilot co-branded stores in 2 markets",
+      "Q3 2026: Expand to 10 locations across 3 countries",
+      "Q4 2026: Evaluate performance and plan full rollout"
+    ],
+    "success_metrics": [
+      "Market share: 5% in target countries within 3 years",
+      "ROI: 15% within 2 years",
+      "Customer satisfaction: >85% vs local competitors",
+      "Regulatory compliance: 100% across all markets"
+    ]
+  },
+  "risks_and_mitigations": [
+    {
+      "risk": "EU regulatory changes post-Brexit",
+      "mitigation": "Diversify across multiple EU countries, maintain flexible supply chain"
+    },
+    {
+      "risk": "Cultural integration challenges",
+      "mitigation": "Hire local leadership, implement cultural training programs"
+    },
+    {
+      "risk": "Currency fluctuations",
+      "mitigation": "Hedging strategies, local currency operations where possible"
+    }
+  ],
+  "decision_date": "2025-09-29",
+  "review_date": "2026-03-29"
+}

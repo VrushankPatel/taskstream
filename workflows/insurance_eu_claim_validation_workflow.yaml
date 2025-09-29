@@ -1,0 +1,37 @@
+workflow:
+  id: "workflow_insurance_eu_claim_validation"
+  title: "Insurance EU Claim Validation Process"
+  department: "Claims"
+  complexity: "complex"
+  participants: ["Claims Handler", "EU Compliance Officer", "Fraud Investigator", "Legal Counsel"]
+  trigger: "Claim submission in EU market"
+  steps:
+    - step: 1
+      actor: "Claims Handler"
+      action: "Initial claim review and documentation check"
+      tools: ["EU claims system", "Document verification tools"]
+      duration: "1 hour"
+      outputs: ["Initial validation report"]
+    - step: 2
+      actor: "EU Compliance Officer"
+      action: "Verify GDPR compliance and data protection"
+      tools: ["GDPR compliance checker", "Privacy assessment tools"]
+      duration: "30 minutes"
+      outputs: ["Compliance verification"]
+    - step: 3
+      actor: "Fraud Investigator"
+      action: "Conduct fraud risk assessment"
+      tools: ["Fraud detection system", "EU fraud databases"]
+      duration: "2 hours"
+      outputs: ["Fraud risk evaluation"]
+    - step: 4
+      actor: "Legal Counsel"
+      action: "Review for local regulatory requirements"
+      tools: ["EU insurance regulations", "Legal database"]
+      duration: "1 hour"
+      outputs: ["Legal compliance approval"]
+  success_criteria: "Claim validated within EU processing timelines"
+  failure_modes: ["Documentation gaps", "Regulatory non-compliance"]
+  metrics:
+    - "Validation completion rate: >90%"
+    - "Fraud detection accuracy: >95%"

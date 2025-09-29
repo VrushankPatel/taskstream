@@ -1,57 +1,54 @@
 workflow:
-  id: "workflow_insurance_claims_medium"
-  title: "Medium Complexity Insurance Claims Processing"
+  id: "workflow_insurance_claims_processing"
+  title: "Insurance Claims Processing Workflow"
   department: "Claims"
   complexity: "medium"
-  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Fraud Investigator", "Policyholder"]
-  trigger: "Claim submission via portal or phone"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Fraud Investigator"]
+  trigger: "Claim submission received"
   steps:
     - step: 1
       actor: "Claims Adjuster"
-      action: "Receive and log claim details, verify policy coverage"
-      tools: ["Claims management system", "Policy database"]
+      action: "Review claim documentation and verify policy coverage"
+      decision_points: ["Policy is active and valid", "Claim falls within coverage terms", "Required documentation complete"]
+      tools: ["Claims system", "Policy database"]
       duration: "30 minutes"
-      outputs: ["Initial claim assessment", "Coverage verification"]
+      outputs: ["Initial claim assessment", "Coverage verification report"]
     - step: 2
       actor: "Claims Adjuster"
-      action: "Gather supporting documentation from policyholder"
-      tools: ["Document upload portal", "Email communication system"]
-      duration: "2 hours"
-      outputs: ["Complete claim file", "Documentation checklist"]
+      action: "Contact claimant for additional information if needed"
+      tools: ["Phone system", "Email"]
+      duration: "15 minutes"
+      outputs: ["Additional documentation"]
     - step: 3
       actor: "Fraud Investigator"
-      action: "Perform initial fraud screening using automated tools"
-      tools: ["Fraud detection software", "Claims history database"]
-      duration: "1 hour"
-      outputs: ["Fraud risk assessment"]
+      action: "Perform initial fraud screening"
+      decision_points: ["Low fraud risk - proceed", "Medium risk - additional investigation", "High risk - deny or escalate"]
+      tools: ["Fraud detection system", "Claim history"]
+      duration: "20 minutes"
+      outputs: ["Fraud risk assessment", "Investigation flags"]
     - step: 4
       actor: "Claims Adjuster"
-      action: "Assess claim validity and calculate preliminary settlement"
-      tools: ["Claims calculation software", "Damage assessment tools"]
-      duration: "4 hours"
-      outputs: ["Preliminary settlement amount", "Claim evaluation report"]
+      action: "Assess claim value and determine settlement amount"
+      tools: ["Claims system", "Damage assessment tools"]
+      duration: "45 minutes"
+      outputs: ["Settlement recommendation"]
     - step: 5
       actor: "Claims Supervisor"
-      action: "Review complex claims and approve settlements within authority limits"
-      tools: ["Claims approval system", "Supervisor dashboard"]
-      duration: "2 hours"
-      outputs: ["Supervisor approval", "Escalation notes if needed"]
+      action: "Review and approve settlement recommendation"
+      tools: ["Claims system", "Approval workflow"]
+      duration: "15 minutes"
+      outputs: ["Approved settlement"]
     - step: 6
       actor: "Underwriter"
-      action: "Review high-value claims for reinsurance implications"
-      tools: ["Reinsurance management system", "Underwriting guidelines"]
-      duration: "1 hour"
-      outputs: ["Reinsurance notification", "Underwriting assessment"]
-    - step: 7
-      actor: "Claims Adjuster"
-      action: "Issue payment and communicate settlement to policyholder"
-      tools: ["Payment processing system", "Customer communication portal"]
-      duration: "30 minutes"
-      outputs: ["Payment issued", "Settlement letter"]
-  success_criteria: "Claims processed within 10 business days, settlement accuracy >98%, customer satisfaction >4.0/5"
-  failure_modes: ["Incomplete documentation delays", "Fraud detection false positives", "Underwriting approval bottlenecks", "Payment processing errors"]
+      action: "Verify policy limits and coverage terms"
+      tools: ["Underwriting system", "Policy terms"]
+      duration: "10 minutes"
+      outputs: ["Coverage confirmation"]
+  success_criteria: "Claims processed within 48 hours with 95% accuracy"
+  failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud detection", "System errors", "Communication delays"]
+  risks: ["Regulatory compliance violations", "Data security breaches", "Reputational damage from errors", "Financial losses from fraud", "Customer dissatisfaction"]
   metrics:
-    - "Average processing time: Target <8 business days"
-    - "Claims accuracy rate: Target >98%"
-    - "Fraud detection rate: Target >85%"
-    - "Customer satisfaction: Target >4.0/5"
+    - "Processing time: 36 hours average (target: <24 hours)"
+    - "Accuracy rate: 96% target (current: 95.2%)"
+    - "Customer satisfaction: 4.2/5 target (current: 4.1/5)"
+    - "Fraud detection rate: 85% target (current: 82%)"

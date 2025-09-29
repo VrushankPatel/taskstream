@@ -1,0 +1,45 @@
+{
+  "scenario_id": "agriculture_precision_farming_technology_adoption_decision",
+  "context": "Large agricultural cooperative evaluating $50M investment in precision farming technology across 500 farms",
+  "stakeholders": {
+    "requester": "Chief Agricultural Officer",
+    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
+    "influencers": ["Farm Operations Manager", "Technology Director", "Sustainability Manager"]
+  },
+  "request": {
+    "amount": "$50,000,000",
+    "purpose": "Implement precision farming across cooperative farms",
+    "urgency": "medium",
+    "justification": "15% yield improvement, 20% input cost reduction, enhanced sustainability"
+  },
+  "decision_process": [
+    {
+      "stage": "pilot_program",
+      "duration": "1 year",
+      "activities": ["Technology testing on 10 farms", "Farmer training programs", "Performance monitoring"],
+      "outcome": "12% yield increase and 18% cost savings demonstrated"
+    },
+    {
+      "stage": "scalability_assessment",
+      "duration": "3 months",
+      "activities": ["Infrastructure requirements analysis", "Cost-benefit modeling", "Farmer adoption surveys"],
+      "outcome": "Scalable solution with 3-year ROI identified"
+    },
+    {
+      "stage": "implementation_planning",
+      "duration": "2 months",
+      "activities": ["Vendor selection", "Training program development", "Change management planning"],
+      "outcome": "Comprehensive implementation plan with farmer engagement strategy"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% yield improvement, 20% input cost reduction, improved environmental sustainability",
+    "projected_value": "$75,000,000 annual benefits",
+    "implementation_timeline": "24 months",
+    "roi_timeline": "3 years",
+    "risk_factors": ["Technology adoption resistance", "Infrastructure limitations", "Weather dependency", "Data privacy concerns", "Initial training costs"]
+  },
+  "decision_criteria": ["Pilot results positive", "Farmer adoption >70%", "Financial ROI >20%", "Sustainability benefits"],
+  "outcome": "Approved",
+  "lessons_learned": "Pilot programs essential for technology adoption in agriculture, farmer engagement and training critical for successful implementation"
+}

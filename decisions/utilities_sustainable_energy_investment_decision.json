@@ -1,0 +1,58 @@
+{
+  "scenario_id": "utilities_sustainable_energy_investment_2025",
+  "context": "Utility company evaluating renewable energy portfolio expansion",
+  "stakeholders": {
+    "requester": "Chief Sustainability Officer",
+    "approvers": ["CEO", "Board of Directors"],
+    "influencers": ["Chief Engineer", "Finance Director"]
+  },
+  "request": {
+    "amount": "$200M",
+    "purpose": "Solar and wind farm development",
+    "urgency": "high",
+    "justification": "Regulatory requirements and market demand for clean energy"
+  },
+  "decision_process": [
+    {
+      "stage": "strategic_planning",
+      "duration": "2 months",
+      "activities": ["Portfolio analysis", "Regulatory compliance review", "Market demand assessment"],
+      "outcome": "Identified renewable energy as strategic priority"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "4 months",
+      "activities": ["Site assessments", "Grid integration studies", "Environmental impact analysis", "Technology evaluation"],
+      "outcome": "Feasible with government incentives and grid stability maintained"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "3 months",
+      "activities": ["Cost-benefit analysis", "Funding strategy", "Risk modeling", "ROI projections"],
+      "outcome": "Strong financial case with 12% IRR and 8-year payback"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "1 month",
+      "activities": ["Community consultations", "Regulatory approvals", "Partner negotiations"],
+      "outcome": "Community support secured and permits approved"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "2 weeks",
+      "activities": ["Board presentation", "Executive review", "Contract finalization"],
+      "outcome": "Approved with full funding commitment"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% renewable energy portfolio by 2030 with 500MW additional capacity",
+    "projected_value": "$50M annual savings from reduced fuel costs and incentives",
+    "strategic_benefits": ["Regulatory compliance", "Brand enhancement", "Market diversification"],
+    "operational_impact": ["Grid modernization", "Workforce transition", "Technology expertise development"],
+    "environmental_impact": ["60% reduction in carbon emissions", "Renewable energy leadership"],
+    "risk_factors": ["Weather dependency on solar/wind", "Technology cost fluctuations", "Regulatory policy changes", "Grid integration challenges", "Community opposition"]
+  },
+  "decision_criteria": ["Payback period <10 years", "Carbon reduction >50%", "Grid stability maintained"],
+  "outcome": "Approved",
+  "lessons_learned": "Government incentives crucial for renewable economics"
+}

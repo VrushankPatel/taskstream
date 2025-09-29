@@ -1,0 +1,27 @@
+workflow:
+  id: "workflow_mining_safety_005"
+  title: "Mining Daily Safety Inspection Process"
+  department: "Safety Operations"
+  complexity: "simple"
+  participants: ["Safety Inspector", "Site Supervisor"]
+  trigger: "Start of each work shift"
+  steps:
+    - step: 1
+      actor: "Safety Inspector"
+      action: "Conduct equipment and area safety checks"
+      tools: ["Inspection Checklist", "Safety Monitoring Device"]
+      duration: "30 minutes"
+      outputs: ["Inspection Report"]
+    - step: 2
+      actor: "Site Supervisor"
+      action: "Review inspection findings and authorize work start"
+      tools: ["Safety Management System"]
+      duration: "10 minutes"
+      outputs: ["Work Authorization", "Corrective Action Items"]
+  success_criteria: "All safety checks completed and work safely authorized"
+  failure_modes: ["Equipment malfunctions", "Unsafe conditions identified", "Inspector unavailability", "Documentation errors"]
+  risks: ["Safety incidents", "Regulatory non-compliance", "Operational delays", "Worker fatigue"]
+  metrics:
+    - "Inspection completion rate: 100%"
+    - "Average inspection time: 40 minutes"
+    - "Safety incident rate: <0.5 per 1000 inspections"

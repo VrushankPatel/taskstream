@@ -101,6 +101,31 @@ Applies to all suppliers, manufacturers, and logistics partners providing produc
 - Financing options for sustainability investments
 - Knowledge sharing platforms and best practices
 
+## Training and Awareness
+
+### Employee Training
+- Annual sustainability training for all procurement and supply chain staff
+- Supplier onboarding sessions covering policy requirements
+- Specialized training for auditors and compliance officers
+
+### Supplier Training Programs
+- Capacity building workshops for supplier compliance
+- Best practices sharing sessions
+- Technology training for reporting systems
+
+## Audit and Compliance Procedures
+
+### Internal Audits
+- Quarterly self-assessments by suppliers
+- Annual third-party verification audits
+- Corrective action tracking and follow-up
+
+### Audit Process
+- Pre-audit notification and preparation
+- On-site assessment and documentation review
+- Post-audit corrective action planning
+- Follow-up verification within 90 days
+
 ## Policy Governance
 - Oversight by Corporate Sustainability Committee
 - Annual policy review and updates

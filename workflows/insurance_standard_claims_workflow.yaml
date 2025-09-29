@@ -1,0 +1,63 @@
+workflow:
+  id: "workflow_insurance_standard_claims"
+  title: "Standard Insurance Claims Processing Workflow"
+  department: "Claims"
+  complexity: "complex"
+  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriter", "Legal Counsel", "Customer Service Rep", "Fraud Investigator"]
+  trigger: "Customer submits insurance claim"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Receive and log claim submission"
+      tools: ["Claims management system", "Customer portal"]
+      duration: "15 minutes"
+      outputs: ["Claim intake form", "Initial acknowledgment"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Review claim documentation and policy coverage"
+      tools: ["Policy database", "Claims system", "Document scanner"]
+      duration: "2 hours"
+      outputs: ["Coverage assessment report"]
+    - step: 3
+      actor: "Claims Adjuster"
+      action: "Investigate claim details and gather evidence"
+      tools: ["Investigation toolkit", "Third-party contacts", "Site inspection scheduling"]
+      duration: "1-3 days"
+      outputs: ["Investigation report", "Evidence documentation"]
+    - step: 4
+      actor: "Fraud Investigator"
+      action: "Conduct fraud risk assessment"
+      tools: ["Fraud detection software", "Database checks"]
+      duration: "4 hours"
+      outputs: ["Fraud risk assessment"]
+    - step: 5
+      actor: "Claims Supervisor"
+      action: "Review adjuster findings and approve settlement amount"
+      tools: ["Claims dashboard", "Settlement calculator"]
+      duration: "1 hour"
+      outputs: ["Settlement recommendation"]
+    - step: 6
+      actor: "Underwriter"
+      action: "Validate settlement against policy terms"
+      tools: ["Underwriting guidelines", "Policy review system"]
+      duration: "30 minutes"
+      outputs: ["Underwriting approval"]
+    - step: 7
+      actor: "Legal Counsel"
+      action: "Review for legal compliance and risk"
+      tools: ["Legal database", "Contract templates"]
+      duration: "2 hours"
+      outputs: ["Legal review memorandum"]
+    - step: 8
+      actor: "Claims Adjuster"
+      action: "Prepare and issue settlement payment"
+      tools: ["Payment processing system", "Settlement letter template"]
+      duration: "30 minutes"
+      outputs: ["Settlement check/payment", "Settlement letter"]
+  success_criteria: "Claim settled within policy terms and regulatory timelines"
+  failure_modes: ["Insufficient documentation", "Coverage disputes", "Fraud detection", "Payment processing delays", "Legal complications"]
+  metrics:
+    - "Average settlement time: 14 days"
+    - "Claims accuracy rate: 98%+"
+    - "Customer satisfaction: 4.2/5"
+    - "Fraud detection rate: 95%+"

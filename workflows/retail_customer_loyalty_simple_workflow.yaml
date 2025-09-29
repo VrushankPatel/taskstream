@@ -1,0 +1,29 @@
+workflow:
+  id: "workflow_retail_loyalty_001"
+  title: "Retail Customer Loyalty Enrollment Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Store Associate", "Customer Service Rep"]
+  trigger: "Customer requests loyalty program membership"
+  steps:
+     - step: 1
+       actor: "Store Associate"
+       action: "Collect customer contact information and preferences"
+       tools: ["POS System", "Loyalty App"]
+       duration: "5 minutes"
+       outputs: ["Customer Profile"]
+     - step: 2
+       actor: "Customer Service Rep"
+       action: "Verify information and activate loyalty account"
+       decision_points: ["Data completeness", "Fraud indicators"]
+       tools: ["CRM System"]
+       duration: "2 minutes"
+       outputs: ["Loyalty Card", "Welcome Email", "Account Verification Log"]
+  success_criteria: "Customer receives loyalty card and confirmation email within 24 hours"
+  failure_modes: ["Invalid contact information", "System technical issues", "Duplicate enrollment"]
+  risks: ["Data privacy compliance violations", "System downtime during peak hours", "Inadequate staff training"]
+  metrics:
+     - "Enrollment completion rate: 95%"
+     - "Average enrollment time: 7 minutes"
+     - "Customer satisfaction score: 4.2/5"
+     - "Retention increase: 12% within 6 months"

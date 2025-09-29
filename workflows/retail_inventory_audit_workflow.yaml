@@ -1,0 +1,38 @@
+workflow:
+  id: "workflow_retail_inventory_audit"
+  title: "Retail Inventory Audit Process"
+  department: "Operations"
+  complexity: "simple"
+  participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
+  trigger: "Monthly inventory audit requirement"
+  steps:
+    - step: 1
+      actor: "Inventory Clerk"
+      action: "Prepare audit checklist and count sheets"
+      tools: ["Inventory software", "Barcode scanner"]
+      duration: "30 minutes"
+      outputs: ["Audit checklist"]
+    - step: 2
+      actor: "Inventory Clerk"
+      action: "Count physical inventory in store sections"
+      tools: ["Barcode scanner", "Counting sheets"]
+      duration: "4 hours"
+      outputs: ["Physical count data"]
+    - step: 3
+      actor: "Assistant Manager"
+      action: "Verify count accuracy and reconcile discrepancies"
+      tools: ["Inventory software", "Variance reports"]
+      duration: "1 hour"
+      outputs: ["Reconciliation report"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Review final audit report and approve adjustments"
+      tools: ["Management dashboard", "Audit report"]
+      duration: "30 minutes"
+      outputs: ["Approved inventory adjustments"]
+  success_criteria: "Inventory accuracy within 2% variance"
+  failure_modes: ["Counting errors", "System data entry mistakes", "Unreported shrinkage"]
+  metrics:
+    - "Inventory accuracy rate: 98%+"
+    - "Audit completion time: <5 hours"
+    - "Shrinkage identification: 100% of discrepancies"

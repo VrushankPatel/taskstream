@@ -1,0 +1,45 @@
+workflow:
+  id: "workflow_retail_omnichannel_order"
+  title: "Retail Omnichannel Order Fulfillment"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Order Processor", "Warehouse Associate", "Store Manager", "Customer Service Rep"]
+  trigger: "Online order placed with pickup/delivery option"
+  steps:
+    - step: 1
+      actor: "Order Processor"
+      action: "Validate order details and payment"
+      tools: ["E-commerce Platform", "Payment Gateway", "Inventory System"]
+      duration: "5 minutes"
+      outputs: ["Validated Order", "Fulfillment Assignment"]
+    - step: 2
+      actor: "Warehouse Associate"
+      action: "Pick items from inventory and prepare for shipment/pickup"
+      tools: ["Warehouse Management System", "Picking Cart", "Packaging Materials"]
+      duration: "20 minutes"
+      outputs: ["Picked Order", "Packing Slip"]
+    - step: 3
+      actor: "Warehouse Associate"
+      action: "Package order and generate shipping label"
+      tools: ["Packaging Station", "Shipping Software", "Scale"]
+      duration: "10 minutes"
+      outputs: ["Packaged Order", "Shipping Label"]
+    - step: 4
+      actor: "Store Manager"
+      action: "Review order for store pickup or arrange delivery"
+      tools: ["Store Management System", "Delivery Scheduling Tool"]
+      duration: "5 minutes"
+      outputs: ["Fulfillment Confirmation", "Pickup/Delivery Notification"]
+    - step: 5
+      actor: "Customer Service Rep"
+      action: "Send order confirmation and tracking to customer"
+      tools: ["CRM System", "Email/SMS Platform"]
+      duration: "3 minutes"
+      outputs: ["Customer Notification"]
+  success_criteria: "Order fulfilled within 2 hours, customer notified, inventory updated"
+  failure_modes: ["Out of stock items", "Payment issues", "Shipping delays", "Customer changes"]
+  metrics:
+    - "Order Fulfillment Time: <2 hours"
+    - "Order Accuracy: >99%"
+    - "Customer Satisfaction: >95%"
+    - "On-time Delivery: >98%"

@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_insurance_standard_claims_processing"
+  title: "Insurance Standard Claims Processing Workflow"
+  department: "Claims Operations"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Supervisor", "Underwriter", "Legal Review"]
+  trigger: "Claim submission received"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim documentation and verify policy coverage"
+      tools: ["Claims Management System", "Policy Database"]
+      duration: "2 hours"
+      outputs: ["Initial Assessment Report", "Coverage Determination"]
+    - step: 2
+      actor: "Claims Adjuster"
+      action: "Investigate claim details and gather evidence"
+      tools: ["Investigation Tools", "Third-party Reports"]
+      duration: "4 hours"
+      outputs: ["Investigation Report", "Evidence Documentation"]
+    - step: 3
+      actor: "Supervisor"
+      action: "Review investigation findings and approve settlement amount"
+      tools: ["Claims Management System", "Settlement Calculator"]
+      duration: "1 hour"
+      outputs: ["Settlement Approval", "Payment Instructions"]
+    - step: 4
+      actor: "Underwriter"
+      action: "Review high-value claims for risk assessment"
+      tools: ["Risk Assessment Tools", "Historical Data"]
+      duration: "2 hours"
+      outputs: ["Risk Assessment Report", "Underwriting Recommendations"]
+    - step: 5
+      actor: "Legal Review"
+      action: "Review complex claims for legal compliance"
+      tools: ["Legal Database", "Compliance Guidelines"]
+      duration: "3 hours"
+      outputs: ["Legal Review Report", "Compliance Confirmation"]
+  success_criteria: "Claim processed within policy-specified timeframe"
+  failure_modes: ["Incomplete documentation", "Coverage disputes", "Fraud detection"]
+  metrics:
+    - "Processing Time: Within policy limits"
+    - "Accuracy Rate: >98%"
+    - "Customer Satisfaction: >4.2/5"

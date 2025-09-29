@@ -12,25 +12,28 @@ workflow:
     average_annual_executions: 8500
     seasonal_variations: ["Q4 peak for winter weather claims", "Q3 peak for hurricane season"]
     historical_evolution: "Migrated from paper-based to digital intake in 2021, added AI triage in 2023"
-  steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Capture initial claim details and verify policy coverage"
-      tools: ["Claims Management System", "Policy Database"]
-      duration: "15-30 minutes"
-      outputs: ["Initial claim record", "Coverage verification"]
-    - step: 2
-      actor: "Claims Adjuster"
-      action: "Review claim details, assess validity, and determine next steps"
-      tools: ["Claims System", "Fraud Detection Tools"]
-      duration: "30-60 minutes"
-      outputs: ["Claim assessment", "Assignment decision"]
-    - step: 3
-      actor: "Claims Supervisor"
-      action: "Review high-value or complex claims for approval"
-      tools: ["Claims Dashboard", "Approval Workflow"]
-      duration: "15 minutes"
-      outputs: ["Supervisor approval", "Processing assignment"]
+   steps:
+     - step: 1
+       actor: "Customer Service Rep"
+       action: "Capture initial claim details and verify policy coverage"
+       tools: ["Claims Management System", "Policy Database"]
+       duration: "15-30 minutes"
+       outputs: ["Initial claim record", "Coverage verification"]
+       decision_points: ["Policy valid and active? (Yes/No)", "Claim within coverage scope? (Yes/No)", "All required information provided? (Yes/No)"]
+     - step: 2
+       actor: "Claims Adjuster"
+       action: "Review claim details, assess validity, and determine next steps"
+       tools: ["Claims System", "Fraud Detection Tools"]
+       duration: "30-60 minutes"
+       outputs: ["Claim assessment", "Assignment decision"]
+       decision_points: ["Fraud indicators present? (Yes/No)", "Claim amount within authority? (Yes/No)", "Requires field investigation? (Yes/No)"]
+     - step: 3
+       actor: "Claims Supervisor"
+       action: "Review high-value or complex claims for approval"
+       tools: ["Claims Dashboard", "Approval Workflow"]
+       duration: "15 minutes"
+       outputs: ["Supervisor approval", "Processing assignment"]
+       decision_points: ["Claim approved for processing? (Yes/No)", "Escalate to senior management? (Yes/No)", "Additional documentation required? (Yes/No)"]
   success_criteria: "Claim acknowledged within 24 hours with complete intake documentation"
   failure_modes: ["Invalid policy number", "Claim outside coverage scope", "Incomplete information requiring follow-up"]
   metrics:

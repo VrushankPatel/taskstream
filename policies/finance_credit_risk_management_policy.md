@@ -78,16 +78,25 @@ Applies to all credit exposures including commercial loans, consumer loans, cred
 ## Remedial Actions
 
 ### Watch List Management
-- Enhanced monitoring frequency  
-- Additional collateral requirements  
-- Management action plans  
-- Potential loan restructuring  
+- Enhanced monitoring frequency (weekly vs monthly)
+- Additional collateral requirements (up to 25% increase)
+- Management action plans (required within 30 days)
+- Potential loan restructuring (rate adjustments, term extensions)
+- Quarterly portfolio reviews for watch list accounts
 
 ### Problem Loan Classification
-- **Special Mention**: Potential weakness (30-89 days past due)  
-- **Substandard**: Well-defined weakness (90+ days past due)  
-- **Doubtful**: Full repayment unlikely  
-- **Loss**: Uncollectible  
+- **Special Mention**: Potential weakness (30-89 days past due)
+  - Requires monthly monitoring and action plan
+  - May require additional collateral
+- **Substandard**: Well-defined weakness (90+ days past due)
+  - Bi-weekly monitoring required
+  - Mandatory restructuring evaluation
+- **Doubtful**: Full repayment unlikely
+  - Weekly monitoring and collection efforts
+  - Charge-off evaluation within 90 days
+- **Loss**: Uncollectible
+  - Immediate charge-off procedures
+  - Collection agency engagement  
 
 ## Compliance and Audit
 - Annual policy review by Audit Committee  

@@ -12,25 +12,28 @@ workflow:
     average_annual_executions: 250
     seasonal_variations: ["Q4 peak for year-end financing", "Q1 slowdown post-holiday"]
     historical_evolution: "Originally manual process, digitized in 2020 with automated credit scoring"
-  steps:
-    - step: 1
-      actor: "Relationship Manager"
-      action: "Review application completeness and gather additional documentation"
-      tools: ["CRM System", "Loan Application Portal"]
-      duration: "1-2 hours"
-      outputs: ["Complete application package"]
-    - step: 2
-      actor: "Credit Analyst"
-      action: "Perform credit analysis including financial statement review and risk assessment"
-      tools: ["Credit Scoring System", "Financial Analysis Software"]
-      duration: "2-4 hours"
-      outputs: ["Credit analysis report", "Loan recommendation"]
-    - step: 3
-      actor: "Branch Manager"
-      action: "Review credit analysis and approve/reject loan within authority limits"
-      tools: ["Loan Management System"]
-      duration: "30 minutes"
-      outputs: ["Loan approval/denial decision"]
+   steps:
+     - step: 1
+       actor: "Relationship Manager"
+       action: "Review application completeness and gather additional documentation"
+       tools: ["CRM System", "Loan Application Portal"]
+       duration: "1-2 hours"
+       outputs: ["Complete application package"]
+       decision_points: ["Application complete? (Yes/No)", "Additional documentation required? (Yes/No)"]
+     - step: 2
+       actor: "Credit Analyst"
+       action: "Perform credit analysis including financial statement review and risk assessment"
+       tools: ["Credit Scoring System", "Financial Analysis Software"]
+       duration: "2-4 hours"
+       outputs: ["Credit analysis report", "Loan recommendation"]
+       decision_points: ["Credit score meets minimum? (Yes/No)", "Risk rating acceptable? (Grade 1-6)", "Collateral sufficient? (Yes/No)"]
+     - step: 3
+       actor: "Branch Manager"
+       action: "Review credit analysis and approve/reject loan within authority limits"
+       tools: ["Loan Management System"]
+       duration: "30 minutes"
+       outputs: ["Loan approval/denial decision"]
+       decision_points: ["Within authority limits? (Yes/No)", "Escalate to committee? (Yes/No)", "Approval granted? (Yes/No)"]
   success_criteria: "Loan approved within 7 business days with complete documentation"
   failure_modes: ["Incomplete application requiring additional information", "Credit score below minimum threshold"]
   metrics:

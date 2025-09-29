@@ -56,10 +56,16 @@
 - Dashboard development, regulatory reporting, management information  
 
 ## Key Performance Indicators
-- Risk-adjusted return on capital: >12%  
-- Regulatory compliance rate: 100%  
-- Risk incident response time: <4 hours  
-- Stress test coverage: 95% of portfolio  
+- Risk-adjusted return on capital: >12%
+- Regulatory compliance rate: 100%
+- Risk incident response time: <4 hours
+- Stress test coverage: 95% of portfolio
+- Portfolio delinquency rate: <2.5%
+- Credit loss ratio: <1.0%
+- Operational risk incidents: <5 per quarter
+- Model validation accuracy: >95%
+- Training completion rate: 100% annually
+- Audit finding resolution: <30 days  
 
 ## Recent Changes
 - Added quantitative analytics team in 2024  

@@ -12,25 +12,28 @@ workflow:
     average_annual_executions: 12500
     seasonal_variations: ["Q1 peak for winter storms", "Q3 peak for summer heat waves"]
     historical_evolution: "Added predictive analytics in 2022, drone inspection capability in 2024"
-  steps:
-    - step: 1
-      actor: "Control Room Operator"
-      action: "Verify outage through SCADA system and customer reports, isolate affected area"
-      tools: ["SCADA System", "Outage Management System"]
-      duration: "5-15 minutes"
-      outputs: ["Outage confirmation", "Affected customer count"]
-    - step: 2
-      actor: "Outage Coordinator"
-      action: "Assess outage cause, prioritize restoration based on critical infrastructure impact"
-      tools: ["GIS Mapping", "Priority Matrix"]
-      duration: "15-30 minutes"
-      outputs: ["Restoration plan", "Resource allocation"]
-    - step: 3
-      actor: "Field Technician"
-      action: "Deploy to site, diagnose issue, and perform repairs"
-      tools: ["Diagnostic Equipment", "Repair Tools", "Safety Gear"]
-      duration: "30-180 minutes"
-      outputs: ["Repair completion", "System restoration"]
+   steps:
+     - step: 1
+       actor: "Control Room Operator"
+       action: "Verify outage through SCADA system and customer reports, isolate affected area"
+       tools: ["SCADA System", "Outage Management System"]
+       duration: "5-15 minutes"
+       outputs: ["Outage confirmation", "Affected customer count"]
+       decision_points: ["Outage confirmed? (Yes/No)", "Safety hazards present? (Yes/No)", "Critical infrastructure affected? (Yes/No)"]
+     - step: 2
+       actor: "Outage Coordinator"
+       action: "Assess outage cause, prioritize restoration based on critical infrastructure impact"
+       tools: ["GIS Mapping", "Priority Matrix"]
+       duration: "15-30 minutes"
+       outputs: ["Restoration plan", "Resource allocation"]
+       decision_points: ["Cause identified? (Yes/No)", "Parts required? (Yes/No)", "Multiple crews needed? (Yes/No)"]
+     - step: 3
+       actor: "Field Technician"
+       action: "Deploy to site, diagnose issue, and perform repairs"
+       tools: ["Diagnostic Equipment", "Repair Tools", "Safety Gear"]
+       duration: "30-180 minutes"
+       outputs: ["Repair completion", "System restoration"]
+       decision_points: ["Issue diagnosed? (Yes/No)", "Repair possible on-site? (Yes/No)", "Power safely restored? (Yes/No)"]
   success_criteria: "Power restored within 4 hours for 95% of outages with safety protocols followed"
   failure_modes: ["Equipment failure requiring parts", "Safety hazards delaying access", "Multiple simultaneous outages"]
   metrics:

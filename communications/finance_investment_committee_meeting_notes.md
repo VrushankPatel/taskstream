@@ -21,10 +21,16 @@
   - Independent audit of AI models before go-live  
   - Pilot testing with 10% of portfolio before full deployment  
 
-**Action Items:**  
-- CIO: Prepare detailed implementation plan by 2025-09-30  
-- CTO: Coordinate with IT security for model validation framework  
-- CFO: Set up budget tracking and milestone payments  
+**Action Items:**
+- CIO: Prepare detailed implementation plan by 2025-09-30
+- CTO: Coordinate with IT security for model validation framework
+- CFO: Set up budget tracking and milestone payments
+
+**Follow-up Details:**
+- **2025-09-20:** CIO submitted implementation plan; committee approved Phase 1 scope
+- **2025-09-25:** CTO completed security assessment; recommended additional encryption layer
+- **2025-10-01:** CFO established milestone payment schedule with vendor
+- **2025-10-15:** Initial pilot testing began with 5% portfolio allocation  
 
 #### 2. Q4 Marketing Budget Allocation ($750K)
 **Presenter:** CMO  

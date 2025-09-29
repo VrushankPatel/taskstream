@@ -33,11 +33,20 @@
   - Historical: 3.0% (2023) → 3.1% (2024) → 3.2% (2025)  
 
 ### Operational Efficiency
-- **Loan Processing Time**: 5.2 days (average)  
-  - Target: <5 days  
-  - Fastest: 1 day  
-  - Slowest: 14 days  
-  - Trend: 5.8 days (Jan) → 5.2 days (Sep)  
+- **Loan Processing Time**: 5.2 days (average)
+  - Target: <5 days
+  - Fastest: 1 day
+  - Slowest: 14 days
+  - Trend: 5.8 days (Jan) → 5.2 days (Sep)
+- **Application Approval Rate**: 78%
+  - Target: >75%
+  - YoY Growth: +3%
+- **Customer Satisfaction Score**: 4.2/5
+  - Target: >4.0
+  - Based on post-approval surveys
+- **Digital Channel Adoption**: 65%
+  - Target: >70% by 2026
+  - Online applications vs total  
 
 ## Trend Analysis
 

@@ -1,0 +1,44 @@
+workflow:
+  id: workflow_utilities_billing
+  title: Utilities Billing Process
+  department: Billing
+  complexity: simple
+  participants:
+  - Billing Specialist
+  - Customer Service Rep
+  temporal_data:
+    first_implemented: "1980-01-01"
+    last_updated: "2023-07-20"
+    typical_cycle_time: "Monthly"
+    average_annual_executions: 12000
+    seasonal_variations: ["Higher usage in winter for heating", "Summer peaks for air conditioning"]
+    historical_evolution: "Manual meter reading evolved to smart meters with automated billing"
+  trigger: Monthly billing cycle
+  steps:
+  - step: 1
+    actor: Billing Specialist
+    action: Collect meter readings and calculate charges
+    tools:
+    - Meter reading system
+    - Billing software
+    duration: 5 days
+    outputs:
+    - Usage calculations
+  - step: 2
+    actor: Billing Specialist
+    action: Generate and send bills to customers
+    tools:
+    - Billing software
+    - Email/mailing system
+    duration: 2 days
+    outputs:
+    - Customer bills
+  - step: 3
+    actor: Customer Service Rep
+    action: Handle billing inquiries and adjustments
+    tools:
+    - Customer service system
+    duration: Ongoing
+    outputs:
+    - Resolved inquiries
+    - Bill adjustments

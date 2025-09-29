@@ -7,6 +7,13 @@ workflow:
   - Front Desk Agent
   - Guest
   - Housekeeping Supervisor
+  temporal_data:
+    first_implemented: "1995-01-01"
+    last_updated: "2023-11-15"
+    typical_cycle_time: "Per guest arrival"
+    average_annual_executions: 50000
+    seasonal_variations: ["Peak during holiday seasons and events", "Reduced during off-peak business travel periods"]
+    historical_evolution: "Manual registration books evolved to digital PMS with mobile check-in options"
   trigger: Guest arrival at hotel
   steps:
   - step: 1

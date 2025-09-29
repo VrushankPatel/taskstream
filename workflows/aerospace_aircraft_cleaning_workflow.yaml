@@ -1,0 +1,43 @@
+workflow:
+  id: workflow_aerospace_aircraft_cleaning
+  title: Aircraft Cleaning and Maintenance
+  department: Ground Operations
+  complexity: simple
+  participants:
+  - Cleaning Crew
+  - Maintenance Inspector
+  temporal_data:
+    first_implemented: "1950-01-01"
+    last_updated: "2023-12-01"
+    typical_cycle_time: "After each flight"
+    average_annual_executions: 10000
+    seasonal_variations: ["Increased cleaning during holiday travel peaks", "Weather-dependent exterior cleaning"]
+    historical_evolution: "Manual cleaning evolved to specialized equipment and environmentally friendly products"
+  trigger: Aircraft landing and turnaround
+  steps:
+  - step: 1
+    actor: Cleaning Crew
+    action: Clean interior cabin and remove waste
+    tools:
+    - Cleaning supplies
+    - Vacuum equipment
+    duration: 30 minutes
+    outputs:
+    - Clean cabin
+  - step: 2
+    actor: Cleaning Crew
+    action: Clean exterior surfaces
+    tools:
+    - Aircraft cleaning products
+    - Pressure washers
+    duration: 45 minutes
+    outputs:
+    - Clean exterior
+  - step: 3
+    actor: Maintenance Inspector
+    action: Inspect cleanliness and report any issues
+    tools:
+    - Inspection checklist
+    duration: 15 minutes
+    outputs:
+    - Inspection report

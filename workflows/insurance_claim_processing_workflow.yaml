@@ -1,0 +1,44 @@
+workflow:
+  id: workflow_insurance_claim_processing
+  title: Insurance Claim Processing
+  department: Claims
+  complexity: simple
+  participants:
+  - Claims Adjuster
+  - Policyholder
+  temporal_data:
+    first_implemented: "2000-06-01"
+    last_updated: "2024-01-10"
+    typical_cycle_time: "1-2 weeks"
+    average_annual_executions: 1000
+    seasonal_variations: ["Higher claims during winter for auto accidents", "Property claims increase during storm seasons"]
+    historical_evolution: "Paper-based claims processing evolved to digital systems with automated fraud detection"
+  trigger: Policyholder submits claim
+  steps:
+  - step: 1
+    actor: Claims Adjuster
+    action: Review claim documentation and verify policy coverage
+    tools:
+    - Claims management system
+    - Policy database
+    duration: 1 day
+    outputs:
+    - Coverage verification report
+  - step: 2
+    actor: Claims Adjuster
+    action: Assess damage and determine claim amount
+    tools:
+    - Damage assessment tools
+    - Cost estimation software
+    duration: 3 days
+    outputs:
+    - Claim assessment report
+  - step: 3
+    actor: Claims Adjuster
+    action: Process payment and notify policyholder
+    tools:
+    - Payment processing system
+    duration: 1 day
+    outputs:
+    - Payment issued
+    - Claim closure notification

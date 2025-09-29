@@ -1,0 +1,43 @@
+workflow:
+  id: workflow_agriculture_crop_monitoring
+  title: Agriculture Crop Monitoring
+  department: Field Operations
+  complexity: simple
+  participants:
+  - Farm Manager
+  - Field Technician
+  temporal_data:
+    first_implemented: "2015-05-01"
+    last_updated: "2023-08-10"
+    typical_cycle_time: "Daily"
+    average_annual_executions: 365
+    seasonal_variations: ["Intensive monitoring during growing season", "Reduced during harvest and off-season"]
+    historical_evolution: "Manual field walks evolved to drone and satellite monitoring with AI analytics"
+  trigger: Scheduled monitoring or weather alerts
+  steps:
+  - step: 1
+    actor: Field Technician
+    action: Collect field data using sensors and visual inspection
+    tools:
+    - Soil sensors
+    - Drone cameras
+    duration: 2 hours
+    outputs:
+    - Field data report
+  - step: 2
+    actor: Farm Manager
+    action: Analyze data and identify issues
+    tools:
+    - Farm management software
+    duration: 1 hour
+    outputs:
+    - Issue identification
+  - step: 3
+    actor: Farm Manager
+    action: Implement corrective actions
+    tools:
+    - Irrigation systems
+    - Pest control equipment
+    duration: 4 hours
+    outputs:
+    - Corrective actions taken

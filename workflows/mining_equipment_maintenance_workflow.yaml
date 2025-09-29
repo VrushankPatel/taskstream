@@ -1,0 +1,54 @@
+workflow:
+  id: workflow_mining_equipment_maintenance
+  title: Mining Equipment Maintenance
+  department: Maintenance
+  complexity: medium
+  participants:
+  - Maintenance Technician
+  - Equipment Operator
+  - Maintenance Supervisor
+  temporal_data:
+    first_implemented: "2010-04-01"
+    last_updated: "2024-02-15"
+    typical_cycle_time: "Weekly preventive, as needed for repairs"
+    average_annual_executions: 200
+    seasonal_variations: ["Increased maintenance during wet seasons", "Scheduled shutdowns for major overhauls"]
+    historical_evolution: "Reactive maintenance evolved to predictive maintenance with IoT sensors"
+  trigger: Scheduled maintenance or equipment failure
+  steps:
+  - step: 1
+    actor: Maintenance Supervisor
+    action: Review equipment performance data and schedule maintenance
+    tools:
+    - Maintenance management system
+    - Equipment monitoring sensors
+    duration: 1 day
+    outputs:
+    - Maintenance schedule
+  - step: 2
+    actor: Maintenance Technician
+    action: Perform preventive maintenance checks
+    tools:
+    - Diagnostic tools
+    - Replacement parts
+    duration: 4 hours
+    outputs:
+    - Maintenance report
+  - step: 3
+    actor: Equipment Operator
+    action: Report any issues and assist with maintenance
+    tools:
+    - Equipment logs
+    duration: 2 hours
+    outputs:
+    - Issue documentation
+  - step: 4
+    actor: Maintenance Technician
+    action: Repair faults and test equipment functionality
+    tools:
+    - Repair tools
+    - Testing equipment
+    duration: 6 hours
+    outputs:
+    - Repaired equipment
+    - Test results

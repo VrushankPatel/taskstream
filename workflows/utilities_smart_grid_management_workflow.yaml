@@ -13,97 +13,97 @@ workflow:
   - Data Analytics Team
   trigger: Grid performance degradation, new technology deployment, or regulatory
     requirement
-  steps:
-  - step: 1
-    actor: Grid Operations Manager
-    action: Assess current grid performance and identify optimization opportunities
-    tools:
-    - SCADA systems
-    - Performance monitoring dashboards
-    duration: 1-2 weeks
-    outputs:
-    - Grid assessment report
-    - Optimization priorities
-  - step: 2
-    actor: Data Analytics Team
-    action: Analyze grid data to identify patterns, inefficiencies, and predictive
-      maintenance needs
-    tools:
-    - Big data analytics platforms
-    - Machine learning models
-    duration: 2-4 weeks
-    outputs:
-    - Data analysis reports
-    - Predictive maintenance schedules
-  - step: 3
-    actor: SCADA Engineers
-    action: Design and implement smart grid technologies (sensors, automation, renewable
-      integration)
-    tools:
-    - SCADA design software
-    - IoT platform management
-    duration: 8-12 weeks
-    outputs:
-    - System design specifications
-    - Implementation plans
-  - step: 4
-    actor: Cybersecurity Team
-    action: Conduct security assessments and implement protective measures for smart
-      grid systems
-    tools:
-    - Vulnerability scanners
-    - Security information systems
-    duration: 4-6 weeks
-    outputs:
-    - Security assessment reports
-    - Protection implementation plans
-  - step: 5
-    actor: Field Technicians
-    action: Install and commission smart grid devices and sensors
-    tools:
-    - Installation equipment
-    - Testing instruments
-    duration: 6-10 weeks
-    outputs:
-    - Installation reports
-    - Commissioning test results
-  - step: 6
-    actor: Asset Management Team
-    action: Update asset registers and maintenance schedules for new smart grid components
-    tools:
-    - Asset management software
-    - Maintenance scheduling systems
-    duration: 2-3 weeks
-    outputs:
-    - Updated asset database
-    - Maintenance procedures
-  - step: 7
-    actor: Regulatory Compliance Team
-    action: Ensure compliance with grid reliability standards and reporting requirements
-    tools:
-    - Compliance monitoring software
-    - Regulatory reporting systems
-    duration: Ongoing
-    outputs:
-    - Compliance reports
-    - Regulatory filings
-  - step: 8
-    actor: Grid Operations Manager
-    action: Monitor system performance and optimize operations using smart grid data
-    tools:
-    - Real-time monitoring systems
-    - Optimization algorithms
-    duration: Ongoing
-    outputs:
-    - Performance reports
-    - Optimization recommendations
-  success_criteria: Grid reliability improved by 15%, operational costs reduced by
-    10%, renewable energy integration increased
-  failure_modes:
-  - Cybersecurity breaches
-  - Equipment failures during deployment
-  - Integration issues with legacy systems
-  - Regulatory non-compliance
+   steps:
+   - step: 1
+     actor: Grid Operations Manager
+     action: Assess current grid performance and identify optimization opportunities
+     tools:
+     - SCADA systems
+     - Performance monitoring dashboards
+     duration: 1-2 weeks
+     outputs:
+     - Grid assessment report
+     - Optimization priorities
+   - step: 2
+     actor: Data Analytics Team
+     action: Analyze grid data to identify patterns, inefficiencies, and predictive
+       maintenance needs
+     tools:
+     - Big data analytics platforms
+     - Machine learning models
+     duration: 2-4 weeks
+     outputs:
+     - Data analysis reports
+     - Predictive maintenance schedules
+   - step: 3
+     actor: SCADA Engineers
+     action: Design and implement smart grid technologies (sensors, automation, renewable
+       integration)
+     tools:
+     - SCADA design software
+     - IoT platform management
+     duration: 8-12 weeks
+     outputs:
+     - System design specifications
+     - Implementation plans
+   - step: 4
+     actor: Cybersecurity Team
+     action: Conduct security assessments and implement protective measures for smart
+       grid systems
+     tools:
+     - Vulnerability scanners
+     - Security information systems
+     duration: 4-6 weeks
+     outputs:
+     - Security assessment reports
+     - Protection implementation plans
+   - step: 5
+     actor: Field Technicians
+     action: Install and commission smart grid devices and sensors
+     tools:
+     - Installation equipment
+     - Testing instruments
+     duration: 6-10 weeks
+     outputs:
+     - Installation reports
+     - Commissioning test results
+   - step: 6
+     actor: Asset Management Team
+     action: Update asset registers and maintenance schedules for new smart grid components
+     tools:
+     - Asset management software
+     - Maintenance scheduling systems
+     duration: 2-3 weeks
+     outputs:
+     - Updated asset database
+     - Maintenance procedures
+   - step: 7
+     actor: Regulatory Compliance Team
+     action: Ensure compliance with grid reliability standards and reporting requirements
+     tools:
+     - Compliance monitoring software
+     - Regulatory reporting systems
+     duration: Ongoing
+     outputs:
+     - Compliance reports
+     - Regulatory filings
+   - step: 8
+     actor: Grid Operations Manager
+     action: Monitor system performance and optimize operations using smart grid data
+     tools:
+     - Real-time monitoring systems
+     - Optimization algorithms
+     duration: Ongoing
+     outputs:
+     - Performance reports
+     - Optimization recommendations
+   success_criteria: Grid reliability improved by 15%, operational costs reduced by
+     10%, renewable energy integration increased
+   failure_modes:
+   - Cybersecurity breaches
+   - Equipment failures during deployment
+   - Integration issues with legacy systems
+   - Regulatory non-compliance
   metrics:
   - 'Grid reliability: Target 99.98% uptime'
   - 'Operational cost reduction: Target 10% annual savings'

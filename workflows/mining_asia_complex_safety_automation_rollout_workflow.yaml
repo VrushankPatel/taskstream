@@ -13,18 +13,20 @@ workflow:
     seasonal_variations: ["Dry season preferred for installations", "Monsoon season restrictions"]
     historical_evolution: "Manual safety monitoring evolved to automated systems in 2023, integrated AI predictive safety in 2024, expanded to comprehensive automation suite in 2025"
   steps:
-    - step: 1
-      actor: "Safety Director"
-      action: "Conduct comprehensive risk assessment and identify automation priorities"
-      tools: ["Risk Assessment Framework", "Safety Incident Database", "Regulatory Requirements Analysis"]
-      duration: "6 weeks"
-      outputs: ["Risk assessment report", "Automation priority matrix"]
-    - step: 2
-      actor: "Automation Project Manager"
-      action: "Design automation solution architecture and select technology vendors"
-      tools: ["System Design Platform", "Vendor Evaluation System", "Cost-Benefit Analysis Tools"]
-      duration: "8 weeks"
-      outputs: ["Technical specifications", "Vendor contracts", "Project timeline"]
+     - step: 1
+       actor: "Safety Director"
+       action: "Conduct comprehensive risk assessment and identify automation priorities"
+       decision_points: ["High-risk areas requiring immediate automation", "Budget allocation for safety improvements", "Timeline for implementation phases"]
+       tools: ["Risk Assessment Framework", "Safety Incident Database", "Regulatory Requirements Analysis", "Cost-benefit analysis models"]
+       duration: "6 weeks"
+       outputs: ["Risk assessment report", "Automation priority matrix", "Resource allocation plan"]
+     - step: 2
+       actor: "Automation Project Manager"
+       action: "Design automation solution architecture and select technology vendors"
+       decision_points: ["Technology stack selection (AI vs traditional automation)", "Vendor selection criteria", "Scalability requirements"]
+       tools: ["System Design Platform", "Vendor Evaluation System", "Cost-Benefit Analysis Tools", "Proof-of-concept testing kits"]
+       duration: "8 weeks"
+       outputs: ["Technical specifications", "Vendor contracts", "Project timeline", "Architecture diagrams"]
     - step: 3
       actor: "Regulatory Compliance Officer"
       action: "Ensure all automation systems meet local mining regulations and safety standards"

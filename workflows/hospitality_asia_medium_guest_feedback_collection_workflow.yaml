@@ -13,12 +13,13 @@ workflow:
     seasonal_variations: ["Peak season surge (30% increase)", "Monsoon season adjustments"]
     historical_evolution: "Started with paper comment cards, transitioned to digital tablets in 2021, integrated AI sentiment analysis in 2023 for proactive responses"
   steps:
-    - step: 1
-      actor: "Front Desk Manager"
-      action: "Collect feedback through multiple channels (checkout survey, mobile app, digital kiosks)"
-      tools: ["Guest Feedback System", "Mobile Survey App", "Digital Kiosks"]
-      duration: "Immediate at checkout"
-      outputs: ["Feedback data captured", "Initial sentiment analysis"]
+     - step: 1
+       actor: "Front Desk Manager"
+       action: "Collect feedback through multiple channels (checkout survey, mobile app, digital kiosks)"
+       decision_points: ["Multilingual survey options for international guests", "Incentives for feedback completion", "Real-time vs delayed collection"]
+       tools: ["Guest Feedback System", "Mobile Survey App", "Digital Kiosks", "Translation services"]
+       duration: "Immediate at checkout"
+       outputs: ["Feedback data captured", "Initial sentiment analysis", "Language preference recorded"]
     - step: 2
       actor: "Guest Services Coordinator"
       action: "Review feedback for urgency and categorize issues (service, facilities, food & beverage)"

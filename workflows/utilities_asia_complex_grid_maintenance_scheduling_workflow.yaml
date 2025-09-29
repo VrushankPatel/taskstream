@@ -13,12 +13,13 @@ workflow:
     seasonal_variations: ["Monsoon season maintenance restrictions", "Peak demand period scheduling conflicts"]
     historical_evolution: "Traditional calendar-based maintenance evolved to predictive analytics in 2022, integrated IoT sensors in 2023, added regulatory compliance automation in 2024"
   steps:
-    - step: 1
-      actor: "Asset Performance Analyst"
-      action: "Analyze sensor data and predictive models to identify maintenance priorities"
-      tools: ["IoT Monitoring Platform", "Predictive Analytics Software", "Asset Management Database"]
-      duration: "3 days"
-      outputs: ["Maintenance priority ranking", "Risk assessment report"]
+     - step: 1
+       actor: "Asset Performance Analyst"
+       action: "Analyze sensor data and predictive models to identify maintenance priorities"
+       decision_points: ["Critical vs non-critical maintenance prioritization", "Resource availability constraints", "Weather impact assessment"]
+       tools: ["IoT Monitoring Platform", "Predictive Analytics Software", "Asset Management Database", "Weather forecasting integration"]
+       duration: "3 days"
+       outputs: ["Maintenance priority ranking", "Risk assessment report", "Resource requirements"]
     - step: 2
       actor: "Grid Maintenance Manager"
       action: "Develop maintenance schedule considering grid reliability and customer impact"

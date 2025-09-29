@@ -2,21 +2,21 @@ workflow:
   id: workflow_advanced_robotics_collaborative_manufacturing
   title: Advanced Robotics Collaborative Manufacturing Systems Integration
   department: Manufacturing Operations
-   complexity: high
+  complexity: high
   participants:
-   - Manufacturing Director
-   - Robotics Engineer
-   - Safety Officer
-   - Production Manager
-   - IT Systems Administrator
-   temporal_data:
-     first_implemented: "2020-03-15"
-     last_updated: "2024-09-01"
-     typical_cycle_time: "6-12 months"
-     average_annual_executions: 25
-     seasonal_variations: ["Implementation schedules align with production downtime", "Training programs avoid peak production periods"]
-     historical_evolution: "Evolved from manual assembly to semi-automated, now fully collaborative with human-robot interaction"
-   trigger: Decision to implement collaborative robotics for assembly line optimization
+  - Manufacturing Director
+  - Robotics Engineer
+  - Safety Officer
+  - Production Manager
+  - IT Systems Administrator
+  temporal_data:
+    first_implemented: "2020-03-15"
+    last_updated: "2024-09-01"
+    typical_cycle_time: "6-12 months"
+    average_annual_executions: 25
+    seasonal_variations: ["Implementation schedules align with production downtime", "Training programs avoid peak production periods"]
+    historical_evolution: "Evolved from manual assembly to semi-automated, now fully collaborative with human-robot interaction"
+  trigger: Decision to implement collaborative robotics for assembly line optimization
   steps:
   - step: 1
     actor: Manufacturing Director

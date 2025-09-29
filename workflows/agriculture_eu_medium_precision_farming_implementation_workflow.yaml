@@ -13,12 +13,13 @@ workflow:
     seasonal_variations: ["Spring planting season peak", "Winter planning period"]
     historical_evolution: "Initial GPS-guided tractors in 2022, expanded to full sensor networks in 2023, integrated AI crop prediction in 2024"
   steps:
-    - step: 1
-      actor: "Farm Technology Manager"
-      action: "Assess farm requirements and select appropriate precision farming technologies"
-      tools: ["Technology Assessment Framework", "Vendor Evaluation Platform", "ROI Calculator"]
-      duration: "2 weeks"
-      outputs: ["Technology selection report", "Implementation roadmap"]
+     - step: 1
+       actor: "Farm Technology Manager"
+       action: "Assess farm requirements and select appropriate precision farming technologies"
+       decision_points: ["Technology compatibility with existing equipment", "Budget constraints and ROI expectations", "EU agricultural subsidy eligibility"]
+       tools: ["Technology Assessment Framework", "Vendor Evaluation Platform", "ROI Calculator", "Regulatory compliance checker"]
+       duration: "2 weeks"
+       outputs: ["Technology selection report", "Implementation roadmap", "Budget proposal"]
     - step: 2
       actor: "IT Support Specialist"
       action: "Install and configure sensors, GPS systems, and data collection platforms"

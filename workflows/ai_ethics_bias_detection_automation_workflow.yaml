@@ -2,21 +2,21 @@ workflow:
   id: workflow_057_002
   title: AI Ethics Bias Detection Automation Workflow
   department: AI Ethics & Compliance
-   complexity: medium
+  complexity: medium
   participants:
-   - AI Ethics Officers
-   - Data Scientists
-   - ML Engineers
-   - Legal Counsel
-   - Bias Detection Specialists
-   temporal_data:
-     first_implemented: "2022-01-10"
-     last_updated: "2024-08-15"
-     typical_cycle_time: "3-6 months"
-     average_annual_executions: 50
-     seasonal_variations: ["Model deployments align with quarterly business cycles", "Bias audits coincide with regulatory reporting periods"]
-     historical_evolution: "Manual bias checks evolved to automated detection systems with continuous monitoring"
-   trigger: New AI model deployment requiring automated bias detection and mitigation
+  - AI Ethics Officers
+  - Data Scientists
+  - ML Engineers
+  - Legal Counsel
+  - Bias Detection Specialists
+  temporal_data:
+    first_implemented: "2022-01-10"
+    last_updated: "2024-08-15"
+    typical_cycle_time: "3-6 months"
+    average_annual_executions: 50
+    seasonal_variations: ["Model deployments align with quarterly business cycles", "Bias audits coincide with regulatory reporting periods"]
+    historical_evolution: "Manual bias checks evolved to automated detection systems with continuous monitoring"
+  trigger: New AI model deployment requiring automated bias detection and mitigation
   steps:
   - step: 1
     actor: AI Ethics Officers

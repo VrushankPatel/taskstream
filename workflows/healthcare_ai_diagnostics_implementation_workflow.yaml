@@ -76,9 +76,9 @@ workflow:
     - Safety monitoring systems
     - Incident reporting frameworks
     duration: 4 weeks
-     outputs:
-     - Safety monitoring plan
-     - Incident response protocol
+    outputs:
+    - Safety monitoring plan
+    - Incident response protocol
   success_criteria: AI diagnostics system improving clinical outcomes with regulatory compliance
   failure_modes:
     - Poor model performance

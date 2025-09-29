@@ -84,9 +84,9 @@ workflow:
     - A/B testing platforms
     - Algorithm tuning software
     duration: Ongoing
-     outputs:
-     - Effectiveness reports
-     - Optimization recommendations
+    outputs:
+    - Effectiveness reports
+    - Optimization recommendations
   success_criteria: 15% improvement in student outcomes with 80% faculty adoption
   failure_modes:
     - Technical integration challenges

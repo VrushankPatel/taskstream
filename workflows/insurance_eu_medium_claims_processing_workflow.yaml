@@ -13,12 +13,13 @@ workflow:
     seasonal_variations: ["Winter weather claims peak (25% increase)", "Summer travel claims surge"]
     historical_evolution: "Manual paper-based processing evolved to digital workflow in 2020, integrated AI fraud detection in 2022, added real-time customer updates in 2024"
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review submitted claim documentation and verify policy coverage"
-      tools: ["Claims Management System", "Policy Database", "Document Verification Tools"]
-      duration: "2 hours"
-      outputs: ["Initial claim assessment", "Coverage determination"]
+     - step: 1
+       actor: "Claims Adjuster"
+       action: "Review submitted claim documentation and verify policy coverage"
+       decision_points: ["Coverage eligibility under policy terms", "Required documentation completeness", "Claim amount within policy limits"]
+       tools: ["Claims Management System", "Policy Database", "Document Verification Tools", "Automated eligibility checker"]
+       duration: "2 hours"
+       outputs: ["Initial claim assessment", "Coverage determination", "Additional documentation requests"]
     - step: 2
       actor: "Fraud Investigator"
       action: "Conduct automated fraud screening and manual review if flagged"

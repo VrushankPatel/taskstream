@@ -106,10 +106,10 @@ workflow:
     - Risk assessment frameworks
     - Improvement planning tools
     duration: 1 week
-     outputs:
-     - Executive incident summary
-     - Preventive measure recommendations
-     - Lessons learned report
+    outputs:
+    - Executive incident summary
+    - Preventive measure recommendations
+    - Lessons learned report
   success_criteria: Incident contained within 24 hours, minimal data loss, full regulatory compliance, and comprehensive preventive measures implemented
   failure_modes:
     - Delayed detection

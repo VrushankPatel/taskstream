@@ -75,6 +75,8 @@
 - Environmental compliance rate: >99%
 - Training completion rate: >95%
 - Emergency response time: <5 minutes
+- Audit findings: <5 per year
+- Incident investigation completion: <24 hours
 
 ## Budget Allocation
 - Safety operations: 40%

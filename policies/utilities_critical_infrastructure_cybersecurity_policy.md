@@ -99,6 +99,12 @@ Applies to all IT systems, OT networks, physical security systems, and third-par
 - **Policy Violations**: Progressive discipline up to termination
 - **Security Incidents**: Immediate investigation and potential legal action
 - **Non-Compliance**: Corrective action plans with deadlines
+- **Third-Party Breaches**: Contract termination and regulatory reporting
+
+### Monitoring and Auditing
+- **Continuous Monitoring**: Automated systems for policy compliance
+- **Regular Audits**: Quarterly security audits with external validation
+- **Incident Tracking**: All violations logged and trended for improvement
 
 ### Reporting
 - **Anonymous Reporting**: Hotline for reporting security concerns

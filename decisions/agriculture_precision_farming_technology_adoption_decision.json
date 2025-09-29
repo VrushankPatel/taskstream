@@ -35,7 +35,9 @@
   "business_impact": {
     "expected_outcome": "15% yield improvement, 20% input cost reduction, improved environmental sustainability",
     "projected_value": "$75,000,000 annual benefits",
-    "risk_factors": ["Technology adoption resistance", "Infrastructure limitations", "Weather dependency"]
+    "implementation_timeline": "24 months",
+    "roi_timeline": "3 years",
+    "risk_factors": ["Technology adoption resistance", "Infrastructure limitations", "Weather dependency", "Data privacy concerns", "Initial training costs"]
   },
   "decision_criteria": ["Pilot results positive", "Farmer adoption >70%", "Financial ROI >20%", "Sustainability benefits"],
   "outcome": "Approved",

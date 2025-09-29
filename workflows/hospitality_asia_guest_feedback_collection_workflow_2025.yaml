@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_hospitality_asia_feedback_collection_2025"
+  title: "Asia Hospitality Guest Feedback Collection Process"
+  department: "Guest Experience"
+  complexity: "medium"
+  participants: ["Front Desk Manager", "Guest Services Coordinator", "Quality Assurance Manager", "Regional Operations Director"]
+  trigger: "Guest checkout completed"
+  temporal_data:
+    first_implemented: "2022-03-01"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "48 hours"
+    average_annual_executions: 45000
+    seasonal_variations: ["Peak season response rate 85%", "Off-season response rate 65%"]
+    historical_evolution: "Started with paper surveys, evolved to multilingual digital feedback system"
+  steps:
+    - step: 1
+      actor: "Front Desk Manager"
+      action: "Send automated feedback request via SMS and email in guest's preferred language"
+      tools: ["Property management system", "Multilingual survey platform"]
+      duration: "2 minutes"
+      outputs: ["Feedback request sent"]
+    - step: 2
+      actor: "Guest Services Coordinator"
+      action: "Monitor response rates and follow up with non-responders within 24 hours"
+      tools: ["Survey dashboard", "Guest communication log"]
+      duration: "30 minutes daily"
+      outputs: ["Follow-up communications"]
+    - step: 3
+      actor: "Quality Assurance Manager"
+      action: "Review feedback responses, categorize issues, and identify trends"
+      tools: ["Feedback analytics platform", "Issue tracking system"]
+      duration: "2 hours"
+      outputs: ["Categorized feedback report", "Action items"]
+    - step: 4
+      actor: "Regional Operations Director"
+      action: "Review critical feedback and approve escalation actions for property improvements"
+      tools: ["Executive dashboard", "Capital improvement request system"]
+      duration: "1 hour weekly"
+      outputs: ["Approved improvement initiatives"]
+  success_criteria: "70% response rate achieved with actionable insights implemented within 30 days"
+  failure_modes: ["Low response rates due to language barriers", "Technical issues with survey platform", "Delayed follow-up responses"]
+  metrics:
+    - "Response rate target: 70%"
+    - "Average resolution time: 7 days"
+    - "Guest satisfaction improvement: 15% annually"
+  performance_history:
+    success_rate_trend: "65% (2023) → 72% (2024) → 75% (2025)"
+    cost_trend: "¥150 (2023) → ¥120 (2024) → ¥100 (2025)"
+    efficiency_improvements: ["Multilingual surveys increased response rate by 20%", "Automated follow-ups reduced manual effort by 60%"]

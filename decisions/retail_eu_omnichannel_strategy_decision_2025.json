@@ -1,0 +1,62 @@
+{
+  "scenario_id": "retail_eu_omnichannel_strategy_2025",
+  "decision_date": "2025-01-15",
+  "context": "EU retail chain with 200 stores and €500M annual revenue facing declining foot traffic and increasing online competition",
+  "stakeholders": {
+    "requester": "Chief Marketing Officer",
+    "approvers": ["CEO", "CFO", "Chief Digital Officer"],
+    "influencers": ["Store Operations Director", "Customer Experience Manager", "IT Director", "Data Analytics Lead"]
+  },
+  "request": {
+    "amount": "€8,500,000",
+    "purpose": "Implement comprehensive omnichannel strategy including buy-online-pickup-in-store, unified CRM, and mobile app enhancement",
+    "urgency": "high",
+    "justification": "Market research shows 60% of customers expect seamless omnichannel experience; current fragmented approach losing 15% market share annually"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "15 days",
+      "activities": ["Market analysis", "Competitor benchmarking", "Customer survey analysis", "ROI modeling"],
+      "outcome": "Advanced to detailed planning phase"
+    },
+    {
+      "stage": "detailed_planning",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-15",
+      "duration": "30 days",
+      "activities": ["Vendor selection process", "Integration planning", "Change management assessment", "Risk analysis"],
+      "outcome": "Approved with phased implementation"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2024-12-16",
+      "end_date": "2025-01-15",
+      "duration": "30 days",
+      "activities": ["Executive committee review", "Board presentation", "Legal compliance review", "Final budget approval"],
+      "outcome": "Approved with conditions"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% increase in overall sales, 25% improvement in customer satisfaction, 30% reduction in customer acquisition cost",
+    "projected_value": "€12,000,000 additional annual revenue",
+    "actual_value": "€15,200,000 additional revenue achieved (127% of projection)",
+    "roi_timeline": "18 months",
+    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Customer adoption resistance", "Data privacy compliance costs"]
+  },
+  "decision_criteria": ["Projected ROI > 25%", "Customer experience improvement > 20%", "Technology scalability", "Regulatory compliance", "Implementation timeline < 12 months"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-02-01",
+    "completion_date": "2025-12-31",
+    "milestones": ["Phase 1: CRM Integration - 2025-04-30", "Phase 2: Mobile App Launch - 2025-07-31", "Phase 3: Store Integration - 2025-10-31", "Phase 4: Analytics Optimization - 2025-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 completed successfully, 12% sales increase observed",
+    "12_month_review": "All phases completed, 22% overall sales growth achieved",
+    "actual_roi": "142% (vs projected 41%)"
+  },
+  "lessons_learned": "Early staff training crucial for adoption; customer data integration more complex than anticipated but delivered higher ROI; phased approach minimized business disruption"
+}

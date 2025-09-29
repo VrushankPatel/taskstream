@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_hospitality_health_safety_protocol"
+  title: "Hospitality Health Safety Protocol Workflow"
+  department: "Operations"
+  complexity: "medium"
+  participants: ["Operations Director", "Health Safety Manager", "Front Office Manager", "Housekeeping Supervisor", "Guest Services Lead"]
+  trigger: "Health crisis or regulatory requirement for enhanced safety protocols"
+  temporal_data:
+    first_implemented: "2020-03-15"
+    last_updated: "2025-08-15"
+    typical_cycle_time: "1-3 months"
+    average_annual_executions: 6
+    seasonal_variations: ["Winter flu season (increased protocols)", "Summer travel peak (crowd management)", "Post-crisis recovery (protocol updates)"]
+    historical_evolution: "Evolved from basic hygiene standards to comprehensive health safety management, incorporating pandemic response and ongoing health monitoring"
+  steps:
+    - step: 1
+      actor: "Health Safety Manager"
+      action: "Assess current protocols and identify improvement areas"
+      tools: ["Safety assessment framework", "Regulatory requirements database", "Risk analysis tools"]
+      duration: "1 week"
+      outputs: ["Safety assessment report", "Protocol improvement plan"]
+    - step: 2
+      actor: "Operations Director"
+      action: "Design and implement enhanced safety measures"
+      tools: ["Process design software", "Safety equipment procurement", "Staff training platforms"]
+      duration: "3 weeks"
+      outputs: ["Updated safety protocols", "Equipment installation plans"]
+    - step: 3
+      actor: "Front Office Manager"
+      action: "Train front desk staff on health screening procedures"
+      tools: ["Training modules", "Screening checklists", "Communication protocols"]
+      duration: "1 week"
+      outputs: ["Staff training records", "Screening procedures"]
+    - step: 4
+      actor: "Housekeeping Supervisor"
+      action: "Implement enhanced cleaning and sanitization protocols"
+      tools: ["Cleaning protocols", "Sanitization equipment", "Quality control checklists"]
+      duration: "2 weeks"
+      outputs: ["Cleaning schedules", "Quality assurance reports"]
+    - step: 5
+      actor: "Guest Services Lead"
+      action: "Communicate safety measures to guests and handle concerns"
+      tools: ["Guest communication platform", "FAQ systems", "Feedback collection tools"]
+      duration: "Ongoing"
+      outputs: ["Guest communications", "Feedback analysis"]
+  success_criteria: "Zero health incidents, 95% guest satisfaction with safety measures"
+  failure_modes: ["Inadequate staff training", "Equipment failures", "Poor guest communication"]
+  metrics:
+    - "Health incident rate: 0"
+    - "Guest satisfaction: 95% minimum"
+    - "Protocol compliance: 98%"
+  performance_history:
+    success_rate_trend: "75% (2020) → 85% (2024) → 92% (2025)"
+    cost_trend: "$800K (2020) → $600K (2024) → $550K (2025)"
+    efficiency_improvements: ["Standardized protocols reduced implementation time by 40%", "Digital checklists improved compliance tracking by 50%", "Automated training systems increased staff knowledge by 35%"]

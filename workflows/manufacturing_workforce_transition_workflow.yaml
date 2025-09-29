@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_manufacturing_workforce_transition"
+  title: "Manufacturing Workforce Transition Workflow"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Director", "Operations Manager", "Training Coordinator", "Union Representative", "Change Management Consultant"]
+  trigger: "Technology upgrade or automation implementation planned"
+  temporal_data:
+    first_implemented: "2023-09-01"
+    last_updated: "2025-07-15"
+    typical_cycle_time: "3-6 months"
+    average_annual_executions: 8
+    seasonal_variations: ["Q4 planning phase", "Q1-Q2 implementation", "Q3-Q4 evaluation and adjustment"]
+    historical_evolution: "Evolved from ad-hoc retraining to structured transition programs, incorporating skills assessment and career development planning"
+  steps:
+    - step: 1
+      actor: "HR Director"
+      action: "Assess workforce skills and identify transition needs"
+      tools: ["Skills assessment platform", "Workforce analytics", "Job description database"]
+      duration: "2 weeks"
+      outputs: ["Skills gap analysis", "Transition plan outline"]
+    - step: 2
+      actor: "Operations Manager"
+      action: "Define new roles and responsibilities"
+      tools: ["Process mapping software", "Job design tools", "Automation impact analysis"]
+      duration: "1 week"
+      outputs: ["Role definitions", "Organizational structure updates"]
+    - step: 3
+      actor: "Training Coordinator"
+      action: "Develop and deliver training programs"
+      tools: ["Learning management system", "Training materials", "Virtual reality simulators"]
+      duration: "8 weeks"
+      outputs: ["Training curriculum", "Certification programs"]
+    - step: 4
+      actor: "Union Representative"
+      action: "Negotiate transition agreements and support"
+      tools: ["Collective bargaining framework", "Legal consultation", "Employee feedback systems"]
+      duration: "3 weeks"
+      outputs: ["Transition agreements", "Employee support plans"]
+    - step: 5
+      actor: "Change Management Consultant"
+      action: "Monitor adoption and provide ongoing support"
+      tools: ["Change management framework", "Employee engagement surveys", "Performance tracking"]
+      duration: "Ongoing"
+      outputs: ["Adoption reports", "Improvement recommendations"]
+  success_criteria: "90% employee retention rate, 80% successful role transitions"
+  failure_modes: ["Resistance to change", "Inadequate training", "Poor communication"]
+  metrics:
+    - "Employee retention: 90% target"
+    - "Skills certification: 85% completion rate"
+    - "Productivity impact: <5% initial decrease"
+  performance_history:
+    success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
+    cost_trend: "$2.1M (2023) → $2.3M (2024) → $2.5M (2025)"
+    efficiency_improvements: ["Structured assessment reduced transition time by 30%", "VR training improved skill acquisition by 40%", "Change management support increased adoption by 25%"]

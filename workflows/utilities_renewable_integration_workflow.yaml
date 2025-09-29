@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_utilities_renewable_integration"
+  title: "Utilities Renewable Energy Integration Workflow"
+  department: "Renewable Operations"
+  complexity: "complex"
+  participants: ["Renewable Energy Director", "Grid Operations Manager", "Engineering Manager", "Regulatory Affairs Specialist", "Environmental Compliance Officer"]
+  trigger: "Renewable energy project approved or grid capacity expansion needed"
+  temporal_data:
+    first_implemented: "2021-06-01"
+    last_updated: "2025-08-25"
+    typical_cycle_time: "12-18 months"
+    average_annual_executions: 6
+    seasonal_variations: ["Q1 planning and permitting", "Q2-Q3 construction", "Q4 commissioning and testing"]
+    historical_evolution: "Evolved from fossil fuel dominance to renewable integration, incorporating smart grid technology and energy storage systems"
+  steps:
+    - step: 1
+      actor: "Renewable Energy Director"
+      action: "Assess renewable potential and develop integration strategy"
+      tools: ["Renewable assessment software", "Grid modeling tools", "Economic analysis platforms"]
+      duration: "3 months"
+      outputs: ["Integration strategy", "Project feasibility studies"]
+    - step: 2
+      actor: "Engineering Manager"
+      action: "Design interconnection and storage systems"
+      tools: ["Engineering design software", "Simulation tools", "Vendor selection platforms"]
+      duration: "6 months"
+      outputs: ["System designs", "Equipment specifications"]
+    - step: 3
+      actor: "Grid Operations Manager"
+      action: "Plan grid modifications and operational procedures"
+      tools: ["Grid management software", "Load forecasting tools", "Operational planning systems"]
+      duration: "4 months"
+      outputs: ["Grid modification plans", "Operational procedures"]
+    - step: 4
+      actor: "Regulatory Affairs Specialist"
+      action: "Obtain permits and ensure regulatory compliance"
+      tools: ["Permitting software", "Regulatory databases", "Compliance tracking systems"]
+      duration: "5 months"
+      outputs: ["Permits and approvals", "Compliance documentation"]
+    - step: 5
+      actor: "Environmental Compliance Officer"
+      action: "Conduct environmental impact assessments and monitoring"
+      tools: ["Environmental assessment tools", "Monitoring systems", "Reporting platforms"]
+      duration: "Ongoing"
+      outputs: ["Impact assessments", "Monitoring reports"]
+  success_criteria: "Renewable capacity integrated successfully, grid stability maintained at 99.9%"
+  failure_modes: ["Interconnection issues", "Regulatory delays", "Environmental concerns"]
+  metrics:
+    - "Renewable capacity: Target achieved"
+    - "Grid stability: 99.9% uptime"
+    - "Integration cost: Within budget"
+  performance_history:
+    success_rate_trend: "75% (2021) → 85% (2024) → 90% (2025)"
+    cost_trend: "$25M (2021) → $28M (2024) → $30M (2025)"
+    efficiency_improvements: ["Digital modeling reduced planning time by 35%", "Automated permitting systems accelerated approvals by 40%", "Smart grid technology improved integration efficiency by 25%"]

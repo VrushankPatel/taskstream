@@ -10,6 +10,13 @@ workflow:
   - Finance
   - IT Security
   trigger: New vendor requirement identified for critical business function
+  temporal_data:
+    first_implemented: "2020-05-15"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "12-16 weeks per selection"
+    average_annual_executions: 28
+    seasonal_variations: ["Q1 +50% new vendor evaluations", "Q4 -30% due to budget freezes", "Mid-year +20% contract renewals"]
+    historical_evolution: "Digital transformation in 2023 reduced evaluation time from 20 to 14 weeks while improving vendor quality scores from 7.2 to 8.7/10"
   steps:
   - step: 1
     actor: Department Head
@@ -90,3 +97,7 @@ workflow:
   - 'Vendor performance score: Target 4.5/5'
   - 'Contract compliance rate: Target 100%'
   - 'Procurement ROI: Target 20% improvement'
+  performance_history:
+    success_rate_trend: "73% (2021) → 81% (2022) → 87% (2023) → 91% (2024) → 94% (2025 target)"
+    cost_trend: "$45,000 (2021) → $38,500 (2022) → $32,000 (2023) → $28,500 (2024) → $25,000 (2025 target)"
+    efficiency_improvements: ["Digital vendor portal reduced response processing time by 55%", "Automated scoring algorithms improved evaluation consistency by 40%", "Integrated security screening reduced assessment time by 35%", "AI-powered contract analysis reduced legal review time by 50%"]

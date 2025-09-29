@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_insurance_parametric_automation"
+  title: "Parametric Insurance Claims Automation Process"
+  department: "Claims Operations"
+  complexity: "medium"
+  participants: ["Claims Analyst", "Data Validation Specialist", "Automation Engineer"]
+  trigger: "IoT sensor data or satellite imagery confirms trigger event occurrence"
+  steps:
+    - step: 1
+      actor: "Automation Engineer"
+      action: "Validate trigger event data against predefined parametric parameters"
+      tools: ["IoT data platform", "Satellite imagery APIs", "Weather data feeds"]
+      duration: "10 minutes"
+      outputs: ["Event validation report"]
+    - step: 2
+      actor: "Claims Analyst"
+      action: "Review automated validation and confirm payout eligibility"
+      tools: ["Automated claims system", "Policy database"]
+      duration: "15 minutes"
+      outputs: ["Eligibility confirmation"]
+    - step: 3
+      actor: "Data Validation Specialist"
+      action: "Cross-verify data sources and calculate payout amount using parametric formulas"
+      tools: ["Data analytics platform", "Payout calculation engine"]
+      duration: "5 minutes"
+      outputs: ["Payout calculation"]
+    - step: 4
+      actor: "Automation Engineer"
+      action: "Execute automated payment transfer to policyholder account"
+      tools: ["Automated payment system", "Blockchain ledger"]
+      duration: "2 minutes"
+      outputs: ["Payment processed"]
+    - step: 5
+      actor: "Claims Analyst"
+      action: "Generate and send automated claim settlement notification"
+      tools: ["Automated communication system", "Digital claim certificate"]
+      duration: "3 minutes"
+      outputs: ["Policyholder notified", "Claim record updated"]
+  success_criteria: "Automated payout completed within 30 minutes of event confirmation"
+  failure_modes: ["Data source discrepancies", "Policy parameter mismatches", "System integration failures"]
+  metrics:
+    - "Processing time: <30 minutes average"
+    - "Automation success rate: 98%"
+    - "Customer satisfaction: 4.8/5"

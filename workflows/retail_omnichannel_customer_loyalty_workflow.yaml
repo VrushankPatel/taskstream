@@ -1,0 +1,32 @@
+workflow:
+  id: "workflow_retail_omnichannel_loyalty"
+  title: "Omnichannel Customer Loyalty Enrollment Process"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Customer Service Rep", "Digital Marketing Specialist"]
+  trigger: "Customer expresses interest in loyalty program across any channel (store, online, app)"
+  steps:
+    - step: 1
+      actor: "Customer Service Rep"
+      action: "Verify customer identity and collect contact information across channels"
+      tools: ["CRM system", "POS integration", "Mobile app"]
+      duration: "2 minutes"
+      outputs: ["Unified customer profile created"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Present loyalty benefits and enrollment options (digital card, app integration)"
+      tools: ["Program benefits guide", "Digital enrollment portal"]
+      duration: "3 minutes"
+      outputs: ["Customer informed of program details"]
+    - step: 3
+      actor: "Digital Marketing Specialist"
+      action: "Send welcome communication and activate digital rewards tracking"
+      tools: ["Email marketing platform", "Loyalty app", "SMS system"]
+      duration: "1 minute"
+      outputs: ["Welcome email sent", "App notifications enabled"]
+  success_criteria: "Customer successfully enrolled with cross-channel access"
+  failure_modes: ["Duplicate enrollment", "Invalid contact information"]
+  metrics:
+    - "Enrollment conversion rate: 92%"
+    - "Average enrollment time: 6 minutes"
+    - "Cross-channel retention: 4.3/5"

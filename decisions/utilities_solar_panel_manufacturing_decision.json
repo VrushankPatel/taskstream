@@ -1,0 +1,55 @@
+{
+  "scenario_id": "utilities_solar_panel_manufacturing_decision",
+  "context": "Regional utility company evaluating investment in domestic solar panel manufacturing to reduce supply chain risks and create local jobs",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
+    "influencers": ["Chief Operating Officer", "Head of Renewable Energy", "Economic Development Director", "Environmental Compliance Manager"]
+  },
+  "request": {
+    "amount": "$150,000,000",
+    "purpose": "Construction of solar panel manufacturing facility with 500MW annual capacity",
+    "urgency": "medium",
+    "justification": "Reduce dependence on international suppliers, create 200 local jobs, support renewable energy transition"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "duration": "3 months",
+      "activities": ["Demand forecasting", "Competitor analysis", "Supply chain risk assessment", "Economic impact study"],
+      "outcome": "Identified 40% import dependency with increasing supply chain disruptions"
+    },
+    {
+      "stage": "technical_feasibility",
+      "duration": "2 months",
+      "activities": ["Site selection", "Technology evaluation", "Production process design", "Quality assurance planning"],
+      "outcome": "Selected proven manufacturing technology with 85% efficiency target"
+    },
+    {
+      "stage": "financial_modeling",
+      "duration": "2 months",
+      "activities": ["Cost-benefit analysis", "Cash flow projections", "Risk assessment", "Funding strategy development"],
+      "outcome": "Projected 12-year payback with 18% IRR and $50M annual cost savings"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "1 month",
+      "activities": ["Community consultations", "Labor union discussions", "Government incentives negotiation", "Environmental impact assessment"],
+      "outcome": "Strong local support with state incentives package worth $20M"
+    },
+    {
+      "stage": "final_approval",
+      "duration": "1 month",
+      "activities": ["Board presentation", "Contract negotiations", "Regulatory approvals", "Implementation planning"],
+      "outcome": "Approved with phased construction over 24 months"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Domestic solar panel supply security, 200 new jobs created, reduced procurement costs by 25%",
+    "projected_value": "$300,000,000 in cost savings and economic benefits over 10 years",
+    "risk_factors": ["Technology obsolescence", "Market demand fluctuations", "Labor cost increases", "Regulatory changes"]
+  },
+  "decision_criteria": ["Strategic supply chain security", "Financial viability (IRR >15%)", "Job creation impact", "Environmental benefits", "Technology maturity"],
+  "outcome": "Approved",
+  "lessons_learned": "Manufacturing investments require comprehensive stakeholder engagement and government partnerships, domestic production provides significant cost stability, job creation enhances community support"
+}

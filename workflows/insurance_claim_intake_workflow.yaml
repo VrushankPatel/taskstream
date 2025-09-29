@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_insurance_claim_intake"
+  title: "Insurance Claim Intake and Initial Assessment Workflow"
+  department: "Claims Processing"
+  complexity: "medium"
+  participants: ["Claims Intake Specialist", "Claims Adjuster", "Fraud Analyst", "Customer Service Rep"]
+  trigger: "Policyholder submits claim via phone, online portal, or mobile app"
+  steps:
+    - step: 1
+      actor: "Claims Intake Specialist"
+      action: "Collect basic claim information and verify policy coverage"
+      tools: ["Claims Management System", "Policy Database", "Customer Portal"]
+      duration: "10 minutes"
+      outputs: ["Claim Intake Form", "Policy Verification Report"]
+    - step: 2
+      actor: "Claims Intake Specialist"
+      action: "Gather incident details, photos, and supporting documentation"
+      tools: ["Document Upload System", "Photo Verification Tools"]
+      duration: "15 minutes"
+      outputs: ["Incident Documentation", "Evidence Collection"]
+    - step: 3
+      actor: "Fraud Analyst"
+      action: "Perform initial fraud screening using automated tools"
+      tools: ["Fraud Detection Software", "Claims Database", "External Data Sources"]
+      duration: "5 minutes"
+      outputs: ["Fraud Risk Score", "Red Flag Report"]
+    - step: 4
+      actor: "Claims Adjuster"
+      action: "Review claim for completeness and assign priority level"
+      tools: ["Claims Review Dashboard", "Priority Matrix", "Historical Claims Data"]
+      duration: "20 minutes"
+      outputs: ["Claim Priority Assignment", "Initial Assessment Report"]
+    - step: 5
+      actor: "Customer Service Rep"
+      action: "Provide claim acknowledgment and next steps to policyholder"
+      tools: ["Customer Communication System", "Claim Status Portal"]
+      duration: "5 minutes"
+      outputs: ["Claim Acknowledgment", "Status Update Notification"]
+  success_criteria: "Claim acknowledged within 24 hours with complete documentation collected"
+  failure_modes: ["Incomplete information", "Policy exclusions discovered", "High fraud risk flags", "System technical issues"]
+  metrics:
+    - "Intake completion time: <1 hour"
+    - "Documentation completeness: 95%"
+    - "Customer satisfaction: 4.2/5.0"

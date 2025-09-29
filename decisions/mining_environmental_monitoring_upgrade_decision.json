@@ -1,0 +1,49 @@
+{
+  "scenario_id": "mining_environmental_monitoring_upgrade",
+  "context": "Large mining operation facing regulatory pressure to upgrade environmental monitoring systems for water quality and air emissions",
+  "stakeholders": {
+    "requester": "Environmental Compliance Manager",
+    "approvers": ["Chief Operating Officer", "Chief Financial Officer", "Board Environmental Committee"],
+    "influencers": ["Operations Director", "Regulatory Affairs", "Community Relations Manager"]
+  },
+  "request": {
+    "amount": "$8,000,000",
+    "purpose": "Advanced environmental monitoring system with real-time sensors, automated reporting, and predictive analytics",
+    "urgency": "medium",
+    "justification": "Compliance with new environmental regulations, community pressure, and operational risk reduction"
+  },
+  "decision_process": [
+    {
+      "stage": "regulatory_assessment",
+      "duration": "2 months",
+      "activities": ["Regulatory requirement analysis", "Compliance gap assessment", "Penalty risk evaluation"],
+      "outcome": "Identified $2M annual penalty risk without upgrade"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 months",
+      "activities": ["Technology vendor assessment", "System integration analysis", "Pilot testing", "Data management review"],
+      "outcome": "Selected IoT-based solution with 95% uptime guarantee"
+    },
+    {
+      "stage": "cost_benefit_analysis",
+      "duration": "1 month",
+      "activities": ["ROI modeling", "Operational savings calculation", "Risk reduction quantification"],
+      "outcome": "Projected 300% ROI over 5 years through penalty avoidance and efficiency gains"
+    },
+    {
+      "stage": "stakeholder_engagement",
+      "duration": "1 month",
+      "activities": ["Community consultation", "Employee impact assessment", "Supplier coordination"],
+      "outcome": "Strong community support, minimal operational disruption planned"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Full regulatory compliance, reduced environmental incidents, improved community relations",
+    "projected_value": "$15,000,000 in avoided penalties and operational efficiencies over 7 years",
+    "risk_factors": ["Technology integration challenges", "Weather-related sensor reliability", "Data security concerns", "Community opposition"]
+  },
+  "decision_criteria": ["Regulatory compliance requirements", "Financial ROI (>200%)", "Technical reliability", "Community impact", "Operational feasibility"],
+  "outcome": "Approved",
+  "lessons_learned": "Environmental investments require comprehensive stakeholder engagement, regulatory compliance drives faster ROI than expected, technology selection should prioritize proven solutions over cutting-edge features"
+}

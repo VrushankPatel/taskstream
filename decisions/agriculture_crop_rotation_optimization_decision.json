@@ -1,0 +1,55 @@
+{
+  "scenario_id": "agriculture_crop_rotation_optimization_decision",
+  "context": "Agricultural cooperative evaluating $5M investment in precision agriculture technology for optimized crop rotation and soil health management",
+  "stakeholders": {
+    "requester": "Agricultural Operations Director",
+    "approvers": ["Board of Directors", "CEO", "Chief Financial Officer"],
+    "influencers": ["Farm Managers", "Soil Scientist", "Environmental Consultant", "Technology Specialist"]
+  },
+  "request": {
+    "amount": "$5,000,000",
+    "purpose": "Implementation of soil sensors, satellite imaging, and AI-driven crop rotation optimization across 50,000 acres",
+    "urgency": "medium",
+    "justification": "Improve soil health, increase yields by 15%, reduce input costs by 20%, meet sustainability requirements"
+  },
+  "decision_process": [
+    {
+      "stage": "soil_health_assessment",
+      "duration": "2 months",
+      "activities": ["Soil testing and analysis", "Current rotation evaluation", "Yield impact assessment", "Environmental impact review"],
+      "outcome": "Identified soil degradation in 30% of acreage with declining yields"
+    },
+    {
+      "stage": "technology_evaluation",
+      "duration": "2 months",
+      "activities": ["Sensor technology assessment", "Satellite imaging options", "AI platform evaluation", "Data integration analysis"],
+      "outcome": "Selected integrated platform with 90% accuracy in crop recommendations"
+    },
+    {
+      "stage": "pilot_program",
+      "duration": "4 months",
+      "activities": ["Small-scale implementation", "Data collection", "Yield monitoring", "Farmer feedback"],
+      "outcome": "Achieved 18% yield increase and 25% input cost reduction in pilot areas"
+    },
+    {
+      "stage": "scalability_analysis",
+      "duration": "1 month",
+      "activities": ["Cost projections", "Timeline development", "Resource requirements", "Risk assessment"],
+      "outcome": "Feasible 2-year rollout with positive ROI in year 3"
+    },
+    {
+      "stage": "farmer_engagement",
+      "duration": "1 month",
+      "activities": ["Education sessions", "Adoption incentives", "Support planning", "Change management"],
+      "outcome": "85% farmer participation commitment with training program"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved soil health, 15% yield increase, 20% input cost reduction, enhanced sustainability metrics",
+    "projected_value": "$8,000,000 in additional revenue and cost savings over 5 years",
+    "risk_factors": ["Technology adoption challenges", "Weather variability impact", "Data privacy concerns", "Equipment reliability"]
+  },
+  "decision_criteria": ["Yield improvement potential", "Financial viability (ROI >25%)", "Soil health benefits", "Farmer adoption rate", "Technology reliability"],
+  "outcome": "Approved",
+  "lessons_learned": "Precision agriculture requires farmer education and engagement for successful adoption, pilot programs are essential for proving value, soil health improvements compound over time"
+}

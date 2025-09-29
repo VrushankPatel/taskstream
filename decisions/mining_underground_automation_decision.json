@@ -1,0 +1,55 @@
+{
+  "scenario_id": "mining_underground_automation_decision",
+  "context": "Underground mining operation evaluating $80M investment in autonomous mining equipment to improve safety and productivity",
+  "stakeholders": {
+    "requester": "Chief Mining Engineer",
+    "approvers": ["CEO", "Chief Financial Officer", "Board Safety Committee"],
+    "influencers": ["Safety Director", "Operations Manager", "Union Representatives", "Technology Director"]
+  },
+  "request": {
+    "amount": "$80,000,000",
+    "purpose": "Deployment of autonomous haulage trucks, drilling rigs, and loading equipment in underground operations",
+    "urgency": "high",
+    "justification": "Reduce workplace accidents by 50%, increase productivity by 25%, address labor shortages"
+  },
+  "decision_process": [
+    {
+      "stage": "safety_assessment",
+      "duration": "2 months",
+      "activities": ["Current safety analysis", "Automation risk evaluation", "Regulatory compliance review", "Worker transition planning"],
+      "outcome": "Identified 60% of accidents related to haulage operations"
+    },
+    {
+      "stage": "technical_evaluation",
+      "duration": "3 months",
+      "activities": ["Equipment vendor assessment", "Underground compatibility testing", "Integration with existing systems", "Maintenance requirements analysis"],
+      "outcome": "Selected proven autonomous systems with 99.5% uptime in similar operations"
+    },
+    {
+      "stage": "economic_analysis",
+      "duration": "2 months",
+      "activities": ["ROI modeling", "Productivity projections", "Cost savings calculations", "Labor impact assessment"],
+      "outcome": "Projected 8-year payback with 22% IRR and $15M annual savings"
+    },
+    {
+      "stage": "workforce_planning",
+      "duration": "1 month",
+      "activities": ["Retraining programs", "Job transition planning", "Union negotiations", "Change management strategy"],
+      "outcome": "Developed comprehensive workforce transition plan with union support"
+    },
+    {
+      "stage": "pilot_testing",
+      "duration": "3 months",
+      "activities": ["Equipment testing", "Safety validation", "Productivity measurement", "Worker feedback collection"],
+      "outcome": "Successful pilot showing 35% productivity increase and zero accidents"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "50% reduction in haulage accidents, 25% productivity increase, improved worker safety culture",
+    "projected_value": "$120,000,000 in productivity gains and accident cost savings over 10 years",
+    "risk_factors": ["Equipment reliability in harsh conditions", "Cybersecurity vulnerabilities", "Worker resistance to change", "Technology obsolescence"]
+  },
+  "decision_criteria": ["Safety improvement potential", "Financial ROI (>20%)", "Technical reliability", "Workforce impact", "Regulatory compliance"],
+  "outcome": "Approved",
+  "lessons_learned": "Safety-driven automation investments require extensive workforce engagement and pilot testing, productivity gains often exceed initial projections, comprehensive change management is critical for successful implementation"
+}

@@ -1,0 +1,44 @@
+workflow:
+  id: "workflow_retail_ecommerce_order_processing"
+  title: "Retail E-commerce Order Processing Workflow"
+  department: "E-commerce Operations"
+  complexity: "medium"
+  participants: ["Order Processing Specialist", "Inventory Manager", "Shipping Coordinator", "Customer Service Rep"]
+  trigger: "Customer places order on e-commerce platform"
+  steps:
+    - step: 1
+      actor: "Order Processing Specialist"
+      action: "Verify order details, payment, and customer information"
+      tools: ["E-commerce Platform", "Payment Gateway", "CRM System"]
+      duration: "5 minutes"
+      outputs: ["Order Confirmation", "Payment Verification"]
+    - step: 2
+      actor: "Inventory Manager"
+      action: "Check stock availability and reserve items"
+      tools: ["Inventory Management System", "Warehouse Database"]
+      duration: "3 minutes"
+      outputs: ["Inventory Reservation", "Stock Alert if low"]
+    - step: 3
+      actor: "Order Processing Specialist"
+      action: "Process order and generate picking list for warehouse"
+      tools: ["Order Management System", "Warehouse Interface"]
+      duration: "2 minutes"
+      outputs: ["Picking List", "Order Status Update"]
+    - step: 4
+      actor: "Shipping Coordinator"
+      action: "Determine shipping method, calculate costs, and schedule pickup"
+      tools: ["Shipping Software", "Carrier APIs", "Rate Calculator"]
+      duration: "4 minutes"
+      outputs: ["Shipping Label", "Tracking Number", "Delivery Estimate"]
+    - step: 5
+      actor: "Customer Service Rep"
+      action: "Send order confirmation email with tracking information"
+      tools: ["Email Platform", "Order Tracking System"]
+      duration: "2 minutes"
+      outputs: ["Customer Confirmation Email"]
+  success_criteria: "Order processed and shipped within 24 hours of placement"
+  failure_modes: ["Payment failure", "Out of stock items", "Shipping delays", "Address errors"]
+  metrics:
+    - "Order processing time: <2 hours"
+    - "Order accuracy rate: 99.5%"
+    - "On-time shipping rate: 95%"

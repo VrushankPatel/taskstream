@@ -1,10 +1,10 @@
 ## Meeting Notes: Hospitality Crisis Staffing Protocol Review
 
-**Date:** September 29, 2025
-**Time:** 2:00 PM - 3:30 PM
-**Location:** Conference Room A
-**Attendees:** Operations Director (Chair), HR Manager, Department Heads, Union Representative
-**Absent:** Regional Manager (excused)
+**Date:** September 29, 2025  
+**Time:** 2:00 PM - 3:30 PM  
+**Location:** Conference Room A  
+**Attendees:** Operations Director (Chair), HR Manager, Department Heads, Union Representative  
+**Absent:** Regional Manager (excused)  
 
 ### Agenda Items
 

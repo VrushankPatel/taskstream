@@ -3,16 +3,8 @@
   "context": "Insurance company evaluating expansion of cyber liability coverage offerings amid increasing ransomware attacks and data breach incidents",
   "stakeholders": {
     "requester": "Head of Specialty Lines",
-    "approvers": [
-      "Chief Underwriting Officer",
-      "CEO",
-      "Chief Risk Officer"
-    ],
-    "influencers": [
-      "Actuarial Team",
-      "Claims Department",
-      "Marketing Director"
-    ]
+    "approvers": ["Chief Underwriting Officer", "CEO", "Chief Risk Officer"],
+    "influencers": ["Actuarial Team", "Claims Department", "Marketing Director"]
   },
   "request": {
     "amount": "$1,200,000",
@@ -24,39 +16,22 @@
     {
       "stage": "market_analysis",
       "duration": "4 weeks",
-      "activities": [
-        "Competitive analysis",
-        "Customer needs assessment",
-        "Pricing strategy development"
-      ],
+      "activities": ["Competitive analysis", "Customer needs assessment", "Pricing strategy development"],
       "outcome": "Identified 5 key coverage gaps, projected $50M premium growth opportunity"
     },
     {
       "stage": "product_development",
       "duration": "8 weeks",
-      "activities": [
-        "Policy wording development",
-        "Underwriting guidelines creation",
-        "Claims handling procedures"
-      ],
+      "activities": ["Policy wording development", "Underwriting guidelines creation", "Claims handling procedures"],
       "outcome": "Approved for launch with comprehensive risk management framework"
     }
   ],
   "business_impact": {
     "expected_outcome": "Market leadership in cyber insurance, diversified product portfolio",
     "projected_value": "$15,000,000 additional annual premiums",
-    "risk_factors": [
-      "Evolving cyber threat landscape",
-      "Regulatory changes",
-      "Claims volatility"
-    ]
+    "risk_factors": ["Evolving cyber threat landscape", "Regulatory changes", "Claims volatility"]
   },
-  "decision_criteria": [
-    "Market demand validation",
-    "Profitability analysis",
-    "Risk management capabilities",
-    "Competitive differentiation"
-  ],
+  "decision_criteria": ["Market demand validation", "Profitability analysis", "Risk management capabilities", "Competitive differentiation"],
   "outcome": "Approved",
   "lessons_learned": "Cyber insurance requires specialized expertise and continuous monitoring of threat landscape, early market entry provides competitive advantage"
 }

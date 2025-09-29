@@ -1,0 +1,62 @@
+{
+  "scenario_id": "hospitality_asia_digital_transformation",
+  "decision_date": "2025-06-05",
+  "context": "Asia hospitality group needing to modernize operations to compete with tech-savvy international chains",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "COO", "Board Technology Committee"],
+    "influencers": ["IT Director", "Operations VP", "Revenue Management Director"]
+  },
+  "request": {
+    "amount": "¥500M",
+    "purpose": "Implement contactless services, AI-driven personalization, and integrated property management systems",
+    "urgency": "high",
+    "justification": "Competitive pressure from digital-native competitors, guest expectations for seamless experiences, operational efficiency gains"
+  },
+  "decision_process": [
+    {
+      "stage": "market_analysis",
+      "start_date": "2025-02-01",
+      "end_date": "2025-03-01",
+      "duration": "29 days",
+      "activities": ["Competitor analysis", "Guest preference surveys", "Technology assessment"],
+      "outcome": "Clear digital gap identified with strong ROI potential"
+    },
+    {
+      "stage": "solution_evaluation",
+      "start_date": "2025-03-02",
+      "end_date": "2025-04-15",
+      "duration": "45 days",
+      "activities": ["Vendor evaluations", "Pilot testing", "Cost-benefit analysis"],
+      "outcome": "Preferred solution selected with implementation roadmap"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-04-16",
+      "end_date": "2025-05-20",
+      "duration": "35 days",
+      "activities": ["Board presentations", "Risk assessments", "Final budget approval"],
+      "outcome": "Approved with enhanced cybersecurity requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% improvement in operational efficiency, 20% increase in guest satisfaction, 15% revenue growth through dynamic pricing",
+    "projected_value": "¥800M in additional revenue and cost savings over 3 years",
+    "actual_value": "TBD (implementation starting Q3 2025)",
+    "roi_timeline": "Expected payback in 2.5 years",
+    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Data privacy concerns"]
+  },
+  "decision_criteria": ["Competitive advantage", "Financial ROI", "Guest experience impact", "Technical feasibility", "Implementation timeline"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-07-01",
+    "completion_date": "2026-12-31",
+    "milestones": ["Phase 1: Contactless services (2025-10-31)", "Phase 2: AI personalization (2026-06-30)", "Phase 3: Full integration (2026-12-31)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Technology adoption and initial guest feedback",
+    "12_month_review": "Operational efficiency and revenue impact",
+    "18_month_review": "Full ROI assessment and optimization recommendations"
+  },
+  "lessons_learned": "Comprehensive change management essential for hospitality digital transformation, pilot testing reduces implementation risks"
+}

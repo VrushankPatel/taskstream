@@ -162,5 +162,28 @@ Applies to all mining operations, including surface and underground mines, proce
 - **Safety Engineers**: Technical implementation and monitoring
 - **HR Managers**: Worker transition and training coordination
 
+## Implementation Timeline and Success Metrics
+
+### Implementation Timeline
+- **Q1 2025**: Policy rollout and initial training programs
+- **Q2 2025**: Pilot automation projects in 3 high-risk areas
+- **Q3 2025**: Full deployment across priority operations
+- **Q4 2025**: Comprehensive evaluation and optimization
+- **2026**: Expansion to additional mining sites
+
+### Success Metrics
+- **Safety Improvement**: 35% reduction in accident frequency rate (Target: 40%)
+- **System Reliability**: 98% uptime for automated safety systems (Target: 99%)
+- **Worker Training**: 100% completion of automation training programs
+- **Productivity Impact**: Maintain or improve productivity levels post-automation
+- **Compliance Rate**: 100% adherence to updated safety regulations
+- **Cost Efficiency**: 25% reduction in safety-related operational costs
+
+### Budget Allocation
+- **Technology Investment**: $12M for automation equipment and systems
+- **Training Programs**: $2M for worker transition and skill development
+- **Consulting Services**: $1.5M for implementation support
+- **Maintenance and Support**: $3M annual ongoing costs
+
 ## Review and Updates
 This policy will be reviewed annually or when significant changes in technology, regulations, or operations occur. Updates will be communicated to all affected personnel with appropriate training provided.

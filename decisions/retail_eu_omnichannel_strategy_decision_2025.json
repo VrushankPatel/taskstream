@@ -5,7 +5,9 @@
   "stakeholders": {
     "requester": "Chief Marketing Officer",
     "approvers": ["CEO", "CFO", "Chief Digital Officer"],
-    "influencers": ["Store Operations Director", "Customer Experience Manager", "IT Director", "Data Analytics Lead"]
+    "influencers": ["Store Operations Director", "Customer Experience Manager", "IT Director", "Data Analytics Lead"],
+    "consultants": ["External Omnichannel Strategy Consultant", "Technology Integration Partner"],
+    "impacted_parties": ["Store Managers (200 locations)", "Customer Service Team (500 staff)", "IT Infrastructure Team", "Marketing Technology Vendors"]
   },
   "request": {
     "amount": "€8,500,000",

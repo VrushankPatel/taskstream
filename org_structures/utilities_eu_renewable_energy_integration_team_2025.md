@@ -123,11 +123,15 @@ To accelerate the integration of renewable energy sources into the European powe
   - Stakeholder engagement coordination
 
 ## Key Performance Indicators
-- **Grid Integration Success Rate**: 98% of renewable projects connected on schedule
-- **System Stability**: <0.5% grid frequency deviations from renewable integration
-- **Cost Efficiency**: €0.08/kWh levelized cost of renewable integration
-- **Regulatory Compliance**: 100% adherence to EU renewable energy directives
-- **Project Delivery**: 95% of projects completed within budget and timeline
+- **Grid Integration Success Rate**: 98% of renewable projects connected on schedule (Target: >95%)
+- **System Stability**: <0.5% grid frequency deviations from renewable integration (Current: 0.3%)
+- **Cost Efficiency**: €0.08/kWh levelized cost of renewable integration (Target: <€0.10/kWh)
+- **Regulatory Compliance**: 100% adherence to EU renewable energy directives (Current: 99.8%)
+- **Project Delivery**: 95% of projects completed within budget and timeline (Current: 93%)
+- **Renewable Capacity Integrated**: 2.5 GW annually (Target: 3.0 GW by 2026)
+- **Carbon Reduction**: 1.8M tons CO2 equivalent avoided yearly (Target: 2.2M tons)
+- **Employee Satisfaction**: 4.2/5 (Target: >4.0)
+- **Innovation Pipeline**: 12 active R&D projects (Target: 15 by 2026)
 
 ## Budget Allocation (Annual)
 - Personnel: €4.2M (55%)

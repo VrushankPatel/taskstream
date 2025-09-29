@@ -77,8 +77,13 @@
 
 ## Forecasting
 - **Q1 2025 Projection**: $320M premium volume (±8% confidence)
+- **Q2 2025 Projection**: $350M premium volume (±10% confidence)
+- **Q3 2025 Projection**: $380M premium volume (±12% confidence)
+- **Q4 2025 Projection**: $420M premium volume (±15% confidence)
 - **Annual Target**: $1.2B (112% to goal)
-- **Risk Factors**: Market volatility, regulatory changes, model accuracy drift
+- **Long-term Outlook**: $2.0B by 2027 through geographic expansion and product diversification
+- **Risk Factors**: Market volatility, regulatory changes, model accuracy drift, cyber threat evolution
+- **Mitigation Strategies**: Diversified risk portfolio, enhanced model validation, regulatory compliance investments
 
 ## Benchmarking
 - **Industry Average Loss Ratio**: 72.5% (our 68.5% is 4pp better)

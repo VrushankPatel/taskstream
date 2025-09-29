@@ -98,6 +98,11 @@
 - **Follow-up Action Tracking:** Detailed action items and accountability in communications
 - **Industry Balance Optimization:** Strategies for reducing technology dominance below 20%
 - **Complexity Distribution Enhancement:** Methods to achieve 20/50/30 simple/medium/complex workflow ratio
+- **EU Regulatory Compliance Workflows:** Retail data protection processes, hospitality guest privacy handling, insurance cross-border claims
+- **Asia Market Expansion Strategies:** Manufacturing supply chain localization, aerospace partnership development, retail cultural adaptation
+- **Utilities Grid Resilience Crisis Management:** Infrastructure failure response, regulatory reporting, customer communication protocols
+- **Mining Digital Transformation:** Safety automation implementation, environmental monitoring systems, workforce transition planning
+- **Agriculture Sustainable Certification:** Carbon credit verification processes, organic farming compliance, traceability system management
 
 ## Content Gaps Identified
 - Geographic diversity still minimal (target 10%+ EU/Asia content)

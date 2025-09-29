@@ -23,15 +23,17 @@ workflow:
     - step: 2
       actor: "Guest Services Coordinator"
       action: "Review feedback for urgency and categorize issues (service, facilities, food & beverage)"
-      tools: ["Feedback Management Dashboard", "Priority Classification System"]
+      decision_points: ["Escalation criteria for critical issues", "Cultural sensitivity requirements", "Multi-language response needs"]
+      tools: ["Feedback Management Dashboard", "Priority Classification System", "Sentiment Analysis AI", "Cultural Context Database"]
       duration: "2 hours"
-      outputs: ["Categorized feedback report", "Action priority assigned"]
+      outputs: ["Categorized feedback report", "Action priority assigned", "Cultural adaptation notes"]
     - step: 3
       actor: "Department Heads"
       action: "Address specific issues and develop improvement actions"
-      tools: ["Department Communication Platform", "Action Tracking System"]
+      decision_points: ["Resource allocation for fixes", "Training requirements for staff", "Process changes needed"]
+      tools: ["Department Communication Platform", "Action Tracking System", "Resource Planning Tool", "Training Management System"]
       duration: "24 hours"
-      outputs: ["Corrective action plan", "Follow-up communication draft"]
+      outputs: ["Corrective action plan", "Follow-up communication draft", "Training schedule", "Resource requirements"]
     - step: 4
       actor: "Quality Assurance Team"
       action: "Send personalized response to guest and track resolution satisfaction"

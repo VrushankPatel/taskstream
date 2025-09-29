@@ -5,7 +5,8 @@
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
     "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
-    "influencers": ["Head of Operations", "Environmental Compliance Director", "Investor Relations"]
+    "influencers": ["Head of Operations", "Environmental Compliance Director", "Investor Relations", "Union Representatives", "Local Community Leaders"],
+    "impacted_parties": ["Mining Operations Teams", "Environmental Monitoring Staff", "Local Communities", "Regulatory Agencies", "Institutional Investors"]
   },
   "request": {
     "amount": "$300,000,000",

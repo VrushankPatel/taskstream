@@ -68,6 +68,58 @@ Applies to all digital systems, automation equipment, IoT devices, AI applicatio
 
 ### Digital Incident Reporting
 - Immediate reporting of digital system failures
+- Classification of incidents by severity and impact
+- Root cause analysis for all safety-related digital failures
+
+### Investigation Procedures
+- Digital forensics for cyber-related incidents
+- System log analysis and data recovery
+- Cross-functional investigation team including IT and safety experts
+
+### Corrective Actions
+- System updates and patches within defined timelines
+- Process improvements to prevent recurrence
+- Training updates based on incident findings
+
+## Compliance and Auditing
+
+### Regular Assessments
+- Annual safety audits of all digital systems
+- Penetration testing for connected safety systems
+- Performance validation of automated safety functions
+
+### Documentation Requirements
+- System architecture and safety design documentation
+- Change management records for all modifications
+- Audit trails for all safety-critical decisions
+
+### Regulatory Compliance
+- Adherence to international safety standards (IEC 61511, ISO 26262)
+- Local mining safety regulations compliance
+- Regular reporting to regulatory authorities
+
+## Implementation Timeline
+
+### Phase 1: Assessment (Months 1-3)
+- Complete digital safety audit of existing systems
+- Identify high-risk areas requiring immediate attention
+- Develop detailed implementation roadmap
+
+### Phase 2: Core Implementation (Months 4-12)
+- Deploy fail-safe mechanisms for critical systems
+- Implement human oversight protocols
+- Establish cybersecurity measures for safety systems
+
+### Phase 3: Advanced Features (Months 13-24)
+- Integrate AI safety systems with explainability
+- Deploy comprehensive monitoring and alerting
+- Establish continuous improvement processes
+
+## Success Metrics
+- Zero safety incidents caused by digital system failures
+- 100% compliance with safety standards
+- <2 hours mean time to detect digital safety issues
+- 95% system availability for safety-critical functions
 - Classification of incidents by safety impact
 - Forensic analysis capabilities for digital incidents
 

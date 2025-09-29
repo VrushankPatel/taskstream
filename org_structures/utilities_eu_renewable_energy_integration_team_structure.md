@@ -28,16 +28,18 @@ Lead the integration of renewable energy sources into the EU power grid, ensurin
 
 ### Technical Operations Department (45 FTE)
 - **Grid Integration Engineering Team** (25 FTE)
-  - Senior Engineers (5)
-  - Integration Engineers (15)
-  - Field Technicians (5)
+  - Senior Engineers (5) - Lead complex integration projects
+  - Integration Engineers (15) - Design and implement renewable connections
+  - Field Technicians (5) - On-site installation and maintenance
 
 - **Data Analytics & Forecasting Team** (12 FTE)
-  - Data Scientists (4)
-  - Systems Analysts (4)
-  - Forecasting Specialists (4)
+  - Data Scientists (4) - Develop predictive models for renewable generation
+  - Systems Analysts (4) - Optimize grid performance algorithms
+  - Forecasting Specialists (4) - Weather and generation forecasting
 
 - **Asset Management Team** (8 FTE)
+  - Asset Performance Engineers (4) - Monitor renewable asset performance
+  - Maintenance Coordinators (4) - Schedule preventive maintenance
   - Asset Managers (4)
   - Maintenance Coordinators (4)
 

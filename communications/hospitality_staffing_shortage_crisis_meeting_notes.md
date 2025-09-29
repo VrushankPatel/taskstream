@@ -73,10 +73,32 @@ Industry-wide hospitality staffing shortage affecting 15 properties across 3 reg
 **HR Director (Owner):**
 - Negotiate contracts with temporary staffing agencies (Due: 2024-10-10)
 - Develop wage adjustment implementation plan (Due: 2024-10-15)
+- Launch employee referral bonus program (Due: 2024-10-18)
 
 **Operations Directors (Owners):**
 - Assess technology deployment opportunities per property (Due: 2024-10-12)
 - Create cross-training programs for existing staff (Due: 2024-10-20)
+- Implement flexible scheduling options (Due: 2024-10-25)
+
+**Finance Director (Owner):**
+- Review budget allocation for staffing initiatives (Due: 2024-10-11)
+- Monitor financial impact of wage adjustments (Due: 2024-10-30)
+
+**IT Director (Owner):**
+- Evaluate automation tools for front desk operations (Due: 2024-10-14)
+- Plan rollout of self-service guest technologies (Due: 2024-11-01)
+
+### Risk Mitigation
+- **Market Competition**: Monitor competitor hiring practices and adjust offers accordingly
+- **Service Quality**: Ensure temporary staff receive adequate training before deployment
+- **Cost Control**: Regular budget reviews to prevent overspending on temporary solutions
+- **Long-term Strategy**: Balance immediate fixes with sustainable staffing solutions
+
+### Follow-up Schedule
+- **Weekly Check-ins**: Mondays at 9:00 AM for progress updates
+- **Bi-weekly Reports**: Every two weeks on key metrics and budget status
+- **Monthly Reviews**: Full assessment of staffing levels and service quality metrics
+- **Quarterly Evaluation**: Comprehensive review of retention improvements and ROI
 
 **Regional VPs (Owners):**
 - Implement location-specific incentive programs (Due: 2024-10-18)

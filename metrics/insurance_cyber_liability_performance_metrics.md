@@ -61,6 +61,34 @@ Tracking cyber liability insurance claims processing, risk assessment, and cover
 
 ## Financial Performance Metrics
 
+### Premium Growth
+- **Annual Premium Volume**: $2.1B
+- **Market Share**: 12.5%
+- **New Policy Acquisition**: 15% growth
+- **Retention Rate**: 88%
+
+### Profitability
+- **Combined Ratio**: 98%
+- **Underwriting Profit**: $45M
+- **Investment Income**: $120M
+- **Net Income**: $165M
+
+## Operational Efficiency Metrics
+
+### Process Automation
+- **Claims Processing Automation**: 75%
+- **Underwriting Decision Support**: 68%
+- **Fraud Detection Automation**: 82%
+- **Customer Communication Automation**: 60%
+
+### Technology Investment
+- **Cybersecurity Budget**: $85M annually
+- **Technology ROI**: 145%
+- **System Uptime**: 99.9%
+- **Data Quality Score**: 96%
+
+## Financial Performance Metrics
+
 ### Profitability Metrics
 - **Combined Ratio**: 1.15
 - **Expense Ratio**: 28%

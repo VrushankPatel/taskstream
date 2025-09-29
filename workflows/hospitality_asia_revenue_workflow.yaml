@@ -1,80 +1,45 @@
 workflow:
-  id: workflow_hospitality_asia_revenue
-  title: Asia Hospitality Revenue Management Process
-  department: Revenue Management
-  complexity: medium
-  participants:
-  - Revenue Manager
-  - Sales Director
-  - Front Office Manager
-  - Marketing Coordinator
-  - Finance Analyst
-  trigger: Weekly revenue review or market demand changes
+  id: "workflow_hospitality_asia_revenue"
+  title: "Asia Hospitality Revenue Management Process"
+  department: "Revenue Management"
+  complexity: "medium"
+  participants: ["Revenue Manager", "Sales Director", "Front Office Manager", "Marketing Coordinator", "Finance Analyst"]
+  trigger: "Weekly revenue review or market demand changes"
   steps:
-  - step: 1
-    actor: Revenue Manager
-    action: Analyze market demand patterns and competitor pricing
-    tools:
-    - Revenue management system
-    - Market intelligence tools
-    - Competitor analysis software
-    duration: 4 hours
-    outputs:
-    - Demand analysis report
-    - Competitor pricing insights
-  - step: 2
-    actor: Revenue Manager
-    action: Forecast occupancy rates and optimize pricing strategy
-    tools:
-    - Forecasting models
-    - Dynamic pricing engine
-    - Historical data analysis
-    duration: 6 hours
-    outputs:
-    - Revenue forecast
-    - Pricing recommendations
-  - step: 3
-    actor: Sales Director
-    action: Coordinate with sales team for group bookings and promotions
-    tools:
-    - CRM system
-    - Group booking platform
-    - Promotion management tools
-    duration: 2 hours
-    outputs:
-    - Group booking pipeline
-    - Promotion calendar
-  - step: 4
-    actor: Marketing Coordinator
-    action: Implement targeted marketing campaigns and loyalty programs
-    tools:
-    - Marketing automation platform
-    - Loyalty program software
-    - Customer segmentation tools
-    duration: 3 hours
-    outputs:
-    - Campaign performance reports
-    - Loyalty program updates
-  - step: 5
-    actor: Finance Analyst
-    action: Monitor revenue performance and provide financial insights
-    tools:
-    - Financial reporting system
-    - Budget tracking tools
-    - Variance analysis
-    duration: 2 hours
-    outputs:
-    - Revenue performance dashboard
-    - Financial recommendations
-  success_criteria: Revenue per available room increased by 8%, occupancy rate >85%,
-    customer acquisition cost reduced by 15%
-  failure_modes:
-  - Inaccurate demand forecasting
-  - Competitor undercutting
-  - Poor campaign performance
-  - Economic downturns
+    - step: 1
+      actor: "Revenue Manager"
+      action: "Analyze market demand patterns and competitor pricing"
+      tools: ["Revenue management system", "Market intelligence tools", "Competitor analysis software"]
+      duration: "4 hours"
+      outputs: ["Demand analysis report", "Competitor pricing insights"]
+    - step: 2
+      actor: "Revenue Manager"
+      action: "Forecast occupancy rates and optimize pricing strategy"
+      tools: ["Forecasting models", "Dynamic pricing engine", "Historical data analysis"]
+      duration: "6 hours"
+      outputs: ["Revenue forecast", "Pricing recommendations"]
+    - step: 3
+      actor: "Sales Director"
+      action: "Coordinate with sales team for group bookings and promotions"
+      tools: ["CRM system", "Group booking platform", "Promotion management tools"]
+      duration: "2 hours"
+      outputs: ["Group booking pipeline", "Promotion calendar"]
+    - step: 4
+      actor: "Marketing Coordinator"
+      action: "Implement targeted marketing campaigns and loyalty programs"
+      tools: ["Marketing automation platform", "Loyalty program software", "Customer segmentation tools"]
+      duration: "3 hours"
+      outputs: ["Campaign performance reports", "Loyalty program updates"]
+    - step: 5
+      actor: "Finance Analyst"
+      action: "Monitor revenue performance and provide financial insights"
+      tools: ["Financial reporting system", "Budget tracking tools", "Variance analysis"]
+      duration: "2 hours"
+      outputs: ["Revenue performance dashboard", "Financial recommendations"]
+  success_criteria: "Revenue per available room increased by 8%, occupancy rate >85%, customer acquisition cost reduced by 15%"
+  failure_modes: ["Inaccurate demand forecasting", "Competitor undercutting", "Poor campaign performance", "Economic downturns"]
   metrics:
-  - 'Revenue per available room: ¥25,000 target'
-  - 'Occupancy rate: 85% target'
-  - 'Average daily rate: ¥18,000 target'
-  - 'Customer acquisition cost: ¥5,000 target'
+    - "Revenue per available room: ¥25,000 target"
+    - "Occupancy rate: 85% target"
+    - "Average daily rate: ¥18,000 target"
+    - "Customer acquisition cost: ¥5,000 target"

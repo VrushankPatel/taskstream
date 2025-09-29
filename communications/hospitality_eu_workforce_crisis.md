@@ -1,8 +1,8 @@
 ## Email Thread: EU Hospitality Workforce Crisis Management
 
-**From:** Human Resources Director
-**To:** Hotel General Managers, Operations Directors
-**Subject:** Urgent: EU Hospitality Workforce Shortage Crisis Response Plan
+**From:** Human Resources Director  
+**To:** Hotel General Managers, Operations Directors  
+**Subject:** Urgent: EU Hospitality Workforce Shortage Crisis Response Plan  
 
 Team,
 
@@ -39,14 +39,14 @@ As you are aware, the EU hospitality sector is facing unprecedented workforce ch
 
 Please submit your property-specific action plans by Friday. We will review and provide additional support as needed.
 
-Best regards,
+Best regards,  
 Human Resources Director
 
 ---
 
-**From:** Paris Hotel General Manager
-**To:** Human Resources Director, Operations Directors
-**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan
+**From:** Paris Hotel General Manager  
+**To:** Human Resources Director, Operations Directors  
+**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan  
 
 Thank you for the comprehensive plan. Our Paris property is experiencing 40% staff shortages, particularly in housekeeping and food service.
 
@@ -68,14 +68,14 @@ Thank you for the comprehensive plan. Our Paris property is experiencing 40% sta
 
 We can implement within 2 weeks with proper funding.
 
-Best regards,
+Best regards,  
 Paris Hotel General Manager
 
 ---
 
-**From:** Berlin Operations Director
-**To:** Human Resources Director, All Recipients
-**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan
+**From:** Berlin Operations Director  
+**To:** Human Resources Director, All Recipients  
+**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan  
 
 Our Berlin properties are also severely impacted. We support the retention bonuses but need more comprehensive solutions.
 
@@ -92,14 +92,14 @@ Our Berlin properties are also severely impacted. We support the retention bonus
 
 We recommend a sector-wide lobbying effort for policy changes.
 
-Best regards,
+Best regards,  
 Berlin Operations Director
 
 ---
 
-**From:** Human Resources Director
-**To:** All Recipients
-**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan
+**From:** Human Resources Director  
+**To:** All Recipients  
+**Subject:** Re: Urgent: EU Hospitality Workforce Shortage Crisis Response Plan  
 
 Thank you for the detailed responses and recommendations.
 
@@ -120,5 +120,5 @@ Thank you for the detailed responses and recommendations.
 
 Please continue submitting detailed action plans. We're in this together.
 
-Best regards,
+Best regards,  
 Human Resources Director

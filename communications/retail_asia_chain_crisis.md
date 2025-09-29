@@ -1,16 +1,16 @@
 ## Meeting Notes: Asia Retail Supply Chain Crisis Response
 
-**Meeting:** Emergency Supply Chain Crisis Management
-**Date:** September 29, 2025
-**Time:** 09:00-11:00 CST
-**Location:** Virtual (Zoom)
-**Attendees:**
-- Supply Chain Director (Chair)
-- Procurement Manager
-- Logistics Coordinator
-- Store Operations Manager
-- Finance Controller
-- External Logistics Partner Rep
+**Meeting:** Emergency Supply Chain Crisis Management  
+**Date:** September 29, 2025  
+**Time:** 09:00-11:00 CST  
+**Location:** Virtual (Zoom)  
+**Attendees:**  
+- Supply Chain Director (Chair)  
+- Procurement Manager  
+- Logistics Coordinator  
+- Store Operations Manager  
+- Finance Controller  
+- External Logistics Partner Rep  
 
 **Agenda:**
 1. Crisis Assessment
@@ -75,5 +75,5 @@
 - Monthly board updates on mitigation progress
 - Quarterly supplier diversification reviews
 
-**Meeting Adjourned:** 11:00 CST
+**Meeting Adjourned:** 11:00 CST  
 **Next Meeting:** October 6, 2025 at 09:00 CST

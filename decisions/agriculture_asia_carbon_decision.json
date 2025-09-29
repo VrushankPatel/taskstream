@@ -3,19 +3,8 @@
   "context": "Large Asian agricultural cooperative evaluating ¥1B investment in carbon credit trading platform to monetize sustainable farming practices",
   "stakeholders": {
     "requester": "Sustainability Director",
-    "approvers": [
-      "Board Chairman",
-      "Executive Committee",
-      "Government Agriculture Ministry"
-    ],
-    "influencers": [
-      "Chief Financial Officer",
-      "Farm Operations Manager",
-      "Carbon Trading Experts",
-      "Farmer Cooperatives",
-      "International Buyers",
-      "Environmental Certifiers"
-    ]
+    "approvers": ["Board Chairman", "Executive Committee", "Government Agriculture Ministry"],
+    "influencers": ["Chief Financial Officer", "Farm Operations Manager", "Carbon Trading Experts", "Farmer Cooperatives", "International Buyers", "Environmental Certifiers"]
   },
   "request": {
     "amount": "¥1,000,000,000",
@@ -27,71 +16,34 @@
     {
       "stage": "carbon_potential_assessment",
       "duration": "5 months",
-      "activities": [
-        "Soil carbon baseline measurement",
-        "Farming practice analysis",
-        "Carbon sequestration modeling",
-        "Market opportunity evaluation",
-        "Regulatory framework review"
-      ],
+      "activities": ["Soil carbon baseline measurement", "Farming practice analysis", "Carbon sequestration modeling", "Market opportunity evaluation", "Regulatory framework review"],
       "outcome": "Identified 2 million tons annual carbon sequestration potential, ¥500M annual market opportunity"
     },
     {
       "stage": "platform_development",
       "duration": "3 months",
-      "activities": [
-        "Technology partner selection",
-        "Platform architecture design",
-        "Farmer onboarding strategy",
-        "Verification methodology development",
-        "Market linkage establishment"
-      ],
+      "activities": ["Technology partner selection", "Platform architecture design", "Farmer onboarding strategy", "Verification methodology development", "Market linkage establishment"],
       "outcome": "Selected blockchain-based platform, designed farmer-friendly mobile interface, established partnerships with 3 international carbon exchanges"
     },
     {
       "stage": "pilot_implementation",
       "duration": "4 months",
-      "activities": [
-        "Pilot farm selection",
-        "Measurement system deployment",
-        "Farmer training programs",
-        "Verification testing",
-        "Market transactions"
-      ],
+      "activities": ["Pilot farm selection", "Measurement system deployment", "Farmer training programs", "Verification testing", "Market transactions"],
       "outcome": "Successfully traded ¥50M in carbon credits, achieved 95% farmer participation rate"
     },
     {
       "stage": "scaling_strategy",
       "duration": "2 months",
-      "activities": [
-        "Expansion roadmap development",
-        "Funding strategy",
-        "Risk mitigation planning",
-        "Performance monitoring framework",
-        "Sustainability assessment"
-      ],
+      "activities": ["Expansion roadmap development", "Funding strategy", "Risk mitigation planning", "Performance monitoring framework", "Sustainability assessment"],
       "outcome": "5-year scaling plan targeting ¥2B annual carbon credit trading volume"
     }
   ],
   "business_impact": {
     "expected_outcome": "¥300M annual revenue from carbon trading, enhanced farmer income through premium pricing, improved environmental outcomes, strengthened cooperative position",
     "projected_value": "¥3,000,000,000 in cumulative carbon credit sales over 10 years",
-    "risk_factors": [
-      "Carbon price volatility",
-      "Measurement inaccuracies",
-      "Regulatory changes",
-      "Farmer adoption challenges",
-      "Technology reliability"
-    ]
+    "risk_factors": ["Carbon price volatility", "Measurement inaccuracies", "Regulatory changes", "Farmer adoption challenges", "Technology reliability"]
   },
-  "decision_criteria": [
-    "Financial viability",
-    "Environmental impact",
-    "Farmer benefits",
-    "Regulatory compliance",
-    "Technical feasibility",
-    "Market scalability"
-  ],
+  "decision_criteria": ["Financial viability", "Environmental impact", "Farmer benefits", "Regulatory compliance", "Technical feasibility", "Market scalability"],
   "outcome": "Approved with pilot-first approach",
   "lessons_learned": "Farmer education and training critical for adoption, robust measurement systems essential for credibility, diversified market linkages reduce price risk, integrated approach combining technology and community engagement maximizes success"
 }

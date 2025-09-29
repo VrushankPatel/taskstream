@@ -3,50 +3,96 @@ workflow:
   title: "Hotel Guest Check-in Process"
   department: "Front Office"
   complexity: "medium"
-  participants: ["Front Desk Agent", "Concierge", "Housekeeping Supervisor", "Security"]
+  participants:
+    - "Front Desk Agent"
+    - "Concierge"
+    - "Housekeeping Supervisor"
+    - "Security"
   trigger: "Guest arrival at hotel"
   steps:
-     - step: 1
-       actor: "Front Desk Agent"
-       action: "Verify reservation and collect guest information"
-       decision_points: ["Confirm reservation details", "Check for upgrades or special requests", "Verify payment method", "Select check-in method: standard, contactless mobile, or express loyalty"]
-       tools: ["PMS system", "ID verification", "Mobile check-in app", "Self-service kiosk"]
-       duration: "5 minutes"
-       outputs: ["Guest registration form", "Reservation confirmation", "Digital room key (for mobile check-in)"]
+    - step: 1
+      actor: "Front Desk Agent"
+      action: "Verify reservation and collect guest information"
+      decision_points:
+        - "Confirm reservation details"
+        - "Check for upgrades or special requests"
+        - "Verify payment method"
+        - "Select check-in method: standard, contactless mobile, or express loyalty"
+      tools:
+        - "PMS system"
+        - "ID verification"
+        - "Mobile check-in app"
+        - "Self-service kiosk"
+      duration: "5 minutes"
+      outputs:
+        - "Guest registration form"
+        - "Reservation confirmation"
+        - "Digital room key (for mobile check-in)"
     - step: 2
       actor: "Front Desk Agent"
       action: "Process payment and assign room"
-      tools: ["PMS system", "Credit card terminal"]
+      tools:
+        - "PMS system"
+        - "Credit card terminal"
       duration: "3 minutes"
-      outputs: ["Payment confirmation", "Room assignment"]
+      outputs:
+        - "Payment confirmation"
+        - "Room assignment"
     - step: 3
       actor: "Front Desk Agent"
       action: "Provide room key and welcome package"
-      tools: ["Key system", "Welcome materials"]
+      tools:
+        - "Key system"
+        - "Welcome materials"
       duration: "2 minutes"
-      outputs: ["Room key", "Welcome package"]
+      outputs:
+        - "Room key"
+        - "Welcome package"
     - step: 4
       actor: "Concierge"
       action: "Offer amenities and local recommendations"
-      tools: ["Concierge system", "Local guide"]
+      tools:
+        - "Concierge system"
+        - "Local guide"
       duration: "5 minutes"
-      outputs: ["Amenities information"]
+      outputs:
+        - "Amenities information"
     - step: 5
       actor: "Housekeeping Supervisor"
       action: "Confirm room readiness and special requests"
-      decision_points: ["Room clean and ready", "Handle special requests (accessibility, amenities)", "Escalate maintenance issues"]
-      tools: ["Housekeeping system", "Room status"]
+      decision_points:
+        - "Room clean and ready"
+        - "Handle special requests (accessibility, amenities)"
+        - "Escalate maintenance issues"
+      tools:
+        - "Housekeeping system"
+        - "Room status"
       duration: "2 minutes"
-      outputs: ["Room readiness confirmation", "Special requests log"]
+      outputs:
+        - "Room readiness confirmation"
+        - "Special requests log"
     - step: 6
       actor: "Security"
       action: "Verify guest identity for security protocols"
-      tools: ["Security system", "Guest database"]
+      tools:
+        - "Security system"
+        - "Guest database"
       duration: "1 minute"
-      outputs: ["Security clearance"]
+      outputs:
+        - "Security clearance"
   success_criteria: "Guest checked in within 15 minutes with 100% satisfaction"
-  failure_modes: ["System downtime", "Room unavailability", "Payment issues", "Staff shortages", "Communication breakdowns"]
-  risks: ["Data privacy violations", "Security breaches", "Guest safety concerns", "Service delays impacting satisfaction", "Regulatory compliance issues"]
+  failure_modes:
+    - "System downtime"
+    - "Room unavailability"
+    - "Payment issues"
+    - "Staff shortages"
+    - "Communication breakdowns"
+  risks:
+    - "Data privacy violations"
+    - "Security breaches"
+    - "Guest safety concerns"
+    - "Service delays impacting satisfaction"
+    - "Regulatory compliance issues"
   metrics:
     - "Check-in time: 12 minutes average (target: <10 minutes)"
     - "Guest satisfaction: 95% target (current: 93%)"

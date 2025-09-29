@@ -3,49 +3,79 @@ workflow:
   title: "Retail Monthly Inventory Audit and Reconciliation Process"
   department: "Operations"
   complexity: "simple"
-  participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
+  participants:
+    - "Store Manager"
+    - "Inventory Clerk"
+    - "Assistant Manager"
   trigger: "Scheduled monthly inventory cycle or triggered by stock discrepancy alerts"
   steps:
     - step: 1
       actor: "Inventory Clerk"
       action: "Prepare audit checklist and count sheets"
-      tools: ["Inventory software", "Barcode scanner"]
+      tools:
+        - "Inventory software"
+        - "Barcode scanner"
       duration: "30 minutes"
-      outputs: ["Audit checklist", "Count sheets"]
+      outputs:
+        - "Audit checklist"
+        - "Count sheets"
     - step: 2
       actor: "Inventory Clerk"
       action: "Conduct physical inventory count by section"
-      tools: ["Barcode scanner", "Count sheets"]
+      tools:
+        - "Barcode scanner"
+        - "Count sheets"
       duration: "4 hours"
-      outputs: ["Physical count data"]
+      outputs:
+        - "Physical count data"
     - step: 3
       actor: "Assistant Manager"
       action: "Verify count accuracy and reconcile discrepancies"
-      decision_points: ["Accept variance within threshold", "Investigate significant discrepancies", "Escalate major issues to management"]
-      tools: ["Inventory software", "Count sheets"]
+      decision_points:
+        - "Accept variance within threshold"
+        - "Investigate significant discrepancies"
+        - "Escalate major issues to management"
+      tools:
+        - "Inventory software"
+        - "Count sheets"
       duration: "1 hour"
-      outputs: ["Reconciliation report", "Discrepancy investigation notes"]
+      outputs:
+        - "Reconciliation report"
+        - "Discrepancy investigation notes"
     - step: 4
       actor: "Store Manager"
       action: "Review final inventory report and approve adjustments"
-      tools: ["Inventory software", "Reconciliation report"]
+      tools:
+        - "Inventory software"
+        - "Reconciliation report"
       duration: "30 minutes"
-      outputs: ["Approved inventory adjustments"]
+      outputs:
+        - "Approved inventory adjustments"
   success_criteria: "Inventory accuracy within 2% variance"
-  failure_modes: ["Count errors", "System data entry mistakes", "Missing items", "Staffing shortages during audit"]
-  risks: ["Operational disruption during peak hours", "Data security concerns with inventory systems", "Employee fatigue leading to errors", "Supplier delays affecting restocking"]
-   metrics:
-     - "Inventory accuracy rate: 98% target (current: 96.5%)"
-     - "Audit completion time: 6 hours target (current: 5.5 hours average)"
-     - "Shrinkage reduction: $500/month target (current: $450/month)"
-     - "Cost per audit: $200 target (current: $180)"
-   training_requirements:
-     - "Inventory software certification"
-     - "Barcode scanner operation training"
-     - "Discrepancy investigation procedures"
-     - "Safety protocols for handling inventory"
-   escalation_procedures:
-     - "Minor discrepancies (<2%): Assistant Manager approval"
-     - "Medium discrepancies (2-5%): Store Manager review required"
-     - "Major discrepancies (>5%): Regional Manager notification and investigation"
-     - "System failures: Immediate IT support escalation"
+  failure_modes:
+    - "Count errors"
+    - "System data entry mistakes"
+    - "Missing items"
+    - "Staffing shortages during audit"
+  risks:
+    - "Operational disruption during peak hours"
+    - "Data security concerns with inventory systems"
+    - "Employee fatigue leading to errors"
+    - "Supplier delays affecting restocking"
+  metrics:
+    - "Inventory accuracy rate: 98% target (current: 96.5%)"
+    - "Audit completion time: 6 hours target (current: 5.5 hours average)"
+    - "Shrinkage reduction: $500/month target (current: $450/month)"
+    - "Cost per audit: $200 target (current: $180)"
+  training_requirements:
+    - "Inventory software certification"
+    - "Barcode scanner operation training"
+    - "Discrepancy investigation procedures"
+    - "Safety protocols for handling inventory"
+  escalation_procedures:
+    - "Minor discrepancies (<2%): Assistant Manager approval"
+    - "Medium discrepancies (2-5%): Store Manager review required"
+    - "Major discrepancies (>5%): Regional Manager notification and investigation"
+    - "System failures: Immediate IT support escalation"
+    - "Security concerns: Loss prevention team activation"
+    - "Vendor disputes: Procurement department involvement"

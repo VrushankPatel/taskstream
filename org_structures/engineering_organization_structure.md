@@ -6,8 +6,8 @@ The Engineering organization consists of 120 engineers, product managers, and de
 ## Leadership Structure
 
 ### VP of Engineering
-**Reports to:** Chief Technology Officer  
-**Direct Reports:** 4 Engineering Directors  
+**Reports to:** Chief Technology Officer
+**Direct Reports:** 4 Engineering Directors
 **Responsibilities:**
 - Technical strategy and architecture
 - Engineering excellence and culture
@@ -15,8 +15,8 @@ The Engineering organization consists of 120 engineers, product managers, and de
 - Budget management ($25M annual)
 
 ### Engineering Directors (4)
-**Reports to:** VP of Engineering  
-**Direct Reports:** 3-4 Engineering Managers  
+**Reports to:** VP of Engineering
+**Direct Reports:** 3-4 Engineering Managers
 **Responsibilities:**
 - Domain expertise leadership
 - Team performance management
@@ -52,8 +52,8 @@ The Engineering organization consists of 120 engineers, product managers, and de
 - Mobile user experience
 
 ### Engineering Managers (12)
-**Reports to:** Engineering Directors  
-**Direct Reports:** 6-8 Engineers  
+**Reports to:** Engineering Directors
+**Direct Reports:** 6-8 Engineers
 **Responsibilities:**
 - Team leadership and mentoring
 - Sprint planning and execution
@@ -61,8 +61,8 @@ The Engineering organization consists of 120 engineers, product managers, and de
 - Individual contributor development
 
 ### Product Managers (6)
-**Reports to:** VP Product  
-**Direct Reports:** None (matrixed relationship)  
+**Reports to:** VP Product
+**Direct Reports:** None (matrixed relationship)
 **Responsibilities:**
 - Product strategy and roadmap
 - User research and requirements
@@ -70,7 +70,7 @@ The Engineering organization consists of 120 engineers, product managers, and de
 - Cross-functional collaboration
 
 ### Engineers and Designers (95)
-**Reports to:** Engineering Managers  
+**Reports to:** Engineering Managers
 **Responsibilities:**
 - Feature implementation and testing
 - Code reviews and quality assurance

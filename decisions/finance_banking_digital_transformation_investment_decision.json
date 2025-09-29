@@ -4,8 +4,16 @@
   "context": "Major retail bank planning $50M digital transformation to compete with fintech challengers and improve customer experience",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Head of Retail Banking", "Chief Risk Officer", "Customer Experience Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Head of Retail Banking",
+      "Chief Risk Officer",
+      "Customer Experience Director"
+    ]
   },
   "request": {
     "amount": "$50,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-11-01",
       "end_date": "2024-11-15",
       "duration": "15 days",
-      "activities": ["Market analysis", "Competitive benchmarking", "ROI modeling"],
+      "activities": [
+        "Market analysis",
+        "Competitive benchmarking",
+        "ROI modeling"
+      ],
       "outcome": "Approved for detailed business case development"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2024-11-16",
       "end_date": "2024-12-15",
       "duration": "30 days",
-      "activities": ["Vendor evaluation", "Technical architecture design", "Risk assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "Technical architecture design",
+        "Risk assessment"
+      ],
       "outcome": "Comprehensive business case presented with 3-year payback projection"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2024-12-16",
       "end_date": "2025-01-15",
       "duration": "30 days",
-      "activities": ["Board presentation", "Due diligence", "Final negotiations"],
+      "activities": [
+        "Board presentation",
+        "Due diligence",
+        "Final negotiations"
+      ],
       "outcome": "Approved with phased implementation plan"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$180,000,000",
     "actual_value": "$195,000,000 (exceeded projections due to faster adoption)",
     "roi_timeline": "Expected payback in 36 months",
-    "risk_factors": ["Technology integration challenges", "Regulatory compliance delays", "Customer adoption slower than expected"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory compliance delays",
+      "Customer adoption slower than expected"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with digital banking vision", "Financial ROI exceeding 15% hurdle rate", "Technical feasibility and vendor capability", "Regulatory compliance and risk management"],
+  "decision_criteria": [
+    "Strategic alignment with digital banking vision",
+    "Financial ROI exceeding 15% hurdle rate",
+    "Technical feasibility and vendor capability",
+    "Regulatory compliance and risk management"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-02-01",
     "completion_date": "2027-01-31",
-    "milestones": ["Phase 1: Mobile app launch - 2025-08-01", "Phase 2: API platform completion - 2026-02-01", "Phase 3: AI integration - 2026-08-01", "Phase 4: Full deployment - 2027-01-31"]
+    "milestones": [
+      "Phase 1: Mobile app launch - 2025-08-01",
+      "Phase 2: API platform completion - 2026-02-01",
+      "Phase 3: AI integration - 2026-08-01",
+      "Phase 4: Full deployment - 2027-01-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Phase 1 completed successfully with 30% mobile adoption increase; budget on track",

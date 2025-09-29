@@ -1,59 +1,119 @@
 workflow:
-  id: "hospitality_asia_medium_guest_complaint_resolution"
-  title: "Asia Pacific Guest Complaint Resolution"
-  department: "Guest Relations"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Relations Manager", "Department Head", "General Manager", "Cultural Liaison"]
-  trigger: "Guest files complaint through any channel (verbal, written, digital, social media)"
+  id: hospitality_asia_medium_guest_complaint_resolution
+  title: Asia Pacific Guest Complaint Resolution
+  department: Guest Relations
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Guest Relations Manager
+  - Department Head
+  - General Manager
+  - Cultural Liaison
+  trigger: Guest files complaint through any channel (verbal, written, digital, social
+    media)
   temporal_data:
-    first_implemented: "2020-06-12"
-    last_updated: "2024-10-15"
-    typical_cycle_time: "2-4 hours for resolution"
+    first_implemented: '2020-06-12'
+    last_updated: '2024-10-15'
+    typical_cycle_time: 2-4 hours for resolution
     average_annual_executions: 1850
-    seasonal_variations: ["Peak season (Dec-Feb) 60% increase", "Monsoon season slight uptick in weather-related complaints"]
-    historical_evolution: "Started with basic escalation 2020, added cultural sensitivity training 2022, integrated multi-language AI support 2024"
+    seasonal_variations:
+    - Peak season (Dec-Feb) 60% increase
+    - Monsoon season slight uptick in weather-related complaints
+    historical_evolution: Started with basic escalation 2020, added cultural sensitivity
+      training 2022, integrated multi-language AI support 2024
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Receive and document complaint with cultural sensitivity considerations"
-      tools: ["Guest Management System", "Translation App", "Cultural Guidelines Database", "Incident Report Form"]
-      duration: "15 minutes"
-      outputs: ["Complaint Record", "Initial Assessment", "Cultural Context Notes"]
-      decision_points: ["Severity level assessment", "Cultural implications review", "Language barriers identified"]
-    - step: 2
-      actor: "Cultural Liaison"
-      action: "Review complaint for cultural nuances and communication preferences"
-      tools: ["Cultural Context Database", "Communication Style Guide", "Regional Preferences Matrix"]
-      duration: "20 minutes"
-      outputs: ["Cultural Assessment", "Preferred Resolution Approach", "Communication Strategy"]
-      decision_points: ["Face-saving considerations required", "Hierarchical respect protocols needed", "Gift-giving appropriateness"]
-    - step: 3
-      actor: "Guest Relations Manager"
-      action: "Investigate complaint details and coordinate with relevant departments"
-      tools: ["Property Management System", "Communication Platform", "Investigation Checklist", "Timeline Tracker"]
-      duration: "45 minutes"
-      outputs: ["Investigation Report", "Root Cause Analysis", "Department Coordination Plan"]
-      decision_points: ["Multiple departments involved", "Service recovery options available", "Compensation threshold met"]
-    - step: 4
-      actor: "Department Head"
-      action: "Implement corrective actions and approve compensation within cultural norms"
-      tools: ["Service Recovery Guidelines", "Compensation Authorization System", "Cultural Gift Guidelines"]
-      duration: "30 minutes"
-      outputs: ["Corrective Action Plan", "Compensation Approval", "Cultural Gesture Selection"]
-    - step: 5
-      actor: "General Manager"
-      action: "Review resolution and personally follow up with guest when culturally appropriate"
-      tools: ["Guest History System", "Personal Touch Protocol", "Follow-up Schedule"]
-      duration: "25 minutes"
-      outputs: ["Personal Apology Letter", "Follow-up Plan", "Guest Loyalty Enhancement"]
-  success_criteria: "Guest satisfaction restored to 4.5+ stars, cultural sensitivity maintained, repeat visit likelihood increased"
-  failure_modes: ["Cultural insensitivity in response", "Delayed resolution causing loss of face", "Inappropriate compensation level", "Language barrier miscommunication"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Receive and document complaint with cultural sensitivity considerations
+    tools:
+    - Guest Management System
+    - Translation App
+    - Cultural Guidelines Database
+    - Incident Report Form
+    duration: 15 minutes
+    outputs:
+    - Complaint Record
+    - Initial Assessment
+    - Cultural Context Notes
+    decision_points:
+    - Severity level assessment
+    - Cultural implications review
+    - Language barriers identified
+  - step: 2
+    actor: Cultural Liaison
+    action: Review complaint for cultural nuances and communication preferences
+    tools:
+    - Cultural Context Database
+    - Communication Style Guide
+    - Regional Preferences Matrix
+    duration: 20 minutes
+    outputs:
+    - Cultural Assessment
+    - Preferred Resolution Approach
+    - Communication Strategy
+    decision_points:
+    - Face-saving considerations required
+    - Hierarchical respect protocols needed
+    - Gift-giving appropriateness
+  - step: 3
+    actor: Guest Relations Manager
+    action: Investigate complaint details and coordinate with relevant departments
+    tools:
+    - Property Management System
+    - Communication Platform
+    - Investigation Checklist
+    - Timeline Tracker
+    duration: 45 minutes
+    outputs:
+    - Investigation Report
+    - Root Cause Analysis
+    - Department Coordination Plan
+    decision_points:
+    - Multiple departments involved
+    - Service recovery options available
+    - Compensation threshold met
+  - step: 4
+    actor: Department Head
+    action: Implement corrective actions and approve compensation within cultural
+      norms
+    tools:
+    - Service Recovery Guidelines
+    - Compensation Authorization System
+    - Cultural Gift Guidelines
+    duration: 30 minutes
+    outputs:
+    - Corrective Action Plan
+    - Compensation Approval
+    - Cultural Gesture Selection
+  - step: 5
+    actor: General Manager
+    action: Review resolution and personally follow up with guest when culturally
+      appropriate
+    tools:
+    - Guest History System
+    - Personal Touch Protocol
+    - Follow-up Schedule
+    duration: 25 minutes
+    outputs:
+    - Personal Apology Letter
+    - Follow-up Plan
+    - Guest Loyalty Enhancement
+  success_criteria: Guest satisfaction restored to 4.5+ stars, cultural sensitivity
+    maintained, repeat visit likelihood increased
+  failure_modes:
+  - Cultural insensitivity in response
+  - Delayed resolution causing loss of face
+  - Inappropriate compensation level
+  - Language barrier miscommunication
   metrics:
-    - "Resolution time: <4 hours (current: 3.2 hours)"
-    - "Guest satisfaction recovery: >90% (current: 94%)"
-    - "Cultural appropriateness score: >4.8/5 (current: 4.9/5)"
-    - "Repeat visit conversion: >35% (current: 42%)"
+  - 'Resolution time: <4 hours (current: 3.2 hours)'
+  - 'Guest satisfaction recovery: >90% (current: 94%)'
+  - 'Cultural appropriateness score: >4.8/5 (current: 4.9/5)'
+  - 'Repeat visit conversion: >35% (current: 42%)'
   performance_history:
-    success_rate_trend: "87% (2021) → 91% (2023) → 94% (2024)"
-    cost_trend: "$125 (2021) → $108 (2023) → $95 (2024)"
-    efficiency_improvements: ["Cultural training reduced resolution time by 25%", "Multi-language AI support improved accuracy by 30%", "Personal touch protocol increased loyalty by 18%"]
+    success_rate_trend: 87% (2021) → 91% (2023) → 94% (2024)
+    cost_trend: $125 (2021) → $108 (2023) → $95 (2024)
+    efficiency_improvements:
+    - Cultural training reduced resolution time by 25%
+    - Multi-language AI support improved accuracy by 30%
+    - Personal touch protocol increased loyalty by 18%

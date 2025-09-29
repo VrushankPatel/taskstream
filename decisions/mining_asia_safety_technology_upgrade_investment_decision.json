@@ -4,9 +4,26 @@
   "context": "Large-scale mining operation in Southeast Asia evaluating comprehensive safety technology upgrade to meet evolving regulatory requirements and improve worker safety performance after recent regional safety incidents",
   "stakeholders": {
     "requester": "Chief Safety Officer",
-    "approvers": ["CEO", "CFO", "Board Safety Committee"],
-    "influencers": ["Operations Director", "Technology Director", "HR Director", "Union Representatives", "Local Community Leaders", "Regulatory Affairs Manager"],
-    "impacted_parties": ["Mine Workers (2,400 employees)", "Local Communities", "Environmental Groups", "Government Regulators", "Insurance Providers"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Safety Committee"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Technology Director",
+      "HR Director",
+      "Union Representatives",
+      "Local Community Leaders",
+      "Regulatory Affairs Manager"
+    ],
+    "impacted_parties": [
+      "Mine Workers (2,400 employees)",
+      "Local Communities",
+      "Environmental Groups",
+      "Government Regulators",
+      "Insurance Providers"
+    ]
   },
   "request": {
     "amount": "$18,500,000",
@@ -20,7 +37,13 @@
       "start_date": "2025-01-15",
       "end_date": "2025-01-29",
       "duration": "14 days",
-      "activities": ["Safety incident analysis", "Technology vendor evaluation", "Regulatory compliance review", "Community consultation", "ROI modeling"],
+      "activities": [
+        "Safety incident analysis",
+        "Technology vendor evaluation",
+        "Regulatory compliance review",
+        "Community consultation",
+        "ROI modeling"
+      ],
       "outcome": "Technology solution validated with strong safety and financial justification"
     },
     {
@@ -28,7 +51,13 @@
       "start_date": "2025-01-30",
       "end_date": "2025-02-13",
       "duration": "14 days",
-      "activities": ["Worker safety committee input", "Union negotiation", "Community leader meetings", "Regulatory pre-approval", "Environmental impact assessment"],
+      "activities": [
+        "Worker safety committee input",
+        "Union negotiation",
+        "Community leader meetings",
+        "Regulatory pre-approval",
+        "Environmental impact assessment"
+      ],
       "outcome": "Broad stakeholder support achieved with minor modifications to implementation plan"
     },
     {
@@ -36,7 +65,12 @@
       "start_date": "2025-02-14",
       "end_date": "2025-02-21",
       "duration": "7 days",
-      "activities": ["Detailed cost-benefit analysis", "Insurance premium impact assessment", "Financing option evaluation", "Budget allocation review"],
+      "activities": [
+        "Detailed cost-benefit analysis",
+        "Insurance premium impact assessment",
+        "Financing option evaluation",
+        "Budget allocation review"
+      ],
       "outcome": "Strong financial case with 3.2x ROI over 5 years through reduced incidents and insurance costs"
     },
     {
@@ -44,7 +78,12 @@
       "start_date": "2025-02-22",
       "end_date": "2025-02-28",
       "duration": "6 days",
-      "activities": ["Board presentation", "Safety committee recommendation", "Final risk assessment", "Implementation timeline approval"],
+      "activities": [
+        "Board presentation",
+        "Safety committee recommendation",
+        "Final risk assessment",
+        "Implementation timeline approval"
+      ],
       "outcome": "Unanimous board approval with accelerated implementation timeline"
     }
   ],
@@ -53,16 +92,30 @@
     "projected_value": "$45,000,000 over 5 years",
     "actual_value": "$52,300,000 (implementation ongoing - Q1 results exceed projections by 16%)",
     "roi_timeline": "Break-even in 14 months, full ROI in 36 months",
-    "risk_factors": ["Technology integration complexity", "Worker training requirements", "Regulatory approval delays", "Supplier reliability", "Cultural adaptation challenges"]
+    "risk_factors": [
+      "Technology integration complexity",
+      "Worker training requirements",
+      "Regulatory approval delays",
+      "Supplier reliability",
+      "Cultural adaptation challenges"
+    ]
   },
-  "decision_criteria": ["Safety performance improvement potential", "Regulatory compliance achievement", "Community impact and acceptance", "Financial return on investment", "Technology reliability and scalability", "Integration with existing systems", "Worker training and adoption ease"],
+  "decision_criteria": [
+    "Safety performance improvement potential",
+    "Regulatory compliance achievement",
+    "Community impact and acceptance",
+    "Financial return on investment",
+    "Technology reliability and scalability",
+    "Integration with existing systems",
+    "Worker training and adoption ease"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-03-01",
     "completion_date": "2025-11-30",
     "milestones": [
       "Phase 1 Infrastructure - 2025-05-15",
-      "Phase 2 Sensor Network - 2025-07-31", 
+      "Phase 2 Sensor Network - 2025-07-31",
       "Phase 3 AI Systems - 2025-09-30",
       "Phase 4 Worker Training - 2025-10-31",
       "Full System Operational - 2025-11-30"

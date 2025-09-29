@@ -1,55 +1,96 @@
 workflow:
-  id: "workflow_utilities_grid_modernization"
-  title: "Utilities Grid Modernization Workflow"
-  department: "Infrastructure Operations"
-  complexity: "complex"
-  participants: ["Chief Technology Officer", "Grid Operations Manager", "Engineering Lead", "Regulatory Affairs Manager", "Cybersecurity Specialist"]
-  trigger: "Regulatory mandate or technology advancement opportunity identified"
+  id: workflow_utilities_grid_modernization
+  title: Utilities Grid Modernization Workflow
+  department: Infrastructure Operations
+  complexity: complex
+  participants:
+  - Chief Technology Officer
+  - Grid Operations Manager
+  - Engineering Lead
+  - Regulatory Affairs Manager
+  - Cybersecurity Specialist
+  trigger: Regulatory mandate or technology advancement opportunity identified
   temporal_data:
-    first_implemented: "2023-07-01"
-    last_updated: "2025-08-30"
-    typical_cycle_time: "24-36 months"
+    first_implemented: '2023-07-01'
+    last_updated: '2025-08-30'
+    typical_cycle_time: 24-36 months
     average_annual_executions: 2
-    seasonal_variations: ["Q1 planning and budgeting", "Q2-Q3 implementation", "Q4 testing and commissioning"]
-    historical_evolution: "Transitioned from analog grid systems to digital smart grid, incorporating IoT sensors, AI analytics, and renewable integration"
+    seasonal_variations:
+    - Q1 planning and budgeting
+    - Q2-Q3 implementation
+    - Q4 testing and commissioning
+    historical_evolution: Transitioned from analog grid systems to digital smart grid,
+      incorporating IoT sensors, AI analytics, and renewable integration
   steps:
-    - step: 1
-      actor: "Chief Technology Officer"
-      action: "Assess current infrastructure and define modernization goals"
-      tools: ["Infrastructure assessment tools", "Technology roadmap software", "Stakeholder analysis"]
-      duration: "6 months"
-      outputs: ["Infrastructure assessment report", "Modernization roadmap"]
-    - step: 2
-      actor: "Engineering Lead"
-      action: "Design smart grid architecture and select technologies"
-      tools: ["CAD software", "Simulation tools", "Vendor evaluation platforms"]
-      duration: "9 months"
-      outputs: ["System design specifications", "Technology selections"]
-    - step: 3
-      actor: "Grid Operations Manager"
-      action: "Plan implementation phases and minimize service disruptions"
-      tools: ["Project management software", "Risk assessment tools", "Change management framework"]
-      duration: "6 months"
-      outputs: ["Implementation plan", "Risk mitigation strategies"]
-    - step: 4
-      actor: "Regulatory Affairs Manager"
-      action: "Ensure compliance with grid modernization standards"
-      tools: ["Regulatory compliance database", "Certification tracking", "Audit preparation tools"]
-      duration: "Ongoing"
-      outputs: ["Compliance reports", "Certification documentation"]
-    - step: 5
-      actor: "Cybersecurity Specialist"
-      action: "Implement security measures for smart grid systems"
-      tools: ["Security assessment tools", "Encryption software", "Monitoring systems"]
-      duration: "12 months"
-      outputs: ["Security architecture", "Monitoring reports"]
-  success_criteria: "Grid reliability improved to 99.99%, renewable integration capacity increased by 30%"
-  failure_modes: ["Technology integration issues", "Cybersecurity vulnerabilities", "Regulatory delays"]
+  - step: 1
+    actor: Chief Technology Officer
+    action: Assess current infrastructure and define modernization goals
+    tools:
+    - Infrastructure assessment tools
+    - Technology roadmap software
+    - Stakeholder analysis
+    duration: 6 months
+    outputs:
+    - Infrastructure assessment report
+    - Modernization roadmap
+  - step: 2
+    actor: Engineering Lead
+    action: Design smart grid architecture and select technologies
+    tools:
+    - CAD software
+    - Simulation tools
+    - Vendor evaluation platforms
+    duration: 9 months
+    outputs:
+    - System design specifications
+    - Technology selections
+  - step: 3
+    actor: Grid Operations Manager
+    action: Plan implementation phases and minimize service disruptions
+    tools:
+    - Project management software
+    - Risk assessment tools
+    - Change management framework
+    duration: 6 months
+    outputs:
+    - Implementation plan
+    - Risk mitigation strategies
+  - step: 4
+    actor: Regulatory Affairs Manager
+    action: Ensure compliance with grid modernization standards
+    tools:
+    - Regulatory compliance database
+    - Certification tracking
+    - Audit preparation tools
+    duration: Ongoing
+    outputs:
+    - Compliance reports
+    - Certification documentation
+  - step: 5
+    actor: Cybersecurity Specialist
+    action: Implement security measures for smart grid systems
+    tools:
+    - Security assessment tools
+    - Encryption software
+    - Monitoring systems
+    duration: 12 months
+    outputs:
+    - Security architecture
+    - Monitoring reports
+  success_criteria: Grid reliability improved to 99.99%, renewable integration capacity
+    increased by 30%
+  failure_modes:
+  - Technology integration issues
+  - Cybersecurity vulnerabilities
+  - Regulatory delays
   metrics:
-    - "Grid reliability: 99.99% uptime target"
-    - "Renewable capacity: 30% increase"
-    - "Implementation cost: Within 10% of budget"
+  - 'Grid reliability: 99.99% uptime target'
+  - 'Renewable capacity: 30% increase'
+  - 'Implementation cost: Within 10% of budget'
   performance_history:
-    success_rate_trend: "70% (2023) → 80% (2024) → 85% (2025)"
-    cost_trend: "$50M (2023) → $55M (2024) → $60M (2025)"
-    efficiency_improvements: ["Digital twins reduced planning time by 40%", "AI optimization improved grid efficiency by 15%", "Modular implementation minimized downtime by 60%"]
+    success_rate_trend: 70% (2023) → 80% (2024) → 85% (2025)
+    cost_trend: $50M (2023) → $55M (2024) → $60M (2025)
+    efficiency_improvements:
+    - Digital twins reduced planning time by 40%
+    - AI optimization improved grid efficiency by 15%
+    - Modular implementation minimized downtime by 60%

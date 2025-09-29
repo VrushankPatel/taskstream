@@ -4,8 +4,15 @@
   "context": "Hospitality chain implementing comprehensive sustainability program to meet guest expectations and regulatory requirements",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Operations Director", "Finance VP", "Guest Services VP"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Finance VP",
+      "Guest Services VP"
+    ]
   },
   "request": {
     "amount": "$1,500,000",
@@ -19,7 +26,11 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-31",
       "duration": "31 days",
-      "activities": ["Sustainability audit", "Technology evaluation", "Cost-benefit modeling"],
+      "activities": [
+        "Sustainability audit",
+        "Technology evaluation",
+        "Cost-benefit modeling"
+      ],
       "outcome": "Identified $800K annual savings potential"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-08-01",
       "end_date": "2025-08-25",
       "duration": "25 days",
-      "activities": ["Property manager consultations", "Guest feedback integration", "Vendor negotiations"],
+      "activities": [
+        "Property manager consultations",
+        "Guest feedback integration",
+        "Vendor negotiations"
+      ],
       "outcome": "Cross-functional support secured"
     },
     {
@@ -35,7 +50,11 @@
       "start_date": "2025-08-26",
       "end_date": "2025-09-12",
       "duration": "18 days",
-      "activities": ["Board presentation", "Risk assessment", "Investment approval"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment",
+        "Investment approval"
+      ],
       "outcome": "Approved with sustainability KPIs"
     }
   ],
@@ -44,48 +63,70 @@
     "projected_value": "$2,200,000 annual benefits",
     "actual_value": "TBD (implementation Q1 2026)",
     "roi_timeline": "Expected payback in 22 months",
-    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Initial cost overruns"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff training requirements",
+      "Initial cost overruns"
+    ]
   },
-  "decision_criteria": ["Environmental impact", "Financial return", "Guest satisfaction", "Regulatory compliance", "Brand positioning"],
+  "decision_criteria": [
+    "Environmental impact",
+    "Financial return",
+    "Guest satisfaction",
+    "Regulatory compliance",
+    "Brand positioning"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2026-09-30",
-    "milestones": ["Technology rollout: 2026-01-31", "Staff training: 2026-03-15", "Certification audit: 2026-09-30"]
+    "milestones": [
+      "Technology rollout: 2026-01-31",
+      "Staff training: 2026-03-15",
+      "Certification audit: 2026-09-30"
+    ]
   },
-   "outcome_tracking": {
-     "6_month_review": "Energy savings at 20%, guest feedback positive",
-     "12_month_review": "Full sustainability metrics evaluation",
-     "actual_roi": "TBD (target 18% above projections)"
-   },
-   "implementation_details": {
-     "team_structure": {
-       "program_manager": "Sustainability Program Manager",
-       "technical_team": ["Energy Systems Specialist", "Waste Management Coordinator", "Green Technology Installer"],
-       "operations_team": ["Property Sustainability Coordinators", "Training Specialists", "Communications Lead"]
-     },
-     "resource_allocation": {
-       "budget_breakdown": {
-         "energy_efficiency_upgrades": "$600,000",
-         "waste_reduction_systems": "$400,000",
-         "water_conservation_technology": "$250,000",
-         "staff_training_program": "$150,000",
-         "certification_and_auditing": "$100,000"
-       },
-       "personnel_resources": "3 FTE for program management, 12 property coordinators"
-     },
-     "risk_mitigation": {
-       "technical_risks": "Pilot testing at 3 properties before full rollout",
-       "operational_risks": "Phased implementation with backup systems",
-       "adoption_risks": "Comprehensive training and incentive programs"
-     },
-     "success_metrics": {
-       "energy_reduction": "Target 30% decrease in energy consumption",
-       "waste_diversion": "Target 25% increase in waste recycling",
-       "water_savings": "Target 20% reduction in water usage",
-       "guest_satisfaction": "Target 4.8/5.0 sustainability rating",
-       "certification_achievement": "Target Green Key or equivalent certification"
-     }
-   },
-   "lessons_learned": "Early stakeholder involvement critical for successful adoption; comprehensive training ensures proper implementation"
- }
+  "outcome_tracking": {
+    "6_month_review": "Energy savings at 20%, guest feedback positive",
+    "12_month_review": "Full sustainability metrics evaluation",
+    "actual_roi": "TBD (target 18% above projections)"
+  },
+  "implementation_details": {
+    "team_structure": {
+      "program_manager": "Sustainability Program Manager",
+      "technical_team": [
+        "Energy Systems Specialist",
+        "Waste Management Coordinator",
+        "Green Technology Installer"
+      ],
+      "operations_team": [
+        "Property Sustainability Coordinators",
+        "Training Specialists",
+        "Communications Lead"
+      ]
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "energy_efficiency_upgrades": "$600,000",
+        "waste_reduction_systems": "$400,000",
+        "water_conservation_technology": "$250,000",
+        "staff_training_program": "$150,000",
+        "certification_and_auditing": "$100,000"
+      },
+      "personnel_resources": "3 FTE for program management, 12 property coordinators"
+    },
+    "risk_mitigation": {
+      "technical_risks": "Pilot testing at 3 properties before full rollout",
+      "operational_risks": "Phased implementation with backup systems",
+      "adoption_risks": "Comprehensive training and incentive programs"
+    },
+    "success_metrics": {
+      "energy_reduction": "Target 30% decrease in energy consumption",
+      "waste_diversion": "Target 25% increase in waste recycling",
+      "water_savings": "Target 20% reduction in water usage",
+      "guest_satisfaction": "Target 4.8/5.0 sustainability rating",
+      "certification_achievement": "Target Green Key or equivalent certification"
+    }
+  },
+  "lessons_learned": "Early stakeholder involvement critical for successful adoption; comprehensive training ensures proper implementation"
+}

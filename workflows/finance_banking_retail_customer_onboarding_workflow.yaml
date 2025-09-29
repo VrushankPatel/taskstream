@@ -1,43 +1,65 @@
 workflow:
-  id: "workflow_finance_banking_retail_customer_onboarding"
-  title: "Retail Banking Customer Onboarding Process"
-  department: "Retail Banking Operations"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Compliance Officer", "Branch Manager"]
-  trigger: "New customer applies for retail banking account"
+  id: workflow_finance_banking_retail_customer_onboarding
+  title: Retail Banking Customer Onboarding Process
+  department: Retail Banking Operations
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Compliance Officer
+  - Branch Manager
+  trigger: New customer applies for retail banking account
   temporal_data:
-    first_implemented: "2020-01-15"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "2-3 business days"
+    first_implemented: '2020-01-15'
+    last_updated: '2024-09-15'
+    typical_cycle_time: 2-3 business days
     average_annual_executions: 25000
-    seasonal_variations: ["Q4 peak during tax season", "Q1 post-holiday account openings"]
-    historical_evolution: "Process digitized in 2022, reducing cycle time by 60% and improving compliance verification"
+    seasonal_variations:
+    - Q4 peak during tax season
+    - Q1 post-holiday account openings
+    historical_evolution: Process digitized in 2022, reducing cycle time by 60% and
+      improving compliance verification
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Collect customer identification and application information"
-      tools: ["Online banking portal", "KYC verification system"]
-      duration: "15 minutes"
-      outputs: ["Completed application form", "Identity verification documents"]
-    - step: 2
-      actor: "Compliance Officer"
-      action: "Perform KYC and AML checks"
-      tools: ["Compliance database", "External verification services"]
-      duration: "2 hours"
-      outputs: ["Compliance approval", "Risk assessment report"]
-    - step: 3
-      actor: "Branch Manager"
-      action: "Review and approve account opening"
-      tools: ["Account management system"]
-      duration: "30 minutes"
-      outputs: ["Account activation", "Welcome package"]
-  success_criteria: "Account opened within 3 business days with 100% compliance verification"
-  failure_modes: ["Incomplete documentation", "Failed compliance checks", "System technical issues"]
+  - step: 1
+    actor: Customer Service Representative
+    action: Collect customer identification and application information
+    tools:
+    - Online banking portal
+    - KYC verification system
+    duration: 15 minutes
+    outputs:
+    - Completed application form
+    - Identity verification documents
+  - step: 2
+    actor: Compliance Officer
+    action: Perform KYC and AML checks
+    tools:
+    - Compliance database
+    - External verification services
+    duration: 2 hours
+    outputs:
+    - Compliance approval
+    - Risk assessment report
+  - step: 3
+    actor: Branch Manager
+    action: Review and approve account opening
+    tools:
+    - Account management system
+    duration: 30 minutes
+    outputs:
+    - Account activation
+    - Welcome package
+  success_criteria: Account opened within 3 business days with 100% compliance verification
+  failure_modes:
+  - Incomplete documentation
+  - Failed compliance checks
+  - System technical issues
   metrics:
-    - "On-time completion rate: 95%"
-    - "Compliance pass rate: 98%"
-    - "Customer satisfaction score: 4.2/5"
+  - 'On-time completion rate: 95%'
+  - 'Compliance pass rate: 98%'
+  - 'Customer satisfaction score: 4.2/5'
   performance_history:
-    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
-    cost_trend: "$45 (2023) → $38 (2024) → $32 (2025)"
-    efficiency_improvements: ["Digital onboarding reduced processing time by 40%", "Automated KYC checks improved accuracy by 25%"]
+    success_rate_trend: 92% (2023) → 95% (2024) → 97% (2025)
+    cost_trend: $45 (2023) → $38 (2024) → $32 (2025)
+    efficiency_improvements:
+    - Digital onboarding reduced processing time by 40%
+    - Automated KYC checks improved accuracy by 25%

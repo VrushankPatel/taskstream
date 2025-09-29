@@ -7,12 +7,15 @@ workflow:
   - Cleaning Crew
   - Maintenance Inspector
   temporal_data:
-    first_implemented: "1950-01-01"
-    last_updated: "2023-12-01"
-    typical_cycle_time: "After each flight"
+    first_implemented: '1950-01-01'
+    last_updated: '2023-12-01'
+    typical_cycle_time: After each flight
     average_annual_executions: 10000
-    seasonal_variations: ["Increased cleaning during holiday travel peaks", "Weather-dependent exterior cleaning"]
-    historical_evolution: "Manual cleaning evolved to specialized equipment and environmentally friendly products"
+    seasonal_variations:
+    - Increased cleaning during holiday travel peaks
+    - Weather-dependent exterior cleaning
+    historical_evolution: Manual cleaning evolved to specialized equipment and environmentally
+      friendly products
   trigger: Aircraft landing and turnaround
   steps:
   - step: 1

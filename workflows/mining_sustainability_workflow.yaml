@@ -1,61 +1,116 @@
 workflow:
-  id: "workflow_mining_sustainability"
-  title: "Mining Sustainability Implementation Workflow"
-  department: "Mining Operations"
-  complexity: "medium"
-  participants: ["Sustainability Manager", "Mining Engineer", "Environmental Compliance Officer", "Community Liaison"]
-  trigger: "Regulatory requirements for sustainable mining practices and environmental impact reduction"
+  id: workflow_mining_sustainability
+  title: Mining Sustainability Implementation Workflow
+  department: Mining Operations
+  complexity: medium
+  participants:
+  - Sustainability Manager
+  - Mining Engineer
+  - Environmental Compliance Officer
+  - Community Liaison
+  trigger: Regulatory requirements for sustainable mining practices and environmental
+    impact reduction
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "6 months"
+    first_implemented: '2023-06-01'
+    last_updated: '2024-09-15'
+    typical_cycle_time: 6 months
     average_annual_executions: 12
-    seasonal_variations: ["Q2 environmental assessment peak", "Q4 reporting compliance focus"]
-    historical_evolution: "Shifted from reactive compliance to proactive sustainability initiatives in 2023"
+    seasonal_variations:
+    - Q2 environmental assessment peak
+    - Q4 reporting compliance focus
+    historical_evolution: Shifted from reactive compliance to proactive sustainability
+      initiatives in 2023
   steps:
-     - step: 1
-       actor: "Sustainability Manager"
-       action: "Conduct environmental impact assessment and baseline sustainability audit"
-       decision_points: ["Scope of environmental assessment (site-wide vs targeted)", "Baseline metrics selection", "Assessment methodology and tools"]
-       tools: ["Environmental monitoring software", "Sustainability assessment frameworks", "Drone surveying equipment"]
-       duration: "8 weeks"
-       outputs: ["Environmental impact report", "Sustainability baseline metrics"]
-     - step: 2
-       actor: "Mining Engineer"
-       action: "Design and plan sustainable mining technologies and processes"
-       decision_points: ["Technology selection criteria", "Implementation timeline vs budget trade-offs", "Process optimization priorities"]
-       tools: ["Mining simulation software", "Green technology databases", "Cost-benefit analysis tools"]
-       duration: "10 weeks"
-       outputs: ["Technology implementation plan", "Process optimization roadmap"]
-     - step: 3
-       actor: "Environmental Compliance Officer"
-       action: "Develop monitoring systems and compliance reporting frameworks"
-       decision_points: ["Monitoring frequency and parameters", "Reporting format and frequency", "Compliance threshold definitions"]
-       tools: ["Environmental monitoring sensors", "Compliance tracking software", "Regulatory databases"]
-       duration: "6 weeks"
-       outputs: ["Monitoring infrastructure setup", "Compliance reporting templates"]
-     - step: 4
-       actor: "Community Liaison"
-       action: "Engage stakeholders and implement community impact mitigation strategies"
-       decision_points: ["Stakeholder identification and prioritization", "Engagement methods and frequency", "Mitigation strategy effectiveness measures"]
-       tools: ["Stakeholder engagement platforms", "Community consultation tools", "Impact assessment surveys"]
-       duration: "8 weeks"
-       outputs: ["Stakeholder engagement plan", "Community mitigation agreements"]
-     - step: 5
-       actor: "Sustainability Manager"
-       action: "Monitor implementation progress and adapt strategies based on performance data"
-       decision_points: ["Performance threshold adjustments", "Strategy adaptation triggers", "Resource reallocation needs"]
-       tools: ["Performance dashboards", "Adaptive management frameworks", "Sustainability KPIs tracking"]
-       duration: "Ongoing"
-       outputs: ["Progress reports", "Strategy refinement recommendations"]
-  success_criteria: "Achieve 25% reduction in environmental impact metrics while maintaining operational efficiency"
-  failure_modes: ["Insufficient stakeholder buy-in", "Technology integration challenges", "Regulatory non-compliance"]
+  - step: 1
+    actor: Sustainability Manager
+    action: Conduct environmental impact assessment and baseline sustainability audit
+    decision_points:
+    - Scope of environmental assessment (site-wide vs targeted)
+    - Baseline metrics selection
+    - Assessment methodology and tools
+    tools:
+    - Environmental monitoring software
+    - Sustainability assessment frameworks
+    - Drone surveying equipment
+    duration: 8 weeks
+    outputs:
+    - Environmental impact report
+    - Sustainability baseline metrics
+  - step: 2
+    actor: Mining Engineer
+    action: Design and plan sustainable mining technologies and processes
+    decision_points:
+    - Technology selection criteria
+    - Implementation timeline vs budget trade-offs
+    - Process optimization priorities
+    tools:
+    - Mining simulation software
+    - Green technology databases
+    - Cost-benefit analysis tools
+    duration: 10 weeks
+    outputs:
+    - Technology implementation plan
+    - Process optimization roadmap
+  - step: 3
+    actor: Environmental Compliance Officer
+    action: Develop monitoring systems and compliance reporting frameworks
+    decision_points:
+    - Monitoring frequency and parameters
+    - Reporting format and frequency
+    - Compliance threshold definitions
+    tools:
+    - Environmental monitoring sensors
+    - Compliance tracking software
+    - Regulatory databases
+    duration: 6 weeks
+    outputs:
+    - Monitoring infrastructure setup
+    - Compliance reporting templates
+  - step: 4
+    actor: Community Liaison
+    action: Engage stakeholders and implement community impact mitigation strategies
+    decision_points:
+    - Stakeholder identification and prioritization
+    - Engagement methods and frequency
+    - Mitigation strategy effectiveness measures
+    tools:
+    - Stakeholder engagement platforms
+    - Community consultation tools
+    - Impact assessment surveys
+    duration: 8 weeks
+    outputs:
+    - Stakeholder engagement plan
+    - Community mitigation agreements
+  - step: 5
+    actor: Sustainability Manager
+    action: Monitor implementation progress and adapt strategies based on performance
+      data
+    decision_points:
+    - Performance threshold adjustments
+    - Strategy adaptation triggers
+    - Resource reallocation needs
+    tools:
+    - Performance dashboards
+    - Adaptive management frameworks
+    - Sustainability KPIs tracking
+    duration: Ongoing
+    outputs:
+    - Progress reports
+    - Strategy refinement recommendations
+  success_criteria: Achieve 25% reduction in environmental impact metrics while maintaining
+    operational efficiency
+  failure_modes:
+  - Insufficient stakeholder buy-in
+  - Technology integration challenges
+  - Regulatory non-compliance
   metrics:
-    - "Environmental impact reduction: 25% decrease in carbon emissions and water usage"
-    - "Compliance rate: 100% adherence to environmental regulations"
-    - "Cost efficiency: 15% reduction in operational costs through sustainable practices"
-    - "Stakeholder satisfaction: 80% positive community feedback"
+  - 'Environmental impact reduction: 25% decrease in carbon emissions and water usage'
+  - 'Compliance rate: 100% adherence to environmental regulations'
+  - 'Cost efficiency: 15% reduction in operational costs through sustainable practices'
+  - 'Stakeholder satisfaction: 80% positive community feedback'
   performance_history:
-    success_rate_trend: "85% (2023) → 90% (2024) → 92% (2025)"
-    cost_trend: "$500K (2023) → $450K (2024) → $400K (2025)"
-    efficiency_improvements: ["Digital monitoring reduced assessment time by 30%", "Automated reporting improved compliance accuracy by 20%"]
+    success_rate_trend: 85% (2023) → 90% (2024) → 92% (2025)
+    cost_trend: $500K (2023) → $450K (2024) → $400K (2025)
+    efficiency_improvements:
+    - Digital monitoring reduced assessment time by 30%
+    - Automated reporting improved compliance accuracy by 20%

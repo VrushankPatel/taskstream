@@ -1,61 +1,111 @@
 workflow:
-  id: "workflow_insurance_parametric_underwriting"
-  title: "Insurance Parametric Underwriting Process"
-  department: "Underwriting"
-  complexity: "complex"
-  participants: ["Underwriter", "Risk Analyst", "Data Scientist", "Compliance Officer", "Actuarial Lead", "Product Manager"]
-  trigger: "Parametric product application received or renewal due"
+  id: workflow_insurance_parametric_underwriting
+  title: Insurance Parametric Underwriting Process
+  department: Underwriting
+  complexity: complex
+  participants:
+  - Underwriter
+  - Risk Analyst
+  - Data Scientist
+  - Compliance Officer
+  - Actuarial Lead
+  - Product Manager
+  trigger: Parametric product application received or renewal due
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2025-09-25"
-    typical_cycle_time: "5-7 days"
+    first_implemented: '2023-06-01'
+    last_updated: '2025-09-25'
+    typical_cycle_time: 5-7 days
     average_annual_executions: 1200
-    seasonal_variations: ["Q4 renewal peak (35% increase)", "Q2 slow period (20% decrease)"]
-    historical_evolution: "Manual underwriting in 2023, introduced parametric automation in 2024, added real-time data feeds in 2025"
+    seasonal_variations:
+    - Q4 renewal peak (35% increase)
+    - Q2 slow period (20% decrease)
+    historical_evolution: Manual underwriting in 2023, introduced parametric automation
+      in 2024, added real-time data feeds in 2025
   steps:
-    - step: 1
-      actor: "Underwriter"
-      action: "Review application and verify parametric trigger data sources"
-      tools: ["Underwriting platform", "Data verification tools", "External APIs"]
-      duration: "2 hours"
-      outputs: ["Data verification report", "Initial risk assessment"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Analyze historical trigger data and correlation analysis"
-      tools: ["Statistical modeling software", "Historical databases", "Correlation analysis tools"]
-      duration: "4 hours"
-      outputs: ["Risk correlation report", "Trigger probability analysis"]
-    - step: 3
-      actor: "Data Scientist"
-      action: "Validate parametric models and run stress testing"
-      tools: ["Machine learning platforms", "Simulation software", "Backtesting frameworks"]
-      duration: "6 hours"
-      outputs: ["Model validation report", "Stress test results", "Confidence intervals"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Ensure regulatory compliance and data privacy requirements"
-      tools: ["Compliance database", "GDPR tools", "Regulatory filing system"]
-      duration: "3 hours"
-      outputs: ["Compliance checklist", "Regulatory approval documentation"]
-    - step: 5
-      actor: "Actuarial Lead"
-      action: "Review pricing adequacy and capital requirements"
-      tools: ["Actuarial modeling software", "Capital adequacy tools", "Pricing optimization"]
-      duration: "4 hours"
-      outputs: ["Pricing approval", "Capital allocation report", "Reserve requirements"]
-    - step: 6
-      actor: "Product Manager"
-      action: "Finalize terms and communicate decision to applicant"
-      tools: ["Product management platform", "Contract generation system", "Customer communication tools"]
-      duration: "2 hours"
-      outputs: ["Policy issuance", "Customer notification", "Underwriting decision record"]
-  success_criteria: "100% regulatory compliance, <5% claims leakage, customer decision within 7 days"
-  failure_modes: ["Data source failures", "Model inaccuracies", "Regulatory non-compliance", "Manual override errors"]
+  - step: 1
+    actor: Underwriter
+    action: Review application and verify parametric trigger data sources
+    tools:
+    - Underwriting platform
+    - Data verification tools
+    - External APIs
+    duration: 2 hours
+    outputs:
+    - Data verification report
+    - Initial risk assessment
+  - step: 2
+    actor: Risk Analyst
+    action: Analyze historical trigger data and correlation analysis
+    tools:
+    - Statistical modeling software
+    - Historical databases
+    - Correlation analysis tools
+    duration: 4 hours
+    outputs:
+    - Risk correlation report
+    - Trigger probability analysis
+  - step: 3
+    actor: Data Scientist
+    action: Validate parametric models and run stress testing
+    tools:
+    - Machine learning platforms
+    - Simulation software
+    - Backtesting frameworks
+    duration: 6 hours
+    outputs:
+    - Model validation report
+    - Stress test results
+    - Confidence intervals
+  - step: 4
+    actor: Compliance Officer
+    action: Ensure regulatory compliance and data privacy requirements
+    tools:
+    - Compliance database
+    - GDPR tools
+    - Regulatory filing system
+    duration: 3 hours
+    outputs:
+    - Compliance checklist
+    - Regulatory approval documentation
+  - step: 5
+    actor: Actuarial Lead
+    action: Review pricing adequacy and capital requirements
+    tools:
+    - Actuarial modeling software
+    - Capital adequacy tools
+    - Pricing optimization
+    duration: 4 hours
+    outputs:
+    - Pricing approval
+    - Capital allocation report
+    - Reserve requirements
+  - step: 6
+    actor: Product Manager
+    action: Finalize terms and communicate decision to applicant
+    tools:
+    - Product management platform
+    - Contract generation system
+    - Customer communication tools
+    duration: 2 hours
+    outputs:
+    - Policy issuance
+    - Customer notification
+    - Underwriting decision record
+  success_criteria: 100% regulatory compliance, <5% claims leakage, customer decision
+    within 7 days
+  failure_modes:
+  - Data source failures
+  - Model inaccuracies
+  - Regulatory non-compliance
+  - Manual override errors
   metrics:
-    - "Approval Rate: 85% target"
-    - "Processing Time: <7 days"
-    - "Claims Accuracy: >95%"
+  - 'Approval Rate: 85% target'
+  - 'Processing Time: <7 days'
+  - 'Claims Accuracy: >95%'
   performance_history:
-    success_rate_trend: "78% (2023) → 85% (2024) → 91% (2025)"
-    cost_trend: "$120,000 (2023) → $95,000 (2024) → $78,000 (2025)"
-    efficiency_improvements: ["Automation reduced processing time by 60%", "AI validation improved accuracy by 25%", "Real-time data integration reduced manual reviews by 40%"]
+    success_rate_trend: 78% (2023) → 85% (2024) → 91% (2025)
+    cost_trend: $120,000 (2023) → $95,000 (2024) → $78,000 (2025)
+    efficiency_improvements:
+    - Automation reduced processing time by 60%
+    - AI validation improved accuracy by 25%
+    - Real-time data integration reduced manual reviews by 40%

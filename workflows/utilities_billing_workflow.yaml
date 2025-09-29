@@ -7,12 +7,15 @@ workflow:
   - Billing Specialist
   - Customer Service Rep
   temporal_data:
-    first_implemented: "1980-01-01"
-    last_updated: "2023-07-20"
-    typical_cycle_time: "Monthly"
+    first_implemented: '1980-01-01'
+    last_updated: '2023-07-20'
+    typical_cycle_time: Monthly
     average_annual_executions: 12000
-    seasonal_variations: ["Higher usage in winter for heating", "Summer peaks for air conditioning"]
-    historical_evolution: "Manual meter reading evolved to smart meters with automated billing"
+    seasonal_variations:
+    - Higher usage in winter for heating
+    - Summer peaks for air conditioning
+    historical_evolution: Manual meter reading evolved to smart meters with automated
+      billing
   trigger: Monthly billing cycle
   steps:
   - step: 1

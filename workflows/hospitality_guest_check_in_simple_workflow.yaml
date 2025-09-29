@@ -8,12 +8,15 @@ workflow:
   - Guest
   trigger: Guest arrives at hotel reception
   temporal_data:
-    first_implemented: "2018-03-15"
-    last_updated: "2024-08-01"
-    typical_cycle_time: "10 minutes"
+    first_implemented: '2018-03-15'
+    last_updated: '2024-08-01'
+    typical_cycle_time: 10 minutes
     average_annual_executions: 45000
-    seasonal_variations: ["Summer peak season (25% increase)", "Holiday periods (20% increase)"]
-    historical_evolution: "Manual check-in evolved to digital tablets in 2020, mobile app integration added in 2023"
+    seasonal_variations:
+    - Summer peak season (25% increase)
+    - Holiday periods (20% increase)
+    historical_evolution: Manual check-in evolved to digital tablets in 2020, mobile
+      app integration added in 2023
   steps:
   - step: 1
     actor: Front Desk Agent
@@ -49,10 +52,13 @@ workflow:
   - Invalid reservation
   - Payment issues
   metrics:
-   - 'Average check-in time: Target <10 minutes'
-   - 'First-time guest satisfaction: Target >90%'
-   - 'System uptime: Target >99.9%'
+  - 'Average check-in time: Target <10 minutes'
+  - 'First-time guest satisfaction: Target >90%'
+  - 'System uptime: Target >99.9%'
   performance_history:
-    success_rate_trend: "85% (2023) → 88% (2024) → 90% (2025)"
-    cost_trend: "$0.75 per check-in (2023) → $0.65 (2024) → $0.60 (2025)"
-    efficiency_improvements: ["Digital check-in reduced processing time by 40%", "Mobile app integration improved guest satisfaction by 15%", "Automated verification decreased errors by 25%"]
+    success_rate_trend: 85% (2023) → 88% (2024) → 90% (2025)
+    cost_trend: $0.75 per check-in (2023) → $0.65 (2024) → $0.60 (2025)
+    efficiency_improvements:
+    - Digital check-in reduced processing time by 40%
+    - Mobile app integration improved guest satisfaction by 15%
+    - Automated verification decreased errors by 25%

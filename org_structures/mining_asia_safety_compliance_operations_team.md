@@ -2,12 +2,12 @@
 
 ## Organization Overview
 
-**Team Name:** Asia-Pacific Mining Safety & Compliance Operations  
-**Organization:** AsiaMineral Corporation  
-**Headquarters:** Perth, Australia  
-**Regional Operations:** Australia, Indonesia, Philippines, Papua New Guinea  
-**Team Size:** 167 Full-Time Employees (FTE)  
-**Established:** January 2018  
+**Team Name:** Asia-Pacific Mining Safety & Compliance Operations
+**Organization:** AsiaMineral Corporation
+**Headquarters:** Perth, Australia
+**Regional Operations:** Australia, Indonesia, Philippines, Papua New Guinea
+**Team Size:** 167 Full-Time Employees (FTE)
+**Established:** January 2018
 **Last Restructured:** August 2024
 
 ---

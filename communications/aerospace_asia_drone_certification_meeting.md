@@ -2,9 +2,9 @@
 
 ## Meeting: Asia-Pacific Commercial Drone Certification Working Group
 
-**Date:** 2024-11-20 14:00-17:00 SGT  
-**Location:** Singapore Aviation Academy (Hybrid)  
-**Chair:** Dr. Kevin Liu, Director of Unmanned Systems, Singapore CAAS  
+**Date:** 2024-11-20 14:00-17:00 SGT
+**Location:** Singapore Aviation Academy (Hybrid)
+**Chair:** Dr. Kevin Liu, Director of Unmanned Systems, Singapore CAAS
 **Participants:** 28 attendees from 8 Asia-Pacific countries
 
 ---
@@ -13,7 +13,7 @@
 
 **Regulatory Bodies:**
 - Singapore CAAS: Dr. Kevin Liu (Chair), Sarah Tan
-- Japan JCAB: Hiroshi Tanaka, Yuki Sato  
+- Japan JCAB: Hiroshi Tanaka, Yuki Sato
 - Australia CASA: Michael O'Brien, Jennifer Walsh
 - South Korea MOLIT: Dr. Park Min-ho, Lee Jung-hee
 - Thailand DCA: Somchai Prasert, Niran Wongsiri
@@ -50,7 +50,7 @@
 
 **Current Status:**
 - ✅ Singapore, Thailand, Malaysia: MOU ratified
-- ⚠️ Philippines, Indonesia: Parliamentary review ongoing  
+- ⚠️ Philippines, Indonesia: Parliamentary review ongoing
 - 🔄 Japan, South Korea: Bilateral discussions progressing
 - ❌ Australia: Still evaluating framework compatibility
 
@@ -71,7 +71,7 @@
 
 **Technical Requirements Consensus:**
 - Detect and avoid systems: Minimum 2km detection range
-- Command and control: Redundant communication links required  
+- Command and control: Redundant communication links required
 - Emergency procedures: Automated return-to-home capability
 - Pilot training: Minimum 100 hours BVLOS simulation
 - Insurance: $5M liability coverage minimum
@@ -97,7 +97,7 @@
 
 **UAM Certification Framework Proposals:**
 1. **Phase 1 (2025):** Cargo delivery in designated corridors
-2. **Phase 2 (2026):** Passenger services on fixed routes  
+2. **Phase 2 (2026):** Passenger services on fixed routes
 3. **Phase 3 (2027+):** On-demand urban air taxi services
 
 **Carlos Santos (Philippines CAAP):** Philippines interested in UAM for island connectivity. We propose expanding framework to include inter-island passenger services, not just urban environments.
@@ -178,13 +178,13 @@
 
 ## Next Meeting
 
-**Date:** February 19, 2025, 14:00-17:00 SGT  
-**Location:** Bangkok, Thailand (Thailand DCA hosting)  
+**Date:** February 19, 2025, 14:00-17:00 SGT
+**Location:** Bangkok, Thailand (Thailand DCA hosting)
 **Focus:** Technical standards finalization and pilot program launch
 
 ---
 
 **Meeting Adjourned:** 17:00 SGT
 
-**Minutes Prepared By:** Sarah Tan, Singapore CAAS  
+**Minutes Prepared By:** Sarah Tan, Singapore CAAS
 **Distribution:** All attendees, ICAO APAC Regional Office, Industry associations

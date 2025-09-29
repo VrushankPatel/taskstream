@@ -1,9 +1,9 @@
 # Hospitality Asia Guest Experience Performance Dashboard
 
 ## Executive Summary
-**Organization:** Asia Pacific Hotel Group (45 properties, 12,000 rooms, $280M annual revenue)  
-**Report Period:** Q3 2025 (July 1 - September 30, 2025)  
-**Last Updated:** 2025-10-05  
+**Organization:** Asia Pacific Hotel Group (45 properties, 12,000 rooms, $280M annual revenue)
+**Report Period:** Q3 2025 (July 1 - September 30, 2025)
+**Last Updated:** 2025-10-05
 **Data Source:** Guest feedback systems, review platforms, service quality monitoring
 
 ## Key Performance Indicators

@@ -78,12 +78,24 @@
       "Technology integration issues"
     ]
   },
-   "decision_criteria": ["Market opportunity", "Farmer benefits", "Regulatory compliance", "Financial viability", "Technical feasibility", "Scalability potential"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Farmer benefits",
+    "Regulatory compliance",
+    "Financial viability",
+    "Technical feasibility",
+    "Scalability potential"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-11-01",
     "completion_date": "2027-04-30",
-    "milestones": ["Platform development: 2026-06-30", "Pilot testing: 2026-10-31", "Full launch: 2027-01-31", "Scale-up: 2027-04-30"]
+    "milestones": [
+      "Platform development: 2026-06-30",
+      "Pilot testing: 2026-10-31",
+      "Full launch: 2027-01-31",
+      "Scale-up: 2027-04-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Platform adoption metrics and initial trading volume",

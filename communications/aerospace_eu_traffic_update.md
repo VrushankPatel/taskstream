@@ -1,8 +1,8 @@
 ## Email Thread: EU Space Traffic Management Update
 
-**From:** European Space Operations Center Director  
-**To:** Aerospace CEOs, National Space Agencies, ESA Partners  
-**Subject:** Critical Update: EU Space Traffic Management Regulation Implementation  
+**From:** European Space Operations Center Director
+**To:** Aerospace CEOs, National Space Agencies, ESA Partners
+**Subject:** Critical Update: EU Space Traffic Management Regulation Implementation
 
 Dear Colleagues,
 
@@ -28,14 +28,14 @@ We have scheduled a virtual briefing session for February 15th at 14:00 CET to d
 
 Please confirm attendance and let us know if you need technical assistance with compliance.
 
-Best regards,  
+Best regards,
 Director European Space Operations Center
 
 ---
 
-**From:** Commercial Space Operator CEO  
-**To:** European Space Operations Center Director, Aerospace CEOs  
-**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation  
+**From:** Commercial Space Operator CEO
+**To:** European Space Operations Center Director, Aerospace CEOs
+**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation
 
 Thank you for the clear update. We appreciate the phased implementation approach.
 
@@ -46,14 +46,14 @@ Thank you for the clear update. We appreciate the phased implementation approach
 
 We plan to attend the briefing and would like to present our implementation challenges.
 
-Best regards,  
+Best regards,
 CEO Commercial Space Operator
 
 ---
 
-**From:** National Space Agency Director  
-**To:** European Space Operations Center Director, All Recipients  
-**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation  
+**From:** National Space Agency Director
+**To:** European Space Operations Center Director, All Recipients
+**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation
 
 We support this important regulation for space safety. Our agency will provide technical assistance to smaller operators during implementation.
 
@@ -64,14 +64,14 @@ We support this important regulation for space safety. Our agency will provide t
 
 We look forward to the briefing.
 
-Best regards,  
+Best regards,
 Director National Space Agency
 
 ---
 
-**From:** European Space Operations Center Director  
-**To:** All Recipients  
-**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation  
+**From:** European Space Operations Center Director
+**To:** All Recipients
+**Subject:** Re: Critical Update: EU Space Traffic Management Regulation Implementation
 
 Thank you for the feedback and support.
 
@@ -87,5 +87,5 @@ Thank you for the feedback and support.
 
 The briefing agenda has been updated to include a Q&A session and technical working groups.
 
-Best regards,  
+Best regards,
 Director European Space Operations Center

@@ -46,5 +46,5 @@ I'm pleased to announce the launch of our comprehensive cyber insurance product 
 
 This launch positions our company as a leader in cyber risk management. Your expertise and commitment will drive our success in this growing market.
 
-Best regards,  
+Best regards,
 Chief Product Officer

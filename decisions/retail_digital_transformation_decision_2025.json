@@ -4,8 +4,17 @@
   "context": "Mid-sized retail chain with 150 stores facing declining foot traffic and increasing online competition, evaluating comprehensive digital transformation investment",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Chief Marketing Officer", "Chief Operations Officer", "IT Director", "Store Managers"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Marketing Officer",
+      "Chief Operations Officer",
+      "IT Director",
+      "Store Managers"
+    ]
   },
   "request": {
     "amount": "$12,500,000",
@@ -19,7 +28,12 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-15",
       "duration": "15 days",
-      "activities": ["Market analysis", "Technology vendor evaluation", "ROI modeling", "Risk assessment"],
+      "activities": [
+        "Market analysis",
+        "Technology vendor evaluation",
+        "ROI modeling",
+        "Risk assessment"
+      ],
       "outcome": "Advanced to detailed planning phase"
     },
     {
@@ -27,7 +41,12 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-30",
       "duration": "46 days",
-      "activities": ["Detailed requirements gathering", "Vendor negotiations", "Implementation timeline development", "Change management planning"],
+      "activities": [
+        "Detailed requirements gathering",
+        "Vendor negotiations",
+        "Implementation timeline development",
+        "Change management planning"
+      ],
       "outcome": "Final proposal prepared for executive approval"
     },
     {
@@ -35,7 +54,12 @@
       "start_date": "2025-09-01",
       "end_date": "2025-09-15",
       "duration": "15 days",
-      "activities": ["Executive presentations", "Board discussions", "Final negotiations", "Contract finalization"],
+      "activities": [
+        "Executive presentations",
+        "Board discussions",
+        "Final negotiations",
+        "Contract finalization"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
@@ -44,14 +68,30 @@
     "projected_value": "$18,750,000 annual benefit",
     "actual_value": "$15,000,000 realized in Year 1 (projected)",
     "roi_timeline": "Expected payback in 20 months",
-    "risk_factors": ["Implementation delays", "Employee resistance to change", "Technology integration challenges", "Vendor performance issues"]
+    "risk_factors": [
+      "Implementation delays",
+      "Employee resistance to change",
+      "Technology integration challenges",
+      "Vendor performance issues"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with omnichannel vision", "Financial ROI exceeding 150%", "Technical feasibility within 18 months", "Change management readiness", "Vendor stability and support"],
+  "decision_criteria": [
+    "Strategic alignment with omnichannel vision",
+    "Financial ROI exceeding 150%",
+    "Technical feasibility within 18 months",
+    "Change management readiness",
+    "Vendor stability and support"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2026-12-31",
-    "milestones": ["Phase 1: Omnichannel platform (Q4 2025)", "Phase 2: AI inventory (Q2 2026)", "Phase 3: Personalization (Q4 2026)", "Go-live and optimization (Q1 2027)"]
+    "milestones": [
+      "Phase 1: Omnichannel platform (Q4 2025)",
+      "Phase 2: AI inventory (Q2 2026)",
+      "Phase 3: Personalization (Q4 2026)",
+      "Go-live and optimization (Q1 2027)"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Platform implementation on track, initial user training completed, early metrics show 15% online growth",

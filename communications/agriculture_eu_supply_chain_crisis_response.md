@@ -10,9 +10,9 @@
 
 ### Initial Alert Email
 
-**From:** Marcus Weber, Supply Chain Director  
-**To:** Crisis Response Team  
-**Date:** 2024-11-18 08:30  
+**From:** Marcus Weber, Supply Chain Director
+**To:** Crisis Response Team
+**Date:** 2024-11-18 08:30
 **Subject:** URGENT - EU Fertilizer Supply Chain Disruption - Immediate Action Required
 
 Team,
@@ -40,9 +40,9 @@ Marcus
 
 ### Procurement Update
 
-**From:** Elena Kowalski, Procurement Lead  
-**To:** Crisis Response Team  
-**Date:** 2024-11-18 11:45  
+**From:** Elena Kowalski, Procurement Lead
+**To:** Crisis Response Team
+**Date:** 2024-11-18 11:45
 **Subject:** RE: Fertilizer Crisis - Procurement Options Identified
 
 Team,
@@ -79,9 +79,9 @@ Elena
 
 ### Customer Relations Strategy
 
-**From:** Jacques Dubois, Customer Relations Director  
-**To:** Crisis Response Team  
-**Date:** 2024-11-18 13:20  
+**From:** Jacques Dubois, Customer Relations Director
+**To:** Crisis Response Team
+**Date:** 2024-11-18 13:20
 **Subject:** Customer Communication Strategy - Fertilizer Shortage
 
 Colleagues,
@@ -90,7 +90,7 @@ Colleagues,
 
 **Key Messages:**
 1. Transparency about supply situation
-2. Commitment to fair allocation system  
+2. Commitment to fair allocation system
 3. Alternative product recommendations
 4. Long-term supply security measures
 
@@ -102,7 +102,7 @@ Colleagues,
 
 **Allocation Criteria:**
 1. Existing contract commitments (60% weight)
-2. Customer loyalty score (25% weight)  
+2. Customer loyalty score (25% weight)
 3. Critical crop types (10% weight)
 4. Payment history (5% weight)
 
@@ -123,9 +123,9 @@ Jacques
 
 ### Regulatory Compliance Update
 
-**From:** Dr. Sofia Andersson, Regulatory Affairs  
-**To:** Crisis Response Team  
-**Date:** 2024-11-18 15:45  
+**From:** Dr. Sofia Andersson, Regulatory Affairs
+**To:** Crisis Response Team
+**Date:** 2024-11-18 15:45
 **Subject:** EU Regulatory Obligations - Fertilizer Supply Crisis
 
 Team,
@@ -167,9 +167,9 @@ Dr. Andersson
 
 ### Board Resolution Email
 
-**From:** Hans Mueller, CEO  
-**To:** Board of Directors, Executive Team  
-**Date:** 2024-11-18 18:30  
+**From:** Hans Mueller, CEO
+**To:** Board of Directors, Executive Team
+**Date:** 2024-11-18 18:30
 **Subject:** Board Resolution - Fertilizer Crisis Response Approved
 
 Board Members,
@@ -213,9 +213,9 @@ Hans
 
 ### Follow-up Status Report
 
-**From:** Marcus Weber, Supply Chain Director  
-**To:** All Stakeholders  
-**Date:** 2024-11-20 16:00  
+**From:** Marcus Weber, Supply Chain Director
+**To:** All Stakeholders
+**Date:** 2024-11-20 16:00
 **Subject:** Crisis Response Status - 48 Hour Update
 
 All,
@@ -224,7 +224,7 @@ All,
 
 **PROCUREMENT SUCCESS:**
 ✅ Norwegian supplier contract signed - 200,000 tonnes secured
-✅ Ukrainian cooperative agreement finalized - 180,000 tonnes confirmed  
+✅ Ukrainian cooperative agreement finalized - 180,000 tonnes confirmed
 ✅ Quality certifications approved for both sources
 ⚠️ Still negotiating Moroccan phosphate terms - 150,000 tonnes potential
 

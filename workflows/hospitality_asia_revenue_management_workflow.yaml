@@ -1,49 +1,79 @@
 workflow:
-  id: "workflow_hospitality_asia_revenue_management"
-  title: "Asia Hospitality Revenue Management Optimization Process"
-  department: "Revenue Management"
-  complexity: "medium"
-  participants: ["Revenue Manager", "Operations Director", "Marketing Manager", "Finance Controller"]
-  trigger: "Monthly revenue performance review or market demand changes"
+  id: workflow_hospitality_asia_revenue_management
+  title: Asia Hospitality Revenue Management Optimization Process
+  department: Revenue Management
+  complexity: medium
+  participants:
+  - Revenue Manager
+  - Operations Director
+  - Marketing Manager
+  - Finance Controller
+  trigger: Monthly revenue performance review or market demand changes
   temporal_data:
-    first_implemented: "2022-06-01"
-    last_updated: "2025-09-20"
-    typical_cycle_time: "1-2 weeks"
+    first_implemented: '2022-06-01'
+    last_updated: '2025-09-20'
+    typical_cycle_time: 1-2 weeks
     average_annual_executions: 120
-    seasonal_variations: ["Q1 low season adjustments", "Q3/Q4 peak season optimization"]
-    historical_evolution: "Transitioned from manual pricing to AI-driven dynamic pricing system in 2024"
+    seasonal_variations:
+    - Q1 low season adjustments
+    - Q3/Q4 peak season optimization
+    historical_evolution: Transitioned from manual pricing to AI-driven dynamic pricing
+      system in 2024
   steps:
-    - step: 1
-      actor: "Revenue Manager"
-      action: "Analyze current market demand and competitor pricing"
-      tools: ["Revenue management system", "Market intelligence tools"]
-      duration: "3 days"
-      outputs: ["Demand analysis report", "Pricing recommendations"]
-    - step: 2
-      actor: "Operations Director"
-      action: "Review operational constraints and capacity availability"
-      decision_points: ["Room availability", "Staffing levels", "Maintenance schedules"]
-      duration: "2 days"
-      outputs: ["Capacity assessment", "Operational constraints"]
-    - step: 3
-      actor: "Marketing Manager"
-      action: "Develop promotional strategies and channel optimization"
-      tools: ["Marketing analytics", "Channel management platform"]
-      duration: "4 days"
-      outputs: ["Promotion plan", "Channel strategy"]
-    - step: 4
-      actor: "Finance Controller"
-      action: "Validate pricing strategy against budget and profitability targets"
-      tools: ["Financial modeling software", "Budget tracking system"]
-      duration: "3 days"
-      outputs: ["Financial approval", "Implementation budget"]
-  success_criteria: "Revenue increase of 8-12% above budget, occupancy rate maintained above 85%"
-  failure_modes: ["Overpricing leading to low occupancy", "Underpricing reducing margins", "Poor market timing"]
+  - step: 1
+    actor: Revenue Manager
+    action: Analyze current market demand and competitor pricing
+    tools:
+    - Revenue management system
+    - Market intelligence tools
+    duration: 3 days
+    outputs:
+    - Demand analysis report
+    - Pricing recommendations
+  - step: 2
+    actor: Operations Director
+    action: Review operational constraints and capacity availability
+    decision_points:
+    - Room availability
+    - Staffing levels
+    - Maintenance schedules
+    duration: 2 days
+    outputs:
+    - Capacity assessment
+    - Operational constraints
+  - step: 3
+    actor: Marketing Manager
+    action: Develop promotional strategies and channel optimization
+    tools:
+    - Marketing analytics
+    - Channel management platform
+    duration: 4 days
+    outputs:
+    - Promotion plan
+    - Channel strategy
+  - step: 4
+    actor: Finance Controller
+    action: Validate pricing strategy against budget and profitability targets
+    tools:
+    - Financial modeling software
+    - Budget tracking system
+    duration: 3 days
+    outputs:
+    - Financial approval
+    - Implementation budget
+  success_criteria: Revenue increase of 8-12% above budget, occupancy rate maintained
+    above 85%
+  failure_modes:
+  - Overpricing leading to low occupancy
+  - Underpricing reducing margins
+  - Poor market timing
   metrics:
-    - "Revenue variance: +8-12% above budget"
-    - "Occupancy rate: >85%"
-    - "Average daily rate growth: >5% YoY"
+  - 'Revenue variance: +8-12% above budget'
+  - 'Occupancy rate: >85%'
+  - 'Average daily rate growth: >5% YoY'
   performance_history:
-    success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
-    cost_trend: "¥2.1M (2023) → ¥2.4M (2024) → ¥2.2M (2025)"
-    efficiency_improvements: ["AI implementation increased forecasting accuracy by 35%", "Automated pricing adjustments reduced manual intervention by 60%"]
+    success_rate_trend: 75% (2023) → 82% (2024) → 88% (2025)
+    cost_trend: ¥2.1M (2023) → ¥2.4M (2024) → ¥2.2M (2025)
+    efficiency_improvements:
+    - AI implementation increased forecasting accuracy by 35%
+    - Automated pricing adjustments reduced manual intervention by 60%

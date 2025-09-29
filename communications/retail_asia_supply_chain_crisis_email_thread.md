@@ -36,7 +36,7 @@ Supply Chain Director
 
 **Date:** 2024-06-15 09:30
 
-This is concerning. We need to minimize customer impact. 
+This is concerning. We need to minimize customer impact.
 
 Action priorities:
 1. Communicate transparently with affected customers - offer alternatives

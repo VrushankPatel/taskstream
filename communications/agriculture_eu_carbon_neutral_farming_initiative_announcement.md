@@ -192,14 +192,14 @@ For questions, concerns, or additional support needs, please don't hesitate to c
 
 Best regards,
 
-Dr. Elena Andersson  
-Director of Sustainability, European Agricultural Operations  
-elena.andersson@company.eu  
+Dr. Elena Andersson
+Director of Sustainability, European Agricultural Operations
+elena.andersson@company.eu
 +32 2 555 0142
 
 ---
 
-**Document Classification**: Internal Use - Stakeholder Communication  
-**Distribution**: All EU Agricultural Operations Staff, Supply Chain Partners  
-**Next Review Date**: February 15, 2025  
+**Document Classification**: Internal Use - Stakeholder Communication
+**Distribution**: All EU Agricultural Operations Staff, Supply Chain Partners
+**Next Review Date**: February 15, 2025
 **Version Control**: 1.0 - Initial Launch Communication

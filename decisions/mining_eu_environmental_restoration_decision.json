@@ -78,12 +78,23 @@
       "Cost overruns"
     ]
   },
-  "decision_criteria": ["Environmental compliance", "Community impact", "Financial viability", "Regulatory requirements", "Technical feasibility"],
+  "decision_criteria": [
+    "Environmental compliance",
+    "Community impact",
+    "Financial viability",
+    "Regulatory requirements",
+    "Technical feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2026-01-01",
     "completion_date": "2028-12-31",
-    "milestones": ["Site assessment: 2026-06-30", "Pilot restoration: 2027-03-31", "Major restoration: 2027-12-31", "Monitoring: 2028-12-31"]
+    "milestones": [
+      "Site assessment: 2026-06-30",
+      "Pilot restoration: 2027-03-31",
+      "Major restoration: 2027-12-31",
+      "Monitoring: 2028-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Initial restoration progress and community feedback",

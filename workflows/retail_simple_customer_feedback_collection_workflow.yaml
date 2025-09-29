@@ -8,12 +8,16 @@ workflow:
   - Customer Service Rep
   trigger: Customer completes purchase
   temporal_data:
-    first_implemented: "2022-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "17 minutes per daily cycle"
+    first_implemented: '2022-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 17 minutes per daily cycle
     average_annual_executions: 2850
-    seasonal_variations: ["Holiday season +35% feedback volume", "Back-to-school period +20% engagement", "Summer months -15% participation"]
-    historical_evolution: "Digital tablet implementation in 2023 improved collection rate from 65% to 85% while reducing processing time by 40%"
+    seasonal_variations:
+    - Holiday season +35% feedback volume
+    - Back-to-school period +20% engagement
+    - Summer months -15% participation
+    historical_evolution: Digital tablet implementation in 2023 improved collection
+      rate from 65% to 85% while reducing processing time by 40%
   steps:
   - step: 1
     actor: Customer Service Rep
@@ -54,6 +58,10 @@ workflow:
   - 'Action item completion rate: 90%'
   - 'Trend identification accuracy: 95%'
   performance_history:
-    success_rate_trend: "78% (2022) → 83% (2023) → 90% (2024) → 92% (2025 target)"
-    cost_trend: "$4.50 (2022) → $3.20 (2023) → $2.70 (2024) → $2.50 (2025 target)"
-    efficiency_improvements: ["Digital tablet reduced collection time by 40%", "Automated analysis improved insights accuracy by 30%", "Multi-language support increased participation by 25%", "Real-time dashboard reduced response time by 60%"]
+    success_rate_trend: 78% (2022) → 83% (2023) → 90% (2024) → 92% (2025 target)
+    cost_trend: $4.50 (2022) → $3.20 (2023) → $2.70 (2024) → $2.50 (2025 target)
+    efficiency_improvements:
+    - Digital tablet reduced collection time by 40%
+    - Automated analysis improved insights accuracy by 30%
+    - Multi-language support increased participation by 25%
+    - Real-time dashboard reduced response time by 60%

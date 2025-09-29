@@ -2,12 +2,12 @@
 
 ## Policy Overview
 
-**Policy Title:** Critical Infrastructure Cybersecurity Framework  
-**Policy Owner:** Chief Information Security Officer  
-**Effective Date:** 2024-01-15  
-**Last Review:** 2024-11-30  
-**Next Review:** 2025-05-30  
-**Scope:** All EU utility grid operations, control systems, and connected infrastructure  
+**Policy Title:** Critical Infrastructure Cybersecurity Framework
+**Policy Owner:** Chief Information Security Officer
+**Effective Date:** 2024-01-15
+**Last Review:** 2024-11-30
+**Next Review:** 2025-05-30
+**Scope:** All EU utility grid operations, control systems, and connected infrastructure
 **Compliance Framework:** NIS2 Directive, IEC 62443, NERC CIP, ISO/IEC 27001
 
 ## Executive Summary

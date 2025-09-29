@@ -7,12 +7,15 @@ workflow:
   - Inventory Manager
   - Store Staff
   temporal_data:
-    first_implemented: "2018-03-15"
-    last_updated: "2023-09-20"
-    typical_cycle_time: "Daily"
+    first_implemented: '2018-03-15'
+    last_updated: '2023-09-20'
+    typical_cycle_time: Daily
     average_annual_executions: 365
-    seasonal_variations: ["Higher frequency during holiday seasons", "Reduced during off-peak periods"]
-    historical_evolution: "Manual inventory counts evolved to automated systems with real-time tracking"
+    seasonal_variations:
+    - Higher frequency during holiday seasons
+    - Reduced during off-peak periods
+    historical_evolution: Manual inventory counts evolved to automated systems with
+      real-time tracking
   trigger: Low stock alerts or scheduled inventory checks
   steps:
   - step: 1
@@ -42,4 +45,3 @@ workflow:
     outputs:
     - Updated inventory records
     - Purchase orders
-

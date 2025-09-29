@@ -1,61 +1,134 @@
 workflow:
-  id: "insurance_eu_complex_climate_risk_assessment"
-  title: "EU Climate Risk Assessment for Commercial Properties"
-  department: "Underwriting"
-  complexity: "complex"
-  participants: ["Climate Risk Analyst", "Underwriter", "Catastrophe Modeler", "ESG Specialist", "Regulatory Compliance Officer"]
-  trigger: "New commercial property insurance application or policy renewal in high-risk climate zones"
+  id: insurance_eu_complex_climate_risk_assessment
+  title: EU Climate Risk Assessment for Commercial Properties
+  department: Underwriting
+  complexity: complex
+  participants:
+  - Climate Risk Analyst
+  - Underwriter
+  - Catastrophe Modeler
+  - ESG Specialist
+  - Regulatory Compliance Officer
+  trigger: New commercial property insurance application or policy renewal in high-risk
+    climate zones
   temporal_data:
-    first_implemented: "2021-01-10"
-    last_updated: "2024-09-30"
-    typical_cycle_time: "10-15 business days"
+    first_implemented: '2021-01-10'
+    last_updated: '2024-09-30'
+    typical_cycle_time: 10-15 business days
     average_annual_executions: 3400
-    seasonal_variations: ["Q1 policy renewals peak 45% increase", "Wildfire season (Jul-Sep) detailed assessments increase 30%"]
-    historical_evolution: "Basic flood risk 2021, expanded to all climate perils 2022, integrated EU Taxonomy compliance 2023, added AI predictive modeling 2024"
+    seasonal_variations:
+    - Q1 policy renewals peak 45% increase
+    - Wildfire season (Jul-Sep) detailed assessments increase 30%
+    historical_evolution: Basic flood risk 2021, expanded to all climate perils 2022,
+      integrated EU Taxonomy compliance 2023, added AI predictive modeling 2024
   steps:
-    - step: 1
-      actor: "Climate Risk Analyst"
-      action: "Collect and analyze historical climate data and future projections for property location"
-      tools: ["Climate Data Platform", "EU Copernicus Database", "Catastrophe Models", "Geographic Information System"]
-      duration: "2 days"
-      outputs: ["Climate Risk Profile", "Historical Loss Analysis", "Future Projection Report"]
-      decision_points: ["High-risk climate zone identified", "Historical loss frequency above threshold", "Future projections indicate increasing risk"]
-    - step: 2
-      actor: "Catastrophe Modeler"
-      action: "Run comprehensive catastrophe models for multiple climate scenarios"
-      tools: ["RMS RiskLink", "AIR Worldwide Models", "In-house Climate Models", "Scenario Generator"]
-      duration: "3 days"
-      outputs: ["Loss Frequency Models", "Severity Distributions", "Exceedance Probability Curves", "Scenario Loss Estimates"]
-      decision_points: ["Model convergence achieved", "Uncertainty bounds acceptable", "Extreme scenarios modeled"]
-    - step: 3
-      actor: "ESG Specialist"
-      action: "Evaluate property's climate resilience and EU Taxonomy alignment"
-      tools: ["EU Taxonomy Checker", "Green Building Database", "Resilience Assessment Framework", "ESG Scoring Platform"]
-      duration: "1.5 days"
-      outputs: ["ESG Risk Score", "Taxonomy Compliance Report", "Resilience Recommendations", "Sustainability Assessment"]
-      decision_points: ["EU Taxonomy objectives met", "Climate adaptation measures present", "Transition risk exposure acceptable"]
-    - step: 4
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure assessment meets EU regulatory requirements and disclosure standards"
-      tools: ["EIOPA Guidelines Database", "Solvency II Calculator", "SFDR Compliance Checker", "Regulatory Update System"]
-      duration: "1 day"
-      outputs: ["Compliance Verification", "Regulatory Filing", "Disclosure Requirements", "Capital Adequacy Assessment"]
-      decision_points: ["EIOPA stress test requirements met", "SFDR disclosure obligations satisfied", "Solvency II capital requirements adequate"]
-    - step: 5
-      actor: "Underwriter"
-      action: "Synthesize all assessments and make underwriting decision with pricing recommendations"
-      tools: ["Underwriting Workbench", "Pricing Engine", "Risk Appetite Framework", "Decision Support System"]
-      duration: "2 days"
-      outputs: ["Underwriting Decision", "Premium Calculation", "Terms and Conditions", "Risk Mitigation Requirements"]
-      decision_points: ["Risk within appetite", "Pricing reflects risk level", "Reinsurance coverage adequate"]
-  success_criteria: "Accurate risk assessment completed within 15 days, regulatory compliance maintained, profitable pricing achieved"
-  failure_modes: ["Inadequate climate data quality", "Model convergence failures", "Regulatory non-compliance", "Underpricing of climate risks"]
+  - step: 1
+    actor: Climate Risk Analyst
+    action: Collect and analyze historical climate data and future projections for
+      property location
+    tools:
+    - Climate Data Platform
+    - EU Copernicus Database
+    - Catastrophe Models
+    - Geographic Information System
+    duration: 2 days
+    outputs:
+    - Climate Risk Profile
+    - Historical Loss Analysis
+    - Future Projection Report
+    decision_points:
+    - High-risk climate zone identified
+    - Historical loss frequency above threshold
+    - Future projections indicate increasing risk
+  - step: 2
+    actor: Catastrophe Modeler
+    action: Run comprehensive catastrophe models for multiple climate scenarios
+    tools:
+    - RMS RiskLink
+    - AIR Worldwide Models
+    - In-house Climate Models
+    - Scenario Generator
+    duration: 3 days
+    outputs:
+    - Loss Frequency Models
+    - Severity Distributions
+    - Exceedance Probability Curves
+    - Scenario Loss Estimates
+    decision_points:
+    - Model convergence achieved
+    - Uncertainty bounds acceptable
+    - Extreme scenarios modeled
+  - step: 3
+    actor: ESG Specialist
+    action: Evaluate property's climate resilience and EU Taxonomy alignment
+    tools:
+    - EU Taxonomy Checker
+    - Green Building Database
+    - Resilience Assessment Framework
+    - ESG Scoring Platform
+    duration: 1.5 days
+    outputs:
+    - ESG Risk Score
+    - Taxonomy Compliance Report
+    - Resilience Recommendations
+    - Sustainability Assessment
+    decision_points:
+    - EU Taxonomy objectives met
+    - Climate adaptation measures present
+    - Transition risk exposure acceptable
+  - step: 4
+    actor: Regulatory Compliance Officer
+    action: Ensure assessment meets EU regulatory requirements and disclosure standards
+    tools:
+    - EIOPA Guidelines Database
+    - Solvency II Calculator
+    - SFDR Compliance Checker
+    - Regulatory Update System
+    duration: 1 day
+    outputs:
+    - Compliance Verification
+    - Regulatory Filing
+    - Disclosure Requirements
+    - Capital Adequacy Assessment
+    decision_points:
+    - EIOPA stress test requirements met
+    - SFDR disclosure obligations satisfied
+    - Solvency II capital requirements adequate
+  - step: 5
+    actor: Underwriter
+    action: Synthesize all assessments and make underwriting decision with pricing
+      recommendations
+    tools:
+    - Underwriting Workbench
+    - Pricing Engine
+    - Risk Appetite Framework
+    - Decision Support System
+    duration: 2 days
+    outputs:
+    - Underwriting Decision
+    - Premium Calculation
+    - Terms and Conditions
+    - Risk Mitigation Requirements
+    decision_points:
+    - Risk within appetite
+    - Pricing reflects risk level
+    - Reinsurance coverage adequate
+  success_criteria: Accurate risk assessment completed within 15 days, regulatory
+    compliance maintained, profitable pricing achieved
+  failure_modes:
+  - Inadequate climate data quality
+  - Model convergence failures
+  - Regulatory non-compliance
+  - Underpricing of climate risks
   metrics:
-    - "Assessment completion time: <15 business days (current: 12.5 days)"
-    - "Risk prediction accuracy: >85% (current: 89%)"
-    - "Regulatory compliance rate: >99% (current: 99.7%)"
-    - "Underwriting profitability: >15% ROE (current: 18.2%)"
+  - 'Assessment completion time: <15 business days (current: 12.5 days)'
+  - 'Risk prediction accuracy: >85% (current: 89%)'
+  - 'Regulatory compliance rate: >99% (current: 99.7%)'
+  - 'Underwriting profitability: >15% ROE (current: 18.2%)'
   performance_history:
-    success_rate_trend: "78% (2021) → 84% (2023) → 89% (2024)"
-    cost_trend: "€2,450 (2021) → €2,100 (2023) → €1,850 (2024)"
-    efficiency_improvements: ["AI climate modeling reduced analysis time by 40%", "Automated compliance checks saved 1.5 days per assessment", "Integrated data platforms improved accuracy by 22%"]
+    success_rate_trend: 78% (2021) → 84% (2023) → 89% (2024)
+    cost_trend: €2,450 (2021) → €2,100 (2023) → €1,850 (2024)
+    efficiency_improvements:
+    - AI climate modeling reduced analysis time by 40%
+    - Automated compliance checks saved 1.5 days per assessment
+    - Integrated data platforms improved accuracy by 22%

@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_utilities_smart_grid_cybersecurity_medium"
-  title: "Utilities Smart Grid Cybersecurity Monitoring and Response"
-  department: "Cybersecurity"
-  complexity: "medium"
-  participants: ["Cybersecurity Analyst", "Grid Operations Manager", "IT Security Team", "Regulatory Compliance"]
-  trigger: "Security alert or scheduled assessment"
+  id: workflow_utilities_smart_grid_cybersecurity_medium
+  title: Utilities Smart Grid Cybersecurity Monitoring and Response
+  department: Cybersecurity
+  complexity: medium
+  participants:
+  - Cybersecurity Analyst
+  - Grid Operations Manager
+  - IT Security Team
+  - Regulatory Compliance
+  trigger: Security alert or scheduled assessment
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2024-09-01"
-    typical_cycle_time: "24 hours for incidents, weekly for monitoring"
+    first_implemented: '2023-06-01'
+    last_updated: '2024-09-01'
+    typical_cycle_time: 24 hours for incidents, weekly for monitoring
     average_annual_executions: 200
-    seasonal_variations: ["Holiday period increased threats", "Maintenance windows for updates"]
-    historical_evolution: "Basic firewall protection evolved to AI-driven threat detection in 2024, now includes automated response"
+    seasonal_variations:
+    - Holiday period increased threats
+    - Maintenance windows for updates
+    historical_evolution: Basic firewall protection evolved to AI-driven threat detection
+      in 2024, now includes automated response
   steps:
-    - step: 1
-      actor: "Cybersecurity Analyst"
-      action: "Monitor grid systems for security threats"
-      tools: ["SIEM systems", "Intrusion detection platforms", "AI threat detection"]
-      duration: "Ongoing"
-      outputs: ["Security alerts", "Threat assessments"]
-    - step: 2
-      actor: "Cybersecurity Analyst"
-      action: "Assess threat severity and impact"
-      tools: ["Risk assessment frameworks", "Impact analysis tools"]
-      duration: "30 minutes"
-      outputs: ["Risk assessment report", "Response priority"]
-    - step: 3
-      actor: "IT Security Team"
-      action: "Execute containment and mitigation measures"
-      tools: ["Incident response playbooks", "Network segmentation tools"]
-      duration: "2 hours"
-      outputs: ["Containment actions", "System isolation"]
-    - step: 4
-      actor: "Grid Operations Manager"
-      action: "Coordinate with operations for system stability"
-      tools: ["SCADA coordination", "Operations communication channels"]
-      duration: "1 hour"
-      outputs: ["Operations coordination", "System status updates"]
-    - step: 5
-      actor: "Regulatory Compliance"
-      action: "Document incident and report if required"
-      tools: ["Compliance reporting systems", "Incident documentation"]
-      duration: "4 hours"
-      outputs: ["Incident report", "Regulatory filings"]
-  success_criteria: "Threat contained within 2 hours with no grid disruption"
-  failure_modes: ["False positives", "Advanced persistent threats", "System complexity"]
+  - step: 1
+    actor: Cybersecurity Analyst
+    action: Monitor grid systems for security threats
+    tools:
+    - SIEM systems
+    - Intrusion detection platforms
+    - AI threat detection
+    duration: Ongoing
+    outputs:
+    - Security alerts
+    - Threat assessments
+  - step: 2
+    actor: Cybersecurity Analyst
+    action: Assess threat severity and impact
+    tools:
+    - Risk assessment frameworks
+    - Impact analysis tools
+    duration: 30 minutes
+    outputs:
+    - Risk assessment report
+    - Response priority
+  - step: 3
+    actor: IT Security Team
+    action: Execute containment and mitigation measures
+    tools:
+    - Incident response playbooks
+    - Network segmentation tools
+    duration: 2 hours
+    outputs:
+    - Containment actions
+    - System isolation
+  - step: 4
+    actor: Grid Operations Manager
+    action: Coordinate with operations for system stability
+    tools:
+    - SCADA coordination
+    - Operations communication channels
+    duration: 1 hour
+    outputs:
+    - Operations coordination
+    - System status updates
+  - step: 5
+    actor: Regulatory Compliance
+    action: Document incident and report if required
+    tools:
+    - Compliance reporting systems
+    - Incident documentation
+    duration: 4 hours
+    outputs:
+    - Incident report
+    - Regulatory filings
+  success_criteria: Threat contained within 2 hours with no grid disruption
+  failure_modes:
+  - False positives
+  - Advanced persistent threats
+  - System complexity
   metrics:
-    - "Response time: <2 hours target"
-    - "False positive rate: <5%"
-    - "System availability: 99.99%"
+  - 'Response time: <2 hours target'
+  - 'False positive rate: <5%'
+  - 'System availability: 99.99%'
   performance_history:
-    success_rate_trend: "85% (2023) → 92% (2024) → 95% (2025)"
-    cost_trend: "$300K (2023) → $280K (2024) → $260K (2025)"
-    efficiency_improvements: ["AI detection reduced response time by 45%", "Automated response decreased manual intervention by 60%"]
+    success_rate_trend: 85% (2023) → 92% (2024) → 95% (2025)
+    cost_trend: $300K (2023) → $280K (2024) → $260K (2025)
+    efficiency_improvements:
+    - AI detection reduced response time by 45%
+    - Automated response decreased manual intervention by 60%

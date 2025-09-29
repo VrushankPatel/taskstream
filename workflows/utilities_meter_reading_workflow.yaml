@@ -6,12 +6,15 @@ industry: Utilities
 region: Global
 complexity: Simple
 temporal_data:
-  first_implemented: "2015-06-01"
-  last_updated: "2024-10-01"
-  typical_cycle_time: "30 days"
+  first_implemented: '2015-06-01'
+  last_updated: '2024-10-01'
+  typical_cycle_time: 30 days
   average_annual_executions: 1200000
-  seasonal_variations: ["Winter heating season (15% increase)", "Summer cooling season (12% increase)"]
-  historical_evolution: "Manual reading evolved to automated systems in 2018, smart meters deployed in 2022"
+  seasonal_variations:
+  - Winter heating season (15% increase)
+  - Summer cooling season (12% increase)
+  historical_evolution: Manual reading evolved to automated systems in 2018, smart
+    meters deployed in 2022
 actors:
 - Meter Reader
 - Data Processing Specialist
@@ -120,6 +123,9 @@ metrics:
 - Dispute resolution time
 - Estimated reading percentage
 performance_history:
-  success_rate_trend: "94% (2023) → 96% (2024) → 97% (2025)"
-  cost_trend: "$0.08 per reading (2023) → $0.07 (2024) → $0.06 (2025)"
-  efficiency_improvements: ["Smart meter deployment reduced manual readings by 70%", "Automated validation improved accuracy by 25%", "Mobile apps decreased field time by 40%"]
+  success_rate_trend: 94% (2023) → 96% (2024) → 97% (2025)
+  cost_trend: $0.08 per reading (2023) → $0.07 (2024) → $0.06 (2025)
+  efficiency_improvements:
+  - Smart meter deployment reduced manual readings by 70%
+  - Automated validation improved accuracy by 25%
+  - Mobile apps decreased field time by 40%

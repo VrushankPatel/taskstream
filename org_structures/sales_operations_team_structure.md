@@ -6,8 +6,8 @@ The Sales Operations team supports a 150-person sales organization across enterp
 ## Organizational Structure
 
 ### Director of Sales Operations
-**Reports to:** VP Sales  
-**Direct Reports:** 3 Managers  
+**Reports to:** VP Sales
+**Direct Reports:** 3 Managers
 **Responsibilities:**
 - Strategic planning for sales operations
 - Budget management ($2.5M annual)
@@ -15,8 +15,8 @@ The Sales Operations team supports a 150-person sales organization across enterp
 - Performance metrics and reporting
 
 ### Sales Operations Managers (3)
-**Reports to:** Director of Sales Operations  
-**Direct Reports:** 4-5 Specialists each  
+**Reports to:** Director of Sales Operations
+**Direct Reports:** 4-5 Specialists each
 **Responsibilities:**
 - Team leadership and development
 - Process implementation
@@ -45,7 +45,7 @@ The Sales Operations team supports a 150-person sales organization across enterp
 - Vendor relationships
 
 ### Sales Operations Specialists (12)
-**Reports to:** Sales Operations Managers  
+**Reports to:** Sales Operations Managers
 **Responsibilities:**
 - Daily operations support
 - Data management and analysis

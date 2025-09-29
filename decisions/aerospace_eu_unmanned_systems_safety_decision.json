@@ -4,8 +4,17 @@
   "context": "EU aerospace manufacturer evaluating investment in advanced unmanned systems safety technologies to meet EASA requirements and expand market share",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["Chief Executive Officer", "Chief Financial Officer", "Board Technology Committee"],
-    "influencers": ["EASA Regulators", "Major Airline Customers", "Competitor Analysis Team", "Research Partners"]
+    "approvers": [
+      "Chief Executive Officer",
+      "Chief Financial Officer",
+      "Board Technology Committee"
+    ],
+    "influencers": [
+      "EASA Regulators",
+      "Major Airline Customers",
+      "Competitor Analysis Team",
+      "Research Partners"
+    ]
   },
   "request": {
     "amount": "€15,000,000",
@@ -19,7 +28,11 @@
       "start_date": "2024-04-01",
       "end_date": "2024-04-30",
       "duration": "30 days",
-      "activities": ["EASA requirement analysis", "Competitor safety feature review", "Technology gap assessment"],
+      "activities": [
+        "EASA requirement analysis",
+        "Competitor safety feature review",
+        "Technology gap assessment"
+      ],
       "outcome": "Clear regulatory pathway identified, technology gaps defined"
     },
     {
@@ -27,7 +40,11 @@
       "start_date": "2024-05-01",
       "end_date": "2024-05-25",
       "duration": "25 days",
-      "activities": ["Safety system architecture design", "Prototype development planning", "Testing methodology establishment"],
+      "activities": [
+        "Safety system architecture design",
+        "Prototype development planning",
+        "Testing methodology establishment"
+      ],
       "outcome": "Feasible technical solution developed, testing protocols approved"
     },
     {
@@ -35,7 +52,11 @@
       "start_date": "2024-05-26",
       "end_date": "2024-06-15",
       "duration": "21 days",
-      "activities": ["Market size assessment", "Customer requirement surveys", "Competitive positioning analysis"],
+      "activities": [
+        "Market size assessment",
+        "Customer requirement surveys",
+        "Competitive positioning analysis"
+      ],
       "outcome": "Strong market demand confirmed, clear competitive advantage identified"
     },
     {
@@ -43,7 +64,11 @@
       "start_date": "2024-06-16",
       "end_date": "2024-07-10",
       "duration": "25 days",
-      "activities": ["Cost-benefit analysis", "Revenue projection modeling", "Funding strategy development"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Revenue projection modeling",
+        "Funding strategy development"
+      ],
       "outcome": "Attractive financial returns projected, multiple funding options secured"
     },
     {
@@ -51,7 +76,11 @@
       "start_date": "2024-07-11",
       "end_date": "2024-07-30",
       "duration": "20 days",
-      "activities": ["Board presentation", "Risk mitigation planning", "Implementation timeline finalization"],
+      "activities": [
+        "Board presentation",
+        "Risk mitigation planning",
+        "Implementation timeline finalization"
+      ],
       "outcome": "Full investment approval granted"
     }
   ],
@@ -60,16 +89,44 @@
     "projected_value": "€75,000,000 in additional revenue over 5 years",
     "actual_value": "TBD (certification expected 2026)",
     "roi_timeline": "Expected payback in 36 months",
-    "risk_factors": ["Regulatory delays in EASA approval", "Technology development challenges", "Market adoption slower than expected", "Competitor technology advancements"]
+    "risk_factors": [
+      "Regulatory delays in EASA approval",
+      "Technology development challenges",
+      "Market adoption slower than expected",
+      "Competitor technology advancements"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance requirements", "Technical feasibility", "Market opportunity size", "Financial ROI analysis", "Competitive advantage potential", "Risk mitigation strategies"],
+  "decision_criteria": [
+    "Regulatory compliance requirements",
+    "Technical feasibility",
+    "Market opportunity size",
+    "Financial ROI analysis",
+    "Competitive advantage potential",
+    "Risk mitigation strategies"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2024-08-01",
     "completion_date": "2026-12-31",
-    "milestones": ["System design completion: Q4 2024", "Prototype development: Q1-Q2 2025", "Testing and certification: Q3-Q4 2025", "Market launch: Q1 2026"],
-    "success_metrics": ["Certification achieved by Q4 2025", "Safety incident rate <0.1 per 1000 flight hours", "Customer adoption rate >60% within 12 months", "Revenue target €45M in Year 1"],
-    "implementation_plan": ["Phase 1: Requirements gathering and design (3 months)", "Phase 2: Development and prototyping (6 months)", "Phase 3: Testing and validation (4 months)", "Phase 4: Certification and compliance (3 months)", "Phase 5: Market launch and scaling (6 months)"]
+    "milestones": [
+      "System design completion: Q4 2024",
+      "Prototype development: Q1-Q2 2025",
+      "Testing and certification: Q3-Q4 2025",
+      "Market launch: Q1 2026"
+    ],
+    "success_metrics": [
+      "Certification achieved by Q4 2025",
+      "Safety incident rate <0.1 per 1000 flight hours",
+      "Customer adoption rate >60% within 12 months",
+      "Revenue target €45M in Year 1"
+    ],
+    "implementation_plan": [
+      "Phase 1: Requirements gathering and design (3 months)",
+      "Phase 2: Development and prototyping (6 months)",
+      "Phase 3: Testing and validation (4 months)",
+      "Phase 4: Certification and compliance (3 months)",
+      "Phase 5: Market launch and scaling (6 months)"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Development progress vs milestones, budget adherence",

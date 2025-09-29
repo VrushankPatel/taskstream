@@ -1,50 +1,83 @@
 workflow:
-  id: "workflow_hospitality_guest_feedback_2025"
-  title: "Hospitality Guest Feedback Collection and Response"
-  department: "Guest Experience"
-  complexity: "medium"
-  participants: ["Front Desk Manager", "Guest Services Team", "Department Heads"]
-  trigger: "Guest checkout or post-stay survey trigger"
+  id: workflow_hospitality_guest_feedback_2025
+  title: Hospitality Guest Feedback Collection and Response
+  department: Guest Experience
+  complexity: medium
+  participants:
+  - Front Desk Manager
+  - Guest Services Team
+  - Department Heads
+  trigger: Guest checkout or post-stay survey trigger
   temporal_data:
-    first_implemented: "2019-03-20"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "48 hours"
+    first_implemented: '2019-03-20'
+    last_updated: '2024-09-15'
+    typical_cycle_time: 48 hours
     average_annual_executions: 25000
-    seasonal_variations: ["Summer peak season (30% increase)", "Holiday periods (25% increase)"]
-    historical_evolution: "Initial paper surveys evolved to digital tablets in 2021, AI sentiment analysis added in 2023"
+    seasonal_variations:
+    - Summer peak season (30% increase)
+    - Holiday periods (25% increase)
+    historical_evolution: Initial paper surveys evolved to digital tablets in 2021,
+      AI sentiment analysis added in 2023
   steps:
-    - step: 1
-      actor: "Front Desk Manager"
-      action: "Initiate feedback collection at checkout with digital survey tablet or email follow-up"
-      tools: ["Digital survey platform", "Property management system"]
-      duration: "5 minutes"
-      outputs: ["Initial feedback data capture"]
-    - step: 2
-      actor: "Guest Services Team"
-      action: "Review submitted feedback, categorize issues (service, cleanliness, amenities), flag urgent concerns"
-      tools: ["Feedback management dashboard", "Sentiment analysis tool"]
-      duration: "30 minutes"
-      outputs: ["Categorized feedback report", "Action items list"]
-    - step: 3
-      actor: "Department Heads"
-      action: "Address specific feedback issues, implement corrective actions, follow up with guest if needed"
-      tools: ["Task management system", "Guest communication platform"]
-      duration: "4 hours"
-      outputs: ["Resolution documentation", "Guest follow-up communication"]
-    - step: 4
-      actor: "Guest Services Team"
-      action: "Close feedback loop, update satisfaction metrics, identify improvement opportunities"
-      tools: ["Analytics dashboard", "Quality improvement database"]
-      duration: "1 hour"
-      outputs: ["Updated performance metrics", "Improvement recommendations"]
-  success_criteria: "All feedback addressed within 48 hours, guest satisfaction improved, trends identified for continuous improvement"
-  failure_modes: ["Low response rates", "Delayed response times", "Inadequate corrective actions", "System technical failures"]
+  - step: 1
+    actor: Front Desk Manager
+    action: Initiate feedback collection at checkout with digital survey tablet or
+      email follow-up
+    tools:
+    - Digital survey platform
+    - Property management system
+    duration: 5 minutes
+    outputs:
+    - Initial feedback data capture
+  - step: 2
+    actor: Guest Services Team
+    action: Review submitted feedback, categorize issues (service, cleanliness, amenities),
+      flag urgent concerns
+    tools:
+    - Feedback management dashboard
+    - Sentiment analysis tool
+    duration: 30 minutes
+    outputs:
+    - Categorized feedback report
+    - Action items list
+  - step: 3
+    actor: Department Heads
+    action: Address specific feedback issues, implement corrective actions, follow
+      up with guest if needed
+    tools:
+    - Task management system
+    - Guest communication platform
+    duration: 4 hours
+    outputs:
+    - Resolution documentation
+    - Guest follow-up communication
+  - step: 4
+    actor: Guest Services Team
+    action: Close feedback loop, update satisfaction metrics, identify improvement
+      opportunities
+    tools:
+    - Analytics dashboard
+    - Quality improvement database
+    duration: 1 hour
+    outputs:
+    - Updated performance metrics
+    - Improvement recommendations
+  success_criteria: All feedback addressed within 48 hours, guest satisfaction improved,
+    trends identified for continuous improvement
+  failure_modes:
+  - Low response rates
+  - Delayed response times
+  - Inadequate corrective actions
+  - System technical failures
   metrics:
-    - "Response rate: 65%"
-    - "Resolution satisfaction: 4.2/5"
-    - "Average response time: 24 hours"
-    - "Repeat guest retention: 78%"
+  - 'Response rate: 65%'
+  - 'Resolution satisfaction: 4.2/5'
+  - 'Average response time: 24 hours'
+  - 'Repeat guest retention: 78%'
   performance_history:
-    success_rate_trend: "60% (2023) → 65% (2024) → 70% (2025)"
-    cost_trend: "$2.50 per response (2023) → $2.20 (2024) → $2.00 (2025)"
-    efficiency_improvements: ["Digital surveys increased response rate by 20%", "AI categorization reduced manual review time by 40%", "Automated follow-ups improved resolution tracking by 30%"]
+    success_rate_trend: 60% (2023) → 65% (2024) → 70% (2025)
+    cost_trend: $2.50 per response (2023) → $2.20 (2024) → $2.00 (2025)
+    efficiency_improvements:
+    - Digital surveys increased response rate by 20%
+    - AI categorization reduced manual review time by 40%
+    - Automated follow-ups improved resolution tracking by 30%

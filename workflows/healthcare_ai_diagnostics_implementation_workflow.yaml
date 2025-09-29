@@ -4,19 +4,22 @@ workflow:
   department: Medical Informatics
   complexity: high
   participants:
-    - Chief Medical Officer
-    - IT Director
-    - Data Scientists
-    - Clinicians
-    - Regulatory Affairs
-    - Patient Safety Officer
+  - Chief Medical Officer
+  - IT Director
+  - Data Scientists
+  - Clinicians
+  - Regulatory Affairs
+  - Patient Safety Officer
   temporal_data:
-    first_implemented: "2021-09-15"
-    last_updated: "2024-06-30"
-    typical_cycle_time: "12-18 months"
+    first_implemented: '2021-09-15'
+    last_updated: '2024-06-30'
+    typical_cycle_time: 12-18 months
     average_annual_executions: 8
-    seasonal_variations: ["Regulatory submissions align with FDA review cycles", "Clinical trials avoid summer vacation periods"]
-    historical_evolution: "Traditional diagnostics enhanced with AI for improved accuracy and early detection"
+    seasonal_variations:
+    - Regulatory submissions align with FDA review cycles
+    - Clinical trials avoid summer vacation periods
+    historical_evolution: Traditional diagnostics enhanced with AI for improved accuracy
+      and early detection
   trigger: Clinical need identified for AI-assisted diagnostics
   steps:
   - step: 1
@@ -79,14 +82,15 @@ workflow:
     outputs:
     - Safety monitoring plan
     - Incident response protocol
-  success_criteria: AI diagnostics system improving clinical outcomes with regulatory compliance
+  success_criteria: AI diagnostics system improving clinical outcomes with regulatory
+    compliance
   failure_modes:
-    - Poor model performance
-    - Integration failures
-    - Regulatory rejection
+  - Poor model performance
+  - Integration failures
+  - Regulatory rejection
   metrics:
-    - 'Diagnostic accuracy improvement: Target >10%'
-    - 'Time to diagnosis: Target <50% reduction'
-    - 'Regulatory compliance rate: Target 100%'
-    - 'Clinician adoption rate: Target >80%'
-    - 'Patient safety incidents: Target 0'
+  - 'Diagnostic accuracy improvement: Target >10%'
+  - 'Time to diagnosis: Target <50% reduction'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Clinician adoption rate: Target >80%'
+  - 'Patient safety incidents: Target 0'

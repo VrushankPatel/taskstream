@@ -4,9 +4,27 @@
   "context": "Large-scale European agricultural cooperative (25,000 hectares across 7 EU countries) evaluating entry into voluntary carbon credit markets to monetize sustainable farming practices while contributing to EU Green Deal climate objectives",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Board Sustainability Committee", "Farmer Representative Council"],
-    "influencers": ["Agricultural Operations Director", "Finance Director", "Environmental Compliance Manager", "Market Development Manager", "Technology Innovation Officer"],
-    "impacted_parties": ["Cooperative Member Farmers", "Local Communities", "Environmental Organizations", "Carbon Credit Buyers", "Regulatory Authorities", "Agricultural Supply Chain Partners"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Sustainability Committee",
+      "Farmer Representative Council"
+    ],
+    "influencers": [
+      "Agricultural Operations Director",
+      "Finance Director",
+      "Environmental Compliance Manager",
+      "Market Development Manager",
+      "Technology Innovation Officer"
+    ],
+    "impacted_parties": [
+      "Cooperative Member Farmers",
+      "Local Communities",
+      "Environmental Organizations",
+      "Carbon Credit Buyers",
+      "Regulatory Authorities",
+      "Agricultural Supply Chain Partners"
+    ]
   },
   "request": {
     "amount": "€8,500,000",
@@ -20,7 +38,13 @@
       "start_date": "2024-12-05",
       "end_date": "2025-01-20",
       "duration": "46 days",
-      "activities": ["Soil carbon baseline measurement across all farms", "Biodiversity impact assessment", "Current sequestration rate calculation", "Additionality verification", "Permanence risk evaluation"],
+      "activities": [
+        "Soil carbon baseline measurement across all farms",
+        "Biodiversity impact assessment",
+        "Current sequestration rate calculation",
+        "Additionality verification",
+        "Permanence risk evaluation"
+      ],
       "outcome": "Verified sequestration potential of 70,000 tonnes CO2e annually with high permanence confidence"
     },
     {
@@ -28,7 +52,13 @@
       "start_date": "2025-01-21",
       "end_date": "2025-03-15",
       "duration": "53 days",
-      "activities": ["Carbon credit market analysis and pricing trends", "Certification standard comparison (Verra, Gold Standard, Plan Vivo)", "Buyer demand assessment in corporate markets", "Regulatory framework analysis across EU jurisdictions", "Competitive landscape evaluation"],
+      "activities": [
+        "Carbon credit market analysis and pricing trends",
+        "Certification standard comparison (Verra, Gold Standard, Plan Vivo)",
+        "Buyer demand assessment in corporate markets",
+        "Regulatory framework analysis across EU jurisdictions",
+        "Competitive landscape evaluation"
+      ],
       "outcome": "Strong market demand identified with premium pricing for high-quality agricultural credits"
     },
     {
@@ -36,7 +66,13 @@
       "start_date": "2025-03-16",
       "end_date": "2025-05-10",
       "duration": "55 days",
-      "activities": ["Measurement, reporting, and verification (MRV) system design", "Technology platform selection for carbon monitoring", "Third-party verification partner selection", "Farmer training and engagement program development", "Data collection and monitoring protocol establishment"],
+      "activities": [
+        "Measurement, reporting, and verification (MRV) system design",
+        "Technology platform selection for carbon monitoring",
+        "Third-party verification partner selection",
+        "Farmer training and engagement program development",
+        "Data collection and monitoring protocol establishment"
+      ],
       "outcome": "Comprehensive MRV system designed with 95% measurement accuracy and farmer participation commitment"
     },
     {
@@ -44,7 +80,13 @@
       "start_date": "2025-05-11",
       "end_date": "2025-06-30",
       "duration": "50 days",
-      "activities": ["Revenue modeling at various carbon price scenarios", "Cost-benefit analysis including system setup and ongoing operations", "Risk assessment and sensitivity analysis", "Farmer benefit-sharing mechanism design", "Investment financing and cash flow planning"],
+      "activities": [
+        "Revenue modeling at various carbon price scenarios",
+        "Cost-benefit analysis including system setup and ongoing operations",
+        "Risk assessment and sensitivity analysis",
+        "Farmer benefit-sharing mechanism design",
+        "Investment financing and cash flow planning"
+      ],
       "outcome": "Business case validated with 22% IRR at current carbon prices and positive NPV across all scenarios"
     }
   ],
@@ -53,7 +95,14 @@
     "projected_value": "€31,500,000 over 5 years (70,000 tonnes × €90/tonne average × 5 years)",
     "actual_value": "Pilot program generating €1.8M annually from 12,500 tonnes CO2e (exceeding projections)",
     "roi_timeline": "Break-even in year 2, full investment recovery by year 4",
-    "risk_factors": ["Carbon price volatility", "Regulatory changes affecting credit eligibility", "Climate events impacting sequestration", "Market demand fluctuations", "Technology reliability and accuracy", "Farmer participation and compliance"]
+    "risk_factors": [
+      "Carbon price volatility",
+      "Regulatory changes affecting credit eligibility",
+      "Climate events impacting sequestration",
+      "Market demand fluctuations",
+      "Technology reliability and accuracy",
+      "Farmer participation and compliance"
+    ]
   },
   "decision_criteria": [
     "Carbon sequestration potential >60,000 tonnes CO2e annually",

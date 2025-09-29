@@ -2,13 +2,13 @@
 
 ## Policy Overview
 
-**Policy Name:** Global Commercial Drone Operations Safety and Compliance Framework  
-**Policy Number:** ASC-2024-001  
-**Version:** 3.2  
-**Effective Date:** January 1, 2025  
-**Last Reviewed:** November 15, 2024  
-**Next Review:** November 15, 2025  
-**Owner:** Chief Safety Officer, Global Aerospace Operations  
+**Policy Name:** Global Commercial Drone Operations Safety and Compliance Framework
+**Policy Number:** ASC-2024-001
+**Version:** 3.2
+**Effective Date:** January 1, 2025
+**Last Reviewed:** November 15, 2024
+**Next Review:** November 15, 2025
+**Owner:** Chief Safety Officer, Global Aerospace Operations
 **Scope:** All commercial drone operations across North America, Europe, Asia-Pacific
 
 ---
@@ -356,11 +356,11 @@ This policy establishes comprehensive safety and regulatory compliance standards
 
 ---
 
-**Policy Approved By:**  
-Dr. Sarah Chen, Chief Safety Officer  
+**Policy Approved By:**
+Dr. Sarah Chen, Chief Safety Officer
 Date: November 15, 2024
 
-**Distribution:**  
+**Distribution:**
 All Global Operations Personnel, Regional Safety Managers, Regulatory Affairs Team, Executive Leadership
 
 **Next Review Date:** November 15, 2025

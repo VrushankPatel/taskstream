@@ -1,44 +1,74 @@
 workflow:
-  id: "workflow_retail_eu_inventory_audit"
-  title: "EU Retail Inventory Audit Process"
-  department: "Operations"
-  complexity: "simple"
-  participants: ["Store Manager", "Inventory Clerk", "Regional Supervisor"]
-  trigger: "Monthly inventory cycle or discrepancy detection"
+  id: workflow_retail_eu_inventory_audit
+  title: EU Retail Inventory Audit Process
+  department: Operations
+  complexity: simple
+  participants:
+  - Store Manager
+  - Inventory Clerk
+  - Regional Supervisor
+  trigger: Monthly inventory cycle or discrepancy detection
   temporal_data:
-    first_implemented: "2020-03-15"
-    last_updated: "2024-09-01"
-    typical_cycle_time: "4 hours per audit"
+    first_implemented: '2020-03-15'
+    last_updated: '2024-09-01'
+    typical_cycle_time: 4 hours per audit
     average_annual_executions: 12
-    seasonal_variations: ["Q4 peak inventory checks", "Q1 post-holiday reconciliation"]
-    historical_evolution: "Process digitized in 2022, reducing audit time by 60% through automated counting systems"
+    seasonal_variations:
+    - Q4 peak inventory checks
+    - Q1 post-holiday reconciliation
+    historical_evolution: Process digitized in 2022, reducing audit time by 60% through
+      automated counting systems
   steps:
-    - step: 1
-      actor: "Inventory Clerk"
-      action: "Prepare audit checklist and gather physical inventory data using handheld scanners"
-      tools: ["Inventory management software", "Barcode scanners", "Audit checklists"]
-      duration: "2 hours"
-      outputs: ["Preliminary inventory count", "Discrepancy log"]
-    - step: 2
-      actor: "Store Manager"
-      action: "Review preliminary counts and reconcile discrepancies with system records"
-      tools: ["ERP system", "Variance analysis reports"]
-      duration: "1 hour"
-      decision_points: ["If variance >2%, escalate to regional supervisor", "If shrinkage detected, initiate security review", "If seasonal stock issues, adjust ordering patterns"]
-      outputs: ["Reconciled inventory report", "Adjustment recommendations"]
-    - step: 3
-      actor: "Regional Supervisor"
-      action: "Approve adjustments and update central inventory database"
-      tools: ["Central inventory system", "Approval workflow"]
-      duration: "30 minutes"
-      outputs: ["Final inventory adjustment", "Audit completion report"]
-  success_criteria: "Inventory accuracy within 1% variance, all discrepancies resolved within 24 hours"
-  failure_modes: ["Scanner malfunction", "Human counting errors", "System data synchronization issues"]
+  - step: 1
+    actor: Inventory Clerk
+    action: Prepare audit checklist and gather physical inventory data using handheld
+      scanners
+    tools:
+    - Inventory management software
+    - Barcode scanners
+    - Audit checklists
+    duration: 2 hours
+    outputs:
+    - Preliminary inventory count
+    - Discrepancy log
+  - step: 2
+    actor: Store Manager
+    action: Review preliminary counts and reconcile discrepancies with system records
+    tools:
+    - ERP system
+    - Variance analysis reports
+    duration: 1 hour
+    decision_points:
+    - If variance >2%, escalate to regional supervisor
+    - If shrinkage detected, initiate security review
+    - If seasonal stock issues, adjust ordering patterns
+    outputs:
+    - Reconciled inventory report
+    - Adjustment recommendations
+  - step: 3
+    actor: Regional Supervisor
+    action: Approve adjustments and update central inventory database
+    tools:
+    - Central inventory system
+    - Approval workflow
+    duration: 30 minutes
+    outputs:
+    - Final inventory adjustment
+    - Audit completion report
+  success_criteria: Inventory accuracy within 1% variance, all discrepancies resolved
+    within 24 hours
+  failure_modes:
+  - Scanner malfunction
+  - Human counting errors
+  - System data synchronization issues
   metrics:
-    - "Inventory accuracy rate: 99.2%"
-    - "Audit completion time: 3.5 hours average"
-    - "Cost per audit: €450"
+  - 'Inventory accuracy rate: 99.2%'
+  - 'Audit completion time: 3.5 hours average'
+  - 'Cost per audit: €450'
   performance_history:
-    success_rate_trend: "95% (2022) → 97% (2023) → 98% (2024)"
-    cost_trend: "€650 (2022) → €550 (2023) → €450 (2024)"
-    efficiency_improvements: ["Automated scanning reduced manual effort by 70%", "Digital reconciliation improved accuracy by 2%", "Training reduced error rates by 15%"]
+    success_rate_trend: 95% (2022) → 97% (2023) → 98% (2024)
+    cost_trend: €650 (2022) → €550 (2023) → €450 (2024)
+    efficiency_improvements:
+    - Automated scanning reduced manual effort by 70%
+    - Digital reconciliation improved accuracy by 2%
+    - Training reduced error rates by 15%

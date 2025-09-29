@@ -2,11 +2,11 @@
 
 ## Organization Overview
 
-**Team Name:** European Renewable Energy Integration Division  
-**Organization:** EuroGrid Solutions GmbH  
-**Location:** Frankfurt, Germany (with satellite offices in Madrid, Amsterdam, Stockholm)  
-**Team Size:** 142 Full-Time Employees (FTE)  
-**Established:** March 2021  
+**Team Name:** European Renewable Energy Integration Division
+**Organization:** EuroGrid Solutions GmbH
+**Location:** Frankfurt, Germany (with satellite offices in Madrid, Amsterdam, Stockholm)
+**Team Size:** 142 Full-Time Employees (FTE)
+**Established:** March 2021
 **Last Restructured:** September 2024
 
 ---
@@ -25,7 +25,7 @@ To lead the integration of renewable energy sources into European power grids, e
 - *Dr. Ingrid Larsson* - 15 years experience in power systems engineering
 - **Reports to:** Chief Technology Officer
 - **Key Responsibilities:** Strategic planning, stakeholder management, regulatory compliance
-- **KPIs:** 
+- **KPIs:**
   - Renewable integration capacity: 2.5 GW annually (current: 2.8 GW)
   - Grid stability index: >99.5% (current: 99.7%)
   - EU climate target compliance: 100% (current: 100%)
@@ -201,7 +201,7 @@ To lead the integration of renewable energy sources into European power grids, e
 - **Revenue generation:** €125M annually (current: €132M)
 - **Operational efficiency:** 92% (current: 94%)
 
-### Operational Metrics  
+### Operational Metrics
 - **Renewable energy integration:** 2.5 GW target (current: 2.8 GW achieved)
 - **Grid reliability:** 99.5% uptime (current: 99.7%)
 - **Customer satisfaction:** 4.3/5 target (current: 4.5/5)

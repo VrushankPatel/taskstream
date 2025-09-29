@@ -1,55 +1,90 @@
 workflow:
-  id: "workflow_talent_acquisition"
-  title: "Talent Acquisition Workflow"
-  department: "Human Resources"
-  complexity: "complex"
-  participants: ["HR Recruiter", "Hiring Manager", "Interview Panel", "Executive Team", "Legal"]
-  trigger: "Job requisition approved"
+  id: workflow_talent_acquisition
+  title: Talent Acquisition Workflow
+  department: Human Resources
+  complexity: complex
+  participants:
+  - HR Recruiter
+  - Hiring Manager
+  - Interview Panel
+  - Executive Team
+  - Legal
+  trigger: Job requisition approved
   temporal_data:
-    first_implemented: "2021-05-01"
-    last_updated: "2025-06-10"
-    typical_cycle_time: "60 days"
+    first_implemented: '2021-05-01'
+    last_updated: '2025-06-10'
+    typical_cycle_time: 60 days
     average_annual_executions: 80
-    seasonal_variations: ["Q1 peak hiring season", "Q4 budget constraints"]
-    historical_evolution: "ATS system and AI screening implemented in 2024, reducing time-to-hire by 40%"
+    seasonal_variations:
+    - Q1 peak hiring season
+    - Q4 budget constraints
+    historical_evolution: ATS system and AI screening implemented in 2024, reducing
+      time-to-hire by 40%
   steps:
-    - step: 1
-      actor: "HR Recruiter"
-      action: "Create job description and launch recruitment campaign"
-      tools: ["Applicant tracking system", "Job boards", "Social media"]
-      duration: "5 days"
-      outputs: ["Job posting live", "Sourcing strategy"]
-    - step: 2
-      actor: "HR Recruiter"
-      action: "Screen applications and conduct initial assessments"
-      tools: ["Resume screening tools", "Assessment platform"]
-      duration: "10 days"
-      outputs: ["Shortlisted candidates", "Initial feedback"]
-    - step: 3
-      actor: "Hiring Manager"
-      action: "Review candidates and conduct interviews"
-      tools: ["Interview scheduling system", "Feedback forms"]
-      duration: "15 days"
-      outputs: ["Interview results", "Candidate rankings"]
-    - step: 4
-      actor: "Interview Panel"
-      action: "Final interviews and consensus decision"
-      tools: ["Panel evaluation template", "Reference checking"]
-      duration: "7 days"
-      outputs: ["Final candidate selected", "Offer recommendation"]
-    - step: 5
-      actor: "HR Recruiter"
-      action: "Extend offer and negotiate terms"
-      tools: ["Offer letter generator", "Compensation data"]
-      duration: "5 days"
-      outputs: ["Offer accepted", "Start date confirmed"]
-  success_criteria: "Hire qualified candidate within 75 days with 85% retention in first year"
-  failure_modes: ["Poor candidate pool", "Extended decision process", "Competitive offers"]
+  - step: 1
+    actor: HR Recruiter
+    action: Create job description and launch recruitment campaign
+    tools:
+    - Applicant tracking system
+    - Job boards
+    - Social media
+    duration: 5 days
+    outputs:
+    - Job posting live
+    - Sourcing strategy
+  - step: 2
+    actor: HR Recruiter
+    action: Screen applications and conduct initial assessments
+    tools:
+    - Resume screening tools
+    - Assessment platform
+    duration: 10 days
+    outputs:
+    - Shortlisted candidates
+    - Initial feedback
+  - step: 3
+    actor: Hiring Manager
+    action: Review candidates and conduct interviews
+    tools:
+    - Interview scheduling system
+    - Feedback forms
+    duration: 15 days
+    outputs:
+    - Interview results
+    - Candidate rankings
+  - step: 4
+    actor: Interview Panel
+    action: Final interviews and consensus decision
+    tools:
+    - Panel evaluation template
+    - Reference checking
+    duration: 7 days
+    outputs:
+    - Final candidate selected
+    - Offer recommendation
+  - step: 5
+    actor: HR Recruiter
+    action: Extend offer and negotiate terms
+    tools:
+    - Offer letter generator
+    - Compensation data
+    duration: 5 days
+    outputs:
+    - Offer accepted
+    - Start date confirmed
+  success_criteria: Hire qualified candidate within 75 days with 85% retention in
+    first year
+  failure_modes:
+  - Poor candidate pool
+  - Extended decision process
+  - Competitive offers
   metrics:
-    - "Time-to-hire: 52 days average"
-    - "Offer acceptance rate: 78%"
-    - "Quality of hire score: 4.2/5"
+  - 'Time-to-hire: 52 days average'
+  - 'Offer acceptance rate: 78%'
+  - 'Quality of hire score: 4.2/5'
   performance_history:
-    success_rate_trend: "68% (2023) → 75% (2024) → 82% (2025)"
-    cost_trend: "$2.8M (2023) → $3.0M (2024) → $3.2M (2025)"
-    efficiency_improvements: ["AI screening reduced unqualified applications by 65%", "Standardized process improved candidate experience by 25%"]
+    success_rate_trend: 68% (2023) → 75% (2024) → 82% (2025)
+    cost_trend: $2.8M (2023) → $3.0M (2024) → $3.2M (2025)
+    efficiency_improvements:
+    - AI screening reduced unqualified applications by 65%
+    - Standardized process improved candidate experience by 25%

@@ -1,61 +1,101 @@
 workflow:
-  id: "workflow_product_development_cycle"
-  title: "Product Development Cycle Workflow"
-  department: "Product Development"
-  complexity: "complex"
-  participants: ["Product Manager", "Engineering Lead", "Design Team", "QA Team", "Marketing", "Legal"]
-  trigger: "New feature request or strategic initiative approved"
+  id: workflow_product_development_cycle
+  title: Product Development Cycle Workflow
+  department: Product Development
+  complexity: complex
+  participants:
+  - Product Manager
+  - Engineering Lead
+  - Design Team
+  - QA Team
+  - Marketing
+  - Legal
+  trigger: New feature request or strategic initiative approved
   temporal_data:
-    first_implemented: "2019-09-01"
-    last_updated: "2025-05-12"
-    typical_cycle_time: "90 days"
+    first_implemented: '2019-09-01'
+    last_updated: '2025-05-12'
+    typical_cycle_time: 90 days
     average_annual_executions: 24
-    seasonal_variations: ["Q2/Q3 major releases", "Q4 holiday-focused features"]
-    historical_evolution: "Agile methodology adopted in 2021, CI/CD pipeline in 2023, reducing cycle time by 50%"
+    seasonal_variations:
+    - Q2/Q3 major releases
+    - Q4 holiday-focused features
+    historical_evolution: Agile methodology adopted in 2021, CI/CD pipeline in 2023,
+      reducing cycle time by 50%
   steps:
-    - step: 1
-      actor: "Product Manager"
-      action: "Define requirements and create product roadmap"
-      tools: ["Product management software", "User research data"]
-      duration: "40 hours"
-      outputs: ["Product requirements document", "User stories"]
-    - step: 2
-      actor: "Design Team"
-      action: "Create wireframes, prototypes, and design specifications"
-      tools: ["Design software", "User testing platform"]
-      duration: "60 hours"
-      outputs: ["UI/UX designs", "Prototype feedback"]
-    - step: 3
-      actor: "Engineering Lead"
-      action: "Plan development sprints and allocate resources"
-      tools: ["Agile planning tools", "Resource management system"]
-      duration: "20 hours"
-      outputs: ["Development roadmap", "Sprint planning"]
-    - step: 4
-      actor: "Engineering Team"
-      action: "Implement features with continuous integration"
-      tools: ["Development environment", "Version control", "CI/CD pipeline"]
-      duration: "200 hours"
-      outputs: ["Functional code", "Unit tests"]
-    - step: 5
-      actor: "QA Team"
-      action: "Conduct testing and quality assurance"
-      tools: ["Testing frameworks", "Bug tracking system"]
-      duration: "80 hours"
-      outputs: ["Test reports", "Quality sign-off"]
-    - step: 6
-      actor: "Product Manager"
-      action: "Coordinate launch and gather initial feedback"
-      tools: ["Launch checklist", "Analytics dashboard"]
-      duration: "16 hours"
-      outputs: ["Product launched", "Initial metrics"]
-  success_criteria: "Product launched on time with <5% critical bugs and positive user feedback"
-  failure_modes: ["Scope creep", "Technical debt", "Poor requirements"]
+  - step: 1
+    actor: Product Manager
+    action: Define requirements and create product roadmap
+    tools:
+    - Product management software
+    - User research data
+    duration: 40 hours
+    outputs:
+    - Product requirements document
+    - User stories
+  - step: 2
+    actor: Design Team
+    action: Create wireframes, prototypes, and design specifications
+    tools:
+    - Design software
+    - User testing platform
+    duration: 60 hours
+    outputs:
+    - UI/UX designs
+    - Prototype feedback
+  - step: 3
+    actor: Engineering Lead
+    action: Plan development sprints and allocate resources
+    tools:
+    - Agile planning tools
+    - Resource management system
+    duration: 20 hours
+    outputs:
+    - Development roadmap
+    - Sprint planning
+  - step: 4
+    actor: Engineering Team
+    action: Implement features with continuous integration
+    tools:
+    - Development environment
+    - Version control
+    - CI/CD pipeline
+    duration: 200 hours
+    outputs:
+    - Functional code
+    - Unit tests
+  - step: 5
+    actor: QA Team
+    action: Conduct testing and quality assurance
+    tools:
+    - Testing frameworks
+    - Bug tracking system
+    duration: 80 hours
+    outputs:
+    - Test reports
+    - Quality sign-off
+  - step: 6
+    actor: Product Manager
+    action: Coordinate launch and gather initial feedback
+    tools:
+    - Launch checklist
+    - Analytics dashboard
+    duration: 16 hours
+    outputs:
+    - Product launched
+    - Initial metrics
+  success_criteria: Product launched on time with <5% critical bugs and positive user
+    feedback
+  failure_modes:
+  - Scope creep
+  - Technical debt
+  - Poor requirements
   metrics:
-    - "On-time delivery: 85%"
-    - "Bug rate: <3% critical"
-    - "User satisfaction: 4.2/5"
+  - 'On-time delivery: 85%'
+  - 'Bug rate: <3% critical'
+  - 'User satisfaction: 4.2/5'
   performance_history:
-    success_rate_trend: "60% (2023) → 75% (2024) → 85% (2025)"
-    cost_trend: "$8.5M (2023) → $9.2M (2024) → $9.8M (2025)"
-    efficiency_improvements: ["CI/CD reduced deployment time by 70%", "Agile practices improved predictability by 40%"]
+    success_rate_trend: 60% (2023) → 75% (2024) → 85% (2025)
+    cost_trend: $8.5M (2023) → $9.2M (2024) → $9.8M (2025)
+    efficiency_improvements:
+    - CI/CD reduced deployment time by 70%
+    - Agile practices improved predictability by 40%

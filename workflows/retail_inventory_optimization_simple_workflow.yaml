@@ -1,96 +1,166 @@
 name: Retail Daily Inventory Optimization Workflow
-description: Daily inventory optimization process for retail stores using automated demand forecasting and intelligent reordering systems
+description: Daily inventory optimization process for retail stores using automated
+  demand forecasting and intelligent reordering systems
 industry: retail
 region: Global
 complexity: simple
 temporal_data:
   estimated_duration: 45 minutes daily
   business_hours: 06:00-22:00 local time
-  peak_optimization_periods: ["Pre-weekend restocking", "Holiday preparation", "Seasonal transitions"]
+  peak_optimization_periods:
+  - Pre-weekend restocking
+  - Holiday preparation
+  - Seasonal transitions
 performance_history:
   average_completion_time: 42 minutes
   inventory_accuracy: 97%
   stockout_reduction: 23%
-  cost_savings: "$15K monthly per store"
+  cost_savings: $15K monthly per store
 actors:
-  - role: Store Manager
-    department: Store Operations
-    responsibilities: Inventory oversight, reorder approvals, exception handling
-  - role: Inventory Specialist
-    department: Operations
-    responsibilities: Stock counting, system data entry, discrepancy resolution
-  - role: Supply Chain Coordinator
-    department: Supply Chain
-    responsibilities: Vendor coordination, delivery scheduling, inventory analytics
+- role: Store Manager
+  department: Store Operations
+  responsibilities: Inventory oversight, reorder approvals, exception handling
+- role: Inventory Specialist
+  department: Operations
+  responsibilities: Stock counting, system data entry, discrepancy resolution
+- role: Supply Chain Coordinator
+  department: Supply Chain
+  responsibilities: Vendor coordination, delivery scheduling, inventory analytics
 steps:
-  - id: automated_stock_scan
-    name: Automated Stock Level Scanning
-    description: Systematic scanning of all product categories using handheld RFID/barcode scanners
-    actors: [Inventory Specialist]
-    inputs: [Previous day inventory, Sales data, Return merchandise, Damaged goods reports]
-    outputs: [Current stock levels, Discrepancy reports, Fast-moving item alerts]
-    decision_points:
-      - condition: Stock levels match system records
-        next_step: demand_analysis
-      - condition: Significant discrepancies found
-        next_step: discrepancy_investigation
-    tools: [RFID scanners, Inventory management system, Mobile counting app, Barcode readers]
-    success_criteria: Complete store scan within 30 minutes with 98%+ accuracy
-    failure_modes: [Scanner malfunction, RFID tag issues, System synchronization delays]
-  - id: demand_forecasting
-    name: AI-Driven Demand Forecasting
-    description: Analyze sales patterns and predict upcoming demand using machine learning algorithms
-    actors: [Supply Chain Coordinator, Store Manager]
-    inputs: [Historical sales data, Weather forecasts, Local events calendar, Promotional plans]
-    outputs: [Demand forecasts, Replenishment recommendations, Priority reorder list]
-    decision_points: []
-    tools: [Demand forecasting software, Analytics dashboard, Weather API, Event calendar integration]
-    success_criteria: Forecasts generated with 92%+ accuracy for top 100 SKUs
-    failure_modes: [Data quality issues, Algorithm prediction errors, External factor miscalculation]
-  - id: intelligent_reordering
-    name: Intelligent Reorder Processing
-    description: Generate optimal reorder quantities based on demand forecasts and supplier constraints
-    actors: [Store Manager, Supply Chain Coordinator]
-    inputs: [Demand forecasts, Supplier lead times, Storage capacity, Budget constraints]
-    outputs: [Automated purchase orders, Manual review queue, Budget impact reports]
-    decision_points:
-      - condition: Orders within budget and normal parameters
-        next_step: order_submission
-      - condition: High-value or unusual orders require approval
-        next_step: manager_approval
-    tools: [ERP system, Supplier portals, Budget management software, Order optimization algorithms]
-    success_criteria: Orders processed within 10 minutes with optimal quantity calculations
-    failure_modes: [Supplier system outages, Budget approval delays, Optimization algorithm errors]
-  - id: performance_monitoring
-    name: Performance Monitoring and Reporting
-    description: Monitor key inventory metrics and generate performance reports
-    actors: [Store Manager, Supply Chain Coordinator]
-    inputs: [Reorder data, Sales performance, Inventory turnover metrics, Cost analysis]
-    outputs: [Daily performance dashboard, Exception reports, Improvement recommendations]
-    decision_points: []
-    tools: [Business intelligence dashboard, Reporting tools, Performance analytics, Cost tracking system]
-    success_criteria: Dashboard updated and reports generated within 5 minutes
-    failure_modes: [Reporting system failures, Data inconsistencies, Performance calculation errors]
+- id: automated_stock_scan
+  name: Automated Stock Level Scanning
+  description: Systematic scanning of all product categories using handheld RFID/barcode
+    scanners
+  actors:
+  - Inventory Specialist
+  inputs:
+  - Previous day inventory
+  - Sales data
+  - Return merchandise
+  - Damaged goods reports
+  outputs:
+  - Current stock levels
+  - Discrepancy reports
+  - Fast-moving item alerts
+  decision_points:
+  - condition: Stock levels match system records
+    next_step: demand_analysis
+  - condition: Significant discrepancies found
+    next_step: discrepancy_investigation
+  tools:
+  - RFID scanners
+  - Inventory management system
+  - Mobile counting app
+  - Barcode readers
+  success_criteria: Complete store scan within 30 minutes with 98%+ accuracy
+  failure_modes:
+  - Scanner malfunction
+  - RFID tag issues
+  - System synchronization delays
+- id: demand_forecasting
+  name: AI-Driven Demand Forecasting
+  description: Analyze sales patterns and predict upcoming demand using machine learning
+    algorithms
+  actors:
+  - Supply Chain Coordinator
+  - Store Manager
+  inputs:
+  - Historical sales data
+  - Weather forecasts
+  - Local events calendar
+  - Promotional plans
+  outputs:
+  - Demand forecasts
+  - Replenishment recommendations
+  - Priority reorder list
+  decision_points: []
+  tools:
+  - Demand forecasting software
+  - Analytics dashboard
+  - Weather API
+  - Event calendar integration
+  success_criteria: Forecasts generated with 92%+ accuracy for top 100 SKUs
+  failure_modes:
+  - Data quality issues
+  - Algorithm prediction errors
+  - External factor miscalculation
+- id: intelligent_reordering
+  name: Intelligent Reorder Processing
+  description: Generate optimal reorder quantities based on demand forecasts and supplier
+    constraints
+  actors:
+  - Store Manager
+  - Supply Chain Coordinator
+  inputs:
+  - Demand forecasts
+  - Supplier lead times
+  - Storage capacity
+  - Budget constraints
+  outputs:
+  - Automated purchase orders
+  - Manual review queue
+  - Budget impact reports
+  decision_points:
+  - condition: Orders within budget and normal parameters
+    next_step: order_submission
+  - condition: High-value or unusual orders require approval
+    next_step: manager_approval
+  tools:
+  - ERP system
+  - Supplier portals
+  - Budget management software
+  - Order optimization algorithms
+  success_criteria: Orders processed within 10 minutes with optimal quantity calculations
+  failure_modes:
+  - Supplier system outages
+  - Budget approval delays
+  - Optimization algorithm errors
+- id: performance_monitoring
+  name: Performance Monitoring and Reporting
+  description: Monitor key inventory metrics and generate performance reports
+  actors:
+  - Store Manager
+  - Supply Chain Coordinator
+  inputs:
+  - Reorder data
+  - Sales performance
+  - Inventory turnover metrics
+  - Cost analysis
+  outputs:
+  - Daily performance dashboard
+  - Exception reports
+  - Improvement recommendations
+  decision_points: []
+  tools:
+  - Business intelligence dashboard
+  - Reporting tools
+  - Performance analytics
+  - Cost tracking system
+  success_criteria: Dashboard updated and reports generated within 5 minutes
+  failure_modes:
+  - Reporting system failures
+  - Data inconsistencies
+  - Performance calculation errors
 success_criteria:
-  - Daily inventory optimization completed within 45 minutes
-  - Stock accuracy maintained above 95%
-  - Zero stockouts for top 50 SKUs
-  - Inventory carrying costs optimized within budget parameters
+- Daily inventory optimization completed within 45 minutes
+- Stock accuracy maintained above 95%
+- Zero stockouts for top 50 SKUs
+- Inventory carrying costs optimized within budget parameters
 failure_modes:
-  - Technology system failures
-  - Demand forecasting inaccuracies
-  - Supplier delivery delays
-  - Budget constraint violations
+- Technology system failures
+- Demand forecasting inaccuracies
+- Supplier delivery delays
+- Budget constraint violations
 metrics:
-  - name: Inventory Accuracy
-    target: ">95%"
-    current: 97%
-  - name: Stockout Incidents
-    target: "0 per week for top 50 SKUs"
-    current: "0.2 per week"
-  - name: Process Completion Time
-    target: "<45 minutes"
-    current: 42 minutes
-  - name: Cost Optimization
-    target: ">10% monthly savings"
-    current: 12%
+- name: Inventory Accuracy
+  target: '>95%'
+  current: 97%
+- name: Stockout Incidents
+  target: 0 per week for top 50 SKUs
+  current: 0.2 per week
+- name: Process Completion Time
+  target: <45 minutes
+  current: 42 minutes
+- name: Cost Optimization
+  target: '>10% monthly savings'
+  current: 12%

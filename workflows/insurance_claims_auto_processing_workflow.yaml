@@ -10,9 +10,11 @@ workflow:
     last_updated: "2024-08-20"
     typical_cycle_time: "5-7 business days"
     average_annual_executions: 15000
-    seasonal_variations: ["Winter peak for weather-related claims", "Summer increase in collision claims"]
+    seasonal_variations:
+    - "Winter peak for weather-related claims"
+    - "Summer increase in collision claims"
     historical_evolution: "AI-powered fraud detection added in 2023, reducing fraudulent claims by 35%"
-   steps:
+  steps:
     - step: 1
       actor: "Claims Adjuster"
       action: "Review claim submission and initial documentation"
@@ -39,8 +41,8 @@ workflow:
       tools: ["Claims approval system"]
       duration: "1 hour"
       outputs: ["Payment authorization", "Claim closure notification"]
-   success_criteria: "Claim processed within 7 days with accurate damage assessment and fraud prevention"
-   failure_modes: ["Insufficient documentation", "Disputed damage assessment", "Fraud detection flags"]
+  success_criteria: "Claim processed within 7 days with accurate damage assessment and fraud prevention"
+  failure_modes: ["Insufficient documentation", "Disputed damage assessment", "Fraud detection flags"]
   metrics:
      - "Processing time: 5.2 days average"
      - "Fraud detection accuracy: 94%"

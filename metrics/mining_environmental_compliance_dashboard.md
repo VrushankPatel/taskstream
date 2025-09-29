@@ -1,9 +1,9 @@
 # Mining Environmental Compliance Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q4 2024 (2024-10-01 to 2024-12-31)  
-**Last Updated:** 2024-12-15  
-**Report Owner:** Environmental Compliance Director  
+**Report Period:** Q4 2024 (2024-10-01 to 2024-12-31)
+**Last Updated:** 2024-12-15
+**Report Owner:** Environmental Compliance Director
 **Facilities Covered:** 8 mining operations across 3 countries
 
 ## Key Performance Indicators

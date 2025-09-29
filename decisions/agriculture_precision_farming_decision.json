@@ -3,8 +3,15 @@
   "context": "Large agricultural cooperative facing climate change impacts and input cost pressures, evaluating precision farming technology adoption",
   "stakeholders": {
     "requester": "Chief Agronomist",
-    "approvers": ["Board of Directors", "CEO"],
-    "influencers": ["Farm Operations Manager", "Finance Director", "Technology Committee"]
+    "approvers": [
+      "Board of Directors",
+      "CEO"
+    ],
+    "influencers": [
+      "Farm Operations Manager",
+      "Finance Director",
+      "Technology Committee"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,28 +23,51 @@
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["Vendor assessments", "Field trials", "Cost analysis"],
+      "activities": [
+        "Vendor assessments",
+        "Field trials",
+        "Cost analysis"
+      ],
       "outcome": "Selected integrated platform solution"
     },
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Pilot farm implementation", "Data collection", "Farmer training"],
+      "activities": [
+        "Pilot farm implementation",
+        "Data collection",
+        "Farmer training"
+      ],
       "outcome": "15% yield increase, 20% input reduction"
     },
     {
       "stage": "scaling_assessment",
       "duration": "2 weeks",
-      "activities": ["Infrastructure requirements", "Training needs", "Financial modeling"],
+      "activities": [
+        "Infrastructure requirements",
+        "Training needs",
+        "Financial modeling"
+      ],
       "outcome": "Feasible scaling plan developed"
     }
   ],
   "business_impact": {
     "expected_outcome": "Improved yields, reduced input costs, climate resilience, sustainable certification",
     "projected_value": "$8,000,000 annual savings, $25,000,000 NPV",
-    "risk_factors": ["Technology reliability", "Farmer adoption resistance", "Data privacy concerns", "Infrastructure costs"]
+    "risk_factors": [
+      "Technology reliability",
+      "Farmer adoption resistance",
+      "Data privacy concerns",
+      "Infrastructure costs"
+    ]
   },
-  "decision_criteria": ["ROI >200%", "Adoption rate >70%", "Measurable yield improvement", "Climate resilience enhancement", "Scalable across cooperative farms"],
+  "decision_criteria": [
+    "ROI >200%",
+    "Adoption rate >70%",
+    "Measurable yield improvement",
+    "Climate resilience enhancement",
+    "Scalable across cooperative farms"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Farmer training and support critical for adoption, pilot programs essential for proving value, data ownership agreements important for trust"
 }

@@ -1,52 +1,96 @@
 workflow:
-  id: "retail_eu_simple_product_return_processing"
-  title: "EU Retail Product Return Processing"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Rep", "Warehouse Associate", "Returns Coordinator", "Finance Team"]
-  trigger: "Customer initiates return request through online portal or in-store"
+  id: retail_eu_simple_product_return_processing
+  title: EU Retail Product Return Processing
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Rep
+  - Warehouse Associate
+  - Returns Coordinator
+  - Finance Team
+  trigger: Customer initiates return request through online portal or in-store
   temporal_data:
-    first_implemented: "2019-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "5-7 business days"
+    first_implemented: '2019-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 5-7 business days
     average_annual_executions: 24500
-    seasonal_variations: ["Q4 holiday returns peak 40% increase", "Q1 post-holiday 35% above baseline"]
-    historical_evolution: "Automated from manual paper process in 2019, added AI fraud detection 2023, integrated with EU GDPR compliance 2024"
+    seasonal_variations:
+    - Q4 holiday returns peak 40% increase
+    - Q1 post-holiday 35% above baseline
+    historical_evolution: Automated from manual paper process in 2019, added AI fraud
+      detection 2023, integrated with EU GDPR compliance 2024
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Validate return request against EU consumer rights and company policy"
-      tools: ["CRM System", "GDPR Compliance Checker", "Return Policy Database"]
-      duration: "10 minutes"
-      outputs: ["Return Authorization", "GDPR Compliance Certificate"]
-      decision_points: ["Within 14-day EU cooling-off period", "Product condition acceptable", "Original receipt available"]
-    - step: 2
-      actor: "Warehouse Associate"
-      action: "Receive and inspect returned product for quality and completeness"
-      tools: ["Quality Inspection Checklist", "Product Scanner", "Damage Assessment App"]
-      duration: "15 minutes"
-      outputs: ["Quality Report", "Condition Assessment", "Restocking Decision"]
-      decision_points: ["Product resalable condition", "Original packaging intact", "All accessories included"]
-    - step: 3
-      actor: "Returns Coordinator"
-      action: "Process refund or exchange based on customer preference and EU regulations"
-      tools: ["Payment Processing System", "Exchange Management Portal", "EU Tax Calculator"]
-      duration: "20 minutes"
-      outputs: ["Refund Authorization", "Exchange Order", "Tax Adjustment"]
-    - step: 4
-      actor: "Finance Team"
-      action: "Execute refund payment and update financial records with EU VAT considerations"
-      tools: ["ERP System", "Banking Interface", "EU VAT Reporting Tool"]
-      duration: "30 minutes"
-      outputs: ["Payment Confirmation", "Accounting Entry", "VAT Adjustment Record"]
-  success_criteria: "Customer receives refund within 5 business days, 95%+ customer satisfaction, EU regulation compliance maintained"
-  failure_modes: ["GDPR data handling violations", "Delayed refund processing", "Incorrect VAT calculations", "Lost return shipments"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Validate return request against EU consumer rights and company policy
+    tools:
+    - CRM System
+    - GDPR Compliance Checker
+    - Return Policy Database
+    duration: 10 minutes
+    outputs:
+    - Return Authorization
+    - GDPR Compliance Certificate
+    decision_points:
+    - Within 14-day EU cooling-off period
+    - Product condition acceptable
+    - Original receipt available
+  - step: 2
+    actor: Warehouse Associate
+    action: Receive and inspect returned product for quality and completeness
+    tools:
+    - Quality Inspection Checklist
+    - Product Scanner
+    - Damage Assessment App
+    duration: 15 minutes
+    outputs:
+    - Quality Report
+    - Condition Assessment
+    - Restocking Decision
+    decision_points:
+    - Product resalable condition
+    - Original packaging intact
+    - All accessories included
+  - step: 3
+    actor: Returns Coordinator
+    action: Process refund or exchange based on customer preference and EU regulations
+    tools:
+    - Payment Processing System
+    - Exchange Management Portal
+    - EU Tax Calculator
+    duration: 20 minutes
+    outputs:
+    - Refund Authorization
+    - Exchange Order
+    - Tax Adjustment
+  - step: 4
+    actor: Finance Team
+    action: Execute refund payment and update financial records with EU VAT considerations
+    tools:
+    - ERP System
+    - Banking Interface
+    - EU VAT Reporting Tool
+    duration: 30 minutes
+    outputs:
+    - Payment Confirmation
+    - Accounting Entry
+    - VAT Adjustment Record
+  success_criteria: Customer receives refund within 5 business days, 95%+ customer
+    satisfaction, EU regulation compliance maintained
+  failure_modes:
+  - GDPR data handling violations
+  - Delayed refund processing
+  - Incorrect VAT calculations
+  - Lost return shipments
   metrics:
-    - "Return processing time: <5 business days (current: 4.2 days)"
-    - "Customer satisfaction: >95% (current: 97.3%)"
-    - "EU compliance rate: >99.5% (current: 99.8%)"
-    - "Processing cost per return: <€12 (current: €10.50)"
+  - 'Return processing time: <5 business days (current: 4.2 days)'
+  - 'Customer satisfaction: >95% (current: 97.3%)'
+  - 'EU compliance rate: >99.5% (current: 99.8%)'
+  - 'Processing cost per return: <€12 (current: €10.50)'
   performance_history:
-    success_rate_trend: "94% (2022) → 96% (2023) → 97.3% (2024)"
-    cost_trend: "€14.20 (2022) → €12.10 (2023) → €10.50 (2024)"
-    efficiency_improvements: ["AI fraud detection reduced manual reviews by 35%", "Automated GDPR compliance checks saved 2.5 hours per day", "Mobile inspection app increased accuracy by 15%"]
+    success_rate_trend: 94% (2022) → 96% (2023) → 97.3% (2024)
+    cost_trend: €14.20 (2022) → €12.10 (2023) → €10.50 (2024)
+    efficiency_improvements:
+    - AI fraud detection reduced manual reviews by 35%
+    - Automated GDPR compliance checks saved 2.5 hours per day
+    - Mobile inspection app increased accuracy by 15%

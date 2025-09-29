@@ -2,13 +2,13 @@
 
 ## Policy Overview
 
-**Policy Name:** Asia-Pacific Customer Data Privacy and Protection Framework  
-**Policy Number:** RDP-2024-003  
-**Version:** 2.1  
-**Effective Date:** December 1, 2024  
-**Last Reviewed:** November 10, 2024  
-**Next Review:** November 10, 2025  
-**Owner:** Chief Privacy Officer, Asia-Pacific Retail Operations  
+**Policy Name:** Asia-Pacific Customer Data Privacy and Protection Framework
+**Policy Number:** RDP-2024-003
+**Version:** 2.1
+**Effective Date:** December 1, 2024
+**Last Reviewed:** November 10, 2024
+**Next Review:** November 10, 2025
+**Owner:** Chief Privacy Officer, Asia-Pacific Retail Operations
 **Scope:** All retail operations and e-commerce platforms across 12 Asia-Pacific markets
 
 ---
@@ -429,11 +429,11 @@ This comprehensive framework establishes unified data privacy standards for reta
 
 ---
 
-**Policy Approved By:**  
-Dr. Li Wei, Chief Privacy Officer, Asia-Pacific  
+**Policy Approved By:**
+Dr. Li Wei, Chief Privacy Officer, Asia-Pacific
 Date: November 10, 2024
 
-**Distribution:**  
+**Distribution:**
 All Asia-Pacific Operations Personnel, IT Teams, Marketing Departments, Customer Service, Legal Affairs, Executive Leadership
 
 **Next Review Date:** November 10, 2025

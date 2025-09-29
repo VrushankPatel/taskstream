@@ -4,8 +4,15 @@
   "context": "EU agricultural cooperative with 500 farmers and 50,000 hectares facing EU Green Deal requirements for carbon neutrality by 2050",
   "stakeholders": {
     "requester": "Sustainability Director",
-    "approvers": ["CEO", "Board Sustainability Committee"],
-    "influencers": ["Farm Operations Manager", "Finance Director", "Regulatory Compliance Officer"]
+    "approvers": [
+      "CEO",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Farm Operations Manager",
+      "Finance Director",
+      "Regulatory Compliance Officer"
+    ]
   },
   "request": {
     "amount": "€2,800,000",
@@ -19,7 +26,11 @@
       "start_date": "2025-04-01",
       "end_date": "2025-04-30",
       "duration": "30 days",
-      "activities": ["Farm carbon footprint analysis", "Regenerative farming potential assessment", "Market opportunity evaluation"],
+      "activities": [
+        "Farm carbon footprint analysis",
+        "Regenerative farming potential assessment",
+        "Market opportunity evaluation"
+      ],
       "outcome": "Identified 25,000 tons annual carbon credit potential"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-05-01",
       "end_date": "2025-05-20",
       "duration": "20 days",
-      "activities": ["Trading platform evaluation", "Certification program review", "Cost-benefit analysis"],
+      "activities": [
+        "Trading platform evaluation",
+        "Certification program review",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Selected integrated carbon management platform"
     },
     {
@@ -35,7 +50,11 @@
       "start_date": "2025-05-21",
       "end_date": "2025-06-15",
       "duration": "26 days",
-      "activities": ["Farmer training programs", "Incentive structure design", "Adoption risk assessment"],
+      "activities": [
+        "Farmer training programs",
+        "Incentive structure design",
+        "Adoption risk assessment"
+      ],
       "outcome": "70% farmer participation commitment secured"
     }
   ],
@@ -44,14 +63,28 @@
     "projected_value": "€15,000,000 cumulative carbon credits over 10 years",
     "actual_value": "TBD (implementation starting Q3 2025)",
     "roi_timeline": "Expected payback in 24 months",
-    "risk_factors": ["Farmer adoption challenges", "Carbon price volatility", "Regulatory changes"]
+    "risk_factors": [
+      "Farmer adoption challenges",
+      "Carbon price volatility",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Carbon credit revenue >€1M annually", "Farmer participation >60%", "EU Green Deal compliance", "Soil health improvement measurable", "Platform scalability"],
+  "decision_criteria": [
+    "Carbon credit revenue >€1M annually",
+    "Farmer participation >60%",
+    "EU Green Deal compliance",
+    "Soil health improvement measurable",
+    "Platform scalability"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-07-01",
     "completion_date": "2026-06-30",
-    "milestones": ["Platform deployment: 2025-09-30", "Farmer training completion: 2025-12-31", "First carbon credit sales: 2026-03-31"]
+    "milestones": [
+      "Platform deployment: 2025-09-30",
+      "Farmer training completion: 2025-12-31",
+      "First carbon credit sales: 2026-03-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Farmer adoption rates and initial carbon measurements",

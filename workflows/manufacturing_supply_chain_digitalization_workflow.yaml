@@ -1,67 +1,131 @@
 workflow:
-  id: "workflow_manufacturing_supply_chain_digitalization"
-  title: "Manufacturing Supply Chain Digitalization Process"
-  department: "Supply Chain"
-  complexity: "complex"
-  participants: ["Supply Chain Manager", "IT Director", "Operations Director", "Vendor Relations", "Quality Assurance", "Finance Controller", "Change Management Lead"]
-  trigger: "Digital transformation initiative approved or supply chain inefficiency identified"
+  id: workflow_manufacturing_supply_chain_digitalization
+  title: Manufacturing Supply Chain Digitalization Process
+  department: Supply Chain
+  complexity: complex
+  participants:
+  - Supply Chain Manager
+  - IT Director
+  - Operations Director
+  - Vendor Relations
+  - Quality Assurance
+  - Finance Controller
+  - Change Management Lead
+  trigger: Digital transformation initiative approved or supply chain inefficiency
+    identified
   temporal_data:
-    first_implemented: "2022-09-01"
-    last_updated: "2024-11-30"
-    typical_cycle_time: "6-9 months"
+    first_implemented: '2022-09-01'
+    last_updated: '2024-11-30'
+    typical_cycle_time: 6-9 months
     average_annual_executions: 8
-    seasonal_variations: ["Q4 planning and budgeting (50% of initiatives)", "Q2 implementation focus (30% completion)"]
-    historical_evolution: "Manual processes in 2022, ERP integration in 2023, full digital twin implementation in 2024, AI optimization in 2025"
+    seasonal_variations:
+    - Q4 planning and budgeting (50% of initiatives)
+    - Q2 implementation focus (30% completion)
+    historical_evolution: Manual processes in 2022, ERP integration in 2023, full
+      digital twin implementation in 2024, AI optimization in 2025
   steps:
-    - step: 1
-      actor: "Supply Chain Manager"
-      action: "Conduct current state analysis and identify digitalization opportunities"
-      tools: ["Process mapping software", "Performance analytics", "Benchmarking tools"]
-      duration: "4 weeks"
-      outputs: ["Current state assessment", "Opportunity analysis", "Digitalization roadmap"]
-    - step: 2
-      actor: "IT Director"
-      action: "Design technical architecture and select technology solutions"
-      tools: ["Architecture design tools", "Vendor evaluation platform", "Integration planning software"]
-      duration: "6 weeks"
-      outputs: ["Technical architecture", "Technology stack", "Integration plan", "Vendor contracts"]
-    - step: 3
-      actor: "Operations Director"
-      action: "Assess operational impacts and develop implementation procedures"
-      tools: ["Operations simulation software", "Change impact analysis", "Process redesign tools"]
-      duration: "5 weeks"
-      outputs: ["Operational impact assessment", "Implementation procedures", "Process documentation"]
-    - step: 4
-      actor: "Vendor Relations"
-      action: "Negotiate with suppliers and establish digital collaboration frameworks"
-      tools: ["Supplier portal", "Contract management system", "Collaboration platforms"]
-      duration: "4 weeks"
-      outputs: ["Supplier agreements", "Digital collaboration protocols", "Data sharing frameworks"]
-    - step: 5
-      actor: "Quality Assurance"
-      action: "Develop quality controls and validation procedures for digital processes"
-      tools: ["Quality management system", "Testing frameworks", "Audit tools"]
-      duration: "3 weeks"
-      outputs: ["Quality control procedures", "Validation protocols", "Audit schedules"]
-    - step: 6
-      actor: "Finance Controller"
-      action: "Conduct cost-benefit analysis and establish ROI tracking"
-      tools: ["Financial modeling software", "ROI tracking tools", "Budget management system"]
-      duration: "3 weeks"
-      outputs: ["Cost-benefit analysis", "ROI projections", "Budget allocation", "Performance metrics"]
-    - step: 7
-      actor: "Change Management Lead"
-      action: "Develop training programs and manage organizational change"
-      tools: ["Change management software", "Training platforms", "Communication tools"]
-      duration: "4 weeks"
-      outputs: ["Training program", "Change management plan", "Communication strategy"]
-  success_criteria: "20% improvement in supply chain efficiency, successful system go-live, user adoption >90%"
-  failure_modes: ["Technology integration failures", "Supplier resistance", "Employee training gaps", "Data quality issues", "Budget overruns"]
+  - step: 1
+    actor: Supply Chain Manager
+    action: Conduct current state analysis and identify digitalization opportunities
+    tools:
+    - Process mapping software
+    - Performance analytics
+    - Benchmarking tools
+    duration: 4 weeks
+    outputs:
+    - Current state assessment
+    - Opportunity analysis
+    - Digitalization roadmap
+  - step: 2
+    actor: IT Director
+    action: Design technical architecture and select technology solutions
+    tools:
+    - Architecture design tools
+    - Vendor evaluation platform
+    - Integration planning software
+    duration: 6 weeks
+    outputs:
+    - Technical architecture
+    - Technology stack
+    - Integration plan
+    - Vendor contracts
+  - step: 3
+    actor: Operations Director
+    action: Assess operational impacts and develop implementation procedures
+    tools:
+    - Operations simulation software
+    - Change impact analysis
+    - Process redesign tools
+    duration: 5 weeks
+    outputs:
+    - Operational impact assessment
+    - Implementation procedures
+    - Process documentation
+  - step: 4
+    actor: Vendor Relations
+    action: Negotiate with suppliers and establish digital collaboration frameworks
+    tools:
+    - Supplier portal
+    - Contract management system
+    - Collaboration platforms
+    duration: 4 weeks
+    outputs:
+    - Supplier agreements
+    - Digital collaboration protocols
+    - Data sharing frameworks
+  - step: 5
+    actor: Quality Assurance
+    action: Develop quality controls and validation procedures for digital processes
+    tools:
+    - Quality management system
+    - Testing frameworks
+    - Audit tools
+    duration: 3 weeks
+    outputs:
+    - Quality control procedures
+    - Validation protocols
+    - Audit schedules
+  - step: 6
+    actor: Finance Controller
+    action: Conduct cost-benefit analysis and establish ROI tracking
+    tools:
+    - Financial modeling software
+    - ROI tracking tools
+    - Budget management system
+    duration: 3 weeks
+    outputs:
+    - Cost-benefit analysis
+    - ROI projections
+    - Budget allocation
+    - Performance metrics
+  - step: 7
+    actor: Change Management Lead
+    action: Develop training programs and manage organizational change
+    tools:
+    - Change management software
+    - Training platforms
+    - Communication tools
+    duration: 4 weeks
+    outputs:
+    - Training program
+    - Change management plan
+    - Communication strategy
+  success_criteria: 20% improvement in supply chain efficiency, successful system
+    go-live, user adoption >90%
+  failure_modes:
+  - Technology integration failures
+  - Supplier resistance
+  - Employee training gaps
+  - Data quality issues
+  - Budget overruns
   metrics:
-    - "Efficiency Improvement: 20% target"
-    - "Implementation Time: <9 months"
-    - "User Adoption: >90%"
+  - 'Efficiency Improvement: 20% target'
+  - 'Implementation Time: <9 months'
+  - 'User Adoption: >90%'
   performance_history:
-    success_rate_trend: "70% (2023) → 80% (2024) → 88% (2025)"
-    cost_trend: "$1.2M (2023) → $1.0M (2024) → $0.9M (2025)"
-    efficiency_improvements: ["Digital twin reduced planning time by 45%", "AI optimization improved forecasting accuracy by 30%", "Automated quality controls reduced defects by 25%"]
+    success_rate_trend: 70% (2023) → 80% (2024) → 88% (2025)
+    cost_trend: $1.2M (2023) → $1.0M (2024) → $0.9M (2025)
+    efficiency_improvements:
+    - Digital twin reduced planning time by 45%
+    - AI optimization improved forecasting accuracy by 30%
+    - Automated quality controls reduced defects by 25%

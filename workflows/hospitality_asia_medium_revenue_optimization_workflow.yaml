@@ -1,62 +1,130 @@
 workflow:
-  id: "workflow_HSP_ASIA_002"
-  title: "Asia-Pacific Revenue Management Optimization"
-  department: "Revenue Management"
-  complexity: "medium"
-  participants: ["Revenue Manager", "Data Analyst", "Pricing Specialist", "Market Intelligence Coordinator", "General Manager"]
-  trigger: "Daily revenue optimization cycle or market condition changes"
+  id: workflow_HSP_ASIA_002
+  title: Asia-Pacific Revenue Management Optimization
+  department: Revenue Management
+  complexity: medium
+  participants:
+  - Revenue Manager
+  - Data Analyst
+  - Pricing Specialist
+  - Market Intelligence Coordinator
+  - General Manager
+  trigger: Daily revenue optimization cycle or market condition changes
   temporal_data:
-    first_implemented: "2020-08-10"
-    last_updated: "2024-12-01"
-    typical_cycle_time: "4-6 hours daily"
+    first_implemented: '2020-08-10'
+    last_updated: '2024-12-01'
+    typical_cycle_time: 4-6 hours daily
     average_annual_executions: 365
-    seasonal_variations: ["Chinese New Year +45% demand surge", "Golden Week +35% premium", "Monsoon season -20% adjustment"]
-    historical_evolution: "AI-driven pricing algorithms introduced in 2022 increased RevPAR by 18% while maintaining cultural sensitivity and local market dynamics"
+    seasonal_variations:
+    - Chinese New Year +45% demand surge
+    - Golden Week +35% premium
+    - Monsoon season -20% adjustment
+    historical_evolution: AI-driven pricing algorithms introduced in 2022 increased
+      RevPAR by 18% while maintaining cultural sensitivity and local market dynamics
   steps:
-    - step: 1
-      actor: "Data Analyst"
-      action: "Collect and analyze market data with cultural context"
-      tools: ["PMS System", "Market Intelligence Platform", "Cultural Calendar API", "Competitor Monitoring"]
-      duration: "45-60 minutes"
-      outputs: ["Market Analysis Report", "Cultural Event Impact Assessment", "Competitor Rate Matrix"]
-      decision_points: ["Local holiday impact assessment", "Cultural preference patterns", "Regional economic indicators"]
-    - step: 2
-      actor: "Pricing Specialist"
-      action: "Develop culturally-adapted pricing strategies"
-      tools: ["Revenue Management System", "AI Pricing Engine", "Cultural Sensitivity Matrix", "Exchange Rate Monitor"]
-      duration: "90-120 minutes"
-      outputs: ["Pricing Recommendations", "Cultural Adaptation Notes", "Revenue Projections"]
-      decision_points: ["Price sensitivity by market segment", "Cultural appropriateness", "Currency hedging requirements"]
-    - step: 3
-      actor: "Market Intelligence Coordinator"
-      action: "Validate pricing against local market dynamics"
-      tools: ["Local Market Database", "Social Media Monitoring", "Travel Pattern Analytics", "Economic Forecasting"]
-      duration: "60-75 minutes"
-      outputs: ["Market Validation Report", "Risk Assessment", "Cultural Compliance Check"]
-      decision_points: ["Local market acceptance", "Regulatory compliance", "Brand positioning impact"]
-    - step: 4
-      actor: "Revenue Manager"
-      action: "Implement optimized pricing with cultural considerations"
-      tools: ["Property Management System", "Channel Manager", "Dynamic Pricing Engine", "Performance Dashboard"]
-      duration: "30-45 minutes"
-      outputs: ["Rate Updates", "Channel Distribution", "Performance Alerts"]
-      decision_points: ["Channel-specific pricing", "Inventory allocation", "Overbooking thresholds"]
-    - step: 5
-      actor: "General Manager"
-      action: "Review and approve strategic pricing decisions"
-      tools: ["Executive Dashboard", "Financial Reporting System", "Guest Satisfaction Monitor"]
-      duration: "15-30 minutes"
-      outputs: ["Approval Decision", "Strategic Direction", "Performance Goals"]
-      decision_points: ["Brand standard compliance", "Guest satisfaction impact", "Long-term market positioning"]
-  success_criteria: "Revenue Per Available Room (RevPAR) optimization while maintaining guest satisfaction >4.2/5.0 and cultural appropriateness"
-  failure_modes: ["Cultural insensitivity in pricing", "Market intelligence delays", "System integration failures", "Currency volatility impact", "Regulatory compliance issues"]
+  - step: 1
+    actor: Data Analyst
+    action: Collect and analyze market data with cultural context
+    tools:
+    - PMS System
+    - Market Intelligence Platform
+    - Cultural Calendar API
+    - Competitor Monitoring
+    duration: 45-60 minutes
+    outputs:
+    - Market Analysis Report
+    - Cultural Event Impact Assessment
+    - Competitor Rate Matrix
+    decision_points:
+    - Local holiday impact assessment
+    - Cultural preference patterns
+    - Regional economic indicators
+  - step: 2
+    actor: Pricing Specialist
+    action: Develop culturally-adapted pricing strategies
+    tools:
+    - Revenue Management System
+    - AI Pricing Engine
+    - Cultural Sensitivity Matrix
+    - Exchange Rate Monitor
+    duration: 90-120 minutes
+    outputs:
+    - Pricing Recommendations
+    - Cultural Adaptation Notes
+    - Revenue Projections
+    decision_points:
+    - Price sensitivity by market segment
+    - Cultural appropriateness
+    - Currency hedging requirements
+  - step: 3
+    actor: Market Intelligence Coordinator
+    action: Validate pricing against local market dynamics
+    tools:
+    - Local Market Database
+    - Social Media Monitoring
+    - Travel Pattern Analytics
+    - Economic Forecasting
+    duration: 60-75 minutes
+    outputs:
+    - Market Validation Report
+    - Risk Assessment
+    - Cultural Compliance Check
+    decision_points:
+    - Local market acceptance
+    - Regulatory compliance
+    - Brand positioning impact
+  - step: 4
+    actor: Revenue Manager
+    action: Implement optimized pricing with cultural considerations
+    tools:
+    - Property Management System
+    - Channel Manager
+    - Dynamic Pricing Engine
+    - Performance Dashboard
+    duration: 30-45 minutes
+    outputs:
+    - Rate Updates
+    - Channel Distribution
+    - Performance Alerts
+    decision_points:
+    - Channel-specific pricing
+    - Inventory allocation
+    - Overbooking thresholds
+  - step: 5
+    actor: General Manager
+    action: Review and approve strategic pricing decisions
+    tools:
+    - Executive Dashboard
+    - Financial Reporting System
+    - Guest Satisfaction Monitor
+    duration: 15-30 minutes
+    outputs:
+    - Approval Decision
+    - Strategic Direction
+    - Performance Goals
+    decision_points:
+    - Brand standard compliance
+    - Guest satisfaction impact
+    - Long-term market positioning
+  success_criteria: Revenue Per Available Room (RevPAR) optimization while maintaining
+    guest satisfaction >4.2/5.0 and cultural appropriateness
+  failure_modes:
+  - Cultural insensitivity in pricing
+  - Market intelligence delays
+  - System integration failures
+  - Currency volatility impact
+  - Regulatory compliance issues
   metrics:
-    - "RevPAR Growth: Target +12% YoY (Current: +15.3%)"
-    - "Guest Satisfaction: Target >4.2/5.0 (Current: 4.4/5.0)"
-    - "Market Share: Target 18% (Current: 19.2%)"
-    - "Cultural Appropriateness Score: Target >95% (Current: 97%)"
-    - "Pricing Accuracy: Target >92% (Current: 94%)"
+  - 'RevPAR Growth: Target +12% YoY (Current: +15.3%)'
+  - 'Guest Satisfaction: Target >4.2/5.0 (Current: 4.4/5.0)'
+  - 'Market Share: Target 18% (Current: 19.2%)'
+  - 'Cultural Appropriateness Score: Target >95% (Current: 97%)'
+  - 'Pricing Accuracy: Target >92% (Current: 94%)'
   performance_history:
-    success_rate_trend: "88% (2023) → 92% (2024) → 95% (2025 target)"
-    cost_trend: "Revenue optimization improved profit margins by 22% while maintaining cultural sensitivity"
-    efficiency_improvements: ["AI algorithms reduced pricing time by 35%", "Cultural matrix improved guest satisfaction by 12%", "Real-time market data increased accuracy by 28%"]
+    success_rate_trend: 88% (2023) → 92% (2024) → 95% (2025 target)
+    cost_trend: Revenue optimization improved profit margins by 22% while maintaining
+      cultural sensitivity
+    efficiency_improvements:
+    - AI algorithms reduced pricing time by 35%
+    - Cultural matrix improved guest satisfaction by 12%
+    - Real-time market data increased accuracy by 28%

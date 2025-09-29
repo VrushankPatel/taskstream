@@ -6,8 +6,8 @@ The Sales Enablement team supports a 200-person sales organization by providing 
 ## Leadership Structure
 
 ### Director of Sales Enablement
-**Reports to:** VP Sales  
-**Direct Reports:** 3 Managers  
+**Reports to:** VP Sales
+**Direct Reports:** 3 Managers
 **Responsibilities:**
 - Strategic planning for sales enablement
 - Budget management ($3.2M annual)
@@ -15,8 +15,8 @@ The Sales Enablement team supports a 200-person sales organization by providing 
 - Performance metrics and ROI tracking
 
 ### Sales Enablement Managers (3)
-**Reports to:** Director of Sales Enablement  
-**Direct Reports:** 4-6 Specialists each  
+**Reports to:** Director of Sales Enablement
+**Direct Reports:** 4-6 Specialists each
 **Responsibilities:**
 - Team leadership and development
 - Content creation and management
@@ -45,7 +45,7 @@ The Sales Enablement team supports a 200-person sales organization by providing 
 - Vendor management
 
 ### Sales Enablement Specialists (15)
-**Reports to:** Sales Enablement Managers  
+**Reports to:** Sales Enablement Managers
 **Responsibilities:**
 - Content creation and updates
 - Training session delivery

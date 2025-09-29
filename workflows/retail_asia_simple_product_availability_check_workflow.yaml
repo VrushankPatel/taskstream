@@ -1,47 +1,78 @@
 workflow:
-  id: "workflow_retail_asia_simple_product_availability_001"
-  title: "Product Availability Check Process"
-  department: "Retail Operations"
-  complexity: "simple"
-  participants: ["Store Associate", "Inventory Coordinator", "Customer Service"]
-  trigger: "Customer inquiry about product availability"
+  id: workflow_retail_asia_simple_product_availability_001
+  title: Product Availability Check Process
+  department: Retail Operations
+  complexity: simple
+  participants:
+  - Store Associate
+  - Inventory Coordinator
+  - Customer Service
+  trigger: Customer inquiry about product availability
   temporal_data:
-    first_implemented: "2021-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "5 minutes"
+    first_implemented: '2021-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 5 minutes
     average_annual_executions: 45000
-    seasonal_variations: ["Holiday season 300% increase", "Back-to-school 150% increase"]
-    historical_evolution: "Originally manual phone-based process, digitized in 2022 with mobile app integration, added real-time inventory sync in 2024"
+    seasonal_variations:
+    - Holiday season 300% increase
+    - Back-to-school 150% increase
+    historical_evolution: Originally manual phone-based process, digitized in 2022
+      with mobile app integration, added real-time inventory sync in 2024
   steps:
-    - step: 1
-      actor: "Store Associate"
-      action: "Receive customer inquiry about product availability"
-      tools: ["Point of Sale System", "Mobile Inventory App"]
-      duration: "1 minute"
-      outputs: ["Customer inquiry logged"]
-      decision_points: ["In-store vs online inquiry", "Immediate vs future availability"]
-    - step: 2
-      actor: "Store Associate"
-      action: "Check real-time inventory system for product status"
-      tools: ["Inventory Management System", "Barcode Scanner"]
-      duration: "2 minutes"
-      outputs: ["Current stock levels", "Store location details"]
-      decision_points: ["Available in store", "Available in other locations", "Out of stock"]
-    - step: 3
-      actor: "Store Associate"
-      action: "Provide availability information to customer"
-      tools: ["Customer Communication System", "Store Directory"]
-      duration: "2 minutes"
-      outputs: ["Availability confirmation", "Alternative options offered"]
-      decision_points: ["Reserve item", "Check other stores", "Suggest alternatives"]
-  success_criteria: "Customer receives accurate availability information within 5 minutes"
-  failure_modes: ["System downtime preventing inventory check", "Inaccurate inventory data", "Staff unavailable to assist"]
+  - step: 1
+    actor: Store Associate
+    action: Receive customer inquiry about product availability
+    tools:
+    - Point of Sale System
+    - Mobile Inventory App
+    duration: 1 minute
+    outputs:
+    - Customer inquiry logged
+    decision_points:
+    - In-store vs online inquiry
+    - Immediate vs future availability
+  - step: 2
+    actor: Store Associate
+    action: Check real-time inventory system for product status
+    tools:
+    - Inventory Management System
+    - Barcode Scanner
+    duration: 2 minutes
+    outputs:
+    - Current stock levels
+    - Store location details
+    decision_points:
+    - Available in store
+    - Available in other locations
+    - Out of stock
+  - step: 3
+    actor: Store Associate
+    action: Provide availability information to customer
+    tools:
+    - Customer Communication System
+    - Store Directory
+    duration: 2 minutes
+    outputs:
+    - Availability confirmation
+    - Alternative options offered
+    decision_points:
+    - Reserve item
+    - Check other stores
+    - Suggest alternatives
+  success_criteria: Customer receives accurate availability information within 5 minutes
+  failure_modes:
+  - System downtime preventing inventory check
+  - Inaccurate inventory data
+  - Staff unavailable to assist
   metrics:
-    - "Average response time: <5 minutes"
-    - "Inventory accuracy: >98%"
-    - "Customer satisfaction: >4.5/5"
-    - "Successful product location rate: >85%"
+  - 'Average response time: <5 minutes'
+  - 'Inventory accuracy: >98%'
+  - 'Customer satisfaction: >4.5/5'
+  - 'Successful product location rate: >85%'
   performance_history:
-    success_rate_trend: "82% (2022) → 89% (2023) → 94% (2024) → 96% (2025)"
-    cost_trend: "$2.50 per inquiry (2022) → $1.80 (2023) → $1.20 (2024) → $0.95 (2025)"
-    efficiency_improvements: ["Mobile app integration reduced response time by 40%", "Real-time sync improved accuracy by 15%", "AI-powered product suggestions increased conversion by 25%"]
+    success_rate_trend: 82% (2022) → 89% (2023) → 94% (2024) → 96% (2025)
+    cost_trend: $2.50 per inquiry (2022) → $1.80 (2023) → $1.20 (2024) → $0.95 (2025)
+    efficiency_improvements:
+    - Mobile app integration reduced response time by 40%
+    - Real-time sync improved accuracy by 15%
+    - AI-powered product suggestions increased conversion by 25%

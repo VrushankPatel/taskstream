@@ -1,9 +1,9 @@
 # Meeting Notes: Hospitality Guest Experience Enhancement Initiative
 
-**Date:** 2025-03-15 10:00  
-**Location:** Virtual Meeting (Zoom)  
-**Attendees:** Regional Director (Chair), Guest Experience Manager, Operations Director, Technology Manager, Marketing Director, Food & Beverage Director  
-**Duration:** 75 minutes  
+**Date:** 2025-03-15 10:00
+**Location:** Virtual Meeting (Zoom)
+**Attendees:** Regional Director (Chair), Guest Experience Manager, Operations Director, Technology Manager, Marketing Director, Food & Beverage Director
+**Duration:** 75 minutes
 
 ### Agenda
 1. Current guest experience assessment

@@ -50,7 +50,7 @@
 
 #### Carbon Footprint & Climate Impact
 - **Carbon Footprint per Tonne**: 0.28 tonnes CO2e/tonne yield
-  - YoY Reduction: -32% 
+  - YoY Reduction: -32%
   - Target: 0.30 tonnes CO2e/tonne (achieved: 107%)
   - Carbon Sequestration: 2.4 tonnes CO2/ha annually
   - Renewable Energy Usage: 78% of total energy consumption

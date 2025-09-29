@@ -4,8 +4,16 @@
   "context": "Technology company with 350 employees outgrowing 80,000 sq ft campus, evaluating expansion options",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Head of Real Estate", "CFO", "Head of People", "Department Heads"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Head of Real Estate",
+      "CFO",
+      "Head of People",
+      "Department Heads"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-05-01",
       "end_date": "2025-05-20",
       "duration": "19 days",
-      "activities": ["Capacity analysis", "Growth projections", "Space requirements"],
+      "activities": [
+        "Capacity analysis",
+        "Growth projections",
+        "Space requirements"
+      ],
       "outcome": "Need 40K sq ft additional space within 18 months"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-05-21",
       "end_date": "2025-06-15",
       "duration": "25 days",
-      "activities": ["Site analysis", "Cost comparisons", "Timeline assessment"],
+      "activities": [
+        "Site analysis",
+        "Cost comparisons",
+        "Timeline assessment"
+      ],
       "outcome": "Campus expansion vs adjacent acquisition options identified"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-06-16",
       "end_date": "2025-07-05",
       "duration": "19 days",
-      "activities": ["Cost-benefit analysis", "ROI modeling", "Funding options"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI modeling",
+        "Funding options"
+      ],
       "outcome": "Campus expansion: $22M, 15-month timeline; Acquisition: $28M, 24-month timeline"
     },
     {
@@ -43,7 +63,11 @@
       "start_date": "2025-07-06",
       "end_date": "2025-07-25",
       "duration": "19 days",
-      "activities": ["Employee surveys", "Executive review", "Board presentation"],
+      "activities": [
+        "Employee surveys",
+        "Executive review",
+        "Board presentation"
+      ],
       "outcome": "Campus expansion selected for speed and cost efficiency"
     }
   ],
@@ -52,14 +76,29 @@
     "projected_value": "$15,000,000",
     "actual_value": "$13,000,000 (projected)",
     "roi_timeline": "60 months",
-    "risk_factors": ["Construction delays", "Cost overruns", "Disruption during build"]
+    "risk_factors": [
+      "Construction delays",
+      "Cost overruns",
+      "Disruption during build"
+    ]
   },
-  "decision_criteria": ["Cost efficiency", "Timeline", "Employee impact", "Growth capacity", "Operational continuity"],
+  "decision_criteria": [
+    "Cost efficiency",
+    "Timeline",
+    "Employee impact",
+    "Growth capacity",
+    "Operational continuity"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-08-01",
     "completion_date": "2026-11-30",
-    "milestones": ["Design finalized: 2025-09-30", "Construction started: 2025-10-15", "Phase 1 complete: 2026-06-30", "Full occupancy: 2026-11-30"]
+    "milestones": [
+      "Design finalized: 2025-09-30",
+      "Construction started: 2025-10-15",
+      "Phase 1 complete: 2026-06-30",
+      "Full occupancy: 2026-11-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Construction on schedule, employee satisfaction +15%",

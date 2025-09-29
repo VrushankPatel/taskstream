@@ -1,51 +1,87 @@
 workflow:
-  id: "workflow_hospitality_asia_revenue_optimization"
-  title: "Asia Hospitality Revenue Management Optimization"
-  department: "Revenue Management"
-  complexity: "medium"
-  participants: ["Revenue Manager", "Pricing Analyst", "Front Office Manager"]
-  trigger: "Weekly revenue performance review identifies optimization opportunities"
+  id: workflow_hospitality_asia_revenue_optimization
+  title: Asia Hospitality Revenue Management Optimization
+  department: Revenue Management
+  complexity: medium
+  participants:
+  - Revenue Manager
+  - Pricing Analyst
+  - Front Office Manager
+  trigger: Weekly revenue performance review identifies optimization opportunities
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2025-08-15"
-    typical_cycle_time: "1 week"
+    first_implemented: '2023-06-01'
+    last_updated: '2025-08-15'
+    typical_cycle_time: 1 week
     average_annual_executions: 520
-    seasonal_variations: ["Peak season (Nov-Mar) weekly reviews", "Low season (Apr-Oct) bi-weekly reviews"]
-    historical_evolution: "Manual pricing adjustments evolved to AI-driven dynamic pricing with cultural event integration"
+    seasonal_variations:
+    - Peak season (Nov-Mar) weekly reviews
+    - Low season (Apr-Oct) bi-weekly reviews
+    historical_evolution: Manual pricing adjustments evolved to AI-driven dynamic
+      pricing with cultural event integration
   steps:
-    - step: 1
-      actor: "Revenue Manager"
-      action: "Analyze current booking patterns, market demand, and competitor pricing"
-      tools: ["Revenue management system", "Market intelligence platform", "Competitor pricing database"]
-      duration: "2 hours"
-      outputs: ["Demand analysis report", "Pricing opportunity identification"]
-    - step: 2
-      actor: "Pricing Analyst"
-      action: "Develop pricing optimization recommendations using AI algorithms"
-      tools: ["Dynamic pricing software", "Historical booking data", "Cultural event calendar"]
-      duration: "4 hours"
-      outputs: ["Pricing strategy recommendations", "Expected revenue impact projections"]
-      decision_points: ["Revenue optimization potential", "Market demand elasticity", "Competitor pricing response"]
-    - step: 3
-      actor: "Revenue Manager"
-      action: "Review and approve pricing changes, considering cultural sensitivities"
-      tools: ["Pricing approval dashboard", "Cultural impact assessment tool"]
-      duration: "1 hour"
-      outputs: ["Approved pricing strategy", "Implementation schedule"]
-      decision_points: ["Cultural appropriateness", "Revenue impact threshold", "Implementation timeline constraints"]
-    - step: 4
-      actor: "Front Office Manager"
-      action: "Implement pricing changes and monitor initial booking response"
-      tools: ["Property management system", "Real-time booking monitor"]
-      duration: "30 minutes"
-      outputs: ["Updated pricing in system", "Initial performance monitoring"]
-  success_criteria: "Revenue per available room increases by at least 5% within 30 days of implementation"
-  failure_modes: ["Cultural insensitivity in pricing", "Competitor immediate price matching", "System implementation errors"]
+  - step: 1
+    actor: Revenue Manager
+    action: Analyze current booking patterns, market demand, and competitor pricing
+    tools:
+    - Revenue management system
+    - Market intelligence platform
+    - Competitor pricing database
+    duration: 2 hours
+    outputs:
+    - Demand analysis report
+    - Pricing opportunity identification
+  - step: 2
+    actor: Pricing Analyst
+    action: Develop pricing optimization recommendations using AI algorithms
+    tools:
+    - Dynamic pricing software
+    - Historical booking data
+    - Cultural event calendar
+    duration: 4 hours
+    outputs:
+    - Pricing strategy recommendations
+    - Expected revenue impact projections
+    decision_points:
+    - Revenue optimization potential
+    - Market demand elasticity
+    - Competitor pricing response
+  - step: 3
+    actor: Revenue Manager
+    action: Review and approve pricing changes, considering cultural sensitivities
+    tools:
+    - Pricing approval dashboard
+    - Cultural impact assessment tool
+    duration: 1 hour
+    outputs:
+    - Approved pricing strategy
+    - Implementation schedule
+    decision_points:
+    - Cultural appropriateness
+    - Revenue impact threshold
+    - Implementation timeline constraints
+  - step: 4
+    actor: Front Office Manager
+    action: Implement pricing changes and monitor initial booking response
+    tools:
+    - Property management system
+    - Real-time booking monitor
+    duration: 30 minutes
+    outputs:
+    - Updated pricing in system
+    - Initial performance monitoring
+  success_criteria: Revenue per available room increases by at least 5% within 30
+    days of implementation
+  failure_modes:
+  - Cultural insensitivity in pricing
+  - Competitor immediate price matching
+  - System implementation errors
   metrics:
-    - "Revenue optimization success rate: 78%"
-    - "Average RevPAR increase: 8.5%"
-    - "Time to positive ROI: 14 days"
+  - 'Revenue optimization success rate: 78%'
+  - 'Average RevPAR increase: 8.5%'
+  - 'Time to positive ROI: 14 days'
   performance_history:
-    success_rate_trend: "65% (2023) → 75% (2024) → 78% (2025)"
-    cost_trend: "$500/week (2023) → $350/week (2024) → $280/week (2025)"
-    efficiency_improvements: ["AI integration reduced analysis time by 50%", "Automated cultural adjustments improved acceptance by 25%"]
+    success_rate_trend: 65% (2023) → 75% (2024) → 78% (2025)
+    cost_trend: $500/week (2023) → $350/week (2024) → $280/week (2025)
+    efficiency_improvements:
+    - AI integration reduced analysis time by 50%
+    - Automated cultural adjustments improved acceptance by 25%

@@ -1,55 +1,101 @@
 workflow:
-  id: "workflow_utilities_smart_grid_modernization"
-  title: "Utilities Smart Grid Modernization Process"
-  department: "Grid Operations"
-  complexity: "medium"
-  participants: ["Grid Engineer", "IT Specialist", "Operations Manager", "Cybersecurity Officer", "Regulatory Compliance"]
-  trigger: "Grid upgrade project approved or technology refresh needed"
+  id: workflow_utilities_smart_grid_modernization
+  title: Utilities Smart Grid Modernization Process
+  department: Grid Operations
+  complexity: medium
+  participants:
+  - Grid Engineer
+  - IT Specialist
+  - Operations Manager
+  - Cybersecurity Officer
+  - Regulatory Compliance
+  trigger: Grid upgrade project approved or technology refresh needed
   temporal_data:
-    first_implemented: "2023-01-15"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "3-4 months"
+    first_implemented: '2023-01-15'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 3-4 months
     average_annual_executions: 15
-    seasonal_variations: ["Q1 planning cycle (60% of projects)", "Q3 implementation focus (40% completion)"]
-    historical_evolution: "Legacy SCADA systems in 2023, phased smart grid implementation in 2024, full IoT integration in 2025"
+    seasonal_variations:
+    - Q1 planning cycle (60% of projects)
+    - Q3 implementation focus (40% completion)
+    historical_evolution: Legacy SCADA systems in 2023, phased smart grid implementation
+      in 2024, full IoT integration in 2025
   steps:
-    - step: 1
-      actor: "Grid Engineer"
-      action: "Assess current infrastructure and identify modernization needs"
-      tools: ["Grid assessment software", "Asset management system", "Performance analytics"]
-      duration: "2 weeks"
-      outputs: ["Infrastructure assessment", "Modernization roadmap", "Technology requirements"]
-    - step: 2
-      actor: "IT Specialist"
-      action: "Design system architecture and integration plan"
-      tools: ["System design tools", "Network planning software", "IoT platform evaluation"]
-      duration: "3 weeks"
-      outputs: ["System architecture", "Integration specifications", "Vendor selection criteria"]
-    - step: 3
-      actor: "Operations Manager"
-      action: "Develop implementation plan and operational procedures"
-      tools: ["Project management software", "Change management tools", "Training planning system"]
-      duration: "2 weeks"
-      outputs: ["Implementation plan", "Operational procedures", "Training requirements"]
-    - step: 4
-      actor: "Cybersecurity Officer"
-      action: "Conduct security assessment and implement protections"
-      tools: ["Security assessment tools", "Encryption software", "Intrusion detection systems"]
-      duration: "2 weeks"
-      outputs: ["Security assessment", "Protection measures", "Incident response plan"]
-    - step: 5
-      actor: "Regulatory Compliance"
-      action: "Ensure compliance with grid standards and reporting requirements"
-      tools: ["Regulatory database", "Compliance monitoring tools", "Reporting systems"]
-      duration: "1 week"
-      outputs: ["Compliance report", "Regulatory filings", "Audit documentation"]
-  success_criteria: "Successful system deployment, 99.95% grid reliability, full regulatory compliance"
-  failure_modes: ["System integration failures", "Cybersecurity vulnerabilities", "Regulatory non-compliance", "Operational disruptions"]
+  - step: 1
+    actor: Grid Engineer
+    action: Assess current infrastructure and identify modernization needs
+    tools:
+    - Grid assessment software
+    - Asset management system
+    - Performance analytics
+    duration: 2 weeks
+    outputs:
+    - Infrastructure assessment
+    - Modernization roadmap
+    - Technology requirements
+  - step: 2
+    actor: IT Specialist
+    action: Design system architecture and integration plan
+    tools:
+    - System design tools
+    - Network planning software
+    - IoT platform evaluation
+    duration: 3 weeks
+    outputs:
+    - System architecture
+    - Integration specifications
+    - Vendor selection criteria
+  - step: 3
+    actor: Operations Manager
+    action: Develop implementation plan and operational procedures
+    tools:
+    - Project management software
+    - Change management tools
+    - Training planning system
+    duration: 2 weeks
+    outputs:
+    - Implementation plan
+    - Operational procedures
+    - Training requirements
+  - step: 4
+    actor: Cybersecurity Officer
+    action: Conduct security assessment and implement protections
+    tools:
+    - Security assessment tools
+    - Encryption software
+    - Intrusion detection systems
+    duration: 2 weeks
+    outputs:
+    - Security assessment
+    - Protection measures
+    - Incident response plan
+  - step: 5
+    actor: Regulatory Compliance
+    action: Ensure compliance with grid standards and reporting requirements
+    tools:
+    - Regulatory database
+    - Compliance monitoring tools
+    - Reporting systems
+    duration: 1 week
+    outputs:
+    - Compliance report
+    - Regulatory filings
+    - Audit documentation
+  success_criteria: Successful system deployment, 99.95% grid reliability, full regulatory
+    compliance
+  failure_modes:
+  - System integration failures
+  - Cybersecurity vulnerabilities
+  - Regulatory non-compliance
+  - Operational disruptions
   metrics:
-    - "Deployment Success Rate: 100% target"
-    - "Grid Reliability: 99.95% uptime"
-    - "Implementation Time: <4 months"
+  - 'Deployment Success Rate: 100% target'
+  - 'Grid Reliability: 99.95% uptime'
+  - 'Implementation Time: <4 months'
   performance_history:
-    success_rate_trend: "85% (2023) → 90% (2024) → 95% (2025)"
-    cost_trend: "$2.1M (2023) → $1.8M (2024) → $1.6M (2025)"
-    efficiency_improvements: ["Modular design reduced integration time by 35%", "Automated testing improved reliability by 20%", "Standardized procedures reduced training time by 40%"]
+    success_rate_trend: 85% (2023) → 90% (2024) → 95% (2025)
+    cost_trend: $2.1M (2023) → $1.8M (2024) → $1.6M (2025)
+    efficiency_improvements:
+    - Modular design reduced integration time by 35%
+    - Automated testing improved reliability by 20%
+    - Standardized procedures reduced training time by 40%

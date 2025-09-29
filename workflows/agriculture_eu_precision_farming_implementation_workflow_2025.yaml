@@ -1,61 +1,96 @@
 workflow:
-  id: "workflow_agriculture_eu_precision_farming_2025"
-  title: "EU Agriculture Precision Farming Implementation"
-  department: "Farm Operations"
-  complexity: "medium"
-  participants: ["Farm Manager", "Technology Specialist", "Agronomist", "Equipment Supplier", "Data Analyst", "Regulatory Compliance Officer"]
-  trigger: "Farm applies for precision farming technology grant or subsidy"
+  id: workflow_agriculture_eu_precision_farming_2025
+  title: EU Agriculture Precision Farming Implementation
+  department: Farm Operations
+  complexity: medium
+  participants:
+  - Farm Manager
+  - Technology Specialist
+  - Agronomist
+  - Equipment Supplier
+  - Data Analyst
+  - Regulatory Compliance Officer
+  trigger: Farm applies for precision farming technology grant or subsidy
   temporal_data:
-    first_implemented: "2022-04-01"
-    last_updated: "2024-10-01"
-    typical_cycle_time: "3 months"
+    first_implemented: '2022-04-01'
+    last_updated: '2024-10-01'
+    typical_cycle_time: 3 months
     average_annual_executions: 800
-    seasonal_variations: ["Spring planting season high adoption", "Winter planning period high implementation"]
-    historical_evolution: "Traditional farming methods enhanced with GPS-guided equipment and data analytics"
+    seasonal_variations:
+    - Spring planting season high adoption
+    - Winter planning period high implementation
+    historical_evolution: Traditional farming methods enhanced with GPS-guided equipment
+      and data analytics
   steps:
-    - step: 1
-      actor: "Farm Manager"
-      action: "Assess farm needs and select appropriate precision farming technologies"
-      tools: ["Farm assessment toolkit", "Technology vendor catalogs"]
-      duration: "1 week"
-      outputs: ["Technology requirements document"]
-    - step: 2
-      actor: "Technology Specialist"
-      action: "Install and configure precision farming equipment (GPS, sensors, drones)"
-      tools: ["Installation manuals", "Configuration software"]
-      duration: "2 weeks"
-      outputs: ["Installed equipment systems"]
-    - step: 3
-      actor: "Agronomist"
-      action: "Develop precision application maps and variable rate prescriptions"
-      tools: ["Precision ag software", "Soil sampling data"]
-      duration: "1 week"
-      outputs: ["Application prescription maps"]
-    - step: 4
-      actor: "Data Analyst"
-      action: "Set up data collection systems and establish baseline performance metrics"
-      tools: ["Data analytics platform", "Performance monitoring dashboard"]
-      duration: "1 week"
-      outputs: ["Data collection protocols", "Baseline metrics"]
-    - step: 5
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure implementation complies with EU agricultural regulations and subsidy requirements"
-      tools: ["EU farming regulations database", "Subsidy compliance checklist"]
-      duration: "3 days"
-      outputs: ["Compliance certification"]
-    - step: 6
-      actor: "Farm Manager"
-      action: "Train farm staff on new precision farming technologies and procedures"
-      tools: ["Training manuals", "Equipment operation guides"]
-      duration: "1 week"
-      outputs: ["Trained staff documentation"]
-  success_criteria: "Precision farming system operational with 20% improvement in resource efficiency within 6 months"
-  failure_modes: ["Technology integration issues", "Staff training challenges", "Regulatory compliance delays"]
+  - step: 1
+    actor: Farm Manager
+    action: Assess farm needs and select appropriate precision farming technologies
+    tools:
+    - Farm assessment toolkit
+    - Technology vendor catalogs
+    duration: 1 week
+    outputs:
+    - Technology requirements document
+  - step: 2
+    actor: Technology Specialist
+    action: Install and configure precision farming equipment (GPS, sensors, drones)
+    tools:
+    - Installation manuals
+    - Configuration software
+    duration: 2 weeks
+    outputs:
+    - Installed equipment systems
+  - step: 3
+    actor: Agronomist
+    action: Develop precision application maps and variable rate prescriptions
+    tools:
+    - Precision ag software
+    - Soil sampling data
+    duration: 1 week
+    outputs:
+    - Application prescription maps
+  - step: 4
+    actor: Data Analyst
+    action: Set up data collection systems and establish baseline performance metrics
+    tools:
+    - Data analytics platform
+    - Performance monitoring dashboard
+    duration: 1 week
+    outputs:
+    - Data collection protocols
+    - Baseline metrics
+  - step: 5
+    actor: Regulatory Compliance Officer
+    action: Ensure implementation complies with EU agricultural regulations and subsidy
+      requirements
+    tools:
+    - EU farming regulations database
+    - Subsidy compliance checklist
+    duration: 3 days
+    outputs:
+    - Compliance certification
+  - step: 6
+    actor: Farm Manager
+    action: Train farm staff on new precision farming technologies and procedures
+    tools:
+    - Training manuals
+    - Equipment operation guides
+    duration: 1 week
+    outputs:
+    - Trained staff documentation
+  success_criteria: Precision farming system operational with 20% improvement in resource
+    efficiency within 6 months
+  failure_modes:
+  - Technology integration issues
+  - Staff training challenges
+  - Regulatory compliance delays
   metrics:
-    - "Implementation success rate: 85%"
-    - "Resource efficiency improvement: 20%"
-    - "ROI timeline: 18 months"
+  - 'Implementation success rate: 85%'
+  - 'Resource efficiency improvement: 20%'
+  - 'ROI timeline: 18 months'
   performance_history:
-    success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
-    cost_trend: "€15000 (2023) → €12000 (2024) → €10000 (2025)"
-    efficiency_improvements: ["Standardized implementation protocols reduced setup time by 30%", "Integrated training programs improved adoption rates by 25%"]
+    success_rate_trend: 75% (2023) → 82% (2024) → 88% (2025)
+    cost_trend: €15000 (2023) → €12000 (2024) → €10000 (2025)
+    efficiency_improvements:
+    - Standardized implementation protocols reduced setup time by 30%
+    - Integrated training programs improved adoption rates by 25%

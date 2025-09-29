@@ -1,49 +1,80 @@
 workflow:
-  id: "workflow_hospitality_asia_guest_experience_enhancement"
-  title: "Asia Hospitality Guest Experience Enhancement Process"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Guest Experience Manager", "Operations Director", "Cultural Liaison", "Technology Coordinator"]
-  trigger: "Guest feedback analysis or market research identifies improvement opportunities"
+  id: workflow_hospitality_asia_guest_experience_enhancement
+  title: Asia Hospitality Guest Experience Enhancement Process
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Guest Experience Manager
+  - Operations Director
+  - Cultural Liaison
+  - Technology Coordinator
+  trigger: Guest feedback analysis or market research identifies improvement opportunities
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2025-08-15"
-    typical_cycle_time: "8 weeks"
+    first_implemented: '2023-06-01'
+    last_updated: '2025-08-15'
+    typical_cycle_time: 8 weeks
     average_annual_executions: 6
-    seasonal_variations: ["Peak season (Dec-Mar) focuses on service speed", "Low season (Apr-May) emphasizes personalization"]
-    historical_evolution: "Started with Western standards, adapted to include cultural preferences and local expectations"
+    seasonal_variations:
+    - Peak season (Dec-Mar) focuses on service speed
+    - Low season (Apr-May) emphasizes personalization
+    historical_evolution: Started with Western standards, adapted to include cultural
+      preferences and local expectations
   steps:
-    - step: 1
-      actor: "Guest Experience Manager"
-      action: "Collect and analyze guest feedback across all touchpoints"
-      tools: ["Feedback management system", "Survey analytics"]
-      duration: "2 weeks"
-      outputs: ["Feedback analysis report", "Pain point identification"]
-    - step: 2
-      actor: "Cultural Liaison"
-      action: "Review feedback through cultural context and identify cultural adaptation needs"
-      tools: ["Cultural sensitivity guidelines", "Local market research"]
-      duration: "1 week"
-      outputs: ["Cultural insights report", "Adaptation recommendations"]
-    - step: 3
-      actor: "Operations Director"
-      action: "Develop and prioritize enhancement initiatives"
-      tools: ["Project management software", "ROI analysis tools"]
-      duration: "2 weeks"
-      outputs: ["Enhancement roadmap", "Resource allocation plan"]
-    - step: 4
-      actor: "Technology Coordinator"
-      action: "Implement technology solutions to support enhancements"
-      tools: ["Property management system", "Mobile apps", "IoT devices"]
-      duration: "3 weeks"
-      outputs: ["Implemented solutions", "Training materials"]
-  success_criteria: "Guest satisfaction scores improved by 15% with positive cultural feedback"
-  failure_modes: ["Cultural misalignment", "Technology integration issues", "Resource constraints"]
+  - step: 1
+    actor: Guest Experience Manager
+    action: Collect and analyze guest feedback across all touchpoints
+    tools:
+    - Feedback management system
+    - Survey analytics
+    duration: 2 weeks
+    outputs:
+    - Feedback analysis report
+    - Pain point identification
+  - step: 2
+    actor: Cultural Liaison
+    action: Review feedback through cultural context and identify cultural adaptation
+      needs
+    tools:
+    - Cultural sensitivity guidelines
+    - Local market research
+    duration: 1 week
+    outputs:
+    - Cultural insights report
+    - Adaptation recommendations
+  - step: 3
+    actor: Operations Director
+    action: Develop and prioritize enhancement initiatives
+    tools:
+    - Project management software
+    - ROI analysis tools
+    duration: 2 weeks
+    outputs:
+    - Enhancement roadmap
+    - Resource allocation plan
+  - step: 4
+    actor: Technology Coordinator
+    action: Implement technology solutions to support enhancements
+    tools:
+    - Property management system
+    - Mobile apps
+    - IoT devices
+    duration: 3 weeks
+    outputs:
+    - Implemented solutions
+    - Training materials
+  success_criteria: Guest satisfaction scores improved by 15% with positive cultural
+    feedback
+  failure_modes:
+  - Cultural misalignment
+  - Technology integration issues
+  - Resource constraints
   metrics:
-    - "Guest satisfaction improvement: 15%"
-    - "Cultural appropriateness score: 4.7/5"
-    - "Technology adoption rate: 85%"
+  - 'Guest satisfaction improvement: 15%'
+  - 'Cultural appropriateness score: 4.7/5'
+  - 'Technology adoption rate: 85%'
   performance_history:
-    success_rate_trend: "70% (2023) → 80% (2024) → 85% (2025)"
-    cost_trend: "¥8,000,000 (2023) → ¥7,500,000 (2024) → ¥7,000,000 (2025)"
-    efficiency_improvements: ["AI feedback analysis reduced response time by 40%", "Cultural AI assistants improved personalization by 25%"]
+    success_rate_trend: 70% (2023) → 80% (2024) → 85% (2025)
+    cost_trend: ¥8,000,000 (2023) → ¥7,500,000 (2024) → ¥7,000,000 (2025)
+    efficiency_improvements:
+    - AI feedback analysis reduced response time by 40%
+    - Cultural AI assistants improved personalization by 25%

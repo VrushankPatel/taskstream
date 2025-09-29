@@ -4,8 +4,16 @@
   "context": "Asian hospitality group implementing comprehensive green initiatives to meet sustainability goals and attract eco-conscious travelers in competitive Southeast Asian market",
   "stakeholders": {
     "requester": "Regional Sustainability Director",
-    "approvers": ["CEO Asia Pacific", "CFO", "Chief Operations Officer"],
-    "influencers": ["Property Managers", "Procurement Team", "Guest Experience Team"]
+    "approvers": [
+      "CEO Asia Pacific",
+      "CFO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Property Managers",
+      "Procurement Team",
+      "Guest Experience Team"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-12-01",
       "end_date": "2024-12-31",
       "duration": "4 weeks",
-      "activities": ["Technology assessment", "Cost analysis", "Guest surveys"],
+      "activities": [
+        "Technology assessment",
+        "Cost analysis",
+        "Guest surveys"
+      ],
       "outcome": "Identified high-impact initiatives with clear ROI"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-01-01",
       "end_date": "2025-02-15",
       "duration": "6 weeks",
-      "activities": ["3-property pilot", "Performance monitoring", "Guest feedback collection"],
+      "activities": [
+        "3-property pilot",
+        "Performance monitoring",
+        "Guest feedback collection"
+      ],
       "outcome": "Pilot successful with 22% energy savings and positive reviews"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-02-16",
       "end_date": "2025-03-01",
       "duration": "2 weeks",
-      "activities": ["Financial modeling", "Risk assessment", "Implementation planning"],
+      "activities": [
+        "Financial modeling",
+        "Risk assessment",
+        "Implementation planning"
+      ],
       "outcome": "Strong business case with 3-year payback"
     },
     {
@@ -43,7 +63,11 @@
       "start_date": "2025-03-02",
       "end_date": "2025-03-10",
       "duration": "1 week",
-      "activities": ["Executive presentation", "Q&A session", "Final decision"],
+      "activities": [
+        "Executive presentation",
+        "Q&A session",
+        "Final decision"
+      ],
       "outcome": "Approved with pilot learnings incorporated"
     }
   ],
@@ -52,14 +76,28 @@
     "projected_value": "$3,200,000 annual savings",
     "actual_value": "$2,800,000 achieved in year 1 (vs projection)",
     "roi_timeline": "Expected payback in 2.7 years",
-    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Guest disruption during implementation"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff training requirements",
+      "Guest disruption during implementation"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Guest impact", "Operational feasibility", "Regulatory compliance", "Competitive advantage"],
+  "decision_criteria": [
+    "Financial viability",
+    "Guest impact",
+    "Operational feasibility",
+    "Regulatory compliance",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-04-01",
     "completion_date": "2026-03-31",
-    "milestones": ["Technology installation: 2025-08-31", "Staff training completion: 2025-10-31", "Full operational: 2026-03-31"]
+    "milestones": [
+      "Technology installation: 2025-08-31",
+      "Staff training completion: 2025-10-31",
+      "Full operational: 2026-03-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "15 properties completed, 18% energy savings achieved",

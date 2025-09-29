@@ -1,49 +1,74 @@
 workflow:
-  id: "workflow_insurance_eu_parametric_claims_processing"
-  title: "EU Insurance Parametric Claims Processing and Validation"
-  department: "Claims Operations"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Fraud Investigator", "Compliance Officer", "Customer Service Rep"]
-  trigger: "Customer submits parametric insurance claim"
+  id: workflow_insurance_eu_parametric_claims_processing
+  title: EU Insurance Parametric Claims Processing and Validation
+  department: Claims Operations
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Fraud Investigator
+  - Compliance Officer
+  - Customer Service Rep
+  trigger: Customer submits parametric insurance claim
   temporal_data:
-    first_implemented: "2021-11-01"
-    last_updated: "2024-10-30"
-    typical_cycle_time: "5-7 business days"
+    first_implemented: '2021-11-01'
+    last_updated: '2024-10-30'
+    typical_cycle_time: 5-7 business days
     average_annual_executions: 15000
-    seasonal_variations: ["Q4 winter claims peak (25% increase)", "Q2 summer travel claims (15% increase)"]
-    historical_evolution: "Manual review process digitized in 2022, AI fraud detection added in 2023, EU regulatory updates in 2024"
+    seasonal_variations:
+    - Q4 winter claims peak (25% increase)
+    - Q2 summer travel claims (15% increase)
+    historical_evolution: Manual review process digitized in 2022, AI fraud detection
+      added in 2023, EU regulatory updates in 2024
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review claim documentation and assess initial validity"
-      tools: ["Claims Management System", "Document Verification Tools"]
-      duration: "2 hours"
-      outputs: ["Initial claim assessment report"]
-    - step: 2
-      actor: "Fraud Investigator"
-      action: "Run fraud detection algorithms and manual review if flagged"
-      tools: ["AI Fraud Detection Platform", "Investigation Database"]
-      duration: "4 hours"
-      outputs: ["Fraud risk assessment"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Verify regulatory compliance and data privacy requirements"
-      tools: ["Compliance Management System", "GDPR Compliance Tools"]
-      duration: "3 hours"
-      outputs: ["Compliance verification report"]
-    - step: 4
-      actor: "Customer Service Rep"
-      action: "Communicate decision to customer and handle appeals if needed"
-      tools: ["Customer Communication Platform", "Appeals Management System"]
-      duration: "1 hour"
-      outputs: ["Customer notification sent", "Appeal process initiated if required"]
-  success_criteria: "Claim processed with accurate payout and full regulatory compliance"
-  failure_modes: ["Fraud detection misses", "Compliance violations", "Incorrect payout calculations"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Review claim documentation and assess initial validity
+    tools:
+    - Claims Management System
+    - Document Verification Tools
+    duration: 2 hours
+    outputs:
+    - Initial claim assessment report
+  - step: 2
+    actor: Fraud Investigator
+    action: Run fraud detection algorithms and manual review if flagged
+    tools:
+    - AI Fraud Detection Platform
+    - Investigation Database
+    duration: 4 hours
+    outputs:
+    - Fraud risk assessment
+  - step: 3
+    actor: Compliance Officer
+    action: Verify regulatory compliance and data privacy requirements
+    tools:
+    - Compliance Management System
+    - GDPR Compliance Tools
+    duration: 3 hours
+    outputs:
+    - Compliance verification report
+  - step: 4
+    actor: Customer Service Rep
+    action: Communicate decision to customer and handle appeals if needed
+    tools:
+    - Customer Communication Platform
+    - Appeals Management System
+    duration: 1 hour
+    outputs:
+    - Customer notification sent
+    - Appeal process initiated if required
+  success_criteria: Claim processed with accurate payout and full regulatory compliance
+  failure_modes:
+  - Fraud detection misses
+  - Compliance violations
+  - Incorrect payout calculations
   metrics:
-    - "Processing accuracy rate: 98%"
-    - "Average cycle time: 6 days"
-    - "Fraud detection rate: 95%"
+  - 'Processing accuracy rate: 98%'
+  - 'Average cycle time: 6 days'
+  - 'Fraud detection rate: 95%'
   performance_history:
-    success_rate_trend: "94% (2023) → 96% (2024) → 98% (2025)"
-    cost_trend: "€25 (2023) → €20 (2024) → €18 (2025)"
-    efficiency_improvements: ["AI fraud detection reduced false positives by 35%", "Digital documentation decreased processing time by 40%"]
+    success_rate_trend: 94% (2023) → 96% (2024) → 98% (2025)
+    cost_trend: €25 (2023) → €20 (2024) → €18 (2025)
+    efficiency_improvements:
+    - AI fraud detection reduced false positives by 35%
+    - Digital documentation decreased processing time by 40%

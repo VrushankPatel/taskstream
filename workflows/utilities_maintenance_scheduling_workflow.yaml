@@ -1,49 +1,77 @@
 workflow:
-  id: "workflow_utilities_maintenance_008"
-  title: "Utilities Predictive Maintenance Scheduling"
-  department: "Asset Management"
-  complexity: "medium"
-  participants: ["Maintenance Planner", "Field Technician", "Asset Manager"]
-  trigger: "IoT sensor alerts or scheduled maintenance cycle"
+  id: workflow_utilities_maintenance_008
+  title: Utilities Predictive Maintenance Scheduling
+  department: Asset Management
+  complexity: medium
+  participants:
+  - Maintenance Planner
+  - Field Technician
+  - Asset Manager
+  trigger: IoT sensor alerts or scheduled maintenance cycle
   temporal_data:
-    first_implemented: "2021-11-01"
-    last_updated: "2024-06-15"
-    typical_cycle_time: "2 weeks"
+    first_implemented: '2021-11-01'
+    last_updated: '2024-06-15'
+    typical_cycle_time: 2 weeks
     average_annual_executions: 2500
-    seasonal_variations: ["Winter peak load increases maintenance frequency", "Summer inspection schedules expand"]
-    historical_evolution: "Reactive maintenance transitioned to predictive maintenance using IoT and AI"
+    seasonal_variations:
+    - Winter peak load increases maintenance frequency
+    - Summer inspection schedules expand
+    historical_evolution: Reactive maintenance transitioned to predictive maintenance
+      using IoT and AI
   steps:
-    - step: 1
-      actor: "Automated System"
-      action: "Analyze sensor data and predict maintenance needs"
-      tools: ["IoT platform", "Predictive analytics AI"]
-      duration: "Continuous"
-      outputs: ["Maintenance alerts", "Priority rankings"]
-    - step: 2
-      actor: "Maintenance Planner"
-      action: "Review predictions, schedule maintenance, and allocate resources"
-      tools: ["Maintenance scheduling system", "Resource management platform"]
-      duration: "4 hours"
-      outputs: ["Maintenance schedule", "Resource assignments"]
-    - step: 3
-      actor: "Field Technician"
-      action: "Perform maintenance and document work completed"
-      tools: ["Mobile work order app", "Diagnostic equipment"]
-      duration: "6 hours"
-      outputs: ["Maintenance report", "Equipment status update"]
-    - step: 4
-      actor: "Asset Manager"
-      action: "Review maintenance data and update asset lifecycle plans"
-      tools: ["Asset management system", "Lifecycle planning software"]
-      duration: "2 hours"
-      outputs: ["Updated asset records", "Lifecycle recommendations"]
-  success_criteria: "Preventive maintenance prevents 80% of potential failures, downtime reduced by 60%"
-  failure_modes: ["False positive alerts", "Resource scheduling conflicts", "Incomplete documentation"]
+  - step: 1
+    actor: Automated System
+    action: Analyze sensor data and predict maintenance needs
+    tools:
+    - IoT platform
+    - Predictive analytics AI
+    duration: Continuous
+    outputs:
+    - Maintenance alerts
+    - Priority rankings
+  - step: 2
+    actor: Maintenance Planner
+    action: Review predictions, schedule maintenance, and allocate resources
+    tools:
+    - Maintenance scheduling system
+    - Resource management platform
+    duration: 4 hours
+    outputs:
+    - Maintenance schedule
+    - Resource assignments
+  - step: 3
+    actor: Field Technician
+    action: Perform maintenance and document work completed
+    tools:
+    - Mobile work order app
+    - Diagnostic equipment
+    duration: 6 hours
+    outputs:
+    - Maintenance report
+    - Equipment status update
+  - step: 4
+    actor: Asset Manager
+    action: Review maintenance data and update asset lifecycle plans
+    tools:
+    - Asset management system
+    - Lifecycle planning software
+    duration: 2 hours
+    outputs:
+    - Updated asset records
+    - Lifecycle recommendations
+  success_criteria: Preventive maintenance prevents 80% of potential failures, downtime
+    reduced by 60%
+  failure_modes:
+  - False positive alerts
+  - Resource scheduling conflicts
+  - Incomplete documentation
   metrics:
-    - "Preventive maintenance success rate: 82%"
-    - "Equipment downtime reduction: 58%"
-    - "Maintenance cost savings: $2.1M annually"
+  - 'Preventive maintenance success rate: 82%'
+  - 'Equipment downtime reduction: 58%'
+  - 'Maintenance cost savings: $2.1M annually'
   performance_history:
-    success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
-    cost_trend: "$850 (2023) → $780 (2024) → $720 (2025)"
-    efficiency_improvements: ["Predictive analytics reduced emergency repairs by 70%", "IoT sensors improved maintenance accuracy by 45%"]
+    success_rate_trend: 65% (2023) → 75% (2024) → 82% (2025)
+    cost_trend: $850 (2023) → $780 (2024) → $720 (2025)
+    efficiency_improvements:
+    - Predictive analytics reduced emergency repairs by 70%
+    - IoT sensors improved maintenance accuracy by 45%

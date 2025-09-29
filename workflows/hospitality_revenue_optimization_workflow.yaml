@@ -1,55 +1,95 @@
 workflow:
-  id: "workflow_hospitality_revenue_optimization"
-  title: "Hospitality Revenue Optimization Workflow"
-  department: "Revenue Management"
-  complexity: "medium"
-  participants: ["Revenue Manager", "Operations Director", "Marketing Manager", "Front Office Manager", "Finance Analyst"]
-  trigger: "Monthly revenue performance review identifies optimization opportunities"
+  id: workflow_hospitality_revenue_optimization
+  title: Hospitality Revenue Optimization Workflow
+  department: Revenue Management
+  complexity: medium
+  participants:
+  - Revenue Manager
+  - Operations Director
+  - Marketing Manager
+  - Front Office Manager
+  - Finance Analyst
+  trigger: Monthly revenue performance review identifies optimization opportunities
   temporal_data:
-    first_implemented: "2022-11-01"
-    last_updated: "2025-08-20"
-    typical_cycle_time: "30 days"
+    first_implemented: '2022-11-01'
+    last_updated: '2025-08-20'
+    typical_cycle_time: 30 days
     average_annual_executions: 12
-    seasonal_variations: ["Summer peak season (30% revenue increase)", "Winter off-season (20% revenue decrease)", "Holiday periods (25% premium pricing)"]
-    historical_evolution: "Transitioned from manual pricing to AI-driven dynamic pricing, incorporating demand forecasting and competitor analysis"
+    seasonal_variations:
+    - Summer peak season (30% revenue increase)
+    - Winter off-season (20% revenue decrease)
+    - Holiday periods (25% premium pricing)
+    historical_evolution: Transitioned from manual pricing to AI-driven dynamic pricing,
+      incorporating demand forecasting and competitor analysis
   steps:
-    - step: 1
-      actor: "Revenue Manager"
-      action: "Analyze historical data and market trends"
-      tools: ["Revenue management system", "Market intelligence tools", "Historical booking data"]
-      duration: "5 days"
-      outputs: ["Market analysis report", "Demand forecast"]
-    - step: 2
-      actor: "Operations Director"
-      action: "Assess operational capacity and constraints"
-      tools: ["Property management system", "Staff scheduling software", "Maintenance tracking"]
-      duration: "3 days"
-      outputs: ["Capacity assessment report", "Operational constraints list"]
-    - step: 3
-      actor: "Marketing Manager"
-      action: "Develop promotional strategies and packages"
-      tools: ["Marketing campaign platform", "Customer segmentation tools", "Competitor analysis"]
-      duration: "4 days"
-      outputs: ["Promotional calendar", "Package offerings"]
-    - step: 4
-      actor: "Front Office Manager"
-      action: "Implement pricing and availability changes"
-      tools: ["Booking engine", "Rate management system", "Channel manager"]
-      duration: "2 days"
-      outputs: ["Updated pricing strategy", "Availability calendar"]
-    - step: 5
-      actor: "Finance Analyst"
-      action: "Monitor financial impact and ROI"
-      tools: ["Financial reporting system", "Budget tracking tools", "ROI calculator"]
-      duration: "Ongoing"
-      outputs: ["Financial performance reports", "ROI analysis"]
-  success_criteria: "Achieve 15% revenue increase while maintaining 85% occupancy rate"
-  failure_modes: ["Overpricing leading to low occupancy", "Underpricing reducing profit margins", "Poor demand forecasting"]
+  - step: 1
+    actor: Revenue Manager
+    action: Analyze historical data and market trends
+    tools:
+    - Revenue management system
+    - Market intelligence tools
+    - Historical booking data
+    duration: 5 days
+    outputs:
+    - Market analysis report
+    - Demand forecast
+  - step: 2
+    actor: Operations Director
+    action: Assess operational capacity and constraints
+    tools:
+    - Property management system
+    - Staff scheduling software
+    - Maintenance tracking
+    duration: 3 days
+    outputs:
+    - Capacity assessment report
+    - Operational constraints list
+  - step: 3
+    actor: Marketing Manager
+    action: Develop promotional strategies and packages
+    tools:
+    - Marketing campaign platform
+    - Customer segmentation tools
+    - Competitor analysis
+    duration: 4 days
+    outputs:
+    - Promotional calendar
+    - Package offerings
+  - step: 4
+    actor: Front Office Manager
+    action: Implement pricing and availability changes
+    tools:
+    - Booking engine
+    - Rate management system
+    - Channel manager
+    duration: 2 days
+    outputs:
+    - Updated pricing strategy
+    - Availability calendar
+  - step: 5
+    actor: Finance Analyst
+    action: Monitor financial impact and ROI
+    tools:
+    - Financial reporting system
+    - Budget tracking tools
+    - ROI calculator
+    duration: Ongoing
+    outputs:
+    - Financial performance reports
+    - ROI analysis
+  success_criteria: Achieve 15% revenue increase while maintaining 85% occupancy rate
+  failure_modes:
+  - Overpricing leading to low occupancy
+  - Underpricing reducing profit margins
+  - Poor demand forecasting
   metrics:
-    - "Revenue per available room: $180 target"
-    - "Occupancy rate: 85% minimum"
-    - "Average daily rate: $220 target"
+  - 'Revenue per available room: $180 target'
+  - 'Occupancy rate: 85% minimum'
+  - 'Average daily rate: $220 target'
   performance_history:
-    success_rate_trend: "70% (2023) → 78% (2024) → 82% (2025)"
-    cost_trend: "$450K (2023) → $480K (2024) → $520K (2025)"
-    efficiency_improvements: ["AI forecasting improved accuracy by 25%", "Dynamic pricing increased revenue by 18%", "Automated reporting reduced analysis time by 40%"]
+    success_rate_trend: 70% (2023) → 78% (2024) → 82% (2025)
+    cost_trend: $450K (2023) → $480K (2024) → $520K (2025)
+    efficiency_improvements:
+    - AI forecasting improved accuracy by 25%
+    - Dynamic pricing increased revenue by 18%
+    - Automated reporting reduced analysis time by 40%

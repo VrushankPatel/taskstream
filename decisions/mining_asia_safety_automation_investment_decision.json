@@ -78,12 +78,24 @@
       "Regulatory changes"
     ]
   },
-   "decision_criteria": ["Safety improvement", "Regulatory compliance", "Financial ROI", "Technical reliability", "Workforce impact", "Implementation timeline"],
+  "decision_criteria": [
+    "Safety improvement",
+    "Regulatory compliance",
+    "Financial ROI",
+    "Technical reliability",
+    "Workforce impact",
+    "Implementation timeline"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2027-03-31",
-    "milestones": ["System installation: 2026-03-31", "Testing and certification: 2026-07-31", "Full operation: 2026-11-30", "Optimization: 2027-03-31"]
+    "milestones": [
+      "System installation: 2026-03-31",
+      "Testing and certification: 2026-07-31",
+      "Full operation: 2026-11-30",
+      "Optimization: 2027-03-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Initial safety metrics and system reliability",

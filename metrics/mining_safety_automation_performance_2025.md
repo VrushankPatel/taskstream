@@ -1,9 +1,9 @@
 # Mining Safety Automation Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q4 2024 (October 1 - December 31, 2024)  
-**Last Updated:** 2025-01-10  
-**Business Unit:** Mining Operations Division  
+**Report Period:** Q4 2024 (October 1 - December 31, 2024)
+**Last Updated:** 2025-01-10
+**Business Unit:** Mining Operations Division
 
 ## Key Performance Indicators
 

@@ -3,7 +3,7 @@
 **Date:** 2025-01-20 09:15
 **From:** VP Marketing <vp.marketing@retailchain.eu>
 **To:** Leadership Team <leadership@retailchain.eu>, Store Managers <storemanagers@retailchain.eu>
-**Subject:** Launch of "Green Tomorrow" Sustainability Campaign  
+**Subject:** Launch of "Green Tomorrow" Sustainability Campaign
 
 Team,
 
@@ -30,18 +30,18 @@ I'm excited to announce the launch of our "Green Tomorrow" sustainability campai
 
 Please review the attached campaign brief and implementation timeline. We'll have a kickoff meeting next Tuesday at 10 AM in the main conference room.
 
-Best regards,  
-Sarah Johnson  
-VP Marketing  
-RetailChain EU  
-+44 20 7123 4567  
+Best regards,
+Sarah Johnson
+VP Marketing
+RetailChain EU
++44 20 7123 4567
 
 ---
 
-**Date:** 2025-01-20 10:30  
-**From:** CEO <ceo@retailchain.eu>  
-**To:** VP Marketing <vp.marketing@retailchain.eu>, Leadership Team <leadership@retailchain.eu>, Store Managers <storemanagers@retailchain.eu>  
-**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign  
+**Date:** 2025-01-20 10:30
+**From:** CEO <ceo@retailchain.eu>
+**To:** VP Marketing <vp.marketing@retailchain.eu>, Leadership Team <leadership@retailchain.eu>, Store Managers <storemanagers@retailchain.eu>
+**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign
 
 Sarah,
 
@@ -54,17 +54,17 @@ A few quick notes:
 
 Looking forward to the kickoff meeting. This has the potential to significantly differentiate us in the market.
 
-Best,  
-Michael Chen  
-CEO  
-RetailChain EU  
+Best,
+Michael Chen
+CEO
+RetailChain EU
 
 ---
 
-**Date:** 2025-01-20 11:45  
-**From:** Head of Sustainability <sustainability@retailchain.eu>  
-**To:** VP Marketing <vp.marketing@retailchain.eu>, CEO <ceo@retailchain.eu>, Leadership Team <leadership@retailchain.eu>  
-**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign  
+**Date:** 2025-01-20 11:45
+**From:** Head of Sustainability <sustainability@retailchain.eu>
+**To:** VP Marketing <vp.marketing@retailchain.eu>, CEO <ceo@retailchain.eu>, Leadership Team <leadership@retailchain.eu>
+**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign
 
 Great initiative, Sarah and Michael.
 
@@ -78,17 +78,17 @@ Key data points we should track:
 
 Let's discuss integration during the kickoff.
 
-Best,  
-Dr. Elena Rodriguez  
-Head of Sustainability  
-RetailChain EU  
+Best,
+Dr. Elena Rodriguez
+Head of Sustainability
+RetailChain EU
 
 ---
 
-**Date:** 2025-01-20 14:20  
-**From:** Store Operations Director <operations@retailchain.eu>  
-**To:** VP Marketing <vp.marketing@retailchain.eu>, CEO <ceo@retailchain.eu>, Head of Sustainability <sustainability@retailchain.eu>, Leadership Team <leadership@retailchain.eu>  
-**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign  
+**Date:** 2025-01-20 14:20
+**From:** Store Operations Director <operations@retailchain.eu>
+**To:** VP Marketing <vp.marketing@retailchain.eu>, CEO <ceo@retailchain.eu>, Head of Sustainability <sustainability@retailchain.eu>, Leadership Team <leadership@retailchain.eu>
+**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign
 
 Sarah,
 
@@ -105,17 +105,17 @@ The campaign looks comprehensive. From operations, I want to flag that we'll nee
 
 Can we allocate budget for the training program? Current operations budget might be tight.
 
-Thanks,  
-Marcus Thompson  
-Store Operations Director  
-RetailChain EU  
+Thanks,
+Marcus Thompson
+Store Operations Director
+RetailChain EU
 
 ---
 
-**Date:** 2025-01-21 08:45  
-**From:** VP Marketing <vp.marketing@retailchain.eu>  
-**To:** CEO <ceo@retailchain.eu>, Head of Sustainability <sustainability@retailchain.eu>, Store Operations Director <operations@retailchain.eu>, Leadership Team <leadership@retailchain.eu>  
-**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign  
+**Date:** 2025-01-21 08:45
+**From:** VP Marketing <vp.marketing@retailchain.eu>
+**To:** CEO <ceo@retailchain.eu>, Head of Sustainability <sustainability@retailchain.eu>, Store Operations Director <operations@retailchain.eu>, Leadership Team <leadership@retailchain.eu>
+**Subject:** Re: Launch of "Green Tomorrow" Sustainability Campaign
 
 Thanks everyone for the valuable input.
 
@@ -133,5 +133,5 @@ Thanks everyone for the valuable input.
 
 The kickoff meeting is still on for Tuesday at 10 AM. Please come prepared to discuss your department's role in execution.
 
-Best,  
+Best,
 Sarah

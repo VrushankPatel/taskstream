@@ -1,37 +1,52 @@
 workflow:
-  id: "workflow_retail_customer_loyalty_enrollment"
-  title: "Retail Customer Loyalty Program Enrollment"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Customer Service Rep", "Loyalty Program Manager"]
-  trigger: "Customer expresses interest in loyalty program during purchase"
+  id: workflow_retail_customer_loyalty_enrollment
+  title: Retail Customer Loyalty Program Enrollment
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Customer Service Rep
+  - Loyalty Program Manager
+  trigger: Customer expresses interest in loyalty program during purchase
   temporal_data:
-    first_implemented: "2023-06-01"
-    last_updated: "2024-07-15"
-    typical_cycle_time: "8 minutes"
+    first_implemented: '2023-06-01'
+    last_updated: '2024-07-15'
+    typical_cycle_time: 8 minutes
     average_annual_executions: 150000
-    seasonal_variations: ["Q4 holiday peak (300% increase)", "Q2 summer dip (20% decrease)"]
-    historical_evolution: "Paper-based enrollment replaced with digital POS integration in 2024"
+    seasonal_variations:
+    - Q4 holiday peak (300% increase)
+    - Q2 summer dip (20% decrease)
+    historical_evolution: Paper-based enrollment replaced with digital POS integration
+      in 2024
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Verify customer information and explain program benefits"
-      tools: ["POS System", "Customer Database"]
-      duration: "5 minutes"
-      outputs: ["Enrollment Form"]
-    - step: 2
-      actor: "Customer Service Rep"
-      action: "Process enrollment and issue membership card"
-      tools: ["Loyalty Program Software"]
-      duration: "3 minutes"
-      outputs: ["Membership Card", "Welcome Email"]
-  success_criteria: "Customer successfully enrolled with active membership"
-  failure_modes: ["Invalid customer information", "System technical issues"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Verify customer information and explain program benefits
+    tools:
+    - POS System
+    - Customer Database
+    duration: 5 minutes
+    outputs:
+    - Enrollment Form
+  - step: 2
+    actor: Customer Service Rep
+    action: Process enrollment and issue membership card
+    tools:
+    - Loyalty Program Software
+    duration: 3 minutes
+    outputs:
+    - Membership Card
+    - Welcome Email
+  success_criteria: Customer successfully enrolled with active membership
+  failure_modes:
+  - Invalid customer information
+  - System technical issues
   metrics:
-    - "Enrollment completion rate: 95%"
-    - "Average enrollment time: 8 minutes"
-    - "Customer satisfaction score: 4.5/5"
+  - 'Enrollment completion rate: 95%'
+  - 'Average enrollment time: 8 minutes'
+  - 'Customer satisfaction score: 4.5/5'
   performance_history:
-    success_rate_trend: "85% (2023) → 92% (2024) → 95% (2025)"
-    cost_trend: "$120K (2023) → $95K (2024) → $85K (2025)"
-    efficiency_improvements: ["POS integration reduced enrollment time by 40%", "Automated verification improved accuracy by 30%"]
+    success_rate_trend: 85% (2023) → 92% (2024) → 95% (2025)
+    cost_trend: $120K (2023) → $95K (2024) → $85K (2025)
+    efficiency_improvements:
+    - POS integration reduced enrollment time by 40%
+    - Automated verification improved accuracy by 30%

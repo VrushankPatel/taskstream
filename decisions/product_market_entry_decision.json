@@ -4,8 +4,16 @@
   "context": "Enterprise software company evaluating European market entry after successful North American expansion",
   "stakeholders": {
     "requester": "Chief Revenue Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["VP International", "Chief Marketing Officer", "General Counsel", "Finance Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP International",
+      "Chief Marketing Officer",
+      "General Counsel",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-09-01",
       "end_date": "2025-09-30",
       "duration": "29 days",
-      "activities": ["Market sizing", "Competitive analysis", "Customer research"],
+      "activities": [
+        "Market sizing",
+        "Competitive analysis",
+        "Customer research"
+      ],
       "outcome": "€2.8B market opportunity, 25% share potential"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-10-01",
       "end_date": "2025-10-20",
       "duration": "19 days",
-      "activities": ["GDPR compliance", "Local entity setup", "Tax implications"],
+      "activities": [
+        "GDPR compliance",
+        "Local entity setup",
+        "Tax implications"
+      ],
       "outcome": "Feasible with local entity, manageable compliance costs"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-10-21",
       "end_date": "2025-11-05",
       "duration": "15 days",
-      "activities": ["Revenue projections", "Cost modeling", "ROI analysis"],
+      "activities": [
+        "Revenue projections",
+        "Cost modeling",
+        "ROI analysis"
+      ],
       "outcome": "5-year NPV €45M, 3-year payback, 320% ROI"
     },
     {
@@ -43,7 +63,11 @@
       "start_date": "2025-11-06",
       "end_date": "2025-11-15",
       "duration": "9 days",
-      "activities": ["Board presentation", "Risk assessment", "Final approval"],
+      "activities": [
+        "Board presentation",
+        "Risk assessment",
+        "Final approval"
+      ],
       "outcome": "Approved with London headquarters"
     }
   ],
@@ -52,14 +76,30 @@
     "projected_value": "€55,000,000",
     "actual_value": "€50,000,000 (projected)",
     "roi_timeline": "36 months",
-    "risk_factors": ["Currency fluctuations", "Regulatory changes", "Local competition", "Cultural adaptation"]
+    "risk_factors": [
+      "Currency fluctuations",
+      "Regulatory changes",
+      "Local competition",
+      "Cultural adaptation"
+    ]
   },
-  "decision_criteria": ["Market opportunity", "Financial returns", "Strategic alignment", "Regulatory feasibility", "Execution risk"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Financial returns",
+    "Strategic alignment",
+    "Regulatory feasibility",
+    "Execution risk"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2026-01-01",
     "completion_date": "2026-12-31",
-    "milestones": ["Legal entity established: 2026-02-28", "Office opened: 2026-04-30", "First 20 hires: 2026-06-30", "Revenue target achieved: 2026-12-31"]
+    "milestones": [
+      "Legal entity established: 2026-02-28",
+      "Office opened: 2026-04-30",
+      "First 20 hires: 2026-06-30",
+      "Revenue target achieved: 2026-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Entity established, 15 hires, €2M revenue",

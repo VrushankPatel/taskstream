@@ -1,49 +1,79 @@
 workflow:
-  id: "workflow_sales_pipeline_automation"
-  title: "Sales Pipeline Automation Workflow"
-  department: "Sales"
-  complexity: "medium"
-  participants: ["Sales Operations Manager", "CRM Administrator", "Sales Team", "Marketing Manager"]
-  trigger: "Lead enters CRM system or quarterly pipeline review"
+  id: workflow_sales_pipeline_automation
+  title: Sales Pipeline Automation Workflow
+  department: Sales
+  complexity: medium
+  participants:
+  - Sales Operations Manager
+  - CRM Administrator
+  - Sales Team
+  - Marketing Manager
+  trigger: Lead enters CRM system or quarterly pipeline review
   temporal_data:
-    first_implemented: "2024-03-01"
-    last_updated: "2025-09-20"
-    typical_cycle_time: "30 days"
+    first_implemented: '2024-03-01'
+    last_updated: '2025-09-20'
+    typical_cycle_time: 30 days
     average_annual_executions: 120
-    seasonal_variations: ["Q4 peak with year-end targets", "Q1 budget planning focus"]
-    historical_evolution: "Manual tracking replaced with automated CRM in 2024, improving forecast accuracy by 40%"
+    seasonal_variations:
+    - Q4 peak with year-end targets
+    - Q1 budget planning focus
+    historical_evolution: Manual tracking replaced with automated CRM in 2024, improving
+      forecast accuracy by 40%
   steps:
-    - step: 1
-      actor: "CRM System"
-      action: "Automatically score and route leads based on predefined criteria"
-      tools: ["Lead scoring algorithm", "Routing rules"]
-      duration: "Immediate"
-      outputs: ["Qualified lead assignment", "Initial follow-up task"]
-    - step: 2
-      actor: "Sales Representative"
-      action: "Review lead profile and initiate personalized outreach"
-      tools: ["CRM dashboard", "Email templates", "LinkedIn"]
-      duration: "1 day"
-      outputs: ["Initial contact made", "Meeting scheduled"]
-    - step: 3
-      actor: "CRM System"
-      action: "Track all interactions and update lead status automatically"
-      tools: ["Activity logging", "Status triggers"]
-      duration: "Ongoing"
-      outputs: ["Updated lead score", "Pipeline progression"]
-    - step: 4
-      actor: "Sales Operations Manager"
-      action: "Monitor pipeline health and identify bottlenecks"
-      tools: ["Pipeline analytics dashboard", "Forecasting models"]
-      duration: "Weekly"
-      outputs: ["Performance reports", "Optimization recommendations"]
-  success_criteria: "Achieve 90% lead response time under 5 minutes with 35% conversion rate"
-  failure_modes: ["Poor lead quality from marketing", "System integration issues", "Inadequate training"]
+  - step: 1
+    actor: CRM System
+    action: Automatically score and route leads based on predefined criteria
+    tools:
+    - Lead scoring algorithm
+    - Routing rules
+    duration: Immediate
+    outputs:
+    - Qualified lead assignment
+    - Initial follow-up task
+  - step: 2
+    actor: Sales Representative
+    action: Review lead profile and initiate personalized outreach
+    tools:
+    - CRM dashboard
+    - Email templates
+    - LinkedIn
+    duration: 1 day
+    outputs:
+    - Initial contact made
+    - Meeting scheduled
+  - step: 3
+    actor: CRM System
+    action: Track all interactions and update lead status automatically
+    tools:
+    - Activity logging
+    - Status triggers
+    duration: Ongoing
+    outputs:
+    - Updated lead score
+    - Pipeline progression
+  - step: 4
+    actor: Sales Operations Manager
+    action: Monitor pipeline health and identify bottlenecks
+    tools:
+    - Pipeline analytics dashboard
+    - Forecasting models
+    duration: Weekly
+    outputs:
+    - Performance reports
+    - Optimization recommendations
+  success_criteria: Achieve 90% lead response time under 5 minutes with 35% conversion
+    rate
+  failure_modes:
+  - Poor lead quality from marketing
+  - System integration issues
+  - Inadequate training
   metrics:
-    - "Lead response time: <5 minutes"
-    - "Pipeline velocity: 25 days average"
-    - "Forecast accuracy: 85%"
+  - 'Lead response time: <5 minutes'
+  - 'Pipeline velocity: 25 days average'
+  - 'Forecast accuracy: 85%'
   performance_history:
-    success_rate_trend: "75% (2024) → 82% (2025)"
-    cost_trend: "$2.2M (2024) → $2.5M (2025)"
-    efficiency_improvements: ["Automated routing reduced manual work by 60%", "AI scoring improved lead quality by 30%"]
+    success_rate_trend: 75% (2024) → 82% (2025)
+    cost_trend: $2.2M (2024) → $2.5M (2025)
+    efficiency_improvements:
+    - Automated routing reduced manual work by 60%
+    - AI scoring improved lead quality by 30%

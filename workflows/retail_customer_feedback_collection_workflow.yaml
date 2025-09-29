@@ -1,49 +1,73 @@
 workflow:
-  id: "workflow_retail_customer_feedback_collection"
-  title: "Retail Customer Feedback Collection Process"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Store Manager", "Customer Service Rep", "Regional Manager"]
-  trigger: "Customer completes purchase or visits store"
+  id: workflow_retail_customer_feedback_collection
+  title: Retail Customer Feedback Collection Process
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Store Manager
+  - Customer Service Rep
+  - Regional Manager
+  trigger: Customer completes purchase or visits store
   temporal_data:
-    first_implemented: "2023-01-15"
-    last_updated: "2024-09-01"
-    typical_cycle_time: "1-2 days"
+    first_implemented: '2023-01-15'
+    last_updated: '2024-09-01'
+    typical_cycle_time: 1-2 days
     average_annual_executions: 50000
-    seasonal_variations: ["Q4 holiday peak (200% increase)", "Q1 post-holiday dip (30% decrease)"]
-    historical_evolution: "Started as manual paper surveys in 2023, automated via mobile app in 2024"
+    seasonal_variations:
+    - Q4 holiday peak (200% increase)
+    - Q1 post-holiday dip (30% decrease)
+    historical_evolution: Started as manual paper surveys in 2023, automated via mobile
+      app in 2024
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Offer feedback survey at point of sale or via email"
-      tools: ["POS system", "Email automation", "Mobile survey app"]
-      duration: "2 minutes"
-      outputs: ["Survey invitation sent"]
-    - step: 2
-      actor: "Customer"
-      action: "Complete feedback survey (NPS, product ratings, comments)"
-      tools: ["Mobile app", "Email link"]
-      duration: "3-5 minutes"
-      outputs: ["Completed survey data"]
-    - step: 3
-      actor: "Store Manager"
-      action: "Review feedback alerts for urgent issues"
-      tools: ["Dashboard alerts", "Real-time monitoring"]
-      duration: "15 minutes daily"
-      outputs: ["Action items for urgent feedback"]
-    - step: 4
-      actor: "Regional Manager"
-      action: "Analyze weekly feedback trends and implement improvements"
-      tools: ["Analytics dashboard", "Trend reports"]
-      duration: "2 hours weekly"
-      outputs: ["Improvement action plan"]
-  success_criteria: "80% survey completion rate, 4.5+ average rating"
-  failure_modes: ["Low response rates", "Delayed follow-up", "Poor survey design"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Offer feedback survey at point of sale or via email
+    tools:
+    - POS system
+    - Email automation
+    - Mobile survey app
+    duration: 2 minutes
+    outputs:
+    - Survey invitation sent
+  - step: 2
+    actor: Customer
+    action: Complete feedback survey (NPS, product ratings, comments)
+    tools:
+    - Mobile app
+    - Email link
+    duration: 3-5 minutes
+    outputs:
+    - Completed survey data
+  - step: 3
+    actor: Store Manager
+    action: Review feedback alerts for urgent issues
+    tools:
+    - Dashboard alerts
+    - Real-time monitoring
+    duration: 15 minutes daily
+    outputs:
+    - Action items for urgent feedback
+  - step: 4
+    actor: Regional Manager
+    action: Analyze weekly feedback trends and implement improvements
+    tools:
+    - Analytics dashboard
+    - Trend reports
+    duration: 2 hours weekly
+    outputs:
+    - Improvement action plan
+  success_criteria: 80% survey completion rate, 4.5+ average rating
+  failure_modes:
+  - Low response rates
+  - Delayed follow-up
+  - Poor survey design
   metrics:
-    - "Survey response rate: 75% target"
-    - "NPS score: +40 target"
-    - "Resolution time for complaints: <24 hours"
+  - 'Survey response rate: 75% target'
+  - 'NPS score: +40 target'
+  - 'Resolution time for complaints: <24 hours'
   performance_history:
-    success_rate_trend: "65% (2023) → 78% (2024) → 82% (2025)"
-    cost_trend: "$50K (2023) → $35K (2024) → $28K (2025)"
-    efficiency_improvements: ["Mobile app reduced survey time by 40%", "AI analysis improved response accuracy by 25%"]
+    success_rate_trend: 65% (2023) → 78% (2024) → 82% (2025)
+    cost_trend: $50K (2023) → $35K (2024) → $28K (2025)
+    efficiency_improvements:
+    - Mobile app reduced survey time by 40%
+    - AI analysis improved response accuracy by 25%

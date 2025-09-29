@@ -1,11 +1,11 @@
 # EU Utilities Renewable Energy Integration Team Structure
 
 ## Executive Summary
-**Organization:** European Utilities Group (EUG)  
-**Department:** Renewable Energy Integration  
-**Headcount:** 45 FTE (Full-Time Equivalent)  
-**Established:** 2024-01-01  
-**Reporting Structure:** Reports to Chief Renewable Officer  
+**Organization:** European Utilities Group (EUG)
+**Department:** Renewable Energy Integration
+**Headcount:** 45 FTE (Full-Time Equivalent)
+**Established:** 2024-01-01
+**Reporting Structure:** Reports to Chief Renewable Officer
 
 ## Mission Statement
 To accelerate the integration of renewable energy sources into the European power grid while ensuring grid stability, regulatory compliance, and optimal economic performance.

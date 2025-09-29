@@ -1,11 +1,11 @@
 # Manufacturing Industry 4.0 Implementation Team Structure
 
 ## Overview
-**Organization:** Global Manufacturing Corp  
-**Department:** Industry 4.0 Implementation  
-**Headcount:** 95 FTE  
-**Reporting Structure:** Reports to VP of Manufacturing Operations  
-**Geographic Scope:** 12 global manufacturing facilities  
+**Organization:** Global Manufacturing Corp
+**Department:** Industry 4.0 Implementation
+**Headcount:** 95 FTE
+**Reporting Structure:** Reports to VP of Manufacturing Operations
+**Geographic Scope:** 12 global manufacturing facilities
 
 ## Executive Leadership
 **VP of Industry 4.0 Implementation**

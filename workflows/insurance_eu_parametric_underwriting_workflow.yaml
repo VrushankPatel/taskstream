@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_insurance_eu_parametric_underwriting"
-  title: "EU Insurance Parametric Underwriting Process"
-  department: "Underwriting"
-  complexity: "complex"
-  participants: ["Parametric Underwriter", "Risk Modeler", "Compliance Officer", "Actuary", "Legal Counsel"]
-  trigger: "New parametric product development or existing product modification request"
+  id: workflow_insurance_eu_parametric_underwriting
+  title: EU Insurance Parametric Underwriting Process
+  department: Underwriting
+  complexity: complex
+  participants:
+  - Parametric Underwriter
+  - Risk Modeler
+  - Compliance Officer
+  - Actuary
+  - Legal Counsel
+  trigger: New parametric product development or existing product modification request
   temporal_data:
-    first_implemented: "2022-09-01"
-    last_updated: "2025-05-20"
-    typical_cycle_time: "12 weeks"
+    first_implemented: '2022-09-01'
+    last_updated: '2025-05-20'
+    typical_cycle_time: 12 weeks
     average_annual_executions: 8
-    seasonal_variations: ["Q1 planning cycle focuses on annual products", "Q3 pre-renewal reviews"]
-    historical_evolution: "Evolved from traditional underwriting to parametric models with real-time data integration"
+    seasonal_variations:
+    - Q1 planning cycle focuses on annual products
+    - Q3 pre-renewal reviews
+    historical_evolution: Evolved from traditional underwriting to parametric models
+      with real-time data integration
   steps:
-    - step: 1
-      actor: "Parametric Underwriter"
-      action: "Define product parameters and trigger events"
-      tools: ["Product design software", "Historical data analysis"]
-      duration: "2 weeks"
-      outputs: ["Product specification document"]
-    - step: 2
-      actor: "Risk Modeler"
-      action: "Develop and validate parametric models using historical data"
-      tools: ["Statistical modeling software", "Data validation tools"]
-      duration: "4 weeks"
-      outputs: ["Validated risk model", "Model performance report"]
-    - step: 3
-      actor: "Actuary"
-      action: "Calculate pricing and assess capital requirements"
-      tools: ["Actuarial software", "Capital modeling tools"]
-      duration: "3 weeks"
-      outputs: ["Pricing structure", "Capital adequacy assessment"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Ensure regulatory compliance and conduct risk assessments"
-      tools: ["Regulatory databases", "Compliance checklists"]
-      duration: "2 weeks"
-      outputs: ["Compliance report", "Risk assessment"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Review contracts and ensure legal compliance"
-      tools: ["Contract management system", "Legal databases"]
-      duration: "1 week"
-      outputs: ["Legal review", "Contract templates"]
-  success_criteria: "Parametric product launched with profitable pricing and regulatory approval"
-  failure_modes: ["Model inaccuracy", "Regulatory non-compliance", "Capital inadequacy"]
+  - step: 1
+    actor: Parametric Underwriter
+    action: Define product parameters and trigger events
+    tools:
+    - Product design software
+    - Historical data analysis
+    duration: 2 weeks
+    outputs:
+    - Product specification document
+  - step: 2
+    actor: Risk Modeler
+    action: Develop and validate parametric models using historical data
+    tools:
+    - Statistical modeling software
+    - Data validation tools
+    duration: 4 weeks
+    outputs:
+    - Validated risk model
+    - Model performance report
+  - step: 3
+    actor: Actuary
+    action: Calculate pricing and assess capital requirements
+    tools:
+    - Actuarial software
+    - Capital modeling tools
+    duration: 3 weeks
+    outputs:
+    - Pricing structure
+    - Capital adequacy assessment
+  - step: 4
+    actor: Compliance Officer
+    action: Ensure regulatory compliance and conduct risk assessments
+    tools:
+    - Regulatory databases
+    - Compliance checklists
+    duration: 2 weeks
+    outputs:
+    - Compliance report
+    - Risk assessment
+  - step: 5
+    actor: Legal Counsel
+    action: Review contracts and ensure legal compliance
+    tools:
+    - Contract management system
+    - Legal databases
+    duration: 1 week
+    outputs:
+    - Legal review
+    - Contract templates
+  success_criteria: Parametric product launched with profitable pricing and regulatory
+    approval
+  failure_modes:
+  - Model inaccuracy
+  - Regulatory non-compliance
+  - Capital inadequacy
   metrics:
-    - "Model accuracy rate: 95%"
-    - "Time to market: 10 weeks"
-    - "Profitability ratio: 110%"
+  - 'Model accuracy rate: 95%'
+  - 'Time to market: 10 weeks'
+  - 'Profitability ratio: 110%'
   performance_history:
-    success_rate_trend: "60% (2022) → 75% (2023) → 85% (2024) → 90% (2025)"
-    cost_trend: "€500,000 (2022) → €450,000 (2023) → €400,000 (2024) → €350,000 (2025)"
-    efficiency_improvements: ["Automated data validation reduced model development time by 30%", "Regulatory AI compliance checks improved approval rate by 40%"]
+    success_rate_trend: 60% (2022) → 75% (2023) → 85% (2024) → 90% (2025)
+    cost_trend: €500,000 (2022) → €450,000 (2023) → €400,000 (2024) → €350,000 (2025)
+    efficiency_improvements:
+    - Automated data validation reduced model development time by 30%
+    - Regulatory AI compliance checks improved approval rate by 40%

@@ -4,8 +4,17 @@
   "context": "Insurance company launching cyber parametric products to address rising cyber threats and provide fast payout solutions for business interruption",
   "stakeholders": {
     "requester": "VP Cyber Insurance",
-    "approvers": ["CEO", "Chief Risk Officer", "Chief Underwriting Officer"],
-    "influencers": ["Cybersecurity Director", "Data Analytics Lead", "Legal Counsel", "Distribution Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Risk Officer",
+      "Chief Underwriting Officer"
+    ],
+    "influencers": [
+      "Cybersecurity Director",
+      "Data Analytics Lead",
+      "Legal Counsel",
+      "Distribution Partners"
+    ]
   },
   "request": {
     "amount": "$6,000,000",
@@ -19,7 +28,11 @@
       "start_date": "2024-12-01",
       "end_date": "2024-12-31",
       "duration": "4 weeks",
-      "activities": ["Cyber threat analysis", "Competitor assessment", "Customer demand survey"],
+      "activities": [
+        "Cyber threat analysis",
+        "Competitor assessment",
+        "Customer demand survey"
+      ],
       "outcome": "Clear market gap and strong demand identified"
     },
     {
@@ -27,7 +40,11 @@
       "start_date": "2025-01-01",
       "end_date": "2025-02-28",
       "duration": "8 weeks",
-      "activities": ["Parametric trigger design", "Data source integration", "Model validation"],
+      "activities": [
+        "Parametric trigger design",
+        "Data source integration",
+        "Model validation"
+      ],
       "outcome": "Technical solution validated with 95% accuracy"
     },
     {
@@ -35,7 +52,11 @@
       "start_date": "2025-03-01",
       "end_date": "2025-03-20",
       "duration": "3 weeks",
-      "activities": ["Regulatory compliance check", "Legal review", "Contract development"],
+      "activities": [
+        "Regulatory compliance check",
+        "Legal review",
+        "Contract development"
+      ],
       "outcome": "All regulatory requirements met"
     },
     {
@@ -43,7 +64,11 @@
       "start_date": "2025-03-21",
       "end_date": "2025-04-05",
       "duration": "2 weeks",
-      "activities": ["ROI analysis", "Capital modeling", "Board presentation"],
+      "activities": [
+        "ROI analysis",
+        "Capital modeling",
+        "Board presentation"
+      ],
       "outcome": "Approved with full funding"
     }
   ],
@@ -52,14 +77,30 @@
     "projected_value": "$18,000,000 first year revenue",
     "actual_value": "$22,000,000 achieved in year 1 (vs projection)",
     "roi_timeline": "Expected payback in 2.2 years",
-    "risk_factors": ["Cyber threat evolution", "Data privacy concerns", "Competitive response", "Regulatory changes"]
+    "risk_factors": [
+      "Cyber threat evolution",
+      "Data privacy concerns",
+      "Competitive response",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Market demand", "Technical feasibility", "Regulatory compliance", "Financial viability", "Risk management", "Customer benefit"],
+  "decision_criteria": [
+    "Market demand",
+    "Technical feasibility",
+    "Regulatory compliance",
+    "Financial viability",
+    "Risk management",
+    "Customer benefit"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-05-01",
     "completion_date": "2025-11-30",
-    "milestones": ["Pilot launch: 2025-07-31", "Full market launch: 2025-09-30", "Scale target: 2025-11-30"]
+    "milestones": [
+      "Pilot launch: 2025-07-31",
+      "Full market launch: 2025-09-30",
+      "Scale target: 2025-11-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot successful, $8M in premiums, average payout time 2 hours vs industry 30 days",

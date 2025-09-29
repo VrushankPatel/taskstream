@@ -78,12 +78,23 @@
       "Customer adoption delays"
     ]
   },
-  "decision_criteria": ["Regulatory compliance", "Financial ROI", "Brand enhancement", "Customer expectations", "Operational feasibility"],
+  "decision_criteria": [
+    "Regulatory compliance",
+    "Financial ROI",
+    "Brand enhancement",
+    "Customer expectations",
+    "Operational feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2027-06-30",
-    "milestones": ["Regulatory compliance: 2026-03-31", "Pilot programs: 2026-09-30", "Full implementation: 2027-03-31", "Optimization: 2027-06-30"]
+    "milestones": [
+      "Regulatory compliance: 2026-03-31",
+      "Pilot programs: 2026-09-30",
+      "Full implementation: 2027-03-31",
+      "Optimization: 2027-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Initial carbon reduction metrics and customer feedback",

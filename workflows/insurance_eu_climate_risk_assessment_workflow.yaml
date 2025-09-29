@@ -1,45 +1,78 @@
 workflow:
-  id: "workflow_insurance_eu_climate_risk_assessment"
-  title: "EU Insurance Climate Risk Assessment"
-  department: "Risk Management"
-  complexity: "medium"
-  participants: ["Climate Risk Analyst", "Underwriting Manager", "Actuarial Specialist"]
-  trigger: "Annual portfolio review or new climate event data becomes available"
+  id: workflow_insurance_eu_climate_risk_assessment
+  title: EU Insurance Climate Risk Assessment
+  department: Risk Management
+  complexity: medium
+  participants:
+  - Climate Risk Analyst
+  - Underwriting Manager
+  - Actuarial Specialist
+  trigger: Annual portfolio review or new climate event data becomes available
   temporal_data:
-    first_implemented: "2023-11-01"
-    last_updated: "2025-06-30"
-    typical_cycle_time: "2 weeks"
+    first_implemented: '2023-11-01'
+    last_updated: '2025-06-30'
+    typical_cycle_time: 2 weeks
     average_annual_executions: 26
-    seasonal_variations: ["Post-major weather events (increased frequency)", "Annual Q4 comprehensive review"]
-    historical_evolution: "Manual risk assessment evolved to AI-driven climate modeling with EU regulatory integration"
+    seasonal_variations:
+    - Post-major weather events (increased frequency)
+    - Annual Q4 comprehensive review
+    historical_evolution: Manual risk assessment evolved to AI-driven climate modeling
+      with EU regulatory integration
   steps:
-    - step: 1
-      actor: "Climate Risk Analyst"
-      action: "Collect and analyze climate data, weather patterns, and emerging risks"
-      tools: ["Climate modeling software", "Weather data APIs", "EU climate risk databases"]
-      duration: "3 days"
-      outputs: ["Climate risk assessment report", "Risk trend analysis"]
-    - step: 2
-      actor: "Actuarial Specialist"
-      action: "Update pricing models and reserve calculations based on climate risks"
-      tools: ["Actuarial modeling platform", "Reserve calculation software", "Climate-adjusted pricing engine"]
-      duration: "5 days"
-      outputs: ["Updated pricing models", "Reserve adjustment recommendations"]
-      decision_points: ["Climate risk severity", "Regulatory capital requirements", "Portfolio concentration limits"]
-    - step: 3
-      actor: "Underwriting Manager"
-      action: "Review risk assessment and implement underwriting guideline updates"
-      tools: ["Underwriting policy database", "Risk appetite framework", "EU sustainability reporting tools"]
-      duration: "4 days"
-      outputs: ["Updated underwriting guidelines", "Portfolio risk mitigation plan"]
-      decision_points: ["Risk acceptance thresholds", "Pricing competitiveness", "Regulatory compliance requirements"]
-  success_criteria: "Climate risk assessment completed with updated pricing and underwriting guidelines within regulatory deadlines"
-  failure_modes: ["Inadequate data quality", "Regulatory non-compliance", "Underwriting guideline implementation delays"]
+  - step: 1
+    actor: Climate Risk Analyst
+    action: Collect and analyze climate data, weather patterns, and emerging risks
+    tools:
+    - Climate modeling software
+    - Weather data APIs
+    - EU climate risk databases
+    duration: 3 days
+    outputs:
+    - Climate risk assessment report
+    - Risk trend analysis
+  - step: 2
+    actor: Actuarial Specialist
+    action: Update pricing models and reserve calculations based on climate risks
+    tools:
+    - Actuarial modeling platform
+    - Reserve calculation software
+    - Climate-adjusted pricing engine
+    duration: 5 days
+    outputs:
+    - Updated pricing models
+    - Reserve adjustment recommendations
+    decision_points:
+    - Climate risk severity
+    - Regulatory capital requirements
+    - Portfolio concentration limits
+  - step: 3
+    actor: Underwriting Manager
+    action: Review risk assessment and implement underwriting guideline updates
+    tools:
+    - Underwriting policy database
+    - Risk appetite framework
+    - EU sustainability reporting tools
+    duration: 4 days
+    outputs:
+    - Updated underwriting guidelines
+    - Portfolio risk mitigation plan
+    decision_points:
+    - Risk acceptance thresholds
+    - Pricing competitiveness
+    - Regulatory compliance requirements
+  success_criteria: Climate risk assessment completed with updated pricing and underwriting
+    guidelines within regulatory deadlines
+  failure_modes:
+  - Inadequate data quality
+  - Regulatory non-compliance
+  - Underwriting guideline implementation delays
   metrics:
-    - "Assessment completion rate: 100%"
-    - "Average processing time: 12 days"
-    - "Regulatory compliance rate: 100%"
+  - 'Assessment completion rate: 100%'
+  - 'Average processing time: 12 days'
+  - 'Regulatory compliance rate: 100%'
   performance_history:
-    success_rate_trend: "85% (2023) → 95% (2024) → 100% (2025)"
-    cost_trend: "€15,000 per assessment (2023) → €12,000 (2024) → €10,000 (2025)"
-    efficiency_improvements: ["AI climate modeling reduced analysis time by 40%", "Automated regulatory reporting improved compliance by 30%"]
+    success_rate_trend: 85% (2023) → 95% (2024) → 100% (2025)
+    cost_trend: €15,000 per assessment (2023) → €12,000 (2024) → €10,000 (2025)
+    efficiency_improvements:
+    - AI climate modeling reduced analysis time by 40%
+    - Automated regulatory reporting improved compliance by 30%

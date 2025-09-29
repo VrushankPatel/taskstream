@@ -1,51 +1,88 @@
 workflow:
-  id: "workflow_retail_eu_sustainability_feedback"
-  title: "EU Retail Sustainability Customer Feedback Collection"
-  department: "Customer Experience"
-  complexity: "medium"
-  participants: ["Customer Service Rep", "Sustainability Manager", "Data Analyst"]
-  trigger: "Customer completes purchase and opts into sustainability feedback survey"
+  id: workflow_retail_eu_sustainability_feedback
+  title: EU Retail Sustainability Customer Feedback Collection
+  department: Customer Experience
+  complexity: medium
+  participants:
+  - Customer Service Rep
+  - Sustainability Manager
+  - Data Analyst
+  trigger: Customer completes purchase and opts into sustainability feedback survey
   temporal_data:
-    first_implemented: "2024-01-15"
-    last_updated: "2025-09-20"
-    typical_cycle_time: "2 days"
+    first_implemented: '2024-01-15'
+    last_updated: '2025-09-20'
+    typical_cycle_time: 2 days
     average_annual_executions: 15000
-    seasonal_variations: ["Q2 Earth Day peak (50% increase)", "Q4 holiday season (30% increase)"]
-    historical_evolution: "Started as post-purchase email survey, evolved to integrated mobile app feedback with real-time sustainability impact tracking"
+    seasonal_variations:
+    - Q2 Earth Day peak (50% increase)
+    - Q4 holiday season (30% increase)
+    historical_evolution: Started as post-purchase email survey, evolved to integrated
+      mobile app feedback with real-time sustainability impact tracking
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Deliver product with sustainability information card and QR code for feedback survey"
-      tools: ["Point-of-sale system", "Sustainability info cards", "Mobile survey app"]
-      duration: "2 minutes"
-      outputs: ["Customer engaged with sustainability messaging", "Survey invitation sent"]
-    - step: 2
-      actor: "Customer"
-      action: "Complete sustainability feedback survey rating product eco-friendliness and packaging"
-      tools: ["Mobile survey app", "Web survey portal"]
-      duration: "5 minutes"
-      outputs: ["Sustainability feedback data", "Customer satisfaction rating"]
-    - step: 3
-      actor: "Data Analyst"
-      action: "Analyze feedback data and generate sustainability improvement insights"
-      tools: ["Data analytics platform", "Sustainability reporting dashboard"]
-      duration: "4 hours"
-      outputs: ["Feedback analysis report", "Improvement recommendations"]
-      decision_points: ["Feedback statistical significance", "Improvement feasibility", "Cost-benefit analysis"]
-    - step: 4
-      actor: "Sustainability Manager"
-      action: "Review analysis and implement product/packaging improvements"
-      tools: ["Supplier management system", "Sustainability roadmap"]
-      duration: "1 day"
-      outputs: ["Updated sustainability practices", "Supplier improvement requests"]
-      decision_points: ["Supplier capability assessment", "Regulatory compliance impact", "Timeline vs. priority trade-offs"]
-  success_criteria: "Customer feedback collected and analyzed, leading to at least one sustainability improvement within 30 days"
-  failure_modes: ["Low survey response rate (<20%)", "Data quality issues", "Supplier non-compliance with improvements"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Deliver product with sustainability information card and QR code for feedback
+      survey
+    tools:
+    - Point-of-sale system
+    - Sustainability info cards
+    - Mobile survey app
+    duration: 2 minutes
+    outputs:
+    - Customer engaged with sustainability messaging
+    - Survey invitation sent
+  - step: 2
+    actor: Customer
+    action: Complete sustainability feedback survey rating product eco-friendliness
+      and packaging
+    tools:
+    - Mobile survey app
+    - Web survey portal
+    duration: 5 minutes
+    outputs:
+    - Sustainability feedback data
+    - Customer satisfaction rating
+  - step: 3
+    actor: Data Analyst
+    action: Analyze feedback data and generate sustainability improvement insights
+    tools:
+    - Data analytics platform
+    - Sustainability reporting dashboard
+    duration: 4 hours
+    outputs:
+    - Feedback analysis report
+    - Improvement recommendations
+    decision_points:
+    - Feedback statistical significance
+    - Improvement feasibility
+    - Cost-benefit analysis
+  - step: 4
+    actor: Sustainability Manager
+    action: Review analysis and implement product/packaging improvements
+    tools:
+    - Supplier management system
+    - Sustainability roadmap
+    duration: 1 day
+    outputs:
+    - Updated sustainability practices
+    - Supplier improvement requests
+    decision_points:
+    - Supplier capability assessment
+    - Regulatory compliance impact
+    - Timeline vs. priority trade-offs
+  success_criteria: Customer feedback collected and analyzed, leading to at least
+    one sustainability improvement within 30 days
+  failure_modes:
+  - Low survey response rate (<20%)
+  - Data quality issues
+  - Supplier non-compliance with improvements
   metrics:
-    - "Survey response rate: 35%"
-    - "Customer satisfaction with sustainability: 4.2/5"
-    - "Time to implement improvements: 21 days average"
+  - 'Survey response rate: 35%'
+  - 'Customer satisfaction with sustainability: 4.2/5'
+  - 'Time to implement improvements: 21 days average'
   performance_history:
-    success_rate_trend: "75% (2024) → 85% (2025)"
-    cost_trend: "€3.20 per feedback (2024) → €2.80 (2025)"
-    efficiency_improvements: ["Mobile app integration increased response rate by 40%", "Automated analysis reduced processing time by 60%"]
+    success_rate_trend: 75% (2024) → 85% (2025)
+    cost_trend: €3.20 per feedback (2024) → €2.80 (2025)
+    efficiency_improvements:
+    - Mobile app integration increased response rate by 40%
+    - Automated analysis reduced processing time by 60%

@@ -1,62 +1,126 @@
 workflow:
-  id: "workflow_hospitality_eu_medium_dietary_001"
-  title: "Guest Dietary Accommodation Process"
-  department: "Food & Beverage Operations"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "F&B Manager", "Head Chef", "Nutritionist", "Housekeeping"]
-  trigger: "Guest requests special dietary accommodation"
+  id: workflow_hospitality_eu_medium_dietary_001
+  title: Guest Dietary Accommodation Process
+  department: Food & Beverage Operations
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - F&B Manager
+  - Head Chef
+  - Nutritionist
+  - Housekeeping
+  trigger: Guest requests special dietary accommodation
   temporal_data:
-    first_implemented: "2019-06-01"
-    last_updated: "2024-12-10"
-    typical_cycle_time: "24 hours"
+    first_implemented: '2019-06-01'
+    last_updated: '2024-12-10'
+    typical_cycle_time: 24 hours
     average_annual_executions: 8500
-    seasonal_variations: ["Summer tourism season 200% increase", "Holiday bookings 150% increase"]
-    historical_evolution: "Started with basic allergy management, expanded to comprehensive dietary needs including cultural, religious, and health-based requirements in 2022, integrated AI nutrition planning in 2024"
+    seasonal_variations:
+    - Summer tourism season 200% increase
+    - Holiday bookings 150% increase
+    historical_evolution: Started with basic allergy management, expanded to comprehensive
+      dietary needs including cultural, religious, and health-based requirements in
+      2022, integrated AI nutrition planning in 2024
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Document guest dietary requirements during check-in or reservation"
-      tools: ["Property Management System", "Guest Profile Database", "Dietary Requirements Form"]
-      duration: "10 minutes"
-      outputs: ["Dietary requirements profile", "Special accommodation flag"]
-      decision_points: ["Medical allergy", "Religious dietary law", "Personal preference", "Cultural requirement"]
-    - step: 2
-      actor: "F&B Manager"
-      action: "Review dietary requirements and assess kitchen capabilities"
-      tools: ["Kitchen Management System", "Supplier Database", "Nutritional Analysis Software"]
-      duration: "30 minutes"
-      outputs: ["Feasibility assessment", "Special ingredient requirements", "Cost analysis"]
-      decision_points: ["Standard accommodation possible", "Special ingredients needed", "External catering required"]
-    - step: 3
-      actor: "Head Chef"
-      action: "Plan customized meal preparation and kitchen procedures"
-      tools: ["Menu Planning System", "Allergen Management Protocol", "Kitchen Staff Communication"]
-      duration: "45 minutes"
-      outputs: ["Custom meal plan", "Kitchen preparation schedule", "Cross-contamination prevention plan"]
-      decision_points: ["Dedicated preparation area needed", "Special cooking equipment required", "Staff training needed"]
-    - step: 4
-      actor: "Nutritionist"
-      action: "Validate nutritional compliance and safety protocols"
-      tools: ["Nutritional Database", "Allergy Management System", "Regulatory Compliance Checker"]
-      duration: "20 minutes"
-      outputs: ["Nutritional validation", "Safety compliance confirmation", "Alternative options"]
-      decision_points: ["Nutritionally adequate", "Medical consultation needed", "Additional supplements required"]
-    - step: 5
-      actor: "F&B Manager"
-      action: "Coordinate with all service points and communicate guest preferences"
-      tools: ["Staff Communication System", "Service Alert Platform", "Guest Preference Database"]
-      duration: "15 minutes"
-      outputs: ["Service coordination plan", "Staff briefing completed", "Guest accommodation confirmed"]
-      decision_points: ["Room service included", "Restaurant service modified", "Special event catering needed"]
-  success_criteria: "Guest dietary needs fully accommodated with 100% safety compliance and satisfaction rating >4.7/5"
-  failure_modes: ["Cross-contamination incident", "Ingredient unavailability", "Kitchen equipment failure", "Staff miscommunication", "Supplier delivery delays"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Document guest dietary requirements during check-in or reservation
+    tools:
+    - Property Management System
+    - Guest Profile Database
+    - Dietary Requirements Form
+    duration: 10 minutes
+    outputs:
+    - Dietary requirements profile
+    - Special accommodation flag
+    decision_points:
+    - Medical allergy
+    - Religious dietary law
+    - Personal preference
+    - Cultural requirement
+  - step: 2
+    actor: F&B Manager
+    action: Review dietary requirements and assess kitchen capabilities
+    tools:
+    - Kitchen Management System
+    - Supplier Database
+    - Nutritional Analysis Software
+    duration: 30 minutes
+    outputs:
+    - Feasibility assessment
+    - Special ingredient requirements
+    - Cost analysis
+    decision_points:
+    - Standard accommodation possible
+    - Special ingredients needed
+    - External catering required
+  - step: 3
+    actor: Head Chef
+    action: Plan customized meal preparation and kitchen procedures
+    tools:
+    - Menu Planning System
+    - Allergen Management Protocol
+    - Kitchen Staff Communication
+    duration: 45 minutes
+    outputs:
+    - Custom meal plan
+    - Kitchen preparation schedule
+    - Cross-contamination prevention plan
+    decision_points:
+    - Dedicated preparation area needed
+    - Special cooking equipment required
+    - Staff training needed
+  - step: 4
+    actor: Nutritionist
+    action: Validate nutritional compliance and safety protocols
+    tools:
+    - Nutritional Database
+    - Allergy Management System
+    - Regulatory Compliance Checker
+    duration: 20 minutes
+    outputs:
+    - Nutritional validation
+    - Safety compliance confirmation
+    - Alternative options
+    decision_points:
+    - Nutritionally adequate
+    - Medical consultation needed
+    - Additional supplements required
+  - step: 5
+    actor: F&B Manager
+    action: Coordinate with all service points and communicate guest preferences
+    tools:
+    - Staff Communication System
+    - Service Alert Platform
+    - Guest Preference Database
+    duration: 15 minutes
+    outputs:
+    - Service coordination plan
+    - Staff briefing completed
+    - Guest accommodation confirmed
+    decision_points:
+    - Room service included
+    - Restaurant service modified
+    - Special event catering needed
+  success_criteria: Guest dietary needs fully accommodated with 100% safety compliance
+    and satisfaction rating >4.7/5
+  failure_modes:
+  - Cross-contamination incident
+  - Ingredient unavailability
+  - Kitchen equipment failure
+  - Staff miscommunication
+  - Supplier delivery delays
   metrics:
-    - "Accommodation success rate: >98%"
-    - "Guest satisfaction with dietary service: >4.7/5"
-    - "Safety incident rate: <0.1%"
-    - "Response time to dietary requests: <24 hours"
-    - "Cost variance from standard meals: <25%"
+  - 'Accommodation success rate: >98%'
+  - 'Guest satisfaction with dietary service: >4.7/5'
+  - 'Safety incident rate: <0.1%'
+  - 'Response time to dietary requests: <24 hours'
+  - 'Cost variance from standard meals: <25%'
   performance_history:
-    success_rate_trend: "94% (2022) → 96% (2023) → 97% (2024) → 98.5% (2025)"
-    cost_trend: "€45 per accommodation (2022) → €38 (2023) → €32 (2024) → €28 (2025)"
-    efficiency_improvements: ["AI nutrition planning reduced preparation time by 35%", "Supplier integration improved ingredient availability by 40%", "Digital communication reduced coordination errors by 60%", "GDPR-compliant guest profiling improved personalization by 50%"]
+    success_rate_trend: 94% (2022) → 96% (2023) → 97% (2024) → 98.5% (2025)
+    cost_trend: €45 per accommodation (2022) → €38 (2023) → €32 (2024) → €28 (2025)
+    efficiency_improvements:
+    - AI nutrition planning reduced preparation time by 35%
+    - Supplier integration improved ingredient availability by 40%
+    - Digital communication reduced coordination errors by 60%
+    - GDPR-compliant guest profiling improved personalization by 50%

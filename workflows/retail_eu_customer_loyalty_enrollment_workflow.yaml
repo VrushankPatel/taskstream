@@ -1,49 +1,72 @@
 workflow:
-  id: "workflow_retail_eu_loyalty_enrollment"
-  title: "EU Retail Customer Loyalty Program Enrollment"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Loyalty Program Manager", "Data Privacy Officer"]
-  trigger: "New customer signs up for loyalty program"
+  id: workflow_retail_eu_loyalty_enrollment
+  title: EU Retail Customer Loyalty Program Enrollment
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Loyalty Program Manager
+  - Data Privacy Officer
+  trigger: New customer signs up for loyalty program
   temporal_data:
-    first_implemented: "2023-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "15 minutes"
+    first_implemented: '2023-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 15 minutes
     average_annual_executions: 25000
-    seasonal_variations: ["Q4 holiday peak enrollment (40% increase)", "Q1 post-holiday recovery (20% decrease)"]
-    historical_evolution: "Initially manual process, automated in 2023 with GDPR compliance checks"
+    seasonal_variations:
+    - Q4 holiday peak enrollment (40% increase)
+    - Q1 post-holiday recovery (20% decrease)
+    historical_evolution: Initially manual process, automated in 2023 with GDPR compliance
+      checks
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Collect customer information and verify identity"
-      tools: ["CRM system", "ID verification scanner"]
-      duration: "5 minutes"
-      outputs: ["Verified customer profile"]
-    - step: 2
-      actor: "Customer Service Representative"
-      action: "Explain loyalty program benefits and obtain consent"
-      tools: ["Program brochure", "Consent form"]
-      duration: "5 minutes"
-      outputs: ["Signed consent form"]
-    - step: 3
-      actor: "Loyalty Program Manager"
-      action: "Process enrollment and assign membership number"
-      tools: ["Loyalty management system"]
-      duration: "3 minutes"
-      outputs: ["Membership card", "Welcome email"]
-    - step: 4
-      actor: "Data Privacy Officer"
-      action: "Review enrollment for GDPR compliance"
-      tools: ["Compliance checklist"]
-      duration: "2 minutes"
-      outputs: ["Compliance approval"]
-  success_criteria: "Customer successfully enrolled with valid membership and GDPR-compliant data handling"
-  failure_modes: ["Invalid customer information", "GDPR consent not obtained", "System technical issues"]
+  - step: 1
+    actor: Customer Service Representative
+    action: Collect customer information and verify identity
+    tools:
+    - CRM system
+    - ID verification scanner
+    duration: 5 minutes
+    outputs:
+    - Verified customer profile
+  - step: 2
+    actor: Customer Service Representative
+    action: Explain loyalty program benefits and obtain consent
+    tools:
+    - Program brochure
+    - Consent form
+    duration: 5 minutes
+    outputs:
+    - Signed consent form
+  - step: 3
+    actor: Loyalty Program Manager
+    action: Process enrollment and assign membership number
+    tools:
+    - Loyalty management system
+    duration: 3 minutes
+    outputs:
+    - Membership card
+    - Welcome email
+  - step: 4
+    actor: Data Privacy Officer
+    action: Review enrollment for GDPR compliance
+    tools:
+    - Compliance checklist
+    duration: 2 minutes
+    outputs:
+    - Compliance approval
+  success_criteria: Customer successfully enrolled with valid membership and GDPR-compliant
+    data handling
+  failure_modes:
+  - Invalid customer information
+  - GDPR consent not obtained
+  - System technical issues
   metrics:
-    - "Enrollment success rate: 98%"
-    - "Average processing time: 15 minutes"
-    - "GDPR compliance rate: 100%"
+  - 'Enrollment success rate: 98%'
+  - 'Average processing time: 15 minutes'
+  - 'GDPR compliance rate: 100%'
   performance_history:
-    success_rate_trend: "95% (2023) → 97% (2024) → 98% (2025)"
-    cost_trend: "€2.50 (2023) → €1.80 (2024) → €1.50 (2025)"
-    efficiency_improvements: ["Digital automation reduced processing time by 40%", "AI consent validation improved compliance by 25%"]
+    success_rate_trend: 95% (2023) → 97% (2024) → 98% (2025)
+    cost_trend: €2.50 (2023) → €1.80 (2024) → €1.50 (2025)
+    efficiency_improvements:
+    - Digital automation reduced processing time by 40%
+    - AI consent validation improved compliance by 25%

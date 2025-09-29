@@ -4,8 +4,16 @@
   "context": "Regional utility company evaluating entry into wholesale energy trading market",
   "stakeholders": {
     "requester": "Chief Commercial Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Chief Risk Officer"],
-    "influencers": ["Head of Trading", "Chief Regulatory Officer", "Head of Operations"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Head of Trading",
+      "Chief Regulatory Officer",
+      "Head of Operations"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -19,7 +27,12 @@
       "start_date": "2024-05-01",
       "end_date": "2024-06-15",
       "duration": "35 business days",
-      "activities": ["Market analysis", "Regulatory review", "Risk assessment", "Technology evaluation"],
+      "activities": [
+        "Market analysis",
+        "Regulatory review",
+        "Risk assessment",
+        "Technology evaluation"
+      ],
       "outcome": "Feasible with manageable risks"
     },
     {
@@ -27,7 +40,11 @@
       "start_date": "2024-06-16",
       "end_date": "2024-07-10",
       "duration": "15 business days",
-      "activities": ["Financial modeling", "Trading strategy development", "Resource planning"],
+      "activities": [
+        "Financial modeling",
+        "Trading strategy development",
+        "Resource planning"
+      ],
       "outcome": "Strong business case with 35% projected ROI"
     },
     {
@@ -35,7 +52,11 @@
       "start_date": "2024-07-11",
       "end_date": "2024-07-24",
       "duration": "10 business days",
-      "activities": ["Board presentation", "Risk committee review", "Final stakeholder alignment"],
+      "activities": [
+        "Board presentation",
+        "Risk committee review",
+        "Final stakeholder alignment"
+      ],
       "outcome": "Approved with enhanced risk controls"
     }
   ],
@@ -44,14 +65,28 @@
     "projected_value": "$75,000,000",
     "actual_value": "$85,000,000 (projected)",
     "roi_timeline": "Expected payback in 16 months",
-    "risk_factors": ["Market volatility", "Regulatory changes", "Technology integration complexity"]
+    "risk_factors": [
+      "Market volatility",
+      "Regulatory changes",
+      "Technology integration complexity"
+    ]
   },
-  "decision_criteria": ["Financial ROI >25%", "Risk within regulatory limits", "Strategic alignment", "Operational feasibility", "Competitive advantage"],
+  "decision_criteria": [
+    "Financial ROI >25%",
+    "Risk within regulatory limits",
+    "Strategic alignment",
+    "Operational feasibility",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2024-08-01",
     "completion_date": "2025-04-30",
-    "milestones": ["Phase 1: Platform development (Q3 2024)", "Phase 2: Regulatory approval (Q4 2024)", "Phase 3: Live trading (Q2 2025)"]
+    "milestones": [
+      "Phase 1: Platform development (Q3 2024)",
+      "Phase 2: Regulatory approval (Q4 2024)",
+      "Phase 3: Live trading (Q2 2025)"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Platform performance and initial trades",

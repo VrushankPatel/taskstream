@@ -1,55 +1,89 @@
 workflow:
-  id: "workflow_finance_commercial_lending"
-  title: "Commercial Loan Application and Approval Process"
-  department: "Commercial Banking"
-  complexity: "medium"
-  participants: ["Relationship Manager", "Credit Analyst", "Risk Manager", "Legal Counsel", "Branch Manager"]
-  trigger: "Business customer submits loan application"
+  id: workflow_finance_commercial_lending
+  title: Commercial Loan Application and Approval Process
+  department: Commercial Banking
+  complexity: medium
+  participants:
+  - Relationship Manager
+  - Credit Analyst
+  - Risk Manager
+  - Legal Counsel
+  - Branch Manager
+  trigger: Business customer submits loan application
   temporal_data:
-    first_implemented: "2020-03-15"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "10-15 business days"
+    first_implemented: '2020-03-15'
+    last_updated: '2024-09-15'
+    typical_cycle_time: 10-15 business days
     average_annual_executions: 2500
-    seasonal_variations: ["Q4 peak for year-end financing", "Q1 slowdown post-holiday"]
-    historical_evolution: "Process digitized in 2022, reducing approval time by 40%; added AI scoring in 2023"
+    seasonal_variations:
+    - Q4 peak for year-end financing
+    - Q1 slowdown post-holiday
+    historical_evolution: Process digitized in 2022, reducing approval time by 40%;
+      added AI scoring in 2023
   steps:
-    - step: 1
-      actor: "Relationship Manager"
-      action: "Initial application review and customer interview"
-      tools: ["CRM System", "Financial Statement Templates"]
-      duration: "2-3 days"
-      outputs: ["Completed Application Form", "Initial Credit Request"]
-    - step: 2
-      actor: "Credit Analyst"
-      action: "Financial analysis and credit scoring"
-      tools: ["Credit Scoring Software", "Financial Analysis Tools"]
-      duration: "3-5 days"
-      outputs: ["Credit Analysis Report", "Risk Assessment"]
-    - step: 3
-      actor: "Risk Manager"
-      action: "Risk assessment and compliance review"
-      tools: ["Risk Management System", "Compliance Database"]
-      duration: "2-3 days"
-      outputs: ["Risk Assessment Memo", "Compliance Checklist"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Legal review and documentation preparation"
-      tools: ["Legal Templates", "Contract Management System"]
-      duration: "2-4 days"
-      outputs: ["Loan Agreement Draft", "Legal Opinion"]
-    - step: 5
-      actor: "Branch Manager"
-      action: "Final approval and funding"
-      tools: ["Loan Management System", "Approval Workflow"]
-      duration: "1-2 days"
-      outputs: ["Approved Loan Agreement", "Funding Instructions"]
-  success_criteria: "Loan approved and funded within 15 business days with <5% default rate"
-  failure_modes: ["Incomplete documentation", "Poor credit quality", "Regulatory non-compliance"]
+  - step: 1
+    actor: Relationship Manager
+    action: Initial application review and customer interview
+    tools:
+    - CRM System
+    - Financial Statement Templates
+    duration: 2-3 days
+    outputs:
+    - Completed Application Form
+    - Initial Credit Request
+  - step: 2
+    actor: Credit Analyst
+    action: Financial analysis and credit scoring
+    tools:
+    - Credit Scoring Software
+    - Financial Analysis Tools
+    duration: 3-5 days
+    outputs:
+    - Credit Analysis Report
+    - Risk Assessment
+  - step: 3
+    actor: Risk Manager
+    action: Risk assessment and compliance review
+    tools:
+    - Risk Management System
+    - Compliance Database
+    duration: 2-3 days
+    outputs:
+    - Risk Assessment Memo
+    - Compliance Checklist
+  - step: 4
+    actor: Legal Counsel
+    action: Legal review and documentation preparation
+    tools:
+    - Legal Templates
+    - Contract Management System
+    duration: 2-4 days
+    outputs:
+    - Loan Agreement Draft
+    - Legal Opinion
+  - step: 5
+    actor: Branch Manager
+    action: Final approval and funding
+    tools:
+    - Loan Management System
+    - Approval Workflow
+    duration: 1-2 days
+    outputs:
+    - Approved Loan Agreement
+    - Funding Instructions
+  success_criteria: Loan approved and funded within 15 business days with <5% default
+    rate
+  failure_modes:
+  - Incomplete documentation
+  - Poor credit quality
+  - Regulatory non-compliance
   metrics:
-    - "Approval Rate: 75% target"
-    - "Average Processing Time: 12 days target"
-    - "Default Rate: <3% target"
+  - 'Approval Rate: 75% target'
+  - 'Average Processing Time: 12 days target'
+  - 'Default Rate: <3% target'
   performance_history:
-    success_rate_trend: "72% (2022) → 78% (2023) → 82% (2024)"
-    cost_trend: "$500K (2022) → $450K (2023) → $400K (2024)"
-    efficiency_improvements: ["Digital onboarding reduced time by 30%", "AI scoring improved accuracy by 15%"]
+    success_rate_trend: 72% (2022) → 78% (2023) → 82% (2024)
+    cost_trend: $500K (2022) → $450K (2023) → $400K (2024)
+    efficiency_improvements:
+    - Digital onboarding reduced time by 30%
+    - AI scoring improved accuracy by 15%

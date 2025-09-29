@@ -2,18 +2,18 @@
 
 ## Communication Context: Annual Sarbanes-Oxley Compliance Audit Preparation
 
-**Date Range:** September 20-28, 2025  
-**Participants:** Compliance Officer, Finance Director, IT Director, Operations Manager, HR Director, Legal Counsel  
-**Audit Scope:** Internal financial controls across 12 business processes and 45 control points  
+**Date Range:** September 20-28, 2025
+**Participants:** Compliance Officer, Finance Director, IT Director, Operations Manager, HR Director, Legal Counsel
+**Audit Scope:** Internal financial controls across 12 business processes and 45 control points
 **External Auditor:** Deloitte LLP
 
 ---
 
 ### Initial Coordination Email
 
-**From:** Maria Rodriguez, Chief Compliance Officer  
-**To:** Executive Leadership Team, Department Heads  
-**Date:** September 20, 2025 08:30  
+**From:** Maria Rodriguez, Chief Compliance Officer
+**To:** Executive Leadership Team, Department Heads
+**Date:** September 20, 2025 08:30
 **Subject:** URGENT - SOX Compliance Audit October 15-25: Comprehensive Preparation Required
 
 **Priority:** HIGH - Regulatory Compliance
@@ -26,7 +26,7 @@ Our annual Sarbanes-Oxley Section 404 compliance audit is scheduled for **Octobe
 
 **Financial Reporting Controls (Finance):**
 - Revenue recognition processes (3 key controls)
-- Accounts receivable and collections (4 controls) 
+- Accounts receivable and collections (4 controls)
 - Inventory valuation and costing (5 controls)
 - Fixed asset management (3 controls)
 - Financial close and reporting (8 controls)
@@ -60,18 +60,18 @@ Our annual Sarbanes-Oxley Section 404 compliance audit is scheduled for **Octobe
 
 Please confirm your department's compliance status and audit readiness by **September 25, 5:00 PM**. Emergency escalation: Compliance Hotline +1-555-SOX-HELP.
 
-Best regards,  
-**Maria Rodriguez**  
-Chief Compliance Officer  
+Best regards,
+**Maria Rodriguez**
+Chief Compliance Officer
 Direct: +1-555-0199 | Mobile: +1-555-0299
 
 ---
 
 ### Finance Department Response
 
-**From:** David Chen, Finance Director  
-**To:** Maria Rodriguez, Executive Leadership Team  
-**Date:** September 21, 2025 07:15  
+**From:** David Chen, Finance Director
+**To:** Maria Rodriguez, Executive Leadership Team
+**Date:** September 21, 2025 07:15
 **Subject:** Re: SOX Audit - Finance Department Readiness & ERP Implementation Impact
 
 Maria,
@@ -88,7 +88,7 @@ Maria,
 
 Our **Oracle ERP Cloud** implementation (Go-live: August 1, 2025) has introduced interim manual controls during the parallel run period. Key concerns:
 
-1. **Month-End Close Process:** Hybrid manual/automated procedures through September 
+1. **Month-End Close Process:** Hybrid manual/automated procedures through September
 2. **Reporting Controls:** New system reports require validation against legacy system
 3. **User Access:** Transitional access matrix while deprovisioning old system users
 
@@ -107,9 +107,9 @@ Our **Oracle ERP Cloud** implementation (Go-live: August 1, 2025) has introduced
 
 Let me know if you need detailed ERP implementation risk assessment for auditor discussions.
 
-**David Chen**  
-Finance Director  
-Oracle ERP Project Lead  
+**David Chen**
+Finance Director
+Oracle ERP Project Lead
 david.chen@company.com | +1-555-0155
 
 ---

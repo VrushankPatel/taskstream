@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_insurance_life_underwriting"
-  title: "Life Insurance Policy Underwriting Process"
-  department: "Life Insurance Underwriting"
-  complexity: "medium"
-  participants: ["Underwriting Assistant", "Medical Underwriter", "Senior Underwriter", "Actuarial Analyst", "Underwriting Manager"]
-  trigger: "Customer submits life insurance application"
+  id: workflow_insurance_life_underwriting
+  title: Life Insurance Policy Underwriting Process
+  department: Life Insurance Underwriting
+  complexity: medium
+  participants:
+  - Underwriting Assistant
+  - Medical Underwriter
+  - Senior Underwriter
+  - Actuarial Analyst
+  - Underwriting Manager
+  trigger: Customer submits life insurance application
   temporal_data:
-    first_implemented: "2019-06-01"
-    last_updated: "2024-08-20"
-    typical_cycle_time: "7-14 business days"
+    first_implemented: '2019-06-01'
+    last_updated: '2024-08-20'
+    typical_cycle_time: 7-14 business days
     average_annual_executions: 15000
-    seasonal_variations: ["Q4 peak for tax planning", "Q2 dip during summer months"]
-    historical_evolution: "Telemedicine integration in 2021 reduced medical exam requirements by 60%; AI risk assessment added in 2023"
+    seasonal_variations:
+    - Q4 peak for tax planning
+    - Q2 dip during summer months
+    historical_evolution: Telemedicine integration in 2021 reduced medical exam requirements
+      by 60%; AI risk assessment added in 2023
   steps:
-    - step: 1
-      actor: "Underwriting Assistant"
-      action: "Application intake and initial validation"
-      tools: ["Underwriting System", "Application Forms"]
-      duration: "1-2 days"
-      outputs: ["Validated Application", "Initial Risk Profile"]
-    - step: 2
-      actor: "Medical Underwriter"
-      action: "Medical history review and requirements assessment"
-      tools: ["Medical Database", "Telemedicine Platform"]
-      duration: "2-4 days"
-      outputs: ["Medical Assessment Report", "Additional Requirements List"]
-    - step: 3
-      actor: "Actuarial Analyst"
-      action: "Mortality risk calculation and pricing"
-      tools: ["Actuarial Software", "Risk Modeling Tools"]
-      duration: "1-2 days"
-      outputs: ["Risk Rating", "Premium Calculation"]
-    - step: 4
-      actor: "Senior Underwriter"
-      action: "Final risk assessment and decision"
-      tools: ["Underwriting Guidelines", "Risk Assessment Framework"]
-      duration: "2-3 days"
-      outputs: ["Underwriting Decision", "Policy Terms"]
-    - step: 5
-      actor: "Underwriting Manager"
-      action: "Approval and issuance"
-      tools: ["Policy Management System", "Approval Workflow"]
-      duration: "1 day"
-      outputs: ["Issued Policy", "Customer Notification"]
-  success_criteria: "Policy issued within 14 days with accurate risk assessment"
-  failure_modes: ["Incomplete medical information", "High-risk applicant", "Regulatory changes"]
+  - step: 1
+    actor: Underwriting Assistant
+    action: Application intake and initial validation
+    tools:
+    - Underwriting System
+    - Application Forms
+    duration: 1-2 days
+    outputs:
+    - Validated Application
+    - Initial Risk Profile
+  - step: 2
+    actor: Medical Underwriter
+    action: Medical history review and requirements assessment
+    tools:
+    - Medical Database
+    - Telemedicine Platform
+    duration: 2-4 days
+    outputs:
+    - Medical Assessment Report
+    - Additional Requirements List
+  - step: 3
+    actor: Actuarial Analyst
+    action: Mortality risk calculation and pricing
+    tools:
+    - Actuarial Software
+    - Risk Modeling Tools
+    duration: 1-2 days
+    outputs:
+    - Risk Rating
+    - Premium Calculation
+  - step: 4
+    actor: Senior Underwriter
+    action: Final risk assessment and decision
+    tools:
+    - Underwriting Guidelines
+    - Risk Assessment Framework
+    duration: 2-3 days
+    outputs:
+    - Underwriting Decision
+    - Policy Terms
+  - step: 5
+    actor: Underwriting Manager
+    action: Approval and issuance
+    tools:
+    - Policy Management System
+    - Approval Workflow
+    duration: 1 day
+    outputs:
+    - Issued Policy
+    - Customer Notification
+  success_criteria: Policy issued within 14 days with accurate risk assessment
+  failure_modes:
+  - Incomplete medical information
+  - High-risk applicant
+  - Regulatory changes
   metrics:
-    - "Approval Rate: 85% target"
-    - "Average Processing Time: 10 days target"
-    - "Claims Accuracy: >95% target"
+  - 'Approval Rate: 85% target'
+  - 'Average Processing Time: 10 days target'
+  - 'Claims Accuracy: >95% target'
   performance_history:
-    success_rate_trend: "80% (2022) → 87% (2023) → 90% (2024)"
-    cost_trend: "$2.1M (2022) → $1.9M (2023) → $1.7M (2024)"
-    efficiency_improvements: ["Telemedicine reduced exam costs by 40%", "AI improved risk prediction by 20%"]
+    success_rate_trend: 80% (2022) → 87% (2023) → 90% (2024)
+    cost_trend: $2.1M (2022) → $1.9M (2023) → $1.7M (2024)
+    efficiency_improvements:
+    - Telemedicine reduced exam costs by 40%
+    - AI improved risk prediction by 20%

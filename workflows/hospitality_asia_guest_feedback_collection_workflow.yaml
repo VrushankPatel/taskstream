@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_hospitality_asia_guest_feedback"
-  title: "Asia Hospitality Guest Feedback Collection Process"
-  department: "Guest Experience"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Experience Manager", "Quality Assurance Coordinator", "Regional Manager"]
-  trigger: "Guest checks out or requests feedback during stay"
+  id: workflow_hospitality_asia_guest_feedback
+  title: Asia Hospitality Guest Feedback Collection Process
+  department: Guest Experience
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Guest Experience Manager
+  - Quality Assurance Coordinator
+  - Regional Manager
+  trigger: Guest checks out or requests feedback during stay
   temporal_data:
-    first_implemented: "2022-08-10"
-    last_updated: "2024-09-15"
-    typical_cycle_time: "2 days"
+    first_implemented: '2022-08-10'
+    last_updated: '2024-09-15'
+    typical_cycle_time: 2 days
     average_annual_executions: 15000
-    seasonal_variations: ["Peak season (Nov-Mar) 35% increase", "Low season (Jun-Sep) 25% decrease"]
-    historical_evolution: "Initial paper surveys replaced with digital tablets in 2023, multilingual support added in 2024 for international guests"
+    seasonal_variations:
+    - Peak season (Nov-Mar) 35% increase
+    - Low season (Jun-Sep) 25% decrease
+    historical_evolution: Initial paper surveys replaced with digital tablets in 2023,
+      multilingual support added in 2024 for international guests
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Present feedback tablet or QR code during checkout process"
-      tools: ["Digital feedback tablet", "QR code generator"]
-      duration: "3 minutes"
-      outputs: ["Feedback session initiated", "Initial response captured"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Address immediate concerns raised in feedback and escalate if needed"
-      tools: ["Escalation protocol", "Manager notification system"]
-      duration: "5 minutes"
-      outputs: ["Immediate resolution provided", "Escalation logged if required"]
-    - step: 3
-      actor: "Guest Experience Manager"
-      action: "Review feedback data and identify trends or issues requiring attention"
-      tools: ["Feedback analytics dashboard", "Trend analysis reports"]
-      duration: "2 hours"
-      outputs: ["Feedback summary report", "Action items identified"]
-    - step: 4
-      actor: "Quality Assurance Coordinator"
-      action: "Implement corrective actions and follow up with guest if contact provided"
-      tools: ["Action tracking system", "Guest communication platform"]
-      duration: "1 day"
-      outputs: ["Corrective actions completed", "Follow-up communication sent"]
-    - step: 5
-      actor: "Regional Manager"
-      action: "Review monthly feedback reports and approve strategic improvements"
-      tools: ["Monthly performance dashboard", "Improvement planning system"]
-      duration: "4 hours"
-      outputs: ["Monthly feedback report", "Approved improvement initiatives"]
-  success_criteria: "Feedback collected with 85%+ response rate, issues addressed within 24 hours, guest satisfaction improved"
-  failure_modes: ["Low response rates due to language barriers", "Technical issues with feedback systems", "Delayed follow-up on critical issues"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Present feedback tablet or QR code during checkout process
+    tools:
+    - Digital feedback tablet
+    - QR code generator
+    duration: 3 minutes
+    outputs:
+    - Feedback session initiated
+    - Initial response captured
+  - step: 2
+    actor: Front Desk Agent
+    action: Address immediate concerns raised in feedback and escalate if needed
+    tools:
+    - Escalation protocol
+    - Manager notification system
+    duration: 5 minutes
+    outputs:
+    - Immediate resolution provided
+    - Escalation logged if required
+  - step: 3
+    actor: Guest Experience Manager
+    action: Review feedback data and identify trends or issues requiring attention
+    tools:
+    - Feedback analytics dashboard
+    - Trend analysis reports
+    duration: 2 hours
+    outputs:
+    - Feedback summary report
+    - Action items identified
+  - step: 4
+    actor: Quality Assurance Coordinator
+    action: Implement corrective actions and follow up with guest if contact provided
+    tools:
+    - Action tracking system
+    - Guest communication platform
+    duration: 1 day
+    outputs:
+    - Corrective actions completed
+    - Follow-up communication sent
+  - step: 5
+    actor: Regional Manager
+    action: Review monthly feedback reports and approve strategic improvements
+    tools:
+    - Monthly performance dashboard
+    - Improvement planning system
+    duration: 4 hours
+    outputs:
+    - Monthly feedback report
+    - Approved improvement initiatives
+  success_criteria: Feedback collected with 85%+ response rate, issues addressed within
+    24 hours, guest satisfaction improved
+  failure_modes:
+  - Low response rates due to language barriers
+  - Technical issues with feedback systems
+  - Delayed follow-up on critical issues
   metrics:
-    - "Response rate: 78%"
-    - "Average resolution time: 18 hours"
-    - "Guest satisfaction improvement: +12% year-over-year"
+  - 'Response rate: 78%'
+  - 'Average resolution time: 18 hours'
+  - 'Guest satisfaction improvement: +12% year-over-year'
   performance_history:
-    success_rate_trend: "65% (2023) → 72% (2024) → 78% (2025)"
-    cost_trend: "¥150 (2023) → ¥120 (2024) → ¥100 (2025)"
-    efficiency_improvements: ["Multilingual interface increased response rate by 20%", "Automated escalation reduced resolution time by 40%"]
+    success_rate_trend: 65% (2023) → 72% (2024) → 78% (2025)
+    cost_trend: ¥150 (2023) → ¥120 (2024) → ¥100 (2025)
+    efficiency_improvements:
+    - Multilingual interface increased response rate by 20%
+    - Automated escalation reduced resolution time by 40%

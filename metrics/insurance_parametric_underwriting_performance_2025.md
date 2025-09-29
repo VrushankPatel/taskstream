@@ -1,9 +1,9 @@
 # Insurance Parametric Underwriting Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q4 2024 (October 1 - December 31, 2024)  
-**Last Updated:** 2025-01-15  
-**Business Unit:** Parametric Insurance Division  
+**Report Period:** Q4 2024 (October 1 - December 31, 2024)
+**Last Updated:** 2025-01-15
+**Business Unit:** Parametric Insurance Division
 
 ## Key Performance Indicators
 

@@ -10,9 +10,11 @@ workflow:
     last_updated: "2024-07-20"
     typical_cycle_time: "4-6 hours"
     average_annual_executions: 5000
-    seasonal_variations: ["Summer peak for air conditioning load checks", "Winter focus on heating system reliability"]
+    seasonal_variations:
+    - "Summer peak for air conditioning load checks"
+    - "Winter focus on heating system reliability"
     historical_evolution: "IoT sensors added in 2020 enabled predictive maintenance, reducing emergency repairs by 50% and improving uptime to 99.9%"
-   steps:
+  steps:
     - step: 1
       actor: "Operations Coordinator"
       action: "Schedule maintenance based on predictive analytics"
@@ -33,8 +35,8 @@ workflow:
       tools: ["Quality assurance checklist", "System testing tools"]
       duration: "1 hour"
       outputs: ["Completion certificate", "System status update"]
-   success_criteria: "Maintenance completed without service interruption, all safety protocols followed"
-   failure_modes: ["Equipment failure during maintenance", "Safety protocol violations", "System testing failures"]
+  success_criteria: "Maintenance completed without service interruption, all safety protocols followed"
+  failure_modes: ["Equipment failure during maintenance", "Safety protocol violations", "System testing failures"]
   metrics:
      - "Uptime maintained: 99.9% (target 99.95%)"
      - "Safety incidents: 0 (target 0)"

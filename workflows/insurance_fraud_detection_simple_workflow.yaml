@@ -1,107 +1,181 @@
 name: Insurance Claims Fraud Detection Workflow
-description: Automated and manual fraud detection process for insurance claims using AI screening, data analytics, and investigative procedures
+description: Automated and manual fraud detection process for insurance claims using
+  AI screening, data analytics, and investigative procedures
 industry: insurance
 region: Global
 complexity: medium
 temporal_data:
   estimated_duration: 2-4 hours per flagged claim
   business_hours: 08:00-18:00 local time
-  peak_periods: ["Post-weather events", "Holiday seasons", "Economic stress periods"]
+  peak_periods:
+  - Post-weather events
+  - Holiday seasons
+  - Economic stress periods
 performance_history:
   average_detection_time: 3.2 hours
   fraud_detection_rate: 96%
   false_positive_rate: 4%
-  annual_fraud_prevention_value: "$12M"
+  annual_fraud_prevention_value: $12M
 actors:
-  - role: Claims Processor
-    department: Claims Operations
-    responsibilities: Initial claim review, system data entry, basic fraud screening
-  - role: Senior Fraud Analyst
-    department: Special Investigations
-    responsibilities: Advanced fraud analysis, investigation coordination, case documentation
-  - role: Investigation Specialist
-    department: Special Investigations
-    responsibilities: Field investigations, evidence collection, stakeholder interviews
-  - role: Legal Compliance Officer
-    department: Legal
-    responsibilities: Legal review, prosecution recommendations, regulatory reporting
+- role: Claims Processor
+  department: Claims Operations
+  responsibilities: Initial claim review, system data entry, basic fraud screening
+- role: Senior Fraud Analyst
+  department: Special Investigations
+  responsibilities: Advanced fraud analysis, investigation coordination, case documentation
+- role: Investigation Specialist
+  department: Special Investigations
+  responsibilities: Field investigations, evidence collection, stakeholder interviews
+- role: Legal Compliance Officer
+  department: Legal
+  responsibilities: Legal review, prosecution recommendations, regulatory reporting
 steps:
-  - id: automated_screening
-    name: AI-Powered Automated Fraud Screening
-    description: Initial automated screening using machine learning algorithms and pattern recognition
-    actors: [Claims Processor]
-    inputs: [Claim submission, Policy information, Claimant history, External databases]
-    outputs: [Risk score assessment, Red flag indicators, Automated recommendations]
-    decision_points:
-      - condition: Low risk score (<20)
-        next_step: standard_processing
-      - condition: Medium risk score (20-70)
-        next_step: enhanced_review
-      - condition: High risk score (>70)
-        next_step: fraud_investigation
-    tools: [AI fraud detection system, Pattern recognition software, Database cross-referencing, Risk scoring algorithms]
-    success_criteria: All claims screened within 15 minutes with 94%+ accuracy
-    failure_modes: [Algorithm false positives, System performance issues, Data quality problems]
-  - id: enhanced_review
-    name: Enhanced Manual Review Process
-    description: Detailed manual review of medium-risk claims with additional verification steps
-    actors: [Senior Fraud Analyst, Claims Processor]
-    inputs: [Automated screening results, Supporting documentation, Previous claims history, Third-party databases]
-    outputs: [Enhanced risk assessment, Verification status, Investigation recommendations]
-    decision_points:
-      - condition: Enhanced review clears suspicions
-        next_step: expedited_processing
-      - condition: Additional red flags identified
-        next_step: fraud_investigation
-    tools: [Investigation management system, Document analysis tools, Database queries, Verification services]
-    success_criteria: Enhanced review completed within 2 hours with documented rationale
-    failure_modes: [Documentation inconsistencies, Verification service delays, Analyst availability issues]
-  - id: fraud_investigation
-    name: Comprehensive Fraud Investigation
-    description: Full fraud investigation including field work, interviews, and evidence collection
-    actors: [Investigation Specialist, Senior Fraud Analyst, Legal Compliance Officer]
-    inputs: [Investigation case file, Field investigation requirements, Legal guidelines, Evidence standards]
-    outputs: [Investigation report, Evidence documentation, Legal recommendations, Fraud determination]
-    decision_points:
-      - condition: Fraud confirmed with sufficient evidence
-        next_step: case_referral
-      - condition: Insufficient evidence for fraud
-        next_step: claim_processing
-      - condition: Additional investigation required
-        next_step: extended_investigation
-    tools: [Investigation case management, Field investigation tools, Interview recording systems, Evidence documentation platform]
-    success_criteria: Investigation completed within 10 business days with comprehensive documentation
-    failure_modes: [Evidence collection challenges, Stakeholder cooperation issues, Legal compliance gaps]
-  - id: case_resolution
-    name: Case Resolution and Reporting
-    description: Final case resolution with appropriate actions and regulatory reporting
-    actors: [Legal Compliance Officer, Senior Fraud Analyst]
-    inputs: [Investigation conclusions, Legal requirements, Regulatory obligations, Company policies]
-    outputs: [Final case resolution, Regulatory filings, Internal reporting, Process improvements]
-    decision_points: []
-    tools: [Case management system, Regulatory reporting platform, Internal communications, Process documentation]
-    success_criteria: Case resolved with all required documentation and reporting completed
-    failure_modes: [Regulatory reporting delays, Documentation completeness issues, Process compliance gaps]
-success_criteria:
-  - Fraudulent claims identified with 95%+ accuracy
-  - False positive rate maintained below 5%
-  - Investigation completed within regulatory timeframes
-  - All fraud prevention savings documented and reported
-failure_modes:
-  - AI screening algorithm failures
-  - Investigation resource constraints
-  - Legal compliance violations
+- id: automated_screening
+  name: AI-Powered Automated Fraud Screening
+  description: Initial automated screening using machine learning algorithms and pattern
+    recognition
+  actors:
+  - Claims Processor
+  inputs:
+  - Claim submission
+  - Policy information
+  - Claimant history
+  - External databases
+  outputs:
+  - Risk score assessment
+  - Red flag indicators
+  - Automated recommendations
+  decision_points:
+  - condition: Low risk score (<20)
+    next_step: standard_processing
+  - condition: Medium risk score (20-70)
+    next_step: enhanced_review
+  - condition: High risk score (>70)
+    next_step: fraud_investigation
+  tools:
+  - AI fraud detection system
+  - Pattern recognition software
+  - Database cross-referencing
+  - Risk scoring algorithms
+  success_criteria: All claims screened within 15 minutes with 94%+ accuracy
+  failure_modes:
+  - Algorithm false positives
+  - System performance issues
+  - Data quality problems
+- id: enhanced_review
+  name: Enhanced Manual Review Process
+  description: Detailed manual review of medium-risk claims with additional verification
+    steps
+  actors:
+  - Senior Fraud Analyst
+  - Claims Processor
+  inputs:
+  - Automated screening results
+  - Supporting documentation
+  - Previous claims history
+  - Third-party databases
+  outputs:
+  - Enhanced risk assessment
+  - Verification status
+  - Investigation recommendations
+  decision_points:
+  - condition: Enhanced review clears suspicions
+    next_step: expedited_processing
+  - condition: Additional red flags identified
+    next_step: fraud_investigation
+  tools:
+  - Investigation management system
+  - Document analysis tools
+  - Database queries
+  - Verification services
+  success_criteria: Enhanced review completed within 2 hours with documented rationale
+  failure_modes:
+  - Documentation inconsistencies
+  - Verification service delays
+  - Analyst availability issues
+- id: fraud_investigation
+  name: Comprehensive Fraud Investigation
+  description: Full fraud investigation including field work, interviews, and evidence
+    collection
+  actors:
+  - Investigation Specialist
+  - Senior Fraud Analyst
+  - Legal Compliance Officer
+  inputs:
+  - Investigation case file
+  - Field investigation requirements
+  - Legal guidelines
+  - Evidence standards
+  outputs:
+  - Investigation report
+  - Evidence documentation
+  - Legal recommendations
+  - Fraud determination
+  decision_points:
+  - condition: Fraud confirmed with sufficient evidence
+    next_step: case_referral
+  - condition: Insufficient evidence for fraud
+    next_step: claim_processing
+  - condition: Additional investigation required
+    next_step: extended_investigation
+  tools:
+  - Investigation case management
+  - Field investigation tools
+  - Interview recording systems
+  - Evidence documentation platform
+  success_criteria: Investigation completed within 10 business days with comprehensive
+    documentation
+  failure_modes:
   - Evidence collection challenges
+  - Stakeholder cooperation issues
+  - Legal compliance gaps
+- id: case_resolution
+  name: Case Resolution and Reporting
+  description: Final case resolution with appropriate actions and regulatory reporting
+  actors:
+  - Legal Compliance Officer
+  - Senior Fraud Analyst
+  inputs:
+  - Investigation conclusions
+  - Legal requirements
+  - Regulatory obligations
+  - Company policies
+  outputs:
+  - Final case resolution
+  - Regulatory filings
+  - Internal reporting
+  - Process improvements
+  decision_points: []
+  tools:
+  - Case management system
+  - Regulatory reporting platform
+  - Internal communications
+  - Process documentation
+  success_criteria: Case resolved with all required documentation and reporting completed
+  failure_modes:
+  - Regulatory reporting delays
+  - Documentation completeness issues
+  - Process compliance gaps
+success_criteria:
+- Fraudulent claims identified with 95%+ accuracy
+- False positive rate maintained below 5%
+- Investigation completed within regulatory timeframes
+- All fraud prevention savings documented and reported
+failure_modes:
+- AI screening algorithm failures
+- Investigation resource constraints
+- Legal compliance violations
+- Evidence collection challenges
 metrics:
-  - name: Fraud Detection Accuracy
-    target: ">95%"
-    current: 96%
-  - name: False Positive Rate
-    target: "<5%"
-    current: 4%
-  - name: Investigation Completion Time
-    target: "<10 business days"
-    current: 8.5 days
-  - name: Annual Fraud Prevention Value
-    target: ">$10M"
-    current: "$12M"
+- name: Fraud Detection Accuracy
+  target: '>95%'
+  current: 96%
+- name: False Positive Rate
+  target: <5%
+  current: 4%
+- name: Investigation Completion Time
+  target: <10 business days
+  current: 8.5 days
+- name: Annual Fraud Prevention Value
+  target: '>$10M'
+  current: $12M

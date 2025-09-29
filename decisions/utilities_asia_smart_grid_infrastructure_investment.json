@@ -4,8 +4,18 @@
   "context": "Major utility company in Southeast Asia evaluating $2.8B smart grid infrastructure investment to modernize aging power distribution network and integrate renewable energy sources across 15 million customers",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["Board of Directors", "CEO", "CFO"],
-    "influencers": ["Regional Energy Regulatory Authority", "Environmental Ministry", "Customer Advisory Board", "Technology Vendors", "Labor Union Representatives"]
+    "approvers": [
+      "Board of Directors",
+      "CEO",
+      "CFO"
+    ],
+    "influencers": [
+      "Regional Energy Regulatory Authority",
+      "Environmental Ministry",
+      "Customer Advisory Board",
+      "Technology Vendors",
+      "Labor Union Representatives"
+    ]
   },
   "request": {
     "amount": "$2,800,000,000",
@@ -19,7 +29,12 @@
       "start_date": "2024-06-01",
       "end_date": "2024-08-15",
       "duration": "75 days",
-      "activities": ["Grid stability analysis", "Renewable integration assessment", "Technology vendor evaluation", "Pilot project results review"],
+      "activities": [
+        "Grid stability analysis",
+        "Renewable integration assessment",
+        "Technology vendor evaluation",
+        "Pilot project results review"
+      ],
       "outcome": "Technical feasibility confirmed with 95% confidence"
     },
     {
@@ -27,7 +42,12 @@
       "start_date": "2024-08-16",
       "end_date": "2024-10-30",
       "duration": "74 days",
-      "activities": ["Environmental impact assessment", "Rate adjustment hearings", "Public consultation process", "Compliance framework development"],
+      "activities": [
+        "Environmental impact assessment",
+        "Rate adjustment hearings",
+        "Public consultation process",
+        "Compliance framework development"
+      ],
       "outcome": "Conditional regulatory approval received"
     },
     {
@@ -35,7 +55,12 @@
       "start_date": "2024-09-01",
       "end_date": "2024-11-01",
       "duration": "61 days",
-      "activities": ["NPV analysis", "Financing structure evaluation", "Risk assessment modeling", "Cost-benefit analysis"],
+      "activities": [
+        "NPV analysis",
+        "Financing structure evaluation",
+        "Risk assessment modeling",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Financial viability confirmed with 12.5% IRR"
     },
     {
@@ -43,7 +68,12 @@
       "start_date": "2024-11-02",
       "end_date": "2024-11-15",
       "duration": "13 days",
-      "activities": ["Board presentations", "Stakeholder negotiations", "Final terms refinement", "Implementation planning"],
+      "activities": [
+        "Board presentations",
+        "Stakeholder negotiations",
+        "Final terms refinement",
+        "Implementation planning"
+      ],
       "outcome": "Approved with conditions and phased rollout"
     }
   ],
@@ -52,7 +82,13 @@
     "projected_value": "$4,200,000,000 over 15 years",
     "actual_value": "Implementation beginning Q1 2025",
     "roi_timeline": "8.5 years payback period",
-    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Cybersecurity threats", "Construction delays", "Currency fluctuation"]
+    "risk_factors": [
+      "Technology obsolescence",
+      "Regulatory changes",
+      "Cybersecurity threats",
+      "Construction delays",
+      "Currency fluctuation"
+    ]
   },
   "decision_criteria": [
     "Net Present Value > $1B",
@@ -69,7 +105,7 @@
     "completion_date": "2029-12-31",
     "milestones": [
       "Phase 1 (Urban areas): 2025-01-15 to 2026-06-30",
-      "Phase 2 (Suburban areas): 2026-07-01 to 2027-12-31", 
+      "Phase 2 (Suburban areas): 2026-07-01 to 2027-12-31",
       "Phase 3 (Rural areas): 2028-01-01 to 2029-06-30",
       "System integration completion: 2029-07-01 to 2029-12-31"
     ]

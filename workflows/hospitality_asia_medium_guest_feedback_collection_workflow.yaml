@@ -1,52 +1,102 @@
 workflow:
-  id: "workflow_hospitality_asia_feedback_collection"
-  title: "Asia Guest Feedback Collection and Response"
-  department: "Guest Experience"
-  complexity: "medium"
-  participants: ["Front Desk Manager", "Guest Services Coordinator", "Department Heads", "Quality Assurance Team"]
-  trigger: "Guest checkout or feedback request via mobile app/digital kiosk"
+  id: workflow_hospitality_asia_feedback_collection
+  title: Asia Guest Feedback Collection and Response
+  department: Guest Experience
+  complexity: medium
+  participants:
+  - Front Desk Manager
+  - Guest Services Coordinator
+  - Department Heads
+  - Quality Assurance Team
+  trigger: Guest checkout or feedback request via mobile app/digital kiosk
   temporal_data:
-    first_implemented: "2019-06-01"
-    last_updated: "2024-08-15"
-    typical_cycle_time: "48 hours"
+    first_implemented: '2019-06-01'
+    last_updated: '2024-08-15'
+    typical_cycle_time: 48 hours
     average_annual_executions: 15000
-    seasonal_variations: ["Peak season surge (30% increase)", "Monsoon season adjustments"]
-    historical_evolution: "Started with paper comment cards, transitioned to digital tablets in 2021, integrated AI sentiment analysis in 2023 for proactive responses"
+    seasonal_variations:
+    - Peak season surge (30% increase)
+    - Monsoon season adjustments
+    historical_evolution: Started with paper comment cards, transitioned to digital
+      tablets in 2021, integrated AI sentiment analysis in 2023 for proactive responses
   steps:
-    - step: 1
-      actor: "Front Desk Manager"
-      action: "Collect feedback through multiple channels (checkout survey, mobile app, digital kiosks)"
-      decision_points: ["Multilingual survey options for international guests", "Incentives for feedback completion", "Real-time vs delayed collection"]
-      tools: ["Guest Feedback System", "Mobile Survey App", "Digital Kiosks", "Translation services"]
-      duration: "Immediate at checkout"
-      outputs: ["Feedback data captured", "Initial sentiment analysis", "Language preference recorded"]
-    - step: 2
-      actor: "Guest Services Coordinator"
-      action: "Review feedback for urgency and categorize issues (service, facilities, food & beverage)"
-      decision_points: ["Escalation criteria for critical issues", "Cultural sensitivity requirements", "Multi-language response needs"]
-      tools: ["Feedback Management Dashboard", "Priority Classification System", "Sentiment Analysis AI", "Cultural Context Database"]
-      duration: "2 hours"
-      outputs: ["Categorized feedback report", "Action priority assigned", "Cultural adaptation notes"]
-    - step: 3
-      actor: "Department Heads"
-      action: "Address specific issues and develop improvement actions"
-      decision_points: ["Resource allocation for fixes", "Training requirements for staff", "Process changes needed"]
-      tools: ["Department Communication Platform", "Action Tracking System", "Resource Planning Tool", "Training Management System"]
-      duration: "24 hours"
-      outputs: ["Corrective action plan", "Follow-up communication draft", "Training schedule", "Resource requirements"]
-    - step: 4
-      actor: "Quality Assurance Team"
-      action: "Send personalized response to guest and track resolution satisfaction"
-      tools: ["Guest Communication System", "Satisfaction Survey Tool"]
-      duration: "24 hours"
-      outputs: ["Guest response sent", "Resolution tracking initiated"]
-  success_criteria: "80% of feedback issues resolved within 48 hours with guest satisfaction score >4.2/5"
-  failure_modes: ["Delayed response time", "Inadequate follow-up actions", "Poor issue categorization"]
+  - step: 1
+    actor: Front Desk Manager
+    action: Collect feedback through multiple channels (checkout survey, mobile app,
+      digital kiosks)
+    decision_points:
+    - Multilingual survey options for international guests
+    - Incentives for feedback completion
+    - Real-time vs delayed collection
+    tools:
+    - Guest Feedback System
+    - Mobile Survey App
+    - Digital Kiosks
+    - Translation services
+    duration: Immediate at checkout
+    outputs:
+    - Feedback data captured
+    - Initial sentiment analysis
+    - Language preference recorded
+  - step: 2
+    actor: Guest Services Coordinator
+    action: Review feedback for urgency and categorize issues (service, facilities,
+      food & beverage)
+    decision_points:
+    - Escalation criteria for critical issues
+    - Cultural sensitivity requirements
+    - Multi-language response needs
+    tools:
+    - Feedback Management Dashboard
+    - Priority Classification System
+    - Sentiment Analysis AI
+    - Cultural Context Database
+    duration: 2 hours
+    outputs:
+    - Categorized feedback report
+    - Action priority assigned
+    - Cultural adaptation notes
+  - step: 3
+    actor: Department Heads
+    action: Address specific issues and develop improvement actions
+    decision_points:
+    - Resource allocation for fixes
+    - Training requirements for staff
+    - Process changes needed
+    tools:
+    - Department Communication Platform
+    - Action Tracking System
+    - Resource Planning Tool
+    - Training Management System
+    duration: 24 hours
+    outputs:
+    - Corrective action plan
+    - Follow-up communication draft
+    - Training schedule
+    - Resource requirements
+  - step: 4
+    actor: Quality Assurance Team
+    action: Send personalized response to guest and track resolution satisfaction
+    tools:
+    - Guest Communication System
+    - Satisfaction Survey Tool
+    duration: 24 hours
+    outputs:
+    - Guest response sent
+    - Resolution tracking initiated
+  success_criteria: 80% of feedback issues resolved within 48 hours with guest satisfaction
+    score >4.2/5
+  failure_modes:
+  - Delayed response time
+  - Inadequate follow-up actions
+  - Poor issue categorization
   metrics:
-    - "Response time: <48 hours for 90% of cases"
-    - "Guest satisfaction improvement: +15% quarter-over-quarter"
-    - "Issue resolution rate: 85%"
+  - 'Response time: <48 hours for 90% of cases'
+  - 'Guest satisfaction improvement: +15% quarter-over-quarter'
+  - 'Issue resolution rate: 85%'
   performance_history:
-    success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
-    cost_trend: "$25K (2023) → $22K (2024) → $19K (2025)"
-    efficiency_improvements: ["AI sentiment analysis reduced categorization errors by 40%", "Mobile app integration increased response speed by 35%"]
+    success_rate_trend: 75% (2023) → 82% (2024) → 88% (2025)
+    cost_trend: $25K (2023) → $22K (2024) → $19K (2025)
+    efficiency_improvements:
+    - AI sentiment analysis reduced categorization errors by 40%
+    - Mobile app integration increased response speed by 35%

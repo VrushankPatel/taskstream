@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_utilities_asia_grid_maintenance"
-  title: "Asia Utilities Grid Maintenance Scheduling Process"
-  department: "Grid Operations"
-  complexity: "medium"
-  participants: ["Maintenance Scheduler", "Field Operations Manager", "Load Forecasting Analyst", "Regulatory Compliance Officer", "Customer Communications Coordinator"]
-  trigger: "Predictive maintenance alert or scheduled inspection due"
+  id: workflow_utilities_asia_grid_maintenance
+  title: Asia Utilities Grid Maintenance Scheduling Process
+  department: Grid Operations
+  complexity: medium
+  participants:
+  - Maintenance Scheduler
+  - Field Operations Manager
+  - Load Forecasting Analyst
+  - Regulatory Compliance Officer
+  - Customer Communications Coordinator
+  trigger: Predictive maintenance alert or scheduled inspection due
   temporal_data:
-    first_implemented: "2023-02-01"
-    last_updated: "2024-08-15"
-    typical_cycle_time: "2 weeks"
+    first_implemented: '2023-02-01'
+    last_updated: '2024-08-15'
+    typical_cycle_time: 2 weeks
     average_annual_executions: 1200
-    seasonal_variations: ["Monsoon season increased outages", "Dry season higher maintenance windows"]
-    historical_evolution: "Reactive maintenance evolved to predictive scheduling with IoT sensors and AI forecasting"
+    seasonal_variations:
+    - Monsoon season increased outages
+    - Dry season higher maintenance windows
+    historical_evolution: Reactive maintenance evolved to predictive scheduling with
+      IoT sensors and AI forecasting
   steps:
-    - step: 1
-      actor: "Maintenance Scheduler"
-      action: "Analyze predictive maintenance alerts and prioritize maintenance tasks"
-      tools: ["IoT monitoring platform", "Asset management system"]
-      duration: "4 hours"
-      outputs: ["Prioritized maintenance schedule"]
-    - step: 2
-      actor: "Load Forecasting Analyst"
-      action: "Assess grid load patterns and identify optimal maintenance windows with minimal disruption"
-      tools: ["Load forecasting software", "Weather prediction data"]
-      duration: "2 hours"
-      outputs: ["Optimal maintenance windows"]
-    - step: 3
-      actor: "Field Operations Manager"
-      action: "Coordinate field crews, equipment, and safety protocols for maintenance execution"
-      tools: ["Work order management system", "Crew scheduling platform"]
-      duration: "6 hours"
-      outputs: ["Maintenance execution plan", "Safety briefings"]
-    - step: 4
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure maintenance activities comply with local utility regulations and safety standards"
-      tools: ["Regulatory compliance database", "Safety audit checklist"]
-      duration: "2 hours"
-      outputs: ["Compliance approval"]
-    - step: 5
-      actor: "Customer Communications Coordinator"
-      action: "Notify affected customers of planned outages and provide alternative arrangements"
-      tools: ["Customer notification system", "Outage communication templates"]
-      duration: "3 hours"
-      outputs: ["Customer notifications sent"]
-  success_criteria: "95% maintenance tasks completed on schedule with <2% customer outage impact"
-  failure_modes: ["Weather-related delays", "Equipment availability issues", "Regulatory approval delays"]
+  - step: 1
+    actor: Maintenance Scheduler
+    action: Analyze predictive maintenance alerts and prioritize maintenance tasks
+    tools:
+    - IoT monitoring platform
+    - Asset management system
+    duration: 4 hours
+    outputs:
+    - Prioritized maintenance schedule
+  - step: 2
+    actor: Load Forecasting Analyst
+    action: Assess grid load patterns and identify optimal maintenance windows with
+      minimal disruption
+    tools:
+    - Load forecasting software
+    - Weather prediction data
+    duration: 2 hours
+    outputs:
+    - Optimal maintenance windows
+  - step: 3
+    actor: Field Operations Manager
+    action: Coordinate field crews, equipment, and safety protocols for maintenance
+      execution
+    tools:
+    - Work order management system
+    - Crew scheduling platform
+    duration: 6 hours
+    outputs:
+    - Maintenance execution plan
+    - Safety briefings
+  - step: 4
+    actor: Regulatory Compliance Officer
+    action: Ensure maintenance activities comply with local utility regulations and
+      safety standards
+    tools:
+    - Regulatory compliance database
+    - Safety audit checklist
+    duration: 2 hours
+    outputs:
+    - Compliance approval
+  - step: 5
+    actor: Customer Communications Coordinator
+    action: Notify affected customers of planned outages and provide alternative arrangements
+    tools:
+    - Customer notification system
+    - Outage communication templates
+    duration: 3 hours
+    outputs:
+    - Customer notifications sent
+  success_criteria: 95% maintenance tasks completed on schedule with <2% customer
+    outage impact
+  failure_modes:
+  - Weather-related delays
+  - Equipment availability issues
+  - Regulatory approval delays
   metrics:
-    - "On-time completion rate: 95%"
-    - "Customer outage impact: <2%"
-    - "Maintenance cost efficiency: 85%"
+  - 'On-time completion rate: 95%'
+  - 'Customer outage impact: <2%'
+  - 'Maintenance cost efficiency: 85%'
   performance_history:
-    success_rate_trend: "85% (2023) → 92% (2024) → 95% (2025)"
-    cost_trend: "¥5000 (2023) → ¥4200 (2024) → ¥3800 (2025)"
-    efficiency_improvements: ["Predictive maintenance reduced emergency repairs by 40%", "AI load forecasting optimized scheduling by 25%"]
+    success_rate_trend: 85% (2023) → 92% (2024) → 95% (2025)
+    cost_trend: ¥5000 (2023) → ¥4200 (2024) → ¥3800 (2025)
+    efficiency_improvements:
+    - Predictive maintenance reduced emergency repairs by 40%
+    - AI load forecasting optimized scheduling by 25%

@@ -4,9 +4,24 @@
   "context": "Global retail corporation (15,000+ employees) evaluating comprehensive supply chain resilience investment following recent disruptions from geopolitical tensions, climate events, and trade restrictions affecting multiple product categories",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["VP Global Procurement", "VP Operations", "Chief Risk Officer", "Regional Directors (Americas, EU, Asia)"],
-    "impacted_parties": ["Suppliers", "Distribution Centers", "Store Operations", "Customers", "Logistics Partners"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Global Procurement",
+      "VP Operations",
+      "Chief Risk Officer",
+      "Regional Directors (Americas, EU, Asia)"
+    ],
+    "impacted_parties": [
+      "Suppliers",
+      "Distribution Centers",
+      "Store Operations",
+      "Customers",
+      "Logistics Partners"
+    ]
   },
   "request": {
     "amount": "$85M",
@@ -20,7 +35,13 @@
       "start_date": "2024-09-15",
       "end_date": "2024-10-15",
       "duration": "30 days",
-      "activities": ["Supply chain vulnerability mapping", "Risk scenario modeling", "Financial impact analysis", "Competitive benchmarking", "Regulatory compliance review"],
+      "activities": [
+        "Supply chain vulnerability mapping",
+        "Risk scenario modeling",
+        "Financial impact analysis",
+        "Competitive benchmarking",
+        "Regulatory compliance review"
+      ],
       "outcome": "Comprehensive risk profile established with priority vulnerability areas identified"
     },
     {
@@ -28,7 +49,13 @@
       "start_date": "2024-10-16",
       "end_date": "2024-11-05",
       "duration": "20 days",
-      "activities": ["Alternative supplier identification", "Technology solution evaluation", "Geographic diversification planning", "Investment option analysis", "Implementation roadmap development"],
+      "activities": [
+        "Alternative supplier identification",
+        "Technology solution evaluation",
+        "Geographic diversification planning",
+        "Investment option analysis",
+        "Implementation roadmap development"
+      ],
       "outcome": "Three strategic options developed with detailed cost-benefit analysis"
     },
     {
@@ -36,7 +63,13 @@
       "start_date": "2024-11-06",
       "end_date": "2024-11-18",
       "duration": "12 days",
-      "activities": ["Executive committee review", "Regional director consultations", "Key supplier negotiations", "Technology vendor discussions", "Board risk committee presentation"],
+      "activities": [
+        "Executive committee review",
+        "Regional director consultations",
+        "Key supplier negotiations",
+        "Technology vendor discussions",
+        "Board risk committee presentation"
+      ],
       "outcome": "Stakeholder alignment achieved with preferred option selected"
     },
     {
@@ -44,7 +77,13 @@
       "start_date": "2024-11-19",
       "end_date": "2024-11-25",
       "duration": "6 days",
-      "activities": ["Board presentation preparation", "Financial model validation", "Implementation planning", "Contract negotiations", "Board approval meeting"],
+      "activities": [
+        "Board presentation preparation",
+        "Financial model validation",
+        "Implementation planning",
+        "Contract negotiations",
+        "Board approval meeting"
+      ],
       "outcome": "Board approval secured with conditions and success metrics defined"
     }
   ],
@@ -53,7 +92,13 @@
     "projected_value": "$245M over 5 years through disruption avoidance and operational efficiency",
     "actual_value": "Implementation phase commencing",
     "roi_timeline": "Expected payback in 30 months with full value realization over 5-year period",
-    "risk_factors": ["Supplier adoption and compliance", "Technology integration complexity", "Geopolitical stability changes", "Climate event frequency increase", "Competitive response and market dynamics"]
+    "risk_factors": [
+      "Supplier adoption and compliance",
+      "Technology integration complexity",
+      "Geopolitical stability changes",
+      "Climate event frequency increase",
+      "Competitive response and market dynamics"
+    ]
   },
   "decision_criteria": [
     "Supply chain risk reduction effectiveness",

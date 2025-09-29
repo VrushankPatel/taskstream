@@ -135,27 +135,47 @@
     {
       "criterion": "Training Effectiveness",
       "weight": 0.3,
-      "metrics": ["Skill acquisition rate", "Knowledge retention", "Certification completion"]
+      "metrics": [
+        "Skill acquisition rate",
+        "Knowledge retention",
+        "Certification completion"
+      ]
     },
     {
       "criterion": "Business Impact",
       "weight": 0.25,
-      "metrics": ["Productivity improvement", "Safety incident reduction", "Technology adoption rate"]
+      "metrics": [
+        "Productivity improvement",
+        "Safety incident reduction",
+        "Technology adoption rate"
+      ]
     },
     {
       "criterion": "Cost Efficiency",
       "weight": 0.2,
-      "metrics": ["Cost per employee", "ROI timeline", "Budget utilization"]
+      "metrics": [
+        "Cost per employee",
+        "ROI timeline",
+        "Budget utilization"
+      ]
     },
     {
       "criterion": "Implementation Feasibility",
       "weight": 0.15,
-      "metrics": ["Timeline adherence", "Resource requirements", "Operational disruption"]
+      "metrics": [
+        "Timeline adherence",
+        "Resource requirements",
+        "Operational disruption"
+      ]
     },
     {
       "criterion": "Compliance & Scalability",
       "weight": 0.1,
-      "metrics": ["Regulatory compliance", "Program scalability", "Future adaptability"]
+      "metrics": [
+        "Regulatory compliance",
+        "Program scalability",
+        "Future adaptability"
+      ]
     }
   ],
   "recommendation": {

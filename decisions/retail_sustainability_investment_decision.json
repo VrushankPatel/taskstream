@@ -4,8 +4,16 @@
   "context": "Large retail corporation facing increasing consumer demand for sustainable products and regulatory pressure for environmental reporting",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
-    "influencers": ["Head of Procurement", "Marketing Director", "Operations VP"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Head of Procurement",
+      "Marketing Director",
+      "Operations VP"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-03-10",
       "end_date": "2025-04-10",
       "duration": "4 weeks",
-      "activities": ["Supplier assessment", "Cost-benefit analysis", "Regulatory review"],
+      "activities": [
+        "Supplier assessment",
+        "Cost-benefit analysis",
+        "Regulatory review"
+      ],
       "outcome": "Feasible with strong ROI potential"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-04-15",
       "end_date": "2025-05-15",
       "duration": "4 weeks",
-      "activities": ["Executive presentations", "Cross-functional workshops", "Risk assessment"],
+      "activities": [
+        "Executive presentations",
+        "Cross-functional workshops",
+        "Risk assessment"
+      ],
       "outcome": "Board approval secured"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-05-20",
       "end_date": "2025-06-20",
       "duration": "4 weeks",
-      "activities": ["Program design", "Vendor selection", "Timeline development"],
+      "activities": [
+        "Program design",
+        "Vendor selection",
+        "Timeline development"
+      ],
       "outcome": "Comprehensive implementation plan"
     }
   ],
@@ -44,14 +64,27 @@
     "projected_value": "$25,000,000",
     "actual_value": "$28,000,000 (2025)",
     "roi_timeline": "Expected payback in 18 months",
-    "risk_factors": ["Supplier availability", "Cost increases", "Consumer acceptance"]
+    "risk_factors": [
+      "Supplier availability",
+      "Cost increases",
+      "Consumer acceptance"
+    ]
   },
-  "decision_criteria": ["Environmental impact", "Financial viability", "Brand enhancement", "Regulatory compliance"],
+  "decision_criteria": [
+    "Environmental impact",
+    "Financial viability",
+    "Brand enhancement",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-07-01",
     "completion_date": "2026-06-30",
-    "milestones": ["Pilot program: 2025-09-01", "Full supplier transition: 2026-03-01", "Program evaluation: 2026-06-30"]
+    "milestones": [
+      "Pilot program: 2025-09-01",
+      "Full supplier transition: 2026-03-01",
+      "Program evaluation: 2026-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot successful with 15% carbon reduction, supplier engagement at 80%",

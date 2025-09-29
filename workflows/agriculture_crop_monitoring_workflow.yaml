@@ -7,12 +7,15 @@ workflow:
   - Farm Manager
   - Field Technician
   temporal_data:
-    first_implemented: "2015-05-01"
-    last_updated: "2023-08-10"
-    typical_cycle_time: "Daily"
+    first_implemented: '2015-05-01'
+    last_updated: '2023-08-10'
+    typical_cycle_time: Daily
     average_annual_executions: 365
-    seasonal_variations: ["Intensive monitoring during growing season", "Reduced during harvest and off-season"]
-    historical_evolution: "Manual field walks evolved to drone and satellite monitoring with AI analytics"
+    seasonal_variations:
+    - Intensive monitoring during growing season
+    - Reduced during harvest and off-season
+    historical_evolution: Manual field walks evolved to drone and satellite monitoring
+      with AI analytics
   trigger: Scheduled monitoring or weather alerts
   steps:
   - step: 1

@@ -4,9 +4,26 @@
   "context": "European fashion retailer (450 stores, €2.1B revenue) deciding on major omnichannel platform expansion to compete with digital-native brands while maintaining strong physical presence across 12 EU countries",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Board Digital Transformation Committee"],
-    "influencers": ["VP Retail Operations", "VP E-commerce", "VP Customer Experience", "VP Supply Chain", "Data Protection Officer"],
-    "impacted_parties": ["Store Managers", "E-commerce Team", "Customer Service", "Warehouse Operations", "IT Infrastructure", "Marketing Teams"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Digital Transformation Committee"
+    ],
+    "influencers": [
+      "VP Retail Operations",
+      "VP E-commerce",
+      "VP Customer Experience",
+      "VP Supply Chain",
+      "Data Protection Officer"
+    ],
+    "impacted_parties": [
+      "Store Managers",
+      "E-commerce Team",
+      "Customer Service",
+      "Warehouse Operations",
+      "IT Infrastructure",
+      "Marketing Teams"
+    ]
   },
   "request": {
     "amount": "€185,000,000",
@@ -20,7 +37,13 @@
       "start_date": "2024-11-25",
       "end_date": "2024-12-20",
       "duration": "25 days",
-      "activities": ["Customer journey mapping", "Competitive analysis", "Market sizing across EU", "Technology landscape review", "Channel performance benchmarking"],
+      "activities": [
+        "Customer journey mapping",
+        "Competitive analysis",
+        "Market sizing across EU",
+        "Technology landscape review",
+        "Channel performance benchmarking"
+      ],
       "outcome": "€450M incremental revenue opportunity identified over 5 years"
     },
     {
@@ -28,7 +51,13 @@
       "start_date": "2024-12-21",
       "end_date": "2025-02-15",
       "duration": "56 days",
-      "activities": ["Platform architecture design", "GDPR compliance framework", "Integration requirements analysis", "Vendor selection process", "Security and privacy assessment"],
+      "activities": [
+        "Platform architecture design",
+        "GDPR compliance framework",
+        "Integration requirements analysis",
+        "Vendor selection process",
+        "Security and privacy assessment"
+      ],
       "outcome": "Microservices architecture selected with GDPR-by-design principles"
     },
     {
@@ -36,7 +65,13 @@
       "start_date": "2025-02-16",
       "end_date": "2025-03-30",
       "duration": "42 days",
-      "activities": ["ROI modeling", "Phased investment planning", "Risk assessment", "Change management cost estimation", "Training and adoption planning"],
+      "activities": [
+        "ROI modeling",
+        "Phased investment planning",
+        "Risk assessment",
+        "Change management cost estimation",
+        "Training and adoption planning"
+      ],
       "outcome": "Business case validated with 24% IRR and 4.5-year payback period"
     },
     {
@@ -44,7 +79,13 @@
       "start_date": "2025-04-01",
       "end_date": "2025-06-30",
       "duration": "90 days",
-      "activities": ["3-market pilot deployment", "Customer experience testing", "Performance monitoring", "Staff training validation", "GDPR compliance verification"],
+      "activities": [
+        "3-market pilot deployment",
+        "Customer experience testing",
+        "Performance monitoring",
+        "Staff training validation",
+        "GDPR compliance verification"
+      ],
       "outcome": "Pilot exceeded targets: +18% conversion, +22% customer satisfaction, full GDPR compliance"
     }
   ],
@@ -53,7 +94,14 @@
     "projected_value": "€450,000,000 incremental revenue over 5 years",
     "actual_value": "Pilot markets showing €12M monthly incremental revenue (annualized €144M)",
     "roi_timeline": "Break-even in month 38, full ROI achievement by year 5",
-    "risk_factors": ["Technology integration complexity", "GDPR compliance challenges", "Staff adaptation resistance", "Customer privacy concerns", "Market saturation", "Economic downturn impact"]
+    "risk_factors": [
+      "Technology integration complexity",
+      "GDPR compliance challenges",
+      "Staff adaptation resistance",
+      "Customer privacy concerns",
+      "Market saturation",
+      "Economic downturn impact"
+    ]
   },
   "decision_criteria": [
     "Revenue growth potential >20% over 5 years",

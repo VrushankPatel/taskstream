@@ -4,8 +4,16 @@
   "context": "Insurance company evaluating expansion of cyber liability product line in response to increasing cyber threats and regulatory requirements",
   "stakeholders": {
     "requester": "Head of Cyber Insurance",
-    "approvers": ["Chief Underwriting Officer", "CFO", "Chief Risk Officer"],
-    "influencers": ["Head of Claims", "Chief Actuary", "Regulatory Compliance Director"]
+    "approvers": [
+      "Chief Underwriting Officer",
+      "CFO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Head of Claims",
+      "Chief Actuary",
+      "Regulatory Compliance Director"
+    ]
   },
   "request": {
     "amount": "$3,200,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-06-30",
       "duration": "30 days",
-      "activities": ["Competitive analysis", "Customer demand survey", "Regulatory requirement assessment"],
+      "activities": [
+        "Competitive analysis",
+        "Customer demand survey",
+        "Regulatory requirement assessment"
+      ],
       "outcome": "Identified 40% market gap in parametric cyber products, strong customer demand for supply chain coverage"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-31",
       "duration": "30 days",
-      "activities": ["Actuarial modeling", "Pricing strategy development", "Underwriting guidelines creation"],
+      "activities": [
+        "Actuarial modeling",
+        "Pricing strategy development",
+        "Underwriting guidelines creation"
+      ],
       "outcome": "Developed 5 new product variants with projected 25% profit margin"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-08-01",
       "end_date": "2025-08-20",
       "duration": "20 days",
-      "activities": ["Financial modeling", "Risk assessment", "Implementation planning"],
+      "activities": [
+        "Financial modeling",
+        "Risk assessment",
+        "Implementation planning"
+      ],
       "outcome": "Approved expansion with phased rollout"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$12,500,000 in additional annual premiums within 3 years",
     "actual_value": "$8,200,000 achieved in first 18 months (2025-2027)",
     "roi_timeline": "Expected payback in 16 months",
-    "risk_factors": ["Evolving cyber threat landscape", "Regulatory changes", "Underwriting accuracy for new products"]
+    "risk_factors": [
+      "Evolving cyber threat landscape",
+      "Regulatory changes",
+      "Underwriting accuracy for new products"
+    ]
   },
-  "decision_criteria": ["Market demand and competitive positioning", "Financial viability and ROI", "Regulatory compliance", "Underwriting risk management", "Implementation feasibility"],
+  "decision_criteria": [
+    "Market demand and competitive positioning",
+    "Financial viability and ROI",
+    "Regulatory compliance",
+    "Underwriting risk management",
+    "Implementation feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2026-02-28",
-    "milestones": ["Phase 1: Parametric products launch (2025-11-30)", "Phase 2: Supply chain coverage (2026-01-31)", "Phase 3: Cyber extortion products (2026-02-28)"]
+    "milestones": [
+      "Phase 1: Parametric products launch (2025-11-30)",
+      "Phase 2: Supply chain coverage (2026-01-31)",
+      "Phase 3: Cyber extortion products (2026-02-28)"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "3 new products launched, $2.1M in new premiums written",

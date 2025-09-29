@@ -78,12 +78,23 @@
       "Higher maintenance costs"
     ]
   },
-  "decision_criteria": ["Operational efficiency", "Grid reliability", "Regulatory compliance", "Financial ROI", "Customer impact"],
+  "decision_criteria": [
+    "Operational efficiency",
+    "Grid reliability",
+    "Regulatory compliance",
+    "Financial ROI",
+    "Customer impact"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-12-01",
     "completion_date": "2027-08-31",
-    "milestones": ["Pilot deployment: 2026-06-30", "Phase 1 rollout: 2026-12-31", "Full implementation: 2027-06-30", "Optimization: 2027-08-31"]
+    "milestones": [
+      "Pilot deployment: 2026-06-30",
+      "Phase 1 rollout: 2026-12-31",
+      "Full implementation: 2027-06-30",
+      "Optimization: 2027-08-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot performance metrics and initial efficiency gains",

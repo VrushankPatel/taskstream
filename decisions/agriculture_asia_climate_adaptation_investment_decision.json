@@ -135,27 +135,47 @@
     {
       "criterion": "Climate Resilience Impact",
       "weight": 0.3,
-      "metrics": ["Yield stability", "Weather event resistance", "Long-term sustainability"]
+      "metrics": [
+        "Yield stability",
+        "Weather event resistance",
+        "Long-term sustainability"
+      ]
     },
     {
       "criterion": "Financial Performance",
       "weight": 0.25,
-      "metrics": ["ROI", "Cost savings", "Revenue protection"]
+      "metrics": [
+        "ROI",
+        "Cost savings",
+        "Revenue protection"
+      ]
     },
     {
       "criterion": "Implementation Feasibility",
       "weight": 0.2,
-      "metrics": ["Farmer adoption rate", "Technical complexity", "Timeline adherence"]
+      "metrics": [
+        "Farmer adoption rate",
+        "Technical complexity",
+        "Timeline adherence"
+      ]
     },
     {
       "criterion": "Environmental Impact",
       "weight": 0.15,
-      "metrics": ["Water conservation", "Carbon footprint reduction", "Biodiversity preservation"]
+      "metrics": [
+        "Water conservation",
+        "Carbon footprint reduction",
+        "Biodiversity preservation"
+      ]
     },
     {
       "criterion": "Social Impact",
       "weight": 0.1,
-      "metrics": ["Farmer income stability", "Community resilience", "Knowledge transfer"]
+      "metrics": [
+        "Farmer income stability",
+        "Community resilience",
+        "Knowledge transfer"
+      ]
     }
   ],
   "recommendation": {

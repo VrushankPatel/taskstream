@@ -1,5 +1,6 @@
 name: EU Aerospace Simple Unmanned Systems Certification Workflow
-description: Streamlined certification workflow for EU unmanned aerial systems focusing on basic compliance and documentation requirements
+description: Streamlined certification workflow for EU unmanned aerial systems focusing
+  on basic compliance and documentation requirements
 industry: aerospace
 region: EU
 complexity: simple
@@ -12,93 +13,138 @@ performance_history:
   approval_rate: 85%
   compliance_rate: 95%
 actors:
-  - role: Certification Specialist
-    department: Regulatory Affairs
-    responsibilities: Review applications, conduct assessments, issue certificates
-  - role: Technical Assessor
-    department: Engineering
-    responsibilities: Evaluate technical specifications, verify compliance
-  - role: Quality Manager
-    department: Quality Assurance
-    responsibilities: Ensure documentation completeness, audit processes
+- role: Certification Specialist
+  department: Regulatory Affairs
+  responsibilities: Review applications, conduct assessments, issue certificates
+- role: Technical Assessor
+  department: Engineering
+  responsibilities: Evaluate technical specifications, verify compliance
+- role: Quality Manager
+  department: Quality Assurance
+  responsibilities: Ensure documentation completeness, audit processes
 steps:
-  - id: application_submission
-    name: Application Submission
-    description: Submit certification application with required documentation
-    actors: [Certification Specialist]
-    inputs: [Application form, Technical specifications, Safety assessments]
-    outputs: [Application reference, Documentation checklist]
-    decision_points: []
-    tools: [Certification portal, Document management system]
-    success_criteria: Application acknowledged within 2 business days
-    failure_modes: [Incomplete documentation, Invalid format]
-  - id: initial_review
-    name: Initial Review
-    description: Review application completeness and basic requirements
-    actors: [Certification Specialist]
-    inputs: [Submitted documents, Regulatory requirements]
-    outputs: [Review report, Deficiency notices]
-    decision_points:
-      - condition: Application complete
-        next_step: technical_assessment
-      - condition: Deficiencies identified
-        next_step: request_clarification
-    tools: [Compliance checklist, Document verification system]
-    success_criteria: Review completed within 5 business days
-    failure_modes: [Missing critical information]
-  - id: technical_assessment
-    name: Technical Assessment
-    description: Assess technical specifications and safety features
-    actors: [Technical Assessor]
-    inputs: [Technical documents, Safety data, Test results]
-    outputs: [Assessment report, Compliance verification]
-    decision_points:
-      - condition: Technical requirements met
-        next_step: quality_audit
-      - condition: Issues identified
-        next_step: corrective_action
-    tools: [Technical analysis software, Safety evaluation tools]
-    success_criteria: Assessment completed within 10 business days
-    failure_modes: [Technical non-compliance, Safety concerns]
-  - id: quality_audit
-    name: Quality Audit
-    description: Audit manufacturing and quality processes
-    actors: [Quality Manager]
-    inputs: [Quality documentation, Process descriptions]
-    outputs: [Audit report, Quality certification]
-    decision_points:
-      - condition: Quality standards met
-        next_step: final_approval
-      - condition: Quality issues identified
-        next_step: quality_improvement
-    tools: [Quality management system, Audit checklists]
-    success_criteria: Audit completed within 7 business days
-    failure_modes: [Quality system deficiencies]
-  - id: final_approval
-    name: Final Approval
-    description: Issue final certification and registration
-    actors: [Certification Specialist]
-    inputs: [Assessment reports, Audit results]
-    outputs: [Certification document, Registration confirmation]
-    decision_points: []
-    tools: [Certification database, Digital signature system]
-    success_criteria: Certificate issued within 3 business days
-    failure_modes: [Administrative errors, System issues]
-success_criteria:
-  - Certification issued within 25 business days
-  - 95% compliance with EU regulations
-  - 90% first-time approval rate
-failure_modes:
-  - Processing delays
+- id: application_submission
+  name: Application Submission
+  description: Submit certification application with required documentation
+  actors:
+  - Certification Specialist
+  inputs:
+  - Application form
+  - Technical specifications
+  - Safety assessments
+  outputs:
+  - Application reference
+  - Documentation checklist
+  decision_points: []
+  tools:
+  - Certification portal
+  - Document management system
+  success_criteria: Application acknowledged within 2 business days
+  failure_modes:
+  - Incomplete documentation
+  - Invalid format
+- id: initial_review
+  name: Initial Review
+  description: Review application completeness and basic requirements
+  actors:
+  - Certification Specialist
+  inputs:
+  - Submitted documents
+  - Regulatory requirements
+  outputs:
+  - Review report
+  - Deficiency notices
+  decision_points:
+  - condition: Application complete
+    next_step: technical_assessment
+  - condition: Deficiencies identified
+    next_step: request_clarification
+  tools:
+  - Compliance checklist
+  - Document verification system
+  success_criteria: Review completed within 5 business days
+  failure_modes:
+  - Missing critical information
+- id: technical_assessment
+  name: Technical Assessment
+  description: Assess technical specifications and safety features
+  actors:
+  - Technical Assessor
+  inputs:
+  - Technical documents
+  - Safety data
+  - Test results
+  outputs:
+  - Assessment report
+  - Compliance verification
+  decision_points:
+  - condition: Technical requirements met
+    next_step: quality_audit
+  - condition: Issues identified
+    next_step: corrective_action
+  tools:
+  - Technical analysis software
+  - Safety evaluation tools
+  success_criteria: Assessment completed within 10 business days
+  failure_modes:
   - Technical non-compliance
-  - Documentation errors
+  - Safety concerns
+- id: quality_audit
+  name: Quality Audit
+  description: Audit manufacturing and quality processes
+  actors:
+  - Quality Manager
+  inputs:
+  - Quality documentation
+  - Process descriptions
+  outputs:
+  - Audit report
+  - Quality certification
+  decision_points:
+  - condition: Quality standards met
+    next_step: final_approval
+  - condition: Quality issues identified
+    next_step: quality_improvement
+  tools:
+  - Quality management system
+  - Audit checklists
+  success_criteria: Audit completed within 7 business days
+  failure_modes:
+  - Quality system deficiencies
+- id: final_approval
+  name: Final Approval
+  description: Issue final certification and registration
+  actors:
+  - Certification Specialist
+  inputs:
+  - Assessment reports
+  - Audit results
+  outputs:
+  - Certification document
+  - Registration confirmation
+  decision_points: []
+  tools:
+  - Certification database
+  - Digital signature system
+  success_criteria: Certificate issued within 3 business days
+  failure_modes:
+  - Administrative errors
+  - System issues
+success_criteria:
+- Certification issued within 25 business days
+- 95% compliance with EU regulations
+- 90% first-time approval rate
+failure_modes:
+- Processing delays
+- Technical non-compliance
+- Documentation errors
 metrics:
-  - name: Processing Time
-    target: "<25 days"
-    current: 21 days
-  - name: Approval Rate
-    target: ">80%"
-    current: 85%
-  - name: Compliance Rate
-    target: ">95%"
-    current: 96%
+- name: Processing Time
+  target: <25 days
+  current: 21 days
+- name: Approval Rate
+  target: '>80%'
+  current: 85%
+- name: Compliance Rate
+  target: '>95%'
+  current: 96%

@@ -64,7 +64,8 @@ workflow:
     duration: 1 hour
     outputs:
     - Training Requirements
-  success_criteria: Optimal staffing levels maintained with high employee satisfaction and skill coverage
+  success_criteria: Optimal staffing levels maintained with high employee satisfaction
+    and skill coverage
   failure_modes:
   - Understaffing during peaks
   - Scheduling conflicts

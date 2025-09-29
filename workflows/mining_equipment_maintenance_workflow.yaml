@@ -8,12 +8,15 @@ workflow:
   - Equipment Operator
   - Maintenance Supervisor
   temporal_data:
-    first_implemented: "2010-04-01"
-    last_updated: "2024-02-15"
-    typical_cycle_time: "Weekly preventive, as needed for repairs"
+    first_implemented: '2010-04-01'
+    last_updated: '2024-02-15'
+    typical_cycle_time: Weekly preventive, as needed for repairs
     average_annual_executions: 200
-    seasonal_variations: ["Increased maintenance during wet seasons", "Scheduled shutdowns for major overhauls"]
-    historical_evolution: "Reactive maintenance evolved to predictive maintenance with IoT sensors"
+    seasonal_variations:
+    - Increased maintenance during wet seasons
+    - Scheduled shutdowns for major overhauls
+    historical_evolution: Reactive maintenance evolved to predictive maintenance with
+      IoT sensors
   trigger: Scheduled maintenance or equipment failure
   steps:
   - step: 1

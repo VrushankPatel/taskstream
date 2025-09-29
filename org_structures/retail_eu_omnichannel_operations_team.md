@@ -2,18 +2,18 @@
 
 ## Organization Structure: EuroStyle Retail Omnichannel Operations Division
 
-**Location:** Amsterdam, Netherlands (EU Hub)  
-**Team Size:** 125 FTE  
-**Established:** March 2022  
-**Budget:** €18.7M annually  
+**Location:** Amsterdam, Netherlands (EU Hub)
+**Team Size:** 125 FTE
+**Established:** March 2022
+**Budget:** €18.7M annually
 **Reporting:** VP European Operations
 
 ## Executive Leadership
 
 ### Director, Omnichannel Operations EU
-**Position:** Director, Omnichannel Operations EU  
-**Reports to:** VP European Operations  
-**Direct Reports:** 5 Department Heads  
+**Position:** Director, Omnichannel Operations EU
+**Reports to:** VP European Operations
+**Direct Reports:** 5 Department Heads
 **Key Responsibilities:**
 - EU-wide omnichannel strategy implementation and optimization
 - Cross-channel customer experience consistency
@@ -29,8 +29,8 @@
 ## Core Departments
 
 ### Digital Experience Department
-**Department Head:** Digital Experience Manager  
-**Team Size:** 35 FTE  
+**Department Head:** Digital Experience Manager
+**Team Size:** 35 FTE
 **Budget Allocation:** €5.2M
 
 **Team Structure:**
@@ -53,8 +53,8 @@
 - Page Load Speed: 2.1 seconds (Target: <2.5s)
 
 ### Inventory & Fulfillment Department
-**Department Head:** Fulfillment Operations Manager  
-**Team Size:** 42 FTE  
+**Department Head:** Fulfillment Operations Manager
+**Team Size:** 42 FTE
 **Budget Allocation:** €6.8M
 
 **Team Structure:**
@@ -77,8 +77,8 @@
 - Returns Processing Time: 3.2 days (Target: <4 days)
 
 ### Customer Service Department
-**Department Head:** Customer Service Manager  
-**Team Size:** 28 FTE  
+**Department Head:** Customer Service Manager
+**Team Size:** 28 FTE
 **Budget Allocation:** €3.8M
 
 **Team Structure:**
@@ -100,8 +100,8 @@
 - Social Media Response Rate: 96% (Target: >95%)
 
 ### Data Analytics & Insights Department
-**Department Head:** Data Analytics Manager  
-**Team Size:** 15 FTE  
+**Department Head:** Data Analytics Manager
+**Team Size:** 15 FTE
 **Budget Allocation:** €2.1M
 
 **Team Structure:**
@@ -123,8 +123,8 @@
 - Privacy Compliance Audit Score: 100% (Target: 100%)
 
 ### Technology Integration Department
-**Department Head:** Technology Integration Manager  
-**Team Size:** 20 FTE  
+**Department Head:** Technology Integration Manager
+**Team Size:** 20 FTE
 **Budget Allocation:** €2.2M
 
 **Team Structure:**
@@ -148,18 +148,18 @@
 ## Cross-Functional Initiatives
 
 ### Customer Experience Committee
-**Participants:** All department heads plus regional store managers  
-**Frequency:** Monthly meetings  
+**Participants:** All department heads plus regional store managers
+**Frequency:** Monthly meetings
 **Objective:** Cross-channel experience optimization and consistency
 
 ### GDPR Compliance Council
-**Participants:** Legal, Data Analytics, Customer Service, Technology teams  
-**Frequency:** Quarterly reviews  
+**Participants:** Legal, Data Analytics, Customer Service, Technology teams
+**Frequency:** Quarterly reviews
 **Objective:** Privacy compliance monitoring and policy updates
 
 ### Innovation Task Force
-**Participants:** Technical leads from each department plus external consultants  
-**Frequency:** Bi-monthly sessions  
+**Participants:** Technical leads from each department plus external consultants
+**Frequency:** Bi-monthly sessions
 **Objective:** Emerging technology evaluation and pilot project development
 
 ## Key Performance Indicators (Team-Wide)

@@ -67,7 +67,8 @@ workflow:
     duration: 30 minutes
     outputs:
     - Inventory Update
-  success_criteria: Goods received on time with 100% quality acceptance and optimal cost
+  success_criteria: Goods received on time with 100% quality acceptance and optimal
+    cost
   failure_modes:
   - Supplier delays
   - Quality issues

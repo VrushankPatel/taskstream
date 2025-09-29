@@ -1,48 +1,77 @@
 workflow:
-  id: "workflow_retail_eu_loyalty"
-  title: "EU Retail Customer Loyalty Program Enrollment"
-  department: "Customer Experience"
-  complexity: "simple"
-  participants: ["Store Associate", "Customer Service Manager", "Loyalty Program Coordinator"]
-  trigger: "Customer requests to join loyalty program at point of sale"
-  risks: ["GDPR compliance issues", "System downtime during peak hours", "Staff training gaps", "Duplicate enrollments"]
+  id: workflow_retail_eu_loyalty
+  title: EU Retail Customer Loyalty Program Enrollment
+  department: Customer Experience
+  complexity: simple
+  participants:
+  - Store Associate
+  - Customer Service Manager
+  - Loyalty Program Coordinator
+  trigger: Customer requests to join loyalty program at point of sale
+  risks:
+  - GDPR compliance issues
+  - System downtime during peak hours
+  - Staff training gaps
+  - Duplicate enrollments
   temporal_data:
-    first_implemented: "2023-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "5 minutes"
+    first_implemented: '2023-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 5 minutes
     average_annual_executions: 25000
-    seasonal_variations: ["Q4 holiday peak (40% increase)", "Q2 summer slowdown (20% decrease)"]
-    historical_evolution: "Started as paper-based system, digitized in 2023 with GDPR compliance, expanded to mobile app in 2024"
+    seasonal_variations:
+    - Q4 holiday peak (40% increase)
+    - Q2 summer slowdown (20% decrease)
+    historical_evolution: Started as paper-based system, digitized in 2023 with GDPR
+      compliance, expanded to mobile app in 2024
   steps:
-    - step: 1
-      actor: "Store Associate"
-      action: "Verify customer identity and collect basic information (name, email, phone)"
-      decision_points: ["Existing customer check", "Data completeness verification"]
-      tools: ["POS system", "Customer database"]
-      duration: "2 minutes"
-      outputs: ["Customer profile created"]
-    - step: 2
-      actor: "Store Associate"
-      action: "Explain loyalty program benefits and obtain consent for data processing"
-      tools: ["Program brochure", "Consent form"]
-      duration: "2 minutes"
-      outputs: ["Signed consent form", "Program enrollment confirmation"]
-    - step: 3
-      actor: "Loyalty Program Coordinator"
-      action: "Process enrollment and issue welcome package with member card"
-      tools: ["Loyalty management system", "Email system"]
-      duration: "1 minute"
-      outputs: ["Digital membership card", "Welcome email sent"]
-  success_criteria: "Customer successfully enrolled with active membership and welcome communication received"
-  failure_modes: ["Invalid customer information provided", "GDPR consent not obtained", "System technical issues"]
+  - step: 1
+    actor: Store Associate
+    action: Verify customer identity and collect basic information (name, email, phone)
+    decision_points:
+    - Existing customer check
+    - Data completeness verification
+    tools:
+    - POS system
+    - Customer database
+    duration: 2 minutes
+    outputs:
+    - Customer profile created
+  - step: 2
+    actor: Store Associate
+    action: Explain loyalty program benefits and obtain consent for data processing
+    tools:
+    - Program brochure
+    - Consent form
+    duration: 2 minutes
+    outputs:
+    - Signed consent form
+    - Program enrollment confirmation
+  - step: 3
+    actor: Loyalty Program Coordinator
+    action: Process enrollment and issue welcome package with member card
+    tools:
+    - Loyalty management system
+    - Email system
+    duration: 1 minute
+    outputs:
+    - Digital membership card
+    - Welcome email sent
+  success_criteria: Customer successfully enrolled with active membership and welcome
+    communication received
+  failure_modes:
+  - Invalid customer information provided
+  - GDPR consent not obtained
+  - System technical issues
   metrics:
-    - "Enrollment success rate: 95%"
-    - "Average processing time: 4.5 minutes"
-    - "Customer satisfaction score: 4.7/5"
-    - "GDPR compliance rate: 100%"
-    - "Duplicate enrollment prevention: 98%"
-    - "Mobile app adoption rate: 65%"
+  - 'Enrollment success rate: 95%'
+  - 'Average processing time: 4.5 minutes'
+  - 'Customer satisfaction score: 4.7/5'
+  - 'GDPR compliance rate: 100%'
+  - 'Duplicate enrollment prevention: 98%'
+  - 'Mobile app adoption rate: 65%'
   performance_history:
-    success_rate_trend: "92% (2023) → 94% (2024) → 95% (2025)"
-    cost_trend: "€2.50 (2023) → €2.20 (2024) → €2.00 (2025)"
-    efficiency_improvements: ["Mobile app integration reduced processing time by 30%", "Automated consent forms improved compliance by 25%"]
+    success_rate_trend: 92% (2023) → 94% (2024) → 95% (2025)
+    cost_trend: €2.50 (2023) → €2.20 (2024) → €2.00 (2025)
+    efficiency_improvements:
+    - Mobile app integration reduced processing time by 30%
+    - Automated consent forms improved compliance by 25%

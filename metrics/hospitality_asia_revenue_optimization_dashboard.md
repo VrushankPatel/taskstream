@@ -1,10 +1,10 @@
 # Hospitality Revenue Optimization Dashboard - Asia Pacific
 
 ## Executive Summary
-**Report Period:** Q4 2024 (2024-10-01 to 2024-12-31)  
-**Last Updated:** 2024-12-28  
-**Report Owner:** Revenue Management Director  
-**Properties Covered:** 24 hotels across 8 Asia-Pacific markets  
+**Report Period:** Q4 2024 (2024-10-01 to 2024-12-31)
+**Last Updated:** 2024-12-28
+**Report Owner:** Revenue Management Director
+**Properties Covered:** 24 hotels across 8 Asia-Pacific markets
 **Total Room Inventory:** 8,460 rooms
 
 ## Key Performance Indicators

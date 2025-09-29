@@ -37,5 +37,5 @@ I'm excited to announce the launch of our expanded cyber insurance product line,
 
 This launch positions us as a market leader in cyber insurance. Your commitment to excellence will ensure our success.
 
-Best regards,  
+Best regards,
 Chief Product Officer

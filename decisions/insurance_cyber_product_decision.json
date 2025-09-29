@@ -4,8 +4,16 @@
   "context": "Insurance company expanding cyber liability offerings in response to increasing cyber threats and client demand",
   "stakeholders": {
     "requester": "Head of Specialty Lines",
-    "approvers": ["Chief Underwriting Officer", "Chief Risk Officer", "CEO"],
-    "influencers": ["Claims Director", "Product Development Manager", "Actuarial Team"]
+    "approvers": [
+      "Chief Underwriting Officer",
+      "Chief Risk Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Claims Director",
+      "Product Development Manager",
+      "Actuarial Team"
+    ]
   },
   "request": {
     "amount": "$1,800,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-05-01",
       "end_date": "2025-06-15",
       "duration": "46 days",
-      "activities": ["Market research", "Competitor analysis", "Client needs survey"],
+      "activities": [
+        "Market research",
+        "Competitor analysis",
+        "Client needs survey"
+      ],
       "outcome": "Confirmed strong demand for advanced cyber products"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-06-16",
       "end_date": "2025-08-01",
       "duration": "47 days",
-      "activities": ["Coverage design", "Pricing modeling", "Underwriting guidelines"],
+      "activities": [
+        "Coverage design",
+        "Pricing modeling",
+        "Underwriting guidelines"
+      ],
       "outcome": "Comprehensive product specifications completed"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-08-02",
       "end_date": "2025-09-08",
       "duration": "38 days",
-      "activities": ["Actuarial review", "Reinsurance analysis", "Regulatory compliance"],
+      "activities": [
+        "Actuarial review",
+        "Reinsurance analysis",
+        "Regulatory compliance"
+      ],
       "outcome": "Approved with enhanced risk management protocols"
     }
   ],
@@ -44,46 +64,71 @@
     "projected_value": "$4,500,000 additional annual revenue",
     "actual_value": "TBD (launch Q2 2026)",
     "roi_timeline": "Expected payback in 16 months",
-    "risk_factors": ["Evolving cyber threat landscape", "Pricing competition", "Claims volatility", "Regulatory changes"]
+    "risk_factors": [
+      "Evolving cyber threat landscape",
+      "Pricing competition",
+      "Claims volatility",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Market opportunity", "Financial viability", "Risk management capability", "Competitive differentiation", "Regulatory compliance"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Financial viability",
+    "Risk management capability",
+    "Competitive differentiation",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-15",
     "completion_date": "2026-04-30",
-    "milestones": ["Product filing: 2025-11-01", "Underwriter training: 2025-12-15", "Soft launch: 2026-02-01", "Full launch: 2026-04-01"]
+    "milestones": [
+      "Product filing: 2025-11-01",
+      "Underwriter training: 2025-12-15",
+      "Soft launch: 2026-02-01",
+      "Full launch: 2026-04-01"
+    ]
   },
-   "outcome_tracking": {
-     "6_month_review": "Initial sales performance and market reception",
-     "12_month_review": "Full year revenue and loss experience",
-     "actual_roi": "TBD (target 25% above projections)"
-   },
-   "implementation_details": {
-     "team_structure": {
-       "product_manager": "Senior Product Manager - Cyber Insurance",
-       "development_team": ["Product Developer", "Actuarial Analyst", "Underwriting Specialist", "Legal Counsel"],
-       "implementation_team": ["IT Developer", "Training Coordinator", "Marketing Specialist"]
-     },
-     "resource_allocation": {
-       "budget_breakdown": {
-         "product_development": "$800,000",
-         "technology_implementation": "$500,000",
-         "training_and_marketing": "$300,000",
-         "regulatory_filing": "$200,000"
-       },
-       "personnel_resources": "4 FTE for development, 2 FTE for implementation"
-     },
-     "risk_mitigation": {
-       "technical_risks": "Regular security audits and penetration testing",
-       "market_risks": "Competitive pricing analysis and market monitoring",
-       "operational_risks": "Comprehensive testing and phased rollout"
-     },
-     "success_metrics": {
-       "product_adoption": "Target 500 policies in first year",
-       "revenue_target": "$2.5M in first year premiums",
-       "customer_satisfaction": "Target 4.5/5.0 rating",
-       "loss_ratio": "Target <80% in first 2 years"
-     }
-   },
-   "lessons_learned": "Early market research and actuarial modeling critical for cyber product success; flexible product design accommodates rapidly changing threat landscape"
- }
+  "outcome_tracking": {
+    "6_month_review": "Initial sales performance and market reception",
+    "12_month_review": "Full year revenue and loss experience",
+    "actual_roi": "TBD (target 25% above projections)"
+  },
+  "implementation_details": {
+    "team_structure": {
+      "product_manager": "Senior Product Manager - Cyber Insurance",
+      "development_team": [
+        "Product Developer",
+        "Actuarial Analyst",
+        "Underwriting Specialist",
+        "Legal Counsel"
+      ],
+      "implementation_team": [
+        "IT Developer",
+        "Training Coordinator",
+        "Marketing Specialist"
+      ]
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "product_development": "$800,000",
+        "technology_implementation": "$500,000",
+        "training_and_marketing": "$300,000",
+        "regulatory_filing": "$200,000"
+      },
+      "personnel_resources": "4 FTE for development, 2 FTE for implementation"
+    },
+    "risk_mitigation": {
+      "technical_risks": "Regular security audits and penetration testing",
+      "market_risks": "Competitive pricing analysis and market monitoring",
+      "operational_risks": "Comprehensive testing and phased rollout"
+    },
+    "success_metrics": {
+      "product_adoption": "Target 500 policies in first year",
+      "revenue_target": "$2.5M in first year premiums",
+      "customer_satisfaction": "Target 4.5/5.0 rating",
+      "loss_ratio": "Target <80% in first 2 years"
+    }
+  },
+  "lessons_learned": "Early market research and actuarial modeling critical for cyber product success; flexible product design accommodates rapidly changing threat landscape"
+}

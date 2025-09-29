@@ -7,12 +7,15 @@ workflow:
   - Guest Services Agent
   - Concierge
   temporal_data:
-    first_implemented: "2015-03-01"
-    last_updated: "2024-01-20"
-    typical_cycle_time: "Per guest stay"
+    first_implemented: '2015-03-01'
+    last_updated: '2024-01-20'
+    typical_cycle_time: Per guest stay
     average_annual_executions: 25000
-    seasonal_variations: ["High demand during Chinese New Year and Golden Week", "Peak tourism during summer months"]
-    historical_evolution: "Traditional hospitality evolved to personalized digital experiences with cultural sensitivity"
+    seasonal_variations:
+    - High demand during Chinese New Year and Golden Week
+    - Peak tourism during summer months
+    historical_evolution: Traditional hospitality evolved to personalized digital
+      experiences with cultural sensitivity
   trigger: Guest check-in or service request
   steps:
   - step: 1

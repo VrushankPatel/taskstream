@@ -1,5 +1,6 @@
 name: EU Mining Simple Safety Compliance Workflow
-description: Streamlined safety compliance workflow for EU mining operations focusing on daily safety checks and incident reporting
+description: Streamlined safety compliance workflow for EU mining operations focusing
+  on daily safety checks and incident reporting
 industry: mining
 region: EU
 complexity: simple
@@ -12,113 +13,180 @@ performance_history:
   incident_reporting_time: 15 minutes
   safety_training_completion: 95%
 actors:
-  - role: Safety Coordinator
-    department: Health & Safety
-    responsibilities: Oversee compliance, conduct inspections, manage training
-  - role: Shift Supervisor
-    department: Operations
-    responsibilities: Lead daily operations, ensure safety protocols followed
-  - role: Mine Worker
-    department: Production
-    responsibilities: Follow safety procedures, report hazards
+- role: Safety Coordinator
+  department: Health & Safety
+  responsibilities: Oversee compliance, conduct inspections, manage training
+- role: Shift Supervisor
+  department: Operations
+  responsibilities: Lead daily operations, ensure safety protocols followed
+- role: Mine Worker
+  department: Production
+  responsibilities: Follow safety procedures, report hazards
 steps:
-  - id: pre_shift_briefing
-    name: Pre-Shift Safety Briefing
-    description: Conduct safety briefing before shift start
-    actors: [Shift Supervisor, Safety Coordinator]
-    inputs: [Safety checklist, Incident reports, Weather conditions]
-    outputs: [Briefing attendance record, Safety topics covered]
-    decision_points: []
-    tools: [Safety briefing system, Digital checklists]
-    success_criteria: All workers briefed within 30 minutes
-    failure_modes: [Worker absences, Equipment issues]
-  - id: equipment_inspection
-    name: Equipment Inspection
-    description: Inspect mining equipment for safety compliance
-    actors: [Mine Worker, Shift Supervisor]
-    inputs: [Equipment checklist, Maintenance records]
-    outputs: [Inspection reports, Non-compliance flags]
-    decision_points:
-      - condition: All equipment compliant
-        next_step: hazard_assessment
-      - condition: Non-compliance identified
-        next_step: corrective_action
-    tools: [Inspection app, Equipment monitoring system]
-    success_criteria: Inspection completed within 1 hour
-    failure_modes: [Equipment failures, Inspection delays]
-  - id: hazard_assessment
-    name: Hazard Assessment
-    description: Assess workplace hazards and implement controls
-    actors: [Safety Coordinator, Shift Supervisor]
-    inputs: [Hazard checklist, Previous incident data]
-    outputs: [Hazard assessment report, Control measures]
-    decision_points: []
-    tools: [Hazard tracking system, Risk assessment software]
-    success_criteria: Assessment completed within 45 minutes
-    failure_modes: [Hazard identification failures]
-  - id: ppe_verification
-    name: PPE Verification
-    description: Verify personal protective equipment usage
-    actors: [Shift Supervisor, Mine Worker]
-    inputs: [PPE requirements, Worker assignments]
-    outputs: [PPE compliance records]
-    decision_points:
-      - condition: All PPE compliant
-        next_step: operations_start
-      - condition: PPE issues identified
-        next_step: ppe_replacement
-    tools: [PPE tracking system, Visual inspection]
-    success_criteria: Verification completed within 15 minutes
-    failure_modes: [PPE shortages, Worker non-compliance]
-  - id: operations_start
-    name: Operations Start
-    description: Begin mining operations with safety protocols active
-    actors: [Shift Supervisor, Mine Worker]
-    inputs: [Safety protocols, Operational procedures]
-    outputs: [Operations log, Safety monitoring data]
-    decision_points: []
-    tools: [Operations management system, Safety monitoring devices]
-    success_criteria: Operations started on time
-    failure_modes: [Safety protocol violations]
-  - id: incident_monitoring
-    name: Incident Monitoring
-    description: Monitor for safety incidents during operations
-    actors: [All personnel]
-    inputs: [Incident reporting procedures, Safety alerts]
-    outputs: [Incident reports, Response actions]
-    decision_points:
-      - condition: No incidents
-        next_step: post_shift_review
-      - condition: Incident reported
-        next_step: incident_response
-    tools: [Incident reporting app, Emergency communication system]
-    success_criteria: Incidents reported within 5 minutes
-    failure_modes: [Delayed reporting, Under-reporting]
-  - id: post_shift_review
-    name: Post-Shift Safety Review
-    description: Review shift safety performance and incidents
-    actors: [Safety Coordinator, Shift Supervisor]
-    inputs: [Shift logs, Incident reports, Safety metrics]
-    outputs: [Safety review report, Improvement recommendations]
-    decision_points: []
-    tools: [Safety management system, Analytics dashboard]
-    success_criteria: Review completed within 30 minutes
-    failure_modes: [Incomplete documentation]
-success_criteria:
-  - 100% pre-shift safety compliance
-  - Incident reporting within 5 minutes
-  - Zero serious safety incidents
-failure_modes:
-  - Safety protocol violations
+- id: pre_shift_briefing
+  name: Pre-Shift Safety Briefing
+  description: Conduct safety briefing before shift start
+  actors:
+  - Shift Supervisor
+  - Safety Coordinator
+  inputs:
+  - Safety checklist
+  - Incident reports
+  - Weather conditions
+  outputs:
+  - Briefing attendance record
+  - Safety topics covered
+  decision_points: []
+  tools:
+  - Safety briefing system
+  - Digital checklists
+  success_criteria: All workers briefed within 30 minutes
+  failure_modes:
+  - Worker absences
+  - Equipment issues
+- id: equipment_inspection
+  name: Equipment Inspection
+  description: Inspect mining equipment for safety compliance
+  actors:
+  - Mine Worker
+  - Shift Supervisor
+  inputs:
+  - Equipment checklist
+  - Maintenance records
+  outputs:
+  - Inspection reports
+  - Non-compliance flags
+  decision_points:
+  - condition: All equipment compliant
+    next_step: hazard_assessment
+  - condition: Non-compliance identified
+    next_step: corrective_action
+  tools:
+  - Inspection app
+  - Equipment monitoring system
+  success_criteria: Inspection completed within 1 hour
+  failure_modes:
   - Equipment failures
-  - Delayed incident reporting
+  - Inspection delays
+- id: hazard_assessment
+  name: Hazard Assessment
+  description: Assess workplace hazards and implement controls
+  actors:
+  - Safety Coordinator
+  - Shift Supervisor
+  inputs:
+  - Hazard checklist
+  - Previous incident data
+  outputs:
+  - Hazard assessment report
+  - Control measures
+  decision_points: []
+  tools:
+  - Hazard tracking system
+  - Risk assessment software
+  success_criteria: Assessment completed within 45 minutes
+  failure_modes:
+  - Hazard identification failures
+- id: ppe_verification
+  name: PPE Verification
+  description: Verify personal protective equipment usage
+  actors:
+  - Shift Supervisor
+  - Mine Worker
+  inputs:
+  - PPE requirements
+  - Worker assignments
+  outputs:
+  - PPE compliance records
+  decision_points:
+  - condition: All PPE compliant
+    next_step: operations_start
+  - condition: PPE issues identified
+    next_step: ppe_replacement
+  tools:
+  - PPE tracking system
+  - Visual inspection
+  success_criteria: Verification completed within 15 minutes
+  failure_modes:
+  - PPE shortages
+  - Worker non-compliance
+- id: operations_start
+  name: Operations Start
+  description: Begin mining operations with safety protocols active
+  actors:
+  - Shift Supervisor
+  - Mine Worker
+  inputs:
+  - Safety protocols
+  - Operational procedures
+  outputs:
+  - Operations log
+  - Safety monitoring data
+  decision_points: []
+  tools:
+  - Operations management system
+  - Safety monitoring devices
+  success_criteria: Operations started on time
+  failure_modes:
+  - Safety protocol violations
+- id: incident_monitoring
+  name: Incident Monitoring
+  description: Monitor for safety incidents during operations
+  actors:
+  - All personnel
+  inputs:
+  - Incident reporting procedures
+  - Safety alerts
+  outputs:
+  - Incident reports
+  - Response actions
+  decision_points:
+  - condition: No incidents
+    next_step: post_shift_review
+  - condition: Incident reported
+    next_step: incident_response
+  tools:
+  - Incident reporting app
+  - Emergency communication system
+  success_criteria: Incidents reported within 5 minutes
+  failure_modes:
+  - Delayed reporting
+  - Under-reporting
+- id: post_shift_review
+  name: Post-Shift Safety Review
+  description: Review shift safety performance and incidents
+  actors:
+  - Safety Coordinator
+  - Shift Supervisor
+  inputs:
+  - Shift logs
+  - Incident reports
+  - Safety metrics
+  outputs:
+  - Safety review report
+  - Improvement recommendations
+  decision_points: []
+  tools:
+  - Safety management system
+  - Analytics dashboard
+  success_criteria: Review completed within 30 minutes
+  failure_modes:
+  - Incomplete documentation
+success_criteria:
+- 100% pre-shift safety compliance
+- Incident reporting within 5 minutes
+- Zero serious safety incidents
+failure_modes:
+- Safety protocol violations
+- Equipment failures
+- Delayed incident reporting
 metrics:
-  - name: Compliance Rate
-    target: ">98%"
-    current: 98.5%
-  - name: Incident Response Time
-    target: "<15 minutes"
-    current: 12 minutes
-  - name: PPE Compliance
-    target: ">99%"
-    current: 99.2%
+- name: Compliance Rate
+  target: '>98%'
+  current: 98.5%
+- name: Incident Response Time
+  target: <15 minutes
+  current: 12 minutes
+- name: PPE Compliance
+  target: '>99%'
+  current: 99.2%

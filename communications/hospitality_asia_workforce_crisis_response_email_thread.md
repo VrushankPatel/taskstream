@@ -28,7 +28,7 @@ Please confirm your property's current vacancy rates and proposed action plans b
 - Training program fast-tracking
 - Technology solutions for service optimization
 
-Best regards,  
+Best regards,
 Regional Operations Director
 
 ---
@@ -59,8 +59,8 @@ Thank you for the urgent call to action. Our current situation at Bangkok Centra
 
 We can implement these measures within 48 hours with your support.
 
-Regards,  
-Hotel General Manager  
+Regards,
+Hotel General Manager
 Bangkok Central
 
 ---
@@ -94,8 +94,8 @@ Building on the Bangkok Central response, here's the regional HR support framewo
 
 All properties will receive detailed implementation guides by EOD today. Please confirm your technology requirements for priority deployment.
 
-Best,  
-HR Director  
+Best,
+HR Director
 Asia Pacific Region
 
 ---
@@ -132,5 +132,5 @@ Let's turn this crisis into an opportunity to strengthen our service excellence 
 
 Stay focused, stay coordinated.
 
-Regards,  
+Regards,
 Regional Operations Director

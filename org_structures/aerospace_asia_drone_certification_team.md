@@ -2,18 +2,18 @@
 
 ## Organization Structure: SkyTech Aviation Asia Drone Certification Division
 
-**Location:** Singapore (Regional Hub)  
-**Team Size:** 78 FTE  
-**Established:** January 2023  
-**Budget:** $12.5M annually  
+**Location:** Singapore (Regional Hub)
+**Team Size:** 78 FTE
+**Established:** January 2023
+**Budget:** $12.5M annually
 **Reporting:** VP Asia Pacific Operations
 
 ## Executive Leadership
 
 ### Director, Drone Certification Asia
-**Position:** Director, Drone Certification Asia  
-**Reports to:** VP Asia Pacific Operations  
-**Direct Reports:** 4 Department Heads  
+**Position:** Director, Drone Certification Asia
+**Reports to:** VP Asia Pacific Operations
+**Direct Reports:** 4 Department Heads
 **Key Responsibilities:**
 - Regional certification strategy and regulatory compliance
 - Government relations with aviation authorities (CAAS, DGCA, JCAB)
@@ -29,8 +29,8 @@
 ## Core Departments
 
 ### Technical Certification Department
-**Department Head:** Senior Technical Manager  
-**Team Size:** 28 FTE  
+**Department Head:** Senior Technical Manager
+**Team Size:** 28 FTE
 **Budget Allocation:** $4.2M
 
 **Team Structure:**
@@ -52,8 +52,8 @@
 - Certification Success Rate: 94% (Target: >90%)
 
 ### Operations Certification Department
-**Department Head:** Operations Certification Manager  
-**Team Size:** 18 FTE  
+**Department Head:** Operations Certification Manager
+**Team Size:** 18 FTE
 **Budget Allocation:** $2.8M
 
 **Team Structure:**
@@ -74,8 +74,8 @@
 - Training Program Approval Rate: 96% (Target: >95%)
 
 ### Regulatory Affairs Department
-**Department Head:** Regulatory Affairs Manager  
-**Team Size:** 15 FTE  
+**Department Head:** Regulatory Affairs Manager
+**Team Size:** 15 FTE
 **Budget Allocation:** $2.5M
 
 **Team Structure:**
@@ -96,8 +96,8 @@
 - Government Relations Score: 9.2/10 (Target: >8.5)
 
 ### Business Development Department
-**Department Head:** Business Development Manager  
-**Team Size:** 12 FTE  
+**Department Head:** Business Development Manager
+**Team Size:** 12 FTE
 **Budget Allocation:** $1.8M
 
 **Team Structure:**
@@ -120,25 +120,25 @@
 ## Support Functions
 
 ### Quality Management
-**Team Size:** 5 FTE  
-**Key Roles:** Quality Manager, Quality Auditors (2), Process Improvement Specialists (2)  
+**Team Size:** 5 FTE
+**Key Roles:** Quality Manager, Quality Auditors (2), Process Improvement Specialists (2)
 **Responsibilities:** ISO 9001 compliance, continuous improvement, internal audits
 
 ### Regional Coordination
-**Team Size:** 3 FTE  
-**Key Roles:** Regional Coordinator, Country Liaisons (2)  
+**Team Size:** 3 FTE
+**Key Roles:** Regional Coordinator, Country Liaisons (2)
 **Responsibilities:** Multi-country coordination, regulatory harmonization, cultural adaptation
 
 ## Cross-Functional Initiatives
 
 ### Asia-Pacific Regulatory Harmonization Committee
-**Participants:** All department heads plus external stakeholders  
-**Frequency:** Quarterly meetings  
+**Participants:** All department heads plus external stakeholders
+**Frequency:** Quarterly meetings
 **Objective:** Regional regulatory standards alignment and best practice sharing
 
 ### Customer Advisory Council
-**Participants:** Key customers, technical team, business development  
-**Frequency:** Bi-annual meetings  
+**Participants:** Key customers, technical team, business development
+**Frequency:** Bi-annual meetings
 **Objective:** Service improvement, future requirement planning
 
 ## Key Performance Indicators (Team-Wide)

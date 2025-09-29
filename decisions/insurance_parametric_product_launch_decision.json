@@ -4,8 +4,16 @@
   "context": "Insurance company developing parametric products for climate and cyber risks in response to increasing extreme weather events and cyber threats",
   "stakeholders": {
     "requester": "Chief Underwriting Officer",
-    "approvers": ["CEO", "Chief Risk Officer", "Board Risk Committee"],
-    "influencers": ["Head of Product Development", "Actuarial Director", "Regulatory Compliance Head"]
+    "approvers": [
+      "CEO",
+      "Chief Risk Officer",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Head of Product Development",
+      "Actuarial Director",
+      "Regulatory Compliance Head"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-02-20",
       "end_date": "2025-03-20",
       "duration": "4 weeks",
-      "activities": ["Customer needs assessment", "Competitor analysis", "Regulatory review"],
+      "activities": [
+        "Customer needs assessment",
+        "Competitor analysis",
+        "Regulatory review"
+      ],
       "outcome": "Strong market demand identified"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-03-25",
       "end_date": "2025-05-25",
       "duration": "8 weeks",
-      "activities": ["Parametric trigger development", "Pricing models", "Legal structure design"],
+      "activities": [
+        "Parametric trigger development",
+        "Pricing models",
+        "Legal structure design"
+      ],
       "outcome": "Comprehensive product suite designed"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-08-31",
       "duration": "12 weeks",
-      "activities": ["Limited market launch", "Performance monitoring", "Customer feedback"],
+      "activities": [
+        "Limited market launch",
+        "Performance monitoring",
+        "Customer feedback"
+      ],
       "outcome": "Pilot successful with 95% customer satisfaction"
     }
   ],
@@ -44,14 +64,27 @@
     "projected_value": "$30,000,000",
     "actual_value": "$35,000,000 (2025)",
     "roi_timeline": "Expected payback in 24 months",
-    "risk_factors": ["Regulatory uncertainty", "Model accuracy", "Market acceptance"]
+    "risk_factors": [
+      "Regulatory uncertainty",
+      "Model accuracy",
+      "Market acceptance"
+    ]
   },
-  "decision_criteria": ["Market opportunity", "Risk diversification", "Regulatory compliance", "Technical feasibility"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Risk diversification",
+    "Regulatory compliance",
+    "Technical feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2026-08-31",
-    "milestones": ["Full product launch: 2025-11-01", "Market penetration target: 2026-05-01", "Performance review: 2026-08-31"]
+    "milestones": [
+      "Full product launch: 2025-11-01",
+      "Market penetration target: 2026-05-01",
+      "Performance review: 2026-08-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Products launched successfully, initial sales at 20% of target, customer feedback excellent",

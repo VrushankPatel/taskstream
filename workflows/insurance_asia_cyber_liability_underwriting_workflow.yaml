@@ -1,49 +1,87 @@
 workflow:
-  id: "workflow_insurance_asia_cyber_underwriting"
-  title: "Asia Insurance Cyber Liability Underwriting Process"
-  department: "Underwriting"
-  complexity: "medium"
-  participants: ["Cyber Underwriter", "Risk Analyst", "Compliance Officer", "Underwriting Manager"]
-  trigger: "New cyber liability policy application or renewal request"
+  id: workflow_insurance_asia_cyber_underwriting
+  title: Asia Insurance Cyber Liability Underwriting Process
+  department: Underwriting
+  complexity: medium
+  participants:
+  - Cyber Underwriter
+  - Risk Analyst
+  - Compliance Officer
+  - Underwriting Manager
+  trigger: New cyber liability policy application or renewal request
   temporal_data:
-    first_implemented: "2022-01-01"
-    last_updated: "2024-09-05"
-    typical_cycle_time: "3 business days for standard policies"
+    first_implemented: '2022-01-01'
+    last_updated: '2024-09-05'
+    typical_cycle_time: 3 business days for standard policies
     average_annual_executions: 1200
-    seasonal_variations: ["Q1 renewal peak", "Q3 new business surge", "Q4 year-end compliance reviews"]
-    historical_evolution: "Developed in response to Asia's growing cyber threat landscape, incorporating regional regulatory frameworks and local market conditions"
+    seasonal_variations:
+    - Q1 renewal peak
+    - Q3 new business surge
+    - Q4 year-end compliance reviews
+    historical_evolution: Developed in response to Asia's growing cyber threat landscape,
+      incorporating regional regulatory frameworks and local market conditions
   steps:
-    - step: 1
-      actor: "Cyber Underwriter"
-      action: "Review application and assess basic cyber risk profile using standardized questionnaires"
-      tools: ["Underwriting platform", "Cyber risk assessment templates", "Industry benchmarking data"]
-      duration: "2 hours"
-      outputs: ["Initial risk profile", "Underwriting requirements"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Conduct detailed risk analysis including threat modeling and vulnerability assessment"
-      tools: ["Cyber risk analytics software", "Threat intelligence databases", "Financial impact modeling"]
-      duration: "4 hours"
-      outputs: ["Comprehensive risk assessment", "Pricing recommendations"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Verify regulatory compliance and local market requirements across Asian jurisdictions"
-      tools: ["Regulatory compliance database", "Local market intelligence", "Legal review checklists"]
-      duration: "3 hours"
-      outputs: ["Compliance verification", "Regulatory risk assessment"]
-    - step: 4
-      actor: "Underwriting Manager"
-      action: "Review complete underwriting package and make final approval decision"
-      tools: ["Underwriting dashboard", "Portfolio risk analytics", "Approval workflow system"]
-      duration: "2 hours"
-      outputs: ["Final underwriting decision", "Policy terms and conditions"]
-  success_criteria: "90% of applications processed within 3 days, loss ratio maintained below 65%, customer retention above 85%"
-  failure_modes: ["Inadequate risk assessment", "Regulatory compliance gaps", "Pricing inaccuracies"]
+  - step: 1
+    actor: Cyber Underwriter
+    action: Review application and assess basic cyber risk profile using standardized
+      questionnaires
+    tools:
+    - Underwriting platform
+    - Cyber risk assessment templates
+    - Industry benchmarking data
+    duration: 2 hours
+    outputs:
+    - Initial risk profile
+    - Underwriting requirements
+  - step: 2
+    actor: Risk Analyst
+    action: Conduct detailed risk analysis including threat modeling and vulnerability
+      assessment
+    tools:
+    - Cyber risk analytics software
+    - Threat intelligence databases
+    - Financial impact modeling
+    duration: 4 hours
+    outputs:
+    - Comprehensive risk assessment
+    - Pricing recommendations
+  - step: 3
+    actor: Compliance Officer
+    action: Verify regulatory compliance and local market requirements across Asian
+      jurisdictions
+    tools:
+    - Regulatory compliance database
+    - Local market intelligence
+    - Legal review checklists
+    duration: 3 hours
+    outputs:
+    - Compliance verification
+    - Regulatory risk assessment
+  - step: 4
+    actor: Underwriting Manager
+    action: Review complete underwriting package and make final approval decision
+    tools:
+    - Underwriting dashboard
+    - Portfolio risk analytics
+    - Approval workflow system
+    duration: 2 hours
+    outputs:
+    - Final underwriting decision
+    - Policy terms and conditions
+  success_criteria: 90% of applications processed within 3 days, loss ratio maintained
+    below 65%, customer retention above 85%
+  failure_modes:
+  - Inadequate risk assessment
+  - Regulatory compliance gaps
+  - Pricing inaccuracies
   metrics:
-    - "Processing time: 2.8 days average"
-    - "Loss ratio: 62%"
-    - "Customer retention: 87%"
+  - 'Processing time: 2.8 days average'
+  - 'Loss ratio: 62%'
+  - 'Customer retention: 87%'
   performance_history:
-    success_rate_trend: "82% (2022) → 87% (2023) → 90% (2024)"
-    cost_trend: "$1,200 (2022) → $980 (2023) → $850 (2024)"
-    efficiency_improvements: ["Automated risk scoring reduced assessment time by 45%", "Regional compliance templates improved accuracy by 30%", "AI pricing models enhanced profitability by 15%"]
+    success_rate_trend: 82% (2022) → 87% (2023) → 90% (2024)
+    cost_trend: $1,200 (2022) → $980 (2023) → $850 (2024)
+    efficiency_improvements:
+    - Automated risk scoring reduced assessment time by 45%
+    - Regional compliance templates improved accuracy by 30%
+    - AI pricing models enhanced profitability by 15%

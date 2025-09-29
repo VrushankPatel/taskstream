@@ -1,62 +1,111 @@
 workflow:
-  id: "workflow_insurance_parametric_risk_2025"
-  title: "Insurance Parametric Risk Assessment and Product Development"
-  department: "Underwriting & Product Development"
-  complexity: "complex"
-  participants: ["Risk Assessment Team", "Data Analytics Team", "Legal & Compliance", "Actuarial Team", "Product Managers", "External Data Providers"]
-  trigger: "New parametric risk product opportunity identified or regulatory change"
+  id: workflow_insurance_parametric_risk_2025
+  title: Insurance Parametric Risk Assessment and Product Development
+  department: Underwriting & Product Development
+  complexity: complex
+  participants:
+  - Risk Assessment Team
+  - Data Analytics Team
+  - Legal & Compliance
+  - Actuarial Team
+  - Product Managers
+  - External Data Providers
+  trigger: New parametric risk product opportunity identified or regulatory change
   temporal_data:
-    first_implemented: "2022-11-01"
-    last_updated: "2024-12-01"
-    typical_cycle_time: "90 days"
+    first_implemented: '2022-11-01'
+    last_updated: '2024-12-01'
+    typical_cycle_time: 90 days
     average_annual_executions: 12
-    seasonal_variations: ["Post-natural disaster events (increased assessments)", "Regulatory change periods"]
-    historical_evolution: "Started with manual data analysis, evolved to AI-driven modeling in 2023, integrated real-time data feeds in 2024"
+    seasonal_variations:
+    - Post-natural disaster events (increased assessments)
+    - Regulatory change periods
+    historical_evolution: Started with manual data analysis, evolved to AI-driven
+      modeling in 2023, integrated real-time data feeds in 2024
   steps:
-    - step: 1
-      actor: "Risk Assessment Team"
-      action: "Define parametric triggers and risk parameters using historical data and expert input"
-      tools: ["Risk modeling software", "Historical claims database", "External data APIs"]
-      duration: "2 weeks"
-      outputs: ["Risk parameter framework", "Trigger definitions"]
-    - step: 2
-      actor: "Data Analytics Team"
-      action: "Develop and validate predictive models, back-test against historical events"
-      tools: ["Machine learning platforms", "Statistical analysis software", "Data visualization tools"]
-      duration: "3 weeks"
-      outputs: ["Validated risk models", "Model performance reports"]
-    - step: 3
-      actor: "Actuarial Team"
-      action: "Calculate pricing models, assess capital requirements, determine payout structures"
-      tools: ["Actuarial modeling software", "Capital modeling tools"]
-      duration: "2 weeks"
-      outputs: ["Pricing models", "Capital adequacy analysis", "Payout structures"]
-    - step: 4
-      actor: "Legal & Compliance"
-      action: "Review regulatory compliance, ensure contract clarity, assess legal risks"
-      tools: ["Legal research databases", "Contract management system"]
-      duration: "1 week"
-      outputs: ["Compliance assessment", "Contract templates"]
-    - step: 5
-      actor: "Product Managers"
-      action: "Develop product features, marketing materials, and go-to-market strategy"
-      tools: ["Product management platform", "Marketing automation tools"]
-      duration: "2 weeks"
-      outputs: ["Product specifications", "Marketing materials", "Launch plan"]
-    - step: 6
-      actor: "Cross-functional Team"
-      action: "Conduct final testing, obtain approvals, prepare for launch"
-      tools: ["Testing environments", "Approval workflow system"]
-      duration: "1 week"
-      outputs: ["Test results", "Final approvals", "Launch readiness report"]
-  success_criteria: "Parametric product successfully developed, regulatory approved, and ready for market launch with positive ROI projections"
-  failure_modes: ["Inaccurate risk modeling", "Regulatory non-compliance", "Insufficient data quality", "Market timing issues", "Capital inadequacy"]
+  - step: 1
+    actor: Risk Assessment Team
+    action: Define parametric triggers and risk parameters using historical data and
+      expert input
+    tools:
+    - Risk modeling software
+    - Historical claims database
+    - External data APIs
+    duration: 2 weeks
+    outputs:
+    - Risk parameter framework
+    - Trigger definitions
+  - step: 2
+    actor: Data Analytics Team
+    action: Develop and validate predictive models, back-test against historical events
+    tools:
+    - Machine learning platforms
+    - Statistical analysis software
+    - Data visualization tools
+    duration: 3 weeks
+    outputs:
+    - Validated risk models
+    - Model performance reports
+  - step: 3
+    actor: Actuarial Team
+    action: Calculate pricing models, assess capital requirements, determine payout
+      structures
+    tools:
+    - Actuarial modeling software
+    - Capital modeling tools
+    duration: 2 weeks
+    outputs:
+    - Pricing models
+    - Capital adequacy analysis
+    - Payout structures
+  - step: 4
+    actor: Legal & Compliance
+    action: Review regulatory compliance, ensure contract clarity, assess legal risks
+    tools:
+    - Legal research databases
+    - Contract management system
+    duration: 1 week
+    outputs:
+    - Compliance assessment
+    - Contract templates
+  - step: 5
+    actor: Product Managers
+    action: Develop product features, marketing materials, and go-to-market strategy
+    tools:
+    - Product management platform
+    - Marketing automation tools
+    duration: 2 weeks
+    outputs:
+    - Product specifications
+    - Marketing materials
+    - Launch plan
+  - step: 6
+    actor: Cross-functional Team
+    action: Conduct final testing, obtain approvals, prepare for launch
+    tools:
+    - Testing environments
+    - Approval workflow system
+    duration: 1 week
+    outputs:
+    - Test results
+    - Final approvals
+    - Launch readiness report
+  success_criteria: Parametric product successfully developed, regulatory approved,
+    and ready for market launch with positive ROI projections
+  failure_modes:
+  - Inaccurate risk modeling
+  - Regulatory non-compliance
+  - Insufficient data quality
+  - Market timing issues
+  - Capital inadequacy
   metrics:
-    - "Model accuracy: 92%"
-    - "Development cost: $500K"
-    - "Time to market: 85 days"
-    - "Projected ROI: 180%"
+  - 'Model accuracy: 92%'
+  - 'Development cost: $500K'
+  - 'Time to market: 85 days'
+  - 'Projected ROI: 180%'
   performance_history:
-    success_rate_trend: "75% (2023) → 85% (2024) → 90% (2025)"
-    cost_trend: "$650K average (2023) → $550K (2024) → $500K (2025)"
-    efficiency_improvements: ["AI modeling reduced development time by 25%", "Automated regulatory compliance checking improved approval rates by 25%", "Standardized templates accelerated legal review by 30%"]
+    success_rate_trend: 75% (2023) → 85% (2024) → 90% (2025)
+    cost_trend: $650K average (2023) → $550K (2024) → $500K (2025)
+    efficiency_improvements:
+    - AI modeling reduced development time by 25%
+    - Automated regulatory compliance checking improved approval rates by 25%
+    - Standardized templates accelerated legal review by 30%

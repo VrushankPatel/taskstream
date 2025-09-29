@@ -10,9 +10,11 @@ workflow:
     last_updated: "2024-06-10"
     typical_cycle_time: "10-14 business days"
     average_annual_executions: 800
-    seasonal_variations: ["Q4 peak for year-end financing", "Q2 slowdown during tax season"]
+    seasonal_variations:
+    - "Q4 peak for year-end financing"
+    - "Q2 slowdown during tax season"
     historical_evolution: "AI scoring model implemented in 2022 reduced assessment time by 45% while improving risk prediction accuracy to 92%"
-   steps:
+  steps:
     - step: 1
       actor: "Relationship Manager"
       action: "Gather initial business information and financial statements"
@@ -40,8 +42,8 @@ workflow:
       duration: "1 day"
       outputs: ["Loan approval/denial", "Loan terms and conditions"]
       decision_points: ["Approval threshold", "Pricing and covenants"]
-   success_criteria: "Risk assessment completed within 14 days with accurate risk classification"
-   failure_modes: ["Incomplete financial documentation", "Adverse industry conditions", "Internal approval delays"]
+  success_criteria: "Risk assessment completed within 14 days with accurate risk classification"
+  failure_modes: ["Incomplete financial documentation", "Adverse industry conditions", "Internal approval delays"]
   metrics:
      - "Assessment accuracy: 92% (target 94%)"
      - "Processing time: 12.5 days (target 10 days)"

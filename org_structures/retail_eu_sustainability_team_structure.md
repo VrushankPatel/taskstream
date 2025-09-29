@@ -5,7 +5,7 @@
 **Department:** Corporate Sustainability
 **Headcount:** 45 FTE
 **Reporting Structure:** Reports to Chief Sustainability Officer
-**Geographic Scope:** 12 European countries  
+**Geographic Scope:** 12 European countries
 
 ## Executive Leadership
 **Chief Sustainability Officer**

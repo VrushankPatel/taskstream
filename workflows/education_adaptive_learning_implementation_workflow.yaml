@@ -4,19 +4,23 @@ workflow:
   department: Educational Technology
   complexity: medium
   participants:
-    - EdTech Director
-    - Curriculum Specialist
-    - Data Analyst
-    - Faculty Training Coordinator
-    - Student Success Manager
+  - EdTech Director
+  - Curriculum Specialist
+  - Data Analyst
+  - Faculty Training Coordinator
+  - Student Success Manager
   temporal_data:
-    first_implemented: "2021-02-15"
-    last_updated: "2024-06-20"
-    typical_cycle_time: "6-9 months"
+    first_implemented: '2021-02-15'
+    last_updated: '2024-06-20'
+    typical_cycle_time: 6-9 months
     average_annual_executions: 15
-    seasonal_variations: ["Implementation aligns with academic calendar", "Training during summer break"]
-    historical_evolution: "Traditional one-size-fits-all education evolved to personalized adaptive learning with AI recommendations"
-  trigger: Institutional goal to improve student outcomes through personalized learning pathways
+    seasonal_variations:
+    - Implementation aligns with academic calendar
+    - Training during summer break
+    historical_evolution: Traditional one-size-fits-all education evolved to personalized
+      adaptive learning with AI recommendations
+  trigger: Institutional goal to improve student outcomes through personalized learning
+    pathways
   steps:
   - step: 1
     actor: EdTech Director
@@ -89,11 +93,11 @@ workflow:
     - Optimization recommendations
   success_criteria: 15% improvement in student outcomes with 80% faculty adoption
   failure_modes:
-    - Technical integration challenges
-    - Faculty resistance to technology changes
-    - Insufficient student engagement
+  - Technical integration challenges
+  - Faculty resistance to technology changes
+  - Insufficient student engagement
   metrics:
-    - 'Student outcomes: 15% improvement in course completion rates'
-    - 'Personalization effectiveness: 70% of students on optimized learning paths'
-    - 'Faculty adoption: 80% of courses using adaptive features'
-    - 'Platform utilization: 85% student engagement with adaptive content'
+  - 'Student outcomes: 15% improvement in course completion rates'
+  - 'Personalization effectiveness: 70% of students on optimized learning paths'
+  - 'Faculty adoption: 80% of courses using adaptive features'
+  - 'Platform utilization: 85% student engagement with adaptive content'

@@ -7,12 +7,15 @@ workflow:
   - Customer Service Agent
   - Store Manager
   temporal_data:
-    first_implemented: "2018-05-25"
-    last_updated: "2023-10-15"
-    typical_cycle_time: "Per customer interaction"
+    first_implemented: '2018-05-25'
+    last_updated: '2023-10-15'
+    typical_cycle_time: Per customer interaction
     average_annual_executions: 50000
-    seasonal_variations: ["Peak during holiday shopping periods", "Increased inquiries during sales events"]
-    historical_evolution: "Traditional in-store service evolved to omnichannel support with GDPR compliance"
+    seasonal_variations:
+    - Peak during holiday shopping periods
+    - Increased inquiries during sales events
+    historical_evolution: Traditional in-store service evolved to omnichannel support
+      with GDPR compliance
   trigger: Customer inquiry or issue
   steps:
   - step: 1

@@ -4,8 +4,19 @@
   "context": "Global mining conglomerate evaluating $1.2B investment in autonomous mining equipment across 8 operations in Australia, Chile, and South Africa to improve safety, reduce operating costs, and address skilled labor shortages",
   "stakeholders": {
     "requester": "VP of Operations Excellence",
-    "approvers": ["Executive Committee", "CEO", "Board Safety Committee"],
-    "influencers": ["Mine Site Managers", "Labor Union Leaders", "Safety Regulatory Bodies", "Technology Partners", "Local Community Representatives", "Environmental Groups"]
+    "approvers": [
+      "Executive Committee",
+      "CEO",
+      "Board Safety Committee"
+    ],
+    "influencers": [
+      "Mine Site Managers",
+      "Labor Union Leaders",
+      "Safety Regulatory Bodies",
+      "Technology Partners",
+      "Local Community Representatives",
+      "Environmental Groups"
+    ]
   },
   "request": {
     "amount": "$1,200,000,000",
@@ -19,7 +30,12 @@
       "start_date": "2024-02-01",
       "end_date": "2024-05-15",
       "duration": "104 days",
-      "activities": ["Pilot safety performance analysis", "Regulatory compliance review", "Risk assessment modeling", "Emergency response protocol testing"],
+      "activities": [
+        "Pilot safety performance analysis",
+        "Regulatory compliance review",
+        "Risk assessment modeling",
+        "Emergency response protocol testing"
+      ],
       "outcome": "Safety performance exceeded targets with 67% incident reduction"
     },
     {
@@ -27,7 +43,12 @@
       "start_date": "2024-04-01",
       "end_date": "2024-07-30",
       "duration": "120 days",
-      "activities": ["Workforce impact analysis", "Retraining program development", "Union negotiations", "Community consultation"],
+      "activities": [
+        "Workforce impact analysis",
+        "Retraining program development",
+        "Union negotiations",
+        "Community consultation"
+      ],
       "outcome": "Comprehensive transition plan agreed with 95% employee retention commitment"
     },
     {
@@ -35,7 +56,12 @@
       "start_date": "2024-05-16",
       "end_date": "2024-09-30",
       "duration": "137 days",
-      "activities": ["Infrastructure compatibility assessment", "Communication network upgrades", "Maintenance facility planning", "Integration testing"],
+      "activities": [
+        "Infrastructure compatibility assessment",
+        "Communication network upgrades",
+        "Maintenance facility planning",
+        "Integration testing"
+      ],
       "outcome": "Technical readiness confirmed for all 8 sites"
     },
     {
@@ -43,7 +69,12 @@
       "start_date": "2024-09-01",
       "end_date": "2024-10-22",
       "duration": "51 days",
-      "activities": ["Investment committee review", "Board risk assessment", "Financing structure approval", "Vendor contract negotiations"],
+      "activities": [
+        "Investment committee review",
+        "Board risk assessment",
+        "Financing structure approval",
+        "Vendor contract negotiations"
+      ],
       "outcome": "Approved with performance-based payment structure"
     }
   ],
@@ -52,7 +83,13 @@
     "projected_value": "$2,800,000,000 over 12 years",
     "actual_value": "Implementation phase beginning",
     "roi_timeline": "5.2 years payback period",
-    "risk_factors": ["Technology reliability in harsh conditions", "Cybersecurity vulnerabilities", "Regulatory changes", "Social license to operate", "Commodity price volatility"]
+    "risk_factors": [
+      "Technology reliability in harsh conditions",
+      "Cybersecurity vulnerabilities",
+      "Regulatory changes",
+      "Social license to operate",
+      "Commodity price volatility"
+    ]
   },
   "decision_criteria": [
     "Safety incident reduction > 50%",

@@ -3,51 +3,95 @@ workflow:
   title: Retail Inventory Management Process
   department: Operations
   complexity: simple
-  participants: ["Inventory Clerk", "Store Manager", "Supplier Coordinator"]
+  participants:
+  - Inventory Clerk
+  - Store Manager
+  - Supplier Coordinator
   trigger: Daily stock check or low inventory alert system notification
   temporal_data:
-    first_implemented: "2018-06-01"
-    last_updated: "2024-11-01"
-    typical_cycle_time: "2-3 hours daily"
+    first_implemented: '2018-06-01'
+    last_updated: '2024-11-01'
+    typical_cycle_time: 2-3 hours daily
     average_annual_executions: 365
-    seasonal_variations: ["Q4 holiday season 50% higher volume", "Back-to-school August peak"]
-    historical_evolution: "Manual counting evolved to barcode scanning 2020, automated alerts added 2022"
+    seasonal_variations:
+    - Q4 holiday season 50% higher volume
+    - Back-to-school August peak
+    historical_evolution: Manual counting evolved to barcode scanning 2020, automated
+      alerts added 2022
   steps:
   - step: 1
     actor: Inventory Clerk
     action: Check current inventory levels for all products using automated systems
-    tools: ["Inventory Management System", "Barcode Scanner", "Stock Level Dashboard"]
+    tools:
+    - Inventory Management System
+    - Barcode Scanner
+    - Stock Level Dashboard
     duration: 30 minutes
-    outputs: ["Daily Inventory Report", "Stock Level Analysis"]
-    decision_points: ["Minimum stock thresholds reached", "Fast-moving items identified"]
+    outputs:
+    - Daily Inventory Report
+    - Stock Level Analysis
+    decision_points:
+    - Minimum stock thresholds reached
+    - Fast-moving items identified
   - step: 2
     actor: Inventory Clerk
     action: Identify items below minimum stock levels and analyze demand patterns
-    tools: ["Inventory Database", "Sales Analytics", "Forecasting Tool"]
+    tools:
+    - Inventory Database
+    - Sales Analytics
+    - Forecasting Tool
     duration: 15 minutes
-    outputs: ["Reorder List", "Priority Classification", "Demand Forecast"]
-    decision_points: ["Urgent vs standard reorder", "Seasonal demand consideration"]
+    outputs:
+    - Reorder List
+    - Priority Classification
+    - Demand Forecast
+    decision_points:
+    - Urgent vs standard reorder
+    - Seasonal demand consideration
   - step: 3
     actor: Store Manager
     action: Approve reorder quantities and place orders with preferred suppliers
-    tools: ["Supplier Portal", "Purchase Order System", "Budget Approval Tool"]
+    tools:
+    - Supplier Portal
+    - Purchase Order System
+    - Budget Approval Tool
     duration: 20 minutes
-    outputs: ["Approved Purchase Orders", "Supplier Notifications", "Budget Allocations"]
-    decision_points: ["Budget availability", "Supplier selection", "Delivery timing"]
+    outputs:
+    - Approved Purchase Orders
+    - Supplier Notifications
+    - Budget Allocations
+    decision_points:
+    - Budget availability
+    - Supplier selection
+    - Delivery timing
   - step: 4
     actor: Inventory Clerk
     action: Receive and record incoming shipments with quality verification
-    tools: ["Delivery Receipt System", "Quality Check App", "Inventory Update Portal"]
+    tools:
+    - Delivery Receipt System
+    - Quality Check App
+    - Inventory Update Portal
     duration: 30 minutes
-    outputs: ["Updated Inventory Records", "Quality Reports", "Discrepancy Logs"]
-  success_criteria: "Inventory maintained at 95%+ availability, no critical stockouts, 98%+ accuracy rate"
-  failure_modes: ["Critical stockouts affecting sales", "Over-ordering causing cash flow issues", "Recording errors leading to system discrepancies", "Supplier delivery delays"]
+    outputs:
+    - Updated Inventory Records
+    - Quality Reports
+    - Discrepancy Logs
+  success_criteria: Inventory maintained at 95%+ availability, no critical stockouts,
+    98%+ accuracy rate
+  failure_modes:
+  - Critical stockouts affecting sales
+  - Over-ordering causing cash flow issues
+  - Recording errors leading to system discrepancies
+  - Supplier delivery delays
   metrics:
-    - "Stock Availability: >95% (current: 97.2%)"
-    - "Inventory Accuracy: >98% (current: 98.7%)"
-    - "Reorder Cycle Time: <2 days (current: 1.8 days)"
-    - "Carrying Cost Ratio: <15% (current: 13.2%)"
+  - 'Stock Availability: >95% (current: 97.2%)'
+  - 'Inventory Accuracy: >98% (current: 98.7%)'
+  - 'Reorder Cycle Time: <2 days (current: 1.8 days)'
+  - 'Carrying Cost Ratio: <15% (current: 13.2%)'
   performance_history:
-    success_rate_trend: "92% (2022) → 95% (2023) → 97.2% (2024)"
-    cost_trend: "$2.20 per transaction (2022) → $1.95 (2023) → $1.75 (2024)"
-    efficiency_improvements: ["Automated alerts reduced manual checking by 40%", "Barcode scanning eliminated 95% of data entry errors", "Demand forecasting improved reorder accuracy by 25%"]
+    success_rate_trend: 92% (2022) → 95% (2023) → 97.2% (2024)
+    cost_trend: $2.20 per transaction (2022) → $1.95 (2023) → $1.75 (2024)
+    efficiency_improvements:
+    - Automated alerts reduced manual checking by 40%
+    - Barcode scanning eliminated 95% of data entry errors
+    - Demand forecasting improved reorder accuracy by 25%

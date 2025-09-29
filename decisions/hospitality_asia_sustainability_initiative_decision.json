@@ -4,8 +4,16 @@
   "context": "Asia hospitality group with 50 properties facing increasing regulatory pressure and customer demand for sustainable practices",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Regional Directors"],
-    "influencers": ["Operations Director", "Procurement Manager", "Guest Experience Manager"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Regional Directors"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Procurement Manager",
+      "Guest Experience Manager"
+    ]
   },
   "request": {
     "amount": "¥500,000,000",
@@ -19,7 +27,12 @@
       "start_date": "2024-09-01",
       "end_date": "2024-10-31",
       "duration": "61 days",
-      "activities": ["Sustainability audit", "Cost-benefit analysis", "Regulatory compliance review", "Stakeholder interviews"],
+      "activities": [
+        "Sustainability audit",
+        "Cost-benefit analysis",
+        "Regulatory compliance review",
+        "Stakeholder interviews"
+      ],
       "outcome": "Identified ¥300M in potential savings and ¥200M investment requirement"
     },
     {
@@ -27,7 +40,12 @@
       "start_date": "2024-11-01",
       "end_date": "2025-01-31",
       "duration": "92 days",
-      "activities": ["3-property pilot implementation", "Performance monitoring", "Cost tracking", "Guest feedback collection"],
+      "activities": [
+        "3-property pilot implementation",
+        "Performance monitoring",
+        "Cost tracking",
+        "Guest feedback collection"
+      ],
       "outcome": "Pilot successful with 25% energy reduction and positive guest response"
     },
     {
@@ -35,7 +53,12 @@
       "start_date": "2025-02-01",
       "end_date": "2025-02-20",
       "duration": "20 days",
-      "activities": ["Investment committee review", "ROI presentation", "Risk assessment", "Implementation planning"],
+      "activities": [
+        "Investment committee review",
+        "ROI presentation",
+        "Risk assessment",
+        "Implementation planning"
+      ],
       "outcome": "Approved ¥500M sustainability program"
     }
   ],
@@ -44,14 +67,29 @@
     "projected_value": "¥800,000,000 in cost savings and revenue uplift over 5 years",
     "actual_value": "TBD (pilot results show ¥75M annual savings)",
     "roi_timeline": "Expected payback in 30 months",
-    "risk_factors": ["Higher initial investment costs", "Technology reliability", "Supplier availability for sustainable materials"]
+    "risk_factors": [
+      "Higher initial investment costs",
+      "Technology reliability",
+      "Supplier availability for sustainable materials"
+    ]
   },
-  "decision_criteria": ["Financial ROI potential", "Regulatory compliance requirements", "Customer demand alignment", "Technical feasibility", "Competitive advantage"],
+  "decision_criteria": [
+    "Financial ROI potential",
+    "Regulatory compliance requirements",
+    "Customer demand alignment",
+    "Technical feasibility",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-06-01",
     "completion_date": "2027-05-31",
-    "milestones": ["Phase 1: Energy efficiency upgrades - 2025-12-31", "Phase 2: Waste management systems - 2026-06-30", "Phase 3: Sustainable sourcing - 2026-12-31", "Phase 4: Carbon neutral certification - 2027-05-31"]
+    "milestones": [
+      "Phase 1: Energy efficiency upgrades - 2025-12-31",
+      "Phase 2: Waste management systems - 2026-06-30",
+      "Phase 3: Sustainable sourcing - 2026-12-31",
+      "Phase 4: Carbon neutral certification - 2027-05-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Energy consumption reduction metrics, initial cost savings analysis",

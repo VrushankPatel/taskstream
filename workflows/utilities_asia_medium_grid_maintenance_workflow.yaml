@@ -1,5 +1,6 @@
 name: Asia Utilities Medium Grid Maintenance Workflow
-description: Medium-complexity workflow for scheduled grid maintenance in Asian utilities with safety protocols and regulatory compliance
+description: Medium-complexity workflow for scheduled grid maintenance in Asian utilities
+  with safety protocols and regulatory compliance
 industry: utilities
 region: Asia
 complexity: medium
@@ -12,120 +13,191 @@ performance_history:
   success_rate: 98%
   safety_incidents: 0.1 per 1000 maintenances
 actors:
-  - role: Maintenance Supervisor
-    department: Grid Operations
-    responsibilities: Coordinate maintenance, ensure safety compliance, manage resources
-  - role: Field Technician
-    department: Field Operations
-    responsibilities: Execute maintenance tasks, report issues
-  - role: Safety Officer
-    department: Safety & Compliance
-    responsibilities: Conduct safety inspections, ensure regulatory compliance
-  - role: Control Room Operator
-    department: Network Control
-    responsibilities: Monitor grid stability, coordinate shutdowns
+- role: Maintenance Supervisor
+  department: Grid Operations
+  responsibilities: Coordinate maintenance, ensure safety compliance, manage resources
+- role: Field Technician
+  department: Field Operations
+  responsibilities: Execute maintenance tasks, report issues
+- role: Safety Officer
+  department: Safety & Compliance
+  responsibilities: Conduct safety inspections, ensure regulatory compliance
+- role: Control Room Operator
+  department: Network Control
+  responsibilities: Monitor grid stability, coordinate shutdowns
 steps:
-  - id: planning
-    name: Maintenance Planning
-    description: Plan maintenance schedule and resource allocation
-    actors: [Maintenance Supervisor]
-    inputs: [Maintenance schedule, Equipment inventory, Resource availability]
-    outputs: [Maintenance plan, Resource allocation]
-    decision_points:
-      - condition: Resources available and weather suitable
-        next_step: notification
-      - condition: Resources unavailable
-        next_step: reschedule
-    tools: [Maintenance planning software, Weather forecasting system]
-    success_criteria: Plan completed within 3 days
-    failure_modes: [Resource conflicts, Adverse weather]
-  - id: notification
-    name: Stakeholder Notification
-    description: Notify affected customers and regulatory bodies
-    actors: [Maintenance Supervisor, Customer Service]
-    inputs: [Customer database, Regulatory requirements]
-    outputs: [Notification records, Regulatory approvals]
-    decision_points: []
-    tools: [Customer notification system, Regulatory reporting portal]
-    success_criteria: All notifications sent 48 hours in advance
-    failure_modes: [Communication failures, Regulatory delays]
-  - id: safety_preparation
-    name: Safety Preparation
-    description: Conduct safety briefing and equipment checks
-    actors: [Safety Officer, Field Technician]
-    inputs: [Safety protocols, Equipment checklists]
-    outputs: [Safety briefing records, Equipment inspection reports]
-    decision_points:
-      - condition: All safety checks passed
-        next_step: shutdown_coordination
-      - condition: Safety issues identified
-        next_step: corrective_action
-    tools: [Safety management system, Inspection checklists]
-    success_criteria: Safety preparation completed 24 hours before maintenance
-    failure_modes: [Equipment failures, Safety violations]
-  - id: shutdown_coordination
-    name: Grid Shutdown Coordination
-    description: Coordinate safe grid shutdown with control room
-    actors: [Control Room Operator, Maintenance Supervisor]
-    inputs: [Shutdown procedures, Load balancing plan]
-    outputs: [Shutdown confirmation, Load transfer records]
-    decision_points: []
-    tools: [SCADA system, Load management software]
-    success_criteria: Shutdown completed without service interruption
-    failure_modes: [Load balancing issues, System instability]
-  - id: maintenance_execution
-    name: Maintenance Execution
-    description: Execute planned maintenance tasks
-    actors: [Field Technician, Maintenance Supervisor]
-    inputs: [Maintenance plan, Equipment, Safety protocols]
-    outputs: [Maintenance logs, Equipment test results]
-    decision_points:
-      - condition: Maintenance completed successfully
-        next_step: testing
-      - condition: Issues discovered requiring additional work
-        next_step: additional_work
-    tools: [Maintenance tracking system, Diagnostic equipment]
-    success_criteria: All planned tasks completed within schedule
-    failure_modes: [Equipment failures, Unexpected issues]
-  - id: testing
-    name: Post-Maintenance Testing
-    description: Test equipment functionality and safety
-    actors: [Field Technician, Safety Officer]
-    inputs: [Test procedures, Equipment specifications]
-    outputs: [Test reports, Safety certifications]
-    decision_points:
-      - condition: All tests passed
-        next_step: restoration
-      - condition: Tests failed
-        next_step: repair
-    tools: [Testing equipment, Safety verification systems]
-    success_criteria: Testing completed within 4 hours
-    failure_modes: [Test failures, Safety concerns]
-  - id: restoration
-    name: System Restoration
-    description: Restore grid to normal operation
-    actors: [Control Room Operator, Maintenance Supervisor]
-    inputs: [Restoration procedures, Test results]
-    outputs: [Restoration confirmation, Performance reports]
-    decision_points: []
-    tools: [SCADA system, Monitoring dashboards]
-    success_criteria: Full restoration within 2 hours
-    failure_modes: [Restoration failures, Performance issues]
+- id: planning
+  name: Maintenance Planning
+  description: Plan maintenance schedule and resource allocation
+  actors:
+  - Maintenance Supervisor
+  inputs:
+  - Maintenance schedule
+  - Equipment inventory
+  - Resource availability
+  outputs:
+  - Maintenance plan
+  - Resource allocation
+  decision_points:
+  - condition: Resources available and weather suitable
+    next_step: notification
+  - condition: Resources unavailable
+    next_step: reschedule
+  tools:
+  - Maintenance planning software
+  - Weather forecasting system
+  success_criteria: Plan completed within 3 days
+  failure_modes:
+  - Resource conflicts
+  - Adverse weather
+- id: notification
+  name: Stakeholder Notification
+  description: Notify affected customers and regulatory bodies
+  actors:
+  - Maintenance Supervisor
+  - Customer Service
+  inputs:
+  - Customer database
+  - Regulatory requirements
+  outputs:
+  - Notification records
+  - Regulatory approvals
+  decision_points: []
+  tools:
+  - Customer notification system
+  - Regulatory reporting portal
+  success_criteria: All notifications sent 48 hours in advance
+  failure_modes:
+  - Communication failures
+  - Regulatory delays
+- id: safety_preparation
+  name: Safety Preparation
+  description: Conduct safety briefing and equipment checks
+  actors:
+  - Safety Officer
+  - Field Technician
+  inputs:
+  - Safety protocols
+  - Equipment checklists
+  outputs:
+  - Safety briefing records
+  - Equipment inspection reports
+  decision_points:
+  - condition: All safety checks passed
+    next_step: shutdown_coordination
+  - condition: Safety issues identified
+    next_step: corrective_action
+  tools:
+  - Safety management system
+  - Inspection checklists
+  success_criteria: Safety preparation completed 24 hours before maintenance
+  failure_modes:
+  - Equipment failures
+  - Safety violations
+- id: shutdown_coordination
+  name: Grid Shutdown Coordination
+  description: Coordinate safe grid shutdown with control room
+  actors:
+  - Control Room Operator
+  - Maintenance Supervisor
+  inputs:
+  - Shutdown procedures
+  - Load balancing plan
+  outputs:
+  - Shutdown confirmation
+  - Load transfer records
+  decision_points: []
+  tools:
+  - SCADA system
+  - Load management software
+  success_criteria: Shutdown completed without service interruption
+  failure_modes:
+  - Load balancing issues
+  - System instability
+- id: maintenance_execution
+  name: Maintenance Execution
+  description: Execute planned maintenance tasks
+  actors:
+  - Field Technician
+  - Maintenance Supervisor
+  inputs:
+  - Maintenance plan
+  - Equipment
+  - Safety protocols
+  outputs:
+  - Maintenance logs
+  - Equipment test results
+  decision_points:
+  - condition: Maintenance completed successfully
+    next_step: testing
+  - condition: Issues discovered requiring additional work
+    next_step: additional_work
+  tools:
+  - Maintenance tracking system
+  - Diagnostic equipment
+  success_criteria: All planned tasks completed within schedule
+  failure_modes:
+  - Equipment failures
+  - Unexpected issues
+- id: testing
+  name: Post-Maintenance Testing
+  description: Test equipment functionality and safety
+  actors:
+  - Field Technician
+  - Safety Officer
+  inputs:
+  - Test procedures
+  - Equipment specifications
+  outputs:
+  - Test reports
+  - Safety certifications
+  decision_points:
+  - condition: All tests passed
+    next_step: restoration
+  - condition: Tests failed
+    next_step: repair
+  tools:
+  - Testing equipment
+  - Safety verification systems
+  success_criteria: Testing completed within 4 hours
+  failure_modes:
+  - Test failures
+  - Safety concerns
+- id: restoration
+  name: System Restoration
+  description: Restore grid to normal operation
+  actors:
+  - Control Room Operator
+  - Maintenance Supervisor
+  inputs:
+  - Restoration procedures
+  - Test results
+  outputs:
+  - Restoration confirmation
+  - Performance reports
+  decision_points: []
+  tools:
+  - SCADA system
+  - Monitoring dashboards
+  success_criteria: Full restoration within 2 hours
+  failure_modes:
+  - Restoration failures
+  - Performance issues
 success_criteria:
-  - Maintenance completed within scheduled timeframe
-  - Zero safety incidents
-  - 99.9% grid reliability maintained
+- Maintenance completed within scheduled timeframe
+- Zero safety incidents
+- 99.9% grid reliability maintained
 failure_modes:
-  - Schedule delays
-  - Safety incidents
-  - Service interruptions
+- Schedule delays
+- Safety incidents
+- Service interruptions
 metrics:
-  - name: Completion Time
-    target: "<10 days"
-    current: 8 days
-  - name: Safety Incident Rate
-    target: "<0.2 per 1000"
-    current: 0.1 per 1000
-  - name: Customer Satisfaction
-    target: ">4.0/5"
-    current: 4.3/5
+- name: Completion Time
+  target: <10 days
+  current: 8 days
+- name: Safety Incident Rate
+  target: <0.2 per 1000
+  current: 0.1 per 1000
+- name: Customer Satisfaction
+  target: '>4.0/5'
+  current: 4.3/5

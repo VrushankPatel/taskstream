@@ -1,10 +1,10 @@
 # Aerospace Unmanned Systems Safety Compliance Policy
 
 ## Policy Overview
-**Effective Date:** January 1, 2025  
-**Last Updated:** December 15, 2024  
-**Policy Owner:** Chief Safety Officer  
-**Applies To:** All unmanned aerial systems (UAS) operations and personnel  
+**Effective Date:** January 1, 2025
+**Last Updated:** December 15, 2024
+**Policy Owner:** Chief Safety Officer
+**Applies To:** All unmanned aerial systems (UAS) operations and personnel
 
 ## Purpose
 This policy establishes comprehensive safety standards and compliance requirements for unmanned aerial systems operations to ensure safe integration with manned aviation, protect public safety, and maintain regulatory compliance.

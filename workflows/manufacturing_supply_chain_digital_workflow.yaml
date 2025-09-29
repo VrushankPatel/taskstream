@@ -1,55 +1,96 @@
 workflow:
-  id: "workflow_manufacturing_supply_chain_digital"
-  title: "Manufacturing Supply Chain Digital Transformation Workflow"
-  department: "Supply Chain"
-  complexity: "complex"
-  participants: ["Supply Chain Director", "Digital Transformation Manager", "IT Integration Lead", "Operations Manager", "Vendor Relations Manager"]
-  trigger: "Strategic initiative to digitize supply chain operations"
+  id: workflow_manufacturing_supply_chain_digital
+  title: Manufacturing Supply Chain Digital Transformation Workflow
+  department: Supply Chain
+  complexity: complex
+  participants:
+  - Supply Chain Director
+  - Digital Transformation Manager
+  - IT Integration Lead
+  - Operations Manager
+  - Vendor Relations Manager
+  trigger: Strategic initiative to digitize supply chain operations
   temporal_data:
-    first_implemented: "2023-02-01"
-    last_updated: "2025-07-20"
-    typical_cycle_time: "12-18 months"
+    first_implemented: '2023-02-01'
+    last_updated: '2025-07-20'
+    typical_cycle_time: 12-18 months
     average_annual_executions: 4
-    seasonal_variations: ["Q1 assessment and planning", "Q2-Q3 implementation", "Q4 optimization and scaling"]
-    historical_evolution: "Evolved from manual supply chain management to digital ecosystem, incorporating IoT, blockchain, and AI-driven optimization"
+    seasonal_variations:
+    - Q1 assessment and planning
+    - Q2-Q3 implementation
+    - Q4 optimization and scaling
+    historical_evolution: Evolved from manual supply chain management to digital ecosystem,
+      incorporating IoT, blockchain, and AI-driven optimization
   steps:
-    - step: 1
-      actor: "Supply Chain Director"
-      action: "Assess current supply chain and define digital transformation goals"
-      tools: ["Supply chain assessment tools", "Digital maturity frameworks", "Stakeholder analysis"]
-      duration: "3 months"
-      outputs: ["Current state assessment", "Transformation roadmap"]
-    - step: 2
-      actor: "Digital Transformation Manager"
-      action: "Select and implement digital technologies"
-      tools: ["Technology evaluation platforms", "Implementation planning software", "Change management tools"]
-      duration: "6 months"
-      outputs: ["Technology selections", "Implementation plans"]
-    - step: 3
-      actor: "IT Integration Lead"
-      action: "Integrate digital systems with existing infrastructure"
-      tools: ["Integration platforms", "API development tools", "Data migration software"]
-      duration: "5 months"
-      outputs: ["Integrated systems", "Data migration reports"]
-    - step: 4
-      actor: "Operations Manager"
-      action: "Train staff and optimize operational processes"
-      tools: ["Training platforms", "Process optimization software", "Performance monitoring tools"]
-      duration: "4 months"
-      outputs: ["Training programs", "Optimized processes"]
-    - step: 5
-      actor: "Vendor Relations Manager"
-      action: "Digitize vendor relationships and supplier integration"
-      tools: ["Supplier portals", "Contract management systems", "Performance tracking platforms"]
-      duration: "Ongoing"
-      outputs: ["Digital supplier networks", "Performance dashboards"]
-  success_criteria: "20% improvement in supply chain efficiency, 15% reduction in lead times"
-  failure_modes: ["Technology integration challenges", "Vendor resistance", "Data quality issues"]
+  - step: 1
+    actor: Supply Chain Director
+    action: Assess current supply chain and define digital transformation goals
+    tools:
+    - Supply chain assessment tools
+    - Digital maturity frameworks
+    - Stakeholder analysis
+    duration: 3 months
+    outputs:
+    - Current state assessment
+    - Transformation roadmap
+  - step: 2
+    actor: Digital Transformation Manager
+    action: Select and implement digital technologies
+    tools:
+    - Technology evaluation platforms
+    - Implementation planning software
+    - Change management tools
+    duration: 6 months
+    outputs:
+    - Technology selections
+    - Implementation plans
+  - step: 3
+    actor: IT Integration Lead
+    action: Integrate digital systems with existing infrastructure
+    tools:
+    - Integration platforms
+    - API development tools
+    - Data migration software
+    duration: 5 months
+    outputs:
+    - Integrated systems
+    - Data migration reports
+  - step: 4
+    actor: Operations Manager
+    action: Train staff and optimize operational processes
+    tools:
+    - Training platforms
+    - Process optimization software
+    - Performance monitoring tools
+    duration: 4 months
+    outputs:
+    - Training programs
+    - Optimized processes
+  - step: 5
+    actor: Vendor Relations Manager
+    action: Digitize vendor relationships and supplier integration
+    tools:
+    - Supplier portals
+    - Contract management systems
+    - Performance tracking platforms
+    duration: Ongoing
+    outputs:
+    - Digital supplier networks
+    - Performance dashboards
+  success_criteria: 20% improvement in supply chain efficiency, 15% reduction in lead
+    times
+  failure_modes:
+  - Technology integration challenges
+  - Vendor resistance
+  - Data quality issues
   metrics:
-    - "Supply chain efficiency: 20% improvement"
-    - "Lead time reduction: 15%"
-    - "Digital adoption rate: 90%"
+  - 'Supply chain efficiency: 20% improvement'
+  - 'Lead time reduction: 15%'
+  - 'Digital adoption rate: 90%'
   performance_history:
-    success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
-    cost_trend: "$6M (2023) → $7M (2024) → $8M (2025)"
-    efficiency_improvements: ["IoT sensors improved visibility by 40%", "AI optimization reduced inventory costs by 25%", "Blockchain traceability enhanced supplier trust by 30%"]
+    success_rate_trend: 65% (2023) → 75% (2024) → 82% (2025)
+    cost_trend: $6M (2023) → $7M (2024) → $8M (2025)
+    efficiency_improvements:
+    - IoT sensors improved visibility by 40%
+    - AI optimization reduced inventory costs by 25%
+    - Blockchain traceability enhanced supplier trust by 30%

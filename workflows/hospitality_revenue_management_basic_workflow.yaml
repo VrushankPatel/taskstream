@@ -57,7 +57,8 @@ workflow:
     duration: 15 minutes
     outputs:
     - Availability Updates
-  success_criteria: Revenue per available room increased by 8% with 85% occupancy maintained
+  success_criteria: Revenue per available room increased by 8% with 85% occupancy
+    maintained
   failure_modes:
   - Overbooking
   - Rate erosion

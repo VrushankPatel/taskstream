@@ -1,44 +1,67 @@
 workflow:
-  id: "workflow_hospitality_contactless_checkin"
-  title: "Contactless Hotel Guest Check-In Process"
-  department: "Front Office"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Technology Support", "Housekeeping Coordinator"]
-  trigger: "Guest arrives and selects contactless check-in option"
+  id: workflow_hospitality_contactless_checkin
+  title: Contactless Hotel Guest Check-In Process
+  department: Front Office
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Technology Support
+  - Housekeeping Coordinator
+  trigger: Guest arrives and selects contactless check-in option
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Scan guest mobile device QR code to access pre-registered information"
-      tools: ["Mobile check-in app", "QR code scanner", "Guest database"]
-      duration: "1 minute"
-      outputs: ["Guest identity verified"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Confirm reservation details and process digital payment authorization"
-      tools: ["PMS integration", "Digital payment gateway"]
-      duration: "2 minutes"
-      outputs: ["Payment processed", "Reservation confirmed"]
-    - step: 3
-      actor: "Technology Support"
-      action: "Send digital room key and access instructions to guest mobile device"
-      tools: ["Mobile key system", "Automated messaging"]
-      duration: "1 minute"
-      outputs: ["Digital key delivered"]
-    - step: 4
-      actor: "Front Desk Agent"
-      action: "Provide contactless amenity delivery options and hotel information"
-      tools: ["Digital concierge system", "Automated welcome guide"]
-      duration: "2 minutes"
-      outputs: ["Guest amenities arranged"]
-    - step: 5
-      actor: "Housekeeping Coordinator"
-      action: "Confirm room readiness and update contactless status"
-      tools: ["Housekeeping app", "Room status system"]
-      duration: "1 minute"
-      outputs: ["Contactless check-in completed"]
-  success_criteria: "Guest checked in without physical contact, with full digital access"
-  failure_modes: ["Mobile device issues", "Payment authorization failures", "Room not ready"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Scan guest mobile device QR code to access pre-registered information
+    tools:
+    - Mobile check-in app
+    - QR code scanner
+    - Guest database
+    duration: 1 minute
+    outputs:
+    - Guest identity verified
+  - step: 2
+    actor: Front Desk Agent
+    action: Confirm reservation details and process digital payment authorization
+    tools:
+    - PMS integration
+    - Digital payment gateway
+    duration: 2 minutes
+    outputs:
+    - Payment processed
+    - Reservation confirmed
+  - step: 3
+    actor: Technology Support
+    action: Send digital room key and access instructions to guest mobile device
+    tools:
+    - Mobile key system
+    - Automated messaging
+    duration: 1 minute
+    outputs:
+    - Digital key delivered
+  - step: 4
+    actor: Front Desk Agent
+    action: Provide contactless amenity delivery options and hotel information
+    tools:
+    - Digital concierge system
+    - Automated welcome guide
+    duration: 2 minutes
+    outputs:
+    - Guest amenities arranged
+  - step: 5
+    actor: Housekeeping Coordinator
+    action: Confirm room readiness and update contactless status
+    tools:
+    - Housekeeping app
+    - Room status system
+    duration: 1 minute
+    outputs:
+    - Contactless check-in completed
+  success_criteria: Guest checked in without physical contact, with full digital access
+  failure_modes:
+  - Mobile device issues
+  - Payment authorization failures
+  - Room not ready
   metrics:
-    - "Contactless adoption rate: 75%"
-    - "Average check-in time: 6 minutes"
-    - "Guest satisfaction: 4.6/5"
+  - 'Contactless adoption rate: 75%'
+  - 'Average check-in time: 6 minutes'
+  - 'Guest satisfaction: 4.6/5'

@@ -1,60 +1,109 @@
 workflow:
-  id: "workflow_finance_investment_portfolio_management"
-  title: "Investment Portfolio Management and Rebalancing Process"
-  department: "Investment Management"
-  complexity: "complex"
-  participants: ["Portfolio Manager", "Risk Analyst", "Compliance Officer", "Client Relationship Manager", "Trading Desk"]
-  trigger: "Quarterly review cycle or significant market event"
+  id: workflow_finance_investment_portfolio_management
+  title: Investment Portfolio Management and Rebalancing Process
+  department: Investment Management
+  complexity: complex
+  participants:
+  - Portfolio Manager
+  - Risk Analyst
+  - Compliance Officer
+  - Client Relationship Manager
+  - Trading Desk
+  trigger: Quarterly review cycle or significant market event
   temporal_data:
-    first_implemented: "2017-01-01"
-    last_updated: "2024-09-01"
-    typical_cycle_time: "2-3 months"
+    first_implemented: '2017-01-01'
+    last_updated: '2024-09-01'
+    typical_cycle_time: 2-3 months
     average_annual_executions: 800
-    seasonal_variations: ["Q4 year-end rebalancing peak", "Q1 post-tax optimization"]
-    historical_evolution: "Algorithmic trading integration in 2021, improving execution efficiency by 55%"
+    seasonal_variations:
+    - Q4 year-end rebalancing peak
+    - Q1 post-tax optimization
+    historical_evolution: Algorithmic trading integration in 2021, improving execution
+      efficiency by 55%
   steps:
-     - step: 1
-       actor: "Portfolio Manager"
-       action: "Conduct portfolio performance analysis and market assessment"
-       tools: ["Portfolio analytics platform", "Market data systems"]
-       duration: "2 weeks"
-       outputs: ["Performance report", "Rebalancing recommendations"]
-       decision_points: ["Performance deviation exceeds threshold", "Market conditions warrant rebalancing", "Client risk tolerance alignment"]
-     - step: 2
-       actor: "Risk Analyst"
-       action: "Perform risk assessment and stress testing"
-       tools: ["Risk management software", "Scenario analysis tools"]
-       duration: "1 week"
-       outputs: ["Risk assessment report", "Stress test results"]
-       decision_points: ["Risk exposure within acceptable limits", "Stress test scenarios passed", "Regulatory capital requirements met"]
-     - step: 3
-       actor: "Compliance Officer"
-       action: "Review for regulatory compliance and investment guidelines"
-       tools: ["Compliance monitoring system", "Regulatory databases"]
-       duration: "3 days"
-       outputs: ["Compliance approval", "Regulatory filings"]
-       decision_points: ["All regulatory requirements satisfied", "Investment guidelines adhered to", "No material compliance issues identified"]
-     - step: 4
-       actor: "Client Relationship Manager"
-       action: "Present recommendations to client and obtain approval"
-       tools: ["Client portal", "Presentation tools"]
-       duration: "1 week"
-       outputs: ["Client approval", "Investment directives"]
-       decision_points: ["Client approves rebalancing strategy", "Alternative investment options requested", "Timeline constraints accepted"]
-     - step: 5
-       actor: "Trading Desk"
-       action: "Execute portfolio rebalancing trades"
-       tools: ["Trading platform", "Order management system"]
-       duration: "3-5 days"
-       outputs: ["Trade execution reports", "Updated portfolio holdings"]
-       decision_points: ["Market conditions favorable for execution", "Trading costs within budget", "Execution completed without significant slippage"]
-  success_criteria: "Portfolio rebalanced within target allocations with minimal tracking error and full regulatory compliance"
-  failure_modes: ["Market volatility disrupting execution", "Client approval delays", "Compliance violations"]
+  - step: 1
+    actor: Portfolio Manager
+    action: Conduct portfolio performance analysis and market assessment
+    tools:
+    - Portfolio analytics platform
+    - Market data systems
+    duration: 2 weeks
+    outputs:
+    - Performance report
+    - Rebalancing recommendations
+    decision_points:
+    - Performance deviation exceeds threshold
+    - Market conditions warrant rebalancing
+    - Client risk tolerance alignment
+  - step: 2
+    actor: Risk Analyst
+    action: Perform risk assessment and stress testing
+    tools:
+    - Risk management software
+    - Scenario analysis tools
+    duration: 1 week
+    outputs:
+    - Risk assessment report
+    - Stress test results
+    decision_points:
+    - Risk exposure within acceptable limits
+    - Stress test scenarios passed
+    - Regulatory capital requirements met
+  - step: 3
+    actor: Compliance Officer
+    action: Review for regulatory compliance and investment guidelines
+    tools:
+    - Compliance monitoring system
+    - Regulatory databases
+    duration: 3 days
+    outputs:
+    - Compliance approval
+    - Regulatory filings
+    decision_points:
+    - All regulatory requirements satisfied
+    - Investment guidelines adhered to
+    - No material compliance issues identified
+  - step: 4
+    actor: Client Relationship Manager
+    action: Present recommendations to client and obtain approval
+    tools:
+    - Client portal
+    - Presentation tools
+    duration: 1 week
+    outputs:
+    - Client approval
+    - Investment directives
+    decision_points:
+    - Client approves rebalancing strategy
+    - Alternative investment options requested
+    - Timeline constraints accepted
+  - step: 5
+    actor: Trading Desk
+    action: Execute portfolio rebalancing trades
+    tools:
+    - Trading platform
+    - Order management system
+    duration: 3-5 days
+    outputs:
+    - Trade execution reports
+    - Updated portfolio holdings
+    decision_points:
+    - Market conditions favorable for execution
+    - Trading costs within budget
+    - Execution completed without significant slippage
+  success_criteria: Portfolio rebalanced within target allocations with minimal tracking
+    error and full regulatory compliance
+  failure_modes:
+  - Market volatility disrupting execution
+  - Client approval delays
+  - Compliance violations
   metrics:
-    - "Tracking error: 0.8% average"
-    - "Execution cost: 0.15% average"
-    - "Client satisfaction: 4.5/5"
+  - 'Tracking error: 0.8% average'
+  - 'Execution cost: 0.15% average'
+  - 'Client satisfaction: 4.5/5'
   performance_history:
-    success_rate_trend: "90% (2023) → 93% (2024) → 95% (2025)"
-    cost_trend: "$15,000 (2023) → $12,500 (2024) → $11,000 (2025)"
-    efficiency_improvements: ["Algorithmic execution reduced trading costs by 30%", "Automated reporting improved client communication by 40%"]
+    success_rate_trend: 90% (2023) → 93% (2024) → 95% (2025)
+    cost_trend: $15,000 (2023) → $12,500 (2024) → $11,000 (2025)
+    efficiency_improvements:
+    - Algorithmic execution reduced trading costs by 30%
+    - Automated reporting improved client communication by 40%

@@ -3,8 +3,16 @@
   "context": "Municipal utility expanding solar power capacity to meet state renewable energy mandates and reduce carbon emissions",
   "stakeholders": {
     "requester": "Renewable Energy Director",
-    "approvers": ["City Manager", "Utility Board", "Environmental Director"],
-    "influencers": ["Ratepayers Association", "Local Environmental Groups", "Solar Industry Partners"]
+    "approvers": [
+      "City Manager",
+      "Utility Board",
+      "Environmental Director"
+    ],
+    "influencers": [
+      "Ratepayers Association",
+      "Local Environmental Groups",
+      "Solar Industry Partners"
+    ]
   },
   "request": {
     "amount": "$120 million",
@@ -16,28 +24,49 @@
     {
       "stage": "site_feasibility",
       "duration": "4 months",
-      "activities": ["Land acquisition analysis", "Environmental impact studies", "Grid interconnection feasibility"],
+      "activities": [
+        "Land acquisition analysis",
+        "Environmental impact studies",
+        "Grid interconnection feasibility"
+      ],
       "outcome": "Identified 1500-acre brownfield site with existing transmission access"
     },
     {
       "stage": "technical_design",
       "duration": "3 months",
-      "activities": ["Solar array design", "Battery storage specification", "Grid integration planning"],
+      "activities": [
+        "Solar array design",
+        "Battery storage specification",
+        "Grid integration planning"
+      ],
       "outcome": "Designed system with 6-hour battery storage and smart grid controls"
     },
     {
       "stage": "community_engagement",
       "duration": "2 months",
-      "activities": ["Public information sessions", "Stakeholder consultations", "Environmental review"],
+      "activities": [
+        "Public information sessions",
+        "Stakeholder consultations",
+        "Environmental review"
+      ],
       "outcome": "Strong community support with environmental mitigation agreements"
     }
   ],
   "business_impact": {
     "expected_outcome": "35% renewable energy contribution, enhanced energy independence",
     "projected_value": "$180 million in long-term savings and environmental benefits",
-    "risk_factors": ["Solar intermittency", "Battery technology costs", "Regulatory changes"]
+    "risk_factors": [
+      "Solar intermittency",
+      "Battery technology costs",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Renewable energy targets", "Economic feasibility", "Community impact", "Technical reliability"],
+  "decision_criteria": [
+    "Renewable energy targets",
+    "Economic feasibility",
+    "Community impact",
+    "Technical reliability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early community engagement and comprehensive environmental planning essential for large-scale solar projects, battery storage significantly improves project economics"
 }

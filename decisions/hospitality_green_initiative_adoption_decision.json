@@ -4,8 +4,17 @@
   "context": "Luxury hotel chain with 25 properties evaluating adoption of comprehensive green initiatives to meet growing guest demand for sustainable practices and achieve carbon neutrality by 2030",
   "stakeholders": {
     "requester": "Sustainability Director",
-    "approvers": ["CEO", "Chief Operations Officer", "Board Sustainability Committee"],
-    "influencers": ["Property General Managers", "Procurement Director", "Guest Experience Team", "Finance Director"]
+    "approvers": [
+      "CEO",
+      "Chief Operations Officer",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Property General Managers",
+      "Procurement Director",
+      "Guest Experience Team",
+      "Finance Director"
+    ]
   },
   "request": {
     "amount": "$8,200,000",
@@ -19,7 +28,12 @@
       "start_date": "2025-05-01",
       "end_date": "2025-06-15",
       "duration": "46 days",
-      "activities": ["Energy audit across properties", "Vendor capability assessment", "Cost-benefit analysis", "Guest preference research"],
+      "activities": [
+        "Energy audit across properties",
+        "Vendor capability assessment",
+        "Cost-benefit analysis",
+        "Guest preference research"
+      ],
       "outcome": "Identified $12M in potential savings over 5 years"
     },
     {
@@ -27,7 +41,12 @@
       "start_date": "2025-06-16",
       "end_date": "2025-07-31",
       "duration": "46 days",
-      "activities": ["Select 3 pilot properties", "Implement initial measures", "Monitor results", "Gather stakeholder feedback"],
+      "activities": [
+        "Select 3 pilot properties",
+        "Implement initial measures",
+        "Monitor results",
+        "Gather stakeholder feedback"
+      ],
       "outcome": "Pilot showed 22% energy reduction and positive guest feedback"
     },
     {
@@ -35,7 +54,12 @@
       "start_date": "2025-08-01",
       "end_date": "2025-08-20",
       "duration": "20 days",
-      "activities": ["Review pilot results", "Scale planning", "Budget finalization", "Executive approval"],
+      "activities": [
+        "Review pilot results",
+        "Scale planning",
+        "Budget finalization",
+        "Executive approval"
+      ],
       "outcome": "Approved for full implementation"
     }
   ],
@@ -44,14 +68,30 @@
     "projected_value": "$15,600,000 in combined savings and revenue uplift over 5 years",
     "actual_value": "$3,200,000 realized in Year 1 (projected)",
     "roi_timeline": "Expected payback in 28 months",
-    "risk_factors": ["Higher initial investment costs", "Property manager training requirements", "Guest comfort concerns with some measures", "Regulatory changes in sustainability standards"]
+    "risk_factors": [
+      "Higher initial investment costs",
+      "Property manager training requirements",
+      "Guest comfort concerns with some measures",
+      "Regulatory changes in sustainability standards"
+    ]
   },
-  "decision_criteria": ["Environmental impact alignment with 2030 goals", "Financial ROI exceeding 120%", "Guest satisfaction maintained or improved", "Operational feasibility across diverse properties", "Competitive advantage in luxury sustainable market"],
+  "decision_criteria": [
+    "Environmental impact alignment with 2030 goals",
+    "Financial ROI exceeding 120%",
+    "Guest satisfaction maintained or improved",
+    "Operational feasibility across diverse properties",
+    "Competitive advantage in luxury sustainable market"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2027-08-31",
-    "milestones": ["Q3 2025: Energy systems upgrade (8 properties)", "Q1 2026: Water conservation (all properties)", "Q3 2026: Waste reduction program launch", "Q2 2027: Full certification and optimization"]
+    "milestones": [
+      "Q3 2025: Energy systems upgrade (8 properties)",
+      "Q1 2026: Water conservation (all properties)",
+      "Q3 2026: Waste reduction program launch",
+      "Q2 2027: Full certification and optimization"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Energy systems installed in 8 properties, 18% consumption reduction achieved, guest feedback positive",

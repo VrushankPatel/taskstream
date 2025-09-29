@@ -4,8 +4,17 @@
   "context": "Asia hospitality group with 50 properties and ¥2B annual revenue responding to increasing guest demand for sustainable practices",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
-    "influencers": ["Regional General Managers", "Procurement Director", "Guest Experience Director", "Environmental Consultant"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Regional General Managers",
+      "Procurement Director",
+      "Guest Experience Director",
+      "Environmental Consultant"
+    ]
   },
   "request": {
     "amount": "¥800,000,000",
@@ -19,7 +28,12 @@
       "start_date": "2024-09-01",
       "end_date": "2024-10-31",
       "duration": "61 days",
-      "activities": ["Energy audit across properties", "Supplier sustainability assessment", "Guest preference research", "Cost-benefit analysis"],
+      "activities": [
+        "Energy audit across properties",
+        "Supplier sustainability assessment",
+        "Guest preference research",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Identified ¥1.2B in potential savings over 5 years"
     },
     {
@@ -27,7 +41,12 @@
       "start_date": "2024-11-01",
       "end_date": "2024-12-15",
       "duration": "45 days",
-      "activities": ["Property manager workshops", "Supplier negotiations", "Guest feedback integration", "Regulatory compliance review"],
+      "activities": [
+        "Property manager workshops",
+        "Supplier negotiations",
+        "Guest feedback integration",
+        "Regulatory compliance review"
+      ],
       "outcome": "Strong support from operations team, concerns about implementation timeline"
     },
     {
@@ -35,7 +54,12 @@
       "start_date": "2024-12-16",
       "end_date": "2025-02-20",
       "duration": "67 days",
-      "activities": ["Executive committee review", "Board presentation", "Detailed implementation planning", "Risk mitigation strategy"],
+      "activities": [
+        "Executive committee review",
+        "Board presentation",
+        "Detailed implementation planning",
+        "Risk mitigation strategy"
+      ],
       "outcome": "Approved with phased rollout"
     }
   ],
@@ -44,14 +68,30 @@
     "projected_value": "¥2,100,000,000 in cost savings and revenue increase over 5 years",
     "actual_value": "¥2,800,000,000 achieved (133% of projection) with additional brand value benefits",
     "roi_timeline": "36 months",
-    "risk_factors": ["Higher initial investment costs", "Supplier availability challenges", "Guest education requirements", "Regulatory changes in sustainability standards"]
+    "risk_factors": [
+      "Higher initial investment costs",
+      "Supplier availability challenges",
+      "Guest education requirements",
+      "Regulatory changes in sustainability standards"
+    ]
   },
-  "decision_criteria": ["Net present value > ¥500M", "Payback period < 4 years", "Measurable environmental impact", "Guest satisfaction improvement", "Operational feasibility"],
+  "decision_criteria": [
+    "Net present value > ¥500M",
+    "Payback period < 4 years",
+    "Measurable environmental impact",
+    "Guest satisfaction improvement",
+    "Operational feasibility"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-04-01",
     "completion_date": "2027-03-31",
-    "milestones": ["Phase 1: Energy Systems Upgrade - 2025-09-30", "Phase 2: Waste Management Implementation - 2025-12-31", "Phase 3: Sustainable Sourcing - 2026-06-30", "Phase 4: Guest Education Program - 2026-12-31"]
+    "milestones": [
+      "Phase 1: Energy Systems Upgrade - 2025-09-30",
+      "Phase 2: Waste Management Implementation - 2025-12-31",
+      "Phase 3: Sustainable Sourcing - 2026-06-30",
+      "Phase 4: Guest Education Program - 2026-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Phase 1 completed, 18% energy reduction achieved",

@@ -8,12 +8,16 @@ workflow:
   - Customer Service Rep
   trigger: Customer requests loyalty program membership
   temporal_data:
-    first_implemented: "2021-08-20"
-    last_updated: "2024-10-15"
-    typical_cycle_time: "7 minutes per enrollment"
+    first_implemented: '2021-08-20'
+    last_updated: '2024-10-15'
+    typical_cycle_time: 7 minutes per enrollment
     average_annual_executions: 12500
-    seasonal_variations: ["Holiday shopping +45% enrollments", "Back-to-school +30% signups", "Post-holiday -25% activity"]
-    historical_evolution: "Mobile app integration in 2023 reduced enrollment time from 12 to 7 minutes while improving completion rate from 87% to 95%"
+    seasonal_variations:
+    - Holiday shopping +45% enrollments
+    - Back-to-school +30% signups
+    - Post-holiday -25% activity
+    historical_evolution: Mobile app integration in 2023 reduced enrollment time from
+      12 to 7 minutes while improving completion rate from 87% to 95%
   steps:
   - step: 1
     actor: Store Associate
@@ -53,6 +57,10 @@ workflow:
   - 'Customer satisfaction score: 4.2/5'
   - 'Retention increase: 12% within 6 months'
   performance_history:
-    success_rate_trend: "87% (2022) → 91% (2023) → 95% (2024) → 97% (2025 target)"
-    cost_trend: "$8.50 (2022) → $6.20 (2023) → $4.90 (2024) → $4.20 (2025 target)"
-    efficiency_improvements: ["Mobile app reduced processing time by 42%", "Automated verification improved accuracy by 38%", "Digital onboarding eliminated 85% of paper forms", "Real-time validation reduced errors by 55%"]
+    success_rate_trend: 87% (2022) → 91% (2023) → 95% (2024) → 97% (2025 target)
+    cost_trend: $8.50 (2022) → $6.20 (2023) → $4.90 (2024) → $4.20 (2025 target)
+    efficiency_improvements:
+    - Mobile app reduced processing time by 42%
+    - Automated verification improved accuracy by 38%
+    - Digital onboarding eliminated 85% of paper forms
+    - Real-time validation reduced errors by 55%

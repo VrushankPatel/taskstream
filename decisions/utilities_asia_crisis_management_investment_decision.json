@@ -135,27 +135,47 @@
     {
       "criterion": "Financial Impact",
       "weight": 0.3,
-      "metrics": ["ROI", "Cost savings", "Budget alignment"]
+      "metrics": [
+        "ROI",
+        "Cost savings",
+        "Budget alignment"
+      ]
     },
     {
       "criterion": "Operational Effectiveness",
       "weight": 0.25,
-      "metrics": ["Outage reduction", "Response time improvement", "System reliability"]
+      "metrics": [
+        "Outage reduction",
+        "Response time improvement",
+        "System reliability"
+      ]
     },
     {
       "criterion": "Regulatory Compliance",
       "weight": 0.2,
-      "metrics": ["Compliance coverage", "Audit readiness", "Reporting capabilities"]
+      "metrics": [
+        "Compliance coverage",
+        "Audit readiness",
+        "Reporting capabilities"
+      ]
     },
     {
       "criterion": "Implementation Risk",
       "weight": 0.15,
-      "metrics": ["Technical complexity", "Timeline risk", "Resource requirements"]
+      "metrics": [
+        "Technical complexity",
+        "Timeline risk",
+        "Resource requirements"
+      ]
     },
     {
       "criterion": "Stakeholder Impact",
       "weight": 0.1,
-      "metrics": ["Customer satisfaction", "Employee safety", "Community relations"]
+      "metrics": [
+        "Customer satisfaction",
+        "Employee safety",
+        "Community relations"
+      ]
     }
   ],
   "recommendation": {

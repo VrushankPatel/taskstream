@@ -26,10 +26,10 @@ We have budgeted €2.3M for these upgrades, with expected completion by May 15t
 
 Please review the attached detailed implementation plan and let me know if you need any additional information.
 
-Best regards,  
-Dr. Elena Rodriguez  
-Chief Safety Officer  
-European Aerospace Operations  
+Best regards,
+Dr. Elena Rodriguez
+Chief Safety Officer
+European Aerospace Operations
 
 ---
 
@@ -44,7 +44,7 @@ Thanks for the comprehensive update. The timeline looks aggressive but achievabl
 
 Can we schedule a follow-up meeting with the training department to discuss the competency assessment changes? Also, have we considered the impact on our delivery schedules during Phase 2 testing?
 
-Marcus  
+Marcus
 
 ---
 
@@ -61,8 +61,8 @@ Regarding delivery schedules, we've built in a 20% capacity buffer during Phase 
 
 Let me know if you'd like to add any other topics to the agenda.
 
-Best,  
-Elena  
+Best,
+Elena
 
 ---
 
@@ -75,7 +75,7 @@ Elena,
 
 The €2.3M budget allocation has been approved. Can you provide a breakdown of the major cost components? Also, what contingency plans do we have if the certification process encounters delays?
 
-Sofia  
+Sofia
 
 ---
 
@@ -97,5 +97,5 @@ We have a 15% contingency budget and have identified alternative certification p
 
 I'll send the detailed budget spreadsheet shortly.
 
-Best regards,  
+Best regards,
 Elena

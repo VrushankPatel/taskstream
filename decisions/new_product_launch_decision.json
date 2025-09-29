@@ -4,8 +4,16 @@
   "context": "Enterprise software company considering launch of AI-powered analytics platform after successful beta with 50 enterprise clients",
   "stakeholders": {
     "requester": "Chief Product Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["VP Engineering", "Chief Marketing Officer", "Enterprise Sales Director", "Customer Success VP"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "Chief Marketing Officer",
+      "Enterprise Sales Director",
+      "Customer Success VP"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-10-01",
       "end_date": "2025-10-15",
       "duration": "14 days",
-      "activities": ["Competitive analysis", "Market sizing", "Customer validation"],
+      "activities": [
+        "Competitive analysis",
+        "Market sizing",
+        "Customer validation"
+      ],
       "outcome": "Strong market opportunity confirmed"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-10-16",
       "end_date": "2025-11-05",
       "duration": "20 days",
-      "activities": ["Revenue projections", "Cost analysis", "Risk modeling"],
+      "activities": [
+        "Revenue projections",
+        "Cost analysis",
+        "Risk modeling"
+      ],
       "outcome": "3-year NPV of $25M, payback in 18 months"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-11-06",
       "end_date": "2025-11-20",
       "duration": "14 days",
-      "activities": ["Board presentation", "Strategic alignment", "Final risk review"],
+      "activities": [
+        "Board presentation",
+        "Strategic alignment",
+        "Final risk review"
+      ],
       "outcome": "Approved with go-to-market adjustments"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$35,000,000",
     "actual_value": "$32,000,000 (projected)",
     "roi_timeline": "24 months",
-    "risk_factors": ["Technology execution", "Market adoption", "Competitive response"]
+    "risk_factors": [
+      "Technology execution",
+      "Market adoption",
+      "Competitive response"
+    ]
   },
-  "decision_criteria": ["Market opportunity", "Financial returns", "Strategic fit", "Execution risk", "Competitive advantage"],
+  "decision_criteria": [
+    "Market opportunity",
+    "Financial returns",
+    "Strategic fit",
+    "Execution risk",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2026-01-01",
     "completion_date": "2026-06-30",
-    "milestones": ["GA launch: 2026-03-15", "First 100 customers: 2026-05-01", "Full market availability: 2026-06-30"]
+    "milestones": [
+      "GA launch: 2026-03-15",
+      "First 100 customers: 2026-05-01",
+      "Full market availability: 2026-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "50 customers acquired, $8M revenue, product satisfaction 4.6/5",

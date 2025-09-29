@@ -1,68 +1,151 @@
 workflow:
-  id: "mining_safety_audit_001"
-  title: "Comprehensive Safety Compliance Audit Process"
-  department: "Health, Safety & Environment"
-  complexity: "complex"
-  participants: ["Safety Audit Manager", "Site Safety Officer", "Environmental Compliance Specialist", "Operations Supervisor", "External Auditor"]
-  trigger: "Scheduled quarterly audit or incident-triggered compliance review"
+  id: mining_safety_audit_001
+  title: Comprehensive Safety Compliance Audit Process
+  department: Health, Safety & Environment
+  complexity: complex
+  participants:
+  - Safety Audit Manager
+  - Site Safety Officer
+  - Environmental Compliance Specialist
+  - Operations Supervisor
+  - External Auditor
+  trigger: Scheduled quarterly audit or incident-triggered compliance review
   temporal_data:
-    first_implemented: "2020-09-12"
-    last_updated: "2024-11-10"
-    typical_cycle_time: "12-18 days"
+    first_implemented: '2020-09-12'
+    last_updated: '2024-11-10'
+    typical_cycle_time: 12-18 days
     average_annual_executions: 48
-    seasonal_variations: ["Q1 intensive audits post-holiday season", "Q3 pre-winter preparation audits"]
-    historical_evolution: "Enhanced from basic safety checks to comprehensive risk assessment including environmental and regulatory compliance integration"
+    seasonal_variations:
+    - Q1 intensive audits post-holiday season
+    - Q3 pre-winter preparation audits
+    historical_evolution: Enhanced from basic safety checks to comprehensive risk
+      assessment including environmental and regulatory compliance integration
   steps:
-    - step: 1
-      actor: "Safety Audit Manager"
-      action: "Plan audit scope, schedule resources, and prepare documentation"
-      tools: ["Audit Management System", "Risk Assessment Matrix", "Regulatory Database", "Resource Planning Tool"]
-      duration: "2-3 days"
-      outputs: ["Audit Plan", "Resource Schedule", "Checklist Customization", "Stakeholder Notification"]
-      decision_points: ["Audit scope determination", "Risk area prioritization", "Resource allocation optimization"]
-    - step: 2
-      actor: "Site Safety Officer"
-      action: "Conduct pre-audit site preparation and documentation review"
-      tools: ["Safety Management System", "Document Repository", "Training Records Database", "Equipment Inspection Logs"]
-      duration: "1-2 days"
-      outputs: ["Site Readiness Report", "Documentation Package", "Initial Risk Assessment", "Resource Coordination"]
-      decision_points: ["Site readiness verification", "Documentation completeness", "Personnel availability confirmation"]
-    - step: 3
-      actor: "External Auditor"
-      action: "Perform comprehensive on-site safety and compliance inspection"
-      tools: ["Digital Inspection Platform", "Measurement Equipment", "Interview Templates", "Photo Documentation System"]
-      duration: "3-5 days"
-      outputs: ["Inspection Findings", "Risk Observations", "Evidence Documentation", "Preliminary Assessment"]
-      decision_points: ["Severity classification", "Immediate action requirements", "Deep-dive investigation needs"]
-    - step: 4
-      actor: "Environmental Compliance Specialist"
-      action: "Assess environmental compliance and regulatory adherence"
-      tools: ["Environmental Monitoring System", "Regulatory Tracking Database", "Permit Management System", "Compliance Dashboard"]
-      duration: "2-3 days"
-      outputs: ["Environmental Assessment", "Regulatory Compliance Report", "Permit Status Review", "Environmental Risk Analysis"]
-      decision_points: ["Compliance gap identification", "Environmental impact assessment", "Regulatory reporting requirements"]
-    - step: 5
-      actor: "Operations Supervisor"
-      action: "Review operational safety procedures and performance metrics"
-      tools: ["Operations Dashboard", "Performance Analytics", "Incident Database", "Training Management System"]
-      duration: "1-2 days"
-      outputs: ["Operational Review", "Performance Analysis", "Training Gap Assessment", "Process Improvement Recommendations"]
-      decision_points: ["Performance standard compliance", "Training adequacy assessment", "Process effectiveness evaluation"]
-    - step: 6
-      actor: "Safety Audit Manager"
-      action: "Compile comprehensive audit report and develop corrective action plan"
-      tools: ["Report Generation System", "Action Planning Tool", "Timeline Management", "Stakeholder Communication Platform"]
-      duration: "3-4 days"
-      outputs: ["Comprehensive Audit Report", "Corrective Action Plan", "Implementation Timeline", "Follow-up Schedule"]
-      decision_points: ["Priority ranking of findings", "Resource allocation for corrections", "Timeline feasibility assessment"]
-  success_criteria: "Audit completed within schedule, all critical findings addressed, regulatory compliance maintained"
-  failure_modes: ["Critical safety hazards discovered requiring immediate shutdown", "Regulatory non-compliance requiring external reporting", "Resource constraints delaying corrective actions", "External auditor availability issues", "Weather conditions preventing complete site inspection"]
+  - step: 1
+    actor: Safety Audit Manager
+    action: Plan audit scope, schedule resources, and prepare documentation
+    tools:
+    - Audit Management System
+    - Risk Assessment Matrix
+    - Regulatory Database
+    - Resource Planning Tool
+    duration: 2-3 days
+    outputs:
+    - Audit Plan
+    - Resource Schedule
+    - Checklist Customization
+    - Stakeholder Notification
+    decision_points:
+    - Audit scope determination
+    - Risk area prioritization
+    - Resource allocation optimization
+  - step: 2
+    actor: Site Safety Officer
+    action: Conduct pre-audit site preparation and documentation review
+    tools:
+    - Safety Management System
+    - Document Repository
+    - Training Records Database
+    - Equipment Inspection Logs
+    duration: 1-2 days
+    outputs:
+    - Site Readiness Report
+    - Documentation Package
+    - Initial Risk Assessment
+    - Resource Coordination
+    decision_points:
+    - Site readiness verification
+    - Documentation completeness
+    - Personnel availability confirmation
+  - step: 3
+    actor: External Auditor
+    action: Perform comprehensive on-site safety and compliance inspection
+    tools:
+    - Digital Inspection Platform
+    - Measurement Equipment
+    - Interview Templates
+    - Photo Documentation System
+    duration: 3-5 days
+    outputs:
+    - Inspection Findings
+    - Risk Observations
+    - Evidence Documentation
+    - Preliminary Assessment
+    decision_points:
+    - Severity classification
+    - Immediate action requirements
+    - Deep-dive investigation needs
+  - step: 4
+    actor: Environmental Compliance Specialist
+    action: Assess environmental compliance and regulatory adherence
+    tools:
+    - Environmental Monitoring System
+    - Regulatory Tracking Database
+    - Permit Management System
+    - Compliance Dashboard
+    duration: 2-3 days
+    outputs:
+    - Environmental Assessment
+    - Regulatory Compliance Report
+    - Permit Status Review
+    - Environmental Risk Analysis
+    decision_points:
+    - Compliance gap identification
+    - Environmental impact assessment
+    - Regulatory reporting requirements
+  - step: 5
+    actor: Operations Supervisor
+    action: Review operational safety procedures and performance metrics
+    tools:
+    - Operations Dashboard
+    - Performance Analytics
+    - Incident Database
+    - Training Management System
+    duration: 1-2 days
+    outputs:
+    - Operational Review
+    - Performance Analysis
+    - Training Gap Assessment
+    - Process Improvement Recommendations
+    decision_points:
+    - Performance standard compliance
+    - Training adequacy assessment
+    - Process effectiveness evaluation
+  - step: 6
+    actor: Safety Audit Manager
+    action: Compile comprehensive audit report and develop corrective action plan
+    tools:
+    - Report Generation System
+    - Action Planning Tool
+    - Timeline Management
+    - Stakeholder Communication Platform
+    duration: 3-4 days
+    outputs:
+    - Comprehensive Audit Report
+    - Corrective Action Plan
+    - Implementation Timeline
+    - Follow-up Schedule
+    decision_points:
+    - Priority ranking of findings
+    - Resource allocation for corrections
+    - Timeline feasibility assessment
+  success_criteria: Audit completed within schedule, all critical findings addressed,
+    regulatory compliance maintained
+  failure_modes:
+  - Critical safety hazards discovered requiring immediate shutdown
+  - Regulatory non-compliance requiring external reporting
+  - Resource constraints delaying corrective actions
+  - External auditor availability issues
+  - Weather conditions preventing complete site inspection
   metrics:
-    - "Audit Completion Time: 14.5 days average (Target: <16 days)"
-    - "Critical Findings Resolution: 98% within 30 days (Target: 100%)"
-    - "Regulatory Compliance Score: 96.8% (Target: >95%)"
-    - "Safety Performance Improvement: 15% YoY (Target: 10%)"
+  - 'Audit Completion Time: 14.5 days average (Target: <16 days)'
+  - 'Critical Findings Resolution: 98% within 30 days (Target: 100%)'
+  - 'Regulatory Compliance Score: 96.8% (Target: >95%)'
+  - 'Safety Performance Improvement: 15% YoY (Target: 10%)'
   performance_history:
-    success_rate_trend: "91% (2023) → 94% (2024) → 97% (2025 target)"
-    cost_trend: "$125K avg audit cost (2023) → $108K (2024) → $95K (2025 target)"
-    efficiency_improvements: ["Digital inspection tools reduced documentation time by 45%", "Predictive analytics improved risk identification by 30%", "Integrated compliance tracking increased efficiency by 25%"]
+    success_rate_trend: 91% (2023) → 94% (2024) → 97% (2025 target)
+    cost_trend: $125K avg audit cost (2023) → $108K (2024) → $95K (2025 target)
+    efficiency_improvements:
+    - Digital inspection tools reduced documentation time by 45%
+    - Predictive analytics improved risk identification by 30%
+    - Integrated compliance tracking increased efficiency by 25%

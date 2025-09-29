@@ -1,55 +1,96 @@
 workflow:
-  id: "workflow_retail_omnichannel_journey_optimization"
-  title: "Retail Omnichannel Journey Optimization Workflow"
-  department: "Customer Experience"
-  complexity: "complex"
-  participants: ["Customer Experience Manager", "Digital Marketing Lead", "Store Operations Manager", "Data Analytics Specialist", "IT Support"]
-  trigger: "Quarterly performance review identifies optimization opportunities in customer journey"
+  id: workflow_retail_omnichannel_journey_optimization
+  title: Retail Omnichannel Journey Optimization Workflow
+  department: Customer Experience
+  complexity: complex
+  participants:
+  - Customer Experience Manager
+  - Digital Marketing Lead
+  - Store Operations Manager
+  - Data Analytics Specialist
+  - IT Support
+  trigger: Quarterly performance review identifies optimization opportunities in customer
+    journey
   temporal_data:
-    first_implemented: "2023-03-15"
-    last_updated: "2025-09-15"
-    typical_cycle_time: "90 days"
+    first_implemented: '2023-03-15'
+    last_updated: '2025-09-15'
+    typical_cycle_time: 90 days
     average_annual_executions: 4
-    seasonal_variations: ["Q4 holiday peak (40% increase)", "Q1 post-holiday recovery (20% decrease)", "Q2/Q3 steady state"]
-    historical_evolution: "Evolved from single-channel retail to integrated omnichannel experience, incorporating mobile apps, social commerce, and in-store pickup"
+    seasonal_variations:
+    - Q4 holiday peak (40% increase)
+    - Q1 post-holiday recovery (20% decrease)
+    - Q2/Q3 steady state
+    historical_evolution: Evolved from single-channel retail to integrated omnichannel
+      experience, incorporating mobile apps, social commerce, and in-store pickup
   steps:
-    - step: 1
-      actor: "Data Analytics Specialist"
-      action: "Analyze customer journey data and identify bottlenecks"
-      tools: ["Customer analytics platform", "Journey mapping software", "Heatmap tools"]
-      duration: "2 weeks"
-      outputs: ["Journey analysis report", "Bottleneck identification"]
-    - step: 2
-      actor: "Customer Experience Manager"
-      action: "Design optimized journey flows and touchpoints"
-      tools: ["UX design tools", "Customer feedback system", "Persona development"]
-      duration: "3 weeks"
-      outputs: ["Optimized journey maps", "Touchpoint redesigns"]
-    - step: 3
-      actor: "Digital Marketing Lead"
-      action: "Implement personalized marketing across channels"
-      tools: ["Marketing automation platform", "AI personalization engine", "Cross-channel integration"]
-      duration: "2 weeks"
-      outputs: ["Personalization campaigns", "Channel integration updates"]
-    - step: 4
-      actor: "Store Operations Manager"
-      action: "Enhance in-store and pickup experiences"
-      tools: ["Store management system", "Mobile ordering app", "Staff training platform"]
-      duration: "2 weeks"
-      outputs: ["Store experience improvements", "Pickup process optimization"]
-    - step: 5
-      actor: "IT Support"
-      action: "Ensure seamless technical integration"
-      tools: ["API management", "Data synchronization tools", "Performance monitoring"]
-      duration: "1 week"
-      outputs: ["Integration testing reports", "Performance benchmarks"]
-  success_criteria: "15% improvement in conversion rate, 10% increase in customer satisfaction"
-  failure_modes: ["Technical integration issues", "Poor data quality", "Resistance to change"]
+  - step: 1
+    actor: Data Analytics Specialist
+    action: Analyze customer journey data and identify bottlenecks
+    tools:
+    - Customer analytics platform
+    - Journey mapping software
+    - Heatmap tools
+    duration: 2 weeks
+    outputs:
+    - Journey analysis report
+    - Bottleneck identification
+  - step: 2
+    actor: Customer Experience Manager
+    action: Design optimized journey flows and touchpoints
+    tools:
+    - UX design tools
+    - Customer feedback system
+    - Persona development
+    duration: 3 weeks
+    outputs:
+    - Optimized journey maps
+    - Touchpoint redesigns
+  - step: 3
+    actor: Digital Marketing Lead
+    action: Implement personalized marketing across channels
+    tools:
+    - Marketing automation platform
+    - AI personalization engine
+    - Cross-channel integration
+    duration: 2 weeks
+    outputs:
+    - Personalization campaigns
+    - Channel integration updates
+  - step: 4
+    actor: Store Operations Manager
+    action: Enhance in-store and pickup experiences
+    tools:
+    - Store management system
+    - Mobile ordering app
+    - Staff training platform
+    duration: 2 weeks
+    outputs:
+    - Store experience improvements
+    - Pickup process optimization
+  - step: 5
+    actor: IT Support
+    action: Ensure seamless technical integration
+    tools:
+    - API management
+    - Data synchronization tools
+    - Performance monitoring
+    duration: 1 week
+    outputs:
+    - Integration testing reports
+    - Performance benchmarks
+  success_criteria: 15% improvement in conversion rate, 10% increase in customer satisfaction
+  failure_modes:
+  - Technical integration issues
+  - Poor data quality
+  - Resistance to change
   metrics:
-    - "Conversion rate improvement: 15% target"
-    - "Customer satisfaction increase: 10%"
-    - "Journey completion rate: 90% target"
+  - 'Conversion rate improvement: 15% target'
+  - 'Customer satisfaction increase: 10%'
+  - 'Journey completion rate: 90% target'
   performance_history:
-    success_rate_trend: "75% (2023) → 80% (2024) → 85% (2025)"
-    cost_trend: "$2.5M (2023) → $2.8M (2024) → $3.2M (2025)"
-    efficiency_improvements: ["AI-driven insights reduced analysis time by 50%", "Automated personalization increased engagement by 25%", "Unified data platform improved decision making by 35%"]
+    success_rate_trend: 75% (2023) → 80% (2024) → 85% (2025)
+    cost_trend: $2.5M (2023) → $2.8M (2024) → $3.2M (2025)
+    efficiency_improvements:
+    - AI-driven insights reduced analysis time by 50%
+    - Automated personalization increased engagement by 25%
+    - Unified data platform improved decision making by 35%

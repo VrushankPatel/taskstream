@@ -1,49 +1,72 @@
 workflow:
-  id: "workflow_hospitality_feedback_007"
-  title: "Hospitality Guest Feedback Collection and Analysis"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Guest Services Agent", "Feedback Manager", "Operations Director"]
-  trigger: "Guest completes stay and receives feedback request"
+  id: workflow_hospitality_feedback_007
+  title: Hospitality Guest Feedback Collection and Analysis
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Guest Services Agent
+  - Feedback Manager
+  - Operations Director
+  trigger: Guest completes stay and receives feedback request
   temporal_data:
-    first_implemented: "2022-09-01"
-    last_updated: "2024-07-25"
-    typical_cycle_time: "48 hours"
+    first_implemented: '2022-09-01'
+    last_updated: '2024-07-25'
+    typical_cycle_time: 48 hours
     average_annual_executions: 120000
-    seasonal_variations: ["Peak season response rate 15% higher", "Off-season detailed feedback increases"]
-    historical_evolution: "Email surveys evolved to multi-channel collection with AI sentiment analysis"
+    seasonal_variations:
+    - Peak season response rate 15% higher
+    - Off-season detailed feedback increases
+    historical_evolution: Email surveys evolved to multi-channel collection with AI
+      sentiment analysis
   steps:
-    - step: 1
-      actor: "Automated System"
-      action: "Send feedback request via guest's preferred channel"
-      tools: ["Feedback management platform", "Guest database"]
-      duration: "Instant"
-      outputs: ["Feedback request sent"]
-    - step: 2
-      actor: "Guest Services Agent"
-      action: "Monitor responses and follow up on urgent issues"
-      tools: ["Feedback dashboard", "Communication tools"]
-      duration: "2 hours daily"
-      outputs: ["Urgent issues addressed"]
-    - step: 3
-      actor: "Feedback Manager"
-      action: "Analyze feedback trends and generate improvement recommendations"
-      tools: ["Analytics platform", "Reporting system"]
-      duration: "4 hours weekly"
-      outputs: ["Feedback report", "Action recommendations"]
-    - step: 4
-      actor: "Operations Director"
-      action: "Review recommendations and implement approved changes"
-      tools: ["Operations management system"]
-      duration: "2 hours monthly"
-      outputs: ["Implemented improvements"]
-  success_criteria: "Response rate above 35%, urgent issues resolved within 24 hours"
-  failure_modes: ["Low response rates", "Delayed urgent responses", "Ineffective improvements"]
+  - step: 1
+    actor: Automated System
+    action: Send feedback request via guest's preferred channel
+    tools:
+    - Feedback management platform
+    - Guest database
+    duration: Instant
+    outputs:
+    - Feedback request sent
+  - step: 2
+    actor: Guest Services Agent
+    action: Monitor responses and follow up on urgent issues
+    tools:
+    - Feedback dashboard
+    - Communication tools
+    duration: 2 hours daily
+    outputs:
+    - Urgent issues addressed
+  - step: 3
+    actor: Feedback Manager
+    action: Analyze feedback trends and generate improvement recommendations
+    tools:
+    - Analytics platform
+    - Reporting system
+    duration: 4 hours weekly
+    outputs:
+    - Feedback report
+    - Action recommendations
+  - step: 4
+    actor: Operations Director
+    action: Review recommendations and implement approved changes
+    tools:
+    - Operations management system
+    duration: 2 hours monthly
+    outputs:
+    - Implemented improvements
+  success_criteria: Response rate above 35%, urgent issues resolved within 24 hours
+  failure_modes:
+  - Low response rates
+  - Delayed urgent responses
+  - Ineffective improvements
   metrics:
-    - "Response rate: 38%"
-    - "Urgent resolution time: 18 hours"
-    - "Improvement implementation rate: 75%"
+  - 'Response rate: 38%'
+  - 'Urgent resolution time: 18 hours'
+  - 'Improvement implementation rate: 75%'
   performance_history:
-    success_rate_trend: "78% (2023) → 85% (2024) → 90% (2025)"
-    cost_trend: "$45 (2023) → $42 (2024) → $38 (2025)"
-    efficiency_improvements: ["Multi-channel collection increased responses by 40%", "AI analysis improved insight accuracy by 55%"]
+    success_rate_trend: 78% (2023) → 85% (2024) → 90% (2025)
+    cost_trend: $45 (2023) → $42 (2024) → $38 (2025)
+    efficiency_improvements:
+    - Multi-channel collection increased responses by 40%
+    - AI analysis improved insight accuracy by 55%

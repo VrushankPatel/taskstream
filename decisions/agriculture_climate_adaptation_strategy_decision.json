@@ -3,8 +3,16 @@
   "context": "Agricultural cooperative facing increased climate variability and drought conditions",
   "stakeholders": {
     "requester": "Farm Operations Director",
-    "approvers": ["Board Chairman", "CEO", "Chief Agronomist"],
-    "influencers": ["Member Farmers", "Environmental Consultant", "Government Agriculture Advisor"]
+    "approvers": [
+      "Board Chairman",
+      "CEO",
+      "Chief Agronomist"
+    ],
+    "influencers": [
+      "Member Farmers",
+      "Environmental Consultant",
+      "Government Agriculture Advisor"
+    ]
   },
   "request": {
     "amount": "$12 million",
@@ -16,28 +24,49 @@
     {
       "stage": "climate_risk_assessment",
       "duration": "2 months",
-      "activities": ["Historical weather analysis", "Crop vulnerability studies", "Climate model projections"],
+      "activities": [
+        "Historical weather analysis",
+        "Crop vulnerability studies",
+        "Climate model projections"
+      ],
       "outcome": "Identified drought and flood risks affecting 70% of acreage"
     },
     {
       "stage": "solution_evaluation",
       "duration": "3 months",
-      "activities": ["Technology vendor assessment", "Pilot program design", "Cost-benefit modeling"],
+      "activities": [
+        "Technology vendor assessment",
+        "Pilot program design",
+        "Cost-benefit modeling"
+      ],
       "outcome": "Selected drought-resistant seed varieties and precision irrigation systems"
     },
     {
       "stage": "member_engagement",
       "duration": "1 month",
-      "activities": ["Farmer education sessions", "Pilot program recruitment", "Feedback collection"],
+      "activities": [
+        "Farmer education sessions",
+        "Pilot program recruitment",
+        "Feedback collection"
+      ],
       "outcome": "80% member participation commitment secured"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% improvement in drought resilience, stable yields despite climate variability",
     "projected_value": "$5 million annual revenue protection",
-    "risk_factors": ["Adoption resistance", "Technology learning curve", "Initial investment costs"]
+    "risk_factors": [
+      "Adoption resistance",
+      "Technology learning curve",
+      "Initial investment costs"
+    ]
   },
-  "decision_criteria": ["Climate risk mitigation", "Economic viability", "Member adoption rate", "Sustainability impact"],
+  "decision_criteria": [
+    "Climate risk mitigation",
+    "Economic viability",
+    "Member adoption rate",
+    "Sustainability impact"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Member education and engagement critical for successful agricultural technology adoption, pilot programs demonstrate value before full implementation"
 }

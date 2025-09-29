@@ -4,8 +4,16 @@
   "context": "Utility company evaluating major investment in renewable energy grid integration to meet carbon reduction targets and improve grid reliability",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Chief Technology Officer", "Head of Renewable Energy", "Regulatory Affairs Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Head of Renewable Energy",
+      "Regulatory Affairs Director"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-08-01",
       "end_date": "2024-09-30",
       "duration": "60 days",
-      "activities": ["Grid capacity analysis", "Technology vendor evaluation", "Regulatory impact assessment"],
+      "activities": [
+        "Grid capacity analysis",
+        "Technology vendor evaluation",
+        "Regulatory impact assessment"
+      ],
       "outcome": "Confirmed technical feasibility and regulatory alignment"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2024-10-01",
       "end_date": "2024-11-15",
       "duration": "45 days",
-      "activities": ["Cost-benefit analysis", "Funding strategy development", "Risk modeling"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Funding strategy development",
+        "Risk modeling"
+      ],
       "outcome": "Strong business case with government incentives and long-term savings"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2024-11-16",
       "end_date": "2024-12-05",
       "duration": "20 days",
-      "activities": ["Board presentation", "Stakeholder consultations", "Final approval process"],
+      "activities": [
+        "Board presentation",
+        "Stakeholder consultations",
+        "Final approval process"
+      ],
       "outcome": "Approved with performance-based incentives and monitoring requirements"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$120,000,000 in long-term operational savings and incentive revenue",
     "actual_value": "$95,000,000 realized through energy efficiency and incentives (79% of 5-year projection)",
     "roi_timeline": "Expected payback in 8 years with incentives",
-    "risk_factors": ["Technology integration challenges", "Regulatory changes", "Higher-than-expected implementation costs"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory changes",
+      "Higher-than-expected implementation costs"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance", "Grid reliability improvement", "Financial viability", "Technology maturity", "Environmental impact"],
+  "decision_criteria": [
+    "Regulatory compliance",
+    "Grid reliability improvement",
+    "Financial viability",
+    "Technology maturity",
+    "Environmental impact"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-01-01",
     "completion_date": "2028-12-31",
-    "milestones": ["Phase 1: Pilot renewable integration (2025)", "Phase 2: Full grid upgrade (2026-2027)", "Phase 3: Optimization and monitoring (2028)"]
+    "milestones": [
+      "Phase 1: Pilot renewable integration (2025)",
+      "Phase 2: Full grid upgrade (2026-2027)",
+      "Phase 3: Optimization and monitoring (2028)"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot systems operational, 15% renewable integration achieved, initial performance metrics positive",

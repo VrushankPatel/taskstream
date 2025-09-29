@@ -1,10 +1,10 @@
 # EU Utilities Grid Failure Crisis Response - Email Thread
 
-**From:** crisis.management@eutilities.com  
-**To:** executive.team@eutilities.com, operations.command@eutilities.com, communications@eutilities.com  
-**Subject:** URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 14:30 CET  
-**Priority:** High  
+**From:** crisis.management@eutilities.com
+**To:** executive.team@eutilities.com, operations.command@eutilities.com, communications@eutilities.com
+**Subject:** URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 14:30 CET
+**Priority:** High
 
 Team,
 
@@ -30,17 +30,17 @@ A major grid failure has occurred in our Northern Region affecting approximately
 
 Please confirm your team's readiness and any additional resource requirements.
 
-**Crisis Coordinator**  
-Dr. Elena Rodriguez  
-VP Emergency Management  
-EU Utilities Corporation  
+**Crisis Coordinator**
+Dr. Elena Rodriguez
+VP Emergency Management
+EU Utilities Corporation
 
 ---
 
-**From:** operations.command@eutilities.com  
-**To:** crisis.management@eutilities.com, executive.team@eutilities.com, communications@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 14:35 CET  
+**From:** operations.command@eutilities.com
+**To:** crisis.management@eutilities.com, executive.team@eutilities.com, communications@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 14:35 CET
 
 Elena,
 
@@ -64,16 +64,16 @@ Operations Command Center is fully operational. We have:
 
 Will provide hourly updates.
 
-**Operations Commander**  
-Marcus Chen  
-Chief Operations Officer  
+**Operations Commander**
+Marcus Chen
+Chief Operations Officer
 
 ---
 
-**From:** communications@eutilities.com  
-**To:** crisis.management@eutilities.com, executive.team@eutilities.com, operations.command@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 14:40 CET  
+**From:** communications@eutilities.com
+**To:** crisis.management@eutilities.com, executive.team@eutilities.com, operations.command@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 14:40 CET
 
 Team,
 
@@ -101,16 +101,16 @@ Communications response activated:
 - Press conference scheduled for 17:00 CET
 - Q&A document prepared for spokespeople
 
-**Communications Director**  
-Sofia Patel  
-Director of Corporate Communications  
+**Communications Director**
+Sofia Patel
+Director of Corporate Communications
 
 ---
 
-**From:** regulatory.affairs@eutilities.com  
-**To:** crisis.management@eutilities.com, executive.team@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 14:45 CET  
+**From:** regulatory.affairs@eutilities.com
+**To:** crisis.management@eutilities.com, executive.team@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 14:45 CET
 
 Elena,
 
@@ -136,16 +136,16 @@ Regulatory notifications completed:
 
 Will monitor for any additional regulatory requirements.
 
-**Regulatory Affairs Director**  
-Dr. Thomas Weber  
-Director Regulatory Compliance  
+**Regulatory Affairs Director**
+Dr. Thomas Weber
+Director Regulatory Compliance
 
 ---
 
-**From:** customer.service@eutilities.com  
-**To:** crisis.management@eutilities.com, communications@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 14:50 CET  
+**From:** customer.service@eutilities.com
+**To:** crisis.management@eutilities.com, communications@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 14:50 CET
 
 Team,
 
@@ -168,16 +168,16 @@ Customer service response fully operational:
 - Web portal visits: 15,000 in first hour
 - Social media mentions: 8,500 (75% neutral/positive sentiment)
 
-**Customer Service Director**  
-Anna Kowalski  
-Director Customer Experience  
+**Customer Service Director**
+Anna Kowalski
+Director Customer Experience
 
 ---
 
-**From:** crisis.management@eutilities.com  
-**To:** executive.team@eutilities.com, operations.command@eutilities.com, communications@eutilities.com, regulatory.affairs@eutilities.com, customer.service@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 15:00 CET  
+**From:** crisis.management@eutilities.com
+**To:** executive.team@eutilities.com, operations.command@eutilities.com, communications@eutilities.com, regulatory.affairs@eutilities.com, customer.service@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 15:00 CET
 
 Excellent coordination across all teams. Situation is contained and restoration proceeding according to plan.
 
@@ -195,16 +195,16 @@ Excellent coordination across all teams. Situation is contained and restoration 
 
 Will reconvene executive briefing at 18:00 CET.
 
-**Crisis Coordinator**  
-Dr. Elena Rodriguez  
-VP Emergency Management  
+**Crisis Coordinator**
+Dr. Elena Rodriguez
+VP Emergency Management
 
 ---
 
-**From:** ceo@eutilities.com  
-**To:** crisis.management@eutilities.com, executive.team@eutilities.com  
-**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated  
-**Date:** 2025-09-15 15:05 CET  
+**From:** ceo@eutilities.com
+**To:** crisis.management@eutilities.com, executive.team@eutilities.com
+**Subject:** Re: URGENT: Major Grid Failure in Northern Region - Crisis Response Activated
+**Date:** 2025-09-15 15:05 CET
 
 Team,
 
@@ -218,9 +218,9 @@ Key priorities for follow-up:
 
 Keep up the excellent work.
 
-**CEO**  
-Jean-Claude Dubois  
-EU Utilities Corporation  
+**CEO**
+Jean-Claude Dubois
+EU Utilities Corporation
 
 ---
 

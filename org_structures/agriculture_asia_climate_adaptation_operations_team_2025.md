@@ -1,11 +1,11 @@
 # Asia Agriculture Climate Adaptation Operations Team Structure
 
 ## Executive Summary
-**Organization:** Asia Agricultural Cooperative (AAC)  
-**Department:** Climate Adaptation Operations  
-**Headcount:** 120 FTE (Full-Time Equivalent)  
-**Established:** 2023-06-01  
-**Reporting Structure:** Reports to Chief Agricultural Officer  
+**Organization:** Asia Agricultural Cooperative (AAC)
+**Department:** Climate Adaptation Operations
+**Headcount:** 120 FTE (Full-Time Equivalent)
+**Established:** 2023-06-01
+**Reporting Structure:** Reports to Chief Agricultural Officer
 
 ## Mission Statement
 To develop and implement climate-resilient farming practices across Asia's diverse agricultural regions, ensuring food security and sustainable farmer livelihoods in the face of climate change challenges.

@@ -1,43 +1,65 @@
 workflow:
-  id: "workflow_insurance_claims_005"
-  title: "Insurance Claims Processing and Settlement"
-  department: "Claims Operations"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Claims Supervisor", "Fraud Analyst"]
-  trigger: "Policyholder submits claim through online portal"
+  id: workflow_insurance_claims_005
+  title: Insurance Claims Processing and Settlement
+  department: Claims Operations
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Claims Supervisor
+  - Fraud Analyst
+  trigger: Policyholder submits claim through online portal
   temporal_data:
-    first_implemented: "2022-01-15"
-    last_updated: "2024-09-20"
-    typical_cycle_time: "3 business days"
+    first_implemented: '2022-01-15'
+    last_updated: '2024-09-20'
+    typical_cycle_time: 3 business days
     average_annual_executions: 75000
-    seasonal_variations: ["Q4 holiday claims peak (40% increase)", "Q2 weather-related claims surge"]
-    historical_evolution: "Digital transformation from paper-based to AI-assisted processing, reducing cycle time by 70%"
+    seasonal_variations:
+    - Q4 holiday claims peak (40% increase)
+    - Q2 weather-related claims surge
+    historical_evolution: Digital transformation from paper-based to AI-assisted processing,
+      reducing cycle time by 70%
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review submitted claim, verify policy coverage, and assess initial validity"
-      tools: ["Claims management system", "Policy database"]
-      duration: "1 hour"
-      outputs: ["Initial assessment report"]
-    - step: 2
-      actor: "Fraud Analyst"
-      action: "Run automated fraud detection and manual verification for high-risk claims"
-      tools: ["Fraud detection software", "External data sources"]
-      duration: "30 minutes"
-      outputs: ["Fraud risk assessment"]
-    - step: 3
-      actor: "Claims Supervisor"
-      action: "Approve settlement amount and authorize payment"
-      tools: ["Settlement calculator", "Payment system"]
-      duration: "2 hours"
-      outputs: ["Approved settlement", "Payment issued"]
-  success_criteria: "Claims processed within 3 days with 95% accuracy and 90% customer satisfaction"
-  failure_modes: ["Documentation delays", "Coverage disputes", "Fraud detection errors"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Review submitted claim, verify policy coverage, and assess initial validity
+    tools:
+    - Claims management system
+    - Policy database
+    duration: 1 hour
+    outputs:
+    - Initial assessment report
+  - step: 2
+    actor: Fraud Analyst
+    action: Run automated fraud detection and manual verification for high-risk claims
+    tools:
+    - Fraud detection software
+    - External data sources
+    duration: 30 minutes
+    outputs:
+    - Fraud risk assessment
+  - step: 3
+    actor: Claims Supervisor
+    action: Approve settlement amount and authorize payment
+    tools:
+    - Settlement calculator
+    - Payment system
+    duration: 2 hours
+    outputs:
+    - Approved settlement
+    - Payment issued
+  success_criteria: Claims processed within 3 days with 95% accuracy and 90% customer
+    satisfaction
+  failure_modes:
+  - Documentation delays
+  - Coverage disputes
+  - Fraud detection errors
   metrics:
-    - "Processing time: 2.8 days average"
-    - "Accuracy rate: 96%"
-    - "Customer satisfaction: 91%"
+  - 'Processing time: 2.8 days average'
+  - 'Accuracy rate: 96%'
+  - 'Customer satisfaction: 91%'
   performance_history:
-    success_rate_trend: "82% (2023) → 88% (2024) → 95% (2025)"
-    cost_trend: "$180 (2023) → $165 (2024) → $150 (2025)"
-    efficiency_improvements: ["AI automation reduced manual review by 50%", "Digital intake improved submission speed by 60%"]
+    success_rate_trend: 82% (2023) → 88% (2024) → 95% (2025)
+    cost_trend: $180 (2023) → $165 (2024) → $150 (2025)
+    efficiency_improvements:
+    - AI automation reduced manual review by 50%
+    - Digital intake improved submission speed by 60%

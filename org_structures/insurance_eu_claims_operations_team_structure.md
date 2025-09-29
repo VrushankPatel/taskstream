@@ -2,17 +2,17 @@
 
 ## Organization Overview
 
-**Company:** EU Continental Insurance  
-**Department:** Claims Operations & Customer Resolution  
-**Location:** Frankfurt, Germany (EU Headquarters)  
-**Effective Date:** February 1, 2026  
-**Total FTE:** 120  
-**Budget:** €18.5M annually  
+**Company:** EU Continental Insurance
+**Department:** Claims Operations & Customer Resolution
+**Location:** Frankfurt, Germany (EU Headquarters)
+**Effective Date:** February 1, 2026
+**Total FTE:** 120
+**Budget:** €18.5M annually
 
 ## Executive Leadership
 
 ### Vice President of Claims Operations (1 FTE)
-**Reports to:** Chief Claims Officer  
+**Reports to:** Chief Claims Officer
 **Responsibilities:**
 - Strategic leadership of claims operations across EU markets
 - Customer experience optimization and satisfaction
@@ -31,7 +31,7 @@
 ## Regional Operations Structure
 
 ### 1. Western Europe Claims Operations (35 FTE)
-**Regional Director:** Western Europe Claims Director  
+**Regional Director:** Western Europe Claims Director
 
 #### Claims Managers (4 FTE)
 - Team leadership and performance management
@@ -64,7 +64,7 @@
 - Performance metric monitoring
 
 ### 2. Central & Eastern Europe Claims Operations (30 FTE)
-**Regional Director:** Central Europe Claims Director  
+**Regional Director:** Central Europe Claims Director
 
 #### Regional Claims Coordinators (3 FTE)
 - Cross-border claim coordination
@@ -103,7 +103,7 @@
 - Vendor and supplier management
 
 ### 3. Southern Europe Claims Operations (28 FTE)
-**Regional Director:** Southern Europe Claims Director  
+**Regional Director:** Southern Europe Claims Director
 
 #### Market-Specific Claims Managers (3 FTE)
 - Mediterranean market expertise
@@ -142,7 +142,7 @@
 - Professional development coordination
 
 ### 4. Northern Europe Claims Operations (22 FTE)
-**Regional Director:** Northern Europe Claims Director  
+**Regional Director:** Northern Europe Claims Director
 
 #### Specialized Claims Teams (2 FTE)
 - Marine and transport claims
@@ -183,14 +183,14 @@
 ## Central Support Functions
 
 ### Claims Technology Center (3 FTE)
-**Reports to:** Vice President of Claims Operations  
+**Reports to:** Vice President of Claims Operations
 - Claims system architecture and development
 - Technology roadmap planning
 - Vendor management and integration
 - Innovation and digital transformation
 
 ### Analytics & Insights Hub (2 FTE)
-**Reports to:** Vice President of Claims Operations  
+**Reports to:** Vice President of Claims Operations
 - Enterprise-wide claims analytics
 - Performance benchmarking and reporting
 - Predictive modeling and AI development

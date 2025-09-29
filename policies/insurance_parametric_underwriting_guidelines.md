@@ -1,11 +1,11 @@
 # Insurance Parametric Underwriting Guidelines
 
 ## Overview
-**Policy Name:** Parametric Underwriting Framework  
-**Department:** Underwriting  
-**Effective Date:** January 1, 2025  
-**Last Updated:** March 15, 2025  
-**Approval Authority:** Chief Risk Officer  
+**Policy Name:** Parametric Underwriting Framework
+**Department:** Underwriting
+**Effective Date:** January 1, 2025
+**Last Updated:** March 15, 2025
+**Approval Authority:** Chief Risk Officer
 
 ## Purpose
 This policy establishes guidelines for underwriting parametric insurance products, ensuring consistent risk assessment, pricing adequacy, and regulatory compliance while maintaining profitability and customer satisfaction.

@@ -1,8 +1,8 @@
 # Sales Funnel Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)  
-**Last Updated:** 2025-10-05  
+**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)
+**Last Updated:** 2025-10-05
 
 ## Funnel Overview
 - **Total Leads:** 8,450 (Target: 8,000)

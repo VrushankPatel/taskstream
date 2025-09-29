@@ -1,47 +1,90 @@
 workflow:
-  id: "workflow_RTL_EU_001"
-  title: "EU Retail Customer Returns Processing"
-  department: "Customer Service"
-  complexity: "simple"
-  participants: ["Customer Service Representative", "Returns Coordinator", "Inventory Specialist", "Refund Processor"]
-  trigger: "Customer initiates return request through any channel"
+  id: workflow_RTL_EU_001
+  title: EU Retail Customer Returns Processing
+  department: Customer Service
+  complexity: simple
+  participants:
+  - Customer Service Representative
+  - Returns Coordinator
+  - Inventory Specialist
+  - Refund Processor
+  trigger: Customer initiates return request through any channel
   temporal_data:
-    first_implemented: "2019-03-15"
-    last_updated: "2024-11-20"
-    typical_cycle_time: "3-5 business days"
+    first_implemented: '2019-03-15'
+    last_updated: '2024-11-20'
+    typical_cycle_time: 3-5 business days
     average_annual_executions: 47500
-    seasonal_variations: ["Q4 peak 2.5x normal volume", "Q1 elevated 1.8x post-holiday", "Q2-Q3 baseline"]
-    historical_evolution: "Digital transformation in 2021 reduced processing time from 7-10 days to 3-5 days through automated validation and GDPR-compliant data handling"
+    seasonal_variations:
+    - Q4 peak 2.5x normal volume
+    - Q1 elevated 1.8x post-holiday
+    - Q2-Q3 baseline
+    historical_evolution: Digital transformation in 2021 reduced processing time from
+      7-10 days to 3-5 days through automated validation and GDPR-compliant data handling
   steps:
-    - step: 1
-      actor: "Customer Service Representative"
-      action: "Receive and validate return request"
-      tools: ["CRM System", "Order Management System", "GDPR Compliance Portal"]
-      duration: "10-15 minutes"
-      outputs: ["Return Authorization Number", "Return Instructions", "GDPR Data Processing Consent"]
-      decision_points: ["Return within policy timeframe", "Item condition acceptable", "Payment method verification"]
-    - step: 2
-      actor: "Returns Coordinator"
-      action: "Process received item and update inventory"
-      tools: ["Warehouse Management System", "Quality Assessment Tools", "Inventory Tracking"]
-      duration: "20-30 minutes"
-      outputs: ["Item Condition Report", "Inventory Update", "Restocking Decision"]
-      decision_points: ["Item suitable for resale", "Refurbishment required", "Write-off necessary"]
-    - step: 3
-      actor: "Refund Processor"
-      action: "Issue refund according to EU consumer protection laws"
-      tools: ["Payment Processing System", "Accounting Software", "Compliance Tracking"]
-      duration: "5-10 minutes"
-      outputs: ["Refund Transaction", "Customer Notification", "Accounting Entry"]
-      decision_points: ["Refund method selection", "Currency conversion required", "Tax adjustment needed"]
-  success_criteria: "Customer receives refund within 14 days as required by EU Consumer Rights Directive"
-  failure_modes: ["System downtime delaying processing", "Item condition disputes", "Payment method unavailable", "GDPR compliance violations"]
+  - step: 1
+    actor: Customer Service Representative
+    action: Receive and validate return request
+    tools:
+    - CRM System
+    - Order Management System
+    - GDPR Compliance Portal
+    duration: 10-15 minutes
+    outputs:
+    - Return Authorization Number
+    - Return Instructions
+    - GDPR Data Processing Consent
+    decision_points:
+    - Return within policy timeframe
+    - Item condition acceptable
+    - Payment method verification
+  - step: 2
+    actor: Returns Coordinator
+    action: Process received item and update inventory
+    tools:
+    - Warehouse Management System
+    - Quality Assessment Tools
+    - Inventory Tracking
+    duration: 20-30 minutes
+    outputs:
+    - Item Condition Report
+    - Inventory Update
+    - Restocking Decision
+    decision_points:
+    - Item suitable for resale
+    - Refurbishment required
+    - Write-off necessary
+  - step: 3
+    actor: Refund Processor
+    action: Issue refund according to EU consumer protection laws
+    tools:
+    - Payment Processing System
+    - Accounting Software
+    - Compliance Tracking
+    duration: 5-10 minutes
+    outputs:
+    - Refund Transaction
+    - Customer Notification
+    - Accounting Entry
+    decision_points:
+    - Refund method selection
+    - Currency conversion required
+    - Tax adjustment needed
+  success_criteria: Customer receives refund within 14 days as required by EU Consumer
+    Rights Directive
+  failure_modes:
+  - System downtime delaying processing
+  - Item condition disputes
+  - Payment method unavailable
+  - GDPR compliance violations
   metrics:
-    - "Processing Time: Target <5 days (Current: 3.2 days)"
-    - "Customer Satisfaction: Target >90% (Current: 94%)"
-    - "First-Time Resolution: Target >85% (Current: 88%)"
-    - "Cost per Return: Target <€12 (Current: €9.50)"
+  - 'Processing Time: Target <5 days (Current: 3.2 days)'
+  - 'Customer Satisfaction: Target >90% (Current: 94%)'
+  - 'First-Time Resolution: Target >85% (Current: 88%)'
+  - 'Cost per Return: Target <€12 (Current: €9.50)'
   performance_history:
-    success_rate_trend: "91% (2023) → 94% (2024) → 96% (2025 target)"
-    cost_trend: "€13.20 (2023) → €9.50 (2024) → €8.80 (2025 target)"
-    efficiency_improvements: ["Automated validation reduced manual work by 40%", "GDPR portal streamlined consent by 25%", "Mobile returns app increased satisfaction by 15%"]
+    success_rate_trend: 91% (2023) → 94% (2024) → 96% (2025 target)
+    cost_trend: €13.20 (2023) → €9.50 (2024) → €8.80 (2025 target)
+    efficiency_improvements:
+    - Automated validation reduced manual work by 40%
+    - GDPR portal streamlined consent by 25%
+    - Mobile returns app increased satisfaction by 15%

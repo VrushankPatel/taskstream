@@ -1,65 +1,146 @@
 workflow:
-  id: "workflow_retail_customer_data_privacy"
-  title: "Retail Customer Data Privacy Workflow"
-  department: "Compliance"
-  complexity: "medium"
-  participants: ["Privacy Officer", "IT Security Manager", "Legal Counsel", "Data Analytics Lead", "Customer Service Manager"]
-  trigger: "New privacy regulation or customer data breach incident"
+  id: workflow_retail_customer_data_privacy
+  title: Retail Customer Data Privacy Workflow
+  department: Compliance
+  complexity: medium
+  participants:
+  - Privacy Officer
+  - IT Security Manager
+  - Legal Counsel
+  - Data Analytics Lead
+  - Customer Service Manager
+  trigger: New privacy regulation or customer data breach incident
   temporal_data:
-    first_implemented: "2023-05-01"
-    last_updated: "2025-09-01"
-    typical_cycle_time: "3-6 months"
+    first_implemented: '2023-05-01'
+    last_updated: '2025-09-01'
+    typical_cycle_time: 3-6 months
     average_annual_executions: 8
-    seasonal_variations: ["Q1 compliance reviews", "Q2-Q3 implementation", "Q4 audit preparation"]
-    historical_evolution: "Evolved from basic data protection to comprehensive privacy management, incorporating GDPR, CCPA, and emerging regulations"
+    seasonal_variations:
+    - Q1 compliance reviews
+    - Q2-Q3 implementation
+    - Q4 audit preparation
+    historical_evolution: Evolved from basic data protection to comprehensive privacy
+      management, incorporating GDPR, CCPA, and emerging regulations
   steps:
-     - step: 1
-       actor: "Privacy Officer"
-       action: "Conduct comprehensive assessment of privacy requirements across all jurisdictions and data processing activities"
-       decision_points: ["Regulatory scope determination", "Data inventory completeness", "Risk assessment methodology", "Compliance priority matrix"]
-       tools: ["Privacy assessment framework", "Regulatory compliance database", "Risk assessment tools", "Data mapping software"]
-       duration: "2 weeks"
-       outputs: ["Comprehensive privacy gap analysis", "Detailed compliance roadmap", "Data processing inventory", "Risk mitigation plan"]
-     - step: 2
-       actor: "IT Security Manager"
-       action: "Implement comprehensive technical privacy controls including encryption, access controls, and data minimization measures"
-       decision_points: ["Encryption standard selection", "Access control granularity", "Data retention policies", "Third-party vendor assessments"]
-       tools: ["Data encryption tools", "Access control systems", "Privacy software", "Data classification systems"]
-       duration: "6 weeks"
-       outputs: ["Implemented privacy controls", "Security audit reports", "Data flow diagrams", "Incident response procedures"]
-     - step: 3
-       actor: "Legal Counsel"
-       action: "Review and update all privacy policies, consent mechanisms, and data subject rights procedures"
-       decision_points: ["Policy language optimization", "Consent mechanism design", "Data subject rights processes", "International transfer safeguards"]
-       tools: ["Legal review software", "Policy templates", "Consent management platform", "Contract review systems"]
-       duration: "3 weeks"
-       outputs: ["Updated privacy policies", "Consent procedures documentation", "Data subject rights framework", "Legal compliance checklist"]
-     - step: 4
-       actor: "Data Analytics Lead"
-       action: "Ensure all data processing activities comply with privacy principles including purpose limitation and data minimization"
-       decision_points: ["Data processing necessity assessment", "Anonymization technique selection", "Privacy impact thresholds", "Data sharing agreements"]
-       tools: ["Data governance platform", "Privacy impact assessment tools", "Anonymization software", "Data lineage tracking"]
-       duration: "4 weeks"
-       outputs: ["Data processing compliance reports", "Privacy impact assessments", "Data minimization procedures", "Processing purpose documentation"]
-     - step: 5
-       actor: "Customer Service Manager"
-       action: "Train all staff on privacy practices and communicate privacy rights and practices to customers"
-       decision_points: ["Training content customization", "Communication channel selection", "Customer inquiry handling procedures", "Privacy awareness campaign design"]
-       tools: ["Training platform", "Customer communication tools", "Privacy awareness materials", "FAQ management systems"]
-       duration: "2 weeks"
-       outputs: ["Staff training completion records", "Customer privacy communications", "Privacy awareness campaign materials", "Customer inquiry handling procedures"]
-  success_criteria: "100% compliance with applicable privacy regulations, zero data breaches"
-  failure_modes: ["Inadequate technical controls", "Poor staff training", "Incomplete policy updates"]
+  - step: 1
+    actor: Privacy Officer
+    action: Conduct comprehensive assessment of privacy requirements across all jurisdictions
+      and data processing activities
+    decision_points:
+    - Regulatory scope determination
+    - Data inventory completeness
+    - Risk assessment methodology
+    - Compliance priority matrix
+    tools:
+    - Privacy assessment framework
+    - Regulatory compliance database
+    - Risk assessment tools
+    - Data mapping software
+    duration: 2 weeks
+    outputs:
+    - Comprehensive privacy gap analysis
+    - Detailed compliance roadmap
+    - Data processing inventory
+    - Risk mitigation plan
+  - step: 2
+    actor: IT Security Manager
+    action: Implement comprehensive technical privacy controls including encryption,
+      access controls, and data minimization measures
+    decision_points:
+    - Encryption standard selection
+    - Access control granularity
+    - Data retention policies
+    - Third-party vendor assessments
+    tools:
+    - Data encryption tools
+    - Access control systems
+    - Privacy software
+    - Data classification systems
+    duration: 6 weeks
+    outputs:
+    - Implemented privacy controls
+    - Security audit reports
+    - Data flow diagrams
+    - Incident response procedures
+  - step: 3
+    actor: Legal Counsel
+    action: Review and update all privacy policies, consent mechanisms, and data subject
+      rights procedures
+    decision_points:
+    - Policy language optimization
+    - Consent mechanism design
+    - Data subject rights processes
+    - International transfer safeguards
+    tools:
+    - Legal review software
+    - Policy templates
+    - Consent management platform
+    - Contract review systems
+    duration: 3 weeks
+    outputs:
+    - Updated privacy policies
+    - Consent procedures documentation
+    - Data subject rights framework
+    - Legal compliance checklist
+  - step: 4
+    actor: Data Analytics Lead
+    action: Ensure all data processing activities comply with privacy principles including
+      purpose limitation and data minimization
+    decision_points:
+    - Data processing necessity assessment
+    - Anonymization technique selection
+    - Privacy impact thresholds
+    - Data sharing agreements
+    tools:
+    - Data governance platform
+    - Privacy impact assessment tools
+    - Anonymization software
+    - Data lineage tracking
+    duration: 4 weeks
+    outputs:
+    - Data processing compliance reports
+    - Privacy impact assessments
+    - Data minimization procedures
+    - Processing purpose documentation
+  - step: 5
+    actor: Customer Service Manager
+    action: Train all staff on privacy practices and communicate privacy rights and
+      practices to customers
+    decision_points:
+    - Training content customization
+    - Communication channel selection
+    - Customer inquiry handling procedures
+    - Privacy awareness campaign design
+    tools:
+    - Training platform
+    - Customer communication tools
+    - Privacy awareness materials
+    - FAQ management systems
+    duration: 2 weeks
+    outputs:
+    - Staff training completion records
+    - Customer privacy communications
+    - Privacy awareness campaign materials
+    - Customer inquiry handling procedures
+  success_criteria: 100% compliance with applicable privacy regulations, zero data
+    breaches
+  failure_modes:
+  - Inadequate technical controls
+  - Poor staff training
+  - Incomplete policy updates
   metrics:
-     - "Regulatory compliance score: 100% across all applicable regulations"
-     - "Data breach incidents: 0 incidents in measurement period"
-     - "Privacy training completion rate: 95% of all staff"
-     - "Data subject rights response time: <30 days"
-     - "Privacy impact assessment completion: 100% for high-risk processing"
-     - "Customer consent opt-out rate: <5%"
-     - "Third-party vendor compliance: 100% audit pass rate"
-     - "Data minimization achievement: 90% reduction in unnecessary data collection"
+  - 'Regulatory compliance score: 100% across all applicable regulations'
+  - 'Data breach incidents: 0 incidents in measurement period'
+  - 'Privacy training completion rate: 95% of all staff'
+  - 'Data subject rights response time: <30 days'
+  - 'Privacy impact assessment completion: 100% for high-risk processing'
+  - 'Customer consent opt-out rate: <5%'
+  - 'Third-party vendor compliance: 100% audit pass rate'
+  - 'Data minimization achievement: 90% reduction in unnecessary data collection'
   performance_history:
-    success_rate_trend: "85% (2023) → 92% (2024) → 95% (2025)"
-    cost_trend: "$1.2M (2023) → $1.4M (2024) → $1.6M (2025)"
-    efficiency_improvements: ["Automated compliance monitoring reduced manual reviews by 60%", "AI-driven privacy assessments improved accuracy by 30%", "Integrated platforms streamlined implementation by 40%"]
+    success_rate_trend: 85% (2023) → 92% (2024) → 95% (2025)
+    cost_trend: $1.2M (2023) → $1.4M (2024) → $1.6M (2025)
+    efficiency_improvements:
+    - Automated compliance monitoring reduced manual reviews by 60%
+    - AI-driven privacy assessments improved accuracy by 30%
+    - Integrated platforms streamlined implementation by 40%

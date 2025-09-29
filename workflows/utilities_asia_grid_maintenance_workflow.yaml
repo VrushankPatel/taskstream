@@ -1,49 +1,78 @@
 workflow:
-  id: "workflow_utilities_asia_grid"
-  title: "Asia Utilities Smart Grid Maintenance Scheduling"
-  department: "Grid Operations"
-  complexity: "simple"
-  participants: ["Maintenance Technician", "Grid Operations Supervisor", "Asset Manager"]
-  trigger: "Predictive maintenance alert or scheduled inspection due"
+  id: workflow_utilities_asia_grid
+  title: Asia Utilities Smart Grid Maintenance Scheduling
+  department: Grid Operations
+  complexity: simple
+  participants:
+  - Maintenance Technician
+  - Grid Operations Supervisor
+  - Asset Manager
+  trigger: Predictive maintenance alert or scheduled inspection due
   temporal_data:
-    first_implemented: "2023-01-20"
-    last_updated: "2024-08-10"
-    typical_cycle_time: "2 weeks"
+    first_implemented: '2023-01-20'
+    last_updated: '2024-08-10'
+    typical_cycle_time: 2 weeks
     average_annual_executions: 1200
-    seasonal_variations: ["Monsoon season (Jun-Sep) 30% increase", "Dry season (Dec-Mar) 20% decrease"]
-    historical_evolution: "Reactive maintenance replaced with predictive system in 2023, IoT sensors integrated in 2024 for real-time monitoring"
+    seasonal_variations:
+    - Monsoon season (Jun-Sep) 30% increase
+    - Dry season (Dec-Mar) 20% decrease
+    historical_evolution: Reactive maintenance replaced with predictive system in
+      2023, IoT sensors integrated in 2024 for real-time monitoring
   steps:
-    - step: 1
-      actor: "Asset Manager"
-      action: "Review predictive maintenance alerts and prioritize work orders"
-      tools: ["Asset management system", "Predictive analytics dashboard"]
-      duration: "1 hour"
-      outputs: ["Prioritized maintenance schedule", "Resource allocation plan"]
-    - step: 2
-      actor: "Grid Operations Supervisor"
-      action: "Approve maintenance schedule and coordinate with field teams"
-      tools: ["Work order system", "Team scheduling software"]
-      duration: "30 minutes"
-      outputs: ["Approved work orders", "Team assignments completed"]
-    - step: 3
-      actor: "Maintenance Technician"
-      action: "Execute maintenance activities following safety protocols"
-      tools: ["Maintenance checklists", "Safety equipment", "Diagnostic tools"]
-      duration: "4 hours"
-      outputs: ["Maintenance completed", "Equipment performance verified"]
-    - step: 4
-      actor: "Asset Manager"
-      action: "Update asset records and schedule next maintenance cycle"
-      tools: ["Asset database", "Maintenance history system"]
-      duration: "30 minutes"
-      outputs: ["Asset records updated", "Next maintenance scheduled"]
-  success_criteria: "Maintenance completed on schedule, equipment reliability improved, no safety incidents"
-  failure_modes: ["Equipment failure during maintenance", "Weather delays monsoon season", "Parts availability issues"]
+  - step: 1
+    actor: Asset Manager
+    action: Review predictive maintenance alerts and prioritize work orders
+    tools:
+    - Asset management system
+    - Predictive analytics dashboard
+    duration: 1 hour
+    outputs:
+    - Prioritized maintenance schedule
+    - Resource allocation plan
+  - step: 2
+    actor: Grid Operations Supervisor
+    action: Approve maintenance schedule and coordinate with field teams
+    tools:
+    - Work order system
+    - Team scheduling software
+    duration: 30 minutes
+    outputs:
+    - Approved work orders
+    - Team assignments completed
+  - step: 3
+    actor: Maintenance Technician
+    action: Execute maintenance activities following safety protocols
+    tools:
+    - Maintenance checklists
+    - Safety equipment
+    - Diagnostic tools
+    duration: 4 hours
+    outputs:
+    - Maintenance completed
+    - Equipment performance verified
+  - step: 4
+    actor: Asset Manager
+    action: Update asset records and schedule next maintenance cycle
+    tools:
+    - Asset database
+    - Maintenance history system
+    duration: 30 minutes
+    outputs:
+    - Asset records updated
+    - Next maintenance scheduled
+  success_criteria: Maintenance completed on schedule, equipment reliability improved,
+    no safety incidents
+  failure_modes:
+  - Equipment failure during maintenance
+  - Weather delays monsoon season
+  - Parts availability issues
   metrics:
-    - "On-time completion rate: 92%"
-    - "Equipment uptime: 98.5%"
-    - "Safety incident rate: 0.02 per 1000 hours"
+  - 'On-time completion rate: 92%'
+  - 'Equipment uptime: 98.5%'
+  - 'Safety incident rate: 0.02 per 1000 hours'
   performance_history:
-    success_rate_trend: "85% (2023) → 89% (2024) → 92% (2025)"
-    cost_trend: "₹8500 (2023) → ₹7800 (2024) → ₹7200 (2025)"
-    efficiency_improvements: ["Predictive analytics reduced emergency repairs by 40%", "IoT sensors improved maintenance accuracy by 25%"]
+    success_rate_trend: 85% (2023) → 89% (2024) → 92% (2025)
+    cost_trend: ₹8500 (2023) → ₹7800 (2024) → ₹7200 (2025)
+    efficiency_improvements:
+    - Predictive analytics reduced emergency repairs by 40%
+    - IoT sensors improved maintenance accuracy by 25%

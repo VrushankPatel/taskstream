@@ -4,10 +4,27 @@
   "context": "EU retail chain with 200 stores and €500M annual revenue facing declining foot traffic and increasing online competition",
   "stakeholders": {
     "requester": "Chief Marketing Officer",
-    "approvers": ["CEO", "CFO", "Chief Digital Officer"],
-    "influencers": ["Store Operations Director", "Customer Experience Manager", "IT Director", "Data Analytics Lead"],
-    "consultants": ["External Omnichannel Strategy Consultant", "Technology Integration Partner"],
-    "impacted_parties": ["Store Managers (200 locations)", "Customer Service Team (500 staff)", "IT Infrastructure Team", "Marketing Technology Vendors"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Digital Officer"
+    ],
+    "influencers": [
+      "Store Operations Director",
+      "Customer Experience Manager",
+      "IT Director",
+      "Data Analytics Lead"
+    ],
+    "consultants": [
+      "External Omnichannel Strategy Consultant",
+      "Technology Integration Partner"
+    ],
+    "impacted_parties": [
+      "Store Managers (200 locations)",
+      "Customer Service Team (500 staff)",
+      "IT Infrastructure Team",
+      "Marketing Technology Vendors"
+    ]
   },
   "request": {
     "amount": "€8,500,000",
@@ -21,7 +38,12 @@
       "start_date": "2024-11-01",
       "end_date": "2024-11-15",
       "duration": "15 days",
-      "activities": ["Market analysis", "Competitor benchmarking", "Customer survey analysis", "ROI modeling"],
+      "activities": [
+        "Market analysis",
+        "Competitor benchmarking",
+        "Customer survey analysis",
+        "ROI modeling"
+      ],
       "outcome": "Advanced to detailed planning phase"
     },
     {
@@ -29,7 +51,12 @@
       "start_date": "2024-11-16",
       "end_date": "2024-12-15",
       "duration": "30 days",
-      "activities": ["Vendor selection process", "Integration planning", "Change management assessment", "Risk analysis"],
+      "activities": [
+        "Vendor selection process",
+        "Integration planning",
+        "Change management assessment",
+        "Risk analysis"
+      ],
       "outcome": "Approved with phased implementation"
     },
     {
@@ -37,7 +64,12 @@
       "start_date": "2024-12-16",
       "end_date": "2025-01-15",
       "duration": "30 days",
-      "activities": ["Executive committee review", "Board presentation", "Legal compliance review", "Final budget approval"],
+      "activities": [
+        "Executive committee review",
+        "Board presentation",
+        "Legal compliance review",
+        "Final budget approval"
+      ],
       "outcome": "Approved with conditions"
     }
   ],
@@ -46,14 +78,30 @@
     "projected_value": "€12,000,000 additional annual revenue",
     "actual_value": "€15,200,000 additional revenue achieved (127% of projection)",
     "roi_timeline": "18 months",
-    "risk_factors": ["Technology integration challenges", "Staff training requirements", "Customer adoption resistance", "Data privacy compliance costs"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Staff training requirements",
+      "Customer adoption resistance",
+      "Data privacy compliance costs"
+    ]
   },
-  "decision_criteria": ["Projected ROI > 25%", "Customer experience improvement > 20%", "Technology scalability", "Regulatory compliance", "Implementation timeline < 12 months"],
+  "decision_criteria": [
+    "Projected ROI > 25%",
+    "Customer experience improvement > 20%",
+    "Technology scalability",
+    "Regulatory compliance",
+    "Implementation timeline < 12 months"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-02-01",
     "completion_date": "2025-12-31",
-    "milestones": ["Phase 1: CRM Integration - 2025-04-30", "Phase 2: Mobile App Launch - 2025-07-31", "Phase 3: Store Integration - 2025-10-31", "Phase 4: Analytics Optimization - 2025-12-31"]
+    "milestones": [
+      "Phase 1: CRM Integration - 2025-04-30",
+      "Phase 2: Mobile App Launch - 2025-07-31",
+      "Phase 3: Store Integration - 2025-10-31",
+      "Phase 4: Analytics Optimization - 2025-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Phase 1 completed successfully, 12% sales increase observed",

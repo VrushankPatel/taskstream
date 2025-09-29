@@ -1,49 +1,74 @@
 workflow:
-  id: "workflow_asia_hospitality_guest_feedback_collection"
-  title: "Asia Hospitality Guest Feedback Collection Process"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Guest Services Manager", "Digital Marketing Team", "Operations Staff"]
-  trigger: "Guest checkout or post-stay survey trigger"
+  id: workflow_asia_hospitality_guest_feedback_collection
+  title: Asia Hospitality Guest Feedback Collection Process
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Guest Services Manager
+  - Digital Marketing Team
+  - Operations Staff
+  trigger: Guest checkout or post-stay survey trigger
   temporal_data:
-    first_implemented: "2024-06-01"
-    last_updated: "2025-09-25"
-    typical_cycle_time: "48 hours"
+    first_implemented: '2024-06-01'
+    last_updated: '2025-09-25'
+    typical_cycle_time: 48 hours
     average_annual_executions: 8500
-    seasonal_variations: ["Peak season (summer) with 40% higher volume", "Cultural holiday periods requiring localized messaging"]
-    historical_evolution: "Manual feedback collection replaced with automated system in 2024, improving response rates by 35%"
+    seasonal_variations:
+    - Peak season (summer) with 40% higher volume
+    - Cultural holiday periods requiring localized messaging
+    historical_evolution: Manual feedback collection replaced with automated system
+      in 2024, improving response rates by 35%
   steps:
-    - step: 1
-      actor: "Guest Services Manager"
-      action: "Send personalized feedback request via multiple channels"
-      tools: ["Feedback Management System", "Email Platform", "Mobile App"]
-      duration: "1 hour"
-      outputs: ["Feedback Requests"]
-    - step: 2
-      actor: "Digital Marketing Team"
-      action: "Monitor response rates and follow up on non-responders"
-      decision_points: ["Response Rate", "Feedback Quality"]
-      duration: "2 hours"
-      outputs: ["Response Analytics"]
-    - step: 3
-      actor: "Operations Staff"
-      action: "Analyze feedback and implement quick wins"
-      duration: "4 hours"
-      outputs: ["Action Items", "Improvement Report"]
-    - step: 4
-      actor: "Guest Services Manager"
-      action: "Respond to feedback and close the loop with guests"
-      duration: "2 hours"
-      outputs: ["Guest Responses", "Satisfaction Updates"]
-  success_criteria: "Feedback collected from 60%+ guests with actionable insights implemented within 48 hours, culturally appropriate communications used"
-  failure_modes: ["Low response rates", "Cultural communication barriers", "System integration issues", "Language translation errors", "Technical platform failures"]
+  - step: 1
+    actor: Guest Services Manager
+    action: Send personalized feedback request via multiple channels
+    tools:
+    - Feedback Management System
+    - Email Platform
+    - Mobile App
+    duration: 1 hour
+    outputs:
+    - Feedback Requests
+  - step: 2
+    actor: Digital Marketing Team
+    action: Monitor response rates and follow up on non-responders
+    decision_points:
+    - Response Rate
+    - Feedback Quality
+    duration: 2 hours
+    outputs:
+    - Response Analytics
+  - step: 3
+    actor: Operations Staff
+    action: Analyze feedback and implement quick wins
+    duration: 4 hours
+    outputs:
+    - Action Items
+    - Improvement Report
+  - step: 4
+    actor: Guest Services Manager
+    action: Respond to feedback and close the loop with guests
+    duration: 2 hours
+    outputs:
+    - Guest Responses
+    - Satisfaction Updates
+  success_criteria: Feedback collected from 60%+ guests with actionable insights implemented
+    within 48 hours, culturally appropriate communications used
+  failure_modes:
+  - Low response rates
+  - Cultural communication barriers
+  - System integration issues
+  - Language translation errors
+  - Technical platform failures
   metrics:
-    - "Response Rate: >60%"
-    - "NPS Improvement: +10 points"
-    - "Action Implementation: >80%"
-    - "Cultural Adaptation Score: >85%"
-    - "Feedback Resolution Time: <48 hours"
+  - 'Response Rate: >60%'
+  - 'NPS Improvement: +10 points'
+  - 'Action Implementation: >80%'
+  - 'Cultural Adaptation Score: >85%'
+  - 'Feedback Resolution Time: <48 hours'
   performance_history:
-    success_rate_trend: "65% (2024) → 72% (2025)"
-    cost_trend: "$180K (2024) → $195K (2025)"
-    efficiency_improvements: ["Automated multilingual surveys reduced manual translation by 70%", "AI sentiment analysis improved feedback categorization by 40%"]
+    success_rate_trend: 65% (2024) → 72% (2025)
+    cost_trend: $180K (2024) → $195K (2025)
+    efficiency_improvements:
+    - Automated multilingual surveys reduced manual translation by 70%
+    - AI sentiment analysis improved feedback categorization by 40%

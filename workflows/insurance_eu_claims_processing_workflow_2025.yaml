@@ -1,55 +1,88 @@
 workflow:
-  id: "workflow_insurance_eu_claims_processing_2025"
-  title: "EU Insurance Claims Processing Workflow"
-  department: "Claims Operations"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Fraud Investigator", "Medical Review Specialist", "Claims Manager", "Legal Compliance Officer"]
-  trigger: "Customer submits insurance claim"
+  id: workflow_insurance_eu_claims_processing_2025
+  title: EU Insurance Claims Processing Workflow
+  department: Claims Operations
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Fraud Investigator
+  - Medical Review Specialist
+  - Claims Manager
+  - Legal Compliance Officer
+  trigger: Customer submits insurance claim
   temporal_data:
-    first_implemented: "2021-06-01"
-    last_updated: "2024-11-01"
-    typical_cycle_time: "5 business days"
+    first_implemented: '2021-06-01'
+    last_updated: '2024-11-01'
+    typical_cycle_time: 5 business days
     average_annual_executions: 15000
-    seasonal_variations: ["Q1 higher auto claims", "Q3 higher property claims"]
-    historical_evolution: "Manual process digitized with AI fraud detection and automated document processing"
+    seasonal_variations:
+    - Q1 higher auto claims
+    - Q3 higher property claims
+    historical_evolution: Manual process digitized with AI fraud detection and automated
+      document processing
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review submitted claim documentation and verify policy coverage"
-      tools: ["Claims management system", "Policy database"]
-      duration: "2 hours"
-      outputs: ["Initial claim assessment", "Required documentation list"]
-    - step: 2
-      actor: "Fraud Investigator"
-      action: "Run automated fraud detection algorithms and manual review if flagged"
-      tools: ["Fraud detection platform", "Claims history database"]
-      duration: "1 hour"
-      outputs: ["Fraud risk assessment"]
-    - step: 3
-      actor: "Medical Review Specialist"
-      action: "Evaluate medical claims for validity and appropriate compensation (if applicable)"
-      tools: ["Medical coding system", "Treatment guidelines database"]
-      duration: "3 hours"
-      outputs: ["Medical claim evaluation"]
-    - step: 4
-      actor: "Claims Manager"
-      action: "Review complete assessment and approve/reject claim with compensation amount"
-      tools: ["Claims approval workflow", "Financial calculation tools"]
-      duration: "1 hour"
-      outputs: ["Final claim decision", "Payment authorization"]
-    - step: 5
-      actor: "Legal Compliance Officer"
-      action: "Verify compliance with EU insurance regulations and data protection requirements"
-      tools: ["Regulatory compliance checker", "GDPR audit log"]
-      duration: "30 minutes"
-      outputs: ["Compliance certification"]
-  success_criteria: "95% claims processed within 5 business days with 98% accuracy rate"
-  failure_modes: ["Incomplete documentation delays", "Fraud detection false positives", "Regulatory compliance issues"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Review submitted claim documentation and verify policy coverage
+    tools:
+    - Claims management system
+    - Policy database
+    duration: 2 hours
+    outputs:
+    - Initial claim assessment
+    - Required documentation list
+  - step: 2
+    actor: Fraud Investigator
+    action: Run automated fraud detection algorithms and manual review if flagged
+    tools:
+    - Fraud detection platform
+    - Claims history database
+    duration: 1 hour
+    outputs:
+    - Fraud risk assessment
+  - step: 3
+    actor: Medical Review Specialist
+    action: Evaluate medical claims for validity and appropriate compensation (if
+      applicable)
+    tools:
+    - Medical coding system
+    - Treatment guidelines database
+    duration: 3 hours
+    outputs:
+    - Medical claim evaluation
+  - step: 4
+    actor: Claims Manager
+    action: Review complete assessment and approve/reject claim with compensation
+      amount
+    tools:
+    - Claims approval workflow
+    - Financial calculation tools
+    duration: 1 hour
+    outputs:
+    - Final claim decision
+    - Payment authorization
+  - step: 5
+    actor: Legal Compliance Officer
+    action: Verify compliance with EU insurance regulations and data protection requirements
+    tools:
+    - Regulatory compliance checker
+    - GDPR audit log
+    duration: 30 minutes
+    outputs:
+    - Compliance certification
+  success_criteria: 95% claims processed within 5 business days with 98% accuracy
+    rate
+  failure_modes:
+  - Incomplete documentation delays
+  - Fraud detection false positives
+  - Regulatory compliance issues
   metrics:
-    - "Processing time target: 5 business days"
-    - "Accuracy rate: 98%"
-    - "Customer satisfaction: 4.2/5"
+  - 'Processing time target: 5 business days'
+  - 'Accuracy rate: 98%'
+  - 'Customer satisfaction: 4.2/5'
   performance_history:
-    success_rate_trend: "90% (2023) → 94% (2024) → 96% (2025)"
-    cost_trend: "€45 (2023) → €38 (2024) → €32 (2025)"
-    efficiency_improvements: ["AI fraud detection reduced investigation time by 50%", "Automated document processing improved accuracy by 15%"]
+    success_rate_trend: 90% (2023) → 94% (2024) → 96% (2025)
+    cost_trend: €45 (2023) → €38 (2024) → €32 (2025)
+    efficiency_improvements:
+    - AI fraud detection reduced investigation time by 50%
+    - Automated document processing improved accuracy by 15%

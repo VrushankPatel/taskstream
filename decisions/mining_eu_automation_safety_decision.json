@@ -4,8 +4,16 @@
   "context": "EU mining company facing labor shortages and safety concerns, evaluating autonomous equipment investment",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "Chief Safety Officer", "Board Safety Committee"],
-    "influencers": ["Mine Managers", "Union Representatives", "Technology Director"]
+    "approvers": [
+      "CEO",
+      "Chief Safety Officer",
+      "Board Safety Committee"
+    ],
+    "influencers": [
+      "Mine Managers",
+      "Union Representatives",
+      "Technology Director"
+    ]
   },
   "request": {
     "amount": "€30,000,000",
@@ -19,7 +27,12 @@
       "start_date": "2024-07-01",
       "end_date": "2024-09-30",
       "duration": "92 days",
-      "activities": ["Current safety audit", "Technology vendor evaluation", "Union consultation", "Regulatory compliance review"],
+      "activities": [
+        "Current safety audit",
+        "Technology vendor evaluation",
+        "Union consultation",
+        "Regulatory compliance review"
+      ],
       "outcome": "Identified critical safety improvements needed, autonomous technology viable"
     },
     {
@@ -27,7 +40,12 @@
       "start_date": "2024-10-01",
       "end_date": "2025-01-31",
       "duration": "123 days",
-      "activities": ["Equipment testing", "Operator training", "Safety protocol development", "Performance monitoring"],
+      "activities": [
+        "Equipment testing",
+        "Operator training",
+        "Safety protocol development",
+        "Performance monitoring"
+      ],
       "outcome": "Pilot successful with 90% uptime and zero accidents"
     },
     {
@@ -35,7 +53,12 @@
       "start_date": "2025-02-01",
       "end_date": "2025-03-10",
       "duration": "38 days",
-      "activities": ["Financial modeling", "Risk assessment", "Union agreement negotiation", "Board presentation"],
+      "activities": [
+        "Financial modeling",
+        "Risk assessment",
+        "Union agreement negotiation",
+        "Board presentation"
+      ],
       "outcome": "Approved €30M autonomous systems investment"
     }
   ],
@@ -44,14 +67,28 @@
     "projected_value": "€45,000,000 in cost savings and productivity gains over 5 years",
     "actual_value": "TBD (pilot shows 40% productivity increase)",
     "roi_timeline": "Expected payback in 36 months",
-    "risk_factors": ["Technology reliability in harsh conditions", "Workforce transition challenges", "Regulatory approval delays"]
+    "risk_factors": [
+      "Technology reliability in harsh conditions",
+      "Workforce transition challenges",
+      "Regulatory approval delays"
+    ]
   },
-  "decision_criteria": ["Safety improvement potential", "Financial ROI", "Labor market conditions", "Technology maturity", "Regulatory compliance"],
+  "decision_criteria": [
+    "Safety improvement potential",
+    "Financial ROI",
+    "Labor market conditions",
+    "Technology maturity",
+    "Regulatory compliance"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-07-01",
     "completion_date": "2026-12-31",
-    "milestones": ["Phase 1: Autonomous haulage system - 2025-12-31", "Phase 2: Remote operation center - 2026-06-30", "Phase 3: Full fleet automation - 2026-12-31"]
+    "milestones": [
+      "Phase 1: Autonomous haulage system - 2025-12-31",
+      "Phase 2: Remote operation center - 2026-06-30",
+      "Phase 3: Full fleet automation - 2026-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Safety incident metrics, productivity improvements, operator training completion",

@@ -1,10 +1,10 @@
 # Retail EU Data Privacy Protection Policy
 
 ## Policy Overview
-**Effective Date:** May 25, 2018 (GDPR Implementation)  
-**Last Updated:** November 15, 2024  
-**Policy Owner:** Chief Privacy Officer  
-**Applies To:** All EU retail operations, customer data processing, and digital platforms  
+**Effective Date:** May 25, 2018 (GDPR Implementation)
+**Last Updated:** November 15, 2024
+**Policy Owner:** Chief Privacy Officer
+**Applies To:** All EU retail operations, customer data processing, and digital platforms
 
 ## Purpose
 This policy establishes comprehensive data privacy standards and compliance requirements for EU retail operations to ensure GDPR compliance, protect customer rights, and maintain trust in our data processing practices.

@@ -7,12 +7,15 @@ workflow:
   - Claims Adjuster
   - Policyholder
   temporal_data:
-    first_implemented: "2000-06-01"
-    last_updated: "2024-01-10"
-    typical_cycle_time: "1-2 weeks"
+    first_implemented: '2000-06-01'
+    last_updated: '2024-01-10'
+    typical_cycle_time: 1-2 weeks
     average_annual_executions: 1000
-    seasonal_variations: ["Higher claims during winter for auto accidents", "Property claims increase during storm seasons"]
-    historical_evolution: "Paper-based claims processing evolved to digital systems with automated fraud detection"
+    seasonal_variations:
+    - Higher claims during winter for auto accidents
+    - Property claims increase during storm seasons
+    historical_evolution: Paper-based claims processing evolved to digital systems
+      with automated fraud detection
   trigger: Policyholder submits claim
   steps:
   - step: 1

@@ -4,8 +4,15 @@
   "context": "Retail company facing declining in-store traffic and increasing competition from pure online players",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Chief Marketing Officer", "Chief Operations Officer", "Chief Financial Officer"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Marketing Officer",
+      "Chief Operations Officer",
+      "Chief Financial Officer"
+    ]
   },
   "request": {
     "amount": "$3,200,000",
@@ -19,7 +26,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-07-15",
       "duration": "45 days",
-      "activities": ["Customer journey mapping", "Competitor analysis", "Technology vendor evaluation"],
+      "activities": [
+        "Customer journey mapping",
+        "Competitor analysis",
+        "Technology vendor evaluation"
+      ],
       "outcome": "Identified omnichannel gaps and solution requirements"
     },
     {
@@ -27,7 +38,11 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-15",
       "duration": "31 days",
-      "activities": ["ROI projections", "Cost-benefit analysis", "Cash flow modeling"],
+      "activities": [
+        "ROI projections",
+        "Cost-benefit analysis",
+        "Cash flow modeling"
+      ],
       "outcome": "Projected 25% revenue increase with 24-month payback"
     },
     {
@@ -35,7 +50,11 @@
       "start_date": "2025-08-16",
       "end_date": "2025-09-18",
       "duration": "34 days",
-      "activities": ["Board presentations", "Risk assessment", "Final investment approval"],
+      "activities": [
+        "Board presentations",
+        "Risk assessment",
+        "Final investment approval"
+      ],
       "outcome": "Approved with phased implementation and KPIs"
     }
   ],
@@ -44,47 +63,72 @@
     "projected_value": "$12,800,000 additional annual revenue",
     "actual_value": "TBD (implementation Q1 2026)",
     "roi_timeline": "Expected payback in 20 months",
-    "risk_factors": ["Integration complexity", "Employee training", "Technology vendor reliability", "Customer adoption"]
+    "risk_factors": [
+      "Integration complexity",
+      "Employee training",
+      "Technology vendor reliability",
+      "Customer adoption"
+    ]
   },
-  "decision_criteria": ["Revenue growth potential", "Customer experience improvement", "Technical feasibility", "Financial ROI", "Competitive advantage"],
+  "decision_criteria": [
+    "Revenue growth potential",
+    "Customer experience improvement",
+    "Technical feasibility",
+    "Financial ROI",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-10-01",
     "completion_date": "2026-09-30",
-    "milestones": ["Platform selection: 2025-10-31", "Pilot launch: 2026-01-15", "Full rollout: 2026-06-30", "Optimization: 2026-09-30"]
+    "milestones": [
+      "Platform selection: 2025-10-31",
+      "Pilot launch: 2026-01-15",
+      "Full rollout: 2026-06-30",
+      "Optimization: 2026-09-30"
+    ]
   },
-   "outcome_tracking": {
-     "6_month_review": "Platform adoption metrics and initial sales impact",
-     "12_month_review": "Full year performance vs projections",
-     "actual_roi": "TBD (target 22% above projections)"
-   },
-   "implementation_details": {
-     "team_structure": {
-       "project_manager": "Senior Project Manager - Digital Transformation",
-       "technical_team": ["Integration Architect", "Frontend Developer", "Backend Developer", "Data Analyst"],
-       "business_team": ["Store Operations Lead", "E-commerce Manager", "Customer Experience Specialist"]
-     },
-     "resource_allocation": {
-       "budget_breakdown": {
-         "platform_licensing": "$1,200,000",
-         "integration_services": "$800,000",
-         "training_and_change_management": "$600,000",
-         "hardware_and_infrastructure": "$400,000",
-         "consulting_services": "$200,000"
-       },
-       "personnel_resources": "8 FTE for implementation, 3 FTE for support"
-     },
-     "risk_mitigation": {
-       "technical_risks": "Vendor performance SLAs and backup integration options",
-       "operational_risks": "Phased rollout with rollback capabilities",
-       "adoption_risks": "Comprehensive training and change management program"
-     },
-     "success_metrics": {
-       "platform_uptime": "Target 99.9% availability",
-       "user_adoption": "Target 85% of customers using omnichannel features",
-       "conversion_improvement": "Target 35% increase in online conversions",
-       "customer_satisfaction": "Target 4.6/5.0 NPS improvement"
-     }
-   },
-   "lessons_learned": "Comprehensive customer research essential for omnichannel success; phased rollout minimizes operational disruption"
- }
+  "outcome_tracking": {
+    "6_month_review": "Platform adoption metrics and initial sales impact",
+    "12_month_review": "Full year performance vs projections",
+    "actual_roi": "TBD (target 22% above projections)"
+  },
+  "implementation_details": {
+    "team_structure": {
+      "project_manager": "Senior Project Manager - Digital Transformation",
+      "technical_team": [
+        "Integration Architect",
+        "Frontend Developer",
+        "Backend Developer",
+        "Data Analyst"
+      ],
+      "business_team": [
+        "Store Operations Lead",
+        "E-commerce Manager",
+        "Customer Experience Specialist"
+      ]
+    },
+    "resource_allocation": {
+      "budget_breakdown": {
+        "platform_licensing": "$1,200,000",
+        "integration_services": "$800,000",
+        "training_and_change_management": "$600,000",
+        "hardware_and_infrastructure": "$400,000",
+        "consulting_services": "$200,000"
+      },
+      "personnel_resources": "8 FTE for implementation, 3 FTE for support"
+    },
+    "risk_mitigation": {
+      "technical_risks": "Vendor performance SLAs and backup integration options",
+      "operational_risks": "Phased rollout with rollback capabilities",
+      "adoption_risks": "Comprehensive training and change management program"
+    },
+    "success_metrics": {
+      "platform_uptime": "Target 99.9% availability",
+      "user_adoption": "Target 85% of customers using omnichannel features",
+      "conversion_improvement": "Target 35% increase in online conversions",
+      "customer_satisfaction": "Target 4.6/5.0 NPS improvement"
+    }
+  },
+  "lessons_learned": "Comprehensive customer research essential for omnichannel success; phased rollout minimizes operational disruption"
+}

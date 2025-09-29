@@ -1,8 +1,8 @@
 # Utilities Grid Modernization Performance Dashboard
 
 ## Executive Summary
-**Report Period:** Q1 2025 (January 1 - March 31, 2025)  
-**Last Updated:** April 5, 2025  
+**Report Period:** Q1 2025 (January 1 - March 31, 2025)
+**Last Updated:** April 5, 2025
 
 ## Key Performance Indicators
 

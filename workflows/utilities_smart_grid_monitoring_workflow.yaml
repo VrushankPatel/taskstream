@@ -1,54 +1,94 @@
 workflow:
-  id: "workflow_utilities_smart_grid_monitoring"
-  title: "Utilities Smart Grid Monitoring and Response"
-  department: "Grid Operations"
-  complexity: "simple"
-  participants: ["Grid Operator", "Maintenance Technician", "System Analyst"]
-  trigger: "Automated alert from grid monitoring system"
+  id: workflow_utilities_smart_grid_monitoring
+  title: Utilities Smart Grid Monitoring and Response
+  department: Grid Operations
+  complexity: simple
+  participants:
+  - Grid Operator
+  - Maintenance Technician
+  - System Analyst
+  trigger: Automated alert from grid monitoring system
   temporal_data:
-    first_implemented: "2024-01-01"
-    last_updated: "2025-09-01"
-    typical_cycle_time: "15-30 minutes"
+    first_implemented: '2024-01-01'
+    last_updated: '2025-09-01'
+    typical_cycle_time: 15-30 minutes
     average_annual_executions: 1200
-    seasonal_variations: ["Summer peak demand (200% increase)", "Winter extreme weather (150% increase)"]
-    historical_evolution: "Manual monitoring replaced with IoT sensors and AI prediction in 2024"
+    seasonal_variations:
+    - Summer peak demand (200% increase)
+    - Winter extreme weather (150% increase)
+    historical_evolution: Manual monitoring replaced with IoT sensors and AI prediction
+      in 2024
   steps:
   - step: 1
-    actor: "Automated System"
-    action: "Monitor real-time grid parameters and detect anomalies using AI algorithms"
-    tools: ["IoT Sensors", "AI Monitoring Platform", "Edge Computing Nodes"]
-    duration: "Continuous monitoring, alert in <1 minute"
-    outputs: ["Priority Alert with anomaly details", "Affected grid segment identification"]
+    actor: Automated System
+    action: Monitor real-time grid parameters and detect anomalies using AI algorithms
+    tools:
+    - IoT Sensors
+    - AI Monitoring Platform
+    - Edge Computing Nodes
+    duration: Continuous monitoring, alert in <1 minute
+    outputs:
+    - Priority Alert with anomaly details
+    - Affected grid segment identification
   - step: 2
-    actor: "Grid Operator"
-    action: "Review alert details, assess impact on grid stability and customer service, and determine response priority"
-    tools: ["SCADA System", "Alert Dashboard", "GIS Mapping Software"]
-    duration: "3-5 minutes"
-    outputs: ["Response Plan with escalation path", "Stakeholder notifications"]
+    actor: Grid Operator
+    action: Review alert details, assess impact on grid stability and customer service,
+      and determine response priority
+    tools:
+    - SCADA System
+    - Alert Dashboard
+    - GIS Mapping Software
+    duration: 3-5 minutes
+    outputs:
+    - Response Plan with escalation path
+    - Stakeholder notifications
   - step: 3
-    actor: "Grid Operator"
-    action: "Implement automated load balancing, isolate faulty segments, or dispatch field crews for manual intervention"
-    decision_points: ["System stability assessment", "Safety risk evaluation", "Customer impact analysis"]
-    tools: ["Control Systems", "Remote Switches", "Field Crew Dispatch System"]
-    duration: "5-15 minutes"
-    outputs: ["Corrective Action Log", "System status update", "Incident documentation"]
+    actor: Grid Operator
+    action: Implement automated load balancing, isolate faulty segments, or dispatch
+      field crews for manual intervention
+    decision_points:
+    - System stability assessment
+    - Safety risk evaluation
+    - Customer impact analysis
+    tools:
+    - Control Systems
+    - Remote Switches
+    - Field Crew Dispatch System
+    duration: 5-15 minutes
+    outputs:
+    - Corrective Action Log
+    - System status update
+    - Incident documentation
   - step: 4
-    actor: "System Analyst"
-    action: "Conduct root cause analysis, update predictive models with new data patterns, and implement algorithm improvements"
-    tools: ["Analytics Platform", "Machine Learning Models", "Data Visualization Tools"]
-    duration: "10-20 minutes"
-    outputs: ["Incident Analysis Report", "Algorithm Update Documentation", "Preventive Measure Recommendations"]
-  success_criteria: "Grid stability restored within 15 minutes, no service interruption"
-  failure_modes: ["False positive alerts", "Delayed response", "Equipment failure", "Communication breakdown"]
+    actor: System Analyst
+    action: Conduct root cause analysis, update predictive models with new data patterns,
+      and implement algorithm improvements
+    tools:
+    - Analytics Platform
+    - Machine Learning Models
+    - Data Visualization Tools
+    duration: 10-20 minutes
+    outputs:
+    - Incident Analysis Report
+    - Algorithm Update Documentation
+    - Preventive Measure Recommendations
+  success_criteria: Grid stability restored within 15 minutes, no service interruption
+  failure_modes:
+  - False positive alerts
+  - Delayed response
+  - Equipment failure
+  - Communication breakdown
   metrics:
-  - "Mean time to detect: <2 minutes"
-  - "Response time: <15 minutes for critical alerts"
-  - "System uptime: 99.99%"
-  - "False positive rate: <5%"
-  - "Automated resolution rate: 70%"
-  - "Customer outage duration: <5 minutes average"
-  - "Incident resolution accuracy: >95%"
+  - 'Mean time to detect: <2 minutes'
+  - 'Response time: <15 minutes for critical alerts'
+  - 'System uptime: 99.99%'
+  - 'False positive rate: <5%'
+  - 'Automated resolution rate: 70%'
+  - 'Customer outage duration: <5 minutes average'
+  - 'Incident resolution accuracy: >95%'
   performance_history:
-    success_rate_trend: "85% (2024) → 92% (2025)"
-    cost_trend: "$2.1M (2024) → $1.8M (2025)"
-    efficiency_improvements: ["AI prediction reduced incident response time by 40%", "Automated actions prevented 60% of outages"]
+    success_rate_trend: 85% (2024) → 92% (2025)
+    cost_trend: $2.1M (2024) → $1.8M (2025)
+    efficiency_improvements:
+    - AI prediction reduced incident response time by 40%
+    - Automated actions prevented 60% of outages

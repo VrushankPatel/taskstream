@@ -1,18 +1,18 @@
 # EU Aerospace Unmanned Systems Regulatory Update - Meeting Notes
 
-**Meeting Title:** EU Drone Operations Regulatory Compliance Update  
-**Date:** 2025-09-20  
-**Time:** 10:00 - 11:30 CET  
-**Location:** Brussels Headquarters, Conference Room A  
-**Attendees:**  
-- Dr. Maria Santos (Regulatory Affairs Director)  
-- James Wilson (Chief Compliance Officer)  
-- Dr. Ahmed Hassan (Technical Director, Unmanned Systems)  
-- Sarah Chen (Legal Counsel, EU Operations)  
-- Michael Krause (Operations Manager, Drone Services)  
-- External: Commissioner Elena Vasquez (EU Aviation Safety Agency)  
+**Meeting Title:** EU Drone Operations Regulatory Compliance Update
+**Date:** 2025-09-20
+**Time:** 10:00 - 11:30 CET
+**Location:** Brussels Headquarters, Conference Room A
+**Attendees:**
+- Dr. Maria Santos (Regulatory Affairs Director)
+- James Wilson (Chief Compliance Officer)
+- Dr. Ahmed Hassan (Technical Director, Unmanned Systems)
+- Sarah Chen (Legal Counsel, EU Operations)
+- Michael Krause (Operations Manager, Drone Services)
+- External: Commissioner Elena Vasquez (EU Aviation Safety Agency)
 
-**Meeting Objective:**  
+**Meeting Objective:**
 Review and discuss the impact of new EU unmanned systems regulations on operations, certification processes, and compliance requirements.
 
 ## 1. Opening Remarks (Dr. Maria Santos)
@@ -201,7 +201,7 @@ Review and discuss the impact of new EU unmanned systems regulations on operatio
 
 **Next Meeting:** January 15, 2026 - Compliance Progress Review
 
-**Document Version:** 1.0  
-**Prepared by:** Sarah Chen, Legal Counsel  
-**Reviewed by:** Dr. Maria Santos, Regulatory Affairs Director  
+**Document Version:** 1.0
+**Prepared by:** Sarah Chen, Legal Counsel
+**Reviewed by:** Dr. Maria Santos, Regulatory Affairs Director
 **Approved by:** James Wilson, Chief Compliance Officer

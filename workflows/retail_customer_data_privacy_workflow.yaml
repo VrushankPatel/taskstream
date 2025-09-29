@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 8
     seasonal_variations: ["Q1 compliance reviews", "Q2-Q3 implementation", "Q4 audit preparation"]
     historical_evolution: "Evolved from basic data protection to comprehensive privacy management, incorporating GDPR, CCPA, and emerging regulations"
-   steps:
+  steps:
      - step: 1
        actor: "Privacy Officer"
        action: "Conduct comprehensive assessment of privacy requirements across all jurisdictions and data processing activities"
@@ -50,7 +50,7 @@ workflow:
        outputs: ["Staff training completion records", "Customer privacy communications", "Privacy awareness campaign materials", "Customer inquiry handling procedures"]
   success_criteria: "100% compliance with applicable privacy regulations, zero data breaches"
   failure_modes: ["Inadequate technical controls", "Poor staff training", "Incomplete policy updates"]
-   metrics:
+  metrics:
      - "Regulatory compliance score: 100% across all applicable regulations"
      - "Data breach incidents: 0 incidents in measurement period"
      - "Privacy training completion rate: 95% of all staff"

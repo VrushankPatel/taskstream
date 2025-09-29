@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 8
     seasonal_variations: ["Q4 planning phase", "Q1-Q2 implementation", "Q3-Q4 evaluation and adjustment"]
     historical_evolution: "Evolved from ad-hoc retraining to structured transition programs, incorporating skills assessment and career development planning"
-   steps:
+  steps:
      - step: 1
        actor: "HR Director"
        action: "Conduct comprehensive workforce skills assessment and identify specific transition requirements for affected roles"
@@ -50,7 +50,7 @@ workflow:
        outputs: ["Transition adoption reports", "Employee satisfaction surveys", "Performance improvement recommendations", "Long-term development plans"]
   success_criteria: "90% employee retention rate, 80% successful role transitions"
   failure_modes: ["Resistance to change", "Inadequate training", "Poor communication"]
-   metrics:
+  metrics:
      - "Employee retention rate: 90% during transition period"
      - "Skills certification completion: 85% of affected employees"
      - "Productivity impact: <5% decrease in first 3 months"

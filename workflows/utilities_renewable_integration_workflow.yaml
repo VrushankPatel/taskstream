@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 6
     seasonal_variations: ["Q1 planning and permitting", "Q2-Q3 construction", "Q4 commissioning and testing"]
     historical_evolution: "Evolved from fossil fuel dominance to renewable integration, incorporating smart grid technology and energy storage systems"
-   steps:
+  steps:
      - step: 1
        actor: "Renewable Energy Director"
        action: "Assess renewable potential and develop integration strategy including site selection, capacity planning, and interconnection requirements"
@@ -50,7 +50,7 @@ workflow:
        outputs: ["Environmental impact assessments", "Monitoring system implementation", "Compliance reports", "Mitigation effectiveness evaluations"]
   success_criteria: "Renewable capacity integrated successfully, grid stability maintained at 99.9%"
   failure_modes: ["Interconnection issues", "Regulatory delays", "Environmental concerns"]
-   metrics:
+  metrics:
      - "Renewable capacity integration: 100% of planned capacity achieved"
      - "Grid stability: 99.9% uptime maintained during integration"
      - "Integration cost: Within 5% of budgeted amount"

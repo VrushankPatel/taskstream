@@ -12,7 +12,7 @@ workflow:
     average_annual_executions: 3
     seasonal_variations: ["Q1 assessment and planning", "Q2-Q3 pilot implementation", "Q4 full rollout and optimization"]
     historical_evolution: "Evolved from traditional manufacturing to connected smart factory, incorporating IoT, AI, and digital twins"
-   steps:
+  steps:
      - step: 1
        actor: "Chief Operations Officer"
        action: "Define comprehensive Industry 4.0 vision, establish strategic objectives, and align executive stakeholders"
@@ -50,7 +50,7 @@ workflow:
        outputs: ["Comprehensive training programs", "Change management communications", "Adoption monitoring reports", "Cultural transformation metrics"]
   success_criteria: "20% improvement in operational efficiency, 15% reduction in downtime"
   failure_modes: ["Technology integration challenges", "Workforce resistance", "Data security concerns"]
-   metrics:
+  metrics:
      - "Operational efficiency improvement: 20% increase in throughput"
      - "Equipment downtime reduction: 15% decrease in unplanned downtime"
      - "Digital maturity score: 80% of Industry 4.0 benchmark"

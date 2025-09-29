@@ -20,82 +20,54 @@ workflow:
   steps:
   - step: 1
     actor: Agronomist
-    action: Analyze soil conditions and historical yield data
-    tools:
-    - Soil Testing Kit
-    - Weather Data
-    - Yield Database
+    action: Analyze soil conditions and historical yield data to develop optimization strategy
+    tools: ["Soil Testing Kit", "Weather Data Analytics", "Yield Database", "GIS Mapping"]
     duration: 2 weeks
-    outputs:
-    - Soil Analysis Report
-    - Yield Prediction Model
+    outputs: ["Soil Analysis Report", "Yield Prediction Model", "Risk Assessment"]
+    decision_points: ["Soil fertility levels", "Weather pattern analysis", "Historical yield trends"]
   - step: 2
     actor: Farm Manager
-    action: Develop crop rotation and planting schedule
-    decision_points:
-    - Crop selection
-    - Planting timing
-    - Resource allocation
+    action: Develop comprehensive crop rotation and planting schedule based on analysis
+    tools: ["Crop Planning Software", "Resource Calculator", "Market Price Forecasts"]
     duration: 1 week
-    outputs:
-    - Planting Plan
-    - Resource Requirements
+    outputs: ["Planting Plan", "Resource Requirements", "Budget Allocation"]
+    decision_points: ["Crop selection based on soil suitability", "Planting timing optimization", "Resource allocation priorities"]
   - step: 3
     actor: Data Analyst
-    action: Set up IoT sensors and monitoring systems
-    tools:
-    - IoT Platform
-    - Weather Stations
-    - Drone Technology
+    action: Set up IoT sensors and monitoring systems for precision agriculture
+    tools: ["IoT Platform", "Weather Stations", "Drone Technology", "Satellite Imagery"]
     duration: 3 days
-    outputs:
-    - Monitoring Setup
-    - Data Collection Protocols
+    outputs: ["Monitoring Setup", "Data Collection Protocols", "Alert System Configuration"]
+    decision_points: ["Sensor placement optimization", "Data collection frequency", "Alert threshold settings"]
   - step: 4
     actor: Equipment Operator
-    action: Execute planting and cultivation activities
-    tools:
-    - Precision Planting Equipment
-    - Irrigation Systems
+    action: Execute precision planting and cultivation activities with GPS guidance
+    tools: ["Precision Planting Equipment", "GPS Guidance System", "Irrigation Controls", "Variable Rate Technology"]
     duration: 6-8 weeks
-    outputs:
-    - Planting Records
-    - Field Activity Logs
+    outputs: ["Planting Records", "Field Activity Logs", "Equipment Performance Data"]
+    decision_points: ["Planting depth adjustments", "Seeding rate variations", "Irrigation scheduling"]
   - step: 5
     actor: Agronomist
-    action: Monitor crop health and apply optimization strategies
-    tools:
-    - Remote Sensing
-    - AI Analytics
-    - Fertilizer Application
+    action: Monitor crop health and apply optimization strategies using AI analytics
+    tools: ["Remote Sensing", "AI Analytics Platform", "Variable Rate Fertilizer", "Disease Detection System"]
     duration: Ongoing throughout season
-    outputs:
-    - Health Assessments
-    - Optimization Recommendations
+    outputs: ["Health Assessments", "Optimization Recommendations", "Treatment Applications"]
+    decision_points: ["Fertilizer application timing", "Pest management interventions", "Irrigation adjustments"]
   - step: 6
     actor: Supply Chain Coordinator
-    action: Coordinate harvest and post-harvest processing
-    tools:
-    - Harvest Scheduling
-    - Storage Facilities
-    - Market Analysis
+    action: Coordinate harvest timing and post-harvest processing for optimal quality
+    tools: ["Harvest Scheduling System", "Storage Management", "Market Analysis Tools", "Quality Testing Equipment"]
     duration: 4 weeks
-    outputs:
-    - Harvest Plan
-    - Quality Control Reports
-  success_criteria: Yield targets achieved, quality standards met, sustainable practices
-    maintained
-  failure_modes:
-  - Weather-related losses
-  - Pest/disease outbreaks
-  - Equipment failures
-  - Market price volatility
+    outputs: ["Harvest Plan", "Quality Control Reports", "Market Delivery Schedule"]
+    decision_points: ["Optimal harvest timing", "Storage allocation", "Market pricing strategy"]
+  success_criteria: "Yield targets achieved within 95% confidence, quality standards met, sustainable practices maintained, ROI >15%"
+  failure_modes: ["Weather-related crop losses exceeding 20%", "Pest/disease outbreaks causing yield reduction", "Equipment failures during critical periods", "Market price volatility affecting profitability", "Input cost inflation"]
   metrics:
-   - 'Crop yield per acre: Target 200 bushels/acre'
-   - 'Production cost per unit: Target <$0.15/lb'
-   - 'Quality grade A rating: Target >90%'
-   - 'Resource utilization efficiency: Target >85%'
-   - 'Sustainable practice compliance: Target 100%'
+    - "Crop yield per acre: Target >200 bushels/acre (current: 215 bushels/acre)"
+    - "Production cost per unit: Target <$0.15/lb (current: $0.142/lb)"
+    - "Quality grade A rating: Target >90% (current: 94%)"
+    - "Resource utilization efficiency: Target >85% (current: 87%)"
+    - "Sustainable practice compliance: Target 100% (current: 100%)"
   performance_history:
     success_rate_trend: "78% (2023) → 82% (2024) → 85% (2025)"
     cost_trend: "$180 per acre (2023) → $165 (2024) → $150 (2025)"

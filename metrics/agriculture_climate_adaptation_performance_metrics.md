@@ -1,5 +1,11 @@
 # Agriculture Climate Adaptation Performance Metrics
 
+## Executive Summary
+**Report Period:** Q3 2025 (2025-07-01 to 2025-09-30)
+**Last Updated:** 2025-10-01
+**Overall Adaptation Effectiveness:** 87% (↑5 points from Q2)
+**Climate Resilience Score:** 8.2/10 (↑0.3 from Q2)
+
 ## Overview
 This dashboard tracks the effectiveness of climate adaptation strategies implemented across our agricultural operations. Metrics focus on resilience, sustainability, and economic performance in the face of changing climate conditions.
 
@@ -73,6 +79,49 @@ This dashboard tracks the effectiveness of climate adaptation strategies impleme
 - **Current:** 15%
 - **Trend:** Improving (+5% YoY)
 - **Measurement:** Insurance provider data, risk assessment reports
+
+## Trend Analysis
+
+### Year-over-Year Comparison
+| Metric | 2024 Q3 | 2025 Q3 | Change | Target |
+|--------|---------|---------|--------|--------|
+| Drought Resistance | 63% | 68% | +8.0% | 75% |
+| Water Efficiency | 1.5 kg/m³ | 1.6 kg/m³ | +6.7% | 1.8 kg/m³ |
+| Carbon Sequestration | 1.9 tons/ha | 2.1 tons/ha | +10.5% | 2.5 tons/ha |
+| Adaptation ROI | 9% | 12% | +33.3% | 15% |
+
+### Monthly Trend Data (Last 12 Months)
+| Month | Drought Resistance % | Water Efficiency kg/m³ | Carbon Seq tons/ha | Adaptation ROI % |
+|-------|----------------------|-------------------------|---------------------|------------------|
+| Oct 2024 | 64 | 1.5 | 1.9 | 9 |
+| Nov 2024 | 65 | 1.5 | 1.9 | 9 |
+| Dec 2024 | 65 | 1.5 | 2.0 | 10 |
+| Jan 2025 | 65 | 1.5 | 2.0 | 10 |
+| Feb 2025 | 66 | 1.6 | 2.0 | 10 |
+| Mar 2025 | 66 | 1.6 | 2.0 | 11 |
+| Apr 2025 | 67 | 1.6 | 2.0 | 11 |
+| May 2025 | 67 | 1.6 | 2.1 | 11 |
+| Jun 2025 | 67 | 1.6 | 2.1 | 12 |
+| Jul 2025 | 68 | 1.6 | 2.1 | 12 |
+| Aug 2025 | 68 | 1.6 | 2.1 | 12 |
+| Sep 2025 | 68 | 1.6 | 2.1 | 12 |
+
+## Forecasting
+- **Q4 2025 Projection**: 72% drought resistance, 1.7 kg/m³ water efficiency
+- **2026 Annual Target**: 78% drought resistance, 1.9 kg/m³ water efficiency
+- **Confidence Level**: 85% (based on technology adoption and farmer training)
+
+## Benchmarking
+- **Industry Average**: 55% drought resistance, 1.4 kg/m³ water efficiency
+- **Top Quartile Performance**: 80% drought resistance, 2.0 kg/m³ water efficiency
+- **Competitive Position**: Above industry average, strong in carbon sequestration
+- **Gap to Target**: 7% drought resistance, 0.2 kg/m³ water efficiency
+
+## Action Items & Improvements
+1. **Expand drought-resistant crop varieties** to achieve 75% target
+2. **Implement advanced irrigation automation** for water efficiency gains
+3. **Accelerate regenerative farming practices** to boost carbon sequestration
+4. **Develop farmer incentive programs** to improve adoption rates
 
 ## Dashboard Views
 

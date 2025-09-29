@@ -6,13 +6,13 @@ workflow:
   participants: ["Front Desk Agent", "Concierge", "Housekeeping Supervisor", "Security"]
   trigger: "Guest arrival at hotel"
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify reservation and collect guest information"
-      decision_points: ["Confirm reservation details", "Check for upgrades or special requests", "Verify payment method"]
-      tools: ["PMS system", "ID verification"]
-      duration: "5 minutes"
-      outputs: ["Guest registration form", "Reservation confirmation"]
+     - step: 1
+       actor: "Front Desk Agent"
+       action: "Verify reservation and collect guest information"
+       decision_points: ["Confirm reservation details", "Check for upgrades or special requests", "Verify payment method", "Select check-in method: standard, contactless mobile, or express loyalty"]
+       tools: ["PMS system", "ID verification", "Mobile check-in app", "Self-service kiosk"]
+       duration: "5 minutes"
+       outputs: ["Guest registration form", "Reservation confirmation", "Digital room key (for mobile check-in)"]
     - step: 2
       actor: "Front Desk Agent"
       action: "Process payment and assign room"

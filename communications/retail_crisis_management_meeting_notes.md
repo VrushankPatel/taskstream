@@ -67,6 +67,57 @@ Develop immediate response strategy for supply chain disruptions caused by extre
 - Complete crisis response within 48 hours
 - Develop comprehensive recovery plan
 
+### Communication Templates
+
+#### Customer Email Template
+Subject: Important Update on Product Availability Due to Supply Chain Challenges
+
+Dear Valued Customer,
+
+We are currently experiencing temporary supply challenges due to extreme weather events affecting our key suppliers. This is impacting availability of certain seasonal and electronics products.
+
+Current Status:
+- Affected categories: Seasonal apparel, electronics, home goods
+- Estimated resolution: 2-4 weeks based on current forecasts
+- Alternative products available in-store and online
+- Free shipping on alternative selections
+
+We sincerely apologize for any inconvenience and are working around the clock to minimize the impact on your shopping experience.
+
+Best regards,
+[Retail Company] Customer Service Team
+
+#### Social Media Post Template
+🚨 Supply Chain Update 🚨
+
+Due to recent extreme weather events, we're experiencing temporary delays in some seasonal and electronics products. Our team has activated emergency supplier networks and is redistributing inventory to minimize impact.
+
+Key updates:
+- Alternative products available
+- Free expedited shipping options
+- Daily updates on our website
+
+Thank you for your patience and understanding! #SupplyChainResilience
+
+#### Internal Staff Communication Template
+Subject: Crisis Response Protocols - Supply Chain Disruption
+
+Team,
+
+As communicated in today's crisis meeting, we are implementing the following response protocols:
+
+1. **Inventory Redistribution**: Stock transfers to high-demand stores starting immediately
+2. **Customer Communication**: Proactive outreach to affected customers
+3. **Staff Training**: Emergency procedures training this afternoon
+4. **Daily Updates**: 9 AM standup calls for status updates
+
+Please refer to the crisis response playbook for detailed procedures. Contact your manager with any questions.
+
+Thank you for your flexibility and dedication during this challenging period.
+
+Best,
+Crisis Management Team
+
 ### Next Steps
 - Daily crisis management calls starting tomorrow
 - Weekly executive updates

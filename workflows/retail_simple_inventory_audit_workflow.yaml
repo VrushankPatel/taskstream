@@ -34,8 +34,18 @@ workflow:
   success_criteria: "Inventory accuracy within 2% variance"
   failure_modes: ["Count errors", "System data entry mistakes", "Missing items", "Staffing shortages during audit"]
   risks: ["Operational disruption during peak hours", "Data security concerns with inventory systems", "Employee fatigue leading to errors", "Supplier delays affecting restocking"]
-  metrics:
-    - "Inventory accuracy rate: 98% target (current: 96.5%)"
-    - "Audit completion time: 6 hours target (current: 5.5 hours average)"
-    - "Shrinkage reduction: $500/month target (current: $450/month)"
-    - "Cost per audit: $200 target (current: $180)"
+   metrics:
+     - "Inventory accuracy rate: 98% target (current: 96.5%)"
+     - "Audit completion time: 6 hours target (current: 5.5 hours average)"
+     - "Shrinkage reduction: $500/month target (current: $450/month)"
+     - "Cost per audit: $200 target (current: $180)"
+   training_requirements:
+     - "Inventory software certification"
+     - "Barcode scanner operation training"
+     - "Discrepancy investigation procedures"
+     - "Safety protocols for handling inventory"
+   escalation_procedures:
+     - "Minor discrepancies (<2%): Assistant Manager approval"
+     - "Medium discrepancies (2-5%): Store Manager review required"
+     - "Major discrepancies (>5%): Regional Manager notification and investigation"
+     - "System failures: Immediate IT support escalation"

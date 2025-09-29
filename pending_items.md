@@ -80,25 +80,25 @@
 ### Updated Strategic Objectives for Next 6 Sessions
 
 #### Industry Expansion Priorities (High Priority - Immediate Focus)
-- **Retail**: Expand from current 8.3% (182 files) to 10%+ (target 220+ files) - e-commerce, customer experience, supply chain resilience, data privacy compliance, inventory management
-- **Hospitality**: Expand from current 5.3% (115 files) to 5%+ (target 110+ files) - revenue management, guest experience, health safety protocols, crisis response, workforce management
-- **Insurance**: Expand from current 4.4% (97 files) to 5%+ (target 110+ files) - claims automation, underwriting, parametric products, climate risk modeling, cyber insurance
-- **Utilities**: Expand from current 2.4% (53 files) to 3%+ (target 70+ files) - infrastructure management, renewable energy integration, grid modernization, regulatory compliance
-- **Mining**: Expand from current 2.4% (53 files) to 3%+ (target 70+ files) - safety protocols, environmental compliance, resource optimization, community relations
-- **Agriculture**: Expand from current 3.0% (65 files) to 3%+ (target 70+ files) - sustainable farming, precision agriculture, climate-resilient farming, carbon credits
-- **Aerospace**: Expand from current 2.5% (54 files) to 3%+ (target 70+ files) - safety certification, unmanned systems, space traffic management, orbital debris
-- **Healthcare**: Maintain 11.6% (254 files) - telemedicine adoption, patient data privacy, medical device integration
-- **Manufacturing**: Expand from current 4.8% (104 files) to 8%+ (target 180+ files) - Industry 4.0 implementation, supply chain digitization, quality automation
+- **Retail**: Expand from current 6.6% (145 files) to 8%+ (target 176+ files) - e-commerce, customer experience, supply chain resilience, data privacy compliance, inventory management
+- **Hospitality**: Expand from current 5.3% (116 files) to 6%+ (target 132+ files) - revenue management, guest experience, health safety protocols, crisis response, workforce management
+- **Insurance**: Expand from current 4.4% (98 files) to 5%+ (target 110+ files) - claims automation, underwriting, parametric products, climate risk modeling, cyber insurance
+- **Utilities**: Expand from current 2.5% (55 files) to 3%+ (target 66+ files) - infrastructure management, renewable energy integration, grid modernization, regulatory compliance
+- **Mining**: Expand from current 2.3% (50 files) to 3%+ (target 66+ files) - safety protocols, environmental compliance, resource optimization, community relations
+- **Agriculture**: Expand from current 2.9% (64 files) to 3%+ (target 66+ files) - sustainable farming, precision agriculture, climate-resilient farming, carbon credits
+- **Aerospace**: Expand from current 2.5% (55 files) to 3%+ (target 66+ files) - safety certification, unmanned systems, space traffic management, orbital debris
+- **Healthcare**: Maintain 11.6% (256 files) - telemedicine adoption, patient data privacy, medical device integration
+- **Manufacturing**: Expand from current 4.5% (99 files) to 8%+ (target 176+ files) - Industry 4.0 implementation, supply chain digitization, quality automation
 - **Finance**: Maintain 7.0% (154 files) - digital banking, risk management, regulatory compliance
-- **Technology**: Reduce from current 43.7% (957 files) to <30% (target <650 files) - focus on cross-industry applications
+- **Technology**: Reduce from current 43.7% (964 files) to <30% (target <660 files) - focus on cross-industry applications
 
 #### Content Type Rebalancing Objectives
-- **Workflows**: Maintain 27.6% (606 files) - introduce simple/medium complexity to reach 20/50/30 distribution
-- **Decisions**: Maintain 22.4% (491 files) - continue stakeholder analysis depth
-- **Communications**: Maintain 21.3% (467 files) - enhance diversity in traditional industries
-- **Org Structures**: Increase from 12.2% (268 files) to 15% (320 files) - expand governance models
-- **Metrics**: Maintain 12.1% (266 files) - align with workflow coverage
-- **Policies**: Increase from 10.4% (228 files) to 15% (320 files) - develop operational procedures
+- **Workflows**: Maintain 27.6% (609 files) - introduce simple/medium complexity to reach 20/50/30 distribution
+- **Decisions**: Maintain 22.4% (493 files) - continue stakeholder analysis depth
+- **Communications**: Maintain 21.3% (470 files) - enhance diversity in traditional industries
+- **Org Structures**: Increase from 12.2% (270 files) to 15% (330 files) - expand governance models
+- **Metrics**: Maintain 12.1% (268 files) - align with workflow coverage
+- **Policies**: Increase from 10.4% (230 files) to 15% (330 files) - develop operational procedures
 
 #### Quality Benchmarking Goals
 - **Overall Quality Score**: Maintain 97%+ enterprise-grade authenticity (current: 97%)

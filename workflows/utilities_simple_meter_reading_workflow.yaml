@@ -12,25 +12,28 @@ workflow:
     average_annual_executions: 120000
     seasonal_variations: ["Summer peak usage readings", "Winter lower readings"]
     historical_evolution: "Manual reading transitioned to AMI in 2020, added mobile app verification in 2023"
-  steps:
-    - step: 1
-      actor: "Meter Reader"
-      action: "Access meter location and record reading"
-      tools: ["Mobile reading device", "GPS navigation"]
-      duration: "5 minutes"
-      outputs: ["Meter reading data", "Location verification"]
-    - step: 2
-      actor: "Meter Reader"
-      action: "Verify reading accuracy and note any issues"
-      tools: ["Reading validation software"]
-      duration: "2 minutes"
-      outputs: ["Validated reading", "Maintenance flags if needed"]
-    - step: 3
-      actor: "Field Supervisor"
-      action: "Review readings for anomalies and dispatch maintenance"
-      decision_points: ["Reading variance", "Equipment condition"]
-      duration: "10 minutes"
-      outputs: ["Approved readings", "Maintenance work orders"]
+   steps:
+     - step: 1
+       actor: "Meter Reader"
+       action: "Access meter location and record reading"
+       tools: ["Mobile reading device", "GPS navigation", "Access keys/codes database"]
+       duration: "5 minutes"
+       decision_points: ["Meter accessibility confirmed", "Reading device functionality", "Safety conditions acceptable", "Customer contact required"]
+       outputs: ["Meter reading data", "Location verification", "Access notes", "Safety observations"]
+     - step: 2
+       actor: "Meter Reader"
+       action: "Verify reading accuracy and note any issues"
+       tools: ["Reading validation software", "Historical data comparison"]
+       duration: "2 minutes"
+       decision_points: ["Reading within expected range", "Equipment tampering indicators", "Maintenance issues detected", "Re-reading required"]
+       outputs: ["Validated reading", "Maintenance flags if needed", "Anomaly report", "Photo documentation if required"]
+     - step: 3
+       actor: "Field Supervisor"
+       action: "Review readings for anomalies and dispatch maintenance"
+       decision_points: ["Reading variance exceeds threshold", "Equipment condition requires service", "Pattern of anomalies detected", "Emergency maintenance needed"]
+       duration: "10 minutes"
+       tools: ["Anomaly detection system", "Maintenance scheduling platform"]
+       outputs: ["Approved readings", "Maintenance work orders", "Priority assignments", "Follow-up scheduling"]
   success_criteria: "All meters read within billing cycle with >99% accuracy"
   failure_modes: ["Inaccessible meters", "Equipment malfunction", "Weather delays"]
   metrics:

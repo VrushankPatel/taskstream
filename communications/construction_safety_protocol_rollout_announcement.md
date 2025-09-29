@@ -1,8 +1,8 @@
 ## Construction Safety Protocol Rollout Announcement
 
-**From:** Construction Safety Director  
-**To:** All Construction Teams, Project Managers, Safety Officers  
-**Subject:** Enhanced Safety Protocols - Immediate Implementation Required  
+**From:** Construction Safety Director
+**To:** All Construction Teams, Project Managers, Safety Officers
+**Subject:** Enhanced Safety Protocols - Immediate Implementation Required
 
 Team,
 
@@ -54,5 +54,5 @@ Following our recent safety incident review, I'm announcing the immediate rollou
 
 Safety is our top priority. These protocols will help us maintain our excellent safety record and protect everyone working on our sites. Please take this seriously and reach out if you need assistance with implementation.
 
-Best regards,  
+Best regards,
 Construction Safety Director

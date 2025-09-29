@@ -3,8 +3,17 @@
   "context": "Global manufacturing company, 45000 employees, transforming supply chain for sustainability compliance and competitive advantage",
   "stakeholders": {
     "requester": "VP Supply Chain",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["Supplier Council", "Environmental NGOs", "Customer Sustainability Teams", "Regulatory Affairs"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Sustainability Officer"
+    ],
+    "influencers": [
+      "Supplier Council",
+      "Environmental NGOs",
+      "Customer Sustainability Teams",
+      "Regulatory Affairs"
+    ]
   },
   "request": {
     "amount": "$120M",
@@ -16,31 +25,51 @@
     {
       "stage": "sustainability_assessment",
       "duration": "6 weeks",
-      "activities": ["Carbon footprint analysis", "Supplier sustainability audit", "Regulatory compliance review"],
+      "activities": [
+        "Carbon footprint analysis",
+        "Supplier sustainability audit",
+        "Regulatory compliance review"
+      ],
       "outcome": "Current supply chain contributes 40% of total carbon emissions"
     },
     {
       "stage": "transformation_strategy",
       "duration": "8 weeks",
-      "activities": ["Sustainability roadmap development", "Technology solution evaluation", "Supplier engagement planning"],
+      "activities": [
+        "Sustainability roadmap development",
+        "Technology solution evaluation",
+        "Supplier engagement planning"
+      ],
       "outcome": "Comprehensive transformation strategy with clear milestones and KPIs"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Funding strategy"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Funding strategy"
+      ],
       "outcome": "Projected 20% cost savings and new revenue opportunities from sustainable products"
     },
     {
       "stage": "supplier_engagement",
       "duration": "6 weeks",
-      "activities": ["Supplier capability assessment", "Collaboration agreements", "Capacity building programs"],
+      "activities": [
+        "Supplier capability assessment",
+        "Collaboration agreements",
+        "Capacity building programs"
+      ],
       "outcome": "80% of key suppliers committed to sustainability transformation"
     },
     {
       "stage": "executive_approval",
       "duration": "3 weeks",
-      "activities": ["Board presentation", "Stakeholder alignment", "Final investment approval"],
+      "activities": [
+        "Board presentation",
+        "Stakeholder alignment",
+        "Final investment approval"
+      ],
       "outcome": "Approved with enhanced supplier development program and monitoring framework"
     }
   ],
@@ -49,7 +78,12 @@
     "cost_savings": "$45M annual savings from energy efficiency and waste reduction",
     "market_advantage": "Access to sustainable product markets and premium pricing opportunities",
     "regulatory_compliance": "Proactive compliance with emerging sustainability regulations",
-    "risk_factors": ["Supplier resistance", "Technology integration challenges", "Cost overruns", "Market demand uncertainty"]
+    "risk_factors": [
+      "Supplier resistance",
+      "Technology integration challenges",
+      "Cost overruns",
+      "Market demand uncertainty"
+    ]
   },
   "decision_outcome": "Approved $120M transformation program with 5-year timeline; includes supplier development fund, technology implementation, and comprehensive monitoring dashboard; additional $20M allocated for supplier capacity building and market development"
 }

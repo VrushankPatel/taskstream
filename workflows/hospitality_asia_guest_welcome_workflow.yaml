@@ -1,31 +1,45 @@
 workflow:
-  id: "workflow_hospitality_asia_guest_welcome"
-  title: "Hospitality Asia Guest Welcome Process"
-  department: "Front Office"
-  complexity: "medium"
-  participants: ["Concierge", "Guest Services Manager", "Local Culture Coordinator"]
-  trigger: "Guest arrival at Asian hotel property"
+  id: workflow_hospitality_asia_guest_welcome
+  title: Hospitality Asia Guest Welcome Process
+  department: Front Office
+  complexity: medium
+  participants:
+  - Concierge
+  - Guest Services Manager
+  - Local Culture Coordinator
+  trigger: Guest arrival at Asian hotel property
   steps:
-    - step: 1
-      actor: "Concierge"
-      action: "Greet guest with cultural-appropriate welcome"
-      tools: ["Guest profile system", "Cultural greeting database"]
-      duration: "5 minutes"
-      outputs: ["Personalized welcome experience"]
-    - step: 2
-      actor: "Concierge"
-      action: "Provide local area information and recommendations"
-      tools: ["Local guide app", "Translation services"]
-      duration: "10 minutes"
-      outputs: ["Local orientation package"]
-    - step: 3
-      actor: "Guest Services Manager"
-      action: "Follow up within 2 hours for service quality check"
-      tools: ["Service tracking system", "Feedback survey"]
-      duration: "5 minutes"
-      outputs: ["Service quality feedback"]
-  success_criteria: "Guest satisfaction score >4.5/5 on welcome experience"
-  failure_modes: ["Cultural misunderstanding", "Language barriers"]
+  - step: 1
+    actor: Concierge
+    action: Greet guest with cultural-appropriate welcome
+    tools:
+    - Guest profile system
+    - Cultural greeting database
+    duration: 5 minutes
+    outputs:
+    - Personalized welcome experience
+  - step: 2
+    actor: Concierge
+    action: Provide local area information and recommendations
+    tools:
+    - Local guide app
+    - Translation services
+    duration: 10 minutes
+    outputs:
+    - Local orientation package
+  - step: 3
+    actor: Guest Services Manager
+    action: Follow up within 2 hours for service quality check
+    tools:
+    - Service tracking system
+    - Feedback survey
+    duration: 5 minutes
+    outputs:
+    - Service quality feedback
+  success_criteria: Guest satisfaction score >4.5/5 on welcome experience
+  failure_modes:
+  - Cultural misunderstanding
+  - Language barriers
   metrics:
-    - "Welcome completion rate: >95%"
-    - "Cultural adaptation feedback: >90% positive"
+  - 'Welcome completion rate: >95%'
+  - 'Cultural adaptation feedback: >90% positive'

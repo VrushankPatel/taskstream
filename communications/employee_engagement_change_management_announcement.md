@@ -38,8 +38,8 @@ This program reflects our commitment to supporting you through change while buil
 
 If you have questions or need support, please don't hesitate to reach out to your manager or the HR team.
 
-Best regards,  
-[CHRO Name]  
+Best regards,
+[CHRO Name]
 Chief Human Resources Officer
 
 ---
@@ -65,7 +65,7 @@ Your department Change Champions are trained facilitators who will:
 
 Please welcome your Change Champions and give them your support as we work together through this transformation.
 
-Best,  
+Best,
 [Change Management Director Name]
 
 ---
@@ -82,7 +82,7 @@ I'm pleased to introduce [Change Champion Name] as our department's Change Champ
 
 Let's work together to make this transition successful!
 
-Best,  
+Best,
 [Department Manager Name]
 
 ---
@@ -95,5 +95,5 @@ Thank you for this comprehensive program. It's reassuring to know that support i
 
 One suggestion: It would be helpful to have more in-person sessions for those who prefer face-to-face interactions.
 
-Best,  
+Best,
 [Employee Name]

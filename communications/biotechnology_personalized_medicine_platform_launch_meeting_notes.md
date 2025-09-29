@@ -1,9 +1,9 @@
 ## Meeting Notes: Personalized Medicine Platform Launch Planning
 
-**Meeting:** PM Platform Launch Committee  
-**Date:** December 10, 2025  
-**Location:** Virtual (Zoom)  
-**Attendees:** CEO, CMO, CTO, Clinical Development Lead, Regulatory Affairs, Marketing Team, Patient Advocacy Rep  
+**Meeting:** PM Platform Launch Committee
+**Date:** December 10, 2025
+**Location:** Virtual (Zoom)
+**Attendees:** CEO, CMO, CTO, Clinical Development Lead, Regulatory Affairs, Marketing Team, Patient Advocacy Rep
 
 ### Agenda
 1. Platform readiness assessment

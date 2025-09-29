@@ -3,9 +3,19 @@
   "context": "Healthcare technology company (300 employees) evaluating acquisition of AI diagnostics startup",
   "stakeholders": {
     "requester": "CEO",
-    "approvers": ["Board of Directors"],
-    "influencers": ["CFO", "Chief Medical Officer", "Legal Counsel"],
-    "advisors": ["Investment banker", "Due diligence firm", "Industry experts"]
+    "approvers": [
+      "Board of Directors"
+    ],
+    "influencers": [
+      "CFO",
+      "Chief Medical Officer",
+      "Legal Counsel"
+    ],
+    "advisors": [
+      "Investment banker",
+      "Due diligence firm",
+      "Industry experts"
+    ]
   },
   "request": {
     "amount": "$45M",
@@ -17,32 +27,59 @@
     {
       "stage": "strategic_fit_analysis",
       "duration": "4 weeks",
-      "activities": ["Technology assessment", "Market opportunity", "Competitive advantage"],
+      "activities": [
+        "Technology assessment",
+        "Market opportunity",
+        "Competitive advantage"
+      ],
       "outcome": "Strong strategic fit with complementary capabilities"
     },
     {
       "stage": "due_diligence",
       "duration": "8 weeks",
-      "activities": ["Financial audit", "Legal review", "Technology validation", "Cultural assessment"],
+      "activities": [
+        "Financial audit",
+        "Legal review",
+        "Technology validation",
+        "Cultural assessment"
+      ],
       "outcome": "Clean due diligence with validated technology claims"
     },
     {
       "stage": "valuation_negotiation",
       "duration": "6 weeks",
-      "activities": ["Valuation modeling", "Term negotiation", "Financing structure"],
+      "activities": [
+        "Valuation modeling",
+        "Term negotiation",
+        "Financing structure"
+      ],
       "outcome": "Agreed purchase price of $42M with earn-out provisions"
     },
     {
       "stage": "integration_planning",
       "duration": "4 weeks",
-      "activities": ["Integration roadmap", "Synergy identification", "Risk mitigation"],
+      "activities": [
+        "Integration roadmap",
+        "Synergy identification",
+        "Risk mitigation"
+      ],
       "outcome": "100-day integration plan with key milestones"
     }
   ],
   "business_impact": {
     "expected_synergies": "$15M in Year 1",
     "market_acceleration": "18 months faster to market",
-    "risk_factors": ["Integration challenges", "Key employee retention", "Technology integration", "Regulatory approval"],
-    "success_factors": ["Retain key talent", "Phased integration", "Clear communication", "Customer focus"]
+    "risk_factors": [
+      "Integration challenges",
+      "Key employee retention",
+      "Technology integration",
+      "Regulatory approval"
+    ],
+    "success_factors": [
+      "Retain key talent",
+      "Phased integration",
+      "Clear communication",
+      "Customer focus"
+    ]
   }
 }

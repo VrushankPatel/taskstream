@@ -1,17 +1,17 @@
 ## Meeting Notes: Autonomous Vehicle Fleet Deployment Strategy Review
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A  
-**Attendees:**  
-- Sarah Martinez, VP Product (Chair)  
-- Dr. Robert Chen, Chief Technology Officer  
-- Lisa Wong, Chief Legal Officer  
-- Mark Johnson, Head of Safety & Compliance  
-- Jennifer Kim, VP Operations  
-- External: Dr. Amanda Foster, Regulatory Consultant  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A
+**Attendees:**
+- Sarah Martinez, VP Product (Chair)
+- Dr. Robert Chen, Chief Technology Officer
+- Lisa Wong, Chief Legal Officer
+- Mark Johnson, Head of Safety & Compliance
+- Jennifer Kim, VP Operations
+- External: Dr. Amanda Foster, Regulatory Consultant
 
-**Objective:** Review autonomous vehicle deployment strategy and address key implementation challenges  
+**Objective:** Review autonomous vehicle deployment strategy and address key implementation challenges
 
 ### 1. Current Status Update (Sarah Martinez)
 - Pilot program completed successfully in controlled environment

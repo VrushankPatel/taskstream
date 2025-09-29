@@ -3,8 +3,16 @@
   "context": "Aerospace defense contractor evaluating investment in unmanned aerial systems (UAS) safety certification program to expand into commercial drone market",
   "stakeholders": {
     "requester": "Director of Aerospace Programs",
-    "approvers": ["CEO", "Chief Technology Officer", "General Counsel"],
-    "influencers": ["Safety Engineering Team", "Regulatory Affairs", "Business Development"]
+    "approvers": [
+      "CEO",
+      "Chief Technology Officer",
+      "General Counsel"
+    ],
+    "influencers": [
+      "Safety Engineering Team",
+      "Regulatory Affairs",
+      "Business Development"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,28 +24,49 @@
     {
       "stage": "market_assessment",
       "duration": "6 weeks",
-      "activities": ["Market size analysis", "Competitive landscape review", "Regulatory requirement mapping"],
+      "activities": [
+        "Market size analysis",
+        "Competitive landscape review",
+        "Regulatory requirement mapping"
+      ],
       "outcome": "Identified strong market opportunity in industrial inspection and delivery sectors"
     },
     {
       "stage": "technical_feasibility",
       "duration": "3 months",
-      "activities": ["Safety system design", "Certification testing protocols", "Software validation"],
+      "activities": [
+        "Safety system design",
+        "Certification testing protocols",
+        "Software validation"
+      ],
       "outcome": "Developed certifiable autonomous flight systems"
     },
     {
       "stage": "certification_process",
       "duration": "9 months",
-      "activities": ["FAA certification submissions", "Safety testing campaigns", "Compliance documentation"],
+      "activities": [
+        "FAA certification submissions",
+        "Safety testing campaigns",
+        "Compliance documentation"
+      ],
       "outcome": "Achieved FAA certification for BVLOS operations"
     }
   ],
   "business_impact": {
     "expected_outcome": "Enter commercial UAS market with certified products, capture 5% market share within 3 years",
     "projected_value": "$50,000,000 in new revenue streams over 5 years",
-    "risk_factors": ["Regulatory delays", "Safety incident liability", "Technology obsolescence"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Safety incident liability",
+      "Technology obsolescence"
+    ]
   },
-  "decision_criteria": ["Certification achieved within 18 months", "Development costs < market opportunity", "Safety record maintained", "Regulatory compliance demonstrated"],
+  "decision_criteria": [
+    "Certification achieved within 18 months",
+    "Development costs < market opportunity",
+    "Safety record maintained",
+    "Regulatory compliance demonstrated"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Military technology transfer requires significant adaptation for commercial certification requirements"
 }

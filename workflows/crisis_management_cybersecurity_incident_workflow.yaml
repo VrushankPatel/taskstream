@@ -1,40 +1,85 @@
 workflow:
-  id: "workflow_crisis_cybersecurity_incident"
-  title: "Crisis Management Cybersecurity Incident Response Workflow"
-  department: "IT Security"
-  complexity: "high"
-  participants: ["Incident Response Team", "Executive Leadership", "Legal Counsel", "Communications", "External Partners"]
-  trigger: "Detection of cybersecurity breach or incident"
+  id: workflow_crisis_cybersecurity_incident
+  title: Crisis Management Cybersecurity Incident Response Workflow
+  department: IT Security
+  complexity: high
+  participants:
+  - Incident Response Team
+  - Executive Leadership
+  - Legal Counsel
+  - Communications
+  - External Partners
+  trigger: Detection of cybersecurity breach or incident
   steps:
-    - step: 1
-      actor: "Incident Response Team"
-      action: "Initial assessment and containment of the cybersecurity incident including system isolation and evidence preservation"
-      tools: ["Security information and event management (SIEM)", "Incident response platforms", "Forensic analysis tools"]
-      duration: "1-4 hours"
-      outputs: ["Initial incident assessment", "Containment actions log", "Evidence preservation records"]
-    - step: 2
-      actor: "Executive Leadership"
-      action: "Escalation decision and crisis management team activation with executive briefing"
-      tools: ["Crisis management communication platforms", "Executive decision frameworks", "Risk assessment matrices"]
-      duration: "2-6 hours"
-      outputs: ["Crisis management team activation", "Executive decision log", "Initial stakeholder notification"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Legal assessment including notification requirements, liability considerations, and regulatory reporting obligations"
-      tools: ["Legal research databases", "Regulatory compliance frameworks", "Contract review systems"]
-      duration: "4-12 hours"
-      outputs: ["Legal assessment report", "Notification requirements", "Regulatory reporting plan"]
-    - step: 4
-      actor: "Communications"
-      action: "Develop and execute internal and external communication strategy including customer notifications and media relations"
-      tools: ["Crisis communication templates", "Stakeholder management platforms", "Media monitoring tools"]
-      duration: "6-24 hours"
-      outputs: ["Communication strategy document", "Stakeholder notification packages", "Media response protocols"]
-    - step: 5
-      actor: "External Partners"
-      action: "Engage cybersecurity experts, law enforcement, and recovery specialists for investigation and system restoration"
-      tools: ["Partner management systems", "Forensic investigation platforms", "System recovery tools"]
-      duration: "Days to weeks"
-      outputs: ["Investigation reports", "System recovery plan", "Business continuity restoration"]
-  success_criteria: "Incident contained, systems restored, stakeholders informed, and lessons learned documented"
-  failure_modes: ["Delayed response", "Inadequate communication", "Regulatory non-compliance", "Data loss"]
+  - step: 1
+    actor: Incident Response Team
+    action: Initial assessment and containment of the cybersecurity incident including
+      system isolation and evidence preservation
+    tools:
+    - Security information and event management (SIEM)
+    - Incident response platforms
+    - Forensic analysis tools
+    duration: 1-4 hours
+    outputs:
+    - Initial incident assessment
+    - Containment actions log
+    - Evidence preservation records
+  - step: 2
+    actor: Executive Leadership
+    action: Escalation decision and crisis management team activation with executive
+      briefing
+    tools:
+    - Crisis management communication platforms
+    - Executive decision frameworks
+    - Risk assessment matrices
+    duration: 2-6 hours
+    outputs:
+    - Crisis management team activation
+    - Executive decision log
+    - Initial stakeholder notification
+  - step: 3
+    actor: Legal Counsel
+    action: Legal assessment including notification requirements, liability considerations,
+      and regulatory reporting obligations
+    tools:
+    - Legal research databases
+    - Regulatory compliance frameworks
+    - Contract review systems
+    duration: 4-12 hours
+    outputs:
+    - Legal assessment report
+    - Notification requirements
+    - Regulatory reporting plan
+  - step: 4
+    actor: Communications
+    action: Develop and execute internal and external communication strategy including
+      customer notifications and media relations
+    tools:
+    - Crisis communication templates
+    - Stakeholder management platforms
+    - Media monitoring tools
+    duration: 6-24 hours
+    outputs:
+    - Communication strategy document
+    - Stakeholder notification packages
+    - Media response protocols
+  - step: 5
+    actor: External Partners
+    action: Engage cybersecurity experts, law enforcement, and recovery specialists
+      for investigation and system restoration
+    tools:
+    - Partner management systems
+    - Forensic investigation platforms
+    - System recovery tools
+    duration: Days to weeks
+    outputs:
+    - Investigation reports
+    - System recovery plan
+    - Business continuity restoration
+  success_criteria: Incident contained, systems restored, stakeholders informed, and
+    lessons learned documented
+  failure_modes:
+  - Delayed response
+  - Inadequate communication
+  - Regulatory non-compliance
+  - Data loss

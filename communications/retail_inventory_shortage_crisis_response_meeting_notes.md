@@ -1,10 +1,10 @@
 ## Meeting Notes: Retail Inventory Shortage Crisis Response
 
-**Meeting Title:** Emergency Supply Chain Crisis Response  
-**Date:** September 29, 2025  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, COO, Chief Supply Chain Officer, Regional Operations Directors, Key Suppliers  
+**Meeting Title:** Emergency Supply Chain Crisis Response
+**Date:** September 29, 2025
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Executive Conference Room
+**Attendees:** CEO, COO, Chief Supply Chain Officer, Regional Operations Directors, Key Suppliers
 
 ### Agenda
 1. Crisis Assessment

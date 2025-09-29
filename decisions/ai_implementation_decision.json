@@ -3,8 +3,17 @@
   "context": "Mid-size manufacturing company, 500 employees, exploring AI adoption for production optimization and quality control",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "CTO", "CFO"],
-    "influencers": ["Production Manager", "IT Director", "Quality Assurance Lead", "External AI Consultant"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "CFO"
+    ],
+    "influencers": [
+      "Production Manager",
+      "IT Director",
+      "Quality Assurance Lead",
+      "External AI Consultant"
+    ]
   },
   "request": {
     "amount": "$750,000",
@@ -16,25 +25,43 @@
     {
       "stage": "needs_assessment",
       "duration": "1 week",
-      "activities": ["Current process analysis", "Pain point identification", "Technology landscape review"],
+      "activities": [
+        "Current process analysis",
+        "Pain point identification",
+        "Technology landscape review"
+      ],
       "outcome": "AI implementation prioritized for quality control and maintenance"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "3 weeks",
-      "activities": ["RFI/RFP process", "Vendor demonstrations", "Reference checks", "Cost-benefit analysis"],
+      "activities": [
+        "RFI/RFP process",
+        "Vendor demonstrations",
+        "Reference checks",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Two vendors selected for pilot programs"
     },
     {
       "stage": "pilot_program",
       "duration": "2 months",
-      "activities": ["System integration", "Employee training", "Performance monitoring", "ROI tracking"],
+      "activities": [
+        "System integration",
+        "Employee training",
+        "Performance monitoring",
+        "ROI tracking"
+      ],
       "outcome": "Pilot successful, full implementation recommended with modifications"
     },
     {
       "stage": "final_approval",
       "duration": "1 week",
-      "activities": ["Executive review", "Budget approval", "Implementation planning"],
+      "activities": [
+        "Executive review",
+        "Budget approval",
+        "Implementation planning"
+      ],
       "outcome": "Approved with $650,000 budget and 12-month rollout plan"
     }
   ],
@@ -42,6 +69,11 @@
     "expected_cost_savings": "$300,000 annually",
     "projected_efficiency_gains": "15% reduction in downtime",
     "quality_improvements": "40% decrease in defect rates",
-    "risk_factors": ["Integration complexity", "Employee skill gaps", "Data security requirements", "Vendor dependency"]
+    "risk_factors": [
+      "Integration complexity",
+      "Employee skill gaps",
+      "Data security requirements",
+      "Vendor dependency"
+    ]
   }
 }

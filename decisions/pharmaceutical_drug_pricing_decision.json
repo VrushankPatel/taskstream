@@ -3,8 +3,16 @@
   "context": "Pharmaceutical company deciding pricing strategy for new oncology drug following FDA approval",
   "stakeholders": {
     "requester": "Commercial Strategy VP",
-    "approvers": ["CEO", "CFO", "Chief Medical Officer"],
-    "influencers": ["Market Access Director", "Patient Advocacy Groups", "Payers"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Medical Officer"
+    ],
+    "influencers": [
+      "Market Access Director",
+      "Patient Advocacy Groups",
+      "Payers"
+    ]
   },
   "request": {
     "amount": "$150 million projected revenue impact",
@@ -16,28 +24,49 @@
     {
       "stage": "market_analysis",
       "duration": "3 weeks",
-      "activities": ["Competitive pricing research", "Patient affordability studies", "Payer negotiations"],
+      "activities": [
+        "Competitive pricing research",
+        "Patient affordability studies",
+        "Payer negotiations"
+      ],
       "outcome": "Multiple pricing scenarios developed"
     },
     {
       "stage": "stakeholder_consultation",
       "duration": "2 weeks",
-      "activities": ["Patient group meetings", "Payer discussions", "Internal cross-functional review"],
+      "activities": [
+        "Patient group meetings",
+        "Payer discussions",
+        "Internal cross-functional review"
+      ],
       "outcome": "Consensus on value-based pricing approach"
     },
     {
       "stage": "final_pricing_decision",
       "duration": "1 week",
-      "activities": ["Board approval", "Regulatory filing", "Launch preparation"],
+      "activities": [
+        "Board approval",
+        "Regulatory filing",
+        "Launch preparation"
+      ],
       "outcome": "Approved tiered pricing model"
     }
   ],
   "business_impact": {
     "expected_outcome": "Achieve market penetration while maintaining profitability",
     "projected_value": "$180 million first-year revenue",
-    "risk_factors": ["Payer reimbursement challenges", "Patient access barriers", "Competitor responses"]
+    "risk_factors": [
+      "Payer reimbursement challenges",
+      "Patient access barriers",
+      "Competitor responses"
+    ]
   },
-  "decision_criteria": ["Patient access improvement", "Financial sustainability", "Market competitiveness", "Ethical considerations"],
+  "decision_criteria": [
+    "Patient access improvement",
+    "Financial sustainability",
+    "Market competitiveness",
+    "Ethical considerations"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Patient-centric pricing requires extensive stakeholder engagement, value-based models balance access and innovation incentives"
 }

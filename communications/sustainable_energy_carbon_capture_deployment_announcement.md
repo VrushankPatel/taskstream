@@ -1,9 +1,9 @@
 # Announcement: Carbon Capture Technology Deployment Initiative
 
-**From:** Maria Gonzalez, Chief Sustainability Officer  
-**To:** All Employees, Investors, Media Contacts, Community Stakeholders  
-**Subject:** Major Carbon Capture Investment to Advance Clean Energy Leadership  
-**Date:** September 28, 2025  
+**From:** Maria Gonzalez, Chief Sustainability Officer
+**To:** All Employees, Investors, Media Contacts, Community Stakeholders
+**Subject:** Major Carbon Capture Investment to Advance Clean Energy Leadership
+**Date:** September 28, 2025
 
 Dear Team and Stakeholders,
 
@@ -47,9 +47,9 @@ This initiative represents a bold step forward in our sustainability journey. We
 
 I'm proud of our team's commitment to innovation and responsible energy production. Together, we're building a cleaner, more sustainable energy future.
 
-Best regards,  
-Maria Gonzalez  
-Chief Sustainability Officer  
-EnerCorp  
-maria.gonzalez@enercorp.com  
+Best regards,
+Maria Gonzalez
+Chief Sustainability Officer
+EnerCorp
+maria.gonzalez@enercorp.com
 (555) 123-4567

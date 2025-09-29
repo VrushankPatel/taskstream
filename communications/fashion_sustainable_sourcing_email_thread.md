@@ -1,9 +1,9 @@
 ## Email Thread: Sustainable Sourcing Initiative Update
 
-**From:** Maria Gonzalez, Sustainability Director  
-**To:** Executive Leadership Team  
-**Subject:** Q4 Sustainable Sourcing Progress and Challenges  
-**Date:** November 3, 2025  
+**From:** Maria Gonzalez, Sustainability Director
+**To:** Executive Leadership Team
+**Subject:** Q4 Sustainable Sourcing Progress and Challenges
+**Date:** November 3, 2025
 
 Team,
 
@@ -21,17 +21,17 @@ Following up on our Q3 sustainability goals review, I wanted to provide an updat
 
 We're projecting a 8-10% cost increase for Q1 collections if we maintain our sustainability targets. I'd like to schedule a meeting to discuss potential strategies for managing this impact while staying true to our brand values.
 
-Best,  
-Maria Gonzalez  
-Sustainability Director  
-Fashion Forward Inc.  
+Best,
+Maria Gonzalez
+Sustainability Director
+Fashion Forward Inc.
 
 ---
 
-**From:** David Kim, CFO  
-**To:** Maria Gonzalez, Executive Leadership Team  
-**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges  
-**Date:** November 3, 2025  
+**From:** David Kim, CFO
+**To:** Maria Gonzalez, Executive Leadership Team
+**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges
+**Date:** November 3, 2025
 
 Maria,
 
@@ -44,14 +44,14 @@ Regarding the cost implications, we need to model this carefully. Can you provid
 
 We may need to consider a phased approach to implementation to manage the financial impact.
 
-David  
+David
 
 ---
 
-**From:** Maria Gonzalez, Sustainability Director  
-**To:** David Kim, Executive Leadership Team  
-**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges  
-**Date:** November 4, 2025  
+**From:** Maria Gonzalez, Sustainability Director
+**To:** David Kim, Executive Leadership Team
+**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges
+**Date:** November 4, 2025
 
 David,
 
@@ -68,14 +68,14 @@ I'll have the detailed cost analysis ready for our meeting. Here's a preliminary
 
 Let's discuss this in more detail tomorrow.
 
-Maria  
+Maria
 
 ---
 
-**From:** Jennifer Walsh, CEO  
-**To:** Maria Gonzalez, David Kim, Executive Leadership Team  
-**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges  
-**Date:** November 4, 2025  
+**From:** Jennifer Walsh, CEO
+**To:** Maria Gonzalez, David Kim, Executive Leadership Team
+**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges
+**Date:** November 4, 2025
 
 Maria and David,
 
@@ -88,14 +88,14 @@ I support moving forward with the sustainable sourcing initiative. Let's explore
 
 Please prepare recommendations for our board meeting next week.
 
-Jennifer  
+Jennifer
 
 ---
 
-**From:** Maria Gonzalez, Sustainability Director  
-**To:** Jennifer Walsh, David Kim, Executive Leadership Team  
-**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges  
-**Date:** November 5, 2025  
+**From:** Maria Gonzalez, Sustainability Director
+**To:** Jennifer Walsh, David Kim, Executive Leadership Team
+**Subject:** Re: Q4 Sustainable Sourcing Progress and Challenges
+**Date:** November 5, 2025
 
 Jennifer,
 
@@ -108,5 +108,5 @@ We'll prepare a comprehensive recommendation package including:
 
 Looking forward to the board presentation.
 
-Best,  
+Best,
 Maria

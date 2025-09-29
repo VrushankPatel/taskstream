@@ -1,56 +1,91 @@
 workflow:
-  id: "workflow_001"
-  title: "Sales Pipeline Management Process"
-  department: "Sales"
-  complexity: "medium"
-  participants: ["Sales Development Representative", "Account Executive", "Sales Manager", "Marketing Team"]
-  trigger: "New lead enters the system"
+  id: workflow_001
+  title: Sales Pipeline Management Process
+  department: Sales
+  complexity: medium
+  participants:
+  - Sales Development Representative
+  - Account Executive
+  - Sales Manager
+  - Marketing Team
+  trigger: New lead enters the system
   steps:
-    - step: 1
-      actor: "Sales Development Representative"
-      action: "Qualify lead using BANT framework (Budget, Authority, Need, Timeline)"
-      tools: ["CRM system", "LinkedIn", "Company website"]
-      duration: "1-2 days"
-      outputs: ["Qualified lead status", "Initial discovery notes"]
-    - step: 2
-      actor: "Sales Development Representative"
-      action: "Research company and key stakeholders"
-      tools: ["LinkedIn", "Company news", "Industry reports"]
-      duration: "2-4 hours"
-      outputs: ["Stakeholder map", "Company intelligence brief"]
-    - step: 3
-      actor: "Sales Development Representative"
-      action: "Send personalized outreach sequence"
-      tools: ["Email platform", "LinkedIn messaging"]
-      duration: "1 week"
-      outputs: ["Email sequence sent", "Response tracking"]
-    - step: 4
-      actor: "Account Executive"
-      action: "Conduct discovery call to understand pain points"
-      tools: ["Video conferencing", "CRM notes"]
-      duration: "30-45 minutes"
-      outputs: ["Discovery call summary", "Identified challenges"]
-    - step: 5
-      actor: "Account Executive"
-      action: "Present customized solution and handle objections"
-      tools: ["Presentation software", "Product demo"]
-      duration: "45-60 minutes"
-      outputs: ["Proposal document", "Objection log"]
-    - step: 6
-      actor: "Account Executive"
-      action: "Negotiate terms and close deal"
-      tools: ["Contract template", "Legal review"]
-      duration: "1-2 weeks"
-      outputs: ["Signed contract", "Deal closed"]
-    - step: 7
-      actor: "Sales Manager"
-      action: "Review and approve deal terms"
-      tools: ["CRM approval workflow"]
-      duration: "1-2 days"
-      outputs: ["Approval confirmation"]
-  success_criteria: "Deal closed with customer satisfaction"
-  failure_modes: ["Lead goes cold", "Budget constraints", "Competitor wins deal"]
+  - step: 1
+    actor: Sales Development Representative
+    action: Qualify lead using BANT framework (Budget, Authority, Need, Timeline)
+    tools:
+    - CRM system
+    - LinkedIn
+    - Company website
+    duration: 1-2 days
+    outputs:
+    - Qualified lead status
+    - Initial discovery notes
+  - step: 2
+    actor: Sales Development Representative
+    action: Research company and key stakeholders
+    tools:
+    - LinkedIn
+    - Company news
+    - Industry reports
+    duration: 2-4 hours
+    outputs:
+    - Stakeholder map
+    - Company intelligence brief
+  - step: 3
+    actor: Sales Development Representative
+    action: Send personalized outreach sequence
+    tools:
+    - Email platform
+    - LinkedIn messaging
+    duration: 1 week
+    outputs:
+    - Email sequence sent
+    - Response tracking
+  - step: 4
+    actor: Account Executive
+    action: Conduct discovery call to understand pain points
+    tools:
+    - Video conferencing
+    - CRM notes
+    duration: 30-45 minutes
+    outputs:
+    - Discovery call summary
+    - Identified challenges
+  - step: 5
+    actor: Account Executive
+    action: Present customized solution and handle objections
+    tools:
+    - Presentation software
+    - Product demo
+    duration: 45-60 minutes
+    outputs:
+    - Proposal document
+    - Objection log
+  - step: 6
+    actor: Account Executive
+    action: Negotiate terms and close deal
+    tools:
+    - Contract template
+    - Legal review
+    duration: 1-2 weeks
+    outputs:
+    - Signed contract
+    - Deal closed
+  - step: 7
+    actor: Sales Manager
+    action: Review and approve deal terms
+    tools:
+    - CRM approval workflow
+    duration: 1-2 days
+    outputs:
+    - Approval confirmation
+  success_criteria: Deal closed with customer satisfaction
+  failure_modes:
+  - Lead goes cold
+  - Budget constraints
+  - Competitor wins deal
   metrics:
-    - "Lead to opportunity conversion rate: 25%"
-    - "Opportunity to close rate: 35%"
-    - "Average deal cycle: 45 days"
+  - 'Lead to opportunity conversion rate: 25%'
+  - 'Opportunity to close rate: 35%'
+  - 'Average deal cycle: 45 days'

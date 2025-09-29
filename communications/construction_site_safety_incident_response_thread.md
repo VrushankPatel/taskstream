@@ -1,8 +1,8 @@
 ## Email Thread: Construction Site Safety Incident - Response Coordination
 
-**From:** Construction Safety Manager  
-**To:** Project Manager, Site Supervisors, HR Director, Legal Counsel  
-**Subject:** URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** Construction Safety Manager
+**To:** Project Manager, Site Supervisors, HR Director, Legal Counsel
+**Subject:** URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 Team,
 
@@ -18,16 +18,16 @@ I've already contacted OSHA and our insurance carrier. Please respond with your 
 
 This is a critical situation - let's prioritize worker safety and compliance.
 
-Regards,  
-Robert Kim  
-Construction Safety Manager  
-Metro Builders Inc.  
+Regards,
+Robert Kim
+Construction Safety Manager
+Metro Builders Inc.
 
 ---
 
-**From:** Project Manager  
-**To:** Construction Safety Manager, Site Supervisors, HR Director, Legal Counsel  
-**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** Project Manager
+**To:** Construction Safety Manager, Site Supervisors, HR Director, Legal Counsel
+**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 Robert,
 
@@ -39,14 +39,14 @@ The scaffolding company has been notified and their supervisor is en route. I've
 
 Available for 2 PM meeting. Should we loop in the subcontractor management?
 
-Mike Torres  
-Project Manager  
+Mike Torres
+Project Manager
 
 ---
 
-**From:** Site Supervisor - Electrical  
-**To:** Construction Safety Manager, Project Manager, Site Supervisors, HR Director, Legal Counsel  
-**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** Site Supervisor - Electrical
+**To:** Construction Safety Manager, Project Manager, Site Supervisors, HR Director, Legal Counsel
+**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 This is devastating news about John. Our team is shaken but focused on safety protocols.
 
@@ -61,14 +61,14 @@ We need to review the fall protection equipment. This might be equipment failure
 
 Available for the 2 PM meeting.
 
-Steve Johnson  
-Site Supervisor - Electrical  
+Steve Johnson
+Site Supervisor - Electrical
 
 ---
 
-**From:** HR Director  
-**To:** Construction Safety Manager, Project Manager, Site Supervisors, Legal Counsel  
-**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** HR Director
+**To:** Construction Safety Manager, Project Manager, Site Supervisors, Legal Counsel
+**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 Team,
 
@@ -82,14 +82,14 @@ I've contacted our EAP provider for immediate counseling availability. We should
 
 Legal should review before we release any statements.
 
-Jennifer Park  
-HR Director  
+Jennifer Park
+HR Director
 
 ---
 
-**From:** Legal Counsel  
-**To:** Construction Safety Manager, Project Manager, Site Supervisors, HR Director  
-**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required  
+**From:** Legal Counsel
+**To:** Construction Safety Manager, Project Manager, Site Supervisors, HR Director
+**Subject:** Re: URGENT: Fall Protection Incident at Downtown Tower Site - Immediate Response Required
 
 Agreed with Jennifer on communications. No statements to media or subcontractors until we have OSHA's preliminary findings.
 
@@ -102,8 +102,8 @@ I'll attend the 2 PM meeting and help draft the incident report.
 
 We should also review our insurance coverage for this type of incident.
 
-David Chen  
-Legal Counsel  
+David Chen
+Legal Counsel
 
 ---
 

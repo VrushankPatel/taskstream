@@ -1,34 +1,66 @@
 workflow:
-  id: "workflow_healthcare_ai_diagnostics"
-  title: "AI-Assisted Diagnostics Workflow"
-  department: "Medical Diagnostics"
-  complexity: "high"
-  participants: ["Radiologist", "AI Specialist", "Chief of Medicine", "IT Security", "Patient Care Coordinator"]
-  trigger: "Patient imaging study uploaded to PACS system"
+  id: workflow_healthcare_ai_diagnostics
+  title: AI-Assisted Diagnostics Workflow
+  department: Medical Diagnostics
+  complexity: high
+  participants:
+  - Radiologist
+  - AI Specialist
+  - Chief of Medicine
+  - IT Security
+  - Patient Care Coordinator
+  trigger: Patient imaging study uploaded to PACS system
   steps:
-    - step: 1
-      actor: "AI System"
-      action: "Automatically analyze imaging data using trained models for abnormalities"
-      tools: ["PACS", "AI Diagnostic Platform", "Radiology Workstation"]
-      duration: "5-15 minutes"
-      outputs: ["Preliminary AI findings report", "Confidence scores", "Annotated images"]
-    - step: 2
-      actor: "Radiologist"
-      action: "Review AI findings, validate results, and make final diagnosis"
-      decision_points: ["AI confidence threshold met?", "Clinical context alignment", "Need for additional imaging?"]
-      duration: "20-45 minutes"
-      outputs: ["Final diagnostic report", "Treatment recommendations", "Follow-up requirements"]
-    - step: 3
-      actor: "Patient Care Coordinator"
-      action: "Communicate results to patient and coordinate next steps"
-      tools: ["EHR System", "Patient Portal", "Appointment Scheduling"]
-      duration: "15-30 minutes"
-      outputs: ["Patient notification", "Care plan documentation", "Appointment scheduling"]
-    - step: 4
-      actor: "AI Specialist"
-      action: "Monitor AI performance metrics and update models as needed"
-      tools: ["AI Monitoring Dashboard", "Model Training Platform"]
-      duration: "Weekly review"
-      outputs: ["Performance reports", "Model updates", "Quality improvement recommendations"]
-  success_criteria: "Accurate diagnosis delivered within 24 hours, patient satisfaction >95%, AI accuracy >98%"
-  failure_modes: ["AI false positive requiring unnecessary procedures", "Delayed diagnosis due to system downtime", "Privacy breach from data handling errors"]
+  - step: 1
+    actor: AI System
+    action: Automatically analyze imaging data using trained models for abnormalities
+    tools:
+    - PACS
+    - AI Diagnostic Platform
+    - Radiology Workstation
+    duration: 5-15 minutes
+    outputs:
+    - Preliminary AI findings report
+    - Confidence scores
+    - Annotated images
+  - step: 2
+    actor: Radiologist
+    action: Review AI findings, validate results, and make final diagnosis
+    decision_points:
+    - AI confidence threshold met?
+    - Clinical context alignment
+    - Need for additional imaging?
+    duration: 20-45 minutes
+    outputs:
+    - Final diagnostic report
+    - Treatment recommendations
+    - Follow-up requirements
+  - step: 3
+    actor: Patient Care Coordinator
+    action: Communicate results to patient and coordinate next steps
+    tools:
+    - EHR System
+    - Patient Portal
+    - Appointment Scheduling
+    duration: 15-30 minutes
+    outputs:
+    - Patient notification
+    - Care plan documentation
+    - Appointment scheduling
+  - step: 4
+    actor: AI Specialist
+    action: Monitor AI performance metrics and update models as needed
+    tools:
+    - AI Monitoring Dashboard
+    - Model Training Platform
+    duration: Weekly review
+    outputs:
+    - Performance reports
+    - Model updates
+    - Quality improvement recommendations
+  success_criteria: Accurate diagnosis delivered within 24 hours, patient satisfaction
+    >95%, AI accuracy >98%
+  failure_modes:
+  - AI false positive requiring unnecessary procedures
+  - Delayed diagnosis due to system downtime
+  - Privacy breach from data handling errors

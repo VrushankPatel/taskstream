@@ -1,8 +1,8 @@
 ## Mining Automation Safety Training Launch Announcement
 
-**From:** Mining Operations Safety Manager  
-**To:** All Mining Personnel, Equipment Operators, Maintenance Teams  
-**Subject:** Automation Safety Training Program - Mandatory Participation Required  
+**From:** Mining Operations Safety Manager
+**To:** All Mining Personnel, Equipment Operators, Maintenance Teams
+**Subject:** Automation Safety Training Program - Mandatory Participation Required
 
 Dear Mining Team,
 
@@ -57,5 +57,5 @@ Automation increases productivity but requires heightened safety awareness. This
 
 Please check your schedule for training assignments and complete all required modules. Your safety and the safety of your colleagues depends on this knowledge.
 
-Best regards,  
+Best regards,
 Mining Operations Safety Manager

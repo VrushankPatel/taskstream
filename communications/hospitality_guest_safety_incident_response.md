@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Guest Safety Incident Response
 
-**From:** Hotel General Manager  
-**To:** Executive Team, Security Director, Front Office Manager, Housekeeping Director  
-**Subject:** Incident Report: Guest Medical Emergency - Room 1425  
+**From:** Hotel General Manager
+**To:** Executive Team, Security Director, Front Office Manager, Housekeeping Director
+**Subject:** Incident Report: Guest Medical Emergency - Room 1425
 
 Team,
 
@@ -31,16 +31,16 @@ This appears to be a legitimate medical emergency with no hotel negligence invol
 
 Please confirm completion of your assigned actions by end of day.
 
-Best regards,  
-Sarah Chen  
-General Manager  
-Grand Plaza Hotel  
+Best regards,
+Sarah Chen
+General Manager
+Grand Plaza Hotel
 
 ---
 
-**From:** Security Director  
-**To:** Executive Team, Hotel General Manager, Front Office Manager, Housekeeping Director  
-**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425  
+**From:** Security Director
+**To:** Executive Team, Hotel General Manager, Front Office Manager, Housekeeping Director
+**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425
 
 Sarah,
 
@@ -59,14 +59,14 @@ Security team has reviewed the incident response:
 
 No security concerns identified. Response was appropriate and timely.
 
-Mike  
-Security Director  
+Mike
+Security Director
 
 ---
 
-**From:** Front Office Manager  
-**To:** Executive Team, Hotel General Manager, Security Director, Housekeeping Director  
-**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425  
+**From:** Front Office Manager
+**To:** Executive Team, Hotel General Manager, Security Director, Housekeeping Director
+**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425
 
 Sarah,
 
@@ -85,14 +85,14 @@ Front office team has handled the follow-up communications:
 
 Guest family expressed appreciation for our quick response and care.
 
-Lisa  
-Front Office Manager  
+Lisa
+Front Office Manager
 
 ---
 
-**From:** Housekeeping Director  
-**To:** Executive Team, Hotel General Manager, Security Director, Front Office Manager  
-**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425  
+**From:** Housekeeping Director
+**To:** Executive Team, Hotel General Manager, Security Director, Front Office Manager
+**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425
 
 Sarah,
 
@@ -112,14 +112,14 @@ Housekeeping has completed the post-incident room preparation:
 
 Room is now ready for reassignment if needed.
 
-Maria  
-Housekeeping Director  
+Maria
+Housekeeping Director
 
 ---
 
-**From:** Hotel General Manager  
-**To:** Executive Team, Security Director, Front Office Manager, Housekeeping Director  
-**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425  
+**From:** Hotel General Manager
+**To:** Executive Team, Security Director, Front Office Manager, Housekeeping Director
+**Subject:** Re: Incident Report: Guest Medical Emergency - Room 1425
 
 Thank you all for the excellent coordination and follow-through. This incident highlights the importance of our emergency response training.
 

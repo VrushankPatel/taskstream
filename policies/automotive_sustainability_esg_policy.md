@@ -121,6 +121,6 @@ This policy will be reviewed annually with stakeholder input, incorporating:
 - Corrective action plans for non-compliance
 - Whistleblower protection for ESG concerns
 
-Approved by: Board of Directors  
-Effective Date: January 1, 2025  
+Approved by: Board of Directors
+Effective Date: January 1, 2025
 Last Updated: September 29, 2025

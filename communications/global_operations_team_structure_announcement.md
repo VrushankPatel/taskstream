@@ -34,15 +34,15 @@ After extensive analysis and planning, I'm announcing a restructure of our globa
 
 We'll be hosting regional town hall meetings next week to discuss the changes in detail:
 - Monday: Americas Region
-- Tuesday: Europe Region  
+- Tuesday: Europe Region
 - Wednesday: Asia-Pacific Region
 
 This restructure positions us for sustainable global growth while maintaining our commitment to operational excellence. I'm confident that with our talented team, we'll successfully implement these changes and emerge stronger.
 
 Please reach out to your manager or HR partner with any immediate questions.
 
-Best regards,  
-[COO Name]  
+Best regards,
+[COO Name]
 Chief Operating Officer
 
 ---
@@ -65,7 +65,7 @@ Thanks for the announcement, [COO Name]. The leadership team has been involved i
 
 We'll ensure smooth transitions with minimal disruption to our operations.
 
-Best,  
+Best,
 [VP Global Operations Name]
 
 ---
@@ -89,7 +89,7 @@ The HR team is fully committed to supporting this transition. We've developed co
 
 If you're affected by the changes or interested in new opportunities, please schedule a meeting with your HR partner.
 
-Best,  
+Best,
 [HR Director Name]
 
 ---
@@ -102,7 +102,7 @@ This sounds like a positive step forward for our global operations. I'm particul
 
 Will there be opportunities for current team members to take on international roles?
 
-Thanks,  
+Thanks,
 [Team Member Name]
 
 ---
@@ -115,5 +115,5 @@ Great question! Yes, we're actively looking to fill international roles with qua
 
 We're committed to providing growth opportunities as we expand globally.
 
-Best,  
+Best,
 [COO Name]

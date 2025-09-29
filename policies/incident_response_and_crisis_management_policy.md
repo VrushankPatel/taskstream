@@ -9,7 +9,7 @@ Applies to all security incidents, data breaches, system outages, natural disast
 ## Incident Classification
 
 ### Level 1: Minor Incident
-**Definition:** Limited impact, contained within single system or department  
+**Definition:** Limited impact, contained within single system or department
 **Examples:**
 - Single user account compromise
 - Minor system performance degradation
@@ -21,7 +21,7 @@ Applies to all security incidents, data breaches, system outages, natural disast
 - Local team response sufficient
 
 ### Level 2: Moderate Incident
-**Definition:** Significant impact on operations but contained within organization  
+**Definition:** Significant impact on operations but contained within organization
 **Examples:**
 - Multi-user system compromise
 - Department-wide system outage
@@ -33,7 +33,7 @@ Applies to all security incidents, data breaches, system outages, natural disast
 - Cross-functional team engagement
 
 ### Level 3: Major Incident
-**Definition:** Severe impact on business operations or regulatory compliance  
+**Definition:** Severe impact on business operations or regulatory compliance
 **Examples:**
 - Organization-wide system outage
 - Data breach affecting >100 records
@@ -46,7 +46,7 @@ Applies to all security incidents, data breaches, system outages, natural disast
 - External communication and regulatory reporting
 
 ### Level 4: Critical Incident
-**Definition:** Existential threat to business continuity or public safety  
+**Definition:** Existential threat to business continuity or public safety
 **Examples:**
 - Complete system compromise
 - Large-scale data breach (>10,000 records)
@@ -212,6 +212,6 @@ This policy ensures compliance with:
 - Emergency Hotline: 1-800-INCIDENT (24/7)
 - Legal Counsel: legal@company.com
 
-**Effective Date:** March 1, 2026  
-**Last Updated:** February 15, 2026  
+**Effective Date:** March 1, 2026
+**Last Updated:** February 15, 2026
 **Next Review Date:** February 15, 2027

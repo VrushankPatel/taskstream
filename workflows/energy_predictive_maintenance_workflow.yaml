@@ -1,41 +1,67 @@
 workflow:
-  id: "workflow_energy_maintenance"
-  title: "Predictive Maintenance Scheduling for Power Generation"
-  department: "Operations & Maintenance"
-  complexity: "high"
-  participants: ["Maintenance Engineer", "Operations Supervisor", "Data Analyst", "Equipment Technician"]
-  trigger: "Predictive analytics alert or scheduled maintenance interval"
+  id: workflow_energy_maintenance
+  title: Predictive Maintenance Scheduling for Power Generation
+  department: Operations & Maintenance
+  complexity: high
+  participants:
+  - Maintenance Engineer
+  - Operations Supervisor
+  - Data Analyst
+  - Equipment Technician
+  trigger: Predictive analytics alert or scheduled maintenance interval
   steps:
-    - step: 1
-      actor: "Predictive Analytics System"
-      action: "Monitor equipment sensors and generate maintenance alerts"
-      tools: ["IoT Sensors", "Predictive Maintenance Software"]
-      duration: "Continuous monitoring"
-      outputs: ["Maintenance Alert"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Analyze sensor data and predict failure probability"
-      tools: ["Data Analytics Platform", "Machine Learning Models"]
-      duration: "30-60 minutes"
-      outputs: ["Predictive Analysis Report"]
-      decision_points: ["Failure Risk Level", "Maintenance Urgency"]
-    - step: 3
-      actor: "Maintenance Engineer"
-      action: "Develop maintenance plan and schedule work"
-      tools: ["Maintenance Management System", "Resource Scheduling"]
-      duration: "1-2 hours"
-      outputs: ["Maintenance Work Order"]
-    - step: 4
-      actor: "Operations Supervisor"
-      action: "Coordinate maintenance window with production schedule"
-      tools: ["Production Planning System", "Outage Coordination"]
-      duration: "2-4 hours"
-      outputs: ["Approved Maintenance Window"]
-    - step: 5
-      actor: "Equipment Technician"
-      action: "Execute maintenance and document findings"
-      tools: ["Maintenance Procedures", "Digital Work Orders"]
-      duration: "4-8 hours"
-      outputs: ["Maintenance Report", "Equipment Status Update"]
-  success_criteria: "Unplanned downtime <2%, maintenance costs reduced by 20%, equipment reliability >99%"
-  failure_modes: ["False positive alerts", "Resource scheduling conflicts", "Parts availability delays"]
+  - step: 1
+    actor: Predictive Analytics System
+    action: Monitor equipment sensors and generate maintenance alerts
+    tools:
+    - IoT Sensors
+    - Predictive Maintenance Software
+    duration: Continuous monitoring
+    outputs:
+    - Maintenance Alert
+  - step: 2
+    actor: Data Analyst
+    action: Analyze sensor data and predict failure probability
+    tools:
+    - Data Analytics Platform
+    - Machine Learning Models
+    duration: 30-60 minutes
+    outputs:
+    - Predictive Analysis Report
+    decision_points:
+    - Failure Risk Level
+    - Maintenance Urgency
+  - step: 3
+    actor: Maintenance Engineer
+    action: Develop maintenance plan and schedule work
+    tools:
+    - Maintenance Management System
+    - Resource Scheduling
+    duration: 1-2 hours
+    outputs:
+    - Maintenance Work Order
+  - step: 4
+    actor: Operations Supervisor
+    action: Coordinate maintenance window with production schedule
+    tools:
+    - Production Planning System
+    - Outage Coordination
+    duration: 2-4 hours
+    outputs:
+    - Approved Maintenance Window
+  - step: 5
+    actor: Equipment Technician
+    action: Execute maintenance and document findings
+    tools:
+    - Maintenance Procedures
+    - Digital Work Orders
+    duration: 4-8 hours
+    outputs:
+    - Maintenance Report
+    - Equipment Status Update
+  success_criteria: Unplanned downtime <2%, maintenance costs reduced by 20%, equipment
+    reliability >99%
+  failure_modes:
+  - False positive alerts
+  - Resource scheduling conflicts
+  - Parts availability delays

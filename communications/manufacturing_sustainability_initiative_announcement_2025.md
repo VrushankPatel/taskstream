@@ -1,9 +1,9 @@
 # Manufacturing Sustainability Initiative Announcement
 
-**From:** David Thompson, Chief Sustainability Officer  
-**To:** All Employees, Supply Chain Partners, Investors, Community Stakeholders  
-**Subject:** Transformative Supply Chain Sustainability Program - Achieving 70% Sustainable Sourcing  
-**Date:** September 28, 2025  
+**From:** David Thompson, Chief Sustainability Officer
+**To:** All Employees, Supply Chain Partners, Investors, Community Stakeholders
+**Subject:** Transformative Supply Chain Sustainability Program - Achieving 70% Sustainable Sourcing
+**Date:** September 28, 2025
 
 ## Executive Summary
 
@@ -164,6 +164,6 @@ For more information about this initiative, please contact:
 
 This announcement represents our commitment to sustainable manufacturing and responsible business practices. We look forward to collaborating with all stakeholders to achieve our shared sustainability goals.
 
-Best regards,  
-David Thompson  
+Best regards,
+David Thompson
 Chief Sustainability Officer

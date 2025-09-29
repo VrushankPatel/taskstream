@@ -1,9 +1,9 @@
 ## Meeting Notes: Hospitality Staffing Crisis Response
 
-**Date:** September 29, 2025  
-**Time:** 11:00 AM - 12:30 PM EST  
-**Location:** Executive Conference Room  
-**Attendees:** HR Director (Chair), Operations VP, Front Office Manager, Housekeeping Director, Food & Beverage Director, Finance Manager, Training Manager  
+**Date:** September 29, 2025
+**Time:** 11:00 AM - 12:30 PM EST
+**Location:** Executive Conference Room
+**Attendees:** HR Director (Chair), Operations VP, Front Office Manager, Housekeeping Director, Food & Beverage Director, Finance Manager, Training Manager
 
 ### Meeting Objective
 Address critical staffing shortages and develop comprehensive retention and recruitment strategy for hospitality operations.

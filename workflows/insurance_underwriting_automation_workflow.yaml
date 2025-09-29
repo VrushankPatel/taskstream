@@ -1,51 +1,79 @@
 workflow:
-  id: "workflow_insurance_underwriting_automation"
-  title: "Auto Insurance Underwriting Automation"
-  department: "Underwriting"
-  complexity: "medium"
-  participants: ["Underwriting Analyst", "Data Scientist", "IT Developer", "Compliance Officer", "Risk Manager"]
-  trigger: "New underwriting automation project approved"
+  id: workflow_insurance_underwriting_automation
+  title: Auto Insurance Underwriting Automation
+  department: Underwriting
+  complexity: medium
+  participants:
+  - Underwriting Analyst
+  - Data Scientist
+  - IT Developer
+  - Compliance Officer
+  - Risk Manager
+  trigger: New underwriting automation project approved
   steps:
-    - step: 1
-      actor: "Data Scientist"
-      action: "Analyze historical data and develop risk models"
-      tools: ["Data analytics platform", "Machine learning tools"]
-      duration: "4 weeks"
-      outputs: ["Risk prediction models", "Model validation report"]
-    - step: 2
-      actor: "IT Developer"
-      action: "Build automated underwriting system"
-      tools: ["Development environment", "API integration tools"]
-      duration: "6 weeks"
-      outputs: ["Automated system prototype"]
-    - step: 3
-      actor: "Underwriting Analyst"
-      action: "Test system with sample applications"
-      tools: ["Testing framework", "Sample data sets"]
-      duration: "2 weeks"
-      outputs: ["Testing results", "System adjustments"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Review for regulatory compliance and fairness"
-      tools: ["Compliance checklist", "Bias detection tools"]
-      duration: "1 week"
-      outputs: ["Compliance certification"]
-    - step: 5
-      actor: "Risk Manager"
-      action: "Approve system for production deployment"
-      decision_points: ["Risk thresholds", "Performance metrics"]
-      duration: "3 days"
-      outputs: ["Production approval"]
-    - step: 6
-      actor: "IT Developer"
-      action: "Deploy system and monitor performance"
-      tools: ["Monitoring dashboard", "Alert systems"]
-      duration: "Ongoing"
-      outputs: ["Live system", "Performance reports"]
-  success_criteria: "System processes 90% of applications automatically with 95% accuracy"
-  failure_modes: ["Model bias issues", "Integration failures"]
+  - step: 1
+    actor: Data Scientist
+    action: Analyze historical data and develop risk models
+    tools:
+    - Data analytics platform
+    - Machine learning tools
+    duration: 4 weeks
+    outputs:
+    - Risk prediction models
+    - Model validation report
+  - step: 2
+    actor: IT Developer
+    action: Build automated underwriting system
+    tools:
+    - Development environment
+    - API integration tools
+    duration: 6 weeks
+    outputs:
+    - Automated system prototype
+  - step: 3
+    actor: Underwriting Analyst
+    action: Test system with sample applications
+    tools:
+    - Testing framework
+    - Sample data sets
+    duration: 2 weeks
+    outputs:
+    - Testing results
+    - System adjustments
+  - step: 4
+    actor: Compliance Officer
+    action: Review for regulatory compliance and fairness
+    tools:
+    - Compliance checklist
+    - Bias detection tools
+    duration: 1 week
+    outputs:
+    - Compliance certification
+  - step: 5
+    actor: Risk Manager
+    action: Approve system for production deployment
+    decision_points:
+    - Risk thresholds
+    - Performance metrics
+    duration: 3 days
+    outputs:
+    - Production approval
+  - step: 6
+    actor: IT Developer
+    action: Deploy system and monitor performance
+    tools:
+    - Monitoring dashboard
+    - Alert systems
+    duration: Ongoing
+    outputs:
+    - Live system
+    - Performance reports
+  success_criteria: System processes 90% of applications automatically with 95% accuracy
+  failure_modes:
+  - Model bias issues
+  - Integration failures
   metrics:
-    - "Automation rate: 90%"
-    - "Accuracy rate: 95%"
-    - "Processing time reduction: 70%"
-    - "Cost savings: $1.5M annually"
+  - 'Automation rate: 90%'
+  - 'Accuracy rate: 95%'
+  - 'Processing time reduction: 70%'
+  - 'Cost savings: $1.5M annually'

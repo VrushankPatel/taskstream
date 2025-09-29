@@ -1,8 +1,8 @@
 ## Email Thread: Asia Mining Environmental Crisis Response
 
-**From:** Chief Operating Officer  
-**To:** Executive Leadership Team, Regional Managers, Environmental Team, Communications Team  
-**Subject:** Urgent: Environmental Incident Response - Indonesia Mining Operations  
+**From:** Chief Operating Officer
+**To:** Executive Leadership Team, Regional Managers, Environmental Team, Communications Team
+**Subject:** Urgent: Environmental Incident Response - Indonesia Mining Operations
 
 **Date:** September 29, 2025
 
@@ -38,15 +38,15 @@ We are committed to transparency and will provide regular updates as the situati
 
 Please ensure all communications maintain consistency and accuracy.
 
-Best regards,  
-Dr. Sarah Chen  
-Chief Operating Officer  
+Best regards,
+Dr. Sarah Chen
+Chief Operating Officer
 
 ---
 
-**From:** Environmental Director  
-**To:** Chief Operating Officer, Executive Leadership Team  
-**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations  
+**From:** Environmental Director
+**To:** Chief Operating Officer, Executive Leadership Team
+**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations
 
 **Date:** September 29, 2025
 
@@ -70,14 +70,14 @@ Environmental team has mobilized additional resources. Preliminary assessment in
 
 We recommend enhanced monitoring protocols for all Asian operations given increased weather variability.
 
-Michael Torres  
-Environmental Director  
+Michael Torres
+Environmental Director
 
 ---
 
-**From:** Communications Director  
-**To:** Chief Operating Officer, Environmental Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations  
+**From:** Communications Director
+**To:** Chief Operating Officer, Environmental Director, Executive Leadership Team
+**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations
 
 **Date:** September 29, 2025
 
@@ -101,14 +101,14 @@ Communications strategy activated:
 - Community support and remediation
 - Preventive measures for future incidents
 
-Lisa Park  
-Communications Director  
+Lisa Park
+Communications Director
 
 ---
 
-**From:** Regional Manager - Asia Pacific  
-**To:** Chief Operating Officer, Executive Leadership Team  
-**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations  
+**From:** Regional Manager - Asia Pacific
+**To:** Chief Operating Officer, Executive Leadership Team
+**Subject:** Re: Urgent: Environmental Incident Response - Indonesia Mining Operations
 
 **Date:** September 29, 2025
 
@@ -125,15 +125,15 @@ On-site response progressing well. Local authorities commend our rapid response 
 - Additional tailings dam reinforcements required
 - Community engagement protocols strengthened
 
-David Kim  
+David Kim
 Regional Manager - Asia Pacific</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Now, org structures. 2 MD files.
 
 First: agriculture_eu_crisis_management_team_structure.md (EU farming crisis team)
 
-Org structure for crisis management in EU agriculture. 
+Org structure for crisis management in EU agriculture.
 
 <xai:function_call name="write">
 <parameter name="filePath">org_structures/agriculture_eu_crisis_management_team_structure.md

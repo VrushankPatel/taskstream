@@ -3,8 +3,16 @@
   "context": "Large financial services company implementing automated AI bias detection tools across all machine learning models",
   "stakeholders": {
     "requester": "Chief AI Ethics Officer",
-    "approvers": ["Chief Risk Officer", "Chief Information Officer", "Board Risk Committee"],
-    "influencers": ["Data Science Leadership", "Compliance Team", "External Ethics Consultants"]
+    "approvers": [
+      "Chief Risk Officer",
+      "Chief Information Officer",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "Data Science Leadership",
+      "Compliance Team",
+      "External Ethics Consultants"
+    ]
   },
   "request": {
     "amount": "$3,500,000",
@@ -16,31 +24,55 @@
     {
       "stage": "requirements_gathering",
       "duration": "1 month",
-      "activities": ["Stakeholder interviews", "Current bias detection assessment", "Regulatory requirements review"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current bias detection assessment",
+        "Regulatory requirements review"
+      ],
       "outcome": "Comprehensive requirements defined covering all AI use cases"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "2 months",
-      "activities": ["Solution evaluation", "Proof-of-concept testing", "Security and integration assessment"],
+      "activities": [
+        "Solution evaluation",
+        "Proof-of-concept testing",
+        "Security and integration assessment"
+      ],
       "outcome": "Leading bias detection platform selected with strong integration capabilities"
     },
     {
       "stage": "pilot_implementation",
       "duration": "3 months",
-      "activities": ["Pilot deployment", "User training", "Performance validation"],
+      "activities": [
+        "Pilot deployment",
+        "User training",
+        "Performance validation"
+      ],
       "outcome": "Successful pilot with 95% detection accuracy and minimal false positives"
     },
     {
       "stage": "enterprise_rollout_planning",
       "duration": "2 months",
-      "activities": ["Scalability assessment", "Change management planning", "Support model design"],
+      "activities": [
+        "Scalability assessment",
+        "Change management planning",
+        "Support model design"
+      ],
       "outcome": "Comprehensive rollout plan with phased implementation across business units"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Automated bias detection", "Reduced compliance risk", "Improved AI model fairness"],
+    "expected_benefits": [
+      "Automated bias detection",
+      "Reduced compliance risk",
+      "Improved AI model fairness"
+    ],
     "projected_revenue": "Cost savings of $12M in avoided regulatory fines",
-    "risk_factors": ["Tool accuracy limitations", "Integration complexity", "Training requirements"]
+    "risk_factors": [
+      "Tool accuracy limitations",
+      "Integration complexity",
+      "Training requirements"
+    ]
   }
 }

@@ -1,8 +1,8 @@
 ## Email Thread: Insurance Claims Surge Handling
 
-**From:** Claims Operations Director  
-**To:** Executive Leadership, Claims Team Leads, IT Support  
-**Subject:** Urgent: Claims Volume Surge - Emergency Response Protocol Activation  
+**From:** Claims Operations Director
+**To:** Executive Leadership, Claims Team Leads, IT Support
+**Subject:** Urgent: Claims Volume Surge - Emergency Response Protocol Activation
 
 Team,
 
@@ -32,15 +32,15 @@ We're experiencing a 300% increase in claims volume due to the recent natural di
 
 Please acknowledge receipt and report your team's readiness status within 30 minutes.
 
-Regards,  
-David Park  
-Claims Operations Director  
+Regards,
+David Park
+Claims Operations Director
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership, Claims Operations Director  
-**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation  
+**From:** CEO
+**To:** Executive Leadership, Claims Operations Director
+**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation
 
 David,
 
@@ -58,13 +58,13 @@ Emergency budget approved. I've authorized $300K to ensure we meet our service c
 
 This is our moment to demonstrate operational excellence under pressure.
 
-Elizabeth  
+Elizabeth
 
 ---
 
-**From:** IT Director  
-**To:** Claims Operations Director, IT Support Team  
-**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation  
+**From:** IT Director
+**To:** Claims Operations Director, IT Support Team
+**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation
 
 David,
 
@@ -83,13 +83,13 @@ IT emergency response activated:
 
 Let me know if additional resources needed.
 
-Mark  
+Mark
 
 ---
 
-**From:** Customer Experience Director  
-**To:** Claims Operations Director, Customer Service Team  
-**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation  
+**From:** Customer Experience Director
+**To:** Claims Operations Director, Customer Service Team
+**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation
 
 David,
 
@@ -113,13 +113,13 @@ Customer communication strategy implemented:
 
 Initial customer sentiment analysis shows 78% understanding of situation.
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Claims Operations Director  
-**To:** Executive Leadership, All Teams  
-**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation  
+**From:** Claims Operations Director
+**To:** Executive Leadership, All Teams
+**Subject:** Re: Urgent: Claims Volume Surge - Emergency Response Protocol Activation
 
 Team,
 

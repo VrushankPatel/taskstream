@@ -1,40 +1,68 @@
 workflow:
-  id: "workflow_international_001"
-  title: "Multinational Company International Expansion Compliance Process"
-  department: "Global Operations"
-  complexity: "high"
-  participants: ["Country Manager", "Legal Compliance Team", "Tax Advisor", "HR Director", "Risk Assessment Officer"]
-  trigger: "Board approval for international market entry"
+  id: workflow_international_001
+  title: Multinational Company International Expansion Compliance Process
+  department: Global Operations
+  complexity: high
+  participants:
+  - Country Manager
+  - Legal Compliance Team
+  - Tax Advisor
+  - HR Director
+  - Risk Assessment Officer
+  trigger: Board approval for international market entry
   steps:
-    - step: 1
-      actor: "Country Manager"
-      action: "Conduct market research and local partner identification"
-      tools: ["Market Research Database", "Partner Network Platform"]
-      duration: "3 months"
-      outputs: ["Market Entry Strategy", "Local Partner Agreements"]
-    - step: 2
-      actor: "Legal Compliance Team"
-      action: "Assess local laws, regulations, and compliance requirements"
-      tools: ["Legal Research Databases", "Compliance Management System"]
-      duration: "2 months"
-      outputs: ["Regulatory Compliance Report", "Legal Entity Structure"]
-    - step: 3
-      actor: "Tax Advisor"
-      action: "Structure tax-efficient operations and transfer pricing"
-      decision_points: ["Tax Optimization Strategies", "Transfer Pricing Models"]
-      duration: "1 month"
-      outputs: ["Tax Structure Plan", "Transfer Pricing Documentation"]
-    - step: 4
-      actor: "HR Director"
-      action: "Develop local employment policies and hiring strategy"
-      tools: ["HR Management System", "Local Labor Law Database"]
-      duration: "6 weeks"
-      outputs: ["Local HR Policies", "Hiring Plan"]
-    - step: 5
-      actor: "Risk Assessment Officer"
-      action: "Evaluate geopolitical, currency, and operational risks"
-      tools: ["Risk Assessment Framework", "Geopolitical Analysis Tools"]
-      duration: "4 weeks"
-      outputs: ["Risk Mitigation Plan", "Contingency Strategies"]
-  success_criteria: "Successful market entry with compliant operations and risk mitigation"
-  failure_modes: ["Regulatory Non-Compliance", "Currency Fluctuation Impacts", "Local Partner Disputes"]
+  - step: 1
+    actor: Country Manager
+    action: Conduct market research and local partner identification
+    tools:
+    - Market Research Database
+    - Partner Network Platform
+    duration: 3 months
+    outputs:
+    - Market Entry Strategy
+    - Local Partner Agreements
+  - step: 2
+    actor: Legal Compliance Team
+    action: Assess local laws, regulations, and compliance requirements
+    tools:
+    - Legal Research Databases
+    - Compliance Management System
+    duration: 2 months
+    outputs:
+    - Regulatory Compliance Report
+    - Legal Entity Structure
+  - step: 3
+    actor: Tax Advisor
+    action: Structure tax-efficient operations and transfer pricing
+    decision_points:
+    - Tax Optimization Strategies
+    - Transfer Pricing Models
+    duration: 1 month
+    outputs:
+    - Tax Structure Plan
+    - Transfer Pricing Documentation
+  - step: 4
+    actor: HR Director
+    action: Develop local employment policies and hiring strategy
+    tools:
+    - HR Management System
+    - Local Labor Law Database
+    duration: 6 weeks
+    outputs:
+    - Local HR Policies
+    - Hiring Plan
+  - step: 5
+    actor: Risk Assessment Officer
+    action: Evaluate geopolitical, currency, and operational risks
+    tools:
+    - Risk Assessment Framework
+    - Geopolitical Analysis Tools
+    duration: 4 weeks
+    outputs:
+    - Risk Mitigation Plan
+    - Contingency Strategies
+  success_criteria: Successful market entry with compliant operations and risk mitigation
+  failure_modes:
+  - Regulatory Non-Compliance
+  - Currency Fluctuation Impacts
+  - Local Partner Disputes

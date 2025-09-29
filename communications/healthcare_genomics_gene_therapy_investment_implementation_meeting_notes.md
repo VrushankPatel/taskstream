@@ -1,9 +1,9 @@
 # Healthcare Genomics Gene Therapy Investment Implementation Discussion Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Executive Conference Room A  
-**Attendees:** CEO, CFO, CMO, VP R&D, Head Regulatory Affairs, External Genomics Expert  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Executive Conference Room A
+**Attendees:** CEO, CFO, CMO, VP R&D, Head Regulatory Affairs, External Genomics Expert
 
 ## Meeting Objective
 Discuss investment opportunity in gene therapy platform for rare disease treatment and evaluate strategic alignment with company portfolio.
@@ -49,7 +49,7 @@ Discuss investment opportunity in gene therapy platform for rare disease treatme
 ### Investment Approval
 - **Motion**: Approve $750M investment in gene therapy platform
 - **Rationale**: Strong strategic fit, attractive financial returns, first-mover advantage
-- **Conditions**: 
+- **Conditions**:
   - Phase 2 data readouts must meet predefined success criteria
   - Manufacturing scale-up milestones achieved
   - Regulatory feedback supportive
@@ -76,5 +76,5 @@ Discuss investment opportunity in gene therapy platform for rare disease treatme
 ## Next Meeting
 October 15, 2025 - Board Presentation and Final Investment Decision
 
-**Meeting Facilitator:** CEO  
+**Meeting Facilitator:** CEO
 **Note Taker:** Corporate Secretary

@@ -1,112 +1,113 @@
 name: Retail Cyber Security Incident Workflow
-description: Response process for cyber security incidents in retail operations, focusing on containment, investigation, and recovery
+description: Response process for cyber security incidents in retail operations, focusing
+  on containment, investigation, and recovery
 version: 1.0
 industry: Retail
 region: Global
 complexity: High
 actors:
-  - IT Security Manager
-  - Incident Response Lead
-  - Legal Advisor
-  - Communications Manager
-  - Operations Director
+- IT Security Manager
+- Incident Response Lead
+- Legal Advisor
+- Communications Manager
+- Operations Director
 steps:
-  - id: incident_detection
-    name: Incident Detection and Initial Response
-    description: Identify cyber security breach and initiate immediate containment
-    actor: IT Security Manager
-    inputs:
-      - Security monitoring alerts
-      - System logs
-      - User reports
-    outputs:
-      - Incident classification
-      - Initial containment actions
-    duration: 30 minutes
-    decision_points:
-      - condition: Data breach confirmed
-        next_step: activate_incident_team
-      - condition: False positive
-        next_step: monitor_and_close
-  - id: activate_incident_team
-    name: Activate Incident Response Team
-    description: Assemble cross-functional cyber incident response team
-    actor: Incident Response Lead
-    inputs:
-      - Incident response plan
-      - Team contact list
-      - Communication protocols
-    outputs:
-      - Incident response team roster
-      - Initial action plan
-    duration: 1 hour
-    tools:
-      - Incident response platform
-      - Secure communication channels
-  - id: containment_and_investigation
-    name: Containment and Forensic Investigation
-    description: Contain the breach and conduct forensic analysis
-    actor: IT Security Manager
-    inputs:
-      - System access controls
-      - Forensic tools
-      - Threat intelligence data
-    outputs:
-      - Containment report
-      - Forensic analysis findings
-      - Impact assessment
-    duration: 4 hours
-  - id: legal_notification
-    name: Legal and Regulatory Notification
-    description: Notify relevant authorities and legal counsel
-    actor: Legal Advisor
-    inputs:
-      - Data breach notification laws
-      - Affected customer data scope
-      - Regulatory requirements
-    outputs:
-      - Notification logs
-      - Legal documentation
-    duration: 2 hours
-  - id: customer_communication
-    name: Customer and Stakeholder Communication
-    description: Communicate incident details and protective measures
-    actor: Communications Manager
-    inputs:
-      - Customer database
-      - Communication templates
-      - Incident factsheet
-    outputs:
-      - Customer notification campaigns
-      - Media statements
-      - Stakeholder updates
-    duration: 6 hours
-  - id: recovery_and_monitoring
-    name: System Recovery and Ongoing Monitoring
-    description: Restore systems and implement enhanced security measures
-    actor: Operations Director
-    inputs:
-      - Backup systems
-      - Security enhancement plan
-      - Monitoring tools
-    outputs:
-      - Recovery completion report
-      - Security improvement recommendations
-      - Incident summary
-    duration: 24 hours
+- id: incident_detection
+  name: Incident Detection and Initial Response
+  description: Identify cyber security breach and initiate immediate containment
+  actor: IT Security Manager
+  inputs:
+  - Security monitoring alerts
+  - System logs
+  - User reports
+  outputs:
+  - Incident classification
+  - Initial containment actions
+  duration: 30 minutes
+  decision_points:
+  - condition: Data breach confirmed
+    next_step: activate_incident_team
+  - condition: False positive
+    next_step: monitor_and_close
+- id: activate_incident_team
+  name: Activate Incident Response Team
+  description: Assemble cross-functional cyber incident response team
+  actor: Incident Response Lead
+  inputs:
+  - Incident response plan
+  - Team contact list
+  - Communication protocols
+  outputs:
+  - Incident response team roster
+  - Initial action plan
+  duration: 1 hour
+  tools:
+  - Incident response platform
+  - Secure communication channels
+- id: containment_and_investigation
+  name: Containment and Forensic Investigation
+  description: Contain the breach and conduct forensic analysis
+  actor: IT Security Manager
+  inputs:
+  - System access controls
+  - Forensic tools
+  - Threat intelligence data
+  outputs:
+  - Containment report
+  - Forensic analysis findings
+  - Impact assessment
+  duration: 4 hours
+- id: legal_notification
+  name: Legal and Regulatory Notification
+  description: Notify relevant authorities and legal counsel
+  actor: Legal Advisor
+  inputs:
+  - Data breach notification laws
+  - Affected customer data scope
+  - Regulatory requirements
+  outputs:
+  - Notification logs
+  - Legal documentation
+  duration: 2 hours
+- id: customer_communication
+  name: Customer and Stakeholder Communication
+  description: Communicate incident details and protective measures
+  actor: Communications Manager
+  inputs:
+  - Customer database
+  - Communication templates
+  - Incident factsheet
+  outputs:
+  - Customer notification campaigns
+  - Media statements
+  - Stakeholder updates
+  duration: 6 hours
+- id: recovery_and_monitoring
+  name: System Recovery and Ongoing Monitoring
+  description: Restore systems and implement enhanced security measures
+  actor: Operations Director
+  inputs:
+  - Backup systems
+  - Security enhancement plan
+  - Monitoring tools
+  outputs:
+  - Recovery completion report
+  - Security improvement recommendations
+  - Incident summary
+  duration: 24 hours
 success_criteria:
-  - Incident contained within 2 hours
-  - Systems restored within 24 hours
-  - Regulatory notifications completed within required timeframe
-  - Customer data protected
+- Incident contained within 2 hours
+- Systems restored within 24 hours
+- Regulatory notifications completed within required timeframe
+- Customer data protected
 failure_modes:
-  - Prolonged system downtime
-  - Data exposure
-  - Regulatory non-compliance
-  - Reputational damage
+- Prolonged system downtime
+- Data exposure
+- Regulatory non-compliance
+- Reputational damage
 metrics:
-  - Time to incident detection
-  - Containment effectiveness
-  - System recovery time
-  - Customer notification completion
-  - Security incident recurrence rate
+- Time to incident detection
+- Containment effectiveness
+- System recovery time
+- Customer notification completion
+- Security incident recurrence rate

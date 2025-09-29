@@ -1,14 +1,14 @@
 ## Announcement: Construction Sustainable Materials Rollout
 
-**From:** Construction Operations VP  
-**To:** All Construction Teams, Procurement, Sustainability Committee  
-**Subject:** Implementation of Sustainable Materials Program - Phase 1 Launch  
+**From:** Construction Operations VP
+**To:** All Construction Teams, Procurement, Sustainability Committee
+**Subject:** Implementation of Sustainable Materials Program - Phase 1 Launch
 
-**Date:** September 29, 2025  
+**Date:** September 29, 2025
 
-Team,  
+Team,
 
-I'm excited to announce the launch of our Sustainable Materials Program, a key initiative in our commitment to green construction practices. This program will transform how we source and use materials across all projects.  
+I'm excited to announce the launch of our Sustainable Materials Program, a key initiative in our commitment to green construction practices. This program will transform how we source and use materials across all projects.
 
 ### Program Overview
 - **Goal**: Achieve 70% sustainable material usage across all projects by 2028
@@ -57,11 +57,11 @@ I'm excited to announce the launch of our Sustainable Materials Program, a key i
 - Project team adoption: 90% training completion rate
 - Client satisfaction: 4.5/5 rating for sustainable features
 
-For questions or support, please contact the Sustainable Materials Team at sustainability@constructcorp.com.  
+For questions or support, please contact the Sustainable Materials Team at sustainability@constructcorp.com.
 
-We're building a more sustainable future, one project at a time.  
+We're building a more sustainable future, one project at a time.
 
-Best regards,  
-Michael Thornton  
-VP Construction Operations  
+Best regards,
+Michael Thornton
+VP Construction Operations
 Michael.Thornton@constructcorp.com

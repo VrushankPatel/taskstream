@@ -3,8 +3,15 @@
   "context": "Hotel chain post-pandemic seeking to enhance guest experience with contactless services",
   "stakeholders": {
     "requester": "Director of Guest Experience",
-    "approvers": ["COO", "CIO"],
-    "influencers": ["Property Managers", "IT Security Officer", "Guest Services Team"]
+    "approvers": [
+      "COO",
+      "CIO"
+    ],
+    "influencers": [
+      "Property Managers",
+      "IT Security Officer",
+      "Guest Services Team"
+    ]
   },
   "request": {
     "amount": "$450K",
@@ -16,51 +23,91 @@
     {
       "stage": "feasibility_study",
       "duration": "2 weeks",
-      "activities": ["Technology assessment", "Guest surveys", "Competitor analysis"],
+      "activities": [
+        "Technology assessment",
+        "Guest surveys",
+        "Competitor analysis"
+      ],
       "outcome": "Contactless services identified as competitive advantage"
     },
     {
       "stage": "pilot_program",
       "duration": "1 month",
-      "activities": ["Single property pilot", "Guest feedback collection", "Technical validation"],
+      "activities": [
+        "Single property pilot",
+        "Guest feedback collection",
+        "Technical validation"
+      ],
       "outcome": "85% guest satisfaction with contactless features"
     },
     {
       "stage": "rollout_planning",
       "duration": "2 weeks",
-      "activities": ["Timeline development", "Training program", "Budget allocation"],
+      "activities": [
+        "Timeline development",
+        "Training program",
+        "Budget allocation"
+      ],
       "outcome": "6-month phased rollout approved"
     }
   ],
-    "business_impact": {
-      "expected_outcome": "20% improvement in guest satisfaction, 15% increase in direct bookings",
-      "projected_value": "$2.1M additional revenue over 2 years",
-      "financial_metrics": {
-        "roi": "360%",
-        "payback_period": "8 months",
-        "cost_savings": "$180K annually in reduced check-in processing"
-      },
-      "operational_metrics": {
-        "check_in_time_reduction": "60%",
-        "staff_productivity_gain": "25%",
-        "maintenance_cost_increase": "$50K annually"
-      },
-      "risk_factors": ["Technology reliability issues causing guest frustration", "Staff training challenges leading to inconsistent service", "Security concerns with mobile payment data", "Integration complexity with existing PMS systems"],
-      "mitigation_strategies": ["Vendor SLA requirements for 99.9% uptime", "Comprehensive training program with certification", "PCI DSS compliance validation", "Phased implementation with fallback procedures"]
+  "business_impact": {
+    "expected_outcome": "20% improvement in guest satisfaction, 15% increase in direct bookings",
+    "projected_value": "$2.1M additional revenue over 2 years",
+    "financial_metrics": {
+      "roi": "360%",
+      "payback_period": "8 months",
+      "cost_savings": "$180K annually in reduced check-in processing"
     },
-   "alternatives_considered": [
-     {
-       "option": "Limited rollout to high-end properties only",
-       "pros": ["Lower initial cost ($250K)", "Focused testing"],
-       "cons": ["Limited market impact", "Competitive disadvantage in mid-tier segment"]
-     },
-     {
-       "option": "Third-party platform integration",
-       "pros": ["Faster implementation", "Established security frameworks"],
-       "cons": ["Higher ongoing licensing fees", "Less customization"]
-     }
-   ],
-   "decision_criteria": ["Guest experience impact", "Implementation cost", "Security compliance", "Competitive advantage", "Scalability"],
-   "outcome": "Approved",
+    "operational_metrics": {
+      "check_in_time_reduction": "60%",
+      "staff_productivity_gain": "25%",
+      "maintenance_cost_increase": "$50K annually"
+    },
+    "risk_factors": [
+      "Technology reliability issues causing guest frustration",
+      "Staff training challenges leading to inconsistent service",
+      "Security concerns with mobile payment data",
+      "Integration complexity with existing PMS systems"
+    ],
+    "mitigation_strategies": [
+      "Vendor SLA requirements for 99.9% uptime",
+      "Comprehensive training program with certification",
+      "PCI DSS compliance validation",
+      "Phased implementation with fallback procedures"
+    ]
+  },
+  "alternatives_considered": [
+    {
+      "option": "Limited rollout to high-end properties only",
+      "pros": [
+        "Lower initial cost ($250K)",
+        "Focused testing"
+      ],
+      "cons": [
+        "Limited market impact",
+        "Competitive disadvantage in mid-tier segment"
+      ]
+    },
+    {
+      "option": "Third-party platform integration",
+      "pros": [
+        "Faster implementation",
+        "Established security frameworks"
+      ],
+      "cons": [
+        "Higher ongoing licensing fees",
+        "Less customization"
+      ]
+    }
+  ],
+  "decision_criteria": [
+    "Guest experience impact",
+    "Implementation cost",
+    "Security compliance",
+    "Competitive advantage",
+    "Scalability"
+  ],
+  "outcome": "Approved",
   "lessons_learned": "Pilot programs essential for validating guest technology preferences. Phased rollout minimizes operational disruption. Staff training critical for successful adoption."
 }

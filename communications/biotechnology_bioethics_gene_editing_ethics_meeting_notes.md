@@ -1,9 +1,9 @@
 # Biotechnology Bioethics Gene Editing Ethics Meeting Notes
 
-**Date:** October 12, 2025  
-**Time:** 9:00 AM - 11:00 AM  
-**Location:** Ethics Committee Conference Room  
-**Attendees:** Chief Scientific Officer, Bioethics Director, Patient Advocate Representative, Regulatory Affairs Lead, Legal Counsel, External Bioethicist  
+**Date:** October 12, 2025
+**Time:** 9:00 AM - 11:00 AM
+**Location:** Ethics Committee Conference Room
+**Attendees:** Chief Scientific Officer, Bioethics Director, Patient Advocate Representative, Regulatory Affairs Lead, Legal Counsel, External Bioethicist
 
 ## Meeting Objective
 Review ethical considerations for advancing CRISPR-based gene editing therapy to clinical trials and establish governance framework.

@@ -1,8 +1,8 @@
 ## Email Thread: Transportation Hyperloop Safety Incident Response
 
-**From:** Safety Director  
-**To:** CEO, COO, Chief Engineer, Regulatory Affairs Director, Communications Director  
-**Subject:** CRITICAL: Hyperloop Test Track Incident - Immediate Response Required  
+**From:** Safety Director
+**To:** CEO, COO, Chief Engineer, Regulatory Affairs Director, Communications Director
+**Subject:** CRITICAL: Hyperloop Test Track Incident - Immediate Response Required
 
 Team,
 
@@ -36,18 +36,18 @@ This incident, while contained, highlights the risks inherent in breakthrough tr
 
 Please advise on executive communication strategy. Should we schedule an emergency board call?
 
-Best,  
-Dr. Elena Rodriguez  
-Safety Director  
-Hyperloop Transportation Systems  
-elena.rodriguez@hyperlooptrans.com  
+Best,
+Dr. Elena Rodriguez
+Safety Director
+Hyperloop Transportation Systems
+elena.rodriguez@hyperlooptrans.com
 +1 (555) 987-6543
 
 ---
 
-**From:** CEO  
-**To:** Safety Director, COO, Chief Engineer, Regulatory Affairs Director, Communications Director, General Counsel  
-**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required  
+**From:** CEO
+**To:** Safety Director, COO, Chief Engineer, Regulatory Affairs Director, Communications Director, General Counsel
+**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required
 
 Elena,
 
@@ -72,17 +72,17 @@ Michael, please coordinate with Elena on technical assessment timeline. Sarah, p
 
 We will use this to strengthen our safety culture and regulatory relationships.
 
-Regards,  
-James Thornton  
-CEO  
-Hyperloop Transportation Systems  
+Regards,
+James Thornton
+CEO
+Hyperloop Transportation Systems
 james.thornton@hyperlooptrans.com
 
 ---
 
-**From:** Chief Engineer  
-**To:** CEO, Safety Director, COO, Regulatory Affairs Director  
-**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required  
+**From:** Chief Engineer
+**To:** CEO, Safety Director, COO, Regulatory Affairs Director
+**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required
 
 James,
 
@@ -108,16 +108,16 @@ James,
 
 This incident validates our rigorous testing approach and will lead to system improvements.
 
-Dr. Marcus Chen  
-Chief Engineer  
-Hyperloop Transportation Systems  
+Dr. Marcus Chen
+Chief Engineer
+Hyperloop Transportation Systems
 marcus.chen@hyperlooptrans.com
 
 ---
 
-**From:** Communications Director  
-**To:** CEO, Safety Director, Chief Engineer, Regulatory Affairs Director  
-**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required  
+**From:** Communications Director
+**To:** CEO, Safety Director, Chief Engineer, Regulatory Affairs Director
+**Subject:** Re: CRITICAL: Hyperloop Test Track Incident - Immediate Response Required
 
 **Media Response Strategy:**
 
@@ -144,7 +144,7 @@ marcus.chen@hyperlooptrans.com
 - Social media sentiment analysis initiated
 - Spokesperson availability confirmed
 
-Sarah Mitchell  
-Communications Director  
-Hyperloop Transportation Systems  
+Sarah Mitchell
+Communications Director
+Hyperloop Transportation Systems
 sarah.mitchell@hyperlooptrans.com

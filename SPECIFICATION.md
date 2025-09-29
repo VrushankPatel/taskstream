@@ -16,7 +16,7 @@ You are an AI dataset generator creating the **TaskStream** dataset - a comprehe
 ```bash
 # Read context files
 cat SPECIFICATION.md
-cat CHANGES.md  
+cat CHANGES.md
 cat pending_items.md
 git status
 ```
@@ -43,7 +43,7 @@ Research real enterprise workflows:
 
 **Dataset Categories:**
 1. **Process Documentation** - Step-by-step business procedures
-2. **Decision Trees** - How companies make strategic/operational decisions  
+2. **Decision Trees** - How companies make strategic/operational decisions
 3. **Communication Templates** - Email chains, meeting notes, status reports
 4. **Organizational Charts** - Team structures, roles, responsibilities
 5. **Workflow Scenarios** - Real business situations and how they unfold
@@ -180,7 +180,7 @@ Following yesterday's QA review, I need to communicate a 3-week delay to our Q3 
 ## Success Metrics
 Build **TaskStream** toward comprehensive coverage of:
 - 100+ distinct business processes
-- 50+ decision-making scenarios  
+- 50+ decision-making scenarios
 - 25+ industry verticals
 - 10+ company maturity levels (startup to Fortune 500)
 

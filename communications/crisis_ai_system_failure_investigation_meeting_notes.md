@@ -1,9 +1,9 @@
 # AI System Failure Crisis Investigation Meeting
 
-**Date:** September 28, 2025  
-**Time:** 8:00 AM - 10:00 AM  
-**Location:** Emergency Operations Center  
-**Attendees:** CEO, CTO, CIO, Chief Information Security Officer, AI Engineering Lead, Crisis Management Team, Legal Counsel  
+**Date:** September 28, 2025
+**Time:** 8:00 AM - 10:00 AM
+**Location:** Emergency Operations Center
+**Attendees:** CEO, CTO, CIO, Chief Information Security Officer, AI Engineering Lead, Crisis Management Team, Legal Counsel
 
 ## Meeting Objective
 Investigate root cause of critical AI system failure and determine recovery strategy.

@@ -1,9 +1,9 @@
 ## Meeting Notes: Quantum Computing Enterprise Adoption Strategy Session
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CTO, CFO, Head of Research, VP Operations, Chief Data Officer  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CTO, CFO, Head of Research, VP Operations, Chief Data Officer
 
 **Objective:** Evaluate quantum computing adoption strategy for enterprise optimization problems
 

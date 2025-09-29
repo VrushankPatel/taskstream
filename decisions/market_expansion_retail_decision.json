@@ -3,8 +3,15 @@
   "context": "Mid-size retail chain, 200 stores, considering expansion into e-commerce fulfillment centers",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["VP Marketing", "Chief Financial Officer", "Real Estate Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Marketing",
+      "Chief Financial Officer",
+      "Real Estate Director"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,31 +23,59 @@
     {
       "stage": "market_analysis",
       "duration": "8 weeks",
-      "activities": ["Competitive landscape assessment", "Customer demand analysis", "E-commerce trend evaluation"],
+      "activities": [
+        "Competitive landscape assessment",
+        "Customer demand analysis",
+        "E-commerce trend evaluation"
+      ],
       "outcome": "Strong market opportunity identified with 40% annual growth potential"
     },
     {
       "stage": "site_selection",
       "duration": "6 weeks",
-      "activities": ["Location analysis", "Real estate market evaluation", "Logistics network optimization"],
+      "activities": [
+        "Location analysis",
+        "Real estate market evaluation",
+        "Logistics network optimization"
+      ],
       "outcome": "Optimal locations identified in major metropolitan areas"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Capital budgeting", "Cash flow projections", "Risk analysis"],
+      "activities": [
+        "Capital budgeting",
+        "Cash flow projections",
+        "Risk analysis"
+      ],
       "outcome": "NPV positive with 18% IRR over 10 years"
     },
     {
       "stage": "operational_planning",
       "duration": "3 weeks",
-      "activities": ["Technology platform selection", "Staffing requirements", "Integration with existing operations"],
+      "activities": [
+        "Technology platform selection",
+        "Staffing requirements",
+        "Integration with existing operations"
+      ],
       "outcome": "Approved with pilot center first, full rollout in phases"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["25% increase in online revenue", "Improved delivery times", "Enhanced customer experience"],
-    "risk_factors": ["Construction delays", "Technology integration challenges", "Market competition"],
-    "mitigation_strategies": ["Experienced construction partners", "Phased technology implementation", "Competitive differentiation strategy"]
+    "expected_outcomes": [
+      "25% increase in online revenue",
+      "Improved delivery times",
+      "Enhanced customer experience"
+    ],
+    "risk_factors": [
+      "Construction delays",
+      "Technology integration challenges",
+      "Market competition"
+    ],
+    "mitigation_strategies": [
+      "Experienced construction partners",
+      "Phased technology implementation",
+      "Competitive differentiation strategy"
+    ]
   }
 }

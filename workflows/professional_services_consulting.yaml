@@ -1,46 +1,92 @@
 workflow:
-  id: "workflow_professional_services_consulting"
-  title: "Professional Services Consulting Engagement"
-  department: "Consulting Services"
-  complexity: "medium"
-  participants: ["Partner", "Senior Consultant", "Consultant", "Project Manager", "Client Relationship Manager"]
-  trigger: "Client RFP received or strategic opportunity identified"
+  id: workflow_professional_services_consulting
+  title: Professional Services Consulting Engagement
+  department: Consulting Services
+  complexity: medium
+  participants:
+  - Partner
+  - Senior Consultant
+  - Consultant
+  - Project Manager
+  - Client Relationship Manager
+  trigger: Client RFP received or strategic opportunity identified
   steps:
-    - step: 1
-      actor: "Partner"
-      action: "Review opportunity and decide pursuit strategy"
-      tools: ["CRM system", "Financial modeling software", "Competitive intelligence"]
-      duration: "1-2 days"
-      outputs: ["Pursuit decision", "Initial proposal outline", "Team assignment"]
-    - step: 2
-      actor: "Senior Consultant"
-      action: "Develop detailed proposal and pricing strategy"
-      decision_points: ["Scope definition", "Pricing model selection", "Resource allocation"]
-      duration: "3-5 days"
-      outputs: ["Formal proposal", "Pricing breakdown", "Risk assessment"]
-    - step: 3
-      actor: "Client Relationship Manager"
-      action: "Present proposal and negotiate terms"
-      tools: ["Presentation software", "Contract management system"]
-      duration: "1-2 weeks"
-      outputs: ["Signed contract", "Project charter", "Client expectations document"]
-    - step: 4
-      actor: "Project Manager"
-      action: "Plan project execution and resource deployment"
-      tools: ["Project management software", "Resource planning tools"]
-      duration: "1 week"
-      outputs: ["Project plan", "Resource allocation", "Communication plan"]
-    - step: 5
-      actor: "Consultant Team"
-      action: "Execute consulting deliverables and manage client interactions"
-      tools: ["Collaboration platforms", "Knowledge management systems", "Time tracking software"]
-      duration: "4-24 weeks"
-      outputs: ["Deliverables", "Progress reports", "Change requests"]
-    - step: 6
-      actor: "Partner"
-      action: "Review final deliverables and plan transition"
-      decision_points: ["Client satisfaction assessment", "Follow-on opportunities", "Knowledge transfer completion"]
-      duration: "1 week"
-      outputs: ["Final report", "Transition plan", "Lessons learned document"]
-  success_criteria: "Project delivered on time and budget, client satisfaction score >8/10, follow-on business secured"
-  failure_modes: ["Scope creep", "Resource conflicts", "Client expectation misalignment", "Key personnel turnover", "Data quality issues", "Regulatory compliance problems"]
+  - step: 1
+    actor: Partner
+    action: Review opportunity and decide pursuit strategy
+    tools:
+    - CRM system
+    - Financial modeling software
+    - Competitive intelligence
+    duration: 1-2 days
+    outputs:
+    - Pursuit decision
+    - Initial proposal outline
+    - Team assignment
+  - step: 2
+    actor: Senior Consultant
+    action: Develop detailed proposal and pricing strategy
+    decision_points:
+    - Scope definition
+    - Pricing model selection
+    - Resource allocation
+    duration: 3-5 days
+    outputs:
+    - Formal proposal
+    - Pricing breakdown
+    - Risk assessment
+  - step: 3
+    actor: Client Relationship Manager
+    action: Present proposal and negotiate terms
+    tools:
+    - Presentation software
+    - Contract management system
+    duration: 1-2 weeks
+    outputs:
+    - Signed contract
+    - Project charter
+    - Client expectations document
+  - step: 4
+    actor: Project Manager
+    action: Plan project execution and resource deployment
+    tools:
+    - Project management software
+    - Resource planning tools
+    duration: 1 week
+    outputs:
+    - Project plan
+    - Resource allocation
+    - Communication plan
+  - step: 5
+    actor: Consultant Team
+    action: Execute consulting deliverables and manage client interactions
+    tools:
+    - Collaboration platforms
+    - Knowledge management systems
+    - Time tracking software
+    duration: 4-24 weeks
+    outputs:
+    - Deliverables
+    - Progress reports
+    - Change requests
+  - step: 6
+    actor: Partner
+    action: Review final deliverables and plan transition
+    decision_points:
+    - Client satisfaction assessment
+    - Follow-on opportunities
+    - Knowledge transfer completion
+    duration: 1 week
+    outputs:
+    - Final report
+    - Transition plan
+    - Lessons learned document
+  success_criteria: Project delivered on time and budget, client satisfaction score
+    >8/10, follow-on business secured
+  failure_modes:
+  - Scope creep
+  - Resource conflicts
+  - Client expectation misalignment
+  - Key personnel turnover
+  - Data quality issues
+  - Regulatory compliance problems

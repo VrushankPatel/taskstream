@@ -1,9 +1,9 @@
 ## Strategic Partnership Formation Announcement Email Thread
 
-**From:** CEO  
-**To:** All Employees  
-**Subject:** Exciting News: Strategic Partnership with Global Tech Leader  
-**Date:** September 28, 2025  
+**From:** CEO
+**To:** All Employees
+**Subject:** Exciting News: Strategic Partnership with Global Tech Leader
+**Date:** September 28, 2025
 
 Team,
 
@@ -21,16 +21,16 @@ We'll be hosting a virtual town hall tomorrow at 3:00 PM EST to discuss the part
 
 Thank you for your continued dedication and innovation. Together, we're building something truly remarkable.
 
-Best,  
-[CEO Name]  
+Best,
+[CEO Name]
 Chief Executive Officer
 
 ---
 
-**From:** VP Engineering  
-**To:** Engineering Teams  
-**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader  
-**Date:** September 28, 2025  
+**From:** VP Engineering
+**To:** Engineering Teams
+**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader
+**Date:** September 28, 2025
 
 Great news! This partnership opens up incredible opportunities for our engineering teams.
 
@@ -48,10 +48,10 @@ Looking forward to the innovation ahead!
 
 ---
 
-**From:** Head of Communications  
-**To:** Marketing and Communications Teams  
-**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader  
-**Date:** September 28, 2025  
+**From:** Head of Communications
+**To:** Marketing and Communications Teams
+**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader
+**Date:** September 28, 2025
 
 Communications team - we need to prepare comprehensive messaging for this announcement.
 
@@ -68,10 +68,10 @@ Please coordinate with TechGlobal's communications team for joint messaging. Fir
 
 ---
 
-**From:** Sales Director  
-**To:** Sales Teams  
-**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader  
-**Date:** September 28, 2025  
+**From:** Sales Director
+**To:** Sales Teams
+**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader
+**Date:** September 28, 2025
 
 This partnership significantly enhances our value proposition!
 
@@ -87,10 +87,10 @@ Training sessions on the combined offerings will begin next week. Let's leverage
 
 ---
 
-**From:** Employee Resource Group Lead  
-**To:** All Employees  
-**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader  
-**Date:** September 28, 2025  
+**From:** Employee Resource Group Lead
+**To:** All Employees
+**Subject:** Re: Exciting News: Strategic Partnership with Global Tech Leader
+**Date:** September 28, 2025
 
 As we celebrate this exciting partnership, I want to remind everyone of our commitment to diversity and inclusion. The partnership includes joint initiatives to promote diverse representation in AI development and ensure our technologies serve all communities equitably.
 

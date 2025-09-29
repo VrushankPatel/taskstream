@@ -1,8 +1,8 @@
 ## Communication Type: Advanced Robotics Workforce Transition Announcement
 
-**From:** Chief Human Resources Officer  
-**To:** All Employees, Department Heads, Union Representatives  
-**Subject:** Advanced Robotics Integration: Workforce Transition and Development Program  
+**From:** Chief Human Resources Officer
+**To:** All Employees, Department Heads, Union Representatives
+**Subject:** Advanced Robotics Integration: Workforce Transition and Development Program
 
 Dear Team,
 
@@ -68,6 +68,6 @@ We believe this program not only protects our workforce but enhances our competi
 
 Please reach out to your department head or HR representative with any questions. We are here to support you through this important transition.
 
-Best regards,  
-Chief Human Resources Officer  
+Best regards,
+Chief Human Resources Officer
 Chief Technology Officer

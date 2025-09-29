@@ -1,8 +1,8 @@
 ## Autonomous Systems Regulatory Navigation Strategy Meeting
 
-**Meeting Date:** September 28, 2025  
-**Attendees:** Chief Legal Officer, Regulatory Affairs Director, Safety Director, Autonomous Systems Program Manager, External Legal Counsel  
-**Location:** Legal Department Conference Room  
+**Meeting Date:** September 28, 2025
+**Attendees:** Chief Legal Officer, Regulatory Affairs Director, Safety Director, Autonomous Systems Program Manager, External Legal Counsel
+**Location:** Legal Department Conference Room
 
 ### Agenda
 1. Current regulatory landscape assessment
@@ -12,13 +12,13 @@
 
 ### Discussion Summary
 
-**Regulatory Landscape**  
+**Regulatory Landscape**
 The Regulatory Affairs Director presented a comprehensive overview of autonomous vehicle regulations across key markets:
 - **Federal Level:** NHTSA guidelines provide framework but limited enforcement authority
 - **State Level:** Varied approaches from full bans (e.g., Hawaii) to unrestricted deployment (e.g., California)
 - **International:** EU AI Act and UN regulations create additional compliance layers
 
-**Deployment Strategy**  
+**Deployment Strategy**
 The team agreed on a phased geographic expansion:
 - **Phase 1 (2026):** Limited deployment in 5 permissive states with established AV corridors
 - **Phase 2 (2027):** Expansion to 15 additional states with conditional permits
@@ -30,14 +30,14 @@ The team agreed on a phased geographic expansion:
 - Public acceptance and political pressures
 - Insurance industry adaptation
 
-**Insurance Framework**  
+**Insurance Framework**
 External Legal Counsel presented options for liability coverage:
 - Traditional auto insurance models insufficient for AV fleets
 - Emerging specialized AV insurance products
 - Self-insurance considerations for large fleets
 - Regulatory requirements for minimum coverage levels
 
-**Resource Requirements**  
+**Resource Requirements**
 Program Manager outlined needs:
 - Dedicated regulatory affairs team (8 FTEs)
 - Legal budget increase of $2M annually
@@ -56,5 +56,5 @@ Program Manager outlined needs:
 - Maintain flexible deployment capabilities
 - Prepare contingency plans for regulatory changes
 
-**Next Meeting**  
+**Next Meeting**
 Monthly regulatory update meetings scheduled for Q4 2025 and Q1 2026.

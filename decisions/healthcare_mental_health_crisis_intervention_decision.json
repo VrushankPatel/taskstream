@@ -3,8 +3,16 @@
   "context": "Major healthcare system, 15 hospitals, facing increased mental health crisis demand post-pandemic",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "Chief of Psychiatry", "CFO"],
-    "influencers": ["Emergency Department Director", "Behavioral Health Director", "Patient Experience Officer"]
+    "approvers": [
+      "CEO",
+      "Chief of Psychiatry",
+      "CFO"
+    ],
+    "influencers": [
+      "Emergency Department Director",
+      "Behavioral Health Director",
+      "Patient Experience Officer"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "clinical_assessment",
       "duration": "3 weeks",
-      "activities": ["Current capacity analysis", "Clinical outcomes review", "Staff burnout assessment"],
+      "activities": [
+        "Current capacity analysis",
+        "Clinical outcomes review",
+        "Staff burnout assessment"
+      ],
       "outcome": "Critical need confirmed"
     },
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["AI solution vendor evaluation", "HIPAA compliance review", "Integration assessment"],
+      "activities": [
+        "AI solution vendor evaluation",
+        "HIPAA compliance review",
+        "Integration assessment"
+      ],
       "outcome": "Two vendors shortlisted"
     },
     {
       "stage": "pilot_planning",
       "duration": "2 weeks",
-      "activities": ["Pilot site selection", "Success metrics definition", "Risk mitigation planning"],
+      "activities": [
+        "Pilot site selection",
+        "Success metrics definition",
+        "Risk mitigation planning"
+      ],
       "outcome": "Pilot approved for 3 sites"
     },
     {
       "stage": "full_implementation",
       "duration": "6 weeks",
-      "activities": ["System deployment", "Staff training", "Patient communication"],
+      "activities": [
+        "System deployment",
+        "Staff training",
+        "Patient communication"
+      ],
       "outcome": "System deployed with monitoring"
     }
   ],
@@ -42,6 +66,11 @@
     "expected_savings": "$25,000,000",
     "crisis_response_time": "Reduced by 50%",
     "patient_outcomes": "30% improvement in crisis resolution",
-    "risk_factors": ["AI accuracy concerns", "Staff acceptance", "Privacy regulations", "Integration challenges"]
+    "risk_factors": [
+      "AI accuracy concerns",
+      "Staff acceptance",
+      "Privacy regulations",
+      "Integration challenges"
+    ]
   }
 }

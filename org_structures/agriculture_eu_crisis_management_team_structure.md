@@ -105,11 +105,11 @@
 - Cross-cultural communication training for international coordination
 - Technical skills certification for field coordinators
 - Media training for communications team</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Second org structure: aerospace_asia_training_operations_structure.md (Asia aerospace training)
 
-Org structure for training operations in Asian aerospace. 
+Org structure for training operations in Asian aerospace.
 
 <xai:function_call name="write">
 <parameter name="filePath">org_structures/aerospace_asia_training_operations_structure.md

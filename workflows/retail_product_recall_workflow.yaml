@@ -1,111 +1,114 @@
 name: Retail Product Recall Workflow
-description: Comprehensive process for managing product recalls in retail environments, ensuring safety compliance and customer protection
+description: Comprehensive process for managing product recalls in retail environments,
+  ensuring safety compliance and customer protection
 version: 1.0
 industry: Retail
 region: EU
 complexity: High
 actors:
-  - Quality Assurance Manager
-  - Legal Counsel
-  - Communications Director
-  - Operations Manager
-  - Customer Service Director
+- Quality Assurance Manager
+- Legal Counsel
+- Communications Director
+- Operations Manager
+- Customer Service Director
 steps:
-  - id: recall_notification
-    name: Recall Notification and Verification
-    description: Receive and verify product recall information from manufacturers or regulators
-    actor: Quality Assurance Manager
-    inputs:
-      - Manufacturer recall notices
-      - Regulatory alerts
-      - Product safety reports
-    outputs:
-      - Recall verification report
-      - Affected product identification
-    duration: 2 hours
-    decision_points:
-      - condition: Safety risk confirmed
-        next_step: initiate_recall_process
-      - condition: False alarm
-        next_step: close_incident
-  - id: initiate_recall_process
-    name: Initiate Recall Process
-    description: Activate recall team and begin product removal from shelves
-    actor: Operations Manager
-    inputs:
-      - Product inventory database
-      - Store location data
-      - Recall implementation plan
-    outputs:
-      - Recall execution plan
-      - Store notification protocols
-    duration: 4 hours
-    tools:
-      - Inventory management system
-      - Point-of-sale system
-  - id: legal_compliance
-    name: Legal and Regulatory Compliance
-    description: Ensure compliance with EU product safety regulations and reporting requirements
-    actor: Legal Counsel
-    inputs:
-      - EU product safety directives
-      - Recall documentation requirements
-      - Consumer protection laws
-    outputs:
-      - Compliance checklist
-      - Regulatory filing documentation
-    duration: 6 hours
-  - id: customer_notification
-    name: Customer Notification and Support
-    description: Communicate recall information to customers and provide support
-    actor: Communications Director
-    inputs:
-      - Customer purchase records
-      - Communication templates
-      - Media relations plan
-    outputs:
-      - Public announcement
-      - Customer support hotline setup
-      - Refund/exchange process
-    duration: 8 hours
-  - id: product_disposal
-    name: Product Removal and Disposal
-    description: Safely remove recalled products from all locations and manage disposal
-    actor: Operations Manager
-    inputs:
-      - Product location tracking
-      - Disposal procedures
-      - Environmental compliance guidelines
-    outputs:
-      - Disposal completion report
-      - Inventory adjustment records
-    duration: 12 hours
-  - id: post_recall_analysis
-    name: Post-Recall Analysis and Reporting
-    description: Analyze recall effectiveness and implement preventive measures
-    actor: Quality Assurance Manager
-    inputs:
-      - Recall execution data
-      - Customer feedback
-      - Supplier performance metrics
-    outputs:
-      - Recall effectiveness report
-      - Quality improvement plan
-      - Lessons learned documentation
-    duration: 1 week
+- id: recall_notification
+  name: Recall Notification and Verification
+  description: Receive and verify product recall information from manufacturers or
+    regulators
+  actor: Quality Assurance Manager
+  inputs:
+  - Manufacturer recall notices
+  - Regulatory alerts
+  - Product safety reports
+  outputs:
+  - Recall verification report
+  - Affected product identification
+  duration: 2 hours
+  decision_points:
+  - condition: Safety risk confirmed
+    next_step: initiate_recall_process
+  - condition: False alarm
+    next_step: close_incident
+- id: initiate_recall_process
+  name: Initiate Recall Process
+  description: Activate recall team and begin product removal from shelves
+  actor: Operations Manager
+  inputs:
+  - Product inventory database
+  - Store location data
+  - Recall implementation plan
+  outputs:
+  - Recall execution plan
+  - Store notification protocols
+  duration: 4 hours
+  tools:
+  - Inventory management system
+  - Point-of-sale system
+- id: legal_compliance
+  name: Legal and Regulatory Compliance
+  description: Ensure compliance with EU product safety regulations and reporting
+    requirements
+  actor: Legal Counsel
+  inputs:
+  - EU product safety directives
+  - Recall documentation requirements
+  - Consumer protection laws
+  outputs:
+  - Compliance checklist
+  - Regulatory filing documentation
+  duration: 6 hours
+- id: customer_notification
+  name: Customer Notification and Support
+  description: Communicate recall information to customers and provide support
+  actor: Communications Director
+  inputs:
+  - Customer purchase records
+  - Communication templates
+  - Media relations plan
+  outputs:
+  - Public announcement
+  - Customer support hotline setup
+  - Refund/exchange process
+  duration: 8 hours
+- id: product_disposal
+  name: Product Removal and Disposal
+  description: Safely remove recalled products from all locations and manage disposal
+  actor: Operations Manager
+  inputs:
+  - Product location tracking
+  - Disposal procedures
+  - Environmental compliance guidelines
+  outputs:
+  - Disposal completion report
+  - Inventory adjustment records
+  duration: 12 hours
+- id: post_recall_analysis
+  name: Post-Recall Analysis and Reporting
+  description: Analyze recall effectiveness and implement preventive measures
+  actor: Quality Assurance Manager
+  inputs:
+  - Recall execution data
+  - Customer feedback
+  - Supplier performance metrics
+  outputs:
+  - Recall effectiveness report
+  - Quality improvement plan
+  - Lessons learned documentation
+  duration: 1 week
 success_criteria:
-  - All recalled products removed within 24 hours
-  - 100% customer notification within 48 hours
-  - Regulatory compliance maintained
-  - Customer satisfaction above 80% post-recall
+- All recalled products removed within 24 hours
+- 100% customer notification within 48 hours
+- Regulatory compliance maintained
+- Customer satisfaction above 80% post-recall
 failure_modes:
-  - Incomplete product removal
-  - Delayed customer communication
-  - Regulatory penalties
-  - Reputational damage
+- Incomplete product removal
+- Delayed customer communication
+- Regulatory penalties
+- Reputational damage
 metrics:
-  - Time to complete product removal
-  - Customer notification reach
-  - Refund/exchange processing time
-  - Regulatory compliance score
-  - Brand reputation impact
+- Time to complete product removal
+- Customer notification reach
+- Refund/exchange processing time
+- Regulatory compliance score
+- Brand reputation impact

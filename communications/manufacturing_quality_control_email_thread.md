@@ -1,10 +1,10 @@
 # Email Thread: Quality Control System Upgrade Delay
 
-**From:** Maria Gonzalez, Quality Manager  
-**To:** Production Leadership Team  
-**Subject:** Update on QC System Upgrade - 2 Week Delay  
+**From:** Maria Gonzalez, Quality Manager
+**To:** Production Leadership Team
+**Subject:** Update on QC System Upgrade - 2 Week Delay
 
-**Date:** October 20, 2025  
+**Date:** October 20, 2025
 
 Team,
 
@@ -33,16 +33,16 @@ I wanted to provide an update on our automated quality control system upgrade pr
 
 I'll schedule a detailed review meeting for next Tuesday to discuss options. Please let me know your availability.
 
-Best,  
+Best,
 Maria
 
 ---
 
-**From:** David Chen, VP Operations  
-**To:** Maria Gonzalez, Production Leadership Team  
-**Subject:** Re: Update on QC System Upgrade - 2 Week Delay  
+**From:** David Chen, VP Operations
+**To:** Maria Gonzalez, Production Leadership Team
+**Subject:** Re: Update on QC System Upgrade - 2 Week Delay
 
-**Date:** October 20, 2025  
+**Date:** October 20, 2025
 
 Thanks for the update, Maria. This delay is concerning given our Q4 production targets. Can you provide more details on the PLC integration issues? Have we considered alternative vendors for that component?
 
@@ -52,11 +52,11 @@ David
 
 ---
 
-**From:** Maria Gonzalez, Quality Manager  
-**To:** David Chen, Production Leadership Team  
-**Subject:** Re: Update on QC System Upgrade - 2 Week Delay  
+**From:** Maria Gonzalez, Quality Manager
+**To:** David Chen, Production Leadership Team
+**Subject:** Re: Update on QC System Upgrade - 2 Week Delay
 
-**Date:** October 21, 2025  
+**Date:** October 21, 2025
 
 David,
 
@@ -72,11 +72,11 @@ Maria
 
 ---
 
-**From:** Sarah Patel, CFO  
-**To:** David Chen, Maria Gonzalez, Production Leadership Team  
-**Subject:** Re: Update on QC System Upgrade - 2 Week Delay  
+**From:** Sarah Patel, CFO
+**To:** David Chen, Maria Gonzalez, Production Leadership Team
+**Subject:** Re: Update on QC System Upgrade - 2 Week Delay
 
-**Date:** October 21, 2025  
+**Date:** October 21, 2025
 
 The additional $45K is within our contingency budget, but I want to ensure we're not setting a precedent for scope creep. Can we get a revised project charter that clearly defines deliverables and timelines?
 
@@ -86,11 +86,11 @@ Sarah
 
 ---
 
-**From:** Maria Gonzalez, Quality Manager  
-**To:** Sarah Patel, David Chen, Production Leadership Team  
-**Subject:** Re: Update on QC System Upgrade - 2 Week Delay  
+**From:** Maria Gonzalez, Quality Manager
+**To:** Sarah Patel, David Chen, Production Leadership Team
+**Subject:** Re: Update on QC System Upgrade - 2 Week Delay
 
-**Date:** October 22, 2025  
+**Date:** October 22, 2025
 
 Sarah,
 
@@ -100,7 +100,7 @@ Regarding Q4 targets: The 2-week delay means we'll achieve our defect reduction 
 
 Let me know if you need any additional information for Tuesday's meeting.
 
-Best,  
+Best,
 Maria
 
 **Attachment:** QC_System_Upgrade_Revised_Charter.pdf

@@ -1,9 +1,9 @@
 ## Communication: Defense Contractor Bidding Process Meeting Notes
 
-**Meeting Title:** Q4 Defense Contract Bidding Strategy Review  
-**Date:** September 28, 2025  
-**Attendees:** Program Manager, Bid Manager, Technical Lead, Finance Director, Legal Counsel, Contracts Manager  
-**Facilitator:** Chief Operating Officer  
+**Meeting Title:** Q4 Defense Contract Bidding Strategy Review
+**Date:** September 28, 2025
+**Attendees:** Program Manager, Bid Manager, Technical Lead, Finance Director, Legal Counsel, Contracts Manager
+**Facilitator:** Chief Operating Officer
 
 ### Meeting Objectives
 - Review current bidding pipeline and prioritization

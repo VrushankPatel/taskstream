@@ -1,40 +1,74 @@
 workflow:
-  id: "international_operations_cross_border_workflow"
-  title: "Cross-Border Compliance Workflow"
-  department: "International Operations"
-  complexity: "high"
-  participants: ["Compliance Officer", "Legal Counsel", "Operations Manager", "Tax Specialist", "Cultural Liaison"]
-  trigger: "Expansion into new international market initiated"
+  id: international_operations_cross_border_workflow
+  title: Cross-Border Compliance Workflow
+  department: International Operations
+  complexity: high
+  participants:
+  - Compliance Officer
+  - Legal Counsel
+  - Operations Manager
+  - Tax Specialist
+  - Cultural Liaison
+  trigger: Expansion into new international market initiated
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Conduct comprehensive regulatory assessment"
-      tools: ["Regulatory databases", "Compliance checklists", "Risk assessment frameworks"]
-      duration: "4 weeks"
-      outputs: ["Regulatory landscape analysis", "Compliance requirements matrix"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Establish legal entity and contractual frameworks"
-      decision_points: ["Entity structure", "Contract templates", "Intellectual property protection"]
-      duration: "6 weeks"
-      outputs: ["Legal entity documents", "Contract templates", "IP protection strategy"]
-    - step: 3
-      actor: "Tax Specialist"
-      action: "Optimize tax structure and compliance"
-      tools: ["Tax planning software", "Transfer pricing models", "Tax treaty analysis"]
-      duration: "4 weeks"
-      outputs: ["Tax optimization plan", "Transfer pricing documentation"]
-    - step: 4
-      actor: "Cultural Liaison"
-      action: "Develop cultural adaptation and localization strategy"
-      tools: ["Cultural assessment tools", "Localization frameworks", "Stakeholder mapping"]
-      duration: "3 weeks"
-      outputs: ["Cultural adaptation plan", "Localization strategy"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Implement operational integration and monitoring"
-      decision_points: ["Process standardization", "Performance monitoring", "Integration milestones"]
-      duration: "8 weeks"
-      outputs: ["Operational integration plan", "Performance monitoring framework"]
-  success_criteria: "Successful market entry with compliant operations"
-  failure_modes: ["Regulatory non-compliance", "Cultural integration issues", "Tax optimization failures"]
+  - step: 1
+    actor: Compliance Officer
+    action: Conduct comprehensive regulatory assessment
+    tools:
+    - Regulatory databases
+    - Compliance checklists
+    - Risk assessment frameworks
+    duration: 4 weeks
+    outputs:
+    - Regulatory landscape analysis
+    - Compliance requirements matrix
+  - step: 2
+    actor: Legal Counsel
+    action: Establish legal entity and contractual frameworks
+    decision_points:
+    - Entity structure
+    - Contract templates
+    - Intellectual property protection
+    duration: 6 weeks
+    outputs:
+    - Legal entity documents
+    - Contract templates
+    - IP protection strategy
+  - step: 3
+    actor: Tax Specialist
+    action: Optimize tax structure and compliance
+    tools:
+    - Tax planning software
+    - Transfer pricing models
+    - Tax treaty analysis
+    duration: 4 weeks
+    outputs:
+    - Tax optimization plan
+    - Transfer pricing documentation
+  - step: 4
+    actor: Cultural Liaison
+    action: Develop cultural adaptation and localization strategy
+    tools:
+    - Cultural assessment tools
+    - Localization frameworks
+    - Stakeholder mapping
+    duration: 3 weeks
+    outputs:
+    - Cultural adaptation plan
+    - Localization strategy
+  - step: 5
+    actor: Operations Manager
+    action: Implement operational integration and monitoring
+    decision_points:
+    - Process standardization
+    - Performance monitoring
+    - Integration milestones
+    duration: 8 weeks
+    outputs:
+    - Operational integration plan
+    - Performance monitoring framework
+  success_criteria: Successful market entry with compliant operations
+  failure_modes:
+  - Regulatory non-compliance
+  - Cultural integration issues
+  - Tax optimization failures

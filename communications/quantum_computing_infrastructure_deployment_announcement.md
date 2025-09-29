@@ -1,9 +1,9 @@
 # Quantum Computing Infrastructure Deployment Announcement
 
-**Date:** September 28, 2025  
-**From:** Chief Technology Officer  
-**To:** All Employees  
-**Subject:** Major Investment in Quantum Computing Infrastructure  
+**Date:** September 28, 2025
+**From:** Chief Technology Officer
+**To:** All Employees
+**Subject:** Major Investment in Quantum Computing Infrastructure
 
 Dear Team,
 
@@ -11,9 +11,9 @@ I'm excited to announce a significant investment in quantum computing infrastruc
 
 ## Investment Overview
 
-**Total Investment:** $85M over 3 years  
-**Timeline:** Infrastructure deployment beginning Q4 2025, full operational capability by Q2 2027  
-**Strategic Objective:** Enable quantum-accelerated solutions for complex financial modeling, risk assessment, and optimization problems  
+**Total Investment:** $85M over 3 years
+**Timeline:** Infrastructure deployment beginning Q4 2025, full operational capability by Q2 2027
+**Strategic Objective:** Enable quantum-accelerated solutions for complex financial modeling, risk assessment, and optimization problems
 
 ## Key Components
 
@@ -40,7 +40,7 @@ I'm excited to announce a significant investment in quantum computing infrastruc
 - New quantitative strategies previously computationally infeasible
 - Competitive advantage in algorithmic trading and risk management
 
-**Projected ROI:** 400% over 7 years through improved trading performance and new revenue streams  
+**Projected ROI:** 400% over 7 years through improved trading performance and new revenue streams
 
 ## Implementation Approach
 
@@ -84,6 +84,6 @@ This investment underscores our commitment to technological leadership and innov
 
 Questions and feedback are welcome. Please reach out to the Quantum Computing Project Office at quantum@company.com.
 
-Best regards,  
-Dr. Michael Chen  
+Best regards,
+Dr. Michael Chen
 Chief Technology Officer

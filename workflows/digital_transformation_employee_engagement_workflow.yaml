@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_068_004"
-  title: "Digital Transformation Employee Engagement Workflow"
-  department: "HR/Change Management"
-  complexity: "medium"
-  participants: ["Chief Human Resources Officer", "Change Management Lead", "Department Heads", "Employee Representatives", "IT Training Team"]
-  trigger: "Major digital transformation initiative approved"
+  id: workflow_068_004
+  title: Digital Transformation Employee Engagement Workflow
+  department: HR/Change Management
+  complexity: medium
+  participants:
+  - Chief Human Resources Officer
+  - Change Management Lead
+  - Department Heads
+  - Employee Representatives
+  - IT Training Team
+  trigger: Major digital transformation initiative approved
   steps:
-    - step: 1
-      actor: "Change Management Lead"
-      action: "Assess organizational readiness and identify change impacts across departments"
-      tools: ["Change impact assessment tools", "Employee survey platforms"]
-      duration: "2 weeks"
-      outputs: ["Change impact analysis", "Readiness assessment report"]
-    - step: 2
-      actor: "Department Heads"
-      action: "Develop department-specific change plans and communication strategies"
-      tools: ["Change management templates", "Communication planning tools"]
-      duration: "2 weeks"
-      outputs: ["Department change plans", "Communication calendars"]
-    - step: 3
-      actor: "IT Training Team"
-      action: "Design and develop training programs for new digital tools and processes"
-      tools: ["Learning management system", "Training content development tools"]
-      duration: "3 weeks"
-      outputs: ["Training curriculum", "Training materials"]
-    - step: 4
-      actor: "Employee Representatives"
-      action: "Gather employee feedback and incorporate concerns into change plans"
-      tools: ["Employee feedback platforms", "Focus group facilitation tools"]
-      duration: "2 weeks"
-      outputs: ["Employee feedback report", "Revised change plans"]
-    - step: 5
-      actor: "Chief Human Resources Officer"
-      action: "Review engagement strategy and launch implementation with monitoring plan"
-      decision_points: ["Employee readiness levels", "Resource availability", "Timeline feasibility"]
-      duration: "1 week"
-      outputs: ["Employee engagement plan", "Monitoring and support framework"]
-  success_criteria: "High employee adoption rates and positive feedback on transformation process"
-  failure_modes: ["Low employee engagement", "Insufficient training resources", "Poor change communication"]
+  - step: 1
+    actor: Change Management Lead
+    action: Assess organizational readiness and identify change impacts across departments
+    tools:
+    - Change impact assessment tools
+    - Employee survey platforms
+    duration: 2 weeks
+    outputs:
+    - Change impact analysis
+    - Readiness assessment report
+  - step: 2
+    actor: Department Heads
+    action: Develop department-specific change plans and communication strategies
+    tools:
+    - Change management templates
+    - Communication planning tools
+    duration: 2 weeks
+    outputs:
+    - Department change plans
+    - Communication calendars
+  - step: 3
+    actor: IT Training Team
+    action: Design and develop training programs for new digital tools and processes
+    tools:
+    - Learning management system
+    - Training content development tools
+    duration: 3 weeks
+    outputs:
+    - Training curriculum
+    - Training materials
+  - step: 4
+    actor: Employee Representatives
+    action: Gather employee feedback and incorporate concerns into change plans
+    tools:
+    - Employee feedback platforms
+    - Focus group facilitation tools
+    duration: 2 weeks
+    outputs:
+    - Employee feedback report
+    - Revised change plans
+  - step: 5
+    actor: Chief Human Resources Officer
+    action: Review engagement strategy and launch implementation with monitoring plan
+    decision_points:
+    - Employee readiness levels
+    - Resource availability
+    - Timeline feasibility
+    duration: 1 week
+    outputs:
+    - Employee engagement plan
+    - Monitoring and support framework
+  success_criteria: High employee adoption rates and positive feedback on transformation
+    process
+  failure_modes:
+  - Low employee engagement
+  - Insufficient training resources
+  - Poor change communication

@@ -1,8 +1,8 @@
 ## Meeting Notes: Hospitality Revenue Crisis Response
 
-**Date:** October 15, 2025  
-**Attendees:** General Manager, Revenue Manager, Sales Director, Operations Manager, Finance Controller  
-**Subject:** Q4 Revenue Optimization Strategy  
+**Date:** October 15, 2025
+**Attendees:** General Manager, Revenue Manager, Sales Director, Operations Manager, Finance Controller
+**Subject:** Q4 Revenue Optimization Strategy
 
 ### Key Discussion Points
 

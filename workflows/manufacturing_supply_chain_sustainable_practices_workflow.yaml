@@ -1,40 +1,69 @@
 workflow:
-  id: "workflow_msc_005"
-  title: "Manufacturing Supply Chain Sustainable Practices Workflow"
-  department: "Supply Chain Sustainability"
-  complexity: "medium"
-  participants: ["Sustainability Managers", "Supply Chain Analysts", "Supplier Development Teams", "Product Engineers", "Logistics Planners"]
-  trigger: "Corporate sustainability targets require supply chain transformation"
+  id: workflow_msc_005
+  title: Manufacturing Supply Chain Sustainable Practices Workflow
+  department: Supply Chain Sustainability
+  complexity: medium
+  participants:
+  - Sustainability Managers
+  - Supply Chain Analysts
+  - Supplier Development Teams
+  - Product Engineers
+  - Logistics Planners
+  trigger: Corporate sustainability targets require supply chain transformation
   steps:
-    - step: 1
-      actor: "Sustainability Managers"
-      action: "Assess current supply chain environmental impact"
-      tools: ["Sustainability assessment tools", "Carbon footprint calculators"]
-      duration: "4 weeks"
-      outputs: ["Impact assessment report", "Sustainability baseline"]
-    - step: 2
-      actor: "Supply Chain Analysts"
-      action: "Identify sustainable supplier alternatives and opportunities"
-      tools: ["Supplier databases", "Sustainability rating systems"]
-      duration: "6 weeks"
-      outputs: ["Supplier evaluation matrix", "Sustainable sourcing plan"]
-    - step: 3
-      actor: "Supplier Development Teams"
-      action: "Engage suppliers in sustainability improvement programs"
-      tools: ["Supplier collaboration platforms", "Training programs"]
-      duration: "8 weeks"
-      outputs: ["Supplier improvement agreements", "Training completion records"]
-    - step: 4
-      actor: "Product Engineers"
-      action: "Redesign products for improved sustainability"
-      tools: ["Product design software", "Life cycle analysis tools"]
-      duration: "10 weeks"
-      outputs: ["Sustainable product designs", "Material specifications"]
-    - step: 5
-      actor: "Logistics Planners"
-      action: "Optimize transportation for reduced environmental impact"
-      tools: ["Logistics optimization software", "Carbon tracking systems"]
-      duration: "6 weeks"
-      outputs: ["Optimized logistics plan", "Carbon reduction metrics"]
-  success_criteria: "Achieve 30% reduction in supply chain carbon emissions within 2 years"
-  failure_modes: ["Supplier resistance", "Cost overruns", "Technical feasibility issues"]
+  - step: 1
+    actor: Sustainability Managers
+    action: Assess current supply chain environmental impact
+    tools:
+    - Sustainability assessment tools
+    - Carbon footprint calculators
+    duration: 4 weeks
+    outputs:
+    - Impact assessment report
+    - Sustainability baseline
+  - step: 2
+    actor: Supply Chain Analysts
+    action: Identify sustainable supplier alternatives and opportunities
+    tools:
+    - Supplier databases
+    - Sustainability rating systems
+    duration: 6 weeks
+    outputs:
+    - Supplier evaluation matrix
+    - Sustainable sourcing plan
+  - step: 3
+    actor: Supplier Development Teams
+    action: Engage suppliers in sustainability improvement programs
+    tools:
+    - Supplier collaboration platforms
+    - Training programs
+    duration: 8 weeks
+    outputs:
+    - Supplier improvement agreements
+    - Training completion records
+  - step: 4
+    actor: Product Engineers
+    action: Redesign products for improved sustainability
+    tools:
+    - Product design software
+    - Life cycle analysis tools
+    duration: 10 weeks
+    outputs:
+    - Sustainable product designs
+    - Material specifications
+  - step: 5
+    actor: Logistics Planners
+    action: Optimize transportation for reduced environmental impact
+    tools:
+    - Logistics optimization software
+    - Carbon tracking systems
+    duration: 6 weeks
+    outputs:
+    - Optimized logistics plan
+    - Carbon reduction metrics
+  success_criteria: Achieve 30% reduction in supply chain carbon emissions within
+    2 years
+  failure_modes:
+  - Supplier resistance
+  - Cost overruns
+  - Technical feasibility issues

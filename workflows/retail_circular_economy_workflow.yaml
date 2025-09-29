@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_019_003"
-  title: "Circular Economy Business Model Implementation"
-  department: "Sustainability"
-  complexity: "high"
-  participants: ["Sustainability Manager", "Product Designer", "Supply Chain Manager", "Marketing Director", "Customer Experience Lead"]
-  trigger: "Corporate commitment to circular economy transition"
+  id: workflow_019_003
+  title: Circular Economy Business Model Implementation
+  department: Sustainability
+  complexity: high
+  participants:
+  - Sustainability Manager
+  - Product Designer
+  - Supply Chain Manager
+  - Marketing Director
+  - Customer Experience Lead
+  trigger: Corporate commitment to circular economy transition
   steps:
-    - step: 1
-      actor: "Sustainability Manager"
-      action: "Assess current product lifecycle and identify circular opportunities"
-      tools: ["Life cycle assessment tools", "Material flow analysis"]
-      duration: "6 weeks"
-      outputs: ["Circular opportunity assessment", "Product redesign roadmap"]
-    - step: 2
-      actor: "Product Designer"
-      action: "Redesign products for durability, repairability, and recyclability"
-      tools: ["Design software", "Material science databases"]
-      duration: "12 weeks"
-      outputs: ["Sustainable product designs", "Material specifications"]
-    - step: 3
-      actor: "Supply Chain Manager"
-      action: "Establish take-back programs and reverse logistics"
-      decision_points: ["Collection methods", "Processing partnerships", "Cost structures"]
-      duration: "8 weeks"
-      outputs: ["Take-back program design", "Logistics network"]
-    - step: 4
-      actor: "Marketing Director"
-      action: "Develop circular economy messaging and customer engagement"
-      tools: ["Brand strategy frameworks", "Customer research"]
-      duration: "6 weeks"
-      outputs: ["Marketing campaign", "Customer education materials"]
-    - step: 5
-      actor: "Customer Experience Lead"
-      action: "Implement customer incentives for circular behaviors"
-      tools: ["Loyalty program platform", "Customer feedback systems"]
-      duration: "4 weeks"
-      outputs: ["Incentive programs", "Customer journey mapping"]
-  success_criteria: "30% of products designed for circularity, 25% increase in product return rate"
-  failure_modes: ["Cost premium challenges", "Customer acceptance issues", "Supply chain complexity"]
+  - step: 1
+    actor: Sustainability Manager
+    action: Assess current product lifecycle and identify circular opportunities
+    tools:
+    - Life cycle assessment tools
+    - Material flow analysis
+    duration: 6 weeks
+    outputs:
+    - Circular opportunity assessment
+    - Product redesign roadmap
+  - step: 2
+    actor: Product Designer
+    action: Redesign products for durability, repairability, and recyclability
+    tools:
+    - Design software
+    - Material science databases
+    duration: 12 weeks
+    outputs:
+    - Sustainable product designs
+    - Material specifications
+  - step: 3
+    actor: Supply Chain Manager
+    action: Establish take-back programs and reverse logistics
+    decision_points:
+    - Collection methods
+    - Processing partnerships
+    - Cost structures
+    duration: 8 weeks
+    outputs:
+    - Take-back program design
+    - Logistics network
+  - step: 4
+    actor: Marketing Director
+    action: Develop circular economy messaging and customer engagement
+    tools:
+    - Brand strategy frameworks
+    - Customer research
+    duration: 6 weeks
+    outputs:
+    - Marketing campaign
+    - Customer education materials
+  - step: 5
+    actor: Customer Experience Lead
+    action: Implement customer incentives for circular behaviors
+    tools:
+    - Loyalty program platform
+    - Customer feedback systems
+    duration: 4 weeks
+    outputs:
+    - Incentive programs
+    - Customer journey mapping
+  success_criteria: 30% of products designed for circularity, 25% increase in product
+    return rate
+  failure_modes:
+  - Cost premium challenges
+  - Customer acceptance issues
+  - Supply chain complexity

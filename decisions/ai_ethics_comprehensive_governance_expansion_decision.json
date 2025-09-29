@@ -3,8 +3,16 @@
   "context": "Global technology company expanding AI ethics governance framework to cover 50+ AI applications across international operations",
   "stakeholders": {
     "requester": "Chief AI Ethics Officer",
-    "approvers": ["Chief Executive Officer", "Chief Compliance Officer", "Board Ethics Committee"],
-    "influencers": ["Global AI Leadership", "Legal and Regulatory Teams", "External Ethics Consultants"]
+    "approvers": [
+      "Chief Executive Officer",
+      "Chief Compliance Officer",
+      "Board Ethics Committee"
+    ],
+    "influencers": [
+      "Global AI Leadership",
+      "Legal and Regulatory Teams",
+      "External Ethics Consultants"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "governance_assessment",
       "duration": "2 months",
-      "activities": ["Current framework evaluation", "Gap analysis against regulations", "Stakeholder interviews"],
+      "activities": [
+        "Current framework evaluation",
+        "Gap analysis against regulations",
+        "Stakeholder interviews"
+      ],
       "outcome": "Identified critical gaps in international compliance and automated monitoring"
     },
     {
       "stage": "framework_design",
       "duration": "3 months",
-      "activities": ["Policy development", "Committee structure design", "Technology platform selection"],
+      "activities": [
+        "Policy development",
+        "Committee structure design",
+        "Technology platform selection"
+      ],
       "outcome": "Comprehensive governance framework covering ethics, compliance, and transparency"
     },
     {
       "stage": "pilot_implementation",
       "duration": "2 months",
-      "activities": ["Pilot program in key regions", "Training program development", "Technology deployment"],
+      "activities": [
+        "Pilot program in key regions",
+        "Training program development",
+        "Technology deployment"
+      ],
       "outcome": "Successful pilot with 95% compliance rate and positive stakeholder feedback"
     },
     {
       "stage": "global_rollout",
       "duration": "4 months",
-      "activities": ["Regional adaptation", "Training execution", "Monitoring system deployment"],
+      "activities": [
+        "Regional adaptation",
+        "Training execution",
+        "Monitoring system deployment"
+      ],
       "outcome": "Global governance framework implemented across all operations"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Enhanced regulatory compliance", "Reduced ethics-related risks", "Improved AI trust and reputation"],
+    "expected_benefits": [
+      "Enhanced regulatory compliance",
+      "Reduced ethics-related risks",
+      "Improved AI trust and reputation"
+    ],
     "projected_revenue": "Cost savings of $15M in avoided regulatory fines and legal costs",
-    "risk_factors": ["Implementation complexity", "Cultural adaptation challenges", "Resource requirements"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Cultural adaptation challenges",
+      "Resource requirements"
+    ]
   }
 }

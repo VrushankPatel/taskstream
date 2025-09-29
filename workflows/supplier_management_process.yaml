@@ -1,58 +1,95 @@
 workflow:
-  id: "workflow_009"
-  title: "Supplier Management Process"
-  department: "Procurement"
-  complexity: "medium"
-  participants: ["Procurement Manager", "Department Requesters", "Supplier Representatives", "Quality Team", "Legal"]
-  trigger: "New supplier needed or existing supplier performance issue"
+  id: workflow_009
+  title: Supplier Management Process
+  department: Procurement
+  complexity: medium
+  participants:
+  - Procurement Manager
+  - Department Requesters
+  - Supplier Representatives
+  - Quality Team
+  - Legal
+  trigger: New supplier needed or existing supplier performance issue
   steps:
-    - step: 1
-      actor: "Department Requesters"
-      action: "Identify supplier requirements and create RFP"
-      tools: ["Procurement system", "Requirements templates"]
-      duration: "1 week"
-      outputs: ["Requirements specification", "RFP document"]
-    - step: 2
-      actor: "Procurement Manager"
-      action: "Source and evaluate potential suppliers"
-      tools: ["Supplier database", "Vendor management software"]
-      duration: "2 weeks"
-      outputs: ["Supplier shortlist", "Evaluation criteria"]
-    - step: 3
-      actor: "Supplier Representatives"
-      action: "Submit proposals and participate in selection process"
-      tools: ["Proposal templates", "Presentation tools"]
-      duration: "2 weeks"
-      outputs: ["Supplier proposals", "Capability demonstrations"]
-    - step: 4
-      actor: "Procurement Manager"
-      action: "Negotiate contracts and terms"
-      decision_points: ["Cost", "Quality", "Delivery terms"]
-      duration: "1 week"
-      outputs: ["Negotiated terms", "Contract drafts"]
-    - step: 5
-      actor: "Legal"
-      action: "Review and approve contracts"
-      tools: ["Contract management system", "Legal templates"]
-      duration: "1 week"
-      outputs: ["Approved contracts", "Legal compliance"]
-    - step: 6
-      actor: "Quality Team"
-      action: "Conduct supplier qualification and onboarding"
-      tools: ["Quality checklists", "Onboarding procedures"]
-      duration: "2 weeks"
-      outputs: ["Supplier qualification report", "Onboarding plan"]
-    - step: 7
-      actor: "Procurement Manager"
-      action: "Monitor supplier performance and manage relationships"
-      tools: ["Performance dashboards", "Relationship management"]
-      duration: "Ongoing"
-      outputs: ["Performance reviews", "Improvement plans"]
-  success_criteria: "Suppliers deliver quality goods/services on time and within budget"
-  failure_modes: ["Poor supplier selection", "Inadequate contract terms", "Lack of performance monitoring"]
+  - step: 1
+    actor: Department Requesters
+    action: Identify supplier requirements and create RFP
+    tools:
+    - Procurement system
+    - Requirements templates
+    duration: 1 week
+    outputs:
+    - Requirements specification
+    - RFP document
+  - step: 2
+    actor: Procurement Manager
+    action: Source and evaluate potential suppliers
+    tools:
+    - Supplier database
+    - Vendor management software
+    duration: 2 weeks
+    outputs:
+    - Supplier shortlist
+    - Evaluation criteria
+  - step: 3
+    actor: Supplier Representatives
+    action: Submit proposals and participate in selection process
+    tools:
+    - Proposal templates
+    - Presentation tools
+    duration: 2 weeks
+    outputs:
+    - Supplier proposals
+    - Capability demonstrations
+  - step: 4
+    actor: Procurement Manager
+    action: Negotiate contracts and terms
+    decision_points:
+    - Cost
+    - Quality
+    - Delivery terms
+    duration: 1 week
+    outputs:
+    - Negotiated terms
+    - Contract drafts
+  - step: 5
+    actor: Legal
+    action: Review and approve contracts
+    tools:
+    - Contract management system
+    - Legal templates
+    duration: 1 week
+    outputs:
+    - Approved contracts
+    - Legal compliance
+  - step: 6
+    actor: Quality Team
+    action: Conduct supplier qualification and onboarding
+    tools:
+    - Quality checklists
+    - Onboarding procedures
+    duration: 2 weeks
+    outputs:
+    - Supplier qualification report
+    - Onboarding plan
+  - step: 7
+    actor: Procurement Manager
+    action: Monitor supplier performance and manage relationships
+    tools:
+    - Performance dashboards
+    - Relationship management
+    duration: Ongoing
+    outputs:
+    - Performance reviews
+    - Improvement plans
+  success_criteria: Suppliers deliver quality goods/services on time and within budget
+  failure_modes:
+  - Poor supplier selection
+  - Inadequate contract terms
+  - Lack of performance monitoring
   metrics:
-    - "Supplier on-time delivery: Target 98%"
-    - "Quality acceptance rate: Target 99%"
-    - "Cost variance: Target <2%"
-    - "Supplier performance score: Target 4.5/5"
-    - "Contract compliance: Target 100%"
+  - 'Supplier on-time delivery: Target 98%'
+  - 'Quality acceptance rate: Target 99%'
+  - 'Cost variance: Target <2%'
+  - 'Supplier performance score: Target 4.5/5'
+  - 'Contract compliance: Target 100%'

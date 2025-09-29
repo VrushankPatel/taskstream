@@ -1,14 +1,14 @@
 ## Meeting Notes: Supply Chain Visibility Platform Implementation Kickoff
 
-**Date:** October 15, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Conference Room A  
-**Attendees:**  
-- Tom Rodriguez, Supply Chain Director  
-- Lisa Chen, IT Integration Manager  
-- Mark Johnson, Procurement Manager  
-- Sarah Williams, Data Analytics Lead  
-- External: Alex Kumar, Platform Vendor Representative  
+**Date:** October 15, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Conference Room A
+**Attendees:**
+- Tom Rodriguez, Supply Chain Director
+- Lisa Chen, IT Integration Manager
+- Mark Johnson, Procurement Manager
+- Sarah Williams, Data Analytics Lead
+- External: Alex Kumar, Platform Vendor Representative
 
 **Objective:** Kick off implementation of supply chain visibility platform to improve real-time tracking and reduce stockouts.
 

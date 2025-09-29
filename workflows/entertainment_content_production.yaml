@@ -1,46 +1,95 @@
 workflow:
-  id: "workflow_entertainment_content_production"
-  title: "Entertainment Content Production Workflow"
-  department: "Content Production"
-  complexity: "high"
-  participants: ["Creative Director", "Producer", "Scriptwriter", "Production Manager", "Post-Production Lead", "Marketing Coordinator"]
-  trigger: "New content concept approved or seasonal programming cycle begins"
+  id: workflow_entertainment_content_production
+  title: Entertainment Content Production Workflow
+  department: Content Production
+  complexity: high
+  participants:
+  - Creative Director
+  - Producer
+  - Scriptwriter
+  - Production Manager
+  - Post-Production Lead
+  - Marketing Coordinator
+  trigger: New content concept approved or seasonal programming cycle begins
   steps:
-    - step: 1
-      actor: "Creative Director"
-      action: "Develop content concept and creative brief"
-      tools: ["Idea management software", "Market research tools", "Competitor analysis"]
-      duration: "1-2 weeks"
-      outputs: ["Creative brief", "Concept presentation", "Target audience profile"]
-    - step: 2
-      actor: "Scriptwriter"
-      action: "Write and revise scripts or content outlines"
-      decision_points: ["Tone and style alignment", "Budget constraints", "Timeline feasibility"]
-      duration: "2-4 weeks"
-      outputs: ["Final script", "Script revisions log", "Character breakdowns"]
-    - step: 3
-      actor: "Producer"
-      action: "Secure budget approval and assemble production team"
-      tools: ["Budgeting software", "Casting databases", "Location scouting tools"]
-      duration: "1 week"
-      outputs: ["Approved budget", "Production team roster", "Shooting schedule"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Oversee filming or recording and manage daily operations"
-      tools: ["Production scheduling software", "Equipment inventory", "Crew communication platform"]
-      duration: "2-12 weeks"
-      outputs: ["Raw footage", "Daily production reports", "Equipment usage logs"]
-    - step: 5
-      actor: "Post-Production Lead"
-      action: "Edit content and prepare for distribution"
-      tools: ["Video editing software", "Sound design tools", "Quality control systems"]
-      duration: "2-6 weeks"
-      outputs: ["Final edited content", "Quality assurance report", "Distribution-ready files"]
-    - step: 6
-      actor: "Marketing Coordinator"
-      action: "Develop marketing campaign and distribution strategy"
-      decision_points: ["Platform selection", "Release timing", "Promotion budget allocation"]
-      duration: "1-2 weeks"
-      outputs: ["Marketing plan", "Distribution schedule", "Promotion materials"]
-  success_criteria: "Content delivered on budget and schedule, audience engagement metrics meet targets, critical acclaim achieved"
-  failure_modes: ["Creative differences among team", "Budget overruns", "Talent availability issues", "Technical production problems", "Distribution platform changes", "Market timing misses"]
+  - step: 1
+    actor: Creative Director
+    action: Develop content concept and creative brief
+    tools:
+    - Idea management software
+    - Market research tools
+    - Competitor analysis
+    duration: 1-2 weeks
+    outputs:
+    - Creative brief
+    - Concept presentation
+    - Target audience profile
+  - step: 2
+    actor: Scriptwriter
+    action: Write and revise scripts or content outlines
+    decision_points:
+    - Tone and style alignment
+    - Budget constraints
+    - Timeline feasibility
+    duration: 2-4 weeks
+    outputs:
+    - Final script
+    - Script revisions log
+    - Character breakdowns
+  - step: 3
+    actor: Producer
+    action: Secure budget approval and assemble production team
+    tools:
+    - Budgeting software
+    - Casting databases
+    - Location scouting tools
+    duration: 1 week
+    outputs:
+    - Approved budget
+    - Production team roster
+    - Shooting schedule
+  - step: 4
+    actor: Production Manager
+    action: Oversee filming or recording and manage daily operations
+    tools:
+    - Production scheduling software
+    - Equipment inventory
+    - Crew communication platform
+    duration: 2-12 weeks
+    outputs:
+    - Raw footage
+    - Daily production reports
+    - Equipment usage logs
+  - step: 5
+    actor: Post-Production Lead
+    action: Edit content and prepare for distribution
+    tools:
+    - Video editing software
+    - Sound design tools
+    - Quality control systems
+    duration: 2-6 weeks
+    outputs:
+    - Final edited content
+    - Quality assurance report
+    - Distribution-ready files
+  - step: 6
+    actor: Marketing Coordinator
+    action: Develop marketing campaign and distribution strategy
+    decision_points:
+    - Platform selection
+    - Release timing
+    - Promotion budget allocation
+    duration: 1-2 weeks
+    outputs:
+    - Marketing plan
+    - Distribution schedule
+    - Promotion materials
+  success_criteria: Content delivered on budget and schedule, audience engagement
+    metrics meet targets, critical acclaim achieved
+  failure_modes:
+  - Creative differences among team
+  - Budget overruns
+  - Talent availability issues
+  - Technical production problems
+  - Distribution platform changes
+  - Market timing misses

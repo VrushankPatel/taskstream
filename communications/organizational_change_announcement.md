@@ -1,9 +1,9 @@
 ## Company-wide Announcement: Leadership Team Restructuring
 
-**From:** David Park, CEO  
-**To:** All Employees  
-**Subject:** Important Update: Leadership Team Changes  
-**Date:** September 20, 2025  
+**From:** David Park, CEO
+**To:** All Employees
+**Subject:** Important Update: Leadership Team Changes
+**Date:** September 20, 2025
 
 Dear Team,
 
@@ -33,16 +33,16 @@ I'm excited about the fresh perspectives and energy these changes bring. Togethe
 
 Please join me in congratulating our new leaders and thanking Alex and Lisa for their contributions.
 
-Best regards,  
-David Park  
+Best regards,
+David Park
 CEO
 
 ---
 
-**From:** HR Department  
-**To:** All Employees  
-**Subject:** Leadership Transition Support Sessions  
-**Date:** September 20, 2025  
+**From:** HR Department
+**To:** All Employees
+**Subject:** Leadership Transition Support Sessions
+**Date:** September 20, 2025
 
 To support everyone through this transition, we're offering:
 

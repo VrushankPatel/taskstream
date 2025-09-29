@@ -3,8 +3,15 @@
   "context": "Mid-size tech company experiencing potential data breach",
   "stakeholders": {
     "requester": "IT Security Team",
-    "approvers": ["CISO", "CEO", "Legal Counsel"],
-    "influencers": ["PR Manager", "Customer Success Lead"]
+    "approvers": [
+      "CISO",
+      "CEO",
+      "Legal Counsel"
+    ],
+    "influencers": [
+      "PR Manager",
+      "Customer Success Lead"
+    ]
   },
   "request": {
     "amount": "$50,000",
@@ -16,25 +23,38 @@
     {
       "stage": "initial_assessment",
       "duration": "2 hours",
-      "activities": ["Log analysis", "Scope determination"],
+      "activities": [
+        "Log analysis",
+        "Scope determination"
+      ],
       "outcome": "Confirmed breach, containment initiated"
     },
     {
       "stage": "stakeholder_notification",
       "duration": "4 hours",
-      "activities": ["Executive briefing", "Legal consultation"],
+      "activities": [
+        "Executive briefing",
+        "Legal consultation"
+      ],
       "outcome": "Decision to notify affected customers"
     },
     {
       "stage": "response_planning",
       "duration": "1 day",
-      "activities": ["Forensic investigation plan", "Communication strategy"],
+      "activities": [
+        "Forensic investigation plan",
+        "Communication strategy"
+      ],
       "outcome": "Approved $50K budget for investigation"
     }
   ],
   "business_impact": {
     "expected_costs": "$200,000",
     "projected_revenue_impact": "$100,000",
-    "risk_factors": ["Customer churn", "Regulatory fines", "Reputational damage"]
+    "risk_factors": [
+      "Customer churn",
+      "Regulatory fines",
+      "Reputational damage"
+    ]
   }
 }

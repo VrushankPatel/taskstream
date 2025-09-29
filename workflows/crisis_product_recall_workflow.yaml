@@ -1,52 +1,96 @@
 workflow:
-  id: "workflow_crisis_002"
-  title: "Product Recall Crisis Management Process"
-  department: "Quality Assurance"
-  complexity: "high"
-  participants: ["Quality Manager", "Product Safety Team", "Legal", "Communications", "Supply Chain", "Customer Service"]
-  trigger: "Product safety issue or regulatory recall requirement"
+  id: workflow_crisis_002
+  title: Product Recall Crisis Management Process
+  department: Quality Assurance
+  complexity: high
+  participants:
+  - Quality Manager
+  - Product Safety Team
+  - Legal
+  - Communications
+  - Supply Chain
+  - Customer Service
+  trigger: Product safety issue or regulatory recall requirement
   steps:
-    - step: 1
-      actor: "Quality Manager"
-      action: "Issue investigation and risk assessment"
-      tools: ["Quality management system", "Risk assessment tools"]
-      duration: "24 hours"
-      outputs: ["Investigation report", "Risk assessment", "Recall decision"]
-    - step: 2
-      actor: "Product Safety Team"
-      action: "Scope determination and affected product identification"
-      tools: ["Product tracking systems", "Distribution databases"]
-      duration: "12 hours"
-      outputs: ["Affected product lots", "Distribution scope", "Recall strategy"]
-    - step: 3
-      actor: "Legal"
-      action: "Regulatory notification and compliance review"
-      tools: ["Regulatory databases", "Legal compliance checklists"]
-      duration: "6 hours"
-      outputs: ["Regulatory filings", "Compliance documentation"]
-    - step: 4
-      actor: "Communications"
-      action: "Public announcement and media management"
-      tools: ["Press release templates", "Media monitoring tools"]
-      duration: "4 hours"
-      outputs: ["Public announcements", "Media response protocols"]
-    - step: 5
-      actor: "Supply Chain"
-      action: "Product quarantine and return logistics"
-      tools: ["Supply chain management system", "Return processing tools"]
-      duration: "48 hours"
-      outputs: ["Quarantined inventory", "Return procedures", "Replacement logistics"]
-    - step: 6
-      actor: "Customer Service"
-      action: "Customer notification and support"
-      tools: ["Customer communication systems", "Support ticketing"]
-      duration: "Ongoing"
-      outputs: ["Customer notifications", "Support responses", "Refund processing"]
-    - step: 7
-      actor: "Quality Manager"
-      action: "Root cause analysis and corrective actions"
-      tools: ["Root cause analysis tools", "CAPA system"]
-      duration: "4 weeks"
-      outputs: ["Root cause report", "Corrective action plan", "Preventive measures"]
-  success_criteria: "Safe product removal from market with minimal customer harm and regulatory compliance"
-  failure_modes: ["Delayed response", "Inadequate communication", "Supply chain disruption", "Legal liabilities"]
+  - step: 1
+    actor: Quality Manager
+    action: Issue investigation and risk assessment
+    tools:
+    - Quality management system
+    - Risk assessment tools
+    duration: 24 hours
+    outputs:
+    - Investigation report
+    - Risk assessment
+    - Recall decision
+  - step: 2
+    actor: Product Safety Team
+    action: Scope determination and affected product identification
+    tools:
+    - Product tracking systems
+    - Distribution databases
+    duration: 12 hours
+    outputs:
+    - Affected product lots
+    - Distribution scope
+    - Recall strategy
+  - step: 3
+    actor: Legal
+    action: Regulatory notification and compliance review
+    tools:
+    - Regulatory databases
+    - Legal compliance checklists
+    duration: 6 hours
+    outputs:
+    - Regulatory filings
+    - Compliance documentation
+  - step: 4
+    actor: Communications
+    action: Public announcement and media management
+    tools:
+    - Press release templates
+    - Media monitoring tools
+    duration: 4 hours
+    outputs:
+    - Public announcements
+    - Media response protocols
+  - step: 5
+    actor: Supply Chain
+    action: Product quarantine and return logistics
+    tools:
+    - Supply chain management system
+    - Return processing tools
+    duration: 48 hours
+    outputs:
+    - Quarantined inventory
+    - Return procedures
+    - Replacement logistics
+  - step: 6
+    actor: Customer Service
+    action: Customer notification and support
+    tools:
+    - Customer communication systems
+    - Support ticketing
+    duration: Ongoing
+    outputs:
+    - Customer notifications
+    - Support responses
+    - Refund processing
+  - step: 7
+    actor: Quality Manager
+    action: Root cause analysis and corrective actions
+    tools:
+    - Root cause analysis tools
+    - CAPA system
+    duration: 4 weeks
+    outputs:
+    - Root cause report
+    - Corrective action plan
+    - Preventive measures
+  success_criteria: Safe product removal from market with minimal customer harm and
+    regulatory compliance
+  failure_modes:
+  - Delayed response
+  - Inadequate communication
+  - Supply chain disruption
+  - Legal liabilities

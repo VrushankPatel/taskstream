@@ -103,6 +103,6 @@ Applies to all edge computing nodes, gateways, and associated infrastructure dep
 - **Emergency Response**: 24/7 hotline: +1-800-EDGE-SEC
 - **Policy Owner**: Chief Information Security Officer
 
-*Effective Date: January 1, 2025*  
-*Last Updated: October 25, 2025*  
+*Effective Date: January 1, 2025*
+*Last Updated: October 25, 2025*
 *Next Review: October 2026*

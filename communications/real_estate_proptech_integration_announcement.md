@@ -1,9 +1,9 @@
 ## Announcement: PropTech Integration Initiative
 
-**From:** Chief Technology Officer  
-**To:** All Employees, Property Management Teams, Investors  
-**Subject:** Transforming Property Management: Major PropTech Integration Launch  
-**Date:** September 28, 2025  
+**From:** Chief Technology Officer
+**To:** All Employees, Property Management Teams, Investors
+**Subject:** Transforming Property Management: Major PropTech Integration Launch
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -41,9 +41,9 @@ This initiative positions us at the forefront of real estate technology adoption
 
 For more information or to get involved, please contact the PropTech Integration Team.
 
-Best regards,  
-Dr. James Wilson  
-Chief Technology Officer  
-[Company Name]  
-Phone: (555) 987-6543  
+Best regards,
+Dr. James Wilson
+Chief Technology Officer
+[Company Name]
+Phone: (555) 987-6543
 Email: james.wilson@company.com

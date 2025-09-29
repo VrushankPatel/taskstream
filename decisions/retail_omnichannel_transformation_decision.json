@@ -3,8 +3,16 @@
   "context": "Mid-size retail chain with 50 stores facing declining foot traffic and increasing online competition",
   "stakeholders": {
     "requester": "VP of Operations",
-    "approvers": ["CEO", "CFO", "CTO"],
-    "influencers": ["Store Managers", "E-commerce Manager", "Customer Insights Lead"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "CTO"
+    ],
+    "influencers": [
+      "Store Managers",
+      "E-commerce Manager",
+      "Customer Insights Lead"
+    ]
   },
   "request": {
     "amount": "$3,200,000",
@@ -16,34 +24,59 @@
     {
       "stage": "initial_assessment",
       "duration": "2 weeks",
-      "activities": ["Market analysis", "Technology vendor evaluation", "ROI modeling"],
+      "activities": [
+        "Market analysis",
+        "Technology vendor evaluation",
+        "ROI modeling"
+      ],
       "outcome": "Proceed to detailed planning"
     },
     {
       "stage": "vendor_selection",
       "duration": "3 weeks",
-      "activities": ["RFI process", "Vendor demos", "Contract negotiations"],
+      "activities": [
+        "RFI process",
+        "Vendor demos",
+        "Contract negotiations"
+      ],
       "outcome": "Selected integration partner"
     },
     {
       "stage": "pilot_testing",
       "duration": "4 weeks",
-      "activities": ["Pilot store implementation", "Staff training", "Customer feedback collection"],
+      "activities": [
+        "Pilot store implementation",
+        "Staff training",
+        "Customer feedback collection"
+      ],
       "outcome": "Pilot successful with 25% sales increase"
     },
     {
       "stage": "full_rollout_approval",
       "duration": "1 week",
-      "activities": ["Final budget review", "Risk assessment", "Timeline confirmation"],
+      "activities": [
+        "Final budget review",
+        "Risk assessment",
+        "Timeline confirmation"
+      ],
       "outcome": "Approved for full implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "Unified customer experience across all channels, improved inventory management, increased customer loyalty",
     "projected_value": "$4,500,000 annual revenue increase",
-    "risk_factors": ["Implementation delays", "Staff resistance to change", "Integration complexity"]
+    "risk_factors": [
+      "Implementation delays",
+      "Staff resistance to change",
+      "Integration complexity"
+    ]
   },
-  "decision_criteria": ["ROI payback within 18 months", "Minimal disruption to operations", "Scalability for future growth", "Customer experience improvement"],
+  "decision_criteria": [
+    "ROI payback within 18 months",
+    "Minimal disruption to operations",
+    "Scalability for future growth",
+    "Customer experience improvement"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder involvement crucial for change management; pilot testing revealed integration challenges not initially anticipated"
 }

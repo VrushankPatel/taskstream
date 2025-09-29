@@ -3,8 +3,17 @@
   "context": "Major utility company evaluating transition to 50% renewable energy by 2030, requiring $2.5B investment over 5 years",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Operating Officer", "VP Regulatory Affairs", "VP Engineering", "Environmental Groups"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Operating Officer",
+      "VP Regulatory Affairs",
+      "VP Engineering",
+      "Environmental Groups"
+    ]
   },
   "request": {
     "amount": "$2,500,000,000",
@@ -16,28 +25,56 @@
     {
       "stage": "feasibility_analysis",
       "duration": "3 months",
-      "activities": ["Technical feasibility study", "Cost-benefit analysis", "Regulatory impact assessment", "Stakeholder consultations"],
+      "activities": [
+        "Technical feasibility study",
+        "Cost-benefit analysis",
+        "Regulatory impact assessment",
+        "Stakeholder consultations"
+      ],
       "outcome": "Feasible with projected 15% ROI over 20 years"
     },
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Small-scale renewable installations", "Performance monitoring", "Community engagement", "Regulatory approvals"],
+      "activities": [
+        "Small-scale renewable installations",
+        "Performance monitoring",
+        "Community engagement",
+        "Regulatory approvals"
+      ],
       "outcome": "Successful pilot showing 12% efficiency gains"
     },
     {
       "stage": "full_implementation_planning",
       "duration": "4 months",
-      "activities": ["Detailed project planning", "Vendor selection", "Financing arrangements", "Risk mitigation planning"],
+      "activities": [
+        "Detailed project planning",
+        "Vendor selection",
+        "Financing arrangements",
+        "Risk mitigation planning"
+      ],
       "outcome": "Comprehensive implementation plan approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "50% renewable energy mix by 2030, reduced carbon emissions by 40%",
     "projected_value": "$800,000,000 in cost savings over 20 years",
-    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Higher-than-expected costs", "Grid stability concerns", "Community opposition", "Supply chain disruptions"]
+    "risk_factors": [
+      "Technology obsolescence",
+      "Regulatory changes",
+      "Higher-than-expected costs",
+      "Grid stability concerns",
+      "Community opposition",
+      "Supply chain disruptions"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Regulatory compliance", "Technical feasibility", "Stakeholder support", "Environmental impact"],
+  "decision_criteria": [
+    "Financial viability",
+    "Regulatory compliance",
+    "Technical feasibility",
+    "Stakeholder support",
+    "Environmental impact"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement crucial, pilot programs reduce implementation risk, long-term planning essential for infrastructure projects"
 }

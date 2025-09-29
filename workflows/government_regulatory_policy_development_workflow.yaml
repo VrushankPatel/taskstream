@@ -1,46 +1,86 @@
 workflow:
-  id: "workflow_gov_policy_development"
-  title: "Regulatory Policy Development Workflow"
-  department: "Government Policy"
-  complexity: "high"
-  participants: ["Policy Director", "Policy Analysts", "Legal Counsel", "Stakeholder Engagement Team", "Implementation Managers"]
-  trigger: "New legislation or regulatory requirement identified"
+  id: workflow_gov_policy_development
+  title: Regulatory Policy Development Workflow
+  department: Government Policy
+  complexity: high
+  participants:
+  - Policy Director
+  - Policy Analysts
+  - Legal Counsel
+  - Stakeholder Engagement Team
+  - Implementation Managers
+  trigger: New legislation or regulatory requirement identified
   steps:
-    - step: 1
-      actor: "Policy Director"
-      action: "Define policy objectives and scope regulatory requirements"
-      tools: ["Policy framework templates", "Regulatory analysis tools", "Stakeholder mapping"]
-      duration: "2 weeks"
-      outputs: ["Policy objectives document", "Regulatory scope analysis"]
-    - step: 2
-      actor: "Policy Analysts"
-      action: "Conduct research and impact assessment"
-      tools: ["Research databases", "Economic impact models", "Data analysis tools"]
-      duration: "4 weeks"
-      outputs: ["Research findings report", "Impact assessment analysis"]
-    - step: 3
-      actor: "Stakeholder Engagement Team"
-      action: "Facilitate public consultation and stakeholder feedback"
-      tools: ["Consultation platforms", "Survey tools", "Meeting facilitation software"]
-      duration: "6 weeks"
-      outputs: ["Stakeholder feedback summary", "Public consultation report"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Review legal compliance and draft policy language"
-      tools: ["Legal research databases", "Policy drafting templates", "Compliance checklists"]
-      duration: "3 weeks"
-      outputs: ["Legal compliance review", "Draft policy document"]
-    - step: 5
-      actor: "Policy Director"
-      action: "Obtain executive approval and finalize policy"
-      tools: ["Approval workflows", "Revision tracking", "Executive briefing materials"]
-      duration: "2 weeks"
-      outputs: ["Executive approval documentation", "Final policy document"]
-    - step: 6
-      actor: "Implementation Managers"
-      action: "Develop implementation plan and communication strategy"
-      tools: ["Implementation planning templates", "Communication plans", "Training materials"]
-      duration: "3 weeks"
-      outputs: ["Implementation roadmap", "Communication strategy document"]
-  success_criteria: "Policy successfully implemented with stakeholder acceptance and regulatory compliance"
-  failure_modes: ["Insufficient stakeholder consultation", "Legal compliance issues", "Implementation planning gaps", "Communication failures"]
+  - step: 1
+    actor: Policy Director
+    action: Define policy objectives and scope regulatory requirements
+    tools:
+    - Policy framework templates
+    - Regulatory analysis tools
+    - Stakeholder mapping
+    duration: 2 weeks
+    outputs:
+    - Policy objectives document
+    - Regulatory scope analysis
+  - step: 2
+    actor: Policy Analysts
+    action: Conduct research and impact assessment
+    tools:
+    - Research databases
+    - Economic impact models
+    - Data analysis tools
+    duration: 4 weeks
+    outputs:
+    - Research findings report
+    - Impact assessment analysis
+  - step: 3
+    actor: Stakeholder Engagement Team
+    action: Facilitate public consultation and stakeholder feedback
+    tools:
+    - Consultation platforms
+    - Survey tools
+    - Meeting facilitation software
+    duration: 6 weeks
+    outputs:
+    - Stakeholder feedback summary
+    - Public consultation report
+  - step: 4
+    actor: Legal Counsel
+    action: Review legal compliance and draft policy language
+    tools:
+    - Legal research databases
+    - Policy drafting templates
+    - Compliance checklists
+    duration: 3 weeks
+    outputs:
+    - Legal compliance review
+    - Draft policy document
+  - step: 5
+    actor: Policy Director
+    action: Obtain executive approval and finalize policy
+    tools:
+    - Approval workflows
+    - Revision tracking
+    - Executive briefing materials
+    duration: 2 weeks
+    outputs:
+    - Executive approval documentation
+    - Final policy document
+  - step: 6
+    actor: Implementation Managers
+    action: Develop implementation plan and communication strategy
+    tools:
+    - Implementation planning templates
+    - Communication plans
+    - Training materials
+    duration: 3 weeks
+    outputs:
+    - Implementation roadmap
+    - Communication strategy document
+  success_criteria: Policy successfully implemented with stakeholder acceptance and
+    regulatory compliance
+  failure_modes:
+  - Insufficient stakeholder consultation
+  - Legal compliance issues
+  - Implementation planning gaps
+  - Communication failures

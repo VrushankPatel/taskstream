@@ -1,10 +1,10 @@
 # Quantum Computing Hardware Deployment Announcement
 
-**From:** Chief Information Officer  
-**To:** IT Teams, Data Center Operations, Executive Leadership  
-**Subject:** Deployment of Dedicated Quantum Computing Infrastructure in Enterprise Data Center  
+**From:** Chief Information Officer
+**To:** IT Teams, Data Center Operations, Executive Leadership
+**Subject:** Deployment of Dedicated Quantum Computing Infrastructure in Enterprise Data Center
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -96,6 +96,6 @@ For technical support, contact the Quantum Infrastructure Team at quantum-suppor
 
 This deployment demonstrates our commitment to technological leadership and innovation. The quantum computing era has arrived, and we are positioned to lead in this transformative technology.
 
-Best regards,  
-[Chief Information Officer Name]  
+Best regards,
+[Chief Information Officer Name]
 Chief Information Officer

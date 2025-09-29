@@ -1,38 +1,54 @@
 workflow:
-  id: "workflow_retail_simple_inventory_reconciliation"
-  title: "Retail Inventory Reconciliation Process"
-  department: "Operations"
-  complexity: "simple"
-  participants: ["Store Manager", "Inventory Clerk", "Assistant Manager"]
-  trigger: "End of shift inventory check"
+  id: workflow_retail_simple_inventory_reconciliation
+  title: Retail Inventory Reconciliation Process
+  department: Operations
+  complexity: simple
+  participants:
+  - Store Manager
+  - Inventory Clerk
+  - Assistant Manager
+  trigger: End of shift inventory check
   steps:
-    - step: 1
-      actor: "Inventory Clerk"
-      action: "Count physical inventory in key areas"
-      tools: ["Barcode scanner", "Count sheets"]
-      duration: "30 minutes"
-      outputs: ["Physical count data"]
-    - step: 2
-      actor: "Inventory Clerk"
-      action: "Compare physical count with system records"
-      tools: ["Inventory software"]
-      duration: "15 minutes"
-      outputs: ["Discrepancy report"]
-    - step: 3
-      actor: "Assistant Manager"
-      action: "Investigate and resolve minor discrepancies"
-      tools: ["Inventory software", "Security footage"]
-      duration: "20 minutes"
-      outputs: ["Resolution notes"]
-    - step: 4
-      actor: "Store Manager"
-      action: "Review and approve final reconciliation"
-      tools: ["Inventory software"]
-      duration: "10 minutes"
-      outputs: ["Approved reconciliation"]
-  success_criteria: "Inventory variance under 1%"
-  failure_modes: ["Counting errors", "System sync issues", "Unauthorized removals"]
+  - step: 1
+    actor: Inventory Clerk
+    action: Count physical inventory in key areas
+    tools:
+    - Barcode scanner
+    - Count sheets
+    duration: 30 minutes
+    outputs:
+    - Physical count data
+  - step: 2
+    actor: Inventory Clerk
+    action: Compare physical count with system records
+    tools:
+    - Inventory software
+    duration: 15 minutes
+    outputs:
+    - Discrepancy report
+  - step: 3
+    actor: Assistant Manager
+    action: Investigate and resolve minor discrepancies
+    tools:
+    - Inventory software
+    - Security footage
+    duration: 20 minutes
+    outputs:
+    - Resolution notes
+  - step: 4
+    actor: Store Manager
+    action: Review and approve final reconciliation
+    tools:
+    - Inventory software
+    duration: 10 minutes
+    outputs:
+    - Approved reconciliation
+  success_criteria: Inventory variance under 1%
+  failure_modes:
+  - Counting errors
+  - System sync issues
+  - Unauthorized removals
   metrics:
-    - "Reconciliation accuracy: 99%"
-    - "Process completion time: 1.25 hours"
-    - "Shrinkage identification rate: 95%"
+  - 'Reconciliation accuracy: 99%'
+  - 'Process completion time: 1.25 hours'
+  - 'Shrinkage identification rate: 95%'

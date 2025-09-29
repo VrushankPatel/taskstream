@@ -1,15 +1,15 @@
 # Consulting Client Delivery Framework Review Meeting Notes
 
-**Date:** September 22, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Virtual Meeting (Zoom)  
-**Attendees:**  
-- Robert Chen, Managing Partner  
-- Sarah Mitchell, Client Relationship Director  
-- Tom Harrison, Project Delivery Lead  
-- Lisa Wong, Knowledge Management Director  
-- External Facilitator: Dr. Amanda Foster, Change Management Consultant  
-- Note Taker: Kevin Patel, Operations Coordinator  
+**Date:** September 22, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Virtual Meeting (Zoom)
+**Attendees:**
+- Robert Chen, Managing Partner
+- Sarah Mitchell, Client Relationship Director
+- Tom Harrison, Project Delivery Lead
+- Lisa Wong, Knowledge Management Director
+- External Facilitator: Dr. Amanda Foster, Change Management Consultant
+- Note Taker: Kevin Patel, Operations Coordinator
 
 ## Agenda
 1. Review of current client delivery challenges

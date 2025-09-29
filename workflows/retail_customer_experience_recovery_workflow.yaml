@@ -1,40 +1,69 @@
 workflow:
-  id: "workflow_retail_cer"
-  title: "Customer Experience Recovery Process"
-  department: "Customer Experience"
-  complexity: "medium"
-  participants: ["Customer Service Manager", "Store Manager", "Customer Experience Specialist", "Operations Manager"]
-  trigger: "Customer complaint or negative experience reported"
+  id: workflow_retail_cer
+  title: Customer Experience Recovery Process
+  department: Customer Experience
+  complexity: medium
+  participants:
+  - Customer Service Manager
+  - Store Manager
+  - Customer Experience Specialist
+  - Operations Manager
+  trigger: Customer complaint or negative experience reported
   steps:
-    - step: 1
-      actor: "Customer Experience Specialist"
-      action: "Receive and document customer complaint details"
-      tools: ["CRM system", "Complaint logging tool"]
-      duration: "30 minutes"
-      outputs: ["Complaint record", "Initial customer acknowledgment"]
-    - step: 2
-      actor: "Customer Service Manager"
-      action: "Assess complaint severity and determine recovery approach"
-      decision_points: ["Customer value", "Issue severity", "Recovery cost-benefit"]
-      duration: "2 hours"
-      outputs: ["Recovery plan", "Escalation decision"]
-    - step: 3
-      actor: "Store Manager"
-      action: "Execute recovery action and follow up with customer"
-      tools: ["Recovery toolkit", "Communication templates"]
-      duration: "1-3 days"
-      outputs: ["Recovery execution record", "Customer follow-up notes"]
-    - step: 4
-      actor: "Customer Experience Specialist"
-      action: "Monitor customer satisfaction post-recovery and close case"
-      tools: ["Satisfaction survey tools", "CRM updates"]
-      duration: "1 week"
-      outputs: ["Satisfaction feedback", "Case closure report"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Analyze recovery patterns and implement preventive measures"
-      tools: ["Data analytics tools", "Process improvement frameworks"]
-      duration: "2 weeks"
-      outputs: ["Root cause analysis", "Preventive action plan"]
-  success_criteria: "Customer satisfaction restored with positive feedback and repeat purchase within 30 days"
-  failure_modes: ["Delayed response leading to customer churn", "Inadequate recovery offer not matching issue severity", "Poor follow-through on preventive actions"]
+  - step: 1
+    actor: Customer Experience Specialist
+    action: Receive and document customer complaint details
+    tools:
+    - CRM system
+    - Complaint logging tool
+    duration: 30 minutes
+    outputs:
+    - Complaint record
+    - Initial customer acknowledgment
+  - step: 2
+    actor: Customer Service Manager
+    action: Assess complaint severity and determine recovery approach
+    decision_points:
+    - Customer value
+    - Issue severity
+    - Recovery cost-benefit
+    duration: 2 hours
+    outputs:
+    - Recovery plan
+    - Escalation decision
+  - step: 3
+    actor: Store Manager
+    action: Execute recovery action and follow up with customer
+    tools:
+    - Recovery toolkit
+    - Communication templates
+    duration: 1-3 days
+    outputs:
+    - Recovery execution record
+    - Customer follow-up notes
+  - step: 4
+    actor: Customer Experience Specialist
+    action: Monitor customer satisfaction post-recovery and close case
+    tools:
+    - Satisfaction survey tools
+    - CRM updates
+    duration: 1 week
+    outputs:
+    - Satisfaction feedback
+    - Case closure report
+  - step: 5
+    actor: Operations Manager
+    action: Analyze recovery patterns and implement preventive measures
+    tools:
+    - Data analytics tools
+    - Process improvement frameworks
+    duration: 2 weeks
+    outputs:
+    - Root cause analysis
+    - Preventive action plan
+  success_criteria: Customer satisfaction restored with positive feedback and repeat
+    purchase within 30 days
+  failure_modes:
+  - Delayed response leading to customer churn
+  - Inadequate recovery offer not matching issue severity
+  - Poor follow-through on preventive actions

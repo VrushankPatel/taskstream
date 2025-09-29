@@ -3,8 +3,16 @@
   "context": "Luxury hotel chain with 20 properties seeking to reduce environmental impact and meet guest expectations for sustainable practices",
   "stakeholders": {
     "requester": "Sustainability Director",
-    "approvers": ["CEO", "Operations VP", "Finance Director"],
-    "influencers": ["Guest Services Manager", "Procurement Manager", "Marketing Director"]
+    "approvers": [
+      "CEO",
+      "Operations VP",
+      "Finance Director"
+    ],
+    "influencers": [
+      "Guest Services Manager",
+      "Procurement Manager",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -16,28 +24,49 @@
     {
       "stage": "feasibility_study",
       "duration": "1 month",
-      "activities": ["Energy audit", "Vendor proposals", "Cost-benefit analysis"],
+      "activities": [
+        "Energy audit",
+        "Vendor proposals",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Identified $300,000 annual savings potential"
     },
     {
       "stage": "pilot_program",
       "duration": "2 months",
-      "activities": ["LED lighting installation", "Water conservation systems", "Guest education program"],
+      "activities": [
+        "LED lighting installation",
+        "Water conservation systems",
+        "Guest education program"
+      ],
       "outcome": "15% energy reduction achieved"
     },
     {
       "stage": "full_implementation",
       "duration": "4 months",
-      "activities": ["Property-wide rollout", "Staff training", "Marketing campaign"],
+      "activities": [
+        "Property-wide rollout",
+        "Staff training",
+        "Marketing campaign"
+      ],
       "outcome": "All properties upgraded"
     }
   ],
   "business_impact": {
     "expected_outcome": "Reduce energy costs by 25%, increase guest satisfaction by 20%, achieve green certifications",
     "projected_value": "$400,000 annual cost savings, premium pricing potential",
-    "risk_factors": ["Initial investment payback period", "Guest disruption during upgrades", "Maintenance complexity"]
+    "risk_factors": [
+      "Initial investment payback period",
+      "Guest disruption during upgrades",
+      "Maintenance complexity"
+    ]
   },
-  "decision_criteria": ["Financial return", "Guest satisfaction impact", "Environmental benefit", "Operational feasibility"],
+  "decision_criteria": [
+    "Financial return",
+    "Guest satisfaction impact",
+    "Environmental benefit",
+    "Operational feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Guest communication about sustainability efforts enhances loyalty; partner with local suppliers for authentic green initiatives"
 }

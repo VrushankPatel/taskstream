@@ -3,8 +3,17 @@
   "context": "Large agricultural cooperative evaluating $150M investment in sustainable farming technologies and practices to improve environmental impact and market positioning",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["Board of Directors", "Member Farmers", "CEO"],
-    "influencers": ["Chief Financial Officer", "Agricultural Director", "Environmental Compliance Manager", "Marketing Director"]
+    "approvers": [
+      "Board of Directors",
+      "Member Farmers",
+      "CEO"
+    ],
+    "influencers": [
+      "Chief Financial Officer",
+      "Agricultural Director",
+      "Environmental Compliance Manager",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$150,000,000",
@@ -16,34 +25,66 @@
     {
       "stage": "environmental_assessment",
       "duration": "3 months",
-      "activities": ["Current environmental impact analysis", "Technology effectiveness studies", "Carbon sequestration modeling", "Regulatory compliance review"],
+      "activities": [
+        "Current environmental impact analysis",
+        "Technology effectiveness studies",
+        "Carbon sequestration modeling",
+        "Regulatory compliance review"
+      ],
       "outcome": "Projected 45% reduction in environmental footprint"
     },
     {
       "stage": "economic_modeling",
       "duration": "2 months",
-      "activities": ["Cost-benefit analysis", "Premium pricing analysis", "Carbon credit revenue modeling", "ROI calculations"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Premium pricing analysis",
+        "Carbon credit revenue modeling",
+        "ROI calculations"
+      ],
       "outcome": "8-year payback period with $280M in benefits"
     },
     {
       "stage": "farmer_engagement",
       "duration": "4 months",
-      "activities": ["Farmer education programs", "Pilot program implementation", "Feedback collection", "Adoption incentive design"],
+      "activities": [
+        "Farmer education programs",
+        "Pilot program implementation",
+        "Feedback collection",
+        "Adoption incentive design"
+      ],
       "outcome": "75% farmer participation commitment secured"
     },
     {
       "stage": "market_analysis",
       "duration": "2 months",
-      "activities": ["Sustainable product market analysis", "Certification program evaluation", "Brand positioning strategy", "Competitive analysis"],
+      "activities": [
+        "Sustainable product market analysis",
+        "Certification program evaluation",
+        "Brand positioning strategy",
+        "Competitive analysis"
+      ],
       "outcome": "15% price premium opportunity identified"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% environmental impact reduction, $50M annual carbon credits, 15% product price premium, improved brand positioning",
     "projected_value": "$350,000,000 in benefits over 20 years",
-    "risk_factors": ["Technology adoption challenges", "Weather variability impact", "Certification complexity", "Initial investment costs"]
+    "risk_factors": [
+      "Technology adoption challenges",
+      "Weather variability impact",
+      "Certification complexity",
+      "Initial investment costs"
+    ]
   },
-  "decision_criteria": ["Environmental impact reduction", "Financial viability", "Farmer adoption rate", "Market opportunity", "Regulatory compliance", "Implementation feasibility"],
+  "decision_criteria": [
+    "Environmental impact reduction",
+    "Financial viability",
+    "Farmer adoption rate",
+    "Market opportunity",
+    "Regulatory compliance",
+    "Implementation feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Farmer education and incentives critical for adoption, comprehensive pilot programs build confidence, market premiums justify investment, phased implementation manages risk"
 }

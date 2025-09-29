@@ -3,8 +3,18 @@
   "context": "Global consumer brand, 50M social followers, facing viral social media crisis from customer service failure that went public",
   "stakeholders": {
     "requester": "VP Communications",
-    "approvers": ["CEO", "CMO", "General Counsel"],
-    "influencers": ["Social Media Team", "Customer Service Director", "PR Agency", "Crisis Management Consultant", "Brand Ambassadors"]
+    "approvers": [
+      "CEO",
+      "CMO",
+      "General Counsel"
+    ],
+    "influencers": [
+      "Social Media Team",
+      "Customer Service Director",
+      "PR Agency",
+      "Crisis Management Consultant",
+      "Brand Ambassadors"
+    ]
   },
   "request": {
     "amount": "$2M",
@@ -16,25 +26,45 @@
     {
       "stage": "crisis_assessment",
       "duration": "4 hours",
-      "activities": ["Social listening analysis", "Sentiment tracking", "Stakeholder impact evaluation", "Legal liability assessment"],
+      "activities": [
+        "Social listening analysis",
+        "Sentiment tracking",
+        "Stakeholder impact evaluation",
+        "Legal liability assessment"
+      ],
       "outcome": "Crisis severity rated high, immediate response required"
     },
     {
       "stage": "response_strategy_development",
       "duration": "12 hours",
-      "activities": ["Key message development", "Channel strategy planning", "Stakeholder communication plan", "Resource allocation"],
+      "activities": [
+        "Key message development",
+        "Channel strategy planning",
+        "Stakeholder communication plan",
+        "Resource allocation"
+      ],
       "outcome": "Multi-channel response strategy approved"
     },
     {
       "stage": "content_creation_and_approval",
       "duration": "24 hours",
-      "activities": ["Apology statement drafting", "Transparency content creation", "Influencer partnership activation", "Legal review"],
+      "activities": [
+        "Apology statement drafting",
+        "Transparency content creation",
+        "Influencer partnership activation",
+        "Legal review"
+      ],
       "outcome": "Content approved with minor legal edits"
     },
     {
       "stage": "implementation_and_monitoring",
       "duration": "72 hours",
-      "activities": ["Content deployment across channels", "Real-time sentiment monitoring", "Stakeholder engagement tracking", "Follow-up communication planning"],
+      "activities": [
+        "Content deployment across channels",
+        "Real-time sentiment monitoring",
+        "Stakeholder engagement tracking",
+        "Follow-up communication planning"
+      ],
       "outcome": "Crisis contained within 48 hours, positive sentiment shift observed"
     }
   ],
@@ -42,6 +72,11 @@
     "expected_engagement_recovery": "70% of pre-crisis levels within 30 days",
     "projected_revenue_impact": "$10M in retained sales",
     "implementation_timeline": "1 week intensive response, 3 months monitoring",
-    "risk_factors": ["Further negative coverage", "Boycott campaigns", "Executive social media mishandling", "Inadequate transparency"]
+    "risk_factors": [
+      "Further negative coverage",
+      "Boycott campaigns",
+      "Executive social media mishandling",
+      "Inadequate transparency"
+    ]
   }
 }

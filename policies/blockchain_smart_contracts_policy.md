@@ -128,6 +128,6 @@ Violations of this policy may result in disciplinary action, up to and including
 ## Review and Updates
 This policy will be reviewed annually or when significant changes in technology, regulations, or business needs occur.
 
-*Effective Date: January 1, 2026*  
-*Last Updated: October 2025*  
+*Effective Date: January 1, 2026*
+*Last Updated: October 2025*
 *Next Review: October 2026*

@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_education_lifelong_learning_platform"
-  title: "Lifelong Learning Platform Implementation"
-  department: "Continuing Education"
-  complexity: "high"
-  participants: ["Platform Director", "Content Developers", "Industry Partners", "Learners"]
-  trigger: "Demand for continuous professional development"
+  id: workflow_education_lifelong_learning_platform
+  title: Lifelong Learning Platform Implementation
+  department: Continuing Education
+  complexity: high
+  participants:
+  - Platform Director
+  - Content Developers
+  - Industry Partners
+  - Learners
+  trigger: Demand for continuous professional development
   steps:
-    - step: 1
-      actor: "Platform Director"
-      action: "Design platform architecture and user experience"
-      tools: ["UX design tools", "Learning platform frameworks"]
-      duration: "6 weeks"
-      outputs: ["Platform design specifications"]
-    - step: 2
-      actor: "Content Developers"
-      action: "Create modular, industry-relevant learning content"
-      tools: ["Content authoring tools", "Learning management systems"]
-      duration: "8 weeks"
-      outputs: ["Learning content modules"]
-    - step: 3
-      actor: "Industry Partners"
-      action: "Validate content relevance and provide expert input"
-      tools: ["Collaboration platforms", "Content review tools"]
-      duration: "4 weeks"
-      outputs: ["Validated learning pathways"]
-    - step: 4
-      actor: "Learners"
-      action: "Access personalized learning journeys and certifications"
-      tools: ["Learning platform interface", "Progress tracking tools"]
-      duration: "Ongoing"
-      outputs: ["Completed certifications"]
-  success_criteria: "10,000 active learners within first year"
-  failure_modes: ["Content quality issues", "Platform adoption challenges", "Industry relevance gaps"]
+  - step: 1
+    actor: Platform Director
+    action: Design platform architecture and user experience
+    tools:
+    - UX design tools
+    - Learning platform frameworks
+    duration: 6 weeks
+    outputs:
+    - Platform design specifications
+  - step: 2
+    actor: Content Developers
+    action: Create modular, industry-relevant learning content
+    tools:
+    - Content authoring tools
+    - Learning management systems
+    duration: 8 weeks
+    outputs:
+    - Learning content modules
+  - step: 3
+    actor: Industry Partners
+    action: Validate content relevance and provide expert input
+    tools:
+    - Collaboration platforms
+    - Content review tools
+    duration: 4 weeks
+    outputs:
+    - Validated learning pathways
+  - step: 4
+    actor: Learners
+    action: Access personalized learning journeys and certifications
+    tools:
+    - Learning platform interface
+    - Progress tracking tools
+    duration: Ongoing
+    outputs:
+    - Completed certifications
+  success_criteria: 10,000 active learners within first year
+  failure_modes:
+  - Content quality issues
+  - Platform adoption challenges
+  - Industry relevance gaps

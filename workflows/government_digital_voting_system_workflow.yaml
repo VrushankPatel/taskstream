@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_digital_voting"
-  title: "Digital Voting System Implementation and Management"
-  department: "Election Administration"
-  complexity: "high"
-  participants: ["Election Director", "IT Security Lead", "Legal Counsel", "Voter Registration Manager", "Technical Implementation Team"]
-  trigger: "Legislative approval for digital voting system modernization"
+  id: workflow_digital_voting
+  title: Digital Voting System Implementation and Management
+  department: Election Administration
+  complexity: high
+  participants:
+  - Election Director
+  - IT Security Lead
+  - Legal Counsel
+  - Voter Registration Manager
+  - Technical Implementation Team
+  trigger: Legislative approval for digital voting system modernization
   steps:
-    - step: 1
-      actor: "Election Director"
-      action: "Conduct requirements analysis and stakeholder consultation"
-      tools: ["Requirements Gathering Framework", "Stakeholder Survey Tools"]
-      duration: "3-6 months"
-      outputs: ["System Requirements Document", "Stakeholder Analysis Report"]
-    - step: 2
-      actor: "IT Security Lead"
-      action: "Develop security framework and risk assessment"
-      decision_points: ["Blockchain-based verification?", "Biometric authentication?", "End-to-end encryption required?"]
-      duration: "2-4 months"
-      outputs: ["Security Framework Document", "Risk Assessment Report"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Ensure compliance with election laws and accessibility standards"
-      tools: ["Legal Research Database", "Compliance Checklist"]
-      duration: "3-6 months"
-      outputs: ["Legal Compliance Review", "Accessibility Certification"]
-    - step: 4
-      actor: "Voter Registration Manager"
-      action: "Integrate with voter registration database and verification systems"
-      tools: ["Voter Database System", "Identity Verification Platform"]
-      duration: "2-3 months"
-      outputs: ["Voter Integration Plan", "Verification Protocols"]
-    - step: 5
-      actor: "Technical Implementation Team"
-      action: "Deploy system with phased rollout and testing"
-      tools: ["Voting System Software", "Testing Framework"]
-      duration: "6-12 months"
-      outputs: ["System Deployment Plan", "Testing and Validation Reports"]
-  success_criteria: "Secure, accessible digital voting system deployed, voter confidence maintained, election integrity preserved"
-  failure_modes: ["Security vulnerabilities", "Legal compliance issues", "Technical implementation delays"]
+  - step: 1
+    actor: Election Director
+    action: Conduct requirements analysis and stakeholder consultation
+    tools:
+    - Requirements Gathering Framework
+    - Stakeholder Survey Tools
+    duration: 3-6 months
+    outputs:
+    - System Requirements Document
+    - Stakeholder Analysis Report
+  - step: 2
+    actor: IT Security Lead
+    action: Develop security framework and risk assessment
+    decision_points:
+    - Blockchain-based verification?
+    - Biometric authentication?
+    - End-to-end encryption required?
+    duration: 2-4 months
+    outputs:
+    - Security Framework Document
+    - Risk Assessment Report
+  - step: 3
+    actor: Legal Counsel
+    action: Ensure compliance with election laws and accessibility standards
+    tools:
+    - Legal Research Database
+    - Compliance Checklist
+    duration: 3-6 months
+    outputs:
+    - Legal Compliance Review
+    - Accessibility Certification
+  - step: 4
+    actor: Voter Registration Manager
+    action: Integrate with voter registration database and verification systems
+    tools:
+    - Voter Database System
+    - Identity Verification Platform
+    duration: 2-3 months
+    outputs:
+    - Voter Integration Plan
+    - Verification Protocols
+  - step: 5
+    actor: Technical Implementation Team
+    action: Deploy system with phased rollout and testing
+    tools:
+    - Voting System Software
+    - Testing Framework
+    duration: 6-12 months
+    outputs:
+    - System Deployment Plan
+    - Testing and Validation Reports
+  success_criteria: Secure, accessible digital voting system deployed, voter confidence
+    maintained, election integrity preserved
+  failure_modes:
+  - Security vulnerabilities
+  - Legal compliance issues
+  - Technical implementation delays

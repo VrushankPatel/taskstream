@@ -1,52 +1,108 @@
 workflow:
-  id: "workflow_international_regulatory_compliance_monitoring"
-  title: "International Regulatory Compliance Monitoring and Reporting"
-  department: "Legal and Compliance"
-  complexity: "high"
-  participants: ["Chief Compliance Officer", "Regional Compliance Managers", "Legal Counsel", "Data Analytics Specialist", "Regulatory Affairs Coordinator"]
-  trigger: "Expansion into new international markets requiring multi-jurisdictional compliance"
+  id: workflow_international_regulatory_compliance_monitoring
+  title: International Regulatory Compliance Monitoring and Reporting
+  department: Legal and Compliance
+  complexity: high
+  participants:
+  - Chief Compliance Officer
+  - Regional Compliance Managers
+  - Legal Counsel
+  - Data Analytics Specialist
+  - Regulatory Affairs Coordinator
+  trigger: Expansion into new international markets requiring multi-jurisdictional
+    compliance
   steps:
-    - step: 1
-      actor: "Chief Compliance Officer"
-      action: "Conduct comprehensive regulatory landscape assessment for target markets"
-      tools: ["Regulatory intelligence platforms", "Legal research databases", "Risk assessment frameworks"]
-      duration: "6 weeks"
-      outputs: ["Regulatory landscape report", "Compliance risk matrix", "Priority regulatory requirements"]
-    - step: 2
-      actor: "Regional Compliance Managers"
-      action: "Establish local compliance teams and assign jurisdictional responsibilities"
-      tools: ["Team management software", "Compliance management platforms", "Communication tools"]
-      duration: "4 weeks"
-      outputs: ["Regional team structures", "Responsibility matrices", "Communication protocols"]
-    - step: 3
-      actor: "Legal Counsel"
-      action: "Develop compliance frameworks and standard operating procedures for each jurisdiction"
-      tools: ["Legal document management systems", "Compliance template libraries", "Regulatory requirement databases"]
-      duration: "8 weeks"
-      outputs: ["Compliance frameworks", "SOP documentation", "Training materials"]
-    - step: 4
-      actor: "Data Analytics Specialist"
-      action: "Implement automated monitoring systems for regulatory changes and compliance metrics"
-      tools: ["Regulatory monitoring software", "Data analytics platforms", "Dashboard development tools"]
-      duration: "6 weeks"
-      outputs: ["Monitoring system configuration", "Automated alert systems", "Compliance dashboards"]
-    - step: 5
-      actor: "Regulatory Affairs Coordinator"
-      action: "Establish relationships with local regulatory authorities and industry associations"
-      tools: ["CRM systems", "Relationship management tools", "Event management software"]
-      duration: "4 weeks"
-      outputs: ["Stakeholder mapping", "Engagement plans", "Relationship tracking systems"]
-    - step: 6
-      actor: "Regional Compliance Managers"
-      action: "Conduct compliance training and certification programs for local teams"
-      tools: ["Learning management systems", "Training materials", "Certification tracking software"]
-      duration: "6 weeks"
-      outputs: ["Training completion reports", "Certification records", "Knowledge assessment results"]
-    - step: 7
-      actor: "Data Analytics Specialist"
-      action: "Generate regular compliance reports and implement continuous improvement processes"
-      tools: ["Reporting automation tools", "Analytics platforms", "Process improvement frameworks"]
-      duration: "Ongoing"
-      outputs: ["Compliance reports", "Performance metrics", "Improvement recommendations"]
-  success_criteria: "Zero material compliance violations across all jurisdictions with proactive regulatory adaptation"
-  failure_modes: ["Failure to identify critical regulatory changes leading to violations", "Inadequate local expertise resulting in compliance gaps", "Poor communication between global and regional compliance teams"]
+  - step: 1
+    actor: Chief Compliance Officer
+    action: Conduct comprehensive regulatory landscape assessment for target markets
+    tools:
+    - Regulatory intelligence platforms
+    - Legal research databases
+    - Risk assessment frameworks
+    duration: 6 weeks
+    outputs:
+    - Regulatory landscape report
+    - Compliance risk matrix
+    - Priority regulatory requirements
+  - step: 2
+    actor: Regional Compliance Managers
+    action: Establish local compliance teams and assign jurisdictional responsibilities
+    tools:
+    - Team management software
+    - Compliance management platforms
+    - Communication tools
+    duration: 4 weeks
+    outputs:
+    - Regional team structures
+    - Responsibility matrices
+    - Communication protocols
+  - step: 3
+    actor: Legal Counsel
+    action: Develop compliance frameworks and standard operating procedures for each
+      jurisdiction
+    tools:
+    - Legal document management systems
+    - Compliance template libraries
+    - Regulatory requirement databases
+    duration: 8 weeks
+    outputs:
+    - Compliance frameworks
+    - SOP documentation
+    - Training materials
+  - step: 4
+    actor: Data Analytics Specialist
+    action: Implement automated monitoring systems for regulatory changes and compliance
+      metrics
+    tools:
+    - Regulatory monitoring software
+    - Data analytics platforms
+    - Dashboard development tools
+    duration: 6 weeks
+    outputs:
+    - Monitoring system configuration
+    - Automated alert systems
+    - Compliance dashboards
+  - step: 5
+    actor: Regulatory Affairs Coordinator
+    action: Establish relationships with local regulatory authorities and industry
+      associations
+    tools:
+    - CRM systems
+    - Relationship management tools
+    - Event management software
+    duration: 4 weeks
+    outputs:
+    - Stakeholder mapping
+    - Engagement plans
+    - Relationship tracking systems
+  - step: 6
+    actor: Regional Compliance Managers
+    action: Conduct compliance training and certification programs for local teams
+    tools:
+    - Learning management systems
+    - Training materials
+    - Certification tracking software
+    duration: 6 weeks
+    outputs:
+    - Training completion reports
+    - Certification records
+    - Knowledge assessment results
+  - step: 7
+    actor: Data Analytics Specialist
+    action: Generate regular compliance reports and implement continuous improvement
+      processes
+    tools:
+    - Reporting automation tools
+    - Analytics platforms
+    - Process improvement frameworks
+    duration: Ongoing
+    outputs:
+    - Compliance reports
+    - Performance metrics
+    - Improvement recommendations
+  success_criteria: Zero material compliance violations across all jurisdictions with
+    proactive regulatory adaptation
+  failure_modes:
+  - Failure to identify critical regulatory changes leading to violations
+  - Inadequate local expertise resulting in compliance gaps
+  - Poor communication between global and regional compliance teams

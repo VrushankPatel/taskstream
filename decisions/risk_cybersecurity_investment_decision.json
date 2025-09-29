@@ -3,8 +3,15 @@
   "context": "Financial services company, 2000 employees, evaluating cybersecurity infrastructure upgrade",
   "stakeholders": {
     "requester": "CISO",
-    "approvers": ["CEO", "Board Risk Committee"],
-    "influencers": ["CTO", "Legal", "Compliance"]
+    "approvers": [
+      "CEO",
+      "Board Risk Committee"
+    ],
+    "influencers": [
+      "CTO",
+      "Legal",
+      "Compliance"
+    ]
   },
   "request": {
     "amount": "$12M",
@@ -16,19 +23,35 @@
     {
       "stage": "risk_assessment",
       "duration": "4 weeks",
-      "activities": ["Threat landscape analysis", "Current security posture evaluation", "Regulatory compliance review"],
+      "activities": [
+        "Threat landscape analysis",
+        "Current security posture evaluation",
+        "Regulatory compliance review"
+      ],
       "outcome": "Identified 15 critical vulnerabilities and compliance gaps"
     },
     {
       "stage": "solution_evaluation",
       "duration": "6 weeks",
-      "activities": ["Vendor evaluations", "Technical architecture review", "Cost-benefit analysis"],
+      "activities": [
+        "Vendor evaluations",
+        "Technical architecture review",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Approved $12M investment with phased 18-month implementation"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["90% reduction in breach risk", "Regulatory compliance", "Insurance premium reduction"],
+    "expected_benefits": [
+      "90% reduction in breach risk",
+      "Regulatory compliance",
+      "Insurance premium reduction"
+    ],
     "projected_roi": "250%",
-    "risk_factors": ["Implementation disruption", "User experience impact", "Technology integration challenges"]
+    "risk_factors": [
+      "Implementation disruption",
+      "User experience impact",
+      "Technology integration challenges"
+    ]
   }
 }

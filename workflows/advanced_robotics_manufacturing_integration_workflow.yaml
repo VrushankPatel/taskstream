@@ -1,41 +1,87 @@
 workflow:
-  id: "workflow_advanced_robotics_manufacturing_integration"
-  title: "Advanced Robotics Manufacturing Integration Workflow"
-  department: "Manufacturing Operations"
-  complexity: "complex"
-  participants: ["Manufacturing Engineering", "Safety Compliance", "IT Infrastructure", "Production Management", "Vendor Partners"]
-  trigger: "Decision to implement collaborative robotics in production line"
+  id: workflow_advanced_robotics_manufacturing_integration
+  title: Advanced Robotics Manufacturing Integration Workflow
+  department: Manufacturing Operations
+  complexity: complex
+  participants:
+  - Manufacturing Engineering
+  - Safety Compliance
+  - IT Infrastructure
+  - Production Management
+  - Vendor Partners
+  trigger: Decision to implement collaborative robotics in production line
   steps:
-    - step: 1
-      actor: "Manufacturing Engineering"
-      action: "Assess production processes and identify automation opportunities with ROI analysis"
-      tools: ["Process mapping software", "Cost-benefit analysis tools", "Robotics simulation platforms"]
-      duration: "1 month"
-      outputs: ["Automation opportunity assessment", "Technical specifications document"]
-    - step: 2
-      actor: "Safety Compliance"
-      action: "Conduct comprehensive safety risk assessment and develop safety protocols for human-robot collaboration"
-      tools: ["Safety assessment frameworks", "Risk analysis software", "Regulatory compliance databases"]
-      duration: "2 weeks"
-      outputs: ["Safety risk assessment report", "Safety protocol documentation"]
-    - step: 3
-      actor: "IT Infrastructure"
-      action: "Evaluate and upgrade network infrastructure for robotics integration and data connectivity"
-      tools: ["Network assessment tools", "IoT integration platforms", "Cybersecurity frameworks"]
-      duration: "3 weeks"
-      outputs: ["Infrastructure upgrade plan", "Network security implementation"]
-    - step: 4
-      actor: "Vendor Partners"
-      action: "Vendor selection, contract negotiation, and integration planning with robotics suppliers"
-      tools: ["Vendor management systems", "Contract management software", "Technical evaluation frameworks"]
-      duration: "1 month"
-      outputs: ["Vendor contracts", "Integration project plan"]
-    - step: 5
-      actor: "Production Management"
-      action: "Pilot implementation, operator training, and full production integration with performance monitoring"
-      tools: ["Training management systems", "Performance monitoring dashboards", "Change management frameworks"]
-      duration: "2 months"
-      outputs: ["Training completion records", "Performance metrics baseline", "Integration completion report"]
-  success_criteria: "Successful integration with improved production efficiency, maintained safety standards, and positive ROI"
-  failure_modes: ["Technical integration challenges", "Safety compliance issues", "Operator resistance", "Cost overruns"]
-  metrics: ["Production efficiency improvement: Target 25%", "Safety incident rate: Target 0 incidents", "ROI: Target >20%", "Integration timeline: Target <6 months", "Operator training completion: Target 100%"]
+  - step: 1
+    actor: Manufacturing Engineering
+    action: Assess production processes and identify automation opportunities with
+      ROI analysis
+    tools:
+    - Process mapping software
+    - Cost-benefit analysis tools
+    - Robotics simulation platforms
+    duration: 1 month
+    outputs:
+    - Automation opportunity assessment
+    - Technical specifications document
+  - step: 2
+    actor: Safety Compliance
+    action: Conduct comprehensive safety risk assessment and develop safety protocols
+      for human-robot collaboration
+    tools:
+    - Safety assessment frameworks
+    - Risk analysis software
+    - Regulatory compliance databases
+    duration: 2 weeks
+    outputs:
+    - Safety risk assessment report
+    - Safety protocol documentation
+  - step: 3
+    actor: IT Infrastructure
+    action: Evaluate and upgrade network infrastructure for robotics integration and
+      data connectivity
+    tools:
+    - Network assessment tools
+    - IoT integration platforms
+    - Cybersecurity frameworks
+    duration: 3 weeks
+    outputs:
+    - Infrastructure upgrade plan
+    - Network security implementation
+  - step: 4
+    actor: Vendor Partners
+    action: Vendor selection, contract negotiation, and integration planning with
+      robotics suppliers
+    tools:
+    - Vendor management systems
+    - Contract management software
+    - Technical evaluation frameworks
+    duration: 1 month
+    outputs:
+    - Vendor contracts
+    - Integration project plan
+  - step: 5
+    actor: Production Management
+    action: Pilot implementation, operator training, and full production integration
+      with performance monitoring
+    tools:
+    - Training management systems
+    - Performance monitoring dashboards
+    - Change management frameworks
+    duration: 2 months
+    outputs:
+    - Training completion records
+    - Performance metrics baseline
+    - Integration completion report
+  success_criteria: Successful integration with improved production efficiency, maintained
+    safety standards, and positive ROI
+  failure_modes:
+  - Technical integration challenges
+  - Safety compliance issues
+  - Operator resistance
+  - Cost overruns
+  metrics:
+  - 'Production efficiency improvement: Target 25%'
+  - 'Safety incident rate: Target 0 incidents'
+  - 'ROI: Target >20%'
+  - 'Integration timeline: Target <6 months'
+  - 'Operator training completion: Target 100%'

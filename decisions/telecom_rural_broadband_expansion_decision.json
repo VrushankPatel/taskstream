@@ -3,8 +3,16 @@
   "context": "Telecommunications provider evaluating expansion of broadband infrastructure to underserved rural areas",
   "stakeholders": {
     "requester": "VP Network Operations",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Government Relations Director", "Regional Operations Managers", "Customer Experience Team"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Government Relations Director",
+      "Regional Operations Managers",
+      "Customer Experience Team"
+    ]
   },
   "request": {
     "amount": "$200M",
@@ -16,28 +24,51 @@
     {
       "stage": "market_analysis",
       "duration": "8 weeks",
-      "activities": ["Coverage gap assessment", "Demand forecasting", "Competitive analysis"],
+      "activities": [
+        "Coverage gap assessment",
+        "Demand forecasting",
+        "Competitive analysis"
+      ],
       "outcome": "Identified 500 underserved communities with deployment potential"
     },
     {
       "stage": "funding_strategy",
       "duration": "6 weeks",
-      "activities": ["Grant application preparation", "Partnership negotiations", "Financial modeling"],
+      "activities": [
+        "Grant application preparation",
+        "Partnership negotiations",
+        "Financial modeling"
+      ],
       "outcome": "Secured $120M in government funding and partnerships"
     },
     {
       "stage": "technology_selection",
       "duration": "4 weeks",
-      "activities": ["Technology evaluation", "Cost-benefit analysis", "Deployment feasibility studies"],
+      "activities": [
+        "Technology evaluation",
+        "Cost-benefit analysis",
+        "Deployment feasibility studies"
+      ],
       "outcome": "Selected hybrid fiber-wireless solution for optimal coverage"
     }
   ],
   "business_impact": {
     "expected_outcome": "Expanded market reach and improved regulatory standing",
     "projected_value": "$300M in additional revenue over 10 years",
-    "risk_factors": ["High deployment costs", "Technical challenges in rural areas", "Regulatory changes", "Low initial ROI"]
+    "risk_factors": [
+      "High deployment costs",
+      "Technical challenges in rural areas",
+      "Regulatory changes",
+      "Low initial ROI"
+    ]
   },
-  "decision_criteria": ["Social responsibility alignment", "Regulatory compliance", "Financial viability", "Technical feasibility", "Market expansion potential"],
+  "decision_criteria": [
+    "Social responsibility alignment",
+    "Regulatory compliance",
+    "Financial viability",
+    "Technical feasibility",
+    "Market expansion potential"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Government partnerships critical for funding rural infrastructure, phased deployment approach mitigates financial risk"
 }

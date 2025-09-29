@@ -3,8 +3,17 @@
   "context": "Major energy company, 50,000 employees, evaluating transition to hydrogen economy amid climate goals and market opportunities",
   "stakeholders": {
     "requester": "Chief Strategy Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Technology Officer", "Head of Sustainability", "VP of Business Development", "External Consultants"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Head of Sustainability",
+      "VP of Business Development",
+      "External Consultants"
+    ]
   },
   "request": {
     "amount": "$2.5 billion",
@@ -16,32 +25,62 @@
     {
       "stage": "strategic_analysis",
       "duration": "3 months",
-      "activities": ["Market opportunity assessment", "Technology feasibility studies", "Competitive landscape analysis", "Regulatory environment review"],
+      "activities": [
+        "Market opportunity assessment",
+        "Technology feasibility studies",
+        "Competitive landscape analysis",
+        "Regulatory environment review"
+      ],
       "outcome": "Proceed to detailed planning phase"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 months",
-      "activities": ["Cost-benefit analysis", "Risk assessment modeling", "Cash flow projections", "Sensitivity analysis for different market scenarios"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment modeling",
+        "Cash flow projections",
+        "Sensitivity analysis for different market scenarios"
+      ],
       "outcome": "Identified $1.8 billion optimal investment level with 15% IRR"
     },
     {
       "stage": "pilot_program_design",
       "duration": "2 months",
-      "activities": ["Technology partner selection", "Pilot site identification", "Regulatory approval planning", "Supply chain development"],
+      "activities": [
+        "Technology partner selection",
+        "Pilot site identification",
+        "Regulatory approval planning",
+        "Supply chain development"
+      ],
       "outcome": "Approved $150 million pilot program to test blue and green hydrogen production"
     },
     {
       "stage": "board_approval",
       "duration": "1 month",
-      "activities": ["Executive presentation", "Board discussion and Q&A", "Final approval vote", "Communication planning"],
+      "activities": [
+        "Executive presentation",
+        "Board discussion and Q&A",
+        "Final approval vote",
+        "Communication planning"
+      ],
       "outcome": "Approved with conditions - quarterly performance reviews and 20% cost contingency"
     }
   ],
   "business_impact": {
     "expected_revenue": "$800 million annually by 2030",
     "projected_market_share": "15% of European hydrogen market",
-    "risk_factors": ["Technology maturation delays", "Regulatory uncertainty", "High capital intensity", "Competition from established players"],
-    "strategic_benefits": ["Carbon neutrality pathway", "Diversified revenue streams", "Technology leadership position", "Job creation in new energy sector"]
+    "risk_factors": [
+      "Technology maturation delays",
+      "Regulatory uncertainty",
+      "High capital intensity",
+      "Competition from established players"
+    ],
+    "strategic_benefits": [
+      "Carbon neutrality pathway",
+      "Diversified revenue streams",
+      "Technology leadership position",
+      "Job creation in new energy sector"
+    ]
   }
 }

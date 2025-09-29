@@ -1,40 +1,66 @@
 workflow:
-  id: "workflow_ai_ethics_governance"
-  title: "AI Ethics Governance Framework Implementation"
-  department: "Technology Ethics"
-  complexity: "high"
-  participants: ["Chief Ethics Officer", "AI Lead", "Legal Counsel", "Data Scientists", "External Auditors"]
-  trigger: "New AI system deployment or significant model update"
+  id: workflow_ai_ethics_governance
+  title: AI Ethics Governance Framework Implementation
+  department: Technology Ethics
+  complexity: high
+  participants:
+  - Chief Ethics Officer
+  - AI Lead
+  - Legal Counsel
+  - Data Scientists
+  - External Auditors
+  trigger: New AI system deployment or significant model update
   steps:
-    - step: 1
-      actor: "AI Lead"
-      action: "Conduct initial AI ethics impact assessment"
-      tools: ["Ethics Assessment Framework", "Bias Detection Tools"]
-      duration: "2 weeks"
-      outputs: ["Ethics Impact Report"]
-    - step: 2
-      actor: "Chief Ethics Officer"
-      action: "Review assessment and identify ethical risks"
-      decision_points: ["Bias potential", "Privacy concerns", "Fairness implications"]
-      duration: "1 week"
-      outputs: ["Risk Mitigation Plan"]
-    - step: 3
-      actor: "Data Scientists"
-      action: "Implement bias mitigation and fairness controls"
-      tools: ["ML Fairness Libraries", "Model Validation Tools"]
-      duration: "3 weeks"
-      outputs: ["Updated AI Model", "Fairness Metrics Report"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Ensure regulatory compliance and documentation"
-      tools: ["Compliance Checklists", "Legal Review Templates"]
-      duration: "1 week"
-      outputs: ["Compliance Certification"]
-    - step: 5
-      actor: "External Auditors"
-      action: "Independent ethics audit and validation"
-      tools: ["Audit Protocols", "Third-party Assessment Tools"]
-      duration: "2 weeks"
-      outputs: ["Ethics Audit Report"]
-  success_criteria: "AI system deployed with documented ethical safeguards and audit approval"
-  failure_modes: ["Unacceptable bias detected", "Regulatory non-compliance", "Stakeholder objections"]
+  - step: 1
+    actor: AI Lead
+    action: Conduct initial AI ethics impact assessment
+    tools:
+    - Ethics Assessment Framework
+    - Bias Detection Tools
+    duration: 2 weeks
+    outputs:
+    - Ethics Impact Report
+  - step: 2
+    actor: Chief Ethics Officer
+    action: Review assessment and identify ethical risks
+    decision_points:
+    - Bias potential
+    - Privacy concerns
+    - Fairness implications
+    duration: 1 week
+    outputs:
+    - Risk Mitigation Plan
+  - step: 3
+    actor: Data Scientists
+    action: Implement bias mitigation and fairness controls
+    tools:
+    - ML Fairness Libraries
+    - Model Validation Tools
+    duration: 3 weeks
+    outputs:
+    - Updated AI Model
+    - Fairness Metrics Report
+  - step: 4
+    actor: Legal Counsel
+    action: Ensure regulatory compliance and documentation
+    tools:
+    - Compliance Checklists
+    - Legal Review Templates
+    duration: 1 week
+    outputs:
+    - Compliance Certification
+  - step: 5
+    actor: External Auditors
+    action: Independent ethics audit and validation
+    tools:
+    - Audit Protocols
+    - Third-party Assessment Tools
+    duration: 2 weeks
+    outputs:
+    - Ethics Audit Report
+  success_criteria: AI system deployed with documented ethical safeguards and audit
+    approval
+  failure_modes:
+  - Unacceptable bias detected
+  - Regulatory non-compliance
+  - Stakeholder objections

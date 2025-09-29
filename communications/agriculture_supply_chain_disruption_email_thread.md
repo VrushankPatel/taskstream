@@ -1,8 +1,8 @@
 ## Email Thread: Agriculture Supply Chain Disruption Response
 
-**From:** Supply Chain Director  
-**To:** Operations Team, Procurement Manager, Logistics Coordinator  
-**Subject:** Urgent: Weather-Related Supply Chain Disruption - Action Required  
+**From:** Supply Chain Director
+**To:** Operations Team, Procurement Manager, Logistics Coordinator
+**Subject:** Urgent: Weather-Related Supply Chain Disruption - Action Required
 
 Team,
 
@@ -15,15 +15,15 @@ Key impacts:
 
 Please review your areas and provide impact assessments by EOD. We'll need contingency plans for alternative suppliers and adjusted planting schedules.
 
-Best,  
-Sarah Johnson  
-Supply Chain Director  
+Best,
+Sarah Johnson
+Supply Chain Director
 
 ---
 
-**From:** Procurement Manager  
-**To:** Supply Chain Director, Operations Team  
-**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required  
+**From:** Procurement Manager
+**To:** Supply Chain Director, Operations Team
+**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required
 
 Sarah,
 
@@ -36,14 +36,14 @@ Recommendations:
 
 Let me know if you need me to proceed with orders.
 
-Mike Chen  
-Procurement Manager  
+Mike Chen
+Procurement Manager
 
 ---
 
-**From:** Logistics Coordinator  
-**To:** Supply Chain Director, Procurement Manager, Operations Team  
-**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required  
+**From:** Logistics Coordinator
+**To:** Supply Chain Director, Procurement Manager, Operations Team
+**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required
 
 Adding to Mike's points - our transportation capacity is at 80% utilization. We can reallocate trucks from harvest preparation to prioritize fertilizer delivery.
 
@@ -54,14 +54,14 @@ Additional considerations:
 
 Ready to implement contingency routing.
 
-Lisa Rodriguez  
-Logistics Coordinator  
+Lisa Rodriguez
+Logistics Coordinator
 
 ---
 
-**From:** Operations Team Lead  
-**To:** Supply Chain Director, Procurement Manager, Logistics Coordinator  
-**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required  
+**From:** Operations Team Lead
+**To:** Supply Chain Director, Procurement Manager, Logistics Coordinator
+**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required
 
 Operations perspective:
 
@@ -72,14 +72,14 @@ The 2-week delay will impact our planting window optimization. We recommend:
 
 We've updated our field schedules and can provide daily progress reports.
 
-Tom Williams  
-Operations Team Lead  
+Tom Williams
+Operations Team Lead
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Operations Team, Procurement Manager, Logistics Coordinator  
-**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required  
+**From:** Supply Chain Director
+**To:** Operations Team, Procurement Manager, Logistics Coordinator
+**Subject:** Re: Urgent: Weather-Related Supply Chain Disruption - Action Required
 
 Thank you all for the quick responses. Based on the assessments, we're implementing the following action plan:
 
@@ -90,5 +90,5 @@ Thank you all for the quick responses. Based on the assessments, we're implement
 
 We'll monitor weather forecasts and supplier updates closely. Let's minimize the impact on our yield targets.
 
-Sarah Johnson  
+Sarah Johnson
 Supply Chain Director

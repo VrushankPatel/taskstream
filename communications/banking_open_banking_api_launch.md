@@ -1,14 +1,14 @@
 ## Announcement: Banking Open Banking API Launch
 
-**From:** Chief Digital Officer  
-**To:** All Bank Employees, Partners, and Customers  
-**Subject:** Launch of Open Banking API Platform - Revolutionizing Financial Services  
+**From:** Chief Digital Officer
+**To:** All Bank Employees, Partners, and Customers
+**Subject:** Launch of Open Banking API Platform - Revolutionizing Financial Services
 
-**Date:** September 29, 2025  
+**Date:** September 29, 2025
 
-Dear Banking Community,  
+Dear Banking Community,
 
-I'm excited to announce the official launch of our Open Banking API platform, a transformative initiative that will democratize access to financial data and services while maintaining the highest standards of security and compliance.  
+I'm excited to announce the official launch of our Open Banking API platform, a transformative initiative that will democratize access to financial data and services while maintaining the highest standards of security and compliance.
 
 ### Platform Overview
 - **Comprehensive API Suite**: 50+ APIs covering accounts, payments, lending, and wealth management
@@ -52,14 +52,14 @@ I'm excited to announce the official launch of our Open Banking API platform, a 
 - Customer satisfaction: 4.5/5 rating for digital services
 - Partner satisfaction: 90% retention rate
 
-We're opening the doors to a new era of financial innovation. The Open Banking API platform represents our commitment to collaboration, innovation, and customer-centric financial services.  
+We're opening the doors to a new era of financial innovation. The Open Banking API platform represents our commitment to collaboration, innovation, and customer-centric financial services.
 
-For developer access and partnership inquiries, please visit our developer portal at api.ourbank.com.  
+For developer access and partnership inquiries, please visit our developer portal at api.ourbank.com.
 
-Let's build the future of banking together.  
+Let's build the future of banking together.
 
-Best regards,  
-Dr. Sarah Chen  
-Chief Digital Officer  
-Our Bank  
+Best regards,
+Dr. Sarah Chen
+Chief Digital Officer
+Our Bank
 sarah.chen@ourbank.com

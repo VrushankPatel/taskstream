@@ -1,16 +1,16 @@
 # Meeting Notes: Collaborative Robotics Integration Kickoff
 
-**Meeting Title:** Collaborative Robotics Integration Project Kickoff  
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Manufacturing Facility Conference Room  
-**Attendees:**  
-- Tom Anderson, VP Manufacturing Operations  
-- Lisa Chen, Robotics Integration Lead  
-- Marcus Johnson, Safety Engineering Director  
-- Sarah Williams, Workforce Development Manager  
-- David Rodriguez, Union Representative  
-- External Consultant: Dr. Elena Petrov (Robotics Safety Expert)  
+**Meeting Title:** Collaborative Robotics Integration Project Kickoff
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Manufacturing Facility Conference Room
+**Attendees:**
+- Tom Anderson, VP Manufacturing Operations
+- Lisa Chen, Robotics Integration Lead
+- Marcus Johnson, Safety Engineering Director
+- Sarah Williams, Workforce Development Manager
+- David Rodriguez, Union Representative
+- External Consultant: Dr. Elena Petrov (Robotics Safety Expert)
 
 ## Meeting Objectives
 - Align on collaborative robotics integration strategy

@@ -3,8 +3,16 @@
   "context": "Major gaming company evaluating investment in advanced user engagement platform to improve player retention and monetization in competitive market",
   "stakeholders": {
     "requester": "VP of Player Experience",
-    "approvers": ["CEO", "CFO", "Chief Product Officer"],
-    "influencers": ["Head of Marketing", "Data Analytics Lead", "Community Management Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Product Officer"
+    ],
+    "influencers": [
+      "Head of Marketing",
+      "Data Analytics Lead",
+      "Community Management Director"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,28 +24,49 @@
     {
       "stage": "initial_review",
       "duration": "2 weeks",
-      "activities": ["Market analysis of engagement platforms", "Competitive benchmarking", "Technical feasibility assessment"],
+      "activities": [
+        "Market analysis of engagement platforms",
+        "Competitive benchmarking",
+        "Technical feasibility assessment"
+      ],
       "outcome": "Advanced to detailed analysis phase"
     },
     {
       "stage": "detailed_analysis",
       "duration": "3 weeks",
-      "activities": ["ROI modeling with multiple scenarios", "Integration planning with existing systems", "User experience prototyping"],
+      "activities": [
+        "ROI modeling with multiple scenarios",
+        "Integration planning with existing systems",
+        "User experience prototyping"
+      ],
       "outcome": "Approved with phased implementation"
     },
     {
       "stage": "final_approval",
       "duration": "1 week",
-      "activities": ["Executive committee review", "Budget allocation approval", "Timeline and milestone setting"],
+      "activities": [
+        "Executive committee review",
+        "Budget allocation approval",
+        "Timeline and milestone setting"
+      ],
       "outcome": "Approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% increase in player retention, 15% increase in average revenue per user, enhanced competitive positioning",
     "projected_value": "$45,000,000 annual revenue increase",
-    "risk_factors": ["Technical integration challenges", "User adoption resistance", "Competitor platform responses"]
+    "risk_factors": [
+      "Technical integration challenges",
+      "User adoption resistance",
+      "Competitor platform responses"
+    ]
   },
-  "decision_criteria": ["Projected ROI >300%", "Technical feasibility confirmed", "Alignment with player experience strategy", "Scalability for 50M+ users"],
+  "decision_criteria": [
+    "Projected ROI >300%",
+    "Technical feasibility confirmed",
+    "Alignment with player experience strategy",
+    "Scalability for 50M+ users"
+  ],
   "outcome": "Approved",
   "action_items": [
     "Form cross-functional implementation team by Q1 2026",

@@ -3,8 +3,16 @@
   "context": "Luxury hotel chain with 15 properties facing revenue optimization challenges due to manual pricing and inconsistent yield management",
   "stakeholders": {
     "requester": "Director of Revenue Management",
-    "approvers": ["COO", "CFO", "Regional GM"],
-    "influencers": ["IT Director", "Marketing Manager", "Front Office Manager"]
+    "approvers": [
+      "COO",
+      "CFO",
+      "Regional GM"
+    ],
+    "influencers": [
+      "IT Director",
+      "Marketing Manager",
+      "Front Office Manager"
+    ]
   },
   "request": {
     "amount": "$850,000",
@@ -16,28 +24,50 @@
     {
       "stage": "requirements_gathering",
       "duration": "2 weeks",
-      "activities": ["Stakeholder interviews", "Current process analysis", "Competitive benchmarking"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current process analysis",
+        "Competitive benchmarking"
+      ],
       "outcome": "Defined requirements for dynamic pricing, channel management, and forecasting capabilities"
     },
     {
       "stage": "solution_evaluation",
       "duration": "4 weeks",
-      "activities": ["Vendor presentations", "ROI modeling", "Integration assessment"],
+      "activities": [
+        "Vendor presentations",
+        "ROI modeling",
+        "Integration assessment"
+      ],
       "outcome": "Selected IDeaS Revenue Management solution for hospitality-specific features"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Project timeline development", "Resource allocation", "Change management planning"],
+      "activities": [
+        "Project timeline development",
+        "Resource allocation",
+        "Change management planning"
+      ],
       "outcome": "Approved with 9-month implementation timeline and training program"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% increase in total revenue, 20% improvement in occupancy rates, reduced pricing inconsistencies",
     "projected_value": "$4,200,000 additional annual revenue",
-    "risk_factors": ["Staff resistance to automation", "Data quality issues", "Integration complexity with existing PMS"]
+    "risk_factors": [
+      "Staff resistance to automation",
+      "Data quality issues",
+      "Integration complexity with existing PMS"
+    ]
   },
-  "decision_criteria": ["Hospitality industry expertise", "Dynamic pricing accuracy", "Integration with existing systems", "User adoption ease", "Support and training quality"],
+  "decision_criteria": [
+    "Hospitality industry expertise",
+    "Dynamic pricing accuracy",
+    "Integration with existing systems",
+    "User adoption ease",
+    "Support and training quality"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive stakeholder engagement ensured buy-in, competitive benchmarking provided clear ROI justification, phased rollout approach minimized operational disruption"
 }

@@ -3,8 +3,15 @@
   "context": "Environmental non-profit deciding program investments",
   "stakeholders": {
     "requester": "Program Director",
-    "approvers": ["Executive Director", "Board Chair", "Finance Committee"],
-    "influencers": ["Field Operations", "Development Director"]
+    "approvers": [
+      "Executive Director",
+      "Board Chair",
+      "Finance Committee"
+    ],
+    "influencers": [
+      "Field Operations",
+      "Development Director"
+    ]
   },
   "request": {
     "amount": "$300,000",
@@ -16,19 +23,29 @@
     {
       "stage": "impact_assessment",
       "duration": "3 weeks",
-      "activities": ["Program evaluation", "Stakeholder surveys", "Impact metrics review"],
+      "activities": [
+        "Program evaluation",
+        "Stakeholder surveys",
+        "Impact metrics review"
+      ],
       "outcome": "Strong evidence of program effectiveness"
     },
     {
       "stage": "board_review",
       "duration": "1 week",
-      "activities": ["Strategic alignment review", "Budget impact analysis"],
+      "activities": [
+        "Strategic alignment review",
+        "Budget impact analysis"
+      ],
       "outcome": "Approved with performance milestones"
     }
   ],
   "business_impact": {
     "expected_participants": "10,000",
     "projected_funding_growth": "$100,000",
-    "risk_factors": ["Donor expectations", "Program scalability"]
+    "risk_factors": [
+      "Donor expectations",
+      "Program scalability"
+    ]
   }
 }

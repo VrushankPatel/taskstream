@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_energy_renewable_energy_integration"
-  title: "Renewable Energy Integration"
-  department: "Grid Operations"
-  complexity: "high"
-  participants: ["Renewable Integration Manager", "Grid Engineers", "Regulatory Compliance", "Environmental Team"]
-  trigger: "Renewable energy capacity expansion targets"
+  id: workflow_energy_renewable_energy_integration
+  title: Renewable Energy Integration
+  department: Grid Operations
+  complexity: high
+  participants:
+  - Renewable Integration Manager
+  - Grid Engineers
+  - Regulatory Compliance
+  - Environmental Team
+  trigger: Renewable energy capacity expansion targets
   steps:
-    - step: 1
-      actor: "Renewable Integration Manager"
-      action: "Assess grid capacity and integration requirements"
-      tools: ["Grid modeling software", "Capacity planning tools"]
-      duration: "4 weeks"
-      outputs: ["Integration feasibility study"]
-    - step: 2
-      actor: "Grid Engineers"
-      action: "Design interconnection and balancing systems"
-      tools: ["Power system simulation software", "SCADA systems"]
-      duration: "8 weeks"
-      outputs: ["Grid integration designs"]
-    - step: 3
-      actor: "Regulatory Compliance"
-      action: "Obtain necessary permits and approvals"
-      tools: ["Regulatory filing systems", "Environmental assessment tools"]
-      duration: "6 weeks"
-      outputs: ["Regulatory approvals"]
-    - step: 4
-      actor: "Environmental Team"
-      action: "Conduct environmental impact assessments"
-      tools: ["Environmental modeling tools", "Impact assessment frameworks"]
-      duration: "4 weeks"
-      outputs: ["Environmental impact reports"]
-  success_criteria: "Successful integration of 25% renewable energy mix"
-  failure_modes: ["Grid stability issues", "Regulatory delays", "Intermittency challenges"]
+  - step: 1
+    actor: Renewable Integration Manager
+    action: Assess grid capacity and integration requirements
+    tools:
+    - Grid modeling software
+    - Capacity planning tools
+    duration: 4 weeks
+    outputs:
+    - Integration feasibility study
+  - step: 2
+    actor: Grid Engineers
+    action: Design interconnection and balancing systems
+    tools:
+    - Power system simulation software
+    - SCADA systems
+    duration: 8 weeks
+    outputs:
+    - Grid integration designs
+  - step: 3
+    actor: Regulatory Compliance
+    action: Obtain necessary permits and approvals
+    tools:
+    - Regulatory filing systems
+    - Environmental assessment tools
+    duration: 6 weeks
+    outputs:
+    - Regulatory approvals
+  - step: 4
+    actor: Environmental Team
+    action: Conduct environmental impact assessments
+    tools:
+    - Environmental modeling tools
+    - Impact assessment frameworks
+    duration: 4 weeks
+    outputs:
+    - Environmental impact reports
+  success_criteria: Successful integration of 25% renewable energy mix
+  failure_modes:
+  - Grid stability issues
+  - Regulatory delays
+  - Intermittency challenges

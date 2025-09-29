@@ -3,8 +3,17 @@
   "context": "Enterprise software company (1000 employees) evaluating acquisition of data analytics startup",
   "stakeholders": {
     "requester": "Chief Strategy Officer",
-    "approvers": ["CEO", "Board of Directors", "Major Shareholders"],
-    "influencers": ["CFO", "Head of Product", "General Counsel", "Head of M&A"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Major Shareholders"
+    ],
+    "influencers": [
+      "CFO",
+      "Head of Product",
+      "General Counsel",
+      "Head of M&A"
+    ]
   },
   "request": {
     "amount": "$45M acquisition price",
@@ -16,26 +25,51 @@
     {
       "stage": "target_evaluation",
       "duration": "8 weeks",
-      "activities": ["Due diligence", "Technology assessment", "Financial analysis", "Cultural fit evaluation"],
+      "activities": [
+        "Due diligence",
+        "Technology assessment",
+        "Financial analysis",
+        "Cultural fit evaluation"
+      ],
       "outcome": "Strong strategic fit identified, technology validated"
     },
     {
       "stage": "valuation_negotiation",
       "duration": "4 weeks",
-      "activities": ["Financial modeling", "Synergy analysis", "Term sheet negotiation"],
+      "activities": [
+        "Financial modeling",
+        "Synergy analysis",
+        "Term sheet negotiation"
+      ],
       "outcome": "Agreed upon $42M final price with earn-out provisions"
     },
     {
       "stage": "integration_planning",
       "duration": "6 weeks",
-      "activities": ["Integration roadmap development", "Talent retention planning", "Product roadmap alignment"],
+      "activities": [
+        "Integration roadmap development",
+        "Talent retention planning",
+        "Product roadmap alignment"
+      ],
       "outcome": "90-day integration plan approved"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["18-month acceleration of AI roadmap", "Access to 50 specialized engineers", "$20M cost savings in R&D"],
+    "expected_benefits": [
+      "18-month acceleration of AI roadmap",
+      "Access to 50 specialized engineers",
+      "$20M cost savings in R&D"
+    ],
     "implementation_timeline": "12 months for full integration",
-    "risk_factors": ["Culture clash", "Key employee retention", "Technology integration challenges"],
-    "success_metrics": ["Technology successfully integrated", "Key talent retention >80%", "Projected ROI achieved within 36 months"]
+    "risk_factors": [
+      "Culture clash",
+      "Key employee retention",
+      "Technology integration challenges"
+    ],
+    "success_metrics": [
+      "Technology successfully integrated",
+      "Key talent retention >80%",
+      "Projected ROI achieved within 36 months"
+    ]
   }
 }

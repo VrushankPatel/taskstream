@@ -175,6 +175,6 @@ Applies to all AI systems, algorithms, and machine learning models developed, ac
 - AI System Development Standards
 - Incident Response and Crisis Management Policy
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 28, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 28, 2025*
 *Next Review: September 30, 2026*

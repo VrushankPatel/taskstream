@@ -3,8 +3,16 @@
   "context": "Biotechnology company developing CRISPR-based gene therapies, facing ethical dilemmas in clinical applications",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Board of Directors", "Ethics Committee Chair"],
-    "influencers": ["Patient Advocacy Groups", "Regulatory Agencies", "Scientific Community"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Ethics Committee Chair"
+    ],
+    "influencers": [
+      "Patient Advocacy Groups",
+      "Regulatory Agencies",
+      "Scientific Community"
+    ]
   },
   "request": {
     "amount": "$50 million",
@@ -16,25 +24,45 @@
     {
       "stage": "ethical_review",
       "duration": "4 weeks",
-      "activities": ["Stakeholder consultations", "Ethical dilemma analysis", "Regulatory landscape assessment"],
+      "activities": [
+        "Stakeholder consultations",
+        "Ethical dilemma analysis",
+        "Regulatory landscape assessment"
+      ],
       "outcome": "Framework development approved with enhanced oversight requirements"
     },
     {
       "stage": "framework_design",
       "duration": "8 weeks",
-      "activities": ["Expert panel formation", "Policy development", "Implementation planning"],
+      "activities": [
+        "Expert panel formation",
+        "Policy development",
+        "Implementation planning"
+      ],
       "outcome": "Comprehensive bioethics framework established"
     },
     {
       "stage": "pilot_implementation",
       "duration": "6 weeks",
-      "activities": ["Framework testing", "Stakeholder feedback", "Refinement process"],
+      "activities": [
+        "Framework testing",
+        "Stakeholder feedback",
+        "Refinement process"
+      ],
       "outcome": "Framework validated and ready for company-wide adoption"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["Enhanced regulatory compliance", "Improved public trust", "Competitive advantage in ethical gene therapies"],
+    "expected_outcomes": [
+      "Enhanced regulatory compliance",
+      "Improved public trust",
+      "Competitive advantage in ethical gene therapies"
+    ],
     "projected_revenue": "N/A (compliance investment)",
-    "risk_factors": ["Implementation costs", "Regulatory changes", "Public perception challenges"]
+    "risk_factors": [
+      "Implementation costs",
+      "Regulatory changes",
+      "Public perception challenges"
+    ]
   }
 }

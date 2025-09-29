@@ -1,8 +1,8 @@
 ## Email Thread: Transportation Supply Chain Disruption Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Operations Managers, Customer Success Team  
-**Subject:** Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Operations Managers, Customer Success Team
+**Subject:** Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Team,
 
@@ -28,9 +28,9 @@ I need to inform you of a critical transportation disruption that will impact ou
 
 Please respond with your team's action plan within 2 hours. We'll reconvene at 3 PM for a full status update.
 
-**From:** Operations Manager  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** Operations Manager
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Supply Chain Director,
 
@@ -42,9 +42,9 @@ Operations team is mobilizing our contingency plan:
 
 We can maintain 70% of normal production capacity if the disruption lasts 5 days or less.
 
-**From:** Customer Success VP  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** Customer Success VP
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Customer communications plan:
 
@@ -53,9 +53,9 @@ Customer communications plan:
 - Offering expedited shipping once routes reopen (at premium cost)
 - Preparing goodwill gestures for impacted accounts
 
-**From:** Procurement Manager  
-**To:** Supply Chain Director, Executive Leadership Team  
-**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** Procurement Manager
+**To:** Supply Chain Director, Executive Leadership Team
+**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Procurement response:
 
@@ -64,9 +64,9 @@ Procurement response:
 - Exploring air freight options for critical components
 - Building relationships with local suppliers for future contingencies
 
-**From:** CFO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** CFO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Financial assessment:
 
@@ -75,9 +75,9 @@ Financial assessment:
 - Customer retention fund activated for goodwill gestures
 - Monitoring cash flow impact on working capital
 
-**From:** CEO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan  
+**From:** CEO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Major Transportation Disruption - Immediate Response Plan
 
 Thank you for the rapid response. The coordinated approach gives me confidence we'll minimize the impact.
 

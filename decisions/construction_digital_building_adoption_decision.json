@@ -3,8 +3,16 @@
   "context": "Large construction firm evaluating adoption of digital building technologies including BIM software, IoT sensors, and automated construction equipment",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Operations Officer"],
-    "influencers": ["Project Managers", "IT Director", "Safety Director", "Procurement Manager"]
+    "approvers": [
+      "CEO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Project Managers",
+      "IT Director",
+      "Safety Director",
+      "Procurement Manager"
+    ]
   },
   "request": {
     "amount": "$15 million",
@@ -16,34 +24,62 @@
     {
       "stage": "technology_evaluation",
       "duration": "2 months",
-      "activities": ["Vendor demonstrations", "Pilot project testing", "ROI analysis", "Integration assessment"],
+      "activities": [
+        "Vendor demonstrations",
+        "Pilot project testing",
+        "ROI analysis",
+        "Integration assessment"
+      ],
       "outcome": "BIM and IoT technologies selected with proven 20-30% efficiency gains"
     },
     {
       "stage": "change_management_planning",
       "duration": "1 month",
-      "activities": ["Employee training needs assessment", "Change management strategy development", "Resistance mitigation planning"],
+      "activities": [
+        "Employee training needs assessment",
+        "Change management strategy development",
+        "Resistance mitigation planning"
+      ],
       "outcome": "Comprehensive training program designed with 6-month adoption timeline"
     },
     {
       "stage": "financial_analysis",
       "duration": "1 month",
-      "activities": ["Cost-benefit analysis", "Funding source identification", "Cash flow impact assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Funding source identification",
+        "Cash flow impact assessment"
+      ],
       "outcome": "3-year payback period confirmed with internal funding available"
     },
     {
       "stage": "implementation_planning",
       "duration": "1 month",
-      "activities": ["Project timeline development", "Resource allocation", "Success metrics definition"],
+      "activities": [
+        "Project timeline development",
+        "Resource allocation",
+        "Success metrics definition"
+      ],
       "outcome": "Phased rollout plan approved with quarterly milestones"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% productivity increase, 30% cost reduction, improved project delivery timelines, enhanced safety metrics",
     "projected_value": "$45 million in cumulative benefits over 5 years",
-    "risk_factors": ["Employee resistance to technology adoption", "Integration with existing systems", "Initial productivity dip during transition", "Vendor reliability"]
+    "risk_factors": [
+      "Employee resistance to technology adoption",
+      "Integration with existing systems",
+      "Initial productivity dip during transition",
+      "Vendor reliability"
+    ]
   },
-  "decision_criteria": ["Technology maturity and proven results", "Financial ROI >15%", "Employee adoption feasibility", "Integration complexity", "Competitive advantage"],
+  "decision_criteria": [
+    "Technology maturity and proven results",
+    "Financial ROI >15%",
+    "Employee adoption feasibility",
+    "Integration complexity",
+    "Competitive advantage"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Digital transformation requires comprehensive change management, pilot testing essential for technology validation, employee training investment critical for adoption success"
 }

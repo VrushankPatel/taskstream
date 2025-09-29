@@ -1,51 +1,77 @@
 workflow:
-  id: "workflow_insurance_auto_claims_processing"
-  title: "Insurance Auto Claims Processing Workflow"
-  department: "Auto Claims"
-  complexity: "medium"
-  participants: ["Claims Representative", "Claims Adjuster", "Appraiser", "Fraud Investigator", "Settlement Approver"]
-  trigger: "Policyholder reports auto accident and submits claim"
+  id: workflow_insurance_auto_claims_processing
+  title: Insurance Auto Claims Processing Workflow
+  department: Auto Claims
+  complexity: medium
+  participants:
+  - Claims Representative
+  - Claims Adjuster
+  - Appraiser
+  - Fraud Investigator
+  - Settlement Approver
+  trigger: Policyholder reports auto accident and submits claim
   steps:
-    - step: 1
-      actor: "Claims Representative"
-      action: "Record claim details and verify policy coverage"
-      tools: ["Claims management system", "Policy database"]
-      duration: "30 minutes"
-      outputs: ["Initial claim record", "Coverage confirmation"]
-    - step: 2
-      actor: "Claims Adjuster"
-      action: "Assess damage and liability through investigation"
-      tools: ["Vehicle inspection reports", "Witness statements"]
-      duration: "2-4 hours"
-      outputs: ["Damage assessment", "Liability determination"]
-    - step: 3
-      actor: "Appraiser"
-      action: "Estimate repair costs and vehicle value"
-      tools: ["Repair cost database", "Vehicle valuation system"]
-      duration: "1-2 hours"
-      outputs: ["Cost estimate", "Settlement recommendation"]
-    - step: 4
-      actor: "Fraud Investigator"
-      action: "Review for potential fraud indicators"
-      tools: ["Fraud detection algorithms", "Claim history database"]
-      duration: "1 hour"
-      outputs: ["Fraud assessment report"]
-    - step: 5
-      actor: "Settlement Approver"
-      action: "Approve final settlement amount and authorize payment"
-      decision_points:
-        - "Settlement amount threshold"
-        - "Policy limits"
-      duration: "30 minutes"
-      outputs: ["Approved settlement", "Payment authorization"]
-  success_criteria: "Claim settled within 14 days with accurate assessment"
-  failure_modes: ["Disputed liability", "Underestimated damages", "Fraudulent claim", "Delayed documentation"]
+  - step: 1
+    actor: Claims Representative
+    action: Record claim details and verify policy coverage
+    tools:
+    - Claims management system
+    - Policy database
+    duration: 30 minutes
+    outputs:
+    - Initial claim record
+    - Coverage confirmation
+  - step: 2
+    actor: Claims Adjuster
+    action: Assess damage and liability through investigation
+    tools:
+    - Vehicle inspection reports
+    - Witness statements
+    duration: 2-4 hours
+    outputs:
+    - Damage assessment
+    - Liability determination
+  - step: 3
+    actor: Appraiser
+    action: Estimate repair costs and vehicle value
+    tools:
+    - Repair cost database
+    - Vehicle valuation system
+    duration: 1-2 hours
+    outputs:
+    - Cost estimate
+    - Settlement recommendation
+  - step: 4
+    actor: Fraud Investigator
+    action: Review for potential fraud indicators
+    tools:
+    - Fraud detection algorithms
+    - Claim history database
+    duration: 1 hour
+    outputs:
+    - Fraud assessment report
+  - step: 5
+    actor: Settlement Approver
+    action: Approve final settlement amount and authorize payment
+    decision_points:
+    - Settlement amount threshold
+    - Policy limits
+    duration: 30 minutes
+    outputs:
+    - Approved settlement
+    - Payment authorization
+  success_criteria: Claim settled within 14 days with accurate assessment
+  failure_modes:
+  - Disputed liability
+  - Underestimated damages
+  - Fraudulent claim
+  - Delayed documentation
   metrics:
-    - "Average settlement time: Target <10 days from claim submission"
-    - "Claim accuracy rate: Target >98% (no rework required)"
-    - "Fraud detection rate: Target >85% of fraudulent claims identified"
-    - "Customer satisfaction with claims process: Target >4.0/5"
-    - "First contact resolution rate: Target >75%"
-    - "Claims processing cost per claim: Target <$25"
-    - "Rejection rate due to insufficient documentation: Target <5%"
-    - "Average settlement amount accuracy: Target ±2% of final assessment"
+  - 'Average settlement time: Target <10 days from claim submission'
+  - 'Claim accuracy rate: Target >98% (no rework required)'
+  - 'Fraud detection rate: Target >85% of fraudulent claims identified'
+  - 'Customer satisfaction with claims process: Target >4.0/5'
+  - 'First contact resolution rate: Target >75%'
+  - 'Claims processing cost per claim: Target <$25'
+  - 'Rejection rate due to insufficient documentation: Target <5%'
+  - 'Average settlement amount accuracy: Target ±2% of final assessment'

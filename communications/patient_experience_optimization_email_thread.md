@@ -1,9 +1,9 @@
 # Patient Experience Optimization Initiative
 
-**From:** Dr. Jennifer Walsh, Chief Medical Officer  
-**To:** Patient Experience Committee (patient_experience@hospital.org)  
-**Subject:** Urgent: Patient Experience Optimization - Action Required  
-**Date:** October 10, 2025  
+**From:** Dr. Jennifer Walsh, Chief Medical Officer
+**To:** Patient Experience Committee (patient_experience@hospital.org)
+**Subject:** Urgent: Patient Experience Optimization - Action Required
+**Date:** October 10, 2025
 
 Team,
 
@@ -23,17 +23,17 @@ Following our recent patient satisfaction survey results showing a 15% decline i
 
 Please prepare implementation plans for your areas by Friday. We'll reconvene Monday for detailed planning.
 
-Best,  
-Dr. Jennifer Walsh  
-Chief Medical Officer  
-City General Hospital  
+Best,
+Dr. Jennifer Walsh
+Chief Medical Officer
+City General Hospital
 
 ---
 
-**From:** Maria Gonzalez, Director of Nursing  
-**To:** Dr. Jennifer Walsh, Patient Experience Committee  
-**Subject:** Re: Urgent: Patient Experience Optimization - Action Required  
-**Date:** October 10, 2025  
+**From:** Maria Gonzalez, Director of Nursing
+**To:** Dr. Jennifer Walsh, Patient Experience Committee
+**Subject:** Re: Urgent: Patient Experience Optimization - Action Required
+**Date:** October 10, 2025
 
 Jennifer,
 
@@ -47,15 +47,15 @@ The nursing team is deeply concerned about these results. Our patient satisfacti
 
 We're seeing increased patient complaints about feeling "rushed" during interactions. I recommend we conduct staff focus groups to understand the root causes from the frontline perspective.
 
-Maria Gonzalez  
-Director of Nursing  
+Maria Gonzalez
+Director of Nursing
 
 ---
 
-**From:** Robert Chen, IT Director  
-**To:** Dr. Jennifer Walsh, Patient Experience Committee  
-**Subject:** Re: Urgent: Patient Experience Optimization - Action Required  
-**Date:** October 11, 2025  
+**From:** Robert Chen, IT Director
+**To:** Dr. Jennifer Walsh, Patient Experience Committee
+**Subject:** Re: Urgent: Patient Experience Optimization - Action Required
+**Date:** October 11, 2025
 
 Jennifer and team,
 
@@ -69,15 +69,15 @@ From an IT perspective, we can significantly improve patient experience through 
 
 We have budget allocated for these initiatives and can accelerate the timeline. The mobile app could be in beta testing within 8 weeks.
 
-Robert Chen  
-IT Director  
+Robert Chen
+IT Director
 
 ---
 
-**From:** Sarah Mitchell, Patient Experience Coordinator  
-**To:** Dr. Jennifer Walsh, Patient Experience Committee  
-**Subject:** Re: Urgent: Patient Experience Optimization - Action Required  
-**Date:** October 11, 2025  
+**From:** Sarah Mitchell, Patient Experience Coordinator
+**To:** Dr. Jennifer Walsh, Patient Experience Committee
+**Subject:** Re: Urgent: Patient Experience Optimization - Action Required
+**Date:** October 11, 2025
 
 Thank you all for the quick responses. I've compiled the patient feedback and want to share some key themes:
 
@@ -95,15 +95,15 @@ Thank you all for the quick responses. I've compiled the patient feedback and wa
 
 I recommend we form cross-functional workgroups for each priority area. I can coordinate the workgroups and track progress.
 
-Sarah Mitchell  
-Patient Experience Coordinator  
+Sarah Mitchell
+Patient Experience Coordinator
 
 ---
 
-**From:** Dr. Jennifer Walsh  
-**To:** Patient Experience Committee  
-**Subject:** Re: Urgent: Patient Experience Optimization - Action Required  
-**Date:** October 12, 2025  
+**From:** Dr. Jennifer Walsh
+**To:** Patient Experience Committee
+**Subject:** Re: Urgent: Patient Experience Optimization - Action Required
+**Date:** October 12, 2025
 
 Thank you for the comprehensive responses. This is exactly the collaborative approach we need.
 
@@ -121,5 +121,5 @@ Thank you for the comprehensive responses. This is exactly the collaborative app
 
 Let's make this a success story. The board is watching closely.
 
-Dr. Jennifer Walsh  
+Dr. Jennifer Walsh
 Chief Medical Officer

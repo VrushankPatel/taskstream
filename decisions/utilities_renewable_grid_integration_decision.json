@@ -3,8 +3,16 @@
   "context": "Municipal utility company planning integration of 200MW solar and wind capacity into existing grid infrastructure. Current grid designed for 80% fossil fuel base load with limited renewable intermittency management.",
   "stakeholders": {
     "requester": "Chief Renewable Energy Officer",
-    "approvers": ["CEO", "Board of Directors", "City Council Energy Committee"],
-    "influencers": ["Grid Operations Director", "Regulatory Affairs VP", "Customer Service Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "City Council Energy Committee"
+    ],
+    "influencers": [
+      "Grid Operations Director",
+      "Regulatory Affairs VP",
+      "Customer Service Director"
+    ]
   },
   "request": {
     "amount": "$180M",
@@ -16,28 +24,51 @@
     {
       "stage": "technical_feasibility_study",
       "duration": "4 months",
-      "activities": ["Grid capacity analysis", "Intermittency modeling", "Technology vendor evaluation"],
+      "activities": [
+        "Grid capacity analysis",
+        "Intermittency modeling",
+        "Technology vendor evaluation"
+      ],
       "outcome": "Identified optimal integration strategy with 95% renewable capacity utilization"
     },
     {
       "stage": "regulatory_approval_process",
       "duration": "3 months",
-      "activities": ["Rate case filing", "Public hearings", "Regulatory negotiations"],
+      "activities": [
+        "Rate case filing",
+        "Public hearings",
+        "Regulatory negotiations"
+      ],
       "outcome": "Approved with performance-based incentives"
     },
     {
       "stage": "financing_arrangement",
       "duration": "2 months",
-      "activities": ["Bond issuance planning", "Grant application", "Cost allocation modeling"],
+      "activities": [
+        "Bond issuance planning",
+        "Grant application",
+        "Cost allocation modeling"
+      ],
       "outcome": "Secured $120M in green bonds, $60M in federal grants"
     }
   ],
   "business_impact": {
     "expected_outcome": "40% renewable integration achieved, 60% reduction in grid instability events, improved customer satisfaction, enhanced regulatory compliance",
     "projected_value": "$45M annual savings in fuel costs, $25M in avoided outage costs",
-    "risk_factors": ["Technology integration challenges", "Regulatory delays", "Cost overruns", "Public opposition to infrastructure changes"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory delays",
+      "Cost overruns",
+      "Public opposition to infrastructure changes"
+    ]
   },
-  "decision_criteria": ["Renewable integration >35%", "Cost savings >$50M over 10 years", "Grid reliability improvement >50%", "Regulatory compliance", "Community support >70%"],
+  "decision_criteria": [
+    "Renewable integration >35%",
+    "Cost savings >$50M over 10 years",
+    "Grid reliability improvement >50%",
+    "Regulatory compliance",
+    "Community support >70%"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive stakeholder engagement prevents opposition, phased implementation reduces technical risks, performance-based regulation provides financial incentives"
 }

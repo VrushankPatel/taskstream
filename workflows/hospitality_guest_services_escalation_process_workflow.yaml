@@ -1,44 +1,68 @@
 workflow:
-  id: "workflow_hospitality_guest_services_escalation_process"
-  title: "Hospitality Guest Services Escalation Process"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Services Manager", "Department Head", "General Manager"]
-  trigger: "Guest complaint or service request requiring escalation"
+  id: workflow_hospitality_guest_services_escalation_process
+  title: Hospitality Guest Services Escalation Process
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Guest Services Manager
+  - Department Head
+  - General Manager
+  trigger: Guest complaint or service request requiring escalation
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Receive and document guest complaint or request"
-      tools: ["Guest complaint log", "Service request form"]
-      duration: "10 minutes"
-      outputs: ["Initial complaint record"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Attempt immediate resolution for standard issues"
-      tools: ["Service recovery guidelines", "Authorization limits"]
-      duration: "15 minutes"
-      outputs: ["Resolution attempt record"]
-    - step: 3
-      actor: "Guest Services Manager"
-      action: "Review escalated complaint and assess severity"
-      tools: ["Complaint tracking system", "Service level agreements"]
-      duration: "30 minutes"
-      outputs: ["Severity assessment", "Action plan"]
-    - step: 4
-      actor: "Guest Services Manager"
-      action: "Implement resolution and communicate with guest"
-      tools: ["Guest communication templates", "Follow-up protocols"]
-      duration: "1 hour"
-      outputs: ["Resolution documentation", "Guest feedback"]
-    - step: 5
-      actor: "Department Head"
-      action: "Review high-impact resolutions and identify improvement opportunities"
-      tools: ["Performance analytics", "Quality improvement reports"]
-      duration: "2 hours"
-      outputs: ["Improvement recommendations"]
-  success_criteria: "Guest satisfaction restored, complaint resolved within SLA"
-  failure_modes: ["Delayed response time", "Inadequate resolution", "Poor communication"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Receive and document guest complaint or request
+    tools:
+    - Guest complaint log
+    - Service request form
+    duration: 10 minutes
+    outputs:
+    - Initial complaint record
+  - step: 2
+    actor: Front Desk Agent
+    action: Attempt immediate resolution for standard issues
+    tools:
+    - Service recovery guidelines
+    - Authorization limits
+    duration: 15 minutes
+    outputs:
+    - Resolution attempt record
+  - step: 3
+    actor: Guest Services Manager
+    action: Review escalated complaint and assess severity
+    tools:
+    - Complaint tracking system
+    - Service level agreements
+    duration: 30 minutes
+    outputs:
+    - Severity assessment
+    - Action plan
+  - step: 4
+    actor: Guest Services Manager
+    action: Implement resolution and communicate with guest
+    tools:
+    - Guest communication templates
+    - Follow-up protocols
+    duration: 1 hour
+    outputs:
+    - Resolution documentation
+    - Guest feedback
+  - step: 5
+    actor: Department Head
+    action: Review high-impact resolutions and identify improvement opportunities
+    tools:
+    - Performance analytics
+    - Quality improvement reports
+    duration: 2 hours
+    outputs:
+    - Improvement recommendations
+  success_criteria: Guest satisfaction restored, complaint resolved within SLA
+  failure_modes:
+  - Delayed response time
+  - Inadequate resolution
+  - Poor communication
   metrics:
-    - "First response time: <30 minutes"
-    - "Resolution rate: 95%+"
-    - "Guest satisfaction score: 4.5/5"
+  - 'First response time: <30 minutes'
+  - 'Resolution rate: 95%+'
+  - 'Guest satisfaction score: 4.5/5'

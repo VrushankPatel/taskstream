@@ -1,52 +1,88 @@
 workflow:
-  id: "workflow_sustainable_energy_carbon_capture_storage"
-  title: "Sustainable Energy Carbon Capture and Storage Implementation"
-  department: "Engineering & Operations"
-  complexity: "complex"
-  participants: ["Chief Technology Officer", "Environmental Engineer", "Project Manager", "Regulatory Compliance Officer", "Operations Manager", "Financial Analyst"]
-  trigger: "Strategic decision to implement carbon capture technology for emissions reduction"
+  id: workflow_sustainable_energy_carbon_capture_storage
+  title: Sustainable Energy Carbon Capture and Storage Implementation
+  department: Engineering & Operations
+  complexity: complex
+  participants:
+  - Chief Technology Officer
+  - Environmental Engineer
+  - Project Manager
+  - Regulatory Compliance Officer
+  - Operations Manager
+  - Financial Analyst
+  trigger: Strategic decision to implement carbon capture technology for emissions
+    reduction
   steps:
-    - step: 1
-      actor: "Chief Technology Officer"
-      action: "Evaluate carbon capture technologies and select optimal solution"
-      tools: ["Technology assessment frameworks", "Cost-benefit analysis tools"]
-      duration: "8 weeks"
-      outputs: ["Technology evaluation report", "Solution selection recommendation"]
-    - step: 2
-      actor: "Environmental Engineer"
-      action: "Conduct site assessment and environmental impact analysis"
-      tools: ["Environmental modeling software", "Impact assessment frameworks"]
-      duration: "6 weeks"
-      outputs: ["Site assessment report", "Environmental impact statement"]
-    - step: 3
-      actor: "Regulatory Compliance Officer"
-      action: "Obtain necessary permits and regulatory approvals"
-      tools: ["Regulatory compliance databases", "Permit application systems"]
-      duration: "12 weeks"
-      outputs: ["Permit approvals", "Compliance documentation"]
-    - step: 4
-      actor: "Project Manager"
-      action: "Develop detailed implementation plan and procurement strategy"
-      tools: ["Project management software", "Procurement systems"]
-      duration: "6 weeks"
-      outputs: ["Implementation roadmap", "Vendor selection criteria"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Plan integration with existing energy infrastructure"
-      tools: ["Systems integration tools", "Process modeling software"]
-      duration: "4 weeks"
-      outputs: ["Integration specifications", "Operational procedures"]
-    - step: 6
-      actor: "Financial Analyst"
-      action: "Establish monitoring systems for carbon credits and cost tracking"
-      tools: ["Financial modeling software", "Carbon trading platforms"]
-      duration: "3 weeks"
-      outputs: ["Financial monitoring framework", "Carbon credit tracking system"]
-  success_criteria: "Carbon capture system operational with 90% capture efficiency and regulatory compliance maintained"
-  failure_modes: ["Regulatory approval delays", "Technical integration challenges", "Cost overruns from unforeseen complications", "Environmental impact concerns"]
+  - step: 1
+    actor: Chief Technology Officer
+    action: Evaluate carbon capture technologies and select optimal solution
+    tools:
+    - Technology assessment frameworks
+    - Cost-benefit analysis tools
+    duration: 8 weeks
+    outputs:
+    - Technology evaluation report
+    - Solution selection recommendation
+  - step: 2
+    actor: Environmental Engineer
+    action: Conduct site assessment and environmental impact analysis
+    tools:
+    - Environmental modeling software
+    - Impact assessment frameworks
+    duration: 6 weeks
+    outputs:
+    - Site assessment report
+    - Environmental impact statement
+  - step: 3
+    actor: Regulatory Compliance Officer
+    action: Obtain necessary permits and regulatory approvals
+    tools:
+    - Regulatory compliance databases
+    - Permit application systems
+    duration: 12 weeks
+    outputs:
+    - Permit approvals
+    - Compliance documentation
+  - step: 4
+    actor: Project Manager
+    action: Develop detailed implementation plan and procurement strategy
+    tools:
+    - Project management software
+    - Procurement systems
+    duration: 6 weeks
+    outputs:
+    - Implementation roadmap
+    - Vendor selection criteria
+  - step: 5
+    actor: Operations Manager
+    action: Plan integration with existing energy infrastructure
+    tools:
+    - Systems integration tools
+    - Process modeling software
+    duration: 4 weeks
+    outputs:
+    - Integration specifications
+    - Operational procedures
+  - step: 6
+    actor: Financial Analyst
+    action: Establish monitoring systems for carbon credits and cost tracking
+    tools:
+    - Financial modeling software
+    - Carbon trading platforms
+    duration: 3 weeks
+    outputs:
+    - Financial monitoring framework
+    - Carbon credit tracking system
+  success_criteria: Carbon capture system operational with 90% capture efficiency
+    and regulatory compliance maintained
+  failure_modes:
+  - Regulatory approval delays
+  - Technical integration challenges
+  - Cost overruns from unforeseen complications
+  - Environmental impact concerns
   metrics:
-    - "Carbon capture efficiency: 90% target"
-    - "System uptime: 95% availability"
-    - "Regulatory compliance: 100% adherence"
-    - "Cost per ton captured: Below $50 threshold"
-    - "ROI realization: Within 5 years"
+  - 'Carbon capture efficiency: 90% target'
+  - 'System uptime: 95% availability'
+  - 'Regulatory compliance: 100% adherence'
+  - 'Cost per ton captured: Below $50 threshold'
+  - 'ROI realization: Within 5 years'

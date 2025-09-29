@@ -1,10 +1,10 @@
 # AI Ethics Bias Detection Tool Enterprise Rollout Announcement
 
-**From:** Chief AI Ethics Officer  
-**To:** All Employees, Executive Leadership, AI Development Teams  
-**Subject:** Enterprise-wide Rollout of AI Bias Detection and Mitigation Platform  
+**From:** Chief AI Ethics Officer
+**To:** All Employees, Executive Leadership, AI Development Teams
+**Subject:** Enterprise-wide Rollout of AI Bias Detection and Mitigation Platform
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -79,6 +79,6 @@ For technical support, contact the AI Ethics Support Team at ai-ethics-support@c
 
 This rollout demonstrates our unwavering commitment to ethical AI practices that benefit our customers, employees, and society. Together, we will build AI systems that are not only powerful but also fair, transparent, and trustworthy.
 
-Best regards,  
-[Chief AI Ethics Officer Name]  
+Best regards,
+[Chief AI Ethics Officer Name]
 Chief AI Ethics Officer

@@ -3,8 +3,16 @@
   "context": "Major logistics company, 200,000 employees, expanding autonomous vehicle operations for last-mile delivery",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Head of Logistics", "Safety Director", "Regulatory Affairs"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Head of Logistics",
+      "Safety Director",
+      "Regulatory Affairs"
+    ]
   },
   "request": {
     "amount": "$500,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "pilot_evaluation",
       "duration": "6 months",
-      "activities": ["Limited pilot deployment", "Safety performance monitoring", "Operational efficiency analysis"],
+      "activities": [
+        "Limited pilot deployment",
+        "Safety performance monitoring",
+        "Operational efficiency analysis"
+      ],
       "outcome": "Successful pilot with 30% cost reduction and improved safety metrics"
     },
     {
       "stage": "regulatory_navigation",
       "duration": "4 months",
-      "activities": ["State-by-state regulatory analysis", "Policy engagement", "Insurance arrangements"],
+      "activities": [
+        "State-by-state regulatory analysis",
+        "Policy engagement",
+        "Insurance arrangements"
+      ],
       "outcome": "Regulatory pathways identified with phased rollout strategy"
     },
     {
       "stage": "infrastructure_assessment",
       "duration": "3 months",
-      "activities": ["Fleet management system evaluation", "Charging infrastructure planning", "Data center requirements"],
+      "activities": [
+        "Fleet management system evaluation",
+        "Charging infrastructure planning",
+        "Data center requirements"
+      ],
       "outcome": "Comprehensive infrastructure plan developed"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 months",
-      "activities": ["Total cost of ownership analysis", "Revenue impact modeling", "Risk-adjusted returns"],
+      "activities": [
+        "Total cost of ownership analysis",
+        "Revenue impact modeling",
+        "Risk-adjusted returns"
+      ],
       "outcome": "Strong financial case with 4-year payback period"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["40% reduction in delivery costs", "Improved delivery speed", "Enhanced safety record"],
+    "expected_benefits": [
+      "40% reduction in delivery costs",
+      "Improved delivery speed",
+      "Enhanced safety record"
+    ],
     "projected_revenue": "$2,000,000,000 in cost savings over 5 years",
-    "risk_factors": ["Regulatory delays", "Technology failures", "Public acceptance issues"]
+    "risk_factors": [
+      "Regulatory delays",
+      "Technology failures",
+      "Public acceptance issues"
+    ]
   }
 }

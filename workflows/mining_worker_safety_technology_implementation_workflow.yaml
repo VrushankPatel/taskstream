@@ -1,52 +1,86 @@
 workflow:
-  id: "workflow_mining_worker_safety_technology_implementation"
-  title: "Worker Safety Technology Implementation Process"
-  department: "Mining Safety"
-  complexity: "complex"
-  participants: ["Safety Manager", "IT Specialist", "Equipment Engineer", "Worker Representatives", "Training Coordinator"]
-  trigger: "Safety incident requiring enhanced worker protection technologies"
+  id: workflow_mining_worker_safety_technology_implementation
+  title: Worker Safety Technology Implementation Process
+  department: Mining Safety
+  complexity: complex
+  participants:
+  - Safety Manager
+  - IT Specialist
+  - Equipment Engineer
+  - Worker Representatives
+  - Training Coordinator
+  trigger: Safety incident requiring enhanced worker protection technologies
   steps:
-    - step: 1
-      actor: "Safety Manager"
-      action: "Conduct safety risk assessment and identify technology needs"
-      tools: ["Risk assessment frameworks", "Safety incident databases"]
-      duration: "3 weeks"
-      outputs: ["Risk assessment report", "Technology requirements specification"]
-    - step: 2
-      actor: "IT Specialist"
-      action: "Design integrated safety monitoring system"
-      tools: ["IoT platform design tools", "Wearable device specifications"]
-      duration: "4 weeks"
-      outputs: ["System architecture design", "Device integration plan"]
-    - step: 3
-      actor: "Equipment Engineer"
-      action: "Select and procure safety technology equipment"
-      tools: ["Safety equipment catalogs", "Vendor evaluation criteria"]
-      duration: "3 weeks"
-      outputs: ["Equipment procurement plan", "Safety device specifications"]
-    - step: 4
-      actor: "Worker Representatives"
-      action: "Provide input on equipment usability and worker acceptance"
-      tools: ["Worker feedback surveys", "Usability testing protocols"]
-      duration: "2 weeks"
-      outputs: ["Worker acceptance assessment", "Equipment modification recommendations"]
-    - step: 5
-      actor: "Training Coordinator"
-      action: "Develop training program for safety technology usage"
-      tools: ["Training development software", "Safety procedure manuals"]
-      duration: "3 weeks"
-      outputs: ["Training program materials", "Certification requirements"]
-    - step: 6
-      actor: "Safety Manager"
-      action: "Deploy safety system and monitor implementation"
-      tools: ["Deployment checklists", "Performance monitoring dashboards"]
-      duration: "Ongoing"
-      outputs: ["Deployment reports", "Safety improvement metrics"]
-  success_criteria: "Successful implementation with measurable reduction in safety incidents and improved worker protection"
-  failure_modes: ["Equipment reliability issues", "Worker resistance to technology", "Integration with existing systems", "Inadequate training"]
+  - step: 1
+    actor: Safety Manager
+    action: Conduct safety risk assessment and identify technology needs
+    tools:
+    - Risk assessment frameworks
+    - Safety incident databases
+    duration: 3 weeks
+    outputs:
+    - Risk assessment report
+    - Technology requirements specification
+  - step: 2
+    actor: IT Specialist
+    action: Design integrated safety monitoring system
+    tools:
+    - IoT platform design tools
+    - Wearable device specifications
+    duration: 4 weeks
+    outputs:
+    - System architecture design
+    - Device integration plan
+  - step: 3
+    actor: Equipment Engineer
+    action: Select and procure safety technology equipment
+    tools:
+    - Safety equipment catalogs
+    - Vendor evaluation criteria
+    duration: 3 weeks
+    outputs:
+    - Equipment procurement plan
+    - Safety device specifications
+  - step: 4
+    actor: Worker Representatives
+    action: Provide input on equipment usability and worker acceptance
+    tools:
+    - Worker feedback surveys
+    - Usability testing protocols
+    duration: 2 weeks
+    outputs:
+    - Worker acceptance assessment
+    - Equipment modification recommendations
+  - step: 5
+    actor: Training Coordinator
+    action: Develop training program for safety technology usage
+    tools:
+    - Training development software
+    - Safety procedure manuals
+    duration: 3 weeks
+    outputs:
+    - Training program materials
+    - Certification requirements
+  - step: 6
+    actor: Safety Manager
+    action: Deploy safety system and monitor implementation
+    tools:
+    - Deployment checklists
+    - Performance monitoring dashboards
+    duration: Ongoing
+    outputs:
+    - Deployment reports
+    - Safety improvement metrics
+  success_criteria: Successful implementation with measurable reduction in safety
+    incidents and improved worker protection
+  failure_modes:
+  - Equipment reliability issues
+  - Worker resistance to technology
+  - Integration with existing systems
+  - Inadequate training
   metrics:
-    - "Safety incident reduction: Target 25% decrease in incidents"
-    - "Equipment utilization: Target 90% daily usage rate"
-    - "Worker compliance: Target 95% adherence to safety protocols"
-    - "Response time improvement: Target 40% faster emergency response"
-    - "Training completion: Target 100% workforce certification"
+  - 'Safety incident reduction: Target 25% decrease in incidents'
+  - 'Equipment utilization: Target 90% daily usage rate'
+  - 'Worker compliance: Target 95% adherence to safety protocols'
+  - 'Response time improvement: Target 40% faster emergency response'
+  - 'Training completion: Target 100% workforce certification'

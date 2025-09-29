@@ -1,47 +1,83 @@
 workflow:
-  id: "workflow_mining_resource_001"
-  title: "Mining Resource Optimization Process"
-  department: "Operations"
-  complexity: "high"
-  participants: ["Chief Mining Engineer", "Geologist", "Operations Manager", "Environmental Officer", "Finance Analyst"]
-  trigger: "Quarterly resource assessment or market price changes"
+  id: workflow_mining_resource_001
+  title: Mining Resource Optimization Process
+  department: Operations
+  complexity: high
+  participants:
+  - Chief Mining Engineer
+  - Geologist
+  - Operations Manager
+  - Environmental Officer
+  - Finance Analyst
+  trigger: Quarterly resource assessment or market price changes
   steps:
-    - step: 1
-      actor: "Geologist"
-      action: "Conduct geological survey and resource sampling"
-      tools: ["Geological software", "Drilling equipment", "Lab analysis"]
-      duration: "2 weeks"
-      outputs: ["Resource quality report", "Reserve estimates"]
-    - step: 2
-      actor: "Chief Mining Engineer"
-      action: "Analyze extraction feasibility and equipment requirements"
-      decision_points: ["Mining method selection", "Equipment investment needs"]
-      tools: ["Mining simulation software", "Cost modeling tools"]
-      duration: "1 week"
-      outputs: ["Feasibility study", "Equipment recommendations"]
-    - step: 3
-      actor: "Operations Manager"
-      action: "Develop production schedule and staffing plan"
-      tools: ["Production planning software", "HR systems"]
-      duration: "3 days"
-      outputs: ["Production schedule", "Staffing requirements"]
-    - step: 4
-      actor: "Environmental Officer"
-      action: "Assess environmental impact and compliance requirements"
-      tools: ["Environmental assessment software", "Regulatory databases"]
-      duration: "1 week"
-      outputs: ["Environmental impact report", "Compliance checklist"]
-    - step: 5
-      actor: "Finance Analyst"
-      action: "Perform cost-benefit analysis and ROI calculations"
-      tools: ["Financial modeling software", "Market data platforms"]
-      duration: "5 days"
-      outputs: ["Financial analysis report", "ROI projections"]
-    - step: 6
-      actor: "Operations Manager"
-      action: "Present optimization plan to executive committee"
-      tools: ["Presentation software", "Executive dashboard"]
-      duration: "2 hours"
-      outputs: ["Executive presentation", "Decision recommendations"]
-  success_criteria: "Resource utilization increased by 15%, costs reduced by 10%"
-  failure_modes: ["Inaccurate geological data", "Equipment failure", "Regulatory non-compliance", "Market price volatility"]
+  - step: 1
+    actor: Geologist
+    action: Conduct geological survey and resource sampling
+    tools:
+    - Geological software
+    - Drilling equipment
+    - Lab analysis
+    duration: 2 weeks
+    outputs:
+    - Resource quality report
+    - Reserve estimates
+  - step: 2
+    actor: Chief Mining Engineer
+    action: Analyze extraction feasibility and equipment requirements
+    decision_points:
+    - Mining method selection
+    - Equipment investment needs
+    tools:
+    - Mining simulation software
+    - Cost modeling tools
+    duration: 1 week
+    outputs:
+    - Feasibility study
+    - Equipment recommendations
+  - step: 3
+    actor: Operations Manager
+    action: Develop production schedule and staffing plan
+    tools:
+    - Production planning software
+    - HR systems
+    duration: 3 days
+    outputs:
+    - Production schedule
+    - Staffing requirements
+  - step: 4
+    actor: Environmental Officer
+    action: Assess environmental impact and compliance requirements
+    tools:
+    - Environmental assessment software
+    - Regulatory databases
+    duration: 1 week
+    outputs:
+    - Environmental impact report
+    - Compliance checklist
+  - step: 5
+    actor: Finance Analyst
+    action: Perform cost-benefit analysis and ROI calculations
+    tools:
+    - Financial modeling software
+    - Market data platforms
+    duration: 5 days
+    outputs:
+    - Financial analysis report
+    - ROI projections
+  - step: 6
+    actor: Operations Manager
+    action: Present optimization plan to executive committee
+    tools:
+    - Presentation software
+    - Executive dashboard
+    duration: 2 hours
+    outputs:
+    - Executive presentation
+    - Decision recommendations
+  success_criteria: Resource utilization increased by 15%, costs reduced by 10%
+  failure_modes:
+  - Inaccurate geological data
+  - Equipment failure
+  - Regulatory non-compliance
+  - Market price volatility

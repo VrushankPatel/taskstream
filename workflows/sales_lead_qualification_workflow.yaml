@@ -1,45 +1,77 @@
 workflow:
-  id: "workflow_sales_lead_qualification"
-  title: "Sales Lead Qualification Process"
-  department: "Sales"
-  complexity: "medium"
-  participants: ["Sales Development Representative", "Account Executive", "Sales Manager", "Marketing Manager"]
-  trigger: "New lead enters CRM from marketing campaign or inbound inquiry"
+  id: workflow_sales_lead_qualification
+  title: Sales Lead Qualification Process
+  department: Sales
+  complexity: medium
+  participants:
+  - Sales Development Representative
+  - Account Executive
+  - Sales Manager
+  - Marketing Manager
+  trigger: New lead enters CRM from marketing campaign or inbound inquiry
   steps:
-    - step: 1
-      actor: "Sales Development Representative"
-      action: "Initial lead review and data enrichment using LinkedIn, company website, and CRM data"
-      tools: ["CRM system", "LinkedIn Sales Navigator", "ZoomInfo"]
-      duration: "30 minutes"
-      outputs: ["Enriched lead profile with contact details, company info, and initial qualification notes"]
-    - step: 2
-      actor: "Sales Development Representative"
-      action: "Conduct initial outreach via email and phone to confirm interest and gather requirements"
-      tools: ["Email platform", "Dialer system", "CRM"]
-      duration: "2-3 business days"
-      outputs: ["Lead response status, initial discovery notes, meeting scheduled if qualified"]
-    - step: 3
-      actor: "Account Executive"
-      action: "Perform detailed qualification assessment using BANT criteria (Budget, Authority, Need, Timeline)"
-      tools: ["Qualification scorecard", "CRM", "Proposal templates"]
-      duration: "45 minutes"
-      outputs: ["BANT qualification score, lead status (Qualified/MQL/SQL), next steps defined"]
-    - step: 4
-      actor: "Sales Manager"
-      action: "Review qualified leads and assign to appropriate Account Executive based on territory and expertise"
-      tools: ["CRM dashboard", "Salesforce reports"]
-      duration: "1 hour weekly"
-      outputs: ["Lead assignment, territory alignment, handoff documentation"]
-    - step: 5
-      actor: "Marketing Manager"
-      action: "Analyze disqualified leads for marketing campaign optimization and lead scoring model refinement"
-      tools: ["Marketing analytics platform", "Lead scoring algorithm"]
-      duration: "2 hours weekly"
-      outputs: ["Lead quality insights, campaign performance report, scoring model updates"]
-  success_criteria: "80% of qualified leads convert to opportunities within 30 days"
-  failure_modes: ["Poor lead data quality", "Inconsistent qualification criteria", "Slow response times", "Lack of follow-up on hot leads"]
+  - step: 1
+    actor: Sales Development Representative
+    action: Initial lead review and data enrichment using LinkedIn, company website,
+      and CRM data
+    tools:
+    - CRM system
+    - LinkedIn Sales Navigator
+    - ZoomInfo
+    duration: 30 minutes
+    outputs:
+    - Enriched lead profile with contact details, company info, and initial qualification
+      notes
+  - step: 2
+    actor: Sales Development Representative
+    action: Conduct initial outreach via email and phone to confirm interest and gather
+      requirements
+    tools:
+    - Email platform
+    - Dialer system
+    - CRM
+    duration: 2-3 business days
+    outputs:
+    - Lead response status, initial discovery notes, meeting scheduled if qualified
+  - step: 3
+    actor: Account Executive
+    action: Perform detailed qualification assessment using BANT criteria (Budget,
+      Authority, Need, Timeline)
+    tools:
+    - Qualification scorecard
+    - CRM
+    - Proposal templates
+    duration: 45 minutes
+    outputs:
+    - BANT qualification score, lead status (Qualified/MQL/SQL), next steps defined
+  - step: 4
+    actor: Sales Manager
+    action: Review qualified leads and assign to appropriate Account Executive based
+      on territory and expertise
+    tools:
+    - CRM dashboard
+    - Salesforce reports
+    duration: 1 hour weekly
+    outputs:
+    - Lead assignment, territory alignment, handoff documentation
+  - step: 5
+    actor: Marketing Manager
+    action: Analyze disqualified leads for marketing campaign optimization and lead
+      scoring model refinement
+    tools:
+    - Marketing analytics platform
+    - Lead scoring algorithm
+    duration: 2 hours weekly
+    outputs:
+    - Lead quality insights, campaign performance report, scoring model updates
+  success_criteria: 80% of qualified leads convert to opportunities within 30 days
+  failure_modes:
+  - Poor lead data quality
+  - Inconsistent qualification criteria
+  - Slow response times
+  - Lack of follow-up on hot leads
   metrics:
-    - "Lead Response Time: Target < 5 minutes for hot leads"
-    - "Qualification Rate: Target 60% of inbound leads qualified"
-    - "Conversion Rate: Target 25% of SQLs to closed deals"
-    - "Lead Score Accuracy: Target 85% alignment with actual conversions"
+  - 'Lead Response Time: Target < 5 minutes for hot leads'
+  - 'Qualification Rate: Target 60% of inbound leads qualified'
+  - 'Conversion Rate: Target 25% of SQLs to closed deals'
+  - 'Lead Score Accuracy: Target 85% alignment with actual conversions'

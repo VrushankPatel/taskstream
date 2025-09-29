@@ -3,8 +3,16 @@
   "context": "Commercial real estate firm evaluating LEED certification for new office building development",
   "stakeholders": {
     "requester": "VP Development",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["Property Manager", "Tenant Relations Manager", "Environmental Consultant"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Sustainability Officer"
+    ],
+    "influencers": [
+      "Property Manager",
+      "Tenant Relations Manager",
+      "Environmental Consultant"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +24,49 @@
     {
       "stage": "feasibility_analysis",
       "duration": "2 weeks",
-      "activities": ["Cost-benefit analysis", "Market research on green premiums", "Technical feasibility study"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Market research on green premiums",
+        "Technical feasibility study"
+      ],
       "outcome": "Proceed to detailed planning"
     },
     {
       "stage": "stakeholder_review",
       "duration": "1 week",
-      "activities": ["Executive committee presentation", "Tenant impact assessment", "ROI modeling"],
+      "activities": [
+        "Executive committee presentation",
+        "Tenant impact assessment",
+        "ROI modeling"
+      ],
       "outcome": "Approved with modifications"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Contractor selection", "Timeline development", "Budget allocation"],
+      "activities": [
+        "Contractor selection",
+        "Timeline development",
+        "Budget allocation"
+      ],
       "outcome": "Full approval granted"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% increase in rental rates, enhanced brand reputation",
     "projected_value": "$500,000 annual revenue increase",
-    "risk_factors": ["Construction delays", "Cost overruns", "Market demand uncertainty"]
+    "risk_factors": [
+      "Construction delays",
+      "Cost overruns",
+      "Market demand uncertainty"
+    ]
   },
-  "decision_criteria": ["Financial ROI >10%", "Market demand validation", "Technical feasibility", "Stakeholder alignment"],
+  "decision_criteria": [
+    "Financial ROI >10%",
+    "Market demand validation",
+    "Technical feasibility",
+    "Stakeholder alignment"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement crucial for sustainability initiatives, detailed ROI modeling improves decision confidence"
 }

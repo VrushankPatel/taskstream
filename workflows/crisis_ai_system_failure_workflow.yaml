@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_crisis_ai_system_failure"
-  title: "AI System Failure Crisis Response"
-  department: "IT Operations & Crisis Management"
-  complexity: "high"
-  participants: ["Crisis Management Lead", "IT Director", "AI Ethics Officer", "Communications Director", "Legal Counsel"]
-  trigger: "Critical AI system failure affecting customer operations or safety"
+  id: workflow_crisis_ai_system_failure
+  title: AI System Failure Crisis Response
+  department: IT Operations & Crisis Management
+  complexity: high
+  participants:
+  - Crisis Management Lead
+  - IT Director
+  - AI Ethics Officer
+  - Communications Director
+  - Legal Counsel
+  trigger: Critical AI system failure affecting customer operations or safety
   steps:
-    - step: 1
-      actor: "Crisis Management Lead"
-      action: "Activate crisis response team and assess failure impact"
-      tools: ["Crisis management platform", "Incident tracking system"]
-      duration: "30 minutes"
-      outputs: ["Crisis activation notification", "Initial impact assessment"]
-    - step: 2
-      actor: "IT Director"
-      action: "Isolate affected systems and implement emergency protocols"
-      tools: ["System monitoring tools", "Failover systems", "Backup procedures"]
-      duration: "2 hours"
-      outputs: ["System isolation report", "Emergency protocol activation"]
-    - step: 3
-      actor: "AI Ethics Officer"
-      action: "Evaluate ethical implications and data privacy concerns"
-      tools: ["Ethics assessment framework", "Privacy impact analysis tools"]
-      duration: "4 hours"
-      outputs: ["Ethics impact assessment", "Privacy breach evaluation"]
-    - step: 4
-      actor: "Communications Director"
-      action: "Prepare stakeholder communications and media response"
-      tools: ["Crisis communications templates", "Media monitoring tools"]
-      duration: "2 hours"
-      outputs: ["Stakeholder communication plan", "Media response strategy"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Assess regulatory reporting requirements and liability exposure"
-      tools: ["Regulatory compliance databases", "Legal risk assessment tools"]
-      duration: "6 hours"
-      outputs: ["Regulatory notification requirements", "Liability assessment"]
-    - step: 6
-      actor: "Crisis Management Lead"
-      action: "Coordinate recovery efforts and implement preventive measures"
-      tools: ["Recovery planning frameworks", "Root cause analysis tools"]
-      duration: "48 hours"
-      outputs: ["Recovery plan", "Preventive measures implementation"]
-  success_criteria: "System restoration within SLA limits and minimal stakeholder impact"
-  failure_modes: ["Delayed response activation", "Inadequate communication", "Insufficient preventive measures"]
+  - step: 1
+    actor: Crisis Management Lead
+    action: Activate crisis response team and assess failure impact
+    tools:
+    - Crisis management platform
+    - Incident tracking system
+    duration: 30 minutes
+    outputs:
+    - Crisis activation notification
+    - Initial impact assessment
+  - step: 2
+    actor: IT Director
+    action: Isolate affected systems and implement emergency protocols
+    tools:
+    - System monitoring tools
+    - Failover systems
+    - Backup procedures
+    duration: 2 hours
+    outputs:
+    - System isolation report
+    - Emergency protocol activation
+  - step: 3
+    actor: AI Ethics Officer
+    action: Evaluate ethical implications and data privacy concerns
+    tools:
+    - Ethics assessment framework
+    - Privacy impact analysis tools
+    duration: 4 hours
+    outputs:
+    - Ethics impact assessment
+    - Privacy breach evaluation
+  - step: 4
+    actor: Communications Director
+    action: Prepare stakeholder communications and media response
+    tools:
+    - Crisis communications templates
+    - Media monitoring tools
+    duration: 2 hours
+    outputs:
+    - Stakeholder communication plan
+    - Media response strategy
+  - step: 5
+    actor: Legal Counsel
+    action: Assess regulatory reporting requirements and liability exposure
+    tools:
+    - Regulatory compliance databases
+    - Legal risk assessment tools
+    duration: 6 hours
+    outputs:
+    - Regulatory notification requirements
+    - Liability assessment
+  - step: 6
+    actor: Crisis Management Lead
+    action: Coordinate recovery efforts and implement preventive measures
+    tools:
+    - Recovery planning frameworks
+    - Root cause analysis tools
+    duration: 48 hours
+    outputs:
+    - Recovery plan
+    - Preventive measures implementation
+  success_criteria: System restoration within SLA limits and minimal stakeholder impact
+  failure_modes:
+  - Delayed response activation
+  - Inadequate communication
+  - Insufficient preventive measures

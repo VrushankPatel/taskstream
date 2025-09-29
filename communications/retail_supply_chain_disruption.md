@@ -1,8 +1,8 @@
 ## Communication Thread: Retail Supply Chain Crisis Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Vendor Partners  
-**Subject:** Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Vendor Partners
+**Subject:** Urgent: Supply Chain Disruption - Immediate Response Required
 
 Team,
 
@@ -21,15 +21,15 @@ I'm writing to inform you of a critical supply chain disruption affecting our pr
 
 Please respond with your team's readiness status and any additional support needs.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
+Best,
+Sarah Chen
+Supply Chain Director
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team, Store Managers, Vendor Partners  
-**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** CEO
+**To:** Executive Leadership Team, Store Managers, Vendor Partners
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required
 
 Sarah,
 
@@ -48,15 +48,15 @@ Thank you for the swift notification. This is a high-priority issue that require
 
 Let's maintain transparency with our customers and partners throughout this process.
 
-Regards,  
-Michael Rodriguez  
-CEO  
+Regards,
+Michael Rodriguez
+CEO
 
 ---
 
-**From:** Store Operations Manager  
-**To:** Executive Leadership Team, Store Managers  
-**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** Store Operations Manager
+**To:** Executive Leadership Team, Store Managers
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required
 
 Michael and team,
 
@@ -75,15 +75,15 @@ Our store network is mobilizing effectively. Key updates:
 
 We're confident in our ability to minimize customer impact.
 
-Best,  
-Jennifer Walsh  
-Store Operations Manager  
+Best,
+Jennifer Walsh
+Store Operations Manager
 
 ---
 
-**From:** Marketing Director  
-**To:** Executive Leadership Team, Store Managers, Customer Service Team  
-**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** Marketing Director
+**To:** Executive Leadership Team, Store Managers, Customer Service Team
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required
 
 Following up on the crisis response plan:
 
@@ -101,15 +101,15 @@ Following up on the crisis response plan:
 
 Campaign performance will be monitored hourly.
 
-Regards,  
-David Park  
-Marketing Director  
+Regards,
+David Park
+Marketing Director
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Store Managers, Vendor Partners  
-**Subject:** Update: Supply Chain Disruption Recovery Progress  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Store Managers, Vendor Partners
+**Subject:** Update: Supply Chain Disruption Recovery Progress
 
 **Recovery Update:**
 - Primary shipments now en route, arrival expected tomorrow
@@ -128,15 +128,15 @@ Marketing Director
 
 Thank you for the coordinated response. Our team's resilience is commendable.
 
-Best,  
-Sarah Chen  
+Best,
+Sarah Chen
 Supply Chain Director
 
 ---
 
-**From:** Customer Service Director  
-**To:** Executive Leadership Team, Store Managers  
-**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** Customer Service Director
+**To:** Executive Leadership Team, Store Managers
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required
 
 Team,
 
@@ -161,15 +161,15 @@ Customer service lines are experiencing increased volume. Current status:
 
 We're maintaining service levels despite the increased load.
 
-Regards,  
-Lisa Thompson  
+Regards,
+Lisa Thompson
 Customer Service Director
 
 ---
 
-**From:** Vendor Partner  
-**To:** Supply Chain Director, CEO  
-**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required  
+**From:** Vendor Partner
+**To:** Supply Chain Director, CEO
+**Subject:** Re: Urgent: Supply Chain Disruption - Immediate Response Required
 
 Dear Sarah and Michael,
 
@@ -188,7 +188,7 @@ We appreciate the notification and are committed to supporting your recovery.
 
 Please let us know if additional support is needed.
 
-Best regards,  
-Robert Kim  
-Account Director  
+Best regards,
+Robert Kim
+Account Director
 Global Supply Partners

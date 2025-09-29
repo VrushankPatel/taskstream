@@ -3,8 +3,15 @@
   "context": "E-commerce platform, 150 employees, planning migration from legacy monolithic system to microservices architecture",
   "stakeholders": {
     "requester": "CTO",
-    "approvers": ["CEO", "CFO"],
-    "influencers": ["VP Engineering", "VP Product", "Head of DevOps"]
+    "approvers": [
+      "CEO",
+      "CFO"
+    ],
+    "influencers": [
+      "VP Engineering",
+      "VP Product",
+      "Head of DevOps"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,25 +23,45 @@
     {
       "stage": "technical_assessment",
       "duration": "3 weeks",
-      "activities": ["Architecture review", "Vendor evaluation", "Cost-benefit analysis"],
+      "activities": [
+        "Architecture review",
+        "Vendor evaluation",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Microservices migration recommended with AWS cloud platform"
     },
     {
       "stage": "business_case_development",
       "duration": "2 weeks",
-      "activities": ["ROI modeling", "Risk assessment", "Resource planning"],
+      "activities": [
+        "ROI modeling",
+        "Risk assessment",
+        "Resource planning"
+      ],
       "outcome": "Projected 60% reduction in downtime, 25% cost savings over 3 years"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "1 week",
-      "activities": ["Executive presentations", "Team consultations", "Vendor negotiations"],
+      "activities": [
+        "Executive presentations",
+        "Team consultations",
+        "Vendor negotiations"
+      ],
       "outcome": "Full leadership support secured, migration approved with phased approach"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["99.9% uptime", "50% faster feature deployment", "30% reduction in infrastructure costs"],
+    "expected_outcomes": [
+      "99.9% uptime",
+      "50% faster feature deployment",
+      "30% reduction in infrastructure costs"
+    ],
     "projected_revenue": "$75M additional revenue from improved reliability",
-    "risk_factors": ["Migration complexity", "Team training requirements", "Potential service disruptions during transition"]
+    "risk_factors": [
+      "Migration complexity",
+      "Team training requirements",
+      "Potential service disruptions during transition"
+    ]
   }
 }

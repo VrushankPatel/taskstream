@@ -3,8 +3,17 @@
   "context": "Traditional automotive manufacturer evaluating investment in electric vehicle platform development to compete in growing EV market, facing pressure from new EV-only competitors and regulatory requirements",
   "stakeholders": {
     "requester": "VP Electric Vehicle Division",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Engineering Directors", "Supply Chain VP", "Sales & Marketing VP", "Regulatory Affairs"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Engineering Directors",
+      "Supply Chain VP",
+      "Sales & Marketing VP",
+      "Regulatory Affairs"
+    ]
   },
   "request": {
     "amount": "$2,800,000,000",
@@ -16,47 +25,92 @@
     {
       "stage": "market_analysis",
       "duration": "6 weeks",
-      "activities": ["EV market sizing and forecasting", "Competitive analysis", "Customer research", "Regulatory requirement assessment"],
+      "activities": [
+        "EV market sizing and forecasting",
+        "Competitive analysis",
+        "Customer research",
+        "Regulatory requirement assessment"
+      ],
       "outcome": "Identified $180B global EV market opportunity with 25% CAGR"
     },
     {
       "stage": "technical_feasibility",
       "duration": "8 weeks",
-      "activities": ["Platform architecture design", "Battery technology evaluation", "Manufacturing capability assessment", "Supplier qualification"],
+      "activities": [
+        "Platform architecture design",
+        "Battery technology evaluation",
+        "Manufacturing capability assessment",
+        "Supplier qualification"
+      ],
       "outcome": "Feasible with 24-month development timeline leveraging existing engineering expertise"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost structure analysis", "Revenue projections", "ROI calculations", "Sensitivity analysis", "Funding strategy"],
+      "activities": [
+        "Cost structure analysis",
+        "Revenue projections",
+        "ROI calculations",
+        "Sensitivity analysis",
+        "Funding strategy"
+      ],
       "outcome": "Projected 18% IRR with break-even in year 4"
     },
     {
       "stage": "supply_chain_assessment",
       "duration": "6 weeks",
-      "activities": ["Battery supplier negotiations", "Critical material sourcing", "Logistics planning", "Risk mitigation strategies"],
+      "activities": [
+        "Battery supplier negotiations",
+        "Critical material sourcing",
+        "Logistics planning",
+        "Risk mitigation strategies"
+      ],
       "outcome": "Secured preliminary agreements with key battery suppliers"
     },
     {
       "stage": "regulatory_strategy",
       "duration": "4 weeks",
-      "activities": ["Emission standard compliance", "Incentive program qualification", "International market requirements"],
+      "activities": [
+        "Emission standard compliance",
+        "Incentive program qualification",
+        "International market requirements"
+      ],
       "outcome": "Platform designed to meet 2025 emission standards and qualify for $7,500 tax credits"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Investor roadshow", "Final investment committee approval"],
+      "activities": [
+        "Board presentation",
+        "Investor roadshow",
+        "Final investment committee approval"
+      ],
       "outcome": "Approved with phased investment approach and performance milestones"
     }
   ],
   "business_impact": {
     "expected_outcome": "Launch 3 EV models by 2028, capture 8% EV market share, achieve carbon neutrality by 2040",
     "projected_value": "$12,000,000,000 in cumulative revenue over 10 years",
-    "risk_factors": ["Technology development delays", "Battery cost volatility", "Charging infrastructure limitations", "Competition from established EV manufacturers"],
-    "strategic_benefits": ["Future-proofing against ICE phase-out", "Access to government incentives", "Enhanced brand reputation for sustainability", "New revenue streams from battery technology licensing"]
+    "risk_factors": [
+      "Technology development delays",
+      "Battery cost volatility",
+      "Charging infrastructure limitations",
+      "Competition from established EV manufacturers"
+    ],
+    "strategic_benefits": [
+      "Future-proofing against ICE phase-out",
+      "Access to government incentives",
+      "Enhanced brand reputation for sustainability",
+      "New revenue streams from battery technology licensing"
+    ]
   },
-  "decision_criteria": ["Market opportunity >$100B", "Technical feasibility confirmed", "Financial returns >15% IRR", "Regulatory compliance achievable", "Supply chain secured"],
+  "decision_criteria": [
+    "Market opportunity >$100B",
+    "Technical feasibility confirmed",
+    "Financial returns >15% IRR",
+    "Regulatory compliance achievable",
+    "Supply chain secured"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Cross-functional collaboration essential for complex platform development, early supplier engagement critical for supply chain security"
 }

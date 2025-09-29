@@ -1,44 +1,73 @@
 workflow:
-  id: "workflow_insurance_catastrophe_response"
-  title: "Insurance Catastrophe Response and Claims Management"
-  department: "Claims Operations"
-  complexity: "complex"
-  participants: ["Claims Manager", "Catastrophe Response Team", "Underwriters", "Legal Counsel", "Customer Service"]
-  trigger: "Major disaster event affecting policyholders (hurricane, earthquake, flood)"
+  id: workflow_insurance_catastrophe_response
+  title: Insurance Catastrophe Response and Claims Management
+  department: Claims Operations
+  complexity: complex
+  participants:
+  - Claims Manager
+  - Catastrophe Response Team
+  - Underwriters
+  - Legal Counsel
+  - Customer Service
+  trigger: Major disaster event affecting policyholders (hurricane, earthquake, flood)
   steps:
-    - step: 1
-      actor: "Claims Manager"
-      action: "Activate catastrophe response protocol and assess initial impact"
-      tools: ["Catastrophe Management System", "Weather Data APIs"]
-      duration: "4 hours"
-      outputs: ["Response plan activated", "Initial damage assessment"]
-    - step: 2
-      actor: "Catastrophe Response Team"
-      action: "Deploy field adjusters and establish command center"
-      tools: ["Mobile Claims Apps", "Satellite Communications"]
-      duration: "24 hours"
-      outputs: ["Field teams deployed", "Emergency contact protocols"]
-    - step: 3
-      actor: "Underwriters"
-      action: "Review policy coverage and set claim processing guidelines"
-      tools: ["Policy Management System", "Actuarial Models"]
-      duration: "48 hours"
-      outputs: ["Coverage determinations", "Claim processing rules"]
-    - step: 4
-      actor: "Customer Service"
-      action: "Establish emergency communication channels and claim intake"
-      tools: ["Customer Portal", "Call Center Systems"]
-      duration: "Ongoing"
-      outputs: ["Claim filing portals", "Status updates"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Monitor regulatory compliance and coordinate with authorities"
-      tools: ["Legal Database", "Regulatory Reporting Systems"]
-      duration: "Throughout event"
-      outputs: ["Compliance reports", "Legal risk assessments"]
-  success_criteria: "All valid claims processed within regulatory timelines with minimal fraud"
-  failure_modes: ["Delayed response causing policyholder dissatisfaction", "Inadequate field resources", "Regulatory non-compliance"]
+  - step: 1
+    actor: Claims Manager
+    action: Activate catastrophe response protocol and assess initial impact
+    tools:
+    - Catastrophe Management System
+    - Weather Data APIs
+    duration: 4 hours
+    outputs:
+    - Response plan activated
+    - Initial damage assessment
+  - step: 2
+    actor: Catastrophe Response Team
+    action: Deploy field adjusters and establish command center
+    tools:
+    - Mobile Claims Apps
+    - Satellite Communications
+    duration: 24 hours
+    outputs:
+    - Field teams deployed
+    - Emergency contact protocols
+  - step: 3
+    actor: Underwriters
+    action: Review policy coverage and set claim processing guidelines
+    tools:
+    - Policy Management System
+    - Actuarial Models
+    duration: 48 hours
+    outputs:
+    - Coverage determinations
+    - Claim processing rules
+  - step: 4
+    actor: Customer Service
+    action: Establish emergency communication channels and claim intake
+    tools:
+    - Customer Portal
+    - Call Center Systems
+    duration: Ongoing
+    outputs:
+    - Claim filing portals
+    - Status updates
+  - step: 5
+    actor: Legal Counsel
+    action: Monitor regulatory compliance and coordinate with authorities
+    tools:
+    - Legal Database
+    - Regulatory Reporting Systems
+    duration: Throughout event
+    outputs:
+    - Compliance reports
+    - Legal risk assessments
+  success_criteria: All valid claims processed within regulatory timelines with minimal
+    fraud
+  failure_modes:
+  - Delayed response causing policyholder dissatisfaction
+  - Inadequate field resources
+  - Regulatory non-compliance
   metrics:
-    - "Average claim processing time: Target 14 days"
-    - "Customer satisfaction score: Target 4.2/5"
-    - "Fraud detection rate: Target 98%"
+  - 'Average claim processing time: Target 14 days'
+  - 'Customer satisfaction score: Target 4.2/5'
+  - 'Fraud detection rate: Target 98%'

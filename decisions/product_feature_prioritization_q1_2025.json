@@ -3,11 +3,22 @@
   "context": "Mobile app company, 75 employees, planning Q1 feature development",
   "stakeholders": {
     "requester": "Product Manager",
-    "approvers": ["VP Product", "CTO"],
-    "influencers": ["Head of Design", "Engineering Lead", "Customer Success"]
+    "approvers": [
+      "VP Product",
+      "CTO"
+    ],
+    "influencers": [
+      "Head of Design",
+      "Engineering Lead",
+      "Customer Success"
+    ]
   },
   "request": {
-    "features": ["Advanced analytics dashboard", "Social sharing integration", "Offline mode"],
+    "features": [
+      "Advanced analytics dashboard",
+      "Social sharing integration",
+      "Offline mode"
+    ],
     "budget": "$200,000",
     "timeline": "3 months",
     "justification": "User feedback and market analysis"
@@ -16,20 +27,31 @@
     {
       "stage": "feature_backlog_review",
       "duration": "1 week",
-      "activities": ["User research review", "Competitive analysis", "Technical feasibility assessment"],
+      "activities": [
+        "User research review",
+        "Competitive analysis",
+        "Technical feasibility assessment"
+      ],
       "outcome": "Top 3 features identified"
     },
     {
       "stage": "stakeholder_workshop",
       "duration": "2 days",
-      "activities": ["Cross-functional prioritization", "Impact vs effort analysis", "Resource allocation"],
+      "activities": [
+        "Cross-functional prioritization",
+        "Impact vs effort analysis",
+        "Resource allocation"
+      ],
       "outcome": "Prioritized roadmap approved"
     }
   ],
   "business_impact": {
     "expected_users": 10000,
     "projected_revenue": "$150,000",
-    "risk_factors": ["Technical complexity", "Resource constraints"]
+    "risk_factors": [
+      "Technical complexity",
+      "Resource constraints"
+    ]
   },
   "decision_criteria": [
     "User impact score > 7/10",

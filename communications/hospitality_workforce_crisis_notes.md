@@ -1,10 +1,10 @@
 ## Meeting Notes: Hospitality Workforce Crisis Management
 
-**Date:** September 29, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Virtual Emergency Session  
-**Attendees:** CEO, CHRO, Regional General Managers (6), Department Heads (10), HR Business Partners (5), Union Representatives  
-**Facilitator:** CHRO  
+**Date:** September 29, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Virtual Emergency Session
+**Attendees:** CEO, CHRO, Regional General Managers (6), Department Heads (10), HR Business Partners (5), Union Representatives
+**Facilitator:** CHRO
 
 ### Crisis Assessment
 Hospitality sector facing acute labor shortages with 28% vacancy rate across all positions. Peak season impact: 40% service reduction, $22M monthly revenue loss, guest satisfaction at 3.2/5.

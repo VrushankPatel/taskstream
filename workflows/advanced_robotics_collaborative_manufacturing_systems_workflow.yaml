@@ -1,58 +1,112 @@
 workflow:
-  id: "workflow_advanced_robotics_collaborative_manufacturing"
-  title: "Advanced Robotics Collaborative Manufacturing Systems Integration"
-  department: "Manufacturing Operations"
-  complexity: "high"
-  participants: ["Manufacturing Director", "Robotics Engineer", "Safety Officer", "Production Manager", "IT Systems Administrator"]
-  trigger: "Decision to implement collaborative robotics for assembly line optimization"
+  id: workflow_advanced_robotics_collaborative_manufacturing
+  title: Advanced Robotics Collaborative Manufacturing Systems Integration
+  department: Manufacturing Operations
+  complexity: high
+  participants:
+  - Manufacturing Director
+  - Robotics Engineer
+  - Safety Officer
+  - Production Manager
+  - IT Systems Administrator
+  trigger: Decision to implement collaborative robotics for assembly line optimization
   steps:
-    - step: 1
-      actor: "Manufacturing Director"
-      action: "Conduct feasibility assessment and ROI analysis for collaborative robotics implementation"
-      tools: ["Financial modeling software", "Production data analytics", "Vendor proposals"]
-      duration: "4 weeks"
-      outputs: ["Feasibility report", "Budget requirements", "Implementation roadmap"]
-    - step: 2
-      actor: "Robotics Engineer"
-      action: "Design collaborative robot integration with existing manufacturing systems"
-      tools: ["CAD software", "Simulation tools", "Safety standards documentation"]
-      duration: "6 weeks"
-      outputs: ["System integration specifications", "Safety protocols", "Training requirements"]
-    - step: 3
-      actor: "Safety Officer"
-      action: "Perform comprehensive safety risk assessment and develop mitigation strategies"
-      tools: ["Risk assessment frameworks", "ISO safety standards", "Collaborative robot safety guidelines"]
-      duration: "3 weeks"
-      outputs: ["Safety risk assessment report", "Emergency stop procedures", "Personal protective equipment requirements"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Develop workforce transition plan and training programs for collaborative operations"
-      tools: ["Change management frameworks", "Training curriculum development tools", "Employee feedback systems"]
-      duration: "4 weeks"
-      outputs: ["Workforce transition plan", "Training materials", "Change management communication plan"]
-    - step: 5
-      actor: "IT Systems Administrator"
-      action: "Integrate collaborative robots with manufacturing execution systems and IoT infrastructure"
-      tools: ["MES software", "IoT platform", "Network security tools"]
-      duration: "5 weeks"
-      outputs: ["System integration documentation", "Network security protocols", "Data flow diagrams"]
-    - step: 6
-      actor: "Robotics Engineer"
-      action: "Conduct pilot testing and validation of collaborative manufacturing operations"
-      tools: ["Testing protocols", "Performance monitoring systems", "Quality control metrics"]
-      duration: "3 weeks"
-      outputs: ["Pilot test results", "Performance benchmarks", "Optimization recommendations"]
-    - step: 7
-      actor: "Production Manager"
-      action: "Execute full-scale rollout with continuous monitoring and adjustment"
-      tools: ["Production monitoring dashboards", "Quality management systems", "Continuous improvement frameworks"]
-      duration: "8 weeks"
-      outputs: ["Rollout completion report", "Performance metrics dashboard", "Lessons learned documentation"]
-  success_criteria: "Achieved 25% improvement in production efficiency with zero safety incidents"
-  failure_modes: ["Insufficient safety protocols leading to incidents", "Poor workforce adoption and resistance", "Technical integration failures with existing systems"]
+  - step: 1
+    actor: Manufacturing Director
+    action: Conduct feasibility assessment and ROI analysis for collaborative robotics
+      implementation
+    tools:
+    - Financial modeling software
+    - Production data analytics
+    - Vendor proposals
+    duration: 4 weeks
+    outputs:
+    - Feasibility report
+    - Budget requirements
+    - Implementation roadmap
+  - step: 2
+    actor: Robotics Engineer
+    action: Design collaborative robot integration with existing manufacturing systems
+    tools:
+    - CAD software
+    - Simulation tools
+    - Safety standards documentation
+    duration: 6 weeks
+    outputs:
+    - System integration specifications
+    - Safety protocols
+    - Training requirements
+  - step: 3
+    actor: Safety Officer
+    action: Perform comprehensive safety risk assessment and develop mitigation strategies
+    tools:
+    - Risk assessment frameworks
+    - ISO safety standards
+    - Collaborative robot safety guidelines
+    duration: 3 weeks
+    outputs:
+    - Safety risk assessment report
+    - Emergency stop procedures
+    - Personal protective equipment requirements
+  - step: 4
+    actor: Production Manager
+    action: Develop workforce transition plan and training programs for collaborative
+      operations
+    tools:
+    - Change management frameworks
+    - Training curriculum development tools
+    - Employee feedback systems
+    duration: 4 weeks
+    outputs:
+    - Workforce transition plan
+    - Training materials
+    - Change management communication plan
+  - step: 5
+    actor: IT Systems Administrator
+    action: Integrate collaborative robots with manufacturing execution systems and
+      IoT infrastructure
+    tools:
+    - MES software
+    - IoT platform
+    - Network security tools
+    duration: 5 weeks
+    outputs:
+    - System integration documentation
+    - Network security protocols
+    - Data flow diagrams
+  - step: 6
+    actor: Robotics Engineer
+    action: Conduct pilot testing and validation of collaborative manufacturing operations
+    tools:
+    - Testing protocols
+    - Performance monitoring systems
+    - Quality control metrics
+    duration: 3 weeks
+    outputs:
+    - Pilot test results
+    - Performance benchmarks
+    - Optimization recommendations
+  - step: 7
+    actor: Production Manager
+    action: Execute full-scale rollout with continuous monitoring and adjustment
+    tools:
+    - Production monitoring dashboards
+    - Quality management systems
+    - Continuous improvement frameworks
+    duration: 8 weeks
+    outputs:
+    - Rollout completion report
+    - Performance metrics dashboard
+    - Lessons learned documentation
+  success_criteria: Achieved 25% improvement in production efficiency with zero safety
+    incidents
+  failure_modes:
+  - Insufficient safety protocols leading to incidents
+  - Poor workforce adoption and resistance
+  - Technical integration failures with existing systems
   metrics:
-    - "Production efficiency improvement: Target 25% increase in throughput"
-    - "Safety incident rate: Target zero incidents during implementation"
-    - "ROI payback period: Target <24 months"
-    - "Workforce adoption rate: Target >90% positive operator feedback"
-    - "System integration uptime: Target >95% operational availability"
+  - 'Production efficiency improvement: Target 25% increase in throughput'
+  - 'Safety incident rate: Target zero incidents during implementation'
+  - 'ROI payback period: Target <24 months'
+  - 'Workforce adoption rate: Target >90% positive operator feedback'
+  - 'System integration uptime: Target >95% operational availability'

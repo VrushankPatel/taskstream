@@ -1,8 +1,8 @@
 ## Communication Type: Crisis Management Global Incident Response Announcement
 
-**From:** Chief Information Security Officer  
-**To:** Executive Leadership Team, Global Operations Heads, Communications Team  
-**Subject:** Global Cybersecurity Incident Response - Immediate Actions Required  
+**From:** Chief Information Security Officer
+**To:** Executive Leadership Team, Global Operations Heads, Communications Team
+**Subject:** Global Cybersecurity Incident Response - Immediate Actions Required
 
 Team,
 
@@ -50,5 +50,5 @@ I will provide regular updates as the situation develops. Please direct any imme
 
 **Confidentiality Notice:** This communication contains sensitive information. Please do not forward or discuss externally. All discussions must occur through secure channels.
 
-Best regards,  
+Best regards,
 Chief Information Security Officer

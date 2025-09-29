@@ -1,10 +1,10 @@
 ## Email Thread: Manufacturing Supply Chain Sustainability Initiative Launch
 
-**From:** Chief Supply Chain Officer  
-**To:** All Employees, Suppliers, Customers, Investors  
-**Subject:** Launch of Comprehensive Supply Chain Sustainability Program  
+**From:** Chief Supply Chain Officer
+**To:** All Employees, Suppliers, Customers, Investors
+**Subject:** Launch of Comprehensive Supply Chain Sustainability Program
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Stakeholders,
 
@@ -103,14 +103,14 @@ For questions about the initiative:
 
 We invite all stakeholders to join us in building a more sustainable future for manufacturing.
 
-Best regards,  
+Best regards,
 Chief Supply Chain Officer
 
 ---
 
-**From:** CEO  
-**To:** Chief Supply Chain Officer, Executive Team  
-**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program  
+**From:** CEO
+**To:** Chief Supply Chain Officer, Executive Team
+**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program
 
 This initiative perfectly aligns with our purpose and long-term strategy. The comprehensive approach and clear business case make this a winning program. The board fully supports this investment in our sustainable future.
 
@@ -125,9 +125,9 @@ CEO
 
 ---
 
-**From:** Chief Financial Officer  
-**To:** Chief Supply Chain Officer, CEO  
-**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program  
+**From:** Chief Financial Officer
+**To:** Chief Supply Chain Officer, CEO
+**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program
 
 The financial projections look solid with clear ROI. The $150M investment shows strong returns through cost savings and revenue growth. I've reviewed the supplier transition plan and the phased approach minimizes financial risk.
 
@@ -137,9 +137,9 @@ CFO
 
 ---
 
-**From:** Head of Supplier Relations  
-**To:** Chief Supply Chain Officer, CEO, CFO  
-**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program  
+**From:** Head of Supplier Relations
+**To:** Chief Supply Chain Officer, CEO, CFO
+**Subject:** Re: Launch of Comprehensive Supply Chain Sustainability Program
 
 The supplier engagement strategy is well thought out. We've already received positive responses from our key partners who see this as a market differentiator. The certification program will help us build stronger supplier relationships.
 

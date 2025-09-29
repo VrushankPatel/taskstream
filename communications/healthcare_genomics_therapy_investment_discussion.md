@@ -1,9 +1,9 @@
 ## Healthcare Genomics Gene Therapy Investment Discussion
 
-**From:** Chief Medical Officer  
-**To:** CEO, CFO, Board Medical Committee, VP Research & Development  
-**Subject:** Investment Proposal: Gene Therapy Clinical Development Program  
-**Date:** September 28, 2025  
+**From:** Chief Medical Officer
+**To:** CEO, CFO, Board Medical Committee, VP Research & Development
+**Subject:** Investment Proposal: Gene Therapy Clinical Development Program
+**Date:** September 28, 2025
 
 Dear Colleagues,
 
@@ -57,5 +57,5 @@ I recommend approval of this investment to establish our position as a leader in
 
 Please let me know if you need additional information or would like to discuss further. I propose scheduling a board presentation for October 15 to review detailed financials and clinical data.
 
-Best regards,  
+Best regards,
 Chief Medical Officer

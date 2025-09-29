@@ -1,9 +1,9 @@
 ## Q4 Business Review Meeting Notes
 
-**Date:** December 15, 2024  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A  
-**Attendees:** CEO, CFO, VP Sales, VP Marketing, VP Product, VP HR  
+**Date:** December 15, 2024
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A
+**Attendees:** CEO, CFO, VP Sales, VP Marketing, VP Product, VP HR
 
 ### Agenda
 1. Q4 Financial Performance Review
@@ -61,5 +61,5 @@
 ### Next Meeting
 January 15, 2025 - Q1 Kickoff Meeting
 
-**Meeting Facilitator:** CEO  
+**Meeting Facilitator:** CEO
 **Note Taker:** Executive Assistant

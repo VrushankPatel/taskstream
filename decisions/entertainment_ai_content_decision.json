@@ -3,8 +3,16 @@
   "context": "Major streaming platform with 200M subscribers, facing content production cost inflation",
   "stakeholders": {
     "requester": "Head of Content Strategy",
-    "approvers": ["Chief Content Officer", "CEO", "Board of Directors"],
-    "influencers": ["Chief Technology Officer", "Creative Directors", "Talent Agents"]
+    "approvers": [
+      "Chief Content Officer",
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Creative Directors",
+      "Talent Agents"
+    ]
   },
   "request": {
     "amount": "$300M",
@@ -16,25 +24,41 @@
     {
       "stage": "ai_capability_assessment",
       "duration": "4 months",
-      "activities": ["Technology evaluation", "Creative testing", "Quality benchmarks"],
+      "activities": [
+        "Technology evaluation",
+        "Creative testing",
+        "Quality benchmarks"
+      ],
       "outcome": "AI can generate 60% of scripted content with human oversight"
     },
     {
       "stage": "creative_integration",
       "duration": "3 months",
-      "activities": ["Writer collaboration models", "Style guide development", "Quality control processes"],
+      "activities": [
+        "Writer collaboration models",
+        "Style guide development",
+        "Quality control processes"
+      ],
       "outcome": "Hybrid human-AI workflow established with creative guardrails"
     },
     {
       "stage": "business_modeling",
       "duration": "2 months",
-      "activities": ["Cost analysis", "Revenue projections", "Audience acceptance studies"],
+      "activities": [
+        "Cost analysis",
+        "Revenue projections",
+        "Audience acceptance studies"
+      ],
       "outcome": "40% cost reduction, 25% increase in content output"
     }
   ],
   "business_impact": {
     "expected_content_volume": "500 hours annually",
     "projected_cost_savings": "$150M annually",
-    "risk_factors": ["Creative quality concerns", "Talent backlash", "Audience reception"]
+    "risk_factors": [
+      "Creative quality concerns",
+      "Talent backlash",
+      "Audience reception"
+    ]
   }
 }

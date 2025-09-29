@@ -1,57 +1,103 @@
 workflow:
-  id: "workflow_insurance_eu_compliance"
-  title: "EU Insurance Regulatory Compliance Process"
-  department: "Compliance"
-  complexity: "complex"
-  participants: ["Compliance Officer", "Legal Counsel", "Risk Manager", "Product Manager", "IT Security Specialist", "External Auditors"]
-  trigger: "New EU regulation implementation or annual compliance review"
+  id: workflow_insurance_eu_compliance
+  title: EU Insurance Regulatory Compliance Process
+  department: Compliance
+  complexity: complex
+  participants:
+  - Compliance Officer
+  - Legal Counsel
+  - Risk Manager
+  - Product Manager
+  - IT Security Specialist
+  - External Auditors
+  trigger: New EU regulation implementation or annual compliance review
   steps:
-    - step: 1
-      actor: "Compliance Officer"
-      action: "Monitor regulatory changes and assess impact on operations"
-      tools: ["Regulatory monitoring system", "Impact assessment templates", "Legal database"]
-      duration: "2 weeks"
-      outputs: ["Regulatory impact assessment", "Compliance gap analysis"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Review legal requirements and draft compliance procedures"
-      tools: ["Legal research platform", "Contract templates", "Policy drafting tools"]
-      duration: "3 weeks"
-      outputs: ["Compliance procedures", "Legal opinions"]
-    - step: 3
-      actor: "Risk Manager"
-      action: "Conduct risk assessment and implement controls"
-      tools: ["Risk assessment framework", "Control testing tools", "Risk register"]
-      duration: "2 weeks"
-      outputs: ["Risk mitigation plan", "Control procedures"]
-    - step: 4
-      actor: "Product Manager"
-      action: "Update product offerings to ensure regulatory compliance"
-      tools: ["Product management system", "Compliance checking tools", "Product documentation"]
-      duration: "4 weeks"
-      outputs: ["Updated product specifications", "Compliance certifications"]
-    - step: 5
-      actor: "IT Security Specialist"
-      action: "Implement technical controls and data protection measures"
-      tools: ["Security assessment tools", "GDPR compliance software", "Encryption systems"]
-      duration: "3 weeks"
-      outputs: ["Technical controls implementation", "Security audit reports"]
-    - step: 6
-      actor: "Compliance Officer"
-      action: "Conduct training and awareness programs"
-      tools: ["Training management system", "Compliance training modules", "Assessment tools"]
-      duration: "1 week"
-      outputs: ["Training completion records", "Awareness campaign materials"]
-    - step: 7
-      actor: "External Auditors"
-      action: "Perform independent compliance audit and validation"
-      tools: ["Audit checklist", "Sampling methodology", "Reporting templates"]
-      duration: "2 weeks"
-      outputs: ["Audit report", "Compliance certification"]
-  success_criteria: "100% compliance with EU regulations, zero material findings in audits, all staff trained within deadlines"
-  failure_modes: ["Regulatory changes not identified", "Inadequate control implementation", "Training not completed", "Audit failures"]
+  - step: 1
+    actor: Compliance Officer
+    action: Monitor regulatory changes and assess impact on operations
+    tools:
+    - Regulatory monitoring system
+    - Impact assessment templates
+    - Legal database
+    duration: 2 weeks
+    outputs:
+    - Regulatory impact assessment
+    - Compliance gap analysis
+  - step: 2
+    actor: Legal Counsel
+    action: Review legal requirements and draft compliance procedures
+    tools:
+    - Legal research platform
+    - Contract templates
+    - Policy drafting tools
+    duration: 3 weeks
+    outputs:
+    - Compliance procedures
+    - Legal opinions
+  - step: 3
+    actor: Risk Manager
+    action: Conduct risk assessment and implement controls
+    tools:
+    - Risk assessment framework
+    - Control testing tools
+    - Risk register
+    duration: 2 weeks
+    outputs:
+    - Risk mitigation plan
+    - Control procedures
+  - step: 4
+    actor: Product Manager
+    action: Update product offerings to ensure regulatory compliance
+    tools:
+    - Product management system
+    - Compliance checking tools
+    - Product documentation
+    duration: 4 weeks
+    outputs:
+    - Updated product specifications
+    - Compliance certifications
+  - step: 5
+    actor: IT Security Specialist
+    action: Implement technical controls and data protection measures
+    tools:
+    - Security assessment tools
+    - GDPR compliance software
+    - Encryption systems
+    duration: 3 weeks
+    outputs:
+    - Technical controls implementation
+    - Security audit reports
+  - step: 6
+    actor: Compliance Officer
+    action: Conduct training and awareness programs
+    tools:
+    - Training management system
+    - Compliance training modules
+    - Assessment tools
+    duration: 1 week
+    outputs:
+    - Training completion records
+    - Awareness campaign materials
+  - step: 7
+    actor: External Auditors
+    action: Perform independent compliance audit and validation
+    tools:
+    - Audit checklist
+    - Sampling methodology
+    - Reporting templates
+    duration: 2 weeks
+    outputs:
+    - Audit report
+    - Compliance certification
+  success_criteria: 100% compliance with EU regulations, zero material findings in
+    audits, all staff trained within deadlines
+  failure_modes:
+  - Regulatory changes not identified
+  - Inadequate control implementation
+  - Training not completed
+  - Audit failures
   metrics:
-    - "Compliance rate: 100% target"
-    - "Audit findings: 0 material issues target"
-    - "Training completion rate: 100% target"
-    - "Regulatory change response time: 30 days target"
+  - 'Compliance rate: 100% target'
+  - 'Audit findings: 0 material issues target'
+  - 'Training completion rate: 100% target'
+  - 'Regulatory change response time: 30 days target'

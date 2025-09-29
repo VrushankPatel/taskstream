@@ -1,14 +1,14 @@
 ## Announcement: Construction Modular Construction Adoption Program
 
-**From:** Construction Operations Director  
-**To:** All Construction Teams, Project Management, Procurement, Design Teams  
-**Subject:** Launch of Modular Construction Adoption Initiative - Building the Future Faster  
+**From:** Construction Operations Director
+**To:** All Construction Teams, Project Management, Procurement, Design Teams
+**Subject:** Launch of Modular Construction Adoption Initiative - Building the Future Faster
 
-**Date:** September 29, 2025  
+**Date:** September 29, 2025
 
-Team,  
+Team,
 
-I'm excited to announce the launch of our Modular Construction Adoption Program, a strategic initiative to transform our building delivery capabilities and maintain our competitive edge in the construction industry.  
+I'm excited to announce the launch of our Modular Construction Adoption Program, a strategic initiative to transform our building delivery capabilities and maintain our competitive edge in the construction industry.
 
 ### Program Overview
 - **Goal**: Achieve 40% of new projects using modular construction methods by 2028
@@ -62,11 +62,11 @@ I'm excited to announce the launch of our Modular Construction Adoption Program,
 - Quality satisfaction: 4.5/5 client rating
 - Team competency: 80% certified in modular methods
 
-For questions or to get involved, please contact the Modular Construction Team at modular@constructcorp.com.  
+For questions or to get involved, please contact the Modular Construction Team at modular@constructcorp.com.
 
-We're not just building structures - we're building the future of construction.  
+We're not just building structures - we're building the future of construction.
 
-Best regards,  
-Michael Thornton  
-Construction Operations Director  
+Best regards,
+Michael Thornton
+Construction Operations Director
 Michael.Thornton@constructcorp.com

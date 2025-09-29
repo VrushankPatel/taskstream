@@ -1,38 +1,57 @@
 workflow:
-  id: "workflow_hospitality_complaint_handling"
-  title: "Hospitality Guest Complaint Handling"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Services Manager", "Department Head"]
-  trigger: "Guest submits complaint via phone, email, or in-person"
+  id: workflow_hospitality_complaint_handling
+  title: Hospitality Guest Complaint Handling
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Guest Services Manager
+  - Department Head
+  trigger: Guest submits complaint via phone, email, or in-person
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Document complaint details and acknowledge guest concern"
-      tools: ["Complaint Log System", "Guest Profile Database"]
-      duration: "10 minutes"
-      outputs: ["Complaint Record"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Escalate to Guest Services Manager if required"
-      decision_points: ["Complaint severity", "Guest status"]
-      duration: "5 minutes"
-      outputs: ["Escalation Notification"]
-    - step: 3
-      actor: "Guest Services Manager"
-      action: "Investigate complaint and determine resolution"
-      tools: ["Property Management System", "Staff Communication Tools"]
-      duration: "30 minutes"
-      outputs: ["Resolution Plan"]
-    - step: 4
-      actor: "Guest Services Manager"
-      action: "Implement resolution and follow up with guest"
-      tools: ["Email System", "Phone"]
-      duration: "15 minutes"
-      outputs: ["Resolution Confirmation", "Follow-up Email"]
-  success_criteria: "Guest complaint resolved with documented satisfaction"
-  failure_modes: ["Delayed response time", "Inadequate resolution", "Poor follow-up"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Document complaint details and acknowledge guest concern
+    tools:
+    - Complaint Log System
+    - Guest Profile Database
+    duration: 10 minutes
+    outputs:
+    - Complaint Record
+  - step: 2
+    actor: Front Desk Agent
+    action: Escalate to Guest Services Manager if required
+    decision_points:
+    - Complaint severity
+    - Guest status
+    duration: 5 minutes
+    outputs:
+    - Escalation Notification
+  - step: 3
+    actor: Guest Services Manager
+    action: Investigate complaint and determine resolution
+    tools:
+    - Property Management System
+    - Staff Communication Tools
+    duration: 30 minutes
+    outputs:
+    - Resolution Plan
+  - step: 4
+    actor: Guest Services Manager
+    action: Implement resolution and follow up with guest
+    tools:
+    - Email System
+    - Phone
+    duration: 15 minutes
+    outputs:
+    - Resolution Confirmation
+    - Follow-up Email
+  success_criteria: Guest complaint resolved with documented satisfaction
+  failure_modes:
+  - Delayed response time
+  - Inadequate resolution
+  - Poor follow-up
   metrics:
-    - "Resolution within 24 hours: 90%"
-    - "Guest satisfaction improvement: 85%"
-    - "Escalation rate: 15%"
+  - 'Resolution within 24 hours: 90%'
+  - 'Guest satisfaction improvement: 85%'
+  - 'Escalation rate: 15%'

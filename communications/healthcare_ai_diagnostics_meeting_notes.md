@@ -1,15 +1,15 @@
 # AI Diagnostics Implementation Kickoff Meeting
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A, Medical Center  
-**Attendees:**  
-- Dr. Sarah Chen, Chief Medical Officer  
-- Dr. Michael Rodriguez, Radiology Department Chair  
-- Lisa Thompson, IT Director  
-- Robert Kim, AI Ethics Officer  
-- Jennifer Walsh, Patient Safety Coordinator  
-- External: Dr. Amanda Foster, AI Vendor Representative  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A, Medical Center
+**Attendees:**
+- Dr. Sarah Chen, Chief Medical Officer
+- Dr. Michael Rodriguez, Radiology Department Chair
+- Lisa Thompson, IT Director
+- Robert Kim, AI Ethics Officer
+- Jennifer Walsh, Patient Safety Coordinator
+- External: Dr. Amanda Foster, AI Vendor Representative
 
 ## Meeting Objectives
 - Review AI diagnostics pilot results

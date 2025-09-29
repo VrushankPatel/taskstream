@@ -1,65 +1,116 @@
 workflow:
-  id: "workflow_nonprofit_fundraising"
-  title: "Nonprofit Fundraising Campaign Management Process"
-  department: "Development/Fundraising"
-  complexity: "medium"
-  participants: ["Executive Director", "Development Director", "Campaign Manager", "Marketing Team", "Donor Relations", "Finance Team", "Program Staff", "Volunteers"]
-  trigger: "Annual budget planning, program expansion needs, or emergency funding requirements"
+  id: workflow_nonprofit_fundraising
+  title: Nonprofit Fundraising Campaign Management Process
+  department: Development/Fundraising
+  complexity: medium
+  participants:
+  - Executive Director
+  - Development Director
+  - Campaign Manager
+  - Marketing Team
+  - Donor Relations
+  - Finance Team
+  - Program Staff
+  - Volunteers
+  trigger: Annual budget planning, program expansion needs, or emergency funding requirements
   steps:
-    - step: 1
-      actor: "Executive Director"
-      action: "Define fundraising goals based on organizational needs and strategic plan"
-      tools: ["Strategic planning documents", "Budget projections"]
-      duration: "2-4 weeks"
-      outputs: ["Fundraising goals", "Campaign strategy outline"]
-    - step: 2
-      actor: "Development Director"
-      action: "Develop comprehensive fundraising plan including multiple revenue streams"
-      tools: ["Fundraising software", "Donor database"]
-      duration: "3-4 weeks"
-      outputs: ["Fundraising plan", "Revenue projections", "Timeline"]
-    - step: 3
-      actor: "Campaign Manager"
-      action: "Create detailed campaign materials and messaging strategy"
-      tools: ["Graphic design software", "Content management systems"]
-      duration: "2-3 weeks"
-      outputs: ["Campaign materials", "Messaging guidelines", "Brand assets"]
-    - step: 4
-      actor: "Marketing Team"
-      action: "Execute multi-channel marketing campaign (email, social media, events, direct mail)"
-      tools: ["Email marketing platforms", "Social media management", "Event planning software"]
-      duration: "8-12 weeks"
-      outputs: ["Marketing campaign execution", "Lead generation reports"]
-    - step: 5
-      actor: "Donor Relations Team"
-      action: "Cultivate relationships with major donors and foundations through personalized outreach"
-      tools: ["CRM system", "Donor tracking software"]
-      duration: "Ongoing throughout campaign"
-      outputs: ["Donor engagement reports", "Grant applications"]
-    - step: 6
-      actor: "Finance Team"
-      action: "Set up campaign tracking, process donations, and provide financial reporting"
-      tools: ["Accounting software", "Donation processing systems"]
-      duration: "Ongoing"
-      outputs: ["Financial reports", "Donor acknowledgments"]
-    - step: 7
-      actor: "Program Staff"
-      action: "Develop impact stories and program updates for donor communications"
-      tools: ["Impact measurement tools", "Content creation software"]
-      duration: "4-6 weeks"
-      outputs: ["Impact reports", "Success stories", "Program updates"]
-    - step: 8
-      actor: "Campaign Manager"
-      action: "Evaluate campaign performance and plan follow-up stewardship activities"
-      tools: ["Analytics platforms", "Survey tools"]
-      duration: "2-4 weeks after campaign"
-      outputs: ["Campaign evaluation report", "Stewardship plan"]
-  success_criteria: "Fundraising goals met or exceeded by 10%, donor retention rate maintained above 80%, new donor acquisition targets achieved"
-  failure_modes: ["Campaign goals not met due to economic conditions", "Donor fatigue from over-communication", "Program impact stories not compelling enough", "Internal coordination breakdowns"]
+  - step: 1
+    actor: Executive Director
+    action: Define fundraising goals based on organizational needs and strategic plan
+    tools:
+    - Strategic planning documents
+    - Budget projections
+    duration: 2-4 weeks
+    outputs:
+    - Fundraising goals
+    - Campaign strategy outline
+  - step: 2
+    actor: Development Director
+    action: Develop comprehensive fundraising plan including multiple revenue streams
+    tools:
+    - Fundraising software
+    - Donor database
+    duration: 3-4 weeks
+    outputs:
+    - Fundraising plan
+    - Revenue projections
+    - Timeline
+  - step: 3
+    actor: Campaign Manager
+    action: Create detailed campaign materials and messaging strategy
+    tools:
+    - Graphic design software
+    - Content management systems
+    duration: 2-3 weeks
+    outputs:
+    - Campaign materials
+    - Messaging guidelines
+    - Brand assets
+  - step: 4
+    actor: Marketing Team
+    action: Execute multi-channel marketing campaign (email, social media, events,
+      direct mail)
+    tools:
+    - Email marketing platforms
+    - Social media management
+    - Event planning software
+    duration: 8-12 weeks
+    outputs:
+    - Marketing campaign execution
+    - Lead generation reports
+  - step: 5
+    actor: Donor Relations Team
+    action: Cultivate relationships with major donors and foundations through personalized
+      outreach
+    tools:
+    - CRM system
+    - Donor tracking software
+    duration: Ongoing throughout campaign
+    outputs:
+    - Donor engagement reports
+    - Grant applications
+  - step: 6
+    actor: Finance Team
+    action: Set up campaign tracking, process donations, and provide financial reporting
+    tools:
+    - Accounting software
+    - Donation processing systems
+    duration: Ongoing
+    outputs:
+    - Financial reports
+    - Donor acknowledgments
+  - step: 7
+    actor: Program Staff
+    action: Develop impact stories and program updates for donor communications
+    tools:
+    - Impact measurement tools
+    - Content creation software
+    duration: 4-6 weeks
+    outputs:
+    - Impact reports
+    - Success stories
+    - Program updates
+  - step: 8
+    actor: Campaign Manager
+    action: Evaluate campaign performance and plan follow-up stewardship activities
+    tools:
+    - Analytics platforms
+    - Survey tools
+    duration: 2-4 weeks after campaign
+    outputs:
+    - Campaign evaluation report
+    - Stewardship plan
+  success_criteria: Fundraising goals met or exceeded by 10%, donor retention rate
+    maintained above 80%, new donor acquisition targets achieved
+  failure_modes:
+  - Campaign goals not met due to economic conditions
+  - Donor fatigue from over-communication
+  - Program impact stories not compelling enough
+  - Internal coordination breakdowns
   metrics:
-    - "Fundraising goal achievement: Target 110% of goal"
-    - "Donor retention rate: Target 85% retention"
-    - "New donor acquisition: Target 20% increase"
-    - "Cost per dollar raised: Target $0.15 or lower"
-    - "Donor satisfaction: Target 4.5/5.0 rating"
-    - "Campaign ROI: Target 5:1 return on investment"
+  - 'Fundraising goal achievement: Target 110% of goal'
+  - 'Donor retention rate: Target 85% retention'
+  - 'New donor acquisition: Target 20% increase'
+  - 'Cost per dollar raised: Target $0.15 or lower'
+  - 'Donor satisfaction: Target 4.5/5.0 rating'
+  - 'Campaign ROI: Target 5:1 return on investment'

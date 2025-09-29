@@ -1,51 +1,93 @@
 workflow:
-  id: "workflow_biotech_crispr_therapy"
-  title: "Biotechnology CRISPR Therapy Development"
-  department: "R&D"
-  complexity: "complex"
-  participants: ["Research Director", "Molecular Biologist", "Bioinformatics Specialist", "Regulatory Affairs", "Clinical Development Lead", "IP Counsel"]
-  trigger: "CRISPR target identification and validation completed"
+  id: workflow_biotech_crispr_therapy
+  title: Biotechnology CRISPR Therapy Development
+  department: R&D
+  complexity: complex
+  participants:
+  - Research Director
+  - Molecular Biologist
+  - Bioinformatics Specialist
+  - Regulatory Affairs
+  - Clinical Development Lead
+  - IP Counsel
+  trigger: CRISPR target identification and validation completed
   steps:
-    - step: 1
-      actor: "Research Director"
-      action: "Design CRISPR-based therapeutic approach including guide RNA selection and delivery method"
-      tools: ["CRISPR design software", "Gene editing databases", "Molecular modeling tools"]
-      duration: "12 weeks"
-      outputs: ["Therapeutic design document", "Initial safety assessment"]
-    - step: 2
-      actor: "Molecular Biologist"
-      action: "Validate CRISPR editing efficiency and specificity in cell culture models"
-      tools: ["Cell culture facilities", "Gene sequencing equipment", "Flow cytometry"]
-      duration: "16 weeks"
-      outputs: ["In vitro validation data", "Editing efficiency reports"]
-    - step: 3
-      actor: "Bioinformatics Specialist"
-      action: "Analyze off-target effects and optimize guide RNA design using computational models"
-      tools: ["Bioinformatics pipelines", "Machine learning algorithms", "Genome databases"]
-      duration: "8 weeks"
-      outputs: ["Off-target analysis report", "Optimized guide RNA sequences"]
-    - step: 4
-      actor: "IP Counsel"
-      action: "Conduct patent landscape analysis and file provisional patent applications"
-      tools: ["Patent databases", "IP management software", "Legal research platforms"]
-      duration: "6 weeks"
-      outputs: ["Patent landscape report", "Provisional patent filings"]
-    - step: 5
-      actor: "Regulatory Affairs"
-      action: "Prepare regulatory strategy and initial IND-enabling studies plan"
-      tools: ["Regulatory databases", "Toxicology study protocols", "Clinical trial design software"]
-      duration: "10 weeks"
-      outputs: ["Regulatory strategy document", "IND-enabling study protocols"]
-    - step: 6
-      actor: "Clinical Development Lead"
-      action: "Develop clinical development plan including Phase 1 trial design and patient selection criteria"
-      tools: ["Clinical trial management systems", "Patient registry databases", "Statistical analysis software"]
-      duration: "12 weeks"
-      outputs: ["Clinical development plan", "Phase 1 trial protocol"]
-  success_criteria: "IND application submitted with compelling preclinical data package"
-  failure_modes: ["High off-target editing rates", "Immune response to delivery system", "Regulatory pathway uncertainty"]
+  - step: 1
+    actor: Research Director
+    action: Design CRISPR-based therapeutic approach including guide RNA selection
+      and delivery method
+    tools:
+    - CRISPR design software
+    - Gene editing databases
+    - Molecular modeling tools
+    duration: 12 weeks
+    outputs:
+    - Therapeutic design document
+    - Initial safety assessment
+  - step: 2
+    actor: Molecular Biologist
+    action: Validate CRISPR editing efficiency and specificity in cell culture models
+    tools:
+    - Cell culture facilities
+    - Gene sequencing equipment
+    - Flow cytometry
+    duration: 16 weeks
+    outputs:
+    - In vitro validation data
+    - Editing efficiency reports
+  - step: 3
+    actor: Bioinformatics Specialist
+    action: Analyze off-target effects and optimize guide RNA design using computational
+      models
+    tools:
+    - Bioinformatics pipelines
+    - Machine learning algorithms
+    - Genome databases
+    duration: 8 weeks
+    outputs:
+    - Off-target analysis report
+    - Optimized guide RNA sequences
+  - step: 4
+    actor: IP Counsel
+    action: Conduct patent landscape analysis and file provisional patent applications
+    tools:
+    - Patent databases
+    - IP management software
+    - Legal research platforms
+    duration: 6 weeks
+    outputs:
+    - Patent landscape report
+    - Provisional patent filings
+  - step: 5
+    actor: Regulatory Affairs
+    action: Prepare regulatory strategy and initial IND-enabling studies plan
+    tools:
+    - Regulatory databases
+    - Toxicology study protocols
+    - Clinical trial design software
+    duration: 10 weeks
+    outputs:
+    - Regulatory strategy document
+    - IND-enabling study protocols
+  - step: 6
+    actor: Clinical Development Lead
+    action: Develop clinical development plan including Phase 1 trial design and patient
+      selection criteria
+    tools:
+    - Clinical trial management systems
+    - Patient registry databases
+    - Statistical analysis software
+    duration: 12 weeks
+    outputs:
+    - Clinical development plan
+    - Phase 1 trial protocol
+  success_criteria: IND application submitted with compelling preclinical data package
+  failure_modes:
+  - High off-target editing rates
+  - Immune response to delivery system
+  - Regulatory pathway uncertainty
   metrics:
-    - "Editing efficiency: >80% on-target modification"
-    - "Off-target effects: <0.1% frequency"
-    - "Patent filings: 5+ provisional applications"
-    - "Regulatory milestones: IND submission within 18 months"
+  - 'Editing efficiency: >80% on-target modification'
+  - 'Off-target effects: <0.1% frequency'
+  - 'Patent filings: 5+ provisional applications'
+  - 'Regulatory milestones: IND submission within 18 months'

@@ -1,9 +1,9 @@
 ## Meeting Notes: Strategic Partnership Formation Kickoff
 
-**Date:** September 28, 2025  
-**Time:** 9:00 AM - 11:00 AM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO, CBO, CSO, Partnership Lead, Legal Counsel, Integration Manager  
+**Date:** September 28, 2025
+**Time:** 9:00 AM - 11:00 AM
+**Location:** Executive Conference Room
+**Attendees:** CEO, CBO, CSO, Partnership Lead, Legal Counsel, Integration Manager
 
 **Meeting Objective:** Initiate strategic partnership development with Global Pharma Corp for joint therapeutic development
 
@@ -115,5 +115,5 @@
 ### Next Meeting
 October 15, 2025 - Partnership agreement review and team formation update
 
-**Meeting Facilitator:** CBO  
+**Meeting Facilitator:** CBO
 **Note Taker:** Partnership Coordinator

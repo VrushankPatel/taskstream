@@ -6,8 +6,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 ## Leadership Structure
 
 ### Division Head - Chief Experience Officer
-**Reports to:** Chief Content Officer  
-**Direct Reports:** 4 Department Heads, Venue Managers (5)  
+**Reports to:** Chief Content Officer
+**Direct Reports:** 4 Department Heads, Venue Managers (5)
 **Responsibilities:**
 - Creative vision and strategic direction
 - Audience experience innovation
@@ -15,8 +15,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 - Industry partnership development
 
 ### Department Heads (4)
-**Reports to:** Chief Experience Officer  
-**Direct Reports:** 8-12 staff each  
+**Reports to:** Chief Experience Officer
+**Direct Reports:** 8-12 staff each
 **Responsibilities:**
 - Department strategy and resource management
 - Cross-venue collaboration and best practice sharing
@@ -26,8 +26,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 ## Core Functions
 
 ### Creative Development Team
-**Head:** Director of Creative Development  
-**Team Size:** 15 artists and writers  
+**Head:** Director of Creative Development
+**Team Size:** 15 artists and writers
 **Structure:**
 - Lead Writers (3) - Story development and scripting
 - Experience Designers (4) - Interactive narrative design
@@ -41,8 +41,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 - Prototype and test new experience formats
 
 ### Technology & Production Team
-**Head:** Director of Technology  
-**Team Size:** 20 engineers and technicians  
+**Head:** Director of Technology
+**Team Size:** 20 engineers and technicians
 **Structure:**
 - VR/AR Engineers (6) - Hardware and software development
 - Systems Integrators (4) - Venue technology deployment
@@ -57,8 +57,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 - Innovate new interaction technologies
 
 ### Operations & Venue Management Team
-**Head:** Director of Operations  
-**Team Size:** 25 managers and staff  
+**Head:** Director of Operations
+**Team Size:** 25 managers and staff
 **Structure:**
 - Venue Managers (5) - Individual theater operations
 - Guest Experience Managers (5) - Front-of-house and customer service
@@ -74,8 +74,8 @@ The Immersive Theater Division creates next-generation entertainment experiences
 - Vendor and supplier relationship management
 
 ### Marketing & Audience Development Team
-**Head:** Director of Marketing  
-**Team Size:** 12 marketing professionals  
+**Head:** Director of Marketing
+**Team Size:** 12 marketing professionals
 **Structure:**
 - Digital Marketing Managers (3) - Online presence and social media
 - Content Creators (3) - Marketing materials and campaigns
@@ -91,18 +91,18 @@ The Immersive Theater Division creates next-generation entertainment experiences
 ## Support Functions
 
 ### Finance & Business Operations
-**Head:** Controller  
-**Team Size:** 6  
+**Head:** Controller
+**Team Size:** 6
 **Supports:** Budgeting, financial reporting, procurement, and business analysis
 
 ### Human Resources
-**Head:** HR Manager  
-**Team Size:** 4  
+**Head:** HR Manager
+**Team Size:** 4
 **Supports:** Talent acquisition, training, employee relations, and diversity initiatives
 
 ### Legal & Business Affairs
-**Head:** Legal Counsel  
-**Team Size:** 3  
+**Head:** Legal Counsel
+**Team Size:** 3
 **Supports:** Contract negotiation, IP protection, regulatory compliance
 
 ## Key Performance Indicators

@@ -3,8 +3,16 @@
   "context": "Major gaming company facing increased regulatory pressure and community backlash over toxic content in online multiplayer games, requiring significant investment in AI-powered content moderation systems",
   "stakeholders": {
     "requester": "Chief Product Officer",
-    "approvers": ["CEO", "Chief Technology Officer", "Chief Legal Officer"],
-    "influencers": ["Community Manager", "Player Experience Lead", "Data Privacy Officer"]
+    "approvers": [
+      "CEO",
+      "Chief Technology Officer",
+      "Chief Legal Officer"
+    ],
+    "influencers": [
+      "Community Manager",
+      "Player Experience Lead",
+      "Data Privacy Officer"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,28 +24,50 @@
     {
       "stage": "initial_assessment",
       "duration": "1 week",
-      "activities": ["Regulatory compliance review", "Current moderation system audit", "Cost-benefit analysis"],
+      "activities": [
+        "Regulatory compliance review",
+        "Current moderation system audit",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Identified critical gaps in existing moderation capabilities"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "2 weeks",
-      "activities": ["RFI/RFP process", "Vendor demonstrations", "Technical architecture review"],
+      "activities": [
+        "RFI/RFP process",
+        "Vendor demonstrations",
+        "Technical architecture review"
+      ],
       "outcome": "Selected AI moderation platform with 94% accuracy rate"
     },
     {
       "stage": "risk_assessment",
       "duration": "1 week",
-      "activities": ["Privacy impact assessment", "False positive analysis", "Community impact evaluation"],
+      "activities": [
+        "Privacy impact assessment",
+        "False positive analysis",
+        "Community impact evaluation"
+      ],
       "outcome": "Approved with enhanced privacy safeguards and community communication plan"
     }
   ],
   "business_impact": {
     "expected_outcome": "Reduced toxic content by 80%, improved player retention by 25%, compliance with new gaming regulations",
     "projected_value": "$45,000,000 in retained revenue over 3 years",
-    "risk_factors": ["Implementation complexity", "Community backlash to automated moderation", "Privacy concerns with AI content analysis"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Community backlash to automated moderation",
+      "Privacy concerns with AI content analysis"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance requirements", "Player experience improvement", "Cost-benefit ratio", "Technical feasibility", "Privacy and ethical considerations"],
+  "decision_criteria": [
+    "Regulatory compliance requirements",
+    "Player experience improvement",
+    "Cost-benefit ratio",
+    "Technical feasibility",
+    "Privacy and ethical considerations"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early community engagement critical for AI moderation acceptance, comprehensive testing required to minimize false positives, integrated approach combining AI with human oversight most effective"
 }

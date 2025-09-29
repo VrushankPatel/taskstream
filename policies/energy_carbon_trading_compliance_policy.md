@@ -146,6 +146,6 @@ The company is committed to responsible participation in carbon trading markets 
 - Sustainability Strategy Document
 - Risk Management Policy
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Sustainability Officer*

@@ -3,8 +3,15 @@
   "context": "Industrial manufacturing firm, 2,000 employees, deploying IoT sensors across production facilities",
   "stakeholders": {
     "requester": "Director of Operations",
-    "approvers": ["COO", "CTO"],
-    "influencers": ["Plant Managers", "IT Infrastructure Team", "Safety Officer"]
+    "approvers": [
+      "COO",
+      "CTO"
+    ],
+    "influencers": [
+      "Plant Managers",
+      "IT Infrastructure Team",
+      "Safety Officer"
+    ]
   },
   "request": {
     "amount": "$1,800,000",
@@ -16,19 +23,31 @@
     {
       "stage": "pilot_evaluation",
       "duration": "6 weeks",
-      "activities": ["Single facility pilot", "Performance monitoring", "Cost analysis"],
+      "activities": [
+        "Single facility pilot",
+        "Performance monitoring",
+        "Cost analysis"
+      ],
       "outcome": "Pilot successful, expand to 3 facilities"
     },
     {
       "stage": "scalability_assessment",
       "duration": "4 weeks",
-      "activities": ["Network capacity planning", "Data management strategy", "Integration testing"],
+      "activities": [
+        "Network capacity planning",
+        "Data management strategy",
+        "Integration testing"
+      ],
       "outcome": "Approved for full deployment with phased rollout"
     }
   ],
   "business_impact": {
     "expected_benefits": "30% reduction in maintenance costs, 20% improvement in equipment uptime",
     "projected_roi": "18 months payback period",
-    "risk_factors": ["Network security vulnerabilities", "Data overload", "Employee training requirements"]
+    "risk_factors": [
+      "Network security vulnerabilities",
+      "Data overload",
+      "Employee training requirements"
+    ]
   }
 }

@@ -1,9 +1,9 @@
 ## Meeting Notes: Retail Customer Complaint Resolution Process Review
 
-**Date:** September 29, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** Customer Service Manager (Chair), Store Operations Lead, Quality Assurance Specialist, IT Support Lead  
+**Date:** September 29, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** Customer Service Manager (Chair), Store Operations Lead, Quality Assurance Specialist, IT Support Lead
 
 ### Agenda
 1. Review recent customer complaint trends

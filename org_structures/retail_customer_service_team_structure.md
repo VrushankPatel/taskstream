@@ -6,8 +6,8 @@ The Customer Service team is responsible for ensuring exceptional customer exper
 ## Organizational Structure
 
 ### Director of Customer Experience
-**Reports to:** Chief Operating Officer  
-**Direct Reports:** 3 Regional Managers  
+**Reports to:** Chief Operating Officer
+**Direct Reports:** 3 Regional Managers
 **Responsibilities:**
 - Develop customer experience strategy
 - Oversee service quality metrics
@@ -15,8 +15,8 @@ The Customer Service team is responsible for ensuring exceptional customer exper
 - Coordinate cross-channel service integration
 
 ### Regional Customer Service Manager
-**Reports to:** Director of Customer Experience  
-**Direct Reports:** 5 Store Managers  
+**Reports to:** Director of Customer Experience
+**Direct Reports:** 5 Store Managers
 **Responsibilities:**
 - Regional service performance oversight
 - Staff training and development
@@ -24,8 +24,8 @@ The Customer Service team is responsible for ensuring exceptional customer exper
 - Local market customer insights
 
 ### Store Customer Service Manager
-**Reports to:** Regional Customer Service Manager  
-**Direct Reports:** 8-12 Customer Service Associates  
+**Reports to:** Regional Customer Service Manager
+**Direct Reports:** 8-12 Customer Service Associates
 **Responsibilities:**
 - Daily store service operations
 - Team scheduling and performance
@@ -33,7 +33,7 @@ The Customer Service team is responsible for ensuring exceptional customer exper
 - Product knowledge maintenance
 
 ### Customer Service Associate
-**Reports to:** Store Customer Service Manager  
+**Reports to:** Store Customer Service Manager
 **Responsibilities:**
 - Direct customer assistance
 - Product information and recommendations

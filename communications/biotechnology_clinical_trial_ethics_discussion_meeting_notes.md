@@ -1,15 +1,15 @@
 # Biotechnology Clinical Trial Ethics Discussion Meeting Notes
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Conference Room A, Biotech Innovation Center  
-**Attendees:**  
-- Dr. Sarah Chen (Principal Investigator)  
-- Dr. Michael Rodriguez (Ethics Committee Chair)  
-- Dr. Lisa Thompson (Bioethics Consultant)  
-- Jennifer Walsh (Patient Advocacy Representative)  
-- Robert Kim (Regulatory Affairs)  
-- Dr. Amanda Foster (Clinical Operations Lead)  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Conference Room A, Biotech Innovation Center
+**Attendees:**
+- Dr. Sarah Chen (Principal Investigator)
+- Dr. Michael Rodriguez (Ethics Committee Chair)
+- Dr. Lisa Thompson (Bioethics Consultant)
+- Jennifer Walsh (Patient Advocacy Representative)
+- Robert Kim (Regulatory Affairs)
+- Dr. Amanda Foster (Clinical Operations Lead)
 
 ## Meeting Objective
 Discuss ethical considerations for the Phase 1 clinical trial of CRISPR-based gene editing therapy for sickle cell disease, focusing on patient consent, risk-benefit analysis, and long-term monitoring requirements.

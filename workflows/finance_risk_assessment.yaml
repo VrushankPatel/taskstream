@@ -1,34 +1,56 @@
 workflow:
-  id: "workflow_finance_001"
-  title: "Financial Risk Assessment and Mitigation"
-  department: "Risk Management"
-  complexity: "high"
-  participants: ["Risk Analyst", "Finance Manager", "Compliance Officer", "Executive Team"]
-  trigger: "Quarterly review or significant market change"
+  id: workflow_finance_001
+  title: Financial Risk Assessment and Mitigation
+  department: Risk Management
+  complexity: high
+  participants:
+  - Risk Analyst
+  - Finance Manager
+  - Compliance Officer
+  - Executive Team
+  trigger: Quarterly review or significant market change
   steps:
-    - step: 1
-      actor: "Risk Analyst"
-      action: "Gather financial data and market indicators"
-      tools: ["Financial modeling software", "Market data feeds"]
-      duration: "1 week"
-      outputs: ["Risk exposure report"]
-    - step: 2
-      actor: "Finance Manager"
-      action: "Analyze potential impacts and develop scenarios"
-      tools: ["Risk assessment framework", "Stress testing models"]
-      duration: "3 days"
-      outputs: ["Scenario analysis", "Risk mitigation options"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Review regulatory compliance implications"
-      tools: ["Regulatory databases", "Compliance checklists"]
-      duration: "2 days"
-      outputs: ["Compliance assessment", "Regulatory recommendations"]
-    - step: 4
-      actor: "Executive Team"
-      action: "Review and approve risk mitigation strategy"
-      decision_points: ["Risk tolerance", "Resource availability"]
-      duration: "1 day"
-      outputs: ["Approved risk strategy", "Implementation plan"]
-  success_criteria: "Risk exposure within acceptable limits"
-  failure_modes: ["Unexpected losses", "Regulatory penalties", "Inadequate hedging"]
+  - step: 1
+    actor: Risk Analyst
+    action: Gather financial data and market indicators
+    tools:
+    - Financial modeling software
+    - Market data feeds
+    duration: 1 week
+    outputs:
+    - Risk exposure report
+  - step: 2
+    actor: Finance Manager
+    action: Analyze potential impacts and develop scenarios
+    tools:
+    - Risk assessment framework
+    - Stress testing models
+    duration: 3 days
+    outputs:
+    - Scenario analysis
+    - Risk mitigation options
+  - step: 3
+    actor: Compliance Officer
+    action: Review regulatory compliance implications
+    tools:
+    - Regulatory databases
+    - Compliance checklists
+    duration: 2 days
+    outputs:
+    - Compliance assessment
+    - Regulatory recommendations
+  - step: 4
+    actor: Executive Team
+    action: Review and approve risk mitigation strategy
+    decision_points:
+    - Risk tolerance
+    - Resource availability
+    duration: 1 day
+    outputs:
+    - Approved risk strategy
+    - Implementation plan
+  success_criteria: Risk exposure within acceptable limits
+  failure_modes:
+  - Unexpected losses
+  - Regulatory penalties
+  - Inadequate hedging

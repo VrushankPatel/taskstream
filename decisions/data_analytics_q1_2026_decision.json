@@ -3,8 +3,16 @@
   "context": "Retail chain, 150 stores, seeking to leverage customer data for personalized marketing",
   "stakeholders": {
     "requester": "Chief Marketing Officer",
-    "approvers": ["CEO", "CTO", "Chief Privacy Officer"],
-    "influencers": ["Data Science Team", "Store Managers", "Customer Insights Manager"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Chief Privacy Officer"
+    ],
+    "influencers": [
+      "Data Science Team",
+      "Store Managers",
+      "Customer Insights Manager"
+    ]
   },
   "request": {
     "amount": "$1,800,000",
@@ -16,25 +24,45 @@
     {
       "stage": "data_audit",
       "duration": "4 weeks",
-      "activities": ["Data quality assessment", "Privacy compliance review", "Infrastructure evaluation"],
+      "activities": [
+        "Data quality assessment",
+        "Privacy compliance review",
+        "Infrastructure evaluation"
+      ],
       "outcome": "Identified data silos across 12 systems with 40% incomplete customer profiles"
     },
     {
       "stage": "vendor_selection",
       "duration": "6 weeks",
-      "activities": ["RFP process", "Technical demonstrations", "Reference checks"],
+      "activities": [
+        "RFP process",
+        "Technical demonstrations",
+        "Reference checks"
+      ],
       "outcome": "Selected cloud-based analytics platform with strong privacy controls"
     },
     {
       "stage": "pilot_design",
       "duration": "3 weeks",
-      "activities": ["Use case prioritization", "Success metrics definition", "Timeline planning"],
+      "activities": [
+        "Use case prioritization",
+        "Success metrics definition",
+        "Timeline planning"
+      ],
       "outcome": "Pilot program targeting 20 stores with 6-month evaluation period"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["15% increase in conversion rates", "25% improvement in customer lifetime value", "Enhanced competitive positioning"],
+    "expected_outcomes": [
+      "15% increase in conversion rates",
+      "25% improvement in customer lifetime value",
+      "Enhanced competitive positioning"
+    ],
     "projected_roi": "$6,400,000 over 2 years",
-    "risk_factors": ["Data privacy concerns", "Technical integration complexity", "User adoption challenges"]
+    "risk_factors": [
+      "Data privacy concerns",
+      "Technical integration complexity",
+      "User adoption challenges"
+    ]
   }
 }

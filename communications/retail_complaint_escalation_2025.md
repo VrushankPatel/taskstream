@@ -1,8 +1,8 @@
 ## Email Thread: Retail Customer Complaint Escalation
 
-**From:** Customer Service Manager  
-**To:** Store Manager, Regional Operations Director  
-**Subject:** Urgent: High-Value Customer Complaint - Escalation Required  
+**From:** Customer Service Manager
+**To:** Store Manager, Regional Operations Director
+**Subject:** Urgent: High-Value Customer Complaint - Escalation Required
 
 Team,
 
@@ -20,16 +20,16 @@ I'm escalating a complaint from our top-tier loyalty customer, Ms. Johnson (annu
 
 Please advise on approval for the goodwill payment. Customer retention is critical here.
 
-Best,  
-Sarah Chen  
-Customer Service Manager  
-Store #247  
+Best,
+Sarah Chen
+Customer Service Manager
+Store #247
 
 ---
 
-**From:** Regional Operations Director  
-**To:** Customer Service Manager, Store Manager, CEO  
-**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required  
+**From:** Regional Operations Director
+**To:** Customer Service Manager, Store Manager, CEO
+**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required
 
 Sarah,
 
@@ -43,15 +43,15 @@ I spoke with Ms. Johnson directly. She's extremely frustrated and mentioned she'
 
 This customer represents 2% of store revenue. Let's turn this around.
 
-Regards,  
-Michael Torres  
-Regional Operations Director  
+Regards,
+Michael Torres
+Regional Operations Director
 
 ---
 
-**From:** CEO  
-**To:** Ms. Johnson (bcc: Internal Team)  
-**Subject:** Personal Apology for Your Recent Experience  
+**From:** CEO
+**To:** Ms. Johnson (bcc: Internal Team)
+**Subject:** Personal Apology for Your Recent Experience
 
 Dear Ms. Johnson,
 
@@ -61,7 +61,7 @@ Your loyalty means everything to us, and we fell short of the service standards 
 
 Please accept my personal assurance that we'll do better. I'd welcome the opportunity to speak with you directly about how we can make this right.
 
-Sincerely,  
-David Kim  
-CEO  
+Sincerely,
+David Kim
+CEO
 Premium Retail Group

@@ -1,40 +1,70 @@
 workflow:
-  id: "workflow_ev_charging"
-  title: "Electric Vehicle Charging Infrastructure Deployment"
-  department: "Infrastructure Development"
-  complexity: "high"
-  participants: ["Infrastructure Director", "Site Selection Manager", "Engineering Team", "Regulatory Compliance Lead", "Operations Manager"]
-  trigger: "Government EV adoption targets and infrastructure funding availability"
+  id: workflow_ev_charging
+  title: Electric Vehicle Charging Infrastructure Deployment
+  department: Infrastructure Development
+  complexity: high
+  participants:
+  - Infrastructure Director
+  - Site Selection Manager
+  - Engineering Team
+  - Regulatory Compliance Lead
+  - Operations Manager
+  trigger: Government EV adoption targets and infrastructure funding availability
   steps:
-    - step: 1
-      actor: "Infrastructure Director"
-      action: "Conduct market analysis and develop deployment strategy"
-      tools: ["EV Adoption Forecasting Model", "Infrastructure Planning Software"]
-      duration: "2-4 months"
-      outputs: ["Market Analysis Report", "Deployment Strategy Document"]
-    - step: 2
-      actor: "Site Selection Manager"
-      action: "Identify and evaluate potential charging locations"
-      decision_points: ["High-traffic corridors?", "Commercial partnerships?", "Residential installations?"]
-      duration: "3-6 months"
-      outputs: ["Site Selection Criteria", "Location Evaluation Matrix"]
-    - step: 3
-      actor: "Engineering Team"
-      action: "Design charging stations and grid integration"
-      tools: ["Electrical Engineering Software", "Grid Impact Assessment Tools"]
-      duration: "4-8 months"
-      outputs: ["Station Design Specifications", "Grid Integration Plan"]
-    - step: 4
-      actor: "Regulatory Compliance Lead"
-      action: "Obtain permits and ensure safety compliance"
-      tools: ["Permit Tracking System", "Safety Compliance Framework"]
-      duration: "2-6 months"
-      outputs: ["Permit Approvals", "Safety Certification"]
-    - step: 5
-      actor: "Operations Manager"
-      action: "Deploy stations and establish maintenance protocols"
-      tools: ["Deployment Management Platform", "Maintenance Scheduling System"]
-      duration: "6-12 months"
-      outputs: ["Deployment Report", "Maintenance Procedures"]
-  success_criteria: "Comprehensive EV charging network deployed, supporting EV adoption targets, reliable operations established"
-  failure_modes: ["Site acquisition delays", "Grid capacity issues", "Maintenance cost overruns"]
+  - step: 1
+    actor: Infrastructure Director
+    action: Conduct market analysis and develop deployment strategy
+    tools:
+    - EV Adoption Forecasting Model
+    - Infrastructure Planning Software
+    duration: 2-4 months
+    outputs:
+    - Market Analysis Report
+    - Deployment Strategy Document
+  - step: 2
+    actor: Site Selection Manager
+    action: Identify and evaluate potential charging locations
+    decision_points:
+    - High-traffic corridors?
+    - Commercial partnerships?
+    - Residential installations?
+    duration: 3-6 months
+    outputs:
+    - Site Selection Criteria
+    - Location Evaluation Matrix
+  - step: 3
+    actor: Engineering Team
+    action: Design charging stations and grid integration
+    tools:
+    - Electrical Engineering Software
+    - Grid Impact Assessment Tools
+    duration: 4-8 months
+    outputs:
+    - Station Design Specifications
+    - Grid Integration Plan
+  - step: 4
+    actor: Regulatory Compliance Lead
+    action: Obtain permits and ensure safety compliance
+    tools:
+    - Permit Tracking System
+    - Safety Compliance Framework
+    duration: 2-6 months
+    outputs:
+    - Permit Approvals
+    - Safety Certification
+  - step: 5
+    actor: Operations Manager
+    action: Deploy stations and establish maintenance protocols
+    tools:
+    - Deployment Management Platform
+    - Maintenance Scheduling System
+    duration: 6-12 months
+    outputs:
+    - Deployment Report
+    - Maintenance Procedures
+  success_criteria: Comprehensive EV charging network deployed, supporting EV adoption
+    targets, reliable operations established
+  failure_modes:
+  - Site acquisition delays
+  - Grid capacity issues
+  - Maintenance cost overruns

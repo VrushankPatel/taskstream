@@ -3,8 +3,16 @@
   "context": "Commercial real estate firm evaluating investment in smart building technology platform to improve property management efficiency and tenant satisfaction",
   "stakeholders": {
     "requester": "VP of Technology",
-    "approvers": ["CEO", "CFO", "COO"],
-    "influencers": ["Head of Property Management", "IT Director", "Tenant Relations Manager"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "COO"
+    ],
+    "influencers": [
+      "Head of Property Management",
+      "IT Director",
+      "Tenant Relations Manager"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +24,49 @@
     {
       "stage": "initial_evaluation",
       "duration": "2 weeks",
-      "activities": ["Vendor analysis", "ROI modeling", "Technical feasibility assessment"],
+      "activities": [
+        "Vendor analysis",
+        "ROI modeling",
+        "Technical feasibility assessment"
+      ],
       "outcome": "Proceed to detailed analysis"
     },
     {
       "stage": "due_diligence",
       "duration": "3 weeks",
-      "activities": ["Pilot program testing", "Financial modeling", "Risk assessment"],
+      "activities": [
+        "Pilot program testing",
+        "Financial modeling",
+        "Risk assessment"
+      ],
       "outcome": "Approved with modifications"
     },
     {
       "stage": "implementation_planning",
       "duration": "1 week",
-      "activities": ["Timeline development", "Resource allocation", "Change management planning"],
+      "activities": [
+        "Timeline development",
+        "Resource allocation",
+        "Change management planning"
+      ],
       "outcome": "Phased rollout approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% reduction in maintenance costs, 10% improvement in tenant satisfaction",
     "projected_value": "$750,000 annual savings",
-    "risk_factors": ["Integration challenges", "Tenant privacy concerns", "Technology obsolescence"]
+    "risk_factors": [
+      "Integration challenges",
+      "Tenant privacy concerns",
+      "Technology obsolescence"
+    ]
   },
-  "decision_criteria": ["ROI > 25% within 3 years", "Scalability across portfolio", "Vendor stability", "Data security compliance"],
+  "decision_criteria": [
+    "ROI > 25% within 3 years",
+    "Scalability across portfolio",
+    "Vendor stability",
+    "Data security compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement critical for technology adoption, pilot testing reduces implementation risks"
 }

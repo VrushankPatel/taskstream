@@ -1,9 +1,9 @@
 ## Email Thread: Software Development Project Delay
 
-**From:** David Kim, Engineering Manager  
-**To:** Product Team, Engineering Team, Stakeholders  
-**Subject:** Mobile App Development Timeline Update - 4 Week Delay  
-**Date:** November 3, 2024  
+**From:** David Kim, Engineering Manager
+**To:** Product Team, Engineering Team, Stakeholders
+**Subject:** Mobile App Development Timeline Update - 4 Week Delay
+**Date:** November 3, 2024
 
 Team,
 
@@ -26,17 +26,17 @@ Following our sprint review yesterday, we've identified significant technical de
 
 I'll be available for questions and will provide daily updates on progress.
 
-Best,  
-David Kim  
-Engineering Manager  
-david.kim@company.com  
+Best,
+David Kim
+Engineering Manager
+david.kim@company.com
 
 ---
 
-**From:** Lisa Thompson, VP Product  
-**To:** David Kim, Product Team, Engineering Team, Stakeholders  
-**Subject:** Re: Mobile App Development Timeline Update - 4 Week Delay  
-**Date:** November 3, 2024  
+**From:** Lisa Thompson, VP Product
+**To:** David Kim, Product Team, Engineering Team, Stakeholders
+**Subject:** Re: Mobile App Development Timeline Update - 4 Week Delay
+**Date:** November 3, 2024
 
 David,
 
@@ -44,14 +44,14 @@ Thanks for the heads-up. Quality over speed is the right call here, especially w
 
 Can we prioritize the user onboarding flow completion during this period?
 
-Lisa  
+Lisa
 
 ---
 
-**From:** Robert Chen, CTO  
-**To:** David Kim, Lisa Thompson, Engineering Team  
-**Subject:** Re: Mobile App Development Timeline Update - 4 Week Delay  
-**Date:** November 4, 2024  
+**From:** Robert Chen, CTO
+**To:** David Kim, Lisa Thompson, Engineering Team
+**Subject:** Re: Mobile App Development Timeline Update - 4 Week Delay
+**Date:** November 4, 2024
 
 David,
 

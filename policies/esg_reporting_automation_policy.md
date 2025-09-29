@@ -84,6 +84,6 @@ Applies to all ESG data collection, processing, and reporting activities across 
 ## Review and Updates
 This policy will be reviewed annually or when significant regulatory changes occur. Updates must be approved by the ESG Committee and communicated to all stakeholders.
 
-Effective Date: January 1, 2026  
-Last Updated: September 28, 2025  
+Effective Date: January 1, 2026
+Last Updated: September 28, 2025
 Approved By: ESG Committee

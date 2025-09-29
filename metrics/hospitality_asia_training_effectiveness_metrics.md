@@ -106,13 +106,13 @@ This dashboard evaluates training program effectiveness across Asian hospitality
 - Monthly: Learning outcomes and employee development KPIs
 - Quarterly: ROI analysis and strategic program effectiveness
 - Annually: Comprehensive program evaluation and planning</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Finally, policies. 2 MD files.
 
 First: utilities_eu_critical_infrastructure_crisis_policy.md (EU utilities crisis policy)
 
-Policy for critical infrastructure crisis management in EU utilities. 
+Policy for critical infrastructure crisis management in EU utilities.
 
 <xai:function_call name="write">
 <parameter name="filePath">policies/utilities_eu_critical_infrastructure_crisis_policy.md

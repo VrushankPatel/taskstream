@@ -3,8 +3,16 @@
   "context": "Regional bank (800 employees) facing fintech disruption and needing to modernize API offerings",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
-    "influencers": ["Head of Retail Banking", "IT Director", "Compliance Officer"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Head of Retail Banking",
+      "IT Director",
+      "Compliance Officer"
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -16,31 +24,55 @@
     {
       "stage": "regulatory_assessment",
       "duration": "3 weeks",
-      "activities": ["PSD2 compliance review", "Data protection impact assessment", "Consumer consent framework design"],
+      "activities": [
+        "PSD2 compliance review",
+        "Data protection impact assessment",
+        "Consumer consent framework design"
+      ],
       "outcome": "Full compliance roadmap with phased implementation approach"
     },
     {
       "stage": "technical_architecture",
       "duration": "4 weeks",
-      "activities": ["API gateway selection", "Security framework design", "Legacy system integration planning"],
+      "activities": [
+        "API gateway selection",
+        "Security framework design",
+        "Legacy system integration planning"
+      ],
       "outcome": "Microservices architecture with API management platform"
     },
     {
       "stage": "business_model_evaluation",
       "duration": "2 weeks",
-      "activities": ["Revenue model analysis", "Partner ecosystem assessment", "Competitive positioning"],
+      "activities": [
+        "Revenue model analysis",
+        "Partner ecosystem assessment",
+        "Competitive positioning"
+      ],
       "outcome": "Dual revenue streams: transaction fees and premium API tiers"
     },
     {
       "stage": "pilot_program_design",
       "duration": "3 weeks",
-      "activities": ["Partner selection", "API documentation development", "Sandbox environment setup"],
+      "activities": [
+        "Partner selection",
+        "API documentation development",
+        "Sandbox environment setup"
+      ],
       "outcome": "Pilot with 5 fintech partners focusing on account aggregation services"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["New revenue streams from API usage", "Enhanced customer experience through third-party integrations", "Improved competitive positioning"],
+    "expected_benefits": [
+      "New revenue streams from API usage",
+      "Enhanced customer experience through third-party integrations",
+      "Improved competitive positioning"
+    ],
     "projected_roi": "300% over 3 years",
-    "risk_factors": ["Data security vulnerabilities", "Regulatory changes", "Partner dependency and support overhead"]
+    "risk_factors": [
+      "Data security vulnerabilities",
+      "Regulatory changes",
+      "Partner dependency and support overhead"
+    ]
   }
 }

@@ -1,10 +1,10 @@
 # Manufacturing Environmental Reporting Automation Launch
 
-**From:** Chief Sustainability Officer  
-**To:** All Manufacturing Facilities, Operations Teams, Executive Leadership  
-**Subject:** Launch of Automated Environmental Reporting Platform  
+**From:** Chief Sustainability Officer
+**To:** All Manufacturing Facilities, Operations Teams, Executive Leadership
+**Subject:** Launch of Automated Environmental Reporting Platform
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Team,
 
@@ -93,6 +93,6 @@ This launch marks a significant milestone in our sustainability journey. The aut
 
 Together, we will build a more sustainable manufacturing future.
 
-Best regards,  
-[Chief Sustainability Officer Name]  
+Best regards,
+[Chief Sustainability Officer Name]
 Chief Sustainability Officer

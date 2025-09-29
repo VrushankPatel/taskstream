@@ -1,40 +1,69 @@
 workflow:
-  id: "workflow_004"
-  title: "Healthcare Genomics Gene Therapy Clinical Trials Workflow"
-  department: "Clinical Research"
-  complexity: "high"
-  participants: ["Clinical Researchers", "Regulatory Affairs", "Patient Recruitment Teams", "Data Managers", "Ethics Committee"]
-  trigger: "Preclinical data supports advancement to clinical trials"
+  id: workflow_004
+  title: Healthcare Genomics Gene Therapy Clinical Trials Workflow
+  department: Clinical Research
+  complexity: high
+  participants:
+  - Clinical Researchers
+  - Regulatory Affairs
+  - Patient Recruitment Teams
+  - Data Managers
+  - Ethics Committee
+  trigger: Preclinical data supports advancement to clinical trials
   steps:
-    - step: 1
-      actor: "Regulatory Affairs"
-      action: "Prepare and submit IND application to regulatory authorities"
-      tools: ["Regulatory submission systems", "Clinical trial management software"]
-      duration: "8 weeks"
-      outputs: ["IND application", "Regulatory correspondence"]
-    - step: 2
-      actor: "Ethics Committee"
-      action: "Review protocol and obtain ethics committee approval"
-      tools: ["Ethics review frameworks", "IRB management systems"]
-      duration: "4 weeks"
-      outputs: ["Ethics approval", "Protocol amendments"]
-    - step: 3
-      actor: "Patient Recruitment Teams"
-      action: "Develop recruitment strategy and screen potential participants"
-      tools: ["Patient databases", "Recruitment management tools"]
-      duration: "6 weeks"
-      outputs: ["Recruitment plan", "Patient screening database"]
-    - step: 4
-      actor: "Clinical Researchers"
-      action: "Conduct trial execution and monitor patient safety"
-      tools: ["Clinical trial software", "Safety monitoring systems"]
-      duration: "24 weeks"
-      outputs: ["Trial data", "Safety reports"]
-    - step: 5
-      actor: "Data Managers"
-      action: "Analyze trial results and prepare regulatory submissions"
-      tools: ["Statistical analysis software", "Regulatory reporting tools"]
-      duration: "8 weeks"
-      outputs: ["Trial results report", "Regulatory submission package"]
-  success_criteria: "Successful completion of clinical trial with positive safety and efficacy data"
-  failure_modes: ["Patient recruitment challenges", "Safety concerns", "Regulatory hurdles"]
+  - step: 1
+    actor: Regulatory Affairs
+    action: Prepare and submit IND application to regulatory authorities
+    tools:
+    - Regulatory submission systems
+    - Clinical trial management software
+    duration: 8 weeks
+    outputs:
+    - IND application
+    - Regulatory correspondence
+  - step: 2
+    actor: Ethics Committee
+    action: Review protocol and obtain ethics committee approval
+    tools:
+    - Ethics review frameworks
+    - IRB management systems
+    duration: 4 weeks
+    outputs:
+    - Ethics approval
+    - Protocol amendments
+  - step: 3
+    actor: Patient Recruitment Teams
+    action: Develop recruitment strategy and screen potential participants
+    tools:
+    - Patient databases
+    - Recruitment management tools
+    duration: 6 weeks
+    outputs:
+    - Recruitment plan
+    - Patient screening database
+  - step: 4
+    actor: Clinical Researchers
+    action: Conduct trial execution and monitor patient safety
+    tools:
+    - Clinical trial software
+    - Safety monitoring systems
+    duration: 24 weeks
+    outputs:
+    - Trial data
+    - Safety reports
+  - step: 5
+    actor: Data Managers
+    action: Analyze trial results and prepare regulatory submissions
+    tools:
+    - Statistical analysis software
+    - Regulatory reporting tools
+    duration: 8 weeks
+    outputs:
+    - Trial results report
+    - Regulatory submission package
+  success_criteria: Successful completion of clinical trial with positive safety and
+    efficacy data
+  failure_modes:
+  - Patient recruitment challenges
+  - Safety concerns
+  - Regulatory hurdles

@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_marketing_campaign_planning"
-  title: "Marketing Campaign Planning and Execution"
-  department: "Marketing"
-  complexity: "medium"
-  participants: ["Marketing Manager", "Creative Director", "Data Analyst", "Media Buyer", "Content Strategist"]
-  trigger: "Quarterly campaign planning cycle or market opportunity identified"
+  id: workflow_marketing_campaign_planning
+  title: Marketing Campaign Planning and Execution
+  department: Marketing
+  complexity: medium
+  participants:
+  - Marketing Manager
+  - Creative Director
+  - Data Analyst
+  - Media Buyer
+  - Content Strategist
+  trigger: Quarterly campaign planning cycle or market opportunity identified
   steps:
-    - step: 1
-      actor: "Marketing Manager"
-      action: "Define campaign objectives and target audience"
-      tools: ["Market Research Database", "Customer Analytics Platform"]
-      duration: "1 day"
-      outputs: ["Campaign Brief", "Target Persona Profiles"]
-    - step: 2
-      actor: "Data Analyst"
-      action: "Analyze historical performance and market data"
-      tools: ["Analytics Dashboard", "CRM Data"]
-      duration: "2 days"
-      outputs: ["Performance Insights Report", "Audience Segmentation"]
-    - step: 3
-      actor: "Creative Director"
-      action: "Develop creative concepts and messaging"
-      tools: ["Design Software", "Brand Guidelines"]
-      duration: "3 days"
-      outputs: ["Creative Concepts", "Content Calendar"]
-    - step: 4
-      actor: "Media Buyer"
-      action: "Plan media mix and negotiate placements"
-      tools: ["Media Planning Software", "Ad Network Platforms"]
-      duration: "2 days"
-      outputs: ["Media Plan", "Budget Allocation"]
-    - step: 5
-      actor: "Content Strategist"
-      action: "Create content assets and campaign materials"
-      tools: ["Content Management System", "Video Production Tools"]
-      duration: "1 week"
-      outputs: ["Content Assets", "Campaign Materials"]
-    - step: 6
-      actor: "Marketing Manager"
-      action: "Launch campaign and monitor initial performance"
-      tools: ["Campaign Management Platform", "Real-time Analytics"]
-      duration: "Ongoing"
-      outputs: ["Launch Report", "Performance Dashboard"]
-  success_criteria: "Campaign achieves 80% of target KPIs within budget"
-  failure_modes: ["Poor audience targeting", "Creative execution issues", "Media delivery problems", "Budget overruns"]
+  - step: 1
+    actor: Marketing Manager
+    action: Define campaign objectives and target audience
+    tools:
+    - Market Research Database
+    - Customer Analytics Platform
+    duration: 1 day
+    outputs:
+    - Campaign Brief
+    - Target Persona Profiles
+  - step: 2
+    actor: Data Analyst
+    action: Analyze historical performance and market data
+    tools:
+    - Analytics Dashboard
+    - CRM Data
+    duration: 2 days
+    outputs:
+    - Performance Insights Report
+    - Audience Segmentation
+  - step: 3
+    actor: Creative Director
+    action: Develop creative concepts and messaging
+    tools:
+    - Design Software
+    - Brand Guidelines
+    duration: 3 days
+    outputs:
+    - Creative Concepts
+    - Content Calendar
+  - step: 4
+    actor: Media Buyer
+    action: Plan media mix and negotiate placements
+    tools:
+    - Media Planning Software
+    - Ad Network Platforms
+    duration: 2 days
+    outputs:
+    - Media Plan
+    - Budget Allocation
+  - step: 5
+    actor: Content Strategist
+    action: Create content assets and campaign materials
+    tools:
+    - Content Management System
+    - Video Production Tools
+    duration: 1 week
+    outputs:
+    - Content Assets
+    - Campaign Materials
+  - step: 6
+    actor: Marketing Manager
+    action: Launch campaign and monitor initial performance
+    tools:
+    - Campaign Management Platform
+    - Real-time Analytics
+    duration: Ongoing
+    outputs:
+    - Launch Report
+    - Performance Dashboard
+  success_criteria: Campaign achieves 80% of target KPIs within budget
+  failure_modes:
+  - Poor audience targeting
+  - Creative execution issues
+  - Media delivery problems
+  - Budget overruns

@@ -3,8 +3,17 @@
   "context": "Real estate investment trust evaluating acquisition of Class A office building in major metropolitan area",
   "stakeholders": {
     "requester": "Senior Investment Analyst",
-    "approvers": ["Chief Investment Officer", "Chief Financial Officer", "Board Investment Committee"],
-    "influencers": ["Property Management Director", "Legal Counsel", "Market Research Analyst", "Environmental Consultant"]
+    "approvers": [
+      "Chief Investment Officer",
+      "Chief Financial Officer",
+      "Board Investment Committee"
+    ],
+    "influencers": [
+      "Property Management Director",
+      "Legal Counsel",
+      "Market Research Analyst",
+      "Environmental Consultant"
+    ]
   },
   "request": {
     "amount": "$85 million",
@@ -16,34 +25,69 @@
     {
       "stage": "initial_market_analysis",
       "duration": "1 week",
-      "activities": ["Location assessment", "Market comparables review", "Economic indicators analysis", "Competitive property evaluation"],
+      "activities": [
+        "Location assessment",
+        "Market comparables review",
+        "Economic indicators analysis",
+        "Competitive property evaluation"
+      ],
       "outcome": "Strong market fundamentals confirmed"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 weeks",
-      "activities": ["Cash flow projections", "IRR calculations", "Sensitivity analysis", "Debt structuring options", "Exit strategy modeling"],
+      "activities": [
+        "Cash flow projections",
+        "IRR calculations",
+        "Sensitivity analysis",
+        "Debt structuring options",
+        "Exit strategy modeling"
+      ],
       "outcome": "Attractive risk-adjusted returns identified"
     },
     {
       "stage": "due_diligence",
       "duration": "3 weeks",
-      "activities": ["Tenant lease review", "Building systems inspection", "Environmental assessment", "Legal title search", "Financial statement analysis"],
+      "activities": [
+        "Tenant lease review",
+        "Building systems inspection",
+        "Environmental assessment",
+        "Legal title search",
+        "Financial statement analysis"
+      ],
       "outcome": "No major issues identified, minor repair allowances negotiated"
     },
     {
       "stage": "final_approval",
       "duration": "1 week",
-      "activities": ["Investment committee presentation", "Board approval", "Financing commitment", "Purchase agreement execution"],
+      "activities": [
+        "Investment committee presentation",
+        "Board approval",
+        "Financing commitment",
+        "Purchase agreement execution"
+      ],
       "outcome": "Approved with 75% debt financing at 5.5% interest rate"
     }
   ],
   "business_impact": {
     "expected_outcome": "Core portfolio addition with stable cash flows and appreciation potential",
     "projected_value": "$6.2 million annual net operating income with 3% annual growth",
-    "risk_factors": ["Office market softening", "Major tenant bankruptcy", "Interest rate increases", "Unexpected capital expenditures", "Regulatory changes in commercial real estate"]
+    "risk_factors": [
+      "Office market softening",
+      "Major tenant bankruptcy",
+      "Interest rate increases",
+      "Unexpected capital expenditures",
+      "Regulatory changes in commercial real estate"
+    ]
   },
-  "decision_criteria": ["Location and market quality", "Financial performance metrics", "Tenant quality and diversification", "Building condition and efficiency", "Exit strategy viability", "Portfolio fit and diversification"],
+  "decision_criteria": [
+    "Location and market quality",
+    "Financial performance metrics",
+    "Tenant quality and diversification",
+    "Building condition and efficiency",
+    "Exit strategy viability",
+    "Portfolio fit and diversification"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early engagement with environmental consultants prevented costly surprises; consider hybrid work impact on office demand in future acquisitions"
 }

@@ -3,8 +3,16 @@
   "context": "Real estate developer planning mixed-use project combining residential, commercial, and retail",
   "stakeholders": {
     "requester": "Chief Development Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Urban Planners", "Local Government", "Potential Tenants"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Urban Planners",
+      "Local Government",
+      "Potential Tenants"
+    ]
   },
   "request": {
     "amount": "$150 million",
@@ -16,25 +24,41 @@
     {
       "stage": "market_feasibility",
       "duration": "2 months",
-      "activities": ["Market demand analysis", "Competitive assessment", "Financial modeling"],
+      "activities": [
+        "Market demand analysis",
+        "Competitive assessment",
+        "Financial modeling"
+      ],
       "outcome": "Strong market demand with attractive returns"
     },
     {
       "stage": "site_acquisition",
       "duration": "3 months",
-      "activities": ["Site selection", "Due diligence", "Acquisition negotiation"],
+      "activities": [
+        "Site selection",
+        "Due diligence",
+        "Acquisition negotiation"
+      ],
       "outcome": "Prime development site secured"
     },
     {
       "stage": "design_development",
       "duration": "4 months",
-      "activities": ["Architectural design", "Zoning approval", "Construction planning"],
+      "activities": [
+        "Architectural design",
+        "Zoning approval",
+        "Construction planning"
+      ],
       "outcome": "Approved development plan with construction permits"
     }
   ],
   "business_impact": {
     "expected_benefits": "Diversified revenue streams, community development, brand enhancement",
     "projected_revenue": "$200 million total development value",
-    "risk_factors": ["Construction delays", "Market fluctuations", "Regulatory changes"]
+    "risk_factors": [
+      "Construction delays",
+      "Market fluctuations",
+      "Regulatory changes"
+    ]
   }
 }

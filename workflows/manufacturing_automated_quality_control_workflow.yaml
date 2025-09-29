@@ -1,52 +1,108 @@
 workflow:
-  id: "workflow_manufacturing_automated_quality_control"
-  title: "Manufacturing Automated Quality Control Implementation"
-  department: "Quality Assurance"
-  complexity: "medium"
-  participants: ["Quality Director", "Automation Engineer", "AI Integration Specialist", "Production Manager", "IT Systems Manager", "Maintenance Supervisor"]
-  trigger: "Quality issues identified requiring AI-powered automation to improve consistency, reduce defects, and enable predictive quality management"
+  id: workflow_manufacturing_automated_quality_control
+  title: Manufacturing Automated Quality Control Implementation
+  department: Quality Assurance
+  complexity: medium
+  participants:
+  - Quality Director
+  - Automation Engineer
+  - AI Integration Specialist
+  - Production Manager
+  - IT Systems Manager
+  - Maintenance Supervisor
+  trigger: Quality issues identified requiring AI-powered automation to improve consistency,
+    reduce defects, and enable predictive quality management
   steps:
-    - step: 1
-      actor: "Quality Director"
-      action: "Analyze current quality control processes, identify AI automation opportunities, and define advanced quality metrics with predictive capabilities"
-      tools: ["AI process analysis software", "Quality management platforms", "Predictive quality modeling tools"]
-      duration: "5 weeks"
-      outputs: ["AI-enhanced quality process assessment", "Automation opportunity analysis with predictive models", "Advanced quality metric definitions"]
-    - step: 2
-      actor: "Automation Engineer"
-      action: "Design AI-powered inspection systems including computer vision, sensor fusion, and machine learning-based defect detection"
-      tools: ["AI CAD software", "Computer vision platforms", "Machine learning model development frameworks"]
-      duration: "10 weeks"
-      outputs: ["AI-powered inspection system design", "Sensor fusion specifications", "Machine learning model requirements"]
-    - step: 3
-      actor: "AI Integration Specialist"
-      action: "Integrate AI systems with existing manufacturing execution systems, quality databases, and predictive maintenance platforms"
-      tools: ["AI integration platforms", "API development frameworks", "Data pipeline automation tools"]
-      duration: "8 weeks"
-      outputs: ["AI system integration architecture", "Automated data flow diagrams", "Predictive quality integration test plans"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Implement AI-powered quality checkpoints in production lines, train operators on AI systems, and establish predictive quality protocols"
-      tools: ["AI-enhanced production line modification tools", "Operator AI training programs", "Predictive quality assurance frameworks"]
-      duration: "12 weeks"
-      outputs: ["AI-powered checkpoint implementation", "Operator AI training records", "Predictive production line modifications"]
-    - step: 5
-      actor: "Maintenance Supervisor"
-      action: "Establish preventive maintenance schedules for AI quality systems, calibration procedures, and model retraining protocols"
-      tools: ["AI system maintenance management platforms", "Automated calibration standards", "Model performance monitoring tools"]
-      duration: "6 weeks"
-      outputs: ["AI maintenance schedules", "Automated calibration procedures", "Model retraining protocols"]
-    - step: 6
-      actor: "Quality Director"
-      action: "Validate AI system performance, compare with manual processes, optimize machine learning algorithms, and implement continuous learning"
-      tools: ["AI statistical analysis platforms", "Performance monitoring dashboards", "Algorithm optimization and continuous learning frameworks"]
-      duration: "8 weeks"
-      outputs: ["AI system validation report", "Advanced performance comparison analysis", "Continuous learning optimization recommendations"]
-  success_criteria: "Achieve 99.8% defect detection rate, 50% reduction in quality inspection time, 70% decrease in quality-related costs, and predictive quality issue prevention"
-  failure_modes: ["AI model accuracy degradation", "False positive/negative detections in complex scenarios", "AI system integration failures with legacy systems", "Operator resistance to AI-driven decisions", "Model training data quality issues"]
+  - step: 1
+    actor: Quality Director
+    action: Analyze current quality control processes, identify AI automation opportunities,
+      and define advanced quality metrics with predictive capabilities
+    tools:
+    - AI process analysis software
+    - Quality management platforms
+    - Predictive quality modeling tools
+    duration: 5 weeks
+    outputs:
+    - AI-enhanced quality process assessment
+    - Automation opportunity analysis with predictive models
+    - Advanced quality metric definitions
+  - step: 2
+    actor: Automation Engineer
+    action: Design AI-powered inspection systems including computer vision, sensor
+      fusion, and machine learning-based defect detection
+    tools:
+    - AI CAD software
+    - Computer vision platforms
+    - Machine learning model development frameworks
+    duration: 10 weeks
+    outputs:
+    - AI-powered inspection system design
+    - Sensor fusion specifications
+    - Machine learning model requirements
+  - step: 3
+    actor: AI Integration Specialist
+    action: Integrate AI systems with existing manufacturing execution systems, quality
+      databases, and predictive maintenance platforms
+    tools:
+    - AI integration platforms
+    - API development frameworks
+    - Data pipeline automation tools
+    duration: 8 weeks
+    outputs:
+    - AI system integration architecture
+    - Automated data flow diagrams
+    - Predictive quality integration test plans
+  - step: 4
+    actor: Production Manager
+    action: Implement AI-powered quality checkpoints in production lines, train operators
+      on AI systems, and establish predictive quality protocols
+    tools:
+    - AI-enhanced production line modification tools
+    - Operator AI training programs
+    - Predictive quality assurance frameworks
+    duration: 12 weeks
+    outputs:
+    - AI-powered checkpoint implementation
+    - Operator AI training records
+    - Predictive production line modifications
+  - step: 5
+    actor: Maintenance Supervisor
+    action: Establish preventive maintenance schedules for AI quality systems, calibration
+      procedures, and model retraining protocols
+    tools:
+    - AI system maintenance management platforms
+    - Automated calibration standards
+    - Model performance monitoring tools
+    duration: 6 weeks
+    outputs:
+    - AI maintenance schedules
+    - Automated calibration procedures
+    - Model retraining protocols
+  - step: 6
+    actor: Quality Director
+    action: Validate AI system performance, compare with manual processes, optimize
+      machine learning algorithms, and implement continuous learning
+    tools:
+    - AI statistical analysis platforms
+    - Performance monitoring dashboards
+    - Algorithm optimization and continuous learning frameworks
+    duration: 8 weeks
+    outputs:
+    - AI system validation report
+    - Advanced performance comparison analysis
+    - Continuous learning optimization recommendations
+  success_criteria: Achieve 99.8% defect detection rate, 50% reduction in quality
+    inspection time, 70% decrease in quality-related costs, and predictive quality
+    issue prevention
+  failure_modes:
+  - AI model accuracy degradation
+  - False positive/negative detections in complex scenarios
+  - AI system integration failures with legacy systems
+  - Operator resistance to AI-driven decisions
+  - Model training data quality issues
   metrics:
-    - "AI defect detection rate: Target 99.8%"
-    - "Quality inspection time reduction: Target 50%"
-    - "Quality-related cost decrease: Target 70%"
-    - "Predictive quality issue prevention rate: Target 85%"
-    - "AI system uptime: Target 99%"
+  - 'AI defect detection rate: Target 99.8%'
+  - 'Quality inspection time reduction: Target 50%'
+  - 'Quality-related cost decrease: Target 70%'
+  - 'Predictive quality issue prevention rate: Target 85%'
+  - 'AI system uptime: Target 99%'

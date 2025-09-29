@@ -1,8 +1,8 @@
 ## Meeting Notes: Open Banking Platform Development
 
-**Date:** September 28, 2025  
-**Attendees:** Chief Digital Officer, Head of API Development, Compliance Officer, Product Manager, Security Architect  
-**Location:** Virtual  
+**Date:** September 28, 2025
+**Attendees:** Chief Digital Officer, Head of API Development, Compliance Officer, Product Manager, Security Architect
+**Location:** Virtual
 
 ### Agenda
 1. Regulatory compliance status

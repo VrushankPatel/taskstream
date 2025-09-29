@@ -1,38 +1,60 @@
 workflow:
-  id: "workflow_insurance_claims_processing"
-  title: "Insurance Claims Processing Workflow"
-  department: "Claims Department"
-  complexity: "medium"
-  participants: ["Claims Adjuster", "Claims Supervisor", "Underwriting Specialist"]
-  trigger: "Policyholder submits claim notification"
+  id: workflow_insurance_claims_processing
+  title: Insurance Claims Processing Workflow
+  department: Claims Department
+  complexity: medium
+  participants:
+  - Claims Adjuster
+  - Claims Supervisor
+  - Underwriting Specialist
+  trigger: Policyholder submits claim notification
   steps:
-    - step: 1
-      actor: "Claims Adjuster"
-      action: "Review claim documentation and verify policy coverage"
-      tools: ["Claims Management System", "Policy Database"]
-      duration: "2 hours"
-      outputs: ["Coverage Determination", "Initial Assessment"]
-    - step: 2
-      actor: "Claims Adjuster"
-      action: "Conduct investigation including witness interviews and evidence collection"
-      tools: ["Investigation Toolkit", "Documentation Forms"]
-      duration: "1-3 days"
-      outputs: ["Investigation Report", "Evidence Documentation"]
-    - step: 3
-      actor: "Claims Supervisor"
-      action: "Review investigation findings and approve settlement amount"
-      tools: ["Claims Management System", "Settlement Calculator"]
-      duration: "4 hours"
-      outputs: ["Settlement Approval", "Payment Authorization"]
-    - step: 4
-      actor: "Claims Adjuster"
-      action: "Process payment and communicate resolution to policyholder"
-      tools: ["Payment System", "Communication Templates"]
-      duration: "2 hours"
-      outputs: ["Payment Processed", "Resolution Letter"]
-  success_criteria: "Claim resolved accurately and efficiently within policy terms"
-  failure_modes: ["Insufficient documentation", "Coverage disputes", "Fraud detection"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Review claim documentation and verify policy coverage
+    tools:
+    - Claims Management System
+    - Policy Database
+    duration: 2 hours
+    outputs:
+    - Coverage Determination
+    - Initial Assessment
+  - step: 2
+    actor: Claims Adjuster
+    action: Conduct investigation including witness interviews and evidence collection
+    tools:
+    - Investigation Toolkit
+    - Documentation Forms
+    duration: 1-3 days
+    outputs:
+    - Investigation Report
+    - Evidence Documentation
+  - step: 3
+    actor: Claims Supervisor
+    action: Review investigation findings and approve settlement amount
+    tools:
+    - Claims Management System
+    - Settlement Calculator
+    duration: 4 hours
+    outputs:
+    - Settlement Approval
+    - Payment Authorization
+  - step: 4
+    actor: Claims Adjuster
+    action: Process payment and communicate resolution to policyholder
+    tools:
+    - Payment System
+    - Communication Templates
+    duration: 2 hours
+    outputs:
+    - Payment Processed
+    - Resolution Letter
+  success_criteria: Claim resolved accurately and efficiently within policy terms
+  failure_modes:
+  - Insufficient documentation
+  - Coverage disputes
+  - Fraud detection
   metrics:
-    - "Processing Time: <30 days average"
-    - "Accuracy Rate: >98% correct settlements"
-    - "Customer Satisfaction: >85% for resolved claims"
+  - 'Processing Time: <30 days average'
+  - 'Accuracy Rate: >98% correct settlements'
+  - 'Customer Satisfaction: >85% for resolved claims'

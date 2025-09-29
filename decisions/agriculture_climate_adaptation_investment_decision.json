@@ -3,8 +3,15 @@
   "context": "Mid-sized agricultural cooperative facing increasing climate variability and drought conditions, considering investment in irrigation technology and drought-resistant crops",
   "stakeholders": {
     "requester": "Farm Operations Director",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Agricultural Consultants", "Environmental Regulators", "Farmer Members"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Agricultural Consultants",
+      "Environmental Regulators",
+      "Farmer Members"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,28 +23,50 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 weeks",
-      "activities": ["Climate impact analysis", "Technology vendor evaluation", "Pilot program design"],
+      "activities": [
+        "Climate impact analysis",
+        "Technology vendor evaluation",
+        "Pilot program design"
+      ],
       "outcome": "Feasibility confirmed with projected 25% yield improvement"
     },
     {
       "stage": "financial_evaluation",
       "duration": "2 weeks",
-      "activities": ["ROI modeling", "Funding options assessment", "Risk analysis"],
+      "activities": [
+        "ROI modeling",
+        "Funding options assessment",
+        "Risk analysis"
+      ],
       "outcome": "5-year payback period identified, grant funding available"
     },
     {
       "stage": "stakeholder_consultation",
       "duration": "4 weeks",
-      "activities": ["Farmer member surveys", "Environmental impact review", "Regulatory compliance check"],
+      "activities": [
+        "Farmer member surveys",
+        "Environmental impact review",
+        "Regulatory compliance check"
+      ],
       "outcome": "85% member support, environmental approval secured"
     }
   ],
   "business_impact": {
     "expected_outcome": "Improved drought resilience and 20-30% yield stabilization",
     "projected_value": "$750,000 annual revenue increase",
-    "risk_factors": ["Technology adoption challenges", "Weather variability", "Implementation delays"]
+    "risk_factors": [
+      "Technology adoption challenges",
+      "Weather variability",
+      "Implementation delays"
+    ]
   },
-  "decision_criteria": ["Financial viability", "Environmental sustainability", "Member support", "Regulatory compliance", "Technical feasibility"],
+  "decision_criteria": [
+    "Financial viability",
+    "Environmental sustainability",
+    "Member support",
+    "Regulatory compliance",
+    "Technical feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement critical for agricultural technology adoption, climate adaptation investments require comprehensive risk assessment"
 }

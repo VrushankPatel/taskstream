@@ -1,40 +1,62 @@
 workflow:
-  id: "workflow_009_02"
-  title: "Quality Control Automation Implementation"
-  department: "Manufacturing Quality"
-  complexity: "medium"
-  participants: ["Quality Manager", "Automation Engineer", "Production Supervisor", "IT Integration Team"]
-  trigger: "Defect rates exceed 2% threshold"
+  id: workflow_009_02
+  title: Quality Control Automation Implementation
+  department: Manufacturing Quality
+  complexity: medium
+  participants:
+  - Quality Manager
+  - Automation Engineer
+  - Production Supervisor
+  - IT Integration Team
+  trigger: Defect rates exceed 2% threshold
   steps:
-    - step: 1
-      actor: "Quality Manager"
-      action: "Analyze defect patterns and identify automation opportunities"
-      tools: ["Quality Database", "Statistical Analysis Software"]
-      duration: "1 week"
-      outputs: ["Automation requirements document"]
-    - step: 2
-      actor: "Automation Engineer"
-      action: "Design computer vision and sensor-based inspection system"
-      tools: ["CAD Software", "IoT Platform"]
-      duration: "3 weeks"
-      outputs: ["System design specifications"]
-    - step: 3
-      actor: "Production Supervisor"
-      action: "Assess production line integration requirements"
-      decision_points: ["Downtime impact", "Training needs"]
-      duration: "1 week"
-      outputs: ["Integration plan"]
-    - step: 4
-      actor: "IT Integration Team"
-      action: "Implement system with data connectivity and dashboard"
-      tools: ["Integration Tools", "SCADA System"]
-      duration: "2 weeks"
-      outputs: ["Automated QC system"]
-    - step: 5
-      actor: "Quality Manager"
-      action: "Validate system performance against manual QC benchmarks"
-      tools: ["Testing Framework", "Quality Metrics"]
-      duration: "1 week"
-      outputs: ["Validation report"]
-  success_criteria: "Defect detection rate >98% with <5% false positives"
-  failure_modes: ["Sensor calibration issues", "Production line compatibility", "Operator training gaps"]
+  - step: 1
+    actor: Quality Manager
+    action: Analyze defect patterns and identify automation opportunities
+    tools:
+    - Quality Database
+    - Statistical Analysis Software
+    duration: 1 week
+    outputs:
+    - Automation requirements document
+  - step: 2
+    actor: Automation Engineer
+    action: Design computer vision and sensor-based inspection system
+    tools:
+    - CAD Software
+    - IoT Platform
+    duration: 3 weeks
+    outputs:
+    - System design specifications
+  - step: 3
+    actor: Production Supervisor
+    action: Assess production line integration requirements
+    decision_points:
+    - Downtime impact
+    - Training needs
+    duration: 1 week
+    outputs:
+    - Integration plan
+  - step: 4
+    actor: IT Integration Team
+    action: Implement system with data connectivity and dashboard
+    tools:
+    - Integration Tools
+    - SCADA System
+    duration: 2 weeks
+    outputs:
+    - Automated QC system
+  - step: 5
+    actor: Quality Manager
+    action: Validate system performance against manual QC benchmarks
+    tools:
+    - Testing Framework
+    - Quality Metrics
+    duration: 1 week
+    outputs:
+    - Validation report
+  success_criteria: Defect detection rate >98% with <5% false positives
+  failure_modes:
+  - Sensor calibration issues
+  - Production line compatibility
+  - Operator training gaps

@@ -1,8 +1,8 @@
 ## Email Thread: Product Launch Delay
 
-**From:** Product Manager  
-**To:** Leadership Team  
-**Subject:** Q3 Product Launch - Timeline Update  
+**From:** Product Manager
+**To:** Leadership Team
+**Subject:** Q3 Product Launch - Timeline Update
 
 Team,
 
@@ -25,15 +25,15 @@ Following yesterday's QA review, I need to communicate a 3-week delay to our Q3 
 
 Please let me know if you need additional details or want to discuss mitigation strategies.
 
-Best,  
-Sarah Johnson  
-Product Manager  
+Best,
+Sarah Johnson
+Product Manager
 
 ---
 
-**From:** CEO  
-**To:** Product Manager, Leadership Team  
-**Subject:** Re: Q3 Product Launch - Timeline Update  
+**From:** CEO
+**To:** Product Manager, Leadership Team
+**Subject:** Re: Q3 Product Launch - Timeline Update
 
 Sarah,
 
@@ -41,29 +41,29 @@ Thanks for the heads-up. Quality over speed is the right call here. Let's schedu
 
 Can you prepare a one-pager with the revised go-to-market plan?
 
-Thanks,  
-Michael Chen  
-CEO  
+Thanks,
+Michael Chen
+CEO
 
 ---
 
-**From:** CFO  
-**To:** Product Manager, CEO, Leadership Team  
-**Subject:** Re: Q3 Product Launch - Timeline Update  
+**From:** CFO
+**To:** Product Manager, CEO, Leadership Team
+**Subject:** Re: Q3 Product Launch - Timeline Update
 
 Adding to Michael's point - we need to model the financial impact more precisely. The $250K revenue delay figure seems conservative. Can we get updated projections by EOD today?
 
 Also, any impact on Q4 budgeting?
 
-Regards,  
-Lisa Rodriguez  
-CFO  
+Regards,
+Lisa Rodriguez
+CFO
 
 ---
 
-**From:** Product Manager  
-**To:** Leadership Team  
-**Subject:** Re: Q3 Product Launch - Timeline Update  
+**From:** Product Manager
+**To:** Leadership Team
+**Subject:** Re: Q3 Product Launch - Timeline Update
 
 Michael and Lisa,
 
@@ -71,5 +71,5 @@ Attached is the updated go-to-market plan and revised financial projections. The
 
 Leadership meeting scheduled for tomorrow at 2 PM.
 
-Best,  
+Best,
 Sarah

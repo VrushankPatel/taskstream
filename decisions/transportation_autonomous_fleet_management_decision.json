@@ -3,8 +3,16 @@
   "context": "Logistics company, 2000 employees, transitioning 30% of fleet to autonomous vehicles",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "COO", "Chief Risk Officer"],
-    "influencers": ["Fleet Manager", "Insurance Director", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "COO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Fleet Manager",
+      "Insurance Director",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,19 +24,31 @@
     {
       "stage": "pilot_program",
       "duration": "12 months",
-      "activities": ["Small-scale autonomous testing", "Safety protocol development", "Driver training programs"],
+      "activities": [
+        "Small-scale autonomous testing",
+        "Safety protocol development",
+        "Driver training programs"
+      ],
       "outcome": "Pilot successful with 95% reliability"
     },
     {
       "stage": "risk_assessment",
       "duration": "3 months",
-      "activities": ["Liability analysis", "Insurance coverage review", "Regulatory compliance check"],
+      "activities": [
+        "Liability analysis",
+        "Insurance coverage review",
+        "Regulatory compliance check"
+      ],
       "outcome": "Acceptable risk profile established"
     },
     {
       "stage": "scaling_plan",
       "duration": "6 months",
-      "activities": ["Fleet transition roadmap", "Infrastructure upgrades", "Change management planning"],
+      "activities": [
+        "Fleet transition roadmap",
+        "Infrastructure upgrades",
+        "Change management planning"
+      ],
       "outcome": "Phased implementation approved"
     }
   ],
@@ -36,6 +56,10 @@
     "cost_savings": "$15,000,000 annually",
     "delivery_speed": "40% improvement",
     "safety_incidents": "Projected 60% reduction",
-    "risk_factors": ["Regulatory changes", "Technology obsolescence", "Public acceptance issues"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Technology obsolescence",
+      "Public acceptance issues"
+    ]
   }
 }

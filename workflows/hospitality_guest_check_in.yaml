@@ -1,38 +1,58 @@
 workflow:
-  id: "workflow_hospitality_guest_check_in"
-  title: "Hospitality Guest Check-In Process"
-  department: "Front Office"
-  complexity: "medium"
-  participants: ["Front Desk Agent", "Guest Services Manager", "Housekeeping Coordinator"]
-  trigger: "Guest arrives at hotel reception"
+  id: workflow_hospitality_guest_check_in
+  title: Hospitality Guest Check-In Process
+  department: Front Office
+  complexity: medium
+  participants:
+  - Front Desk Agent
+  - Guest Services Manager
+  - Housekeeping Coordinator
+  trigger: Guest arrives at hotel reception
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify reservation details and collect identification"
-      tools: ["PMS System", "ID Scanner"]
-      duration: "5 minutes"
-      outputs: ["Guest Profile Verification"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Assign room and program key card"
-      tools: ["PMS System", "Key Card Encoder"]
-      duration: "3 minutes"
-      outputs: ["Room Assignment", "Key Card"]
-    - step: 3
-      actor: "Front Desk Agent"
-      action: "Review amenities and provide welcome information"
-      tools: ["Property Guide", "Local Information"]
-      duration: "5 minutes"
-      outputs: ["Guest Orientation"]
-    - step: 4
-      actor: "Housekeeping Coordinator"
-      action: "Confirm room readiness and notify bell services"
-      tools: ["Room Status System", "Communication Device"]
-      duration: "2 minutes"
-      outputs: ["Room Readiness Confirmation"]
-  success_criteria: "Guest checked in efficiently with accurate information and positive experience"
-  failure_modes: ["System outage", "Room not ready", "Identification issues"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Verify reservation details and collect identification
+    tools:
+    - PMS System
+    - ID Scanner
+    duration: 5 minutes
+    outputs:
+    - Guest Profile Verification
+  - step: 2
+    actor: Front Desk Agent
+    action: Assign room and program key card
+    tools:
+    - PMS System
+    - Key Card Encoder
+    duration: 3 minutes
+    outputs:
+    - Room Assignment
+    - Key Card
+  - step: 3
+    actor: Front Desk Agent
+    action: Review amenities and provide welcome information
+    tools:
+    - Property Guide
+    - Local Information
+    duration: 5 minutes
+    outputs:
+    - Guest Orientation
+  - step: 4
+    actor: Housekeeping Coordinator
+    action: Confirm room readiness and notify bell services
+    tools:
+    - Room Status System
+    - Communication Device
+    duration: 2 minutes
+    outputs:
+    - Room Readiness Confirmation
+  success_criteria: Guest checked in efficiently with accurate information and positive
+    experience
+  failure_modes:
+  - System outage
+  - Room not ready
+  - Identification issues
   metrics:
-    - "Check-in Time: <10 minutes average"
-    - "Guest Satisfaction: >95% rating"
-    - "Error Rate: <1% of check-ins"
+  - 'Check-in Time: <10 minutes average'
+  - 'Guest Satisfaction: >95% rating'
+  - 'Error Rate: <1% of check-ins'

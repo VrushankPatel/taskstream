@@ -3,8 +3,16 @@
   "context": "Fashion retailer, 800 employees, considering AI-powered trend forecasting platform",
   "stakeholders": {
     "requester": "Chief Merchandising Officer",
-    "approvers": ["CEO", "CFO", "Board Members"],
-    "influencers": ["Design Team", "Supply Chain", "Marketing Department"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Members"
+    ],
+    "influencers": [
+      "Design Team",
+      "Supply Chain",
+      "Marketing Department"
+    ]
   },
   "request": {
     "amount": "$3.2M implementation budget",
@@ -16,25 +24,41 @@
     {
       "stage": "market_analysis",
       "duration": "3 weeks",
-      "activities": ["Competitor analysis", "Technology evaluation", "Data availability assessment"],
+      "activities": [
+        "Competitor analysis",
+        "Technology evaluation",
+        "Data availability assessment"
+      ],
       "outcome": "Strong market opportunity identified"
     },
     {
       "stage": "pilot_program",
       "duration": "6 weeks",
-      "activities": ["Limited rollout", "Performance monitoring", "User training"],
+      "activities": [
+        "Limited rollout",
+        "Performance monitoring",
+        "User training"
+      ],
       "outcome": "Pilot shows 30% improvement in forecast accuracy"
     },
     {
       "stage": "full_rollout_decision",
       "duration": "2 weeks",
-      "activities": ["ROI validation", "Scalability assessment", "Budget approval"],
+      "activities": [
+        "ROI validation",
+        "Scalability assessment",
+        "Budget approval"
+      ],
       "outcome": "Approved with 12-month rollout plan"
     }
   ],
   "business_impact": {
     "markdown_reduction": "10 percentage points",
     "inventory_turnover_improvement": "25%",
-    "risk_factors": ["Data quality issues", "Fashion industry volatility", "Integration complexity"]
+    "risk_factors": [
+      "Data quality issues",
+      "Fashion industry volatility",
+      "Integration complexity"
+    ]
   }
 }

@@ -81,6 +81,6 @@ This policy applies to all satellite operations, launch activities, and orbital 
 ## Review and Update
 This policy shall be reviewed annually or when significant changes in the orbital debris environment or regulations occur.
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved by: Chief Mission Officer*

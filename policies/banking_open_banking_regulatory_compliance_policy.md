@@ -119,6 +119,6 @@ This policy will be reviewed annually or following significant regulatory change
 ## Enforcement
 Non-compliance with this policy may result in disciplinary action, up to and including termination of employment, and may have legal consequences for the organization.
 
-Approved by: Chief Compliance Officer  
-Effective Date: January 1, 2025  
+Approved by: Chief Compliance Officer
+Effective Date: January 1, 2025
 Last Updated: September 29, 2025

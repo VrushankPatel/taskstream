@@ -6,8 +6,8 @@ The Renewable Operations Team is responsible for integrating and managing renewa
 ## Organizational Structure
 
 ### Director of Renewable Operations
-**Reports to:** Chief Operating Officer  
-**Direct Reports:** 4 Managers  
+**Reports to:** Chief Operating Officer
+**Direct Reports:** 4 Managers
 **Responsibilities:**
 - Strategic planning for renewable energy integration
 - Team leadership and performance management
@@ -15,8 +15,8 @@ The Renewable Operations Team is responsible for integrating and managing renewa
 - Budget management and resource allocation
 
 #### Renewable Integration Manager
-**Reports to:** Director of Renewable Operations  
-**Direct Reports:** 3 Specialists  
+**Reports to:** Director of Renewable Operations
+**Direct Reports:** 3 Specialists
 **Responsibilities:**
 - Solar and wind farm interconnection management
 - Grid impact assessments and capacity planning
@@ -39,8 +39,8 @@ The Renewable Operations Team is responsible for integrating and managing renewa
 - Grid stability enhancement
 
 #### Grid Modernization Manager
-**Reports to:** Director of Renewable Operations  
-**Direct Reports:** 4 Engineers  
+**Reports to:** Director of Renewable Operations
+**Direct Reports:** 4 Engineers
 **Responsibilities:**
 - Smart grid technology implementation
 - Infrastructure upgrade coordination
@@ -68,8 +68,8 @@ The Renewable Operations Team is responsible for integrating and managing renewa
 - Compliance with energy sector standards
 
 #### Performance Analytics Manager
-**Reports to:** Director of Renewable Operations  
-**Direct Reports:** 3 Analysts  
+**Reports to:** Director of Renewable Operations
+**Direct Reports:** 3 Analysts
 **Responsibilities:**
 - Renewable energy performance monitoring
 - Data analysis and reporting
@@ -92,8 +92,8 @@ The Renewable Operations Team is responsible for integrating and managing renewa
 - Capacity planning support
 
 #### Regulatory Compliance Manager
-**Reports to:** Director of Renewable Operations  
-**Direct Reports:** 2 Specialists  
+**Reports to:** Director of Renewable Operations
+**Direct Reports:** 2 Specialists
 **Responsibilities:**
 - Regulatory requirement monitoring
 - Compliance reporting and auditing

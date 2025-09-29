@@ -3,9 +3,9 @@
 ## Overview
 This dashboard tracks key performance indicators for our gene therapy development pipeline, measuring scientific progress, clinical advancement, operational efficiency, and strategic outcomes across our portfolio of CRISPR-based and viral vector therapies.
 
-**Reporting Frequency:** Monthly dashboard, quarterly deep-dive reviews  
-**Data Sources:** Clinical trial management systems, preclinical databases, regulatory tracking tools, financial systems  
-**Primary Audience:** Executive leadership, R&D leadership, Board of Directors  
+**Reporting Frequency:** Monthly dashboard, quarterly deep-dive reviews
+**Data Sources:** Clinical trial management systems, preclinical databases, regulatory tracking tools, financial systems
+**Primary Audience:** Executive leadership, R&D leadership, Board of Directors
 
 ## Scientific Discovery & Research Metrics
 

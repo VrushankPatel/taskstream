@@ -3,8 +3,16 @@
   "context": "SaaS company, 500 employees, evaluating expansion into European market",
   "stakeholders": {
     "requester": "VP Sales",
-    "approvers": ["CEO", "CFO", "Board"],
-    "influencers": ["VP Marketing", "General Counsel", "VP Operations"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board"
+    ],
+    "influencers": [
+      "VP Marketing",
+      "General Counsel",
+      "VP Operations"
+    ]
   },
   "request": {
     "market": "European Union",
@@ -17,19 +25,33 @@
     {
       "stage": "market_research",
       "duration": "6 weeks",
-      "activities": ["Market sizing analysis", "Competitive assessment", "Customer research", "Regulatory review"],
+      "activities": [
+        "Market sizing analysis",
+        "Competitive assessment",
+        "Customer research",
+        "Regulatory review"
+      ],
       "outcome": "Strong market opportunity identified"
     },
     {
       "stage": "business_case",
       "duration": "4 weeks",
-      "activities": ["Financial modeling", "Go-to-market strategy", "Resource planning", "Risk assessment"],
+      "activities": [
+        "Financial modeling",
+        "Go-to-market strategy",
+        "Resource planning",
+        "Risk assessment"
+      ],
       "outcome": "Positive ROI projected within 3 years"
     },
     {
       "stage": "board_review",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Due diligence questions", "Strategic alignment review"],
+      "activities": [
+        "Board presentation",
+        "Due diligence questions",
+        "Strategic alignment review"
+      ],
       "outcome": "Approved with phased approach"
     }
   ],
@@ -37,6 +59,11 @@
     "expected_revenue": "$15M ARR within 3 years",
     "market_share": "5% of EU SaaS market",
     "cost_savings": "Diversified revenue reduces US market dependency",
-    "risk_factors": ["Regulatory complexity", "Cultural adaptation", "Currency fluctuations", "Local competition"]
+    "risk_factors": [
+      "Regulatory complexity",
+      "Cultural adaptation",
+      "Currency fluctuations",
+      "Local competition"
+    ]
   }
 }

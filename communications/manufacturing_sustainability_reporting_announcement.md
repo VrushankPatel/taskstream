@@ -1,8 +1,8 @@
 ## Email Thread: Manufacturing Sustainability Reporting Initiative
 
-**From:** Chief Sustainability Officer  
-**To:** All Manufacturing Employees, Executive Leadership, Supply Chain Partners  
-**Subject:** New Sustainability Reporting Framework Implementation  
+**From:** Chief Sustainability Officer
+**To:** All Manufacturing Employees, Executive Leadership, Supply Chain Partners
+**Subject:** New Sustainability Reporting Framework Implementation
 
 Team,
 
@@ -41,14 +41,14 @@ Every team member plays a crucial role in our sustainability journey. Training s
 
 This initiative represents our commitment to responsible manufacturing and environmental stewardship. Together, we'll build a more sustainable future.
 
-Best regards,  
+Best regards,
 Chief Sustainability Officer
 
 ---
 
-**From:** Manufacturing Director  
-**To:** Chief Sustainability Officer, Operations Team  
-**Subject:** Re: New Sustainability Reporting Framework Implementation  
+**From:** Manufacturing Director
+**To:** Chief Sustainability Officer, Operations Team
+**Subject:** Re: New Sustainability Reporting Framework Implementation
 
 This is a critical initiative that aligns with our operational excellence goals. The integration with our MES system will provide valuable insights for process optimization.
 
@@ -63,9 +63,9 @@ Manufacturing Director
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** Manufacturing Director  
-**Subject:** Re: New Sustainability Reporting Framework Implementation  
+**From:** Chief Sustainability Officer
+**To:** Manufacturing Director
+**Subject:** Re: New Sustainability Reporting Framework Implementation
 
 To address your questions:
 1. Minimal impact - the system will pull data automatically from existing sensors
@@ -74,14 +74,14 @@ To address your questions:
 
 The kickoff meeting is scheduled for next Tuesday.
 
-Regards,  
+Regards,
 Chief Sustainability Officer
 
 ---
 
-**From:** Supply Chain Manager  
-**To:** Chief Sustainability Officer  
-**Subject:** Re: New Sustainability Reporting Framework Implementation  
+**From:** Supply Chain Manager
+**To:** Chief Sustainability Officer
+**Subject:** Re: New Sustainability Reporting Framework Implementation
 
 The supply chain transparency requirements are ambitious but necessary. We'll need to work closely with our suppliers to ensure data accuracy.
 
@@ -91,26 +91,26 @@ Supply Chain Manager
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** Supply Chain Manager  
-**Subject:** Re: New Sustainability Reporting Framework Implementation  
+**From:** Chief Sustainability Officer
+**To:** Supply Chain Manager
+**Subject:** Re: New Sustainability Reporting Framework Implementation
 
 Absolutely - supplier assessments are a key component. We'll develop standardized evaluation criteria and integrate them into our vendor qualification process.
 
 Let's discuss this in detail during the kickoff.
 
-Regards,  
+Regards,
 Chief Sustainability Officer
 
 ---
 
-**From:** CEO  
-**To:** Chief Sustainability Officer, Executive Team  
-**Subject:** Re: New Sustainability Reporting Framework Implementation  
+**From:** CEO
+**To:** Chief Sustainability Officer, Executive Team
+**Subject:** Re: New Sustainability Reporting Framework Implementation
 
 This framework demonstrates our leadership in sustainable manufacturing. The board fully supports this initiative and sees it as a competitive differentiator.
 
 Ensure we highlight these efforts in our next investor presentation.
 
-Regards,  
+Regards,
 CEO

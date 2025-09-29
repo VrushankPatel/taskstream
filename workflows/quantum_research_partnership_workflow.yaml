@@ -1,52 +1,89 @@
 workflow:
-  id: "workflow_055_004"
-  title: "Quantum Research Partnership Workflow"
-  department: "Quantum Computing Partnerships"
-  complexity: "medium"
-  participants: ["Research Partnership Managers", "Legal Counsel", "IP Specialists", "Technical Leads", "Academic Partners"]
-  trigger: "Potential quantum research collaboration opportunity identified"
+  id: workflow_055_004
+  title: Quantum Research Partnership Workflow
+  department: Quantum Computing Partnerships
+  complexity: medium
+  participants:
+  - Research Partnership Managers
+  - Legal Counsel
+  - IP Specialists
+  - Technical Leads
+  - Academic Partners
+  trigger: Potential quantum research collaboration opportunity identified
   steps:
-    - step: 1
-      actor: "Research Partnership Managers"
-      action: "Evaluate partnership potential and strategic alignment"
-      tools: ["Partnership evaluation frameworks", "Strategic alignment matrices"]
-      duration: "2 weeks"
-      outputs: ["Partnership opportunity assessment", "Strategic fit analysis"]
-    - step: 2
-      actor: "Technical Leads"
-      action: "Assess technical capabilities and research complementarity"
-      tools: ["Technical capability surveys", "Research portfolio analysis"]
-      duration: "2 weeks"
-      outputs: ["Technical assessment report", "Collaboration opportunity map"]
-    - step: 3
-      actor: "IP Specialists"
-      action: "Review intellectual property considerations and protection strategies"
-      tools: ["IP analysis tools", "Patent databases"]
-      duration: "3 weeks"
-      outputs: ["IP assessment", "Protection strategy recommendations"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Negotiate partnership agreements and terms"
-      decision_points: ["Agreement terms acceptable", "Legal risks mitigated"]
-      tools: ["Contract templates", "Legal review checklists"]
-      duration: "4 weeks"
-      outputs: ["Partnership agreement", "Legal risk assessment"]
-    - step: 5
-      actor: "Research Partnership Managers"
-      action: "Establish governance structure and communication protocols"
-      tools: ["Governance frameworks", "Communication planning tools"]
-      duration: "1 week"
-      outputs: ["Governance charter", "Communication plan"]
-    - step: 6
-      actor: "Technical Leads"
-      action: "Initiate joint research activities and milestone planning"
-      tools: ["Project management tools", "Research planning frameworks"]
-      duration: "2 weeks"
-      outputs: ["Joint research plan", "Milestone schedule"]
-    - step: 7
-      actor: "Academic Partners"
-      action: "Provide feedback on partnership setup and initial collaboration"
-      duration: "1 week"
-      outputs: ["Partner feedback report", "Initial collaboration assessment"]
-  success_criteria: "Mutually beneficial research partnership established with clear objectives and governance"
-  failure_modes: ["Strategic misalignment", "IP conflicts", "Resource commitment issues"]
+  - step: 1
+    actor: Research Partnership Managers
+    action: Evaluate partnership potential and strategic alignment
+    tools:
+    - Partnership evaluation frameworks
+    - Strategic alignment matrices
+    duration: 2 weeks
+    outputs:
+    - Partnership opportunity assessment
+    - Strategic fit analysis
+  - step: 2
+    actor: Technical Leads
+    action: Assess technical capabilities and research complementarity
+    tools:
+    - Technical capability surveys
+    - Research portfolio analysis
+    duration: 2 weeks
+    outputs:
+    - Technical assessment report
+    - Collaboration opportunity map
+  - step: 3
+    actor: IP Specialists
+    action: Review intellectual property considerations and protection strategies
+    tools:
+    - IP analysis tools
+    - Patent databases
+    duration: 3 weeks
+    outputs:
+    - IP assessment
+    - Protection strategy recommendations
+  - step: 4
+    actor: Legal Counsel
+    action: Negotiate partnership agreements and terms
+    decision_points:
+    - Agreement terms acceptable
+    - Legal risks mitigated
+    tools:
+    - Contract templates
+    - Legal review checklists
+    duration: 4 weeks
+    outputs:
+    - Partnership agreement
+    - Legal risk assessment
+  - step: 5
+    actor: Research Partnership Managers
+    action: Establish governance structure and communication protocols
+    tools:
+    - Governance frameworks
+    - Communication planning tools
+    duration: 1 week
+    outputs:
+    - Governance charter
+    - Communication plan
+  - step: 6
+    actor: Technical Leads
+    action: Initiate joint research activities and milestone planning
+    tools:
+    - Project management tools
+    - Research planning frameworks
+    duration: 2 weeks
+    outputs:
+    - Joint research plan
+    - Milestone schedule
+  - step: 7
+    actor: Academic Partners
+    action: Provide feedback on partnership setup and initial collaboration
+    duration: 1 week
+    outputs:
+    - Partner feedback report
+    - Initial collaboration assessment
+  success_criteria: Mutually beneficial research partnership established with clear
+    objectives and governance
+  failure_modes:
+  - Strategic misalignment
+  - IP conflicts
+  - Resource commitment issues

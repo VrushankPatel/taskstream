@@ -1,9 +1,9 @@
 ## Email Thread: International Operations Global Compliance Workshop
 
-**From:** Jennifer Walsh, VP Global Compliance  
-**To:** Regional Compliance Leads  
-**Subject:** Global Compliance Workshop: Emerging Markets Focus  
-**Date:** September 28, 2025  
+**From:** Jennifer Walsh, VP Global Compliance
+**To:** Regional Compliance Leads
+**Subject:** Global Compliance Workshop: Emerging Markets Focus
+**Date:** September 28, 2025
 
 Regional Leads,
 
@@ -30,14 +30,14 @@ With our expansion into emerging markets, I want to ensure our compliance framew
 
 Please prepare 2-3 key compliance challenges from your region for discussion.
 
-Jennifer  
+Jennifer
 
 ---
 
-**From:** Carlos Mendoza, Regional Director - Latin America  
-**To:** Jennifer Walsh, Regional Compliance Leads  
-**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus  
-**Date:** September 28, 2025  
+**From:** Carlos Mendoza, Regional Director - Latin America
+**To:** Jennifer Walsh, Regional Compliance Leads
+**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus
+**Date:** September 28, 2025
 
 Jennifer,
 
@@ -50,14 +50,14 @@ This workshop is timely given our Brazil expansion. Key challenges in Latin Amer
 
 We need practical strategies for managing these volatile environments. Can we include a session on crisis management for compliance violations?
 
-Carlos  
+Carlos
 
 ---
 
-**From:** Li Wei, Regional Director - Asia Pacific  
-**To:** Jennifer Walsh, Regional Compliance Leads  
-**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus  
-**Date:** September 28, 2025  
+**From:** Li Wei, Regional Director - Asia Pacific
+**To:** Jennifer Walsh, Regional Compliance Leads
+**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus
+**Date:** September 28, 2025
 
 Jennifer,
 
@@ -70,14 +70,14 @@ Asia Pacific presents unique challenges:
 
 We should discuss how to maintain global standards while respecting local business cultures. Time zone considerations for the workshop would be helpful.
 
-Li Wei  
+Li Wei
 
 ---
 
-**From:** Ahmed Hassan, Regional Director - Middle East/Africa  
-**To:** Jennifer Walsh, Regional Compliance Leads  
-**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus  
-**Date:** September 28, 2025  
+**From:** Ahmed Hassan, Regional Director - Middle East/Africa
+**To:** Jennifer Walsh, Regional Compliance Leads
+**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus
+**Date:** September 28, 2025
 
 Jennifer,
 
@@ -90,14 +90,14 @@ Middle East/Africa compliance landscape:
 
 We need guidance on managing operations in sanctioned territories and engaging with local partners under restricted conditions.
 
-Ahmed  
+Ahmed
 
 ---
 
-**From:** Jennifer Walsh, VP Global Compliance  
-**To:** Regional Compliance Leads  
-**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus  
-**Date:** September 28, 2025  
+**From:** Jennifer Walsh, VP Global Compliance
+**To:** Regional Compliance Leads
+**Subject:** Re: Global Compliance Workshop: Emerging Markets Focus
+**Date:** September 28, 2025
 
 Thank you all for the excellent input. This confirms the workshop's importance and helps me refine the agenda.
 

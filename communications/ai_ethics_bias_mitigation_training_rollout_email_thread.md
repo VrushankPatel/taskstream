@@ -1,9 +1,9 @@
 ## AI Ethics Bias Mitigation Training Rollout
 
-**From:** AI Ethics Officer  
-**To:** All Employees  
-**Subject:** Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline  
-**Date:** September 28, 2025  
+**From:** AI Ethics Officer
+**To:** All Employees
+**Subject:** Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline
+**Date:** September 28, 2025
 
 Team,
 
@@ -36,14 +36,14 @@ This training is critical for maintaining our commitment to responsible AI and e
 
 Please schedule your training session through the Learning Management System. Questions can be directed to the AI Ethics team.
 
-Best regards,  
-AI Ethics Officer  
+Best regards,
+AI Ethics Officer
 
 ---
 
-**From:** Data Science Director  
-**To:** AI Ethics Officer, All Data Scientists  
-**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline  
+**From:** Data Science Director
+**To:** AI Ethics Officer, All Data Scientists
+**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline
 
 Thanks for the comprehensive rollout plan. A few questions from the data science team:
 
@@ -53,13 +53,13 @@ Thanks for the comprehensive rollout plan. A few questions from the data science
 
 Looking forward to your response.
 
-Data Science Director  
+Data Science Director
 
 ---
 
-**From:** AI Ethics Officer  
-**To:** Data Science Director, All Data Scientists  
-**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline  
+**From:** AI Ethics Officer
+**To:** Data Science Director, All Data Scientists
+**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline
 
 Great questions!
 
@@ -71,23 +71,23 @@ Great questions!
 
 Let me know if you need anything else!
 
-AI Ethics Officer  
+AI Ethics Officer
 
 ---
 
-**From:** Product Manager  
-**To:** AI Ethics Officer  
-**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline  
+**From:** Product Manager
+**To:** AI Ethics Officer
+**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline
 
 As a business user, I'm concerned about the 4-hour time commitment. Can we break this into shorter sessions? Also, will there be business-focused examples rather than just technical ones?
 
-Product Manager  
+Product Manager
 
 ---
 
-**From:** AI Ethics Officer  
-**To:** Product Manager  
-**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline  
+**From:** AI Ethics Officer
+**To:** Product Manager
+**Subject:** Re: Mandatory AI Ethics and Bias Mitigation Training - Implementation Timeline
 
 Absolutely - we understand the time constraints. The training is designed as modular 1-hour sessions that can be taken over multiple days. We also have business-focused modules covering topics like algorithmic fairness in lending decisions and bias in recommendation systems.
 

@@ -1,9 +1,9 @@
 ## Meeting Notes: Asia Market Expansion Strategy
 
-**Meeting Title:** Asia Pacific Construction Market Expansion  
-**Date:** September 28, 2025  
-**Location:** Singapore Office  
-**Attendees:** CEO (Johnathan Lee), Regional Director Asia (Maria Santos), Business Development Director (David Chen), Project Director Singapore (Ling Wei), Legal Counsel (Sarah Park)  
+**Meeting Title:** Asia Pacific Construction Market Expansion
+**Date:** September 28, 2025
+**Location:** Singapore Office
+**Attendees:** CEO (Johnathan Lee), Regional Director Asia (Maria Santos), Business Development Director (David Chen), Project Director Singapore (Ling Wei), Legal Counsel (Sarah Park)
 
 ### Agenda Items
 

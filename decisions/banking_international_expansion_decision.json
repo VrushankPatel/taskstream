@@ -3,8 +3,17 @@
   "context": "Regional bank evaluating expansion into emerging Asian markets through acquisition of local financial institution",
   "stakeholders": {
     "requester": "Head of International Banking",
-    "approvers": ["CEO", "Board International Committee", "Regulatory Authorities"],
-    "influencers": ["Chief Risk Officer", "Head of Compliance", "Local Market Experts", "Investment Bankers"]
+    "approvers": [
+      "CEO",
+      "Board International Committee",
+      "Regulatory Authorities"
+    ],
+    "influencers": [
+      "Chief Risk Officer",
+      "Head of Compliance",
+      "Local Market Experts",
+      "Investment Bankers"
+    ]
   },
   "request": {
     "amount": "$1.2 billion",
@@ -16,28 +25,51 @@
     {
       "stage": "market_due_diligence",
       "duration": "4 months",
-      "activities": ["Market analysis", "Target identification", "Financial due diligence"],
+      "activities": [
+        "Market analysis",
+        "Target identification",
+        "Financial due diligence"
+      ],
       "outcome": "Three potential targets identified with strong growth potential"
     },
     {
       "stage": "regulatory_approval",
       "duration": "6 months",
-      "activities": ["Local regulatory submissions", "Cross-border banking licenses", "Anti-trust reviews"],
+      "activities": [
+        "Local regulatory submissions",
+        "Cross-border banking licenses",
+        "Anti-trust reviews"
+      ],
       "outcome": "Regulatory approvals secured for primary target"
     },
     {
       "stage": "integration_planning",
       "duration": "3 months",
-      "activities": ["Cultural assessment", "Systems integration planning", "Talent retention strategy"],
+      "activities": [
+        "Cultural assessment",
+        "Systems integration planning",
+        "Talent retention strategy"
+      ],
       "outcome": "Comprehensive integration plan developed"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% annual revenue growth from Asian operations within 5 years",
     "projected_value": "$3.5 billion in market capitalization increase",
-    "risk_factors": ["Currency volatility", "Regulatory changes", "Cultural integration challenges", "Geopolitical instability"]
+    "risk_factors": [
+      "Currency volatility",
+      "Regulatory changes",
+      "Cultural integration challenges",
+      "Geopolitical instability"
+    ]
   },
-  "decision_criteria": ["Market growth potential", "Regulatory environment", "Cultural fit", "Financial returns", "Risk-adjusted ROI"],
+  "decision_criteria": [
+    "Market growth potential",
+    "Regulatory environment",
+    "Cultural fit",
+    "Financial returns",
+    "Risk-adjusted ROI"
+  ],
   "outcome": "Approved",
   "lessons_learned": "International expansion requires extensive regulatory preparation, cultural due diligence critical for success, local partnerships essential for market entry"
 }

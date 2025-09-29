@@ -3,8 +3,17 @@
   "context": "Major energy company with coal and gas assets seeking to achieve net-zero emissions by 2040, evaluating carbon capture utilization and storage (CCUS) technologies",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Board Sustainability Committee"],
-    "influencers": ["Environmental NGOs", "Government Regulators", "Technology Providers", "Industry Analysts"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Environmental NGOs",
+      "Government Regulators",
+      "Technology Providers",
+      "Industry Analysts"
+    ]
   },
   "request": {
     "amount": "$2.8 billion",
@@ -16,31 +25,51 @@
     {
       "stage": "technology_evaluation",
       "duration": "12 weeks",
-      "activities": ["Technology vendor assessments", "Pilot project reviews", "Technical feasibility studies"],
+      "activities": [
+        "Technology vendor assessments",
+        "Pilot project reviews",
+        "Technical feasibility studies"
+      ],
       "outcome": "Selected integrated CCUS solution with 95% capture efficiency and utilization potential"
     },
     {
       "stage": "regulatory_navigation",
       "duration": "8 weeks",
-      "activities": ["Permitting strategy development", "Policy analysis", "Stakeholder engagement"],
+      "activities": [
+        "Permitting strategy development",
+        "Policy analysis",
+        "Stakeholder engagement"
+      ],
       "outcome": "Secured preliminary regulatory approvals and identified policy incentives worth $400 million"
     },
     {
       "stage": "financial_structuring",
       "duration": "6 weeks",
-      "activities": ["Investment modeling", "Carbon credit valuation", "Funding strategy development"],
+      "activities": [
+        "Investment modeling",
+        "Carbon credit valuation",
+        "Funding strategy development"
+      ],
       "outcome": "Structured financing with 40% government grants, 30% green bonds, 30% corporate funds"
     },
     {
       "stage": "risk_assessment",
       "duration": "4 weeks",
-      "activities": ["Technical risk analysis", "Market risk evaluation", "Geopolitical risk assessment"],
+      "activities": [
+        "Technical risk analysis",
+        "Market risk evaluation",
+        "Geopolitical risk assessment"
+      ],
       "outcome": "Identified key risks with mitigation strategies and contingency planning"
     },
     {
       "stage": "partnership_development",
       "duration": "6 weeks",
-      "activities": ["Technology partner selection", "Joint venture negotiations", "Supply chain agreements"],
+      "activities": [
+        "Technology partner selection",
+        "Joint venture negotiations",
+        "Supply chain agreements"
+      ],
       "outcome": "Established partnerships with leading CCUS technology providers and carbon utilization companies"
     }
   ],
@@ -48,6 +77,10 @@
     "emissions_reduction": "45 million tons CO2 annually",
     "revenue_potential": "$800 million from carbon credits and utilization products",
     "cost_impact": "$150 million annual operating costs with 25% efficiency gains",
-    "risk_factors": ["Technology performance below expectations", "Regulatory changes affecting incentives", "Carbon price volatility impacting economics"]
+    "risk_factors": [
+      "Technology performance below expectations",
+      "Regulatory changes affecting incentives",
+      "Carbon price volatility impacting economics"
+    ]
   }
 }

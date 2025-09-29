@@ -1,47 +1,94 @@
 workflow:
-  id: "workflow_student_mental_health"
-  title: "Student Mental Health Support Workflow"
-  department: "Student Services"
-  complexity: "high"
-  participants: ["Counselor", "Academic Advisor", "Dean of Students", "Medical Staff", "Professor", "Parent/Guardian"]
-  trigger: "Student self-reports mental health concerns or faculty/staff observes concerning behavior"
+  id: workflow_student_mental_health
+  title: Student Mental Health Support Workflow
+  department: Student Services
+  complexity: high
+  participants:
+  - Counselor
+  - Academic Advisor
+  - Dean of Students
+  - Medical Staff
+  - Professor
+  - Parent/Guardian
+  trigger: Student self-reports mental health concerns or faculty/staff observes concerning
+    behavior
   steps:
-    - step: 1
-      actor: "Counselor"
-      action: "Initial intake and assessment of student's mental health needs"
-      tools: ["Mental health intake forms", "Risk assessment protocols", "Confidential counseling sessions"]
-      duration: "30-45 minutes"
-      outputs: ["Mental health assessment", "Initial support plan"]
-    - step: 2
-      actor: "Academic Advisor"
-      action: "Review academic accommodations and support academic progress during mental health challenges"
-      tools: ["Academic accommodation requests", "Grade monitoring systems", "Flexible scheduling tools"]
-      duration: "20-30 minutes"
-      outputs: ["Academic support plan", "Accommodation approvals"]
-      decision_points: ["Medical leave required?", "Reduced course load needed?"]
-    - step: 3
-      actor: "Medical Staff"
-      action: "Provide medical evaluation and coordinate with mental health treatment providers"
-      tools: ["Medical assessment protocols", "Referral systems", "Medication management guidelines"]
-      duration: "45-60 minutes"
-      outputs: ["Medical evaluation report", "Treatment coordination plan"]
-    - step: 4
-      actor: "Dean of Students"
-      action: "Oversee comprehensive student support and coordinate university resources"
-      tools: ["Student support coordination tools", "Crisis management protocols", "Resource referral database"]
-      duration: "1-2 hours"
-      outputs: ["Comprehensive support plan", "Resource allocation decisions"]
-    - step: 5
-      actor: "Professor"
-      action: "Implement classroom accommodations and monitor student progress"
-      tools: ["Accommodation implementation guidelines", "Progress monitoring tools", "Communication protocols"]
-      duration: "Ongoing"
-      outputs: ["Accommodation implementation notes", "Progress reports"]
-    - step: 6
-      actor: "Parent/Guardian"
-      action: "Participate in family counseling and support student's recovery"
-      tools: ["Family counseling sessions", "Communication guidelines", "Support resource materials"]
-      duration: "As needed"
-      outputs: ["Family support participation records", "Communication logs"]
-  success_criteria: "Student successfully manages mental health challenges while maintaining academic progress and campus safety"
-  failure_modes: ["Delayed intervention", "Inadequate resource allocation", "Privacy breaches", "Lack of follow-through", "Stigma-related barriers"]
+  - step: 1
+    actor: Counselor
+    action: Initial intake and assessment of student's mental health needs
+    tools:
+    - Mental health intake forms
+    - Risk assessment protocols
+    - Confidential counseling sessions
+    duration: 30-45 minutes
+    outputs:
+    - Mental health assessment
+    - Initial support plan
+  - step: 2
+    actor: Academic Advisor
+    action: Review academic accommodations and support academic progress during mental
+      health challenges
+    tools:
+    - Academic accommodation requests
+    - Grade monitoring systems
+    - Flexible scheduling tools
+    duration: 20-30 minutes
+    outputs:
+    - Academic support plan
+    - Accommodation approvals
+    decision_points:
+    - Medical leave required?
+    - Reduced course load needed?
+  - step: 3
+    actor: Medical Staff
+    action: Provide medical evaluation and coordinate with mental health treatment
+      providers
+    tools:
+    - Medical assessment protocols
+    - Referral systems
+    - Medication management guidelines
+    duration: 45-60 minutes
+    outputs:
+    - Medical evaluation report
+    - Treatment coordination plan
+  - step: 4
+    actor: Dean of Students
+    action: Oversee comprehensive student support and coordinate university resources
+    tools:
+    - Student support coordination tools
+    - Crisis management protocols
+    - Resource referral database
+    duration: 1-2 hours
+    outputs:
+    - Comprehensive support plan
+    - Resource allocation decisions
+  - step: 5
+    actor: Professor
+    action: Implement classroom accommodations and monitor student progress
+    tools:
+    - Accommodation implementation guidelines
+    - Progress monitoring tools
+    - Communication protocols
+    duration: Ongoing
+    outputs:
+    - Accommodation implementation notes
+    - Progress reports
+  - step: 6
+    actor: Parent/Guardian
+    action: Participate in family counseling and support student's recovery
+    tools:
+    - Family counseling sessions
+    - Communication guidelines
+    - Support resource materials
+    duration: As needed
+    outputs:
+    - Family support participation records
+    - Communication logs
+  success_criteria: Student successfully manages mental health challenges while maintaining
+    academic progress and campus safety
+  failure_modes:
+  - Delayed intervention
+  - Inadequate resource allocation
+  - Privacy breaches
+  - Lack of follow-through
+  - Stigma-related barriers

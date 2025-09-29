@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_049_005"
-  title: "Manufacturing Circular Economy Transition Workflow"
-  department: "Sustainability & Operations"
-  complexity: "high"
-  participants: ["Sustainability Managers", "Supply Chain Teams", "Product Designers", "Manufacturing Engineers", "Supplier Partners"]
-  trigger: "Corporate sustainability goals or regulatory requirements"
+  id: workflow_049_005
+  title: Manufacturing Circular Economy Transition Workflow
+  department: Sustainability & Operations
+  complexity: high
+  participants:
+  - Sustainability Managers
+  - Supply Chain Teams
+  - Product Designers
+  - Manufacturing Engineers
+  - Supplier Partners
+  trigger: Corporate sustainability goals or regulatory requirements
   steps:
-    - step: 1
-      actor: "Sustainability Managers"
-      action: "Assess current product lifecycle and material flows"
-      tools: ["Life cycle assessment tools", "Material flow analysis software"]
-      duration: "4 weeks"
-      outputs: ["Current state assessment", "Opportunity identification"]
-    - step: 2
-      actor: "Product Designers"
-      action: "Redesign products for circularity principles"
-      tools: ["CAD software", "Design for disassembly tools", "Material selection databases"]
-      duration: "8 weeks"
-      outputs: ["Circular product designs", "Material specifications"]
-    - step: 3
-      actor: "Supply Chain Teams"
-      action: "Develop closed-loop supply chain partnerships"
-      tools: ["Supplier collaboration platforms", "Reverse logistics planning"]
-      duration: "6 weeks"
-      outputs: ["Supplier agreements", "Reverse logistics framework"]
-    - step: 4
-      actor: "Manufacturing Engineers"
-      action: "Implement manufacturing process changes"
-      tools: ["Process optimization tools", "Quality management systems"]
-      duration: "10 weeks"
-      outputs: ["Updated manufacturing processes", "Quality control protocols"]
-    - step: 5
-      actor: "Supplier Partners"
-      action: "Establish take-back and recycling programs"
-      tools: ["Recycling program management", "Material recovery systems"]
-      duration: "4 weeks"
-      outputs: ["Take-back program setup", "Recycling partnerships"]
-    - step: 6
-      actor: "Sustainability Managers"
-      action: "Monitor and optimize circular economy performance"
-      tools: ["Sustainability tracking dashboards", "Performance analytics"]
-      duration: "Ongoing"
-      outputs: ["Performance reports", "Continuous improvement plans"]
-  success_criteria: "50% reduction in virgin material usage, established take-back programs"
-  failure_modes: ["Supplier resistance", "Technical feasibility issues", "Cost overruns"]
+  - step: 1
+    actor: Sustainability Managers
+    action: Assess current product lifecycle and material flows
+    tools:
+    - Life cycle assessment tools
+    - Material flow analysis software
+    duration: 4 weeks
+    outputs:
+    - Current state assessment
+    - Opportunity identification
+  - step: 2
+    actor: Product Designers
+    action: Redesign products for circularity principles
+    tools:
+    - CAD software
+    - Design for disassembly tools
+    - Material selection databases
+    duration: 8 weeks
+    outputs:
+    - Circular product designs
+    - Material specifications
+  - step: 3
+    actor: Supply Chain Teams
+    action: Develop closed-loop supply chain partnerships
+    tools:
+    - Supplier collaboration platforms
+    - Reverse logistics planning
+    duration: 6 weeks
+    outputs:
+    - Supplier agreements
+    - Reverse logistics framework
+  - step: 4
+    actor: Manufacturing Engineers
+    action: Implement manufacturing process changes
+    tools:
+    - Process optimization tools
+    - Quality management systems
+    duration: 10 weeks
+    outputs:
+    - Updated manufacturing processes
+    - Quality control protocols
+  - step: 5
+    actor: Supplier Partners
+    action: Establish take-back and recycling programs
+    tools:
+    - Recycling program management
+    - Material recovery systems
+    duration: 4 weeks
+    outputs:
+    - Take-back program setup
+    - Recycling partnerships
+  - step: 6
+    actor: Sustainability Managers
+    action: Monitor and optimize circular economy performance
+    tools:
+    - Sustainability tracking dashboards
+    - Performance analytics
+    duration: Ongoing
+    outputs:
+    - Performance reports
+    - Continuous improvement plans
+  success_criteria: 50% reduction in virgin material usage, established take-back
+    programs
+  failure_modes:
+  - Supplier resistance
+  - Technical feasibility issues
+  - Cost overruns

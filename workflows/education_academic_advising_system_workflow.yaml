@@ -1,40 +1,71 @@
 workflow:
-  id: "workflow_education_aas"
-  title: "Academic Advising System Implementation"
-  department: "Academic Affairs"
-  complexity: "high"
-  participants: ["Dean of Students", "Academic Advisor", "IT Director", "Faculty Representatives", "Students"]
-  trigger: "Need to improve student academic planning and success rates"
+  id: workflow_education_aas
+  title: Academic Advising System Implementation
+  department: Academic Affairs
+  complexity: high
+  participants:
+  - Dean of Students
+  - Academic Advisor
+  - IT Director
+  - Faculty Representatives
+  - Students
+  trigger: Need to improve student academic planning and success rates
   steps:
-    - step: 1
-      actor: "Academic Advisor"
-      action: "Assess current advising processes and identify improvement areas"
-      tools: ["Student surveys", "Advising session recordings"]
-      duration: "2 weeks"
-      outputs: ["Current state analysis", "Requirements gathering report"]
-    - step: 2
-      actor: "IT Director"
-      action: "Evaluate advising platforms and select system for degree planning and progress tracking"
-      decision_points: ["Integration with student information system", "User experience", "Scalability"]
-      duration: "4 weeks"
-      outputs: ["Platform selection", "Technical requirements document"]
-    - step: 3
-      actor: "Academic Advisor"
-      action: "Configure degree requirements and academic rules in the system"
-      tools: ["System configuration tools", "Academic catalog data"]
-      duration: "6 weeks"
-      outputs: ["Configured advising system", "Rule validation reports"]
-    - step: 4
-      actor: "Dean of Students"
-      action: "Train advisors and faculty on system usage and best practices"
-      tools: ["Training materials", "Pilot program"]
-      duration: "3 weeks"
-      outputs: ["Training completion records", "Pilot feedback"]
-    - step: 5
-      actor: "IT Director"
-      action: "Deploy system to full user base with ongoing support"
-      tools: ["Deployment tools", "Help desk system"]
-      duration: "2 weeks"
-      outputs: ["Full deployment", "User support documentation"]
-  success_criteria: "Advising system adopted by >80% of students and advisors with measurable improvement in academic planning and graduation rates"
-  failure_modes: ["Low user adoption due to complex interface", "Inaccurate degree requirement configurations", "Insufficient training leading to underutilization"]
+  - step: 1
+    actor: Academic Advisor
+    action: Assess current advising processes and identify improvement areas
+    tools:
+    - Student surveys
+    - Advising session recordings
+    duration: 2 weeks
+    outputs:
+    - Current state analysis
+    - Requirements gathering report
+  - step: 2
+    actor: IT Director
+    action: Evaluate advising platforms and select system for degree planning and
+      progress tracking
+    decision_points:
+    - Integration with student information system
+    - User experience
+    - Scalability
+    duration: 4 weeks
+    outputs:
+    - Platform selection
+    - Technical requirements document
+  - step: 3
+    actor: Academic Advisor
+    action: Configure degree requirements and academic rules in the system
+    tools:
+    - System configuration tools
+    - Academic catalog data
+    duration: 6 weeks
+    outputs:
+    - Configured advising system
+    - Rule validation reports
+  - step: 4
+    actor: Dean of Students
+    action: Train advisors and faculty on system usage and best practices
+    tools:
+    - Training materials
+    - Pilot program
+    duration: 3 weeks
+    outputs:
+    - Training completion records
+    - Pilot feedback
+  - step: 5
+    actor: IT Director
+    action: Deploy system to full user base with ongoing support
+    tools:
+    - Deployment tools
+    - Help desk system
+    duration: 2 weeks
+    outputs:
+    - Full deployment
+    - User support documentation
+  success_criteria: Advising system adopted by >80% of students and advisors with
+    measurable improvement in academic planning and graduation rates
+  failure_modes:
+  - Low user adoption due to complex interface
+  - Inaccurate degree requirement configurations
+  - Insufficient training leading to underutilization

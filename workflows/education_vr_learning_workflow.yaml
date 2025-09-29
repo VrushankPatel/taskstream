@@ -1,40 +1,75 @@
 workflow:
-  id: "workflow_education_vr_learning"
-  title: "Virtual Reality Learning Implementation"
-  department: "Educational Technology"
-  complexity: "high"
-  participants: ["Instructional Designer", "VR Developer", "Subject Matter Expert", "IT Administrator", "Student Success Coordinator"]
-  trigger: "Curriculum committee approves VR integration for course"
+  id: workflow_education_vr_learning
+  title: Virtual Reality Learning Implementation
+  department: Educational Technology
+  complexity: high
+  participants:
+  - Instructional Designer
+  - VR Developer
+  - Subject Matter Expert
+  - IT Administrator
+  - Student Success Coordinator
+  trigger: Curriculum committee approves VR integration for course
   steps:
-    - step: 1
-      actor: "Instructional Designer"
-      action: "Design VR learning objectives and assessment methods"
-      tools: ["Learning Management System", "VR Content Planning Tools"]
-      duration: "2-4 weeks"
-      outputs: ["Learning objectives", "VR scenario scripts", "Assessment rubrics"]
-    - step: 2
-      actor: "VR Developer"
-      action: "Create and program VR environments and interactions"
-      tools: ["VR Development Platform", "3D Modeling Software", "Game Engine"]
-      duration: "4-8 weeks"
-      outputs: ["VR application builds", "Technical documentation", "User guides"]
-    - step: 3
-      actor: "Subject Matter Expert"
-      action: "Validate content accuracy and educational effectiveness"
-      decision_points: ["Content meets learning standards?", "VR experience enhances understanding?", "Accessibility requirements satisfied?"]
-      duration: "1-2 weeks"
-      outputs: ["Content validation reports", "Educational impact assessments"]
-    - step: 4
-      actor: "IT Administrator"
-      action: "Deploy VR infrastructure and provide technical support"
-      tools: ["VR Hardware Inventory", "Network Configuration Tools"]
-      duration: "1 week"
-      outputs: ["Deployment checklists", "Technical support procedures", "Equipment maintenance schedules"]
-    - step: 5
-      actor: "Student Success Coordinator"
-      action: "Monitor student engagement and learning outcomes"
-      tools: ["Learning Analytics Platform", "Student Feedback Systems"]
-      duration: "Ongoing"
-      outputs: ["Usage analytics", "Student performance data", "Improvement recommendations"]
-  success_criteria: "Student engagement up 25%, learning outcomes improved 15%, technical issues <5% of sessions"
-  failure_modes: ["VR sickness affecting student participation", "Technical compatibility issues", "Content development delays impacting course schedules"]
+  - step: 1
+    actor: Instructional Designer
+    action: Design VR learning objectives and assessment methods
+    tools:
+    - Learning Management System
+    - VR Content Planning Tools
+    duration: 2-4 weeks
+    outputs:
+    - Learning objectives
+    - VR scenario scripts
+    - Assessment rubrics
+  - step: 2
+    actor: VR Developer
+    action: Create and program VR environments and interactions
+    tools:
+    - VR Development Platform
+    - 3D Modeling Software
+    - Game Engine
+    duration: 4-8 weeks
+    outputs:
+    - VR application builds
+    - Technical documentation
+    - User guides
+  - step: 3
+    actor: Subject Matter Expert
+    action: Validate content accuracy and educational effectiveness
+    decision_points:
+    - Content meets learning standards?
+    - VR experience enhances understanding?
+    - Accessibility requirements satisfied?
+    duration: 1-2 weeks
+    outputs:
+    - Content validation reports
+    - Educational impact assessments
+  - step: 4
+    actor: IT Administrator
+    action: Deploy VR infrastructure and provide technical support
+    tools:
+    - VR Hardware Inventory
+    - Network Configuration Tools
+    duration: 1 week
+    outputs:
+    - Deployment checklists
+    - Technical support procedures
+    - Equipment maintenance schedules
+  - step: 5
+    actor: Student Success Coordinator
+    action: Monitor student engagement and learning outcomes
+    tools:
+    - Learning Analytics Platform
+    - Student Feedback Systems
+    duration: Ongoing
+    outputs:
+    - Usage analytics
+    - Student performance data
+    - Improvement recommendations
+  success_criteria: Student engagement up 25%, learning outcomes improved 15%, technical
+    issues <5% of sessions
+  failure_modes:
+  - VR sickness affecting student participation
+  - Technical compatibility issues
+  - Content development delays impacting course schedules

@@ -3,8 +3,20 @@
   "context": "Global pharmaceutical company, 12,000 employees, $15B annual revenue, implementing personalized medicine platform for oncology and immunology therapeutic areas",
   "stakeholders": {
     "requester": "Chief Scientific Officer",
-    "approvers": ["CEO", "Chief Medical Officer", "CFO", "Board of Directors"],
-    "influencers": ["VP Research & Development", "VP Commercial Operations", "Chief Data Officer", "Data Privacy Officer", "VP Regulatory Affairs", "Head of Digital Health"]
+    "approvers": [
+      "CEO",
+      "Chief Medical Officer",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Research & Development",
+      "VP Commercial Operations",
+      "Chief Data Officer",
+      "Data Privacy Officer",
+      "VP Regulatory Affairs",
+      "Head of Digital Health"
+    ]
   },
   "request": {
     "amount": "$220,000,000",
@@ -16,44 +28,86 @@
     {
       "stage": "strategic_alignment",
       "duration": "6 weeks",
-      "activities": ["Market opportunity analysis", "Competitive landscape assessment", "Internal capability gap analysis", "Strategic priority alignment"],
+      "activities": [
+        "Market opportunity analysis",
+        "Competitive landscape assessment",
+        "Internal capability gap analysis",
+        "Strategic priority alignment"
+      ],
       "outcome": "Approved as core strategic initiative with board-level sponsorship"
     },
     {
       "stage": "technology_partnerships",
       "duration": "8 weeks",
-      "activities": ["Genomic sequencing platform evaluation", "AI/ML vendor selection", "Data integration architecture design", "Partnership agreement negotiations"],
+      "activities": [
+        "Genomic sequencing platform evaluation",
+        "AI/ML vendor selection",
+        "Data integration architecture design",
+        "Partnership agreement negotiations"
+      ],
       "outcome": "Strategic partnerships secured with Illumina, Tempus AI, and Flatiron Health"
     },
     {
       "stage": "regulatory_strategy",
       "duration": "10 weeks",
-      "activities": ["FDA breakthrough therapy pathway analysis", "Companion diagnostic regulatory framework", "Data privacy compliance assessment", "International regulatory alignment"],
+      "activities": [
+        "FDA breakthrough therapy pathway analysis",
+        "Companion diagnostic regulatory framework",
+        "Data privacy compliance assessment",
+        "International regulatory alignment"
+      ],
       "outcome": "Regulatory strategy developed with FDA breakthrough designation pathway"
     },
     {
       "stage": "pilot_validation",
       "duration": "16 weeks",
-      "activities": ["Oncology pilot trial design", "Patient cohort identification", "Data collection and analysis protocols", "Clinical outcome validation"],
+      "activities": [
+        "Oncology pilot trial design",
+        "Patient cohort identification",
+        "Data collection and analysis protocols",
+        "Clinical outcome validation"
+      ],
       "outcome": "Pilot demonstrated 45% improvement in treatment response prediction accuracy"
     },
     {
       "stage": "platform_development",
       "duration": "24 weeks",
-      "activities": ["Platform architecture implementation", "AI model training and validation", "Integration with existing clinical systems", "Security and compliance testing"],
+      "activities": [
+        "Platform architecture implementation",
+        "AI model training and validation",
+        "Integration with existing clinical systems",
+        "Security and compliance testing"
+      ],
       "outcome": "Scalable platform developed with SOC 2 Type II compliance"
     },
     {
       "stage": "commercial_launch",
       "duration": "12 weeks",
-      "activities": ["Go-to-market strategy development", "Pricing model design", "Sales team training", "Market launch execution"],
+      "activities": [
+        "Go-to-market strategy development",
+        "Pricing model design",
+        "Sales team training",
+        "Market launch execution"
+      ],
       "outcome": "Platform launched with 15 initial pharmaceutical partners"
     }
   ],
   "business_impact": {
     "expected_revenue": "$750,000,000",
     "projected_market_entry": "36 months",
-    "risk_factors": ["Evolving regulatory landscape for genomic data", "Data privacy and consent challenges", "Technology integration complexity", "Market adoption slower than projected", "Competition from specialized biotech firms"],
-    "strategic_benefits": ["Leadership position in precision medicine", "Accelerated drug development pipeline", "New revenue streams from companion diagnostics", "Enhanced clinical trial efficiency", "Improved patient outcomes and market differentiation"]
+    "risk_factors": [
+      "Evolving regulatory landscape for genomic data",
+      "Data privacy and consent challenges",
+      "Technology integration complexity",
+      "Market adoption slower than projected",
+      "Competition from specialized biotech firms"
+    ],
+    "strategic_benefits": [
+      "Leadership position in precision medicine",
+      "Accelerated drug development pipeline",
+      "New revenue streams from companion diagnostics",
+      "Enhanced clinical trial efficiency",
+      "Improved patient outcomes and market differentiation"
+    ]
   }
 }

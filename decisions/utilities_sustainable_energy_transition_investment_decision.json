@@ -3,8 +3,16 @@
   "context": "Mid-sized utility company planning $500M investment in renewable energy infrastructure over 5 years",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Financial Officer"],
-    "influencers": ["Chief Technology Officer", "Environmental Compliance Manager", "Regulatory Affairs Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Chief Technology Officer",
+      "Environmental Compliance Manager",
+      "Regulatory Affairs Director"
+    ]
   },
   "request": {
     "amount": "$500,000,000",
@@ -16,28 +24,49 @@
     {
       "stage": "feasibility_analysis",
       "duration": "3 months",
-      "activities": ["Technical feasibility study", "Financial modeling", "Regulatory impact assessment"],
+      "activities": [
+        "Technical feasibility study",
+        "Financial modeling",
+        "Regulatory impact assessment"
+      ],
       "outcome": "Feasibility confirmed with projected 25% cost savings"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "2 months",
-      "activities": ["Board presentations", "Shareholder meetings", "Community consultations"],
+      "activities": [
+        "Board presentations",
+        "Shareholder meetings",
+        "Community consultations"
+      ],
       "outcome": "Strong stakeholder support with minor concerns about timeline"
     },
     {
       "stage": "final_approval",
       "duration": "1 month",
-      "activities": ["Board vote", "Contract negotiations", "Funding arrangements"],
+      "activities": [
+        "Board vote",
+        "Contract negotiations",
+        "Funding arrangements"
+      ],
       "outcome": "Approved with phased implementation over 5 years"
     }
   ],
   "business_impact": {
     "expected_outcome": "60% renewable energy mix by 2030, 25% reduction in energy costs",
     "projected_value": "$125,000,000 annual savings",
-    "risk_factors": ["Technology obsolescence", "Regulatory changes", "Construction delays"]
+    "risk_factors": [
+      "Technology obsolescence",
+      "Regulatory changes",
+      "Construction delays"
+    ]
   },
-  "decision_criteria": ["Financial ROI >15%", "Regulatory compliance", "Technical feasibility", "Stakeholder support"],
+  "decision_criteria": [
+    "Financial ROI >15%",
+    "Regulatory compliance",
+    "Technical feasibility",
+    "Stakeholder support"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early stakeholder engagement critical for large infrastructure projects, phased approach reduces execution risk"
 }

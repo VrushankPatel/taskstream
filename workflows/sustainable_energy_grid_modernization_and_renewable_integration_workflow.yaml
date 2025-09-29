@@ -1,58 +1,118 @@
 workflow:
-  id: "workflow_sustainable_energy_grid_modernization_and_renewable_integration"
-  title: "Sustainable Energy Grid Modernization and Renewable Integration"
-  department: "Grid Operations & Renewable Energy"
-  complexity: "complex"
-  participants: ["Chief Renewable Officer", "Grid Operations Manager", "Energy Storage Engineer", "Regulatory Compliance Manager", "IT Systems Architect", "Environmental Impact Specialist"]
-  trigger: "Government mandate for 50% renewable energy integration or significant renewable energy capacity addition"
+  id: workflow_sustainable_energy_grid_modernization_and_renewable_integration
+  title: Sustainable Energy Grid Modernization and Renewable Integration
+  department: Grid Operations & Renewable Energy
+  complexity: complex
+  participants:
+  - Chief Renewable Officer
+  - Grid Operations Manager
+  - Energy Storage Engineer
+  - Regulatory Compliance Manager
+  - IT Systems Architect
+  - Environmental Impact Specialist
+  trigger: Government mandate for 50% renewable energy integration or significant
+    renewable energy capacity addition
   steps:
-    - step: 1
-      actor: "Chief Renewable Officer"
-      action: "Assess renewable energy portfolio and grid integration requirements"
-      tools: ["Energy modeling software", "Grid analysis tools", "Regulatory compliance databases"]
-      duration: "8 weeks"
-      outputs: ["Renewable integration assessment", "Grid capacity analysis", "Integration roadmap"]
-    - step: 2
-      actor: "Energy Storage Engineer"
-      action: "Design energy storage systems for grid stability and renewable intermittency management"
-      tools: ["Battery modeling software", "Grid simulation platforms", "Storage optimization algorithms"]
-      duration: "10 weeks"
-      outputs: ["Storage system specifications", "Grid stability models", "Economic analysis"]
-    - step: 3
-      actor: "Grid Operations Manager"
-      action: "Develop grid modernization plan including smart grid technologies and automation"
-      tools: ["SCADA systems", "Grid management software", "Load forecasting models"]
-      duration: "12 weeks"
-      outputs: ["Grid modernization blueprint", "Technology implementation plan", "Operational procedures"]
-    - step: 4
-      actor: "Regulatory Compliance Manager"
-      action: "Navigate regulatory approvals and interconnection agreements for renewable projects"
-      tools: ["Regulatory filing systems", "Interconnection study software", "Legal review platforms"]
-      duration: "16 weeks"
-      outputs: ["Regulatory approvals", "Interconnection agreements", "Compliance documentation"]
-    - step: 5
-      actor: "IT Systems Architect"
-      action: "Implement advanced monitoring, control, and analytics systems for renewable integration"
-      tools: ["IoT platforms", "AI/ML analytics tools", "Cybersecurity frameworks"]
-      duration: "14 weeks"
-      outputs: ["Monitoring system architecture", "Control algorithms", "Data analytics platform"]
-    - step: 6
-      actor: "Environmental Impact Specialist"
-      action: "Conduct environmental assessments and develop mitigation strategies for grid infrastructure"
-      tools: ["Environmental impact assessment software", "GIS mapping tools", "Stakeholder engagement platforms"]
-      duration: "8 weeks"
-      outputs: ["Environmental impact reports", "Mitigation plans", "Stakeholder engagement reports"]
-    - step: 7
-      actor: "Cross-functional team"
-      action: "Execute phased integration with testing, validation, and performance monitoring"
-      tools: ["Grid testing equipment", "Performance monitoring systems", "Quality assurance frameworks"]
-      duration: "20 weeks"
-      outputs: ["Integration test results", "Performance validation reports", "Optimization recommendations"]
-  success_criteria: "50% renewable energy integration achieved with 99.5% grid reliability, 20% reduction in carbon emissions, and full regulatory compliance"
-  failure_modes: ["Grid instability from renewable intermittency", "Regulatory approval delays", "Technology integration failures", "Environmental opposition", "Budget overruns from scope changes"]
+  - step: 1
+    actor: Chief Renewable Officer
+    action: Assess renewable energy portfolio and grid integration requirements
+    tools:
+    - Energy modeling software
+    - Grid analysis tools
+    - Regulatory compliance databases
+    duration: 8 weeks
+    outputs:
+    - Renewable integration assessment
+    - Grid capacity analysis
+    - Integration roadmap
+  - step: 2
+    actor: Energy Storage Engineer
+    action: Design energy storage systems for grid stability and renewable intermittency
+      management
+    tools:
+    - Battery modeling software
+    - Grid simulation platforms
+    - Storage optimization algorithms
+    duration: 10 weeks
+    outputs:
+    - Storage system specifications
+    - Grid stability models
+    - Economic analysis
+  - step: 3
+    actor: Grid Operations Manager
+    action: Develop grid modernization plan including smart grid technologies and
+      automation
+    tools:
+    - SCADA systems
+    - Grid management software
+    - Load forecasting models
+    duration: 12 weeks
+    outputs:
+    - Grid modernization blueprint
+    - Technology implementation plan
+    - Operational procedures
+  - step: 4
+    actor: Regulatory Compliance Manager
+    action: Navigate regulatory approvals and interconnection agreements for renewable
+      projects
+    tools:
+    - Regulatory filing systems
+    - Interconnection study software
+    - Legal review platforms
+    duration: 16 weeks
+    outputs:
+    - Regulatory approvals
+    - Interconnection agreements
+    - Compliance documentation
+  - step: 5
+    actor: IT Systems Architect
+    action: Implement advanced monitoring, control, and analytics systems for renewable
+      integration
+    tools:
+    - IoT platforms
+    - AI/ML analytics tools
+    - Cybersecurity frameworks
+    duration: 14 weeks
+    outputs:
+    - Monitoring system architecture
+    - Control algorithms
+    - Data analytics platform
+  - step: 6
+    actor: Environmental Impact Specialist
+    action: Conduct environmental assessments and develop mitigation strategies for
+      grid infrastructure
+    tools:
+    - Environmental impact assessment software
+    - GIS mapping tools
+    - Stakeholder engagement platforms
+    duration: 8 weeks
+    outputs:
+    - Environmental impact reports
+    - Mitigation plans
+    - Stakeholder engagement reports
+  - step: 7
+    actor: Cross-functional team
+    action: Execute phased integration with testing, validation, and performance monitoring
+    tools:
+    - Grid testing equipment
+    - Performance monitoring systems
+    - Quality assurance frameworks
+    duration: 20 weeks
+    outputs:
+    - Integration test results
+    - Performance validation reports
+    - Optimization recommendations
+  success_criteria: 50% renewable energy integration achieved with 99.5% grid reliability,
+    20% reduction in carbon emissions, and full regulatory compliance
+  failure_modes:
+  - Grid instability from renewable intermittency
+  - Regulatory approval delays
+  - Technology integration failures
+  - Environmental opposition
+  - Budget overruns from scope changes
   metrics:
-    - "Renewable energy penetration: Target 50%+"
-    - "Grid reliability: Target 99.5% uptime"
-    - "Carbon emission reduction: Target 20%+"
-    - "Integration timeline adherence: Target 100%"
-    - "Cost per MW integrated: Target <$500,000"
+  - 'Renewable energy penetration: Target 50%+'
+  - 'Grid reliability: Target 99.5% uptime'
+  - 'Carbon emission reduction: Target 20%+'
+  - 'Integration timeline adherence: Target 100%'
+  - 'Cost per MW integrated: Target <$500,000'

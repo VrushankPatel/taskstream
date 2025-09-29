@@ -3,8 +3,15 @@
   "context": "Luxury hotel chain with 15 properties facing 20% revenue decline due to suboptimal pricing and inventory management",
   "stakeholders": {
     "requester": "Director of Revenue Management",
-    "approvers": ["VP of Operations", "CFO"],
-    "influencers": ["Regional Managers", "IT Director", "Guest Services Head"]
+    "approvers": [
+      "VP of Operations",
+      "CFO"
+    ],
+    "influencers": [
+      "Regional Managers",
+      "IT Director",
+      "Guest Services Head"
+    ]
   },
   "request": {
     "amount": "$800K",
@@ -16,19 +23,31 @@
     {
       "stage": "requirements_gathering",
       "duration": "3 weeks",
-      "activities": ["Stakeholder interviews", "Current process audit", "Competitive analysis"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current process audit",
+        "Competitive analysis"
+      ],
       "outcome": "Detailed requirements specification"
     },
     {
       "stage": "vendor_selection",
       "duration": "4 weeks",
-      "activities": ["RFP process", "Vendor demos", "Reference checks"],
+      "activities": [
+        "RFP process",
+        "Vendor demos",
+        "Reference checks"
+      ],
       "outcome": "Two vendors shortlisted"
     },
     {
       "stage": "final_evaluation",
       "duration": "2 weeks",
-      "activities": ["Pilot testing", "Contract negotiation", "ROI validation"],
+      "activities": [
+        "Pilot testing",
+        "Contract negotiation",
+        "ROI validation"
+      ],
       "outcome": "Vendor selected with 18-month implementation"
     }
   ],
@@ -36,10 +55,24 @@
     "expected_outcome": "15% revenue increase through optimized pricing and occupancy",
     "projected_value": "$4.2M additional annual revenue",
     "timeline": "18 months implementation",
-    "resources_required": ["IT integration team", "Revenue management training", "Change management support"],
-    "risk_factors": ["Staff resistance to AI recommendations", "System integration complexity", "Training requirements", "Data privacy concerns"]
+    "resources_required": [
+      "IT integration team",
+      "Revenue management training",
+      "Change management support"
+    ],
+    "risk_factors": [
+      "Staff resistance to AI recommendations",
+      "System integration complexity",
+      "Training requirements",
+      "Data privacy concerns"
+    ]
   },
-  "decision_criteria": ["Revenue optimization capability", "Ease of integration", "User adoption potential", "Total cost of ownership"],
+  "decision_criteria": [
+    "Revenue optimization capability",
+    "Ease of integration",
+    "User adoption potential",
+    "Total cost of ownership"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Cross-functional input essential for hospitality technology decisions, pilot testing reduces implementation risks"
 }

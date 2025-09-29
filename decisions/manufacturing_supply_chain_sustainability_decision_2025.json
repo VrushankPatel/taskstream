@@ -3,8 +3,17 @@
   "context": "Global electronics manufacturer facing supply chain disruption risks and customer pressure for sustainable practices, evaluating comprehensive supply chain transformation",
   "stakeholders": {
     "requester": "Chief Supply Chain Officer",
-    "approvers": ["CEO", "Chief Sustainability Officer", "Board Procurement Committee"],
-    "influencers": ["Major Customers", "Suppliers", "Industry Associations", "Environmental NGOs"]
+    "approvers": [
+      "CEO",
+      "Chief Sustainability Officer",
+      "Board Procurement Committee"
+    ],
+    "influencers": [
+      "Major Customers",
+      "Suppliers",
+      "Industry Associations",
+      "Environmental NGOs"
+    ]
   },
   "request": {
     "amount": "$180 million",
@@ -16,31 +25,51 @@
     {
       "stage": "supply_chain_assessment",
       "duration": "8 weeks",
-      "activities": ["Supplier sustainability audits", "Carbon footprint analysis", "Risk vulnerability mapping"],
+      "activities": [
+        "Supplier sustainability audits",
+        "Carbon footprint analysis",
+        "Risk vulnerability mapping"
+      ],
       "outcome": "Identified 200 high-risk suppliers and 40% of emissions from upstream supply chain"
     },
     {
       "stage": "supplier_engagement",
       "duration": "10 weeks",
-      "activities": ["Supplier capability assessments", "Collaboration framework development", "Joint improvement programs"],
+      "activities": [
+        "Supplier capability assessments",
+        "Collaboration framework development",
+        "Joint improvement programs"
+      ],
       "outcome": "Engaged 85% of key suppliers in sustainability improvement initiatives"
     },
     {
       "stage": "technology_implementation",
       "duration": "6 weeks",
-      "activities": ["Digital twin development", "IoT sensor deployment", "Blockchain traceability systems"],
+      "activities": [
+        "Digital twin development",
+        "IoT sensor deployment",
+        "Blockchain traceability systems"
+      ],
       "outcome": "Implemented comprehensive supply chain visibility and monitoring platform"
     },
     {
       "stage": "financial_evaluation",
       "duration": "4 weeks",
-      "activities": ["Total cost of ownership analysis", "ROI modeling", "Incentive program design"],
+      "activities": [
+        "Total cost of ownership analysis",
+        "ROI modeling",
+        "Incentive program design"
+      ],
       "outcome": "Projected 25% cost reduction through efficiency gains and 15% price premium from sustainable products"
     },
     {
       "stage": "change_management",
       "duration": "5 weeks",
-      "activities": ["Stakeholder communication", "Training program development", "Performance incentive design"],
+      "activities": [
+        "Stakeholder communication",
+        "Training program development",
+        "Performance incentive design"
+      ],
       "outcome": "Comprehensive change management plan with clear accountability and success metrics"
     }
   ],
@@ -48,6 +77,10 @@
     "sustainability_goals": "70% sustainable sourcing achieved, 50% emissions reduction",
     "cost_efficiency": "$45 million annual savings from optimized operations",
     "market_positioning": "15% price premium on sustainable products, enhanced brand reputation",
-    "risk_factors": ["Supplier resistance to sustainability requirements", "Higher costs for sustainable materials", "Regulatory changes affecting compliance frameworks"]
+    "risk_factors": [
+      "Supplier resistance to sustainability requirements",
+      "Higher costs for sustainable materials",
+      "Regulatory changes affecting compliance frameworks"
+    ]
   }
 }

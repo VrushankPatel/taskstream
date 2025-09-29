@@ -1,38 +1,57 @@
 workflow:
-  id: "workflow_hospitality_guest_v2"
-  title: "Guest Experience Management Process"
-  department: "Guest Services"
-  complexity: "medium"
-  participants: ["Front Desk Manager", "Housekeeping Supervisor", "Concierge", "Guest Relations Specialist"]
-  trigger: "Guest check-in at hotel"
+  id: workflow_hospitality_guest_v2
+  title: Guest Experience Management Process
+  department: Guest Services
+  complexity: medium
+  participants:
+  - Front Desk Manager
+  - Housekeeping Supervisor
+  - Concierge
+  - Guest Relations Specialist
+  trigger: Guest check-in at hotel
   steps:
-    - step: 1
-      actor: "Front Desk Manager"
-      action: "Process check-in and verify reservations"
-      tools: ["Property Management System", "ID Scanner"]
-      duration: "10 minutes"
-      outputs: ["Check-in Confirmation"]
-    - step: 2
-      actor: "Housekeeping Supervisor"
-      action: "Assign room cleaning and preparation"
-      tools: ["Room Assignment Software", "Staff Scheduler"]
-      duration: "15 minutes"
-      outputs: ["Room Assignment"]
-    - step: 3
-      actor: "Concierge"
-      action: "Provide local recommendations and services"
-      tools: ["Local Guide Database", "Reservation System"]
-      duration: "20 minutes"
-      outputs: ["Guest Itinerary"]
-    - step: 4
-      actor: "Guest Relations Specialist"
-      action: "Follow up on guest satisfaction during stay"
-      tools: ["Feedback Survey", "CRM"]
-      duration: "Daily check-ins"
-      outputs: ["Satisfaction Report"]
-  success_criteria: "Guest satisfaction score >4.5/5"
-  failure_modes: ["Room not ready", "Service delays", "Communication gaps"]
+  - step: 1
+    actor: Front Desk Manager
+    action: Process check-in and verify reservations
+    tools:
+    - Property Management System
+    - ID Scanner
+    duration: 10 minutes
+    outputs:
+    - Check-in Confirmation
+  - step: 2
+    actor: Housekeeping Supervisor
+    action: Assign room cleaning and preparation
+    tools:
+    - Room Assignment Software
+    - Staff Scheduler
+    duration: 15 minutes
+    outputs:
+    - Room Assignment
+  - step: 3
+    actor: Concierge
+    action: Provide local recommendations and services
+    tools:
+    - Local Guide Database
+    - Reservation System
+    duration: 20 minutes
+    outputs:
+    - Guest Itinerary
+  - step: 4
+    actor: Guest Relations Specialist
+    action: Follow up on guest satisfaction during stay
+    tools:
+    - Feedback Survey
+    - CRM
+    duration: Daily check-ins
+    outputs:
+    - Satisfaction Report
+  success_criteria: Guest satisfaction score >4.5/5
+  failure_modes:
+  - Room not ready
+  - Service delays
+  - Communication gaps
   metrics:
-    - "Average check-in time: <5 minutes"
-    - "Guest retention rate: >70%"
-    - "Complaint resolution time: <1 hour"
+  - 'Average check-in time: <5 minutes'
+  - 'Guest retention rate: >70%'
+  - 'Complaint resolution time: <1 hour'

@@ -1,45 +1,74 @@
 workflow:
-  id: "workflow_insurance_employee_training"
-  title: "Insurance Employee Training and Development Workflow"
-  department: "Human Resources"
-  complexity: "medium"
-  participants: ["HR Manager", "Department Head", "Employee", "Training Coordinator", "Compliance Officer"]
-  trigger: "New hire onboarding or annual training requirement identified"
+  id: workflow_insurance_employee_training
+  title: Insurance Employee Training and Development Workflow
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Manager
+  - Department Head
+  - Employee
+  - Training Coordinator
+  - Compliance Officer
+  trigger: New hire onboarding or annual training requirement identified
   steps:
-    - step: 1
-      actor: "HR Manager"
-      action: "Assess training needs based on role requirements and regulatory mandates"
-      tools: ["HRIS System", "Compliance Database"]
-      duration: "1 week"
-      outputs: ["Training Needs Assessment", "Individual Development Plan"]
-    - step: 2
-      actor: "Training Coordinator"
-      action: "Schedule training sessions and coordinate with instructors"
-      tools: ["Learning Management System", "Calendar System"]
-      duration: "2 weeks"
-      outputs: ["Training Schedule", "Course Materials"]
-    - step: 3
-      actor: "Employee"
-      action: "Complete assigned training modules and assessments"
-      tools: ["Online Learning Platform", "Assessment Tools"]
-      duration: "4-8 weeks"
-      outputs: ["Completion Certificates", "Assessment Scores"]
-    - step: 4
-      actor: "Compliance Officer"
-      action: "Verify regulatory training completion and documentation"
-      tools: ["Compliance Tracking System", "Audit Logs"]
-      duration: "1 week"
-      outputs: ["Compliance Report", "Training Records"]
-    - step: 5
-      actor: "Department Head"
-      action: "Review training effectiveness and provide feedback"
-      decision_points: ["Additional training required", "Performance improvement plan needed"]
-      duration: "2 weeks"
-      outputs: ["Performance Evaluation", "Development Recommendations"]
-  success_criteria: "100% completion of mandatory training, passing assessment scores >80%, regulatory compliance maintained"
-  failure_modes: ["Training non-completion", "Poor assessment performance", "Scheduling conflicts"]
+  - step: 1
+    actor: HR Manager
+    action: Assess training needs based on role requirements and regulatory mandates
+    tools:
+    - HRIS System
+    - Compliance Database
+    duration: 1 week
+    outputs:
+    - Training Needs Assessment
+    - Individual Development Plan
+  - step: 2
+    actor: Training Coordinator
+    action: Schedule training sessions and coordinate with instructors
+    tools:
+    - Learning Management System
+    - Calendar System
+    duration: 2 weeks
+    outputs:
+    - Training Schedule
+    - Course Materials
+  - step: 3
+    actor: Employee
+    action: Complete assigned training modules and assessments
+    tools:
+    - Online Learning Platform
+    - Assessment Tools
+    duration: 4-8 weeks
+    outputs:
+    - Completion Certificates
+    - Assessment Scores
+  - step: 4
+    actor: Compliance Officer
+    action: Verify regulatory training completion and documentation
+    tools:
+    - Compliance Tracking System
+    - Audit Logs
+    duration: 1 week
+    outputs:
+    - Compliance Report
+    - Training Records
+  - step: 5
+    actor: Department Head
+    action: Review training effectiveness and provide feedback
+    decision_points:
+    - Additional training required
+    - Performance improvement plan needed
+    duration: 2 weeks
+    outputs:
+    - Performance Evaluation
+    - Development Recommendations
+  success_criteria: 100% completion of mandatory training, passing assessment scores
+    >80%, regulatory compliance maintained
+  failure_modes:
+  - Training non-completion
+  - Poor assessment performance
+  - Scheduling conflicts
   metrics:
-    - "Training Completion Rate: >95%"
-    - "Assessment Pass Rate: >85%"
-    - "Time to Competency: <3 months"
-    - "Regulatory Compliance Rate: 100%"
+  - 'Training Completion Rate: >95%'
+  - 'Assessment Pass Rate: >85%'
+  - 'Time to Competency: <3 months'
+  - 'Regulatory Compliance Rate: 100%'

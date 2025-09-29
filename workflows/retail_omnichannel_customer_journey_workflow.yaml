@@ -1,52 +1,102 @@
 workflow:
-  id: "workflow_retail_omnichannel_customer_journey"
-  title: "Retail Omnichannel Customer Journey Workflow"
-  department: "Customer Experience"
-  complexity: "complex"
-  participants: ["Customer Experience Manager", "Store Manager", "E-commerce Manager", "Marketing Manager", "IT Support", "Customer Service Rep"]
-  trigger: "Customer initiates purchase journey across multiple channels"
+  id: workflow_retail_omnichannel_customer_journey
+  title: Retail Omnichannel Customer Journey Workflow
+  department: Customer Experience
+  complexity: complex
+  participants:
+  - Customer Experience Manager
+  - Store Manager
+  - E-commerce Manager
+  - Marketing Manager
+  - IT Support
+  - Customer Service Rep
+  trigger: Customer initiates purchase journey across multiple channels
   steps:
-    - step: 1
-      actor: "Customer Service Rep"
-      action: "Capture customer preferences and purchase intent across channels, including browsing history, cart abandonment, and interaction patterns"
-      tools: ["CRM System", "Customer Data Platform", "Mobile App Analytics", "Website Tracking Tools"]
-      duration: "Real-time"
-      outputs: ["Unified Customer Profile", "Personalization Triggers", "Cross-channel Behavior Insights"]
-    - step: 2
-      actor: "Marketing Manager"
-      action: "Deliver personalized marketing messages and recommendations"
-      tools: ["Marketing Automation Platform", "Email System", "Push Notification Service"]
-      duration: "1-2 days"
-      outputs: ["Personalized Campaigns", "Cross-channel Offers"]
-    - step: 3
-      actor: "E-commerce Manager"
-      action: "Facilitate seamless online purchase experience with inventory visibility"
-      tools: ["E-commerce Platform", "Inventory Management System", "Payment Gateway"]
-      duration: "Real-time to 1 hour"
-      outputs: ["Purchase Confirmation", "Order Tracking Information"]
-    - step: 4
-      actor: "Store Manager"
-      action: "Enable in-store pickup, returns, or showrooming experiences"
-      decision_points: ["Channel preference", "Inventory availability", "Store proximity"]
-      tools: ["POS System", "Store Inventory System", "Customer Mobile App"]
-      duration: "1-4 hours"
-      outputs: ["Store Interaction Records", "Purchase Completion"]
-    - step: 5
-      actor: "IT Support"
-      action: "Ensure system integration and data synchronization across channels"
-      tools: ["Integration Platform", "Data Warehouse", "API Management"]
-      duration: "Ongoing"
-      outputs: ["System Health Reports", "Data Quality Metrics"]
-    - step: 6
-      actor: "Customer Experience Manager"
-      action: "Monitor customer satisfaction and identify improvement opportunities through post-purchase surveys and loyalty program feedback"
-      tools: ["Customer Feedback System", "Analytics Dashboard", "Survey Tools", "NPS Tracking Software"]
-      duration: "Post-purchase"
-      outputs: ["Experience Insights", "Improvement Recommendations", "Loyalty Program Adjustments"]
-  success_criteria: "Customer completes purchase with 95% satisfaction, seamless channel transitions, positive NPS impact"
-  failure_modes: ["Channel data disconnect", "Inventory inconsistency", "Poor personalization", "Technical integration issues"]
+  - step: 1
+    actor: Customer Service Rep
+    action: Capture customer preferences and purchase intent across channels, including
+      browsing history, cart abandonment, and interaction patterns
+    tools:
+    - CRM System
+    - Customer Data Platform
+    - Mobile App Analytics
+    - Website Tracking Tools
+    duration: Real-time
+    outputs:
+    - Unified Customer Profile
+    - Personalization Triggers
+    - Cross-channel Behavior Insights
+  - step: 2
+    actor: Marketing Manager
+    action: Deliver personalized marketing messages and recommendations
+    tools:
+    - Marketing Automation Platform
+    - Email System
+    - Push Notification Service
+    duration: 1-2 days
+    outputs:
+    - Personalized Campaigns
+    - Cross-channel Offers
+  - step: 3
+    actor: E-commerce Manager
+    action: Facilitate seamless online purchase experience with inventory visibility
+    tools:
+    - E-commerce Platform
+    - Inventory Management System
+    - Payment Gateway
+    duration: Real-time to 1 hour
+    outputs:
+    - Purchase Confirmation
+    - Order Tracking Information
+  - step: 4
+    actor: Store Manager
+    action: Enable in-store pickup, returns, or showrooming experiences
+    decision_points:
+    - Channel preference
+    - Inventory availability
+    - Store proximity
+    tools:
+    - POS System
+    - Store Inventory System
+    - Customer Mobile App
+    duration: 1-4 hours
+    outputs:
+    - Store Interaction Records
+    - Purchase Completion
+  - step: 5
+    actor: IT Support
+    action: Ensure system integration and data synchronization across channels
+    tools:
+    - Integration Platform
+    - Data Warehouse
+    - API Management
+    duration: Ongoing
+    outputs:
+    - System Health Reports
+    - Data Quality Metrics
+  - step: 6
+    actor: Customer Experience Manager
+    action: Monitor customer satisfaction and identify improvement opportunities through
+      post-purchase surveys and loyalty program feedback
+    tools:
+    - Customer Feedback System
+    - Analytics Dashboard
+    - Survey Tools
+    - NPS Tracking Software
+    duration: Post-purchase
+    outputs:
+    - Experience Insights
+    - Improvement Recommendations
+    - Loyalty Program Adjustments
+  success_criteria: Customer completes purchase with 95% satisfaction, seamless channel
+    transitions, positive NPS impact
+  failure_modes:
+  - Channel data disconnect
+  - Inventory inconsistency
+  - Poor personalization
+  - Technical integration issues
   metrics:
-    - "Omnichannel Conversion Rate: >25%"
-    - "Customer Satisfaction Score: >4.5/5"
-    - "Channel Transition Success: >90%"
-    - "Repeat Purchase Rate: >35%"
+  - 'Omnichannel Conversion Rate: >25%'
+  - 'Customer Satisfaction Score: >4.5/5'
+  - 'Channel Transition Success: >90%'
+  - 'Repeat Purchase Rate: >35%'

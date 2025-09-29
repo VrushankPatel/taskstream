@@ -3,8 +3,16 @@
   "context": "Major commercial bank evaluating adoption of central bank digital currency (CBDC) in response to national rollout plans",
   "stakeholders": {
     "requester": "Chief Innovation Officer",
-    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
-    "influencers": ["Head of Retail Banking", "Chief Technology Officer", "Regulatory Affairs Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Head of Retail Banking",
+      "Chief Technology Officer",
+      "Regulatory Affairs Director"
+    ]
   },
   "request": {
     "amount": "$50M",
@@ -16,28 +24,50 @@
     {
       "stage": "feasibility_assessment",
       "duration": "4 weeks",
-      "activities": ["Technical feasibility study", "Cost-benefit analysis", "Regulatory impact assessment"],
+      "activities": [
+        "Technical feasibility study",
+        "Cost-benefit analysis",
+        "Regulatory impact assessment"
+      ],
       "outcome": "Proceed with detailed planning"
     },
     {
       "stage": "pilot_program_design",
       "duration": "6 weeks",
-      "activities": ["Pilot scope definition", "Technology partner selection", "Integration architecture design"],
+      "activities": [
+        "Pilot scope definition",
+        "Technology partner selection",
+        "Integration architecture design"
+      ],
       "outcome": "Pilot program approved for limited retail banking segment"
     },
     {
       "stage": "implementation_planning",
       "duration": "8 weeks",
-      "activities": ["Resource allocation", "Timeline development", "Risk mitigation planning"],
+      "activities": [
+        "Resource allocation",
+        "Timeline development",
+        "Risk mitigation planning"
+      ],
       "outcome": "Full implementation plan approved with phased rollout"
     }
   ],
   "business_impact": {
     "expected_outcome": "Enhanced payment capabilities and regulatory compliance",
     "projected_value": "$200M in additional transaction volume over 5 years",
-    "risk_factors": ["Technology integration challenges", "Regulatory uncertainty", "Customer adoption resistance"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory uncertainty",
+      "Customer adoption resistance"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with digital transformation", "Regulatory compliance requirements", "Financial ROI potential", "Technology feasibility", "Risk management capabilities"],
+  "decision_criteria": [
+    "Strategic alignment with digital transformation",
+    "Regulatory compliance requirements",
+    "Financial ROI potential",
+    "Technology feasibility",
+    "Risk management capabilities"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early engagement with regulators critical for successful CBDC adoption, pilot programs essential for managing implementation risks"
 }

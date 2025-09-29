@@ -1,58 +1,92 @@
 workflow:
-  id: "workflow_procurement_001"
-  title: "Strategic Vendor Selection Process"
-  department: "Procurement"
-  complexity: "high"
-  participants: ["Procurement Manager", "Department Heads", "Legal", "Finance", "IT Security"]
-  trigger: "New vendor requirement identified for critical business function"
+  id: workflow_procurement_001
+  title: Strategic Vendor Selection Process
+  department: Procurement
+  complexity: high
+  participants:
+  - Procurement Manager
+  - Department Heads
+  - Legal
+  - Finance
+  - IT Security
+  trigger: New vendor requirement identified for critical business function
   steps:
-    - step: 1
-      actor: "Department Head"
-      action: "Define requirements and create RFP specifications"
-      tools: ["RFP templates", "Requirements gathering tools"]
-      duration: "2 weeks"
-      outputs: ["Detailed RFP document", "Evaluation criteria"]
-    - step: 2
-      actor: "Procurement Manager"
-      action: "Issue RFP and manage vendor responses"
-      tools: ["Procurement system", "Vendor portal"]
-      duration: "4 weeks"
-      outputs: ["Vendor proposals", "Initial screening results"]
-    - step: 3
-      actor: "Cross-functional Team"
-      action: "Technical and business evaluation of shortlisted vendors"
-      tools: ["Evaluation matrix", "Demo scheduling tools"]
-      duration: "3 weeks"
-      outputs: ["Vendor scores", "Reference check reports"]
-    - step: 4
-      actor: "Legal"
-      action: "Contract review and negotiation"
-      tools: ["Contract templates", "Legal review system"]
-      duration: "2 weeks"
-      outputs: ["Negotiated contract terms"]
-    - step: 5
-      actor: "Finance"
-      action: "Cost analysis and budget approval"
-      tools: ["Financial modeling tools", "Budget approval system"]
-      duration: "1 week"
-      outputs: ["Cost-benefit analysis", "Budget approval"]
-    - step: 6
-      actor: "IT Security"
-      action: "Security assessment and compliance review"
-      tools: ["Security assessment tools", "Compliance checklists"]
-      duration: "1 week"
-      outputs: ["Security clearance", "Compliance certification"]
-    - step: 7
-      actor: "Procurement Manager"
-      action: "Final vendor selection and contract execution"
-      tools: ["Contract management system"]
-      duration: "1 week"
-      outputs: ["Executed contract", "Vendor onboarding plan"]
-  success_criteria: "Vendor delivers required services within SLA and budget"
-  failure_modes: ["Poor vendor performance", "Contract disputes", "Security breaches"]
+  - step: 1
+    actor: Department Head
+    action: Define requirements and create RFP specifications
+    tools:
+    - RFP templates
+    - Requirements gathering tools
+    duration: 2 weeks
+    outputs:
+    - Detailed RFP document
+    - Evaluation criteria
+  - step: 2
+    actor: Procurement Manager
+    action: Issue RFP and manage vendor responses
+    tools:
+    - Procurement system
+    - Vendor portal
+    duration: 4 weeks
+    outputs:
+    - Vendor proposals
+    - Initial screening results
+  - step: 3
+    actor: Cross-functional Team
+    action: Technical and business evaluation of shortlisted vendors
+    tools:
+    - Evaluation matrix
+    - Demo scheduling tools
+    duration: 3 weeks
+    outputs:
+    - Vendor scores
+    - Reference check reports
+  - step: 4
+    actor: Legal
+    action: Contract review and negotiation
+    tools:
+    - Contract templates
+    - Legal review system
+    duration: 2 weeks
+    outputs:
+    - Negotiated contract terms
+  - step: 5
+    actor: Finance
+    action: Cost analysis and budget approval
+    tools:
+    - Financial modeling tools
+    - Budget approval system
+    duration: 1 week
+    outputs:
+    - Cost-benefit analysis
+    - Budget approval
+  - step: 6
+    actor: IT Security
+    action: Security assessment and compliance review
+    tools:
+    - Security assessment tools
+    - Compliance checklists
+    duration: 1 week
+    outputs:
+    - Security clearance
+    - Compliance certification
+  - step: 7
+    actor: Procurement Manager
+    action: Final vendor selection and contract execution
+    tools:
+    - Contract management system
+    duration: 1 week
+    outputs:
+    - Executed contract
+    - Vendor onboarding plan
+  success_criteria: Vendor delivers required services within SLA and budget
+  failure_modes:
+  - Poor vendor performance
+  - Contract disputes
+  - Security breaches
   metrics:
-    - "Vendor selection cycle time: Target <4 weeks"
-    - "Cost savings: Target 15% below budget"
-    - "Vendor performance score: Target 4.5/5"
-    - "Contract compliance rate: Target 100%"
-    - "Procurement ROI: Target 20% improvement"
+  - 'Vendor selection cycle time: Target <4 weeks'
+  - 'Cost savings: Target 15% below budget'
+  - 'Vendor performance score: Target 4.5/5'
+  - 'Contract compliance rate: Target 100%'
+  - 'Procurement ROI: Target 20% improvement'

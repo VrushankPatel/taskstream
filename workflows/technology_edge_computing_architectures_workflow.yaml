@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_technology_edge_computing_architectures"
-  title: "Edge Computing Architectures Implementation"
-  department: "Infrastructure"
-  complexity: "medium"
-  participants: ["Edge Computing Architect", "Network Engineers", "Security Team", "Application Developers"]
-  trigger: "Latency requirements exceed cloud capabilities"
+  id: workflow_technology_edge_computing_architectures
+  title: Edge Computing Architectures Implementation
+  department: Infrastructure
+  complexity: medium
+  participants:
+  - Edge Computing Architect
+  - Network Engineers
+  - Security Team
+  - Application Developers
+  trigger: Latency requirements exceed cloud capabilities
   steps:
-    - step: 1
-      actor: "Edge Computing Architect"
-      action: "Design edge computing infrastructure and data flow"
-      tools: ["Network design software", "Edge computing frameworks"]
-      duration: "4 weeks"
-      outputs: ["Edge architecture design"]
-    - step: 2
-      actor: "Network Engineers"
-      action: "Deploy edge nodes and connectivity"
-      tools: ["Network configuration tools", "Edge device management"]
-      duration: "6 weeks"
-      outputs: ["Deployed edge infrastructure"]
-    - step: 3
-      actor: "Security Team"
-      action: "Implement edge security and compliance"
-      tools: ["Edge security tools", "Compliance frameworks"]
-      duration: "3 weeks"
-      outputs: ["Secure edge environment"]
-    - step: 4
-      actor: "Application Developers"
-      action: "Migrate and optimize applications for edge deployment"
-      tools: ["Edge application frameworks", "Performance optimization tools"]
-      duration: "5 weeks"
-      outputs: ["Edge-optimized applications"]
-  success_criteria: "50% reduction in application latency"
-  failure_modes: ["Network reliability issues", "Security vulnerabilities", "Application compatibility"]
+  - step: 1
+    actor: Edge Computing Architect
+    action: Design edge computing infrastructure and data flow
+    tools:
+    - Network design software
+    - Edge computing frameworks
+    duration: 4 weeks
+    outputs:
+    - Edge architecture design
+  - step: 2
+    actor: Network Engineers
+    action: Deploy edge nodes and connectivity
+    tools:
+    - Network configuration tools
+    - Edge device management
+    duration: 6 weeks
+    outputs:
+    - Deployed edge infrastructure
+  - step: 3
+    actor: Security Team
+    action: Implement edge security and compliance
+    tools:
+    - Edge security tools
+    - Compliance frameworks
+    duration: 3 weeks
+    outputs:
+    - Secure edge environment
+  - step: 4
+    actor: Application Developers
+    action: Migrate and optimize applications for edge deployment
+    tools:
+    - Edge application frameworks
+    - Performance optimization tools
+    duration: 5 weeks
+    outputs:
+    - Edge-optimized applications
+  success_criteria: 50% reduction in application latency
+  failure_modes:
+  - Network reliability issues
+  - Security vulnerabilities
+  - Application compatibility

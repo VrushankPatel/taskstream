@@ -3,8 +3,17 @@
   "context": "Retail company, 1500 employees, seeking to implement advanced data analytics for personalized marketing and inventory optimization",
   "stakeholders": {
     "requester": "Chief Data Officer",
-    "approvers": ["CEO", "CTO", "CMO"],
-    "influencers": ["IT Director", "Marketing Director", "Operations Manager", "Data Analytics Vendors"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "CMO"
+    ],
+    "influencers": [
+      "IT Director",
+      "Marketing Director",
+      "Operations Manager",
+      "Data Analytics Vendors"
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -16,19 +25,31 @@
     {
       "stage": "requirements_gathering",
       "duration": "4 weeks",
-      "activities": ["Business case development", "Use case identification", "Data inventory assessment"],
+      "activities": [
+        "Business case development",
+        "Use case identification",
+        "Data inventory assessment"
+      ],
       "outcome": "Defined analytics requirements and potential ROI"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "6 weeks",
-      "activities": ["RFI/RFP process", "Vendor demonstrations", "Technical evaluations"],
+      "activities": [
+        "RFI/RFP process",
+        "Vendor demonstrations",
+        "Technical evaluations"
+      ],
       "outcome": "Selected analytics platform and implementation partner"
     },
     {
       "stage": "pilot_testing",
       "duration": "8 weeks",
-      "activities": ["Limited deployment", "User acceptance testing", "Performance validation"],
+      "activities": [
+        "Limited deployment",
+        "User acceptance testing",
+        "Performance validation"
+      ],
       "outcome": "Validated technical feasibility and business value"
     }
   ],
@@ -36,6 +57,10 @@
     "expected_revenue_increase": "8% from personalization",
     "projected_inventory_reduction": "15% through optimization",
     "data_literacy_improvement": "Company-wide analytics adoption",
-    "risk_factors": ["Data quality issues", "Integration complexity", "Change management resistance"]
+    "risk_factors": [
+      "Data quality issues",
+      "Integration complexity",
+      "Change management resistance"
+    ]
   }
 }

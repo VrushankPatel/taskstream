@@ -1,9 +1,9 @@
 # Advanced Robotics Integration Announcement Meeting Notes
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** Operations Director, HR Manager, Union Representative, Engineering Lead, Finance Manager, Communications Manager  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** Operations Director, HR Manager, Union Representative, Engineering Lead, Finance Manager, Communications Manager
 
 ## Meeting Objective
 Announce the decision to integrate collaborative robotics across production lines and outline the workforce transition plan.

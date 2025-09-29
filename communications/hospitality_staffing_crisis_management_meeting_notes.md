@@ -1,9 +1,9 @@
 ## Meeting Notes: Hospitality Staffing Crisis Management
 
-**Date:** September 29, 2025  
-**Time:** 9:00 AM - 10:30 AM  
-**Location:** Executive Conference Room  
-**Attendees:** CEO (Michael Torres), HR Director (Jennifer Walsh), Operations Director (Robert Kim), Front Office Manager (Maria Sanchez), Housekeeping Director (Carlos Rodriguez)  
+**Date:** September 29, 2025
+**Time:** 9:00 AM - 10:30 AM
+**Location:** Executive Conference Room
+**Attendees:** CEO (Michael Torres), HR Director (Jennifer Walsh), Operations Director (Robert Kim), Front Office Manager (Maria Sanchez), Housekeeping Director (Carlos Rodriguez)
 
 **Meeting Objective:** Develop immediate and long-term strategies to address critical staffing shortages affecting guest service quality and operational efficiency.
 

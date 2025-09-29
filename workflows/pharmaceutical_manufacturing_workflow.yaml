@@ -1,58 +1,101 @@
 workflow:
-  id: "pharmaceutical_manufacturing"
-  title: "Pharmaceutical Manufacturing Workflow"
-  department: "Manufacturing"
-  complexity: "high"
-  participants: ["Production Manager", "Quality Control Lead", "Regulatory Affairs", "Supply Chain Manager", "Engineering Team", "Validation Specialist"]
-  trigger: "Manufacturing order approved"
+  id: pharmaceutical_manufacturing
+  title: Pharmaceutical Manufacturing Workflow
+  department: Manufacturing
+  complexity: high
+  participants:
+  - Production Manager
+  - Quality Control Lead
+  - Regulatory Affairs
+  - Supply Chain Manager
+  - Engineering Team
+  - Validation Specialist
+  trigger: Manufacturing order approved
   steps:
-    - step: 1
-      actor: "Production Manager"
-      action: "Batch record preparation and resource allocation"
-      tools: ["Manufacturing Execution System", "Resource Planning Software"]
-      duration: "1 day"
-      outputs: ["Batch Production Plan", "Resource Allocation"]
-    - step: 2
-      actor: "Supply Chain Manager"
-      action: "Raw material receipt and quarantine"
-      tools: ["Inventory Management System", "Quality Testing Equipment"]
-      duration: "2 days"
-      outputs: ["Material Release Certificates", "Quarantine Records"]
-    - step: 3
-      actor: "Production Manager"
-      action: "Equipment setup and calibration"
-      decision_points: ["Equipment qualification status", "Calibration requirements"]
-      duration: "4 hours"
-      outputs: ["Equipment Setup Reports", "Calibration Records"]
-    - step: 4
-      actor: "Validation Specialist"
-      action: "Process validation and documentation"
-      tools: ["Validation Protocols", "Data Collection Systems"]
-      duration: "1 day"
-      outputs: ["Validation Reports", "Process Parameters"]
-    - step: 5
-      actor: "Production Manager"
-      action: "Manufacturing execution"
-      tools: ["Automated Production Systems", "Process Monitoring Tools"]
-      duration: "3-7 days"
-      outputs: ["Production Batch Records", "In-Process Samples"]
-    - step: 6
-      actor: "Quality Control Lead"
-      action: "In-process and finished product testing"
-      decision_points: ["Specification compliance", "Out-of-specification results"]
-      duration: "2 days"
-      outputs: ["Quality Test Results", "Certificate of Analysis"]
-    - step: 7
-      actor: "Regulatory Affairs"
-      action: "Batch release approval and documentation"
-      tools: ["Regulatory Submission Software", "Compliance Databases"]
-      duration: "1 day"
-      outputs: ["Batch Release Certificate", "Regulatory Documentation"]
-    - step: 8
-      actor: "Supply Chain Manager"
-      action: "Packaging and distribution preparation"
-      tools: ["Packaging Equipment", "Distribution Planning Systems"]
-      duration: "1 day"
-      outputs: ["Packaged Product", "Distribution Plan"]
-  success_criteria: "Product manufactured to specifications, quality standards met, regulatory compliance maintained, on-time delivery achieved"
-  failure_modes: ["Contamination or quality failures", "Equipment malfunctions", "Raw material issues", "Regulatory non-compliance"]
+  - step: 1
+    actor: Production Manager
+    action: Batch record preparation and resource allocation
+    tools:
+    - Manufacturing Execution System
+    - Resource Planning Software
+    duration: 1 day
+    outputs:
+    - Batch Production Plan
+    - Resource Allocation
+  - step: 2
+    actor: Supply Chain Manager
+    action: Raw material receipt and quarantine
+    tools:
+    - Inventory Management System
+    - Quality Testing Equipment
+    duration: 2 days
+    outputs:
+    - Material Release Certificates
+    - Quarantine Records
+  - step: 3
+    actor: Production Manager
+    action: Equipment setup and calibration
+    decision_points:
+    - Equipment qualification status
+    - Calibration requirements
+    duration: 4 hours
+    outputs:
+    - Equipment Setup Reports
+    - Calibration Records
+  - step: 4
+    actor: Validation Specialist
+    action: Process validation and documentation
+    tools:
+    - Validation Protocols
+    - Data Collection Systems
+    duration: 1 day
+    outputs:
+    - Validation Reports
+    - Process Parameters
+  - step: 5
+    actor: Production Manager
+    action: Manufacturing execution
+    tools:
+    - Automated Production Systems
+    - Process Monitoring Tools
+    duration: 3-7 days
+    outputs:
+    - Production Batch Records
+    - In-Process Samples
+  - step: 6
+    actor: Quality Control Lead
+    action: In-process and finished product testing
+    decision_points:
+    - Specification compliance
+    - Out-of-specification results
+    duration: 2 days
+    outputs:
+    - Quality Test Results
+    - Certificate of Analysis
+  - step: 7
+    actor: Regulatory Affairs
+    action: Batch release approval and documentation
+    tools:
+    - Regulatory Submission Software
+    - Compliance Databases
+    duration: 1 day
+    outputs:
+    - Batch Release Certificate
+    - Regulatory Documentation
+  - step: 8
+    actor: Supply Chain Manager
+    action: Packaging and distribution preparation
+    tools:
+    - Packaging Equipment
+    - Distribution Planning Systems
+    duration: 1 day
+    outputs:
+    - Packaged Product
+    - Distribution Plan
+  success_criteria: Product manufactured to specifications, quality standards met,
+    regulatory compliance maintained, on-time delivery achieved
+  failure_modes:
+  - Contamination or quality failures
+  - Equipment malfunctions
+  - Raw material issues
+  - Regulatory non-compliance

@@ -3,8 +3,15 @@
   "context": "Regional hospital, 500 employees, evaluating patient loan applications for elective procedures",
   "stakeholders": {
     "requester": "Patient Financial Services Manager",
-    "approvers": ["Credit Manager", "Chief Financial Officer"],
-    "influencers": ["Patient Care Coordinator", "Billing Department", "Compliance Officer"]
+    "approvers": [
+      "Credit Manager",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Patient Care Coordinator",
+      "Billing Department",
+      "Compliance Officer"
+    ]
   },
   "request": {
     "amount": "$15,000",
@@ -16,31 +23,51 @@
     {
       "stage": "initial_screening",
       "duration": "1 day",
-      "activities": ["Credit score check", "Income verification", "Medical necessity review"],
+      "activities": [
+        "Credit score check",
+        "Income verification",
+        "Medical necessity review"
+      ],
       "outcome": "Proceed to full application"
     },
     {
       "stage": "underwriting_review",
       "duration": "3 days",
-      "activities": ["Detailed financial analysis", "Collateral assessment", "Risk scoring"],
+      "activities": [
+        "Detailed financial analysis",
+        "Collateral assessment",
+        "Risk scoring"
+      ],
       "outcome": "Conditional approval pending medical clearance"
     },
     {
       "stage": "compliance_check",
       "duration": "2 days",
-      "activities": ["HIPAA compliance verification", "Fraud detection", "Regulatory requirements"],
+      "activities": [
+        "HIPAA compliance verification",
+        "Fraud detection",
+        "Regulatory requirements"
+      ],
       "outcome": "Compliance approved"
     },
     {
       "stage": "final_approval",
       "duration": "1 day",
-      "activities": ["Executive review", "Terms finalization", "Funding authorization"],
+      "activities": [
+        "Executive review",
+        "Terms finalization",
+        "Funding authorization"
+      ],
       "outcome": "Approved with standard terms"
     }
   ],
   "business_impact": {
     "expected_revenue": "$16,500",
     "projected_default_rate": "2%",
-    "risk_factors": ["Patient health complications", "Economic downturn", "Regulatory changes"]
+    "risk_factors": [
+      "Patient health complications",
+      "Economic downturn",
+      "Regulatory changes"
+    ]
   }
 }

@@ -1,8 +1,8 @@
 ## Email Thread: Telemedicine Reimbursement Policy Update
 
-**From:** Sarah Johnson, Director of Revenue Cycle  
-**To:** Clinical Leadership Team, Billing Department  
-**Subject:** Urgent: Changes to Telemedicine Reimbursement Guidelines  
+**From:** Sarah Johnson, Director of Revenue Cycle
+**To:** Clinical Leadership Team, Billing Department
+**Subject:** Urgent: Changes to Telemedicine Reimbursement Guidelines
 
 Team,
 
@@ -17,14 +17,14 @@ Our current billing system needs updates to accommodate these changes. I've sche
 
 Please review the attached CMS guidance document and come prepared with questions about your specific departments.
 
-Best,  
+Best,
 Sarah
 
 ---
 
-**From:** Dr. Michael Chen, Chief Medical Officer  
-**To:** Sarah Johnson, Clinical Leadership Team, Billing Department  
-**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines  
+**From:** Dr. Michael Chen, Chief Medical Officer
+**To:** Sarah Johnson, Clinical Leadership Team, Billing Department
+**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines
 
 Sarah,
 
@@ -38,9 +38,9 @@ Michael
 
 ---
 
-**From:** Jennifer Martinez, Billing Manager  
-**To:** Sarah Johnson, Dr. Michael Chen, Clinical Leadership Team, Billing Department  
-**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines  
+**From:** Jennifer Martinez, Billing Manager
+**To:** Sarah Johnson, Dr. Michael Chen, Clinical Leadership Team, Billing Department
+**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines
 
 Sarah and Michael,
 
@@ -57,9 +57,9 @@ Jennifer
 
 ---
 
-**From:** Sarah Johnson, Director of Revenue Cycle  
-**To:** Dr. Michael Chen, Jennifer Martinez, Clinical Leadership Team, Billing Department  
-**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines  
+**From:** Sarah Johnson, Director of Revenue Cycle
+**To:** Dr. Michael Chen, Jennifer Martinez, Clinical Leadership Team, Billing Department
+**Subject:** Re: Urgent: Changes to Telemedicine Reimbursement Guidelines
 
 Thanks for the quick responses, team.
 

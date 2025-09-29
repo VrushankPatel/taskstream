@@ -3,8 +3,16 @@
   "context": "Manufacturing company, 2000 employees, evaluating quantum computing for supply chain optimization",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "CFO", "Chief Operations Officer"],
-    "influencers": ["Head of Supply Chain", "VP Innovation", "External Quantum Computing Experts"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Operations Officer"
+    ],
+    "influencers": [
+      "Head of Supply Chain",
+      "VP Innovation",
+      "External Quantum Computing Experts"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -16,31 +24,51 @@
     {
       "stage": "technology_assessment",
       "duration": "8 weeks",
-      "activities": ["Quantum algorithm evaluation", "Hardware vendor assessment", "Technical feasibility study"],
+      "activities": [
+        "Quantum algorithm evaluation",
+        "Hardware vendor assessment",
+        "Technical feasibility study"
+      ],
       "outcome": "Quantum advantage confirmed for specific optimization problems"
     },
     {
       "stage": "business_case_development",
       "duration": "6 weeks",
-      "activities": ["ROI analysis", "Risk assessment", "Alternative technology comparison"],
+      "activities": [
+        "ROI analysis",
+        "Risk assessment",
+        "Alternative technology comparison"
+      ],
       "outcome": "Strong business case with 3-year payback and competitive advantage"
     },
     {
       "stage": "pilot_design",
       "duration": "4 weeks",
-      "activities": ["Pilot scope definition", "Success metrics establishment", "Resource planning"],
+      "activities": [
+        "Pilot scope definition",
+        "Success metrics establishment",
+        "Resource planning"
+      ],
       "outcome": "Comprehensive pilot plan with measurable outcomes and risk mitigation"
     },
     {
       "stage": "executive_approval",
       "duration": "2 weeks",
-      "activities": ["Investment committee review", "Board presentation", "Final due diligence"],
+      "activities": [
+        "Investment committee review",
+        "Board presentation",
+        "Final due diligence"
+      ],
       "outcome": "Approved with pilot-first approach and milestone-based funding release"
     }
   ],
   "business_impact": {
     "expected_savings": "$15,000,000 annually post-implementation",
     "projected_efficiency_gain": "40% supply chain optimization",
-    "risk_factors": ["Technology immaturity", "Talent availability", "Integration complexity"]
+    "risk_factors": [
+      "Technology immaturity",
+      "Talent availability",
+      "Integration complexity"
+    ]
   }
 }

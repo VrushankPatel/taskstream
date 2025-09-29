@@ -1,15 +1,15 @@
 # Meeting Notes: Aircraft Certification Delay Resolution
 
-**Date:** September 22, 2025  
-**Time:** 9:00 AM - 11:30 AM  
-**Location:** Engineering Conference Room  
-**Attendees:**  
-- Certification Manager (Dr. Sarah Mitchell)  
-- Chief Engineer (Mark Johnson)  
-- Quality Assurance Director (Jennifer Lee)  
-- Regulatory Affairs Lead (Robert Chen)  
-- Program Manager (David Williams)  
-- FAA Liaison (External)  
+**Date:** September 22, 2025
+**Time:** 9:00 AM - 11:30 AM
+**Location:** Engineering Conference Room
+**Attendees:**
+- Certification Manager (Dr. Sarah Mitchell)
+- Chief Engineer (Mark Johnson)
+- Quality Assurance Director (Jennifer Lee)
+- Regulatory Affairs Lead (Robert Chen)
+- Program Manager (David Williams)
+- FAA Liaison (External)
 
 ## Agenda
 1. Current certification status

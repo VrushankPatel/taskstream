@@ -1,14 +1,14 @@
 ## Email: Academic Program Curriculum Updates
 
-**From:** Academic Dean  
-**To:** Faculty, Staff, Students  
-**Subject:** Important Updates to [Program Name] Curriculum - Implementation Fall 2026  
+**From:** Academic Dean
+**To:** Faculty, Staff, Students
+**Subject:** Important Updates to [Program Name] Curriculum - Implementation Fall 2026
 
-**Date:** October 5, 2025  
+**Date:** October 5, 2025
 
-Dear University Community,  
+Dear University Community,
 
-After extensive consultation with faculty, industry partners, and alumni, I'm pleased to announce updates to the [Program Name] curriculum that will take effect in Fall 2026. These changes reflect evolving industry needs and incorporate feedback from our key stakeholders.  
+After extensive consultation with faculty, industry partners, and alumni, I'm pleased to announce updates to the [Program Name] curriculum that will take effect in Fall 2026. These changes reflect evolving industry needs and incorporate feedback from our key stakeholders.
 
 ### Key Curriculum Changes
 
@@ -38,14 +38,14 @@ After extensive consultation with faculty, industry partners, and alumni, I'm pl
 - **Technical Resources**: Updated learning management system and digital tools
 
 ### Rationale for Changes
-Our industry advisory board identified critical gaps in current graduates' skills, particularly in digital technologies and industry practices. These curriculum updates ensure our graduates remain competitive in an evolving job market.  
+Our industry advisory board identified critical gaps in current graduates' skills, particularly in digital technologies and industry practices. These curriculum updates ensure our graduates remain competitive in an evolving job market.
 
-We believe these changes will significantly enhance the value of a [University Name] degree and better prepare our students for successful careers.  
+We believe these changes will significantly enhance the value of a [University Name] degree and better prepare our students for successful careers.
 
-Please join us for an information session on October 15th at 3:00 PM in the Main Auditorium to learn more about these exciting developments.  
+Please join us for an information session on October 15th at 3:00 PM in the Main Auditorium to learn more about these exciting developments.
 
-Questions or concerns can be directed to the Academic Affairs office.  
+Questions or concerns can be directed to the Academic Affairs office.
 
-Best regards,  
-Academic Dean  
+Best regards,
+Academic Dean
 [University Name]

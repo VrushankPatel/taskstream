@@ -1,53 +1,88 @@
 workflow:
-  id: "workflow_operations_incident_management"
-  title: "Operations Incident Management and Resolution"
-  department: "Operations"
-  complexity: "high"
-  participants: ["Operations Manager", "Incident Response Team", "Technical Support", "Communications Lead", "Executive Leadership"]
-  trigger: "System outage, service disruption, or critical incident detected"
+  id: workflow_operations_incident_management
+  title: Operations Incident Management and Resolution
+  department: Operations
+  complexity: high
+  participants:
+  - Operations Manager
+  - Incident Response Team
+  - Technical Support
+  - Communications Lead
+  - Executive Leadership
+  trigger: System outage, service disruption, or critical incident detected
   steps:
-    - step: 1
-      actor: "Operations Manager"
-      action: "Incident detection and initial assessment"
-      tools: ["Monitoring Dashboard", "Alert System"]
-      duration: "15 minutes"
-      outputs: ["Incident Ticket", "Initial Impact Assessment"]
-    - step: 2
-      actor: "Incident Response Team"
-      action: "Gather incident details and classify severity"
-      tools: ["Incident Management System", "Diagnostic Tools"]
-      duration: "30 minutes"
-      decision_points: ["Impact Scope", "Business Criticality", "Customer Impact"]
-    - step: 3
-      actor: "Technical Support"
-      action: "Root cause analysis and troubleshooting"
-      tools: ["System Logs", "Diagnostic Scripts", "Vendor Support"]
-      duration: "2-4 hours"
-      outputs: ["Root Cause Analysis", "Containment Plan"]
-    - step: 4
-      actor: "Communications Lead"
-      action: "Internal and external communication planning"
-      tools: ["Communication Templates", "Stakeholder Database"]
-      duration: "1 hour"
-      outputs: ["Communication Plan", "Status Updates"]
-    - step: 5
-      actor: "Incident Response Team"
-      action: "Implement resolution and recovery actions"
-      tools: ["Change Management System", "Backup Systems"]
-      duration: "Variable - hours to days"
-      outputs: ["Resolution Report", "Recovery Verification"]
-    - step: 6
-      actor: "Operations Manager"
-      action: "Post-incident review and lessons learned"
-      tools: ["Incident Retrospective Template"]
-      duration: "2 hours"
-      outputs: ["Incident Report", "Improvement Actions"]
-  success_criteria: "Incident resolved within SLA, minimal business impact, lessons documented"
-  failure_modes: ["Delayed detection", "Inadequate response resources", "Poor communication", "Recurring incidents"]
+  - step: 1
+    actor: Operations Manager
+    action: Incident detection and initial assessment
+    tools:
+    - Monitoring Dashboard
+    - Alert System
+    duration: 15 minutes
+    outputs:
+    - Incident Ticket
+    - Initial Impact Assessment
+  - step: 2
+    actor: Incident Response Team
+    action: Gather incident details and classify severity
+    tools:
+    - Incident Management System
+    - Diagnostic Tools
+    duration: 30 minutes
+    decision_points:
+    - Impact Scope
+    - Business Criticality
+    - Customer Impact
+  - step: 3
+    actor: Technical Support
+    action: Root cause analysis and troubleshooting
+    tools:
+    - System Logs
+    - Diagnostic Scripts
+    - Vendor Support
+    duration: 2-4 hours
+    outputs:
+    - Root Cause Analysis
+    - Containment Plan
+  - step: 4
+    actor: Communications Lead
+    action: Internal and external communication planning
+    tools:
+    - Communication Templates
+    - Stakeholder Database
+    duration: 1 hour
+    outputs:
+    - Communication Plan
+    - Status Updates
+  - step: 5
+    actor: Incident Response Team
+    action: Implement resolution and recovery actions
+    tools:
+    - Change Management System
+    - Backup Systems
+    duration: Variable - hours to days
+    outputs:
+    - Resolution Report
+    - Recovery Verification
+  - step: 6
+    actor: Operations Manager
+    action: Post-incident review and lessons learned
+    tools:
+    - Incident Retrospective Template
+    duration: 2 hours
+    outputs:
+    - Incident Report
+    - Improvement Actions
+  success_criteria: Incident resolved within SLA, minimal business impact, lessons
+    documented
+  failure_modes:
+  - Delayed detection
+  - Inadequate response resources
+  - Poor communication
+  - Recurring incidents
   metrics:
-    - "Mean time to resolution: Target <4 hours for critical incidents"
-    - "Incident detection time: Target <15 minutes average"
-    - "Customer impact duration: Target <2 hours downtime"
-    - "First call resolution: Target 80% of incidents"
-    - "Recurring incident rate: Target <5% of total incidents"
-    - "Post-incident review completion: Target 100% of incidents"
+  - 'Mean time to resolution: Target <4 hours for critical incidents'
+  - 'Incident detection time: Target <15 minutes average'
+  - 'Customer impact duration: Target <2 hours downtime'
+  - 'First call resolution: Target 80% of incidents'
+  - 'Recurring incident rate: Target <5% of total incidents'
+  - 'Post-incident review completion: Target 100% of incidents'

@@ -1,9 +1,9 @@
 ## Crisis Management: Global Product Contamination Incident Response
 
-**Date:** September 28, 2025  
-**Time:** 8:00 AM - 10:00 AM  
-**Location:** Crisis Command Center  
-**Attendees:** CEO, COO, CLO, CCO, Country Managers (15 countries), Crisis Management Team  
+**Date:** September 28, 2025
+**Time:** 8:00 AM - 10:00 AM
+**Location:** Crisis Command Center
+**Attendees:** CEO, COO, CLO, CCO, Country Managers (15 countries), Crisis Management Team
 
 **Incident Summary:** Product contamination detected in manufacturing facility affecting products distributed across 15 countries. No health risks identified, but significant brand reputation concerns.
 
@@ -99,5 +99,5 @@
 - Executive leadership briefing at 6 PM daily
 - Stakeholder communication review at 4 PM daily
 
-**Crisis Commander:** CEO  
+**Crisis Commander:** CEO
 **Documentation Lead:** Crisis Management Coordinator

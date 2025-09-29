@@ -1,9 +1,9 @@
 ## Email Announcement: Robotics Safety Protocol Update
 
-**From:** Mark Johnson, Director of Manufacturing Safety  
-**To:** All Manufacturing Personnel, Safety Committee Members  
-**CC:** Executive Leadership Team, HR Business Partners  
-**Subject:** Updated Safety Protocols for Collaborative Robotics Implementation  
+**From:** Mark Johnson, Director of Manufacturing Safety
+**To:** All Manufacturing Personnel, Safety Committee Members
+**CC:** Executive Leadership Team, HR Business Partners
+**Subject:** Updated Safety Protocols for Collaborative Robotics Implementation
 
 Dear Team,
 
@@ -51,8 +51,8 @@ Safety remains our top priority as we integrate these advanced technologies. If 
 
 Thank you for your attention to safety excellence.
 
-Best regards,  
-Mark Johnson  
-Director of Manufacturing Safety  
-Safety@company.com  
+Best regards,
+Mark Johnson
+Director of Manufacturing Safety
+Safety@company.com
 Ext. 4567

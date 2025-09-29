@@ -149,6 +149,6 @@ All data must be classified according to sensitivity and business impact:
 ## Approval
 This policy is approved by the Data Governance Council and effective as of October 1, 2025.
 
-**Approved by:**  
-Chief Data Officer  
+**Approved by:**
+Chief Data Officer
 Date: September 15, 2025

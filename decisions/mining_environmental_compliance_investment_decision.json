@@ -3,8 +3,16 @@
   "context": "Large-scale mining operation in environmentally sensitive area, facing new regulatory requirements for water management and habitat restoration",
   "stakeholders": {
     "requester": "Environmental Compliance Manager",
-    "approvers": ["Chief Operating Officer", "Chief Environmental Officer", "Board of Directors"],
-    "influencers": ["Local Government", "Environmental NGOs", "Community Representatives"]
+    "approvers": [
+      "Chief Operating Officer",
+      "Chief Environmental Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Local Government",
+      "Environmental NGOs",
+      "Community Representatives"
+    ]
   },
   "request": {
     "amount": "$25 million",
@@ -16,25 +24,45 @@
     {
       "stage": "initial_assessment",
       "duration": "4 weeks",
-      "activities": ["Regulatory impact analysis", "Technical feasibility study", "Cost-benefit analysis"],
+      "activities": [
+        "Regulatory impact analysis",
+        "Technical feasibility study",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Proceed to detailed planning"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "6 weeks",
-      "activities": ["Community consultation meetings", "NGO partnership discussions", "Government negotiations"],
+      "activities": [
+        "Community consultation meetings",
+        "NGO partnership discussions",
+        "Government negotiations"
+      ],
       "outcome": "Gained stakeholder support with conditions"
     },
     {
       "stage": "final_approval",
       "duration": "2 weeks",
-      "activities": ["Board presentation", "Final budget approval", "Implementation timeline development"],
+      "activities": [
+        "Board presentation",
+        "Final budget approval",
+        "Implementation timeline development"
+      ],
       "outcome": "Approved with enhanced monitoring requirements"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["Regulatory compliance maintained", "Improved community relations", "Enhanced environmental performance"],
+    "expected_outcomes": [
+      "Regulatory compliance maintained",
+      "Improved community relations",
+      "Enhanced environmental performance"
+    ],
     "projected_benefits": "$50 million in avoided fines and improved operational efficiency",
-    "risk_factors": ["Technology implementation challenges", "Weather-related delays", "Community opposition"]
+    "risk_factors": [
+      "Technology implementation challenges",
+      "Weather-related delays",
+      "Community opposition"
+    ]
   }
 }

@@ -1,40 +1,67 @@
 workflow:
-  id: "workflow_education_001"
-  title: "University Curriculum Development and Approval Process"
-  department: "Academic Affairs"
-  complexity: "high"
-  participants: ["Department Chair", "Curriculum Committee", "Faculty Members", "Dean", "Accreditation Officer"]
-  trigger: "Department identifies need for new course or program"
+  id: workflow_education_001
+  title: University Curriculum Development and Approval Process
+  department: Academic Affairs
+  complexity: high
+  participants:
+  - Department Chair
+  - Curriculum Committee
+  - Faculty Members
+  - Dean
+  - Accreditation Officer
+  trigger: Department identifies need for new course or program
   steps:
-    - step: 1
-      actor: "Department Chair"
-      action: "Gather faculty input and draft curriculum proposal"
-      tools: ["Curriculum Planning Software", "Faculty Survey Tools"]
-      duration: "2 weeks"
-      outputs: ["Initial Curriculum Proposal"]
-    - step: 2
-      actor: "Curriculum Committee"
-      action: "Review proposal for academic standards and learning outcomes"
-      decision_points: ["Learning Objectives Alignment", "Resource Requirements", "Market Demand"]
-      duration: "1 month"
-      outputs: ["Committee Review Report", "Recommended Modifications"]
-    - step: 3
-      actor: "Faculty Members"
-      action: "Develop detailed course syllabi and assessment methods"
-      tools: ["Learning Management System", "Assessment Design Tools"]
-      duration: "3 weeks"
-      outputs: ["Course Syllabi", "Assessment Plans"]
-    - step: 4
-      actor: "Dean"
-      action: "Approve curriculum changes and allocate resources"
-      tools: ["Budget Planning System", "Resource Allocation Database"]
-      duration: "1 week"
-      outputs: ["Dean Approval Letter", "Resource Allocation Plan"]
-    - step: 5
-      actor: "Accreditation Officer"
-      action: "Ensure compliance with accreditation standards"
-      tools: ["Accreditation Guidelines", "Compliance Checklist"]
-      duration: "2 weeks"
-      outputs: ["Accreditation Compliance Report"]
-  success_criteria: "New curriculum implemented with full accreditation compliance"
-  failure_modes: ["Resource Shortages", "Faculty Resistance", "Accreditation Delays"]
+  - step: 1
+    actor: Department Chair
+    action: Gather faculty input and draft curriculum proposal
+    tools:
+    - Curriculum Planning Software
+    - Faculty Survey Tools
+    duration: 2 weeks
+    outputs:
+    - Initial Curriculum Proposal
+  - step: 2
+    actor: Curriculum Committee
+    action: Review proposal for academic standards and learning outcomes
+    decision_points:
+    - Learning Objectives Alignment
+    - Resource Requirements
+    - Market Demand
+    duration: 1 month
+    outputs:
+    - Committee Review Report
+    - Recommended Modifications
+  - step: 3
+    actor: Faculty Members
+    action: Develop detailed course syllabi and assessment methods
+    tools:
+    - Learning Management System
+    - Assessment Design Tools
+    duration: 3 weeks
+    outputs:
+    - Course Syllabi
+    - Assessment Plans
+  - step: 4
+    actor: Dean
+    action: Approve curriculum changes and allocate resources
+    tools:
+    - Budget Planning System
+    - Resource Allocation Database
+    duration: 1 week
+    outputs:
+    - Dean Approval Letter
+    - Resource Allocation Plan
+  - step: 5
+    actor: Accreditation Officer
+    action: Ensure compliance with accreditation standards
+    tools:
+    - Accreditation Guidelines
+    - Compliance Checklist
+    duration: 2 weeks
+    outputs:
+    - Accreditation Compliance Report
+  success_criteria: New curriculum implemented with full accreditation compliance
+  failure_modes:
+  - Resource Shortages
+  - Faculty Resistance
+  - Accreditation Delays

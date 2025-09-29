@@ -3,8 +3,16 @@
   "context": "Commercial aerospace company, 30,000 employees, preparing for next-generation aircraft certification with new safety systems",
   "stakeholders": {
     "requester": "Chief Engineer",
-    "approvers": ["CFO", "Chief Technology Officer", "CEO"],
-    "influencers": ["Safety Officer", "Regulatory Affairs Director", "Head of Certification"]
+    "approvers": [
+      "CFO",
+      "Chief Technology Officer",
+      "CEO"
+    ],
+    "influencers": [
+      "Safety Officer",
+      "Regulatory Affairs Director",
+      "Head of Certification"
+    ]
   },
   "request": {
     "amount": "$150,000,000",
@@ -16,28 +24,54 @@
     {
       "stage": "feasibility_study",
       "duration": "8 weeks",
-      "activities": ["Regulatory requirements analysis", "Technology gap assessment", "Cost-benefit analysis", "Vendor evaluation"],
+      "activities": [
+        "Regulatory requirements analysis",
+        "Technology gap assessment",
+        "Cost-benefit analysis",
+        "Vendor evaluation"
+      ],
       "outcome": "Investment case validated with ROI projections"
     },
     {
       "stage": "stakeholder_alignment",
       "duration": "4 weeks",
-      "activities": ["Cross-functional team consultation", "Risk workshop", "Executive presentations", "Board discussions"],
+      "activities": [
+        "Cross-functional team consultation",
+        "Risk workshop",
+        "Executive presentations",
+        "Board discussions"
+      ],
       "outcome": "Broad stakeholder support secured"
     },
     {
       "stage": "final_approval",
       "duration": "2 weeks",
-      "activities": ["Detailed budget review", "Implementation planning", "Contingency planning", "Contract negotiations"],
+      "activities": [
+        "Detailed budget review",
+        "Implementation planning",
+        "Contingency planning",
+        "Contract negotiations"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "Faster certification cycles, reduced compliance costs, enhanced safety reputation",
     "projected_value": "$75,000,000 in certification cost savings over 10 years",
-    "risk_factors": ["Technology integration challenges", "Regulatory changes", "Budget overruns"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Regulatory changes",
+      "Budget overruns"
+    ]
   },
-  "decision_criteria": ["Regulatory compliance impact", "Cost efficiency", "Safety improvement", "Competitive advantage", "Implementation timeline", "Risk mitigation"],
+  "decision_criteria": [
+    "Regulatory compliance impact",
+    "Cost efficiency",
+    "Safety improvement",
+    "Competitive advantage",
+    "Implementation timeline",
+    "Risk mitigation"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement crucial for certification investments, comprehensive risk assessment prevents costly delays"
 }

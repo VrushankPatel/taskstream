@@ -3,8 +3,17 @@
   "context": "Global technology company with distributed teams across 15 countries evaluating comprehensive remote work strategy to improve productivity, reduce costs, and enhance employee satisfaction following successful pilot program",
   "stakeholders": {
     "requester": "Chief People Officer",
-    "approvers": ["CEO", "Chief Operating Officer", "Chief Financial Officer"],
-    "influencers": ["Country Managers", "IT Director", "Legal Counsel", "Employee Representatives"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Country Managers",
+      "IT Director",
+      "Legal Counsel",
+      "Employee Representatives"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,34 +25,67 @@
     {
       "stage": "pilot_evaluation",
       "duration": "4 weeks",
-      "activities": ["Pilot data analysis", "Employee satisfaction surveys", "Productivity metrics review", "Cost-benefit analysis"],
+      "activities": [
+        "Pilot data analysis",
+        "Employee satisfaction surveys",
+        "Productivity metrics review",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Pilot demonstrated clear benefits with measurable ROI"
     },
     {
       "stage": "feasibility_assessment",
       "duration": "6 weeks",
-      "activities": ["Global infrastructure assessment", "Legal and tax implications review", "Technology requirements analysis", "Change management planning"],
+      "activities": [
+        "Global infrastructure assessment",
+        "Legal and tax implications review",
+        "Technology requirements analysis",
+        "Change management planning"
+      ],
       "outcome": "Comprehensive implementation plan developed"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "8 weeks",
-      "activities": ["Country manager consultations", "Employee focus groups", "Union negotiations", "Executive alignment sessions"],
+      "activities": [
+        "Country manager consultations",
+        "Employee focus groups",
+        "Union negotiations",
+        "Executive alignment sessions"
+      ],
       "outcome": "Strong stakeholder support with identified concerns addressed"
     },
     {
       "stage": "final_approval",
       "duration": "3 weeks",
-      "activities": ["Board presentation", "Budget finalization", "Timeline establishment", "Success metrics definition"],
+      "activities": [
+        "Board presentation",
+        "Budget finalization",
+        "Timeline establishment",
+        "Success metrics definition"
+      ],
       "outcome": "Approved with phased implementation approach"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% productivity improvement, 30% reduction in real estate costs, 40% increase in employee retention, access to global talent pool, enhanced company reputation as progressive employer",
     "projected_value": "$45,000,000",
-    "risk_factors": ["Cross-cultural communication challenges", "Data security concerns with distributed workforce", "Manager capability gaps in remote leadership", "Potential loss of company culture and collaboration", "Legal compliance variations across jurisdictions"]
+    "risk_factors": [
+      "Cross-cultural communication challenges",
+      "Data security concerns with distributed workforce",
+      "Manager capability gaps in remote leadership",
+      "Potential loss of company culture and collaboration",
+      "Legal compliance variations across jurisdictions"
+    ]
   },
-  "decision_criteria": ["Financial ROI and cost savings", "Employee satisfaction and retention impact", "Productivity and performance metrics", "Legal and compliance feasibility", "Technology infrastructure requirements", "Cultural and change management considerations"],
+  "decision_criteria": [
+    "Financial ROI and cost savings",
+    "Employee satisfaction and retention impact",
+    "Productivity and performance metrics",
+    "Legal and compliance feasibility",
+    "Technology infrastructure requirements",
+    "Cultural and change management considerations"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive pilot testing and stakeholder engagement critical for successful enterprise remote work implementation; cultural adaptation and technology infrastructure must be addressed simultaneously"
 }

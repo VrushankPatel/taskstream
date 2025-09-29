@@ -1,9 +1,9 @@
 ## Email Thread: Emerging Technologies 6G Network Infrastructure Investment Proposal
 
-**From:** Dr. Amanda Chen, VP Emerging Technologies  
-**To:** CEO Robert Mitchell, CFO Lisa Wong, CTO David Park  
-**Subject:** 6G Network Infrastructure Investment - Strategic Opportunity Analysis  
-**Date:** January 10, 2026  
+**From:** Dr. Amanda Chen, VP Emerging Technologies
+**To:** CEO Robert Mitchell, CFO Lisa Wong, CTO David Park
+**Subject:** 6G Network Infrastructure Investment - Strategic Opportunity Analysis
+**Date:** January 10, 2026
 
 Leadership Team,
 
@@ -39,16 +39,16 @@ As we position ourselves for leadership in next-generation wireless technologies
 
 I'd like to schedule an executive review session to discuss this opportunity in detail.
 
-Best regards,  
-Dr. Amanda Chen  
+Best regards,
+Dr. Amanda Chen
 VP Emerging Technologies
 
 ---
 
-**From:** Lisa Wong, CFO  
-**To:** Dr. Amanda Chen, CEO Robert Mitchell, CTO David Park  
-**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis  
-**Date:** January 11, 2026  
+**From:** Lisa Wong, CFO
+**To:** Dr. Amanda Chen, CEO Robert Mitchell, CTO David Park
+**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis
+**Date:** January 11, 2026
 
 Amanda,
 
@@ -66,15 +66,15 @@ Thank you for the comprehensive analysis. The market opportunity is compelling, 
 
 The $800M investment represents a significant commitment. I'd like to see the detailed financial model before we proceed to executive review.
 
-Regards,  
+Regards,
 Lisa
 
 ---
 
-**From:** David Park, CTO  
-**To:** Dr. Amanda Chen, CEO Robert Mitchell, CFO Lisa Wong  
-**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis  
-**Date:** January 12, 2026  
+**From:** David Park, CTO
+**To:** Dr. Amanda Chen, CEO Robert Mitchell, CFO Lisa Wong
+**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis
+**Date:** January 12, 2026
 
 Amanda, Lisa,
 
@@ -101,10 +101,10 @@ David
 
 ---
 
-**From:** CEO Robert Mitchell  
-**To:** Dr. Amanda Chen, CFO Lisa Wong, CTO David Park  
-**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis  
-**Date:** January 13, 2026  
+**From:** CEO Robert Mitchell
+**To:** Dr. Amanda Chen, CFO Lisa Wong, CTO David Park
+**Subject:** Re: 6G Network Infrastructure Investment - Strategic Opportunity Analysis
+**Date:** January 13, 2026
 
 Team,
 

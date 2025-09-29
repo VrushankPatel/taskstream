@@ -3,8 +3,16 @@
   "context": "Autonomous vehicle manufacturer expanding safety testing capabilities to meet regulatory requirements for commercial deployment",
   "stakeholders": {
     "requester": "Vice President of Safety & Testing",
-    "approvers": ["CEO", "Chief Operating Officer", "Board Safety Committee"],
-    "influencers": ["Engineering Leadership", "Regulatory Affairs", "Insurance Partners"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Board Safety Committee"
+    ],
+    "influencers": [
+      "Engineering Leadership",
+      "Regulatory Affairs",
+      "Insurance Partners"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "regulatory_requirements_analysis",
       "duration": "1 month",
-      "activities": ["Regulatory landscape review", "Testing requirements mapping", "Gap analysis"],
+      "activities": [
+        "Regulatory landscape review",
+        "Testing requirements mapping",
+        "Gap analysis"
+      ],
       "outcome": "Clear testing requirements identified for multiple jurisdictions"
     },
     {
       "stage": "testing_infrastructure_assessment",
       "duration": "2 months",
-      "activities": ["Current capabilities evaluation", "Infrastructure needs assessment", "Technology evaluation"],
+      "activities": [
+        "Current capabilities evaluation",
+        "Infrastructure needs assessment",
+        "Technology evaluation"
+      ],
       "outcome": "Comprehensive expansion plan developed for testing facilities and simulation capabilities"
     },
     {
       "stage": "cost_benefit_analysis",
       "duration": "1 month",
-      "activities": ["ROI modeling", "Risk assessment", "Alternative evaluation"],
+      "activities": [
+        "ROI modeling",
+        "Risk assessment",
+        "Alternative evaluation"
+      ],
       "outcome": "Strong business case with 2.5-year payback period"
     },
     {
       "stage": "implementation_approval",
       "duration": "1 month",
-      "activities": ["Board presentation", "Stakeholder alignment", "Final approval"],
+      "activities": [
+        "Board presentation",
+        "Stakeholder alignment",
+        "Final approval"
+      ],
       "outcome": "Approved with phased implementation and milestone-based funding"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["Accelerated regulatory approvals", "Enhanced safety validation", "Competitive advantage in safety"],
+    "expected_benefits": [
+      "Accelerated regulatory approvals",
+      "Enhanced safety validation",
+      "Competitive advantage in safety"
+    ],
     "projected_revenue": "$300,000,000 in additional market access",
-    "risk_factors": ["Regulatory changes", "Technology obsolescence", "High capital requirements"]
+    "risk_factors": [
+      "Regulatory changes",
+      "Technology obsolescence",
+      "High capital requirements"
+    ]
   }
 }

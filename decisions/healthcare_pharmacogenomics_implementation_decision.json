@@ -3,8 +3,17 @@
   "context": "Large hospital system evaluating implementation of pharmacogenomics testing for personalized medication management across multiple therapeutic areas",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["Hospital CEO", "Chief Financial Officer", "Pharmacy & Therapeutics Committee"],
-    "influencers": ["Clinical Pharmacists", "IT Department", "Patient Safety Committee", "Insurance Payers"]
+    "approvers": [
+      "Hospital CEO",
+      "Chief Financial Officer",
+      "Pharmacy & Therapeutics Committee"
+    ],
+    "influencers": [
+      "Clinical Pharmacists",
+      "IT Department",
+      "Patient Safety Committee",
+      "Insurance Payers"
+    ]
   },
   "request": {
     "amount": "$2.5 million",
@@ -16,31 +25,52 @@
     {
       "stage": "clinical_evidence_review",
       "duration": "6 weeks",
-      "activities": ["Systematic literature review", "Clinical guideline assessment", "Expert panel consultation"],
+      "activities": [
+        "Systematic literature review",
+        "Clinical guideline assessment",
+        "Expert panel consultation"
+      ],
       "outcome": "Strong evidence base identified for cardiovascular and psychiatric medications"
     },
     {
       "stage": "technical_assessment",
       "duration": "8 weeks",
-      "activities": ["EHR integration analysis", "Laboratory workflow evaluation", "Data security assessment"],
+      "activities": [
+        "EHR integration analysis",
+        "Laboratory workflow evaluation",
+        "Data security assessment"
+      ],
       "outcome": "Feasible integration pathway identified with HL7 FHIR standards"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Reimbursement strategy development", "Budget impact modeling"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Reimbursement strategy development",
+        "Budget impact modeling"
+      ],
       "outcome": "Positive ROI projected within 2 years with payer coverage expansion"
     },
     {
       "stage": "implementation_planning",
       "duration": "6 weeks",
-      "activities": ["Provider training program design", "Patient education materials development", "Quality assurance framework"],
+      "activities": [
+        "Provider training program design",
+        "Patient education materials development",
+        "Quality assurance framework"
+      ],
       "outcome": "Comprehensive implementation plan with phased rollout strategy"
     }
   ],
   "business_impact": {
     "expected_adverse_event_reduction": "25%",
     "projected_cost_savings": "$8 million annually",
-    "risk_factors": ["Provider adoption challenges", "Insurance reimbursement uncertainty", "Technical integration issues", "Patient privacy concerns"]
+    "risk_factors": [
+      "Provider adoption challenges",
+      "Insurance reimbursement uncertainty",
+      "Technical integration issues",
+      "Patient privacy concerns"
+    ]
   }
 }

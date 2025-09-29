@@ -1,100 +1,101 @@
 name: Utilities Customer Service Workflow
-description: Process for handling customer inquiries and service requests in utilities sector
+description: Process for handling customer inquiries and service requests in utilities
+  sector
 version: 1.0
 industry: Utilities
 region: Global
 complexity: Simple
 actors:
-  - Customer Service Representative
-  - Technical Support Specialist
-  - Billing Specialist
-  - Field Service Coordinator
-  - Customer Service Manager
+- Customer Service Representative
+- Technical Support Specialist
+- Billing Specialist
+- Field Service Coordinator
+- Customer Service Manager
 steps:
-  - id: inquiry_reception
-    name: Inquiry Reception and Classification
-    description: Receive and categorize customer inquiries
-    actor: Customer Service Representative
-    inputs:
-      - Customer contact information
-      - Inquiry details
-      - Service history
-    outputs:
-      - Inquiry classification
-      - Priority level assignment
-    duration: 5 minutes
-    decision_points:
-      - condition: Billing inquiry
-        next_step: billing_assistance
-      - condition: Technical issue
-        next_step: technical_support
-      - condition: Service request
-        next_step: service_coordination
-  - id: billing_assistance
-    name: Billing Assistance
-    description: Handle billing-related questions and issues
-    actor: Billing Specialist
-    inputs:
-      - Customer account data
-      - Billing records
-      - Payment history
-    outputs:
-      - Billing explanation
-      - Payment arrangements
-      - Account adjustments
-    duration: 15 minutes
-  - id: technical_support
-    name: Technical Support
-    description: Provide technical assistance for service issues
-    actor: Technical Support Specialist
-    inputs:
-      - Technical knowledge base
-      - System diagnostics
-      - Troubleshooting guides
-    outputs:
-      - Resolution steps
-      - Follow-up actions
-      - Escalation recommendations
-    duration: 20 minutes
-  - id: service_coordination
-    name: Service Coordination
-    description: Coordinate field service for outages or installations
-    actor: Field Service Coordinator
-    inputs:
-      - Service request details
-      - Technician availability
-      - Scheduling system
-    outputs:
-      - Service appointment
-      - Technician assignment
-      - Customer confirmation
-    duration: 30 minutes
-  - id: resolution_verification
-    name: Resolution Verification
-    description: Confirm customer satisfaction and issue resolution
-    actor: Customer Service Representative
-    inputs:
-      - Resolution feedback
-      - Follow-up surveys
-      - Service completion reports
-    outputs:
-      - Satisfaction rating
-      - Resolution confirmation
-      - Quality feedback
-    duration: 5 minutes
+- id: inquiry_reception
+  name: Inquiry Reception and Classification
+  description: Receive and categorize customer inquiries
+  actor: Customer Service Representative
+  inputs:
+  - Customer contact information
+  - Inquiry details
+  - Service history
+  outputs:
+  - Inquiry classification
+  - Priority level assignment
+  duration: 5 minutes
+  decision_points:
+  - condition: Billing inquiry
+    next_step: billing_assistance
+  - condition: Technical issue
+    next_step: technical_support
+  - condition: Service request
+    next_step: service_coordination
+- id: billing_assistance
+  name: Billing Assistance
+  description: Handle billing-related questions and issues
+  actor: Billing Specialist
+  inputs:
+  - Customer account data
+  - Billing records
+  - Payment history
+  outputs:
+  - Billing explanation
+  - Payment arrangements
+  - Account adjustments
+  duration: 15 minutes
+- id: technical_support
+  name: Technical Support
+  description: Provide technical assistance for service issues
+  actor: Technical Support Specialist
+  inputs:
+  - Technical knowledge base
+  - System diagnostics
+  - Troubleshooting guides
+  outputs:
+  - Resolution steps
+  - Follow-up actions
+  - Escalation recommendations
+  duration: 20 minutes
+- id: service_coordination
+  name: Service Coordination
+  description: Coordinate field service for outages or installations
+  actor: Field Service Coordinator
+  inputs:
+  - Service request details
+  - Technician availability
+  - Scheduling system
+  outputs:
+  - Service appointment
+  - Technician assignment
+  - Customer confirmation
+  duration: 30 minutes
+- id: resolution_verification
+  name: Resolution Verification
+  description: Confirm customer satisfaction and issue resolution
+  actor: Customer Service Representative
+  inputs:
+  - Resolution feedback
+  - Follow-up surveys
+  - Service completion reports
+  outputs:
+  - Satisfaction rating
+  - Resolution confirmation
+  - Quality feedback
+  duration: 5 minutes
 success_criteria:
-  - First contact resolution rate above 80%
-  - Customer satisfaction score above 4.5/5
-  - Response time within 24 hours
-  - Accurate information provided
+- First contact resolution rate above 80%
+- Customer satisfaction score above 4.5/5
+- Response time within 24 hours
+- Accurate information provided
 failure_modes:
-  - Incorrect information given
-  - Delayed response times
-  - Unresolved issues
-  - Poor customer experience
+- Incorrect information given
+- Delayed response times
+- Unresolved issues
+- Poor customer experience
 metrics:
-  - Average response time
-  - First contact resolution rate
-  - Customer satisfaction score
-  - Call abandonment rate
-  - Issue resolution time
+- Average response time
+- First contact resolution rate
+- Customer satisfaction score
+- Call abandonment rate
+- Issue resolution time

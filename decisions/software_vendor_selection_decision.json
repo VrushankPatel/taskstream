@@ -3,8 +3,17 @@
   "context": "Mid-size SaaS company (150 employees) replacing legacy CRM system with modern platform to support international expansion and improved sales operations",
   "stakeholders": {
     "requester": "VP Sales Operations",
-    "approvers": ["CEO", "CFO", "VP Sales"],
-    "influencers": ["Sales Team Leads", "IT Director", "Customer Success Manager", "Current CRM Users"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "VP Sales"
+    ],
+    "influencers": [
+      "Sales Team Leads",
+      "IT Director",
+      "Customer Success Manager",
+      "Current CRM Users"
+    ]
   },
   "request": {
     "amount": "$850K total cost (3-year contract)",
@@ -16,34 +25,66 @@
     {
       "stage": "requirements_definition",
       "duration": "2 weeks",
-      "activities": ["User interviews with sales team", "Technical requirements gathering", "Integration needs assessment", "Budget and timeline constraints"],
+      "activities": [
+        "User interviews with sales team",
+        "Technical requirements gathering",
+        "Integration needs assessment",
+        "Budget and timeline constraints"
+      ],
       "outcome": "Defined 25 must-have features, 15 nice-to-have features, $800K budget ceiling"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "4 weeks",
-      "activities": ["RFP to 8 vendors", "Product demonstrations", "Reference checks", "Technical architecture reviews", "Pricing negotiations"],
+      "activities": [
+        "RFP to 8 vendors",
+        "Product demonstrations",
+        "Reference checks",
+        "Technical architecture reviews",
+        "Pricing negotiations"
+      ],
       "outcome": "Shortlisted 3 vendors: Salesforce, HubSpot, Pipedrive based on feature fit and pricing"
     },
     {
       "stage": "proof_of_concept",
       "duration": "3 weeks",
-      "activities": ["Free trials for shortlisted vendors", "Data migration testing", "Integration prototyping", "User acceptance testing"],
+      "activities": [
+        "Free trials for shortlisted vendors",
+        "Data migration testing",
+        "Integration prototyping",
+        "User acceptance testing"
+      ],
       "outcome": "Salesforce selected for superior AI capabilities and enterprise scalability"
     },
     {
       "stage": "contract_negotiation",
       "duration": "2 weeks",
-      "activities": ["Legal review of contracts", "Final pricing negotiations", "SLA definitions", "Implementation timeline agreement"],
+      "activities": [
+        "Legal review of contracts",
+        "Final pricing negotiations",
+        "SLA definitions",
+        "Implementation timeline agreement"
+      ],
       "outcome": "3-year contract signed at $780K with 6-month implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% increase in sales productivity, 40% faster reporting, improved international sales coordination",
     "projected_value": "$2.1M NPV over 3 years (productivity gains + revenue increase)",
-    "risk_factors": ["Data migration challenges", "User adoption resistance", "Integration complexities", "Cost overruns"]
+    "risk_factors": [
+      "Data migration challenges",
+      "User adoption resistance",
+      "Integration complexities",
+      "Cost overruns"
+    ]
   },
-  "decision_criteria": ["Feature completeness (40%)", "Total cost of ownership (25%)", "Vendor stability and support (15%)", "Integration capabilities (10%)", "User experience (10%)"],
+  "decision_criteria": [
+    "Feature completeness (40%)",
+    "Total cost of ownership (25%)",
+    "Vendor stability and support (15%)",
+    "Integration capabilities (10%)",
+    "User experience (10%)"
+  ],
   "outcome": "Approved - Salesforce selected",
   "lessons_learned": "Comprehensive POC testing revealed hidden integration challenges, early user involvement prevented adoption issues, negotiated pricing saved 15% vs initial quotes"
 }

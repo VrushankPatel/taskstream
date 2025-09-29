@@ -1,12 +1,12 @@
 # Customer Escalation Meeting: Enterprise Client ABC Corp
 
-**Date:** September 27, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual Meeting  
-**Attendees:**  
-- Customer: John Smith, CTO (ABC Corp)  
-- Account Team: Sarah Johnson (Account Executive), Mike Davis (Solutions Engineer)  
-- Internal: Lisa Wong (Customer Success Manager), David Park (Product Manager), Rachel Kim (Support Lead)  
+**Date:** September 27, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual Meeting
+**Attendees:**
+- Customer: John Smith, CTO (ABC Corp)
+- Account Team: Sarah Johnson (Account Executive), Mike Davis (Solutions Engineer)
+- Internal: Lisa Wong (Customer Success Manager), David Park (Product Manager), Rachel Kim (Support Lead)
 
 **Context:** ABC Corp reported critical system performance issues following last week's update, threatening contract renewal.
 

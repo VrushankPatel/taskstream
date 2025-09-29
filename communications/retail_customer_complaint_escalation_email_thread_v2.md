@@ -1,8 +1,8 @@
 ## Email Thread: Retail Customer Complaint Escalation
 
-**From:** Customer Service Manager  
-**To:** Store Manager, Regional Director  
-**Subject:** Urgent: High-Value Customer Complaint - Escalation Required  
+**From:** Customer Service Manager
+**To:** Store Manager, Regional Director
+**Subject:** Urgent: High-Value Customer Complaint - Escalation Required
 
 Team,
 
@@ -16,15 +16,15 @@ Details:
 
 I've offered a full refund and replacement, but she's demanding additional compensation. Please advise on next steps.
 
-Best,  
-Sarah Chen  
-Customer Service Manager  
+Best,
+Sarah Chen
+Customer Service Manager
 
 ---
 
-**From:** Store Manager  
-**To:** Customer Service Manager, Regional Director  
-**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required  
+**From:** Store Manager
+**To:** Customer Service Manager, Regional Director
+**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required
 
 Sarah,
 
@@ -38,15 +38,15 @@ For the customer, I recommend we offer:
 
 Let's get this resolved quickly to protect our reputation.
 
-Regards,  
-Mike Torres  
-Store Manager  
+Regards,
+Mike Torres
+Store Manager
 
 ---
 
-**From:** Regional Director  
-**To:** Customer Service Manager, Store Manager, VP Customer Experience  
-**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required  
+**From:** Regional Director
+**To:** Customer Service Manager, Store Manager, VP Customer Experience
+**Subject:** Re: Urgent: High-Value Customer Complaint - Escalation Required
 
 Thanks for the quick escalation. This aligns with our customer retention protocol.
 
@@ -56,6 +56,6 @@ We'll review the product quality issue in tomorrow's operations meeting.
 
 Keep me posted on resolution.
 
-Best,  
-Jennifer Liu  
+Best,
+Jennifer Liu
 Regional Director

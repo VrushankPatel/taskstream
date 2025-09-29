@@ -1,46 +1,77 @@
 workflow:
-  id: "workflow_employee_onboarding_enterprise"
-  title: "Employee Onboarding Process"
-  department: "HR"
-  complexity: "medium"
-  participants: ["HR Manager", "Hiring Manager", "IT", "Facilities", "Department Head"]
-  trigger: "New hire offer accepted"
+  id: workflow_employee_onboarding_enterprise
+  title: Employee Onboarding Process
+  department: HR
+  complexity: medium
+  participants:
+  - HR Manager
+  - Hiring Manager
+  - IT
+  - Facilities
+  - Department Head
+  trigger: New hire offer accepted
   steps:
-    - step: 1
-      actor: "HR Manager"
-      action: "Send welcome email and collect required documents"
-      tools: ["HRIS", "Email system"]
-      duration: "1 day"
-      outputs: ["Employee paperwork", "Background check initiated"]
-    - step: 2
-      actor: "IT"
-      action: "Set up email, computer, and system access"
-      tools: ["IT ticketing system", "Active Directory"]
-      duration: "2 days"
-      outputs: ["User accounts created", "Equipment delivered"]
-    - step: 3
-      actor: "Facilities"
-      action: "Prepare workspace and access cards"
-      tools: ["Facility management system"]
-      duration: "1 day"
-      outputs: ["Workspace ready", "Access credentials"]
-    - step: 4
-      actor: "Hiring Manager"
-      action: "Schedule first week meetings and training"
-      tools: ["Calendar system", "Training platform"]
-      duration: "1 day"
-      outputs: ["Onboarding schedule", "Training assignments"]
-    - step: 5
-      actor: "Department Head"
-      action: "Conduct department orientation and team introductions"
-      tools: ["Meeting rooms", "Team collaboration tools"]
-      duration: "3 days"
-      outputs: ["Department overview completed", "Team relationships established"]
-    - step: 6
-      actor: "HR Manager"
-      action: "Complete 30-day check-in and performance expectations"
-      tools: ["HRIS", "Performance management system"]
-      duration: "1 day"
-      outputs: ["30-day review completed", "Development plan initiated"]
-  success_criteria: "Employee completes first 30 days, receives positive feedback"
-  failure_modes: ["Delayed IT setup", "Missing paperwork", "Poor manager preparation"]
+  - step: 1
+    actor: HR Manager
+    action: Send welcome email and collect required documents
+    tools:
+    - HRIS
+    - Email system
+    duration: 1 day
+    outputs:
+    - Employee paperwork
+    - Background check initiated
+  - step: 2
+    actor: IT
+    action: Set up email, computer, and system access
+    tools:
+    - IT ticketing system
+    - Active Directory
+    duration: 2 days
+    outputs:
+    - User accounts created
+    - Equipment delivered
+  - step: 3
+    actor: Facilities
+    action: Prepare workspace and access cards
+    tools:
+    - Facility management system
+    duration: 1 day
+    outputs:
+    - Workspace ready
+    - Access credentials
+  - step: 4
+    actor: Hiring Manager
+    action: Schedule first week meetings and training
+    tools:
+    - Calendar system
+    - Training platform
+    duration: 1 day
+    outputs:
+    - Onboarding schedule
+    - Training assignments
+  - step: 5
+    actor: Department Head
+    action: Conduct department orientation and team introductions
+    tools:
+    - Meeting rooms
+    - Team collaboration tools
+    duration: 3 days
+    outputs:
+    - Department overview completed
+    - Team relationships established
+  - step: 6
+    actor: HR Manager
+    action: Complete 30-day check-in and performance expectations
+    tools:
+    - HRIS
+    - Performance management system
+    duration: 1 day
+    outputs:
+    - 30-day review completed
+    - Development plan initiated
+  success_criteria: Employee completes first 30 days, receives positive feedback
+  failure_modes:
+  - Delayed IT setup
+  - Missing paperwork
+  - Poor manager preparation

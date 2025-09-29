@@ -1,8 +1,8 @@
 ## Email Thread: Quantum Computing Adoption Announcement
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team, Board of Directors  
-**Subject:** Strategic Investment in Quantum Computing Infrastructure  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team, Board of Directors
+**Subject:** Strategic Investment in Quantum Computing Infrastructure
 
 Team,
 
@@ -31,14 +31,14 @@ Following extensive evaluation and pilot testing, I'm pleased to announce our st
 
 This represents a significant step forward in our technological capabilities and positions us at the forefront of quantum-enabled industries. I'll be scheduling individual meetings with each of you to discuss specific implications for your areas.
 
-Best regards,  
+Best regards,
 CTO
 
 ---
 
-**From:** CEO  
-**To:** Chief Technology Officer, Executive Leadership Team  
-**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure  
+**From:** CEO
+**To:** Chief Technology Officer, Executive Leadership Team
+**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure
 
 Excellent work on this comprehensive evaluation. The board fully supports this strategic investment and sees it as critical to maintaining our competitive advantage. The phased approach gives us the flexibility to adapt as the technology matures.
 
@@ -49,14 +49,14 @@ Key points for the board presentation next week:
 
 Let's ensure we have solid answers for the talent acquisition challenges this will present.
 
-Regards,  
+Regards,
 CEO
 
 ---
 
-**From:** Chief Financial Officer  
-**To:** Chief Technology Officer, CEO  
-**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure  
+**From:** Chief Financial Officer
+**To:** Chief Technology Officer, CEO
+**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure
 
 The financial modeling looks solid, but I want to ensure we have contingency plans for the high uncertainty around quantum hardware availability and pricing. Can we include sensitivity analysis showing best/worst case scenarios?
 
@@ -66,9 +66,9 @@ CFO
 
 ---
 
-**From:** Chief Technology Officer  
-**To:** CEO, Chief Financial Officer  
-**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure  
+**From:** Chief Technology Officer
+**To:** CEO, Chief Financial Officer
+**Subject:** Re: Strategic Investment in Quantum Computing Infrastructure
 
 Understood. I'll incorporate the sensitivity analysis and detailed cash flow projections into the board materials. We have contingency agreements with multiple hardware providers to mitigate supply chain risks.
 

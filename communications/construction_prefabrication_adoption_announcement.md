@@ -1,8 +1,8 @@
 ## Company Announcement: Construction Prefabrication Technology Adoption
 
-**From:** Construction Operations Director  
-**To:** All Employees  
-**Subject:** Strategic Initiative: Prefabrication Technology Implementation  
+**From:** Construction Operations Director
+**To:** All Employees
+**Subject:** Strategic Initiative: Prefabrication Technology Implementation
 
 Team,
 
@@ -46,13 +46,13 @@ I'm excited to announce that following extensive evaluation and pilot testing, w
 - Training sessions begin November 1 with hands-on workshops
 - Pilot project teams identified and notified with kickoff meeting scheduled
 - Vendor partnerships established for equipment delivery and support
-- Monthly progress reviews scheduled through Q2 2026  
+- Monthly progress reviews scheduled through Q2 2026
 
 This initiative positions us as an industry leader in modern construction methods and supports our commitment to operational excellence. We appreciate everyone's support as we navigate this important transition.
 
 Questions or concerns can be directed to the implementation team at prefabrication@company.com.
 
-Best regards,  
-Jennifer Martinez  
-Construction Operations Director  
+Best regards,
+Jennifer Martinez
+Construction Operations Director
 Senior Vice President

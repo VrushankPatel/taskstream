@@ -1,46 +1,74 @@
 workflow:
-  id: "workflow_002"
-  title: "AI Ethics Governance Workflow"
-  department: "AI Ethics and Compliance"
-  complexity: "medium"
-  participants: ["AI Ethics Officer", "Data Scientists", "Legal", "HR", "Business Stakeholders"]
-  trigger: "New AI project initiation or existing system audit"
+  id: workflow_002
+  title: AI Ethics Governance Workflow
+  department: AI Ethics and Compliance
+  complexity: medium
+  participants:
+  - AI Ethics Officer
+  - Data Scientists
+  - Legal
+  - HR
+  - Business Stakeholders
+  trigger: New AI project initiation or existing system audit
   steps:
-    - step: 1
-      actor: "AI Ethics Officer"
-      action: "Conduct initial ethics impact assessment"
-      tools: ["Ethics assessment frameworks", "Bias detection tools"]
-      duration: "2 weeks"
-      outputs: ["Ethics impact report", "Risk identification"]
-    - step: 2
-      actor: "Data Scientists"
-      action: "Perform bias and fairness analysis on datasets and models"
-      tools: ["Bias detection algorithms", "Fairness metrics"]
-      duration: "3 weeks"
-      outputs: ["Bias analysis report", "Mitigation recommendations"]
-    - step: 3
-      actor: "Legal"
-      action: "Review compliance with AI regulations and data privacy laws"
-      decision_points: ["Regulatory requirements", "Data usage permissions"]
-      duration: "2 weeks"
-      outputs: ["Compliance assessment", "Legal recommendations"]
-    - step: 4
-      actor: "HR"
-      action: "Assess workforce impact and training requirements"
-      tools: ["Workforce impact analysis", "Training frameworks"]
-      duration: "2 weeks"
-      outputs: ["Workforce impact report", "Training plan"]
-    - step: 5
-      actor: "Business Stakeholders"
-      action: "Review and approve ethics governance framework"
-      decision_points: ["Ethical acceptability", "Business alignment"]
-      duration: "1 week"
-      outputs: ["Approved governance framework", "Implementation roadmap"]
-  success_criteria: "AI system deployed with comprehensive ethics oversight and monitoring"
-  failure_modes: ["Unacceptable bias levels", "Regulatory non-compliance", "Stakeholder objections"]
+  - step: 1
+    actor: AI Ethics Officer
+    action: Conduct initial ethics impact assessment
+    tools:
+    - Ethics assessment frameworks
+    - Bias detection tools
+    duration: 2 weeks
+    outputs:
+    - Ethics impact report
+    - Risk identification
+  - step: 2
+    actor: Data Scientists
+    action: Perform bias and fairness analysis on datasets and models
+    tools:
+    - Bias detection algorithms
+    - Fairness metrics
+    duration: 3 weeks
+    outputs:
+    - Bias analysis report
+    - Mitigation recommendations
+  - step: 3
+    actor: Legal
+    action: Review compliance with AI regulations and data privacy laws
+    decision_points:
+    - Regulatory requirements
+    - Data usage permissions
+    duration: 2 weeks
+    outputs:
+    - Compliance assessment
+    - Legal recommendations
+  - step: 4
+    actor: HR
+    action: Assess workforce impact and training requirements
+    tools:
+    - Workforce impact analysis
+    - Training frameworks
+    duration: 2 weeks
+    outputs:
+    - Workforce impact report
+    - Training plan
+  - step: 5
+    actor: Business Stakeholders
+    action: Review and approve ethics governance framework
+    decision_points:
+    - Ethical acceptability
+    - Business alignment
+    duration: 1 week
+    outputs:
+    - Approved governance framework
+    - Implementation roadmap
+  success_criteria: AI system deployed with comprehensive ethics oversight and monitoring
+  failure_modes:
+  - Unacceptable bias levels
+  - Regulatory non-compliance
+  - Stakeholder objections
   metrics:
-    - "Bias detection accuracy: Target >95%"
-    - "Regulatory compliance rate: Target 100%"
-    - "Ethics audit completion: Target quarterly"
-    - "Stakeholder satisfaction: Target >4/5"
-    - "Training completion rate: Target >90%"
+  - 'Bias detection accuracy: Target >95%'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'Ethics audit completion: Target quarterly'
+  - 'Stakeholder satisfaction: Target >4/5'
+  - 'Training completion rate: Target >90%'

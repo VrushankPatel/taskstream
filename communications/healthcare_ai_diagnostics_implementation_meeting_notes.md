@@ -1,9 +1,9 @@
 # Healthcare AI Diagnostics Implementation Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 12:00 PM  
-**Location:** Medical Center Conference Room  
-**Attendees:** Chief Medical Officer, IT Director, Department Chiefs (Radiology, Pathology, Cardiology), AI Vendor Rep, Patient Safety Officer  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 12:00 PM
+**Location:** Medical Center Conference Room
+**Attendees:** Chief Medical Officer, IT Director, Department Chiefs (Radiology, Pathology, Cardiology), AI Vendor Rep, Patient Safety Officer
 
 ## Agenda
 1. Review clinical evaluation results

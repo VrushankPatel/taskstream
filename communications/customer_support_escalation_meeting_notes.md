@@ -1,17 +1,17 @@
 ## Customer Support Escalation Meeting Notes
 
-**Date:** October 25, 2024  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room B  
-**Attendees:** Customer Success Manager (Alex), Support Lead (Maria), Account Executive (James), Engineering Lead (Tom), Customer (Sarah Johnson, VP Operations at TechCorp)  
-**Facilitator:** Maria Sanchez, Support Lead  
-**Note Taker:** Emily Carter, Customer Success Coordinator  
+**Date:** October 25, 2024
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room B
+**Attendees:** Customer Success Manager (Alex), Support Lead (Maria), Account Executive (James), Engineering Lead (Tom), Customer (Sarah Johnson, VP Operations at TechCorp)
+**Facilitator:** Maria Sanchez, Support Lead
+**Note Taker:** Emily Carter, Customer Success Coordinator
 
 ### Customer Issue Summary
-**Customer:** TechCorp (Enterprise client, $500K annual contract)  
-**Issue:** Critical production outage affecting 10,000 users for 48+ hours  
-**Impact:** Complete loss of access to core business application  
-**SLA Status:** Breached (4-hour resolution target)  
+**Customer:** TechCorp (Enterprise client, $500K annual contract)
+**Issue:** Critical production outage affecting 10,000 users for 48+ hours
+**Impact:** Complete loss of access to core business application
+**SLA Status:** Breached (4-hour resolution target)
 
 ### Timeline of Events
 - **October 23, 8:00 AM:** Customer reported system slowdown
@@ -22,7 +22,7 @@
 - **October 25, 2:00 PM:** Escalation meeting called
 
 ### Root Cause Analysis
-**Primary Cause:** Database corruption due to unhandled edge case in recent feature deployment  
+**Primary Cause:** Database corruption due to unhandled edge case in recent feature deployment
 **Contributing Factors:**
 - Insufficient testing of migration scripts
 - Lack of proper rollback procedures

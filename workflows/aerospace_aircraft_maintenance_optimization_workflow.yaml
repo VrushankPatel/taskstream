@@ -1,52 +1,91 @@
 workflow:
-  id: "aerospace_aircraft_maintenance_optimization"
-  title: "Aircraft Maintenance Optimization Process"
-  department: "Maintenance Operations"
-  complexity: "high"
-  participants: ["Maintenance Manager", "Aircraft Engineers", "Quality Assurance", "Regulatory Compliance", "Supply Chain"]
-  trigger: "Scheduled maintenance cycle or predictive maintenance alert"
+  id: aerospace_aircraft_maintenance_optimization
+  title: Aircraft Maintenance Optimization Process
+  department: Maintenance Operations
+  complexity: high
+  participants:
+  - Maintenance Manager
+  - Aircraft Engineers
+  - Quality Assurance
+  - Regulatory Compliance
+  - Supply Chain
+  trigger: Scheduled maintenance cycle or predictive maintenance alert
   steps:
-    - step: 1
-      actor: "Maintenance Manager"
-      action: "Review aircraft maintenance schedule and predictive analytics data"
-      tools: ["Maintenance Management System", "IoT sensors", "Predictive analytics platform"]
-      duration: "2 hours"
-      outputs: ["Maintenance priority matrix", "Resource allocation plan"]
-    - step: 2
-      actor: "Aircraft Engineers"
-      action: "Conduct pre-maintenance inspection and diagnostics"
-      tools: ["Non-destructive testing equipment", "Digital twin software", "Maintenance checklists"]
-      duration: "4 hours"
-      outputs: ["Inspection reports", "Component health assessments"]
-    - step: 3
-      actor: "Supply Chain"
-      action: "Procure required parts and materials based on predictive needs"
-      tools: ["Inventory management system", "Supplier portal", "Just-in-time ordering"]
-      duration: "24 hours"
-      outputs: ["Parts availability confirmation", "Logistics coordination"]
-    - step: 4
-      actor: "Aircraft Engineers"
-      action: "Execute maintenance procedures with digital assistance"
-      tools: ["AR maintenance guides", "Automated testing equipment", "Quality control software"]
-      duration: "8-16 hours"
-      outputs: ["Maintenance logs", "Component replacement records"]
-    - step: 5
-      actor: "Quality Assurance"
-      action: "Perform post-maintenance verification and certification"
-      tools: ["Certification software", "Compliance databases", "Digital documentation"]
-      duration: "3 hours"
-      outputs: ["Quality assurance reports", "Regulatory compliance certificates"]
-    - step: 6
-      actor: "Regulatory Compliance"
-      action: "Review and approve maintenance records for airworthiness"
-      tools: ["FAA/EASA compliance systems", "Audit trails", "Documentation management"]
-      duration: "2 hours"
-      outputs: ["Airworthiness certificates", "Maintenance completion reports"]
-  success_criteria: "Aircraft returned to service within scheduled timeframe with zero defects"
-  failure_modes: ["Parts unavailability delays", "Unforeseen component failures", "Regulatory compliance issues"]
+  - step: 1
+    actor: Maintenance Manager
+    action: Review aircraft maintenance schedule and predictive analytics data
+    tools:
+    - Maintenance Management System
+    - IoT sensors
+    - Predictive analytics platform
+    duration: 2 hours
+    outputs:
+    - Maintenance priority matrix
+    - Resource allocation plan
+  - step: 2
+    actor: Aircraft Engineers
+    action: Conduct pre-maintenance inspection and diagnostics
+    tools:
+    - Non-destructive testing equipment
+    - Digital twin software
+    - Maintenance checklists
+    duration: 4 hours
+    outputs:
+    - Inspection reports
+    - Component health assessments
+  - step: 3
+    actor: Supply Chain
+    action: Procure required parts and materials based on predictive needs
+    tools:
+    - Inventory management system
+    - Supplier portal
+    - Just-in-time ordering
+    duration: 24 hours
+    outputs:
+    - Parts availability confirmation
+    - Logistics coordination
+  - step: 4
+    actor: Aircraft Engineers
+    action: Execute maintenance procedures with digital assistance
+    tools:
+    - AR maintenance guides
+    - Automated testing equipment
+    - Quality control software
+    duration: 8-16 hours
+    outputs:
+    - Maintenance logs
+    - Component replacement records
+  - step: 5
+    actor: Quality Assurance
+    action: Perform post-maintenance verification and certification
+    tools:
+    - Certification software
+    - Compliance databases
+    - Digital documentation
+    duration: 3 hours
+    outputs:
+    - Quality assurance reports
+    - Regulatory compliance certificates
+  - step: 6
+    actor: Regulatory Compliance
+    action: Review and approve maintenance records for airworthiness
+    tools:
+    - FAA/EASA compliance systems
+    - Audit trails
+    - Documentation management
+    duration: 2 hours
+    outputs:
+    - Airworthiness certificates
+    - Maintenance completion reports
+  success_criteria: Aircraft returned to service within scheduled timeframe with zero
+    defects
+  failure_modes:
+  - Parts unavailability delays
+  - Unforeseen component failures
+  - Regulatory compliance issues
   metrics:
-    - "Maintenance completion rate: Target 100% on schedule"
-    - "Mean time between maintenance: Target >200 flight hours"
-    - "Parts availability: Target >95% for scheduled maintenance"
-    - "Regulatory compliance: Target 100% audit pass rate"
-    - "Cost per maintenance hour: Target <$500"
+  - 'Maintenance completion rate: Target 100% on schedule'
+  - 'Mean time between maintenance: Target >200 flight hours'
+  - 'Parts availability: Target >95% for scheduled maintenance'
+  - 'Regulatory compliance: Target 100% audit pass rate'
+  - 'Cost per maintenance hour: Target <$500'

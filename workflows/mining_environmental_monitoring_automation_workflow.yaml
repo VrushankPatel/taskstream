@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_mining_environmental_monitoring_automation"
-  title: "Mining Environmental Monitoring Automation"
-  department: "Environmental & Safety"
-  complexity: "medium"
-  participants: ["Environmental Manager", "IT Specialist", "Safety Officer", "Operations Manager", "External Consultants"]
-  trigger: "Regulatory requirement for enhanced environmental monitoring or technology upgrade initiative"
+  id: workflow_mining_environmental_monitoring_automation
+  title: Mining Environmental Monitoring Automation
+  department: Environmental & Safety
+  complexity: medium
+  participants:
+  - Environmental Manager
+  - IT Specialist
+  - Safety Officer
+  - Operations Manager
+  - External Consultants
+  trigger: Regulatory requirement for enhanced environmental monitoring or technology
+    upgrade initiative
   steps:
-    - step: 1
-      actor: "Environmental Manager"
-      action: "Assess current monitoring capabilities and regulatory requirements"
-      tools: ["Environmental assessment frameworks", "Regulatory compliance databases"]
-      duration: "2 weeks"
-      outputs: ["Monitoring gap analysis", "Technology requirements specification"]
-    - step: 2
-      actor: "IT Specialist"
-      action: "Design IoT sensor network and data collection infrastructure"
-      tools: ["IoT platform design tools", "Network planning software"]
-      duration: "3 weeks"
-      outputs: ["Sensor network architecture", "Data collection specifications"]
-    - step: 3
-      actor: "Safety Officer"
-      action: "Integrate safety monitoring with environmental systems"
-      tools: ["Safety management software", "Integrated monitoring platforms"]
-      duration: "2 weeks"
-      outputs: ["Integrated monitoring framework", "Safety protocol updates"]
-    - step: 4
-      actor: "Operations Manager"
-      action: "Deploy sensors and establish monitoring stations"
-      tools: ["Sensor deployment equipment", "Field installation tools"]
-      duration: "4 weeks"
-      outputs: ["Deployment completion report", "Sensor calibration records"]
-    - step: 5
-      actor: "IT Specialist"
-      action: "Implement automated reporting and alert systems"
-      tools: ["Automation platforms", "Alert management systems"]
-      duration: "3 weeks"
-      outputs: ["Automated reporting system", "Alert configuration framework"]
-    - step: 6
-      actor: "Environmental Manager"
-      action: "Validate system performance and train monitoring personnel"
-      tools: ["System validation tools", "Training management platforms"]
-      duration: "2 weeks"
-      outputs: ["System validation report", "Training completion records"]
-  success_criteria: "95%+ automated monitoring coverage and 50% reduction in manual reporting time"
-  failure_modes: ["Sensor reliability issues", "Data integration problems", "Regulatory non-compliance"]
+  - step: 1
+    actor: Environmental Manager
+    action: Assess current monitoring capabilities and regulatory requirements
+    tools:
+    - Environmental assessment frameworks
+    - Regulatory compliance databases
+    duration: 2 weeks
+    outputs:
+    - Monitoring gap analysis
+    - Technology requirements specification
+  - step: 2
+    actor: IT Specialist
+    action: Design IoT sensor network and data collection infrastructure
+    tools:
+    - IoT platform design tools
+    - Network planning software
+    duration: 3 weeks
+    outputs:
+    - Sensor network architecture
+    - Data collection specifications
+  - step: 3
+    actor: Safety Officer
+    action: Integrate safety monitoring with environmental systems
+    tools:
+    - Safety management software
+    - Integrated monitoring platforms
+    duration: 2 weeks
+    outputs:
+    - Integrated monitoring framework
+    - Safety protocol updates
+  - step: 4
+    actor: Operations Manager
+    action: Deploy sensors and establish monitoring stations
+    tools:
+    - Sensor deployment equipment
+    - Field installation tools
+    duration: 4 weeks
+    outputs:
+    - Deployment completion report
+    - Sensor calibration records
+  - step: 5
+    actor: IT Specialist
+    action: Implement automated reporting and alert systems
+    tools:
+    - Automation platforms
+    - Alert management systems
+    duration: 3 weeks
+    outputs:
+    - Automated reporting system
+    - Alert configuration framework
+  - step: 6
+    actor: Environmental Manager
+    action: Validate system performance and train monitoring personnel
+    tools:
+    - System validation tools
+    - Training management platforms
+    duration: 2 weeks
+    outputs:
+    - System validation report
+    - Training completion records
+  success_criteria: 95%+ automated monitoring coverage and 50% reduction in manual
+    reporting time
+  failure_modes:
+  - Sensor reliability issues
+  - Data integration problems
+  - Regulatory non-compliance

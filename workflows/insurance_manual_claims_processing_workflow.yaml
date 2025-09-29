@@ -1,44 +1,71 @@
 workflow:
-  id: "workflow_insurance_manual_claims_processing"
-  title: "Manual Insurance Claims Processing Workflow"
-  department: "Claims"
-  complexity: "complex"
-  participants: ["Claims Adjuster", "Underwriter", "Investigator", "Claims Manager", "Legal Counsel"]
-  trigger: "Policyholder submits claim"
+  id: workflow_insurance_manual_claims_processing
+  title: Manual Insurance Claims Processing Workflow
+  department: Claims
+  complexity: complex
+  participants:
+  - Claims Adjuster
+  - Underwriter
+  - Investigator
+  - Claims Manager
+  - Legal Counsel
+  trigger: Policyholder submits claim
   steps:
-     - step: 1
-       actor: "Claims Adjuster"
-       action: "Review claim documentation, verify policy coverage, and assess initial claim validity"
-       tools: ["Claims Management System", "Policy Database", "Fraud Detection Software"]
-       duration: "2-4 hours"
-       outputs: ["Initial Assessment Report", "Fraud Risk Score"]
-     - step: 2
-       actor: "Investigator"
-       action: "Conduct field investigation including site visits, witness interviews, and evidence collection"
-       tools: ["Investigation Tools", "Documentation Software", "Digital Photography Equipment"]
-       duration: "1-5 days"
-       outputs: ["Investigation Report", "Supporting Documentation"]
-     - step: 3
-       actor: "Underwriter"
-       action: "Assess claim validity and calculate settlement amount"
-       tools: ["Underwriting Software", "Financial Models"]
-       duration: "4 hours"
-       outputs: ["Settlement Proposal"]
-     - step: 4
-       actor: "Claims Manager"
-       action: "Approve or deny claim with justification"
-       tools: ["Approval Workflow System"]
-       duration: "1 day"
-       outputs: ["Final Decision"]
-     - step: 5
-       actor: "Legal Counsel"
-       action: "Review for legal compliance if high-value claim"
-       tools: ["Legal Database"]
-       duration: "2 days"
-       outputs: ["Legal Review"]
-  success_criteria: "Claim processed within SLA timeframe with accurate settlement"
-  failure_modes: ["Insufficient documentation", "Fraud detection", "Coverage disputes"]
+  - step: 1
+    actor: Claims Adjuster
+    action: Review claim documentation, verify policy coverage, and assess initial
+      claim validity
+    tools:
+    - Claims Management System
+    - Policy Database
+    - Fraud Detection Software
+    duration: 2-4 hours
+    outputs:
+    - Initial Assessment Report
+    - Fraud Risk Score
+  - step: 2
+    actor: Investigator
+    action: Conduct field investigation including site visits, witness interviews,
+      and evidence collection
+    tools:
+    - Investigation Tools
+    - Documentation Software
+    - Digital Photography Equipment
+    duration: 1-5 days
+    outputs:
+    - Investigation Report
+    - Supporting Documentation
+  - step: 3
+    actor: Underwriter
+    action: Assess claim validity and calculate settlement amount
+    tools:
+    - Underwriting Software
+    - Financial Models
+    duration: 4 hours
+    outputs:
+    - Settlement Proposal
+  - step: 4
+    actor: Claims Manager
+    action: Approve or deny claim with justification
+    tools:
+    - Approval Workflow System
+    duration: 1 day
+    outputs:
+    - Final Decision
+  - step: 5
+    actor: Legal Counsel
+    action: Review for legal compliance if high-value claim
+    tools:
+    - Legal Database
+    duration: 2 days
+    outputs:
+    - Legal Review
+  success_criteria: Claim processed within SLA timeframe with accurate settlement
+  failure_modes:
+  - Insufficient documentation
+  - Fraud detection
+  - Coverage disputes
   metrics:
-    - "Claims processing time: <30 days average"
-    - "Claim accuracy: >95%"
-    - "Customer satisfaction: >3.8/5"
+  - 'Claims processing time: <30 days average'
+  - 'Claim accuracy: >95%'
+  - 'Customer satisfaction: >3.8/5'

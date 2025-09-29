@@ -1,45 +1,79 @@
 workflow:
-  id: "workflow_healthcare_patient_intake_optimization"
-  title: "Healthcare Patient Intake Optimization"
-  department: "Patient Services"
-  complexity: "medium"
-  participants: ["Patient Services Manager", "IT Administrator", "Clinical Staff", "Front Desk Coordinator", "Quality Assurance Lead"]
-  trigger: "Long wait times and patient dissatisfaction with intake process"
+  id: workflow_healthcare_patient_intake_optimization
+  title: Healthcare Patient Intake Optimization
+  department: Patient Services
+  complexity: medium
+  participants:
+  - Patient Services Manager
+  - IT Administrator
+  - Clinical Staff
+  - Front Desk Coordinator
+  - Quality Assurance Lead
+  trigger: Long wait times and patient dissatisfaction with intake process
   steps:
-    - step: 1
-      actor: "Patient Services Manager"
-      action: "Analyze current intake process and identify bottlenecks"
-      tools: ["Process mapping software", "Patient feedback surveys", "Time tracking data"]
-      duration: "2 weeks"
-      outputs: ["Process analysis report", "Bottleneck identification"]
-    - step: 2
-      actor: "IT Administrator"
-      action: "Implement online pre-registration and patient portal"
-      tools: ["Patient portal software", "Integration APIs", "Mobile app development"]
-      duration: "4 weeks"
-      outputs: ["Online registration system", "Patient portal deployment"]
-    - step: 3
-      actor: "Front Desk Coordinator"
-      action: "Redesign front desk workflow with digital check-in kiosks"
-      tools: ["Check-in kiosk software", "Queue management system", "Digital forms"]
-      duration: "3 weeks"
-      outputs: ["Kiosk implementation", "Digital intake forms"]
-    - step: 4
-      actor: "Clinical Staff"
-      action: "Standardize intake protocols and documentation"
-      tools: ["EHR system templates", "Clinical guidelines", "Training materials"]
-      duration: "2 weeks"
-      outputs: ["Standardized intake protocols", "Staff training program"]
-    - step: 5
-      actor: "Quality Assurance Lead"
-      action: "Monitor implementation and gather performance metrics"
-      tools: ["Performance dashboards", "Patient satisfaction surveys", "Process metrics"]
-      duration: "Ongoing"
-      outputs: ["Performance reports", "Improvement recommendations"]
-  success_criteria: "Reduced average wait time to 15 minutes and increased patient satisfaction to 4.5/5"
-  failure_modes: ["Technical system failures", "Staff resistance to new processes", "Patient privacy concerns"]
+  - step: 1
+    actor: Patient Services Manager
+    action: Analyze current intake process and identify bottlenecks
+    tools:
+    - Process mapping software
+    - Patient feedback surveys
+    - Time tracking data
+    duration: 2 weeks
+    outputs:
+    - Process analysis report
+    - Bottleneck identification
+  - step: 2
+    actor: IT Administrator
+    action: Implement online pre-registration and patient portal
+    tools:
+    - Patient portal software
+    - Integration APIs
+    - Mobile app development
+    duration: 4 weeks
+    outputs:
+    - Online registration system
+    - Patient portal deployment
+  - step: 3
+    actor: Front Desk Coordinator
+    action: Redesign front desk workflow with digital check-in kiosks
+    tools:
+    - Check-in kiosk software
+    - Queue management system
+    - Digital forms
+    duration: 3 weeks
+    outputs:
+    - Kiosk implementation
+    - Digital intake forms
+  - step: 4
+    actor: Clinical Staff
+    action: Standardize intake protocols and documentation
+    tools:
+    - EHR system templates
+    - Clinical guidelines
+    - Training materials
+    duration: 2 weeks
+    outputs:
+    - Standardized intake protocols
+    - Staff training program
+  - step: 5
+    actor: Quality Assurance Lead
+    action: Monitor implementation and gather performance metrics
+    tools:
+    - Performance dashboards
+    - Patient satisfaction surveys
+    - Process metrics
+    duration: Ongoing
+    outputs:
+    - Performance reports
+    - Improvement recommendations
+  success_criteria: Reduced average wait time to 15 minutes and increased patient
+    satisfaction to 4.5/5
+  failure_modes:
+  - Technical system failures
+  - Staff resistance to new processes
+  - Patient privacy concerns
   metrics:
-    - "Average wait time: Target <15 minutes"
-    - "Patient satisfaction: Target 4.5/5"
-    - "Online registration adoption: Target 70%"
-    - "Documentation completeness: Target 95%"
+  - 'Average wait time: Target <15 minutes'
+  - 'Patient satisfaction: Target 4.5/5'
+  - 'Online registration adoption: Target 70%'
+  - 'Documentation completeness: Target 95%'

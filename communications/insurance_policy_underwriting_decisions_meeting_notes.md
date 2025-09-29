@@ -1,8 +1,8 @@
 ## Meeting Notes: Insurance Underwriting Decisions Review
 
-**Date:** September 29, 2025  
-**Attendees:** Chief Underwriting Officer, Senior Underwriters (3), Risk Manager, Compliance Officer  
-**Facilitator:** Underwriting Manager  
+**Date:** September 29, 2025
+**Attendees:** Chief Underwriting Officer, Senior Underwriters (3), Risk Manager, Compliance Officer
+**Facilitator:** Underwriting Manager
 
 ### Agenda
 1. Q3 underwriting performance review

@@ -1,8 +1,8 @@
 ## Email Thread: Automotive Supply Chain Semiconductor Crisis Response
 
-**From:** VP Supply Chain Operations  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Urgent: Semiconductor Shortage Impact Assessment and Response Plan  
+**From:** VP Supply Chain Operations
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Urgent: Semiconductor Shortage Impact Assessment and Response Plan
 
 Team,
 
@@ -23,15 +23,15 @@ I've attached the detailed impact analysis. We need to activate our crisis respo
 
 Let's schedule an emergency leadership call for 2 PM today to review the response plan.
 
-Best,  
-Marcus  
-VP Supply Chain Operations  
+Best,
+Marcus
+VP Supply Chain Operations
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan  
+**From:** CEO
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan
 
 Marcus,
 
@@ -46,15 +46,15 @@ I'll lead the emergency call at 2 PM. Please come prepared with your team's imme
 
 We cannot let this impact our Q4 commitments. Let's show our resilience as an organization.
 
-Regards,  
-Elena Rodriguez  
-Chief Executive Officer  
+Regards,
+Elena Rodriguez
+Chief Executive Officer
 
 ---
 
-**From:** Director of Manufacturing  
-**To:** Executive Leadership Team, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan  
+**From:** Director of Manufacturing
+**To:** Executive Leadership Team, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan
 
 Elena, Marcus,
 
@@ -74,14 +74,14 @@ We can mitigate 60% of the impact through these measures, reducing the shortfall
 
 Ready for the 2 PM call.
 
-Tom  
-Director of Manufacturing  
+Tom
+Director of Manufacturing
 
 ---
 
-**From:** VP Supply Chain Operations  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan  
+**From:** VP Supply Chain Operations
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Response Plan
 
 Thank you all for the quick responses. I've updated the crisis response plan incorporating everyone's input.
 

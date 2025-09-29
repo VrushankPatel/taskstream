@@ -131,5 +131,5 @@ Applies to all manufacturing employees affected by automation, robotics, and dig
 - Career Development Guide
 - Employee Assistance Program Information
 
-*Effective Date: November 1, 2025*  
+*Effective Date: November 1, 2025*
 *Last Updated: September 29, 2025*

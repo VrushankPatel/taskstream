@@ -1,8 +1,8 @@
 ## Email Thread: Construction Site Safety Incident Response
 
-**From:** Safety Manager  
-**To:** Project Manager, Site Supervisor, Executive Team  
-**Subject:** Urgent: Safety Incident Report - Fall from Ladder at Downtown Project  
+**From:** Safety Manager
+**To:** Project Manager, Site Supervisor, Executive Team
+**Subject:** Urgent: Safety Incident Report - Fall from Ladder at Downtown Project
 
 Team,
 
@@ -25,16 +25,16 @@ The worker was wearing a safety harness but it appears the ladder was not proper
 
 Please advise on next steps. I will conduct a preliminary investigation this afternoon.
 
-**Safety Manager**  
-John Davis  
-Safety & Compliance Director  
+**Safety Manager**
+John Davis
+Safety & Compliance Director
 (555) 123-4567
 
 ---
 
-**From:** Project Manager  
-**To:** Safety Manager, Site Supervisor, Executive Team  
-**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project  
+**From:** Project Manager
+**To:** Safety Manager, Site Supervisor, Executive Team
+**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project
 
 John,
 
@@ -47,16 +47,16 @@ Thank you for the quick notification. This is concerning. I've spoken with the s
 
 I've notified the insurance claims department and will coordinate with legal for the investigation. Let's schedule an emergency safety meeting for tomorrow morning at 8 AM to review all safety protocols.
 
-**Project Manager**  
-Sarah Johnson  
-Senior Project Manager  
+**Project Manager**
+Sarah Johnson
+Senior Project Manager
 (555) 987-6543
 
 ---
 
-**From:** CEO  
-**To:** Safety Manager, Project Manager, Site Supervisor, Executive Team  
-**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project  
+**From:** CEO
+**To:** Safety Manager, Project Manager, Site Supervisor, Executive Team
+**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project
 
 Team,
 
@@ -71,16 +71,16 @@ John (Safety), please prepare a comprehensive incident investigation report by e
 
 We will not resume work until I'm satisfied that all safety protocols are being followed.
 
-**CEO**  
-Michael Roberts  
-Chief Executive Officer  
+**CEO**
+Michael Roberts
+Chief Executive Officer
 (555) 111-2222
 
 ---
 
-**From:** Safety Manager  
-**To:** CEO, Project Manager, Site Supervisor, Executive Team  
-**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project  
+**From:** Safety Manager
+**To:** CEO, Project Manager, Site Supervisor, Executive Team
+**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project
 
 Michael,
 
@@ -94,14 +94,14 @@ Understood. I've already begun the investigation and will have the preliminary r
 
 The worker is stable at the hospital with a broken ankle. No concussion diagnosed. He'll be out for 6-8 weeks.
 
-**Safety Manager**  
+**Safety Manager**
 John Davis
 
 ---
 
-**From:** Project Manager  
-**To:** CEO, Safety Manager, Site Supervisor, Executive Team  
-**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project  
+**From:** Project Manager
+**To:** CEO, Safety Manager, Site Supervisor, Executive Team
+**Subject:** Re: Urgent: Safety Incident Report - Fall from Ladder at Downtown Project
 
 Michael,
 
@@ -109,5 +109,5 @@ I've coordinated with the subcontractor leadership. They're conducting their own
 
 The project timeline will be impacted by approximately 2 weeks due to the work stoppage and investigation.
 
-**Project Manager**  
+**Project Manager**
 Sarah Johnson

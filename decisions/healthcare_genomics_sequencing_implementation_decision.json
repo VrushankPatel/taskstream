@@ -3,8 +3,16 @@
   "context": "Large academic medical center, 3,000 employees, implementing clinical genomics sequencing for precision oncology",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "Chief Financial Officer", "Board Quality Committee"],
-    "influencers": ["Oncology Department Chair", "Genomics Lab Director", "Patient Experience Director"]
+    "approvers": [
+      "CEO",
+      "Chief Financial Officer",
+      "Board Quality Committee"
+    ],
+    "influencers": [
+      "Oncology Department Chair",
+      "Genomics Lab Director",
+      "Patient Experience Director"
+    ]
   },
   "request": {
     "amount": "$12,000,000",
@@ -16,31 +24,55 @@
     {
       "stage": "clinical_validation",
       "duration": "4 months",
-      "activities": ["Literature review", "Clinical trial analysis", "Expert consultations"],
+      "activities": [
+        "Literature review",
+        "Clinical trial analysis",
+        "Expert consultations"
+      ],
       "outcome": "Strong evidence for improved outcomes in targeted therapies"
     },
     {
       "stage": "technical_feasibility",
       "duration": "3 months",
-      "activities": ["Equipment evaluation", "Lab space assessment", "Staffing requirements"],
+      "activities": [
+        "Equipment evaluation",
+        "Lab space assessment",
+        "Staffing requirements"
+      ],
       "outcome": "Feasible with existing lab expansion and equipment procurement"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 months",
-      "activities": ["Cost-benefit analysis", "Reimbursement modeling", "ROI projections"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Reimbursement modeling",
+        "ROI projections"
+      ],
       "outcome": "Positive ROI with 3-year payback through improved outcomes and reimbursements"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "1 month",
-      "activities": ["Physician surveys", "Patient focus groups", "Administrative reviews"],
+      "activities": [
+        "Physician surveys",
+        "Patient focus groups",
+        "Administrative reviews"
+      ],
       "outcome": "Strong support with identified training and workflow concerns"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["20% improvement in treatment response rates", "Reduced adverse events", "Research publications"],
+    "expected_benefits": [
+      "20% improvement in treatment response rates",
+      "Reduced adverse events",
+      "Research publications"
+    ],
     "projected_revenue": "$8,000,000 in additional reimbursements and grants",
-    "risk_factors": ["Technical complexity", "Staff training requirements", "Regulatory changes"]
+    "risk_factors": [
+      "Technical complexity",
+      "Staff training requirements",
+      "Regulatory changes"
+    ]
   }
 }

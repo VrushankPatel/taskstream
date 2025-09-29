@@ -1,9 +1,9 @@
 ## Email Thread: International Compliance Training Workshop
 
-**From:** Lisa Thompson, Global Compliance Director  
-**To:** Regional Compliance Managers, Legal Team  
-**CC:** HR Training Department, Executive Leadership  
-**Subject:** Q4 International Compliance Training Workshop Series  
+**From:** Lisa Thompson, Global Compliance Director
+**To:** Regional Compliance Managers, Legal Team
+**CC:** HR Training Department, Executive Leadership
+**Subject:** Q4 International Compliance Training Workshop Series
 
 Team,
 
@@ -11,7 +11,7 @@ As we expand our operations across new international markets, we need to ensure 
 
 **Workshop Schedule:**
 - October 15: GDPR and EU Data Protection (Virtual)
-- October 22: Anti-Bribery and FCPA Compliance (Virtual)  
+- October 22: Anti-Bribery and FCPA Compliance (Virtual)
 - November 5: International Trade Compliance (In-person, New York)
 - November 12: Cultural Compliance and Business Ethics (Virtual)
 
@@ -27,15 +27,15 @@ Please confirm your availability and register through the HR training portal by 
 
 Let me know if you have specific regional compliance topics you'd like covered.
 
-Best,  
+Best,
 Lisa
 
 ---
 
-**From:** Carlos Mendoza, Regional Compliance Manager - Latin America  
-**To:** Lisa Thompson, Global Compliance Director  
-**CC:** Regional Compliance Managers, Legal Team, HR Training Department  
-**Subject:** Re: Q4 International Compliance Training Workshop Series  
+**From:** Carlos Mendoza, Regional Compliance Manager - Latin America
+**To:** Lisa Thompson, Global Compliance Director
+**CC:** Regional Compliance Managers, Legal Team, HR Training Department
+**Subject:** Re: Q4 International Compliance Training Workshop Series
 
 Lisa,
 
@@ -51,10 +51,10 @@ Carlos
 
 ---
 
-**From:** Dr. Priya Patel, Regional Compliance Manager - Asia Pacific  
-**To:** Lisa Thompson, Global Compliance Director; Carlos Mendoza, Regional Compliance Manager - Latin America  
-**CC:** Regional Compliance Managers, Legal Team, HR Training Department  
-**Subject:** Re: Q4 International Compliance Training Workshop Series  
+**From:** Dr. Priya Patel, Regional Compliance Manager - Asia Pacific
+**To:** Lisa Thompson, Global Compliance Director; Carlos Mendoza, Regional Compliance Manager - Latin America
+**CC:** Regional Compliance Managers, Legal Team, HR Training Department
+**Subject:** Re: Q4 International Compliance Training Workshop Series
 
 Adding to Carlos's points, our Asia Pacific teams would benefit from:
 
@@ -68,10 +68,10 @@ Priya
 
 ---
 
-**From:** Lisa Thompson, Global Compliance Director  
-**To:** Regional Compliance Managers, Legal Team  
-**CC:** HR Training Department, Executive Leadership  
-**Subject:** Re: Q4 International Compliance Training Workshop Series  
+**From:** Lisa Thompson, Global Compliance Director
+**To:** Regional Compliance Managers, Legal Team
+**CC:** HR Training Department, Executive Leadership
+**Subject:** Re: Q4 International Compliance Training Workshop Series
 
 Thanks Carlos and Priya for the excellent suggestions. I've updated the schedule to include:
 

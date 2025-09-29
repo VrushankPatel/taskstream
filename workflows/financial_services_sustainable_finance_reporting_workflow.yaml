@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_financial_services_sustainable_finance_reporting"
-  title: "Sustainable Finance Reporting and ESG Disclosure Framework"
-  department: "Sustainable Finance"
-  complexity: "high"
-  participants: ["ESG Reporting Manager", "Data Analytics Team", "Compliance Officer", "External Auditors", "Investor Relations"]
-  trigger: "Quarterly reporting cycle or regulatory disclosure requirement"
+  id: workflow_financial_services_sustainable_finance_reporting
+  title: Sustainable Finance Reporting and ESG Disclosure Framework
+  department: Sustainable Finance
+  complexity: high
+  participants:
+  - ESG Reporting Manager
+  - Data Analytics Team
+  - Compliance Officer
+  - External Auditors
+  - Investor Relations
+  trigger: Quarterly reporting cycle or regulatory disclosure requirement
   steps:
-    - step: 1
-      actor: "Data Analytics Team"
-      action: "Collect and validate ESG data from portfolio companies and operations"
-      tools: ["ESG Data Collection Platform", "Data Validation Tools"]
-      duration: "6 weeks"
-      outputs: ["Validated ESG Dataset", "Data Quality Reports"]
-    - step: 2
-      actor: "ESG Reporting Manager"
-      action: "Analyze ESG performance against industry benchmarks and targets"
-      tools: ["ESG Analytics Software", "Benchmarking Tools"]
-      duration: "3 weeks"
-      outputs: ["ESG Performance Analysis", "Benchmarking Reports"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Ensure compliance with regulatory ESG disclosure requirements"
-      tools: ["Regulatory Compliance Database", "Disclosure Templates"]
-      duration: "2 weeks"
-      outputs: ["Compliance Review Reports", "Regulatory Filings"]
-    - step: 4
-      actor: "ESG Reporting Manager"
-      action: "Prepare comprehensive ESG reports and disclosures"
-      tools: ["Reporting Software", "Visualization Tools"]
-      duration: "4 weeks"
-      outputs: ["ESG Reports", "Disclosure Documents"]
-    - step: 5
-      actor: "External Auditors"
-      action: "Conduct independent assurance of ESG disclosures"
-      tools: ["Assurance Frameworks", "Audit Methodologies"]
-      duration: "4 weeks"
-      outputs: ["Assurance Reports", "Audit Opinions"]
-    - step: 6
-      actor: "Investor Relations"
-      action: "Communicate ESG performance to investors and stakeholders"
-      tools: ["Investor Communication Platform", "ESG Presentation Templates"]
-      duration: "Ongoing quarterly communications"
-      outputs: ["Investor Presentations", "Stakeholder Communications"]
-  success_criteria: "Timely regulatory compliance, positive auditor assurance, improved ESG ratings from rating agencies"
-  failure_modes: ["Data collection gaps", "Inconsistent methodology application", "Regulatory changes not anticipated"]
+  - step: 1
+    actor: Data Analytics Team
+    action: Collect and validate ESG data from portfolio companies and operations
+    tools:
+    - ESG Data Collection Platform
+    - Data Validation Tools
+    duration: 6 weeks
+    outputs:
+    - Validated ESG Dataset
+    - Data Quality Reports
+  - step: 2
+    actor: ESG Reporting Manager
+    action: Analyze ESG performance against industry benchmarks and targets
+    tools:
+    - ESG Analytics Software
+    - Benchmarking Tools
+    duration: 3 weeks
+    outputs:
+    - ESG Performance Analysis
+    - Benchmarking Reports
+  - step: 3
+    actor: Compliance Officer
+    action: Ensure compliance with regulatory ESG disclosure requirements
+    tools:
+    - Regulatory Compliance Database
+    - Disclosure Templates
+    duration: 2 weeks
+    outputs:
+    - Compliance Review Reports
+    - Regulatory Filings
+  - step: 4
+    actor: ESG Reporting Manager
+    action: Prepare comprehensive ESG reports and disclosures
+    tools:
+    - Reporting Software
+    - Visualization Tools
+    duration: 4 weeks
+    outputs:
+    - ESG Reports
+    - Disclosure Documents
+  - step: 5
+    actor: External Auditors
+    action: Conduct independent assurance of ESG disclosures
+    tools:
+    - Assurance Frameworks
+    - Audit Methodologies
+    duration: 4 weeks
+    outputs:
+    - Assurance Reports
+    - Audit Opinions
+  - step: 6
+    actor: Investor Relations
+    action: Communicate ESG performance to investors and stakeholders
+    tools:
+    - Investor Communication Platform
+    - ESG Presentation Templates
+    duration: Ongoing quarterly communications
+    outputs:
+    - Investor Presentations
+    - Stakeholder Communications
+  success_criteria: Timely regulatory compliance, positive auditor assurance, improved
+    ESG ratings from rating agencies
+  failure_modes:
+  - Data collection gaps
+  - Inconsistent methodology application
+  - Regulatory changes not anticipated

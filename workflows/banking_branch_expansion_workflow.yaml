@@ -1,67 +1,116 @@
 workflow:
-   id: "workflow_banking_branch_expansion"
-   title: "Retail Banking Branch Network Expansion Process"
-   department: "Retail Banking Operations"
-   complexity: "complex"
-   participants: ["Branch Expansion Manager", "Real Estate Specialist", "Market Analyst", "Operations Director", "Executive Committee"]
-   trigger: "Market analysis identifies underserved geographic area with growth potential"
-   steps:
-     - step: 1
-       actor: "Market Analyst"
-       action: "Conduct demographic analysis and competitive assessment"
-       tools: ["Market research databases", "GIS mapping software", "Competitive intelligence tools"]
-       duration: "2 weeks"
-       outputs: ["Market opportunity analysis", "Target location recommendations"]
-     - step: 2
-       actor: "Real Estate Specialist"
-       action: "Identify and evaluate potential branch locations"
-       tools: ["Real estate databases", "Site selection software", "Financial modeling tools"]
-       duration: "3 weeks"
-       outputs: ["Site evaluation reports", "Lease negotiation terms"]
-     - step: 3
-       actor: "Branch Expansion Manager"
-       action: "Develop business case and financial projections"
-       tools: ["Financial modeling software", "Branch profitability models"]
-       duration: "2 weeks"
-       outputs: ["Business case presentation", "5-year financial projections"]
-     - step: 4
-       actor: "Operations Director"
-       action: "Assess operational requirements and staffing needs"
-       tools: ["Operations planning tools", "Staffing models", "Regulatory compliance checklists"]
-       duration: "1 week"
-       outputs: ["Operations plan", "Staffing requirements", "Regulatory compliance assessment"]
-     - step: 5
-       actor: "Executive Committee"
-       action: "Review and approve branch expansion proposal"
-       tools: ["Executive dashboard", "Investment approval system"]
-       duration: "1 week"
-       outputs: ["Approved expansion plan", "Budget allocation"]
-     - step: 6
-       actor: "Branch Expansion Manager"
-       action: "Execute construction and fit-out according to banking standards"
-       tools: ["Construction management software", "Banking facility specifications"]
-       duration: "8 weeks"
-       outputs: ["Construction completion certificate", "Facility readiness report"]
-     - step: 7
-       actor: "Operations Director"
-       action: "Recruit and train branch staff"
-       tools: ["HR recruitment system", "Banking training programs"]
-       duration: "4 weeks"
-       outputs: ["Staffing plan", "Training completion records"]
-     - step: 8
-       actor: "Branch Expansion Manager"
-       action: "Launch branch operations and marketing campaign"
-       tools: ["Marketing automation platform", "Local advertising channels"]
-       duration: "2 weeks"
-       outputs: ["Grand opening event", "Marketing campaign results"]
-   success_criteria: "New branch achieves profitability within 18 months with customer acquisition targets met, demonstrating positive ROI and contributing to overall retail banking growth objectives"
-   failure_modes: ["Poor location selection", "Construction delays", "Staffing challenges", "Regulatory approval issues", "Budget overruns", "Community opposition"]
-   metrics:
-     - "Branch profitability: Target positive within 18 months"
-     - "Customer acquisition: Target 2000 new accounts/year"
-     - "Market share growth: Target 2% increase"
-     - "Customer satisfaction: Target NPS >40"
-     - "ROI on expansion investment: Target >15% annually"
-     - "Branch operational efficiency: Target cost-to-income ratio <60%"
-     - "Digital channel integration: Target 30% of transactions digital"
-     - "Community engagement score: Target >4.0/5.0"
+  id: workflow_banking_branch_expansion
+  title: Retail Banking Branch Network Expansion Process
+  department: Retail Banking Operations
+  complexity: complex
+  participants:
+  - Branch Expansion Manager
+  - Real Estate Specialist
+  - Market Analyst
+  - Operations Director
+  - Executive Committee
+  trigger: Market analysis identifies underserved geographic area with growth potential
+  steps:
+  - step: 1
+    actor: Market Analyst
+    action: Conduct demographic analysis and competitive assessment
+    tools:
+    - Market research databases
+    - GIS mapping software
+    - Competitive intelligence tools
+    duration: 2 weeks
+    outputs:
+    - Market opportunity analysis
+    - Target location recommendations
+  - step: 2
+    actor: Real Estate Specialist
+    action: Identify and evaluate potential branch locations
+    tools:
+    - Real estate databases
+    - Site selection software
+    - Financial modeling tools
+    duration: 3 weeks
+    outputs:
+    - Site evaluation reports
+    - Lease negotiation terms
+  - step: 3
+    actor: Branch Expansion Manager
+    action: Develop business case and financial projections
+    tools:
+    - Financial modeling software
+    - Branch profitability models
+    duration: 2 weeks
+    outputs:
+    - Business case presentation
+    - 5-year financial projections
+  - step: 4
+    actor: Operations Director
+    action: Assess operational requirements and staffing needs
+    tools:
+    - Operations planning tools
+    - Staffing models
+    - Regulatory compliance checklists
+    duration: 1 week
+    outputs:
+    - Operations plan
+    - Staffing requirements
+    - Regulatory compliance assessment
+  - step: 5
+    actor: Executive Committee
+    action: Review and approve branch expansion proposal
+    tools:
+    - Executive dashboard
+    - Investment approval system
+    duration: 1 week
+    outputs:
+    - Approved expansion plan
+    - Budget allocation
+  - step: 6
+    actor: Branch Expansion Manager
+    action: Execute construction and fit-out according to banking standards
+    tools:
+    - Construction management software
+    - Banking facility specifications
+    duration: 8 weeks
+    outputs:
+    - Construction completion certificate
+    - Facility readiness report
+  - step: 7
+    actor: Operations Director
+    action: Recruit and train branch staff
+    tools:
+    - HR recruitment system
+    - Banking training programs
+    duration: 4 weeks
+    outputs:
+    - Staffing plan
+    - Training completion records
+  - step: 8
+    actor: Branch Expansion Manager
+    action: Launch branch operations and marketing campaign
+    tools:
+    - Marketing automation platform
+    - Local advertising channels
+    duration: 2 weeks
+    outputs:
+    - Grand opening event
+    - Marketing campaign results
+  success_criteria: New branch achieves profitability within 18 months with customer
+    acquisition targets met, demonstrating positive ROI and contributing to overall
+    retail banking growth objectives
+  failure_modes:
+  - Poor location selection
+  - Construction delays
+  - Staffing challenges
+  - Regulatory approval issues
+  - Budget overruns
+  - Community opposition
+  metrics:
+  - 'Branch profitability: Target positive within 18 months'
+  - 'Customer acquisition: Target 2000 new accounts/year'
+  - 'Market share growth: Target 2% increase'
+  - 'Customer satisfaction: Target NPS >40'
+  - 'ROI on expansion investment: Target >15% annually'
+  - 'Branch operational efficiency: Target cost-to-income ratio <60%'
+  - 'Digital channel integration: Target 30% of transactions digital'
+  - 'Community engagement score: Target >4.0/5.0'

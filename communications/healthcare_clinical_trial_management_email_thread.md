@@ -1,8 +1,8 @@
 ## Email Thread: Clinical Trial Management System Implementation
 
-**From:** Dr. Robert Kim, Director of Clinical Research  
-**To:** Research Leadership Team  
-**Subject:** RFP Response for New Clinical Trial Management System  
+**From:** Dr. Robert Kim, Director of Clinical Research
+**To:** Research Leadership Team
+**Subject:** RFP Response for New Clinical Trial Management System
 
 Team,
 
@@ -23,15 +23,15 @@ The vendor has committed to a 6-month implementation timeline with extensive tra
 
 Please review the attached executive summary and let me know if you'd like to schedule vendor demos for key stakeholders.
 
-Best,  
-Dr. Robert Kim  
-Director of Clinical Research  
+Best,
+Dr. Robert Kim
+Director of Clinical Research
 
 ---
 
-**From:** Maria Gonzalez, Chief Compliance Officer  
-**To:** Dr. Robert Kim, Research Leadership Team  
-**Subject:** Re: RFP Response for New Clinical Trial Management System  
+**From:** Maria Gonzalez, Chief Compliance Officer
+**To:** Dr. Robert Kim, Research Leadership Team
+**Subject:** Re: RFP Response for New Clinical Trial Management System
 
 Robert,
 
@@ -39,13 +39,13 @@ The compliance features look comprehensive. Can you confirm their audit trail ca
 
 Also, does the system support multi-site international trials with varying regulatory requirements?
 
-Maria  
+Maria
 
 ---
 
-**From:** Dr. Robert Kim  
-**To:** Maria Gonzalez, Research Leadership Team  
-**Subject:** Re: RFP Response for New Clinical Trial Management System  
+**From:** Dr. Robert Kim
+**To:** Maria Gonzalez, Research Leadership Team
+**Subject:** Re: RFP Response for New Clinical Trial Management System
 
 Maria,
 
@@ -57,27 +57,27 @@ Excellent questions. ClinTrial Solutions provides:
 
 They've successfully supported international trials across 40+ countries. I've attached their compliance documentation for your review.
 
-Best,  
-Robert  
+Best,
+Robert
 
 ---
 
-**From:** David Chen, CFO  
-**To:** Dr. Robert Kim, Research Leadership Team  
-**Subject:** Re: RFP Response for New Clinical Trial Management System  
+**From:** David Chen, CFO
+**To:** Dr. Robert Kim, Research Leadership Team
+**Subject:** Re: RFP Response for New Clinical Trial Management System
 
 Robert,
 
 The ROI projections are compelling. Can you break down the efficiency gains by department? Also, what are the risks if we delay this implementation?
 
-Thanks,  
-David  
+Thanks,
+David
 
 ---
 
-**From:** Dr. Robert Kim  
-**To:** David Chen, Research Leadership Team  
-**Subject:** Re: RFP Response for New Clinical Trial Management System  
+**From:** Dr. Robert Kim
+**To:** David Chen, Research Leadership Team
+**Subject:** Re: RFP Response for New Clinical Trial Management System
 
 David,
 
@@ -93,5 +93,5 @@ Risks of delay:
 
 The detailed ROI model is attached.
 
-Best,  
+Best,
 Robert

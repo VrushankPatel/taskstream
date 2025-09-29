@@ -3,8 +3,16 @@
   "context": "Aerospace company evaluating investment in space traffic management technology to support satellite constellation operations",
   "stakeholders": {
     "requester": "VP of Space Operations",
-    "approvers": ["CEO", "CTO", "Chief Risk Officer"],
-    "influencers": ["Satellite Operators", "Regulatory Agencies", "Insurance Providers"]
+    "approvers": [
+      "CEO",
+      "CTO",
+      "Chief Risk Officer"
+    ],
+    "influencers": [
+      "Satellite Operators",
+      "Regulatory Agencies",
+      "Insurance Providers"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,28 +24,49 @@
     {
       "stage": "risk_assessment",
       "duration": "2 months",
-      "activities": ["Collision risk analysis", "Regulatory requirement review", "Technology evaluation"],
+      "activities": [
+        "Collision risk analysis",
+        "Regulatory requirement review",
+        "Technology evaluation"
+      ],
       "outcome": "Identified critical need for advanced space traffic management"
     },
     {
       "stage": "vendor_selection",
       "duration": "3 months",
-      "activities": ["RFP process", "Technical demonstrations", "Security assessments"],
+      "activities": [
+        "RFP process",
+        "Technical demonstrations",
+        "Security assessments"
+      ],
       "outcome": "Selected integrated STM platform with military-grade security"
     },
     {
       "stage": "integration_planning",
       "duration": "1 month",
-      "activities": ["System integration design", "Testing protocols", "Training programs"],
+      "activities": [
+        "System integration design",
+        "Testing protocols",
+        "Training programs"
+      ],
       "outcome": "Comprehensive implementation plan with phased deployment"
     }
   ],
   "business_impact": {
     "expected_outcome": "80% reduction in collision risk, enhanced operational safety, regulatory compliance",
     "projected_value": "$50,000,000 in avoided losses and insurance savings",
-    "risk_factors": ["Technology integration challenges", "Cybersecurity vulnerabilities", "Regulatory changes"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Cybersecurity vulnerabilities",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["Risk reduction >75%", "Regulatory compliance", "System reliability >99.9%", "Integration timeline <12 months"],
+  "decision_criteria": [
+    "Risk reduction >75%",
+    "Regulatory compliance",
+    "System reliability >99.9%",
+    "Integration timeline <12 months"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement crucial in space operations, comprehensive cybersecurity essential for critical infrastructure"
 }

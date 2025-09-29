@@ -1,9 +1,9 @@
 # Crisis Management AI System Failure Response Email Thread
 
-**From:** Chief Technology Officer  
-**To:** CEO, Chief Information Security Officer, Crisis Management Team, Communications Director  
-**Subject:** CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 3:15 AM  
+**From:** Chief Technology Officer
+**To:** CEO, Chief Information Security Officer, Crisis Management Team, Communications Director
+**Subject:** CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 3:15 AM
 
 Team,
 
@@ -36,15 +36,15 @@ We have detected a critical failure in our AI diagnostic system affecting patien
 
 This is a high-priority patient safety issue. Please respond immediately with your action plans.
 
-Michael Torres  
-Chief Technology Officer  
+Michael Torres
+Chief Technology Officer
 
 ---
 
-**From:** CEO  
-**To:** CTO, CISO, Crisis Management Team, Communications Director  
-**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 3:20 AM  
+**From:** CEO
+**To:** CTO, CISO, Crisis Management Team, Communications Director
+**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 3:20 AM
 
 Michael,
 
@@ -63,15 +63,15 @@ This is extremely serious. Patient safety is our top priority.
 
 I'll be in the office in 30 minutes. Let's have a crisis call at 4:00 AM.
 
-Elena Rodriguez  
-CEO  
+Elena Rodriguez
+CEO
 
 ---
 
-**From:** Communications Director  
-**To:** CEO, CTO, CISO, Crisis Management Team  
-**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 3:25 AM  
+**From:** Communications Director
+**To:** CEO, CTO, CISO, Crisis Management Team
+**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 3:25 AM
 
 Elena and team,
 
@@ -89,15 +89,15 @@ Elena and team,
 
 I'll coordinate with legal on regulatory communications.
 
-Rachel Kim  
-Communications Director  
+Rachel Kim
+Communications Director
 
 ---
 
-**From:** Chief Information Security Officer  
-**To:** CEO, CTO, Communications Director, Crisis Management Team  
-**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 3:30 AM  
+**From:** Chief Information Security Officer
+**To:** CEO, CTO, Communications Director, Crisis Management Team
+**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 3:30 AM
 
 **Security Assessment:**
 - No evidence of external compromise
@@ -112,15 +112,15 @@ Communications Director
 
 This appears to be a software quality issue, not a security breach.
 
-James Wilson  
-Chief Information Security Officer  
+James Wilson
+Chief Information Security Officer
 
 ---
 
-**From:** Customer Success Lead  
-**To:** CEO, CTO, Communications Director, Crisis Management Team  
-**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 3:35 AM  
+**From:** Customer Success Lead
+**To:** CEO, CTO, Communications Director, Crisis Management Team
+**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 3:35 AM
 
 **Customer Impact Assessment:**
 - 15 hospital partners affected
@@ -136,15 +136,15 @@ Chief Information Security Officer
 
 Hospital partners have been understanding but concerned about patient safety.
 
-Maria Sanchez  
-Customer Success Lead  
+Maria Sanchez
+Customer Success Lead
 
 ---
 
-**From:** CTO  
-**To:** CEO, CISO, Communications Director, Customer Success Lead, Crisis Management Team  
-**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required  
-**Date:** October 22, 2025, 6:00 AM  
+**From:** CTO
+**To:** CEO, CISO, Communications Director, Customer Success Lead, Crisis Management Team
+**Subject:** Re: CRITICAL: AI Diagnostic System Failure - Immediate Response Required
+**Date:** October 22, 2025, 6:00 AM
 
 **Update:**
 - Root cause identified: Edge case in probability calculation algorithm
@@ -160,5 +160,5 @@ Customer Success Lead
 
 We'll have full details in the 8:00 AM all-hands.
 
-Michael Torres  
+Michael Torres
 Chief Technology Officer

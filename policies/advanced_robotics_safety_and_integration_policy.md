@@ -237,8 +237,8 @@ This policy applies to:
 
 ## Policy Approval and Effective Date
 
-**Approved by:** Chief Operations Officer  
-**Effective Date:** September 28, 2025  
-**Next Review Date:** September 28, 2026  
+**Approved by:** Chief Operations Officer
+**Effective Date:** September 28, 2025
+**Next Review Date:** September 28, 2026
 
 This policy ensures our commitment to maintaining the highest standards of safety while realizing the full potential of advanced robotics technology in our manufacturing operations.

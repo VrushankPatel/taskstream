@@ -1,46 +1,80 @@
 workflow:
-  id: "workflow_049_007"
-  title: "Autonomous Systems Fleet Deployment Workflow"
-  department: "Autonomous Systems Operations"
-  complexity: "high"
-  participants: ["Fleet Operations Manager", "Safety Engineers", "Regulatory Compliance", "Technical Support", "Training Coordinators", "Insurance Partners"]
-  trigger: "Regulatory approval received for autonomous fleet operations"
+  id: workflow_049_007
+  title: Autonomous Systems Fleet Deployment Workflow
+  department: Autonomous Systems Operations
+  complexity: high
+  participants:
+  - Fleet Operations Manager
+  - Safety Engineers
+  - Regulatory Compliance
+  - Technical Support
+  - Training Coordinators
+  - Insurance Partners
+  trigger: Regulatory approval received for autonomous fleet operations
   steps:
-    - step: 1
-      actor: "Fleet Operations Manager"
-      action: "Develop deployment roadmap and resource allocation plan"
-      tools: ["Project management software", "Fleet planning tools"]
-      duration: "4 weeks"
-      outputs: ["Deployment roadmap", "Resource requirements"]
-    - step: 2
-      actor: "Safety Engineers"
-      action: "Conduct final safety validation and risk assessments"
-      tools: ["Safety analysis frameworks", "Risk modeling software"]
-      duration: "6 weeks"
-      outputs: ["Safety validation report", "Risk mitigation plan"]
-    - step: 3
-      actor: "Regulatory Compliance"
-      action: "Secure all necessary permits and operational licenses"
-      tools: ["Regulatory databases", "Permit application systems"]
-      duration: "8 weeks"
-      outputs: ["Operational licenses", "Compliance documentation"]
-    - step: 4
-      actor: "Technical Support"
-      action: "Establish monitoring infrastructure and support systems"
-      tools: ["Fleet management platforms", "Remote diagnostics systems"]
-      duration: "6 weeks"
-      outputs: ["Monitoring infrastructure", "Support protocols"]
-    - step: 5
-      actor: "Training Coordinators"
-      action: "Train operations staff and establish standard operating procedures"
-      tools: ["Training management systems", "SOP documentation tools"]
-      duration: "4 weeks"
-      outputs: ["Trained staff", "Standard operating procedures"]
-    - step: 6
-      actor: "Insurance Partners"
-      action: "Finalize insurance coverage and claims processes"
-      tools: ["Insurance policy frameworks", "Claims management systems"]
-      duration: "2 weeks"
-      outputs: ["Insurance coverage", "Claims protocols"]
-  success_criteria: "Successful deployment of autonomous fleet with 99.5% operational uptime"
-  failure_modes: ["Regulatory delays", "Safety incidents", "Technical failures"]
+  - step: 1
+    actor: Fleet Operations Manager
+    action: Develop deployment roadmap and resource allocation plan
+    tools:
+    - Project management software
+    - Fleet planning tools
+    duration: 4 weeks
+    outputs:
+    - Deployment roadmap
+    - Resource requirements
+  - step: 2
+    actor: Safety Engineers
+    action: Conduct final safety validation and risk assessments
+    tools:
+    - Safety analysis frameworks
+    - Risk modeling software
+    duration: 6 weeks
+    outputs:
+    - Safety validation report
+    - Risk mitigation plan
+  - step: 3
+    actor: Regulatory Compliance
+    action: Secure all necessary permits and operational licenses
+    tools:
+    - Regulatory databases
+    - Permit application systems
+    duration: 8 weeks
+    outputs:
+    - Operational licenses
+    - Compliance documentation
+  - step: 4
+    actor: Technical Support
+    action: Establish monitoring infrastructure and support systems
+    tools:
+    - Fleet management platforms
+    - Remote diagnostics systems
+    duration: 6 weeks
+    outputs:
+    - Monitoring infrastructure
+    - Support protocols
+  - step: 5
+    actor: Training Coordinators
+    action: Train operations staff and establish standard operating procedures
+    tools:
+    - Training management systems
+    - SOP documentation tools
+    duration: 4 weeks
+    outputs:
+    - Trained staff
+    - Standard operating procedures
+  - step: 6
+    actor: Insurance Partners
+    action: Finalize insurance coverage and claims processes
+    tools:
+    - Insurance policy frameworks
+    - Claims management systems
+    duration: 2 weeks
+    outputs:
+    - Insurance coverage
+    - Claims protocols
+  success_criteria: Successful deployment of autonomous fleet with 99.5% operational
+    uptime
+  failure_modes:
+  - Regulatory delays
+  - Safety incidents
+  - Technical failures

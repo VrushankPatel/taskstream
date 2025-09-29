@@ -3,8 +3,15 @@
   "context": "Entertainment production company, 200 employees, developing interactive storytelling platform",
   "stakeholders": {
     "requester": "Chief Creative Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Technology Director", "Marketing VP", "Content Strategy Lead"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Technology Director",
+      "Marketing VP",
+      "Content Strategy Lead"
+    ]
   },
   "request": {
     "investment": "$12 million",
@@ -16,25 +23,41 @@
     {
       "stage": "creative_development",
       "duration": "4 weeks",
-      "activities": ["Story concept development", "User experience design", "Technical feasibility assessment"],
+      "activities": [
+        "Story concept development",
+        "User experience design",
+        "Technical feasibility assessment"
+      ],
       "outcome": "Creative vision aligned with technical capabilities"
     },
     {
       "stage": "market_research",
       "duration": "3 weeks",
-      "activities": ["Audience surveys", "Competitor analysis", "Monetization model testing"],
+      "activities": [
+        "Audience surveys",
+        "Competitor analysis",
+        "Monetization model testing"
+      ],
       "outcome": "Strong market opportunity identified"
     },
     {
       "stage": "business_planning",
       "duration": "3 weeks",
-      "activities": ["Financial projections", "Resource planning", "Risk assessment"],
+      "activities": [
+        "Financial projections",
+        "Resource planning",
+        "Risk assessment"
+      ],
       "outcome": "Approved with pilot project first"
     }
   ],
   "business_impact": {
     "engagement_increase": "300% viewer interaction",
     "revenue_potential": "$45 million in first 3 years",
-    "risk_factors": ["Technology complexity", "Content production costs", "Platform adoption"]
+    "risk_factors": [
+      "Technology complexity",
+      "Content production costs",
+      "Platform adoption"
+    ]
   }
 }

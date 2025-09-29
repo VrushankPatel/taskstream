@@ -173,7 +173,7 @@ This policy applies to all aspects of urban air mobility operations including:
 ## Approval and Review
 This policy is approved by the Board of Directors and reviewed annually or following significant incidents or regulatory changes.
 
-**Effective Date:** March 1, 2026  
-**Next Review Date:** March 1, 2027  
-**Policy Owner:** Chief Safety Officer  
+**Effective Date:** March 1, 2026
+**Next Review Date:** March 1, 2027
+**Policy Owner:** Chief Safety Officer
 **Approval Authority:** CEO and Board of Directors

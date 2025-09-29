@@ -1,25 +1,34 @@
 workflow:
-  id: "workflow_retail_inventory_simple_001"
-  title: "Retail Inventory Optimization Process"
-  department: "Operations"
-  complexity: "simple"
-  participants: ["Store Manager", "Inventory Clerk"]
-  trigger: "End of business day or stock alerts"
+  id: workflow_retail_inventory_simple_001
+  title: Retail Inventory Optimization Process
+  department: Operations
+  complexity: simple
+  participants:
+  - Store Manager
+  - Inventory Clerk
+  trigger: End of business day or stock alerts
   steps:
-    - step: 1
-      actor: "Inventory Clerk"
-      action: "Scan remaining stock using handheld device"
-      tools: ["Inventory app", "Barcode scanner"]
-      duration: "30 minutes"
-      outputs: ["Daily stock count"]
-    - step: 2
-      actor: "Store Manager"
-      action: "Review stock levels and place automatic reorders"
-      tools: ["Inventory dashboard"]
-      duration: "15 minutes"
-      outputs: ["Reorder notifications"]
-  success_criteria: "Stock accuracy >95%, no stockouts for top 20 items"
-  failure_modes: ["Scanner malfunction", "Manual entry errors"]
+  - step: 1
+    actor: Inventory Clerk
+    action: Scan remaining stock using handheld device
+    tools:
+    - Inventory app
+    - Barcode scanner
+    duration: 30 minutes
+    outputs:
+    - Daily stock count
+  - step: 2
+    actor: Store Manager
+    action: Review stock levels and place automatic reorders
+    tools:
+    - Inventory dashboard
+    duration: 15 minutes
+    outputs:
+    - Reorder notifications
+  success_criteria: Stock accuracy >95%, no stockouts for top 20 items
+  failure_modes:
+  - Scanner malfunction
+  - Manual entry errors
   metrics:
-    - "Inventory accuracy: 95% target"
-    - "Stockout incidents: 0 per week target"
+  - 'Inventory accuracy: 95% target'
+  - 'Stockout incidents: 0 per week target'

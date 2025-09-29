@@ -1,52 +1,82 @@
 workflow:
-  id: "workflow_insurance_risk_assessment"
-  title: "Insurance Risk Assessment and Underwriting Process"
-  department: "Underwriting"
-  complexity: "complex"
-  participants: ["Underwriter", "Risk Analyst", "Claims Specialist", "Actuary", "Legal Counsel"]
-  trigger: "New policy application or renewal request"
+  id: workflow_insurance_risk_assessment
+  title: Insurance Risk Assessment and Underwriting Process
+  department: Underwriting
+  complexity: complex
+  participants:
+  - Underwriter
+  - Risk Analyst
+  - Claims Specialist
+  - Actuary
+  - Legal Counsel
+  trigger: New policy application or renewal request
   steps:
-    - step: 1
-      actor: "Underwriter"
-      action: "Review application and gather initial risk information"
-      tools: ["Underwriting System", "Credit Reports", "Loss History Database"]
-      duration: "2 hours"
-      outputs: ["Initial Risk Profile"]
-    - step: 2
-      actor: "Risk Analyst"
-      action: "Conduct detailed risk analysis including site inspections if required"
-      tools: ["Risk Assessment Software", "Inspection Checklists"]
-      duration: "4 hours"
-      outputs: ["Comprehensive Risk Report"]
-    - step: 3
-      actor: "Claims Specialist"
-      action: "Review historical claims data and loss patterns"
-      tools: ["Claims Database", "Statistical Analysis Tools"]
-      duration: "3 hours"
-      outputs: ["Claims History Analysis"]
-    - step: 4
-      actor: "Actuary"
-      action: "Calculate premium rates and risk-adjusted pricing"
-      tools: ["Actuarial Software", "Pricing Models"]
-      duration: "6 hours"
-      outputs: ["Premium Calculation"]
-    - step: 5
-      actor: "Legal Counsel"
-      action: "Review policy terms and ensure regulatory compliance"
-      tools: ["Legal Database", "Compliance Checklists"]
-      duration: "2 hours"
-      outputs: ["Legal Compliance Review"]
-    - step: 6
-      actor: "Underwriter"
-      action: "Make final underwriting decision and issue policy"
-      tools: ["Underwriting System", "Policy Issuance Platform"]
-      duration: "1 hour"
-      outputs: ["Policy Document", "Underwriting Decision"]
-  success_criteria: "Policy issued within 24 hours with accurate risk assessment and competitive pricing"
-  failure_modes: ["Incomplete risk information", "Regulatory non-compliance", "Pricing errors", "Fraud detection failures"]
+  - step: 1
+    actor: Underwriter
+    action: Review application and gather initial risk information
+    tools:
+    - Underwriting System
+    - Credit Reports
+    - Loss History Database
+    duration: 2 hours
+    outputs:
+    - Initial Risk Profile
+  - step: 2
+    actor: Risk Analyst
+    action: Conduct detailed risk analysis including site inspections if required
+    tools:
+    - Risk Assessment Software
+    - Inspection Checklists
+    duration: 4 hours
+    outputs:
+    - Comprehensive Risk Report
+  - step: 3
+    actor: Claims Specialist
+    action: Review historical claims data and loss patterns
+    tools:
+    - Claims Database
+    - Statistical Analysis Tools
+    duration: 3 hours
+    outputs:
+    - Claims History Analysis
+  - step: 4
+    actor: Actuary
+    action: Calculate premium rates and risk-adjusted pricing
+    tools:
+    - Actuarial Software
+    - Pricing Models
+    duration: 6 hours
+    outputs:
+    - Premium Calculation
+  - step: 5
+    actor: Legal Counsel
+    action: Review policy terms and ensure regulatory compliance
+    tools:
+    - Legal Database
+    - Compliance Checklists
+    duration: 2 hours
+    outputs:
+    - Legal Compliance Review
+  - step: 6
+    actor: Underwriter
+    action: Make final underwriting decision and issue policy
+    tools:
+    - Underwriting System
+    - Policy Issuance Platform
+    duration: 1 hour
+    outputs:
+    - Policy Document
+    - Underwriting Decision
+  success_criteria: Policy issued within 24 hours with accurate risk assessment and
+    competitive pricing
+  failure_modes:
+  - Incomplete risk information
+  - Regulatory non-compliance
+  - Pricing errors
+  - Fraud detection failures
   metrics:
-    - "Underwriting Turnaround Time: Target <24 hours"
-    - "Risk Assessment Accuracy: Target 95%"
-    - "Loss Ratio: Target <75%"
-    - "Customer Acquisition Rate: Target 85%"
-    - "Compliance Audit Score: Target 98%"
+  - 'Underwriting Turnaround Time: Target <24 hours'
+  - 'Risk Assessment Accuracy: Target 95%'
+  - 'Loss Ratio: Target <75%'
+  - 'Customer Acquisition Rate: Target 85%'
+  - 'Compliance Audit Score: Target 98%'

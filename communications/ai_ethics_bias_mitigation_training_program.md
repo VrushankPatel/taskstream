@@ -1,9 +1,9 @@
 ## AI Ethics Bias Mitigation Training Rollout
 
-**From:** Chief Ethics Officer  
-**To:** All AI Development Teams, HR Leadership  
-**Subject:** Mandatory AI Ethics and Bias Mitigation Training Program  
-**Date:** September 28, 2025  
+**From:** Chief Ethics Officer
+**To:** All AI Development Teams, HR Leadership
+**Subject:** Mandatory AI Ethics and Bias Mitigation Training Program
+**Date:** September 28, 2025
 
 Dear Team,
 
@@ -74,5 +74,5 @@ This training program represents our commitment to ethical AI development. Your 
 
 For questions or scheduling, please contact the Ethics Office at ethics-training@company.com or visit the learning portal at learn.company.com/ai-ethics.
 
-Best regards,  
+Best regards,
 Chief Ethics Officer

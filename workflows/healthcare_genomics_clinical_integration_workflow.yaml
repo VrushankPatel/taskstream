@@ -1,58 +1,118 @@
 workflow:
-  id: "workflow_healthcare_genomics_clinical_integration"
-  title: "Healthcare Genomics Clinical Integration Workflow"
-  department: "Clinical Genomics"
-  complexity: "high"
-  participants: ["Clinical Geneticist", "Bioinformatics Specialist", "Clinical Lab Director", "EHR Integration Specialist", "Ethics Committee", "Patient Care Coordinator"]
-  trigger: "New genomic test approved for clinical use or existing test requires integration updates"
+  id: workflow_healthcare_genomics_clinical_integration
+  title: Healthcare Genomics Clinical Integration Workflow
+  department: Clinical Genomics
+  complexity: high
+  participants:
+  - Clinical Geneticist
+  - Bioinformatics Specialist
+  - Clinical Lab Director
+  - EHR Integration Specialist
+  - Ethics Committee
+  - Patient Care Coordinator
+  trigger: New genomic test approved for clinical use or existing test requires integration
+    updates
   steps:
-    - step: 1
-      actor: "Clinical Geneticist"
-      action: "Define clinical utility and integration requirements for genomic test"
-      tools: ["Clinical guidelines databases", "Evidence review tools", "Test validation frameworks"]
-      duration: "2 weeks"
-      outputs: ["Clinical utility assessment", "Integration requirements document", "Test ordering guidelines"]
-    - step: 2
-      actor: "Bioinformatics Specialist"
-      action: "Develop and validate bioinformatics pipeline for genomic data analysis"
-      tools: ["Next-generation sequencing analysis tools", "Variant calling software", "Annotation databases"]
-      duration: "6 weeks"
-      outputs: ["Validated bioinformatics pipeline", "Quality control metrics", "Data processing protocols"]
-    - step: 3
-      actor: "Clinical Lab Director"
-      action: "Establish laboratory protocols and quality assurance procedures"
-      tools: ["CLIA compliance tools", "Quality management systems", "Laboratory information systems"]
-      duration: "4 weeks"
-      outputs: ["Laboratory protocols", "Quality assurance procedures", "CLIA compliance documentation"]
-    - step: 4
-      actor: "EHR Integration Specialist"
-      action: "Design and implement EHR integration for genomic results"
-      tools: ["HL7 FHIR standards", "EHR integration platforms", "API development tools"]
-      duration: "8 weeks"
-      outputs: ["EHR integration specifications", "API documentation", "Data mapping protocols"]
-    - step: 5
-      actor: "Ethics Committee"
-      action: "Review ethical implications and patient consent procedures"
-      tools: ["Ethics review frameworks", "Privacy impact assessment tools", "Patient consent templates"]
-      duration: "3 weeks"
-      outputs: ["Ethics review report", "Patient consent procedures", "Privacy protection measures"]
-    - step: 6
-      actor: "Patient Care Coordinator"
-      action: "Develop clinical decision support and patient education materials"
-      tools: ["Clinical decision support systems", "Patient education platforms", "Genetic counseling resources"]
-      duration: "4 weeks"
-      outputs: ["Clinical decision support rules", "Patient education materials", "Genetic counseling protocols"]
-    - step: 7
-      actor: "Clinical Geneticist"
-      action: "Conduct pilot implementation and clinical validation"
-      tools: ["Pilot study protocols", "Clinical validation frameworks", "Outcome measurement tools"]
-      duration: "6 weeks"
-      outputs: ["Pilot study results", "Clinical validation report", "Implementation recommendations"]
-    - step: 8
-      actor: "Clinical Lab Director"
-      action: "Scale to full clinical operation and establish monitoring procedures"
-      tools: ["Operational monitoring dashboards", "Quality metrics tracking", "Continuous improvement frameworks"]
-      duration: "4 weeks"
-      outputs: ["Operational procedures", "Monitoring protocols", "Quality improvement plan"]
-  success_criteria: "Genomic test successfully integrated with >95% accuracy and clinical utility demonstrated"
-  failure_modes: ["Technical integration failures", "Clinical validation issues", "Regulatory non-compliance", "Patient privacy concerns"]
+  - step: 1
+    actor: Clinical Geneticist
+    action: Define clinical utility and integration requirements for genomic test
+    tools:
+    - Clinical guidelines databases
+    - Evidence review tools
+    - Test validation frameworks
+    duration: 2 weeks
+    outputs:
+    - Clinical utility assessment
+    - Integration requirements document
+    - Test ordering guidelines
+  - step: 2
+    actor: Bioinformatics Specialist
+    action: Develop and validate bioinformatics pipeline for genomic data analysis
+    tools:
+    - Next-generation sequencing analysis tools
+    - Variant calling software
+    - Annotation databases
+    duration: 6 weeks
+    outputs:
+    - Validated bioinformatics pipeline
+    - Quality control metrics
+    - Data processing protocols
+  - step: 3
+    actor: Clinical Lab Director
+    action: Establish laboratory protocols and quality assurance procedures
+    tools:
+    - CLIA compliance tools
+    - Quality management systems
+    - Laboratory information systems
+    duration: 4 weeks
+    outputs:
+    - Laboratory protocols
+    - Quality assurance procedures
+    - CLIA compliance documentation
+  - step: 4
+    actor: EHR Integration Specialist
+    action: Design and implement EHR integration for genomic results
+    tools:
+    - HL7 FHIR standards
+    - EHR integration platforms
+    - API development tools
+    duration: 8 weeks
+    outputs:
+    - EHR integration specifications
+    - API documentation
+    - Data mapping protocols
+  - step: 5
+    actor: Ethics Committee
+    action: Review ethical implications and patient consent procedures
+    tools:
+    - Ethics review frameworks
+    - Privacy impact assessment tools
+    - Patient consent templates
+    duration: 3 weeks
+    outputs:
+    - Ethics review report
+    - Patient consent procedures
+    - Privacy protection measures
+  - step: 6
+    actor: Patient Care Coordinator
+    action: Develop clinical decision support and patient education materials
+    tools:
+    - Clinical decision support systems
+    - Patient education platforms
+    - Genetic counseling resources
+    duration: 4 weeks
+    outputs:
+    - Clinical decision support rules
+    - Patient education materials
+    - Genetic counseling protocols
+  - step: 7
+    actor: Clinical Geneticist
+    action: Conduct pilot implementation and clinical validation
+    tools:
+    - Pilot study protocols
+    - Clinical validation frameworks
+    - Outcome measurement tools
+    duration: 6 weeks
+    outputs:
+    - Pilot study results
+    - Clinical validation report
+    - Implementation recommendations
+  - step: 8
+    actor: Clinical Lab Director
+    action: Scale to full clinical operation and establish monitoring procedures
+    tools:
+    - Operational monitoring dashboards
+    - Quality metrics tracking
+    - Continuous improvement frameworks
+    duration: 4 weeks
+    outputs:
+    - Operational procedures
+    - Monitoring protocols
+    - Quality improvement plan
+  success_criteria: Genomic test successfully integrated with >95% accuracy and clinical
+    utility demonstrated
+  failure_modes:
+  - Technical integration failures
+  - Clinical validation issues
+  - Regulatory non-compliance
+  - Patient privacy concerns

@@ -1,17 +1,17 @@
 ## Crisis Management: AI System Failure Response Meeting Notes
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 4:30 PM  
-**Location:** Executive Conference Room A  
-**Attendees:**  
-- CEO (Chair)  
-- CTO  
-- Chief Risk Officer  
-- Head of Communications  
-- AI Ethics Lead  
-- Legal Counsel  
-- Customer Success VP  
-- External Crisis Management Consultant  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 4:30 PM
+**Location:** Executive Conference Room A
+**Attendees:**
+- CEO (Chair)
+- CTO
+- Chief Risk Officer
+- Head of Communications
+- AI Ethics Lead
+- Legal Counsel
+- Customer Success VP
+- External Crisis Management Consultant
 
 **Meeting Objective:** Develop coordinated response strategy for AI system bias incident affecting 15% of user recommendations
 
@@ -64,5 +64,5 @@
 - Full post-mortem analysis within 2 weeks
 - Revised AI governance framework by end of quarter
 
-**Meeting Adjourned:** 4:30 PM  
+**Meeting Adjourned:** 4:30 PM
 **Next Meeting:** Tomorrow 9:00 AM - Crisis Response Update

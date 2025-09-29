@@ -1,8 +1,8 @@
 ## Email Thread: Retail Supply Chain Disruption Response
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Operations Managers, Customer Service VP  
-**Subject:** Urgent: Semiconductor Chip Shortage Impacting Product Availability  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Operations Managers, Customer Service VP
+**Subject:** Urgent: Semiconductor Chip Shortage Impacting Product Availability
 
 Team,
 
@@ -20,15 +20,15 @@ I recommend immediate actions:
 
 Please advise on prioritization approach.
 
-Best,  
-Sarah Chen  
-Supply Chain Director  
+Best,
+Sarah Chen
+Supply Chain Director
 
 ---
 
-**From:** CEO  
-**To:** Supply Chain Director, Executive Leadership Team, Operations Managers, Customer Service VP  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability  
+**From:** CEO
+**To:** Supply Chain Director, Executive Leadership Team, Operations Managers, Customer Service VP
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability
 
 Sarah,
 
@@ -41,15 +41,15 @@ Priority actions:
 
 CC: Board Chair for awareness.
 
-Regards,  
-Michael Torres  
-CEO  
+Regards,
+Michael Torres
+CEO
 
 ---
 
-**From:** Customer Service VP  
-**To:** CEO, Supply Chain Director, Executive Leadership Team, Operations Managers  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability  
+**From:** Customer Service VP
+**To:** CEO, Supply Chain Director, Executive Leadership Team, Operations Managers
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability
 
 Adding to Sarah's points - our customer service team is already seeing increased frustration. We need to prepare messaging that acknowledges the issue while highlighting our efforts to resolve it.
 
@@ -60,27 +60,27 @@ Suggested customer communication:
 
 This will help maintain satisfaction scores.
 
-Lisa Park  
-VP Customer Service  
+Lisa Park
+VP Customer Service
 
 ---
 
-**From:** Operations Manager  
-**To:** CEO, Supply Chain Director, Executive Leadership Team, Customer Service VP  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability  
+**From:** Operations Manager
+**To:** CEO, Supply Chain Director, Executive Leadership Team, Customer Service VP
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability
 
 From operations perspective, we can optimize warehouse space by shifting inventory. Also, we should consider temporary price adjustments on affected products to manage demand.
 
 Let me know if you need detailed warehouse capacity analysis.
 
-Tom Wilson  
-Operations Manager  
+Tom Wilson
+Operations Manager
 
 ---
 
-**From:** Supply Chain Director  
-**To:** Executive Leadership Team, Operations Managers, Customer Service VP  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability  
+**From:** Supply Chain Director
+**To:** Executive Leadership Team, Operations Managers, Customer Service VP
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impacting Product Availability
 
 Thank you all for the quick responses. Emergency meeting scheduled for tomorrow 9 AM. I've attached preliminary impact analysis.
 
@@ -91,5 +91,5 @@ Next steps post-meeting:
 
 We'll get through this together.
 
-Best,  
+Best,
 Sarah

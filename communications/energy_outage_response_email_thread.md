@@ -1,8 +1,8 @@
 ## Email Thread: Major Grid Outage Response
 
-**From:** Grid Operations Manager  
-**To:** Executive Leadership Team, Regulatory Affairs, Customer Service  
-**Subject:** Critical Grid Outage - Sector 7 - Immediate Response Required  
+**From:** Grid Operations Manager
+**To:** Executive Leadership Team, Regulatory Affairs, Customer Service
+**Subject:** Critical Grid Outage - Sector 7 - Immediate Response Required
 
 Team,
 
@@ -21,14 +21,14 @@ We experienced a major grid failure in Sector 7 at 14:30 today, affecting approx
 
 Please advise on communication strategy and regulatory reporting requirements.
 
-Best,  
+Best,
 Grid Operations Manager
 
 ---
 
-**From:** CEO  
-**To:** Grid Operations Manager, Communications Director, Regulatory Affairs  
-**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required  
+**From:** CEO
+**To:** Grid Operations Manager, Communications Director, Regulatory Affairs
+**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required
 
 Grid Ops,
 
@@ -45,9 +45,9 @@ CEO
 
 ---
 
-**From:** Communications Director  
-**To:** CEO, Grid Operations Manager, Customer Service  
-**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required  
+**From:** Communications Director
+**To:** CEO, Grid Operations Manager, Customer Service
+**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required
 
 CEO,
 
@@ -63,9 +63,9 @@ Communications Director
 
 ---
 
-**From:** Regulatory Affairs  
-**To:** CEO, Grid Operations Manager  
-**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required  
+**From:** Regulatory Affairs
+**To:** CEO, Grid Operations Manager
+**Subject:** Re: Critical Grid Outage - Sector 7 - Immediate Response Required
 
 CEO,
 

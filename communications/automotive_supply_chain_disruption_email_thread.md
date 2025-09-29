@@ -1,9 +1,9 @@
 # Email Thread: Automotive Supply Chain Disruption Response
 
-**From:** Chief Procurement Officer  
-**To:** Executive Leadership Team  
-**Subject:** Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 15, 2025  
+**From:** Chief Procurement Officer
+**To:** Executive Leadership Team
+**Subject:** Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 15, 2025
 
 Team,
 
@@ -21,16 +21,16 @@ I've attached our comprehensive response plan including:
 
 Requesting executive approval for immediate $200M allocation to secure alternative supply sources.
 
-Best,  
-Marcus Chen  
-Chief Procurement Officer  
+Best,
+Marcus Chen
+Chief Procurement Officer
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 15, 2025  
+**From:** CEO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 15, 2025
 
 Marcus,
 
@@ -43,14 +43,14 @@ We need options on the table by EOD tomorrow. Consider:
 
 The board meeting is Thursday - I need concrete mitigation plans.
 
-Sarah  
+Sarah
 
 ---
 
-**From:** CFO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 15, 2025  
+**From:** CFO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 15, 2025
 
 Sarah, Marcus,
 
@@ -61,14 +61,14 @@ Financial impact assessment attached. Key points:
 
 We can fund $300M through existing credit lines, but anything beyond requires board approval. Recommend prioritizing high-margin vehicles and considering temporary plant shutdowns in low-demand markets.
 
-David  
+David
 
 ---
 
-**From:** Chief Operations Officer  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 15, 2025  
+**From:** Chief Operations Officer
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 15, 2025
 
 Adding operations perspective:
 
@@ -79,14 +79,14 @@ Current mitigation options:
 
 We can implement within 2 weeks but will need clear prioritization from leadership.
 
-Tom  
+Tom
 
 ---
 
-**From:** Chief Procurement Officer  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 16, 2025  
+**From:** Chief Procurement Officer
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 16, 2025
 
 Thanks for the feedback. Updated plan attached with financial modeling for each scenario:
 
@@ -107,14 +107,14 @@ Thanks for the feedback. Updated plan attached with financial modeling for each 
 
 Recommend Scenario A. Board presentation deck ready for tomorrow.
 
-Marcus  
+Marcus
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team  
-**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan  
-**Date:** October 16, 2025  
+**From:** CEO
+**To:** Executive Leadership Team
+**Subject:** Re: Urgent: Semiconductor Chip Shortage Impact and Response Plan
+**Date:** October 16, 2025
 
 Approved Scenario A. David, please prepare the board materials. Tom, coordinate with regional teams for implementation. Marcus, execute the supplier diversification plan immediately.
 

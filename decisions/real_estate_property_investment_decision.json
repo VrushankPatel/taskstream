@@ -3,8 +3,16 @@
   "context": "Real estate investment firm evaluating acquisition of downtown commercial property for redevelopment",
   "stakeholders": {
     "requester": "Investment Director",
-    "approvers": ["Managing Partner", "CFO", "Development Director"],
-    "influencers": ["Market Analyst", "Legal Counsel", "Local Government"]
+    "approvers": [
+      "Managing Partner",
+      "CFO",
+      "Development Director"
+    ],
+    "influencers": [
+      "Market Analyst",
+      "Legal Counsel",
+      "Local Government"
+    ]
   },
   "request": {
     "amount": "$45 million acquisition",
@@ -16,28 +24,50 @@
     {
       "stage": "due_diligence",
       "duration": "4 weeks",
-      "activities": ["Property inspection", "Financial modeling", "Market analysis", "Environmental assessment"],
+      "activities": [
+        "Property inspection",
+        "Financial modeling",
+        "Market analysis",
+        "Environmental assessment"
+      ],
       "outcome": "Positive investment case with identified risks"
     },
     {
       "stage": "financing_arrangement",
       "duration": "2 weeks",
-      "activities": ["Lender negotiations", "Equity partner discussions", "Cash flow projections"],
+      "activities": [
+        "Lender negotiations",
+        "Equity partner discussions",
+        "Cash flow projections"
+      ],
       "outcome": "Secured 70% debt financing"
     },
     {
       "stage": "final_investment_committee",
       "duration": "1 week",
-      "activities": ["Investment committee review", "Risk assessment", "Approval voting"],
+      "activities": [
+        "Investment committee review",
+        "Risk assessment",
+        "Approval voting"
+      ],
       "outcome": "Approved with conditions"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% IRR over 7-year hold period, revitalize urban district",
     "projected_value": "$75 million exit value",
-    "risk_factors": ["Construction cost overruns", "Market absorption delays", "Regulatory changes"]
+    "risk_factors": [
+      "Construction cost overruns",
+      "Market absorption delays",
+      "Regulatory changes"
+    ]
   },
-  "decision_criteria": ["IRR >12%", "Location fundamentals", "Redevelopment feasibility", "Risk-adjusted returns"],
+  "decision_criteria": [
+    "IRR >12%",
+    "Location fundamentals",
+    "Redevelopment feasibility",
+    "Risk-adjusted returns"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Comprehensive due diligence critical for complex redevelopment projects, local stakeholder engagement improves approval timelines"
 }

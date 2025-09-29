@@ -9,7 +9,7 @@ Applies to all employees, contractors, and third parties handling company data, 
 ## Data Classification Levels
 
 ### Level 1: Public Data
-**Definition:** Information that can be freely disclosed without risk to the organization  
+**Definition:** Information that can be freely disclosed without risk to the organization
 **Examples:**
 - Company marketing materials
 - Public financial reports (already SEC-filed)
@@ -22,7 +22,7 @@ Applies to all employees, contractors, and third parties handling company data, 
 - No encryption needed for storage or transmission
 
 ### Level 2: Internal Use Data
-**Definition:** Information intended for internal business use with limited external distribution  
+**Definition:** Information intended for internal business use with limited external distribution
 **Examples:**
 - Internal policies and procedures
 - Employee directories and organizational charts
@@ -36,7 +36,7 @@ Applies to all employees, contractors, and third parties handling company data, 
 - Watermark documents when sharing externally
 
 ### Level 3: Confidential Data
-**Definition:** Information that could cause damage to the organization if disclosed  
+**Definition:** Information that could cause damage to the organization if disclosed
 **Examples:**
 - Customer contracts and pricing information
 - Unreleased product roadmaps and specifications
@@ -51,7 +51,7 @@ Applies to all employees, contractors, and third parties handling company data, 
 - Require approval for external sharing
 
 ### Level 4: Restricted Data
-**Definition:** Information protected by law or regulation, or critical to business operations  
+**Definition:** Information protected by law or regulation, or critical to business operations
 **Examples:**
 - Payment card information (PCI DSS)
 - Protected health information (HIPAA)
@@ -155,6 +155,6 @@ For questions or clarifications regarding this policy:
 - Legal Department: legal@company.com
 - IT Help Desk: it-support@company.com
 
-**Effective Date:** January 1, 2026  
-**Last Updated:** December 15, 2025  
+**Effective Date:** January 1, 2026
+**Last Updated:** December 15, 2025
 **Next Review Date:** December 15, 2026

@@ -3,8 +3,16 @@
   "context": "Large pharmaceutical company evaluating investment in companion diagnostics for personalized medicine pipeline",
   "stakeholders": {
     "requester": "VP Personalized Medicine",
-    "approvers": ["Chief Scientific Officer", "CFO", "Chief Medical Officer"],
-    "influencers": ["Head of Diagnostics", "Regulatory Affairs Director", "VP Clinical Development"]
+    "approvers": [
+      "Chief Scientific Officer",
+      "CFO",
+      "Chief Medical Officer"
+    ],
+    "influencers": [
+      "Head of Diagnostics",
+      "Regulatory Affairs Director",
+      "VP Clinical Development"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,22 +24,40 @@
     {
       "stage": "feasibility_assessment",
       "duration": "3 weeks",
-      "activities": ["Technology platform evaluation", "Regulatory pathway analysis", "Market opportunity sizing"],
+      "activities": [
+        "Technology platform evaluation",
+        "Regulatory pathway analysis",
+        "Market opportunity sizing"
+      ],
       "outcome": "Strong strategic fit identified"
     },
     {
       "stage": "financial_modeling",
       "duration": "2 weeks",
-      "activities": ["ROI analysis", "Partnership options assessment", "Risk-adjusted projections"],
+      "activities": [
+        "ROI analysis",
+        "Partnership options assessment",
+        "Risk-adjusted projections"
+      ],
       "outcome": "Approved with phased investment approach"
     }
   ],
   "business_impact": {
     "expected_outcome": "Accelerated development of 5 companion diagnostics, improved therapy outcomes",
     "projected_value": "$200,000,000 in additional therapy revenue over 10 years",
-    "risk_factors": ["Regulatory approval delays", "Technology development challenges", "Market adoption uncertainty"]
+    "risk_factors": [
+      "Regulatory approval delays",
+      "Technology development challenges",
+      "Market adoption uncertainty"
+    ]
   },
-  "decision_criteria": ["Strategic alignment with personalized medicine", "Regulatory feasibility", "Financial return potential", "Technology readiness", "Market demand"],
+  "decision_criteria": [
+    "Strategic alignment with personalized medicine",
+    "Regulatory feasibility",
+    "Financial return potential",
+    "Technology readiness",
+    "Market demand"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early regulatory engagement critical for companion diagnostics, phased investment reduces execution risk"
 }

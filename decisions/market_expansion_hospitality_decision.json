@@ -3,8 +3,15 @@
   "context": "Hotel chain, 500 employees, 20 properties, considering expansion into vacation rental market",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["VP Marketing", "CFO", "Regional Managers"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "VP Marketing",
+      "CFO",
+      "Regional Managers"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,25 +23,45 @@
     {
       "stage": "market_research",
       "duration": "6 weeks",
-      "activities": ["Competitive analysis", "Customer segmentation", "Regulatory review"],
+      "activities": [
+        "Competitive analysis",
+        "Customer segmentation",
+        "Regulatory review"
+      ],
       "outcome": "Identified underserved mid-tier market with strong demand in suburban areas"
     },
     {
       "stage": "financial_modeling",
       "duration": "4 weeks",
-      "activities": ["Revenue projections", "CapEx planning", "Break-even analysis"],
+      "activities": [
+        "Revenue projections",
+        "CapEx planning",
+        "Break-even analysis"
+      ],
       "outcome": "Projected 18-month payback period with 22% IRR over 5 years"
     },
     {
       "stage": "pilot_program",
       "duration": "3 months",
-      "activities": ["Test market launch", "Operations setup", "Performance monitoring"],
+      "activities": [
+        "Test market launch",
+        "Operations setup",
+        "Performance monitoring"
+      ],
       "outcome": "Pilot exceeded expectations with 85% occupancy and 4.8-star ratings"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["$50M annual revenue from vacation rentals", "Diversified revenue streams", "Enhanced brand recognition"],
+    "expected_outcomes": [
+      "$50M annual revenue from vacation rentals",
+      "Diversified revenue streams",
+      "Enhanced brand recognition"
+    ],
     "projected_revenue": "$200M cumulative revenue over 5 years",
-    "risk_factors": ["Regulatory changes in short-term rentals", "Property management complexity", "Competition from established platforms"]
+    "risk_factors": [
+      "Regulatory changes in short-term rentals",
+      "Property management complexity",
+      "Competition from established platforms"
+    ]
   }
 }

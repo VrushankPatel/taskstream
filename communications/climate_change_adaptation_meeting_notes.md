@@ -1,10 +1,10 @@
 ## Meeting Notes: Climate Change Adaptation Strategy Session
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A  
-**Attendees:** CEO (John Smith), CFO (Maria Garcia), COO (David Lee), Sustainability Director (Lisa Wong), Legal Counsel (Robert Kim), External Consultant (Dr. Emily Chen)  
-**Facilitator:** Sustainability Director  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A
+**Attendees:** CEO (John Smith), CFO (Maria Garcia), COO (David Lee), Sustainability Director (Lisa Wong), Legal Counsel (Robert Kim), External Consultant (Dr. Emily Chen)
+**Facilitator:** Sustainability Director
 
 ### Agenda
 1. Review climate risk assessment findings

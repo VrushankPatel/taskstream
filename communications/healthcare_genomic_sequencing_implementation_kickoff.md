@@ -1,8 +1,8 @@
 ## Meeting Notes: Healthcare Genomic Sequencing Implementation Kickoff
 
-**Date:** September 30, 2025  
-**Attendees:** Chief Medical Officer, Genetics Department Chair, IT Director, Compliance Officer, Laboratory Director, Clinical Informatics Lead  
-**Location:** Medical Center Conference Room  
+**Date:** September 30, 2025
+**Attendees:** Chief Medical Officer, Genetics Department Chair, IT Director, Compliance Officer, Laboratory Director, Clinical Informatics Lead
+**Location:** Medical Center Conference Room
 
 ### Project Overview
 CMO presented the strategic importance of genomic sequencing for precision medicine and personalized treatment plans.

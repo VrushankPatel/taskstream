@@ -1,41 +1,82 @@
 workflow:
-  id: "workflow_005"
-  title: "International Cross-Border Data Compliance"
-  department: "Global Compliance"
-  complexity: "high"
-  participants: ["Data Protection Officers", "Legal Counsel", "IT Security Teams", "Business Unit Leaders", "External Consultants"]
-  trigger: "New international data transfer requiring compliance with multiple privacy regulations"
+  id: workflow_005
+  title: International Cross-Border Data Compliance
+  department: Global Compliance
+  complexity: high
+  participants:
+  - Data Protection Officers
+  - Legal Counsel
+  - IT Security Teams
+  - Business Unit Leaders
+  - External Consultants
+  trigger: New international data transfer requiring compliance with multiple privacy
+    regulations
   steps:
-    - step: 1
-      actor: "Data Protection Officers"
-      action: "Assess data transfer requirements and map applicable privacy regulations across jurisdictions"
-      tools: ["Privacy regulation databases", "Data mapping tools", "Risk assessment frameworks"]
-      duration: "2 weeks"
-      outputs: ["Data transfer risk assessment", "Regulatory compliance matrix"]
-    - step: 2
-      actor: "Legal Counsel"
-      action: "Review transfer mechanisms and prepare necessary legal agreements and documentation"
-      decision_points: ["Adequacy decision availability", "Transfer mechanism appropriateness"]
-      tools: ["Legal research platforms", "Contract management systems", "Standard contractual clauses"]
-      duration: "4 weeks"
-      outputs: ["Legal transfer agreements", "Compliance documentation package"]
-    - step: 3
-      actor: "IT Security Teams"
-      action: "Implement technical safeguards and encryption for cross-border data transfers"
-      tools: ["Encryption tools", "Data loss prevention systems", "Security audit tools"]
-      duration: "3 weeks"
-      outputs: ["Technical safeguards implementation", "Security audit reports"]
-    - step: 4
-      actor: "Business Unit Leaders"
-      action: "Evaluate business necessity and implement data minimization strategies for transfers"
-      tools: ["Business case analysis tools", "Data minimization frameworks", "Impact assessment templates"]
-      duration: "2 weeks"
-      outputs: ["Business necessity justification", "Data minimization plan"]
-    - step: 5
-      actor: "External Consultants"
-      action: "Conduct independent audit and provide recommendations for ongoing compliance monitoring"
-      tools: ["Compliance audit frameworks", "Gap analysis tools", "Monitoring system recommendations"]
-      duration: "3 weeks"
-      outputs: ["Independent audit report", "Compliance monitoring recommendations"]
-  success_criteria: "Cross-border data transfers authorized with documented compliance and monitoring mechanisms in place"
-  failure_modes: ["Regulatory changes during process", "Inadequate transfer safeguards identified", "Business requirements conflicting with privacy obligations"]
+  - step: 1
+    actor: Data Protection Officers
+    action: Assess data transfer requirements and map applicable privacy regulations
+      across jurisdictions
+    tools:
+    - Privacy regulation databases
+    - Data mapping tools
+    - Risk assessment frameworks
+    duration: 2 weeks
+    outputs:
+    - Data transfer risk assessment
+    - Regulatory compliance matrix
+  - step: 2
+    actor: Legal Counsel
+    action: Review transfer mechanisms and prepare necessary legal agreements and
+      documentation
+    decision_points:
+    - Adequacy decision availability
+    - Transfer mechanism appropriateness
+    tools:
+    - Legal research platforms
+    - Contract management systems
+    - Standard contractual clauses
+    duration: 4 weeks
+    outputs:
+    - Legal transfer agreements
+    - Compliance documentation package
+  - step: 3
+    actor: IT Security Teams
+    action: Implement technical safeguards and encryption for cross-border data transfers
+    tools:
+    - Encryption tools
+    - Data loss prevention systems
+    - Security audit tools
+    duration: 3 weeks
+    outputs:
+    - Technical safeguards implementation
+    - Security audit reports
+  - step: 4
+    actor: Business Unit Leaders
+    action: Evaluate business necessity and implement data minimization strategies
+      for transfers
+    tools:
+    - Business case analysis tools
+    - Data minimization frameworks
+    - Impact assessment templates
+    duration: 2 weeks
+    outputs:
+    - Business necessity justification
+    - Data minimization plan
+  - step: 5
+    actor: External Consultants
+    action: Conduct independent audit and provide recommendations for ongoing compliance
+      monitoring
+    tools:
+    - Compliance audit frameworks
+    - Gap analysis tools
+    - Monitoring system recommendations
+    duration: 3 weeks
+    outputs:
+    - Independent audit report
+    - Compliance monitoring recommendations
+  success_criteria: Cross-border data transfers authorized with documented compliance
+    and monitoring mechanisms in place
+  failure_modes:
+  - Regulatory changes during process
+  - Inadequate transfer safeguards identified
+  - Business requirements conflicting with privacy obligations

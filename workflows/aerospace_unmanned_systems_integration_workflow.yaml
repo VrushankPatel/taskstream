@@ -1,52 +1,100 @@
 workflow:
-  id: "aerospace_unmanned_systems_integration_workflow"
-  title: "Aerospace Unmanned Systems Integration Process"
-  department: "Aerospace Engineering"
-  complexity: "complex"
-  participants: ["Systems Integration Engineer", "Flight Test Director", "Airworthiness Certification Lead", "Safety Assessment Team", "Regulatory Affairs Specialist"]
-  trigger: "New unmanned aerial system (UAS) technology development or integration requirement"
+  id: aerospace_unmanned_systems_integration_workflow
+  title: Aerospace Unmanned Systems Integration Process
+  department: Aerospace Engineering
+  complexity: complex
+  participants:
+  - Systems Integration Engineer
+  - Flight Test Director
+  - Airworthiness Certification Lead
+  - Safety Assessment Team
+  - Regulatory Affairs Specialist
+  trigger: New unmanned aerial system (UAS) technology development or integration
+    requirement
   steps:
-    - step: 1
-      actor: "Systems Integration Engineer"
-      action: "Conduct system requirements analysis and compatibility assessment with existing aerospace platforms"
-      tools: ["Systems Engineering Tools", "Requirements Management Software", "Interface Control Documents"]
-      duration: "4 hours"
-      outputs: ["System Requirements Specification", "Integration Feasibility Report"]
-    - step: 2
-      actor: "Flight Test Director"
-      action: "Develop comprehensive flight test plan including safety protocols and contingency procedures"
-      tools: ["Flight Test Planning Software", "Risk Assessment Tools", "Weather Analysis Systems"]
-      duration: "6 hours"
-      outputs: ["Flight Test Plan", "Safety Risk Assessment", "Emergency Procedures"]
-    - step: 3
-      actor: "Airworthiness Certification Lead"
-      action: "Prepare certification documentation and coordinate with regulatory authorities"
-      decision_points: ["Certification Pathway Selection", "Additional Testing Requirements", "Timeline Constraints"]
-      duration: "8 hours"
-      outputs: ["Certification Application Package", "Regulatory Coordination Log"]
-    - step: 4
-      actor: "Safety Assessment Team"
-      action: "Conduct comprehensive safety analysis including failure mode effects analysis and human factors assessment"
-      tools: ["Safety Analysis Software", "Human Factors Assessment Tools", "Reliability Engineering Tools"]
-      duration: "12 hours"
-      outputs: ["Safety Assessment Report", "Risk Mitigation Plan", "Human Factors Analysis"]
-    - step: 5
-      actor: "Regulatory Affairs Specialist"
-      action: "Obtain necessary approvals and ensure compliance with international aviation standards"
-      tools: ["Regulatory Databases", "Certification Tracking Systems", "International Standards References"]
-      duration: "10 hours"
-      outputs: ["Regulatory Approval Documentation", "Compliance Verification Report"]
-    - step: 6
-      actor: "Systems Integration Engineer"
-      action: "Execute system integration and conduct validation testing prior to operational deployment"
-      tools: ["Integration Test Environments", "Validation Testing Tools", "Performance Monitoring Systems"]
-      duration: "16 hours"
-      outputs: ["Integration Test Results", "System Validation Report", "Operational Readiness Assessment"]
-  success_criteria: "Unmanned system successfully integrated with full airworthiness certification and demonstrated operational safety"
-  failure_modes: ["Integration compatibility issues delaying deployment", "Certification delays due to incomplete documentation", "Safety concerns requiring redesign"]
+  - step: 1
+    actor: Systems Integration Engineer
+    action: Conduct system requirements analysis and compatibility assessment with
+      existing aerospace platforms
+    tools:
+    - Systems Engineering Tools
+    - Requirements Management Software
+    - Interface Control Documents
+    duration: 4 hours
+    outputs:
+    - System Requirements Specification
+    - Integration Feasibility Report
+  - step: 2
+    actor: Flight Test Director
+    action: Develop comprehensive flight test plan including safety protocols and
+      contingency procedures
+    tools:
+    - Flight Test Planning Software
+    - Risk Assessment Tools
+    - Weather Analysis Systems
+    duration: 6 hours
+    outputs:
+    - Flight Test Plan
+    - Safety Risk Assessment
+    - Emergency Procedures
+  - step: 3
+    actor: Airworthiness Certification Lead
+    action: Prepare certification documentation and coordinate with regulatory authorities
+    decision_points:
+    - Certification Pathway Selection
+    - Additional Testing Requirements
+    - Timeline Constraints
+    duration: 8 hours
+    outputs:
+    - Certification Application Package
+    - Regulatory Coordination Log
+  - step: 4
+    actor: Safety Assessment Team
+    action: Conduct comprehensive safety analysis including failure mode effects analysis
+      and human factors assessment
+    tools:
+    - Safety Analysis Software
+    - Human Factors Assessment Tools
+    - Reliability Engineering Tools
+    duration: 12 hours
+    outputs:
+    - Safety Assessment Report
+    - Risk Mitigation Plan
+    - Human Factors Analysis
+  - step: 5
+    actor: Regulatory Affairs Specialist
+    action: Obtain necessary approvals and ensure compliance with international aviation
+      standards
+    tools:
+    - Regulatory Databases
+    - Certification Tracking Systems
+    - International Standards References
+    duration: 10 hours
+    outputs:
+    - Regulatory Approval Documentation
+    - Compliance Verification Report
+  - step: 6
+    actor: Systems Integration Engineer
+    action: Execute system integration and conduct validation testing prior to operational
+      deployment
+    tools:
+    - Integration Test Environments
+    - Validation Testing Tools
+    - Performance Monitoring Systems
+    duration: 16 hours
+    outputs:
+    - Integration Test Results
+    - System Validation Report
+    - Operational Readiness Assessment
+  success_criteria: Unmanned system successfully integrated with full airworthiness
+    certification and demonstrated operational safety
+  failure_modes:
+  - Integration compatibility issues delaying deployment
+  - Certification delays due to incomplete documentation
+  - Safety concerns requiring redesign
   metrics:
-    - "Integration Success Rate: > 95%"
-    - "Certification Timeline Adherence: > 90%"
-    - "Safety Incident Rate: 0 per 1000 flight hours"
-    - "System Reliability: > 99.9% uptime"
-    - "Cost Variance: < 10% of budget"
+  - 'Integration Success Rate: > 95%'
+  - 'Certification Timeline Adherence: > 90%'
+  - 'Safety Incident Rate: 0 per 1000 flight hours'
+  - 'System Reliability: > 99.9% uptime'
+  - 'Cost Variance: < 10% of budget'

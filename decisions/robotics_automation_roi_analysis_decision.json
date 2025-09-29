@@ -3,8 +3,16 @@
   "context": "Manufacturing company with 2000 employees evaluating robotics automation for assembly lines",
   "stakeholders": {
     "requester": "Chief Operations Officer",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Production Managers", "Union Representatives", "HR Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Production Managers",
+      "Union Representatives",
+      "HR Director"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -16,31 +24,57 @@
     {
       "stage": "pilot_evaluation",
       "duration": "12 weeks",
-      "activities": ["Single line pilot implementation", "Productivity and quality metrics collection", "Workforce impact assessment"],
+      "activities": [
+        "Single line pilot implementation",
+        "Productivity and quality metrics collection",
+        "Workforce impact assessment"
+      ],
       "outcome": "Pilot successful with 45% productivity increase and 50% defect reduction"
     },
     {
       "stage": "scalability_analysis",
       "duration": "6 weeks",
-      "activities": ["Multi-line implementation planning", "Workforce transition strategy", "Integration complexity assessment"],
+      "activities": [
+        "Multi-line implementation planning",
+        "Workforce transition strategy",
+        "Integration complexity assessment"
+      ],
       "outcome": "Scalable solution identified with phased implementation approach"
     },
     {
       "stage": "financial_analysis",
       "duration": "4 weeks",
-      "activities": ["Total cost of ownership calculation", "ROI projections over 7 years", "Payback period analysis"],
+      "activities": [
+        "Total cost of ownership calculation",
+        "ROI projections over 7 years",
+        "Payback period analysis"
+      ],
       "outcome": "3.2 year payback period with 280% ROI over 7 years"
     },
     {
       "stage": "workforce_planning",
       "duration": "8 weeks",
-      "activities": ["Retraining program development", "Job transition planning", "Union consultation process"],
+      "activities": [
+        "Retraining program development",
+        "Job transition planning",
+        "Union consultation process"
+      ],
       "outcome": "Comprehensive workforce transition plan with union agreement"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["35% production capacity increase", "40% defect reduction", "25% labor cost optimization", "Enhanced product quality reputation"],
+    "expected_outcomes": [
+      "35% production capacity increase",
+      "40% defect reduction",
+      "25% labor cost optimization",
+      "Enhanced product quality reputation"
+    ],
     "projected_revenue": "$15,000,000 annual operational savings",
-    "risk_factors": ["Workforce resistance to automation", "Integration challenges with legacy systems", "Higher than expected maintenance costs", "Supply chain disruptions for robotics components"]
+    "risk_factors": [
+      "Workforce resistance to automation",
+      "Integration challenges with legacy systems",
+      "Higher than expected maintenance costs",
+      "Supply chain disruptions for robotics components"
+    ]
   }
 }

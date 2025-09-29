@@ -1,61 +1,104 @@
 workflow:
-  id: "workflow_construction_003"
-  title: "Advanced Project Management Systems Implementation"
-  department: "Construction Management"
-  complexity: "high"
-  participants: ["Project Director", "IT Manager", "Safety Coordinator", "Subcontractor Manager", "Quality Assurance", "Training Coordinator"]
-  trigger: "Digital transformation initiative or efficiency improvement requirement"
+  id: workflow_construction_003
+  title: Advanced Project Management Systems Implementation
+  department: Construction Management
+  complexity: high
+  participants:
+  - Project Director
+  - IT Manager
+  - Safety Coordinator
+  - Subcontractor Manager
+  - Quality Assurance
+  - Training Coordinator
+  trigger: Digital transformation initiative or efficiency improvement requirement
   steps:
-    - step: 1
-      actor: "Project Director"
-      action: "Assess current project management capabilities and pain points"
-      tools: ["Project management software audit", "Stakeholder interviews", "Performance data analysis"]
-      duration: "3 weeks"
-      outputs: ["Current state assessment", "Requirements specification"]
-    - step: 2
-      actor: "IT Manager"
-      action: "Evaluate technology infrastructure and integration requirements"
-      decision_points: ["Cloud vs on-premise solutions", "Mobile access needs", "Data security requirements"]
-      duration: "2 weeks"
-      outputs: ["Technology evaluation report", "Integration plan"]
-    - step: 3
-      actor: "Safety Coordinator"
-      action: "Incorporate safety management and compliance tracking"
-      tools: ["Safety management software", "Regulatory compliance databases"]
-      duration: "1 week"
-      outputs: ["Safety integration plan", "Compliance framework"]
-    - step: 4
-      actor: "Subcontractor Manager"
-      action: "Design subcontractor management and communication workflows"
-      tools: ["Vendor management systems", "Communication platforms"]
-      duration: "1 week"
-      outputs: ["Subcontractor management framework", "Communication protocols"]
-    - step: 5
-      actor: "Quality Assurance"
-      action: "Implement quality control and inspection processes"
-      decision_points: ["Automated vs manual inspection", "Documentation requirements", "Audit trails"]
-      duration: "2 weeks"
-      outputs: ["Quality control system", "Inspection protocols"]
-    - step: 6
-      actor: "Training Coordinator"
-      action: "Develop comprehensive training program for system adoption"
-      tools: ["Learning management systems", "Training materials", "Certification programs"]
-      duration: "2 weeks"
-      outputs: ["Training program documentation", "User adoption plan"]
-    - step: 7
-      actor: "Project Director"
-      action: "Execute pilot implementation and monitor adoption"
-      tools: ["Implementation tracking dashboards", "User feedback systems"]
-      duration: "6 weeks"
-      outputs: ["Pilot results analysis", "Full rollout plan"]
-  success_criteria: "Project delivery time reduced by 20%, cost overruns decreased by 30%, safety compliance improved by 40%"
-  failure_modes: ["User adoption resistance", "Technical integration issues", "Data migration problems", "Insufficient training"]
+  - step: 1
+    actor: Project Director
+    action: Assess current project management capabilities and pain points
+    tools:
+    - Project management software audit
+    - Stakeholder interviews
+    - Performance data analysis
+    duration: 3 weeks
+    outputs:
+    - Current state assessment
+    - Requirements specification
+  - step: 2
+    actor: IT Manager
+    action: Evaluate technology infrastructure and integration requirements
+    decision_points:
+    - Cloud vs on-premise solutions
+    - Mobile access needs
+    - Data security requirements
+    duration: 2 weeks
+    outputs:
+    - Technology evaluation report
+    - Integration plan
+  - step: 3
+    actor: Safety Coordinator
+    action: Incorporate safety management and compliance tracking
+    tools:
+    - Safety management software
+    - Regulatory compliance databases
+    duration: 1 week
+    outputs:
+    - Safety integration plan
+    - Compliance framework
+  - step: 4
+    actor: Subcontractor Manager
+    action: Design subcontractor management and communication workflows
+    tools:
+    - Vendor management systems
+    - Communication platforms
+    duration: 1 week
+    outputs:
+    - Subcontractor management framework
+    - Communication protocols
+  - step: 5
+    actor: Quality Assurance
+    action: Implement quality control and inspection processes
+    decision_points:
+    - Automated vs manual inspection
+    - Documentation requirements
+    - Audit trails
+    duration: 2 weeks
+    outputs:
+    - Quality control system
+    - Inspection protocols
+  - step: 6
+    actor: Training Coordinator
+    action: Develop comprehensive training program for system adoption
+    tools:
+    - Learning management systems
+    - Training materials
+    - Certification programs
+    duration: 2 weeks
+    outputs:
+    - Training program documentation
+    - User adoption plan
+  - step: 7
+    actor: Project Director
+    action: Execute pilot implementation and monitor adoption
+    tools:
+    - Implementation tracking dashboards
+    - User feedback systems
+    duration: 6 weeks
+    outputs:
+    - Pilot results analysis
+    - Full rollout plan
+  success_criteria: Project delivery time reduced by 20%, cost overruns decreased
+    by 30%, safety compliance improved by 40%
+  failure_modes:
+  - User adoption resistance
+  - Technical integration issues
+  - Data migration problems
+  - Insufficient training
   metrics:
-    - "Project delivery time reduction: Target 20%"
-    - "Cost overruns decrease: Target 30%"
-    - "Safety compliance improvement: Target 40%"
-    - "User adoption rate: Target >80%"
-    - "System uptime: Target 99.5%"
-    - "Training completion rate: Target 95%"
-    - "Data accuracy improvement: Target 25%"
-    - "Stakeholder satisfaction: Target 4.5/5"
+  - 'Project delivery time reduction: Target 20%'
+  - 'Cost overruns decrease: Target 30%'
+  - 'Safety compliance improvement: Target 40%'
+  - 'User adoption rate: Target >80%'
+  - 'System uptime: Target 99.5%'
+  - 'Training completion rate: Target 95%'
+  - 'Data accuracy improvement: Target 25%'
+  - 'Stakeholder satisfaction: Target 4.5/5'

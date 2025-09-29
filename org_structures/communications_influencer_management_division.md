@@ -6,8 +6,8 @@ The Influencer Management Division oversees strategic partnerships with content 
 ## Division Composition
 
 ### VP - Influencer Marketing & Partnerships
-**Reports to:** Chief Marketing Technology Officer  
-**Direct Reports:** 3 directors, 15-20 total staff  
+**Reports to:** Chief Marketing Technology Officer
+**Direct Reports:** 3 directors, 15-20 total staff
 **Responsibilities:**
 - Develop influencer marketing strategy and budget allocation
 - Establish partnership frameworks and contract templates
@@ -16,8 +16,8 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Manage relationships with key agency partners
 
 ### Director - Influencer Strategy & Analytics
-**Reports to:** VP - Influencer Marketing & Partnerships  
-**Direct Reports:** 4 managers  
+**Reports to:** VP - Influencer Marketing & Partnerships
+**Direct Reports:** 4 managers
 **Responsibilities:**
 - Develop campaign strategies and content calendars
 - Analyze campaign performance and influencer ROI
@@ -26,8 +26,8 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Optimize influencer mix across platforms and demographics
 
 ### Director - Partnership Management
-**Reports to:** VP - Influencer Marketing & Partnerships  
-**Direct Reports:** 5 managers  
+**Reports to:** VP - Influencer Marketing & Partnerships
+**Direct Reports:** 5 managers
 **Responsibilities:**
 - Negotiate contracts and manage ongoing partnerships
 - Develop creator onboarding and relationship management processes
@@ -36,8 +36,8 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Build and maintain creator database and talent pool
 
 ### Director - Compliance & Legal Affairs
-**Reports to:** VP - Influencer Marketing & Partnerships  
-**Direct Reports:** 2 specialists  
+**Reports to:** VP - Influencer Marketing & Partnerships
+**Direct Reports:** 2 specialists
 **Responsibilities:**
 - Ensure FTC, FCC, and international compliance for all campaigns
 - Develop disclosure policies and creator training programs
@@ -46,7 +46,7 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Manage risk assessments for influencer partnerships
 
 ### Influencer Marketing Manager (4 positions)
-**Reports to:** Director - Influencer Strategy & Analytics  
+**Reports to:** Director - Influencer Strategy & Analytics
 **Responsibilities:**
 - Execute influencer campaigns from ideation to delivery
 - Manage day-to-day creator relationships and content approval
@@ -55,7 +55,7 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Prepare campaign reports and performance analysis
 
 ### Partnership Manager (5 positions)
-**Reports to:** Director - Partnership Management  
+**Reports to:** Director - Partnership Management
 **Responsibilities:**
 - Onboard new creators and manage partnership lifecycle
 - Negotiate campaign terms and manage contract execution
@@ -64,7 +64,7 @@ The Influencer Management Division oversees strategic partnerships with content 
 - Handle creator payments and incentive programs
 
 ### Compliance Specialist (2 positions)
-**Reports to:** Director - Compliance & Legal Affairs  
+**Reports to:** Director - Compliance & Legal Affairs
 **Responsibilities:**
 - Review campaign materials for regulatory compliance
 - Conduct creator training on disclosure requirements

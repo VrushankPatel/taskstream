@@ -1,8 +1,8 @@
 ## Email Thread: Automotive Supply Chain Semiconductor Crisis Response
 
-**From:** VP Supply Chain Operations  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan  
+**From:** VP Supply Chain Operations
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan
 
 Team,
 
@@ -20,15 +20,15 @@ I've attached the detailed impact analysis. We need executive approval for the f
 
 Please review and respond by EOD tomorrow for emergency board meeting.
 
-Best,  
-Sarah Chen  
-VP Supply Chain Operations  
+Best,
+Sarah Chen
+VP Supply Chain Operations
 
 ---
 
-**From:** CEO  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan  
+**From:** CEO
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan
 
 Sarah,
 
@@ -41,27 +41,27 @@ Approved for the mitigation plan, but I want:
 
 Let's get this under control immediately.
 
-Michael Torres  
-CEO  
+Michael Torres
+CEO
 
 ---
 
-**From:** CFO  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan  
+**From:** CFO
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan
 
 Adding financial perspective - the $12M mitigation cost will impact our Q4 margins by 8%. We have contingency budget available, but this erodes our year-end bonus pool.
 
 Can we explore government subsidies for domestic semiconductor production? I recommend engaging our Washington lobbyists immediately.
 
-Jennifer Walsh  
-CFO  
+Jennifer Walsh
+CFO
 
 ---
 
-**From:** VP Supply Chain Operations  
-**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team  
-**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan  
+**From:** VP Supply Chain Operations
+**To:** Executive Leadership Team, Manufacturing Directors, Procurement Team
+**Subject:** Re: Urgent: Semiconductor Shortage Impact Assessment and Mitigation Plan
 
 Thank you for the approvals. Mitigation plan activated:
 
@@ -73,5 +73,5 @@ Root cause analysis in progress - preliminary findings show over-reliance on sin
 
 Will provide detailed update tomorrow morning.
 
-Sarah Chen  
+Sarah Chen
 VP Supply Chain Operations

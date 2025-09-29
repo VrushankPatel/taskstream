@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_energy_hydrogen_infrastructure_development"
-  title: "Hydrogen Fuel Infrastructure Development"
-  department: "Infrastructure Development"
-  complexity: "high"
-  participants: ["Infrastructure Director", "Engineering Team", "Regulatory Affairs", "Safety Compliance"]
-  trigger: "Government hydrogen economy initiative"
+  id: workflow_energy_hydrogen_infrastructure_development
+  title: Hydrogen Fuel Infrastructure Development
+  department: Infrastructure Development
+  complexity: high
+  participants:
+  - Infrastructure Director
+  - Engineering Team
+  - Regulatory Affairs
+  - Safety Compliance
+  trigger: Government hydrogen economy initiative
   steps:
-    - step: 1
-      actor: "Infrastructure Director"
-      action: "Assess hydrogen production and distribution needs"
-      tools: ["Infrastructure planning software", "Demand forecasting models"]
-      duration: "6 weeks"
-      outputs: ["Hydrogen infrastructure roadmap"]
-    - step: 2
-      actor: "Engineering Team"
-      action: "Design hydrogen production, storage, and dispensing facilities"
-      tools: ["Engineering design software", "Safety analysis tools"]
-      duration: "10 weeks"
-      outputs: ["Facility design specifications"]
-    - step: 3
-      actor: "Regulatory Affairs"
-      action: "Navigate permitting and regulatory approvals"
-      tools: ["Regulatory filing systems", "Compliance tracking tools"]
-      duration: "8 weeks"
-      outputs: ["Regulatory approvals"]
-    - step: 4
-      actor: "Safety Compliance"
-      action: "Implement comprehensive safety protocols and training"
-      tools: ["Safety management systems", "Training development tools"]
-      duration: "4 weeks"
-      outputs: ["Safety protocols and training programs"]
-  success_criteria: "Operational hydrogen refueling stations network"
-  failure_modes: ["Technical challenges", "Regulatory hurdles", "Economic viability concerns"]
+  - step: 1
+    actor: Infrastructure Director
+    action: Assess hydrogen production and distribution needs
+    tools:
+    - Infrastructure planning software
+    - Demand forecasting models
+    duration: 6 weeks
+    outputs:
+    - Hydrogen infrastructure roadmap
+  - step: 2
+    actor: Engineering Team
+    action: Design hydrogen production, storage, and dispensing facilities
+    tools:
+    - Engineering design software
+    - Safety analysis tools
+    duration: 10 weeks
+    outputs:
+    - Facility design specifications
+  - step: 3
+    actor: Regulatory Affairs
+    action: Navigate permitting and regulatory approvals
+    tools:
+    - Regulatory filing systems
+    - Compliance tracking tools
+    duration: 8 weeks
+    outputs:
+    - Regulatory approvals
+  - step: 4
+    actor: Safety Compliance
+    action: Implement comprehensive safety protocols and training
+    tools:
+    - Safety management systems
+    - Training development tools
+    duration: 4 weeks
+    outputs:
+    - Safety protocols and training programs
+  success_criteria: Operational hydrogen refueling stations network
+  failure_modes:
+  - Technical challenges
+  - Regulatory hurdles
+  - Economic viability concerns

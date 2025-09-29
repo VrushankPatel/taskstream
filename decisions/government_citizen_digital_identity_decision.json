@@ -3,8 +3,16 @@
   "context": "Government agency implementing national digital identity system for citizen services",
   "stakeholders": {
     "requester": "Digital Services Director",
-    "approvers": ["Minister", "Chief Information Officer", "Privacy Commissioner"],
-    "influencers": ["Civil Liberties Groups", "Technology Providers", "Citizen Representatives"]
+    "approvers": [
+      "Minister",
+      "Chief Information Officer",
+      "Privacy Commissioner"
+    ],
+    "influencers": [
+      "Civil Liberties Groups",
+      "Technology Providers",
+      "Citizen Representatives"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,28 +24,51 @@
     {
       "stage": "requirements_definition",
       "duration": "12 weeks",
-      "activities": ["Stakeholder consultations", "Security requirements analysis", "International standards review"],
+      "activities": [
+        "Stakeholder consultations",
+        "Security requirements analysis",
+        "International standards review"
+      ],
       "outcome": "Comprehensive requirements document with privacy protections"
     },
     {
       "stage": "technology_evaluation",
       "duration": "16 weeks",
-      "activities": ["Vendor RFP process", "Security audits", "Scalability testing"],
+      "activities": [
+        "Vendor RFP process",
+        "Security audits",
+        "Scalability testing"
+      ],
       "outcome": "Blockchain-based solution selected with strong privacy features"
     },
     {
       "stage": "pilot_program",
       "duration": "24 weeks",
-      "activities": ["Pilot implementation", "User acceptance testing", "Privacy impact monitoring"],
+      "activities": [
+        "Pilot implementation",
+        "User acceptance testing",
+        "Privacy impact monitoring"
+      ],
       "outcome": "Pilot successful with 95% user satisfaction"
     }
   ],
   "business_impact": {
     "expected_outcome": "Streamlined citizen services, reduced fraud by 70%, enhanced digital inclusion",
     "projected_value": "$500M in efficiency savings and fraud prevention over 10 years",
-    "risk_factors": ["Privacy concerns", "Cybersecurity threats", "Adoption challenges", "Technical failures"]
+    "risk_factors": [
+      "Privacy concerns",
+      "Cybersecurity threats",
+      "Adoption challenges",
+      "Technical failures"
+    ]
   },
-  "decision_criteria": ["Privacy protection", "Security standards", "User accessibility", "Cost effectiveness", "Interoperability"],
+  "decision_criteria": [
+    "Privacy protection",
+    "Security standards",
+    "User accessibility",
+    "Cost effectiveness",
+    "Interoperability"
+  ],
   "outcome": "Approved with enhanced privacy oversight",
   "lessons_learned": "Digital identity systems require extensive public consultation and robust privacy frameworks"
 }

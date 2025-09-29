@@ -1,9 +1,9 @@
 ## Email Thread: Sustainable Manufacturing Initiative Launch
 
-**From:** Chief Sustainability Officer  
-**To:** All Employees, Executive Leadership, Board of Directors  
-**Subject:** Launch of Sustainable Manufacturing 2030 Initiative  
-**Date:** September 28, 2025  
+**From:** Chief Sustainability Officer
+**To:** All Employees, Executive Leadership, Board of Directors
+**Subject:** Launch of Sustainable Manufacturing 2030 Initiative
+**Date:** September 28, 2025
 
 Team,
 
@@ -34,16 +34,16 @@ Detailed implementation plans and local action items will be communicated next w
 
 Together, we will build a more sustainable future while strengthening our competitive position.
 
-Best regards,  
-Dr. Rachel Green  
-Chief Sustainability Officer  
+Best regards,
+Dr. Rachel Green
+Chief Sustainability Officer
 
 ---
 
-**From:** VP Operations  
-**To:** Chief Sustainability Officer, Operations Leadership Team  
-**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative  
-**Date:** September 28, 2025  
+**From:** VP Operations
+**To:** Chief Sustainability Officer, Operations Leadership Team
+**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative
+**Date:** September 28, 2025
 
 Rachel,
 
@@ -56,16 +56,16 @@ Some operational considerations:
 
 We're ready to collaborate on the implementation planning.
 
-Best,  
-Tom Anderson  
-VP Operations  
+Best,
+Tom Anderson
+VP Operations
 
 ---
 
-**From:** Head of Procurement  
-**To:** Chief Sustainability Officer, Procurement Team  
-**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative  
-**Date:** September 28, 2025  
+**From:** Head of Procurement
+**To:** Chief Sustainability Officer, Procurement Team
+**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative
+**Date:** September 28, 2025
 
 Rachel,
 
@@ -78,16 +78,16 @@ Key challenges we're anticipating:
 
 We're developing a supplier transition roadmap and would like to present it at the next leadership meeting.
 
-Regards,  
-Maria Rodriguez  
-Head of Procurement  
+Regards,
+Maria Rodriguez
+Head of Procurement
 
 ---
 
-**From:** Facility Manager - Chicago Plant  
-**To:** Chief Sustainability Officer, VP Operations  
-**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative  
-**Date:** September 28, 2025  
+**From:** Facility Manager - Chicago Plant
+**To:** Chief Sustainability Officer, VP Operations
+**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative
+**Date:** September 28, 2025
 
 Rachel, Tom,
 
@@ -105,16 +105,16 @@ As one of our largest facilities, the Chicago plant is eager to lead in this ini
 
 We're proposing Chicago as a pilot site for several initiatives. Would like to discuss this further.
 
-Best,  
-Jennifer Liu  
-Facility Manager  
+Best,
+Jennifer Liu
+Facility Manager
 
 ---
 
-**From:** Chief Sustainability Officer  
-**To:** All Recipients  
-**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative  
-**Date:** September 28, 2025  
+**From:** Chief Sustainability Officer
+**To:** All Recipients
+**Subject:** Re: Launch of Sustainable Manufacturing 2030 Initiative
+**Date:** September 28, 2025
 
 Thank you all for the thoughtful responses and commitment to this initiative. Your engagement is crucial for success.
 
@@ -130,5 +130,5 @@ To address the key points raised:
 
 This is our opportunity to lead in sustainable manufacturing. I'm confident in our ability to achieve these ambitious goals together.
 
-Best,  
+Best,
 Dr. Rachel Green

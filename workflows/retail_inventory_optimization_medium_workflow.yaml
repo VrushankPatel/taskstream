@@ -1,32 +1,50 @@
 workflow:
-  id: "workflow_retail_inventory_optimization"
-  title: "Retail Inventory Optimization Process"
-  department: "Operations"
-  complexity: "medium"
-  participants: ["Inventory Manager", "Store Manager", "Procurement Specialist"]
-  trigger: "Weekly inventory review or stock level alerts"
+  id: workflow_retail_inventory_optimization
+  title: Retail Inventory Optimization Process
+  department: Operations
+  complexity: medium
+  participants:
+  - Inventory Manager
+  - Store Manager
+  - Procurement Specialist
+  trigger: Weekly inventory review or stock level alerts
   steps:
-    - step: 1
-      actor: "Inventory Manager"
-      action: "Analyze current stock levels against sales data and forecasts"
-      tools: ["Inventory Management System", "Sales Analytics"]
-      duration: "2 hours"
-      outputs: ["Stock Level Analysis", "Replenishment Recommendations"]
-    - step: 2
-      actor: "Procurement Specialist"
-      action: "Review supplier lead times and place replenishment orders"
-      tools: ["Supplier Portal", "Purchase Order System"]
-      duration: "1 hour"
-      outputs: ["Purchase Orders", "Delivery Schedules"]
-    - step: 3
-      actor: "Store Manager"
-      action: "Optimize product placement based on demand patterns"
-      tools: ["Store Layout Software", "Heat Maps"]
-      duration: "30 minutes"
-      outputs: ["Optimized Layout Plan", "Staff Training Notes"]
-  success_criteria: "Inventory turnover improved, stockouts minimized, overstock reduced"
-  failure_modes: ["Demand forecasting errors", "Supplier delays", "Seasonal demand spikes"]
+  - step: 1
+    actor: Inventory Manager
+    action: Analyze current stock levels against sales data and forecasts
+    tools:
+    - Inventory Management System
+    - Sales Analytics
+    duration: 2 hours
+    outputs:
+    - Stock Level Analysis
+    - Replenishment Recommendations
+  - step: 2
+    actor: Procurement Specialist
+    action: Review supplier lead times and place replenishment orders
+    tools:
+    - Supplier Portal
+    - Purchase Order System
+    duration: 1 hour
+    outputs:
+    - Purchase Orders
+    - Delivery Schedules
+  - step: 3
+    actor: Store Manager
+    action: Optimize product placement based on demand patterns
+    tools:
+    - Store Layout Software
+    - Heat Maps
+    duration: 30 minutes
+    outputs:
+    - Optimized Layout Plan
+    - Staff Training Notes
+  success_criteria: Inventory turnover improved, stockouts minimized, overstock reduced
+  failure_modes:
+  - Demand forecasting errors
+  - Supplier delays
+  - Seasonal demand spikes
   metrics:
-    - "Inventory Turnover: 6-8 times per year"
-    - "Stockout Rate: <2% of items"
-    - "Overstock Value: <5% of inventory"
+  - 'Inventory Turnover: 6-8 times per year'
+  - 'Stockout Rate: <2% of items'
+  - 'Overstock Value: <5% of inventory'

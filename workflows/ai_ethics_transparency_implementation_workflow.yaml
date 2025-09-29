@@ -1,47 +1,79 @@
 workflow:
-  id: "workflow_ai_transparency_implementation"
-  title: "AI Ethics Transparency Implementation Workflow"
-  department: "AI Ethics & Compliance"
-  complexity: "medium"
-  participants: ["AI Transparency Engineers", "Model Documentation Specialists", "User Experience Designers", "Legal Counsel", "Stakeholder Communications"]
-  trigger: "AI model deployment or significant model update requiring transparency enhancements"
+  id: workflow_ai_transparency_implementation
+  title: AI Ethics Transparency Implementation Workflow
+  department: AI Ethics & Compliance
+  complexity: medium
+  participants:
+  - AI Transparency Engineers
+  - Model Documentation Specialists
+  - User Experience Designers
+  - Legal Counsel
+  - Stakeholder Communications
+  trigger: AI model deployment or significant model update requiring transparency
+    enhancements
   steps:
-    - step: 1
-      actor: "AI Transparency Engineers"
-      action: "Implement explainability features in AI models using appropriate techniques"
-      tools: ["SHAP", "LIME", "Model interpretation libraries"]
-      duration: "3 weeks"
-      outputs: ["Explainability features", "Technical documentation"]
-    - step: 2
-      actor: "Model Documentation Specialists"
-      action: "Create comprehensive model documentation including training data, algorithms, and limitations"
-      tools: ["Documentation platforms", "Model cards frameworks"]
-      duration: "2 weeks"
-      outputs: ["Model documentation", "Data lineage reports"]
-    - step: 3
-      actor: "User Experience Designers"
-      action: "Design user interfaces for displaying AI explanations and confidence levels"
-      tools: ["UI/UX design tools", "Prototyping platforms"]
-      duration: "3 weeks"
-      outputs: ["User interface designs", "Explanation display formats"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Review transparency disclosures for legal compliance and risk mitigation"
-      tools: ["Regulatory databases", "Legal review frameworks"]
-      duration: "2 weeks"
-      outputs: ["Legal compliance review", "Disclosure templates"]
-    - step: 5
-      actor: "Stakeholder Communications"
-      action: "Develop communication strategy for transparency features and user education"
-      tools: ["Communication planning tools", "Training materials"]
-      duration: "2 weeks"
-      outputs: ["Communication plan", "User education materials"]
-  success_criteria: "AI system with comprehensive transparency features enabling users to understand and trust AI decisions"
-  failure_modes: ["Technical limitations preventing effective explanations", "User confusion from complex explanations", "Legal non-compliance in disclosures"]
+  - step: 1
+    actor: AI Transparency Engineers
+    action: Implement explainability features in AI models using appropriate techniques
+    tools:
+    - SHAP
+    - LIME
+    - Model interpretation libraries
+    duration: 3 weeks
+    outputs:
+    - Explainability features
+    - Technical documentation
+  - step: 2
+    actor: Model Documentation Specialists
+    action: Create comprehensive model documentation including training data, algorithms,
+      and limitations
+    tools:
+    - Documentation platforms
+    - Model cards frameworks
+    duration: 2 weeks
+    outputs:
+    - Model documentation
+    - Data lineage reports
+  - step: 3
+    actor: User Experience Designers
+    action: Design user interfaces for displaying AI explanations and confidence levels
+    tools:
+    - UI/UX design tools
+    - Prototyping platforms
+    duration: 3 weeks
+    outputs:
+    - User interface designs
+    - Explanation display formats
+  - step: 4
+    actor: Legal Counsel
+    action: Review transparency disclosures for legal compliance and risk mitigation
+    tools:
+    - Regulatory databases
+    - Legal review frameworks
+    duration: 2 weeks
+    outputs:
+    - Legal compliance review
+    - Disclosure templates
+  - step: 5
+    actor: Stakeholder Communications
+    action: Develop communication strategy for transparency features and user education
+    tools:
+    - Communication planning tools
+    - Training materials
+    duration: 2 weeks
+    outputs:
+    - Communication plan
+    - User education materials
+  success_criteria: AI system with comprehensive transparency features enabling users
+    to understand and trust AI decisions
+  failure_modes:
+  - Technical limitations preventing effective explanations
+  - User confusion from complex explanations
+  - Legal non-compliance in disclosures
   metrics:
-    - "Explanation accuracy: Target 95% user comprehension"
-    - "User trust rating: Target 4.5/5.0 in surveys"
-    - "Transparency feature usage: Target 80% of users accessing explanations"
-    - "Documentation completeness: Target 100% coverage"
-    - "Compliance audit score: Target 98% or higher"
-    - "Implementation timeline adherence: Target 100% on schedule"
+  - 'Explanation accuracy: Target 95% user comprehension'
+  - 'User trust rating: Target 4.5/5.0 in surveys'
+  - 'Transparency feature usage: Target 80% of users accessing explanations'
+  - 'Documentation completeness: Target 100% coverage'
+  - 'Compliance audit score: Target 98% or higher'
+  - 'Implementation timeline adherence: Target 100% on schedule'

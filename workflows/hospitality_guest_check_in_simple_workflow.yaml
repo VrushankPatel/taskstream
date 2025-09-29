@@ -1,32 +1,47 @@
 workflow:
-  id: "workflow_hospitality_checkin_001"
-  title: "Hospitality Guest Check-In Process"
-  department: "Front Office"
-  complexity: "simple"
-  participants: ["Front Desk Agent", "Guest"]
-  trigger: "Guest arrives at hotel reception"
+  id: workflow_hospitality_checkin_001
+  title: Hospitality Guest Check-In Process
+  department: Front Office
+  complexity: simple
+  participants:
+  - Front Desk Agent
+  - Guest
+  trigger: Guest arrives at hotel reception
   steps:
-    - step: 1
-      actor: "Front Desk Agent"
-      action: "Verify guest reservation and collect identification"
-      tools: ["PMS System", "ID Scanner"]
-      duration: "5 minutes"
-      outputs: ["Verified reservation details"]
-    - step: 2
-      actor: "Front Desk Agent"
-      action: "Process payment and assign room key"
-      tools: ["PMS System", "Credit Card Terminal"]
-      duration: "3 minutes"
-      outputs: ["Room assignment", "Key card"]
-    - step: 3
-      actor: "Front Desk Agent"
-      action: "Provide welcome information and amenities overview"
-      tools: ["Property Guide", "Amenities Brochure"]
-      duration: "2 minutes"
-      outputs: ["Welcome packet"]
-  success_criteria: "Guest checked in within 10 minutes of arrival"
-  failure_modes: ["System outage", "Invalid reservation", "Payment issues"]
+  - step: 1
+    actor: Front Desk Agent
+    action: Verify guest reservation and collect identification
+    tools:
+    - PMS System
+    - ID Scanner
+    duration: 5 minutes
+    outputs:
+    - Verified reservation details
+  - step: 2
+    actor: Front Desk Agent
+    action: Process payment and assign room key
+    tools:
+    - PMS System
+    - Credit Card Terminal
+    duration: 3 minutes
+    outputs:
+    - Room assignment
+    - Key card
+  - step: 3
+    actor: Front Desk Agent
+    action: Provide welcome information and amenities overview
+    tools:
+    - Property Guide
+    - Amenities Brochure
+    duration: 2 minutes
+    outputs:
+    - Welcome packet
+  success_criteria: Guest checked in within 10 minutes of arrival
+  failure_modes:
+  - System outage
+  - Invalid reservation
+  - Payment issues
   metrics:
-    - "Average check-in time: Target <10 minutes"
-    - "First-time guest satisfaction: Target >90%"
-    - "System uptime: Target >99.9%"
+  - 'Average check-in time: Target <10 minutes'
+  - 'First-time guest satisfaction: Target >90%'
+  - 'System uptime: Target >99.9%'

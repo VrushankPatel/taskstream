@@ -3,8 +3,17 @@
   "context": "Mid-size automotive parts manufacturer, 800 employees, seeking to modernize production facilities",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Plant Managers", "IT Director", "Quality Manager", "Union Representative"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Plant Managers",
+      "IT Director",
+      "Quality Manager",
+      "Union Representative"
+    ]
   },
   "request": {
     "amount": "$4.2M",
@@ -16,19 +25,34 @@
     {
       "stage": "roi_analysis",
       "duration": "6 weeks",
-      "activities": ["Current state assessment", "Technology vendor evaluation", "Cost-benefit analysis", "Risk assessment"],
+      "activities": [
+        "Current state assessment",
+        "Technology vendor evaluation",
+        "Cost-benefit analysis",
+        "Risk assessment"
+      ],
       "outcome": "Strong ROI identified, approved for detailed planning"
     },
     {
       "stage": "pilot_deployment",
       "duration": "12 weeks",
-      "activities": ["Single production line implementation", "Performance monitoring", "Staff training", "Process documentation"],
+      "activities": [
+        "Single production line implementation",
+        "Performance monitoring",
+        "Staff training",
+        "Process documentation"
+      ],
       "outcome": "Pilot exceeded expectations, full deployment recommended"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "8 weeks",
-      "activities": ["Implementation roadmap development", "Resource allocation", "Change management plan", "Vendor contract negotiation"],
+      "activities": [
+        "Implementation roadmap development",
+        "Resource allocation",
+        "Change management plan",
+        "Vendor contract negotiation"
+      ],
       "outcome": "Full deployment approved with phased implementation"
     }
   ],
@@ -36,6 +60,11 @@
     "expected_downtime_reduction": "35-45%",
     "projected_efficiency_gains": "15-20%",
     "implementation_timeline": "18 months",
-    "risk_factors": ["Network security vulnerabilities", "Integration with legacy systems", "Staff training requirements", "Vendor reliability"]
+    "risk_factors": [
+      "Network security vulnerabilities",
+      "Integration with legacy systems",
+      "Staff training requirements",
+      "Vendor reliability"
+    ]
   }
 }

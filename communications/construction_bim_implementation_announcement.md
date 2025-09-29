@@ -1,8 +1,8 @@
 ## Construction BIM Implementation Announcement
 
-**From:** Construction Operations Director  
-**To:** All Construction Teams, Project Managers, Subcontractors  
-**Subject:** Building Information Modeling (BIM) Implementation - Project Launch  
+**From:** Construction Operations Director
+**To:** All Construction Teams, Project Managers, Subcontractors
+**Subject:** Building Information Modeling (BIM) Implementation - Project Launch
 
 Dear Team,
 
@@ -52,5 +52,5 @@ We recognize this represents a significant change for our teams, but the long-te
 
 Please contact your project BIM coordinator if you have questions or need assistance, or reach out to the BIM implementation team at bim-support@construction.com.
 
-Best regards,  
+Best regards,
 Construction Operations Director

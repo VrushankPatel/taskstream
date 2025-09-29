@@ -63,11 +63,11 @@
 **Next Meeting:** Daily crisis update calls at 9 AM CET
 
 **Meeting Adjourned:** 11:30 AM CET</content>
-</xai:function_call"> 
+</xai:function_call">
 
 Assistant: Second communication: mining_asia_environmental_crisis_announcement.md (Asia mining incident)
 
-Email thread or announcement about environmental crisis in Asian mining. 
+Email thread or announcement about environmental crisis in Asian mining.
 
 <xai:function_call name="write">
 <parameter name="filePath">communications/mining_asia_environmental_crisis_announcement.md

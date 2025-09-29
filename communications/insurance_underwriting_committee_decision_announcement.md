@@ -1,8 +1,8 @@
 ## Announcement: Underwriting Committee Decision on Cyber Liability Product Line
 
-**From:** Chief Underwriting Officer  
-**To:** Underwriting Team, Claims Department, Marketing Team, Executive Leadership  
-**Subject:** Approved: Cyber Liability Product Expansion - Implementation Guidelines  
+**From:** Chief Underwriting Officer
+**To:** Underwriting Team, Claims Department, Marketing Team, Executive Leadership
+**Subject:** Approved: Cyber Liability Product Expansion - Implementation Guidelines
 
 Team,
 
@@ -65,6 +65,6 @@ Please review the detailed implementation plan attached. Department heads should
 
 Questions or concerns should be directed to the Underwriting Committee.
 
-Best regards,  
-Robert Kim  
+Best regards,
+Robert Kim
 Chief Underwriting Officer

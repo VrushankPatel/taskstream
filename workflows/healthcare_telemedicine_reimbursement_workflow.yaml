@@ -1,41 +1,68 @@
 workflow:
-  id: "workflow_026_001"
-  title: "Telemedicine Reimbursement Workflow"
-  department: "Revenue Cycle Management"
-  complexity: "high"
-  participants: ["Billing Specialist", "Clinical Documentation Specialist", "Compliance Officer", "IT Support"]
-  trigger: "Completed telemedicine consultation requiring reimbursement"
+  id: workflow_026_001
+  title: Telemedicine Reimbursement Workflow
+  department: Revenue Cycle Management
+  complexity: high
+  participants:
+  - Billing Specialist
+  - Clinical Documentation Specialist
+  - Compliance Officer
+  - IT Support
+  trigger: Completed telemedicine consultation requiring reimbursement
   steps:
-    - step: 1
-      actor: "Clinical Documentation Specialist"
-      action: "Verify telemedicine encounter documentation completeness"
-      tools: ["EHR System", "Telemedicine Platform Logs"]
-      duration: "15 minutes"
-      outputs: ["Documentation Audit Report"]
-    - step: 2
-      actor: "Billing Specialist"
-      action: "Code telemedicine services using appropriate CPT modifiers"
-      decision_points: ["Service Type (Video/Audio)", "Patient Location", "Provider Specialty"]
-      tools: ["Billing Software", "CPT Code Reference"]
-      duration: "20 minutes"
-      outputs: ["Coded Claim"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Review claim for regulatory compliance and reimbursement eligibility"
-      decision_points: ["Medicare/Medicaid Rules", "Commercial Payer Policies", "State Licensure Requirements"]
-      duration: "30 minutes"
-      outputs: ["Compliance Approval"]
-    - step: 4
-      actor: "Billing Specialist"
-      action: "Submit claim to payer with required attachments"
-      tools: ["Claims Submission Portal", "Document Management System"]
-      duration: "10 minutes"
-      outputs: ["Submitted Claim"]
-    - step: 5
-      actor: "Billing Specialist"
-      action: "Monitor claim status and follow up on denials"
-      decision_points: ["Payment Received", "Partial Payment", "Denial"]
-      duration: "Variable (1-14 days)"
-      outputs: ["Payment Posted or Appeal Filed"]
-  success_criteria: "Full reimbursement received within 30 days"
-  failure_modes: ["Incomplete documentation leading to denials", "Incorrect coding causing payment delays", "Non-compliant submissions triggering audits"]
+  - step: 1
+    actor: Clinical Documentation Specialist
+    action: Verify telemedicine encounter documentation completeness
+    tools:
+    - EHR System
+    - Telemedicine Platform Logs
+    duration: 15 minutes
+    outputs:
+    - Documentation Audit Report
+  - step: 2
+    actor: Billing Specialist
+    action: Code telemedicine services using appropriate CPT modifiers
+    decision_points:
+    - Service Type (Video/Audio)
+    - Patient Location
+    - Provider Specialty
+    tools:
+    - Billing Software
+    - CPT Code Reference
+    duration: 20 minutes
+    outputs:
+    - Coded Claim
+  - step: 3
+    actor: Compliance Officer
+    action: Review claim for regulatory compliance and reimbursement eligibility
+    decision_points:
+    - Medicare/Medicaid Rules
+    - Commercial Payer Policies
+    - State Licensure Requirements
+    duration: 30 minutes
+    outputs:
+    - Compliance Approval
+  - step: 4
+    actor: Billing Specialist
+    action: Submit claim to payer with required attachments
+    tools:
+    - Claims Submission Portal
+    - Document Management System
+    duration: 10 minutes
+    outputs:
+    - Submitted Claim
+  - step: 5
+    actor: Billing Specialist
+    action: Monitor claim status and follow up on denials
+    decision_points:
+    - Payment Received
+    - Partial Payment
+    - Denial
+    duration: Variable (1-14 days)
+    outputs:
+    - Payment Posted or Appeal Filed
+  success_criteria: Full reimbursement received within 30 days
+  failure_modes:
+  - Incomplete documentation leading to denials
+  - Incorrect coding causing payment delays
+  - Non-compliant submissions triggering audits

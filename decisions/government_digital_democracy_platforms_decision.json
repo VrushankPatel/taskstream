@@ -3,8 +3,16 @@
   "context": "Federal government agency evaluating implementation of digital democracy platform for citizen participation in policy development",
   "stakeholders": {
     "requester": "Director of Digital Services",
-    "approvers": ["Agency Secretary", "Chief Information Officer", "Chief Privacy Officer"],
-    "influencers": ["Public Affairs Director", "Legal Counsel", "IT Security Director"]
+    "approvers": [
+      "Agency Secretary",
+      "Chief Information Officer",
+      "Chief Privacy Officer"
+    ],
+    "influencers": [
+      "Public Affairs Director",
+      "Legal Counsel",
+      "IT Security Director"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,28 +24,51 @@
     {
       "stage": "feasibility_study",
       "duration": "8 weeks",
-      "activities": ["Technology assessment", "Stakeholder interviews", "Requirements gathering"],
+      "activities": [
+        "Technology assessment",
+        "Stakeholder interviews",
+        "Requirements gathering"
+      ],
       "outcome": "Confirmed technical feasibility and citizen demand"
     },
     {
       "stage": "pilot_program",
       "duration": "12 weeks",
-      "activities": ["Limited platform deployment", "User testing", "Security validation"],
+      "activities": [
+        "Limited platform deployment",
+        "User testing",
+        "Security validation"
+      ],
       "outcome": "Successful pilot with positive user feedback"
     },
     {
       "stage": "full_implementation_planning",
       "duration": "6 weeks",
-      "activities": ["Budget finalization", "Vendor selection", "Risk assessment"],
+      "activities": [
+        "Budget finalization",
+        "Vendor selection",
+        "Risk assessment"
+      ],
       "outcome": "Comprehensive implementation plan approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "Increased citizen engagement by 40% and improved government transparency metrics",
     "projected_value": "$8,000,000 in efficiency savings and improved public trust",
-    "risk_factors": ["Security vulnerabilities", "Low citizen adoption", "Technical implementation challenges", "Privacy concerns"]
+    "risk_factors": [
+      "Security vulnerabilities",
+      "Low citizen adoption",
+      "Technical implementation challenges",
+      "Privacy concerns"
+    ]
   },
-  "decision_criteria": ["Security and privacy compliance", "Technical scalability", "Citizen adoption potential", "Cost-benefit analysis", "Regulatory alignment"],
+  "decision_criteria": [
+    "Security and privacy compliance",
+    "Technical scalability",
+    "Citizen adoption potential",
+    "Cost-benefit analysis",
+    "Regulatory alignment"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Importance of inclusive design and comprehensive security frameworks for government digital platforms"
 }

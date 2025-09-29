@@ -131,6 +131,6 @@ The company is committed to maintaining the highest standards of safety in all c
 ## Review and Approval
 This policy is reviewed annually and updated as needed based on regulatory changes, incident reviews, and industry best practices.
 
-**Approved by:** Chief Executive Officer  
-**Effective Date:** October 1, 2025  
+**Approved by:** Chief Executive Officer
+**Effective Date:** October 1, 2025
 **Next Review Date:** October 1, 2026

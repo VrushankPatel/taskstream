@@ -1,8 +1,8 @@
 ## Email Thread: Hospitality Guest Experience Optimization Initiative
 
-**From:** Director of Guest Experience  
-**To:** Operations Team, Marketing Team, IT Department  
-**Subject:** Guest Experience Optimization - Q1 2026 Initiative Launch  
+**From:** Director of Guest Experience
+**To:** Operations Team, Marketing Team, IT Department
+**Subject:** Guest Experience Optimization - Q1 2026 Initiative Launch
 
 Team,
 
@@ -20,15 +20,15 @@ IT - assess current systems for personalization capabilities.
 
 We'll have a kickoff meeting next Tuesday at 10 AM.
 
-Best,  
-Sarah Johnson  
-Director of Guest Experience  
+Best,
+Sarah Johnson
+Director of Guest Experience
 
 ---
 
-**From:** Operations Manager  
-**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department  
-**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch  
+**From:** Operations Manager
+**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department
+**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch
 
 Sarah,
 
@@ -41,14 +41,14 @@ We should prioritize:
 
 Let me know if you need additional operational data.
 
-Mike Chen  
-Operations Manager  
+Mike Chen
+Operations Manager
 
 ---
 
-**From:** Marketing Director  
-**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department  
-**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch  
+**From:** Marketing Director
+**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department
+**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch
 
 Sarah,
 
@@ -61,14 +61,14 @@ Proposed marketing support:
 
 Budget impact: $50K for campaign development.
 
-Lisa Park  
-Marketing Director  
+Lisa Park
+Marketing Director
 
 ---
 
-**From:** IT Manager  
-**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department  
-**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch  
+**From:** IT Manager
+**To:** Director of Guest Experience, Operations Team, Marketing Team, IT Department
+**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch
 
 Sarah,
 
@@ -81,14 +81,14 @@ Technical requirements:
 
 Resource allocation needed: 2 developers, 1 UX designer.
 
-David Kim  
-IT Manager  
+David Kim
+IT Manager
 
 ---
 
-**From:** Director of Guest Experience  
-**To:** Operations Team, Marketing Team, IT Department  
-**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch  
+**From:** Director of Guest Experience
+**To:** Operations Team, Marketing Team, IT Department
+**Subject:** Re: Guest Experience Optimization - Q1 2026 Initiative Launch
 
 Thanks everyone for the quick responses. This gives us a solid foundation.
 
@@ -99,5 +99,5 @@ Next steps:
 
 Let's make this our best guest experience initiative yet.
 
-Best,  
+Best,
 Sarah

@@ -98,5 +98,5 @@ Applies to all owned and leased farmland, covering crop production, livestock op
 - **Supplier engagement**: Work with input suppliers to support regenerative goals
 - **Community outreach**: Share regenerative farming benefits with local communities
 
-*Policy effective date: October 1, 2025*  
+*Policy effective date: October 1, 2025*
 *Next review date: October 1, 2026*

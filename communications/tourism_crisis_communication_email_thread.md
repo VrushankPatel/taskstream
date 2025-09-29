@@ -1,8 +1,8 @@
 ## Email Thread: Tourism Industry Crisis Response
 
-**From:** Director of Communications  
-**To:** CEO, CMO, Operations Director  
-**Subject:** Natural Disaster Impact on Tourist Destinations - Communication Plan  
+**From:** Director of Communications
+**To:** CEO, CMO, Operations Director
+**Subject:** Natural Disaster Impact on Tourist Destinations - Communication Plan
 
 Team,
 
@@ -18,15 +18,15 @@ I've drafted an initial communication plan focusing on transparency and guest su
 
 Please review the attached plan and let's discuss in the emergency meeting at 10 AM.
 
-Best,  
-Elena Rodriguez  
-Director of Communications  
+Best,
+Elena Rodriguez
+Director of Communications
 
 ---
 
-**From:** CMO  
-**To:** Director of Communications, CEO, Operations Director  
-**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan  
+**From:** CMO
+**To:** Director of Communications, CEO, Operations Director
+**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan
 
 Elena,
 
@@ -34,25 +34,25 @@ The plan looks solid. Let's emphasize our commitment to guest safety above all e
 
 Also, we should prepare social media content showing our response efforts - photos of staff assisting guests, etc.
 
-Marketing  
+Marketing
 
 ---
 
-**From:** Operations Director  
-**To:** Director of Communications, CEO, CMO  
-**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan  
+**From:** Operations Director
+**To:** Director of Communications, CEO, CMO
+**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan
 
 Good plan. From operations side, we need to be realistic about reopening timelines. Current estimate is 3-4 weeks for full restoration.
 
 Let's coordinate with local authorities for joint press releases to show we're working together on recovery.
 
-Operations  
+Operations
 
 ---
 
-**From:** CEO  
-**To:** All  
-**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan  
+**From:** CEO
+**To:** All
+**Subject:** Re: Natural Disaster Impact on Tourist Destinations - Communication Plan
 
 Team,
 
@@ -60,6 +60,6 @@ Thank you for the quick response. Let's execute this plan immediately. Guest saf
 
 Elena - please issue the initial statement within the hour. We'll follow up with detailed updates every 12 hours.
 
-Stay coordinated.  
+Stay coordinated.
 
 CEO

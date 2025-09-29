@@ -3,8 +3,16 @@
   "context": "Large hospital system, 5,000 employees, implementing AI for diagnostic imaging",
   "stakeholders": {
     "requester": "Chief Medical Officer",
-    "approvers": ["CEO", "CFO", "Chief Information Officer"],
-    "influencers": ["Radiology Department Head", "IT Security Team", "Patient Privacy Officer"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Information Officer"
+    ],
+    "influencers": [
+      "Radiology Department Head",
+      "IT Security Team",
+      "Patient Privacy Officer"
+    ]
   },
   "request": {
     "amount": "$2,500,000",
@@ -16,31 +24,59 @@
     {
       "stage": "clinical_evaluation",
       "duration": "6 weeks",
-      "activities": ["Clinical trials review", "Peer validation studies", "Regulatory compliance assessment"],
+      "activities": [
+        "Clinical trials review",
+        "Peer validation studies",
+        "Regulatory compliance assessment"
+      ],
       "outcome": "Strong clinical evidence supporting adoption"
     },
     {
       "stage": "technical_assessment",
       "duration": "4 weeks",
-      "activities": ["System integration testing", "Data security audit", "Vendor evaluation"],
+      "activities": [
+        "System integration testing",
+        "Data security audit",
+        "Vendor evaluation"
+      ],
       "outcome": "Technical feasibility confirmed with minor integration challenges"
     },
     {
       "stage": "financial_analysis",
       "duration": "3 weeks",
-      "activities": ["ROI modeling", "Cost-benefit analysis", "Funding source identification"],
+      "activities": [
+        "ROI modeling",
+        "Cost-benefit analysis",
+        "Funding source identification"
+      ],
       "outcome": "5-year ROI of 280% projected"
     },
     {
       "stage": "implementation_planning",
       "duration": "2 weeks",
-      "activities": ["Staff training plan", "Change management strategy", "Go-live timeline"],
+      "activities": [
+        "Staff training plan",
+        "Change management strategy",
+        "Go-live timeline"
+      ],
       "outcome": "Approved with phased implementation over 12 months"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["30% reduction in diagnostic errors", "20% improvement in patient throughput", "Enhanced physician satisfaction"],
-    "risk_factors": ["Staff resistance to technology", "Data privacy concerns", "Integration with legacy systems"],
-    "mitigation_strategies": ["Comprehensive training program", "Enhanced data security protocols", "Phased rollout approach"]
+    "expected_outcomes": [
+      "30% reduction in diagnostic errors",
+      "20% improvement in patient throughput",
+      "Enhanced physician satisfaction"
+    ],
+    "risk_factors": [
+      "Staff resistance to technology",
+      "Data privacy concerns",
+      "Integration with legacy systems"
+    ],
+    "mitigation_strategies": [
+      "Comprehensive training program",
+      "Enhanced data security protocols",
+      "Phased rollout approach"
+    ]
   }
 }

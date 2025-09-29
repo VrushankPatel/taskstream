@@ -1,40 +1,63 @@
 workflow:
-  id: "education_course_enrollment_001"
-  title: "Course Enrollment and Registration Process"
-  department: "Student Services"
-  complexity: "medium"
-  participants: ["Students", "Academic Advisors", "Registration Staff", "Department Chairs"]
-  trigger: "Student submits course registration request or enrollment period opens"
+  id: education_course_enrollment_001
+  title: Course Enrollment and Registration Process
+  department: Student Services
+  complexity: medium
+  participants:
+  - Students
+  - Academic Advisors
+  - Registration Staff
+  - Department Chairs
+  trigger: Student submits course registration request or enrollment period opens
   steps:
-    - step: 1
-      actor: "Student"
-      action: "Select courses and submit registration request"
-      tools: ["Student Portal", "Course Catalog System"]
-      duration: "15 minutes"
-      outputs: ["Course selection form"]
-    - step: 2
-      actor: "Registration Staff"
-      action: "Verify prerequisites and course availability"
-      tools: ["Student Information System", "Course Enrollment Database"]
-      duration: "5 minutes"
-      outputs: ["Eligibility verification"]
-    - step: 3
-      actor: "Academic Advisor"
-      action: "Review course load and academic standing"
-      decision_points: ["Prerequisite completion", "Credit hour limits"]
-      duration: "10 minutes"
-      outputs: ["Academic approval"]
-    - step: 4
-      actor: "Department Chair"
-      action: "Approve restricted or oversubscribed courses"
-      tools: ["Department Approval System"]
-      duration: "5 minutes"
-      outputs: ["Department approval"]
-    - step: 5
-      actor: "Registration Staff"
-      action: "Process enrollment and update student records"
-      tools: ["Student Information System", "Billing System"]
-      duration: "3 minutes"
-      outputs: ["Enrollment confirmation", "Updated schedule"]
-  success_criteria: "Student successfully enrolled in all requested courses within registration deadline"
-  failure_modes: ["Course capacity exceeded", "Prerequisite not met", "Payment or hold issues"]
+  - step: 1
+    actor: Student
+    action: Select courses and submit registration request
+    tools:
+    - Student Portal
+    - Course Catalog System
+    duration: 15 minutes
+    outputs:
+    - Course selection form
+  - step: 2
+    actor: Registration Staff
+    action: Verify prerequisites and course availability
+    tools:
+    - Student Information System
+    - Course Enrollment Database
+    duration: 5 minutes
+    outputs:
+    - Eligibility verification
+  - step: 3
+    actor: Academic Advisor
+    action: Review course load and academic standing
+    decision_points:
+    - Prerequisite completion
+    - Credit hour limits
+    duration: 10 minutes
+    outputs:
+    - Academic approval
+  - step: 4
+    actor: Department Chair
+    action: Approve restricted or oversubscribed courses
+    tools:
+    - Department Approval System
+    duration: 5 minutes
+    outputs:
+    - Department approval
+  - step: 5
+    actor: Registration Staff
+    action: Process enrollment and update student records
+    tools:
+    - Student Information System
+    - Billing System
+    duration: 3 minutes
+    outputs:
+    - Enrollment confirmation
+    - Updated schedule
+  success_criteria: Student successfully enrolled in all requested courses within
+    registration deadline
+  failure_modes:
+  - Course capacity exceeded
+  - Prerequisite not met
+  - Payment or hold issues

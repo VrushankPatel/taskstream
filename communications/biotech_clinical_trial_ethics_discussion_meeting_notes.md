@@ -1,15 +1,15 @@
 ## Meeting Notes: Biotechnology Clinical Trial Ethics Discussion
 
-**Date:** September 28, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Conference Room A  
-**Attendees:**  
-- Dr. Elena Vasquez, Chief Medical Officer  
-- Dr. James Park, Lead Clinical Investigator  
-- Sarah Mitchell, Clinical Operations Director  
-- Dr. Robert Chen, Ethics Committee Chair  
-- Maria Gonzalez, Patient Advocacy Liaison  
-- Jennifer Walsh, Legal Counsel  
+**Date:** September 28, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Conference Room A
+**Attendees:**
+- Dr. Elena Vasquez, Chief Medical Officer
+- Dr. James Park, Lead Clinical Investigator
+- Sarah Mitchell, Clinical Operations Director
+- Dr. Robert Chen, Ethics Committee Chair
+- Maria Gonzalez, Patient Advocacy Liaison
+- Jennifer Walsh, Legal Counsel
 
 **Meeting Objective:** Review ethical considerations for Phase 1 gene therapy trial in pediatric patients with rare genetic disorder
 

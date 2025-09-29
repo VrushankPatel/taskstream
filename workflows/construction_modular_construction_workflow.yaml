@@ -1,51 +1,92 @@
 workflow:
-  id: "workflow_construction_modular_construction"
-  title: "Modular Construction Implementation"
-  department: "Construction Innovation"
-  complexity: "complex"
-  participants: ["Modular Construction Manager", "Design Engineer", "Factory Operations Lead", "Site Installation Manager", "Quality Assurance Specialist"]
-  trigger: "Client demand for faster, more predictable construction delivery with reduced site disruption"
+  id: workflow_construction_modular_construction
+  title: Modular Construction Implementation
+  department: Construction Innovation
+  complexity: complex
+  participants:
+  - Modular Construction Manager
+  - Design Engineer
+  - Factory Operations Lead
+  - Site Installation Manager
+  - Quality Assurance Specialist
+  trigger: Client demand for faster, more predictable construction delivery with reduced
+    site disruption
   steps:
-    - step: 1
-      actor: "Modular Construction Manager"
-      action: "Evaluate project suitability for modular construction and conduct feasibility analysis"
-      tools: ["Modular feasibility assessment tools", "Cost-benefit analysis software", "Site constraint mapping"]
-      duration: "3 weeks"
-      outputs: ["Modular suitability assessment", "Project feasibility report"]
-    - step: 2
-      actor: "Design Engineer"
-      action: "Redesign building components for modular manufacturing and assembly"
-      tools: ["BIM software for modular design", "Manufacturing constraint databases", "Structural analysis tools"]
-      duration: "6 weeks"
-      outputs: ["Modular building design", "Manufacturing specifications"]
-    - step: 3
-      actor: "Factory Operations Lead"
-      action: "Set up or coordinate with modular manufacturing facility"
-      tools: ["Production planning software", "Quality control systems", "Supply chain management tools"]
-      duration: "8 weeks"
-      outputs: ["Manufacturing setup plan", "Production capacity assessment"]
-    - step: 4
-      actor: "Modular Construction Manager"
-      action: "Coordinate transportation and logistics for modular components"
-      tools: ["Transportation planning software", "Route optimization tools", "Permitting systems"]
-      duration: "2 weeks"
-      outputs: ["Transportation logistics plan", "Delivery schedules"]
-    - step: 5
-      actor: "Site Installation Manager"
-      action: "Plan and execute on-site assembly and integration"
-      tools: ["Installation sequencing software", "Cranage planning tools", "Safety protocols"]
-      duration: "4 weeks"
-      outputs: ["Site installation plan", "Assembly procedures"]
-    - step: 6
-      actor: "Quality Assurance Specialist"
-      action: "Conduct quality inspections and final commissioning"
-      tools: ["Quality inspection checklists", "Testing equipment", "Commissioning protocols"]
-      duration: "2 weeks"
-      outputs: ["Quality assurance reports", "Final commissioning documentation"]
-  success_criteria: "50% reduction in construction timeline with 95% quality standards maintained"
-  failure_modes: ["Transportation damage to modules", "Design-manufacturing coordination issues", "Site access limitations"]
+  - step: 1
+    actor: Modular Construction Manager
+    action: Evaluate project suitability for modular construction and conduct feasibility
+      analysis
+    tools:
+    - Modular feasibility assessment tools
+    - Cost-benefit analysis software
+    - Site constraint mapping
+    duration: 3 weeks
+    outputs:
+    - Modular suitability assessment
+    - Project feasibility report
+  - step: 2
+    actor: Design Engineer
+    action: Redesign building components for modular manufacturing and assembly
+    tools:
+    - BIM software for modular design
+    - Manufacturing constraint databases
+    - Structural analysis tools
+    duration: 6 weeks
+    outputs:
+    - Modular building design
+    - Manufacturing specifications
+  - step: 3
+    actor: Factory Operations Lead
+    action: Set up or coordinate with modular manufacturing facility
+    tools:
+    - Production planning software
+    - Quality control systems
+    - Supply chain management tools
+    duration: 8 weeks
+    outputs:
+    - Manufacturing setup plan
+    - Production capacity assessment
+  - step: 4
+    actor: Modular Construction Manager
+    action: Coordinate transportation and logistics for modular components
+    tools:
+    - Transportation planning software
+    - Route optimization tools
+    - Permitting systems
+    duration: 2 weeks
+    outputs:
+    - Transportation logistics plan
+    - Delivery schedules
+  - step: 5
+    actor: Site Installation Manager
+    action: Plan and execute on-site assembly and integration
+    tools:
+    - Installation sequencing software
+    - Cranage planning tools
+    - Safety protocols
+    duration: 4 weeks
+    outputs:
+    - Site installation plan
+    - Assembly procedures
+  - step: 6
+    actor: Quality Assurance Specialist
+    action: Conduct quality inspections and final commissioning
+    tools:
+    - Quality inspection checklists
+    - Testing equipment
+    - Commissioning protocols
+    duration: 2 weeks
+    outputs:
+    - Quality assurance reports
+    - Final commissioning documentation
+  success_criteria: 50% reduction in construction timeline with 95% quality standards
+    maintained
+  failure_modes:
+  - Transportation damage to modules
+  - Design-manufacturing coordination issues
+  - Site access limitations
   metrics:
-    - "Schedule reduction: 50% faster than traditional construction"
-    - "Cost variance: Within 5% of estimated modular costs"
-    - "Quality defects: Less than 2% defect rate in modular components"
-    - "Safety incidents: Zero recordable incidents during modular operations"
+  - 'Schedule reduction: 50% faster than traditional construction'
+  - 'Cost variance: Within 5% of estimated modular costs'
+  - 'Quality defects: Less than 2% defect rate in modular components'
+  - 'Safety incidents: Zero recordable incidents during modular operations'

@@ -1,34 +1,56 @@
 workflow:
-  id: "workflow_healthcare_001"
-  title: "Patient Intake and Registration Process"
-  department: "Patient Services"
-  complexity: "medium"
-  participants: ["Front Desk Staff", "Medical Assistant", "Nurse", "Registration Clerk"]
-  trigger: "Patient arrives for appointment or admission"
+  id: workflow_healthcare_001
+  title: Patient Intake and Registration Process
+  department: Patient Services
+  complexity: medium
+  participants:
+  - Front Desk Staff
+  - Medical Assistant
+  - Nurse
+  - Registration Clerk
+  trigger: Patient arrives for appointment or admission
   steps:
-    - step: 1
-      actor: "Front Desk Staff"
-      action: "Verify appointment and collect basic information"
-      tools: ["Patient management system", "ID verification"]
-      duration: "10 minutes"
-      outputs: ["Patient check-in confirmation"]
-    - step: 2
-      actor: "Registration Clerk"
-      action: "Complete full registration including insurance verification"
-      tools: ["EHR system", "Insurance database"]
-      duration: "20-30 minutes"
-      outputs: ["Complete patient record", "Insurance approval"]
-    - step: 3
-      actor: "Medical Assistant"
-      action: "Take vital signs and medical history"
-      tools: ["Medical equipment", "EHR forms"]
-      duration: "15 minutes"
-      outputs: ["Vital signs record", "Medical history summary"]
-    - step: 4
-      actor: "Nurse"
-      action: "Review intake information and prepare for provider"
-      decision_points: ["Urgency of condition", "Special requirements"]
-      duration: "10 minutes"
-      outputs: ["Nursing assessment", "Provider handoff"]
-  success_criteria: "Patient fully registered and ready for care"
-  failure_modes: ["Insurance denial", "Incomplete information", "Long wait times"]
+  - step: 1
+    actor: Front Desk Staff
+    action: Verify appointment and collect basic information
+    tools:
+    - Patient management system
+    - ID verification
+    duration: 10 minutes
+    outputs:
+    - Patient check-in confirmation
+  - step: 2
+    actor: Registration Clerk
+    action: Complete full registration including insurance verification
+    tools:
+    - EHR system
+    - Insurance database
+    duration: 20-30 minutes
+    outputs:
+    - Complete patient record
+    - Insurance approval
+  - step: 3
+    actor: Medical Assistant
+    action: Take vital signs and medical history
+    tools:
+    - Medical equipment
+    - EHR forms
+    duration: 15 minutes
+    outputs:
+    - Vital signs record
+    - Medical history summary
+  - step: 4
+    actor: Nurse
+    action: Review intake information and prepare for provider
+    decision_points:
+    - Urgency of condition
+    - Special requirements
+    duration: 10 minutes
+    outputs:
+    - Nursing assessment
+    - Provider handoff
+  success_criteria: Patient fully registered and ready for care
+  failure_modes:
+  - Insurance denial
+  - Incomplete information
+  - Long wait times

@@ -3,8 +3,16 @@
   "context": "Leading Asian retail chain facing declining foot traffic and increasing e-commerce competition, considering major digital transformation investment",
   "stakeholders": {
     "requester": "Chief Digital Officer",
-    "approvers": ["CEO", "CFO", "Board of Directors"],
-    "influencers": ["Head of Operations", "Customer Experience Director", "IT Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Head of Operations",
+      "Customer Experience Director",
+      "IT Director"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,34 +24,60 @@
     {
       "stage": "initial_assessment",
       "duration": "2 weeks",
-      "activities": ["Market analysis", "Competitor benchmarking", "ROI modeling"],
+      "activities": [
+        "Market analysis",
+        "Competitor benchmarking",
+        "ROI modeling"
+      ],
       "outcome": "Proceed to detailed planning"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "4 weeks",
-      "activities": ["RFI/RFP process", "Vendor demonstrations", "Technical evaluation"],
+      "activities": [
+        "RFI/RFP process",
+        "Vendor demonstrations",
+        "Technical evaluation"
+      ],
       "outcome": "Shortlist of 3 vendors selected"
     },
     {
       "stage": "pilot_testing",
       "duration": "8 weeks",
-      "activities": ["Pilot store implementation", "User testing", "Performance monitoring"],
+      "activities": [
+        "Pilot store implementation",
+        "User testing",
+        "Performance monitoring"
+      ],
       "outcome": "Pilot successful with 40% engagement increase"
     },
     {
       "stage": "final_approval",
       "duration": "1 week",
-      "activities": ["Board presentation", "Final ROI review", "Risk assessment"],
+      "activities": [
+        "Board presentation",
+        "Final ROI review",
+        "Risk assessment"
+      ],
       "outcome": "Approved with phased implementation"
     }
   ],
   "business_impact": {
     "expected_outcome": "15% revenue increase, 25% customer retention improvement, digital market leadership",
     "projected_value": "$75,000,000 additional revenue over 3 years",
-    "risk_factors": ["Implementation complexity", "Cultural resistance", "Technology integration challenges"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Cultural resistance",
+      "Technology integration challenges"
+    ]
   },
-  "decision_criteria": ["ROI >300%", "Implementation timeline <12 months", "Customer adoption >60%", "Competitive advantage", "Scalability across 200+ stores"],
+  "decision_criteria": [
+    "ROI >300%",
+    "Implementation timeline <12 months",
+    "Customer adoption >60%",
+    "Competitive advantage",
+    "Scalability across 200+ stores"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early pilot testing crucial for Asian market adaptation, cultural training essential for digital adoption, phased rollout reduces business disruption"
 }

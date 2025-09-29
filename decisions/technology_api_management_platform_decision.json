@@ -3,8 +3,16 @@
   "context": "Mid-size SaaS company (500 employees) expanding API ecosystem to support partner integrations and microservices architecture",
   "stakeholders": {
     "requester": "VP of Engineering",
-    "approvers": ["CTO", "CFO", "CEO"],
-    "influencers": ["Product Managers", "Security Team", "DevOps Team"]
+    "approvers": [
+      "CTO",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Product Managers",
+      "Security Team",
+      "DevOps Team"
+    ]
   },
   "request": {
     "amount": "$180,000",
@@ -16,25 +24,41 @@
     {
       "stage": "requirements_gathering",
       "duration": "2 weeks",
-      "activities": ["API usage analysis", "Stakeholder interviews", "Competitive platform evaluation"],
+      "activities": [
+        "API usage analysis",
+        "Stakeholder interviews",
+        "Competitive platform evaluation"
+      ],
       "outcome": "Clear requirements defined for API gateway, developer portal, and analytics"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "3 weeks",
-      "activities": ["POC implementation", "Security assessment", "Cost-benefit analysis"],
+      "activities": [
+        "POC implementation",
+        "Security assessment",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Kong API Gateway selected over Apigee and AWS API Gateway"
     },
     {
       "stage": "implementation_planning",
       "duration": "2 weeks",
-      "activities": ["Migration planning", "Team training", "Timeline development"],
+      "activities": [
+        "Migration planning",
+        "Team training",
+        "Timeline development"
+      ],
       "outcome": "6-month implementation plan approved with phased rollout"
     }
   ],
   "business_impact": {
     "expected_benefits": "40% reduction in API development time, improved security posture, enhanced partner ecosystem",
     "projected_roi": "250% over 3 years",
-    "risk_factors": ["Migration complexity", "Team learning curve", "Integration challenges"]
+    "risk_factors": [
+      "Migration complexity",
+      "Team learning curve",
+      "Integration challenges"
+    ]
   }
 }

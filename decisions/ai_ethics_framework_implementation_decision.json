@@ -3,8 +3,16 @@
   "context": "Large financial services company, 100,000 employees, implementing comprehensive AI ethics framework following regulatory changes",
   "stakeholders": {
     "requester": "Chief Risk Officer",
-    "approvers": ["CEO", "Board Risk Committee", "Chief Compliance Officer"],
-    "influencers": ["Chief Data Officer", "Head of AI", "Legal Counsel"]
+    "approvers": [
+      "CEO",
+      "Board Risk Committee",
+      "Chief Compliance Officer"
+    ],
+    "influencers": [
+      "Chief Data Officer",
+      "Head of AI",
+      "Legal Counsel"
+    ]
   },
   "request": {
     "amount": "$25,000,000",
@@ -16,25 +24,45 @@
     {
       "stage": "framework_development",
       "duration": "12 weeks",
-      "activities": ["Stakeholder interviews", "Industry benchmark analysis", "Framework design"],
+      "activities": [
+        "Stakeholder interviews",
+        "Industry benchmark analysis",
+        "Framework design"
+      ],
       "outcome": "Comprehensive framework addressing bias, transparency, and accountability"
     },
     {
       "stage": "pilot_testing",
       "duration": "8 weeks",
-      "activities": ["Pilot implementation", "Ethics review board formation", "Training program development"],
+      "activities": [
+        "Pilot implementation",
+        "Ethics review board formation",
+        "Training program development"
+      ],
       "outcome": "Successful pilot with measurable improvements in AI governance"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "16 weeks",
-      "activities": ["Change management", "System integration", "Monitoring framework establishment"],
+      "activities": [
+        "Change management",
+        "System integration",
+        "Monitoring framework establishment"
+      ],
       "outcome": "Approved for full enterprise implementation"
     }
   ],
   "business_impact": {
-    "expected_outcomes": ["Reduced AI bias incidents", "Enhanced regulatory compliance", "Improved stakeholder trust"],
+    "expected_outcomes": [
+      "Reduced AI bias incidents",
+      "Enhanced regulatory compliance",
+      "Improved stakeholder trust"
+    ],
     "projected_revenue": "Cost savings of $50,000,000 through risk mitigation",
-    "risk_factors": ["Implementation complexity", "Resistance to change", "Evolving regulatory landscape"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Resistance to change",
+      "Evolving regulatory landscape"
+    ]
   }
 }

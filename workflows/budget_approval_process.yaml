@@ -1,50 +1,74 @@
 workflow:
-  id: "workflow_004"
-  title: "Budget Approval Process"
-  department: "Finance"
-  complexity: "medium"
-  participants: ["Department Manager", "Finance Manager", "CFO", "Executive Committee"]
-  trigger: "Budget request submitted"
+  id: workflow_004
+  title: Budget Approval Process
+  department: Finance
+  complexity: medium
+  participants:
+  - Department Manager
+  - Finance Manager
+  - CFO
+  - Executive Committee
+  trigger: Budget request submitted
   steps:
-    - step: 1
-      actor: "Department Manager"
-      action: "Prepare budget request with justification and ROI analysis"
-      tools: ["Budget template", "Financial modeling software"]
-      duration: "1-2 weeks"
-      outputs: ["Budget proposal document", "Cost-benefit analysis"]
-    - step: 2
-      actor: "Finance Manager"
-      action: "Review budget request for accuracy and alignment"
-      tools: ["Financial systems", "Budget approval workflow"]
-      duration: "3-5 days"
-      outputs: ["Finance review comments", "Revised budget if needed"]
-    - step: 3
-      actor: "Department Manager"
-      action: "Address finance feedback and resubmit"
-      tools: ["Budget template"]
-      duration: "2-3 days"
-      outputs: ["Updated budget proposal"]
-    - step: 4
-      actor: "CFO"
-      action: "Review and approve budgets under $100K"
-      tools: ["Approval dashboard"]
-      duration: "1-2 days"
-      outputs: ["CFO approval"]
-    - step: 5
-      actor: "Executive Committee"
-      action: "Review budgets over $100K"
-      tools: ["Executive meeting agenda"]
-      duration: "1 week"
-      outputs: ["Executive approval or denial"]
-    - step: 6
-      actor: "Finance Manager"
-      action: "Allocate approved budget to department"
-      tools: ["ERP system", "Budget tracking software"]
-      duration: "1-2 days"
-      outputs: ["Budget allocation confirmed"]
-  success_criteria: "Budget approved and allocated within timeline"
-  failure_modes: ["Insufficient justification", "Budget constraints", "Timing delays"]
+  - step: 1
+    actor: Department Manager
+    action: Prepare budget request with justification and ROI analysis
+    tools:
+    - Budget template
+    - Financial modeling software
+    duration: 1-2 weeks
+    outputs:
+    - Budget proposal document
+    - Cost-benefit analysis
+  - step: 2
+    actor: Finance Manager
+    action: Review budget request for accuracy and alignment
+    tools:
+    - Financial systems
+    - Budget approval workflow
+    duration: 3-5 days
+    outputs:
+    - Finance review comments
+    - Revised budget if needed
+  - step: 3
+    actor: Department Manager
+    action: Address finance feedback and resubmit
+    tools:
+    - Budget template
+    duration: 2-3 days
+    outputs:
+    - Updated budget proposal
+  - step: 4
+    actor: CFO
+    action: Review and approve budgets under $100K
+    tools:
+    - Approval dashboard
+    duration: 1-2 days
+    outputs:
+    - CFO approval
+  - step: 5
+    actor: Executive Committee
+    action: Review budgets over $100K
+    tools:
+    - Executive meeting agenda
+    duration: 1 week
+    outputs:
+    - Executive approval or denial
+  - step: 6
+    actor: Finance Manager
+    action: Allocate approved budget to department
+    tools:
+    - ERP system
+    - Budget tracking software
+    duration: 1-2 days
+    outputs:
+    - Budget allocation confirmed
+  success_criteria: Budget approved and allocated within timeline
+  failure_modes:
+  - Insufficient justification
+  - Budget constraints
+  - Timing delays
   metrics:
-    - "Approval time: 10 days average"
-    - "Approval rate: 85%"
-    - "Budget utilization: 95%"
+  - 'Approval time: 10 days average'
+  - 'Approval rate: 85%'
+  - 'Budget utilization: 95%'

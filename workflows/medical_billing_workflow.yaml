@@ -1,49 +1,74 @@
 workflow:
-  id: "workflow_medical_billing"
-  title: "Medical Billing and Claims Processing"
-  department: "Revenue Cycle Management"
-  complexity: "high"
-  participants: ["Billing Specialist", "Coding Team", "Insurance Coordinator", "Patient Services Rep", "Compliance Officer"]
-  trigger: "Patient visit or procedure completion"
+  id: workflow_medical_billing
+  title: Medical Billing and Claims Processing
+  department: Revenue Cycle Management
+  complexity: high
+  participants:
+  - Billing Specialist
+  - Coding Team
+  - Insurance Coordinator
+  - Patient Services Rep
+  - Compliance Officer
+  trigger: Patient visit or procedure completion
   steps:
-    - step: 1
-      actor: "Clinical Staff"
-      action: "Document services provided with ICD-10 and CPT codes"
-      tools: ["EHR System", "Coding Software"]
-      duration: "Immediate post-visit"
-      outputs: ["Coded encounter"]
-    - step: 2
-      actor: "Billing Specialist"
-      action: "Generate claim and verify patient insurance information"
-      decision_points: ["Insurance coverage", "Patient responsibility"]
-      duration: "1-2 business days"
-      outputs: ["Insurance claim"]
-    - step: 3
-      actor: "Insurance Coordinator"
-      action: "Submit claim to payer and track submission status"
-      tools: ["Claims Clearinghouse", "Payer Portals"]
-      duration: "1 business day"
-      outputs: ["Submission confirmation"]
-    - step: 4
-      actor: "Billing Team"
-      action: "Monitor claim status and follow up on denials or delays"
-      decision_points: ["Appeal needed", "Patient billing required"]
-      duration: "Ongoing until resolution"
-      outputs: ["Payment received", "Appeal filed"]
-    - step: 5
-      actor: "Patient Services Rep"
-      action: "Contact patient for outstanding balances and payment arrangements"
-      tools: ["Patient Portal", "Payment Processing System"]
-      duration: "As needed"
-      outputs: ["Payment plan", "Collection notice"]
-  success_criteria: "90% claims paid within 30 days, patient satisfaction >95%"
-  failure_modes: ["Coding errors leading to denials", "Insurance verification failures", "Patient communication breakdowns"]
+  - step: 1
+    actor: Clinical Staff
+    action: Document services provided with ICD-10 and CPT codes
+    tools:
+    - EHR System
+    - Coding Software
+    duration: Immediate post-visit
+    outputs:
+    - Coded encounter
+  - step: 2
+    actor: Billing Specialist
+    action: Generate claim and verify patient insurance information
+    decision_points:
+    - Insurance coverage
+    - Patient responsibility
+    duration: 1-2 business days
+    outputs:
+    - Insurance claim
+  - step: 3
+    actor: Insurance Coordinator
+    action: Submit claim to payer and track submission status
+    tools:
+    - Claims Clearinghouse
+    - Payer Portals
+    duration: 1 business day
+    outputs:
+    - Submission confirmation
+  - step: 4
+    actor: Billing Team
+    action: Monitor claim status and follow up on denials or delays
+    decision_points:
+    - Appeal needed
+    - Patient billing required
+    duration: Ongoing until resolution
+    outputs:
+    - Payment received
+    - Appeal filed
+  - step: 5
+    actor: Patient Services Rep
+    action: Contact patient for outstanding balances and payment arrangements
+    tools:
+    - Patient Portal
+    - Payment Processing System
+    duration: As needed
+    outputs:
+    - Payment plan
+    - Collection notice
+  success_criteria: 90% claims paid within 30 days, patient satisfaction >95%
+  failure_modes:
+  - Coding errors leading to denials
+  - Insurance verification failures
+  - Patient communication breakdowns
   metrics:
-    - "Claims payment rate within 30 days: Target 90%"
-    - "Denial rate: Target <5%"
-    - "Average reimbursement time: Target <21 days"
-    - "Coding accuracy rate: Target >98%"
-    - "Patient satisfaction with billing: Target >95%"
-    - "Collection rate: Target >95%"
-    - "Insurance verification success: Target >99%"
-    - "Patient payment completion: Target >85%"
+  - 'Claims payment rate within 30 days: Target 90%'
+  - 'Denial rate: Target <5%'
+  - 'Average reimbursement time: Target <21 days'
+  - 'Coding accuracy rate: Target >98%'
+  - 'Patient satisfaction with billing: Target >95%'
+  - 'Collection rate: Target >95%'
+  - 'Insurance verification success: Target >99%'
+  - 'Patient payment completion: Target >85%'

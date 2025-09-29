@@ -104,7 +104,7 @@ Distributed energy program expanded to 45,000 installations in Q3 2025, achievin
 ## Benchmarking & Trends
 
 ### Industry Comparison
-- **DER Adoption Rate**: Top quartile vs peers  
+- **DER Adoption Rate**: Top quartile vs peers
 - **Customer Satisfaction**: Above industry average by 18%
 - **Technology Integration**: Leading in smart grid connectivity
 - **Cost Efficiency**: 15% below industry average

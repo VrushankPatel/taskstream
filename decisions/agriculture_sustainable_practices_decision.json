@@ -3,8 +3,15 @@
   "context": "Agricultural cooperative deciding on large-scale adoption of sustainable farming practices",
   "stakeholders": {
     "requester": "Sustainability Manager",
-    "approvers": ["Board of Directors", "CEO"],
-    "influencers": ["Farm Managers", "Environmental Agencies", "Customer Representatives"]
+    "approvers": [
+      "Board of Directors",
+      "CEO"
+    ],
+    "influencers": [
+      "Farm Managers",
+      "Environmental Agencies",
+      "Customer Representatives"
+    ]
   },
   "request": {
     "amount": "$3 million",
@@ -16,43 +23,79 @@
     {
       "stage": "impact_assessment",
       "duration": "3 months",
-      "activities": ["Environmental impact study", "Economic analysis", "Farmer surveys"],
+      "activities": [
+        "Environmental impact study",
+        "Economic analysis",
+        "Farmer surveys"
+      ],
       "outcome": "Clear benefits identified for soil health and water conservation"
     },
     {
       "stage": "pilot_program",
       "duration": "6 months",
-      "activities": ["Small-scale implementation", "Performance monitoring", "Farmer training"],
+      "activities": [
+        "Small-scale implementation",
+        "Performance monitoring",
+        "Farmer training"
+      ],
       "outcome": "Successful pilot showing 25% water savings"
     },
     {
       "stage": "scaling_plan",
       "duration": "2 months",
-      "activities": ["Resource planning", "Funding strategy", "Timeline development"],
+      "activities": [
+        "Resource planning",
+        "Funding strategy",
+        "Timeline development"
+      ],
       "outcome": "Feasible scaling plan developed"
     }
   ],
   "business_impact": {
     "expected_outcome": "30% reduction in water usage, improved soil health, premium pricing for sustainable products",
     "projected_value": "$2 million annual revenue increase from premium products",
-    "risk_factors": ["Initial investment costs", "Learning curve for farmers", "Weather variability"]
+    "risk_factors": [
+      "Initial investment costs",
+      "Learning curve for farmers",
+      "Weather variability"
+    ]
   },
-   "decision_criteria": ["Environmental benefit", "Economic viability", "Farmer adoption", "Market demand", "Regulatory compliance", "Scalability"],
-   "alternatives_considered": [
-     {
-       "option": "Minimal changes - continue current practices",
-       "pros": ["Low cost", "No disruption"],
-       "cons": ["Miss market opportunities", "Regulatory risk", "Long-term sustainability concerns"],
-       "evaluation": "Rejected - doesn't meet strategic goals"
-     },
-     {
-       "option": "Partial adoption - implement in high-value crops only",
-       "pros": ["Lower risk", "Targeted investment"],
-       "cons": ["Limited impact", "Complex to manage dual systems"],
-       "evaluation": "Considered but rejected for full commitment needed"
-     }
-   ],
-   "outcome": "Approved",
-   "implementation_timeline": "24 months with phased rollout",
-   "lessons_learned": "Pilot programs are essential for demonstrating value and building farmer confidence. Early stakeholder engagement prevents resistance. Integrated support services improve adoption rates."
+  "decision_criteria": [
+    "Environmental benefit",
+    "Economic viability",
+    "Farmer adoption",
+    "Market demand",
+    "Regulatory compliance",
+    "Scalability"
+  ],
+  "alternatives_considered": [
+    {
+      "option": "Minimal changes - continue current practices",
+      "pros": [
+        "Low cost",
+        "No disruption"
+      ],
+      "cons": [
+        "Miss market opportunities",
+        "Regulatory risk",
+        "Long-term sustainability concerns"
+      ],
+      "evaluation": "Rejected - doesn't meet strategic goals"
+    },
+    {
+      "option": "Partial adoption - implement in high-value crops only",
+      "pros": [
+        "Lower risk",
+        "Targeted investment"
+      ],
+      "cons": [
+        "Limited impact",
+        "Complex to manage dual systems"
+      ],
+      "evaluation": "Considered but rejected for full commitment needed"
+    }
+  ],
+  "outcome": "Approved",
+  "implementation_timeline": "24 months with phased rollout",
+  "lessons_learned": "Pilot programs are essential for demonstrating value and building farmer confidence. Early stakeholder engagement prevents resistance. Integrated support services improve adoption rates."
 }

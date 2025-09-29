@@ -3,8 +3,17 @@
   "context": "Global manufacturing company evaluating establishment of comprehensive supplier diversity program to meet regulatory requirements and improve market access",
   "stakeholders": {
     "requester": "Chief Procurement Officer",
-    "approvers": ["CEO", "Chief Diversity Officer", "Board Diversity Committee"],
-    "influencers": ["Legal Department", "Supplier Relationship Managers", "Diversity Advocacy Groups", "Government Regulators"]
+    "approvers": [
+      "CEO",
+      "Chief Diversity Officer",
+      "Board Diversity Committee"
+    ],
+    "influencers": [
+      "Legal Department",
+      "Supplier Relationship Managers",
+      "Diversity Advocacy Groups",
+      "Government Regulators"
+    ]
   },
   "request": {
     "amount": "$500,000",
@@ -16,31 +25,52 @@
     {
       "stage": "program_design",
       "duration": "8 weeks",
-      "activities": ["Diversity requirement analysis", "Certification standard development", "Program structure design"],
+      "activities": [
+        "Diversity requirement analysis",
+        "Certification standard development",
+        "Program structure design"
+      ],
       "outcome": "Comprehensive program framework established with clear certification criteria and support mechanisms"
     },
     {
       "stage": "stakeholder_engagement",
       "duration": "6 weeks",
-      "activities": ["Supplier outreach campaigns", "Internal stakeholder alignment", "Advocacy group partnerships"],
+      "activities": [
+        "Supplier outreach campaigns",
+        "Internal stakeholder alignment",
+        "Advocacy group partnerships"
+      ],
       "outcome": "Strong stakeholder support secured with supplier participation commitments"
     },
     {
       "stage": "legal_and_compliance_review",
       "duration": "4 weeks",
-      "activities": ["Regulatory requirement assessment", "Legal framework development", "Risk mitigation strategy"],
+      "activities": [
+        "Regulatory requirement assessment",
+        "Legal framework development",
+        "Risk mitigation strategy"
+      ],
       "outcome": "Compliance framework established with clear legal protections and reporting requirements"
     },
     {
       "stage": "financial_impact_assessment",
       "duration": "6 weeks",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Budget allocation planning"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Budget allocation planning"
+      ],
       "outcome": "Positive business case with 3-year payback through improved market access and supplier performance"
     }
   ],
   "business_impact": {
     "expected_diverse_supplier_spend": "$50 million annually",
     "projected_market_expansion": "15% increase",
-    "risk_factors": ["Supplier pool limitations", "Internal resistance to diversity requirements", "Certification process complexity", "Regulatory changes"]
+    "risk_factors": [
+      "Supplier pool limitations",
+      "Internal resistance to diversity requirements",
+      "Certification process complexity",
+      "Regulatory changes"
+    ]
   }
 }

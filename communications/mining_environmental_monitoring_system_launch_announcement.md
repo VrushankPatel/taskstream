@@ -1,10 +1,10 @@
 ## Email Thread: Mining Environmental Monitoring System Launch Announcement
 
-**From:** Dr. Robert Kim, Chief Environmental Officer  
-**To:** All Mining Operations Personnel, Environmental Compliance Team, Executive Leadership  
-**Subject:** Launch of Advanced Environmental Monitoring System  
+**From:** Dr. Robert Kim, Chief Environmental Officer
+**To:** All Mining Operations Personnel, Environmental Compliance Team, Executive Leadership
+**Subject:** Launch of Advanced Environmental Monitoring System
 
-**Date:** November 5, 2025  
+**Date:** November 5, 2025
 
 Dear Team,
 
@@ -32,17 +32,17 @@ The project team, led by Sarah Martinez from Environmental Compliance, has worke
 
 This system will enable us to proactively manage our environmental impact while maintaining operational excellence. We look forward to the positive outcomes this technology will deliver for our operations and communities.
 
-Best regards,  
-Dr. Robert Kim  
-Chief Environmental Officer  
+Best regards,
+Dr. Robert Kim
+Chief Environmental Officer
 
 ---
 
-**From:** Sarah Martinez, Environmental Compliance Manager  
-**To:** Dr. Robert Kim, All Mining Operations Personnel  
-**Subject:** Re: Launch of Advanced Environmental Monitoring System  
+**From:** Sarah Martinez, Environmental Compliance Manager
+**To:** Dr. Robert Kim, All Mining Operations Personnel
+**Subject:** Re: Launch of Advanced Environmental Monitoring System
 
-**Date:** November 5, 2025  
+**Date:** November 5, 2025
 
 Thank you, Robert, for the comprehensive announcement.
 
@@ -58,33 +58,33 @@ To support successful adoption, please note the following operational guidelines
 
 We have established a support hotline for any technical issues during the initial rollout period.
 
-Sarah Martinez  
-Environmental Compliance Manager  
+Sarah Martinez
+Environmental Compliance Manager
 
 ---
 
-**From:** Michael Torres, Northern Operations Manager  
-**To:** Sarah Martinez, Dr. Robert Kim  
-**Subject:** Re: Launch of Advanced Environmental Monitoring System  
+**From:** Michael Torres, Northern Operations Manager
+**To:** Sarah Martinez, Dr. Robert Kim
+**Subject:** Re: Launch of Advanced Environmental Monitoring System
 
-**Date:** November 6, 2025  
+**Date:** November 6, 2025
 
 Congratulations on the successful launch! The new system is already providing valuable insights at our Northern operations. The real-time air quality data has helped us optimize our dust control measures.
 
 Looking forward to the training session next week.
 
-Michael Torres  
-Northern Operations Manager  
+Michael Torres
+Northern Operations Manager
 
 ---
 
-**From:** Jennifer Liu, IT Systems Administrator  
-**To:** Dr. Robert Kim, Sarah Martinez, Michael Torres  
-**Subject:** Re: Launch of Advanced Environmental Monitoring System  
+**From:** Jennifer Liu, IT Systems Administrator
+**To:** Dr. Robert Kim, Sarah Martinez, Michael Torres
+**Subject:** Re: Launch of Advanced Environmental Monitoring System
 
-**Date:** November 6, 2025  
+**Date:** November 6, 2025
 
 The IT team has monitored system performance closely since launch. All sensors are online and data transmission is stable. We've implemented additional security measures to protect environmental data integrity.
 
-Jennifer Liu  
+Jennifer Liu
 IT Systems Administrator

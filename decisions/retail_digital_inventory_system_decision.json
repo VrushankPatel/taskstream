@@ -3,8 +3,15 @@
   "context": "Regional retail chain with 25 stores seeking to implement digital inventory management system to reduce stockouts and improve supply chain efficiency",
   "stakeholders": {
     "requester": "Operations Director",
-    "approvers": ["CEO", "CFO"],
-    "influencers": ["IT Manager", "Store Managers", "Procurement Lead"]
+    "approvers": [
+      "CEO",
+      "CFO"
+    ],
+    "influencers": [
+      "IT Manager",
+      "Store Managers",
+      "Procurement Lead"
+    ]
   },
   "request": {
     "amount": "$450,000",
@@ -16,28 +23,49 @@
     {
       "stage": "requirements_gathering",
       "duration": "1 week",
-      "activities": ["Stakeholder interviews", "Current process analysis", "Vendor research"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current process analysis",
+        "Vendor research"
+      ],
       "outcome": "Requirements document completed"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "2 weeks",
-      "activities": ["Demo sessions", "Cost-benefit analysis", "Integration assessment"],
+      "activities": [
+        "Demo sessions",
+        "Cost-benefit analysis",
+        "Integration assessment"
+      ],
       "outcome": "Shortlisted 3 vendors"
     },
     {
       "stage": "final_selection",
       "duration": "1 week",
-      "activities": ["Contract negotiation", "Implementation planning", "Risk assessment"],
+      "activities": [
+        "Contract negotiation",
+        "Implementation planning",
+        "Risk assessment"
+      ],
       "outcome": "Approved with 6-month rollout plan"
     }
   ],
   "business_impact": {
     "expected_outcome": "Reduce stockouts by 60%, improve inventory turnover by 25%, save $200K annually",
     "projected_value": "$650K cost savings over 3 years",
-    "risk_factors": ["Employee training requirements", "System integration challenges", "Initial disruption"]
+    "risk_factors": [
+      "Employee training requirements",
+      "System integration challenges",
+      "Initial disruption"
+    ]
   },
-  "decision_criteria": ["ROI >200%", "Implementation timeline <6 months", "User adoption rate >80%", "Scalability for future growth"],
+  "decision_criteria": [
+    "ROI >200%",
+    "Implementation timeline <6 months",
+    "User adoption rate >80%",
+    "Scalability for future growth"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early involvement of store managers crucial for successful adoption, phased rollout minimizes disruption"
 }

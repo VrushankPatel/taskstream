@@ -3,8 +3,16 @@
   "context": "Regional retail chain with 50 stores seeking to implement unified omnichannel platform to integrate online and in-store experiences",
   "stakeholders": {
     "requester": "Director of Digital Transformation",
-    "approvers": ["CIO", "CFO", "Chief Marketing Officer"],
-    "influencers": ["Store Operations Manager", "E-commerce Manager", "IT Security Lead"]
+    "approvers": [
+      "CIO",
+      "CFO",
+      "Chief Marketing Officer"
+    ],
+    "influencers": [
+      "Store Operations Manager",
+      "E-commerce Manager",
+      "IT Security Lead"
+    ]
   },
   "request": {
     "amount": "$1.8M",
@@ -16,28 +24,52 @@
     {
       "stage": "requirements_gathering",
       "duration": "3 weeks",
-      "activities": ["Stakeholder interviews", "Current system audit", "Customer journey mapping"],
+      "activities": [
+        "Stakeholder interviews",
+        "Current system audit",
+        "Customer journey mapping"
+      ],
       "outcome": "Comprehensive requirements document completed"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "4 weeks",
-      "activities": ["RFP issuance", "Vendor presentations", "Reference checks", "POC testing"],
+      "activities": [
+        "RFP issuance",
+        "Vendor presentations",
+        "Reference checks",
+        "POC testing"
+      ],
       "outcome": "Two vendors shortlisted with detailed proposals"
     },
     {
       "stage": "financial_approval",
       "duration": "1 week",
-      "activities": ["Cost-benefit analysis", "ROI projections", "Budget impact assessment"],
+      "activities": [
+        "Cost-benefit analysis",
+        "ROI projections",
+        "Budget impact assessment"
+      ],
       "outcome": "Approved with 18-month implementation timeline"
     }
   ],
-   "business_impact": {
-     "expected_outcome": "Unified customer view, 15% increase in cross-channel sales, reduced operational costs, improved customer satisfaction scores",
-     "projected_value": "$4.2M annual benefits through efficiency gains and revenue growth, with 3-year ROI",
-     "risk_factors": ["Data migration complexity", "Store staff training requirements", "Integration challenges with legacy POS systems", "Change management resistance", "Data security concerns"]
-   },
-  "decision_criteria": ["Omnichannel capabilities", "Integration ease", "Total cost of ownership", "Vendor support and roadmap"],
+  "business_impact": {
+    "expected_outcome": "Unified customer view, 15% increase in cross-channel sales, reduced operational costs, improved customer satisfaction scores",
+    "projected_value": "$4.2M annual benefits through efficiency gains and revenue growth, with 3-year ROI",
+    "risk_factors": [
+      "Data migration complexity",
+      "Store staff training requirements",
+      "Integration challenges with legacy POS systems",
+      "Change management resistance",
+      "Data security concerns"
+    ]
+  },
+  "decision_criteria": [
+    "Omnichannel capabilities",
+    "Integration ease",
+    "Total cost of ownership",
+    "Vendor support and roadmap"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Omnichannel success requires strong change management and clear communication across store and digital teams. Data quality and integration testing should be prioritized over feature richness. Pilot programs in select stores provide valuable insights before full rollout. Customer experience metrics should be established before implementation to measure success. Budget contingency of 20% should be allocated for unforeseen integration challenges. Executive sponsorship is critical for overcoming organizational resistance. Training programs should include hands-on practice with the new systems before go-live. Post-implementation support for 6 months ensures smooth transition and addresses user adoption issues."
 }

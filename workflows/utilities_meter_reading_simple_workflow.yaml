@@ -1,30 +1,56 @@
 workflow:
-  id: "workflow_utilities_meter_004"
-  title: "Utilities Residential Meter Reading Process"
-  department: "Field Operations"
-  complexity: "simple"
-  participants: ["Meter Reader", "Field Supervisor"]
-  trigger: "Monthly meter reading schedule activation"
+  id: workflow_utilities_meter_004
+  title: Utilities Residential Meter Reading Process
+  department: Field Operations
+  complexity: simple
+  participants:
+  - Meter Reader
+  - Field Supervisor
+  trigger: Monthly meter reading schedule activation
   steps:
-    - step: 1
-      actor: "Meter Reader"
-      action: "Access meter location and record reading"
-      decision_points: ["Meter accessible", "Reading within expected range", "Report anomalies or damages"]
-      tools: ["Mobile Meter Reader Device", "GPS System"]
-      duration: "5 minutes per meter"
-      outputs: ["Meter Reading Data", "Field Notes"]
-    - step: 2
-      actor: "Field Supervisor"
-      action: "Review readings for accuracy and upload to system"
-      decision_points: ["All readings validated", "Resolve discrepancies", "Escalate unusual patterns"]
-      tools: ["Field Management Software"]
-      duration: "15 minutes per route"
-      outputs: ["Validated Meter Data", "Quality Assurance Report"]
-  success_criteria: "All scheduled meters read and data uploaded successfully with billing accuracy"
-  failure_modes: ["Inaccessible meters", "Device technical issues", "Weather delays", "Staffing shortages", "Traffic or access restrictions"]
-  risks: ["Safety incidents during field work", "Billing errors from inaccurate readings", "Customer service complaints", "Regulatory fines for missed readings", "Data security breaches"]
+  - step: 1
+    actor: Meter Reader
+    action: Access meter location and record reading
+    decision_points:
+    - Meter accessible
+    - Reading within expected range
+    - Report anomalies or damages
+    tools:
+    - Mobile Meter Reader Device
+    - GPS System
+    duration: 5 minutes per meter
+    outputs:
+    - Meter Reading Data
+    - Field Notes
+  - step: 2
+    actor: Field Supervisor
+    action: Review readings for accuracy and upload to system
+    decision_points:
+    - All readings validated
+    - Resolve discrepancies
+    - Escalate unusual patterns
+    tools:
+    - Field Management Software
+    duration: 15 minutes per route
+    outputs:
+    - Validated Meter Data
+    - Quality Assurance Report
+  success_criteria: All scheduled meters read and data uploaded successfully with
+    billing accuracy
+  failure_modes:
+  - Inaccessible meters
+  - Device technical issues
+  - Weather delays
+  - Staffing shortages
+  - Traffic or access restrictions
+  risks:
+  - Safety incidents during field work
+  - Billing errors from inaccurate readings
+  - Customer service complaints
+  - Regulatory fines for missed readings
+  - Data security breaches
   metrics:
-    - "Reading accuracy rate: 99.5%"
-    - "Route completion rate: 95%"
-    - "Safety incident rate: <0.1 per 1000 readings"
-    - "Customer billing dispute rate: 0.5%"
+  - 'Reading accuracy rate: 99.5%'
+  - 'Route completion rate: 95%'
+  - 'Safety incident rate: <0.1 per 1000 readings'
+  - 'Customer billing dispute rate: 0.5%'

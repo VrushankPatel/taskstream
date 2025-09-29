@@ -1,53 +1,97 @@
 workflow:
-  id: "workflow_healthcare_genomics_analytics"
-  title: "Healthcare Genomics Data Analytics Platform Workflow"
-  department: "Healthcare IT/Genomics"
-  complexity: "high"
-  participants: ["Bioinformatics Specialists", "Data Engineers", "Clinical Researchers", "Privacy Officers", "IT Security", "Regulatory Compliance"]
-  trigger: "Clinical requirement for genomic data analysis in patient care"
+  id: workflow_healthcare_genomics_analytics
+  title: Healthcare Genomics Data Analytics Platform Workflow
+  department: Healthcare IT/Genomics
+  complexity: high
+  participants:
+  - Bioinformatics Specialists
+  - Data Engineers
+  - Clinical Researchers
+  - Privacy Officers
+  - IT Security
+  - Regulatory Compliance
+  trigger: Clinical requirement for genomic data analysis in patient care
   steps:
-    - step: 1
-      actor: "Clinical Researchers"
-      action: "Define clinical use case and data requirements"
-      tools: ["Clinical research frameworks", "Genomic data specifications"]
-      duration: "2 weeks"
-      outputs: ["Clinical requirements document", "Data specification"]
-    - step: 2
-      actor: "Privacy Officers"
-      action: "Conduct privacy impact assessment and consent framework review"
-      tools: ["Privacy assessment tools", "Consent management systems"]
-      duration: "3 weeks"
-      outputs: ["Privacy assessment report", "Consent framework"]
-    - step: 3
-      actor: "Data Engineers"
-      action: "Design and implement secure data pipeline architecture"
-      tools: ["Data pipeline tools", "Security frameworks", "Cloud infrastructure"]
-      duration: "6 weeks"
-      outputs: ["Data pipeline architecture", "Security implementation"]
-    - step: 4
-      actor: "Bioinformatics Specialists"
-      action: "Develop and validate genomic analysis algorithms"
-      tools: ["Bioinformatics software", "Statistical analysis tools", "Validation frameworks"]
-      duration: "8 weeks"
-      outputs: ["Analysis algorithms", "Validation reports"]
-      decision_points: ["Algorithm accuracy", "Clinical relevance"]
-    - step: 5
-      actor: "IT Security"
-      action: "Implement advanced security controls for genomic data"
-      tools: ["Encryption tools", "Access control systems", "Audit frameworks"]
-      duration: "4 weeks"
-      outputs: ["Security controls", "Audit trails"]
-    - step: 6
-      actor: "Regulatory Compliance"
-      action: "Ensure HIPAA and genomic data regulations compliance"
-      tools: ["Compliance databases", "Regulatory frameworks"]
-      duration: "3 weeks"
-      outputs: ["Compliance certification", "Regulatory documentation"]
-    - step: 7
-      actor: "Clinical Researchers"
-      action: "Validate clinical utility and integrate with patient care workflows"
-      tools: ["Clinical validation tools", "Integration testing frameworks"]
-      duration: "4 weeks"
-      outputs: ["Clinical validation report", "Integration documentation"]
-  success_criteria: "Secure, compliant genomic analytics platform delivering clinically actionable insights"
-  failure_modes: ["Privacy breaches", "Algorithm inaccuracies", "Integration failures", "Regulatory non-compliance"]
+  - step: 1
+    actor: Clinical Researchers
+    action: Define clinical use case and data requirements
+    tools:
+    - Clinical research frameworks
+    - Genomic data specifications
+    duration: 2 weeks
+    outputs:
+    - Clinical requirements document
+    - Data specification
+  - step: 2
+    actor: Privacy Officers
+    action: Conduct privacy impact assessment and consent framework review
+    tools:
+    - Privacy assessment tools
+    - Consent management systems
+    duration: 3 weeks
+    outputs:
+    - Privacy assessment report
+    - Consent framework
+  - step: 3
+    actor: Data Engineers
+    action: Design and implement secure data pipeline architecture
+    tools:
+    - Data pipeline tools
+    - Security frameworks
+    - Cloud infrastructure
+    duration: 6 weeks
+    outputs:
+    - Data pipeline architecture
+    - Security implementation
+  - step: 4
+    actor: Bioinformatics Specialists
+    action: Develop and validate genomic analysis algorithms
+    tools:
+    - Bioinformatics software
+    - Statistical analysis tools
+    - Validation frameworks
+    duration: 8 weeks
+    outputs:
+    - Analysis algorithms
+    - Validation reports
+    decision_points:
+    - Algorithm accuracy
+    - Clinical relevance
+  - step: 5
+    actor: IT Security
+    action: Implement advanced security controls for genomic data
+    tools:
+    - Encryption tools
+    - Access control systems
+    - Audit frameworks
+    duration: 4 weeks
+    outputs:
+    - Security controls
+    - Audit trails
+  - step: 6
+    actor: Regulatory Compliance
+    action: Ensure HIPAA and genomic data regulations compliance
+    tools:
+    - Compliance databases
+    - Regulatory frameworks
+    duration: 3 weeks
+    outputs:
+    - Compliance certification
+    - Regulatory documentation
+  - step: 7
+    actor: Clinical Researchers
+    action: Validate clinical utility and integrate with patient care workflows
+    tools:
+    - Clinical validation tools
+    - Integration testing frameworks
+    duration: 4 weeks
+    outputs:
+    - Clinical validation report
+    - Integration documentation
+  success_criteria: Secure, compliant genomic analytics platform delivering clinically
+    actionable insights
+  failure_modes:
+  - Privacy breaches
+  - Algorithm inaccuracies
+  - Integration failures
+  - Regulatory non-compliance

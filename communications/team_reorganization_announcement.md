@@ -1,9 +1,9 @@
 # Internal Announcement: Sales Team Reorganization
 
-**From:** David Martinez, Chief Revenue Officer  
-**To:** All Employees  
-**Subject:** Sales Organization Update - Building for Scale  
-**Date:** September 30, 2025  
+**From:** David Martinez, Chief Revenue Officer
+**To:** All Employees
+**Subject:** Sales Organization Update - Building for Scale
+**Date:** September 30, 2025
 
 Team,
 
@@ -54,6 +54,6 @@ I'm confident this structure will accelerate our growth and improve customer sat
 
 If you have questions, please reach out to your manager or HR partner.
 
-Best regards,  
-David Martinez  
+Best regards,
+David Martinez
 Chief Revenue Officer

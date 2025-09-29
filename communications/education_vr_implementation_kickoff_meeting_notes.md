@@ -1,15 +1,15 @@
 ## Education VR Implementation Kickoff Meeting Notes
 
-**Date:** September 28, 2025  
-**Time:** 10:00 AM - 11:30 AM  
-**Location:** Virtual Meeting Room  
-**Attendees:**  
-- Dr. Sarah Johnson, Dean of Education Technology  
-- Prof. Michael Chen, VR Curriculum Lead  
-- Lisa Rodriguez, IT Infrastructure Manager  
-- Tom Wilson, Student Experience Coordinator  
-- Dr. Emily Park, Learning Sciences Researcher  
-- Mark Thompson, VR Content Developer  
+**Date:** September 28, 2025
+**Time:** 10:00 AM - 11:30 AM
+**Location:** Virtual Meeting Room
+**Attendees:**
+- Dr. Sarah Johnson, Dean of Education Technology
+- Prof. Michael Chen, VR Curriculum Lead
+- Lisa Rodriguez, IT Infrastructure Manager
+- Tom Wilson, Student Experience Coordinator
+- Dr. Emily Park, Learning Sciences Researcher
+- Mark Thompson, VR Content Developer
 
 **Meeting Objective:** Launch VR implementation project for immersive learning experiences across STEM curricula.
 

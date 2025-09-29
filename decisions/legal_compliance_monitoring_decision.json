@@ -3,8 +3,16 @@
   "context": "Global technology company, 5000 employees, facing increased regulatory scrutiny",
   "stakeholders": {
     "requester": "Chief Compliance Officer",
-    "approvers": ["CEO", "General Counsel", "Board Audit Committee"],
-    "influencers": ["Regulatory agencies", "External auditors", "Industry peers"]
+    "approvers": [
+      "CEO",
+      "General Counsel",
+      "Board Audit Committee"
+    ],
+    "influencers": [
+      "Regulatory agencies",
+      "External auditors",
+      "Industry peers"
+    ]
   },
   "request": {
     "amount": "$8 million",
@@ -16,32 +24,52 @@
     {
       "stage": "compliance_gap_analysis",
       "duration": "6 weeks",
-      "activities": ["Regulatory requirements review", "Current system assessment", "Risk evaluation"],
+      "activities": [
+        "Regulatory requirements review",
+        "Current system assessment",
+        "Risk evaluation"
+      ],
       "outcome": "Identified significant gaps in real-time monitoring capabilities"
     },
     {
       "stage": "technology_evaluation",
       "duration": "4 weeks",
-      "activities": ["Vendor evaluation", "Technology pilot", "Integration assessment"],
+      "activities": [
+        "Vendor evaluation",
+        "Technology pilot",
+        "Integration assessment"
+      ],
       "outcome": "Selected AI platform with 85% accuracy in compliance detection"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 weeks",
-      "activities": ["Change management plan", "Training program development", "Timeline creation"],
+      "activities": [
+        "Change management plan",
+        "Training program development",
+        "Timeline creation"
+      ],
       "outcome": "Comprehensive rollout plan with phased implementation"
     },
     {
       "stage": "board_approval",
       "duration": "1 week",
-      "activities": ["ROI presentation", "Risk mitigation review", "Budget approval"],
+      "activities": [
+        "ROI presentation",
+        "Risk mitigation review",
+        "Budget approval"
+      ],
       "outcome": "Approved with enhanced monitoring and reporting requirements"
     }
   ],
   "business_impact": {
     "expected_risk_reduction": "60% decrease in compliance violations",
     "projected_cost_savings": "$12 million in avoided fines and legal costs",
-    "risk_factors": ["Technology implementation challenges", "False positive alerts", "Staff training requirements"],
+    "risk_factors": [
+      "Technology implementation challenges",
+      "False positive alerts",
+      "Staff training requirements"
+    ],
     "timeline": "12 months for full global deployment"
   }
 }

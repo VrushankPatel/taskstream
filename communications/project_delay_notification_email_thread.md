@@ -1,9 +1,9 @@
 ## Email Thread: Q4 Product Launch Timeline Update
 
-**From:** Sarah Chen, Senior Product Manager  
-**To:** Executive Leadership Team, Product Team, Sales Leadership  
-**Subject:** Q4 Product Launch - Critical Timeline Update  
-**Date:** October 15, 2025  
+**From:** Sarah Chen, Senior Product Manager
+**To:** Executive Leadership Team, Product Team, Sales Leadership
+**Subject:** Q4 Product Launch - Critical Timeline Update
+**Date:** October 15, 2025
 
 Team,
 
@@ -23,18 +23,18 @@ Impact assessment:
 
 I'm scheduling a follow-up meeting for tomorrow at 2 PM to discuss mitigation strategies and reallocate resources. Please come prepared with any concerns or alternative approaches.
 
-Best,  
-Sarah Chen  
-Senior Product Manager  
-sarah.chen@company.com  
-(555) 123-4567  
+Best,
+Sarah Chen
+Senior Product Manager
+sarah.chen@company.com
+(555) 123-4567
 
 ---
 
-**From:** Michael Rodriguez, VP Sales  
-**To:** Sarah Chen, Executive Leadership Team, Product Team, Sales Leadership  
-**Subject:** Re: Q4 Product Launch - Critical Timeline Update  
-**Date:** October 15, 2025  
+**From:** Michael Rodriguez, VP Sales
+**To:** Sarah Chen, Executive Leadership Team, Product Team, Sales Leadership
+**Subject:** Re: Q4 Product Launch - Critical Timeline Update
+**Date:** October 15, 2025
 
 Sarah,
 
@@ -44,27 +44,27 @@ The sales team has 15 deals in the pipeline that are launch-dependent. A 3-week 
 
 Let's discuss alternatives in tomorrow's meeting.
 
-Michael  
+Michael
 
 ---
 
-**From:** David Kim, CTO  
-**To:** Sarah Chen, Michael Rodriguez, Executive Leadership Team, Product Team, Sales Leadership  
-**Subject:** Re: Q4 Product Launch - Critical Timeline Update  
-**Date:** October 15, 2025  
+**From:** David Kim, CTO
+**To:** Sarah Chen, Michael Rodriguez, Executive Leadership Team, Product Team, Sales Leadership
+**Subject:** Re: Q4 Product Launch - Critical Timeline Update
+**Date:** October 15, 2025
 
 I agree with Michael's concern about the revenue impact. However, releasing with known security vulnerabilities is not an option. We've already had one data breach this year, and another would be catastrophic.
 
 Alternative proposal: Can we accelerate the fix by bringing in external security consultants? I've reached out to our preferred vendor and they could have a team here within 48 hours.
 
-David  
+David
 
 ---
 
-**From:** Jennifer Walsh, CEO  
-**To:** Sarah Chen, Michael Rodriguez, David Kim, Executive Leadership Team, Product Team, Sales Leadership  
-**Subject:** Re: Q4 Product Launch - Critical Timeline Update  
-**Date:** October 16, 2025  
+**From:** Jennifer Walsh, CEO
+**To:** Sarah Chen, Michael Rodriguez, David Kim, Executive Leadership Team, Product Team, Sales Leadership
+**Subject:** Re: Q4 Product Launch - Critical Timeline Update
+**Date:** October 16, 2025
 
 Thank you all for the quick responses and thoughtful alternatives. Security cannot be compromised - David is absolutely right.
 

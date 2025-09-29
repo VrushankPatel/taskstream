@@ -1,52 +1,92 @@
 workflow:
-  id: "workflow_finance_budget_001"
-  title: "Capital Budget Approval Process"
-  department: "Finance"
-  complexity: "high"
-  participants: ["Department Manager", "Finance Analyst", "CFO", "CEO", "Board Member"]
-  trigger: "Department submits budget request over $50K"
+  id: workflow_finance_budget_001
+  title: Capital Budget Approval Process
+  department: Finance
+  complexity: high
+  participants:
+  - Department Manager
+  - Finance Analyst
+  - CFO
+  - CEO
+  - Board Member
+  trigger: Department submits budget request over $50K
   steps:
-    - step: 1
-      actor: "Department Manager"
-      action: "Prepare detailed budget request with business case and ROI analysis"
-      tools: ["Budget template", "Financial modeling software", "Market research data"]
-      duration: "4 hours"
-      outputs: ["Budget proposal document", "ROI projections", "Risk assessment"]
-    - step: 2
-      actor: "Finance Analyst"
-      action: "Review and validate financial assumptions and projections"
-      tools: ["Financial analysis tools", "Historical data", "Benchmarking reports"]
-      duration: "2 hours"
-      outputs: ["Financial review memorandum", "Sensitivity analysis"]
-    - step: 3
-      actor: "Department Manager"
-      action: "Present budget request to CFO with Q&A session"
-      tools: ["Presentation software", "Budget dashboard"]
-      duration: "1 hour"
-      outputs: ["Presentation materials", "Meeting minutes"]
-    - step: 4
-      actor: "CFO"
-      action: "Evaluate strategic alignment and financial impact"
-      tools: ["Strategic planning framework", "Cash flow projections"]
-      duration: "2 hours"
-      outputs: ["CFO recommendation", "Strategic alignment assessment"]
-    - step: 5
-      actor: "CEO"
-      action: "Review high-level business case and approve/reject"
-      tools: ["Executive dashboard", "Board presentation materials"]
-      duration: "30 minutes"
-      outputs: ["CEO decision", "Approval conditions"]
-    - step: 6
-      actor: "Board Member"
-      action: "Review major investments for board approval if required"
-      tools: ["Board portal", "Investment committee materials"]
-      duration: "1 hour"
-      outputs: ["Board approval", "Investment terms"]
-    - step: 7
-      actor: "Finance Analyst"
-      action: "Set up budget tracking and monitoring systems"
-      tools: ["ERP system", "Budget monitoring dashboard"]
-      duration: "1 hour"
-      outputs: ["Budget allocation", "Monitoring reports setup"]
-  success_criteria: "Budget approved within 30 days with full funding allocation"
-  failure_modes: ["Incomplete business case", "Poor ROI projections", "Strategic misalignment", "Cash flow constraints"]
+  - step: 1
+    actor: Department Manager
+    action: Prepare detailed budget request with business case and ROI analysis
+    tools:
+    - Budget template
+    - Financial modeling software
+    - Market research data
+    duration: 4 hours
+    outputs:
+    - Budget proposal document
+    - ROI projections
+    - Risk assessment
+  - step: 2
+    actor: Finance Analyst
+    action: Review and validate financial assumptions and projections
+    tools:
+    - Financial analysis tools
+    - Historical data
+    - Benchmarking reports
+    duration: 2 hours
+    outputs:
+    - Financial review memorandum
+    - Sensitivity analysis
+  - step: 3
+    actor: Department Manager
+    action: Present budget request to CFO with Q&A session
+    tools:
+    - Presentation software
+    - Budget dashboard
+    duration: 1 hour
+    outputs:
+    - Presentation materials
+    - Meeting minutes
+  - step: 4
+    actor: CFO
+    action: Evaluate strategic alignment and financial impact
+    tools:
+    - Strategic planning framework
+    - Cash flow projections
+    duration: 2 hours
+    outputs:
+    - CFO recommendation
+    - Strategic alignment assessment
+  - step: 5
+    actor: CEO
+    action: Review high-level business case and approve/reject
+    tools:
+    - Executive dashboard
+    - Board presentation materials
+    duration: 30 minutes
+    outputs:
+    - CEO decision
+    - Approval conditions
+  - step: 6
+    actor: Board Member
+    action: Review major investments for board approval if required
+    tools:
+    - Board portal
+    - Investment committee materials
+    duration: 1 hour
+    outputs:
+    - Board approval
+    - Investment terms
+  - step: 7
+    actor: Finance Analyst
+    action: Set up budget tracking and monitoring systems
+    tools:
+    - ERP system
+    - Budget monitoring dashboard
+    duration: 1 hour
+    outputs:
+    - Budget allocation
+    - Monitoring reports setup
+  success_criteria: Budget approved within 30 days with full funding allocation
+  failure_modes:
+  - Incomplete business case
+  - Poor ROI projections
+  - Strategic misalignment
+  - Cash flow constraints

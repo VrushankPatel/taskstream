@@ -1,46 +1,73 @@
 workflow:
-  id: "workflow_retail_omnichannel_fulfillment"
-  title: "Omnichannel Order Fulfillment Process"
-  department: "Operations"
-  complexity: "medium"
-  participants: ["Order Processor", "Warehouse Manager", "Delivery Coordinator", "Customer Service Rep", "Inventory Analyst"]
-  trigger: "Customer places order through any channel (online, in-store, mobile)"
+  id: workflow_retail_omnichannel_fulfillment
+  title: Omnichannel Order Fulfillment Process
+  department: Operations
+  complexity: medium
+  participants:
+  - Order Processor
+  - Warehouse Manager
+  - Delivery Coordinator
+  - Customer Service Rep
+  - Inventory Analyst
+  trigger: Customer places order through any channel (online, in-store, mobile)
   steps:
-    - step: 1
-      actor: "Order Processor"
-      action: "Process and validate order details across channels"
-      tools: ["OMS System", "Inventory Management Software"]
-      duration: "5 minutes"
-      outputs: ["Validated Order"]
-    - step: 2
-      actor: "Inventory Analyst"
-      action: "Check inventory availability and allocate stock"
-      tools: ["Inventory Tracking System"]
-      duration: "2 minutes"
-      outputs: ["Inventory Allocation"]
-    - step: 3
-      actor: "Warehouse Manager"
-      action: "Determine optimal fulfillment method (store pickup, home delivery, curbside)"
-      decision_points: ["Customer Location", "Item Availability", "Delivery Speed"]
-      duration: "3 minutes"
-      outputs: ["Fulfillment Method Selection"]
-    - step: 4
-      actor: "Warehouse Manager"
-      action: "Pick and pack items for shipment or pickup"
-      tools: ["Warehouse Management System", "Automated Picking Equipment"]
-      duration: "10-15 minutes"
-      outputs: ["Packed Order"]
-    - step: 5
-      actor: "Delivery Coordinator"
-      action: "Arrange delivery or notify customer of pickup availability"
-      tools: ["Delivery Management Software", "Customer Notification System"]
-      duration: "5 minutes"
-      outputs: ["Delivery Arrangement"]
-    - step: 6
-      actor: "Customer Service Rep"
-      action: "Provide order tracking and handle any issues"
-      tools: ["Customer Service Platform"]
-      duration: "As needed"
-      outputs: ["Customer Communication Log"]
-  success_criteria: "Order fulfilled accurately and on time, positive customer experience maintained"
-  failure_modes: ["Inventory discrepancies", "Fulfillment method errors", "Delivery delays", "Communication breakdowns"]
+  - step: 1
+    actor: Order Processor
+    action: Process and validate order details across channels
+    tools:
+    - OMS System
+    - Inventory Management Software
+    duration: 5 minutes
+    outputs:
+    - Validated Order
+  - step: 2
+    actor: Inventory Analyst
+    action: Check inventory availability and allocate stock
+    tools:
+    - Inventory Tracking System
+    duration: 2 minutes
+    outputs:
+    - Inventory Allocation
+  - step: 3
+    actor: Warehouse Manager
+    action: Determine optimal fulfillment method (store pickup, home delivery, curbside)
+    decision_points:
+    - Customer Location
+    - Item Availability
+    - Delivery Speed
+    duration: 3 minutes
+    outputs:
+    - Fulfillment Method Selection
+  - step: 4
+    actor: Warehouse Manager
+    action: Pick and pack items for shipment or pickup
+    tools:
+    - Warehouse Management System
+    - Automated Picking Equipment
+    duration: 10-15 minutes
+    outputs:
+    - Packed Order
+  - step: 5
+    actor: Delivery Coordinator
+    action: Arrange delivery or notify customer of pickup availability
+    tools:
+    - Delivery Management Software
+    - Customer Notification System
+    duration: 5 minutes
+    outputs:
+    - Delivery Arrangement
+  - step: 6
+    actor: Customer Service Rep
+    action: Provide order tracking and handle any issues
+    tools:
+    - Customer Service Platform
+    duration: As needed
+    outputs:
+    - Customer Communication Log
+  success_criteria: Order fulfilled accurately and on time, positive customer experience
+    maintained
+  failure_modes:
+  - Inventory discrepancies
+  - Fulfillment method errors
+  - Delivery delays
+  - Communication breakdowns

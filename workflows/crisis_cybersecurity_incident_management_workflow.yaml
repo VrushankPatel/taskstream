@@ -1,58 +1,124 @@
 workflow:
-  id: "workflow_crisis_cybersecurity_incident_management"
-  title: "Crisis Cybersecurity Incident Management"
-  department: "Information Security"
-  complexity: "complex"
-  participants: ["CISO", "Incident Response Team Lead", "Cybersecurity Operations Center", "IT Operations Manager", "Legal Counsel", "Communications Director", "Executive Leadership", "External Cybersecurity Experts"]
-  trigger: "Detection of advanced cybersecurity breach or incident requiring coordinated response with external expertise"
+  id: workflow_crisis_cybersecurity_incident_management
+  title: Crisis Cybersecurity Incident Management
+  department: Information Security
+  complexity: complex
+  participants:
+  - CISO
+  - Incident Response Team Lead
+  - Cybersecurity Operations Center
+  - IT Operations Manager
+  - Legal Counsel
+  - Communications Director
+  - Executive Leadership
+  - External Cybersecurity Experts
+  trigger: Detection of advanced cybersecurity breach or incident requiring coordinated
+    response with external expertise
   steps:
-    - step: 1
-      actor: "Cybersecurity Operations Center"
-      action: "Assess advanced incident scope, impact, and initial containment measures within first 30 minutes using AI-driven threat detection"
-      tools: ["AI-powered security monitoring systems", "Advanced incident assessment frameworks", "Automated containment toolkits"]
-      duration: "30 minutes"
-      outputs: ["AI-enhanced incident assessment report", "Advanced containment actions", "AI-predicted severity classification"]
-    - step: 2
-      actor: "CISO"
-      action: "Activate advanced incident response plan, assemble crisis management team including external experts, and establish secure command center"
-      tools: ["AI-enhanced incident response playbooks", "Secure communication platforms", "Advanced crisis management frameworks"]
-      duration: "1 hour"
-      outputs: ["Activated advanced response plan", "Assembled expert crisis team", "Secure command center establishment"]
-    - step: 3
-      actor: "Incident Response Team Lead"
-      action: "Execute technical containment and eradication measures using AI automation to stop advanced incident progression"
-      tools: ["AI-driven security tools", "Automated network isolation systems", "Advanced malware removal platforms"]
-      duration: "2-12 hours"
-      outputs: ["AI-automated containment measures implemented", "Advanced eradication actions completed", "AI-predicted system recovery plans"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Assess legal obligations including breach notification requirements, regulatory reporting, and potential litigation risks"
-      tools: ["AI-powered legal compliance databases", "Automated regulatory requirement checklists", "Advanced notification templates"]
-      duration: "4 hours"
-      outputs: ["Comprehensive legal assessment report", "Automated notification requirements", "Advanced regulatory reporting plan"]
-    - step: 5
-      actor: "Communications Director"
-      action: "Develop and execute communication strategy including internal alerts, external notifications, and media relations with AI-powered sentiment analysis"
-      tools: ["AI-enhanced communication templates", "Automated stakeholder databases", "AI-driven media monitoring platforms"]
-      duration: "3 hours"
-      outputs: ["AI-optimized communication strategy", "Automated stakeholder notification plan", "AI-monitored media response protocols"]
-    - step: 6
-      actor: "External Cybersecurity Experts"
-      action: "Conduct advanced forensic analysis to determine root cause, attack vectors, and data compromise scope using cutting-edge tools"
-      tools: ["Advanced digital forensics platforms", "AI-powered log analysis tools", "Global threat intelligence databases"]
-      duration: "1-2 days"
-      outputs: ["Advanced forensic analysis report", "AI-identified root cause determination", "Comprehensive compromise assessment"]
-    - step: 7
-      actor: "CISO"
-      action: "Present incident summary to executive leadership, recommend preventive AI-enhanced measures, and develop comprehensive lessons learned with predictive insights"
-      tools: ["AI-enhanced executive briefing templates", "Predictive risk assessment frameworks", "Automated improvement planning tools"]
-      duration: "3 days"
-      outputs: ["AI-enhanced executive incident summary", "Predictive preventive measure recommendations", "Comprehensive lessons learned report"]
-  success_criteria: "Incident contained within 12 hours, zero data loss from advanced threats, full regulatory compliance, and implementation of AI-enhanced preventive measures"
-  failure_modes: ["AI detection failures on advanced threats", "Delayed expert engagement", "Poor automated communication", "Regulatory non-compliance with AI systems", "Insufficient AI-driven recovery planning"]
+  - step: 1
+    actor: Cybersecurity Operations Center
+    action: Assess advanced incident scope, impact, and initial containment measures
+      within first 30 minutes using AI-driven threat detection
+    tools:
+    - AI-powered security monitoring systems
+    - Advanced incident assessment frameworks
+    - Automated containment toolkits
+    duration: 30 minutes
+    outputs:
+    - AI-enhanced incident assessment report
+    - Advanced containment actions
+    - AI-predicted severity classification
+  - step: 2
+    actor: CISO
+    action: Activate advanced incident response plan, assemble crisis management team
+      including external experts, and establish secure command center
+    tools:
+    - AI-enhanced incident response playbooks
+    - Secure communication platforms
+    - Advanced crisis management frameworks
+    duration: 1 hour
+    outputs:
+    - Activated advanced response plan
+    - Assembled expert crisis team
+    - Secure command center establishment
+  - step: 3
+    actor: Incident Response Team Lead
+    action: Execute technical containment and eradication measures using AI automation
+      to stop advanced incident progression
+    tools:
+    - AI-driven security tools
+    - Automated network isolation systems
+    - Advanced malware removal platforms
+    duration: 2-12 hours
+    outputs:
+    - AI-automated containment measures implemented
+    - Advanced eradication actions completed
+    - AI-predicted system recovery plans
+  - step: 4
+    actor: Legal Counsel
+    action: Assess legal obligations including breach notification requirements, regulatory
+      reporting, and potential litigation risks
+    tools:
+    - AI-powered legal compliance databases
+    - Automated regulatory requirement checklists
+    - Advanced notification templates
+    duration: 4 hours
+    outputs:
+    - Comprehensive legal assessment report
+    - Automated notification requirements
+    - Advanced regulatory reporting plan
+  - step: 5
+    actor: Communications Director
+    action: Develop and execute communication strategy including internal alerts,
+      external notifications, and media relations with AI-powered sentiment analysis
+    tools:
+    - AI-enhanced communication templates
+    - Automated stakeholder databases
+    - AI-driven media monitoring platforms
+    duration: 3 hours
+    outputs:
+    - AI-optimized communication strategy
+    - Automated stakeholder notification plan
+    - AI-monitored media response protocols
+  - step: 6
+    actor: External Cybersecurity Experts
+    action: Conduct advanced forensic analysis to determine root cause, attack vectors,
+      and data compromise scope using cutting-edge tools
+    tools:
+    - Advanced digital forensics platforms
+    - AI-powered log analysis tools
+    - Global threat intelligence databases
+    duration: 1-2 days
+    outputs:
+    - Advanced forensic analysis report
+    - AI-identified root cause determination
+    - Comprehensive compromise assessment
+  - step: 7
+    actor: CISO
+    action: Present incident summary to executive leadership, recommend preventive
+      AI-enhanced measures, and develop comprehensive lessons learned with predictive
+      insights
+    tools:
+    - AI-enhanced executive briefing templates
+    - Predictive risk assessment frameworks
+    - Automated improvement planning tools
+    duration: 3 days
+    outputs:
+    - AI-enhanced executive incident summary
+    - Predictive preventive measure recommendations
+    - Comprehensive lessons learned report
+  success_criteria: Incident contained within 12 hours, zero data loss from advanced
+    threats, full regulatory compliance, and implementation of AI-enhanced preventive
+    measures
+  failure_modes:
+  - AI detection failures on advanced threats
+  - Delayed expert engagement
+  - Poor automated communication
+  - Regulatory non-compliance with AI systems
+  - Insufficient AI-driven recovery planning
   metrics:
-    - "Advanced incident containment time: Target <12 hours"
-    - "Data loss minimization: Target 0 records"
-    - "Regulatory compliance: Target 100%"
-    - "Stakeholder communication timeliness: Target 100%"
-    - "AI preventive measure implementation: Target 100%"
+  - 'Advanced incident containment time: Target <12 hours'
+  - 'Data loss minimization: Target 0 records'
+  - 'Regulatory compliance: Target 100%'
+  - 'Stakeholder communication timeliness: Target 100%'
+  - 'AI preventive measure implementation: Target 100%'

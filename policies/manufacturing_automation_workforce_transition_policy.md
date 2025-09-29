@@ -35,25 +35,25 @@ This policy applies to all manufacturing employees whose roles may be impacted b
 ## Implementation Framework
 
 ### Transition Planning Process
-1. **Impact Assessment** (Months 12-18 before implementation)  
-   - Identify roles and employees affected by automation  
-   - Assess skill gaps and retraining needs  
-   - Evaluate alternative employment opportunities  
+1. **Impact Assessment** (Months 12-18 before implementation)
+   - Identify roles and employees affected by automation
+   - Assess skill gaps and retraining needs
+   - Evaluate alternative employment opportunities
 
-2. **Employee Communication** (Months 9-12)  
-   - Individual meetings with affected employees  
-   - Group information sessions and Q&A opportunities  
-   - Clear explanation of support options and timelines  
+2. **Employee Communication** (Months 9-12)
+   - Individual meetings with affected employees
+   - Group information sessions and Q&A opportunities
+   - Clear explanation of support options and timelines
 
-3. **Retraining and Support** (Months 6-12)  
-   - Skill assessment and personalized development plans  
-   - Access to training programs and educational resources  
-   - Career counseling and job search assistance  
+3. **Retraining and Support** (Months 6-12)
+   - Skill assessment and personalized development plans
+   - Access to training programs and educational resources
+   - Career counseling and job search assistance
 
-4. **Transition Execution** (Months 1-6)  
-   - Implementation of chosen transition paths  
-   - Ongoing support and progress monitoring  
-   - Final separation processing for voluntary severance  
+4. **Transition Execution** (Months 1-6)
+   - Implementation of chosen transition paths
+   - Ongoing support and progress monitoring
+   - Final separation processing for voluntary severance
 
 ### Support Options
 
@@ -144,6 +144,6 @@ This policy applies to all manufacturing employees whose roles may be impacted b
 - HR Transition Team: hr-transition@manufacturing.com
 - Employee Assistance Program: 1-888-EAP-HELP
 
-Approved by: Executive Leadership Team  
-Effective Date: October 1, 2025  
+Approved by: Executive Leadership Team
+Effective Date: October 1, 2025
 Last Reviewed: September 29, 2025

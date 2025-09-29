@@ -1,10 +1,10 @@
 # Manufacturing Sustainability Initiative Launch
 
-**From:** Chief Sustainability Officer  
-**To:** All Employees, Supply Chain Partners, Customers  
-**Subject:** Launch of Circular Economy Transformation Initiative  
+**From:** Chief Sustainability Officer
+**To:** All Employees, Supply Chain Partners, Customers
+**Subject:** Launch of Circular Economy Transformation Initiative
 
-**Date:** September 28, 2025  
+**Date:** September 28, 2025
 
 Dear Team and Partners,
 
@@ -87,6 +87,6 @@ This initiative represents our commitment to environmental stewardship and susta
 
 For more information, please visit our sustainability portal or contact the sustainability team.
 
-Best regards,  
-[Chief Sustainability Officer Name]  
+Best regards,
+[Chief Sustainability Officer Name]
 Chief Sustainability Officer

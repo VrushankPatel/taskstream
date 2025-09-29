@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_sustainability_circular_economy"
-  title: "Circular Economy Business Model Implementation"
-  department: "Sustainability & Operations"
-  complexity: "high"
-  participants: ["Sustainability Director", "Operations Manager", "Supply Chain Manager", "Product Development Lead", "Marketing Director"]
-  trigger: "Executive commitment to circular economy transition"
+  id: workflow_sustainability_circular_economy
+  title: Circular Economy Business Model Implementation
+  department: Sustainability & Operations
+  complexity: high
+  participants:
+  - Sustainability Director
+  - Operations Manager
+  - Supply Chain Manager
+  - Product Development Lead
+  - Marketing Director
+  trigger: Executive commitment to circular economy transition
   steps:
-    - step: 1
-      actor: "Sustainability Director"
-      action: "Conduct circular economy assessment and opportunity analysis"
-      tools: ["Circularity assessment frameworks", "Life cycle analysis tools"]
-      duration: "4 weeks"
-      outputs: ["Circular economy roadmap", "Opportunity prioritization matrix"]
-    - step: 2
-      actor: "Supply Chain Manager"
-      action: "Map current supply chain and identify circular opportunities"
-      tools: ["Supply chain mapping software", "Supplier assessment tools"]
-      duration: "3 weeks"
-      outputs: ["Supply chain circularity map", "Supplier engagement plan"]
-    - step: 3
-      actor: "Product Development Lead"
-      action: "Design products for circularity (durability, repairability, recyclability)"
-      tools: ["Product design software", "Material science databases"]
-      duration: "8 weeks"
-      outputs: ["Circular product specifications", "Design for disassembly guidelines"]
-    - step: 4
-      actor: "Operations Manager"
-      action: "Implement circular operations (waste reduction, resource recovery)"
-      tools: ["Operations optimization software", "Waste management systems"]
-      duration: "6 weeks"
-      outputs: ["Circular operations framework", "Resource recovery processes"]
-    - step: 5
-      actor: "Marketing Director"
-      action: "Develop circular economy marketing and customer engagement strategies"
-      tools: ["Customer research platforms", "Marketing automation tools"]
-      duration: "4 weeks"
-      outputs: ["Circular marketing strategy", "Customer engagement programs"]
-    - step: 6
-      actor: "Sustainability Director"
-      action: "Establish circularity metrics and reporting framework"
-      tools: ["Sustainability reporting software", "Circularity measurement tools"]
-      duration: "3 weeks"
-      outputs: ["Circularity KPIs dashboard", "Progress reporting framework"]
-  success_criteria: "30% reduction in virgin material usage and 50% increase in product circularity scores"
-  failure_modes: ["Insufficient stakeholder buy-in", "Technology limitations", "Economic viability challenges"]
+  - step: 1
+    actor: Sustainability Director
+    action: Conduct circular economy assessment and opportunity analysis
+    tools:
+    - Circularity assessment frameworks
+    - Life cycle analysis tools
+    duration: 4 weeks
+    outputs:
+    - Circular economy roadmap
+    - Opportunity prioritization matrix
+  - step: 2
+    actor: Supply Chain Manager
+    action: Map current supply chain and identify circular opportunities
+    tools:
+    - Supply chain mapping software
+    - Supplier assessment tools
+    duration: 3 weeks
+    outputs:
+    - Supply chain circularity map
+    - Supplier engagement plan
+  - step: 3
+    actor: Product Development Lead
+    action: Design products for circularity (durability, repairability, recyclability)
+    tools:
+    - Product design software
+    - Material science databases
+    duration: 8 weeks
+    outputs:
+    - Circular product specifications
+    - Design for disassembly guidelines
+  - step: 4
+    actor: Operations Manager
+    action: Implement circular operations (waste reduction, resource recovery)
+    tools:
+    - Operations optimization software
+    - Waste management systems
+    duration: 6 weeks
+    outputs:
+    - Circular operations framework
+    - Resource recovery processes
+  - step: 5
+    actor: Marketing Director
+    action: Develop circular economy marketing and customer engagement strategies
+    tools:
+    - Customer research platforms
+    - Marketing automation tools
+    duration: 4 weeks
+    outputs:
+    - Circular marketing strategy
+    - Customer engagement programs
+  - step: 6
+    actor: Sustainability Director
+    action: Establish circularity metrics and reporting framework
+    tools:
+    - Sustainability reporting software
+    - Circularity measurement tools
+    duration: 3 weeks
+    outputs:
+    - Circularity KPIs dashboard
+    - Progress reporting framework
+  success_criteria: 30% reduction in virgin material usage and 50% increase in product
+    circularity scores
+  failure_modes:
+  - Insufficient stakeholder buy-in
+  - Technology limitations
+  - Economic viability challenges

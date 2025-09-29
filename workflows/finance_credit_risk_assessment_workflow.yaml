@@ -1,45 +1,73 @@
 workflow:
-  id: "workflow_finance_credit_risk_assessment"
-  title: "Credit Risk Assessment and Portfolio Management Process"
-  department: "Credit Risk Management"
-  complexity: "medium"
-  participants: ["Credit Risk Analyst", "Portfolio Manager", "Risk Committee", "CFO"]
-  trigger: "Monthly portfolio review or new credit application over $1M"
+  id: workflow_finance_credit_risk_assessment
+  title: Credit Risk Assessment and Portfolio Management Process
+  department: Credit Risk Management
+  complexity: medium
+  participants:
+  - Credit Risk Analyst
+  - Portfolio Manager
+  - Risk Committee
+  - CFO
+  trigger: Monthly portfolio review or new credit application over $1M
   steps:
-    - step: 1
-      actor: "Credit Risk Analyst"
-      action: "Gather financial statements, credit reports, and market data for assessment"
-      tools: ["Credit scoring software", "Financial databases", "Market analysis tools"]
-      duration: "3 days"
-      outputs: ["Credit analysis report", "Risk rating recommendation"]
-    - step: 2
-      actor: "Credit Risk Analyst"
-      action: "Perform quantitative risk modeling including PD, LGD, and EAD calculations"
-      tools: ["Risk modeling software", "Statistical analysis tools"]
-      duration: "2 days"
-      outputs: ["Quantitative risk metrics", "Stress test scenarios"]
-    - step: 3
-      actor: "Portfolio Manager"
-      action: "Review risk concentrations and portfolio diversification"
-      tools: ["Portfolio management system", "Risk dashboard"]
-      duration: "1 day"
-      outputs: ["Portfolio risk assessment", "Diversification recommendations"]
-    - step: 4
-      actor: "Risk Committee"
-      action: "Review high-risk credits and approve risk mitigation strategies"
-      tools: ["Risk committee portal", "Executive dashboard"]
-      duration: "1 week"
-      outputs: ["Approved risk limits", "Mitigation action plan"]
-    - step: 5
-      actor: "CFO"
-      action: "Final approval of risk strategy and capital allocation"
-      tools: ["Executive reporting tools", "Board presentation materials"]
-      duration: "2 days"
-      outputs: ["Risk management strategy", "Capital allocation plan"]
-  success_criteria: "Risk-adjusted returns maintained above 12% with NPL ratio <2%"
-  failure_modes: ["Inadequate data quality", "Model assumptions incorrect", "Market volatility unaccounted for"]
+  - step: 1
+    actor: Credit Risk Analyst
+    action: Gather financial statements, credit reports, and market data for assessment
+    tools:
+    - Credit scoring software
+    - Financial databases
+    - Market analysis tools
+    duration: 3 days
+    outputs:
+    - Credit analysis report
+    - Risk rating recommendation
+  - step: 2
+    actor: Credit Risk Analyst
+    action: Perform quantitative risk modeling including PD, LGD, and EAD calculations
+    tools:
+    - Risk modeling software
+    - Statistical analysis tools
+    duration: 2 days
+    outputs:
+    - Quantitative risk metrics
+    - Stress test scenarios
+  - step: 3
+    actor: Portfolio Manager
+    action: Review risk concentrations and portfolio diversification
+    tools:
+    - Portfolio management system
+    - Risk dashboard
+    duration: 1 day
+    outputs:
+    - Portfolio risk assessment
+    - Diversification recommendations
+  - step: 4
+    actor: Risk Committee
+    action: Review high-risk credits and approve risk mitigation strategies
+    tools:
+    - Risk committee portal
+    - Executive dashboard
+    duration: 1 week
+    outputs:
+    - Approved risk limits
+    - Mitigation action plan
+  - step: 5
+    actor: CFO
+    action: Final approval of risk strategy and capital allocation
+    tools:
+    - Executive reporting tools
+    - Board presentation materials
+    duration: 2 days
+    outputs:
+    - Risk management strategy
+    - Capital allocation plan
+  success_criteria: Risk-adjusted returns maintained above 12% with NPL ratio <2%
+  failure_modes:
+  - Inadequate data quality
+  - Model assumptions incorrect
+  - Market volatility unaccounted for
   metrics:
-    - "Portfolio risk-adjusted return: Target >12%"
-    - "Non-performing loan ratio: Target <2%"
-    - "Risk assessment accuracy: Target 95%"
-    - "Regulatory capital ratio: Target >10%"
+  - 'Portfolio risk-adjusted return: Target >12%'
+  - 'Non-performing loan ratio: Target <2%'
+  - 'Risk assessment accuracy: Target 95%'
+  - 'Regulatory capital ratio: Target >10%'

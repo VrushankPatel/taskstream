@@ -3,9 +3,21 @@
   "context": "Large manufacturing company facing increasing regulatory and stakeholder pressure for comprehensive environmental reporting and disclosure",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "CFO", "Board Sustainability Committee"],
-    "influencers": ["Operations VP", "Chief Information Officer", "Environmental Compliance Manager"],
-    "advisors": ["Sustainability Consultants", "Environmental Reporting Experts", "Regulatory Specialists"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Board Sustainability Committee"
+    ],
+    "influencers": [
+      "Operations VP",
+      "Chief Information Officer",
+      "Environmental Compliance Manager"
+    ],
+    "advisors": [
+      "Sustainability Consultants",
+      "Environmental Reporting Experts",
+      "Regulatory Specialists"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -17,32 +29,63 @@
     {
       "stage": "regulatory_assessment",
       "duration": "6 weeks",
-      "activities": ["Regulatory requirements analysis", "Reporting standards review", "Compliance gap assessment"],
+      "activities": [
+        "Regulatory requirements analysis",
+        "Reporting standards review",
+        "Compliance gap assessment"
+      ],
       "outcome": "Identified 15 new reporting requirements requiring immediate action"
     },
     {
       "stage": "technology_evaluation",
       "duration": "8 weeks",
-      "activities": ["Platform vendor evaluation", "Integration feasibility assessment", "Data collection strategy"],
+      "activities": [
+        "Platform vendor evaluation",
+        "Integration feasibility assessment",
+        "Data collection strategy"
+      ],
       "outcome": "Selected comprehensive platform with 90% automation capability"
     },
     {
       "stage": "pilot_deployment",
       "duration": "6 weeks",
-      "activities": ["Pilot in 3 facilities", "Data accuracy validation", "User acceptance testing"],
+      "activities": [
+        "Pilot in 3 facilities",
+        "Data accuracy validation",
+        "User acceptance testing"
+      ],
       "outcome": "Successful pilot reducing reporting time by 75%"
     },
     {
       "stage": "enterprise_implementation",
       "duration": "4 weeks",
-      "activities": ["Rollout strategy development", "Training program design", "Change management planning"],
+      "activities": [
+        "Rollout strategy development",
+        "Training program design",
+        "Change management planning"
+      ],
       "outcome": "Comprehensive implementation plan with dedicated support resources"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["75% reduction in reporting effort", "Improved regulatory compliance", "Enhanced stakeholder transparency", "Data-driven sustainability decisions"],
+    "expected_benefits": [
+      "75% reduction in reporting effort",
+      "Improved regulatory compliance",
+      "Enhanced stakeholder transparency",
+      "Data-driven sustainability decisions"
+    ],
     "projected_revenue": "$25,000,000 in efficiency gains and risk mitigation",
-    "risk_factors": ["Data quality and collection challenges", "Integration complexity", "Regulatory changes", "Resource requirements"],
-    "mitigation_strategies": ["Phased data collection approach", "Expert integration support", "Regulatory monitoring", "Dedicated implementation team"]
+    "risk_factors": [
+      "Data quality and collection challenges",
+      "Integration complexity",
+      "Regulatory changes",
+      "Resource requirements"
+    ],
+    "mitigation_strategies": [
+      "Phased data collection approach",
+      "Expert integration support",
+      "Regulatory monitoring",
+      "Dedicated implementation team"
+    ]
   }
 }

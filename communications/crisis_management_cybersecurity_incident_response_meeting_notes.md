@@ -1,9 +1,9 @@
 # Crisis Management Cybersecurity Incident Response Meeting
 
-**Date:** September 28, 2025  
-**Time:** 2:00 AM - 4:00 AM  
-**Location:** Emergency Operations Center  
-**Attendees:** CEO, CISO, CTO, General Counsel, Head of Communications, Incident Response Team Lead, Business Continuity Manager  
+**Date:** September 28, 2025
+**Time:** 2:00 AM - 4:00 AM
+**Location:** Emergency Operations Center
+**Attendees:** CEO, CISO, CTO, General Counsel, Head of Communications, Incident Response Team Lead, Business Continuity Manager
 
 ## Meeting Objective
 Review cybersecurity incident response and determine next steps for recovery and communication.

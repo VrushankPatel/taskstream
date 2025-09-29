@@ -3,8 +3,17 @@
   "context": "Large construction firm evaluating enterprise-wide adoption of Building Information Modeling (BIM) technology to improve project efficiency and reduce costs across 50+ active projects",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "Chief Operations Officer", "Chief Financial Officer"],
-    "influencers": ["Project Managers", "IT Director", "Safety Officer", "Subcontractor Representatives"]
+    "approvers": [
+      "CEO",
+      "Chief Operations Officer",
+      "Chief Financial Officer"
+    ],
+    "influencers": [
+      "Project Managers",
+      "IT Director",
+      "Safety Officer",
+      "Subcontractor Representatives"
+    ]
   },
   "request": {
     "amount": "$8,500,000",
@@ -16,28 +25,55 @@
     {
       "stage": "feasibility_assessment",
       "duration": "6 weeks",
-      "activities": ["Current process analysis", "Vendor evaluation and demonstrations", "ROI modeling", "Change management assessment"],
+      "activities": [
+        "Current process analysis",
+        "Vendor evaluation and demonstrations",
+        "ROI modeling",
+        "Change management assessment"
+      ],
       "outcome": "Strong business case identified with clear ROI"
     },
     {
       "stage": "pilot_testing",
       "duration": "12 weeks",
-      "activities": ["Select pilot projects", "Implement BIM on pilot sites", "Train pilot teams", "Monitor performance metrics"],
+      "activities": [
+        "Select pilot projects",
+        "Implement BIM on pilot sites",
+        "Train pilot teams",
+        "Monitor performance metrics"
+      ],
       "outcome": "Pilot successful with 25% efficiency gains"
     },
     {
       "stage": "enterprise_rollout_planning",
       "duration": "8 weeks",
-      "activities": ["Develop implementation roadmap", "Budget finalization", "Resource allocation", "Risk mitigation planning"],
+      "activities": [
+        "Develop implementation roadmap",
+        "Budget finalization",
+        "Resource allocation",
+        "Risk mitigation planning"
+      ],
       "outcome": "Comprehensive rollout plan approved"
     }
   ],
   "business_impact": {
     "expected_outcome": "20-30% improvement in project delivery time, 10-15% reduction in construction costs, enhanced client satisfaction, competitive advantage in BIM-required projects",
     "projected_value": "$15,000,000",
-    "risk_factors": ["Employee resistance to technology change", "Initial productivity dip during learning curve", "Integration challenges with existing systems", "Subcontractor BIM capability gaps"]
+    "risk_factors": [
+      "Employee resistance to technology change",
+      "Initial productivity dip during learning curve",
+      "Integration challenges with existing systems",
+      "Subcontractor BIM capability gaps"
+    ]
   },
-  "decision_criteria": ["Financial ROI and payback period", "Technical feasibility and integration", "Workforce adoption and training requirements", "Competitive advantage and market positioning", "Client requirements and industry standards", "Vendor support and long-term viability"],
+  "decision_criteria": [
+    "Financial ROI and payback period",
+    "Technical feasibility and integration",
+    "Workforce adoption and training requirements",
+    "Competitive advantage and market positioning",
+    "Client requirements and industry standards",
+    "Vendor support and long-term viability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot testing critical for demonstrating value and addressing adoption barriers; comprehensive training and change management essential for successful enterprise technology implementation"
 }

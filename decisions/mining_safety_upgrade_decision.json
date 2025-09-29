@@ -3,8 +3,17 @@
   "context": "Mining company evaluating comprehensive safety technology upgrades across operations to reduce accident rates and improve compliance",
   "stakeholders": {
     "requester": "Safety Director",
-    "approvers": ["CEO", "Chief Operating Officer", "Board Safety Committee"],
-    "influencers": ["Operations Manager", "Technology Director", "Human Resources Director", "Union Representatives"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "Board Safety Committee"
+    ],
+    "influencers": [
+      "Operations Manager",
+      "Technology Director",
+      "Human Resources Director",
+      "Union Representatives"
+    ]
   },
   "request": {
     "amount": "$85 million",
@@ -16,28 +25,55 @@
     {
       "stage": "safety_assessment",
       "duration": "3 months",
-      "activities": ["Current safety performance analysis", "Technology vendor evaluation", "ROI modeling for safety investments", "Regulatory compliance gap analysis"],
+      "activities": [
+        "Current safety performance analysis",
+        "Technology vendor evaluation",
+        "ROI modeling for safety investments",
+        "Regulatory compliance gap analysis"
+      ],
       "outcome": "Identified 40% accident reduction potential with 5-year payback period"
     },
     {
       "stage": "technology_evaluation",
       "duration": "4 months",
-      "activities": ["Pilot program implementation", "Technology integration testing", "Employee training program development", "Change management planning"],
+      "activities": [
+        "Pilot program implementation",
+        "Technology integration testing",
+        "Employee training program development",
+        "Change management planning"
+      ],
       "outcome": "Selected comprehensive safety technology suite with proven track record"
     },
     {
       "stage": "implementation_planning",
       "duration": "3 months",
-      "activities": ["Phased deployment strategy", "Resource allocation planning", "Risk assessment and mitigation", "Success metrics establishment"],
+      "activities": [
+        "Phased deployment strategy",
+        "Resource allocation planning",
+        "Risk assessment and mitigation",
+        "Success metrics establishment"
+      ],
       "outcome": "Detailed implementation roadmap with training and change management components"
     }
   ],
   "business_impact": {
     "expected_outcome": "50% reduction in workplace accidents, improved regulatory compliance, enhanced operational efficiency through reduced downtime",
     "projected_value": "$120 million in cost savings from reduced incidents and improved productivity over 7 years",
-    "risk_factors": ["Technology integration challenges", "Employee resistance to change", "Implementation delays", "Training effectiveness"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Employee resistance to change",
+      "Implementation delays",
+      "Training effectiveness"
+    ]
   },
-  "decision_criteria": ["Safety improvement potential", "Financial ROI", "Regulatory compliance", "Employee acceptance", "Technical feasibility", "Implementation timeline"],
+  "decision_criteria": [
+    "Safety improvement potential",
+    "Financial ROI",
+    "Regulatory compliance",
+    "Employee acceptance",
+    "Technical feasibility",
+    "Implementation timeline"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Safety technology investments require comprehensive change management and employee engagement, pilot programs are essential for technology validation, integrated safety systems provide better outcomes than individual solutions"
 }

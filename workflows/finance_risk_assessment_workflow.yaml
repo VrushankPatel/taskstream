@@ -1,45 +1,77 @@
 workflow:
-  id: "workflow_finance_risk_assessment"
-  title: "Finance Risk Assessment and Mitigation"
-  department: "Finance"
-  complexity: "medium"
-  participants: ["CFO", "Risk Manager", "Financial Analyst", "Compliance Officer", "Department Heads"]
-  trigger: "Quarterly risk assessment requirement or identified risk event"
+  id: workflow_finance_risk_assessment
+  title: Finance Risk Assessment and Mitigation
+  department: Finance
+  complexity: medium
+  participants:
+  - CFO
+  - Risk Manager
+  - Financial Analyst
+  - Compliance Officer
+  - Department Heads
+  trigger: Quarterly risk assessment requirement or identified risk event
   steps:
-    - step: 1
-      actor: "Risk Manager"
-      action: "Identify and categorize potential financial risks across business operations"
-      tools: ["Risk management software", "Financial modeling tools", "Industry reports"]
-      duration: "1 week"
-      outputs: ["Risk register", "Risk categorization matrix"]
-    - step: 2
-      actor: "Financial Analyst"
-      action: "Quantify risk exposures and assess potential financial impact"
-      tools: ["Financial modeling software", "Statistical analysis tools", "Scenario planning software"]
-      duration: "2 weeks"
-      outputs: ["Risk quantification report", "Impact assessment scenarios"]
-    - step: 3
-      actor: "Compliance Officer"
-      action: "Evaluate regulatory compliance risks and assess legal exposures"
-      tools: ["Regulatory databases", "Legal research tools", "Compliance monitoring systems"]
-      duration: "1 week"
-      outputs: ["Compliance risk assessment", "Regulatory gap analysis"]
-    - step: 4
-      actor: "Department Heads"
-      action: "Provide operational context and risk mitigation input for their areas"
-      tools: ["Department-specific risk assessment templates", "Collaboration platforms"]
-      duration: "1 week"
-      outputs: ["Operational risk inputs", "Mitigation recommendations"]
-    - step: 5
-      actor: "CFO"
-      action: "Review comprehensive risk assessment and approve mitigation strategies"
-      tools: ["Risk dashboard", "Executive reporting tools"]
-      duration: "3 days"
-      outputs: ["Approved risk mitigation plan", "Risk monitoring framework"]
-  success_criteria: "All identified risks assessed with mitigation plans implemented within budget"
-  failure_modes: ["Underestimation of risk impact", "Insufficient stakeholder involvement", "Delayed risk identification"]
+  - step: 1
+    actor: Risk Manager
+    action: Identify and categorize potential financial risks across business operations
+    tools:
+    - Risk management software
+    - Financial modeling tools
+    - Industry reports
+    duration: 1 week
+    outputs:
+    - Risk register
+    - Risk categorization matrix
+  - step: 2
+    actor: Financial Analyst
+    action: Quantify risk exposures and assess potential financial impact
+    tools:
+    - Financial modeling software
+    - Statistical analysis tools
+    - Scenario planning software
+    duration: 2 weeks
+    outputs:
+    - Risk quantification report
+    - Impact assessment scenarios
+  - step: 3
+    actor: Compliance Officer
+    action: Evaluate regulatory compliance risks and assess legal exposures
+    tools:
+    - Regulatory databases
+    - Legal research tools
+    - Compliance monitoring systems
+    duration: 1 week
+    outputs:
+    - Compliance risk assessment
+    - Regulatory gap analysis
+  - step: 4
+    actor: Department Heads
+    action: Provide operational context and risk mitigation input for their areas
+    tools:
+    - Department-specific risk assessment templates
+    - Collaboration platforms
+    duration: 1 week
+    outputs:
+    - Operational risk inputs
+    - Mitigation recommendations
+  - step: 5
+    actor: CFO
+    action: Review comprehensive risk assessment and approve mitigation strategies
+    tools:
+    - Risk dashboard
+    - Executive reporting tools
+    duration: 3 days
+    outputs:
+    - Approved risk mitigation plan
+    - Risk monitoring framework
+  success_criteria: All identified risks assessed with mitigation plans implemented
+    within budget
+  failure_modes:
+  - Underestimation of risk impact
+  - Insufficient stakeholder involvement
+  - Delayed risk identification
   metrics:
-    - "Risk assessment completion rate: Target 100%"
-    - "Risk mitigation implementation: Target 90% of high-priority risks"
-    - "Financial loss prevention: Target >95% of identified exposures"
-    - "Compliance violation rate: Target 0"
+  - 'Risk assessment completion rate: Target 100%'
+  - 'Risk mitigation implementation: Target 90% of high-priority risks'
+  - 'Financial loss prevention: Target >95% of identified exposures'
+  - 'Compliance violation rate: Target 0'

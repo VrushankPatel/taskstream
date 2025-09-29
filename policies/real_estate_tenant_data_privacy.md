@@ -108,6 +108,6 @@ Applies to all tenant data collected, stored, processed, or shared by property m
 ## Policy Enforcement
 Violations of this policy may result in disciplinary action up to and including termination. Serious violations involving intentional data misuse will be reported to regulatory authorities.
 
-*Effective Date: October 1, 2025*  
-*Last Updated: September 29, 2025*  
+*Effective Date: October 1, 2025*
+*Last Updated: September 29, 2025*
 *Approved By: Chief Privacy Officer*

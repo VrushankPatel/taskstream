@@ -1,34 +1,58 @@
 workflow:
-  id: "workflow_realestate_001"
-  title: "Real Estate Property Management Process"
-  department: "Property Management"
-  complexity: "medium"
-  participants: ["Property Manager", "Maintenance Coordinator", "Tenant Relations Specialist", "Financial Analyst"]
-  trigger: "New property acquisition or tenant inquiry"
+  id: workflow_realestate_001
+  title: Real Estate Property Management Process
+  department: Property Management
+  complexity: medium
+  participants:
+  - Property Manager
+  - Maintenance Coordinator
+  - Tenant Relations Specialist
+  - Financial Analyst
+  trigger: New property acquisition or tenant inquiry
   steps:
-    - step: 1
-      actor: "Property Manager"
-      action: "Oversee property operations and tenant communications"
-      tools: ["Property Management Software", "Tenant Portal"]
-      duration: "Daily"
-      outputs: ["Property status reports", "Tenant communications"]
-    - step: 2
-      actor: "Maintenance Coordinator"
-      action: "Manage maintenance requests and vendor relationships"
-      decision_points: ["Urgency level", "Budget constraints", "Vendor availability"]
-      duration: "As needed"
-      outputs: ["Maintenance schedules", "Vendor contracts"]
-    - step: 3
-      actor: "Tenant Relations Specialist"
-      action: "Handle tenant inquiries, lease renewals, and evictions"
-      tools: ["Lease Management System", "Communication Logs"]
-      duration: "Ongoing"
-      outputs: ["Lease agreements", "Tenant satisfaction surveys"]
-    - step: 4
-      actor: "Financial Analyst"
-      action: "Monitor property financials and prepare budgets"
-      tools: ["Financial Software", "Budget Templates"]
-      duration: "Monthly"
-      outputs: ["Financial reports", "Budget proposals"]
-  success_criteria: "Occupancy rate >95%, tenant retention >80%"
-  failure_modes: ["Maintenance delays", "Tenant disputes", "Financial losses"]
+  - step: 1
+    actor: Property Manager
+    action: Oversee property operations and tenant communications
+    tools:
+    - Property Management Software
+    - Tenant Portal
+    duration: Daily
+    outputs:
+    - Property status reports
+    - Tenant communications
+  - step: 2
+    actor: Maintenance Coordinator
+    action: Manage maintenance requests and vendor relationships
+    decision_points:
+    - Urgency level
+    - Budget constraints
+    - Vendor availability
+    duration: As needed
+    outputs:
+    - Maintenance schedules
+    - Vendor contracts
+  - step: 3
+    actor: Tenant Relations Specialist
+    action: Handle tenant inquiries, lease renewals, and evictions
+    tools:
+    - Lease Management System
+    - Communication Logs
+    duration: Ongoing
+    outputs:
+    - Lease agreements
+    - Tenant satisfaction surveys
+  - step: 4
+    actor: Financial Analyst
+    action: Monitor property financials and prepare budgets
+    tools:
+    - Financial Software
+    - Budget Templates
+    duration: Monthly
+    outputs:
+    - Financial reports
+    - Budget proposals
+  success_criteria: Occupancy rate >95%, tenant retention >80%
+  failure_modes:
+  - Maintenance delays
+  - Tenant disputes
+  - Financial losses

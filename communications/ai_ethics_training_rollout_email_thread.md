@@ -1,9 +1,9 @@
 ## Email Thread: AI Ethics Training Program Rollout
 
-**From:** Chief Ethics Officer  
-**To:** All Employees  
-**Subject:** Mandatory AI Ethics Training Program - Now Available  
-**Date:** September 28, 2025  
+**From:** Chief Ethics Officer
+**To:** All Employees
+**Subject:** Mandatory AI Ethics Training Program - Now Available
+**Date:** September 28, 2025
 
 Dear Team,
 
@@ -30,16 +30,16 @@ This program represents our commitment to ethical AI leadership. Your participat
 
 If you have questions about the program or need accommodations, please contact the Ethics Office at ethics@company.com.
 
-Best regards,  
-Dr. Maria Gonzalez  
-Chief Ethics Officer  
+Best regards,
+Dr. Maria Gonzalez
+Chief Ethics Officer
 
 ---
 
-**From:** VP Engineering  
-**To:** Chief Ethics Officer, Engineering Leadership Team  
-**Subject:** Re: Mandatory AI Ethics Training Program - Now Available  
-**Date:** September 28, 2025  
+**From:** VP Engineering
+**To:** Chief Ethics Officer, Engineering Leadership Team
+**Subject:** Re: Mandatory AI Ethics Training Program - Now Available
+**Date:** September 28, 2025
 
 Maria,
 
@@ -52,16 +52,16 @@ A couple of implementation questions:
 
 Looking forward to collaborating on this.
 
-Best,  
-Alex Thompson  
-VP Engineering  
+Best,
+Alex Thompson
+VP Engineering
 
 ---
 
-**From:** Head of AI Research  
-**To:** Chief Ethics Officer, VP Engineering  
-**Subject:** Re: Mandatory AI Ethics Training Program - Now Available  
-**Date:** September 28, 2025  
+**From:** Head of AI Research
+**To:** Chief Ethics Officer, VP Engineering
+**Subject:** Re: Mandatory AI Ethics Training Program - Now Available
+**Date:** September 28, 2025
 
 Maria, Alex,
 
@@ -69,16 +69,16 @@ The research team has some specific needs for the advanced modules. Our work on 
 
 Also, we'd like to ensure the training doesn't create barriers to rapid experimentation. Perhaps a "fast-track" option for researchers with demonstrated ethics expertise?
 
-Thanks,  
-Dr. James Liu  
-Head of AI Research  
+Thanks,
+Dr. James Liu
+Head of AI Research
 
 ---
 
-**From:** Chief Ethics Officer  
-**To:** VP Engineering, Head of AI Research, All Employees  
-**Subject:** Re: Mandatory AI Ethics Training Program - Now Available  
-**Date:** September 28, 2025  
+**From:** Chief Ethics Officer
+**To:** VP Engineering, Head of AI Research, All Employees
+**Subject:** Re: Mandatory AI Ethics Training Program - Now Available
+**Date:** September 28, 2025
 
 Thanks for the engagement, Alex and James.
 
@@ -92,5 +92,5 @@ The platform now includes progress tracking and team leader dashboards so manage
 
 Appreciate the collaborative spirit on this important initiative!
 
-Best,  
+Best,
 Dr. Maria Gonzalez

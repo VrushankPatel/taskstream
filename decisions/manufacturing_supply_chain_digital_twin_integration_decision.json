@@ -3,8 +3,16 @@
   "context": "Global manufacturing company with 50 production facilities, implementing Industry 4.0 initiatives",
   "stakeholders": {
     "requester": "VP of Operations",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Plant Managers", "IT Infrastructure Team", "Supply Chain Partners"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Plant Managers",
+      "IT Infrastructure Team",
+      "Supply Chain Partners"
+    ]
   },
   "request": {
     "amount": "$45,000,000",
@@ -16,32 +24,53 @@
     {
       "stage": "technology_assessment",
       "duration": "6 weeks",
-      "activities": ["Vendor evaluation", "Platform compatibility testing", "Integration feasibility study"],
+      "activities": [
+        "Vendor evaluation",
+        "Platform compatibility testing",
+        "Integration feasibility study"
+      ],
       "outcome": "Selected leading digital twin platform with proven manufacturing applications"
     },
     {
       "stage": "pilot_program_design",
       "duration": "8 weeks",
-      "activities": ["Pilot facility selection", "Data collection strategy", "Success metrics definition"],
+      "activities": [
+        "Pilot facility selection",
+        "Data collection strategy",
+        "Success metrics definition"
+      ],
       "outcome": "Comprehensive pilot plan with clear KPIs and risk mitigation"
     },
     {
       "stage": "roi_analysis",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Payback period calculation", "Risk-adjusted financial modeling"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Payback period calculation",
+        "Risk-adjusted financial modeling"
+      ],
       "outcome": "3-year payback with 28% IRR and $85M NPV"
     },
     {
       "stage": "change_management_planning",
       "duration": "6 weeks",
-      "activities": ["Stakeholder engagement", "Training program development", "Resistance mitigation strategy"],
+      "activities": [
+        "Stakeholder engagement",
+        "Training program development",
+        "Resistance mitigation strategy"
+      ],
       "outcome": "Comprehensive change management plan with executive sponsorship"
     }
   ],
   "business_impact": {
     "expected_efficiency_gains": "25% reduction in unplanned downtime",
     "projected_cost_savings": "$150,000,000",
-    "risk_factors": ["Data quality and integration challenges", "Skills gap in digital technologies", "Vendor platform dependencies", "Cybersecurity vulnerabilities"],
+    "risk_factors": [
+      "Data quality and integration challenges",
+      "Skills gap in digital technologies",
+      "Vendor platform dependencies",
+      "Cybersecurity vulnerabilities"
+    ],
     "strategic_alignment": "Accelerates Industry 4.0 transformation and establishes competitive advantage in smart manufacturing"
   }
 }

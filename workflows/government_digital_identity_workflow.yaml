@@ -1,40 +1,76 @@
 workflow:
-  id: "workflow_government_digital_identity"
-  title: "Digital Identity Verification System"
-  department: "Digital Services"
-  complexity: "high"
-  participants: ["Identity Verification Officer", "Security Analyst", "Legal Counsel", "IT Operations", "Privacy Officer"]
-  trigger: "Citizen submits identity verification request"
+  id: workflow_government_digital_identity
+  title: Digital Identity Verification System
+  department: Digital Services
+  complexity: high
+  participants:
+  - Identity Verification Officer
+  - Security Analyst
+  - Legal Counsel
+  - IT Operations
+  - Privacy Officer
+  trigger: Citizen submits identity verification request
   steps:
-    - step: 1
-      actor: "Automated System"
-      action: "Perform initial document scanning and biometric capture"
-      tools: ["Document Scanner", "Biometric Capture Devices", "OCR Software"]
-      duration: "5-10 minutes"
-      outputs: ["Digitized documents", "Biometric data", "Initial validation results"]
-    - step: 2
-      actor: "Identity Verification Officer"
-      action: "Review automated results and perform manual verification"
-      decision_points: ["Documents authentic?", "Biometric match confirmed?", "Additional verification needed?"]
-      duration: "15-30 minutes"
-      outputs: ["Verification decision", "Digital identity certificate", "Audit trail"]
-    - step: 3
-      actor: "Security Analyst"
-      action: "Monitor for fraudulent patterns and security threats"
-      tools: ["Fraud Detection System", "Security Monitoring Tools"]
-      duration: "Real-time monitoring"
-      outputs: ["Security alerts", "Fraud prevention reports", "System security updates"]
-    - step: 4
-      actor: "Legal Counsel"
-      action: "Ensure compliance with privacy and data protection regulations"
-      tools: ["Legal Compliance Database", "Privacy Impact Assessment Tools"]
-      duration: "Monthly review"
-      outputs: ["Compliance reports", "Policy recommendations", "Legal risk assessments"]
-    - step: 5
-      actor: "IT Operations"
-      action: "Maintain system uptime and data integrity"
-      tools: ["System Monitoring Tools", "Backup Systems"]
-      duration: "24/7 support"
-      outputs: ["System health reports", "Incident response logs", "Performance metrics"]
-  success_criteria: "Verification accuracy >99%, processing time <24 hours, fraud detection rate >95%"
-  failure_modes: ["System outages disrupting service delivery", "False rejections causing citizen frustration", "Privacy breaches from inadequate data protection"]
+  - step: 1
+    actor: Automated System
+    action: Perform initial document scanning and biometric capture
+    tools:
+    - Document Scanner
+    - Biometric Capture Devices
+    - OCR Software
+    duration: 5-10 minutes
+    outputs:
+    - Digitized documents
+    - Biometric data
+    - Initial validation results
+  - step: 2
+    actor: Identity Verification Officer
+    action: Review automated results and perform manual verification
+    decision_points:
+    - Documents authentic?
+    - Biometric match confirmed?
+    - Additional verification needed?
+    duration: 15-30 minutes
+    outputs:
+    - Verification decision
+    - Digital identity certificate
+    - Audit trail
+  - step: 3
+    actor: Security Analyst
+    action: Monitor for fraudulent patterns and security threats
+    tools:
+    - Fraud Detection System
+    - Security Monitoring Tools
+    duration: Real-time monitoring
+    outputs:
+    - Security alerts
+    - Fraud prevention reports
+    - System security updates
+  - step: 4
+    actor: Legal Counsel
+    action: Ensure compliance with privacy and data protection regulations
+    tools:
+    - Legal Compliance Database
+    - Privacy Impact Assessment Tools
+    duration: Monthly review
+    outputs:
+    - Compliance reports
+    - Policy recommendations
+    - Legal risk assessments
+  - step: 5
+    actor: IT Operations
+    action: Maintain system uptime and data integrity
+    tools:
+    - System Monitoring Tools
+    - Backup Systems
+    duration: 24/7 support
+    outputs:
+    - System health reports
+    - Incident response logs
+    - Performance metrics
+  success_criteria: Verification accuracy >99%, processing time <24 hours, fraud detection
+    rate >95%
+  failure_modes:
+  - System outages disrupting service delivery
+  - False rejections causing citizen frustration
+  - Privacy breaches from inadequate data protection

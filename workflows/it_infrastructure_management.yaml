@@ -1,40 +1,61 @@
 workflow:
-  id: "workflow_it_001"
-  title: "IT Infrastructure Incident Response"
-  department: "IT Operations"
-  complexity: "high"
-  participants: ["IT Support", "System Administrator", "IT Manager", "Security Team"]
-  trigger: "System monitoring alert or user report of outage"
+  id: workflow_it_001
+  title: IT Infrastructure Incident Response
+  department: IT Operations
+  complexity: high
+  participants:
+  - IT Support
+  - System Administrator
+  - IT Manager
+  - Security Team
+  trigger: System monitoring alert or user report of outage
   steps:
-    - step: 1
-      actor: "IT Support"
-      action: "Triage incident and gather initial information"
-      tools: ["Monitoring dashboard", "Incident tracking system"]
-      duration: "15 minutes"
-      outputs: ["Incident ticket", "Initial assessment"]
-    - step: 2
-      actor: "System Administrator"
-      action: "Diagnose root cause and implement immediate fix"
-      decision_points: ["Severity level", "Business impact"]
-      duration: "1-4 hours"
-      outputs: ["Root cause analysis", "Temporary fix"]
-    - step: 3
-      actor: "IT Manager"
-      action: "Escalate to leadership if needed and coordinate communication"
-      tools: ["Status page", "Internal communication channels"]
-      duration: "30 minutes"
-      outputs: ["Stakeholder updates", "Post-mortem plan"]
-    - step: 4
-      actor: "Security Team"
-      action: "Review for security implications if applicable"
-      duration: "2-8 hours"
-      outputs: ["Security assessment", "Recommendations"]
-  success_criteria: "System restored with minimal downtime, root cause identified"
-  failure_modes: ["Prolonged outage", "Data loss", "Security breach"]
+  - step: 1
+    actor: IT Support
+    action: Triage incident and gather initial information
+    tools:
+    - Monitoring dashboard
+    - Incident tracking system
+    duration: 15 minutes
+    outputs:
+    - Incident ticket
+    - Initial assessment
+  - step: 2
+    actor: System Administrator
+    action: Diagnose root cause and implement immediate fix
+    decision_points:
+    - Severity level
+    - Business impact
+    duration: 1-4 hours
+    outputs:
+    - Root cause analysis
+    - Temporary fix
+  - step: 3
+    actor: IT Manager
+    action: Escalate to leadership if needed and coordinate communication
+    tools:
+    - Status page
+    - Internal communication channels
+    duration: 30 minutes
+    outputs:
+    - Stakeholder updates
+    - Post-mortem plan
+  - step: 4
+    actor: Security Team
+    action: Review for security implications if applicable
+    duration: 2-8 hours
+    outputs:
+    - Security assessment
+    - Recommendations
+  success_criteria: System restored with minimal downtime, root cause identified
+  failure_modes:
+  - Prolonged outage
+  - Data loss
+  - Security breach
   metrics:
-    - "Mean time to resolution: <4 hours for critical incidents"
-    - "System uptime: >99.9% monthly availability"
-    - "Incident response accuracy: >95% first-call resolution"
-    - "Post-mortem completion: 100% of major incidents"
-    - "Mean time between failures: >720 hours"
-    - "Customer impact duration: <30 minutes for non-critical incidents"
+  - 'Mean time to resolution: <4 hours for critical incidents'
+  - 'System uptime: >99.9% monthly availability'
+  - 'Incident response accuracy: >95% first-call resolution'
+  - 'Post-mortem completion: 100% of major incidents'
+  - 'Mean time between failures: >720 hours'
+  - 'Customer impact duration: <30 minutes for non-critical incidents'

@@ -1,46 +1,79 @@
 workflow:
-  id: "workflow_crisis_response"
-  title: "Crisis Incident Response Coordination"
-  department: "Crisis Management"
-  complexity: "high"
-  participants: ["Incident Commander", "Communications Lead", "Operations Coordinator", "Legal Advisor", "External Partners"]
-  trigger: "Major incident detection or external threat notification"
+  id: workflow_crisis_response
+  title: Crisis Incident Response Coordination
+  department: Crisis Management
+  complexity: high
+  participants:
+  - Incident Commander
+  - Communications Lead
+  - Operations Coordinator
+  - Legal Advisor
+  - External Partners
+  trigger: Major incident detection or external threat notification
   steps:
-    - step: 1
-      actor: "Incident Commander"
-      action: "Assess incident and declare crisis level"
-      tools: ["Incident assessment protocols", "Crisis management software"]
-      duration: "15 minutes"
-      outputs: ["Crisis declaration", "Initial response plan"]
-    - step: 2
-      actor: "Communications Lead"
-      action: "Activate communication protocols and prepare messaging"
-      decision_points: ["Stakeholder notification priorities", "Media engagement strategy"]
-      duration: "30 minutes"
-      outputs: ["Communication plan", "Key message templates"]
-    - step: 3
-      actor: "Operations Coordinator"
-      action: "Mobilize response teams and allocate resources"
-      tools: ["Resource management systems", "Emergency contact databases"]
-      duration: "1 hour"
-      outputs: ["Resource allocation plan", "Team assignments"]
-    - step: 4
-      actor: "Legal Advisor"
-      action: "Review legal obligations and liability considerations"
-      decision_points: ["Regulatory reporting requirements", "Legal counsel activation"]
-      duration: "2 hours"
-      outputs: ["Legal assessment", "Compliance directives"]
-    - step: 5
-      actor: "Incident Commander"
-      action: "Execute response plan and monitor progress"
-      decision_points: ["Escalation triggers", "Plan adjustments needed"]
-      duration: "Variable - hours to days"
-      outputs: ["Response progress reports", "Situation updates"]
-    - step: 6
-      actor: "Communications Lead"
-      action: "Manage stakeholder communications and reputation protection"
-      tools: ["Social media monitoring", "Press release templates"]
-      duration: "Ongoing throughout crisis"
-      outputs: ["Communication logs", "Stakeholder feedback summaries"]
-  success_criteria: "Contain incident impact and restore operations within defined timelines"
-  failure_modes: ["Slow initial response", "Poor communication", "Resource shortages"]
+  - step: 1
+    actor: Incident Commander
+    action: Assess incident and declare crisis level
+    tools:
+    - Incident assessment protocols
+    - Crisis management software
+    duration: 15 minutes
+    outputs:
+    - Crisis declaration
+    - Initial response plan
+  - step: 2
+    actor: Communications Lead
+    action: Activate communication protocols and prepare messaging
+    decision_points:
+    - Stakeholder notification priorities
+    - Media engagement strategy
+    duration: 30 minutes
+    outputs:
+    - Communication plan
+    - Key message templates
+  - step: 3
+    actor: Operations Coordinator
+    action: Mobilize response teams and allocate resources
+    tools:
+    - Resource management systems
+    - Emergency contact databases
+    duration: 1 hour
+    outputs:
+    - Resource allocation plan
+    - Team assignments
+  - step: 4
+    actor: Legal Advisor
+    action: Review legal obligations and liability considerations
+    decision_points:
+    - Regulatory reporting requirements
+    - Legal counsel activation
+    duration: 2 hours
+    outputs:
+    - Legal assessment
+    - Compliance directives
+  - step: 5
+    actor: Incident Commander
+    action: Execute response plan and monitor progress
+    decision_points:
+    - Escalation triggers
+    - Plan adjustments needed
+    duration: Variable - hours to days
+    outputs:
+    - Response progress reports
+    - Situation updates
+  - step: 6
+    actor: Communications Lead
+    action: Manage stakeholder communications and reputation protection
+    tools:
+    - Social media monitoring
+    - Press release templates
+    duration: Ongoing throughout crisis
+    outputs:
+    - Communication logs
+    - Stakeholder feedback summaries
+  success_criteria: Contain incident impact and restore operations within defined
+    timelines
+  failure_modes:
+  - Slow initial response
+  - Poor communication
+  - Resource shortages

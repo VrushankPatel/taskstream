@@ -1,10 +1,10 @@
 ## Meeting Notes: Hospitality Labor Shortage Crisis Response
 
-**Meeting Title:** Workforce Crisis Management Strategy Session  
-**Date:** September 29, 2025  
-**Time:** 2:00 PM - 4:00 PM  
-**Location:** Virtual Meeting  
-**Attendees:** CEO, CHRO, Regional General Managers, Department Heads, HR Business Partners  
+**Meeting Title:** Workforce Crisis Management Strategy Session
+**Date:** September 29, 2025
+**Time:** 2:00 PM - 4:00 PM
+**Location:** Virtual Meeting
+**Attendees:** CEO, CHRO, Regional General Managers, Department Heads, HR Business Partners
 
 ### Agenda
 1. Labor Market Assessment

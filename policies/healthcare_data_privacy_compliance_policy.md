@@ -153,6 +153,6 @@ The organization is committed to protecting patient privacy and ensuring the con
 ## Review and Approval
 This policy is reviewed annually and updated as needed based on regulatory changes, technology advancements, and privacy incident reviews.
 
-**Approved by:** Chief Executive Officer  
-**Effective Date:** October 1, 2025  
+**Approved by:** Chief Executive Officer
+**Effective Date:** October 1, 2025
 **Next Review Date:** September 30, 2026

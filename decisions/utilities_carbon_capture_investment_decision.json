@@ -3,8 +3,16 @@
   "context": "Electric utility company evaluating carbon capture technology for coal-fired power plant",
   "stakeholders": {
     "requester": "Chief Sustainability Officer",
-    "approvers": ["CEO", "Board of Directors", "Regulatory Affairs Director"],
-    "influencers": ["Operations Director", "Finance Director", "Environmental Groups"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Regulatory Affairs Director"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Finance Director",
+      "Environmental Groups"
+    ]
   },
   "request": {
     "amount": "$120M",
@@ -16,19 +24,31 @@
     {
       "stage": "technology_assessment",
       "duration": "8 weeks",
-      "activities": ["Technology vendor evaluation", "Performance testing review", "Site feasibility study"],
+      "activities": [
+        "Technology vendor evaluation",
+        "Performance testing review",
+        "Site feasibility study"
+      ],
       "outcome": "Multiple viable carbon capture technologies identified"
     },
     {
       "stage": "regulatory_analysis",
       "duration": "6 weeks",
-      "activities": ["Carbon regulation review", "Incentive program analysis", "Permit requirement assessment"],
+      "activities": [
+        "Carbon regulation review",
+        "Incentive program analysis",
+        "Permit requirement assessment"
+      ],
       "outcome": "Strong regulatory support with tax credits available"
     },
     {
       "stage": "economic_modeling",
       "duration": "4 weeks",
-      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding strategy development"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment",
+        "Funding strategy development"
+      ],
       "outcome": "Positive economics with government incentives"
     }
   ],
@@ -76,7 +96,12 @@
       "Local supplier development"
     ]
   },
-  "decision_criteria": ["Carbon reduction >80%", "Economic viability with incentives", "Technology maturity", "Regulatory alignment"],
+  "decision_criteria": [
+    "Carbon reduction >80%",
+    "Economic viability with incentives",
+    "Technology maturity",
+    "Regulatory alignment"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Government incentives critical for economic viability, early regulatory engagement essential"
 }

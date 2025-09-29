@@ -1,41 +1,68 @@
 workflow:
-  id: "workflow_customer_onboarding_fintech_001"
-  title: "Fintech Customer Onboarding Process"
-  department: "Customer Success"
-  complexity: "medium"
-  participants: ["Customer Success Manager", "Compliance Officer", "Technical Support", "Account Manager"]
-  trigger: "New customer signs contract"
+  id: workflow_customer_onboarding_fintech_001
+  title: Fintech Customer Onboarding Process
+  department: Customer Success
+  complexity: medium
+  participants:
+  - Customer Success Manager
+  - Compliance Officer
+  - Technical Support
+  - Account Manager
+  trigger: New customer signs contract
   steps:
-    - step: 1
-      actor: "Customer Success Manager"
-      action: "Send welcome package and schedule kickoff call"
-      tools: ["Email automation", "Calendar system", "Welcome kit"]
-      duration: "1 day"
-      outputs: ["Welcome email sent", "Kickoff meeting scheduled"]
-    - step: 2
-      actor: "Compliance Officer"
-      action: "Verify customer identity and conduct KYC/AML checks"
-      tools: ["Identity verification system", "Document scanner", "Regulatory database"]
-      duration: "3-5 business days"
-      outputs: ["KYC approval", "Compliance documentation"]
-    - step: 3
-      actor: "Technical Support"
-      action: "Set up customer account and configure platform access"
-      tools: ["User management system", "API keys", "Security settings"]
-      duration: "2-3 days"
-      outputs: ["Account activated", "Login credentials provided"]
-    - step: 4
-      actor: "Customer Success Manager"
-      action: "Conduct training session and provide ongoing support"
-      tools: ["Training platform", "Knowledge base", "Support ticketing"]
-      duration: "1-2 weeks"
-      outputs: ["Training completion certificate", "Support plan established"]
-  success_criteria: "Customer actively using platform with positive feedback"
-  failure_modes: ["Compliance issues", "Technical setup problems", "Poor user adoption"]
+  - step: 1
+    actor: Customer Success Manager
+    action: Send welcome package and schedule kickoff call
+    tools:
+    - Email automation
+    - Calendar system
+    - Welcome kit
+    duration: 1 day
+    outputs:
+    - Welcome email sent
+    - Kickoff meeting scheduled
+  - step: 2
+    actor: Compliance Officer
+    action: Verify customer identity and conduct KYC/AML checks
+    tools:
+    - Identity verification system
+    - Document scanner
+    - Regulatory database
+    duration: 3-5 business days
+    outputs:
+    - KYC approval
+    - Compliance documentation
+  - step: 3
+    actor: Technical Support
+    action: Set up customer account and configure platform access
+    tools:
+    - User management system
+    - API keys
+    - Security settings
+    duration: 2-3 days
+    outputs:
+    - Account activated
+    - Login credentials provided
+  - step: 4
+    actor: Customer Success Manager
+    action: Conduct training session and provide ongoing support
+    tools:
+    - Training platform
+    - Knowledge base
+    - Support ticketing
+    duration: 1-2 weeks
+    outputs:
+    - Training completion certificate
+    - Support plan established
+  success_criteria: Customer actively using platform with positive feedback
+  failure_modes:
+  - Compliance issues
+  - Technical setup problems
+  - Poor user adoption
   metrics:
-    - "Onboarding completion rate: >90% within 30 days"
-    - "KYC approval time: <5 business days average"
-    - "Platform activation rate: >85% of onboarded customers"
-    - "Customer satisfaction score: >4.5/5 post-onboarding"
-    - "Time to first transaction: <7 days average"
-    - "Support ticket volume: <2 per customer in first month"
+  - 'Onboarding completion rate: >90% within 30 days'
+  - 'KYC approval time: <5 business days average'
+  - 'Platform activation rate: >85% of onboarded customers'
+  - 'Customer satisfaction score: >4.5/5 post-onboarding'
+  - 'Time to first transaction: <7 days average'
+  - 'Support ticket volume: <2 per customer in first month'

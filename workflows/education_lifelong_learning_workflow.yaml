@@ -1,40 +1,69 @@
 workflow:
-  id: "workflow_019_004"
-  title: "Lifelong Learning Platform Development"
-  department: "Continuing Education"
-  complexity: "medium"
-  participants: ["Program Director", "Curriculum Developer", "Technology Specialist", "Industry Partner", "Learner Success Coach"]
-  trigger: "Market demand for continuous professional development"
+  id: workflow_019_004
+  title: Lifelong Learning Platform Development
+  department: Continuing Education
+  complexity: medium
+  participants:
+  - Program Director
+  - Curriculum Developer
+  - Technology Specialist
+  - Industry Partner
+  - Learner Success Coach
+  trigger: Market demand for continuous professional development
   steps:
-    - step: 1
-      actor: "Program Director"
-      action: "Identify industry skill gaps and learning needs"
-      tools: ["Market research", "Industry surveys"]
-      duration: "4 weeks"
-      outputs: ["Learning needs assessment", "Program objectives"]
-    - step: 2
-      actor: "Curriculum Developer"
-      action: "Design modular, stackable learning pathways"
-      tools: ["Curriculum design frameworks", "Competency mapping"]
-      duration: "8 weeks"
-      outputs: ["Learning pathways", "Course modules"]
-    - step: 3
-      actor: "Technology Specialist"
-      action: "Implement micro-credentialing and digital badging system"
-      tools: ["LMS platform", "Blockchain credentials"]
-      duration: "6 weeks"
-      outputs: ["Credentialing system", "Digital wallet integration"]
-    - step: 4
-      actor: "Industry Partner"
-      action: "Validate curriculum relevance and provide real-world projects"
-      decision_points: ["Partnership scope", "Project complexity", "Assessment methods"]
-      duration: "Ongoing"
-      outputs: ["Industry-validated content", "Capstone projects"]
-    - step: 5
-      actor: "Learner Success Coach"
-      action: "Provide personalized guidance and career counseling"
-      tools: ["Coaching platform", "Career assessment tools"]
-      duration: "Ongoing"
-      outputs: ["Progress tracking", "Career guidance reports"]
-  success_criteria: "10,000 active learners, 70% completion rate, 60% employment improvement"
-  failure_modes: ["Content relevance issues", "Technology adoption barriers", "Funding sustainability"]
+  - step: 1
+    actor: Program Director
+    action: Identify industry skill gaps and learning needs
+    tools:
+    - Market research
+    - Industry surveys
+    duration: 4 weeks
+    outputs:
+    - Learning needs assessment
+    - Program objectives
+  - step: 2
+    actor: Curriculum Developer
+    action: Design modular, stackable learning pathways
+    tools:
+    - Curriculum design frameworks
+    - Competency mapping
+    duration: 8 weeks
+    outputs:
+    - Learning pathways
+    - Course modules
+  - step: 3
+    actor: Technology Specialist
+    action: Implement micro-credentialing and digital badging system
+    tools:
+    - LMS platform
+    - Blockchain credentials
+    duration: 6 weeks
+    outputs:
+    - Credentialing system
+    - Digital wallet integration
+  - step: 4
+    actor: Industry Partner
+    action: Validate curriculum relevance and provide real-world projects
+    decision_points:
+    - Partnership scope
+    - Project complexity
+    - Assessment methods
+    duration: Ongoing
+    outputs:
+    - Industry-validated content
+    - Capstone projects
+  - step: 5
+    actor: Learner Success Coach
+    action: Provide personalized guidance and career counseling
+    tools:
+    - Coaching platform
+    - Career assessment tools
+    duration: Ongoing
+    outputs:
+    - Progress tracking
+    - Career guidance reports
+  success_criteria: 10,000 active learners, 70% completion rate, 60% employment improvement
+  failure_modes:
+  - Content relevance issues
+  - Technology adoption barriers
+  - Funding sustainability

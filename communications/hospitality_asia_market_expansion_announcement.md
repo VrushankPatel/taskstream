@@ -1,9 +1,9 @@
 # Hospitality Asia Market Expansion Announcement
 
-**From:** Sarah Chen, CEO, Global Hospitality Group  
-**To:** All Employees, Investors, Media Partners  
-**Date:** September 29, 2025  
-**Subject:** Exciting News: Major Expansion into Asian Markets  
+**From:** Sarah Chen, CEO, Global Hospitality Group
+**To:** All Employees, Investors, Media Partners
+**Date:** September 29, 2025
+**Subject:** Exciting News: Major Expansion into Asian Markets
 
 Dear Team and Partners,
 
@@ -80,18 +80,18 @@ Thank you to our incredible team whose dedication makes this vision possible. Sp
 
 We look forward to welcoming you to our new Asian properties and continuing our journey of creating unforgettable experiences worldwide.
 
-Best regards,  
-Sarah Chen  
+Best regards,
+Sarah Chen
 CEO, Global Hospitality Group
 
 ## Media Contact
-Jennifer Wong  
-Director of Communications  
-jennifer.wong@globalhospitality.com  
+Jennifer Wong
+Director of Communications
+jennifer.wong@globalhospitality.com
 +1 (555) 123-4567
 
 ## Investor Relations Contact
-Michael Rodriguez  
-VP Investor Relations  
-michael.rodriguez@globalhospitality.com  
+Michael Rodriguez
+VP Investor Relations
+michael.rodriguez@globalhospitality.com
 +1 (555) 987-6543

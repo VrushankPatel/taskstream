@@ -3,8 +3,16 @@
   "context": "Property insurance company ($500M premium) considering parametric insurance products",
   "stakeholders": {
     "requester": "VP Product Development",
-    "approvers": ["Chief Underwriter", "CFO", "CEO"],
-    "influencers": ["Head of Actuarial", "IT Director", "Marketing Director"]
+    "approvers": [
+      "Chief Underwriter",
+      "CFO",
+      "CEO"
+    ],
+    "influencers": [
+      "Head of Actuarial",
+      "IT Director",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$1,200,000",
@@ -16,22 +24,39 @@
     {
       "stage": "market_research",
       "duration": "6 weeks",
-      "activities": ["Competitor analysis", "Customer surveys", "Regulatory review"],
+      "activities": [
+        "Competitor analysis",
+        "Customer surveys",
+        "Regulatory review"
+      ],
       "outcome": "Identified viable product lines"
     },
     {
       "stage": "pilot_program",
       "duration": "3 months",
-      "activities": ["Product design", "Actuarial modeling", "Technology development"],
+      "activities": [
+        "Product design",
+        "Actuarial modeling",
+        "Technology development"
+      ],
       "outcome": "Successful pilot with 25% faster claims"
     }
   ],
   "business_impact": {
     "expected_outcome": "New revenue stream, improved customer satisfaction",
     "projected_value": "$3,000,000 annual premium growth",
-    "risk_factors": ["Regulatory uncertainty", "Technology complexity", "Market acceptance"]
+    "risk_factors": [
+      "Regulatory uncertainty",
+      "Technology complexity",
+      "Market acceptance"
+    ]
   },
-  "decision_criteria": ["Market demand", "Technical feasibility", "Regulatory compliance", "Profitability"],
+  "decision_criteria": [
+    "Market demand",
+    "Technical feasibility",
+    "Regulatory compliance",
+    "Profitability"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot programs essential for validating innovative products"
 }

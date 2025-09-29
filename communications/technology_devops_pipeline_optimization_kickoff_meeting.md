@@ -1,10 +1,10 @@
 ## Meeting Notes: DevOps Pipeline Optimization Kickoff
 
-**Date:** October 15, 2025  
-**Time:** 2:00 PM - 3:30 PM  
-**Location:** Conference Room A  
-**Attendees:** Sarah Chen (VP Engineering), Mike Rodriguez (DevOps Lead), Lisa Wong (Senior Developer), David Kim (QA Manager), Alex Thompson (Product Owner)  
-**Facilitator:** Sarah Chen  
+**Date:** October 15, 2025
+**Time:** 2:00 PM - 3:30 PM
+**Location:** Conference Room A
+**Attendees:** Sarah Chen (VP Engineering), Mike Rodriguez (DevOps Lead), Lisa Wong (Senior Developer), David Kim (QA Manager), Alex Thompson (Product Owner)
+**Facilitator:** Sarah Chen
 
 ### Agenda
 1. Current pipeline pain points review

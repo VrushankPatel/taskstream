@@ -3,8 +3,15 @@
   "context": "Luxury hotel chain with 25 properties, facing extended closure due to global health crisis",
   "stakeholders": {
     "requester": "Chief Operating Officer",
-    "approvers": ["CEO", "Board of Directors"],
-    "influencers": ["Property Managers", "Finance Director", "Marketing Director"]
+    "approvers": [
+      "CEO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Property Managers",
+      "Finance Director",
+      "Marketing Director"
+    ]
   },
   "request": {
     "amount": "$8 million",
@@ -16,26 +23,50 @@
     {
       "stage": "crisis_impact_assessment",
       "duration": "3 weeks",
-      "activities": ["Financial impact analysis", "Market recovery assessment", "Competitive landscape review"],
+      "activities": [
+        "Financial impact analysis",
+        "Market recovery assessment",
+        "Competitive landscape review"
+      ],
       "outcome": "Comprehensive recovery strategy required"
     },
     {
       "stage": "recovery_strategy_development",
       "duration": "6 weeks",
-      "activities": ["Health and safety protocol design", "Service standard updates", "Marketing campaign planning"],
+      "activities": [
+        "Health and safety protocol design",
+        "Service standard updates",
+        "Marketing campaign planning"
+      ],
       "outcome": "Multi-phase recovery plan developed"
     },
     {
       "stage": "resource_allocation",
       "duration": "4 weeks",
-      "activities": ["Budget prioritization", "Timeline optimization", "Risk mitigation planning"],
+      "activities": [
+        "Budget prioritization",
+        "Timeline optimization",
+        "Risk mitigation planning"
+      ],
       "outcome": "Approved with conditional funding based on phased milestones"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["90% occupancy recovery within 12 months", "Enhanced brand reputation", "Improved operational resilience"],
+    "expected_benefits": [
+      "90% occupancy recovery within 12 months",
+      "Enhanced brand reputation",
+      "Improved operational resilience"
+    ],
     "projected_roi": "18 months",
-    "risk_factors": ["Extended market recovery", "Changing guest expectations", "Staffing challenges"],
-    "success_metrics": ["Occupancy rate recovery", "Guest satisfaction scores", "Revenue per available room"]
+    "risk_factors": [
+      "Extended market recovery",
+      "Changing guest expectations",
+      "Staffing challenges"
+    ],
+    "success_metrics": [
+      "Occupancy rate recovery",
+      "Guest satisfaction scores",
+      "Revenue per available room"
+    ]
   }
 }

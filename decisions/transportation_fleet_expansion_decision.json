@@ -3,8 +3,17 @@
   "context": "Regional logistics company evaluating transition to electric vehicle fleet for last-mile delivery operations",
   "stakeholders": {
     "requester": "VP Operations",
-    "approvers": ["CEO", "Chief Operating Officer", "CFO"],
-    "influencers": ["Fleet Operations Manager", "Sustainability Director", "IT Infrastructure Lead", "Procurement Director"]
+    "approvers": [
+      "CEO",
+      "Chief Operating Officer",
+      "CFO"
+    ],
+    "influencers": [
+      "Fleet Operations Manager",
+      "Sustainability Director",
+      "IT Infrastructure Lead",
+      "Procurement Director"
+    ]
   },
   "request": {
     "amount": "$18 million",
@@ -16,40 +25,81 @@
     {
       "stage": "operational_assessment",
       "duration": "2 weeks",
-      "activities": ["Delivery route optimization analysis", "Vehicle specification requirements", "Driver training needs assessment", "Maintenance facility evaluation"],
+      "activities": [
+        "Delivery route optimization analysis",
+        "Vehicle specification requirements",
+        "Driver training needs assessment",
+        "Maintenance facility evaluation"
+      ],
       "outcome": "Electric vehicles feasible for 80% of routes"
     },
     {
       "stage": "financial_evaluation",
       "duration": "3 weeks",
-      "activities": ["Total cost of ownership modeling", "Government incentive analysis", "Fuel cost savings projections", "Depreciation impact assessment", "ROI calculations"],
+      "activities": [
+        "Total cost of ownership modeling",
+        "Government incentive analysis",
+        "Fuel cost savings projections",
+        "Depreciation impact assessment",
+        "ROI calculations"
+      ],
       "outcome": "5-year payback period with 18% IRR"
     },
     {
       "stage": "infrastructure_planning",
       "duration": "2 weeks",
-      "activities": ["Charging station site identification", "Electrical capacity assessment", "Grid connection requirements", "Vendor partnership evaluation"],
+      "activities": [
+        "Charging station site identification",
+        "Electrical capacity assessment",
+        "Grid connection requirements",
+        "Vendor partnership evaluation"
+      ],
       "outcome": "Scalable charging network designed with vendor partnerships"
     },
     {
       "stage": "risk_mitigation",
       "duration": "1 week",
-      "activities": ["Technology reliability testing", "Warranty analysis", "Insurance implications", "Resale value assessment"],
+      "activities": [
+        "Technology reliability testing",
+        "Warranty analysis",
+        "Insurance implications",
+        "Resale value assessment"
+      ],
       "outcome": "Comprehensive risk mitigation plan developed"
     },
     {
       "stage": "executive_decision",
       "duration": "1 week",
-      "activities": ["Board presentation", "Stakeholder alignment", "Final budget approval", "Implementation timeline agreement"],
+      "activities": [
+        "Board presentation",
+        "Stakeholder alignment",
+        "Final budget approval",
+        "Implementation timeline agreement"
+      ],
       "outcome": "Approved with phased rollout over 18 months"
     }
   ],
   "business_impact": {
     "expected_outcome": "Sustainable delivery operations with improved brand reputation, regulatory compliance, and market positioning as environmental leader",
     "projected_value": "$3.2 million annual operating cost savings, $500K government incentives, $1.2M brand value enhancement",
-    "risk_factors": ["Battery technology limitations", "Charging infrastructure reliability", "Higher initial capital costs", "Driver adaptation challenges", "Supply chain disruptions for EVs", "Maintenance cost uncertainties", "Resale value volatility"]
+    "risk_factors": [
+      "Battery technology limitations",
+      "Charging infrastructure reliability",
+      "Higher initial capital costs",
+      "Driver adaptation challenges",
+      "Supply chain disruptions for EVs",
+      "Maintenance cost uncertainties",
+      "Resale value volatility"
+    ]
   },
-  "decision_criteria": ["Operational efficiency gains", "Environmental impact reduction", "Financial return metrics", "Regulatory compliance requirements", "Technology maturity", "Infrastructure feasibility"],
+  "decision_criteria": [
+    "Operational efficiency gains",
+    "Environmental impact reduction",
+    "Financial return metrics",
+    "Regulatory compliance requirements",
+    "Technology maturity",
+    "Infrastructure feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Early utility company engagement crucial for charging infrastructure; consider battery leasing options to reduce upfront capital requirements; driver training programs essential for smooth transition; establish partnerships with charging network providers early in planning phase"
 }

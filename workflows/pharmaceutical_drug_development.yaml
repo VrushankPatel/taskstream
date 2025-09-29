@@ -1,34 +1,58 @@
 workflow:
-  id: "workflow_pharma_001"
-  title: "Pharmaceutical Drug Development Process"
-  department: "R&D"
-  complexity: "high"
-  participants: ["Research Scientist", "Clinical Trial Manager", "Regulatory Affairs Specialist", "Project Manager"]
-  trigger: "New drug discovery or compound identification"
+  id: workflow_pharma_001
+  title: Pharmaceutical Drug Development Process
+  department: R&D
+  complexity: high
+  participants:
+  - Research Scientist
+  - Clinical Trial Manager
+  - Regulatory Affairs Specialist
+  - Project Manager
+  trigger: New drug discovery or compound identification
   steps:
-    - step: 1
-      actor: "Research Scientist"
-      action: "Conduct preclinical research and compound screening"
-      tools: ["Laboratory Equipment", "Research Databases"]
-      duration: "6-12 months"
-      outputs: ["Research reports", "Compound profiles"]
-    - step: 2
-      actor: "Clinical Trial Manager"
-      action: "Design and execute clinical trials (Phase 1-3)"
-      decision_points: ["Safety data", "Efficacy results", "Regulatory requirements"]
-      duration: "2-5 years"
-      outputs: ["Trial protocols", "Clinical data reports"]
-    - step: 3
-      actor: "Regulatory Affairs Specialist"
-      action: "Prepare and submit regulatory filings (IND, NDA)"
-      tools: ["Regulatory Submission Software", "Compliance Databases"]
-      duration: "3-6 months"
-      outputs: ["Regulatory submissions", "Approval documentation"]
-    - step: 4
-      actor: "Project Manager"
-      action: "Coordinate cross-functional teams and manage timelines"
-      tools: ["Project Management Software", "Resource Planning Tools"]
-      duration: "Ongoing"
-      outputs: ["Project status reports", "Timeline updates"]
-  success_criteria: "Regulatory approval obtained, market launch successful"
-  failure_modes: ["Trial failures", "Regulatory rejections", "Timeline delays"]
+  - step: 1
+    actor: Research Scientist
+    action: Conduct preclinical research and compound screening
+    tools:
+    - Laboratory Equipment
+    - Research Databases
+    duration: 6-12 months
+    outputs:
+    - Research reports
+    - Compound profiles
+  - step: 2
+    actor: Clinical Trial Manager
+    action: Design and execute clinical trials (Phase 1-3)
+    decision_points:
+    - Safety data
+    - Efficacy results
+    - Regulatory requirements
+    duration: 2-5 years
+    outputs:
+    - Trial protocols
+    - Clinical data reports
+  - step: 3
+    actor: Regulatory Affairs Specialist
+    action: Prepare and submit regulatory filings (IND, NDA)
+    tools:
+    - Regulatory Submission Software
+    - Compliance Databases
+    duration: 3-6 months
+    outputs:
+    - Regulatory submissions
+    - Approval documentation
+  - step: 4
+    actor: Project Manager
+    action: Coordinate cross-functional teams and manage timelines
+    tools:
+    - Project Management Software
+    - Resource Planning Tools
+    duration: Ongoing
+    outputs:
+    - Project status reports
+    - Timeline updates
+  success_criteria: Regulatory approval obtained, market launch successful
+  failure_modes:
+  - Trial failures
+  - Regulatory rejections
+  - Timeline delays

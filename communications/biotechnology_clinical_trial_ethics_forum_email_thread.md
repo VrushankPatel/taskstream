@@ -1,9 +1,9 @@
 ## Email Thread: Biotechnology Clinical Trial Ethics Forum
 
-**From:** Dr. Maria Sanchez, Ethics Committee Chair  
-**To:** Executive Leadership, Clinical Development Team  
-**Subject:** Invitation: Ethics Forum on Gene Therapy Clinical Trials  
-**Date:** September 28, 2025  
+**From:** Dr. Maria Sanchez, Ethics Committee Chair
+**To:** Executive Leadership, Clinical Development Team
+**Subject:** Invitation: Ethics Forum on Gene Therapy Clinical Trials
+**Date:** September 28, 2025
 
 Team,
 
@@ -25,16 +25,16 @@ Please RSVP by October 1st. We'll also have breakout sessions for deeper discuss
 
 This forum will help us establish best practices that protect patients while advancing scientific progress.
 
-Best regards,  
-Dr. Maria Sanchez  
-Ethics Committee Chair  
+Best regards,
+Dr. Maria Sanchez
+Ethics Committee Chair
 
 ---
 
-**From:** Dr. James Wilson, Chief Medical Officer  
-**To:** Executive Leadership, Clinical Development Team  
-**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials  
-**Date:** September 28, 2025  
+**From:** Dr. James Wilson, Chief Medical Officer
+**To:** Executive Leadership, Clinical Development Team
+**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials
+**Date:** September 28, 2025
 
 Maria,
 
@@ -47,14 +47,14 @@ From a clinical perspective, we need to address:
 
 I'll prepare a clinical case study for discussion.
 
-James  
+James
 
 ---
 
-**From:** Sarah Chen, VP Regulatory Affairs  
-**To:** Executive Leadership, Clinical Development Team  
-**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials  
-**Date:** September 28, 2025  
+**From:** Sarah Chen, VP Regulatory Affairs
+**To:** Executive Leadership, Clinical Development Team
+**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials
+**Date:** September 28, 2025
 
 Adding to James' points, the regulatory landscape is still evolving. We should discuss how to handle situations where initial results are promising but long-term safety data is limited.
 
@@ -65,14 +65,14 @@ Key regulatory ethics questions:
 
 I can share recent FDA guidance on gene therapy trial design.
 
-Sarah  
+Sarah
 
 ---
 
-**From:** Dr. Robert Kim, CEO  
-**To:** Executive Leadership, Clinical Development Team  
-**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials  
-**Date:** September 28, 2025  
+**From:** Dr. Robert Kim, CEO
+**To:** Executive Leadership, Clinical Development Team
+**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials
+**Date:** September 28, 2025
 
 Thank you all for the thoughtful responses. This forum is exactly what we need to ensure our gene therapy program maintains the highest ethical standards.
 
@@ -85,14 +85,14 @@ Additional topics I'd like to include:
 
 Please send me your detailed agendas by COB tomorrow.
 
-Robert  
+Robert
 
 ---
 
-**From:** Dr. Maria Sanchez, Ethics Committee Chair  
-**To:** Executive Leadership, Clinical Development Team  
-**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials  
-**Date:** September 28, 2025  
+**From:** Dr. Maria Sanchez, Ethics Committee Chair
+**To:** Executive Leadership, Clinical Development Team
+**Subject:** Re: Invitation: Ethics Forum on Gene Therapy Clinical Trials
+**Date:** September 28, 2025
 
 Robert,
 

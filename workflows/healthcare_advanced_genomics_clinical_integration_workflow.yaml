@@ -1,43 +1,82 @@
 workflow:
-  id: "workflow_001"
-  title: "Healthcare Advanced Genomics Clinical Integration"
-  department: "Clinical Genomics"
-  complexity: "high"
-  participants: ["Genetic Counselors", "Clinical Oncologists", "Bioinformatics Specialists", "IT Integration Team", "Compliance Officers"]
-  trigger: "Patient diagnosed with actionable genetic variant requiring treatment adjustment"
+  id: workflow_001
+  title: Healthcare Advanced Genomics Clinical Integration
+  department: Clinical Genomics
+  complexity: high
+  participants:
+  - Genetic Counselors
+  - Clinical Oncologists
+  - Bioinformatics Specialists
+  - IT Integration Team
+  - Compliance Officers
+  trigger: Patient diagnosed with actionable genetic variant requiring treatment adjustment
   steps:
-    - step: 1
-      actor: "Bioinformatics Specialists"
-      action: "Validate genomic sequencing data quality and annotate variants using clinical databases"
-      tools: ["Genomic analysis software", "ClinVar database", "Variant interpretation tools"]
-      duration: "4 hours"
-      outputs: ["Annotated variant report", "Clinical significance assessment"]
-    - step: 2
-      actor: "Genetic Counselors"
-      action: "Review patient family history and genetic counseling needs assessment"
-      decision_points: ["Family history complexity", "Patient understanding level"]
-      tools: ["Genetic counseling software", "Patient intake forms"]
-      duration: "2 hours"
-      outputs: ["Genetic counseling plan", "Patient education materials"]
-    - step: 3
-      actor: "Clinical Oncologists"
-      action: "Integrate genomic findings with clinical presentation and treatment guidelines"
-      decision_points: ["Variant clinical actionability", "Treatment protocol alignment"]
-      tools: ["Electronic health records", "Clinical decision support systems"]
-      duration: "3 hours"
-      outputs: ["Personalized treatment recommendation", "Clinical trial eligibility assessment"]
-    - step: 4
-      actor: "IT Integration Team"
-      action: "Ensure genomic data integration with hospital information systems and privacy compliance"
-      tools: ["HL7 FHIR interfaces", "Data encryption tools", "Audit logging systems"]
-      duration: "6 hours"
-      outputs: ["Integrated patient record", "Data access audit trail"]
-    - step: 5
-      actor: "Compliance Officers"
-      action: "Review regulatory compliance for genomic data handling and reporting requirements"
-      decision_points: ["Data sharing permissions", "Regulatory reporting obligations"]
-      tools: ["Compliance checklists", "Regulatory databases"]
-      duration: "2 hours"
-      outputs: ["Compliance approval", "Regulatory reporting documentation"]
-  success_criteria: "Genomic findings successfully integrated into patient care plan with documented clinical impact"
-  failure_modes: ["Data quality issues delaying interpretation", "Privacy concerns blocking data sharing", "Clinical guideline conflicts requiring expert consultation"]
+  - step: 1
+    actor: Bioinformatics Specialists
+    action: Validate genomic sequencing data quality and annotate variants using clinical
+      databases
+    tools:
+    - Genomic analysis software
+    - ClinVar database
+    - Variant interpretation tools
+    duration: 4 hours
+    outputs:
+    - Annotated variant report
+    - Clinical significance assessment
+  - step: 2
+    actor: Genetic Counselors
+    action: Review patient family history and genetic counseling needs assessment
+    decision_points:
+    - Family history complexity
+    - Patient understanding level
+    tools:
+    - Genetic counseling software
+    - Patient intake forms
+    duration: 2 hours
+    outputs:
+    - Genetic counseling plan
+    - Patient education materials
+  - step: 3
+    actor: Clinical Oncologists
+    action: Integrate genomic findings with clinical presentation and treatment guidelines
+    decision_points:
+    - Variant clinical actionability
+    - Treatment protocol alignment
+    tools:
+    - Electronic health records
+    - Clinical decision support systems
+    duration: 3 hours
+    outputs:
+    - Personalized treatment recommendation
+    - Clinical trial eligibility assessment
+  - step: 4
+    actor: IT Integration Team
+    action: Ensure genomic data integration with hospital information systems and
+      privacy compliance
+    tools:
+    - HL7 FHIR interfaces
+    - Data encryption tools
+    - Audit logging systems
+    duration: 6 hours
+    outputs:
+    - Integrated patient record
+    - Data access audit trail
+  - step: 5
+    actor: Compliance Officers
+    action: Review regulatory compliance for genomic data handling and reporting requirements
+    decision_points:
+    - Data sharing permissions
+    - Regulatory reporting obligations
+    tools:
+    - Compliance checklists
+    - Regulatory databases
+    duration: 2 hours
+    outputs:
+    - Compliance approval
+    - Regulatory reporting documentation
+  success_criteria: Genomic findings successfully integrated into patient care plan
+    with documented clinical impact
+  failure_modes:
+  - Data quality issues delaying interpretation
+  - Privacy concerns blocking data sharing
+  - Clinical guideline conflicts requiring expert consultation

@@ -3,8 +3,17 @@
   "context": "University system evaluating expansion of online learning platform to accommodate 50% increase in enrollment and new international partnerships",
   "stakeholders": {
     "requester": "Vice President of Academic Affairs",
-    "approvers": ["President", "Board of Trustees", "Provost"],
-    "influencers": ["IT Director", "Faculty Senate", "Student Government", "International Partnerships Director"]
+    "approvers": [
+      "President",
+      "Board of Trustees",
+      "Provost"
+    ],
+    "influencers": [
+      "IT Director",
+      "Faculty Senate",
+      "Student Government",
+      "International Partnerships Director"
+    ]
   },
   "request": {
     "amount": "$8 million",
@@ -16,57 +25,112 @@
     {
       "stage": "capacity_assessment",
       "duration": "2 months",
-      "activities": ["Current platform audit", "Scalability testing", "Infrastructure capacity analysis", "Security assessment"],
+      "activities": [
+        "Current platform audit",
+        "Scalability testing",
+        "Infrastructure capacity analysis",
+        "Security assessment"
+      ],
       "outcome": "Platform requires significant upgrade to handle projected load"
     },
     {
       "stage": "stakeholder_consultation",
       "duration": "3 months",
-      "activities": ["Faculty focus groups", "Student surveys", "International partner consultations", "Administrative review"],
+      "activities": [
+        "Faculty focus groups",
+        "Student surveys",
+        "International partner consultations",
+        "Administrative review"
+      ],
       "outcome": "Strong support with specific feature requirements identified"
     },
     {
       "stage": "vendor_evaluation",
       "duration": "2 months",
-      "activities": ["Technology vendor assessment", "Cost proposal analysis", "Implementation timeline review", "Support capability evaluation"],
+      "activities": [
+        "Technology vendor assessment",
+        "Cost proposal analysis",
+        "Implementation timeline review",
+        "Support capability evaluation"
+      ],
       "outcome": "Preferred vendor selected with comprehensive solution package"
     },
     {
       "stage": "funding_strategy",
       "duration": "1 month",
-      "activities": ["Budget impact analysis", "Funding source identification", "Tuition impact assessment", "Grant application preparation"],
+      "activities": [
+        "Budget impact analysis",
+        "Funding source identification",
+        "Tuition impact assessment",
+        "Grant application preparation"
+      ],
       "outcome": "Funding secured through combination of reserves, tuition increase, and educational grants"
     }
   ],
   "business_impact": {
     "expected_outcome": "50% enrollment capacity increase, international market expansion, improved student retention and completion rates",
     "projected_value": "$25 million in additional revenue over 5 years",
-    "risk_factors": ["Technology integration challenges", "Faculty training requirements", "International regulatory compliance", "Student technology access disparities"]
+    "risk_factors": [
+      "Technology integration challenges",
+      "Faculty training requirements",
+      "International regulatory compliance",
+      "Student technology access disparities"
+    ]
   },
   "alternatives_considered": [
     {
       "option": "Incremental upgrade",
       "cost": "$3 million",
-      "pros": ["Lower risk", "Faster implementation", "Preserves existing investments"],
-      "cons": ["Limited scalability", "Partial international compliance", "May not meet 50% growth target"],
+      "pros": [
+        "Lower risk",
+        "Faster implementation",
+        "Preserves existing investments"
+      ],
+      "cons": [
+        "Limited scalability",
+        "Partial international compliance",
+        "May not meet 50% growth target"
+      ],
       "evaluation": "Rejected - insufficient capacity for projected growth"
     },
     {
       "option": "Third-party platform partnership",
       "cost": "$5 million",
-      "pros": ["Faster time-to-market", "External expertise", "Reduced internal development"],
-      "cons": ["Vendor lock-in", "Limited customization", "Data privacy concerns"],
+      "pros": [
+        "Faster time-to-market",
+        "External expertise",
+        "Reduced internal development"
+      ],
+      "cons": [
+        "Vendor lock-in",
+        "Limited customization",
+        "Data privacy concerns"
+      ],
       "evaluation": "Rejected - customization and control requirements"
     },
     {
       "option": "Full platform rebuild",
       "cost": "$12 million",
-      "pros": ["Complete modernization", "Full feature control", "Future-proof architecture"],
-      "cons": ["High risk", "Long timeline", "Significant disruption"],
+      "pros": [
+        "Complete modernization",
+        "Full feature control",
+        "Future-proof architecture"
+      ],
+      "cons": [
+        "High risk",
+        "Long timeline",
+        "Significant disruption"
+      ],
       "evaluation": "Rejected - timeline and risk too high"
     }
   ],
-  "decision_criteria": ["Enrollment growth potential", "Financial sustainability", "Technology reliability", "Stakeholder support", "International compliance"],
+  "decision_criteria": [
+    "Enrollment growth potential",
+    "Financial sustainability",
+    "Technology reliability",
+    "Stakeholder support",
+    "International compliance"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Academic technology decisions require extensive stakeholder engagement, international expansion demands comprehensive compliance planning, scalability testing critical for large-scale deployments"
 }

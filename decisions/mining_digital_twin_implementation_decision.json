@@ -3,8 +3,17 @@
   "context": "Mining company considering $85M investment in digital twin technology for mine optimization and safety enhancement",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["CEO", "COO", "Board of Directors"],
-    "influencers": ["Operations Director", "Safety Manager", "IT Director", "Technology Vendors"]
+    "approvers": [
+      "CEO",
+      "COO",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Operations Director",
+      "Safety Manager",
+      "IT Director",
+      "Technology Vendors"
+    ]
   },
   "request": {
     "amount": "$85,000,000",
@@ -16,28 +25,54 @@
     {
       "stage": "technology_evaluation",
       "duration": "5 months",
-      "activities": ["Vendor capability assessment", "Pilot program design", "Data infrastructure audit", "Integration feasibility study"],
+      "activities": [
+        "Vendor capability assessment",
+        "Pilot program design",
+        "Data infrastructure audit",
+        "Integration feasibility study"
+      ],
       "outcome": "Selected leading digital twin platform with proven mining applications"
     },
     {
       "stage": "pilot_implementation",
       "duration": "3 months",
-      "activities": ["Single mine pilot deployment", "Performance monitoring", "User training", "ROI measurement"],
+      "activities": [
+        "Single mine pilot deployment",
+        "Performance monitoring",
+        "User training",
+        "ROI measurement"
+      ],
       "outcome": "Achieved 18% efficiency improvement and 25% maintenance cost reduction in pilot"
     },
     {
       "stage": "enterprise_rollout",
       "duration": "4 months",
-      "activities": ["Multi-site implementation planning", "Change management strategy", "Resource allocation", "Risk mitigation planning"],
+      "activities": [
+        "Multi-site implementation planning",
+        "Change management strategy",
+        "Resource allocation",
+        "Risk mitigation planning"
+      ],
       "outcome": "Comprehensive rollout plan with phased implementation across 8 mines"
     }
   ],
   "business_impact": {
     "expected_outcome": "25% increase in operational efficiency, 30% reduction in safety incidents, 20% decrease in maintenance costs",
     "projected_value": "$150,000,000 in cost savings over 10 years",
-    "risk_factors": ["Data quality and integration challenges", "Workforce adaptation", "Technology vendor stability", "Cybersecurity concerns"]
+    "risk_factors": [
+      "Data quality and integration challenges",
+      "Workforce adaptation",
+      "Technology vendor stability",
+      "Cybersecurity concerns"
+    ]
   },
-  "decision_criteria": ["Operational efficiency gains", "Safety improvements", "Financial ROI", "Technology maturity", "Implementation feasibility"],
+  "decision_criteria": [
+    "Operational efficiency gains",
+    "Safety improvements",
+    "Financial ROI",
+    "Technology maturity",
+    "Implementation feasibility"
+  ],
   "outcome": "Approved",
   "lessons_learned": "Pilot programs essential for stakeholder confidence and ROI validation, comprehensive data strategy critical for digital twin success, change management as important as technology implementation"
 }

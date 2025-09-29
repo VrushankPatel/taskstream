@@ -152,6 +152,6 @@ This policy establishes ethical guidelines for the responsible development, clin
 - Patient Consent and Communication Guidelines
 - Regulatory Compliance Framework
 
-*Effective Date: October 1, 2025*  
-*Approval Date: September 28, 2025*  
+*Effective Date: October 1, 2025*
+*Approval Date: September 28, 2025*
 *Review Frequency: Annual*

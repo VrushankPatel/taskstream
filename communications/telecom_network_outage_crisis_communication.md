@@ -1,8 +1,8 @@
 ## Email Thread: Major Network Outage Crisis Response
 
-**From:** Network Operations Center Lead  
-**To:** Executive Leadership Team, Communications Team, Customer Service VP  
-**Subject:** CRITICAL: Nationwide Network Outage - Status Update and Response Plan  
+**From:** Network Operations Center Lead
+**To:** Executive Leadership Team, Communications Team, Customer Service VP
+**Subject:** CRITICAL: Nationwide Network Outage - Status Update and Response Plan
 
 Team,
 
@@ -15,9 +15,9 @@ Immediate actions taken:
 
 Please advise on executive messaging and regulatory notifications required.
 
-**From:** CEO  
-**To:** Network Operations Center Lead, Communications Team, Customer Service VP, Executive Leadership Team  
-**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan  
+**From:** CEO
+**To:** Network Operations Center Lead, Communications Team, Customer Service VP, Executive Leadership Team
+**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan
 
 This is unacceptable. We need:
 1. Root cause analysis within 4 hours
@@ -27,9 +27,9 @@ This is unacceptable. We need:
 
 Communications team - coordinate with PR firm immediately. Customer Service - prepare call center surge capacity.
 
-**From:** Communications Director  
-**To:** CEO, Network Operations Center Lead, Customer Service VP, Executive Leadership Team  
-**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan  
+**From:** Communications Director
+**To:** CEO, Network Operations Center Lead, Customer Service VP, Executive Leadership Team
+**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan
 
 Press release draft attached. Key messages:
 - Transparency on incident
@@ -39,18 +39,18 @@ Press release draft attached. Key messages:
 
 Social media monitoring activated. Crisis comms war room established.
 
-**From:** Customer Service VP  
-**To:** CEO, Communications Director, Network Operations Center Lead, Executive Leadership Team  
-**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan  
+**From:** Customer Service VP
+**To:** CEO, Communications Director, Network Operations Center Lead, Executive Leadership Team
+**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan
 
 Call center capacity increased 300%. Automated outage notification system deployed to affected customers. Compensation plan:
 - Free month of service for impacted customers
 - Priority restoration for business accounts
 - Dedicated support hotline established
 
-**From:** Network Operations Center Lead  
-**To:** CEO, Communications Director, Customer Service VP, Executive Leadership Team  
-**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan  
+**From:** Network Operations Center Lead
+**To:** CEO, Communications Director, Customer Service VP, Executive Leadership Team
+**Subject:** Re: CRITICAL: Nationwide Network Outage - Status Update and Response Plan
 
 Update: Root cause identified - construction damage to main fiber trunk. Restoration teams on site, ETA now 12-16 hours with additional resources deployed.
 

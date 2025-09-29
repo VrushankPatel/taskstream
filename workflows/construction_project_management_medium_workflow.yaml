@@ -1,45 +1,78 @@
 workflow:
-  id: "workflow_construction_project_management"
-  title: "Construction Project Management Process"
-  department: "Construction Operations"
-  complexity: "medium"
-  participants: ["Project Manager", "Site Supervisor", "Procurement Lead", "Safety Officer", "Client Representative"]
-  trigger: "New construction project contract signed"
+  id: workflow_construction_project_management
+  title: Construction Project Management Process
+  department: Construction Operations
+  complexity: medium
+  participants:
+  - Project Manager
+  - Site Supervisor
+  - Procurement Lead
+  - Safety Officer
+  - Client Representative
+  trigger: New construction project contract signed
   steps:
-    - step: 1
-      actor: "Project Manager"
-      action: "Conduct project kickoff meeting and establish project charter"
-      tools: ["Project Management Software", "Contract Documents"]
-      duration: "1 week"
-      outputs: ["Project Charter", "Initial Timeline", "Resource Allocation Plan"]
-    - step: 2
-      actor: "Procurement Lead"
-      action: "Procure materials and subcontractors based on project requirements"
-      tools: ["Procurement System", "Supplier Database"]
-      duration: "2 weeks"
-      outputs: ["Material Procurement Orders", "Subcontractor Agreements"]
-    - step: 3
-      actor: "Site Supervisor"
-      action: "Oversee site preparation and foundation work"
-      tools: ["Site Management Tools", "Safety Equipment"]
-      duration: "3 weeks"
-      outputs: ["Site Preparation Report", "Foundation Completion Certificate"]
-    - step: 4
-      actor: "Safety Officer"
-      action: "Conduct safety inspections and implement safety protocols"
-      tools: ["Safety Management System", "Inspection Checklists"]
-      duration: "Ongoing"
-      outputs: ["Safety Audit Reports", "Safety Training Records"]
-    - step: 5
-      actor: "Project Manager"
-      action: "Monitor progress, manage changes, and coordinate with client"
-      tools: ["Project Tracking Software", "Change Management System"]
-      duration: "Project duration"
-      outputs: ["Progress Reports", "Change Orders", "Final Project Documentation"]
-  success_criteria: "Project completed on time, within budget, and meeting quality standards"
-  failure_modes: ["Material delays", "Weather disruptions", "Safety incidents", "Client change requests", "Budget overruns"]
+  - step: 1
+    actor: Project Manager
+    action: Conduct project kickoff meeting and establish project charter
+    tools:
+    - Project Management Software
+    - Contract Documents
+    duration: 1 week
+    outputs:
+    - Project Charter
+    - Initial Timeline
+    - Resource Allocation Plan
+  - step: 2
+    actor: Procurement Lead
+    action: Procure materials and subcontractors based on project requirements
+    tools:
+    - Procurement System
+    - Supplier Database
+    duration: 2 weeks
+    outputs:
+    - Material Procurement Orders
+    - Subcontractor Agreements
+  - step: 3
+    actor: Site Supervisor
+    action: Oversee site preparation and foundation work
+    tools:
+    - Site Management Tools
+    - Safety Equipment
+    duration: 3 weeks
+    outputs:
+    - Site Preparation Report
+    - Foundation Completion Certificate
+  - step: 4
+    actor: Safety Officer
+    action: Conduct safety inspections and implement safety protocols
+    tools:
+    - Safety Management System
+    - Inspection Checklists
+    duration: Ongoing
+    outputs:
+    - Safety Audit Reports
+    - Safety Training Records
+  - step: 5
+    actor: Project Manager
+    action: Monitor progress, manage changes, and coordinate with client
+    tools:
+    - Project Tracking Software
+    - Change Management System
+    duration: Project duration
+    outputs:
+    - Progress Reports
+    - Change Orders
+    - Final Project Documentation
+  success_criteria: Project completed on time, within budget, and meeting quality
+    standards
+  failure_modes:
+  - Material delays
+  - Weather disruptions
+  - Safety incidents
+  - Client change requests
+  - Budget overruns
   metrics:
-    - "On-time completion: >90%"
-    - "Budget variance: <5%"
-    - "Safety incident rate: <0.5 per 100,000 hours"
-    - "Client satisfaction: >4.5/5"
+  - 'On-time completion: >90%'
+  - 'Budget variance: <5%'
+  - 'Safety incident rate: <0.5 per 100,000 hours'
+  - 'Client satisfaction: >4.5/5'

@@ -1,9 +1,9 @@
 ## Company-wide Announcement: Engineering Team Reorganization
 
-**From:** Jennifer Walsh, CEO  
-**To:** All Employees  
-**Subject:** Engineering Team Reorganization - Building for Scale  
-**Date:** December 1, 2025  
+**From:** Jennifer Walsh, CEO
+**To:** All Employees
+**Subject:** Engineering Team Reorganization - Building for Scale
+**Date:** December 1, 2025
 
 Team,
 
@@ -58,17 +58,17 @@ If you have questions or concerns, please don't hesitate to reach out. You can s
 
 This is an exciting time for our company, and I'm confident this reorganization will enable us to deliver even better products and experiences for our customers.
 
-Best,  
-Jennifer Walsh  
-CEO  
-jennifer.walsh@company.com  
+Best,
+Jennifer Walsh
+CEO
+jennifer.walsh@company.com
 
 ---
 
-**From:** Alex Rivera, Incoming VP of Engineering  
-**To:** Engineering Team  
-**Subject:** Re: Engineering Team Reorganization - Building for Scale  
-**Date:** December 1, 2025  
+**From:** Alex Rivera, Incoming VP of Engineering
+**To:** Engineering Team
+**Subject:** Re: Engineering Team Reorganization - Building for Scale
+**Date:** December 1, 2025
 
 Hi everyone,
 
@@ -78,14 +78,14 @@ The new structure is designed to give each team more autonomy while maintaining 
 
 I'm looking forward to meeting with each of you individually over the next few weeks to discuss the changes and your career goals.
 
-Alex  
+Alex
 
 ---
 
-**From:** HR Department  
-**To:** All Employees  
-**Subject:** Re: Engineering Team Reorganization - Building for Scale  
-**Date:** December 2, 2025  
+**From:** HR Department
+**To:** All Employees
+**Subject:** Re: Engineering Team Reorganization - Building for Scale
+**Date:** December 2, 2025
 
 For support during this transition, we've set up:
 - Individual career coaching sessions (book via HR portal)

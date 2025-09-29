@@ -3,8 +3,16 @@
   "context": "Large AI company, 10,000 employees, facing increasing regulatory and ethical scrutiny",
   "stakeholders": {
     "requester": "Chief Ethics Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Legal Officer"],
-    "influencers": ["Head of AI Research", "VP Product", "External Ethics Consultants"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Legal Officer"
+    ],
+    "influencers": [
+      "Head of AI Research",
+      "VP Product",
+      "External Ethics Consultants"
+    ]
   },
   "request": {
     "amount": "$15,000,000",
@@ -16,25 +24,41 @@
     {
       "stage": "regulatory_assessment",
       "duration": "6 weeks",
-      "activities": ["Global regulatory review", "Compliance gap analysis", "Legal risk evaluation"],
+      "activities": [
+        "Global regulatory review",
+        "Compliance gap analysis",
+        "Legal risk evaluation"
+      ],
       "outcome": "Multiple regulatory requirements identified requiring immediate action"
     },
     {
       "stage": "framework_design",
       "duration": "8 weeks",
-      "activities": ["Ethics framework development", "Stakeholder consultation", "Implementation roadmap"],
+      "activities": [
+        "Ethics framework development",
+        "Stakeholder consultation",
+        "Implementation roadmap"
+      ],
       "outcome": "Comprehensive framework designed with clear accountability structures"
     },
     {
       "stage": "board_approval",
       "duration": "4 weeks",
-      "activities": ["Board presentation", "Executive alignment", "Resource allocation"],
+      "activities": [
+        "Board presentation",
+        "Executive alignment",
+        "Resource allocation"
+      ],
       "outcome": "Approved with full executive support and oversight committee"
     }
   ],
   "business_impact": {
     "expected_benefits": "Regulatory compliance, enhanced brand reputation, reduced legal risks",
     "projected_revenue": "Maintained market position with $500M protected revenue",
-    "risk_factors": ["Implementation complexity", "Cultural resistance", "Evolving regulatory landscape"]
+    "risk_factors": [
+      "Implementation complexity",
+      "Cultural resistance",
+      "Evolving regulatory landscape"
+    ]
   }
 }

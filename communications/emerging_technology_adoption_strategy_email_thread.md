@@ -1,8 +1,8 @@
 ## Email Thread: Emerging Technology Adoption Strategy Discussion
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team  
-**Subject:** Emerging Technology Adoption Strategy for 2026  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team
+**Subject:** Emerging Technology Adoption Strategy for 2026
 
 Leadership Team,
 
@@ -33,15 +33,15 @@ As we look ahead to 2026, I want to initiate a discussion on our emerging techno
 
 I'd like to schedule a strategy session next week to discuss prioritization and resource allocation. Please review the attached technology roadmap and come prepared with your department's priorities.
 
-Best regards,  
-Dr. Michael Chen  
+Best regards,
+Dr. Michael Chen
 Chief Technology Officer
 
 ---
 
-**From:** Chief Financial Officer  
-**To:** Chief Technology Officer, Executive Leadership Team  
-**Subject:** Re: Emerging Technology Adoption Strategy for 2026  
+**From:** Chief Financial Officer
+**To:** Chief Technology Officer, Executive Leadership Team
+**Subject:** Re: Emerging Technology Adoption Strategy for 2026
 
 Michael,
 
@@ -54,14 +54,14 @@ The investment framework looks reasonable. Key financial considerations:
 
 We should also evaluate the impact on our current technology debt before adding new initiatives.
 
-Jennifer Walsh  
+Jennifer Walsh
 Chief Financial Officer
 
 ---
 
-**From:** Chief Operating Officer  
-**To:** Chief Technology Officer, Chief Financial Officer  
-**Subject:** Re: Emerging Technology Adoption Strategy for 2026  
+**From:** Chief Operating Officer
+**To:** Chief Technology Officer, Chief Financial Officer
+**Subject:** Re: Emerging Technology Adoption Strategy for 2026
 
 I agree with Jennifer's points. From an operations perspective:
 
@@ -72,14 +72,14 @@ I agree with Jennifer's points. From an operations perspective:
 
 The AI-driven operational efficiency priority aligns well with our digital transformation goals.
 
-Mark Thompson  
+Mark Thompson
 Chief Operating Officer
 
 ---
 
-**From:** Chief Technology Officer  
-**To:** Executive Leadership Team  
-**Subject:** Re: Emerging Technology Adoption Strategy for 2026  
+**From:** Chief Technology Officer
+**To:** Executive Leadership Team
+**Subject:** Re: Emerging Technology Adoption Strategy for 2026
 
 Thank you for the thoughtful feedback. Based on our discussion, I've updated the strategy to include:
 
@@ -90,5 +90,5 @@ Thank you for the thoughtful feedback. Based on our discussion, I've updated the
 
 Strategy session scheduled for October 25 at 2 PM. Agenda attached.
 
-Dr. Michael Chen  
+Dr. Michael Chen
 Chief Technology Officer

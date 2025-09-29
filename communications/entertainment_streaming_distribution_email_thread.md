@@ -1,8 +1,8 @@
 ## Email Thread: Streaming Platform Distribution Rights Negotiation
 
-**From:** VP Content Distribution  
-**To:** Legal Counsel, CEO, Content Acquisition Team  
-**Subject:** Q4 2025 Streaming Rights - Distribution Agreement Update  
+**From:** VP Content Distribution
+**To:** Legal Counsel, CEO, Content Acquisition Team
+**Subject:** Q4 2025 Streaming Rights - Distribution Agreement Update
 
 Team,
 
@@ -17,15 +17,15 @@ Legal has flagged potential antitrust concerns with exclusive deals >18 months. 
 
 Please review the term sheet attached and provide feedback by EOD Friday.
 
-Best,  
-Sarah Chen  
-VP Content Distribution  
+Best,
+Sarah Chen
+VP Content Distribution
 
 ---
 
-**From:** Legal Counsel  
-**To:** VP Content Distribution, CEO, Content Acquisition Team  
-**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update  
+**From:** Legal Counsel
+**To:** VP Content Distribution, CEO, Content Acquisition Team
+**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update
 
 Sarah,
 
@@ -40,15 +40,15 @@ This maintains revenue potential while reducing regulatory risk. I've attached a
 
 Also, ensure we include audit rights for viewership data - that's been a sticking point in past deals.
 
-Regards,  
-Michael Torres  
-Senior Counsel  
+Regards,
+Michael Torres
+Senior Counsel
 
 ---
 
-**From:** CEO  
-**To:** VP Content Distribution, Legal Counsel, Content Acquisition Team  
-**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update  
+**From:** CEO
+**To:** VP Content Distribution, Legal Counsel, Content Acquisition Team
+**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update
 
 Good discussion points. Sarah, can you model the financial impact of the 12+6 structure vs. the 18-month exclusive?
 
@@ -56,15 +56,15 @@ We need to hit our Q4 revenue targets, but not at the expense of future platform
 
 Also, what are the international distribution opportunities here?
 
-Thanks,  
-Jennifer Walsh  
-CEO  
+Thanks,
+Jennifer Walsh
+CEO
 
 ---
 
-**From:** VP Content Distribution  
-**To:** CEO, Legal Counsel, Content Acquisition Team  
-**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update  
+**From:** VP Content Distribution
+**To:** CEO, Legal Counsel, Content Acquisition Team
+**Subject:** Re: Q4 2025 Streaming Rights - Distribution Agreement Update
 
 Jennifer,
 
@@ -77,5 +77,5 @@ International opportunities look strong:
 
 Call scheduled for Thursday 2 PM. Agenda attached.
 
-Best,  
+Best,
 Sarah

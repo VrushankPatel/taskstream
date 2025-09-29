@@ -3,9 +3,21 @@
   "context": "Technology company expanding global operations, requiring strategic approach to international talent acquisition and workforce development",
   "stakeholders": {
     "requester": "Chief Human Resources Officer",
-    "approvers": ["CEO", "Board of Directors", "Chief Operating Officer"],
-    "influencers": ["Regional Presidents", "Head of Global Operations", "Talent Acquisition Director"],
-    "advisors": ["Global HR Consultants", "Immigration Specialists", "Talent Market Experts"]
+    "approvers": [
+      "CEO",
+      "Board of Directors",
+      "Chief Operating Officer"
+    ],
+    "influencers": [
+      "Regional Presidents",
+      "Head of Global Operations",
+      "Talent Acquisition Director"
+    ],
+    "advisors": [
+      "Global HR Consultants",
+      "Immigration Specialists",
+      "Talent Market Experts"
+    ]
   },
   "request": {
     "amount": "$8,000,000",
@@ -17,32 +29,63 @@
     {
       "stage": "talent_gap_analysis",
       "duration": "6 weeks",
-      "activities": ["Skills inventory assessment", "Future talent needs forecasting", "Market competitiveness analysis"],
+      "activities": [
+        "Skills inventory assessment",
+        "Future talent needs forecasting",
+        "Market competitiveness analysis"
+      ],
       "outcome": "Identified critical talent gaps in 8 key markets with competitive challenges"
     },
     {
       "stage": "market_research",
       "duration": "8 weeks",
-      "activities": ["Global talent market analysis", "Competitor benchmarking", "Local market dynamics assessment"],
+      "activities": [
+        "Global talent market analysis",
+        "Competitor benchmarking",
+        "Local market dynamics assessment"
+      ],
       "outcome": "Comprehensive understanding of global talent landscape and acquisition strategies"
     },
     {
       "stage": "strategy_development",
       "duration": "6 weeks",
-      "activities": ["Acquisition strategy design", "Employer branding development", "Mobility program framework"],
+      "activities": [
+        "Acquisition strategy design",
+        "Employer branding development",
+        "Mobility program framework"
+      ],
       "outcome": "Integrated global talent acquisition strategy with regional customization"
     },
     {
       "stage": "pilot_implementation",
       "duration": "4 weeks",
-      "activities": ["Pilot programs in 3 markets", "Success metric establishment", "Refinement based on results"],
+      "activities": [
+        "Pilot programs in 3 markets",
+        "Success metric establishment",
+        "Refinement based on results"
+      ],
       "outcome": "Successful pilot with 40% improvement in time-to-hire and quality of hire"
     }
   ],
   "business_impact": {
-    "expected_benefits": ["30% reduction in time-to-fill critical roles", "Improved talent quality and retention", "Enhanced global capabilities", "Stronger employer brand"],
+    "expected_benefits": [
+      "30% reduction in time-to-fill critical roles",
+      "Improved talent quality and retention",
+      "Enhanced global capabilities",
+      "Stronger employer brand"
+    ],
     "projected_revenue": "$50,000,000 in productivity gains over 3 years",
-    "risk_factors": ["Immigration policy changes", "Cultural integration challenges", "Local market competition", "Employer branding effectiveness"],
-    "mitigation_strategies": ["Policy monitoring and flexibility", "Comprehensive onboarding programs", "Competitive compensation packages", "Integrated branding campaigns"]
+    "risk_factors": [
+      "Immigration policy changes",
+      "Cultural integration challenges",
+      "Local market competition",
+      "Employer branding effectiveness"
+    ],
+    "mitigation_strategies": [
+      "Policy monitoring and flexibility",
+      "Comprehensive onboarding programs",
+      "Competitive compensation packages",
+      "Integrated branding campaigns"
+    ]
   }
 }

@@ -1,52 +1,88 @@
 workflow:
-  id: "workflow_005"
-  title: "Product Development Cycle"
-  department: "Product Development"
-  complexity: "high"
-  participants: ["Product Manager", "Engineering Lead", "Designer", "QA Engineer", "Stakeholders"]
-  trigger: "New feature request or market opportunity identified"
+  id: workflow_005
+  title: Product Development Cycle
+  department: Product Development
+  complexity: high
+  participants:
+  - Product Manager
+  - Engineering Lead
+  - Designer
+  - QA Engineer
+  - Stakeholders
+  trigger: New feature request or market opportunity identified
   steps:
-    - step: 1
-      actor: "Product Manager"
-      action: "Define requirements and create product brief"
-      tools: ["Product backlog", "User research data"]
-      duration: "1 week"
-      outputs: ["Product requirements document", "User stories"]
-    - step: 2
-      actor: "Designer"
-      action: "Create wireframes and mockups"
-      tools: ["Design software", "User feedback tools"]
-      duration: "2 weeks"
-      outputs: ["UI/UX designs", "Design system updates"]
-    - step: 3
-      actor: "Engineering Lead"
-      action: "Estimate effort and create technical specification"
-      decision_points: ["Technical feasibility", "Resource availability"]
-      duration: "1 week"
-      outputs: ["Technical spec", "Sprint planning"]
-    - step: 4
-      actor: "Engineering Team"
-      action: "Implement features in sprints"
-      tools: ["Version control", "CI/CD pipeline"]
-      duration: "4-8 weeks"
-      outputs: ["Code commits", "Feature branches"]
-    - step: 5
-      actor: "QA Engineer"
-      action: "Test functionality and perform regression testing"
-      tools: ["Test automation", "Bug tracking"]
-      duration: "2 weeks"
-      outputs: ["Test reports", "Bug fixes"]
-    - step: 6
-      actor: "Product Manager"
-      action: "Coordinate beta testing and gather feedback"
-      tools: ["Beta user group", "Feedback forms"]
-      duration: "1 week"
-      outputs: ["User feedback", "Iteration plan"]
-    - step: 7
-      actor: "Stakeholders"
-      action: "Review and approve for release"
-      decision_points: ["Business value", "Quality standards"]
-      duration: "3 days"
-      outputs: ["Release approval", "Go-live plan"]
-  success_criteria: "Feature released successfully with positive user adoption"
-  failure_modes: ["Scope creep", "Technical debt accumulation", "Missed deadlines"]
+  - step: 1
+    actor: Product Manager
+    action: Define requirements and create product brief
+    tools:
+    - Product backlog
+    - User research data
+    duration: 1 week
+    outputs:
+    - Product requirements document
+    - User stories
+  - step: 2
+    actor: Designer
+    action: Create wireframes and mockups
+    tools:
+    - Design software
+    - User feedback tools
+    duration: 2 weeks
+    outputs:
+    - UI/UX designs
+    - Design system updates
+  - step: 3
+    actor: Engineering Lead
+    action: Estimate effort and create technical specification
+    decision_points:
+    - Technical feasibility
+    - Resource availability
+    duration: 1 week
+    outputs:
+    - Technical spec
+    - Sprint planning
+  - step: 4
+    actor: Engineering Team
+    action: Implement features in sprints
+    tools:
+    - Version control
+    - CI/CD pipeline
+    duration: 4-8 weeks
+    outputs:
+    - Code commits
+    - Feature branches
+  - step: 5
+    actor: QA Engineer
+    action: Test functionality and perform regression testing
+    tools:
+    - Test automation
+    - Bug tracking
+    duration: 2 weeks
+    outputs:
+    - Test reports
+    - Bug fixes
+  - step: 6
+    actor: Product Manager
+    action: Coordinate beta testing and gather feedback
+    tools:
+    - Beta user group
+    - Feedback forms
+    duration: 1 week
+    outputs:
+    - User feedback
+    - Iteration plan
+  - step: 7
+    actor: Stakeholders
+    action: Review and approve for release
+    decision_points:
+    - Business value
+    - Quality standards
+    duration: 3 days
+    outputs:
+    - Release approval
+    - Go-live plan
+  success_criteria: Feature released successfully with positive user adoption
+  failure_modes:
+  - Scope creep
+  - Technical debt accumulation
+  - Missed deadlines

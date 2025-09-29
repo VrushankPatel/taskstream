@@ -1,8 +1,8 @@
 ## Communication: Real Estate PropTech Rollout Announcement
 
-**From:** Director of Technology Innovation  
-**To:** Property Management Teams, Residents, Executive Leadership  
-**Subject:** Smart Building Technology Implementation - Enhancing Your Living Experience  
+**From:** Director of Technology Innovation
+**To:** Property Management Teams, Residents, Executive Leadership
+**Subject:** Smart Building Technology Implementation - Enhancing Your Living Experience
 
 Dear Property Management Teams and Valued Residents,
 
@@ -67,7 +67,7 @@ For questions or to participate in our pilot program, please contact your proper
 
 Thank you for being part of our smart building future!
 
-Best regards,  
-Sarah Chen  
-Director of Technology Innovation  
+Best regards,
+Sarah Chen
+Director of Technology Innovation
 Urban Living Properties

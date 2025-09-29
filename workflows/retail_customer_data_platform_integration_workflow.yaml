@@ -1,34 +1,53 @@
 workflow:
-  id: "workflow_retail_customer_data_platform_integration"
-  title: "Customer Data Platform Integration"
-  department: "Data & Analytics"
-  complexity: "medium"
-  participants: ["Data Architect", "IT Integration Team", "Privacy Officer", "Marketing Team"]
-  trigger: "Fragmented customer data across systems"
+  id: workflow_retail_customer_data_platform_integration
+  title: Customer Data Platform Integration
+  department: Data & Analytics
+  complexity: medium
+  participants:
+  - Data Architect
+  - IT Integration Team
+  - Privacy Officer
+  - Marketing Team
+  trigger: Fragmented customer data across systems
   steps:
-    - step: 1
-      actor: "Data Architect"
-      action: "Map existing data sources and identify integration requirements"
-      tools: ["Data mapping tools", "ETL design software"]
-      duration: "2 weeks"
-      outputs: ["Data integration architecture"]
-    - step: 2
-      actor: "IT Integration Team"
-      action: "Implement data pipelines and API connections"
-      tools: ["ETL tools", "API management platforms"]
-      duration: "4 weeks"
-      outputs: ["Integrated data pipelines"]
-    - step: 3
-      actor: "Privacy Officer"
-      action: "Implement privacy and consent management"
-      tools: ["Consent management platforms", "Privacy compliance tools"]
-      duration: "2 weeks"
-      outputs: ["Privacy-compliant data platform"]
-    - step: 4
-      actor: "Marketing Team"
-      action: "Activate unified customer profiles for personalization"
-      tools: ["CDP activation tools", "Personalization engines"]
-      duration: "2 weeks"
-      outputs: ["Unified customer experiences"]
-  success_criteria: "Single customer view across 80% of touchpoints"
-  failure_modes: ["Data quality issues", "Privacy compliance challenges", "Integration complexity"]
+  - step: 1
+    actor: Data Architect
+    action: Map existing data sources and identify integration requirements
+    tools:
+    - Data mapping tools
+    - ETL design software
+    duration: 2 weeks
+    outputs:
+    - Data integration architecture
+  - step: 2
+    actor: IT Integration Team
+    action: Implement data pipelines and API connections
+    tools:
+    - ETL tools
+    - API management platforms
+    duration: 4 weeks
+    outputs:
+    - Integrated data pipelines
+  - step: 3
+    actor: Privacy Officer
+    action: Implement privacy and consent management
+    tools:
+    - Consent management platforms
+    - Privacy compliance tools
+    duration: 2 weeks
+    outputs:
+    - Privacy-compliant data platform
+  - step: 4
+    actor: Marketing Team
+    action: Activate unified customer profiles for personalization
+    tools:
+    - CDP activation tools
+    - Personalization engines
+    duration: 2 weeks
+    outputs:
+    - Unified customer experiences
+  success_criteria: Single customer view across 80% of touchpoints
+  failure_modes:
+  - Data quality issues
+  - Privacy compliance challenges
+  - Integration complexity

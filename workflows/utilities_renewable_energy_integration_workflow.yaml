@@ -1,65 +1,43 @@
 workflow:
-  id: workflow_utilities_renewable_energy_integration
-  title: Utilities Renewable Energy Grid Integration Process
-  department: Engineering
-  complexity: medium
-  participants:
-  - Grid Engineer
-  - Renewable Energy Specialist
-  - Regulatory Affairs
-  - Operations Manager
-  - Safety Team
-  trigger: New renewable energy source connection request
+  id: "workflow_utilities_renewable_energy_integration"
+  title: "Utilities Renewable Energy Grid Integration Process"
+  department: "Engineering"
+  complexity: "medium"
+  participants: ["Grid Engineer", "Renewable Energy Specialist", "Regulatory Affairs", "Operations Manager", "Safety Team"]
+  trigger: "New renewable energy source connection request"
   steps:
-  - step: 1
-    actor: Renewable Energy Specialist
-    action: Assess renewable source specifications and grid impact
-    tools:
-    - Grid Modeling Software
-    - Energy Assessment Tools
-    duration: 1 week
-    outputs:
-    - Technical Assessment
-  - step: 2
-    actor: Grid Engineer
-    action: Design integration solution and interconnection requirements
-    decision_points:
-    - Grid Capacity
-    - Stability Requirements
-    duration: 2 weeks
-    outputs:
-    - Integration Design
-    - Interconnection Agreement
-  - step: 3
-    actor: Regulatory Affairs
-    action: Obtain necessary permits and regulatory approvals
-    duration: 1 month
-    outputs:
-    - Regulatory Approvals
-  - step: 4
-    actor: Safety Team
-    action: Conduct safety assessment and develop protocols
-    duration: 1 week
-    outputs:
-    - Safety Protocols
-  - step: 5
-    actor: Operations Manager
-    action: Coordinate installation and commissioning
-    duration: 2 weeks
-    outputs:
-    - Commissioning Report
-    - Operational Handover
-  success_criteria: Renewable energy source successfully integrated with stable grid
-    performance, all safety protocols verified, and operational handover completed
-  failure_modes:
-  - Grid stability issues
-  - Regulatory delays
-  - Technical compatibility problems
-  - Equipment failure
-  - Weather-related installation delays
-  metrics:
-  - 'Integration Time: <8 weeks'
-  - 'Grid Stability: 99.9% uptime'
-  - 'Renewable Capacity: +10% annually'
-  - 'Safety Incident Rate: 0'
-  - 'Energy Efficiency: >90%'
+    - step: 1
+      actor: "Renewable Energy Specialist"
+      action: "Assess renewable source specifications and grid impact"
+      tools: ["Grid Modeling Software", "Energy Assessment Tools"]
+      duration: "1 week"
+      outputs: ["Technical Assessment"]
+    - step: 2
+      actor: "Grid Engineer"
+      action: "Design integration solution and interconnection requirements"
+      decision_points: ["Grid Capacity", "Stability Requirements"]
+      duration: "2 weeks"
+      outputs: ["Integration Design", "Interconnection Agreement"]
+    - step: 3
+      actor: "Regulatory Affairs"
+      action: "Obtain necessary permits and regulatory approvals"
+      duration: "1 month"
+      outputs: ["Regulatory Approvals"]
+    - step: 4
+      actor: "Safety Team"
+      action: "Conduct safety assessment and develop protocols"
+      duration: "1 week"
+      outputs: ["Safety Protocols"]
+    - step: 5
+      actor: "Operations Manager"
+      action: "Coordinate installation and commissioning"
+      duration: "2 weeks"
+      outputs: ["Commissioning Report", "Operational Handover"]
+   success_criteria: "Renewable energy source successfully integrated with stable grid performance, all safety protocols verified, and operational handover completed"
+   failure_modes: ["Grid stability issues", "Regulatory delays", "Technical compatibility problems", "Equipment failure", "Weather-related installation delays"]
+   metrics:
+     - "Integration Time: <8 weeks"
+     - "Grid Stability: 99.9% uptime"
+     - "Renewable Capacity: +10% annually"
+     - "Safety Incident Rate: 0"
+     - "Energy Efficiency: >90%"

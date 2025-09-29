@@ -1,9 +1,9 @@
 ## Meeting Notes: Mining Environmental Compliance Strategy
 
-**Date:** September 29, 2025
-**Time:** 09:00-10:30 AEST
-**Location:** Sydney Headquarters, Conference Room A
-**Attendees:** Chief Operating Officer (Chair), Environmental Manager, Operations Director, Legal Counsel, Community Relations Manager
+**Date:** September 29, 2025  
+**Time:** 09:00-10:30 AEST  
+**Location:** Sydney Headquarters, Conference Room A  
+**Attendees:** Chief Operating Officer (Chair), Environmental Manager, Operations Director, Legal Counsel, Community Relations Manager  
 **Apologies:** CEO (overseas), Mine Managers (remote locations)
 
 ### Agenda
@@ -62,5 +62,5 @@
 ### Next Meeting
 Monthly compliance updates, first meeting in 4 weeks.
 
-**Meeting Chair:** Chief Operating Officer
+**Meeting Chair:** Chief Operating Officer  
 **Note Taker:** Environmental Manager

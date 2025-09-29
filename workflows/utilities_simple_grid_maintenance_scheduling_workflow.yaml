@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_utilities_simple_grid_maintenance_scheduling"
+  title: "Electrical Grid Maintenance Scheduling Process"
+  department: "Grid Operations"
+  complexity: "simple"
+  participants: ["Maintenance Scheduler", "Field Technician", "Operations Supervisor"]
+  trigger: "Scheduled preventive maintenance or system alert"
+  temporal_data:
+    first_implemented: "2018-07-01"
+    last_updated: "2024-08-20"
+    typical_cycle_time: "1-2 weeks"
+    average_annual_executions: 5000
+    seasonal_variations: ["Spring/summer peak for vegetation management", "Winter focus on equipment reliability"]
+    historical_evolution: "IoT sensors in 2021 enabled predictive maintenance, reducing unplanned outages by 45%"
+  steps:
+    - step: 1
+      actor: "Maintenance Scheduler"
+      action: "Review maintenance schedule and system alerts"
+      tools: ["Asset management system", "IoT monitoring dashboard"]
+      duration: "30 minutes"
+      outputs: ["Maintenance work order", "Resource allocation plan"]
+    - step: 2
+      actor: "Operations Supervisor"
+      action: "Approve maintenance schedule and coordinate resources"
+      tools: ["Work management system"]
+      duration: "15 minutes"
+      outputs: ["Approved work order", "Safety briefing requirements"]
+    - step: 3
+      actor: "Field Technician"
+      action: "Execute maintenance and document completion"
+      tools: ["Mobile work order app", "Testing equipment"]
+      duration: "4 hours"
+      outputs: ["Maintenance completion report", "System test results"]
+  success_criteria: "Maintenance completed within scheduled timeframe with zero safety incidents"
+  failure_modes: ["Equipment unavailability", "Weather delays", "Unexpected system issues"]
+  metrics:
+    - "On-time completion: 94%"
+    - "Safety incident rate: 0.02 per 1000 maintenances"
+    - "System reliability improvement: 2.5%"
+  performance_history:
+    success_rate_trend: "89% (2023) → 92% (2024) → 94% (2025)"
+    cost_trend: "$280 (2023) → $250 (2024) → $220 (2025)"
+    efficiency_improvements: ["Predictive analytics reduced emergency maintenance by 40%", "Mobile apps improved technician productivity by 25%"]

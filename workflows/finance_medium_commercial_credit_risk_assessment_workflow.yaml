@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_finance_medium_commercial_credit_risk_assessment"
+  title: "Commercial Loan Credit Risk Assessment Process"
+  department: "Commercial Banking"
+  complexity: "medium"
+  participants: ["Credit Analyst", "Relationship Manager", "Credit Committee", "Risk Officer"]
+  trigger: "Business loan application submitted"
+  temporal_data:
+    first_implemented: "2021-02-01"
+    last_updated: "2024-10-01"
+    typical_cycle_time: "10-14 business days"
+    average_annual_executions: 8000
+    seasonal_variations: ["Q4 peak for year-end financing", "Q2 slowdown during tax season"]
+    historical_evolution: "AI scoring models in 2023 reduced assessment time by 50% while improving risk prediction accuracy to 96%"
+  steps:
+    - step: 1
+      actor: "Relationship Manager"
+      action: "Gather business financials and credit application"
+      tools: ["CRM system", "Document management portal"]
+      duration: "2 hours"
+      outputs: ["Complete application package", "Initial risk profile"]
+    - step: 2
+      actor: "Credit Analyst"
+      action: "Analyze financial statements and industry risk factors"
+      tools: ["Financial analysis software", "Industry databases"]
+      duration: "6 hours"
+      outputs: ["Financial analysis report", "Risk scoring"]
+    - step: 3
+      actor: "Risk Officer"
+      action: "Review compliance and regulatory requirements"
+      tools: ["Regulatory compliance system", "AML databases"]
+      duration: "4 hours"
+      outputs: ["Compliance clearance", "Regulatory risk assessment"]
+    - step: 4
+      actor: "Credit Committee"
+      action: "Review and approve credit decision"
+      decision_points: ["Risk rating thresholds", "Loan-to-value ratios", "Industry concentration limits"]
+      duration: "2 hours"
+      outputs: ["Credit approval/denial", "Loan terms and conditions"]
+  success_criteria: "Credit decision made within 14 days with comprehensive risk assessment"
+  failure_modes: ["Incomplete financial documentation", "Adverse industry conditions", "Regulatory compliance issues"]
+  metrics:
+    - "Approval accuracy: 96%"
+    - "Default rate: 1.2%"
+    - "Processing efficiency: 85% within 10 days"
+  performance_history:
+    success_rate_trend: "85% (2023) → 88% (2024) → 92% (2025)"
+    cost_trend: "$450 (2023) → $380 (2024) → $320 (2025)"
+    efficiency_improvements: ["AI risk models reduced manual analysis by 60%", "Automated document processing improved turnaround by 30%"]

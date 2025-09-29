@@ -1,0 +1,62 @@
+{
+  "scenario_id": "insurance_parametric_underwriting_investment_decision",
+  "decision_date": "2024-09-10",
+  "context": "Insurance company evaluating investment in parametric underwriting technology to improve risk assessment and pricing accuracy",
+  "stakeholders": {
+    "requester": "Chief Underwriting Officer",
+    "approvers": ["CEO", "CFO", "Chief Actuary"],
+    "influencers": ["Head of Data Analytics", "Claims Operations Director", "Product Development Manager"]
+  },
+  "request": {
+    "amount": "$4,800,000",
+    "purpose": "Implement AI-driven parametric underwriting models for property and casualty lines with real-time risk scoring",
+    "urgency": "medium",
+    "justification": "Competitive pressure from data-driven insurers, potential for 25% improvement in risk pricing accuracy"
+  },
+  "decision_process": [
+    {
+      "stage": "technology_evaluation",
+      "start_date": "2024-06-01",
+      "end_date": "2024-07-15",
+      "duration": "45 days",
+      "activities": ["Vendor technology assessment", "Proof of concept testing", "Data quality analysis"],
+      "outcome": "Selected parametric modeling platform with proven accuracy"
+    },
+    {
+      "stage": "business_case_development",
+      "start_date": "2024-07-16",
+      "end_date": "2024-08-30",
+      "duration": "45 days",
+      "activities": ["ROI modeling", "Implementation planning", "Change management assessment"],
+      "outcome": "Comprehensive business case with 24-month payback projection"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-10",
+      "duration": "10 days",
+      "activities": ["Board presentation", "Risk assessment review", "Final investment committee approval"],
+      "outcome": "Approved with phased implementation and training requirements"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "20% improvement in underwriting accuracy, 15% reduction in claims costs, enhanced competitive positioning",
+    "projected_value": "$9,600,000 annual profit improvement",
+    "actual_value": "$8,900,000 realized in Year 1 (93% of annual projection)",
+    "roi_timeline": "Expected payback in 16 months",
+    "risk_factors": ["Data quality issues", "Model calibration challenges", "Underwriter resistance to change"]
+  },
+  "decision_criteria": ["Technical feasibility", "Financial returns", "Implementation complexity", "Regulatory compliance", "Competitive advantage"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-10-01",
+    "completion_date": "2025-09-30",
+    "milestones": ["Phase 1: Data integration (Q4 2024)", "Phase 2: Model deployment (Q1 2025)", "Phase 3: Full rollout (Q2-Q3 2025)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Models deployed in pilot lines, 18% accuracy improvement achieved, underwriter training completed",
+    "12_month_review": "Full implementation across property lines, 22% combined ratio improvement, positive underwriter feedback",
+    "actual_roi": "19.8% (vs projected 20.1%)"
+  },
+  "lessons_learned": "Early underwriter involvement critical for adoption, comprehensive data governance essential, iterative model refinement improved accuracy"
+}

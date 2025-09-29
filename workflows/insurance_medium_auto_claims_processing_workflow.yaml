@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_insurance_medium_auto_claims_processing"
+  title: "Auto Insurance Claims Processing Workflow"
+  department: "Claims Operations"
+  complexity: "medium"
+  participants: ["Claims Adjuster", "Field Inspector", "Claims Supervisor", "Legal Counsel"]
+  trigger: "Customer submits auto insurance claim"
+  temporal_data:
+    first_implemented: "2019-03-01"
+    last_updated: "2024-09-15"
+    typical_cycle_time: "5-7 business days"
+    average_annual_executions: 15000
+    seasonal_variations: ["Winter peak due to weather-related claims", "Summer increase in collision claims"]
+    historical_evolution: "Mobile app integration in 2023 reduced processing time by 40% and improved customer communication"
+  steps:
+    - step: 1
+      actor: "Claims Adjuster"
+      action: "Review claim submission and gather initial information"
+      tools: ["Claims management system", "Customer portal"]
+      duration: "2 hours"
+      outputs: ["Initial claim assessment", "Required documentation list"]
+    - step: 2
+      actor: "Field Inspector"
+      action: "Inspect vehicle damage and assess repair costs"
+      tools: ["Mobile inspection app", "Repair estimate software"]
+      duration: "4 hours"
+      outputs: ["Damage assessment report", "Repair cost estimate"]
+    - step: 3
+      actor: "Claims Supervisor"
+      action: "Review assessment and approve settlement amount"
+      decision_points: ["Policy coverage limits", "Deductible application", "Fraud indicators"]
+      duration: "3 hours"
+      outputs: ["Settlement approval", "Payment instructions"]
+    - step: 4
+      actor: "Claims Adjuster"
+      action: "Process payment and communicate with customer"
+      tools: ["Payment processing system", "Customer notification system"]
+      duration: "1 hour"
+      outputs: ["Payment issued", "Customer confirmation"]
+  success_criteria: "Claim settled within 7 business days with accurate assessment and customer satisfaction"
+  failure_modes: ["Insufficient documentation", "Disputed damage assessment", "Fraud detection flags"]
+  metrics:
+    - "Settlement accuracy: 98%"
+    - "Customer satisfaction: 4.1/5"
+    - "Fraud detection rate: 2.5%"
+  performance_history:
+    success_rate_trend: "88% (2023) → 92% (2024) → 95% (2025)"
+    cost_trend: "$125 (2023) → $110 (2024) → $95 (2025)"
+    efficiency_improvements: ["AI fraud detection reduced false claims by 25%", "Mobile inspections decreased assessment time by 35%"]

@@ -1,0 +1,62 @@
+{
+  "scenario_id": "finance_digital_banking_platform_investment_decision",
+  "decision_date": "2024-11-15",
+  "context": "Mid-size regional bank evaluating investment in next-generation digital banking platform to compete with fintech challengers",
+  "stakeholders": {
+    "requester": "Chief Digital Officer",
+    "approvers": ["CEO", "CFO", "Chief Risk Officer"],
+    "influencers": ["Head of Retail Banking", "Chief Technology Officer", "Customer Experience Director"]
+  },
+  "request": {
+    "amount": "$12,500,000",
+    "purpose": "Implementation of cloud-based digital banking platform with mobile app, API integrations, and AI-driven personalization",
+    "urgency": "high",
+    "justification": "Market share erosion to digital-first competitors, customer expectation for 24/7 banking services"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-09-01",
+      "end_date": "2024-09-15",
+      "duration": "15 days",
+      "activities": ["Vendor RFP process", "Technical architecture review", "Competitive analysis"],
+      "outcome": "Shortlisted 3 vendors for detailed evaluation"
+    },
+    {
+      "stage": "due_diligence",
+      "start_date": "2024-09-16",
+      "end_date": "2024-10-31",
+      "duration": "45 days",
+      "activities": ["Security assessments", "Integration testing", "ROI modeling", "Regulatory compliance review"],
+      "outcome": "Selected vendor with strongest security and integration capabilities"
+    },
+    {
+      "stage": "executive_review",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "15 days",
+      "activities": ["Board presentation", "Risk committee review", "Final ROI validation"],
+      "outcome": "Approved with phased implementation approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15% increase in digital customer acquisition, 25% reduction in operational costs, improved customer satisfaction scores",
+    "projected_value": "$8,200,000 annual savings and $15,600,000 revenue uplift",
+    "actual_value": "$7,800,000 realized in Year 1 (96% of projection)",
+    "roi_timeline": "Expected payback in 18 months",
+    "risk_factors": ["Implementation delays", "Data migration challenges", "User adoption resistance"]
+  },
+  "decision_criteria": ["Technology scalability", "Security compliance", "Integration capabilities", "Total cost of ownership", "Time to market"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-01-01",
+    "completion_date": "2025-12-31",
+    "milestones": ["Phase 1: Core platform (Q1 2025)", "Phase 2: Mobile enhancements (Q2 2025)", "Phase 3: AI features (Q3-Q4 2025)"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Platform launched successfully, 40% customer migration achieved, initial cost savings of $2.1M",
+    "12_month_review": "Full implementation complete, 85% digital transaction increase, ROI tracking at 94% of projections",
+    "actual_roi": "18.5% (vs projected 19.2%)"
+  },
+  "lessons_learned": "Phased approach mitigated risks, early user testing improved adoption, vendor partnership model enhanced implementation success"
+}

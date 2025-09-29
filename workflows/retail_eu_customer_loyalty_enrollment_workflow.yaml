@@ -1,42 +1,26 @@
 workflow:
-  id: workflow_retail_eu_customer_loyalty_enrollment
-  title: EU Retail Customer Loyalty Program Enrollment
-  department: Customer Experience
-  complexity: simple
-  participants:
-  - Sales Associate
-  - Customer Service Rep
-  trigger: Customer expresses interest in loyalty program
+  id: "workflow_retail_eu_customer_loyalty_enrollment"
+  title: "EU Retail Customer Loyalty Program Enrollment"
+  department: "Customer Experience"
+  complexity: "simple"
+  participants: ["Sales Associate", "Customer Service Rep"]
+  trigger: "Customer expresses interest in loyalty program"
   steps:
-  - step: 1
-    actor: Sales Associate
-    action: Explain program benefits and collect basic information
-    tools:
-    - Loyalty App
-    - ID Verification
-    duration: 5 minutes
-    outputs:
-    - Enrollment Form
-  - step: 2
-    actor: Customer Service Rep
-    action: Process enrollment and issue membership card
-    decision_points:
-    - GDPR Consent
-    - Age Verification
-    duration: 10 minutes
-    outputs:
-    - Membership Card
-    - Welcome Email
-  success_criteria: Customer successfully enrolled with immediate access to benefits,
-    GDPR consent properly documented, and welcome communications sent
-  failure_modes:
-  - GDPR compliance issues
-  - System errors
-  - Invalid identification
-  - Duplicate enrollment attempts
+    - step: 1
+      actor: "Sales Associate"
+      action: "Explain program benefits and collect basic information"
+      tools: ["Loyalty App", "ID Verification"]
+      duration: "5 minutes"
+      outputs: ["Enrollment Form"]
+    - step: 2
+      actor: "Customer Service Rep"
+      action: "Process enrollment and issue membership card"
+      decision_points: ["GDPR Consent", "Age Verification"]
+      duration: "10 minutes"
+      outputs: ["Membership Card", "Welcome Email"]
+  success_criteria: "Customer successfully enrolled with immediate access to benefits"
+  failure_modes: ["GDPR compliance issues", "System errors"]
   metrics:
-  - 'Enrollment Time: <15 minutes'
-  - 'Completion Rate: >95%'
-  - 'Customer Retention: +15%'
-  - 'GDPR Compliance Rate: 100%'
-  - 'Welcome Email Open Rate: >30%'
+    - "Enrollment Time: <15 minutes"
+    - "Completion Rate: >95%"
+    - "Customer Retention: +15%"

@@ -6,8 +6,8 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 ## Organizational Structure
 
 ### Director of Customer Experience (C-Level)
-**Reports to:** Chief Commercial Officer
-**Direct Reports:** 4 Regional Managers
+**Reports to:** Chief Commercial Officer  
+**Direct Reports:** 4 Regional Managers  
 **Key Responsibilities:**
 - Overall customer experience strategy
 - Cross-channel integration
@@ -15,9 +15,9 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 - Regulatory compliance oversight
 
 ### Regional Customer Experience Managers (4 positions)
-**Reports to:** Director of Customer Experience
-**Location:** Major European hubs (London, Paris, Frankfurt, Amsterdam)
-**Direct Reports:** 3-5 Country Managers each
+**Reports to:** Director of Customer Experience  
+**Location:** Major European hubs (London, Paris, Frankfurt, Amsterdam)  
+**Direct Reports:** 3-5 Country Managers each  
 **Key Responsibilities:**
 - Regional strategy execution
 - Local market adaptation
@@ -25,9 +25,9 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 - Stakeholder coordination
 
 ### Country Customer Experience Managers (12 positions)
-**Reports to:** Regional Managers
-**Location:** Each EU market
-**Direct Reports:** Store Experience Coordinators, Digital Experience Specialists
+**Reports to:** Regional Managers  
+**Location:** Each EU market  
+**Direct Reports:** Store Experience Coordinators, Digital Experience Specialists  
 **Key Responsibilities:**
 - Country-specific customer programs
 - Local regulatory compliance
@@ -35,9 +35,9 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 - Crisis management coordination
 
 ### Store Experience Coordinators (50+ positions)
-**Reports to:** Country Managers
-**Location:** Major stores/clusters
-**Direct Reports:** Customer Service Leads
+**Reports to:** Country Managers  
+**Location:** Major stores/clusters  
+**Direct Reports:** Customer Service Leads  
 **Key Responsibilities:**
 - In-store experience optimization
 - Staff training and development
@@ -45,8 +45,8 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 - Mystery shopping programs
 
 ### Digital Experience Specialists (15 positions)
-**Reports to:** Country Managers
-**Location:** Regional hubs
+**Reports to:** Country Managers  
+**Location:** Regional hubs  
 **Key Responsibilities:**
 - E-commerce optimization
 - Mobile app management
@@ -54,8 +54,8 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 - Digital customer journey mapping
 
 ### Customer Insights Analysts (8 positions)
-**Reports to:** Director of Customer Experience
-**Location:** Central analytics hub
+**Reports to:** Director of Customer Experience  
+**Location:** Central analytics hub  
 **Key Responsibilities:**
 - Customer data analysis
 - Journey mapping and optimization
@@ -65,15 +65,15 @@ The EU Customer Experience Team is responsible for ensuring exceptional customer
 ## Support Functions
 
 ### Training and Development Coordinator
-**Reports to:** Director of Customer Experience
+**Reports to:** Director of Customer Experience  
 **Key Responsibilities:**
 - Staff training programs
 - Certification management
 - Best practice sharing
 
 ### Customer Service Center
-**Reports to:** Director of Customer Experience
-**Staff:** 200+ agents across EU
+**Reports to:** Director of Customer Experience  
+**Staff:** 200+ agents across EU  
 **Key Responsibilities:**
 - Multi-channel customer support
 - Complaint resolution

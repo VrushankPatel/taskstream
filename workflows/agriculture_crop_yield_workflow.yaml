@@ -10,6 +10,13 @@ workflow:
   - Equipment Operator
   - Supply Chain Coordinator
   trigger: Seasonal planning cycle begins
+  temporal_data:
+    first_implemented: "2017-02-01"
+    last_updated: "2024-11-01"
+    typical_cycle_time: "6 months"
+    average_annual_executions: 120
+    seasonal_variations: ["Spring planting season (peak activity)", "Fall harvest preparation"]
+    historical_evolution: "Traditional farming evolved to precision agriculture in 2020, AI optimization added in 2023"
   steps:
   - step: 1
     actor: Agronomist
@@ -84,8 +91,12 @@ workflow:
   - Equipment failures
   - Market price volatility
   metrics:
-  - 'Crop yield per acre: Target 200 bushels/acre'
-  - 'Production cost per unit: Target <$0.15/lb'
-  - 'Quality grade A rating: Target >90%'
-  - 'Resource utilization efficiency: Target >85%'
-  - 'Sustainable practice compliance: Target 100%'
+   - 'Crop yield per acre: Target 200 bushels/acre'
+   - 'Production cost per unit: Target <$0.15/lb'
+   - 'Quality grade A rating: Target >90%'
+   - 'Resource utilization efficiency: Target >85%'
+   - 'Sustainable practice compliance: Target 100%'
+  performance_history:
+    success_rate_trend: "78% (2023) → 82% (2024) → 85% (2025)"
+    cost_trend: "$180 per acre (2023) → $165 (2024) → $150 (2025)"
+    efficiency_improvements: ["Precision farming increased yield by 15%", "IoT sensors reduced resource waste by 20%", "AI optimization improved quality ratings by 12%"]

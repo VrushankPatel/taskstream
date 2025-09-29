@@ -61,6 +61,13 @@ Review progress on EASA safety certification requirements and address emerging r
 4. **EASA Liaison Officer:** Update on regulatory changes by August 29
 5. **Chief Safety Officer:** Present progress to Board on September 5
 
+### Decision Points Identified
+1. **Certification Approach:** Decision required on primary vs. alternative certification paths by September 1
+2. **Resource Allocation:** Additional 3 FTE safety engineers - approval needed from HR by August 30
+3. **Budget Reallocation:** €200K from contingency fund for accelerated testing - CFO approval required
+4. **Timeline Adjustment:** Potential 4-week delay assessment - Board decision by September 15
+5. **Vendor Selection:** External audit consultant selection - procurement process to start immediately
+
 ### Risk Register Updates
 - **High Risk:** Autonomous system certification delays - Mitigation: Parallel development paths
 - **Medium Risk:** Regulatory interpretation changes - Mitigation: Direct EASA consultation

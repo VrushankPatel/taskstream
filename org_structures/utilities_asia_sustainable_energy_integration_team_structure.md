@@ -102,16 +102,22 @@
 - **Budget Utilization:** 88% (target: 92%)
 - **Cost per MW Integrated:** $2.2M (target: $2.0M)
 - **ROI on Integration Projects:** 15% (target: 18%)
+- **Revenue from Integration Services:** $85M (target: $100M)
+- **Cost Savings from Efficiency:** $12M (target: $15M)
 
 ### Operational Metrics
 - **Renewable Capacity Online:** 650MW (target: 800MW)
 - **Grid Stability Index:** 99.5% (target: 99.7%)
 - **Project Completion Rate:** 88% (target: 92%)
+- **Integration Time Reduction:** 25% (target: 30%)
+- **System Availability:** 99.8% (target: 99.9%)
 
 ### Quality & Safety Metrics
 - **Safety Incident Rate:** 0.3 per 100 FTEs (target: 0.0)
 - **Regulatory Compliance:** 95% (target: 98%)
 - **Customer Satisfaction:** 4.0/5 (target: 4.3)
+- **Environmental Impact Score:** 4.2/5 (target: 4.5)
+- **Innovation Adoption Rate:** 65% (target: 75%)
 
 ## Future Growth Plans
 - **2025 Target:** Expand to 140 FTEs with additional solar integration specialists

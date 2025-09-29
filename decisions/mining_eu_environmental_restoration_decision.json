@@ -59,7 +59,8 @@
   "implementation_timeline": {
     "start_date": "2024-10-01",
     "completion_date": "2026-09-30",
-    "milestones": ["Site preparation: Q4 2024", "Major restoration work: Q1-Q2 2025", "Monitoring and compliance: Q3-Q4 2025", "Final certification: Q3 2026"]
+    "milestones": ["Site preparation: Q4 2024", "Major restoration work: Q1-Q2 2025", "Monitoring and compliance: Q3-Q4 2025", "Final certification: Q3 2026"],
+    "detailed_timeline": ["Phase 1: Planning and permitting (Oct-Dec 2024)", "Phase 2: Site preparation and mobilization (Jan-Mar 2025)", "Phase 3: Core restoration activities (Apr-Jun 2025)", "Phase 4: Vegetation establishment (Jul-Sep 2025)", "Phase 5: Monitoring and maintenance (Oct 2025-Mar 2026)", "Phase 6: Final assessment and certification (Apr-Sep 2026)"]
   },
   "outcome_tracking": {
     "6_month_review": "Progress assessment against milestones, budget variance analysis",

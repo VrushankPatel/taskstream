@@ -103,16 +103,23 @@
 - **Budget Utilization:** 88% (target: 95%)
 - **Grant Funding Secured:** €8.5M (target: €10M)
 - **Cost per Adaptation Project:** €45K (target: €40K)
+- **ROI on Adaptation Investments:** 3.2x (target: 3.5x)
+- **Funding Diversification Index:** 65% (target: 75%)
 
 ### Operational Metrics
 - **Projects Completed:** 45 (target: 55)
 - **Farmer Reach:** 2,500 (target: 3,000)
 - **Technology Adoption Rate:** 55% (target: 65%)
+- **Training Program Completion:** 92% (target: 95%)
+- **Field Implementation Coverage:** 68% (target: 75%)
 
 ### Impact Metrics
 - **Carbon Reduction Achieved:** 12,000 tons CO2 (target: 15,000)
 - **Yield Resilience Improvement:** 18% (target: 22%)
 - **Farmer Income Protection:** 85% (target: 90%)
+- **Biodiversity Enhancement Score:** 4.1/5 (target: 4.3/5)
+- **Water Conservation Efficiency:** 22% (target: 25%)
+- **Soil Health Improvement:** 15% organic matter increase (target: 18%)
 
 ## Future Growth Plans
 - **2025 Target:** Expand to 95 FTEs with additional field implementation specialists

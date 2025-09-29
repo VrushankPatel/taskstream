@@ -105,4 +105,10 @@ Thank you all for the swift responses. Actions initiated:
 
 Will provide hourly updates. This is manageable with our contingency planning.
 
+Forecasting update:
+- Recovery timeline: Full restocking in 18 days (vs. initial 21 days)
+- Peak season impact: 12% revenue reduction mitigated to 8%
+- Customer retention: Expected 95% with communication strategy
+- Long-term opportunity: Strengthen supplier relationships and diversify sourcing
+
 Marcus

@@ -1,0 +1,68 @@
+{
+  "scenario_id": "utilities_smart_grid_asia_2024",
+  "decision_date": "2024-11-15",
+  "context": "Regional utility company (3000+ employees) in Southeast Asia evaluating smart grid infrastructure investment to improve renewable energy integration and grid reliability across metropolitan service area",
+  "stakeholders": {
+    "requester": "VP Grid Operations",
+    "approvers": ["CEO", "CFO", "Government Relations Director"],
+    "influencers": ["Chief Technology Officer", "Head of Renewable Integration", "Regulatory Affairs Manager", "Operations Director"],
+    "impacted_parties": ["Grid Operators", "Customer Service", "Field Technicians", "Regulatory Bodies", "Renewable Energy Partners"]
+  },
+  "request": {
+    "amount": "$45M",
+    "purpose": "Smart grid infrastructure deployment and control systems",
+    "urgency": "medium",
+    "justification": "Government renewable energy mandates requiring 40% clean energy by 2027 and increasing grid stability demands"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "start_date": "2024-08-01",
+      "end_date": "2024-09-15",
+      "duration": "45 days",
+      "activities": ["Technical assessment", "Regulatory compliance review", "Financial modeling", "Environmental impact study", "Stakeholder consultations"],
+      "outcome": "Feasibility confirmed with regulatory support identified"
+    },
+    {
+      "stage": "vendor_selection",
+      "start_date": "2024-09-16",
+      "end_date": "2024-10-30",
+      "duration": "44 days",
+      "activities": ["RFP development", "Vendor demonstrations", "Technical evaluations", "Reference site visits", "Contract negotiations"],
+      "outcome": "Primary vendor selected with proven Asia-Pacific deployment experience"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "14 days",
+      "activities": ["Executive committee review", "Board presentation", "Government liaison meetings", "Financial committee approval"],
+      "outcome": "Approved with government co-funding secured"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% improvement in renewable energy integration capacity and 25% reduction in grid outages",
+    "projected_value": "$78M over 10 years through efficiency gains and reliability improvements",
+    "actual_value": "Project initiation phase",
+    "roi_timeline": "Break-even in 7 years with full value realization over 15-year asset life",
+    "risk_factors": ["Technology integration complexity", "Regulatory approval delays", "Customer adoption rates", "Cybersecurity vulnerabilities", "Weather-related deployment risks"]
+  },
+  "decision_criteria": ["Renewable integration capacity", "Grid reliability improvement", "Regulatory compliance", "Total cost of ownership", "Vendor track record in region", "Cybersecurity capabilities"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-01-15",
+    "completion_date": "2026-12-31",
+    "milestones": [
+      "Phase 1 - Infrastructure Planning: 2025-06-30",
+      "Phase 2 - Core System Deployment: 2025-12-31",
+      "Phase 3 - Grid Integration & Testing: 2026-06-30",
+      "Phase 4 - Full Operational Launch: 2026-12-31"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Project on track with infrastructure planning 95% complete and vendor partnerships established",
+    "12_month_review": "Core systems 70% deployed with renewable integration testing showing 28% capacity improvement",
+    "actual_roi": "Tracking 15% ahead of projections with government incentives exceeding expectations"
+  },
+  "lessons_learned": "Government partnership and regulatory pre-approval essential for large infrastructure projects. Phased deployment allows for learning and adjustment while maintaining service reliability."
+}

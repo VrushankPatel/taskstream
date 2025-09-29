@@ -1,0 +1,117 @@
+{
+  "scenario_id": "retail_supply_chain_resilience_2024",
+  "decision_date": "2024-11-25",
+  "context": "Global retail corporation (15,000+ employees) evaluating comprehensive supply chain resilience investment following recent disruptions from geopolitical tensions, climate events, and trade restrictions affecting multiple product categories",
+  "stakeholders": {
+    "requester": "Chief Supply Chain Officer",
+    "approvers": ["CEO", "CFO", "Board of Directors"],
+    "influencers": ["VP Global Procurement", "VP Operations", "Chief Risk Officer", "Regional Directors (Americas, EU, Asia)"],
+    "impacted_parties": ["Suppliers", "Distribution Centers", "Store Operations", "Customers", "Logistics Partners"]
+  },
+  "request": {
+    "amount": "$85M",
+    "purpose": "Multi-year supply chain resilience and diversification program",
+    "urgency": "high",
+    "justification": "Critical need to reduce supply chain vulnerabilities that caused $180M revenue loss in past 18 months due to disruptions"
+  },
+  "decision_process": [
+    {
+      "stage": "risk_assessment_analysis",
+      "start_date": "2024-09-15",
+      "end_date": "2024-10-15",
+      "duration": "30 days",
+      "activities": ["Supply chain vulnerability mapping", "Risk scenario modeling", "Financial impact analysis", "Competitive benchmarking", "Regulatory compliance review"],
+      "outcome": "Comprehensive risk profile established with priority vulnerability areas identified"
+    },
+    {
+      "stage": "strategic_options_development",
+      "start_date": "2024-10-16",
+      "end_date": "2024-11-05",
+      "duration": "20 days",
+      "activities": ["Alternative supplier identification", "Technology solution evaluation", "Geographic diversification planning", "Investment option analysis", "Implementation roadmap development"],
+      "outcome": "Three strategic options developed with detailed cost-benefit analysis"
+    },
+    {
+      "stage": "stakeholder_consultation",
+      "start_date": "2024-11-06",
+      "end_date": "2024-11-18",
+      "duration": "12 days",
+      "activities": ["Executive committee review", "Regional director consultations", "Key supplier negotiations", "Technology vendor discussions", "Board risk committee presentation"],
+      "outcome": "Stakeholder alignment achieved with preferred option selected"
+    },
+    {
+      "stage": "final_approval_process",
+      "start_date": "2024-11-19",
+      "end_date": "2024-11-25",
+      "duration": "6 days",
+      "activities": ["Board presentation preparation", "Financial model validation", "Implementation planning", "Contract negotiations", "Board approval meeting"],
+      "outcome": "Board approval secured with conditions and success metrics defined"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "40% reduction in supply chain disruption risk and 25% improvement in delivery reliability",
+    "projected_value": "$245M over 5 years through disruption avoidance and operational efficiency",
+    "actual_value": "Implementation phase commencing",
+    "roi_timeline": "Expected payback in 30 months with full value realization over 5-year period",
+    "risk_factors": ["Supplier adoption and compliance", "Technology integration complexity", "Geopolitical stability changes", "Climate event frequency increase", "Competitive response and market dynamics"]
+  },
+  "decision_criteria": [
+    "Supply chain risk reduction effectiveness",
+    "Geographic and supplier diversification improvement",
+    "Technology integration and automation capabilities",
+    "Financial return and payback period",
+    "Implementation timeline and resource requirements",
+    "Regulatory compliance and sustainability alignment"
+  ],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-01-15",
+    "completion_date": "2027-06-30",
+    "milestones": [
+      "Phase 1 - Supplier Diversification: 2025-08-31",
+      "Phase 2 - Technology Platform Deployment: 2025-12-31",
+      "Phase 3 - Geographic Distribution Enhancement: 2026-06-30",
+      "Phase 4 - Advanced Analytics and AI Integration: 2026-12-31",
+      "Phase 5 - Full Resilience Framework Activation: 2027-06-30"
+    ]
+  },
+  "strategic_components": {
+    "supplier_diversification": {
+      "investment": "$28M",
+      "scope": "Establish alternative suppliers in 4 key regions for critical product categories",
+      "timeline": "8 months",
+      "expected_impact": "60% reduction in single-source dependency risk"
+    },
+    "technology_infrastructure": {
+      "investment": "$32M",
+      "scope": "Advanced supply chain visibility platform, AI-powered demand forecasting, automated inventory optimization",
+      "timeline": "12 months",
+      "expected_impact": "30% improvement in demand prediction accuracy and inventory efficiency"
+    },
+    "geographic_diversification": {
+      "investment": "$15M",
+      "scope": "Establish 3 additional distribution centers in strategic locations",
+      "timeline": "18 months",
+      "expected_impact": "25% reduction in delivery time and logistics cost optimization"
+    },
+    "risk_management_systems": {
+      "investment": "$10M",
+      "scope": "Real-time risk monitoring, early warning systems, automated response protocols",
+      "timeline": "24 months",
+      "expected_impact": "50% faster response to supply chain disruptions"
+    }
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 supplier diversification 75% complete with 45 new suppliers onboarded across 3 regions",
+    "12_month_review": "Technology platform operational with 25% improvement in demand forecasting accuracy achieved",
+    "actual_roi": "18% ahead of projections due to early disruption avoidance savings exceeding $12M"
+  },
+  "success_metrics": {
+    "supply_chain_resilience_score": "Target: 85% (vs current 52%)",
+    "supplier_diversification_index": "Target: 3.2 average suppliers per critical category",
+    "delivery_reliability_improvement": "Target: 96% on-time delivery (vs current 87%)",
+    "inventory_optimization": "Target: 15% reduction in working capital",
+    "disruption_response_time": "Target: <24 hours for 90% of incidents"
+  },
+  "lessons_learned": "Early stakeholder engagement and comprehensive risk assessment critical for complex multi-regional supply chain transformation. Phased implementation approach allows for learning and adjustment while maintaining operational continuity."
+}

@@ -1,0 +1,53 @@
+workflow:
+  id: "hospitality_eu_room_maintenance_001"
+  title: "Preventive Room Maintenance Scheduling - EU Hotels"
+  department: "Operations & Maintenance"
+  complexity: "simple"
+  participants: ["Housekeeping Supervisor", "Maintenance Coordinator", "Front Office Manager", "Quality Inspector"]
+  trigger: "Scheduled maintenance cycle or guest-reported issue"
+  temporal_data:
+    first_implemented: "2021-08-20"
+    last_updated: "2024-10-30"
+    typical_cycle_time: "4-6 hours per room"
+    average_annual_executions: 8760
+    seasonal_variations: ["Summer peak maintenance (hotel renovations)", "Winter deep cleaning cycles"]
+    historical_evolution: "Evolved from reactive to predictive maintenance using IoT sensors and guest feedback analytics"
+  steps:
+    - step: 1
+      actor: "Housekeeping Supervisor"
+      action: "Conduct initial room inspection and document issues"
+      tools: ["Mobile Inspection App", "Digital Checklist", "Photo Documentation System"]
+      duration: "30 minutes"
+      outputs: ["Inspection Report", "Priority Issue List", "Photo Evidence"]
+      decision_points: ["Issue severity classification", "Guest impact assessment"]
+    - step: 2
+      actor: "Maintenance Coordinator"
+      action: "Schedule maintenance based on priority and availability"
+      tools: ["Work Order Management System", "Staff Scheduling Tool", "Room Availability Calendar"]
+      duration: "15 minutes"
+      outputs: ["Maintenance Schedule", "Resource Assignment", "Estimated Completion Time"]
+      decision_points: ["Room occupancy conflicts", "Maintenance team availability", "Parts/materials availability"]
+    - step: 3
+      actor: "Maintenance Coordinator"
+      action: "Execute maintenance tasks and document completion"
+      tools: ["Maintenance Tools", "Quality Checklist", "Time Tracking System"]
+      duration: "3-4 hours"
+      outputs: ["Completed Work Order", "Quality Verification", "Time/Cost Report"]
+      decision_points: ["Quality standards compliance", "Additional issues discovered"]
+    - step: 4
+      actor: "Quality Inspector"
+      action: "Final inspection and room clearance for guest use"
+      tools: ["Quality Assessment App", "Room Status System", "Guest Feedback Integration"]
+      duration: "20 minutes"
+      outputs: ["Quality Certification", "Room Release Authorization", "Maintenance Summary"]
+  success_criteria: "Room ready for guest occupancy within scheduled timeframe, quality score >95%, zero guest complaints"
+  failure_modes: ["Incomplete maintenance tasks", "Quality standard failures", "Schedule overruns affecting reservations", "Safety compliance issues"]
+  metrics:
+    - "Average Maintenance Time: 3.8 hours (Target: <4 hours)"
+    - "Quality Score: 96.2% (Target: >95%)"
+    - "Schedule Adherence: 91% (Target: >90%)"
+    - "Guest Satisfaction Impact: +0.3 points (Target: positive impact)"
+  performance_history:
+    success_rate_trend: "88% (2023) → 91% (2024) → 94% (2025 target)"
+    cost_trend: "€85 avg per room (2023) → €78 (2024) → €72 (2025 target)"
+    efficiency_improvements: ["IoT sensors reduced emergency repairs by 28%", "Predictive scheduling improved efficiency by 22%", "Digital documentation reduced inspection time by 15%"]

@@ -1,0 +1,67 @@
+{
+  "scenario_id": "insurance_climate_risk_2024_q4",
+  "decision_date": "2024-11-20",
+  "context": "Global insurance company (500+ employees) evaluating advanced climate risk modeling platform investment to improve catastrophic event prediction and pricing accuracy across multiple geographic markets",
+  "stakeholders": {
+    "requester": "Chief Risk Officer",
+    "approvers": ["CEO", "CFO", "Board Risk Committee"],
+    "influencers": ["VP Underwriting", "Head of Actuarial Science", "CTO", "Regional Directors (EU/Asia/Americas)"],
+    "impacted_parties": ["Underwriters", "Claims Adjusters", "Reinsurance Partners", "Regulatory Compliance Team"]
+  },
+  "request": {
+    "amount": "$2.8M",
+    "purpose": "Climate risk modeling platform and data integration",
+    "urgency": "high",
+    "justification": "Increasing frequency of extreme weather events requiring enhanced predictive capabilities for competitive pricing and risk management"
+  },
+  "decision_process": [
+    {
+      "stage": "business_case_development",
+      "start_date": "2024-10-15",
+      "end_date": "2024-11-05",
+      "duration": "21 days",
+      "activities": ["Market analysis", "Vendor evaluation", "ROI modeling", "Risk assessment", "Regulatory impact analysis"],
+      "outcome": "Business case approved for board review"
+    },
+    {
+      "stage": "technical_evaluation",
+      "start_date": "2024-11-06",
+      "end_date": "2024-11-18",
+      "duration": "12 days",
+      "activities": ["Platform demonstrations", "Data integration testing", "Security assessment", "Scalability analysis"],
+      "outcome": "Technical feasibility confirmed with minor integration requirements"
+    },
+    {
+      "stage": "board_review_approval",
+      "start_date": "2024-11-19",
+      "end_date": "2024-11-20",
+      "duration": "2 days",
+      "activities": ["Executive presentation", "Risk committee review", "Financial impact assessment", "Strategic alignment evaluation"],
+      "outcome": "Approved with phased implementation approach"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15-20% improvement in catastrophic event prediction accuracy",
+    "projected_value": "$8.2M annual value through improved pricing and reduced claims volatility",
+    "actual_value": "Implementation in progress",
+    "roi_timeline": "Expected payback in 18 months with full value realization in 36 months",
+    "risk_factors": ["Data quality dependencies", "Integration complexity", "Regulatory approval timelines", "Climate model accuracy limitations"]
+  },
+  "decision_criteria": ["Prediction accuracy improvement", "Integration compatibility", "Regulatory compliance support", "Vendor financial stability", "Geographic coverage adequacy"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-12-01",
+    "completion_date": "2025-06-30",
+    "milestones": [
+      "Phase 1 - Data Integration: 2025-02-28",
+      "Phase 2 - Model Calibration: 2025-04-30",
+      "Phase 3 - Production Deployment: 2025-06-30"
+    ]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 completed on schedule with 98% data integration accuracy achieved",
+    "12_month_review": "Full platform operational with 18% prediction accuracy improvement exceeding target",
+    "actual_roi": "22% (vs projected 18%) with $9.1M annual value realized"
+  },
+  "lessons_learned": "Early stakeholder engagement and phased implementation approach critical for complex data platform deployments. Regulatory pre-approval significantly accelerated go-live timeline."
+}

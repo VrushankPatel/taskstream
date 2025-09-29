@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_customer_success_onboarding"
+  title: "Customer Success Onboarding Workflow"
+  department: "Customer Success"
+  complexity: "medium"
+  participants: ["Customer Success Manager", "Technical Support", "Account Executive", "Product Team"]
+  trigger: "New customer contract signed"
+  temporal_data:
+    first_implemented: "2023-08-01"
+    last_updated: "2025-08-15"
+    typical_cycle_time: "21 days"
+    average_annual_executions: 180
+    seasonal_variations: ["Q4 peak with new contracts", "Q2 slower during budget cycles"]
+    historical_evolution: "Self-service portal implemented in 2024, reducing onboarding time by 35%"
+  steps:
+    - step: 1
+      actor: "Account Executive"
+      action: "Send welcome package and schedule kickoff call"
+      tools: ["Onboarding email templates", "Calendar system"]
+      duration: "1 day"
+      outputs: ["Welcome materials sent", "Kickoff meeting booked"]
+    - step: 2
+      actor: "Customer Success Manager"
+      action: "Conduct needs assessment and create success plan"
+      tools: ["Customer profile questionnaire", "Success planning template"]
+      duration: "3 days"
+      outputs: ["Customer success plan", "Implementation roadmap"]
+    - step: 3
+      actor: "Technical Support"
+      action: "Provision accounts and deliver training sessions"
+      tools: ["User management system", "Training platform"]
+      duration: "7 days"
+      outputs: ["User accounts activated", "Training completed"]
+    - step: 4
+      actor: "Customer Success Manager"
+      action: "Monitor adoption and provide ongoing support"
+      tools: ["Usage analytics dashboard", "Support ticketing system"]
+      duration: "10 days"
+      outputs: ["Adoption metrics", "Success milestones achieved"]
+  success_criteria: "Customer achieves 80% feature adoption within 30 days with satisfaction score >4.5"
+  failure_modes: ["Delayed account setup", "Inadequate training", "Poor internal coordination"]
+  metrics:
+    - "Time-to-first-value: 14 days average"
+    - "Feature adoption rate: 75%"
+    - "Customer satisfaction: 4.6/5"
+  performance_history:
+    success_rate_trend: "70% (2024) → 78% (2025)"
+    cost_trend: "$1.5M (2024) → $1.7M (2025)"
+    efficiency_improvements: ["Automated provisioning reduced setup time by 50%", "Self-service resources improved adoption by 25%"]

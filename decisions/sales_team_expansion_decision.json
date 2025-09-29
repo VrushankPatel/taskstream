@@ -1,0 +1,62 @@
+{
+  "scenario_id": "decision_sales_team_expansion_q4_2025",
+  "decision_date": "2025-10-15",
+  "context": "Mid-sized SaaS company experiencing 150% YoY growth, current sales team of 12 struggling to maintain conversion rates above 25%",
+  "stakeholders": {
+    "requester": "VP Sales",
+    "approvers": ["CFO", "CEO"],
+    "influencers": ["Head of Marketing", "Chief People Officer", "Current Sales Managers"]
+  },
+  "request": {
+    "amount": "$1,200,000",
+    "purpose": "Hire 8 additional sales representatives and 2 sales managers",
+    "urgency": "high",
+    "justification": "Current team at 120% capacity, projected $15M revenue gap if not addressed"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2025-09-20",
+      "end_date": "2025-09-25",
+      "duration": "5 days",
+      "activities": ["Pipeline analysis", "Capacity modeling", "Competitive benchmarking"],
+      "outcome": "Proceed to detailed analysis"
+    },
+    {
+      "stage": "financial_analysis",
+      "start_date": "2025-09-26",
+      "end_date": "2025-10-05",
+      "duration": "9 days",
+      "activities": ["ROI projections", "Cash flow impact", "Budget reallocation"],
+      "outcome": "Positive ROI projected at 340% over 2 years"
+    },
+    {
+      "stage": "executive_review",
+      "start_date": "2025-10-06",
+      "end_date": "2025-10-15",
+      "duration": "9 days",
+      "activities": ["Strategic alignment review", "Risk assessment", "Final approval"],
+      "outcome": "Approved with phased hiring plan"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Increase sales capacity by 80%, close $15M revenue gap",
+    "projected_value": "$18,000,000",
+    "actual_value": "$16,500,000 (projected)",
+    "roi_timeline": "18 months",
+    "risk_factors": ["Training ramp-up time", "Market slowdown", "Hiring competition"]
+  },
+  "decision_criteria": ["Revenue impact", "ROI timeline", "Scalability", "Market timing", "Team capacity"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-11-01",
+    "completion_date": "2026-02-28",
+    "milestones": ["Hiring plan finalized: 2025-10-30", "First hires onboarded: 2025-12-15", "Full productivity achieved: 2026-02-28"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Revenue growth of 45% vs target 50%, team productivity at 85%",
+    "12_month_review": "Revenue growth of 65%, ROI at 280%, retention rate 92%",
+    "actual_roi": "320% (vs projected 340%)"
+  },
+  "lessons_learned": "Phased hiring approach successful, additional focus needed on manager training for scale"
+}

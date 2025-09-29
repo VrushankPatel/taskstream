@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_capital_budget_approval"
+  title: "Capital Budget Approval Workflow"
+  department: "Finance"
+  complexity: "complex"
+  participants: ["Department Head", "Finance Director", "CFO", "CEO", "Board Members"]
+  trigger: "Capital expenditure request exceeds $100K"
+  temporal_data:
+    first_implemented: "2022-01-01"
+    last_updated: "2025-07-01"
+    typical_cycle_time: "45 days"
+    average_annual_executions: 25
+    seasonal_variations: ["Q1 annual budget cycle", "Q4 year-end spending"]
+    historical_evolution: "Digital approval system implemented in 2023, reducing approval time by 50%"
+  steps:
+    - step: 1
+      actor: "Department Head"
+      action: "Prepare detailed business case with ROI analysis"
+      tools: ["Capital request template", "Financial modeling software"]
+      duration: "10 days"
+      outputs: ["Business case document", "Financial projections"]
+    - step: 2
+      actor: "Finance Director"
+      action: "Review financial assumptions and compliance"
+      tools: ["Financial analysis tools", "Budget system"]
+      duration: "7 days"
+      outputs: ["Financial review memorandum", "Risk assessment"]
+    - step: 3
+      actor: "CFO"
+      action: "Evaluate strategic alignment and cash flow impact"
+      tools: ["Executive dashboard", "Cash flow models"]
+      duration: "5 days"
+      outputs: ["CFO recommendation", "Strategic analysis"]
+    - step: 4
+      actor: "CEO"
+      action: "Review high-level business case and approve"
+      tools: ["Executive summary", "Board materials"]
+      duration: "3 days"
+      outputs: ["CEO approval", "Board presentation"]
+    - step: 5
+      actor: "Board Members"
+      action: "Review major investments for final approval"
+      tools: ["Board portal", "Investment committee"]
+      duration: "7 days"
+      outputs: ["Board approval", "Implementation authorization"]
+  success_criteria: "Budget approved within 60 days with clear implementation plan"
+  failure_modes: ["Incomplete business case", "Poor ROI projections", "Strategic misalignment"]
+  metrics:
+    - "Approval rate: 80%"
+    - "Average approval time: 38 days"
+    - "ROI achievement: 95% of approved projects"
+  performance_history:
+    success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
+    cost_trend: "$200K (2023) → $180K (2024) → $160K (2025)"
+    efficiency_improvements: ["Digital workflow reduced manual processing by 70%", "Standardized templates improved quality by 30%"]

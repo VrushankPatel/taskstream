@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_employee_hiring"
+  title: "Employee Hiring Workflow"
+  department: "Human Resources"
+  complexity: "complex"
+  participants: ["HR Recruiter", "Hiring Manager", "Interview Panel", "Legal", "Executive Team"]
+  trigger: "Open position approved by department head"
+  temporal_data:
+    first_implemented: "2020-03-01"
+    last_updated: "2025-06-05"
+    typical_cycle_time: "45 days"
+    average_annual_executions: 150
+    seasonal_variations: ["Q1 peak for annual hiring", "Q3 slower during budget planning"]
+    historical_evolution: "ATS system implemented in 2022, AI screening added in 2024, reducing time-to-hire by 35%"
+  steps:
+    - step: 1
+      actor: "HR Recruiter"
+      action: "Create job description and post to multiple channels"
+      tools: ["Applicant tracking system", "Job boards", "Social media"]
+      duration: "8 hours"
+      outputs: ["Job posting live", "Sourcing plan"]
+    - step: 2
+      actor: "HR Recruiter"
+      action: "Screen applications and conduct initial interviews"
+      tools: ["Video interview platform", "Assessment tools"]
+      duration: "16 hours"
+      outputs: ["Shortlisted candidates", "Initial feedback"]
+    - step: 3
+      actor: "Hiring Manager"
+      action: "Review candidates and conduct technical interviews"
+      tools: ["Interview guides", "Reference check system"]
+      duration: "12 hours"
+      outputs: ["Interview feedback", "Reference checks completed"]
+    - step: 4
+      actor: "Interview Panel"
+      action: "Final interviews and consensus decision"
+      tools: ["Panel feedback form", "Decision matrix"]
+      duration: "6 hours"
+      outputs: ["Final candidate selected", "Offer recommendation"]
+    - step: 5
+      actor: "HR Recruiter"
+      action: "Extend offer and negotiate terms"
+      tools: ["Offer letter template", "Compensation database"]
+      duration: "4 hours"
+      outputs: ["Offer accepted", "Start date confirmed"]
+  success_criteria: "Hire qualified candidate within 60 days with 90% retention in first year"
+  failure_modes: ["Poor job description", "Extended vacancy", "Candidate drops out"]
+  metrics:
+    - "Time-to-hire: 38 days average"
+    - "Offer acceptance rate: 75%"
+    - "First-year retention: 88%"
+  performance_history:
+    success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
+    cost_trend: "$3.2M (2023) → $3.5M (2024) → $3.8M (2025)"
+    efficiency_improvements: ["AI screening reduced unqualified applications by 60%", "Standardized interviews improved quality assessment by 25%"]

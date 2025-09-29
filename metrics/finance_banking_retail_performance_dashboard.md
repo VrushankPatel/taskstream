@@ -70,6 +70,14 @@
   - Regulatory Exams: 100% pass rate
   - AML Compliance: 99.2%
   - KYC Completion: 97.8%
+- **Fraud Loss Ratio**: 0.08%
+  - Target: < 0.1%
+  - YoY Change: -20%
+  - Trend: 0.1% (2023) → 0.08% (2024)
+- **Cybersecurity Incidents**: 2 reported incidents
+  - Severity: Low (no financial loss)
+  - Response Time: < 1 hour average
+  - Recovery Time: < 4 hours
 
 ## Trend Analysis
 

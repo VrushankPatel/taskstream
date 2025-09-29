@@ -84,6 +84,7 @@
 - **Safety & Compliance** (6 FTEs)
   - Ensure OSHA compliance, conduct safety training
   - Metrics: Safety incidents (0.05 per 100 FTE), training completion (100%)
+  - Key responsibilities: Incident investigation, safety audits, regulatory reporting
 
 - **Training & Development** (5 FTEs)
   - Technical training programs, certification management

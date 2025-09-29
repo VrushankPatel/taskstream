@@ -2,7 +2,7 @@
 
 **Date:** 2025-02-15 14:00
 **Location:** Conference Room A, Claims Operations Center
-**Attendees:** Claims Director (facilitator), Senior Claims Managers (5), IT Director, Customer Service VP, Communications Manager
+**Attendees:** Claims Director (facilitator), Senior Claims Managers (5), IT Director, Customer Service VP, Communications Manager, Legal Counsel, Fraud Investigation Lead
 **Subject:** Major Storm Claims Crisis Response Planning
 
 **Meeting Objective:**
@@ -63,6 +63,8 @@ Develop comprehensive response plan for expected surge in auto and property clai
 - Customer satisfaction: > 4.0/5 during crisis
 - Fraud detection rate: > 95%
 - Staff retention: > 90% during crisis period
+- Claims accuracy rate: > 98%
+- Emergency response time: < 2 hours for priority claims
 
 **Next Meeting:** Daily crisis briefings starting February 20, 8:00 AM
 

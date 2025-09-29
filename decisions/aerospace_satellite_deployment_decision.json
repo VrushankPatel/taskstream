@@ -1,109 +1,62 @@
 {
-  "scenario_id": "aerospace_satellite_deployment_2025",
-  "decision_date": "2025-08-15",
-  "context": "Global aerospace company evaluating deployment of next-generation Earth observation satellite constellation to expand market share in commercial imaging services",
+  "scenario_id": "aerospace_satellite_deployment_decision_2025",
+  "decision_date": "2025-08-20",
+  "context": "Aerospace company evaluating satellite constellation expansion for enhanced global connectivity services",
   "stakeholders": {
-    "requester": "VP Space Systems",
-    "approvers": [
-      "CEO",
-      "CFO",
-      "CTO"
-    ],
-    "influencers": [
-      "Chief Scientist",
-      "VP Commercial",
-      "Regulatory Affairs Director"
-    ]
+    "requester": "VP Space Operations",
+    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
+    "influencers": ["Head of Regulatory Affairs", "VP Customer Success", "Chief Risk Officer"]
   },
   "request": {
-    "amount": "$450M",
-    "purpose": "Deploy 24-satellite constellation for high-resolution Earth imaging and data analytics services",
+    "amount": "$450,000,000",
+    "purpose": "Deploy 50 additional satellites for low-earth orbit constellation",
     "urgency": "high",
-    "justification": "Market opportunity in $12B commercial imaging sector, 35% CAGR expected, current market share only 8%"
+    "justification": "Market demand for high-speed global connectivity and competitive positioning against major telecom providers"
   },
   "decision_process": [
     {
-      "stage": "technical_feasibility",
+      "stage": "technical_feasibility_assessment",
       "start_date": "2025-06-01",
       "end_date": "2025-07-15",
       "duration": "45 days",
-      "activities": [
-        "Satellite design review",
-        "Launch vehicle assessment",
-        "Ground station capacity analysis"
-      ],
-      "outcome": "Technical requirements validated, proceeding to financial analysis"
+      "activities": ["Orbital slot analysis", "Satellite design review", "Launch vehicle capacity assessment"],
+      "outcome": "Technical feasibility confirmed with 95% reliability projections"
     },
     {
-      "stage": "market_analysis",
-      "start_date": "2025-07-01",
-      "end_date": "2025-07-30",
-      "duration": "30 days",
-      "activities": [
-        "Competitive landscape assessment",
-        "Customer demand analysis",
-        "Pricing strategy development"
-      ],
-      "outcome": "Strong market demand confirmed, $2.8B revenue potential over 10 years"
+      "stage": "financial_modeling",
+      "start_date": "2025-07-16",
+      "end_date": "2025-08-01",
+      "duration": "17 days",
+      "activities": ["ROI analysis", "Cash flow projections", "Risk-adjusted NPV calculations"],
+      "outcome": "Projected 5-year ROI of 180% with break-even in 3.2 years"
     },
     {
-      "stage": "financial_evaluation",
-      "start_date": "2025-07-15",
-      "end_date": "2025-08-10",
-      "duration": "27 days",
-      "activities": [
-        "Cost-benefit analysis",
-        "Risk assessment",
-        "Funding strategy development"
-      ],
-      "outcome": "Positive NPV of $180M, IRR of 14%, acceptable risk profile"
-    },
-    {
-      "stage": "regulatory_review",
-      "start_date": "2025-08-01",
-      "end_date": "2025-08-12",
-      "duration": "12 days",
-      "activities": [
-        "ITU frequency coordination",
-        "Export control compliance",
-        "Insurance requirements"
-      ],
-      "outcome": "All regulatory approvals secured, deployment authorized"
+      "stage": "regulatory_compliance_review",
+      "start_date": "2025-08-02",
+      "end_date": "2025-08-15",
+      "duration": "14 days",
+      "activities": ["ITU frequency coordination", "National regulatory approvals", "International treaty compliance"],
+      "outcome": "All regulatory requirements met with conditional approvals secured"
     }
   ],
   "business_impact": {
-    "expected_outcome": "Establish leadership in commercial satellite imaging, 25% market share within 5 years",
-    "projected_value": "$2.8B revenue over 10 years",
-    "actual_value": "$280M achieved in first 2 years (projected)",
-    "roi_timeline": "Payback in 7 years, positive cash flow from year 3",
-    "risk_factors": [
-      "Launch failures (12% probability)",
-      "Technology obsolescence (8% probability)",
-      "Market competition (15% probability)"
-    ]
+    "expected_outcome": "25% increase in global connectivity revenue and market share expansion",
+    "projected_value": "$1,200,000,000",
+    "actual_value": "$950,000,000 (projected through 2030)",
+    "roi_timeline": "Expected payback in 42 months",
+    "risk_factors": ["Launch failure risk (2%)", "Regulatory delays", "Technology obsolescence"]
   },
-  "decision_criteria": [
-    "Technical feasibility",
-    "Market opportunity",
-    "Financial viability",
-    "Regulatory compliance",
-    "Strategic alignment"
-  ],
+  "decision_criteria": ["Technical feasibility", "Financial viability", "Regulatory compliance", "Market opportunity", "Risk assessment"],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
-    "completion_date": "2027-12-31",
-    "milestones": [
-      "Phase 1 launch (8 satellites): 2026-06-01",
-      "Phase 2 launch (8 satellites): 2027-03-01",
-      "Phase 3 launch (8 satellites): 2027-09-01",
-      "Full operational capability: 2027-12-31"
-    ]
+    "completion_date": "2028-12-31",
+    "milestones": ["Phase 1 deployment (25 satellites): 2026-06-30", "Phase 2 deployment (25 satellites): 2027-12-31", "Full operational capability: 2028-06-30"]
   },
   "outcome_tracking": {
-    "6_month_review": "8 satellites deployed, initial revenue $45M, technical performance exceeding expectations",
-    "12_month_review": "16 satellites operational, revenue $120M, market share increased to 12%",
-    "actual_roi": "15% (vs projected 14%), exceeding targets"
+    "6_month_review": "Initial satellite deployment successful, 98% operational uptime achieved",
+    "12_month_review": "Revenue growth of 15% realized, customer acquisition targets exceeded by 20%",
+    "actual_roi": "185% (vs projected 180%)"
   },
-  "lessons_learned": "Early regulatory engagement critical for timeline acceleration, modular design enabled faster deployment than planned, customer co-development improved market acceptance"
+  "lessons_learned": "Advanced regulatory planning reduced approval timeline by 3 months, modular satellite design enabled faster deployment cycles"
 }

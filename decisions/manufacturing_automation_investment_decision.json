@@ -1,0 +1,62 @@
+{
+  "scenario_id": "manufacturing_automation_investment_decision_2025",
+  "decision_date": "2025-07-15",
+  "context": "Manufacturing company evaluating major automation investment to modernize production lines and improve competitiveness",
+  "stakeholders": {
+    "requester": "VP Manufacturing Operations",
+    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
+    "influencers": ["Head of HR", "Union Representative", "Supply Chain Director"]
+  },
+  "request": {
+    "amount": "$85,000,000",
+    "purpose": "Implement Industry 4.0 automation across 5 production facilities",
+    "urgency": "medium",
+    "justification": "Address labor shortages, improve quality consistency, and reduce production costs by 25%"
+  },
+  "decision_process": [
+    {
+      "stage": "feasibility_study",
+      "start_date": "2025-04-01",
+      "end_date": "2025-05-15",
+      "duration": "45 days",
+      "activities": ["Process analysis", "Technology assessment", "Pilot testing"],
+      "outcome": "Identified 35% efficiency improvement potential with 3-year payback"
+    },
+    {
+      "stage": "financial_evaluation",
+      "start_date": "2025-05-16",
+      "end_date": "2025-06-15",
+      "duration": "31 days",
+      "activities": ["Cost-benefit analysis", "ROI modeling", "Funding options assessment"],
+      "outcome": "Projected IRR of 28% with NPV of $45M over 7 years"
+    },
+    {
+      "stage": "workforce_impact_assessment",
+      "start_date": "2025-06-16",
+      "end_date": "2025-07-01",
+      "duration": "16 days",
+      "activities": ["Job impact analysis", "Retraining program design", "Union consultation"],
+      "outcome": "Developed comprehensive workforce transition plan with minimal layoffs"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "30% increase in production capacity and 25% reduction in operating costs",
+    "projected_value": "$180,000,000",
+    "actual_value": "$165,000,000 (projected through 2032)",
+    "roi_timeline": "Expected payback in 38 months",
+    "risk_factors": ["Technology integration challenges", "Workforce adaptation issues", "Supply chain disruptions"]
+  },
+  "decision_criteria": ["Financial viability", "Operational benefits", "Workforce impact", "Technology maturity", "Risk assessment"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2028-07-31",
+    "milestones": ["Facility 1 automation: 2026-02-28", "Facility 2-3 automation: 2026-12-31", "Facility 4-5 automation: 2027-12-31", "Full system integration: 2028-06-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Phase 1 implementation completed on schedule, 15% efficiency gains realized",
+    "12_month_review": "Two facilities fully automated, workforce retraining program 85% complete",
+    "actual_roi": "26% (vs projected 28%)"
+  },
+  "lessons_learned": "Early workforce engagement reduced resistance, modular implementation approach minimized operational disruptions"
+}

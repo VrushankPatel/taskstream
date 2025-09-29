@@ -1,88 +1,55 @@
 workflow:
-  id: workflow_agriculture_precision_farming
-  title: Precision Farming Implementation Workflow
-  department: Agriculture Operations
-  complexity: high
-  participants:
-  - Farm Manager
-  - Agronomist
-  - IT Specialist
-  - Equipment Operator
-  - Data Analyst
-  trigger: Decision to adopt precision farming technologies for crop optimization
+  id: "workflow_agriculture_precision_farming"
+  title: "Agriculture Precision Farming Implementation Process"
+  department: "Farm Operations"
+  complexity: "medium"
+  participants: ["Farm Manager", "Agronomist", "IT Specialist", "Equipment Operator", "Data Analyst"]
+  trigger: "Seasonal planning for crop optimization and resource efficiency"
+  temporal_data:
+    first_implemented: "2022-02-01"
+    last_updated: "2025-08-01"
+    typical_cycle_time: "3-6 months"
+    average_annual_executions: 4
+    seasonal_variations: ["Pre-planting setup (Q1)", "Mid-season adjustments (Q2-Q3)", "Harvest optimization (Q4)"]
+    historical_evolution: "Started with basic GPS guidance, evolved to AI-driven variable rate application, achieving 25% input cost reduction since 2022"
   steps:
-  - step: 1
-    actor: Farm Manager
-    action: Assess current farming practices and identify precision farming opportunities
-    tools:
-    - Farm management software
-    - GPS mapping tools
-    duration: 1 week
-    outputs:
-    - Technology assessment report
-    - ROI projections
-  - step: 2
-    actor: Agronomist
-    action: Design precision farming zones based on soil analysis and historical data
-    tools:
-    - Soil sampling equipment
-    - GIS software
-    - Weather data APIs
-    duration: 2 weeks
-    outputs:
-    - Field zoning maps
-    - Variable rate application plans
-  - step: 3
-    actor: IT Specialist
-    action: Install and configure IoT sensors, GPS systems, and data collection platforms
-    tools:
-    - IoT sensors
-    - GPS receivers
-    - Cloud data platforms
-    duration: 3 weeks
-    outputs:
-    - Sensor network deployment
-    - Data integration setup
-  - step: 4
-    actor: Equipment Operator
-    action: Train on precision farming equipment and software interfaces
-    tools:
-    - Variable rate applicators
-    - Autonomous tractors
-    - Mobile apps
-    duration: 1 week
-    outputs:
-    - Operator certification records
-    - Equipment calibration logs
-  - step: 5
-    actor: Data Analyst
-    action: Set up data analytics dashboards and establish monitoring protocols
-    tools:
-    - Data visualization tools
-    - Predictive analytics software
-    duration: 2 weeks
-    outputs:
-    - Analytics dashboard
-    - Performance monitoring framework
-  - step: 6
-    actor: Farm Manager
-    action: Pilot precision farming on selected fields and evaluate results
-    tools:
-    - Yield monitoring systems
-    - Cost tracking software
-    duration: 1 growing season
-    outputs:
-    - Pilot results report
-    - Optimization recommendations
-  success_criteria: 15%+ improvement in resource efficiency and crop yields
-  failure_modes:
-  - Technology integration issues
-  - Insufficient training
-  - Data quality problems
+    - step: 1
+      actor: "Farm Manager"
+      action: "Assess field conditions and define precision farming objectives"
+      tools: ["Field mapping software", "Historical yield data", "Soil sampling results"]
+      duration: "2 weeks"
+      outputs: ["Precision farming plan", "Equipment requirements list"]
+    - step: 2
+      actor: "Agronomist"
+      action: "Develop variable rate application prescriptions"
+      tools: ["Precision ag software", "Soil nutrient analysis", "Weather forecasting data"]
+      duration: "3 weeks"
+      outputs: ["Fertilizer prescriptions", "Irrigation schedules", "Pest management plans"]
+    - step: 3
+      actor: "IT Specialist"
+      action: "Configure precision equipment and data collection systems"
+      tools: ["GPS receivers", "Sensor networks", "Data management platforms"]
+      duration: "2 weeks"
+      outputs: ["Calibrated equipment", "Data collection protocols"]
+    - step: 4
+      actor: "Equipment Operator"
+      action: "Execute precision application operations"
+      tools: ["Variable rate applicators", "Auto-steer systems", "Real-time monitoring displays"]
+      duration: "8-12 weeks"
+      outputs: ["Applied treatment maps", "Operation logs"]
+    - step: 5
+      actor: "Data Analyst"
+      action: "Analyze performance data and generate optimization recommendations"
+      tools: ["Data analytics platform", "Yield monitoring systems", "Performance dashboards"]
+      duration: "2 weeks"
+      outputs: ["Performance reports", "Next season recommendations"]
+  success_criteria: "Achieved target yield with 20% reduction in input costs"
+  failure_modes: ["Equipment calibration issues", "Data accuracy problems", "Weather-related delays"]
   metrics:
-  - 'Yield Improvement: Target 15% increase in crop yields'
-  - 'Resource Efficiency: Target 20% reduction in fertilizer and water usage'
-  - 'ROI: Target >25% annual return on precision farming investment'
-  - 'Field Coverage: Target 80% of acreage under precision management'
-  - 'Data Accuracy: Target >95% sensor and GPS data reliability'
-  - 'Operator Adoption: Target >90% equipment utilization rate'
+    - "Input cost reduction: 15-25% target"
+    - "Yield improvement: 5-10% target"
+    - "Resource efficiency: 90% optimal application rate"
+  performance_history:
+    success_rate_trend: "80% (2023) → 88% (2024) → 92% (2025)"
+    cost_trend: "$450/acre (2023) → $395/acre (2024) → $365/acre (2025)"
+    efficiency_improvements: ["Variable rate technology reduced fertilizer use by 18%", "AI optimization improved irrigation efficiency by 22%"]

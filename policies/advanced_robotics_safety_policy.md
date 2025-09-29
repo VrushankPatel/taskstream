@@ -1,171 +1,105 @@
 # Advanced Robotics Safety Policy
 
+## Policy Overview
+**Effective Date:** 2025-01-01
+**Last Updated:** 2025-09-15
+**Policy Owner:** Chief Safety Officer
+**Applies To:** All employees, contractors, and visitors working with advanced robotics systems
+
 ## Purpose
-This policy establishes comprehensive safety standards and procedures for the design, deployment, and operation of advanced robotics systems to ensure the protection of human workers, equipment, and facilities.
+This policy establishes safety standards and procedures for the operation, maintenance, and integration of advanced robotics systems to ensure workplace safety, regulatory compliance, and risk mitigation.
 
 ## Scope
-Applies to all robotics systems, collaborative robots (cobots), autonomous mobile robots (AMRs), and AI-driven automation systems deployed across all company facilities and operations.
+- All robotic systems with autonomous capabilities
+- Human-robot collaborative workspaces
+- Robotic maintenance and programming activities
+- Integration of AI-driven robotic systems
 
 ## Safety Principles
 
-### 1. Human-Centric Design
-- All robotics systems must incorporate human safety as the primary design consideration
-- Risk assessments must be conducted using ISO 12100 and ISO 10218-1/2 standards
-- Safety functions must be fail-safe and redundant
+### 1. Risk Assessment Requirements
+- Conduct comprehensive risk assessments before deploying new robotic systems
+- Reassess risks annually or after significant system modifications
+- Document all identified hazards and mitigation measures
 
-### 2. Collaborative Operation Standards
-- Cobots must operate at speeds and forces that minimize injury risk
-- Safety-rated monitored stop (SMS) and protective stop (PS) functions required
-- Minimum separation distances must be maintained based on robot speed and stopping time
+### 2. Safety Zones and Access Control
+- Establish clearly marked safety zones around robotic operations
+- Implement access control systems with emergency stop capabilities
+- Prohibit unauthorized personnel from entering robotic work areas
 
-### 3. Autonomous System Requirements
-- Autonomous robots must have comprehensive environmental awareness systems
-- Emergency stop capabilities must be accessible within 10 seconds
-- Failsafe behaviors must return systems to safe states upon any malfunction
+### 3. Human-Robot Interaction Protocols
+- Maintain minimum separation distances during collaborative operations
+- Implement speed and force limitations for human-robot interactions
+- Require safety-rated monitoring systems for collaborative workspaces
 
-## Risk Assessment and Management
+### 4. Emergency Response Procedures
+- Install emergency stop buttons within 10 seconds reach of all operators
+- Develop and practice emergency shutdown procedures
+- Maintain clear evacuation routes from robotic areas
 
-### Pre-Deployment Assessment
-- Comprehensive risk analysis required for all new robotics installations
-- Third-party safety certification mandatory for high-risk applications
-- Human factors engineering assessment required for collaborative workspaces
+## Training and Certification
 
-### Ongoing Risk Monitoring
-- Regular safety audits conducted quarterly
-- Incident reporting and investigation within 24 hours
-- Performance metrics tracked for safety system effectiveness
+### Required Training
+- Basic robotics safety training for all personnel working near robots
+- Advanced training for robot operators and programmers
+- Annual refresher training and competency assessments
 
-## Safety System Requirements
+### Certification Requirements
+- Operators must demonstrate proficiency in emergency procedures
+- Maintenance personnel require specialized training on robotic systems
+- Supervisors must complete leadership training in robotics safety management
 
-### Physical Safety Measures
-- Safety light curtains and laser scanners for collaborative zones
-- Emergency stop buttons accessible within 2 meters of all robot operations
-- Physical barriers and interlocks for high-risk areas
-- Personal protective equipment (PPE) requirements clearly marked
+## Equipment Standards
 
-### Control System Safety
-- Safety PLCs with dual-channel architecture
-- Redundant safety sensors and actuators
-- Real-time monitoring and logging of safety system status
-- Automatic system shutdown upon safety system failure
+### Robotic System Requirements
+- All robots must meet ISO 10218-1 and ISO/TS 15066 standards
+- Implement redundant safety systems and fail-safe mechanisms
+- Regular safety system testing and validation
 
-### Software Safety
-- Formal verification and validation of safety-critical software
-- Cybersecurity measures to prevent unauthorized system access
-- Regular software updates with safety impact assessments
+### Personal Protective Equipment (PPE)
+- Safety glasses, gloves, and protective clothing for all personnel
+- Specialized PPE for high-risk robotic operations
+- Regular PPE inspection and replacement schedules
 
-## Training and Competency
+## Maintenance and Inspection
 
-### Operator Training
-- Comprehensive training required for all personnel working with robots
-- Refresher training annually and after any system modifications
-- Competency assessments documented and maintained
+### Preventive Maintenance
+- Scheduled maintenance according to manufacturer specifications
+- Safety system calibration and testing every 6 months
+- Documentation of all maintenance activities
 
-### Maintenance Personnel
-- Specialized training for robotics maintenance and repair
-- Lockout/tagout procedures strictly enforced
-- Emergency response training for robotics incidents
-
-## Incident Response and Investigation
-
-### Reporting Requirements
-- All safety incidents must be reported immediately
-- Near-miss events documented and investigated
-- Root cause analysis conducted within 72 hours
-
-### Response Protocol
-- Immediate cessation of unsafe operations
-- Medical attention prioritized for any injuries
-- System isolation and forensic analysis of incidents
-- Corrective action implementation within 30 days
-
-## Continuous Improvement
-
-### Safety Performance Metrics
-- Lost Time Incident Rate (LTIR) tracked monthly
-- Safety system availability monitored continuously
-- Training completion rates audited quarterly
-
-### Review and Updates
-- Annual policy review and update
-- Incorporation of lessons learned from incidents
-- Adoption of emerging safety standards and technologies
-
-## Roles and Responsibilities
-
-### Safety Committee
-- Cross-functional team led by Chief Safety Officer
-- Quarterly reviews of safety performance
-- Approval authority for high-risk robotics deployments
-
-### Department Heads
-- Ensure compliance within their areas
-- Report safety concerns immediately
-- Support incident investigations
-
-### Employees
-- Follow all safety procedures and protocols
-- Report unsafe conditions or behaviors
-- Participate in required training programs
+### Incident Reporting and Investigation
+- Report all safety incidents within 24 hours
+- Conduct root cause analysis for all incidents
+- Implement corrective actions and preventive measures
 
 ## Compliance and Enforcement
 
 ### Regulatory Compliance
-- Adherence to OSHA, ANSI, and ISO robotics safety standards
-- Regular audits by external safety certification bodies
-- Documentation maintained for regulatory inspections
+- Adhere to OSHA robotics safety standards
+- Comply with ISO safety standards for industrial robots
+- Maintain records for regulatory inspections
 
-### Non-Compliance Consequences
-- Verbal warning for minor violations
+### Enforcement Measures
+- Verbal warning for first minor violation
 - Written warning and retraining for repeated violations
-- Disciplinary action up to termination for serious violations
-- System shutdown for critical safety failures
+- Suspension or termination for serious safety violations
 
-## AI and Autonomous System Safety
+### Monitoring and Auditing
+- Quarterly safety audits of robotic operations
+- Annual comprehensive safety review
+- Regular safety performance reporting to executive leadership
 
-### AI Safety Requirements
-- AI systems must have explainable decision-making for safety-critical functions
-- Regular bias and error rate audits for AI-driven safety systems
-- Human oversight required for AI safety decisions
-- Fallback procedures for AI system failures
-
-### Autonomous Operation Standards
-- Comprehensive testing in controlled environments before deployment
-- Gradual rollout with human supervision initially
-- Real-time human intervention capabilities
-- Performance monitoring against safety benchmarks
-
-### Data Integrity for Safety Systems
-- Secure data pipelines for sensor and monitoring systems
-- Regular validation of sensor accuracy and calibration
-- Backup systems for critical safety data
-- Cybersecurity protections for safety control systems
-
-## Emerging Technology Integration
-
-### New Robotics Technologies
-- Safety assessment required for any new robotics technology adoption
-- Pilot testing in isolated environments before production deployment
-- Integration testing with existing safety systems
-- Documentation of safety considerations for future reference
-
-### Technology Updates and Upgrades
-- Safety impact assessment for all system upgrades
-- Backward compatibility testing for safety features
-- Training updates for new technology features
-- Validation testing before production implementation
+## Emergency Contacts
+- Safety Emergency Hotline: Ext. 911
+- Chief Safety Officer: John Smith, ext. 1234
+- Robotics Safety Coordinator: Maria Garcia, ext. 5678
 
 ## Related Documents
-- Robotics System Design Guidelines
-- Emergency Response Procedures
-- Personal Protective Equipment Policy
-- Lockout/Tagout Procedures
-- AI Safety Guidelines
-- Autonomous System Deployment Standards
+- Robotics Integration Procedures
+- Emergency Response Plan
+- Personal Protective Equipment Guidelines
+- Risk Assessment Methodology
 
 ## Policy Review
-This policy will be reviewed annually or following any significant robotics-related incident. Updates will be communicated to all affected personnel.
-
-**Effective Date:** January 1, 2026
-**Last Updated:** December 15, 2025
-**Approved By:** Chief Safety Officer
+This policy will be reviewed annually or after significant incidents to ensure continued effectiveness and compliance with evolving safety standards.

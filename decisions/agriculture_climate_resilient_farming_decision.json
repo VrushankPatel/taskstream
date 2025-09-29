@@ -4,8 +4,16 @@
   "context": "Agricultural company evaluating investment in climate-resilient farming technologies to mitigate increasing weather variability impacts",
   "stakeholders": {
     "requester": "VP Agricultural Operations",
-    "approvers": ["CEO", "CFO", "Chief Sustainability Officer"],
-    "influencers": ["Head of Research", "Regional Farm Managers", "Environmental Compliance Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Sustainability Officer"
+    ],
+    "influencers": [
+      "Head of Research",
+      "Regional Farm Managers",
+      "Environmental Compliance Director"
+    ]
   },
   "request": {
     "amount": "$28,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-03-01",
       "end_date": "2025-04-15",
       "duration": "46 days",
-      "activities": ["Weather pattern analysis", "Yield impact modeling", "Risk scenario planning"],
+      "activities": [
+        "Weather pattern analysis",
+        "Yield impact modeling",
+        "Risk scenario planning"
+      ],
       "outcome": "Identified 30% vulnerability in current crop portfolio to drought conditions"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-04-16",
       "end_date": "2025-05-15",
       "duration": "30 days",
-      "activities": ["Crop variety trials", "Irrigation system testing", "Cost-benefit analysis"],
+      "activities": [
+        "Crop variety trials",
+        "Irrigation system testing",
+        "Cost-benefit analysis"
+      ],
       "outcome": "Selected drought-resistant varieties with 25% yield improvement potential"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-05-16",
       "end_date": "2025-06-01",
       "duration": "17 days",
-      "activities": ["Resource allocation", "Timeline development", "Risk mitigation planning"],
+      "activities": [
+        "Resource allocation",
+        "Timeline development",
+        "Risk mitigation planning"
+      ],
       "outcome": "Comprehensive rollout plan with phased implementation approach"
     }
   ],
@@ -44,14 +64,29 @@
     "projected_value": "$65,000,000",
     "actual_value": "$58,000,000 (projected through 2030)",
     "roi_timeline": "Expected payback in 32 months",
-    "risk_factors": ["Adoption resistance from farmers", "Technology performance variability", "Regulatory approval delays"]
+    "risk_factors": [
+      "Adoption resistance from farmers",
+      "Technology performance variability",
+      "Regulatory approval delays"
+    ]
   },
-  "decision_criteria": ["Climate resilience impact", "Financial viability", "Implementation feasibility", "Environmental benefits", "Stakeholder acceptance"],
+  "decision_criteria": [
+    "Climate resilience impact",
+    "Financial viability",
+    "Implementation feasibility",
+    "Environmental benefits",
+    "Stakeholder acceptance"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-07-01",
     "completion_date": "2027-12-31",
-    "milestones": ["Pilot program (50,000 acres): 2025-12-31", "Phase 1 expansion (75,000 acres): 2026-06-30", "Phase 2 completion (75,000 acres): 2027-06-30", "Full monitoring and optimization: 2027-12-31"]
+    "milestones": [
+      "Pilot program (50,000 acres): 2025-12-31",
+      "Phase 1 expansion (75,000 acres): 2026-06-30",
+      "Phase 2 completion (75,000 acres): 2027-06-30",
+      "Full monitoring and optimization: 2027-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Pilot program showing 18% yield improvement, water savings of 22%",

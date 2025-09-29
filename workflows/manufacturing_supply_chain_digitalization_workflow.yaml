@@ -1,55 +1,93 @@
 workflow:
-  id: "workflow_manufacturing_supply_chain_digitalization"
-  title: "Manufacturing Supply Chain Digitalization Process"
-  department: "Operations"
-  complexity: "complex"
-  participants: ["Supply Chain Manager", "IT Director", "Procurement Lead", "Production Manager", "Vendor Relations Specialist"]
-  trigger: "Executive directive to modernize supply chain operations"
+  id: workflow_manufacturing_supply_chain_digitalization
+  title: Manufacturing Supply Chain Digitalization Process
+  department: Operations
+  complexity: complex
+  participants:
+  - Supply Chain Manager
+  - IT Director
+  - Procurement Lead
+  - Production Manager
+  - Vendor Relations Specialist
+  trigger: Executive directive to modernize supply chain operations
   temporal_data:
-    first_implemented: "2023-03-15"
-    last_updated: "2025-09-15"
-    typical_cycle_time: "6-12 months"
+    first_implemented: '2023-03-15'
+    last_updated: '2025-09-15'
+    typical_cycle_time: 6-12 months
     average_annual_executions: 2
-    seasonal_variations: ["Q1 planning phase", "Q4 implementation reviews"]
-    historical_evolution: "Evolved from manual tracking to IoT-enabled predictive analytics, reducing stockouts by 40% since 2023"
+    seasonal_variations:
+    - Q1 planning phase
+    - Q4 implementation reviews
+    historical_evolution: Evolved from manual tracking to IoT-enabled predictive analytics,
+      reducing stockouts by 40% since 2023
   steps:
-    - step: 1
-      actor: "Supply Chain Manager"
-      action: "Conduct current state assessment and gap analysis"
-      tools: ["ERP system", "Supplier performance data", "Inventory tracking software"]
-      duration: "4 weeks"
-      outputs: ["Digitalization roadmap", "Technology requirements document"]
-    - step: 2
-      actor: "IT Director"
-      action: "Evaluate and select digital transformation technologies"
-      tools: ["RFI/RFP process", "Vendor demonstrations", "Technical architecture review"]
-      duration: "6 weeks"
-      outputs: ["Technology selection report", "Integration plan"]
-    - step: 3
-      actor: "Procurement Lead"
-      action: "Negotiate contracts with selected vendors and implement pilot programs"
-      tools: ["Contract management system", "Supplier portal", "Change management toolkit"]
-      duration: "8 weeks"
-      outputs: ["Vendor contracts", "Pilot implementation results"]
-    - step: 4
-      actor: "Production Manager"
-      action: "Integrate digital systems with manufacturing operations"
-      tools: ["MES integration", "Training programs", "Process documentation"]
-      duration: "10 weeks"
-      outputs: ["Integrated supply chain system", "User training completion"]
-    - step: 5
-      actor: "Vendor Relations Specialist"
-      action: "Establish digital collaboration platforms with key suppliers"
-      tools: ["Supplier collaboration portal", "Performance dashboards", "Communication protocols"]
-      duration: "6 weeks"
-      outputs: ["Supplier digital onboarding", "Collaboration framework"]
-  success_criteria: "Achieved 30% reduction in supply chain costs and 95% on-time delivery"
-  failure_modes: ["Technology integration challenges", "Supplier resistance to change", "Insufficient training"]
+  - step: 1
+    actor: Supply Chain Manager
+    action: Conduct current state assessment and gap analysis
+    tools:
+    - ERP system
+    - Supplier performance data
+    - Inventory tracking software
+    duration: 4 weeks
+    outputs:
+    - Digitalization roadmap
+    - Technology requirements document
+  - step: 2
+    actor: IT Director
+    action: Evaluate and select digital transformation technologies
+    tools:
+    - RFI/RFP process
+    - Vendor demonstrations
+    - Technical architecture review
+    duration: 6 weeks
+    outputs:
+    - Technology selection report
+    - Integration plan
+  - step: 3
+    actor: Procurement Lead
+    action: Negotiate contracts with selected vendors and implement pilot programs
+    tools:
+    - Contract management system
+    - Supplier portal
+    - Change management toolkit
+    duration: 8 weeks
+    outputs:
+    - Vendor contracts
+    - Pilot implementation results
+  - step: 4
+    actor: Production Manager
+    action: Integrate digital systems with manufacturing operations
+    tools:
+    - MES integration
+    - Training programs
+    - Process documentation
+    duration: 10 weeks
+    outputs:
+    - Integrated supply chain system
+    - User training completion
+  - step: 5
+    actor: Vendor Relations Specialist
+    action: Establish digital collaboration platforms with key suppliers
+    tools:
+    - Supplier collaboration portal
+    - Performance dashboards
+    - Communication protocols
+    duration: 6 weeks
+    outputs:
+    - Supplier digital onboarding
+    - Collaboration framework
+  success_criteria: Achieved 30% reduction in supply chain costs and 95% on-time delivery
+  failure_modes:
+  - Technology integration challenges
+  - Supplier resistance to change
+  - Insufficient training
   metrics:
-    - "Supply chain cost reduction: 25-35% target"
-    - "On-time delivery improvement: 90-95% target"
-    - "Inventory turnover increase: 15-20% target"
+  - 'Supply chain cost reduction: 25-35% target'
+  - 'On-time delivery improvement: 90-95% target'
+  - 'Inventory turnover increase: 15-20% target'
   performance_history:
-    success_rate_trend: "75% (2023) → 85% (2024) → 90% (2025)"
-    cost_trend: "$2.5M (2023) → $2.2M (2024) → $2.0M (2025)"
-    efficiency_improvements: ["IoT sensor deployment reduced manual tracking by 60%", "AI forecasting improved demand prediction accuracy by 25%"]
+    success_rate_trend: 75% (2023) → 85% (2024) → 90% (2025)
+    cost_trend: $2.5M (2023) → $2.2M (2024) → $2.0M (2025)
+    efficiency_improvements:
+    - IoT sensor deployment reduced manual tracking by 60%
+    - AI forecasting improved demand prediction accuracy by 25%

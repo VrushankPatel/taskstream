@@ -4,8 +4,16 @@
   "context": "Aerospace company evaluating satellite constellation expansion for enhanced global connectivity services",
   "stakeholders": {
     "requester": "VP Space Operations",
-    "approvers": ["CEO", "CFO", "Chief Technology Officer"],
-    "influencers": ["Head of Regulatory Affairs", "VP Customer Success", "Chief Risk Officer"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "Chief Technology Officer"
+    ],
+    "influencers": [
+      "Head of Regulatory Affairs",
+      "VP Customer Success",
+      "Chief Risk Officer"
+    ]
   },
   "request": {
     "amount": "$450,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-07-15",
       "duration": "45 days",
-      "activities": ["Orbital slot analysis", "Satellite design review", "Launch vehicle capacity assessment"],
+      "activities": [
+        "Orbital slot analysis",
+        "Satellite design review",
+        "Launch vehicle capacity assessment"
+      ],
       "outcome": "Technical feasibility confirmed with 95% reliability projections"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-07-16",
       "end_date": "2025-08-01",
       "duration": "17 days",
-      "activities": ["ROI analysis", "Cash flow projections", "Risk-adjusted NPV calculations"],
+      "activities": [
+        "ROI analysis",
+        "Cash flow projections",
+        "Risk-adjusted NPV calculations"
+      ],
       "outcome": "Projected 5-year ROI of 180% with break-even in 3.2 years"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-08-02",
       "end_date": "2025-08-15",
       "duration": "14 days",
-      "activities": ["ITU frequency coordination", "National regulatory approvals", "International treaty compliance"],
+      "activities": [
+        "ITU frequency coordination",
+        "National regulatory approvals",
+        "International treaty compliance"
+      ],
       "outcome": "All regulatory requirements met with conditional approvals secured"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$1,200,000,000",
     "actual_value": "$950,000,000 (projected through 2030)",
     "roi_timeline": "Expected payback in 42 months",
-    "risk_factors": ["Launch failure risk (2%)", "Regulatory delays", "Technology obsolescence"]
+    "risk_factors": [
+      "Launch failure risk (2%)",
+      "Regulatory delays",
+      "Technology obsolescence"
+    ]
   },
-  "decision_criteria": ["Technical feasibility", "Financial viability", "Regulatory compliance", "Market opportunity", "Risk assessment"],
+  "decision_criteria": [
+    "Technical feasibility",
+    "Financial viability",
+    "Regulatory compliance",
+    "Market opportunity",
+    "Risk assessment"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2028-12-31",
-    "milestones": ["Phase 1 deployment (25 satellites): 2026-06-30", "Phase 2 deployment (25 satellites): 2027-12-31", "Full operational capability: 2028-06-30"]
+    "milestones": [
+      "Phase 1 deployment (25 satellites): 2026-06-30",
+      "Phase 2 deployment (25 satellites): 2027-12-31",
+      "Full operational capability: 2028-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Initial satellite deployment successful, 98% operational uptime achieved",

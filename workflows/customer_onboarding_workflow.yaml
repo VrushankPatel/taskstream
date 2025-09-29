@@ -16,7 +16,8 @@ temporal_data:
   seasonal_variations:
   - Q4 peak with new contracts
   - Q2 slower due to budget cycles
-  historical_evolution: Shifted from manual checklists to automated onboarding platform in 2024, reducing time-to-value by 40%
+  historical_evolution: Shifted from manual checklists to automated onboarding platform
+    in 2024, reducing time-to-value by 40%
 steps:
 - step: 1
   actor: Account Executive
@@ -59,14 +60,15 @@ steps:
   - Go-live confirmation
   - Success plan documented
 decision_points:
-- point: "Post-implementation assessment"
-  criteria: "Customer achieves 80%+ user adoption and reports satisfaction score >4.0"
+- point: Post-implementation assessment
+  criteria: Customer achieves 80%+ user adoption and reports satisfaction score >4.0
   options:
-  - "Proceed to full production": "Standard success path"
-  - "Extended support required": "Additional training and hand-holding for 30 days"
-  - "Contract renegotiation": "If adoption <60%, review contract terms"
-  typical_decision: "Proceed to full production (75% of cases)"
-success_criteria: Customer achieves first value milestone within 30 days with 90% user adoption
+  - Proceed to full production: Standard success path
+  - Extended support required: Additional training and hand-holding for 30 days
+  - Contract renegotiation: If adoption <60%, review contract terms
+  typical_decision: Proceed to full production (75% of cases)
+success_criteria: Customer achieves first value milestone within 30 days with 90%
+  user adoption
 failure_modes:
 - Delayed account setup
 - Inadequate training

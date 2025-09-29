@@ -8,17 +8,17 @@ participants:
 - External Auditors
 - Legal Counsel
 - Executive Leadership
-trigger: "Annual audit cycle begins (January 1st)"
+trigger: Annual audit cycle begins (January 1st)
 temporal_data:
   first_implemented: '2019-01-01'
   last_updated: '2025-09-01'
-  typical_cycle_time: '12 weeks'
+  typical_cycle_time: 12 weeks
   average_annual_executions: 1
   seasonal_variations:
   - Q1 intensive preparation
   - Q4 year-end close
-  historical_evolution: Manual audit process transitioned to automated compliance platform in 2022, reducing audit cycle by 40%
-
+  historical_evolution: Manual audit process transitioned to automated compliance
+    platform in 2022, reducing audit cycle by 40%
 steps:
 - step: 1
   actor: Compliance Officer
@@ -105,13 +105,15 @@ steps:
   - Remediation authorization
   - Board communication
 decision_points:
-- point: "Audit findings severity assessment"
-  criteria: "Material weaknesses identified, regulatory compliance score, remediation timeline feasibility"
+- point: Audit findings severity assessment
+  criteria: Material weaknesses identified, regulatory compliance score, remediation
+    timeline feasibility
   options:
-  - "Accept findings and implement remediation": "Standard path for minor findings"
-  - "Escalate to board for immediate action": "For material weaknesses requiring board oversight"
-  - "Request audit scope limitation": "If findings exceed reasonable remediation capacity"
-  typical_decision: "Accept and remediate (85% of cases)"
+  - Accept findings and implement remediation: Standard path for minor findings
+  - Escalate to board for immediate action: For material weaknesses requiring board
+      oversight
+  - Request audit scope limitation: If findings exceed reasonable remediation capacity
+  typical_decision: Accept and remediate (85% of cases)
 success_criteria: Achieve clean audit opinion with no material weaknesses
 failure_modes:
 - Inadequate documentation
@@ -123,6 +125,8 @@ metrics:
 - 'Finding resolution time: 30 days average'
 - 'Compliance score: 92%'
 performance_history:
-  success_rate_trend: '80% (2023) → 85% (2024) → 95% (2025)'
-  cost_trend: '$150,000 (2023) → $140,000 (2024) → $130,000 (2025)'
-  efficiency_improvements: ['Automated evidence collection reduced preparation time by 35%', 'Digital audit trails improved finding accuracy by 50%']
+  success_rate_trend: 80% (2023) → 85% (2024) → 95% (2025)
+  cost_trend: $150,000 (2023) → $140,000 (2024) → $130,000 (2025)
+  efficiency_improvements:
+  - Automated evidence collection reduced preparation time by 35%
+  - Digital audit trails improved finding accuracy by 50%

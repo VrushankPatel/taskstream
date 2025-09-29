@@ -1,55 +1,95 @@
 workflow:
-  id: "workflow_agriculture_precision_farming"
-  title: "Agriculture Precision Farming Implementation Process"
-  department: "Farm Operations"
-  complexity: "medium"
-  participants: ["Farm Manager", "Agronomist", "IT Specialist", "Equipment Operator", "Data Analyst"]
-  trigger: "Seasonal planning for crop optimization and resource efficiency"
+  id: workflow_agriculture_precision_farming
+  title: Agriculture Precision Farming Implementation Process
+  department: Farm Operations
+  complexity: medium
+  participants:
+  - Farm Manager
+  - Agronomist
+  - IT Specialist
+  - Equipment Operator
+  - Data Analyst
+  trigger: Seasonal planning for crop optimization and resource efficiency
   temporal_data:
-    first_implemented: "2022-02-01"
-    last_updated: "2025-08-01"
-    typical_cycle_time: "3-6 months"
+    first_implemented: '2022-02-01'
+    last_updated: '2025-08-01'
+    typical_cycle_time: 3-6 months
     average_annual_executions: 4
-    seasonal_variations: ["Pre-planting setup (Q1)", "Mid-season adjustments (Q2-Q3)", "Harvest optimization (Q4)"]
-    historical_evolution: "Started with basic GPS guidance, evolved to AI-driven variable rate application, achieving 25% input cost reduction since 2022"
+    seasonal_variations:
+    - Pre-planting setup (Q1)
+    - Mid-season adjustments (Q2-Q3)
+    - Harvest optimization (Q4)
+    historical_evolution: Started with basic GPS guidance, evolved to AI-driven variable
+      rate application, achieving 25% input cost reduction since 2022
   steps:
-    - step: 1
-      actor: "Farm Manager"
-      action: "Assess field conditions and define precision farming objectives"
-      tools: ["Field mapping software", "Historical yield data", "Soil sampling results"]
-      duration: "2 weeks"
-      outputs: ["Precision farming plan", "Equipment requirements list"]
-    - step: 2
-      actor: "Agronomist"
-      action: "Develop variable rate application prescriptions"
-      tools: ["Precision ag software", "Soil nutrient analysis", "Weather forecasting data"]
-      duration: "3 weeks"
-      outputs: ["Fertilizer prescriptions", "Irrigation schedules", "Pest management plans"]
-    - step: 3
-      actor: "IT Specialist"
-      action: "Configure precision equipment and data collection systems"
-      tools: ["GPS receivers", "Sensor networks", "Data management platforms"]
-      duration: "2 weeks"
-      outputs: ["Calibrated equipment", "Data collection protocols"]
-    - step: 4
-      actor: "Equipment Operator"
-      action: "Execute precision application operations"
-      tools: ["Variable rate applicators", "Auto-steer systems", "Real-time monitoring displays"]
-      duration: "8-12 weeks"
-      outputs: ["Applied treatment maps", "Operation logs"]
-    - step: 5
-      actor: "Data Analyst"
-      action: "Analyze performance data and generate optimization recommendations"
-      tools: ["Data analytics platform", "Yield monitoring systems", "Performance dashboards"]
-      duration: "2 weeks"
-      outputs: ["Performance reports", "Next season recommendations"]
-  success_criteria: "Achieved target yield with 20% reduction in input costs"
-  failure_modes: ["Equipment calibration issues", "Data accuracy problems", "Weather-related delays"]
+  - step: 1
+    actor: Farm Manager
+    action: Assess field conditions and define precision farming objectives
+    tools:
+    - Field mapping software
+    - Historical yield data
+    - Soil sampling results
+    duration: 2 weeks
+    outputs:
+    - Precision farming plan
+    - Equipment requirements list
+  - step: 2
+    actor: Agronomist
+    action: Develop variable rate application prescriptions
+    tools:
+    - Precision ag software
+    - Soil nutrient analysis
+    - Weather forecasting data
+    duration: 3 weeks
+    outputs:
+    - Fertilizer prescriptions
+    - Irrigation schedules
+    - Pest management plans
+  - step: 3
+    actor: IT Specialist
+    action: Configure precision equipment and data collection systems
+    tools:
+    - GPS receivers
+    - Sensor networks
+    - Data management platforms
+    duration: 2 weeks
+    outputs:
+    - Calibrated equipment
+    - Data collection protocols
+  - step: 4
+    actor: Equipment Operator
+    action: Execute precision application operations
+    tools:
+    - Variable rate applicators
+    - Auto-steer systems
+    - Real-time monitoring displays
+    duration: 8-12 weeks
+    outputs:
+    - Applied treatment maps
+    - Operation logs
+  - step: 5
+    actor: Data Analyst
+    action: Analyze performance data and generate optimization recommendations
+    tools:
+    - Data analytics platform
+    - Yield monitoring systems
+    - Performance dashboards
+    duration: 2 weeks
+    outputs:
+    - Performance reports
+    - Next season recommendations
+  success_criteria: Achieved target yield with 20% reduction in input costs
+  failure_modes:
+  - Equipment calibration issues
+  - Data accuracy problems
+  - Weather-related delays
   metrics:
-    - "Input cost reduction: 15-25% target"
-    - "Yield improvement: 5-10% target"
-    - "Resource efficiency: 90% optimal application rate"
+  - 'Input cost reduction: 15-25% target'
+  - 'Yield improvement: 5-10% target'
+  - 'Resource efficiency: 90% optimal application rate'
   performance_history:
-    success_rate_trend: "80% (2023) → 88% (2024) → 92% (2025)"
-    cost_trend: "$450/acre (2023) → $395/acre (2024) → $365/acre (2025)"
-    efficiency_improvements: ["Variable rate technology reduced fertilizer use by 18%", "AI optimization improved irrigation efficiency by 22%"]
+    success_rate_trend: 80% (2023) → 88% (2024) → 92% (2025)
+    cost_trend: $450/acre (2023) → $395/acre (2024) → $365/acre (2025)
+    efficiency_improvements:
+    - Variable rate technology reduced fertilizer use by 18%
+    - AI optimization improved irrigation efficiency by 22%

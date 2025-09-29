@@ -1,43 +1,67 @@
 workflow:
-  id: "workflow_simple_manufacturing_quality_control"
-  title: "Simple Manufacturing Quality Control Process"
-  department: "Quality Assurance"
-  complexity: "simple"
-  participants: ["Quality Inspector", "Production Supervisor", "Line Operator"]
-  trigger: "Scheduled quality checks during production runs"
+  id: workflow_simple_manufacturing_quality_control
+  title: Simple Manufacturing Quality Control Process
+  department: Quality Assurance
+  complexity: simple
+  participants:
+  - Quality Inspector
+  - Production Supervisor
+  - Line Operator
+  trigger: Scheduled quality checks during production runs
   temporal_data:
-    first_implemented: "2020-01-01"
-    last_updated: "2025-06-01"
-    typical_cycle_time: "15-30 minutes"
+    first_implemented: '2020-01-01'
+    last_updated: '2025-06-01'
+    typical_cycle_time: 15-30 minutes
     average_annual_executions: 520
-    seasonal_variations: ["Consistent throughout year", "Slightly higher during Q4 peak production"]
-    historical_evolution: "Standardized from manual checklists to digital tracking, reducing inspection time by 40% since 2020"
+    seasonal_variations:
+    - Consistent throughout year
+    - Slightly higher during Q4 peak production
+    historical_evolution: Standardized from manual checklists to digital tracking,
+      reducing inspection time by 40% since 2020
   steps:
-    - step: 1
-      actor: "Quality Inspector"
-      action: "Conduct visual and dimensional inspection of finished products"
-      tools: ["Inspection checklist", "Calipers", "Go/no-go gauges"]
-      duration: "10 minutes"
-      outputs: ["Inspection results", "Defect documentation"]
-    - step: 2
-      actor: "Quality Inspector"
-      action: "Record inspection data and determine product acceptability"
-      tools: ["Quality management system", "Digital inspection forms"]
-      duration: "5 minutes"
-      outputs: ["Quality records", "Pass/fail determination"]
-    - step: 3
-      actor: "Production Supervisor"
-      action: "Review failed inspections and initiate corrective actions"
-      tools: ["Quality dashboard", "Corrective action log"]
-      duration: "10 minutes"
-      outputs: ["Corrective action plan", "Production adjustments"]
-  success_criteria: "100% of products inspected meet quality specifications"
-  failure_modes: ["Measurement errors", "Inconsistent inspection standards", "Delayed corrective actions"]
+  - step: 1
+    actor: Quality Inspector
+    action: Conduct visual and dimensional inspection of finished products
+    tools:
+    - Inspection checklist
+    - Calipers
+    - Go/no-go gauges
+    duration: 10 minutes
+    outputs:
+    - Inspection results
+    - Defect documentation
+  - step: 2
+    actor: Quality Inspector
+    action: Record inspection data and determine product acceptability
+    tools:
+    - Quality management system
+    - Digital inspection forms
+    duration: 5 minutes
+    outputs:
+    - Quality records
+    - Pass/fail determination
+  - step: 3
+    actor: Production Supervisor
+    action: Review failed inspections and initiate corrective actions
+    tools:
+    - Quality dashboard
+    - Corrective action log
+    duration: 10 minutes
+    outputs:
+    - Corrective action plan
+    - Production adjustments
+  success_criteria: 100% of products inspected meet quality specifications
+  failure_modes:
+  - Measurement errors
+  - Inconsistent inspection standards
+  - Delayed corrective actions
   metrics:
-    - "First pass yield: 95% target"
-    - "Defect rate: <2% target"
-    - "Inspection compliance: 100% target"
+  - 'First pass yield: 95% target'
+  - 'Defect rate: <2% target'
+  - 'Inspection compliance: 100% target'
   performance_history:
-    success_rate_trend: "92% (2023) → 95% (2024) → 97% (2025)"
-    cost_trend: "$0.45/unit (2023) → $0.38/unit (2024) → $0.32/unit (2025)"
-    efficiency_improvements: ["Digital checklists reduced paperwork by 60%", "Automated data entry improved accuracy by 25%"]
+    success_rate_trend: 92% (2023) → 95% (2024) → 97% (2025)
+    cost_trend: $0.45/unit (2023) → $0.38/unit (2024) → $0.32/unit (2025)
+    efficiency_improvements:
+    - Digital checklists reduced paperwork by 60%
+    - Automated data entry improved accuracy by 25%

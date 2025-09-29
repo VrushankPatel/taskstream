@@ -2,27 +2,27 @@ workflow:
   id: workflow_workforce_automation
   title: Workforce Automation Transition Workflow
   department: Operations and Human Resources
-   complexity: high
-   participants:
+  complexity: high
+  participants:
    - Operations Manager
    - HR Business Partner
    - Automation Engineer
    - Training Coordinator
    - Union Representative
    - Employee
-   trigger: Technology upgrade or efficiency initiative requires automation implementation
-   temporal_data:
+  trigger: Technology upgrade or efficiency initiative requires automation implementation
+  temporal_data:
      first_implemented: "2023-04-01"
      last_updated: "2024-11-01"
      typical_cycle_time: "20 weeks"
      average_annual_executions: 3
      seasonal_variations: ["Production shutdowns allow for implementation", "Avoided during peak demand periods"]
      historical_evolution: "Basic automation evolved to collaborative robotics in 2023, now includes comprehensive workforce transition programs"
-   performance_history:
+  performance_history:
      success_rate_trend: "70% (2023) → 78% (2024) → 85% (2025)"
      cost_trend: "$800K (2023) → $700K (2024) → $600K (2025)"
      efficiency_improvements: ["Collaborative robotics improved safety by 40%", "Retraining programs reduced transition time by 30%", "Union partnerships improved adoption rates by 25%"]
-   steps:
+  steps:
   - step: 1
     actor: Operations Manager
     action: Assess automation opportunities and develop implementation plan

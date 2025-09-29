@@ -22,19 +22,19 @@ workflow:
     cost_trend: "$120K (2022) → $110K (2023) → $95K (2024)"
     efficiency_improvements: ["Digital portal reduced paperwork by 70%", "Automated compliance checks improved accuracy by 25%", "AI personalization increased training completion by 15%"]
   steps:
-    - step: 1
-     actor: HR Manager
-     action: Schedule onboarding sessions and prepare documentation package
-     tools:
-     - HRIS System
-     - Onboarding Portal
-     - Email System
-     duration: 1 day
-     outputs:
-     - Onboarding schedule
-     - Employee handbook
-     - Equipment request
-    - step: 2
+  - step: 1
+    actor: HR Manager
+    action: Schedule onboarding sessions and prepare documentation package
+    tools:
+    - HRIS System
+    - Onboarding Portal
+    - Email System
+    duration: 1 day
+    outputs:
+    - Onboarding schedule
+    - Employee handbook
+    - Equipment request
+  - step: 2
     actor: IT Security
     action: Set up user accounts, email, and system access with security training
     tools:

@@ -1,29 +1,29 @@
 workflow:
   id: workflow_ai_personalization
   title: AI-Driven Personalization Process
-   department: E-commerce & Marketing
-   complexity: medium
-   participants:
-   - Data Scientist
-   - Marketing Manager
-   - Product Manager
-   - UX Designer
-   - IT Developer
-   - Privacy Officer
-   - Customer Success Manager
-   trigger: Launch of AI personalization initiative
-   temporal_data:
+  department: E-commerce & Marketing
+  complexity: medium
+  participants:
+  - Data Scientist
+  - Marketing Manager
+  - Product Manager
+  - UX Designer
+  - IT Developer
+  - Privacy Officer
+  - Customer Success Manager
+  trigger: Launch of AI personalization initiative
+  temporal_data:
      first_implemented: "2023-01-15"
      last_updated: "2024-09-01"
      typical_cycle_time: "12 weeks"
      average_annual_executions: 4
      seasonal_variations: ["Holiday season campaigns increase execution", "Q1 planning season"]
      historical_evolution: "Basic rule-based personalization evolved to ML-driven recommendations in 2023, now includes real-time behavioral adaptation"
-   performance_history:
+  performance_history:
      success_rate_trend: "75% (2023) → 82% (2024) → 88% (2025)"
      cost_trend: "$200K (2023) → $180K (2024) → $160K (2025)"
      efficiency_improvements: ["ML models improved recommendation accuracy by 40%", "Real-time processing reduced latency by 60%", "Automated A/B testing accelerated optimization by 50%"]
-   steps:
+  steps:
   - step: 1
     actor: Data Scientist
     action: Collect and analyze customer behavior data

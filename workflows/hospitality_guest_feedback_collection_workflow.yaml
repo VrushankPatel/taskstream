@@ -13,39 +13,39 @@ workflow:
     seasonal_variations: ["Summer peak season (150% increase)", "Winter off-season (40% decrease)"]
     historical_evolution: "Manual feedback cards evolved to digital surveys in 2023, AI sentiment analysis added in 2024"
   steps:
-     - step: 1
-       actor: "Front Desk Staff"
-       action: "Conduct brief verbal feedback interview during checkout process and trigger automated post-stay survey via guest's preferred contact method"
-       tools: ["Property management system", "Survey software", "Guest communication platform"]
-       duration: "10-20 minutes"
-       outputs: ["Initial feedback notes", "Automated survey link", "Guest contact preferences recorded"]
-     - step: 2
-       actor: "Guest Services Manager"
-       action: "Analyze survey responses using sentiment analysis, categorize feedback by theme and urgency, and prioritize action items"
-       tools: ["Survey dashboard", "Feedback categorization system", "AI sentiment analysis tool"]
-       duration: "1-2 days"
-       outputs: ["Categorized feedback report", "Action items list with priorities", "Trend analysis summary"]
-     - step: 3
-       actor: "Department Heads"
-       action: "Review assigned feedback items, develop improvement plans, implement changes, and prepare personalized responses to guests"
-       tools: ["Task management system", "Quality improvement tools", "Change management platform"]
-       duration: "1-3 weeks"
-       outputs: ["Implemented improvements documentation", "Personalized response communication to guest", "Process update logs"]
-     - step: 4
-       actor: "Guest Services Manager"
-       action: "Send personalized follow-up communication addressing resolved issues, express appreciation for feedback, and invite future stays"
-       tools: ["Email system", "CRM database", "Personalization engine"]
-       duration: "1-3 days"
-       outputs: ["Guest follow-up communication", "Updated satisfaction metrics", "Loyalty program credit if applicable"]
+  - step: 1
+    actor: "Front Desk Staff"
+    action: "Conduct brief verbal feedback interview during checkout process and trigger automated post-stay survey via guest's preferred contact method"
+    tools: ["Property management system", "Survey software", "Guest communication platform"]
+    duration: "10-20 minutes"
+    outputs: ["Initial feedback notes", "Automated survey link", "Guest contact preferences recorded"]
+  - step: 2
+    actor: "Guest Services Manager"
+    action: "Analyze survey responses using sentiment analysis, categorize feedback by theme and urgency, and prioritize action items"
+    tools: ["Survey dashboard", "Feedback categorization system", "AI sentiment analysis tool"]
+    duration: "1-2 days"
+    outputs: ["Categorized feedback report", "Action items list with priorities", "Trend analysis summary"]
+  - step: 3
+    actor: "Department Heads"
+    action: "Review assigned feedback items, develop improvement plans, implement changes, and prepare personalized responses to guests"
+    tools: ["Task management system", "Quality improvement tools", "Change management platform"]
+    duration: "1-3 weeks"
+    outputs: ["Implemented improvements documentation", "Personalized response communication to guest", "Process update logs"]
+  - step: 4
+    actor: "Guest Services Manager"
+    action: "Send personalized follow-up communication addressing resolved issues, express appreciation for feedback, and invite future stays"
+    tools: ["Email system", "CRM database", "Personalization engine"]
+    duration: "1-3 days"
+    outputs: ["Guest follow-up communication", "Updated satisfaction metrics", "Loyalty program credit if applicable"]
   success_criteria: "80% of feedback items addressed within 7 days, guest satisfaction score improves by 5%"
   failure_modes: ["Delayed response times", "Incomplete follow-up", "No improvement implementation"]
-   metrics:
-     - "Response time: <7 days for 80% of feedback"
-     - "Guest satisfaction improvement: 5% increase"
-     - "Feedback completion rate: 60% of guests"
-     - "Net Promoter Score: >40"
-     - "Repeat visit rate: 65% for respondents"
-     - "Issue resolution rate: >90%"
+  metrics:
+  - "Response time: <7 days for 80% of feedback"
+  - "Guest satisfaction improvement: 5% increase"
+  - "Feedback completion rate: 60% of guests"
+  - "Net Promoter Score: >40"
+  - "Repeat visit rate: 65% for respondents"
+  - "Issue resolution rate: >90%"
   performance_history:
     success_rate_trend: "70% (2023) → 82% (2024) → 85% (2025)"
     cost_trend: "$75K (2023) → $65K (2024) → $58K (2025)"

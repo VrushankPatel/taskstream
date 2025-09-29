@@ -12,43 +12,53 @@ workflow:
     average_annual_executions: 6
     seasonal_variations: ["Winter flu season (increased protocols)", "Summer travel peak (crowd management)", "Post-crisis recovery (protocol updates)"]
     historical_evolution: "Evolved from basic hygiene standards to comprehensive health safety management, incorporating pandemic response and ongoing health monitoring"
-  steps:
-    - step: 1
-      actor: "Health Safety Manager"
-      action: "Assess current protocols and identify improvement areas"
-      tools: ["Safety assessment framework", "Regulatory requirements database", "Risk analysis tools"]
-      duration: "1 week"
-      outputs: ["Safety assessment report", "Protocol improvement plan"]
-    - step: 2
-      actor: "Operations Director"
-      action: "Design and implement enhanced safety measures"
-      tools: ["Process design software", "Safety equipment procurement", "Staff training platforms"]
-      duration: "3 weeks"
-      outputs: ["Updated safety protocols", "Equipment installation plans"]
-    - step: 3
-      actor: "Front Office Manager"
-      action: "Train front desk staff on health screening procedures"
-      tools: ["Training modules", "Screening checklists", "Communication protocols"]
-      duration: "1 week"
-      outputs: ["Staff training records", "Screening procedures"]
-    - step: 4
-      actor: "Housekeeping Supervisor"
-      action: "Implement enhanced cleaning and sanitization protocols"
-      tools: ["Cleaning protocols", "Sanitization equipment", "Quality control checklists"]
-      duration: "2 weeks"
-      outputs: ["Cleaning schedules", "Quality assurance reports"]
-    - step: 5
-      actor: "Guest Services Lead"
-      action: "Communicate safety measures to guests and handle concerns"
-      tools: ["Guest communication platform", "FAQ systems", "Feedback collection tools"]
-      duration: "Ongoing"
-      outputs: ["Guest communications", "Feedback analysis"]
+   steps:
+     - step: 1
+       actor: "Health Safety Manager"
+       action: "Conduct comprehensive assessment of current health safety protocols against regulatory requirements and industry best practices"
+       decision_points: ["Protocol gap analysis", "Risk priority matrix development", "Resource allocation for improvements", "Timeline prioritization"]
+       tools: ["Safety assessment framework", "Regulatory requirements database", "Risk analysis tools", "Benchmarking platforms"]
+       duration: "1 week"
+       outputs: ["Comprehensive safety assessment report", "Protocol improvement plan", "Risk mitigation strategies", "Budget impact analysis"]
+     - step: 2
+       actor: "Operations Director"
+       action: "Design and implement enhanced safety measures including contactless check-in, sanitization stations, and PPE distribution"
+       decision_points: ["Technology integration decisions", "Staffing requirement changes", "Guest experience impact assessment", "Cost-benefit analysis"]
+       tools: ["Process design software", "Safety equipment procurement", "Staff training platforms", "ROI analysis tools"]
+       duration: "3 weeks"
+       outputs: ["Updated safety protocols manual", "Equipment installation plans", "Staff training curriculum", "Implementation timeline"]
+     - step: 3
+       actor: "Front Office Manager"
+       action: "Train front desk staff on health screening procedures, symptom recognition, and emergency response protocols"
+       decision_points: ["Training method selection", "Certification requirements", "Refresher training frequency", "Performance evaluation criteria"]
+       tools: ["Training modules", "Screening checklists", "Communication protocols", "Assessment systems"]
+       duration: "1 week"
+       outputs: ["Staff training completion records", "Screening procedures documentation", "Emergency response protocols", "Training effectiveness metrics"]
+     - step: 4
+       actor: "Housekeeping Supervisor"
+       action: "Implement enhanced cleaning and sanitization protocols with frequency adjustments and quality monitoring"
+       decision_points: ["Cleaning frequency optimization", "Product selection criteria", "Quality control procedures", "Staff safety considerations"]
+       tools: ["Cleaning protocols", "Sanitization equipment", "Quality control checklists", "Inventory management systems"]
+       duration: "2 weeks"
+       outputs: ["Detailed cleaning schedules", "Quality assurance reports", "Equipment maintenance logs", "Staff safety guidelines"]
+     - step: 5
+       actor: "Guest Services Lead"
+       action: "Communicate safety measures to guests through multiple channels and handle concerns with empathy and clarity"
+       decision_points: ["Communication channel selection", "Message frequency determination", "Guest concern escalation procedures", "Feedback integration methods"]
+       tools: ["Guest communication platform", "FAQ systems", "Feedback collection tools", "CRM systems"]
+       duration: "Ongoing"
+       outputs: ["Multi-channel guest communications", "Comprehensive feedback analysis", "Concern resolution reports", "Guest satisfaction tracking"]
   success_criteria: "Zero health incidents, 95% guest satisfaction with safety measures"
   failure_modes: ["Inadequate staff training", "Equipment failures", "Poor guest communication"]
-  metrics:
-    - "Health incident rate: 0"
-    - "Guest satisfaction: 95% minimum"
-    - "Protocol compliance: 98%"
+   metrics:
+     - "Health incident rate: 0 incidents per month"
+     - "Guest satisfaction with safety measures: 95% minimum"
+     - "Staff protocol compliance: 98% adherence rate"
+     - "Training completion rate: 100% of staff"
+     - "Cleaning quality score: 95% or higher"
+     - "Response time to guest concerns: <4 hours"
+     - "Regulatory compliance audit score: 100%"
+     - "Safety equipment functionality: 99% uptime"
   performance_history:
     success_rate_trend: "75% (2020) → 85% (2024) → 92% (2025)"
     cost_trend: "$800K (2020) → $600K (2024) → $550K (2025)"

@@ -12,43 +12,53 @@ workflow:
     average_annual_executions: 6
     seasonal_variations: ["Q1 planning and permitting", "Q2-Q3 construction", "Q4 commissioning and testing"]
     historical_evolution: "Evolved from fossil fuel dominance to renewable integration, incorporating smart grid technology and energy storage systems"
-  steps:
-    - step: 1
-      actor: "Renewable Energy Director"
-      action: "Assess renewable potential and develop integration strategy"
-      tools: ["Renewable assessment software", "Grid modeling tools", "Economic analysis platforms"]
-      duration: "3 months"
-      outputs: ["Integration strategy", "Project feasibility studies"]
-    - step: 2
-      actor: "Engineering Manager"
-      action: "Design interconnection and storage systems"
-      tools: ["Engineering design software", "Simulation tools", "Vendor selection platforms"]
-      duration: "6 months"
-      outputs: ["System designs", "Equipment specifications"]
-    - step: 3
-      actor: "Grid Operations Manager"
-      action: "Plan grid modifications and operational procedures"
-      tools: ["Grid management software", "Load forecasting tools", "Operational planning systems"]
-      duration: "4 months"
-      outputs: ["Grid modification plans", "Operational procedures"]
-    - step: 4
-      actor: "Regulatory Affairs Specialist"
-      action: "Obtain permits and ensure regulatory compliance"
-      tools: ["Permitting software", "Regulatory databases", "Compliance tracking systems"]
-      duration: "5 months"
-      outputs: ["Permits and approvals", "Compliance documentation"]
-    - step: 5
-      actor: "Environmental Compliance Officer"
-      action: "Conduct environmental impact assessments and monitoring"
-      tools: ["Environmental assessment tools", "Monitoring systems", "Reporting platforms"]
-      duration: "Ongoing"
-      outputs: ["Impact assessments", "Monitoring reports"]
+   steps:
+     - step: 1
+       actor: "Renewable Energy Director"
+       action: "Assess renewable potential and develop integration strategy including site selection, capacity planning, and interconnection requirements"
+       decision_points: ["Technology selection (solar/wind/storage)", "Capacity sizing based on grid needs", "Interconnection point determination", "Economic viability assessment"]
+       tools: ["Renewable assessment software", "Grid modeling tools", "Economic analysis platforms", "Geographic information systems"]
+       duration: "3 months"
+       outputs: ["Integration strategy document", "Project feasibility studies", "Resource assessment reports", "Preliminary budget estimates"]
+     - step: 2
+       actor: "Engineering Manager"
+       action: "Design interconnection infrastructure, energy storage systems, and control mechanisms for seamless grid integration"
+       decision_points: ["Storage technology selection", "Inverter specifications", "Control system architecture", "Safety system requirements"]
+       tools: ["Engineering design software", "Simulation tools", "Vendor selection platforms", "SCADA system design tools"]
+       duration: "6 months"
+       outputs: ["Detailed system designs", "Equipment specifications", "Control system schematics", "Safety and protection plans"]
+     - step: 3
+       actor: "Grid Operations Manager"
+       action: "Plan grid infrastructure modifications, develop operational procedures, and coordinate with transmission operators"
+       decision_points: ["Grid upgrade scope", "Operational protocol changes", "Emergency response procedures", "Load balancing strategies"]
+       tools: ["Grid management software", "Load forecasting tools", "Operational planning systems", "Transmission coordination platforms"]
+       duration: "4 months"
+       outputs: ["Grid modification plans", "Operational procedures manual", "Emergency response protocols", "Training requirements"]
+     - step: 4
+       actor: "Regulatory Affairs Specialist"
+       action: "Obtain all necessary permits, ensure regulatory compliance, and coordinate with environmental agencies"
+       decision_points: ["Permit application strategy", "Compliance requirement prioritization", "Environmental mitigation measures", "Timeline optimization"]
+       tools: ["Permitting software", "Regulatory databases", "Compliance tracking systems", "Environmental impact assessment tools"]
+       duration: "5 months"
+       outputs: ["Complete permit package", "Compliance documentation", "Environmental mitigation plans", "Regulatory approval timeline"]
+     - step: 5
+       actor: "Environmental Compliance Officer"
+       action: "Conduct comprehensive environmental impact assessments, implement monitoring systems, and ensure ongoing compliance"
+       decision_points: ["Impact assessment scope", "Monitoring system design", "Mitigation measure effectiveness", "Reporting frequency"]
+       tools: ["Environmental assessment tools", "Monitoring systems", "Reporting platforms", "GIS mapping software"]
+       duration: "Ongoing"
+       outputs: ["Environmental impact assessments", "Monitoring system implementation", "Compliance reports", "Mitigation effectiveness evaluations"]
   success_criteria: "Renewable capacity integrated successfully, grid stability maintained at 99.9%"
   failure_modes: ["Interconnection issues", "Regulatory delays", "Environmental concerns"]
-  metrics:
-    - "Renewable capacity: Target achieved"
-    - "Grid stability: 99.9% uptime"
-    - "Integration cost: Within budget"
+   metrics:
+     - "Renewable capacity integration: 100% of planned capacity achieved"
+     - "Grid stability: 99.9% uptime maintained during integration"
+     - "Integration cost: Within 5% of budgeted amount"
+     - "Project timeline: Completed within 12 months"
+     - "Environmental compliance: Zero regulatory violations"
+     - "Energy storage efficiency: >90% round-trip efficiency"
+     - "Interconnection reliability: <0.1% failure rate"
+     - "Operational readiness: Full system handover within 1 month of completion"
   performance_history:
     success_rate_trend: "75% (2021) → 85% (2024) → 90% (2025)"
     cost_trend: "$25M (2021) → $28M (2024) → $30M (2025)"

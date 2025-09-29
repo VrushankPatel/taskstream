@@ -12,43 +12,53 @@ workflow:
     average_annual_executions: 8
     seasonal_variations: ["Q4 planning phase", "Q1-Q2 implementation", "Q3-Q4 evaluation and adjustment"]
     historical_evolution: "Evolved from ad-hoc retraining to structured transition programs, incorporating skills assessment and career development planning"
-  steps:
-    - step: 1
-      actor: "HR Director"
-      action: "Assess workforce skills and identify transition needs"
-      tools: ["Skills assessment platform", "Workforce analytics", "Job description database"]
-      duration: "2 weeks"
-      outputs: ["Skills gap analysis", "Transition plan outline"]
-    - step: 2
-      actor: "Operations Manager"
-      action: "Define new roles and responsibilities"
-      tools: ["Process mapping software", "Job design tools", "Automation impact analysis"]
-      duration: "1 week"
-      outputs: ["Role definitions", "Organizational structure updates"]
-    - step: 3
-      actor: "Training Coordinator"
-      action: "Develop and deliver training programs"
-      tools: ["Learning management system", "Training materials", "Virtual reality simulators"]
-      duration: "8 weeks"
-      outputs: ["Training curriculum", "Certification programs"]
-    - step: 4
-      actor: "Union Representative"
-      action: "Negotiate transition agreements and support"
-      tools: ["Collective bargaining framework", "Legal consultation", "Employee feedback systems"]
-      duration: "3 weeks"
-      outputs: ["Transition agreements", "Employee support plans"]
-    - step: 5
-      actor: "Change Management Consultant"
-      action: "Monitor adoption and provide ongoing support"
-      tools: ["Change management framework", "Employee engagement surveys", "Performance tracking"]
-      duration: "Ongoing"
-      outputs: ["Adoption reports", "Improvement recommendations"]
+   steps:
+     - step: 1
+       actor: "HR Director"
+       action: "Conduct comprehensive workforce skills assessment and identify specific transition requirements for affected roles"
+       decision_points: ["Assessment methodology selection", "Skills taxonomy development", "Transition timeline prioritization", "Resource allocation for retraining"]
+       tools: ["Skills assessment platform", "Workforce analytics", "Job description database", "Career development planning software"]
+       duration: "2 weeks"
+       outputs: ["Detailed skills gap analysis", "Individual transition plans", "Resource requirement estimates", "Communication strategy outline"]
+     - step: 2
+       actor: "Operations Manager"
+       action: "Define new roles, responsibilities, and career progression paths resulting from automation implementation"
+       decision_points: ["Role redesign principles", "Career ladder development", "Compensation adjustment frameworks", "Performance expectation setting"]
+       tools: ["Process mapping software", "Job design tools", "Automation impact analysis", "Organizational design frameworks"]
+       duration: "1 week"
+       outputs: ["Updated role definitions", "Organizational structure changes", "Career progression maps", "Performance management frameworks"]
+     - step: 3
+       actor: "Training Coordinator"
+       action: "Develop customized training programs including technical skills, soft skills, and career transition support"
+       decision_points: ["Training delivery method selection", "Curriculum content prioritization", "Certification requirement definition", "Training effectiveness measurement"]
+       tools: ["Learning management system", "Training materials", "Virtual reality simulators", "Assessment and certification platforms"]
+       duration: "8 weeks"
+       outputs: ["Comprehensive training curriculum", "Certification programs", "Training delivery schedule", "Assessment and evaluation tools"]
+     - step: 4
+       actor: "Union Representative"
+       action: "Negotiate transition agreements, severance packages, and ongoing support mechanisms for affected employees"
+       decision_points: ["Severance package structure", "Retraining support agreements", "Job placement assistance programs", "Ongoing consultation frameworks"]
+       tools: ["Collective bargaining framework", "Legal consultation", "Employee feedback systems", "Contract negotiation platforms"]
+       duration: "3 weeks"
+       outputs: ["Comprehensive transition agreements", "Employee support plans", "Severance and benefits packages", "Dispute resolution procedures"]
+     - step: 5
+       actor: "Change Management Consultant"
+       action: "Monitor transition adoption, provide coaching support, and implement continuous improvement measures"
+       decision_points: ["Support intervention timing", "Success metric definition", "Resistance management strategies", "Long-term engagement planning"]
+       tools: ["Change management framework", "Employee engagement surveys", "Performance tracking", "Coaching and mentoring platforms"]
+       duration: "Ongoing"
+       outputs: ["Transition adoption reports", "Employee satisfaction surveys", "Performance improvement recommendations", "Long-term development plans"]
   success_criteria: "90% employee retention rate, 80% successful role transitions"
   failure_modes: ["Resistance to change", "Inadequate training", "Poor communication"]
-  metrics:
-    - "Employee retention: 90% target"
-    - "Skills certification: 85% completion rate"
-    - "Productivity impact: <5% initial decrease"
+   metrics:
+     - "Employee retention rate: 90% during transition period"
+     - "Skills certification completion: 85% of affected employees"
+     - "Productivity impact: <5% decrease in first 3 months"
+     - "Training effectiveness score: 4.0/5.0 average"
+     - "Time to full productivity: <6 months average"
+     - "Employee satisfaction with transition: 75% positive feedback"
+     - "Internal job placement rate: 60% of affected employees"
+     - "Cost per transitioned employee: <$15,000"
   performance_history:
     success_rate_trend: "65% (2023) → 75% (2024) → 82% (2025)"
     cost_trend: "$2.1M (2023) → $2.3M (2024) → $2.5M (2025)"

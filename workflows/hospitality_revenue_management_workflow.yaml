@@ -13,52 +13,52 @@ workflow:
     seasonal_variations: ["Peak season pricing adjustments (Jun-Sep)", "Off-season promotional campaigns (Nov-Feb)"]
     historical_evolution: "Manual pricing replaced with AI-driven dynamic pricing in 2024"
   steps:
-     - step: 1
-       actor: "Revenue Manager"
-       action: "Collect and analyze historical booking patterns, occupancy rates, market demand indicators, and competitor pricing data"
-       tools: ["Revenue management software", "Market intelligence platforms", "Historical booking database", "Economic indicators API"]
-       duration: "3-6 hours"
-       outputs: ["Demand forecast report", "Competitive analysis", "Market trend insights"]
-     - step: 2
-       actor: "Revenue Manager"
-       action: "Develop dynamic pricing models considering demand elasticity, competitor rates, local events, and occupancy goals"
-       decision_points: ["Seasonal demand patterns", "Competitor pricing changes", "Event calendar impacts", "Occupancy target adjustments", "Length of stay optimization"]
-       tools: ["Pricing optimization software", "Yield management system", "Demand forecasting models"]
-       duration: "4-8 hours"
-       outputs: ["Pricing strategy document", "Rate adjustments schedule", "Package bundling recommendations"]
-     - step: 3
-       actor: "Operations Manager"
-       action: "Assess room inventory availability, upcoming maintenance schedules, and renovation impacts on revenue potential"
-       tools: ["Property management system", "Maintenance scheduling software", "Room condition database"]
-       duration: "1-3 hours"
-       outputs: ["Inventory availability report", "Maintenance impact assessment", "Revenue opportunity analysis"]
-     - step: 4
-       actor: "Revenue Manager"
-       action: "Deploy pricing updates across all distribution channels and launch targeted promotional campaigns"
-       tools: ["Booking engine", "Marketing automation platform", "Channel management system"]
-       duration: "2-4 hours"
-       outputs: ["Updated pricing in systems", "Campaign activation confirmation", "Channel parity verification"]
-     - step: 5
-       actor: "IT Analyst"
-       action: "Track system performance metrics, analyze booking conversion funnels, and identify optimization opportunities"
-       tools: ["Analytics dashboard", "Conversion tracking tools", "A/B testing platform"]
-       duration: "1-3 hours"
-       outputs: ["Performance metrics report", "System optimization recommendations", "Conversion improvement insights"]
-     - step: 6
-       actor: "Revenue Manager"
-       action: "Compile weekly performance reports, update revenue forecasts, and prepare executive summaries"
-       tools: ["Business intelligence tools", "Financial reporting software", "Forecasting models"]
-       duration: "3-5 hours"
-       outputs: ["Weekly revenue report", "Updated forecasts", "Executive dashboard updates"]
+  - step: 1
+    actor: "Revenue Manager"
+    action: "Collect and analyze historical booking patterns, occupancy rates, market demand indicators, and competitor pricing data"
+    tools: ["Revenue management software", "Market intelligence platforms", "Historical booking database", "Economic indicators API"]
+    duration: "3-6 hours"
+    outputs: ["Demand forecast report", "Competitive analysis", "Market trend insights"]
+  - step: 2
+    actor: "Revenue Manager"
+    action: "Develop dynamic pricing models considering demand elasticity, competitor rates, local events, and occupancy goals"
+    decision_points: ["Seasonal demand patterns", "Competitor pricing changes", "Event calendar impacts", "Occupancy target adjustments", "Length of stay optimization"]
+    tools: ["Pricing optimization software", "Yield management system", "Demand forecasting models"]
+    duration: "4-8 hours"
+    outputs: ["Pricing strategy document", "Rate adjustments schedule", "Package bundling recommendations"]
+  - step: 3
+    actor: "Operations Manager"
+    action: "Assess room inventory availability, upcoming maintenance schedules, and renovation impacts on revenue potential"
+    tools: ["Property management system", "Maintenance scheduling software", "Room condition database"]
+    duration: "1-3 hours"
+    outputs: ["Inventory availability report", "Maintenance impact assessment", "Revenue opportunity analysis"]
+  - step: 4
+    actor: "Revenue Manager"
+    action: "Deploy pricing updates across all distribution channels and launch targeted promotional campaigns"
+    tools: ["Booking engine", "Marketing automation platform", "Channel management system"]
+    duration: "2-4 hours"
+    outputs: ["Updated pricing in systems", "Campaign activation confirmation", "Channel parity verification"]
+  - step: 5
+    actor: "IT Analyst"
+    action: "Track system performance metrics, analyze booking conversion funnels, and identify optimization opportunities"
+    tools: ["Analytics dashboard", "Conversion tracking tools", "A/B testing platform"]
+    duration: "1-3 hours"
+    outputs: ["Performance metrics report", "System optimization recommendations", "Conversion improvement insights"]
+  - step: 6
+    actor: "Revenue Manager"
+    action: "Compile weekly performance reports, update revenue forecasts, and prepare executive summaries"
+    tools: ["Business intelligence tools", "Financial reporting software", "Forecasting models"]
+    duration: "3-5 hours"
+    outputs: ["Weekly revenue report", "Updated forecasts", "Executive dashboard updates"]
   success_criteria: "Achieved target revenue per available room (RevPAR) within 5% of forecast"
   failure_modes: ["Overbooking due to poor inventory management", "Revenue leakage from manual pricing errors", "Missed market opportunities from delayed pricing updates"]
-   metrics:
-     - "RevPAR achievement: 95% of target"
-     - "Pricing accuracy: 98% automated adjustments"
-     - "Booking conversion: 25% increase"
-     - "Occupancy rate: 85% average"
-     - "Average daily rate growth: 8% YoY"
-     - "Market share vs competitors: Top 3 position"
+  metrics:
+  - "RevPAR achievement: 95% of target"
+  - "Pricing accuracy: 98% automated adjustments"
+  - "Booking conversion: 25% increase"
+  - "Occupancy rate: 85% average"
+  - "Average daily rate growth: 8% YoY"
+  - "Market share vs competitors: Top 3 position"
   performance_history:
     success_rate_trend: "75% (2023) → 88% (2024) → 92% (2025)"
     cost_trend: "$180K (2023) → $165K (2024) → $155K (2025)"

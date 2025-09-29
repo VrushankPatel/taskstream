@@ -1,56 +1,102 @@
 workflow:
-  id: "workflow_agriculture_supply_chain_traceability"
-  title: "Agriculture Supply Chain Traceability Workflow"
-  department: "Supply Chain & Quality Assurance"
-  complexity: "complex"
-  participants: ["Supply Chain Manager", "Quality Assurance Lead", "Farm Operations Manager", "IT Systems Administrator", "Regulatory Compliance Officer"]
-  trigger: "New product batch entering supply chain or regulatory traceability requirement"
+  id: workflow_agriculture_supply_chain_traceability
+  title: Agriculture Supply Chain Traceability Workflow
+  department: Supply Chain & Quality Assurance
+  complexity: complex
+  participants:
+  - Supply Chain Manager
+  - Quality Assurance Lead
+  - Farm Operations Manager
+  - IT Systems Administrator
+  - Regulatory Compliance Officer
+  trigger: New product batch entering supply chain or regulatory traceability requirement
   temporal_data:
-    first_implemented: "2022-03-01"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "30 days"
+    first_implemented: '2022-03-01'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 30 days
     average_annual_executions: 365
-    seasonal_variations: ["Q1 peak for harvest processing", "Q3 low for off-season maintenance"]
-    historical_evolution: "Evolved from manual record-keeping to blockchain-based digital traceability system"
+    seasonal_variations:
+    - Q1 peak for harvest processing
+    - Q3 low for off-season maintenance
+    historical_evolution: Evolved from manual record-keeping to blockchain-based digital
+      traceability system
   steps:
-    - step: 1
-      actor: "Farm Operations Manager"
-      action: "Record initial production data and batch identification"
-      tools: ["Farm management software", "IoT sensors", "GPS tracking devices"]
-      duration: "1 day"
-      outputs: ["Batch ID assignment", "Initial production records", "Geographic origin data"]
-    - step: 2
-      actor: "Quality Assurance Lead"
-      action: "Conduct quality testing and certification at farm level"
-      tools: ["Quality testing equipment", "Certification software", "Sampling protocols"]
-      duration: "2 days"
-      outputs: ["Quality test results", "Certification documents", "Compliance records"]
-    - step: 3
-      actor: "Supply Chain Manager"
-      action: "Log transportation and storage conditions throughout supply chain"
-      tools: ["Temperature monitoring systems", "Blockchain platform", "RFID tracking"]
-      duration: "Variable (based on journey)"
-      outputs: ["Transportation logs", "Storage condition records", "Chain of custody documentation"]
-    - step: 4
-      actor: "IT Systems Administrator"
-      action: "Update digital traceability records and validate data integrity"
-      tools: ["Blockchain verification tools", "Data validation software", "Audit logging systems"]
-      duration: "1 day"
-      outputs: ["Digital ledger updates", "Data integrity reports", "Audit trails"]
-    - step: 5
-      actor: "Regulatory Compliance Officer"
-      action: "Verify compliance with traceability regulations and prepare documentation"
-      tools: ["Regulatory compliance database", "Documentation templates", "Audit preparation tools"]
-      duration: "3 days"
-      outputs: ["Compliance verification", "Regulatory reports", "Traceability certificates"]
-  success_criteria: "100% traceability from farm to consumer, 99.5% data accuracy, full regulatory compliance"
-  failure_modes: ["Data entry errors", "System connectivity issues", "Regulatory requirement changes", "Supplier non-compliance"]
+  - step: 1
+    actor: Farm Operations Manager
+    action: Record initial production data and batch identification
+    tools:
+    - Farm management software
+    - IoT sensors
+    - GPS tracking devices
+    duration: 1 day
+    outputs:
+    - Batch ID assignment
+    - Initial production records
+    - Geographic origin data
+  - step: 2
+    actor: Quality Assurance Lead
+    action: Conduct quality testing and certification at farm level
+    tools:
+    - Quality testing equipment
+    - Certification software
+    - Sampling protocols
+    duration: 2 days
+    outputs:
+    - Quality test results
+    - Certification documents
+    - Compliance records
+  - step: 3
+    actor: Supply Chain Manager
+    action: Log transportation and storage conditions throughout supply chain
+    tools:
+    - Temperature monitoring systems
+    - Blockchain platform
+    - RFID tracking
+    duration: Variable (based on journey)
+    outputs:
+    - Transportation logs
+    - Storage condition records
+    - Chain of custody documentation
+  - step: 4
+    actor: IT Systems Administrator
+    action: Update digital traceability records and validate data integrity
+    tools:
+    - Blockchain verification tools
+    - Data validation software
+    - Audit logging systems
+    duration: 1 day
+    outputs:
+    - Digital ledger updates
+    - Data integrity reports
+    - Audit trails
+  - step: 5
+    actor: Regulatory Compliance Officer
+    action: Verify compliance with traceability regulations and prepare documentation
+    tools:
+    - Regulatory compliance database
+    - Documentation templates
+    - Audit preparation tools
+    duration: 3 days
+    outputs:
+    - Compliance verification
+    - Regulatory reports
+    - Traceability certificates
+  success_criteria: 100% traceability from farm to consumer, 99.5% data accuracy,
+    full regulatory compliance
+  failure_modes:
+  - Data entry errors
+  - System connectivity issues
+  - Regulatory requirement changes
+  - Supplier non-compliance
   metrics:
-    - "Traceability accuracy: Target 99.5%"
-    - "Response time to traceability queries: Target <24 hours"
-    - "Regulatory compliance rate: Target 100%"
-    - "System uptime: Target 99.9%"
+  - 'Traceability accuracy: Target 99.5%'
+  - 'Response time to traceability queries: Target <24 hours'
+  - 'Regulatory compliance rate: Target 100%'
+  - 'System uptime: Target 99.9%'
   performance_history:
-    success_rate_trend: "92% (2023) → 96% (2024) → 98% (2025)"
-    cost_trend: "$120K (2023) → $95K (2024) → $78K (2025)"
-    efficiency_improvements: ["Blockchain implementation reduced verification time by 60%", "IoT sensors improved data accuracy by 25%", "Automated reporting decreased manual effort by 40%"]
+    success_rate_trend: 92% (2023) → 96% (2024) → 98% (2025)
+    cost_trend: $120K (2023) → $95K (2024) → $78K (2025)
+    efficiency_improvements:
+    - Blockchain implementation reduced verification time by 60%
+    - IoT sensors improved data accuracy by 25%
+    - Automated reporting decreased manual effort by 40%

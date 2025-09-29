@@ -4,8 +4,16 @@
   "context": "Global aerospace company evaluating deployment of next-generation Earth observation satellite constellation to expand market share in commercial imaging services",
   "stakeholders": {
     "requester": "VP Space Systems",
-    "approvers": ["CEO", "CFO", "CTO"],
-    "influencers": ["Chief Scientist", "VP Commercial", "Regulatory Affairs Director"]
+    "approvers": [
+      "CEO",
+      "CFO",
+      "CTO"
+    ],
+    "influencers": [
+      "Chief Scientist",
+      "VP Commercial",
+      "Regulatory Affairs Director"
+    ]
   },
   "request": {
     "amount": "$450M",
@@ -19,7 +27,11 @@
       "start_date": "2025-06-01",
       "end_date": "2025-07-15",
       "duration": "45 days",
-      "activities": ["Satellite design review", "Launch vehicle assessment", "Ground station capacity analysis"],
+      "activities": [
+        "Satellite design review",
+        "Launch vehicle assessment",
+        "Ground station capacity analysis"
+      ],
       "outcome": "Technical requirements validated, proceeding to financial analysis"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2025-07-01",
       "end_date": "2025-07-30",
       "duration": "30 days",
-      "activities": ["Competitive landscape assessment", "Customer demand analysis", "Pricing strategy development"],
+      "activities": [
+        "Competitive landscape assessment",
+        "Customer demand analysis",
+        "Pricing strategy development"
+      ],
       "outcome": "Strong market demand confirmed, $2.8B revenue potential over 10 years"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2025-07-15",
       "end_date": "2025-08-10",
       "duration": "27 days",
-      "activities": ["Cost-benefit analysis", "Risk assessment", "Funding strategy development"],
+      "activities": [
+        "Cost-benefit analysis",
+        "Risk assessment",
+        "Funding strategy development"
+      ],
       "outcome": "Positive NPV of $180M, IRR of 14%, acceptable risk profile"
     },
     {
@@ -43,7 +63,11 @@
       "start_date": "2025-08-01",
       "end_date": "2025-08-12",
       "duration": "12 days",
-      "activities": ["ITU frequency coordination", "Export control compliance", "Insurance requirements"],
+      "activities": [
+        "ITU frequency coordination",
+        "Export control compliance",
+        "Insurance requirements"
+      ],
       "outcome": "All regulatory approvals secured, deployment authorized"
     }
   ],
@@ -52,14 +76,29 @@
     "projected_value": "$2.8B revenue over 10 years",
     "actual_value": "$280M achieved in first 2 years (projected)",
     "roi_timeline": "Payback in 7 years, positive cash flow from year 3",
-    "risk_factors": ["Launch failures (12% probability)", "Technology obsolescence (8% probability)", "Market competition (15% probability)"]
+    "risk_factors": [
+      "Launch failures (12% probability)",
+      "Technology obsolescence (8% probability)",
+      "Market competition (15% probability)"
+    ]
   },
-  "decision_criteria": ["Technical feasibility", "Market opportunity", "Financial viability", "Regulatory compliance", "Strategic alignment"],
+  "decision_criteria": [
+    "Technical feasibility",
+    "Market opportunity",
+    "Financial viability",
+    "Regulatory compliance",
+    "Strategic alignment"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2025-09-01",
     "completion_date": "2027-12-31",
-    "milestones": ["Phase 1 launch (8 satellites): 2026-06-01", "Phase 2 launch (8 satellites): 2027-03-01", "Phase 3 launch (8 satellites): 2027-09-01", "Full operational capability: 2027-12-31"]
+    "milestones": [
+      "Phase 1 launch (8 satellites): 2026-06-01",
+      "Phase 2 launch (8 satellites): 2027-03-01",
+      "Phase 3 launch (8 satellites): 2027-09-01",
+      "Full operational capability: 2027-12-31"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "8 satellites deployed, initial revenue $45M, technical performance exceeding expectations",

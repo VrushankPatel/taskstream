@@ -1,23 +1,25 @@
-workflow:
-  id: workflow_compliance_audit_001
-  title: Annual Compliance Audit Process
-  department: Compliance
-  complexity: high
-  participants:
-  - Compliance Officer
-  - Department Heads
-  - External Auditors
-  - Legal Counsel
-  - Executive Leadership
-  trigger: Annual audit cycle begins (January 1st)
-  temporal_data:
-    first_implemented: '2019-01-01'
-    last_updated: '2025-09-01'
-    typical_cycle_time: '12 weeks'
-    average_annual_executions: 1
-    seasonal_variations: ['Q1 intensive preparation', 'Q4 year-end close']
-    historical_evolution: 'Manual audit process transitioned to automated compliance platform in 2022, reducing audit cycle by 40%'
-  steps:
+id: workflow_compliance_audit_001
+   title: Annual Compliance Audit Process
+   department: Compliance
+   complexity: high
+   participants:
+   - Compliance Officer
+   - Department Heads
+   - External Auditors
+   - Legal Counsel
+   - Executive Leadership
+   trigger: "Annual audit cycle begins (January 1st)"
+   temporal_data:
+     first_implemented: '2019-01-01'
+     last_updated: '2025-09-01'
+     typical_cycle_time: '12 weeks'
+     average_annual_executions: 1
+     seasonal_variations:
+     - Q1 intensive preparation
+     - Q4 year-end close
+     historical_evolution: Manual audit process transitioned to automated compliance platform in 2022, reducing audit cycle by 40%
+
+   steps:
   - step: 1
     actor: Compliance Officer
     action: Develop audit plan and schedule with department stakeholders
@@ -54,42 +56,42 @@ workflow:
     - Control testing results
     - Gap analysis report
     - Remediation plans
-  - step: 4
-    actor: External Auditors
-    action: Perform independent testing and validation
-    tools:
-    - Audit software
-    - Sampling tools
-    - Industry benchmarks
-    duration: 6 weeks
-    outputs:
-    - Audit findings
-    - Material weakness reports
-    - Compliance ratings
-  - step: 5
-    actor: Legal Counsel
-    action: Review audit findings and assess legal implications
-    tools:
-    - Legal research databases
-    - Regulatory guidance
-    - Contract review
-    duration: 1 week
-    outputs:
-    - Legal assessment
-    - Regulatory interpretation
-    - Remediation recommendations
-  - step: 6
-    actor: Compliance Officer
-    action: Develop corrective action plan and implementation timeline
-    tools:
-    - CAPA system
-    - Project management tools
-    - Stakeholder analysis
-    duration: 2 weeks
-    outputs:
-    - Corrective action plan
-    - Implementation roadmap
-    - Resource requirements
+   - step: 4
+     actor: External Auditors
+     action: Perform independent testing and validation
+     tools:
+     - Audit software
+     - Sampling tools
+     - Industry benchmarks
+     duration: 6 weeks
+     outputs:
+     - Audit findings
+     - Material weakness reports
+     - Compliance ratings
+   - step: 5
+     actor: Legal Counsel
+     action: Review audit findings and assess legal implications
+     tools:
+     - Legal research databases
+     - Regulatory guidance
+     - Contract review
+     duration: 1 week
+     outputs:
+     - Legal assessment
+     - Regulatory interpretation
+     - Remediation recommendations
+   - step: 6
+     actor: Compliance Officer
+     action: Develop corrective action plan and implementation timeline
+     tools:
+     - CAPA system
+     - Project management tools
+     - Stakeholder analysis
+     duration: 2 weeks
+     outputs:
+     - Corrective action plan
+     - Implementation roadmap
+     - Resource requirements
    - step: 7
      actor: Executive Leadership
      action: Review final audit report and approve remediation plan

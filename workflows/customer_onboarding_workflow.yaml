@@ -18,37 +18,37 @@ workflow:
     - Q4 peak with new contracts
     - Q2 slower due to budget cycles
     historical_evolution: Shifted from manual checklists to automated onboarding platform in 2024, reducing time-to-value by 40%
-  steps:
-  - step: 1
-    actor: Account Executive
-    action: Send welcome package and schedule kickoff meeting
-    tools:
-    - Email automation
-    - Contract management system
-    duration: 2 hours
-    outputs:
-    - Welcome email sent
-    - Kickoff meeting scheduled
-  - step: 2
-    actor: Customer Success Manager
-    action: Conduct onboarding assessment and create implementation plan
-    tools:
-    - Onboarding questionnaire
-    - Project management tool
-    duration: 4 hours
-    outputs:
-    - Customer profile
-    - Implementation roadmap
-  - step: 3
-    actor: Technical Support
-    action: Set up accounts, provide training, and configure systems
-    tools:
-    - User provisioning system
-    - Training materials
-    duration: 8 hours
-    outputs:
-    - User accounts activated
-    - Training completed
+   steps:
+   - step: 1
+     actor: Account Executive
+     action: Send welcome package and schedule kickoff meeting
+     tools:
+     - Email automation
+     - Contract management system
+     duration: 2 hours
+     outputs:
+     - Welcome email sent
+     - Kickoff meeting scheduled
+   - step: 2
+     actor: Customer Success Manager
+     action: Conduct onboarding assessment and create implementation plan
+     tools:
+     - Onboarding questionnaire
+     - Project management tool
+     duration: 4 hours
+     outputs:
+     - Customer profile
+     - Implementation roadmap
+   - step: 3
+     actor: Technical Support
+     action: Set up accounts, provide training, and configure systems
+     tools:
+     - User provisioning system
+     - Training materials
+     duration: 8 hours
+     outputs:
+     - User accounts activated
+     - Training completed
    - step: 4
      actor: Customer Success Manager
      action: Conduct go-live review and establish success metrics

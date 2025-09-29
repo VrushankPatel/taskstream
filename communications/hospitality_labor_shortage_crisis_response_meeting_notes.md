@@ -58,6 +58,12 @@
 - Create employee self-service portals
 - Invest in robotic process automation for routine tasks
 
+### Decisions Made
+- Approved $2.5M budget for workforce initiatives
+- Authorized 15% pay increase for critical roles
+- Established cross-property transfer program
+- Committed to AI recruitment tool implementation
+
 ### Action Items
 1. **CHRO:** Launch emergency hiring campaign - Due: October 7
 2. **Regional GMs:** Assess local labor market conditions - Due: October 5
@@ -75,6 +81,12 @@
 - **High Risk:** Service quality deterioration affecting brand reputation
 - **Medium Risk:** Increased operational costs
 - **Low Risk:** Regulatory compliance with labor laws
+
+### Success Metrics
+- Reduce vacancy rate to <20% within 6 months
+- Improve employee retention rate to >85%
+- Maintain guest satisfaction above 4.2/5
+- Achieve cost-neutral staffing within 12 months
 
 ### Next Steps
 - Weekly workforce dashboard reporting

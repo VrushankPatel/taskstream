@@ -37,11 +37,11 @@ workflow:
       tools: ["Guest feedback system", "Service tracking software"]
       duration: "5 minutes"
       outputs: ["Service completion confirmation", "Feedback collection"]
-   success_criteria: "Guest satisfaction score >4.5/5 and 95% service request resolution"
-   failure_modes: ["Communication breakdowns between departments", "Unavailable service providers", "Incomplete guest preference data"]
-   metrics:
-     - "Guest satisfaction score: >4.5/5"
-     - "Service request resolution rate: >95%"
-     - "Average response time: <15 minutes"
-     - "Repeat guest rate: >70%"
-     - "Upsell revenue per guest: $45"
+  success_criteria: "Guest satisfaction score >4.5/5 and 95% service request resolution"
+  failure_modes: ["Communication breakdowns between departments", "Unavailable service providers", "Incomplete guest preference data"]
+  metrics:
+    - "Guest satisfaction score: >4.5/5"
+    - "Service request resolution rate: >95%"
+    - "Average response time: <15 minutes"
+    - "Repeat guest rate: >70%"
+    - "Upsell revenue per guest: $45"

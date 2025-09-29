@@ -114,6 +114,39 @@ This dashboard tracks the effectiveness of climate adaptation strategies impleme
 - **Yellow Flags:** Heat tolerance <80%, carbon sequestration <1.8 tons/ha, biodiversity <50%
 - **Action Thresholds:** Automatic alerts trigger corrective action plans
 
+## Data Visualization
+
+### Charts and Graphs
+- **Time Series Charts:** Trend lines for all KPIs over 5-year periods
+- **Heat Maps:** Geographic distribution of climate risks and adaptation effectiveness
+- **Radar Charts:** Balanced scorecard of resilience, sustainability, and economic factors
+- **Waterfall Charts:** Breakdown of ROI components and cost drivers
+
+### Dashboard Layout
+- **Top Panel:** Executive summary with key alerts and overall scores
+- **Middle Panel:** Real-time monitoring of critical metrics with trend indicators
+- **Bottom Panel:** Detailed breakdowns by crop type, region, and adaptation strategy
+
+## Automated Alerts
+
+### Critical Alerts
+- Drought resistance drops below 60%
+- Flood losses exceed 25% in any field
+- Water efficiency falls below 1.4 kg/m³ for 3+ days
+- Heat stress causes >10% yield reduction
+
+### Warning Alerts
+- Carbon sequestration rate declines for 2 consecutive months
+- Biodiversity index drops below 50%
+- Adaptation ROI falls below 10%
+- Insurance premiums increase by >5%
+
+### Informational Alerts
+- New weather patterns detected
+- Benchmark improvements achieved
+- Seasonal adaptation recommendations
+- Technology performance updates
+
 ## Benchmarking
 - Industry averages for climate resilience
 - Regional climate adaptation leaders

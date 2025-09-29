@@ -185,5 +185,25 @@ Applies to all unmanned systems operations including drones, autonomous aircraft
 - **Incident Reporting:** Anonymous reporting system for safety concerns
 - **Safety Alerts:** Immediate communication of safety-critical information
 
+## Enforcement & Monitoring
+
+### Compliance Monitoring
+1. **Regular Audits:** Quarterly safety audits of all unmanned systems operations
+2. **Performance Metrics:** Tracking of safety KPIs and incident rates
+3. **Documentation Review:** Verification of all required documentation and records
+4. **System Monitoring:** Automated monitoring of system performance and compliance
+
+### Non-Compliance Consequences
+1. **Minor Violations:** Verbal counseling and additional training requirements
+2. **Serious Violations:** Written warnings and temporary suspension of operations
+3. **Critical Violations:** Termination of employment and regulatory reporting
+4. **System Violations:** Grounding of non-compliant systems until corrected
+
+### Corrective Actions
+1. **Immediate Actions:** Stop unsafe operations and implement immediate fixes
+2. **Root Cause Analysis:** Investigation of underlying causes of non-compliance
+3. **Preventive Measures:** Implementation of systemic improvements
+4. **Follow-up Verification:** Confirmation of corrective action effectiveness
+
 ## Policy Review
 This policy will be reviewed annually or following significant regulatory changes, technological developments, or operational incidents. Updates will be communicated to all affected personnel with appropriate training provided.

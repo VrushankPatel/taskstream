@@ -102,3 +102,14 @@
 - 24/7 operations coverage: Yes
 - Training budget: $450,000 annually
 - Technology investment: $35 million annually
+
+## Training and Development
+- Annual training budget: $450,000
+- Required certifications: OSHA safety, renewable energy technologies
+- Leadership development programs for supervisors
+- Cross-training between wind, solar, and storage operations
+
+## Career Progression
+- Technician to Supervisor: 3-5 years with certifications
+- Supervisor to Manager: 5-7 years with project management experience
+- Manager to Director: 7-10 years with operational excellence

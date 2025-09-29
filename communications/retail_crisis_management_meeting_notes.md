@@ -49,6 +49,18 @@ Develop immediate response strategy for supply chain disruptions caused by extre
 - Mitigation costs: $1.1 million (air freight, expedited shipping)
 - Long-term prevention investment: $3.5 million (supply chain resilience program)
 
+### Risk Assessment
+- Supply chain disruption probability: High (weather-dependent)
+- Customer churn risk: Medium (25% stockout impact)
+- Brand reputation impact: High (negative social media coverage)
+- Competitive advantage loss: Medium (competitors may gain market share)
+
+### Contingency Budget Allocation
+- Emergency supplier activation: $500,000
+- Air freight expediting: $600,000
+- Customer compensation program: $200,000
+- Technology implementation: $800,000
+
 ### Success Metrics
 - Minimize stockout impact to <20% of affected categories
 - Maintain customer satisfaction above 80%

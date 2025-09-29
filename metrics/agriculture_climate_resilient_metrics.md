@@ -153,3 +153,22 @@ Comprehensive metrics dashboard tracking climate adaptation strategies, resilien
 - Soil moisture <50% of field capacity: Water management review
 - Beneficial insect index <120: Pest management adjustment
 - Climate adaptation coverage <85%: Implementation acceleration
+
+## Data Sources and Methodology
+
+### Data Collection
+- Satellite imagery for crop health monitoring
+- Weather station networks for local climate data
+- Soil sensors and probes for moisture and nutrient levels
+- Farmer surveys and field observations
+
+### Calculation Methodology
+- Resilience metrics calculated quarterly
+- Trend analysis using 3-year rolling averages
+- Benchmarking against industry standards
+- Statistical validation of improvement claims
+
+### Reporting Standards
+- GRI Standards for sustainability reporting
+- CDP Climate Change questionnaire alignment
+- Local agricultural extension service data integration

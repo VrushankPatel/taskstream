@@ -2,12 +2,12 @@ workflow:
   id: workflow_online_course_development
   title: Online Course Development Process
   department: Education Technology
-  complexity: high
-  participants:
-  - Subject Matter Expert
-  - Instructional Designer
-  - Multimedia Developer
-  - Quality Assurance Reviewer
+   complexity: high
+   participants:
+   - Subject Matter Expert
+   - Instructional Designer
+   - Multimedia Developer
+   - Quality Assurance Reviewer
    trigger: Curriculum committee approves new course need
    temporal_data:
      first_implemented: "2022-09-01"

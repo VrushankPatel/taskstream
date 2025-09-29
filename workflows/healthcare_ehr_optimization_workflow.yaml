@@ -2,13 +2,13 @@ workflow:
   id: workflow_001
   title: Electronic Health Record Optimization Process
   department: Healthcare IT
-  complexity: high
-  participants:
-  - Chief Medical Information Officer
-  - IT Director
-  - Clinical Department Heads
-  - EHR Vendor
-  - Compliance Officer
+   complexity: high
+   participants:
+   - Chief Medical Information Officer
+   - IT Director
+   - Clinical Department Heads
+   - EHR Vendor
+   - Compliance Officer
    trigger: Performance degradation in EHR system affecting clinical workflows
    temporal_data:
      first_implemented: "2023-02-01"

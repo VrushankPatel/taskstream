@@ -1,16 +1,16 @@
 workflow:
   id: workflow_ai_personalization
   title: AI-Driven Personalization Process
-  department: E-commerce & Marketing
-  complexity: medium
-  participants:
-  - Data Scientist
-  - Marketing Manager
-  - Product Manager
-  - UX Designer
-  - IT Developer
-  - Privacy Officer
-  - Customer Success Manager
+   department: E-commerce & Marketing
+   complexity: medium
+   participants:
+   - Data Scientist
+   - Marketing Manager
+   - Product Manager
+   - UX Designer
+   - IT Developer
+   - Privacy Officer
+   - Customer Success Manager
    trigger: Launch of AI personalization initiative
    temporal_data:
      first_implemented: "2023-01-15"

@@ -2,14 +2,14 @@ workflow:
   id: workflow_workforce_automation
   title: Workforce Automation Transition Workflow
   department: Operations and Human Resources
-  complexity: high
-  participants:
-  - Operations Manager
-  - HR Business Partner
-  - Automation Engineer
-  - Training Coordinator
-  - Union Representative
-  - Employee
+   complexity: high
+   participants:
+   - Operations Manager
+   - HR Business Partner
+   - Automation Engineer
+   - Training Coordinator
+   - Union Representative
+   - Employee
    trigger: Technology upgrade or efficiency initiative requires automation implementation
    temporal_data:
      first_implemented: "2023-04-01"

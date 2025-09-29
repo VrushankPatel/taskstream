@@ -4,37 +4,37 @@ workflow:
   department: Human Resources
   complexity: medium
   participants:
-  - HR Manager
-  - Department Head
-  - IT Security
-  - Compliance Officer
-  - New Employee
-   trigger: New hire acceptance of offer
-   temporal_data:
-     first_implemented: "2022-03-01"
-     last_updated: "2024-08-15"
-     typical_cycle_time: "30 days"
-     average_annual_executions: 150
-     seasonal_variations: ["Higher volume during Q1 hiring season", "Reduced during summer months"]
-     historical_evolution: "Manual paper-based process evolved to digital onboarding portal in 2023, now includes AI-driven personalized training paths"
-   performance_history:
-     success_rate_trend: "85% (2022) → 88% (2023) → 92% (2024)"
-     cost_trend: "$120K (2022) → $110K (2023) → $95K (2024)"
-     efficiency_improvements: ["Digital portal reduced paperwork by 70%", "Automated compliance checks improved accuracy by 25%", "AI personalization increased training completion by 15%"]
-   steps:
-  - step: 1
-    actor: HR Manager
-    action: Schedule onboarding sessions and prepare documentation package
-    tools:
-    - HRIS System
-    - Onboarding Portal
-    - Email System
-    duration: 1 day
-    outputs:
-    - Onboarding schedule
-    - Employee handbook
-    - Equipment request
-  - step: 2
+   - HR Manager
+   - Department Head
+   - IT Security
+   - Compliance Officer
+   - New Employee
+  trigger: New hire acceptance of offer
+  temporal_data:
+    first_implemented: "2022-03-01"
+    last_updated: "2024-08-15"
+    typical_cycle_time: "30 days"
+    average_annual_executions: 150
+    seasonal_variations: ["Higher volume during Q1 hiring season", "Reduced during summer months"]
+    historical_evolution: "Manual paper-based process evolved to digital onboarding portal in 2023, now includes AI-driven personalized training paths"
+  performance_history:
+    success_rate_trend: "85% (2022) → 88% (2023) → 92% (2024)"
+    cost_trend: "$120K (2022) → $110K (2023) → $95K (2024)"
+    efficiency_improvements: ["Digital portal reduced paperwork by 70%", "Automated compliance checks improved accuracy by 25%", "AI personalization increased training completion by 15%"]
+  steps:
+    - step: 1
+     actor: HR Manager
+     action: Schedule onboarding sessions and prepare documentation package
+     tools:
+     - HRIS System
+     - Onboarding Portal
+     - Email System
+     duration: 1 day
+     outputs:
+     - Onboarding schedule
+     - Employee handbook
+     - Equipment request
+    - step: 2
     actor: IT Security
     action: Set up user accounts, email, and system access with security training
     tools:

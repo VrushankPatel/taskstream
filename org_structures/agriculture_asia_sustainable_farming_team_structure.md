@@ -33,10 +33,20 @@
 - **Partnership Managers** (4 FTEs): Stakeholder engagement  
 
 ## Key Performance Indicators
-- **Yield Improvement**: 25% target (Current: 20%)  
-- **Carbon Reduction**: 1M tons CO2 annually target (Current: 800K tons)  
-- **Farmer Adoption**: 90% target (Current: 85%)  
-- **Water Efficiency**: 30% improvement target (Current: 25%)  
+- **Yield Improvement**: 25% target (Current: 20%)
+- **Carbon Reduction**: 1M tons CO2 annually target (Current: 800K tons)
+- **Farmer Adoption**: 90% target (Current: 85%)
+- **Water Efficiency**: 30% improvement target (Current: 25%)
+- **Cost Efficiency**: ¥/ton yield reduction by 15% (Current: 10%)
+- **Training Completion**: 95% farmer certification rate (Current: 90%)
+- **Technology Adoption**: 80% farms using precision tools (Current: 65%)
+- **Partnership Growth**: 20 new partnerships annually (Current: 15)
+
+## Detailed Performance Metrics
+- **Quarterly Targets**: Yield improvement milestones (5% Q1, 10% Q2, 15% Q3, 25% Q4)
+- **Annual Goals**: Carbon sequestration targets by crop type and region
+- **Training Metrics**: Completion rates, farmer satisfaction scores, knowledge retention
+- **Financial KPIs**: ROI on technology investments, cost savings from efficiency gains  
 
 ## Regional Distribution
 - **Thailand**: 45 FTEs - Rice and cassava sustainability  

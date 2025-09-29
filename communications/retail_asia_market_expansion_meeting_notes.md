@@ -13,6 +13,12 @@
 - Focus markets: China, Japan, South Korea, Southeast Asia
 - Key challenges: Cultural adaptation, regulatory compliance, supply chain complexity
 
+### Key Discussion Points
+- Debate on direct market entry vs. strategic partnerships in China
+- Concerns about data localization and privacy regulations
+- Discussion on talent acquisition and local expertise requirements
+- Analysis of competitive landscape and differentiation strategies
+
 ### Market Analysis
 - **China**: Largest opportunity with 1.4B population, e-commerce dominance
 - **Japan**: High disposable income, preference for quality and service
@@ -24,6 +30,18 @@
 2. **Local Partnerships**: Form joint ventures with local retailers
 3. **Omnichannel Integration**: Combine online and physical presence
 4. **Cultural Adaptation**: Customize product offerings and marketing
+
+### Decisions Made
+- Approved ¥500M initial investment for Phase 1 pilot markets
+- Selected Singapore and China as initial entry points
+- Committed to hiring 100 local market experts within 6 months
+- Established joint venture framework for local partnerships
+
+### Concerns and Mitigations
+- **Currency fluctuation risks**: Implement 70% hedging strategy for investments
+- **IP protection challenges**: Secure partnerships with local legal firms
+- **Competition intensity**: Differentiate through superior customer service and localization
+- **Regulatory uncertainty**: Establish dedicated compliance team for each market
 
 ### Implementation Timeline
 - **Phase 1 (2025-2026)**: Market entry in China and Singapore

@@ -61,9 +61,17 @@
 | Jun 2025 | 105K | 2.1 | 98.5 |  
 
 ## Forecasting
-- **Q3 CO2 Target**: 420K tons (±10% confidence)  
-- **Annual Compliance Target**: 98% (98% to goal)  
-- **Risk Factors**: Weather impacts on rehabilitation, regulatory changes  
+- **Q3 CO2 Target**: 420K tons (±10% confidence)
+- **Annual Compliance Target**: 98% (98% to goal)
+- **Water Efficiency Projection**: 1.9 m³/ton by year-end
+- **Rehabilitation Completion**: 90% by Q4 2025
+- **Risk Factors**: Weather impacts on rehabilitation, regulatory changes, supply chain disruptions
+
+### Mitigation Strategies
+- **Weather Impacts**: Accelerated rehabilitation schedules, alternative methods for adverse conditions, weather contingency planning
+- **Regulatory Changes**: Dedicated compliance monitoring team, proactive engagement with regulators, contingency planning for new requirements
+- **Technology Implementation**: AI-driven emission monitoring rollout by Q4, expected 15% reduction in monitoring costs
+- **Supply Chain Risks**: Diversified supplier base, inventory buffers for critical environmental equipment  
 
 ## Benchmarking
 - **Industry Average Compliance**: 92%  

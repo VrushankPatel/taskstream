@@ -18,24 +18,28 @@ workflow:
       action: "Review platform performance metrics and identify optimization opportunities"
       tools: ["E-commerce analytics dashboard", "Conversion tracking tools"]
       duration: "1 week"
+      decision_points: ["Performance metrics below target?", "Optimization opportunities identified?"]
       outputs: ["Performance analysis report", "Optimization recommendations"]
     - step: 2
       actor: "Marketing Analyst"
       action: "Analyze customer behavior and recommend content/personalization improvements"
       tools: ["Customer segmentation platform", "A/B testing tools"]
       duration: "1 week"
+      decision_points: ["Customer behavior patterns clear?", "Personalization opportunities viable?"]
       outputs: ["Customer insights report", "Personalization strategy"]
     - step: 3
       actor: "IT Operations Lead"
       action: "Implement technical optimizations and system updates"
       tools: ["Platform management console", "Performance monitoring tools"]
       duration: "2 weeks"
+      decision_points: ["Technical changes approved?", "Testing successful?"]
       outputs: ["Updated platform configuration", "Testing results"]
     - step: 4
       actor: "Customer Service Supervisor"
       action: "Validate customer experience improvements and provide feedback"
       tools: ["Customer feedback system", "Support ticket analysis"]
       duration: "3 days"
+      decision_points: ["Improvements validated?", "Feedback positive?"]
       outputs: ["Customer experience validation report"]
   success_criteria: "Platform optimization implemented with measurable improvement in conversion rates and customer satisfaction"
   failure_modes: ["Technical implementation issues", "Customer behavior misinterpretation", "Resource constraints"]

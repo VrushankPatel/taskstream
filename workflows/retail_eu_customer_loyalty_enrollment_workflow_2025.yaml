@@ -3,7 +3,10 @@ workflow:
   title: "EU Retail Customer Loyalty Program Enrollment"
   department: "Customer Experience"
   complexity: "simple"
-  participants: ["Customer Service Representative", "Loyalty Program Manager", "Data Privacy Officer"]
+  participants:
+    - "Customer Service Representative"
+    - "Loyalty Program Manager"
+    - "Data Privacy Officer"
   trigger: "New customer requests loyalty program membership"
   temporal_data:
     first_implemented: "2023-01-15"
@@ -12,35 +15,35 @@ workflow:
     average_annual_executions: 25000
     seasonal_variations: ["Q4 holiday peak enrollment", "Q1 post-holiday processing"]
     historical_evolution: "Initially manual process, automated in 2023 with GDPR compliance checks"
-   steps:
-     - step: 1
-       actor: "Customer Service Representative"
-       action: "Verify customer identity and collect basic information (name, email, phone)"
-       tools: ["CRM system", "Identity verification tool", "EU citizen database"]
-       duration: "5 minutes"
-       decision_points: ["Valid EU identification?", "Existing customer record?"]
-       outputs: ["Verified customer profile", "Identity verification log"]
-     - step: 2
-       actor: "Customer Service Representative"
-       action: "Explain loyalty program benefits and obtain consent for data processing"
-       tools: ["Program brochure", "Digital consent form", "Privacy policy summary"]
-       duration: "5 minutes"
-       decision_points: ["Customer understands benefits?", "Consent legally valid?"]
-       outputs: ["Signed consent form", "Consent timestamp", "Privacy preference record"]
-     - step: 3
-       actor: "Loyalty Program Manager"
-       action: "Review enrollment request and approve membership"
-       tools: ["Loyalty management system", "Fraud detection system", "Customer value calculator"]
-       duration: "3 minutes"
-       decision_points: ["Fraud risk assessment passed?", "Customer value threshold met?"]
-       outputs: ["Membership card number", "Welcome email", "Initial reward points allocation"]
-     - step: 4
-       actor: "Data Privacy Officer"
-       action: "Validate GDPR compliance and data processing permissions"
-       tools: ["Compliance checklist", "Audit log", "GDPR compliance dashboard"]
-       duration: "2 minutes"
-       decision_points: ["All consent requirements met?", "Data processing lawful?"]
-       outputs: ["Compliance approval", "Audit trail entry", "Data processing authorization"]
+  steps:
+    - step: 1
+      actor: "Customer Service Representative"
+      action: "Verify customer identity and collect basic information (name, email, phone)"
+      tools: ["CRM system", "Identity verification tool", "EU citizen database"]
+      duration: "5 minutes"
+      decision_points: ["Valid EU identification?", "Existing customer record?"]
+      outputs: ["Verified customer profile", "Identity verification log"]
+    - step: 2
+      actor: "Customer Service Representative"
+      action: "Explain loyalty program benefits and obtain consent for data processing"
+      tools: ["Program brochure", "Digital consent form", "Privacy policy summary"]
+      duration: "5 minutes"
+      decision_points: ["Customer understands benefits?", "Consent legally valid?"]
+      outputs: ["Signed consent form", "Consent timestamp", "Privacy preference record"]
+    - step: 3
+      actor: "Loyalty Program Manager"
+      action: "Review enrollment request and approve membership"
+      tools: ["Loyalty management system", "Fraud detection system", "Customer value calculator"]
+      duration: "3 minutes"
+      decision_points: ["Fraud risk assessment passed?", "Customer value threshold met?"]
+      outputs: ["Membership card number", "Welcome email", "Initial reward points allocation"]
+    - step: 4
+      actor: "Data Privacy Officer"
+      action: "Validate GDPR compliance and data processing permissions"
+      tools: ["Compliance checklist", "Audit log", "GDPR compliance dashboard"]
+      duration: "2 minutes"
+      decision_points: ["All consent requirements met?", "Data processing lawful?"]
+      outputs: ["Compliance approval", "Audit trail entry", "Data processing authorization"]
   success_criteria: "Customer successfully enrolled with active membership and welcome communication sent"
   failure_modes: ["Invalid customer information", "GDPR consent not obtained", "System technical issues"]
   metrics:

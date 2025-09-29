@@ -6,20 +6,20 @@ workflow:
   participants: ["Customer Service Representative", "Customer"]
   trigger: "Customer requests to join loyalty program at checkout or online"
   steps:
-     - step: 1
-       actor: "Customer Service Representative"
-       action: "Verify customer identity and account information"
-       tools: ["CRM System", "Point of Sale Terminal"]
-       duration: "2 minutes"
-       outputs: ["Verified Customer Profile"]
-       decision_points: ["Is customer already enrolled?", "Does customer meet eligibility criteria?"]
-     - step: 2
-       actor: "Customer Service Representative"
-       action: "Collect enrollment details and issue loyalty card"
-       tools: ["Loyalty Program Software", "Card Printer"]
-       duration: "3 minutes"
-       outputs: ["Loyalty Card", "Enrollment Confirmation Email"]
-       decision_points: ["Card printing successful?", "Email delivery confirmation required?"]
+      - step: 1
+        actor: "Customer Service Representative"
+        action: "Verify customer identity and account information"
+        tools: ["CRM System", "Point of Sale Terminal"]
+        duration: "2 minutes"
+        outputs: ["Verified Customer Profile"]
+        decision_points: ["Is customer already enrolled?", "Does customer meet eligibility criteria?", "Valid contact information provided?"]
+      - step: 2
+        actor: "Customer Service Representative"
+        action: "Collect enrollment details and issue loyalty card"
+        tools: ["Loyalty Program Software", "Card Printer", "Email System"]
+        duration: "3 minutes"
+        outputs: ["Loyalty Card", "Enrollment Confirmation Email", "Welcome Rewards Activation"]
+        decision_points: ["Card printing successful?", "Email delivery confirmation required?", "Additional rewards activation needed?"]
   success_criteria: "Customer successfully enrolled with active loyalty account and immediate rewards eligibility"
   failure_modes: ["Invalid customer information provided", "System technical issues preventing enrollment", "Customer declines terms"]
   metrics:

@@ -23,16 +23,16 @@ workflow:
      - step: 3
        actor: "Front Desk Agent"
        action: "Coordinate with housekeeping for room readiness"
-       tools: ["Internal Communication System"]
+       tools: ["Internal Communication System", "Room Status Dashboard"]
        duration: "2 minutes"
-       outputs: ["Room Readiness Confirmation"]
+       outputs: ["Room Readiness Confirmation", "Estimated Wait Time"]
        decision_points: ["Room ready immediately?", "Housekeeping delay expected?", "Alternative room needed?"]
      - step: 4
        actor: "Front Desk Agent"
        action: "Provide guest orientation and amenities information"
-       tools: ["Hotel Information Packet"]
+       tools: ["Hotel Information Packet", "Digital Concierge App"]
        duration: "3 minutes"
-       outputs: ["Guest Welcome Package"]
+       outputs: ["Guest Welcome Package", "Digital Access Credentials"]
        decision_points: ["Guest requires additional assistance?", "Transportation arrangements needed?", "Welcome package customization required?"]
   success_criteria: "Guest checked in efficiently with assigned room and all amenities explained"
   failure_modes: ["Reservation discrepancies", "Room not ready", "Payment processing issues", "System downtime"]

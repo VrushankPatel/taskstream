@@ -6,42 +6,48 @@ workflow:
   participants: ["Registration Clerk", "Nurse", "Patient", "Insurance Coordinator"]
   trigger: "Patient presents at hospital for admission"
   steps:
-    - step: 1
-      actor: "Registration Clerk"
-      action: "Verify patient identity and collect demographic information"
-      tools: ["Electronic Health Record System", "ID Scanner"]
-      duration: "10 minutes"
-      outputs: ["Patient Registration Record"]
-    - step: 2
-      actor: "Registration Clerk"
-      action: "Verify insurance coverage and obtain authorization"
-      tools: ["Insurance Verification System", "Patient Financial Portal"]
-      duration: "15 minutes"
-      outputs: ["Insurance Verification Report", "Financial Responsibility Agreement"]
-    - step: 3
-      actor: "Nurse"
-      action: "Perform initial assessment and vital signs"
-      tools: ["Medical Assessment Tools", "Vital Signs Monitor"]
-      duration: "20 minutes"
-      outputs: ["Initial Nursing Assessment", "Vital Signs Documentation"]
-    - step: 4
-      actor: "Insurance Coordinator"
-      action: "Review and process insurance pre-authorization if required"
-      tools: ["Insurance Portal", "Medical Necessity Guidelines"]
-      duration: "30 minutes"
-      outputs: ["Pre-Authorization Approval", "Coverage Confirmation"]
-    - step: 5
-      actor: "Registration Clerk"
-      action: "Assign patient room and coordinate bed management"
-      tools: ["Bed Management System", "Hospital Information System"]
-      duration: "5 minutes"
-      outputs: ["Room Assignment", "Admission Notification"]
-    - step: 6
-      actor: "Nurse"
-      action: "Provide patient orientation and admission education"
-      tools: ["Patient Education Materials", "Hospital Information Packet"]
-      duration: "15 minutes"
-      outputs: ["Patient Orientation Documentation", "Care Plan Initiation"]
+     - step: 1
+       actor: "Registration Clerk"
+       action: "Verify patient identity and collect demographic information"
+       tools: ["Electronic Health Record System", "ID Scanner"]
+       duration: "10 minutes"
+       outputs: ["Patient Registration Record"]
+       decision_points: ["Patient identity verified?", "Emergency contact information collected?", "Language assistance needed?"]
+     - step: 2
+       actor: "Registration Clerk"
+       action: "Verify insurance coverage and obtain authorization"
+       tools: ["Insurance Verification System", "Patient Financial Portal"]
+       duration: "15 minutes"
+       outputs: ["Insurance Verification Report", "Financial Responsibility Agreement"]
+       decision_points: ["Insurance active and valid?", "Pre-authorization required?", "Patient financial responsibility determined?"]
+     - step: 3
+       actor: "Nurse"
+       action: "Perform initial assessment and vital signs"
+       tools: ["Medical Assessment Tools", "Vital Signs Monitor"]
+       duration: "20 minutes"
+       outputs: ["Initial Nursing Assessment", "Vital Signs Documentation"]
+       decision_points: ["Vital signs within normal range?", "Pain assessment completed?", "Allergies documented?"]
+     - step: 4
+       actor: "Insurance Coordinator"
+       action: "Review and process insurance pre-authorization if required"
+       tools: ["Insurance Portal", "Medical Necessity Guidelines"]
+       duration: "30 minutes"
+       outputs: ["Pre-Authorization Approval", "Coverage Confirmation"]
+       decision_points: ["Pre-authorization obtained?", "Medical necessity confirmed?", "Alternative coverage options explored?"]
+     - step: 5
+       actor: "Registration Clerk"
+       action: "Assign patient room and coordinate bed management"
+       tools: ["Bed Management System", "Hospital Information System"]
+       duration: "5 minutes"
+       outputs: ["Room Assignment", "Admission Notification"]
+       decision_points: ["Preferred room type available?", "Isolation requirements?", "Bed management system updated?"]
+     - step: 6
+       actor: "Nurse"
+       action: "Provide patient orientation and admission education"
+       tools: ["Patient Education Materials", "Hospital Information Packet"]
+       duration: "15 minutes"
+       outputs: ["Patient Orientation Documentation", "Care Plan Initiation"]
+       decision_points: ["Patient understands care plan?", "Family education needed?", "Discharge planning initiated?"]
   success_criteria: "Patient admitted efficiently with complete documentation, insurance verification, and care plan initiated"
   failure_modes: ["Insurance denial", "Bed unavailability", "Incomplete patient information", "Medical emergency escalation"]
   metrics:

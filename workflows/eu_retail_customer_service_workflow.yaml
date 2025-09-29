@@ -6,38 +6,38 @@ workflow:
   participants: ["Customer Service Agent", "Supervisor", "Compliance Officer", "Customer"]
   trigger: "Customer contacts retail support via phone, email, or online portal"
   steps:
-    - step: 1
-      actor: "Customer Service Agent"
-      action: "Verify customer identity and GDPR consent for data processing"
-      tools: ["CRM System", "GDPR Consent Database"]
-      duration: "3 minutes"
-      outputs: ["Verified Customer Profile", "Consent Confirmation"]
-    - step: 2
-      actor: "Customer Service Agent"
-      action: "Assess customer inquiry and determine appropriate resolution path"
-      decision_points: ["Product information request", "Order issue", "Return request", "Complaint"]
-      tools: ["Knowledge Base", "Order Management System"]
-      duration: "5 minutes"
-      outputs: ["Issue Classification", "Resolution Plan"]
-    - step: 3
-      actor: "Customer Service Agent"
-      action: "Execute resolution (provide information, process return, issue refund)"
-      tools: ["Order System", "Refund Processing", "Email System"]
-      duration: "10 minutes"
-      outputs: ["Resolution Executed", "Customer Communication"]
-    - step: 4
-      actor: "Supervisor"
-      action: "Review complex cases or escalations for quality assurance"
-      decision_points: ["Case complexity threshold", "Customer satisfaction risk"]
-      tools: ["Case Management Dashboard"]
-      duration: "15 minutes"
-      outputs: ["Quality Review Completed"]
-    - step: 5
-      actor: "Compliance Officer"
-      action: "Audit customer interactions for GDPR compliance quarterly"
-      tools: ["Compliance Monitoring System"]
-      duration: "2 hours per audit"
-      outputs: ["Compliance Report"]
+     - step: 1
+       actor: "Customer Service Agent"
+       action: "Verify customer identity and GDPR consent for data processing"
+       tools: ["CRM System", "GDPR Consent Database", "Customer Verification Portal"]
+       duration: "3 minutes"
+       outputs: ["Verified Customer Profile", "Consent Confirmation"]
+     - step: 2
+       actor: "Customer Service Agent"
+       action: "Assess customer inquiry and determine appropriate resolution path"
+       decision_points: ["Product information request", "Order issue", "Return request", "Complaint"]
+       tools: ["Knowledge Base", "Order Management System", "Complaint Resolution Templates"]
+       duration: "5 minutes"
+       outputs: ["Issue Classification", "Resolution Plan"]
+     - step: 3
+       actor: "Customer Service Agent"
+       action: "Execute resolution (provide information, process return, issue refund)"
+       tools: ["Order System", "Refund Processing", "Email System", "Customer Feedback Portal"]
+       duration: "10 minutes"
+       outputs: ["Resolution Executed", "Customer Communication"]
+     - step: 4
+       actor: "Supervisor"
+       action: "Review complex cases or escalations for quality assurance"
+       decision_points: ["Case complexity threshold", "Customer satisfaction risk"]
+       tools: ["Case Management Dashboard", "Quality Assurance Checklist"]
+       duration: "15 minutes"
+       outputs: ["Quality Review Completed"]
+     - step: 5
+       actor: "Compliance Officer"
+       action: "Audit customer interactions for GDPR compliance quarterly"
+       tools: ["Compliance Monitoring System", "Audit Trail Database"]
+       duration: "2 hours per audit"
+       outputs: ["Compliance Report"]
   success_criteria: "Customer issue resolved within EU consumer protection timelines, GDPR compliance maintained"
   failure_modes: ["GDPR violation", "Delayed response beyond EU requirements", "Inadequate resolution", "Poor customer experience"]
   metrics:

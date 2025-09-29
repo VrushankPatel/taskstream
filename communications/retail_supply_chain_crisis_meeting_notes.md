@@ -35,12 +35,15 @@
 - Press release prepared for media  
 - Executive communications to key stakeholders  
 
-**Action Items:**  
-- **Procurement Lead:** Contact alternative suppliers by EOD, secure emergency orders  
-- **IT Manager:** Implement real-time inventory tracking dashboard by Friday  
-- **Marketing Director:** Develop customer communication templates by Wednesday  
-- **Customer Service Manager:** Train team on backorder handling procedures  
-- **Operations Manager:** Coordinate with warehouses for inventory optimization  
+**Action Items:**
+- **Procurement Lead:** Contact alternative suppliers by EOD, secure emergency orders
+- **IT Manager:** Implement real-time inventory tracking dashboard by Friday
+- **Marketing Director:** Develop customer communication templates by Wednesday
+- **Customer Service Manager:** Train team on backorder handling procedures
+- **Operations Manager:** Coordinate with warehouses for inventory optimization
+- **Supply Chain Manager:** Develop contingency supplier contracts by end of week
+- **Finance Director:** Assess financial impact and budget adjustments
+- **Legal Counsel:** Review force majeure clauses in supplier contracts
 
 **Risks Identified:**
 - Extended disruption could impact Q4 sales targets
@@ -49,6 +52,9 @@
 - Supplier relationship strain
 - Inventory carrying costs increase
 - Competitor market share gains
+- Supplier bankruptcy risk
+- Currency fluctuation impacts
+- Transportation network disruptions
 
 **Follow-up Actions:**
 - Daily status updates to executive team
@@ -62,6 +68,9 @@
 - Need for real-time inventory visibility
 - Value of proactive customer communication
 - Benefits of cross-functional crisis teams
+- Value of real-time supplier performance monitoring
+- Importance of buffer inventory for critical items
+- Need for diversified transportation options
 
 **Next Meeting:** October 6, 2025 - Progress update and escalation assessment
 

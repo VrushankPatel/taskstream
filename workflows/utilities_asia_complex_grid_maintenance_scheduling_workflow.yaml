@@ -13,55 +13,55 @@ workflow:
     seasonal_variations: ["Monsoon season maintenance restrictions", "Peak demand period scheduling conflicts"]
     historical_evolution: "Traditional calendar-based maintenance evolved to predictive analytics in 2022, integrated IoT sensors in 2023, added regulatory compliance automation in 2024"
   steps:
-     - step: 1
+    - step: 1
        actor: "Asset Performance Analyst"
        action: "Analyze sensor data and predictive models to identify maintenance priorities"
        decision_points: ["Critical vs non-critical maintenance prioritization", "Resource availability constraints", "Weather impact assessment"]
        tools: ["IoT Monitoring Platform", "Predictive Analytics Software", "Asset Management Database", "Weather forecasting integration"]
        duration: "3 days"
        outputs: ["Maintenance priority ranking", "Risk assessment report", "Resource requirements"]
-    - step: 2
-      actor: "Grid Maintenance Manager"
-      action: "Develop maintenance schedule considering grid reliability and customer impact"
-      tools: ["Maintenance Scheduling System", "Grid Reliability Models", "Load Forecasting Tools"]
-      duration: "5 days"
-      outputs: ["Approved maintenance schedule", "Outage notification plan"]
-    - step: 3
-      actor: "Regulatory Compliance Officer"
-      action: "Review schedule for regulatory compliance and obtain necessary permits"
-      tools: ["Regulatory Compliance Database", "Permit Application System"]
-      duration: "7 days"
-      outputs: ["Compliance approval", "Permit documentation"]
-    - step: 4
-      actor: "Field Operations Coordinator"
-      action: "Coordinate with contractors and mobilize maintenance crews"
-      tools: ["Contractor Management Platform", "Crew Scheduling System", "Logistics Coordination Tools"]
-      duration: "10 days"
-      outputs: ["Contractor assignments", "Resource allocation plan"]
-    - step: 5
-      actor: "Safety Inspector"
-      action: "Conduct pre-maintenance safety assessments and approve work procedures"
-      tools: ["Safety Assessment Platform", "Risk Analysis Tools", "Safety Procedure Database"]
-      duration: "2 days"
-      outputs: ["Safety clearance", "Emergency response plan"]
-    - step: 6
-      actor: "IT Systems Specialist"
-      action: "Implement system isolation and monitoring for maintenance activities"
-      tools: ["SCADA Control Systems", "Remote Monitoring Tools", "Backup System Protocols"]
-      duration: "1 day"
-      outputs: ["System isolation confirmed", "Monitoring protocols activated"]
-    - step: 7
-      actor: "Field Operations Coordinator"
-      action: "Execute maintenance activities and document all work performed"
-      tools: ["Field Documentation System", "Quality Control Checklists", "Digital Work Orders"]
-      duration: "Variable (1-7 days)"
-      outputs: ["Maintenance completion report", "Equipment performance data"]
-    - step: 8
-      actor: "Asset Performance Analyst"
-      action: "Validate maintenance effectiveness and update predictive models"
-      tools: ["Performance Analysis Tools", "Model Training Platform", "Asset Database Updates"]
-      duration: "3 days"
-      outputs: ["Performance validation report", "Updated maintenance schedules"]
+     - step: 2
+    actor: "Grid Maintenance Manager"
+    action: "Develop maintenance schedule considering grid reliability and customer impact"
+    tools: ["Maintenance Scheduling System", "Grid Reliability Models", "Load Forecasting Tools"]
+    duration: "5 days"
+    outputs: ["Approved maintenance schedule", "Outage notification plan"]
+     - step: 3
+    actor: "Regulatory Compliance Officer"
+    action: "Review schedule for regulatory compliance and obtain necessary permits"
+    tools: ["Regulatory Compliance Database", "Permit Application System"]
+    duration: "7 days"
+    outputs: ["Compliance approval", "Permit documentation"]
+     - step: 4
+    actor: "Field Operations Coordinator"
+    action: "Coordinate with contractors and mobilize maintenance crews"
+    tools: ["Contractor Management Platform", "Crew Scheduling System", "Logistics Coordination Tools"]
+    duration: "10 days"
+    outputs: ["Contractor assignments", "Resource allocation plan"]
+     - step: 5
+    actor: "Safety Inspector"
+    action: "Conduct pre-maintenance safety assessments and approve work procedures"
+    tools: ["Safety Assessment Platform", "Risk Analysis Tools", "Safety Procedure Database"]
+    duration: "2 days"
+    outputs: ["Safety clearance", "Emergency response plan"]
+     - step: 6
+    actor: "IT Systems Specialist"
+    action: "Implement system isolation and monitoring for maintenance activities"
+    tools: ["SCADA Control Systems", "Remote Monitoring Tools", "Backup System Protocols"]
+    duration: "1 day"
+    outputs: ["System isolation confirmed", "Monitoring protocols activated"]
+     - step: 7
+    actor: "Field Operations Coordinator"
+    action: "Execute maintenance activities and document all work performed"
+    tools: ["Field Documentation System", "Quality Control Checklists", "Digital Work Orders"]
+    duration: "Variable (1-7 days)"
+    outputs: ["Maintenance completion report", "Equipment performance data"]
+     - step: 8
+    actor: "Asset Performance Analyst"
+    action: "Validate maintenance effectiveness and update predictive models"
+    tools: ["Performance Analysis Tools", "Model Training Platform", "Asset Database Updates"]
+    duration: "3 days"
+    outputs: ["Performance validation report", "Updated maintenance schedules"]
   success_criteria: "100% maintenance activities completed on schedule with zero safety incidents and <0.1% grid reliability impact"
   failure_modes: ["Weather-related delays", "Equipment failure during maintenance", "Regulatory permit delays", "Contractor availability issues"]
   metrics:

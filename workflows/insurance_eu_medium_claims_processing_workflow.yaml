@@ -13,37 +13,37 @@ workflow:
     seasonal_variations: ["Winter weather claims peak (25% increase)", "Summer travel claims surge"]
     historical_evolution: "Manual paper-based processing evolved to digital workflow in 2020, integrated AI fraud detection in 2022, added real-time customer updates in 2024"
   steps:
-     - step: 1
+    - step: 1
        actor: "Claims Adjuster"
        action: "Review submitted claim documentation and verify policy coverage"
        decision_points: ["Coverage eligibility under policy terms", "Required documentation completeness", "Claim amount within policy limits"]
        tools: ["Claims Management System", "Policy Database", "Document Verification Tools", "Automated eligibility checker"]
        duration: "2 hours"
        outputs: ["Initial claim assessment", "Coverage determination", "Additional documentation requests"]
-    - step: 2
-      actor: "Fraud Investigator"
-      action: "Conduct automated fraud screening and manual review if flagged"
-      tools: ["AI Fraud Detection System", "Claims History Database", "External Data Sources"]
-      duration: "4 hours"
-      outputs: ["Fraud risk assessment", "Investigation report"]
-    - step: 3
-      actor: "Medical Review Specialist"
-      action: "Validate medical claims with treatment records and medical guidelines"
-      tools: ["Medical Claims Review Platform", "Treatment Guidelines Database"]
-      duration: "8 hours"
-      outputs: ["Medical validation report", "Claim amount recommendation"]
-    - step: 4
-      actor: "Payment Processor"
-      action: "Process approved payment and generate settlement documents"
-      tools: ["Payment Processing System", "Document Generation Tools"]
-      duration: "2 hours"
-      outputs: ["Payment issued", "Settlement documentation"]
-    - step: 5
-      actor: "Customer Service Rep"
-      action: "Communicate claim status and settlement details to policyholder"
-      tools: ["Customer Communication Platform", "Claims Status Portal"]
-      duration: "1 hour"
-      outputs: ["Customer notification sent", "Claim closure confirmation"]
+  - step: 2
+    actor: "Fraud Investigator"
+    action: "Conduct automated fraud screening and manual review if flagged"
+    tools: ["AI Fraud Detection System", "Claims History Database", "External Data Sources"]
+    duration: "4 hours"
+    outputs: ["Fraud risk assessment", "Investigation report"]
+  - step: 3
+    actor: "Medical Review Specialist"
+    action: "Validate medical claims with treatment records and medical guidelines"
+    tools: ["Medical Claims Review Platform", "Treatment Guidelines Database"]
+    duration: "8 hours"
+    outputs: ["Medical validation report", "Claim amount recommendation"]
+  - step: 4
+    actor: "Payment Processor"
+    action: "Process approved payment and generate settlement documents"
+    tools: ["Payment Processing System", "Document Generation Tools"]
+    duration: "2 hours"
+    outputs: ["Payment issued", "Settlement documentation"]
+  - step: 5
+    actor: "Customer Service Rep"
+    action: "Communicate claim status and settlement details to policyholder"
+    tools: ["Customer Communication Platform", "Claims Status Portal"]
+    duration: "1 hour"
+    outputs: ["Customer notification sent", "Claim closure confirmation"]
   success_criteria: "95% of valid claims processed within 5 business days with customer satisfaction >4.5/5"
   failure_modes: ["Documentation insufficiency", "Fraud detection false positives", "Medical validation delays"]
   metrics:

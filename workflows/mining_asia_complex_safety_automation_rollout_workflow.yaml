@@ -13,50 +13,50 @@ workflow:
     seasonal_variations: ["Dry season preferred for installations", "Monsoon season restrictions"]
     historical_evolution: "Manual safety monitoring evolved to automated systems in 2023, integrated AI predictive safety in 2024, expanded to comprehensive automation suite in 2025"
   steps:
-     - step: 1
+    - step: 1
        actor: "Safety Director"
        action: "Conduct comprehensive risk assessment and identify automation priorities"
        decision_points: ["High-risk areas requiring immediate automation", "Budget allocation for safety improvements", "Timeline for implementation phases"]
        tools: ["Risk Assessment Framework", "Safety Incident Database", "Regulatory Requirements Analysis", "Cost-benefit analysis models"]
        duration: "6 weeks"
        outputs: ["Risk assessment report", "Automation priority matrix", "Resource allocation plan"]
-     - step: 2
-       actor: "Automation Project Manager"
-       action: "Design automation solution architecture and select technology vendors"
-       decision_points: ["Technology stack selection (AI vs traditional automation)", "Vendor selection criteria", "Scalability requirements"]
-       tools: ["System Design Platform", "Vendor Evaluation System", "Cost-Benefit Analysis Tools", "Proof-of-concept testing kits"]
-       duration: "8 weeks"
-       outputs: ["Technical specifications", "Vendor contracts", "Project timeline", "Architecture diagrams"]
-    - step: 3
-      actor: "Regulatory Compliance Officer"
-      action: "Ensure all automation systems meet local mining regulations and safety standards"
-      tools: ["Regulatory Compliance Database", "Certification Requirements", "Audit Preparation Tools"]
-      duration: "4 weeks"
-      outputs: ["Compliance certification", "Regulatory approvals"]
-    - step: 4
-      actor: "IT Infrastructure Team"
-      action: "Install network infrastructure and integrate automation systems"
-      tools: ["Network Installation Equipment", "System Integration Platform", "Testing Protocols"]
-      duration: "12 weeks"
-      outputs: ["Network infrastructure", "Integrated systems", "Testing reports"]
-    - step: 5
-      actor: "Mining Operations Manager"
-      action: "Develop standard operating procedures for automated safety systems"
-      tools: ["SOP Development Platform", "Process Documentation Tools", "Operator Feedback Systems"]
-      duration: "6 weeks"
-      outputs: ["Updated SOPs", "Operator guidelines", "Training materials"]
-    - step: 6
-      actor: "Worker Training Coordinators"
-      action: "Conduct comprehensive training for all affected personnel"
-      tools: ["Training Management System", "Simulation Platforms", "Certification Tracking"]
-      duration: "8 weeks"
-      outputs: ["Trained workforce", "Certification records", "Training effectiveness reports"]
-    - step: 7
-      actor: "Risk Assessment Team"
-      action: "Validate system performance and conduct post-implementation safety audit"
-      tools: ["Performance Monitoring Tools", "Safety Audit Framework", "Incident Tracking System"]
-      duration: "4 weeks"
-      outputs: ["Performance validation report", "Safety improvement metrics", "System optimization recommendations"]
+    - step: 2
+    actor: "Automation Project Manager"
+    action: "Design automation solution architecture and select technology vendors"
+    decision_points: ["Technology stack selection (AI vs traditional automation)", "Vendor selection criteria", "Scalability requirements"]
+    tools: ["System Design Platform", "Vendor Evaluation System", "Cost-Benefit Analysis Tools", "Proof-of-concept testing kits"]
+    duration: "8 weeks"
+    outputs: ["Technical specifications", "Vendor contracts", "Project timeline", "Architecture diagrams"]
+  - step: 2
+    actor: "Regulatory Compliance Officer"
+    action: "Ensure all automation systems meet local mining regulations and safety standards"
+    tools: ["Regulatory Compliance Database", "Certification Requirements", "Audit Preparation Tools"]
+    duration: "4 weeks"
+    outputs: ["Compliance certification", "Regulatory approvals"]
+  - step: 3
+    actor: "IT Infrastructure Team"
+    action: "Install network infrastructure and integrate automation systems"
+    tools: ["Network Installation Equipment", "System Integration Platform", "Testing Protocols"]
+    duration: "12 weeks"
+    outputs: ["Network infrastructure", "Integrated systems", "Testing reports"]
+  - step: 4
+    actor: "Mining Operations Manager"
+    action: "Develop standard operating procedures for automated safety systems"
+    tools: ["SOP Development Platform", "Process Documentation Tools", "Operator Feedback Systems"]
+    duration: "6 weeks"
+    outputs: ["Updated SOPs", "Operator guidelines", "Training materials"]
+  - step: 5
+    actor: "Worker Training Coordinators"
+    action: "Conduct comprehensive training for all affected personnel"
+    tools: ["Training Management System", "Simulation Platforms", "Certification Tracking"]
+    duration: "8 weeks"
+    outputs: ["Trained workforce", "Certification records", "Training effectiveness reports"]
+  - step: 7
+    actor: "Risk Assessment Team"
+    action: "Validate system performance and conduct post-implementation safety audit"
+    tools: ["Performance Monitoring Tools", "Safety Audit Framework", "Incident Tracking System"]
+    duration: "4 weeks"
+    outputs: ["Performance validation report", "Safety improvement metrics", "System optimization recommendations"]
   success_criteria: "All high-risk areas automated with 50% reduction in safety incidents and 100% workforce certification completion"
   failure_modes: ["Technology integration challenges", "Worker resistance to automation", "Regulatory approval delays", "Infrastructure limitations"]
   metrics:

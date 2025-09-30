@@ -1,3 +1,50 @@
+---
+language:
+- en
+license: apache-2.0
+task_categories:
+- text-generation
+- question-answering
+- summarization
+tags:
+- business
+- enterprise
+- workflows
+- decision-making
+- processes
+size_categories:
+- 1K<n<10K
+configs:
+- config_name: workflows
+  data_files:
+    - split: train
+      path: data/workflows.jsonl
+- config_name: decisions
+  data_files:
+    - split: train
+      path: data/decisions.jsonl
+- config_name: communications
+  data_files:
+    - split: train
+      path: data/communications.jsonl
+- config_name: org_structures
+  data_files:
+    - split: train
+      path: data/org_structures.jsonl
+- config_name: metrics
+  data_files:
+    - split: train
+      path: data/metrics.jsonl
+- config_name: policies
+  data_files:
+    - split: train
+      path: data/policies.jsonl
+- config_name: all
+  data_files:
+    - split: train
+      path: data/*.jsonl
+---
+
 # TaskStream Enterprise Workflow Dataset
 
 ## Overview

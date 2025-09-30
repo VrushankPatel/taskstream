@@ -1,0 +1,43 @@
+workflow:
+  id: "workflow_consulting_client_engagement"
+  title: "Consulting Client Engagement Process"
+  department: "Consulting Services"
+  complexity: "medium"
+  participants: ["Business Development Manager", "Partner", "Client Prospect", "Proposal Team"]
+  trigger: "Client inquiry or RFP received"
+  temporal_data:
+    first_implemented: "2019-01-01"
+    last_updated: "2025-09-30"
+    typical_cycle_time: "4-8 weeks"
+    average_annual_executions: 85
+    seasonal_variations: ["Q4 RFP peak", "Q2 budget planning slowdown"]
+    historical_evolution: "Shifted from manual proposals to digital collaboration platforms in 2021"
+  steps:
+    - step: 1
+      actor: "Business Development Manager"
+      action: "Qualify opportunity and gather requirements"
+      tools: ["CRM system", "Proposal templates"]
+      duration: "1 week"
+      outputs: ["Opportunity assessment", "Requirements document"]
+    - step: 2
+      actor: "Proposal Team"
+      action: "Develop proposal and pricing"
+      tools: ["Proposal software", "Financial modeling tools"]
+      duration: "2-3 weeks"
+      outputs: ["Client proposal", "Cost estimate"]
+    - step: 3
+      actor: "Partner"
+      action: "Present proposal and negotiate terms"
+      tools: ["Presentation tools", "Contract templates"]
+      duration: "1 week"
+      outputs: ["Signed engagement letter", "Project kickoff plan"]
+  success_criteria: "Proposal accepted, engagement signed with positive margin"
+  failure_modes: ["Poor qualification", "Competitive pricing pressure", "Client scope changes"]
+  metrics:
+    - "Win rate: 35% target"
+    - "Proposal quality score: 4.5/5 target"
+    - "Time to proposal: 14 days target"
+  performance_history:
+    success_rate_trend: "28% (2023) → 32% (2024) → 38% (2025)"
+    cost_trend: "$450K (2023) → $480K (2024) → $520K (2025)"
+    efficiency_improvements: ["Digital templates reduced development time by 30%", "CRM automation improved qualification by 20%"]

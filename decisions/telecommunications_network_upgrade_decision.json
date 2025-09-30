@@ -1,0 +1,62 @@
+{
+  "scenario_id": "telecommunications_network_upgrade_2025",
+  "decision_date": "2025-08-20",
+  "context": "Telecom provider evaluating 5G network infrastructure upgrade",
+  "stakeholders": {
+    "requester": "Chief Technology Officer",
+    "approvers": ["CEO", "CFO", "Chief Network Officer"],
+    "influencers": ["VP Engineering", "VP Customer Experience", "Regulatory Affairs"]
+  },
+  "request": {
+    "amount": "$2.5B",
+    "purpose": "5G network modernization and spectrum acquisition",
+    "urgency": "high",
+    "justification": "Competitive advantage in 5G market and customer demand"
+  },
+  "decision_process": [
+    {
+      "stage": "technical_assessment",
+      "start_date": "2025-06-01",
+      "end_date": "2025-07-01",
+      "duration": "30 days",
+      "activities": ["Network capacity analysis", "Technology evaluation", "Vendor assessment"],
+      "outcome": "5G upgrade recommended"
+    },
+    {
+      "stage": "financial_review",
+      "start_date": "2025-07-02",
+      "end_date": "2025-07-31",
+      "duration": "30 days",
+      "activities": ["Cost-benefit analysis", "ROI modeling", "Funding strategy"],
+      "outcome": "Financially viable with phased approach"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-20",
+      "duration": "20 days",
+      "activities": ["Board presentation", "Stakeholder alignment", "Final approval"],
+      "outcome": "Approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Leading 5G coverage and service quality",
+    "projected_value": "$8B",
+    "actual_value": "$0 (implementation pending)",
+    "roi_timeline": "7 years",
+    "risk_factors": ["Technology obsolescence", "Regulatory delays", "Construction challenges"]
+  },
+  "decision_criteria": ["Market demand", "Technology readiness", "Financial returns", "Regulatory compliance"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-09-01",
+    "completion_date": "2032-08-31",
+    "milestones": ["Phase 1 deployment: 2026-06-01", "Nationwide coverage: 2029-12-01", "Full ROI: 2032-08-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Initial deployment progress and customer feedback",
+    "12_month_review": "Market share impact and competitive positioning",
+    "actual_roi": "Pending full implementation"
+  },
+  "lessons_learned": "Phased approach reduced risk while maintaining competitive momentum"
+}

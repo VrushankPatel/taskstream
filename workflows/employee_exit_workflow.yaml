@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_employee_exit"
+  title: "Employee Exit Process"
+  department: "Human Resources"
+  complexity: "medium"
+  participants: ["HR Manager", "Departing Employee", "Manager", "IT Support", "Finance"]
+  trigger: "Employee resignation or termination notice"
+  temporal_data:
+    first_implemented: "2017-01-01"
+    last_updated: "2025-09-30"
+    typical_cycle_time: "14 days"
+    average_annual_executions: 95
+    seasonal_variations: ["Q4 voluntary turnover peak", "Q1 performance-based exits"]
+    historical_evolution: "Digitalized exit interviews and automated offboarding checklists in 2019"
+  steps:
+    - step: 1
+      actor: "HR Manager"
+      action: "Conduct exit interview and process resignation"
+      tools: ["HRIS system", "Exit interview platform"]
+      duration: "1 day"
+      outputs: ["Exit interview notes", "Resignation acceptance"]
+    - step: 2
+      actor: "Manager"
+      action: "Complete performance documentation and knowledge transfer"
+      tools: ["Performance management system", "Knowledge base"]
+      duration: "3-5 days"
+      outputs: ["Final performance review", "Knowledge transfer plan"]
+    - step: 3
+      actor: "IT Support"
+      action: "Revoke access and recover equipment"
+      tools: ["Identity management system", "Asset tracking"]
+      duration: "1 day"
+      outputs: ["Access revocation confirmation", "Equipment return"]
+    - step: 4
+      actor: "Finance"
+      action: "Process final payroll and benefits"
+      tools: ["Payroll system", "Benefits portal"]
+      duration: "1 week"
+      outputs: ["Final paycheck", "Benefits documentation"]
+  success_criteria: "Smooth transition with all assets recovered, positive exit experience"
+  failure_modes: ["Delayed knowledge transfer", "Unreturned equipment", "Negative exit interview feedback"]
+  metrics:
+    - "Exit process completion rate: 95% target"
+    - "Knowledge transfer satisfaction: 4/5 target"
+    - "Asset recovery rate: 98% target"
+  performance_history:
+    success_rate_trend: "85% (2023) → 90% (2024) → 94% (2025)"
+    cost_trend: "$15K (2023) → $12K (2024) → $10K (2025)"
+    efficiency_improvements: ["Automated checklists reduced processing time by 35%", "Digital signatures improved completion rates by 20%"]

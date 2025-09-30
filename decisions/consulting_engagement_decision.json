@@ -1,0 +1,62 @@
+{
+  "scenario_id": "consulting_engagement_2025",
+  "decision_date": "2025-07-10",
+  "context": "Consulting firm evaluating major client engagement for digital transformation",
+  "stakeholders": {
+    "requester": "Partner",
+    "approvers": ["Managing Director", "Practice Leader"],
+    "influencers": ["Client Relationship Manager", "Delivery Director", "Finance"]
+  },
+  "request": {
+    "amount": "$5M",
+    "purpose": "12-month digital transformation consulting engagement",
+    "urgency": "medium",
+    "justification": "Strategic client relationship and market expansion opportunity"
+  },
+  "decision_process": [
+    {
+      "stage": "opportunity_review",
+      "start_date": "2025-06-01",
+      "end_date": "2025-06-15",
+      "duration": "15 days",
+      "activities": ["Client assessment", "Scope definition", "Resource evaluation"],
+      "outcome": "Opportunity qualified"
+    },
+    {
+      "stage": "proposal_development",
+      "start_date": "2025-06-16",
+      "end_date": "2025-07-01",
+      "duration": "16 days",
+      "activities": ["Team assembly", "Proposal drafting", "Pricing strategy"],
+      "outcome": "Proposal finalized"
+    },
+    {
+      "stage": "final_decision",
+      "start_date": "2025-07-02",
+      "end_date": "2025-07-10",
+      "duration": "9 days",
+      "activities": ["Partner review", "Risk assessment", "Final approval"],
+      "outcome": "Approved"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Strengthened client relationship and revenue growth",
+    "projected_value": "$8M",
+    "actual_value": "$0 (engagement pending)",
+    "roi_timeline": "18 months",
+    "risk_factors": ["Scope creep", "Resource availability", "Client satisfaction"]
+  },
+  "decision_criteria": ["Client relationship value", "Financial margins", "Resource capacity", "Strategic alignment"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-08-01",
+    "completion_date": "2026-07-31",
+    "milestones": ["Kickoff: 2025-08-01", "Phase 1 completion: 2025-12-01", "Final delivery: 2026-07-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Project progress and client feedback",
+    "12_month_review": "Financial performance and relationship strength",
+    "actual_roi": "Pending project completion"
+  },
+  "lessons_learned": "Enhanced scoping process improved project success rates"
+}

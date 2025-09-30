@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_legal_ip_protection"
+  title: "Intellectual Property Protection Process"
+  department: "Legal"
+  complexity: "complex"
+  participants: ["IP Counsel", "R&D Manager", "Patent Attorney", "Business Development"]
+  trigger: "New invention disclosure or IP asset identified"
+  temporal_data:
+    first_implemented: "2016-01-01"
+    last_updated: "2025-09-30"
+    typical_cycle_time: "6-12 months"
+    average_annual_executions: 25
+    seasonal_variations: ["Q4 patent filing peak", "Q2 budget review delays"]
+    historical_evolution: "Integrated AI patent analysis tools in 2023, reducing review time by 40%"
+  steps:
+    - step: 1
+      actor: "R&D Manager"
+      action: "Document invention and assess commercial potential"
+      tools: ["Invention disclosure system", "Market analysis tools"]
+      duration: "2 weeks"
+      outputs: ["Invention disclosure", "Commercial assessment"]
+    - step: 2
+      actor: "IP Counsel"
+      action: "Conduct patentability search and analysis"
+      tools: ["Patent databases", "AI analysis tools"]
+      duration: "4-6 weeks"
+      outputs: ["Patentability report", "Freedom to operate analysis"]
+    - step: 3
+      actor: "Patent Attorney"
+      action: "Prepare and file patent application"
+      tools: ["Patent drafting software", "Filing systems"]
+      duration: "8-12 weeks"
+      outputs: ["Patent application", "Filing confirmation"]
+    - step: 4
+      actor: "Business Development"
+      action: "Develop IP monetization strategy"
+      tools: ["Licensing platforms", "Market intelligence"]
+      duration: "4 weeks"
+      outputs: ["Monetization plan", "Licensing opportunities"]
+  success_criteria: "Patent granted or IP asset successfully protected/monetized"
+  failure_modes: ["Prior art discovered", "Budget constraints", "Competitor infringement"]
+  metrics:
+    - "Patent grant rate: 75% target"
+    - "Time to filing: 90 days target"
+    - "IP revenue generation: $2M target"
+  performance_history:
+    success_rate_trend: "65% (2023) → 72% (2024) → 78% (2025)"
+    cost_trend: "$850K (2023) → $920K (2024) → $980K (2025)"
+    efficiency_improvements: ["AI tools reduced search time by 50%", "Standardized templates improved filing success by 15%"]

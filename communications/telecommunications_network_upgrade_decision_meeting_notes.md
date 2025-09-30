@@ -96,3 +96,96 @@ Next board meeting: November 15, 2025 (Phase 1 progress review)
 Executive committee: Monthly starting September 2025
 
 **Meeting adjourned at 13:00 PM**
+
+---
+
+## Post-Decision Communications
+
+### Internal Announcement Email
+
+**From:** Mark Johnson, CEO  
+**To:** All Employees  
+**Subject:** Major Network Upgrade Approved - Transforming Our 5G Future  
+**Date:** August 21, 2025  
+
+Team,
+
+I'm excited to announce that our Board of Directors has approved a $2.5B investment in our 5G network infrastructure upgrade. This is a transformative decision that will position us as the leader in next-generation connectivity.
+
+**What This Means:**
+- Nationwide 5G coverage deployment over 4 years
+- 1Gbps average download speeds for customers
+- Significant competitive advantage in high-speed services
+- 15% reduction in customer churn expected
+
+**Key Milestones:**
+- Phase 1 (Major cities): Complete by December 2026
+- Full network optimization: Complete by August 2032
+- $3B additional annual revenue from 5G services projected
+
+**Our Role in Success:**
+This upgrade will require collaboration across all departments. Engineering teams will lead the technical implementation, while customer-facing teams will communicate the enhanced capabilities to our customers.
+
+Thank you for your continued dedication to innovation. Together, we're building the future of connectivity.
+
+Best,  
+Mark Johnson  
+CEO  
+Global Telecom Inc.
+
+---
+
+### Investor Relations Update
+
+**From:** Lisa Wong, CFO  
+**To:** Investor Relations Team  
+**Subject:** 5G Network Upgrade - Investor Communications Plan  
+**Date:** August 22, 2025  
+
+Team,
+
+Following yesterday's board approval of the $2.5B 5G network upgrade, please prepare the following communications:
+
+**Press Release:** Issue by COB today highlighting the strategic investment and market impact
+**Investor Presentation:** Update Q3 earnings deck with 5G investment details
+**Analyst Briefing:** Schedule for next week with key financial projections
+**Website Update:** Add 5G roadmap to investor relations section
+
+**Key Financial Highlights:**
+- Total investment: $2.5B over 7 years
+- NPV: $8B at 10% discount rate
+- Payback period: 5.5 years
+- Funding: 40% debt, 30% equity, 30% cash flow
+
+Please coordinate with PR and legal for approval timelines.
+
+Lisa
+
+---
+
+### Vendor Notification
+
+**From:** Dr. Robert Chen, CTO  
+**To:** Ericsson Account Team, Nokia Partnership Team  
+**Subject:** 5G Network Upgrade Approved - Contract Finalization  
+**Date:** August 23, 2025  
+
+Dear Partners,
+
+I'm pleased to inform you that our Board has approved the $2.5B 5G network infrastructure upgrade. This represents a significant commitment to next-generation technology.
+
+**Next Steps:**
+- Contract finalization meetings: Next week
+- Detailed deployment planning: September 2025
+- Equipment procurement initiation: October 2025
+
+**Scope Confirmation:**
+- 600MHz C-band spectrum deployment
+- Standalone 5G with network slicing
+- Nationwide coverage over 4 years
+
+We look forward to our continued partnership in delivering this transformative project.
+
+Best regards,  
+Dr. Robert Chen  
+Chief Technology Officer

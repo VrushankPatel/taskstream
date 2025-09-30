@@ -4,8 +4,16 @@
   "context": "Regional telecom provider facing network congestion and customer complaints, requiring major infrastructure upgrade to 5G capabilities",
   "stakeholders": {
     "requester": "Chief Technology Officer",
-    "approvers": ["Chief Financial Officer", "Chief Executive Officer", "Board of Directors"],
-    "influencers": ["Chief Operating Officer", "VP of Network Operations", "VP of Customer Experience"]
+    "approvers": [
+      "Chief Financial Officer",
+      "Chief Executive Officer",
+      "Board of Directors"
+    ],
+    "influencers": [
+      "Chief Operating Officer",
+      "VP of Network Operations",
+      "VP of Customer Experience"
+    ]
   },
   "request": {
     "amount": "$85,000,000",
@@ -19,7 +27,11 @@
       "start_date": "2024-04-01",
       "end_date": "2024-05-15",
       "duration": "45 days",
-      "activities": ["Network capacity analysis", "Technology vendor evaluation", "ROI modeling"],
+      "activities": [
+        "Network capacity analysis",
+        "Technology vendor evaluation",
+        "ROI modeling"
+      ],
       "outcome": "Identified 5G upgrade as optimal solution with 40% capacity increase"
     },
     {
@@ -27,7 +39,11 @@
       "start_date": "2024-05-15",
       "end_date": "2024-06-01",
       "duration": "18 days",
-      "activities": ["Detailed cost-benefit analysis", "Funding options exploration", "Risk assessment"],
+      "activities": [
+        "Detailed cost-benefit analysis",
+        "Funding options exploration",
+        "Risk assessment"
+      ],
       "outcome": "Approved project with phased implementation approach"
     },
     {
@@ -35,7 +51,11 @@
       "start_date": "2024-06-01",
       "end_date": "2024-06-20",
       "duration": "20 days",
-      "activities": ["Board presentation", "Strategic alignment review", "Final approval vote"],
+      "activities": [
+        "Board presentation",
+        "Strategic alignment review",
+        "Final approval vote"
+      ],
       "outcome": "Approved with performance milestones and KPIs"
     }
   ],
@@ -44,14 +64,28 @@
     "projected_value": "$120M in additional revenue over 5 years from new services and reduced churn",
     "actual_value": "$95M realized (as of 2025-09-30)",
     "roi_timeline": "Expected payback in 42 months",
-    "risk_factors": ["Technology implementation delays", "Regulatory approval timelines", "Construction permitting challenges"]
+    "risk_factors": [
+      "Technology implementation delays",
+      "Regulatory approval timelines",
+      "Construction permitting challenges"
+    ]
   },
-  "decision_criteria": ["Total cost of ownership", "Technical capabilities", "Scalability and performance", "Vendor stability", "Support and SLAs"],
+  "decision_criteria": [
+    "Total cost of ownership",
+    "Technical capabilities",
+    "Scalability and performance",
+    "Vendor stability",
+    "Support and SLAs"
+  ],
   "outcome": "Approved",
   "implementation_timeline": {
     "start_date": "2024-07-01",
     "completion_date": "2026-06-30",
-    "milestones": ["Phase 1 (6 cities): Complete by 2025-03-31", "Phase 2 (6 cities): Complete by 2025-12-31", "Full 5G rollout: Complete by 2026-06-30"]
+    "milestones": [
+      "Phase 1 (6 cities): Complete by 2025-03-31",
+      "Phase 2 (6 cities): Complete by 2025-12-31",
+      "Full 5G rollout: Complete by 2026-06-30"
+    ]
   },
   "outcome_tracking": {
     "6_month_review": "Phase 1 40% complete, network performance improved 25%, early 5G services launched",

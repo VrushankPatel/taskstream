@@ -1,73 +1,122 @@
 workflow:
-  id: "workflow_product_launch"
-  title: "Product Launch Management"
-  department: "Product Management"
-  complexity: "complex"
-  participants: ["Product Manager", "Marketing Lead", "Engineering Lead", "Sales Director", "Customer Success", "Legal", "Finance"]
-  trigger: "Product development completion and go-to-market readiness assessment"
+  id: workflow_product_launch
+  title: Product Launch Management
+  department: Product Management
+  complexity: complex
+  participants:
+  - Product Manager
+  - Marketing Lead
+  - Engineering Lead
+  - Sales Director
+  - Customer Success
+  - Legal
+  - Finance
+  trigger: Product development completion and go-to-market readiness assessment
   temporal_data:
-    first_implemented: "2019-06-01"
-    last_updated: "2024-09-30"
-    typical_cycle_time: "60-120 days"
+    first_implemented: '2019-06-01'
+    last_updated: '2024-09-30'
+    typical_cycle_time: 60-120 days
     average_annual_executions: 8
-    seasonal_variations: ["Q4 launches for holiday season", "Q2 launches avoiding summer slowdown"]
-    historical_evolution: "Shifted from waterfall to agile launch methodology with increased cross-functional collaboration"
+    seasonal_variations:
+    - Q4 launches for holiday season
+    - Q2 launches avoiding summer slowdown
+    historical_evolution: Shifted from waterfall to agile launch methodology with
+      increased cross-functional collaboration
   steps:
-    - step: 1
-      actor: "Product Manager"
-      action: "Finalize product requirements and create launch roadmap"
-      tools: ["Product roadmap tool", "Requirements document"]
-      duration: "7-10 days"
-      outputs: ["Launch roadmap", "Product requirements sign-off"]
-    - step: 2
-      actor: "Engineering Lead"
-      action: "Conduct final quality assurance and performance testing"
-      tools: ["Testing frameworks", "Performance monitoring tools"]
-      duration: "14-21 days"
-      outputs: ["Quality assurance report", "Performance benchmarks"]
-    - step: 3
-      actor: "Marketing Lead"
-      action: "Develop go-to-market strategy and marketing materials"
-      tools: ["Marketing automation platform", "Content management system"]
-      duration: "21-28 days"
-      outputs: ["Marketing plan", "Launch campaign assets"]
-    - step: 4
-      actor: "Sales Director"
-      action: "Prepare sales team training and enablement materials"
-      tools: ["Sales enablement platform", "Training management system"]
-      duration: "14-18 days"
-      outputs: ["Sales playbooks", "Training materials"]
-    - step: 5
-      actor: "Customer Success"
-      action: "Develop customer onboarding and support procedures"
-      tools: ["Knowledge base", "Support ticketing system"]
-      duration: "10-14 days"
-      outputs: ["Onboarding guides", "Support procedures"]
-    - step: 6
-      actor: "Legal"
-      action: "Review marketing claims and contractual terms"
-      tools: ["Legal review checklist", "Contract templates"]
-      duration: "7-10 days"
-      outputs: ["Legal approval", "Compliance documentation"]
-    - step: 7
-      actor: "Finance"
-      action: "Finalize pricing strategy and revenue projections"
-      tools: ["Financial modeling software", "Pricing analysis tools"]
-      duration: "5-7 days"
-      outputs: ["Pricing model", "Revenue forecast"]
-    - step: 8
-      actor: "Product Manager"
-      action: "Execute launch and monitor initial performance"
-      tools: ["Launch dashboard", "Analytics platform"]
-      duration: "30-60 days"
-      outputs: ["Launch metrics report", "Performance analysis"]
-  success_criteria: "Product launched on time with target adoption rate achieved and no critical post-launch issues"
-  failure_modes: ["Technical issues post-launch", "Marketing message misalignment", "Sales team unprepared", "Resource constraints"]
+  - step: 1
+    actor: Product Manager
+    action: Finalize product requirements and create launch roadmap
+    tools:
+    - Product roadmap tool
+    - Requirements document
+    duration: 7-10 days
+    outputs:
+    - Launch roadmap
+    - Product requirements sign-off
+  - step: 2
+    actor: Engineering Lead
+    action: Conduct final quality assurance and performance testing
+    tools:
+    - Testing frameworks
+    - Performance monitoring tools
+    duration: 14-21 days
+    outputs:
+    - Quality assurance report
+    - Performance benchmarks
+  - step: 3
+    actor: Marketing Lead
+    action: Develop go-to-market strategy and marketing materials
+    tools:
+    - Marketing automation platform
+    - Content management system
+    duration: 21-28 days
+    outputs:
+    - Marketing plan
+    - Launch campaign assets
+  - step: 4
+    actor: Sales Director
+    action: Prepare sales team training and enablement materials
+    tools:
+    - Sales enablement platform
+    - Training management system
+    duration: 14-18 days
+    outputs:
+    - Sales playbooks
+    - Training materials
+  - step: 5
+    actor: Customer Success
+    action: Develop customer onboarding and support procedures
+    tools:
+    - Knowledge base
+    - Support ticketing system
+    duration: 10-14 days
+    outputs:
+    - Onboarding guides
+    - Support procedures
+  - step: 6
+    actor: Legal
+    action: Review marketing claims and contractual terms
+    tools:
+    - Legal review checklist
+    - Contract templates
+    duration: 7-10 days
+    outputs:
+    - Legal approval
+    - Compliance documentation
+  - step: 7
+    actor: Finance
+    action: Finalize pricing strategy and revenue projections
+    tools:
+    - Financial modeling software
+    - Pricing analysis tools
+    duration: 5-7 days
+    outputs:
+    - Pricing model
+    - Revenue forecast
+  - step: 8
+    actor: Product Manager
+    action: Execute launch and monitor initial performance
+    tools:
+    - Launch dashboard
+    - Analytics platform
+    duration: 30-60 days
+    outputs:
+    - Launch metrics report
+    - Performance analysis
+  success_criteria: Product launched on time with target adoption rate achieved and
+    no critical post-launch issues
+  failure_modes:
+  - Technical issues post-launch
+  - Marketing message misalignment
+  - Sales team unprepared
+  - Resource constraints
   metrics:
-    - "On-time launch rate: Target 95%"
-    - "Day 30 adoption rate: Target 70% of forecast"
-    - "Customer satisfaction score: Target >4.2/5.0"
+  - 'On-time launch rate: Target 95%'
+  - 'Day 30 adoption rate: Target 70% of forecast'
+  - 'Customer satisfaction score: Target >4.2/5.0'
   performance_history:
-    success_rate_trend: "78% (2022) → 85% (2023) → 92% (2024)"
-    cost_trend: "$450K (2022) → $380K (2023) → $320K (2024)"
-    efficiency_improvements: ["Agile methodology reduced planning time by 35%", "Cross-functional alignment improved launch quality by 40%"]
+    success_rate_trend: 78% (2022) → 85% (2023) → 92% (2024)
+    cost_trend: $450K (2022) → $380K (2023) → $320K (2024)
+    efficiency_improvements:
+    - Agile methodology reduced planning time by 35%
+    - Cross-functional alignment improved launch quality by 40%

@@ -1,61 +1,108 @@
 workflow:
-  id: "workflow_employee_onboarding"
-  title: "Employee Onboarding Workflow"
-  department: "Human Resources"
-  complexity: "medium"
-  participants: ["HR Business Partner", "IT Support", "Facilities Manager", "Department Manager", "New Employee"]
-  trigger: "New hire acceptance of offer letter"
+  id: workflow_employee_onboarding
+  title: Employee Onboarding Workflow
+  department: Human Resources
+  complexity: medium
+  participants:
+  - HR Business Partner
+  - IT Support
+  - Facilities Manager
+  - Department Manager
+  - New Employee
+  trigger: New hire acceptance of offer letter
   temporal_data:
-    first_implemented: "2018-06-01"
-    last_updated: "2024-08-15"
-    typical_cycle_time: "30 days"
+    first_implemented: '2018-06-01'
+    last_updated: '2024-08-15'
+    typical_cycle_time: 30 days
     average_annual_executions: 180
-    seasonal_variations: ["Q1 peak due to annual hiring cycles", "Q3 reduced during budget planning"]
-    historical_evolution: "Manual process evolved to digital platform with automated checklists and AI-driven personalization"
+    seasonal_variations:
+    - Q1 peak due to annual hiring cycles
+    - Q3 reduced during budget planning
+    historical_evolution: Manual process evolved to digital platform with automated
+      checklists and AI-driven personalization
   steps:
-    - step: 1
-      actor: "HR Business Partner"
-      action: "Initiate onboarding process and send welcome package"
-      tools: ["HRIS system", "Onboarding platform", "Email templates"]
-      duration: "2 hours"
-      outputs: ["Welcome email", "Onboarding schedule", "Required documents list"]
-    - step: 2
-      actor: "New Employee"
-      action: "Complete pre-start paperwork and background verification"
-      tools: ["Digital onboarding portal", "Document upload system"]
-      duration: "3-5 days"
-      outputs: ["Completed forms", "Background check results", "Tax documents"]
-    - step: 3
-      actor: "IT Support"
-      action: "Set up computer, email, and system access"
-      tools: ["Identity management system", "Asset tracking", "Security software"]
-      duration: "4 hours"
-      outputs: ["Provisioned accounts", "Hardware assignment", "Access credentials"]
-    - step: 4
-      actor: "Facilities Manager"
-      action: "Arrange workspace and access cards"
-      tools: ["Facility management system", "Access control system"]
-      duration: "2 hours"
-      outputs: ["Workspace assignment", "Access badges", "Parking permits"]
-    - step: 5
-      actor: "Department Manager"
-      action: "Conduct department orientation and assign buddy"
-      tools: ["Mentorship program", "Department documentation"]
-      duration: "4 hours"
-      outputs: ["Department overview", "Buddy assignment", "Initial project assignment"]
-    - step: 6
-      actor: "HR Business Partner"
-      action: "Conduct benefits enrollment and policy review"
-      tools: ["Benefits portal", "Policy documentation", "Training platform"]
-      duration: "3 hours"
-      outputs: ["Benefits elections", "Policy acknowledgments", "Training completion certificates"]
-  success_criteria: "Employee fully productive within 30 days, 90% satisfaction with onboarding experience"
-  failure_modes: ["Delayed IT setup causing productivity loss", "Incomplete paperwork delaying start date", "Poor department integration leading to early turnover"]
+  - step: 1
+    actor: HR Business Partner
+    action: Initiate onboarding process and send welcome package
+    tools:
+    - HRIS system
+    - Onboarding platform
+    - Email templates
+    duration: 2 hours
+    outputs:
+    - Welcome email
+    - Onboarding schedule
+    - Required documents list
+  - step: 2
+    actor: New Employee
+    action: Complete pre-start paperwork and background verification
+    tools:
+    - Digital onboarding portal
+    - Document upload system
+    duration: 3-5 days
+    outputs:
+    - Completed forms
+    - Background check results
+    - Tax documents
+  - step: 3
+    actor: IT Support
+    action: Set up computer, email, and system access
+    tools:
+    - Identity management system
+    - Asset tracking
+    - Security software
+    duration: 4 hours
+    outputs:
+    - Provisioned accounts
+    - Hardware assignment
+    - Access credentials
+  - step: 4
+    actor: Facilities Manager
+    action: Arrange workspace and access cards
+    tools:
+    - Facility management system
+    - Access control system
+    duration: 2 hours
+    outputs:
+    - Workspace assignment
+    - Access badges
+    - Parking permits
+  - step: 5
+    actor: Department Manager
+    action: Conduct department orientation and assign buddy
+    tools:
+    - Mentorship program
+    - Department documentation
+    duration: 4 hours
+    outputs:
+    - Department overview
+    - Buddy assignment
+    - Initial project assignment
+  - step: 6
+    actor: HR Business Partner
+    action: Conduct benefits enrollment and policy review
+    tools:
+    - Benefits portal
+    - Policy documentation
+    - Training platform
+    duration: 3 hours
+    outputs:
+    - Benefits elections
+    - Policy acknowledgments
+    - Training completion certificates
+  success_criteria: Employee fully productive within 30 days, 90% satisfaction with
+    onboarding experience
+  failure_modes:
+  - Delayed IT setup causing productivity loss
+  - Incomplete paperwork delaying start date
+  - Poor department integration leading to early turnover
   metrics:
-    - "Time to productivity: <30 days"
-    - "Onboarding satisfaction: >4.0/5"
-    - "Documentation completion rate: >95%"
+  - 'Time to productivity: <30 days'
+  - 'Onboarding satisfaction: >4.0/5'
+  - 'Documentation completion rate: >95%'
   performance_history:
-    success_rate_trend: "82% (2022) → 88% (2023) → 93% (2024)"
-    cost_trend: "$3,200 (2022) → $2,800 (2023) → $2,400 (2024)"
-    efficiency_improvements: ["Digital platform reduced paperwork time by 60%", "Automated checklists improved completion rates by 25%"]
+    success_rate_trend: 82% (2022) → 88% (2023) → 93% (2024)
+    cost_trend: $3,200 (2022) → $2,800 (2023) → $2,400 (2024)
+    efficiency_improvements:
+    - Digital platform reduced paperwork time by 60%
+    - Automated checklists improved completion rates by 25%

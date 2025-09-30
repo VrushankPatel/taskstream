@@ -1,43 +1,67 @@
 workflow:
-  id: "workflow_consulting_project_management"
-  title: "Consulting Project Management Process"
-  department: "Consulting Services"
-  complexity: "complex"
-  participants: ["Project Manager", "Consultant", "Client Contact", "Delivery Lead"]
-  trigger: "New consulting engagement signed"
+  id: workflow_consulting_project_management
+  title: Consulting Project Management Process
+  department: Consulting Services
+  complexity: complex
+  participants:
+  - Project Manager
+  - Consultant
+  - Client Contact
+  - Delivery Lead
+  trigger: New consulting engagement signed
   temporal_data:
-    first_implemented: "2020-01-15"
-    last_updated: "2025-09-30"
-    typical_cycle_time: "3-6 months"
+    first_implemented: '2020-01-15'
+    last_updated: '2025-09-30'
+    typical_cycle_time: 3-6 months
     average_annual_executions: 45
-    seasonal_variations: ["Q4 peak demand", "Q1 planning phase"]
-    historical_evolution: "Evolved from waterfall to agile methodologies in 2022"
+    seasonal_variations:
+    - Q4 peak demand
+    - Q1 planning phase
+    historical_evolution: Evolved from waterfall to agile methodologies in 2022
   steps:
-    - step: 1
-      actor: "Project Manager"
-      action: "Kick off project and establish team"
-      tools: ["Project management software", "Client portal"]
-      duration: "1 week"
-      outputs: ["Project charter", "Team assignments"]
-    - step: 2
-      actor: "Consultant"
-      action: "Conduct discovery and analysis"
-      tools: ["Data analysis tools", "Interview templates"]
-      duration: "2-4 weeks"
-      outputs: ["Requirements document", "Current state assessment"]
-    - step: 3
-      actor: "Delivery Lead"
-      action: "Develop recommendations and deliverables"
-      tools: ["Presentation software", "Collaboration platforms"]
-      duration: "4-8 weeks"
-      outputs: ["Final report", "Implementation roadmap"]
-  success_criteria: "Client satisfaction score >8/10, project delivered on time and budget"
-  failure_modes: ["Scope creep", "Resource constraints", "Client communication gaps"]
+  - step: 1
+    actor: Project Manager
+    action: Kick off project and establish team
+    tools:
+    - Project management software
+    - Client portal
+    duration: 1 week
+    outputs:
+    - Project charter
+    - Team assignments
+  - step: 2
+    actor: Consultant
+    action: Conduct discovery and analysis
+    tools:
+    - Data analysis tools
+    - Interview templates
+    duration: 2-4 weeks
+    outputs:
+    - Requirements document
+    - Current state assessment
+  - step: 3
+    actor: Delivery Lead
+    action: Develop recommendations and deliverables
+    tools:
+    - Presentation software
+    - Collaboration platforms
+    duration: 4-8 weeks
+    outputs:
+    - Final report
+    - Implementation roadmap
+  success_criteria: Client satisfaction score >8/10, project delivered on time and
+    budget
+  failure_modes:
+  - Scope creep
+  - Resource constraints
+  - Client communication gaps
   metrics:
-    - "Client satisfaction: 85% target"
-    - "On-time delivery: 90% target"
-    - "Budget variance: <5% target"
+  - 'Client satisfaction: 85% target'
+  - 'On-time delivery: 90% target'
+  - 'Budget variance: <5% target'
   performance_history:
-    success_rate_trend: "82% (2023) → 88% (2024) → 92% (2025)"
-    cost_trend: "$2.1M (2023) → $2.3M (2024) → $2.5M (2025)"
-    efficiency_improvements: ["Digital tools reduced analysis time by 25%", "Standardized templates improved quality by 15%"]
+    success_rate_trend: 82% (2023) → 88% (2024) → 92% (2025)
+    cost_trend: $2.1M (2023) → $2.3M (2024) → $2.5M (2025)
+    efficiency_improvements:
+    - Digital tools reduced analysis time by 25%
+    - Standardized templates improved quality by 15%

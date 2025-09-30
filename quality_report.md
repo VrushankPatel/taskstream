@@ -2,7 +2,7 @@
 
 ## Files Processed: 3107 total files
 - Workflows: 811 files
-- Decisions: 622 files  
+- Decisions: 622 files
 - Communications: 613 files
 - Metrics: 362 files
 - Policies: 329 files
@@ -44,7 +44,7 @@
 
 ## Cross-Category Coverage Gaps:
 - Workflows missing policies: 700+ instances
-- Decisions missing communications: 500+ instances  
+- Decisions missing communications: 500+ instances
 - Orphaned org structures: 20+ instances
 - Metrics gaps for workflows: 400+ instances
 

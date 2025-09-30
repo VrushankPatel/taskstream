@@ -1,0 +1,49 @@
+workflow:
+  id: "workflow_expense_reporting"
+  title: "Employee Expense Reporting and Reimbursement"
+  department: "Finance"
+  complexity: "medium"
+  participants: ["Employee", "Manager", "Finance Team", "Accounts Payable"]
+  trigger: "Employee incurs business expenses requiring reimbursement"
+  temporal_data:
+    first_implemented: "2017-01-01"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "7-14 days"
+    average_annual_executions: 2500
+    seasonal_variations: ["Q4 peak during holiday travel", "Q1 spike from conference reimbursements"]
+    historical_evolution: "Migrated from paper-based to automated system with mobile app integration"
+  steps:
+    - step: 1
+      actor: "Employee"
+      action: "Submit expense report with receipts and documentation"
+      tools: ["Expense management system", "Mobile app"]
+      duration: "1-2 days"
+      outputs: ["Completed expense report", "Digital receipts"]
+    - step: 2
+      actor: "Manager"
+      action: "Review and approve expense report for business purpose and policy compliance"
+      tools: ["Approval workflow system", "Policy guidelines"]
+      duration: "1-3 days"
+      outputs: ["Manager approval", "Comments or required changes"]
+    - step: 3
+      actor: "Finance Team"
+      action: "Audit expenses for policy compliance and mathematical accuracy"
+      tools: ["Audit checklist", "Financial systems"]
+      duration: "2-4 days"
+      outputs: ["Audit approval", "Rejection notices for non-compliant items"]
+    - step: 4
+      actor: "Accounts Payable"
+      action: "Process approved expenses and issue reimbursement"
+      tools: ["Payment processing system", "Banking platform"]
+      duration: "3-5 days"
+      outputs: ["Reimbursement payment", "Updated expense records"]
+  success_criteria: "Expenses reimbursed within policy guidelines and within target timeframe"
+  failure_modes: ["Missing receipts", "Policy violations", "Manager approval delays", "Audit rejections"]
+  metrics:
+    - "Average processing time: Target <10 days"
+    - "Approval rate: Target >90%"
+    - "Policy compliance rate: Target >95%"
+  performance_history:
+    success_rate_trend: "82% (2022) → 88% (2023) → 93% (2024)"
+    cost_trend: "$120K (2022) → $95K (2023) → $75K (2024)"
+    efficiency_improvements: ["Mobile app reduced submission time by 50%", "Automated audit checks improved compliance by 25%"]

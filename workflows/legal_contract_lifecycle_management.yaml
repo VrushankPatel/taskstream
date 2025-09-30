@@ -1,0 +1,67 @@
+workflow:
+  id: "workflow_legal_contract_lifecycle"
+  title: "Legal Contract Lifecycle Management"
+  department: "Legal"
+  complexity: "complex"
+  participants: ["Contract Manager", "Legal Counsel", "Business Owner", "Finance", "Compliance"]
+  trigger: "New contract requirement identified or existing contract renewal due"
+  temporal_data:
+    first_implemented: "2018-03-15"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "45-90 days"
+    average_annual_executions: 120
+    seasonal_variations: ["Q4 peak for renewals", "Q1 budget planning constraints"]
+    historical_evolution: "Evolved from manual paper-based process to digital CLM system with AI-assisted review"
+  steps:
+    - step: 1
+      actor: "Business Owner"
+      action: "Identify contract need and draft initial requirements"
+      tools: ["Contract request form", "Business case template"]
+      duration: "3-5 days"
+      outputs: ["Contract requirements document", "Business justification"]
+    - step: 2
+      actor: "Contract Manager"
+      action: "Review requirements and assign legal counsel"
+      tools: ["CLM system", "Contract templates"]
+      duration: "2-3 days"
+      outputs: ["Assigned legal counsel", "Initial contract draft"]
+    - step: 3
+      actor: "Legal Counsel"
+      action: "Conduct legal review and negotiate terms"
+      tools: ["Legal research database", "Contract management software"]
+      duration: "10-30 days"
+      outputs: ["Legal review comments", "Negotiated contract draft"]
+    - step: 4
+      actor: "Compliance"
+      action: "Review for regulatory compliance and risk assessment"
+      tools: ["Compliance checklist", "Risk assessment matrix"]
+      duration: "5-7 days"
+      outputs: ["Compliance approval", "Risk mitigation recommendations"]
+    - step: 5
+      actor: "Finance"
+      action: "Review financial terms and budget approval"
+      tools: ["Financial analysis tools", "Budget approval system"]
+      duration: "3-5 days"
+      outputs: ["Financial approval", "Budget allocation"]
+    - step: 6
+      actor: "Contract Manager"
+      action: "Finalize contract and obtain signatures"
+      tools: ["E-signature platform", "Document management system"]
+      duration: "2-7 days"
+      outputs: ["Executed contract", "Contract record in CLM system"]
+    - step: 7
+      actor: "Contract Manager"
+      action: "Monitor contract performance and handle amendments"
+      tools: ["Contract monitoring dashboard", "Amendment tracking system"]
+      duration: "Ongoing"
+      outputs: ["Performance reports", "Amendment records"]
+  success_criteria: "Contract executed within timeline with all approvals and no material legal risks"
+  failure_modes: ["Extended negotiation delays", "Compliance issues discovered late", "Budget overruns"]
+  metrics:
+    - "Contract cycle time: Target 60 days average"
+    - "Compliance rate: Target 100%"
+    - "Cost savings through standardization: Target $500K annually"
+  performance_history:
+    success_rate_trend: "85% (2022) → 92% (2023) → 95% (2024)"
+    cost_trend: "$2.1M (2022) → $1.8M (2023) → $1.5M (2024)"
+    efficiency_improvements: ["Digital CLM system reduced cycle time by 40%", "Standard templates improved consistency by 60%"]

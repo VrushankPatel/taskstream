@@ -1,0 +1,62 @@
+{
+  "scenario_id": "hr_recruitment_budget_approval_2024",
+  "decision_date": "2024-08-15",
+  "context": "Mid-sized technology company expanding development team, requiring approval for increased recruitment budget to hire 15 senior engineers",
+  "stakeholders": {
+    "requester": "VP of Engineering",
+    "approvers": ["Chief Financial Officer", "Chief Executive Officer"],
+    "influencers": ["Chief Technology Officer", "VP of Human Resources", "Head of Talent Acquisition"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Recruitment budget for Q4 2024 hiring surge",
+    "urgency": "high",
+    "justification": "Critical for product roadmap delivery and maintaining competitive advantage in talent market"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-08-01",
+      "end_date": "2024-08-10",
+      "duration": "10 days",
+      "activities": ["Business case preparation", "Market salary benchmarking", "ROI analysis"],
+      "outcome": "Advanced to CFO review with supporting data"
+    },
+    {
+      "stage": "financial_due_diligence",
+      "start_date": "2024-08-10",
+      "end_date": "2024-08-12",
+      "duration": "3 days",
+      "activities": ["Budget impact analysis", "Cash flow assessment", "Alternative funding options"],
+      "outcome": "Approved with conditions - phased spending approach"
+    },
+    {
+      "stage": "executive_approval",
+      "start_date": "2024-08-12",
+      "end_date": "2024-08-15",
+      "duration": "4 days",
+      "activities": ["Strategic alignment review", "Risk assessment", "Final approval meeting"],
+      "outcome": "Approved with quarterly spending caps"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "15 senior engineers hired by Q1 2025, accelerating product development by 6 months",
+    "projected_value": "$3.2M in additional revenue from accelerated product launches",
+    "actual_value": "$2.8M realized (as of 2025-09-30)",
+    "roi_timeline": "Expected payback in 18 months",
+    "risk_factors": ["Talent market competition", "Budget overruns from extended searches", "Team integration challenges"]
+  },
+  "decision_criteria": ["Strategic alignment with company goals", "Financial viability and ROI", "Market competitiveness", "Execution risk assessment"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-09-01",
+    "completion_date": "2025-03-31",
+    "milestones": ["Q4 2024: $300K spent on 8 hires", "Q1 2025: $450K spent on remaining 7 hires", "Q2 2025: Evaluation and adjustment"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "12 engineers hired, product development on track, budget at 85% utilization",
+    "12_month_review": "15 engineers hired, first product launch accelerated by 4 months, ROI tracking shows 45% of projected value realized",
+    "actual_roi": "78% of projected 3-year value achieved in first 12 months"
+  },
+  "lessons_learned": "Phased approach mitigated budget risk, early market intelligence crucial for competitive hiring, integration planning should start earlier"
+}

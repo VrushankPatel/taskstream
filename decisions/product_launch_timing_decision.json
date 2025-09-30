@@ -1,72 +1,62 @@
 {
-  "scenario_id": "product_launch_mobile_app_q2_2026",
-  "context": "Fintech startup (50 employees) preparing major mobile app feature release",
+  "scenario_id": "product_launch_timing_decision_2024",
+  "decision_date": "2024-08-20",
+  "context": "SaaS company preparing major product release with AI-powered analytics features, evaluating launch timing options amid competitive market pressure",
   "stakeholders": {
-    "requester": "Product Manager",
-    "approvers": [
-      "CEO",
-      "Head of Engineering"
-    ],
-    "influencers": [
-      "Marketing Director",
-      "Customer Success Lead",
-      "QA Manager"
-    ]
+    "requester": "VP Product Management",
+    "approvers": ["Chief Executive Officer", "Chief Product Officer"],
+    "influencers": ["VP Marketing", "VP Sales", "VP Engineering", "Customer Success Director"]
   },
   "request": {
-    "amount": "$150K marketing budget",
-    "purpose": "Accelerated launch of mobile payment features to capture market share",
-    "urgency": "high",
-    "justification": "Competitor launching similar features in 3 months, risking 20% market share loss"
+    "amount": "$2.1M",
+    "purpose": "Accelerated product launch with enhanced marketing campaign",
+    "urgency": "medium",
+    "justification": "Competitive advantage in AI analytics market, customer demand signals, strategic timing before industry conference"
   },
   "decision_process": [
     {
-      "stage": "feature_readiness",
-      "duration": "2 weeks",
-      "activities": [
-        "Code review",
-        "Security testing",
-        "Performance validation"
-      ],
-      "outcome": "Core features 85% complete, acceptable risk level"
+      "stage": "market_analysis",
+      "start_date": "2024-07-15",
+      "end_date": "2024-07-30",
+      "duration": "15 days",
+      "activities": ["Competitive intelligence gathering", "Customer feedback analysis", "Market timing assessment"],
+      "outcome": "Identified optimal window: September launch to align with industry events"
     },
     {
-      "stage": "market_timing",
-      "duration": "1 week",
-      "activities": [
-        "Competitive analysis",
-        "Market research",
-        "Customer feedback review"
-      ],
-      "outcome": "Early launch recommended to establish market leadership"
+      "stage": "technical_readiness_review",
+      "start_date": "2024-07-31",
+      "end_date": "2024-08-10",
+      "duration": "10 days",
+      "activities": ["Quality assurance testing", "Security penetration testing", "Performance benchmarking"],
+      "outcome": "Product ready for launch with minor enhancements needed"
     },
     {
-      "stage": "risk_assessment",
-      "duration": "1 week",
-      "activities": [
-        "Technical risk evaluation",
-        "Business impact analysis",
-        "Contingency planning"
-      ],
-      "outcome": "Acceptable risk with mitigation strategies"
+      "stage": "executive_alignment",
+      "start_date": "2024-08-11",
+      "end_date": "2024-08-20",
+      "duration": "9 days",
+      "activities": ["Financial impact modeling", "Risk assessment", "Go-to-market strategy review"],
+      "outcome": "Approved accelerated timeline with additional marketing investment"
     }
   ],
   "business_impact": {
-    "expected_benefits": [
-      "Capture 15% market share",
-      "Accelerate user acquisition",
-      "Establish feature leadership"
-    ],
-    "implementation_timeline": "8 weeks to launch",
-    "risk_factors": [
-      "Feature instability",
-      "Security vulnerabilities",
-      "Customer support burden"
-    ],
-    "success_metrics": [
-      "App store rating >4.5 stars",
-      "User retention >70%",
-      "Competitive advantage maintained for 6 months"
-    ]
-  }
+    "expected_outcome": "20% market share gain in AI analytics segment within 12 months",
+    "projected_value": "$8.5M additional revenue from new customers and expansions",
+    "actual_value": "$7.2M achieved in first 6 months post-launch",
+    "roi_timeline": "Expected payback in 4 months",
+    "risk_factors": ["Technical issues post-launch", "Competitor response", "Customer adoption challenges"]
+  },
+  "decision_criteria": ["Market readiness and competitive positioning", "Technical stability and quality", "Resource availability and budget alignment", "Strategic timing with industry events"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-09-01",
+    "completion_date": "2024-09-15",
+    "milestones": ["Final QA completion: 2024-08-25", "Beta customer testing: 2024-08-28", "Marketing campaign launch: 2024-09-01", "Public announcement: 2024-09-10"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "25% market share growth achieved, 15,000 new users acquired, customer satisfaction at 4.6/5",
+    "12_month_review": "35% market share gain, $12M additional revenue, expanded to 3 new market segments",
+    "actual_roi": "180% (vs projected 160%)"
+  },
+  "lessons_learned": "Early customer beta testing provided critical feedback, integrated marketing approach maximized launch impact, agile development enabled faster time-to-market"
 }

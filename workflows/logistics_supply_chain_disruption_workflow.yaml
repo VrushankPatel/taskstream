@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_logistics_supply_chain_disruption"
+  title: "Supply Chain Disruption Response Workflow"
+  department: "Logistics Operations"
+  complexity: "complex"
+  participants: ["Supply Chain Manager", "Procurement Lead", "Operations Director", "Vendor Relations Specialist", "IT Support"]
+  trigger: "Supplier delay notification or inventory shortage alert"
+  temporal_data:
+    first_implemented: "2020-03-15"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "2-5 days"
+    average_annual_executions: 24
+    seasonal_variations: ["Q4 peak due to holiday demand", "Q1 supplier capacity constraints"]
+    historical_evolution: "Initially reactive process evolved to proactive monitoring with AI prediction systems"
+  steps:
+    - step: 1
+      actor: "Supply Chain Manager"
+      action: "Assess disruption impact and notify stakeholders"
+      tools: ["Supply chain management software", "Inventory tracking system"]
+      duration: "4 hours"
+      outputs: ["Impact assessment report", "Stakeholder notification"]
+    - step: 2
+      actor: "Procurement Lead"
+      action: "Identify alternative suppliers and negotiate emergency contracts"
+      tools: ["Vendor database", "Contract management system"]
+      duration: "2 days"
+      outputs: ["Alternative supplier list", "Emergency procurement agreements"]
+    - step: 3
+      actor: "Operations Director"
+      action: "Develop contingency plan and allocate resources"
+      decision_points: ["Production halt vs. alternative sourcing", "Cost vs. timeline trade-offs"]
+      duration: "1 day"
+      outputs: ["Contingency plan document", "Resource allocation plan"]
+    - step: 4
+      actor: "Vendor Relations Specialist"
+      action: "Communicate with affected vendors and manage relationships"
+      tools: ["CRM system", "Communication templates"]
+      duration: "3 days"
+      outputs: ["Vendor communication logs", "Relationship management updates"]
+    - step: 5
+      actor: "IT Support"
+      action: "Update supply chain tracking systems and implement monitoring"
+      tools: ["ERP system", "Predictive analytics platform"]
+      duration: "1 day"
+      outputs: ["Updated system configurations", "Enhanced monitoring reports"]
+  success_criteria: "Disruption impact minimized to <5% of operations, alternative sourcing secured within 48 hours"
+  failure_modes: ["Delayed response causing production stoppage", "Poor vendor communication leading to relationship damage", "Inadequate contingency planning"]
+  metrics:
+    - "Response time: <24 hours for critical disruptions"
+    - "Cost impact: <10% budget variance"
+    - "Recovery time: <7 days for full restoration"
+  performance_history:
+    success_rate_trend: "78% (2022) → 85% (2023) → 92% (2024)"
+    cost_trend: "$2.3M (2022) → $1.8M (2023) → $1.2M (2024)"
+    efficiency_improvements: ["AI prediction reduced response time by 40%", "Automated supplier scoring improved sourcing by 25%"]

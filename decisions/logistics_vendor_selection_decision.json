@@ -1,0 +1,62 @@
+{
+  "scenario_id": "logistics_vendor_selection_decision_2024",
+  "decision_date": "2024-06-15",
+  "context": "Manufacturing company requiring new logistics partner for North American distribution network due to current vendor performance issues and capacity constraints",
+  "stakeholders": {
+    "requester": "Director of Supply Chain",
+    "approvers": ["Chief Operations Officer", "Chief Financial Officer"],
+    "influencers": ["VP Sales", "Director of Customer Service", "Legal Counsel"]
+  },
+  "request": {
+    "amount": "$12.5M",
+    "purpose": "Three-year contract with new logistics provider for warehousing and transportation services",
+    "urgency": "high",
+    "justification": "Current vendor at 78% on-time delivery, impacting customer satisfaction and market share"
+  },
+  "decision_process": [
+    {
+      "stage": "vendor_identification",
+      "start_date": "2024-04-01",
+      "end_date": "2024-04-30",
+      "duration": "29 days",
+      "activities": ["Market research and vendor shortlisting", "RFI distribution and response analysis", "Initial capability assessments"],
+      "outcome": "Shortlisted 5 vendors for detailed evaluation"
+    },
+    {
+      "stage": "detailed_evaluation",
+      "start_date": "2024-05-01",
+      "end_date": "2024-05-25",
+      "duration": "24 days",
+      "activities": ["Site visits and operational audits", "Financial stability reviews", "Technology capability assessments", "Reference checks"],
+      "outcome": "Narrowed to 3 finalist vendors with comprehensive scorecards"
+    },
+    {
+      "stage": "negotiation_and_selection",
+      "start_date": "2024-05-26",
+      "end_date": "2024-06-15",
+      "duration": "20 days",
+      "activities": ["Contract negotiation and terms finalization", "Service level agreement development", "Transition planning", "Executive approval"],
+      "outcome": "Selected Global Logistics Partners with optimized contract terms"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improve on-time delivery from 78% to 95%, reduce logistics costs by 12%, enhance customer satisfaction scores",
+    "projected_value": "$8.2M in cost savings and revenue protection over 3 years",
+    "actual_value": "$6.8M realized in first year through improved delivery and reduced expedited shipping costs",
+    "roi_timeline": "Expected payback in 18 months",
+    "risk_factors": ["Transition disruption during vendor change", "Service quality variability", "Contractual penalties for non-performance"]
+  },
+  "decision_criteria": ["Service reliability and performance history", "Cost competitiveness and total cost of ownership", "Technology capabilities and integration readiness", "Financial stability and scalability", "Geographic coverage and network density"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-07-01",
+    "completion_date": "2024-12-31",
+    "milestones": ["Contract signing: 2024-06-20", "Transition planning complete: 2024-08-15", "Pilot operations begin: 2024-09-01", "Full transition complete: 2024-12-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "On-time delivery improved to 92%, initial cost savings of $1.2M, customer satisfaction stable during transition",
+    "12_month_review": "On-time delivery at 96%, cumulative savings of $4.1M, customer NPS improved by 15 points",
+    "actual_roi": "125% (vs projected 110%)"
+  },
+  "lessons_learned": "Comprehensive vendor evaluation prevented costly mistakes, phased transition approach minimized disruption, performance-based contract terms ensured accountability"
+}

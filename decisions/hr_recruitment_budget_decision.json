@@ -1,0 +1,62 @@
+{
+  "scenario_id": "hr_recruitment_budget_approval_2024",
+  "decision_date": "2024-10-15",
+  "context": "Mid-size technology company (500 employees) facing talent shortage in software engineering, requesting increased recruitment budget for Q4 2024",
+  "stakeholders": {
+    "requester": "VP Human Resources",
+    "approvers": ["Chief Financial Officer", "Chief Executive Officer"],
+    "influencers": ["VP Engineering", "Chief Technology Officer", "Head of Talent Acquisition"]
+  },
+  "request": {
+    "amount": "$750,000",
+    "purpose": "Expanded recruitment campaign targeting software engineers and data scientists",
+    "urgency": "high",
+    "justification": "Critical skill gaps impacting product development timelines, competitor hiring pressure"
+  },
+  "decision_process": [
+    {
+      "stage": "initial_review",
+      "start_date": "2024-09-20",
+      "end_date": "2024-09-25",
+      "duration": "5 days",
+      "activities": ["Budget impact analysis", "Market salary benchmarking", "ROI projections"],
+      "outcome": "Approved for review by executive committee"
+    },
+    {
+      "stage": "executive_committee_review",
+      "start_date": "2024-09-26",
+      "end_date": "2024-10-10",
+      "duration": "14 days",
+      "activities": ["Strategic alignment assessment", "Financial modeling", "Risk evaluation"],
+      "outcome": "Conditional approval with performance metrics"
+    },
+    {
+      "stage": "final_approval",
+      "start_date": "2024-10-11",
+      "end_date": "2024-10-15",
+      "duration": "4 days",
+      "activities": ["Contract negotiations", "Budget allocation", "Implementation planning"],
+      "outcome": "Approved with KPIs and quarterly reviews"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Fill 15 critical engineering positions within 90 days",
+    "projected_value": "$2.1M in additional revenue from accelerated product development",
+    "actual_value": "$1.8M realized in Q1 2025",
+    "roi_timeline": "Expected payback in 8 months",
+    "risk_factors": ["Market competition for talent", "Budget overruns", "Hiring quality vs. speed trade-off"]
+  },
+  "decision_criteria": ["Strategic alignment with growth objectives", "Financial ROI projections", "Market competitiveness", "Risk mitigation measures"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-11-01",
+    "completion_date": "2025-01-31",
+    "milestones": ["Recruitment agency contracts signed: 2024-11-15", "Job postings launched: 2024-11-20", "First offers extended: 2024-12-15"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "12 positions filled, budget utilization at 85%, positive candidate quality feedback",
+    "12_month_review": "15 positions filled, 20% productivity increase in engineering teams, ROI achieved ahead of schedule",
+    "actual_roi": "145% (vs projected 120%)"
+  },
+  "lessons_learned": "Early engagement with executive sponsors improved approval speed, performance-based KPIs ensured accountability, market intelligence critical for budget justification"
+}

@@ -1,0 +1,54 @@
+{
+  "scenario_id": "insurance_property_claims_automation_2024",
+  "decision_date": "2024-07-10",
+  "context": "Property insurance company facing 40% increase in claims volume due to extreme weather events",
+  "stakeholders": {
+    "requester": "VP Property Claims",
+    "approvers": ["CFO", "Chief Claims Officer", "Chief Technology Officer"],
+    "influencers": ["Claims Adjusters", "IT Infrastructure Team", "Customer Service Leadership"]
+  },
+  "request": {
+    "amount": "$4.8M",
+    "purpose": "Implement AI-powered claims automation platform for property damage assessment",
+    "urgency": "high",
+    "justification": "Reduce claims processing time by 70%, improve accuracy, handle volume surge from climate events"
+  },
+  "decision_process": [
+    {
+      "stage": "vendor_evaluation",
+      "start_date": "2024-04-01",
+      "end_date": "2024-05-15",
+      "duration": "45 days",
+      "activities": ["RFI/RFP process", "Vendor demonstrations", "Technical architecture review"],
+      "outcome": "Selected AI claims platform with 85% automation potential"
+    },
+    {
+      "stage": "pilot_implementation",
+      "start_date": "2024-05-16",
+      "end_date": "2024-07-01",
+      "duration": "47 days",
+      "activities": ["Pilot setup", "Staff training", "Process validation"],
+      "outcome": "68% processing time reduction, 92% accuracy in pilot claims"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Faster claims settlement, improved customer satisfaction, reduced operational costs",
+    "projected_value": "$12M",
+    "actual_value": "$10.5M (measured over 12 months)",
+    "roi_timeline": "14 months",
+    "risk_factors": ["Technology integration complexity", "Staff adaptation challenges", "Data privacy compliance"]
+  },
+  "decision_criteria": ["Claims processing efficiency", "Cost reduction potential", "Customer experience improvement", "Technology scalability", "Regulatory compliance"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2024-08-01",
+    "completion_date": "2025-05-31",
+    "milestones": ["Full system deployment: 2024-11-30", "Staff training completion: 2024-12-15", "Go-live optimization: 2025-01-31", "Full automation achievement: 2025-05-31"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "55% processing time reduction, 88% customer satisfaction improvement",
+    "12_month_review": "72% processing time reduction, $6.8M cost savings, 91% customer satisfaction",
+    "actual_roi": "218% (vs projected 167%)"
+  },
+  "lessons_learned": "Comprehensive change management essential for successful automation adoption, continuous model training improves accuracy over time"
+}

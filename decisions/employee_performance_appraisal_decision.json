@@ -1,0 +1,54 @@
+{
+  "scenario_id": "employee_performance_appraisal_2024",
+  "decision_date": "2024-12-15",
+  "context": "Annual performance review cycle for mid-level manager in technology consulting firm",
+  "stakeholders": {
+    "requester": "HR Manager",
+    "approvers": ["Department Head", "HR Director"],
+    "influencers": ["Employee", "Supervisor", "Peer Review Committee"]
+  },
+  "request": {
+    "amount": "$15,000",
+    "purpose": "Performance bonus and salary increase",
+    "urgency": "medium",
+    "justification": "Exceeds performance targets, demonstrates leadership growth"
+  },
+  "decision_process": [
+    {
+      "stage": "performance_review",
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-15",
+      "duration": "15 days",
+      "activities": ["Self-assessment", "Supervisor evaluation", "360-degree feedback"],
+      "outcome": "Performance rating of 'Exceeds Expectations'"
+    },
+    {
+      "stage": "compensation_review",
+      "start_date": "2024-11-16",
+      "end_date": "2024-12-01",
+      "duration": "16 days",
+      "activities": ["Market benchmarking", "Budget allocation review", "Equity assessment"],
+      "outcome": "Approved 12% salary increase and $15K bonus"
+    }
+  ],
+  "business_impact": {
+    "expected_outcome": "Improved employee retention and motivation",
+    "projected_value": "$45,000",
+    "actual_value": "$42,000 (measured over 12 months)",
+    "roi_timeline": "18 months",
+    "risk_factors": ["Market competition for talent", "Budget constraints"]
+  },
+  "decision_criteria": ["Performance metrics achievement", "Leadership potential", "Market competitiveness", "Company budget availability"],
+  "outcome": "Approved",
+  "implementation_timeline": {
+    "start_date": "2025-01-01",
+    "completion_date": "2025-12-31",
+    "milestones": ["Salary adjustment effective Jan 1: 2025-01-01", "Bonus payment: 2025-02-15", "Performance development plan review: 2025-06-30"]
+  },
+  "outcome_tracking": {
+    "6_month_review": "Employee engagement survey shows 15% improvement",
+    "12_month_review": "Retention maintained, productivity increased by 8%",
+    "actual_roi": "120% (vs projected 100%)"
+  },
+  "lessons_learned": "360-degree feedback process significantly improved decision quality, recommend expanding to all levels"
+}

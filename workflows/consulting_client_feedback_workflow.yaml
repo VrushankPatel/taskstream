@@ -1,0 +1,55 @@
+workflow:
+  id: "workflow_consulting_client_feedback"
+  title: "Client Feedback Collection and Analysis Process"
+  department: "Client Success"
+  complexity: "medium"
+  participants: ["Client Success Manager", "Project Manager", "Partner", "Client"]
+  trigger: "Project milestone completion or quarterly review"
+  temporal_data:
+    first_implemented: "2020-01-15"
+    last_updated: "2024-09-30"
+    typical_cycle_time: "2 weeks"
+    average_annual_executions: 48
+    seasonal_variations: ["Q4 peak due to year-end reviews", "Q1 focus on strategic planning"]
+    historical_evolution: "Evolved from manual surveys to automated NPS tracking with AI sentiment analysis"
+  steps:
+    - step: 1
+      actor: "Client Success Manager"
+      action: "Schedule feedback session and prepare feedback questionnaire"
+      tools: ["CRM system", "Survey platform", "Project documentation"]
+      duration: "3 days"
+      outputs: ["Feedback questionnaire", "Meeting agenda"]
+    - step: 2
+      actor: "Client"
+      action: "Provide feedback through survey and discussion"
+      tools: ["Online survey", "Video conference"]
+      duration: "1 hour"
+      outputs: ["Completed survey", "Meeting notes"]
+    - step: 3
+      actor: "Client Success Manager"
+      action: "Analyze feedback data and identify key themes"
+      tools: ["Analytics dashboard", "Sentiment analysis tool"]
+      duration: "2 days"
+      outputs: ["Feedback analysis report", "Action items list"]
+    - step: 4
+      actor: "Project Manager"
+      action: "Review analysis and develop improvement plan"
+      tools: ["Project management software", "Collaboration platform"]
+      duration: "3 days"
+      outputs: ["Improvement plan", "Timeline for implementation"]
+    - step: 5
+      actor: "Partner"
+      action: "Approve improvement plan and allocate resources"
+      tools: ["Approval workflow system"]
+      duration: "2 days"
+      outputs: ["Approved plan", "Resource allocation"]
+  success_criteria: "Client satisfaction score improvement of 10% or more"
+  failure_modes: ["Low response rate", "Negative feedback trends", "Implementation delays"]
+  metrics:
+    - "Client satisfaction score: Target 85%"
+    - "Feedback response rate: Target 75%"
+    - "Action item completion rate: Target 90%"
+  performance_history:
+    success_rate_trend: "78% (2022) → 82% (2023) → 85% (2024)"
+    cost_trend: "$25K (2022) → $22K (2023) → $20K (2024)"
+    efficiency_improvements: ["Automated survey distribution reduced time by 40%", "AI analysis improved theme identification by 25%"]

@@ -62,10 +62,10 @@ Weekly status calls: Every Tuesday, 2 PM
 
 ### Email: Project Kickoff Follow-up
 
-**From:** John Smith, Senior Partner  
-**To:** Sarah Johnson, Mike Davis, Lisa Chen, Project Team  
-**Subject:** Digital Transformation Project Kickoff - Next Steps and Timeline  
-**Date:** September 16, 2025  
+**From:** John Smith, Senior Partner
+**To:** Sarah Johnson, Mike Davis, Lisa Chen, Project Team
+**Subject:** Digital Transformation Project Kickoff - Next Steps and Timeline
+**Date:** September 16, 2025
 
 Dear Team,
 
@@ -90,19 +90,19 @@ Thank you all for the productive kickoff meeting yesterday. It was great to alig
 
 Please reach out if you have any questions or need clarification on action items. Looking forward to a successful project!
 
-Best regards,  
-John Smith  
-Senior Partner  
-Consulting Services  
-john.smith@consulting.com  
+Best regards,
+John Smith
+Senior Partner
+Consulting Services
+john.smith@consulting.com
 (555) 987-6543
 
 ---
 
-**From:** Mike Davis, Client CIO  
-**To:** John Smith, Sarah Johnson, Lisa Chen  
-**Subject:** Re: Digital Transformation Project Kickoff - Next Steps and Timeline  
-**Date:** September 17, 2025  
+**From:** Mike Davis, Client CIO
+**To:** John Smith, Sarah Johnson, Lisa Chen
+**Subject:** Re: Digital Transformation Project Kickoff - Next Steps and Timeline
+**Date:** September 17, 2025
 
 John,
 
@@ -112,15 +112,15 @@ Sarah has confirmed the steering committee members - I'll forward the list short
 
 Looking forward to next Tuesday's status meeting.
 
-Best,  
+Best,
 Mike
 
 ---
 
-**From:** Lisa Chen, Project Manager  
-**To:** John Smith, Mike Davis, Sarah Johnson, Project Team  
-**Subject:** Re: Digital Transformation Project Kickoff - Next Steps and Timeline  
-**Date:** September 18, 2025  
+**From:** Lisa Chen, Project Manager
+**To:** John Smith, Mike Davis, Sarah Johnson, Project Team
+**Subject:** Re: Digital Transformation Project Kickoff - Next Steps and Timeline
+**Date:** September 18, 2025
 
 Team,
 
@@ -128,5 +128,5 @@ I've set up the recurring Tuesday 2 PM status meetings in the project calendar. 
 
 I've also created a shared project folder with initial documentation templates. Please review and let me know if you need any modifications.
 
-Best,  
+Best,
 Lisa

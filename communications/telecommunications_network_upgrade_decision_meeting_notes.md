@@ -103,10 +103,10 @@ Executive committee: Monthly starting September 2025
 
 ### Internal Announcement Email
 
-**From:** Mark Johnson, CEO  
-**To:** All Employees  
-**Subject:** Major Network Upgrade Approved - Transforming Our 5G Future  
-**Date:** August 21, 2025  
+**From:** Mark Johnson, CEO
+**To:** All Employees
+**Subject:** Major Network Upgrade Approved - Transforming Our 5G Future
+**Date:** August 21, 2025
 
 Team,
 
@@ -128,19 +128,19 @@ This upgrade will require collaboration across all departments. Engineering team
 
 Thank you for your continued dedication to innovation. Together, we're building the future of connectivity.
 
-Best,  
-Mark Johnson  
-CEO  
+Best,
+Mark Johnson
+CEO
 Global Telecom Inc.
 
 ---
 
 ### Investor Relations Update
 
-**From:** Lisa Wong, CFO  
-**To:** Investor Relations Team  
-**Subject:** 5G Network Upgrade - Investor Communications Plan  
-**Date:** August 22, 2025  
+**From:** Lisa Wong, CFO
+**To:** Investor Relations Team
+**Subject:** 5G Network Upgrade - Investor Communications Plan
+**Date:** August 22, 2025
 
 Team,
 
@@ -165,10 +165,10 @@ Lisa
 
 ### Vendor Notification
 
-**From:** Dr. Robert Chen, CTO  
-**To:** Ericsson Account Team, Nokia Partnership Team  
-**Subject:** 5G Network Upgrade Approved - Contract Finalization  
-**Date:** August 23, 2025  
+**From:** Dr. Robert Chen, CTO
+**To:** Ericsson Account Team, Nokia Partnership Team
+**Subject:** 5G Network Upgrade Approved - Contract Finalization
+**Date:** August 23, 2025
 
 Dear Partners,
 
@@ -186,6 +186,6 @@ I'm pleased to inform you that our Board has approved the $2.5B 5G network infra
 
 We look forward to our continued partnership in delivering this transformative project.
 
-Best regards,  
-Dr. Robert Chen  
+Best regards,
+Dr. Robert Chen
 Chief Technology Officer
